@@ -8,7 +8,8 @@ import java.util.List;
  *
  * https://leetcode.com/problems/palindrome-number/description/[Palindrome Number - LeetCode]
  *
- * Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+ * Determine whether an integer is a palindrome. An integer is a palindrome when
+ * it reads the same backward as forward.
  *
  * .Example 1:
  * [source]
