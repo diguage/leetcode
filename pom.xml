@@ -35,12 +35,14 @@
                         <artifactId>asciidoclet</artifactId>
                         <version>${asciidoclet.version}</version>
                     </docletArtifact>
-                    <overview>src/main/java/overview.adoc</overview>
+                    <!--<overview>src/main/java/overview.adoc</overview>-->
                     <additionalparam>
                         --base-dir ${project.basedir}
+                        --attribute "stem=latexmath"
+                        --attribute "icons=font"
                         --attribute "name=${project.name}"
                         --attribute "version=${project.version}"
-                        --attribute "title-link=http://example.com[${project.name} ${project.version}]"
+                        --attribute "title-link=https://www.diguage.com/[${project.name} ${project.version}|地瓜哥]"
                     </additionalparam>
                 </configuration>
             </plugin>
