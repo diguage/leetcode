@@ -20,6 +20,20 @@ public class ContainerWithMostWater {
         int left = 0;
         int right = height.length - 1;
         int result = 0;
+        while (left < right) {
+            int length = right - left;
+            boolean greater = height[left] < height[right];
+            int high = greater ? height[left] : height[right];
+            int area = length * high;
+            if (area > result) {
+                result = area;
+            }
+            if (greater) {
+                left++;
+            } else {
+                right--;
+            }
+        }
 
         return result;
     }
