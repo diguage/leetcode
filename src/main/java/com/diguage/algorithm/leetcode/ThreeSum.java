@@ -1,8 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * = 15. 3Sum
@@ -30,17 +29,42 @@ import java.util.List;
  * ----
  *
  * @author D瓜哥, https://www.diguage.com/
- * @since 2018-07-14 15:30
+ * @since 2018-07-19
  */
 public class ThreeSum {
     public static List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
+        if (nums.length < 3) {
+            return new ArrayList<>();
+        }
+        Set<List<Integer>> result = new HashSet<>();
 
         Arrays.sort(nums);
 
+        Map<Integer, Integer> numMap = new HashMap<>(nums.length * 4 / 3 + 1);
+        for (int i = 0; i < nums.length; i++) {
+            numMap.put(nums[i], i);
+        }
 
+        if (numMap.size() == 1 && numMap.keySet().contains(0)) {
+            result.add(Arrays.asList(0, 0, 0));
+            return new ArrayList<>(result);
+        }
 
-        return result;
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = nums.length - 1; j > i; j--) {
+                int minuend = 0 - (nums[i] + nums[j]);
+                if (numMap.containsKey(minuend)) {
+                    Integer k = numMap.get(minuend);
+                    if (i != k && j != k) {
+                        int[] oneResult = new int[]{nums[i], nums[j], minuend};
+                        Arrays.sort(oneResult);
+                        result.add(Arrays.stream(oneResult).boxed().collect(Collectors.toList()));
+                    }
+                }
+            }
+        }
+
+        return new ArrayList<>(result);
     }
 
     public static void main(String[] args) {
