@@ -1,5 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
+import java.util.Arrays;
+
 /**
  * = 31. Next Permutation
  *
@@ -26,7 +28,25 @@ package com.diguage.algorithm.leetcode;
  * @since 2018-07-15 01:12
  */
 public class NextPermutation {
-    public void nextPermutation(int[] nums) {
+    public static void nextPermutation(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return;
+        }
 
+    }
+
+    public static void main(String[] args) {
+        int[] a1 = new int[]{1, 2, 3};
+        nextPermutation(a1);
+        System.out.println(Arrays.toString(a1));
+
+
+        int[] a2 = new int[]{3, 2, 1};
+        nextPermutation(a2);
+        System.out.println(Arrays.toString(a2));
+
+        int[] a3 = new int[]{1, 1, 5};
+        nextPermutation(a3);
+        System.out.println(Arrays.toString(a3));
     }
 }
