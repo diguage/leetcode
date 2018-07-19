@@ -58,7 +58,7 @@ import java.util.Arrays;
  * ----
  *
  * @author D瓜哥, https://www.diguage.com/
- * @since 2018-07-15 01:08
+ * @since 2018-07-19 18:55
  */
 public class RemoveElement {
     public static int removeElement(int[] nums, int val) {
