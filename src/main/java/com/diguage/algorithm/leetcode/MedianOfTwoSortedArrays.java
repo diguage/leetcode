@@ -7,7 +7,8 @@ package com.diguage.algorithm.leetcode;
  *
  * There are two sorted arrays nums1 and nums2 of size m and n respectively.
  *
- * Find the median of the two sorted arrays. The overall run time complexity should be latexmath:[O(log(m+n))].
+ * Find the median of the two sorted arrays. The overall run time complexity
+ * should be latexmath:[O(log(m+n))].
  *
  * .Example 1:
  * [source]

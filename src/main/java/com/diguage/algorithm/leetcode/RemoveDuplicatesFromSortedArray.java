@@ -10,7 +10,8 @@ package com.diguage.algorithm.leetcode;
  * element appear only once and return the new length.
  *
  * Do not allocate extra space for another array, you must do this by *modifying
- * the input array* *https://en.wikipedia.org/wiki/In-place_algorithm[in-place]* with O(1) extra memory.
+ * the input array* *https://en.wikipedia.org/wiki/In-place_algorithm[in-place]*
+ * with O(1) extra memory.
  *
  * .Example 1:
  * [source]

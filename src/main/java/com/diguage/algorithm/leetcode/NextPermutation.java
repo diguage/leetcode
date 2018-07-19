@@ -11,7 +11,9 @@ package com.diguage.algorithm.leetcode;
  * If such arrangement is not possible, it must rearrange it as the lowest
  * possible order (ie, sorted in ascending order).
  *
- * The replacement must be *https://en.wikipedia.org/wiki/In-place_algorithm[in-place]* and use only constant extra memory.
+ * The replacement must be
+ * *https://en.wikipedia.org/wiki/In-place_algorithm[in-place]* and use only
+ * constant extra memory.
  *
  * Here are some examples. Inputs are in the left-hand column and its corresponding
  * outputs are in the right-hand column.
