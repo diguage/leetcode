@@ -1,5 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
+import java.util.Arrays;
+
 /**
  * = 26. Remove Duplicates from Sorted Array
  *
@@ -49,15 +51,43 @@ package com.diguage.algorithm.leetcode;
  * // any modification to nums in your function would be known by the caller.
  * // using the length returned by your function, it prints the first len elements.
  * for (int i = 0; i < len; i++) {
- *     print(nums[i]);
+ * print(nums[i]);
  * }
  * ----
  *
  * @author D瓜哥, https://www.diguage.com/
- * @since 2018-07-15 01:01
+ * @since 2018-07-19 18:34
  */
 public class RemoveDuplicatesFromSortedArray {
-    public int removeDuplicates(int[] nums) {
-        return 0;
+    public static int removeDuplicates(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        int result = nums.length;
+        if (nums.length == 1) {
+            return result;
+        }
+
+        int previousNum = nums[0];
+        int minuendIndex = 0;
+        for (int i = 1; i < nums.length; i++) {
+            if (previousNum == nums[i]) {
+                minuendIndex++;
+                result--;
+            } else {
+                previousNum = nums[i];
+            }
+            if (minuendIndex > 0) {
+                nums[i - minuendIndex] = nums[i];
+            }
+        }
+
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
+        System.out.println(removeDuplicates(nums));
+        System.out.println(Arrays.toString(nums));
     }
 }
