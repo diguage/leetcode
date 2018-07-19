@@ -1,5 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
+import java.util.Arrays;
+
 /**
  * = 27. Remove Element
  *
@@ -59,7 +61,28 @@ package com.diguage.algorithm.leetcode;
  * @since 2018-07-15 01:08
  */
 public class RemoveElement {
-    public int removeElement(int[] nums, int val) {
-        return 0;
+    public static int removeElement(int[] nums, int val) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        int result = nums.length;
+        int minuendIndex = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (minuendIndex > 0) {
+                nums[i - minuendIndex] = nums[i];
+            }
+            if (nums[i] == val) {
+                result--;
+                minuendIndex++;
+            }
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{0, 1, 2, 2, 3, 0, 4, 2};
+        int val = 2;
+        System.out.println(removeElement(nums, val));
+        System.out.println(Arrays.toString(nums));
     }
 }
