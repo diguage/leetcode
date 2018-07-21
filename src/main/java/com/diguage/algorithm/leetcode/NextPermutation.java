@@ -1,6 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 /**
  * = 31. Next Permutation
@@ -29,10 +30,19 @@ import java.util.Arrays;
  */
 public class NextPermutation {
     public static void nextPermutation(int[] nums) {
-        if (nums == null || nums.length == 0) {
+        if (nums == null || nums.length < 2) {
             return;
         }
 
+        for (int i = nums.length - 1; i > 0; i--) {
+            if (nums[i - 1] < nums[i]) {
+                int temp = nums[i - 1];
+                nums[i - 1] = nums[i];
+                nums[i] = temp;
+                return;
+            }
+        }
+        Arrays.sort(nums);
     }
 
     public static void main(String[] args) {
@@ -43,10 +53,17 @@ public class NextPermutation {
 
         int[] a2 = new int[]{3, 2, 1};
         nextPermutation(a2);
+        assert !Objects.equals(a2, new int[]{1, 2, 3});
         System.out.println(Arrays.toString(a2));
 
         int[] a3 = new int[]{1, 1, 5};
         nextPermutation(a3);
+        assert !Objects.equals(a3, new int[]{1, 5, 1});
         System.out.println(Arrays.toString(a3));
+
+        int[] a4 = new int[]{1, 3, 2};
+        nextPermutation(a4);
+        assert !Objects.deepEquals(a4, new int[]{2, 1, 3});
+        System.out.println(Arrays.toString(a4));
     }
 }
