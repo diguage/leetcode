@@ -1,0 +1,92 @@
+= LeetCode
+:leetcode_base_url: https://leetcode.com/problems
+:source_base_url: link:./src/main/java/com/diguage/algorithm/leetcode
+
+
+== LeetCode Algorithm
+
+[cols="1,7,1,1",options="header"]
+|===
+|# |Title |Solution |Difficulty
+
+|1
+|{leetcode_base_url}/two-sum/[Two Sum]
+|{source_base_url}/TwoSum.java[Java]
+|Easy
+
+|2
+|{leetcode_base_url}/add-two-numbers/[Add Two Numbers
+]
+|{source_base_url}/AddTwoNumbers.java[Java]
+|Medium
+
+|4
+|{leetcode_base_url}/median-of-two-sorted-arrays/[Median of Two Sorted Arrays]
+|{source_base_url}/MedianOfTwoSortedArrays.java[Java]
+|Hard
+
+|7
+|{leetcode_base_url}/reverse-integer/[Reverse Integer]
+|{source_base_url}/ReverseInteger.java[Java]
+|Easy
+
+|9
+|{leetcode_base_url}/palindrome-number/[Palindrome Number]
+|{source_base_url}/PalindromeNumber.java[Java]
+|Easy
+
+|11
+|{leetcode_base_url}/container-with-most-water/[Container With Most Water]
+|{source_base_url}/ContainerWithMostWater.java[Java]
+|Medium
+
+|13
+|{leetcode_base_url}/roman-to-integer/[Roman to Integer]
+|{source_base_url}/RomanToInteger.java[Java]
+|Easy
+
+|14
+|{leetcode_base_url}/longest-common-prefix/[Longest Common Prefix]
+|{source_base_url}/LongestCommonPrefix.java[Java]
+|Easy
+
+|15
+|{leetcode_base_url}/3sum/[3Sum]
+|{source_base_url}/ThreeSum.java[Java]
+|Medium
+
+|26
+|{leetcode_base_url}/remove-duplicates-from-sorted-array/[Remove Duplicates from Sorted Array]
+|{source_base_url}/RemoveDuplicatesFromSortedArray.java[Java]
+|Easy
+
+|27
+|{leetcode_base_url}/remove-element/[Remove Element]
+|{source_base_url}/RemoveElement.java[Java]
+|Easy
+
+|28
+|{leetcode_base_url}/implement-strstr/[Implement strStr()]
+|{source_base_url}/ImplementStrStr.java[Java]
+|Easy
+
+|33
+|{leetcode_base_url}/search-in-rotated-sorted-array/[Search in Rotated Sorted Array]
+|{source_base_url}/SearchInRotatedSortedArray.java[Java]
+|Medium
+
+|34
+|{leetcode_base_url}/find-first-and-last-position-element-sorted-array/[Find First and Last Position of Element in Sorted Array]
+|{source_base_url}/FindFirstAndLastPositionOfElementInSortedArray.java[Java]
+|Medium
+
+|35
+|{leetcode_base_url}/search-insert-position/[Search Insert Position]
+|{source_base_url}/SearchInsertPosition.java[Java]
+|Easy
+
+|66
+|{leetcode_base_url}/plus-one/[Plus One]
+|{source_base_url}/PlusOne.java[Java]
+|Easy
+|===
