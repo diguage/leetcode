@@ -1,16 +1,17 @@
 package com.diguage.algorithm.leetcode;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
 /**
  * = 3. Longest Substring Without Repeating Characters
- * <p>
+ *
  * https://leetcode.com/problems/longest-substring-without-repeating-characters/[Longest Substring Without Repeating Characters - LeetCode]
- * <p>
+ *
  * Given a string, find the length of the *longest substring* without repeating characters.
- * <p>
+ *
  * .Example 1:
  * [source]
  * ----
@@ -18,7 +19,7 @@ import java.util.Set;
  * Output: 3
  * Explanation: The answer is "abc", with the length of 3.
  * ----
- * <p>
+ *
  * .Example 2:
  * [source]
  * ----
@@ -26,7 +27,7 @@ import java.util.Set;
  * Output: 1
  * Explanation: The answer is "b", with the length of 1.
  * ----
- * <p>
+ *
  * .Example 3:
  * [source]
  * ----
@@ -41,11 +42,40 @@ import java.util.Set;
  */
 public class LongestSubstringWithoutRepeatingCharacters {
     /**
+     * Runtime: 6 ms, faster than 85.45% of Java online submissions for Longest Substring Without Repeating Characters.
+     * <p/>
+     * Memory Usage: 36.4 MB, less than 99.80% of Java online submissions for Longest Substring Without Repeating Characters.
+     */
+    public int lengthOfLongestSubstring(String s) {
+        if (Objects.isNull(s) || s.length() == 0) {
+            return 0;
+        }
+        int result = 0;
+        int length = s.length();
+        HashMap<Character, Integer> charToIndexMap = new HashMap<>(length * 4 / 3);
+        for (int i = 0, j = 0; j < length; j++) {
+            char aChar = s.charAt(j);
+            if (charToIndexMap.containsKey(aChar)) {
+                Integer index = charToIndexMap.get(aChar);
+                if (index + 1 > i) {
+                    i = index + 1;
+                }
+            }
+            charToIndexMap.put(aChar, j);
+            if (j - i + 1 > result) {
+                result = j - i + 1;
+            }
+
+        }
+        return result;
+    }
+
+    /**
      * Runtime: 9 ms, faster than 49.55% of Java online submissions for Longest Substring Without Repeating Characters.
      * <p>
      * Memory Usage: 36 MB, less than 99.88% of Java online submissions for Longest Substring Without Repeating Characters.
      */
-    public int lengthOfLongestSubstring(String s) {
+    public int lengthOfLongestSubstringWithSlidingWindow(String s) {
         if (Objects.isNull(s) || s.length() == 0) {
             return 0;
         }
