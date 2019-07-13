@@ -15,8 +15,7 @@
 |Easy
 
 |2
-|{leetcode_base_url}/add-two-numbers/[Add Two Numbers
-]
+|{leetcode_base_url}/add-two-numbers/[Add Two Numbers]
 |{source_base_url}/AddTwoNumbers.java[Java]
 |Medium
 
@@ -30,20 +29,45 @@
 |{source_base_url}/MedianOfTwoSortedArrays.java[Java]
 |Hard
 
+//|5
+//|{leetcode_base_url}/longest-palindromic-substring/[Longest Palindromic Substring]
+//|{source_base_url}/LongestPalindromicSubstring.java[Java]
+//|Medium
+
+//|6
+//|{leetcode_base_url}/zigzag-conversion/[ZigZag Conversion]
+//|{source_base_url}/ZigZagConversion.java[Java]
+//|Medium
+
 |7
 |{leetcode_base_url}/reverse-integer/[Reverse Integer]
 |{source_base_url}/ReverseInteger.java[Java]
 |Easy
+
+//|8
+//|{leetcode_base_url}/string-to-integer-atoi/[String to Integer (atoi)]
+//|{source_base_url}/StringToIntegerAtoi.java[Java]
+//|Medium
 
 |9
 |{leetcode_base_url}/palindrome-number/[Palindrome Number]
 |{source_base_url}/PalindromeNumber.java[Java]
 |Easy
 
+//|10
+//|{leetcode_base_url}/regular-expression-matching/[Regular Expression Matching]
+//|{source_base_url}/RegularExpressionMatching.java[Java]
+//|Hard
+
 |11
 |{leetcode_base_url}/container-with-most-water/[Container With Most Water]
 |{source_base_url}/ContainerWithMostWater.java[Java]
 |Medium
+
+//|12
+//|{leetcode_base_url}/integer-to-roman/[Integer to Roman]
+//|{source_base_url}/IntegerToRoman.java[Java]
+//|Medium
 
 |13
 |{leetcode_base_url}/roman-to-integer/[Roman to Integer]
@@ -60,6 +84,56 @@
 |{source_base_url}/ThreeSum.java[Java]
 |Medium
 
+//|16
+//|{leetcode_base_url}/3sum-closest/[3Sum Closest]
+//|{source_base_url}/ThreeSumClosest.java[Java]
+//|Medium
+//
+//|17
+//|{leetcode_base_url}/letter-combinations-of-a-phone-number/[Letter Combinations of a Phone Number]
+//|{source_base_url}/LetterCombinationsOfAPhoneNumber.java[Java]
+//|Medium
+//
+//|18
+//|{leetcode_base_url}/4sum/[4Sum]
+//|{source_base_url}/FourSum.java[Java]
+//|Medium
+//
+//|19
+//|{leetcode_base_url}/remove-nth-node-from-end-of-list/[Remove Nth Node From End of List]
+//|{source_base_url}/RemoveNthNodeFromEndOfList.java[Java]
+//|Medium
+
+//|20
+//|{leetcode_base_url}/valid-parentheses/[Valid Parentheses]
+//|{source_base_url}/ValidParentheses.java[Java]
+//|Easy
+//
+//|21
+//|{leetcode_base_url}/merge-two-sorted-lists/[Merge Two Sorted Lists]
+//|{source_base_url}/MergeTwoSortedLists.java[Java]
+//|Easy
+//
+//|22
+//|{leetcode_base_url}/generate-parentheses/[Generate Parentheses]
+//|{source_base_url}/GenerateParentheses.java[Java]
+//|Medium
+//
+//|23
+//|{leetcode_base_url}/merge-k-sorted-lists/[Merge k Sorted Lists]
+//|{source_base_url}/MergeKSortedLists.java[Java]
+//|Hard
+//
+//|24
+//|{leetcode_base_url}/swap-nodes-in-pairs/[Swap Nodes in Pairs]
+//|{source_base_url}/SwapNodesInPairs.java[Java]
+//|Medium
+//
+//|25
+//|{leetcode_base_url}/reverse-nodes-in-k-group/[Reverse Nodes in k-Group]
+//|{source_base_url}/ReverseNodesInKGroup.java[Java]
+//|Hard
+
 |26
 |{leetcode_base_url}/remove-duplicates-from-sorted-array/[Remove Duplicates from Sorted Array]
 |{source_base_url}/RemoveDuplicatesFromSortedArray.java[Java]
@@ -75,13 +149,33 @@
 |{source_base_url}/ImplementStrStr.java[Java]
 |Easy
 
+//|29
+//|{leetcode_base_url}/divide-two-integers/[Divide Two Integers]
+//|{source_base_url}/DivideTwoIntegers.java[Java]
+//|Medium
+//
+//|30
+//|{leetcode_base_url}/substring-with-concatenation-of-all-words/[Substring with Concatenation of All Words]
+//|{source_base_url}/SubstringWithConcatenationOfAllWords.java[Java]
+//|Hard
+//
+//|31
+//|{leetcode_base_url}/next-permutation/[Next Permutation]
+//|{source_base_url}/NextPermutation.java[Java]
+//|Medium
+//
+//|32
+//|{leetcode_base_url}/longest-valid-parentheses/[Longest Valid Parentheses]
+//|{source_base_url}/LongestValidParentheses.java[Java]
+//|Hard
+
 |33
 |{leetcode_base_url}/search-in-rotated-sorted-array/[Search in Rotated Sorted Array]
 |{source_base_url}/SearchInRotatedSortedArray.java[Java]
 |Medium
 
 |34
-|{leetcode_base_url}/find-first-and-last-position-element-sorted-array/[Find First and Last Position of Element in Sorted Array]
+|{leetcode_base_url}/find-first-and-last-position-of-element-in-sorted-array/[Find First and Last Position of Element in Sorted Array]
 |{source_base_url}/FindFirstAndLastPositionOfElementInSortedArray.java[Java]
 |Medium
 
@@ -90,8 +184,5413 @@
 |{source_base_url}/SearchInsertPosition.java[Java]
 |Easy
 
+//|36
+//|{leetcode_base_url}/valid-sudoku/[Valid Sudoku]
+//|{source_base_url}/ValidSudoku.java[Java]
+//|Medium
+//
+//|37
+//|{leetcode_base_url}/sudoku-solver/[Sudoku Solver]
+//|{source_base_url}/SudokuSolver.java[Java]
+//|Hard
+//
+//|38
+//|{leetcode_base_url}/count-and-say/[Count and Say]
+//|{source_base_url}/CountAndSay.java[Java]
+//|Easy
+//
+//|39
+//|{leetcode_base_url}/combination-sum/[Combination Sum]
+//|{source_base_url}/CombinationSum.java[Java]
+//|Medium
+//
+//|40
+//|{leetcode_base_url}/combination-sum-ii/[Combination Sum II]
+//|{source_base_url}/CombinationSumIi.java[Java]
+//|Medium
+//
+//|41
+//|{leetcode_base_url}/first-missing-positive/[First Missing Positive]
+//|{source_base_url}/FirstMissingPositive.java[Java]
+//|Hard
+//
+//|42
+//|{leetcode_base_url}/trapping-rain-water/[Trapping Rain Water]
+//|{source_base_url}/TrappingRainWater.java[Java]
+//|Hard
+//
+//|43
+//|{leetcode_base_url}/multiply-strings/[Multiply Strings]
+//|{source_base_url}/MultiplyStrings.java[Java]
+//|Medium
+//
+//|44
+//|{leetcode_base_url}/wildcard-matching/[Wildcard Matching]
+//|{source_base_url}/WildcardMatching.java[Java]
+//|Hard
+//
+//|45
+//|{leetcode_base_url}/jump-game-ii/[Jump Game II]
+//|{source_base_url}/JumpGameIi.java[Java]
+//|Hard
+//
+//|46
+//|{leetcode_base_url}/permutations/[Permutations]
+//|{source_base_url}/Permutations.java[Java]
+//|Medium
+//
+//|47
+//|{leetcode_base_url}/permutations-ii/[Permutations II]
+//|{source_base_url}/PermutationsIi.java[Java]
+//|Medium
+//
+//|48
+//|{leetcode_base_url}/rotate-image/[Rotate Image]
+//|{source_base_url}/RotateImage.java[Java]
+//|Medium
+//
+//|49
+//|{leetcode_base_url}/group-anagrams/[Group Anagrams]
+//|{source_base_url}/GroupAnagrams.java[Java]
+//|Medium
+//
+//|50
+//|{leetcode_base_url}/powx-n/[Pow(x, n)]
+//|{source_base_url}/PowXN.java[Java]
+//|Medium
+//
+//|51
+//|{leetcode_base_url}/n-queens/[N-Queens]
+//|{source_base_url}/NQueens.java[Java]
+//|Hard
+//
+//|52
+//|{leetcode_base_url}/n-queens-ii/[N-Queens II]
+//|{source_base_url}/NQueensIi.java[Java]
+//|Hard
+//
+//|53
+//|{leetcode_base_url}/maximum-subarray/[Maximum Subarray]
+//|{source_base_url}/MaximumSubarray.java[Java]
+//|Easy
+//
+//|54
+//|{leetcode_base_url}/spiral-matrix/[Spiral Matrix]
+//|{source_base_url}/SpiralMatrix.java[Java]
+//|Medium
+//
+//|55
+//|{leetcode_base_url}/jump-game/[Jump Game]
+//|{source_base_url}/JumpGame.java[Java]
+//|Medium
+//
+//|56
+//|{leetcode_base_url}/merge-intervals/[Merge Intervals]
+//|{source_base_url}/MergeIntervals.java[Java]
+//|Medium
+//
+//|57
+//|{leetcode_base_url}/insert-interval/[Insert Interval]
+//|{source_base_url}/InsertInterval.java[Java]
+//|Hard
+//
+//|58
+//|{leetcode_base_url}/length-of-last-word/[Length of Last Word]
+//|{source_base_url}/LengthOfLastWord.java[Java]
+//|Easy
+//
+//|59
+//|{leetcode_base_url}/spiral-matrix-ii/[Spiral Matrix II]
+//|{source_base_url}/SpiralMatrixIi.java[Java]
+//|Medium
+//
+//|60
+//|{leetcode_base_url}/permutation-sequence/[Permutation Sequence]
+//|{source_base_url}/PermutationSequence.java[Java]
+//|Medium
+//
+//|61
+//|{leetcode_base_url}/rotate-list/[Rotate List]
+//|{source_base_url}/RotateList.java[Java]
+//|Medium
+//
+//|62
+//|{leetcode_base_url}/unique-paths/[Unique Paths]
+//|{source_base_url}/UniquePaths.java[Java]
+//|Medium
+//
+//|63
+//|{leetcode_base_url}/unique-paths-ii/[Unique Paths II]
+//|{source_base_url}/UniquePathsIi.java[Java]
+//|Medium
+//
+//|64
+//|{leetcode_base_url}/minimum-path-sum/[Minimum Path Sum]
+//|{source_base_url}/MinimumPathSum.java[Java]
+//|Medium
+//
+//|65
+//|{leetcode_base_url}/valid-number/[Valid Number]
+//|{source_base_url}/ValidNumber.java[Java]
+//|Hard
+
 |66
 |{leetcode_base_url}/plus-one/[Plus One]
 |{source_base_url}/PlusOne.java[Java]
 |Easy
+
+//|67
+//|{leetcode_base_url}/add-binary/[Add Binary]
+//|{source_base_url}/AddBinary.java[Java]
+//|Easy
+//
+//|68
+//|{leetcode_base_url}/text-justification/[Text Justification]
+//|{source_base_url}/TextJustification.java[Java]
+//|Hard
+//
+//|69
+//|{leetcode_base_url}/sqrtx/[Sqrt(x)]
+//|{source_base_url}/SqrtX.java[Java]
+//|Easy
+//
+//|70
+//|{leetcode_base_url}/climbing-stairs/[Climbing Stairs]
+//|{source_base_url}/ClimbingStairs.java[Java]
+//|Easy
+//
+//|71
+//|{leetcode_base_url}/simplify-path/[Simplify Path]
+//|{source_base_url}/SimplifyPath.java[Java]
+//|Medium
+//
+//|72
+//|{leetcode_base_url}/edit-distance/[Edit Distance]
+//|{source_base_url}/EditDistance.java[Java]
+//|Hard
+//
+//|73
+//|{leetcode_base_url}/set-matrix-zeroes/[Set Matrix Zeroes]
+//|{source_base_url}/SetMatrixZeroes.java[Java]
+//|Medium
+//
+//|74
+//|{leetcode_base_url}/search-a-2d-matrix/[Search a 2D Matrix]
+//|{source_base_url}/SearchA2dMatrix.java[Java]
+//|Medium
+//
+//|75
+//|{leetcode_base_url}/sort-colors/[Sort Colors]
+//|{source_base_url}/SortColors.java[Java]
+//|Medium
+//
+//|76
+//|{leetcode_base_url}/minimum-window-substring/[Minimum Window Substring]
+//|{source_base_url}/MinimumWindowSubstring.java[Java]
+//|Hard
+//
+//|77
+//|{leetcode_base_url}/combinations/[Combinations]
+//|{source_base_url}/Combinations.java[Java]
+//|Medium
+//
+//|78
+//|{leetcode_base_url}/subsets/[Subsets]
+//|{source_base_url}/Subsets.java[Java]
+//|Medium
+//
+//|79
+//|{leetcode_base_url}/word-search/[Word Search]
+//|{source_base_url}/WordSearch.java[Java]
+//|Medium
+//
+//|80
+//|{leetcode_base_url}/remove-duplicates-from-sorted-array-ii/[Remove Duplicates from Sorted Array II]
+//|{source_base_url}/RemoveDuplicatesFromSortedArrayIi.java[Java]
+//|Medium
+//
+//|81
+//|{leetcode_base_url}/search-in-rotated-sorted-array-ii/[Search in Rotated Sorted Array II]
+//|{source_base_url}/SearchInRotatedSortedArrayIi.java[Java]
+//|Medium
+//
+//|82
+//|{leetcode_base_url}/remove-duplicates-from-sorted-list-ii/[Remove Duplicates from Sorted List II]
+//|{source_base_url}/RemoveDuplicatesFromSortedListIi.java[Java]
+//|Medium
+//
+//|83
+//|{leetcode_base_url}/remove-duplicates-from-sorted-list/[Remove Duplicates from Sorted List]
+//|{source_base_url}/RemoveDuplicatesFromSortedList.java[Java]
+//|Easy
+//
+//|84
+//|{leetcode_base_url}/largest-rectangle-in-histogram/[Largest Rectangle in Histogram]
+//|{source_base_url}/LargestRectangleInHistogram.java[Java]
+//|Hard
+//
+//|85
+//|{leetcode_base_url}/maximal-rectangle/[Maximal Rectangle]
+//|{source_base_url}/MaximalRectangle.java[Java]
+//|Hard
+//
+//|86
+//|{leetcode_base_url}/partition-list/[Partition List]
+//|{source_base_url}/PartitionList.java[Java]
+//|Medium
+//
+//|87
+//|{leetcode_base_url}/scramble-string/[Scramble String]
+//|{source_base_url}/ScrambleString.java[Java]
+//|Hard
+//
+//|88
+//|{leetcode_base_url}/merge-sorted-array/[Merge Sorted Array]
+//|{source_base_url}/MergeSortedArray.java[Java]
+//|Easy
+//
+//|89
+//|{leetcode_base_url}/gray-code/[Gray Code]
+//|{source_base_url}/GrayCode.java[Java]
+//|Medium
+//
+//|90
+//|{leetcode_base_url}/subsets-ii/[Subsets II]
+//|{source_base_url}/SubsetsIi.java[Java]
+//|Medium
+//
+//|91
+//|{leetcode_base_url}/decode-ways/[Decode Ways]
+//|{source_base_url}/DecodeWays.java[Java]
+//|Medium
+//
+//|92
+//|{leetcode_base_url}/reverse-linked-list-ii/[Reverse Linked List II]
+//|{source_base_url}/ReverseLinkedListIi.java[Java]
+//|Medium
+//
+//|93
+//|{leetcode_base_url}/restore-ip-addresses/[Restore IP Addresses]
+//|{source_base_url}/RestoreIpAddresses.java[Java]
+//|Medium
+//
+//|94
+//|{leetcode_base_url}/binary-tree-inorder-traversal/[Binary Tree Inorder Traversal]
+//|{source_base_url}/BinaryTreeInorderTraversal.java[Java]
+//|Medium
+//
+//|95
+//|{leetcode_base_url}/unique-binary-search-trees-ii/[Unique Binary Search Trees II]
+//|{source_base_url}/UniqueBinarySearchTreesIi.java[Java]
+//|Medium
+//
+//|96
+//|{leetcode_base_url}/unique-binary-search-trees/[Unique Binary Search Trees]
+//|{source_base_url}/UniqueBinarySearchTrees.java[Java]
+//|Medium
+//
+//|97
+//|{leetcode_base_url}/interleaving-string/[Interleaving String]
+//|{source_base_url}/InterleavingString.java[Java]
+//|Hard
+//
+//|98
+//|{leetcode_base_url}/validate-binary-search-tree/[Validate Binary Search Tree]
+//|{source_base_url}/ValidateBinarySearchTree.java[Java]
+//|Medium
+//
+//|99
+//|{leetcode_base_url}/recover-binary-search-tree/[Recover Binary Search Tree]
+//|{source_base_url}/RecoverBinarySearchTree.java[Java]
+//|Hard
+//
+//|100
+//|{leetcode_base_url}/same-tree/[Same Tree]
+//|{source_base_url}/SameTree.java[Java]
+//|Easy
+//
+//|101
+//|{leetcode_base_url}/symmetric-tree/[Symmetric Tree]
+//|{source_base_url}/SymmetricTree.java[Java]
+//|Easy
+//
+//|102
+//|{leetcode_base_url}/binary-tree-level-order-traversal/[Binary Tree Level Order Traversal]
+//|{source_base_url}/BinaryTreeLevelOrderTraversal.java[Java]
+//|Medium
+//
+//|103
+//|{leetcode_base_url}/binary-tree-zigzag-level-order-traversal/[Binary Tree Zigzag Level Order Traversal]
+//|{source_base_url}/BinaryTreeZigzagLevelOrderTraversal.java[Java]
+//|Medium
+//
+//|104
+//|{leetcode_base_url}/maximum-depth-of-binary-tree/[Maximum Depth of Binary Tree]
+//|{source_base_url}/MaximumDepthOfBinaryTree.java[Java]
+//|Easy
+//
+//|105
+//|{leetcode_base_url}/construct-binary-tree-from-preorder-and-inorder-traversal/[Construct Binary Tree from Preorder and Inorder Traversal]
+//|{source_base_url}/ConstructBinaryTreeFromPreorderAndInorderTraversal.java[Java]
+//|Medium
+//
+//|106
+//|{leetcode_base_url}/construct-binary-tree-from-inorder-and-postorder-traversal/[Construct Binary Tree from Inorder and Postorder Traversal]
+//|{source_base_url}/ConstructBinaryTreeFromInorderAndPostorderTraversal.java[Java]
+//|Medium
+//
+//|107
+//|{leetcode_base_url}/binary-tree-level-order-traversal-ii/[Binary Tree Level Order Traversal II]
+//|{source_base_url}/BinaryTreeLevelOrderTraversalIi.java[Java]
+//|Easy
+//
+//|108
+//|{leetcode_base_url}/convert-sorted-array-to-binary-search-tree/[Convert Sorted Array to Binary Search Tree]
+//|{source_base_url}/ConvertSortedArrayToBinarySearchTree.java[Java]
+//|Easy
+//
+//|109
+//|{leetcode_base_url}/convert-sorted-list-to-binary-search-tree/[Convert Sorted List to Binary Search Tree]
+//|{source_base_url}/ConvertSortedListToBinarySearchTree.java[Java]
+//|Medium
+//
+//|110
+//|{leetcode_base_url}/balanced-binary-tree/[Balanced Binary Tree]
+//|{source_base_url}/BalancedBinaryTree.java[Java]
+//|Easy
+//
+//|111
+//|{leetcode_base_url}/minimum-depth-of-binary-tree/[Minimum Depth of Binary Tree]
+//|{source_base_url}/MinimumDepthOfBinaryTree.java[Java]
+//|Easy
+//
+//|112
+//|{leetcode_base_url}/path-sum/[Path Sum]
+//|{source_base_url}/PathSum.java[Java]
+//|Easy
+//
+//|113
+//|{leetcode_base_url}/path-sum-ii/[Path Sum II]
+//|{source_base_url}/PathSumIi.java[Java]
+//|Medium
+//
+//|114
+//|{leetcode_base_url}/flatten-binary-tree-to-linked-list/[Flatten Binary Tree to Linked List]
+//|{source_base_url}/FlattenBinaryTreeToLinkedList.java[Java]
+//|Medium
+//
+//|115
+//|{leetcode_base_url}/distinct-subsequences/[Distinct Subsequences]
+//|{source_base_url}/DistinctSubsequences.java[Java]
+//|Hard
+//
+//|116
+//|{leetcode_base_url}/populating-next-right-pointers-in-each-node/[Populating Next Right Pointers in Each Node]
+//|{source_base_url}/PopulatingNextRightPointersInEachNode.java[Java]
+//|Medium
+//
+//|117
+//|{leetcode_base_url}/populating-next-right-pointers-in-each-node-ii/[Populating Next Right Pointers in Each Node II]
+//|{source_base_url}/PopulatingNextRightPointersInEachNodeIi.java[Java]
+//|Medium
+//
+//|118
+//|{leetcode_base_url}/pascals-triangle/[Pascal's Triangle]
+//|{source_base_url}/PascalSTriangle.java[Java]
+//|Easy
+//
+//|119
+//|{leetcode_base_url}/pascals-triangle-ii/[Pascal's Triangle II]
+//|{source_base_url}/PascalSTriangleIi.java[Java]
+//|Easy
+//
+//|120
+//|{leetcode_base_url}/triangle/[Triangle]
+//|{source_base_url}/Triangle.java[Java]
+//|Medium
+//
+//|121
+//|{leetcode_base_url}/best-time-to-buy-and-sell-stock/[Best Time to Buy and Sell Stock]
+//|{source_base_url}/BestTimeToBuyAndSellStock.java[Java]
+//|Easy
+//
+//|122
+//|{leetcode_base_url}/best-time-to-buy-and-sell-stock-ii/[Best Time to Buy and Sell Stock II]
+//|{source_base_url}/BestTimeToBuyAndSellStockIi.java[Java]
+//|Easy
+//
+//|123
+//|{leetcode_base_url}/best-time-to-buy-and-sell-stock-iii/[Best Time to Buy and Sell Stock III]
+//|{source_base_url}/BestTimeToBuyAndSellStockIii.java[Java]
+//|Hard
+//
+//|124
+//|{leetcode_base_url}/binary-tree-maximum-path-sum/[Binary Tree Maximum Path Sum]
+//|{source_base_url}/BinaryTreeMaximumPathSum.java[Java]
+//|Hard
+//
+//|125
+//|{leetcode_base_url}/valid-palindrome/[Valid Palindrome]
+//|{source_base_url}/ValidPalindrome.java[Java]
+//|Easy
+//
+//|126
+//|{leetcode_base_url}/word-ladder-ii/[Word Ladder II]
+//|{source_base_url}/WordLadderIi.java[Java]
+//|Hard
+//
+//|127
+//|{leetcode_base_url}/word-ladder/[Word Ladder]
+//|{source_base_url}/WordLadder.java[Java]
+//|Medium
+//
+//|128
+//|{leetcode_base_url}/longest-consecutive-sequence/[Longest Consecutive Sequence]
+//|{source_base_url}/LongestConsecutiveSequence.java[Java]
+//|Hard
+//
+//|129
+//|{leetcode_base_url}/sum-root-to-leaf-numbers/[Sum Root to Leaf Numbers]
+//|{source_base_url}/SumRootToLeafNumbers.java[Java]
+//|Medium
+//
+//|130
+//|{leetcode_base_url}/surrounded-regions/[Surrounded Regions]
+//|{source_base_url}/SurroundedRegions.java[Java]
+//|Medium
+//
+//|131
+//|{leetcode_base_url}/palindrome-partitioning/[Palindrome Partitioning]
+//|{source_base_url}/PalindromePartitioning.java[Java]
+//|Medium
+//
+//|132
+//|{leetcode_base_url}/palindrome-partitioning-ii/[Palindrome Partitioning II]
+//|{source_base_url}/PalindromePartitioningIi.java[Java]
+//|Hard
+//
+//|133
+//|{leetcode_base_url}/clone-graph/[Clone Graph]
+//|{source_base_url}/CloneGraph.java[Java]
+//|Medium
+//
+//|134
+//|{leetcode_base_url}/gas-station/[Gas Station]
+//|{source_base_url}/GasStation.java[Java]
+//|Medium
+//
+//|135
+//|{leetcode_base_url}/candy/[Candy]
+//|{source_base_url}/Candy.java[Java]
+//|Hard
+//
+//|136
+//|{leetcode_base_url}/single-number/[Single Number]
+//|{source_base_url}/SingleNumber.java[Java]
+//|Easy
+//
+//|137
+//|{leetcode_base_url}/single-number-ii/[Single Number II]
+//|{source_base_url}/SingleNumberIi.java[Java]
+//|Medium
+//
+//|138
+//|{leetcode_base_url}/copy-list-with-random-pointer/[Copy List with Random Pointer]
+//|{source_base_url}/CopyListWithRandomPointer.java[Java]
+//|Medium
+//
+//|139
+//|{leetcode_base_url}/word-break/[Word Break]
+//|{source_base_url}/WordBreak.java[Java]
+//|Medium
+//
+//|140
+//|{leetcode_base_url}/word-break-ii/[Word Break II]
+//|{source_base_url}/WordBreakIi.java[Java]
+//|Hard
+//
+//|141
+//|{leetcode_base_url}/linked-list-cycle/[Linked List Cycle]
+//|{source_base_url}/LinkedListCycle.java[Java]
+//|Easy
+//
+//|142
+//|{leetcode_base_url}/linked-list-cycle-ii/[Linked List Cycle II]
+//|{source_base_url}/LinkedListCycleIi.java[Java]
+//|Medium
+//
+//|143
+//|{leetcode_base_url}/reorder-list/[Reorder List]
+//|{source_base_url}/ReorderList.java[Java]
+//|Medium
+//
+//|144
+//|{leetcode_base_url}/binary-tree-preorder-traversal/[Binary Tree Preorder Traversal]
+//|{source_base_url}/BinaryTreePreorderTraversal.java[Java]
+//|Medium
+//
+//|145
+//|{leetcode_base_url}/binary-tree-postorder-traversal/[Binary Tree Postorder Traversal]
+//|{source_base_url}/BinaryTreePostorderTraversal.java[Java]
+//|Hard
+//
+//|146
+//|{leetcode_base_url}/lru-cache/[LRU Cache]
+//|{source_base_url}/LruCache.java[Java]
+//|Medium
+//
+//|147
+//|{leetcode_base_url}/insertion-sort-list/[Insertion Sort List]
+//|{source_base_url}/InsertionSortList.java[Java]
+//|Medium
+//
+//|148
+//|{leetcode_base_url}/sort-list/[Sort List]
+//|{source_base_url}/SortList.java[Java]
+//|Medium
+//
+//|149
+//|{leetcode_base_url}/max-points-on-a-line/[Max Points on a Line]
+//|{source_base_url}/MaxPointsOnALine.java[Java]
+//|Hard
+//
+//|150
+//|{leetcode_base_url}/evaluate-reverse-polish-notation/[Evaluate Reverse Polish Notation]
+//|{source_base_url}/EvaluateReversePolishNotation.java[Java]
+//|Medium
+//
+//|151
+//|{leetcode_base_url}/reverse-words-in-a-string/[Reverse Words in a String]
+//|{source_base_url}/ReverseWordsInAString.java[Java]
+//|Medium
+//
+//|152
+//|{leetcode_base_url}/maximum-product-subarray/[Maximum Product Subarray]
+//|{source_base_url}/MaximumProductSubarray.java[Java]
+//|Medium
+//
+//|153
+//|{leetcode_base_url}/find-minimum-in-rotated-sorted-array/[Find Minimum in Rotated Sorted Array]
+//|{source_base_url}/FindMinimumInRotatedSortedArray.java[Java]
+//|Medium
+//
+//|154
+//|{leetcode_base_url}/find-minimum-in-rotated-sorted-array-ii/[Find Minimum in Rotated Sorted Array II]
+//|{source_base_url}/FindMinimumInRotatedSortedArrayIi.java[Java]
+//|Hard
+//
+//|155
+//|{leetcode_base_url}/min-stack/[Min Stack]
+//|{source_base_url}/MinStack.java[Java]
+//|Easy
+//
+//|156
+//|{leetcode_base_url}/binary-tree-upside-down/[Binary Tree Upside Down]
+//|{source_base_url}/BinaryTreeUpsideDown.java[Java]
+//|Medium
+//
+//|157
+//|{leetcode_base_url}/read-n-characters-given-read4/[Read N Characters Given Read4]
+//|{source_base_url}/ReadNCharactersGivenRead4.java[Java]
+//|Easy
+//
+//|158
+//|{leetcode_base_url}/read-n-characters-given-read4-ii-call-multiple-times/[Read N Characters Given Read4 II - Call multiple times]
+//|{source_base_url}/ReadNCharactersGivenRead4IiCallMultipleTimes.java[Java]
+//|Hard
+//
+//|159
+//|{leetcode_base_url}/longest-substring-with-at-most-two-distinct-characters/[Longest Substring with At Most Two Distinct Characters]
+//|{source_base_url}/LongestSubstringWithAtMostTwoDistinctCharacters.java[Java]
+//|Hard
+//
+//|160
+//|{leetcode_base_url}/intersection-of-two-linked-lists/[Intersection of Two Linked Lists]
+//|{source_base_url}/IntersectionOfTwoLinkedLists.java[Java]
+//|Easy
+//
+//|161
+//|{leetcode_base_url}/one-edit-distance/[One Edit Distance]
+//|{source_base_url}/OneEditDistance.java[Java]
+//|Medium
+//
+//|162
+//|{leetcode_base_url}/find-peak-element/[Find Peak Element]
+//|{source_base_url}/FindPeakElement.java[Java]
+//|Medium
+//
+//|163
+//|{leetcode_base_url}/missing-ranges/[Missing Ranges]
+//|{source_base_url}/MissingRanges.java[Java]
+//|Medium
+//
+//|164
+//|{leetcode_base_url}/maximum-gap/[Maximum Gap]
+//|{source_base_url}/MaximumGap.java[Java]
+//|Hard
+//
+//|165
+//|{leetcode_base_url}/compare-version-numbers/[Compare Version Numbers]
+//|{source_base_url}/CompareVersionNumbers.java[Java]
+//|Medium
+//
+//|166
+//|{leetcode_base_url}/fraction-to-recurring-decimal/[Fraction to Recurring Decimal]
+//|{source_base_url}/FractionToRecurringDecimal.java[Java]
+//|Medium
+//
+//|167
+//|{leetcode_base_url}/two-sum-ii-input-array-is-sorted/[Two Sum II - Input array is sorted]
+//|{source_base_url}/TwoSumIiInputArrayIsSorted.java[Java]
+//|Easy
+//
+//|168
+//|{leetcode_base_url}/excel-sheet-column-title/[Excel Sheet Column Title]
+//|{source_base_url}/ExcelSheetColumnTitle.java[Java]
+//|Easy
+//
+//|169
+//|{leetcode_base_url}/majority-element/[Majority Element]
+//|{source_base_url}/MajorityElement.java[Java]
+//|Easy
+//
+//|170
+//|{leetcode_base_url}/two-sum-iii-data-structure-design/[Two Sum III - Data structure design]
+//|{source_base_url}/TwoSumIiiDataStructureDesign.java[Java]
+//|Easy
+//
+//|171
+//|{leetcode_base_url}/excel-sheet-column-number/[Excel Sheet Column Number]
+//|{source_base_url}/ExcelSheetColumnNumber.java[Java]
+//|Easy
+//
+//|172
+//|{leetcode_base_url}/factorial-trailing-zeroes/[Factorial Trailing Zeroes]
+//|{source_base_url}/FactorialTrailingZeroes.java[Java]
+//|Easy
+//
+//|173
+//|{leetcode_base_url}/binary-search-tree-iterator/[Binary Search Tree Iterator]
+//|{source_base_url}/BinarySearchTreeIterator.java[Java]
+//|Medium
+//
+//|174
+//|{leetcode_base_url}/dungeon-game/[Dungeon Game]
+//|{source_base_url}/DungeonGame.java[Java]
+//|Hard
+//
+//|175
+//|{leetcode_base_url}/combine-two-tables/[Combine Two Tables]
+//|{source_base_url}/CombineTwoTables.java[Java]
+//|Easy
+//
+//|176
+//|{leetcode_base_url}/second-highest-salary/[Second Highest Salary]
+//|{source_base_url}/SecondHighestSalary.java[Java]
+//|Easy
+//
+//|177
+//|{leetcode_base_url}/nth-highest-salary/[Nth Highest Salary]
+//|{source_base_url}/NthHighestSalary.java[Java]
+//|Medium
+//
+//|178
+//|{leetcode_base_url}/rank-scores/[Rank Scores]
+//|{source_base_url}/RankScores.java[Java]
+//|Medium
+//
+//|179
+//|{leetcode_base_url}/largest-number/[Largest Number]
+//|{source_base_url}/LargestNumber.java[Java]
+//|Medium
+//
+//|180
+//|{leetcode_base_url}/consecutive-numbers/[Consecutive Numbers]
+//|{source_base_url}/ConsecutiveNumbers.java[Java]
+//|Medium
+//
+//|181
+//|{leetcode_base_url}/employees-earning-more-than-their-managers/[Employees Earning More Than Their Managers]
+//|{source_base_url}/EmployeesEarningMoreThanTheirManagers.java[Java]
+//|Easy
+//
+//|182
+//|{leetcode_base_url}/duplicate-emails/[Duplicate Emails]
+//|{source_base_url}/DuplicateEmails.java[Java]
+//|Easy
+//
+//|183
+//|{leetcode_base_url}/customers-who-never-order/[Customers Who Never Order]
+//|{source_base_url}/CustomersWhoNeverOrder.java[Java]
+//|Easy
+//
+//|184
+//|{leetcode_base_url}/department-highest-salary/[Department Highest Salary]
+//|{source_base_url}/DepartmentHighestSalary.java[Java]
+//|Medium
+//
+//|185
+//|{leetcode_base_url}/department-top-three-salaries/[Department Top Three Salaries]
+//|{source_base_url}/DepartmentTopThreeSalaries.java[Java]
+//|Hard
+//
+//|186
+//|{leetcode_base_url}/reverse-words-in-a-string-ii/[Reverse Words in a String II]
+//|{source_base_url}/ReverseWordsInAStringIi.java[Java]
+//|Medium
+//
+//|187
+//|{leetcode_base_url}/repeated-dna-sequences/[Repeated DNA Sequences]
+//|{source_base_url}/RepeatedDNASequences.java[Java]
+//|Medium
+//
+//|188
+//|{leetcode_base_url}/best-time-to-buy-and-sell-stock-iv/[Best Time to Buy and Sell Stock IV]
+//|{source_base_url}/BestTimeToBuyAndSellStockIV.java[Java]
+//|Hard
+//
+//|189
+//|{leetcode_base_url}/rotate-array/[Rotate Array]
+//|{source_base_url}/RotateArray.java[Java]
+//|Easy
+//
+//|190
+//|{leetcode_base_url}/reverse-bits/[Reverse Bits]
+//|{source_base_url}/ReverseBits.java[Java]
+//|Easy
+//
+//|191
+//|{leetcode_base_url}/number-of-1-bits/[Number of 1 Bits]
+//|{source_base_url}/NumberOf1Bits.java[Java]
+//|Easy
+//
+//|192
+//|{leetcode_base_url}/word-frequency/[Word Frequency]
+//|{source_base_url}/WordFrequency.java[Java]
+//|Medium
+//
+//|193
+//|{leetcode_base_url}/valid-phone-numbers/[Valid Phone Numbers]
+//|{source_base_url}/ValidPhoneNumbers.java[Java]
+//|Easy
+//
+//|194
+//|{leetcode_base_url}/transpose-file/[Transpose File]
+//|{source_base_url}/TransposeFile.java[Java]
+//|Medium
+//
+//|195
+//|{leetcode_base_url}/tenth-line/[Tenth Line]
+//|{source_base_url}/TenthLine.java[Java]
+//|Easy
+//
+//|196
+//|{leetcode_base_url}/delete-duplicate-emails/[Delete Duplicate Emails]
+//|{source_base_url}/DeleteDuplicateEmails.java[Java]
+//|Easy
+//
+//|197
+//|{leetcode_base_url}/rising-temperature/[Rising Temperature]
+//|{source_base_url}/RisingTemperature.java[Java]
+//|Easy
+//
+//|198
+//|{leetcode_base_url}/house-robber/[House Robber]
+//|{source_base_url}/HouseRobber.java[Java]
+//|Easy
+//
+//|199
+//|{leetcode_base_url}/binary-tree-right-side-view/[Binary Tree Right Side View]
+//|{source_base_url}/BinaryTreeRightSideView.java[Java]
+//|Medium
+//
+//|200
+//|{leetcode_base_url}/number-of-islands/[Number of Islands]
+//|{source_base_url}/NumberOfIslands.java[Java]
+//|Medium
+//
+//|201
+//|{leetcode_base_url}/bitwise-and-of-numbers-range/[Bitwise AND of Numbers Range]
+//|{source_base_url}/BitwiseANDOfNumbersRange.java[Java]
+//|Medium
+//
+//|202
+//|{leetcode_base_url}/happy-number/[Happy Number]
+//|{source_base_url}/HappyNumber.java[Java]
+//|Easy
+//
+//|203
+//|{leetcode_base_url}/remove-linked-list-elements/[Remove Linked List Elements]
+//|{source_base_url}/RemoveLinkedListElements.java[Java]
+//|Easy
+//
+//|204
+//|{leetcode_base_url}/count-primes/[Count Primes]
+//|{source_base_url}/CountPrimes.java[Java]
+//|Easy
+//
+//|205
+//|{leetcode_base_url}/isomorphic-strings/[Isomorphic Strings]
+//|{source_base_url}/IsomorphicStrings.java[Java]
+//|Easy
+//
+//|206
+//|{leetcode_base_url}/reverse-linked-list/[Reverse Linked List]
+//|{source_base_url}/ReverseLinkedList.java[Java]
+//|Easy
+//
+//|207
+//|{leetcode_base_url}/course-schedule/[Course Schedule]
+//|{source_base_url}/CourseSchedule.java[Java]
+//|Medium
+//
+//|208
+//|{leetcode_base_url}/implement-trie-prefix-tree/[Implement Trie (Prefix Tree)]
+//|{source_base_url}/ImplementTriePrefixTree.java[Java]
+//|Medium
+//
+//|209
+//|{leetcode_base_url}/minimum-size-subarray-sum/[Minimum Size Subarray Sum]
+//|{source_base_url}/MinimumSizeSubarraySum.java[Java]
+//|Medium
+//
+//|210
+//|{leetcode_base_url}/course-schedule-ii/[Course Schedule II]
+//|{source_base_url}/CourseScheduleIi.java[Java]
+//|Medium
+//
+//|211
+//|{leetcode_base_url}/add-and-search-word-data-structure-design/[Add and Search Word - Data structure design]
+//|{source_base_url}/AddAndSearchWordDataStructureDesign.java[Java]
+//|Medium
+//
+//|212
+//|{leetcode_base_url}/word-search-ii/[Word Search II]
+//|{source_base_url}/WordSearchIi.java[Java]
+//|Hard
+//
+//|213
+//|{leetcode_base_url}/house-robber-ii/[House Robber II]
+//|{source_base_url}/HouseRobberIi.java[Java]
+//|Medium
+//
+//|214
+//|{leetcode_base_url}/shortest-palindrome/[Shortest Palindrome]
+//|{source_base_url}/ShortestPalindrome.java[Java]
+//|Hard
+//
+//|215
+//|{leetcode_base_url}/kth-largest-element-in-an-array/[Kth Largest Element in an Array]
+//|{source_base_url}/KthLargestElementInAnArray.java[Java]
+//|Medium
+//
+//|216
+//|{leetcode_base_url}/combination-sum-iii/[Combination Sum III]
+//|{source_base_url}/CombinationSumIii.java[Java]
+//|Medium
+//
+//|217
+//|{leetcode_base_url}/contains-duplicate/[Contains Duplicate]
+//|{source_base_url}/ContainsDuplicate.java[Java]
+//|Easy
+//
+//|218
+//|{leetcode_base_url}/the-skyline-problem/[The Skyline Problem]
+//|{source_base_url}/TheSkylineProblem.java[Java]
+//|Hard
+//
+//|219
+//|{leetcode_base_url}/contains-duplicate-ii/[Contains Duplicate II]
+//|{source_base_url}/ContainsDuplicateIi.java[Java]
+//|Easy
+//
+//|220
+//|{leetcode_base_url}/contains-duplicate-iii/[Contains Duplicate III]
+//|{source_base_url}/ContainsDuplicateIii.java[Java]
+//|Medium
+//
+//|221
+//|{leetcode_base_url}/maximal-square/[Maximal Square]
+//|{source_base_url}/MaximalSquare.java[Java]
+//|Medium
+//
+//|222
+//|{leetcode_base_url}/count-complete-tree-nodes/[Count Complete Tree Nodes]
+//|{source_base_url}/CountCompleteTreeNodes.java[Java]
+//|Medium
+//
+//|223
+//|{leetcode_base_url}/rectangle-area/[Rectangle Area]
+//|{source_base_url}/RectangleArea.java[Java]
+//|Medium
+//
+//|224
+//|{leetcode_base_url}/basic-calculator/[Basic Calculator]
+//|{source_base_url}/BasicCalculator.java[Java]
+//|Hard
+//
+//|225
+//|{leetcode_base_url}/implement-stack-using-queues/[Implement Stack using Queues]
+//|{source_base_url}/ImplementStackUsingQueues.java[Java]
+//|Easy
+//
+//|226
+//|{leetcode_base_url}/invert-binary-tree/[Invert Binary Tree]
+//|{source_base_url}/InvertBinaryTree.java[Java]
+//|Easy
+//
+//|227
+//|{leetcode_base_url}/basic-calculator-ii/[Basic Calculator II]
+//|{source_base_url}/BasicCalculatorIi.java[Java]
+//|Medium
+//
+//|228
+//|{leetcode_base_url}/summary-ranges/[Summary Ranges]
+//|{source_base_url}/SummaryRanges.java[Java]
+//|Medium
+//
+//|229
+//|{leetcode_base_url}/majority-element-ii/[Majority Element II]
+//|{source_base_url}/MajorityElementIi.java[Java]
+//|Medium
+//
+//|230
+//|{leetcode_base_url}/kth-smallest-element-in-a-bst/[Kth Smallest Element in a BST]
+//|{source_base_url}/KthSmallestElementInABst.java[Java]
+//|Medium
+//
+//|231
+//|{leetcode_base_url}/power-of-two/[Power of Two]
+//|{source_base_url}/PowerOfTwo.java[Java]
+//|Easy
+//
+//|232
+//|{leetcode_base_url}/implement-queue-using-stacks/[Implement Queue using Stacks]
+//|{source_base_url}/ImplementQueueUsingStacks.java[Java]
+//|Easy
+//
+//|233
+//|{leetcode_base_url}/number-of-digit-one/[Number of Digit One]
+//|{source_base_url}/NumberOfDigitOne.java[Java]
+//|Hard
+//
+//|234
+//|{leetcode_base_url}/palindrome-linked-list/[Palindrome Linked List]
+//|{source_base_url}/PalindromeLinkedList.java[Java]
+//|Easy
+//
+//|235
+//|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-search-tree/[Lowest Common Ancestor of a Binary Search Tree]
+//|{source_base_url}/LowestCommonAncestorOfABinarySearchTree.java[Java]
+//|Easy
+//
+//|236
+//|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree/[Lowest Common Ancestor of a Binary Tree]
+//|{source_base_url}/LowestCommonAncestorOfABinaryTree.java[Java]
+//|Medium
+//
+//|237
+//|{leetcode_base_url}/delete-node-in-a-linked-list/[Delete Node in a Linked List]
+//|{source_base_url}/DeleteNodeInALinkedList.java[Java]
+//|Easy
+//
+//|238
+//|{leetcode_base_url}/product-of-array-except-self/[Product of Array Except Self]
+//|{source_base_url}/ProductOfArrayExceptSelf.java[Java]
+//|Medium
+//
+//|239
+//|{leetcode_base_url}/sliding-window-maximum/[Sliding Window Maximum]
+//|{source_base_url}/SlidingWindowMaximum.java[Java]
+//|Hard
+//
+//|240
+//|{leetcode_base_url}/search-a-2d-matrix-ii/[Search a 2D Matrix II]
+//|{source_base_url}/SearchA2DMatrixIi.java[Java]
+//|Medium
+//
+//|241
+//|{leetcode_base_url}/different-ways-to-add-parentheses/[Different Ways to Add Parentheses]
+//|{source_base_url}/DifferentWaysToAddParentheses.java[Java]
+//|Medium
+//
+//|242
+//|{leetcode_base_url}/valid-anagram/[Valid Anagram]
+//|{source_base_url}/ValidAnagram.java[Java]
+//|Easy
+//
+//|243
+//|{leetcode_base_url}/shortest-word-distance/[Shortest Word Distance]
+//|{source_base_url}/ShortestWordDistance.java[Java]
+//|Easy
+//
+//|244
+//|{leetcode_base_url}/shortest-word-distance-ii/[Shortest Word Distance II]
+//|{source_base_url}/ShortestWordDistanceIi.java[Java]
+//|Medium
+//
+//|245
+//|{leetcode_base_url}/shortest-word-distance-iii/[Shortest Word Distance III]
+//|{source_base_url}/ShortestWordDistanceIii.java[Java]
+//|Medium
+//
+//|246
+//|{leetcode_base_url}/strobogrammatic-number/[Strobogrammatic Number]
+//|{source_base_url}/StrobogrammaticNumber.java[Java]
+//|Easy
+//
+//|247
+//|{leetcode_base_url}/strobogrammatic-number-ii/[Strobogrammatic Number II]
+//|{source_base_url}/StrobogrammaticNumberIi.java[Java]
+//|Medium
+//
+//|248
+//|{leetcode_base_url}/strobogrammatic-number-iii/[Strobogrammatic Number III]
+//|{source_base_url}/StrobogrammaticNumberIii.java[Java]
+//|Hard
+//
+//|249
+//|{leetcode_base_url}/group-shifted-strings/[Group Shifted Strings]
+//|{source_base_url}/GroupShiftedStrings.java[Java]
+//|Medium
+//
+//|250
+//|{leetcode_base_url}/count-univalue-subtrees/[Count Univalue Subtrees]
+//|{source_base_url}/CountUnivalueSubtrees.java[Java]
+//|Medium
+//
+//|251
+//|{leetcode_base_url}/flatten-2d-vector/[Flatten 2D Vector]
+//|{source_base_url}/Flatten2dVector.java[Java]
+//|Medium
+//
+//|252
+//|{leetcode_base_url}/meeting-rooms/[Meeting Rooms]
+//|{source_base_url}/MeetingRooms.java[Java]
+//|Easy
+//
+//|253
+//|{leetcode_base_url}/meeting-rooms-ii/[Meeting Rooms II]
+//|{source_base_url}/MeetingRoomsIi.java[Java]
+//|Medium
+//
+//|254
+//|{leetcode_base_url}/factor-combinations/[Factor Combinations]
+//|{source_base_url}/FactorCombinations.java[Java]
+//|Medium
+//
+//|255
+//|{leetcode_base_url}/verify-preorder-sequence-in-binary-search-tree/[Verify Preorder Sequence in Binary Search Tree]
+//|{source_base_url}/VerifyPreorderSequenceInBinarySearchTree.java[Java]
+//|Medium
+//
+//|256
+//|{leetcode_base_url}/paint-house/[Paint House]
+//|{source_base_url}/PaintHouse.java[Java]
+//|Easy
+//
+//|257
+//|{leetcode_base_url}/binary-tree-paths/[Binary Tree Paths]
+//|{source_base_url}/BinaryTreePaths.java[Java]
+//|Easy
+//
+//|258
+//|{leetcode_base_url}/add-digits/[Add Digits]
+//|{source_base_url}/AddDigits.java[Java]
+//|Easy
+//
+//|259
+//|{leetcode_base_url}/3sum-smaller/[3Sum Smaller]
+//|{source_base_url}/ThreeSumSmaller.java[Java]
+//|Medium
+//
+//|260
+//|{leetcode_base_url}/single-number-iii/[Single Number III]
+//|{source_base_url}/SingleNumberIii.java[Java]
+//|Medium
+//
+//|261
+//|{leetcode_base_url}/graph-valid-tree/[Graph Valid Tree]
+//|{source_base_url}/GraphValidTree.java[Java]
+//|Medium
+//
+//|262
+//|{leetcode_base_url}/trips-and-users/[Trips and Users]
+//|{source_base_url}/TripsAndUsers.java[Java]
+//|Hard
+//
+//|263
+//|{leetcode_base_url}/ugly-number/[Ugly Number]
+//|{source_base_url}/UglyNumber.java[Java]
+//|Easy
+//
+//|264
+//|{leetcode_base_url}/ugly-number-ii/[Ugly Number II]
+//|{source_base_url}/UglyNumberIi.java[Java]
+//|Medium
+//
+//|265
+//|{leetcode_base_url}/paint-house-ii/[Paint House II]
+//|{source_base_url}/PaintHouseIi.java[Java]
+//|Hard
+//
+//|266
+//|{leetcode_base_url}/palindrome-permutation/[Palindrome Permutation]
+//|{source_base_url}/PalindromePermutation.java[Java]
+//|Easy
+//
+//|267
+//|{leetcode_base_url}/palindrome-permutation-ii/[Palindrome Permutation II]
+//|{source_base_url}/PalindromePermutationIi.java[Java]
+//|Medium
+//
+//|268
+//|{leetcode_base_url}/missing-number/[Missing Number]
+//|{source_base_url}/MissingNumber.java[Java]
+//|Easy
+//
+//|269
+//|{leetcode_base_url}/alien-dictionary/[Alien Dictionary]
+//|{source_base_url}/AlienDictionary.java[Java]
+//|Hard
+//
+//|270
+//|{leetcode_base_url}/closest-binary-search-tree-value/[Closest Binary Search Tree Value]
+//|{source_base_url}/ClosestBinarySearchTreeValue.java[Java]
+//|Easy
+//
+//|271
+//|{leetcode_base_url}/encode-and-decode-strings/[Encode and Decode Strings]
+//|{source_base_url}/EncodeAndDecodeStrings.java[Java]
+//|Medium
+//
+//|272
+//|{leetcode_base_url}/closest-binary-search-tree-value-ii/[Closest Binary Search Tree Value II]
+//|{source_base_url}/ClosestBinarySearchTreeValueIi.java[Java]
+//|Hard
+//
+//|273
+//|{leetcode_base_url}/integer-to-english-words/[Integer to English Words]
+//|{source_base_url}/IntegerToEnglishWords.java[Java]
+//|Hard
+//
+//|274
+//|{leetcode_base_url}/h-index/[H-Index]
+//|{source_base_url}/HIndex.java[Java]
+//|Medium
+//
+//|275
+//|{leetcode_base_url}/h-index-ii/[H-Index II]
+//|{source_base_url}/HIndexIi.java[Java]
+//|Medium
+//
+//|276
+//|{leetcode_base_url}/paint-fence/[Paint Fence]
+//|{source_base_url}/PaintFence.java[Java]
+//|Easy
+//
+//|277
+//|{leetcode_base_url}/find-the-celebrity/[Find the Celebrity]
+//|{source_base_url}/FindTheCelebrity.java[Java]
+//|Medium
+//
+//|278
+//|{leetcode_base_url}/first-bad-version/[First Bad Version]
+//|{source_base_url}/FirstBadVersion.java[Java]
+//|Easy
+//
+//|279
+//|{leetcode_base_url}/perfect-squares/[Perfect Squares]
+//|{source_base_url}/PerfectSquares.java[Java]
+//|Medium
+//
+//|280
+//|{leetcode_base_url}/wiggle-sort/[Wiggle Sort]
+//|{source_base_url}/WiggleSort.java[Java]
+//|Medium
+//
+//|281
+//|{leetcode_base_url}/zigzag-iterator/[Zigzag Iterator]
+//|{source_base_url}/ZigzagIterator.java[Java]
+//|Medium
+//
+//|282
+//|{leetcode_base_url}/expression-add-operators/[Expression Add Operators]
+//|{source_base_url}/ExpressionAddOperators.java[Java]
+//|Hard
+//
+//|283
+//|{leetcode_base_url}/move-zeroes/[Move Zeroes]
+//|{source_base_url}/MoveZeroes.java[Java]
+//|Easy
+//
+//|284
+//|{leetcode_base_url}/peeking-iterator/[Peeking Iterator]
+//|{source_base_url}/PeekingIterator.java[Java]
+//|Medium
+//
+//|285
+//|{leetcode_base_url}/inorder-successor-in-bst/[Inorder Successor in BST]
+//|{source_base_url}/InorderSuccessorInBst.java[Java]
+//|Medium
+//
+//|286
+//|{leetcode_base_url}/walls-and-gates/[Walls and Gates]
+//|{source_base_url}/WallsAndGates.java[Java]
+//|Medium
+//
+//|287
+//|{leetcode_base_url}/find-the-duplicate-number/[Find the Duplicate Number]
+//|{source_base_url}/FindTheDuplicateNumber.java[Java]
+//|Medium
+//
+//|288
+//|{leetcode_base_url}/unique-word-abbreviation/[Unique Word Abbreviation]
+//|{source_base_url}/UniqueWordAbbreviation.java[Java]
+//|Medium
+//
+//|289
+//|{leetcode_base_url}/game-of-life/[Game of Life]
+//|{source_base_url}/GameOfLife.java[Java]
+//|Medium
+//
+//|290
+//|{leetcode_base_url}/word-pattern/[Word Pattern]
+//|{source_base_url}/WordPattern.java[Java]
+//|Easy
+//
+//|291
+//|{leetcode_base_url}/word-pattern-ii/[Word Pattern II]
+//|{source_base_url}/WordPatternIi.java[Java]
+//|Hard
+//
+//|292
+//|{leetcode_base_url}/nim-game/[Nim Game]
+//|{source_base_url}/NimGame.java[Java]
+//|Easy
+//
+//|293
+//|{leetcode_base_url}/flip-game/[Flip Game]
+//|{source_base_url}/FlipGame.java[Java]
+//|Easy
+//
+//|294
+//|{leetcode_base_url}/flip-game-ii/[Flip Game II]
+//|{source_base_url}/FlipGameIi.java[Java]
+//|Medium
+//
+//|295
+//|{leetcode_base_url}/find-median-from-data-stream/[Find Median from Data Stream]
+//|{source_base_url}/FindMedianFromDataStream.java[Java]
+//|Hard
+//
+//|296
+//|{leetcode_base_url}/best-meeting-point/[Best Meeting Point]
+//|{source_base_url}/BestMeetingPoint.java[Java]
+//|Hard
+//
+//|297
+//|{leetcode_base_url}/serialize-and-deserialize-binary-tree/[Serialize and Deserialize Binary Tree]
+//|{source_base_url}/SerializeAndDeserializeBinaryTree.java[Java]
+//|Hard
+//
+//|298
+//|{leetcode_base_url}/binary-tree-longest-consecutive-sequence/[Binary Tree Longest Consecutive Sequence]
+//|{source_base_url}/BinaryTreeLongestConsecutiveSequence.java[Java]
+//|Medium
+//
+//|299
+//|{leetcode_base_url}/bulls-and-cows/[Bulls and Cows]
+//|{source_base_url}/BullsAndCows.java[Java]
+//|Medium
+//
+//|300
+//|{leetcode_base_url}/longest-increasing-subsequence/[Longest Increasing Subsequence]
+//|{source_base_url}/LongestIncreasingSubsequence.java[Java]
+//|Medium
+//
+//|301
+//|{leetcode_base_url}/remove-invalid-parentheses/[Remove Invalid Parentheses]
+//|{source_base_url}/RemoveInvalidParentheses.java[Java]
+//|Hard
+//
+//|302
+//|{leetcode_base_url}/smallest-rectangle-enclosing-black-pixels/[Smallest Rectangle Enclosing Black Pixels]
+//|{source_base_url}/SmallestRectangleEnclosingBlackPixels.java[Java]
+//|Hard
+//
+//|303
+//|{leetcode_base_url}/range-sum-query-immutable/[Range Sum Query - Immutable]
+//|{source_base_url}/RangeSumQueryImmutable.java[Java]
+//|Easy
+//
+//|304
+//|{leetcode_base_url}/range-sum-query-2d-immutable/[Range Sum Query 2D - Immutable]
+//|{source_base_url}/RangeSumQuery2dImmutable.java[Java]
+//|Medium
+//
+//|305
+//|{leetcode_base_url}/number-of-islands-ii/[Number of Islands II]
+//|{source_base_url}/NumberOfIslandsIi.java[Java]
+//|Hard
+//
+//|306
+//|{leetcode_base_url}/additive-number/[Additive Number]
+//|{source_base_url}/AdditiveNumber.java[Java]
+//|Medium
+//
+//|307
+//|{leetcode_base_url}/range-sum-query-mutable/[Range Sum Query - Mutable]
+//|{source_base_url}/RangeSumQueryMutable.java[Java]
+//|Medium
+//
+//|308
+//|{leetcode_base_url}/range-sum-query-2d-mutable/[Range Sum Query 2D - Mutable]
+//|{source_base_url}/RangeSumQuery2dMutable.java[Java]
+//|Hard
+//
+//|309
+//|{leetcode_base_url}/best-time-to-buy-and-sell-stock-with-cooldown/[Best Time to Buy and Sell Stock with Cooldown]
+//|{source_base_url}/BestTimeToBuyAndSellStockWithCooldown.java[Java]
+//|Medium
+//
+//|310
+//|{leetcode_base_url}/minimum-height-trees/[Minimum Height Trees]
+//|{source_base_url}/MinimumHeightTrees.java[Java]
+//|Medium
+//
+//|311
+//|{leetcode_base_url}/sparse-matrix-multiplication/[Sparse Matrix Multiplication]
+//|{source_base_url}/SparseMatrixMultiplication.java[Java]
+//|Medium
+//
+//|312
+//|{leetcode_base_url}/burst-balloons/[Burst Balloons]
+//|{source_base_url}/BurstBalloons.java[Java]
+//|Hard
+//
+//|313
+//|{leetcode_base_url}/super-ugly-number/[Super Ugly Number]
+//|{source_base_url}/SuperUglyNumber.java[Java]
+//|Medium
+//
+//|314
+//|{leetcode_base_url}/binary-tree-vertical-order-traversal/[Binary Tree Vertical Order Traversal]
+//|{source_base_url}/BinaryTreeVerticalOrderTraversal.java[Java]
+//|Medium
+//
+//|315
+//|{leetcode_base_url}/count-of-smaller-numbers-after-self/[Count of Smaller Numbers After Self]
+//|{source_base_url}/CountOfSmallerNumbersAfterSelf.java[Java]
+//|Hard
+//
+//|316
+//|{leetcode_base_url}/remove-duplicate-letters/[Remove Duplicate Letters]
+//|{source_base_url}/RemoveDuplicateLetters.java[Java]
+//|Hard
+//
+//|317
+//|{leetcode_base_url}/shortest-distance-from-all-buildings/[Shortest Distance from All Buildings]
+//|{source_base_url}/ShortestDistanceFromAllBuildings.java[Java]
+//|Hard
+//
+//|318
+//|{leetcode_base_url}/maximum-product-of-word-lengths/[Maximum Product of Word Lengths]
+//|{source_base_url}/MaximumProductOfWordLengths.java[Java]
+//|Medium
+//
+//|319
+//|{leetcode_base_url}/bulb-switcher/[Bulb Switcher]
+//|{source_base_url}/BulbSwitcher.java[Java]
+//|Medium
+//
+//|320
+//|{leetcode_base_url}/generalized-abbreviation/[Generalized Abbreviation]
+//|{source_base_url}/GeneralizedAbbreviation.java[Java]
+//|Medium
+//
+//|321
+//|{leetcode_base_url}/create-maximum-number/[Create Maximum Number]
+//|{source_base_url}/CreateMaximumNumber.java[Java]
+//|Hard
+//
+//|322
+//|{leetcode_base_url}/coin-change/[Coin Change]
+//|{source_base_url}/CoinChange.java[Java]
+//|Medium
+//
+//|323
+//|{leetcode_base_url}/number-of-connected-components-in-an-undirected-graph/[Number of Connected Components in an Undirected Graph]
+//|{source_base_url}/NumberOfConnectedComponentsInAnUndirectedGraph.java[Java]
+//|Medium
+//
+//|324
+//|{leetcode_base_url}/wiggle-sort-ii/[Wiggle Sort II]
+//|{source_base_url}/WiggleSortIi.java[Java]
+//|Medium
+//
+//|325
+//|{leetcode_base_url}/maximum-size-subarray-sum-equals-k/[Maximum Size Subarray Sum Equals k]
+//|{source_base_url}/MaximumSizeSubarraySumEqualsK.java[Java]
+//|Medium
+//
+//|326
+//|{leetcode_base_url}/power-of-three/[Power of Three]
+//|{source_base_url}/PowerOfThree.java[Java]
+//|Easy
+//
+//|327
+//|{leetcode_base_url}/count-of-range-sum/[Count of Range Sum]
+//|{source_base_url}/CountOfRangeSum.java[Java]
+//|Hard
+//
+//|328
+//|{leetcode_base_url}/odd-even-linked-list/[Odd Even Linked List]
+//|{source_base_url}/OddEvenLinkedList.java[Java]
+//|Medium
+//
+//|329
+//|{leetcode_base_url}/longest-increasing-path-in-a-matrix/[Longest Increasing Path in a Matrix]
+//|{source_base_url}/LongestIncreasingPathInAMatrix.java[Java]
+//|Hard
+//
+//|330
+//|{leetcode_base_url}/patching-array/[Patching Array]
+//|{source_base_url}/PatchingArray.java[Java]
+//|Hard
+//
+//|331
+//|{leetcode_base_url}/verify-preorder-serialization-of-a-binary-tree/[Verify Preorder Serialization of a Binary Tree]
+//|{source_base_url}/VerifyPreorderSerializationOfABinaryTree.java[Java]
+//|Medium
+//
+//|332
+//|{leetcode_base_url}/reconstruct-itinerary/[Reconstruct Itinerary]
+//|{source_base_url}/ReconstructItinerary.java[Java]
+//|Medium
+//
+//|333
+//|{leetcode_base_url}/largest-bst-subtree/[Largest BST Subtree]
+//|{source_base_url}/LargestBstSubtree.java[Java]
+//|Medium
+//
+//|334
+//|{leetcode_base_url}/increasing-triplet-subsequence/[Increasing Triplet Subsequence]
+//|{source_base_url}/IncreasingTripletSubsequence.java[Java]
+//|Medium
+//
+//|335
+//|{leetcode_base_url}/self-crossing/[Self Crossing]
+//|{source_base_url}/SelfCrossing.java[Java]
+//|Hard
+//
+//|336
+//|{leetcode_base_url}/palindrome-pairs/[Palindrome Pairs]
+//|{source_base_url}/PalindromePairs.java[Java]
+//|Hard
+//
+//|337
+//|{leetcode_base_url}/house-robber-iii/[House Robber III]
+//|{source_base_url}/HouseRobberIii.java[Java]
+//|Medium
+//
+//|338
+//|{leetcode_base_url}/counting-bits/[Counting Bits]
+//|{source_base_url}/CountingBits.java[Java]
+//|Medium
+//
+//|339
+//|{leetcode_base_url}/nested-list-weight-sum/[Nested List Weight Sum]
+//|{source_base_url}/NestedListWeightSum.java[Java]
+//|Easy
+//
+//|340
+//|{leetcode_base_url}/longest-substring-with-at-most-k-distinct-characters/[Longest Substring with At Most K Distinct Characters]
+//|{source_base_url}/LongestSubstringWithAtMostKDistinctCharacters.java[Java]
+//|Hard
+//
+//|341
+//|{leetcode_base_url}/flatten-nested-list-iterator/[Flatten Nested List Iterator]
+//|{source_base_url}/FlattenNestedListIterator.java[Java]
+//|Medium
+//
+//|342
+//|{leetcode_base_url}/power-of-four/[Power of Four]
+//|{source_base_url}/PowerOfFour.java[Java]
+//|Easy
+//
+//|343
+//|{leetcode_base_url}/integer-break/[Integer Break]
+//|{source_base_url}/IntegerBreak.java[Java]
+//|Medium
+//
+//|344
+//|{leetcode_base_url}/reverse-string/[Reverse String]
+//|{source_base_url}/ReverseString.java[Java]
+//|Easy
+//
+//|345
+//|{leetcode_base_url}/reverse-vowels-of-a-string/[Reverse Vowels of a String]
+//|{source_base_url}/ReverseVowelsOfAString.java[Java]
+//|Easy
+//
+//|346
+//|{leetcode_base_url}/moving-average-from-data-stream/[Moving Average from Data Stream]
+//|{source_base_url}/MovingAverageFromDataStream.java[Java]
+//|Easy
+//
+//|347
+//|{leetcode_base_url}/top-k-frequent-elements/[Top K Frequent Elements]
+//|{source_base_url}/TopKFrequentElements.java[Java]
+//|Medium
+//
+//|348
+//|{leetcode_base_url}/design-tic-tac-toe/[Design Tic-Tac-Toe]
+//|{source_base_url}/DesignTicTacToe.java[Java]
+//|Medium
+//
+//|349
+//|{leetcode_base_url}/intersection-of-two-arrays/[Intersection of Two Arrays]
+//|{source_base_url}/IntersectionOfTwoArrays.java[Java]
+//|Easy
+//
+//|350
+//|{leetcode_base_url}/intersection-of-two-arrays-ii/[Intersection of Two Arrays II]
+//|{source_base_url}/IntersectionOfTwoArraysIi.java[Java]
+//|Easy
+//
+//|351
+//|{leetcode_base_url}/android-unlock-patterns/[Android Unlock Patterns]
+//|{source_base_url}/AndroidUnlockPatterns.java[Java]
+//|Medium
+//
+//|352
+//|{leetcode_base_url}/data-stream-as-disjoint-intervals/[Data Stream as Disjoint Intervals]
+//|{source_base_url}/DataStreamAsDisjointIntervals.java[Java]
+//|Hard
+//
+//|353
+//|{leetcode_base_url}/design-snake-game/[Design Snake Game]
+//|{source_base_url}/DesignSnakeGame.java[Java]
+//|Medium
+//
+//|354
+//|{leetcode_base_url}/russian-doll-envelopes/[Russian Doll Envelopes]
+//|{source_base_url}/RussianDollEnvelopes.java[Java]
+//|Hard
+//
+//|355
+//|{leetcode_base_url}/design-twitter/[Design Twitter]
+//|{source_base_url}/DesignTwitter.java[Java]
+//|Medium
+//
+//|356
+//|{leetcode_base_url}/line-reflection/[Line Reflection]
+//|{source_base_url}/LineReflection.java[Java]
+//|Medium
+//
+//|357
+//|{leetcode_base_url}/count-numbers-with-unique-digits/[Count Numbers with Unique Digits]
+//|{source_base_url}/CountNumbersWithUniqueDigits.java[Java]
+//|Medium
+//
+//|358
+//|{leetcode_base_url}/rearrange-string-k-distance-apart/[Rearrange String k Distance Apart]
+//|{source_base_url}/RearrangeStringKDistanceApart.java[Java]
+//|Hard
+//
+//|359
+//|{leetcode_base_url}/logger-rate-limiter/[Logger Rate Limiter]
+//|{source_base_url}/LoggerRateLimiter.java[Java]
+//|Easy
+//
+//|360
+//|{leetcode_base_url}/sort-transformed-array/[Sort Transformed Array]
+//|{source_base_url}/SortTransformedArray.java[Java]
+//|Medium
+//
+//|361
+//|{leetcode_base_url}/bomb-enemy/[Bomb Enemy]
+//|{source_base_url}/BombEnemy.java[Java]
+//|Medium
+//
+//|362
+//|{leetcode_base_url}/design-hit-counter/[Design Hit Counter]
+//|{source_base_url}/DesignHitCounter.java[Java]
+//|Medium
+//
+//|363
+//|{leetcode_base_url}/max-sum-of-rectangle-no-larger-than-k/[Max Sum of Rectangle No Larger Than K]
+//|{source_base_url}/MaxSumOfRectangleNoLargerThanK.java[Java]
+//|Hard
+//
+//|364
+//|{leetcode_base_url}/nested-list-weight-sum-ii/[Nested List Weight Sum II]
+//|{source_base_url}/NestedListWeightSumIi.java[Java]
+//|Medium
+//
+//|365
+//|{leetcode_base_url}/water-and-jug-problem/[Water and Jug Problem]
+//|{source_base_url}/WaterAndJugProblem.java[Java]
+//|Medium
+//
+//|366
+//|{leetcode_base_url}/find-leaves-of-binary-tree/[Find Leaves of Binary Tree]
+//|{source_base_url}/FindLeavesOfBinaryTree.java[Java]
+//|Medium
+//
+//|367
+//|{leetcode_base_url}/valid-perfect-square/[Valid Perfect Square]
+//|{source_base_url}/ValidPerfectSquare.java[Java]
+//|Easy
+//
+//|368
+//|{leetcode_base_url}/largest-divisible-subset/[Largest Divisible Subset]
+//|{source_base_url}/LargestDivisibleSubset.java[Java]
+//|Medium
+//
+//|369
+//|{leetcode_base_url}/plus-one-linked-list/[Plus One Linked List]
+//|{source_base_url}/PlusOneLinkedList.java[Java]
+//|Medium
+//
+//|370
+//|{leetcode_base_url}/range-addition/[Range Addition]
+//|{source_base_url}/RangeAddition.java[Java]
+//|Medium
+//
+//|371
+//|{leetcode_base_url}/sum-of-two-integers/[Sum of Two Integers]
+//|{source_base_url}/SumOfTwoIntegers.java[Java]
+//|Easy
+//
+//|372
+//|{leetcode_base_url}/super-pow/[Super Pow]
+//|{source_base_url}/SuperPow.java[Java]
+//|Medium
+//
+//|373
+//|{leetcode_base_url}/find-k-pairs-with-smallest-sums/[Find K Pairs with Smallest Sums]
+//|{source_base_url}/FindKPairsWithSmallestSums.java[Java]
+//|Medium
+//
+//|374
+//|{leetcode_base_url}/guess-number-higher-or-lower/[Guess Number Higher or Lower]
+//|{source_base_url}/GuessNumberHigherOrLower.java[Java]
+//|Easy
+//
+//|375
+//|{leetcode_base_url}/guess-number-higher-or-lower-ii/[Guess Number Higher or Lower II]
+//|{source_base_url}/GuessNumberHigherOrLowerIi.java[Java]
+//|Medium
+//
+//|376
+//|{leetcode_base_url}/wiggle-subsequence/[Wiggle Subsequence]
+//|{source_base_url}/WiggleSubsequence.java[Java]
+//|Medium
+//
+//|377
+//|{leetcode_base_url}/combination-sum-iv/[Combination Sum IV]
+//|{source_base_url}/CombinationSumIv.java[Java]
+//|Medium
+//
+//|378
+//|{leetcode_base_url}/kth-smallest-element-in-a-sorted-matrix/[Kth Smallest Element in a Sorted Matrix]
+//|{source_base_url}/KthSmallestElementInASortedMatrix.java[Java]
+//|Medium
+//
+//|379
+//|{leetcode_base_url}/design-phone-directory/[Design Phone Directory]
+//|{source_base_url}/DesignPhoneDirectory.java[Java]
+//|Medium
+//
+//|380
+//|{leetcode_base_url}/insert-delete-getrandom-o1/[Insert Delete GetRandom O(1)]
+//|{source_base_url}/InsertDeleteGetRandomO1).java[Java]
+//|Medium
+//
+//|381
+//|{leetcode_base_url}/insert-delete-getrandom-o1-duplicates-allowed/[Insert Delete GetRandom O(1) - Duplicates allowed]
+//|{source_base_url}/InsertDeleteGetRandomO1DuplicatesAllowed.java[Java]
+//|Hard
+//
+//|382
+//|{leetcode_base_url}/linked-list-random-node/[Linked List Random Node]
+//|{source_base_url}/LinkedListRandomNode.java[Java]
+//|Medium
+//
+//|383
+//|{leetcode_base_url}/ransom-note/[Ransom Note]
+//|{source_base_url}/RansomNote.java[Java]
+//|Easy
+//
+//|384
+//|{leetcode_base_url}/shuffle-an-array/[Shuffle an Array]
+//|{source_base_url}/ShuffleAnArray.java[Java]
+//|Medium
+//
+//|385
+//|{leetcode_base_url}/mini-parser/[Mini Parser]
+//|{source_base_url}/MiniParser.java[Java]
+//|Medium
+//
+//|386
+//|{leetcode_base_url}/lexicographical-numbers/[Lexicographical Numbers]
+//|{source_base_url}/LexicographicalNumbers.java[Java]
+//|Medium
+//
+//|387
+//|{leetcode_base_url}/first-unique-character-in-a-string/[First Unique Character in a String]
+//|{source_base_url}/FirstUniqueCharacterInAString.java[Java]
+//|Easy
+//
+//|388
+//|{leetcode_base_url}/longest-absolute-file-path/[Longest Absolute File Path]
+//|{source_base_url}/LongestAbsoluteFilePath.java[Java]
+//|Medium
+//
+//|389
+//|{leetcode_base_url}/find-the-difference/[Find the Difference]
+//|{source_base_url}/FindTheDifference.java[Java]
+//|Easy
+//
+//|390
+//|{leetcode_base_url}/elimination-game/[Elimination Game]
+//|{source_base_url}/EliminationGame.java[Java]
+//|Medium
+//
+//|391
+//|{leetcode_base_url}/perfect-rectangle/[Perfect Rectangle]
+//|{source_base_url}/PerfectRectangle.java[Java]
+//|Hard
+//
+//|392
+//|{leetcode_base_url}/is-subsequence/[Is Subsequence]
+//|{source_base_url}/IsSubsequence.java[Java]
+//|Medium
+//
+//|393
+//|{leetcode_base_url}/utf-8-validation/[UTF-8 Validation]
+//|{source_base_url}/Utf8Validation.java[Java]
+//|Medium
+//
+//|394
+//|{leetcode_base_url}/decode-string/[Decode String]
+//|{source_base_url}/DecodeString.java[Java]
+//|Medium
+//
+//|395
+//|{leetcode_base_url}/longest-substring-with-at-least-k-repeating-characters/[Longest Substring with At Least K Repeating Characters]
+//|{source_base_url}/LongestSubstringWithAtLeastKRepeatingCharacters.java[Java]
+//|Medium
+//
+//|396
+//|{leetcode_base_url}/rotate-function/[Rotate Function]
+//|{source_base_url}/RotateFunction.java[Java]
+//|Medium
+//
+//|397
+//|{leetcode_base_url}/integer-replacement/[Integer Replacement]
+//|{source_base_url}/IntegerReplacement.java[Java]
+//|Medium
+//
+//|398
+//|{leetcode_base_url}/random-pick-index/[Random Pick Index]
+//|{source_base_url}/RandomPickIndex.java[Java]
+//|Medium
+//
+//|399
+//|{leetcode_base_url}/evaluate-division/[Evaluate Division]
+//|{source_base_url}/EvaluateDivision.java[Java]
+//|Medium
+//
+//|400
+//|{leetcode_base_url}/nth-digit/[Nth Digit]
+//|{source_base_url}/NthDigit.java[Java]
+//|Easy
+//
+//|401
+//|{leetcode_base_url}/binary-watch/[Binary Watch]
+//|{source_base_url}/BinaryWatch.java[Java]
+//|Easy
+//
+//|402
+//|{leetcode_base_url}/remove-k-digits/[Remove K Digits]
+//|{source_base_url}/RemoveKDigits.java[Java]
+//|Medium
+//
+//|403
+//|{leetcode_base_url}/frog-jump/[Frog Jump]
+//|{source_base_url}/FrogJump.java[Java]
+//|Hard
+//
+//|404
+//|{leetcode_base_url}/sum-of-left-leaves/[Sum of Left Leaves]
+//|{source_base_url}/SumOfLeftLeaves.java[Java]
+//|Easy
+//
+//|405
+//|{leetcode_base_url}/convert-a-number-to-hexadecimal/[Convert a Number to Hexadecimal]
+//|{source_base_url}/ConvertANumberToHexadecimal.java[Java]
+//|Easy
+//
+//|406
+//|{leetcode_base_url}/queue-reconstruction-by-height/[Queue Reconstruction by Height]
+//|{source_base_url}/QueueReconstructionByHeight.java[Java]
+//|Medium
+//
+//|407
+//|{leetcode_base_url}/trapping-rain-water-ii/[Trapping Rain Water II]
+//|{source_base_url}/TrappingRainWaterIi.java[Java]
+//|Hard
+//
+//|408
+//|{leetcode_base_url}/valid-word-abbreviation/[Valid Word Abbreviation]
+//|{source_base_url}/ValidWordAbbreviation.java[Java]
+//|Easy
+//
+//|409
+//|{leetcode_base_url}/longest-palindrome/[Longest Palindrome]
+//|{source_base_url}/LongestPalindrome.java[Java]
+//|Easy
+//
+//|410
+//|{leetcode_base_url}/split-array-largest-sum/[Split Array Largest Sum]
+//|{source_base_url}/SplitArrayLargestSum.java[Java]
+//|Hard
+//
+//|411
+//|{leetcode_base_url}/minimum-unique-word-abbreviation/[Minimum Unique Word Abbreviation]
+//|{source_base_url}/MinimumUniqueWordAbbreviation.java[Java]
+//|Hard
+//
+//|412
+//|{leetcode_base_url}/fizz-buzz/[Fizz Buzz]
+//|{source_base_url}/FizzBuzz.java[Java]
+//|Easy
+//
+//|413
+//|{leetcode_base_url}/arithmetic-slices/[Arithmetic Slices]
+//|{source_base_url}/ArithmeticSlices.java[Java]
+//|Medium
+//
+//|414
+//|{leetcode_base_url}/third-maximum-number/[Third Maximum Number]
+//|{source_base_url}/ThirdMaximumNumber.java[Java]
+//|Easy
+//
+//|415
+//|{leetcode_base_url}/add-strings/[Add Strings]
+//|{source_base_url}/AddStrings.java[Java]
+//|Easy
+//
+//|416
+//|{leetcode_base_url}/partition-equal-subset-sum/[Partition Equal Subset Sum]
+//|{source_base_url}/PartitionEqualSubsetSum.java[Java]
+//|Medium
+//
+//|417
+//|{leetcode_base_url}/pacific-atlantic-water-flow/[Pacific Atlantic Water Flow]
+//|{source_base_url}/PacificAtlanticWaterFlow.java[Java]
+//|Medium
+//
+//|418
+//|{leetcode_base_url}/sentence-screen-fitting/[Sentence Screen Fitting]
+//|{source_base_url}/SentenceScreenFitting.java[Java]
+//|Medium
+//
+//|419
+//|{leetcode_base_url}/battleships-in-a-board/[Battleships in a Board]
+//|{source_base_url}/BattleshipsInABoard.java[Java]
+//|Medium
+//
+//|420
+//|{leetcode_base_url}/strong-password-checker/[Strong Password Checker]
+//|{source_base_url}/StrongPasswordChecker.java[Java]
+//|Hard
+//
+//|421
+//|{leetcode_base_url}/maximum-xor-of-two-numbers-in-an-array/[Maximum XOR of Two Numbers in an Array]
+//|{source_base_url}/MaximumXorOfTwoNumbersInAnArray.java[Java]
+//|Medium
+//
+//|422
+//|{leetcode_base_url}/valid-word-square/[Valid Word Square]
+//|{source_base_url}/ValidWordSquare.java[Java]
+//|Easy
+//
+//|423
+//|{leetcode_base_url}/reconstruct-original-digits-from-english/[Reconstruct Original Digits from English]
+//|{source_base_url}/ReconstructOriginalDigitsFromEnglish.java[Java]
+//|Medium
+//
+//|424
+//|{leetcode_base_url}/longest-repeating-character-replacement/[Longest Repeating Character Replacement]
+//|{source_base_url}/LongestRepeatingCharacterReplacement.java[Java]
+//|Medium
+//
+//|425
+//|{leetcode_base_url}/word-squares/[Word Squares]
+//|{source_base_url}/WordSquares.java[Java]
+//|Hard
+//
+//|426
+//|{leetcode_base_url}/convert-binary-search-tree-to-sorted-doubly-linked-list/[Convert Binary Search Tree to Sorted Doubly Linked List]
+//|{source_base_url}/ConvertBinarySearchTreeToSortedDoublyLinkedList.java[Java]
+//|Medium
+//
+//|427
+//|{leetcode_base_url}/construct-quad-tree/[Construct Quad Tree]
+//|{source_base_url}/ConstructQuadTree.java[Java]
+//|Medium
+//
+//|428
+//|{leetcode_base_url}/serialize-and-deserialize-n-ary-tree/[Serialize and Deserialize N-ary Tree]
+//|{source_base_url}/SerializeAndDeserializeNAryTree.java[Java]
+//|Hard
+//
+//|429
+//|{leetcode_base_url}/n-ary-tree-level-order-traversal/[N-ary Tree Level Order Traversal]
+//|{source_base_url}/NAryTreeLevelOrderTraversal.java[Java]
+//|Easy
+//
+//|430
+//|{leetcode_base_url}/flatten-a-multilevel-doubly-linked-list/[Flatten a Multilevel Doubly Linked List]
+//|{source_base_url}/FlattenAMultilevelDoublyLinkedList.java[Java]
+//|Medium
+//
+//|431
+//|{leetcode_base_url}/encode-n-ary-tree-to-binary-tree/[Encode N-ary Tree to Binary Tree]
+//|{source_base_url}/EncodeNAryTreeToBinaryTree.java[Java]
+//|Hard
+//
+//|432
+//|{leetcode_base_url}/all-oone-data-structure/[All O`one Data Structure]
+//|{source_base_url}/AllOOneDataStructure.java[Java]
+//|Hard
+//
+//|433
+//|{leetcode_base_url}/minimum-genetic-mutation/[Minimum Genetic Mutation]
+//|{source_base_url}/MinimumGeneticMutation.java[Java]
+//|Medium
+//
+//|434
+//|{leetcode_base_url}/number-of-segments-in-a-string/[Number of Segments in a String]
+//|{source_base_url}/NumberOfSegmentsInAString.java[Java]
+//|Easy
+//
+//|435
+//|{leetcode_base_url}/non-overlapping-intervals/[Non-overlapping Intervals]
+//|{source_base_url}/NonOverlappingIntervals.java[Java]
+//|Medium
+//
+//|436
+//|{leetcode_base_url}/find-right-interval/[Find Right Interval]
+//|{source_base_url}/FindRightInterval.java[Java]
+//|Medium
+//
+//|437
+//|{leetcode_base_url}/path-sum-iii/[Path Sum III]
+//|{source_base_url}/PathSumIii.java[Java]
+//|Easy
+//
+//|438
+//|{leetcode_base_url}/find-all-anagrams-in-a-string/[Find All Anagrams in a String]
+//|{source_base_url}/FindAllAnagramsInAString.java[Java]
+//|Easy
+//
+//|439
+//|{leetcode_base_url}/ternary-expression-parser/[Ternary Expression Parser]
+//|{source_base_url}/TernaryExpressionParser.java[Java]
+//|Medium
+//
+//|440
+//|{leetcode_base_url}/k-th-smallest-in-lexicographical-order/[K-th Smallest in Lexicographical Order]
+//|{source_base_url}/KThSmallestInLexicographicalOrder.java[Java]
+//|Hard
+//
+//|441
+//|{leetcode_base_url}/arranging-coins/[Arranging Coins]
+//|{source_base_url}/ArrangingCoins.java[Java]
+//|Easy
+//
+//|442
+//|{leetcode_base_url}/find-all-duplicates-in-an-array/[Find All Duplicates in an Array]
+//|{source_base_url}/FindAllDuplicatesInAnArray.java[Java]
+//|Medium
+//
+//|443
+//|{leetcode_base_url}/string-compression/[String Compression]
+//|{source_base_url}/StringCompression.java[Java]
+//|Easy
+//
+//|444
+//|{leetcode_base_url}/sequence-reconstruction/[Sequence Reconstruction]
+//|{source_base_url}/SequenceReconstruction.java[Java]
+//|Medium
+//
+//|445
+//|{leetcode_base_url}/add-two-numbers-ii/[Add Two Numbers II]
+//|{source_base_url}/AddTwoNumbersIi.java[Java]
+//|Medium
+//
+//|446
+//|{leetcode_base_url}/arithmetic-slices-ii-subsequence/[Arithmetic Slices II - Subsequence]
+//|{source_base_url}/ArithmeticSlicesIISubsequence.java[Java]
+//|Hard
+//
+//|447
+//|{leetcode_base_url}/number-of-boomerangs/[Number of Boomerangs]
+//|{source_base_url}/NumberOfBoomerangs.java[Java]
+//|Easy
+//
+//|448
+//|{leetcode_base_url}/find-all-numbers-disappeared-in-an-array/[Find All Numbers Disappeared in an Array]
+//|{source_base_url}/FindAllNumbersDisappearedInAnArray.java[Java]
+//|Easy
+//
+//|449
+//|{leetcode_base_url}/serialize-and-deserialize-bst/[Serialize and Deserialize BST]
+//|{source_base_url}/SerializeAndDeserializeBst.java[Java]
+//|Medium
+//
+//|450
+//|{leetcode_base_url}/delete-node-in-a-bst/[Delete Node in a BST]
+//|{source_base_url}/DeleteNodeInABst.java[Java]
+//|Medium
+//
+//|451
+//|{leetcode_base_url}/sort-characters-by-frequency/[Sort Characters By Frequency]
+//|{source_base_url}/SortCharactersByFrequency.java[Java]
+//|Medium
+//
+//|452
+//|{leetcode_base_url}/minimum-number-of-arrows-to-burst-balloons/[Minimum Number of Arrows to Burst Balloons]
+//|{source_base_url}/MinimumNumberOfArrowsToBurstBalloons.java[Java]
+//|Medium
+//
+//|453
+//|{leetcode_base_url}/minimum-moves-to-equal-array-elements/[Minimum Moves to Equal Array Elements]
+//|{source_base_url}/MinimumMovesToEqualArrayElements.java[Java]
+//|Easy
+//
+//|454
+//|{leetcode_base_url}/4sum-ii/[4Sum II]
+//|{source_base_url}/FourSumIi.java[Java]
+//|Medium
+//
+//|455
+//|{leetcode_base_url}/assign-cookies/[Assign Cookies]
+//|{source_base_url}/AssignCookies.java[Java]
+//|Easy
+//
+//|456
+//|{leetcode_base_url}/132-pattern/[132 Pattern]
+//|{source_base_url}/132Pattern.java[Java]
+//|Medium
+//
+//|457
+//|{leetcode_base_url}/circular-array-loop/[Circular Array Loop]
+//|{source_base_url}/CircularArrayLoop.java[Java]
+//|Medium
+//
+//|458
+//|{leetcode_base_url}/poor-pigs/[Poor Pigs]
+//|{source_base_url}/PoorPigs.java[Java]
+//|Hard
+//
+//|459
+//|{leetcode_base_url}/repeated-substring-pattern/[Repeated Substring Pattern]
+//|{source_base_url}/RepeatedSubstringPattern.java[Java]
+//|Easy
+//
+//|460
+//|{leetcode_base_url}/lfu-cache/[LFU Cache]
+//|{source_base_url}/LfuCache.java[Java]
+//|Hard
+//
+//|461
+//|{leetcode_base_url}/hamming-distance/[Hamming Distance]
+//|{source_base_url}/HammingDistance.java[Java]
+//|Easy
+//
+//|462
+//|{leetcode_base_url}/minimum-moves-to-equal-array-elements-ii/[Minimum Moves to Equal Array Elements II]
+//|{source_base_url}/MinimumMovesToEqualArrayElementsIi.java[Java]
+//|Medium
+//
+//|463
+//|{leetcode_base_url}/island-perimeter/[Island Perimeter]
+//|{source_base_url}/IslandPerimeter.java[Java]
+//|Easy
+//
+//|464
+//|{leetcode_base_url}/can-i-win/[Can I Win]
+//|{source_base_url}/CanIWin.java[Java]
+//|Medium
+//
+//|465
+//|{leetcode_base_url}/optimal-account-balancing/[Optimal Account Balancing]
+//|{source_base_url}/OptimalAccountBalancing.java[Java]
+//|Hard
+//
+//|466
+//|{leetcode_base_url}/count-the-repetitions/[Count The Repetitions]
+//|{source_base_url}/CountTheRepetitions.java[Java]
+//|Hard
+//
+//|467
+//|{leetcode_base_url}/unique-substrings-in-wraparound-string/[Unique Substrings in Wraparound String]
+//|{source_base_url}/UniqueSubstringsInWraparoundString.java[Java]
+//|Medium
+//
+//|468
+//|{leetcode_base_url}/validate-ip-address/[Validate IP Address]
+//|{source_base_url}/ValidateIpAddress.java[Java]
+//|Medium
+//
+//|469
+//|{leetcode_base_url}/convex-polygon/[Convex Polygon]
+//|{source_base_url}/ConvexPolygon.java[Java]
+//|Medium
+//
+//|470
+//|{leetcode_base_url}/implement-rand10-using-rand7/[Implement Rand10() Using Rand7()]
+//|{source_base_url}/ImplementRand10UsingRand7).java[Java]
+//|Medium
+//
+//|471
+//|{leetcode_base_url}/encode-string-with-shortest-length/[Encode String with Shortest Length]
+//|{source_base_url}/EncodeStringWithShortestLength.java[Java]
+//|Hard
+//
+//|472
+//|{leetcode_base_url}/concatenated-words/[Concatenated Words]
+//|{source_base_url}/ConcatenatedWords.java[Java]
+//|Hard
+//
+//|473
+//|{leetcode_base_url}/matchsticks-to-square/[Matchsticks to Square]
+//|{source_base_url}/MatchsticksToSquare.java[Java]
+//|Medium
+//
+//|474
+//|{leetcode_base_url}/ones-and-zeroes/[Ones and Zeroes]
+//|{source_base_url}/OnesAndZeroes.java[Java]
+//|Medium
+//
+//|475
+//|{leetcode_base_url}/heaters/[Heaters]
+//|{source_base_url}/Heaters.java[Java]
+//|Easy
+//
+//|476
+//|{leetcode_base_url}/number-complement/[Number Complement]
+//|{source_base_url}/NumberComplement.java[Java]
+//|Easy
+//
+//|477
+//|{leetcode_base_url}/total-hamming-distance/[Total Hamming Distance]
+//|{source_base_url}/TotalHammingDistance.java[Java]
+//|Medium
+//
+//|478
+//|{leetcode_base_url}/generate-random-point-in-a-circle/[Generate Random Point in a Circle]
+//|{source_base_url}/GenerateRandomPointInACircle.java[Java]
+//|Medium
+//
+//|479
+//|{leetcode_base_url}/largest-palindrome-product/[Largest Palindrome Product]
+//|{source_base_url}/LargestPalindromeProduct.java[Java]
+//|Hard
+//
+//|480
+//|{leetcode_base_url}/sliding-window-median/[Sliding Window Median]
+//|{source_base_url}/SlidingWindowMedian.java[Java]
+//|Hard
+//
+//|481
+//|{leetcode_base_url}/magical-string/[Magical String]
+//|{source_base_url}/MagicalString.java[Java]
+//|Medium
+//
+//|482
+//|{leetcode_base_url}/license-key-formatting/[License Key Formatting]
+//|{source_base_url}/LicenseKeyFormatting.java[Java]
+//|Easy
+//
+//|483
+//|{leetcode_base_url}/smallest-good-base/[Smallest Good Base]
+//|{source_base_url}/SmallestGoodBase.java[Java]
+//|Hard
+//
+//|484
+//|{leetcode_base_url}/find-permutation/[Find Permutation]
+//|{source_base_url}/FindPermutation.java[Java]
+//|Medium
+//
+//|485
+//|{leetcode_base_url}/max-consecutive-ones/[Max Consecutive Ones]
+//|{source_base_url}/MaxConsecutiveOnes.java[Java]
+//|Easy
+//
+//|486
+//|{leetcode_base_url}/predict-the-winner/[Predict the Winner]
+//|{source_base_url}/PredictTheWinner.java[Java]
+//|Medium
+//
+//|487
+//|{leetcode_base_url}/max-consecutive-ones-ii/[Max Consecutive Ones II]
+//|{source_base_url}/MaxConsecutiveOnesIi.java[Java]
+//|Medium
+//
+//|488
+//|{leetcode_base_url}/zuma-game/[Zuma Game]
+//|{source_base_url}/ZumaGame.java[Java]
+//|Hard
+//
+//|489
+//|{leetcode_base_url}/robot-room-cleaner/[Robot Room Cleaner]
+//|{source_base_url}/RobotRoomCleaner.java[Java]
+//|Hard
+//
+//|490
+//|{leetcode_base_url}/the-maze/[The Maze]
+//|{source_base_url}/TheMaze.java[Java]
+//|Medium
+//
+//|491
+//|{leetcode_base_url}/increasing-subsequences/[Increasing Subsequences]
+//|{source_base_url}/IncreasingSubsequences.java[Java]
+//|Medium
+//
+//|492
+//|{leetcode_base_url}/construct-the-rectangle/[Construct the Rectangle]
+//|{source_base_url}/ConstructTheRectangle.java[Java]
+//|Easy
+//
+//|493
+//|{leetcode_base_url}/reverse-pairs/[Reverse Pairs]
+//|{source_base_url}/ReversePairs.java[Java]
+//|Hard
+//
+//|494
+//|{leetcode_base_url}/target-sum/[Target Sum]
+//|{source_base_url}/TargetSum.java[Java]
+//|Medium
+//
+//|495
+//|{leetcode_base_url}/teemo-attacking/[Teemo Attacking]
+//|{source_base_url}/TeemoAttacking.java[Java]
+//|Medium
+//
+//|496
+//|{leetcode_base_url}/next-greater-element-i/[Next Greater Element I]
+//|{source_base_url}/NextGreaterElementI.java[Java]
+//|Easy
+//
+//|497
+//|{leetcode_base_url}/random-point-in-non-overlapping-rectangles/[Random Point in Non-overlapping Rectangles]
+//|{source_base_url}/RandomPointInNonOverlappingRectangles.java[Java]
+//|Medium
+//
+//|498
+//|{leetcode_base_url}/diagonal-traverse/[Diagonal Traverse]
+//|{source_base_url}/DiagonalTraverse.java[Java]
+//|Medium
+//
+//|499
+//|{leetcode_base_url}/the-maze-iii/[The Maze III]
+//|{source_base_url}/TheMazeIii.java[Java]
+//|Hard
+//
+//|500
+//|{leetcode_base_url}/keyboard-row/[Keyboard Row]
+//|{source_base_url}/KeyboardRow.java[Java]
+//|Easy
+//
+//|501
+//|{leetcode_base_url}/find-mode-in-binary-search-tree/[Find Mode in Binary Search Tree]
+//|{source_base_url}/FindModeInBinarySearchTree.java[Java]
+//|Easy
+//
+//|502
+//|{leetcode_base_url}/ipo/[IPO]
+//|{source_base_url}/Ipo.java[Java]
+//|Hard
+//
+//|503
+//|{leetcode_base_url}/next-greater-element-ii/[Next Greater Element II]
+//|{source_base_url}/NextGreaterElementIi.java[Java]
+//|Medium
+//
+//|504
+//|{leetcode_base_url}/base-7/[Base 7]
+//|{source_base_url}/Base7.java[Java]
+//|Easy
+//
+//|505
+//|{leetcode_base_url}/the-maze-ii/[The Maze II]
+//|{source_base_url}/TheMazeIi.java[Java]
+//|Medium
+//
+//|506
+//|{leetcode_base_url}/relative-ranks/[Relative Ranks]
+//|{source_base_url}/RelativeRanks.java[Java]
+//|Easy
+//
+//|507
+//|{leetcode_base_url}/perfect-number/[Perfect Number]
+//|{source_base_url}/PerfectNumber.java[Java]
+//|Easy
+//
+//|508
+//|{leetcode_base_url}/most-frequent-subtree-sum/[Most Frequent Subtree Sum]
+//|{source_base_url}/MostFrequentSubtreeSum.java[Java]
+//|Medium
+//
+//|509
+//|{leetcode_base_url}/fibonacci-number/[Fibonacci Number]
+//|{source_base_url}/FibonacciNumber.java[Java]
+//|Easy
+//
+//|510
+//|{leetcode_base_url}/inorder-successor-in-bst-ii/[Inorder Successor in BST II]
+//|{source_base_url}/InorderSuccessorInBstIi.java[Java]
+//|Medium
+//
+//|511
+//|{leetcode_base_url}/game-play-analysis-i/[Game Play Analysis I]
+//|{source_base_url}/GamePlayAnalysisI.java[Java]
+//|Easy
+//
+//|512
+//|{leetcode_base_url}/game-play-analysis-ii/[Game Play Analysis II]
+//|{source_base_url}/GamePlayAnalysisIi.java[Java]
+//|Easy
+//
+//|513
+//|{leetcode_base_url}/find-bottom-left-tree-value/[Find Bottom Left Tree Value]
+//|{source_base_url}/FindBottomLeftTreeValue.java[Java]
+//|Medium
+//
+//|514
+//|{leetcode_base_url}/freedom-trail/[Freedom Trail]
+//|{source_base_url}/FreedomTrail.java[Java]
+//|Hard
+//
+//|515
+//|{leetcode_base_url}/find-largest-value-in-each-tree-row/[Find Largest Value in Each Tree Row]
+//|{source_base_url}/FindLargestValueInEachTreeRow.java[Java]
+//|Medium
+//
+//|516
+//|{leetcode_base_url}/longest-palindromic-subsequence/[Longest Palindromic Subsequence]
+//|{source_base_url}/LongestPalindromicSubsequence.java[Java]
+//|Medium
+//
+//|517
+//|{leetcode_base_url}/super-washing-machines/[Super Washing Machines]
+//|{source_base_url}/SuperWashingMachines.java[Java]
+//|Hard
+//
+//|518
+//|{leetcode_base_url}/coin-change-2/[Coin Change 2]
+//|{source_base_url}/CoinChange2.java[Java]
+//|Medium
+//
+//|519
+//|{leetcode_base_url}/random-flip-matrix/[Random Flip Matrix]
+//|{source_base_url}/RandomFlipMatrix.java[Java]
+//|Medium
+//
+//|520
+//|{leetcode_base_url}/detect-capital/[Detect Capital]
+//|{source_base_url}/DetectCapital.java[Java]
+//|Easy
+//
+//|521
+//|{leetcode_base_url}/longest-uncommon-subsequence-i/[Longest Uncommon Subsequence I ]
+//|{source_base_url}/LongestUncommonSubsequenceI.java[Java]
+//|Easy
+//
+//|522
+//|{leetcode_base_url}/longest-uncommon-subsequence-ii/[Longest Uncommon Subsequence II]
+//|{source_base_url}/LongestUncommonSubsequenceIi.java[Java]
+//|Medium
+//
+//|523
+//|{leetcode_base_url}/continuous-subarray-sum/[Continuous Subarray Sum]
+//|{source_base_url}/ContinuousSubarraySum.java[Java]
+//|Medium
+//
+//|524
+//|{leetcode_base_url}/longest-word-in-dictionary-through-deleting/[Longest Word in Dictionary through Deleting]
+//|{source_base_url}/LongestWordInDictionaryThroughDeleting.java[Java]
+//|Medium
+//
+//|525
+//|{leetcode_base_url}/contiguous-array/[Contiguous Array]
+//|{source_base_url}/ContiguousArray.java[Java]
+//|Medium
+//
+//|526
+//|{leetcode_base_url}/beautiful-arrangement/[Beautiful Arrangement]
+//|{source_base_url}/BeautifulArrangement.java[Java]
+//|Medium
+//
+//|527
+//|{leetcode_base_url}/word-abbreviation/[Word Abbreviation]
+//|{source_base_url}/WordAbbreviation.java[Java]
+//|Hard
+//
+//|528
+//|{leetcode_base_url}/random-pick-with-weight/[Random Pick with Weight]
+//|{source_base_url}/RandomPickWithWeight.java[Java]
+//|Medium
+//
+//|529
+//|{leetcode_base_url}/minesweeper/[Minesweeper]
+//|{source_base_url}/Minesweeper.java[Java]
+//|Medium
+//
+//|530
+//|{leetcode_base_url}/minimum-absolute-difference-in-bst/[Minimum Absolute Difference in BST]
+//|{source_base_url}/MinimumAbsoluteDifferenceInBst.java[Java]
+//|Easy
+//
+//|531
+//|{leetcode_base_url}/lonely-pixel-i/[Lonely Pixel I]
+//|{source_base_url}/LonelyPixelI.java[Java]
+//|Medium
+//
+//|532
+//|{leetcode_base_url}/k-diff-pairs-in-an-array/[K-diff Pairs in an Array]
+//|{source_base_url}/KDiffPairsInAnArray.java[Java]
+//|Easy
+//
+//|533
+//|{leetcode_base_url}/lonely-pixel-ii/[Lonely Pixel II]
+//|{source_base_url}/LonelyPixelIi.java[Java]
+//|Medium
+//
+//|534
+//|{leetcode_base_url}/game-play-analysis-iii/[Game Play Analysis III]
+//|{source_base_url}/GamePlayAnalysisIii.java[Java]
+//|Medium
+//
+//|535
+//|{leetcode_base_url}/encode-and-decode-tinyurl/[Encode and Decode TinyURL]
+//|{source_base_url}/EncodeAndDecodeTinyUrl.java[Java]
+//|Medium
+//
+//|536
+//|{leetcode_base_url}/construct-binary-tree-from-string/[Construct Binary Tree from String]
+//|{source_base_url}/ConstructBinaryTreeFromString.java[Java]
+//|Medium
+//
+//|537
+//|{leetcode_base_url}/complex-number-multiplication/[Complex Number Multiplication]
+//|{source_base_url}/ComplexNumberMultiplication.java[Java]
+//|Medium
+//
+//|538
+//|{leetcode_base_url}/convert-bst-to-greater-tree/[Convert BST to Greater Tree]
+//|{source_base_url}/ConvertBstToGreaterTree.java[Java]
+//|Easy
+//
+//|539
+//|{leetcode_base_url}/minimum-time-difference/[Minimum Time Difference]
+//|{source_base_url}/MinimumTimeDifference.java[Java]
+//|Medium
+//
+//|540
+//|{leetcode_base_url}/single-element-in-a-sorted-array/[Single Element in a Sorted Array]
+//|{source_base_url}/SingleElementInASortedArray.java[Java]
+//|Medium
+//
+//|541
+//|{leetcode_base_url}/reverse-string-ii/[Reverse String II]
+//|{source_base_url}/ReverseStringIi.java[Java]
+//|Easy
+//
+//|542
+//|{leetcode_base_url}/01-matrix/[01 Matrix]
+//|{source_base_url}/01Matrix.java[Java]
+//|Medium
+//
+//|543
+//|{leetcode_base_url}/diameter-of-binary-tree/[Diameter of Binary Tree]
+//|{source_base_url}/DiameterOfBinaryTree.java[Java]
+//|Easy
+//
+//|544
+//|{leetcode_base_url}/output-contest-matches/[Output Contest Matches]
+//|{source_base_url}/OutputContestMatches.java[Java]
+//|Medium
+//
+//|545
+//|{leetcode_base_url}/boundary-of-binary-tree/[Boundary of Binary Tree]
+//|{source_base_url}/BoundaryOfBinaryTree.java[Java]
+//|Medium
+//
+//|546
+//|{leetcode_base_url}/remove-boxes/[Remove Boxes]
+//|{source_base_url}/RemoveBoxes.java[Java]
+//|Hard
+//
+//|547
+//|{leetcode_base_url}/friend-circles/[Friend Circles]
+//|{source_base_url}/FriendCircles.java[Java]
+//|Medium
+//
+//|548
+//|{leetcode_base_url}/split-array-with-equal-sum/[Split Array with Equal Sum]
+//|{source_base_url}/SplitArrayWithEqualSum.java[Java]
+//|Medium
+//
+//|549
+//|{leetcode_base_url}/binary-tree-longest-consecutive-sequence-ii/[Binary Tree Longest Consecutive Sequence II]
+//|{source_base_url}/BinaryTreeLongestConsecutiveSequenceIi.java[Java]
+//|Medium
+//
+//|550
+//|{leetcode_base_url}/game-play-analysis-iv/[Game Play Analysis IV]
+//|{source_base_url}/GamePlayAnalysisIv.java[Java]
+//|Medium
+//
+//|551
+//|{leetcode_base_url}/student-attendance-record-i/[Student Attendance Record I]
+//|{source_base_url}/StudentAttendanceRecordI.java[Java]
+//|Easy
+//
+//|552
+//|{leetcode_base_url}/student-attendance-record-ii/[Student Attendance Record II]
+//|{source_base_url}/StudentAttendanceRecordIi.java[Java]
+//|Hard
+//
+//|553
+//|{leetcode_base_url}/optimal-division/[Optimal Division]
+//|{source_base_url}/OptimalDivision.java[Java]
+//|Medium
+//
+//|554
+//|{leetcode_base_url}/brick-wall/[Brick Wall]
+//|{source_base_url}/BrickWall.java[Java]
+//|Medium
+//
+//|555
+//|{leetcode_base_url}/split-concatenated-strings/[Split Concatenated Strings]
+//|{source_base_url}/SplitConcatenatedStrings.java[Java]
+//|Medium
+//
+//|556
+//|{leetcode_base_url}/next-greater-element-iii/[Next Greater Element III]
+//|{source_base_url}/NextGreaterElementIii.java[Java]
+//|Medium
+//
+//|557
+//|{leetcode_base_url}/reverse-words-in-a-string-iii/[Reverse Words in a String III]
+//|{source_base_url}/ReverseWordsInAStringIii.java[Java]
+//|Easy
+//
+//|558
+//|{leetcode_base_url}/quad-tree-intersection/[Quad Tree Intersection]
+//|{source_base_url}/QuadTreeIntersection.java[Java]
+//|Easy
+//
+//|559
+//|{leetcode_base_url}/maximum-depth-of-n-ary-tree/[Maximum Depth of N-ary Tree]
+//|{source_base_url}/MaximumDepthOfNAryTree.java[Java]
+//|Easy
+//
+//|560
+//|{leetcode_base_url}/subarray-sum-equals-k/[Subarray Sum Equals K]
+//|{source_base_url}/SubarraySumEqualsK.java[Java]
+//|Medium
+//
+//|561
+//|{leetcode_base_url}/array-partition-i/[Array Partition I]
+//|{source_base_url}/ArrayPartitionI.java[Java]
+//|Easy
+//
+//|562
+//|{leetcode_base_url}/longest-line-of-consecutive-one-in-matrix/[Longest Line of Consecutive One in Matrix]
+//|{source_base_url}/LongestLineOfConsecutiveOneInMatrix.java[Java]
+//|Medium
+//
+//|563
+//|{leetcode_base_url}/binary-tree-tilt/[Binary Tree Tilt]
+//|{source_base_url}/BinaryTreeTilt.java[Java]
+//|Easy
+//
+//|564
+//|{leetcode_base_url}/find-the-closest-palindrome/[Find the Closest Palindrome]
+//|{source_base_url}/FindTheClosestPalindrome.java[Java]
+//|Hard
+//
+//|565
+//|{leetcode_base_url}/array-nesting/[Array Nesting]
+//|{source_base_url}/ArrayNesting.java[Java]
+//|Medium
+//
+//|566
+//|{leetcode_base_url}/reshape-the-matrix/[Reshape the Matrix]
+//|{source_base_url}/ReshapeTheMatrix.java[Java]
+//|Easy
+//
+//|567
+//|{leetcode_base_url}/permutation-in-string/[Permutation in String]
+//|{source_base_url}/PermutationInString.java[Java]
+//|Medium
+//
+//|568
+//|{leetcode_base_url}/maximum-vacation-days/[Maximum Vacation Days]
+//|{source_base_url}/MaximumVacationDays.java[Java]
+//|Hard
+//
+//|569
+//|{leetcode_base_url}/median-employee-salary/[Median Employee Salary]
+//|{source_base_url}/MedianEmployeeSalary.java[Java]
+//|Hard
+//
+//|570
+//|{leetcode_base_url}/managers-with-at-least-5-direct-reports/[Managers with at Least 5 Direct Reports]
+//|{source_base_url}/ManagersWithAtLeast5DirectReports.java[Java]
+//|Medium
+//
+//|571
+//|{leetcode_base_url}/find-median-given-frequency-of-numbers/[Find Median Given Frequency of Numbers]
+//|{source_base_url}/FindMedianGivenFrequencyOfNumbers.java[Java]
+//|Hard
+//
+//|572
+//|{leetcode_base_url}/subtree-of-another-tree/[Subtree of Another Tree]
+//|{source_base_url}/SubtreeOfAnotherTree.java[Java]
+//|Easy
+//
+//|573
+//|{leetcode_base_url}/squirrel-simulation/[Squirrel Simulation]
+//|{source_base_url}/SquirrelSimulation.java[Java]
+//|Medium
+//
+//|574
+//|{leetcode_base_url}/winning-candidate/[Winning Candidate]
+//|{source_base_url}/WinningCandidate.java[Java]
+//|Medium
+//
+//|575
+//|{leetcode_base_url}/distribute-candies/[Distribute Candies]
+//|{source_base_url}/DistributeCandies.java[Java]
+//|Easy
+//
+//|576
+//|{leetcode_base_url}/out-of-boundary-paths/[Out of Boundary Paths]
+//|{source_base_url}/OutOfBoundaryPaths.java[Java]
+//|Medium
+//
+//|577
+//|{leetcode_base_url}/employee-bonus/[Employee Bonus]
+//|{source_base_url}/EmployeeBonus.java[Java]
+//|Easy
+//
+//|578
+//|{leetcode_base_url}/get-highest-answer-rate-question/[Get Highest Answer Rate Question]
+//|{source_base_url}/GetHighestAnswerRateQuestion.java[Java]
+//|Medium
+//
+//|579
+//|{leetcode_base_url}/find-cumulative-salary-of-an-employee/[Find Cumulative Salary of an Employee]
+//|{source_base_url}/FindCumulativeSalaryOfAnEmployee.java[Java]
+//|Hard
+//
+//|580
+//|{leetcode_base_url}/count-student-number-in-departments/[Count Student Number in Departments]
+//|{source_base_url}/CountStudentNumberInDepartments.java[Java]
+//|Medium
+//
+//|581
+//|{leetcode_base_url}/shortest-unsorted-continuous-subarray/[Shortest Unsorted Continuous Subarray]
+//|{source_base_url}/ShortestUnsortedContinuousSubarray.java[Java]
+//|Easy
+//
+//|582
+//|{leetcode_base_url}/kill-process/[Kill Process]
+//|{source_base_url}/KillProcess.java[Java]
+//|Medium
+//
+//|583
+//|{leetcode_base_url}/delete-operation-for-two-strings/[Delete Operation for Two Strings]
+//|{source_base_url}/DeleteOperationForTwoStrings.java[Java]
+//|Medium
+//
+//|584
+//|{leetcode_base_url}/find-customer-referee/[Find Customer Referee]
+//|{source_base_url}/FindCustomerReferee.java[Java]
+//|Easy
+//
+//|585
+//|{leetcode_base_url}/investments-in-2016/[Investments in 2016]
+//|{source_base_url}/InvestmentsIn2016.java[Java]
+//|Medium
+//
+//|586
+//|{leetcode_base_url}/customer-placing-the-largest-number-of-orders/[Customer Placing the Largest Number of Orders]
+//|{source_base_url}/CustomerPlacingTheLargestNumberOfOrders.java[Java]
+//|Easy
+//
+//|587
+//|{leetcode_base_url}/erect-the-fence/[Erect the Fence]
+//|{source_base_url}/ErectTheFence.java[Java]
+//|Hard
+//
+//|588
+//|{leetcode_base_url}/design-in-memory-file-system/[Design In-Memory File System]
+//|{source_base_url}/DesignInMemoryFileSystem.java[Java]
+//|Hard
+//
+//|589
+//|{leetcode_base_url}/n-ary-tree-preorder-traversal/[N-ary Tree Preorder Traversal]
+//|{source_base_url}/NAryTreePreorderTraversal.java[Java]
+//|Easy
+//
+//|590
+//|{leetcode_base_url}/n-ary-tree-postorder-traversal/[N-ary Tree Postorder Traversal]
+//|{source_base_url}/NAryTreePostorderTraversal.java[Java]
+//|Easy
+//
+//|591
+//|{leetcode_base_url}/tag-validator/[Tag Validator]
+//|{source_base_url}/TagValidator.java[Java]
+//|Hard
+//
+//|592
+//|{leetcode_base_url}/fraction-addition-and-subtraction/[Fraction Addition and Subtraction]
+//|{source_base_url}/FractionAdditionAndSubtraction.java[Java]
+//|Medium
+//
+//|593
+//|{leetcode_base_url}/valid-square/[Valid Square]
+//|{source_base_url}/ValidSquare.java[Java]
+//|Medium
+//
+//|594
+//|{leetcode_base_url}/longest-harmonious-subsequence/[Longest Harmonious Subsequence]
+//|{source_base_url}/LongestHarmoniousSubsequence.java[Java]
+//|Easy
+//
+//|595
+//|{leetcode_base_url}/big-countries/[Big Countries]
+//|{source_base_url}/BigCountries.java[Java]
+//|Easy
+//
+//|596
+//|{leetcode_base_url}/classes-more-than-5-students/[Classes More Than 5 Students]
+//|{source_base_url}/ClassesMoreThan5Students.java[Java]
+//|Easy
+//
+//|597
+//|{leetcode_base_url}/friend-requests-i-overall-acceptance-rate/[Friend Requests I: Overall Acceptance Rate]
+//|{source_base_url}/FriendRequestsIOverallAcceptanceRate.java[Java]
+//|Easy
+//
+//|598
+//|{leetcode_base_url}/range-addition-ii/[Range Addition II]
+//|{source_base_url}/RangeAdditionIi.java[Java]
+//|Easy
+//
+//|599
+//|{leetcode_base_url}/minimum-index-sum-of-two-lists/[Minimum Index Sum of Two Lists]
+//|{source_base_url}/MinimumIndexSumOfTwoLists.java[Java]
+//|Easy
+//
+//|600
+//|{leetcode_base_url}/non-negative-integers-without-consecutive-ones/[Non-negative Integers without Consecutive Ones]
+//|{source_base_url}/NonNegativeIntegersWithoutConsecutiveOnes.java[Java]
+//|Hard
+//
+//|601
+//|{leetcode_base_url}/human-traffic-of-stadium/[Human Traffic of Stadium]
+//|{source_base_url}/HumanTrafficOfStadium.java[Java]
+//|Hard
+//
+//|602
+//|{leetcode_base_url}/friend-requests-ii-who-has-the-most-friends/[Friend Requests II: Who Has the Most Friends]
+//|{source_base_url}/FriendRequestsIiWhoHasTheMostFriends.java[Java]
+//|Medium
+//
+//|603
+//|{leetcode_base_url}/consecutive-available-seats/[Consecutive Available Seats]
+//|{source_base_url}/ConsecutiveAvailableSeats.java[Java]
+//|Easy
+//
+//|604
+//|{leetcode_base_url}/design-compressed-string-iterator/[Design Compressed String Iterator]
+//|{source_base_url}/DesignCompressedStringIterator.java[Java]
+//|Easy
+//
+//|605
+//|{leetcode_base_url}/can-place-flowers/[Can Place Flowers]
+//|{source_base_url}/CanPlaceFlowers.java[Java]
+//|Easy
+//
+//|606
+//|{leetcode_base_url}/construct-string-from-binary-tree/[Construct String from Binary Tree]
+//|{source_base_url}/ConstructStringFromBinaryTree.java[Java]
+//|Easy
+//
+//|607
+//|{leetcode_base_url}/sales-person/[Sales Person]
+//|{source_base_url}/SalesPerson.java[Java]
+//|Easy
+//
+//|608
+//|{leetcode_base_url}/tree-node/[Tree Node]
+//|{source_base_url}/TreeNode.java[Java]
+//|Medium
+//
+//|609
+//|{leetcode_base_url}/find-duplicate-file-in-system/[Find Duplicate File in System]
+//|{source_base_url}/FindDuplicateFileInSystem.java[Java]
+//|Medium
+//
+//|610
+//|{leetcode_base_url}/triangle-judgement/[Triangle Judgement]
+//|{source_base_url}/TriangleJudgement.java[Java]
+//|Easy
+//
+//|611
+//|{leetcode_base_url}/valid-triangle-number/[Valid Triangle Number]
+//|{source_base_url}/ValidTriangleNumber.java[Java]
+//|Medium
+//
+//|612
+//|{leetcode_base_url}/shortest-distance-in-a-plane/[Shortest Distance in a Plane]
+//|{source_base_url}/ShortestDistanceInAPlane.java[Java]
+//|Medium
+//
+//|613
+//|{leetcode_base_url}/shortest-distance-in-a-line/[Shortest Distance in a Line]
+//|{source_base_url}/ShortestDistanceInALine.java[Java]
+//|Easy
+//
+//|614
+//|{leetcode_base_url}/second-degree-follower/[Second Degree Follower]
+//|{source_base_url}/SecondDegreeFollower.java[Java]
+//|Medium
+//
+//|615
+//|{leetcode_base_url}/average-salary-departments-vs-company/[Average Salary: Departments VS Company]
+//|{source_base_url}/AverageSalaryDepartmentsVsCompany.java[Java]
+//|Hard
+//
+//|616
+//|{leetcode_base_url}/add-bold-tag-in-string/[Add Bold Tag in String]
+//|{source_base_url}/AddBoldTagInString.java[Java]
+//|Medium
+//
+//|617
+//|{leetcode_base_url}/merge-two-binary-trees/[Merge Two Binary Trees]
+//|{source_base_url}/MergeTwoBinaryTrees.java[Java]
+//|Easy
+//
+//|618
+//|{leetcode_base_url}/students-report-by-geography/[Students Report By Geography]
+//|{source_base_url}/StudentsReportByGeography.java[Java]
+//|Hard
+//
+//|619
+//|{leetcode_base_url}/biggest-single-number/[Biggest Single Number]
+//|{source_base_url}/BiggestSingleNumber.java[Java]
+//|Easy
+//
+//|620
+//|{leetcode_base_url}/not-boring-movies/[Not Boring Movies]
+//|{source_base_url}/NotBoringMovies.java[Java]
+//|Easy
+//
+//|621
+//|{leetcode_base_url}/task-scheduler/[Task Scheduler]
+//|{source_base_url}/TaskScheduler.java[Java]
+//|Medium
+//
+//|622
+//|{leetcode_base_url}/design-circular-queue/[Design Circular Queue]
+//|{source_base_url}/DesignCircularQueue.java[Java]
+//|Medium
+//
+//|623
+//|{leetcode_base_url}/add-one-row-to-tree/[Add One Row to Tree]
+//|{source_base_url}/AddOneRowToTree.java[Java]
+//|Medium
+//
+//|624
+//|{leetcode_base_url}/maximum-distance-in-arrays/[Maximum Distance in Arrays]
+//|{source_base_url}/MaximumDistanceInArrays.java[Java]
+//|Easy
+//
+//|625
+//|{leetcode_base_url}/minimum-factorization/[Minimum Factorization]
+//|{source_base_url}/MinimumFactorization.java[Java]
+//|Medium
+//
+//|626
+//|{leetcode_base_url}/exchange-seats/[Exchange Seats]
+//|{source_base_url}/ExchangeSeats.java[Java]
+//|Medium
+//
+//|627
+//|{leetcode_base_url}/swap-salary/[Swap Salary]
+//|{source_base_url}/SwapSalary.java[Java]
+//|Easy
+//
+//|628
+//|{leetcode_base_url}/maximum-product-of-three-numbers/[Maximum Product of Three Numbers]
+//|{source_base_url}/MaximumProductOfThreeNumbers.java[Java]
+//|Easy
+//
+//|629
+//|{leetcode_base_url}/k-inverse-pairs-array/[K Inverse Pairs Array]
+//|{source_base_url}/KInversePairsArray.java[Java]
+//|Hard
+//
+//|630
+//|{leetcode_base_url}/course-schedule-iii/[Course Schedule III]
+//|{source_base_url}/CourseScheduleIii.java[Java]
+//|Hard
+//
+//|631
+//|{leetcode_base_url}/design-excel-sum-formula/[Design Excel Sum Formula]
+//|{source_base_url}/DesignExcelSumFormula.java[Java]
+//|Hard
+//
+//|632
+//|{leetcode_base_url}/smallest-range/[Smallest Range]
+//|{source_base_url}/SmallestRange.java[Java]
+//|Hard
+//
+//|633
+//|{leetcode_base_url}/sum-of-square-numbers/[Sum of Square Numbers]
+//|{source_base_url}/SumOfSquareNumbers.java[Java]
+//|Easy
+//
+//|634
+//|{leetcode_base_url}/find-the-derangement-of-an-array/[Find the Derangement of An Array]
+//|{source_base_url}/FindTheDerangementOfAnArray.java[Java]
+//|Medium
+//
+//|635
+//|{leetcode_base_url}/design-log-storage-system/[Design Log Storage System]
+//|{source_base_url}/DesignLogStorageSystem.java[Java]
+//|Medium
+//
+//|636
+//|{leetcode_base_url}/exclusive-time-of-functions/[Exclusive Time of Functions]
+//|{source_base_url}/ExclusiveTimeOfFunctions.java[Java]
+//|Medium
+//
+//|637
+//|{leetcode_base_url}/average-of-levels-in-binary-tree/[Average of Levels in Binary Tree]
+//|{source_base_url}/AverageOfLevelsInBinaryTree.java[Java]
+//|Easy
+//
+//|638
+//|{leetcode_base_url}/shopping-offers/[Shopping Offers]
+//|{source_base_url}/ShoppingOffers.java[Java]
+//|Medium
+//
+//|639
+//|{leetcode_base_url}/decode-ways-ii/[Decode Ways II]
+//|{source_base_url}/DecodeWaysIi.java[Java]
+//|Hard
+//
+//|640
+//|{leetcode_base_url}/solve-the-equation/[Solve the Equation]
+//|{source_base_url}/SolveTheEquation.java[Java]
+//|Medium
+//
+//|641
+//|{leetcode_base_url}/design-circular-deque/[Design Circular Deque]
+//|{source_base_url}/DesignCircularDeque.java[Java]
+//|Medium
+//
+//|642
+//|{leetcode_base_url}/design-search-autocomplete-system/[Design Search Autocomplete System]
+//|{source_base_url}/DesignSearchAutocompleteSystem.java[Java]
+//|Hard
+//
+//|643
+//|{leetcode_base_url}/maximum-average-subarray-i/[Maximum Average Subarray I]
+//|{source_base_url}/MaximumAverageSubarrayI.java[Java]
+//|Easy
+//
+//|644
+//|{leetcode_base_url}/maximum-average-subarray-ii/[Maximum Average Subarray II]
+//|{source_base_url}/MaximumAverageSubarrayIi.java[Java]
+//|Hard
+//
+//|645
+//|{leetcode_base_url}/set-mismatch/[Set Mismatch]
+//|{source_base_url}/SetMismatch.java[Java]
+//|Easy
+//
+//|646
+//|{leetcode_base_url}/maximum-length-of-pair-chain/[Maximum Length of Pair Chain]
+//|{source_base_url}/MaximumLengthOfPairChain.java[Java]
+//|Medium
+//
+//|647
+//|{leetcode_base_url}/palindromic-substrings/[Palindromic Substrings]
+//|{source_base_url}/PalindromicSubstrings.java[Java]
+//|Medium
+//
+//|648
+//|{leetcode_base_url}/replace-words/[Replace Words]
+//|{source_base_url}/ReplaceWords.java[Java]
+//|Medium
+//
+//|649
+//|{leetcode_base_url}/dota2-senate/[Dota2 Senate]
+//|{source_base_url}/Dota2Senate.java[Java]
+//|Medium
+//
+//|650
+//|{leetcode_base_url}/2-keys-keyboard/[2 Keys Keyboard]
+//|{source_base_url}/2KeysKeyboard.java[Java]
+//|Medium
+//
+//|651
+//|{leetcode_base_url}/4-keys-keyboard/[4 Keys Keyboard]
+//|{source_base_url}/4KeysKeyboard.java[Java]
+//|Medium
+//
+//|652
+//|{leetcode_base_url}/find-duplicate-subtrees/[Find Duplicate Subtrees]
+//|{source_base_url}/FindDuplicateSubtrees.java[Java]
+//|Medium
+//
+//|653
+//|{leetcode_base_url}/two-sum-iv-input-is-a-bst/[Two Sum IV - Input is a BST]
+//|{source_base_url}/TwoSumIvInputIsABst.java[Java]
+//|Easy
+//
+//|654
+//|{leetcode_base_url}/maximum-binary-tree/[Maximum Binary Tree]
+//|{source_base_url}/MaximumBinaryTree.java[Java]
+//|Medium
+//
+//|655
+//|{leetcode_base_url}/print-binary-tree/[Print Binary Tree]
+//|{source_base_url}/PrintBinaryTree.java[Java]
+//|Medium
+//
+//|656
+//|{leetcode_base_url}/coin-path/[Coin Path]
+//|{source_base_url}/CoinPath.java[Java]
+//|Hard
+//
+//|657
+//|{leetcode_base_url}/robot-return-to-origin/[Robot Return to Origin]
+//|{source_base_url}/RobotReturnToOrigin.java[Java]
+//|Easy
+//
+//|658
+//|{leetcode_base_url}/find-k-closest-elements/[Find K Closest Elements]
+//|{source_base_url}/FindKClosestElements.java[Java]
+//|Medium
+//
+//|659
+//|{leetcode_base_url}/split-array-into-consecutive-subsequences/[Split Array into Consecutive Subsequences]
+//|{source_base_url}/SplitArrayIntoConsecutiveSubsequences.java[Java]
+//|Medium
+//
+//|660
+//|{leetcode_base_url}/remove-9/[Remove 9]
+//|{source_base_url}/Remove9.java[Java]
+//|Hard
+//
+//|661
+//|{leetcode_base_url}/image-smoother/[Image Smoother]
+//|{source_base_url}/ImageSmoother.java[Java]
+//|Easy
+//
+//|662
+//|{leetcode_base_url}/maximum-width-of-binary-tree/[Maximum Width of Binary Tree]
+//|{source_base_url}/MaximumWidthOfBinaryTree.java[Java]
+//|Medium
+//
+//|663
+//|{leetcode_base_url}/equal-tree-partition/[Equal Tree Partition]
+//|{source_base_url}/EqualTreePartition.java[Java]
+//|Medium
+//
+//|664
+//|{leetcode_base_url}/strange-printer/[Strange Printer]
+//|{source_base_url}/StrangePrinter.java[Java]
+//|Hard
+//
+//|665
+//|{leetcode_base_url}/non-decreasing-array/[Non-decreasing Array]
+//|{source_base_url}/NonDecreasingArray.java[Java]
+//|Easy
+//
+//|666
+//|{leetcode_base_url}/path-sum-iv/[Path Sum IV]
+//|{source_base_url}/PathSumIv.java[Java]
+//|Medium
+//
+//|667
+//|{leetcode_base_url}/beautiful-arrangement-ii/[Beautiful Arrangement II]
+//|{source_base_url}/BeautifulArrangementIi.java[Java]
+//|Medium
+//
+//|668
+//|{leetcode_base_url}/kth-smallest-number-in-multiplication-table/[Kth Smallest Number in Multiplication Table]
+//|{source_base_url}/KthSmallestNumberInMultiplicationTable.java[Java]
+//|Hard
+//
+//|669
+//|{leetcode_base_url}/trim-a-binary-search-tree/[Trim a Binary Search Tree]
+//|{source_base_url}/TrimABinarySearchTree.java[Java]
+//|Easy
+//
+//|670
+//|{leetcode_base_url}/maximum-swap/[Maximum Swap]
+//|{source_base_url}/MaximumSwap.java[Java]
+//|Medium
+//
+//|671
+//|{leetcode_base_url}/second-minimum-node-in-a-binary-tree/[Second Minimum Node In a Binary Tree]
+//|{source_base_url}/SecondMinimumNodeInABinaryTree.java[Java]
+//|Easy
+//
+//|672
+//|{leetcode_base_url}/bulb-switcher-ii/[Bulb Switcher II]
+//|{source_base_url}/BulbSwitcherIi.java[Java]
+//|Medium
+//
+//|673
+//|{leetcode_base_url}/number-of-longest-increasing-subsequence/[Number of Longest Increasing Subsequence]
+//|{source_base_url}/NumberOfLongestIncreasingSubsequence.java[Java]
+//|Medium
+//
+//|674
+//|{leetcode_base_url}/longest-continuous-increasing-subsequence/[Longest Continuous Increasing Subsequence]
+//|{source_base_url}/LongestContinuousIncreasingSubsequence.java[Java]
+//|Easy
+//
+//|675
+//|{leetcode_base_url}/cut-off-trees-for-golf-event/[Cut Off Trees for Golf Event]
+//|{source_base_url}/CutOffTreesForGolfEvent.java[Java]
+//|Hard
+//
+//|676
+//|{leetcode_base_url}/implement-magic-dictionary/[Implement Magic Dictionary]
+//|{source_base_url}/ImplementMagicDictionary.java[Java]
+//|Medium
+//
+//|677
+//|{leetcode_base_url}/map-sum-pairs/[Map Sum Pairs]
+//|{source_base_url}/MapSumPairs.java[Java]
+//|Medium
+//
+//|678
+//|{leetcode_base_url}/valid-parenthesis-string/[Valid Parenthesis String]
+//|{source_base_url}/ValidParenthesisString.java[Java]
+//|Medium
+//
+//|679
+//|{leetcode_base_url}/24-game/[24 Game]
+//|{source_base_url}/24Game.java[Java]
+//|Hard
+//
+//|680
+//|{leetcode_base_url}/valid-palindrome-ii/[Valid Palindrome II]
+//|{source_base_url}/ValidPalindromeIi.java[Java]
+//|Easy
+//
+//|681
+//|{leetcode_base_url}/next-closest-time/[Next Closest Time]
+//|{source_base_url}/NextClosestTime.java[Java]
+//|Medium
+//
+//|682
+//|{leetcode_base_url}/baseball-game/[Baseball Game]
+//|{source_base_url}/BaseballGame.java[Java]
+//|Easy
+//
+//|683
+//|{leetcode_base_url}/k-empty-slots/[K Empty Slots]
+//|{source_base_url}/KEmptySlots.java[Java]
+//|Hard
+//
+//|684
+//|{leetcode_base_url}/redundant-connection/[Redundant Connection]
+//|{source_base_url}/RedundantConnection.java[Java]
+//|Medium
+//
+//|685
+//|{leetcode_base_url}/redundant-connection-ii/[Redundant Connection II]
+//|{source_base_url}/RedundantConnectionIi.java[Java]
+//|Hard
+//
+//|686
+//|{leetcode_base_url}/repeated-string-match/[Repeated String Match]
+//|{source_base_url}/RepeatedStringMatch.java[Java]
+//|Easy
+//
+//|687
+//|{leetcode_base_url}/longest-univalue-path/[Longest Univalue Path]
+//|{source_base_url}/LongestUnivaluePath.java[Java]
+//|Easy
+//
+//|688
+//|{leetcode_base_url}/knight-probability-in-chessboard/[Knight Probability in Chessboard]
+//|{source_base_url}/KnightProbabilityInChessboard.java[Java]
+//|Medium
+//
+//|689
+//|{leetcode_base_url}/maximum-sum-of-3-non-overlapping-subarrays/[Maximum Sum of 3 Non-Overlapping Subarrays]
+//|{source_base_url}/MaximumSumOf3NonOverlappingSubarrays.java[Java]
+//|Hard
+//
+//|690
+//|{leetcode_base_url}/employee-importance/[Employee Importance]
+//|{source_base_url}/EmployeeImportance.java[Java]
+//|Easy
+//
+//|691
+//|{leetcode_base_url}/stickers-to-spell-word/[Stickers to Spell Word]
+//|{source_base_url}/StickersToSpellWord.java[Java]
+//|Hard
+//
+//|692
+//|{leetcode_base_url}/top-k-frequent-words/[Top K Frequent Words]
+//|{source_base_url}/TopKFrequentWords.java[Java]
+//|Medium
+//
+//|693
+//|{leetcode_base_url}/binary-number-with-alternating-bits/[Binary Number with Alternating Bits]
+//|{source_base_url}/BinaryNumberWithAlternatingBits.java[Java]
+//|Easy
+//
+//|694
+//|{leetcode_base_url}/number-of-distinct-islands/[Number of Distinct Islands]
+//|{source_base_url}/NumberOfDistinctIslands.java[Java]
+//|Medium
+//
+//|695
+//|{leetcode_base_url}/max-area-of-island/[Max Area of Island]
+//|{source_base_url}/MaxAreaOfIsland.java[Java]
+//|Medium
+//
+//|696
+//|{leetcode_base_url}/count-binary-substrings/[Count Binary Substrings]
+//|{source_base_url}/CountBinarySubstrings.java[Java]
+//|Easy
+//
+//|697
+//|{leetcode_base_url}/degree-of-an-array/[Degree of an Array]
+//|{source_base_url}/DegreeOfAnArray.java[Java]
+//|Easy
+//
+//|698
+//|{leetcode_base_url}/partition-to-k-equal-sum-subsets/[Partition to K Equal Sum Subsets]
+//|{source_base_url}/PartitionToKEqualSumSubsets.java[Java]
+//|Medium
+//
+//|699
+//|{leetcode_base_url}/falling-squares/[Falling Squares]
+//|{source_base_url}/FallingSquares.java[Java]
+//|Hard
+//
+//|700
+//|{leetcode_base_url}/search-in-a-binary-search-tree/[Search in a Binary Search Tree]
+//|{source_base_url}/SearchInABinarySearchTree.java[Java]
+//|Easy
+//
+//|701
+//|{leetcode_base_url}/insert-into-a-binary-search-tree/[Insert into a Binary Search Tree]
+//|{source_base_url}/InsertIntoABinarySearchTree.java[Java]
+//|Medium
+//
+//|702
+//|{leetcode_base_url}/search-in-a-sorted-array-of-unknown-size/[Search in a Sorted Array of Unknown Size]
+//|{source_base_url}/SearchInASortedArrayOfUnknownSize.java[Java]
+//|Medium
+//
+//|703
+//|{leetcode_base_url}/kth-largest-element-in-a-stream/[Kth Largest Element in a Stream]
+//|{source_base_url}/KthLargestElementInAStream.java[Java]
+//|Easy
+//
+//|704
+//|{leetcode_base_url}/binary-search/[Binary Search]
+//|{source_base_url}/BinarySearch.java[Java]
+//|Easy
+//
+//|705
+//|{leetcode_base_url}/design-hashset/[Design HashSet]
+//|{source_base_url}/DesignHashset.java[Java]
+//|Easy
+//
+//|706
+//|{leetcode_base_url}/design-hashmap/[Design HashMap]
+//|{source_base_url}/DesignHashMap.java[Java]
+//|Easy
+//
+//|707
+//|{leetcode_base_url}/design-linked-list/[Design Linked List]
+//|{source_base_url}/DesignLinkedList.java[Java]
+//|Easy
+//
+//|708
+//|{leetcode_base_url}/insert-into-a-cyclic-sorted-list/[Insert into a Cyclic Sorted List]
+//|{source_base_url}/InsertIntoACyclicSortedList.java[Java]
+//|Medium
+//
+//|709
+//|{leetcode_base_url}/to-lower-case/[To Lower Case]
+//|{source_base_url}/ToLowerCase.java[Java]
+//|Easy
+//
+//|710
+//|{leetcode_base_url}/random-pick-with-blacklist/[Random Pick with Blacklist]
+//|{source_base_url}/RandomPickWithBlacklist.java[Java]
+//|Hard
+//
+//|711
+//|{leetcode_base_url}/number-of-distinct-islands-ii/[Number of Distinct Islands II]
+//|{source_base_url}/NumberOfDistinctIslandsIi.java[Java]
+//|Hard
+//
+//|712
+//|{leetcode_base_url}/minimum-ascii-delete-sum-for-two-strings/[Minimum ASCII Delete Sum for Two Strings]
+//|{source_base_url}/MinimumAsciiDeleteSumForTwoStrings.java[Java]
+//|Medium
+//
+//|713
+//|{leetcode_base_url}/subarray-product-less-than-k/[Subarray Product Less Than K]
+//|{source_base_url}/SubarrayProductLessThanK.java[Java]
+//|Medium
+//
+//|714
+//|{leetcode_base_url}/best-time-to-buy-and-sell-stock-with-transaction-fee/[Best Time to Buy and Sell Stock with Transaction Fee]
+//|{source_base_url}/BestTimeToBuyAndSellStockWithTransactionFee.java[Java]
+//|Medium
+//
+//|715
+//|{leetcode_base_url}/range-module/[Range Module]
+//|{source_base_url}/RangeModule.java[Java]
+//|Hard
+//
+//|716
+//|{leetcode_base_url}/max-stack/[Max Stack]
+//|{source_base_url}/MaxStack.java[Java]
+//|Easy
+//
+//|717
+//|{leetcode_base_url}/1-bit-and-2-bit-characters/[1-bit and 2-bit Characters]
+//|{source_base_url}/1BitAnd2BitCharacters.java[Java]
+//|Easy
+//
+//|718
+//|{leetcode_base_url}/maximum-length-of-repeated-subarray/[Maximum Length of Repeated Subarray]
+//|{source_base_url}/MaximumLengthOfRepeatedSubarray.java[Java]
+//|Medium
+//
+//|719
+//|{leetcode_base_url}/find-k-th-smallest-pair-distance/[Find K-th Smallest Pair Distance]
+//|{source_base_url}/FindKThSmallestPairDistance.java[Java]
+//|Hard
+//
+//|720
+//|{leetcode_base_url}/longest-word-in-dictionary/[Longest Word in Dictionary]
+//|{source_base_url}/LongestWordInDictionary.java[Java]
+//|Easy
+//
+//|721
+//|{leetcode_base_url}/accounts-merge/[Accounts Merge]
+//|{source_base_url}/AccountsMerge.java[Java]
+//|Medium
+//
+//|722
+//|{leetcode_base_url}/remove-comments/[Remove Comments]
+//|{source_base_url}/RemoveComments.java[Java]
+//|Medium
+//
+//|723
+//|{leetcode_base_url}/candy-crush/[Candy Crush]
+//|{source_base_url}/CandyCrush.java[Java]
+//|Medium
+//
+//|724
+//|{leetcode_base_url}/find-pivot-index/[Find Pivot Index]
+//|{source_base_url}/FindPivotIndex.java[Java]
+//|Easy
+//
+//|725
+//|{leetcode_base_url}/split-linked-list-in-parts/[Split Linked List in Parts]
+//|{source_base_url}/SplitLinkedListInParts.java[Java]
+//|Medium
+//
+//|726
+//|{leetcode_base_url}/number-of-atoms/[Number of Atoms]
+//|{source_base_url}/NumberOfAtoms.java[Java]
+//|Hard
+//
+//|727
+//|{leetcode_base_url}/minimum-window-subsequence/[Minimum Window Subsequence]
+//|{source_base_url}/MinimumWindowSubsequence.java[Java]
+//|Hard
+//
+//|728
+//|{leetcode_base_url}/self-dividing-numbers/[Self Dividing Numbers]
+//|{source_base_url}/SelfDividingNumbers.java[Java]
+//|Easy
+//
+//|729
+//|{leetcode_base_url}/my-calendar-i/[My Calendar I]
+//|{source_base_url}/MyCalendarI.java[Java]
+//|Medium
+//
+//|730
+//|{leetcode_base_url}/count-different-palindromic-subsequences/[Count Different Palindromic Subsequences]
+//|{source_base_url}/CountDifferentPalindromicSubsequences.java[Java]
+//|Hard
+//
+//|731
+//|{leetcode_base_url}/my-calendar-ii/[My Calendar II]
+//|{source_base_url}/MyCalendarIi.java[Java]
+//|Medium
+//
+//|732
+//|{leetcode_base_url}/my-calendar-iii/[My Calendar III]
+//|{source_base_url}/MyCalendarIii.java[Java]
+//|Hard
+//
+//|733
+//|{leetcode_base_url}/flood-fill/[Flood Fill]
+//|{source_base_url}/FloodFill.java[Java]
+//|Easy
+//
+//|734
+//|{leetcode_base_url}/sentence-similarity/[Sentence Similarity]
+//|{source_base_url}/SentenceSimilarity.java[Java]
+//|Easy
+//
+//|735
+//|{leetcode_base_url}/asteroid-collision/[Asteroid Collision]
+//|{source_base_url}/AsteroidCollision.java[Java]
+//|Medium
+//
+//|736
+//|{leetcode_base_url}/parse-lisp-expression/[Parse Lisp Expression]
+//|{source_base_url}/ParseLispExpression.java[Java]
+//|Hard
+//
+//|737
+//|{leetcode_base_url}/sentence-similarity-ii/[Sentence Similarity II]
+//|{source_base_url}/SentenceSimilarityIi.java[Java]
+//|Medium
+//
+//|738
+//|{leetcode_base_url}/monotone-increasing-digits/[Monotone Increasing Digits]
+//|{source_base_url}/MonotoneIncreasingDigits.java[Java]
+//|Medium
+//
+//|739
+//|{leetcode_base_url}/daily-temperatures/[Daily Temperatures]
+//|{source_base_url}/DailyTemperatures.java[Java]
+//|Medium
+//
+//|740
+//|{leetcode_base_url}/delete-and-earn/[Delete and Earn]
+//|{source_base_url}/DeleteAndEarn.java[Java]
+//|Medium
+//
+//|741
+//|{leetcode_base_url}/cherry-pickup/[Cherry Pickup]
+//|{source_base_url}/CherryPickup.java[Java]
+//|Hard
+//
+//|742
+//|{leetcode_base_url}/closest-leaf-in-a-binary-tree/[Closest Leaf in a Binary Tree]
+//|{source_base_url}/ClosestLeafInABinaryTree.java[Java]
+//|Medium
+//
+//|743
+//|{leetcode_base_url}/network-delay-time/[Network Delay Time]
+//|{source_base_url}/NetworkDelayTime.java[Java]
+//|Medium
+//
+//|744
+//|{leetcode_base_url}/find-smallest-letter-greater-than-target/[Find Smallest Letter Greater Than Target]
+//|{source_base_url}/FindSmallestLetterGreaterThanTarget.java[Java]
+//|Easy
+//
+//|745
+//|{leetcode_base_url}/prefix-and-suffix-search/[Prefix and Suffix Search]
+//|{source_base_url}/PrefixAndSuffixSearch.java[Java]
+//|Hard
+//
+//|746
+//|{leetcode_base_url}/min-cost-climbing-stairs/[Min Cost Climbing Stairs]
+//|{source_base_url}/MinCostClimbingStairs.java[Java]
+//|Easy
+//
+//|747
+//|{leetcode_base_url}/largest-number-at-least-twice-of-others/[Largest Number At Least Twice of Others]
+//|{source_base_url}/LargestNumberAtLeastTwiceOfOthers.java[Java]
+//|Easy
+//
+//|748
+//|{leetcode_base_url}/shortest-completing-word/[Shortest Completing Word]
+//|{source_base_url}/ShortestCompletingWord.java[Java]
+//|Easy
+//
+//|749
+//|{leetcode_base_url}/contain-virus/[Contain Virus]
+//|{source_base_url}/ContainVirus.java[Java]
+//|Hard
+//
+//|750
+//|{leetcode_base_url}/number-of-corner-rectangles/[Number Of Corner Rectangles]
+//|{source_base_url}/NumberOfCornerRectangles.java[Java]
+//|Medium
+//
+//|751
+//|{leetcode_base_url}/ip-to-cidr/[IP to CIDR]
+//|{source_base_url}/IpToCidr.java[Java]
+//|Easy
+//
+//|752
+//|{leetcode_base_url}/open-the-lock/[Open the Lock]
+//|{source_base_url}/OpenTheLock.java[Java]
+//|Medium
+//
+//|753
+//|{leetcode_base_url}/cracking-the-safe/[Cracking the Safe]
+//|{source_base_url}/CrackingTheSafe.java[Java]
+//|Hard
+//
+//|754
+//|{leetcode_base_url}/reach-a-number/[Reach a Number]
+//|{source_base_url}/ReachANumber.java[Java]
+//|Easy
+//
+//|755
+//|{leetcode_base_url}/pour-water/[Pour Water]
+//|{source_base_url}/PourWater.java[Java]
+//|Medium
+//
+//|756
+//|{leetcode_base_url}/pyramid-transition-matrix/[Pyramid Transition Matrix]
+//|{source_base_url}/PyramidTransitionMatrix.java[Java]
+//|Medium
+//
+//|757
+//|{leetcode_base_url}/set-intersection-size-at-least-two/[Set Intersection Size At Least Two]
+//|{source_base_url}/SetIntersectionSizeAtLeastTwo.java[Java]
+//|Hard
+//
+//|758
+//|{leetcode_base_url}/bold-words-in-string/[Bold Words in String]
+//|{source_base_url}/BoldWordsInString.java[Java]
+//|Easy
+//
+//|759
+//|{leetcode_base_url}/employee-free-time/[Employee Free Time]
+//|{source_base_url}/EmployeeFreeTime.java[Java]
+//|Hard
+//
+//|760
+//|{leetcode_base_url}/find-anagram-mappings/[Find Anagram Mappings]
+//|{source_base_url}/FindAnagramMappings.java[Java]
+//|Easy
+//
+//|761
+//|{leetcode_base_url}/special-binary-string/[Special Binary String]
+//|{source_base_url}/SpecialBinaryString.java[Java]
+//|Hard
+//
+//|762
+//|{leetcode_base_url}/prime-number-of-set-bits-in-binary-representation/[Prime Number of Set Bits in Binary Representation]
+//|{source_base_url}/PrimeNumberOfSetBitsInBinaryRepresentation.java[Java]
+//|Easy
+//
+//|763
+//|{leetcode_base_url}/partition-labels/[Partition Labels]
+//|{source_base_url}/PartitionLabels.java[Java]
+//|Medium
+//
+//|764
+//|{leetcode_base_url}/largest-plus-sign/[Largest Plus Sign]
+//|{source_base_url}/LargestPlusSign.java[Java]
+//|Medium
+//
+//|765
+//|{leetcode_base_url}/couples-holding-hands/[Couples Holding Hands]
+//|{source_base_url}/CouplesHoldingHands.java[Java]
+//|Hard
+//
+//|766
+//|{leetcode_base_url}/toeplitz-matrix/[Toeplitz Matrix]
+//|{source_base_url}/ToeplitzMatrix.java[Java]
+//|Easy
+//
+//|767
+//|{leetcode_base_url}/reorganize-string/[Reorganize String]
+//|{source_base_url}/ReorganizeString.java[Java]
+//|Medium
+//
+//|768
+//|{leetcode_base_url}/max-chunks-to-make-sorted-ii/[Max Chunks To Make Sorted II]
+//|{source_base_url}/MaxChunksToMakeSortedIi.java[Java]
+//|Hard
+//
+//|769
+//|{leetcode_base_url}/max-chunks-to-make-sorted/[Max Chunks To Make Sorted]
+//|{source_base_url}/MaxChunksToMakeSorted.java[Java]
+//|Medium
+//
+//|770
+//|{leetcode_base_url}/basic-calculator-iv/[Basic Calculator IV]
+//|{source_base_url}/BasicCalculatorIv.java[Java]
+//|Hard
+//
+//|771
+//|{leetcode_base_url}/jewels-and-stones/[Jewels and Stones]
+//|{source_base_url}/JewelsAndStones.java[Java]
+//|Easy
+//
+//|772
+//|{leetcode_base_url}/basic-calculator-iii/[Basic Calculator III]
+//|{source_base_url}/BasicCalculatorIii.java[Java]
+//|Hard
+//
+//|773
+//|{leetcode_base_url}/sliding-puzzle/[Sliding Puzzle]
+//|{source_base_url}/SlidingPuzzle.java[Java]
+//|Hard
+//
+//|774
+//|{leetcode_base_url}/minimize-max-distance-to-gas-station/[Minimize Max Distance to Gas Station]
+//|{source_base_url}/MinimizeMaxDistanceToGasStation.java[Java]
+//|Hard
+//
+//|775
+//|{leetcode_base_url}/global-and-local-inversions/[Global and Local Inversions]
+//|{source_base_url}/GlobalAndLocalInversions.java[Java]
+//|Medium
+//
+//|776
+//|{leetcode_base_url}/split-bst/[Split BST]
+//|{source_base_url}/SplitBst.java[Java]
+//|Medium
+//
+//|777
+//|{leetcode_base_url}/swap-adjacent-in-lr-string/[Swap Adjacent in LR String]
+//|{source_base_url}/SwapAdjacentInLrString.java[Java]
+//|Medium
+//
+//|778
+//|{leetcode_base_url}/swim-in-rising-water/[Swim in Rising Water]
+//|{source_base_url}/SwimInRisingWater.java[Java]
+//|Hard
+//
+//|779
+//|{leetcode_base_url}/k-th-symbol-in-grammar/[K-th Symbol in Grammar]
+//|{source_base_url}/KThSymbolInGrammar.java[Java]
+//|Medium
+//
+//|780
+//|{leetcode_base_url}/reaching-points/[Reaching Points]
+//|{source_base_url}/ReachingPoints.java[Java]
+//|Hard
+//
+//|781
+//|{leetcode_base_url}/rabbits-in-forest/[Rabbits in Forest]
+//|{source_base_url}/RabbitsInForest.java[Java]
+//|Medium
+//
+//|782
+//|{leetcode_base_url}/transform-to-chessboard/[Transform to Chessboard]
+//|{source_base_url}/TransformToChessboard.java[Java]
+//|Hard
+//
+//|783
+//|{leetcode_base_url}/minimum-distance-between-bst-nodes/[Minimum Distance Between BST Nodes]
+//|{source_base_url}/MinimumDistanceBetweenBstNodes.java[Java]
+//|Easy
+//
+//|784
+//|{leetcode_base_url}/letter-case-permutation/[Letter Case Permutation]
+//|{source_base_url}/LetterCasePermutation.java[Java]
+//|Easy
+//
+//|785
+//|{leetcode_base_url}/is-graph-bipartite/[Is Graph Bipartite?]
+//|{source_base_url}/IsGraphBipartite?.java[Java]
+//|Medium
+//
+//|786
+//|{leetcode_base_url}/k-th-smallest-prime-fraction/[K-th Smallest Prime Fraction]
+//|{source_base_url}/KThSmallestPrimeFraction.java[Java]
+//|Hard
+//
+//|787
+//|{leetcode_base_url}/cheapest-flights-within-k-stops/[Cheapest Flights Within K Stops]
+//|{source_base_url}/CheapestFlightsWithinKStops.java[Java]
+//|Medium
+//
+//|788
+//|{leetcode_base_url}/rotated-digits/[Rotated Digits]
+//|{source_base_url}/RotatedDigits.java[Java]
+//|Easy
+//
+//|789
+//|{leetcode_base_url}/escape-the-ghosts/[Escape The Ghosts]
+//|{source_base_url}/EscapeTheGhosts.java[Java]
+//|Medium
+//
+//|790
+//|{leetcode_base_url}/domino-and-tromino-tiling/[Domino and Tromino Tiling]
+//|{source_base_url}/DominoAndTrominoTiling.java[Java]
+//|Medium
+//
+//|791
+//|{leetcode_base_url}/custom-sort-string/[Custom Sort String]
+//|{source_base_url}/CustomSortString.java[Java]
+//|Medium
+//
+//|792
+//|{leetcode_base_url}/number-of-matching-subsequences/[Number of Matching Subsequences]
+//|{source_base_url}/NumberOfMatchingSubsequences.java[Java]
+//|Medium
+//
+//|793
+//|{leetcode_base_url}/preimage-size-of-factorial-zeroes-function/[Preimage Size of Factorial Zeroes Function]
+//|{source_base_url}/PreimageSizeOfFactorialZeroesFunction.java[Java]
+//|Hard
+//
+//|794
+//|{leetcode_base_url}/valid-tic-tac-toe-state/[Valid Tic-Tac-Toe State]
+//|{source_base_url}/ValidTicTacToeState.java[Java]
+//|Medium
+//
+//|795
+//|{leetcode_base_url}/number-of-subarrays-with-bounded-maximum/[Number of Subarrays with Bounded Maximum]
+//|{source_base_url}/NumberOfSubarraysWithBoundedMaximum.java[Java]
+//|Medium
+//
+//|796
+//|{leetcode_base_url}/rotate-string/[Rotate String]
+//|{source_base_url}/RotateString.java[Java]
+//|Easy
+//
+//|797
+//|{leetcode_base_url}/all-paths-from-source-to-target/[All Paths From Source to Target]
+//|{source_base_url}/AllPathsFromSourceToTarget.java[Java]
+//|Medium
+//
+//|798
+//|{leetcode_base_url}/smallest-rotation-with-highest-score/[Smallest Rotation with Highest Score]
+//|{source_base_url}/SmallestRotationWithHighestScore.java[Java]
+//|Hard
+//
+//|799
+//|{leetcode_base_url}/champagne-tower/[Champagne Tower]
+//|{source_base_url}/ChampagneTower.java[Java]
+//|Medium
+//
+//|800
+//|{leetcode_base_url}/similar-rgb-color/[Similar RGB Color]
+//|{source_base_url}/SimilarRgbColor.java[Java]
+//|Easy
+//
+//|801
+//|{leetcode_base_url}/minimum-swaps-to-make-sequences-increasing/[Minimum Swaps To Make Sequences Increasing]
+//|{source_base_url}/MinimumSwapsToMakeSequencesIncreasing.java[Java]
+//|Medium
+//
+//|802
+//|{leetcode_base_url}/find-eventual-safe-states/[Find Eventual Safe States]
+//|{source_base_url}/FindEventualSafeStates.java[Java]
+//|Medium
+//
+//|803
+//|{leetcode_base_url}/bricks-falling-when-hit/[Bricks Falling When Hit]
+//|{source_base_url}/BricksFallingWhenHit.java[Java]
+//|Hard
+//
+//|804
+//|{leetcode_base_url}/unique-morse-code-words/[Unique Morse Code Words]
+//|{source_base_url}/UniqueMorseCodeWords.java[Java]
+//|Easy
+//
+//|805
+//|{leetcode_base_url}/split-array-with-same-average/[Split Array With Same Average]
+//|{source_base_url}/SplitArrayWithSameAverage.java[Java]
+//|Hard
+//
+//|806
+//|{leetcode_base_url}/number-of-lines-to-write-string/[Number of Lines To Write String]
+//|{source_base_url}/NumberOfLinesToWriteString.java[Java]
+//|Easy
+//
+//|807
+//|{leetcode_base_url}/max-increase-to-keep-city-skyline/[Max Increase to Keep City Skyline]
+//|{source_base_url}/MaxIncreaseToKeepCitySkyline.java[Java]
+//|Medium
+//
+//|808
+//|{leetcode_base_url}/soup-servings/[Soup Servings]
+//|{source_base_url}/SoupServings.java[Java]
+//|Medium
+//
+//|809
+//|{leetcode_base_url}/expressive-words/[Expressive Words]
+//|{source_base_url}/ExpressiveWords.java[Java]
+//|Medium
+//
+//|810
+//|{leetcode_base_url}/chalkboard-xor-game/[Chalkboard XOR Game]
+//|{source_base_url}/ChalkboardXorGame.java[Java]
+//|Hard
+//
+//|811
+//|{leetcode_base_url}/subdomain-visit-count/[Subdomain Visit Count]
+//|{source_base_url}/SubdomainVisitCount.java[Java]
+//|Easy
+//
+//|812
+//|{leetcode_base_url}/largest-triangle-area/[Largest Triangle Area]
+//|{source_base_url}/LargestTriangleArea.java[Java]
+//|Easy
+//
+//|813
+//|{leetcode_base_url}/largest-sum-of-averages/[Largest Sum of Averages]
+//|{source_base_url}/LargestSumOfAverages.java[Java]
+//|Medium
+//
+//|814
+//|{leetcode_base_url}/binary-tree-pruning/[Binary Tree Pruning]
+//|{source_base_url}/BinaryTreePruning.java[Java]
+//|Medium
+//
+//|815
+//|{leetcode_base_url}/bus-routes/[Bus Routes]
+//|{source_base_url}/BusRoutes.java[Java]
+//|Hard
+//
+//|816
+//|{leetcode_base_url}/ambiguous-coordinates/[Ambiguous Coordinates]
+//|{source_base_url}/AmbiguousCoordinates.java[Java]
+//|Medium
+//
+//|817
+//|{leetcode_base_url}/linked-list-components/[Linked List Components]
+//|{source_base_url}/LinkedListComponents.java[Java]
+//|Medium
+//
+//|818
+//|{leetcode_base_url}/race-car/[Race Car]
+//|{source_base_url}/RaceCar.java[Java]
+//|Hard
+//
+//|819
+//|{leetcode_base_url}/most-common-word/[Most Common Word]
+//|{source_base_url}/MostCommonWord.java[Java]
+//|Easy
+//
+//|820
+//|{leetcode_base_url}/short-encoding-of-words/[Short Encoding of Words]
+//|{source_base_url}/ShortEncodingOfWords.java[Java]
+//|Medium
+//
+//|821
+//|{leetcode_base_url}/shortest-distance-to-a-character/[Shortest Distance to a Character]
+//|{source_base_url}/ShortestDistanceToACharacter.java[Java]
+//|Easy
+//
+//|822
+//|{leetcode_base_url}/card-flipping-game/[Card Flipping Game]
+//|{source_base_url}/CardFlippingGame.java[Java]
+//|Medium
+//
+//|823
+//|{leetcode_base_url}/binary-trees-with-factors/[Binary Trees With Factors]
+//|{source_base_url}/BinaryTreesWithFactors.java[Java]
+//|Medium
+//
+//|824
+//|{leetcode_base_url}/goat-latin/[Goat Latin]
+//|{source_base_url}/GoatLatin.java[Java]
+//|Easy
+//
+//|825
+//|{leetcode_base_url}/friends-of-appropriate-ages/[Friends Of Appropriate Ages]
+//|{source_base_url}/FriendsOfAppropriateAges.java[Java]
+//|Medium
+//
+//|826
+//|{leetcode_base_url}/most-profit-assigning-work/[Most Profit Assigning Work]
+//|{source_base_url}/MostProfitAssigningWork.java[Java]
+//|Medium
+//
+//|827
+//|{leetcode_base_url}/making-a-large-island/[Making A Large Island]
+//|{source_base_url}/MakingALargeIsland.java[Java]
+//|Hard
+//
+//|828
+//|{leetcode_base_url}/unique-letter-string/[Unique Letter String]
+//|{source_base_url}/UniqueLetterString.java[Java]
+//|Hard
+//
+//|829
+//|{leetcode_base_url}/consecutive-numbers-sum/[Consecutive Numbers Sum]
+//|{source_base_url}/ConsecutiveNumbersSum.java[Java]
+//|Hard
+//
+//|830
+//|{leetcode_base_url}/positions-of-large-groups/[Positions of Large Groups]
+//|{source_base_url}/PositionsOfLargeGroups.java[Java]
+//|Easy
+//
+//|831
+//|{leetcode_base_url}/masking-personal-information/[Masking Personal Information]
+//|{source_base_url}/MaskingPersonalInformation.java[Java]
+//|Medium
+//
+//|832
+//|{leetcode_base_url}/flipping-an-image/[Flipping an Image]
+//|{source_base_url}/FlippingAnImage.java[Java]
+//|Easy
+//
+//|833
+//|{leetcode_base_url}/find-and-replace-in-string/[Find And Replace in String]
+//|{source_base_url}/FindAndReplaceInString.java[Java]
+//|Medium
+//
+//|834
+//|{leetcode_base_url}/sum-of-distances-in-tree/[Sum of Distances in Tree]
+//|{source_base_url}/SumOfDistancesInTree.java[Java]
+//|Hard
+//
+//|835
+//|{leetcode_base_url}/image-overlap/[Image Overlap]
+//|{source_base_url}/ImageOverlap.java[Java]
+//|Medium
+//
+//|836
+//|{leetcode_base_url}/rectangle-overlap/[Rectangle Overlap]
+//|{source_base_url}/RectangleOverlap.java[Java]
+//|Easy
+//
+//|837
+//|{leetcode_base_url}/new-21-game/[New 21 Game]
+//|{source_base_url}/New21Game.java[Java]
+//|Medium
+//
+//|838
+//|{leetcode_base_url}/push-dominoes/[Push Dominoes]
+//|{source_base_url}/PushDominoes.java[Java]
+//|Medium
+//
+//|839
+//|{leetcode_base_url}/similar-string-groups/[Similar String Groups]
+//|{source_base_url}/SimilarStringGroups.java[Java]
+//|Hard
+//
+//|840
+//|{leetcode_base_url}/magic-squares-in-grid/[Magic Squares In Grid]
+//|{source_base_url}/MagicSquaresInGrid.java[Java]
+//|Easy
+//
+//|841
+//|{leetcode_base_url}/keys-and-rooms/[Keys and Rooms]
+//|{source_base_url}/KeysAndRooms.java[Java]
+//|Medium
+//
+//|842
+//|{leetcode_base_url}/split-array-into-fibonacci-sequence/[Split Array into Fibonacci Sequence]
+//|{source_base_url}/SplitArrayIntoFibonacciSequence.java[Java]
+//|Medium
+//
+//|843
+//|{leetcode_base_url}/guess-the-word/[Guess the Word]
+//|{source_base_url}/GuessTheWord.java[Java]
+//|Hard
+//
+//|844
+//|{leetcode_base_url}/backspace-string-compare/[Backspace String Compare]
+//|{source_base_url}/BackspaceStringCompare.java[Java]
+//|Easy
+//
+//|845
+//|{leetcode_base_url}/longest-mountain-in-array/[Longest Mountain in Array]
+//|{source_base_url}/LongestMountainInArray.java[Java]
+//|Medium
+//
+//|846
+//|{leetcode_base_url}/hand-of-straights/[Hand of Straights]
+//|{source_base_url}/HandOfStraights.java[Java]
+//|Medium
+//
+//|847
+//|{leetcode_base_url}/shortest-path-visiting-all-nodes/[Shortest Path Visiting All Nodes]
+//|{source_base_url}/ShortestPathVisitingAllNodes.java[Java]
+//|Hard
+//
+//|848
+//|{leetcode_base_url}/shifting-letters/[Shifting Letters]
+//|{source_base_url}/ShiftingLetters.java[Java]
+//|Medium
+//
+//|849
+//|{leetcode_base_url}/maximize-distance-to-closest-person/[Maximize Distance to Closest Person]
+//|{source_base_url}/MaximizeDistanceToClosestPerson.java[Java]
+//|Easy
+//
+//|850
+//|{leetcode_base_url}/rectangle-area-ii/[Rectangle Area II]
+//|{source_base_url}/RectangleAreaIi.java[Java]
+//|Hard
+//
+//|851
+//|{leetcode_base_url}/loud-and-rich/[Loud and Rich]
+//|{source_base_url}/LoudAndRich.java[Java]
+//|Medium
+//
+//|852
+//|{leetcode_base_url}/peak-index-in-a-mountain-array/[Peak Index in a Mountain Array]
+//|{source_base_url}/PeakIndexInAMountainArray.java[Java]
+//|Easy
+//
+//|853
+//|{leetcode_base_url}/car-fleet/[Car Fleet]
+//|{source_base_url}/CarFleet.java[Java]
+//|Medium
+//
+//|854
+//|{leetcode_base_url}/k-similar-strings/[K-Similar Strings]
+//|{source_base_url}/KSimilarStrings.java[Java]
+//|Hard
+//
+//|855
+//|{leetcode_base_url}/exam-room/[Exam Room]
+//|{source_base_url}/ExamRoom.java[Java]
+//|Medium
+//
+//|856
+//|{leetcode_base_url}/score-of-parentheses/[Score of Parentheses]
+//|{source_base_url}/ScoreOfParentheses.java[Java]
+//|Medium
+//
+//|857
+//|{leetcode_base_url}/minimum-cost-to-hire-k-workers/[Minimum Cost to Hire K Workers]
+//|{source_base_url}/MinimumCostToHireKWorkers.java[Java]
+//|Hard
+//
+//|858
+//|{leetcode_base_url}/mirror-reflection/[Mirror Reflection]
+//|{source_base_url}/MirrorReflection.java[Java]
+//|Medium
+//
+//|859
+//|{leetcode_base_url}/buddy-strings/[Buddy Strings]
+//|{source_base_url}/BuddyStrings.java[Java]
+//|Easy
+//
+//|860
+//|{leetcode_base_url}/lemonade-change/[Lemonade Change]
+//|{source_base_url}/LemonadeChange.java[Java]
+//|Easy
+//
+//|861
+//|{leetcode_base_url}/score-after-flipping-matrix/[Score After Flipping Matrix]
+//|{source_base_url}/ScoreAfterFlippingMatrix.java[Java]
+//|Medium
+//
+//|862
+//|{leetcode_base_url}/shortest-subarray-with-sum-at-least-k/[Shortest Subarray with Sum at Least K]
+//|{source_base_url}/ShortestSubarrayWithSumAtLeastK.java[Java]
+//|Hard
+//
+//|863
+//|{leetcode_base_url}/all-nodes-distance-k-in-binary-tree/[All Nodes Distance K in Binary Tree]
+//|{source_base_url}/AllNodesDistanceKInBinaryTree.java[Java]
+//|Medium
+//
+//|864
+//|{leetcode_base_url}/shortest-path-to-get-all-keys/[Shortest Path to Get All Keys]
+//|{source_base_url}/ShortestPathToGetAllKeys.java[Java]
+//|Hard
+//
+//|865
+//|{leetcode_base_url}/smallest-subtree-with-all-the-deepest-nodes/[Smallest Subtree with all the Deepest Nodes]
+//|{source_base_url}/SmallestSubtreeWithAllTheDeepestNodes.java[Java]
+//|Medium
+//
+//|866
+//|{leetcode_base_url}/prime-palindrome/[Prime Palindrome]
+//|{source_base_url}/PrimePalindrome.java[Java]
+//|Medium
+//
+//|867
+//|{leetcode_base_url}/transpose-matrix/[Transpose Matrix]
+//|{source_base_url}/TransposeMatrix.java[Java]
+//|Easy
+//
+//|868
+//|{leetcode_base_url}/binary-gap/[Binary Gap]
+//|{source_base_url}/BinaryGap.java[Java]
+//|Easy
+//
+//|869
+//|{leetcode_base_url}/reordered-power-of-2/[Reordered Power of 2]
+//|{source_base_url}/ReorderedPowerOf2.java[Java]
+//|Medium
+//
+//|870
+//|{leetcode_base_url}/advantage-shuffle/[Advantage Shuffle]
+//|{source_base_url}/AdvantageShuffle.java[Java]
+//|Medium
+//
+//|871
+//|{leetcode_base_url}/minimum-number-of-refueling-stops/[Minimum Number of Refueling Stops]
+//|{source_base_url}/MinimumNumberOfRefuelingStops.java[Java]
+//|Hard
+//
+//|872
+//|{leetcode_base_url}/leaf-similar-trees/[Leaf-Similar Trees]
+//|{source_base_url}/LeafSimilarTrees.java[Java]
+//|Easy
+//
+//|873
+//|{leetcode_base_url}/length-of-longest-fibonacci-subsequence/[Length of Longest Fibonacci Subsequence]
+//|{source_base_url}/LengthOfLongestFibonacciSubsequence.java[Java]
+//|Medium
+//
+//|874
+//|{leetcode_base_url}/walking-robot-simulation/[Walking Robot Simulation]
+//|{source_base_url}/WalkingRobotSimulation.java[Java]
+//|Easy
+//
+//|875
+//|{leetcode_base_url}/koko-eating-bananas/[Koko Eating Bananas]
+//|{source_base_url}/KokoEatingBananas.java[Java]
+//|Medium
+//
+//|876
+//|{leetcode_base_url}/middle-of-the-linked-list/[Middle of the Linked List]
+//|{source_base_url}/MiddleOfTheLinkedList.java[Java]
+//|Easy
+//
+//|877
+//|{leetcode_base_url}/stone-game/[Stone Game]
+//|{source_base_url}/StoneGame.java[Java]
+//|Medium
+//
+//|878
+//|{leetcode_base_url}/nth-magical-number/[Nth Magical Number]
+//|{source_base_url}/NthMagicalNumber.java[Java]
+//|Hard
+//
+//|879
+//|{leetcode_base_url}/profitable-schemes/[Profitable Schemes]
+//|{source_base_url}/ProfitableSchemes.java[Java]
+//|Hard
+//
+//|880
+//|{leetcode_base_url}/decoded-string-at-index/[Decoded String at Index]
+//|{source_base_url}/DecodedStringAtIndex.java[Java]
+//|Medium
+//
+//|881
+//|{leetcode_base_url}/boats-to-save-people/[Boats to Save People]
+//|{source_base_url}/BoatsToSavePeople.java[Java]
+//|Medium
+//
+//|882
+//|{leetcode_base_url}/reachable-nodes-in-subdivided-graph/[Reachable Nodes In Subdivided Graph]
+//|{source_base_url}/ReachableNodesInSubdividedGraph.java[Java]
+//|Hard
+//
+//|883
+//|{leetcode_base_url}/projection-area-of-3d-shapes/[Projection Area of 3D Shapes]
+//|{source_base_url}/ProjectionAreaOf3dShapes.java[Java]
+//|Easy
+//
+//|884
+//|{leetcode_base_url}/uncommon-words-from-two-sentences/[Uncommon Words from Two Sentences]
+//|{source_base_url}/UncommonWordsFromTwoSentences.java[Java]
+//|Easy
+//
+//|885
+//|{leetcode_base_url}/spiral-matrix-iii/[Spiral Matrix III]
+//|{source_base_url}/SpiralMatrixIii.java[Java]
+//|Medium
+//
+//|886
+//|{leetcode_base_url}/possible-bipartition/[Possible Bipartition]
+//|{source_base_url}/PossibleBipartition.java[Java]
+//|Medium
+//
+//|887
+//|{leetcode_base_url}/super-egg-drop/[Super Egg Drop]
+//|{source_base_url}/SuperEggDrop.java[Java]
+//|Hard
+//
+//|888
+//|{leetcode_base_url}/fair-candy-swap/[Fair Candy Swap]
+//|{source_base_url}/FairCandySwap.java[Java]
+//|Easy
+//
+//|889
+//|{leetcode_base_url}/construct-binary-tree-from-preorder-and-postorder-traversal/[Construct Binary Tree from Preorder and Postorder Traversal]
+//|{source_base_url}/ConstructBinaryTreeFromPreorderAndPostorderTraversal.java[Java]
+//|Medium
+//
+//|890
+//|{leetcode_base_url}/find-and-replace-pattern/[Find and Replace Pattern]
+//|{source_base_url}/FindAndReplacePattern.java[Java]
+//|Medium
+//
+//|891
+//|{leetcode_base_url}/sum-of-subsequence-widths/[Sum of Subsequence Widths]
+//|{source_base_url}/SumOfSubsequenceWidths.java[Java]
+//|Hard
+//
+//|892
+//|{leetcode_base_url}/surface-area-of-3d-shapes/[Surface Area of 3D Shapes]
+//|{source_base_url}/SurfaceAreaOf3dShapes.java[Java]
+//|Easy
+//
+//|893
+//|{leetcode_base_url}/groups-of-special-equivalent-strings/[Groups of Special-Equivalent Strings]
+//|{source_base_url}/GroupsOfSpecialEquivalentStrings.java[Java]
+//|Easy
+//
+//|894
+//|{leetcode_base_url}/all-possible-full-binary-trees/[All Possible Full Binary Trees]
+//|{source_base_url}/AllPossibleFullBinaryTrees.java[Java]
+//|Medium
+//
+//|895
+//|{leetcode_base_url}/maximum-frequency-stack/[Maximum Frequency Stack]
+//|{source_base_url}/MaximumFrequencyStack.java[Java]
+//|Hard
+//
+//|896
+//|{leetcode_base_url}/monotonic-array/[Monotonic Array]
+//|{source_base_url}/MonotonicArray.java[Java]
+//|Easy
+//
+//|897
+//|{leetcode_base_url}/increasing-order-search-tree/[Increasing Order Search Tree]
+//|{source_base_url}/IncreasingOrderSearchTree.java[Java]
+//|Easy
+//
+//|898
+//|{leetcode_base_url}/bitwise-ors-of-subarrays/[Bitwise ORs of Subarrays]
+//|{source_base_url}/BitwiseOrsOfSubarrays.java[Java]
+//|Medium
+//
+//|899
+//|{leetcode_base_url}/orderly-queue/[Orderly Queue]
+//|{source_base_url}/OrderlyQueue.java[Java]
+//|Hard
+//
+//|900
+//|{leetcode_base_url}/rle-iterator/[RLE Iterator]
+//|{source_base_url}/RleIterator.java[Java]
+//|Medium
+//
+//|901
+//|{leetcode_base_url}/online-stock-span/[Online Stock Span]
+//|{source_base_url}/OnlineStockSpan.java[Java]
+//|Medium
+//
+//|902
+//|{leetcode_base_url}/numbers-at-most-n-given-digit-set/[Numbers At Most N Given Digit Set]
+//|{source_base_url}/NumbersAtMostNGivenDigitSet.java[Java]
+//|Hard
+//
+//|903
+//|{leetcode_base_url}/valid-permutations-for-di-sequence/[Valid Permutations for DI Sequence]
+//|{source_base_url}/ValidPermutationsForDiSequence.java[Java]
+//|Hard
+//
+//|904
+//|{leetcode_base_url}/fruit-into-baskets/[Fruit Into Baskets]
+//|{source_base_url}/FruitIntoBaskets.java[Java]
+//|Medium
+//
+//|905
+//|{leetcode_base_url}/sort-array-by-parity/[Sort Array By Parity]
+//|{source_base_url}/SortArrayByParity.java[Java]
+//|Easy
+//
+//|906
+//|{leetcode_base_url}/super-palindromes/[Super Palindromes]
+//|{source_base_url}/SuperPalindromes.java[Java]
+//|Hard
+//
+//|907
+//|{leetcode_base_url}/sum-of-subarray-minimums/[Sum of Subarray Minimums]
+//|{source_base_url}/SumOfSubarrayMinimums.java[Java]
+//|Medium
+//
+//|908
+//|{leetcode_base_url}/smallest-range-i/[Smallest Range I]
+//|{source_base_url}/SmallestRangeI.java[Java]
+//|Easy
+//
+//|909
+//|{leetcode_base_url}/snakes-and-ladders/[Snakes and Ladders]
+//|{source_base_url}/SnakesAndLadders.java[Java]
+//|Medium
+//
+//|910
+//|{leetcode_base_url}/smallest-range-ii/[Smallest Range II]
+//|{source_base_url}/SmallestRangeIi.java[Java]
+//|Medium
+//
+//|911
+//|{leetcode_base_url}/online-election/[Online Election]
+//|{source_base_url}/OnlineElection.java[Java]
+//|Medium
+//
+//|912
+//|{leetcode_base_url}/sort-an-array/[Sort an Array]
+//|{source_base_url}/SortAnArray.java[Java]
+//|Medium
+//
+//|913
+//|{leetcode_base_url}/cat-and-mouse/[Cat and Mouse]
+//|{source_base_url}/CatAndMouse.java[Java]
+//|Hard
+//
+//|914
+//|{leetcode_base_url}/x-of-a-kind-in-a-deck-of-cards/[X of a Kind in a Deck of Cards]
+//|{source_base_url}/XOfAKindInADeckOfCards.java[Java]
+//|Easy
+//
+//|915
+//|{leetcode_base_url}/partition-array-into-disjoint-intervals/[Partition Array into Disjoint Intervals]
+//|{source_base_url}/PartitionArrayIntoDisjointIntervals.java[Java]
+//|Medium
+//
+//|916
+//|{leetcode_base_url}/word-subsets/[Word Subsets]
+//|{source_base_url}/WordSubsets.java[Java]
+//|Medium
+//
+//|917
+//|{leetcode_base_url}/reverse-only-letters/[Reverse Only Letters]
+//|{source_base_url}/ReverseOnlyLetters.java[Java]
+//|Easy
+//
+//|918
+//|{leetcode_base_url}/maximum-sum-circular-subarray/[Maximum Sum Circular Subarray]
+//|{source_base_url}/MaximumSumCircularSubarray.java[Java]
+//|Medium
+//
+//|919
+//|{leetcode_base_url}/complete-binary-tree-inserter/[Complete Binary Tree Inserter]
+//|{source_base_url}/CompleteBinaryTreeInserter.java[Java]
+//|Medium
+//
+//|920
+//|{leetcode_base_url}/number-of-music-playlists/[Number of Music Playlists]
+//|{source_base_url}/NumberOfMusicPlaylists.java[Java]
+//|Hard
+//
+//|921
+//|{leetcode_base_url}/minimum-add-to-make-parentheses-valid/[Minimum Add to Make Parentheses Valid]
+//|{source_base_url}/MinimumAddToMakeParenthesesValid.java[Java]
+//|Medium
+//
+//|922
+//|{leetcode_base_url}/sort-array-by-parity-ii/[Sort Array By Parity II]
+//|{source_base_url}/SortArrayByParityIi.java[Java]
+//|Easy
+//
+//|923
+//|{leetcode_base_url}/3sum-with-multiplicity/[3Sum With Multiplicity]
+//|{source_base_url}/3SumWithMultiplicity.java[Java]
+//|Medium
+//
+//|924
+//|{leetcode_base_url}/minimize-malware-spread/[Minimize Malware Spread]
+//|{source_base_url}/MinimizeMalwareSpread.java[Java]
+//|Hard
+//
+//|925
+//|{leetcode_base_url}/long-pressed-name/[Long Pressed Name]
+//|{source_base_url}/LongPressedName.java[Java]
+//|Easy
+//
+//|926
+//|{leetcode_base_url}/flip-string-to-monotone-increasing/[Flip String to Monotone Increasing]
+//|{source_base_url}/FlipStringToMonotoneIncreasing.java[Java]
+//|Medium
+//
+//|927
+//|{leetcode_base_url}/three-equal-parts/[Three Equal Parts]
+//|{source_base_url}/ThreeEqualParts.java[Java]
+//|Hard
+//
+//|928
+//|{leetcode_base_url}/minimize-malware-spread-ii/[Minimize Malware Spread II]
+//|{source_base_url}/MinimizeMalwareSpreadIi.java[Java]
+//|Hard
+//
+//|929
+//|{leetcode_base_url}/unique-email-addresses/[Unique Email Addresses]
+//|{source_base_url}/UniqueEmailAddresses.java[Java]
+//|Easy
+//
+//|930
+//|{leetcode_base_url}/binary-subarrays-with-sum/[Binary Subarrays With Sum]
+//|{source_base_url}/BinarySubarraysWithSum.java[Java]
+//|Medium
+//
+//|931
+//|{leetcode_base_url}/minimum-falling-path-sum/[Minimum Falling Path Sum]
+//|{source_base_url}/MinimumFallingPathSum.java[Java]
+//|Medium
+//
+//|932
+//|{leetcode_base_url}/beautiful-array/[Beautiful Array]
+//|{source_base_url}/BeautifulArray.java[Java]
+//|Medium
+//
+//|933
+//|{leetcode_base_url}/number-of-recent-calls/[Number of Recent Calls]
+//|{source_base_url}/NumberOfRecentCalls.java[Java]
+//|Easy
+//
+//|934
+//|{leetcode_base_url}/shortest-bridge/[Shortest Bridge]
+//|{source_base_url}/ShortestBridge.java[Java]
+//|Medium
+//
+//|935
+//|{leetcode_base_url}/knight-dialer/[Knight Dialer]
+//|{source_base_url}/KnightDialer.java[Java]
+//|Medium
+//
+//|936
+//|{leetcode_base_url}/stamping-the-sequence/[Stamping The Sequence]
+//|{source_base_url}/StampingTheSequence.java[Java]
+//|Hard
+//
+//|937
+//|{leetcode_base_url}/reorder-log-files/[Reorder Log Files]
+//|{source_base_url}/ReorderLogFiles.java[Java]
+//|Easy
+//
+//|938
+//|{leetcode_base_url}/range-sum-of-bst/[Range Sum of BST]
+//|{source_base_url}/RangeSumOfBst.java[Java]
+//|Easy
+//
+//|939
+//|{leetcode_base_url}/minimum-area-rectangle/[Minimum Area Rectangle]
+//|{source_base_url}/MinimumAreaRectangle.java[Java]
+//|Medium
+//
+//|940
+//|{leetcode_base_url}/distinct-subsequences-ii/[Distinct Subsequences II]
+//|{source_base_url}/DistinctSubsequencesIi.java[Java]
+//|Hard
+//
+//|941
+//|{leetcode_base_url}/valid-mountain-array/[Valid Mountain Array]
+//|{source_base_url}/ValidMountainArray.java[Java]
+//|Easy
+//
+//|942
+//|{leetcode_base_url}/di-string-match/[DI String Match]
+//|{source_base_url}/DiStringMatch.java[Java]
+//|Easy
+//
+//|943
+//|{leetcode_base_url}/find-the-shortest-superstring/[Find the Shortest Superstring]
+//|{source_base_url}/FindTheShortestSuperstring.java[Java]
+//|Hard
+//
+//|944
+//|{leetcode_base_url}/delete-columns-to-make-sorted/[Delete Columns to Make Sorted]
+//|{source_base_url}/DeleteColumnsToMakeSorted.java[Java]
+//|Easy
+//
+//|945
+//|{leetcode_base_url}/minimum-increment-to-make-array-unique/[Minimum Increment to Make Array Unique]
+//|{source_base_url}/MinimumIncrementToMakeArrayUnique.java[Java]
+//|Medium
+//
+//|946
+//|{leetcode_base_url}/validate-stack-sequences/[Validate Stack Sequences]
+//|{source_base_url}/ValidateStackSequences.java[Java]
+//|Medium
+//
+//|947
+//|{leetcode_base_url}/most-stones-removed-with-same-row-or-column/[Most Stones Removed with Same Row or Column]
+//|{source_base_url}/MostStonesRemovedWithSameRowOrColumn.java[Java]
+//|Medium
+//
+//|948
+//|{leetcode_base_url}/bag-of-tokens/[Bag of Tokens]
+//|{source_base_url}/BagOfTokens.java[Java]
+//|Medium
+//
+//|949
+//|{leetcode_base_url}/largest-time-for-given-digits/[Largest Time for Given Digits]
+//|{source_base_url}/LargestTimeForGivenDigits.java[Java]
+//|Easy
+//
+//|950
+//|{leetcode_base_url}/reveal-cards-in-increasing-order/[Reveal Cards In Increasing Order]
+//|{source_base_url}/RevealCardsInIncreasingOrder.java[Java]
+//|Medium
+//
+//|951
+//|{leetcode_base_url}/flip-equivalent-binary-trees/[Flip Equivalent Binary Trees]
+//|{source_base_url}/FlipEquivalentBinaryTrees.java[Java]
+//|Medium
+//
+//|952
+//|{leetcode_base_url}/largest-component-size-by-common-factor/[Largest Component Size by Common Factor]
+//|{source_base_url}/LargestComponentSizeByCommonFactor.java[Java]
+//|Hard
+//
+//|953
+//|{leetcode_base_url}/verifying-an-alien-dictionary/[Verifying an Alien Dictionary]
+//|{source_base_url}/VerifyingAnAlienDictionary.java[Java]
+//|Easy
+//
+//|954
+//|{leetcode_base_url}/array-of-doubled-pairs/[Array of Doubled Pairs]
+//|{source_base_url}/ArrayOfDoubledPairs.java[Java]
+//|Medium
+//
+//|955
+//|{leetcode_base_url}/delete-columns-to-make-sorted-ii/[Delete Columns to Make Sorted II]
+//|{source_base_url}/DeleteColumnsToMakeSortedIi.java[Java]
+//|Medium
+//
+//|956
+//|{leetcode_base_url}/tallest-billboard/[Tallest Billboard]
+//|{source_base_url}/TallestBillboard.java[Java]
+//|Hard
+//
+//|957
+//|{leetcode_base_url}/prison-cells-after-n-days/[Prison Cells After N Days]
+//|{source_base_url}/PrisonCellsAfterNDays.java[Java]
+//|Medium
+//
+//|958
+//|{leetcode_base_url}/check-completeness-of-a-binary-tree/[Check Completeness of a Binary Tree]
+//|{source_base_url}/CheckCompletenessOfABinaryTree.java[Java]
+//|Medium
+//
+//|959
+//|{leetcode_base_url}/regions-cut-by-slashes/[Regions Cut By Slashes]
+//|{source_base_url}/RegionsCutBySlashes.java[Java]
+//|Medium
+//
+//|960
+//|{leetcode_base_url}/delete-columns-to-make-sorted-iii/[Delete Columns to Make Sorted III]
+//|{source_base_url}/DeleteColumnsToMakeSortedIii.java[Java]
+//|Hard
+//
+//|961
+//|{leetcode_base_url}/n-repeated-element-in-size-2n-array/[N-Repeated Element in Size 2N Array]
+//|{source_base_url}/NRepeatedElementInSize2nArray.java[Java]
+//|Easy
+//
+//|962
+//|{leetcode_base_url}/maximum-width-ramp/[Maximum Width Ramp]
+//|{source_base_url}/MaximumWidthRamp.java[Java]
+//|Medium
+//
+//|963
+//|{leetcode_base_url}/minimum-area-rectangle-ii/[Minimum Area Rectangle II]
+//|{source_base_url}/MinimumAreaRectangleIi.java[Java]
+//|Medium
+//
+//|964
+//|{leetcode_base_url}/least-operators-to-express-number/[Least Operators to Express Number]
+//|{source_base_url}/LeastOperatorsToExpressNumber.java[Java]
+//|Hard
+//
+//|965
+//|{leetcode_base_url}/univalued-binary-tree/[Univalued Binary Tree]
+//|{source_base_url}/UnivaluedBinaryTree.java[Java]
+//|Easy
+//
+//|966
+//|{leetcode_base_url}/vowel-spellchecker/[Vowel Spellchecker]
+//|{source_base_url}/VowelSpellchecker.java[Java]
+//|Medium
+//
+//|967
+//|{leetcode_base_url}/numbers-with-same-consecutive-differences/[Numbers With Same Consecutive Differences]
+//|{source_base_url}/NumbersWithSameConsecutiveDifferences.java[Java]
+//|Medium
+//
+//|968
+//|{leetcode_base_url}/binary-tree-cameras/[Binary Tree Cameras]
+//|{source_base_url}/BinaryTreeCameras.java[Java]
+//|Hard
+//
+//|969
+//|{leetcode_base_url}/pancake-sorting/[Pancake Sorting]
+//|{source_base_url}/PancakeSorting.java[Java]
+//|Medium
+//
+//|970
+//|{leetcode_base_url}/powerful-integers/[Powerful Integers]
+//|{source_base_url}/PowerfulIntegers.java[Java]
+//|Easy
+//
+//|971
+//|{leetcode_base_url}/flip-binary-tree-to-match-preorder-traversal/[Flip Binary Tree To Match Preorder Traversal]
+//|{source_base_url}/FlipBinaryTreeToMatchPreorderTraversal.java[Java]
+//|Medium
+//
+//|972
+//|{leetcode_base_url}/equal-rational-numbers/[Equal Rational Numbers]
+//|{source_base_url}/EqualRationalNumbers.java[Java]
+//|Hard
+//
+//|973
+//|{leetcode_base_url}/k-closest-points-to-origin/[K Closest Points to Origin]
+//|{source_base_url}/KClosestPointsToOrigin.java[Java]
+//|Medium
+//
+//|974
+//|{leetcode_base_url}/subarray-sums-divisible-by-k/[Subarray Sums Divisible by K]
+//|{source_base_url}/SubarraySumsDivisibleByK.java[Java]
+//|Medium
+//
+//|975
+//|{leetcode_base_url}/odd-even-jump/[Odd Even Jump]
+//|{source_base_url}/OddEvenJump.java[Java]
+//|Hard
+//
+//|976
+//|{leetcode_base_url}/largest-perimeter-triangle/[Largest Perimeter Triangle]
+//|{source_base_url}/LargestPerimeterTriangle.java[Java]
+//|Easy
+//
+//|977
+//|{leetcode_base_url}/squares-of-a-sorted-array/[Squares of a Sorted Array]
+//|{source_base_url}/SquaresOfASortedArray.java[Java]
+//|Easy
+//
+//|978
+//|{leetcode_base_url}/longest-turbulent-subarray/[Longest Turbulent Subarray]
+//|{source_base_url}/LongestTurbulentSubarray.java[Java]
+//|Medium
+//
+//|979
+//|{leetcode_base_url}/distribute-coins-in-binary-tree/[Distribute Coins in Binary Tree]
+//|{source_base_url}/DistributeCoinsInBinaryTree.java[Java]
+//|Medium
+//
+//|980
+//|{leetcode_base_url}/unique-paths-iii/[Unique Paths III]
+//|{source_base_url}/UniquePathsIii.java[Java]
+//|Hard
+//
+//|981
+//|{leetcode_base_url}/time-based-key-value-store/[Time Based Key-Value Store]
+//|{source_base_url}/TimeBasedKeyValueStore.java[Java]
+//|Medium
+//
+//|982
+//|{leetcode_base_url}/triples-with-bitwise-and-equal-to-zero/[Triples with Bitwise AND Equal To Zero]
+//|{source_base_url}/TriplesWithBitwiseAndEqualToZero.java[Java]
+//|Hard
+//
+//|983
+//|{leetcode_base_url}/minimum-cost-for-tickets/[Minimum Cost For Tickets]
+//|{source_base_url}/MinimumCostForTickets.java[Java]
+//|Medium
+//
+//|984
+//|{leetcode_base_url}/string-without-aaa-or-bbb/[String Without AAA or BBB]
+//|{source_base_url}/StringWithoutAaaOrBbb.java[Java]
+//|Medium
+//
+//|985
+//|{leetcode_base_url}/sum-of-even-numbers-after-queries/[Sum of Even Numbers After Queries]
+//|{source_base_url}/SumOfEvenNumbersAfterQueries.java[Java]
+//|Easy
+//
+//|986
+//|{leetcode_base_url}/interval-list-intersections/[Interval List Intersections]
+//|{source_base_url}/IntervalListIntersections.java[Java]
+//|Medium
+//
+//|987
+//|{leetcode_base_url}/vertical-order-traversal-of-a-binary-tree/[Vertical Order Traversal of a Binary Tree]
+//|{source_base_url}/VerticalOrderTraversalOfABinaryTree.java[Java]
+//|Medium
+//
+//|988
+//|{leetcode_base_url}/smallest-string-starting-from-leaf/[Smallest String Starting From Leaf]
+//|{source_base_url}/SmallestStringStartingFromLeaf.java[Java]
+//|Medium
+//
+//|989
+//|{leetcode_base_url}/add-to-array-form-of-integer/[Add to Array-Form of Integer]
+//|{source_base_url}/AddToArrayFormOfInteger.java[Java]
+//|Easy
+//
+//|990
+//|{leetcode_base_url}/satisfiability-of-equality-equations/[Satisfiability of Equality Equations]
+//|{source_base_url}/SatisfiabilityOfEqualityEquations.java[Java]
+//|Medium
+//
+//|991
+//|{leetcode_base_url}/broken-calculator/[Broken Calculator]
+//|{source_base_url}/BrokenCalculator.java[Java]
+//|Medium
+//
+//|992
+//|{leetcode_base_url}/subarrays-with-k-different-integers/[Subarrays with K Different Integers]
+//|{source_base_url}/SubarraysWithKDifferentIntegers.java[Java]
+//|Hard
+//
+//|993
+//|{leetcode_base_url}/cousins-in-binary-tree/[Cousins in Binary Tree]
+//|{source_base_url}/CousinsInBinaryTree.java[Java]
+//|Easy
+//
+//|994
+//|{leetcode_base_url}/rotting-oranges/[Rotting Oranges]
+//|{source_base_url}/RottingOranges.java[Java]
+//|Easy
+//
+//|995
+//|{leetcode_base_url}/minimum-number-of-k-consecutive-bit-flips/[Minimum Number of K Consecutive Bit Flips]
+//|{source_base_url}/MinimumNumberOfKConsecutiveBitFlips.java[Java]
+//|Hard
+//
+//|996
+//|{leetcode_base_url}/number-of-squareful-arrays/[Number of Squareful Arrays]
+//|{source_base_url}/NumberOfSquarefulArrays.java[Java]
+//|Hard
+//
+//|997
+//|{leetcode_base_url}/find-the-town-judge/[Find the Town Judge]
+//|{source_base_url}/FindTheTownJudge.java[Java]
+//|Easy
+//
+//|998
+//|{leetcode_base_url}/maximum-binary-tree-ii/[Maximum Binary Tree II]
+//|{source_base_url}/MaximumBinaryTreeIi.java[Java]
+//|Medium
+//
+//|999
+//|{leetcode_base_url}/available-captures-for-rook/[Available Captures for Rook]
+//|{source_base_url}/AvailableCapturesForRook.java[Java]
+//|Easy
+//
+//|1000
+//|{leetcode_base_url}/minimum-cost-to-merge-stones/[Minimum Cost to Merge Stones]
+//|{source_base_url}/MinimumCostToMergeStones.java[Java]
+//|Hard
+//
+//|1001
+//|{leetcode_base_url}/grid-illumination/[Grid Illumination]
+//|{source_base_url}/GridIllumination.java[Java]
+//|Hard
+//
+//|1002
+//|{leetcode_base_url}/find-common-characters/[Find Common Characters]
+//|{source_base_url}/FindCommonCharacters.java[Java]
+//|Easy
+//
+//|1003
+//|{leetcode_base_url}/check-if-word-is-valid-after-substitutions/[Check If Word Is Valid After Substitutions]
+//|{source_base_url}/CheckIfWordIsValidAfterSubstitutions.java[Java]
+//|Medium
+//
+//|1004
+//|{leetcode_base_url}/max-consecutive-ones-iii/[Max Consecutive Ones III]
+//|{source_base_url}/MaxConsecutiveOnesIii.java[Java]
+//|Medium
+//
+//|1005
+//|{leetcode_base_url}/maximize-sum-of-array-after-k-negations/[Maximize Sum Of Array After K Negations]
+//|{source_base_url}/MaximizeSumOfArrayAfterKNegations.java[Java]
+//|Easy
+//
+//|1006
+//|{leetcode_base_url}/clumsy-factorial/[Clumsy Factorial]
+//|{source_base_url}/ClumsyFactorial.java[Java]
+//|Medium
+//
+//|1007
+//|{leetcode_base_url}/minimum-domino-rotations-for-equal-row/[Minimum Domino Rotations For Equal Row]
+//|{source_base_url}/MinimumDominoRotationsForEqualRow.java[Java]
+//|Medium
+//
+//|1008
+//|{leetcode_base_url}/construct-binary-search-tree-from-preorder-traversal/[Construct Binary Search Tree from Preorder Traversal]
+//|{source_base_url}/ConstructBinarySearchTreeFromPreorderTraversal.java[Java]
+//|Medium
+//
+//|1009
+//|{leetcode_base_url}/complement-of-base-10-integer/[Complement of Base 10 Integer]
+//|{source_base_url}/ComplementOfBase10Integer.java[Java]
+//|Easy
+//
+//|1010
+//|{leetcode_base_url}/pairs-of-songs-with-total-durations-divisible-by-60/[Pairs of Songs With Total Durations Divisible by 60]
+//|{source_base_url}/PairsOfSongsWithTotalDurationsDivisibleBy60.java[Java]
+//|Easy
+//
+//|1011
+//|{leetcode_base_url}/capacity-to-ship-packages-within-d-days/[Capacity To Ship Packages Within D Days]
+//|{source_base_url}/CapacityToShipPackagesWithinDDays.java[Java]
+//|Medium
+//
+//|1012
+//|{leetcode_base_url}/numbers-with-repeated-digits/[Numbers With Repeated Digits]
+//|{source_base_url}/NumbersWithRepeatedDigits.java[Java]
+//|Hard
+//
+//|1013
+//|{leetcode_base_url}/partition-array-into-three-parts-with-equal-sum/[Partition Array Into Three Parts With Equal Sum]
+//|{source_base_url}/PartitionArrayIntoThreePartsWithEqualSum.java[Java]
+//|Easy
+//
+//|1014
+//|{leetcode_base_url}/best-sightseeing-pair/[Best Sightseeing Pair]
+//|{source_base_url}/BestSightseeingPair.java[Java]
+//|Medium
+//
+//|1015
+//|{leetcode_base_url}/smallest-integer-divisible-by-k/[Smallest Integer Divisible by K]
+//|{source_base_url}/SmallestIntegerDivisibleByK.java[Java]
+//|Medium
+//
+//|1016
+//|{leetcode_base_url}/binary-string-with-substrings-representing-1-to-n/[Binary String With Substrings Representing 1 To N]
+//|{source_base_url}/BinaryStringWithSubstringsRepresenting1ToN.java[Java]
+//|Medium
+//
+//|1017
+//|{leetcode_base_url}/convert-to-base-2/[Convert to Base -2]
+//|{source_base_url}/ConvertToBase2.java[Java]
+//|Medium
+//
+//|1018
+//|{leetcode_base_url}/binary-prefix-divisible-by-5/[Binary Prefix Divisible By 5]
+//|{source_base_url}/BinaryPrefixDivisibleBy5.java[Java]
+//|Easy
+//
+//|1019
+//|{leetcode_base_url}/next-greater-node-in-linked-list/[Next Greater Node In Linked List]
+//|{source_base_url}/NextGreaterNodeInLinkedList.java[Java]
+//|Medium
+//
+//|1020
+//|{leetcode_base_url}/number-of-enclaves/[Number of Enclaves]
+//|{source_base_url}/NumberOfEnclaves.java[Java]
+//|Medium
+//
+//|1021
+//|{leetcode_base_url}/remove-outermost-parentheses/[Remove Outermost Parentheses]
+//|{source_base_url}/RemoveOutermostParentheses.java[Java]
+//|Easy
+//
+//|1022
+//|{leetcode_base_url}/sum-of-root-to-leaf-binary-numbers/[Sum of Root To Leaf Binary Numbers]
+//|{source_base_url}/SumOfRootToLeafBinaryNumbers.java[Java]
+//|Easy
+//
+//|1023
+//|{leetcode_base_url}/camelcase-matching/[Camelcase Matching]
+//|{source_base_url}/CamelcaseMatching.java[Java]
+//|Medium
+//
+//|1024
+//|{leetcode_base_url}/video-stitching/[Video Stitching]
+//|{source_base_url}/VideoStitching.java[Java]
+//|Medium
+//
+//|1025
+//|{leetcode_base_url}/divisor-game/[Divisor Game]
+//|{source_base_url}/DivisorGame.java[Java]
+//|Easy
+//
+//|1026
+//|{leetcode_base_url}/maximum-difference-between-node-and-ancestor/[Maximum Difference Between Node and Ancestor]
+//|{source_base_url}/MaximumDifferenceBetweenNodeAndAncestor.java[Java]
+//|Medium
+//
+//|1027
+//|{leetcode_base_url}/longest-arithmetic-sequence/[Longest Arithmetic Sequence]
+//|{source_base_url}/LongestArithmeticSequence.java[Java]
+//|Medium
+//
+//|1028
+//|{leetcode_base_url}/recover-a-tree-from-preorder-traversal/[Recover a Tree From Preorder Traversal]
+//|{source_base_url}/RecoverATreeFromPreorderTraversal.java[Java]
+//|Hard
+//
+//|1029
+//|{leetcode_base_url}/two-city-scheduling/[Two City Scheduling]
+//|{source_base_url}/TwoCityScheduling.java[Java]
+//|Easy
+//
+//|1030
+//|{leetcode_base_url}/matrix-cells-in-distance-order/[Matrix Cells in Distance Order]
+//|{source_base_url}/MatrixCellsInDistanceOrder.java[Java]
+//|Easy
+//
+//|1031
+//|{leetcode_base_url}/maximum-sum-of-two-non-overlapping-subarrays/[Maximum Sum of Two Non-Overlapping Subarrays]
+//|{source_base_url}/MaximumSumOfTwoNonOverlappingSubarrays.java[Java]
+//|Medium
+//
+//|1032
+//|{leetcode_base_url}/stream-of-characters/[Stream of Characters]
+//|{source_base_url}/StreamOfCharacters.java[Java]
+//|Hard
+//
+//|1033
+//|{leetcode_base_url}/moving-stones-until-consecutive/[Moving Stones Until Consecutive]
+//|{source_base_url}/MovingStonesUntilConsecutive.java[Java]
+//|Easy
+//
+//|1034
+//|{leetcode_base_url}/coloring-a-border/[Coloring A Border]
+//|{source_base_url}/ColoringABorder.java[Java]
+//|Medium
+//
+//|1035
+//|{leetcode_base_url}/uncrossed-lines/[Uncrossed Lines]
+//|{source_base_url}/UncrossedLines.java[Java]
+//|Medium
+//
+//|1036
+//|{leetcode_base_url}/escape-a-large-maze/[Escape a Large Maze]
+//|{source_base_url}/EscapeALargeMaze.java[Java]
+//|Hard
+//
+//|1037
+//|{leetcode_base_url}/valid-boomerang/[Valid Boomerang]
+//|{source_base_url}/ValidBoomerang.java[Java]
+//|Easy
+//
+//|1038
+//|{leetcode_base_url}/binary-search-tree-to-greater-sum-tree/[Binary Search Tree to Greater Sum Tree]
+//|{source_base_url}/BinarySearchTreeToGreaterSumTree.java[Java]
+//|Medium
+//
+//|1039
+//|{leetcode_base_url}/minimum-score-triangulation-of-polygon/[Minimum Score Triangulation of Polygon]
+//|{source_base_url}/MinimumScoreTriangulationOfPolygon.java[Java]
+//|Medium
+//
+//|1040
+//|{leetcode_base_url}/moving-stones-until-consecutive-ii/[Moving Stones Until Consecutive II]
+//|{source_base_url}/MovingStonesUntilConsecutiveIi.java[Java]
+//|Medium
+//
+//|1041
+//|{leetcode_base_url}/robot-bounded-in-circle/[Robot Bounded In Circle]
+//|{source_base_url}/RobotBoundedInCircle.java[Java]
+//|Easy
+//
+//|1042
+//|{leetcode_base_url}/flower-planting-with-no-adjacent/[Flower Planting With No Adjacent]
+//|{source_base_url}/FlowerPlantingWithNoAdjacent.java[Java]
+//|Easy
+//
+//|1043
+//|{leetcode_base_url}/partition-array-for-maximum-sum/[Partition Array for Maximum Sum]
+//|{source_base_url}/PartitionArrayForMaximumSum.java[Java]
+//|Medium
+//
+//|1044
+//|{leetcode_base_url}/longest-duplicate-substring/[Longest Duplicate Substring]
+//|{source_base_url}/LongestDuplicateSubstring.java[Java]
+//|Hard
+//
+//|1045
+//|{leetcode_base_url}/customers-who-bought-all-products/[Customers Who Bought All Products]
+//|{source_base_url}/CustomersWhoBoughtAllProducts.java[Java]
+//|Medium
+//
+//|1046
+//|{leetcode_base_url}/last-stone-weight/[Last Stone Weight]
+//|{source_base_url}/LastStoneWeight.java[Java]
+//|Easy
+//
+//|1047
+//|{leetcode_base_url}/remove-all-adjacent-duplicates-in-string/[Remove All Adjacent Duplicates In String]
+//|{source_base_url}/RemoveAllAdjacentDuplicatesInString.java[Java]
+//|Easy
+//
+//|1048
+//|{leetcode_base_url}/longest-string-chain/[Longest String Chain]
+//|{source_base_url}/LongestStringChain.java[Java]
+//|Medium
+//
+//|1049
+//|{leetcode_base_url}/last-stone-weight-ii/[Last Stone Weight II]
+//|{source_base_url}/LastStoneWeightIi.java[Java]
+//|Medium
+//
+//|1050
+//|{leetcode_base_url}/actors-and-directors-who-cooperated-at-least-three-times/[Actors and Directors Who Cooperated At Least Three Times]
+//|{source_base_url}/ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.java[Java]
+//|Easy
+//
+//|1051
+//|{leetcode_base_url}/height-checker/[Height Checker]
+//|{source_base_url}/HeightChecker.java[Java]
+//|Easy
+//
+//|1052
+//|{leetcode_base_url}/grumpy-bookstore-owner/[Grumpy Bookstore Owner]
+//|{source_base_url}/GrumpyBookstoreOwner.java[Java]
+//|Medium
+//
+//|1053
+//|{leetcode_base_url}/previous-permutation-with-one-swap/[Previous Permutation With One Swap]
+//|{source_base_url}/PreviousPermutationWithOneSwap.java[Java]
+//|Medium
+//
+//|1054
+//|{leetcode_base_url}/distant-barcodes/[Distant Barcodes]
+//|{source_base_url}/DistantBarcodes.java[Java]
+//|Medium
+//
+//|1055
+//|{leetcode_base_url}/shortest-way-to-form-string/[Shortest Way to Form String]
+//|{source_base_url}/ShortestWayToFormString.java[Java]
+//|Medium
+//
+//|1056
+//|{leetcode_base_url}/confusing-number/[Confusing Number]
+//|{source_base_url}/ConfusingNumber.java[Java]
+//|Easy
+//
+//|1057
+//|{leetcode_base_url}/campus-bikes/[Campus Bikes]
+//|{source_base_url}/CampusBikes.java[Java]
+//|Medium
+//
+//|1058
+//|{leetcode_base_url}/minimize-rounding-error-to-meet-target/[Minimize Rounding Error to Meet Target]
+//|{source_base_url}/MinimizeRoundingErrorToMeetTarget.java[Java]
+//|Medium
+//
+//|1059
+//|{leetcode_base_url}/all-paths-from-source-lead-to-destination/[All Paths from Source Lead to Destination]
+//|{source_base_url}/AllPathsFromSourceLeadToDestination.java[Java]
+//|Medium
+//
+//|1060
+//|{leetcode_base_url}/missing-element-in-sorted-array/[Missing Element in Sorted Array]
+//|{source_base_url}/MissingElementInSortedArray.java[Java]
+//|Medium
+//
+//|1061
+//|{leetcode_base_url}/lexicographically-smallest-equivalent-string/[Lexicographically Smallest Equivalent String]
+//|{source_base_url}/LexicographicallySmallestEquivalentString.java[Java]
+//|Medium
+//
+//|1062
+//|{leetcode_base_url}/longest-repeating-substring/[Longest Repeating Substring]
+//|{source_base_url}/LongestRepeatingSubstring.java[Java]
+//|Medium
+//
+//|1063
+//|{leetcode_base_url}/number-of-valid-subarrays/[Number of Valid Subarrays]
+//|{source_base_url}/NumberOfValidSubarrays.java[Java]
+//|Hard
+//
+//|1064
+//|{leetcode_base_url}/fixed-point/[Fixed Point]
+//|{source_base_url}/FixedPoint.java[Java]
+//|Easy
+//
+//|1065
+//|{leetcode_base_url}/index-pairs-of-a-string/[Index Pairs of a String]
+//|{source_base_url}/IndexPairsOfAString.java[Java]
+//|Easy
+//
+//|1066
+//|{leetcode_base_url}/campus-bikes-ii/[Campus Bikes II]
+//|{source_base_url}/CampusBikesIi.java[Java]
+//|Medium
+//
+//|1067
+//|{leetcode_base_url}/digit-count-in-range/[Digit Count in Range]
+//|{source_base_url}/DigitCountInRange.java[Java]
+//|Hard
+//
+//|1068
+//|{leetcode_base_url}/product-sales-analysis-i/[Product Sales Analysis I]
+//|{source_base_url}/ProductSalesAnalysisI.java[Java]
+//|Easy
+//
+//|1069
+//|{leetcode_base_url}/product-sales-analysis-ii/[Product Sales Analysis II]
+//|{source_base_url}/ProductSalesAnalysisIi.java[Java]
+//|Easy
+//
+//|1070
+//|{leetcode_base_url}/product-sales-analysis-iii/[Product Sales Analysis III]
+//|{source_base_url}/ProductSalesAnalysisIii.java[Java]
+//|Medium
+//
+//|1071
+//|{leetcode_base_url}/greatest-common-divisor-of-strings/[Greatest Common Divisor of Strings]
+//|{source_base_url}/GreatestCommonDivisorOfStrings.java[Java]
+//|Easy
+//
+//|1072
+//|{leetcode_base_url}/flip-columns-for-maximum-number-of-equal-rows/[Flip Columns For Maximum Number of Equal Rows]
+//|{source_base_url}/FlipColumnsForMaximumNumberOfEqualRows.java[Java]
+//|Medium
+//
+//|1073
+//|{leetcode_base_url}/adding-two-negabinary-numbers/[Adding Two Negabinary Numbers]
+//|{source_base_url}/AddingTwoNegabinaryNumbers.java[Java]
+//|Medium
+//
+//|1074
+//|{leetcode_base_url}/number-of-submatrices-that-sum-to-target/[Number of Submatrices That Sum to Target]
+//|{source_base_url}/NumberOfSubmatricesThatSumToTarget.java[Java]
+//|Hard
+//
+//|1075
+//|{leetcode_base_url}/project-employees-i/[Project Employees I]
+//|{source_base_url}/ProjectEmployeesI.java[Java]
+//|Easy
+//
+//|1076
+//|{leetcode_base_url}/project-employees-ii/[Project Employees II]
+//|{source_base_url}/ProjectEmployeesIi.java[Java]
+//|Easy
+//
+//|1077
+//|{leetcode_base_url}/project-employees-iii/[Project Employees III]
+//|{source_base_url}/ProjectEmployeesIii.java[Java]
+//|Medium
+//
+//|1078
+//|{leetcode_base_url}/occurrences-after-bigram/[Occurrences After Bigram]
+//|{source_base_url}/OccurrencesAfterBigram.java[Java]
+//|Easy
+//
+//|1079
+//|{leetcode_base_url}/letter-tile-possibilities/[Letter Tile Possibilities]
+//|{source_base_url}/LetterTilePossibilities.java[Java]
+//|Medium
+//
+//|1080
+//|{leetcode_base_url}/insufficient-nodes-in-root-to-leaf-paths/[Insufficient Nodes in Root to Leaf Paths]
+//|{source_base_url}/InsufficientNodesInRootToLeafPaths.java[Java]
+//|Medium
+//
+//|1081
+//|{leetcode_base_url}/smallest-subsequence-of-distinct-characters/[Smallest Subsequence of Distinct Characters]
+//|{source_base_url}/SmallestSubsequenceOfDistinctCharacters.java[Java]
+//|Medium
+//
+//|1082
+//|{leetcode_base_url}/sales-analysis-i/[Sales Analysis I]
+//|{source_base_url}/SalesAnalysisI.java[Java]
+//|Easy
+//
+//|1083
+//|{leetcode_base_url}/sales-analysis-ii/[Sales Analysis II]
+//|{source_base_url}/SalesAnalysisIi.java[Java]
+//|Easy
+//
+//|1084
+//|{leetcode_base_url}/sales-analysis-iii/[Sales Analysis III]
+//|{source_base_url}/SalesAnalysisIii.java[Java]
+//|Easy
+//
+//|1085
+//|{leetcode_base_url}/sum-of-digits-in-the-minimum-number/[Sum of Digits in the Minimum Number]
+//|{source_base_url}/SumOfDigitsInTheMinimumNumber.java[Java]
+//|Easy
+//
+//|1086
+//|{leetcode_base_url}/high-five/[High Five]
+//|{source_base_url}/HighFive.java[Java]
+//|Easy
+//
+//|1087
+//|{leetcode_base_url}/brace-expansion/[Brace Expansion]
+//|{source_base_url}/BraceExpansion.java[Java]
+//|Medium
+//
+//|1088
+//|{leetcode_base_url}/confusing-number-ii/[Confusing Number II]
+//|{source_base_url}/ConfusingNumberIi.java[Java]
+//|Hard
+//
+//|1089
+//|{leetcode_base_url}/duplicate-zeros/[Duplicate Zeros]
+//|{source_base_url}/DuplicateZeros.java[Java]
+//|Easy
+//
+//|1090
+//|{leetcode_base_url}/largest-values-from-labels/[Largest Values From Labels]
+//|{source_base_url}/LargestValuesFromLabels.java[Java]
+//|Medium
+//
+//|1091
+//|{leetcode_base_url}/shortest-path-in-binary-matrix/[Shortest Path in Binary Matrix]
+//|{source_base_url}/ShortestPathInBinaryMatrix.java[Java]
+//|Medium
+//
+//|1092
+//|{leetcode_base_url}/shortest-common-supersequence/[Shortest Common Supersequence]
+//|{source_base_url}/ShortestCommonSupersequence.java[Java]
+//|Hard
+//
+//|1093
+//|{leetcode_base_url}/statistics-from-a-large-sample/[Statistics from a Large Sample]
+//|{source_base_url}/StatisticsFromALargeSample.java[Java]
+//|Medium
+//
+//|1094
+//|{leetcode_base_url}/car-pooling/[Car Pooling]
+//|{source_base_url}/CarPooling.java[Java]
+//|Medium
+//
+//|1095
+//|{leetcode_base_url}/find-in-mountain-array/[Find in Mountain Array]
+//|{source_base_url}/FindInMountainArray.java[Java]
+//|Hard
+//
+//|1096
+//|{leetcode_base_url}/brace-expansion-ii/[Brace Expansion II]
+//|{source_base_url}/BraceExpansionIi.java[Java]
+//|Hard
+//
+//|1097
+//|{leetcode_base_url}/game-play-analysis-v/[Game Play Analysis V]
+//|{source_base_url}/GamePlayAnalysisV.java[Java]
+//|Hard
+//
+//|1098
+//|{leetcode_base_url}/unpopular-books/[Unpopular Books]
+//|{source_base_url}/UnpopularBooks.java[Java]
+//|Medium
+//
+//|1099
+//|{leetcode_base_url}/two-sum-less-than-k/[Two Sum Less Than K]
+//|{source_base_url}/TwoSumLessThanK.java[Java]
+//|Easy
+//
+//|1100
+//|{leetcode_base_url}/find-k-length-substrings-with-no-repeated-characters/[Find K-Length Substrings With No Repeated Characters]
+//|{source_base_url}/FindKLengthSubstringsWithNoRepeatedCharacters.java[Java]
+//|Medium
+//
+//|1101
+//|{leetcode_base_url}/the-earliest-moment-when-everyone-become-friends/[The Earliest Moment When Everyone Become Friends]
+//|{source_base_url}/TheEarliestMomentWhenEveryoneBecomeFriends.java[Java]
+//|Medium
+//
+//|1102
+//|{leetcode_base_url}/path-with-maximum-minimum-value/[Path With Maximum Minimum Value]
+//|{source_base_url}/PathWithMaximumMinimumValue.java[Java]
+//|Medium
+//
+//|1103
+//|{leetcode_base_url}/distribute-candies-to-people/[Distribute Candies to People]
+//|{source_base_url}/DistributeCandiesToPeople.java[Java]
+//|Easy
+//
+//|1104
+//|{leetcode_base_url}/path-in-zigzag-labelled-binary-tree/[Path In Zigzag Labelled Binary Tree]
+//|{source_base_url}/PathInZigzagLabelledBinaryTree.java[Java]
+//|Medium
+//
+//|1105
+//|{leetcode_base_url}/filling-bookcase-shelves/[Filling Bookcase Shelves]
+//|{source_base_url}/FillingBookcaseShelves.java[Java]
+//|Medium
+//
+//|1106
+//|{leetcode_base_url}/parsing-a-boolean-expression/[Parsing A Boolean Expression]
+//|{source_base_url}/ParsingABooleanExpression.java[Java]
+//|Hard
+//
+//|1107
+//|{leetcode_base_url}/new-users-daily-count/[New Users Daily Count]
+//|{source_base_url}/NewUsersDailyCount.java[Java]
+//|Medium
+//
+//|1108
+//|{leetcode_base_url}/defanging-an-ip-address/[Defanging an IP Address]
+//|{source_base_url}/DefangingAnIpAddress.java[Java]
+//|Easy
+//
+//|1109
+//|{leetcode_base_url}/corporate-flight-bookings/[Corporate Flight Bookings]
+//|{source_base_url}/CorporateFlightBookings.java[Java]
+//|Medium
+//
+//|1110
+//|{leetcode_base_url}/delete-nodes-and-return-forest/[Delete Nodes And Return Forest]
+//|{source_base_url}/DeleteNodesAndReturnForest.java[Java]
+//|Medium
+//
+//|1111
+//|{leetcode_base_url}/maximum-nesting-depth-of-two-valid-parentheses-strings/[Maximum Nesting Depth of Two Valid Parentheses Strings]
+//|{source_base_url}/MaximumNestingDepthOfTwoValidParenthesesStrings.java[Java]
+//|Medium
+//
+//|1112
+//|{leetcode_base_url}/highest-grade-for-each-student/[Highest Grade For Each Student]
+//|{source_base_url}/HighestGradeForEachStudent.java[Java]
+//|Medium
+//
+//|1113
+//|{leetcode_base_url}/reported-posts/[Reported Posts]
+//|{source_base_url}/ReportedPosts.java[Java]
+//|Easy
+//
+//|1114
+//|{leetcode_base_url}/print-in-order/[Print in Order]
+//|{source_base_url}/PrintInOrder.java[Java]
+//|Easy
+//
+//|1115
+//|{leetcode_base_url}/print-foobar-alternately/[Print FooBar Alternately]
+//|{source_base_url}/PrintFooBarAlternately.java[Java]
+//|Medium
+//
+//|1116
+//|{leetcode_base_url}/print-zero-even-odd/[Print Zero Even Odd]
+//|{source_base_url}/PrintZeroEvenOdd.java[Java]
+//|Medium
+//
+//|1117
+//|{leetcode_base_url}/building-h2o/[Building H2O]
+//|{source_base_url}/BuildingH2O.java[Java]
+//|Hard
 |===
