@@ -20,6 +20,11 @@
 |{source_base_url}/AddTwoNumbers.java[Java]
 |Medium
 
+|3
+|{leetcode_base_url}/longest-substring-without-repeating-characters/[Longest Substring Without Repeating Characters]
+|{source_base_url}/LongestSubstringWithoutRepeatingCharacters.java[Java]
+|Medium
+
 |4
 |{leetcode_base_url}/median-of-two-sorted-arrays/[Median of Two Sorted Arrays]
 |{source_base_url}/MedianOfTwoSortedArrays.java[Java]
