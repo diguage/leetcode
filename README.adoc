@@ -34,10 +34,10 @@
 //|{source_base_url}/LongestPalindromicSubstring.java[Java]
 //|Medium
 
-//|6
-//|{leetcode_base_url}/zigzag-conversion/[ZigZag Conversion]
-//|{source_base_url}/ZigZagConversion.java[Java]
-//|Medium
+|6
+|{leetcode_base_url}/zigzag-conversion/[ZigZag Conversion]
+|{source_base_url}/ZigZagConversion.java[Java]
+|Medium
 
 |7
 |{leetcode_base_url}/reverse-integer/[Reverse Integer]
