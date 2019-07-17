@@ -64,10 +64,10 @@
 |{source_base_url}/ContainerWithMostWater.java[Java]
 |Medium
 
-//|12
-//|{leetcode_base_url}/integer-to-roman/[Integer to Roman]
-//|{source_base_url}/IntegerToRoman.java[Java]
-//|Medium
+|12
+|{leetcode_base_url}/integer-to-roman/[Integer to Roman]
+|{source_base_url}/IntegerToRoman.java[Java]
+|Medium
 
 |13
 |{leetcode_base_url}/roman-to-integer/[Roman to Integer]
