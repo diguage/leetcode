@@ -43,7 +43,7 @@ import java.util.Set;
 public class LongestSubstringWithoutRepeatingCharacters {
     /**
      * Runtime: 6 ms, faster than 85.45% of Java online submissions for Longest Substring Without Repeating Characters.
-     * <p/>
+     *
      * Memory Usage: 36.4 MB, less than 99.80% of Java online submissions for Longest Substring Without Repeating Characters.
      */
     public int lengthOfLongestSubstring(String s) {
@@ -72,7 +72,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
     /**
      * Runtime: 9 ms, faster than 49.55% of Java online submissions for Longest Substring Without Repeating Characters.
-     * <p>
+     *
      * Memory Usage: 36 MB, less than 99.88% of Java online submissions for Longest Substring Without Repeating Characters.
      */
     public int lengthOfLongestSubstringWithSlidingWindow(String s) {
@@ -101,7 +101,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
     /**
      * Runtime: 221 ms, faster than 5.02% of Java online submissions for Longest Substring Without Repeating Characters.
-     * <p>
+     *
      * Memory Usage: 37.3 MB, less than 97.43% of Java online submissions for Longest Substring Without Repeating Characters.
      */
     public int lengthOfLongestSubstringWithBruteForce(String s) {

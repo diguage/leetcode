@@ -4,7 +4,7 @@ import java.util.Objects;
 
 /**
  * = 2. Add Two Numbers
- * <p>
+ *
  * https://leetcode.com/problems/add-two-numbers/description/[Add Two Numbers - LeetCode]
  *
  * You are given two non-empty linked lists representing two non-negative

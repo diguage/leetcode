@@ -53,7 +53,7 @@ import java.util.Objects;
 public class ZigZagConversion {
     /**
      * Runtime: 5 ms, faster than 73.81% of Java online submissions for ZigZag Conversion.
-     * <p>
+     *
      * Memory Usage: 38.7 MB, less than 77.68% of Java online submissions for ZigZag Conversion.
      */
     public String convert(String s, int numRows) {
