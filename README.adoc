@@ -44,10 +44,10 @@
 |{source_base_url}/ReverseInteger.java[Java]
 |Easy
 
-//|8
-//|{leetcode_base_url}/string-to-integer-atoi/[String to Integer (atoi)]
-//|{source_base_url}/StringToIntegerAtoi.java[Java]
-//|Medium
+|8
+|{leetcode_base_url}/string-to-integer-atoi/[String to Integer (atoi)]
+|{source_base_url}/StringToIntegerAtoi.java[Java]
+|Medium
 
 |9
 |{leetcode_base_url}/palindrome-number/[Palindrome Number]
