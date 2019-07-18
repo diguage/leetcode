@@ -1,5 +1,6 @@
 package com.diguage.algorithm.leetcode;
 
+import java.util.Arrays;
 import java.util.Objects;
 
 /**
@@ -23,7 +24,55 @@ import java.util.Objects;
  * @since 2018-07-15 00:55
  */
 public class ThreeSumClosest {
+    /**
+     * Runtime: 4 ms, faster than 96.20% of Java online submissions for 3Sum Closest.
+     *
+     * Memory Usage: 36.1 MB, less than 100.00% of Java online submissions for 3Sum Closest.
+     */
     public int threeSumClosest(int[] nums, int target) {
+        if (Objects.isNull(nums)) {
+            return target;
+        }
+        Arrays.sort(nums);
+        int length = nums.length;
+        int result = 0;
+        int difference = Integer.MAX_VALUE;
+        for (int head = 0; head < length; head++) {
+            int midd = head + 1;
+            int tail = length - 1;
+            while (midd < tail) {
+                int sum = nums[head] + nums[midd] + nums[tail];
+                if (sum > target) {
+                    while (midd < tail && nums[tail - 1] == nums[tail]) {
+                        tail--;
+                    }
+                    tail--;
+                } else if (sum < target) {
+                    while (midd < tail && nums[midd] == nums[midd + 1]) {
+                        midd++;
+                    }
+                    midd++;
+                } else {
+                    return target;
+                }
+                int tempDiff = Math.abs(sum - target);
+                if (tempDiff < difference) {
+                    result = sum;
+                    difference = tempDiff;
+                }
+            }
+        }
+
+        return result;
+    }
+
+
+    /**
+     * Runtime: 73 ms, faster than 7.18% of Java online submissions for 3Sum Closest.
+     *
+     * Memory Usage: 36.7 MB, less than 100.00% of Java online submissions for 3Sum Closest.
+     */
+    public int threeSumClosestO3(int[] nums, int target) {
         if (Objects.isNull(nums)) {
             return target;
         }
