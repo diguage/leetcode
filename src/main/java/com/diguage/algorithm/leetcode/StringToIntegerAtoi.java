@@ -74,6 +74,58 @@ import java.util.Objects;
  */
 public class StringToIntegerAtoi {
     public int myAtoi(String str) {
+        int result = 0;
+        if (Objects.isNull(str) || str.length() == 0) {
+            return result;
+        }
+
+        int index = 0;
+        int length = str.length();
+        while (index < length && str.charAt(index) == ' ') {
+            index++;
+        }
+
+        int sign = 1;
+        if (index < length && isSign(str.charAt(index))) {
+            if (str.charAt(index) == '-') {
+                sign = -1;
+            }
+            index++;
+        }
+
+        int decimals = 10;
+        while (index < length && isNumber(str.charAt(index))) {
+            if (sign == -1 && result > 0) {
+                result *= sign;
+            }
+
+            int number = (str.charAt(index) - '0') * sign;
+
+            if (result > Integer.MAX_VALUE / 10
+                    || (result == Integer.MAX_VALUE / 10 && number > Integer.MAX_VALUE % 10)) {
+                return Integer.MAX_VALUE;
+            } else if (result < Integer.MIN_VALUE / 10 ||
+                    (result == Integer.MIN_VALUE / 10 && number < Integer.MIN_VALUE % 10)) {
+                return Integer.MIN_VALUE;
+            }
+
+            result = result * decimals + number;
+
+            index++;
+        }
+
+        return result;
+    }
+
+    private boolean isNumber(char aChar) {
+        return '0' <= aChar && aChar <= '9';
+    }
+
+    private boolean isSign(char aChar) {
+        return aChar == '-' || aChar == '+';
+    }
+
+    public int myAtoiD2u(String str) {
         long result = 0;
         if (Objects.isNull(str) || str.length() == 0) {
             return (int) result;
@@ -103,10 +155,6 @@ public class StringToIntegerAtoi {
                 }
                 hasSigned = true;
                 isStarted = true;
-//                if (i + 1 < chars.length && isNumber(chars[i + 1])) {
-//                    start = i + 1;
-//                    end = i + 1;
-//                }
                 continue;
             }
             isStarted = true;
@@ -170,24 +218,11 @@ public class StringToIntegerAtoi {
         return result;
     }
 
-    private boolean isSign(char aChar) {
-        return aChar == '-' || aChar == '+';
-    }
-
-    private boolean isNumber(char aChar) {
-        return '0' <= aChar && aChar <= '9';
-    }
-
     public static void main(String[] args) {
-//        long aLong = Long.parseLong("20000000000000000000");
-//        System.out.printf("%64s\n", Long.toBinaryString(aLong));
-//        System.out.printf("%64s\n", Long.toBinaryString(aLong * -1));
-//        System.out.printf("%64s\n", Long.toBinaryString(Integer.MIN_VALUE));
-//        System.out.printf("%64s\n", Long.toBinaryString((long) Integer.MIN_VALUE * -1));
-//        System.out.println(aLong < Integer.MIN_VALUE);
-        System.out.println(Integer.MIN_VALUE);
-
         StringToIntegerAtoi solution = new StringToIntegerAtoi();
+
+        int i14 = solution.myAtoi("2147483646");
+        System.out.println(i14 + " : " + (2147483646 == i14));
 
         int i13 = solution.myAtoi("0-1");
         System.out.println(i13 + " : " + (0 == i13));
