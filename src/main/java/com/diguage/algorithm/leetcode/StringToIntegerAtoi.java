@@ -73,6 +73,11 @@ import java.util.Objects;
  * @since 2019-07-14 19:57
  */
 public class StringToIntegerAtoi {
+    /**
+     * Runtime: 1 ms, faster than 100.00% of Java online submissions for String to Integer (atoi).
+     *
+     * Memory Usage: 35.8 MB, less than 99.90% of Java online submissions for String to Integer (atoi).
+     */
     public int myAtoi(String str) {
         int result = 0;
         if (Objects.isNull(str) || str.length() == 0) {
@@ -95,18 +100,11 @@ public class StringToIntegerAtoi {
 
         int decimals = 10;
         while (index < length && isNumber(str.charAt(index))) {
-            if (sign == -1 && result > 0) {
-                result *= sign;
-            }
-
-            int number = (str.charAt(index) - '0') * sign;
+            int number = str.charAt(index) - '0';
 
             if (result > Integer.MAX_VALUE / 10
                     || (result == Integer.MAX_VALUE / 10 && number > Integer.MAX_VALUE % 10)) {
-                return Integer.MAX_VALUE;
-            } else if (result < Integer.MIN_VALUE / 10 ||
-                    (result == Integer.MIN_VALUE / 10 && number < Integer.MIN_VALUE % 10)) {
-                return Integer.MIN_VALUE;
+                return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
             }
 
             result = result * decimals + number;
@@ -114,7 +112,7 @@ public class StringToIntegerAtoi {
             index++;
         }
 
-        return result;
+        return result * sign;
     }
 
     private boolean isNumber(char aChar) {
@@ -220,6 +218,15 @@ public class StringToIntegerAtoi {
 
     public static void main(String[] args) {
         StringToIntegerAtoi solution = new StringToIntegerAtoi();
+
+        int i17 = solution.myAtoi("-2147483647");
+        System.out.println(i17 + " : " + (-2147483647 == i17));
+
+        int i16 = solution.myAtoi("-2147483649");
+        System.out.println(i16 + " : " + (-2147483648 == i16));
+
+        int i15 = solution.myAtoi(Integer.toString(Integer.MIN_VALUE));
+        System.out.println(i15 + " : " + (-2147483648 == i15));
 
         int i14 = solution.myAtoi("2147483646");
         System.out.println(i14 + " : " + (2147483646 == i14));
