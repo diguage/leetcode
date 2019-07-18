@@ -1,5 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
+import java.util.Objects;
+
 /**
  * = 16. 3Sum Closest
  *
@@ -22,6 +24,39 @@ package com.diguage.algorithm.leetcode;
  */
 public class ThreeSumClosest {
     public int threeSumClosest(int[] nums, int target) {
-        return 0;
+        if (Objects.isNull(nums)) {
+            return target;
+        }
+        int length = nums.length;
+        if (length <= 3) {
+            int result = 0;
+            for (int i = 0; i < length; i++) {
+                result += nums[i];
+            }
+            return result;
+        }
+
+        int result = 0;
+        int difference = Integer.MAX_VALUE;
+
+        for (int i = 0; i < length; i++) {
+            for (int j = i + 1; j < length; j++) {
+                for (int k = j + 1; k < length; k++) {
+                    int sum = nums[i] + nums[j] + nums[k];
+                    int temp = Math.abs(target - sum);
+                    if (temp < difference) {
+                        difference = temp;
+                        result = sum;
+                    }
+                }
+            }
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        ThreeSumClosest solution = new ThreeSumClosest();
+        int r1 = solution.threeSumClosest(new int[]{-1, 2, 1, -4}, 1);
+        System.out.println((2 == r1) + " : " + r1);
     }
 }
