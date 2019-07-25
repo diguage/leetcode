@@ -89,10 +89,10 @@
 |{source_base_url}/ThreeSumClosest.java[Java]
 |Medium
 
-//|17
-//|{leetcode_base_url}/letter-combinations-of-a-phone-number/[Letter Combinations of a Phone Number]
-//|{source_base_url}/LetterCombinationsOfAPhoneNumber.java[Java]
-//|Medium
+|17
+|{leetcode_base_url}/letter-combinations-of-a-phone-number/[Letter Combinations of a Phone Number]
+|{source_base_url}/LetterCombinationsOfAPhoneNumber.java[Java]
+|Medium
 //
 //|18
 //|{leetcode_base_url}/4sum/[4Sum]
