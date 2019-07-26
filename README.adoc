@@ -109,11 +109,11 @@
 |{source_base_url}/ValidParentheses.java[Java]
 |Easy
 
-//|21
-//|{leetcode_base_url}/merge-two-sorted-lists/[Merge Two Sorted Lists]
-//|{source_base_url}/MergeTwoSortedLists.java[Java]
-//|Easy
-//
+|21
+|{leetcode_base_url}/merge-two-sorted-lists/[Merge Two Sorted Lists]
+|{source_base_url}/MergeTwoSortedLists.java[Java]
+|Easy
+
 //|22
 //|{leetcode_base_url}/generate-parentheses/[Generate Parentheses]
 //|{source_base_url}/GenerateParentheses.java[Java]
