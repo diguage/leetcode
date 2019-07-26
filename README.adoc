@@ -104,11 +104,11 @@
 //|{source_base_url}/RemoveNthNodeFromEndOfList.java[Java]
 //|Medium
 
-//|20
-//|{leetcode_base_url}/valid-parentheses/[Valid Parentheses]
-//|{source_base_url}/ValidParentheses.java[Java]
-//|Easy
-//
+|20
+|{leetcode_base_url}/valid-parentheses/[Valid Parentheses]
+|{source_base_url}/ValidParentheses.java[Java]
+|Easy
+
 //|21
 //|{leetcode_base_url}/merge-two-sorted-lists/[Merge Two Sorted Lists]
 //|{source_base_url}/MergeTwoSortedLists.java[Java]
