@@ -93,11 +93,11 @@
 |{leetcode_base_url}/letter-combinations-of-a-phone-number/[Letter Combinations of a Phone Number]
 |{source_base_url}/LetterCombinationsOfAPhoneNumber.java[Java]
 |Medium
-//
-//|18
-//|{leetcode_base_url}/4sum/[4Sum]
-//|{source_base_url}/FourSum.java[Java]
-//|Medium
+
+|18
+|{leetcode_base_url}/4sum/[4Sum]
+|{source_base_url}/FourSum.java[Java]
+|Medium
 
 |19
 |{leetcode_base_url}/remove-nth-node-from-end-of-list/[Remove Nth Node From End of List]
