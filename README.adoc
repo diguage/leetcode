@@ -118,12 +118,12 @@
 //|{leetcode_base_url}/generate-parentheses/[Generate Parentheses]
 //|{source_base_url}/GenerateParentheses.java[Java]
 //|Medium
-//
-//|23
-//|{leetcode_base_url}/merge-k-sorted-lists/[Merge k Sorted Lists]
-//|{source_base_url}/MergeKSortedLists.java[Java]
-//|Hard
-//
+
+|23
+|{leetcode_base_url}/merge-k-sorted-lists/[Merge k Sorted Lists]
+|{source_base_url}/MergeKSortedLists.java[Java]
+|Hard
+
 //|24
 //|{leetcode_base_url}/swap-nodes-in-pairs/[Swap Nodes in Pairs]
 //|{source_base_url}/SwapNodesInPairs.java[Java]
