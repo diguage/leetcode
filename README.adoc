@@ -208,12 +208,12 @@
 //|{leetcode_base_url}/combination-sum-ii/[Combination Sum II]
 //|{source_base_url}/CombinationSumIi.java[Java]
 //|Medium
-//
-//|41
-//|{leetcode_base_url}/first-missing-positive/[First Missing Positive]
-//|{source_base_url}/FirstMissingPositive.java[Java]
-//|Hard
-//
+
+|41
+|{leetcode_base_url}/first-missing-positive/[First Missing Positive]
+|{source_base_url}/FirstMissingPositive.java[Java]
+|Hard
+
 //|42
 //|{leetcode_base_url}/trapping-rain-water/[Trapping Rain Water]
 //|{source_base_url}/TrappingRainWater.java[Java]
