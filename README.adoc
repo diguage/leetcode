@@ -243,12 +243,12 @@
 //|{leetcode_base_url}/permutations-ii/[Permutations II]
 //|{source_base_url}/PermutationsIi.java[Java]
 //|Medium
-//
-//|48
-//|{leetcode_base_url}/rotate-image/[Rotate Image]
-//|{source_base_url}/RotateImage.java[Java]
-//|Medium
-//
+
+|48
+|{leetcode_base_url}/rotate-image/[Rotate Image]
+|{source_base_url}/RotateImage.java[Java]
+|Medium
+
 //|49
 //|{leetcode_base_url}/group-anagrams/[Group Anagrams]
 //|{source_base_url}/GroupAnagrams.java[Java]
