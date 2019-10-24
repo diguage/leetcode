@@ -443,12 +443,12 @@
 //|{leetcode_base_url}/scramble-string/[Scramble String]
 //|{source_base_url}/ScrambleString.java[Java]
 //|Hard
-//
-//|88
-//|{leetcode_base_url}/merge-sorted-array/[Merge Sorted Array]
-//|{source_base_url}/MergeSortedArray.java[Java]
-//|Easy
-//
+
+|88
+|{leetcode_base_url}/merge-sorted-array/[Merge Sorted Array]
+|{source_base_url}/MergeSortedArray.java[Java]
+|Easy
+
 //|89
 //|{leetcode_base_url}/gray-code/[Gray Code]
 //|{source_base_url}/GrayCode.java[Java]
