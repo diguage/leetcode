@@ -593,12 +593,12 @@
 //|{leetcode_base_url}/populating-next-right-pointers-in-each-node-ii/[Populating Next Right Pointers in Each Node II]
 //|{source_base_url}/PopulatingNextRightPointersInEachNodeIi.java[Java]
 //|Medium
-//
-//|118
-//|{leetcode_base_url}/pascals-triangle/[Pascal's Triangle]
-//|{source_base_url}/PascalSTriangle.java[Java]
-//|Easy
-//
+
+|118
+|{leetcode_base_url}/pascals-triangle/[Pascal's Triangle]
+|{source_base_url}/PascalsTriangle.java[Java]
+|Easy
+
 //|119
 //|{leetcode_base_url}/pascals-triangle-ii/[Pascal's Triangle II]
 //|{source_base_url}/PascalSTriangleIi.java[Java]

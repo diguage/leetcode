@@ -72,8 +72,9 @@ def headers():
     return headers
 
 
-def get_data(url):
-    r = requests.get(url, headers=headers())
+def get_data(url, headers=headers()):
+    print(headers)
+    r = requests.get(url, headers)
     return r.text
 
 
@@ -86,9 +87,10 @@ def patch_data(url, data):
 
 
 def get_tags():
+    # https://leetcode.com/problems/api/tags/
     file_name = "leetcode-tags.json"
     json_file = open(file_name, 'r')
-    data = json.loads(json_file.readline())
+    data = json.loads(json_file.read())
     result = {}
     for topic in data['topics']:
         name = topic['name']
@@ -110,6 +112,18 @@ def get_tags():
             question['companies'] = qts
             result[id] = question
     return result
+
+# 所有的题目都可以获取到
+# 如果是锁定题目，则 data.question.content 为 null；
+def fetch_problem(title_slug):
+    url = 'https://leetcode.com/graphql'
+    headers = {'content-type': 'application/json'}
+    data = '{"operationName":"questionData","variables":{"titleSlug":"%s"},"query":"query questionData($titleSlug: String\u0021) {\\n  question(titleSlug: $titleSlug) {\\n    questionId\\n    questionFrontendId\\n    boundTopicId\\n    title\\n    titleSlug\\n    content\\n    translatedTitle\\n    translatedContent\\n    isPaidOnly\\n    difficulty\\n    likes\\n    dislikes\\n    isLiked\\n    similarQuestions\\n    contributors {\\n      username\\n      profileUrl\\n      avatarUrl\\n      __typename\\n    }\\n    langToValidPlayground\\n    topicTags {\\n      name\\n      slug\\n      translatedName\\n      __typename\\n    }\\n    companyTagStats\\n    codeSnippets {\\n      lang\\n      langSlug\\n      code\\n      __typename\\n    }\\n    stats\\n    hints\\n    solution {\\n      id\\n      canSeeDetail\\n      __typename\\n    }\\n    status\\n    sampleTestCase\\n    metaData\\n    judgerAvailable\\n    judgeType\\n    mysqlSchemas\\n    enableRunCode\\n    enableTestMode\\n    envInfo\\n    libraryUrl\\n    __typename\\n  }\\n}\\n"}' % title_slug
+    response = requests.post(url, headers=headers, data=data)
+    if response.status_code == 200:
+        return response.text
+    else:
+        return None
 
 
 def get_problems(json_data):
@@ -185,7 +199,8 @@ def update_github_issue(p):
 def get_next_id():
     url_issues = "https://api.github.com/repos/%s/%s/issues" % (
         REPO_OWNER, REPO_NAME)
-    issues = json.loads(get_data(url_issues))
+    issues_json = get_data(url_issues)
+    issues = json.loads(issues_json)
     last_id = max(int(node['number']) for node in issues)
     return last_id + 1
 
