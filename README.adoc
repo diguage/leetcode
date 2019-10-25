@@ -274,11 +274,11 @@
 |{source_base_url}/MaximumSubarray.java[Java]
 |Easy
 
-//|54
-//|{leetcode_base_url}/spiral-matrix/[Spiral Matrix]
-//|{source_base_url}/SpiralMatrix.java[Java]
-//|Medium
-//
+|54
+|{leetcode_base_url}/spiral-matrix/[Spiral Matrix]
+|{source_base_url}/SpiralMatrix.java[Java]
+|Medium
+
 //|55
 //|{leetcode_base_url}/jump-game/[Jump Game]
 //|{source_base_url}/JumpGame.java[Java]
