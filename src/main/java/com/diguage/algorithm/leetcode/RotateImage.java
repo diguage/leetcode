@@ -1,7 +1,8 @@
 package com.diguage.algorithm.leetcode;
 
-import java.util.Arrays;
 import java.util.Objects;
+
+import static com.diguage.algorithm.util.PrintUtils.printMatrix;
 
 /**
  * = 48. Rotate Image
@@ -122,12 +123,5 @@ public class RotateImage {
         printMatrix(array2);
         solution.rotate(array2);
         printMatrix(array2);
-    }
-
-    public static void printMatrix(int[][] array) {
-        System.out.println("↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓");
-        Arrays.stream(Arrays.deepToString(array).substring(1).split("], "))
-                .forEach(System.out::println);
-        System.out.println("↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑");
     }
 }
