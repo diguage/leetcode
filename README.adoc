@@ -298,12 +298,12 @@
 //|{leetcode_base_url}/length-of-last-word/[Length of Last Word]
 //|{source_base_url}/LengthOfLastWord.java[Java]
 //|Easy
-//
-//|59
-//|{leetcode_base_url}/spiral-matrix-ii/[Spiral Matrix II]
-//|{source_base_url}/SpiralMatrixIi.java[Java]
-//|Medium
-//
+
+|59
+|{leetcode_base_url}/spiral-matrix-ii/[Spiral Matrix II]
+|{source_base_url}/SpiralMatrixIi.java[Java]
+|Medium
+
 //|60
 //|{leetcode_base_url}/permutation-sequence/[Permutation Sequence]
 //|{source_base_url}/PermutationSequence.java[Java]
