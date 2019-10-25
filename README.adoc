@@ -599,11 +599,11 @@
 |{source_base_url}/PascalsTriangle.java[Java]
 |Easy
 
-//|119
-//|{leetcode_base_url}/pascals-triangle-ii/[Pascal's Triangle II]
-//|{source_base_url}/PascalSTriangleIi.java[Java]
-//|Easy
-//
+|119
+|{leetcode_base_url}/pascals-triangle-ii/[Pascal's Triangle II]
+|{source_base_url}/PascalsTriangleIi.java[Java]
+|Easy
+
 //|120
 //|{leetcode_base_url}/triangle/[Triangle]
 //|{source_base_url}/Triangle.java[Java]
