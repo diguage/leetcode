@@ -228,12 +228,12 @@
 //|{leetcode_base_url}/wildcard-matching/[Wildcard Matching]
 //|{source_base_url}/WildcardMatching.java[Java]
 //|Hard
-//
-//|45
-//|{leetcode_base_url}/jump-game-ii/[Jump Game II]
-//|{source_base_url}/JumpGameIi.java[Java]
-//|Hard
-//
+
+|45
+|{leetcode_base_url}/jump-game-ii/[Jump Game II]
+|{source_base_url}/JumpGameIi.java[Java]
+|Hard
+
 //|46
 //|{leetcode_base_url}/permutations/[Permutations]
 //|{source_base_url}/Permutations.java[Java]
