@@ -319,11 +319,11 @@
 |{source_base_url}/UniquePaths.java[Java]
 |Medium
 
-//|63
-//|{leetcode_base_url}/unique-paths-ii/[Unique Paths II]
-//|{source_base_url}/UniquePathsIi.java[Java]
-//|Medium
-//
+|63
+|{leetcode_base_url}/unique-paths-ii/[Unique Paths II]
+|{source_base_url}/UniquePathsIi.java[Java]
+|Medium
+
 //|64
 //|{leetcode_base_url}/minimum-path-sum/[Minimum Path Sum]
 //|{source_base_url}/MinimumPathSum.java[Java]
