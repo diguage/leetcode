@@ -313,12 +313,12 @@
 //|{leetcode_base_url}/rotate-list/[Rotate List]
 //|{source_base_url}/RotateList.java[Java]
 //|Medium
-//
-//|62
-//|{leetcode_base_url}/unique-paths/[Unique Paths]
-//|{source_base_url}/UniquePaths.java[Java]
-//|Medium
-//
+
+|62
+|{leetcode_base_url}/unique-paths/[Unique Paths]
+|{source_base_url}/UniquePaths.java[Java]
+|Medium
+
 //|63
 //|{leetcode_base_url}/unique-paths-ii/[Unique Paths II]
 //|{source_base_url}/UniquePathsIi.java[Java]
