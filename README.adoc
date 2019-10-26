@@ -279,11 +279,11 @@
 |{source_base_url}/SpiralMatrix.java[Java]
 |Medium
 
-//|55
-//|{leetcode_base_url}/jump-game/[Jump Game]
-//|{source_base_url}/JumpGame.java[Java]
-//|Medium
-//
+|55
+|{leetcode_base_url}/jump-game/[Jump Game]
+|{source_base_url}/JumpGame.java[Java]
+|Medium
+
 //|56
 //|{leetcode_base_url}/merge-intervals/[Merge Intervals]
 //|{source_base_url}/MergeIntervals.java[Java]
