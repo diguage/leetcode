@@ -368,12 +368,12 @@
 //|{leetcode_base_url}/edit-distance/[Edit Distance]
 //|{source_base_url}/EditDistance.java[Java]
 //|Hard
-//
-//|73
-//|{leetcode_base_url}/set-matrix-zeroes/[Set Matrix Zeroes]
-//|{source_base_url}/SetMatrixZeroes.java[Java]
-//|Medium
-//
+
+|73
+|{leetcode_base_url}/set-matrix-zeroes/[Set Matrix Zeroes]
+|{source_base_url}/SetMatrixZeroes.java[Java]
+|Medium
+
 //|74
 //|{leetcode_base_url}/search-a-2d-matrix/[Search a 2D Matrix]
 //|{source_base_url}/SearchA2dMatrix.java[Java]
