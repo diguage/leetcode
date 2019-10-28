@@ -1448,12 +1448,12 @@
 //|{leetcode_base_url}/unique-word-abbreviation/[Unique Word Abbreviation]
 //|{source_base_url}/UniqueWordAbbreviation.java[Java]
 //|Medium
-//
-//|289
-//|{leetcode_base_url}/game-of-life/[Game of Life]
-//|{source_base_url}/GameOfLife.java[Java]
-//|Medium
-//
+
+|289
+|{leetcode_base_url}/game-of-life/[Game of Life]
+|{source_base_url}/GameOfLife.java[Java]
+|Medium
+
 //|290
 //|{leetcode_base_url}/word-pattern/[Word Pattern]
 //|{source_base_url}/WordPattern.java[Java]
