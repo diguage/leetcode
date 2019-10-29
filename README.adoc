@@ -378,12 +378,12 @@
 //|{leetcode_base_url}/search-a-2d-matrix/[Search a 2D Matrix]
 //|{source_base_url}/SearchA2dMatrix.java[Java]
 //|Medium
-//
-//|75
-//|{leetcode_base_url}/sort-colors/[Sort Colors]
-//|{source_base_url}/SortColors.java[Java]
-//|Medium
-//
+
+|75
+|{leetcode_base_url}/sort-colors/[Sort Colors]
+|{source_base_url}/SortColors.java[Java]
+|Medium
+
 //|76
 //|{leetcode_base_url}/minimum-window-substring/[Minimum Window Substring]
 //|{source_base_url}/MinimumWindowSubstring.java[Java]
