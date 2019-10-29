@@ -2,6 +2,10 @@ package com.diguage.algorithm.leetcode;
 
 import java.util.*;
 
+import com.diguage.algorithm.util.ListNode;
+
+import static com.diguage.algorithm.util.ListNodeUtils.*;
+
 /**
  * = 23. Merge k Sorted Lists
  *
@@ -66,56 +70,6 @@ public class MergeKSortedLists {
         MergeKSortedLists solution = new MergeKSortedLists();
         ListNode r1 = solution.mergeKLists(lists);
         System.out.println(isOrder(r1));
-    }
-
-    private static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
-    private static boolean isOrder(ListNode head) {
-        if (Objects.isNull(head)) {
-            return true;
-        }
-        System.out.println("\n--------");
-        int last = head.val;
-        ListNode pointer = head;
-        while (Objects.nonNull(pointer)) {
-            int current = pointer.val;
-            System.out.print(current + ", ");
-            if (last > current) {
-                return false;
-            }
-            last = current;
-            pointer = pointer.next;
-        }
-        System.out.println("\n--------");
-        return true;
-    }
-
-    private static ListNode generate(List<Integer> num) {
-        if (Objects.isNull(num) || num.size() == 0) {
-            return null;
-        }
-        ListNode result = null;
-        ListNode tail = null;
-
-        for (int i = 0; i < num.size(); i++) {
-            int no = num.get(i);
-            ListNode node = new ListNode(no);
-            if (Objects.isNull(result)) {
-                result = node;
-                tail = node;
-            } else {
-                tail.next = node;
-                tail = node;
-            }
-        }
-        return result;
     }
 }
 

@@ -1,8 +1,12 @@
 package com.diguage.algorithm.leetcode;
 
+import com.diguage.algorithm.util.ListNode;
+
 import java.util.Arrays;
-import java.util.List;
 import java.util.Objects;
+
+import static com.diguage.algorithm.util.ListNodeUtils.generate;
+import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
 
 /**
  * = 19. Remove Nth Node From End of List
@@ -64,62 +68,18 @@ public class RemoveNthNodeFromEndOfList {
         RemoveNthNodeFromEndOfList solution = new RemoveNthNodeFromEndOfList();
 
         ListNode r5 = solution.removeNthFromEnd(generate(Arrays.asList(1, 2)), 1);
-        print(r5);
+        printListNode(r5);
 
         ListNode r4 = solution.removeNthFromEnd(generate(Arrays.asList(1)), 1);
-        print(r4);
+        printListNode(r4);
 
         ListNode r1 = solution.removeNthFromEnd(generate(Arrays.asList(1, 2, 3, 4, 5)), 2);
-        print(r1);
+        printListNode(r1);
 
         ListNode r2 = solution.removeNthFromEnd(generate(Arrays.asList(1, 2, 3, 4, 5)), 6);
-        print(r2);
+        printListNode(r2);
 
         ListNode r3 = solution.removeNthFromEnd(generate(Arrays.asList()), 2);
-        print(r3);
-    }
-
-    private static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
-    private static void print(ListNode head) {
-        if (Objects.isNull(head)) {
-            return;
-        }
-        System.out.println("\n--------");
-        ListNode pointer = head;
-        while (Objects.nonNull(pointer)) {
-            int current = pointer.val;
-            System.out.print(current + ", ");
-            pointer = pointer.next;
-        }
-        System.out.println("\n--------");
-    }
-
-    private static ListNode generate(List<Integer> num) {
-        if (Objects.isNull(num) || num.size() == 0) {
-            return null;
-        }
-        ListNode result = null;
-        ListNode tail = null;
-
-        for (int i = 0; i < num.size(); i++) {
-            int no = num.get(i);
-            ListNode node = new ListNode(no);
-            if (Objects.isNull(result)) {
-                result = node;
-                tail = node;
-            } else {
-                tail.next = node;
-                tail = node;
-            }
-        }
-        return result;
+        printListNode(r3);
     }
 }

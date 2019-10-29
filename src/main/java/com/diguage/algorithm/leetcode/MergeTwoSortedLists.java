@@ -1,8 +1,12 @@
 package com.diguage.algorithm.leetcode;
 
+import com.diguage.algorithm.util.ListNode;
+
 import java.util.Arrays;
-import java.util.List;
 import java.util.Objects;
+
+import static com.diguage.algorithm.util.ListNodeUtils.generate;
+import static com.diguage.algorithm.util.ListNodeUtils.isOrder;
 
 /**
  * = 21. Merge Two Sorted Lists
@@ -75,55 +79,5 @@ public class MergeTwoSortedLists {
         ListNode l2 = generate(Arrays.asList());
         ListNode r1 = solution.mergeTwoLists(l1, l2);
         System.out.println(isOrder(r1));
-    }
-
-    private static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
-    private static boolean isOrder(ListNode head) {
-        if (Objects.isNull(head)) {
-            return true;
-        }
-        System.out.println("\n--------");
-        int last = head.val;
-        ListNode pointer = head;
-        while (Objects.nonNull(pointer)) {
-            int current = pointer.val;
-            System.out.print(current + ", ");
-            if (last > current) {
-                return false;
-            }
-            last = current;
-            pointer = pointer.next;
-        }
-        System.out.println("\n--------");
-        return true;
-    }
-
-    private static ListNode generate(List<Integer> num) {
-        if (Objects.isNull(num) || num.size() == 0) {
-            return null;
-        }
-        ListNode result = null;
-        ListNode tail = null;
-
-        for (int i = 0; i < num.size(); i++) {
-            int no = num.get(i);
-            ListNode node = new ListNode(no);
-            if (Objects.isNull(result)) {
-                result = node;
-                tail = node;
-            } else {
-                tail.next = node;
-                tail = node;
-            }
-        }
-        return result;
     }
 }

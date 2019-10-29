@@ -1,6 +1,10 @@
 package com.diguage.algorithm.leetcode;
 
+import com.diguage.algorithm.util.ListNode;
+
 import java.util.Objects;
+
+import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
 
 /**
  * = 2. Add Two Numbers
@@ -92,7 +96,7 @@ public class AddTwoNumbers {
         ListNode list1 = result.convertNumberToList(1);
         ListNode list2 = result.convertNumberToList(99);
         ListNode sum = result.addTwoNumbers(list1, list2);
-        iterate(sum);
+        printListNode(sum);
     }
 
 
@@ -112,23 +116,5 @@ public class AddTwoNumbers {
             }
         }
         return result;
-    }
-
-    public static void iterate(ListNode header) {
-        System.out.println("\n");
-        while (Objects.nonNull(header)) {
-            System.out.print(header.val + "→");
-            header = header.next;
-        }
-        System.out.println("\n");
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
     }
 }
