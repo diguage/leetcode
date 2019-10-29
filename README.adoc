@@ -743,12 +743,12 @@
 //|{leetcode_base_url}/insertion-sort-list/[Insertion Sort List]
 //|{source_base_url}/InsertionSortList.java[Java]
 //|Medium
-//
-//|148
-//|{leetcode_base_url}/sort-list/[Sort List]
-//|{source_base_url}/SortList.java[Java]
-//|Medium
-//
+
+|148
+|{leetcode_base_url}/sort-list/[Sort List]
+|{source_base_url}/SortList.java[Java]
+|Medium
+
 //|149
 //|{leetcode_base_url}/max-points-on-a-line/[Max Points on a Line]
 //|{source_base_url}/MaxPointsOnALine.java[Java]
