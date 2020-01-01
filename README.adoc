@@ -683,12 +683,12 @@
 //|{leetcode_base_url}/candy/[Candy]
 //|{source_base_url}/Candy.java[Java]
 //|Hard
-//
-//|136
-//|{leetcode_base_url}/single-number/[Single Number]
-//|{source_base_url}/SingleNumber.java[Java]
-//|Easy
-//
+
+|136
+|{leetcode_base_url}/single-number/[Single Number]
+|{source_base_url}/SingleNumber.java[Java]
+|Easy
+
 //|137
 //|{leetcode_base_url}/single-number-ii/[Single Number II]
 //|{source_base_url}/SingleNumberIi.java[Java]
