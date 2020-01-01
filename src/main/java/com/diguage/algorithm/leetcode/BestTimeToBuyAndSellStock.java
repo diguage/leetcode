@@ -35,25 +35,43 @@ import java.util.Objects;
  */
 public class BestTimeToBuyAndSellStock {
     /**
+     * Runtime: 0 ms, faster than 100.00% of Java online submissions for Best Time to Buy and Sell Stock.
+     *
+     * Memory Usage: 37.3 MB, less than 100.00% of Java online submissions for Best Time to Buy and Sell Stock.
+     */
+    public int maxProfit(int[] prices) {
+        int minPrice = Integer.MAX_VALUE;
+        int maxProfit = 0;
+        for (int i = 0; i < prices.length; i++) {
+            if (prices[i] < minPrice) {
+                minPrice = prices[i];
+            } else if (prices[i] - minPrice > maxProfit) {
+                maxProfit = prices[i] - minPrice;
+            }
+        }
+        return maxProfit;
+    }
+
+    /**
      * Runtime: 198 ms, faster than 8.08% of Java online submissions for Best Time to Buy and Sell Stock.
      *
      * Memory Usage: 38.5 MB, less than 76.99% of Java online submissions for Best Time to Buy and Sell Stock.
      */
-    public int maxProfit(int[] prices) {
+    public int maxProfitBruteForce(int[] prices) {
         if (Objects.isNull(prices) || prices.length < 2) {
             return 0;
         }
-        int result = 0;
+        int maxProfit = 0;
 
         for (int i = 0; i < prices.length - 1; i++) {
             for (int j = i + 1; j < prices.length; j++) {
-                int temp = prices[j] - prices[i];
-                if (temp > result) {
-                    result = temp;
+                int profit = prices[j] - prices[i];
+                if (profit > maxProfit) {
+                    maxProfit = profit;
                 }
             }
         }
-        return result;
+        return maxProfit;
     }
 
     public static void main(String[] args) {
