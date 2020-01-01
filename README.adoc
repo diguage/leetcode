@@ -608,12 +608,12 @@
 //|{leetcode_base_url}/triangle/[Triangle]
 //|{source_base_url}/Triangle.java[Java]
 //|Medium
-//
-//|121
-//|{leetcode_base_url}/best-time-to-buy-and-sell-stock/[Best Time to Buy and Sell Stock]
-//|{source_base_url}/BestTimeToBuyAndSellStock.java[Java]
-//|Easy
-//
+
+|121
+|{leetcode_base_url}/best-time-to-buy-and-sell-stock/[Best Time to Buy and Sell Stock]
+|{source_base_url}/BestTimeToBuyAndSellStock.java[Java]
+|Easy
+
 //|122
 //|{leetcode_base_url}/best-time-to-buy-and-sell-stock-ii/[Best Time to Buy and Sell Stock II]
 //|{source_base_url}/BestTimeToBuyAndSellStockIi.java[Java]
