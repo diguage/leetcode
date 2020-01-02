@@ -393,12 +393,12 @@
 //|{leetcode_base_url}/combinations/[Combinations]
 //|{source_base_url}/Combinations.java[Java]
 //|Medium
-//
-//|78
-//|{leetcode_base_url}/subsets/[Subsets]
-//|{source_base_url}/Subsets.java[Java]
-//|Medium
-//
+
+|78
+|{leetcode_base_url}/subsets/[Subsets]
+|{source_base_url}/Subsets.java[Java]
+|Medium
+
 //|79
 //|{leetcode_base_url}/word-search/[Word Search]
 //|{source_base_url}/WordSearch.java[Java]
