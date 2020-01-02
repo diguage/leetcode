@@ -508,12 +508,12 @@
 //|{leetcode_base_url}/same-tree/[Same Tree]
 //|{source_base_url}/SameTree.java[Java]
 //|Easy
-//
-//|101
-//|{leetcode_base_url}/symmetric-tree/[Symmetric Tree]
-//|{source_base_url}/SymmetricTree.java[Java]
-//|Easy
-//
+
+|101
+|{leetcode_base_url}/symmetric-tree/[Symmetric Tree]
+|{source_base_url}/SymmetricTree.java[Java]
+|Easy
+
 //|102
 //|{leetcode_base_url}/binary-tree-level-order-traversal/[Binary Tree Level Order Traversal]
 //|{source_base_url}/BinaryTreeLevelOrderTraversal.java[Java]
