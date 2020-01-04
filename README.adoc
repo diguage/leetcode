@@ -399,11 +399,11 @@
 |{source_base_url}/Subsets.java[Java]
 |Medium
 
-//|79
-//|{leetcode_base_url}/word-search/[Word Search]
-//|{source_base_url}/WordSearch.java[Java]
-//|Medium
-//
+|79
+|{leetcode_base_url}/word-search/[Word Search]
+|{source_base_url}/WordSearch.java[Java]
+|Medium
+
 //|80
 //|{leetcode_base_url}/remove-duplicates-from-sorted-array-ii/[Remove Duplicates from Sorted Array II]
 //|{source_base_url}/RemoveDuplicatesFromSortedArrayIi.java[Java]
