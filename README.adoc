@@ -658,12 +658,12 @@
 //|{leetcode_base_url}/surrounded-regions/[Surrounded Regions]
 //|{source_base_url}/SurroundedRegions.java[Java]
 //|Medium
-//
-//|131
-//|{leetcode_base_url}/palindrome-partitioning/[Palindrome Partitioning]
-//|{source_base_url}/PalindromePartitioning.java[Java]
-//|Medium
-//
+
+|131
+|{leetcode_base_url}/palindrome-partitioning/[Palindrome Partitioning]
+|{source_base_url}/PalindromePartitioning.java[Java]
+|Medium
+
 //|132
 //|{leetcode_base_url}/palindrome-partitioning-ii/[Palindrome Partitioning II]
 //|{source_base_url}/PalindromePartitioningIi.java[Java]
