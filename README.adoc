@@ -528,12 +528,12 @@
 //|{leetcode_base_url}/maximum-depth-of-binary-tree/[Maximum Depth of Binary Tree]
 //|{source_base_url}/MaximumDepthOfBinaryTree.java[Java]
 //|Easy
-//
-//|105
-//|{leetcode_base_url}/construct-binary-tree-from-preorder-and-inorder-traversal/[Construct Binary Tree from Preorder and Inorder Traversal]
-//|{source_base_url}/ConstructBinaryTreeFromPreorderAndInorderTraversal.java[Java]
-//|Medium
-//
+
+|105
+|{leetcode_base_url}/construct-binary-tree-from-preorder-and-inorder-traversal/[Construct Binary Tree from Preorder and Inorder Traversal]
+|{source_base_url}/ConstructBinaryTreeFromPreorderAndInorderTraversal.java[Java]
+|Medium
+
 //|106
 //|{leetcode_base_url}/construct-binary-tree-from-inorder-and-postorder-traversal/[Construct Binary Tree from Inorder and Postorder Traversal]
 //|{source_base_url}/ConstructBinaryTreeFromInorderAndPostorderTraversal.java[Java]
