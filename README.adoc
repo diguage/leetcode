@@ -614,11 +614,11 @@
 |{source_base_url}/BestTimeToBuyAndSellStock.java[Java]
 |Easy
 
-//|122
-//|{leetcode_base_url}/best-time-to-buy-and-sell-stock-ii/[Best Time to Buy and Sell Stock II]
-//|{source_base_url}/BestTimeToBuyAndSellStockIi.java[Java]
-//|Easy
-//
+|122
+|{leetcode_base_url}/best-time-to-buy-and-sell-stock-ii/[Best Time to Buy and Sell Stock II]
+|{source_base_url}/BestTimeToBuyAndSellStockIi.java[Java]
+|Easy
+
 //|123
 //|{leetcode_base_url}/best-time-to-buy-and-sell-stock-iii/[Best Time to Buy and Sell Stock III]
 //|{source_base_url}/BestTimeToBuyAndSellStockIii.java[Java]
