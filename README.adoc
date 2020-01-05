@@ -848,12 +848,12 @@
 //|{leetcode_base_url}/excel-sheet-column-title/[Excel Sheet Column Title]
 //|{source_base_url}/ExcelSheetColumnTitle.java[Java]
 //|Easy
-//
-//|169
-//|{leetcode_base_url}/majority-element/[Majority Element]
-//|{source_base_url}/MajorityElement.java[Java]
-//|Easy
-//
+
+|169
+|{leetcode_base_url}/majority-element/[Majority Element]
+|{source_base_url}/MajorityElement.java[Java]
+|Easy
+
 //|170
 //|{leetcode_base_url}/two-sum-iii-data-structure-design/[Two Sum III - Data structure design]
 //|{source_base_url}/TwoSumIiiDataStructureDesign.java[Java]
