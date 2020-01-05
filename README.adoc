@@ -1418,12 +1418,12 @@
 //|{leetcode_base_url}/expression-add-operators/[Expression Add Operators]
 //|{source_base_url}/ExpressionAddOperators.java[Java]
 //|Hard
-//
-//|283
-//|{leetcode_base_url}/move-zeroes/[Move Zeroes]
-//|{source_base_url}/MoveZeroes.java[Java]
-//|Easy
-//
+
+|283
+|{leetcode_base_url}/move-zeroes/[Move Zeroes]
+|{source_base_url}/MoveZeroes.java[Java]
+|Easy
+
 //|284
 //|{leetcode_base_url}/peeking-iterator/[Peeking Iterator]
 //|{source_base_url}/PeekingIterator.java[Java]
