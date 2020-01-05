@@ -763,12 +763,12 @@
 //|{leetcode_base_url}/reverse-words-in-a-string/[Reverse Words in a String]
 //|{source_base_url}/ReverseWordsInAString.java[Java]
 //|Medium
-//
-//|152
-//|{leetcode_base_url}/maximum-product-subarray/[Maximum Product Subarray]
-//|{source_base_url}/MaximumProductSubarray.java[Java]
-//|Medium
-//
+
+|152
+|{leetcode_base_url}/maximum-product-subarray/[Maximum Product Subarray]
+|{source_base_url}/MaximumProductSubarray.java[Java]
+|Medium
+
 //|153
 //|{leetcode_base_url}/find-minimum-in-rotated-sorted-array/[Find Minimum in Rotated Sorted Array]
 //|{source_base_url}/FindMinimumInRotatedSortedArray.java[Java]
