@@ -1193,12 +1193,12 @@
 //|{leetcode_base_url}/delete-node-in-a-linked-list/[Delete Node in a Linked List]
 //|{source_base_url}/DeleteNodeInALinkedList.java[Java]
 //|Easy
-//
-//|238
-//|{leetcode_base_url}/product-of-array-except-self/[Product of Array Except Self]
-//|{source_base_url}/ProductOfArrayExceptSelf.java[Java]
-//|Medium
-//
+
+|238
+|{leetcode_base_url}/product-of-array-except-self/[Product of Array Except Self]
+|{source_base_url}/ProductOfArrayExceptSelf.java[Java]
+|Medium
+
 //|239
 //|{leetcode_base_url}/sliding-window-maximum/[Sliding Window Maximum]
 //|{source_base_url}/SlidingWindowMaximum.java[Java]
