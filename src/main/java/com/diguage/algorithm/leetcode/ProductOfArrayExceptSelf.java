@@ -17,10 +17,10 @@ import java.util.Arrays;
  * ----
  *
  * *Note:* Please solve it *without division* and in O(n).
-
  *
- * Follow up:
- * Could you solve it with constant space complexity? (The output array does not count as extra space for the purpose of space complexity analysis.)
+ * *Follow up:*
+ *
+ * Could you solve it with constant space complexity? (The output array *does not* count as extra space for the purpose of space complexity analysis.)
  *
  * @author D瓜哥, https://www.diguage.com/
  * @since 2020-01-05 20:15
@@ -33,25 +33,21 @@ public class ProductOfArrayExceptSelf {
      */
     public int[] productExceptSelf(int[] nums) {
         int[] result = new int[nums.length];
-        int temp = 1;
+        result[0] = 1;
         for (int i = 1; i < nums.length; i++) {
-            result[i] = nums[i - 1] * temp;
-            temp = result[i];
+            result[i] = nums[i - 1] * result[i - 1];
         }
-        temp = nums[nums.length - 1];
-        for (int i = nums.length - 2; i >= 0; i--) {
-            if (i == 0) {
-                result[i] = temp;
-            } else {
-                result[i] *= temp;
-                temp *= nums[i];
-            }
+        int temp = 1;
+        for (int i = nums.length - 1; i >= 0; i--) {
+            result[i] *= temp;
+            temp *= nums[i];
         }
         return result;
     }
 
     /**
      * Runtime: 1 ms, faster than 100.00% of Java online submissions for Product of Array Except Self.
+     *
      * Memory Usage: 42.8 MB, less than 48.03% of Java online submissions for Product of Array Except Self.
      */
     public int[] productExceptSelfDivision(int[] nums) {
