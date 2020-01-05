@@ -1343,12 +1343,12 @@
 //|{leetcode_base_url}/palindrome-permutation-ii/[Palindrome Permutation II]
 //|{source_base_url}/PalindromePermutationIi.java[Java]
 //|Medium
-//
-//|268
-//|{leetcode_base_url}/missing-number/[Missing Number]
-//|{source_base_url}/MissingNumber.java[Java]
-//|Easy
-//
+
+|268
+|{leetcode_base_url}/missing-number/[Missing Number]
+|{source_base_url}/MissingNumber.java[Java]
+|Easy
+
 //|269
 //|{leetcode_base_url}/alien-dictionary/[Alien Dictionary]
 //|{source_base_url}/AlienDictionary.java[Java]
