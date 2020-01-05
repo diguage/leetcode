@@ -1438,12 +1438,12 @@
 //|{leetcode_base_url}/walls-and-gates/[Walls and Gates]
 //|{source_base_url}/WallsAndGates.java[Java]
 //|Medium
-//
-//|287
-//|{leetcode_base_url}/find-the-duplicate-number/[Find the Duplicate Number]
-//|{source_base_url}/FindTheDuplicateNumber.java[Java]
-//|Medium
-//
+
+|287
+|{leetcode_base_url}/find-the-duplicate-number/[Find the Duplicate Number]
+|{source_base_url}/FindTheDuplicateNumber.java[Java]
+|Medium
+
 //|288
 //|{leetcode_base_url}/unique-word-abbreviation/[Unique Word Abbreviation]
 //|{source_base_url}/UniqueWordAbbreviation.java[Java]

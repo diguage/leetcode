@@ -2,3 +2,5 @@
 
 https://leetcode.com/problems/find-the-duplicate-number/[LeetCode - Find the Duplicate Number]
 
+https://leetcode.com/problems/find-the-duplicate-number/solution/[Find the Duplicate Number solution - LeetCode] 中 Approach #3 Floyd's Tortoise and Hare (Cycle Detection) [Accepted] 的好精巧！类似于在链表中发现环。还需要再仔细思考一下这个问题！
+
