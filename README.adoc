@@ -1088,12 +1088,12 @@
 //|{leetcode_base_url}/combination-sum-iii/[Combination Sum III]
 //|{source_base_url}/CombinationSumIii.java[Java]
 //|Medium
-//
-//|217
-//|{leetcode_base_url}/contains-duplicate/[Contains Duplicate]
-//|{source_base_url}/ContainsDuplicate.java[Java]
-//|Easy
-//
+
+|217
+|{leetcode_base_url}/contains-duplicate/[Contains Duplicate]
+|{source_base_url}/ContainsDuplicate.java[Java]
+|Easy
+
 //|218
 //|{leetcode_base_url}/the-skyline-problem/[The Skyline Problem]
 //|{source_base_url}/TheSkylineProblem.java[Java]
