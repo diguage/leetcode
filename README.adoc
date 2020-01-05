@@ -813,12 +813,12 @@
 //|{leetcode_base_url}/one-edit-distance/[One Edit Distance]
 //|{source_base_url}/OneEditDistance.java[Java]
 //|Medium
-//
-//|162
-//|{leetcode_base_url}/find-peak-element/[Find Peak Element]
-//|{source_base_url}/FindPeakElement.java[Java]
-//|Medium
-//
+
+|162
+|{leetcode_base_url}/find-peak-element/[Find Peak Element]
+|{source_base_url}/FindPeakElement.java[Java]
+|Medium
+
 //|163
 //|{leetcode_base_url}/missing-ranges/[Missing Ranges]
 //|{source_base_url}/MissingRanges.java[Java]
