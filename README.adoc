@@ -948,12 +948,12 @@
 //|{leetcode_base_url}/best-time-to-buy-and-sell-stock-iv/[Best Time to Buy and Sell Stock IV]
 //|{source_base_url}/BestTimeToBuyAndSellStockIV.java[Java]
 //|Hard
-//
-//|189
-//|{leetcode_base_url}/rotate-array/[Rotate Array]
-//|{source_base_url}/RotateArray.java[Java]
-//|Easy
-//
+
+|189
+|{leetcode_base_url}/rotate-array/[Rotate Array]
+|{source_base_url}/RotateArray.java[Java]
+|Easy
+
 //|190
 //|{leetcode_base_url}/reverse-bits/[Reverse Bits]
 //|{source_base_url}/ReverseBits.java[Java]

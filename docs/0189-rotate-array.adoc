@@ -2,3 +2,7 @@
 
 https://leetcode.com/problems/rotate-array/[LeetCode - Rotate Array]
 
+发现官网测试用例少了一个特殊情况：如果 `k` 大于两倍数组长度，提交的测试就会报错，但是官网却显示通过。
+
+数组反转的方法也不错！反转时，直接使用界限的值进行加减比较简单省事！
+
