@@ -1903,12 +1903,12 @@
 //|{leetcode_base_url}/design-phone-directory/[Design Phone Directory]
 //|{source_base_url}/DesignPhoneDirectory.java[Java]
 //|Medium
-//
-//|380
-//|{leetcode_base_url}/insert-delete-getrandom-o1/[Insert Delete GetRandom O(1)]
-//|{source_base_url}/InsertDeleteGetRandomO1).java[Java]
-//|Medium
-//
+
+|380
+|{leetcode_base_url}/insert-delete-getrandom-o1/[Insert Delete GetRandom O(1)]
+|{source_base_url}/InsertDeleteGetRandomO1.java[Java]
+|Medium
+
 //|381
 //|{leetcode_base_url}/insert-delete-getrandom-o1-duplicates-allowed/[Insert Delete GetRandom O(1) - Duplicates allowed]
 //|{source_base_url}/InsertDeleteGetRandomO1DuplicatesAllowed.java[Java]
