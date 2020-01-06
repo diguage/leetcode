@@ -249,11 +249,11 @@
 |{source_base_url}/RotateImage.java[Java]
 |Medium
 
-//|49
-//|{leetcode_base_url}/group-anagrams/[Group Anagrams]
-//|{source_base_url}/GroupAnagrams.java[Java]
-//|Medium
-//
+|49
+|{leetcode_base_url}/group-anagrams/[Group Anagrams]
+|{source_base_url}/GroupAnagrams.java[Java]
+|Medium
+
 //|50
 //|{leetcode_base_url}/powx-n/[Pow(x, n)]
 //|{source_base_url}/PowXN.java[Java]
