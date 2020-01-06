@@ -184,11 +184,11 @@
 |{source_base_url}/SearchInsertPosition.java[Java]
 |Easy
 
-//|36
-//|{leetcode_base_url}/valid-sudoku/[Valid Sudoku]
-//|{source_base_url}/ValidSudoku.java[Java]
-//|Medium
-//
+|36
+|{leetcode_base_url}/valid-sudoku/[Valid Sudoku]
+|{source_base_url}/ValidSudoku.java[Java]
+|Medium
+
 //|37
 //|{leetcode_base_url}/sudoku-solver/[Sudoku Solver]
 //|{source_base_url}/SudokuSolver.java[Java]
