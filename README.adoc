@@ -884,11 +884,11 @@
 |{source_base_url}/CombineTwoTables.sql[SQL]
 |Easy
 
-//|176
-//|{leetcode_base_url}/second-highest-salary/[Second Highest Salary]
-//|{source_base_url}/SecondHighestSalary.java[Java]
-//|Easy
-//
+|176
+|{leetcode_base_url}/second-highest-salary/[Second Highest Salary]
+|{source_base_url}/SecondHighestSalary.sql[SQL]
+|Easy
+
 //|177
 //|{leetcode_base_url}/nth-highest-salary/[Nth Highest Salary]
 //|{source_base_url}/NthHighestSalary.java[Java]
