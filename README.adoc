@@ -878,12 +878,12 @@
 //|{leetcode_base_url}/dungeon-game/[Dungeon Game]
 //|{source_base_url}/DungeonGame.java[Java]
 //|Hard
-//
-//|175
-//|{leetcode_base_url}/combine-two-tables/[Combine Two Tables]
-//|{source_base_url}/CombineTwoTables.java[Java]
-//|Easy
-//
+
+|175
+|{leetcode_base_url}/combine-two-tables/[Combine Two Tables]
+|{source_base_url}/CombineTwoTables.sql[SQL]
+|Easy
+
 //|176
 //|{leetcode_base_url}/second-highest-salary/[Second Highest Salary]
 //|{source_base_url}/SecondHighestSalary.java[Java]
