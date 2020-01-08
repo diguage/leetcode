@@ -693,12 +693,12 @@
 //|{leetcode_base_url}/single-number-ii/[Single Number II]
 //|{source_base_url}/SingleNumberIi.java[Java]
 //|Medium
-//
-//|138
-//|{leetcode_base_url}/copy-list-with-random-pointer/[Copy List with Random Pointer]
-//|{source_base_url}/CopyListWithRandomPointer.java[Java]
-//|Medium
-//
+
+|138
+|{leetcode_base_url}/copy-list-with-random-pointer/[Copy List with Random Pointer]
+|{source_base_url}/CopyListWithRandomPointer.java[Java]
+|Medium
+
 //|139
 //|{leetcode_base_url}/word-break/[Word Break]
 //|{source_base_url}/WordBreak.java[Java]

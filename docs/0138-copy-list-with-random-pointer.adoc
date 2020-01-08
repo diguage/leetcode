@@ -2,3 +2,19 @@
 
 https://leetcode.com/problems/copy-list-with-random-pointer/[LeetCode - Copy List with Random Pointer]
 
+video::OvpKeraoxW0[youtube]
+
+image::images/0138-copy-list-with-random-pointer.jpg[]
+
+这个解法非常精妙！
+
+使用 `Map` 的解法也好巧妙啊！
+
+image::images/0138-copy-list-with-random-pointer-example-1.png[]
+
+image::images/0138-copy-list-with-random-pointer-example-2.png[]
+
+image::images/0138-copy-list-with-random-pointer-example-3.png[]
+
+
+
