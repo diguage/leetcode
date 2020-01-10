@@ -1213,12 +1213,12 @@
 //|{leetcode_base_url}/different-ways-to-add-parentheses/[Different Ways to Add Parentheses]
 //|{source_base_url}/DifferentWaysToAddParentheses.java[Java]
 //|Medium
-//
-//|242
-//|{leetcode_base_url}/valid-anagram/[Valid Anagram]
-//|{source_base_url}/ValidAnagram.java[Java]
-//|Easy
-//
+
+|242
+|{leetcode_base_url}/valid-anagram/[Valid Anagram]
+|{source_base_url}/ValidAnagram.java[Java]
+|Easy
+
 //|243
 //|{leetcode_base_url}/shortest-word-distance/[Shortest Word Distance]
 //|{source_base_url}/ShortestWordDistance.java[Java]
