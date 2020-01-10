@@ -1738,12 +1738,12 @@
 //|{leetcode_base_url}/moving-average-from-data-stream/[Moving Average from Data Stream]
 //|{source_base_url}/MovingAverageFromDataStream.java[Java]
 //|Easy
-//
-//|347
-//|{leetcode_base_url}/top-k-frequent-elements/[Top K Frequent Elements]
-//|{source_base_url}/TopKFrequentElements.java[Java]
-//|Medium
-//
+
+|347
+|{leetcode_base_url}/top-k-frequent-elements/[Top K Frequent Elements]
+|{source_base_url}/TopKFrequentElements.java[Java]
+|Medium
+
 //|348
 //|{leetcode_base_url}/design-tic-tac-toe/[Design Tic-Tac-Toe]
 //|{source_base_url}/DesignTicTacToe.java[Java]
