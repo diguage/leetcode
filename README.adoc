@@ -1013,12 +1013,12 @@
 //|{leetcode_base_url}/bitwise-and-of-numbers-range/[Bitwise AND of Numbers Range]
 //|{source_base_url}/BitwiseANDOfNumbersRange.java[Java]
 //|Medium
-//
-//|202
-//|{leetcode_base_url}/happy-number/[Happy Number]
-//|{source_base_url}/HappyNumber.java[Java]
-//|Easy
-//
+
+|202
+|{leetcode_base_url}/happy-number/[Happy Number]
+|{source_base_url}/HappyNumber.java[Java]
+|Easy
+
 //|203
 //|{leetcode_base_url}/remove-linked-list-elements/[Remove Linked List Elements]
 //|{source_base_url}/RemoveLinkedListElements.java[Java]
