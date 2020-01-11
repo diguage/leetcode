@@ -1938,12 +1938,12 @@
 //|{leetcode_base_url}/lexicographical-numbers/[Lexicographical Numbers]
 //|{source_base_url}/LexicographicalNumbers.java[Java]
 //|Medium
-//
-//|387
-//|{leetcode_base_url}/first-unique-character-in-a-string/[First Unique Character in a String]
-//|{source_base_url}/FirstUniqueCharacterInAString.java[Java]
-//|Easy
-//
+
+|387
+|{leetcode_base_url}/first-unique-character-in-a-string/[First Unique Character in a String]
+|{source_base_url}/FirstUniqueCharacterInAString.java[Java]
+|Easy
+
 //|388
 //|{leetcode_base_url}/longest-absolute-file-path/[Longest Absolute File Path]
 //|{source_base_url}/LongestAbsoluteFilePath.java[Java]

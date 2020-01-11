@@ -2,3 +2,4 @@
 
 https://leetcode.com/problems/first-unique-character-in-a-string/[LeetCode - First Unique Character in a String]
 
+还是要善用 `Map` 来统计字符数量！
