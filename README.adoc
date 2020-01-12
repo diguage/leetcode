@@ -803,12 +803,12 @@
 //|{leetcode_base_url}/longest-substring-with-at-most-two-distinct-characters/[Longest Substring with At Most Two Distinct Characters]
 //|{source_base_url}/LongestSubstringWithAtMostTwoDistinctCharacters.java[Java]
 //|Hard
-//
-//|160
-//|{leetcode_base_url}/intersection-of-two-linked-lists/[Intersection of Two Linked Lists]
-//|{source_base_url}/IntersectionOfTwoLinkedLists.java[Java]
-//|Easy
-//
+
+|160
+|{leetcode_base_url}/intersection-of-two-linked-lists/[Intersection of Two Linked Lists]
+|{source_base_url}/IntersectionOfTwoLinkedLists.java[Java]
+|Easy
+
 //|161
 //|{leetcode_base_url}/one-edit-distance/[One Edit Distance]
 //|{source_base_url}/OneEditDistance.java[Java]
