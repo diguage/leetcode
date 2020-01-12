@@ -708,12 +708,12 @@
 //|{leetcode_base_url}/word-break-ii/[Word Break II]
 //|{source_base_url}/WordBreakIi.java[Java]
 //|Hard
-//
-//|141
-//|{leetcode_base_url}/linked-list-cycle/[Linked List Cycle]
-//|{source_base_url}/LinkedListCycle.java[Java]
-//|Easy
-//
+
+|141
+|{leetcode_base_url}/linked-list-cycle/[Linked List Cycle]
+|{source_base_url}/LinkedListCycle.java[Java]
+|Easy
+
 //|142
 //|{leetcode_base_url}/linked-list-cycle-ii/[Linked List Cycle II]
 //|{source_base_url}/LinkedListCycleIi.java[Java]
