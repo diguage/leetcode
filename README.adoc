@@ -833,12 +833,12 @@
 //|{leetcode_base_url}/compare-version-numbers/[Compare Version Numbers]
 //|{source_base_url}/CompareVersionNumbers.java[Java]
 //|Medium
-//
-//|166
-//|{leetcode_base_url}/fraction-to-recurring-decimal/[Fraction to Recurring Decimal]
-//|{source_base_url}/FractionToRecurringDecimal.java[Java]
-//|Medium
-//
+
+|166
+|{leetcode_base_url}/fraction-to-recurring-decimal/[Fraction to Recurring Decimal]
+|{source_base_url}/FractionToRecurringDecimal.java[Java]
+|Medium
+
 //|167
 //|{leetcode_base_url}/two-sum-ii-input-array-is-sorted/[Two Sum II - Input array is sorted]
 //|{source_base_url}/TwoSumIiInputArrayIsSorted.java[Java]
