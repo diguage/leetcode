@@ -1033,12 +1033,12 @@
 //|{leetcode_base_url}/isomorphic-strings/[Isomorphic Strings]
 //|{source_base_url}/IsomorphicStrings.java[Java]
 //|Easy
-//
-//|206
-//|{leetcode_base_url}/reverse-linked-list/[Reverse Linked List]
-//|{source_base_url}/ReverseLinkedList.java[Java]
-//|Easy
-//
+
+|206
+|{leetcode_base_url}/reverse-linked-list/[Reverse Linked List]
+|{source_base_url}/ReverseLinkedList.java[Java]
+|Easy
+
 //|207
 //|{leetcode_base_url}/course-schedule/[Course Schedule]
 //|{source_base_url}/CourseSchedule.java[Java]
