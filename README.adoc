@@ -1643,12 +1643,12 @@
 //|{leetcode_base_url}/count-of-range-sum/[Count of Range Sum]
 //|{source_base_url}/CountOfRangeSum.java[Java]
 //|Hard
-//
-//|328
-//|{leetcode_base_url}/odd-even-linked-list/[Odd Even Linked List]
-//|{source_base_url}/OddEvenLinkedList.java[Java]
-//|Medium
-//
+
+|328
+|{leetcode_base_url}/odd-even-linked-list/[Odd Even Linked List]
+|{source_base_url}/OddEvenLinkedList.java[Java]
+|Medium
+
 //|329
 //|{leetcode_base_url}/longest-increasing-path-in-a-matrix/[Longest Increasing Path in a Matrix]
 //|{source_base_url}/LongestIncreasingPathInAMatrix.java[Java]
