@@ -254,11 +254,11 @@
 |{source_base_url}/GroupAnagrams.java[Java]
 |Medium
 
-//|50
-//|{leetcode_base_url}/powx-n/[Pow(x, n)]
-//|{source_base_url}/PowXN.java[Java]
-//|Medium
-//
+|50
+|{leetcode_base_url}/powx-n/[Pow(x, n)]
+|{source_base_url}/PowXN.java[Java]
+|Medium
+
 //|51
 //|{leetcode_base_url}/n-queens/[N-Queens]
 //|{source_base_url}/NQueens.java[Java]
