@@ -2,3 +2,4 @@
 
 https://leetcode.com/problems/excel-sheet-column-number/[LeetCode - Excel Sheet Column Number]
 
+目前的想法是从右向左计算，可以考虑一下，能否从左向右计算。可以参考： https://leetcode.com/problems/excel-sheet-column-number/discuss/52091/Here-is-my-java-solution[Here is my java solution - LeetCode Discuss]。

@@ -858,12 +858,12 @@
 //|{leetcode_base_url}/two-sum-iii-data-structure-design/[Two Sum III - Data structure design]
 //|{source_base_url}/TwoSumIiiDataStructureDesign.java[Java]
 //|Easy
-//
-//|171
-//|{leetcode_base_url}/excel-sheet-column-number/[Excel Sheet Column Number]
-//|{source_base_url}/ExcelSheetColumnNumber.java[Java]
-//|Easy
-//
+
+|171
+|{leetcode_base_url}/excel-sheet-column-number/[Excel Sheet Column Number]
+|{source_base_url}/ExcelSheetColumnNumber.java[Java]
+|Easy
+
 //|172
 //|{leetcode_base_url}/factorial-trailing-zeroes/[Factorial Trailing Zeroes]
 //|{source_base_url}/FactorialTrailingZeroes.java[Java]
