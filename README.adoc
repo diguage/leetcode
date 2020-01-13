@@ -348,12 +348,12 @@
 //|{leetcode_base_url}/text-justification/[Text Justification]
 //|{source_base_url}/TextJustification.java[Java]
 //|Hard
-//
-//|69
-//|{leetcode_base_url}/sqrtx/[Sqrt(x)]
-//|{source_base_url}/SqrtX.java[Java]
-//|Easy
-//
+
+|69
+|{leetcode_base_url}/sqrtx/[Sqrt(x)]
+|{source_base_url}/SqrtX.java[Java]
+|Easy
+
 //|70
 //|{leetcode_base_url}/climbing-stairs/[Climbing Stairs]
 //|{source_base_url}/ClimbingStairs.java[Java]

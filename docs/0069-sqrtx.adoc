@@ -2,3 +2,4 @@
 
 https://leetcode.com/problems/sqrtx/[LeetCode - Sqrt(x)]
 
+明知使用的是二分查找，竟然没有写出来！！
