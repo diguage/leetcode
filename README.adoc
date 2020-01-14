@@ -149,11 +149,11 @@
 |{source_base_url}/ImplementStrStr.java[Java]
 |Easy
 
-//|29
-//|{leetcode_base_url}/divide-two-integers/[Divide Two Integers]
-//|{source_base_url}/DivideTwoIntegers.java[Java]
-//|Medium
-//
+|29
+|{leetcode_base_url}/divide-two-integers/[Divide Two Integers]
+|{source_base_url}/DivideTwoIntegers.java[Java]
+|Medium
+
 //|30
 //|{leetcode_base_url}/substring-with-concatenation-of-all-words/[Substring with Concatenation of All Words]
 //|{source_base_url}/SubstringWithConcatenationOfAllWords.java[Java]
