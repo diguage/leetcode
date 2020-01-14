@@ -864,11 +864,11 @@
 |{source_base_url}/ExcelSheetColumnNumber.java[Java]
 |Easy
 
-//|172
-//|{leetcode_base_url}/factorial-trailing-zeroes/[Factorial Trailing Zeroes]
-//|{source_base_url}/FactorialTrailingZeroes.java[Java]
-//|Easy
-//
+|172
+|{leetcode_base_url}/factorial-trailing-zeroes/[Factorial Trailing Zeroes]
+|{source_base_url}/FactorialTrailingZeroes.java[Java]
+|Easy
+
 //|173
 //|{leetcode_base_url}/binary-search-tree-iterator/[Binary Search Tree Iterator]
 //|{source_base_url}/BinarySearchTreeIterator.java[Java]
