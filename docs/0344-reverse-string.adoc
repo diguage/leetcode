@@ -2,3 +2,4 @@
 
 https://leetcode.com/problems/reverse-string/[LeetCode - Reverse String]
 
+这个跟 https://leetcode.com/problems/valid-palindrome/[Valid Palindrome - LeetCode] 的思路类似，都是"左右夹击"。

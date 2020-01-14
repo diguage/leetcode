@@ -1723,12 +1723,12 @@
 //|{leetcode_base_url}/integer-break/[Integer Break]
 //|{source_base_url}/IntegerBreak.java[Java]
 //|Medium
-//
-//|344
-//|{leetcode_base_url}/reverse-string/[Reverse String]
-//|{source_base_url}/ReverseString.java[Java]
-//|Easy
-//
+
+|344
+|{leetcode_base_url}/reverse-string/[Reverse String]
+|{source_base_url}/ReverseString.java[Java]
+|Easy
+
 //|345
 //|{leetcode_base_url}/reverse-vowels-of-a-string/[Reverse Vowels of a String]
 //|{source_base_url}/ReverseVowelsOfAString.java[Java]
