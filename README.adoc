@@ -628,12 +628,12 @@
 //|{leetcode_base_url}/binary-tree-maximum-path-sum/[Binary Tree Maximum Path Sum]
 //|{source_base_url}/BinaryTreeMaximumPathSum.java[Java]
 //|Hard
-//
-//|125
-//|{leetcode_base_url}/valid-palindrome/[Valid Palindrome]
-//|{source_base_url}/ValidPalindrome.java[Java]
-//|Easy
-//
+
+|125
+|{leetcode_base_url}/valid-palindrome/[Valid Palindrome]
+|{source_base_url}/ValidPalindrome.java[Java]
+|Easy
+
 //|126
 //|{leetcode_base_url}/word-ladder-ii/[Word Ladder II]
 //|{source_base_url}/WordLadderIi.java[Java]
