@@ -2,3 +2,6 @@
 
 https://leetcode.com/problems/power-of-three/[LeetCode - Power of Three]
 
+发现一个很奇怪的问题：如果通过计算相乘来判断，则会超时；如果通过相除来判断，则能顺利通过。感觉计算量是一样的啊？为什会有这么大的差距啊？
+
+利用对数计算也不失为一个很好的办法！
