@@ -954,11 +954,11 @@
 |{source_base_url}/RotateArray.java[Java]
 |Easy
 
-//|190
-//|{leetcode_base_url}/reverse-bits/[Reverse Bits]
-//|{source_base_url}/ReverseBits.java[Java]
-//|Easy
-//
+|190
+|{leetcode_base_url}/reverse-bits/[Reverse Bits]
+|{source_base_url}/ReverseBits.java[Java]
+|Easy
+
 //|191
 //|{leetcode_base_url}/number-of-1-bits/[Number of 1 Bits]
 //|{source_base_url}/NumberOf1Bits.java[Java]
