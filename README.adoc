@@ -29,10 +29,10 @@
 |{source_base_url}/MedianOfTwoSortedArrays.java[Java]
 |Hard
 
-//|5
-//|{leetcode_base_url}/longest-palindromic-substring/[Longest Palindromic Substring]
-//|{source_base_url}/LongestPalindromicSubstring.java[Java]
-//|Medium
+|5
+|{leetcode_base_url}/longest-palindromic-substring/[Longest Palindromic Substring]
+|{source_base_url}/LongestPalindromicSubstring.java[Java]
+|Medium
 
 |6
 |{leetcode_base_url}/zigzag-conversion/[ZigZag Conversion]
