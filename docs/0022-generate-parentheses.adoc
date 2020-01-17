@@ -2,3 +2,4 @@
 
 https://leetcode.com/problems/generate-parentheses/[LeetCode - Generate Parentheses]
 
+使用回溯法解题时，需要关注的一个点是，**在递归调用时，为了保证结果是有效的括号对，则添加的闭区间符号不能多于开区间符号。**并不是所有的排列组合都符合我们的需求。

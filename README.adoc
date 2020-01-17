@@ -114,10 +114,10 @@
 |{source_base_url}/MergeTwoSortedLists.java[Java]
 |Easy
 
-//|22
-//|{leetcode_base_url}/generate-parentheses/[Generate Parentheses]
-//|{source_base_url}/GenerateParentheses.java[Java]
-//|Medium
+|22
+|{leetcode_base_url}/generate-parentheses/[Generate Parentheses]
+|{source_base_url}/GenerateParentheses.java[Java]
+|Medium
 
 |23
 |{leetcode_base_url}/merge-k-sorted-lists/[Merge k Sorted Lists]
