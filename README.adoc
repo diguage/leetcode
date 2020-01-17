@@ -193,12 +193,12 @@
 //|{leetcode_base_url}/sudoku-solver/[Sudoku Solver]
 //|{source_base_url}/SudokuSolver.java[Java]
 //|Hard
-//
-//|38
-//|{leetcode_base_url}/count-and-say/[Count and Say]
-//|{source_base_url}/CountAndSay.java[Java]
-//|Easy
-//
+
+|38
+|{leetcode_base_url}/count-and-say/[Count and Say]
+|{source_base_url}/CountAndSay.java[Java]
+|Easy
+
 //|39
 //|{leetcode_base_url}/combination-sum/[Combination Sum]
 //|{source_base_url}/CombinationSum.java[Java]
