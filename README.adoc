@@ -1138,12 +1138,12 @@
 //|{leetcode_base_url}/invert-binary-tree/[Invert Binary Tree]
 //|{source_base_url}/InvertBinaryTree.java[Java]
 //|Easy
-//
-//|227
-//|{leetcode_base_url}/basic-calculator-ii/[Basic Calculator II]
-//|{source_base_url}/BasicCalculatorIi.java[Java]
-//|Medium
-//
+
+|227
+|{leetcode_base_url}/basic-calculator-ii/[Basic Calculator II]
+|{source_base_url}/BasicCalculatorIi.java[Java]
+|Medium
+
 //|228
 //|{leetcode_base_url}/summary-ranges/[Summary Ranges]
 //|{source_base_url}/SummaryRanges.java[Java]
