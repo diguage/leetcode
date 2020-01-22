@@ -1153,12 +1153,12 @@
 //|{leetcode_base_url}/majority-element-ii/[Majority Element II]
 //|{source_base_url}/MajorityElementIi.java[Java]
 //|Medium
-//
-//|230
-//|{leetcode_base_url}/kth-smallest-element-in-a-bst/[Kth Smallest Element in a BST]
-//|{source_base_url}/KthSmallestElementInABst.java[Java]
-//|Medium
-//
+
+|230
+|{leetcode_base_url}/kth-smallest-element-in-a-bst/[Kth Smallest Element in a BST]
+|{source_base_url}/KthSmallestElementInABst.java[Java]
+|Medium
+
 //|231
 //|{leetcode_base_url}/power-of-two/[Power of Two]
 //|{source_base_url}/PowerOfTwo.java[Java]
