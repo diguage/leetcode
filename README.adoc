@@ -355,7 +355,7 @@
 |Easy
 
 |70
-|{leetcode_base_url}/climbing-stairs/[Climbing Stairs]
+|{leetcodhousee_base_url}/climbing-stairs/[Climbing Stairs]
 |{source_base_url}/ClimbingStairs.java[Java]
 |Easy
 
@@ -993,12 +993,12 @@
 //|{leetcode_base_url}/rising-temperature/[Rising Temperature]
 //|{source_base_url}/RisingTemperature.java[Java]
 //|Easy
-//
-//|198
-//|{leetcode_base_url}/house-robber/[House Robber]
-//|{source_base_url}/HouseRobber.java[Java]
-//|Easy
-//
+
+|198
+|{leetcode_base_url}/house-robber/[House Robber]
+|{source_base_url}/HouseRobber.java[Java]
+|Easy
+
 //|199
 //|{leetcode_base_url}/binary-tree-right-side-view/[Binary Tree Right Side View]
 //|{source_base_url}/BinaryTreeRightSideView.java[Java]
