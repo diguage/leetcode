@@ -354,11 +354,11 @@
 |{source_base_url}/SqrtX.java[Java]
 |Easy
 
-//|70
-//|{leetcode_base_url}/climbing-stairs/[Climbing Stairs]
-//|{source_base_url}/ClimbingStairs.java[Java]
-//|Easy
-//
+|70
+|{leetcode_base_url}/climbing-stairs/[Climbing Stairs]
+|{source_base_url}/ClimbingStairs.java[Java]
+|Easy
+
 //|71
 //|{leetcode_base_url}/simplify-path/[Simplify Path]
 //|{source_base_url}/SimplifyPath.java[Java]
