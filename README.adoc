@@ -1503,12 +1503,12 @@
 //|{leetcode_base_url}/bulls-and-cows/[Bulls and Cows]
 //|{source_base_url}/BullsAndCows.java[Java]
 //|Medium
-//
-//|300
-//|{leetcode_base_url}/longest-increasing-subsequence/[Longest Increasing Subsequence]
-//|{source_base_url}/LongestIncreasingSubsequence.java[Java]
-//|Medium
-//
+
+|300
+|{leetcode_base_url}/longest-increasing-subsequence/[Longest Increasing Subsequence]
+|{source_base_url}/LongestIncreasingSubsequence.java[Java]
+|Medium
+
 //|301
 //|{leetcode_base_url}/remove-invalid-parentheses/[Remove Invalid Parentheses]
 //|{source_base_url}/RemoveInvalidParentheses.java[Java]

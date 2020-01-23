@@ -2,3 +2,4 @@
 
 https://leetcode.com/problems/longest-increasing-subsequence/[LeetCode - Longest Increasing Subsequence]
 
+动态规划+二分查找的算法还需要再仔细研究一下。还是有些懵逼！
