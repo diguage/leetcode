@@ -1893,12 +1893,12 @@
 //|{leetcode_base_url}/combination-sum-iv/[Combination Sum IV]
 //|{source_base_url}/CombinationSumIv.java[Java]
 //|Medium
-//
-//|378
-//|{leetcode_base_url}/kth-smallest-element-in-a-sorted-matrix/[Kth Smallest Element in a Sorted Matrix]
-//|{source_base_url}/KthSmallestElementInASortedMatrix.java[Java]
-//|Medium
-//
+
+|378
+|{leetcode_base_url}/kth-smallest-element-in-a-sorted-matrix/[Kth Smallest Element in a Sorted Matrix]
+|{source_base_url}/KthSmallestElementInASortedMatrix.java[Java]
+|Medium
+
 //|379
 //|{leetcode_base_url}/design-phone-directory/[Design Phone Directory]
 //|{source_base_url}/DesignPhoneDirectory.java[Java]

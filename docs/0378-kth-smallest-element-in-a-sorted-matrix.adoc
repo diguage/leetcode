@@ -2,3 +2,4 @@
 
 https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/[LeetCode - Kth Smallest Element in a Sorted Matrix]
 
+这里还是要注意一下：从右上角向左移，从上向下移，可以减少比较次数。
