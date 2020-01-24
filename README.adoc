@@ -543,12 +543,12 @@
 //|{leetcode_base_url}/binary-tree-level-order-traversal-ii/[Binary Tree Level Order Traversal II]
 //|{source_base_url}/BinaryTreeLevelOrderTraversalIi.java[Java]
 //|Easy
-//
-//|108
-//|{leetcode_base_url}/convert-sorted-array-to-binary-search-tree/[Convert Sorted Array to Binary Search Tree]
-//|{source_base_url}/ConvertSortedArrayToBinarySearchTree.java[Java]
-//|Easy
-//
+
+|108
+|{leetcode_base_url}/convert-sorted-array-to-binary-search-tree/[Convert Sorted Array to Binary Search Tree]
+|{source_base_url}/ConvertSortedArrayToBinarySearchTree.java[Java]
+|Easy
+
 //|109
 //|{leetcode_base_url}/convert-sorted-list-to-binary-search-tree/[Convert Sorted List to Binary Search Tree]
 //|{source_base_url}/ConvertSortedListToBinarySearchTree.java[Java]
