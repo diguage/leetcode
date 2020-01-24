@@ -524,10 +524,10 @@
 |{source_base_url}/BinaryTreeZigzagLevelOrderTraversal.java[Java]
 |Medium
 
-//|104
-//|{leetcode_base_url}/maximum-depth-of-binary-tree/[Maximum Depth of Binary Tree]
-//|{source_base_url}/MaximumDepthOfBinaryTree.java[Java]
-//|Easy
+|104
+|{leetcode_base_url}/maximum-depth-of-binary-tree/[Maximum Depth of Binary Tree]
+|{source_base_url}/MaximumDepthOfBinaryTree.java[Java]
+|Easy
 
 |105
 |{leetcode_base_url}/construct-binary-tree-from-preorder-and-inorder-traversal/[Construct Binary Tree from Preorder and Inorder Traversal]
