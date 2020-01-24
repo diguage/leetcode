@@ -2,3 +2,8 @@
 
 https://leetcode.com/problems/validate-binary-search-tree/[LeetCode - Validate Binary Search Tree]
 
+image::images/0098-1.png[]
+
+image::images/0098-2.png[]
+
+思路很简单，利用搜索二叉树的定义，界定好树的上下界，然后递归比较就好。

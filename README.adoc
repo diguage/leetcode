@@ -493,12 +493,12 @@
 //|{leetcode_base_url}/interleaving-string/[Interleaving String]
 //|{source_base_url}/InterleavingString.java[Java]
 //|Hard
-//
-//|98
-//|{leetcode_base_url}/validate-binary-search-tree/[Validate Binary Search Tree]
-//|{source_base_url}/ValidateBinarySearchTree.java[Java]
-//|Medium
-//
+
+|98
+|{leetcode_base_url}/validate-binary-search-tree/[Validate Binary Search Tree]
+|{source_base_url}/ValidateBinarySearchTree.java[Java]
+|Medium
+
 //|99
 //|{leetcode_base_url}/recover-binary-search-tree/[Recover Binary Search Tree]
 //|{source_base_url}/RecoverBinarySearchTree.java[Java]
