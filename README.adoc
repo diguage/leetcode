@@ -583,12 +583,12 @@
 //|{leetcode_base_url}/distinct-subsequences/[Distinct Subsequences]
 //|{source_base_url}/DistinctSubsequences.java[Java]
 //|Hard
-//
-//|116
-//|{leetcode_base_url}/populating-next-right-pointers-in-each-node/[Populating Next Right Pointers in Each Node]
-//|{source_base_url}/PopulatingNextRightPointersInEachNode.java[Java]
-//|Medium
-//
+
+|116
+|{leetcode_base_url}/populating-next-right-pointers-in-each-node/[Populating Next Right Pointers in Each Node]
+|{source_base_url}/PopulatingNextRightPointersInEachNode.java[Java]
+|Medium
+
 //|117
 //|{leetcode_base_url}/populating-next-right-pointers-in-each-node-ii/[Populating Next Right Pointers in Each Node II]
 //|{source_base_url}/PopulatingNextRightPointersInEachNodeIi.java[Java]
