@@ -4,4 +4,4 @@ https://leetcode.com/problems/search-a-2d-matrix-ii/[LeetCode - Search a 2D Matr
 
 从右上角开始搜索，小则下移，大则左移，这个方案真是精妙！
 
-image:images/240-1.jpg[]
+image:images/0240-1.jpg[]

@@ -4,10 +4,10 @@ https://leetcode.com/problems/kth-smallest-element-in-a-bst/[LeetCode - Kth Smal
 
 TODO: 树的非递归遍历还需要多加推敲，加强理解。
 
-image::images/230-1.png[]
+image::images/0230-1.png[]
 
-image::images/230-2.png[]
+image::images/0230-2.png[]
 
-image::images/230-3.png[]
+image::images/0230-3.png[]
 
-image::images/230-4.png[]
+image::images/0230-4.png[]

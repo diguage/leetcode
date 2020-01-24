@@ -6,8 +6,8 @@ https://leetcode.com/problems/delete-node-in-a-linked-list/[LeetCode - Delete No
 
 没想到打脸如此之快！还有更简单的办法，两行代码搞定：①把下一个节点的值拷贝到当前节点；②把当前节点的下一节点指向下下一个节点即可。
 
-image::images/237-0.png[]
+image::images/0237-0.png[]
 
-image::images/237-1.png[]
+image::images/0237-1.png[]
 
-image::images/237-2.png[]
+image::images/0237-2.png[]

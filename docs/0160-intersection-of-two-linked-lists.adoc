@@ -2,9 +2,12 @@
 
 https://leetcode.com/problems/intersection-of-two-linked-lists/[LeetCode - Intersection of Two Linked Lists]
 
-image::images/160-1.png[]
-image::images/160-2.png[]
-image::images/160-3.png[]
-image::images/160-4.png[]
+image::images/0160-1.png[]
+
+image::images/0160-2.png[]
+
+image::images/0160-3.png[]
+0
+image::images/0160-4.png[]
 
 没想到竟然可以将两个链表"相加"就可以得出正确结果：两个"相加"，正好两个长度相等，最后部分就是重叠部分，双指针完美搞定！
