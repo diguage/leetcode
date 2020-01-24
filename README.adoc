@@ -234,11 +234,11 @@
 |{source_base_url}/JumpGameIi.java[Java]
 |Hard
 
-//|46
-//|{leetcode_base_url}/permutations/[Permutations]
-//|{source_base_url}/Permutations.java[Java]
-//|Medium
-//
+|46
+|{leetcode_base_url}/permutations/[Permutations]
+|{source_base_url}/Permutations.java[Java]
+|Medium
+
 //|47
 //|{leetcode_base_url}/permutations-ii/[Permutations II]
 //|{source_base_url}/PermutationsIi.java[Java]
