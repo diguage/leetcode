@@ -514,11 +514,11 @@
 |{source_base_url}/SymmetricTree.java[Java]
 |Easy
 
-//|102
-//|{leetcode_base_url}/binary-tree-level-order-traversal/[Binary Tree Level Order Traversal]
-//|{source_base_url}/BinaryTreeLevelOrderTraversal.java[Java]
-//|Medium
-//
+|102
+|{leetcode_base_url}/binary-tree-level-order-traversal/[Binary Tree Level Order Traversal]
+|{source_base_url}/BinaryTreeLevelOrderTraversal.java[Java]
+|Medium
+
 //|103
 //|{leetcode_base_url}/binary-tree-zigzag-level-order-traversal/[Binary Tree Zigzag Level Order Traversal]
 //|{source_base_url}/BinaryTreeZigzagLevelOrderTraversal.java[Java]
