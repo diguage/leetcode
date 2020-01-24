@@ -2,3 +2,4 @@
 
 https://leetcode.com/problems/perfect-squares/[LeetCode - Perfect Squares]
 
+当前节点最小的值为当前值减去一个平方对应数字的值再加一，再众多选项中的最小值。

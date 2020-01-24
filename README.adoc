@@ -1398,12 +1398,12 @@
 //|{leetcode_base_url}/first-bad-version/[First Bad Version]
 //|{source_base_url}/FirstBadVersion.java[Java]
 //|Easy
-//
-//|279
-//|{leetcode_base_url}/perfect-squares/[Perfect Squares]
-//|{source_base_url}/PerfectSquares.java[Java]
-//|Medium
-//
+
+|279
+|{leetcode_base_url}/perfect-squares/[Perfect Squares]
+|{source_base_url}/PerfectSquares.java[Java]
+|Medium
+
 //|280
 //|{leetcode_base_url}/wiggle-sort/[Wiggle Sort]
 //|{source_base_url}/WiggleSort.java[Java]
