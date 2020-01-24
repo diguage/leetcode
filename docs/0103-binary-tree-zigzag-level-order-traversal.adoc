@@ -2,3 +2,4 @@
 
 https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/[LeetCode - Binary Tree Zigzag Level Order Traversal]
 
+思考题：思考一下如何使用深度优先来解决这个问题？

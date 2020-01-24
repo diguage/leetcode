@@ -519,11 +519,11 @@
 |{source_base_url}/BinaryTreeLevelOrderTraversal.java[Java]
 |Medium
 
-//|103
-//|{leetcode_base_url}/binary-tree-zigzag-level-order-traversal/[Binary Tree Zigzag Level Order Traversal]
-//|{source_base_url}/BinaryTreeZigzagLevelOrderTraversal.java[Java]
-//|Medium
-//
+|103
+|{leetcode_base_url}/binary-tree-zigzag-level-order-traversal/[Binary Tree Zigzag Level Order Traversal]
+|{source_base_url}/BinaryTreeZigzagLevelOrderTraversal.java[Java]
+|Medium
+
 //|104
 //|{leetcode_base_url}/maximum-depth-of-binary-tree/[Maximum Depth of Binary Tree]
 //|{source_base_url}/MaximumDepthOfBinaryTree.java[Java]
