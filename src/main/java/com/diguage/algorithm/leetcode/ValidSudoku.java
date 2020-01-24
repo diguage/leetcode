@@ -19,7 +19,9 @@ import java.util.Set;
  *
  * ----
  *
- * .Example 2:
+ * .Example 1:
+ * [source]
+ * ----
  * Input:
  * [
  *   ["5","3",".",".","7",".",".",".","."],
@@ -36,6 +38,8 @@ import java.util.Set;
  * ----
  *
  * .Example 2:
+ * [source]
+ * ----
  * Input:
  * [
  *   ["8","3",".",".","7",".",".",".","."],

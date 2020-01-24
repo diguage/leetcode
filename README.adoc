@@ -699,11 +699,11 @@
 |{source_base_url}/CopyListWithRandomPointer.java[Java]
 |Medium
 
-//|139
-//|{leetcode_base_url}/word-break/[Word Break]
-//|{source_base_url}/WordBreak.java[Java]
-//|Medium
-//
+|139
+|{leetcode_base_url}/word-break/[Word Break]
+|{source_base_url}/WordBreak.java[Java]
+|Medium
+
 //|140
 //|{leetcode_base_url}/word-break-ii/[Word Break II]
 //|{source_base_url}/WordBreakIi.java[Java]
