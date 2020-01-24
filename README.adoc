@@ -778,12 +778,12 @@
 //|{leetcode_base_url}/find-minimum-in-rotated-sorted-array-ii/[Find Minimum in Rotated Sorted Array II]
 //|{source_base_url}/FindMinimumInRotatedSortedArrayIi.java[Java]
 //|Hard
-//
-//|155
-//|{leetcode_base_url}/min-stack/[Min Stack]
-//|{source_base_url}/MinStack.java[Java]
-//|Easy
-//
+
+|155
+|{leetcode_base_url}/min-stack/[Min Stack]
+|{source_base_url}/MinStack.java[Java]
+|Easy
+
 //|156
 //|{leetcode_base_url}/binary-tree-upside-down/[Binary Tree Upside Down]
 //|{source_base_url}/BinaryTreeUpsideDown.java[Java]

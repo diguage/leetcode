@@ -2,3 +2,6 @@
 
 https://leetcode.com/problems/min-stack/[LeetCode - Min Stack]
 
+这道题解法还挺多。只使用一个栈的方案，还需要再思考思考。
+
+TODO
