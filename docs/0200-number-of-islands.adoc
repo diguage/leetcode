@@ -2,3 +2,8 @@
 
 https://leetcode.com/problems/number-of-islands/[LeetCode - Number of Islands]
 
+思考题：看题解可以使用 UnionFind 来解决这个问题。可以思考一下，如何实现？
+
+这道题与 link:0130-surrounded-regions.adoc[] 类似。
+
+https://leetcode.com/problems/surrounded-regions/[LeetCode - Surrounded Regions]

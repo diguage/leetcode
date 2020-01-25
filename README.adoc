@@ -1003,12 +1003,12 @@
 //|{leetcode_base_url}/binary-tree-right-side-view/[Binary Tree Right Side View]
 //|{source_base_url}/BinaryTreeRightSideView.java[Java]
 //|Medium
-//
-//|200
-//|{leetcode_base_url}/number-of-islands/[Number of Islands]
-//|{source_base_url}/NumberOfIslands.java[Java]
-//|Medium
-//
+
+|200
+|{leetcode_base_url}/number-of-islands/[Number of Islands]
+|{source_base_url}/NumberOfIslands.java[Java]
+|Medium
+
 //|201
 //|{leetcode_base_url}/bitwise-and-of-numbers-range/[Bitwise AND of Numbers Range]
 //|{source_base_url}/BitwiseANDOfNumbersRange.java[Java]
