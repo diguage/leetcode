@@ -638,12 +638,12 @@
 //|{leetcode_base_url}/word-ladder-ii/[Word Ladder II]
 //|{source_base_url}/WordLadderIi.java[Java]
 //|Hard
-//
-//|127
-//|{leetcode_base_url}/word-ladder/[Word Ladder]
-//|{source_base_url}/WordLadder.java[Java]
-//|Medium
-//
+
+|127
+|{leetcode_base_url}/word-ladder/[Word Ladder]
+|{source_base_url}/WordLadder.java[Java]
+|Medium
+
 //|128
 //|{leetcode_base_url}/longest-consecutive-sequence/[Longest Consecutive Sequence]
 //|{source_base_url}/LongestConsecutiveSequence.java[Java]

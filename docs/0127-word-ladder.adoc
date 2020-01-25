@@ -2,3 +2,8 @@
 
 https://leetcode.com/problems/word-ladder/[LeetCode - Word Ladder]
 
+通过 https://leetcode.com/problems/word-ladder/solution/[Word Ladder - LeetCode] 讲解，竟然可以抽象成无向无权图，然后通过 `Queue` 将其串联起来，实在好精巧。
+
+image::images/0127-1.png[]
+
+image::images/0127-2.png[]
