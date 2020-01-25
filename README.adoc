@@ -1858,12 +1858,12 @@
 //|{leetcode_base_url}/range-addition/[Range Addition]
 //|{source_base_url}/RangeAddition.java[Java]
 //|Medium
-//
-//|371
-//|{leetcode_base_url}/sum-of-two-integers/[Sum of Two Integers]
-//|{source_base_url}/SumOfTwoIntegers.java[Java]
-//|Easy
-//
+
+|371
+|{leetcode_base_url}/sum-of-two-integers/[Sum of Two Integers]
+|{source_base_url}/SumOfTwoIntegers.java[Java]
+|Easy
+
 //|372
 //|{leetcode_base_url}/super-pow/[Super Pow]
 //|{source_base_url}/SuperPow.java[Java]

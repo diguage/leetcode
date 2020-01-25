@@ -2,3 +2,14 @@
 
 https://leetcode.com/problems/sum-of-two-integers/[LeetCode - Sum of Two Integers]
 
+这道题的关键有几点：
+
+. 通过异或操作获取在不进位的情况下，各位的值；
+. 通过相与加移位来来获取各个进位项；
+. 重复上面的操作，直到进位项为 0 为止。
+
+思考题：思考如何通过位运算来实现加减乘除？
+
+=== 参考资料
+
+. https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary%3A-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently[A summary: how to use bit manipulation to solve problems easily and efficiently - LeetCode Discuss]
