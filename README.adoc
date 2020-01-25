@@ -898,12 +898,12 @@
 //|{leetcode_base_url}/rank-scores/[Rank Scores]
 //|{source_base_url}/RankScores.java[Java]
 //|Medium
-//
-//|179
-//|{leetcode_base_url}/largest-number/[Largest Number]
-//|{source_base_url}/LargestNumber.java[Java]
-//|Medium
-//
+
+|179
+|{leetcode_base_url}/largest-number/[Largest Number]
+|{source_base_url}/LargestNumber.java[Java]
+|Medium
+
 //|180
 //|{leetcode_base_url}/consecutive-numbers/[Consecutive Numbers]
 //|{source_base_url}/ConsecutiveNumbers.java[Java]
