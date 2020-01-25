@@ -2,3 +2,13 @@
 
 https://leetcode.com/problems/gas-station/[LeetCode - Gas Station]
 
+image::images/0134-1.png[]
+
+image::images/0134-2.png[]
+
+image::images/0134-3.png[]
+
+这道题首先要明白题意是什么？最关键是有几点：
+
+. 总的油量是否够消耗？
+. 首次发车的车站是否够行驶到下一个车站？
