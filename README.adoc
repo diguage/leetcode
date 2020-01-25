@@ -959,11 +959,11 @@
 |{source_base_url}/ReverseBits.java[Java]
 |Easy
 
-//|191
-//|{leetcode_base_url}/number-of-1-bits/[Number of 1 Bits]
-//|{source_base_url}/NumberOf1Bits.java[Java]
-//|Easy
-//
+|191
+|{leetcode_base_url}/number-of-1-bits/[Number of 1 Bits]
+|{source_base_url}/NumberOf1Bits.java[Java]
+|Easy
+
 //|192
 //|{leetcode_base_url}/word-frequency/[Word Frequency]
 //|{source_base_url}/WordFrequency.java[Java]

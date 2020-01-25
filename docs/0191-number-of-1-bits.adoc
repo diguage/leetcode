@@ -2,3 +2,7 @@
 
 https://leetcode.com/problems/number-of-1-bits/[LeetCode - Number of 1 Bits]
 
+image::images/0191-1.png[]
+
+减法解法让人开眼界。但是有一个疑问：它的效率就一定高吗？
+
