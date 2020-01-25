@@ -2,3 +2,6 @@
 
 https://leetcode.com/problems/surrounded-regions/[LeetCode - Surrounded Regions]
 
+这道题的关键点在于找到入口。对我们来说，入口就是边界的的 `O`，然后与之相连的 `O`，其他的 `O` 都会被替换为 `X`。为了区别对待，可以把识别出来的 `O` 替换为其他的字符，比如 `#`。这样后期再遍历处理即可。
+
+思考题：看题解可以使用 UnionFind 来解决这个问题。可以思考一下，如何实现？

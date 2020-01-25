@@ -653,11 +653,11 @@
 //|{leetcode_base_url}/sum-root-to-leaf-numbers/[Sum Root to Leaf Numbers]
 //|{source_base_url}/SumRootToLeafNumbers.java[Java]
 //|Medium
-//
-//|130
-//|{leetcode_base_url}/surrounded-regions/[Surrounded Regions]
-//|{source_base_url}/SurroundedRegions.java[Java]
-//|Medium
+
+|130
+|{leetcode_base_url}/surrounded-regions/[Surrounded Regions]
+|{source_base_url}/SurroundedRegions.java[Java]
+|Medium
 
 |131
 |{leetcode_base_url}/palindrome-partitioning/[Palindrome Partitioning]
