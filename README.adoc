@@ -1039,11 +1039,11 @@
 |{source_base_url}/ReverseLinkedList.java[Java]
 |Easy
 
-//|207
-//|{leetcode_base_url}/course-schedule/[Course Schedule]
-//|{source_base_url}/CourseSchedule.java[Java]
-//|Medium
-//
+|207
+|{leetcode_base_url}/course-schedule/[Course Schedule]
+|{source_base_url}/CourseSchedule.java[Java]
+|Medium
+
 //|208
 //|{leetcode_base_url}/implement-trie-prefix-tree/[Implement Trie (Prefix Tree)]
 //|{source_base_url}/ImplementTriePrefixTree.java[Java]

@@ -2,3 +2,15 @@
 
 https://leetcode.com/problems/course-schedule/[LeetCode - Course Schedule]
 
+TODO: 研究一下图相关算法和拓扑排序。
+
+拓扑排序通常用来“排序”具有依赖关系的任务。
+
+拓扑排序出来的结果是应该不是有序（升序或降序）。只是一个前后顺序。
+
+思考题：参考资料中提到，表示图可以使用"邻接矩阵"和"邻接表"。尝试使用邻接表来重新实现。
+
+=== 参考资料
+
+. http://songlee24.github.io/2015/05/07/topological-sorting/[拓扑排序（Topological Sorting） | 神奕的博客]
+. https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs[Representing graphs (article) | Algorithms | Khan Academy]
