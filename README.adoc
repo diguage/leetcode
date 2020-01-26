@@ -1183,11 +1183,11 @@
 //|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-search-tree/[Lowest Common Ancestor of a Binary Search Tree]
 //|{source_base_url}/LowestCommonAncestorOfABinarySearchTree.java[Java]
 //|Easy
-//
-//|236
-//|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree/[Lowest Common Ancestor of a Binary Tree]
-//|{source_base_url}/LowestCommonAncestorOfABinaryTree.java[Java]
-//|Medium
+
+|236
+|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree/[Lowest Common Ancestor of a Binary Tree]
+|{source_base_url}/LowestCommonAncestorOfABinaryTree.java[Java]
+|Medium
 
 |237
 |{leetcode_base_url}/delete-node-in-a-linked-list/[Delete Node in a Linked List]

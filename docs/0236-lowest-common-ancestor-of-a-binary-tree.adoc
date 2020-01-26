@@ -2,3 +2,12 @@
 
 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/[LeetCode - Lowest Common Ancestor of a Binary Tree]
 
+image::images/0236-1.png[]
+
+D瓜哥的思路：先找出一条从根节点到某个节点的路径；然后从这条路径上以此去寻找另外一个节点。找到这返回此节点。
+
+思考题：如何按照"路径"的思路实现一遍？
+
+=== 参考资料
+
+. https://en.wikipedia.org/wiki/Lowest_common_ancestor[Lowest common ancestor - Wikipedia]
