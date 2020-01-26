@@ -1078,12 +1078,12 @@
 //|{leetcode_base_url}/shortest-palindrome/[Shortest Palindrome]
 //|{source_base_url}/ShortestPalindrome.java[Java]
 //|Hard
-//
-//|215
-//|{leetcode_base_url}/kth-largest-element-in-an-array/[Kth Largest Element in an Array]
-//|{source_base_url}/KthLargestElementInAnArray.java[Java]
-//|Medium
-//
+
+|215
+|{leetcode_base_url}/kth-largest-element-in-an-array/[Kth Largest Element in an Array]
+|{source_base_url}/KthLargestElementInAnArray.java[Java]
+|Medium
+
 //|216
 //|{leetcode_base_url}/combination-sum-iii/[Combination Sum III]
 //|{source_base_url}/CombinationSumIii.java[Java]

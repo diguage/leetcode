@@ -2,3 +2,10 @@
 
 https://leetcode.com/problems/kth-largest-element-in-an-array/[LeetCode - Kth Largest Element in an Array]
 
+没想到竟然可以使用快排的套路来解决这个问题。
+
+image::images/0215-1.gif[]
+
+=== 参考资料
+
+. https://en.wikipedia.org/wiki/Quickselect[Quickselect - Wikipedia]
