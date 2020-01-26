@@ -2063,12 +2063,12 @@
 //|{leetcode_base_url}/minimum-unique-word-abbreviation/[Minimum Unique Word Abbreviation]
 //|{source_base_url}/MinimumUniqueWordAbbreviation.java[Java]
 //|Hard
-//
-//|412
-//|{leetcode_base_url}/fizz-buzz/[Fizz Buzz]
-//|{source_base_url}/FizzBuzz.java[Java]
-//|Easy
-//
+
+|412
+|{leetcode_base_url}/fizz-buzz/[Fizz Buzz]
+|{source_base_url}/FizzBuzz.java[Java]
+|Easy
+
 //|413
 //|{leetcode_base_url}/arithmetic-slices/[Arithmetic Slices]
 //|{source_base_url}/ArithmeticSlices.java[Java]
