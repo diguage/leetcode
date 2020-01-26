@@ -2,3 +2,9 @@
 
 https://leetcode.com/problems/coin-change/[LeetCode - Coin Change]
 
+image::images/0322-1.png[]
+
+思考题：
+
+. 如何把动态规划代码写得更简洁一些？
+. 如何使用自底向上方法来实现一遍动态规划？
