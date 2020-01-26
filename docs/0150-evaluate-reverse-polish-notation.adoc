@@ -2,3 +2,4 @@
 
 https://leetcode.com/problems/evaluate-reverse-polish-notation/[LeetCode - Evaluate Reverse Polish Notation]
 
+其实这只是一个栈操作。

@@ -753,12 +753,12 @@
 //|{leetcode_base_url}/max-points-on-a-line/[Max Points on a Line]
 //|{source_base_url}/MaxPointsOnALine.java[Java]
 //|Hard
-//
-//|150
-//|{leetcode_base_url}/evaluate-reverse-polish-notation/[Evaluate Reverse Polish Notation]
-//|{source_base_url}/EvaluateReversePolishNotation.java[Java]
-//|Medium
-//
+
+|150
+|{leetcode_base_url}/evaluate-reverse-polish-notation/[Evaluate Reverse Polish Notation]
+|{source_base_url}/EvaluateReversePolishNotation.java[Java]
+|Medium
+
 //|151
 //|{leetcode_base_url}/reverse-words-in-a-string/[Reverse Words in a String]
 //|{source_base_url}/ReverseWordsInAString.java[Java]
