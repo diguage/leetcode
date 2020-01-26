@@ -1044,11 +1044,11 @@
 |{source_base_url}/CourseSchedule.java[Java]
 |Medium
 
-//|208
-//|{leetcode_base_url}/implement-trie-prefix-tree/[Implement Trie (Prefix Tree)]
-//|{source_base_url}/ImplementTriePrefixTree.java[Java]
-//|Medium
-//
+|208
+|{leetcode_base_url}/implement-trie-prefix-tree/[Implement Trie (Prefix Tree)]
+|{source_base_url}/ImplementTriePrefixTree.java[Java]
+|Medium
+
 //|209
 //|{leetcode_base_url}/minimum-size-subarray-sum/[Minimum Size Subarray Sum]
 //|{source_base_url}/MinimumSizeSubarraySum.java[Java]

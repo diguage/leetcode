@@ -2,3 +2,13 @@
 
 https://leetcode.com/problems/implement-trie-prefix-tree/[LeetCode - Implement Trie (Prefix Tree)]
 
+没想到 Trie Tree 实现起来一点也不复杂！
+
+思考题：如何实现一个工业级的 Trie Tree？
+
+image::images/0208-1.png[]
+
+=== 参考资料
+
+. https://en.wikipedia.org/wiki/Trie[Trie - Wikipedia]
+. https://www.geeksforgeeks.org/trie-insert-and-search/[Trie | (Insert and Search) - GeeksforGeeks]
