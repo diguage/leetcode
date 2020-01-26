@@ -2,3 +2,8 @@
 
 https://leetcode.com/problems/course-schedule-ii/[LeetCode - Course Schedule II]
 
+思考题：看题解，可以通过深度优先遍历来实现。思考如何实现？
+
+image::images/0210-1.png[]
+
+image::images/0210-2.png[]
