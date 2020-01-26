@@ -2,3 +2,6 @@
 
 https://leetcode.com/problems/lru-cache/[LeetCode - LRU Cache]
 
+使用双向链表实现时，使用两个"空节点" `head` 和 `tail`，可以有效减少空值判断，真是精巧。想起来上大学时，老师讲课提到这么一句。没想到竟然是如此实现。
+
+`LinkedHashMap` 的实现也有不少的秘密可以探索。

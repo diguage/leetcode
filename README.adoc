@@ -733,12 +733,12 @@
 //|{leetcode_base_url}/binary-tree-postorder-traversal/[Binary Tree Postorder Traversal]
 //|{source_base_url}/BinaryTreePostorderTraversal.java[Java]
 //|Hard
-//
-//|146
-//|{leetcode_base_url}/lru-cache/[LRU Cache]
-//|{source_base_url}/LruCache.java[Java]
-//|Medium
-//
+
+|146
+|{leetcode_base_url}/lru-cache/[LRU Cache]
+|{source_base_url}/LruCache.java[Java]
+|Medium
+
 //|147
 //|{leetcode_base_url}/insertion-sort-list/[Insertion Sort List]
 //|{source_base_url}/InsertionSortList.java[Java]
