@@ -1923,12 +1923,12 @@
 //|{leetcode_base_url}/ransom-note/[Ransom Note]
 //|{source_base_url}/RansomNote.java[Java]
 //|Easy
-//
-//|384
-//|{leetcode_base_url}/shuffle-an-array/[Shuffle an Array]
-//|{source_base_url}/ShuffleAnArray.java[Java]
-//|Medium
-//
+
+|384
+|{leetcode_base_url}/shuffle-an-array/[Shuffle an Array]
+|{source_base_url}/ShuffleAnArray.java[Java]
+|Medium
+
 //|385
 //|{leetcode_base_url}/mini-parser/[Mini Parser]
 //|{source_base_url}/MiniParser.java[Java]
