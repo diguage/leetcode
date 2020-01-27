@@ -239,10 +239,10 @@
 |{source_base_url}/Permutations.java[Java]
 |Medium
 
-//|47
-//|{leetcode_base_url}/permutations-ii/[Permutations II]
-//|{source_base_url}/PermutationsIi.java[Java]
-//|Medium
+|47
+|{leetcode_base_url}/permutations-ii/[Permutations II]
+|{source_base_url}/PermutationsIi.java[Java]
+|Medium
 
 |48
 |{leetcode_base_url}/rotate-image/[Rotate Image]
