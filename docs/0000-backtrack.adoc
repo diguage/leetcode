@@ -1,0 +1,8 @@
+== 回溯
+
+参考 xref:0046-permutations.adoc[46. Permutations] 认真学习一下回溯思想。
+
+=== 参考资料
+
+. https://en.wikipedia.org/wiki/Backtracking[Backtracking - Wikipedia]
+. https://www.geeksforgeeks.org/backtracking-algorithms/[Backtracking Algorithms - GeeksforGeeks]

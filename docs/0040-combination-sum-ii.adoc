@@ -2,3 +2,12 @@
 
 https://leetcode.com/problems/combination-sum-ii/[LeetCode - Combination Sum II]
 
+image::images/0040-1.png[]
+
+image::images/0040-2.png[]
+
+image::images/0040-3.png[]
+
+这道题的关键是由于候选值不能重复使用，所以需要向下传递起始位置。可以对比一下 xref:0039-combination-sum.adoc[] 的处理上的不同之处。
+
+思考一下解决重复值时是怎么剪枝的？

@@ -204,10 +204,10 @@
 |{source_base_url}/CombinationSum.java[Java]
 |Medium
 
-//|40
-//|{leetcode_base_url}/combination-sum-ii/[Combination Sum II]
-//|{source_base_url}/CombinationSumIi.java[Java]
-//|Medium
+|40
+|{leetcode_base_url}/combination-sum-ii/[Combination Sum II]
+|{source_base_url}/CombinationSumIi.java[Java]
+|Medium
 
 |41
 |{leetcode_base_url}/first-missing-positive/[First Missing Positive]
