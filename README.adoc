@@ -324,11 +324,11 @@
 |{source_base_url}/UniquePathsIi.java[Java]
 |Medium
 
-//|64
-//|{leetcode_base_url}/minimum-path-sum/[Minimum Path Sum]
-//|{source_base_url}/MinimumPathSum.java[Java]
-//|Medium
-//
+|64
+|{leetcode_base_url}/minimum-path-sum/[Minimum Path Sum]
+|{source_base_url}/MinimumPathSum.java[Java]
+|Medium
+
 //|65
 //|{leetcode_base_url}/valid-number/[Valid Number]
 //|{source_base_url}/ValidNumber.java[Java]
