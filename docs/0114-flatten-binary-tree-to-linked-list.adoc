@@ -2,3 +2,39 @@
 
 https://leetcode.com/problems/flatten-binary-tree-to-linked-list/[LeetCode - Flatten Binary Tree to Linked List]
 
+Given a binary tree, flatten it to a linked list in-place.
+
+For example, given the following tree:
+
+----
+    1
+   / \
+  2   5
+ / \   \
+3   4   6
+----
+
+The flattened tree should look like:
+
+----
+1
+ \
+  2
+   \
+    3
+     \
+      4
+       \
+        5
+         \
+          6
+----
+
+这道题本质上来讲可以说是要做一个先根遍历。但是，却可以将这个过程逆向过来，从底向上建立起关联。不可谓不精巧。
+
+思考题：看题解中，可以逐级将左树并入到右树。尝试一下。
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--26/[详细通俗的思路分析，多解法 - 二叉树展开为链表 - 力扣（LeetCode）]
+. https://leetcode.wang/leetcode-114-Flatten-Binary-Tree-to-Linked-List.html[114. Flatten Binary Tree to Linked List · leetcode]

@@ -573,12 +573,12 @@
 //|{leetcode_base_url}/path-sum-ii/[Path Sum II]
 //|{source_base_url}/PathSumIi.java[Java]
 //|Medium
-//
-//|114
-//|{leetcode_base_url}/flatten-binary-tree-to-linked-list/[Flatten Binary Tree to Linked List]
-//|{source_base_url}/FlattenBinaryTreeToLinkedList.java[Java]
-//|Medium
-//
+
+|114
+|{leetcode_base_url}/flatten-binary-tree-to-linked-list/[Flatten Binary Tree to Linked List]
+|{source_base_url}/FlattenBinaryTreeToLinkedList.java[Java]
+|Medium
+
 //|115
 //|{leetcode_base_url}/distinct-subsequences/[Distinct Subsequences]
 //|{source_base_url}/DistinctSubsequences.java[Java]
