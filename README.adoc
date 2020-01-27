@@ -1673,12 +1673,12 @@
 //|{leetcode_base_url}/largest-bst-subtree/[Largest BST Subtree]
 //|{source_base_url}/LargestBstSubtree.java[Java]
 //|Medium
-//
-//|334
-//|{leetcode_base_url}/increasing-triplet-subsequence/[Increasing Triplet Subsequence]
-//|{source_base_url}/IncreasingTripletSubsequence.java[Java]
-//|Medium
-//
+
+|334
+|{leetcode_base_url}/increasing-triplet-subsequence/[Increasing Triplet Subsequence]
+|{source_base_url}/IncreasingTripletSubsequence.java[Java]
+|Medium
+
 //|335
 //|{leetcode_base_url}/self-crossing/[Self Crossing]
 //|{source_base_url}/SelfCrossing.java[Java]
