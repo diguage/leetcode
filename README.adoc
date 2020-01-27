@@ -199,11 +199,11 @@
 |{source_base_url}/CountAndSay.java[Java]
 |Easy
 
-//|39
-//|{leetcode_base_url}/combination-sum/[Combination Sum]
-//|{source_base_url}/CombinationSum.java[Java]
-//|Medium
-//
+|39
+|{leetcode_base_url}/combination-sum/[Combination Sum]
+|{source_base_url}/CombinationSum.java[Java]
+|Medium
+
 //|40
 //|{leetcode_base_url}/combination-sum-ii/[Combination Sum II]
 //|{source_base_url}/CombinationSumIi.java[Java]
