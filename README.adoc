@@ -483,12 +483,12 @@
 //|{leetcode_base_url}/unique-binary-search-trees-ii/[Unique Binary Search Trees II]
 //|{source_base_url}/UniqueBinarySearchTreesIi.java[Java]
 //|Medium
-//
-//|96
-//|{leetcode_base_url}/unique-binary-search-trees/[Unique Binary Search Trees]
-//|{source_base_url}/UniqueBinarySearchTrees.java[Java]
-//|Medium
-//
+
+|96
+|{leetcode_base_url}/unique-binary-search-trees/[Unique Binary Search Trees]
+|{source_base_url}/UniqueBinarySearchTrees.java[Java]
+|Medium
+
 //|97
 //|{leetcode_base_url}/interleaving-string/[Interleaving String]
 //|{source_base_url}/InterleavingString.java[Java]
