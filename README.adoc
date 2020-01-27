@@ -1623,12 +1623,12 @@
 //|{leetcode_base_url}/number-of-connected-components-in-an-undirected-graph/[Number of Connected Components in an Undirected Graph]
 //|{source_base_url}/NumberOfConnectedComponentsInAnUndirectedGraph.java[Java]
 //|Medium
-//
-//|324
-//|{leetcode_base_url}/wiggle-sort-ii/[Wiggle Sort II]
-//|{source_base_url}/WiggleSortIi.java[Java]
-//|Medium
-//
+
+|324
+|{leetcode_base_url}/wiggle-sort-ii/[Wiggle Sort II]
+|{source_base_url}/WiggleSortIi.java[Java]
+|Medium
+
 //|325
 //|{leetcode_base_url}/maximum-size-subarray-sum-equals-k/[Maximum Size Subarray Sum Equals k]
 //|{source_base_url}/MaximumSizeSubarraySumEqualsK.java[Java]
