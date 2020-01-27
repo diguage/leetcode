@@ -2,3 +2,31 @@
 
 https://leetcode.com/problems/flatten-nested-list-iterator/[LeetCode - Flatten Nested List Iterator]
 
+
+Given a nested list of integers, implement an iterator to flatten it.
+
+Each element is either an integer, or a list -- whose elements may also be integers or other lists.
+
+.Example 1:
+[source]
+----
+Input: [[1,1],2,[1,1]]
+Output: [1,1,2,1,1]
+Explanation: By calling next repeatedly until hasNext returns false,
+             the order of elements returned by next should be: [1,1,2,1,1].
+----
+
+.Example 2:
+[source]
+----
+Input: [1,[4,[6]]]
+Output: [1,4,6]
+Explanation: By calling next repeatedly until hasNext returns false,
+             the order of elements returned by next should be: [1,4,6].
+----
+
+思考题：这道题还可以使用栈来实现。尝试一下。
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/flatten-nested-list-iterator/solution/shi-yong-di-gui-he-zhan-liang-chong-jie-fa-jin-xin/[使用递归和栈两种解法进行对比 - 扁平化嵌套列表迭代器 - 力扣（LeetCode）]

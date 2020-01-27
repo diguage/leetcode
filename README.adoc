@@ -1708,12 +1708,12 @@
 //|{leetcode_base_url}/longest-substring-with-at-most-k-distinct-characters/[Longest Substring with At Most K Distinct Characters]
 //|{source_base_url}/LongestSubstringWithAtMostKDistinctCharacters.java[Java]
 //|Hard
-//
-//|341
-//|{leetcode_base_url}/flatten-nested-list-iterator/[Flatten Nested List Iterator]
-//|{source_base_url}/FlattenNestedListIterator.java[Java]
-//|Medium
-//
+
+|341
+|{leetcode_base_url}/flatten-nested-list-iterator/[Flatten Nested List Iterator]
+|{source_base_url}/FlattenNestedListIterator.java[Java]
+|Medium
+
 //|342
 //|{leetcode_base_url}/power-of-four/[Power of Four]
 //|{source_base_url}/PowerOfFour.java[Java]
