@@ -1978,12 +1978,12 @@
 //|{leetcode_base_url}/decode-string/[Decode String]
 //|{source_base_url}/DecodeString.java[Java]
 //|Medium
-//
-//|395
-//|{leetcode_base_url}/longest-substring-with-at-least-k-repeating-characters/[Longest Substring with At Least K Repeating Characters]
-//|{source_base_url}/LongestSubstringWithAtLeastKRepeatingCharacters.java[Java]
-//|Medium
-//
+
+|395
+|{leetcode_base_url}/longest-substring-with-at-least-k-repeating-characters/[Longest Substring with At Least K Repeating Characters]
+|{source_base_url}/LongestSubstringWithAtLeastKRepeatingCharacters.java[Java]
+|Medium
+
 //|396
 //|{leetcode_base_url}/rotate-function/[Rotate Function]
 //|{source_base_url}/RotateFunction.java[Java]

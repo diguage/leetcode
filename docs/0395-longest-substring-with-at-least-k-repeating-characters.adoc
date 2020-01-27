@@ -2,3 +2,34 @@
 
 https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/[LeetCode - Longest Substring with At Least K Repeating Characters]
 
+Find the length of the longest substring *_T_* of a given string (consists of lowercase letters only) such that every character in *_T_* appears no less than _k_ times.
+
+.Example 1:
+[source]
+----
+Input:
+s = "aaabb", k = 3
+
+Output:
+3
+
+The longest substring is "aaa", as 'a' is repeated 3 times.
+----
+
+.Example 1:
+[source]
+----
+Input:
+s = "ababbc", k = 2
+
+Output:
+5
+
+The longest substring is "ababb", as 'a' is repeated 2 times and 'b' is repeated 3 times.
+----
+
+解题思路：递归拆分子串，分治。先统计出每个字符出现的频次，维护一对双指针，从首尾开始统计，从首尾往中间排除，如果出现次数小于k则不可能出现在最终子串中，排除并挪动指针，然后得到临时子串，依次从头遍历，一旦发现出现频次小于k的字符，以该字符为分割线，分别递归求其最大值返回。
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/solution/javadi-gui-by-tzfun/[Java递归 - 至少有K个重复字符的最长子串 - 力扣（LeetCode）]
