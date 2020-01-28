@@ -1973,11 +1973,11 @@
 //|{leetcode_base_url}/utf-8-validation/[UTF-8 Validation]
 //|{source_base_url}/Utf8Validation.java[Java]
 //|Medium
-//
-//|394
-//|{leetcode_base_url}/decode-string/[Decode String]
-//|{source_base_url}/DecodeString.java[Java]
-//|Medium
+
+|394
+|{leetcode_base_url}/decode-string/[Decode String]
+|{source_base_url}/DecodeString.java[Java]
+|Medium
 
 |395
 |{leetcode_base_url}/longest-substring-with-at-least-k-repeating-characters/[Longest Substring with At Least K Repeating Characters]
