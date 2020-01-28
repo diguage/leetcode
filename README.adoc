@@ -2188,12 +2188,12 @@
 //|{leetcode_base_url}/find-right-interval/[Find Right Interval]
 //|{source_base_url}/FindRightInterval.java[Java]
 //|Medium
-//
-//|437
-//|{leetcode_base_url}/path-sum-iii/[Path Sum III]
-//|{source_base_url}/PathSumIii.java[Java]
-//|Easy
-//
+
+|437
+|{leetcode_base_url}/path-sum-iii/[Path Sum III]
+|{source_base_url}/PathSumIii.java[Java]
+|Easy
+
 //|438
 //|{leetcode_base_url}/find-all-anagrams-in-a-string/[Find All Anagrams in a String]
 //|{source_base_url}/FindAllAnagramsInAString.java[Java]
