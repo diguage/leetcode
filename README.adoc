@@ -1108,12 +1108,12 @@
 //|{leetcode_base_url}/contains-duplicate-iii/[Contains Duplicate III]
 //|{source_base_url}/ContainsDuplicateIii.java[Java]
 //|Medium
-//
-//|221
-//|{leetcode_base_url}/maximal-square/[Maximal Square]
-//|{source_base_url}/MaximalSquare.java[Java]
-//|Medium
-//
+
+|221
+|{leetcode_base_url}/maximal-square/[Maximal Square]
+|{source_base_url}/MaximalSquare.java[Java]
+|Medium
+
 //|222
 //|{leetcode_base_url}/count-complete-tree-nodes/[Count Complete Tree Nodes]
 //|{source_base_url}/CountCompleteTreeNodes.java[Java]
