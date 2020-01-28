@@ -1133,11 +1133,11 @@
 //|{leetcode_base_url}/implement-stack-using-queues/[Implement Stack using Queues]
 //|{source_base_url}/ImplementStackUsingQueues.java[Java]
 //|Easy
-//
-//|226
-//|{leetcode_base_url}/invert-binary-tree/[Invert Binary Tree]
-//|{source_base_url}/InvertBinaryTree.java[Java]
-//|Easy
+
+|226
+|{leetcode_base_url}/invert-binary-tree/[Invert Binary Tree]
+|{source_base_url}/InvertBinaryTree.java[Java]
+|Easy
 
 |227
 |{leetcode_base_url}/basic-calculator-ii/[Basic Calculator II]

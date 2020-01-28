@@ -2,3 +2,35 @@
 
 https://leetcode.com/problems/invert-binary-tree/[LeetCode - Invert Binary Tree]
 
+Invert a binary tree.
+
+.Example:
+----
+Input:
+
+     4
+   /   \
+  2     7
+ / \   / \
+1   3 6   9
+
+Output:
+     4
+   /   \
+  7     2
+ / \   / \
+9   6 3   1
+----
+
+*Trivia:*
+
+This problem was inspired by https://twitter.com/mxcl/status/608682016205344768[this original tweet] by https://twitter.com/mxcl[Max Howell (@mxcl)]:
+
+****
+Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so fuck off.
+****
+
+D瓜哥也不会做这道题，现在可以说跟大神一个水平了，😆
+
+其实，思路很简单：就是递归地反转每棵树即可。
+
