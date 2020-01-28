@@ -1548,12 +1548,12 @@
 //|{leetcode_base_url}/range-sum-query-2d-mutable/[Range Sum Query 2D - Mutable]
 //|{source_base_url}/RangeSumQuery2dMutable.java[Java]
 //|Hard
-//
-//|309
-//|{leetcode_base_url}/best-time-to-buy-and-sell-stock-with-cooldown/[Best Time to Buy and Sell Stock with Cooldown]
-//|{source_base_url}/BestTimeToBuyAndSellStockWithCooldown.java[Java]
-//|Medium
-//
+
+|309
+|{leetcode_base_url}/best-time-to-buy-and-sell-stock-with-cooldown/[Best Time to Buy and Sell Stock with Cooldown]
+|{source_base_url}/BestTimeToBuyAndSellStockWithCooldown.java[Java]
+|Medium
+
 //|310
 //|{leetcode_base_url}/minimum-height-trees/[Minimum Height Trees]
 //|{source_base_url}/MinimumHeightTrees.java[Java]
