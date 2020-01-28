@@ -1,4 +1,86 @@
 == 188. Best Time to Buy and Sell Stock IV
 
+:source-highlighter: rouge
+:source-language: java
+:rouge-style: monokai
+:rouge-linenums-mode: table
+
+
+
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/[LeetCode - Best Time to Buy and Sell Stock IV]
 
+Say you have an array for which the _i^th^_ element is the price of a given stock on day _i_.
+
+Design an algorithm to find the maximum profit. You may complete at most *k* transactions.
+
+*Note:*
+
+You may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).
+
+.Example 1:
+----
+Input: [2,4,1], k = 2
+Output: 2
+Explanation: Buy on day 1 (price = 2) and sell on day 2 (price = 4), profit = 4-2 = 2.
+----
+
+.Example 2:
+----
+Input: [3,2,6,5,0,3], k = 2
+Output: 7
+Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-2 = 4.
+             Then buy on day 5 (price = 0) and sell on day 6 (price = 3), profit = 3-0 = 3.
+----
+
+针对 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）] 这个解题框架，进行小试牛刀。
+
+image::images/0188-1.png[]
+
+[source,java]
+----
+public int maxProfit(int maxK, int[] prices) {
+    if (Objects.isNull(prices) || prices.length == 0 || maxK == 0) {
+        return 0;
+    }
+    if (maxK > prices.length / 2) { // <1>
+        return maxProfit(prices);
+    }
+    int[][][] dp = new int[prices.length][maxK + 1][2]; // <2>
+    for (int i = 0; i < prices.length; i++) {
+        for (int k = maxK; k >= 1; k--) {
+            if (i == 0) {
+                dp[i][k][0] = 0;
+                dp[i][k][1] = -prices[i]; // <3>
+                continue;
+            }
+            dp[i][k][0] = Math.max(dp[i - 1][k][0], dp[i - 1][k][1] + prices[i]);
+            dp[i][k][1] = Math.max(dp[i - 1][k][1], dp[i - 1][k - 1][0] - prices[i]);
+        }
+    }
+    return dp[prices.length - 1][maxK][0];
+}
+
+public int maxProfit(int[] prices) {
+    int dp0 = 0;
+    int dp1 = Integer.MIN_VALUE;
+    for (int i = 0; i < prices.length; i++) {
+        int temp = dp0; // <4>
+        dp0 = Math.max(dp0, dp1 + prices[i]);
+        dp1 = Math.max(dp1, temp - prices[i]);  // <4>
+    }
+    return dp0;
+}
+----
+<1> 为什么只需要大于 `prices.length / 2` 时就可以调用没有限制的函数？
+<2> 为什么要把数组大小设置为 `maxK + 1`，而不是 `maxK`？
+<3> 为什么有时初始化成 `-prices[i]`，而有时又是 `Integer.MIN_VALUE`？
+<4> 为什么有时需要保存这个变量？而有时又不需要？
+
+思考题：再仔细思考思考这个解题框架。
+
+
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/dong-tai-gui-hua-shen-ru-fen-xi-by-wang-yan-19/[动态规划深入分析 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
