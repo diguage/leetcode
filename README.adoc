@@ -714,11 +714,11 @@
 |{source_base_url}/LinkedListCycle.java[Java]
 |Easy
 
-//|142
-//|{leetcode_base_url}/linked-list-cycle-ii/[Linked List Cycle II]
-//|{source_base_url}/LinkedListCycleIi.java[Java]
-//|Medium
-//
+|142
+|{leetcode_base_url}/linked-list-cycle-ii/[Linked List Cycle II]
+|{source_base_url}/LinkedListCycleIi.java[Java]
+|Medium
+
 //|143
 //|{leetcode_base_url}/reorder-list/[Reorder List]
 //|{source_base_url}/ReorderList.java[Java]
