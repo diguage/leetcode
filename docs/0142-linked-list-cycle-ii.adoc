@@ -46,6 +46,8 @@ Can you solve it without using extra space?
 
 === 解题思路分析
 
+这是 Floyd's Tortoise and Hare (Cycle Detection) 算法。
+
 image::images/0142-4.png[]
 
 $$
@@ -59,6 +61,8 @@ $$
 
 这里解释一下：兔子跑的快，相遇时，兔子跑过的距离是乌龟跑过的距离的两倍。兔子沿着环，跑了一圈多，有多跑了 `
 ` 才相遇，所以距离是： latexmath:[F+a+b+a]。
+
+这个思路还可以用于解决 xref:0287-find-the-duplicate-number.adoc[287. Find the Duplicate Number]。
 
 没想到有这么多环形探测算法！
 

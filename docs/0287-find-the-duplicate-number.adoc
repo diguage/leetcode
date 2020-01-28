@@ -1,6 +1,35 @@
 == 287. Find the Duplicate Number
 
+:stem: latexmath
+
 https://leetcode.com/problems/find-the-duplicate-number/[LeetCode - Find the Duplicate Number]
 
-https://leetcode.com/problems/find-the-duplicate-number/solution/[Find the Duplicate Number solution - LeetCode] 中 Approach #3 Floyd's Tortoise and Hare (Cycle Detection) [Accepted] 的好精巧！类似于在链表中发现环。还需要再仔细思考一下这个问题！
+Given an array nums containing _n + 1_ integers where each integer is between _1_ and _n_ (inclusive), prove that at least one duplicate number must exist. Assume that there is only one duplicate number, find the duplicate one.
+
+.Example 1:
+[source]
+----
+Input: [1,3,4,2,2]
+Output: 2
+----
+
+.Example 1:
+[source]
+----
+Input: [3,1,3,4,2]
+Output: 3
+----
+
+*Note:*
+
+* You *must not* modify the array (assume the array is read only).
+* You must use only constant, latexmath:[O\left(1\right)] extra space.
+* Your runtime complexity should be less than latexmath:[O\left(n^{2}\right)].
+* There is only one duplicate number in the array, but it could be repeated more than once.
+
+可以使用 xref:0142-linked-list-cycle-ii.adoc[142. Linked List Cycle II] 中的 Floyd's Tortoise and Hare (Cycle Detection) 算法来解决。
+
+=== 参考资料
+
+. https://leetcode.com/problems/find-the-duplicate-number/solution/[Find the Duplicate Number solution - LeetCode] 中 Approach #3 Floyd's Tortoise and Hare (Cycle Detection) [Accepted] 的好精巧！类似于在链表中发现环。还需要再仔细思考一下这个问题！
 

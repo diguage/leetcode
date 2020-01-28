@@ -34,11 +34,35 @@ package com.diguage.algorithm.leetcode;
  */
 public class FindTheDuplicateNumber {
     /**
+     * Runtime: 0 ms, faster than 100.00% of Java online submissions for Find the Duplicate Number.
+     * Memory Usage: 42.8 MB, less than 5.09% of Java online submissions for Find the Duplicate Number.
+     *
+     * Copy from: https://leetcode.com/problems/find-the-duplicate-number/solution/[Find the Duplicate Number - LeetCode]
+     */
+    public int findDuplicate(int[] nums) {
+        int tortoise = nums[0];
+        int hare = nums[0];
+        do {
+            tortoise = nums[tortoise];
+            hare = nums[nums[hare]];
+        } while (tortoise != hare);
+
+        int pointer1 = nums[0];
+        int pointer2 = hare;
+
+        while (pointer1 != pointer2) {
+            pointer1 = nums[pointer1];
+            pointer2 = nums[pointer2];
+        }
+        return pointer1;
+    }
+
+    /**
      * Runtime: 95 ms, faster than 5.83% of Java online submissions for Find the Duplicate Number.
      *
      * Memory Usage: 37.8 MB, less than 37.29% of Java online submissions for Find the Duplicate Number.
      */
-    public int findDuplicate(int[] nums) {
+    public int findDuplicateBruteForce(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++) {
             for (int j = i + 1; j < nums.length; j++) {
                 if (nums[i] == nums[j]) {
