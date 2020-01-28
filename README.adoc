@@ -3573,12 +3573,12 @@
 //|{leetcode_base_url}/subarray-product-less-than-k/[Subarray Product Less Than K]
 //|{source_base_url}/SubarrayProductLessThanK.java[Java]
 //|Medium
-//
-//|714
-//|{leetcode_base_url}/best-time-to-buy-and-sell-stock-with-transaction-fee/[Best Time to Buy and Sell Stock with Transaction Fee]
-//|{source_base_url}/BestTimeToBuyAndSellStockWithTransactionFee.java[Java]
-//|Medium
-//
+
+|714
+|{leetcode_base_url}/best-time-to-buy-and-sell-stock-with-transaction-fee/[Best Time to Buy and Sell Stock with Transaction Fee]
+|{source_base_url}/BestTimeToBuyAndSellStockWithTransactionFee.java[Java]
+|Medium
+
 //|715
 //|{leetcode_base_url}/range-module/[Range Module]
 //|{source_base_url}/RangeModule.java[Java]
