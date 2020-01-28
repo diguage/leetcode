@@ -35,6 +35,41 @@ import java.util.Objects;
  */
 public class BestTimeToBuyAndSellStock {
     /**
+     * Runtime: 1 ms, faster than 69.16% of Java online submissions for Best Time to Buy and Sell Stock.
+     * Memory Usage: 42.6 MB, less than 5.31% of Java online submissions for Best Time to Buy and Sell Stock.
+     *
+     * Copy from: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
+     */
+    public int maxProfitDp(int[] prices) {
+        int dp0 = 0;
+        int dp1 = Integer.MIN_VALUE;
+        for (int i = 0; i < prices.length; i++) {
+            dp0 = Math.max(dp0, dp1 + prices[i]);
+            dp1 = Math.max(dp1,  - prices[i]);
+        }
+        return dp0;
+    }
+    /**
+     * Runtime: 3 ms, faster than 19.73% of Java online submissions for Best Time to Buy and Sell Stock.
+     * Memory Usage: 42.7 MB, less than 5.31% of Java online submissions for Best Time to Buy and Sell Stock.
+     *
+     * Copy from: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
+     */
+    public int maxProfitDpTable(int[] prices) {
+        if (Objects.isNull(prices) || prices.length == 0) {
+            return 0;
+        }
+        int length = prices.length;
+        int[][] dp = new int[length][2];
+        dp[0][0] = 0;
+        dp[0][1] = -prices[0];
+        for (int i = 1; i < length; i++) {
+            dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][1] + prices[i]);
+            dp[i][1] = Math.max(dp[i - 1][1], -prices[i]);
+        }
+        return dp[length - 1][0];
+    }
+    /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Best Time to Buy and Sell Stock.
      *
      * Memory Usage: 37.3 MB, less than 100.00% of Java online submissions for Best Time to Buy and Sell Stock.

@@ -46,6 +46,21 @@ import java.util.Objects;
 public class BestTimeToBuyAndSellStockIi {
 
     /**
+     * Runtime: 1 ms, faster than 87.57% of Java online submissions for Best Time to Buy and Sell Stock II.
+     * Memory Usage: 42.8 MB, less than 5.71% of Java online submissions for Best Time to Buy and Sell Stock II.
+     *
+     * Copy from: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
+     */
+    public int maxProfitDp(int[] prices) {
+        int dp0 = 0;
+        int dp1 = Integer.MIN_VALUE;
+        for (int i = 0; i < prices.length; i++) {
+            dp0 = Math.max(dp0, dp1 + prices[i]);
+            dp1 = Math.max(dp1, dp0 - prices[i]);
+        }
+        return dp0;
+    }
+    /**
      * Runtime: 1 ms, faster than 85.09% of Java online submissions for Best Time to Buy and Sell Stock II.
      *
      * Memory Usage: 37 MB, less than 100.00% of Java online submissions for Best Time to Buy and Sell Stock II.
