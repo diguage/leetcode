@@ -5,7 +5,7 @@ import com.diguage.algorithm.util.ListNode;
 import java.util.Arrays;
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.ListNodeUtils.generate;
+import static com.diguage.algorithm.util.ListNodeUtils.build;
 import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
 
 /**
@@ -67,19 +67,19 @@ public class RemoveNthNodeFromEndOfList {
     public static void main(String[] args) {
         RemoveNthNodeFromEndOfList solution = new RemoveNthNodeFromEndOfList();
 
-        ListNode r5 = solution.removeNthFromEnd(generate(Arrays.asList(1, 2)), 1);
+        ListNode r5 = solution.removeNthFromEnd(build(Arrays.asList(1, 2)), 1);
         printListNode(r5);
 
-        ListNode r4 = solution.removeNthFromEnd(generate(Arrays.asList(1)), 1);
+        ListNode r4 = solution.removeNthFromEnd(build(Arrays.asList(1)), 1);
         printListNode(r4);
 
-        ListNode r1 = solution.removeNthFromEnd(generate(Arrays.asList(1, 2, 3, 4, 5)), 2);
+        ListNode r1 = solution.removeNthFromEnd(build(Arrays.asList(1, 2, 3, 4, 5)), 2);
         printListNode(r1);
 
-        ListNode r2 = solution.removeNthFromEnd(generate(Arrays.asList(1, 2, 3, 4, 5)), 6);
+        ListNode r2 = solution.removeNthFromEnd(build(Arrays.asList(1, 2, 3, 4, 5)), 6);
         printListNode(r2);
 
-        ListNode r3 = solution.removeNthFromEnd(generate(Arrays.asList()), 2);
+        ListNode r3 = solution.removeNthFromEnd(build(Arrays.asList()), 2);
         printListNode(r3);
     }
 }

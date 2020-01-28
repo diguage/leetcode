@@ -5,7 +5,7 @@ import com.diguage.algorithm.util.ListNode;
 import java.util.Arrays;
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.ListNodeUtils.generate;
+import static com.diguage.algorithm.util.ListNodeUtils.build;
 import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
 
 /**
@@ -75,7 +75,7 @@ public class DeleteNodeInALinkedList {
 
     public static void main(String[] args) {
         DeleteNodeInALinkedList solution = new DeleteNodeInALinkedList();
-        ListNode l1 = generate(Arrays.asList(1, 2, 3));
+        ListNode l1 = build(Arrays.asList(1, 2, 3));
         solution.deleteNode(l1);
         printListNode(l1);
     }

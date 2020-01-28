@@ -5,7 +5,7 @@ import com.diguage.algorithm.util.ListNode;
 import java.util.Arrays;
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.ListNodeUtils.generate;
+import static com.diguage.algorithm.util.ListNodeUtils.build;
 import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
 
 /**
@@ -66,7 +66,7 @@ public class OddEvenLinkedList {
 
     public static void main(String[] args) {
         OddEvenLinkedList solution = new OddEvenLinkedList();
-        ListNode r1 = solution.oddEvenList(generate(Arrays.asList(1, 2, 3, 4, 5)));
+        ListNode r1 = solution.oddEvenList(build(Arrays.asList(1, 2, 3, 4, 5)));
         printListNode(r1);
     }
 }

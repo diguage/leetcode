@@ -95,7 +95,7 @@ public class LinkedListCycle {
     }
     public static void main(String[] args) {
         LinkedListCycle solution = new LinkedListCycle();
-        ListNode l1 = ListNodeUtils.generate(Arrays.asList(3, 2, 0, -4));
+        ListNode l1 = ListNodeUtils.build(Arrays.asList(3, 2, 0, -4));
         l1.next.next.next.next = l1.next;
         boolean r1 = solution.hasCycle(l1);
         System.out.println(r1);

@@ -30,7 +30,7 @@ public class ListNodeUtils {
         return true;
     }
 
-    public static ListNode generate(List<Integer> num) {
+    public static ListNode build(List<Integer> num) {
         if (Objects.isNull(num) || num.size() == 0) {
             return null;
         }
@@ -53,9 +53,15 @@ public class ListNodeUtils {
 
     public static void printListNode(ListNode header) {
         System.out.println("\n↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓");
+        StringBuilder builder = new StringBuilder();
         while (Objects.nonNull(header)) {
-            System.out.print(header.val + "→");
+            builder.append(header.val).append("→");
             header = header.next;
+        }
+        if (builder.length() > 0) {
+            System.out.println(builder.substring(0, builder.length() - 1));
+        } else {
+            System.out.println("(empty)");
         }
         System.out.println("\n↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑");
     }

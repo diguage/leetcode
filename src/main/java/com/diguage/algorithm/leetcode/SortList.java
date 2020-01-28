@@ -5,7 +5,7 @@ import com.diguage.algorithm.util.ListNode;
 import java.util.Arrays;
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.ListNodeUtils.generate;
+import static com.diguage.algorithm.util.ListNodeUtils.build;
 import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
 
 /**
@@ -85,7 +85,7 @@ public class SortList {
     public static void main(String[] args) {
         SortList solution = new SortList();
 
-        ListNode list1 = generate(Arrays.asList(4, 2, 1, 3));
+        ListNode list1 = build(Arrays.asList(4, 2, 1, 3));
         printListNode(list1);
         ListNode re1 = solution.sortList(list1);
         printListNode(re1);

@@ -63,9 +63,9 @@ public class MergeKSortedLists {
     }
 
     public static void main(String[] args) {
-        ListNode node1 = generate(Arrays.asList(1, 4, 5));
-        ListNode node2 = generate(Arrays.asList(1, 3, 4));
-        ListNode node3 = generate(Arrays.asList(2, 6));
+        ListNode node1 = build(Arrays.asList(1, 4, 5));
+        ListNode node2 = build(Arrays.asList(1, 3, 4));
+        ListNode node3 = build(Arrays.asList(2, 6));
         ListNode[] lists = new ListNode[]{node1, node2, node3};
         MergeKSortedLists solution = new MergeKSortedLists();
         ListNode r1 = solution.mergeKLists(lists);

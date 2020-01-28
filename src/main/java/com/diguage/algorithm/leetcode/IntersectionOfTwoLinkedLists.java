@@ -105,8 +105,8 @@ public class IntersectionOfTwoLinkedLists {
 
     public static void main(String[] args) {
         IntersectionOfTwoLinkedLists solution = new IntersectionOfTwoLinkedLists();
-        ListNode l11 = ListNodeUtils.generate(Arrays.asList(4, 1, 8, 4, 5));
-        ListNode l12 = ListNodeUtils.generate(Arrays.asList(5, 0, 1));
+        ListNode l11 = ListNodeUtils.build(Arrays.asList(4, 1, 8, 4, 5));
+        ListNode l12 = ListNodeUtils.build(Arrays.asList(5, 0, 1));
         l12.next.next.next = l11.next.next;
         ListNode r1 = solution.getIntersectionNode(l11, l12);
         ListNodeUtils.printListNode(r1);

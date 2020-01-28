@@ -5,7 +5,7 @@ import com.diguage.algorithm.util.ListNode;
 import java.util.Arrays;
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.ListNodeUtils.generate;
+import static com.diguage.algorithm.util.ListNodeUtils.build;
 import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
 
 /**
@@ -69,7 +69,7 @@ public class ReverseLinkedList {
 
     public static void main(String[] args) {
         ReverseLinkedList solution = new ReverseLinkedList();
-        ListNode r1 = solution.reverseList(generate(Arrays.asList(1, 2, 3, 4, 5)));
+        ListNode r1 = solution.reverseList(build(Arrays.asList(1, 2, 3, 4, 5)));
         printListNode(r1);
     }
 }

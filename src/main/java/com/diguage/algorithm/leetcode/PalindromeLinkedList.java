@@ -5,7 +5,7 @@ import com.diguage.algorithm.util.ListNode;
 import java.util.Arrays;
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.ListNodeUtils.generate;
+import static com.diguage.algorithm.util.ListNodeUtils.build;
 
 /**
  * = 234. Palindrome Linked List
@@ -76,11 +76,11 @@ public class PalindromeLinkedList {
 
     public static void main(String[] args) {
         PalindromeLinkedList solution = new PalindromeLinkedList();
-        boolean r1 = solution.isPalindrome(generate(Arrays.asList(1, 2, 3, 2, 1)));
+        boolean r1 = solution.isPalindrome(build(Arrays.asList(1, 2, 3, 2, 1)));
         System.out.println(r1);
-        boolean r2 = solution.isPalindrome(generate(Arrays.asList(1, 2, 3, 3, 2, 1)));
+        boolean r2 = solution.isPalindrome(build(Arrays.asList(1, 2, 3, 3, 2, 1)));
         System.out.println(r2);
-        boolean r3 = solution.isPalindrome(generate(Arrays.asList(1, 2)));
+        boolean r3 = solution.isPalindrome(build(Arrays.asList(1, 2)));
         System.out.println(r3);
     }
 }

@@ -5,7 +5,7 @@ import com.diguage.algorithm.util.ListNode;
 import java.util.Arrays;
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.ListNodeUtils.generate;
+import static com.diguage.algorithm.util.ListNodeUtils.build;
 import static com.diguage.algorithm.util.ListNodeUtils.isOrder;
 
 /**
@@ -75,8 +75,8 @@ public class MergeTwoSortedLists {
 
     public static void main(String[] args) {
         MergeTwoSortedLists solution = new MergeTwoSortedLists();
-        ListNode l1 = generate(Arrays.asList());
-        ListNode l2 = generate(Arrays.asList());
+        ListNode l1 = build(Arrays.asList());
+        ListNode l2 = build(Arrays.asList());
         ListNode r1 = solution.mergeTwoLists(l1, l2);
         System.out.println(isOrder(r1));
     }
