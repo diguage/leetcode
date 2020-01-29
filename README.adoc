@@ -2473,12 +2473,12 @@
 //|{leetcode_base_url}/reverse-pairs/[Reverse Pairs]
 //|{source_base_url}/ReversePairs.java[Java]
 //|Hard
-//
-//|494
-//|{leetcode_base_url}/target-sum/[Target Sum]
-//|{source_base_url}/TargetSum.java[Java]
-//|Medium
-//
+
+|494
+|{leetcode_base_url}/target-sum/[Target Sum]
+|{source_base_url}/TargetSum.java[Java]
+|Medium
+
 //|495
 //|{leetcode_base_url}/teemo-attacking/[Teemo Attacking]
 //|{source_base_url}/TeemoAttacking.java[Java]
