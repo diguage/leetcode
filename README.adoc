@@ -1693,12 +1693,12 @@
 //|{leetcode_base_url}/house-robber-iii/[House Robber III]
 //|{source_base_url}/HouseRobberIii.java[Java]
 //|Medium
-//
-//|338
-//|{leetcode_base_url}/counting-bits/[Counting Bits]
-//|{source_base_url}/CountingBits.java[Java]
-//|Medium
-//
+
+|338
+|{leetcode_base_url}/counting-bits/[Counting Bits]
+|{source_base_url}/CountingBits.java[Java]
+|Medium
+
 //|339
 //|{leetcode_base_url}/nested-list-weight-sum/[Nested List Weight Sum]
 //|{source_base_url}/NestedListWeightSum.java[Java]

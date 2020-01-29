@@ -2,3 +2,59 @@
 
 https://leetcode.com/problems/counting-bits/[LeetCode - Counting Bits]
 
+Given a non negative integer number *num*. For every numbers *i* in the range *0 ≤ i ≤ num* calculate the number of 1's in their binary representation and return them as an array.
+
+.Example 1:
+----
+Input: 2
+Output: [0,1,1]
+----
+
+.Example 2:
+----
+Input: 5
+Output: [0,1,1,2,1,2]
+----
+
+*Follow up:*
+
+* It is very easy to come up with a solution with run time *O(n*sizeof(integer))*. But can you do it in linear time *O(n)* /possibly in a single pass?
+* Space complexity should be *O(n)*.
+* Can you do it like a boss? Do it without using any builtin function like ___builtin_popcount_ in c++ or in any other language.
+
+=== 解题分析
+
+从 `0` 开始，每个奇数包含 `1` 的个数，都比前面一个数要多 `1`。所以，只需要计算偶数包含的 `1` 的个数，然后奇数直接在前面的基础上加 `1` 即可。
+
+另外一种解法：以 `2` 的 `x` 次幂为界，后面的的 `x` 个数中的 `1` 的个数，是前面个 `x` 个数在前面加 `1` 的结果（位数不够在前面补零，例如从 `1` 到 `5`，就是从 `1` 补零 `001`，再前面加 `1`，则为 `1001`）。
+
+$$
+\begin{aligned}
+(0)&=(0)_{2}\\
+(1)&=(1)_{2}\\
+(2)&=(10)_{2}\\
+(3)&=(11)_{2}\\
+P(x+b)&=P(x)+1, b=2^{m}>x\\
+\end{aligned}
+$$
+
+[source,java]
+----
+for (int i = 0; i < 99; i++) {
+    int j = 0;
+    for (; Math.pow(2, j) <= i; j++) {
+        if (Math.pow(2, j) == i && i != 1) {
+            System.out.println("---");
+        }
+    }
+    System.out.printf("%2d  %10s\n", i, Integer.toBinaryString(i));
+}
+----
+
+用这段代码输出一下，观察一下更明显。
+
+思考题：尝试"动态规划 + 最低有效位"的解法。
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/counting-bits/solution/bi-te-wei-ji-shu-by-leetcode/[比特位计数 - 比特位计数 - 力扣（LeetCode）]
