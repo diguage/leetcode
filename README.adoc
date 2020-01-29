@@ -2083,12 +2083,12 @@
 //|{leetcode_base_url}/add-strings/[Add Strings]
 //|{source_base_url}/AddStrings.java[Java]
 //|Easy
-//
-//|416
-//|{leetcode_base_url}/partition-equal-subset-sum/[Partition Equal Subset Sum]
-//|{source_base_url}/PartitionEqualSubsetSum.java[Java]
-//|Medium
-//
+
+|416
+|{leetcode_base_url}/partition-equal-subset-sum/[Partition Equal Subset Sum]
+|{source_base_url}/PartitionEqualSubsetSum.java[Java]
+|Medium
+
 //|417
 //|{leetcode_base_url}/pacific-atlantic-water-flow/[Pacific Atlantic Water Flow]
 //|{source_base_url}/PacificAtlanticWaterFlow.java[Java]
