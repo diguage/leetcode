@@ -2718,12 +2718,12 @@
 //|{leetcode_base_url}/01-matrix/[01 Matrix]
 //|{source_base_url}/01Matrix.java[Java]
 //|Medium
-//
-//|543
-//|{leetcode_base_url}/diameter-of-binary-tree/[Diameter of Binary Tree]
-//|{source_base_url}/DiameterOfBinaryTree.java[Java]
-//|Easy
-//
+
+|543
+|{leetcode_base_url}/diameter-of-binary-tree/[Diameter of Binary Tree]
+|{source_base_url}/DiameterOfBinaryTree.java[Java]
+|Easy
+
 //|544
 //|{leetcode_base_url}/output-contest-matches/[Output Contest Matches]
 //|{source_base_url}/OutputContestMatches.java[Java]
