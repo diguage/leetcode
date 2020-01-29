@@ -2033,12 +2033,12 @@
 //|{leetcode_base_url}/convert-a-number-to-hexadecimal/[Convert a Number to Hexadecimal]
 //|{source_base_url}/ConvertANumberToHexadecimal.java[Java]
 //|Easy
-//
-//|406
-//|{leetcode_base_url}/queue-reconstruction-by-height/[Queue Reconstruction by Height]
-//|{source_base_url}/QueueReconstructionByHeight.java[Java]
-//|Medium
-//
+
+|406
+|{leetcode_base_url}/queue-reconstruction-by-height/[Queue Reconstruction by Height]
+|{source_base_url}/QueueReconstructionByHeight.java[Java]
+|Medium
+
 //|407
 //|{leetcode_base_url}/trapping-rain-water-ii/[Trapping Rain Water II]
 //|{source_base_url}/TrappingRainWaterIi.java[Java]
