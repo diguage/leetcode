@@ -2,3 +2,53 @@
 
 https://leetcode.com/problems/house-robber-iii/[LeetCode - House Robber III]
 
+The thief has found himself a new place for his thievery again. There is only one entrance to this area, called the "root." Besides the root, each house has one and only one parent house. After a tour, the smart thief realized that "all houses in this place forms a binary tree". It will automatically contact the police if two directly-linked houses were broken into on the same night.
+
+Determine the maximum amount of money the thief can rob tonight without alerting the police.
+
+.Example 1:
+----
+Input: [3,2,3,null,3,null,1]
+
+     3
+    / \
+   2   3
+    \   \
+     3   1
+
+Output: 7
+Explanation: Maximum amount of money the thief can rob = 3 + 3 + 1 = 7.
+----
+
+.Example 2:
+----
+Input: [3,4,5,1,3,null,1]
+
+     3
+    / \
+   4   5
+  / \   \
+ 1   3   1
+
+Output: 9
+Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
+----
+
+=== 解题分析
+
+由于题目给出示例的误导，这里存在一个误区：在不选父节点时，子树选最优解不受任何干扰，也就是说子树的跟节点可选也可以不选。所以，可以将这个问题简化为，分选根节点和不选根节点，两种情况考虑：
+
+. 选父节点，则子树必定不能选根节点；
+. 如果不选跟节点，则子树可以在选根节点和不选跟节点中选最优解就好。
+
+然后在这上面两种情况中选出最优解。
+
+=== 思考题
+
+尝试使用动态规划来解决这个问题。
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/house-robber-iii/solution/java-2ms-by-horanol/[java 2ms - 打家劫舍 III - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/house-robber-iii/solution/san-chong-fang-fa-jie-jue-shu-xing-dong-tai-gui-hu/[三种方法解决树形动态规划问题-从入门级代码到高效树形动态规划代码实现 - 打家劫舍 III - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/house-robber-iii/solution/tong-yong-si-lu-tuan-mie-da-jia-jie-she-wen-ti-b-2/[通用思路团灭打家劫舍问题 - 打家劫舍 III - 力扣（LeetCode）]

@@ -1688,11 +1688,11 @@
 //|{leetcode_base_url}/palindrome-pairs/[Palindrome Pairs]
 //|{source_base_url}/PalindromePairs.java[Java]
 //|Hard
-//
-//|337
-//|{leetcode_base_url}/house-robber-iii/[House Robber III]
-//|{source_base_url}/HouseRobberIii.java[Java]
-//|Medium
+
+|337
+|{leetcode_base_url}/house-robber-iii/[House Robber III]
+|{source_base_url}/HouseRobberIii.java[Java]
+|Medium
 
 |338
 |{leetcode_base_url}/counting-bits/[Counting Bits]
