@@ -2243,12 +2243,12 @@
 //|{leetcode_base_url}/number-of-boomerangs/[Number of Boomerangs]
 //|{source_base_url}/NumberOfBoomerangs.java[Java]
 //|Easy
-//
-//|448
-//|{leetcode_base_url}/find-all-numbers-disappeared-in-an-array/[Find All Numbers Disappeared in an Array]
-//|{source_base_url}/FindAllNumbersDisappearedInAnArray.java[Java]
-//|Easy
-//
+
+|448
+|{leetcode_base_url}/find-all-numbers-disappeared-in-an-array/[Find All Numbers Disappeared in an Array]
+|{source_base_url}/FindAllNumbersDisappearedInAnArray.java[Java]
+|Easy
+
 //|449
 //|{leetcode_base_url}/serialize-and-deserialize-bst/[Serialize and Deserialize BST]
 //|{source_base_url}/SerializeAndDeserializeBst.java[Java]
