@@ -3088,12 +3088,12 @@
 //|{leetcode_base_url}/add-bold-tag-in-string/[Add Bold Tag in String]
 //|{source_base_url}/AddBoldTagInString.java[Java]
 //|Medium
-//
-//|617
-//|{leetcode_base_url}/merge-two-binary-trees/[Merge Two Binary Trees]
-//|{source_base_url}/MergeTwoBinaryTrees.java[Java]
-//|Easy
-//
+
+|617
+|{leetcode_base_url}/merge-two-binary-trees/[Merge Two Binary Trees]
+|{source_base_url}/MergeTwoBinaryTrees.java[Java]
+|Easy
+
 //|618
 //|{leetcode_base_url}/students-report-by-geography/[Students Report By Geography]
 //|{source_base_url}/StudentsReportByGeography.java[Java]
