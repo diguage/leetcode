@@ -4963,12 +4963,12 @@
 //|{leetcode_base_url}/broken-calculator/[Broken Calculator]
 //|{source_base_url}/BrokenCalculator.java[Java]
 //|Medium
-//
-//|992
-//|{leetcode_base_url}/subarrays-with-k-different-integers/[Subarrays with K Different Integers]
-//|{source_base_url}/SubarraysWithKDifferentIntegers.java[Java]
-//|Hard
-//
+
+|992
+|{leetcode_base_url}/subarrays-with-k-different-integers/[Subarrays with K Different Integers]
+|{source_base_url}/SubarraysWithKDifferentIntegers.java[Java]
+|Hard
+
 //|993
 //|{leetcode_base_url}/cousins-in-binary-tree/[Cousins in Binary Tree]
 //|{source_base_url}/CousinsInBinaryTree.java[Java]
