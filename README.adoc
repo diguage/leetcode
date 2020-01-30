@@ -384,11 +384,11 @@
 |{source_base_url}/SortColors.java[Java]
 |Medium
 
-//|76
-//|{leetcode_base_url}/minimum-window-substring/[Minimum Window Substring]
-//|{source_base_url}/MinimumWindowSubstring.java[Java]
-//|Hard
-//
+|76
+|{leetcode_base_url}/minimum-window-substring/[Minimum Window Substring]
+|{source_base_url}/MinimumWindowSubstring.java[Java]
+|Hard
+
 //|77
 //|{leetcode_base_url}/combinations/[Combinations]
 //|{source_base_url}/Combinations.java[Java]
