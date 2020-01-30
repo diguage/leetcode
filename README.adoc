@@ -2194,11 +2194,11 @@
 |{source_base_url}/PathSumIii.java[Java]
 |Easy
 
-//|438
-//|{leetcode_base_url}/find-all-anagrams-in-a-string/[Find All Anagrams in a String]
-//|{source_base_url}/FindAllAnagramsInAString.java[Java]
-//|Easy
-//
+|438
+|{leetcode_base_url}/find-all-anagrams-in-a-string/[Find All Anagrams in a String]
+|{source_base_url}/FindAllAnagramsInAString.java[Java]
+|Medium
+
 //|439
 //|{leetcode_base_url}/ternary-expression-parser/[Ternary Expression Parser]
 //|{source_base_url}/TernaryExpressionParser.java[Java]
