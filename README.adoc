@@ -2838,12 +2838,12 @@
 //|{leetcode_base_url}/reshape-the-matrix/[Reshape the Matrix]
 //|{source_base_url}/ReshapeTheMatrix.java[Java]
 //|Easy
-//
-//|567
-//|{leetcode_base_url}/permutation-in-string/[Permutation in String]
-//|{source_base_url}/PermutationInString.java[Java]
-//|Medium
-//
+
+|567
+|{leetcode_base_url}/permutation-in-string/[Permutation in String]
+|{source_base_url}/PermutationInString.java[Java]
+|Medium
+
 //|568
 //|{leetcode_base_url}/maximum-vacation-days/[Maximum Vacation Days]
 //|{source_base_url}/MaximumVacationDays.java[Java]
