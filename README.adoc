@@ -1199,10 +1199,10 @@
 |{source_base_url}/ProductOfArrayExceptSelf.java[Java]
 |Medium
 
-//|239
-//|{leetcode_base_url}/sliding-window-maximum/[Sliding Window Maximum]
-//|{source_base_url}/SlidingWindowMaximum.java[Java]
-//|Hard
+|239
+|{leetcode_base_url}/sliding-window-maximum/[Sliding Window Maximum]
+|{source_base_url}/SlidingWindowMaximum.java[Java]
+|Hard
 
 |240
 |{leetcode_base_url}/search-a-2d-matrix-ii/[Search a 2D Matrix II]
