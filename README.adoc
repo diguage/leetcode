@@ -2908,12 +2908,12 @@
 //|{leetcode_base_url}/count-student-number-in-departments/[Count Student Number in Departments]
 //|{source_base_url}/CountStudentNumberInDepartments.java[Java]
 //|Medium
-//
-//|581
-//|{leetcode_base_url}/shortest-unsorted-continuous-subarray/[Shortest Unsorted Continuous Subarray]
-//|{source_base_url}/ShortestUnsortedContinuousSubarray.java[Java]
-//|Easy
-//
+
+|581
+|{leetcode_base_url}/shortest-unsorted-continuous-subarray/[Shortest Unsorted Continuous Subarray]
+|{source_base_url}/ShortestUnsortedContinuousSubarray.java[Java]
+|Easy
+
 //|582
 //|{leetcode_base_url}/kill-process/[Kill Process]
 //|{source_base_url}/KillProcess.java[Java]
