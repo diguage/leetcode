@@ -87,10 +87,14 @@ def patch_data(url, data):
 
 
 def get_tags():
-    # https://leetcode.com/problems/api/tags/
-    file_name = "leetcode-tags.json"
-    json_file = open(file_name, 'r')
-    data = json.loads(json_file.read())
+    url = 'https://leetcode.com/problems/api/tags/'
+    headers = {'content-type': 'application/json'}
+    response = requests.get(url, headers=headers)
+    if response.status_code != 200:
+        print("fail to fetch tags", response)
+        return
+    print("fetch tags success")
+    data = json.loads(response.text)
     result = {}
     for topic in data['topics']:
         name = topic['name']
