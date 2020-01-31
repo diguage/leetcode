@@ -3238,12 +3238,12 @@
 //|{leetcode_base_url}/maximum-length-of-pair-chain/[Maximum Length of Pair Chain]
 //|{source_base_url}/MaximumLengthOfPairChain.java[Java]
 //|Medium
-//
-//|647
-//|{leetcode_base_url}/palindromic-substrings/[Palindromic Substrings]
-//|{source_base_url}/PalindromicSubstrings.java[Java]
-//|Medium
-//
+
+|647
+|{leetcode_base_url}/palindromic-substrings/[Palindromic Substrings]
+|{source_base_url}/_0647_PalindromicSubstrings.java[Java]
+|Medium
+
 //|648
 //|{leetcode_base_url}/replace-words/[Replace Words]
 //|{source_base_url}/ReplaceWords.java[Java]
