@@ -3108,12 +3108,12 @@
 //|{leetcode_base_url}/not-boring-movies/[Not Boring Movies]
 //|{source_base_url}/NotBoringMovies.java[Java]
 //|Easy
-//
-//|621
-//|{leetcode_base_url}/task-scheduler/[Task Scheduler]
-//|{source_base_url}/TaskScheduler.java[Java]
-//|Medium
-//
+
+|621
+|{leetcode_base_url}/task-scheduler/[Task Scheduler]
+|{source_base_url}/TaskScheduler.java[Java]
+|Medium
+
 //|622
 //|{leetcode_base_url}/design-circular-queue/[Design Circular Queue]
 //|{source_base_url}/DesignCircularQueue.java[Java]

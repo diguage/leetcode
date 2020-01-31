@@ -2,3 +2,40 @@
 
 https://leetcode.com/problems/task-scheduler/[LeetCode - Task Scheduler]
 
+Given a char array representing tasks CPU need to do. It contains capital letters A to Z where different letters represent different tasks. Tasks could be done without original order. Each task could be done in one interval. For each interval, CPU could finish one task or just be idle.
+
+However, there is a non-negative cooling interval `n` that means between *two same tasks*, there must be at least `n` intervals that CPU are doing different tasks or just be idle.
+
+You need to return the *least* number of intervals the CPU will take to finish all the given tasks.
+
+.Example:
+----
+Input: tasks = ["A","A","A","B","B","B"], n = 2
+Output: 8
+Explanation: A -> B -> idle -> A -> B -> idle -> A -> B.
+----
+
+*Note:*
+
+. The number of tasks is in the range [1, 10000].
+. The integer n is in the range [0, 100].
+
+=== 解题分析
+
+这道题有三个点需要注意：
+
+. 因为要任务休息时间，所以，出现次数最多的任务，会持续得更长，有将任务按照出现次数排序，优先安排次数多的任务。
+. 结果关注的是总共需要完成的时间，所以不需要关注具体执行的是哪个任务。
+. 需要"空转时间"的处理。
+
+解题思路：
+
+. 将任务按类型分组，正好A-Z用一个int[26]保存任务类型个数
+. 对数组进行排序，优先排列个数（count）最大的任务，如题得到的时间至少为 retCount =（count-1）* (n+1) + 1 ==> A->X->X->A->X->X->A(X为其他任务或者待命)
+. 再排序下一个任务，如果下一个任务B个数和最大任务数一致，则retCount++ ==> A->B->X->A->B->X->A->B
+. 如果空位都插满之后还有任务，那就随便在这些间隔里面插入就可以，因为间隔长度肯定会大于n，在这种情况下就是任务的总数是最小所需时间
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/task-scheduler/solution/ren-wu-diao-du-qi-by-leetcode/[任务调度器 - 任务调度器 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/task-scheduler/solution/621-ren-wu-diao-du-qi-java-jie-ti-zhu-shi-ying-gai/[621. 任务调度器--Java--解题注释应该能看懂 - 任务调度器 - 力扣（LeetCode）] -- 这个解释清楚。
