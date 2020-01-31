@@ -2803,12 +2803,12 @@
 //|{leetcode_base_url}/maximum-depth-of-n-ary-tree/[Maximum Depth of N-ary Tree]
 //|{source_base_url}/MaximumDepthOfNAryTree.java[Java]
 //|Easy
-//
-//|560
-//|{leetcode_base_url}/subarray-sum-equals-k/[Subarray Sum Equals K]
-//|{source_base_url}/SubarraySumEqualsK.java[Java]
-//|Medium
-//
+
+|560
+|{leetcode_base_url}/subarray-sum-equals-k/[Subarray Sum Equals K]
+|{source_base_url}/SubarraySumEqualsK.java[Java]
+|Medium
+
 //|561
 //|{leetcode_base_url}/array-partition-i/[Array Partition I]
 //|{source_base_url}/ArrayPartitionI.java[Java]
