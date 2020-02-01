@@ -308,11 +308,11 @@
 //|{leetcode_base_url}/permutation-sequence/[Permutation Sequence]
 //|{source_base_url}/PermutationSequence.java[Java]
 //|Medium
-//
-//|61
-//|{leetcode_base_url}/rotate-list/[Rotate List]
-//|{source_base_url}/RotateList.java[Java]
-//|Medium
+
+|61
+|{leetcode_base_url}/rotate-list/[Rotate List]
+|{source_base_url}/_0061_RotateList.java[Java]
+|Medium
 
 |62
 |{leetcode_base_url}/unique-paths/[Unique Paths]
