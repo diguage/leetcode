@@ -293,11 +293,11 @@
 //|{leetcode_base_url}/insert-interval/[Insert Interval]
 //|{source_base_url}/InsertInterval.java[Java]
 //|Hard
-//
-//|58
-//|{leetcode_base_url}/length-of-last-word/[Length of Last Word]
-//|{source_base_url}/LengthOfLastWord.java[Java]
-//|Easy
+
+|58
+|{leetcode_base_url}/length-of-last-word/[Length of Last Word]
+|{source_base_url}/_0058_LengthOfLastWord.java[Java]
+|Easy
 
 |59
 |{leetcode_base_url}/spiral-matrix-ii/[Spiral Matrix II]
