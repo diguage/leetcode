@@ -339,11 +339,11 @@
 |{source_base_url}/PlusOne.java[Java]
 |Easy
 
-//|67
-//|{leetcode_base_url}/add-binary/[Add Binary]
-//|{source_base_url}/AddBinary.java[Java]
-//|Easy
-//
+|67
+|{leetcode_base_url}/add-binary/[Add Binary]
+|{source_base_url}/_0067_AddBinary.java[Java]
+|Easy
+
 //|68
 //|{leetcode_base_url}/text-justification/[Text Justification]
 //|{source_base_url}/TextJustification.java[Java]
