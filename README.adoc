@@ -304,10 +304,10 @@
 |{source_base_url}/SpiralMatrixIi.java[Java]
 |Medium
 
-//|60
-//|{leetcode_base_url}/permutation-sequence/[Permutation Sequence]
-//|{source_base_url}/PermutationSequence.java[Java]
-//|Medium
+|60
+|{leetcode_base_url}/permutation-sequence/[Permutation Sequence]
+|{source_base_url}/_0060_PermutationSequence.java[Java]
+|Medium
 
 |61
 |{leetcode_base_url}/rotate-list/[Rotate List]

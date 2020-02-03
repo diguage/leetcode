@@ -2,7 +2,12 @@
 
 参考 xref:0046-permutations.adoc[46. Permutations] 认真学习一下回溯思想。
 
+玩回溯，一定要画出递归调用树。
+
+回溯优化，重要的是，要学会剪枝！
+
 === 参考资料
 
 . https://en.wikipedia.org/wiki/Backtracking[Backtracking - Wikipedia]
 . https://www.geeksforgeeks.org/backtracking-algorithms/[Backtracking Algorithms - GeeksforGeeks]
+. https://leetcode-cn.com/problems/permutation-sequence/solution/hui-su-jian-zhi-python-dai-ma-java-dai-ma-by-liwei/[深度优先遍历 + 剪枝、双链表模拟 - 第k个排列 - 力扣（LeetCode）]
