@@ -218,12 +218,12 @@
 //|{leetcode_base_url}/trapping-rain-water/[Trapping Rain Water]
 //|{source_base_url}/TrappingRainWater.java[Java]
 //|Hard
-//
-//|43
-//|{leetcode_base_url}/multiply-strings/[Multiply Strings]
-//|{source_base_url}/MultiplyStrings.java[Java]
-//|Medium
-//
+
+|43
+|{leetcode_base_url}/multiply-strings/[Multiply Strings]
+|{source_base_url}/_0043_MultiplyStrings.java[Java]
+|Medium
+
 //|44
 //|{leetcode_base_url}/wildcard-matching/[Wildcard Matching]
 //|{source_base_url}/WildcardMatching.java[Java]
@@ -355,7 +355,7 @@
 |Easy
 
 |70
-|{leetcodhousee_base_url}/climbing-stairs/[Climbing Stairs]
+|{leetcode_base_url}/climbing-stairs/[Climbing Stairs]
 |{source_base_url}/ClimbingStairs.java[Java]
 |Easy
 
