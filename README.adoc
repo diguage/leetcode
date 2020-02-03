@@ -124,11 +124,11 @@
 |{source_base_url}/MergeKSortedLists.java[Java]
 |Hard
 
-//|24
-//|{leetcode_base_url}/swap-nodes-in-pairs/[Swap Nodes in Pairs]
-//|{source_base_url}/SwapNodesInPairs.java[Java]
-//|Medium
-//
+|24
+|{leetcode_base_url}/swap-nodes-in-pairs/[Swap Nodes in Pairs]
+|{source_base_url}/_0024_SwapNodesInPairs.java[Java]
+|Medium
+
 //|25
 //|{leetcode_base_url}/reverse-nodes-in-k-group/[Reverse Nodes in k-Group]
 //|{source_base_url}/ReverseNodesInKGroup.java[Java]
