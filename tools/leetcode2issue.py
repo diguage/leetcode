@@ -87,14 +87,19 @@ def patch_data(url, data):
 
 
 def get_tags():
-    url = 'https://leetcode.com/problems/api/tags/'
-    headers = {'content-type': 'application/json'}
-    response = requests.get(url, headers=headers)
-    if response.status_code != 200:
-        print("fail to fetch tags", response)
-        return
-    print("fetch tags success")
-    data = json.loads(response.text)
+    file_name = "leetcode-tags.json"
+    json_file = open(file_name, 'r')
+    data = json.loads(json_file.read())
+
+#     url = 'https://leetcode.com/problems/api/tags/'
+#     headers = {'content-type': 'application/json'}
+#     response = requests.get(url, headers=headers)
+#     if response.status_code != 200:
+#         print("fail to fetch tags", response)
+#         return
+#     print("fetch tags success")
+#     data = json.loads(response.text)
+
     result = {}
     for topic in data['topics']:
         name = topic['name']
@@ -246,7 +251,7 @@ for i in range(next_id, max_id+1):
         success_id = make_github_issue(p)
         success_id += 1
 
-# for i in range(1, 7):
+# for i in range(1300, 1301):
 #     EMPTY = Problem({})
 #     EMPTY.title = "Empty"
 #     EMPTY.topics.append("Empty")
