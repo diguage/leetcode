@@ -389,10 +389,10 @@
 |{source_base_url}/_0076_MinimumWindowSubstring.java[Java]
 |Hard
 
-//|77
-//|{leetcode_base_url}/combinations/[Combinations]
-//|{source_base_url}/_0077_Combinations.java[Java]
-//|Medium
+|77
+|{leetcode_base_url}/combinations/[Combinations]
+|{source_base_url}/_0077_Combinations.java[Java]
+|Medium
 
 |78
 |{leetcode_base_url}/subsets/[Subsets]

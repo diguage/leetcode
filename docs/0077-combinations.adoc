@@ -2,3 +2,30 @@
 
 https://leetcode.com/problems/combinations/[LeetCode - Combinations]
 
+Given two integers `n` and `k`, return all possible combinations of `k` numbers out of `1 ... n`.
+
+.Example:
+----
+Input: n = 4, k = 2
+Output:
+[
+  [2,4],
+  [3,4],
+  [2,3],
+  [1,2],
+  [1,3],
+  [1,4],
+]
+----
+
+=== 解题分析
+
+要注意和 xref:0046-permutations.adoc[46. Permutations] 的区别。
+
+=== 思考题
+
+尝试一下字典序组合解法。
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/combinations/solution/zu-he-by-leetcode/[组合 - 组合 - 力扣（LeetCode）]
