@@ -404,11 +404,11 @@
 |{source_base_url}/_0079_WordSearch.java[Java]
 |Medium
 
-//|80
-//|{leetcode_base_url}/remove-duplicates-from-sorted-array-ii/[Remove Duplicates from Sorted Array II]
-//|{source_base_url}/_0080_RemoveDuplicatesFromSortedArrayII.java[Java]
-//|Medium
-//
+|80
+|{leetcode_base_url}/remove-duplicates-from-sorted-array-ii/[Remove Duplicates from Sorted Array II]
+|{source_base_url}/_0080_RemoveDuplicatesFromSortedArrayII.java[Java]
+|Medium
+
 //|81
 //|{leetcode_base_url}/search-in-rotated-sorted-array-ii/[Search in Rotated Sorted Array II]
 //|{source_base_url}/_0081_SearchInRotatedSortedArrayII.java[Java]
