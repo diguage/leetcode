@@ -15,7 +15,7 @@ import static java.util.Arrays.asList;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2020-01-29 16:34
  */
-public class _0337_HouseRobberIii {
+public class _0337_HouseRobberIII {
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for House Robber III.
      * Memory Usage: 41.3 MB, less than 13.89% of Java online submissions for House Robber III.
@@ -40,7 +40,7 @@ public class _0337_HouseRobberIii {
     }
 
     public static void main(String[] args) {
-        _0337_HouseRobberIii solution = new _0337_HouseRobberIii();
+        _0337_HouseRobberIII solution = new _0337_HouseRobberIII();
         int r1 = solution.rob(buildTree(asList(3, 2, 3, null, 3, null, 1)));
         System.out.println((r1 == 7) + " : " + r1);
 

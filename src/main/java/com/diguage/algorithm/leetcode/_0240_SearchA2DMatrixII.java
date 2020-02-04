@@ -33,7 +33,7 @@ import java.util.Objects;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2020-01-23 10:04
  */
-public class _0240_SearchA2DMatrixIi {
+public class _0240_SearchA2DMatrixII {
     /**
      * Runtime: 5 ms, faster than 99.96% of Java online submissions for Search a 2D Matrix II.
      *
@@ -61,7 +61,7 @@ public class _0240_SearchA2DMatrixIi {
     }
 
     public static void main(String[] args) {
-        _0240_SearchA2DMatrixIi solution = new _0240_SearchA2DMatrixIi();
+        _0240_SearchA2DMatrixII solution = new _0240_SearchA2DMatrixII();
         int[][] m1 = {
                 {1, 4, 7, 11, 15},
                 {2, 5, 8, 12, 19},

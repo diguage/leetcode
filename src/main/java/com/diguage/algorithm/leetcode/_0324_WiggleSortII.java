@@ -32,7 +32,7 @@ import java.util.Arrays;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2020-01-26 23:29
  */
-public class _0324_WiggleSortIi {
+public class _0324_WiggleSortII {
 
     /**
      * Runtime: 3 ms, faster than 99.88% of Java online submissions for Wiggle Sort II.
@@ -62,7 +62,7 @@ public class _0324_WiggleSortIi {
 
 
     public static void main(String[] args) {
-        _0324_WiggleSortIi solution = new _0324_WiggleSortIi();
+        _0324_WiggleSortII solution = new _0324_WiggleSortII();
         int[] n1 = {1, 5, 1, 1, 6, 4};
         solution.wiggleSort(n1);
         System.out.println(Arrays.toString(n1));
