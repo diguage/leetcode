@@ -839,11 +839,11 @@
 |{source_base_url}/_0166_FractionToRecurringDecimal.java[Java]
 |Medium
 
-//|167
-//|{leetcode_base_url}/two-sum-ii-input-array-is-sorted/[Two Sum II - Input array is sorted]
-//|{source_base_url}/_0167_TwoSumIIInputArrayIsSorted.java[Java]
-//|Easy
-//
+|167
+|{leetcode_base_url}/two-sum-ii-input-array-is-sorted/[Two Sum II - Input array is sorted]
+|{source_base_url}/_0167_TwoSumIIInputArrayIsSorted.java[Java]
+|Easy
+
 //|168
 //|{leetcode_base_url}/excel-sheet-column-title/[Excel Sheet Column Title]
 //|{source_base_url}/_0168_ExcelSheetColumnTitle.java[Java]
