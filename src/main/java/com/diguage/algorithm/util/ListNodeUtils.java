@@ -63,6 +63,6 @@ public class ListNodeUtils {
         } else {
             System.out.println("(empty)");
         }
-        System.out.println("\n↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑");
+        System.out.println("↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑");
     }
 }

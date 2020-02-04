@@ -2,3 +2,24 @@
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-list/[LeetCode - Remove Duplicates from Sorted List]
 
+Given a sorted linked list, delete all duplicates such that each element appear only **once**.
+
+.Example 1:
+----
+Input: 1->1->2
+Output: 1->2
+----
+
+.Example 2:
+----
+Input: 1->1->2->3->3
+Output: 1->2->3
+----
+
+=== 解题分析
+
+思考如何把代码写的简单易懂。
+
+=== 附加题
+
+如果效仿 xref:0080-remove-duplicates-from-sorted-array-ii.adoc[80. Remove Duplicates from Sorted Array II] 要求每个元素保留不得两个，又该怎么做呢？

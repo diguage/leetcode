@@ -418,12 +418,12 @@
 //|{leetcode_base_url}/remove-duplicates-from-sorted-list-ii/[Remove Duplicates from Sorted List II]
 //|{source_base_url}/_0082_RemoveDuplicatesFromSortedListII.java[Java]
 //|Medium
-//
-//|83
-//|{leetcode_base_url}/remove-duplicates-from-sorted-list/[Remove Duplicates from Sorted List]
-//|{source_base_url}/_0083_RemoveDuplicatesFromSortedList.java[Java]
-//|Easy
-//
+
+|83
+|{leetcode_base_url}/remove-duplicates-from-sorted-list/[Remove Duplicates from Sorted List]
+|{source_base_url}/_0083_RemoveDuplicatesFromSortedList.java[Java]
+|Easy
+
 //|84
 //|{leetcode_base_url}/largest-rectangle-in-histogram/[Largest Rectangle in Histogram]
 //|{source_base_url}/_0084_LargestRectangleInHistogram.java[Java]
