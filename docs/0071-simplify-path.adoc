@@ -2,3 +2,57 @@
 
 https://leetcode.com/problems/simplify-path/[LeetCode - Simplify Path]
 
+Given an *absolute path* for a file (Unix-style), simplify it. Or in other words, convert it to the **canonical path**.
+
+In a UNIX-style file system, a period . refers to the current directory. Furthermore, a double period .. moves the directory up a level. For more information, see: https://www.linuxnix.com/abslute-path-vs-relative-path-in-linuxunix/[Absolute path vs relative path in Linux/Unix].
+
+Note that the returned canonical path must always begin with a slash `/`, and there must be only a single slash `/` between two directory names. The last directory name (if it exists) *must not* end with a trailing `/`. Also, the canonical path must be the *shortest* string representing the absolute path.
+
+.Example 1:
+----
+Input: "/home/"
+Output: "/home"
+Explanation: Note that there is no trailing slash after the last directory name.
+----
+
+.Example 2:
+----
+Input: "/../"
+Output: "/"
+Explanation: Going one level up from the root directory is a no-op, as the root level is the highest level you can go.
+----
+
+.Example 3:
+----
+Input: "/home//foo/"
+Output: "/home/foo"
+Explanation: In the canonical path, multiple consecutive slashes are replaced by a single one.
+----
+
+.Example 4:
+----
+Input: "/a/./b/../../c/"
+Output: "/c"
+----
+
+.Example 5:
+----
+Input: "/a/../../b/../c//.//"
+Output: "/c"
+----
+
+.Example 6:
+----
+Input: "/a//b////c/d//././/.."
+Output: "/a/b/c"
+----
+
+=== 解题分析
+
+有点想复杂了，只需要一个字符串分割，然后加一个辅助栈即可。
+
+不过，我感觉滑动窗口应该也可以，回头可以试试。
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/simplify-path/solution/java-yi-dong-yi-jie-xiao-lu-gao-by-spirit-9-18/[Java 易懂,易解,效率高 - 简化路径 - 力扣（LeetCode）]

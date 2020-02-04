@@ -359,11 +359,11 @@
 |{source_base_url}/_0070_ClimbingStairs.java[Java]
 |Easy
 
-//|71
-//|{leetcode_base_url}/simplify-path/[Simplify Path]
-//|{source_base_url}/_0071_SimplifyPath.java[Java]
-//|Medium
-//
+|71
+|{leetcode_base_url}/simplify-path/[Simplify Path]
+|{source_base_url}/_0071_SimplifyPath.java[Java]
+|Medium
+
 //|72
 //|{leetcode_base_url}/edit-distance/[Edit Distance]
 //|{source_base_url}/_0072_EditDistance.java[Java]
