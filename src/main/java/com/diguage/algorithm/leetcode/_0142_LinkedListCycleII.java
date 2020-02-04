@@ -16,7 +16,7 @@ import static com.diguage.algorithm.util.ListNodeUtils.build;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2020-01-28 08:52
  */
-public class _0142_LinkedListCycleIi {
+public class _0142_LinkedListCycleII {
 
     /**
      * Runtime: 1 ms, faster than 32.38% of Java online submissions for Linked List Cycle II.
@@ -56,7 +56,7 @@ public class _0142_LinkedListCycleIi {
     }
 
     public static void main(String[] args) {
-        _0142_LinkedListCycleIi solution = new _0142_LinkedListCycleIi();
+        _0142_LinkedListCycleII solution = new _0142_LinkedListCycleII();
         ListNode l1 = build(Arrays.asList(3, 2, 0, -4));
         l1.next.next.next.next = l1.next;
         ListNode listNode = solution.detectCycle(l1);

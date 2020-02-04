@@ -31,7 +31,7 @@ import java.util.stream.Collectors;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2018-07-19
  */
-public class _0015_ThreeSum {
+public class _0015_3Sum {
     public static List<List<Integer>> threeSum(int[] nums) {
         if (nums.length < 3) {
             return new ArrayList<>();

@@ -29,7 +29,7 @@ import java.util.List;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2019-10-26 01:34
  */
-public class _0119_PascalsTriangleIi {
+public class _0119_PascalSTriangleII {
     /**
      * Runtime: 1 ms, faster than 89.02% of Java online submissions for Pascal's Triangle II.
      *
@@ -55,7 +55,7 @@ public class _0119_PascalsTriangleIi {
     }
 
     public static void main(String[] args) {
-        _0119_PascalsTriangleIi solution = new _0119_PascalsTriangleIi();
+        _0119_PascalSTriangleII solution = new _0119_PascalSTriangleII();
         List<Integer> r1 = solution.getRow(3);
         System.out.println(Arrays.asList(1, 3, 3, 1).equals(r1) + " : " + Arrays.toString(r1.toArray()));
     }

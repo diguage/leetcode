@@ -39,7 +39,7 @@ import java.util.*;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2020-01-26 10:49
  */
-public class _0146_LruCache {
+public class _0146_LRUCache {
     /**
      * Runtime: 14 ms, faster than 90.57% of Java online submissions for LRU Cache.
      *
@@ -173,7 +173,7 @@ public class _0146_LruCache {
     }
 
     public static void main(String[] args) {
-        _0146_LruCache solution = new _0146_LruCache();
+        _0146_LRUCache solution = new _0146_LRUCache();
         solution.test();
     }
 }

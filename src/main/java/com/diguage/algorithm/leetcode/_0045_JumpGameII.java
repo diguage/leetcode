@@ -29,7 +29,7 @@ import java.util.Objects;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2019-10-26 11:29
  */
-public class _0045_JumpGameIi {
+public class _0045_JumpGameII {
     /**
      * Runtime: 1 ms, faster than 99.98% of Java online submissions for Jump Game II.
      *
@@ -55,7 +55,7 @@ public class _0045_JumpGameIi {
     // TODO: Dynamic Programming
 
     public static void main(String[] args) {
-        _0045_JumpGameIi solution = new _0045_JumpGameIi();
+        _0045_JumpGameII solution = new _0045_JumpGameII();
         int r1 = solution.jump(new int[]{2, 3, 1, 1, 4});
         System.out.println((r1 == 2) + " : " + r1);
     }

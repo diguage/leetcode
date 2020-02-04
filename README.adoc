@@ -3,7 +3,7 @@
 :source_base_url: link:./src/main/java/com/diguage/algorithm/leetcode
 
 
-== LeetCode Algorithm
+== LeetCode Problems
 
 [cols="1,7,1,1",options="header"]
 |===
@@ -81,7 +81,7 @@
 
 |15
 |{leetcode_base_url}/3sum/[3Sum]
-|{source_base_url}/_0015_ThreeSum.java[Java]
+|{source_base_url}/_0015_3Sum.java[Java]
 |Medium
 
 |16
@@ -206,7 +206,7 @@
 
 |40
 |{leetcode_base_url}/combination-sum-ii/[Combination Sum II]
-|{source_base_url}/_0040_CombinationSumIi.java[Java]
+|{source_base_url}/_0040_CombinationSumII.java[Java]
 |Medium
 
 |41
@@ -231,7 +231,7 @@
 
 |45
 |{leetcode_base_url}/jump-game-ii/[Jump Game II]
-|{source_base_url}/_0045_JumpGameIi.java[Java]
+|{source_base_url}/_0045_JumpGameII.java[Java]
 |Hard
 
 |46
@@ -241,7 +241,7 @@
 
 |47
 |{leetcode_base_url}/permutations-ii/[Permutations II]
-|{source_base_url}/_0047_PermutationsIi.java[Java]
+|{source_base_url}/_0047_PermutationsII.java[Java]
 |Medium
 
 |48
@@ -301,7 +301,7 @@
 
 |59
 |{leetcode_base_url}/spiral-matrix-ii/[Spiral Matrix II]
-|{source_base_url}/_0059_SpiralMatrixIi.java[Java]
+|{source_base_url}/_0059_SpiralMatrixII.java[Java]
 |Medium
 
 |60
@@ -321,7 +321,7 @@
 
 |63
 |{leetcode_base_url}/unique-paths-ii/[Unique Paths II]
-|{source_base_url}/_0063_UniquePathsIi.java[Java]
+|{source_base_url}/_0063_UniquePathsII.java[Java]
 |Medium
 
 |64
@@ -596,12 +596,12 @@
 
 |118
 |{leetcode_base_url}/pascals-triangle/[Pascal's Triangle]
-|{source_base_url}/_0118_PascalsTriangle.java[Java]
+|{source_base_url}/_0118_PascalSTriangle.java[Java]
 |Easy
 
 |119
 |{leetcode_base_url}/pascals-triangle-ii/[Pascal's Triangle II]
-|{source_base_url}/_0119_PascalsTriangleIi.java[Java]
+|{source_base_url}/_0119_PascalSTriangleII.java[Java]
 |Easy
 
 //|120
@@ -616,12 +616,12 @@
 
 |122
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-ii/[Best Time to Buy and Sell Stock II]
-|{source_base_url}/_0122_BestTimeToBuyAndSellStockIi.java[Java]
+|{source_base_url}/_0122_BestTimeToBuyAndSellStockII.java[Java]
 |Easy
 
 |123
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-iii/[Best Time to Buy and Sell Stock III]
-|{source_base_url}/_0123_BestTimeToBuyAndSellStockIii.java[Java]
+|{source_base_url}/_0123_BestTimeToBuyAndSellStockIII.java[Java]
 |Hard
 
 //|124
@@ -716,7 +716,7 @@
 
 |142
 |{leetcode_base_url}/linked-list-cycle-ii/[Linked List Cycle II]
-|{source_base_url}/_0142_LinkedListCycleIi.java[Java]
+|{source_base_url}/_0142_LinkedListCycleII.java[Java]
 |Medium
 
 //|143
@@ -736,7 +736,7 @@
 
 |146
 |{leetcode_base_url}/lru-cache/[LRU Cache]
-|{source_base_url}/_0146_LruCache.java[Java]
+|{source_base_url}/_0146_LRUCache.java[Java]
 |Medium
 
 //|147
@@ -2276,7 +2276,7 @@
 
 |454
 |{leetcode_base_url}/4sum-ii/[4Sum II]
-|{source_base_url}/_0454_FourSumII.java[Java]
+|{source_base_url}/_0454_4SumII.java[Java]
 |Medium
 
 //|455

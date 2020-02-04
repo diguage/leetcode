@@ -24,7 +24,7 @@ import static com.diguage.algorithm.util.PrintUtils.printMatrix;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2019-10-26 00:54
  */
-public class _0059_SpiralMatrixIi {
+public class _0059_SpiralMatrixII {
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Spiral Matrix II.
      *
@@ -60,7 +60,7 @@ public class _0059_SpiralMatrixIi {
     }
 
     public static void main(String[] args) {
-        _0059_SpiralMatrixIi solution = new _0059_SpiralMatrixIi();
+        _0059_SpiralMatrixII solution = new _0059_SpiralMatrixII();
         int[][] r1 = solution.generateMatrix(5);
         printMatrix(r1);
     }

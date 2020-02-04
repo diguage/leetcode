@@ -31,7 +31,7 @@ import java.util.List;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2019-10-25 01:04
  */
-public class _0118_PascalsTriangle {
+public class _0118_PascalSTriangle {
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Pascal's Triangle.
      *
@@ -60,7 +60,7 @@ public class _0118_PascalsTriangle {
     }
 
     public static void main(String[] args) {
-        _0118_PascalsTriangle solution = new _0118_PascalsTriangle();
+        _0118_PascalSTriangle solution = new _0118_PascalSTriangle();
         List<List<Integer>> r1 = solution.generate(5);
         System.out.println(Arrays.deepToString(r1.toArray()));
     }

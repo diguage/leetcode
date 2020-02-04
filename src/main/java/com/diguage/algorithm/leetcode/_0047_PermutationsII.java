@@ -10,7 +10,7 @@ import java.util.*;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2020-01-27 20:29
  */
-public class _0047_PermutationsIi {
+public class _0047_PermutationsII {
     /**
      * Runtime: 1 ms, faster than 100.00% of Java online submissions for Permutations II.
      * Memory Usage: 41.6 MB, less than 11.94% of Java online submissions for Permutations II.
@@ -52,7 +52,7 @@ public class _0047_PermutationsIi {
     }
 
     public static void main(String[] args) {
-        _0047_PermutationsIi solution = new _0047_PermutationsIi();
+        _0047_PermutationsII solution = new _0047_PermutationsII();
         int[] n1 = {1, 1, 2};
         System.out.println(solution.permuteUnique(n1));
     }

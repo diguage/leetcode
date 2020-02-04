@@ -33,7 +33,7 @@ import java.util.Map;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2020-01-11 13:02
  */
-public class _0454_FourSumII {
+public class _0454_4SumII {
     /**
      * Runtime: 94 ms, faster than 38.81% of Java online submissions for 4Sum II.
      *
@@ -60,7 +60,7 @@ public class _0454_FourSumII {
     }
 
     public static void main(String[] args) {
-        _0454_FourSumII solution = new _0454_FourSumII();
+        _0454_4SumII solution = new _0454_4SumII();
         int r1 = solution.fourSumCount(new int[]{1, 2}, new int[]{-2, -1}, new int[]{-1, 2}, new int[]{0, 2});
         System.out.println((r1 == 2) + " : " + r1);
     }

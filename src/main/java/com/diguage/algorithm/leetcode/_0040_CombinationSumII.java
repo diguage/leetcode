@@ -10,7 +10,7 @@ import java.util.*;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2020-01-27 19:20
  */
-public class _0040_CombinationSumIi {
+public class _0040_CombinationSumII {
     /**
      * Runtime: 2 ms, faster than 100.00% of Java online submissions for Combination Sum II.
      * Memory Usage: 39.5 MB, less than 54.74% of Java online submissions for Combination Sum II.
@@ -50,7 +50,7 @@ public class _0040_CombinationSumIi {
     }
 
     public static void main(String[] args) {
-        _0040_CombinationSumIi solution = new _0040_CombinationSumIi();
+        _0040_CombinationSumII solution = new _0040_CombinationSumII();
         int[] c3 = {1, 2};
         System.out.println(solution.combinationSum2(c3, 4));
 

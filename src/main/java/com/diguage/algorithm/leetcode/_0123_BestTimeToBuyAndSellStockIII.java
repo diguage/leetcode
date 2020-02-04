@@ -10,7 +10,7 @@ import java.util.Objects;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2020-01-28 20:14
  */
-public class _0123_BestTimeToBuyAndSellStockIii {
+public class _0123_BestTimeToBuyAndSellStockIII {
     /**
      * Runtime: 2 ms, faster than 47.09% of Java online submissions for Best Time to Buy and Sell Stock III.
      * Memory Usage: 42.5 MB, less than 7.32% of Java online submissions for Best Time to Buy and Sell Stock III.
@@ -54,7 +54,7 @@ public class _0123_BestTimeToBuyAndSellStockIii {
     }
 
     public static void main(String[] args) {
-        _0123_BestTimeToBuyAndSellStockIii solution = new _0123_BestTimeToBuyAndSellStockIii();
+        _0123_BestTimeToBuyAndSellStockIII solution = new _0123_BestTimeToBuyAndSellStockIII();
         int[] p1 = {3, 3, 5, 0, 0, 3, 1, 4};
         int r1 = solution.maxProfit(p1);
         System.out.println((r1 == 6) + " : " + r1);

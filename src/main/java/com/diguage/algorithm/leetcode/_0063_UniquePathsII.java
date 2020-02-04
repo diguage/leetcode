@@ -37,7 +37,7 @@ import java.util.Objects;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2019-10-26 23:50
  */
-public class _0063_UniquePathsIi {
+public class _0063_UniquePathsII {
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Unique Paths II.
      * <p>
@@ -151,7 +151,7 @@ public class _0063_UniquePathsIi {
     }
 
     public static void main(String[] args) {
-        _0063_UniquePathsIi solution = new _0063_UniquePathsIi();
+        _0063_UniquePathsII solution = new _0063_UniquePathsII();
         int[][] obstacleGrid = {{0, 0, 0}, {0, 1, 0}, {0, 0, 0}};
         int r1 = solution.uniquePathsWithObstacles(obstacleGrid);
         System.out.println((r1 == 2) + " : " + r1);
