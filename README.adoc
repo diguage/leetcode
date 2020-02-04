@@ -414,10 +414,10 @@
 |{source_base_url}/_0081_SearchInRotatedSortedArrayII.java[Java]
 |Medium
 
-//|82
-//|{leetcode_base_url}/remove-duplicates-from-sorted-list-ii/[Remove Duplicates from Sorted List II]
-//|{source_base_url}/_0082_RemoveDuplicatesFromSortedListII.java[Java]
-//|Medium
+|82
+|{leetcode_base_url}/remove-duplicates-from-sorted-list-ii/[Remove Duplicates from Sorted List II]
+|{source_base_url}/_0082_RemoveDuplicatesFromSortedListII.java[Java]
+|Medium
 
 |83
 |{leetcode_base_url}/remove-duplicates-from-sorted-list/[Remove Duplicates from Sorted List]

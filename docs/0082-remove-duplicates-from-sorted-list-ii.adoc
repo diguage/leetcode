@@ -2,3 +2,26 @@
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/[LeetCode - Remove Duplicates from Sorted List II]
 
+Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
+
+.Example 1:
+----
+Input: 1->2->3->3->4->4->5
+Output: 1->2->5
+----
+
+.Example 2:
+----
+Input: 1->1->1->2->3
+Output: 2->3
+----
+
+=== 解题分析
+
+快慢指针是个好办法！
+
+注意推敲满指针前进的条件！
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/solution/kuai-man-zhi-zhen-by-powcai-2/[递归与非递归 - 删除排序链表中的重复元素 II - 力扣（LeetCode）]
