@@ -11,47 +11,47 @@
 
 |1
 |{leetcode_base_url}/two-sum/[Two Sum]
-|{source_base_url}/TwoSum.java[Java]
+|{source_base_url}/_0001_TwoSum.java[Java]
 |Easy
 
 |2
 |{leetcode_base_url}/add-two-numbers/[Add Two Numbers]
-|{source_base_url}/AddTwoNumbers.java[Java]
+|{source_base_url}/_0002_AddTwoNumbers.java[Java]
 |Medium
 
 |3
 |{leetcode_base_url}/longest-substring-without-repeating-characters/[Longest Substring Without Repeating Characters]
-|{source_base_url}/LongestSubstringWithoutRepeatingCharacters.java[Java]
+|{source_base_url}/_0003_LongestSubstringWithoutRepeatingCharacters.java[Java]
 |Medium
 
 |4
 |{leetcode_base_url}/median-of-two-sorted-arrays/[Median of Two Sorted Arrays]
-|{source_base_url}/MedianOfTwoSortedArrays.java[Java]
+|{source_base_url}/_0004_MedianOfTwoSortedArrays.java[Java]
 |Hard
 
 |5
 |{leetcode_base_url}/longest-palindromic-substring/[Longest Palindromic Substring]
-|{source_base_url}/LongestPalindromicSubstring.java[Java]
+|{source_base_url}/_0005_LongestPalindromicSubstring.java[Java]
 |Medium
 
 |6
 |{leetcode_base_url}/zigzag-conversion/[ZigZag Conversion]
-|{source_base_url}/ZigZagConversion.java[Java]
+|{source_base_url}/_0006_ZigZagConversion.java[Java]
 |Medium
 
 |7
 |{leetcode_base_url}/reverse-integer/[Reverse Integer]
-|{source_base_url}/ReverseInteger.java[Java]
+|{source_base_url}/_0007_ReverseInteger.java[Java]
 |Easy
 
 |8
 |{leetcode_base_url}/string-to-integer-atoi/[String to Integer (atoi)]
-|{source_base_url}/StringToIntegerAtoi.java[Java]
+|{source_base_url}/_0008_StringToIntegerAtoi.java[Java]
 |Medium
 
 |9
 |{leetcode_base_url}/palindrome-number/[Palindrome Number]
-|{source_base_url}/PalindromeNumber.java[Java]
+|{source_base_url}/_0009_PalindromeNumber.java[Java]
 |Easy
 
 //|10
@@ -61,67 +61,67 @@
 
 |11
 |{leetcode_base_url}/container-with-most-water/[Container With Most Water]
-|{source_base_url}/ContainerWithMostWater.java[Java]
+|{source_base_url}/_0011_ContainerWithMostWater.java[Java]
 |Medium
 
 |12
 |{leetcode_base_url}/integer-to-roman/[Integer to Roman]
-|{source_base_url}/IntegerToRoman.java[Java]
+|{source_base_url}/_0012_IntegerToRoman.java[Java]
 |Medium
 
 |13
 |{leetcode_base_url}/roman-to-integer/[Roman to Integer]
-|{source_base_url}/RomanToInteger.java[Java]
+|{source_base_url}/_0013_RomanToInteger.java[Java]
 |Easy
 
 |14
 |{leetcode_base_url}/longest-common-prefix/[Longest Common Prefix]
-|{source_base_url}/LongestCommonPrefix.java[Java]
+|{source_base_url}/_0014_LongestCommonPrefix.java[Java]
 |Easy
 
 |15
 |{leetcode_base_url}/3sum/[3Sum]
-|{source_base_url}/ThreeSum.java[Java]
+|{source_base_url}/_0015_ThreeSum.java[Java]
 |Medium
 
 |16
 |{leetcode_base_url}/3sum-closest/[3Sum Closest]
-|{source_base_url}/ThreeSumClosest.java[Java]
+|{source_base_url}/_0016_ThreeSumClosest.java[Java]
 |Medium
 
 |17
 |{leetcode_base_url}/letter-combinations-of-a-phone-number/[Letter Combinations of a Phone Number]
-|{source_base_url}/LetterCombinationsOfAPhoneNumber.java[Java]
+|{source_base_url}/_0017_LetterCombinationsOfAPhoneNumber.java[Java]
 |Medium
 
 |18
 |{leetcode_base_url}/4sum/[4Sum]
-|{source_base_url}/FourSum.java[Java]
+|{source_base_url}/_0018_FourSum.java[Java]
 |Medium
 
 |19
 |{leetcode_base_url}/remove-nth-node-from-end-of-list/[Remove Nth Node From End of List]
-|{source_base_url}/RemoveNthNodeFromEndOfList.java[Java]
+|{source_base_url}/_0019_RemoveNthNodeFromEndOfList.java[Java]
 |Medium
 
 |20
 |{leetcode_base_url}/valid-parentheses/[Valid Parentheses]
-|{source_base_url}/ValidParentheses.java[Java]
+|{source_base_url}/_0020_ValidParentheses.java[Java]
 |Easy
 
 |21
 |{leetcode_base_url}/merge-two-sorted-lists/[Merge Two Sorted Lists]
-|{source_base_url}/MergeTwoSortedLists.java[Java]
+|{source_base_url}/_0021_MergeTwoSortedLists.java[Java]
 |Easy
 
 |22
 |{leetcode_base_url}/generate-parentheses/[Generate Parentheses]
-|{source_base_url}/GenerateParentheses.java[Java]
+|{source_base_url}/_0022_GenerateParentheses.java[Java]
 |Medium
 
 |23
 |{leetcode_base_url}/merge-k-sorted-lists/[Merge k Sorted Lists]
-|{source_base_url}/MergeKSortedLists.java[Java]
+|{source_base_url}/_0023_MergeKSortedLists.java[Java]
 |Hard
 
 |24
@@ -136,34 +136,34 @@
 
 |26
 |{leetcode_base_url}/remove-duplicates-from-sorted-array/[Remove Duplicates from Sorted Array]
-|{source_base_url}/RemoveDuplicatesFromSortedArray.java[Java]
+|{source_base_url}/_0026_RemoveDuplicatesFromSortedArray.java[Java]
 |Easy
 
 |27
 |{leetcode_base_url}/remove-element/[Remove Element]
-|{source_base_url}/RemoveElement.java[Java]
+|{source_base_url}/_0027_RemoveElement.java[Java]
 |Easy
 
 |28
 |{leetcode_base_url}/implement-strstr/[Implement strStr()]
-|{source_base_url}/ImplementStrStr.java[Java]
+|{source_base_url}/_0028_ImplementStrStr.java[Java]
 |Easy
 
 |29
 |{leetcode_base_url}/divide-two-integers/[Divide Two Integers]
-|{source_base_url}/DivideTwoIntegers.java[Java]
+|{source_base_url}/_0029_DivideTwoIntegers.java[Java]
 |Medium
 
 //|30
 //|{leetcode_base_url}/substring-with-concatenation-of-all-words/[Substring with Concatenation of All Words]
 //|{source_base_url}/SubstringWithConcatenationOfAllWords.java[Java]
 //|Hard
-//
-//|31
-//|{leetcode_base_url}/next-permutation/[Next Permutation]
-//|{source_base_url}/NextPermutation.java[Java]
-//|Medium
-//
+
+|31
+|{leetcode_base_url}/next-permutation/[Next Permutation]
+|{source_base_url}/_0031_NextPermutation.java[Java]
+|Medium
+
 //|32
 //|{leetcode_base_url}/longest-valid-parentheses/[Longest Valid Parentheses]
 //|{source_base_url}/LongestValidParentheses.java[Java]
@@ -171,22 +171,22 @@
 
 |33
 |{leetcode_base_url}/search-in-rotated-sorted-array/[Search in Rotated Sorted Array]
-|{source_base_url}/SearchInRotatedSortedArray.java[Java]
+|{source_base_url}/_0033_SearchInRotatedSortedArray.java[Java]
 |Medium
 
 |34
 |{leetcode_base_url}/find-first-and-last-position-of-element-in-sorted-array/[Find First and Last Position of Element in Sorted Array]
-|{source_base_url}/FindFirstAndLastPositionOfElementInSortedArray.java[Java]
+|{source_base_url}/_0034_FindFirstAndLastPositionOfElementInSortedArray.java[Java]
 |Medium
 
 |35
 |{leetcode_base_url}/search-insert-position/[Search Insert Position]
-|{source_base_url}/SearchInsertPosition.java[Java]
+|{source_base_url}/_0035_SearchInsertPosition.java[Java]
 |Easy
 
 |36
 |{leetcode_base_url}/valid-sudoku/[Valid Sudoku]
-|{source_base_url}/ValidSudoku.java[Java]
+|{source_base_url}/_0036_ValidSudoku.java[Java]
 |Medium
 
 //|37
@@ -196,22 +196,22 @@
 
 |38
 |{leetcode_base_url}/count-and-say/[Count and Say]
-|{source_base_url}/CountAndSay.java[Java]
+|{source_base_url}/_0038_CountAndSay.java[Java]
 |Easy
 
 |39
 |{leetcode_base_url}/combination-sum/[Combination Sum]
-|{source_base_url}/CombinationSum.java[Java]
+|{source_base_url}/_0039_CombinationSum.java[Java]
 |Medium
 
 |40
 |{leetcode_base_url}/combination-sum-ii/[Combination Sum II]
-|{source_base_url}/CombinationSumIi.java[Java]
+|{source_base_url}/_0040_CombinationSumIi.java[Java]
 |Medium
 
 |41
 |{leetcode_base_url}/first-missing-positive/[First Missing Positive]
-|{source_base_url}/FirstMissingPositive.java[Java]
+|{source_base_url}/_0041_FirstMissingPositive.java[Java]
 |Hard
 
 //|42
@@ -231,32 +231,32 @@
 
 |45
 |{leetcode_base_url}/jump-game-ii/[Jump Game II]
-|{source_base_url}/JumpGameIi.java[Java]
+|{source_base_url}/_0045_JumpGameIi.java[Java]
 |Hard
 
 |46
 |{leetcode_base_url}/permutations/[Permutations]
-|{source_base_url}/Permutations.java[Java]
+|{source_base_url}/_0046_Permutations.java[Java]
 |Medium
 
 |47
 |{leetcode_base_url}/permutations-ii/[Permutations II]
-|{source_base_url}/PermutationsIi.java[Java]
+|{source_base_url}/_0047_PermutationsIi.java[Java]
 |Medium
 
 |48
 |{leetcode_base_url}/rotate-image/[Rotate Image]
-|{source_base_url}/RotateImage.java[Java]
+|{source_base_url}/_0048_RotateImage.java[Java]
 |Medium
 
 |49
 |{leetcode_base_url}/group-anagrams/[Group Anagrams]
-|{source_base_url}/GroupAnagrams.java[Java]
+|{source_base_url}/_0049_GroupAnagrams.java[Java]
 |Medium
 
 |50
 |{leetcode_base_url}/powx-n/[Pow(x, n)]
-|{source_base_url}/PowXN.java[Java]
+|{source_base_url}/_0050_PowXN.java[Java]
 |Medium
 
 //|51
@@ -271,22 +271,22 @@
 
 |53
 |{leetcode_base_url}/maximum-subarray/[Maximum Subarray]
-|{source_base_url}/MaximumSubarray.java[Java]
+|{source_base_url}/_0053_MaximumSubarray.java[Java]
 |Easy
 
 |54
 |{leetcode_base_url}/spiral-matrix/[Spiral Matrix]
-|{source_base_url}/SpiralMatrix.java[Java]
+|{source_base_url}/_0054_SpiralMatrix.java[Java]
 |Medium
 
 |55
 |{leetcode_base_url}/jump-game/[Jump Game]
-|{source_base_url}/JumpGame.java[Java]
+|{source_base_url}/_0055_JumpGame.java[Java]
 |Medium
 
 |56
 |{leetcode_base_url}/merge-intervals/[Merge Intervals]
-|{source_base_url}/MergeIntervals.java[Java]
+|{source_base_url}/_0056_MergeIntervals.java[Java]
 |Medium
 
 //|57
@@ -301,7 +301,7 @@
 
 |59
 |{leetcode_base_url}/spiral-matrix-ii/[Spiral Matrix II]
-|{source_base_url}/SpiralMatrixIi.java[Java]
+|{source_base_url}/_0059_SpiralMatrixIi.java[Java]
 |Medium
 
 |60
@@ -316,17 +316,17 @@
 
 |62
 |{leetcode_base_url}/unique-paths/[Unique Paths]
-|{source_base_url}/UniquePaths.java[Java]
+|{source_base_url}/_0062_UniquePaths.java[Java]
 |Medium
 
 |63
 |{leetcode_base_url}/unique-paths-ii/[Unique Paths II]
-|{source_base_url}/UniquePathsIi.java[Java]
+|{source_base_url}/_0063_UniquePathsIi.java[Java]
 |Medium
 
 |64
 |{leetcode_base_url}/minimum-path-sum/[Minimum Path Sum]
-|{source_base_url}/MinimumPathSum.java[Java]
+|{source_base_url}/_0064_MinimumPathSum.java[Java]
 |Medium
 
 //|65
@@ -336,7 +336,7 @@
 
 |66
 |{leetcode_base_url}/plus-one/[Plus One]
-|{source_base_url}/PlusOne.java[Java]
+|{source_base_url}/_0066_PlusOne.java[Java]
 |Easy
 
 |67
@@ -351,12 +351,12 @@
 
 |69
 |{leetcode_base_url}/sqrtx/[Sqrt(x)]
-|{source_base_url}/SqrtX.java[Java]
+|{source_base_url}/_0069_SqrtX.java[Java]
 |Easy
 
 |70
 |{leetcode_base_url}/climbing-stairs/[Climbing Stairs]
-|{source_base_url}/ClimbingStairs.java[Java]
+|{source_base_url}/_0070_ClimbingStairs.java[Java]
 |Easy
 
 //|71
@@ -371,7 +371,7 @@
 
 |73
 |{leetcode_base_url}/set-matrix-zeroes/[Set Matrix Zeroes]
-|{source_base_url}/SetMatrixZeroes.java[Java]
+|{source_base_url}/_0073_SetMatrixZeroes.java[Java]
 |Medium
 
 //|74
@@ -381,12 +381,12 @@
 
 |75
 |{leetcode_base_url}/sort-colors/[Sort Colors]
-|{source_base_url}/SortColors.java[Java]
+|{source_base_url}/_0075_SortColors.java[Java]
 |Medium
 
 |76
 |{leetcode_base_url}/minimum-window-substring/[Minimum Window Substring]
-|{source_base_url}/MinimumWindowSubstring.java[Java]
+|{source_base_url}/_0076_MinimumWindowSubstring.java[Java]
 |Hard
 
 //|77
@@ -396,12 +396,12 @@
 
 |78
 |{leetcode_base_url}/subsets/[Subsets]
-|{source_base_url}/Subsets.java[Java]
+|{source_base_url}/_0078_Subsets.java[Java]
 |Medium
 
 |79
 |{leetcode_base_url}/word-search/[Word Search]
-|{source_base_url}/WordSearch.java[Java]
+|{source_base_url}/_0079_WordSearch.java[Java]
 |Medium
 
 //|80
@@ -446,7 +446,7 @@
 
 |88
 |{leetcode_base_url}/merge-sorted-array/[Merge Sorted Array]
-|{source_base_url}/MergeSortedArray.java[Java]
+|{source_base_url}/_0088_MergeSortedArray.java[Java]
 |Easy
 
 //|89
@@ -461,7 +461,7 @@
 
 |91
 |{leetcode_base_url}/decode-ways/[Decode Ways]
-|{source_base_url}/DecodeWays.java[Java]
+|{source_base_url}/_0091_DecodeWays.java[Java]
 |Medium
 
 //|92
@@ -476,7 +476,7 @@
 
 |94
 |{leetcode_base_url}/binary-tree-inorder-traversal/[Binary Tree Inorder Traversal]
-|{source_base_url}/BinaryTreeInorderTraversal.java[Java]
+|{source_base_url}/_0094_BinaryTreeInorderTraversal.java[Java]
 |Medium
 
 //|95
@@ -486,7 +486,7 @@
 
 |96
 |{leetcode_base_url}/unique-binary-search-trees/[Unique Binary Search Trees]
-|{source_base_url}/UniqueBinarySearchTrees.java[Java]
+|{source_base_url}/_0096_UniqueBinarySearchTrees.java[Java]
 |Medium
 
 //|97
@@ -496,7 +496,7 @@
 
 |98
 |{leetcode_base_url}/validate-binary-search-tree/[Validate Binary Search Tree]
-|{source_base_url}/ValidateBinarySearchTree.java[Java]
+|{source_base_url}/_0098_ValidateBinarySearchTree.java[Java]
 |Medium
 
 //|99
@@ -511,27 +511,27 @@
 
 |101
 |{leetcode_base_url}/symmetric-tree/[Symmetric Tree]
-|{source_base_url}/SymmetricTree.java[Java]
+|{source_base_url}/_0101_SymmetricTree.java[Java]
 |Easy
 
 |102
 |{leetcode_base_url}/binary-tree-level-order-traversal/[Binary Tree Level Order Traversal]
-|{source_base_url}/BinaryTreeLevelOrderTraversal.java[Java]
+|{source_base_url}/_0102_BinaryTreeLevelOrderTraversal.java[Java]
 |Medium
 
 |103
 |{leetcode_base_url}/binary-tree-zigzag-level-order-traversal/[Binary Tree Zigzag Level Order Traversal]
-|{source_base_url}/BinaryTreeZigzagLevelOrderTraversal.java[Java]
+|{source_base_url}/_0103_BinaryTreeZigzagLevelOrderTraversal.java[Java]
 |Medium
 
 |104
 |{leetcode_base_url}/maximum-depth-of-binary-tree/[Maximum Depth of Binary Tree]
-|{source_base_url}/MaximumDepthOfBinaryTree.java[Java]
+|{source_base_url}/_0104_MaximumDepthOfBinaryTree.java[Java]
 |Easy
 
 |105
 |{leetcode_base_url}/construct-binary-tree-from-preorder-and-inorder-traversal/[Construct Binary Tree from Preorder and Inorder Traversal]
-|{source_base_url}/ConstructBinaryTreeFromPreorderAndInorderTraversal.java[Java]
+|{source_base_url}/_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java[Java]
 |Medium
 
 //|106
@@ -546,7 +546,7 @@
 
 |108
 |{leetcode_base_url}/convert-sorted-array-to-binary-search-tree/[Convert Sorted Array to Binary Search Tree]
-|{source_base_url}/ConvertSortedArrayToBinarySearchTree.java[Java]
+|{source_base_url}/_0108_ConvertSortedArrayToBinarySearchTree.java[Java]
 |Easy
 
 //|109
@@ -576,7 +576,7 @@
 
 |114
 |{leetcode_base_url}/flatten-binary-tree-to-linked-list/[Flatten Binary Tree to Linked List]
-|{source_base_url}/FlattenBinaryTreeToLinkedList.java[Java]
+|{source_base_url}/_0114_FlattenBinaryTreeToLinkedList.java[Java]
 |Medium
 
 //|115
@@ -586,7 +586,7 @@
 
 |116
 |{leetcode_base_url}/populating-next-right-pointers-in-each-node/[Populating Next Right Pointers in Each Node]
-|{source_base_url}/PopulatingNextRightPointersInEachNode.java[Java]
+|{source_base_url}/_0116_PopulatingNextRightPointersInEachNode.java[Java]
 |Medium
 
 //|117
@@ -596,12 +596,12 @@
 
 |118
 |{leetcode_base_url}/pascals-triangle/[Pascal's Triangle]
-|{source_base_url}/PascalsTriangle.java[Java]
+|{source_base_url}/_0118_PascalsTriangle.java[Java]
 |Easy
 
 |119
 |{leetcode_base_url}/pascals-triangle-ii/[Pascal's Triangle II]
-|{source_base_url}/PascalsTriangleIi.java[Java]
+|{source_base_url}/_0119_PascalsTriangleIi.java[Java]
 |Easy
 
 //|120
@@ -611,17 +611,17 @@
 
 |121
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock/[Best Time to Buy and Sell Stock]
-|{source_base_url}/BestTimeToBuyAndSellStock.java[Java]
+|{source_base_url}/_0121_BestTimeToBuyAndSellStock.java[Java]
 |Easy
 
 |122
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-ii/[Best Time to Buy and Sell Stock II]
-|{source_base_url}/BestTimeToBuyAndSellStockIi.java[Java]
+|{source_base_url}/_0122_BestTimeToBuyAndSellStockIi.java[Java]
 |Easy
 
 |123
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-iii/[Best Time to Buy and Sell Stock III]
-|{source_base_url}/BestTimeToBuyAndSellStockIii.java[Java]
+|{source_base_url}/_0123_BestTimeToBuyAndSellStockIii.java[Java]
 |Hard
 
 //|124
@@ -631,7 +631,7 @@
 
 |125
 |{leetcode_base_url}/valid-palindrome/[Valid Palindrome]
-|{source_base_url}/ValidPalindrome.java[Java]
+|{source_base_url}/_0125_ValidPalindrome.java[Java]
 |Easy
 
 //|126
@@ -641,7 +641,7 @@
 
 |127
 |{leetcode_base_url}/word-ladder/[Word Ladder]
-|{source_base_url}/WordLadder.java[Java]
+|{source_base_url}/_0127_WordLadder.java[Java]
 |Medium
 
 //|128
@@ -656,12 +656,12 @@
 
 |130
 |{leetcode_base_url}/surrounded-regions/[Surrounded Regions]
-|{source_base_url}/SurroundedRegions.java[Java]
+|{source_base_url}/_0130_SurroundedRegions.java[Java]
 |Medium
 
 |131
 |{leetcode_base_url}/palindrome-partitioning/[Palindrome Partitioning]
-|{source_base_url}/PalindromePartitioning.java[Java]
+|{source_base_url}/_0131_PalindromePartitioning.java[Java]
 |Medium
 
 //|132
@@ -676,7 +676,7 @@
 
 |134
 |{leetcode_base_url}/gas-station/[Gas Station]
-|{source_base_url}/GasStation.java[Java]
+|{source_base_url}/_0134_GasStation.java[Java]
 |Medium
 
 //|135
@@ -686,7 +686,7 @@
 
 |136
 |{leetcode_base_url}/single-number/[Single Number]
-|{source_base_url}/SingleNumber.java[Java]
+|{source_base_url}/_0136_SingleNumber.java[Java]
 |Easy
 
 //|137
@@ -696,12 +696,12 @@
 
 |138
 |{leetcode_base_url}/copy-list-with-random-pointer/[Copy List with Random Pointer]
-|{source_base_url}/CopyListWithRandomPointer.java[Java]
+|{source_base_url}/_0138_CopyListWithRandomPointer.java[Java]
 |Medium
 
 |139
 |{leetcode_base_url}/word-break/[Word Break]
-|{source_base_url}/WordBreak.java[Java]
+|{source_base_url}/_0139_WordBreak.java[Java]
 |Medium
 
 //|140
@@ -711,12 +711,12 @@
 
 |141
 |{leetcode_base_url}/linked-list-cycle/[Linked List Cycle]
-|{source_base_url}/LinkedListCycle.java[Java]
+|{source_base_url}/_0141_LinkedListCycle.java[Java]
 |Easy
 
 |142
 |{leetcode_base_url}/linked-list-cycle-ii/[Linked List Cycle II]
-|{source_base_url}/LinkedListCycleIi.java[Java]
+|{source_base_url}/_0142_LinkedListCycleIi.java[Java]
 |Medium
 
 //|143
@@ -736,7 +736,7 @@
 
 |146
 |{leetcode_base_url}/lru-cache/[LRU Cache]
-|{source_base_url}/LruCache.java[Java]
+|{source_base_url}/_0146_LruCache.java[Java]
 |Medium
 
 //|147
@@ -746,7 +746,7 @@
 
 |148
 |{leetcode_base_url}/sort-list/[Sort List]
-|{source_base_url}/SortList.java[Java]
+|{source_base_url}/_0148_SortList.java[Java]
 |Medium
 
 //|149
@@ -756,7 +756,7 @@
 
 |150
 |{leetcode_base_url}/evaluate-reverse-polish-notation/[Evaluate Reverse Polish Notation]
-|{source_base_url}/EvaluateReversePolishNotation.java[Java]
+|{source_base_url}/_0150_EvaluateReversePolishNotation.java[Java]
 |Medium
 
 //|151
@@ -766,7 +766,7 @@
 
 |152
 |{leetcode_base_url}/maximum-product-subarray/[Maximum Product Subarray]
-|{source_base_url}/MaximumProductSubarray.java[Java]
+|{source_base_url}/_0152_MaximumProductSubarray.java[Java]
 |Medium
 
 //|153
@@ -781,7 +781,7 @@
 
 |155
 |{leetcode_base_url}/min-stack/[Min Stack]
-|{source_base_url}/MinStack.java[Java]
+|{source_base_url}/_0155_MinStack.java[Java]
 |Easy
 
 //|156
@@ -806,7 +806,7 @@
 
 |160
 |{leetcode_base_url}/intersection-of-two-linked-lists/[Intersection of Two Linked Lists]
-|{source_base_url}/IntersectionOfTwoLinkedLists.java[Java]
+|{source_base_url}/_0160_IntersectionOfTwoLinkedLists.java[Java]
 |Easy
 
 //|161
@@ -816,7 +816,7 @@
 
 |162
 |{leetcode_base_url}/find-peak-element/[Find Peak Element]
-|{source_base_url}/FindPeakElement.java[Java]
+|{source_base_url}/_0162_FindPeakElement.java[Java]
 |Medium
 
 //|163
@@ -836,7 +836,7 @@
 
 |166
 |{leetcode_base_url}/fraction-to-recurring-decimal/[Fraction to Recurring Decimal]
-|{source_base_url}/FractionToRecurringDecimal.java[Java]
+|{source_base_url}/_0166_FractionToRecurringDecimal.java[Java]
 |Medium
 
 //|167
@@ -851,7 +851,7 @@
 
 |169
 |{leetcode_base_url}/majority-element/[Majority Element]
-|{source_base_url}/MajorityElement.java[Java]
+|{source_base_url}/_0169_MajorityElement.java[Java]
 |Easy
 
 //|170
@@ -861,12 +861,12 @@
 
 |171
 |{leetcode_base_url}/excel-sheet-column-number/[Excel Sheet Column Number]
-|{source_base_url}/ExcelSheetColumnNumber.java[Java]
+|{source_base_url}/_0171_ExcelSheetColumnNumber.java[Java]
 |Easy
 
 |172
 |{leetcode_base_url}/factorial-trailing-zeroes/[Factorial Trailing Zeroes]
-|{source_base_url}/FactorialTrailingZeroes.java[Java]
+|{source_base_url}/_0172_FactorialTrailingZeroes.java[Java]
 |Easy
 
 //|173
@@ -881,12 +881,12 @@
 
 |175
 |{leetcode_base_url}/combine-two-tables/[Combine Two Tables]
-|{source_base_url}/CombineTwoTables.sql[SQL]
+|{source_base_url}/_0175_CombineTwoTables.sql[SQL]
 |Easy
 
 |176
 |{leetcode_base_url}/second-highest-salary/[Second Highest Salary]
-|{source_base_url}/SecondHighestSalary.sql[SQL]
+|{source_base_url}/_0176_SecondHighestSalary.sql[SQL]
 |Easy
 
 //|177
@@ -901,7 +901,7 @@
 
 |179
 |{leetcode_base_url}/largest-number/[Largest Number]
-|{source_base_url}/LargestNumber.java[Java]
+|{source_base_url}/_0179_LargestNumber.java[Java]
 |Medium
 
 //|180
@@ -946,22 +946,22 @@
 
 |188
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-iv/[Best Time to Buy and Sell Stock IV]
-|{source_base_url}/BestTimeToBuyAndSellStockIV.java[Java]
+|{source_base_url}/_0188_BestTimeToBuyAndSellStockIV.java[Java]
 |Hard
 
 |189
 |{leetcode_base_url}/rotate-array/[Rotate Array]
-|{source_base_url}/RotateArray.java[Java]
+|{source_base_url}/_0189_RotateArray.java[Java]
 |Easy
 
 |190
 |{leetcode_base_url}/reverse-bits/[Reverse Bits]
-|{source_base_url}/ReverseBits.java[Java]
+|{source_base_url}/_0190_ReverseBits.java[Java]
 |Easy
 
 |191
 |{leetcode_base_url}/number-of-1-bits/[Number of 1 Bits]
-|{source_base_url}/NumberOf1Bits.java[Java]
+|{source_base_url}/_0191_NumberOf1Bits.java[Java]
 |Easy
 
 //|192
@@ -996,7 +996,7 @@
 
 |198
 |{leetcode_base_url}/house-robber/[House Robber]
-|{source_base_url}/HouseRobber.java[Java]
+|{source_base_url}/_0198_HouseRobber.java[Java]
 |Easy
 
 //|199
@@ -1006,7 +1006,7 @@
 
 |200
 |{leetcode_base_url}/number-of-islands/[Number of Islands]
-|{source_base_url}/NumberOfIslands.java[Java]
+|{source_base_url}/_0200_NumberOfIslands.java[Java]
 |Medium
 
 //|201
@@ -1016,7 +1016,7 @@
 
 |202
 |{leetcode_base_url}/happy-number/[Happy Number]
-|{source_base_url}/HappyNumber.java[Java]
+|{source_base_url}/_0202_HappyNumber.java[Java]
 |Easy
 
 //|203
@@ -1026,7 +1026,7 @@
 
 |204
 |{leetcode_base_url}/count-primes/[Count Primes]
-|{source_base_url}/CountPrimes.java[Java]
+|{source_base_url}/_0204_CountPrimes.java[Java]
 |Easy
 
 //|205
@@ -1036,17 +1036,17 @@
 
 |206
 |{leetcode_base_url}/reverse-linked-list/[Reverse Linked List]
-|{source_base_url}/ReverseLinkedList.java[Java]
+|{source_base_url}/_0206_ReverseLinkedList.java[Java]
 |Easy
 
 |207
 |{leetcode_base_url}/course-schedule/[Course Schedule]
-|{source_base_url}/CourseSchedule.java[Java]
+|{source_base_url}/_0207_CourseSchedule.java[Java]
 |Medium
 
 |208
 |{leetcode_base_url}/implement-trie-prefix-tree/[Implement Trie (Prefix Tree)]
-|{source_base_url}/ImplementTriePrefixTree.java[Java]
+|{source_base_url}/_0208_ImplementTriePrefixTree.java[Java]
 |Medium
 
 //|209
@@ -1056,7 +1056,7 @@
 
 |210
 |{leetcode_base_url}/course-schedule-ii/[Course Schedule II]
-|{source_base_url}/CourseScheduleIi.java[Java]
+|{source_base_url}/_0210_CourseScheduleIi.java[Java]
 |Medium
 
 //|211
@@ -1081,7 +1081,7 @@
 
 |215
 |{leetcode_base_url}/kth-largest-element-in-an-array/[Kth Largest Element in an Array]
-|{source_base_url}/KthLargestElementInAnArray.java[Java]
+|{source_base_url}/_0215_KthLargestElementInAnArray.java[Java]
 |Medium
 
 //|216
@@ -1091,7 +1091,7 @@
 
 |217
 |{leetcode_base_url}/contains-duplicate/[Contains Duplicate]
-|{source_base_url}/ContainsDuplicate.java[Java]
+|{source_base_url}/_0217_ContainsDuplicate.java[Java]
 |Easy
 
 //|218
@@ -1111,7 +1111,7 @@
 
 |221
 |{leetcode_base_url}/maximal-square/[Maximal Square]
-|{source_base_url}/MaximalSquare.java[Java]
+|{source_base_url}/_0221_MaximalSquare.java[Java]
 |Medium
 
 //|222
@@ -1136,12 +1136,12 @@
 
 |226
 |{leetcode_base_url}/invert-binary-tree/[Invert Binary Tree]
-|{source_base_url}/InvertBinaryTree.java[Java]
+|{source_base_url}/_0226_InvertBinaryTree.java[Java]
 |Easy
 
 |227
 |{leetcode_base_url}/basic-calculator-ii/[Basic Calculator II]
-|{source_base_url}/BasicCalculatorIi.java[Java]
+|{source_base_url}/_0227_BasicCalculatorIi.java[Java]
 |Medium
 
 //|228
@@ -1156,7 +1156,7 @@
 
 |230
 |{leetcode_base_url}/kth-smallest-element-in-a-bst/[Kth Smallest Element in a BST]
-|{source_base_url}/KthSmallestElementInABst.java[Java]
+|{source_base_url}/_0230_KthSmallestElementInABst.java[Java]
 |Medium
 
 //|231
@@ -1176,7 +1176,7 @@
 
 |234
 |{leetcode_base_url}/palindrome-linked-list/[Palindrome Linked List]
-|{source_base_url}/PalindromeLinkedList.java[Java]
+|{source_base_url}/_0234_PalindromeLinkedList.java[Java]
 |Easy
 
 //|235
@@ -1186,27 +1186,27 @@
 
 |236
 |{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree/[Lowest Common Ancestor of a Binary Tree]
-|{source_base_url}/LowestCommonAncestorOfABinaryTree.java[Java]
+|{source_base_url}/_0236_LowestCommonAncestorOfABinaryTree.java[Java]
 |Medium
 
 |237
 |{leetcode_base_url}/delete-node-in-a-linked-list/[Delete Node in a Linked List]
-|{source_base_url}/DeleteNodeInALinkedList.java[Java]
+|{source_base_url}/_0237_DeleteNodeInALinkedList.java[Java]
 |Easy
 
 |238
 |{leetcode_base_url}/product-of-array-except-self/[Product of Array Except Self]
-|{source_base_url}/ProductOfArrayExceptSelf.java[Java]
+|{source_base_url}/_0238_ProductOfArrayExceptSelf.java[Java]
 |Medium
 
 |239
 |{leetcode_base_url}/sliding-window-maximum/[Sliding Window Maximum]
-|{source_base_url}/SlidingWindowMaximum.java[Java]
+|{source_base_url}/_0239_SlidingWindowMaximum.java[Java]
 |Hard
 
 |240
 |{leetcode_base_url}/search-a-2d-matrix-ii/[Search a 2D Matrix II]
-|{source_base_url}/SearchA2DMatrixIi.java[Java]
+|{source_base_url}/_0240_SearchA2DMatrixIi.java[Java]
 |Medium
 
 //|241
@@ -1216,7 +1216,7 @@
 
 |242
 |{leetcode_base_url}/valid-anagram/[Valid Anagram]
-|{source_base_url}/ValidAnagram.java[Java]
+|{source_base_url}/_0242_ValidAnagram.java[Java]
 |Easy
 
 //|243
@@ -1346,7 +1346,7 @@
 
 |268
 |{leetcode_base_url}/missing-number/[Missing Number]
-|{source_base_url}/MissingNumber.java[Java]
+|{source_base_url}/_0268_MissingNumber.java[Java]
 |Easy
 
 //|269
@@ -1401,7 +1401,7 @@
 
 |279
 |{leetcode_base_url}/perfect-squares/[Perfect Squares]
-|{source_base_url}/PerfectSquares.java[Java]
+|{source_base_url}/_0279_PerfectSquares.java[Java]
 |Medium
 
 //|280
@@ -1421,7 +1421,7 @@
 
 |283
 |{leetcode_base_url}/move-zeroes/[Move Zeroes]
-|{source_base_url}/MoveZeroes.java[Java]
+|{source_base_url}/_0283_MoveZeroes.java[Java]
 |Easy
 
 //|284
@@ -1441,7 +1441,7 @@
 
 |287
 |{leetcode_base_url}/find-the-duplicate-number/[Find the Duplicate Number]
-|{source_base_url}/FindTheDuplicateNumber.java[Java]
+|{source_base_url}/_0287_FindTheDuplicateNumber.java[Java]
 |Medium
 
 //|288
@@ -1451,7 +1451,7 @@
 
 |289
 |{leetcode_base_url}/game-of-life/[Game of Life]
-|{source_base_url}/GameOfLife.java[Java]
+|{source_base_url}/_0289_GameOfLife.java[Java]
 |Medium
 
 //|290
@@ -1506,7 +1506,7 @@
 
 |300
 |{leetcode_base_url}/longest-increasing-subsequence/[Longest Increasing Subsequence]
-|{source_base_url}/LongestIncreasingSubsequence.java[Java]
+|{source_base_url}/_0300_LongestIncreasingSubsequence.java[Java]
 |Medium
 
 //|301
@@ -1551,7 +1551,7 @@
 
 |309
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-with-cooldown/[Best Time to Buy and Sell Stock with Cooldown]
-|{source_base_url}/BestTimeToBuyAndSellStockWithCooldown.java[Java]
+|{source_base_url}/_0309_BestTimeToBuyAndSellStockWithCooldown.java[Java]
 |Medium
 
 //|310
@@ -1616,7 +1616,7 @@
 
 |322
 |{leetcode_base_url}/coin-change/[Coin Change]
-|{source_base_url}/CoinChange.java[Java]
+|{source_base_url}/_0322_CoinChange.java[Java]
 |Medium
 
 //|323
@@ -1626,7 +1626,7 @@
 
 |324
 |{leetcode_base_url}/wiggle-sort-ii/[Wiggle Sort II]
-|{source_base_url}/WiggleSortIi.java[Java]
+|{source_base_url}/_0324_WiggleSortIi.java[Java]
 |Medium
 
 //|325
@@ -1636,7 +1636,7 @@
 
 |326
 |{leetcode_base_url}/power-of-three/[Power of Three]
-|{source_base_url}/PowerOfThree.java[Java]
+|{source_base_url}/_0326_PowerOfThree.java[Java]
 |Easy
 
 //|327
@@ -1646,7 +1646,7 @@
 
 |328
 |{leetcode_base_url}/odd-even-linked-list/[Odd Even Linked List]
-|{source_base_url}/OddEvenLinkedList.java[Java]
+|{source_base_url}/_0328_OddEvenLinkedList.java[Java]
 |Medium
 
 //|329
@@ -1691,12 +1691,12 @@
 
 |337
 |{leetcode_base_url}/house-robber-iii/[House Robber III]
-|{source_base_url}/HouseRobberIii.java[Java]
+|{source_base_url}/_0337_HouseRobberIii.java[Java]
 |Medium
 
 |338
 |{leetcode_base_url}/counting-bits/[Counting Bits]
-|{source_base_url}/CountingBits.java[Java]
+|{source_base_url}/_0338_CountingBits.java[Java]
 |Medium
 
 //|339
@@ -1711,7 +1711,7 @@
 
 |341
 |{leetcode_base_url}/flatten-nested-list-iterator/[Flatten Nested List Iterator]
-|{source_base_url}/FlattenNestedListIterator.java[Java]
+|{source_base_url}/_0341_FlattenNestedListIterator.java[Java]
 |Medium
 
 //|342
@@ -1726,7 +1726,7 @@
 
 |344
 |{leetcode_base_url}/reverse-string/[Reverse String]
-|{source_base_url}/ReverseString.java[Java]
+|{source_base_url}/_0344_ReverseString.java[Java]
 |Easy
 
 //|345
@@ -1741,7 +1741,7 @@
 
 |347
 |{leetcode_base_url}/top-k-frequent-elements/[Top K Frequent Elements]
-|{source_base_url}/TopKFrequentElements.java[Java]
+|{source_base_url}/_0347_TopKFrequentElements.java[Java]
 |Medium
 
 //|348
@@ -1756,7 +1756,7 @@
 
 |350
 |{leetcode_base_url}/intersection-of-two-arrays-ii/[Intersection of Two Arrays II]
-|{source_base_url}/IntersectionOfTwoArraysIi.java[Java]
+|{source_base_url}/_0350_IntersectionOfTwoArraysIi.java[Java]
 |Easy
 
 //|351
@@ -1861,7 +1861,7 @@
 
 |371
 |{leetcode_base_url}/sum-of-two-integers/[Sum of Two Integers]
-|{source_base_url}/SumOfTwoIntegers.java[Java]
+|{source_base_url}/_0371_SumOfTwoIntegers.java[Java]
 |Easy
 
 //|372
@@ -1896,7 +1896,7 @@
 
 |378
 |{leetcode_base_url}/kth-smallest-element-in-a-sorted-matrix/[Kth Smallest Element in a Sorted Matrix]
-|{source_base_url}/KthSmallestElementInASortedMatrix.java[Java]
+|{source_base_url}/_0378_KthSmallestElementInASortedMatrix.java[Java]
 |Medium
 
 //|379
@@ -1906,7 +1906,7 @@
 
 |380
 |{leetcode_base_url}/insert-delete-getrandom-o1/[Insert Delete GetRandom O(1)]
-|{source_base_url}/InsertDeleteGetRandomO1.java[Java]
+|{source_base_url}/_0380_InsertDeleteGetRandomO1.java[Java]
 |Medium
 
 //|381
@@ -1926,7 +1926,7 @@
 
 |384
 |{leetcode_base_url}/shuffle-an-array/[Shuffle an Array]
-|{source_base_url}/ShuffleAnArray.java[Java]
+|{source_base_url}/_0384_ShuffleAnArray.java[Java]
 |Medium
 
 //|385
@@ -1941,7 +1941,7 @@
 
 |387
 |{leetcode_base_url}/first-unique-character-in-a-string/[First Unique Character in a String]
-|{source_base_url}/FirstUniqueCharacterInAString.java[Java]
+|{source_base_url}/_0387_FirstUniqueCharacterInAString.java[Java]
 |Easy
 
 //|388
@@ -1976,12 +1976,12 @@
 
 |394
 |{leetcode_base_url}/decode-string/[Decode String]
-|{source_base_url}/DecodeString.java[Java]
+|{source_base_url}/_0394_DecodeString.java[Java]
 |Medium
 
 |395
 |{leetcode_base_url}/longest-substring-with-at-least-k-repeating-characters/[Longest Substring with At Least K Repeating Characters]
-|{source_base_url}/LongestSubstringWithAtLeastKRepeatingCharacters.java[Java]
+|{source_base_url}/_0395_LongestSubstringWithAtLeastKRepeatingCharacters.java[Java]
 |Medium
 
 //|396
@@ -2036,7 +2036,7 @@
 
 |406
 |{leetcode_base_url}/queue-reconstruction-by-height/[Queue Reconstruction by Height]
-|{source_base_url}/QueueReconstructionByHeight.java[Java]
+|{source_base_url}/_0406_QueueReconstructionByHeight.java[Java]
 |Medium
 
 //|407
@@ -2066,7 +2066,7 @@
 
 |412
 |{leetcode_base_url}/fizz-buzz/[Fizz Buzz]
-|{source_base_url}/FizzBuzz.java[Java]
+|{source_base_url}/_0412_FizzBuzz.java[Java]
 |Easy
 
 //|413
@@ -2086,7 +2086,7 @@
 
 |416
 |{leetcode_base_url}/partition-equal-subset-sum/[Partition Equal Subset Sum]
-|{source_base_url}/PartitionEqualSubsetSum.java[Java]
+|{source_base_url}/_0416_PartitionEqualSubsetSum.java[Java]
 |Medium
 
 //|417
@@ -2191,12 +2191,12 @@
 
 |437
 |{leetcode_base_url}/path-sum-iii/[Path Sum III]
-|{source_base_url}/PathSumIii.java[Java]
+|{source_base_url}/_0437_PathSumIii.java[Java]
 |Easy
 
 |438
 |{leetcode_base_url}/find-all-anagrams-in-a-string/[Find All Anagrams in a String]
-|{source_base_url}/FindAllAnagramsInAString.java[Java]
+|{source_base_url}/_0438_FindAllAnagramsInAString.java[Java]
 |Medium
 
 //|439
@@ -2246,7 +2246,7 @@
 
 |448
 |{leetcode_base_url}/find-all-numbers-disappeared-in-an-array/[Find All Numbers Disappeared in an Array]
-|{source_base_url}/FindAllNumbersDisappearedInAnArray.java[Java]
+|{source_base_url}/_0448_FindAllNumbersDisappearedInAnArray.java[Java]
 |Easy
 
 //|449
@@ -2276,7 +2276,7 @@
 
 |454
 |{leetcode_base_url}/4sum-ii/[4Sum II]
-|{source_base_url}/FourSumIi.java[Java]
+|{source_base_url}/_0454_FourSumIi.java[Java]
 |Medium
 
 //|455
@@ -2476,7 +2476,7 @@
 
 |494
 |{leetcode_base_url}/target-sum/[Target Sum]
-|{source_base_url}/TargetSum.java[Java]
+|{source_base_url}/_0494_TargetSum.java[Java]
 |Medium
 
 //|495
@@ -2721,7 +2721,7 @@
 
 |543
 |{leetcode_base_url}/diameter-of-binary-tree/[Diameter of Binary Tree]
-|{source_base_url}/DiameterOfBinaryTree.java[Java]
+|{source_base_url}/_0543_DiameterOfBinaryTree.java[Java]
 |Easy
 
 //|544
@@ -2806,7 +2806,7 @@
 
 |560
 |{leetcode_base_url}/subarray-sum-equals-k/[Subarray Sum Equals K]
-|{source_base_url}/SubarraySumEqualsK.java[Java]
+|{source_base_url}/_0560_SubarraySumEqualsK.java[Java]
 |Medium
 
 //|561
@@ -2841,7 +2841,7 @@
 
 |567
 |{leetcode_base_url}/permutation-in-string/[Permutation in String]
-|{source_base_url}/PermutationInString.java[Java]
+|{source_base_url}/_0567_PermutationInString.java[Java]
 |Medium
 
 //|568
@@ -2911,7 +2911,7 @@
 
 |581
 |{leetcode_base_url}/shortest-unsorted-continuous-subarray/[Shortest Unsorted Continuous Subarray]
-|{source_base_url}/ShortestUnsortedContinuousSubarray.java[Java]
+|{source_base_url}/_0581_ShortestUnsortedContinuousSubarray.java[Java]
 |Easy
 
 //|582
@@ -3091,7 +3091,7 @@
 
 |617
 |{leetcode_base_url}/merge-two-binary-trees/[Merge Two Binary Trees]
-|{source_base_url}/MergeTwoBinaryTrees.java[Java]
+|{source_base_url}/_0617_MergeTwoBinaryTrees.java[Java]
 |Easy
 
 //|618
@@ -3111,7 +3111,7 @@
 
 |621
 |{leetcode_base_url}/task-scheduler/[Task Scheduler]
-|{source_base_url}/TaskScheduler.java[Java]
+|{source_base_url}/_0621_TaskScheduler.java[Java]
 |Medium
 
 //|622
@@ -3576,7 +3576,7 @@
 
 |714
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-with-transaction-fee/[Best Time to Buy and Sell Stock with Transaction Fee]
-|{source_base_url}/BestTimeToBuyAndSellStockWithTransactionFee.java[Java]
+|{source_base_url}/_0714_BestTimeToBuyAndSellStockWithTransactionFee.java[Java]
 |Medium
 
 //|715
@@ -4966,7 +4966,7 @@
 
 |992
 |{leetcode_base_url}/subarrays-with-k-different-integers/[Subarrays with K Different Integers]
-|{source_base_url}/SubarraysWithKDifferentIntegers.java[Java]
+|{source_base_url}/_0992_SubarraysWithKDifferentIntegers.java[Java]
 |Hard
 
 //|993
