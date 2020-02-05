@@ -538,11 +538,11 @@
 //|{leetcode_base_url}/construct-binary-tree-from-inorder-and-postorder-traversal/[Construct Binary Tree from Inorder and Postorder Traversal]
 //|{source_base_url}/_0106_ConstructBinaryTreeFromInorderAndPostorderTraversal.java[Java]
 //|Medium
-//
-//|107
-//|{leetcode_base_url}/binary-tree-level-order-traversal-ii/[Binary Tree Level Order Traversal II]
-//|{source_base_url}/_0107_BinaryTreeLevelOrderTraversalII.java[Java]
-//|Easy
+
+|107
+|{leetcode_base_url}/binary-tree-level-order-traversal-ii/[Binary Tree Level Order Traversal II]
+|{source_base_url}/_0107_BinaryTreeLevelOrderTraversalII.java[Java]
+|Easy
 
 |108
 |{leetcode_base_url}/convert-sorted-array-to-binary-search-tree/[Convert Sorted Array to Binary Search Tree]

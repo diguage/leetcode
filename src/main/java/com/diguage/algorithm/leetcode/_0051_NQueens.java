@@ -3,6 +3,8 @@ package com.diguage.algorithm.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.diguage.algorithm.util.PrintUtils.printMatrix;
+
 /**
  * = 51. N-Queens
  *
@@ -120,14 +122,5 @@ public class _0051_NQueens {
 
         List<List<String>> r1 = solution.solveNQueens(14);
         printMatrix(r1);
-    }
-
-    public static <T> void printMatrix(List<List<T>> matrix) {
-        for (List<T> list : matrix) {
-            for (T t : list) {
-                System.out.println(t);
-            }
-            System.out.println("--------------------");
-        }
     }
 }
