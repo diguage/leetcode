@@ -449,11 +449,11 @@
 |{source_base_url}/_0088_MergeSortedArray.java[Java]
 |Easy
 
-//|89
-//|{leetcode_base_url}/gray-code/[Gray Code]
-//|{source_base_url}/_0089_GrayCode.java[Java]
-//|Medium
-//
+|89
+|{leetcode_base_url}/gray-code/[Gray Code]
+|{source_base_url}/_0089_GrayCode.java[Java]
+|Medium
+
 //|90
 //|{leetcode_base_url}/subsets-ii/[Subsets II]
 //|{source_base_url}/_0090_SubsetsII.java[Java]
