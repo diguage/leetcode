@@ -464,11 +464,11 @@
 |{source_base_url}/_0091_DecodeWays.java[Java]
 |Medium
 
-//|92
-//|{leetcode_base_url}/reverse-linked-list-ii/[Reverse Linked List II]
-//|{source_base_url}/_0092_ReverseLinkedListII.java[Java]
-//|Medium
-//
+|92
+|{leetcode_base_url}/reverse-linked-list-ii/[Reverse Linked List II]
+|{source_base_url}/_0092_ReverseLinkedListII.java[Java]
+|Medium
+
 //|93
 //|{leetcode_base_url}/restore-ip-addresses/[Restore IP Addresses]
 //|{source_base_url}/_0093_RestoreIPAddresses.java[Java]
