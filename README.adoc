@@ -264,10 +264,10 @@
 |{source_base_url}/_0051_NQueens.java[Java]
 |Hard
 
-//|52
-//|{leetcode_base_url}/n-queens-ii/[N-Queens II]
-//|{source_base_url}/_0052_NQueensII.java[Java]
-//|Hard
+|52
+|{leetcode_base_url}/n-queens-ii/[N-Queens II]
+|{source_base_url}/_0052_NQueensII.java[Java]
+|Hard
 
 |53
 |{leetcode_base_url}/maximum-subarray/[Maximum Subarray]
