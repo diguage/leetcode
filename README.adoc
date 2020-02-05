@@ -259,11 +259,11 @@
 |{source_base_url}/_0050_PowXN.java[Java]
 |Medium
 
-//|51
-//|{leetcode_base_url}/n-queens/[N-Queens]
-//|{source_base_url}/_0051_NQueens.java[Java]
-//|Hard
-//
+|51
+|{leetcode_base_url}/n-queens/[N-Queens]
+|{source_base_url}/_0051_NQueens.java[Java]
+|Hard
+
 //|52
 //|{leetcode_base_url}/n-queens-ii/[N-Queens II]
 //|{source_base_url}/_0052_NQueensII.java[Java]
