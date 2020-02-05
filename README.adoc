@@ -503,11 +503,11 @@
 //|{leetcode_base_url}/recover-binary-search-tree/[Recover Binary Search Tree]
 //|{source_base_url}/_0099_RecoverBinarySearchTree.java[Java]
 //|Hard
-//
-//|100
-//|{leetcode_base_url}/same-tree/[Same Tree]
-//|{source_base_url}/_0100_SameTree.java[Java]
-//|Easy
+
+|100
+|{leetcode_base_url}/same-tree/[Same Tree]
+|{source_base_url}/_0100_SameTree.java[Java]
+|Easy
 
 |101
 |{leetcode_base_url}/symmetric-tree/[Symmetric Tree]

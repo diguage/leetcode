@@ -2,3 +2,47 @@
 
 https://leetcode.com/problems/same-tree/[LeetCode - Same Tree]
 
+Given two binary trees, write a function to check if they are the same or not.
+
+Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
+
+.Example 1:
+----
+Input:     1         1
+          / \       / \
+         2   3     2   3
+
+        [1,2,3],   [1,2,3]
+
+Output: true
+----
+
+.Example 2:
+----
+Input:     1         1
+          /           \
+         2             2
+
+        [1,2],     [1,null,2]
+
+Output: false
+----
+
+.Example 3:
+----
+Input:     1         1
+          / \       / \
+         2   1     1   2
+
+        [1,2,1],   [1,1,2]
+
+Output: false
+----
+
+=== 解题分析
+
+解题思路很简单，就是做不停地做递归调用就好。不过，要注意的时，为了加快速度，遇到不等就返回，不需要再进行下一步操作。
+
+=== 思考题
+
+尝试一下迭代的解决方案。
