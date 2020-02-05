@@ -433,12 +433,12 @@
 //|{leetcode_base_url}/maximal-rectangle/[Maximal Rectangle]
 //|{source_base_url}/_0085_MaximalRectangle.java[Java]
 //|Hard
-//
-//|86
-//|{leetcode_base_url}/partition-list/[Partition List]
-//|{source_base_url}/_0086_PartitionList.java[Java]
-//|Medium
-//
+
+|86
+|{leetcode_base_url}/partition-list/[Partition List]
+|{source_base_url}/_0086_PartitionList.java[Java]
+|Medium
+
 //|87
 //|{leetcode_base_url}/scramble-string/[Scramble String]
 //|{source_base_url}/_0087_ScrambleString.java[Java]
