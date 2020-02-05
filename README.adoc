@@ -454,10 +454,10 @@
 |{source_base_url}/_0089_GrayCode.java[Java]
 |Medium
 
-//|90
-//|{leetcode_base_url}/subsets-ii/[Subsets II]
-//|{source_base_url}/_0090_SubsetsII.java[Java]
-//|Medium
+|90
+|{leetcode_base_url}/subsets-ii/[Subsets II]
+|{source_base_url}/_0090_SubsetsII.java[Java]
+|Medium
 
 |91
 |{leetcode_base_url}/decode-ways/[Decode Ways]
