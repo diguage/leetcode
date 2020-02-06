@@ -2,3 +2,38 @@
 
 https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/[LeetCode - Construct Binary Tree from Inorder and Postorder Traversal]
 
+Given inorder and postorder traversal of a tree, construct the binary tree.
+
+*Note:*
+
+You may assume that duplicates do not exist in the tree.
+
+For example, given
+
+----
+inorder = [9,3,15,20,7]
+postorder = [9,15,7,20,3]
+----
+
+Return the following binary tree:
+
+----
+    3
+   / \
+  9  20
+    /  \
+   15   7
+----
+
+=== 解题分析
+
+使用递归，从底层向上构建整个树。
+
+image::images/0106-1.png[]
+
+image::images/0106-2.png[]
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/solution/hou-xu-bian-li-python-dai-ma-java-dai-ma-by-liwe-2/[分治法（Python、Java） - 从中序与后序遍历序列构造二叉树 - 力扣（LeetCode）]
+
