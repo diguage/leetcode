@@ -2,3 +2,31 @@
 
 https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/[LeetCode - Convert Sorted List to Binary Search Tree]
 
+Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
+
+For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of _every_ node never differ by more than 1.
+
+.Example:
+[subs="verbatim,quotes"]
+----
+Given the sorted linked list: [-10,-3,0,5,9],
+
+One possible answer is: [0,-3,9,-10,null,5], which represents the following height balanced BST:
+
+      0
+     / \
+   -3   9
+   /   /
+ -10  5
+----
+
+=== 解题分析
+
+这道题跟 xref:0108-convert-sorted-array-to-binary-search-tree.adoc[108. Convert Sorted Array to Binary Search Tree] 类似。可以转化成数组（或链表）进行求解。这属于空间换时间的解法。
+
+另外一种解法，就是使用快满指针，找到中间节点，然后再构造二叉树。
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/solution/you-xu-lian-biao-zhuan-huan-er-cha-sou-suo-shu-by-/[有序链表转换二叉搜索树 - 有序链表转换二叉搜索树 - 力扣（LeetCode）]
+
