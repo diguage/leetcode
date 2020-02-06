@@ -6,6 +6,11 @@
 
 回溯优化，重要的是，要学会剪枝！
 
+=== 附加题
+
+. 写程序尝试生成递归调用树。
+
+
 === 参考资料
 
 . https://en.wikipedia.org/wiki/Backtracking[Backtracking - Wikipedia]
