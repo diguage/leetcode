@@ -664,12 +664,12 @@
 |{doc_base_url}/0109-convert-sorted-list-to-binary-search-tree.adoc[Note]
 |Medium
 
-//|110
-//|{leetcode_base_url}/balanced-binary-tree/[Balanced Binary Tree]
-//|{source_base_url}/_0110_BalancedBinaryTree.java[Java]
-//|{doc_base_url}/0110-balanced-binary-tree.adoc[Note]
-//|Easy
-//
+|110
+|{leetcode_base_url}/balanced-binary-tree/[Balanced Binary Tree]
+|{source_base_url}/_0110_BalancedBinaryTree.java[Java]
+|{doc_base_url}/0110-balanced-binary-tree.adoc[Note]
+|Easy
+
 //|111
 //|{leetcode_base_url}/minimum-depth-of-binary-tree/[Minimum Depth of Binary Tree]
 //|{source_base_url}/_0111_MinimumDepthOfBinaryTree.java[Java]

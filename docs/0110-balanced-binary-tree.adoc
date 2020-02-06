@@ -2,3 +2,57 @@
 
 https://leetcode.com/problems/balanced-binary-tree/[LeetCode - Balanced Binary Tree]
 
+Given a binary tree, determine if it is height-balanced.
+
+For this problem, a height-balanced binary tree is defined as:
+
+****
+a binary tree in which the left and right subtrees of _every_ node differ in height by no more than 1.
+****
+
+.Example 1:
+[subs="verbatim,quotes"]
+----
+Given the following tree `[3,9,20,null,null,15,7]`:
+
+    3
+   / \
+  9  20
+    /  \
+   15   7
+
+Return true.
+----
+
+
+.Example 2:
+[subs="verbatim,quotes"]
+----
+Given the following tree `[1,2,2,3,3,null,null,4,4]`:
+
+       1
+      / \
+     2   2
+    / \
+   3   3
+  / \
+ 4   4
+
+Return false.
+----
+
+=== 解题分析
+
+* 对二叉树做深度优先遍历DFS，递归过程中：
+** 终止条件：当DFS越过叶子节点时，返回高度0；
+** 返回值：
+*** 从底至顶，返回以每个节点 `root` 为根节点的子树最大高度(左右子树中最大的高度值加1 `max(left,right) + 1)`；
+*** 当我们发现有一例 `左/右子树高度差 ＞ 1` 的情况时，代表此树不是平衡树，返回 `-1`；
+** 当发现不是平衡树时，后面的高度计算都没有意义了，因此一路返回-1，避免后续多余计算。
+* 最差情况是对树做一遍完整DFS，时间复杂度为 O(N)。
+
+这里有个思维误区：并不是最顶层的左右树相差不超过 1 就是平衡树；而是递归定义的，是每棵树的左右子树的高度差都不能超过 1 才可以。
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/balanced-binary-tree/solution/balanced-binary-tree-di-gui-fang-fa-by-jin40789108/[Balanced Binary Tree （Top-down和Bottom-up递归方法） - 平衡二叉树 - 力扣（LeetCode）]
