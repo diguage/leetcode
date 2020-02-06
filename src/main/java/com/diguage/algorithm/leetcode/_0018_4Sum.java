@@ -31,7 +31,7 @@ import java.util.*;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2018-07-15 00:58
  */
-public class _0018_FourSum {
+public class _0018_4Sum {
     /**
      * Runtime: 4 ms, faster than 94.46% of Java online submissions for 4Sum.
      *
@@ -97,7 +97,7 @@ public class _0018_FourSum {
     }
 
     public static void main(String[] args) {
-        _0018_FourSum solution = new _0018_FourSum();
+        _0018_4Sum solution = new _0018_4Sum();
         List<List<Integer>> r1 = solution.fourSum(new int[]{1, 0, -1, 0, -2, 2}, 0);
         System.out.println(Arrays.deepToString(r1.toArray()));
     }

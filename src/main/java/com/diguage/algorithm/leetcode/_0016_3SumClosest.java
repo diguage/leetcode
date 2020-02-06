@@ -23,7 +23,7 @@ import java.util.Objects;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2018-07-15 00:55
  */
-public class _0016_ThreeSumClosest {
+public class _0016_3SumClosest {
     /**
      * Runtime: 4 ms, faster than 96.20% of Java online submissions for 3Sum Closest.
      *
@@ -104,7 +104,7 @@ public class _0016_ThreeSumClosest {
     }
 
     public static void main(String[] args) {
-        _0016_ThreeSumClosest solution = new _0016_ThreeSumClosest();
+        _0016_3SumClosest solution = new _0016_3SumClosest();
         int r1 = solution.threeSumClosest(new int[]{-1, 2, 1, -4}, 1);
         System.out.println((2 == r1) + " : " + r1);
     }
