@@ -7,3 +7,38 @@ https://leetcode.com/problems/powx-n/[LeetCode - Pow(x, n)]
 其次，没想到还需要处理"无穷"的情况！
 
 另外，思考一下，如果使用迭代来实现？
+
+Implement http://www.cplusplus.com/reference/valarray/pow/[pow(_x_, _n_)], which calculates _x_ raised to the power _n_ (x^n^).
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 2.00000, 10
+*Output:* 1024.00000
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 2.10000, 3
+*Output:* 9.26100
+----
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 2.00000, -2
+*Output:* 0.25000
+*Explanation:* 2^-2^ = 1/2^2^ = 1/4 = 0.25
+----
+
+*Note:*
+
+
+* -100.0 < _x_ < 100.0
+* _n_ is a 32-bit signed integer, within the range [-2^31^, 2^31 ^- 1]
+
+

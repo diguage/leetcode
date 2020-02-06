@@ -2,3 +2,71 @@
 
 https://leetcode.com/problems/minimum-area-rectangle-ii/[LeetCode - Minimum Area Rectangle II]
 
+Given a set of points in the xy-plane, determine the minimum area of *any* rectangle formed from these points, with sides *not necessarily parallel* to the x and y axes.
+
+If there isn't any rectangle, return 0.
+
+ 
+
+*Example 1:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2018/12/21/1a.png" style="width: 150px; height: 151px;" />
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">[[1,2],[2,1],[1,0],[0,1]]
+*Output: *<span id="example-output-1">2.00000
+*Explanation:* The minimum area rectangle occurs at [1,2],[2,1],[1,0],[0,1], with an area of 2.
+----
+
+
+*Example 2:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2018/12/22/2.png" style="width: 150px; height: 94px;" />
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">[[0,1],[2,1],[1,1],[1,0],[2,0]]
+*Output: *<span id="example-output-2">1.00000
+*Explanation:* The minimum area rectangle occurs at [1,0],[1,1],[2,1],[2,0], with an area of 1.
+----
+
+
+*Example 3:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2018/12/22/3.png" style="width: 160px; height: 167px;" />
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-3-1">[[0,3],[1,2],[3,1],[1,3],[2,1]]
+*Output: *<span id="example-output-3">0
+*Explanation:* There is no possible rectangle to form from these points.
+----
+
+
+*Example 4:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2018/12/21/4c.png" style="width: 160px; height: 155px;" />
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-4-1">[[3,1],[1,1],[0,1],[2,1],[3,3],[3,2],[0,2],[2,3]]
+*Output: *<span id="example-output-4">2.00000
+*Explanation:* The minimum area rectangle occurs at [2,1],[2,3],[3,3],[3,1], with an area of 2.
+----
+
+
+ 
+
+
+
+*Note:*
+
+
+. `1 <= points.length <= 50`
+. `0 <= points[i][0] <= 40000`
+. `0 <= points[i][1] <= 40000`
+. All points are distinct.
+. Answers within `10^-5` of the actual value will be accepted as correct.
+
+

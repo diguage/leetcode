@@ -2,3 +2,26 @@
 
 https://leetcode.com/problems/valid-perfect-square/[LeetCode - Valid Perfect Square]
 
+Given a positive integer _num_, write a function which returns True if _num_ is a perfect square else False.
+
+*Note:* *Do not* use any built-in library function such as `sqrt`.
+
+*Example 1:*
+
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">16
+*Output: *<span id="example-output-1">true
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">14
+*Output: *<span id="example-output-2">false
+----
+
+

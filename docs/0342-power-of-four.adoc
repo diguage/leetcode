@@ -2,3 +2,24 @@
 
 https://leetcode.com/problems/power-of-four/[LeetCode - Power of Four]
 
+Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">16
+*Output: *<span id="example-output-1">true
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">5
+*Output: *<span id="example-output-2">false
+----
+
+
+*Follow up*: Could you solve it without loops/recursion?

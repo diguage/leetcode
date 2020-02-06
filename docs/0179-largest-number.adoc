@@ -3,3 +3,24 @@
 https://leetcode.com/problems/largest-number/[LeetCode - Largest Number]
 
 这道题很容易想到需要根据数字的字符串大小进行倒序排列（目的是将首个数字比较大的数字排在前面）。很容想到需要自定义 `Comparator`。最简单省事的方式就是直接将排序的两个字符串相加（左右，右左）进行比较就可以了。
+
+Given a list of non negative integers, arrange them such that they form the largest number.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* `[10,2]`
+*Output:* "`210"`
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* `[3,30,34,5,9]`
+*Output:* "`9534330"`
+----
+
+*Note:* The result may be very large, so you need to return a string instead of an integer.
+

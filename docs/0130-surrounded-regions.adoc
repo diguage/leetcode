@@ -7,3 +7,32 @@ https://leetcode.com/problems/surrounded-regions/[LeetCode - Surrounded Regions]
 思考题：看题解可以使用 UnionFind 来解决这个问题。可以思考一下，如何实现？
 
 这道题与 link:0200-number-of-islands.adoc[] 类似。
+
+Given a 2D board containing `'X'` and `'O'` (*the letter O*), capture all regions surrounded by `'X'`.
+
+A region is captured by flipping all `'O'`s into `'X'`s in that surrounded region.
+
+*Example:*
+
+[subs="verbatim,quotes"]
+----
+X X X X
+X O O X
+X X O X
+X O X X
+----
+
+After running your function, the board should be:
+
+[subs="verbatim,quotes"]
+----
+X X X X
+X X X X
+X X X X
+X O X X
+----
+
+*Explanation:*
+
+Surrounded regions shouldn&rsquo;t be on the border, which means that any `'O'` on the border of the board are not flipped to `'X'`. Any `'O'` that is not on the border and it is not connected to an `'O'` on the border will be flipped to `'X'`. Two cells are connected if they are adjacent cells connected horizontally or vertically.
+

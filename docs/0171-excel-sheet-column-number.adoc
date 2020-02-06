@@ -3,3 +3,43 @@
 https://leetcode.com/problems/excel-sheet-column-number/[LeetCode - Excel Sheet Column Number]
 
 目前的想法是从右向左计算，可以考虑一下，能否从左向右计算。可以参考： https://leetcode.com/problems/excel-sheet-column-number/discuss/52091/Here-is-my-java-solution[Here is my java solution - LeetCode Discuss]。
+
+Given a column title as appear in an Excel sheet, return its corresponding column number.
+
+For example:
+
+[subs="verbatim,quotes"]
+----
+    A -> 1
+    B -> 2
+    C -> 3
+    ...
+    Z -> 26
+    AA -> 27
+    AB -> 28 
+    ...
+----
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* "A"
+*Output:* 1
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *"AB"
+*Output:* 28
+----
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *"ZY"
+*Output:* 701
+----

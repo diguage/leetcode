@@ -2,3 +2,59 @@
 
 https://leetcode.com/problems/bag-of-tokens/[LeetCode - Bag of Tokens]
 
+You have an initial power `P`, an initial score of `0` points, and a bag of tokens.
+
+Each token can be used at most once, has a value `token[i]`, and has potentially two ways to use it.
+
+
+* If we have at least `token[i]` power, we may play the token face up, losing `token[i]` power, and gaining `1` point.
+* If we have at least `1` point, we may play the token face down, gaining `token[i]` power, and losing `1` point.
+
+
+Return the largest number of points we can have after playing any number of tokens.
+
+ 
+
+
+
+
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *tokens = <span id="example-input-1-1">[100], P = <span id="example-input-1-2">50
+*Output: *<span id="example-output-1">0
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *tokens = <span id="example-input-2-1">[100,200], P = <span id="example-input-2-2">150
+*Output: *<span id="example-output-2">1
+----
+
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *tokens = <span id="example-input-3-1">[100,200,300,400], P = <span id="example-input-3-2">200
+*Output: *<span id="example-output-3">2
+----
+
+ 
+
+*Note:*
+
+
+* `tokens.length <= 1000`
+* `0 <= tokens[i] < 10000`
+* `0 <= P < 10000`
+
+
+
+
+

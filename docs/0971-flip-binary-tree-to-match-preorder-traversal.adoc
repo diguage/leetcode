@@ -2,3 +2,63 @@
 
 https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/[LeetCode - Flip Binary Tree To Match Preorder Traversal]
 
+Given a binary tree with `N` nodes, each node has a different value from `{1, ..., N}`.
+
+A node in this binary tree can be _flipped_ by swapping the left child and the right child of that node.
+
+Consider the sequence of `N` values reported by a preorder traversal starting from the root.  Call such a sequence of `N` values the _voyage_ of the tree.
+
+(Recall that a _preorder traversal_ of a node means we report the current node's value, then preorder-traverse the left child, then preorder-traverse the right child.)
+
+Our goal is to flip the *least number* of nodes in the tree so that the voyage of the tree matches the `voyage` we are given.
+
+If we can do so, then return a list of the values of all nodes flipped.  You may return the answer in any order.
+
+If we cannot do so, then return the list `[-1]`.
+
+ 
+
+
+*Example 1:*
+
+*<img alt="" src="https://assets.leetcode.com/uploads/2019/01/02/1219-01.png" style="width: 88px; height: 120px;" />*
+
+[subs="verbatim,quotes"]
+----
+*Input: *root = <span id="example-input-1-1">[1,2], voyage = <span id="example-input-1-2">[2,1]
+*Output: *<span id="example-output-1">[-1]
+----
+
+
+*Example 2:*
+
+*<img alt="" src="https://assets.leetcode.com/uploads/2019/01/02/1219-02.png" style="width: 127px; height: 120px;" />*
+
+[subs="verbatim,quotes"]
+----
+*Input: *root = <span id="example-input-2-1">[1,2,3], voyage = <span id="example-input-2-2">[1,3,2]
+*Output: *<span id="example-output-2">[1]
+----
+
+
+*Example 3:*
+
+*<img alt="" src="https://assets.leetcode.com/uploads/2019/01/02/1219-02.png" style="width: 127px; height: 120px;" />*
+
+[subs="verbatim,quotes"]
+----
+*Input: *root = <span id="example-input-3-1">[1,2,3], voyage = <span id="example-input-3-2">[1,2,3]
+*Output: *<span id="example-output-3">[]
+----
+
+ 
+
+*Note:*
+
+
+. `1 <= N <= 100`
+
+
+
+
+

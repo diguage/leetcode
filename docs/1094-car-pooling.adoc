@@ -2,3 +2,68 @@
 
 https://leetcode.com/problems/car-pooling/[LeetCode - Car Pooling]
 
+You are driving a vehicle that has `capacity` empty seats initially available for passengers.  The vehicle *only* drives east (ie. it *cannot* turn around and drive west.)
+
+Given a list of `trips`, `trip[i] = [num_passengers, start_location, end_location]` contains information about the `i`-th trip: the number of passengers that must be picked up, and the locations to pick them up and drop them off.  The locations are given as the number of kilometers due east from your vehicle's initial location.
+
+Return `true` if and only if it is possible to pick up and drop off all passengers for all the given trips. 
+
+ 
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *trips = <span id="example-input-1-1">[[2,1,5],[3,3,7]], capacity = <span id="example-input-1-2">4
+*Output: *<span id="example-output-1">false
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *trips = <span id="example-input-2-1">[[2,1,5],[3,3,7]], capacity = <span id="example-input-2-2">5
+*Output: *<span id="example-output-2">true
+----
+
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *trips = <span id="example-input-3-1">[[2,1,5],[3,5,7]], capacity = <span id="example-input-3-2">3
+*Output: *<span id="example-output-3">true
+----
+
+
+*Example 4:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *trips = <span id="example-input-4-1">[[3,2,7],[3,7,9],[8,3,9]], capacity = <span id="example-input-4-2">11
+*Output: *<span id="example-output-4">true
+----
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+*Constraints:*
+
+
+. `trips.length <= 1000`
+. `trips[i].length == 3`
+. `1 <= trips[i][0] <= 100`
+. `0 <= trips[i][1] < trips[i][2] <= 1000`
+. `1 <= capacity <= 100000`
+
+

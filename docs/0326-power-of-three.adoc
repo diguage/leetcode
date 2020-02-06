@@ -5,3 +5,43 @@ https://leetcode.com/problems/power-of-three/[LeetCode - Power of Three]
 发现一个很奇怪的问题：如果通过计算相乘来判断，则会超时；如果通过相除来判断，则能顺利通过。感觉计算量是一样的啊？为什会有这么大的差距啊？
 
 利用对数计算也不失为一个很好的办法！
+
+Given an integer, write a function to determine if it is a power of three.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 27
+*Output:* true
+
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 0
+*Output:* false
+----
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 9
+*Output:* true
+----
+
+*Example 4:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 45
+*Output:* false
+----
+
+*Follow up:*
+
+
+Could you do it without using any loop / recursion?

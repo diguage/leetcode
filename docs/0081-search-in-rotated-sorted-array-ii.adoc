@@ -34,3 +34,34 @@ Output: false
 === 参考资料
 
 . https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/solution/zai-javazhong-ji-bai-liao-100de-yong-hu-by-reedfan/[搜索旋转排序数组 II - 搜索旋转排序数组 II - 力扣（LeetCode）]
+
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+
+(i.e., `[0,0,1,2,2,5,6]` might become `[2,5,6,0,0,1,2]`).
+
+You are given a target value to search. If found in the array return `true`, otherwise return `false`.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [2`,5,6,0,0,1,2]`, target = 0
+*Output:* true
+
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [2`,5,6,0,0,1,2]`, target = 3
+*Output:* false
+----
+
+*Follow up:*
+
+
+* This is a follow up problem to <a href="/problems/search-in-rotated-sorted-array/description/">Search in Rotated Sorted Array</a>, where `nums` may contain duplicates.
+* Would this affect the run-time complexity? How and why?
+
+

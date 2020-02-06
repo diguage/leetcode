@@ -2,3 +2,58 @@
 
 https://leetcode.com/problems/distinct-subsequences-ii/[LeetCode - Distinct Subsequences II]
 
+Given a string `S`, count the number of distinct, non-empty subsequences of `S` .
+
+Since the result may be large, *return the answer modulo `10^9 + 7`*.
+
+ 
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">"abc"
+*Output: *<span id="example-output-1">7
+*Explanation*: The 7 distinct subsequences are "a", "b", "c", "ab", "ac", "bc", and "abc".
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">"aba"
+*Output: *<span id="example-output-2">6
+*Explanation*: The 6 distinct subsequences are "a", "b", "ab", "ba", "aa" and "aba".
+----
+
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-3-1">"aaa"
+*Output: *<span id="example-output-3">3
+*Explanation*: The 3 distinct subsequences are "a", "aa" and "aaa".
+----
+
+
+
+ 
+
+ 
+
+*Note:*
+
+
+. `S` contains only lowercase letters.
+. `1 <= S.length <= 2000`
+
+
+
+ 
+
+
+ 
+
+

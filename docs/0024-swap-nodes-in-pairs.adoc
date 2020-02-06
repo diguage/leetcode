@@ -18,3 +18,17 @@ Given 1->2->3->4, you should return the list as 2->1->4->3.
 === 参考资料
 
 . https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/liang-liang-jiao-huan-lian-biao-zhong-de-jie-di-19/[两两交换链表中的节点 - 两两交换链表中的节点 - 力扣（LeetCode）]
+
+Given a linked list, swap every two adjacent nodes and return its head.
+
+You may *not* modify the values in the list's nodes, only nodes itself may be changed.
+
+ 
+
+*Example:*
+
+[subs="verbatim,quotes"]
+----
+Given `1->2->3->4`, you should return the list as `2->1->4->3`.
+----
+

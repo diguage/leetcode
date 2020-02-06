@@ -5,3 +5,31 @@ https://leetcode.com/problems/min-stack/[LeetCode - Min Stack]
 这道题解法还挺多。只使用一个栈的方案，还需要再思考思考。
 
 TODO
+
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+
+
+* push(x) -- Push element x onto stack.
+* pop() -- Removes the element on top of the stack.
+* top() -- Get the top element.
+* getMin() -- Retrieve the minimum element in the stack.
+
+
+ 
+
+*Example:*
+
+[subs="verbatim,quotes"]
+----
+MinStack minStack = new MinStack();
+minStack.push(-2);
+minStack.push(0);
+minStack.push(-3);
+minStack.getMin();   --> Returns -3.
+minStack.pop();
+minStack.top();      --> Returns 0.
+minStack.getMin();   --> Returns -2.
+----
+
+ 
+

@@ -13,3 +13,32 @@ https://leetcode.com/problems/wiggle-sort-ii/[LeetCode - Wiggle Sort II]
 . https://leetcode.com/problems/wiggle-sort-ii/discuss/77682/Step-by-step-explanation-of-index-mapping-in-Java[Step by step explanation of index mapping in Java - LeetCode Discuss]
 . https://leetcode-cn.com/problems/wiggle-sort-ii/solution/javaxiang-xi-ti-jie-shuo-ming-by-heator/[Java详细题解说明 - 摆动排序 II - 力扣（LeetCode）]
 . https://leetcode-cn.com/problems/wiggle-sort-ii/solution/yi-bu-yi-bu-jiang-shi-jian-fu-za-du-cong-onlognjia/[一步一步将时间复杂度从O(NlogN)降到O(N)，将空间复杂度从O(N)降低到O(1) - 摆动排序 II - 力扣（LeetCode）]
+
+
+Given an unsorted array `nums`, reorder it such that `nums[0] < nums[1] > nums[2] < nums[3]...`.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *`nums = [1, 5, 1, 1, 6, 4]`
+*Output: *One possible answer is `[1, 4, 1, 5, 1, 6]`.
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *`nums = [1, 3, 2, 2, 3, 1]`
+*Output:* One possible answer is `[2, 3, 1, 3, 1, 2]`.
+----
+
+*Note:*
+
+
+You may assume all input has valid answer.
+
+*Follow Up:*
+
+
+Can you do it in O(n) time and/or in-place with O(1) extra space?

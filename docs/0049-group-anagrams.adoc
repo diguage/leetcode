@@ -3,3 +3,26 @@
 https://leetcode.com/problems/group-anagrams/[LeetCode - Group Anagrams]
 
 计数字符数量的解法有些精巧！这里想起来了波利亚在《怎样解题》中，着重强调的一点：一点要充分挖掘题目中的一直变量。题目中已经明确给出，所有的字符都是小写字符。但却没有意识到它的重要性！
+
+Given an array of strings, group anagrams together.
+
+*Example:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* `["eat", "tea", "tan", "ate", "nat", "bat"]`,
+*Output:*
+[
+  ["ate","eat","tea"],
+  ["nat","tan"],
+  ["bat"]
+]
+----
+
+*Note:*
+
+
+* All inputs will be in lowercase.
+* The order of your output does not matter.
+
+

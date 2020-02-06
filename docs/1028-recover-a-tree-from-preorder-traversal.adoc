@@ -2,3 +2,60 @@
 
 https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/[LeetCode - Recover a Tree From Preorder Traversal]
 
+We run a preorder depth first search on the `root` of a binary tree.
+
+At each node in this traversal, we output `D` dashes (where `D` is the _depth_ of this node), then we output the value of this node.  _(If the depth of a node is `D`, the depth of its immediate child is `D+1`.  The depth of the root node is `0`.)_
+
+If a node has only one child, that child is guaranteed to be the left child.
+
+Given the output `S` of this traversal, recover the tree and return its `root`.
+
+ 
+
+*Example 1:*
+
+*<img alt="" src="https://assets.leetcode.com/uploads/2019/04/08/recover-a-tree-from-preorder-traversal.png" style="width: 320px; height: 200px;" />*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">"1-2--3--4-5--6--7"
+*Output: *<span id="example-output-1">[1,2,5,3,4,6,7]
+----
+
+
+*Example 2:*
+
+*<img alt="" src="https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-114101-pm.png" style="width: 256px; height: 250px;" />*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">"1-2--3---4-5--6---7"
+*Output: *<span id="example-output-2">[1,2,5,3,null,6,null,4,null,7]
+----
+
+
+
+ 
+
+
+*Example 3:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-114955-pm.png" style="width: 276px; height: 250px;" />
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-3-1">"1-401--349---90--88"
+*Output: *<span id="example-output-3">[1,401,null,349,88,90]
+----
+
+
+ 
+
+*Note:*
+
+
+* The number of nodes in the original tree is between `1` and `1000`.
+* Each node will have a value between `1` and `10^9`.
+
+
+

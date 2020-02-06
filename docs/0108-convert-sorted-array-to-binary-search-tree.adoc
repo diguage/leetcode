@@ -25,3 +25,4 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 这道题跟 xref:0109-convert-sorted-list-to-binary-search-tree.adoc[109. Convert Sorted List to Binary Search Tree] 类似。
 
 代码还可以再简化一下。
+

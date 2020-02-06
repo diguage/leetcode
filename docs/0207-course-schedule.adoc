@@ -14,3 +14,39 @@ TODO: 研究一下图相关算法和拓扑排序。
 
 . http://songlee24.github.io/2015/05/07/topological-sorting/[拓扑排序（Topological Sorting） | 神奕的博客]
 . https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs[Representing graphs (article) | Algorithms | Khan Academy]
+
+There are a total of _n_ courses you have to take, labeled from `0` to `n-1`.
+
+Some courses may have prerequisites, for example to take course 0 you have to first take course 1, which is expressed as a pair: `[0,1]`
+
+Given the total number of courses and a list of prerequisite *pairs*, is it possible for you to finish all courses?
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 2, [[1,0]] 
+*Output: *true
+*Explanation:* There are a total of 2 courses to take. 
+             To take course 1 you should have finished course 0. So it is possible.
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 2, [[1,0],[0,1]]
+*Output: *false
+*Explanation:* There are a total of 2 courses to take. 
+             To take course 1 you should have finished course 0, and to take course 0 you should
+             also have finished course 1. So it is impossible.
+
+----
+
+*Note:*
+
+
+. The input prerequisites is a graph represented by *a list of edges*, not adjacency matrices. Read more about https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs[how a graph is represented].
+. You may assume that there are no duplicate edges in the input prerequisites.
+
+

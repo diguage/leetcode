@@ -23,3 +23,22 @@ Output: 1->2->3
 === 附加题
 
 如果效仿 xref:0080-remove-duplicates-from-sorted-array-ii.adoc[80. Remove Duplicates from Sorted Array II] 要求每个元素保留不得两个，又该怎么做呢？
+
+Given a sorted linked list, delete all duplicates such that each element appear only _once_.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 1->1->2
+*Output:* 1->2
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 1->1->2->3->3
+*Output:* 1->2->3
+----
+

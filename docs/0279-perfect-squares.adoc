@@ -3,3 +3,23 @@
 https://leetcode.com/problems/perfect-squares/[LeetCode - Perfect Squares]
 
 当前节点最小的值为当前值减去一个平方对应数字的值再加一，再众多选项中的最小值。
+
+Given a positive integer _n_, find the least number of perfect square numbers (for example, `1, 4, 9, 16, ...`) which sum to _n_.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* _n_ = `12`
+*Output:* 3 
+*Explanation: *`12 = 4 + 4 + 4.`
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* _n_ = `13`
+*Output:* 2
+*Explanation: *`13 = 4 + 9.`
+----

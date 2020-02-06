@@ -2,3 +2,34 @@
 
 https://leetcode.com/problems/longest-palindromic-subsequence/[LeetCode - Longest Palindromic Subsequence]
 
+
+Given a string s, find the longest palindromic subsequence's length in s. You may assume that the maximum length of s is 1000.
+
+
+*Example 1:*<br>
+Input: 
+[subs="verbatim,quotes"]
+----
+"bbbab"
+----
+Output: 
+[subs="verbatim,quotes"]
+----
+4
+----
+One possible longest palindromic subsequence is "bbbb".
+
+
+*Example 2:*<br>
+Input:
+[subs="verbatim,quotes"]
+----
+"cbbd"
+----
+Output:
+[subs="verbatim,quotes"]
+----
+2
+----
+One possible longest palindromic subsequence is "bb".
+

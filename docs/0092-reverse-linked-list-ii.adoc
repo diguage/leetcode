@@ -30,3 +30,17 @@ Output: 1->4->3->2->5->NULL
 === 参考资料
 
 . https://leetcode-cn.com/problems/reverse-linked-list-ii/solution/fan-zhuan-lian-biao-ii-by-leetcode/[反转链表 II - 反转链表 II - 力扣（LeetCode）]
+
+
+Reverse a linked list from position _m_ to _n_. Do it in one-pass.
+
+*Note: *1 ≤ _m_ ≤ _n_ ≤ length of list.
+
+*Example:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 1->2->3->4->5->NULL, _m_ = 2, _n_ = 4
+*Output:* 1->4->3->2->5->NULL
+----
+

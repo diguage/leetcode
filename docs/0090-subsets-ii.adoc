@@ -38,3 +38,23 @@ image::images/0090-1.png[]
 
 . https://leetcode-cn.com/problems/subsets-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-19/[详细通俗的思路分析，多解法 - 子集 II - 力扣（LeetCode）]
 
+Given a collection of integers that might contain duplicates, *_nums_*, return all possible subsets (the power set).
+
+*Note:* The solution set must not contain duplicate subsets.
+
+*Example:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* [1,2,2]
+*Output:*
+[
+  [2],
+  [1],
+  [1,2,2],
+  [2,2],
+  [1,2],
+  []
+]
+----
+

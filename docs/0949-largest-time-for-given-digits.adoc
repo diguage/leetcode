@@ -2,3 +2,39 @@
 
 https://leetcode.com/problems/largest-time-for-given-digits/[LeetCode - Largest Time for Given Digits]
 
+Given an array of 4 digits, return the largest 24 hour time that can be made.
+
+The smallest 24 hour time is 00:00, and the largest is 23:59.  Starting from 00:00, a time is larger if more time has elapsed since midnight.
+
+Return the answer as a string of length 5.  If no valid time can be made, return an empty string.
+
+ 
+
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">[1,2,3,4]
+*Output: *<span id="example-output-1">"23:41"
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">[5,5,5,5]
+*Output: *<span id="example-output-2">""
+----
+
+ 
+
+*Note:*
+
+
+. `A.length == 4`
+. `0 <= A[i] <= 9`
+
+
+

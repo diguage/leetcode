@@ -7,3 +7,34 @@ https://leetcode.com/problems/divide-two-integers/[LeetCode - Divide Two Integer
 模仿这个思路 https://leetcode.com/problems/divide-two-integers/discuss/13407/C%2B%2B-bit-manipulations[C++ bit manipulations - LeetCode Discuss] 来实现的。
 
 https://leetcode.com/problems/divide-two-integers/discuss/13428/15-line-easy-understand-solution.-129ms[15 line easy understand solution. 129ms - LeetCode Discuss] 这个思路也很棒。它并没有等把倍数计算到最大去减少，而是在翻倍过程中，每次都去减少；等翻倍太大，再以此"减半"。感觉效率更高！
+
+Given two integers `dividend` and `divisor`, divide two integers without using multiplication, division and mod operator.
+
+Return the quotient after dividing `dividend` by `divisor`.
+
+The integer division should truncate toward zero.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* dividend = 10, divisor = 3
+*Output:* 3
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* dividend = 7, divisor = -3
+*Output:* -2
+----
+
+*Note:*
+
+
+* Both dividend and divisor will be 32-bit signed integers.
+* The divisor will never be 0.
+* Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [-2^31^,  2^31^ - 1]. For the purpose of this problem, assume that your function returns 2^31^ - 1 when the division result overflows.
+
+

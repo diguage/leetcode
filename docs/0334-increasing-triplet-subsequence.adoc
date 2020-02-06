@@ -19,3 +19,35 @@ Trick 就在这里了！假如当前的 small 和 mid 为 [3, 5]，这时又来�
 === 参考资料
 
 . https://leetcode-cn.com/problems/increasing-triplet-subsequence/solution/c-xian-xing-shi-jian-fu-za-du-xiang-xi-jie-xi-da-b/[C++ 线性时间复杂度详细解析，打败 98% - 递增的三元子序列 - 力扣（LeetCode）]
+
+
+Given an unsorted array return whether an increasing subsequence of length 3 exists or not in the array.
+
+Formally the function should:
+
+<blockquote>Return true if there exists _i, j, k _
+
+
+such that _arr[i]_ < _arr[j]_ < _arr[k]_ given 0 ≤ _i_ < _j_ < _k_ ≤ _n_-1 else return false.</blockquote>
+
+*Note: *Your algorithm should run in O(_n_) time complexity and O(_1_) space complexity.
+
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">[1,2,3,4,5]
+*Output: *<span id="example-output-1">true
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">[5,4,3,2,1]
+*Output: *<span id="example-output-2">false
+----
+
+

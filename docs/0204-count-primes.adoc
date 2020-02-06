@@ -3,3 +3,15 @@
 https://leetcode.com/problems/count-primes/[LeetCode - Count Primes]
 
 如何实现一个高效的筛选法？
+
+Count the number of prime numbers less than a non-negative number, *_n_*.
+
+*Example:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 10
+*Output:* 4
+*Explanation:* There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
+----
+

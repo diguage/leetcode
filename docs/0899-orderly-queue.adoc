@@ -2,3 +2,46 @@
 
 https://leetcode.com/problems/orderly-queue/[LeetCode - Orderly Queue]
 
+A string `S` of lowercase letters is given.  Then, we may make any number of _moves_.
+
+In each move, we choose one of the first `K` letters (starting from the left), remove it, and place it at the end of the string.
+
+Return the lexicographically smallest string we could have after any number of moves.
+
+ 
+
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *S = <span id="example-input-1-1">"cba", K = <span id="example-input-1-2">1
+*Output: *<span id="example-output-1">"acb"
+*Explanation: *
+In the first move, we move the 1st character ("c") to the end, obtaining the string "bac".
+In the second move, we move the 1st character ("b") to the end, obtaining the final result "acb".
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *S = <span id="example-input-2-1">"baaca", K = <span id="example-input-2-2">3
+*Output: *<span id="example-output-2">"aaabc"
+*Explanation: *
+In the first move, we move the 1st character ("b") to the end, obtaining the string "aacab".
+In the second move, we move the 3rd character ("c") to the end, obtaining the final result "aaabc".
+----
+
+ 
+
+*Note:*
+
+
+. `1 <= K <= S.length <= 1000`
+. `S` consists of lowercase letters only.
+
+
+
+

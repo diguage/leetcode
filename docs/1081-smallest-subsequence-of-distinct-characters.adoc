@@ -2,3 +2,55 @@
 
 https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/[LeetCode - Smallest Subsequence of Distinct Characters]
 
+Return the lexicographically smallest subsequence of `text` that contains all the distinct characters of `text` exactly once.
+
+ 
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">"cdadabcc"
+*Output: *<span id="example-output-1">"adbc"
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">"abcd"
+*Output: *<span id="example-output-2">"abcd"
+----
+
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-3-1">"ecbacba"
+*Output: *<span id="example-output-3">"eacb"
+----
+
+
+*Example 4:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-4-1">"leetcode"
+*Output: *<span id="example-output-4">"letcod"
+----
+
+ 
+
+*Note:*
+
+
+. `1 <= text.length <= 1000`
+. `text` consists of lowercase English letters.
+
+
+ 
+
+
+

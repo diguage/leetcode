@@ -33,3 +33,33 @@ The longest substring is "ababb", as 'a' is repeated 2 times and 'b' is repeated
 === 参考资料
 
 . https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/solution/javadi-gui-by-tzfun/[Java递归 - 至少有K个重复字符的最长子串 - 力扣（LeetCode）]
+
+
+Find the length of the longest substring *_T_* of a given string (consists of lowercase letters only) such that every character in *_T_* appears no less than _k_ times.
+
+
+*Example 1:*
+[subs="verbatim,quotes"]
+----
+Input:
+s = "aaabb", k = 3
+
+Output:
+3
+
+The longest substring is "aaa", as 'a' is repeated 3 times.
+----
+
+
+*Example 2:*
+[subs="verbatim,quotes"]
+----
+Input:
+s = "ababbc", k = 2
+
+Output:
+5
+
+The longest substring is "ababb", as 'a' is repeated 2 times and 'b' is repeated 3 times.
+----
+

@@ -38,3 +38,34 @@ The flattened tree should look like:
 
 . https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--26/[详细通俗的思路分析，多解法 - 二叉树展开为链表 - 力扣（LeetCode）]
 . https://leetcode.wang/leetcode-114-Flatten-Binary-Tree-to-Linked-List.html[114. Flatten Binary Tree to Linked List · leetcode]
+
+Given a binary tree, flatten it to a linked list in-place.
+
+For example, given the following tree:
+
+[subs="verbatim,quotes"]
+----
+    1
+   / \
+  2   5
+ / \   \
+3   4   6
+----
+
+The flattened tree should look like:
+
+[subs="verbatim,quotes"]
+----
+1
+ \
+  2
+   \
+    3
+     \
+      4
+       \
+        5
+         \
+          6
+----
+

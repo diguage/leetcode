@@ -11,3 +11,39 @@ D瓜哥的思路：先找出一条从根节点到某个节点的路径；然后�
 === 参考资料
 
 . https://en.wikipedia.org/wiki/Lowest_common_ancestor[Lowest common ancestor - Wikipedia]
+
+Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
+
+According to the https://en.wikipedia.org/wiki/Lowest_common_ancestor[definition of LCA on Wikipedia]: &ldquo;The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow *a node to be a descendant of itself*).&rdquo;
+
+Given the following binary tree:  root = [3,5,1,6,2,0,8,null,null,7,4]
+<img alt="" src="https://assets.leetcode.com/uploads/2018/12/14/binarytree.png" style="width: 200px; height: 190px;" />
+ 
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
+*Output:* 3
+*Explanation: *The LCA of nodes `5` and `1` is `3.`
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 4
+*Output:* 5
+*Explanation: *The LCA of nodes `5` and `4` is `5`, since a node can be a descendant of itself according to the LCA definition.
+----
+
+ 
+
+*Note:*
+
+
+* All of the nodes' values will be unique.
+* p and q are different and both values will exist in the binary tree.
+
+

@@ -2,3 +2,40 @@
 
 https://leetcode.com/problems/transpose-matrix/[LeetCode - Transpose Matrix]
 
+Given a matrix `A`, return the transpose of `A`.
+
+The transpose of a matrix is the matrix flipped over it's main diagonal, switching the row and column indices of the matrix.
+
+<br>
+<img src="https://assets.leetcode.com/uploads/2019/10/20/hint_transpose.png" width="700"/>
+
+ 
+
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">[[1,2,3],[4,5,6],[7,8,9]]
+*Output: *<span id="example-output-1">[[1,4,7],[2,5,8],[3,6,9]]
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">[[1,2,3],[4,5,6]]
+*Output: *<span id="example-output-2">[[1,4],[2,5],[3,6]]
+----
+
+ 
+
+*Note:*
+
+
+. `1 <= A.length <= 1000`
+. `1 <= A[0].length <= 1000`
+
+
+

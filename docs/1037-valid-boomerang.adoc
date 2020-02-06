@@ -2,3 +2,40 @@
 
 https://leetcode.com/problems/valid-boomerang/[LeetCode - Valid Boomerang]
 
+A _boomerang_ is a set of 3 points that are all distinct and *not* in a straight line.
+
+Given a list of three points in the plane, return whether these points are a boomerang.
+
+ 
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">[[1,1],[2,3],[3,2]]
+*Output: *<span id="example-output-1">true
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">[[1,1],[2,2],[3,3]]
+*Output: *<span id="example-output-2">false
+----
+
+
+ 
+
+*Note:*
+
+
+. `points.length == 3`
+. `points[i].length == 2`
+. `0 <= points[i][j] <= 100`
+
+
+
+ 
+

@@ -2,3 +2,57 @@
 
 https://leetcode.com/problems/largest-component-size-by-common-factor/[LeetCode - Largest Component Size by Common Factor]
 
+Given a non-empty array of unique positive integers `A`, consider the following graph:
+
+
+* There are `A.length` nodes, labelled `A[0]` to `A[A.length - 1];`
+* There is an edge between `A[i]` and `A[j]` if and only if `A[i]` and `A[j]` share a common factor greater than 1.
+
+
+Return the size of the largest connected component in the graph.
+
+ 
+
+
+
+
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">[4,6,15,35]
+*Output: *<span id="example-output-1">4
+<img alt="" src="https://assets.leetcode.com/uploads/2018/12/01/ex1.png" style="width: 257px; height: 50px;" />
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">[20,50,9,63]
+*Output: *<span id="example-output-2">2
+<img alt="" src="https://assets.leetcode.com/uploads/2018/12/01/ex2.png" style="width: 293px; height: 50px;" />
+----
+
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-3-1">[2,3,6,7,4,12,21,39]
+*Output: *<span id="example-output-3">8
+<img alt="" src="https://assets.leetcode.com/uploads/2018/12/01/ex3.png" style="width: 346px; height: 180px;" />
+----
+
+*Note:*
+
+
+* `1 <= A.length <= 20000`
+* `1 <= A[i] <= 100000`
+
+
+
+
+

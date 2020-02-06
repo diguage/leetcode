@@ -23,3 +23,26 @@ https://leetcode.com/problems/factorial-trailing-zeroes/[LeetCode - Factorial Tr
 以此类推，直到最后的序列只剩下不超过 `5` 截止。上面每行中的 `5x` 数字的个数就是我们需要的结果：结尾 `0` 的个数。
 
 思路上，我受到了 https://leetcode.com/problems/factorial-trailing-zeroes/discuss/196311/topic[这详尽的思路令我茅塞顿开！递归非递归都有哦！ - LeetCode Discuss] 的启发。但是，自认为比他的解释更容易理解。
+
+Given an integer _n_, return the number of trailing zeroes in _n_!.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 3
+*Output:* 0
+*Explanation:* 3! = 6, no trailing zero.
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 5
+*Output:* 1
+*Explanation:* 5! = 120, one trailing zero.
+----
+
+*Note: *Your solution should be in logarithmic time complexity.
+

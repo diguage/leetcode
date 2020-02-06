@@ -7,3 +7,41 @@ https://leetcode.com/problems/basic-calculator-ii/[LeetCode - Basic Calculator I
 另外，这里还有个地方需要注意：在确定当前操作符的情况下，再计算上一次的值。所以，就需要把上一次的值保存下来。
 
 思考题：如果数字是全体整数，又该如何实现？如果再扩容成实数呢？
+
+Implement a basic calculator to evaluate a simple expression string.
+
+The expression string contains only *non-negative* integers, `+`, `-`, `*`, `/` operators and empty spaces ` `. The integer division should truncate toward zero.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *"3+2*2"
+*Output:* 7
+
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* " 3/2 "
+*Output:* 1
+----
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* " 3+5 / 2 "
+*Output:* 5
+
+----
+
+*Note:*
+
+
+* You may assume that the given expression is always valid.
+* *Do not* use the `eval` built-in library function.
+
+

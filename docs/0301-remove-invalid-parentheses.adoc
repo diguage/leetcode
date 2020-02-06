@@ -2,3 +2,30 @@
 
 https://leetcode.com/problems/remove-invalid-parentheses/[LeetCode - Remove Invalid Parentheses]
 
+Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results.
+
+*Note:* The input string may contain letters other than the parentheses `(` and `)`.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* "()())()"
+*Output:* ["()()()", "(())()"]
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* "(a)())()"
+*Output:* ["(a)()()", "(a())()"]
+----
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* ")("
+*Output: *[""]
+----

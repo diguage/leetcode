@@ -3,3 +3,31 @@
 https://leetcode.com/problems/top-k-frequent-elements/[LeetCode - Top K Frequent Elements]
 
 利用桶排序实在是妙妙妙啊！
+
+Given a non-empty array of integers, return the *_k_* most frequent elements.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *nums = <span id="example-input-1-1">[1,1,1,2,2,3], k = <span id="example-input-1-2">2
+*Output: *<span id="example-output-1">[1,2]
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *nums = <span id="example-input-2-1">[1], k = <span id="example-input-2-2">1
+*Output: *<span id="example-output-2">[1]
+----
+
+
+*Note: *
+
+
+* You may assume _k_ is always valid, 1 ≤ _k_ ≤ number of unique elements.
+* Your algorithm's time complexity *must be* better than O(_n_ log _n_), where _n_ is the array's size.
+
+

@@ -19,3 +19,14 @@ image::images/0093-1.png[]
 === 参考资料
 
 . https://leetcode-cn.com/problems/restore-ip-addresses/solution/fu-yuan-ipdi-zhi-by-leetcode/[复原IP地址 - 复原IP地址 - 力扣（LeetCode）]
+
+Given a string containing only digits, restore it by returning all possible valid IP address combinations.
+
+*Example:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* "25525511135"
+*Output:* `["255.255.11.135", "255.255.111.35"]`
+----
+

@@ -2,3 +2,46 @@
 
 https://leetcode.com/problems/uncommon-words-from-two-sentences/[LeetCode - Uncommon Words from Two Sentences]
 
+We are given two sentences `A` and `B`.  (A _sentence_ is a string of space separated words.  Each _word_ consists only of lowercase letters.)
+
+A word is _uncommon_ if it appears exactly once in one of the sentences, and does not appear in the other sentence.
+
+Return a list of all uncommon words. 
+
+You may return the list in any order.
+
+ 
+
+
+
+
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *A = <span id="example-input-1-1">"this apple is sweet", B = <span id="example-input-1-2">"this apple is sour"
+*Output: *<span id="example-output-1">["sweet","sour"]
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *A = <span id="example-input-2-1">"apple apple", B = <span id="example-input-2-2">"banana"
+*Output: *<span id="example-output-2">["banana"]
+----
+
+ 
+
+*Note:*
+
+
+. `0 <= A.length <= 200`
+. `0 <= B.length <= 200`
+. `A` and `B` both contain only spaces and lowercase letters.
+
+
+
+

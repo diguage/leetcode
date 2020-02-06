@@ -30,3 +30,33 @@ Explanation: By calling next repeatedly until hasNext returns false,
 === 参考资料
 
 . https://leetcode-cn.com/problems/flatten-nested-list-iterator/solution/shi-yong-di-gui-he-zhan-liang-chong-jie-fa-jin-xin/[使用递归和栈两种解法进行对比 - 扁平化嵌套列表迭代器 - 力扣（LeetCode）]
+
+Given a nested list of integers, implement an iterator to flatten it.
+
+Each element is either an integer, or a list -- whose elements may also be integers or other lists.
+
+*Example 1:*
+
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">[[1,1],2,[1,1]]
+*Output: *<span id="example-output-1">[1,1,2,1,1]
+*Explanation: *By calling _next_ repeatedly until _hasNext_ returns false, 
+             the order of elements returned by _next_ should be: `[1,1,2,1,1]`.
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">[1,[4,[6]]]
+*Output: *<span id="example-output-2">[1,4,6]
+*Explanation: *By calling _next_ repeatedly until _hasNext_ returns false, 
+             the order of elements returned by _next_ should be: `[1,4,6]`.
+
+----
+
+
+

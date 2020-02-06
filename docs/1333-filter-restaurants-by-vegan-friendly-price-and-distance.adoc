@@ -2,11 +2,11 @@
 
 https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/[LeetCode - Filter Restaurants by Vegan-Friendly, Price and Distance]
 
-Given the array `restaurants` where  `restaurants[i] = [id<sub>i</sub>, rating<sub>i</sub>, veganFriendly<sub>i</sub>, price<sub>i</sub>, distance<sub>i</sub>]`. You have to filter the restaurants using three filters.
+Given the array `restaurants` where  `restaurants[i] = [id~i~, rating~i~, veganFriendly~i~, price~i~, distance~i~]`. You have to filter the restaurants using three filters.
 
-The `veganFriendly` filter will be either _true_ (meaning you should only include restaurants with `veganFriendly<sub>i</sub>` set to true) or _false_ (meaning you can include any restaurant). In addition, you have the filters `maxPrice` and `maxDistance` which are the maximum value for price and distance of restaurants you should consider respectively.
+The `veganFriendly` filter will be either _true_ (meaning you should only include restaurants with `veganFriendly~i~` set to true) or _false_ (meaning you can include any restaurant). In addition, you have the filters `maxPrice` and `maxDistance` which are the maximum value for price and distance of restaurants you should consider respectively.
 
-Return the array of restaurant _*IDs*_ after filtering, ordered by *rating* from highest to lowest. For restaurants with the same rating, order them by _*id*_ from highest to lowest. For simplicity `veganFriendly<sub>i</sub>` and `veganFriendly` take value _1_ when it is _true_, and _0_ when it is _false_.
+Return the array of restaurant _*IDs*_ after filtering, ordered by *rating* from highest to lowest. For restaurants with the same rating, order them by _*id*_ from highest to lowest. For simplicity `veganFriendly~i~` and `veganFriendly` take value _1_ when it is _true_, and _0_ when it is _false_.
 
  
 *Example 1:*
@@ -48,8 +48,8 @@ After filter restaurants with veganFriendly = 1, maxPrice = 50 and maxDistance =
 
 * `1 <= restaurants.length <= 10^4`
 * `restaurants[i].length == 5`
-* `1 <= id<sub>i</sub>, rating<sub>i</sub>, price<sub>i</sub>, distance<sub>i </sub><= 10^5`
+* `1 <= id~i~, rating~i~, price~i~, distance~i ~<= 10^5`
 * `1 <= maxPrice, maxDistance <= 10^5`
-* `veganFriendly<sub>i</sub>` and `veganFriendly` are 0 or 1.
-* All `id<sub>i</sub>` are distinct.
+* `veganFriendly~i~` and `veganFriendly` are 0 or 1.
+* All `id~i~` are distinct.
 

@@ -2,3 +2,34 @@
 
 https://leetcode.com/problems/contains-duplicate-iii/[LeetCode - Contains Duplicate III]
 
+Given an array of integers, find out whether there are two distinct indices _i_ and _j_ in the array such that the *absolute* difference between *nums[i]* and *nums[j]* is at most _t_ and the *absolute* difference between _i_ and _j_ is at most _k_.
+
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *nums = <span id="example-input-1-1">[1,2,3,1], k = <span id="example-input-1-2">3, t = <span id="example-input-1-3">0
+*Output: *<span id="example-output-1">true
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *nums = <span id="example-input-2-1">[1,0,1,1], k = <span id="example-input-2-2">1, t = <span id="example-input-2-3">2
+*Output: *<span id="example-output-2">true
+----
+
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *nums = <span id="example-input-3-1">[1,5,9,1,5,9], k = <span id="example-input-3-2">2, t = <span id="example-input-3-3">3
+*Output: *<span id="example-output-3">false
+----
+
+
+

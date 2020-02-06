@@ -2,3 +2,39 @@
 
 https://leetcode.com/problems/advantage-shuffle/[LeetCode - Advantage Shuffle]
 
+Given two arrays `A` and `B` of equal size, the _advantage of `A` with respect to `B`_ is the number of indices `i` for which `A[i] > B[i]`.
+
+Return *any* permutation of `A` that maximizes its advantage with respect to `B`.
+
+ 
+
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *A = <span id="example-input-1-1">[2,7,11,15], B = <span id="example-input-1-2">[1,10,4,11]
+*Output: *<span id="example-output-1">[2,11,7,15]
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *A = <span id="example-input-2-1">[12,24,8,32], B = <span id="example-input-2-2">[13,25,32,11]
+*Output: *<span id="example-output-2">[24,32,8,12]
+----
+
+ 
+
+*Note:*
+
+
+. `1 <= A.length = B.length <= 10000`
+. `0 <= A[i] <= 10^9`
+. `0 <= B[i] <= 10^9`
+
+
+
+

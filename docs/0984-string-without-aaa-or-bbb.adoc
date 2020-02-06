@@ -2,3 +2,42 @@
 
 https://leetcode.com/problems/string-without-aaa-or-bbb/[LeetCode - String Without AAA or BBB]
 
+Given two integers `A` and `B`, return *any* string `S` such that:
+
+
+* `S` has length `A + B` and contains exactly `A` `'a'` letters, and exactly `B` `'b'` letters;
+* The substring `'aaa'` does not occur in `S`;
+* The substring `'bbb'` does not occur in `S`.
+
+
+ 
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *A = <span id="example-input-1-1">1, B = <span id="example-input-1-2">2
+*Output: *<span id="example-output-1">"abb"
+*Explanation:* "abb", "bab" and "bba" are all correct answers.
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *A = <span id="example-input-2-1">4, B = <span id="example-input-2-2">1
+*Output: *<span id="example-output-2">"aabaa"
+----
+
+ 
+
+
+*Note:*
+
+
+* `0 <= A <= 100`
+* `0 <= B <= 100`
+* It is guaranteed such an `S` exists for the given `A` and `B`.
+
+

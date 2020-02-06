@@ -3,3 +3,35 @@
 https://leetcode.com/problems/first-missing-positive/[LeetCode - First Missing Positive]
 
 这道题跟 https://leetcode.com/problems/missing-number/[268. Missing Number - LeetCode] 很像！
+
+
+Given an unsorted integer array, find the smallest missing positive integer.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+Input: [1,2,0]
+Output: 3
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+Input: [3,4,-1,1]
+Output: 2
+----
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+Input: [7,8,9,11,12]
+Output: 1
+----
+
+*Note:*
+
+Your algorithm should run in _O_(_n_) time and uses constant extra space.
+

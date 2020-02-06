@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 import ujson as json
 
 file_name = "leetcode.json"
@@ -7,7 +9,8 @@ data = json.loads(json_file.read())
 problems = data['stat_status_pairs']
 
 for problem in problems:
-    title = "== %d. %s" %(problem["stat"]["frontend_question_id"], problem["stat"]["question__title"]) 
+    id = problem["stat"]["frontend_question_id"]
+    title = "== %d. %s" %(id, problem["stat"]["question__title"])
     url = "https://leetcode.com/problems/%s/[LeetCode - %s]" % (problem["stat"]["question__title_slug"], problem["stat"]["question__title"])
     filename = "%04d-%s.adoc"%(problem["stat"]["frontend_question_id"], problem["stat"]["question__title_slug"])
 

@@ -52,3 +52,39 @@ Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
 . https://leetcode-cn.com/problems/house-robber-iii/solution/java-2ms-by-horanol/[java 2ms - 打家劫舍 III - 力扣（LeetCode）]
 . https://leetcode-cn.com/problems/house-robber-iii/solution/san-chong-fang-fa-jie-jue-shu-xing-dong-tai-gui-hu/[三种方法解决树形动态规划问题-从入门级代码到高效树形动态规划代码实现 - 打家劫舍 III - 力扣（LeetCode）]
 . https://leetcode-cn.com/problems/house-robber-iii/solution/tong-yong-si-lu-tuan-mie-da-jia-jie-she-wen-ti-b-2/[通用思路团灭打家劫舍问题 - 打家劫舍 III - 力扣（LeetCode）]
+
+The thief has found himself a new place for his thievery again. There is only one entrance to this area, called the "root." Besides the root, each house has one and only one parent house. After a tour, the smart thief realized that "all houses in this place forms a binary tree". It will automatically contact the police if two directly-linked houses were broken into on the same night.
+
+Determine the maximum amount of money the thief can rob tonight without alerting the police.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *[3,2,3,null,3,null,1]
+
+     <font color="red">3
+    / \
+   2   3
+    \   \ 
+     <font color="red">3   1
+
+*Output:* 7 
+*Explanation:* Maximum amount of money the thief can rob = <font color="red" style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">3<span style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";"> + <font color="red" style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">3<span style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";"> + <font color="red" style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">1<span style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";"> = <b style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">7*<span style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">.
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *[3,4,5,1,3,null,1]
+
+     3
+    / \
+   <font color="red">4   <font color="red">5
+  / \   \ 
+ 1   3   1
+
+*Output:* 9
+*Explanation:* Maximum amount of money the thief can rob = <font color="red">4 + <font color="red">5 = *9*.
+----

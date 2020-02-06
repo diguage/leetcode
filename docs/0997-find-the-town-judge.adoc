@@ -2,3 +2,79 @@
 
 https://leetcode.com/problems/find-the-town-judge/[LeetCode - Find the Town Judge]
 
+In a town, there are `N` people labelled from `1` to `N`.  There is a rumor that one of these people is secretly the town judge.
+
+If the town judge exists, then:
+
+
+. The town judge trusts nobody.
+. Everybody (except for the town judge) trusts the town judge.
+. There is exactly one person that satisfies properties 1 and 2.
+
+
+You are given `trust`, an array of pairs `trust[i] = [a, b]` representing that the person labelled `a` trusts the person labelled `b`.
+
+If the town judge exists and can be identified, return the label of the town judge.  Otherwise, return `-1`.
+
+ 
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *N = <span id="example-input-1-1">2, trust = <span id="example-input-1-2">[[1,2]]
+*Output: *<span id="example-output-1">2
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *N = <span id="example-input-2-1">3, trust = <span id="example-input-2-2">[[1,3],[2,3]]
+*Output: *<span id="example-output-2">3
+----
+
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *N = <span id="example-input-3-1">3, trust = <span id="example-input-3-2">[[1,3],[2,3],[3,1]]
+*Output: *<span id="example-output-3">-1
+----
+
+
+*Example 4:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *N = <span id="example-input-4-1">3, trust = <span id="example-input-4-2">[[1,2],[2,3]]
+*Output: *<span id="example-output-4">-1
+----
+
+
+*Example 5:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *N = <span id="example-input-5-1">4, trust = <span id="example-input-5-2">[[1,3],[1,4],[2,3],[2,4],[4,3]]
+*Output: *<span id="example-output-5">3
+----
+
+ 
+
+
+
+
+
+*Note:*
+
+
+. `1 <= N <= 1000`
+. `trust.length <= 10000`
+. `trust[i]` are all different
+. `trust[i][0] != trust[i][1]`
+. `1 <= trust[i][0], trust[i][1] <= N`
+
+

@@ -3,3 +3,32 @@
 https://leetcode.com/problems/fraction-to-recurring-decimal/[LeetCode - Fraction to Recurring Decimal]
 
 需要注意的是是：在 Map 中放的是被除数，而不是计算出来的位数digit。这样更方便处理！
+
+Given two integers representing the numerator and denominator of a fraction, return the fraction in string format.
+
+If the fractional part is repeating, enclose the repeating part in parentheses.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* numerator = 1, denominator = 2
+*Output:* "0.5"
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* numerator = 2, denominator = 1
+*Output:* "2"
+----
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* numerator = 2, denominator = 3
+*Output: *"0.(6)"
+----
+

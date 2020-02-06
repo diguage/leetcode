@@ -3,3 +3,24 @@
 https://leetcode.com/problems/valid-palindrome/[LeetCode - Valid Palindrome]
 
 基本思路就是从两边想中间挤压。记得前不久有一道题使用了相似的处理手段，容我有时间找找看！
+
+Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+
+*Note:* For the purpose of this problem, we define empty string as valid palindrome.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* "A man, a plan, a canal: Panama"
+*Output:* true
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* "race a car"
+*Output:* false
+----
+

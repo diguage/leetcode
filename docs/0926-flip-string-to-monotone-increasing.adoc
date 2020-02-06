@@ -2,3 +2,52 @@
 
 https://leetcode.com/problems/flip-string-to-monotone-increasing/[LeetCode - Flip String to Monotone Increasing]
 
+A string of `'0'`s and `'1'`s is _monotone increasing_ if it consists of some number of `'0'`s (possibly 0), followed by some number of `'1'`s (also possibly 0.)
+
+We are given a string `S` of `'0'`s and `'1'`s, and we may flip any `'0'` to a `'1'` or a `'1'` to a `'0'`.
+
+Return the minimum number of flips to make `S` monotone increasing.
+
+ 
+
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">"00110"
+*Output: *<span id="example-output-1">1
+*Explanation: *We flip the last digit to get 00111.
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">"010110"
+*Output: *<span id="example-output-2">2
+*Explanation: *We flip to get 011111, or alternatively 000111.
+----
+
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-3-1">"00011000"
+*Output: *<span id="example-output-3">2
+*Explanation: *We flip to get 00000000.
+----
+
+ 
+
+*Note:*
+
+
+. `1 <= S.length <= 20000`
+. `S` only consists of `'0'` and `'1'` characters.
+
+
+
+

@@ -2,3 +2,30 @@
 
 https://leetcode.com/problems/reverse-vowels-of-a-string/[LeetCode - Reverse Vowels of a String]
 
+Write a function that takes a string as input and reverse only the vowels of a string.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">"hello"
+*Output: *<span id="example-output-1">"holle"
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">"leetcode"
+*Output: *<span id="example-output-2">"leotcede"
+----
+
+
+*Note:*
+
+
+The vowels does not include the letter "y".
+
+ 
+

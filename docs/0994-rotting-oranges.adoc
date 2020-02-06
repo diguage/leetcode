@@ -2,3 +2,60 @@
 
 https://leetcode.com/problems/rotting-oranges/[LeetCode - Rotting Oranges]
 
+In a given grid, each cell can have one of three values:
+
+
+* the value `0` representing an empty cell;
+* the value `1` representing a fresh orange;
+* the value `2` representing a rotten orange.
+
+
+Every minute, any fresh orange that is adjacent (4-directionally) to a rotten orange becomes rotten.
+
+Return the minimum number of minutes that must elapse until no cell has a fresh orange.  If this is impossible, return `-1` instead.
+
+ 
+
+
+*Example 1:*
+
+*<img alt="" src="https://assets.leetcode.com/uploads/2019/02/16/oranges.png" style="width: 712px; height: 150px;" />*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">[[2,1,1],[1,1,0],[0,1,1]]
+*Output: *<span id="example-output-1">4
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">[[2,1,1],[0,1,1],[1,0,1]]
+*Output: *<span id="example-output-2">-1
+*Explanation: * The orange in the bottom left corner (row 2, column 0) is never rotten, because rotting only happens 4-directionally.
+----
+
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-3-1">[[0,2]]
+*Output: *<span id="example-output-3">0
+*Explanation: * Since there are already no fresh oranges at minute 0, the answer is just 0.
+----
+
+ 
+
+*Note:*
+
+
+* `1 <= grid.length <= 10`
+* `1 <= grid[0].length <= 10`
+* `grid[i][j]` is only `0`, `1`, or `2`.
+
+
+
+

@@ -3,3 +3,19 @@
 https://leetcode.com/problems/reverse-linked-list/[LeetCode - Reverse Linked List]
 
 递归需要加强一下，反转链表的递归细节再推敲推敲。
+
+
+Reverse a singly linked list.
+
+*Example:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 1->2->3->4->5->NULL
+*Output:* 5->4->3->2->1->NULL
+----
+
+*Follow up:*
+
+A linked list can be reversed either iteratively or recursively. Could you implement both?
+

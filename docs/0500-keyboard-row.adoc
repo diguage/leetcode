@@ -2,3 +2,27 @@
 
 https://leetcode.com/problems/keyboard-row/[LeetCode - Keyboard Row]
 
+Given a List of words, return the words that can be typed using letters of *alphabet* on only one row's of American keyboard like the image below.
+
+ 
+
+<img alt="" src="https://assets.leetcode.com/uploads/2018/10/12/keyboard.png" style="width: 100%; max-width: 600px" />
+ 
+
+*Example:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* ["Hello", "Alaska", "Dad", "Peace"]
+*Output:* ["Alaska", "Dad"]
+----
+
+ 
+
+*Note:*
+
+
+. You may use one character in the keyboard more than once.
+. You may assume the input string will only contain letters of alphabet.
+
+

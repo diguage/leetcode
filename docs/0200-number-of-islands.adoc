@@ -7,3 +7,31 @@ https://leetcode.com/problems/number-of-islands/[LeetCode - Number of Islands]
 这道题与 link:0130-surrounded-regions.adoc[] 类似。
 
 https://leetcode.com/problems/surrounded-regions/[LeetCode - Surrounded Regions]
+
+Given a 2d grid map of `'1'`s (land) and `'0'`s (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:*
+11110
+11010
+11000
+00000
+
+*Output:* 1
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:*
+11000
+11000
+00100
+00011
+
+*Output: *3
+----

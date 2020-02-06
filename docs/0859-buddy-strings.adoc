@@ -2,3 +2,67 @@
 
 https://leetcode.com/problems/buddy-strings/[LeetCode - Buddy Strings]
 
+Given two strings `A` and `B` of lowercase letters, return `true` if and only if we can swap two letters in `A` so that the result equals `B`.
+
+ 
+
+*Example 1:*
+
+
+[subs="verbatim,quotes"]
+----
+*Input: *A = <span id="example-input-1-1">"ab", B = <span id="example-input-1-2">"ba"
+*Output: *<span id="example-output-1">true
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *A = <span id="example-input-2-1">"ab", B = <span id="example-input-2-2">"ab"
+*Output: *<span id="example-output-2">false
+----
+
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *A = <span id="example-input-3-1">"aa", B = <span id="example-input-3-2">"aa"
+*Output: *<span id="example-output-3">true
+----
+
+
+*Example 4:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *A = <span id="example-input-4-1">"aaaaaaabc", B = <span id="example-input-4-2">"aaaaaaacb"
+*Output: *<span id="example-output-4">true
+----
+
+
+*Example 5:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *A = <span id="example-input-5-1">"", B = <span id="example-input-5-2">"aa"
+*Output: *<span id="example-output-5">false
+----
+
+ 
+
+*Note:*
+
+
+. `0 <= A.length <= 20000`
+. `0 <= B.length <= 20000`
+. `A` and `B` consist only of lowercase letters.
+
+
+
+
+
+
+

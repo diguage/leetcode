@@ -2,3 +2,20 @@
 
 https://leetcode.com/problems/shortest-palindrome/[LeetCode - Shortest Palindrome]
 
+Given a string _*s*_, you are allowed to convert it to a palindrome by adding characters in front of it. Find and return the shortest palindrome you can find by performing this transformation.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *`"aacecaaa"`
+*Output:* `"aaacecaaa"`
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *`"abcd"`
+*Output:* `"dcbabcd"`
+----

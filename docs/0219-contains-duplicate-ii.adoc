@@ -2,3 +2,35 @@
 
 https://leetcode.com/problems/contains-duplicate-ii/[LeetCode - Contains Duplicate II]
 
+Given an array of integers and an integer _k_, find out whether there are two distinct indices _i_ and _j_ in the array such that *nums[i] = nums[j]* and the *absolute* difference between _i_ and _j_ is at most _k_.
+
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *nums = <span id="example-input-1-1">[1,2,3,1], k = <span id="example-input-1-2">3
+*Output: *<span id="example-output-1">true
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *nums = <span id="example-input-2-1">[1,0,1,1], k = <span id="example-input-2-2">1
+*Output: *<span id="example-output-2">true
+----
+
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *nums = <span id="example-input-3-1">[1,2,3,1,2,3], k = <span id="example-input-3-2">2
+*Output: *<span id="example-output-3">false
+----
+
+
+
+

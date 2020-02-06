@@ -2,3 +2,36 @@
 
 https://leetcode.com/problems/to-lower-case/[LeetCode - To Lower Case]
 
+Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
+
+ 
+
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">"Hello"
+*Output: *<span id="example-output-1">"hello"
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">"here"
+*Output: *<span id="example-output-2">"here"
+----
+
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-3-1">"LOVELY"
+*Output: *<span id="example-output-3">"lovely"
+----
+
+
+

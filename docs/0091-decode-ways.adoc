@@ -3,3 +3,36 @@
 https://leetcode.com/problems/decode-ways/[LeetCode - Decode Ways]
 
 这道题可以使用动态规划算法解决。学习《算法导论》中"动态规划"的解题步骤，再推演几次这个解题方法。
+
+A message containing letters from `A-Z` is being encoded to numbers using the following mapping:
+
+[subs="verbatim,quotes"]
+----
+'A' -> 1
+'B' -> 2
+...
+'Z' -> 26
+
+----
+
+Given a *non-empty* string containing only digits, determine the total number of ways to decode it.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* "12"
+*Output:* 2
+*Explanation:* It could be decoded as "AB" (1 2) or "L" (12).
+
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* "226"
+*Output:* 3
+*Explanation:* It could be decoded as "BZ" (2 26), "VF" (22 6), or "BBF" (2 2 6).
+----
+

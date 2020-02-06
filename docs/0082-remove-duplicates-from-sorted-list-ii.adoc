@@ -25,3 +25,22 @@ Output: 2->3
 === 参考资料
 
 . https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/solution/kuai-man-zhi-zhen-by-powcai-2/[递归与非递归 - 删除排序链表中的重复元素 II - 力扣（LeetCode）]
+
+Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only _distinct_ numbers from the original list.
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 1->2->3->3->4->4->5
+*Output:* 1->2->5
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 1->1->1->2->3
+*Output:* 2->3
+----
+

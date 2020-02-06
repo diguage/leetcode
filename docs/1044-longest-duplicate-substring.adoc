@@ -2,3 +2,34 @@
 
 https://leetcode.com/problems/longest-duplicate-substring/[LeetCode - Longest Duplicate Substring]
 
+Given a string `S`, consider all _duplicated substrings_: (contiguous) substrings of S that occur 2 or more times.  (The occurrences may overlap.)
+
+Return *any* duplicated substring that has the longest possible length.  (If `S` does not have a duplicated substring, the answer is `""`.)
+
+ 
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-1-1">"banana"
+*Output: *<span id="example-output-1">"ana"
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *<span id="example-input-2-1">"abcd"
+*Output: *<span id="example-output-2">""
+----
+
+ 
+
+*Note:*
+
+
+. `2 <= S.length <= 10^5`
+. `S` consists of lowercase English letters.
+
+

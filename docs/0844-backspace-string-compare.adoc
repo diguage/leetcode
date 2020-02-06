@@ -2,3 +2,63 @@
 
 https://leetcode.com/problems/backspace-string-compare/[LeetCode - Backspace String Compare]
 
+Given two strings `S` and `T`, return if they are equal when both are typed into empty text editors. `#` means a backspace character.
+
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *S = <span id="example-input-1-1">"ab#c", T = <span id="example-input-1-2">"ad#c"
+*Output: *<span id="example-output-1">true
+*Explanation*: Both S and T become "ac".
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *S = <span id="example-input-2-1">"ab##", T = <span id="example-input-2-2">"c#d#"
+*Output: *<span id="example-output-2">true
+*Explanation*: Both S and T become "".
+----
+
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *S = <span id="example-input-3-1">"a##c", T = <span id="example-input-3-2">"#a#c"
+*Output: *<span id="example-output-3">true
+*Explanation*: Both S and T become "c".
+----
+
+
+*Example 4:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *S = <span id="example-input-4-1">"a#c", T = <span id="example-input-4-2">"b"
+*Output: *<span id="example-output-4">false
+*Explanation*: S becomes "c" while T becomes "b".
+----
+
+*Note*:
+
+
+* `1 <= S.length <= 200`
+* `1 <= T.length <= 200`
+* `S` and `T` only contain lowercase letters and `'#'` characters.
+
+
+*Follow up:*
+
+
+* Can you solve it in `O(N)` time and `O(1)` space?
+
+
+
+
+
+

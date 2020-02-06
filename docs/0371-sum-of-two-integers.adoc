@@ -13,3 +13,26 @@ https://leetcode.com/problems/sum-of-two-integers/[LeetCode - Sum of Two Integer
 === 参考资料
 
 . https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary%3A-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently[A summary: how to use bit manipulation to solve problems easily and efficiently - LeetCode Discuss]
+
+Calculate the sum of two integers _a_ and _b_, but you are *not allowed* to use the operator `+` and `-`.
+
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *a = <span id="example-input-1-1">1, b = <span id="example-input-1-2">2
+*Output: *<span id="example-output-1">3
+----
+
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *a = -<span id="example-input-2-1">2, b = <span id="example-input-2-2">3
+*Output: *1
+----
+
+
+

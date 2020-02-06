@@ -2,3 +2,42 @@
 
 https://leetcode.com/problems/excel-sheet-column-title/[LeetCode - Excel Sheet Column Title]
 
+Given a positive integer, return its corresponding column title as appear in an Excel sheet.
+
+For example:
+
+[subs="verbatim,quotes"]
+----
+    1 -> A
+    2 -> B
+    3 -> C
+    ...
+    26 -> Z
+    27 -> AA
+    28 -> AB 
+    ...
+----
+
+*Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 1
+*Output:* "A"
+----
+
+*Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 28
+*Output:* "AB"
+----
+
+*Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 701
+*Output:* "ZY"
+----

@@ -2,6 +2,25 @@
 
 https://leetcode.com/problems/longest-palindromic-substring/[LeetCode - Longest Palindromic Substring]
 
+Given a string *s*, find the longest palindromic substring in *s*. You may assume that the maximum length of *s* is 1000.
+
+.Example 1:
+[subs="verbatim,quotes"]
+----
+*Input:* "babad"
+*Output:* "bab"
+*Note:* "aba" is also a valid answer.
+----
+
+.Example 2:
+[subs="verbatim,quotes"]
+----
+*Input:* "cbbd"
+*Output:* "bb"
+----
+
+=== 解题分析
+
 最简单的方式：使用两个指针，把字符串逐个"拆成"子串，然后留下最大子串即可。可惜，这种算法的时间复杂度是 O(n^3^)。
 
 没想到，竟然存在时间复杂度为 O(n) 的算法：Manacher's Algorithm。在维基百科上有解释： https://en.wikipedia.org/wiki/Longest_palindromic_substring[Longest palindromic substring - Wikipedia]。回头研究研究再补充！
@@ -17,3 +36,4 @@ https://leetcode.com/problems/longest-palindromic-substring/[LeetCode - Longest 
 * https://medium.com/hackernoon/manachers-algorithm-explained-longest-palindromic-substring-22cb27a5e96f[Manacher’s Algorithm Explained— Longest Palindromic Substring]
 * https://blog.csdn.net/dyx404514/article/details/42061017[Manacher算法总结_ddyyxx的程序员之路-CSDN博客]
 * https://www.jianshu.com/p/6db44081a155[Manacher算法详解 - 简书]
+
