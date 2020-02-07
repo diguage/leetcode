@@ -43,3 +43,18 @@ The root-to-leaf path `4->0` represents the number 40.
 Therefore, sum = 495 + 491 + 40 = `1026`.
 ----
 
+=== 解题分析
+
+这道题和 xref:0112-path-sum.adoc[112. Path Sum] 类似。
+
+找到所有路径，父级乘以10，再加当前节点，最后到叶子节点时，加入到总和中。
+
+=== 思考题
+
+. 尝试使用中根遍历和后跟遍历的解法。
+. 目前解法是会用了实例变量，能否取去掉？
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/solution/3zhong-jie-fa-di-gui-xian-xu-fei-di-gui-xian-xu-ce/[3中解法：递归先序、非递归先序、层序 - 求根到叶子节点数字之和 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-3-5/[详细通俗的思路分析，多解法 - 求根到叶子节点数字之和 - 力扣（LeetCode）]

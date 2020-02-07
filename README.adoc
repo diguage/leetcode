@@ -777,12 +777,12 @@
 //|{source_base_url}/_0128_LongestConsecutiveSequence.java[Java]
 //|{doc_base_url}/0128-longest-consecutive-sequence.adoc[Note]
 //|Hard
-//
-//|129
-//|{leetcode_base_url}/sum-root-to-leaf-numbers/[Sum Root to Leaf Numbers]
-//|{source_base_url}/_0129_SumRootToLeafNumbers.java[Java]
-//|{doc_base_url}/0129-sum-root-to-leaf-numbers.adoc[Note]
-//|Medium
+
+|129
+|{leetcode_base_url}/sum-root-to-leaf-numbers/[Sum Root to Leaf Numbers]
+|{source_base_url}/_0129_SumRootToLeafNumbers.java[Java]
+|{doc_base_url}/0129-sum-root-to-leaf-numbers.adoc[Note]
+|Medium
 
 |130
 |{leetcode_base_url}/surrounded-regions/[Surrounded Regions]
