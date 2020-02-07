@@ -682,11 +682,11 @@
 |{doc_base_url}/0112-path-sum.adoc[Note]
 |Easy
 
-//|113
-//|{leetcode_base_url}/path-sum-ii/[Path Sum II]
-//|{source_base_url}/_0113_PathSumII.java[Java]
-//|{doc_base_url}/0113-path-sum-ii.adoc[Note]
-//|Medium
+|113
+|{leetcode_base_url}/path-sum-ii/[Path Sum II]
+|{source_base_url}/_0113_PathSumII.java[Java]
+|{doc_base_url}/0113-path-sum-ii.adoc[Note]
+|Medium
 
 |114
 |{leetcode_base_url}/flatten-binary-tree-to-linked-list/[Flatten Binary Tree to Linked List]
