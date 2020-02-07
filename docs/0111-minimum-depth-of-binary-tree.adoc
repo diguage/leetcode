@@ -23,3 +23,14 @@ Given binary tree `[3,9,20,null,null,15,7]`,
 
 return its minimum depth = 2.
 
+=== 解题分析
+
+这里并不是简单得取每个子树最小值就行了。因为一个子树为空，但是另外一个子树能还需要遍历，需要针对不为空的树，再去遍历。
+
+=== 思考题
+
+使用深度优先搜索和广度优先搜索来解决这个问题。
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/solution/er-cha-shu-de-zui-xiao-shen-du-by-leetcode/[二叉树的最小深度 - 二叉树的最小深度 - 力扣（LeetCode）]

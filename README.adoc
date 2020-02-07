@@ -670,12 +670,12 @@
 |{doc_base_url}/0110-balanced-binary-tree.adoc[Note]
 |Easy
 
-//|111
-//|{leetcode_base_url}/minimum-depth-of-binary-tree/[Minimum Depth of Binary Tree]
-//|{source_base_url}/_0111_MinimumDepthOfBinaryTree.java[Java]
-//|{doc_base_url}/0111-minimum-depth-of-binary-tree.adoc[Note]
-//|Easy
-//
+|111
+|{leetcode_base_url}/minimum-depth-of-binary-tree/[Minimum Depth of Binary Tree]
+|{source_base_url}/_0111_MinimumDepthOfBinaryTree.java[Java]
+|{doc_base_url}/0111-minimum-depth-of-binary-tree.adoc[Note]
+|Easy
+
 //|112
 //|{leetcode_base_url}/path-sum/[Path Sum]
 //|{source_base_url}/_0112_PathSum.java[Java]
