@@ -25,21 +25,11 @@ public class _0112_PathSum {
         if (Objects.isNull(root)) {
             return false;
         }
-        if (Objects.nonNull(root) && root.val == sum
-                && Objects.isNull(root.left) && Objects.isNull(root.right)) {
-            return true;
+        sum -= root.val;
+        if (  Objects.isNull(root.left) && Objects.isNull(root.right)) {
+            return sum == 0;
         }
-        boolean result = false;
-        if (Objects.nonNull(root.left)) {
-            result = hasPathSum(root.left, sum - root.val);
-        }
-        if (result) {
-            return true;
-        }
-        if (Objects.nonNull(root.right)) {
-            result = hasPathSum(root.right, sum - root.val);
-        }
-        return result;
+        return hasPathSum(root.left, sum) || hasPathSum(root.right, sum);
     }
 
     public static void main(String[] args) {
