@@ -724,11 +724,11 @@
 |{doc_base_url}/0119-pascals-triangle-ii.adoc[Note]
 |Easy
 
-//|120
-//|{leetcode_base_url}/triangle/[Triangle]
-//|{source_base_url}/_0120_Triangle.java[Java]
-//|{doc_base_url}/0120-triangle.adoc[Note]
-//|Medium
+|120
+|{leetcode_base_url}/triangle/[Triangle]
+|{source_base_url}/_0120_Triangle.java[Java]
+|{doc_base_url}/0120-triangle.adoc[Note]
+|Medium
 
 |121
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock/[Best Time to Buy and Sell Stock]
