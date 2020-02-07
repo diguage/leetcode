@@ -23,3 +23,6 @@ Given the below binary tree and `sum = 22`,
 
 return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
 
+=== 解题分析
+
+减去当前节点值的只，然后递归调用，到叶子节点和目标值相等即可。

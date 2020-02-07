@@ -676,12 +676,12 @@
 |{doc_base_url}/0111-minimum-depth-of-binary-tree.adoc[Note]
 |Easy
 
-//|112
-//|{leetcode_base_url}/path-sum/[Path Sum]
-//|{source_base_url}/_0112_PathSum.java[Java]
-//|{doc_base_url}/0112-path-sum.adoc[Note]
-//|Easy
-//
+|112
+|{leetcode_base_url}/path-sum/[Path Sum]
+|{source_base_url}/_0112_PathSum.java[Java]
+|{doc_base_url}/0112-path-sum.adoc[Note]
+|Easy
+
 //|113
 //|{leetcode_base_url}/path-sum-ii/[Path Sum II]
 //|{source_base_url}/_0113_PathSumII.java[Java]
