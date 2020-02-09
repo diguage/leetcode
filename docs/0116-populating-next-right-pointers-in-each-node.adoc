@@ -2,22 +2,9 @@
 
 https://leetcode.com/problems/populating-next-right-pointers-in-each-node/[LeetCode - Populating Next Right Pointers in Each Node]
 
-image::images/0116-0.png[]
-
-image::images/0116-1.jpg[]
-
-image::images/0116-2.jpg[]
-
-这道题的关键是在上层遍历中，把下层的链接关系建立起来。
-
-因为是完全二叉树。所以，如果左下节点为空则到达最后一层；向右节点为空，则到达行尾需要换行。
-
-=== 参考资料
-
-. https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--27/[详细通俗的思路分析，多解法 - 填充每个节点的下一个右侧节点指针 - 力扣（LeetCode）]
-
 You are given a *perfect binary tree* where all leaves are on the same level, and every parent has two children. The binary tree has the following definition:
 
+[source,c]
 [subs="verbatim,quotes"]
 ----
 struct Node {
@@ -32,32 +19,42 @@ Populate each next pointer to point to its next right node. If there is no next 
 
 Initially, all next pointers are set to `NULL`.
 
- 
-
 *Follow up:*
-
 
 * You may only use constant extra space.
 * Recursive approach is fine, you may assume implicit stack space does not count as extra space for this problem.
 
 
- 
+
 *Example 1:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2019/02/14/116_sample.png" style="width: 640px; height: 218px;" />
+image::images/0116-0.png[]
 
 [subs="verbatim,quotes"]
 ----
 *Input:* root = [1,2,3,4,5,6,7]
 *Output:* [1,#,2,3,#,4,5,6,7,#]
-*Explanation: *Given the above perfect binary tree (Figure A), your function should populate each next pointer to point to its next right node, just like in Figure B. The serialized output is in level order as connected by the next pointers, with '#' signifying the end of each level.
+*Explanation:* Given the above perfect binary tree (Figure A), your function should populate each next pointer to point to its next right node, just like in Figure B. The serialized output is in level order as connected by the next pointers, with '#' signifying the end of each level.
 ----
 
- 
 *Constraints:*
-
 
 * The number of nodes in the given tree is less than `4096`.
 * `-1000 <= node.val <= 1000`
 
+=== 解题分析
+
+这道题和 xref:0117-populating-next-right-pointers-in-each-node-ii.adoc[117. Populating Next Right Pointers in Each Node II] 算是姊妹题。
+
+image::images/0116-1.jpg[]
+
+image::images/0116-2.jpg[]
+
+这道题的关键是在上层遍历中，把下层的链接关系建立起来。
+
+因为是完全二叉树。所以，如果左下节点为空则到达最后一层；向右节点为空，则到达行尾需要换行。
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--27/[详细通俗的思路分析，多解法 - 填充每个节点的下一个右侧节点指针 - 力扣（LeetCode）]
 

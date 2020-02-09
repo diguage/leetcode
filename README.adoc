@@ -706,11 +706,11 @@
 |{doc_base_url}/0116-populating-next-right-pointers-in-each-node.adoc[Note]
 |Medium
 
-//|117
-//|{leetcode_base_url}/populating-next-right-pointers-in-each-node-ii/[Populating Next Right Pointers in Each Node II]
-//|{source_base_url}/_0117_PopulatingNextRightPointersInEachNodeII.java[Java]
-//|{doc_base_url}/0117-populating-next-right-pointers-in-each-node-ii.adoc[Note]
-//|Medium
+|117
+|{leetcode_base_url}/populating-next-right-pointers-in-each-node-ii/[Populating Next Right Pointers in Each Node II]
+|{source_base_url}/_0117_PopulatingNextRightPointersInEachNodeII.java[Java]
+|{doc_base_url}/0117-populating-next-right-pointers-in-each-node-ii.adoc[Note]
+|Medium
 
 |118
 |{leetcode_base_url}/pascals-triangle/[Pascal's Triangle]
