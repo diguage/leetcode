@@ -43,3 +43,11 @@ The same instance of `FooBar` will be passed to two different threads. Thread A 
 *Explanation:* "foobar" is being output 2 times.
 ----
 
+
+
+[[src-1115]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1115_PrintFooBarAlternately.java[]
+----
+

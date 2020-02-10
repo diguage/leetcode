@@ -64,3 +64,11 @@ Such that: "SIX" + "SEVEN" + "SEVEN" = "TWENTY" ,  650 + 68782 + 68782 = 138214
 * Number of different characters used on the expression is at most 10.
 
 
+
+
+[[src-1307]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1307_VerbalArithmeticPuzzle.java[]
+----
+

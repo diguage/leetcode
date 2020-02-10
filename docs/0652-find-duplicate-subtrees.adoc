@@ -35,3 +35,11 @@ and
     4
 ----
 Therefore, you need to return above trees' root in the form of a list.
+
+
+[[src-0652]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0652_FindDuplicateSubtrees.java[]
+----
+

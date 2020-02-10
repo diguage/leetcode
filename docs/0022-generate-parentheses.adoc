@@ -21,3 +21,11 @@ For example, given _n_ = 3, a solution set is:
   "()()()"
 ]
 ----
+
+
+[[src-0022]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0022_GenerateParentheses.java[]
+----
+

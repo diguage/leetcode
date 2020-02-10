@@ -57,3 +57,11 @@ The possible results are 1, 2, 3, 4, 6, and 7.
 . `0 <= A[i] <= 10^9`
 
 
+
+
+[[src-0898]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0898_BitwiseORsOfSubarrays.java[]
+----
+

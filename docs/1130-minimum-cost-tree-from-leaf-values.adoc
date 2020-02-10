@@ -37,3 +37,11 @@ There are two possible trees.  The first has non-leaf node sum 36, and the secon
 * `1 <= arr[i] <= 15`
 * It is guaranteed that the answer fits into a 32-bit signed integer (ie. it is less than `2^31`).
 
+
+
+[[src-1130]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1130_MinimumCostTreeFromLeafValues.java[]
+----
+

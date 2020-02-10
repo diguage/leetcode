@@ -31,3 +31,11 @@ Return:
 ]
 ----
 
+
+
+[[src-0412]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0412_FizzBuzz.java[]
+----
+

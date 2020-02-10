@@ -39,3 +39,11 @@ Given a list of three points in the plane, return whether these points are a boo
 
  
 
+
+
+[[src-1037]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1037_ValidBoomerang.java[]
+----
+

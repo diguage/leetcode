@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/sequence-reconstruction/[LeetCode - Sequence Reconstruction]
 
+
+
+[[src-0444]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0444_SequenceReconstruction.java[]
+----
+

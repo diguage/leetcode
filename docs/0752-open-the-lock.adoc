@@ -67,3 +67,11 @@ We can't reach the target without getting stuck.
 . Every string in `deadends` and the string `target` will be a string of 4 digits from the 10,000 possibilities `'0000'` to `'9999'`.
 
 
+
+
+[[src-0752]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0752_OpenTheLock.java[]
+----
+

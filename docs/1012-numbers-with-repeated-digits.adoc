@@ -45,3 +45,11 @@ Given a positive integer `N`, return the number of positive integers less than o
 
 
 
+
+
+[[src-1012]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1012_NumbersWithRepeatedDigits.java[]
+----
+

@@ -53,3 +53,11 @@ Given a string representing an expression of fraction addition and subtraction, 
 . The numerator and denominator of the *final result* are guaranteed to be valid and in the range of 32-bit int.
 
 
+
+
+[[src-0592]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0592_FractionAdditionAndSubtraction.java[]
+----
+

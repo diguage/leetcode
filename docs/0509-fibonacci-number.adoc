@@ -47,3 +47,11 @@ Given `N`, calculate `F(N)`.
 
 0 ≤ `N` ≤ 30.
 
+
+
+[[src-0509]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0509_FibonacciNumber.java[]
+----
+

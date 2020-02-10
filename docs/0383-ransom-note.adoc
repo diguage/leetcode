@@ -23,3 +23,11 @@ canConstruct("aa", "ab") -> false
 canConstruct("aa", "aab") -> true
 ----
 
+
+
+[[src-0383]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0383_RansomNote.java[]
+----
+

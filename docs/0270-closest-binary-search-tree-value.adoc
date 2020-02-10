@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/closest-binary-search-tree-value/[LeetCode - Closest Binary Search Tree Value]
 
+
+
+[[src-0270]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0270_ClosestBinarySearchTreeValue.java[]
+----
+

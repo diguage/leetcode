@@ -46,3 +46,11 @@ Formally, we can partition the array if we can find indexes `i+1 < j` with `(A[0
 . `3 <= A.length <= 50000`
 . `-10000 <= A[i] <= 10000`
 
+
+
+[[src-1013]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1013_PartitionArrayIntoThreePartsWithEqualSum.java[]
+----
+

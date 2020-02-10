@@ -41,3 +41,11 @@ Ugly numbers are *positive numbers* whose prime factors only include `2, 3, 5`.
 . `1` is typically treated as an ugly number.
 . Input is within the 32-bit signed integer range: [-2^31^,  2^31 ^- 1].
 
+
+
+[[src-0263]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0263_UglyNumber.java[]
+----
+

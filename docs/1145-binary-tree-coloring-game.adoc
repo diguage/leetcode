@@ -33,3 +33,11 @@ image::https://assets.leetcode.com/uploads/2019/08/01/1480-binary-tree-coloring-
 * `1 <= x <= n <= 100`
 
 
+
+
+[[src-1145]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1145_BinaryTreeColoringGame.java[]
+----
+

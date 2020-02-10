@@ -57,3 +57,11 @@ You may return the solutions in any order.
 * It's also guaranteed that `f(x, y)` will fit in 32 bit signed integer if `1 <= x, y <= 1000`
 
 
+
+
+[[src-1237]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1237_FindPositiveIntegerSolutionForAGivenEquation.java[]
+----
+

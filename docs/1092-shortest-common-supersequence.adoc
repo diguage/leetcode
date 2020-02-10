@@ -29,3 +29,11 @@ The answer provided is the shortest such string that satisfies these properties.
 . `str1` and `str2` consist of lowercase English letters.
 
 
+
+
+[[src-1092]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1092_ShortestCommonSupersequence.java[]
+----
+

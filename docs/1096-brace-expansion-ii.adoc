@@ -70,3 +70,11 @@ Given an `expression` representing a set of words under the given grammar, retur
 
 
 
+
+
+[[src-1096]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1096_BraceExpansionII.java[]
+----
+

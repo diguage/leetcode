@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/rearrange-string-k-distance-apart/[LeetCode - Rearrange String k Distance Apart]
 
+
+
+[[src-0358]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0358_RearrangeStringKDistanceApart.java[]
+----
+

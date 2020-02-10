@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/[LeetCode - Minimum Swaps to Group All 1's Together]
 
+
+
+[[src-1151]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1151_MinimumSwapsToGroupAll1STogether.java[]
+----
+

@@ -55,3 +55,11 @@ Find the minimal balls you have to insert to remove all the balls on the table. 
 * Both input strings will be non-empty and only contain characters 'R','Y','B','G','W'.
 
 
+
+
+[[src-0488]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0488_ZumaGame.java[]
+----
+

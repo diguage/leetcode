@@ -69,3 +69,11 @@ Opening Only the second tap will water the whole garden [0,5]
 * `ranges.length == n + 1`
 * `0 <= ranges[i] <= 100`
 
+
+
+[[src-1326]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1326_MinimumNumberOfTapsToOpenToWaterAGarden.java[]
+----
+

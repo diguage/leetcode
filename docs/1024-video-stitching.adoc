@@ -63,3 +63,11 @@ Notice you can have extra video after the event ends.
 . `0 <= T <= 100`
 
 
+
+
+[[src-1024]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1024_VideoStitching.java[]
+----
+

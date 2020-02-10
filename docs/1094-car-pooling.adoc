@@ -67,3 +67,11 @@ Return `true` if and only if it is possible to pick up and drop off all passenge
 . `1 <= capacity <= 100000`
 
 
+
+
+[[src-1094]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1094_CarPooling.java[]
+----
+

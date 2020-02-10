@@ -56,3 +56,11 @@ Notes:
 * `1 <= ages[i] <= 120`.
 
 
+
+
+[[src-0825]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0825_FriendsOfAppropriateAges.java[]
+----
+

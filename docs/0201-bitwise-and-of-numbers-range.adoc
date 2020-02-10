@@ -20,3 +20,11 @@ Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of 
 *Input:* [0,1]
 *Output:* 0
 ----
+
+
+[[src-0201]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0201_BitwiseANDOfNumbersRange.java[]
+----
+

@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/digit-count-in-range/[LeetCode - Digit Count in Range]
 
+
+
+[[src-1067]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1067_DigitCountInRange.java[]
+----
+

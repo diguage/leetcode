@@ -35,3 +35,11 @@ For the example above, the output should be:
 
  
 
+
+
+[[src-0620]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0620_NotBoringMovies.java[]
+----
+

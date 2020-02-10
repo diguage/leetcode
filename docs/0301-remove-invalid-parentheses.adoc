@@ -29,3 +29,11 @@ Remove the minimum number of invalid parentheses in order to make the input stri
 *Input:* ")("
 *Output:* [""]
 ----
+
+
+[[src-0301]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0301_RemoveInvalidParentheses.java[]
+----
+

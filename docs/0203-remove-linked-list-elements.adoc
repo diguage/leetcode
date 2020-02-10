@@ -12,3 +12,11 @@ Remove all elements from a linked list of integers that have value *_val_*.
 *Output:* 1->2->3->4->5
 ----
 
+
+
+[[src-0203]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0203_RemoveLinkedListElements.java[]
+----
+

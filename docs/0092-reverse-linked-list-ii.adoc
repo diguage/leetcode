@@ -44,3 +44,10 @@ Reverse a linked list from position _m_ to _n_. Do it in one-pass.
 *Output:* 1->4->3->2->5->NULL
 ----
 
+
+[[src-0092]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0092_ReverseLinkedListII.java[]
+----
+

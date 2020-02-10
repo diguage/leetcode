@@ -53,3 +53,11 @@ Since all the cards revealed are in increasing order, the answer is correct.
 
 
 
+
+
+[[src-0950]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0950_RevealCardsInIncreasingOrder.java[]
+----
+

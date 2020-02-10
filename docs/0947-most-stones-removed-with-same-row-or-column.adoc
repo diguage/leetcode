@@ -49,3 +49,11 @@ What is the largest possible number of moves we can make?
 
 
 
+
+
+[[src-0947]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0947_MostStonesRemovedWithSameRowOrColumn.java[]
+----
+

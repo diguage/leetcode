@@ -21,3 +21,11 @@ sumRange(0, 5) -> -3
 . There are many calls to _sumRange_ function.
 
 
+
+
+[[src-0303]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0303_RangeSumQueryImmutable.java[]
+----
+

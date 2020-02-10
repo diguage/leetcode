@@ -42,3 +42,11 @@ Return the minimum cost needed to move all the chips to the same position (any p
 * `1 <= chips[i] <= 10^9`
 
 
+
+
+[[src-1217]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1217_PlayWithChips.java[]
+----
+

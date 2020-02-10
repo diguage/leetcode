@@ -41,3 +41,11 @@ G = [0, 3, 1, 4]
 * `G` is a subset of all values in the linked list.
 
 
+
+
+[[src-0817]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0817_LinkedListComponents.java[]
+----
+

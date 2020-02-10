@@ -64,3 +64,11 @@ One possible solution is [right, right, rotate clockwise, right, down, down, dow
 * It is guaranteed that the snake starts at empty cells.
 
 
+
+
+[[src-1210]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1210_MinimumMovesToReachTargetWithRotations.java[]
+----
+

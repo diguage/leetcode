@@ -61,3 +61,11 @@ It's guarateed that there is at least one valid solution. If there are many vali
 
 * `2 <= n <= 10^4`
 
+
+
+[[src-1317]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1317_ConvertIntegerToTheSumOfTwoNoZeroIntegers.java[]
+----
+

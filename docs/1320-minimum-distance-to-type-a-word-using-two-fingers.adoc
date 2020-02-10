@@ -65,3 +65,11 @@ Total distance = 6
 * `2 <= word.length <= 300`
 * Each <code data-stringify-type="code">word[i]` is an English uppercase letter.
 
+
+
+[[src-1320]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1320_MinimumDistanceToTypeAWordUsingTwoFingers.java[]
+----
+

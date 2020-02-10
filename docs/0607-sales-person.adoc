@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/sales-person/[LeetCode - Sales Person]
 
+
+
+[[src-0607]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0607_SalesPerson.java[]
+----
+

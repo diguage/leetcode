@@ -28,3 +28,11 @@ For example, in "abbaca" we could remove "bb" since the letters are adjacent and
 . `1 <= S.length <= 20000`
 . `S` consists only of English lowercase letters.
 
+
+
+[[src-1047]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1047_RemoveAllAdjacentDuplicatesInString.java[]
+----
+

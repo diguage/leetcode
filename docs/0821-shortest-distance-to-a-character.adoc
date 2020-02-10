@@ -22,3 +22,11 @@ Given a string `S` and a character `C`, return an array of integers representing
 . All letters in `S` and `C` are lowercase.
 
 
+
+
+[[src-0821]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0821_ShortestDistanceToACharacter.java[]
+----
+

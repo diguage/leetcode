@@ -55,3 +55,11 @@ Note that you can't swap s1[0] and s1[1] to make s1 equal to "yx", cause we can 
 * `s1, s2` only contain `'x'` or `'y'`.
 
 
+
+
+[[src-1247]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1247_MinimumSwapsToMakeStringsEqual.java[]
+----
+

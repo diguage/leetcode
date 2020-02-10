@@ -41,3 +41,11 @@ When we erase the brick at (1, 0), the brick at (1, 1) has already disappeared d
 * An erasure may refer to a location with no brick - if it does, no bricks drop.
 
 
+
+
+[[src-0803]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0803_BricksFallingWhenHit.java[]
+----
+

@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/design-search-autocomplete-system/[LeetCode - Design Search Autocomplete System]
 
+
+
+[[src-0642]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0642_DesignSearchAutocompleteSystem.java[]
+----
+

@@ -11,3 +11,10 @@ Merge two sorted linked lists and return it as a new list. The new list should b
 *Output:* 1->1->2->3->4->4
 ----
 
+
+[[src-0021]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0021_MergeTwoSortedLists.java[]
+----
+

@@ -51,3 +51,11 @@ output[i] = [a, b, c] (three integers)
 * `1 <= n <= 60`
 
 
+
+
+[[src-1226]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1226_TheDiningPhilosophers.java[]
+----
+

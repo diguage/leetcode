@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/lexicographically-smallest-equivalent-string/[LeetCode - Lexicographically Smallest Equivalent String]
 
+
+
+[[src-1061]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1061_LexicographicallySmallestEquivalentString.java[]
+----
+

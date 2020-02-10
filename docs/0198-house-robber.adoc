@@ -53,3 +53,11 @@ Given a list of non-negative integers representing the amount of money of each h
 
 ----
 
+
+
+[[src-0198]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0198_HouseRobber.java[]
+----
+

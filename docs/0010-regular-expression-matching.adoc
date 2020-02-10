@@ -73,3 +73,10 @@ p = "mis*is*p*."
 *Output:* false
 ----
 
+
+[[src-0010]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0010_RegularExpressionMatching.java[]
+----
+

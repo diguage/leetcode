@@ -40,3 +40,11 @@ Write a SQL query for a report that provides the following information for each 
 FirstName, LastName, City, State
 ----
 
+
+
+[[src-0175]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0175_CombineTwoTables.sql[]
+----
+

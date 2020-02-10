@@ -36,3 +36,11 @@ In step 3, we use *Paste* operation to get 'AAA'.
 
  
 
+
+
+[[src-0650]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0650_2KeysKeyboard.java[]
+----
+

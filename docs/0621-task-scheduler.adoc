@@ -66,3 +66,11 @@ You need to return the *least* number of intervals the CPU will take to finish a
 . The integer n is in the range [0, 100].
 
 
+
+
+[[src-0621]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0621_TaskScheduler.java[]
+----
+

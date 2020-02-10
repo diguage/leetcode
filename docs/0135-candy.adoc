@@ -32,3 +32,11 @@ What is the minimum candies you must give?
              The third child gets 1 candy because it satisfies the above two conditions.
 ----
 
+
+
+[[src-0135]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0135_Candy.java[]
+----
+

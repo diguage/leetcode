@@ -27,3 +27,11 @@ Given an array `nums` representing the data status of this set after the error. 
 . The given array's numbers won't have any order.
 
 
+
+
+[[src-0645]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0645_SetMismatch.java[]
+----
+

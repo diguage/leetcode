@@ -59,3 +59,11 @@ image::https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-
 
 
 
+
+
+[[src-1028]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1028_RecoverATreeFromPreorderTraversal.java[]
+----
+

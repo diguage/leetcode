@@ -33,3 +33,11 @@ to the starting pixel.
 . The given starting pixel will satisfy `0 <= sr < image.length` and `0 <= sc < image[0].length`.</li>
 . The value of each color in `image[i][j]` and `newColor` will be an integer in `[0, 65535]`.</li>
 
+
+
+[[src-0733]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0733_FloodFill.java[]
+----
+

@@ -43,3 +43,11 @@ Return `True` if the array is *good *otherwise return `False`.
 * `1 <= nums[i] <= 10^9`
 
 
+
+
+[[src-1250]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1250_CheckIfItIsAGoodArray.java[]
+----
+

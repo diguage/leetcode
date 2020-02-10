@@ -51,3 +51,11 @@ If there is no non-empty subarray with sum at least `K`, return `-1`.
 
 
 
+
+
+[[src-0862]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0862_ShortestSubarrayWithSumAtLeastK.java[]
+----
+

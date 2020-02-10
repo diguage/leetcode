@@ -67,3 +67,11 @@ This problem was inspired by https://twitter.com/mxcl/status/608682016205344768[
 
 <blockquote>Google: 90% of our engineers use the software you wrote (Homebrew), but you can&rsquo;t invert a binary tree on a whiteboard so f*** off.</blockquote>
 
+
+
+[[src-0226]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0226_InvertBinaryTree.java[]
+----
+

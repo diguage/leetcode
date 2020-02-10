@@ -29,3 +29,11 @@ Employee 1 has importance value 5, and he has two direct subordinates: employee 
 
  
 
+
+
+[[src-0690]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0690_EmployeeImportance.java[]
+----
+

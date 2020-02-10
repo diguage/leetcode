@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/sparse-matrix-multiplication/[LeetCode - Sparse Matrix Multiplication]
 
+
+
+[[src-0311]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0311_SparseMatrixMultiplication.java[]
+----
+

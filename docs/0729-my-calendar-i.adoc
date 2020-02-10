@@ -35,3 +35,11 @@ The third event can be booked, as the first event takes every time less than 20,
 
  
 
+
+
+[[src-0729]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0729_MyCalendarI.java[]
+----
+

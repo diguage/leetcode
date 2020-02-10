@@ -47,3 +47,11 @@ The maximum number is 9969.
 * `1 <= num <= 10^4`
 * `num`'s digits are 6 or 9.
 
+
+
+[[src-1323]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1323_Maximum69Number.java[]
+----
+

@@ -17,3 +17,11 @@ Given an array of *n* positive integers and a positive integer *s*, find the min
 
 <div class="spoilers">If you have figured out the _O_(_n_) solution, try coding another solution of which the time complexity is _O_(_n_ log _n_). 
 
+
+
+[[src-0209]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0209_MinimumSizeSubarraySum.java[]
+----
+

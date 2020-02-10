@@ -24,3 +24,11 @@ Note that 1 and 10 are not good numbers, since they remain unchanged after rotat
 * N  will be in range `[1, 10000]`.
 
 
+
+
+[[src-0788]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0788_RotatedDigits.java[]
+----
+

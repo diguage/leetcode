@@ -66,3 +66,10 @@ Given _n_, how many structurally unique *BST's* (binary search trees) that store
    2     1         2                 3
 ----
 
+
+[[src-0096]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0096_UniqueBinarySearchTrees.java[]
+----
+

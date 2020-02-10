@@ -26,3 +26,11 @@ Note:
 
  
 
+
+
+[[src-0593]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0593_ValidSquare.java[]
+----
+

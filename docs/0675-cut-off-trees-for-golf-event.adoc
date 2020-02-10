@@ -66,3 +66,11 @@ You are guaranteed that no two `trees` have the same height and there is at leas
 
 *Hint*: size of the given matrix will not exceed 50x50.
 
+
+
+[[src-0675]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0675_CutOffTreesForGolfEvent.java[]
+----
+

@@ -30,3 +30,11 @@ search("b..") -> true
 
 You may assume that all words are consist of lowercase letters `a-z`.
 
+
+
+[[src-0211]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0211_AddAndSearchWordDataStructureDesign.java[]
+----
+

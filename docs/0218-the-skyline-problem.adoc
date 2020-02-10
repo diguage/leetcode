@@ -23,3 +23,11 @@ For instance, the skyline in Figure B should be represented as:`[ [2 10], [3 15]
 * There must be no consecutive horizontal lines of equal height in the output skyline. For instance, `[...[2 3], [4 5], [7 5], [11 5], [12 7]...]` is not acceptable; the three lines of height 5 should be merged into one in the final output as such: `[...[2 3], [4 5], [12 7], ...]`
 
 
+
+
+[[src-0218]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0218_TheSkylineProblem.java[]
+----
+

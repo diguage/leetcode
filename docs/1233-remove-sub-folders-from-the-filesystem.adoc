@@ -46,3 +46,11 @@ The format of a path is one or more concatenated strings of the form: `/` follow
 * Each folder name is unique.
 
 
+
+
+[[src-1233]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1233_RemoveSubFoldersFromTheFilesystem.java[]
+----
+

@@ -27,3 +27,11 @@ The third fraction is 2/5.
 * Each `A[i]` will be between `1` and `30000`.
 * `K` will be between `1` and `A.length * (A.length - 1) / 2`.
 
+
+
+[[src-0786]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0786_KThSmallestPrimeFraction.java[]
+----
+

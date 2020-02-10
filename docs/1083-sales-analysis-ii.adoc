@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/sales-analysis-ii/[LeetCode - Sales Analysis II]
 
+
+
+[[src-1083]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1083_SalesAnalysisII.java[]
+----
+

@@ -30,3 +30,11 @@ This is the lexicographically largest string possible after some number of swaps
 . `S` has length at most `50`.
 . `S` is guaranteed to be a _special_ binary string as defined above.
 
+
+
+[[src-0761]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0761_SpecialBinaryString.java[]
+----
+

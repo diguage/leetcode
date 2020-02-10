@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/moving-average-from-data-stream/[LeetCode - Moving Average from Data Stream]
 
+
+
+[[src-0346]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0346_MovingAverageFromDataStream.java[]
+----
+

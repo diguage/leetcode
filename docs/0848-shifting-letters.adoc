@@ -32,3 +32,11 @@ After shifting the first 3 letters of S by 9, we have "rpl", the answer.
 . `0 <= shifts[i] <= 10 ^ 9`
 
 
+
+
+[[src-0848]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0848_ShiftingLetters.java[]
+----
+

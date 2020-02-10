@@ -50,3 +50,11 @@ Note that in the example *inputs* (not outputs) below, arrays such as `[2,1,5]` 
 
 
 
+
+
+[[src-1019]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1019_NextGreaterNodeInLinkedList.java[]
+----
+

@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/plus-one-linked-list/[LeetCode - Plus One Linked List]
 
+
+
+[[src-0369]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0369_PlusOneLinkedList.java[]
+----
+

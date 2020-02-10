@@ -35,3 +35,11 @@ So we only need `1` patch.
 *Output:* 0
 
 ----
+
+
+[[src-0330]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0330_PatchingArray.java[]
+----
+

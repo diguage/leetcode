@@ -45,3 +45,11 @@ You need to help them find out their *common interest* with the *least list inde
 . No duplicates in both lists.
 
 
+
+
+[[src-0599]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0599_MinimumIndexSumOfTwoLists.java[]
+----
+

@@ -38,3 +38,11 @@ To sum up, pick a list of at most *k* distinct projects from given projects to m
 . The answer is guaranteed to fit in a 32-bit signed integer.
 
 
+
+
+[[src-0502]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0502_IPO.java[]
+----
+

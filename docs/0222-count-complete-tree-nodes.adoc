@@ -25,3 +25,11 @@ In a complete binary tree every level, except possibly the last, is completely f
 *Output:* 6
 ----
 
+
+
+[[src-0222]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0222_CountCompleteTreeNodes.java[]
+----
+

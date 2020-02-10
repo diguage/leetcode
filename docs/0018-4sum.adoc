@@ -22,3 +22,10 @@ A solution set is:
 ]
 ----
 
+
+[[src-0018]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0018_4Sum.java[]
+----
+

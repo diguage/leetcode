@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/[LeetCode - Count Substrings with Only One Distinct Letter]
 
+
+
+[[src-1180]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1180_CountSubstringsWithOnlyOneDistinctLetter.java[]
+----
+

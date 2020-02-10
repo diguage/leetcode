@@ -63,3 +63,11 @@ Hence, we needed 2 moves in the worst case to know what F is with certainty.
 
 
 
+
+
+[[src-0887]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0887_SuperEggDrop.java[]
+----
+

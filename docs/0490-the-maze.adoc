@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/the-maze/[LeetCode - The Maze]
 
+
+
+[[src-0490]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0490_TheMaze.java[]
+----
+

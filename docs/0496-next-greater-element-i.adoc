@@ -44,3 +44,11 @@ The Next Greater Number of a number *x* in `nums1` is the first greater number t
 . The length of both `nums1` and `nums2` would not exceed 1000.
 
 
+
+
+[[src-0496]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0496_NextGreaterElementI.java[]
+----
+

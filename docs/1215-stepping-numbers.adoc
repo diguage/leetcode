@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/stepping-numbers/[LeetCode - Stepping Numbers]
 
+
+
+[[src-1215]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1215_SteppingNumbers.java[]
+----
+

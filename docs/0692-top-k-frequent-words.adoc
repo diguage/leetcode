@@ -43,3 +43,11 @@ Your answer should be sorted by frequency from highest to lowest. If two words h
 . Try to solve it in _O_(_n_ log _k_) time and _O_(_n_) extra space.
 
 
+
+
+[[src-0692]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0692_TopKFrequentWords.java[]
+----
+

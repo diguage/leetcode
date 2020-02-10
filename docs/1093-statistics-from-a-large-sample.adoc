@@ -39,3 +39,11 @@ _(Recall that the median of a sample is:_
 * Answers within `10^-5` of the true value will be accepted as correct.
 
 
+
+
+[[src-1093]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1093_StatisticsFromALargeSample.java[]
+----
+

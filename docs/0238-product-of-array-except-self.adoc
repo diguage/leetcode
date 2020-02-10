@@ -19,3 +19,11 @@ Given an array `nums` of _n_ integers where _n_ > 1,  return an array `output` s
 
 Could you solve it with constant space complexity? (The output array *does not* count as extra space for the purpose of space complexity analysis.)
 
+
+
+[[src-0238]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0238_ProductOfArrayExceptSelf.java[]
+----
+

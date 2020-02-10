@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/queries-quality-and-percentage/[LeetCode - Queries Quality and Percentage]
 
+
+
+[[src-1211]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1211_QueriesQualityAndPercentage.java[]
+----
+

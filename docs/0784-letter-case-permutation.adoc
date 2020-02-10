@@ -24,3 +24,11 @@ Given a string S, we can transform every letter individually to be lowercase or 
 * `S` will consist only of letters or digits.
 
 
+
+
+[[src-0784]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0784_LetterCasePermutation.java[]
+----
+

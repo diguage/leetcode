@@ -15,3 +15,11 @@ Return the minimum cuts needed for a palindrome partitioning of _s_.
 *Explanation:* The palindrome partitioning ["aa","b"] could be produced using 1 cut.
 ----
 
+
+
+[[src-0132]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0132_PalindromePartitioningII.java[]
+----
+

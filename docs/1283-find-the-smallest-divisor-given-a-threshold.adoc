@@ -43,3 +43,11 @@ If the divisor is 4 we can get a sum to 7 (1+1+2+3) and if the divisor is 5 the 
 * `1 <= nums[i] <= 10^6`
 * `nums.length <= threshold <= 10^6`
 
+
+
+[[src-1283]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1283_FindTheSmallestDivisorGivenAThreshold.java[]
+----
+

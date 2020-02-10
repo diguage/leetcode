@@ -41,3 +41,10 @@ Y A   H R
 P     I
 ----
 
+
+[[src-0006]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0006_ZigZagConversion.java[]
+----
+

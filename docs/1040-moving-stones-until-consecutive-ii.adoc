@@ -63,3 +63,11 @@ Notice we cannot move 10 -> 2 to finish the game, because that would be an illeg
  
 
 
+
+
+[[src-1040]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1040_MovingStonesUntilConsecutiveII.java[]
+----
+

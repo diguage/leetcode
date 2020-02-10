@@ -59,3 +59,11 @@ image::https://assets.leetcode.com/uploads/2018/12/01/ex3.png[]
 
 
 
+
+
+[[src-0952]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0952_LargestComponentSizeByCommonFactor.java[]
+----
+

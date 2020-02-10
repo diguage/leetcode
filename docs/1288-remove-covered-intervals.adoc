@@ -25,3 +25,11 @@ After doing so, return the number of remaining intervals.
 * `intervals[i] != intervals[j]` for all `i != j`
 
 
+
+
+[[src-1288]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1288_RemoveCoveredIntervals.java[]
+----
+

@@ -20,3 +20,11 @@ Given a non-empty 2D matrix _matrix_ and an integer _k_, find the max sum of a r
 . The rectangle inside the matrix must have an area > 0.
 . What if the number of rows is much larger than the number of columns?
 
+
+
+[[src-0363]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0363_MaxSumOfRectangleNoLargerThanK.java[]
+----
+

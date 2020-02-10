@@ -35,3 +35,11 @@ Given a 2d grid map of `'1'`s (land) and `'0'`s (water), count the number of isl
 
 *Output:* 3
 ----
+
+
+[[src-0200]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0200_NumberOfIslands.java[]
+----
+

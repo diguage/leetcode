@@ -26,3 +26,11 @@ You are given a sorted array consisting of only integers where every element app
 
 *Note:* Your solution should run in O(log n) time and O(1) space.
 
+
+
+[[src-0540]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0540_SingleElementInASortedArray.java[]
+----
+

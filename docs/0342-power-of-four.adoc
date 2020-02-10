@@ -23,3 +23,11 @@ Given an integer (signed 32 bits), write a function to check whether it is a pow
 
 
 *Follow up*: Could you solve it without loops/recursion?
+
+
+[[src-0342]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0342_PowerOfFour.java[]
+----
+

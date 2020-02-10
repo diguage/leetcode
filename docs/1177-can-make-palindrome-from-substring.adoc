@@ -37,3 +37,11 @@ queries[4] : substring = "abcda", could be changed to "abcba" which is palidrome
 * `s` only contains lowercase English letters.
 
 
+
+
+[[src-1177]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1177_CanMakePalindromeFromSubstring.java[]
+----
+

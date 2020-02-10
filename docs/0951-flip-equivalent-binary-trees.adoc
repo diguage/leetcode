@@ -34,3 +34,11 @@ image::https://assets.leetcode.com/uploads/2018/11/29/tree_ex.png[]
  
 
 
+
+
+[[src-0951]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0951_FlipEquivalentBinaryTrees.java[]
+----
+

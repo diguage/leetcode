@@ -31,3 +31,11 @@ After running your *update* statement, the above salary table should have the fo
 | 4  | D    | m   | 500    |
 ----
 
+
+
+[[src-0627]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0627_SwapSalary.java[]
+----
+

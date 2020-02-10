@@ -37,3 +37,11 @@ Given two arrays, write a function to compute their intersection.
 * What if elements of _nums2_ are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?
 
 
+
+
+[[src-0350]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0350_IntersectionOfTwoArraysII.java[]
+----
+

@@ -32,3 +32,10 @@ There are two ways to reach the bottom-right corner:
 2. Down -> Down -> Right -> Right
 ----
 
+
+[[src-0063]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0063_UniquePathsII.java[]
+----
+

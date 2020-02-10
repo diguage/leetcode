@@ -54,3 +54,11 @@ Write a function that takes an unsigned integer and return the number of '1' bit
 
 If this function is called many times, how would you optimize it?
 
+
+
+[[src-0191]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0191_NumberOf1Bits.java[]
+----
+

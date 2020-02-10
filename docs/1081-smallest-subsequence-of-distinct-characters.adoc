@@ -54,3 +54,11 @@ Return the lexicographically smallest subsequence of `text` that contains all th
 
 
 
+
+
+[[src-1081]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1081_SmallestSubsequenceOfDistinctCharacters.java[]
+----
+

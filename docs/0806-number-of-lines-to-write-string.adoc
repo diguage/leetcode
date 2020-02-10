@@ -46,3 +46,11 @@ So the answer is 2 lines, plus 4 units in the second line.
 * `widths[i]` will be in the range of `[2, 10]`.
 
 
+
+
+[[src-0806]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0806_NumberOfLinesToWriteString.java[]
+----
+

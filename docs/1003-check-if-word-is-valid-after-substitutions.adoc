@@ -72,3 +72,11 @@ Then we can insert "abc" before the last letter, resulting in "abcabcab" + "abc"
 
 
 
+
+
+[[src-1003]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1003_CheckIfWordIsValidAfterSubstitutions.java[]
+----
+

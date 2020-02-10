@@ -41,3 +41,11 @@ There're no valid words for "gaswxyz" cause none of the words in the list contai
 * Each `puzzles[i] `doesn't contain repeated characters.
 
 
+
+
+[[src-1178]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1178_NumberOfValidWordsForEachPuzzle.java[]
+----
+

@@ -27,3 +27,11 @@ Given an array `A` of integers, return the number of (contiguous, non-empty) sub
 . `2 <= K <= 10000`
 
 
+
+
+[[src-0974]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0974_SubarraySumsDivisibleByK.java[]
+----
+

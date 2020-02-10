@@ -27,3 +27,11 @@ image::https://assets.leetcode.com/uploads/2019/03/06/1266.png[]
 . The values of `preorder` are distinct.
 
 
+
+
+[[src-1008]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1008_ConstructBinarySearchTreeFromPreorderTraversal.java[]
+----
+

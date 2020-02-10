@@ -30,3 +30,11 @@ List 3: [5, 18, 22, 30], 22 is in range [20,24].
 . -10^5^ <= `value of elements` <= 10^5^.
 
 
+
+
+[[src-0632]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0632_SmallestRangeCoveringElementsFromKLists.java[]
+----
+

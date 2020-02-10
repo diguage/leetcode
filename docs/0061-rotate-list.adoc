@@ -62,3 +62,10 @@ rotate 3 steps to the right: `0->1->2->NULL`
 rotate 4 steps to the right: `2->0->1->NULL`
 ----
 
+
+[[src-0061]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0061_RotateList.java[]
+----
+

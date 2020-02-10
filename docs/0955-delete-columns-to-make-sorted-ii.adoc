@@ -74,3 +74,11 @@ We have to delete every column.
 
 
 
+
+
+[[src-0955]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0955_DeleteColumnsToMakeSortedII.java[]
+----
+

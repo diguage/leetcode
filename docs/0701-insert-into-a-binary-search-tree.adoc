@@ -43,3 +43,11 @@ This tree is also valid:
           4
 ----
 
+
+
+[[src-0701]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0701_InsertIntoABinarySearchTree.java[]
+----
+

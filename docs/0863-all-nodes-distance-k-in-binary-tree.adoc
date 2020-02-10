@@ -42,3 +42,11 @@ The descriptions of the inputs above are just serializations of these objects.
 
 
 
+
+
+[[src-0863]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0863_AllNodesDistanceKInBinaryTree.java[]
+----
+

@@ -20,3 +20,11 @@ Return the number of pairs `(i, j)` for which `0 <= i < j < dominoes.length`, an
 * `1 <= dominoes.length <= 40000`
 * `1 <= dominoes[i][j] <= 9`
 
+
+
+[[src-1128]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1128_NumberOfEquivalentDominoPairs.java[]
+----
+

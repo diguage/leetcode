@@ -55,3 +55,11 @@ For example, given the dungeon below, the initial health of the knight must be a
 * Any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.
 
 
+
+
+[[src-0174]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0174_DungeonGame.java[]
+----
+

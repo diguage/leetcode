@@ -40,3 +40,11 @@ cache.get(4);       // returns 4
 
  
 
+
+
+[[src-0460]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0460_LFUCache.java[]
+----
+

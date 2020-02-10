@@ -22,3 +22,11 @@ e
 Explanation:
 'e' is the letter that was added.
 ----
+
+
+[[src-0389]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0389_FindTheDifference.java[]
+----
+

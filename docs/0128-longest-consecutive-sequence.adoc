@@ -15,3 +15,11 @@ Your algorithm should run in O(_n_) complexity.
 *Explanation:* The longest consecutive elements sequence is `[1, 2, 3, 4]`. Therefore its length is 4.
 ----
 
+
+
+[[src-0128]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0128_LongestConsecutiveSequence.java[]
+----
+

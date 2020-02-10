@@ -41,3 +41,11 @@ hashMap.get(2);            // returns -1 (not found)
 * Please do not use the built-in HashMap library.
 
 
+
+
+[[src-0706]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0706_DesignHashMap.java[]
+----
+

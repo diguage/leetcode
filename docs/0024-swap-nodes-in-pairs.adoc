@@ -32,3 +32,10 @@ You may *not* modify the values in the list's nodes, only nodes itself may be ch
 Given `1->2->3->4`, you should return the list as `2->1->4->3`.
 ----
 
+
+[[src-0024]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0024_SwapNodesInPairs.java[]
+----
+

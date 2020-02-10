@@ -42,3 +42,11 @@ For the sample data above, the output is:
 
 Each day only have one row record, and the dates are increasing with id increasing.
 
+
+
+[[src-0601]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0601_HumanTrafficOfStadium.java[]
+----
+

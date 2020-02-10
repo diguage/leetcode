@@ -31,3 +31,11 @@ In the example above, if we want to search the value `5`, since there is no node
 
 Note that an empty tree is represented by `NULL`, therefore you would see the expected output (serialized tree format) as `[]`, not `null`.
 
+
+
+[[src-0700]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0700_SearchInABinarySearchTree.java[]
+----
+

@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/ternary-expression-parser/[LeetCode - Ternary Expression Parser]
 
+
+
+[[src-0439]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0439_TernaryExpressionParser.java[]
+----
+

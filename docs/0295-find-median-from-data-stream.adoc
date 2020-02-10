@@ -38,3 +38,11 @@ findMedian() -> 2
 * If 99% of all integer numbers from the stream are between 0 and 100, how would you optimize it?
 
 
+
+
+[[src-0295]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0295_FindMedianFromDataStream.java[]
+----
+

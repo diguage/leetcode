@@ -55,3 +55,11 @@ Remove palindromic subsequence "baab" then "b".
 * `0 <= s.length <= 1000`
 * `s` only consists of letters 'a' and 'b'
 
+
+
+[[src-1332]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1332_RemovePalindromicSubsequences.java[]
+----
+

@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/sentence-similarity/[LeetCode - Sentence Similarity]
 
+
+
+[[src-0734]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0734_SentenceSimilarity.java[]
+----
+

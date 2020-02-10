@@ -38,3 +38,11 @@ If there isn't any rectangle, return 0.
 
 
 
+
+
+[[src-0939]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0939_MinimumAreaRectangle.java[]
+----
+

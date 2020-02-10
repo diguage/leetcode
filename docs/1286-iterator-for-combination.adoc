@@ -35,3 +35,11 @@ iterator.hasNext(); // returns false
 * It's guaranteed that all calls of the function `next` are valid.
 
 
+
+
+[[src-1286]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1286_IteratorForCombination.java[]
+----
+

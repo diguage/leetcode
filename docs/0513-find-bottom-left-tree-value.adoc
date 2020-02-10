@@ -44,3 +44,11 @@ Output:
 *Note:*
 You may assume the tree (i.e., the given root node) is not *NULL*.
 
+
+
+[[src-0513]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0513_FindBottomLeftTreeValue.java[]
+----
+

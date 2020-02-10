@@ -50,3 +50,10 @@ rotate the input matrix *in-place* such that it becomes:
 ]
 ----
 
+
+[[src-0048]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0048_RotateImage.java[]
+----
+

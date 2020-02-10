@@ -40,3 +40,11 @@ randomSet.insert(2);
 randomSet.getRandom();
 ----
 
+
+
+[[src-0380]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0380_InsertDeleteGetRandomO1.java[]
+----
+

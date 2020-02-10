@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/add-bold-tag-in-string/[LeetCode - Add Bold Tag in String]
 
+
+
+[[src-0616]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0616_AddBoldTagInString.java[]
+----
+

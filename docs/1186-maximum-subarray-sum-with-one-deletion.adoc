@@ -43,3 +43,11 @@ Note that the subarray needs to be *non-empty* after deleting one element.
 * `1 <= arr.length <= 10^5`
 * `-10^4 <= arr[i] <= 10^4`
 
+
+
+[[src-1186]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1186_MaximumSubarraySumWithOneDeletion.java[]
+----
+

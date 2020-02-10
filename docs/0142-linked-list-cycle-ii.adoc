@@ -122,3 +122,11 @@ image::https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.p
 
 Can you solve it without using extra space?
 
+
+
+[[src-0142]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0142_LinkedListCycleII.java[]
+----
+

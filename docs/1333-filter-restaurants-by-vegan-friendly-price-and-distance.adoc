@@ -53,3 +53,11 @@ After filter restaurants with veganFriendly = 1, maxPrice = 50 and maxDistance =
 * `veganFriendly~i~` and `veganFriendly` are 0 or 1.
 * All `id~i~` are distinct.
 
+
+
+[[src-1333]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1333_FilterRestaurantsByVeganFriendlyPriceAndDistance.java[]
+----
+

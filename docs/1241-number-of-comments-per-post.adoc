@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/number-of-comments-per-post/[LeetCode - Number of Comments per Post]
 
+
+
+[[src-1241]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1241_NumberOfCommentsPerPost.java[]
+----
+

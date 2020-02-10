@@ -26,3 +26,11 @@ You may assume no duplicate exists in the array.
 *Output:* 0
 ----
 
+
+
+[[src-0153]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0153_FindMinimumInRotatedSortedArray.java[]
+----
+

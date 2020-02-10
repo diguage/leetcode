@@ -17,3 +17,10 @@ image::https://assets.leetcode.com/uploads/2018/10/22/rainwatertrap.png[]
 *Output:* 6
 ----
 
+
+[[src-0042]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0042_TrappingRainWater.java[]
+----
+

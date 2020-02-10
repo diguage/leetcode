@@ -57,3 +57,11 @@ image::https://assets.leetcode.com/uploads/2020/01/02/sample_2_1677.png[]
 * There are no repeated connections.
 * No two computers are connected by more than one cable.
 
+
+
+[[src-1319]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1319_NumberOfOperationsToMakeNetworkConnected.java[]
+----
+

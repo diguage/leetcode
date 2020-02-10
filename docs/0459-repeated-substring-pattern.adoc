@@ -32,3 +32,11 @@ Given a non-empty string check if it can be constructed by taking a substring of
 *Explanation:* It's the substring "abc" four times. (And the substring "abcabc" twice.)
 ----
 
+
+
+[[src-0459]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0459_RepeatedSubstringPattern.java[]
+----
+

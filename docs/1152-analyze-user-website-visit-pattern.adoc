@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/analyze-user-website-visit-pattern/[LeetCode - Analyze User Website Visit Pattern]
 
+
+
+[[src-1152]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1152_AnalyzeUserWebsiteVisitPattern.java[]
+----
+

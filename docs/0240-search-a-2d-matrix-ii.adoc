@@ -33,3 +33,11 @@ Given target = `5`, return `true`.
 
 Given target = `20`, return `false`.
 
+
+
+[[src-0240]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0240_SearchA2DMatrixII.java[]
+----
+

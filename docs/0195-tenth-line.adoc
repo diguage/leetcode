@@ -37,3 +37,11 @@ Line 10
 
 2. There's at least three different solutions. Try to explore all possibilities.
 
+
+
+[[src-0195]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0195_TenthLine.java[]
+----
+

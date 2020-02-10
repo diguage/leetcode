@@ -39,3 +39,11 @@ The null node needs to be represented by empty parenthesis pair "()". And you ne
 <br/>*Explanation:* Almost the same as the first example, <br/>except we can't omit the first parenthesis pair to break the one-to-one mapping relationship between the input and the output.
 ----
 
+
+
+[[src-0606]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0606_ConstructStringFromBinaryTree.java[]
+----
+

@@ -53,3 +53,11 @@ After move 5: [[1,2,3],[4,5,0]]
 * `board[i][j]` will be a permutation of `[0, 1, 2, 3, 4, 5]`.
 
 
+
+
+[[src-0773]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0773_SlidingPuzzle.java[]
+----
+

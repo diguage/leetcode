@@ -41,3 +41,11 @@ The XOR values for queries are:
 * `queries[i].length == 2`
 * `0 <= queries[i][0] <= queries[i][1] < arr.length`
 
+
+
+[[src-1310]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1310_XORQueriesOfASubarray.java[]
+----
+

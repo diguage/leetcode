@@ -37,3 +37,11 @@ We can't extend "helo" to get "heeellooo" because the group "ll" is not size 3 o
 
  
 
+
+
+[[src-0809]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0809_ExpressiveWords.java[]
+----
+

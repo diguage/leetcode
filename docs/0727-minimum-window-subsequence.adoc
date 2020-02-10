@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/minimum-window-subsequence/[LeetCode - Minimum Window Subsequence]
 
+
+
+[[src-0727]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0727_MinimumWindowSubsequence.java[]
+----
+

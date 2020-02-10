@@ -40,3 +40,11 @@ Given two integers `L` and `R`, find the count of numbers in the range `[L, R]` 
 . `L, R` will be integers `L <= R` in the range `[1, 10^6]`.
 . `R - L` will be at most 10000.
 
+
+
+[[src-0762]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0762_PrimeNumberOfSetBitsInBinaryRepresentation.java[]
+----
+

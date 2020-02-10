@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/report-contiguous-dates/[LeetCode - Report Contiguous Dates]
 
+
+
+[[src-1225]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1225_ReportContiguousDates.java[]
+----
+

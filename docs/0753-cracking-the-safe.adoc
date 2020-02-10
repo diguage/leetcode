@@ -42,3 +42,11 @@ Return any password of *minimum length* that is guaranteed to open the box at so
 
  
 
+
+
+[[src-0753]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0753_CrackingTheSafe.java[]
+----
+

@@ -39,3 +39,11 @@ You may return the answer in any order.  It is guaranteed an answer exists.
 * It is guaranteed a sufficient team exists.
 
 
+
+
+[[src-1125]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1125_SmallestSufficientTeam.java[]
+----
+

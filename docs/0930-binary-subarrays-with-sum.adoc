@@ -29,3 +29,11 @@ The 4 subarrays are bolded below:
 . `0 <= S <= A.length`
 . `A[i]` is either `0` or `1`.
 
+
+
+[[src-0930]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0930_BinarySubarraysWithSum.java[]
+----
+

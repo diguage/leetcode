@@ -60,3 +60,10 @@ Given a set of *distinct* integers, _nums_, return all possible subsets (the pow
 ]
 ----
 
+
+[[src-0078]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0078_Subsets.java[]
+----
+

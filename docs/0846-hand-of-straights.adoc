@@ -41,3 +41,11 @@ Return `true` if and only if she can.
 . `1 <= W <= hand.length`
 
 
+
+
+[[src-0846]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0846_HandOfStraights.java[]
+----
+

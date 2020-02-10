@@ -51,3 +51,11 @@ Write a SQL query to find employees who earn the top three salaries in each of t
 
 In IT department, Max earns the highest salary, both Randy and Joe earn the second highest salary, and Will earns the third highest salary. There are only two employees in the Sales department, Henry earns the highest salary while Sam earns the second highest salary.
 
+
+
+[[src-0185]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0185_DepartmentTopThreeSalaries.java[]
+----
+

@@ -29,3 +29,11 @@ The falling path with the smallest sum is [1,5,7], so the answer is 13.
 * `-99 <= arr[i][j] <= 99`
 
 
+
+
+[[src-1289]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1289_MinimumFallingPathSumII.java[]
+----
+

@@ -47,3 +47,11 @@ You may return the answer in any order.  In your answer, each value should occur
 * `1 <= y <= 100`
 * `0 <= bound <= 10^6`
 
+
+
+[[src-0970]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0970_PowerfulIntegers.java[]
+----
+

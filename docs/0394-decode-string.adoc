@@ -38,3 +38,11 @@ s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
 
  
 
+
+
+[[src-0394]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0394_DecodeString.java[]
+----
+

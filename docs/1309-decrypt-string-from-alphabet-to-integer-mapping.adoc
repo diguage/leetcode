@@ -55,3 +55,11 @@ It's guaranteed that a unique mapping will always exist.
 * `s[i]` only contains digits letters (`'0'`-`'9'`) and `'#'` letter.
 * `s` will be valid string such that mapping is always possible.
 
+
+
+[[src-1309]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1309_DecryptStringFromAlphabetToIntegerMapping.java[]
+----
+

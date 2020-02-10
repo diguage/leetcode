@@ -24,3 +24,11 @@ image::https://assets.leetcode.com/uploads/2020/01/21/1482_example_1_2.png[]
 * `1 <= m, n <= 100`
 * `1 <= mat[i][j] <= 100`
 
+
+
+[[src-1329]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1329_SortTheMatrixDiagonally.java[]
+----
+

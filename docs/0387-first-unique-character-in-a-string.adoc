@@ -21,3 +21,11 @@ return 2.
 
 *Note:* You may assume the string contain only lowercase letters.
 
+
+
+[[src-0387]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0387_FirstUniqueCharacterInAString.java[]
+----
+

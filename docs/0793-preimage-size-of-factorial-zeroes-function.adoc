@@ -25,3 +25,11 @@ For example, `f(3) = 0` because 3! = 6 has no zeroes at the end, while `f(11) = 
 * `K` will be an integer in the range `[0, 10^9]`.
 
 
+
+
+[[src-0793]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0793_PreimageSizeOfFactorialZeroesFunction.java[]
+----
+

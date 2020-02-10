@@ -30,3 +30,11 @@ That partition would lead to a score of 5 + 2 + 6 = 13, which is worse.
 * Answers within `10^-6` of the correct answer will be accepted as correct.
 
 
+
+
+[[src-0813]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0813_LargestSumOfAverages.java[]
+----
+

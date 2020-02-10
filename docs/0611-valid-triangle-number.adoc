@@ -26,3 +26,11 @@ Valid combinations are:
 
 
 
+
+
+[[src-0611]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0611_ValidTriangleNumber.java[]
+----
+

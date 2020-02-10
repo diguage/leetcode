@@ -29,3 +29,11 @@ Then the 1st smallest distance pair is (1,1), and its distance is 0.
 . `1 <= k <= len(nums) * (len(nums) - 1) / 2`.
 
 
+
+
+[[src-0719]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0719_FindKThSmallestPairDistance.java[]
+----
+

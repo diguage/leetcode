@@ -58,3 +58,11 @@ Notes:
 * `1 <= S.length <= 150`.
 
 
+
+
+[[src-0824]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0824_GoatLatin.java[]
+----
+

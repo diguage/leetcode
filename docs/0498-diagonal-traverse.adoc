@@ -30,3 +30,11 @@ image::https://assets.leetcode.com/uploads/2018/10/12/diagonal_traverse.png[]
 
 The total number of elements of the given matrix will not exceed 10,000.
 
+
+
+[[src-0498]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0498_DiagonalTraverse.java[]
+----
+

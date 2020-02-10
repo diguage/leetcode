@@ -44,3 +44,11 @@ v   v
 . The size of the input 2D-array will be between 3 and 1000.</li>
 . Every integer represented in the 2D-array will be between 1 and N, where N is the size of the input array.</li>
 
+
+
+[[src-0685]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0685_RedundantConnectionII.java[]
+----
+

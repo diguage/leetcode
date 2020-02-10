@@ -77,3 +77,10 @@ Each solution contains a distinct board configuration of the _n_-queens' placeme
 *Explanation:* There exist two distinct solutions to the 4-queens puzzle as shown above.
 ----
 
+
+[[src-0051]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0051_NQueens.java[]
+----
+

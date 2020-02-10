@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/divide-array-into-increasing-sequences/[LeetCode - Divide Array Into Increasing Sequences]
 
+
+
+[[src-1121]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1121_DivideArrayIntoIncreasingSequences.java[]
+----
+

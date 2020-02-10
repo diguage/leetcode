@@ -34,3 +34,11 @@ Given the `label` of a node in this tree, return the labels in the path from the
 * `1 <= label <= 10^6`
 
 
+
+
+[[src-1104]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1104_PathInZigzagLabelledBinaryTree.java[]
+----
+

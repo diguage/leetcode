@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/find-median-given-frequency-of-numbers/[LeetCode - Find Median Given Frequency of Numbers]
 
+
+
+[[src-0571]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0571_FindMedianGivenFrequencyOfNumbers.java[]
+----
+

@@ -49,3 +49,11 @@ If there is no substring from `s` that can be changed to its corresponding subst
 * `s` and `t` only contain lower case English letters.
 
 
+
+
+[[src-1208]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1208_GetEqualSubstringsWithinBudget.java[]
+----
+

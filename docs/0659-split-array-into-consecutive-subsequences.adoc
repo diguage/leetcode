@@ -50,3 +50,11 @@ You can split them into two consecutive subsequences :
 
  
 
+
+
+[[src-0659]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0659_SplitArrayIntoConsecutiveSubsequences.java[]
+----
+

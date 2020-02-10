@@ -28,3 +28,11 @@ A concatenated word is defined as a string that is comprised entirely of at leas
 . The returned elements order does not matter. 
 
 
+
+
+[[src-0472]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0472_ConcatenatedWords.java[]
+----
+

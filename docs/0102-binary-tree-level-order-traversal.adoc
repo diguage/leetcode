@@ -35,3 +35,10 @@ return its level order traversal as:
 ]
 ----
 
+
+[[src-0102]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0102_BinaryTreeLevelOrderTraversal.java[]
+----
+

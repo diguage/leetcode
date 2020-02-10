@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/missing-ranges/[LeetCode - Missing Ranges]
 
+
+
+[[src-0163]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0163_MissingRanges.java[]
+----
+

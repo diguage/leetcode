@@ -78,3 +78,11 @@ Return the total surface area of the resulting shapes.
 
 
 
+
+
+[[src-0892]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0892_SurfaceAreaOf3DShapes.java[]
+----
+

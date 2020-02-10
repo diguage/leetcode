@@ -28,3 +28,11 @@ Return the length of the longest well-performing interval.
 * `0 <= hours[i] <= 16`
 
 
+
+
+[[src-1124]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1124_LongestWellPerformingInterval.java[]
+----
+

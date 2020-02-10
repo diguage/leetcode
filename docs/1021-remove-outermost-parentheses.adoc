@@ -64,3 +64,11 @@ After removing outer parentheses of each part, this is "" + "" = "".
  
 
 
+
+
+[[src-1021]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1021_RemoveOutermostParentheses.java[]
+----
+

@@ -56,3 +56,11 @@ image::https://assets.leetcode.com/uploads/2019/05/01/minimum-score-triangulatio
 
 
 
+
+
+[[src-1039]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1039_MinimumScoreTriangulationOfPolygon.java[]
+----
+

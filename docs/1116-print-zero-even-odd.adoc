@@ -43,3 +43,11 @@ Each of the threads is given a `printNumber` method to output an integer. Modify
 *Output:* "0102030405"
 ----
 
+
+
+[[src-1116]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1116_PrintZeroEvenOdd.java[]
+----
+

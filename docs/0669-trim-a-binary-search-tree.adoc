@@ -51,3 +51,11 @@ Given a binary search tree and the lowest and highest boundaries as `L` and `R`,
  1
 ----
 
+
+
+[[src-0669]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0669_TrimABinarySearchTree.java[]
+----
+

@@ -16,3 +16,11 @@ Implement a data structure supporting the following operations:
 
 Challenge: Perform all these in O(1) time complexity.
 
+
+
+[[src-0432]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0432_AllOOneDataStructure.java[]
+----
+

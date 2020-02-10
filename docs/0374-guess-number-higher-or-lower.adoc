@@ -27,3 +27,11 @@ You call a pre-defined API `guess(int num)` which returns 3 possible results (`-
 ----
 
 
+
+
+[[src-0374]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0374_GuessNumberHigherOrLower.java[]
+----
+

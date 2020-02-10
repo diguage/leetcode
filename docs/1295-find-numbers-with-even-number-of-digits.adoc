@@ -37,3 +37,11 @@ Only 1771 contains an even number of digits.
 * `1 <= nums[i] <= 10^5`
 
 
+
+
+[[src-1295]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1295_FindNumbersWithEvenNumberOfDigits.java[]
+----
+

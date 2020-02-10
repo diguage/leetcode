@@ -51,3 +51,11 @@ The final answer list can be returned in any order.  Also note that all coordina
 
  
 
+
+
+[[src-0816]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0816_AmbiguousCoordinates.java[]
+----
+

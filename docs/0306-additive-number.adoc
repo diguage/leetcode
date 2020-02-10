@@ -44,3 +44,11 @@ Given a string containing only digits `'0'-'9'`, write a function to determine i
 
 How would you handle overflow for very large input integers?
 
+
+
+[[src-0306]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0306_AdditiveNumber.java[]
+----
+

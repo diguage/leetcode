@@ -52,3 +52,11 @@ target = "k"
 . `target` is a lowercase letter.
 
 
+
+
+[[src-0744]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0744_FindSmallestLetterGreaterThanTarget.java[]
+----
+

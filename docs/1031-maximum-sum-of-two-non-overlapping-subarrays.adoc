@@ -60,3 +60,11 @@ Formally, return the largest `V` for which `V = (A[i] + A[i+1] + ... + A[i+L-1])
 
 
 
+
+
+[[src-1031]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1031_MaximumSumOfTwoNonOverlappingSubarrays.java[]
+----
+

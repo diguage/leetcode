@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/inorder-successor-in-bst-ii/[LeetCode - Inorder Successor in BST II]
 
+
+
+[[src-0510]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0510_InorderSuccessorInBSTII.java[]
+----
+

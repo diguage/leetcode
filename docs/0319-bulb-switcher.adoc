@@ -19,3 +19,11 @@ After third round, the three bulbs are *[on, off, off]*.
 So you should return 1, because there is only one bulb is on.
 ----
 
+
+
+[[src-0319]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0319_BulbSwitcher.java[]
+----
+

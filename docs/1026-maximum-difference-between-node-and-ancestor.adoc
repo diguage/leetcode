@@ -34,3 +34,11 @@ Among all possible differences, the maximum value of 7 is obtained by |8 - 1| = 
 . Each node will have value between `0` and `100000`.
 
 
+
+
+[[src-1026]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1026_MaximumDifferenceBetweenNodeAndAncestor.java[]
+----
+

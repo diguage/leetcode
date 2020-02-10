@@ -42,3 +42,11 @@ image::https://assets.leetcode.com/uploads/2019/05/02/tree.png[]
 
 
 
+
+
+[[src-1038]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1038_BinarySearchTreeToGreaterSumTree.java[]
+----
+

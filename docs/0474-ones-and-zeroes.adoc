@@ -41,3 +41,11 @@ Now your task is to find the maximum number of strings that you can form with gi
 
  
 
+
+
+[[src-0474]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0474_OnesAndZeroes.java[]
+----
+

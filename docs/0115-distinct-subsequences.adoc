@@ -46,3 +46,10 @@ As shown below, there are 5 ways you can generate "bag" from S.
     ^^^
 ----
 
+
+[[src-0115]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0115_DistinctSubsequences.java[]
+----
+

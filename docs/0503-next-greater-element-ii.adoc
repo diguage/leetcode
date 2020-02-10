@@ -20,3 +20,11 @@ Given a circular array (the next element of the last element is the first elemen
 *Note:*
 The length of given array won't exceed 10000.
 
+
+
+[[src-0503]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0503_NextGreaterElementII.java[]
+----
+

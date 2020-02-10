@@ -36,3 +36,10 @@ Given a *non-empty* string containing only digits, determine the total number of
 *Explanation:* It could be decoded as "BZ" (2 26), "VF" (22 6), or "BBF" (2 2 6).
 ----
 
+
+[[src-0091]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0091_DecodeWays.java[]
+----
+

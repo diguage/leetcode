@@ -35,3 +35,11 @@ If instead we turned both strings into "lee" or "eet", we would get answers of 4
 . `0 < s1.length, s2.length <= 1000`.</li>
 . All elements of each string will have an ASCII value in `[97, 122]`.</li> 
 
+
+
+[[src-0712]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0712_MinimumASCIIDeleteSumForTwoStrings.java[]
+----
+

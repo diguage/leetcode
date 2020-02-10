@@ -36,3 +36,11 @@ Do the above modifications to the input array *in place*, do not return anything
 . `1 <= arr.length <= 10000`
 . `0 <= arr[i] <= 9`
 
+
+
+[[src-1089]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1089_DuplicateZeros.java[]
+----
+

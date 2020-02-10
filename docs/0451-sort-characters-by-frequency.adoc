@@ -48,3 +48,11 @@ Note that "cacaca" is incorrect, as the same characters must be together.
 Note that 'A' and 'a' are treated as two different characters.
 ----
 
+
+
+[[src-0451]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0451_SortCharactersByFrequency.java[]
+----
+

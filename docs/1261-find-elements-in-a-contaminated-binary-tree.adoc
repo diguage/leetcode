@@ -86,3 +86,11 @@ findElements.find(5); // return True
 * `0 <= target <= 10^6`
 
 
+
+
+[[src-1261]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1261_FindElementsInAContaminatedBinaryTree.java[]
+----
+

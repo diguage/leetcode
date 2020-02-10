@@ -56,3 +56,11 @@ There is no way to reshape a 2 * 2 matrix to a 2 * 4 matrix. So output the origi
 . The given r and c are all positive.
 
 
+
+
+[[src-0566]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0566_ReshapeTheMatrix.java[]
+----
+

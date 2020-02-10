@@ -25,3 +25,11 @@ Output:
 6
 ----
 
+
+
+[[src-0390]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0390_EliminationGame.java[]
+----
+

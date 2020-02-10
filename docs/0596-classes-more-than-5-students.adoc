@@ -43,3 +43,11 @@ Should output:
 
 The students should not be counted duplicate in each course.
 
+
+
+[[src-0596]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0596_ClassesMoreThan5Students.java[]
+----
+

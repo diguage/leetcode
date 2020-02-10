@@ -22,3 +22,11 @@ Given an integer array of size _n_, find all elements that appear more than `&lf
 *Output:* [1,2]
 ----
 
+
+
+[[src-0229]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0229_MajorityElementII.java[]
+----
+

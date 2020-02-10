@@ -40,3 +40,11 @@ In case there is no path, return `[0, 0]`.
 
 * `2 <= board.length == board[i].length <= 100`
 
+
+
+[[src-1301]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1301_NumberOfPathsWithMaxScore.java[]
+----
+

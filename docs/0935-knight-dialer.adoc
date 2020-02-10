@@ -59,3 +59,11 @@ Since the answer may be large, *output the answer modulo `10^9 + 7`*.
 
 
 
+
+
+[[src-0935]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0935_KnightDialer.java[]
+----
+

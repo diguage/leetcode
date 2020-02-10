@@ -36,3 +36,11 @@ The expression string may contain open `(` and closing parentheses `)`, the plus
 * *Do not* use the `eval` built-in library function.
 
 
+
+
+[[src-0224]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0224_BasicCalculator.java[]
+----
+

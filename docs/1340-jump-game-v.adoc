@@ -71,3 +71,11 @@ Similarly You cannot jump from index 3 to index 2 or index 1.
 * `1 <= arr[i] <= 10^5`
 * `1 <= d <= arr.length`
 
+
+
+[[src-1340]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1340_JumpGameV.java[]
+----
+

@@ -47,3 +47,11 @@ Given an array of integers and an integer *k*, you need to find the number of *u
 . All the integers in the given input belong to the range: [-1e7, 1e7].
 
 
+
+
+[[src-0532]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0532_KDiffPairsInAnArray.java[]
+----
+

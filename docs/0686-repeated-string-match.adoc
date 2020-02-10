@@ -13,3 +13,11 @@ Return 3, because by repeating A three times (&ldquo;abcdabcdabcd&rdquo;), B is 
 
 The length of `A` and `B` will be between 1 and 10000.
 
+
+
+[[src-0686]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0686_RepeatedStringMatch.java[]
+----
+

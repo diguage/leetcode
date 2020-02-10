@@ -33,3 +33,11 @@ The couples' initial seating is given by `row[i]` being the value of the person 
 .  `len(row)` is even and in the range of `[4, 60]`.
 .  `row` is guaranteed to be a permutation of `0...len(row)-1`.
 
+
+
+[[src-0765]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0765_CouplesHoldingHands.java[]
+----
+

@@ -27,3 +27,11 @@ The island doesn't have "lakes" (water inside that isn't connected to the water 
 image::https://assets.leetcode.com/uploads/2018/10/12/island.png[]
 ----
 
+
+
+[[src-0463]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0463_IslandPerimeter.java[]
+----
+

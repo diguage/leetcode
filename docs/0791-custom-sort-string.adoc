@@ -30,3 +30,11 @@ Since "d" does not appear in S, it can be at any position in T. "dcba", "cdba", 
 * `S` and `T` consist of lowercase letters only.
 
 
+
+
+[[src-0791]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0791_CustomSortString.java[]
+----
+

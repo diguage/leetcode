@@ -38,3 +38,11 @@ In total, there is only one magic square inside the given grid.
 . `0 <= grid[i][j] <= 15`
 
 
+
+
+[[src-0840]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0840_MagicSquaresInGrid.java[]
+----
+

@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/minimum-time-to-build-blocks/[LeetCode - Minimum Time to Build Blocks]
 
+
+
+[[src-1199]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1199_MinimumTimeToBuildBlocks.java[]
+----
+

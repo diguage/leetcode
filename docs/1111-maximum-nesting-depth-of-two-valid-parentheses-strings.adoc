@@ -52,3 +52,11 @@ Return an `answer` array (of length `seq.length`) that encodes such a choice of 
 * `1 <= seq.size <= 10000`
 
 
+
+
+[[src-1111]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1111_MaximumNestingDepthOfTwoValidParenthesesStrings.java[]
+----
+

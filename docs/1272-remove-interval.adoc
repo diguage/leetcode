@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/remove-interval/[LeetCode - Remove Interval]
 
+
+
+[[src-1272]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1272_RemoveInterval.java[]
+----
+

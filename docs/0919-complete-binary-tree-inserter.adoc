@@ -55,3 +55,11 @@ Write a data structure `CBTInserter` that is initialized with a complete binary 
  
 
 
+
+
+[[src-0919]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0919_CompleteBinaryTreeInserter.java[]
+----
+

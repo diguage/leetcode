@@ -35,3 +35,11 @@ image::https://assets.leetcode.com/uploads/2019/11/08/sample_4_964.png[]
 * The total number of nodes is between `[0, 10^4]`
 
 
+
+
+[[src-0429]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0429_NAryTreeLevelOrderTraversal.java[]
+----
+

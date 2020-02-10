@@ -59,3 +59,11 @@ Note that A[0] > A[1] - the array A isn't necessarily in lexicographic order.
 . `1 <= A.length <= 100`
 . `1 <= A[i].length <= 100`
 
+
+
+[[src-0960]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0960_DeleteColumnsToMakeSortedIII.java[]
+----
+

@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/[LeetCode - Serialize and Deserialize N-ary Tree]
 
+
+
+[[src-0428]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0428_SerializeAndDeserializeNAryTree.java[]
+----
+

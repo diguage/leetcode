@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/missing-number-in-arithmetic-progression/[LeetCode - Missing Number In Arithmetic Progression]
 
+
+
+[[src-1228]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1228_MissingNumberInArithmeticProgression.java[]
+----
+

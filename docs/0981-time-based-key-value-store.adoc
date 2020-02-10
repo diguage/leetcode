@@ -61,3 +61,11 @@ kv.get("foo", 5); //output "bar2"
 * `TimeMap.set` and `TimeMap.get` functions will be called a total of `120000` times (combined) per test case.
 
 
+
+
+[[src-0981]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0981_TimeBasedKeyValueStore.java[]
+----
+

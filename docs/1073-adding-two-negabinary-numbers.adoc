@@ -31,3 +31,11 @@ Return the result of adding `arr1` and `arr2` in the same format: as an array of
 . `arr2[i]` is `0` or `1`
 
 
+
+
+[[src-1073]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1073_AddingTwoNegabinaryNumbers.java[]
+----
+

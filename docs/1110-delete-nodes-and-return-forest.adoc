@@ -28,3 +28,11 @@ image::https://assets.leetcode.com/uploads/2019/07/01/screen-shot-2019-07-01-at-
 * `to_delete.length <= 1000`
 * `to_delete` contains distinct values between `1` and `1000`.
 
+
+
+[[src-1110]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1110_DeleteNodesAndReturnForest.java[]
+----
+

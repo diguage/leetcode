@@ -42,3 +42,11 @@ Return the number of *nice* sub-arrays.
 * `1 <= k <= nums.length`
 
 
+
+
+[[src-1248]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1248_CountNumberOfNiceSubarrays.java[]
+----
+

@@ -42,3 +42,11 @@ So we will choose the smallest K, which is 0.
 * `A[i]` will be in the range `[0, A.length]`.
 
 
+
+
+[[src-0798]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0798_SmallestRotationWithHighestScore.java[]
+----
+

@@ -35,3 +35,11 @@ Notice that book number 2 does not have to be on the first shelf.
 * `1 <= books[i][1] <= 1000`
 
 
+
+
+[[src-1105]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1105_FillingBookcaseShelves.java[]
+----
+

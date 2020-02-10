@@ -54,3 +54,11 @@ It satisfies the conditions, 2 unique letters and size 3 (between minSize and ma
 * `1 <= minSize <= maxSize <= min(26, s.length)`
 * `s` only contains lowercase English letters.
 
+
+
+[[src-1297]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1297_MaximumNumberOfOccurrencesOfASubstring.java[]
+----
+

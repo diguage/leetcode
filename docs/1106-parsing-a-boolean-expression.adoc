@@ -56,3 +56,11 @@ An expression can either be:
 * `expression` is a valid expression representing a boolean, as given in the description.
 
 
+
+
+[[src-1106]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1106_ParsingABooleanExpression.java[]
+----
+

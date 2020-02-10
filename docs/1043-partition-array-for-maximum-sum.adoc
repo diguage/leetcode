@@ -26,3 +26,11 @@ Return the largest sum of the given array after partitioning.
 . `0 <= A[i] <= 10^6`
 
 
+
+
+[[src-1043]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1043_PartitionArrayForMaximumSum.java[]
+----
+

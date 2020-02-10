@@ -45,3 +45,11 @@ Given a collection of intervals, find the minimum number of intervals you need t
 . Intervals like [1,2] and [2,3] have borders "touching" but they don't overlap each other.
 
 
+
+
+[[src-0435]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0435_NonOverlappingIntervals.java[]
+----
+

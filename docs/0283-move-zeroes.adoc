@@ -20,3 +20,11 @@ Given an array `nums`, write a function to move all `0`'s to the end of it while
 . You must do this *in-place* without making a copy of the array.
 . Minimize the total number of operations.
 
+
+
+[[src-0283]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0283_MoveZeroes.java[]
+----
+

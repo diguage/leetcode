@@ -27,3 +27,11 @@ equals 1 + 1 + 2 + 2 + 2 = 8.  Hence, answer[0] = 8, and so on.
 
 Note:<font face="monospace"> `1 <= N <= 10000`
 
+
+
+[[src-0834]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0834_SumOfDistancesInTree.java[]
+----
+

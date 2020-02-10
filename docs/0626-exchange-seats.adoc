@@ -47,3 +47,11 @@ For the sample input, the output is:
 
 If the number of students is odd, there is no need to change the last one's seat.
 
+
+
+[[src-0626]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0626_ExchangeSeats.java[]
+----
+

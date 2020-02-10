@@ -47,3 +47,11 @@ Before performing the second query we have only the lamp [4,4] on.  Now the quer
 . `0 <= queries.length <= 20000`
 . `lamps[i].length == queries[i].length == 2`
 
+
+
+[[src-1001]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1001_GridIllumination.java[]
+----
+

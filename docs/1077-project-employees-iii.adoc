@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/project-employees-iii/[LeetCode - Project Employees III]
 
+
+
+[[src-1077]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1077_ProjectEmployeesIII.java[]
+----
+

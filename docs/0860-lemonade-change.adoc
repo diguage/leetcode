@@ -73,3 +73,11 @@ Since not every customer received correct change, the answer is false.
 
 
 
+
+
+[[src-0860]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0860_LemonadeChange.java[]
+----
+

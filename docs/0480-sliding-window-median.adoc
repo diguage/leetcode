@@ -38,3 +38,11 @@ You may assume `k` is always valid, ie: `k` is always smaller than input array's
 
 Answers within `10^-5` of the actual value will be accepted as correct.
 
+
+
+[[src-0480]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0480_SlidingWindowMedian.java[]
+----
+

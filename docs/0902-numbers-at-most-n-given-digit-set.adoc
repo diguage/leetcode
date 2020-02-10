@@ -46,3 +46,11 @@ In total, this is 29523 integers that can be written using the digits of D.
 . `1 <= N <= 10^9`
 
 
+
+
+[[src-0902]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0902_NumbersAtMostNGivenDigitSet.java[]
+----
+

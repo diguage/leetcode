@@ -35,3 +35,10 @@ Output: 1
 
 Your algorithm should run in _O_(_n_) time and uses constant extra space.
 
+
+[[src-0041]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0041_FirstMissingPositive.java[]
+----
+

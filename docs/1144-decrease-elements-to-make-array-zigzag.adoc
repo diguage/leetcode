@@ -39,3 +39,11 @@ Return the minimum number of moves to transform the given array `nums` into a zi
 * `1 <= nums[i] <= 1000`
 
 
+
+
+[[src-1144]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1144_DecreaseElementsToMakeArrayZigzag.java[]
+----
+

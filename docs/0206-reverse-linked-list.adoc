@@ -19,3 +19,11 @@ Reverse a singly linked list.
 
 A linked list can be reversed either iteratively or recursively. Could you implement both?
 
+
+
+[[src-0206]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0206_ReverseLinkedList.java[]
+----
+

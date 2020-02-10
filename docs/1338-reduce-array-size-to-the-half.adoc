@@ -59,3 +59,11 @@ Choosing set {2,7} is not possible as it will make the new array [3,3,3,3,5,5,5]
 * `arr.length` is even.
 * `1 <= arr[i] <= 10^5`
 
+
+
+[[src-1338]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1338_ReduceArraySizeToTheHalf.java[]
+----
+

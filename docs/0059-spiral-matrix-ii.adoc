@@ -17,3 +17,10 @@ Given a positive integer _n_, generate a square matrix filled with elements from
 ]
 ----
 
+
+[[src-0059]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0059_SpiralMatrixII.java[]
+----
+

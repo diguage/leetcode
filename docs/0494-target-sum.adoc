@@ -75,3 +75,11 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 . Your output answer is guaranteed to be fitted in a 32-bit integer.
 
 
+
+
+[[src-0494]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0494_TargetSum.java[]
+----
+

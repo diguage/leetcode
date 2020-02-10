@@ -45,3 +45,11 @@ circularQueue.Rear();  // return 4
 * Please do not use the built-in Queue library.
 
 
+
+
+[[src-0622]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0622_DesignCircularQueue.java[]
+----
+

@@ -24,3 +24,11 @@ Return true if and only if after such a move, it is possible that the average va
 
  
 
+
+
+[[src-0805]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0805_SplitArrayWithSameAverage.java[]
+----
+

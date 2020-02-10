@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/tree-node/[LeetCode - Tree Node]
 
+
+
+[[src-0608]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0608_TreeNode.java[]
+----
+

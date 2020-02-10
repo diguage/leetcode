@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/nested-list-weight-sum-ii/[LeetCode - Nested List Weight Sum II]
 
+
+
+[[src-0364]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0364_NestedListWeightSumII.java[]
+----
+

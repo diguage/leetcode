@@ -66,3 +66,11 @@ The difficulty of the schedule = 6 + 1 = 7
 * `0 <= jobDifficulty[i] <= 1000`
 * `1 <= d <= 10`
 
+
+
+[[src-1335]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1335_MinimumDifficultyOfAJobSchedule.java[]
+----
+

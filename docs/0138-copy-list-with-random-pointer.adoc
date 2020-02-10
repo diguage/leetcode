@@ -78,3 +78,11 @@ image::https://assets.leetcode.com/uploads/2019/12/18/e2.png[]
 * Number of Nodes will not exceed 1000.
 
 
+
+
+[[src-0138]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0138_CopyListWithRandomPointer.java[]
+----
+

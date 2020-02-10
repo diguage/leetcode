@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/string-transforms-into-another-string/[LeetCode - String Transforms Into Another String]
 
+
+
+[[src-1153]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1153_StringTransformsIntoAnotherString.java[]
+----
+

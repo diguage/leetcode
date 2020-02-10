@@ -28,3 +28,10 @@ Return the following binary tree:
    15   7
 ----
 
+
+[[src-0105]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java[]
+----
+

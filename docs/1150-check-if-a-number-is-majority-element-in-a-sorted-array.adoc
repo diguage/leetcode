@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/[LeetCode - Check If a Number Is Majority Element in a Sorted Array]
 
+
+
+[[src-1150]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1150_CheckIfANumberIsMajorityElementInASortedArray.java[]
+----
+

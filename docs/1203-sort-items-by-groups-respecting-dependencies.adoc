@@ -46,3 +46,11 @@ image::https://assets.leetcode.com/uploads/2019/09/11/1359_ex1.png[]
 * `beforeItems[i] `does not contain duplicates elements.
 
 
+
+
+[[src-1203]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1203_SortItemsByGroupsRespectingDependencies.java[]
+----
+

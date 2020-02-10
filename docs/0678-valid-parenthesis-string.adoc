@@ -48,3 +48,11 @@ Given a string containing only three types of characters: '(', ')' and '*', writ
 . The string size will be in the range [1, 100].
 
 
+
+
+[[src-0678]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0678_ValidParenthesisString.java[]
+----
+

@@ -21,3 +21,11 @@ call isBadVersion(4) -> true
 Then 4 is the first bad version. `
 ----
 
+
+
+[[src-0278]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0278_FirstBadVersion.java[]
+----
+

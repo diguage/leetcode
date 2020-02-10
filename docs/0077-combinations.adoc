@@ -48,3 +48,10 @@ Given two integers _n_ and _k_, return all possible combinations of _k_ numbers 
 ]
 ----
 
+
+[[src-0077]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0077_Combinations.java[]
+----
+

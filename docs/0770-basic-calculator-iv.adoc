@@ -54,3 +54,11 @@ evalvars = [], evalints = []
 * `evalvars, evalints` will have equal lengths in range `[0, 100]`.
 
 
+
+
+[[src-0770]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0770_BasicCalculatorIV.java[]
+----
+

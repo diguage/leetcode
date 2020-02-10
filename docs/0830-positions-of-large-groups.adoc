@@ -44,3 +44,11 @@ The final answer should be in lexicographic order.
 
 *Note: * `1 <= S.length <= 1000`
 
+
+
+[[src-0830]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0830_PositionsOfLargeGroups.java[]
+----
+

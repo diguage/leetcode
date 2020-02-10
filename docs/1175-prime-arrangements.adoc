@@ -33,3 +33,11 @@ Since the answer may be large, return the answer *modulo `10^9 + 7`*.
 * `1 <= n <= 100`
 
 
+
+
+[[src-1175]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1175_PrimeArrangements.java[]
+----
+

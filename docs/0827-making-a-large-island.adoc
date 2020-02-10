@@ -45,3 +45,11 @@ Notes:
 
  
 
+
+
+[[src-0827]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0827_MakingALargeIsland.java[]
+----
+

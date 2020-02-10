@@ -61,3 +61,11 @@ Return 3. The paths that sum to 8 are:
 3. -3 -> 11
 ----
 
+
+
+[[src-0437]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0437_PathSumIII.java[]
+----
+

@@ -26,3 +26,9 @@ Given an array of strings, group anagrams together.
 * The order of your output does not matter.
 
 
+[[src-0049]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0049_GroupAnagrams.java[]
+----
+

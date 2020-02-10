@@ -52,3 +52,11 @@ After the third drop of `positions[1] = [6, 1]: __aaa __aaa __aaa _aa _aa___a --
 
  
 
+
+
+[[src-0699]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0699_FallingSquares.java[]
+----
+

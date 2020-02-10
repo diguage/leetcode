@@ -75,3 +75,11 @@ source = ["a/*comment", "line", "more_comment*/b"]
 . Every open block comment is eventually closed.</li>
 . There are no single-quote, double-quote, or control characters in the source code.</li>
 
+
+
+[[src-0722]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0722_RemoveComments.java[]
+----
+

@@ -35,3 +35,11 @@ We define an array is non-decreasing if `array[i] <= array[i + 1]` holds for eve
 *Note:*
 The `n` belongs to [1, 10,000].
 
+
+
+[[src-0665]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0665_NonDecreasingArray.java[]
+----
+

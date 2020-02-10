@@ -49,3 +49,11 @@ Stay, Stay
 * `1 <= arrLen <= 10^6`
 
 
+
+
+[[src-1269]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1269_NumberOfWaysToStayInTheSamePlaceAfterSomeSteps.java[]
+----
+

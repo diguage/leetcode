@@ -68,3 +68,11 @@ You examine the `typed` characters of the keyboard.  Return `True` if it is poss
 
 
 
+
+
+[[src-0925]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0925_LongPressedName.java[]
+----
+

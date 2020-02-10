@@ -44,3 +44,10 @@ Given a sorted linked list, delete all nodes that have duplicate numbers, leavin
 *Output:* 2->3
 ----
 
+
+[[src-0082]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListII.java[]
+----
+

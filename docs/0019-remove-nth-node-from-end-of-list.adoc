@@ -21,3 +21,10 @@ Given _n_ will always be valid.
 
 Could you do this in one pass?
 
+
+[[src-0019]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0019_RemoveNthNodeFromEndOfList.java[]
+----
+

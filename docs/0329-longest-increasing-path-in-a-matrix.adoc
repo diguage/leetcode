@@ -34,3 +34,11 @@ From each cell, you can either move to four directions: left, right, up or down.
 *Explanation:* The longest increasing path is `[3, 4, 5, 6]`. Moving diagonally is not allowed.
 ----
 
+
+
+[[src-0329]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0329_LongestIncreasingPathInAMatrix.java[]
+----
+

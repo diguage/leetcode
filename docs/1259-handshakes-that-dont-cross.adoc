@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/handshakes-that-dont-cross/[LeetCode - Handshakes That Don't Cross]
 
+
+
+[[src-1259]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1259_HandshakesThatDonTCross.java[]
+----
+

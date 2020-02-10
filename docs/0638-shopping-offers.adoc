@@ -60,3 +60,11 @@ You cannot add more items, though only $9 for 2A ,2B and 1C.
 . You are *not* allowed to buy more items than you want, even if that would lower the overall price.
 
 
+
+
+[[src-0638]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0638_ShoppingOffers.java[]
+----
+

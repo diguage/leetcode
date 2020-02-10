@@ -43,3 +43,11 @@ Sum of lengths of all substring is 1 + 1 + 1 + 2 + 2 + 3 = 10
 
 *Note:* `0 <= S.length <= 10000`.
 
+
+
+[[src-0828]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0828_UniqueLetterString.java[]
+----
+

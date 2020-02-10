@@ -55,3 +55,11 @@ image::https://assets.leetcode.com/uploads/2019/11/05/e2.png[]
 * `0 <= k <= 100`
 
 
+
+
+[[src-1260]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1260_Shift2DGrid.java[]
+----
+

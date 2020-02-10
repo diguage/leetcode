@@ -39,3 +39,11 @@ Note:
 
 The input is two lists: the subroutines called and their arguments. `Solution`'s constructor has two arguments, `n_rows` and `n_cols`. `flip` and `reset` have no arguments. Arguments are always wrapped with a list, even if there aren't any.
 
+
+
+[[src-0519]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0519_RandomFlipMatrix.java[]
+----
+

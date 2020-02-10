@@ -47,3 +47,11 @@ The maximum width ramp is achieved at (i, j) = (2, 9): A[2] = 1 and A[9] = 1.
  
 
 
+
+
+[[src-0962]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0962_MaximumWidthRamp.java[]
+----
+

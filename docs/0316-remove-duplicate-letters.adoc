@@ -20,3 +20,11 @@ Given a string which contains only lowercase letters, remove duplicate letters s
 *Output:* `"acdb"`
 ----
 
+
+
+[[src-0316]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0316_RemoveDuplicateLetters.java[]
+----
+

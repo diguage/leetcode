@@ -26,3 +26,11 @@ Input: sum("ap"), Output: 5
 ----
 
 
+
+
+[[src-0677]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0677_MapSumPairs.java[]
+----
+

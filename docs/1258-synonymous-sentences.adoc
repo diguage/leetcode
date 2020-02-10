@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/synonymous-sentences/[LeetCode - Synonymous Sentences]
 
+
+
+[[src-1258]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1258_SynonymousSentences.java[]
+----
+

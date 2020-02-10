@@ -38,3 +38,11 @@ iterator.hasNext(); // return false
 * You may assume that `next()` call will always be valid, that is, there will be at least a next smallest number in the BST when `next()` is called.
 
 
+
+
+[[src-0173]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0173_BinarySearchTreeIterator.java[]
+----
+

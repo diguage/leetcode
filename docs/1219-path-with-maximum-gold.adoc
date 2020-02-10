@@ -51,3 +51,11 @@ Path to get the maximum gold, 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7.
 * `0 <= grid[i][j] <= 100`
 * There are at most *25 *cells containing gold.
 
+
+
+[[src-1219]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1219_PathWithMaximumGold.java[]
+----
+

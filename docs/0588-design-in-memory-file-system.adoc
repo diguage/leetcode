@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/design-in-memory-file-system/[LeetCode - Design In-Memory File System]
 
+
+
+[[src-0588]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0588_DesignInMemoryFileSystem.java[]
+----
+

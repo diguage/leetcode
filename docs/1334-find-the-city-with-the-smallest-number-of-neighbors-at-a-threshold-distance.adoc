@@ -55,3 +55,11 @@ The city 0 has 1 neighboring city at a distanceThreshold = 2.
 * `1 <= weight~i~, distanceThreshold <= 10^4`
 * All pairs `(from~i~, to~i~)` are distinct.
 
+
+
+[[src-1334]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1334_FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance.java[]
+----
+

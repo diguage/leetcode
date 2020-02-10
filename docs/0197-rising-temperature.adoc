@@ -28,3 +28,11 @@ For example, return the following Ids for the above `Weather` table:
 +----+
 ----
 
+
+
+[[src-0197]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0197_RisingTemperature.java[]
+----
+

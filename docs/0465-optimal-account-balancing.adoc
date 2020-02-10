@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/optimal-account-balancing/[LeetCode - Optimal Account Balancing]
 
+
+
+[[src-0465]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0465_OptimalAccountBalancing.java[]
+----
+

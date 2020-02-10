@@ -32,3 +32,11 @@ Given a positive integer, output its complement number. The complement strategy 
 *Explanation:* The binary representation of 1 is 1 (no leading zero bits), and its complement is 0. So you need to output 0.
 ----
 
+
+
+[[src-0476]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0476_NumberComplement.java[]
+----
+

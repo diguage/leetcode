@@ -43,3 +43,11 @@ Here *follow* means a full match, such that there is a bijection between a lette
 
 You may assume `pattern` contains only lowercase letters, and `str` contains lowercase letters that may be separated by a single space.
 
+
+
+[[src-0290]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0290_WordPattern.java[]
+----
+

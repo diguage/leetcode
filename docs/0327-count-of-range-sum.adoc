@@ -20,3 +20,11 @@ A naive algorithm of _O_(_n_^2^) is trivial. You MUST do better than that.
 *Output:* 3 
 *Explanation:* The three ranges are : `[0,0]`, `[2,2]`, `[0,2]` and their respective sums are: `-2, -1, 2`.
 ----
+
+
+[[src-0327]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0327_CountOfRangeSum.java[]
+----
+

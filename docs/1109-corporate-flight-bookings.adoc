@@ -25,3 +25,11 @@ Return an array `answer` of length `n`, representing the number of seats booked 
 * `1 <= bookings[i][0] <= bookings[i][1] <= n <= 20000`
 * `1 <= bookings[i][2] <= 10000`
 
+
+
+[[src-1109]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1109_CorporateFlightBookings.java[]
+----
+

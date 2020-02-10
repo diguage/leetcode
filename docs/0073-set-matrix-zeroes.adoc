@@ -48,3 +48,11 @@ Given a _m_ x _n_ matrix, if an element is 0, set its entire row and column to 0
 * Could you devise a constant space solution?
 
 
+
+
+[[src-0073]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0073_SetMatrixZeroes.java[]
+----
+

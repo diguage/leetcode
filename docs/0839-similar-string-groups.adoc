@@ -29,3 +29,11 @@ We are given a list `A` of strings.  Every string in `A` is an anagram of every 
 * The judging time limit has been increased for this question.
 
 
+
+
+[[src-0839]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0839_SimilarStringGroups.java[]
+----
+

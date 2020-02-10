@@ -52,3 +52,11 @@ Given a list of `transactions`, return a list of transactions that are possibly 
 * Each `{amount}` consist of digits, and represent an integer between `0` and `2000`.
 
 
+
+
+[[src-1169]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1169_InvalidTransactions.java[]
+----
+

@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/shortest-distance-in-a-line/[LeetCode - Shortest Distance in a Line]
 
+
+
+[[src-0613]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0613_ShortestDistanceInALine.java[]
+----
+

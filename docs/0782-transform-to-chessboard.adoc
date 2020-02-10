@@ -45,3 +45,11 @@ No matter what sequence of moves you make, you cannot end with a valid chessboar
 * `board[i][j]` will be only `0`s or `1`s.
 
 
+
+
+[[src-0782]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0782_TransformToChessboard.java[]
+----
+

@@ -56,3 +56,11 @@ Letter "e" can only be used once.
 * `words[i]`, `letters[i]` contains only lower case English letters.
 
 
+
+
+[[src-1255]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1255_MaximumScoreWordsFormedByLetters.java[]
+----
+

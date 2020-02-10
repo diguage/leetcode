@@ -25,3 +25,11 @@ Given a positive integer _num_, write a function which returns True if _num_ is 
 ----
 
 
+
+
+[[src-0367]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0367_ValidPerfectSquare.java[]
+----
+

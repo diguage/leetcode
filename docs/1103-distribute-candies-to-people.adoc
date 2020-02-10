@@ -47,3 +47,11 @@ On the fourth turn, ans[0] += 4, and the final array is [5,2,3].
 * 1 <= num_people <= 1000
 
 
+
+
+[[src-1103]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1103_DistributeCandiesToPeople.java[]
+----
+

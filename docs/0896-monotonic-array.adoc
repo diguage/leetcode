@@ -72,3 +72,11 @@ Return `true` if and only if the given array `A` is monotonic.
 
 
 
+
+
+[[src-0896]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0896_MonotonicArray.java[]
+----
+

@@ -51,3 +51,11 @@ image::https://assets.leetcode.com/uploads/2019/10/31/sample_4_1610.png[]
 * `1 <= grid.length, grid[0].length <= 100`
 * `0 <= grid[i][j] <=1`
 
+
+
+[[src-1254]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1254_NumberOfClosedIslands.java[]
+----
+

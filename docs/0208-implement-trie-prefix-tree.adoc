@@ -36,3 +36,11 @@ trie.search("app");     // returns true
 * All inputs are guaranteed to be non-empty strings.
 
 
+
+
+[[src-0208]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0208_ImplementTriePrefixTree.java[]
+----
+

@@ -48,3 +48,11 @@ With each iteration one element (red) is removed from the input data and inserte
 *Output:* -1->0->3->4->5
 ----
 
+
+
+[[src-0147]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0147_InsertionSortList.java[]
+----
+

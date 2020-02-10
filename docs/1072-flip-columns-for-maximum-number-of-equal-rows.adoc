@@ -55,3 +55,11 @@ Return the maximum number of rows that have all values equal after some number o
 
 
 
+
+
+[[src-1072]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1072_FlipColumnsForMaximumNumberOfEqualRows.java[]
+----
+

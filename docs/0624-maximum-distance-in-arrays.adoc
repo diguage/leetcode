@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/maximum-distance-in-arrays/[LeetCode - Maximum Distance in Arrays]
 
+
+
+[[src-0624]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0624_MaximumDistanceInArrays.java[]
+----
+

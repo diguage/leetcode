@@ -34,3 +34,11 @@ But according to requirement 2, [1,4] is illegal; according to requirement 3,  [
 . The web page's width and length you designed must be positive integers.
 
 
+
+
+[[src-0492]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0492_ConstructTheRectangle.java[]
+----
+

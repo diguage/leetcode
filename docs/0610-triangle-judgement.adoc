@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/triangle-judgement/[LeetCode - Triangle Judgement]
 
+
+
+[[src-0610]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0610_TriangleJudgement.java[]
+----
+

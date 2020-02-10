@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/strobogrammatic-number-iii/[LeetCode - Strobogrammatic Number III]
 
+
+
+[[src-0248]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0248_StrobogrammaticNumberIII.java[]
+----
+

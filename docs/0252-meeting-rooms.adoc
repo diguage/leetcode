@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/meeting-rooms/[LeetCode - Meeting Rooms]
 
+
+
+[[src-0252]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0252_MeetingRooms.java[]
+----
+

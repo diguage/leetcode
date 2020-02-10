@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/list-the-products-ordered-in-a-period/[LeetCode - List the Products Ordered in a Period]
 
+
+
+[[src-1327]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1327_ListTheProductsOrderedInAPeriod.java[]
+----
+

@@ -15,3 +15,11 @@ Write a function to find all the 10-letter-long sequences (substrings) that occu
 *Output:* ["AAAAACCCCC", "CCCCCAAAAA"]
 ----
 
+
+
+[[src-0187]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0187_RepeatedDNASequences.java[]
+----
+

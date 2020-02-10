@@ -35,3 +35,11 @@ _(Formally, a closed interval `[a, b]` (with `a <= b`) denotes the set of real n
 *NOTE:* input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
 
 
+
+
+[[src-0986]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0986_IntervalListIntersections.java[]
+----
+

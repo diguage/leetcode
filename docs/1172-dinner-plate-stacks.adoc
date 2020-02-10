@@ -68,3 +68,11 @@ D.pop()            // Returns -1.  There are still no stacks.
 * At most `200000` calls will be made to `push`, `pop`, and `popAtStack`.
 
 
+
+
+[[src-1172]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1172_DinnerPlateStacks.java[]
+----
+

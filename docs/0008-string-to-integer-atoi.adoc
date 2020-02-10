@@ -60,3 +60,10 @@ If no valid conversion could be performed, a zero value is returned.
              Thefore INT_MIN (-2^31^) is returned.
 ----
 
+
+[[src-0008]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0008_StringToIntegerAtoi.java[]
+----
+

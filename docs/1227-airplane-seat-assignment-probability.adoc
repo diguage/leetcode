@@ -37,3 +37,11 @@ What is the probability that the n-th person can get his own seat?
 
 * `1 <= n <= 10^5`
 
+
+
+[[src-1227]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1227_AirplaneSeatAssignmentProbability.java[]
+----
+

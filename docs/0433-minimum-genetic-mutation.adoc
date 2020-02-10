@@ -61,3 +61,11 @@ return: 3
 
  
 
+
+
+[[src-0433]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0433_MinimumGeneticMutation.java[]
+----
+

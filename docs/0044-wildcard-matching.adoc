@@ -73,3 +73,10 @@ p = "a*c?b"
 *Output:* false
 ----
 
+
+[[src-0044]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0044_WildcardMatching.java[]
+----
+

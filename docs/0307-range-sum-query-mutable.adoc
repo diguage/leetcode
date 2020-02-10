@@ -24,3 +24,11 @@ sumRange(0, 2) -> 8
 . You may assume the number of calls to _update_ and _sumRange_ function is distributed evenly.
 
 
+
+
+[[src-0307]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0307_RangeSumQueryMutable.java[]
+----
+

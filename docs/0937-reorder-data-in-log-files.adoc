@@ -33,3 +33,11 @@ Return the final order of the logs.
 * `logs[i]` is guaranteed to have an identifier, and a word after the identifier.
 
 
+
+
+[[src-0937]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0937_ReorderDataInLogFiles.java[]
+----
+

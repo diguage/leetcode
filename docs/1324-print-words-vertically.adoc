@@ -51,3 +51,11 @@ Each word would be put on only one column and that in one column there will be o
 * `s` contains only upper case English letters.
 * It's guaranteed that there is only one space between 2 words.
 
+
+
+[[src-1324]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1324_PrintWordsVertically.java[]
+----
+

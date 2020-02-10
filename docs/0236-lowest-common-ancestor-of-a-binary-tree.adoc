@@ -48,3 +48,11 @@ image::https://assets.leetcode.com/uploads/2018/12/14/binarytree.png[]
 * p and q are different and both values will exist in the binary tree.
 
 
+
+
+[[src-0236]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0236_LowestCommonAncestorOfABinaryTree.java[]
+----
+

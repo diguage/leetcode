@@ -33,3 +33,11 @@ Given a flowerbed (represented as an array containing 0 and 1, where 0 means emp
 . *n* is a non-negative integer which won't exceed the input array size.
 
 
+
+
+[[src-0605]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0605_CanPlaceFlowers.java[]
+----
+

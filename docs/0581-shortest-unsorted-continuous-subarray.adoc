@@ -53,3 +53,11 @@ You need to find the *shortest* such subarray and output its length.
 . The input array may contain duplicates, so ascending order here means *<=*. 
 
 
+
+
+[[src-0581]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0581_ShortestUnsortedContinuousSubarray.java[]
+----
+

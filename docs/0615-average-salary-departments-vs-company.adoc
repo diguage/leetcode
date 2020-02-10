@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/average-salary-departments-vs-company/[LeetCode - Average Salary: Departments VS Company]
 
+
+
+[[src-0615]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0615_AverageSalaryDepartmentsVSCompany.java[]
+----
+

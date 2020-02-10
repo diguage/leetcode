@@ -33,3 +33,11 @@ The array may contain duplicates.
 * Would allow duplicates affect the run-time complexity? How and why?
 
 
+
+
+[[src-0154]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0154_FindMinimumInRotatedSortedArrayII.java[]
+----
+

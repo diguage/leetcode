@@ -47,3 +47,11 @@ Return `0` if there is no mountain.
 * Can you solve it in `O(1)` space?
 
 
+
+
+[[src-0845]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0845_LongestMountainInArray.java[]
+----
+

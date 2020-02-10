@@ -52,3 +52,11 @@ You can assume that
 * the answer is guaranteed to fit into signed 32-bit integer
 
 
+
+
+[[src-0518]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0518_CoinChange2.java[]
+----
+

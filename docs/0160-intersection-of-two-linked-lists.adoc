@@ -73,3 +73,11 @@ image::https://assets.leetcode.com/uploads/2018/12/13/160_example_3.png[]
 * Your code should preferably run in O(n) time and use only O(1) memory.
 
 
+
+
+[[src-0160]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0160_IntersectionOfTwoLinkedLists.java[]
+----
+

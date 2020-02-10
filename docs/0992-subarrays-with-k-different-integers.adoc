@@ -77,3 +77,11 @@ Return the number of good subarrays of `A`.
 . `1 <= A[i] <= A.length`
 . `1 <= K <= A.length`
 
+
+
+[[src-0992]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0992_SubarraysWithKDifferentIntegers.java[]
+----
+

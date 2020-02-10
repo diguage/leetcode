@@ -59,3 +59,11 @@ image::https://assets.leetcode.com/uploads/2019/12/18/q2-e5-.png[]
 * Each node's value is between `[-10^5, 10^5]`.
 
 
+
+
+[[src-1305]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1305_AllElementsInTwoBinarySearchTrees.java[]
+----
+

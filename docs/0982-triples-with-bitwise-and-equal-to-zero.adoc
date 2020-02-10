@@ -43,3 +43,11 @@ Given an array of integers `A`, find the number of triples of indices (i, j, k) 
 * `0 <= A[i] < 2^16`
 
 
+
+
+[[src-0982]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0982_TriplesWithBitwiseANDEqualToZero.java[]
+----
+

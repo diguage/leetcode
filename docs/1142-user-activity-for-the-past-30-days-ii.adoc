@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/user-activity-for-the-past-30-days-ii/[LeetCode - User Activity for the Past 30 Days II]
 
+
+
+[[src-1142]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1142_UserActivityForThePast30DaysII.java[]
+----
+

@@ -22,3 +22,11 @@ Note that [10, 5, 2] is not included as the product of 100 is not strictly less 
 . `0 < nums[i] < 1000`.</li>
 . `0 <= k < 10^6`.</li>
 
+
+
+[[src-0713]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0713_SubarrayProductLessThanK.java[]
+----
+

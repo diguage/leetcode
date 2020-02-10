@@ -72,3 +72,11 @@ Return false. Because two of the rectangles overlap with each other.
 ----
 
  
+
+
+[[src-0391]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0391_PerfectRectangle.java[]
+----
+

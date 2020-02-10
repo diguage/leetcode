@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/[LeetCode - Number of Connected Components in an Undirected Graph]
 
+
+
+[[src-0323]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0323_NumberOfConnectedComponentsInAnUndirectedGraph.java[]
+----
+

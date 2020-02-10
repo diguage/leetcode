@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/sentence-screen-fitting/[LeetCode - Sentence Screen Fitting]
 
+
+
+[[src-0418]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0418_SentenceScreenFitting.java[]
+----
+

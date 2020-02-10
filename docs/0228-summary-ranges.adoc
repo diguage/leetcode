@@ -22,3 +22,11 @@ Given a sorted integer array without duplicates, return the summary of its range
 *Explanation:* 2,3,4 form a continuous range; 8,9 form a continuous range.
 ----
 
+
+
+[[src-0228]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0228_SummaryRanges.java[]
+----
+

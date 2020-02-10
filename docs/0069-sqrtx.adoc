@@ -28,3 +28,10 @@ Since the return type is an integer, the decimal digits are truncated and only t
              the decimal part is truncated, 2 is returned.
 ----
 
+
+[[src-0069]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0069_SqrtX.java[]
+----
+

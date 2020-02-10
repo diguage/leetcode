@@ -47,3 +47,11 @@ If there is no common subsequence, return 0.
 * The input strings consist of lowercase English characters only.
 
 
+
+
+[[src-1143]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1143_LongestCommonSubsequence.java[]
+----
+

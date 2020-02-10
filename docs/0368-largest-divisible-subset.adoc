@@ -27,3 +27,11 @@ If there are multiple solutions, return any subset is fine.
 ----
 
 
+
+
+[[src-0368]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0368_LargestDivisibleSubset.java[]
+----
+

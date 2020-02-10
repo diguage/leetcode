@@ -50,3 +50,11 @@ Flip A[5],A[6],A[7]: A becomes [1,1,1,1,1,1,1,1]
 . `1 <= A.length <= 30000`
 . `1 <= K <= A.length`
 
+
+
+[[src-0995]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0995_MinimumNumberOfKConsecutiveBitFlips.java[]
+----
+

@@ -43,3 +43,11 @@ Because there are no blocked cells, it's possible to reach the target square.
 . `source != target`
 
 
+
+
+[[src-1036]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1036_EscapeALargeMaze.java[]
+----
+

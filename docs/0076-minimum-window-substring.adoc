@@ -36,3 +36,9 @@ Given a string S and a string T, find the minimum window in S which will contain
 * If there is such window, you are guaranteed that there will always be only one unique minimum window in S.
 
 
+[[src-0076]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0076_MinimumWindowSubstring.java[]
+----
+

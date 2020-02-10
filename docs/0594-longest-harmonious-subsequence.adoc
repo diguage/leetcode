@@ -19,3 +19,11 @@ Now, given an integer array, you need to find the length of its longest harmonio
 
 *Note:* The length of the input array will not exceed 20,000.
 
+
+
+[[src-0594]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0594_LongestHarmoniousSubsequence.java[]
+----
+

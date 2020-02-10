@@ -20,3 +20,11 @@ Return `true` if and only if the two given trees with head nodes `root1` and `ro
 * Both of the given trees will have between `1` and `100` nodes.
 
 
+
+
+[[src-0872]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0872_LeafSimilarTrees.java[]
+----
+

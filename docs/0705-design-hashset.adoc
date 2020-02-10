@@ -41,3 +41,11 @@ hashSet.contains(2);    // returns false (already removed)
 * Please do not use the built-in HashSet library.
 
 
+
+
+[[src-0705]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0705_DesignHashSet.java[]
+----
+

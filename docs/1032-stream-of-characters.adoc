@@ -42,3 +42,11 @@ streamChecker.query('l');          // return true, because 'kl' is in the wordli
 * The number of queries is at most 40000.
 
 
+
+
+[[src-1032]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1032_StreamOfCharacters.java[]
+----
+

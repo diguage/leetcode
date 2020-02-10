@@ -38,3 +38,11 @@ Both the input and output have TreeNode type.
 * The values of each node are unique.
 
 
+
+
+[[src-0865]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0865_SmallestSubtreeWithAllTheDeepestNodes.java[]
+----
+

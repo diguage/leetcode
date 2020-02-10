@@ -21,3 +21,11 @@ For example, suppose the integers from the data stream are 1, 3, 7, 2, 6, ..., t
 
 What if there are lots of merges and the number of disjoint intervals are small compared to the data stream's size?
 
+
+
+[[src-0352]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0352_DataStreamAsDisjointIntervals.java[]
+----
+

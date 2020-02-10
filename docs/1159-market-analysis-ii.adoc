@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/market-analysis-ii/[LeetCode - Market Analysis II]
 
+
+
+[[src-1159]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1159_MarketAnalysisII.java[]
+----
+

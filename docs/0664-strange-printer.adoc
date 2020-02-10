@@ -39,3 +39,11 @@ Given a string consists of lower English letters only, your job is to count the 
 
 
 *Hint*: Length of the given string will not exceed 100.
+
+
+[[src-0664]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0664_StrangePrinter.java[]
+----
+

@@ -35,3 +35,11 @@ The shortest length is 2. So return 2.
 . `nums.length` will be between 1 and 50,000.</li>
 . `nums[i]` will be an integer between 0 and 49,999.</li>
 
+
+
+[[src-0697]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0697_DegreeOfAnArray.java[]
+----
+

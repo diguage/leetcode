@@ -48,3 +48,11 @@ If after removing one element there are no remaining elements, it's still consid
 * `1 <= nums[i] <= 10^5`
 
 
+
+
+[[src-1224]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1224_MaximumEqualFrequency.java[]
+----
+

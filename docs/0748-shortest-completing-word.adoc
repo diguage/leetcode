@@ -45,3 +45,11 @@ We return the one that occurred first.
 . Every `words[i]` will consist of lowercase letters, and have length in range `[1, 15]`.
 
 
+
+
+[[src-0748]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0748_ShortestCompletingWord.java[]
+----
+

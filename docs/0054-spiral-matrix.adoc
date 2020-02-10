@@ -28,3 +28,11 @@ Given a matrix of _m_ x _n_ elements (_m_ rows, _n_ columns), return all element
 ]
 *Output:* [1,2,3,4,8,12,11,10,9,5,6,7]
 ----
+
+
+[[src-0054]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0054_SpiralMatrix.java[]
+----
+

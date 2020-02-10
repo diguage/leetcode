@@ -40,3 +40,11 @@ Given an array of integers `arr`, write a function that returns `true` if and on
 * `-1000 <= arr[i] <= 1000`
 
 
+
+
+[[src-1207]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1207_UniqueNumberOfOccurrences.java[]
+----
+

@@ -25,3 +25,11 @@ You may assume the integer does not contain any leading zero, except the number 
 *Output:* [4,3,2,2]
 *Explanation:* The array represents the integer 4321.
 ----
+
+
+[[src-0066]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0066_PlusOne.java[]
+----
+

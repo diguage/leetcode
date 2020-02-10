@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/maximum-average-subtree/[LeetCode - Maximum Average Subtree]
 
+
+
+[[src-1120]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1120_MaximumAverageSubtree.java[]
+----
+

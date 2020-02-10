@@ -46,3 +46,11 @@ Note that no other cars meet these fleets before the destination, so the answer 
 . `0 <= position[i] < target`
 . All initial positions are different.
 
+
+
+[[src-0853]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0853_CarFleet.java[]
+----
+

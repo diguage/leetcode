@@ -33,3 +33,11 @@ Return *any* duplicated substring that has the longest possible length.  (If `S`
 . `S` consists of lowercase English letters.
 
 
+
+
+[[src-1044]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1044_LongestDuplicateSubstring.java[]
+----
+

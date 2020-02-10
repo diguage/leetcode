@@ -32,3 +32,11 @@ So we return the level with the maximum sum which is level 2.
 . `-10^5 <= node.val <= 10^5`
 
 
+
+
+[[src-1161]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1161_MaximumLevelSumOfABinaryTree.java[]
+----
+

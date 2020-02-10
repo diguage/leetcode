@@ -58,3 +58,11 @@ If we chose D = {}, then a column ["b","a","h"] would not be in non-decreasing s
 
 
 
+
+
+[[src-0944]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0944_DeleteColumnsToMakeSorted.java[]
+----
+

@@ -25,3 +25,11 @@ image::https://assets.leetcode.com/uploads/2019/07/24/1473_ex1.png[]
 * The number of nodes in the tree is between `1` and `10^4`.
 * The value of nodes is between `1` and `100`.
 
+
+
+[[src-1315]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1315_SumOfNodesWithEvenValuedGrandparent.java[]
+----
+

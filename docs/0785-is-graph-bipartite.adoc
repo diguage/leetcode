@@ -47,3 +47,11 @@ We cannot find a way to divide the set of nodes into two independent subsets.
 * The graph is undirected: if any element `j` is in `graph[i]`, then `i` will be in `graph[j]`.
 
 
+
+
+[[src-0785]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0785_IsGraphBipartite.java[]
+----
+

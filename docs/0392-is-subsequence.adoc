@@ -40,3 +40,11 @@ If there are lots of incoming S, say S1, S2, ... , Sk where k >= 1B, and you wan
 *Credits:*
 
 Special thanks to <a href="https://leetcode.com/pbrother/">@pbrother</a> for adding this problem and creating all test cases.
+
+
+[[src-0392]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0392_IsSubsequence.java[]
+----
+

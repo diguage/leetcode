@@ -50,3 +50,11 @@ Write synchronization code for oxygen and hydrogen molecules that enforces these
 * Total number of `O` will be _n_ in the input string.
 
 
+
+
+[[src-1117]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1117_BuildingH2O.java[]
+----
+

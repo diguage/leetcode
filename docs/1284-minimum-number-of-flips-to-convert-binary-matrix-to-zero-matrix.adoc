@@ -59,3 +59,11 @@ image::https://assets.leetcode.com/uploads/2019/11/28/matrix.png[]
 * `mat[i][j]` is 0 or 1.
 
 
+
+
+[[src-1284]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1284_MinimumNumberOfFlipsToConvertBinaryMatrixToZeroMatrix.java[]
+----
+

@@ -46,3 +46,11 @@ The function twoSum should return indices of the two numbers such that they add 
 *Explanation:* The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
 ----
 
+
+
+[[src-0167]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0167_TwoSumIIInputArrayIsSorted.java[]
+----
+

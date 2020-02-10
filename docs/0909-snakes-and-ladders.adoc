@@ -57,3 +57,11 @@ It can be shown that you need at least 4 moves to reach the N*N-th square, so th
 * The board square with number `N*N` has no snake or ladder.
 
 
+
+
+[[src-0909]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0909_SnakesAndLadders.java[]
+----
+

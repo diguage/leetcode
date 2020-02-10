@@ -32,3 +32,11 @@ A Range Module is a module that tracks ranges of numbers. Your task is to design
 . The total number of calls to `queryRange` in a single test case is at most `5000`.</li>
 . The total number of calls to `removeRange` in a single test case is at most `1000`.</li>
 
+
+
+[[src-0715]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0715_RangeModule.java[]
+----
+

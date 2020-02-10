@@ -45,3 +45,11 @@ Total time = 7 seconds
 * `-1000 <= points[i][0], points[i][1] <= 1000`
 
 
+
+
+[[src-1266]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1266_MinimumTimeVisitingAllPoints.java[]
+----
+

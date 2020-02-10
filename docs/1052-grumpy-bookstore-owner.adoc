@@ -31,3 +31,11 @@ The maximum number of customers that can be satisfied = 1 + 1 + 1 + 1 + 7 + 5 = 
 * `0 <= customers[i] <= 1000`
 * `0 <= grumpy[i] <= 1`
 
+
+
+[[src-1052]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1052_GrumpyBookstoreOwner.java[]
+----
+

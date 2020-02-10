@@ -38,3 +38,11 @@ image::https://assets.leetcode.com/uploads/2018/10/12/out_of_boundary_paths_2.pn
 . N is in range [0,50].
 
 
+
+
+[[src-0576]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0576_OutOfBoundaryPaths.java[]
+----
+

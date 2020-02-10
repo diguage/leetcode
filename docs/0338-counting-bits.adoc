@@ -86,3 +86,11 @@ Given a non negative integer number *num*. For every numbers *i* in the range *0
 * Space complexity should be *O(n)*.
 * Can you do it like a boss? Do it without using any builtin function like *__builtin_popcount* in c++ or in any other language.
 
+
+
+[[src-0338]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0338_CountingBits.java[]
+----
+

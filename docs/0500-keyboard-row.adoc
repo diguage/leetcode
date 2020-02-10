@@ -26,3 +26,11 @@ image::https://assets.leetcode.com/uploads/2018/10/12/keyboard.png[]
 . You may assume the input string will only contain letters of alphabet.
 
 
+
+
+[[src-0500]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0500_KeyboardRow.java[]
+----
+

@@ -36,3 +36,11 @@ This demonstrated that taking the first 5 was a winning move for Alex, so we ret
 . `1 <= piles[i] <= 500`
 . `sum(piles)` is odd.
 
+
+
+[[src-0877]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0877_StoneGame.java[]
+----
+

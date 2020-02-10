@@ -34,3 +34,11 @@ You may imagine that `nums[-1] = nums[n] = -&infin;`.
 
 Your solution should be in logarithmic complexity.
 
+
+
+[[src-0162]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0162_FindPeakElement.java[]
+----
+

@@ -45,3 +45,11 @@ We then go to room 3.  Since we were able to go to every room, we return true.
 . The number of keys in all rooms combined is at most `3000`.
 
 
+
+
+[[src-0841]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0841_KeysAndRooms.java[]
+----
+

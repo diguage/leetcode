@@ -52,3 +52,11 @@ image::https://assets.leetcode.com/uploads/2020/01/21/sample_2_1699.png[]
 * Each tree has at most `50000` nodes and at least `2` nodes.
 * Each node's value is between `[1, 10000]`.
 
+
+
+[[src-1339]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1339_MaximumProductOfSplittedBinaryTree.java[]
+----
+

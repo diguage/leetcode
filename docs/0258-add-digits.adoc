@@ -18,3 +18,11 @@ Given a non-negative integer `num`, repeatedly add all its digits until the resu
 
 
 Could you do it without any loop/recursion in O(1) runtime?
+
+
+[[src-0258]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0258_AddDigits.java[]
+----
+

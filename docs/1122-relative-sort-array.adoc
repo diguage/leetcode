@@ -23,3 +23,11 @@ Sort the elements of `arr1` such that the relative ordering of items in `arr1` a
 * Each `arr2[i]` is in `arr1`.
 
 
+
+
+[[src-1122]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1122_RelativeSortArray.java[]
+----
+

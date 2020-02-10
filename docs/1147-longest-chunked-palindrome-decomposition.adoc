@@ -54,3 +54,11 @@ Return the largest possible `k` such that there exists `a_1, a_2, ..., a_k` such
 * `text` consists only of lowercase English characters.
 * `1 <= text.length <= 1000`
 
+
+
+[[src-1147]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1147_LongestChunkedPalindromeDecomposition.java[]
+----
+

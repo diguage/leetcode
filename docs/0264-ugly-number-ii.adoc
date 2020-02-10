@@ -21,3 +21,11 @@ Ugly numbers are* positive numbers* whose prime factors only include `2, 3, 5`.
 . `1` is typically treated as an ugly number.
 . `n` *does not exceed 1690*.
 
+
+
+[[src-0264]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0264_UglyNumberII.java[]
+----
+

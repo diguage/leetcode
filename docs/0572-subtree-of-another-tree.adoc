@@ -49,3 +49,11 @@ Given tree t:
 ----
 Return *false*.
 
+
+
+[[src-0572]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0572_SubtreeOfAnotherTree.java[]
+----
+

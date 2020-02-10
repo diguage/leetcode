@@ -34,3 +34,11 @@ Return the longest possible length of a word chain with words chosen from the gi
 
  
 
+
+
+[[src-1048]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1048_LongestStringChain.java[]
+----
+

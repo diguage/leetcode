@@ -62,3 +62,11 @@ Return `[total_jumbo, total_small]` so that the number of remaining `tomatoSlice
 * `0 <= tomatoSlices <= 10^7`
 * `0 <= cheeseSlices <= 10^7`
 
+
+
+[[src-1276]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1276_NumberOfBurgersWithNoWasteOfIngredients.java[]
+----
+

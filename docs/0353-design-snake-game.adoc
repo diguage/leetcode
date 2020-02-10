@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/design-snake-game/[LeetCode - Design Snake Game]
 
+
+
+[[src-0353]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0353_DesignSnakeGame.java[]
+----
+

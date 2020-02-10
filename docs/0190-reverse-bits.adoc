@@ -42,3 +42,11 @@ Reverse bits of a given 32 bits unsigned integer.
 
 If this function is called many times, how would you optimize it?
 
+
+
+[[src-0190]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0190_ReverseBits.java[]
+----
+

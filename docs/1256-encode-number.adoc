@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/encode-number/[LeetCode - Encode Number]
 
+
+
+[[src-1256]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1256_EncodeNumber.java[]
+----
+

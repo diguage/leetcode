@@ -43,3 +43,11 @@ There are 3104860382 different non-empty palindromic subsequences, which is 1048
 . The length of `S` will be in the range `[1, 1000]`.</li>
 . Each character `S[i]` will be in the set `{'a', 'b', 'c', 'd'}`.</li>
 
+
+
+[[src-0730]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0730_CountDifferentPalindromicSubsequences.java[]
+----
+

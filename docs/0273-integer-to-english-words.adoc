@@ -36,3 +36,11 @@ Convert a non-negative integer to its english words representation. Given input 
 *Output:* "One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One"
 ----
 
+
+
+[[src-0273]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0273_IntegerToEnglishWords.java[]
+----
+

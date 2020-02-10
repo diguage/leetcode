@@ -46,3 +46,11 @@ circularDeque.getFront();			// return 4
 * Please do not use the built-in Deque library.
 
 
+
+
+[[src-0641]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0641_DesignCircularDeque.java[]
+----
+

@@ -36,3 +36,11 @@ Calculate the sum of two integers _a_ and _b_, but you are *not allowed* to use 
 
 
 
+
+
+[[src-0371]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0371_SumOfTwoIntegers.java[]
+----
+

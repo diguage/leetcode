@@ -24,3 +24,11 @@ R = 3
 * The length of `A` will be in the range of `[1, 50000]`.
 
 
+
+
+[[src-0795]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0795_NumberOfSubarraysWithBoundedMaximum.java[]
+----
+

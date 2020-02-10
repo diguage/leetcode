@@ -41,3 +41,11 @@ k = `3`
 *Output:*
 `[9, 8, 9]`
 ----
+
+
+[[src-0321]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0321_CreateMaximumNumber.java[]
+----
+

@@ -45,3 +45,11 @@ Output:
 
  
 
+
+
+[[src-0406]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0406_QueueReconstructionByHeight.java[]
+----
+

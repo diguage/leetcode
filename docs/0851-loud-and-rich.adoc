@@ -48,3 +48,11 @@ The other answers can be filled out with similar reasoning.
 . The observations in `richer` are all logically consistent.
 
 
+
+
+[[src-0851]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0851_LoudAndRich.java[]
+----
+

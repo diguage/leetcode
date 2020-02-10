@@ -34,3 +34,11 @@ Input: search("leetcoded"), Output: False
 . Please remember to *RESET* your class variables declared in class MagicDictionary, as static/class variables are *persisted across multiple test cases*. Please see <a href="https://leetcode.com/faq/#different-output">here</a> for more details.
 
 
+
+
+[[src-0676]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0676_ImplementMagicDictionary.java[]
+----
+

@@ -23,3 +23,11 @@ solution.pick(3);
 solution.pick(1);
 ----
 
+
+
+[[src-0398]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0398_RandomPickIndex.java[]
+----
+

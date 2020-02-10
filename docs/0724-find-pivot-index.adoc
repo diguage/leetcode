@@ -44,3 +44,11 @@ There is no index that satisfies the conditions in the problem statement.
 
  
 
+
+
+[[src-0724]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0724_FindPivotIndex.java[]
+----
+

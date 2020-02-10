@@ -19,3 +19,11 @@ Given a string _*s*_, you are allowed to convert it to a palindrome by adding ch
 *Input:* `"abcd"`
 *Output:* `"dcbabcd"`
 ----
+
+
+[[src-0214]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0214_ShortestPalindrome.java[]
+----
+

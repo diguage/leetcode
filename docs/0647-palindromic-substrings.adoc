@@ -69,3 +69,11 @@ The substrings with different start indexes or end indexes are counted as differ
 
 
  
+
+
+[[src-0647]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0647_PalindromicSubstrings.java[]
+----
+

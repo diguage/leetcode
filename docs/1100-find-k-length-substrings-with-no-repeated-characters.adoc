@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/[LeetCode - Find K-Length Substrings With No Repeated Characters]
 
+
+
+[[src-1100]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1100_FindKLengthSubstringsWithNoRepeatedCharacters.java[]
+----
+

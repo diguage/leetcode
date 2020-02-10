@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/split-array-with-equal-sum/[LeetCode - Split Array with Equal Sum]
 
+
+
+[[src-0548]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0548_SplitArrayWithEqualSum.java[]
+----
+

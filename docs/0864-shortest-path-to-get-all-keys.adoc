@@ -43,3 +43,11 @@ Return the lowest number of moves to acquire all keys.  If it's impossible, retu
 
 
 
+
+
+[[src-0864]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0864_ShortestPathToGetAllKeys.java[]
+----
+

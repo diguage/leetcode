@@ -63,3 +63,11 @@ Output:
 The longest substring is "ababb", as 'a' is repeated 2 times and 'b' is repeated 3 times.
 ----
 
+
+
+[[src-0395]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0395_LongestSubstringWithAtLeastKRepeatingCharacters.java[]
+----
+

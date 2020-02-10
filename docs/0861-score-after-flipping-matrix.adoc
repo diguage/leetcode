@@ -38,3 +38,11 @@ Toggled to [[1,1,1,1],[1,0,0,1],[1,1,1,1]].
 
 
 
+
+
+[[src-0861]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0861_ScoreAfterFlippingMatrix.java[]
+----
+

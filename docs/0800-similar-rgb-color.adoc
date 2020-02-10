@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/similar-rgb-color/[LeetCode - Similar RGB Color]
 
+
+
+[[src-0800]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0800_SimilarRGBColor.java[]
+----
+

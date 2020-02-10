@@ -37,3 +37,11 @@ Given an array that is definitely a mountain, return any `i` such that `A[0] < A
 * A is a mountain, as defined above.
 
 
+
+
+[[src-0852]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0852_PeakIndexInAMountainArray.java[]
+----
+

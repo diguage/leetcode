@@ -67,3 +67,11 @@ image::https://assets.leetcode.com/uploads/2019/06/11/screen-shot-2019-06-11-at-
  
 
 
+
+
+[[src-1080]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1080_InsufficientNodesInRootToLeafPaths.java[]
+----
+

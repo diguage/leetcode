@@ -39,3 +39,11 @@ day 1
 * Could you write it in one-line using <a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html">Unix pipes</a>?
 
 
+
+
+[[src-0192]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0192_WordFrequency.java[]
+----
+

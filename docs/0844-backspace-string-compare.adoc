@@ -62,3 +62,11 @@ Given two strings `S` and `T`, return if they are equal when both are typed into
 
 
 
+
+
+[[src-0844]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0844_BackspaceStringCompare.java[]
+----
+

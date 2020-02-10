@@ -38,3 +38,10 @@ image::images/0120-1.png[]
 
 . https://leetcode-cn.com/problems/triangle/solution/120-san-jiao-xing-zui-xiao-lu-jing-he-by-alexer-66/[120. 三角形最小路径和 - 三角形最小路径和 - 力扣（LeetCode）]
 . https://leetcode-cn.com/problems/triangle/solution/di-gui-ji-yi-hua-sou-suo-zai-dao-dp-by-crsm/[【Java】递归，记忆化搜索，再到DP - 三角形最小路径和 - 力扣（LeetCode）]
+
+[[src-0120]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0120_Triangle.java[]
+----
+

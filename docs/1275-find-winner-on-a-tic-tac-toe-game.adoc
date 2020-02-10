@@ -80,3 +80,11 @@ You can assume that `moves` is *valid* (It follows the rules of Tic-Tac-Toe), th
 * There are no repeated elements on `moves`.
 * `moves` follow the rules of tic tac toe.
 
+
+
+[[src-1275]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1275_FindWinnerOnATicTacToeGame.java[]
+----
+

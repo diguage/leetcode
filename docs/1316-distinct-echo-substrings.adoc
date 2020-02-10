@@ -31,3 +31,11 @@ Return the number of *distinct* non-empty substrings of `text` that can be writt
 * `text` has only lowercase English letters.
 
 
+
+
+[[src-1316]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1316_DistinctEchoSubstrings.java[]
+----
+

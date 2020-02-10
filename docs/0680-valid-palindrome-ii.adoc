@@ -33,3 +33,11 @@ Given a non-empty string `s`, you may delete *at most* one character.  Judge whe
 The maximum length of the string is 50000.
 
 
+
+
+[[src-0680]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0680_ValidPalindromeII.java[]
+----
+

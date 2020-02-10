@@ -30,3 +30,11 @@ image::https://assets.leetcode.com/uploads/2019/09/03/1537_ex1_2.png[]
 * There are no repeated connections.
 
 
+
+
+[[src-1192]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1192_CriticalConnectionsInANetwork.java[]
+----
+

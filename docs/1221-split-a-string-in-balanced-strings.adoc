@@ -53,3 +53,11 @@ Return the maximum amount of splitted balanced strings.
 * `s[i] = 'L' or 'R'`
 
 
+
+
+[[src-1221]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1221_SplitAStringInBalancedStrings.java[]
+----
+

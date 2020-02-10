@@ -22,3 +22,11 @@ The 'closest' is defined as absolute difference minimized between two integers.
 . If there is a tie, return the smaller one as answer.
 
 
+
+
+[[src-0564]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0564_FindTheClosestPalindrome.java[]
+----
+

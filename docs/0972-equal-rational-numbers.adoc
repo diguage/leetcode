@@ -67,3 +67,11 @@ Because "0.(52)" represents 0.52525252..., and "0.5(25)" represents 0.5252525252
 * `1 <= <RepeatingPart>.length <= 4`
 
 
+
+
+[[src-0972]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0972_EqualRationalNumbers.java[]
+----
+

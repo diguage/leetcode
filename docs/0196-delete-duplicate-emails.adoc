@@ -32,3 +32,11 @@ For example, after running your query, the above `Person` table should have the 
 
 Your output is the whole `Person` table after executing your sql. Use `delete` statement.
 
+
+
+[[src-0196]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0196_DeleteDuplicateEmails.java[]
+----
+

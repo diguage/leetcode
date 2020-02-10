@@ -33,3 +33,11 @@ where the maximum is taken over all `0 <= i, j < arr1.length`.
 * `-10^6 <= arr1[i], arr2[i] <= 10^6`
 
 
+
+
+[[src-1131]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1131_MaximumOfAbsoluteValueExpression.java[]
+----
+

@@ -73,3 +73,11 @@ Notice that walls are only built on the shared boundary of two different cells.
 . Throughout the described process, there is always a contiguous viral region that will infect *strictly more* uncontaminated squares in the next round.
 
 
+
+
+[[src-0749]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0749_ContainVirus.java[]
+----
+

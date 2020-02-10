@@ -28,3 +28,11 @@ Given an array of integers `nums`, sort the array in ascending order.
 * `-50000 <= nums[i] <= 50000`
 
 
+
+
+[[src-0912]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0912_SortAnArray.java[]
+----
+

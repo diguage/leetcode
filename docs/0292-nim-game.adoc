@@ -16,3 +16,11 @@ Both of you are very clever and have optimal strategies for the game. Write a fu
              No matter 1, 2, or 3 stones you remove, the last stone will always be 
              removed by your friend.
 ----
+
+
+[[src-0292]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0292_NimGame.java[]
+----
+

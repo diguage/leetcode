@@ -30,3 +30,11 @@ After doing so, return the final string.  If there is no way to do so, return th
 * `1 <= palindrome.length <= 1000`
 * `palindrome` consists of only lowercase English letters.
 
+
+
+[[src-1328]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1328_BreakAPalindrome.java[]
+----
+

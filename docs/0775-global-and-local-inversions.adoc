@@ -36,3 +36,11 @@ Return `true` if and only if the number of global inversions is equal to the num
 * The time limit for this problem has been reduced.
 
 
+
+
+[[src-0775]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0775_GlobalAndLocalInversions.java[]
+----
+

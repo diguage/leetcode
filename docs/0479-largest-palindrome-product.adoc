@@ -22,3 +22,11 @@ Explanation: 99 x 91 = 9009, 9009 % 1337 = 987
 
 The range of n is [1,8].
 
+
+
+[[src-0479]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0479_LargestPalindromeProduct.java[]
+----
+

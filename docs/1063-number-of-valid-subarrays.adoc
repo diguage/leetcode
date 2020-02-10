@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/number-of-valid-subarrays/[LeetCode - Number of Valid Subarrays]
 
+
+
+[[src-1063]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1063_NumberOfValidSubarrays.java[]
+----
+

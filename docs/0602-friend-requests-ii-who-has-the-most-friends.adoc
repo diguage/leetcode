@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/[LeetCode - Friend Requests II: Who Has the Most Friends]
 
+
+
+[[src-0602]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0602_FriendRequestsIIWhoHasTheMostFriends.java[]
+----
+

@@ -37,3 +37,11 @@ XYZ YYZ XZZ XYY XXY
 
  
 
+
+
+[[src-0790]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0790_DominoAndTrominoTiling.java[]
+----
+

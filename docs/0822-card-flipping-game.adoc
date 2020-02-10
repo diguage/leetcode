@@ -34,3 +34,11 @@ We choose the second card, which has number 2 on the back, and it isn't on the f
 . `1 <= backs[i] <= 2000`.
 
 
+
+
+[[src-0822]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0822_CardFlippingGame.java[]
+----
+

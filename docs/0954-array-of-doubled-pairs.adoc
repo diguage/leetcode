@@ -66,3 +66,11 @@ Given an array of integers `A` with even length, return `true` if and only if it
 
 
 
+
+
+[[src-0954]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0954_ArrayOfDoubledPairs.java[]
+----
+

@@ -36,3 +36,11 @@ return `[2]`.
 
 *Follow up:* Could you do that without using any extra space? (Assume that the implicit stack space incurred due to recursion does not count).
 
+
+
+[[src-0501]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0501_FindModeInBinarySearchTree.java[]
+----
+

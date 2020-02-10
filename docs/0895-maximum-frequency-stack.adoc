@@ -57,3 +57,11 @@ The stack becomes [5,7].
  
 
 
+
+
+[[src-0895]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0895_MaximumFrequencyStack.java[]
+----
+

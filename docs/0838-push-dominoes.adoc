@@ -44,3 +44,11 @@ Return a string representing the final state.
 . String `dominoes` contains only `'L`', `'R'` and `'.'`
 
 
+
+
+[[src-0838]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0838_PushDominoes.java[]
+----
+

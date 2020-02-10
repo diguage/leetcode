@@ -47,3 +47,11 @@ Also, if the sequence is possible to stamp, it is guaranteed it is possible to s
 . `1 <= stamp.length <= target.length <= 1000`
 . `stamp` and `target` only contain lowercase letters.
 
+
+
+[[src-0936]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0936_StampingTheSequence.java[]
+----
+

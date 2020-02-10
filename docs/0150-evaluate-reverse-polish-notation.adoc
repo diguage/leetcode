@@ -49,3 +49,11 @@ Valid operators are `+`, `-`, `*`, `/`. Each operand may be an integer or anothe
 = 22
 ----
 
+
+
+[[src-0150]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0150_EvaluateReversePolishNotation.java[]
+----
+

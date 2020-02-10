@@ -20,3 +20,11 @@ A solution set is:
   [-1, -1, 2]
 ]
 ----
+
+
+[[src-0015]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0015_3Sum.java[]
+----
+

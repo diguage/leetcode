@@ -26,3 +26,11 @@ You need to return the number of important reverse pairs in the given array.
 . All the numbers in the input array are in the range of 32-bit integer.
 
 
+
+
+[[src-0493]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0493_ReversePairs.java[]
+----
+

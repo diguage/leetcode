@@ -23,3 +23,11 @@ Given a positive integer _n_, find the least number of perfect square numbers (f
 *Output:* 2
 *Explanation:* `13 = 4 + 9.`
 ----
+
+
+[[src-0279]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0279_PerfectSquares.java[]
+----
+

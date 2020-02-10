@@ -61,3 +61,11 @@ image::https://assets.leetcode.com/uploads/2019/02/01/tree3.png[]
 
 
 
+
+
+[[src-0988]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0988_SmallestStringStartingFromLeaf.java[]
+----
+

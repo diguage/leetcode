@@ -44,3 +44,11 @@ but the second term did not exist.  Since the last term exhausted does not exist
 . Each call to `RLEIterator.next(int n)` will have `1 <= n <= 10^9`.
 
 
+
+
+[[src-0900]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0900_RLEIterator.java[]
+----
+

@@ -25,3 +25,11 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 *Output:* 99
 ----
 
+
+
+[[src-0137]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0137_SingleNumberII.java[]
+----
+

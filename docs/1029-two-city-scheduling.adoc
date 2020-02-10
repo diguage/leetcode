@@ -32,3 +32,11 @@ The total minimum cost is 10 + 30 + 50 + 20 = 110 to have half the people interv
 . It is guaranteed that `costs.length` is even.
 . `1 <= costs[i][0], costs[i][1] <= 1000`
 
+
+
+[[src-1029]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1029_TwoCityScheduling.java[]
+----
+

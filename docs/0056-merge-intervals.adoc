@@ -25,3 +25,10 @@ Given a collection of intervals, merge all overlapping intervals.
 
 *NOTE:* input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
 
+
+[[src-0056]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0056_MergeIntervals.java[]
+----
+

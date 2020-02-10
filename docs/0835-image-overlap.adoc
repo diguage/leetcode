@@ -31,3 +31,11 @@ What is the largest possible overlap?
 . `0 <= A[i][j], B[i][j] <= 1`
 
 
+
+
+[[src-0835]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0835_ImageOverlap.java[]
+----
+

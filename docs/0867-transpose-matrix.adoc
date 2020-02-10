@@ -35,4 +35,9 @@ image::https://assets.leetcode.com/uploads/2019/10/20/hint_transpose.png[]
 . `1 <= A[0].length <= 1000`
 
 
+[[src-0867]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0867_TransposeMatrix.java[]
+----
 

@@ -90,3 +90,10 @@ Two binary trees are considered the same if they are structurally identical and 
 *Output:* false
 ----
 
+
+[[src-0100]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0100_SameTree.java[]
+----
+

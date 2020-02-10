@@ -25,3 +25,11 @@ Explanation:
 One longest palindrome that can be built is "dccaccd", whose length is 7.
 ----
 
+
+
+[[src-0409]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0409_LongestPalindrome.java[]
+----
+

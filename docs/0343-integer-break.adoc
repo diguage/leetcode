@@ -27,3 +27,11 @@ Given a positive integer _n_, break it into the sum of *at least* two positive i
 *Note*: You may assume that _n_ is not less than 2 and not larger than 58.
 
 
+
+
+[[src-0343]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0343_IntegerBreak.java[]
+----
+

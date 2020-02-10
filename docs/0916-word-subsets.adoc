@@ -76,3 +76,11 @@ Return a list of all universal words in `A`.  You can return the words in any or
 
 
 
+
+
+[[src-0916]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0916_WordSubsets.java[]
+----
+

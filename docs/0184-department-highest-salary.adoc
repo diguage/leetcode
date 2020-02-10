@@ -46,3 +46,11 @@ Write a SQL query to find employees who have the highest salary in each of the d
 
 Max and Jim both have the highest salary in the IT department and Henry has the highest salary in the Sales department.
 
+
+
+[[src-0184]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0184_DepartmentHighestSalary.java[]
+----
+

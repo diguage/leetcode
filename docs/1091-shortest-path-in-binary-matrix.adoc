@@ -54,3 +54,11 @@ image::https://assets.leetcode.com/uploads/2019/08/04/example2_2.png[]
 * `grid[r][c]` is `0` or `1`
 
 
+
+
+[[src-1091]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1091_ShortestPathInBinaryMatrix.java[]
+----
+

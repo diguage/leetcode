@@ -37,3 +37,11 @@ If there are multiple answers, print any of them.
 . The `n` and `k` are in the range 1 <= k < n <= 10^4^.
 
 
+
+
+[[src-0667]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0667_BeautifulArrangementII.java[]
+----
+

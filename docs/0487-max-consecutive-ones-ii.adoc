@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/max-consecutive-ones-ii/[LeetCode - Max Consecutive Ones II]
 
+
+
+[[src-0487]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0487_MaxConsecutiveOnesII.java[]
+----
+

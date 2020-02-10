@@ -31,3 +31,11 @@ Given a non-empty array of integers, return the *_k_* most frequent elements.
 * Your algorithm's time complexity *must be* better than O(_n_ log _n_), where _n_ is the array's size.
 
 
+
+
+[[src-0347]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0347_TopKFrequentElements.java[]
+----
+

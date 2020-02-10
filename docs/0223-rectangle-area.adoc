@@ -20,3 +20,11 @@ image::https://assets.leetcode.com/uploads/2018/10/22/rectangle_area.png[]
 
 Assume that the total area is never beyond the maximum possible value of *int*.
 
+
+
+[[src-0223]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0223_RectangleArea.java[]
+----
+

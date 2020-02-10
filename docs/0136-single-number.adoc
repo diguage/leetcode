@@ -24,3 +24,11 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 *Output:* 4
 ----
 
+
+
+[[src-0136]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0136_SingleNumber.java[]
+----
+

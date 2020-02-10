@@ -70,3 +70,11 @@ A binary tree as following:
 . The given binary tree has at least one tree node.
 
 
+
+
+[[src-0623]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0623_AddOneRowToTree.java[]
+----
+

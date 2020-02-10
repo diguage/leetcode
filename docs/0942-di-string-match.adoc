@@ -49,3 +49,11 @@ Return *any* permutation `A` of `[0, 1, ..., N]` such that for all `i = 0, ..., 
 * `1 <= S.length <= 10000`
 * `S` only contains characters `"I"` or `"D"`.
 
+
+
+[[src-0942]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0942_DIStringMatch.java[]
+----
+

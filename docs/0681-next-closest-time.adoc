@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/next-closest-time/[LeetCode - Next Closest Time]
 
+
+
+[[src-0681]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0681_NextClosestTime.java[]
+----
+

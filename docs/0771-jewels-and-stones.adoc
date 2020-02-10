@@ -29,3 +29,11 @@ The letters in `J` are guaranteed distinct, and all characters in `J` and `S` ar
 * The characters in `J` are distinct.
 
 
+
+
+[[src-0771]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0771_JewelsAndStones.java[]
+----
+

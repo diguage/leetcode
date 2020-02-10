@@ -56,3 +56,11 @@ The robot moves from (0, 0) -> (0, 1) -> (-1, 1) -> (-1, 0) -> (0, 0) -> ...
 * `instructions[i]` is in `{'G', 'L', 'R'}`
 
 
+
+
+[[src-1041]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1041_RobotBoundedInCircle.java[]
+----
+

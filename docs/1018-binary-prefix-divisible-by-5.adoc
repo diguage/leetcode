@@ -49,3 +49,11 @@ The input numbers in binary are 0, 01, 011; which are 0, 1, and 3 in base-10.  O
 . `A[i]` is `0` or `1`
 
 
+
+
+[[src-1018]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1018_BinaryPrefixDivisibleBy5.java[]
+----
+

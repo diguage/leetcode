@@ -86,3 +86,11 @@ Return `true` if and only if you can choose `X >= 2` such that it is possible to
 
 
 
+
+
+[[src-0914]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0914_XOfAKindInADeckOfCards.java[]
+----
+

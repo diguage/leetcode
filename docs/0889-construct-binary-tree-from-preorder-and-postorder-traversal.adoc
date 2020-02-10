@@ -28,3 +28,11 @@ Values in the traversals `pre` and `post` are distinct positive integers.
 
 
 
+
+
+[[src-0889]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0889_ConstructBinaryTreeFromPreorderAndPostorderTraversal.java[]
+----
+

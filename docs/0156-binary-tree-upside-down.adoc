@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/binary-tree-upside-down/[LeetCode - Binary Tree Upside Down]
 
+
+
+[[src-0156]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0156_BinaryTreeUpsideDown.java[]
+----
+

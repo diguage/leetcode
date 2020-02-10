@@ -35,3 +35,11 @@ Both "apply" and "apple" can be built from other words in the dictionary. Howeve
 . The length of `words` will be in the range `[1, 1000]`.</li>
 . The length of `words[i]` will be in the range `[1, 30]`.</li>
 
+
+
+[[src-0720]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0720_LongestWordInDictionary.java[]
+----
+

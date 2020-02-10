@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/maximum-number-of-ones/[LeetCode - Maximum Number of Ones]
 
+
+
+[[src-1183]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1183_MaximumNumberOfOnes.java[]
+----
+

@@ -36,3 +36,11 @@ Once you pay the cost, you can either climb one or two steps. You need to find m
 . Every `cost[i]` will be an integer in the range `[0, 999]`.
 
 
+
+
+[[src-0746]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0746_MinCostClimbingStairs.java[]
+----
+

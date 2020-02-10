@@ -35,3 +35,11 @@ Result = 32 - 11 = 21
 * `1 <= n <= 10^5`
 
 
+
+
+[[src-1281]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1281_SubtractTheProductAndSumOfDigitsOfAnInteger.java[]
+----
+

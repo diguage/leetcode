@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/largest-bst-subtree/[LeetCode - Largest BST Subtree]
 
+
+
+[[src-0333]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0333_LargestBSTSubtree.java[]
+----
+

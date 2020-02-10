@@ -35,3 +35,11 @@ sumRegion(1, 2, 2, 4) -> 12
 . You may assume that _row_1 ≤ _row_2 and _col_1 ≤ _col_2.
 
 
+
+
+[[src-0304]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0304_RangeSumQuery2DImmutable.java[]
+----
+

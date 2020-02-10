@@ -33,3 +33,11 @@ You have a set of `tiles`, where each tile has one letter `tiles[i]` printed on 
 . `1 <= tiles.length <= 7`
 . `tiles` consists of uppercase English letters.
 
+
+
+[[src-1079]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1079_LetterTilePossibilities.java[]
+----
+

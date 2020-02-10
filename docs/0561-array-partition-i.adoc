@@ -24,3 +24,11 @@ Given an array of *2n* integers, your task is to group these integers into *n* p
 . All the integers in the array will be in the range of [-10000, 10000].
 
 
+
+
+[[src-0561]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0561_ArrayPartitionI.java[]
+----
+

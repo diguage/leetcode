@@ -47,3 +47,11 @@ Return the minimal number of characters that you need to change to divide the st
 * `1 <= k <= s.length <= 100`.
 * `s` only contains lowercase English letters.
 
+
+
+[[src-1278]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1278_PalindromePartitioningIII.java[]
+----
+

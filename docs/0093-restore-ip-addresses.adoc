@@ -30,3 +30,10 @@ Given a string containing only digits, restore it by returning all possible vali
 *Output:* `["255.255.11.135", "255.255.111.35"]`
 ----
 
+
+[[src-0093]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0093_RestoreIPAddresses.java[]
+----
+

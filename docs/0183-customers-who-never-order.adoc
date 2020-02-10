@@ -42,3 +42,11 @@ Using the above tables as example, return the following:
 +-----------+
 ----
 
+
+
+[[src-0183]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0183_CustomersWhoNeverOrder.java[]
+----
+

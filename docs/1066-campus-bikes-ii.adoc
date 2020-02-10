@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/campus-bikes-ii/[LeetCode - Campus Bikes II]
 
+
+
+[[src-1066]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1066_CampusBikesII.java[]
+----
+

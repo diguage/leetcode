@@ -43,3 +43,11 @@ Can you do it in O(_n_) time?
 
 
 
+
+
+[[src-0376]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0376_WiggleSubsequence.java[]
+----
+

@@ -32,3 +32,11 @@ You may assume the string contains only lowercase alphabets.
 
 What if the inputs contain unicode characters? How would you adapt your solution to such case?
 
+
+
+[[src-0242]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0242_ValidAnagram.java[]
+----
+

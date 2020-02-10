@@ -25,3 +25,11 @@ left = 1, right = 22
 *Note:*
 . The boundaries of each input argument are `1 <= left <= right <= 10000`.</li>
 
+
+
+[[src-0728]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0728_SelfDividingNumbers.java[]
+----
+

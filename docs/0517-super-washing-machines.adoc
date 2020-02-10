@@ -53,3 +53,11 @@ It's impossible to make all the three washing machines have the same number of d
 . The range of dresses number in a super washing machine is [0, 1e5].
 
 
+
+
+[[src-0517]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0517_SuperWashingMachines.java[]
+----
+

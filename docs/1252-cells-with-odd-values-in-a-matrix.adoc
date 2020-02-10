@@ -42,3 +42,11 @@ image::https://assets.leetcode.com/uploads/2019/10/30/e2.png[]
 * `0 <= indices[i][1] < m`
 
 
+
+
+[[src-1252]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1252_CellsWithOddValuesInAMatrix.java[]
+----
+

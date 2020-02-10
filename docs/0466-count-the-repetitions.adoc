@@ -17,3 +17,11 @@ Return:
 2
 ----
 
+
+
+[[src-0466]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0466_CountTheRepetitions.java[]
+----
+

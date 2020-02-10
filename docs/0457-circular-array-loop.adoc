@@ -52,3 +52,11 @@ Determine if there is a loop (or a cycle) in `nums`. A cycle must start and end 
 *Follow up:*
 
 Could you solve it in *O(n)* time complexity and *O(1)* extra space complexity?
+
+
+[[src-0457]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0457_CircularArrayLoop.java[]
+----
+

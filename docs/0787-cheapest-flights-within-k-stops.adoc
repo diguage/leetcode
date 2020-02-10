@@ -47,3 +47,11 @@ The cheapest price from city `0` to city `2` with at most 0 stop costs 500, as m
 * There will not be any duplicated flights or self cycles.
 
 
+
+
+[[src-0787]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0787_CheapestFlightsWithinKStops.java[]
+----
+

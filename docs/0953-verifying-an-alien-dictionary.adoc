@@ -43,3 +43,11 @@ Given a sequence of `words` written in the alien language, and the `order` of th
 * All characters in `words[i]` and `order` are English lowercase letters.
 
 
+
+
+[[src-0953]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0953_VerifyingAnAlienDictionary.java[]
+----
+

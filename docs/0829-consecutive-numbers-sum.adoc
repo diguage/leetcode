@@ -33,3 +33,11 @@ Given a positive integer `N`, how many ways can we write it as a sum of consecut
 
 *Note:* `1 <= N <= 10 ^ 9`.
 
+
+
+[[src-0829]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0829_ConsecutiveNumbersSum.java[]
+----
+

@@ -38,3 +38,11 @@ majorityChecker.query(2,3,2); // returns 2
 * For each query, `2 * threshold > right - left + 1`
 * The number of queries is at most `10000`
 
+
+
+[[src-1157]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1157_OnlineMajorityElementInSubarray.java[]
+----
+

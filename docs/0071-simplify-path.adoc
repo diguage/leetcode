@@ -116,3 +116,11 @@ Note that the returned canonical path must always begin with a slash `/`, and th
 *Output:* "/a/b/c"
 ----
 
+
+
+[[src-0071]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0071_SimplifyPath.java[]
+----
+

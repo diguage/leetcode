@@ -38,3 +38,10 @@ But the following `[1,2,2,null,3,null,3]` is not:
 
 Bonus points if you could solve it both recursively and iteratively.
 
+
+[[src-0101]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0101_SymmetricTree.java[]
+----
+

@@ -31,3 +31,11 @@ Given a string array `words`, find the maximum value of `length(word[i]) * lengt
 *Explanation:* No such pair of words.
 ----
 
+
+
+[[src-0318]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0318_MaximumProductOfWordLengths.java[]
+----
+

@@ -22,3 +22,10 @@ Your goal is to reach the last index in the minimum number of jumps.
 
 You can assume that you can always reach the last index.
 
+
+[[src-0045]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0045_JumpGameII.java[]
+----
+

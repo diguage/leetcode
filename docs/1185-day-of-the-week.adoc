@@ -39,3 +39,11 @@ Return the answer as one of the following values `{"Sunday", "Monday", "Tuesday"
 
 * The given dates are valid dates between the years `1971` and `2100`.
 
+
+
+[[src-1185]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1185_DayOfTheWeek.java[]
+----
+

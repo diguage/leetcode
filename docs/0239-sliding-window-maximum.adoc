@@ -77,3 +77,11 @@ You may assume _k_ is always valid, 1 ≤ k ≤ input array's size for non-empty
 
 
 Could you solve it in linear time?
+
+
+[[src-0239]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0239_SlidingWindowMaximum.java[]
+----
+

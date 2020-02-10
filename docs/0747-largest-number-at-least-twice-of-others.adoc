@@ -40,3 +40,11 @@ If it is, return the *index* of the largest element, otherwise return -1.
 
  
 
+
+
+[[src-0747]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0747_LargestNumberAtLeastTwiceOfOthers.java[]
+----
+

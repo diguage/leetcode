@@ -47,3 +47,11 @@ Given an input string, reverse the string word by word.
 *Follow up:*
 
 For C programmers, try to solve it _in-place_ in _O_(1) extra space.
+
+
+[[src-0151]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0151_ReverseWordsInAString.java[]
+----
+

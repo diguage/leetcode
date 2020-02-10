@@ -45,3 +45,11 @@ You may return the list in any order.
 
 
 
+
+
+[[src-0884]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0884_UncommonWordsFromTwoSentences.java[]
+----
+

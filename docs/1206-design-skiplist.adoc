@@ -53,3 +53,11 @@ skiplist.search(1);   // return false, 1 has already been erased.
 * `0 <= num, target <= 20000`
 * At most `50000` calls will be made to `search`, `add`, and `erase`.
 
+
+
+[[src-1206]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1206_DesignSkiplist.java[]
+----
+

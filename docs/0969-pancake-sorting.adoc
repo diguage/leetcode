@@ -44,3 +44,11 @@ Note that other answers, such as [3, 3], would also be accepted.
 . `A[i]` is a permutation of `[1, 2, ..., A.length]`
 
 
+
+
+[[src-0969]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0969_PancakeSorting.java[]
+----
+

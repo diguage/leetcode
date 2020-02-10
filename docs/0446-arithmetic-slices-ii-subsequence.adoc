@@ -50,3 +50,11 @@ All arithmetic subsequence slices are:
 
 ----
 
+
+
+[[src-0446]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0446_ArithmeticSlicesIISubsequence.java[]
+----
+

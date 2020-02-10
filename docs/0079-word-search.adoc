@@ -22,3 +22,10 @@ Given word = "*SEE*", return *true*.
 Given word = "*ABCB*", return *false*.
 ----
 
+
+[[src-0079]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0079_WordSearch.java[]
+----
+

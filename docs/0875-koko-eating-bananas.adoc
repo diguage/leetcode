@@ -55,3 +55,11 @@ Return the minimum integer `K` such that she can eat all the bananas within `H` 
 
 
 
+
+
+[[src-0875]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0875_KokoEatingBananas.java[]
+----
+

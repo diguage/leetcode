@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/traffic-light-controlled-intersection/[LeetCode - Traffic Light Controlled Intersection]
 
+
+
+[[src-1279]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1279_TrafficLightControlledIntersection.java[]
+----
+

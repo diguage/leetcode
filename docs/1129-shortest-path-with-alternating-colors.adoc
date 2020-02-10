@@ -58,3 +58,11 @@ Return an array `answer` of length `n`, where each `answer[X]` is the length of 
 * `red_edges[i].length == blue_edges[i].length == 2`
 * `0 <= red_edges[i][j], blue_edges[i][j] < n`
 
+
+
+[[src-1129]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1129_ShortestPathWithAlternatingColors.java[]
+----
+

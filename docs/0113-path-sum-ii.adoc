@@ -40,3 +40,10 @@ Return:
 === 参考资料
 
 . https://leetcode-cn.com/problems/path-sum-ii/solution/dfs-by-powcai-2/[DFS - 路径总和 II - 力扣（LeetCode）]
+
+[[src-0113]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0113_PathSumII.java[]
+----
+

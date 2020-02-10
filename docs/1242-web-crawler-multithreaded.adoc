@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/web-crawler-multithreaded/[LeetCode - Web Crawler Multithreaded]
 
+
+
+[[src-1242]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1242_WebCrawlerMultithreaded.java[]
+----
+

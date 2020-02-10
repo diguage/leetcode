@@ -58,3 +58,11 @@ The count of elements are {'K': 4, 'N': 2, 'O': 14, 'S': 4}.
 . The length of `formula` will be in the range `[1, 1000]`.</li>
 . `formula` will only consist of letters, digits, and round parentheses, and is a valid formula as defined in the problem.</li>
 
+
+
+[[src-0726]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0726_NumberOfAtoms.java[]
+----
+

@@ -50,3 +50,11 @@ The ghost can reach the target at the same time as you.
 * The number of ghosts will not exceed `100`.
 
 
+
+
+[[src-0789]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0789_EscapeTheGhosts.java[]
+----
+

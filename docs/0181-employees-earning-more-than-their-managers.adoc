@@ -27,3 +27,11 @@ Given the `Employee` table, write a SQL query that finds out employees who earn 
 +----------+
 ----
 
+
+
+[[src-0181]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0181_EmployeesEarningMoreThanTheirManagers.java[]
+----
+

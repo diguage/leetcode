@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/factor-combinations/[LeetCode - Factor Combinations]
 
+
+
+[[src-0254]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0254_FactorCombinations.java[]
+----
+

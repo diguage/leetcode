@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/customers-who-bought-all-products/[LeetCode - Customers Who Bought All Products]
 
+
+
+[[src-1045]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1045_CustomersWhoBoughtAllProducts.java[]
+----
+

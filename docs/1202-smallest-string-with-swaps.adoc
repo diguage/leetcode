@@ -54,3 +54,11 @@ Swap s[0] and s[1], s = "abc"
 * `s` only contains lower case English letters.
 
 
+
+
+[[src-1202]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1202_SmallestStringWithSwaps.java[]
+----
+

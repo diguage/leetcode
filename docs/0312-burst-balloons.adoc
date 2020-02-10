@@ -22,3 +22,11 @@ Find the maximum coins you can collect by bursting the balloons wisely.
 *Explanation:* `nums = [3,1,5,8] --> [3,5,8] -->   [3,8]   -->  [8]  --> []
              coins =  3*1*5      +  3*5*8    +  1*3*8      + 1*8*1   = 167
 ----
+
+
+[[src-0312]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0312_BurstBalloons.java[]
+----
+

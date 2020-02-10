@@ -36,3 +36,11 @@ image::https://assets.leetcode.com/uploads/2018/10/13/rainwater_fill.png[]
 
 After the rain, water is trapped between the blocks. The total volume of water trapped is 4.
 
+
+
+[[src-0407]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0407_TrappingRainWaterII.java[]
+----
+

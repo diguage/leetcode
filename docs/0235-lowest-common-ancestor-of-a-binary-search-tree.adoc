@@ -38,3 +38,11 @@ image::https://assets.leetcode.com/uploads/2018/12/14/binarysearchtree_improved.
 * p and q are different and both values will exist in the BST.
 
 
+
+
+[[src-0235]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0235_LowestCommonAncestorOfABinarySearchTree.java[]
+----
+

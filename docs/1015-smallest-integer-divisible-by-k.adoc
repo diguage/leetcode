@@ -42,3 +42,11 @@ Return the length of `N`.  If there is no such `N`, return -1.
 
 * `1 <= K <= 10^5`
 
+
+
+[[src-1015]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1015_SmallestIntegerDivisibleByK.java[]
+----
+

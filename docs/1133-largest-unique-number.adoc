@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/largest-unique-number/[LeetCode - Largest Unique Number]
 
+
+
+[[src-1133]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1133_LargestUniqueNumber.java[]
+----
+

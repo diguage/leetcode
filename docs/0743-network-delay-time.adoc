@@ -31,3 +31,11 @@ image::https://assets.leetcode.com/uploads/2019/05/23/931_example_1.png[]
 . All edges `times[i] = (u, v, w)` will have `1 <= u, v <= N` and `0 <= w <= 100`.
 
 
+
+
+[[src-0743]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0743_NetworkDelayTime.java[]
+----
+

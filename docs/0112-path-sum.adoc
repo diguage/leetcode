@@ -31,3 +31,10 @@ return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
 
 这道题和 xref:0129-sum-root-to-leaf-numbers.adoc[129. Sum Root to Leaf Numbers] 类似。
 
+
+[[src-0112]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0112_PathSum.java[]
+----
+

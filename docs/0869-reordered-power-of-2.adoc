@@ -69,3 +69,11 @@ Return `true` if and only if we can do this in a way such that the resulting num
 
 
 
+
+
+[[src-0869]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0869_ReorderedPowerOf2.java[]
+----
+

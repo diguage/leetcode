@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/[LeetCode - Read N Characters Given Read4 II - Call multiple times]
 
+
+
+[[src-0158]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0158_ReadNCharactersGivenRead4IICallMultipleTimes.java[]
+----
+

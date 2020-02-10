@@ -71,3 +71,10 @@ Given a roman numeral, convert it to an integer. Input is guaranteed to be withi
 *Explanation:* M = 1000, CM = 900, XC = 90 and IV = 4.
 ----
 
+
+[[src-0013]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0013_RomanToInteger.java[]
+----
+

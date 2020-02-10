@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/running-total-for-different-genders/[LeetCode - Running Total for Different Genders]
 
+
+
+[[src-1308]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1308_RunningTotalForDifferentGenders.java[]
+----
+

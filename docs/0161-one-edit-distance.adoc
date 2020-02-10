@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/one-edit-distance/[LeetCode - One Edit Distance]
 
+
+
+[[src-0161]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0161_OneEditDistance.java[]
+----
+

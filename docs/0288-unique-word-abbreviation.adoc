@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/unique-word-abbreviation/[LeetCode - Unique Word Abbreviation]
 
+
+
+[[src-0288]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0288_UniqueWordAbbreviation.java[]
+----
+

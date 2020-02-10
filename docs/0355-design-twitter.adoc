@@ -42,3 +42,11 @@ twitter.unfollow(1, 2);
 twitter.getNewsFeed(1);
 ----
 
+
+
+[[src-0355]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0355_DesignTwitter.java[]
+----
+

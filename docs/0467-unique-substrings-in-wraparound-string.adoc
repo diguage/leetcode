@@ -41,3 +41,11 @@ Now we have another string `p`. Your job is to find out how many unique non-empt
 *Explanation:* There are six substrings "z", "a", "b", "za", "ab", "zab" of string "zab" in the string s.
 ----
 
+
+
+[[src-0467]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0467_UniqueSubstringsInWraparoundString.java[]
+----
+

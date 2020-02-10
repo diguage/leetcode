@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/range-sum-query-2d-mutable/[LeetCode - Range Sum Query 2D - Mutable]
 
+
+
+[[src-0308]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0308_RangeSumQuery2DMutable.java[]
+----
+

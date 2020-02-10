@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/all-paths-from-source-lead-to-destination/[LeetCode - All Paths from Source Lead to Destination]
 
+
+
+[[src-1059]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1059_AllPathsFromSourceLeadToDestination.java[]
+----
+

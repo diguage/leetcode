@@ -25,3 +25,11 @@ kthLargest.add(4);   // returns 8
 
 You may assume that `nums`' length ≥ `k-1` and `k` ≥ 1.
 
+
+
+[[src-0703]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0703_KthLargestElementInAStream.java[]
+----
+

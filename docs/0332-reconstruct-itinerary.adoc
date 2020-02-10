@@ -30,3 +30,11 @@ Given a list of airline tickets represented by pairs of departure and arrival ai
              But it is larger in lexical order.
 ----
 
+
+
+[[src-0332]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0332_ReconstructItinerary.java[]
+----
+

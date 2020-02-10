@@ -59,3 +59,11 @@ Do NOT use system's `Math.random()`.
 
 
 
+
+
+[[src-0470]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0470_ImplementRand10UsingRand7.java[]
+----
+

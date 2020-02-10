@@ -34,3 +34,11 @@ _n_ is positive and will fit within the range of a 32-bit signed integer (_n_ < 
 The 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, which is part of the number 10.
 ----
 
+
+
+[[src-0400]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0400_NthDigit.java[]
+----
+

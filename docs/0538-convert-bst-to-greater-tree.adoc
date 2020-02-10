@@ -19,3 +19,11 @@ Given a Binary Search Tree (BST), convert it to a Greater Tree such that every k
           20     13
 ----
 
+
+
+[[src-0538]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0538_ConvertBSTToGreaterTree.java[]
+----
+

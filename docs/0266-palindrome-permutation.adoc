@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/palindrome-permutation/[LeetCode - Palindrome Permutation]
 
+
+
+[[src-0266]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0266_PalindromePermutation.java[]
+----
+

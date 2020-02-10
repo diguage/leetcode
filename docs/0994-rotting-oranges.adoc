@@ -59,3 +59,11 @@ image::https://assets.leetcode.com/uploads/2019/02/16/oranges.png[]
 
 
 
+
+
+[[src-0994]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0994_RottingOranges.java[]
+----
+

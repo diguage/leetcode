@@ -59,3 +59,11 @@ A *Palindrome String* is one that reads the same backward as well as forward.
 * `1 <= s.length <= 500`
 * All characters of `s` are lower case English letters.
 
+
+
+[[src-1312]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1312_MinimumInsertionStepsToMakeAStringPalindrome.java[]
+----
+

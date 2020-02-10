@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/generalized-abbreviation/[LeetCode - Generalized Abbreviation]
 
+
+
+[[src-0320]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0320_GeneralizedAbbreviation.java[]
+----
+

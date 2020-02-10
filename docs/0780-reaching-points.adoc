@@ -31,3 +31,11 @@ One series of moves that transforms the starting point to the target is:
 * `sx, sy, tx, ty` will all be integers in the range `[1, 10^9]`.
 
 
+
+
+[[src-0780]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0780_ReachingPoints.java[]
+----
+

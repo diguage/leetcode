@@ -13,3 +13,10 @@ Given array nums = [-1, 2, 1, -4], and target = 1.
 The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 ----
 
+
+[[src-0016]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0016_3SumClosest.java[]
+----
+

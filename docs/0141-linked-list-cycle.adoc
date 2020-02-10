@@ -55,3 +55,11 @@ image::https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.p
 
 Can you solve it using _O(1)_ (i.e. constant) memory?
 
+
+
+[[src-0141]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0141_LinkedListCycle.java[]
+----
+

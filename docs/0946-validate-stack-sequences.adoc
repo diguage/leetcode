@@ -40,3 +40,11 @@ push(5), pop() -> 5, pop() -> 3, pop() -> 2, pop() -> 1
 
 
 
+
+
+[[src-0946]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0946_ValidateStackSequences.java[]
+----
+

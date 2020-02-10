@@ -13,3 +13,11 @@ Please note that the string does not contain any *non-printable* characters.
 *Output:* 5
 ----
 
+
+
+[[src-0434]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0434_NumberOfSegmentsInAString.java[]
+----
+

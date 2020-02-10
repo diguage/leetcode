@@ -42,3 +42,9 @@ Implement http://www.cplusplus.com/reference/valarray/pow/[pow(_x_, _n_)], which
 * _n_ is a 32-bit signed integer, within the range [-2^31^, 2^31 ^- 1]
 
 
+[[src-0050]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0050_PowXN.java[]
+----
+

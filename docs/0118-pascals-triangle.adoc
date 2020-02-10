@@ -24,3 +24,11 @@ image::https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimate
 ]
 ----
 
+
+
+[[src-0118]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0118_PascalSTriangle.java[]
+----
+

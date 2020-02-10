@@ -24,3 +24,11 @@ Given a positive *32-bit* integer *n*, you need to find the smallest *32-bit* in
 
  
 
+
+
+[[src-0556]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0556_NextGreaterElementIII.java[]
+----
+

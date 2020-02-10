@@ -51,3 +51,11 @@ The 6-th smallest number is 6 (1, 2, 2, 3, 4, 6).
 . The `k` will be in the range [1, m * n]
 
 
+
+
+[[src-0668]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0668_KthSmallestNumberInMultiplicationTable.java[]
+----
+

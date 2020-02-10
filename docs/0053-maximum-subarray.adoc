@@ -17,3 +17,10 @@ Given an integer array `nums`, find the contiguous subarray (containing at least
 
 If you have figured out the O(_n_) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
+
+[[src-0053]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0053_MaximumSubarray.java[]
+----
+

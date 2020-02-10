@@ -24,3 +24,11 @@ Given a string, determine if it is a palindrome, considering only alphanumeric c
 *Output:* false
 ----
 
+
+
+[[src-0125]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0125_ValidPalindrome.java[]
+----
+

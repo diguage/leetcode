@@ -23,3 +23,11 @@ image::https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimate
 
 Could you optimize your algorithm to use only _O_(_k_) extra space?
 
+
+
+[[src-0119]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0119_PascalSTriangleII.java[]
+----
+

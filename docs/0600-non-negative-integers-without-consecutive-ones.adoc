@@ -27,3 +27,11 @@ Among them, only integer 3 disobeys the rule (two consecutive ones) and the othe
 1 <= n <= 10^9^
 
 
+
+
+[[src-0600]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0600_NonNegativeIntegersWithoutConsecutiveOnes.java[]
+----
+

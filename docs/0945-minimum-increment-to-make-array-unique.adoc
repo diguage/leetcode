@@ -41,3 +41,11 @@ It can be shown with 5 or less moves that it is impossible for the array to have
 
  
 
+
+
+[[src-0945]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0945_MinimumIncrementToMakeArrayUnique.java[]
+----
+

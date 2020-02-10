@@ -58,3 +58,11 @@ wordList = ["hot","dot","dog","lot","log"]
 
 
 
+
+
+[[src-0127]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0127_WordLadder.java[]
+----
+

@@ -37,3 +37,11 @@ Explanation:
 The number of boxes `n` would not exceed 100.
 
 
+
+
+[[src-0546]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0546_RemoveBoxes.java[]
+----
+

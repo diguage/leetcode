@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/optimize-water-distribution-in-a-village/[LeetCode - Optimize Water Distribution in a Village]
 
+
+
+[[src-1168]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1168_OptimizeWaterDistributionInAVillage.java[]
+----
+

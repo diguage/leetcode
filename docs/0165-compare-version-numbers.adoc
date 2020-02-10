@@ -58,3 +58,11 @@ You may assume the default revision number for each level of a version number to
 . Version strings are composed of numeric strings separated by dots `.` and this numeric strings *may* have leading zeroes. 
 . Version strings do not start or end with dots, and they will not be two consecutive dots.
 
+
+
+[[src-0165]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0165_CompareVersionNumbers.java[]
+----
+

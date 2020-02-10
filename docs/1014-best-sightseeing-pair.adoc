@@ -27,3 +27,11 @@ Return the maximum score of a pair of sightseeing spots.
 . `2 <= A.length <= 50000`
 . `1 <= A[i] <= 1000`
 
+
+
+[[src-1014]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1014_BestSightseeingPair.java[]
+----
+

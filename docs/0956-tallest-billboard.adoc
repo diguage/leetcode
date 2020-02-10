@@ -51,3 +51,11 @@ Return the largest possible height of your billboard installation.  If you canno
 . `The sum of rods is at most 5000.`
 
 
+
+
+[[src-0956]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0956_TallestBillboard.java[]
+----
+

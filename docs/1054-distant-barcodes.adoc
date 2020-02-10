@@ -38,3 +38,11 @@ Rearrange the barcodes so that no two adjacent barcodes are equal.  You may retu
 
  
 
+
+
+[[src-1054]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1054_DistantBarcodes.java[]
+----
+

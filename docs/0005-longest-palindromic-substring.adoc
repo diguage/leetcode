@@ -37,3 +37,10 @@ Given a string *s*, find the longest palindromic substring in *s*. You may assum
 * https://blog.csdn.net/dyx404514/article/details/42061017[Manacher算法总结_ddyyxx的程序员之路-CSDN博客]
 * https://www.jianshu.com/p/6db44081a155[Manacher算法详解 - 简书]
 
+
+[[src-0005]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0005_LongestPalindromicSubstring.java[]
+----
+

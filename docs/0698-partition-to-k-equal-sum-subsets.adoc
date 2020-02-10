@@ -24,3 +24,11 @@ Given an array of integers `nums` and a positive integer `k`, find whether it's 
 * `0 < nums[i] < 10000`.
 
 
+
+
+[[src-0698]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0698_PartitionToKEqualSumSubsets.java[]
+----
+

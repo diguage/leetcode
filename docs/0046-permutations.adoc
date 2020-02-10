@@ -72,3 +72,10 @@ Given a collection of *distinct* integers, return all possible permutations.
 ]
 ----
 
+
+[[src-0046]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0046_Permutations.java[]
+----
+

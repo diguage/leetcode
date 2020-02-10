@@ -21,3 +21,11 @@ Return the minimum number of students that must move in order for all students t
 * `1 <= heights[i] <= 100`
 
 
+
+
+[[src-1051]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1051_HeightChecker.java[]
+----
+

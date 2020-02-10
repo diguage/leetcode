@@ -38,3 +38,10 @@ You may assume no duplicates in the array.
 *Output:* 0
 ----
 
+
+[[src-0035]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0035_SearchInsertPosition.java[]
+----
+

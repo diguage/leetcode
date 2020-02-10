@@ -31,3 +31,10 @@ Determine whether an integer is a palindrome. An integer is a palindrome when it
 
 Coud you solve it without converting the integer to a string?
 
+
+[[src-0009]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0009_PalindromeNumber.java[]
+----
+

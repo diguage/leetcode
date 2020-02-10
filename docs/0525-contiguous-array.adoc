@@ -30,3 +30,11 @@ Given a binary array, find the maximum length of a contiguous subarray with equa
 *Note:*
 The length of the given binary array will not exceed 50,000.
 
+
+
+[[src-0525]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0525_ContiguousArray.java[]
+----
+

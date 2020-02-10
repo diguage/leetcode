@@ -45,3 +45,11 @@ Given a binary search tree, rearrange the tree in *in-order* so that the leftmos
 . Each node will have a unique integer value from 0 to 1000.
 
 
+
+
+[[src-0897]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0897_IncreasingOrderSearchTree.java[]
+----
+

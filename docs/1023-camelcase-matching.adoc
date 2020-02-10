@@ -54,3 +54,11 @@ Given a list of `queries`, and a `pattern`, return an `answer` list of booleans,
 . All strings consists only of lower and upper case English letters.
 
 
+
+
+[[src-1023]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1023_CamelcaseMatching.java[]
+----
+

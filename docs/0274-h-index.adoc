@@ -20,3 +20,11 @@ According to the https://en.wikipedia.org/wiki/H-index[definition of h-index on 
 
 *Note: *If there are several possible values for _h_, the maximum one is taken as the h-index.
 
+
+
+[[src-0274]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0274_HIndex.java[]
+----
+

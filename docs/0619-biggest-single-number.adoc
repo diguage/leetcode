@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/biggest-single-number/[LeetCode - Biggest Single Number]
 
+
+
+[[src-0619]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0619_BiggestSingleNumber.java[]
+----
+

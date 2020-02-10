@@ -52,3 +52,11 @@ Given a square at location `(r0, c0)` in the grid and a `color`, color the borde
 . `0 <= c0 < grid[0].length`
 . `1 <= color <= 1000`
 
+
+
+[[src-1034]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1034_ColoringABorder.java[]
+----
+

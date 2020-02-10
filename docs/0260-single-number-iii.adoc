@@ -18,3 +18,11 @@ Given an array of numbers `nums`, in which exactly two elements appear only once
 . The order of the result is not important. So in the above example, `[5, 3]` is also correct.
 . Your algorithm should run in linear runtime complexity. Could you implement it using only constant space complexity?
 
+
+
+[[src-0260]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0260_SingleNumberIII.java[]
+----
+

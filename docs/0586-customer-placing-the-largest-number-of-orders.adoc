@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/[LeetCode - Customer Placing the Largest Number of Orders]
 
+
+
+[[src-0586]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0586_CustomerPlacingTheLargestNumberOfOrders.java[]
+----
+

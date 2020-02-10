@@ -65,3 +65,11 @@ Round 7: You could get 9 + 5 = 14 points. The sum is 27.
 . The size of the input list will be between 1 and 1000.
 . Every integer represented in the list will be between -30000 and 30000.
 
+
+
+[[src-0682]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0682_BaseballGame.java[]
+----
+

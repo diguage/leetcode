@@ -39,3 +39,11 @@ There are 2 different transformations, "--...-." and "--...--.".
 * `words[i]` will only consist of lowercase letters.
 
 
+
+
+[[src-0804]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0804_UniqueMorseCodeWords.java[]
+----
+

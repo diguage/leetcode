@@ -43,3 +43,11 @@ Maximum length is 4.
 * `arr[i]` contains only lower case English letters.
 
 
+
+
+[[src-1239]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1239_MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java[]
+----
+

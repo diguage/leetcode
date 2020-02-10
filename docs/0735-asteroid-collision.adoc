@@ -67,3 +67,11 @@ Asteroids moving the same direction never meet, so no asteroids will meet each o
 . The length of `asteroids` will be at most `10000`.</li>
 . Each asteroid will be a non-zero integer in the range `[-1000, 1000].`.</li>
 
+
+
+[[src-0735]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0735_AsteroidCollision.java[]
+----
+

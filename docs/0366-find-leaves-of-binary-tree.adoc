@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/find-leaves-of-binary-tree/[LeetCode - Find Leaves of Binary Tree]
 
+
+
+[[src-0366]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0366_FindLeavesOfBinaryTree.java[]
+----
+

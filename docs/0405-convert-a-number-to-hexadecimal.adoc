@@ -36,3 +36,11 @@ Output:
 "ffffffff"
 ----
 
+
+
+[[src-0405]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0405_ConvertANumberToHexadecimal.java[]
+----
+

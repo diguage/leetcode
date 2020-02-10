@@ -43,3 +43,10 @@ Given a _m_ x _n_ grid filled with non-negative numbers, find a path from top le
 *Explanation:* Because the path 1&rarr;3&rarr;1&rarr;1&rarr;1 minimizes the sum.
 ----
 
+
+[[src-0064]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0064_MinimumPathSum.java[]
+----
+

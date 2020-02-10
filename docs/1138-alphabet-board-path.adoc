@@ -45,3 +45,11 @@ Return a sequence of moves that makes our answer equal to `target` in the minimu
 * `1 <= target.length <= 100`
 * `target` consists only of English lowercase letters.
 
+
+
+[[src-1138]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1138_AlphabetBoardPath.java[]
+----
+

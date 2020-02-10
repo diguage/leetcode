@@ -28,3 +28,11 @@ which are both strictly increasing.
 * `A[i], B[i]` are integer values in the range `[0, 2000]`.
 
 
+
+
+[[src-0801]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0801_MinimumSwapsToMakeSequencesIncreasing.java[]
+----
+

@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/shortest-distance-from-all-buildings/[LeetCode - Shortest Distance from All Buildings]
 
+
+
+[[src-0317]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0317_ShortestDistanceFromAllBuildings.java[]
+----
+

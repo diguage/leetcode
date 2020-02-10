@@ -37,3 +37,11 @@ Finally, player 1 has more score (234) than player 2 (12), so you need to return
 . If the scores of both players are equal, then player 1 is still the winner.
 
 
+
+
+[[src-0486]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0486_PredictTheWinner.java[]
+----
+

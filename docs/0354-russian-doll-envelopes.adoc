@@ -22,3 +22,11 @@ Rotation is not allowed.
 ----
 
 
+
+
+[[src-0354]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0354_RussianDollEnvelopes.java[]
+----
+

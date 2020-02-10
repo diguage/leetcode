@@ -21,3 +21,11 @@ If there are `n` buckets and a pig drinking poison will die within `m` minutes, 
 . After a pig has instantly finished drinking buckets, there has to be a *cool down time* of _m _minutes. During this time, only observation is allowed and no feedings at all.
 . Any given bucket can be sampled an infinite number of times (by an unlimited number of pigs).
 
+
+
+[[src-0458]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0458_PoorPigs.java[]
+----
+

@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/brace-expansion/[LeetCode - Brace Expansion]
 
+
+
+[[src-1087]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1087_BraceExpansion.java[]
+----
+

@@ -45,3 +45,11 @@ linkedList.get(1);            // returns 3
 * At most `2000` calls will be made to `get`, `addAtHead`, `addAtTail`,  `addAtIndex` and `deleteAtIndex`.
 
 
+
+
+[[src-0707]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0707_DesignLinkedList.java[]
+----
+

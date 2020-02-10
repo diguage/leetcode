@@ -49,3 +49,11 @@ solution.reset();
 solution.shuffle();
 ----
 
+
+
+[[src-0384]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0384_ShuffleAnArray.java[]
+----
+

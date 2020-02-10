@@ -48,3 +48,11 @@ or
 7 -> 6 -> 3 -> 2 -> 1
 ----
 
+
+
+[[src-0397]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0397_IntegerReplacement.java[]
+----
+

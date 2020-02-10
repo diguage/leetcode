@@ -51,3 +51,11 @@ image::https://assets.leetcode.com/uploads/2019/12/05/e1.png[]
 * `0 <= threshold <= 10^5`
 
 
+
+
+[[src-1292]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1292_MaximumSideLengthOfASquareWithSumLessThanOrEqualToThreshold.java[]
+----
+

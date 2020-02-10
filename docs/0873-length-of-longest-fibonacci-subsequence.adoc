@@ -49,3 +49,11 @@ The longest subsequence that is fibonacci-like:
 * _(The time limit has been reduced by 50% for submissions in Java, C, and C++.)_
 
 
+
+
+[[src-0873]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0873_LengthOfLongestFibonacciSubsequence.java[]
+----
+

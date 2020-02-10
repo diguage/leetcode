@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/number-of-days-in-a-month/[LeetCode - Number of Days in a Month]
 
+
+
+[[src-1118]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1118_NumberOfDaysInAMonth.java[]
+----
+

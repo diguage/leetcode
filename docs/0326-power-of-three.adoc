@@ -45,3 +45,11 @@ Given an integer, write a function to determine if it is a power of three.
 
 
 Could you do it without using any loop / recursion?
+
+
+[[src-0326]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0326_PowerOfThree.java[]
+----
+

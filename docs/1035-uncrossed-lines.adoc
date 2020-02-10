@@ -59,3 +59,11 @@ We cannot draw 3 uncrossed lines, because the line from A[1]=4 to B[2]=4 will in
 * `<font face="monospace">1 <= A[i], B[i] <= 2000`
 
 
+
+
+[[src-1035]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1035_UncrossedLines.java[]
+----
+

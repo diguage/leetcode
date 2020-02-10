@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/design-log-storage-system/[LeetCode - Design Log Storage System]
 
+
+
+[[src-0635]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0635_DesignLogStorageSystem.java[]
+----
+

@@ -82,3 +82,10 @@ Each number in `candidates` may only be used *once* in the combination.
 ]
 ----
 
+
+[[src-0040]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0040_CombinationSumII.java[]
+----
+

@@ -20,3 +20,10 @@ Given _s1_, _s2_, _s3_, find whether _s3_ is formed by the interleaving of _s1_ 
 *Output:* false
 ----
 
+
+[[src-0097]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0097_InterleavingString.java[]
+----
+

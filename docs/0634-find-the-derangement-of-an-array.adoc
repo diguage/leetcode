@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/find-the-derangement-of-an-array/[LeetCode - Find the Derangement of An Array]
 
+
+
+[[src-0634]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0634_FindTheDerangementOfAnArray.java[]
+----
+

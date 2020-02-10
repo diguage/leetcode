@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/read-n-characters-given-read4/[LeetCode - Read N Characters Given Read4]
 
+
+
+[[src-0157]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0157_ReadNCharactersGivenRead4.java[]
+----
+

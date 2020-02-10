@@ -43,3 +43,11 @@ For example:
 *Input:* "ZY"
 *Output:* 701
 ----
+
+
+[[src-0171]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0171_ExcelSheetColumnNumber.java[]
+----
+

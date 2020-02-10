@@ -55,3 +55,11 @@ Given a string `text`, we are allowed to swap two of the characters in the strin
 * `1 <= text.length <= 20000`
 * `text` consist of lowercase English characters only.
 
+
+
+[[src-1156]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1156_SwapForLongestRepeatedCharacterSubstring.java[]
+----
+

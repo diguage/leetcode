@@ -26,3 +26,11 @@ Given an integer array `nums`, find the contiguous subarray within an array (con
 *Explanation:* The result cannot be 2, because [-2,-1] is not a subarray.
 ----
 
+
+
+[[src-0152]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0152_MaximumProductSubarray.java[]
+----
+

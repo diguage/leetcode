@@ -39,3 +39,11 @@ So the final output is 4.
 . It's guaranteed that string *key* could always be spelled by rotating the string *ring*.
 
 
+
+
+[[src-0514]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0514_FreedomTrail.java[]
+----
+

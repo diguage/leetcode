@@ -48,3 +48,11 @@ The rank represents how large the element is. The rank has the following rules:
 * `0 <= arr.length <= 10^5^`
 * `-10^9^ <= arr[i] <= 10^9^`
 
+
+
+[[src-1331]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1331_RankTransformOfAnArray.java[]
+----
+

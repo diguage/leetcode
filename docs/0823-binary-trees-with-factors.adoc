@@ -37,3 +37,11 @@ How many binary trees can we make?  Return the answer *modulo 10 ** 9 + 7*.
 . `2 <= A[i] <= 10 ^ 9`.
 
 
+
+
+[[src-0823]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0823_BinaryTreesWithFactors.java[]
+----
+

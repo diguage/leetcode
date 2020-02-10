@@ -32,3 +32,11 @@ The input will be two strings, and the output needs to be the length of the long
 . Only letters from a ~ z will appear in input strings. 
 
 
+
+
+[[src-0521]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0521_LongestUncommonSubsequenceI.java[]
+----
+

@@ -53,3 +53,11 @@ image::https://assets.leetcode.com/uploads/2019/10/10/sample3_1584.png[]
 * `1 <= profit[i] <= 10^4`
 
 
+
+
+[[src-1235]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1235_MaximumProfitInJobScheduling.java[]
+----
+

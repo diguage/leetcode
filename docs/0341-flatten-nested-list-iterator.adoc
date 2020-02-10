@@ -60,3 +60,11 @@ Each element is either an integer, or a list -- whose elements may also be integ
 
 
 
+
+
+[[src-0341]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0341_FlattenNestedListIterator.java[]
+----
+

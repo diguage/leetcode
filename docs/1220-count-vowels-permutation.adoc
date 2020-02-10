@@ -51,3 +51,11 @@ Since the answer may be too large, return it modulo `10^9 + 7.`
 * `1 <= n <= 2 * 10^4`
 
 
+
+
+[[src-1220]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1220_CountVowelsPermutation.java[]
+----
+

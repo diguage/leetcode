@@ -79,3 +79,11 @@ We can reach the end from starting indexes 1, 2, and 4.
 * `1 <= A.length <= 20000`
 * `0 <= A[i] < 100000`
 
+
+
+[[src-0975]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0975_OddEvenJump.java[]
+----
+

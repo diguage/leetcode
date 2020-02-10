@@ -51,3 +51,11 @@ Return the element repeated `N` times.
 
 
 
+
+
+[[src-0961]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0961_NRepeatedElementInSize2NArray.java[]
+----
+

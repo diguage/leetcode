@@ -28,3 +28,11 @@ We could return these lists in any order, for example the answer [['Mary', 'mary
 . The length of `accounts[i]` will be in the range `[1, 10]`.</li>
 . The length of `accounts[i][j]` will be in the range `[1, 30]`.</li>
 
+
+
+[[src-0721]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0721_AccountsMerge.java[]
+----
+

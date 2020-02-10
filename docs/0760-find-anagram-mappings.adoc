@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/find-anagram-mappings/[LeetCode - Find Anagram Mappings]
 
+
+
+[[src-0760]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0760_FindAnagramMappings.java[]
+----
+

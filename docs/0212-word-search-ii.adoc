@@ -33,3 +33,11 @@ Each word must be constructed from letters of sequentially adjacent cell, where 
 . The values of `words` are distinct.
 
 
+
+
+[[src-0212]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0212_WordSearchII.java[]
+----
+

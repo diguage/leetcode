@@ -34,3 +34,11 @@ Given a non-negative integer, you could swap two digits *at most* once to get th
 . The given number is in the range [0, 10^8^]
 
 
+
+
+[[src-0670]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0670_MaximumSwap.java[]
+----
+

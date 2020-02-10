@@ -65,3 +65,11 @@ Day 7: [0, 0, 1, 1, 0, 0, 0, 0]
 
 
 
+
+
+[[src-0957]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0957_PrisonCellsAfterNDays.java[]
+----
+

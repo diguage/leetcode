@@ -54,3 +54,11 @@ Merged tree:
 
 *Note:* The merging process must start from the root nodes of both trees.
 
+
+
+[[src-0617]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0617_MergeTwoBinaryTrees.java[]
+----
+

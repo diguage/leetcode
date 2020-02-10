@@ -57,3 +57,11 @@ For [2,3], the interval [3,4] has minimum-"right" start point.
 
 *NOTE:* input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
 
+
+
+[[src-0436]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0436_FindRightInterval.java[]
+----
+

@@ -32,3 +32,11 @@ If the fractional part is repeating, enclose the repeating part in parentheses.
 *Output:* "0.(6)"
 ----
 
+
+
+[[src-0166]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0166_FractionToRecurringDecimal.java[]
+----
+

@@ -21,3 +21,11 @@ Could you do this in O(_n_) runtime?
 
  
 
+
+
+[[src-0421]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0421_MaximumXOROfTwoNumbersInAnArray.java[]
+----
+

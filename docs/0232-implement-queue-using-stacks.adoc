@@ -32,3 +32,11 @@ queue.empty(); // returns false
 * You may assume that all operations are valid (for example, no pop or peek operations will be called on an empty queue).
 
 
+
+
+[[src-0232]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0232_ImplementQueueUsingStacks.java[]
+----
+

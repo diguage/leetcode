@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/shortest-way-to-form-string/[LeetCode - Shortest Way to Form String]
 
+
+
+[[src-1055]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1055_ShortestWayToFormString.java[]
+----
+

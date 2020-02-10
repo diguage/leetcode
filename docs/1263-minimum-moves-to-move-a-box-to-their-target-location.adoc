@@ -88,3 +88,11 @@ image::https://assets.leetcode.com/uploads/2019/11/06/sample_1_1620.png[]
 * There is only one character `'S'`, `'B'` <font face="sans-serif, Arial, Verdana, Trebuchet MS">and `'T'` in the `grid`.
 
 
+
+
+[[src-1263]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1263_MinimumMovesToMoveABoxToTheirTargetLocation.java[]
+----
+

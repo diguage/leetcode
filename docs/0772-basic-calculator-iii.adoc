@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/basic-calculator-iii/[LeetCode - Basic Calculator III]
 
+
+
+[[src-0772]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0772_BasicCalculatorIII.java[]
+----
+

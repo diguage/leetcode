@@ -41,3 +41,11 @@ Given a non-negative integer `N`, find the largest number that is less than or e
 *Note:*
 `N` is an integer in the range `[0, 10^9]`.
 
+
+
+[[src-0738]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0738_MonotoneIncreasingDigits.java[]
+----
+

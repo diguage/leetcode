@@ -32,3 +32,11 @@ You may return any answer array that satisfies this condition.
 
  
 
+
+
+[[src-0922]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0922_SortArrayByParityII.java[]
+----
+

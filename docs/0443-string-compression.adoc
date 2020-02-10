@@ -73,3 +73,11 @@ Notice each digit has it's own entry in the array.
 . `1 <= len(chars) <= 1000`.
 
 
+
+
+[[src-0443]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0443_StringCompression.java[]
+----
+

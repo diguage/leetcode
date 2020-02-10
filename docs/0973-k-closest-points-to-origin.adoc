@@ -45,3 +45,11 @@ We only want the closest K = 1 points from the origin, so the answer is just [[-
 
 
 
+
+
+[[src-0973]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0973_KClosestPointsToOrigin.java[]
+----
+

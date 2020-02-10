@@ -27,3 +27,11 @@ The repeated subarray with maximum length is [3, 2, 1].
 
  
 
+
+
+[[src-0718]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0718_MaximumLengthOfRepeatedSubarray.java[]
+----
+

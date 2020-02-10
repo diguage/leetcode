@@ -33,3 +33,11 @@ Given an integer array, find three numbers whose product is maximum and output t
 
  
 
+
+
+[[src-0628]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0628_MaximumProductOfThreeNumbers.java[]
+----
+

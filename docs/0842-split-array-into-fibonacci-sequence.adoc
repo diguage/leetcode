@@ -66,3 +66,11 @@ Return any Fibonacci-like sequence split from `S`, or return `[]` if it cannot b
 * `S` contains only digits.
 
 
+
+
+[[src-0842]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0842_SplitArrayIntoFibonacciSequence.java[]
+----
+

@@ -51,3 +51,11 @@ Return an edge that can be removed so that the resulting graph is a tree of N no
 *<font color="red">Update (2017-09-26):*
 We have overhauled the problem description + test cases and specified clearly the graph is an *_undirected_* graph. For the *_directed_* graph follow up please see *<a href="https://leetcode.com/problems/redundant-connection-ii/description/">Redundant Connection II</a>*). We apologize for any inconvenience caused.
 
+
+
+[[src-0684]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0684_RedundantConnection.java[]
+----
+

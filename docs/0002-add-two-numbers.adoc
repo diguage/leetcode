@@ -14,3 +14,10 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 *Explanation:* 342 + 465 = 807.
 ----
 
+
+[[src-0002]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0002_AddTwoNumbers.java[]
+----
+

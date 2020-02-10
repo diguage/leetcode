@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/shortest-distance-in-a-plane/[LeetCode - Shortest Distance in a Plane]
 
+
+
+[[src-0612]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0612_ShortestDistanceInAPlane.java[]
+----
+

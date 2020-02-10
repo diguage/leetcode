@@ -48,3 +48,11 @@ The returned string must have no leading zeroes, unless the string is `"0"`.
 
 
 
+
+
+[[src-1017]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1017_ConvertToBase2.java[]
+----
+

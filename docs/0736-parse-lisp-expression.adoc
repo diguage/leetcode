@@ -67,3 +67,11 @@ of the final x in the add-expression.  That final x will equal 2.
 . The length of `expression` is at most 2000.  (It is also non-empty, as that would not be a legal expression.)</li>
 . The answer and all intermediate calculations of that answer are guaranteed to fit in a 32-bit integer.</li>
 
+
+
+[[src-0736]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0736_ParseLispExpression.java[]
+----
+

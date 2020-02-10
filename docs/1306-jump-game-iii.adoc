@@ -47,3 +47,11 @@ index 0 -> index 4 -> index 1 -> index 3
 * `0 <= arr[i] < arr.length`
 * `0 <= start < arr.length`
 
+
+
+[[src-1306]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1306_JumpGameIII.java[]
+----
+

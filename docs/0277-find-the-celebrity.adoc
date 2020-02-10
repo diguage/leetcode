@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/find-the-celebrity/[LeetCode - Find the Celebrity]
 
+
+
+[[src-0277]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0277_FindTheCelebrity.java[]
+----
+

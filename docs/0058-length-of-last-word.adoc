@@ -30,5 +30,10 @@ If the last word does not exist, return 0.
 *Output:* 5
 ----
 
- 
+
+[[src-0058]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0058_LengthOfLastWord.java[]
+----
 

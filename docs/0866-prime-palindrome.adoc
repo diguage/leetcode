@@ -53,3 +53,11 @@ For example, 12321 is a palindrome.
 * The answer is guaranteed to exist and be less than `2 * 10^8`.
 
 
+
+
+[[src-0866]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0866_PrimePalindrome.java[]
+----
+

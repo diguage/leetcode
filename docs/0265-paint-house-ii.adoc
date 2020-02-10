@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/paint-house-ii/[LeetCode - Paint House II]
 
+
+
+[[src-0265]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0265_PaintHouseII.java[]
+----
+

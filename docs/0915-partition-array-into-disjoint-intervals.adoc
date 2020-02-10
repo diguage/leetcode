@@ -48,3 +48,11 @@ Return the *length* of `left` after such a partitioning.  It is guaranteed that 
  
 
 
+
+
+[[src-0915]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0915_PartitionArrayIntoDisjointIntervals.java[]
+----
+

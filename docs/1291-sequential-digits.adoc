@@ -29,3 +29,11 @@ Return a *sorted* list of all the integers in the range `[low, high]` inclusive 
 * `10 <= low <= high <= 10^9`
 
 
+
+
+[[src-1291]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1291_SequentialDigits.java[]
+----
+

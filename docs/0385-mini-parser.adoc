@@ -38,3 +38,11 @@ Return a NestedInteger object containing a nested list with 2 elements:
          a. An integer containing value 789.
 ----
 
+
+
+[[src-0385]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0385_MiniParser.java[]
+----
+

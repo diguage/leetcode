@@ -36,3 +36,11 @@ Given an integer `n`, return *any* array containing `n` *unique* integers such t
 
 * `1 <= n <= 1000`
 
+
+
+[[src-1304]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1304_FindNUniqueIntegersSumUpToZero.java[]
+----
+

@@ -37,3 +37,11 @@ Otherwise, we define that this word doesn't use capitals in a right way.
 
 *Note:* The input will be a non-empty word consisting of uppercase and lowercase latin letters.
 
+
+
+[[src-0520]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0520_DetectCapital.java[]
+----
+

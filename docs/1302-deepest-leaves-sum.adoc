@@ -21,3 +21,11 @@ Given a binary tree, return the sum of values of its deepest leaves.
 * The number of nodes in the tree is between `1` and `10^4`.
 * The value of nodes is between `1` and `100`.
 
+
+
+[[src-1302]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1302_DeepestLeavesSum.java[]
+----
+

@@ -14,6 +14,8 @@ D瓜哥 <https://www.diguage.com/>
 :toc-title: 目录
 :toclevels: 4
 :sectnumlevels: 4
+:sourcedir: ../src/main/java/com/diguage/algorithm/leetcode
+:java_source_attr: java
 
 // head -n 10 index.adoc | tail -n +2 | xargs touch {}\n
 // grep "include" index.adoc | grep -v "grep" | awk -F: '{print $2}' | awk -F\[ '{print $1}' | xargs touch {}\n

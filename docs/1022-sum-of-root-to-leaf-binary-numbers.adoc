@@ -31,3 +31,11 @@ image::https://assets.leetcode.com/uploads/2019/04/04/sum-of-root-to-leaf-binary
 . The answer will not exceed `2^31 - 1`.
 
 
+
+
+[[src-1022]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1022_SumOfRootToLeafBinaryNumbers.java[]
+----
+

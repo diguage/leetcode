@@ -17,3 +17,11 @@ Could you do it without extra space and in O(_n_) runtime?
 *Output:*
 [2,3]
 ----
+
+
+[[src-0442]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0442_FindAllDuplicatesInAnArray.java[]
+----
+

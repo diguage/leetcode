@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/ip-to-cidr/[LeetCode - IP to CIDR]
 
+
+
+[[src-0751]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0751_IPToCIDR.java[]
+----
+

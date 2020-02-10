@@ -24,3 +24,11 @@ Given a list of non negative integers, arrange them such that they form the larg
 
 *Note:* The result may be very large, so you need to return a string instead of an integer.
 
+
+
+[[src-0179]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0179_LargestNumber.java[]
+----
+

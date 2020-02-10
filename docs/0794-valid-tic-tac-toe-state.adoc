@@ -45,3 +45,11 @@ Here are the rules of Tic-Tac-Toe:
 * Each `board[i][j]` is a character in the set `{" ", "X", "O"}`.
 
 
+
+
+[[src-0794]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0794_ValidTicTacToeState.java[]
+----
+

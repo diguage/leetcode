@@ -41,3 +41,11 @@ All 1s are either on the boundary or can reach the boundary.
 . `0 <= A[i][j] <= 1`
 . All rows have the same size.
 
+
+
+[[src-1020]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1020_NumberOfEnclaves.java[]
+----
+

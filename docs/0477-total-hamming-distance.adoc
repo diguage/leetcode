@@ -28,3 +28,11 @@ HammingDistance(4, 14) + HammingDistance(4, 2) + HammingDistance(14, 2) = 2 + 2 
 . Length of the array will not exceed `10^4`. 
 
 
+
+
+[[src-0477]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0477_TotalHammingDistance.java[]
+----
+

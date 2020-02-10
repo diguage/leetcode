@@ -28,3 +28,11 @@ The move sequence is represented by a string, and the character moves[i] represe
 *Explanation*: The robot moves left twice. It ends up two "moves" to the left of the origin. We return false because it is not at the origin at the end of its moves.
 ----
 
+
+
+[[src-0657]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0657_RobotReturnToOrigin.java[]
+----
+

@@ -32,3 +32,11 @@ The smallest possible number of rabbits in the forest is therefore 5: 3 that ans
 . Each `answers[i]` will be an integer in the range `[0, 999]`.
 
 
+
+
+[[src-0781]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0781_RabbitsInForest.java[]
+----
+

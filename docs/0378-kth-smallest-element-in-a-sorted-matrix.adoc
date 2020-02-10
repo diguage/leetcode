@@ -26,3 +26,11 @@ return 13.
 
 *Note: *
 You may assume k is always valid, 1 ≤ k ≤ n^2^.
+
+
+[[src-0378]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0378_KthSmallestElementInASortedMatrix.java[]
+----
+

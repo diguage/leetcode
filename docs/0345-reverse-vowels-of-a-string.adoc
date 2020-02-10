@@ -29,3 +29,11 @@ The vowels does not include the letter "y".
 
  
 
+
+
+[[src-0345]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0345_ReverseVowelsOfAString.java[]
+----
+

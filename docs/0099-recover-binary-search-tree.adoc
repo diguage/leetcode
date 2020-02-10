@@ -55,3 +55,9 @@ Recover the tree without changing its structure.
 * Could you devise a constant space solution?
 
 
+[[src-0099]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0099_RecoverBinarySearchTree.java[]
+----
+

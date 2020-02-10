@@ -39,3 +39,11 @@ cache.get(4);       // returns 4
 
  
 
+
+
+[[src-0146]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0146_LRUCache.java[]
+----
+

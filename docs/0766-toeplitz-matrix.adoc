@@ -61,3 +61,11 @@ The diagonal "[1, 2]" has different elements.
 . What if the matrix is so large that you can only load up a partial row into the memory at once?
 
 
+
+
+[[src-0766]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0766_ToeplitzMatrix.java[]
+----
+

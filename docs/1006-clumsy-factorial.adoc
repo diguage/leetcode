@@ -41,3 +41,11 @@ Additionally, the division that we use is _floor division_ such that `10 * 9 / 8
 . `-2^31 <= answer <= 2^31 - 1`  (The answer is guaranteed to fit within a 32-bit integer.)
 
 
+
+
+[[src-1006]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1006_ClumsyFactorial.java[]
+----
+

@@ -29,3 +29,11 @@ At the end the concatenation [2] + [4,4,4,4] is [2,4,4,4].
 * `<font face="monospace">1 <= nums[i] <= 100`
 
 
+
+
+[[src-1313]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1313_DecompressRunLengthEncodedList.java[]
+----
+

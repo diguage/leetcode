@@ -29,3 +29,11 @@ Assuming Alex and Lee play optimally, return the maximum number of stones Alex c
 * `1 <= piles.length <= 100`
 * `1 <= piles[i] <= 10 ^ 4`
 
+
+
+[[src-1140]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1140_StoneGameII.java[]
+----
+

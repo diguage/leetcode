@@ -44,3 +44,11 @@ The length of path between two nodes is represented by the number of edges betwe
 
 *Note:* The given binary tree has not more than 10000 nodes. The height of the tree is not more than 1000.
 
+
+
+[[src-0687]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0687_LongestUnivaluePath.java[]
+----
+

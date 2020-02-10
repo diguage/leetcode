@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/students-and-examinations/[LeetCode - Students and Examinations]
 
+
+
+[[src-1280]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1280_StudentsAndExaminations.java[]
+----
+

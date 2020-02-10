@@ -58,3 +58,11 @@ image::https://assets.leetcode.com/uploads/2019/12/05/graph-1.png[]
 * Number of nodes will not exceed `30`.
 * Each node's value is either `0` or `1`.
 
+
+
+[[src-1290]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1290_ConvertBinaryNumberInALinkedListToInteger.java[]
+----
+

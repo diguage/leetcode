@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/reported-posts-ii/[LeetCode - Reported Posts II]
 
+
+
+[[src-1132]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1132_ReportedPostsII.java[]
+----
+

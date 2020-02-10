@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/[LeetCode - Longest Substring with At Most K Distinct Characters]
 
+
+
+[[src-0340]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0340_LongestSubstringWithAtMostKDistinctCharacters.java[]
+----
+

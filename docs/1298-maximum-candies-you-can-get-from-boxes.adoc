@@ -78,3 +78,11 @@ Total number of candies collected = 7 + 4 + 5 = 16 candy.
 * `0 <= initialBoxes.length <= status.length`
 * `<font face="monospace">0 <= initialBoxes[i] < status.length`
 
+
+
+[[src-1298]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1298_MaximumCandiesYouCanGetFromBoxes.java[]
+----
+

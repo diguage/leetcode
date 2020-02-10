@@ -30,3 +30,11 @@ queries = [ ["a", "c"], ["b", "a"], ["a", "e"], ["a", "a"], ["x", "x"] ].
 
 The input is always valid. You may assume that evaluating the queries will result in no division by zero and there is no contradiction.
 
+
+
+[[src-0399]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0399_EvaluateDivision.java[]
+----
+

@@ -88,3 +88,10 @@ Given _n_ and _k_, return the _k_^th^ permutation sequence.
 *Output:* "2314"
 ----
 
+
+[[src-0060]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0060_PermutationSequence.java[]
+----
+

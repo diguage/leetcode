@@ -61,3 +61,11 @@ Return the <font face="monospace">N-th magical number.  Since the answer may be 
 
 
 
+
+
+[[src-0878]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0878_NthMagicalNumber.java[]
+----
+

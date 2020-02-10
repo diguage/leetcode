@@ -68,3 +68,11 @@ image::https://assets.leetcode.com/uploads/2019/01/18/tree4.png[]
 
 
 
+
+
+[[src-0979]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0979_DistributeCoinsInBinaryTree.java[]
+----
+

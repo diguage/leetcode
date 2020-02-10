@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/page-recommendations/[LeetCode - Page Recommendations]
 
+
+
+[[src-1264]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1264_PageRecommendations.java[]
+----
+

@@ -38,3 +38,11 @@ target = 13
 *Output:* false
 ----
 
+
+
+[[src-0074]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0074_SearchA2DMatrix.java[]
+----
+

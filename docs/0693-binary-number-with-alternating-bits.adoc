@@ -51,3 +51,11 @@ The binary representation of 11 is: 1011.
 The binary representation of 10 is: 1010.
 ----
 
+
+
+[[src-0693]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0693_BinaryNumberWithAlternatingBits.java[]
+----
+

@@ -58,3 +58,10 @@ image::images/0116-2.jpg[]
 
 . https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--27/[详细通俗的思路分析，多解法 - 填充每个节点的下一个右侧节点指针 - 力扣（LeetCode）]
 
+
+[[src-0116]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0116_PopulatingNextRightPointersInEachNode.java[]
+----
+

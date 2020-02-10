@@ -60,3 +60,11 @@ For the above tables, your SQL query should return the following rows with the c
 
 Special thanks to <a href="https://leetcode.com/discuss/user/cak1erlizhou">@cak1erlizhou</a> for contributing this question, writing the problem description and adding part of the test cases.
 
+
+
+[[src-0262]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0262_TripsAndUsers.java[]
+----
+

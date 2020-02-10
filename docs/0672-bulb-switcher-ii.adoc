@@ -50,3 +50,11 @@ Suppose `n` lights are labeled as number [1, 2, 3 ..., n], function of these 4 b
 
 *Note:* `n` and `m` both fit in range [0, 1000].
 
+
+
+[[src-0672]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0672_BulbSwitcherII.java[]
+----
+

@@ -51,3 +51,11 @@ You have id = 0 (green color in the figure) and the only friend of your friends 
 * if `friends[i]` contains `j`, then `friends[j]` contains `i`
 
 
+
+
+[[src-1311]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1311_GetWatchedVideosByYourFriends.java[]
+----
+

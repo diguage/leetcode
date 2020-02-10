@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/robot-room-cleaner/[LeetCode - Robot Room Cleaner]
 
+
+
+[[src-0489]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0489_RobotRoomCleaner.java[]
+----
+

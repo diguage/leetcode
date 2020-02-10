@@ -56,3 +56,11 @@ Formally, a _parentheses string_ is valid if and only if:
 * `1 <= s.length <= 10^5`
 * `s[i]` is one of  `'('` , `')'` and lowercase English letters`.`
 
+
+
+[[src-1249]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1249_MinimumRemoveToMakeValidParentheses.java[]
+----
+

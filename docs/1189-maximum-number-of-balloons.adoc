@@ -40,3 +40,11 @@ image::https://assets.leetcode.com/uploads/2019/09/05/1536_ex2_upd.JPG[]
 * `1 <= text.length <= 10^4`
 * `text` consists of lower case English letters only.
 
+
+
+[[src-1189]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1189_MaximumNumberOfBalloons.java[]
+----
+

@@ -42,3 +42,11 @@ Given an array of integers and an integer *k*, you need to find the total number
 
 
 
+
+
+[[src-0560]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0560_SubarraySumEqualsK.java[]
+----
+

@@ -37,3 +37,11 @@ For each such occurrence, add "`third`" to the answer, and return the answer.
 
 
 
+
+
+[[src-1078]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1078_OccurrencesAfterBigram.java[]
+----
+

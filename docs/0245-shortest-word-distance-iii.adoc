@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/shortest-word-distance-iii/[LeetCode - Shortest Word Distance III]
 
+
+
+[[src-0245]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0245_ShortestWordDistanceIII.java[]
+----
+

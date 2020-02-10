@@ -72,3 +72,11 @@ Also, a subarray may only include each element of the fixed buffer `A` at most o
 
 
 
+
+
+[[src-0918]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0918_MaximumSumCircularSubarray.java[]
+----
+

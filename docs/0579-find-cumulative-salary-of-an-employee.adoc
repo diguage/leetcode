@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/find-cumulative-salary-of-an-employee/[LeetCode - Find Cumulative Salary of an Employee]
 
+
+
+[[src-0579]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0579_FindCumulativeSalaryOfAnEmployee.java[]
+----
+

@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/two-sum-iii-data-structure-design/[LeetCode - Two Sum III - Data structure design]
 
+
+
+[[src-0170]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0170_TwoSumIIIDataStructureDesign.java[]
+----
+

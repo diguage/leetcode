@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/team-scores-in-football-tournament/[LeetCode - Team Scores in Football Tournament]
 
+
+
+[[src-1212]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1212_TeamScoresInFootballTournament.java[]
+----
+

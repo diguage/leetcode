@@ -44,3 +44,11 @@ So you finally need to output 3.
 
  
 
+
+
+[[src-0495]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0495_TeemoAttacking.java[]
+----
+

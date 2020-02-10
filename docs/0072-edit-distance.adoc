@@ -38,3 +38,11 @@ exention -> exection (replace 'n' with 'c')
 exection -> execution (insert 'u')
 ----
 
+
+
+[[src-0072]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0072_EditDistance.java[]
+----
+

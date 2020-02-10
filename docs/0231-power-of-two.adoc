@@ -31,3 +31,11 @@ Given an integer, write a function to determine if it is a power of two.
 *Output:* false
 ----
 
+
+
+[[src-0231]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0231_PowerOfTwo.java[]
+----
+

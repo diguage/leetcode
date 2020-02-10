@@ -54,3 +54,11 @@ Return the *length* of a maximum size turbulent subarray of A.
 * `1 <= A.length <= 40000`
 * `0 <= A[i] <= 10^9`
 
+
+
+[[src-0978]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0978_LongestTurbulentSubarray.java[]
+----
+

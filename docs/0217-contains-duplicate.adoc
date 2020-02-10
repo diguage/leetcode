@@ -30,3 +30,11 @@ Your function should return true if any value appears at least twice in the arra
 *Output:* true
 ----
 
+
+
+[[src-0217]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0217_ContainsDuplicate.java[]
+----
+

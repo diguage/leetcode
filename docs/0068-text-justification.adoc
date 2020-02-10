@@ -70,3 +70,10 @@ maxWidth = 20
 ]
 ----
 
+
+[[src-0068]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0068_TextJustification.java[]
+----
+

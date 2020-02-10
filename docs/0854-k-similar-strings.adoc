@@ -51,3 +51,11 @@ Given two anagrams `A` and `B`, return the smallest `K` for which `A` and `B` ar
 . `A` and `B` contain only lowercase letters from the set `{'a', 'b', 'c', 'd', 'e', 'f'}`
 
 
+
+
+[[src-0854]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0854_KSimilarStrings.java[]
+----
+

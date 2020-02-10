@@ -44,3 +44,11 @@ As the answer can be very large, return the answer *modulo* `10^9 + 7`.
 * `-10^4 <= arr[i] <= 10^4`
 
 
+
+
+[[src-1191]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1191_KConcatenationMaximumSum.java[]
+----
+

@@ -39,3 +39,10 @@ Given a collection of numbers that might contain duplicates, return all possible
 ]
 ----
 
+
+[[src-0047]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0047_PermutationsII.java[]
+----
+

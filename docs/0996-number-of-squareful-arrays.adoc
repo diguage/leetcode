@@ -34,3 +34,11 @@ Return the number of permutations of A that are squareful.  Two permutations `A1
 . `1 <= A.length <= 12`
 . `0 <= A[i] <= 1e9`
 
+
+
+[[src-0996]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0996_NumberOfSquarefulArrays.java[]
+----
+

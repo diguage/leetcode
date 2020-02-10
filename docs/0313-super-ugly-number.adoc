@@ -25,3 +25,11 @@ Super ugly numbers are positive numbers whose all prime factors are in the given
 * The n^th^ super ugly number is guaranteed to fit in a 32-bit signed integer.
 
 
+
+
+[[src-0313]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0313_SuperUglyNumber.java[]
+----
+

@@ -48,3 +48,11 @@ Now given a string representing n, you should return the smallest good base of n
 
  
 
+
+
+[[src-0483]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0483_SmallestGoodBase.java[]
+----
+

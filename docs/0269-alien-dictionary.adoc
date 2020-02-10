@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/alien-dictionary/[LeetCode - Alien Dictionary]
 
+
+
+[[src-0269]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0269_AlienDictionary.java[]
+----
+

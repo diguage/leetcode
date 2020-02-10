@@ -46,3 +46,11 @@ Given a *N*N* matrix *M* representing the friend relationship between students i
 . If M[i][j] = 1, then M[j][i] = 1.
 
 
+
+
+[[src-0547]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0547_FriendCircles.java[]
+----
+

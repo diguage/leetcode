@@ -27,3 +27,10 @@ The above output corresponds to the 5 unique BST's shown below:
    2     1         2                 3
 ----
 
+
+[[src-0095]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0095_UniqueBinarySearchTreesII.java[]
+----
+

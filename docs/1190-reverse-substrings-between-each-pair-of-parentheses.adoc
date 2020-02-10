@@ -52,3 +52,11 @@ Your result should *not* contain any brackets.
 * It's guaranteed that all parentheses are balanced.
 
 
+
+
+[[src-1190]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1190_ReverseSubstringsBetweenEachPairOfParentheses.java[]
+----
+

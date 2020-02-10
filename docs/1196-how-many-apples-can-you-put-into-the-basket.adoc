@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/[LeetCode - How Many Apples Can You Put into the Basket]
 
+
+
+[[src-1196]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1196_HowManyApplesCanYouPutIntoTheBasket.java[]
+----
+

@@ -31,3 +31,11 @@ Given two arrays, write a function to compute their intersection.
 
  
 
+
+
+[[src-0349]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0349_IntersectionOfTwoArrays.java[]
+----
+

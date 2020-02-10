@@ -21,3 +21,10 @@ nums2 = [2,5,6],       n = 3
 
 *Output:* [1,2,2,3,5,6]
 ----
+
+[[src-0088]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0088_MergeSortedArray.java[]
+----
+

@@ -40,3 +40,11 @@ gridNew = [ [8, 4, 8, 7],
 * All buildings in `grid[i][j]` occupy the entire grid cell: that is, they are a `1 x 1 x grid[i][j]` rectangular prism.
 
 
+
+
+[[src-0807]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0807_MaxIncreaseToKeepCitySkyline.java[]
+----
+

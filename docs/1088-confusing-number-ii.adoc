@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/confusing-number-ii/[LeetCode - Confusing Number II]
 
+
+
+[[src-1088]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1088_ConfusingNumberII.java[]
+----
+

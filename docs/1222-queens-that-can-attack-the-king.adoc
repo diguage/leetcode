@@ -55,3 +55,11 @@ image::https://assets.leetcode.com/uploads/2019/10/01/untitled-diagram-2.jpg[]
 * At most one piece is allowed in a cell.
 
 
+
+
+[[src-1222]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1222_QueensThatCanAttackTheKing.java[]
+----
+

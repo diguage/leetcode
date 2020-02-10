@@ -33,3 +33,11 @@ Given a list of *non-negative* numbers and a target *integer* k, write a functio
 . You may assume the sum of all the numbers is in the range of a signed 32-bit integer.
 
 
+
+
+[[src-0523]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0523_ContinuousSubarraySum.java[]
+----
+

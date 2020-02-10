@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/minimum-cost-to-connect-sticks/[LeetCode - Minimum Cost to Connect Sticks]
 
+
+
+[[src-1167]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1167_MinimumCostToConnectSticks.java[]
+----
+

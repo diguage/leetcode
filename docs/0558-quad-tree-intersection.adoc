@@ -72,3 +72,11 @@ A:                 B:                 C (A or B):
 . The logic OR operation is defined as this: "A or B" is true if `A is true`, or if `B is true`, or if `both A and B are true`.
 
 
+
+
+[[src-0558]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0558_QuadTreeIntersection.java[]
+----
+

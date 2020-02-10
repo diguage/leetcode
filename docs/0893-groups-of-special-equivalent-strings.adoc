@@ -64,3 +64,11 @@ The other two groups are ["xyzz", "zzxy"] and ["zzyx"].  Note that in particular
 
 
 
+
+
+[[src-0893]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0893_GroupsOfSpecialEquivalentStrings.java[]
+----
+

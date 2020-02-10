@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/equal-tree-partition/[LeetCode - Equal Tree Partition]
 
+
+
+[[src-0663]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0663_EqualTreePartition.java[]
+----
+

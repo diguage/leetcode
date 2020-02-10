@@ -21,3 +21,11 @@ Now, given an *integer* n, write a function that returns true when it is a perfe
 *Note:*
 The input number *n* will not exceed 100,000,000. (1e8)
 
+
+
+[[src-0507]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0507_PerfectNumber.java[]
+----
+

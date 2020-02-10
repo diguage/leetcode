@@ -29,3 +29,11 @@ What is the most profit we can make?
 * `difficulty[i], profit[i], worker[i]`  are in range `[1, 10^5]`
 
 
+
+
+[[src-0826]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0826_MostProfitAssigningWork.java[]
+----
+

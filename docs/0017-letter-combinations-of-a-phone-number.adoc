@@ -20,3 +20,10 @@ image::http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad
 
 Although the above answer is in lexicographical order, your answer could be in any order you want.
 
+
+[[src-0017]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0017_LetterCombinationsOfAPhoneNumber.java[]
+----
+

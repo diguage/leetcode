@@ -23,3 +23,11 @@ A _shift on `A`_ consists of taking string `A` and moving the leftmost character
 * `A` and `B` will have length at most `100`.
 
 
+
+
+[[src-0796]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0796_RotateString.java[]
+----
+

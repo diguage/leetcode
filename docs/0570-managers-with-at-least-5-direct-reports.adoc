@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/managers-with-at-least-5-direct-reports/[LeetCode - Managers with at Least 5 Direct Reports]
 
+
+
+[[src-0570]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0570_ManagersWithAtLeast5DirectReports.java[]
+----
+

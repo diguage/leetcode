@@ -53,3 +53,10 @@ Note that an empty string is also considered valid.
 *Output:* true
 ----
 
+
+[[src-0020]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0020_ValidParentheses.java[]
+----
+

@@ -28,3 +28,11 @@ A _defanged IP address_ replaces every period `"."` with `"[.]"`.
 
 * The given `address` is a valid IPv4 address.
 
+
+
+[[src-1108]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1108_DefangingAnIPAddress.java[]
+----
+

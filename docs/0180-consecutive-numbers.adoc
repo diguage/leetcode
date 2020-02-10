@@ -30,3 +30,11 @@ For example, given the above `Logs` table, `1` is the only number that appears c
 +-----------------+
 ----
 
+
+
+[[src-0180]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0180_ConsecutiveNumbers.java[]
+----
+

@@ -43,3 +43,11 @@ Note that the two extra dashes are not needed and can be removed.
 . String S is non-empty.
 
 
+
+
+[[src-0482]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0482_LicenseKeyFormatting.java[]
+----
+

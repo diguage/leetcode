@@ -84,3 +84,10 @@ The *same* repeated number may be chosen from `candidates` unlimited number of t
 ]
 ----
 
+
+[[src-0039]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0039_CombinationSum.java[]
+----
+

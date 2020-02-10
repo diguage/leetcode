@@ -65,3 +65,11 @@ Given the array-form `A` of a non-negative integer `X`, return the array-form of
 
 
 
+
+
+[[src-0989]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0989_AddToArrayFormOfInteger.java[]
+----
+

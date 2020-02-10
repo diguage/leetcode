@@ -59,3 +59,11 @@ Return 0 if the string is already *balanced*.
 * `s `contains only `'Q'`, `'W'`, `'E'` and `'R'`.
 
 
+
+
+[[src-1234]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1234_ReplaceTheSubstringForBalancedString.java[]
+----
+

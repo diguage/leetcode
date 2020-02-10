@@ -43,3 +43,11 @@ image::https://assets.leetcode.com/uploads/2018/12/15/complete-binary-tree-2.png
 . The tree will have between 1 and 100 nodes.
 
 
+
+
+[[src-0958]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0958_CheckCompletenessOfABinaryTree.java[]
+----
+

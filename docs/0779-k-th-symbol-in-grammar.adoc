@@ -35,3 +35,11 @@ row 4: 01101001
 . `K` will be an integer in the range `[1, 2^(N-1)]`.
 
 
+
+
+[[src-0779]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0779_KThSymbolInGrammar.java[]
+----
+

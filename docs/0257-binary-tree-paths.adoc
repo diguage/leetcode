@@ -22,3 +22,11 @@ Given a binary tree, return all root-to-leaf paths.
 
 *Explanation:* All root-to-leaf paths are: 1->2->5, 1->3
 ----
+
+
+[[src-0257]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0257_BinaryTreePaths.java[]
+----
+

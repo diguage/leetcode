@@ -22,3 +22,10 @@ Given a string containing just the characters `'('` and `')'`, find the length o
 *Explanation:* The longest valid parentheses substring is `"()()"`
 ----
 
+
+[[src-0032]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0032_LongestValidParentheses.java[]
+----
+

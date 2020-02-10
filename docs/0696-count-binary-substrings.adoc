@@ -34,3 +34,11 @@ Also, "00110011" is not a valid substring because *all* the 0's (and 1's) are no
 . `s.length` will be between 1 and 50,000.</li>
 . `s` will only consist of "0" or "1" characters.</li>
 
+
+
+[[src-0696]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0696_CountBinarySubstrings.java[]
+----
+

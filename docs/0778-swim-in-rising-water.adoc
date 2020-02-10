@@ -46,3 +46,11 @@ We need to wait until time 16 so that (0, 0) and (4, 4) are connected.
 . grid[i][j] is a permutation of [0, ..., N*N - 1].
 
 
+
+
+[[src-0778]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0778_SwimInRisingWater.java[]
+----
+

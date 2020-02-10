@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/product-sales-analysis-i/[LeetCode - Product Sales Analysis I]
 
+
+
+[[src-1068]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1068_ProductSalesAnalysisI.java[]
+----
+

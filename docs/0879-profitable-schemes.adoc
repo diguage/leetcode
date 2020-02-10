@@ -54,3 +54,11 @@ There are 7 possible schemes: (0), (1), (2), (0,1), (0,2), (1,2), and (0,1,2).
  
 
 
+
+
+[[src-0879]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0879_ProfitableSchemes.java[]
+----
+

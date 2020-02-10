@@ -60,3 +60,11 @@ After typing mou, mous and mouse the system suggests ["mouse","mousepad"]
 * All characters of `searchWord` are lower-case English letters.
 
 
+
+
+[[src-1268]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1268_SearchSuggestionsSystem.java[]
+----
+

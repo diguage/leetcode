@@ -32,3 +32,11 @@ Other cases:
 . There is only one optimal division for each test case.
 
 
+
+
+[[src-0553]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0553_OptimalDivision.java[]
+----
+

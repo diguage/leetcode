@@ -27,3 +27,10 @@ Determine if you are able to reach the last index.
              jump length is 0, which makes it impossible to reach the last index.
 ----
 
+
+[[src-0055]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0055_JumpGame.java[]
+----
+

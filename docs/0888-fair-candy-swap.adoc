@@ -65,3 +65,11 @@ If there are multiple answers, you may return any one of them.  It is guaranteed
 
 
 
+
+
+[[src-0888]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0888_FairCandySwap.java[]
+----
+

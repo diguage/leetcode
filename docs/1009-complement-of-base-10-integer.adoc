@@ -53,3 +53,11 @@ For a given number `N` in base-10, return the complement of it's binary represen
 
 
 
+
+
+[[src-1009]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1009_ComplementOfBase10Integer.java[]
+----
+

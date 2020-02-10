@@ -64,3 +64,11 @@ We made 2 refueling stops along the way, so we return 2.
 
 
 
+
+
+[[src-0871]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0871_MinimumNumberOfRefuelingStops.java[]
+----
+

@@ -33,3 +33,11 @@ Given an array of integers, find out whether there are two distinct indices _i_ 
 
 
 
+
+
+[[src-0220]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0220_ContainsDuplicateIII.java[]
+----
+

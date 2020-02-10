@@ -53,3 +53,11 @@ Note that there could be allowed triples (A, B, C) and (A, B, D) with C != D.
 
  
 
+
+
+[[src-0756]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0756_PyramidTransitionMatrix.java[]
+----
+

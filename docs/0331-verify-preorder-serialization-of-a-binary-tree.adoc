@@ -46,3 +46,11 @@ You may assume that the input format is always valid, for example it could never
 *Input:* `"9,#,#,1"`
 *Output:* `false`
 ----
+
+
+[[src-0331]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0331_VerifyPreorderSerializationOfABinaryTree.java[]
+----
+

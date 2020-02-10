@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/[LeetCode - Binary Tree Longest Consecutive Sequence]
 
+
+
+[[src-0298]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0298_BinaryTreeLongestConsecutiveSequence.java[]
+----
+

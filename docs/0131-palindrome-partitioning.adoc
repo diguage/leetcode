@@ -18,3 +18,11 @@ Return all possible palindrome partitioning of _s_.
 ]
 ----
 
+
+
+[[src-0131]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0131_PalindromePartitioning.java[]
+----
+

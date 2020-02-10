@@ -21,3 +21,11 @@ Only two moves are needed (remember each move increments or decrements one eleme
 [1,2,3]  =>  [2,2,3]  =>  [2,2,2]
 ----
 
+
+
+[[src-0462]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0462_MinimumMovesToEqualArrayElementsII.java[]
+----
+

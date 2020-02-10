@@ -43,3 +43,11 @@ Two sequences are considered different if at least one element differs from each
 * `1 <= rollMax[i] <= 15`
 
 
+
+
+[[src-1223]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1223_DiceRollSimulation.java[]
+----
+

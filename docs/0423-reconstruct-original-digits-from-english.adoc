@@ -35,3 +35,11 @@ Input: "fviefuro"
 Output: "45"
 ----
 
+
+
+[[src-0423]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0423_ReconstructOriginalDigitsFromEnglish.java[]
+----
+

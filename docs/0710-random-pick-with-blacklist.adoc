@@ -58,3 +58,11 @@ Optimize it such that it minimizes the call to system&rsquo;s `Math.random()`.
 
 The input is two lists: the subroutines called and their arguments. `Solution`'s constructor has two arguments, `N` and the blacklist `B`. `pick` has no arguments. Arguments are always wrapped with a list, even if there aren't any.
 
+
+
+[[src-0710]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0710_RandomPickWithBlacklist.java[]
+----
+

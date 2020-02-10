@@ -32,3 +32,11 @@ Return 0 if the array contains less than 2 elements.
 * Try to solve it in linear time/space.
 
 
+
+
+[[src-0164]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0164_MaximumGap.java[]
+----
+

@@ -59,3 +59,11 @@ In total you spent $17 and covered all the days of your travel.
 * `1 <= costs[i] <= 1000`
 
 
+
+
+[[src-0983]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0983_MinimumCostForTickets.java[]
+----
+

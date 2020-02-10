@@ -59,3 +59,11 @@ Rows ordered from the weakest to the strongest are [0,2,3,1]
 * `1 <= k <= m`
 * `matrix[i][j]` is either 0 *or* 1.
 
+
+
+[[src-1337]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1337_TheKWeakestRowsInAMatrix.java[]
+----
+

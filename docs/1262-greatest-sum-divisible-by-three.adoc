@@ -45,3 +45,11 @@ Given an array `nums` of integers, we need to find the maximum possible sum of e
 * `1 <= nums[i] <= 10^4`
 
 
+
+
+[[src-1262]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1262_GreatestSumDivisibleByThree.java[]
+----
+

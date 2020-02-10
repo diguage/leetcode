@@ -31,3 +31,11 @@ The 4th course cannot be taken now, since you will finish it on the 3300th day, 
 
  
 
+
+
+[[src-0630]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0630_CourseScheduleIII.java[]
+----
+

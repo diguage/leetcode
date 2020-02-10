@@ -55,3 +55,11 @@ image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1-2.jpg[]
 * `0 <= start, destination < n`
 * `0 <= distance[i] <= 10^4`
 
+
+
+[[src-1184]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1184_DistanceBetweenBusStops.java[]
+----
+

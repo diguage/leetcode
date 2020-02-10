@@ -38,3 +38,11 @@ and that "hit" isn't the answer even though it occurs more because it is banned.
 * Words only consist of letters, never apostrophes or other punctuation symbols.
 
 
+
+
+[[src-0819]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0819_MostCommonWord.java[]
+----
+

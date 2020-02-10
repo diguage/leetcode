@@ -31,3 +31,11 @@ Given a set of pairs, find the length longest chain which can be formed. You nee
 . The number of given pairs will be in the range [1, 1000].
 
 
+
+
+[[src-0646]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0646_MaximumLengthOfPairChain.java[]
+----
+

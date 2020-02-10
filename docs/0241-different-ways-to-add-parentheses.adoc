@@ -29,3 +29,11 @@ Given a string of numbers and operators, return all possible results from comput
 (((2*3)-4)*5) = 10*
 *
 ----
+
+
+[[src-0241]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0241_DifferentWaysToAddParentheses.java[]
+----
+

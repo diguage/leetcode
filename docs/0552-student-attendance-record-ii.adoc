@@ -37,3 +37,11 @@ The value of *n* won't exceed 100,000.
 
 
 
+
+
+[[src-0552]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0552_StudentAttendanceRecordII.java[]
+----
+

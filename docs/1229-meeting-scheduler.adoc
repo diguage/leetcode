@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/meeting-scheduler/[LeetCode - Meeting Scheduler]
 
+
+
+[[src-1229]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1229_MeetingScheduler.java[]
+----
+

@@ -43,3 +43,11 @@ Given a *non-empty* array of integers, return the *third* maximum number in this
 Both numbers with value 2 are both considered as second maximum.
 ----
 
+
+
+[[src-0414]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0414_ThirdMaximumNumber.java[]
+----
+

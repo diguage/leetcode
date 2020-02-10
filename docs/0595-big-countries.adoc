@@ -35,3 +35,11 @@ For example, according to the above table, we should output:
 
  
 
+
+
+[[src-0595]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0595_BigCountries.java[]
+----
+

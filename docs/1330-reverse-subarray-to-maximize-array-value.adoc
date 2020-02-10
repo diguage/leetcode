@@ -33,3 +33,11 @@ Find maximum possible value of the final array.
 * `1 <= nums.length <= 3*10^4`
 * `-10^5 <= nums[i] <= 10^5`
 
+
+
+[[src-1330]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1330_ReverseSubarrayToMaximizeArrayValue.java[]
+----
+

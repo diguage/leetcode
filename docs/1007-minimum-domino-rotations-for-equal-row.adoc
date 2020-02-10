@@ -44,3 +44,11 @@ In this case, it is not possible to rotate the dominoes to make one row of value
 . `2 <= A.length == B.length <= 20000`
 
 
+
+
+[[src-1007]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1007_MinimumDominoRotationsForEqualRow.java[]
+----
+

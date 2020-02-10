@@ -60,3 +60,11 @@ However, in the report "[1,5,6]", the node value of 5 comes first since 5 is sma
  
 
 
+
+
+[[src-0987]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0987_VerticalOrderTraversalOfABinaryTree.java[]
+----
+

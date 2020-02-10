@@ -54,3 +54,11 @@ If no valid solution exists, return an empty 2-D array.
 * `0 <= colsum[i] <= 2`
 
 
+
+
+[[src-1253]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1253_ReconstructA2RowBinaryMatrix.java[]
+----
+

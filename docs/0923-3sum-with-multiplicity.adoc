@@ -45,3 +45,11 @@ and two 2s from [2,2,2,2] in 6 ways.
 . `0 <= A[i] <= 100`
 . `0 <= target <= 300`
 
+
+
+[[src-0923]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0923_3SumWithMultiplicity.java[]
+----
+

@@ -38,3 +38,11 @@ Return *any* permutation of `A` that maximizes its advantage with respect to `B`
 
 
 
+
+
+[[src-0870]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0870_AdvantageShuffle.java[]
+----
+

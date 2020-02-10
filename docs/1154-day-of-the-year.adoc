@@ -46,3 +46,11 @@ Given a string `date` representing a https://en.wikipedia.org/wiki/Gregorian_cal
 * `date[4] == date[7] == '-'`, and all other `date[i]`'s are digits
 * `date` represents a calendar date between Jan 1st, 1900 and Dec 31, 2019.
 
+
+
+[[src-1154]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1154_DayOfTheYear.java[]
+----
+

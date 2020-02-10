@@ -37,3 +37,11 @@ collection.remove(1);
 collection.getRandom();
 ----
 
+
+
+[[src-0381]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0381_InsertDeleteGetRandomO1DuplicatesAllowed.java[]
+----
+

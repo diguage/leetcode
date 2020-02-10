@@ -40,3 +40,11 @@ Given a *non-empty* string _s_ and a dictionary _wordDict_ containing a list of 
 *Output:* false
 ----
 
+
+
+[[src-0139]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0139_WordBreak.java[]
+----
+

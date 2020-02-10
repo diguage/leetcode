@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/toss-strange-coins/[LeetCode - Toss Strange Coins]
 
+
+
+[[src-1230]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1230_TossStrangeCoins.java[]
+----
+

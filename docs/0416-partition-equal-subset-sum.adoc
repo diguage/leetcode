@@ -82,3 +82,11 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 
  
 
+
+
+[[src-0416]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0416_PartitionEqualSubsetSum.java[]
+----
+

@@ -26,3 +26,11 @@ XRLXXRRLX
 . Both start and end will only consist of characters in `{'L', 'R', 'X'}`.
 
 
+
+
+[[src-0777]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0777_SwapAdjacentInLRString.java[]
+----
+

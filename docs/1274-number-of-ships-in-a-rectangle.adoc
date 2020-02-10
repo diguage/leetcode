@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/number-of-ships-in-a-rectangle/[LeetCode - Number of Ships in a Rectangle]
 
+
+
+[[src-1274]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1274_NumberOfShipsInARectangle.java[]
+----
+

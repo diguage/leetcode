@@ -23,3 +23,11 @@ Solution solution = new Solution(head);
 solution.getRandom();
 ----
 
+
+
+[[src-0382]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0382_LinkedListRandomNode.java[]
+----
+

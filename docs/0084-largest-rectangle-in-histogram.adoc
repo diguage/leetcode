@@ -28,3 +28,10 @@ image::https://assets.leetcode.com/uploads/2018/10/12/histogram_area.png[]
 *Output:* 10
 ----
 
+
+[[src-0084]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0084_LargestRectangleInHistogram.java[]
+----
+

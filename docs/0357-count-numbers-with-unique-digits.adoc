@@ -15,3 +15,11 @@ Given a *non-negative* integer n, count all numbers with unique digits, x, where
              excluding `11,22,33,44,55,66,77,88,99`
 ----
 
+
+
+[[src-0357]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0357_CountNumbersWithUniqueDigits.java[]
+----
+

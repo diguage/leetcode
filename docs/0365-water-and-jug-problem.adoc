@@ -29,3 +29,11 @@ Output: True
 Input: x = 2, y = 6, z = 5
 Output: False
 ----
+
+
+[[src-0365]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0365_WaterAndJugProblem.java[]
+----
+

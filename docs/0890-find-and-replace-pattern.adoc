@@ -36,3 +36,11 @@ since a and b map to the same letter.
 
 
 
+
+
+[[src-0890]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0890_FindAndReplacePattern.java[]
+----
+

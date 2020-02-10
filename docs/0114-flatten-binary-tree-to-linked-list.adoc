@@ -69,3 +69,10 @@ The flattened tree should look like:
           6
 ----
 
+
+[[src-0114]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList.java[]
+----
+

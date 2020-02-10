@@ -34,3 +34,11 @@ Find the *k*th largest element in an unsorted array. Note that it is the kth lar
 
 You may assume k is always valid, 1 ≤ k ≤ array's length.
 
+
+
+[[src-0215]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0215_KthLargestElementInAnArray.java[]
+----
+

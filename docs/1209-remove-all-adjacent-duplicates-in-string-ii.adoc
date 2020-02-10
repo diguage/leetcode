@@ -50,3 +50,11 @@ Finally delete "ddd", get "aa"
 * `s` only contains lower case English letters.
 
 
+
+
+[[src-1209]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1209_RemoveAllAdjacentDuplicatesInStringII.java[]
+----
+

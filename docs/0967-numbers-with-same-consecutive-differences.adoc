@@ -38,3 +38,11 @@ You may return the answer in any order.
 . `0 <= K <= 9`
 
 
+
+
+[[src-0967]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0967_NumbersWithSameConsecutiveDifferences.java[]
+----
+

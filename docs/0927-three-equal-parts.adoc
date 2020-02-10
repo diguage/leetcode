@@ -49,3 +49,11 @@ Note that the entire part is used when considering what binary value it represen
 
  
 
+
+
+[[src-0927]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0927_ThreeEqualParts.java[]
+----
+

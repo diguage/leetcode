@@ -42,3 +42,11 @@ After doing so, return the head of the final linked list.  You may return any su
 * Each node in the linked list has `-1000 <= node.val <= 1000`.
 
 
+
+
+[[src-1171]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1171_RemoveZeroSumConsecutiveNodesFromLinkedList.java[]
+----
+

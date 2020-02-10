@@ -39,3 +39,11 @@ Given _n_ points on a 2D plane, find the maximum number of points that lie on th
 
 *NOTE:* input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
 
+
+
+[[src-0149]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0149_MaxPointsOnALine.java[]
+----
+

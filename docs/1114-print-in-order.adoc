@@ -43,3 +43,11 @@ The same instance of `Foo` will be passed to three different threads. Thread A w
 
 We do not know how the threads will be scheduled in the operating system, even though the numbers in the input seems to imply the ordering. The input format you see is mainly to ensure our tests' comprehensiveness.
 
+
+
+[[src-1114]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1114_PrintInOrder.java[]
+----
+

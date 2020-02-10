@@ -35,3 +35,11 @@ Now, given string arrays `queries` and `words`, return an integer array `answer`
 * `queries[i][j]`, `words[i][j]` are English lowercase letters.
 
 
+
+
+[[src-1170]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1170_CompareStringsByFrequencyOfTheSmallestCharacter.java[]
+----
+

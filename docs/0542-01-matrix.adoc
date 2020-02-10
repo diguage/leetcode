@@ -48,3 +48,11 @@ The distance between two adjacent cells is 1.
 . The cells are adjacent in only four directions: up, down, left and right.
 
 
+
+
+[[src-0542]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0542_01Matrix.java[]
+----
+

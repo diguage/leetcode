@@ -26,3 +26,11 @@ For example, given the above Employee table, the _n_^th^ highest salary where _n
 +------------------------+
 ----
 
+
+
+[[src-0177]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0177_NthHighestSalary.java[]
+----
+

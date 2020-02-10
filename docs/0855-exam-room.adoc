@@ -36,3 +36,11 @@ seat() -> 5, the student sits at the last seat number 5.
 . Calls to `ExamRoom.leave(p)` are guaranteed to have a student currently sitting in seat number `p`.
 
 
+
+
+[[src-0855]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0855_ExamRoom.java[]
+----
+

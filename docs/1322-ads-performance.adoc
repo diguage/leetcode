@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/ads-performance/[LeetCode - Ads Performance]
 
+
+
+[[src-1322]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1322_AdsPerformance.java[]
+----
+

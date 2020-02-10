@@ -34,3 +34,11 @@ return its minimum depth = 2.
 === 参考资料
 
 . https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/solution/er-cha-shu-de-zui-xiao-shen-du-by-leetcode/[二叉树的最小深度 - 二叉树的最小深度 - 力扣（LeetCode）]
+
+
+[[src-0111]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0111_MinimumDepthOfBinaryTree.java[]
+----
+

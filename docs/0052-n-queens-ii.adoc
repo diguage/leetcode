@@ -56,3 +56,10 @@ Given an integer _n_, return the number of distinct solutions to the _n_-queens 
 ]
 ----
 
+
+[[src-0052]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0052_NQueensII.java[]
+----
+

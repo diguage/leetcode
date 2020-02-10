@@ -18,3 +18,11 @@ Calling *`hasNext()`* after that should return *false*.
 
 *Follow up*: How would you extend your design to be generic and work with all types, not just integer?
 
+
+
+[[src-0284]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0284_PeekingIterator.java[]
+----
+

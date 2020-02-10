@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/graph-valid-tree/[LeetCode - Graph Valid Tree]
 
+
+
+[[src-0261]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0261_GraphValidTree.java[]
+----
+

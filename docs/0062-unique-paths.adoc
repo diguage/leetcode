@@ -37,3 +37,10 @@ From the top-left corner, there are a total of 3 ways to reach the bottom-right 
 *Output:* 28
 ----
 
+
+[[src-0062]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0062_UniquePaths.java[]
+----
+

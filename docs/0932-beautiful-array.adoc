@@ -39,3 +39,11 @@ Given `N`, return *any* beautiful array `A`.  (It is guaranteed that one exists.
 
  
 
+
+
+[[src-0932]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0932_BeautifulArray.java[]
+----
+

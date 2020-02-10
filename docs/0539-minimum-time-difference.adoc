@@ -20,3 +20,11 @@ Given a list of 24-hour clock time points in "Hour:Minutes" format, find the min
 . The input time is legal and ranges from 00:00 to 23:59.
 
 
+
+
+[[src-0539]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0539_MinimumTimeDifference.java[]
+----
+

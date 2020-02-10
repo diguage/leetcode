@@ -51,3 +51,11 @@ Given an array `A` of positive integers (not necessarily distinct), return the l
 . `1 <= A[i] <= 10000`
 
 
+
+
+[[src-1053]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1053_PreviousPermutationWithOneSwap.java[]
+----
+

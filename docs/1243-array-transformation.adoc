@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/array-transformation/[LeetCode - Array Transformation]
 
+
+
+[[src-1243]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1243_ArrayTransformation.java[]
+----
+

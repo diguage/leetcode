@@ -35,3 +35,11 @@ s = "abpcplea", d = ["a","b","c"]
 . The length of all the strings in the input won't exceed 1,000.
 
 
+
+
+[[src-0524]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0524_LongestWordInDictionaryThroughDeleting.java[]
+----
+

@@ -30,3 +30,11 @@ For the point (1,1): floor(8/9) = floor(0.88888889) = 0
 . The length and width of the given matrix are in the range of [1, 150].
 
 
+
+
+[[src-0661]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0661_ImageSmoother.java[]
+----
+

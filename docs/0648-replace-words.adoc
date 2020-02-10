@@ -31,3 +31,11 @@ sentence = "the cattle was rattled by the battery"
 
  
 
+
+
+[[src-0648]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0648_ReplaceWords.java[]
+----
+

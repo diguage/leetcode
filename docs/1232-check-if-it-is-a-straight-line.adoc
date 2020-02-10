@@ -37,3 +37,11 @@ image::https://assets.leetcode.com/uploads/2019/10/09/untitled-diagram-1.jpg[]
 * `coordinates` contains no duplicate point.
 
 
+
+
+[[src-1232]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1232_CheckIfItIsAStraightLine.java[]
+----
+

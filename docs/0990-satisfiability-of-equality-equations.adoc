@@ -75,3 +75,11 @@ Return `true` if and only if it is possible to assign integers to variable names
 
 
 
+
+
+[[src-0990]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0990_SatisfiabilityOfEqualityEquations.java[]
+----
+

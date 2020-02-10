@@ -42,3 +42,11 @@ Notes:
 
  
 
+
+
+[[src-0833]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0833_FindAndReplaceInString.java[]
+----
+

@@ -99,3 +99,10 @@ for (int i = 0; i < len; i++) {
 
 ----
 
+
+[[src-0080]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0080_RemoveDuplicatesFromSortedArrayII.java[]
+----
+

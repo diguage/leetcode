@@ -31,3 +31,11 @@ Given two (axis-aligned) rectangles, return whether they overlap.
 . All coordinates in rectangles will be between `-10^9 `and` 10^9`.
 
 
+
+
+[[src-0836]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0836_RectangleOverlap.java[]
+----
+

@@ -73,3 +73,11 @@ If we started at the first tree or the eighth tree, we would only collect 4 frui
 . `0 <= tree[i] < tree.length`
 
 
+
+
+[[src-0904]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0904_FruitIntoBaskets.java[]
+----
+

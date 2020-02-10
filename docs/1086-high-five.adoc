@@ -2,3 +2,11 @@
 
 https://leetcode.com/problems/high-five/[LeetCode - High Five]
 
+
+
+[[src-1086]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1086_HighFive.java[]
+----
+

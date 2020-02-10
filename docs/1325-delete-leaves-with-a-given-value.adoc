@@ -64,3 +64,11 @@ image::https://assets.leetcode.com/uploads/2020/01/15/sample_3_1684.png[]
 * Each tree has at most `3000` nodes.
 * Each node's value is between `[1, 1000]`.
 
+
+
+[[src-1325]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_1325_DeleteLeavesWithAGivenValue.java[]
+----
+

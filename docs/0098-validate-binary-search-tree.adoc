@@ -47,3 +47,10 @@ Assume a BST is defined as follows:
 *Explanation:* The root node's value is 5 but its right child's value is 4.
 ----
 
+
+[[src-0098]]
+[source,{java_source_attr}]
+----
+include::{sourcedir}/_0098_ValidateBinarySearchTree.java[]
+----
+
