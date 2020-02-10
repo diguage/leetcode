@@ -256,11 +256,11 @@
 |{doc_base_url}/0041-first-missing-positive.adoc[Note]
 |Hard
 
-//|42
-//|{leetcode_base_url}/trapping-rain-water/[Trapping Rain Water]
-//|{source_base_url}/_0042_TrappingRainWater.java[Java]
-//|{doc_base_url}/0042-trapping-rain-water.adoc[Note]
-//|Hard
+|42
+|{leetcode_base_url}/trapping-rain-water/[Trapping Rain Water]
+|{source_base_url}/_0042_TrappingRainWater.java[Java]
+|{doc_base_url}/0042-trapping-rain-water.adoc[Note]
+|Hard
 
 |43
 |{leetcode_base_url}/multiply-strings/[Multiply Strings]
