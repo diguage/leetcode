@@ -39,7 +39,7 @@ Given a *N*N* matrix *M* representing the friend relationship between students i
 
 
 
-*Note:*<br>
+*Note:*
 
 . N is in range [1,200].
 . M[i][i] = 1 for all students.

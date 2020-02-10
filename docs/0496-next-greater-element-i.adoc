@@ -38,7 +38,7 @@ The Next Greater Number of a number *x* in `nums1` is the first greater number t
 
 
 
-*Note:*<br>
+*Note:*
 
 . All elements in `nums1` and `nums2` are unique.
 . The length of both `nums1` and `nums2` would not exceed 1000.

@@ -14,7 +14,8 @@ Given a non-negative integer _n_ which represents the number of LEDs that are cu
 *Example:*
 [subs="verbatim,quotes,macros"]
 ----
-Input: n = 1<br>Return: ["1:00", "2:00", "4:00", "8:00", "0:01", "0:02", "0:04", "0:08", "0:16", "0:32"]
+Input: n = 1
+Return: ["1:00", "2:00", "4:00", "8:00", "0:01", "0:02", "0:04", "0:08", "0:16", "0:32"]
 ----
 
 

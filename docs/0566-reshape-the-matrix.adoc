@@ -27,7 +27,8 @@ nums =
 r = 1, c = 4
 *Output:* 
 [[1,2,3,4]]
-*Explanation:*<br>The *row-traversing* of nums is [1,2,3,4]. The new reshaped matrix is a 1 * 4 matrix, fill it row by row by using the previous list.
+*Explanation:*
+The *row-traversing* of nums is [1,2,3,4]. The new reshaped matrix is a 1 * 4 matrix, fill it row by row by using the previous list.
 ----
 
 
@@ -44,11 +45,12 @@ r = 2, c = 4
 *Output:* 
 [[1,2],
  [3,4]]
-*Explanation:*<br>There is no way to reshape a 2 * 2 matrix to a 2 * 4 matrix. So output the original matrix.
+*Explanation:*
+There is no way to reshape a 2 * 2 matrix to a 2 * 4 matrix. So output the original matrix.
 ----
 
 
-*Note:*<br>
+*Note:*
 
 . The height and width of the given matrix is in range [1, 100].
 . The given r and c are all positive.

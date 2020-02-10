@@ -29,7 +29,7 @@ Your answer should be sorted by frequency from highest to lowest. If two words h
 ----
 
 
-*Note:*<br>
+*Note:*
 
 . You may assume _k_ is always valid, 1 ≤ _k_ ≤ number of unique elements.
 . Input words contain only lowercase letters.

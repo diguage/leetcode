@@ -44,7 +44,7 @@ Given a string representing an expression of fraction addition and subtraction, 
 ----
 
 
-*Note:*<br>
+*Note:*
 
 . The input string only contains `'0'` to `'9'`, `'/'`, `'+'` and `'-'`. So does the output.
 . Each fraction (input and output) has format `±numerator/denominator`. If the first input fraction or the output is positive, then `'+'` will be omitted.

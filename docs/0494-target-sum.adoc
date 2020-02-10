@@ -68,7 +68,7 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 ----
 
 
-*Note:*<br>
+*Note:*
 
 . The length of the given array is positive and will not exceed 20. 
 . The sum of elements in the given array will not exceed 1000.

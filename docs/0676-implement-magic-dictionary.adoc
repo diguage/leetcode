@@ -27,7 +27,7 @@ Input: search("leetcoded"), Output: False
 ----
 
 
-*Note:*<br>
+*Note:*
 
 . You may assume that all the inputs are consist of lowercase letters `a-z`.
 . For contest purpose, the test data is rather small by now. You could think about highly efficient algorithm after the contest.

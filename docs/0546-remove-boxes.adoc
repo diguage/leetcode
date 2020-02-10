@@ -11,7 +11,7 @@ You may experience several rounds to remove boxes until there is no box left. Ea
 Find the maximum points you can get.
 
 
-*Example 1:*<br>
+*Example 1:*
 Input: 
 [subs="verbatim,quotes,macros"]
 ----

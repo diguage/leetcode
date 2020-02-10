@@ -21,7 +21,7 @@ Given an array `nums` representing the data status of this set after the error. 
 ----
 
 
-*Note:*<br>
+*Note:*
 
 . The given array size will in the range [2, 10000].
 . The given array's numbers won't have any order.

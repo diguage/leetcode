@@ -37,7 +37,7 @@ We return the one that occurred first.
 ----
 
 
-*Note:*<br>
+*Note:*
 
 . `licensePlate` will be a string with length in range `[1, 7]`.
 . `licensePlate` will contain digits, spaces, or letters (uppercase or lowercase).

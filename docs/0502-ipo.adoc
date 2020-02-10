@@ -31,7 +31,7 @@ To sum up, pick a list of at most *k* distinct projects from given projects to m
 ----
 
 
-*Note:*<br>
+*Note:*
 
 . You may assume all numbers in the input are non-negative integers.
 . The length of Profits array and Capital array will not exceed 50,000.

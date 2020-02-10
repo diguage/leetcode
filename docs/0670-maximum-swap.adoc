@@ -29,7 +29,7 @@ Given a non-negative integer, you could swap two digits *at most* once to get th
 
 
 
-*Note:*<br>
+*Note:*
 
 . The given number is in the range [0, 10^8^]
 

@@ -25,10 +25,10 @@ Given a string representing a code snippet, you need to implement a tag validato
 *Output:* True
 
 
-*Explanation:* <br>
-The code is wrapped in a closed tag : <DIV> and </DIV>. <br>
-The TAG_NAME is valid, the TAG_CONTENT consists of some characters and cdata. <br>
-Although CDATA_CONTENT has unmatched start tag with invalid TAG_NAME, it should be considered as plain text, not parsed as tag.<br>
+*Explanation:* 
+The code is wrapped in a closed tag : <DIV> and </DIV>. 
+The TAG_NAME is valid, the TAG_CONTENT consists of some characters and cdata. 
+Although CDATA_CONTENT has unmatched start tag with invalid TAG_NAME, it should be considered as plain text, not parsed as tag.
 So TAG_CONTENT is valid, and then the code is valid. Thus return true.
 
 
@@ -95,7 +95,7 @@ The reason why cdata is NOT *"<![CDATA[<div>]>]]>]]>"* is because of the rule 7.
 ----
 
 
-*Note:*<br>
+*Note:*
 
 . For simplicity, you could assume the input code (including the *any characters* mentioned above) only contain `letters`, `digits`, `'<'`,`'>'`,`'/'`,`'!'`,`'['`,`']'` and `' '`.
 

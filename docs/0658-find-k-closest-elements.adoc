@@ -28,7 +28,7 @@ If there is a tie,  the smaller elements are always preferred.
 ----
 
 
-*Note:*<br>
+*Note:*
 
 . The value k is positive and will always be smaller than the length of the sorted array.
 .  Length of the given array is positive and will not exceed 10^4^

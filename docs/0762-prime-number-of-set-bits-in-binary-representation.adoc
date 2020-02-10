@@ -36,7 +36,7 @@ Given two integers `L` and `R`, find the count of numbers in the range `[L, R]` 
 15 -> 1111 (4 set bits, 4 is not prime)
 ----
 
-*Note:*<br>
+*Note:*
 . `L, R` will be integers `L <= R` in the range `[1, 10^6]`.
 . `R - L` will be at most 10000.
 

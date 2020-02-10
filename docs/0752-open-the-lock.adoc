@@ -60,7 +60,7 @@ We can't reach the target without getting stuck.
 ----
 
 
-*Note:*<br>
+*Note:*
 
 . The length of `deadends` will be in the range `[1, 500]`.
 . `target` will not be in the list `deadends`.

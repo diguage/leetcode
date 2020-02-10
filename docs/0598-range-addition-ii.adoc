@@ -35,7 +35,7 @@ So the maximum integer in M is 2, and there are four of it in M. So return 4.
 ----
 
 
-*Note:*<br>
+*Note:*
 
 . The range of m and n is [1,40000].
 . The range of a is [1,m], and the range of b is [1,n].

@@ -37,7 +37,7 @@ You need to help them find out their *common interest* with the *least list inde
 
 
 
-*Note:*<br>
+*Note:*
 
 . The length of both lists will be in the range of [1, 1000].
 . The length of strings in both lists will be in the range of [1, 30].
