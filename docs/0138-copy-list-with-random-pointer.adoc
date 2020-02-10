@@ -2,22 +2,6 @@
 
 https://leetcode.com/problems/copy-list-with-random-pointer/[LeetCode - Copy List with Random Pointer]
 
-video::OvpKeraoxW0[youtube]
-
-image::images/0138-copy-list-with-random-pointer.jpg[]
-
-这个解法非常精妙！
-
-使用 `Map` 的解法也好巧妙啊！
-
-image::images/0138-copy-list-with-random-pointer-example-1.png[]
-
-image::images/0138-copy-list-with-random-pointer-example-2.png[]
-
-image::images/0138-copy-list-with-random-pointer-example-3.png[]
-
-
-
 A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
 
 Return a https://en.wikipedia.org/wiki/Object_copying#Deep_copy[*deep copy*] of the list.
@@ -28,11 +12,9 @@ The Linked List is represented in the input/output as a list of `n` nodes. Each 
 * `val`: an integer representing `Node.val`
 * `random_index`: the index of the node (range from `0` to `n-1`) where random pointer points to, or `null` if it does not point to any node.
 
-
- 
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/12/18/e1.png[]
+image::images/0138-copy-list-with-random-pointer-example-1.png[]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -42,7 +24,7 @@ image::https://assets.leetcode.com/uploads/2019/12/18/e1.png[]
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/12/18/e2.png[]
+image::images/0138-copy-list-with-random-pointer-example-2.png[]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -52,7 +34,7 @@ image::https://assets.leetcode.com/uploads/2019/12/18/e2.png[]
 
 *Example 3:*
 
-*image::https://assets.leetcode.com/uploads/2019/12/18/e3.png[]*
+image::images/0138-copy-list-with-random-pointer-example-3.png[]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -69,16 +51,23 @@ image::https://assets.leetcode.com/uploads/2019/12/18/e2.png[]
 *Explanation:* Given linked list is empty (null pointer), so return null.
 ----
 
- 
 *Constraints:*
-
 
 * `-10000 <= Node.val <= 10000`
 * `Node.random` is null or pointing to a node in the linked list.
 * Number of Nodes will not exceed 1000.
 
+=== 解题分析
 
+这道题可以使用类似 xref:133. Clone Graph[133. Clone Graph] 的解法来求解。
 
+video::OvpKeraoxW0[youtube]
+
+image::images/0138-copy-list-with-random-pointer.jpg[]
+
+这个解法非常精妙！
+
+使用 `Map` 的解法也好巧妙啊！
 
 [[src-0138]]
 [source,{java_source_attr}]

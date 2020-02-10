@@ -801,12 +801,12 @@
 //|{source_base_url}/_0132_PalindromePartitioningII.java[Java]
 //|{doc_base_url}/0132-palindrome-partitioning-ii.adoc[Note]
 //|Hard
-//
-//|133
-//|{leetcode_base_url}/clone-graph/[Clone Graph]
-//|{source_base_url}/_0133_CloneGraph.java[Java]
-//|{doc_base_url}/0133-clone-graph.adoc[Note]
-//|Medium
+
+|133
+|{leetcode_base_url}/clone-graph/[Clone Graph]
+|{source_base_url}/_0133_CloneGraph.java[Java]
+|{doc_base_url}/0133-clone-graph.adoc[Note]
+|Medium
 
 |134
 |{leetcode_base_url}/gas-station/[Gas Station]

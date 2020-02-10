@@ -16,8 +16,6 @@ class Node {
 }
 ----
 
- 
-
 *Test case format:*
 
 For simplicity sake, each node's value is the same as the node's index (1-indexed). For example, the first node with `val = 1`, the second node with `val = 2`, and so on. The graph is represented in the test case using an adjacency list.
@@ -29,7 +27,7 @@ The given node will always be the first node with `val = 1`. You must return the
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/11/04/133_clone_graph_question.png[]
+image::images/0133-1-clone_graph_question.png[]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -44,7 +42,7 @@ image::https://assets.leetcode.com/uploads/2019/11/04/133_clone_graph_question.p
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2020/01/07/graph.png[]
+image::images/0133-2-graph.png[]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -64,7 +62,7 @@ image::https://assets.leetcode.com/uploads/2020/01/07/graph.png[]
 
 *Example 4:*
 
-image::https://assets.leetcode.com/uploads/2020/01/07/graph-1.png[]
+image::images/0133-3-graph.png[]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -72,9 +70,7 @@ image::https://assets.leetcode.com/uploads/2020/01/07/graph-1.png[]
 *Output:* [[2],[1]]
 ----
 
- 
 *Constraints:*
-
 
 * `1 <= Node.val <= 100`
 * `Node.val` is unique for each node.
@@ -82,8 +78,9 @@ image::https://assets.leetcode.com/uploads/2020/01/07/graph-1.png[]
 * There is no repeated edges and no self-loops in the graph.
 * The Graph is connected and all nodes can be visited starting from the given node.
 
+=== 解题分析
 
-
+这道题可以使用类似 xref:0138-copy-list-with-random-pointer.adoc[138. Copy List with Random Pointer] 的解法来求解。
 
 [[src-0133]]
 [source,{java_source_attr}]
