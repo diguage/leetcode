@@ -8,7 +8,9 @@ Return _the number of cells with odd values_ in the matrix after applying the in
 
  
 *Example 1:*
-<img alt="" src="https://assets.leetcode.com/uploads/2019/10/30/e1.png" style="width: 600px; height: 118px;" />
+
+image::https://assets.leetcode.com/uploads/2019/10/30/e1.png[]
+
 [subs="verbatim,quotes"]
 ----
 *Input:* n = 2, m = 3, indices = [[0,1],[1,1]]
@@ -19,7 +21,9 @@ The final matrix will be [[1,3,1],[1,3,1]] which contains 6 odd numbers.
 ----
 
 *Example 2:*
-<img alt="" src="https://assets.leetcode.com/uploads/2019/10/30/e2.png" style="width: 600px; height: 150px;" />
+
+image::https://assets.leetcode.com/uploads/2019/10/30/e2.png[]
+
 [subs="verbatim,quotes"]
 ----
 *Input:* n = 2, m = 2, indices = [[1,1],[0,0]]

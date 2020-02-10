@@ -4,9 +4,9 @@ https://leetcode.com/problems/snakes-and-ladders/[LeetCode - Snakes and Ladders]
 
 On an N x N `board`, the numbers from `1` to `N*N` are written _boustrophedonically_ *starting from the bottom left of the board*, and alternating direction each row.  For example, for a 6 x 6 board, the numbers are written as follows:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
-<img alt="" src="https://assets.leetcode.com/uploads/2018/09/23/snakes.png" style="width: 254px; height: 200px;" />
+image::https://assets.leetcode.com/uploads/2018/09/23/snakes.png[]
 ----
 
 You start on square `1` of the board (which is always in the last row and first column).  Each move, starting from square `x`, consists of the following:

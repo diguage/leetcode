@@ -19,7 +19,7 @@ You may return the final list of trees in any order.
 *Input: *<span id="example-input-1-1">7
 *Output: *<span id="example-output-1">[[0,0,0,null,null,0,0,null,null,0,0],[0,0,0,null,null,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,null,null,null,null,0,0],[0,0,0,0,0,null,null,0,0]]
 *Explanation:*
-<img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/22/fivetrees.png" style="width: 700px; height: 400px;" />
+image::https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/22/fivetrees.png[]
 ----
 
  

@@ -15,14 +15,16 @@ image::images/0160-4.png[]
 Write a program to find the node at which the intersection of two singly linked lists begins.
 
 For example, the following two linked lists:
-<a href="https://assets.leetcode.com/uploads/2018/12/13/160_statement.png" target="_blank"><img alt="" src="https://assets.leetcode.com/uploads/2018/12/13/160_statement.png" style="margin-top: 10px; margin-bottom: 10px; width: 400px; height: 130px;" /></a>
+
+image::https://assets.leetcode.com/uploads/2018/12/13/160_statement.png[]
 
 begin to intersect at node c1.
 
  
 
 *Example 1:*
-<a href="https://assets.leetcode.com/uploads/2018/12/13/160_example_1.png" target="_blank"><img alt="" src="https://assets.leetcode.com/uploads/2018/12/13/160_example_1.png" style="margin-top: 10px; margin-bottom: 10px; width: 400px; height: 130px;" /></a>
+
+image::https://assets.leetcode.com/uploads/2018/12/13/160_example_1.png[]
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +36,8 @@ begin to intersect at node c1.
  
 
 *Example 2:*
-<a href="https://assets.leetcode.com/uploads/2018/12/13/160_example_2.png" target="_blank"><img alt="" src="https://assets.leetcode.com/uploads/2018/12/13/160_example_2.png" style="margin-top: 10px; margin-bottom: 10px; width: 350px; height: 136px;" /></a>
+
+image::https://assets.leetcode.com/uploads/2018/12/13/160_example_2.png[]
 
 [subs="verbatim,quotes"]
 ----
@@ -47,7 +50,8 @@ begin to intersect at node c1.
  
 
 *Example 3:*
-<a href="https://assets.leetcode.com/uploads/2018/12/13/160_example_3.png" target="_blank"><img alt="" src="https://assets.leetcode.com/uploads/2018/12/13/160_example_3.png" style="margin-top: 10px; margin-bottom: 10px; width: 200px; height: 126px;" /></a>
+
+image::https://assets.leetcode.com/uploads/2018/12/13/160_example_3.png[]
 
 [subs="verbatim,quotes"]
 ----

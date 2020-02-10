@@ -6,7 +6,7 @@ On an alphabet board, we start at position `(0, 0)`, corresponding to character 
 
 Here, `board = ["abcde", "fghij", "klmno", "pqrst", "uvwxy", "z"]`, as shown in the diagram below.
 
-<img alt="" src="https://assets.leetcode.com/uploads/2019/07/28/azboard.png" style="width: 250px; height: 317px;" />
+image::https://assets.leetcode.com/uploads/2019/07/28/azboard.png[]
 
 We may make the following moves:
 

@@ -6,14 +6,14 @@ Given _n_ non-negative integers representing the histogram's bar height where th
 
  
 
-<img src="https://assets.leetcode.com/uploads/2018/10/12/histogram.png" style="width: 188px; height: 204px;" />
+image::https://assets.leetcode.com/uploads/2018/10/12/histogram.png[]
 
 
 [.small]#Above is a histogram where width of each bar is 1, given height = `[2,1,5,6,2,3]`.#
 
  
 
-<img src="https://assets.leetcode.com/uploads/2018/10/12/histogram_area.png" style="width: 188px; height: 204px;" />
+image::https://assets.leetcode.com/uploads/2018/10/12/histogram_area.png[]
 
 
 [.small]#The largest rectangle is shown in the shaded area, which has area = `10` unit.#

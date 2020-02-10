@@ -17,7 +17,8 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 According to the https://en.wikipedia.org/wiki/Lowest_common_ancestor[definition of LCA on Wikipedia]: &ldquo;The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow *a node to be a descendant of itself*).&rdquo;
 
 Given the following binary tree:  root = [3,5,1,6,2,0,8,null,null,7,4]
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/14/binarytree.png" style="width: 200px; height: 190px;" />
+
+image::https://assets.leetcode.com/uploads/2018/12/14/binarytree.png[]
  
 
 *Example 1:*

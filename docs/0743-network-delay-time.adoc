@@ -12,7 +12,7 @@ Now, we send a signal from a certain node `K`. How long will it take for all nod
 
 *Example 1:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2019/05/23/931_example_1.png" style="width: 200px; height: 220px;" />
+image::https://assets.leetcode.com/uploads/2019/05/23/931_example_1.png[]
 
 [subs="verbatim,quotes"]
 ----

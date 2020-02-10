@@ -7,7 +7,7 @@ Given a rectangle of size `n` x `<font face="monospace">m`, find the minimum num
  
 *Example 1:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2019/10/17/sample_11_1592.png" style="width: 154px; height: 106px;" />
+image::https://assets.leetcode.com/uploads/2019/10/17/sample_11_1592.png[]
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Given a rectangle of size `n` x `<font face="monospace">m`, find the minimum num
 
 *Example 2:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2019/10/17/sample_22_1592.png" style="width: 224px; height: 126px;" />
+image::https://assets.leetcode.com/uploads/2019/10/17/sample_22_1592.png[]
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Given a rectangle of size `n` x `<font face="monospace">m`, find the minimum num
 
 *Example 3:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2019/10/17/sample_33_1592.png" style="width: 224px; height: 189px;" />
+image::https://assets.leetcode.com/uploads/2019/10/17/sample_33_1592.png[]
 
 [subs="verbatim,quotes"]
 ----

@@ -17,7 +17,7 @@ At the stage of rotating the ring to spell the key character *key[i]*:
 
 *Example:*
 
-<center><img src="https://assets.leetcode.com/uploads/2018/10/22/ring.jpg" style="width: 26%;" /></center>
+image::https://assets.leetcode.com/uploads/2018/10/22/ring.jpg[]
  
 
 [subs="verbatim,quotes"]

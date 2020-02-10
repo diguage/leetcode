@@ -8,7 +8,9 @@ Return the _decimal value_ of the number in the linked list.
 
  
 *Example 1:*
-<img alt="" src="https://assets.leetcode.com/uploads/2019/12/05/graph-1.png" style="width: 426px; height: 108px;" />
+
+image::https://assets.leetcode.com/uploads/2019/12/05/graph-1.png[]
+
 [subs="verbatim,quotes"]
 ----
 *Input:* head = [1,0,1]

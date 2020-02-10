@@ -6,7 +6,9 @@ Given a `m x n` matrix `mat` and an integer `threshold`. Return the maximum side
 
  
 *Example 1:*
-<img alt="" src="https://assets.leetcode.com/uploads/2019/12/05/e1.png" style="width: 335px; height: 186px;" />
+
+image::https://assets.leetcode.com/uploads/2019/12/05/e1.png[]
+
 [subs="verbatim,quotes"]
 ----
 *Input:* mat = [[1,1,3,2,4,3,2],[1,1,3,2,4,3,2],[1,1,3,2,4,3,2]], threshold = 4

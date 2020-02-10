@@ -32,7 +32,7 @@ Explanation: There are two distinct solutions to the 4-queens puzzle as shown be
 
 The _n_-queens puzzle is the problem of placing _n_ queens on an _n_&times;_n_ chessboard such that no two queens attack each other.
 
-<img src="https://assets.leetcode.com/uploads/2018/10/12/8-queens.png" style="width: 258px; height: 276px;" />
+image::https://assets.leetcode.com/uploads/2018/10/12/8-queens.png[]
 
 Given an integer _n_, return the number of distinct solutions to the _n_-queens puzzle.
 

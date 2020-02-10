@@ -15,7 +15,7 @@ Recursive solution is trivial, could you do it iteratively?
  
 *Example 1:*
 
-<img src="https://assets.leetcode.com/uploads/2018/10/12/narytreeexample.png" style="width: 100%; max-width: 300px;" />
+image::https://assets.leetcode.com/uploads/2018/10/12/narytreeexample.png[]
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Recursive solution is trivial, could you do it iteratively?
 
 *Example 2:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2019/11/08/sample_4_964.png" style="width: 296px; height: 241px;" />
+image::https://assets.leetcode.com/uploads/2019/11/08/sample_4_964.png[]
 
 [subs="verbatim,quotes"]
 ----

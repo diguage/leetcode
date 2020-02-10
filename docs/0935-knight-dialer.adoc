@@ -4,7 +4,7 @@ https://leetcode.com/problems/knight-dialer/[LeetCode - Knight Dialer]
 
 A chess knight can move as indicated in the chess diagram below:
 
-<img alt="" src="https://assets.leetcode.com/uploads/2018/10/12/knight.png" style="width: 150px; height: 150px;" /> .           <img alt="" src="https://assets.leetcode.com/uploads/2018/10/30/keypad.png" style="width: 134px; height: 150px;" />
+image::https://assets.leetcode.com/uploads/2018/10/12/knight.png[] .           image::https://assets.leetcode.com/uploads/2018/10/30/keypad.png[]
 
  
 

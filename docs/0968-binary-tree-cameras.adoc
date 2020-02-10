@@ -11,7 +11,8 @@ Calculate the minimum number of cameras needed to monitor all nodes of the tree.
  
 
 *Example 1:*
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/29/bst_cameras_01.png" style="width: 138px; height: 163px;" />
+
+image::https://assets.leetcode.com/uploads/2018/12/29/bst_cameras_01.png[]
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +23,9 @@ Calculate the minimum number of cameras needed to monitor all nodes of the tree.
 
 
 *Example 2:*
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/29/bst_cameras_02.png" style="width: 139px; height: 312px;" />
+
+image::https://assets.leetcode.com/uploads/2018/12/29/bst_cameras_02.png[]
+
 [subs="verbatim,quotes"]
 ----
 *Input: *<span id="example-input-2-1">[0,0,null,0,null,0,null,null,0]

@@ -6,7 +6,7 @@ We are given a list of (axis-aligned) `rectangles`.  Each `rectangle[i] = [x1, y
 
 Find the total area covered by all `rectangles` in the plane.  Since the answer may be too large, *return it modulo 10^9 + 7*.
 
-<img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/06/06/rectangle_area_ii_pic.png" style="width: 480px; height: 360px;" />
+image::https://s3-lc-upload.s3.amazonaws.com/uploads/2018/06/06/rectangle_area_ii_pic.png[]
 
 *Example 1:*
 

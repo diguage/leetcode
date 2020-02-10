@@ -12,11 +12,12 @@ In one move the snake can:
 * Rotate clockwise if it's in a horizontal position and the two cells under it are both empty. In that case the snake moves from `(r, c)` and `(r, c+1)` to `(r, c)` and `(r+1, c)`.
 
 
-	<img alt="" src="https://assets.leetcode.com/uploads/2019/09/24/image-2.png" style="width: 300px; height: 134px;" />
+image::https://assets.leetcode.com/uploads/2019/09/24/image-2.png[]
+
 * Rotate counterclockwise if it's in a vertical position and the two cells to its right are both empty. In that case the snake moves from `(r, c)` and `(r+1, c)` to `(r, c)` and `(r, c+1)`.
 
 
-	<img alt="" src="https://assets.leetcode.com/uploads/2019/09/24/image-1.png" style="width: 300px; height: 121px;" />
+image::https://assets.leetcode.com/uploads/2019/09/24/image-1.png[]
 
 
 Return the minimum number of moves to reach the target.
@@ -26,7 +27,7 @@ If there is no way to reach the target, return `-1`.
  
 *Example 1:*
 
-*<img alt="" src="https://assets.leetcode.com/uploads/2019/09/24/image.png" style="width: 400px; height: 439px;" />*
+image::https://assets.leetcode.com/uploads/2019/09/24/image.png[]
 
 [subs="verbatim,quotes"]
 ----
@@ -37,8 +38,8 @@ If there is no way to reach the target, return `-1`.
                [0,1,1,0,0,0],
                [0,1,1,0,0,0]]
 *Output:* 11
-*Explanation:
-*One possible solution is [right, right, rotate clockwise, right, down, down, down, down, rotate counterclockwise, right, down].
+*Explanation:*
+One possible solution is [right, right, rotate clockwise, right, down, down, down, down, rotate counterclockwise, right, down].
 ----
 
 *Example 2:*

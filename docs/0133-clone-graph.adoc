@@ -28,7 +28,9 @@ The given node will always be the first node with `val = 1`. You must return the
 
  
 *Example 1:*
-<img alt="" src="https://assets.leetcode.com/uploads/2019/11/04/133_clone_graph_question.png" style="width: 500px; height: 550px;" />
+
+image::https://assets.leetcode.com/uploads/2019/11/04/133_clone_graph_question.png[]
+
 [subs="verbatim,quotes"]
 ----
 *Input:* adjList = [[2,4],[1,3],[2,4],[1,3]]
@@ -41,7 +43,9 @@ The given node will always be the first node with `val = 1`. You must return the
 ----
 
 *Example 2:*
-<img alt="" src="https://assets.leetcode.com/uploads/2020/01/07/graph.png" style="width: 163px; height: 148px;" />
+
+image::https://assets.leetcode.com/uploads/2020/01/07/graph.png[]
+
 [subs="verbatim,quotes"]
 ----
 *Input:* adjList = [[]]
@@ -59,7 +63,9 @@ The given node will always be the first node with `val = 1`. You must return the
 ----
 
 *Example 4:*
-<img alt="" src="https://assets.leetcode.com/uploads/2020/01/07/graph-1.png" style="width: 272px; height: 133px;" />
+
+image::https://assets.leetcode.com/uploads/2020/01/07/graph-1.png[]
+
 [subs="verbatim,quotes"]
 ----
 *Input:* adjList = [[2],[1]]

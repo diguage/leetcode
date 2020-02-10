@@ -4,7 +4,7 @@ https://leetcode.com/problems/pascals-triangle/[LeetCode - Pascal's Triangle]
 
 Given a non-negative integer _numRows_, generate the first _numRows_ of Pascal's triangle.
 
-<img alt="" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif" style="height:240px; width:260px" />
+image::https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif[]
 
 
 [.small]#In Pascal's triangle, each number is the sum of the two numbers directly above it.#

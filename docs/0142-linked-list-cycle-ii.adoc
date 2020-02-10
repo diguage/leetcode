@@ -91,7 +91,7 @@ To represent a cycle in the given linked list, we use an integer `pos` which rep
 *Explanation:* There is a cycle in the linked list, where tail connects to the second node.
 ----
 
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png" style="height: 97px; width: 300px;" />
+image::https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png[]
 
 *Example 2:*
 
@@ -102,7 +102,7 @@ To represent a cycle in the given linked list, we use an integer `pos` which rep
 *Explanation:* There is a cycle in the linked list, where tail connects to the first node.
 ----
 
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test2.png" style="height: 74px; width: 141px;" />
+image::https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test2.png[]
 
 *Example 3:*
 
@@ -113,7 +113,7 @@ To represent a cycle in the given linked list, we use an integer `pos` which rep
 *Explanation:* There is no cycle in the linked list.
 ----
 
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png" style="height: 45px; width: 45px;" />
+image::https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png[]
 
  
 

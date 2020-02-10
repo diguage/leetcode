@@ -14,13 +14,13 @@ If it cannot be done, return `-1`.
 
 *Example 1:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2019/03/08/domino.png" style="height: 161px; width: 200px;" />
+image::https://assets.leetcode.com/uploads/2019/03/08/domino.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-1-1">[2,1,2,4,2,2], B = <span id="example-input-1-2">[5,2,6,2,3,2]
-*Output: *<span id="example-output-1">2
-*Explanation: *
+*Input:* A = <span id="example-input-1-1">[2,1,2,4,2,2], B = <span id="example-input-1-2">[5,2,6,2,3,2]
+*Output:*<span id="example-output-1">2
+*Explanation:*
 The first figure represents the dominoes as given by A and B: before we do any rotations.
 If we rotate the second and fourth dominoes, we can make every value in the top row equal to 2, as indicated by the second figure.
 ----

@@ -13,7 +13,9 @@ You can move according to the next rules:
 
  
 *Example 1:*
-<img alt="" src="https://assets.leetcode.com/uploads/2019/11/14/1626_example_1.PNG" style="width: 500px; height: 428px;" />
+
+image::https://assets.leetcode.com/uploads/2019/11/14/1626_example_1.PNG[]
+
 [subs="verbatim,quotes"]
 ----
 *Input:* points = [[1,1],[3,4],[-1,0]]

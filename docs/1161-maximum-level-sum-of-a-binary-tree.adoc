@@ -10,7 +10,7 @@ Return the *smallest* level `X` such that the sum of all the values of nodes at 
 
 *Example 1:*
 
-*<img alt="" src="https://assets.leetcode.com/uploads/2019/05/03/capture.JPG" style="width: 200px; height: 175px;" />*
+image::https://assets.leetcode.com/uploads/2019/05/03/capture.JPG[]
 
 [subs="verbatim,quotes"]
 ----

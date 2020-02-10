@@ -9,7 +9,9 @@ Return `true` if and only if the given tree is univalued.
  
 
 *Example 1:*
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/28/unival_bst_1.png" style="width: 265px; height: 172px;" />
+
+image::https://assets.leetcode.com/uploads/2018/12/28/unival_bst_1.png[]
+
 [subs="verbatim,quotes"]
 ----
 *Input: *<span id="example-input-1-1">[1,1,1,1,1,null,1]
@@ -18,7 +20,9 @@ Return `true` if and only if the given tree is univalued.
 
 
 *Example 2:*
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/28/unival_bst_2.png" style="width: 198px; height: 169px;" />
+
+image::https://assets.leetcode.com/uploads/2018/12/28/unival_bst_2.png[]
+
 [subs="verbatim,quotes"]
 ----
 *Input: *<span id="example-input-2-1">[2,2,2,5,2]

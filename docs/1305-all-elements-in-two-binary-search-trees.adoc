@@ -8,7 +8,9 @@ Return a list containing _all the integers_ from _both trees_ sorted in *ascendi
 
  
 *Example 1:*
-<img alt="" src="https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png" style="width: 457px; height: 207px;" />
+
+image::https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png[]
+
 [subs="verbatim,quotes"]
 ----
 *Input:* root1 = [2,1,4], root2 = [1,0,3]
@@ -40,7 +42,9 @@ Return a list containing _all the integers_ from _both trees_ sorted in *ascendi
 ----
 
 *Example 5:*
-<img alt="" src="https://assets.leetcode.com/uploads/2019/12/18/q2-e5-.png" style="width: 352px; height: 197px;" />
+
+image::https://assets.leetcode.com/uploads/2019/12/18/q2-e5-.png[]
+
 [subs="verbatim,quotes"]
 ----
 *Input:* root1 = [1,null,8], root2 = [8,1]

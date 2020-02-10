@@ -33,9 +33,10 @@ Return the number of regions.
   " /",
   "/ "
 ]
-*Output: *<span id="example-output-1">2
-*Explanation: *The 2x2 grid is as follows:
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/15/1.png" style="width: 82px; height: 82px;" />
+*Output:* 2
+*Explanation:* The 2x2 grid is as follows:
+
+image::https://assets.leetcode.com/uploads/2018/12/15/1.png[]
 ----
 
 
@@ -48,9 +49,10 @@ Return the number of regions.
   " /",
   "  "
 ]
-*Output: *<span id="example-output-2">1
-*Explanation: *The 2x2 grid is as follows:
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/15/2.png" style="width: 82px; height: 82px;" />
+*Output:* 1
+*Explanation:* The 2x2 grid is as follows:
+
+image::https://assets.leetcode.com/uploads/2018/12/15/2.png[]
 ----
 
 
@@ -66,7 +68,8 @@ Return the number of regions.
 *Output: *<span id="example-output-3">4
 *Explanation: *(Recall that because \ characters are escaped, "\\/" refers to \/, and "/\\" refers to /\.)
 The 2x2 grid is as follows:
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/15/3.png" style="width: 82px; height: 82px;" />
+
+image::https://assets.leetcode.com/uploads/2018/12/15/3.png[]
 ----
 
 
@@ -82,7 +85,8 @@ The 2x2 grid is as follows:
 *Output: *<span id="example-output-4">5
 *Explanation: *(Recall that because \ characters are escaped, "/\\" refers to /\, and "\\/" refers to \/.)
 The 2x2 grid is as follows:
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/15/4.png" style="width: 82px; height: 82px;" />
+
+image::https://assets.leetcode.com/uploads/2018/12/15/4.png[]
 ----
 
 
@@ -97,7 +101,8 @@ The 2x2 grid is as follows:
 ]
 *Output: *<span id="example-output-5">3
 *Explanation: *The 2x2 grid is as follows:
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/15/5.png" style="width: 82px; height: 82px;" />
+
+image::https://assets.leetcode.com/uploads/2018/12/15/5.png[]
 ----
 
  

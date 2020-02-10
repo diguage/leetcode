@@ -16,7 +16,7 @@ Return an list of non-empty reports in order of `X` coordinate.  Every report wi
 
 *Example 1:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2019/01/31/1236_example_1.PNG" style="width: 201px; height: 186px;" />
+image::https://assets.leetcode.com/uploads/2019/01/31/1236_example_1.PNG[]
 
 
 [subs="verbatim,quotes"]
@@ -34,7 +34,7 @@ The node with value 7 occurs at position (2, -2).
 
 *Example 2:*
 
-*<img alt="" src="https://assets.leetcode.com/uploads/2019/01/31/tree2.png" style="width: 236px; height: 150px;" />*
+image::https://assets.leetcode.com/uploads/2019/01/31/tree2.png[]
 
 [subs="verbatim,quotes"]
 ----

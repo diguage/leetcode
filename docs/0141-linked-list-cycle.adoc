@@ -22,7 +22,7 @@ To represent a cycle in the given linked list, we use an integer `pos` which rep
 
 
 
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png" style="width: 300px; height: 97px; margin-top: 8px; margin-bottom: 8px;" />
+image::https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png[]
 
 *Example 2:*
 
@@ -35,7 +35,7 @@ To represent a cycle in the given linked list, we use an integer `pos` which rep
 
 
 
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test2.png" style="width: 141px; height: 74px;" />
+image::https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test2.png[]
 
 *Example 3:*
 
@@ -47,7 +47,7 @@ To represent a cycle in the given linked list, we use an integer `pos` which rep
 ----
 
 
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png" style="width: 45px; height: 45px;" />
+image::https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png[]
 
  
 

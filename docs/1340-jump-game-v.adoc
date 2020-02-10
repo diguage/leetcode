@@ -17,7 +17,9 @@ Notice that you can not jump outside of the array at any time.
 
  
 *Example 1:*
-<img alt="" src="https://assets.leetcode.com/uploads/2020/01/23/meta-chart.jpeg" style="width: 633px; height: 419px;" />
+
+image::https://assets.leetcode.com/uploads/2020/01/23/meta-chart.jpeg[]
+
 [subs="verbatim,quotes"]
 ----
 *Input:* arr = [6,4,14,6,8,13,9,7,10,6,12], d = 2

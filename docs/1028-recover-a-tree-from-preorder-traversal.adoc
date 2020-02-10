@@ -14,23 +14,23 @@ Given the output `S` of this traversal, recover the tree and return its `root`.
 
 *Example 1:*
 
-*<img alt="" src="https://assets.leetcode.com/uploads/2019/04/08/recover-a-tree-from-preorder-traversal.png" style="width: 320px; height: 200px;" />*
+image::https://assets.leetcode.com/uploads/2019/04/08/recover-a-tree-from-preorder-traversal.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"1-2--3--4-5--6--7"
-*Output: *<span id="example-output-1">[1,2,5,3,4,6,7]
+*Input:*<span id="example-input-1-1">"1-2--3--4-5--6--7"
+*Output:*<span id="example-output-1">[1,2,5,3,4,6,7]
 ----
 
 
 *Example 2:*
 
-*<img alt="" src="https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-114101-pm.png" style="width: 256px; height: 250px;" />*
+image::https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-114101-pm.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">"1-2--3---4-5--6---7"
-*Output: *<span id="example-output-2">[1,2,5,3,null,6,null,4,null,7]
+*Input:*<span id="example-input-2-1">"1-2--3---4-5--6---7"
+*Output:*<span id="example-output-2">[1,2,5,3,null,6,null,4,null,7]
 ----
 
 
@@ -40,12 +40,12 @@ Given the output `S` of this traversal, recover the tree and return its `root`.
 
 *Example 3:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-114955-pm.png" style="width: 276px; height: 250px;" />
+image::https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-114955-pm.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">"1-401--349---90--88"
-*Output: *<span id="example-output-3">[1,401,null,349,88,90]
+*Input:*<span id="example-input-3-1">"1-401--349---90--88"
+*Output:*<span id="example-output-3">[1,401,null,349,88,90]
 ----
 
 

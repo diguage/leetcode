@@ -10,7 +10,7 @@ If there isn't any rectangle, return 0.
 
 *Example 1:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/21/1a.png" style="width: 150px; height: 151px;" />
+image::https://assets.leetcode.com/uploads/2018/12/21/1a.png[]
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ If there isn't any rectangle, return 0.
 
 *Example 2:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/22/2.png" style="width: 150px; height: 94px;" />
+image::https://assets.leetcode.com/uploads/2018/12/22/2.png[]
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ If there isn't any rectangle, return 0.
 
 *Example 3:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/22/3.png" style="width: 160px; height: 167px;" />
+image::https://assets.leetcode.com/uploads/2018/12/22/3.png[]
 
 [subs="verbatim,quotes"]
 ----
@@ -46,7 +46,7 @@ If there isn't any rectangle, return 0.
 
 *Example 4:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/21/4c.png" style="width: 160px; height: 155px;" />
+image::https://assets.leetcode.com/uploads/2018/12/21/4c.png[]
 
 [subs="verbatim,quotes"]
 ----

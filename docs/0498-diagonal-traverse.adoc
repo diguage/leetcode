@@ -20,7 +20,8 @@ Given a matrix of M x N elements (M rows, N columns), return all elements of the
 *Output:*  [1,2,4,7,5,3,6,8,9]
 
 *Explanation:*
-<img src="https://assets.leetcode.com/uploads/2018/10/12/diagonal_traverse.png" style="width: 220px;" />
+
+image::https://assets.leetcode.com/uploads/2018/10/12/diagonal_traverse.png[]
 ----
 
  

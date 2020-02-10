@@ -12,37 +12,37 @@ Return the number of pawns the rook can capture in one move.
 
 *Example 1:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2019/02/20/1253_example_1_improved.PNG" style="width: 300px; height: 305px;" />
+image::https://assets.leetcode.com/uploads/2019/02/20/1253_example_1_improved.PNG[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","R",".",".",".","p"],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]
-*Output: *<span id="example-output-1">3
-*Explanation: *
+*Input:*<span id="example-input-1-1">[[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","R",".",".",".","p"],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]
+*Output:*<span id="example-output-1">3
+*Explanation:*
 In this example the rook is able to capture all the pawns.
 ----
 
 *Example 2:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2019/02/19/1253_example_2_improved.PNG" style="width: 300px; height: 306px;" />
+image::https://assets.leetcode.com/uploads/2019/02/19/1253_example_2_improved.PNG[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[[".",".",".",".",".",".",".","."],[".","p","p","p","p","p",".","."],[".","p","p","B","p","p",".","."],[".","p","B","R","B","p",".","."],[".","p","p","B","p","p",".","."],[".","p","p","p","p","p",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]
-*Output: *<span id="example-output-2">0
-*Explanation: *
+*Input:*<span id="example-input-2-1">[[".",".",".",".",".",".",".","."],[".","p","p","p","p","p",".","."],[".","p","p","B","p","p",".","."],[".","p","B","R","B","p",".","."],[".","p","p","B","p","p",".","."],[".","p","p","p","p","p",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]
+*Output:*<span id="example-output-2">0
+*Explanation:*
 Bishops are blocking the rook to capture any pawn.
 ----
 
 *Example 3:*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2019/02/20/1253_example_3_improved.PNG" style="width: 300px; height: 305px;" />
+image::https://assets.leetcode.com/uploads/2019/02/20/1253_example_3_improved.PNG[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">[[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","p",".",".",".","."],["p","p",".","R",".","p","B","."],[".",".",".",".",".",".",".","."],[".",".",".","B",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."]]
-*Output: *<span id="example-output-3">3
-*Explanation: *
+*Input:*<span id="example-input-3-1">[[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","p",".",".",".","."],["p","p",".","R",".","p","B","."],[".",".",".",".",".",".",".","."],[".",".",".","B",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."]]
+*Output:*<span id="example-output-3">3
+*Explanation:*
 The rook can capture the pawns at positions b5, d6 and f5.
 ----
 

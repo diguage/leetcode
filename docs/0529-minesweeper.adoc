@@ -38,7 +38,8 @@ Click : [3,0]
  ['B', 'B', 'B', 'B', 'B']]
 
 *Explanation:*
-<img src="https://assets.leetcode.com/uploads/2018/10/12/minesweeper_example_1.png" style="width: 100%; max-width: 400px" />
+
+image::https://assets.leetcode.com/uploads/2018/10/12/minesweeper_example_1.png[]
 ----
 
 *Example 2:*
@@ -62,7 +63,8 @@ Click : [1,2]
  ['B', 'B', 'B', 'B', 'B']]
 
 *Explanation:*
-<img src="https://assets.leetcode.com/uploads/2018/10/12/minesweeper_example_2.png" style="width: 100%; max-width: 400px" />
+
+image::https://assets.leetcode.com/uploads/2018/10/12/minesweeper_example_2.png[]
 ----
 
  

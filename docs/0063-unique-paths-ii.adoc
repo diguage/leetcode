@@ -8,7 +8,7 @@ The robot can only move either down or right at any point in time. The robot is 
 
 Now consider if some obstacles are added to the grids. How many unique paths would there be?
 
-<img src="https://assets.leetcode.com/uploads/2018/10/22/robot_maze.png" style="width: 400px; height: 183px;" />
+image::https://assets.leetcode.com/uploads/2018/10/22/robot_maze.png[]
 
 An obstacle and empty space is marked as `1` and `0` respectively in the grid.
 

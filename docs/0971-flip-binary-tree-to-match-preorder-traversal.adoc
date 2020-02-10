@@ -21,18 +21,18 @@ If we cannot do so, then return the list `[-1]`.
 
 *Example 1:*
 
-*<img alt="" src="https://assets.leetcode.com/uploads/2019/01/02/1219-01.png" style="width: 88px; height: 120px;" />*
+image::https://assets.leetcode.com/uploads/2019/01/02/1219-01.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *root = <span id="example-input-1-1">[1,2], voyage = <span id="example-input-1-2">[2,1]
-*Output: *<span id="example-output-1">[-1]
+*Input:* root = [1,2], voyage = [2,1]
+*Output:* [-1]
 ----
 
 
 *Example 2:*
 
-*<img alt="" src="https://assets.leetcode.com/uploads/2019/01/02/1219-02.png" style="width: 127px; height: 120px;" />*
+image::https://assets.leetcode.com/uploads/2019/01/02/1219-02.png[]
 
 [subs="verbatim,quotes"]
 ----
@@ -43,12 +43,12 @@ If we cannot do so, then return the list `[-1]`.
 
 *Example 3:*
 
-*<img alt="" src="https://assets.leetcode.com/uploads/2019/01/02/1219-02.png" style="width: 127px; height: 120px;" />*
+image::https://assets.leetcode.com/uploads/2019/01/02/1219-02.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *root = <span id="example-input-3-1">[1,2,3], voyage = <span id="example-input-3-2">[1,2,3]
-*Output: *<span id="example-output-3">[]
+*Input:* root = [1,2,3], voyage = [1,2,3]
+*Output:* []
 ----
 
  

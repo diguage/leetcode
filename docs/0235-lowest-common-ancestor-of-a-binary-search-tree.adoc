@@ -7,7 +7,8 @@ Given a binary search tree (BST), find the lowest common ancestor (LCA) of two g
 According to the https://en.wikipedia.org/wiki/Lowest_common_ancestor[definition of LCA on Wikipedia]: &ldquo;The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow *a node to be a descendant of itself*).&rdquo;
 
 Given binary search tree:  root = [6,2,8,0,4,7,9,null,null,3,5]
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/14/binarysearchtree_improved.png" style="width: 200px; height: 190px;" />
+
+image::https://assets.leetcode.com/uploads/2018/12/14/binarysearchtree_improved.png[]
  
 
 *Example 1:*
