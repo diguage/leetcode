@@ -15,7 +15,7 @@ Return `true` if and only if you can choose `X >= 2` such that it is possible to
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,3,4,4,3,2,1]
 *Output:* true
@@ -25,7 +25,7 @@ Return `true` if and only if you can choose `X >= 2` such that it is possible to
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,1,1,2,2,2,3,3]
 *Output:* false
@@ -35,7 +35,7 @@ Return `true` if and only if you can choose `X >= 2` such that it is possible to
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1]
 *Output:* false
@@ -45,7 +45,7 @@ Return `true` if and only if you can choose `X >= 2` such that it is possible to
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,1]
 *Output:* true
@@ -55,7 +55,7 @@ Return `true` if and only if you can choose `X >= 2` such that it is possible to
 
 *Example 5:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,1,2,2,2,2]
 *Output:* true

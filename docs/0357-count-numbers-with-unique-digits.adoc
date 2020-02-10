@@ -7,7 +7,7 @@ Given a *non-negative* integer n, count all numbers with unique digits, x, where
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 2
 *Output:* 91 

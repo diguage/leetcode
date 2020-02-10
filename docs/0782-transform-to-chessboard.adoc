@@ -6,7 +6,7 @@ An N x N `board` contains only `0`s and `1`s. In each move, you can swap any 2 r
 
 What is the minimum number of moves to transform the board into a "chessboard" - a board where no `0`s and no `1`s are 4-directionally adjacent? If the task is impossible, return -1.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Examples:*
 *Input:* board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]

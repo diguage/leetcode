@@ -14,7 +14,7 @@ Find all possible combinations of _*k*_ numbers that add up to a number _*n*_, g
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* _*k*_ = 3, _*n*_ = 7
 *Output:* [[1,2,4]]
@@ -22,7 +22,7 @@ Find all possible combinations of _*k*_ numbers that add up to a number _*n*_, g
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* _*k*_ = 3, _*n*_ = 9
 *Output:* [[1,2,6], [1,3,5], [2,3,4]]

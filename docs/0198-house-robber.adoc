@@ -34,7 +34,7 @@ Given a list of non-negative integers representing the amount of money of each h
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,3,1]
 *Output:* 4
@@ -44,7 +44,7 @@ Given a list of non-negative integers representing the amount of money of each h
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [2,7,9,3,1]
 *Output:* 12

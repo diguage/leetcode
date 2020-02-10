@@ -6,7 +6,7 @@ Given a string `S` and a character `C`, return an array of integers representing
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* S = "loveleetcode", C = 'e'
 *Output:* [3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0]

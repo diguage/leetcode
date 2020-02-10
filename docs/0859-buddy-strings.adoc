@@ -9,7 +9,7 @@ Given two strings `A` and `B` of lowercase letters, return `true` if and only if
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = "ab", B = "ba"
 *Output:* true
@@ -18,7 +18,7 @@ Given two strings `A` and `B` of lowercase letters, return `true` if and only if
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = "ab", B = "ab"
 *Output:* false
@@ -27,7 +27,7 @@ Given two strings `A` and `B` of lowercase letters, return `true` if and only if
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = "aa", B = "aa"
 *Output:* true
@@ -36,7 +36,7 @@ Given two strings `A` and `B` of lowercase letters, return `true` if and only if
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = "aaaaaaabc", B = "aaaaaaacb"
 *Output:* true
@@ -45,7 +45,7 @@ Given two strings `A` and `B` of lowercase letters, return `true` if and only if
 
 *Example 5:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = "", B = "aa"
 *Output:* false

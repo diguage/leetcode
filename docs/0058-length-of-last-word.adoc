@@ -24,7 +24,7 @@ If the last word does not exist, return 0.
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "Hello World"
 *Output:* 5

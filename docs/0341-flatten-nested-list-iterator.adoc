@@ -38,7 +38,7 @@ Each element is either an integer, or a list -- whose elements may also be integ
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[1,1],2,[1,1]]
 *Output:* [1,1,2,1,1]
@@ -49,7 +49,7 @@ Each element is either an integer, or a list -- whose elements may also be integ
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,[4,[6]]]
 *Output:* [1,4,6]

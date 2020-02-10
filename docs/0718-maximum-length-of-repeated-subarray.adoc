@@ -6,7 +6,7 @@ Given two integer arrays `A` and `B`, return the maximum length of an subarray t
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 A: [1,2,3,2,1]

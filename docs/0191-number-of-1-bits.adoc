@@ -12,7 +12,7 @@ Write a function that takes an unsigned integer and return the number of '1' bit
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 00000000000000000000000000001011
 *Output:* 3
@@ -22,7 +22,7 @@ Write a function that takes an unsigned integer and return the number of '1' bit
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 00000000000000000000000010000000
 *Output:* 1
@@ -32,7 +32,7 @@ Write a function that takes an unsigned integer and return the number of '1' bit
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 11111111111111111111111111111101
 *Output:* 31

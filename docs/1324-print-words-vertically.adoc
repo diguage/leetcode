@@ -13,7 +13,7 @@ Each word would be put on only one column and that in one column there will be o
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "HOW ARE YOU"
 *Output:* ["HAY","ORO","WEU"]
@@ -25,7 +25,7 @@ Each word would be put on only one column and that in one column there will be o
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "TO BE OR NOT TO BE"
 *Output:* ["TBONTB","OEROOE","   T"]
@@ -37,7 +37,7 @@ Each word would be put on only one column and that in one column there will be o
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "CONTEST IS COMING"
 *Output:* ["CIC","OSO","N M","T I","E N","S G","T"]

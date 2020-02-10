@@ -8,7 +8,7 @@ The width of one level is defined as the length between the end-nodes (the leftm
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 
@@ -24,7 +24,7 @@ The width of one level is defined as the length between the end-nodes (the leftm
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 
@@ -40,7 +40,7 @@ The width of one level is defined as the length between the end-nodes (the leftm
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 
@@ -56,7 +56,7 @@ The width of one level is defined as the length between the end-nodes (the leftm
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 

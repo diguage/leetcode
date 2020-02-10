@@ -4,7 +4,7 @@ https://leetcode.com/problems/fibonacci-number/[LeetCode - Fibonacci Number]
 
 The *Fibonacci numbers*, commonly denoted `F(n)` form a sequence, called the *Fibonacci sequence*, such that each number is the sum of the two preceding ones, starting from `0` and `1`. That is,
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 F(0) = 0,   F(1) = 1
 F(N) = F(N - 1) + F(N - 2), for N > 1.
@@ -16,7 +16,7 @@ Given `N`, calculate `F(N)`.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 2
 *Output:* 1
@@ -25,7 +25,7 @@ Given `N`, calculate `F(N)`.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 3
 *Output:* 2
@@ -34,7 +34,7 @@ Given `N`, calculate `F(N)`.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 4
 *Output:* 3

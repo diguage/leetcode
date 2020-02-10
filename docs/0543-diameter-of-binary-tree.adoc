@@ -36,7 +36,7 @@ Given a binary tree, you need to compute the length of the diameter of the tree.
 Given a binary tree 
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
           1
          / \

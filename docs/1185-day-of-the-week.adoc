@@ -11,7 +11,7 @@ Return the answer as one of the following values `{"Sunday", "Monday", "Tuesday"
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* day = 31, month = 8, year = 2019
 *Output:* "Saturday"
@@ -19,7 +19,7 @@ Return the answer as one of the following values `{"Sunday", "Monday", "Tuesday"
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* day = 18, month = 7, year = 1999
 *Output:* "Sunday"
@@ -27,7 +27,7 @@ Return the answer as one of the following values `{"Sunday", "Monday", "Tuesday"
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* day = 15, month = 8, year = 1993
 *Output:* "Sunday"

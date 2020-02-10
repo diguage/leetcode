@@ -4,7 +4,7 @@ https://leetcode.com/problems/print-foobar-alternately/[LeetCode - Print FooBar 
 
 Suppose you are given the following code:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 class FooBar {
   public void foo() {
@@ -27,7 +27,7 @@ The same instance of `FooBar` will be passed to two different threads. Thread A 
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 1
 *Output:* "foobar"
@@ -36,7 +36,7 @@ The same instance of `FooBar` will be passed to two different threads. Thread A 
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 2
 *Output:* "foobarfoobar"

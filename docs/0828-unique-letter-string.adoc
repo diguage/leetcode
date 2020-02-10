@@ -20,7 +20,7 @@ Since the answer can be very large, return the answer modulo `10 ^ 9 + 7`.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "ABC"
 *Output:* 10
@@ -31,7 +31,7 @@ Sum of lengths of all substring is 1 + 1 + 1 + 2 + 2 + 3 = 10
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "ABA"
 *Output:* 8

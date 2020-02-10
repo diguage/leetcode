@@ -8,7 +8,7 @@ Return the index of the first occurrence of needle in haystack, or *-1* if needl
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* haystack = "hello", needle = "ll"
 *Output:* 2
@@ -16,7 +16,7 @@ Return the index of the first occurrence of needle in haystack, or *-1* if needl
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* haystack = "aaaaa", needle = "bba"
 *Output:* -1

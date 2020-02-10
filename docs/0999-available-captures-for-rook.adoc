@@ -14,7 +14,7 @@ Return the number of pawns the rook can capture in one move.
 
 image::https://assets.leetcode.com/uploads/2019/02/20/1253_example_1_improved.PNG[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","R",".",".",".","p"],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]
 *Output:* 3
@@ -26,7 +26,7 @@ In this example the rook is able to capture all the pawns.
 
 image::https://assets.leetcode.com/uploads/2019/02/19/1253_example_2_improved.PNG[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[".",".",".",".",".",".",".","."],[".","p","p","p","p","p",".","."],[".","p","p","B","p","p",".","."],[".","p","B","R","B","p",".","."],[".","p","p","B","p","p",".","."],[".","p","p","p","p","p",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]
 *Output:* 0
@@ -38,7 +38,7 @@ Bishops are blocking the rook to capture any pawn.
 
 image::https://assets.leetcode.com/uploads/2019/02/20/1253_example_3_improved.PNG[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","p",".",".",".","."],["p","p",".","R",".","p","B","."],[".",".",".",".",".",".",".","."],[".",".",".","B",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."]]
 *Output:* 3

@@ -9,7 +9,7 @@ Given a binary tree, find the leftmost value in the last row of the tree.
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Input:
 
@@ -23,7 +23,7 @@ Output:
 
 
  * Example 2: *<br>
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Input:
 

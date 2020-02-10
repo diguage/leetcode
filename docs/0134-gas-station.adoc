@@ -30,7 +30,7 @@ Return the starting gas station's index if you can travel around the circuit onc
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 gas  = [1,2,3,4,5]
@@ -50,7 +50,7 @@ Therefore, return 3 as the starting index.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 gas  = [2,3,4]

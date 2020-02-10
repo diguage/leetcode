@@ -20,7 +20,7 @@ Design a data structure that supports the following two operations:
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 addNum(1)
 addNum(2)

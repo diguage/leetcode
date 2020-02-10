@@ -18,7 +18,7 @@ Return the minimum cost needed to move all the chips to the same position (any p
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* chips = [1,2,3]
 *Output:* 1
@@ -27,7 +27,7 @@ Return the minimum cost needed to move all the chips to the same position (any p
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* chips = [2,2,2,3,3]
 *Output:* 2

@@ -19,7 +19,7 @@ Implement `FreqStack`, a class which simulates the operation of a stack-like dat
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
  ["FreqStack","push","push","push","push","push","push","pop","pop","pop","pop"],

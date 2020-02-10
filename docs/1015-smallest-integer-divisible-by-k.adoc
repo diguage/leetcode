@@ -10,7 +10,7 @@ Return the length of `N`.  If there is no such `N`, return -1.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 1
 *Output:* 1
@@ -19,7 +19,7 @@ Return the length of `N`.  If there is no such `N`, return -1.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 2
 *Output:* -1
@@ -28,7 +28,7 @@ Return the length of `N`.  If there is no such `N`, return -1.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 3
 *Output:* 3

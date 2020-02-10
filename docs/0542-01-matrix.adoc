@@ -10,7 +10,7 @@ The distance between two adjacent cells is 1.
 
 *Example 1: *
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 [[0,0,0],
@@ -25,7 +25,7 @@ The distance between two adjacent cells is 1.
 
 *Example 2: *
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 [[0,0,0],

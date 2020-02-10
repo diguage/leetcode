@@ -10,7 +10,7 @@ You need to output the sentence after the replacement.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* dict = ["cat", "bat", "rat"]
 sentence = "the cattle was rattled by the battery"

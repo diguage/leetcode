@@ -44,7 +44,7 @@ Given a set of *distinct* integers, _nums_, return all possible subsets (the pow
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [1,2,3]
 *Output:*

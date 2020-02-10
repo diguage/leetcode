@@ -6,7 +6,7 @@ Given a positive integer, return its corresponding column title as appear in an 
 
 For example:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
     1 -> A
     2 -> B
@@ -20,7 +20,7 @@ For example:
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 1
 *Output:* "A"
@@ -28,7 +28,7 @@ For example:
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 28
 *Output:* "AB"
@@ -36,7 +36,7 @@ For example:
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 701
 *Output:* "ZY"

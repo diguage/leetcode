@@ -7,7 +7,7 @@ Given a list of strings `words` representing an English Dictionary, find the lon
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 words = ["w","wo","wor","worl", "world"]
@@ -20,7 +20,7 @@ The word "world" can be built one character at a time by "w", "wo", "wor", and "
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 words = ["a", "banana", "app", "appl", "ap", "apply", "apple"]

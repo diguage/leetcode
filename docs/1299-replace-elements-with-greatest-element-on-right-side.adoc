@@ -9,7 +9,7 @@ After doing so, return the array.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr = [17,18,5,4,6,1]
 *Output:* [18,6,6,6,1,-1]

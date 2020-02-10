@@ -40,7 +40,7 @@ Invert a binary tree.
 
 Input:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
      4
    /   \
@@ -51,7 +51,7 @@ Input:
 
 Output:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
      4
    /   \

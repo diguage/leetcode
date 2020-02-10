@@ -20,7 +20,7 @@ The knight continues moving until it has made exactly `K` moves or has moved off
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 3, 2, 0, 0
 *Output:* 0.0625

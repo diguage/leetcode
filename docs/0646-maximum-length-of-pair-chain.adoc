@@ -18,7 +18,7 @@ Given a set of pairs, find the length longest chain which can be formed. You nee
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[1,2], [2,3], [3,4]]
 *Output:* 2

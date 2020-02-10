@@ -10,7 +10,7 @@ Return the result as a list of indices representing the starting position of eac
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,1,2,6,7,5,1], 2
 *Output:* [0, 3, 5]

@@ -15,7 +15,7 @@ The license plate might have the same letter occurring multiple times.  For exam
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* licensePlate = "1s3 PSt", words = ["step", "steps", "stripe", "stepple"]
 *Output:* "steps"
@@ -28,7 +28,7 @@ Also note that we ignored case for the purposes of comparing whether a letter ex
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* licensePlate = "1s3 456", words = ["looks", "pest", "stew", "show"]
 *Output:* "pest"

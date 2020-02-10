@@ -19,7 +19,7 @@ Design a stack that supports push, pop, top, and retrieving the minimum element 
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 MinStack minStack = new MinStack();
 minStack.push(-2);

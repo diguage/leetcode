@@ -8,7 +8,7 @@ Also, if any player starts their turn with the bitwise XOR of all the elements o
 
 Return True if and only if Alice wins the game, assuming both players play optimally.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example:*
 *Input:* nums = [1, 1, 2]

@@ -58,7 +58,7 @@ Given a *non-empty* array containing *only positive integers*, find if the array
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Input: [1, 5, 11, 5]
 
@@ -71,7 +71,7 @@ Explanation: The array can be partitioned as [1, 5, 5] and [11].
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Input: [1, 2, 3, 5]
 

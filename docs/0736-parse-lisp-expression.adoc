@@ -25,7 +25,7 @@ The syntax for these expressions is given as follows.
 *Evaluation Examples:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* (add 1 2)
 *Output:* 3

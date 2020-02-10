@@ -12,7 +12,7 @@ The length of path between two nodes is represented by the number of edges betwe
 
 *Input:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
               5
              / \
@@ -29,7 +29,7 @@ The length of path between two nodes is represented by the number of edges betwe
 
 *Input:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
               1
              / \

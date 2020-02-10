@@ -12,7 +12,7 @@ Given a list of query words, return the number of words that are stretchy.
 
  
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example:*
 *Input:* 

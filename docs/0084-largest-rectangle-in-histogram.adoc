@@ -22,7 +22,7 @@ image::https://assets.leetcode.com/uploads/2018/10/12/histogram_area.png[]
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [2,1,5,6,2,3]
 *Output:* 10

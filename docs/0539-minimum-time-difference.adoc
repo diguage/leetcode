@@ -7,7 +7,7 @@ Given a list of 24-hour clock time points in "Hour:Minutes" format, find the min
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["23:59","00:00"]
 *Output:* 1

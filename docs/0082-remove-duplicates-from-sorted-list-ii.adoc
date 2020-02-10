@@ -30,7 +30,7 @@ Given a sorted linked list, delete all nodes that have duplicate numbers, leavin
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 1->2->3->3->4->4->5
 *Output:* 1->2->5
@@ -38,7 +38,7 @@ Given a sorted linked list, delete all nodes that have duplicate numbers, leavin
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 1->1->1->2->3
 *Output:* 2->3

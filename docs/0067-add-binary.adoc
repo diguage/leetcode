@@ -24,7 +24,7 @@ The input strings are both *non-empty* and contains only characters `1` or `0`.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* a = "11", b = "1"
 *Output:* "100"
@@ -32,7 +32,7 @@ The input strings are both *non-empty* and contains only characters `1` or `0`.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* a = "1010", b = "1011"
 *Output:* "10101"

@@ -12,7 +12,7 @@ image::https://leetcode.com/static/images/courses/range_sum_query_2d.png[]
 
 
 *Example:*<br>
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Given matrix = [
   [3, 0, 1, 4, 2],

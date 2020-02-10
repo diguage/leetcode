@@ -16,7 +16,7 @@ Given a list of `transactions`, return a list of transactions that are possibly 
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* transactions = ["alice,20,800,mtv","alice,50,100,beijing"]
 *Output:* ["alice,20,800,mtv","alice,50,100,beijing"]
@@ -25,7 +25,7 @@ Given a list of `transactions`, return a list of transactions that are possibly 
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* transactions = ["alice,20,800,mtv","alice,50,1200,mtv"]
 *Output:* ["alice,50,1200,mtv"]
@@ -34,7 +34,7 @@ Given a list of `transactions`, return a list of transactions that are possibly 
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* transactions = ["alice,20,800,mtv","bob,50,1200,mtv"]
 *Output:* ["bob,50,1200,mtv"]

@@ -12,7 +12,7 @@ We are given a list `A` of strings.  Every string in `A` is an anagram of every 
 
  
 *Example 1:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = ["tars","rats","arts","star"]
 *Output:* 2

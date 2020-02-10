@@ -7,7 +7,7 @@ Given two strings `s1, s2`, find the lowest ASCII sum of deleted characters to m
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s1 = "sea", s2 = "eat"
 *Output:* 231
@@ -20,7 +20,7 @@ At the end, both strings are equal, and 115 + 116 = 231 is the minimum sum possi
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s1 = "delete", s2 = "leet"
 *Output:* 403

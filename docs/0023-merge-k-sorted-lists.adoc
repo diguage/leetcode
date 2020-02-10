@@ -6,7 +6,7 @@ Merge _k_ sorted linked lists and return it as one sorted list. Analyze and desc
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 [

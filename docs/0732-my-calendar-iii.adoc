@@ -13,7 +13,7 @@ Your class will be called like this: `MyCalendarThree cal = new MyCalendarThree(
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 MyCalendarThree();
 MyCalendarThree.book(10, 20); // returns 1

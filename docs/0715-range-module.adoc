@@ -14,7 +14,7 @@ A Range Module is a module that tracks ranges of numbers. Your task is to design
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *addRange(10, 20)*: null
 *removeRange(14, 16)*: null

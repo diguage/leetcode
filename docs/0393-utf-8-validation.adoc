@@ -9,7 +9,7 @@ A character in UTF8 can be from *1 to 4 bytes* long, subjected to the following 
 
 This is how the UTF-8 encoding would work:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
    Char. number range  |        UTF-8 octet sequence
       (hexadecimal)    |              (binary)
@@ -31,7 +31,7 @@ The input is an array of integers. Only the *least significant 8 bits* of each i
 
 
 *Example 1:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 data = [197, 130, 1], which represents the octet sequence: *11000101 10000010 00000001*.
 
@@ -42,7 +42,7 @@ It is a valid utf-8 encoding for a 2-bytes character followed by a 1-byte charac
 
 
 *Example 2:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 data = [235, 140, 4], which represented the octet sequence: *11101011 10001100 00000100*.
 

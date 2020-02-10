@@ -5,7 +5,7 @@ https://leetcode.com/problems/minimum-moves-to-equal-array-elements/[LeetCode - 
 Given a *non-empty* integer array of size _n_, find the minimum number of moves required to make all array elements equal, where a move is incrementing _n_ - 1 elements by 1.
 
 *Example:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 [1,2,3]

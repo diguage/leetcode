@@ -9,7 +9,7 @@ However, you can add any number of parenthesis at any position to change the pri
 *Example:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1000,100,10,2]
 *Output:* "1000/(100/10/2)"

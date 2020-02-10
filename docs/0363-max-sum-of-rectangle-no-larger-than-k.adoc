@@ -6,7 +6,7 @@ Given a non-empty 2D matrix _matrix_ and an integer _k_, find the max sum of a r
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* matrix = [[1,0,1],[0,-2,3]], k = 2
 *Output:* 2 

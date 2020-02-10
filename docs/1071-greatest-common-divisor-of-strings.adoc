@@ -10,7 +10,7 @@ Return the largest string `X` such that `X` divides <font face="monospace">str1 
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* str1 = "ABCABC", str2 = "ABC"
 *Output:* "ABC"
@@ -18,7 +18,7 @@ Return the largest string `X` such that `X` divides <font face="monospace">str1 
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* str1 = "ABABAB", str2 = "ABAB"
 *Output:* "AB"
@@ -26,7 +26,7 @@ Return the largest string `X` such that `X` divides <font face="monospace">str1 
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* str1 = "LEET", str2 = "CODE"
 *Output:* ""

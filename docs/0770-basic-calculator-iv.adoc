@@ -24,7 +24,7 @@ The format of the output is as follows:
 
 *Examples:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* expression = "e + 8 - a + 5", evalvars = ["e"], evalints = [1]
 *Output:* ["-1*a","14"]

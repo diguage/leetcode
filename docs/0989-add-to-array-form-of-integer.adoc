@@ -14,7 +14,7 @@ Given the array-form `A` of a non-negative integer `X`, return the array-form of
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [1,2,0,0], K = 34
 *Output:* [1,2,3,4]
@@ -24,7 +24,7 @@ Given the array-form `A` of a non-negative integer `X`, return the array-form of
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [2,7,4], K = 181
 *Output:* [4,5,5]
@@ -34,7 +34,7 @@ Given the array-form `A` of a non-negative integer `X`, return the array-form of
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [2,1,5], K = 806
 *Output:* [1,0,2,1]
@@ -44,7 +44,7 @@ Given the array-form `A` of a non-negative integer `X`, return the array-form of
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [9,9,9,9,9,9,9,9,9,9], K = 1
 *Output:* [1,0,0,0,0,0,0,0,0,0,0]

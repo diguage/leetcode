@@ -13,7 +13,7 @@ Return the minimum number of steps required to reach the destination.
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* target = 3
 *Output:* 2
@@ -26,7 +26,7 @@ On the second step we step from 1 to 3.
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* target = 2
 *Output:* 3

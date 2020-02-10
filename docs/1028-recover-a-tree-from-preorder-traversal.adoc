@@ -16,7 +16,7 @@ Given the output `S` of this traversal, recover the tree and return its `root`.
 
 image::https://assets.leetcode.com/uploads/2019/04/08/recover-a-tree-from-preorder-traversal.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "1-2--3--4-5--6--7"
 *Output:* [1,2,5,3,4,6,7]
@@ -27,7 +27,7 @@ image::https://assets.leetcode.com/uploads/2019/04/08/recover-a-tree-from-preord
 
 image::https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-114101-pm.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "1-2--3---4-5--6---7"
 *Output:* [1,2,5,3,null,6,null,4,null,7]
@@ -42,7 +42,7 @@ image::https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-
 
 image::https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-114955-pm.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "1-401--349---90--88"
 *Output:* [1,401,null,349,88,90]

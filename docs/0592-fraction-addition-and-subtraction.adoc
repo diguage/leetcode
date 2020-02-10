@@ -7,7 +7,7 @@ Given a string representing an expression of fraction addition and subtraction, 
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "-1/2+1/2"
 *Output:* "0/1"
@@ -17,7 +17,7 @@ Given a string representing an expression of fraction addition and subtraction, 
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "-1/2+1/2+1/3"
 *Output:* "1/3"
@@ -27,7 +27,7 @@ Given a string representing an expression of fraction addition and subtraction, 
 *Example 3:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "1/3-1/2"
 *Output:* "-1/6"
@@ -37,7 +37,7 @@ Given a string representing an expression of fraction addition and subtraction, 
 *Example 4:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "5/3+1/3"
 *Output:* "2/1"

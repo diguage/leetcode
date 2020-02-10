@@ -17,7 +17,7 @@ How many valid permutations are there?  Since the answer may be large, *return y
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "DID"
 *Output:* 5

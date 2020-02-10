@@ -6,7 +6,7 @@ Given a positive integer _n_, generate a square matrix filled with elements from
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 3
 *Output:*

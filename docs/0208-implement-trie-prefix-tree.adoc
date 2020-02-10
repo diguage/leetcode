@@ -17,7 +17,7 @@ Implement a trie with `insert`, `search`, and `startsWith` methods.
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Trie trie = new Trie();
 

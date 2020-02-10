@@ -17,7 +17,7 @@ To be specific, your design should include these functions:
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 MyHashSet hashSet = new MyHashSet();
 hashSet.add(1);         

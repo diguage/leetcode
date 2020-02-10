@@ -10,7 +10,7 @@ Each word must be constructed from letters of sequentially adjacent cell, where 
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 *board *= [

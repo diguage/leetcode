@@ -6,7 +6,7 @@ Given a string of numbers and operators, return all possible results from comput
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `"2-1-1"`
 *Output:* `[0, 2]`
@@ -17,7 +17,7 @@ Given a string of numbers and operators, return all possible results from comput
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `"2*3-4*5"`
 *Output:* `[-34, -14, -10, -10, 10]`

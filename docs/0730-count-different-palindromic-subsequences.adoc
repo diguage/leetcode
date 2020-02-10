@@ -15,7 +15,7 @@ Two sequences `A_1, A_2, ...` and `B_1, B_2, ...` are different if there is some
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 S = 'bccb'
@@ -29,7 +29,7 @@ Note that 'bcb' is counted only once, even though it occurs twice.
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 S = 'abcdabcdabcdabcdabcdabcdabcdabcddcbadcbadcbadcbadcbadcbadcbadcba'

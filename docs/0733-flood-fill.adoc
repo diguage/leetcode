@@ -14,7 +14,7 @@ At the end, return the modified image.
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 image = [[1,1,1],[1,1,0],[1,0,1]]

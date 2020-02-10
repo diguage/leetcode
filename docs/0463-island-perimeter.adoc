@@ -12,7 +12,7 @@ The island doesn't have "lakes" (water inside that isn't connected to the water 
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 [[0,1,0,0],

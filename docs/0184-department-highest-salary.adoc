@@ -4,7 +4,7 @@ https://leetcode.com/problems/department-highest-salary/[LeetCode - Department H
 
 The `Employee` table holds all employees. Every employee has an Id, a salary, and there is also a column for the department Id.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +----+-------+--------+--------------+
 | Id | Name  | Salary | DepartmentId |
@@ -19,7 +19,7 @@ The `Employee` table holds all employees. Every employee has an Id, a salary, an
 
 The `Department` table holds all departments of the company.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +----+----------+
 | Id | Name     |
@@ -31,7 +31,7 @@ The `Department` table holds all departments of the company.
 
 Write a SQL query to find employees who have the highest salary in each of the departments. For the above tables, your SQL query should return the following rows (order of rows does not matter).
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +------------+----------+--------+
 | Department | Employee | Salary |

@@ -14,7 +14,7 @@ A region is captured by flipping all `'O'`s into `'X'`s in that surrounded regio
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 X X X X
 X O O X
@@ -24,7 +24,7 @@ X O X X
 
 After running your function, the board should be:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 X X X X
 X X X X

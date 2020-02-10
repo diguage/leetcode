@@ -11,7 +11,7 @@ What if the linked list is extremely large and its length is unknown to you? Cou
 
 
 *Example:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 // Init a singly linked list [1,2,3].
 ListNode head = new ListNode(1);

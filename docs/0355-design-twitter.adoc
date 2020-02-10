@@ -14,7 +14,7 @@ Design a simplified version of Twitter where users can post tweets, follow/unfol
 
 
 *Example:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Twitter twitter = new Twitter();
 

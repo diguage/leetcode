@@ -8,7 +8,7 @@ Your `KthLargest` class will have a constructor which accepts an integer `k` and
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 int k = 3;
 int[] arr = [4,5,8,2];

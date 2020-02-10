@@ -10,7 +10,7 @@ All occurrences of a character must be replaced with another character while pre
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* *_s_* = `"egg", `*_t = _*`"add"`
 *Output:* true
@@ -19,7 +19,7 @@ All occurrences of a character must be replaced with another character while pre
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* *_s_* = `"foo", `*_t = _*`"bar"`
 *Output:* false
@@ -27,7 +27,7 @@ All occurrences of a character must be replaced with another character while pre
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* *_s_* = `"paper", `*_t = _*`"title"`
 *Output:* true

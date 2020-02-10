@@ -14,7 +14,7 @@ Rotation is not allowed.
 *Example:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[5,4],[6,4],[6,7],[2,3]]
 *Output:* 3 

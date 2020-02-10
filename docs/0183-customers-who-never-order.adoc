@@ -6,7 +6,7 @@ Suppose that a website contains two tables, the `Customers` table and the `Order
 
 Table: `Customers`.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +----+-------+
 | Id | Name  |
@@ -20,7 +20,7 @@ Table: `Customers`.
 
 Table: `Orders`.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +----+------------+
 | Id | CustomerId |
@@ -32,7 +32,7 @@ Table: `Orders`.
 
 Using the above tables as example, return the following:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +-----------+
 | Customers |

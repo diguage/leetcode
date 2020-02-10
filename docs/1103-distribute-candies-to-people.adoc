@@ -15,7 +15,7 @@ Return an array (of length `num_people` and sum `candies`) that represents the f
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* candies = 7, num_people = 4
 *Output:* [1,2,3,1]
@@ -28,7 +28,7 @@ On the fourth turn, ans[3] += 1 (because there is only one candy left), and the 
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* candies = 10, num_people = 3
 *Output:* [5,2,3]

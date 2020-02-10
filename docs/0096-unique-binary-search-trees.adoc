@@ -52,7 +52,7 @@ Given _n_, how many structurally unique *BST's* (binary search trees) that store
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 3
 *Output:* 5

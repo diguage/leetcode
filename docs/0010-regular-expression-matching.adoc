@@ -4,7 +4,7 @@ https://leetcode.com/problems/regular-expression-matching/[LeetCode - Regular Ex
 
 Given an input string (`s`) and a pattern (`p`), implement regular expression matching with support for `'.'` and `'*'`.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 '.' Matches any single character.
 '*' Matches zero or more of the preceding element.
@@ -21,7 +21,7 @@ The matching should cover the *entire* input string (not partial).
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 s = "aa"
@@ -32,7 +32,7 @@ p = "a"
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 s = "aa"
@@ -43,7 +43,7 @@ p = "a*"
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 s = "ab"
@@ -54,7 +54,7 @@ p = ".*"
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 s = "aab"
@@ -65,7 +65,7 @@ p = "c*a*b"
 
 *Example 5:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 s = "mississippi"

@@ -13,7 +13,7 @@ If there is no substring from `s` that can be changed to its corresponding subst
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "abcd", t = "bcdf", maxCost = 3
 *Output:* 3
@@ -22,7 +22,7 @@ If there is no substring from `s` that can be changed to its corresponding subst
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "abcd", t = "cdef", maxCost = 3
 *Output:* 1
@@ -32,7 +32,7 @@ If there is no substring from `s` that can be changed to its corresponding subst
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "abcd", t = "acde", maxCost = 0
 *Output:* 1

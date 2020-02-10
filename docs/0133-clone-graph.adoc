@@ -8,7 +8,7 @@ Return a https://en.wikipedia.org/wiki/Object_copying#Deep_copy[*deep copy*] (cl
 
 Each node in the graph contains a val (`int`) and a list (`List[Node]`) of its neighbors.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 class Node {
     public int val;
@@ -31,7 +31,7 @@ The given node will always be the first node with `val = 1`. You must return the
 
 image::https://assets.leetcode.com/uploads/2019/11/04/133_clone_graph_question.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* adjList = [[2,4],[1,3],[2,4],[1,3]]
 *Output:* [[2,4],[1,3],[2,4],[1,3]]
@@ -46,7 +46,7 @@ image::https://assets.leetcode.com/uploads/2019/11/04/133_clone_graph_question.p
 
 image::https://assets.leetcode.com/uploads/2020/01/07/graph.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* adjList = [[]]
 *Output:* [[]]
@@ -55,7 +55,7 @@ image::https://assets.leetcode.com/uploads/2020/01/07/graph.png[]
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* adjList = []
 *Output:* []
@@ -66,7 +66,7 @@ image::https://assets.leetcode.com/uploads/2020/01/07/graph.png[]
 
 image::https://assets.leetcode.com/uploads/2020/01/07/graph-1.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* adjList = [[2],[1]]
 *Output:* [[2],[1]]

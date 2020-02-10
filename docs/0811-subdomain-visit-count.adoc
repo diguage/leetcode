@@ -8,7 +8,7 @@ Now, call a "count-paired domain" to be a count (representing the number of visi
 
 We are given a list `cpdomains` of count-paired domains. We would like a list of count-paired domains, (in the same format as the input, and in any order), that explicitly counts the number of visits to each subdomain.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example 1:*
 *Input:* 
@@ -20,7 +20,7 @@ We only have one website domain: "discuss.leetcode.com". As discussed above, the
 
 ----
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example 2:*
 *Input:* 

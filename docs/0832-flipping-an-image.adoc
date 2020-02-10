@@ -10,7 +10,7 @@ To invert an image means that each `0` is replaced by `1`, and each `1` is repla
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[1,1,0],[1,0,1],[0,0,0]]
 *Output:* [[1,0,0],[0,1,0],[1,1,1]]
@@ -20,7 +20,7 @@ Then, invert the image: [[1,0,0],[0,1,0],[1,1,1]]
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]]
 *Output:* [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]

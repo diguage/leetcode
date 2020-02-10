@@ -13,7 +13,7 @@ Can you write a SQL query to output the result for Mary?
 
  
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +---------+---------+
 |    id   | student |
@@ -29,7 +29,7 @@ For the sample input, the output is:
 
  
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +---------+---------+
 |    id   | student |

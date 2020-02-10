@@ -11,7 +11,7 @@ The tilt of the *whole tree* is defined as the sum of all nodes' tilt.
 *Example:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
          1

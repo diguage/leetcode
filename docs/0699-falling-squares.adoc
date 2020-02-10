@@ -15,7 +15,7 @@ Return a list `ans` of heights. Each height `ans[i]` represents the current high
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[1, 2], [2, 3], [6, 1]]
 *Output:* [2, 5, 5]
@@ -33,7 +33,7 @@ After the third drop of `positions[1] = [6, 1]: __aaa __aaa __aaa _aa _aa___a --
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[100, 100], [200, 100]]
 *Output:* [100, 100]

@@ -15,7 +15,7 @@ Now given N, how many beautiful arrangements can you construct?
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 2
 *Output:* 2

@@ -7,7 +7,7 @@ Given a *non-empty* array of integers, return the *third* maximum number in this
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [3, 2, 1]
 
@@ -20,7 +20,7 @@ Given a *non-empty* array of integers, return the *third* maximum number in this
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1, 2]
 
@@ -33,7 +33,7 @@ Given a *non-empty* array of integers, return the *third* maximum number in this
 *Example 3:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [2, 2, 3, 1]
 

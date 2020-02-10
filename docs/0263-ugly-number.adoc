@@ -8,7 +8,7 @@ Ugly numbers are *positive numbers* whose prime factors only include `2, 3, 5`.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 6
 *Output:* true
@@ -17,7 +17,7 @@ Ugly numbers are *positive numbers* whose prime factors only include `2, 3, 5`.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 8
 *Output:* true
@@ -27,7 +27,7 @@ Ugly numbers are *positive numbers* whose prime factors only include `2, 3, 5`.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 14
 *Output:* false 

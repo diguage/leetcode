@@ -29,7 +29,7 @@ Furthermore, you may assume that the original data does not contain any digits a
 
 *Examples:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 s = "3[a]2[bc]", return "aaabcbc".
 s = "3[a2[c]]", return "accaccacc".

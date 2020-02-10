@@ -30,7 +30,7 @@ Given a `graph`, and assuming both players play optimally, return `1` if the gam
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]]
 *Output:* 0

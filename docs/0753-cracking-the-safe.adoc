@@ -14,7 +14,7 @@ Return any password of *minimum length* that is guaranteed to open the box at so
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 1, k = 2
 *Output:* "01"
@@ -23,7 +23,7 @@ Return any password of *minimum length* that is guaranteed to open the box at so
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 2, k = 2
 *Output:* "00110"

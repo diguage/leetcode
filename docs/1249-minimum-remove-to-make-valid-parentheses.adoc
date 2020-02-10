@@ -17,7 +17,7 @@ Formally, a _parentheses string_ is valid if and only if:
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "lee(t(c)o)de)"
 *Output:* "lee(t(c)o)de"
@@ -26,7 +26,7 @@ Formally, a _parentheses string_ is valid if and only if:
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "a)b(c)d"
 *Output:* "ab(c)d"
@@ -34,7 +34,7 @@ Formally, a _parentheses string_ is valid if and only if:
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "))(("
 *Output:* ""
@@ -43,7 +43,7 @@ Formally, a _parentheses string_ is valid if and only if:
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "(a(b(c)d)"
 *Output:* "a(b(c)d)"

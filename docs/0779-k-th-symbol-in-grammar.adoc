@@ -6,7 +6,7 @@ On the first row, we write a `0`. Now in every subsequent row, we look at the pr
 
 Given row `N` and index `K`, return the `K`-th indexed symbol in row `N`. (The values of `K` are 1-indexed.) (1 indexed).
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Examples:*
 *Input:* N = 1, K = 1

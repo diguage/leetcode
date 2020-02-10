@@ -10,7 +10,7 @@ Return the largest sum of the given array after partitioning.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [1,15,7,9,2,5,10], K = 3
 *Output:* 84

@@ -7,7 +7,7 @@ Given a string, you need to reverse the order of characters in each word within 
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "Let's take LeetCode contest"
 *Output:* "s'teL ekat edoCteeL tsetnoc"

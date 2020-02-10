@@ -7,7 +7,7 @@ Given a singly linked list where elements are sorted in ascending order, convert
 For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of _every_ node never differ by more than 1.
 
 .Example:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Given the sorted linked list: [-10,-3,0,5,9],
 

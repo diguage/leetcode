@@ -9,7 +9,7 @@ Reverse a singly linked list.
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 1->2->3->4->5->NULL
 *Output:* 5->4->3->2->1->NULL

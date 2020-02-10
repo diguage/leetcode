@@ -13,7 +13,7 @@ Return the shortest distance between the given `start` and `destination` stops.
 
 image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1.jpg[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* distance = [1,2,3,4], start = 0, destination = 1
 *Output:* 1
@@ -26,7 +26,7 @@ image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1.jpg[]
 
 image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1-1.jpg[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* distance = [1,2,3,4], start = 0, destination = 2
 *Output:* 3
@@ -39,7 +39,7 @@ image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1-1.jpg[]
 
 image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1-2.jpg[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* distance = [1,2,3,4], start = 0, destination = 3
 *Output:* 4

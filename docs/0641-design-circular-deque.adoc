@@ -22,7 +22,7 @@ Your implementation should support following operations:
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 MyCircularDeque circularDeque = new MycircularDeque(3); // set the size to be 3
 circularDeque.insertLast(1);			// return true

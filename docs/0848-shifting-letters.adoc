@@ -14,7 +14,7 @@ Return the final string after all such shifts to `S` are applied.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* S = "abc", shifts = [3,5,9]
 *Output:* "rpl"

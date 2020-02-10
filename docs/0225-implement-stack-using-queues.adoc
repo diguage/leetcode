@@ -13,7 +13,7 @@ Implement the following operations of a stack using queues.
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 MyStack stack = new MyStack();
 

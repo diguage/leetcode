@@ -16,7 +16,7 @@ It's guaranteed that a unique mapping will always exist.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "10#11#12"
 *Output:* "jkab"
@@ -25,7 +25,7 @@ It's guaranteed that a unique mapping will always exist.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "1326#"
 *Output:* "acz"
@@ -33,7 +33,7 @@ It's guaranteed that a unique mapping will always exist.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "25#"
 *Output:* "y"
@@ -41,7 +41,7 @@ It's guaranteed that a unique mapping will always exist.
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "12345678910#11#12#13#14#15#16#17#18#19#20#21#22#23#24#25#26#"
 *Output:* "abcdefghijklmnopqrstuvwxyz"

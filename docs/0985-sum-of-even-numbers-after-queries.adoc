@@ -14,7 +14,7 @@ Return the answer to all queries.  Your `answer` array should have `answer[i]` a
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [1,2,3,4], queries = [[1,0],[-3,1],[-4,0],[2,3]]
 *Output:* [8,6,2,4]

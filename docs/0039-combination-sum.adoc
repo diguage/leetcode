@@ -61,7 +61,7 @@ The *same* repeated number may be chosen from `candidates` unlimited number of t
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* candidates = `[2,3,6,7], `target = `7`,
 *A solution set is:*
@@ -73,7 +73,7 @@ The *same* repeated number may be chosen from `candidates` unlimited number of t
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* candidates = [2,3,5]`, `target = 8,
 *A solution set is:*

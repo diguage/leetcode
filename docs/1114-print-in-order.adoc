@@ -4,7 +4,7 @@ https://leetcode.com/problems/print-in-order/[LeetCode - Print in Order]
 
 Suppose we have a class:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 public class Foo {
   public void first() { print("first"); }
@@ -20,7 +20,7 @@ The same instance of `Foo` will be passed to three different threads. Thread A w
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,3]
 *Output:* "firstsecondthird"
@@ -30,7 +30,7 @@ The same instance of `Foo` will be passed to three different threads. Thread A w
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,3,2]
 *Output:* "firstsecondthird"

@@ -13,7 +13,7 @@ Assume the length of given string will not exceed 1,010.
 
 
 *Example: *
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Input:
 "abccccdd"

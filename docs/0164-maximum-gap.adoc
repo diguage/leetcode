@@ -8,7 +8,7 @@ Return 0 if the array contains less than 2 elements.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [3,6,9,1]
 *Output:* 3
@@ -18,7 +18,7 @@ Return 0 if the array contains less than 2 elements.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [10]
 *Output:* 0

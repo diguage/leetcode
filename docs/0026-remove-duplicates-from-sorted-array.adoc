@@ -8,7 +8,7 @@ Do not allocate extra space for another array, you must do this by *modifying th
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Given _nums_ = *[1,1,2]*,
 
@@ -19,7 +19,7 @@ It doesn't matter what you leave beyond the returned length.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Given _nums_ = *[0,0,1,1,1,2,2,3,3,4]*,
 
@@ -37,7 +37,7 @@ Note that the input array is passed in by *reference*, which means modification 
 
 Internally you can think of this:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 // *nums* is passed in by reference. (i.e., without making a copy)
 int len = removeDuplicates(nums);

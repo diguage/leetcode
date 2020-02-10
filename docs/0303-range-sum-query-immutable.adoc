@@ -5,7 +5,7 @@ https://leetcode.com/problems/range-sum-query-immutable/[LeetCode - Range Sum Qu
 Given an integer array _nums_, find the sum of the elements between indices _i_ and _j_ (_i_ ≤ _j_), inclusive.
 
 *Example:*<br>
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Given nums = [-2, 0, 3, -5, 2, -1]
 

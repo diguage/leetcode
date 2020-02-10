@@ -8,7 +8,7 @@ Now answer two questions: how many lines have at least one character from `S`, a
 
  
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example :*
 *Input:* 
@@ -20,7 +20,7 @@ All letters have the same length of 10. To write all 26 letters,
 we need two full lines and one line with 60 units.
 ----
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example :*
 *Input:* 

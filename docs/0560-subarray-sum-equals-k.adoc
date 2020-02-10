@@ -28,7 +28,7 @@ Given an array of integers and an integer *k*, you need to find the total number
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [1,1,1], k = 2
 *Output:* 2

@@ -15,7 +15,7 @@ You may assume all the characters consist of https://en.wikipedia.org/wiki/ASCII
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["h","e","l","l","o"]
 *Output:* ["o","l","l","e","h"]
@@ -24,7 +24,7 @@ You may assume all the characters consist of https://en.wikipedia.org/wiki/ASCII
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["H","a","n","n","a","h"]
 *Output:* ["h","a","n","n","a","H"]

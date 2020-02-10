@@ -17,7 +17,7 @@ Return `true` if and only if the nodes corresponding to the values `x` and `y` a
 
 image::https://assets.leetcode.com/uploads/2019/02/12/q1248-01.png[]*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root = [1,2,3,4], x = 4, y = 3
 *Output:* false
@@ -29,7 +29,7 @@ image::https://assets.leetcode.com/uploads/2019/02/12/q1248-01.png[]*
 
 image::https://assets.leetcode.com/uploads/2019/02/12/q1248-02.png[]*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root = [1,2,3,null,4,null,5], x = 5, y = 4
 *Output:* true
@@ -40,7 +40,7 @@ image::https://assets.leetcode.com/uploads/2019/02/12/q1248-02.png[]*
 
 image::https://assets.leetcode.com/uploads/2019/02/13/q1248-03.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root = [1,2,3,null,4], x = 2, y = 3
 *Output:* false

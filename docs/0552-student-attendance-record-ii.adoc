@@ -20,7 +20,7 @@ A record is regarded as rewardable if it doesn't contain *more than one 'A' (abs
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 2
 *Output:* 8 

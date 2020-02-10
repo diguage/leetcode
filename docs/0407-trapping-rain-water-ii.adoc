@@ -14,7 +14,7 @@ Both _m_ and _n_ are less than 110. The height of each unit cell is greater than
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Given the following 3x6 height map:
 [

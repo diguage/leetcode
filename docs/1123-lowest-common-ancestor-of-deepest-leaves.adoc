@@ -15,7 +15,7 @@ Recall that:
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root = [1,2,3]
 *Output:* [1,2,3]
@@ -27,7 +27,7 @@ The answer returned is a TreeNode object (not an array) with serialization "[1,2
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root = [1,2,3,4]
 *Output:* [4]
@@ -35,7 +35,7 @@ The answer returned is a TreeNode object (not an array) with serialization "[1,2
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root = [1,2,3,4,5]
 *Output:* [2,4,5]

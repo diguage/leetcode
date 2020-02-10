@@ -10,7 +10,7 @@ To make problem a bit easier, all A, B, C, D have same length of N where 0 ≤ N
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 A = [ 1, 2]

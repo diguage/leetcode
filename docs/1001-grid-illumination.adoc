@@ -16,7 +16,7 @@ Return an array of answers.  Each value `answer[i]` should be equal to the answe
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 5, lamps = [[0,0],[4,4]], queries = [[1,1],[1,0]]
 *Output:* [1,0]

@@ -5,7 +5,7 @@ https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/[Le
 Given a binary tree
 
 [source,c]
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 struct Node {
   int val;
@@ -28,7 +28,7 @@ Initially, all next pointers are set to `NULL`.
 
 image::images/0117-1.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root = [1,2,3,4,5,null,7]
 *Output:* [1,#,2,3,#,4,5,7,#]

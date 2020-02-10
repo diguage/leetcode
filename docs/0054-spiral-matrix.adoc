@@ -6,7 +6,7 @@ Given a matrix of _m_ x _n_ elements (_m_ rows, _n_ columns), return all element
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 [
@@ -18,7 +18,7 @@ Given a matrix of _m_ x _n_ elements (_m_ rows, _n_ columns), return all element
 ----
 
 *Example 2:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 [

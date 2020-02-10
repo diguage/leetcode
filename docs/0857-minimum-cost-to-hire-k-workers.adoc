@@ -21,7 +21,7 @@ Return the least amount of money needed to form a paid group satisfying the abov
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* quality = [10,20,5], wage = [70,50,30], K = 2
 *Output:* 105.00000
@@ -31,7 +31,7 @@ Return the least amount of money needed to form a paid group satisfying the abov
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* quality = [3,1,10,10,1], wage = [4,8,2,2,7], K = 3
 *Output:* 30.66667

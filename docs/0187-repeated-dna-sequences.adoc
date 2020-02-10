@@ -8,7 +8,7 @@ Write a function to find all the 10-letter-long sequences (substrings) that occu
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
 

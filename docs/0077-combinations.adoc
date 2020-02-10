@@ -34,7 +34,7 @@ Given two integers _n_ and _k_, return all possible combinations of _k_ numbers 
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 4, k = 2
 *Output:*

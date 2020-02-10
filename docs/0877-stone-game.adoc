@@ -14,7 +14,7 @@ Assuming Alex and Lee play optimally, return `True` if and only if Alex wins the
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [5,3,4,5]
 *Output:* true

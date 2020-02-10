@@ -4,7 +4,7 @@ https://leetcode.com/problems/wildcard-matching/[LeetCode - Wildcard Matching]
 
 Given an input string (`s`) and a pattern (`p`), implement wildcard pattern matching with support for `'?'` and `'*'`.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 '?' Matches any single character.
 '*' Matches any sequence of characters (including the empty sequence).
@@ -21,7 +21,7 @@ The matching should cover the *entire* input string (not partial).
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 s = "aa"
@@ -32,7 +32,7 @@ p = "a"
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 s = "aa"
@@ -43,7 +43,7 @@ p = "*"
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 s = "cb"
@@ -54,7 +54,7 @@ p = "?a"
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 s = "adceb"
@@ -65,7 +65,7 @@ p = "*a*b"
 
 *Example 5:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 s = "acdcb"

@@ -6,7 +6,7 @@ We partition a row of numbers `A` into at most `K` adjacent (non-empty) groups, 
 
 Note that our partition must use every number in A, and that scores are not necessarily integers.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example:*
 *Input:* 

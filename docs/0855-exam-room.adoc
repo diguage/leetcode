@@ -12,7 +12,7 @@ Return a class `ExamRoom(int N)` that exposes two functions: `ExamRoom.seat()` r
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["ExamRoom","seat","seat","seat","seat","leave","seat"], [[10],[],[],[],[],[4],[]]
 *Output:* [null,0,9,4,2,null,5]

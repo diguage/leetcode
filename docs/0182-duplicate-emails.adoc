@@ -4,7 +4,7 @@ https://leetcode.com/problems/duplicate-emails/[LeetCode - Duplicate Emails]
 
 Write a SQL query to find all duplicate emails in a table named `Person`.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +----+---------+
 | Id | Email   |
@@ -17,7 +17,7 @@ Write a SQL query to find all duplicate emails in a table named `Person`.
 
 For example, your query should return the following for the above table:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +---------+
 | Email   |

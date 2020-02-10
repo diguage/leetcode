@@ -60,7 +60,7 @@ Each solution contains a distinct board configuration of the _n_-queens' placeme
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 4
 *Output:* [

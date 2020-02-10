@@ -6,7 +6,7 @@ Given an integer _n_, generate all structurally unique *BST's* (binary search tr
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 3
 *Output:*

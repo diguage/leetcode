@@ -24,7 +24,7 @@ You could use any of special offers as many times as you want.
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [2,5], [[3,0,5],[1,2,10]], [3,2]
 *Output:* 14
@@ -39,7 +39,7 @@ You need to buy 3A and 2B, so you may pay $10 for 1A and 2B (special offer #2), 
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [2,3,4], [[1,1,0,4],[2,2,1,9]], [1,2,1]
 *Output:* 11

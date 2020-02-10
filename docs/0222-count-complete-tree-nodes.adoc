@@ -13,7 +13,7 @@ In a complete binary tree every level, except possibly the last, is completely f
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
     1

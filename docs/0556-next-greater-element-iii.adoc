@@ -6,7 +6,7 @@ Given a positive *32-bit* integer *n*, you need to find the smallest *32-bit* in
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 12
 *Output:* 21
@@ -16,7 +16,7 @@ Given a positive *32-bit* integer *n*, you need to find the smallest *32-bit* in
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 21
 *Output:* -1

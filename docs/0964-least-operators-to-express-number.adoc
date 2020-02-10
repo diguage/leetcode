@@ -20,7 +20,7 @@ We would like to write an expression with the least number of operators such tha
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* x = 3, target = 19
 *Output:* 5
@@ -30,7 +30,7 @@ We would like to write an expression with the least number of operators such tha
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* x = 5, target = 501
 *Output:* 8
@@ -40,7 +40,7 @@ We would like to write an expression with the least number of operators such tha
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* x = 100, target = 100000000
 *Output:* 3

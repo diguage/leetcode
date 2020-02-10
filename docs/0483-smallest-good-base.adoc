@@ -8,7 +8,7 @@ Now given a string representing n, you should return the smallest good base of n
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "13"
 *Output:* "3"
@@ -19,7 +19,7 @@ Now given a string representing n, you should return the smallest good base of n
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "4681"
 *Output:* "8"
@@ -30,7 +30,7 @@ Now given a string representing n, you should return the smallest good base of n
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "1000000000000000000"
 *Output:* "999999999999999999"

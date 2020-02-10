@@ -4,7 +4,7 @@ https://leetcode.com/problems/print-zero-even-odd/[LeetCode - Print Zero Even Od
 
 Suppose you are given the following code:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 class ZeroEvenOdd {
   public ZeroEvenOdd(int n) { ... }      // constructor
@@ -28,7 +28,7 @@ Each of the threads is given a `printNumber` method to output an integer. Modify
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 2
 *Output:* "0102"
@@ -37,7 +37,7 @@ Each of the threads is given a `printNumber` method to output an integer. Modify
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 5
 *Output:* "0102030405"

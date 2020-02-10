@@ -16,7 +16,7 @@ Can you save the day? If so, what is the number of walls required? If not, and t
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* grid = 
 [[0,1,0,0,0,0,0,1],
@@ -40,7 +40,7 @@ On the second day, add 5 walls to quarantine the viral region on the right. The 
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* grid = 
 [[1,1,1],
@@ -55,7 +55,7 @@ Notice that walls are only built on the shared boundary of two different cells.
 *Example 3:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* grid = 
 [[1,1,1,0,0,0,0,0,0],

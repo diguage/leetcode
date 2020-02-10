@@ -15,7 +15,7 @@ The rank represents how large the element is. The rank has the following rules:
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr = [40,10,20,30]
 *Output:* [4,1,2,3]
@@ -24,7 +24,7 @@ The rank represents how large the element is. The rank has the following rules:
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr = [100,100,100]
 *Output:* [1,1,1]
@@ -34,7 +34,7 @@ The rank represents how large the element is. The rank has the following rules:
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr = [37,12,28,9,100,56,80,5,12]
 *Output:* [5,3,4,2,8,6,7,1,3]

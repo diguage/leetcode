@@ -6,7 +6,7 @@ We have a list of bus routes. Each `routes[i]` is a bus route that the i-th bus 
 
 We start at bus stop `S` (initially not on a bus), and we want to go to bus stop `T`. Travelling by buses only, what is the least number of buses we must take to reach our destination? Return -1 if it is not possible.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example:*
 *Input:* 

@@ -6,7 +6,7 @@ In a forest, each rabbit has some color. Some subset of rabbits (possibly all of
 
 Return the minimum number of rabbits that could be in the forest.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Examples:*
 *Input:* answers = [1, 1, 2]

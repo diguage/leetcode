@@ -4,7 +4,7 @@ https://leetcode.com/problems/integer-to-roman/[LeetCode - Integer to Roman]
 
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Symbol*       *Value*
 I             1
@@ -30,7 +30,7 @@ Given an integer, convert it to a roman numeral. Input is guaranteed to be withi
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 3
 *Output:* "III"
@@ -38,7 +38,7 @@ Given an integer, convert it to a roman numeral. Input is guaranteed to be withi
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 4
 *Output:* "IV"
@@ -46,7 +46,7 @@ Given an integer, convert it to a roman numeral. Input is guaranteed to be withi
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 9
 *Output:* "IX"
@@ -54,7 +54,7 @@ Given an integer, convert it to a roman numeral. Input is guaranteed to be withi
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 58
 *Output:* "LVIII"
@@ -63,7 +63,7 @@ Given an integer, convert it to a roman numeral. Input is guaranteed to be withi
 
 *Example 5:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 1994
 *Output:* "MCMXCIV"

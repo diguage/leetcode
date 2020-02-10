@@ -6,7 +6,7 @@ A sorted list `A` contains 1, plus some number of primes.  Then, for every p < q
 
 What is the `K`-th smallest fraction considered?  Return your answer as an array of ints, where `answer[0] = p` and `answer[1] = q`.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Examples:*
 *Input:* A = [1, 2, 3, 5], K = 3

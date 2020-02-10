@@ -6,7 +6,7 @@ Given the root node of a binary search tree (BST) and a value. You need to find 
 
 For example, 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Given the tree:
         4
@@ -20,7 +20,7 @@ And the value to search: 2
 
 You should return this subtree:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
       2     
      / \   

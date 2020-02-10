@@ -15,7 +15,7 @@ Return _the minimum number of taps_ that should be open to water the whole garde
 
 image::https://assets.leetcode.com/uploads/2020/01/16/1685_example_1.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 5, ranges = [3,4,1,1,0,0]
 *Output:* 1
@@ -30,7 +30,7 @@ Opening Only the second tap will water the whole garden [0,5]
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 3, ranges = [0,0,0,0]
 *Output:* -1
@@ -39,7 +39,7 @@ Opening Only the second tap will water the whole garden [0,5]
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 7, ranges = [1,2,1,0,2,1,0,1]
 *Output:* 3
@@ -47,7 +47,7 @@ Opening Only the second tap will water the whole garden [0,5]
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 8, ranges = [4,0,0,0,0,0,0,0,4]
 *Output:* 2
@@ -55,7 +55,7 @@ Opening Only the second tap will water the whole garden [0,5]
 
 *Example 5:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 8, ranges = [4,0,0,0,4,0,0,0,4]
 *Output:* 1

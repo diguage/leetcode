@@ -12,7 +12,7 @@ However, when you guess a particular number x, and you guess wrong, you pay *$x*
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 n = 10, I pick 8.
 

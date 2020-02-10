@@ -11,7 +11,7 @@ Given a non-empty string S and a number K, format the string according to the ru
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* S = "5F3Z-2e-9-w", K = 4
 
@@ -26,7 +26,7 @@ Note that the two extra dashes are not needed and can be removed.
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* S = "2-5g-3-J", K = 2
 

@@ -8,7 +8,7 @@ Given a non-empty string check if it can be constructed by taking a substring of
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "abab"
 *Output:* True
@@ -17,7 +17,7 @@ Given a non-empty string check if it can be constructed by taking a substring of
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "aba"
 *Output:* False
@@ -25,7 +25,7 @@ Given a non-empty string check if it can be constructed by taking a substring of
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "abcabcabcabc"
 *Output:* True

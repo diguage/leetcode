@@ -10,7 +10,7 @@ If the fractional part is repeating, enclose the repeating part in parentheses.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* numerator = 1, denominator = 2
 *Output:* "0.5"
@@ -18,7 +18,7 @@ If the fractional part is repeating, enclose the repeating part in parentheses.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* numerator = 2, denominator = 1
 *Output:* "2"
@@ -26,7 +26,7 @@ If the fractional part is repeating, enclose the repeating part in parentheses.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* numerator = 2, denominator = 3
 *Output:* "0.(6)"

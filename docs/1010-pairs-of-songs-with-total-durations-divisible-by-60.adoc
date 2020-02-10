@@ -10,7 +10,7 @@ Return the number of pairs of songs for which their total duration in seconds is
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [30,20,150,100,40]
 *Output:* 3
@@ -23,7 +23,7 @@ Return the number of pairs of songs for which their total duration in seconds is
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [60,60,60]
 *Output:* 3

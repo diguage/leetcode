@@ -8,7 +8,7 @@ Count the number of prime numbers less than a non-negative number, *_n_*.
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 10
 *Output:* 4

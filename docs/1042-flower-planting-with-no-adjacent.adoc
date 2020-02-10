@@ -17,7 +17,7 @@ Return *any* such a choice as an array `answer`, where `answer[i]` is the type o
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 3, paths = [[1,2],[2,3],[3,1]]
 *Output:* [1,2,3]
@@ -26,7 +26,7 @@ Return *any* such a choice as an array `answer`, where `answer[i]` is the type o
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 4, paths = [[1,2],[3,4]]
 *Output:* [1,2,1,2]
@@ -35,7 +35,7 @@ Return *any* such a choice as an array `answer`, where `answer[i]` is the type o
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 4, paths = [[1,2],[2,3],[3,4],[4,1],[1,3],[2,4]]
 *Output:* [1,2,3,4]

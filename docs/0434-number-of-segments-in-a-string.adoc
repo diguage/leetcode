@@ -7,7 +7,7 @@ Count the number of segments in a string, where a segment is defined to be a con
 Please note that the string does not contain any *non-printable* characters.
 
 *Example:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "Hello, my name is John"
 *Output:* 5

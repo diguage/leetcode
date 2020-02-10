@@ -6,7 +6,7 @@ https://leetcode.com/problems/decode-ways/[LeetCode - Decode Ways]
 
 A message containing letters from `A-Z` is being encoded to numbers using the following mapping:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 'A' -> 1
 'B' -> 2
@@ -19,7 +19,7 @@ Given a *non-empty* string containing only digits, determine the total number of
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "12"
 *Output:* 2
@@ -29,7 +29,7 @@ Given a *non-empty* string containing only digits, determine the total number of
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "226"
 *Output:* 3

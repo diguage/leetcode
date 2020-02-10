@@ -8,7 +8,7 @@ Given a sequence of `words` written in the alien language, and the `order` of th
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* words = ["hello","leetcode"], order = "hlabcdefgijkmnopqrstuvwxyz"
 *Output:* true
@@ -17,7 +17,7 @@ Given a sequence of `words` written in the alien language, and the `order` of th
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* words = ["word","world","row"], order = "worldabcefghijkmnpqstuvxyz"
 *Output:* false
@@ -26,7 +26,7 @@ Given a sequence of `words` written in the alien language, and the `order` of th
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* words = ["apple","app"], order = "abcdefghijklmnopqrstuvwxyz"
 *Output:* false

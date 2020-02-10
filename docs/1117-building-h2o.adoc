@@ -22,7 +22,7 @@ Write synchronization code for oxygen and hydrogen molecules that enforces these
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "HOH"
 *Output:* "HHO"
@@ -32,7 +32,7 @@ Write synchronization code for oxygen and hydrogen molecules that enforces these
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "OOHHHH"
 *Output:* "HHOHHO"

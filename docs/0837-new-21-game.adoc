@@ -10,7 +10,7 @@ Alice stops drawing numbers when she gets `K` or more points.  What is the proba
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 10, K = 1, W = 10
 *Output:* 1.00000
@@ -20,7 +20,7 @@ Alice stops drawing numbers when she gets `K` or more points.  What is the proba
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 6, K = 1, W = 10
 *Output:* 0.60000
@@ -31,7 +31,7 @@ In 6 out of W = 10 possibilities, she is at or below N = 6 points.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 21, K = 17, W = 10
 *Output:* 0.73278

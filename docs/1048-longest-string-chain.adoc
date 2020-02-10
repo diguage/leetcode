@@ -14,7 +14,7 @@ Return the longest possible length of a word chain with words chosen from the gi
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["a","b","ba","bca","bda","bdca"]
 *Output:* 4

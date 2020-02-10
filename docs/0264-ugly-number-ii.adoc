@@ -8,7 +8,7 @@ Ugly numbers are* positive numbers* whose prime factors only include `2, 3, 5`.
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 10
 *Output:* 12

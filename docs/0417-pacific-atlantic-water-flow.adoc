@@ -19,7 +19,7 @@ Find the list of grid coordinates where water can flow to both the Pacific and A
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Given the following 5x5 matrix:
 

@@ -11,7 +11,7 @@ Notice that the answer is not neccesarilly a number from `arr`.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr = [4,9,3], target = 10
 *Output:* 3
@@ -20,7 +20,7 @@ Notice that the answer is not neccesarilly a number from `arr`.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr = [2,3,5], target = 10
 *Output:* 5
@@ -28,7 +28,7 @@ Notice that the answer is not neccesarilly a number from `arr`.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr = [60864,25176,27249,21296,20204], target = 56803
 *Output:* 11361

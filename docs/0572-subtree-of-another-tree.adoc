@@ -9,7 +9,7 @@ Given two non-empty binary trees *s* and *t*, check whether tree *t* has exactly
 *Example 1:*<br>
 
 Given tree s:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
      3
     / \
@@ -18,7 +18,7 @@ Given tree s:
  1   2
 ----
 Given tree t:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
    4 
   / \
@@ -30,7 +30,7 @@ Return *true*, because t has the same structure and node values with a subtree o
 *Example 2:*<br>
 
 Given tree s:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
      3
     / \
@@ -41,7 +41,7 @@ Given tree s:
    0
 ----
 Given tree t:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
    4
   / \

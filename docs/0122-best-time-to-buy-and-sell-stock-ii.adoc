@@ -47,7 +47,7 @@ Design an algorithm to find the maximum profit. You may complete as many transac
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [7,1,5,3,6,4]
 *Output:* 7
@@ -58,7 +58,7 @@ Design an algorithm to find the maximum profit. You may complete as many transac
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,3,4,5]
 *Output:* 4
@@ -70,7 +70,7 @@ Design an algorithm to find the maximum profit. You may complete as many transac
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [7,6,4,3,1]
 *Output:* 0

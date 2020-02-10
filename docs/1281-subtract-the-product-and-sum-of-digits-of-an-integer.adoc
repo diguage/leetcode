@@ -6,7 +6,7 @@ Given an integer number `n`, return the difference between the product of its di
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 234
 *Output:* 15 
@@ -18,7 +18,7 @@ Result = 24 - 9 = 15
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 4421
 *Output:* 21

@@ -11,7 +11,7 @@ The binary search tree is guaranteed to have unique values.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root = [10,5,15,3,7,null,18], L = 7, R = 15
 *Output:* 32
@@ -20,7 +20,7 @@ The binary search tree is guaranteed to have unique values.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root = [10,5,15,3,7,13,18,1,null,6], L = 6, R = 10
 *Output:* 23

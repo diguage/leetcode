@@ -16,7 +16,7 @@ Return the minimum number of moves to transform the given array `nums` into a zi
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [1,2,3]
 *Output:* 2
@@ -25,7 +25,7 @@ Return the minimum number of moves to transform the given array `nums` into a zi
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [9,6,1,6,2]
 *Output:* 4

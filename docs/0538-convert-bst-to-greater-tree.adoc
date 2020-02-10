@@ -6,7 +6,7 @@ Given a Binary Search Tree (BST), convert it to a Greater Tree such that every k
 
 
 *Example:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* The root of a Binary Search Tree like this:
               5

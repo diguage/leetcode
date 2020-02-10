@@ -6,7 +6,7 @@ Given a binary tree, return the _postorder_ traversal of its nodes' values.
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `[1,null,2,3]`
    1

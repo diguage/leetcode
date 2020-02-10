@@ -22,7 +22,7 @@ Could you do both operations in *O(1)* time complexity?
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 LRUCache cache = new LRUCache( 2 /* capacity */ );
 

@@ -43,7 +43,7 @@ N will not exceed 100,000.
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 6
 *Output:* 3

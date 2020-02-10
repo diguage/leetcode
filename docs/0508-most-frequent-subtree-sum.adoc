@@ -8,7 +8,7 @@ Given the root of a tree, you are asked to find the most frequent subtree sum. T
 
 *Examples 1*<br>
 Input:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
   5
  /  \
@@ -19,7 +19,7 @@ return [2, -3, 4], since all the values happen only once, return all of them in 
 
 *Examples 2*<br>
 Input:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
   5
  /  \

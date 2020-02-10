@@ -20,7 +20,7 @@ At the stage of rotating the ring to spell the key character *key[i]*:
 image::https://assets.leetcode.com/uploads/2018/10/22/ring.jpg[]
  
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ring = "godding", key = "gd"
 *Output:* 4

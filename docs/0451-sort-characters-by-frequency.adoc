@@ -5,7 +5,7 @@ https://leetcode.com/problems/sort-characters-by-frequency/[LeetCode - Sort Char
 Given a string, sort it in decreasing order based on the frequency of characters.
 
 *Example 1:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 "tree"
@@ -20,7 +20,7 @@ So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid ans
 
 
 *Example 2:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 "cccaaa"
@@ -35,7 +35,7 @@ Note that "cacaca" is incorrect, as the same characters must be together.
 
 
 *Example 3:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 "Aabb"

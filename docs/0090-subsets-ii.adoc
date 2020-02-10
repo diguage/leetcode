@@ -44,7 +44,7 @@ Given a collection of integers that might contain duplicates, *_nums_*, return a
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,2]
 *Output:*

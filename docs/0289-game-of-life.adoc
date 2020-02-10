@@ -17,7 +17,7 @@ Write a function to compute the next state (after one update) of the board given
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 [

@@ -13,7 +13,7 @@ Return the minimum number of boats to carry every given person.  (It is guarante
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* people = [1,2], limit = 3
 *Output:* 1
@@ -24,7 +24,7 @@ Return the minimum number of boats to carry every given person.  (It is guarante
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* people = [3,2,2,1], limit = 3
 *Output:* 3
@@ -35,7 +35,7 @@ Return the minimum number of boats to carry every given person.  (It is guarante
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* people = [3,5,3,4], limit = 5
 *Output:* 4

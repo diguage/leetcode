@@ -14,7 +14,7 @@ If there is no non-empty subarray with sum at least `K`, return `-1`.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [1], K = 1
 *Output:* 1
@@ -23,7 +23,7 @@ If there is no non-empty subarray with sum at least `K`, return `-1`.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [1,2], K = 4
 *Output:* -1
@@ -32,7 +32,7 @@ If there is no non-empty subarray with sum at least `K`, return `-1`.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [2,-1,2], K = 3
 *Output:* 3

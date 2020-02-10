@@ -11,7 +11,7 @@ Find the minimal balls you have to insert to remove all the balls on the table. 
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* board = "WRRBBW", hand = "RB"
 *Output:* -1
@@ -20,7 +20,7 @@ Find the minimal balls you have to insert to remove all the balls on the table. 
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* board = "WWRRBBWW", hand = "WRBRW"
 *Output:* 2
@@ -29,7 +29,7 @@ Find the minimal balls you have to insert to remove all the balls on the table. 
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* board = "G", hand = "GGGGG"
 *Output:* 2
@@ -38,7 +38,7 @@ Find the minimal balls you have to insert to remove all the balls on the table. 
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* board = "RBYYBBRRB", hand = "YRBGB"
 *Output:* 3

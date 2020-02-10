@@ -7,7 +7,7 @@ Given a positive integer n, find the number of *non-negative* integers less than
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 5
 *Output:* 5

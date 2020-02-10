@@ -7,7 +7,7 @@ X city built a new stadium, each day many people visit it and the stats are save
 Please write a query to display the records which have 3 or more consecutive rows and the amount of people more than 100(inclusive).
 For example, the table `stadium`:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +------+------------+-----------+
 | id   | visit_date | people    |
@@ -25,7 +25,7 @@ For example, the table `stadium`:
 
 For the sample data above, the output is:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +------+------------+-----------+
 | id   | visit_date | people    |

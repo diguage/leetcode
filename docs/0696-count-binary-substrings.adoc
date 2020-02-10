@@ -9,7 +9,7 @@ Substrings that occur multiple times are counted the number of times they occur.
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "00110011"
 *Output:* 6
@@ -22,7 +22,7 @@ Substrings that occur multiple times are counted the number of times they occur.
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "10101"
 *Output:* 4

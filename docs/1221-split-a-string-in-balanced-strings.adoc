@@ -11,7 +11,7 @@ Return the maximum amount of splitted balanced strings.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "RLRRLLRLRL"
 *Output:* 4
@@ -20,7 +20,7 @@ Return the maximum amount of splitted balanced strings.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "RLLLLRRRLR"
 *Output:* 3
@@ -29,7 +29,7 @@ Return the maximum amount of splitted balanced strings.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "LLLLRRRR"
 *Output:* 1
@@ -38,7 +38,7 @@ Return the maximum amount of splitted balanced strings.
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "RLRRRLLRLL"
 *Output:* 2

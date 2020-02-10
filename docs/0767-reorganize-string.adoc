@@ -8,7 +8,7 @@ If possible, output any possible result.  If not possible, return the empty stri
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* S = "aab"
 *Output:* "aba"
@@ -16,7 +16,7 @@ If possible, output any possible result.  If not possible, return the empty stri
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* S = "aaab"
 *Output:* ""

@@ -10,7 +10,7 @@ Now, given two positive integers `L` and `R` (represented as strings), return th
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* L = "4", R = "1000"
 *Output:* 4

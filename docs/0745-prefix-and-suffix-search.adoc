@@ -8,7 +8,7 @@ Design a class `WordFilter` that supports one function, `WordFilter.f(String pre
 
 *Examples:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 WordFilter(["apple"])

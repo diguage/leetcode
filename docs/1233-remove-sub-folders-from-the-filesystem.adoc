@@ -11,7 +11,7 @@ The format of a path is one or more concatenated strings of the form: `/` follow
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* folder = ["/a","/a/b","/c/d","/c/d/e","/c/f"]
 *Output:* ["/a","/c/d","/c/f"]
@@ -20,7 +20,7 @@ The format of a path is one or more concatenated strings of the form: `/` follow
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* folder = ["/a","/a/b/c","/a/b/d"]
 *Output:* ["/a"]
@@ -29,7 +29,7 @@ The format of a path is one or more concatenated strings of the form: `/` follow
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* folder = ["/a/b/c","/a/b/ca","/a/b/d"]
 *Output:* ["/a/b/c","/a/b/ca","/a/b/d"]

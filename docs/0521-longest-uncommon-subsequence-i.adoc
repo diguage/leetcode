@@ -18,7 +18,7 @@ The input will be two strings, and the output needs to be the length of the long
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "aba", "cdc"
 *Output:* 3

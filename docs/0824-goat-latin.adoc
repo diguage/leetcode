@@ -35,7 +35,7 @@ Return the final sentence representing the conversion from `S` to Goat Latin.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "I speak Goat Latin"
 *Output:* "Imaa peaksmaaa oatGmaaaa atinLmaaaaa"
@@ -43,7 +43,7 @@ Return the final sentence representing the conversion from `S` to Goat Latin.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "The quick brown fox jumped over the lazy dog"
 *Output:* "heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa"

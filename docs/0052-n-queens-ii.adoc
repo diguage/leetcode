@@ -38,7 +38,7 @@ Given an integer _n_, return the number of distinct solutions to the _n_-queens 
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 4
 *Output:* 2

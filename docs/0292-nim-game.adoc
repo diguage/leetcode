@@ -8,7 +8,7 @@ Both of you are very clever and have optimal strategies for the game. Write a fu
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `4`
 *Output:* false 

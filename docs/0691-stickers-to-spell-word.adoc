@@ -13,17 +13,17 @@ What is the minimum number of stickers that you need to spell out the `target`? 
 
 
 *Example 1:*
-Input:[subs="verbatim,quotes"]
+Input:[subs="verbatim,quotes,macros"]
 ----
 ["with", "example", "science"], "thehat"
 ----
 
-Output:[subs="verbatim,quotes"]
+Output:[subs="verbatim,quotes,macros"]
 ----
 3
 ----
 
-Explanation:[subs="verbatim,quotes"]
+Explanation:[subs="verbatim,quotes,macros"]
 ----
 We can use 2 "with" stickers, and 1 "example" sticker.
 After cutting and rearrange the letters of those stickers, we can form the target "thehat".
@@ -31,17 +31,17 @@ Also, this is the minimum number of stickers necessary to form the target string
 ----
 
 *Example 2:*
-Input:[subs="verbatim,quotes"]
+Input:[subs="verbatim,quotes,macros"]
 ----
 ["notice", "possible"], "basicbasic"
 ----
 
-Output:[subs="verbatim,quotes"]
+Output:[subs="verbatim,quotes,macros"]
 ----
 -1
 ----
 
-Explanation:[subs="verbatim,quotes"]
+Explanation:[subs="verbatim,quotes,macros"]
 ----
 We can't form the target "basicbasic" from cutting letters from the given stickers.
 ----

@@ -20,7 +20,7 @@ Return the minimum number of dollars you need to travel every day in the given l
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* days = [1,4,6,7,8,20], costs = [2,7,15]
 *Output:* 11
@@ -35,7 +35,7 @@ In total you spent $11 and covered all the days of your travel.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* days = [1,2,3,4,5,6,7,8,9,10,30,31], costs = [2,7,15]
 *Output:* 17

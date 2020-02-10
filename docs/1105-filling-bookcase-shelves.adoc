@@ -17,7 +17,7 @@ Return the minimum possible height that the total bookshelf can be after placing
 
 image::https://assets.leetcode.com/uploads/2019/06/24/shelves.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* books = [[1,1],[2,3],[2,3],[1,1],[1,1],[1,1],[1,2]], shelf_width = 4
 *Output:* 6

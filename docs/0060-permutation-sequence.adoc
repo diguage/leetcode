@@ -74,7 +74,7 @@ Given _n_ and _k_, return the _k_^th^ permutation sequence.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 3, k = 3
 *Output:* "213"
@@ -82,7 +82,7 @@ Given _n_ and _k_, return the _k_^th^ permutation sequence.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 4, k = 9
 *Output:* "2314"

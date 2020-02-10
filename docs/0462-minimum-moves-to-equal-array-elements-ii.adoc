@@ -7,7 +7,7 @@ Given a *non-empty* integer array, find the minimum number of moves required to 
 You may assume the array's length is at most 10,000.
 
 *Example:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 [1,2,3]

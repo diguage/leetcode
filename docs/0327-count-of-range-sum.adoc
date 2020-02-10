@@ -14,7 +14,7 @@ A naive algorithm of _O_(_n_^2^) is trivial. You MUST do better than that.
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* _nums_ = `[-2,5,-1]`, _lower_ = `-2`, _upper_ = `2`,
 *Output:* 3 

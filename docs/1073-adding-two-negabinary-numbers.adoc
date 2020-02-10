@@ -12,7 +12,7 @@ Return the result of adding `arr1` and `arr2` in the same format: as an array of
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr1 = [1,1,1,1,1], arr2 = [1,0,1]
 *Output:* [1,0,0,0,0]

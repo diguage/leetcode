@@ -14,7 +14,7 @@ What is the probability that the n-th person can get his own seat?
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 1
 *Output:* 1.00000
@@ -23,7 +23,7 @@ What is the probability that the n-th person can get his own seat?
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 2
 *Output:* 0.50000

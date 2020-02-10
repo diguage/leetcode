@@ -26,7 +26,7 @@ begin to intersect at node c1.
 
 image::https://assets.leetcode.com/uploads/2018/12/13/160_example_1.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* intersectVal = 8, listA = [4,1,8,4,5], listB = [5,0,1,8,4,5], skipA = 2, skipB = 3
 *Output:* Reference of the node with value = 8
@@ -39,7 +39,7 @@ image::https://assets.leetcode.com/uploads/2018/12/13/160_example_1.png[]
 
 image::https://assets.leetcode.com/uploads/2018/12/13/160_example_2.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* intersectVal = 2, listA = [0,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1
 *Output:* Reference of the node with value = 2
@@ -53,7 +53,7 @@ image::https://assets.leetcode.com/uploads/2018/12/13/160_example_2.png[]
 
 image::https://assets.leetcode.com/uploads/2018/12/13/160_example_3.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2
 *Output:* null

@@ -7,7 +7,7 @@ You need to find the largest value in each row of a binary tree.
 *Example:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 

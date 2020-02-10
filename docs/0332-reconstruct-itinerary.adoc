@@ -14,7 +14,7 @@ Given a list of airline tickets represented by pairs of departure and arrival ai
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `[["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]]`
 *Output:* `["JFK", "MUC", "LHR", "SFO", "SJC"]`
@@ -22,7 +22,7 @@ Given a list of airline tickets represented by pairs of departure and arrival ai
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `[["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL","SFO"]]`
 *Output:* `["JFK","ATL","JFK","SFO","ATL","SFO"]`

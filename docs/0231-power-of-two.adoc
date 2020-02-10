@@ -6,7 +6,7 @@ Given an integer, write a function to determine if it is a power of two.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 1
 *Output:* true 
@@ -16,7 +16,7 @@ Given an integer, write a function to determine if it is a power of two.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 16
 *Output:* true
@@ -25,7 +25,7 @@ Given an integer, write a function to determine if it is a power of two.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 218
 *Output:* false

@@ -8,7 +8,7 @@ Given two anagrams `A` and `B`, return the smallest `K` for which `A` and `B` ar
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = "ab", B = "ba"
 *Output:* 1
@@ -17,7 +17,7 @@ Given two anagrams `A` and `B`, return the smallest `K` for which `A` and `B` ar
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = "abc", B = "bca"
 *Output:* 2
@@ -26,7 +26,7 @@ Given two anagrams `A` and `B`, return the smallest `K` for which `A` and `B` ar
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = "abac", B = "baca"
 *Output:* 2
@@ -35,7 +35,7 @@ Given two anagrams `A` and `B`, return the smallest `K` for which `A` and `B` ar
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = "aabc", B = "abca"
 *Output:* 2

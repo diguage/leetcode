@@ -6,7 +6,7 @@ Given an array `nums` of integers, return how many of them contain an *even numb
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [12,345,2,6,7896]
 *Output:* 2
@@ -21,7 +21,7 @@ Therefore only 12 and 7896 contain an even number of digits.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [555,901,482,1771]
 *Output:* 1 

@@ -15,7 +15,7 @@ Among all possible binary trees considered, return the smallest possible sum of 
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr = [6,2,4]
 *Output:* 32

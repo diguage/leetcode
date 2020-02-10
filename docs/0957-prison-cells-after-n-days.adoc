@@ -27,7 +27,7 @@ Given the initial state of the prison, return the state of the prison after `N` 
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* cells = [0,1,0,1,1,0,0,1], N = 7
 *Output:* [0,0,1,1,0,0,0,0]
@@ -47,7 +47,7 @@ Day 7: [0, 0, 1, 1, 0, 0, 0, 0]
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* cells = [1,0,0,1,0,0,1,0], N = 1000000000
 *Output:* [0,0,1,1,1,1,1,0]

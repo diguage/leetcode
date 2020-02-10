@@ -31,7 +31,7 @@ Note that duplicates may exist in the Skiplist, your code needs to handle this s
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Skiplist skiplist = new Skiplist();
 

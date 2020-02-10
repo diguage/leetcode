@@ -16,7 +16,7 @@ When the game ends, what is the minimum and maximum number of moves that you cou
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [7,4,9]
 *Output:* [1,2]
@@ -28,7 +28,7 @@ Or, we can move 9 -> 5, 4 -> 6 for two moves to finish the game.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [6,5,4,3,10]
 *Output:* [2,3]
@@ -40,7 +40,7 @@ Notice we cannot move 10 -> 2 to finish the game, because that would be an illeg
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [100,101,104,102,103]
 *Output:* [0,0]

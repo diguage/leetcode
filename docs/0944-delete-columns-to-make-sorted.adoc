@@ -17,7 +17,7 @@ Return the minimum possible value of `D.length`.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["cba","daf","ghi"]
 *Output:* 1
@@ -29,7 +29,7 @@ If we chose D = {}, then a column ["b","a","h"] would not be in non-decreasing s
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["a","b"]
 *Output:* 0
@@ -39,7 +39,7 @@ If we chose D = {}, then a column ["b","a","h"] would not be in non-decreasing s
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["zyx","wvu","tsr"]
 *Output:* 3

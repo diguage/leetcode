@@ -21,7 +21,7 @@ Return the minimum number of minutes that must elapse until no cell has a fresh 
 
 image::https://assets.leetcode.com/uploads/2019/02/16/oranges.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[2,1,1],[1,1,0],[0,1,1]]
 *Output:* 4
@@ -30,7 +30,7 @@ image::https://assets.leetcode.com/uploads/2019/02/16/oranges.png[]
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[2,1,1],[0,1,1],[1,0,1]]
 *Output:* -1
@@ -40,7 +40,7 @@ image::https://assets.leetcode.com/uploads/2019/02/16/oranges.png[]
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[0,2]]
 *Output:* 0

@@ -20,7 +20,7 @@ Return the exclusive time of each function, sorted by their function id.
 
 *image::https://assets.leetcode.com/uploads/2019/04/05/diag1b.png[]*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 n = 2

@@ -27,7 +27,7 @@ Suppose every senator is smart enough and will play the best strategy for his ow
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "RD"
 *Output:* "Radiant"
@@ -40,7 +40,7 @@ And in the round 2, the first senator can just announce the victory since he is 
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "RDD"
 *Output:* "Dire"

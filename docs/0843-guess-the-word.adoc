@@ -14,7 +14,7 @@ For each test case, you have 10 guesses to guess the word. At the end of any num
 
 Besides the example test case below, there will be 5 additional test cases, each with 100 words in the word list.  The letters of each word in those testcases were chosen independently at random from `'a'` to `'z'`, such that every word in the given word lists is unique.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example 1:*
 *Input:* secret = "acckzz", wordlist = ["acckzz","ccbazz","eiowzz","abcczz"]

@@ -9,7 +9,7 @@ Given a circular array (the next element of the last element is the first elemen
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,1]
 *Output:* [2,-1,2]

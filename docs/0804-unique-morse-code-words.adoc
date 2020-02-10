@@ -6,7 +6,7 @@ International Morse Code defines a standard encoding where each letter is mapped
 
 For convenience, the full table for the 26 letters of the English alphabet is given below:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
 ----
@@ -15,7 +15,7 @@ Now, given a list of words, each word can be written as a concatenation of the M
 
 Return the number of different transformations among all words we have.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example:*
 *Input:* words = ["gin", "zen", "gig", "msg"]

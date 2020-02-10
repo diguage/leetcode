@@ -8,7 +8,7 @@ Return the lexicographically smallest subsequence of `text` that contains all th
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "cdadabcc"
 *Output:* "adbc"
@@ -17,7 +17,7 @@ Return the lexicographically smallest subsequence of `text` that contains all th
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "abcd"
 *Output:* "abcd"
@@ -26,7 +26,7 @@ Return the lexicographically smallest subsequence of `text` that contains all th
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "ecbacba"
 *Output:* "eacb"
@@ -35,7 +35,7 @@ Return the lexicographically smallest subsequence of `text` that contains all th
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "leetcode"
 *Output:* "letcod"

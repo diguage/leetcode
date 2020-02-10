@@ -17,7 +17,7 @@ At the end, there is at most 1 stone left.  Return the *smallest possible* weigh
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [2,7,4,1,8,1]
 *Output:* 1

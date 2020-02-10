@@ -14,7 +14,7 @@ When the game ends, what is the minimum and maximum number of moves that you cou
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* a = 1, b = 2, c = 5
 *Output:* [1,2]
@@ -24,7 +24,7 @@ When the game ends, what is the minimum and maximum number of moves that you cou
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* a = 4, b = 3, c = 2
 *Output:* [0,0]
@@ -34,7 +34,7 @@ When the game ends, what is the minimum and maximum number of moves that you cou
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* a = 3, b = 5, c = 1
 *Output:* [1,2]

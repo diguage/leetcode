@@ -10,7 +10,7 @@ Given an integer array `A`, and an integer `target`, return the number of tuples
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [1,1,2,2,3,3,4,4,5,5], target = 8
 *Output:* 20
@@ -25,7 +25,7 @@ Enumerating by the values (A[i], A[j], A[k]):
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [1,1,2,2,2,2], target = 5
 *Output:* 12

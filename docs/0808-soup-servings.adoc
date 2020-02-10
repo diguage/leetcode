@@ -19,7 +19,7 @@ Return the probability that soup A will be empty first, plus half the probabilit
 
  
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example:*
 *Input:* N = 50

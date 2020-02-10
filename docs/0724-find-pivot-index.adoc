@@ -10,7 +10,7 @@ If no such index exists, we should return -1. If there are multiple pivot indexe
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 nums = [1, 7, 3, 6, 5, 6]
@@ -24,7 +24,7 @@ Also, 3 is the first index where this occurs.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 nums = [1, 2, 3]

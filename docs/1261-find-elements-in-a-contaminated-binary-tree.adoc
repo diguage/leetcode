@@ -24,7 +24,7 @@ You need to first recover the binary tree and then implement the `FindElements` 
 
 image::https://assets.leetcode.com/uploads/2019/11/06/untitled-diagram-4-1.jpg[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input*
 ["FindElements","find","find"]
@@ -41,7 +41,7 @@ findElements.find(2); // return True
 
 image::https://assets.leetcode.com/uploads/2019/11/06/untitled-diagram-4.jpg[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input*
 ["FindElements","find","find","find"]
@@ -59,7 +59,7 @@ findElements.find(5); // return False
 
 image::https://assets.leetcode.com/uploads/2019/11/07/untitled-diagram-4-1-1.jpg[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input*
 ["FindElements","find","find","find","find"]

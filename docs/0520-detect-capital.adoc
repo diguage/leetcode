@@ -17,7 +17,7 @@ Otherwise, we define that this word doesn't use capitals in a right way.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "USA"
 *Output:* True
@@ -27,7 +27,7 @@ Otherwise, we define that this word doesn't use capitals in a right way.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "FlaG"
 *Output:* False

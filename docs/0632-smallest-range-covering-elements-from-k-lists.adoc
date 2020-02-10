@@ -10,7 +10,7 @@ We define the range [a,b] is smaller than range [c,d] if `b-a < d-c` or `a < c` 
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[4,10,15,24,26], [0,9,12,20], [5,18,22,30]]
 *Output:* [20,24]

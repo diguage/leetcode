@@ -6,7 +6,7 @@ Given a Binary Search Tree and a target number, return true if there exist two e
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
     5
@@ -24,7 +24,7 @@ Target = 9
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
     5

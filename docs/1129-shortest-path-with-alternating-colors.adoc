@@ -11,7 +11,7 @@ Return an array `answer` of length `n`, where each `answer[X]` is the length of 
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 3, red_edges = [[0,1],[1,2]], blue_edges = []
 *Output:* [0,1,-1]
@@ -19,7 +19,7 @@ Return an array `answer` of length `n`, where each `answer[X]` is the length of 
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 3, red_edges = [[0,1]], blue_edges = [[2,1]]
 *Output:* [0,1,-1]
@@ -27,7 +27,7 @@ Return an array `answer` of length `n`, where each `answer[X]` is the length of 
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 3, red_edges = [[1,0]], blue_edges = [[2,1]]
 *Output:* [0,-1,-1]
@@ -35,7 +35,7 @@ Return an array `answer` of length `n`, where each `answer[X]` is the length of 
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 3, red_edges = [[0,1]], blue_edges = [[1,2]]
 *Output:* [0,1,2]
@@ -43,7 +43,7 @@ Return an array `answer` of length `n`, where each `answer[X]` is the length of 
 
 *Example 5:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 3, red_edges = [[0,1],[0,2]], blue_edges = [[1,0]]
 *Output:* [0,1,1]

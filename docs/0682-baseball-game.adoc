@@ -27,7 +27,7 @@ You need to return the sum of the points you could get in all the rounds.
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["5","2","C","D","+"]
 *Output:* 30
@@ -43,7 +43,7 @@ Round 4: You could get 5 + 10 = 15 points. The sum is: 30.
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["5","-2","4","C","D","9","+","+"]
 *Output:* 27

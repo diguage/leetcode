@@ -10,7 +10,7 @@ Since the answer may be very large, the answer should be modulo 10^9^ + 7.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 3, k = 0
 *Output:* 1
@@ -22,7 +22,7 @@ Only the array [1,2,3] which consists of numbers from 1 to 3 has exactly 0 inver
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 3, k = 1
 *Output:* 2

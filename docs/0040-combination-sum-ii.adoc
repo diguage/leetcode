@@ -58,7 +58,7 @@ Each number in `candidates` may only be used *once* in the combination.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* candidates = `[10,1,2,7,6,1,5]`, target = `8`,
 *A solution set is:*
@@ -72,7 +72,7 @@ Each number in `candidates` may only be used *once* in the combination.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* candidates = [2,5,2,1,2], target = 5,
 *A solution set is:*

@@ -9,7 +9,7 @@ Given two words _word1_ and _word2_, find the minimum number of steps required t
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "sea", "eat"
 *Output:* 2

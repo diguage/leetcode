@@ -42,7 +42,7 @@ Return the correct "mask" of the information provided.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "LeetCode@LeetCode.com"
 *Output:* "l*****e@leetcode.com"
@@ -53,7 +53,7 @@ Return the correct "mask" of the information provided.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "AB@qq.com"
 *Output:* "a*****b@qq.com"
@@ -63,7 +63,7 @@ Return the correct "mask" of the information provided.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "1(234)567-890"
 *Output:* "***-***-7890"
@@ -72,7 +72,7 @@ Return the correct "mask" of the information provided.
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "86-(10)12345678"
 *Output:* "+**-***-***-5678"

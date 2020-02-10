@@ -20,7 +20,7 @@ If the town judge exists and can be identified, return the label of the town jud
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 2, trust = [[1,2]]
 *Output:* 2
@@ -29,7 +29,7 @@ If the town judge exists and can be identified, return the label of the town jud
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 3, trust = [[1,3],[2,3]]
 *Output:* 3
@@ -38,7 +38,7 @@ If the town judge exists and can be identified, return the label of the town jud
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 3, trust = [[1,3],[2,3],[3,1]]
 *Output:* -1
@@ -47,7 +47,7 @@ If the town judge exists and can be identified, return the label of the town jud
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 3, trust = [[1,2],[2,3]]
 *Output:* -1
@@ -56,7 +56,7 @@ If the town judge exists and can be identified, return the label of the town jud
 
 *Example 5:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 4, trust = [[1,3],[1,4],[2,3],[2,4],[4,3]]
 *Output:* 3

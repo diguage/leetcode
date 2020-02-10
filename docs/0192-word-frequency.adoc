@@ -16,7 +16,7 @@ For simplicity sake, you may assume:
 
 Assume that `words.txt` has the following content:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 the day is sunny the the
 the sunny is is
@@ -24,7 +24,7 @@ the sunny is is
 
 Your script should output the following, sorted by descending frequency:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 the 4
 is 3

@@ -14,7 +14,7 @@ You can always assume that `maxChoosableInteger` will not be larger than 20 and 
 
 
 *Example*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 maxChoosableInteger = 10

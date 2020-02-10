@@ -7,7 +7,7 @@ Given a positive integer _n_, break it into the sum of *at least* two positive i
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 2
 *Output:* 1
@@ -17,7 +17,7 @@ Given a positive integer _n_, break it into the sum of *at least* two positive i
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 10
 *Output:* 36

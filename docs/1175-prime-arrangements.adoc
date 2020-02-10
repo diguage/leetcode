@@ -11,7 +11,7 @@ Since the answer may be large, return the answer *modulo `10^9 + 7`*.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 5
 *Output:* 12
@@ -20,7 +20,7 @@ Since the answer may be large, return the answer *modulo `10^9 + 7`*.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 100
 *Output:* 682289015

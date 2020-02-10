@@ -9,7 +9,7 @@ Given a string and an integer k, you need to reverse the first k characters for 
 *Example:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "abcdefg", k = 2
 *Output:* "bacdfeg"

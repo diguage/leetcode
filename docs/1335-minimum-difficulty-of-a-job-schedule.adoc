@@ -15,7 +15,7 @@ Return _the minimum difficulty_ of a job schedule. If you cannot find a schedule
 
 image::https://assets.leetcode.com/uploads/2020/01/16/untitled.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* jobDifficulty = [6,5,4,3,2,1], d = 2
 *Output:* 7
@@ -26,7 +26,7 @@ The difficulty of the schedule = 6 + 1 = 7
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* jobDifficulty = [9,9,9], d = 4
 *Output:* -1
@@ -35,7 +35,7 @@ The difficulty of the schedule = 6 + 1 = 7
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* jobDifficulty = [1,1,1], d = 3
 *Output:* 3
@@ -44,7 +44,7 @@ The difficulty of the schedule = 6 + 1 = 7
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* jobDifficulty = [7,1,7,1,7,1], d = 3
 *Output:* 15
@@ -52,7 +52,7 @@ The difficulty of the schedule = 6 + 1 = 7
 
 *Example 5:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* jobDifficulty = [11,111,22,222,33,333,44,444], d = 6
 *Output:* 843

@@ -9,7 +9,7 @@ You need to count and return the number of maximum integers in the matrix after 
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 m = 3, n = 3

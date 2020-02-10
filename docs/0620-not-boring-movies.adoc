@@ -9,7 +9,7 @@ Please write a SQL query to output movies with an odd numbered ID and a descript
 
 For example, table `cinema`:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +---------+-----------+--------------+-----------+
 |   id    | movie     |  description |  rating   |
@@ -23,7 +23,7 @@ For example, table `cinema`:
 ----
 For the example above, the output should be:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +---------+-----------+--------------+-----------+
 |   id    | movie     |  description |  rating   |

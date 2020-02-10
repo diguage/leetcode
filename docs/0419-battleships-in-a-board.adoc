@@ -13,7 +13,7 @@ Given an 2D board, count how many battleships are in it. The battleships are rep
 *Example:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 X..X
 ...X
@@ -24,7 +24,7 @@ In the above board there are 2 battleships.
 *Invalid Example:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 ...X
 XXXX

@@ -20,7 +20,7 @@ What is the minimum number of replacements needed for _n_ to become 1?
 
 
 *Example 1:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 8
@@ -34,7 +34,7 @@ What is the minimum number of replacements needed for _n_ to become 1?
 
 
 *Example 2:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 7

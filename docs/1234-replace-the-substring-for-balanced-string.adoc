@@ -13,7 +13,7 @@ Return 0 if the string is already *balanced*.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "QWER"
 *Output:* 0
@@ -22,7 +22,7 @@ Return 0 if the string is already *balanced*.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "QQWE"
 *Output:* 1
@@ -32,7 +32,7 @@ Return 0 if the string is already *balanced*.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "QQQW"
 *Output:* 2
@@ -42,7 +42,7 @@ Return 0 if the string is already *balanced*.
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "QQQQ"
 *Output:* 3

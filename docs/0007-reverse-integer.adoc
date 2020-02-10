@@ -5,21 +5,21 @@ https://leetcode.com/problems/reverse-integer/[LeetCode - Reverse Integer]
 Given a 32-bit signed integer, reverse digits of an integer.
 
 .Example 1:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 123
 *Output:* 321
 ----
 
 .Example 2:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* -123
 *Output:* -321
 ----
 
 .Example 3:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 120
 *Output:* 21

@@ -53,7 +53,7 @@ Two binary trees are considered the same if they are structurally identical and 
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*     1         1
           / \       / \
@@ -66,7 +66,7 @@ Two binary trees are considered the same if they are structurally identical and 
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*     1         1
           /           \
@@ -79,7 +79,7 @@ Two binary trees are considered the same if they are structurally identical and 
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*     1         1
           / \       / \

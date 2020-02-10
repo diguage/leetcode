@@ -9,7 +9,7 @@ Note that the subarray needs to be *non-empty* after deleting one element.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr = [1,-2,0,3]
 *Output:* 4
@@ -18,7 +18,7 @@ Note that the subarray needs to be *non-empty* after deleting one element.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr = [1,-2,-2,3]
 *Output:* 3
@@ -28,7 +28,7 @@ Note that the subarray needs to be *non-empty* after deleting one element.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr = [-1,-1,-1,-1]
 *Output:* -1

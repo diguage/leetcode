@@ -11,7 +11,7 @@ image::https://assets.leetcode.com/uploads/2018/10/12/keyboard.png[]
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["Hello", "Alaska", "Dad", "Peace"]
 *Output:* ["Alaska", "Dad"]

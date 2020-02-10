@@ -34,7 +34,7 @@ The Linked List is represented in the input/output as a list of `n` nodes. Each 
 
 image::https://assets.leetcode.com/uploads/2019/12/18/e1.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
 *Output:* [[7,null],[13,0],[11,4],[10,2],[1,0]]
@@ -44,7 +44,7 @@ image::https://assets.leetcode.com/uploads/2019/12/18/e1.png[]
 
 image::https://assets.leetcode.com/uploads/2019/12/18/e2.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* head = [[1,1],[2,1]]
 *Output:* [[1,1],[2,1]]
@@ -54,7 +54,7 @@ image::https://assets.leetcode.com/uploads/2019/12/18/e2.png[]
 
 *image::https://assets.leetcode.com/uploads/2019/12/18/e3.png[]*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* head = [[3,null],[3,0],[3,null]]
 *Output:* [[3,null],[3,0],[3,null]]
@@ -62,7 +62,7 @@ image::https://assets.leetcode.com/uploads/2019/12/18/e2.png[]
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* head = []
 *Output:* []

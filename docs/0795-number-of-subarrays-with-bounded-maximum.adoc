@@ -6,7 +6,7 @@ We are given an array `A` of positive integers, and two positive integers `L` an
 
 Return the number of (contiguous, non-empty) subarrays such that the value of the maximum array element in that subarray is at least `L` and at most `R`.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example :*
 *Input:* 

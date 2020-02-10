@@ -11,7 +11,7 @@ Your result should *not* contain any brackets.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "(abcd)"
 *Output:* "dcba"
@@ -19,7 +19,7 @@ Your result should *not* contain any brackets.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "(u(love)i)"
 *Output:* "iloveu"
@@ -28,7 +28,7 @@ Your result should *not* contain any brackets.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "(ed(et(oc))el)"
 *Output:* "leetcode"
@@ -37,7 +37,7 @@ Your result should *not* contain any brackets.
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "a(bcdefghijkl(mno)p)q"
 *Output:* "apmnolkjihgfedcbq"

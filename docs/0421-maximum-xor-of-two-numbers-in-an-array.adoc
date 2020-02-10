@@ -10,7 +10,7 @@ Could you do this in O(_n_) runtime?
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [3, 10, 5, 25, 2, 8]
 

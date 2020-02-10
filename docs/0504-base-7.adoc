@@ -7,7 +7,7 @@ Given an integer, return its base 7 string representation.
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 100
 *Output:* "202"
@@ -17,7 +17,7 @@ Given an integer, return its base 7 string representation.
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* -7
 *Output:* "-10"

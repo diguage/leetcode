@@ -18,7 +18,7 @@ image::https://assets.leetcode.com/uploads/2019/10/20/hint_valid_mountain_array.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [2,1]
 *Output:* false
@@ -27,7 +27,7 @@ image::https://assets.leetcode.com/uploads/2019/10/20/hint_valid_mountain_array.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [3,5,5]
 *Output:* false
@@ -36,7 +36,7 @@ image::https://assets.leetcode.com/uploads/2019/10/20/hint_valid_mountain_array.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [0,3,2,1]
 *Output:* true

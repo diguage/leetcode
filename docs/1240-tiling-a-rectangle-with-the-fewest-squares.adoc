@@ -9,7 +9,7 @@ Given a rectangle of size `n` x `<font face="monospace">m`, find the minimum num
 
 image::https://assets.leetcode.com/uploads/2019/10/17/sample_11_1592.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 2, m = 3
 *Output:* 3
@@ -22,7 +22,7 @@ image::https://assets.leetcode.com/uploads/2019/10/17/sample_11_1592.png[]
 
 image::https://assets.leetcode.com/uploads/2019/10/17/sample_22_1592.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 5, m = 8
 *Output:* 5
@@ -33,7 +33,7 @@ image::https://assets.leetcode.com/uploads/2019/10/17/sample_22_1592.png[]
 
 image::https://assets.leetcode.com/uploads/2019/10/17/sample_33_1592.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 11, m = 13
 *Output:* 6

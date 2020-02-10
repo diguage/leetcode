@@ -12,7 +12,7 @@ You may also assume each line in the text file must not contain leading or trail
 
 Assume that `file.txt` has the following content:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 987-123-4567
 123 456 7890
@@ -21,7 +21,7 @@ Assume that `file.txt` has the following content:
 
 Your script should output the following valid phone numbers:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 987-123-4567
 (123) 456-7890

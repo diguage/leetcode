@@ -16,7 +16,7 @@ If it cannot be done, return `-1`.
 
 image::https://assets.leetcode.com/uploads/2019/03/08/domino.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [2,1,2,4,2,2], B = [5,2,6,2,3,2]
 *Output:* 2
@@ -27,7 +27,7 @@ If we rotate the second and fourth dominoes, we can make every value in the top 
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [3,5,1,2,3], B = [3,6,3,3,4]
 *Output:* -1

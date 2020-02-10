@@ -12,7 +12,7 @@ You have to rotate the image https://en.wikipedia.org/wiki/In-place_algorithm[*i
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Given *input matrix* = 
 [
@@ -31,7 +31,7 @@ rotate the input matrix *in-place* such that it becomes:
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Given *input matrix* =
 [

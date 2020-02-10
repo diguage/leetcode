@@ -19,14 +19,14 @@ If no valid conversion could be performed, a zero value is returned.
 
 
 .Example 1:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "42"
 *Output:* 42
 ----
 
 .Example 2:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "   -42"
 *Output:* -42
@@ -35,7 +35,7 @@ If no valid conversion could be performed, a zero value is returned.
 ----
 
 .Example 3:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "4193 with words"
 *Output:* 4193
@@ -43,7 +43,7 @@ If no valid conversion could be performed, a zero value is returned.
 ----
 
 .Example 4:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "words and 987"
 *Output:* 0
@@ -52,7 +52,7 @@ If no valid conversion could be performed, a zero value is returned.
 ----
 
 .Example 5:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "-91283472332"
 *Output:* -2147483648

@@ -14,7 +14,7 @@ Design an Iterator class, which has:
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 CombinationIterator iterator = new CombinationIterator("abc", 2); // creates the iterator.
 

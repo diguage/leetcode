@@ -14,7 +14,7 @@ Return the <font face="monospace">N-th magical number.  Since the answer may be 
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 1, A = 2, B = 3
 *Output:* 2
@@ -23,7 +23,7 @@ Return the <font face="monospace">N-th magical number.  Since the answer may be 
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 4, A = 2, B = 3
 *Output:* 6
@@ -32,7 +32,7 @@ Return the <font face="monospace">N-th magical number.  Since the answer may be 
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 5, A = 2, B = 4
 *Output:* 10
@@ -41,7 +41,7 @@ Return the <font face="monospace">N-th magical number.  Since the answer may be 
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 3, A = 6, B = 4
 *Output:* 8

@@ -21,7 +21,7 @@ Given two words (_beginWord_ and _endWord_), and a dictionary's word list, find 
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 beginWord = "hit",
@@ -37,7 +37,7 @@ wordList = ["hot","dot","dog","lot","log","cog"]
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 beginWord = "hit"

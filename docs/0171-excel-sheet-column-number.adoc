@@ -8,7 +8,7 @@ Given a column title as appear in an Excel sheet, return its corresponding colum
 
 For example:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
     A -> 1
     B -> 2
@@ -22,7 +22,7 @@ For example:
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "A"
 *Output:* 1
@@ -30,7 +30,7 @@ For example:
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "AB"
 *Output:* 28
@@ -38,7 +38,7 @@ For example:
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "ZY"
 *Output:* 701

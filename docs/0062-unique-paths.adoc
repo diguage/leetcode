@@ -17,7 +17,7 @@ image::https://assets.leetcode.com/uploads/2018/10/22/robot_maze.png[]
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* m = 3, n = 2
 *Output:* 3
@@ -31,7 +31,7 @@ From the top-left corner, there are a total of 3 ways to reach the bottom-right 
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* m = 7, n = 3
 *Output:* 28

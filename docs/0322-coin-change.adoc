@@ -13,7 +13,7 @@ You are given coins of different denominations and a total amount of money _amou
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* coins = `[1, 2, 5]`, amount = `11`
 *Output:* `3` 
@@ -22,7 +22,7 @@ You are given coins of different denominations and a total amount of money _amou
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* coins = `[2]`, amount = `3`
 *Output:* -1

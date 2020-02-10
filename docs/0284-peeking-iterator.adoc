@@ -6,7 +6,7 @@ Given an Iterator class interface with methods: `next()` and `hasNext()`, design
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Assume that the iterator is initialized to the beginning of the list: *`[1,2,3]`*.
 

@@ -13,7 +13,7 @@ Also, a subarray may only include each element of the fixed buffer `A` at most o
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,-2,3,-2]
 *Output:* 3
@@ -23,7 +23,7 @@ Also, a subarray may only include each element of the fixed buffer `A` at most o
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [5,-3,5]
 *Output:* 10
@@ -33,7 +33,7 @@ Also, a subarray may only include each element of the fixed buffer `A` at most o
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [3,-1,2,-1]
 *Output:* 4
@@ -43,7 +43,7 @@ Also, a subarray may only include each element of the fixed buffer `A` at most o
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [3,-2,2,-3]
 *Output:* 3
@@ -52,7 +52,7 @@ Also, a subarray may only include each element of the fixed buffer `A` at most o
 
 *Example 5:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [-2,-3,-1]
 *Output:* -1

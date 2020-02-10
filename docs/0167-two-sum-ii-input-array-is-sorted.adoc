@@ -39,7 +39,7 @@ The function twoSum should return indices of the two numbers such that they add 
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* numbers = [2,7,11,15], target = 9
 *Output:* [1,2]

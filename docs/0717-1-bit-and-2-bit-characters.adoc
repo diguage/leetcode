@@ -9,7 +9,7 @@ Now given a string represented by several bits. Return whether the last characte
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 bits = [1, 0, 0]
@@ -22,7 +22,7 @@ The only way to decode it is two-bit character and one-bit character. So the las
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 bits = [1, 1, 1, 0]

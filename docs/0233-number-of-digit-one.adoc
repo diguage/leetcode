@@ -6,7 +6,7 @@ Given an integer n, count the total number of digit 1 appearing in all non-negat
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 13
 *Output:* 6 

@@ -9,7 +9,7 @@ Given an array of *2n* integers, your task is to group these integers into *n* p
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,4,3,2]
 

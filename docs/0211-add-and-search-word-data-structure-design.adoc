@@ -4,7 +4,7 @@ https://leetcode.com/problems/add-and-search-word-data-structure-design/[LeetCod
 
 Design a data structure that supports the following two operations:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 void addWord(word)
 bool search(word)
@@ -14,7 +14,7 @@ search(word) can search a literal word or a regular expression string containing
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 addWord("bad")
 addWord("dad")

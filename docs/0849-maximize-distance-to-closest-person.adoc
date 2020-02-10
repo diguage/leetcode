@@ -13,7 +13,7 @@ Return that maximum distance to closest person.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,0,0,0,1,0,1]
 *Output:* 2
@@ -26,7 +26,7 @@ Thus, the maximum distance to the closest person is 2.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,0,0,0]
 *Output:* 3

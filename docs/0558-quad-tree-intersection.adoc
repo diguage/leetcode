@@ -8,7 +8,7 @@ We want to store True/False information in our quad tree. The quad tree is used 
 
 For example, below are two quad trees A and B:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 A:
 +-------+-------+   T: true
@@ -49,7 +49,7 @@ bottomRight: F
 
 Your task is to implement a function that will take two quadtrees and return a quadtree that represents the logical OR (or union) of the two trees.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 A:                 B:                 C (A or B):
 +-------+-------+  +-------+---+---+  +-------+-------+

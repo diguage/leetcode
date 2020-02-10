@@ -10,7 +10,7 @@ Return *any* duplicated substring that has the longest possible length.  (If `S`
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "banana"
 *Output:* "ana"
@@ -18,7 +18,7 @@ Return *any* duplicated substring that has the longest possible length.  (If `S`
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "abcd"
 *Output:* ""

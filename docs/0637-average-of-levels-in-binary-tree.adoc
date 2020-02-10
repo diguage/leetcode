@@ -7,7 +7,7 @@ Given a non-empty binary tree, return the average value of the nodes on each lev
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
     3

@@ -10,7 +10,7 @@ Note that you must write a single update statement, *DO NOT* write any select st
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 | id | name | sex | salary |
 |----|------|-----|--------|
@@ -21,7 +21,7 @@ Note that you must write a single update statement, *DO NOT* write any select st
 ----
 After running your *update* statement, the above salary table should have the following rows:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 | id | name | sex | salary |
 |----|------|-----|--------|

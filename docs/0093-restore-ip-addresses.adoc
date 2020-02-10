@@ -24,7 +24,7 @@ Given a string containing only digits, restore it by returning all possible vali
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "25525511135"
 *Output:* `["255.255.11.135", "255.255.111.35"]`

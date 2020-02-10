@@ -9,7 +9,7 @@ The null node needs to be represented by empty parenthesis pair "()". And you ne
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* Binary tree: [1,2,3,4]
        1
@@ -26,7 +26,7 @@ The null node needs to be represented by empty parenthesis pair "()". And you ne
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* Binary tree: [1,2,3,null,4]
        1

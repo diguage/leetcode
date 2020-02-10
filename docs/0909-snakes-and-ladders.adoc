@@ -29,7 +29,7 @@ Return the least number of moves required to reach square <font face="monospace"
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [
 [-1,-1,-1,-1,-1,-1],

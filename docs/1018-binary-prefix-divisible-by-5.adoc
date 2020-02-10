@@ -8,7 +8,7 @@ Return a list of booleans `answer`, where `answer[i]` is `true` if and only if `
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [0,1,1]
 *Output:* [true,false,false]
@@ -18,7 +18,7 @@ The input numbers in binary are 0, 01, 011; which are 0, 1, and 3 in base-10.  O
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,1,1]
 *Output:* [false,false,false]
@@ -26,7 +26,7 @@ The input numbers in binary are 0, 01, 011; which are 0, 1, and 3 in base-10.  O
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [0,1,1,1,1,1]
 *Output:* [true,false,false,false,true,false]
@@ -34,7 +34,7 @@ The input numbers in binary are 0, 01, 011; which are 0, 1, and 3 in base-10.  O
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,1,1,0,1]
 *Output:* [false,false,false,false,false]

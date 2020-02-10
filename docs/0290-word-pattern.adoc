@@ -8,7 +8,7 @@ Here *follow* means a full match, such that there is a bijection between a lette
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* pattern = `"abba"`, str = `"dog cat cat dog"`
 *Output:* true
@@ -16,7 +16,7 @@ Here *follow* means a full match, such that there is a bijection between a lette
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* pattern = `"abba"`, str = `"dog cat cat fish"`
 *Output:* false
@@ -24,7 +24,7 @@ Here *follow* means a full match, such that there is a bijection between a lette
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* pattern = `"aaaa"`, str = `"dog cat cat dog"`
 *Output:* false
@@ -32,7 +32,7 @@ Here *follow* means a full match, such that there is a bijection between a lette
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* pattern = `"abba"`, str = `"dog dog dog dog"`
 *Output:* false

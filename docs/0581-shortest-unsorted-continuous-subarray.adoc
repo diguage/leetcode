@@ -39,7 +39,7 @@ You need to find the *shortest* such subarray and output its length.
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [2, 6, 4, 8, 10, 9, 15]
 *Output:* 5

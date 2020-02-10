@@ -43,7 +43,7 @@ Given a binary tree, flatten it to a linked list in-place.
 
 For example, given the following tree:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
     1
    / \
@@ -54,7 +54,7 @@ For example, given the following tree:
 
 The flattened tree should look like:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 1
  \

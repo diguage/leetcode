@@ -11,7 +11,7 @@ You may return the answer in any order.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["bella","label","roller"]
 *Output:* ["e","l","l"]
@@ -20,7 +20,7 @@ You may return the answer in any order.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["cool","lock","cook"]
 *Output:* ["c","o"]

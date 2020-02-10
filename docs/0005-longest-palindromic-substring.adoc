@@ -5,7 +5,7 @@ https://leetcode.com/problems/longest-palindromic-substring/[LeetCode - Longest 
 Given a string *s*, find the longest palindromic substring in *s*. You may assume that the maximum length of *s* is 1000.
 
 .Example 1:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "babad"
 *Output:* "bab"
@@ -13,7 +13,7 @@ Given a string *s*, find the longest palindromic substring in *s*. You may assum
 ----
 
 .Example 2:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "cbbd"
 *Output:* "bb"

@@ -10,7 +10,7 @@ Words in the list of banned words are given in lowercase, and free of punctuatio
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."

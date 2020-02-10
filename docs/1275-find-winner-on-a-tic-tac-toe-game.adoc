@@ -24,7 +24,7 @@ You can assume that `moves` is *valid* (It follows the rules of Tic-Tac-Toe), th
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* moves = [[0,0],[2,0],[1,1],[2,1],[2,2]]
 *Output:* "A"
@@ -36,7 +36,7 @@ You can assume that `moves` is *valid* (It follows the rules of Tic-Tac-Toe), th
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* moves = [[0,0],[1,1],[0,1],[0,2],[1,0],[2,0]]
 *Output:* "B"
@@ -48,7 +48,7 @@ You can assume that `moves` is *valid* (It follows the rules of Tic-Tac-Toe), th
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* moves = [[0,0],[1,1],[2,0],[1,0],[1,2],[2,1],[0,1],[0,2],[2,2]]
 *Output:* "Draw"
@@ -60,7 +60,7 @@ You can assume that `moves` is *valid* (It follows the rules of Tic-Tac-Toe), th
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* moves = [[0,0],[1,1]]
 *Output:* "Pending"

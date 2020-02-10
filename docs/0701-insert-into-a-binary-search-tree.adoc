@@ -8,7 +8,7 @@ Note that there may exist multiple valid ways for the insertion, as long as the 
 
 For example, 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Given the tree:
         4
@@ -21,7 +21,7 @@ And the value to insert: 5
 
 You can return this binary search tree:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
          4
        /   \
@@ -32,7 +32,7 @@ You can return this binary search tree:
 
 This tree is also valid:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
          5
        /   \

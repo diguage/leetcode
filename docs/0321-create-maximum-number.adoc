@@ -8,7 +8,7 @@ Given two arrays of length `m` and `n` with digits `0-9` representing two number
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 nums1 = `[3, 4, 6, 5]`
@@ -20,7 +20,7 @@ k = `5`
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 nums1 = `[6, 7]`
@@ -32,7 +32,7 @@ k = `5`
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 nums1 = `[3, 9]`

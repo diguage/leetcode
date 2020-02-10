@@ -12,7 +12,7 @@ Return `true` if and only if it is possible to reach the target square through a
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* blocked = [[0,1],[1,0]], source = [0,0], target = [0,2]
 *Output:* false
@@ -22,7 +22,7 @@ The target square is inaccessible starting from the source square, because we ca
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* blocked = [], source = [0,0], target = [999999,999999]
 *Output:* true

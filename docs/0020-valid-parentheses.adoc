@@ -15,7 +15,7 @@ Note that an empty string is also considered valid.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "()"
 *Output:* true
@@ -23,7 +23,7 @@ Note that an empty string is also considered valid.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "()[]{}"
 *Output:* true
@@ -31,7 +31,7 @@ Note that an empty string is also considered valid.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "(]"
 *Output:* false
@@ -39,7 +39,7 @@ Note that an empty string is also considered valid.
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "([)]"
 *Output:* false
@@ -47,7 +47,7 @@ Note that an empty string is also considered valid.
 
 *Example 5:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "{[]}"
 *Output:* true

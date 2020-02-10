@@ -15,7 +15,7 @@ Given a balanced parentheses string `S`, compute the score of the string based o
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "()"
 *Output:* 1
@@ -24,7 +24,7 @@ Given a balanced parentheses string `S`, compute the score of the string based o
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "(())"
 *Output:* 2
@@ -33,7 +33,7 @@ Given a balanced parentheses string `S`, compute the score of the string based o
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "()()"
 *Output:* 2
@@ -42,7 +42,7 @@ Given a balanced parentheses string `S`, compute the score of the string based o
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "(()(()))"
 *Output:* 6

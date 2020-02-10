@@ -9,7 +9,7 @@ Return the minimum number of swaps required to make `s1` and `s2` equal, or retu
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s1 = "xx", s2 = "yy"
 *Output:* 1
@@ -19,7 +19,7 @@ Return the minimum number of swaps required to make `s1` and `s2` equal, or retu
 
 *Example 2: *
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s1 = "xy", s2 = "yx"
 *Output:* 2
@@ -31,7 +31,7 @@ Note that you can't swap s1[0] and s1[1] to make s1 equal to "yx", cause we can 
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s1 = "xx", s2 = "xy"
 *Output:* -1
@@ -40,7 +40,7 @@ Note that you can't swap s1[0] and s1[1] to make s1 equal to "yx", cause we can 
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s1 = "xxyyxyxyxx", s2 = "xyyxyxxxyx"
 *Output:* 4

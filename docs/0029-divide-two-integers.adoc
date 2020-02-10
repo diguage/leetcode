@@ -16,7 +16,7 @@ The integer division should truncate toward zero.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* dividend = 10, divisor = 3
 *Output:* 3
@@ -24,7 +24,7 @@ The integer division should truncate toward zero.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* dividend = 7, divisor = -3
 *Output:* -2

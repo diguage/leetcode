@@ -22,7 +22,7 @@ image::https://assets.leetcode.com/uploads/2018/12/28/237_example.png[]
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* head = [4,5,1,9], node = 5
 *Output:* [4,1,9]
@@ -31,7 +31,7 @@ image::https://assets.leetcode.com/uploads/2018/12/28/237_example.png[]
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* head = [4,5,1,9], node = 1
 *Output:* [4,5,9]

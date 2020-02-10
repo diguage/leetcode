@@ -13,7 +13,7 @@ Implement the `StreamChecker` class as follows:
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 StreamChecker streamChecker = new StreamChecker(["cd","f","kl"]); // init the dictionary.
 streamChecker.query('a');          // return false

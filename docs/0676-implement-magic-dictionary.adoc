@@ -17,7 +17,7 @@ For the method `search`, you'll be given a word, and judge whether if you modify
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Input: buildDict(["hello", "leetcode"]), Output: Null
 Input: search("hello"), Output: False

@@ -14,7 +14,7 @@ Given a lower and upper number bound, output a list of every possible self divid
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 left = 1, right = 22

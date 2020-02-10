@@ -10,7 +10,7 @@ Formally, we can partition the array if we can find indexes `i+1 < j` with `(A[0
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [0,2,1,-6,6,-7,9,1,2,0,1]
 *Output:* true
@@ -20,7 +20,7 @@ Formally, we can partition the array if we can find indexes `i+1 < j` with `(A[0
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [0,2,1,-6,6,7,9,-1,2,0,1]
 *Output:* false
@@ -29,7 +29,7 @@ Formally, we can partition the array if we can find indexes `i+1 < j` with `(A[0
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [3,3,6,5,-2,2,5,1,-9,4]
 *Output:* true

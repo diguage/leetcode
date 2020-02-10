@@ -8,7 +8,7 @@ The letters in `J` are guaranteed distinct, and all characters in `J` and `S` ar
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* J = "aA", S = "aAAbbbb"
 *Output:* 3
@@ -16,7 +16,7 @@ The letters in `J` are guaranteed distinct, and all characters in `J` and `S` ar
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* J = "z", S = "ZZ"
 *Output:* 0

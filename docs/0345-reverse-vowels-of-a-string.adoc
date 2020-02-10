@@ -6,7 +6,7 @@ Write a function that takes a string as input and reverse only the vowels of a s
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "hello"
 *Output:* "holle"
@@ -15,7 +15,7 @@ Write a function that takes a string as input and reverse only the vowels of a s
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "leetcode"
 *Output:* "leotcede"

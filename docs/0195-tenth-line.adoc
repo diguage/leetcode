@@ -8,7 +8,7 @@ Given a text file `file.txt`, print just the 10th line of the file.
 
 Assume that `file.txt` has the following content:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Line 1
 Line 2
@@ -24,7 +24,7 @@ Line 10
 
 Your script should output the tenth line, which is:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Line 10
 ----

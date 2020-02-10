@@ -10,7 +10,7 @@ image::http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "23"
 *Output:* ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].

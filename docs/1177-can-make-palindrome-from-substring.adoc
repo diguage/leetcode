@@ -15,7 +15,7 @@ Note that: Each letter is counted *individually* for replacement so if for examp
  
 *Example :*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "abcda", queries = [[3,3,0],[1,2,0],[0,3,1],[0,3,2],[0,4,1]]
 *Output:* [true,false,false,true,true]

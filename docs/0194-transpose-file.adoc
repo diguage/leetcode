@@ -10,7 +10,7 @@ You may assume that each row has the same number of columns and each field is se
 
 If `file.txt` has the following content:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 name age
 alice 21
@@ -19,7 +19,7 @@ ryan 30
 
 Output the following:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 name alice ryan
 age 21 30

@@ -16,7 +16,7 @@ At the end of any number of moves, what is the lexicographically largest resulti
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* S = "11011000"
 *Output:* "11100100"

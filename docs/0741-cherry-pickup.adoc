@@ -31,7 +31,7 @@ Your task is to collect maximum number of cherries possible by following the rul
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* grid =
 [[0, 1, -1],

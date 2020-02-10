@@ -14,7 +14,7 @@ Return `[total_jumbo, total_small]` so that the number of remaining `tomatoSlice
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* tomatoSlices = 16, cheeseSlices = 7
 *Output:* [1,6]
@@ -23,7 +23,7 @@ Return `[total_jumbo, total_small]` so that the number of remaining `tomatoSlice
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* tomatoSlices = 17, cheeseSlices = 4
 *Output:* []
@@ -32,7 +32,7 @@ Return `[total_jumbo, total_small]` so that the number of remaining `tomatoSlice
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* tomatoSlices = 4, cheeseSlices = 17
 *Output:* []
@@ -41,7 +41,7 @@ Return `[total_jumbo, total_small]` so that the number of remaining `tomatoSlice
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* tomatoSlices = 0, cheeseSlices = 0
 *Output:* [0,0]
@@ -49,7 +49,7 @@ Return `[total_jumbo, total_small]` so that the number of remaining `tomatoSlice
 
 *Example 5:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* tomatoSlices = 2, cheeseSlices = 1
 *Output:* [0,1]

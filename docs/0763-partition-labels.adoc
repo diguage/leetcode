@@ -9,7 +9,7 @@ A string `S` of lowercase letters is given.  We want to partition this string in
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* S = "ababcbacadefegdehijhklij"
 *Output:* [9,7,8]

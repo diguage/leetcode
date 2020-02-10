@@ -12,21 +12,21 @@ Given a puzzle board, return the least number of moves required so that the stat
 
 *Examples:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* board = [[1,2,3],[4,0,5]]
 *Output:* 1
 *Explanation:* Swap the 0 and the 5 in one move.
 ----
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* board = [[1,2,3],[5,4,0]]
 *Output:* -1
 *Explanation:* No number of moves will make the board solved.
 ----
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* board = [[4,1,2],[5,0,3]]
 *Output:* 5
@@ -40,7 +40,7 @@ After move 4: [[1,2,0],[4,5,3]]
 After move 5: [[1,2,3],[4,5,0]]
 ----
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* board = [[3,2,4],[1,5,0]]
 *Output:* 14

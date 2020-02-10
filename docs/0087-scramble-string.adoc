@@ -6,7 +6,7 @@ Given a string _s1_, we may represent it as a binary tree by partitioning it to 
 
 Below is one possible representation of _s1_ = `"great"`:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
     great
    /    \
@@ -22,7 +22,7 @@ To scramble the string, we may choose any non-leaf node and swap its two childre
 
 For example, if we choose the node `"gr"` and swap its two children, it produces a scrambled string `"rgeat"`.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
     rgeat
    /    \
@@ -38,7 +38,7 @@ We say that `"rgeat"` is a scrambled string of `"great"`.
 
 Similarly, if we continue to swap the children of nodes `"eat"` and `"at"`, it produces a scrambled string `"rgtae"`.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
     rgtae
    /    \
@@ -56,7 +56,7 @@ Given two strings _s1_ and _s2_ of the same length, determine if _s2_ is a scram
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s1 = "great", s2 = "rgeat"
 *Output:* true
@@ -65,7 +65,7 @@ Given two strings _s1_ and _s2_ of the same length, determine if _s2_ is a scram
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s1 = "abcde", s2 = "caebd"
 *Output:* false

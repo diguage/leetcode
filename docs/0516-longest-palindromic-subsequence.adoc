@@ -8,12 +8,12 @@ Given a string s, find the longest palindromic subsequence's length in s. You ma
 
 *Example 1:*<br>
 Input: 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 "bbbab"
 ----
 Output: 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 4
 ----
@@ -22,12 +22,12 @@ One possible longest palindromic subsequence is "bbbb".
 
 *Example 2:*<br>
 Input:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 "cbbd"
 ----
 Output:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 2
 ----

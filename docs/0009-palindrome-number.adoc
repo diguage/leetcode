@@ -5,14 +5,14 @@ https://leetcode.com/problems/palindrome-number/[LeetCode - Palindrome Number]
 Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
 
 .Example 1:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 121
 *Output:* true
 ----
 
 .Example 2:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* -121
 *Output:* false
@@ -20,7 +20,7 @@ Determine whether an integer is a palindrome. An integer is a palindrome when it
 ----
 
 .Example 3:
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 10
 *Output:* false

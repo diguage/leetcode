@@ -17,7 +17,7 @@ An expression can either be:
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* expression = "!(f)"
 *Output:* true
@@ -25,7 +25,7 @@ An expression can either be:
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* expression = "|(f,t)"
 *Output:* true
@@ -33,7 +33,7 @@ An expression can either be:
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* expression = "&amp;(t,f)"
 *Output:* false
@@ -41,7 +41,7 @@ An expression can either be:
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* expression = "|(&amp;(t,f,t),!(t))"
 *Output:* false

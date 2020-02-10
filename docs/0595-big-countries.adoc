@@ -4,7 +4,7 @@ https://leetcode.com/problems/big-countries/[LeetCode - Big Countries]
 
 There is a table `World`
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +-----------------+------------+------------+--------------+---------------+
 | name            | continent  | area       | population   | gdp           |
@@ -23,7 +23,7 @@ Write a SQL solution to output big countries' name, population and area.
 
 For example, according to the above table, we should output:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +--------------+-------------+--------------+
 | name         | population  | area         |

@@ -11,7 +11,7 @@ It is guaranteed that there will be an answer.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [1,2,5,9], threshold = 6
 *Output:* 5
@@ -21,7 +21,7 @@ If the divisor is 4 we can get a sum to 7 (1+1+2+3) and if the divisor is 5 the 
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [2,3,5,7,11], threshold = 11
 *Output:* 3
@@ -29,7 +29,7 @@ If the divisor is 4 we can get a sum to 7 (1+1+2+3) and if the divisor is 5 the 
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [19], threshold = 5
 *Output:* 4

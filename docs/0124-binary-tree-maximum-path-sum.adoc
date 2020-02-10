@@ -8,7 +8,7 @@ For this problem, a path is defined as any sequence of nodes from some starting 
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,3]
 
@@ -21,7 +21,7 @@ For this problem, a path is defined as any sequence of nodes from some starting 
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [-10,9,20,null,null,15,7]
 

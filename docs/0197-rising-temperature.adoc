@@ -4,7 +4,7 @@ https://leetcode.com/problems/rising-temperature/[LeetCode - Rising Temperature]
 
 Given a `Weather` table, write a SQL query to find all dates' Ids with higher temperature compared to its previous (yesterday's) dates.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +---------+------------------+------------------+
 | Id(INT) | RecordDate(DATE) | Temperature(INT) |
@@ -18,7 +18,7 @@ Given a `Weather` table, write a SQL query to find all dates' Ids with higher te
 
 For example, return the following Ids for the above `Weather` table:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +----+
 | Id |

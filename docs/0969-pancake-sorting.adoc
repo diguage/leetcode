@@ -10,7 +10,7 @@ Return the k-values corresponding to a sequence of pancake flips that sort `A`. 
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [3,2,4,1]
 *Output:* [4,2,4,3]
@@ -26,7 +26,7 @@ After 4th flip (k=3): A = [1, 2, 3, 4], which is sorted.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,3]
 *Output:* []

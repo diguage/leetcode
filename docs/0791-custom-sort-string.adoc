@@ -8,7 +8,7 @@ https://leetcode.com/problems/custom-sort-string/[LeetCode - Custom Sort String]
 
 Return any permutation of `T` (as a string) that satisfies this property.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example :*
 *Input:* 

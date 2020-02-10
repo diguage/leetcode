@@ -18,7 +18,7 @@ Return a list of all universal words in `A`.  You can return the words in any or
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = ["amazon","apple","facebook","google","leetcode"], B = ["e","o"]
 *Output:* ["facebook","google","leetcode"]
@@ -27,7 +27,7 @@ Return a list of all universal words in `A`.  You can return the words in any or
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = ["amazon","apple","facebook","google","leetcode"], B = ["l","e"]
 *Output:* ["apple","google","leetcode"]
@@ -36,7 +36,7 @@ Return a list of all universal words in `A`.  You can return the words in any or
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = ["amazon","apple","facebook","google","leetcode"], B = ["e","oo"]
 *Output:* ["facebook","google"]
@@ -45,7 +45,7 @@ Return a list of all universal words in `A`.  You can return the words in any or
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = ["amazon","apple","facebook","google","leetcode"], B = ["lo","eo"]
 *Output:* ["google","leetcode"]
@@ -54,7 +54,7 @@ Return a list of all universal words in `A`.  You can return the words in any or
 
 *Example 5:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = ["amazon","apple","facebook","google","leetcode"], B = ["ec","oc","ceo"]
 *Output:* ["facebook","leetcode"]

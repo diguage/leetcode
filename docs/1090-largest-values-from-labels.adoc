@@ -18,7 +18,7 @@ Return the largest possible sum of the subset `S`.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* values = [5,4,3,2,1], labels = [1,1,2,2,3], `num_wanted `= 3, use_limit = 1
 *Output:* 9
@@ -28,7 +28,7 @@ Return the largest possible sum of the subset `S`.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* values = [5,4,3,2,1], labels = [1,3,3,3,2], `num_wanted `= 3, use_limit = 2
 *Output:* 12
@@ -38,7 +38,7 @@ Return the largest possible sum of the subset `S`.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* values = [9,8,8,7,6], labels = [0,0,0,1,1], `num_wanted `= 3, use_limit = 1
 *Output:* 16
@@ -48,7 +48,7 @@ Return the largest possible sum of the subset `S`.
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* values = [9,8,8,7,6], labels = [0,0,0,1,1], `num_wanted `= 3, use_limit = 2
 *Output:* 24

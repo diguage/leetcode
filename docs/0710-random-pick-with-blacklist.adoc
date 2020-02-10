@@ -16,7 +16,7 @@ Optimize it such that it minimizes the call to system&rsquo;s `Math.random()`.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
  ["Solution","pick","pick","pick"]
@@ -26,7 +26,7 @@ Optimize it such that it minimizes the call to system&rsquo;s `Math.random()`.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
  ["Solution","pick","pick","pick"]
@@ -36,7 +36,7 @@ Optimize it such that it minimizes the call to system&rsquo;s `Math.random()`.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
  ["Solution","pick","pick","pick"]
@@ -46,7 +46,7 @@ Optimize it such that it minimizes the call to system&rsquo;s `Math.random()`.
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
  ["Solution","pick","pick","pick"]

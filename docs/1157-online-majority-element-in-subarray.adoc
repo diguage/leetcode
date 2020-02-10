@@ -20,7 +20,7 @@ Each `query(...)` returns the element in `arr[left], arr[left+1], ..., arr[right
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 MajorityChecker majorityChecker = new MajorityChecker([1,1,2,2,1,1]);
 majorityChecker.query(0,5,4); // returns 1

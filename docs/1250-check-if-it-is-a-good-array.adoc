@@ -9,7 +9,7 @@ Return `True` if the array is *good *otherwise return `False`.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [12,5,7,23]
 *Output:* true
@@ -19,7 +19,7 @@ Return `True` if the array is *good *otherwise return `False`.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [29,6,10]
 *Output:* true
@@ -29,7 +29,7 @@ Return `True` if the array is *good *otherwise return `False`.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [3,6]
 *Output:* false

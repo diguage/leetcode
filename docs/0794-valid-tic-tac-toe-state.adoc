@@ -17,7 +17,7 @@ Here are the rules of Tic-Tac-Toe:
 * No more moves can be played if the game is over.
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example 1:*
 *Input:* board = ["O  ", "   ", "   "]

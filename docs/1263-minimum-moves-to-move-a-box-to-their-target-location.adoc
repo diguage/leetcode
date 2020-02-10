@@ -24,7 +24,7 @@ Return the minimum number of *pushes* to move the box to the target. If there is
 
 image::https://assets.leetcode.com/uploads/2019/11/06/sample_1_1620.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* grid = [["#","#","#","#","#","#"],
                ["#","T","#","#","#","#"],
@@ -38,7 +38,7 @@ image::https://assets.leetcode.com/uploads/2019/11/06/sample_1_1620.png[]
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* grid = [["#","#","#","#","#","#"],
                ["#","T","#","#","#","#"],
@@ -52,7 +52,7 @@ image::https://assets.leetcode.com/uploads/2019/11/06/sample_1_1620.png[]
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* grid = [["#","#","#","#","#","#"],
                ["#","T",".",".","#","#"],
@@ -67,7 +67,7 @@ image::https://assets.leetcode.com/uploads/2019/11/06/sample_1_1620.png[]
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* grid = [["#","#","#","#","#","#","#"],
                ["#","S","#",".","B","T","#"],

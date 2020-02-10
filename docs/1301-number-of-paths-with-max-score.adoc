@@ -13,7 +13,7 @@ In case there is no path, return `[0, 0]`.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* board = ["E23","2X2","12S"]
 *Output:* [7,1]
@@ -21,7 +21,7 @@ In case there is no path, return `[0, 0]`.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* board = ["E12","1X1","21S"]
 *Output:* [4,2]
@@ -29,7 +29,7 @@ In case there is no path, return `[0, 0]`.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* board = ["E11","XXX","11S"]
 *Output:* [0,0]

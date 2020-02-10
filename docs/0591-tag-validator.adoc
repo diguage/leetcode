@@ -17,7 +17,7 @@ Given a string representing a code snippet, you need to implement a tag validato
 *Valid Code Examples:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "<DIV>This is the first line <![CDATA[<div>]]></DIV>"
 
@@ -72,7 +72,7 @@ The reason why cdata is NOT *"<![CDATA[<div>]>]]>]]>"* is because of the rule 7.
 *Invalid Code Examples:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "<A>  <B> </A>   </B>"
 *Output:* False

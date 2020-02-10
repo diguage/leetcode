@@ -11,7 +11,7 @@ Given a non-negative integer `N`, find the largest number that is less than or e
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 10
 *Output:* 9
@@ -21,7 +21,7 @@ Given a non-negative integer `N`, find the largest number that is less than or e
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 1234
 *Output:* 1234
@@ -31,7 +31,7 @@ Given a non-negative integer `N`, find the largest number that is less than or e
 *Example 3:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 332
 *Output:* 299

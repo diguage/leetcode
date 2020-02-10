@@ -15,7 +15,7 @@ Zero matrix is a matrix with all cells equal to 0.
 
 image::https://assets.leetcode.com/uploads/2019/11/28/matrix.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* mat = [[0,0],[0,1]]
 *Output:* 3
@@ -24,7 +24,7 @@ image::https://assets.leetcode.com/uploads/2019/11/28/matrix.png[]
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* mat = [[0]]
 *Output:* 0
@@ -33,7 +33,7 @@ image::https://assets.leetcode.com/uploads/2019/11/28/matrix.png[]
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* mat = [[1,1,1],[1,0,1],[0,0,0]]
 *Output:* 6
@@ -41,7 +41,7 @@ image::https://assets.leetcode.com/uploads/2019/11/28/matrix.png[]
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* mat = [[1,0,0],[1,0,0]]
 *Output:* -1

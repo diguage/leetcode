@@ -10,7 +10,7 @@ Which nodes are eventually safe?  Return them as an array in sorted order.
 
 The directed graph has `N` nodes with labels `0, 1, ..., N-1`, where `N` is the length of `graph`.  The graph is given in the following form: `graph[i]` is a list of labels `j` such that `(i, j)` is a directed edge of the graph.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example:*
 *Input:* graph = [[1,2],[2,3],[5],[0],[5],[],[]]

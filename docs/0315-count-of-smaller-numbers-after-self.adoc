@@ -6,7 +6,7 @@ You are given an integer array _nums_ and you have to return a new _counts_ arra
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [5,2,6,1]
 *Output:* `[2,1,1,0]`

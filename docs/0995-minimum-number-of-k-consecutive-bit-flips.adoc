@@ -10,7 +10,7 @@ Return the minimum number of `K`-bit flips required so that there is no 0 in the
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [0,1,0], K = 1
 *Output:* 2
@@ -20,7 +20,7 @@ Return the minimum number of `K`-bit flips required so that there is no 0 in the
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [1,1,0], K = 2
 *Output:* -1
@@ -30,7 +30,7 @@ Return the minimum number of `K`-bit flips required so that there is no 0 in the
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [0,0,0,1,0,1,1,0], K = 3
 *Output:* 3

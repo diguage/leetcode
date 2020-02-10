@@ -6,7 +6,7 @@ Given an array `nums` of _n_ integers and an integer `target`, find three intege
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Given array nums = [-1, 2, 1, -4], and target = 1.
 

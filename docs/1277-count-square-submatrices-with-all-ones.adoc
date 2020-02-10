@@ -7,7 +7,7 @@ Given a `m * n` matrix of ones and zeros, return how many *square* submatrices h
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* matrix =
 [
@@ -25,7 +25,7 @@ Total number of squares = 10 + 4 + 1 = *15*.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* matrix = 
 [

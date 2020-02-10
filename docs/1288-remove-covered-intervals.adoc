@@ -9,7 +9,7 @@ After doing so, return the number of remaining intervals.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* intervals = [[1,4],[3,6],[2,8]]
 *Output:* 2

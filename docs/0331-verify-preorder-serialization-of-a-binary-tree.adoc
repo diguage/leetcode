@@ -4,7 +4,7 @@ https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/[Le
 
 One way to serialize a binary tree is to use pre-order traversal. When we encounter a non-null node, we record the node's value. If it is a null node, we record using a sentinel value such as `#`.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
      _9_
     /   \
@@ -25,7 +25,7 @@ You may assume that the input format is always valid, for example it could never
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `"9,3,4,#,#,1,#,#,2,#,6,#,#"`
 *Output:* `true`
@@ -33,7 +33,7 @@ You may assume that the input format is always valid, for example it could never
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `"1,#"`
 *Output:* `false`
@@ -41,7 +41,7 @@ You may assume that the input format is always valid, for example it could never
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `"9,#,#,1"`
 *Output:* `false`

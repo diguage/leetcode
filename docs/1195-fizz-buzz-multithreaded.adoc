@@ -14,7 +14,7 @@ For example, for `n = 15`, we output: `1, 2, fizz, 4, buzz, fizz, 7, 8, fizz, bu
 
 Suppose you are given the following code:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 class FizzBuzz {
   public FizzBuzz(int n) { ... }               // constructor

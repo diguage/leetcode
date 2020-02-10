@@ -6,7 +6,7 @@ Given a string array `words`, find the maximum value of `length(word[i]) * lengt
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `["abcw","baz","foo","bar","xtfn","abcdef"]`
 *Output:* `16`
@@ -15,7 +15,7 @@ Given a string array `words`, find the maximum value of `length(word[i]) * lengt
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `["a","ab","abc","d","cd","bcd","abcd"]`
 *Output:* `4`
@@ -24,7 +24,7 @@ Given a string array `words`, find the maximum value of `length(word[i]) * lengt
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `["a","aa","aaa","aaaa"]`
 *Output:* `0`

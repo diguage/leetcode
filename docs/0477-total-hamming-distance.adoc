@@ -10,7 +10,7 @@ Now your job is to find the total Hamming distance between all pairs of the give
 *Example:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 4, 14, 2
 

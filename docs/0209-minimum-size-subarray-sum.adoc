@@ -6,7 +6,7 @@ Given an array of *n* positive integers and a positive integer *s*, find the min
 
 *Example: *
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `s = 7, nums = [2,3,1,2,4,3]`
 *Output:* 2

@@ -13,7 +13,7 @@ Note that the initial positions of your two fingers are considered free so don't
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* word = "CAKE"
 *Output:* 3
@@ -28,7 +28,7 @@ Total distance = 3
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* word = "HAPPY"
 *Output:* 6
@@ -44,7 +44,7 @@ Total distance = 6
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* word = "NEW"
 *Output:* 3
@@ -52,7 +52,7 @@ Total distance = 6
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* word = "YEAR"
 *Output:* 7

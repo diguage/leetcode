@@ -19,7 +19,7 @@ The input is: ` vector<pair<string, string>> equations, vector<double>&amp; valu
 
 According to the example above:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 equations = [ ["a", "b"], ["b", "c"] ],
 values = [2.0, 3.0],

@@ -18,7 +18,7 @@ Given a string `S`, return the "reversed" string where all characters that are n
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "ab-cd"
 *Output:* "dc-ba"
@@ -27,7 +27,7 @@ Given a string `S`, return the "reversed" string where all characters that are n
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "a-bC-dEf-ghIj"
 *Output:* "j-Ih-gfE-dCba"
@@ -36,7 +36,7 @@ Given a string `S`, return the "reversed" string where all characters that are n
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "Test1ng-Leet=code-Q!"
 *Output:* "Qedo1ct-eeLg=ntse-T!"

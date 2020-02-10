@@ -10,7 +10,7 @@ _(A string S is a subsequence of string T if deleting some number of characters 
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* str1 = "abac", str2 = "cab"
 *Output:* "cabac"

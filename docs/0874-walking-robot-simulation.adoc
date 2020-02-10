@@ -22,7 +22,7 @@ Return the *square* of the maximum Euclidean distance that the robot will be fro
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* commands = [4,-1,3], obstacles = []
 *Output:* 25
@@ -32,7 +32,7 @@ Explanation: robot will go to (3, 4)
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* commands = [4,-1,4,-2,4], obstacles = [[2,4]]
 *Output:* 65

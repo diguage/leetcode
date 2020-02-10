@@ -7,7 +7,7 @@ Given integers `n` and `k`, find the lexicographically k-th smallest integer in 
 Note: 1 ≤ k ≤ n ≤ 10^9^.
 
 *Example:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 n: 13   k: 2

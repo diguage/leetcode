@@ -9,7 +9,7 @@ The adding rule is: given a positive integer depth `d`, for each NOT null tree n
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 A binary tree as following:
@@ -39,7 +39,7 @@ A binary tree as following:
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 A binary tree as following:

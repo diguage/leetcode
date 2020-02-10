@@ -17,7 +17,7 @@ For example, 12321 is a palindrome.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 6
 *Output:* 7
@@ -26,7 +26,7 @@ For example, 12321 is a palindrome.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 8
 *Output:* 11
@@ -35,7 +35,7 @@ For example, 12321 is a palindrome.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 13
 *Output:* 101

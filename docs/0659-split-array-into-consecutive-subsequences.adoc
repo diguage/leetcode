@@ -8,7 +8,7 @@ Given an array `nums` sorted in ascending order, return `true` if and only if yo
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,3,3,4,5]
 *Output:* True
@@ -21,7 +21,7 @@ You can split them into two consecutive subsequences :
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,3,3,4,4,5,5]
 *Output:* True
@@ -34,7 +34,7 @@ You can split them into two consecutive subsequences :
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,3,4,4,5]
 *Output:* False

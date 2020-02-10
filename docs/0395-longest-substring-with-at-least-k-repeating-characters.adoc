@@ -39,7 +39,7 @@ Find the length of the longest substring *_T_* of a given string (consists of lo
 
 
 *Example 1:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Input:
 s = "aaabb", k = 3
@@ -52,7 +52,7 @@ The longest substring is "aaa", as 'a' is repeated 3 times.
 
 
 *Example 2:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Input:
 s = "ababbc", k = 2

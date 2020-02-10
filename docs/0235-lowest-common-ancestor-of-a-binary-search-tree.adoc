@@ -13,7 +13,7 @@ image::https://assets.leetcode.com/uploads/2018/12/14/binarysearchtree_improved.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
 *Output:* 6
@@ -22,7 +22,7 @@ image::https://assets.leetcode.com/uploads/2018/12/14/binarysearchtree_improved.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4
 *Output:* 2

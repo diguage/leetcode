@@ -6,7 +6,7 @@ There are _n_ bulbs that are initially off. You first turn on all the bulbs. The
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 3
 *Output:* 1 

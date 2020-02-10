@@ -10,7 +10,7 @@ The solution set must not contain duplicate triplets.
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Given array nums = [-1, 0, 1, 2, -1, -4],
 

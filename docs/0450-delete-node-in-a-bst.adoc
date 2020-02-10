@@ -14,7 +14,7 @@ Basically, the deletion can be divided into two stages:
 *Note:* Time complexity should be O(height of tree).
 
 *Example:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 root = [5,3,6,2,4,null,7]
 key = 3

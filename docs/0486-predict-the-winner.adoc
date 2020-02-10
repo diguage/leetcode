@@ -9,7 +9,7 @@ Given an array of scores, predict whether player 1 is the winner. You can assume
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1, 5, 2]
 *Output:* False
@@ -20,7 +20,7 @@ Given an array of scores, predict whether player 1 is the winner. You can assume
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1, 5, 233, 7]
 *Output:* True

@@ -10,7 +10,7 @@ For each *move*, you could choose *any m* (1 ≤ m ≤ n) washing machines, and 
 Given an integer array representing the number of dresses in each washing machine from left to right on the line, you should find the *minimum number of moves* to make all the washing machines have the same number of dresses. If it is not possible to do it, return -1.
 
 *Example1*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,0,5]
 
@@ -23,7 +23,7 @@ Given an integer array representing the number of dresses in each washing machin
 ----
 
 *Example2*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [0,3,0]
 
@@ -35,7 +35,7 @@ Given an integer array representing the number of dresses in each washing machin
 ----
 
 *Example3*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [0,2,0]
 

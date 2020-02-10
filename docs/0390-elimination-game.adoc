@@ -12,7 +12,7 @@ We keep repeating the steps again, alternating left to right and right to left, 
 Find the last number that remains starting with a list of length _n_.
 
 *Example:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Input:
 n = 9,

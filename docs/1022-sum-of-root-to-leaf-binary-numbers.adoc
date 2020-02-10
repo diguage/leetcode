@@ -14,7 +14,7 @@ Return the sum of these numbers.
 
 image::https://assets.leetcode.com/uploads/2019/04/04/sum-of-root-to-leaf-binary-numbers.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,0,1,0,1,0,1]
 *Output:* 22

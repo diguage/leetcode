@@ -7,7 +7,7 @@ Given a string `date` representing a https://en.wikipedia.org/wiki/Gregorian_cal
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* date = "2019-01-09"
 *Output:* 9
@@ -16,7 +16,7 @@ Given a string `date` representing a https://en.wikipedia.org/wiki/Gregorian_cal
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* date = "2019-02-10"
 *Output:* 41
@@ -24,7 +24,7 @@ Given a string `date` representing a https://en.wikipedia.org/wiki/Gregorian_cal
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* date = "2003-03-01"
 *Output:* 60
@@ -32,7 +32,7 @@ Given a string `date` representing a https://en.wikipedia.org/wiki/Gregorian_cal
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* date = "2004-03-01"
 *Output:* 61

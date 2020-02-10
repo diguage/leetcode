@@ -18,7 +18,7 @@ Construct the maximum tree by the given array and output the root node of this t
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [3,2,1,6,0,5]
 *Output:* return the tree root node representing the following tree:

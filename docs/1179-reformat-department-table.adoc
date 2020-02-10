@@ -4,7 +4,7 @@ https://leetcode.com/problems/reformat-department-table/[LeetCode - Reformat Dep
 
 Table: `Department`
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +---------------+---------+
 | Column Name   | Type    |
@@ -24,7 +24,7 @@ Write an SQL query to reformat the table such that there is a department id colu
 
 The query result format is in the following example:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 Department table:
 +------+---------+-------+

@@ -16,7 +16,7 @@ Each letter in the magazine string can only be used once in your ransom note.
 You may assume that both strings contain only lowercase letters.
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 canConstruct("a", "b") -> false
 canConstruct("aa", "ab") -> false

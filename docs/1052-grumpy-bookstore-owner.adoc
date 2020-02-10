@@ -14,7 +14,7 @@ Return the maximum number of customers that can be satisfied throughout the day.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* customers = [1,0,1,2,1,1,7,5], grumpy = [0,1,0,1,0,1,0,1], X = 3
 *Output:* 16

@@ -32,7 +32,7 @@ You need to merge them into a new binary tree. The merge rule is that if two nod
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 	Tree 1                     Tree 2                  

@@ -21,7 +21,7 @@ null ]
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 root = [1, 2, 3], k = 5
@@ -37,7 +37,7 @@ The last element output[4] is null, but it's string representation as a ListNode
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 root = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], k = 3

@@ -50,7 +50,7 @@ You need to return the *least* number of intervals the CPU will take to finish a
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* tasks = ["A","A","A","B","B","B"], n = 2
 *Output:* 8

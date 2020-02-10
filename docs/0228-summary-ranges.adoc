@@ -6,7 +6,7 @@ Given a sorted integer array without duplicates, return the summary of its range
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*  [0,1,2,4,5,7]
 *Output:* ["0->2","4->5","7"]
@@ -15,7 +15,7 @@ Given a sorted integer array without duplicates, return the summary of its range
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*  [0,2,3,4,6,8,9]
 *Output:* ["0","2->4","6","8->9"]

@@ -12,7 +12,7 @@ Return `true` if and only if it is possible to pick up and drop off all passenge
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* trips = [[2,1,5],[3,3,7]], capacity = 4
 *Output:* false
@@ -21,7 +21,7 @@ Return `true` if and only if it is possible to pick up and drop off all passenge
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* trips = [[2,1,5],[3,3,7]], capacity = 5
 *Output:* true
@@ -30,7 +30,7 @@ Return `true` if and only if it is possible to pick up and drop off all passenge
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* trips = [[2,1,5],[3,5,7]], capacity = 3
 *Output:* true
@@ -39,7 +39,7 @@ Return `true` if and only if it is possible to pick up and drop off all passenge
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* trips = [[3,2,7],[3,7,9],[8,3,9]], capacity = 11
 *Output:* true

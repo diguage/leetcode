@@ -17,7 +17,7 @@ Return the maximum amount of gold you can collect under the conditions:
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* grid = [[0,6,0],[5,8,7],[0,9,0]]
 *Output:* 24
@@ -30,7 +30,7 @@ Path to get the maximum gold, 9 -> 8 -> 7.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* grid = [[1,0,7],[2,0,6],[3,4,5],[0,3,0],[9,0,20]]
 *Output:* 28

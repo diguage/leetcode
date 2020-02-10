@@ -9,7 +9,7 @@ Ugly numbers are* positive integers* which are divisible by `a` *or* `b` *or* `c
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 3, a = 2, b = 3, c = 5
 *Output:* 4
@@ -18,7 +18,7 @@ Ugly numbers are* positive integers* which are divisible by `a` *or* `b` *or* `c
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 4, a = 2, b = 3, c = 4
 *Output:* 6
@@ -28,7 +28,7 @@ Ugly numbers are* positive integers* which are divisible by `a` *or* `b` *or* `c
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 5, a = 2, b = 11, c = 13
 *Output:* 10
@@ -38,7 +38,7 @@ Ugly numbers are* positive integers* which are divisible by `a` *or* `b` *or* `c
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* n = 1000000000, a = 2, b = 217983653, c = 336916467
 *Output:* 1999999984

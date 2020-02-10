@@ -11,7 +11,7 @@ Return the lexicographically smallest string that `s` can be changed to after us
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "dcab", pairs = [[0,3],[1,2]]
 *Output:* "bacd"
@@ -22,7 +22,7 @@ Swap s[1] and s[2], s = "bacd"
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "dcab", pairs = [[0,3],[1,2],[0,2]]
 *Output:* "abcd"
@@ -34,7 +34,7 @@ Swap s[1] and s[2], s = "abcd"
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* s = "cba", pairs = [[0,1],[1,2]]
 *Output:* "abc"

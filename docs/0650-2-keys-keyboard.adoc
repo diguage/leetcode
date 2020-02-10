@@ -15,7 +15,7 @@ Given a number `n`. You have to get *exactly* `n` 'A' on the notepad by performi
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 3
 *Output:* 3

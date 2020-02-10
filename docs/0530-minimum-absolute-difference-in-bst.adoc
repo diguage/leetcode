@@ -6,7 +6,7 @@ Given a binary search tree with non-negative values, find the minimum <a href="h
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 

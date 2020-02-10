@@ -6,7 +6,7 @@ Given an integer array with all positive numbers and no duplicates, find the num
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 _*nums*_ = [1, 2, 3]
 _*target*_ = 4

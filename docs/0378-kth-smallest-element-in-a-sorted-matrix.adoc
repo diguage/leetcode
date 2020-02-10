@@ -11,7 +11,7 @@ Note that it is the kth smallest element in the sorted order, not the kth distin
 
 
 *Example:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 matrix = [
    [ 1,  5,  9],

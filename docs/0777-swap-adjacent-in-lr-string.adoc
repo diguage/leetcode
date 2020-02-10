@@ -6,7 +6,7 @@ In a string composed of `'L'`, `'R'`, and `'X'` characters, like `"RXXLRXRXL"`, 
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* start = "RXXLRXRXL", end = "XRLXXRRLX"
 *Output:* True

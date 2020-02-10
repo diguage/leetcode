@@ -10,7 +10,7 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [2,2,3,2]
 *Output:* 3
@@ -19,7 +19,7 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [0,1,0,1,0,1,99]
 *Output:* 99

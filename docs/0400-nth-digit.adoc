@@ -11,7 +11,7 @@ _n_ is positive and will fit within the range of a 32-bit signed integer (_n_ < 
 
 
 *Example 1:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 3
@@ -22,7 +22,7 @@ _n_ is positive and will fit within the range of a 32-bit signed integer (_n_ < 
 
 
 *Example 2:*
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 11

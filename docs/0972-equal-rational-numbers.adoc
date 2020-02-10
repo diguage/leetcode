@@ -22,7 +22,7 @@ Both 0.1(6) or 0.1666(6) or 0.166(66) are correct representations of 1 / 6.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* S = "0.(52)", T = "0.5(25)"
 *Output:* true
@@ -34,7 +34,7 @@ Because "0.(52)" represents 0.52525252..., and "0.5(25)" represents 0.5252525252
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* S = "0.1666(6)", T = "0.166(66)"
 *Output:* true
@@ -44,7 +44,7 @@ Because "0.(52)" represents 0.52525252..., and "0.5(25)" represents 0.5252525252
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* S = "0.9(9)", T = "1."
 *Output:* true

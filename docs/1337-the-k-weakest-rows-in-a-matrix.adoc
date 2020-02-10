@@ -9,7 +9,7 @@ A row _*i*_ is weaker than row _*j*_, if the number of soldiers in row _*i*_ is 
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* mat = 
 [[1,1,0,0,0],
@@ -31,7 +31,7 @@ Rows ordered from the weakest to the strongest are [2,0,3,1,4]
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* mat = 
 [[1,0,0,0],

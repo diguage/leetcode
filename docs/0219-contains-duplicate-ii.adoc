@@ -7,7 +7,7 @@ Given an array of integers and an integer _k_, find out whether there are two di
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [1,2,3,1], k = 3
 *Output:* true
@@ -16,7 +16,7 @@ Given an array of integers and an integer _k_, find out whether there are two di
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [1,0,1,1], k = 1
 *Output:* true
@@ -25,7 +25,7 @@ Given an array of integers and an integer _k_, find out whether there are two di
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [1,2,3,1,2,3], k = 2
 *Output:* false

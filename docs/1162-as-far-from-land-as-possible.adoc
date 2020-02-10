@@ -14,7 +14,7 @@ If no land or water exists in the grid, return `-1`.
 
 image::https://assets.leetcode.com/uploads/2019/05/03/1336_ex1.JPG[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[1,0,1],[0,0,0],[1,0,1]]
 *Output:* 2
@@ -26,7 +26,7 @@ The cell (1, 1) is as far as possible from all the land with distance 2.
 
 image::https://assets.leetcode.com/uploads/2019/05/03/1336_ex2.JPG[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [[1,0,0],[0,0,0],[0,0,0]]
 *Output:* 4

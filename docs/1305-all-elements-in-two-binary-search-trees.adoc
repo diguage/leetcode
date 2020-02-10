@@ -11,7 +11,7 @@ Return a list containing _all the integers_ from _both trees_ sorted in *ascendi
 
 image::https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root1 = [2,1,4], root2 = [1,0,3]
 *Output:* [0,1,1,2,3,4]
@@ -19,7 +19,7 @@ image::https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png[]
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root1 = [0,-10,10], root2 = [5,1,7,0,2]
 *Output:* [-10,0,0,1,2,5,7,10]
@@ -27,7 +27,7 @@ image::https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png[]
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root1 = [], root2 = [5,1,7,0,2]
 *Output:* [0,1,2,5,7]
@@ -35,7 +35,7 @@ image::https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png[]
 
 *Example 4:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root1 = [0,-10,10], root2 = []
 *Output:* [-10,0,10]
@@ -45,7 +45,7 @@ image::https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png[]
 
 image::https://assets.leetcode.com/uploads/2019/12/18/q2-e5-.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* root1 = [1,null,8], root2 = [8,1]
 *Output:* [1,1,8,8]

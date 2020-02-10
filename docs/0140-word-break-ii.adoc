@@ -13,7 +13,7 @@ Given a *non-empty* string _s_ and a dictionary _wordDict_ containing a list of 
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:
 *s = "`catsanddog`"
@@ -28,7 +28,7 @@ wordDict = `["cat", "cats", "and", "sand", "dog"]`
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:
 *s = "pineapplepenapple"
@@ -45,7 +45,7 @@ wordDict = ["apple", "pen", "applepen", "pine", "pineapple"]
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:
 *s = "catsandog"

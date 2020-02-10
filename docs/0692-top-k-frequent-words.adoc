@@ -8,7 +8,7 @@ Your answer should be sorted by frequency from highest to lowest. If two words h
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["i", "love", "leetcode", "i", "love", "coding"], k = 2
 *Output:* ["i", "love"]
@@ -20,7 +20,7 @@ Your answer should be sorted by frequency from highest to lowest. If two words h
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* ["the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"], k = 4
 *Output:* ["the", "is", "sunny", "day"]

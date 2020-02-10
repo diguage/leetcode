@@ -9,7 +9,7 @@ Return the minimum number of steps to walk from the upper left corner `(0, 0)` t
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 grid = 
@@ -29,7 +29,7 @@ The shortest path with one obstacle elimination at position (3,2) is 6. Such pat
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 
 grid = 

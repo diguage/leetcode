@@ -9,7 +9,7 @@ Return the number of *nice* sub-arrays.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [1,1,2,1,1], k = 3
 *Output:* 2
@@ -18,7 +18,7 @@ Return the number of *nice* sub-arrays.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [2,4,6], k = 1
 *Output:* 0
@@ -27,7 +27,7 @@ Return the number of *nice* sub-arrays.
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* nums = [2,2,2,1,2,2,1,2,2,2], k = 2
 *Output:* 16

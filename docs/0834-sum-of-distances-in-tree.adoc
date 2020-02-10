@@ -10,7 +10,7 @@ Return a list `ans`, where `ans[i]` is the sum of the distances between node `i`
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* N = 6, edges = [[0,1],[0,2],[2,3],[2,4],[2,5]]
 *Output:* [8,12,6,10,10,10]

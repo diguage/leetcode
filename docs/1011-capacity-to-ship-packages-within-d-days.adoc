@@ -12,7 +12,7 @@ Return the least weight capacity of the ship that will result in all the package
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* weights = [1,2,3,4,5,6,7,8,9,10], D = 5
 *Output:* 15
@@ -29,7 +29,7 @@ Note that the cargo must be shipped in the order given, so using a ship of capac
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* weights = [3,2,2,4,1,4], D = 3
 *Output:* 6
@@ -42,7 +42,7 @@ A ship capacity of 6 is the minimum to ship all the packages in 3 days like this
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* weights = [1,2,3,1,1], D = 4
 *Output:* 3

@@ -7,7 +7,7 @@ Given a 2D integer matrix M representing the gray scale of an image, you need to
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:*
 [[1,1,1],

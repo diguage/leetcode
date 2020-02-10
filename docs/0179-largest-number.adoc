@@ -8,7 +8,7 @@ Given a list of non negative integers, arrange them such that they form the larg
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `[10,2]`
 *Output:* "`210"`
@@ -16,7 +16,7 @@ Given a list of non negative integers, arrange them such that they form the larg
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* `[3,30,34,5,9]`
 *Output:* "`9534330"`

@@ -11,7 +11,7 @@ Since the answer may be too large, return it *modulo* `10^9 + 7`.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* steps = 3, arrLen = 2
 *Output:* 4
@@ -24,7 +24,7 @@ Stay, Stay, Stay
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* steps = 2, arrLen = 4
 *Output:* 2
@@ -35,7 +35,7 @@ Stay, Stay
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* steps = 4, arrLen = 2
 *Output:* 8

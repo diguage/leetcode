@@ -17,7 +17,7 @@ To sum up, pick a list of at most *k* distinct projects from given projects to m
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* k=2, W=0, Profits=[1,2,3], Capital=[0,1,1].
 

@@ -14,7 +14,7 @@ Return the node with the largest depth such that it contains all the deepest nod
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [3,5,1,6,2,0,8,null,null,7,4]
 *Output:* [2,7,4]

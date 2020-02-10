@@ -4,7 +4,7 @@ https://leetcode.com/problems/trips-and-users/[LeetCode - Trips and Users]
 
 The `Trips` table holds all taxi trips. Each trip has a unique Id, while Client_Id and Driver_Id are both foreign keys to the Users_Id at the `Users` table. Status is an ENUM type of (&lsquo;completed&rsquo;, &lsquo;cancelled_by_driver&rsquo;, &lsquo;cancelled_by_client&rsquo;).
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +----+-----------+-----------+---------+--------------------+----------+
 | Id | Client_Id | Driver_Id | City_Id |        Status      |Request_at|
@@ -24,7 +24,7 @@ The `Trips` table holds all taxi trips. Each trip has a unique Id, while Client_
 
 The `Users` table holds all users. Each user has an unique Users_Id, and Role is an ENUM type of (&lsquo;client&rsquo;, &lsquo;driver&rsquo;, &lsquo;partner&rsquo;).
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +----------+--------+--------+
 | Users_Id | Banned |  Role  |
@@ -44,7 +44,7 @@ Write a SQL query to find the cancellation rate of requests made by unbanned use
 
 For the above tables, your SQL query should return the following rows with the cancellation rate being rounded to _two_ decimal places.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 +------------+-------------------+
 |     Day    | Cancellation Rate |

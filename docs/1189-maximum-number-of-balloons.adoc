@@ -11,7 +11,7 @@ You can use each character in `text` *at most once*. Return the maximum number o
 
 image::https://assets.leetcode.com/uploads/2019/09/05/1536_ex1_upd.JPG[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* text = "nlaebolko"
 *Output:* 1
@@ -21,7 +21,7 @@ image::https://assets.leetcode.com/uploads/2019/09/05/1536_ex1_upd.JPG[]
 
 image::https://assets.leetcode.com/uploads/2019/09/05/1536_ex2_upd.JPG[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* text = "loonbalxballpoon"
 *Output:* 2
@@ -29,7 +29,7 @@ image::https://assets.leetcode.com/uploads/2019/09/05/1536_ex2_upd.JPG[]
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* text = "leetcode"
 *Output:* 0

@@ -12,7 +12,7 @@ You need to return a string representing their multiplication. Note i^2^ = -1 ac
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "1+1i", "1+1i"
 *Output:* "0+2i"
@@ -23,7 +23,7 @@ You need to return a string representing their multiplication. Note i^2^ = -1 ac
 *Example 2:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* "1+-1i", "1+-1i"
 *Output:* "0+-2i"

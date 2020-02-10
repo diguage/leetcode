@@ -7,7 +7,7 @@ Given an array consists of non-negative integers,  your task is to count the num
 *Example 1:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [2,2,3,4]
 *Output:* 3

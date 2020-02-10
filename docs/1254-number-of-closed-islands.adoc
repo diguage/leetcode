@@ -11,7 +11,7 @@ Return the number of _closed islands_.
 
 image::https://assets.leetcode.com/uploads/2019/10/31/sample_3_1610.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* grid = [[1,1,1,1,1,1,1,0],[1,0,0,0,0,1,1,0],[1,0,1,0,1,1,1,0],[1,0,0,0,0,1,0,1],[1,1,1,1,1,1,1,0]]
 *Output:* 2
@@ -23,7 +23,7 @@ Islands in gray are closed because they are completely surrounded by water (grou
 
 image::https://assets.leetcode.com/uploads/2019/10/31/sample_4_1610.png[]
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* grid = [[0,0,1,0,0],[0,1,0,1,0],[0,1,1,1,0]]
 *Output:* 1
@@ -31,7 +31,7 @@ image::https://assets.leetcode.com/uploads/2019/10/31/sample_4_1610.png[]
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* grid = [[1,1,1,1,1,1,1],
                [1,0,0,0,0,0,1],

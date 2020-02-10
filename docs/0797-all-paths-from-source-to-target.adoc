@@ -6,7 +6,7 @@ Given a directed, acyclic graph of `N` nodes.  Find all possible paths from node
 
 The graph is given as follows:  the nodes are 0, 1, ..., graph.length - 1.  graph[i] is a list of all nodes j for which the edge (i, j) exists.
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Example:*
 *Input:* [[1,2], [3], [3], []] 

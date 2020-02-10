@@ -10,7 +10,7 @@ Return the least number of moves to make every value in `A` unique.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,2]
 *Output:* 1
@@ -20,7 +20,7 @@ Return the least number of moves to make every value in `A` unique.
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [3,2,1,2,1,7]
 *Output:* 6

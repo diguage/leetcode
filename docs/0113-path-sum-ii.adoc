@@ -10,7 +10,7 @@ Given a binary tree and a sum, find all root-to-leaf paths where each path's sum
 
 Given the below binary tree and `sum = 22`,
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
       *5*
      */ \*
@@ -23,7 +23,7 @@ Given the below binary tree and `sum = 22`,
 
 Return:
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 [
    [5,4,11,2],

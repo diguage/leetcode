@@ -21,7 +21,7 @@ So, your input will be the positions of houses and heaters seperately, and your 
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,3],[2]
 *Output:* 1
@@ -32,7 +32,7 @@ So, your input will be the positions of houses and heaters seperately, and your 
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,3,4],[1,4]
 *Output:* 1

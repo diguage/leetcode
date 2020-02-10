@@ -9,7 +9,7 @@ Notice that you can not jump outside of the array at any time.
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr = [4,2,3,0,3,1,2], start = 5
 *Output:* true
@@ -21,7 +21,7 @@ index 5 -> index 6 -> index 4 -> index 1 -> index 3
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr = [4,2,3,0,3,1,2], start = 0
 *Output:* true 
@@ -32,7 +32,7 @@ index 0 -> index 4 -> index 1 -> index 3
 
 *Example 3:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* arr = [3,0,2,1,2], start = 2
 *Output:* false

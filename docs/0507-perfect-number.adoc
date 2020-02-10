@@ -10,7 +10,7 @@ Now, given an *integer* n, write a function that returns true when it is a perfe
 *Example:*
 
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* 28
 *Output:* True

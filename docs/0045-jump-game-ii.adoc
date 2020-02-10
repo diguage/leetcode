@@ -10,7 +10,7 @@ Your goal is to reach the last index in the minimum number of jumps.
 
 *Example:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* [2,3,1,1,4]
 *Output:* 2

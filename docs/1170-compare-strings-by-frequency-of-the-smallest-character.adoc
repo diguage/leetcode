@@ -9,7 +9,7 @@ Now, given string arrays `queries` and `words`, return an integer array `answer`
  
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* queries = ["cbd"], words = ["zaaaz"]
 *Output:* [1]
@@ -18,7 +18,7 @@ Now, given string arrays `queries` and `words`, return an integer array `answer`
 
 *Example 2:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* queries = ["bbb","cc"], words = ["a","aa","aaa","aaaa"]
 *Output:* [1,2]

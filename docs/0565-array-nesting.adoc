@@ -10,7 +10,7 @@ Suppose the first element in S starts with the selection of element A[i] of inde
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:* A = [5,4,0,3,1,6,2]
 *Output:* 4

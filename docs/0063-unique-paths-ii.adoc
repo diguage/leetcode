@@ -16,7 +16,7 @@ An obstacle and empty space is marked as `1` and `0` respectively in the grid.
 
 *Example 1:*
 
-[subs="verbatim,quotes"]
+[subs="verbatim,quotes,macros"]
 ----
 *Input:
 *[
