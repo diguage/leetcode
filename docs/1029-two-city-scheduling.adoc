@@ -12,9 +12,9 @@ Return the minimum cost to fly every person to a city such that exactly `N` peop
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[[10,20],[30,200],[400,50],[30,20]]
-*Output: *<span id="example-output-1">110
-*Explanation: *
+*Input:* [[10,20],[30,200],[400,50],[30,20]]
+*Output:* 110
+*Explanation:*
 The first person goes to city A for a cost of 10.
 The second person goes to city A for a cost of 30.
 The third person goes to city B for a cost of 50.

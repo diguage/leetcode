@@ -9,9 +9,9 @@ Given a list of *unique* words, find all pairs of *_distinct_* indices `(i, j)` 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">["abcd","dcba","lls","s","sssll"]
-*Output: *<span id="example-output-1">[[0,1],[1,0],[3,2],[2,4]] 
-*E**xplanation: *The palindromes are `["dcbaabcd","abcddcba","slls","llssssll"]`
+*Input:* ["abcd","dcba","lls","s","sssll"]
+*Output:* [[0,1],[1,0],[3,2],[2,4]] 
+*Explanation:* The palindromes are `["dcbaabcd","abcddcba","slls","llssssll"]`
 ----
 
 
@@ -19,9 +19,9 @@ Given a list of *unique* words, find all pairs of *_distinct_* indices `(i, j)` 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">["bat","tab","cat"]
-*Output: *<span id="example-output-2">[[0,1],[1,0]] 
-<span id="example-output-1">*E**xplanation: *The palindromes are `["battab","tabbat"]`
+*Input:* ["bat","tab","cat"]
+*Output:* [[0,1],[1,0]] 
+*Explanation:* The palindromes are `["battab","tabbat"]`
 ----
 
 

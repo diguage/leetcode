@@ -24,8 +24,8 @@ Write synchronization code for oxygen and hydrogen molecules that enforces these
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"HOH"
-*Output: *<span id="example-output-1">"HHO"
+*Input:* "HOH"
+*Output:* "HHO"
 *Explanation:* "HOH" and "OHH" are also valid answers.
 ----
 
@@ -34,8 +34,8 @@ Write synchronization code for oxygen and hydrogen molecules that enforces these
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"OOHHHH"
-*Output: *<span id="example-output-1">"HHOHHO"
+*Input:* "OOHHHH"
+*Output:* "HHOHHO"
 *Explanation:* "HOHHHO", "OHHHHO", "HHOHOH", "HOHHOH", "OHHHOH", "HHOOHH", "HOHOHH" and "OHHOHH" are also valid answers.
 ----
 

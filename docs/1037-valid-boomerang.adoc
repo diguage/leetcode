@@ -12,8 +12,8 @@ Given a list of three points in the plane, return whether these points are a boo
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[[1,1],[2,3],[3,2]]
-*Output: *<span id="example-output-1">true
+*Input:* [[1,1],[2,3],[3,2]]
+*Output:* true
 ----
 
 
@@ -21,8 +21,8 @@ Given a list of three points in the plane, return whether these points are a boo
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[[1,1],[2,2],[3,3]]
-*Output: *<span id="example-output-2">false
+*Input:* [[1,1],[2,2],[3,3]]
+*Output:* false
 ----
 
 

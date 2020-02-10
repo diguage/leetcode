@@ -20,8 +20,8 @@ Return a list of all universal words in `A`.  You can return the words in any or
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-1-1">["amazon","apple","facebook","google","leetcode"], B = <span id="example-input-1-2">["e","o"]
-*Output: *<span id="example-output-1">["facebook","google","leetcode"]
+*Input:* A = ["amazon","apple","facebook","google","leetcode"], B = ["e","o"]
+*Output:* ["facebook","google","leetcode"]
 ----
 
 
@@ -29,8 +29,8 @@ Return a list of all universal words in `A`.  You can return the words in any or
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-2-1">["amazon","apple","facebook","google","leetcode"], B = <span id="example-input-2-2">["l","e"]
-*Output: *<span id="example-output-2">["apple","google","leetcode"]
+*Input:* A = ["amazon","apple","facebook","google","leetcode"], B = ["l","e"]
+*Output:* ["apple","google","leetcode"]
 ----
 
 
@@ -38,8 +38,8 @@ Return a list of all universal words in `A`.  You can return the words in any or
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-3-1">["amazon","apple","facebook","google","leetcode"], B = <span id="example-input-3-2">["e","oo"]
-*Output: *<span id="example-output-3">["facebook","google"]
+*Input:* A = ["amazon","apple","facebook","google","leetcode"], B = ["e","oo"]
+*Output:* ["facebook","google"]
 ----
 
 
@@ -47,8 +47,8 @@ Return a list of all universal words in `A`.  You can return the words in any or
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-4-1">["amazon","apple","facebook","google","leetcode"], B = <span id="example-input-4-2">["lo","eo"]
-*Output: *<span id="example-output-4">["google","leetcode"]
+*Input:* A = ["amazon","apple","facebook","google","leetcode"], B = ["lo","eo"]
+*Output:* ["google","leetcode"]
 ----
 
 
@@ -56,8 +56,8 @@ Return a list of all universal words in `A`.  You can return the words in any or
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-5-1">["amazon","apple","facebook","google","leetcode"], B = <span id="example-input-5-2">["ec","oc","ceo"]
-*Output: *<span id="example-output-5">["facebook","leetcode"]
+*Input:* A = ["amazon","apple","facebook","google","leetcode"], B = ["ec","oc","ceo"]
+*Output:* ["facebook","leetcode"]
 ----
 
  

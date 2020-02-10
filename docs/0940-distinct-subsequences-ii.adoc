@@ -12,9 +12,9 @@ Since the result may be large, *return the answer modulo `10^9 + 7`*.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"abc"
-*Output: *<span id="example-output-1">7
-*Explanation*: The 7 distinct subsequences are "a", "b", "c", "ab", "ac", "bc", and "abc".
+*Input:* "abc"
+*Output:* 7
+*Explanation:* The 7 distinct subsequences are "a", "b", "c", "ab", "ac", "bc", and "abc".
 ----
 
 
@@ -22,9 +22,9 @@ Since the result may be large, *return the answer modulo `10^9 + 7`*.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">"aba"
-*Output: *<span id="example-output-2">6
-*Explanation*: The 6 distinct subsequences are "a", "b", "ab", "ba", "aa" and "aba".
+*Input:* "aba"
+*Output:* 6
+*Explanation:* The 6 distinct subsequences are "a", "b", "ab", "ba", "aa" and "aba".
 ----
 
 
@@ -32,9 +32,9 @@ Since the result may be large, *return the answer modulo `10^9 + 7`*.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">"aaa"
-*Output: *<span id="example-output-3">3
-*Explanation*: The 3 distinct subsequences are "a", "aa" and "aaa".
+*Input:* "aaa"
+*Output:* 3
+*Explanation:* The 3 distinct subsequences are "a", "aa" and "aaa".
 ----
 
 

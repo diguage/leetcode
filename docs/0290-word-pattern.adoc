@@ -18,7 +18,7 @@ Here *follow* means a full match, such that there is a bijection between a lette
 
 [subs="verbatim,quotes"]
 ----
-*Input:*pattern = `"abba"`, str = `"dog cat cat fish"`
+*Input:* pattern = `"abba"`, str = `"dog cat cat fish"`
 *Output:* false
 ----
 

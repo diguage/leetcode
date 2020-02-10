@@ -19,9 +19,9 @@ How many valid permutations are there?  Since the answer may be large, *return y
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"DID"
-*Output: *<span id="example-output-1">5
-*Explanation: *
+*Input:* "DID"
+*Output:* 5
+*Explanation:*
 The 5 valid permutations of (0, 1, 2, 3) are:
 (1, 0, 3, 2)
 (2, 0, 3, 1)

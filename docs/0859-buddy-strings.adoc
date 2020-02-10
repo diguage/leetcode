@@ -11,8 +11,8 @@ Given two strings `A` and `B` of lowercase letters, return `true` if and only if
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-1-1">"ab", B = <span id="example-input-1-2">"ba"
-*Output: *<span id="example-output-1">true
+*Input:* A = "ab", B = "ba"
+*Output:* true
 ----
 
 
@@ -20,8 +20,8 @@ Given two strings `A` and `B` of lowercase letters, return `true` if and only if
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-2-1">"ab", B = <span id="example-input-2-2">"ab"
-*Output: *<span id="example-output-2">false
+*Input:* A = "ab", B = "ab"
+*Output:* false
 ----
 
 
@@ -29,8 +29,8 @@ Given two strings `A` and `B` of lowercase letters, return `true` if and only if
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-3-1">"aa", B = <span id="example-input-3-2">"aa"
-*Output: *<span id="example-output-3">true
+*Input:* A = "aa", B = "aa"
+*Output:* true
 ----
 
 
@@ -38,8 +38,8 @@ Given two strings `A` and `B` of lowercase letters, return `true` if and only if
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-4-1">"aaaaaaabc", B = <span id="example-input-4-2">"aaaaaaacb"
-*Output: *<span id="example-output-4">true
+*Input:* A = "aaaaaaabc", B = "aaaaaaacb"
+*Output:* true
 ----
 
 
@@ -47,8 +47,8 @@ Given two strings `A` and `B` of lowercase letters, return `true` if and only if
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-5-1">"", B = <span id="example-input-5-2">"aa"
-*Output: *<span id="example-output-5">false
+*Input:* A = "", B = "aa"
+*Output:* false
 ----
 
  

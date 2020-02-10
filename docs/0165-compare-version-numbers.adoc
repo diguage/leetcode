@@ -24,7 +24,7 @@ You may assume the default revision number for each level of a version number to
 *Example 2:*
 [subs="verbatim,quotes"]
 ----
-*Input: *`_version1_` = "1.0.1", `_version2_` = "1"
+*Input:* `_version1_` = "1.0.1", `_version2_` = "1"
 *Output:* 1
 ----
 

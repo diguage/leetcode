@@ -19,9 +19,9 @@ Return the minimum possible value of `D.length`.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">["cba","daf","ghi"]
-*Output: *<span id="example-output-1">1
-*Explanation: *
+*Input:* ["cba","daf","ghi"]
+*Output:* 1
+*Explanation:*
 After choosing D = {1}, each column ["c","d","g"] and ["a","f","i"] are in non-decreasing sorted order.
 If we chose D = {}, then a column ["b","a","h"] would not be in non-decreasing sorted order.
 ----
@@ -31,9 +31,9 @@ If we chose D = {}, then a column ["b","a","h"] would not be in non-decreasing s
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">["a","b"]
-*Output: *<span id="example-output-2">0
-*Explanation: *D = {}
+*Input:* ["a","b"]
+*Output:* 0
+*Explanation:* D = {}
 ----
 
 
@@ -41,9 +41,9 @@ If we chose D = {}, then a column ["b","a","h"] would not be in non-decreasing s
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">["zyx","wvu","tsr"]
-*Output: *<span id="example-output-3">3
-*Explanation: *D = {0, 1, 2}
+*Input:* ["zyx","wvu","tsr"]
+*Output:* 3
+*Explanation:* D = {0, 1, 2}
 ----
 
  

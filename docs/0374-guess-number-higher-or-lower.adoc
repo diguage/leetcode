@@ -22,8 +22,8 @@ You call a pre-defined API `guess(int num)` which returns 3 possible results (`-
 
 [subs="verbatim,quotes"]
 ----
-*Input: *n = <span id="example-input-1-1">10, pick = <span id="example-input-1-2">6
-*Output: *<span id="example-output-1">6
+*Input:* n = 10, pick = 6
+*Output:* 6
 ----
 
 

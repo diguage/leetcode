@@ -10,9 +10,9 @@ You have a set of `tiles`, where each tile has one letter `tiles[i]` printed on 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"AAB"
-*Output: *<span id="example-output-1">8
-*Explanation: *The possible sequences are "A", "B", "AA", "AB", "BA", "AAB", "ABA", "BAA".
+*Input:* "AAB"
+*Output:* 8
+*Explanation:* The possible sequences are "A", "B", "AA", "AB", "BA", "AAB", "ABA", "BAA".
 ----
 
 
@@ -20,8 +20,8 @@ You have a set of `tiles`, where each tile has one letter `tiles[i]` printed on 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">"AAABBC"
-*Output: *<span id="example-output-2">188
+*Input:* "AAABBC"
+*Output:* 188
 ----
 
  

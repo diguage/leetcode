@@ -37,8 +37,8 @@ such that _arr[i]_ < _arr[j]_ < _arr[k]_ given 0 ≤ _i_ < _j_ < _k_ ≤ _n_-1 e
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[1,2,3,4,5]
-*Output: *<span id="example-output-1">true
+*Input:* [1,2,3,4,5]
+*Output:* true
 ----
 
 
@@ -46,8 +46,8 @@ such that _arr[i]_ < _arr[j]_ < _arr[k]_ given 0 ≤ _i_ < _j_ < _k_ ≤ _n_-1 e
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[5,4,3,2,1]
-*Output: *<span id="example-output-2">false
+*Input:* [5,4,3,2,1]
+*Output:* false
 ----
 
 

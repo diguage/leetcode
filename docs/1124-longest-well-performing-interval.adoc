@@ -17,7 +17,7 @@ Return the length of the longest well-performing interval.
 ----
 *Input:* hours = [9,9,6,0,6,6,9]
 *Output:* 3
-*Explanation: *The longest well-performing interval is [9,9,6].
+*Explanation:* The longest well-performing interval is [9,9,6].
 ----
 
  

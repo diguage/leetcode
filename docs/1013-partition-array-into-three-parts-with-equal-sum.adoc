@@ -12,9 +12,9 @@ Formally, we can partition the array if we can find indexes `i+1 < j` with `(A[0
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[0,2,1,-6,6,-7,9,1,2,0,1]
-*Output: *<span id="example-output-1">true
-*Explanation: *0 + 2 + 1 = -6 + 6 - 7 + 9 + 1 = 2 + 0 + 1
+*Input:* [0,2,1,-6,6,-7,9,1,2,0,1]
+*Output:* true
+*Explanation:* 0 + 2 + 1 = -6 + 6 - 7 + 9 + 1 = 2 + 0 + 1
 ----
 
 
@@ -22,8 +22,8 @@ Formally, we can partition the array if we can find indexes `i+1 < j` with `(A[0
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[0,2,1,-6,6,7,9,-1,2,0,1]
-*Output: *<span id="example-output-2">false
+*Input:* [0,2,1,-6,6,7,9,-1,2,0,1]
+*Output:* false
 ----
 
 
@@ -31,9 +31,9 @@ Formally, we can partition the array if we can find indexes `i+1 < j` with `(A[0
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">[3,3,6,5,-2,2,5,1,-9,4]
-*Output: *<span id="example-output-3">true
-*Explanation: *3 + 3 = 6 = 5 - 2 + 2 + 5 + 1 - 9 + 4
+*Input:* [3,3,6,5,-2,2,5,1,-9,4]
+*Output:* true
+*Explanation:* 3 + 3 = 6 = 5 - 2 + 2 + 5 + 1 - 9 + 4
 ----
 
 

@@ -15,9 +15,9 @@ Return the minimum number of flips to make `S` monotone increasing.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"00110"
-*Output: *<span id="example-output-1">1
-*Explanation: *We flip the last digit to get 00111.
+*Input:* "00110"
+*Output:* 1
+*Explanation:* We flip the last digit to get 00111.
 ----
 
 
@@ -25,9 +25,9 @@ Return the minimum number of flips to make `S` monotone increasing.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">"010110"
-*Output: *<span id="example-output-2">2
-*Explanation: *We flip to get 011111, or alternatively 000111.
+*Input:* "010110"
+*Output:* 2
+*Explanation:* We flip to get 011111, or alternatively 000111.
 ----
 
 
@@ -35,9 +35,9 @@ Return the minimum number of flips to make `S` monotone increasing.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">"00011000"
-*Output: *<span id="example-output-3">2
-*Explanation: *We flip to get 00000000.
+*Input:* "00011000"
+*Output:* 2
+*Explanation:* We flip to get 00000000.
 ----
 
  

@@ -10,17 +10,17 @@ Given a string `s`, return the last substring of `s` in lexicographical order.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"abab"
-*Output: *<span id="example-output-1">"bab"
-*Explanation: *The substrings are ["a", "ab", "aba", "abab", "b", "ba", "bab"]. The lexicographically maximum substring is "bab".
+*Input:* "abab"
+*Output:* "bab"
+*Explanation:* The substrings are ["a", "ab", "aba", "abab", "b", "ba", "bab"]. The lexicographically maximum substring is "bab".
 ----
 
 *Example 2:*
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">"leetcode"
-*Output: *<span id="example-output-2">"tcode"
+*Input:* "leetcode"
+*Output:* "tcode"
 ----
 
  

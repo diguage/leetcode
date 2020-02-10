@@ -20,8 +20,8 @@ You may return the list in any order.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-1-1">"this apple is sweet", B = <span id="example-input-1-2">"this apple is sour"
-*Output: *<span id="example-output-1">["sweet","sour"]
+*Input:* A = "this apple is sweet", B = "this apple is sour"
+*Output:* ["sweet","sour"]
 ----
 
 
@@ -29,8 +29,8 @@ You may return the list in any order.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-2-1">"apple apple", B = <span id="example-input-2-2">"banana"
-*Output: *<span id="example-output-2">["banana"]
+*Input:* A = "apple apple", B = "banana"
+*Output:* ["banana"]
 ----
 
  

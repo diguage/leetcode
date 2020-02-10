@@ -15,7 +15,7 @@ Since the answer may be too large, return it *modulo* `10^9 + 7`.
 ----
 *Input:* steps = 3, arrLen = 2
 *Output:* 4
-*Explanation: *There are 4 differents ways to stay at index 0 after 3 steps.
+*Explanation:* There are 4 differents ways to stay at index 0 after 3 steps.
 Right, Left, Stay
 Stay, Right, Left
 Right, Stay, Left

@@ -23,8 +23,8 @@ image::https://assets.leetcode.com/uploads/2019/02/16/oranges.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:*<span id="example-input-1-1">[[2,1,1],[1,1,0],[0,1,1]]
-*Output:*<span id="example-output-1">4
+*Input:* [[2,1,1],[1,1,0],[0,1,1]]
+*Output:* 4
 ----
 
 
@@ -32,9 +32,9 @@ image::https://assets.leetcode.com/uploads/2019/02/16/oranges.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[[2,1,1],[0,1,1],[1,0,1]]
-*Output: *<span id="example-output-2">-1
-*Explanation: * The orange in the bottom left corner (row 2, column 0) is never rotten, because rotting only happens 4-directionally.
+*Input:* [[2,1,1],[0,1,1],[1,0,1]]
+*Output:* -1
+*Explanation:* The orange in the bottom left corner (row 2, column 0) is never rotten, because rotting only happens 4-directionally.
 ----
 
 
@@ -42,9 +42,9 @@ image::https://assets.leetcode.com/uploads/2019/02/16/oranges.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">[[0,2]]
-*Output: *<span id="example-output-3">0
-*Explanation: * Since there are already no fresh oranges at minute 0, the answer is just 0.
+*Input:* [[0,2]]
+*Output:* 0
+*Explanation:* Since there are already no fresh oranges at minute 0, the answer is just 0.
 ----
 
  

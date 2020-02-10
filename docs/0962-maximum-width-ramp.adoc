@@ -12,9 +12,9 @@ Find the maximum width of a ramp in `A`.  If one doesn't exist, return 0.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[6,0,8,2,1,5]
-*Output: *<span id="example-output-1">4
-*Explanation: *
+*Input:* [6,0,8,2,1,5]
+*Output:* 4
+*Explanation:*
 The maximum width ramp is achieved at (i, j) = (1, 5): A[1] = 0 and A[5] = 5.
 ----
 
@@ -23,9 +23,9 @@ The maximum width ramp is achieved at (i, j) = (1, 5): A[1] = 0 and A[5] = 5.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[9,8,1,0,1,9,4,0,4,1]
-*Output: *<span id="example-output-2">7
-*Explanation: *
+*Input:* [9,8,1,0,1,9,4,0,4,1]
+*Output:* 7
+*Explanation:*
 The maximum width ramp is achieved at (i, j) = (2, 9): A[2] = 1 and A[9] = 1.
 ----
 

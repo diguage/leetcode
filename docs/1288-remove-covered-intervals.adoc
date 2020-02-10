@@ -13,7 +13,7 @@ After doing so, return the number of remaining intervals.
 ----
 *Input:* intervals = [[1,4],[3,6],[2,8]]
 *Output:* 2
-*Explanation: *Interval [3,6] is covered by [2,8], therefore it is removed.
+*Explanation:* Interval [3,6] is covered by [2,8], therefore it is removed.
 ----
 
  

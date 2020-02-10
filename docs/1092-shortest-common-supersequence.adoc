@@ -12,9 +12,9 @@ _(A string S is a subsequence of string T if deleting some number of characters 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *str1 = <span id="example-input-1-1">"abac", str2 = <span id="example-input-1-2">"cab"
-*Output: *<span id="example-output-1">"cabac"
-*Explanation: *
+*Input:* str1 = "abac", str2 = "cab"
+*Output:* "cabac"
+*Explanation:*
 str1 = "abac" is a subsequence of "cabac" because we can delete the first "c".
 str2 = "cab" is a subsequence of "cabac" because we can delete the last "ac".
 The answer provided is the shortest such string that satisfies these properties.

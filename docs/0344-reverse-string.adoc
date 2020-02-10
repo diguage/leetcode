@@ -17,8 +17,8 @@ You may assume all the characters consist of https://en.wikipedia.org/wiki/ASCII
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">["h","e","l","l","o"]
-*Output: *<span id="example-output-1">["o","l","l","e","h"]
+*Input:* ["h","e","l","l","o"]
+*Output:* ["o","l","l","e","h"]
 ----
 
 
@@ -26,8 +26,8 @@ You may assume all the characters consist of https://en.wikipedia.org/wiki/ASCII
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">["H","a","n","n","a","h"]
-*Output: *<span id="example-output-2">["h","a","n","n","a","H"]
+*Input:* ["H","a","n","n","a","h"]
+*Output:* ["h","a","n","n","a","H"]
 ----
 
 

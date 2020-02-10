@@ -12,8 +12,8 @@ _(Recall that a binary search tree is a binary tree where for every <font face="
 
 [subs="verbatim,quotes"]
 ----
-*Input:*<span id="example-input-1-1">[8,5,1,7,10,12]
-*Output:*<span id="example-output-1">[8,5,10,1,7,null,12]
+*Input:* [8,5,1,7,10,12]
+*Output:* [8,5,10,1,7,null,12]
 
 image::https://assets.leetcode.com/uploads/2019/03/06/1266.png[]
 ----

@@ -22,8 +22,8 @@ Also, if the sequence is possible to stamp, it is guaranteed it is possible to s
 
 [subs="verbatim,quotes"]
 ----
-*Input: *stamp = <span id="example-input-1-1">"abc", target = <span id="example-input-1-2">"ababc"
-*Output: *<span id="example-output-1">[0,2]
+*Input:* stamp = "abc", target = "ababc"
+*Output:* [0,2]
 ([1,0,2] would also be accepted as an answer, as well as some other answers.)
 ----
 
@@ -32,8 +32,8 @@ Also, if the sequence is possible to stamp, it is guaranteed it is possible to s
 
 [subs="verbatim,quotes"]
 ----
-*Input: *stamp = <span id="example-input-2-1">"<span id="example-input-2-2">abca", target = <span id="example-input-2-2">"aabcaca"
-*Output: *<span id="example-output-2">[3,0,1]
+*Input:* stamp = " abca", target = "aabcaca"
+*Output:* [3,0,1]
 ----
 
 

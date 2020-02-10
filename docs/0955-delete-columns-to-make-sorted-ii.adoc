@@ -26,9 +26,9 @@ Return the minimum possible value of `D.length`.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">["ca","bb","ac"]
-*Output: *<span id="example-output-1">1
-*Explanation: *
+*Input:* ["ca","bb","ac"]
+*Output:* 1
+*Explanation:*
 After deleting the first column, A = ["a", "b", "c"].
 Now A is in lexicographic order (ie. A[0] <= A[1] <= A[2]).
 We require at least 1 deletion since initially A was not in lexicographic order, so the answer is 1.
@@ -39,9 +39,9 @@ We require at least 1 deletion since initially A was not in lexicographic order,
 
 [subs="verbatim,quotes"]
 ----
-*Input: *["xc","yb","za"]
-*Output: *<span id="example-output-2">0
-*Explanation: *
+*Input:* ["xc","yb","za"]
+*Output:* 0
+*Explanation:*
 A is already in lexicographic order, so we don't need to delete anything.
 Note that the rows of A are not necessarily in lexicographic order:
 ie. it is NOT necessarily true that (A[0][0] <= A[0][1] <= ...)
@@ -52,9 +52,9 @@ ie. it is NOT necessarily true that (A[0][0] <= A[0][1] <= ...)
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">["zyx","wvu","tsr"]
-*Output: *<span id="example-output-3">3
-*Explanation: *
+*Input:* ["zyx","wvu","tsr"]
+*Output:* 3
+*Explanation:*
 We have to delete every column.
 ----
 

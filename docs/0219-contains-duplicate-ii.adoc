@@ -9,8 +9,8 @@ Given an array of integers and an integer _k_, find out whether there are two di
 
 [subs="verbatim,quotes"]
 ----
-*Input: *nums = <span id="example-input-1-1">[1,2,3,1], k = <span id="example-input-1-2">3
-*Output: *<span id="example-output-1">true
+*Input:* nums = [1,2,3,1], k = 3
+*Output:* true
 ----
 
 
@@ -18,8 +18,8 @@ Given an array of integers and an integer _k_, find out whether there are two di
 
 [subs="verbatim,quotes"]
 ----
-*Input: *nums = <span id="example-input-2-1">[1,0,1,1], k = <span id="example-input-2-2">1
-*Output: *<span id="example-output-2">true
+*Input:* nums = [1,0,1,1], k = 1
+*Output:* true
 ----
 
 
@@ -27,8 +27,8 @@ Given an array of integers and an integer _k_, find out whether there are two di
 
 [subs="verbatim,quotes"]
 ----
-*Input: *nums = <span id="example-input-3-1">[1,2,3,1,2,3], k = <span id="example-input-3-2">2
-*Output: *<span id="example-output-3">false
+*Input:* nums = [1,2,3,1,2,3], k = 2
+*Output:* false
 ----
 
 

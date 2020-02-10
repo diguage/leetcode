@@ -12,9 +12,9 @@ Return the minimum number of `K`-bit flips required so that there is no 0 in the
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-1-1">[0,1,0], K = <span id="example-input-1-2">1
-*Output: *<span id="example-output-1">2
-*Explanation: *Flip A[0], then flip A[2].
+*Input:* A = [0,1,0], K = 1
+*Output:* 2
+*Explanation:* Flip A[0], then flip A[2].
 ----
 
 
@@ -22,8 +22,8 @@ Return the minimum number of `K`-bit flips required so that there is no 0 in the
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-2-1">[1,1,0], K = <span id="example-input-2-2">2
-*Output: *<span id="example-output-2">-1
+*Input:* A = [1,1,0], K = 2
+*Output:* -1
 *Explanation:* No matter how we flip subarrays of size 2, we can't make the array become [1,1,1].
 ----
 
@@ -32,8 +32,8 @@ Return the minimum number of `K`-bit flips required so that there is no 0 in the
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-3-1">[0,0,0,1,0,1,1,0], K = <span id="example-input-3-2">3
-*Output: *<span id="example-output-3">3
+*Input:* A = [0,0,0,1,0,1,1,0], K = 3
+*Output:* 3
 *Explanation:*
 Flip A[0],A[1],A[2]: A becomes [1,1,1,1,0,1,1,0]
 Flip A[4],A[5],A[6]: A becomes [1,1,1,1,1,0,0,0]

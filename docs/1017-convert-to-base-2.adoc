@@ -13,8 +13,8 @@ The returned string must have no leading zeroes, unless the string is `"0"`.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">2
-*Output: *<span id="example-output-1">"110"
+*Input:* 2
+*Output:* "110"
 *Explantion:* (-2) ^ 2 + (-2) ^ 1 = 2
 ----
 
@@ -23,9 +23,9 @@ The returned string must have no leading zeroes, unless the string is `"0"`.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">3
-*Output: *<span id="example-output-2">"111"
-<span id="example-output-1">*Explantion:* (-2) ^ 2 + (-2) ^ 1 + (-2) ^ 0 = 3
+*Input:* 3
+*Output:* "111"
+*Explantion:* (-2) ^ 2 + (-2) ^ 1 + (-2) ^ 0 = 3
 ----
 
 
@@ -33,9 +33,9 @@ The returned string must have no leading zeroes, unless the string is `"0"`.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">4
-*Output: *<span id="example-output-3">"100"
-<span id="example-output-1">*Explantion:* (-2) ^ 2 = 4
+*Input:* 4
+*Output:* "100"
+*Explantion:* (-2) ^ 2 = 4
 ----
 
  

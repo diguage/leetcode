@@ -25,9 +25,9 @@ Create a timebased key-value store class `TimeMap`, that supports two operations
 
 [subs="verbatim,quotes"]
 ----
-*Input: *inputs = <span id="example-input-1-1">["TimeMap","set","get","get","set","get","get"], inputs = <span id="example-input-1-2">[[],["foo","bar",1],["foo",1],["foo",3],["foo","bar2",4],["foo",4],["foo",5]]
-*Output: *<span id="example-output-1">[null,null,"bar","bar",null,"bar2","bar2"]
-*Explanation: *<span id="example-output-1">  
+*Input:* inputs = ["TimeMap","set","get","get","set","get","get"], inputs = [[],["foo","bar",1],["foo",1],["foo",3],["foo","bar2",4],["foo",4],["foo",5]]
+*Output:* [null,null,"bar","bar",null,"bar2","bar2"]
+*Explanation:*   
 TimeMap kv;   
 kv.set("foo", "bar", 1); // store the key "foo" and value "bar" along with timestamp = 1   
 kv.get("foo", 1);  // output "bar"   
@@ -43,8 +43,8 @@ kv.get("foo", 5); //output "bar2"
 
 [subs="verbatim,quotes"]
 ----
-*Input: *inputs = <span id="example-input-2-1">["TimeMap","set","set","get","get","get","get","get"], inputs = <span id="example-input-2-2">[[],["love","high",10],["love","low",20],["love",5],["love",10],["love",15],["love",20],["love",25]]
-*Output: *<span id="example-output-2">[null,null,null,"","high","high","low","low"]
+*Input:* inputs = ["TimeMap","set","set","get","get","get","get","get"], inputs = [[],["love","high",10],["love","low",20],["love",5],["love",10],["love",15],["love",20],["love",25]]
+*Output:* [null,null,null,"","high","high","low","low"]
 ----
 
 

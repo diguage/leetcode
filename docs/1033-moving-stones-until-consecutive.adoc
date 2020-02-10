@@ -16,9 +16,9 @@ When the game ends, what is the minimum and maximum number of moves that you cou
 
 [subs="verbatim,quotes"]
 ----
-*Input: *a = <span id="example-input-1-1">1, b = <span id="example-input-1-2">2, c = <span id="example-input-1-3">5
-*Output: *<span id="example-output-1">[1,2]
-*Explanation: *Move the stone from 5 to 3, or move the stone from 5 to 4 to 3.
+*Input:* a = 1, b = 2, c = 5
+*Output:* [1,2]
+*Explanation:* Move the stone from 5 to 3, or move the stone from 5 to 4 to 3.
 ----
 
 
@@ -26,9 +26,9 @@ When the game ends, what is the minimum and maximum number of moves that you cou
 
 [subs="verbatim,quotes"]
 ----
-*Input: *a = <span id="example-input-2-1">4, b = <span id="example-input-2-2">3, c = <span id="example-input-2-3">2
-*Output: *<span id="example-output-2">[0,0]
-*Explanation: *We cannot make any moves.
+*Input:* a = 4, b = 3, c = 2
+*Output:* [0,0]
+*Explanation:* We cannot make any moves.
 ----
 
 
@@ -36,9 +36,9 @@ When the game ends, what is the minimum and maximum number of moves that you cou
 
 [subs="verbatim,quotes"]
 ----
-*Input: *a = <span id="example-input-3-1">3, b = <span id="example-input-3-2">5, c = <span id="example-input-3-3">1
-*Output: *<span id="example-output-3">[1,2]
-*Explanation: *Move the stone from 1 to 4; or move the stone from 1 to 2 to 4.
+*Input:* a = 3, b = 5, c = 1
+*Output:* [1,2]
+*Explanation:* Move the stone from 1 to 4; or move the stone from 1 to 2 to 4.
 ----
 
  

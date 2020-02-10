@@ -9,8 +9,8 @@ Given two strings `S` and `T`, return if they are equal when both are typed into
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = <span id="example-input-1-1">"ab#c", T = <span id="example-input-1-2">"ad#c"
-*Output: *<span id="example-output-1">true
+*Input:* S = "ab#c", T = "ad#c"
+*Output:* true
 *Explanation*: Both S and T become "ac".
 ----
 
@@ -19,8 +19,8 @@ Given two strings `S` and `T`, return if they are equal when both are typed into
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = <span id="example-input-2-1">"ab##", T = <span id="example-input-2-2">"c#d#"
-*Output: *<span id="example-output-2">true
+*Input:* S = "ab##", T = "c#d#"
+*Output:* true
 *Explanation*: Both S and T become "".
 ----
 
@@ -29,8 +29,8 @@ Given two strings `S` and `T`, return if they are equal when both are typed into
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = <span id="example-input-3-1">"a##c", T = <span id="example-input-3-2">"#a#c"
-*Output: *<span id="example-output-3">true
+*Input:* S = "a##c", T = "#a#c"
+*Output:* true
 *Explanation*: Both S and T become "c".
 ----
 
@@ -39,8 +39,8 @@ Given two strings `S` and `T`, return if they are equal when both are typed into
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = <span id="example-input-4-1">"a#c", T = <span id="example-input-4-2">"b"
-*Output: *<span id="example-output-4">false
+*Input:* S = "a#c", T = "b"
+*Output:* false
 *Explanation*: S becomes "c" while T becomes "b".
 ----
 

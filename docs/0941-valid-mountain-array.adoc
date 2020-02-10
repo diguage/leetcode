@@ -29,8 +29,8 @@ image::https://assets.leetcode.com/uploads/2019/10/20/hint_valid_mountain_array.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[3,5,5]
-*Output: *<span id="example-output-2">false
+*Input:* [3,5,5]
+*Output:* false
 ----
 
 
@@ -38,8 +38,8 @@ image::https://assets.leetcode.com/uploads/2019/10/20/hint_valid_mountain_array.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">[0,3,2,1]
-*Output: *<span id="example-output-3">true
+*Input:* [0,3,2,1]
+*Output:* true
 ----
 
 

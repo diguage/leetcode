@@ -10,16 +10,16 @@ Given a binary string `S` (a string consisting only of '0' and '1's) and a posit
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = <span id="example-input-1-1">"0110", N = <span id="example-input-1-2">3
-*Output: *<span id="example-output-1">true
+*Input:* S = "0110", N = 3
+*Output:* true
 ----
 
 *Example 2:*
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = <span id="example-input-2-1">"0110", N = <span id="example-input-2-2">4
-*Output: *<span id="example-output-2">false
+*Input:* S = "0110", N = 4
+*Output:* false
 ----
 
  

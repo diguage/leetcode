@@ -12,8 +12,8 @@ For each such occurrence, add "`third`" to the answer, and return the answer.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *text = <span id="example-input-1-1">"alice is a good girl she is a good student", first = <span id="example-input-1-2">"a", second = <span id="example-input-1-3">"good"
-*Output: *<span id="example-output-1">["girl","student"]
+*Input:* text = "alice is a good girl she is a good student", first = "a", second = "good"
+*Output:* ["girl","student"]
 ----
 
 
@@ -21,8 +21,8 @@ For each such occurrence, add "`third`" to the answer, and return the answer.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *text = <span id="example-input-2-1">"we will we will rock you", first = <span id="example-input-2-2">"we", second = <span id="example-input-2-3">"will"
-*Output: *<span id="example-output-2">["we","rock"]
+*Input:* text = "we will we will rock you", first = "we", second = "will"
+*Output:* ["we","rock"]
 ----
 
  

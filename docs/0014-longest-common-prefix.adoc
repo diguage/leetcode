@@ -10,7 +10,7 @@ If there is no common prefix, return an empty string `""`.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *["flower","flow","flight"]
+*Input:* ["flower","flow","flight"]
 *Output:* "fl"
 ----
 
@@ -18,7 +18,7 @@ If there is no common prefix, return an empty string `""`.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *["dog","racecar","car"]
+*Input:* ["dog","racecar","car"]
 *Output:* ""
 *Explanation:* There is no common prefix among the input strings.
 ----

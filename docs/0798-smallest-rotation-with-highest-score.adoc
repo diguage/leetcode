@@ -13,7 +13,7 @@ Over all possible rotations, return the rotation index K that corresponds to the
 *Example 1:*
 *Input:* [2, 3, 1, 4, 0]
 *Output:* 3
-*Explanation: * 
+*Explanation:* 
 Scores for each K are listed below: 
 K = 0,  A = [2,3,1,4,0],    score 2
 K = 1,  A = [3,1,4,0,2],    score 3
@@ -31,7 +31,7 @@ So we should choose K = 3, which has the highest score.
 *Example 2:*
 *Input:* [1, 3, 0, 2, 4]
 *Output:* 0
-*Explanation: * A will always have 3 points no matter how it shifts.
+*Explanation:* A will always have 3 points no matter how it shifts.
 So we will choose the smallest K, which is 0.
 ----
 

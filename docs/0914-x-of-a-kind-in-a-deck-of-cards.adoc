@@ -17,8 +17,8 @@ Return `true` if and only if you can choose `X >= 2` such that it is possible to
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[1,2,3,4,4,3,2,1]
-*Output: *<span id="example-output-1">true
+*Input:* [1,2,3,4,4,3,2,1]
+*Output:* true
 *Explanation*: Possible partition [1,1],[2,2],[3,3],[4,4]
 ----
 
@@ -27,9 +27,9 @@ Return `true` if and only if you can choose `X >= 2` such that it is possible to
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[1,1,1,2,2,2,3,3]
-*Output: *<span id="example-output-2">false
-<span id="example-output-1">*Explanation*: No possible partition.
+*Input:* [1,1,1,2,2,2,3,3]
+*Output:* false
+*Explanation:* No possible partition.
 ----
 
 
@@ -37,9 +37,9 @@ Return `true` if and only if you can choose `X >= 2` such that it is possible to
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">[1]
-*Output: *<span id="example-output-3">false
-<span id="example-output-1">*Explanation*: No possible partition.
+*Input:* [1]
+*Output:* false
+*Explanation:* No possible partition.
 ----
 
 
@@ -47,9 +47,9 @@ Return `true` if and only if you can choose `X >= 2` such that it is possible to
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-4-1">[1,1]
-*Output: *<span id="example-output-4">true
-<span id="example-output-1">*Explanation*: Possible partition [1,1]
+*Input:* [1,1]
+*Output:* true
+*Explanation:* Possible partition [1,1]
 ----
 
 
@@ -57,9 +57,9 @@ Return `true` if and only if you can choose `X >= 2` such that it is possible to
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-5-1">[1,1,2,2,2,2]
-*Output: *<span id="example-output-5">true
-<span id="example-output-1">*Explanation*: Possible partition [1,1],[2,2],[2,2]
+*Input:* [1,1,2,2,2,2]
+*Output:* true
+*Explanation:* Possible partition [1,1],[2,2],[2,2]
 ----
 
 

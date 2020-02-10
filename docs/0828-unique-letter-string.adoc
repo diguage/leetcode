@@ -22,9 +22,9 @@ Since the answer can be very large, return the answer modulo `10 ^ 9 + 7`.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *"ABC"
-*Output: *10
-*Explanation: *All possible substrings are: "A","B","C","AB","BC" and "ABC".
+*Input:* "ABC"
+*Output:* 10
+*Explanation:* All possible substrings are: "A","B","C","AB","BC" and "ABC".
 Evey substring is composed with only unique letters.
 Sum of lengths of all substring is 1 + 1 + 1 + 2 + 2 + 3 = 10
 ----
@@ -33,9 +33,9 @@ Sum of lengths of all substring is 1 + 1 + 1 + 2 + 2 + 3 = 10
 
 [subs="verbatim,quotes"]
 ----
-*Input: *"ABA"
-*Output: *8
-*Explanation: *The same as example 1, except uni("ABA") = 1.
+*Input:* "ABA"
+*Output:* 8
+*Explanation:* The same as example 1, except uni("ABA") = 1.
 
 ----
 

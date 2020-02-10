@@ -8,8 +8,8 @@ Write a function that takes a string as input and reverse only the vowels of a s
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"hello"
-*Output: *<span id="example-output-1">"holle"
+*Input:* "hello"
+*Output:* "holle"
 ----
 
 
@@ -17,8 +17,8 @@ Write a function that takes a string as input and reverse only the vowels of a s
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">"leetcode"
-*Output: *<span id="example-output-2">"leotcede"
+*Input:* "leetcode"
+*Output:* "leotcede"
 ----
 
 

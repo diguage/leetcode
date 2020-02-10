@@ -8,7 +8,7 @@ Given a string _*s*_, you are allowed to convert it to a palindrome by adding ch
 
 [subs="verbatim,quotes"]
 ----
-*Input: *`"aacecaaa"`
+*Input:* `"aacecaaa"`
 *Output:* `"aaacecaaa"`
 ----
 
@@ -16,6 +16,6 @@ Given a string _*s*_, you are allowed to convert it to a palindrome by adding ch
 
 [subs="verbatim,quotes"]
 ----
-*Input: *`"abcd"`
+*Input:* `"abcd"`
 *Output:* `"dcbabcd"`
 ----

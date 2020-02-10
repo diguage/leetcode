@@ -12,7 +12,7 @@ Given a sequence of `words` written in the alien language, and the `order` of th
 ----
 *Input:* words = ["hello","leetcode"], order = "hlabcdefgijkmnopqrstuvwxyz"
 *Output:* true
-*Explanation: *As 'h' comes before 'l' in this language, then the sequence is sorted.
+*Explanation:* As 'h' comes before 'l' in this language, then the sequence is sorted.
 ----
 
 *Example 2:*
@@ -21,7 +21,7 @@ Given a sequence of `words` written in the alien language, and the `order` of th
 ----
 *Input:* words = ["word","world","row"], order = "worldabcefghijkmnpqstuvxyz"
 *Output:* false
-*Explanation: *As 'd' comes after 'l' in this language, then words[0] > words[1], hence the sequence is unsorted.
+*Explanation:* As 'd' comes after 'l' in this language, then words[0] > words[1], hence the sequence is unsorted.
 ----
 
 *Example 3:*
@@ -30,7 +30,7 @@ Given a sequence of `words` written in the alien language, and the `order` of th
 ----
 *Input:* words = ["apple","app"], order = "abcdefghijklmnopqrstuvwxyz"
 *Output:* false
-*Explanation: *The first three characters "app" match, and the second string is shorter (in size.) According to lexicographical rules "apple" > "app", because 'l' > '&empty;', where '&empty;' is defined as the blank character which is less than any other character (https://en.wikipedia.org/wiki/Lexicographical_order[More info]).
+*Explanation:* The first three characters "app" match, and the second string is shorter (in size.) According to lexicographical rules "apple" > "app", because 'l' > '&empty;', where '&empty;' is defined as the blank character which is less than any other character (https://en.wikipedia.org/wiki/Lexicographical_order[More info]).
 ----
 
  

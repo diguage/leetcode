@@ -31,15 +31,15 @@ Return the least number of moves required to reach square <font face="monospace"
 
 [subs="verbatim,quotes"]
 ----
-*Input: *[
+*Input:* [
 [-1,-1,-1,-1,-1,-1],
 [-1,-1,-1,-1,-1,-1],
 [-1,-1,-1,-1,-1,-1],
 [-1,35,-1,-1,13,-1],
 [-1,-1,-1,-1,-1,-1],
 [-1,15,-1,-1,-1,-1]]
-*Output: *4
-*Explanation: *
+*Output:* 4
+*Explanation:*
 At the beginning, you start at square 1 [at row 5, column 0].
 You decide to move to square 2, and must take the ladder to square 15.
 You then decide to move to square 17 (row 3, column 5), and must take the snake to square 13.

@@ -16,7 +16,7 @@ The expression string contains only *non-negative* integers, `+`, `-`, `*`, `/` 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *"3+2*2"
+*Input:* "3+2*2"
 *Output:* 7
 
 ----

@@ -16,7 +16,7 @@ Please note that both secret number and friend's guess may contain duplicate dig
 
 *Output:* "1A3B"
 
-*Explanation:* `1`<span style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";"> bull and `3`<span style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";"> cows. The bull is `8`<span style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">, the cows are `0`<span style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">, `1`<span style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";"> and `7<font face="sans-serif, Arial, Verdana, Trebuchet MS">.`
+*Explanation:* `1` bull and `3`  cows. The bull is `8` , the cows are `0` , `1`  and `7`.
 ----
 
 *Example 2:*
@@ -27,7 +27,7 @@ Please note that both secret number and friend's guess may contain duplicate dig
 
 *Output:* "1A1B"
 
-*Explanation: *The 1st `1 `<span style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">in friend's guess is a bull, the 2nd or 3rd `1`<span style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";"> is a cow<span style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">.
+*Explanation:* The 1st `1` in friend's guess is a bull, the 2nd or 3rd `1`  is a cow .
 ----
 
 *Note: *You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.

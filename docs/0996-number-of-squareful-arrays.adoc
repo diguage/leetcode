@@ -12,9 +12,9 @@ Return the number of permutations of A that are squareful.  Two permutations `A1
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[1,17,8]
-*Output: *<span id="example-output-1">2
-*Explanation: *
+*Input:* [1,17,8]
+*Output:* 2
+*Explanation:*
 [1,8,17] and [17,8,1] are the valid permutations.
 ----
 
@@ -22,8 +22,8 @@ Return the number of permutations of A that are squareful.  Two permutations `A1
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[2,2,2]
-*Output: *<span id="example-output-2">1
+*Input:* [2,2,2]
+*Output:* 1
 ----
 
  

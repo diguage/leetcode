@@ -19,8 +19,8 @@ Return *any* such a choice as an array `answer`, where `answer[i]` is the type o
 
 [subs="verbatim,quotes"]
 ----
-*Input: *N = <span id="example-input-1-1">3, paths = <span id="example-input-1-2">[[1,2],[2,3],[3,1]]
-*Output: *<span id="example-output-1">[1,2,3]
+*Input:* N = 3, paths = [[1,2],[2,3],[3,1]]
+*Output:* [1,2,3]
 ----
 
 
@@ -28,8 +28,8 @@ Return *any* such a choice as an array `answer`, where `answer[i]` is the type o
 
 [subs="verbatim,quotes"]
 ----
-*Input: *N = <span id="example-input-2-1">4, paths = <span id="example-input-2-2">[[1,2],[3,4]]
-*Output: *<span id="example-output-2">[1,2,1,2]
+*Input:* N = 4, paths = [[1,2],[3,4]]
+*Output:* [1,2,1,2]
 ----
 
 
@@ -37,8 +37,8 @@ Return *any* such a choice as an array `answer`, where `answer[i]` is the type o
 
 [subs="verbatim,quotes"]
 ----
-*Input: *N = <span id="example-input-3-1">4, paths = <span id="example-input-3-2">[[1,2],[2,3],[3,4],[4,1],[1,3],[2,4]]
-*Output: *<span id="example-output-3">[1,2,3,4]
+*Input:* N = 4, paths = [[1,2],[2,3],[3,4],[4,1],[1,3],[2,4]]
+*Output:* [1,2,3,4]
 ----
 
  

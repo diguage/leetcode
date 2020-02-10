@@ -12,11 +12,11 @@ Given an `grid` of integers, how many 3 x 3 "magic square" subgrids are there?  
 
 [subs="verbatim,quotes"]
 ----
-*Input: *[[4,3,8,4],
+*Input:* [[4,3,8,4],
         [9,5,1,9],
         [2,7,6,2]]
-*Output: *1
-*Explanation: *
+*Output:* 1
+*Explanation:*
 The following subgrid is a 3 x 3 magic square:
 438
 951

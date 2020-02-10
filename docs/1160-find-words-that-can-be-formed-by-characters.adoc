@@ -14,9 +14,9 @@ Return the sum of lengths of all good strings in `words`.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *words = <span id="example-input-1-1">["cat","bt","hat","tree"], chars = <span id="example-input-1-2">"atach"
-*Output: *<span id="example-output-1">6
-*Explanation: *
+*Input:* words = ["cat","bt","hat","tree"], chars = "atach"
+*Output:* 6
+*Explanation:*
 The strings that can be formed are "cat" and "hat" so the answer is 3 + 3 = 6.
 ----
 
@@ -24,9 +24,9 @@ The strings that can be formed are "cat" and "hat" so the answer is 3 + 3 = 6.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *words = <span id="example-input-2-1">["hello","world","leetcode"], chars = <span id="example-input-2-2">"welldonehoneyr"
-*Output: *<span id="example-output-2">10
-*Explanation: *
+*Input:* words = ["hello","world","leetcode"], chars = "welldonehoneyr"
+*Output:* 10
+*Explanation:*
 The strings that can be formed are "hello" and "world" so the answer is 5 + 5 = 10.
 ----
 

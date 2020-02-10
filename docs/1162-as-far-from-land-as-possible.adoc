@@ -16,8 +16,8 @@ image::https://assets.leetcode.com/uploads/2019/05/03/1336_ex1.JPG[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:*<span id="example-input-1-1">[[1,0,1],[0,0,0],[1,0,1]]
-*Output:*<span id="example-output-1">2
+*Input:* [[1,0,1],[0,0,0],[1,0,1]]
+*Output:* 2
 *Explanation:*
 The cell (1, 1) is as far as possible from all the land with distance 2.
 ----
@@ -28,9 +28,9 @@ image::https://assets.leetcode.com/uploads/2019/05/03/1336_ex2.JPG[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[[1,0,0],[0,0,0],[0,0,0]]
-*Output: *<span id="example-output-2">4
-*Explanation: *
+*Input:* [[1,0,0],[0,0,0],[0,0,0]]
+*Output:* 4
+*Explanation:*
 The cell (2, 2) is as far as possible from all the land with distance 4.
 ----
 

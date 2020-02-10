@@ -12,38 +12,38 @@ Write a one-pass algorithm with `O(1)` extra space to determine, if your path cr
 
 [subs="verbatim,quotes"]
 ----
-*┌───┐
+┌───┐
 │   │
 └───┼──>
     │
 
-Input: *`[2,1,1,2]`
-*Output: *true
+*Input:* `[2,1,1,2]`
+*Output:* true
 ----
 
 *Example 2:*
 
 [subs="verbatim,quotes"]
 ----
-*┌──────┐
+┌──────┐
 │      │
 │
 │
 └────────────>
 
-Input:* `[1,2,3,4]`
-*Output: *false 
+*Input:* `[1,2,3,4]`
+*Output:* false 
 ----
 
 *Example 3:*
 
 [subs="verbatim,quotes"]
 ----
-*┌───┐
+┌───┐
 │   │
 └───┼>
 
-Input:* `[1,1,1,1]`
+*Input:* `[1,1,1,1]`
 *Output:* true 
 ----
 

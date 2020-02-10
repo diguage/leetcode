@@ -15,9 +15,9 @@ Return the lexicographically smallest string we could have after any number of m
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = <span id="example-input-1-1">"cba", K = <span id="example-input-1-2">1
-*Output: *<span id="example-output-1">"acb"
-*Explanation: *
+*Input:* S = "cba", K = 1
+*Output:* "acb"
+*Explanation:*
 In the first move, we move the 1st character ("c") to the end, obtaining the string "bac".
 In the second move, we move the 1st character ("b") to the end, obtaining the final result "acb".
 ----
@@ -27,9 +27,9 @@ In the second move, we move the 1st character ("b") to the end, obtaining the fi
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = <span id="example-input-2-1">"baaca", K = <span id="example-input-2-2">3
-*Output: *<span id="example-output-2">"aaabc"
-*Explanation: *
+*Input:* S = "baaca", K = 3
+*Output:* "aaabc"
+*Explanation:*
 In the first move, we move the 1st character ("b") to the end, obtaining the string "aacab".
 In the second move, we move the 3rd character ("c") to the end, obtaining the final result "aaabc".
 ----

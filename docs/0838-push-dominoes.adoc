@@ -24,17 +24,17 @@ Return a string representing the final state.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *".L.R...LR..L.."
-*Output: *"LL.RR.LLRRLL.."
+*Input:* ".L.R...LR..L.."
+*Output:* "LL.RR.LLRRLL.."
 ----
 
 *Example 2:*
 
 [subs="verbatim,quotes"]
 ----
-*Input: *"RR.L"
-*Output: *"RR.L"
-*Explanation: *The first domino expends no additional force on the second domino.
+*Input:* "RR.L"
+*Output:* "RR.L"
+*Explanation:* The first domino expends no additional force on the second domino.
 ----
 
 *Note:*

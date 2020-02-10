@@ -16,8 +16,8 @@ image::https://assets.leetcode.com/uploads/2019/04/04/sum-of-root-to-leaf-binary
 
 [subs="verbatim,quotes"]
 ----
-*Input:*<span id="example-input-1-1">[1,0,1,0,1,0,1]
-*Output:*<span id="example-output-1">22
+*Input:* [1,0,1,0,1,0,1]
+*Output:* 22
 *Explanation:* (100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22
 ----
 

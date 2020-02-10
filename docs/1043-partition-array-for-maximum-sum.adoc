@@ -12,8 +12,8 @@ Return the largest sum of the given array after partitioning.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-1-1">[1,15,7,9,2,5,10], K = <span id="example-input-1-2">3
-*Output: *<span id="example-output-1">84
+*Input:* A = [1,15,7,9,2,5,10], K = 3
+*Output:* 84
 *Explanation*: A becomes [15,15,15,9,10,10,10]
 ----
 

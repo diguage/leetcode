@@ -17,8 +17,8 @@ Note that in the example *inputs* (not outputs) below, arrays such as `[2,1,5]` 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[2,1,5]
-*Output: *<span id="example-output-1">[5,5,0]
+*Input:* [2,1,5]
+*Output:* [5,5,0]
 ----
 
 
@@ -26,8 +26,8 @@ Note that in the example *inputs* (not outputs) below, arrays such as `[2,1,5]` 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[2,7,4,3,5]
-*Output: *<span id="example-output-2">[7,0,5,5,0]
+*Input:* [2,7,4,3,5]
+*Output:* [7,0,5,5,0]
 ----
 
 
@@ -35,8 +35,8 @@ Note that in the example *inputs* (not outputs) below, arrays such as `[2,1,5]` 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">[1,7,5,1,9,2,5,1]
-*Output: *<span id="example-output-3">[7,9,9,9,0,5,0,0]
+*Input:* [1,7,5,1,9,2,5,1]
+*Output:* [7,9,9,9,0,5,0,0]
 ----
 
  

@@ -27,5 +27,5 @@ Remove the minimum number of invalid parentheses in order to make the input stri
 [subs="verbatim,quotes"]
 ----
 *Input:* ")("
-*Output: *[""]
+*Output:* [""]
 ----

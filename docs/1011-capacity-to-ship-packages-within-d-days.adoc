@@ -14,9 +14,9 @@ Return the least weight capacity of the ship that will result in all the package
 
 [subs="verbatim,quotes"]
 ----
-*Input: *weights = <span id="example-input-1-1">[1,2,3,4,5,6,7,8,9,10], D = <span id="example-input-1-2">5
-*Output: *<span id="example-output-1">15
-*Explanation: *
+*Input:* weights = [1,2,3,4,5,6,7,8,9,10], D = 5
+*Output:* 15
+*Explanation:*
 A ship capacity of 15 is the minimum to ship all the packages in 5 days like this:
 1st day: 1, 2, 3, 4, 5
 2nd day: 6, 7
@@ -31,9 +31,9 @@ Note that the cargo must be shipped in the order given, so using a ship of capac
 
 [subs="verbatim,quotes"]
 ----
-*Input: *weights = <span id="example-input-2-1">[3,2,2,4,1,4], D = <span id="example-input-2-2">3
-*Output: *<span id="example-output-2">6
-*Explanation: *
+*Input:* weights = [3,2,2,4,1,4], D = 3
+*Output:* 6
+*Explanation:*
 A ship capacity of 6 is the minimum to ship all the packages in 3 days like this:
 1st day: 3, 2
 2nd day: 2, 4
@@ -44,9 +44,9 @@ A ship capacity of 6 is the minimum to ship all the packages in 3 days like this
 
 [subs="verbatim,quotes"]
 ----
-*Input: *weights = <span id="example-input-3-1">[1,2,3,1,1], D = 4
-*Output: *<span id="example-output-3">3
-*Explanation: *
+*Input:* weights = [1,2,3,1,1], D = 4
+*Output:* 3
+*Explanation:*
 1st day: 1
 2nd day: 2
 3rd day: 3

@@ -8,8 +8,8 @@ Given two arrays, write a function to compute their intersection.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *nums1 = <span id="example-input-1-1">[1,2,2,1], nums2 = <span id="example-input-1-2">[2,2]
-*Output: *<span id="example-output-1">[2]
+*Input:* nums1 = [1,2,2,1], nums2 = [2,2]
+*Output:* [2]
 ----
 
 
@@ -17,8 +17,8 @@ Given two arrays, write a function to compute their intersection.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *nums1 = <span id="example-input-2-1">[4,9,5], nums2 = <span id="example-input-2-2">[9,4,9,8,4]
-*Output: *<span id="example-output-2">[9,4]
+*Input:* nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+*Output:* [9,4]
 ----
 
 

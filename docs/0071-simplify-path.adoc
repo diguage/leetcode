@@ -69,8 +69,8 @@ Note that the returned canonical path must always begin with a slash `/`, and th
 
 [subs="verbatim,quotes"]
 ----
-*Input: "*<span id="example-input-1-1">/home/"
-*Output: "*<span id="example-output-1">/home"
+*Input:* "/home/"
+*Output:* "/home"
 *Explanation:* Note that there is no trailing slash after the last directory name.
 ----
 
@@ -78,8 +78,8 @@ Note that the returned canonical path must always begin with a slash `/`, and th
 
 [subs="verbatim,quotes"]
 ----
-*Input: "*<span id="example-input-1-1">/../"
-*Output: "*<span id="example-output-1">/"
+*Input:* "/../"
+*Output:* "/"
 *Explanation:* Going one level up from the root directory is a no-op, as the root level is the highest level you can go.
 ----
 
@@ -87,32 +87,32 @@ Note that the returned canonical path must always begin with a slash `/`, and th
 
 [subs="verbatim,quotes"]
 ----
-*Input: "*<span id="example-input-1-1">/home//foo/"
-*Output: "*<span id="example-output-1">/home/foo"
-*Explanation: *In the canonical path, multiple consecutive slashes are replaced by a single one.
+*Input:* "/home//foo/"
+*Output:* "/home/foo"
+*Explanation:* In the canonical path, multiple consecutive slashes are replaced by a single one.
 ----
 
 *Example 4:*
 
 [subs="verbatim,quotes"]
 ----
-*Input: "*<span id="example-input-1-1">/a/./b/../../c/"
-*Output: "*<span id="example-output-1">/c"
+*Input:* "/a/./b/../../c/"
+*Output:* "/c"
 ----
 
 *Example 5:*
 
 [subs="verbatim,quotes"]
 ----
-*Input: "*<span id="example-input-1-1">/a/../../b/../c//.//"
-*Output: "*<span id="example-output-1">/c"
+*Input:* "/a/../../b/../c//.//"
+*Output:* "/c"
 ----
 
 *Example 6:*
 
 [subs="verbatim,quotes"]
 ----
-*Input: "*<span id="example-input-1-1">/a//b////c/d//././/.."
-*Output: "*<span id="example-output-1">/a/b/c"
+*Input:* "/a//b////c/d//././/.."
+*Output:* "/a/b/c"
 ----
 

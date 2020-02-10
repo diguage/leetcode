@@ -20,8 +20,8 @@ Given a string `S`, return the "reversed" string where all characters that are n
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"ab-cd"
-*Output: *<span id="example-output-1">"dc-ba"
+*Input:* "ab-cd"
+*Output:* "dc-ba"
 ----
 
 
@@ -29,8 +29,8 @@ Given a string `S`, return the "reversed" string where all characters that are n
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">"a-bC-dEf-ghIj"
-*Output: *<span id="example-output-2">"j-Ih-gfE-dCba"
+*Input:* "a-bC-dEf-ghIj"
+*Output:* "j-Ih-gfE-dCba"
 ----
 
 
@@ -38,8 +38,8 @@ Given a string `S`, return the "reversed" string where all characters that are n
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">"Test1ng-Leet=code-Q!"
-*Output: *<span id="example-output-3">"Qedo1ct-eeLg=ntse-T!"
+*Input:* "Test1ng-Leet=code-Q!"
+*Output:* "Qedo1ct-eeLg=ntse-T!"
 ----
 
  

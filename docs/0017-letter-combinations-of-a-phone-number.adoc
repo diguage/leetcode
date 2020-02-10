@@ -12,7 +12,7 @@ image::http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad
 
 [subs="verbatim,quotes"]
 ----
-*Input: *"23"
+*Input:* "23"
 *Output:* ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
 ----
 

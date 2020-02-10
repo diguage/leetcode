@@ -27,22 +27,22 @@ You may assume that the input format is always valid, for example it could never
 
 [subs="verbatim,quotes"]
 ----
-*Input: *`"9,3,4,#,#,1,#,#,2,#,6,#,#"`
-*Output: *`true`
+*Input:* `"9,3,4,#,#,1,#,#,2,#,6,#,#"`
+*Output:* `true`
 ----
 
 *Example 2:*
 
 [subs="verbatim,quotes"]
 ----
-*Input: *`"1,#"`
-*Output: *`false`
+*Input:* `"1,#"`
+*Output:* `false`
 ----
 
 *Example 3:*
 
 [subs="verbatim,quotes"]
 ----
-*Input: *`"9,#,#,1"`
-*Output: *`false`
+*Input:* `"9,#,#,1"`
+*Output:* `false`
 ----

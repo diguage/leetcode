@@ -11,7 +11,7 @@ Given an integer array `arr` and an integer `<font face="monospace">difference`,
 ----
 *Input:* arr = [1,2,3,4], difference = 1
 *Output:* 4
-*Explanation: *The longest arithmetic subsequence is [1,2,3,4].
+*Explanation:* The longest arithmetic subsequence is [1,2,3,4].
 ----
 
 *Example 2:*
@@ -20,7 +20,7 @@ Given an integer array `arr` and an integer `<font face="monospace">difference`,
 ----
 *Input:* arr = [1,3,5,7], difference = 1
 *Output:* 1
-*Explanation: *The longest arithmetic subsequence is any single element.
+*Explanation:* The longest arithmetic subsequence is any single element.
 
 ----
 
@@ -30,7 +30,7 @@ Given an integer array `arr` and an integer `<font face="monospace">difference`,
 ----
 *Input:* arr = [1,5,7,8,5,3,4,2,1], difference = -2
 *Output:* 4
-*Explanation: *The longest arithmetic subsequence is [7,5,3,1].
+*Explanation:* The longest arithmetic subsequence is [7,5,3,1].
 
 ----
 

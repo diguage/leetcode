@@ -16,8 +16,8 @@ Return the longest possible length of a word chain with words chosen from the gi
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">["a","b","ba","bca","bda","bdca"]
-*Output: *<span id="example-output-1">4
+*Input:* ["a","b","ba","bca","bda","bdca"]
+*Output:* 4
 *Explanation*: one of the longest word chain is "a","ba","bda","bdca".
 ----
 

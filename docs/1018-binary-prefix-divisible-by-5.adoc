@@ -10,9 +10,9 @@ Return a list of booleans `answer`, where `answer[i]` is `true` if and only if `
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[0,1,1]
-*Output: *<span id="example-output-1">[true,false,false]
-*Explanation: *
+*Input:* [0,1,1]
+*Output:* [true,false,false]
+*Explanation:*
 The input numbers in binary are 0, 01, 011; which are 0, 1, and 3 in base-10.  Only the first number is divisible by 5, so answer[0] is true.
 ----
 
@@ -20,24 +20,24 @@ The input numbers in binary are 0, 01, 011; which are 0, 1, and 3 in base-10.  O
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[1,1,1]
-*Output: *<span id="example-output-2">[false,false,false]
+*Input:* [1,1,1]
+*Output:* [false,false,false]
 ----
 
 *Example 3:*
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">[0,1,1,1,1,1]
-*Output: *<span id="example-output-3">[true,false,false,false,true,false]
+*Input:* [0,1,1,1,1,1]
+*Output:* [true,false,false,false,true,false]
 ----
 
 *Example 4:*
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-4-1">[1,1,1,0,1]
-*Output: *<span id="example-output-4">[false,false,false,false,false]
+*Input:* [1,1,1,0,1]
+*Output:* [false,false,false,false,false]
 ----
 
  

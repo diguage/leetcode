@@ -16,9 +16,9 @@ Return `true` if and only if it is possible to assign integers to variable names
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">["a==b","b!=a"]
-*Output: *<span id="example-output-1">false
-*Explanation: *If we assign say, a = 1 and b = 1, then the first equation is satisfied, but not the second.  There is no way to assign the variables to satisfy both equations.
+*Input:* ["a==b","b!=a"]
+*Output:* false
+*Explanation:* If we assign say, a = 1 and b = 1, then the first equation is satisfied, but not the second.  There is no way to assign the variables to satisfy both equations.
 ----
 
 
@@ -26,9 +26,9 @@ Return `true` if and only if it is possible to assign integers to variable names
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">["b==a","a==b"]
-*Output: *<span id="example-output-2">true
-*Explanation: *We could assign a = 1 and b = 1 to satisfy both equations.
+*Input:* ["b==a","a==b"]
+*Output:* true
+*Explanation:* We could assign a = 1 and b = 1 to satisfy both equations.
 ----
 
 
@@ -36,8 +36,8 @@ Return `true` if and only if it is possible to assign integers to variable names
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">["a==b","b==c","a==c"]
-*Output: *<span id="example-output-3">true
+*Input:* ["a==b","b==c","a==c"]
+*Output:* true
 ----
 
 
@@ -45,8 +45,8 @@ Return `true` if and only if it is possible to assign integers to variable names
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-4-1">["a==b","b!=c","c==a"]
-*Output: *<span id="example-output-4">false
+*Input:* ["a==b","b!=c","c==a"]
+*Output:* false
 ----
 
 
@@ -54,8 +54,8 @@ Return `true` if and only if it is possible to assign integers to variable names
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-5-1">["c==c","b==d","x!=z"]
-*Output: *<span id="example-output-5">true
+*Input:* ["c==c","b==d","x!=z"]
+*Output:* true
 ----
 
  

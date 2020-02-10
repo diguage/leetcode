@@ -10,10 +10,9 @@ A subsequence of a string is a new string which is formed from the original stri
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = `"rabbbit"`, T = `"rabbit"
+*Input:* S = `"rabbbit"`, T = `"rabbit"`
 *Output:* 3
-`*Explanation:
-*
+*Explanation:*
 As shown below, there are 3 ways you can generate "rabbit" from S.
 (The caret symbol ^ means the chosen letters)
 
@@ -29,10 +28,9 @@ As shown below, there are 3 ways you can generate "rabbit" from S.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = `"babgbag"`, T = `"bag"
+*Input:* S = `"babgbag"`, T = `"bag"`
 *Output:* 5
-`*Explanation:
-*
+*Explanation:*
 As shown below, there are 5 ways you can generate "bag" from S.
 (The caret symbol ^ means the chosen letters)
 

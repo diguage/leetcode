@@ -23,8 +23,8 @@ Note that the entire part is used when considering what binary value it represen
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[1,0,1,0,1]
-*Output: *<span id="example-output-1">[0,3]
+*Input:* [1,0,1,0,1]
+*Output:* [0,3]
 ----
 
 
@@ -32,8 +32,8 @@ Note that the entire part is used when considering what binary value it represen
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[1,1,0,1,1]
-*Output: *<span id="example-output-2">[-1,-1]
+*Input:* [1,1,0,1,1]
+*Output:* [-1,-1]
 ----
 
 

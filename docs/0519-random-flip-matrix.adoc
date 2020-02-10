@@ -17,10 +17,10 @@ Note:
 
 [subs="verbatim,quotes"]
 ----
-*Input: 
-*<span id="example-input-1-1">["Solution","flip","flip","flip","flip"]
-<span id="example-input-1-2">[[2,3],[],[],[],[]]
-*Output: *<span id="example-output-1">[null,[0,1],[1,2],[1,0],[1,1]]
+*Input:*
+ ["Solution","flip","flip","flip","flip"]
+ [[2,3],[],[],[],[]]
+*Output:* [null,[0,1],[1,2],[1,0],[1,1]]
 ----
 
 
@@ -28,10 +28,10 @@ Note:
 
 [subs="verbatim,quotes"]
 ----
-*Input: 
-*<span id="example-input-2-1">["Solution","flip","flip","reset","flip"]
-<span id="example-input-2-2">[[1,2],[],[],[],[]]
-*Output: *<span id="example-output-2">[null,[0,0],[0,1],null,[0,0]]
+*Input:*
+ ["Solution","flip","flip","reset","flip"]
+ [[1,2],[],[],[],[]]
+*Output:* [null,[0,0],[0,1],null,[0,0]]
 ----
 
 

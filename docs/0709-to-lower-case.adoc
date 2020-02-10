@@ -11,8 +11,8 @@ Implement function ToLowerCase() that has a string parameter str, and returns th
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"Hello"
-*Output: *<span id="example-output-1">"hello"
+*Input:* "Hello"
+*Output:* "hello"
 ----
 
 
@@ -20,8 +20,8 @@ Implement function ToLowerCase() that has a string parameter str, and returns th
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">"here"
-*Output: *<span id="example-output-2">"here"
+*Input:* "here"
+*Output:* "here"
 ----
 
 
@@ -29,8 +29,8 @@ Implement function ToLowerCase() that has a string parameter str, and returns th
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">"LOVELY"
-*Output: *<span id="example-output-3">"lovely"
+*Input:* "LOVELY"
+*Output:* "lovely"
 ----
 
 

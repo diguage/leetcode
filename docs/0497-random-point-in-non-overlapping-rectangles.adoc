@@ -21,11 +21,10 @@ Note:
 
 [subs="verbatim,quotes"]
 ----
-*Input: 
-*<span id="example-input-1-1">["Solution","pick","pick","pick"]
-<span id="example-input-1-2">[[[[1,1,5,5]]],[],[],[]]
-*Output: 
-*<span id="example-output-1">[null,[4,1],[4,1],[3,3]]
+*Input:*
+ ["Solution","pick","pick","pick"]
+ [[[[1,1,5,5]]],[],[],[]]
+*Output:* [null,[4,1],[4,1],[3,3]]
 ----
 
 
@@ -33,11 +32,11 @@ Note:
 
 [subs="verbatim,quotes"]
 ----
-*Input: 
-*<span id="example-input-2-1">["Solution","pick","pick","pick","pick","pick"]
-<span id="example-input-2-2">[[[[-2,-2,-1,-1],[1,0,3,0]]],[],[],[],[],[]]
-*Output: 
-*<span id="example-output-2">[null,[-1,-2],[2,0],[-2,-1],[3,0],[-2,-2]]
+*Input:*
+ ["Solution","pick","pick","pick","pick","pick"]
+ [[[[-2,-2,-1,-1],[1,0,3,0]]],[],[],[],[],[]]
+*Output:*
+ [null,[-1,-2],[2,0],[-2,-1],[3,0],[-2,-2]]
 ----
 
 

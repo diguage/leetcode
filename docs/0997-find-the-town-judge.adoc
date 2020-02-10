@@ -22,8 +22,8 @@ If the town judge exists and can be identified, return the label of the town jud
 
 [subs="verbatim,quotes"]
 ----
-*Input: *N = <span id="example-input-1-1">2, trust = <span id="example-input-1-2">[[1,2]]
-*Output: *<span id="example-output-1">2
+*Input:* N = 2, trust = [[1,2]]
+*Output:* 2
 ----
 
 
@@ -31,8 +31,8 @@ If the town judge exists and can be identified, return the label of the town jud
 
 [subs="verbatim,quotes"]
 ----
-*Input: *N = <span id="example-input-2-1">3, trust = <span id="example-input-2-2">[[1,3],[2,3]]
-*Output: *<span id="example-output-2">3
+*Input:* N = 3, trust = [[1,3],[2,3]]
+*Output:* 3
 ----
 
 
@@ -40,8 +40,8 @@ If the town judge exists and can be identified, return the label of the town jud
 
 [subs="verbatim,quotes"]
 ----
-*Input: *N = <span id="example-input-3-1">3, trust = <span id="example-input-3-2">[[1,3],[2,3],[3,1]]
-*Output: *<span id="example-output-3">-1
+*Input:* N = 3, trust = [[1,3],[2,3],[3,1]]
+*Output:* -1
 ----
 
 
@@ -49,8 +49,8 @@ If the town judge exists and can be identified, return the label of the town jud
 
 [subs="verbatim,quotes"]
 ----
-*Input: *N = <span id="example-input-4-1">3, trust = <span id="example-input-4-2">[[1,2],[2,3]]
-*Output: *<span id="example-output-4">-1
+*Input:* N = 3, trust = [[1,2],[2,3]]
+*Output:* -1
 ----
 
 
@@ -58,8 +58,8 @@ If the town judge exists and can be identified, return the label of the town jud
 
 [subs="verbatim,quotes"]
 ----
-*Input: *N = <span id="example-input-5-1">4, trust = <span id="example-input-5-2">[[1,3],[1,4],[2,3],[2,4],[4,3]]
-*Output: *<span id="example-output-5">3
+*Input:* N = 4, trust = [[1,3],[1,4],[2,3],[2,4],[4,3]]
+*Output:* 3
 ----
 
  

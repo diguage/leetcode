@@ -15,9 +15,9 @@ Return that maximum distance to closest person.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[1,0,0,0,1,0,1]
-*Output: *<span id="example-output-1">2
-*Explanation: *
+*Input:* [1,0,0,0,1,0,1]
+*Output:* 2
+*Explanation:*
 If Alex sits in the second open seat (seats[2]), then the closest person has distance 2.
 If Alex sits in any other open seat, the closest person has distance 1.
 Thus, the maximum distance to the closest person is 2.
@@ -28,9 +28,9 @@ Thus, the maximum distance to the closest person is 2.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[1,0,0,0]
-*Output: *<span id="example-output-2">3
-*Explanation: *
+*Input:* [1,0,0,0]
+*Output:* 3
+*Explanation:*
 If Alex sits in the last seat, the closest person is 3 seats away.
 This is the maximum distance possible, so the answer is 3.
 

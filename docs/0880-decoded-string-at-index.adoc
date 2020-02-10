@@ -18,9 +18,9 @@ Now for some encoded string `S`, and an index `K`, find and return the `K`-th le
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = <span id="example-input-1-1">"leet2code3", K = <span id="example-input-1-2">10
-*Output: *<span id="example-output-1">"o"
-*Explanation: *
+*Input:* S = "leet2code3", K = 10
+*Output:* "o"
+*Explanation:*
 The decoded string is "leetleetcodeleetleetcodeleetleetcode".
 The 10th letter in the string is "o".
 ----
@@ -30,9 +30,9 @@ The 10th letter in the string is "o".
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = <span id="example-input-2-1">"ha22", K = <span id="example-input-2-2">5
-*Output: *<span id="example-output-2">"h"
-*Explanation: *
+*Input:* S = "ha22", K = 5
+*Output:* "h"
+*Explanation:*
 The decoded string is "hahahaha".  The 5th letter is "h".
 ----
 
@@ -41,9 +41,9 @@ The decoded string is "hahahaha".  The 5th letter is "h".
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = <span id="example-input-3-1">"a2345678999999999999999", K = <span id="example-input-3-2">1
-*Output: *<span id="example-output-3">"a"
-*Explanation: *
+*Input:* S = "a2345678999999999999999", K = 1
+*Output:* "a"
+*Explanation:*
 The decoded string is "a" repeated 8301530446056247680 times.  The 1st letter is "a".
 ----
 

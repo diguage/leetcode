@@ -14,9 +14,9 @@ You may return the answer in any order.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *N = <span id="example-input-1-1">3, K = <span id="example-input-1-2">7
-*Output: *<span id="example-output-1">[181,292,707,818,929]
-*Explanation: *Note that 070 is not a valid number, because it has leading zeroes.
+*Input:* N = 3, K = 7
+*Output:* [181,292,707,818,929]
+*Explanation:* Note that 070 is not a valid number, because it has leading zeroes.
 ----
 
 
@@ -24,8 +24,8 @@ You may return the answer in any order.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *N = <span id="example-input-2-1">2, K = <span id="example-input-2-2">1
-*Output: *<span id="example-output-2">[10,12,21,23,32,34,43,45,54,56,65,67,76,78,87,89,98]
+*Input:* N = 2, K = 1
+*Output:* [10,12,21,23,32,34,43,45,54,56,65,67,76,78,87,89,98]
 ----
 
  

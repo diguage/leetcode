@@ -21,9 +21,9 @@ Note that if the car reaches a gas station with 0 fuel left, the car can still r
 
 [subs="verbatim,quotes"]
 ----
-*Input: *target = <span id="example-input-1-1">1, startFuel = <span id="example-input-1-2">1, stations = <span id="example-input-1-3">[]
-*Output: *<span id="example-output-1">0
-*Explanation: *We can reach the target without refueling.
+*Input:* target = 1, startFuel = 1, stations = []
+*Output:* 0
+*Explanation:* We can reach the target without refueling.
 ----
 
 
@@ -31,9 +31,9 @@ Note that if the car reaches a gas station with 0 fuel left, the car can still r
 
 [subs="verbatim,quotes"]
 ----
-*Input: *target = <span id="example-input-2-1">100, startFuel = <span id="example-input-2-2">1, stations = <span id="example-input-2-3">[[10,100]]
-*Output: *<span id="example-output-2">-1
-*Explanation: *We can't reach the target (or even the first gas station).
+*Input:* target = 100, startFuel = 1, stations = [[10,100]]
+*Output:* -1
+*Explanation:* We can't reach the target (or even the first gas station).
 ----
 
 
@@ -41,9 +41,9 @@ Note that if the car reaches a gas station with 0 fuel left, the car can still r
 
 [subs="verbatim,quotes"]
 ----
-*Input: *target = <span id="example-input-3-1">100, startFuel = <span id="example-input-3-2">10, stations = <span id="example-input-3-3">[[10,60],[20,30],[30,30],[60,40]]
-*Output: *<span id="example-output-3">2
-*Explanation: *
+*Input:* target = 100, startFuel = 10, stations = [[10,60],[20,30],[30,30],[60,40]]
+*Output:* 2
+*Explanation:*
 We start with 10 liters of fuel.
 We drive to position 10, expending 10 liters of fuel.  We refuel from 0 liters to 60 liters of gas.
 Then, we drive from position 10 to position 60 (expending 50 liters of fuel),

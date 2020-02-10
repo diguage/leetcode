@@ -10,7 +10,7 @@ After, what is the size of the largest island? (An island is a 4-directionally c
 
 [subs="verbatim,quotes"]
 ----
-*Input: *[[1, 0], [0, 1]]
+*Input:* [[1, 0], [0, 1]]
 *Output:* 3
 *Explanation:* Change one 0 to 1 and connect two 1s, then we get an island with area = 3.
 
@@ -20,16 +20,16 @@ After, what is the size of the largest island? (An island is a 4-directionally c
 
 [subs="verbatim,quotes"]
 ----
-*Input: *[[1, 1], [1, 0]]
+*Input:* [[1, 1], [1, 0]]
 *Output:* 4
-*Explanation: *Change the 0 to 1 and make the island bigger, only one island with area = 4.
+*Explanation:* Change the 0 to 1 and make the island bigger, only one island with area = 4.
 ----
 
 *Example 3:*
 
 [subs="verbatim,quotes"]
 ----
-*Input: *[[1, 1], [1, 1]]
+*Input:* [[1, 1], [1, 1]]
 *Output:* 4
 *Explanation:* Can't change any 0 to 1, only one island with area = 4.
 ----

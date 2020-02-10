@@ -20,8 +20,8 @@ image::https://assets.leetcode.com/uploads/2019/05/02/tree.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:* <span id="example-input-1-1">[4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]
-*Output:* <span id="example-output-1">[30,36,21,36,35,26,15,null,null,null,33,null,null,null,8]
+*Input:* [4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]
+*Output:* [30,36,21,36,35,26,15,null,null,null,33,null,null,null,8]
 ----
 
 

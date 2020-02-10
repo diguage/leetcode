@@ -19,8 +19,8 @@ For example, 12321 is a palindrome.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">6
-*Output: *<span id="example-output-1">7
+*Input:* 6
+*Output:* 7
 ----
 
 
@@ -28,8 +28,8 @@ For example, 12321 is a palindrome.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">8
-*Output: *<span id="example-output-2">11
+*Input:* 8
+*Output:* 11
 ----
 
 
@@ -37,8 +37,8 @@ For example, 12321 is a palindrome.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">13
-*Output: *<span id="example-output-3">101
+*Input:* 13
+*Output:* 101
 ----
 
 

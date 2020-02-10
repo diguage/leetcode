@@ -28,8 +28,8 @@ Return the number of regions.
 
 [subs="verbatim,quotes"]
 ----
-*Input:
-*<span id="example-input-1-1">[
+*Input:*
+[
   " /",
   "/ "
 ]
@@ -44,8 +44,8 @@ image::https://assets.leetcode.com/uploads/2018/12/15/1.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:
-*<span id="example-input-2-1">[
+*Input:*
+[
   " /",
   "  "
 ]
@@ -60,13 +60,13 @@ image::https://assets.leetcode.com/uploads/2018/12/15/2.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:
-*<span id="example-input-3-1">[
+*Input:*
+[
   "\\/",
   "/\\"
 ]
-*Output: *<span id="example-output-3">4
-*Explanation: *(Recall that because \ characters are escaped, "\\/" refers to \/, and "/\\" refers to /\.)
+*Output:* 4
+*Explanation:* (Recall that because \ characters are escaped, "\\/" refers to \/, and "/\\" refers to /\.)
 The 2x2 grid is as follows:
 
 image::https://assets.leetcode.com/uploads/2018/12/15/3.png[]
@@ -77,13 +77,13 @@ image::https://assets.leetcode.com/uploads/2018/12/15/3.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:
-*<span id="example-input-4-1">[
+*Input:*
+[
   "/\\",
   "\\/"
 ]
-*Output: *<span id="example-output-4">5
-*Explanation: *(Recall that because \ characters are escaped, "/\\" refers to /\, and "\\/" refers to \/.)
+*Output:* 5
+*Explanation:* (Recall that because \ characters are escaped, "/\\" refers to /\, and "\\/" refers to \/.)
 The 2x2 grid is as follows:
 
 image::https://assets.leetcode.com/uploads/2018/12/15/4.png[]
@@ -94,13 +94,13 @@ image::https://assets.leetcode.com/uploads/2018/12/15/4.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:
-*<span id="example-input-5-1">[
+*Input:*
+[
   "//",
   "/ "
 ]
-*Output: *<span id="example-output-5">3
-*Explanation: *The 2x2 grid is as follows:
+*Output:* 3
+*Explanation:* The 2x2 grid is as follows:
 
 image::https://assets.leetcode.com/uploads/2018/12/15/5.png[]
 ----

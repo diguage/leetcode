@@ -17,7 +17,7 @@ Each word would be put on only one column and that in one column there will be o
 ----
 *Input:* s = "HOW ARE YOU"
 *Output:* ["HAY","ORO","WEU"]
-*Explanation: *Each word is printed vertically. 
+*Explanation:* Each word is printed vertically.
  "HAY"
  "ORO"
  "WEU"
@@ -29,7 +29,7 @@ Each word would be put on only one column and that in one column there will be o
 ----
 *Input:* s = "TO BE OR NOT TO BE"
 *Output:* ["TBONTB","OEROOE","   T"]
-*Explanation: *Trailing spaces is not allowed. 
+*Explanation:* Trailing spaces is not allowed.
 "TBONTB"
 "OEROOE"
 "   T"

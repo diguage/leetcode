@@ -19,7 +19,7 @@ Given two strings _s_ and _t _, write a function to determine if _t_ is an anagr
 [subs="verbatim,quotes"]
 ----
 *Input:* _s_ = "rat", _t_ = "car"
-*Output: *false
+*Output:* false
 ----
 
 *Note:*

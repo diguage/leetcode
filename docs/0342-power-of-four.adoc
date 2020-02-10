@@ -8,8 +8,8 @@ Given an integer (signed 32 bits), write a function to check whether it is a pow
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">16
-*Output: *<span id="example-output-1">true
+*Input:* 16
+*Output:* true
 ----
 
 
@@ -17,8 +17,8 @@ Given an integer (signed 32 bits), write a function to check whether it is a pow
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">5
-*Output: *<span id="example-output-2">false
+*Input:* 5
+*Output:* false
 ----
 
 

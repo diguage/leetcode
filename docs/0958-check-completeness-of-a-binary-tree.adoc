@@ -17,9 +17,9 @@ image::https://assets.leetcode.com/uploads/2018/12/15/complete-binary-tree-1.png
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[1,2,3,4,5,6]
-*Output: *<span id="example-output-1">true
-*Explanation: *Every level before the last is full (ie. levels with node-values {1} and {2, 3}), and all nodes in the last level ({4, 5, 6}) are as far left as possible.
+*Input:* [1,2,3,4,5,6]
+*Output:* true
+*Explanation:* Every level before the last is full (ie. levels with node-values {1} and {2, 3}), and all nodes in the last level ({4, 5, 6}) are as far left as possible.
 ----
 
 
@@ -29,9 +29,9 @@ image::https://assets.leetcode.com/uploads/2018/12/15/complete-binary-tree-2.png
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[1,2,3,4,5,null,7]
-*Output: *<span id="example-output-2">false
-*Explanation: *The node with value 7 isn't as far left as possible.
+*Input:* [1,2,3,4,5,null,7]
+*Output:* false
+*Explanation:* The node with value 7 isn't as far left as possible.
 ----
 
  

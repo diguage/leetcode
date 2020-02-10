@@ -14,8 +14,8 @@ Return the smallest number of `0`s that must be flipped.  (It is guaranteed that
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[[0,1],[1,0]]
-*Output: *1
+*Input:* [[0,1],[1,0]]
+*Output:* 1
 ----
 
 
@@ -23,8 +23,8 @@ Return the smallest number of `0`s that must be flipped.  (It is guaranteed that
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[[0,1,0],[0,0,0],[0,0,1]]
-*Output: *2
+*Input:* [[0,1,0],[0,0,0],[0,0,1]]
+*Output:* 2
 ----
 
 
@@ -32,8 +32,8 @@ Return the smallest number of `0`s that must be flipped.  (It is guaranteed that
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">[[1,1,1,1,1],[1,0,0,0,1],[1,0,1,0,1],[1,0,0,0,1],[1,1,1,1,1]]
-*Output: *<span id="example-output-3">1
+*Input:* [[1,1,1,1,1],[1,0,0,0,1],[1,0,1,0,1],[1,0,0,0,1],[1,1,1,1,1]]
+*Output:* 1
 ----
 
  

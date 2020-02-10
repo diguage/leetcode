@@ -32,7 +32,7 @@ Total distance = 3
 ----
 *Input:* word = "HAPPY"
 *Output:* 6
-*Explanation: *
+*Explanation:*
 Using two fingers, one optimal way to type "HAPPY" is:
 Finger 1 on letter 'H' -> cost = 0
 Finger 1 on letter 'A' -> cost = Distance from letter 'H' to letter 'A' = 2

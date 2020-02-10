@@ -12,24 +12,24 @@ Return the largest string `X` such that `X` divides <font face="monospace">str1 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *str1 = <span id="example-input-1-1">"ABCABC", str2 = <span id="example-input-1-2">"ABC"
-*Output: *<span id="example-output-1">"ABC"
+*Input:* str1 = "ABCABC", str2 = "ABC"
+*Output:* "ABC"
 ----
 
 *Example 2:*
 
 [subs="verbatim,quotes"]
 ----
-*Input: *str1 = <span id="example-input-2-1">"ABABAB", str2 = <span id="example-input-2-2">"ABAB"
-*Output: *<span id="example-output-2">"AB"
+*Input:* str1 = "ABABAB", str2 = "ABAB"
+*Output:* "AB"
 ----
 
 *Example 3:*
 
 [subs="verbatim,quotes"]
 ----
-*Input: *str1 = <span id="example-input-3-1">"LEET", str2 = <span id="example-input-3-2">"CODE"
-*Output: *<span id="example-output-3">""
+*Input:* str1 = "LEET", str2 = "CODE"
+*Output:* ""
 ----
 
  

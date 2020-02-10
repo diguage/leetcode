@@ -13,9 +13,9 @@ We may assume that no string in `A` is substring of another string in `A`.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">["alex","loves","leetcode"]
-*Output: *<span id="example-output-1">"alexlovesleetcode"
-*Explanation: *All permutations of "alex","loves","leetcode" would also be accepted.
+*Input:* ["alex","loves","leetcode"]
+*Output:* "alexlovesleetcode"
+*Explanation:* All permutations of "alex","loves","leetcode" would also be accepted.
 ----
 
 
@@ -23,8 +23,8 @@ We may assume that no string in `A` is substring of another string in `A`.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">["catg","ctaagt","gcta","ttca","atgcatc"]
-*Output: *<span id="example-output-2">"gctaagttcatgcatc"
+*Input:* ["catg","ctaagt","gcta","ttca","atgcatc"]
+*Output:* "gctaagttcatgcatc"
 ----
 
  

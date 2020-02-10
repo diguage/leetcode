@@ -17,13 +17,13 @@ Implement the `DinnerPlates` class:
 
 [subs="verbatim,quotes"]
 ----
-*Input: *
+*Input:*
 ["DinnerPlates","push","push","push","push","push","popAtStack","push","push","popAtStack","popAtStack","pop","pop","pop","pop","pop"]
 [[2],[1],[2],[3],[4],[5],[0],[20],[21],[0],[2],[],[],[],[],[]]
-*Output: *
+*Output:*
 [null,null,null,null,null,null,2,null,null,20,21,5,4,3,1,-1]
 
-*Explanation: *
+*Explanation:*
 DinnerPlates D = DinnerPlates(2);  // Initialize with capacity = 2
 D.push(1);
 D.push(2);

@@ -85,7 +85,7 @@ public int maxProfit(int[] prices) {
 . https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
 . https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/dong-tai-gui-hua-shen-ru-fen-xi-by-wang-yan-19/[动态规划深入分析 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
 
-Say you have an array for which the _i<span style="font-size: 10.8333px;">-_<span style="font-size: 10.8333px;">th element is the price of a given stock on day _i_.
+Say you have an array for which the _i -_ th element is the price of a given stock on day _i_.
 
 Design an algorithm to find the maximum profit. You may complete at most *k* transactions.
 

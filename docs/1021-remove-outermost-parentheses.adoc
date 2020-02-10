@@ -16,9 +16,9 @@ Return `S` after removing the outermost parentheses of every primitive string in
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"(()())(())"
-*Output: *<span id="example-output-1">"()()()"
-*Explanation: *
+*Input:* "(()())(())"
+*Output:* "()()()"
+*Explanation:*
 The input string is "(()())(())", with primitive decomposition "(()())" + "(())".
 After removing outer parentheses of each part, this is "()()" + "()" = "()()()".
 ----
@@ -28,9 +28,9 @@ After removing outer parentheses of each part, this is "()()" + "()" = "()()()".
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">"(()())(())(()(()))"
-*Output: *<span id="example-output-2">"()()()()(())"
-*Explanation: *
+*Input:* "(()())(())(()(()))"
+*Output:* "()()()()(())"
+*Explanation:*
 The input string is "(()())(())(()(()))", with primitive decomposition "(()())" + "(())" + "(()(()))".
 After removing outer parentheses of each part, this is "()()" + "()" + "()(())" = "()()()()(())".
 ----
@@ -40,9 +40,9 @@ After removing outer parentheses of each part, this is "()()" + "()" + "()(())" 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">"()()"
-*Output: *<span id="example-output-3">""
-*Explanation: *
+*Input:* "()()"
+*Output:* ""
+*Explanation:*
 The input string is "()()", with primitive decomposition "()" + "()".
 After removing outer parentheses of each part, this is "" + "" = "".
 ----

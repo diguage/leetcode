@@ -14,9 +14,9 @@ image::https://assets.leetcode.com/uploads/2019/05/03/capture.JPG[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[1,7,0,7,-8,null,null]
-*Output: *<span id="example-output-1">2
-*Explanation: *
+*Input:* [1,7,0,7,-8,null,null]
+*Output:* 2
+*Explanation:*
 Level 1 sum = 1.
 Level 2 sum = 7 + 0 = 7.
 Level 3 sum = 7 + -8 = -1.

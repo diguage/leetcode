@@ -9,8 +9,8 @@ Given a string array `words`, find the maximum value of `length(word[i]) * lengt
 [subs="verbatim,quotes"]
 ----
 *Input:* `["abcw","baz","foo","bar","xtfn","abcdef"]`
-*Output: *`16 
-*Explanation: *`The two words can be `"abcw", "xtfn"`<span style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">.
+*Output:* `16`
+*Explanation:* The two words can be `"abcw", "xtfn"`.
 ----
 
 *Example 2:*
@@ -18,8 +18,8 @@ Given a string array `words`, find the maximum value of `length(word[i]) * lengt
 [subs="verbatim,quotes"]
 ----
 *Input:* `["a","ab","abc","d","cd","bcd","abcd"]`
-*Output: *`4 
-*Explanation: *`The two words can be `"ab", "cd"`<span style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">.
+*Output:* `4`
+*Explanation:* The two words can be `"ab", "cd"`.
 ----
 
 *Example 3:*
@@ -27,7 +27,7 @@ Given a string array `words`, find the maximum value of `length(word[i]) * lengt
 [subs="verbatim,quotes"]
 ----
 *Input:* `["a","aa","aaa","aaaa"]`
-*Output: *`0 
-*Explanation: *`No such pair of words.
+*Output:* `0`
+*Explanation:* No such pair of words.
 ----
 

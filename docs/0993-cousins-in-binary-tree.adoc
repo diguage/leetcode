@@ -19,8 +19,8 @@ image::https://assets.leetcode.com/uploads/2019/02/12/q1248-01.png[]*
 
 [subs="verbatim,quotes"]
 ----
-*Input:*root = <span id="example-input-1-1">[1,2,3,4], x = <span id="example-input-1-2">4, y = <span id="example-input-1-3">3
-*Output:*<span id="example-output-1">false
+*Input:* root = [1,2,3,4], x = 4, y = 3
+*Output:* false
 ----
 
 
@@ -31,8 +31,8 @@ image::https://assets.leetcode.com/uploads/2019/02/12/q1248-02.png[]*
 
 [subs="verbatim,quotes"]
 ----
-*Input:*root = <span id="example-input-2-1">[1,2,3,null,4,null,5], x = <span id="example-input-2-2">5, y = <span id="example-input-2-3">4
-*Output:*<span id="example-output-2">true
+*Input:* root = [1,2,3,null,4,null,5], x = 5, y = 4
+*Output:* true
 ----
 
 
@@ -42,8 +42,8 @@ image::https://assets.leetcode.com/uploads/2019/02/13/q1248-03.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:* root = <span id="example-input-3-1">[1,2,3,null,4], x = 2, y = 3
-*Output:*<span id="example-output-3">false
+*Input:* root = [1,2,3,null,4], x = 2, y = 3
+*Output:* false
 ----
 
  

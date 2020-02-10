@@ -15,7 +15,7 @@ Return the maximum amount of splitted balanced strings.
 ----
 *Input:* s = "RLRRLLRLRL"
 *Output:* 4
-*Explanation: *s can be split into "RL", "RRLL", "RL", "RL", each substring contains same number of 'L' and 'R'.
+*Explanation:* s can be split into "RL", "RRLL", "RL", "RL", each substring contains same number of 'L' and 'R'.
 ----
 
 *Example 2:*
@@ -24,7 +24,7 @@ Return the maximum amount of splitted balanced strings.
 ----
 *Input:* s = "RLLLLRRRLR"
 *Output:* 3
-*Explanation: *s can be split into "RL", "LLLRRR", "LR", each substring contains same number of 'L' and 'R'.
+*Explanation:* s can be split into "RL", "LLLRRR", "LR", each substring contains same number of 'L' and 'R'.
 ----
 
 *Example 3:*
@@ -33,7 +33,7 @@ Return the maximum amount of splitted balanced strings.
 ----
 *Input:* s = "LLLLRRRR"
 *Output:* 1
-*Explanation: *s can be split into "LLLLRRRR".
+*Explanation:* s can be split into "LLLLRRRR".
 ----
 
 *Example 4:*
@@ -42,7 +42,7 @@ Return the maximum amount of splitted balanced strings.
 ----
 *Input:* s = "RLRRRLLRLL"
 *Output:* 2
-*Explanation: *s can be split into "RL", "RRRLLRLL", since each substring contains an equal number of 'L' and 'R'
+*Explanation:* s can be split into "RL", "RRRLLRLL", since each substring contains an equal number of 'L' and 'R'
 ----
 
  

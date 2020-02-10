@@ -16,9 +16,9 @@ image::https://assets.leetcode.com/uploads/2018/12/29/bst_cameras_01.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[0,0,null,0,0]
-*Output: *<span id="example-output-1">1
-*Explanation: *One camera is enough to monitor all nodes if placed as shown.
+*Input:* [0,0,null,0,0]
+*Output:* 1
+*Explanation:* One camera is enough to monitor all nodes if placed as shown.
 ----
 
 
@@ -28,8 +28,8 @@ image::https://assets.leetcode.com/uploads/2018/12/29/bst_cameras_02.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[0,0,null,0,null,0,null,null,0]
-*Output: *<span id="example-output-2">2
+*Input:* [0,0,null,0,null,0,null,null,0]
+*Output:* 2
 *Explanation:* At least two cameras are needed to monitor all nodes of the tree. The above image shows one of the valid configurations of camera placement.
 ----
 

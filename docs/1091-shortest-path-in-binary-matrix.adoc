@@ -21,7 +21,7 @@ Return the length of the shortest such clear path from top-left to bottom-right.
 
 [subs="verbatim,quotes"]
 ----
-*Input:*<span id="example-input-1-1">[[0,1],[1,0]]
+*Input:* [[0,1],[1,0]]
 
 image::https://assets.leetcode.com/uploads/2019/08/04/example1_1.png[]
 
@@ -35,7 +35,7 @@ image::https://assets.leetcode.com/uploads/2019/08/04/example1_2.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:*<span id="example-input-2-1">[[0,0,0],[1,1,0],[1,1,0]]
+*Input:* [[0,0,0],[1,1,0],[1,1,0]]
 
 image::https://assets.leetcode.com/uploads/2019/08/04/example2_1.png[]
 

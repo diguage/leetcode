@@ -44,8 +44,8 @@ Given an `expression` representing a set of words under the given grammar, retur
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"{a,b}{c,{d,e}}"
-*Output: *<span id="example-output-1">["ac","ad","ae","bc","bd","be"]
+*Input:* "{a,b}{c,{d,e}}"
+*Output:* ["ac","ad","ae","bc","bd","be"]
 ----
 
 
@@ -53,9 +53,9 @@ Given an `expression` representing a set of words under the given grammar, retur
 
 [subs="verbatim,quotes"]
 ----
-*Input: *"{{a,z},a{b,c},{ab,z}}"
-*Output: *["a","ab","ac","z"]
-*Explanation: *Each distinct word is written only once in the final answer.
+*Input:* "{{a,z},a{b,c},{ab,z}}"
+*Output:* ["a","ab","ac","z"]
+*Explanation:* Each distinct word is written only once in the final answer.
 ----
 
  

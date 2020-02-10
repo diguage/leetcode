@@ -24,8 +24,8 @@ _(As a reminder, any shorter prefix of a string is lexicographically smaller: fo
 
 [subs="verbatim,quotes"]
 ----
-*Input:*<span id="example-input-1-1">[0,1,2,3,4,3,4]
-*Output:*<span id="example-output-1">"dba"
+*Input:* [0,1,2,3,4,3,4]
+*Output:* "dba"
 ----
 
 
@@ -35,8 +35,8 @@ image::https://assets.leetcode.com/uploads/2019/01/30/tree2.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:*<span id="example-input-2-1">[25,1,3,1,3,0,2]
-*Output:*<span id="example-output-2">"adz"
+*Input:* [25,1,3,1,3,0,2]
+*Output:* "adz"
 ----
 
 
@@ -46,8 +46,8 @@ image::https://assets.leetcode.com/uploads/2019/02/01/tree3.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:*<span id="example-input-3-1">[2,2,1,null,1,0,null,0]
-*Output:*<span id="example-output-3">"abc"
+*Input:* [2,2,1,null,1,0,null,0]
+*Output:* "abc"
 ----
 
  

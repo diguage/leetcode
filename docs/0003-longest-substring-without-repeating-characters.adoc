@@ -8,8 +8,8 @@ Given a string, find the length of the *longest substring* without repeating cha
 .Example 1:
 [subs="verbatim,quotes"]
 ----
-*Input: * "abcabcbb"
-*Output: * 3 
+*Input:* "abcabcbb"
+*Output:* 3 
 *Explanation:* The answer is `"abc"`, with the length of 3. 
 ----
 

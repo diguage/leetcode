@@ -11,7 +11,7 @@ Given an input string, reverse the string word by word.
 [subs="verbatim,quotes"]
 ----
 *Input:* "`the sky is blue`"
-*Output: *"`blue is sky the`"
+*Output:* "`blue is sky the`"
 ----
 
 *Example 2:*
@@ -19,7 +19,7 @@ Given an input string, reverse the string word by word.
 [subs="verbatim,quotes"]
 ----
 *Input:* "  hello world!  "
-*Output: *"world! hello"
+*Output:* "world! hello"
 *Explanation:* Your reversed string should not contain leading or trailing spaces.
 ----
 
@@ -28,7 +28,7 @@ Given an input string, reverse the string word by word.
 [subs="verbatim,quotes"]
 ----
 *Input:* "a good   example"
-*Output: *"example good a"
+*Output:* "example good a"
 *Explanation:* You need to reduce multiple spaces between two words to a single space in the reversed string.
 ----
 

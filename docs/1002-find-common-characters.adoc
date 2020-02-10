@@ -13,8 +13,8 @@ You may return the answer in any order.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">["bella","label","roller"]
-*Output: *<span id="example-output-1">["e","l","l"]
+*Input:* ["bella","label","roller"]
+*Output:* ["e","l","l"]
 ----
 
 
@@ -22,8 +22,8 @@ You may return the answer in any order.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">["cool","lock","cook"]
-*Output: *<span id="example-output-2">["c","o"]
+*Input:* ["cool","lock","cook"]
+*Output:* ["c","o"]
 ----
 
  

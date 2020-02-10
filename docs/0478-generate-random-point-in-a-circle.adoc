@@ -18,10 +18,10 @@ Note:
 
 [subs="verbatim,quotes"]
 ----
-*Input: 
-*<span id="example-input-1-1">["Solution","randPoint","randPoint","randPoint"]
-<span id="example-input-1-2">[[1,0,0],[],[],[]]
-*Output: *<span id="example-output-1">[null,[-0.72939,-0.65505],[-0.78502,-0.28626],[-0.83119,-0.19803]]
+*Input:*
+ ["Solution","randPoint","randPoint","randPoint"]
+ [[1,0,0],[],[],[]]
+*Output:* [null,[-0.72939,-0.65505],[-0.78502,-0.28626],[-0.83119,-0.19803]]
 ----
 
 
@@ -29,10 +29,10 @@ Note:
 
 [subs="verbatim,quotes"]
 ----
-*Input: 
-*<span id="example-input-2-1">["Solution","randPoint","randPoint","randPoint"]
-<span id="example-input-2-2">[[10,5,-7.5],[],[],[]]
-*Output: *<span id="example-output-2">[null,[11.52438,-8.33273],[2.46992,-16.21705],[11.13430,-12.42337]]
+*Input:*
+ ["Solution","randPoint","randPoint","randPoint"]
+ [[10,5,-7.5],[],[],[]]
+*Output:* [null,[11.52438,-8.33273],[2.46992,-16.21705],[11.13430,-12.42337]]
 ----
 
 

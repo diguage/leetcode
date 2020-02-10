@@ -14,8 +14,8 @@ Return a class `ExamRoom(int N)` that exposes two functions: `ExamRoom.seat()` r
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">["ExamRoom","seat","seat","seat","seat","leave","seat"], <span id="example-input-1-2">[[10],[],[],[],[],[4],[]]
-*Output: *<span id="example-output-1">[null,0,9,4,2,null,5]
+*Input:* ["ExamRoom","seat","seat","seat","seat","leave","seat"], [[10],[],[],[],[],[4],[]]
+*Output:* [null,0,9,4,2,null,5]
 *Explanation*:
 ExamRoom(10) -> null
 seat() -> 0, no one is in the room, then the student sits at seat number 0.

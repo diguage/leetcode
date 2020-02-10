@@ -14,9 +14,9 @@ Return the minimum number of clips needed so that we can cut the clips into segm
 
 [subs="verbatim,quotes"]
 ----
-*Input: *clips = <span id="example-input-1-1">[[0,2],[4,6],[8,10],[1,9],[1,5],[5,9]], T = <span id="example-input-1-2">10
-*Output: *<span id="example-output-1">3
-*Explanation: *
+*Input:* clips = [[0,2],[4,6],[8,10],[1,9],[1,5],[5,9]], T = 10
+*Output:* 3
+*Explanation:*
 We take the clips [0,2], [8,10], [1,9]; a total of 3 clips.
 Then, we can reconstruct the sporting event as follows:
 We cut [1,9] into segments [1,2] + [2,8] + [8,9].
@@ -27,9 +27,9 @@ Now we have segments [0,2] + [2,8] + [8,10] which cover the sporting event [0, 1
 
 [subs="verbatim,quotes"]
 ----
-*Input: *clips = <span id="example-input-2-1">[[0,1],[1,2]], T = <span id="example-input-2-2">5
-*Output: *<span id="example-output-2">-1
-*Explanation: *
+*Input:* clips = [[0,1],[1,2]], T = 5
+*Output:* -1
+*Explanation:*
 We can't cover [0,5] with only [0,1] and [0,2].
 ----
 
@@ -37,9 +37,9 @@ We can't cover [0,5] with only [0,1] and [0,2].
 
 [subs="verbatim,quotes"]
 ----
-*Input: *clips = <span id="example-input-3-1">[[0,1],[6,8],[0,2],[5,6],[0,4],[0,3],[6,7],[1,3],[4,7],[1,4],[2,5],[2,6],[3,4],[4,5],[5,7],[6,9]], T = <span id="example-input-3-2">9
-*Output: *<span id="example-output-3">3
-*Explanation: *
+*Input:* clips = [[0,1],[6,8],[0,2],[5,6],[0,4],[0,3],[6,7],[1,3],[4,7],[1,4],[2,5],[2,6],[3,4],[4,5],[5,7],[6,9]], T = 9
+*Output:* 3
+*Explanation:*
 We can take clips [0,4], [4,7], and [6,9].
 ----
 
@@ -47,9 +47,9 @@ We can take clips [0,4], [4,7], and [6,9].
 
 [subs="verbatim,quotes"]
 ----
-*Input: *clips = <span id="example-input-4-1">[[0,4],[2,8]], T = <span id="example-input-4-2">5
-*Output: *<span id="example-output-4">2
-*Explanation: *
+*Input:* clips = [[0,4],[2,8]], T = 5
+*Output:* 2
+*Explanation:*
 Notice you can have extra video after the event ends.
 ----
 

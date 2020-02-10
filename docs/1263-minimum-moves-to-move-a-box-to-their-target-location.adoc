@@ -33,7 +33,7 @@ image::https://assets.leetcode.com/uploads/2019/11/06/sample_1_1620.png[]
                ["#",".",".",".","S","#"],
                ["#","#","#","#","#","#"]]
 *Output:* 3
-*Explanation: *We return only the number of times the box is pushed.
+*Explanation:* We return only the number of times the box is pushed.
 ----
 
 *Example 2:*

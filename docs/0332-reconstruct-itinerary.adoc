@@ -16,17 +16,17 @@ Given a list of airline tickets represented by pairs of departure and arrival ai
 
 [subs="verbatim,quotes"]
 ----
-`*Input: *``[["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]]`
-*Output: *`["JFK", "MUC", "LHR", "SFO", "SJC"]`
+*Input:* `[["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]]`
+*Output:* `["JFK", "MUC", "LHR", "SFO", "SJC"]`
 ----
 
 *Example 2:*
 
 [subs="verbatim,quotes"]
 ----
-`*Input: *``[["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL","SFO"]]`
-*Output: *`["JFK","ATL","JFK","SFO","ATL","SFO"]`
-*Explanation: *Another possible reconstruction is `["JFK","SFO","ATL","JFK","ATL","SFO"]`.
+*Input:* `[["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL","SFO"]]`
+*Output:* `["JFK","ATL","JFK","SFO","ATL","SFO"]`
+*Explanation:* Another possible reconstruction is `["JFK","SFO","ATL","JFK","ATL","SFO"]`.
              But it is larger in lexical order.
 ----
 

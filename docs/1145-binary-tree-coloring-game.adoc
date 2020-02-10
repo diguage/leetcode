@@ -21,7 +21,7 @@ image::https://assets.leetcode.com/uploads/2019/08/01/1480-binary-tree-coloring-
 ----
 *Input:* root = [1,2,3,4,5,6,7,8,9,10,11], n = 11, x = 3
 *Output:* true
-*Explanation: *The second player can choose the node with value 2.
+*Explanation:* The second player can choose the node with value 2.
 ----
 
  

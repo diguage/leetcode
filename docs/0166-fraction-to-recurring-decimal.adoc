@@ -29,6 +29,6 @@ If the fractional part is repeating, enclose the repeating part in parentheses.
 [subs="verbatim,quotes"]
 ----
 *Input:* numerator = 2, denominator = 3
-*Output: *"0.(6)"
+*Output:* "0.(6)"
 ----
 

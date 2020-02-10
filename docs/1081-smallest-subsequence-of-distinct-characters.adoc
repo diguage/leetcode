@@ -10,8 +10,8 @@ Return the lexicographically smallest subsequence of `text` that contains all th
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"cdadabcc"
-*Output: *<span id="example-output-1">"adbc"
+*Input:* "cdadabcc"
+*Output:* "adbc"
 ----
 
 
@@ -19,8 +19,8 @@ Return the lexicographically smallest subsequence of `text` that contains all th
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">"abcd"
-*Output: *<span id="example-output-2">"abcd"
+*Input:* "abcd"
+*Output:* "abcd"
 ----
 
 
@@ -28,8 +28,8 @@ Return the lexicographically smallest subsequence of `text` that contains all th
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">"ecbacba"
-*Output: *<span id="example-output-3">"eacb"
+*Input:* "ecbacba"
+*Output:* "eacb"
 ----
 
 
@@ -37,8 +37,8 @@ Return the lexicographically smallest subsequence of `text` that contains all th
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-4-1">"leetcode"
-*Output: *<span id="example-output-4">"letcod"
+*Input:* "leetcode"
+*Output:* "letcod"
 ----
 
  

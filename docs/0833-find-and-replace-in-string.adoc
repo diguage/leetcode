@@ -16,8 +16,8 @@ All these operations occur simultaneously.  It's guaranteed that there won't be 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = "abcd", indexes = [0,2], sources = ["a","cd"], targets = ["eee","ffff"]
-*Output: *"eeebffff"
+*Input:* S = "abcd", indexes = [0,2], sources = ["a","cd"], targets = ["eee","ffff"]
+*Output:* "eeebffff"
 *Explanation:* "a" starts at index 0 in S, so it's replaced by "eee".
 "cd" starts at index 2 in S, so it's replaced by "ffff".
 ----
@@ -26,8 +26,8 @@ All these operations occur simultaneously.  It's guaranteed that there won't be 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *S = "abcd", indexes = [0,2], sources = ["ab","ec"], targets = ["eee","ffff"]
-*Output: *"eeecd"
+*Input:* S = "abcd", indexes = [0,2], sources = ["ab","ec"], targets = ["eee","ffff"]
+*Output:* "eeecd"
 *Explanation:* "ab" starts at index 0 in S, so it's replaced by "eee". 
 "ec" doesn't starts at index 2 in the *original* S, so we do nothing.
 ----

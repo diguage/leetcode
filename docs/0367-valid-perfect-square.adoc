@@ -11,8 +11,8 @@ Given a positive integer _num_, write a function which returns True if _num_ is 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">16
-*Output: *<span id="example-output-1">true
+*Input:* 16
+*Output:* true
 ----
 
 
@@ -20,8 +20,8 @@ Given a positive integer _num_, write a function which returns True if _num_ is 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">14
-*Output: *<span id="example-output-2">false
+*Input:* 14
+*Output:* false
 ----
 
 

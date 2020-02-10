@@ -10,7 +10,7 @@ From each cell, you can either move to four directions: left, right, up or down.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *nums = 
+*Input:* nums = 
 [
   [<font color="red">9,9,4],
   [<font color="red">6,6,8],
@@ -30,7 +30,7 @@ From each cell, you can either move to four directions: left, right, up or down.
   [3,2,<font color="red">6],
   [2,2,1]
 ] 
-*Output: *4 
-*Explanation: *The longest increasing path is `[3, 4, 5, 6]`. Moving diagonally is not allowed.
+*Output:* 4 
+*Explanation:* The longest increasing path is `[3, 4, 5, 6]`. Moving diagonally is not allowed.
 ----
 

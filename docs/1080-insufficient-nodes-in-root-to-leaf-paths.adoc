@@ -16,11 +16,11 @@ Delete all insufficient nodes simultaneously, and return the root of the resulti
 ----
 image::https://assets.leetcode.com/uploads/2019/06/05/insufficient-11.png[]
 
-*Input:* root = <span id="example-input-1-1">[1,2,3,4,-99,-99,7,8,9,-99,-99,12,13,-99,14], limit = <span id="example-input-1-2">1
+*Input:* root = [1,2,3,4,-99,-99,7,8,9,-99,-99,12,13,-99,14], limit = 1
 
 image::https://assets.leetcode.com/uploads/2019/06/05/insufficient-2.png[]
 
-*Output:*<span id="example-output-1">[1,2,3,4,null,null,7,8,9,null,14]
+*Output:* [1,2,3,4,null,null,7,8,9,null,14]
 ----
 
 
@@ -30,9 +30,11 @@ image::https://assets.leetcode.com/uploads/2019/06/05/insufficient-2.png[]
 ----
 image::https://assets.leetcode.com/uploads/2019/06/05/insufficient-3.png[]
 
-*Input:* root = <span id="example-input-2-1">[5,4,8,11,null,17,4,7,1,null,null,5,3], limit = <span id="example-input-2-2">22
+*Input:* root = [5,4,8,11,null,17,4,7,1,null,null,5,3], limit = 22
+
 image::https://assets.leetcode.com/uploads/2019/06/05/insufficient-4.png[]
-Output:*<span id="example-output-2">[5,4,8,11,null,17,4,7,null,null,null,5]
+
+Output:* [5,4,8,11,null,17,4,7,null,null,null,5]
 ----
 
  

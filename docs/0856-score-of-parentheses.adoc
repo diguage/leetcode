@@ -17,8 +17,8 @@ Given a balanced parentheses string `S`, compute the score of the string based o
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">"()"
-*Output: *<span id="example-output-1">1
+*Input:* "()"
+*Output:* 1
 ----
 
 
@@ -26,8 +26,8 @@ Given a balanced parentheses string `S`, compute the score of the string based o
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">"(())"
-*Output: *<span id="example-output-2">2
+*Input:* "(())"
+*Output:* 2
 ----
 
 
@@ -35,8 +35,8 @@ Given a balanced parentheses string `S`, compute the score of the string based o
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">"()()"
-*Output: *<span id="example-output-3">2
+*Input:* "()()"
+*Output:* 2
 ----
 
 
@@ -44,8 +44,8 @@ Given a balanced parentheses string `S`, compute the score of the string based o
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-4-1">"(()(()))"
-*Output: *<span id="example-output-4">6
+*Input:* "(()(()))"
+*Output:* 6
 ----
 
  

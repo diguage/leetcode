@@ -8,7 +8,7 @@ There are _n_ bulbs that are initially off. You first turn on all the bulbs. The
 
 [subs="verbatim,quotes"]
 ----
-*Input: *3
+*Input:* 3
 *Output:* 1 
 *Explanation:* 
 At first, the three bulbs are *[off, off, off]*.

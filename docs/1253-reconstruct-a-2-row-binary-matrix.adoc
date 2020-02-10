@@ -26,7 +26,7 @@ If no valid solution exists, return an empty 2-D array.
 ----
 *Input:* upper = 2, lower = 1, colsum = [1,1,1]
 *Output:* [[1,1,0],[0,0,1]]
-*Explanation: *[[1,0,1],[0,1,0]], and [[0,1,1],[1,0,0]] are also correct answers.
+*Explanation:* [[1,0,1],[0,1,0]], and [[0,1,1],[1,0,0]] are also correct answers.
 ----
 
 *Example 2:*

@@ -16,8 +16,8 @@ Return `true` if and only if we can do this in a way such that the resulting num
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">1
-*Output: *<span id="example-output-1">true
+*Input:* 1
+*Output:* true
 ----
 
 
@@ -25,8 +25,8 @@ Return `true` if and only if we can do this in a way such that the resulting num
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">10
-*Output: *<span id="example-output-2">false
+*Input:* 10
+*Output:* false
 ----
 
 
@@ -34,8 +34,8 @@ Return `true` if and only if we can do this in a way such that the resulting num
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">16
-*Output: *<span id="example-output-3">true
+*Input:* 16
+*Output:* true
 ----
 
 
@@ -43,8 +43,8 @@ Return `true` if and only if we can do this in a way such that the resulting num
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-4-1">24
-*Output: *<span id="example-output-4">false
+*Input:* 24
+*Output:* false
 ----
 
 
@@ -52,8 +52,8 @@ Return `true` if and only if we can do this in a way such that the resulting num
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-5-1">46
-*Output: *<span id="example-output-5">true
+*Input:* 46
+*Output:* true
 ----
 
  

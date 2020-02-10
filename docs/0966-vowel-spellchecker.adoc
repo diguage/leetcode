@@ -41,8 +41,8 @@ Given some `queries`, return a list of words `answer`, where `answer[i]` is the 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *wordlist = <span id="example-input-1-1">["KiTe","kite","hare","Hare"], queries = <span id="example-input-1-2">["kite","Kite","KiTe","Hare","HARE","Hear","hear","keti","keet","keto"]
-*Output: *<span id="example-output-1">["kite","KiTe","KiTe","Hare","hare","","","KiTe","","KiTe"]
+*Input:* wordlist = ["KiTe","kite","hare","Hare"], queries = ["kite","Kite","KiTe","Hare","HARE","Hear","hear","keti","keet","keto"]
+*Output:* ["kite","KiTe","KiTe","Hare","hare","","","KiTe","","KiTe"]
 ----
 
  

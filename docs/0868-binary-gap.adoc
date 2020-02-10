@@ -22,9 +22,9 @@ If there aren't two consecutive 1's, return <font face="monospace">0.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">22
-*Output: *2
-*Explanation: *
+*Input:* 22
+*Output:* 2
+*Explanation:*
 22 in binary is 0b10110.
 In the binary representation of 22, there are three ones, and two consecutive pairs of 1's.
 The first consecutive pair of 1's have distance 2.
@@ -37,9 +37,9 @@ The answer is the largest of these two distances, which is 2.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">5
-*Output: *<span id="example-output-2">2
-*Explanation: *
+*Input:* 5
+*Output:* 2
+*Explanation:*
 5 in binary is 0b101.
 ----
 
@@ -48,9 +48,9 @@ The answer is the largest of these two distances, which is 2.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">6
-*Output: *<span id="example-output-3">1
-*Explanation: *
+*Input:* 6
+*Output:* 1
+*Explanation:*
 6 in binary is 0b110.
 ----
 
@@ -59,9 +59,9 @@ The answer is the largest of these two distances, which is 2.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-4-1">8
-*Output: *<span id="example-output-4">0
-*Explanation: *
+*Input:* 8
+*Output:* 0
+*Explanation:*
 8 in binary is 0b1000.
 There aren't any consecutive pairs of 1's in the binary representation of 8, so we return 0.
 ----

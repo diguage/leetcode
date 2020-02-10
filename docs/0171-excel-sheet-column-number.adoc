@@ -32,7 +32,7 @@ For example:
 
 [subs="verbatim,quotes"]
 ----
-*Input: *"AB"
+*Input:* "AB"
 *Output:* 28
 ----
 
@@ -40,6 +40,6 @@ For example:
 
 [subs="verbatim,quotes"]
 ----
-*Input: *"ZY"
+*Input:* "ZY"
 *Output:* 701
 ----

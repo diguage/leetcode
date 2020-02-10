@@ -17,8 +17,8 @@ image::https://assets.leetcode.com/uploads/2019/01/18/tree1.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:*<span id="example-input-1-1">[3,0,0]
-*Output:*<span id="example-output-1">2
+*Input:* [3,0,0]
+*Output:* 2
 *Explanation:* From the root of the tree, we move one coin to its left child, and one coin to its right child.
 ----
 
@@ -29,9 +29,9 @@ image::https://assets.leetcode.com/uploads/2019/01/18/tree2.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:*<span id="example-input-2-1">[0,3,0]
-*Output:*<span id="example-output-2">3
-*Explanation:*From the left child of the root, we move two coins to the root [taking two moves].  Then, we move one coin from the root of the tree to the right child.
+*Input:* [0,3,0]
+*Output:* 3
+*Explanation:* From the left child of the root, we move two coins to the root [taking two moves].  Then, we move one coin from the root of the tree to the right child.
 ----
 
 
@@ -41,8 +41,8 @@ image::https://assets.leetcode.com/uploads/2019/01/18/tree3.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:*<span id="example-input-3-1">[1,0,2]
-*Output:*<span id="example-output-3">2
+*Input:* [1,0,2]
+*Output:* 2
 ----
 
 
@@ -52,8 +52,8 @@ image::https://assets.leetcode.com/uploads/2019/01/18/tree4.png[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:*<span id="example-input-4-1">[1,0,0,null,3]
-*Output:*<span id="example-output-4">4
+*Input:* [1,0,0,null,3]
+*Output:* 4
 ----
 
  

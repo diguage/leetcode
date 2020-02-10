@@ -17,7 +17,7 @@ It is guaranteed that the answer is unique.
 ----
 *Input:* s = "abcd", k = 2
 *Output:* "abcd"
-*Explanation: *There's nothing to delete.
+*Explanation:* There's nothing to delete.
 ----
 
 *Example 2:*

@@ -14,14 +14,14 @@ Each word must be constructed from letters of sequentially adjacent cell, where 
 ----
 *Input:* 
 *board *= [
-  ['<span style="color:#d70">o','<span style="color:#d70">a','a','n'],
-  ['e','<span style="color:#d30">t','<span style="color:#d00">a','<span style="color:#d00">e'],
-  ['i','<span style="color:#d70">h','k','r'],
+  ['**o**','**a**','a','n'],
+  ['e','**t**','**a**',' e'],
+  ['i','**h**','k','r'],
   ['i','f','l','v']
 ]
 *words* = `["oath","pea","eat","rain"]`
 
-*Output: *`["eat","oath"]`
+*Output:* `["eat","oath"]`
 ----
 
  

@@ -16,8 +16,8 @@ Rotation is not allowed.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[[5,4],[6,4],[6,7],[2,3]]
-*Output: *<span id="example-output-1">3 
+*Input:* [[5,4],[6,4],[6,7],[2,3]]
+*Output:* 3 
 *Explanation: T*he maximum number of envelopes you can Russian doll is `3` ([2,3] => [5,4] => [6,7]).
 ----
 

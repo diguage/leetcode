@@ -17,8 +17,8 @@ Return the lowest number of moves to acquire all keys.  If it's impossible, retu
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">["@.a.#","###.#","b.A.B"]
-*Output: *<span id="example-output-1">8
+*Input:* ["@.a.#","###.#","b.A.B"]
+*Output:* 8
 ----
 
 
@@ -26,8 +26,8 @@ Return the lowest number of moves to acquire all keys.  If it's impossible, retu
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">["@..aA","..B#.","....b"]
-*Output: *<span id="example-output-2">6
+*Input:* ["@..aA","..B#.","....b"]
+*Output:* 6
 ----
 
 

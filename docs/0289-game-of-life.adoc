@@ -19,15 +19,16 @@ Write a function to compute the next state (after one update) of the board given
 
 [subs="verbatim,quotes"]
 ----
-*Input: 
-*<span id="example-input-1-1">[
+*Input:*
+[
   [0,1,0],
   [0,0,1],
   [1,1,1],
   [0,0,0]
 ]
-*Output: 
-*<span id="example-output-1">[
+
+*Output:*
+[
   [0,0,0],
   [1,0,1],
   [0,1,1],

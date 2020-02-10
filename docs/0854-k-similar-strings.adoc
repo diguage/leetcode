@@ -10,8 +10,8 @@ Given two anagrams `A` and `B`, return the smallest `K` for which `A` and `B` ar
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-1-1">"ab", B = <span id="example-input-1-2">"ba"
-*Output: *<span id="example-output-1">1
+*Input:* A = "ab", B = "ba"
+*Output:* 1
 ----
 
 
@@ -19,8 +19,8 @@ Given two anagrams `A` and `B`, return the smallest `K` for which `A` and `B` ar
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-2-1">"abc", B = <span id="example-input-2-2">"bca"
-*Output: *<span id="example-output-2">2
+*Input:* A = "abc", B = "bca"
+*Output:* 2
 ----
 
 
@@ -28,8 +28,8 @@ Given two anagrams `A` and `B`, return the smallest `K` for which `A` and `B` ar
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-3-1">"abac", B = <span id="example-input-3-2">"baca"
-*Output: *<span id="example-output-3">2
+*Input:* A = "abac", B = "baca"
+*Output:* 2
 ----
 
 
@@ -37,8 +37,8 @@ Given two anagrams `A` and `B`, return the smallest `K` for which `A` and `B` ar
 
 [subs="verbatim,quotes"]
 ----
-*Input: *A = <span id="example-input-4-1">"aabc", B = <span id="example-input-4-2">"abca"
-*Output: *<span id="example-output-4">2
+*Input:* A = "aabc", B = "abca"
+*Output:* 2
 ----
 
 

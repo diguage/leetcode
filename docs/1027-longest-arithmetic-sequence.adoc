@@ -12,9 +12,9 @@ Recall that a _subsequence_ of `A` is a list `A[i_1], A[i_2], ..., A[i_k]` with 
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[3,6,9,12]
-*Output: *<span id="example-output-1">4
-*Explanation: *
+*Input:* [3,6,9,12]
+*Output:* 4
+*Explanation:*
 The whole array is an arithmetic sequence with steps of length = 3.
 ----
 
@@ -23,9 +23,9 @@ The whole array is an arithmetic sequence with steps of length = 3.
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[9,4,7,2,10]
-*Output: *<span id="example-output-2">3
-*Explanation: *
+*Input:* [9,4,7,2,10]
+*Output:* 3
+*Explanation:*
 The longest arithmetic subsequence is [4,7,10].
 ----
 
@@ -34,9 +34,9 @@ The longest arithmetic subsequence is [4,7,10].
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-3-1">[20,1,15,3,10,5,8]
-*Output: *<span id="example-output-3">4
-*Explanation: *
+*Input:* [20,1,15,3,10,5,8]
+*Output:* 4
+*Explanation:*
 The longest arithmetic subsequence is [20,15,10,5].
 ----
 

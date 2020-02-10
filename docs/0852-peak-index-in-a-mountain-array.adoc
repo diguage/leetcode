@@ -15,8 +15,8 @@ Given an array that is definitely a mountain, return any `i` such that `A[0] < A
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-1-1">[0,1,0]
-*Output: *<span id="example-output-1">1
+*Input:* [0,1,0]
+*Output:* 1
 ----
 
 
@@ -24,8 +24,8 @@ Given an array that is definitely a mountain, return any `i` such that `A[0] < A
 
 [subs="verbatim,quotes"]
 ----
-*Input: *<span id="example-input-2-1">[0,2,1,0]
-*Output: *<span id="example-output-2">1
+*Input:* [0,2,1,0]
+*Output:* 1
 ----
 
 

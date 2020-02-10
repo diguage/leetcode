@@ -14,8 +14,8 @@ image::https://assets.leetcode.com/uploads/2019/09/09/2whqcep.jpg[]
 
 [subs="verbatim,quotes"]
 ----
-*Input:*<span id="example-input-1-1">[8,3,10,1,6,null,14,null,null,4,7,13]
-*Output:*<span id="example-output-1">7
+*Input:* [8,3,10,1,6,null,14,null,null,4,7,13]
+*Output:* 7
 *Explanation:*
 We have various ancestor-node differences, some of which are given below :
 |8 - 3| = 5
