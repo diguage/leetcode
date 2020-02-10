@@ -88,3 +88,7 @@ image::images/0133-3-graph.png[]
 include::{sourcedir}/_0133_CloneGraph.java[]
 ----
 
+=== 参考资料
+
+. https://leetcode-cn.com/problems/clone-graph/solution/dfs-he-bfs-by-powcai/[DFS 和 BFS - 克隆图 - 力扣（LeetCode）]
+

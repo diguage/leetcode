@@ -29,6 +29,30 @@ public class _0133_CloneGraph {
     }
 
     /**
+     * Runtime: 28 ms, faster than 34.86% of Java online submissions for Clone Graph.
+     * Memory Usage: 38.8 MB, less than 5.88% of Java online submissions for Clone Graph.
+     */
+    public Node cloneGraphDfs(Node node) {
+        Map<Node, Node> dict = new HashMap<>();
+        return dfs(node, dict);
+    }
+
+    private Node dfs(Node node, Map<Node, Node> dict) {
+        if (Objects.isNull(node)) {
+            return null;
+        }
+        if (dict.containsKey(node)) {
+            return dict.get(node);
+        }
+        Node clone = new Node(node.val, new ArrayList<>(node.neighbors.size()));
+        dict.put(node, clone);
+        for (Node n : node.neighbors) {
+            clone.neighbors.add(dfs(n, dict));
+        }
+        return clone;
+    }
+
+    /**
      * Runtime: 26 ms, faster than 47.60% of Java online submissions for Clone Graph.
      * Memory Usage: 39.3 MB, less than 5.88% of Java online submissions for Clone Graph.
      */
@@ -36,46 +60,22 @@ public class _0133_CloneGraph {
         if (Objects.isNull(node)) {
             return null;
         }
-        Map<Node, Node> dolly = new HashMap<>();
+        Map<Node, Node> dict = new HashMap<>();
+        dict.put(node, new Node(node.val, new ArrayList<>(node.neighbors.size())));
         Deque<Node> deque = new LinkedList<>();
         deque.addLast(node);
         while (!deque.isEmpty()) {
             Node curr = deque.removeFirst();
-            if (!dolly.containsKey(curr)) {
-                dolly.put(curr, new Node(curr.val));
-                List<Node> neighbors = curr.neighbors;
-                if (Objects.nonNull(neighbors)) {
-                    for (Node n : neighbors) {
-                        if (!dolly.containsKey(n)) {
-                            deque.addLast(n);
-                        }
-                    }
+            for (Node n : curr.neighbors) {
+                if (!dict.containsKey(n)) {
+                    dict.put(n, new Node(n.val, new ArrayList<>(n.neighbors.size())));
+                    deque.addLast(n);
                 }
-            }
-        }
-        deque.addLast(node);
-        Set<Node> done = new HashSet<>();
-        while (!deque.isEmpty()) {
-            Node curr = deque.removeFirst();
-            if (!done.contains(curr)) {
-                done.add(curr);
-                List<Node> neighbors = curr.neighbors;
-                List<Node> cn;
-                Node copy = dolly.get(curr);
-                if (Objects.nonNull(neighbors)) {
-                    cn = new ArrayList<>(neighbors.size());
-                    for (Node n : neighbors) {
-                        if (!done.contains(n)) {
-                            deque.addLast(n);
-                        }
-                        cn.add(dolly.get(n));
-                    }
-                    copy.neighbors = cn;
-                }
+                dict.get(curr).neighbors.add(dict.get(n));
             }
         }
 
-        return dolly.get(node);
+        return dict.get(node);
     }
 
     public static void main(String[] args) {
