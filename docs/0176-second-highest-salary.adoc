@@ -29,7 +29,7 @@ For example, given the above Employee table, the query should return `200` as th
 
 
 [[src-0176]]
-[source,{java_source_attr}]
+[source,sql,linenums]
 ----
 include::{sourcedir}/_0176_SecondHighestSalary.sql[]
 ----

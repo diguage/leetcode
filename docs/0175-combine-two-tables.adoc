@@ -43,7 +43,7 @@ FirstName, LastName, City, State
 
 
 [[src-0175]]
-[source,{java_source_attr}]
+[source,sql,linenums]
 ----
 include::{sourcedir}/_0175_CombineTwoTables.sql[]
 ----

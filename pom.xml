@@ -21,6 +21,14 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <asciidoctorj.version>2.2.0</asciidoctorj.version>
+        <asciidoctorj-pdf.version>1.5.0</asciidoctorj-pdf.version>
+        <asciidoctorj-epub3.version>1.5.0-alpha.13</asciidoctorj-epub3.version>
+        <asciidoctorj-diagram.version>2.0.1</asciidoctorj-diagram.version>
+        <asciidoctor-maven-plugin.version>2.0.0-RC.1</asciidoctor-maven-plugin.version>
+        <jruby.version>9.2.9.0</jruby.version>
+
     </properties>
     <dependencies>
         <dependency>
@@ -55,6 +63,138 @@
                         --attribute "title-link=https://www.diguage.com/[${project.name} ${project.version}|地瓜哥]"
                     </additionalparam>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.asciidoctor</groupId>
+                <artifactId>asciidoctor-maven-plugin</artifactId>
+                <version>${asciidoctor-maven-plugin.version}</version>
+                <configuration>
+                    <sourceDirectory>docs</sourceDirectory>
+                    <requires>
+                        <require>asciidoctor-diagram</require>
+                    </requires>
+                    <attributes>
+                        <sourcedir>${project.build.sourceDirectory}/com/diguage/algorithm/leetcode</sourcedir>
+                        <basedir>${project.basedir}</basedir>
+                        <sourceHighlighter>rouge</sourceHighlighter>
+                        <rouge-linenums-mode>table</rouge-linenums-mode>
+                        <rouge-style>monokai</rouge-style>
+                        <imagesdir>.</imagesdir>
+                        <icons>font</icons>
+                        <linkcss>true</linkcss>
+                        <stylesdir>assets</stylesdir>
+                        <toclevels>3</toclevels>
+                        <sectnums>false</sectnums>
+                        <sectnumlevels>3</sectnumlevels>
+                        <sectanchors>true</sectanchors>
+                        <graphvizdot>/usr/local/bin/dot</graphvizdot>
+                    </attributes>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>generate-html</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>process-asciidoc</goal>
+                        </goals>
+                        <configuration>
+                            <backend>html5</backend>
+                            <doctype>book</doctype>
+                            <outputDirectory>${project.build.directory}/docs/html</outputDirectory>
+                            <attributes>
+                                <toc>left</toc>
+                            </attributes>
+                        </configuration>
+                    </execution>
+<!--                    <execution>-->
+<!--                        <id>generate-epub</id>-->
+<!--                        <phase>package</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>process-asciidoc</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            <backend>epub3</backend>-->
+<!--                            <sourceDocumentName>index.adoc</sourceDocumentName>-->
+<!--                            <outputDirectory>${project.build.directory}/docs/epub</outputDirectory>-->
+<!--                            <attributes>-->
+<!--                                <source-highlighter>coderay</source-highlighter>-->
+<!--                            </attributes>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
+<!--                    <execution>-->
+<!--                        <id>generate-kf8</id>-->
+<!--                        <phase>package</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>process-asciidoc</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            <backend>epub3</backend>-->
+<!--                            <sourceDocumentName>index.adoc</sourceDocumentName>-->
+<!--                            <outputDirectory>${project.build.directory}/docs/kf8</outputDirectory>-->
+<!--                            <attributes>-->
+<!--                                <ebook-format>kf8</ebook-format>-->
+<!--                            </attributes>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
+<!--                    <execution>-->
+<!--                        <id>generate-pdf</id>-->
+<!--                        <phase>package</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>process-asciidoc</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            <backend>pdf</backend>-->
+<!--                            <outputDirectory>${project.build.directory}/docs/pdf</outputDirectory>-->
+<!--                            <attributes>-->
+<!--                                <allow-uri-read/>-->
+<!--                                <plantumlconfig>${project.basedir}/cfg/plantuml.cfg</plantumlconfig>-->
+<!--                                <pdf-fontsdir>${project.basedir}/cfg/fonts</pdf-fontsdir>-->
+<!--                                <pdf-themesdir>${project.basedir}/cfg/theme</pdf-themesdir>-->
+<!--                                &lt;!&ndash; Set KaiGen Gothic Chinese theme &ndash;&gt;-->
+<!--                                <pdf-theme>KaiGenGothicCN</pdf-theme>-->
+<!--                                <pagenums/>-->
+<!--                                <toc/>-->
+<!--                                <idprefix/>-->
+<!--                                <idseparator>-</idseparator>-->
+<!--                                &lt;!&ndash; Fixes line wraps formatting inserting zero-width spaces (ZWSP) before CJ characters &ndash;&gt;-->
+<!--                                <scripts>cjk</scripts>-->
+<!--                                <pdf-version>1.7</pdf-version>-->
+<!--                                <rouge-style>github</rouge-style>-->
+<!--                                <media>screen</media>-->
+<!--                                <optimize>screen</optimize>-->
+<!--                                &lt;!&ndash;<media>prepress</media>&ndash;&gt;-->
+<!--                                &lt;!&ndash;<optimize>prepress</optimize>&ndash;&gt;-->
+<!--                            </attributes>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctorj</artifactId>
+                        <version>${asciidoctorj.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctorj-pdf</artifactId>
+                        <version>${asciidoctorj-pdf.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctorj-epub3</artifactId>
+                        <version>${asciidoctorj-epub3.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctorj-diagram</artifactId>
+                        <version>${asciidoctorj-diagram.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.jruby</groupId>
+                        <artifactId>jruby-complete</artifactId>
+                        <version>${jruby.version}</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
