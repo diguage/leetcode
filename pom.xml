@@ -82,7 +82,7 @@
                         <imagesdir>.</imagesdir>
                         <icons>font</icons>
                         <linkcss>true</linkcss>
-                        <stylesdir>assets</stylesdir>
+                        <stylesdir>assets/css</stylesdir>
                         <toclevels>3</toclevels>
                         <sectnums>false</sectnums>
                         <sectnumlevels>3</sectnumlevels>
