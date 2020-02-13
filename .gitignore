@@ -2,3 +2,8 @@ target/
 .classpath
 .project
 .settings/
+
+!/tools/publish-to-pages.sh
+!/assets/
+!/images/
+!/*.html
