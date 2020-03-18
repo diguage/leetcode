@@ -76,18 +76,22 @@
                     <attributes>
                         <sourcedir>${project.build.sourceDirectory}/com/diguage/algorithm/leetcode</sourcedir>
                         <basedir>${project.basedir}</basedir>
-                        <sourceHighlighter>rouge</sourceHighlighter>
+                        <doctype>book</doctype>
+                        <stem>latexmath</stem>
+                        <source-highlighter>rouge</source-highlighter>
                         <rouge-linenums-mode>table</rouge-linenums-mode>
                         <rouge-style>monokai</rouge-style>
                         <imagesdir>.</imagesdir>
                         <icons>font</icons>
                         <linkcss>true</linkcss>
                         <stylesdir>assets/css</stylesdir>
-                        <toclevels>3</toclevels>
+                        <toclevels>1</toclevels>
                         <sectnums>false</sectnums>
                         <sectnumlevels>3</sectnumlevels>
                         <sectanchors>true</sectanchors>
                         <graphvizdot>/usr/local/bin/dot</graphvizdot>
+                        <java_source_attr>java,linenums</java_source_attr>
+                        <toc-title>目录</toc-title>
                     </attributes>
                 </configuration>
                 <executions>

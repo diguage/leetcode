@@ -6,11 +6,17 @@ mvn clean package
 
 git switch gh-pages
 
-rm -rf images assets index.html
+rm -rf images assets index.html *.svg
 
 mv target/docs/html/* .
 
-git add *.html assets/ images/
+cd tools
+
+./fix-toc.py
+
+cd ..
+
+git add *.html assets/ images/ *.svg
 
 git commit -am "`date +"%Y-%m-%d %H:%M:%S"`"
 
