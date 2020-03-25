@@ -23,4 +23,11 @@ public class PrintUtils {
             System.out.println("--------------------");
         }
     }
+
+    public static void printMatrix(char[][] array) {
+        System.out.println("↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓");
+        Arrays.stream(Arrays.deepToString(array).substring(1).split("], "))
+                .forEach(System.out::println);
+        System.out.println("↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑");
+    }
 }
