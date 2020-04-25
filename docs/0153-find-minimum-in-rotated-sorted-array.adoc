@@ -34,3 +34,12 @@ You may assume no duplicate exists in the array.
 include::{sourcedir}/_0153_FindMinimumInRotatedSortedArray.java[]
 ----
 
+=== 解题分析
+
+最省事的方式当然是遍历，但是，中等难度的题目不可能一个遍历就解决了。
+
+针对有序数组，首先想到的就是二分查找。但是，这里的二分查找有需要做些特别处理。尤其注意的是，选出 `mid` 后，先去判断它或者它的邻居是否满足条件，满足就直接返回。然后再去调整范围。
+
+=== 参考资料
+
+. https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/xun-zhao-xuan-zhuan-pai-lie-shu-zu-zhong-de-zui-xi/[寻找旋转排列数组中的最小值 - 寻找旋转排序数组中的最小值 - 力扣（LeetCode）]

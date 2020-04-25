@@ -922,12 +922,12 @@
 |{doc_base_url}/0152-maximum-product-subarray.adoc[Note]
 |Medium
 
-//|153
-//|{leetcode_base_url}/find-minimum-in-rotated-sorted-array/[Find Minimum in Rotated Sorted Array]
-//|{source_base_url}/_0153_FindMinimumInRotatedSortedArray.java[Java]
-//|{doc_base_url}/0153-find-minimum-in-rotated-sorted-array.adoc[Note]
-//|Medium
-//
+|153
+|{leetcode_base_url}/find-minimum-in-rotated-sorted-array/[Find Minimum in Rotated Sorted Array]
+|{source_base_url}/_0153_FindMinimumInRotatedSortedArray.java[Java]
+|{doc_base_url}/0153-find-minimum-in-rotated-sorted-array.adoc[Note]
+|Medium
+
 //|154
 //|{leetcode_base_url}/find-minimum-in-rotated-sorted-array-ii/[Find Minimum in Rotated Sorted Array II]
 //|{source_base_url}/_0154_FindMinimumInRotatedSortedArrayII.java[Java]
