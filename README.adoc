@@ -3057,13 +3057,13 @@
 //|{source_base_url}/_0508_MostFrequentSubtreeSum.java[Java]
 //|{doc_base_url}/0508-most-frequent-subtree-sum.adoc[Note]
 //|Medium
-//
-//|509
-//|{leetcode_base_url}/fibonacci-number/[Fibonacci Number]
-//|{source_base_url}/_0509_FibonacciNumber.java[Java]
-//|{doc_base_url}/0509-fibonacci-number.adoc[Note]
-//|Easy
-//
+
+|509
+|{leetcode_base_url}/fibonacci-number/[Fibonacci Number]
+|{source_base_url}/_0509_FibonacciNumber.java[Java]
+|{doc_base_url}/0509-fibonacci-number.adoc[Note]
+|Easy
+
 //|510
 //|{leetcode_base_url}/inorder-successor-in-bst-ii/[Inorder Successor in BST II]
 //|{source_base_url}/_0510_InorderSuccessorInBSTII.java[Java]
