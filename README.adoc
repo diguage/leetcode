@@ -2061,12 +2061,12 @@
 //|{source_base_url}/_0342_PowerOfFour.java[Java]
 //|{doc_base_url}/0342-power-of-four.adoc[Note]
 //|Easy
-//
-//|343
-//|{leetcode_base_url}/integer-break/[Integer Break]
-//|{source_base_url}/_0343_IntegerBreak.java[Java]
-//|{doc_base_url}/0343-integer-break.adoc[Note]
-//|Medium
+
+|343
+|{leetcode_base_url}/integer-break/[Integer Break]
+|{source_base_url}/_0343_IntegerBreak.java[Java]
+|{doc_base_url}/0343-integer-break.adoc[Note]
+|Medium
 
 |344
 |{leetcode_base_url}/reverse-string/[Reverse String]
