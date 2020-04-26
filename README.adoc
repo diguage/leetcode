@@ -928,11 +928,11 @@
 |{doc_base_url}/0153-find-minimum-in-rotated-sorted-array.adoc[Note]
 |Medium
 
-//|154
-//|{leetcode_base_url}/find-minimum-in-rotated-sorted-array-ii/[Find Minimum in Rotated Sorted Array II]
-//|{source_base_url}/_0154_FindMinimumInRotatedSortedArrayII.java[Java]
-//|{doc_base_url}/0154-find-minimum-in-rotated-sorted-array-ii.adoc[Note]
-//|Hard
+|154
+|{leetcode_base_url}/find-minimum-in-rotated-sorted-array-ii/[Find Minimum in Rotated Sorted Array II]
+|{source_base_url}/_0154_FindMinimumInRotatedSortedArrayII.java[Java]
+|{doc_base_url}/0154-find-minimum-in-rotated-sorted-array-ii.adoc[Note]
+|Hard
 
 |155
 |{leetcode_base_url}/min-stack/[Min Stack]
