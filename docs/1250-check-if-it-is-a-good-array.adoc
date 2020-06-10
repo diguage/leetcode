@@ -1,4 +1,4 @@
-== 1250. Check If It Is a Good Array
+= 1250. Check If It Is a Good Array
 
 https://leetcode.com/problems/check-if-it-is-a-good-array/[LeetCode - Check If It Is a Good Array]
 
@@ -46,7 +46,7 @@ Return `True` if the array is *good *otherwise return `False`.
 
 
 [[src-1250]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1250_CheckIfItIsAGoodArray.java[]
 ----

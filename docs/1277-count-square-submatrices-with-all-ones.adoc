@@ -1,4 +1,4 @@
-== 1277. Count Square Submatrices with All Ones
+= 1277. Count Square Submatrices with All Ones
 
 https://leetcode.com/problems/count-square-submatrices-with-all-ones/[LeetCode - Count Square Submatrices with All Ones]
 
@@ -52,7 +52,7 @@ Total number of squares = 6 + 1 = *7*.
 
 
 [[src-1277]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1277_CountSquareSubmatricesWithAllOnes.java[]
 ----

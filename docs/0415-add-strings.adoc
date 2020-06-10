@@ -1,4 +1,4 @@
-== 415. Add Strings
+= 415. Add Strings
 
 https://leetcode.com/problems/add-strings/[LeetCode - Add Strings]
 
@@ -15,7 +15,7 @@ Given two non-negative integers `num1` and `num2` represented as string, return 
 
 
 [[src-0415]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0415_AddStrings.java[]
 ----

@@ -1,11 +1,11 @@
-== 1336. Number of Transactions per Visit
+= 1336. Number of Transactions per Visit
 
 https://leetcode.com/problems/number-of-transactions-per-visit/[LeetCode - Number of Transactions per Visit]
 
 
 
 [[src-1336]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1336_NumberOfTransactionsPerVisit.java[]
 ----

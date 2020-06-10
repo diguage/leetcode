@@ -1,4 +1,4 @@
-== 46. Permutations
+= 46. Permutations
 
 https://leetcode.com/problems/permutations/[LeetCode - Permutations]
 
@@ -48,7 +48,7 @@ def backtrack(路径, 选择列表):
 
 必须说明的是，不管怎么优化，都符合回溯框架，而且时间复杂度都不可能低于 O(N!)，因为穷举整棵决策树是无法避免的。**这也是回溯算法的一个特点，不像动态规划存在重叠子问题可以优化，回溯算法就是纯暴力穷举，复杂度一般都很高。**
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/[从全排列问题开始理解“回溯搜索”算法（深度优先遍历 + 状态重置 + 剪枝） - 全排列 - 力扣（LeetCode）]
 . https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-xiang-jie-by-labuladong-2/[回溯算法详解 - 全排列 - 力扣（LeetCode）]
@@ -74,7 +74,7 @@ Given a collection of *distinct* integers, return all possible permutations.
 
 
 [[src-0046]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0046_Permutations.java[]
 ----

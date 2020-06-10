@@ -1,4 +1,4 @@
-== 146. LRU Cache
+= 146. LRU Cache
 
 https://leetcode.com/problems/lru-cache/[LeetCode - LRU Cache]
 
@@ -42,7 +42,7 @@ cache.get(4);       // returns 4
 
 
 [[src-0146]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0146_LRUCache.java[]
 ----

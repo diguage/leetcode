@@ -1,4 +1,4 @@
-== 1140. Stone Game II
+= 1140. Stone Game II
 
 https://leetcode.com/problems/stone-game-ii/[LeetCode - Stone Game II]
 
@@ -32,7 +32,7 @@ Assuming Alex and Lee play optimally, return the maximum number of stones Alex c
 
 
 [[src-1140]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1140_StoneGameII.java[]
 ----

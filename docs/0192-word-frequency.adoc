@@ -1,4 +1,4 @@
-== 192. Word Frequency
+= 192. Word Frequency
 
 https://leetcode.com/problems/word-frequency/[LeetCode - Word Frequency]
 
@@ -42,7 +42,7 @@ day 1
 
 
 [[src-0192]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0192_WordFrequency.java[]
 ----

@@ -1,4 +1,4 @@
-== 626. Exchange Seats
+= 626. Exchange Seats
 
 https://leetcode.com/problems/exchange-seats/[LeetCode - Exchange Seats]
 
@@ -50,7 +50,7 @@ If the number of students is odd, there is no need to change the last one's seat
 
 
 [[src-0626]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0626_ExchangeSeats.java[]
 ----

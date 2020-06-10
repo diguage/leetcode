@@ -1,4 +1,4 @@
-== 901. Online Stock Span
+= 901. Online Stock Span
 
 https://leetcode.com/problems/online-stock-span/[LeetCode - Online Stock Span]
 
@@ -46,7 +46,7 @@ Note that (for example) S.next(75) returned 4, because the last 4 prices
 
 
 [[src-0901]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0901_OnlineStockSpan.java[]
 ----

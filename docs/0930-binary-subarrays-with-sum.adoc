@@ -1,4 +1,4 @@
-== 930. Binary Subarrays With Sum
+= 930. Binary Subarrays With Sum
 
 https://leetcode.com/problems/binary-subarrays-with-sum/[LeetCode - Binary Subarrays With Sum]
 
@@ -32,7 +32,7 @@ The 4 subarrays are bolded below:
 
 
 [[src-0930]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0930_BinarySubarraysWithSum.java[]
 ----

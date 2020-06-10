@@ -1,4 +1,4 @@
-== 262. Trips and Users
+= 262. Trips and Users
 
 https://leetcode.com/problems/trips-and-users/[LeetCode - Trips and Users]
 
@@ -63,7 +63,7 @@ Special thanks to <a href="https://leetcode.com/discuss/user/cak1erlizhou">@cak1
 
 
 [[src-0262]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0262_TripsAndUsers.java[]
 ----

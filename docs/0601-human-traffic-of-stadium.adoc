@@ -1,4 +1,4 @@
-== 601. Human Traffic of Stadium
+= 601. Human Traffic of Stadium
 
 https://leetcode.com/problems/human-traffic-of-stadium/[LeetCode - Human Traffic of Stadium]
 
@@ -45,7 +45,7 @@ Each day only have one row record, and the dates are increasing with id increasi
 
 
 [[src-0601]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0601_HumanTrafficOfStadium.java[]
 ----

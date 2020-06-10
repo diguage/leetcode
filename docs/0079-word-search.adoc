@@ -1,4 +1,4 @@
-== 79. Word Search
+= 79. Word Search
 
 https://leetcode.com/problems/word-search/[LeetCode - Word Search]
 
@@ -24,7 +24,7 @@ Given word = "*ABCB*", return *false*.
 
 
 [[src-0079]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0079_WordSearch.java[]
 ----

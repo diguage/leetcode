@@ -1,4 +1,4 @@
-== 532. K-diff Pairs in an Array
+= 532. K-diff Pairs in an Array
 
 https://leetcode.com/problems/k-diff-pairs-in-an-array/[LeetCode - K-diff Pairs in an Array]
 
@@ -50,7 +50,7 @@ Given an array of integers and an integer *k*, you need to find the number of *u
 
 
 [[src-0532]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0532_KDiffPairsInAnArray.java[]
 ----

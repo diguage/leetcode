@@ -1,4 +1,4 @@
-== 907. Sum of Subarray Minimums
+= 907. Sum of Subarray Minimums
 
 https://leetcode.com/problems/sum-of-subarray-minimums/[LeetCode - Sum of Subarray Minimums]
 
@@ -34,7 +34,7 @@ Minimums are 3, 1, 2, 4, 1, 1, 2, 1, 1, 1.  Sum is 17.
 
 
 [[src-0907]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0907_SumOfSubarrayMinimums.java[]
 ----

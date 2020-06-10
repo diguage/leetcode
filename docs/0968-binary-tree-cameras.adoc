@@ -1,4 +1,4 @@
-== 968. Binary Tree Cameras
+= 968. Binary Tree Cameras
 
 https://leetcode.com/problems/binary-tree-cameras/[LeetCode - Binary Tree Cameras]
 
@@ -48,7 +48,7 @@ image::https://assets.leetcode.com/uploads/2018/12/29/bst_cameras_02.png[]
 
 
 [[src-0968]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0968_BinaryTreeCameras.java[]
 ----

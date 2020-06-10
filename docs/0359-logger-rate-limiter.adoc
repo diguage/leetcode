@@ -1,11 +1,11 @@
-== 359. Logger Rate Limiter
+= 359. Logger Rate Limiter
 
 https://leetcode.com/problems/logger-rate-limiter/[LeetCode - Logger Rate Limiter]
 
 
 
 [[src-0359]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0359_LoggerRateLimiter.java[]
 ----

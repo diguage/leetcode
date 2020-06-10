@@ -1,4 +1,4 @@
-== 704. Binary Search
+= 704. Binary Search
 
 https://leetcode.com/problems/binary-search/[LeetCode - Binary Search]
 
@@ -39,7 +39,7 @@ Given a *sorted* (in ascending order) integer array `nums` of `n` elements and a
 
 
 [[src-0704]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0704_BinarySearch.java[]
 ----

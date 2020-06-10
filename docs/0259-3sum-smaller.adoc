@@ -1,11 +1,11 @@
-== 259. 3Sum Smaller
+= 259. 3Sum Smaller
 
 https://leetcode.com/problems/3sum-smaller/[LeetCode - 3Sum Smaller]
 
 
 
 [[src-0259]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0259_3SumSmaller.java[]
 ----

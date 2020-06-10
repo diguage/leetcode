@@ -1,4 +1,4 @@
-== 668. Kth Smallest Number in Multiplication Table
+= 668. Kth Smallest Number in Multiplication Table
 
 https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/[LeetCode - Kth Smallest Number in Multiplication Table]
 
@@ -54,7 +54,7 @@ The 6-th smallest number is 6 (1, 2, 2, 3, 4, 6).
 
 
 [[src-0668]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0668_KthSmallestNumberInMultiplicationTable.java[]
 ----

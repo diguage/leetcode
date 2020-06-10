@@ -1,4 +1,4 @@
-== 86. Partition List
+= 86. Partition List
 
 https://leetcode.com/problems/partition-list/[LeetCode - Partition List]
 
@@ -12,7 +12,7 @@ Input: head = 1->4->3->2->5->2, x = 3
 Output: 1->2->2->4->3->5
 ----
 
-=== 解题分析
+== 解题分析
 
 思路很简单，直接双指针维护大小两个队列就好。
 
@@ -41,7 +41,7 @@ You should preserve the original relative order of the nodes in each of the two 
 
 
 [[src-0086]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0086_PartitionList.java[]
 ----

@@ -1,11 +1,11 @@
-== 1231. Divide Chocolate
+= 1231. Divide Chocolate
 
 https://leetcode.com/problems/divide-chocolate/[LeetCode - Divide Chocolate]
 
 
 
 [[src-1231]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1231_DivideChocolate.java[]
 ----

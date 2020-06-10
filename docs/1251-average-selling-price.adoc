@@ -1,11 +1,11 @@
-== 1251. Average Selling Price
+= 1251. Average Selling Price
 
 https://leetcode.com/problems/average-selling-price/[LeetCode - Average Selling Price]
 
 
 
 [[src-1251]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1251_AverageSellingPrice.java[]
 ----

@@ -1,4 +1,4 @@
-== 1318. Minimum Flips to Make a OR b Equal to c
+= 1318. Minimum Flips to Make a OR b Equal to c
 
 https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/[LeetCode - Minimum Flips to Make a OR b Equal to c]
 
@@ -48,7 +48,7 @@ image::https://assets.leetcode.com/uploads/2020/01/06/sample_3_1676.png[]
 
 
 [[src-1318]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1318_MinimumFlipsToMakeAORBEqualToC.java[]
 ----

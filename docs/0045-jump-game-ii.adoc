@@ -1,4 +1,4 @@
-== 45. Jump Game II
+= 45. Jump Game II
 
 https://leetcode.com/problems/jump-game-ii/[LeetCode - Jump Game II]
 
@@ -24,7 +24,7 @@ You can assume that you can always reach the last index.
 
 
 [[src-0045]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0045_JumpGameII.java[]
 ----

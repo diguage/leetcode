@@ -1,4 +1,4 @@
-== 206. Reverse Linked List
+= 206. Reverse Linked List
 
 https://leetcode.com/problems/reverse-linked-list/[LeetCode - Reverse Linked List]
 
@@ -22,7 +22,7 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 
 
 [[src-0206]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0206_ReverseLinkedList.java[]
 ----

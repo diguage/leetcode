@@ -1,4 +1,4 @@
-== 633. Sum of Square Numbers
+= 633. Sum of Square Numbers
 
 https://leetcode.com/problems/sum-of-square-numbers/[LeetCode - Sum of Square Numbers]
 
@@ -28,7 +28,7 @@ Given a non-negative integer `c`, your task is to decide whether there're two in
 
 
 [[src-0633]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0633_SumOfSquareNumbers.java[]
 ----

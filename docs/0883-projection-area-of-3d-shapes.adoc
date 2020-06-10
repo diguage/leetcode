@@ -1,4 +1,4 @@
-== 883. Projection Area of 3D Shapes
+= 883. Projection Area of 3D Shapes
 
 https://leetcode.com/problems/projection-area-of-3d-shapes/[LeetCode - Projection Area of 3D Shapes]
 
@@ -130,7 +130,7 @@ image::https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/02/shadow.png[]
 
 
 [[src-0883]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0883_ProjectionAreaOf3DShapes.java[]
 ----

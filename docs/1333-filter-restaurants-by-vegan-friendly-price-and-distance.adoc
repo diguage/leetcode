@@ -1,4 +1,4 @@
-== 1333. Filter Restaurants by Vegan-Friendly, Price and Distance
+= 1333. Filter Restaurants by Vegan-Friendly, Price and Distance
 
 https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/[LeetCode - Filter Restaurants by Vegan-Friendly, Price and Distance]
 
@@ -56,7 +56,7 @@ After filter restaurants with veganFriendly = 1, maxPrice = 50 and maxDistance =
 
 
 [[src-1333]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1333_FilterRestaurantsByVeganFriendlyPriceAndDistance.java[]
 ----

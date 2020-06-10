@@ -1,4 +1,4 @@
-== 670. Maximum Swap
+= 670. Maximum Swap
 
 https://leetcode.com/problems/maximum-swap/[LeetCode - Maximum Swap]
 
@@ -37,7 +37,7 @@ Given a non-negative integer, you could swap two digits *at most* once to get th
 
 
 [[src-0670]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0670_MaximumSwap.java[]
 ----

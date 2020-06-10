@@ -1,4 +1,4 @@
-== 844. Backspace String Compare
+= 844. Backspace String Compare
 
 https://leetcode.com/problems/backspace-string-compare/[LeetCode - Backspace String Compare]
 
@@ -65,7 +65,7 @@ Given two strings `S` and `T`, return if they are equal when both are typed into
 
 
 [[src-0844]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0844_BackspaceStringCompare.java[]
 ----

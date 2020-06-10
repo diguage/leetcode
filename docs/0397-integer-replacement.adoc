@@ -1,4 +1,4 @@
-== 397. Integer Replacement
+= 397. Integer Replacement
 
 https://leetcode.com/problems/integer-replacement/[LeetCode - Integer Replacement]
 
@@ -51,7 +51,7 @@ or
 
 
 [[src-0397]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0397_IntegerReplacement.java[]
 ----

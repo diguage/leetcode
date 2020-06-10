@@ -1,4 +1,4 @@
-== 97. Interleaving String
+= 97. Interleaving String
 
 https://leetcode.com/problems/interleaving-string/[LeetCode - Interleaving String]
 
@@ -22,7 +22,7 @@ Given _s1_, _s2_, _s3_, find whether _s3_ is formed by the interleaving of _s1_ 
 
 
 [[src-0097]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0097_InterleavingString.java[]
 ----

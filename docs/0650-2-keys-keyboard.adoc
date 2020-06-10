@@ -1,4 +1,4 @@
-== 650. 2 Keys Keyboard
+= 650. 2 Keys Keyboard
 
 https://leetcode.com/problems/2-keys-keyboard/[LeetCode - 2 Keys Keyboard]
 
@@ -39,7 +39,7 @@ In step 3, we use *Paste* operation to get 'AAA'.
 
 
 [[src-0650]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0650_2KeysKeyboard.java[]
 ----

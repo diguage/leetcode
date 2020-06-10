@@ -1,4 +1,4 @@
-== 1008. Construct Binary Search Tree from Preorder Traversal
+= 1008. Construct Binary Search Tree from Preorder Traversal
 
 https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/[LeetCode - Construct Binary Search Tree from Preorder Traversal]
 
@@ -30,7 +30,7 @@ image::https://assets.leetcode.com/uploads/2019/03/06/1266.png[]
 
 
 [[src-1008]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1008_ConstructBinarySearchTreeFromPreorderTraversal.java[]
 ----

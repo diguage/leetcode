@@ -1,11 +1,11 @@
-== 694. Number of Distinct Islands
+= 694. Number of Distinct Islands
 
 https://leetcode.com/problems/number-of-distinct-islands/[LeetCode - Number of Distinct Islands]
 
 
 
 [[src-0694]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0694_NumberOfDistinctIslands.java[]
 ----

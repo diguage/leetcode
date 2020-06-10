@@ -1,4 +1,4 @@
-== 787. Cheapest Flights Within K Stops
+= 787. Cheapest Flights Within K Stops
 
 https://leetcode.com/problems/cheapest-flights-within-k-stops/[LeetCode - Cheapest Flights Within K Stops]
 
@@ -50,7 +50,7 @@ The cheapest price from city `0` to city `2` with at most 0 stop costs 500, as m
 
 
 [[src-0787]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0787_CheapestFlightsWithinKStops.java[]
 ----

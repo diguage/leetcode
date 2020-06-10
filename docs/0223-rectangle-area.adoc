@@ -1,4 +1,4 @@
-== 223. Rectangle Area
+= 223. Rectangle Area
 
 https://leetcode.com/problems/rectangle-area/[LeetCode - Rectangle Area]
 
@@ -23,7 +23,7 @@ Assume that the total area is never beyond the maximum possible value of *int*.
 
 
 [[src-0223]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0223_RectangleArea.java[]
 ----

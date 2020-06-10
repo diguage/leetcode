@@ -1,4 +1,4 @@
-== 1023. Camelcase Matching
+= 1023. Camelcase Matching
 
 https://leetcode.com/problems/camelcase-matching/[LeetCode - Camelcase Matching]
 
@@ -57,7 +57,7 @@ Given a list of `queries`, and a `pattern`, return an `answer` list of booleans,
 
 
 [[src-1023]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1023_CamelcaseMatching.java[]
 ----

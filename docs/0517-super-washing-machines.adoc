@@ -1,4 +1,4 @@
-== 517. Super Washing Machines
+= 517. Super Washing Machines
 
 https://leetcode.com/problems/super-washing-machines/[LeetCode - Super Washing Machines]
 
@@ -56,7 +56,7 @@ It's impossible to make all the three washing machines have the same number of d
 
 
 [[src-0517]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0517_SuperWashingMachines.java[]
 ----

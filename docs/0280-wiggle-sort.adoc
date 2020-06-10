@@ -1,11 +1,11 @@
-== 280. Wiggle Sort
+= 280. Wiggle Sort
 
 https://leetcode.com/problems/wiggle-sort/[LeetCode - Wiggle Sort]
 
 
 
 [[src-0280]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0280_WiggleSort.java[]
 ----

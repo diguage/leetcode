@@ -1,4 +1,4 @@
-== 696. Count Binary Substrings
+= 696. Count Binary Substrings
 
 https://leetcode.com/problems/count-binary-substrings/[LeetCode - Count Binary Substrings]
 
@@ -37,7 +37,7 @@ Also, "00110011" is not a valid substring because *all* the 0's (and 1's) are no
 
 
 [[src-0696]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0696_CountBinarySubstrings.java[]
 ----

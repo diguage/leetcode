@@ -1,4 +1,4 @@
-== 57. Insert Interval
+= 57. Insert Interval
 
 https://leetcode.com/problems/insert-interval/[LeetCode - Insert Interval]
 
@@ -28,7 +28,7 @@ You may assume that the intervals were initially sorted according to their start
 
 
 [[src-0057]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0057_InsertInterval.java[]
 ----

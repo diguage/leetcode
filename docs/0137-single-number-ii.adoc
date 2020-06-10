@@ -1,4 +1,4 @@
-== 137. Single Number II
+= 137. Single Number II
 
 https://leetcode.com/problems/single-number-ii/[LeetCode - Single Number II]
 
@@ -28,7 +28,7 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 
 
 [[src-0137]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0137_SingleNumberII.java[]
 ----

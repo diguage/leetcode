@@ -1,4 +1,4 @@
-== 984. String Without AAA or BBB
+= 984. String Without AAA or BBB
 
 https://leetcode.com/problems/string-without-aaa-or-bbb/[LeetCode - String Without AAA or BBB]
 
@@ -44,7 +44,7 @@ Given two integers `A` and `B`, return *any* string `S` such that:
 
 
 [[src-0984]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0984_StringWithoutAAAOrBBB.java[]
 ----

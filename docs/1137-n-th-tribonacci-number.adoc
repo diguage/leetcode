@@ -1,4 +1,4 @@
-== 1137. N-th Tribonacci Number
+= 1137. N-th Tribonacci Number
 
 https://leetcode.com/problems/n-th-tribonacci-number/[LeetCode - N-th Tribonacci Number]
 
@@ -38,7 +38,7 @@ T_4 = 1 + 1 + 2 = 4
 
 
 [[src-1137]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1137_NThTribonacciNumber.java[]
 ----

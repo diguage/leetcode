@@ -1,4 +1,4 @@
-== 378. Kth Smallest Element in a Sorted Matrix
+= 378. Kth Smallest Element in a Sorted Matrix
 
 https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/[LeetCode - Kth Smallest Element in a Sorted Matrix]
 
@@ -29,7 +29,7 @@ You may assume k is always valid, 1 ≤ k ≤ n^2^.
 
 
 [[src-0378]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0378_KthSmallestElementInASortedMatrix.java[]
 ----

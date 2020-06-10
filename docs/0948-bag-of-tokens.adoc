@@ -1,4 +1,4 @@
-== 948. Bag of Tokens
+= 948. Bag of Tokens
 
 https://leetcode.com/problems/bag-of-tokens/[LeetCode - Bag of Tokens]
 
@@ -61,7 +61,7 @@ Return the largest number of points we can have after playing any number of toke
 
 
 [[src-0948]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0948_BagOfTokens.java[]
 ----

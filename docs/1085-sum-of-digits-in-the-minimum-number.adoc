@@ -1,11 +1,11 @@
-== 1085. Sum of Digits in the Minimum Number
+= 1085. Sum of Digits in the Minimum Number
 
 https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/[LeetCode - Sum of Digits in the Minimum Number]
 
 
 
 [[src-1085]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1085_SumOfDigitsInTheMinimumNumber.java[]
 ----

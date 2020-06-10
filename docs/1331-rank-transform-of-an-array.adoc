@@ -1,4 +1,4 @@
-== 1331. Rank Transform of an Array
+= 1331. Rank Transform of an Array
 
 https://leetcode.com/problems/rank-transform-of-an-array/[LeetCode - Rank Transform of an Array]
 
@@ -51,7 +51,7 @@ The rank represents how large the element is. The rank has the following rules:
 
 
 [[src-1331]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1331_RankTransformOfAnArray.java[]
 ----

@@ -1,4 +1,4 @@
-== 669. Trim a Binary Search Tree
+= 669. Trim a Binary Search Tree
 
 https://leetcode.com/problems/trim-a-binary-search-tree/[LeetCode - Trim a Binary Search Tree]
 
@@ -54,7 +54,7 @@ Given a binary search tree and the lowest and highest boundaries as `L` and `R`,
 
 
 [[src-0669]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0669_TrimABinarySearchTree.java[]
 ----

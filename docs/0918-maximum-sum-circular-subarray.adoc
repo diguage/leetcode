@@ -1,4 +1,4 @@
-== 918. Maximum Sum Circular Subarray
+= 918. Maximum Sum Circular Subarray
 
 https://leetcode.com/problems/maximum-sum-circular-subarray/[LeetCode - Maximum Sum Circular Subarray]
 
@@ -75,7 +75,7 @@ Also, a subarray may only include each element of the fixed buffer `A` at most o
 
 
 [[src-0918]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0918_MaximumSumCircularSubarray.java[]
 ----

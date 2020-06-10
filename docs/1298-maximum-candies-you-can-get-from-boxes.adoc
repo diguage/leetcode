@@ -1,4 +1,4 @@
-== 1298. Maximum Candies You Can Get from Boxes
+= 1298. Maximum Candies You Can Get from Boxes
 
 https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/[LeetCode - Maximum Candies You Can Get from Boxes]
 
@@ -81,7 +81,7 @@ Total number of candies collected = 7 + 4 + 5 = 16 candy.
 
 
 [[src-1298]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1298_MaximumCandiesYouCanGetFromBoxes.java[]
 ----

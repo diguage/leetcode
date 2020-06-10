@@ -1,4 +1,4 @@
-== 193. Valid Phone Numbers
+= 193. Valid Phone Numbers
 
 https://leetcode.com/problems/valid-phone-numbers/[LeetCode - Valid Phone Numbers]
 
@@ -30,7 +30,7 @@ Your script should output the following valid phone numbers:
 
 
 [[src-0193]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0193_ValidPhoneNumbers.java[]
 ----

@@ -1,4 +1,4 @@
-== 706. Design HashMap
+= 706. Design HashMap
 
 https://leetcode.com/problems/design-hashmap/[LeetCode - Design HashMap]
 
@@ -44,7 +44,7 @@ hashMap.get(2);            // returns -1 (not found)
 
 
 [[src-0706]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0706_DesignHashMap.java[]
 ----

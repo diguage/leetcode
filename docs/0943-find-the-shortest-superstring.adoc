@@ -1,4 +1,4 @@
-== 943. Find the Shortest Superstring
+= 943. Find the Shortest Superstring
 
 https://leetcode.com/problems/find-the-shortest-superstring/[LeetCode - Find the Shortest Superstring]
 
@@ -44,7 +44,7 @@ We may assume that no string in `A` is substring of another string in `A`.
 
 
 [[src-0943]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0943_FindTheShortestSuperstring.java[]
 ----

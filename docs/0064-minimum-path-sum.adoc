@@ -1,4 +1,4 @@
-== 64. Minimum Path Sum
+= 64. Minimum Path Sum
 
 https://leetcode.com/problems/minimum-path-sum/[LeetCode - Minimum Path Sum]
 
@@ -45,7 +45,7 @@ Given a _m_ x _n_ grid filled with non-negative numbers, find a path from top le
 
 
 [[src-0064]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0064_MinimumPathSum.java[]
 ----

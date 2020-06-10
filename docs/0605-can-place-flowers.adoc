@@ -1,4 +1,4 @@
-== 605. Can Place Flowers
+= 605. Can Place Flowers
 
 https://leetcode.com/problems/can-place-flowers/[LeetCode - Can Place Flowers]
 
@@ -36,7 +36,7 @@ Given a flowerbed (represented as an array containing 0 and 1, where 0 means emp
 
 
 [[src-0605]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0605_CanPlaceFlowers.java[]
 ----

@@ -1,4 +1,4 @@
-== 282. Expression Add Operators
+= 282. Expression Add Operators
 
 https://leetcode.com/problems/expression-add-operators/[LeetCode - Expression Add Operators]
 
@@ -50,7 +50,7 @@ Given a string that contains only digits `0-9` and a target value, return all po
 
 
 [[src-0282]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0282_ExpressionAddOperators.java[]
 ----

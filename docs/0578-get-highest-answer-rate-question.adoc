@@ -1,11 +1,11 @@
-== 578. Get Highest Answer Rate Question
+= 578. Get Highest Answer Rate Question
 
 https://leetcode.com/problems/get-highest-answer-rate-question/[LeetCode - Get Highest Answer Rate Question]
 
 
 
 [[src-0578]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0578_GetHighestAnswerRateQuestion.java[]
 ----

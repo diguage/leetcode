@@ -1,4 +1,4 @@
-== 1091. Shortest Path in Binary Matrix
+= 1091. Shortest Path in Binary Matrix
 
 https://leetcode.com/problems/shortest-path-in-binary-matrix/[LeetCode - Shortest Path in Binary Matrix]
 
@@ -57,7 +57,7 @@ image::https://assets.leetcode.com/uploads/2019/08/04/example2_2.png[]
 
 
 [[src-1091]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1091_ShortestPathInBinaryMatrix.java[]
 ----

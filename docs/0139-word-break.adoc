@@ -1,4 +1,4 @@
-== 139. Word Break
+= 139. Word Break
 
 https://leetcode.com/problems/word-break/[LeetCode - Word Break]
 
@@ -43,7 +43,7 @@ Given a *non-empty* string _s_ and a dictionary _wordDict_ containing a list of 
 
 
 [[src-0139]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0139_WordBreak.java[]
 ----

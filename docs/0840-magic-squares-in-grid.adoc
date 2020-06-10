@@ -1,4 +1,4 @@
-== 840. Magic Squares In Grid
+= 840. Magic Squares In Grid
 
 https://leetcode.com/problems/magic-squares-in-grid/[LeetCode - Magic Squares In Grid]
 
@@ -41,7 +41,7 @@ In total, there is only one magic square inside the given grid.
 
 
 [[src-0840]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0840_MagicSquaresInGrid.java[]
 ----

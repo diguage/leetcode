@@ -1,4 +1,4 @@
-== 1172. Dinner Plate Stacks
+= 1172. Dinner Plate Stacks
 
 https://leetcode.com/problems/dinner-plate-stacks/[LeetCode - Dinner Plate Stacks]
 
@@ -71,7 +71,7 @@ D.pop()            // Returns -1.  There are still no stacks.
 
 
 [[src-1172]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1172_DinnerPlateStacks.java[]
 ----

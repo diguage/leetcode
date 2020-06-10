@@ -1,4 +1,4 @@
-== 1090. Largest Values From Labels
+= 1090. Largest Values From Labels
 
 https://leetcode.com/problems/largest-values-from-labels/[LeetCode - Largest Values From Labels]
 
@@ -71,7 +71,7 @@ Return the largest possible sum of the subset `S`.
 
 
 [[src-1090]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1090_LargestValuesFromLabels.java[]
 ----

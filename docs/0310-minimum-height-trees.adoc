@@ -1,4 +1,4 @@
-== 310. Minimum Height Trees
+= 310. Minimum Height Trees
 
 https://leetcode.com/problems/minimum-height-trees/[LeetCode - Minimum Height Trees]
 
@@ -53,7 +53,7 @@ You can assume that no duplicate edges will appear in `edges`. Since all edges a
 
 
 [[src-0310]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0310_MinimumHeightTrees.java[]
 ----

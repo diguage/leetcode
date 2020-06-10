@@ -1,4 +1,4 @@
-== 16. 3Sum Closest
+= 16. 3Sum Closest
 
 https://leetcode.com/problems/3sum-closest/[LeetCode - 3Sum Closest]
 
@@ -15,7 +15,7 @@ The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
 
 [[src-0016]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0016_3SumClosest.java[]
 ----

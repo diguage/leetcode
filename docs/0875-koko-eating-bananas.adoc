@@ -1,4 +1,4 @@
-== 875. Koko Eating Bananas
+= 875. Koko Eating Bananas
 
 https://leetcode.com/problems/koko-eating-bananas/[LeetCode - Koko Eating Bananas]
 
@@ -58,7 +58,7 @@ Return the minimum integer `K` such that she can eat all the bananas within `H` 
 
 
 [[src-0875]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0875_KokoEatingBananas.java[]
 ----

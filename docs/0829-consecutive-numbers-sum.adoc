@@ -1,4 +1,4 @@
-== 829. Consecutive Numbers Sum
+= 829. Consecutive Numbers Sum
 
 https://leetcode.com/problems/consecutive-numbers-sum/[LeetCode - Consecutive Numbers Sum]
 
@@ -36,7 +36,7 @@ Given a positive integer `N`, how many ways can we write it as a sum of consecut
 
 
 [[src-0829]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0829_ConsecutiveNumbersSum.java[]
 ----

@@ -1,4 +1,4 @@
-== 1261. Find Elements in a Contaminated Binary Tree
+= 1261. Find Elements in a Contaminated Binary Tree
 
 https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/[LeetCode - Find Elements in a Contaminated Binary Tree]
 
@@ -89,7 +89,7 @@ findElements.find(5); // return True
 
 
 [[src-1261]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1261_FindElementsInAContaminatedBinaryTree.java[]
 ----

@@ -1,4 +1,4 @@
-== 329. Longest Increasing Path in a Matrix
+= 329. Longest Increasing Path in a Matrix
 
 https://leetcode.com/problems/longest-increasing-path-in-a-matrix/[LeetCode - Longest Increasing Path in a Matrix]
 
@@ -37,7 +37,7 @@ From each cell, you can either move to four directions: left, right, up or down.
 
 
 [[src-0329]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0329_LongestIncreasingPathInAMatrix.java[]
 ----

@@ -1,4 +1,4 @@
-== 653. Two Sum IV - Input is a BST
+= 653. Two Sum IV - Input is a BST
 
 https://leetcode.com/problems/two-sum-iv-input-is-a-bst/[LeetCode - Two Sum IV - Input is a BST]
 
@@ -43,7 +43,7 @@ Target = 28
 
 
 [[src-0653]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0653_TwoSumIVInputIsABST.java[]
 ----

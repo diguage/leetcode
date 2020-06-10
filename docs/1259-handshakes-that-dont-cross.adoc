@@ -1,11 +1,11 @@
-== 1259. Handshakes That Don't Cross
+= 1259. Handshakes That Don't Cross
 
 https://leetcode.com/problems/handshakes-that-dont-cross/[LeetCode - Handshakes That Don't Cross]
 
 
 
 [[src-1259]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1259_HandshakesThatDonTCross.java[]
 ----

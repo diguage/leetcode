@@ -1,11 +1,11 @@
-== 362. Design Hit Counter
+= 362. Design Hit Counter
 
 https://leetcode.com/problems/design-hit-counter/[LeetCode - Design Hit Counter]
 
 
 
 [[src-0362]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0362_DesignHitCounter.java[]
 ----

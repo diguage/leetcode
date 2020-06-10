@@ -1,11 +1,11 @@
-== 1215. Stepping Numbers
+= 1215. Stepping Numbers
 
 https://leetcode.com/problems/stepping-numbers/[LeetCode - Stepping Numbers]
 
 
 
 [[src-1215]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1215_SteppingNumbers.java[]
 ----

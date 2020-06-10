@@ -1,11 +1,11 @@
-== 291. Word Pattern II
+= 291. Word Pattern II
 
 https://leetcode.com/problems/word-pattern-ii/[LeetCode - Word Pattern II]
 
 
 
 [[src-0291]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0291_WordPatternII.java[]
 ----

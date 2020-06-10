@@ -1,4 +1,4 @@
-== 410. Split Array Largest Sum
+= 410. Split Array Largest Sum
 
 https://leetcode.com/problems/split-array-largest-sum/[LeetCode - Split Array Largest Sum]
 
@@ -34,7 +34,7 @@ where the largest sum among the two subarrays is only 18.
 
 
 [[src-0410]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0410_SplitArrayLargestSum.java[]
 ----

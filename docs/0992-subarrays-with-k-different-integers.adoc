@@ -1,4 +1,4 @@
-== 992. Subarrays with K Different Integers
+= 992. Subarrays with K Different Integers
 
 https://leetcode.com/problems/subarrays-with-k-different-integers/[LeetCode - Subarrays with K Different Integers]
 
@@ -28,15 +28,15 @@ Explanation: Subarrays formed with exactly 3 different integers: [1,2,1,3], [2,1
 * `1 <= A[i] <= A.length`
 * `1 <= K <= A.length`
 
-=== 解题分析
+== 解题分析
 
 解题中心思路是滑动窗口。
 
-=== 思考题
+== 思考题
 
 这个解题方案怎么理解？
 
-=== 参考资料
+== 参考资料
 
 . https://mp.weixin.qq.com/s/6YeZUCYj5ft-OGa85sQegw[面试官，你再问我滑动窗口问题试试？我有解题模板，不怕！]
 . https://leetcode-cn.com/problems/subarrays-with-k-different-integers/solution/k-ge-bu-tong-zheng-shu-de-zi-shu-zu-by-leetcode/[K 个不同整数的子数组 - K 个不同整数的子数组 - 力扣（LeetCode）]
@@ -80,7 +80,7 @@ Return the number of good subarrays of `A`.
 
 
 [[src-0992]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0992_SubarraysWithKDifferentIntegers.java[]
 ----

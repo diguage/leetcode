@@ -1,4 +1,4 @@
-== 951. Flip Equivalent Binary Trees
+= 951. Flip Equivalent Binary Trees
 
 https://leetcode.com/problems/flip-equivalent-binary-trees/[LeetCode - Flip Equivalent Binary Trees]
 
@@ -37,7 +37,7 @@ image::https://assets.leetcode.com/uploads/2018/11/29/tree_ex.png[]
 
 
 [[src-0951]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0951_FlipEquivalentBinaryTrees.java[]
 ----

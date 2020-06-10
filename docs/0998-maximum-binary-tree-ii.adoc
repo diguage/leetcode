@@ -1,4 +1,4 @@
-== 998. Maximum Binary Tree II
+= 998. Maximum Binary Tree II
 
 https://leetcode.com/problems/maximum-binary-tree-ii/[LeetCode - Maximum Binary Tree II]
 
@@ -71,7 +71,7 @@ image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-3-1.pn
 
 
 [[src-0998]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0998_MaximumBinaryTreeII.java[]
 ----

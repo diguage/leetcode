@@ -1,4 +1,4 @@
-== 212. Word Search II
+= 212. Word Search II
 
 https://leetcode.com/problems/word-search-ii/[LeetCode - Word Search II]
 
@@ -36,7 +36,7 @@ Each word must be constructed from letters of sequentially adjacent cell, where 
 
 
 [[src-0212]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0212_WordSearchII.java[]
 ----

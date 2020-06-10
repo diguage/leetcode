@@ -1,4 +1,4 @@
-== 321. Create Maximum Number
+= 321. Create Maximum Number
 
 https://leetcode.com/problems/create-maximum-number/[LeetCode - Create Maximum Number]
 
@@ -44,7 +44,7 @@ k = `3`
 
 
 [[src-0321]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0321_CreateMaximumNumber.java[]
 ----

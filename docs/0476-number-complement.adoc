@@ -1,4 +1,4 @@
-== 476. Number Complement
+= 476. Number Complement
 
 https://leetcode.com/problems/number-complement/[LeetCode - Number Complement]
 
@@ -35,7 +35,7 @@ Given a positive integer, output its complement number. The complement strategy 
 
 
 [[src-0476]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0476_NumberComplement.java[]
 ----

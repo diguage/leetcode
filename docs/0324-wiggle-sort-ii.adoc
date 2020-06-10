@@ -1,4 +1,4 @@
-== 324. Wiggle Sort II
+= 324. Wiggle Sort II
 
 https://leetcode.com/problems/wiggle-sort-ii/[LeetCode - Wiggle Sort II]
 
@@ -7,7 +7,7 @@ https://leetcode.com/problems/wiggle-sort-ii/[LeetCode - Wiggle Sort II]
 . 排序再穿插，这个再思考一下？
 . 找中位数然后索引映射的解法再学习一下。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode.com/problems/wiggle-sort-ii/discuss/77677/O(n)%2BO(1)-after-median-Virtual-Indexing[O(n)+O(1) after median --- Virtual Indexing - LeetCode Discuss]
 . https://leetcode.com/problems/wiggle-sort-ii/discuss/77682/Step-by-step-explanation-of-index-mapping-in-Java[Step by step explanation of index mapping in Java - LeetCode Discuss]
@@ -45,7 +45,7 @@ Can you do it in O(n) time and/or in-place with O(1) extra space?
 
 
 [[src-0324]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0324_WiggleSortII.java[]
 ----

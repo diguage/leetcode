@@ -1,11 +1,11 @@
-== 339. Nested List Weight Sum
+= 339. Nested List Weight Sum
 
 https://leetcode.com/problems/nested-list-weight-sum/[LeetCode - Nested List Weight Sum]
 
 
 
 [[src-0339]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0339_NestedListWeightSum.java[]
 ----

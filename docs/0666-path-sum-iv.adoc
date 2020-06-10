@@ -1,11 +1,11 @@
-== 666. Path Sum IV
+= 666. Path Sum IV
 
 https://leetcode.com/problems/path-sum-iv/[LeetCode - Path Sum IV]
 
 
 
 [[src-0666]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0666_PathSumIV.java[]
 ----

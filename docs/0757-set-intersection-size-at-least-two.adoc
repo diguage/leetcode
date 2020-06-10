@@ -1,4 +1,4 @@
-== 757. Set Intersection Size At Least Two
+= 757. Set Intersection Size At Least Two
 
 https://leetcode.com/problems/set-intersection-size-at-least-two/[LeetCode - Set Intersection Size At Least Two]
 
@@ -42,7 +42,7 @@ An example of a minimum sized set is {1, 2, 3, 4, 5}.
 
 
 [[src-0757]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0757_SetIntersectionSizeAtLeastTwo.java[]
 ----

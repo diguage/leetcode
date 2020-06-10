@@ -1,4 +1,4 @@
-== 396. Rotate Function
+= 396. Rotate Function
 
 https://leetcode.com/problems/rotate-function/[LeetCode - Rotate Function]
 
@@ -38,7 +38,7 @@ So the maximum value of F(0), F(1), F(2), F(3) is F(3) = 26.
 
 
 [[src-0396]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0396_RotateFunction.java[]
 ----

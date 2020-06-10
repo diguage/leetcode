@@ -1,4 +1,4 @@
-== 24. Swap Nodes in Pairs
+= 24. Swap Nodes in Pairs
 
 https://leetcode.com/problems/swap-nodes-in-pairs/[LeetCode - Swap Nodes in Pairs]
 
@@ -11,11 +11,11 @@ You may *not* modify the values in the list's nodes, only nodes itself may be ch
 Given 1->2->3->4, you should return the list as 2->1->4->3.
 ----
 
-=== 思考题
+== 思考题
 
 尝试使用递归来实现一下。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/liang-liang-jiao-huan-lian-biao-zhong-de-jie-di-19/[两两交换链表中的节点 - 两两交换链表中的节点 - 力扣（LeetCode）]
 
@@ -34,7 +34,7 @@ Given `1->2->3->4`, you should return the list as `2->1->4->3`.
 
 
 [[src-0024]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0024_SwapNodesInPairs.java[]
 ----

@@ -1,4 +1,4 @@
-== 337. House Robber III
+= 337. House Robber III
 
 https://leetcode.com/problems/house-robber-iii/[LeetCode - House Robber III]
 
@@ -34,7 +34,7 @@ Output: 9
 Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
 ----
 
-=== 解题分析
+== 解题分析
 
 由于题目给出示例的误导，这里存在一个误区：在不选父节点时，子树选最优解不受任何干扰，也就是说子树的跟节点可选也可以不选。所以，可以将这个问题简化为，分选根节点和不选根节点，两种情况考虑：
 
@@ -43,11 +43,11 @@ Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
 
 然后在这上面两种情况中选出最优解。
 
-=== 思考题
+== 思考题
 
 尝试使用动态规划来解决这个问题。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/house-robber-iii/solution/java-2ms-by-horanol/[java 2ms - 打家劫舍 III - 力扣（LeetCode）]
 . https://leetcode-cn.com/problems/house-robber-iii/solution/san-chong-fang-fa-jie-jue-shu-xing-dong-tai-gui-hu/[三种方法解决树形动态规划问题-从入门级代码到高效树形动态规划代码实现 - 打家劫舍 III - 力扣（LeetCode）]
@@ -91,7 +91,7 @@ Determine the maximum amount of money the thief can rob tonight without alerting
 
 
 [[src-0337]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0337_HouseRobberIII.java[]
 ----

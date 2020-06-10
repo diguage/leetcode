@@ -1,4 +1,4 @@
-== 956. Tallest Billboard
+= 956. Tallest Billboard
 
 https://leetcode.com/problems/tallest-billboard/[LeetCode - Tallest Billboard]
 
@@ -54,7 +54,7 @@ Return the largest possible height of your billboard installation.  If you canno
 
 
 [[src-0956]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0956_TallestBillboard.java[]
 ----

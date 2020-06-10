@@ -1,4 +1,4 @@
-== 292. Nim Game
+= 292. Nim Game
 
 https://leetcode.com/problems/nim-game/[LeetCode - Nim Game]
 
@@ -19,7 +19,7 @@ Both of you are very clever and have optimal strategies for the game. Write a fu
 
 
 [[src-0292]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0292_NimGame.java[]
 ----

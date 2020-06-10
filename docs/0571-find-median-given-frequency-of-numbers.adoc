@@ -1,11 +1,11 @@
-== 571. Find Median Given Frequency of Numbers
+= 571. Find Median Given Frequency of Numbers
 
 https://leetcode.com/problems/find-median-given-frequency-of-numbers/[LeetCode - Find Median Given Frequency of Numbers]
 
 
 
 [[src-0571]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0571_FindMedianGivenFrequencyOfNumbers.java[]
 ----

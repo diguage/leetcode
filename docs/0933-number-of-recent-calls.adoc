@@ -1,4 +1,4 @@
-== 933. Number of Recent Calls
+= 933. Number of Recent Calls
 
 https://leetcode.com/problems/number-of-recent-calls/[LeetCode - Number of Recent Calls]
 
@@ -38,7 +38,7 @@ It is guaranteed that every call to `ping` uses a strictly larger value of `t` t
 
 
 [[src-0933]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0933_NumberOfRecentCalls.java[]
 ----

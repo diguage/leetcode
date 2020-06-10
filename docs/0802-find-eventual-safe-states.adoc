@@ -1,4 +1,4 @@
-== 802. Find Eventual Safe States
+= 802. Find Eventual Safe States
 
 https://leetcode.com/problems/find-eventual-safe-states/[LeetCode - Find Eventual Safe States]
 
@@ -32,7 +32,7 @@ image::https://s3-lc-upload.s3.amazonaws.com/uploads/2018/03/17/picture1.png[]
 
 
 [[src-0802]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0802_FindEventualSafeStates.java[]
 ----

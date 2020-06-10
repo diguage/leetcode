@@ -1,4 +1,4 @@
-== 835. Image Overlap
+= 835. Image Overlap
 
 https://leetcode.com/problems/image-overlap/[LeetCode - Image Overlap]
 
@@ -34,7 +34,7 @@ What is the largest possible overlap?
 
 
 [[src-0835]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0835_ImageOverlap.java[]
 ----

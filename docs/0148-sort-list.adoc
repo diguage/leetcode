@@ -1,4 +1,4 @@
-== 148. Sort List
+= 148. Sort List
 
 https://leetcode.com/problems/sort-list/[LeetCode - Sort List]
 
@@ -24,7 +24,7 @@ Sort a linked list in _O_(_n_ log _n_) time using constant space complexity.
 
 
 [[src-0148]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0148_SortList.java[]
 ----

@@ -1,4 +1,4 @@
-== 1300. Sum of Mutated Array Closest to Target
+= 1300. Sum of Mutated Array Closest to Target
 
 https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/[LeetCode - Sum of Mutated Array Closest to Target]
 
@@ -44,7 +44,7 @@ Notice that the answer is not neccesarilly a number from `arr`.
 
 
 [[src-1300]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1300_SumOfMutatedArrayClosestToTarget.java[]
 ----

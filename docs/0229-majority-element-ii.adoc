@@ -1,4 +1,4 @@
-== 229. Majority Element II
+= 229. Majority Element II
 
 https://leetcode.com/problems/majority-element-ii/[LeetCode - Majority Element II]
 
@@ -25,7 +25,7 @@ Given an integer array of size _n_, find all elements that appear more than `&lf
 
 
 [[src-0229]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0229_MajorityElementII.java[]
 ----

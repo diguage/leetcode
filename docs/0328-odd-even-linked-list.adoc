@@ -1,4 +1,4 @@
-== 328. Odd Even Linked List
+= 328. Odd Even Linked List
 
 https://leetcode.com/problems/odd-even-linked-list/[LeetCode - Odd Even Linked List]
 
@@ -34,7 +34,7 @@ You should try to do it in place. The program should run in O(1) space complexit
 
 
 [[src-0328]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0328_OddEvenLinkedList.java[]
 ----

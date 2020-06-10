@@ -1,4 +1,4 @@
-== 520. Detect Capital
+= 520. Detect Capital
 
 https://leetcode.com/problems/detect-capital/[LeetCode - Detect Capital]
 
@@ -40,7 +40,7 @@ Otherwise, we define that this word doesn't use capitals in a right way.
 
 
 [[src-0520]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0520_DetectCapital.java[]
 ----

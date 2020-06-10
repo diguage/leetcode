@@ -1,4 +1,4 @@
-== 749. Contain Virus
+= 749. Contain Virus
 
 https://leetcode.com/problems/contain-virus/[LeetCode - Contain Virus]
 
@@ -76,7 +76,7 @@ Notice that walls are only built on the shared boundary of two different cells.
 
 
 [[src-0749]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0749_ContainVirus.java[]
 ----

@@ -1,4 +1,4 @@
-== 1255. Maximum Score Words Formed by Letters
+= 1255. Maximum Score Words Formed by Letters
 
 https://leetcode.com/problems/maximum-score-words-formed-by-letters/[LeetCode - Maximum Score Words Formed by Letters]
 
@@ -59,7 +59,7 @@ Letter "e" can only be used once.
 
 
 [[src-1255]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1255_MaximumScoreWordsFormedByLetters.java[]
 ----

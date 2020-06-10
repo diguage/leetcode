@@ -1,11 +1,11 @@
-== 1127. User Purchase Platform
+= 1127. User Purchase Platform
 
 https://leetcode.com/problems/user-purchase-platform/[LeetCode - User Purchase Platform]
 
 
 
 [[src-1127]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1127_UserPurchasePlatform.java[]
 ----

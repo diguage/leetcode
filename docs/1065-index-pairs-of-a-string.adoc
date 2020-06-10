@@ -1,11 +1,11 @@
-== 1065. Index Pairs of a String
+= 1065. Index Pairs of a String
 
 https://leetcode.com/problems/index-pairs-of-a-string/[LeetCode - Index Pairs of a String]
 
 
 
 [[src-1065]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1065_IndexPairsOfAString.java[]
 ----

@@ -1,4 +1,4 @@
-== 823. Binary Trees With Factors
+= 823. Binary Trees With Factors
 
 https://leetcode.com/problems/binary-trees-with-factors/[LeetCode - Binary Trees With Factors]
 
@@ -40,7 +40,7 @@ How many binary trees can we make?  Return the answer *modulo 10 ** 9 + 7*.
 
 
 [[src-0823]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0823_BinaryTreesWithFactors.java[]
 ----

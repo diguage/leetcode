@@ -1,4 +1,4 @@
-== 412. Fizz Buzz
+= 412. Fizz Buzz
 
 https://leetcode.com/problems/fizz-buzz/[LeetCode - Fizz Buzz]
 
@@ -34,7 +34,7 @@ Return:
 
 
 [[src-0412]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0412_FizzBuzz.java[]
 ----

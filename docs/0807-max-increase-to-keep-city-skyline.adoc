@@ -1,4 +1,4 @@
-== 807. Max Increase to Keep City Skyline
+= 807. Max Increase to Keep City Skyline
 
 https://leetcode.com/problems/max-increase-to-keep-city-skyline/[LeetCode - Max Increase to Keep City Skyline]
 
@@ -43,7 +43,7 @@ gridNew = [ [8, 4, 8, 7],
 
 
 [[src-0807]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0807_MaxIncreaseToKeepCitySkyline.java[]
 ----

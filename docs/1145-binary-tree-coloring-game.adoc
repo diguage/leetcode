@@ -1,4 +1,4 @@
-== 1145. Binary Tree Coloring Game
+= 1145. Binary Tree Coloring Game
 
 https://leetcode.com/problems/binary-tree-coloring-game/[LeetCode - Binary Tree Coloring Game]
 
@@ -36,7 +36,7 @@ image::https://assets.leetcode.com/uploads/2019/08/01/1480-binary-tree-coloring-
 
 
 [[src-1145]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1145_BinaryTreeColoringGame.java[]
 ----

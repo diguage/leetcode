@@ -1,4 +1,4 @@
-== 868. Binary Gap
+= 868. Binary Gap
 
 https://leetcode.com/problems/binary-gap/[LeetCode - Binary Gap]
 
@@ -87,7 +87,7 @@ There aren't any consecutive pairs of 1's in the binary representation of 8, so 
 
 
 [[src-0868]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0868_BinaryGap.java[]
 ----

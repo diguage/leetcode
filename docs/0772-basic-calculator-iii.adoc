@@ -1,11 +1,11 @@
-== 772. Basic Calculator III
+= 772. Basic Calculator III
 
 https://leetcode.com/problems/basic-calculator-iii/[LeetCode - Basic Calculator III]
 
 
 
 [[src-0772]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0772_BasicCalculatorIII.java[]
 ----

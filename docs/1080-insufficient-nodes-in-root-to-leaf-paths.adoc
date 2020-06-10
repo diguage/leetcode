@@ -1,4 +1,4 @@
-== 1080. Insufficient Nodes in Root to Leaf Paths
+= 1080. Insufficient Nodes in Root to Leaf Paths
 
 https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/[LeetCode - Insufficient Nodes in Root to Leaf Paths]
 
@@ -70,7 +70,7 @@ image::https://assets.leetcode.com/uploads/2019/06/11/screen-shot-2019-06-11-at-
 
 
 [[src-1080]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1080_InsufficientNodesInRootToLeafPaths.java[]
 ----

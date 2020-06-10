@@ -1,4 +1,4 @@
-== 345. Reverse Vowels of a String
+= 345. Reverse Vowels of a String
 
 https://leetcode.com/problems/reverse-vowels-of-a-string/[LeetCode - Reverse Vowels of a String]
 
@@ -32,7 +32,7 @@ The vowels does not include the letter "y".
 
 
 [[src-0345]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0345_ReverseVowelsOfAString.java[]
 ----

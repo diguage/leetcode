@@ -1,4 +1,4 @@
-== 228. Summary Ranges
+= 228. Summary Ranges
 
 https://leetcode.com/problems/summary-ranges/[LeetCode - Summary Ranges]
 
@@ -25,7 +25,7 @@ Given a sorted integer array without duplicates, return the summary of its range
 
 
 [[src-0228]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0228_SummaryRanges.java[]
 ----

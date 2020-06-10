@@ -1,4 +1,4 @@
-== 1049. Last Stone Weight II
+= 1049. Last Stone Weight II
 
 https://leetcode.com/problems/last-stone-weight-ii/[LeetCode - Last Stone Weight II]
 
@@ -39,7 +39,7 @@ we can combine 1 and 1 to get 0 so the array converts to [1] then that's the opt
 
 
 [[src-1049]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1049_LastStoneWeightII.java[]
 ----

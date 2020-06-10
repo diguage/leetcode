@@ -1,11 +1,11 @@
-== 425. Word Squares
+= 425. Word Squares
 
 https://leetcode.com/problems/word-squares/[LeetCode - Word Squares]
 
 
 
 [[src-0425]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0425_WordSquares.java[]
 ----

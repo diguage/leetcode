@@ -1,4 +1,4 @@
-== 56. Merge Intervals
+= 56. Merge Intervals
 
 https://leetcode.com/problems/merge-intervals/[LeetCode - Merge Intervals]
 
@@ -27,7 +27,7 @@ Given a collection of intervals, merge all overlapping intervals.
 
 
 [[src-0056]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0056_MergeIntervals.java[]
 ----

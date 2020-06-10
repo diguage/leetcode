@@ -1,4 +1,4 @@
-== 822. Card Flipping Game
+= 822. Card Flipping Game
 
 https://leetcode.com/problems/card-flipping-game/[LeetCode - Card Flipping Game]
 
@@ -37,7 +37,7 @@ We choose the second card, which has number 2 on the back, and it isn't on the f
 
 
 [[src-0822]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0822_CardFlippingGame.java[]
 ----

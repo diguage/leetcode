@@ -1,11 +1,11 @@
-== 545. Boundary of Binary Tree
+= 545. Boundary of Binary Tree
 
 https://leetcode.com/problems/boundary-of-binary-tree/[LeetCode - Boundary of Binary Tree]
 
 
 
 [[src-0545]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0545_BoundaryOfBinaryTree.java[]
 ----

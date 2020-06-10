@@ -1,11 +1,11 @@
-== 1321. Restaurant Growth
+= 1321. Restaurant Growth
 
 https://leetcode.com/problems/restaurant-growth/[LeetCode - Restaurant Growth]
 
 
 
 [[src-1321]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1321_RestaurantGrowth.java[]
 ----

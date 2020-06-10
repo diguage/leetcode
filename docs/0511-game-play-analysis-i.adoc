@@ -1,11 +1,11 @@
-== 511. Game Play Analysis I
+= 511. Game Play Analysis I
 
 https://leetcode.com/problems/game-play-analysis-i/[LeetCode - Game Play Analysis I]
 
 
 
 [[src-0511]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0511_GamePlayAnalysisI.java[]
 ----

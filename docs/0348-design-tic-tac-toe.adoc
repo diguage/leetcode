@@ -1,11 +1,11 @@
-== 348. Design Tic-Tac-Toe
+= 348. Design Tic-Tac-Toe
 
 https://leetcode.com/problems/design-tic-tac-toe/[LeetCode - Design Tic-Tac-Toe]
 
 
 
 [[src-0348]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0348_DesignTicTacToe.java[]
 ----

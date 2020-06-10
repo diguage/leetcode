@@ -1,4 +1,4 @@
-== 680. Valid Palindrome II
+= 680. Valid Palindrome II
 
 https://leetcode.com/problems/valid-palindrome-ii/[LeetCode - Valid Palindrome II]
 
@@ -36,7 +36,7 @@ The maximum length of the string is 50000.
 
 
 [[src-0680]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0680_ValidPalindromeII.java[]
 ----

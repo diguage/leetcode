@@ -1,4 +1,4 @@
-== 850. Rectangle Area II
+= 850. Rectangle Area II
 
 https://leetcode.com/problems/rectangle-area-ii/[LeetCode - Rectangle Area II]
 
@@ -37,7 +37,7 @@ image::https://s3-lc-upload.s3.amazonaws.com/uploads/2018/06/06/rectangle_area_i
 
 
 [[src-0850]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0850_RectangleAreaII.java[]
 ----

@@ -1,4 +1,4 @@
-== 528. Random Pick with Weight
+= 528. Random Pick with Weight
 
 https://leetcode.com/problems/random-pick-with-weight/[LeetCode - Random Pick with Weight]
 
@@ -41,7 +41,7 @@ The input is two lists: the subroutines called and their arguments. `Solution`'s
 
 
 [[src-0528]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0528_RandomPickWithWeight.java[]
 ----

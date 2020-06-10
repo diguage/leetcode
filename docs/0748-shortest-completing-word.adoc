@@ -1,4 +1,4 @@
-== 748. Shortest Completing Word
+= 748. Shortest Completing Word
 
 https://leetcode.com/problems/shortest-completing-word/[LeetCode - Shortest Completing Word]
 
@@ -48,7 +48,7 @@ We return the one that occurred first.
 
 
 [[src-0748]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0748_ShortestCompletingWord.java[]
 ----

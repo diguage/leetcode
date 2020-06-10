@@ -1,4 +1,4 @@
-== 790. Domino and Tromino Tiling
+= 790. Domino and Tromino Tiling
 
 https://leetcode.com/problems/domino-and-tromino-tiling/[LeetCode - Domino and Tromino Tiling]
 
@@ -40,7 +40,7 @@ XYZ YYZ XZZ XYY XXY
 
 
 [[src-0790]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0790_DominoAndTrominoTiling.java[]
 ----

@@ -1,4 +1,4 @@
-== 974. Subarray Sums Divisible by K
+= 974. Subarray Sums Divisible by K
 
 https://leetcode.com/problems/subarray-sums-divisible-by-k/[LeetCode - Subarray Sums Divisible by K]
 
@@ -30,7 +30,7 @@ Given an array `A` of integers, return the number of (contiguous, non-empty) sub
 
 
 [[src-0974]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0974_SubarraySumsDivisibleByK.java[]
 ----

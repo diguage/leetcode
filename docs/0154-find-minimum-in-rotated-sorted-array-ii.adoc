@@ -1,4 +1,4 @@
-== 154. Find Minimum in Rotated Sorted Array II
+= 154. Find Minimum in Rotated Sorted Array II
 
 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/[LeetCode - Find Minimum in Rotated Sorted Array II]
 
@@ -32,7 +32,7 @@ The array may contain duplicates.
 * This is a follow up problem to <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/">Find Minimum in Rotated Sorted Array</a>.
 * Would allow duplicates affect the run-time complexity? How and why?
 
-=== 解题分析
+== 解题分析
 
 这个算法的主结构跟二分查找是一样的：
 
@@ -74,12 +74,12 @@ image::images/0154-case-3.png[]
 * 当比较结果相同时，这里我们将左移右边界指针，而在传统的二分查找中直接返回结果。
 
 [[src-0154]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0154_FindMinimumInRotatedSortedArrayII.java[]
 ----
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/solution/xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-zui-1-8/[寻找旋转排序数组中的最小值 II - 寻找旋转排序数组中的最小值 II - 力扣（LeetCode）]
 

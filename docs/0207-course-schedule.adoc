@@ -1,4 +1,4 @@
-== 207. Course Schedule
+= 207. Course Schedule
 
 https://leetcode.com/problems/course-schedule/[LeetCode - Course Schedule]
 
@@ -10,7 +10,7 @@ TODO: 研究一下图相关算法和拓扑排序。
 
 思考题：参考资料中提到，表示图可以使用"邻接矩阵"和"邻接表"。尝试使用邻接表来重新实现。
 
-=== 参考资料
+== 参考资料
 
 . http://songlee24.github.io/2015/05/07/topological-sorting/[拓扑排序（Topological Sorting） | 神奕的博客]
 . https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs[Representing graphs (article) | Algorithms | Khan Academy]
@@ -53,7 +53,7 @@ Given the total number of courses and a list of prerequisite *pairs*, is it poss
 
 
 [[src-0207]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0207_CourseSchedule.java[]
 ----

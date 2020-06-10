@@ -1,4 +1,4 @@
-== 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance
+= 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance
 
 https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/[LeetCode - Find the City With the Smallest Number of Neighbors at a Threshold Distance]
 
@@ -58,7 +58,7 @@ The city 0 has 1 neighboring city at a distanceThreshold = 2.
 
 
 [[src-1334]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1334_FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance.java[]
 ----

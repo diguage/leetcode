@@ -1,4 +1,4 @@
-== 118. Pascal's Triangle
+= 118. Pascal's Triangle
 
 https://leetcode.com/problems/pascals-triangle/[LeetCode - Pascal's Triangle]
 
@@ -27,7 +27,7 @@ image::https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimate
 
 
 [[src-0118]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0118_PascalSTriangle.java[]
 ----

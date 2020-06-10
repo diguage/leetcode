@@ -1,4 +1,4 @@
-== 1170. Compare Strings by Frequency of the Smallest Character
+= 1170. Compare Strings by Frequency of the Smallest Character
 
 https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/[LeetCode - Compare Strings by Frequency of the Smallest Character]
 
@@ -38,7 +38,7 @@ Now, given string arrays `queries` and `words`, return an integer array `answer`
 
 
 [[src-1170]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1170_CompareStringsByFrequencyOfTheSmallestCharacter.java[]
 ----

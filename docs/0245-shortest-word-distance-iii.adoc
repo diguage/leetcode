@@ -1,11 +1,11 @@
-== 245. Shortest Word Distance III
+= 245. Shortest Word Distance III
 
 https://leetcode.com/problems/shortest-word-distance-iii/[LeetCode - Shortest Word Distance III]
 
 
 
 [[src-0245]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0245_ShortestWordDistanceIII.java[]
 ----

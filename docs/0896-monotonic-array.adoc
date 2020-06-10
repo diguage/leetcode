@@ -1,4 +1,4 @@
-== 896. Monotonic Array
+= 896. Monotonic Array
 
 https://leetcode.com/problems/monotonic-array/[LeetCode - Monotonic Array]
 
@@ -75,7 +75,7 @@ Return `true` if and only if the given array `A` is monotonic.
 
 
 [[src-0896]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0896_MonotonicArray.java[]
 ----

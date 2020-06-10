@@ -1,11 +1,11 @@
-== 288. Unique Word Abbreviation
+= 288. Unique Word Abbreviation
 
 https://leetcode.com/problems/unique-word-abbreviation/[LeetCode - Unique Word Abbreviation]
 
 
 
 [[src-0288]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0288_UniqueWordAbbreviation.java[]
 ----

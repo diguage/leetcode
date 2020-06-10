@@ -1,4 +1,4 @@
-== 743. Network Delay Time
+= 743. Network Delay Time
 
 https://leetcode.com/problems/network-delay-time/[LeetCode - Network Delay Time]
 
@@ -34,7 +34,7 @@ image::https://assets.leetcode.com/uploads/2019/05/23/931_example_1.png[]
 
 
 [[src-0743]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0743_NetworkDelayTime.java[]
 ----

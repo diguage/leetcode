@@ -1,4 +1,4 @@
-== 1340. Jump Game V
+= 1340. Jump Game V
 
 https://leetcode.com/problems/jump-game-v/[LeetCode - Jump Game V]
 
@@ -74,7 +74,7 @@ Similarly You cannot jump from index 3 to index 2 or index 1.
 
 
 [[src-1340]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1340_JumpGameV.java[]
 ----

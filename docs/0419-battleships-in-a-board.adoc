@@ -1,4 +1,4 @@
-== 419. Battleships in a Board
+= 419. Battleships in a Board
 
 https://leetcode.com/problems/battleships-in-a-board/[LeetCode - Battleships in a Board]
 
@@ -38,7 +38,7 @@ Could you do it in *one-pass*, using only *O(1) extra memory* and *without modif
 
 
 [[src-0419]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0419_BattleshipsInABoard.java[]
 ----

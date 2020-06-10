@@ -1,4 +1,4 @@
-== 1192. Critical Connections in a Network
+= 1192. Critical Connections in a Network
 
 https://leetcode.com/problems/critical-connections-in-a-network/[LeetCode - Critical Connections in a Network]
 
@@ -33,7 +33,7 @@ image::https://assets.leetcode.com/uploads/2019/09/03/1537_ex1_2.png[]
 
 
 [[src-1192]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1192_CriticalConnectionsInANetwork.java[]
 ----

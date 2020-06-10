@@ -1,4 +1,4 @@
-== 1201. Ugly Number III
+= 1201. Ugly Number III
 
 https://leetcode.com/problems/ugly-number-iii/[LeetCode - Ugly Number III]
 
@@ -57,7 +57,7 @@ Ugly numbers are* positive integers* which are divisible by `a` *or* `b` *or* `c
 
 
 [[src-1201]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1201_UglyNumberIII.java[]
 ----

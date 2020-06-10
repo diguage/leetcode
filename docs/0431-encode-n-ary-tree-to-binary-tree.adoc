@@ -1,11 +1,11 @@
-== 431. Encode N-ary Tree to Binary Tree
+= 431. Encode N-ary Tree to Binary Tree
 
 https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/[LeetCode - Encode N-ary Tree to Binary Tree]
 
 
 
 [[src-0431]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0431_EncodeNAryTreeToBinaryTree.java[]
 ----

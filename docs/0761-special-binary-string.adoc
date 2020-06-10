@@ -1,4 +1,4 @@
-== 761. Special Binary String
+= 761. Special Binary String
 
 https://leetcode.com/problems/special-binary-string/[LeetCode - Special Binary String]
 
@@ -33,7 +33,7 @@ This is the lexicographically largest string possible after some number of swaps
 
 
 [[src-0761]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0761_SpecialBinaryString.java[]
 ----

@@ -1,4 +1,4 @@
-== 133. Clone Graph
+= 133. Clone Graph
 
 https://leetcode.com/problems/clone-graph/[LeetCode - Clone Graph]
 
@@ -78,17 +78,17 @@ image::images/0133-3-graph.png[]
 * There is no repeated edges and no self-loops in the graph.
 * The Graph is connected and all nodes can be visited starting from the given node.
 
-=== 解题分析
+== 解题分析
 
 这道题可以使用类似 xref:0138-copy-list-with-random-pointer.adoc[138. Copy List with Random Pointer] 的解法来求解。
 
 [[src-0133]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0133_CloneGraph.java[]
 ----
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/clone-graph/solution/dfs-he-bfs-by-powcai/[DFS 和 BFS - 克隆图 - 力扣（LeetCode）]
 

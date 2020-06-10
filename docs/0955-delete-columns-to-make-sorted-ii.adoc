@@ -1,4 +1,4 @@
-== 955. Delete Columns to Make Sorted II
+= 955. Delete Columns to Make Sorted II
 
 https://leetcode.com/problems/delete-columns-to-make-sorted-ii/[LeetCode - Delete Columns to Make Sorted II]
 
@@ -77,7 +77,7 @@ We have to delete every column.
 
 
 [[src-0955]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0955_DeleteColumnsToMakeSortedII.java[]
 ----

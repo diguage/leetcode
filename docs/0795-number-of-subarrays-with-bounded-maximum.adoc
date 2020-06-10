@@ -1,4 +1,4 @@
-== 795. Number of Subarrays with Bounded Maximum
+= 795. Number of Subarrays with Bounded Maximum
 
 https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/[LeetCode - Number of Subarrays with Bounded Maximum]
 
@@ -27,7 +27,7 @@ R = 3
 
 
 [[src-0795]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0795_NumberOfSubarraysWithBoundedMaximum.java[]
 ----

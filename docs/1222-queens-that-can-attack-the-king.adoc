@@ -1,4 +1,4 @@
-== 1222. Queens That Can Attack the King
+= 1222. Queens That Can Attack the King
 
 https://leetcode.com/problems/queens-that-can-attack-the-king/[LeetCode - Queens That Can Attack the King]
 
@@ -58,7 +58,7 @@ image::https://assets.leetcode.com/uploads/2019/10/01/untitled-diagram-2.jpg[]
 
 
 [[src-1222]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1222_QueensThatCanAttackTheKing.java[]
 ----

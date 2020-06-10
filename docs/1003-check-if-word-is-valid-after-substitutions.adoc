@@ -1,4 +1,4 @@
-== 1003. Check If Word Is Valid After Substitutions
+= 1003. Check If Word Is Valid After Substitutions
 
 https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/[LeetCode - Check If Word Is Valid After Substitutions]
 
@@ -75,7 +75,7 @@ Then we can insert "abc" before the last letter, resulting in "abcabcab" + "abc"
 
 
 [[src-1003]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1003_CheckIfWordIsValidAfterSubstitutions.java[]
 ----

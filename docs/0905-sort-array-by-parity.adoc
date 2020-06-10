@@ -1,4 +1,4 @@
-== 905. Sort Array By Parity
+= 905. Sort Array By Parity
 
 https://leetcode.com/problems/sort-array-by-parity/[LeetCode - Sort Array By Parity]
 
@@ -31,7 +31,7 @@ The outputs [4,2,3,1], [2,4,1,3], and [4,2,1,3] would also be accepted.
 
 
 [[src-0905]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0905_SortArrayByParity.java[]
 ----

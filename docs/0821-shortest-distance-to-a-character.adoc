@@ -1,4 +1,4 @@
-== 821. Shortest Distance to a Character
+= 821. Shortest Distance to a Character
 
 https://leetcode.com/problems/shortest-distance-to-a-character/[LeetCode - Shortest Distance to a Character]
 
@@ -25,7 +25,7 @@ Given a string `S` and a character `C`, return an array of integers representing
 
 
 [[src-0821]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0821_ShortestDistanceToACharacter.java[]
 ----

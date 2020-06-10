@@ -1,4 +1,4 @@
-== 1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix
+= 1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix
 
 https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/[LeetCode - Minimum Number of Flips to Convert Binary Matrix to Zero Matrix]
 
@@ -62,7 +62,7 @@ image::https://assets.leetcode.com/uploads/2019/11/28/matrix.png[]
 
 
 [[src-1284]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1284_MinimumNumberOfFlipsToConvertBinaryMatrixToZeroMatrix.java[]
 ----

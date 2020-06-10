@@ -1,4 +1,4 @@
-== 443. String Compression
+= 443. String Compression
 
 https://leetcode.com/problems/string-compression/[LeetCode - String Compression]
 
@@ -76,7 +76,7 @@ Notice each digit has it's own entry in the array.
 
 
 [[src-0443]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0443_StringCompression.java[]
 ----

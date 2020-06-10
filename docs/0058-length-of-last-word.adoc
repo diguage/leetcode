@@ -1,4 +1,4 @@
-== 58. Length of Last Word
+= 58. Length of Last Word
 
 https://leetcode.com/problems/length-of-last-word/[LeetCode - Length of Last Word]
 
@@ -32,7 +32,7 @@ If the last word does not exist, return 0.
 
 
 [[src-0058]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0058_LengthOfLastWord.java[]
 ----

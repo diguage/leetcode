@@ -1,4 +1,4 @@
-== 307. Range Sum Query - Mutable
+= 307. Range Sum Query - Mutable
 
 https://leetcode.com/problems/range-sum-query-mutable/[LeetCode - Range Sum Query - Mutable]
 
@@ -27,7 +27,7 @@ sumRange(0, 2) -> 8
 
 
 [[src-0307]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0307_RangeSumQueryMutable.java[]
 ----

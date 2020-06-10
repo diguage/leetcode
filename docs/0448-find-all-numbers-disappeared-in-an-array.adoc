@@ -1,4 +1,4 @@
-== 448. Find All Numbers Disappeared in an Array
+= 448. Find All Numbers Disappeared in an Array
 
 https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/[LeetCode - Find All Numbers Disappeared in an Array]
 
@@ -17,7 +17,7 @@ Output:
 [5,6]
 ----
 
-=== 解题分析
+== 解题分析
 
 原地修改的思路有点绕。再推敲推敲。
 
@@ -27,7 +27,7 @@ image::images/0448-2.jpeg[]
 
 image::images/0448-3.jpeg[]
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/solution/zhao-dao-suo-you-shu-zu-zhong-xiao-shi-de-shu-zi-2/[找到所有数组中消失的数字 - 找到所有数组中消失的数字 - 力扣（LeetCode）]
 
@@ -50,7 +50,7 @@ Could you do it without extra space and in O(_n_) runtime? You may assume the re
 
 
 [[src-0448]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0448_FindAllNumbersDisappearedInAnArray.java[]
 ----

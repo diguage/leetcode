@@ -1,4 +1,4 @@
-== 289. Game of Life
+= 289. Game of Life
 
 https://leetcode.com/problems/game-of-life/[LeetCode - Game of Life]
 
@@ -46,7 +46,7 @@ Write a function to compute the next state (after one update) of the board given
 
 
 [[src-0289]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0289_GameOfLife.java[]
 ----

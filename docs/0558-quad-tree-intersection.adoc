@@ -1,4 +1,4 @@
-== 558. Quad Tree Intersection
+= 558. Quad Tree Intersection
 
 https://leetcode.com/problems/quad-tree-intersection/[LeetCode - Quad Tree Intersection]
 
@@ -75,7 +75,7 @@ A:                 B:                 C (A or B):
 
 
 [[src-0558]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0558_QuadTreeIntersection.java[]
 ----

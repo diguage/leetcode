@@ -1,4 +1,4 @@
-== 98. Validate Binary Search Tree
+= 98. Validate Binary Search Tree
 
 https://leetcode.com/problems/validate-binary-search-tree/[LeetCode - Validate Binary Search Tree]
 
@@ -49,7 +49,7 @@ Assume a BST is defined as follows:
 
 
 [[src-0098]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0098_ValidateBinarySearchTree.java[]
 ----

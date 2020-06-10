@@ -1,4 +1,4 @@
-== 316. Remove Duplicate Letters
+= 316. Remove Duplicate Letters
 
 https://leetcode.com/problems/remove-duplicate-letters/[LeetCode - Remove Duplicate Letters]
 
@@ -23,7 +23,7 @@ Given a string which contains only lowercase letters, remove duplicate letters s
 
 
 [[src-0316]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0316_RemoveDuplicateLetters.java[]
 ----

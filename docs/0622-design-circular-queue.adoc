@@ -1,4 +1,4 @@
-== 622. Design Circular Queue
+= 622. Design Circular Queue
 
 https://leetcode.com/problems/design-circular-queue/[LeetCode - Design Circular Queue]
 
@@ -48,7 +48,7 @@ circularQueue.Rear();  // return 4
 
 
 [[src-0622]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0622_DesignCircularQueue.java[]
 ----

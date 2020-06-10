@@ -1,4 +1,4 @@
-== 519. Random Flip Matrix
+= 519. Random Flip Matrix
 
 https://leetcode.com/problems/random-flip-matrix/[LeetCode - Random Flip Matrix]
 
@@ -42,7 +42,7 @@ The input is two lists: the subroutines called and their arguments. `Solution`'s
 
 
 [[src-0519]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0519_RandomFlipMatrix.java[]
 ----

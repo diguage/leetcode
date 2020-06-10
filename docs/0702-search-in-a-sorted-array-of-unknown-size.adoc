@@ -1,11 +1,11 @@
-== 702. Search in a Sorted Array of Unknown Size
+= 702. Search in a Sorted Array of Unknown Size
 
 https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/[LeetCode - Search in a Sorted Array of Unknown Size]
 
 
 
 [[src-0702]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0702_SearchInASortedArrayOfUnknownSize.java[]
 ----

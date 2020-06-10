@@ -1,4 +1,4 @@
-== 732. My Calendar III
+= 732. My Calendar III
 
 https://leetcode.com/problems/my-calendar-iii/[LeetCode - My Calendar III]
 
@@ -43,7 +43,7 @@ eg. [10, 20), [10, 40), and [5, 15) are still triple booked.
 
 
 [[src-0732]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0732_MyCalendarIII.java[]
 ----

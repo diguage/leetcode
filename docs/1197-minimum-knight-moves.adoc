@@ -1,11 +1,11 @@
-== 1197. Minimum Knight Moves
+= 1197. Minimum Knight Moves
 
 https://leetcode.com/problems/minimum-knight-moves/[LeetCode - Minimum Knight Moves]
 
 
 
 [[src-1197]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1197_MinimumKnightMoves.java[]
 ----

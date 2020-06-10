@@ -1,4 +1,4 @@
-== 525. Contiguous Array
+= 525. Contiguous Array
 
 https://leetcode.com/problems/contiguous-array/[LeetCode - Contiguous Array]
 
@@ -33,7 +33,7 @@ The length of the given binary array will not exceed 50,000.
 
 
 [[src-0525]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0525_ContiguousArray.java[]
 ----

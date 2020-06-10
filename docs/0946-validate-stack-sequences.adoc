@@ -1,4 +1,4 @@
-== 946. Validate Stack Sequences
+= 946. Validate Stack Sequences
 
 https://leetcode.com/problems/validate-stack-sequences/[LeetCode - Validate Stack Sequences]
 
@@ -43,7 +43,7 @@ push(5), pop() -> 5, pop() -> 3, pop() -> 2, pop() -> 1
 
 
 [[src-0946]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0946_ValidateStackSequences.java[]
 ----

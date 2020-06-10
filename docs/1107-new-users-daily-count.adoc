@@ -1,11 +1,11 @@
-== 1107. New Users Daily Count
+= 1107. New Users Daily Count
 
 https://leetcode.com/problems/new-users-daily-count/[LeetCode - New Users Daily Count]
 
 
 
 [[src-1107]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1107_NewUsersDailyCount.java[]
 ----

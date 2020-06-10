@@ -1,4 +1,4 @@
-== 667. Beautiful Arrangement II
+= 667. Beautiful Arrangement II
 
 https://leetcode.com/problems/beautiful-arrangement-ii/[LeetCode - Beautiful Arrangement II]
 
@@ -40,7 +40,7 @@ If there are multiple answers, print any of them.
 
 
 [[src-0667]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0667_BeautifulArrangementII.java[]
 ----

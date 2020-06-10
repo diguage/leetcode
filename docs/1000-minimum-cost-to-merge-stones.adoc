@@ -1,4 +1,4 @@
-== 1000. Minimum Cost to Merge Stones
+= 1000. Minimum Cost to Merge Stones
 
 https://leetcode.com/problems/minimum-cost-to-merge-stones/[LeetCode - Minimum Cost to Merge Stones]
 
@@ -64,7 +64,7 @@ The total cost was 25, and this is the minimum possible.
 
 
 [[src-1000]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1000_MinimumCostToMergeStones.java[]
 ----

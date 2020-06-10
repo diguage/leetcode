@@ -1,11 +1,11 @@
-== 254. Factor Combinations
+= 254. Factor Combinations
 
 https://leetcode.com/problems/factor-combinations/[LeetCode - Factor Combinations]
 
 
 
 [[src-0254]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0254_FactorCombinations.java[]
 ----

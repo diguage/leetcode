@@ -1,4 +1,4 @@
-== 109. Convert Sorted List to Binary Search Tree
+= 109. Convert Sorted List to Binary Search Tree
 
 https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/[LeetCode - Convert Sorted List to Binary Search Tree]
 
@@ -20,19 +20,19 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
  -10  5
 ----
 
-=== 解题分析
+== 解题分析
 
 这道题跟 xref:0108-convert-sorted-array-to-binary-search-tree.adoc[108. Convert Sorted Array to Binary Search Tree] 类似。可以转化成数组（或链表）进行求解。这属于空间换时间的解法。
 
 另外一种解法，就是使用快满指针，找到中间节点，然后再构造二叉树。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/solution/you-xu-lian-biao-zhuan-huan-er-cha-sou-suo-shu-by-/[有序链表转换二叉搜索树 - 有序链表转换二叉搜索树 - 力扣（LeetCode）]
 
 
 [[src-0109]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0109_ConvertSortedListToBinarySearchTree.java[]
 ----

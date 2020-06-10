@@ -1,4 +1,4 @@
-== 1252. Cells with Odd Values in a Matrix
+= 1252. Cells with Odd Values in a Matrix
 
 https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/[LeetCode - Cells with Odd Values in a Matrix]
 
@@ -45,7 +45,7 @@ image::https://assets.leetcode.com/uploads/2019/10/30/e2.png[]
 
 
 [[src-1252]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1252_CellsWithOddValuesInAMatrix.java[]
 ----

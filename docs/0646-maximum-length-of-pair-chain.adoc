@@ -1,4 +1,4 @@
-== 646. Maximum Length of Pair Chain
+= 646. Maximum Length of Pair Chain
 
 https://leetcode.com/problems/maximum-length-of-pair-chain/[LeetCode - Maximum Length of Pair Chain]
 
@@ -34,7 +34,7 @@ Given a set of pairs, find the length longest chain which can be formed. You nee
 
 
 [[src-0646]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0646_MaximumLengthOfPairChain.java[]
 ----

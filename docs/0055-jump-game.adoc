@@ -1,4 +1,4 @@
-== 55. Jump Game
+= 55. Jump Game
 
 https://leetcode.com/problems/jump-game/[LeetCode - Jump Game]
 
@@ -29,7 +29,7 @@ Determine if you are able to reach the last index.
 
 
 [[src-0055]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0055_JumpGame.java[]
 ----

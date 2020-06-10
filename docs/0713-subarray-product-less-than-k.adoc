@@ -1,4 +1,4 @@
-== 713. Subarray Product Less Than K
+= 713. Subarray Product Less Than K
 
 https://leetcode.com/problems/subarray-product-less-than-k/[LeetCode - Subarray Product Less Than K]
 
@@ -25,7 +25,7 @@ Note that [10, 5, 2] is not included as the product of 100 is not strictly less 
 
 
 [[src-0713]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0713_SubarrayProductLessThanK.java[]
 ----

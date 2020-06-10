@@ -1,4 +1,4 @@
-== 589. N-ary Tree Preorder Traversal
+= 589. N-ary Tree Preorder Traversal
 
 https://leetcode.com/problems/n-ary-tree-preorder-traversal/[LeetCode - N-ary Tree Preorder Traversal]
 
@@ -44,7 +44,7 @@ image::https://assets.leetcode.com/uploads/2019/11/08/sample_4_964.png[]
 
 
 [[src-0589]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0589_NAryTreePreorderTraversal.java[]
 ----

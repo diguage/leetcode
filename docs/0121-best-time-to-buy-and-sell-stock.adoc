@@ -1,4 +1,4 @@
-== 121. Best Time to Buy and Sell Stock
+= 121. Best Time to Buy and Sell Stock
 
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/[LeetCode - Best Time to Buy and Sell Stock]
 
@@ -25,7 +25,7 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 针对 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）] 这个解题框架，进行小试牛刀。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
 . https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/dong-tai-gui-hua-shen-ru-fen-xi-by-wang-yan-19/[动态规划深入分析 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
@@ -58,7 +58,7 @@ Note that you cannot sell a stock before you buy one.
 
 
 [[src-0121]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0121_BestTimeToBuyAndSellStock.java[]
 ----

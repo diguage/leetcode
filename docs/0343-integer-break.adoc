@@ -1,4 +1,4 @@
-== 343. Integer Break
+= 343. Integer Break
 
 https://leetcode.com/problems/integer-break/[LeetCode - Integer Break]
 
@@ -27,17 +27,17 @@ Given a positive integer _n_, break it into the sum of *at least* two positive i
 *Note*: You may assume that _n_ is not less than 2 and not larger than 58.
 
 
-=== 解题分析
+== 解题分析
 
 image::images/0343-1.png[]
 
 [[src-0343]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0343_IntegerBreak.java[]
 ----
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/jian-sheng-zi-lcof/solution/mian-shi-ti-14-i-jian-sheng-zi-tan-xin-si-xiang-by/[面试题14- I. 剪绳子（数学推导 / 贪心思想，清晰图解） - 剪绳子 - 力扣（LeetCode）] -- 数学分析真牛逼！
 

@@ -1,4 +1,4 @@
-== 991. Broken Calculator
+= 991. Broken Calculator
 
 https://leetcode.com/problems/broken-calculator/[LeetCode - Broken Calculator]
 
@@ -62,7 +62,7 @@ Return the minimum number of operations needed to display the number `Y`.
 
 
 [[src-0991]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0991_BrokenCalculator.java[]
 ----

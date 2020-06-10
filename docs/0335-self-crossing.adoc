@@ -1,4 +1,4 @@
-== 335. Self Crossing
+= 335. Self Crossing
 
 https://leetcode.com/problems/self-crossing/[LeetCode - Self Crossing]
 
@@ -50,7 +50,7 @@ Write a one-pass algorithm with `O(1)` extra space to determine, if your path cr
 
 
 [[src-0335]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0335_SelfCrossing.java[]
 ----

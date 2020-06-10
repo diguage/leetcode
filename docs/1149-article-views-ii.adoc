@@ -1,11 +1,11 @@
-== 1149. Article Views II
+= 1149. Article Views II
 
 https://leetcode.com/problems/article-views-ii/[LeetCode - Article Views II]
 
 
 
 [[src-1149]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1149_ArticleViewsII.java[]
 ----

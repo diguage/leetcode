@@ -1,4 +1,4 @@
-== 1337. The K Weakest Rows in a Matrix
+= 1337. The K Weakest Rows in a Matrix
 
 https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/[LeetCode - The K Weakest Rows in a Matrix]
 
@@ -62,7 +62,7 @@ Rows ordered from the weakest to the strongest are [0,2,3,1]
 
 
 [[src-1337]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1337_TheKWeakestRowsInAMatrix.java[]
 ----

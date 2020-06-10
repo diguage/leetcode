@@ -1,11 +1,11 @@
-== 723. Candy Crush
+= 723. Candy Crush
 
 https://leetcode.com/problems/candy-crush/[LeetCode - Candy Crush]
 
 
 
 [[src-0723]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0723_CandyCrush.java[]
 ----

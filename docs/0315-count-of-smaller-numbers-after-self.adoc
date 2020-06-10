@@ -1,4 +1,4 @@
-== 315. Count of Smaller Numbers After Self
+= 315. Count of Smaller Numbers After Self
 
 https://leetcode.com/problems/count-of-smaller-numbers-after-self/[LeetCode - Count of Smaller Numbers After Self]
 
@@ -19,7 +19,7 @@ To the right of 1 there is *0* smaller element.
 
 
 [[src-0315]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0315_CountOfSmallerNumbersAfterSelf.java[]
 ----

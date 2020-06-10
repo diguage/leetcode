@@ -1,11 +1,11 @@
-== 582. Kill Process
+= 582. Kill Process
 
 https://leetcode.com/problems/kill-process/[LeetCode - Kill Process]
 
 
 
 [[src-0582]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0582_KillProcess.java[]
 ----

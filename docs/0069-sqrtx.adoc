@@ -1,4 +1,4 @@
-== 69. Sqrt(x)
+= 69. Sqrt(x)
 
 https://leetcode.com/problems/sqrtx/[LeetCode - Sqrt(x)]
 
@@ -30,7 +30,7 @@ Since the return type is an integer, the decimal digits are truncated and only t
 
 
 [[src-0069]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0069_SqrtX.java[]
 ----

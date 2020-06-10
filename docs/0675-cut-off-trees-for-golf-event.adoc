@@ -1,4 +1,4 @@
-== 675. Cut Off Trees for Golf Event
+= 675. Cut Off Trees for Golf Event
 
 https://leetcode.com/problems/cut-off-trees-for-golf-event/[LeetCode - Cut Off Trees for Golf Event]
 
@@ -69,7 +69,7 @@ You are guaranteed that no two `trees` have the same height and there is at leas
 
 
 [[src-0675]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0675_CutOffTreesForGolfEvent.java[]
 ----

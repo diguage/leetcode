@@ -1,11 +1,11 @@
-== 1193. Monthly Transactions I
+= 1193. Monthly Transactions I
 
 https://leetcode.com/problems/monthly-transactions-i/[LeetCode - Monthly Transactions I]
 
 
 
 [[src-1193]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1193_MonthlyTransactionsI.java[]
 ----

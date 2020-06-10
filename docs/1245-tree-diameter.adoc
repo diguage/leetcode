@@ -1,11 +1,11 @@
-== 1245. Tree Diameter
+= 1245. Tree Diameter
 
 https://leetcode.com/problems/tree-diameter/[LeetCode - Tree Diameter]
 
 
 
 [[src-1245]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1245_TreeDiameter.java[]
 ----

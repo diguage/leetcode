@@ -1,4 +1,4 @@
-== 124. Binary Tree Maximum Path Sum
+= 124. Binary Tree Maximum Path Sum
 
 https://leetcode.com/problems/binary-tree-maximum-path-sum/[LeetCode - Binary Tree Maximum Path Sum]
 
@@ -37,7 +37,7 @@ For this problem, a path is defined as any sequence of nodes from some starting 
 
 
 [[src-0124]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0124_BinaryTreeMaximumPathSum.java[]
 ----

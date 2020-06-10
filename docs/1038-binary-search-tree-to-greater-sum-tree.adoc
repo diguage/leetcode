@@ -1,4 +1,4 @@
-== 1038. Binary Search Tree to Greater Sum Tree
+= 1038. Binary Search Tree to Greater Sum Tree
 
 https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/[LeetCode - Binary Search Tree to Greater Sum Tree]
 
@@ -45,7 +45,7 @@ image::https://assets.leetcode.com/uploads/2019/05/02/tree.png[]
 
 
 [[src-1038]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1038_BinarySearchTreeToGreaterSumTree.java[]
 ----

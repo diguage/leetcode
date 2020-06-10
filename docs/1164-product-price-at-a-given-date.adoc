@@ -1,11 +1,11 @@
-== 1164. Product Price at a Given Date
+= 1164. Product Price at a Given Date
 
 https://leetcode.com/problems/product-price-at-a-given-date/[LeetCode - Product Price at a Given Date]
 
 
 
 [[src-1164]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1164_ProductPriceAtAGivenDate.java[]
 ----

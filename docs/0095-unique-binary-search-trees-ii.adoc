@@ -1,4 +1,4 @@
-== 95. Unique Binary Search Trees II
+= 95. Unique Binary Search Trees II
 
 https://leetcode.com/problems/unique-binary-search-trees-ii/[LeetCode - Unique Binary Search Trees II]
 
@@ -29,7 +29,7 @@ The above output corresponds to the 5 unique BST's shown below:
 
 
 [[src-0095]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0095_UniqueBinarySearchTreesII.java[]
 ----

@@ -1,4 +1,4 @@
-== 535. Encode and Decode TinyURL
+= 535. Encode and Decode TinyURL
 
 https://leetcode.com/problems/encode-and-decode-tinyurl/[LeetCode - Encode and Decode TinyURL]
 
@@ -13,7 +13,7 @@ Design the `encode` and `decode` methods for the TinyURL service. There is no re
 
 
 [[src-0535]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0535_EncodeAndDecodeTinyURL.java[]
 ----

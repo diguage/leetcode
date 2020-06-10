@@ -1,4 +1,4 @@
-== 895. Maximum Frequency Stack
+= 895. Maximum Frequency Stack
 
 https://leetcode.com/problems/maximum-frequency-stack/[LeetCode - Maximum Frequency Stack]
 
@@ -60,7 +60,7 @@ The stack becomes [5,7].
 
 
 [[src-0895]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0895_MaximumFrequencyStack.java[]
 ----

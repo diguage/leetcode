@@ -1,4 +1,4 @@
-== 1179. Reformat Department Table
+= 1179. Reformat Department Table
 
 https://leetcode.com/problems/reformat-department-table/[LeetCode - Reformat Department Table]
 
@@ -52,7 +52,7 @@ Note that the result table has 13 columns (1 for the department id + 12 for the 
 
 
 [[src-1179]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1179_ReformatDepartmentTable.java[]
 ----

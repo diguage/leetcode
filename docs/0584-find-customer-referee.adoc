@@ -1,11 +1,11 @@
-== 584. Find Customer Referee
+= 584. Find Customer Referee
 
 https://leetcode.com/problems/find-customer-referee/[LeetCode - Find Customer Referee]
 
 
 
 [[src-0584]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0584_FindCustomerReferee.java[]
 ----

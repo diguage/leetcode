@@ -1,4 +1,4 @@
-== 503. Next Greater Element II
+= 503. Next Greater Element II
 
 https://leetcode.com/problems/next-greater-element-ii/[LeetCode - Next Greater Element II]
 
@@ -23,7 +23,7 @@ The length of given array won't exceed 10000.
 
 
 [[src-0503]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0503_NextGreaterElementII.java[]
 ----

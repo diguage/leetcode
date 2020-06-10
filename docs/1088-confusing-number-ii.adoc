@@ -1,11 +1,11 @@
-== 1088. Confusing Number II
+= 1088. Confusing Number II
 
 https://leetcode.com/problems/confusing-number-ii/[LeetCode - Confusing Number II]
 
 
 
 [[src-1088]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1088_ConfusingNumberII.java[]
 ----

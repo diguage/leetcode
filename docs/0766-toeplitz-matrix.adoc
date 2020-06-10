@@ -1,4 +1,4 @@
-== 766. Toeplitz Matrix
+= 766. Toeplitz Matrix
 
 https://leetcode.com/problems/toeplitz-matrix/[LeetCode - Toeplitz Matrix]
 
@@ -64,7 +64,7 @@ The diagonal "[1, 2]" has different elements.
 
 
 [[src-0766]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0766_ToeplitzMatrix.java[]
 ----

@@ -1,4 +1,4 @@
-== 530. Minimum Absolute Difference in BST
+= 530. Minimum Absolute Difference in BST
 
 https://leetcode.com/problems/minimum-absolute-difference-in-bst/[LeetCode - Minimum Absolute Difference in BST]
 
@@ -29,7 +29,7 @@ The minimum absolute difference is 1, which is the difference between 2 and 1 (o
 
 
 [[src-0530]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0530_MinimumAbsoluteDifferenceInBST.java[]
 ----

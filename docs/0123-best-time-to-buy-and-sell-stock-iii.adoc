@@ -1,4 +1,4 @@
-== 123. Best Time to Buy and Sell Stock III
+= 123. Best Time to Buy and Sell Stock III
 
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/[LeetCode - Best Time to Buy and Sell Stock III]
 
@@ -38,7 +38,7 @@ image::images/0123-1.png[]
 
 思考题：将表格改成变量时，还需要再思考思考。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
 . https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/dong-tai-gui-hua-shen-ru-fen-xi-by-wang-yan-19/[动态规划深入分析 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
@@ -83,7 +83,7 @@ Design an algorithm to find the maximum profit. You may complete at most _two_ t
 
 
 [[src-0123]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0123_BestTimeToBuyAndSellStockIII.java[]
 ----

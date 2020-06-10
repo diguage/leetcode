@@ -1,11 +1,11 @@
-== 1135. Connecting Cities With Minimum Cost
+= 1135. Connecting Cities With Minimum Cost
 
 https://leetcode.com/problems/connecting-cities-with-minimum-cost/[LeetCode - Connecting Cities With Minimum Cost]
 
 
 
 [[src-1135]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1135_ConnectingCitiesWithMinimumCost.java[]
 ----

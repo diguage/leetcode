@@ -1,4 +1,4 @@
-== 1089. Duplicate Zeros
+= 1089. Duplicate Zeros
 
 https://leetcode.com/problems/duplicate-zeros/[LeetCode - Duplicate Zeros]
 
@@ -39,7 +39,7 @@ Do the above modifications to the input array *in place*, do not return anything
 
 
 [[src-1089]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1089_DuplicateZeros.java[]
 ----

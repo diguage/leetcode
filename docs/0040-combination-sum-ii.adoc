@@ -1,4 +1,4 @@
-== 40. Combination Sum II
+= 40. Combination Sum II
 
 https://leetcode.com/problems/combination-sum-ii/[LeetCode - Combination Sum II]
 
@@ -84,7 +84,7 @@ Each number in `candidates` may only be used *once* in the combination.
 
 
 [[src-0040]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0040_CombinationSumII.java[]
 ----

@@ -1,4 +1,4 @@
-== 28. Implement strStr()
+= 28. Implement strStr()
 
 https://leetcode.com/problems/implement-strstr/[LeetCode - Implement strStr()]
 
@@ -28,9 +28,12 @@ What should we return when `needle` is an empty string? This is a great question
 
 For the purpose of this problem, we will return 0 when `needle` is an empty string. This is consistent to C's http://www.cplusplus.com/reference/cstring/strstr/[strstr()] and Java's https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)[indexOf()].
 
+== 解题分析
+
+直接截取字符串然后判断相等，算不算作弊？😆
 
 [[src-0028]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0028_ImplementStrStr.java[]
 ----

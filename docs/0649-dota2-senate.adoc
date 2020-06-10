@@ -1,4 +1,4 @@
-== 649. Dota2 Senate
+= 649. Dota2 Senate
 
 https://leetcode.com/problems/dota2-senate/[LeetCode - Dota2 Senate]
 
@@ -64,7 +64,7 @@ And in the round 2, the third senator can just announce the victory since he is 
 
 
 [[src-0649]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0649_Dota2Senate.java[]
 ----

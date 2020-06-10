@@ -1,4 +1,4 @@
-== 150. Evaluate Reverse Polish Notation
+= 150. Evaluate Reverse Polish Notation
 
 https://leetcode.com/problems/evaluate-reverse-polish-notation/[LeetCode - Evaluate Reverse Polish Notation]
 
@@ -52,7 +52,7 @@ Valid operators are `+`, `-`, `*`, `/`. Each operand may be an integer or anothe
 
 
 [[src-0150]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0150_EvaluateReversePolishNotation.java[]
 ----

@@ -1,4 +1,4 @@
-== 587. Erect the Fence
+= 587. Erect the Fence
 
 https://leetcode.com/problems/erect-the-fence/[LeetCode - Erect the Fence]
 
@@ -45,7 +45,7 @@ Even you only have trees in a line, you need to use rope to enclose them.
 
 
 [[src-0587]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0587_ErectTheFence.java[]
 ----

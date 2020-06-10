@@ -1,4 +1,4 @@
-== 834. Sum of Distances in Tree
+= 834. Sum of Distances in Tree
 
 https://leetcode.com/problems/sum-of-distances-in-tree/[LeetCode - Sum of Distances in Tree]
 
@@ -30,7 +30,7 @@ Note:<font face="monospace"> `1 <= N <= 10000`
 
 
 [[src-0834]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0834_SumOfDistancesInTree.java[]
 ----

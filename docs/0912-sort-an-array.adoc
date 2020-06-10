@@ -1,4 +1,4 @@
-== 912. Sort an Array
+= 912. Sort an Array
 
 https://leetcode.com/problems/sort-an-array/[LeetCode - Sort an Array]
 
@@ -31,7 +31,7 @@ Given an array of integers `nums`, sort the array in ascending order.
 
 
 [[src-0912]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0912_SortAnArray.java[]
 ----

@@ -1,4 +1,4 @@
-== 1278. Palindrome Partitioning III
+= 1278. Palindrome Partitioning III
 
 https://leetcode.com/problems/palindrome-partitioning-iii/[LeetCode - Palindrome Partitioning III]
 
@@ -50,7 +50,7 @@ Return the minimal number of characters that you need to change to divide the st
 
 
 [[src-1278]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1278_PalindromePartitioningIII.java[]
 ----

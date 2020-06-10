@@ -1,4 +1,4 @@
-== 710. Random Pick with Blacklist
+= 710. Random Pick with Blacklist
 
 https://leetcode.com/problems/random-pick-with-blacklist/[LeetCode - Random Pick with Blacklist]
 
@@ -61,7 +61,7 @@ The input is two lists: the subroutines called and their arguments. `Solution`'s
 
 
 [[src-0710]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0710_RandomPickWithBlacklist.java[]
 ----

@@ -1,4 +1,4 @@
-== 785. Is Graph Bipartite?
+= 785. Is Graph Bipartite?
 
 https://leetcode.com/problems/is-graph-bipartite/[LeetCode - Is Graph Bipartite?]
 
@@ -50,7 +50,7 @@ We cannot find a way to divide the set of nodes into two independent subsets.
 
 
 [[src-0785]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0785_IsGraphBipartite.java[]
 ----

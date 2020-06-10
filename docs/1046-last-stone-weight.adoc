@@ -1,4 +1,4 @@
-== 1046. Last Stone Weight
+= 1046. Last Stone Weight
 
 https://leetcode.com/problems/last-stone-weight/[LeetCode - Last Stone Weight]
 
@@ -39,7 +39,7 @@ we combine 1 and 1 to get 0 so the array converts to [1] then that's the value o
 
 
 [[src-1046]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1046_LastStoneWeight.java[]
 ----

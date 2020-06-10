@@ -1,4 +1,4 @@
-== 486. Predict the Winner
+= 486. Predict the Winner
 
 https://leetcode.com/problems/predict-the-winner/[LeetCode - Predict the Winner]
 
@@ -40,7 +40,7 @@ Finally, player 1 has more score (234) than player 2 (12), so you need to return
 
 
 [[src-0486]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0486_PredictTheWinner.java[]
 ----

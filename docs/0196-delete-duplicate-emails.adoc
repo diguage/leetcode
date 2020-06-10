@@ -1,4 +1,4 @@
-== 196. Delete Duplicate Emails
+= 196. Delete Duplicate Emails
 
 https://leetcode.com/problems/delete-duplicate-emails/[LeetCode - Delete Duplicate Emails]
 
@@ -35,7 +35,7 @@ Your output is the whole `Person` table after executing your sql. Use `delete` s
 
 
 [[src-0196]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0196_DeleteDuplicateEmails.java[]
 ----

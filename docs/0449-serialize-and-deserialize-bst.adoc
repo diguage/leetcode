@@ -1,4 +1,4 @@
-== 449. Serialize and Deserialize BST
+= 449. Serialize and Deserialize BST
 
 https://leetcode.com/problems/serialize-and-deserialize-bst/[LeetCode - Serialize and Deserialize BST]
 
@@ -13,7 +13,7 @@ Design an algorithm to serialize and deserialize a *binary search tree*. There i
 
 
 [[src-0449]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0449_SerializeAndDeserializeBST.java[]
 ----

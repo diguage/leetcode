@@ -1,4 +1,4 @@
-== 260. Single Number III
+= 260. Single Number III
 
 https://leetcode.com/problems/single-number-iii/[LeetCode - Single Number III]
 
@@ -21,7 +21,7 @@ Given an array of numbers `nums`, in which exactly two elements appear only once
 
 
 [[src-0260]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0260_SingleNumberIII.java[]
 ----

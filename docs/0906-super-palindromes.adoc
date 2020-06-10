@@ -1,4 +1,4 @@
-== 906. Super Palindromes
+= 906. Super Palindromes
 
 https://leetcode.com/problems/super-palindromes/[LeetCode - Super Palindromes]
 
@@ -36,7 +36,7 @@ Note that 676 is not a superpalindrome: 26 * 26 = 676, but 26 is not a palindrom
 
 
 [[src-0906]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0906_SuperPalindromes.java[]
 ----

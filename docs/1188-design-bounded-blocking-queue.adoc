@@ -1,11 +1,11 @@
-== 1188. Design Bounded Blocking Queue
+= 1188. Design Bounded Blocking Queue
 
 https://leetcode.com/problems/design-bounded-blocking-queue/[LeetCode - Design Bounded Blocking Queue]
 
 
 
 [[src-1188]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1188_DesignBoundedBlockingQueue.java[]
 ----

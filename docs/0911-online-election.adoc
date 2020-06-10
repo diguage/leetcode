@@ -1,4 +1,4 @@
-== 911. Online Election
+= 911. Online Election
 
 https://leetcode.com/problems/online-election/[LeetCode - Online Election]
 
@@ -40,7 +40,7 @@ This continues for 3 more queries at time 15, 24, and 8.
 
 
 [[src-0911]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0911_OnlineElection.java[]
 ----

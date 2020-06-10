@@ -1,4 +1,4 @@
-== 684. Redundant Connection
+= 684. Redundant Connection
 
 https://leetcode.com/problems/redundant-connection/[LeetCode - Redundant Connection]
 
@@ -54,7 +54,7 @@ We have overhauled the problem description + test cases and specified clearly th
 
 
 [[src-0684]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0684_RedundantConnection.java[]
 ----

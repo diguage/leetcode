@@ -1,4 +1,4 @@
-== 851. Loud and Rich
+= 851. Loud and Rich
 
 https://leetcode.com/problems/loud-and-rich/[LeetCode - Loud and Rich]
 
@@ -51,7 +51,7 @@ The other answers can be filled out with similar reasoning.
 
 
 [[src-0851]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0851_LoudAndRich.java[]
 ----

@@ -1,4 +1,4 @@
-== 424. Longest Repeating Character Replacement
+= 424. Longest Repeating Character Replacement
 
 https://leetcode.com/problems/longest-repeating-character-replacement/[LeetCode - Longest Repeating Character Replacement]
 
@@ -49,7 +49,7 @@ The substring "BBBB" has the longest repeating letters, which is 4.
 
 
 [[src-0424]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0424_LongestRepeatingCharacterReplacement.java[]
 ----

@@ -24,20 +24,24 @@ public class _0560_SubarraySumEqualsK {
             return 0;
         }
         int count = 0, sum = 0;
-        Map<Integer, Integer> map = new HashMap<>();
-        map.put(0, 1);
+        Map<Integer, Integer> sumToCountMap = new HashMap<>();
+        sumToCountMap.put(0, 1);
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
-            if (map.containsKey(sum - k)) {
-                count += map.get(sum - k);
+            if (sumToCountMap.containsKey(sum - k)) {
+                count += sumToCountMap.get(sum - k);
             }
-            map.put(sum, map.getOrDefault(sum, 0) + 1);
+            sumToCountMap.put(sum, sumToCountMap.getOrDefault(sum, 0) + 1);
         }
         return count;
     }
 
     public static void main(String[] args) {
         _0560_SubarraySumEqualsK solution = new _0560_SubarraySumEqualsK();
+
+        int[] n4 = {3, 4, 7, 2, -3, 1, 4, 2};
+        int r4 = solution.subarraySum(n4, 7);
+        System.out.println((r4 == 4) + " : " + r4);
 
         int[] n3 = {1};
         int r3 = solution.subarraySum(n3, 0);

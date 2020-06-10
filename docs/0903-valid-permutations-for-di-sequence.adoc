@@ -1,4 +1,4 @@
-== 903. Valid Permutations for DI Sequence
+= 903. Valid Permutations for DI Sequence
 
 https://leetcode.com/problems/valid-permutations-for-di-sequence/[LeetCode - Valid Permutations for DI Sequence]
 
@@ -46,7 +46,7 @@ The 5 valid permutations of (0, 1, 2, 3) are:
 
 
 [[src-0903]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0903_ValidPermutationsForDISequence.java[]
 ----

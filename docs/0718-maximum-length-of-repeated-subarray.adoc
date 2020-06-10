@@ -1,4 +1,4 @@
-== 718. Maximum Length of Repeated Subarray
+= 718. Maximum Length of Repeated Subarray
 
 https://leetcode.com/problems/maximum-length-of-repeated-subarray/[LeetCode - Maximum Length of Repeated Subarray]
 
@@ -30,7 +30,7 @@ The repeated subarray with maximum length is [3, 2, 1].
 
 
 [[src-0718]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0718_MaximumLengthOfRepeatedSubarray.java[]
 ----

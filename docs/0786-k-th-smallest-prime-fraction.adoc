@@ -1,4 +1,4 @@
-== 786. K-th Smallest Prime Fraction
+= 786. K-th Smallest Prime Fraction
 
 https://leetcode.com/problems/k-th-smallest-prime-fraction/[LeetCode - K-th Smallest Prime Fraction]
 
@@ -30,7 +30,7 @@ The third fraction is 2/5.
 
 
 [[src-0786]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0786_KThSmallestPrimeFraction.java[]
 ----

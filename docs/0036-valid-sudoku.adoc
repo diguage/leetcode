@@ -1,4 +1,4 @@
-== 36. Valid Sudoku
+= 36. Valid Sudoku
 
 https://leetcode.com/problems/valid-sudoku/[LeetCode - Valid Sudoku]
 
@@ -70,7 +70,7 @@ The Sudoku board could be partially filled, where empty cells are filled with th
 
 
 [[src-0036]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0036_ValidSudoku.java[]
 ----

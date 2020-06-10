@@ -1,4 +1,4 @@
-== 508. Most Frequent Subtree Sum
+= 508. Most Frequent Subtree Sum
 
 https://leetcode.com/problems/most-frequent-subtree-sum/[LeetCode - Most Frequent Subtree Sum]
 
@@ -34,7 +34,7 @@ You may assume the sum of values in any subtree is in the range of 32-bit signed
 
 
 [[src-0508]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0508_MostFrequentSubtreeSum.java[]
 ----

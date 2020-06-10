@@ -1,4 +1,4 @@
-== 999. Available Captures for Rook
+= 999. Available Captures for Rook
 
 https://leetcode.com/problems/available-captures-for-rook/[LeetCode - Available Captures for Rook]
 
@@ -59,7 +59,7 @@ The rook can capture the pawns at positions b5, d6 and f5.
 
 
 [[src-0999]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0999_AvailableCapturesForRook.java[]
 ----

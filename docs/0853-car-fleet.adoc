@@ -1,4 +1,4 @@
-== 853. Car Fleet
+= 853. Car Fleet
 
 https://leetcode.com/problems/car-fleet/[LeetCode - Car Fleet]
 
@@ -49,7 +49,7 @@ Note that no other cars meet these fleets before the destination, so the answer 
 
 
 [[src-0853]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0853_CarFleet.java[]
 ----

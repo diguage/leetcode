@@ -1,4 +1,4 @@
-== 1208. Get Equal Substrings Within Budget
+= 1208. Get Equal Substrings Within Budget
 
 https://leetcode.com/problems/get-equal-substrings-within-budget/[LeetCode - Get Equal Substrings Within Budget]
 
@@ -52,7 +52,7 @@ If there is no substring from `s` that can be changed to its corresponding subst
 
 
 [[src-1208]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1208_GetEqualSubstringsWithinBudget.java[]
 ----

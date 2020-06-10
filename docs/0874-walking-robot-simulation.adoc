@@ -1,4 +1,4 @@
-== 874. Walking Robot Simulation
+= 874. Walking Robot Simulation
 
 https://leetcode.com/problems/walking-robot-simulation/[LeetCode - Walking Robot Simulation]
 
@@ -55,7 +55,7 @@ Explanation: robot will go to (3, 4)
 
 
 [[src-0874]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0874_WalkingRobotSimulation.java[]
 ----

@@ -1,4 +1,4 @@
-== 213. House Robber II
+= 213. House Robber II
 
 https://leetcode.com/problems/house-robber-ii/[LeetCode - House Robber II]
 
@@ -30,7 +30,7 @@ Given a list of non-negative integers representing the amount of money of each h
 
 
 [[src-0213]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0213_HouseRobberII.java[]
 ----

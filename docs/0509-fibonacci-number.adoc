@@ -1,4 +1,4 @@
-== 509. Fibonacci Number
+= 509. Fibonacci Number
 
 https://leetcode.com/problems/fibonacci-number/[LeetCode - Fibonacci Number]
 
@@ -45,7 +45,7 @@ Given `N`, calculate `F(N)`.
 
 
 [[src-0509]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0509_FibonacciNumber.java[]
 ----

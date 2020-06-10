@@ -1,4 +1,4 @@
-== 890. Find and Replace Pattern
+= 890. Find and Replace Pattern
 
 https://leetcode.com/problems/find-and-replace-pattern/[LeetCode - Find and Replace Pattern]
 
@@ -39,7 +39,7 @@ since a and b map to the same letter.
 
 
 [[src-0890]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0890_FindAndReplacePattern.java[]
 ----

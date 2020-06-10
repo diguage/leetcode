@@ -1,11 +1,11 @@
-== 555. Split Concatenated Strings
+= 555. Split Concatenated Strings
 
 https://leetcode.com/problems/split-concatenated-strings/[LeetCode - Split Concatenated Strings]
 
 
 
 [[src-0555]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0555_SplitConcatenatedStrings.java[]
 ----

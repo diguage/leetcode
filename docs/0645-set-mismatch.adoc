@@ -1,4 +1,4 @@
-== 645. Set Mismatch
+= 645. Set Mismatch
 
 https://leetcode.com/problems/set-mismatch/[LeetCode - Set Mismatch]
 
@@ -30,7 +30,7 @@ Given an array `nums` representing the data status of this set after the error. 
 
 
 [[src-0645]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0645_SetMismatch.java[]
 ----

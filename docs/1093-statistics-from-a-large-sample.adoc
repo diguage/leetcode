@@ -1,4 +1,4 @@
-== 1093. Statistics from a Large Sample
+= 1093. Statistics from a Large Sample
 
 https://leetcode.com/problems/statistics-from-a-large-sample/[LeetCode - Statistics from a Large Sample]
 
@@ -42,7 +42,7 @@ _(Recall that the median of a sample is:_
 
 
 [[src-1093]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1093_StatisticsFromALargeSample.java[]
 ----

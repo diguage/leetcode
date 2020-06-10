@@ -1,4 +1,4 @@
-== 1239. Maximum Length of a Concatenated String with Unique Characters
+= 1239. Maximum Length of a Concatenated String with Unique Characters
 
 https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/[LeetCode - Maximum Length of a Concatenated String with Unique Characters]
 
@@ -46,7 +46,7 @@ Maximum length is 4.
 
 
 [[src-1239]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1239_MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java[]
 ----

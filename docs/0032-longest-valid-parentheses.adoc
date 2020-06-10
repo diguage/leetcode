@@ -1,4 +1,4 @@
-== 32. Longest Valid Parentheses
+= 32. Longest Valid Parentheses
 
 https://leetcode.com/problems/longest-valid-parentheses/[LeetCode - Longest Valid Parentheses]
 
@@ -24,7 +24,7 @@ Given a string containing just the characters `'('` and `')'`, find the length o
 
 
 [[src-0032]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0032_LongestValidParentheses.java[]
 ----

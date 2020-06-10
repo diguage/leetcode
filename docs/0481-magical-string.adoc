@@ -1,4 +1,4 @@
-== 481. Magical String
+= 481. Magical String
 
 https://leetcode.com/problems/magical-string/[LeetCode - Magical String]
 
@@ -53,7 +53,7 @@ N will not exceed 100,000.
 
 
 [[src-0481]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0481_MagicalString.java[]
 ----

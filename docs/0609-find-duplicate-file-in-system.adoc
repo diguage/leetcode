@@ -1,4 +1,4 @@
-== 609. Find Duplicate File in System
+= 609. Find Duplicate File in System
 
 https://leetcode.com/problems/find-duplicate-file-in-system/[LeetCode - Find Duplicate File in System]
 
@@ -52,7 +52,7 @@ The *output* is a list of group of duplicate file paths. For each group, it cont
 
 
 [[src-0609]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0609_FindDuplicateFileInSystem.java[]
 ----

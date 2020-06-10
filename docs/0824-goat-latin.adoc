@@ -1,4 +1,4 @@
-== 824. Goat Latin
+= 824. Goat Latin
 
 https://leetcode.com/problems/goat-latin/[LeetCode - Goat Latin]
 
@@ -61,7 +61,7 @@ Notes:
 
 
 [[src-0824]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0824_GoatLatin.java[]
 ----

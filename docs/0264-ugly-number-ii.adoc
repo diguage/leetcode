@@ -1,4 +1,4 @@
-== 264. Ugly Number II
+= 264. Ugly Number II
 
 https://leetcode.com/problems/ugly-number-ii/[LeetCode - Ugly Number II]
 
@@ -24,7 +24,7 @@ Ugly numbers are* positive numbers* whose prime factors only include `2, 3, 5`.
 
 
 [[src-0264]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0264_UglyNumberII.java[]
 ----

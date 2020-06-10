@@ -1,11 +1,11 @@
-== 360. Sort Transformed Array
+= 360. Sort Transformed Array
 
 https://leetcode.com/problems/sort-transformed-array/[LeetCode - Sort Transformed Array]
 
 
 
 [[src-0360]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0360_SortTransformedArray.java[]
 ----

@@ -1,4 +1,4 @@
-== 1184. Distance Between Bus Stops
+= 1184. Distance Between Bus Stops
 
 https://leetcode.com/problems/distance-between-bus-stops/[LeetCode - Distance Between Bus Stops]
 
@@ -58,7 +58,7 @@ image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1-2.jpg[]
 
 
 [[src-1184]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1184_DistanceBetweenBusStops.java[]
 ----

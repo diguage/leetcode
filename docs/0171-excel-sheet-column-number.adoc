@@ -1,4 +1,4 @@
-== 171. Excel Sheet Column Number
+= 171. Excel Sheet Column Number
 
 https://leetcode.com/problems/excel-sheet-column-number/[LeetCode - Excel Sheet Column Number]
 
@@ -46,7 +46,7 @@ For example:
 
 
 [[src-0171]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0171_ExcelSheetColumnNumber.java[]
 ----

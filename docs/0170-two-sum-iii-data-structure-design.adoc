@@ -1,11 +1,11 @@
-== 170. Two Sum III - Data structure design
+= 170. Two Sum III - Data structure design
 
 https://leetcode.com/problems/two-sum-iii-data-structure-design/[LeetCode - Two Sum III - Data structure design]
 
 
 
 [[src-0170]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0170_TwoSumIIIDataStructureDesign.java[]
 ----

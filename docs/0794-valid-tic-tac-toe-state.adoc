@@ -1,4 +1,4 @@
-== 794. Valid Tic-Tac-Toe State
+= 794. Valid Tic-Tac-Toe State
 
 https://leetcode.com/problems/valid-tic-tac-toe-state/[LeetCode - Valid Tic-Tac-Toe State]
 
@@ -48,7 +48,7 @@ Here are the rules of Tic-Tac-Toe:
 
 
 [[src-0794]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0794_ValidTicTacToeState.java[]
 ----

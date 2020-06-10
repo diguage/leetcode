@@ -1,11 +1,11 @@
-== 1257. Smallest Common Region
+= 1257. Smallest Common Region
 
 https://leetcode.com/problems/smallest-common-region/[LeetCode - Smallest Common Region]
 
 
 
 [[src-1257]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1257_SmallestCommonRegion.java[]
 ----

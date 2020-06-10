@@ -1,4 +1,4 @@
-== 147. Insertion Sort List
+= 147. Insertion Sort List
 
 https://leetcode.com/problems/insertion-sort-list/[LeetCode - Insertion Sort List]
 
@@ -51,7 +51,7 @@ With each iteration one element (red) is removed from the input data and inserte
 
 
 [[src-0147]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0147_InsertionSortList.java[]
 ----

@@ -1,11 +1,11 @@
-== 1134. Armstrong Number
+= 1134. Armstrong Number
 
 https://leetcode.com/problems/armstrong-number/[LeetCode - Armstrong Number]
 
 
 
 [[src-1134]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1134_ArmstrongNumber.java[]
 ----

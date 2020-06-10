@@ -1,4 +1,4 @@
-== 1329. Sort the Matrix Diagonally
+= 1329. Sort the Matrix Diagonally
 
 https://leetcode.com/problems/sort-the-matrix-diagonally/[LeetCode - Sort the Matrix Diagonally]
 
@@ -27,7 +27,7 @@ image::https://assets.leetcode.com/uploads/2020/01/21/1482_example_1_2.png[]
 
 
 [[src-1329]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1329_SortTheMatrixDiagonally.java[]
 ----

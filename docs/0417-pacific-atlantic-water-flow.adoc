@@ -1,4 +1,4 @@
-== 417. Pacific Atlantic Water Flow
+= 417. Pacific Atlantic Water Flow
 
 https://leetcode.com/problems/pacific-atlantic-water-flow/[LeetCode - Pacific Atlantic Water Flow]
 
@@ -41,7 +41,7 @@ Return:
 
 
 [[src-0417]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0417_PacificAtlanticWaterFlow.java[]
 ----

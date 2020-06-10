@@ -1,4 +1,4 @@
-== 617. Merge Two Binary Trees
+= 617. Merge Two Binary Trees
 
 https://leetcode.com/problems/merge-two-binary-trees/[LeetCode - Merge Two Binary Trees]
 
@@ -57,7 +57,7 @@ Merged tree:
 
 
 [[src-0617]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0617_MergeTwoBinaryTrees.java[]
 ----

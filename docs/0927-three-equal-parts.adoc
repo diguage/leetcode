@@ -1,4 +1,4 @@
-== 927. Three Equal Parts
+= 927. Three Equal Parts
 
 https://leetcode.com/problems/three-equal-parts/[LeetCode - Three Equal Parts]
 
@@ -52,7 +52,7 @@ Note that the entire part is used when considering what binary value it represen
 
 
 [[src-0927]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0927_ThreeEqualParts.java[]
 ----

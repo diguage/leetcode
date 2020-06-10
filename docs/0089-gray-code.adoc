@@ -1,4 +1,4 @@
-== 89. Gray Code
+= 89. Gray Code
 
 https://leetcode.com/problems/gray-code/[LeetCode - Gray Code]
 
@@ -34,7 +34,7 @@ A gray code sequence of n has size = 2^n^, which for n = 0 the size is 2^0^ = 1.
 Therefore, for n = 0 the gray code sequence is [0].
 ----
 
-=== 解题分析
+== 解题分析
 
 * 设 n 阶格雷码集合为 G(n)，则 G(n+1) 阶格雷码为：
 ** 给 G(n) 阶格雷码每个元素二进制形式前面添加 0，得到 G'(n) ；
@@ -54,7 +54,7 @@ image::images/0089-3.png[]
 
 这个题的解法跟 xref:0338-counting-bits.adoc[338. Counting Bits] 有异曲同工之妙！
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/gray-code/solution/gray-code-jing-xiang-fan-she-fa-by-jyd/[Gray Code （镜像反射法，图解） - 格雷编码 - 力扣（LeetCode）]
 . https://en.wikipedia.org/wiki/Gray_code[Gray code - Wikipedia]
@@ -99,7 +99,7 @@ For example, [0,2,3,1] is also a valid gray code sequence.
 
 
 [[src-0089]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0089_GrayCode.java[]
 ----

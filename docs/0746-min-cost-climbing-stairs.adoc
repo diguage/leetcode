@@ -1,4 +1,4 @@
-== 746. Min Cost Climbing Stairs
+= 746. Min Cost Climbing Stairs
 
 https://leetcode.com/problems/min-cost-climbing-stairs/[LeetCode - Min Cost Climbing Stairs]
 
@@ -39,7 +39,7 @@ Once you pay the cost, you can either climb one or two steps. You need to find m
 
 
 [[src-0746]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0746_MinCostClimbingStairs.java[]
 ----

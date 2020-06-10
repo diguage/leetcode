@@ -1,4 +1,4 @@
-== 322. Coin Change
+= 322. Coin Change
 
 https://leetcode.com/problems/coin-change/[LeetCode - Coin Change]
 
@@ -37,7 +37,7 @@ You may assume that you have an infinite number of each kind of coin.
 
 
 [[src-0322]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0322_CoinChange.java[]
 ----

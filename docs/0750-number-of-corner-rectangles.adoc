@@ -1,11 +1,11 @@
-== 750. Number Of Corner Rectangles
+= 750. Number Of Corner Rectangles
 
 https://leetcode.com/problems/number-of-corner-rectangles/[LeetCode - Number Of Corner Rectangles]
 
 
 
 [[src-0750]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0750_NumberOfCornerRectangles.java[]
 ----

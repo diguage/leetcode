@@ -1,4 +1,4 @@
-== 268. Missing Number
+= 268. Missing Number
 
 https://leetcode.com/problems/missing-number/[LeetCode - Missing Number]
 
@@ -29,7 +29,7 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 
 
 [[src-0268]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0268_MissingNumber.java[]
 ----

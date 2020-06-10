@@ -1,4 +1,4 @@
-== 460. LFU Cache
+= 460. LFU Cache
 
 https://leetcode.com/problems/lfu-cache/[LeetCode - LFU Cache]
 
@@ -43,7 +43,7 @@ cache.get(4);       // returns 4
 
 
 [[src-0460]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0460_LFUCache.java[]
 ----

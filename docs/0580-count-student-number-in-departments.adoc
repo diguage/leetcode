@@ -1,11 +1,11 @@
-== 580. Count Student Number in Departments
+= 580. Count Student Number in Departments
 
 https://leetcode.com/problems/count-student-number-in-departments/[LeetCode - Count Student Number in Departments]
 
 
 
 [[src-0580]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0580_CountStudentNumberInDepartments.java[]
 ----

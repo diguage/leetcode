@@ -1,4 +1,4 @@
-== 372. Super Pow
+= 372. Super Pow
 
 https://leetcode.com/problems/super-pow/[LeetCode - Super Pow]
 
@@ -26,7 +26,7 @@ Your task is to calculate _a_^_b_^ mod 1337 where _a_ is a positive integer and 
 
 
 [[src-0372]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0372_SuperPow.java[]
 ----

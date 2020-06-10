@@ -1,4 +1,4 @@
-== 10. Regular Expression Matching
+= 10. Regular Expression Matching
 
 https://leetcode.com/problems/regular-expression-matching/[LeetCode - Regular Expression Matching]
 
@@ -75,7 +75,7 @@ p = "mis*is*p*."
 
 
 [[src-0010]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0010_RegularExpressionMatching.java[]
 ----

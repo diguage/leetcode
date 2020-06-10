@@ -1,4 +1,4 @@
-== 174. Dungeon Game
+= 174. Dungeon Game
 
 https://leetcode.com/problems/dungeon-game/[LeetCode - Dungeon Game]
 
@@ -58,7 +58,7 @@ For example, given the dungeon below, the initial health of the knight must be a
 
 
 [[src-0174]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0174_DungeonGame.java[]
 ----

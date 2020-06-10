@@ -1,4 +1,4 @@
-== 295. Find Median from Data Stream
+= 295. Find Median from Data Stream
 
 https://leetcode.com/problems/find-median-from-data-stream/[LeetCode - Find Median from Data Stream]
 
@@ -41,7 +41,7 @@ findMedian() -> 2
 
 
 [[src-0295]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0295_FindMedianFromDataStream.java[]
 ----

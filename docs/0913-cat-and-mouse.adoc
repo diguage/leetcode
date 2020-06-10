@@ -1,4 +1,4 @@
-== 913. Cat and Mouse
+= 913. Cat and Mouse
 
 https://leetcode.com/problems/cat-and-mouse/[LeetCode - Cat and Mouse]
 
@@ -56,7 +56,7 @@ Given a `graph`, and assuming both players play optimally, return `1` if the gam
 
 
 [[src-0913]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0913_CatAndMouse.java[]
 ----

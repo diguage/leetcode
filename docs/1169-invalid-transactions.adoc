@@ -1,4 +1,4 @@
-== 1169. Invalid Transactions
+= 1169. Invalid Transactions
 
 https://leetcode.com/problems/invalid-transactions/[LeetCode - Invalid Transactions]
 
@@ -55,7 +55,7 @@ Given a list of `transactions`, return a list of transactions that are possibly 
 
 
 [[src-1169]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1169_InvalidTransactions.java[]
 ----

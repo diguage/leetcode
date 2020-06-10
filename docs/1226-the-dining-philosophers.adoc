@@ -1,4 +1,4 @@
-== 1226. The Dining Philosophers
+= 1226. The Dining Philosophers
 
 https://leetcode.com/problems/the-dining-philosophers/[LeetCode - The Dining Philosophers]
 
@@ -54,7 +54,7 @@ output[i] = [a, b, c] (three integers)
 
 
 [[src-1226]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1226_TheDiningPhilosophers.java[]
 ----

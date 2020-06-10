@@ -1,4 +1,4 @@
-== 565. Array Nesting
+= 565. Array Nesting
 
 https://leetcode.com/problems/array-nesting/[LeetCode - Array Nesting]
 
@@ -34,7 +34,7 @@ S[0] = {A[0], A[5], A[6], A[2]} = {5, 6, 2, 0}
 
 
 [[src-0565]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0565_ArrayNesting.java[]
 ----

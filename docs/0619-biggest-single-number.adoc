@@ -1,11 +1,11 @@
-== 619. Biggest Single Number
+= 619. Biggest Single Number
 
 https://leetcode.com/problems/biggest-single-number/[LeetCode - Biggest Single Number]
 
 
 
 [[src-0619]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0619_BiggestSingleNumber.java[]
 ----

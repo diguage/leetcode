@@ -1,11 +1,11 @@
-== 1152. Analyze User Website Visit Pattern
+= 1152. Analyze User Website Visit Pattern
 
 https://leetcode.com/problems/analyze-user-website-visit-pattern/[LeetCode - Analyze User Website Visit Pattern]
 
 
 
 [[src-1152]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1152_AnalyzeUserWebsiteVisitPattern.java[]
 ----

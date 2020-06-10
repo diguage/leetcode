@@ -1,4 +1,4 @@
-== 981. Time Based Key-Value Store
+= 981. Time Based Key-Value Store
 
 https://leetcode.com/problems/time-based-key-value-store/[LeetCode - Time Based Key-Value Store]
 
@@ -64,7 +64,7 @@ kv.get("foo", 5); //output "bar2"
 
 
 [[src-0981]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0981_TimeBasedKeyValueStore.java[]
 ----

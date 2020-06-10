@@ -1,4 +1,4 @@
-== 1324. Print Words Vertically
+= 1324. Print Words Vertically
 
 https://leetcode.com/problems/print-words-vertically/[LeetCode - Print Words Vertically]
 
@@ -54,7 +54,7 @@ Each word would be put on only one column and that in one column there will be o
 
 
 [[src-1324]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1324_PrintWordsVertically.java[]
 ----

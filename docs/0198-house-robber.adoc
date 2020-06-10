@@ -1,4 +1,4 @@
-== 198. House Robber
+= 198. House Robber
 
 :stem: latexmath
 
@@ -56,7 +56,7 @@ Given a list of non-negative integers representing the amount of money of each h
 
 
 [[src-0198]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0198_HouseRobber.java[]
 ----

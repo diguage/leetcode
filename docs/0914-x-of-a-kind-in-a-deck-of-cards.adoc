@@ -1,4 +1,4 @@
-== 914. X of a Kind in a Deck of Cards
+= 914. X of a Kind in a Deck of Cards
 
 https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/[LeetCode - X of a Kind in a Deck of Cards]
 
@@ -89,7 +89,7 @@ Return `true` if and only if you can choose `X >= 2` such that it is possible to
 
 
 [[src-0914]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0914_XOfAKindInADeckOfCards.java[]
 ----

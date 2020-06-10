@@ -1,11 +1,11 @@
-== 1167. Minimum Cost to Connect Sticks
+= 1167. Minimum Cost to Connect Sticks
 
 https://leetcode.com/problems/minimum-cost-to-connect-sticks/[LeetCode - Minimum Cost to Connect Sticks]
 
 
 
 [[src-1167]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1167_MinimumCostToConnectSticks.java[]
 ----

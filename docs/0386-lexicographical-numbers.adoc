@@ -1,4 +1,4 @@
-== 386. Lexicographical Numbers
+= 386. Lexicographical Numbers
 
 https://leetcode.com/problems/lexicographical-numbers/[LeetCode - Lexicographical Numbers]
 
@@ -11,7 +11,7 @@ Please optimize your algorithm to use less time and space. The input size may be
 
 
 [[src-0386]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0386_LexicographicalNumbers.java[]
 ----

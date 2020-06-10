@@ -1,4 +1,4 @@
-== 177. Nth Highest Salary
+= 177. Nth Highest Salary
 
 https://leetcode.com/problems/nth-highest-salary/[LeetCode - Nth Highest Salary]
 
@@ -29,7 +29,7 @@ For example, given the above Employee table, the _n_^th^ highest salary where _n
 
 
 [[src-0177]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0177_NthHighestSalary.java[]
 ----

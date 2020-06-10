@@ -1,4 +1,4 @@
-== 394. Decode String
+= 394. Decode String
 
 https://leetcode.com/problems/decode-string/[LeetCode - Decode String]
 
@@ -41,7 +41,7 @@ s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
 
 
 [[src-0394]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0394_DecodeString.java[]
 ----

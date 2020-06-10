@@ -1,11 +1,11 @@
-== 1173. Immediate Food Delivery I
+= 1173. Immediate Food Delivery I
 
 https://leetcode.com/problems/immediate-food-delivery-i/[LeetCode - Immediate Food Delivery I]
 
 
 
 [[src-1173]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1173_ImmediateFoodDeliveryI.java[]
 ----

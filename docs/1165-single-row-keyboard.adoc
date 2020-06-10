@@ -1,11 +1,11 @@
-== 1165. Single-Row Keyboard
+= 1165. Single-Row Keyboard
 
 https://leetcode.com/problems/single-row-keyboard/[LeetCode - Single-Row Keyboard]
 
 
 
 [[src-1165]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1165_SingleRowKeyboard.java[]
 ----

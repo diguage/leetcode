@@ -1,4 +1,4 @@
-== 464. Can I Win
+= 464. Can I Win
 
 https://leetcode.com/problems/can-i-win/[LeetCode - Can I Win]
 
@@ -34,7 +34,7 @@ Same with other integers chosen by the first player, the second player will alwa
 
 
 [[src-0464]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0464_CanIWin.java[]
 ----

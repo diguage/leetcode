@@ -1,4 +1,4 @@
-== 204. Count Primes
+= 204. Count Primes
 
 https://leetcode.com/problems/count-primes/[LeetCode - Count Primes]
 
@@ -18,7 +18,7 @@ Count the number of prime numbers less than a non-negative number, *_n_*.
 
 
 [[src-0204]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0204_CountPrimes.java[]
 ----

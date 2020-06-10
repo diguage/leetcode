@@ -1,11 +1,11 @@
-== 776. Split BST
+= 776. Split BST
 
 https://leetcode.com/problems/split-bst/[LeetCode - Split BST]
 
 
 
 [[src-0776]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0776_SplitBST.java[]
 ----

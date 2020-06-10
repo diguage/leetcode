@@ -1,4 +1,4 @@
-== 82. Remove Duplicates from Sorted List II
+= 82. Remove Duplicates from Sorted List II
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/[LeetCode - Remove Duplicates from Sorted List II]
 
@@ -16,13 +16,13 @@ Input: 1->1->1->2->3
 Output: 2->3
 ----
 
-=== 解题分析
+== 解题分析
 
 快慢指针是个好办法！
 
 注意推敲满指针前进的条件！
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/solution/kuai-man-zhi-zhen-by-powcai-2/[递归与非递归 - 删除排序链表中的重复元素 II - 力扣（LeetCode）]
 
@@ -46,7 +46,7 @@ Given a sorted linked list, delete all nodes that have duplicate numbers, leavin
 
 
 [[src-0082]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListII.java[]
 ----

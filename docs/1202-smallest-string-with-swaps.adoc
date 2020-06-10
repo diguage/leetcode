@@ -1,4 +1,4 @@
-== 1202. Smallest String With Swaps
+= 1202. Smallest String With Swaps
 
 https://leetcode.com/problems/smallest-string-with-swaps/[LeetCode - Smallest String With Swaps]
 
@@ -57,7 +57,7 @@ Swap s[0] and s[1], s = "abc"
 
 
 [[src-1202]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1202_SmallestStringWithSwaps.java[]
 ----

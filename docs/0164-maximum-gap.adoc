@@ -1,4 +1,4 @@
-== 164. Maximum Gap
+= 164. Maximum Gap
 
 https://leetcode.com/problems/maximum-gap/[LeetCode - Maximum Gap]
 
@@ -35,7 +35,7 @@ Return 0 if the array contains less than 2 elements.
 
 
 [[src-0164]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0164_MaximumGap.java[]
 ----

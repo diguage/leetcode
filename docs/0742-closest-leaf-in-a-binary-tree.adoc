@@ -1,11 +1,11 @@
-== 742. Closest Leaf in a Binary Tree
+= 742. Closest Leaf in a Binary Tree
 
 https://leetcode.com/problems/closest-leaf-in-a-binary-tree/[LeetCode - Closest Leaf in a Binary Tree]
 
 
 
 [[src-0742]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0742_ClosestLeafInABinaryTree.java[]
 ----

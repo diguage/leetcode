@@ -1,4 +1,4 @@
-== 392. Is Subsequence
+= 392. Is Subsequence
 
 https://leetcode.com/problems/is-subsequence/[LeetCode - Is Subsequence]
 
@@ -43,7 +43,7 @@ Special thanks to <a href="https://leetcode.com/pbrother/">@pbrother</a> for add
 
 
 [[src-0392]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0392_IsSubsequence.java[]
 ----

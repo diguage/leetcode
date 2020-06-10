@@ -1,11 +1,11 @@
-== 550. Game Play Analysis IV
+= 550. Game Play Analysis IV
 
 https://leetcode.com/problems/game-play-analysis-iv/[LeetCode - Game Play Analysis IV]
 
 
 
 [[src-0550]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0550_GamePlayAnalysisIV.java[]
 ----

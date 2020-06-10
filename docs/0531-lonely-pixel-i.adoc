@@ -1,11 +1,11 @@
-== 531. Lonely Pixel I
+= 531. Lonely Pixel I
 
 https://leetcode.com/problems/lonely-pixel-i/[LeetCode - Lonely Pixel I]
 
 
 
 [[src-0531]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0531_LonelyPixelI.java[]
 ----

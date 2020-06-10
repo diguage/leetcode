@@ -1,4 +1,4 @@
-== 856. Score of Parentheses
+= 856. Score of Parentheses
 
 https://leetcode.com/problems/score-of-parentheses/[LeetCode - Score of Parentheses]
 
@@ -64,7 +64,7 @@ Given a balanced parentheses string `S`, compute the score of the string based o
 
 
 [[src-0856]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0856_ScoreOfParentheses.java[]
 ----

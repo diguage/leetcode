@@ -1,4 +1,4 @@
-== 936. Stamping The Sequence
+= 936. Stamping The Sequence
 
 https://leetcode.com/problems/stamping-the-sequence/[LeetCode - Stamping The Sequence]
 
@@ -50,7 +50,7 @@ Also, if the sequence is possible to stamp, it is guaranteed it is possible to s
 
 
 [[src-0936]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0936_StampingTheSequence.java[]
 ----

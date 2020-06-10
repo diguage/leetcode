@@ -1,11 +1,11 @@
-== 1246. Palindrome Removal
+= 1246. Palindrome Removal
 
 https://leetcode.com/problems/palindrome-removal/[LeetCode - Palindrome Removal]
 
 
 
 [[src-1246]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1246_PalindromeRemoval.java[]
 ----

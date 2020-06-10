@@ -1,11 +1,11 @@
-== 1112. Highest Grade For Each Student
+= 1112. Highest Grade For Each Student
 
 https://leetcode.com/problems/highest-grade-for-each-student/[LeetCode - Highest Grade For Each Student]
 
 
 
 [[src-1112]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1112_HighestGradeForEachStudent.java[]
 ----

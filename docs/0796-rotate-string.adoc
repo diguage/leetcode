@@ -1,4 +1,4 @@
-== 796. Rotate String
+= 796. Rotate String
 
 https://leetcode.com/problems/rotate-string/[LeetCode - Rotate String]
 
@@ -26,7 +26,7 @@ A _shift on `A`_ consists of taking string `A` and moving the leftmost character
 
 
 [[src-0796]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0796_RotateString.java[]
 ----

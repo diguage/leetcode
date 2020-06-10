@@ -1,4 +1,4 @@
-== 1295. Find Numbers with Even Number of Digits
+= 1295. Find Numbers with Even Number of Digits
 
 https://leetcode.com/problems/find-numbers-with-even-number-of-digits/[LeetCode - Find Numbers with Even Number of Digits]
 
@@ -40,7 +40,7 @@ Only 1771 contains an even number of digits.
 
 
 [[src-1295]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1295_FindNumbersWithEvenNumberOfDigits.java[]
 ----

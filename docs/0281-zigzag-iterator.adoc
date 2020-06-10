@@ -1,11 +1,11 @@
-== 281. Zigzag Iterator
+= 281. Zigzag Iterator
 
 https://leetcode.com/problems/zigzag-iterator/[LeetCode - Zigzag Iterator]
 
 
 
 [[src-0281]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0281_ZigzagIterator.java[]
 ----

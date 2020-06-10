@@ -1,4 +1,4 @@
-== 1115. Print FooBar Alternately
+= 1115. Print FooBar Alternately
 
 https://leetcode.com/problems/print-foobar-alternately/[LeetCode - Print FooBar Alternately]
 
@@ -46,7 +46,7 @@ The same instance of `FooBar` will be passed to two different threads. Thread A 
 
 
 [[src-1115]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1115_PrintFooBarAlternately.java[]
 ----

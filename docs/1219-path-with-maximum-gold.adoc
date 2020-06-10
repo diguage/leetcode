@@ -1,4 +1,4 @@
-== 1219. Path with Maximum Gold
+= 1219. Path with Maximum Gold
 
 https://leetcode.com/problems/path-with-maximum-gold/[LeetCode - Path with Maximum Gold]
 
@@ -54,7 +54,7 @@ Path to get the maximum gold, 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7.
 
 
 [[src-1219]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1219_PathWithMaximumGold.java[]
 ----

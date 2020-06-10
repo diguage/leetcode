@@ -1,4 +1,4 @@
-== 1015. Smallest Integer Divisible by K
+= 1015. Smallest Integer Divisible by K
 
 https://leetcode.com/problems/smallest-integer-divisible-by-k/[LeetCode - Smallest Integer Divisible by K]
 
@@ -45,7 +45,7 @@ Return the length of `N`.  If there is no such `N`, return -1.
 
 
 [[src-1015]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1015_SmallestIntegerDivisibleByK.java[]
 ----

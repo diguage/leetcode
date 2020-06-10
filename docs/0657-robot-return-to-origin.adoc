@@ -1,4 +1,4 @@
-== 657. Robot Return to Origin
+= 657. Robot Return to Origin
 
 https://leetcode.com/problems/robot-return-to-origin/[LeetCode - Robot Return to Origin]
 
@@ -31,7 +31,7 @@ The move sequence is represented by a string, and the character moves[i] represe
 
 
 [[src-0657]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0657_RobotReturnToOrigin.java[]
 ----

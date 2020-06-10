@@ -1,4 +1,4 @@
-== 1221. Split a String in Balanced Strings
+= 1221. Split a String in Balanced Strings
 
 https://leetcode.com/problems/split-a-string-in-balanced-strings/[LeetCode - Split a String in Balanced Strings]
 
@@ -56,7 +56,7 @@ Return the maximum amount of splitted balanced strings.
 
 
 [[src-1221]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1221_SplitAStringInBalancedStrings.java[]
 ----

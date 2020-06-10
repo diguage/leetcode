@@ -1,4 +1,4 @@
-== 454. 4Sum II
+= 454. 4Sum II
 
 https://leetcode.com/problems/4sum-ii/[LeetCode - 4Sum II]
 
@@ -32,7 +32,7 @@ The two tuples are:
 
 
 [[src-0454]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0454_4SumII.java[]
 ----

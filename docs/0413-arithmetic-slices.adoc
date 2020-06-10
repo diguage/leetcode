@@ -1,4 +1,4 @@
-== 413. Arithmetic Slices
+= 413. Arithmetic Slices
 
 https://leetcode.com/problems/arithmetic-slices/[LeetCode - Arithmetic Slices]
 
@@ -37,7 +37,7 @@ return: 3, for 3 arithmetic slices in A: [1, 2, 3], [2, 3, 4] and [1, 2, 3, 4] i
 
 
 [[src-0413]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0413_ArithmeticSlices.java[]
 ----

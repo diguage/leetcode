@@ -1,4 +1,4 @@
-== 888. Fair Candy Swap
+= 888. Fair Candy Swap
 
 https://leetcode.com/problems/fair-candy-swap/[LeetCode - Fair Candy Swap]
 
@@ -68,7 +68,7 @@ If there are multiple answers, you may return any one of them.  It is guaranteed
 
 
 [[src-0888]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0888_FairCandySwap.java[]
 ----

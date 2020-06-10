@@ -1,4 +1,4 @@
-== 65. Valid Number
+= 65. Valid Number
 
 https://leetcode.com/problems/valid-number/[LeetCode - Valid Number]
 
@@ -66,7 +66,7 @@ The signature of the `C++` function had been updated. If you still see your func
 
 
 [[src-0065]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0065_ValidNumber.java[]
 ----

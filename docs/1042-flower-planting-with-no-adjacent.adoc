@@ -1,4 +1,4 @@
-== 1042. Flower Planting With No Adjacent
+= 1042. Flower Planting With No Adjacent
 
 https://leetcode.com/problems/flower-planting-with-no-adjacent/[LeetCode - Flower Planting With No Adjacent]
 
@@ -57,7 +57,7 @@ Return *any* such a choice as an array `answer`, where `answer[i]` is the type o
 
 
 [[src-1042]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1042_FlowerPlantingWithNoAdjacent.java[]
 ----

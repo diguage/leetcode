@@ -1,4 +1,4 @@
-== 1223. Dice Roll Simulation
+= 1223. Dice Roll Simulation
 
 https://leetcode.com/problems/dice-roll-simulation/[LeetCode - Dice Roll Simulation]
 
@@ -46,7 +46,7 @@ Two sequences are considered different if at least one element differs from each
 
 
 [[src-1223]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1223_DiceRollSimulation.java[]
 ----

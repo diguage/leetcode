@@ -1,4 +1,4 @@
-== 932. Beautiful Array
+= 932. Beautiful Array
 
 https://leetcode.com/problems/beautiful-array/[LeetCode - Beautiful Array]
 
@@ -42,7 +42,7 @@ Given `N`, return *any* beautiful array `A`.  (It is guaranteed that one exists.
 
 
 [[src-0932]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0932_BeautifulArray.java[]
 ----

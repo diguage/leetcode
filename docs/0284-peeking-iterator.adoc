@@ -1,4 +1,4 @@
-== 284. Peeking Iterator
+= 284. Peeking Iterator
 
 https://leetcode.com/problems/peeking-iterator/[LeetCode - Peeking Iterator]
 
@@ -21,7 +21,7 @@ Calling *`hasNext()`* after that should return *false*.
 
 
 [[src-0284]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0284_PeekingIterator.java[]
 ----

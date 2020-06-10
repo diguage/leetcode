@@ -1,4 +1,4 @@
-== 701. Insert into a Binary Search Tree
+= 701. Insert into a Binary Search Tree
 
 https://leetcode.com/problems/insert-into-a-binary-search-tree/[LeetCode - Insert into a Binary Search Tree]
 
@@ -46,7 +46,7 @@ This tree is also valid:
 
 
 [[src-0701]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0701_InsertIntoABinarySearchTree.java[]
 ----

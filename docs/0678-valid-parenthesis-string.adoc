@@ -1,4 +1,4 @@
-== 678. Valid Parenthesis String
+= 678. Valid Parenthesis String
 
 https://leetcode.com/problems/valid-parenthesis-string/[LeetCode - Valid Parenthesis String]
 
@@ -51,7 +51,7 @@ Given a string containing only three types of characters: '(', ')' and '*', writ
 
 
 [[src-0678]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0678_ValidParenthesisString.java[]
 ----

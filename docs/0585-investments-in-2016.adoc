@@ -1,11 +1,11 @@
-== 585. Investments in 2016
+= 585. Investments in 2016
 
 https://leetcode.com/problems/investments-in-2016/[LeetCode - Investments in 2016]
 
 
 
 [[src-0585]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0585_InvestmentsIn2016.java[]
 ----

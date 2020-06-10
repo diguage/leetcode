@@ -1,4 +1,4 @@
-== 1317. Convert Integer to the Sum of Two No-Zero Integers
+= 1317. Convert Integer to the Sum of Two No-Zero Integers
 
 https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/[LeetCode - Convert Integer to the Sum of Two No-Zero Integers]
 
@@ -64,7 +64,7 @@ It's guarateed that there is at least one valid solution. If there are many vali
 
 
 [[src-1317]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1317_ConvertIntegerToTheSumOfTwoNoZeroIntegers.java[]
 ----

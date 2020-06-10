@@ -39,72 +39,120 @@ import java.util.*;
  * @since 2019-07-19 00:19
  */
 public class _0017_LetterCombinationsOfAPhoneNumber {
-    /**
-     * Runtime: 32 ms, faster than 6.94% of Java online submissions for Letter Combinations of a Phone Number.
-     *
-     * Memory Usage: 36.2 MB, less than 99.10% of Java online submissions for Letter Combinations of a Phone Number.
-     */
-    public List<String> letterCombinations(String digits) {
-        if (Objects.isNull(digits) || digits.length() == 0) {
-            return Collections.EMPTY_LIST;
-        }
 
-        char[] chars = digits.toCharArray();
-        List<Integer> integers = new ArrayList<>();
-        int length = chars.length;
-        for (int i = 0; i < length; i++) {
-            int num = chars[i] - '0';
-            if (num > 1) {
-                integers.add(num);
-            }
-        }
-        char[][] int2chars = new char[][]{
-                {},
-                {},
-                {'a', 'b', 'c'},
-                {'d', 'e', 'f'},
-                {'g', 'h', 'i'},
-                {'j', 'k', 'l'},
-                {'m', 'n', 'o'},
-                {'p', 'q', 'r', 's'},
-                {'t', 'u', 'v'},
-                {'w', 'x', 'y', 'z'},
-        };
-        int size = integers.size();
-        char[][] selectedChars = new char[size][];
-        for (int i = 0; i < size; i++) {
-            selectedChars[i] = int2chars[integers.get(i)];
-        }
+  private List<String> result = new ArrayList<>();
+  public List<String> letterCombinations(String digits) {
+    if (Objects.isNull(digits) || digits.length() == 0) {
+      return result;
+    }
+    backtrack(digits, "");
+    return result;
+  }
+  private void backtrack(String digits, String letters) {
+    if (digits.length() == 0) {
+      result.add(letters);
+      return;
+    }
+    String let = getLetterByChar(digits.charAt(0));
+    String sub = digits.substring(1);
+    if (let.length() > 0) {
+      for (int i = 0; i < let.length(); i++) {
+        backtrack(sub, letters + let.charAt(i));
+      }
+    } else {
+      backtrack(sub, letters);
+    }
+  }
 
-        return combine(selectedChars, 0);
+  private String getLetterByChar(char c) {
+    switch (c) {
+      case '2':
+        return "abc";
+      case '3':
+        return "def";
+      case '4':
+        return "ghi";
+      case '5':
+        return "jkl";
+      case '6':
+        return "mno";
+      case '7':
+        return "pqrs";
+      case '8':
+        return "tuv";
+      case '9':
+        return "wxyz";
+      default:
+        return "";
+    }
+  }
+
+  /**
+   * Runtime: 32 ms, faster than 6.94% of Java online submissions for Letter Combinations of a Phone Number.
+   *
+   * Memory Usage: 36.2 MB, less than 99.10% of Java online submissions for Letter Combinations of a Phone Number.
+   */
+  public List<String> letterCombinations1(String digits) {
+    if (Objects.isNull(digits) || digits.length() == 0) {
+      return Collections.EMPTY_LIST;
     }
 
-    public List<String> combine(char[][] chars, int depth) {
-        List<String> result = new ArrayList<>();
-        char[] rowChars = chars[depth];
-        if (depth == chars.length - 1) {
-            for (int i = 0; i < rowChars.length; i++) {
-                result.add(rowChars[i] + "");
-            }
-        } else {
-            List<String> strings = combine(chars, depth + 1);
-            for (int i = 0; i < rowChars.length; i++) {
-                char aChar = rowChars[i];
-                strings.forEach(s -> result.add(aChar + s));
-            }
-        }
-        return result;
+    char[] chars = digits.toCharArray();
+    List<Integer> integers = new ArrayList<>();
+    int length = chars.length;
+    for (int i = 0; i < length; i++) {
+      int num = chars[i] - '0';
+      if (num > 1) {
+        integers.add(num);
+      }
+    }
+    char[][] int2chars = new char[][]{
+      {},
+      {},
+      {'a', 'b', 'c'},
+      {'d', 'e', 'f'},
+      {'g', 'h', 'i'},
+      {'j', 'k', 'l'},
+      {'m', 'n', 'o'},
+      {'p', 'q', 'r', 's'},
+      {'t', 'u', 'v'},
+      {'w', 'x', 'y', 'z'},
+    };
+    int size = integers.size();
+    char[][] selectedChars = new char[size][];
+    for (int i = 0; i < size; i++) {
+      selectedChars[i] = int2chars[integers.get(i)];
     }
 
+    return combine(selectedChars, 0);
+  }
 
-    public static void main(String[] args) {
-        _0017_LetterCombinationsOfAPhoneNumber solution = new _0017_LetterCombinationsOfAPhoneNumber();
-        List<String> r1 = solution.letterCombinations("23");
-        Collections.sort(r1);
-        System.out.println(Arrays.toString(r1.toArray(new String[0])));
-        List<String> s1 = Arrays.asList("ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf");
-        Collections.sort(s1);
-        System.out.println(s1.equals(r1) + " : " + Arrays.toString(r1.toArray(new String[0])));
+  public List<String> combine(char[][] chars, int depth) {
+    List<String> result = new ArrayList<>();
+    char[] rowChars = chars[depth];
+    if (depth == chars.length - 1) {
+      for (int i = 0; i < rowChars.length; i++) {
+        result.add(rowChars[i] + "");
+      }
+    } else {
+      List<String> strings = combine(chars, depth + 1);
+      for (int i = 0; i < rowChars.length; i++) {
+        char aChar = rowChars[i];
+        strings.forEach(s -> result.add(aChar + s));
+      }
     }
+    return result;
+  }
+
+
+  public static void main(String[] args) {
+    _0017_LetterCombinationsOfAPhoneNumber solution = new _0017_LetterCombinationsOfAPhoneNumber();
+    List<String> r1 = solution.letterCombinations("23");
+    Collections.sort(r1);
+    System.out.println(Arrays.toString(r1.toArray(new String[0])));
+    List<String> s1 = Arrays.asList("ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf");
+    Collections.sort(s1);
+    System.out.println(s1.equals(r1) + " : " + Arrays.toString(r1.toArray(new String[0])));
+  }
 
 }

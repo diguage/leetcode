@@ -1,4 +1,4 @@
-== 472. Concatenated Words
+= 472. Concatenated Words
 
 https://leetcode.com/problems/concatenated-words/[LeetCode - Concatenated Words]
 
@@ -31,7 +31,7 @@ A concatenated word is defined as a string that is comprised entirely of at leas
 
 
 [[src-0472]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0472_ConcatenatedWords.java[]
 ----

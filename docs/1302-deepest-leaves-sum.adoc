@@ -1,4 +1,4 @@
-== 1302. Deepest Leaves Sum
+= 1302. Deepest Leaves Sum
 
 https://leetcode.com/problems/deepest-leaves-sum/[LeetCode - Deepest Leaves Sum]
 
@@ -24,7 +24,7 @@ Given a binary tree, return the sum of values of its deepest leaves.
 
 
 [[src-1302]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1302_DeepestLeavesSum.java[]
 ----

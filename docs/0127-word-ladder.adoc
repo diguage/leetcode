@@ -1,4 +1,4 @@
-== 127. Word Ladder
+= 127. Word Ladder
 
 https://leetcode.com/problems/word-ladder/[LeetCode - Word Ladder]
 
@@ -61,7 +61,7 @@ wordList = ["hot","dot","dog","lot","log"]
 
 
 [[src-0127]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0127_WordLadder.java[]
 ----

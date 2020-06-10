@@ -1,4 +1,4 @@
-== 707. Design Linked List
+= 707. Design Linked List
 
 https://leetcode.com/problems/design-linked-list/[LeetCode - Design Linked List]
 
@@ -48,7 +48,7 @@ linkedList.get(1);            // returns 3
 
 
 [[src-0707]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0707_DesignLinkedList.java[]
 ----

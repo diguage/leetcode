@@ -1,4 +1,4 @@
-== 526. Beautiful Arrangement
+= 526. Beautiful Arrangement
 
 https://leetcode.com/problems/beautiful-arrangement/[LeetCode - Beautiful Arrangement]
 
@@ -47,7 +47,7 @@ Number at the 2nd position (i=2) is 1, and i (i=2) is divisible by 1.
 
 
 [[src-0526]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0526_BeautifulArrangement.java[]
 ----

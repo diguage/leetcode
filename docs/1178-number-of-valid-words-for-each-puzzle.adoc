@@ -1,4 +1,4 @@
-== 1178. Number of Valid Words for Each Puzzle
+= 1178. Number of Valid Words for Each Puzzle
 
 https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/[LeetCode - Number of Valid Words for Each Puzzle]
 
@@ -44,7 +44,7 @@ There're no valid words for "gaswxyz" cause none of the words in the list contai
 
 
 [[src-1178]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1178_NumberOfValidWordsForEachPuzzle.java[]
 ----

@@ -1,4 +1,4 @@
-== 1248. Count Number of Nice Subarrays
+= 1248. Count Number of Nice Subarrays
 
 https://leetcode.com/problems/count-number-of-nice-subarrays/[LeetCode - Count Number of Nice Subarrays]
 
@@ -45,7 +45,7 @@ Return the number of *nice* sub-arrays.
 
 
 [[src-1248]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1248_CountNumberOfNiceSubarrays.java[]
 ----

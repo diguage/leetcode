@@ -1,4 +1,4 @@
-== 72. Edit Distance
+= 72. Edit Distance
 
 https://leetcode.com/problems/edit-distance/[LeetCode - Edit Distance]
 
@@ -41,7 +41,7 @@ exection -> execution (insert 'u')
 
 
 [[src-0072]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0072_EditDistance.java[]
 ----

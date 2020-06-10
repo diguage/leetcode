@@ -1,4 +1,4 @@
-== 50. Pow(x, n)
+= 50. Pow(x, n)
 
 https://leetcode.com/problems/powx-n/[LeetCode - Pow(x, n)]
 
@@ -43,7 +43,7 @@ Implement http://www.cplusplus.com/reference/valarray/pow/[pow(_x_, _n_)], which
 
 
 [[src-0050]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0050_PowXN.java[]
 ----

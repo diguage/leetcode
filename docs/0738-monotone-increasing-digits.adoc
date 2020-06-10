@@ -1,4 +1,4 @@
-== 738. Monotone Increasing Digits
+= 738. Monotone Increasing Digits
 
 https://leetcode.com/problems/monotone-increasing-digits/[LeetCode - Monotone Increasing Digits]
 
@@ -44,7 +44,7 @@ Given a non-negative integer `N`, find the largest number that is less than or e
 
 
 [[src-0738]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0738_MonotoneIncreasingDigits.java[]
 ----

@@ -1,0 +1,28 @@
+[#longest-common-substring]
+== Longest Common Substring，最长子字符串系列
+
+Longest Common Substring，最长相同子串
+
+Longest Common Subsequence，最长相同子序列
+
+Minimum Deletions & Insertions to Transform a String into another，字符串变换
+
+Longest Increasing Subsequence，最长上升子序列
+
+Maximum Sum Increasing Subsequence，最长上升子序列和
+
+Shortest Common Super-sequence，最短超级子序列
+
+Minimum Deletions to Make a Sequence Sorted，最少删除变换出子序列
+
+Longest Repeating Subsequence，最长重复子序列
+
+Subsequence Pattern Matching，子序列匹配
+
+Longest Bitonic Subsequence，最长字节子序列
+
+Longest Alternating Subsequence，最长交差变换子序列
+
+Edit Distance，编辑距离
+
+Strings Interleaving，交织字符串

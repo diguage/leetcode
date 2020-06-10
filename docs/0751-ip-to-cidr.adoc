@@ -1,11 +1,11 @@
-== 751. IP to CIDR
+= 751. IP to CIDR
 
 https://leetcode.com/problems/ip-to-cidr/[LeetCode - IP to CIDR]
 
 
 
 [[src-0751]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0751_IPToCIDR.java[]
 ----

@@ -1,4 +1,4 @@
-== 865. Smallest Subtree with all the Deepest Nodes
+= 865. Smallest Subtree with all the Deepest Nodes
 
 https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/[LeetCode - Smallest Subtree with all the Deepest Nodes]
 
@@ -41,7 +41,7 @@ Both the input and output have TreeNode type.
 
 
 [[src-0865]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0865_SmallestSubtreeWithAllTheDeepestNodes.java[]
 ----

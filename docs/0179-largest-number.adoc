@@ -1,4 +1,4 @@
-== 179. Largest Number
+= 179. Largest Number
 
 https://leetcode.com/problems/largest-number/[LeetCode - Largest Number]
 
@@ -27,7 +27,7 @@ Given a list of non negative integers, arrange them such that they form the larg
 
 
 [[src-0179]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0179_LargestNumber.java[]
 ----

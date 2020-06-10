@@ -1,4 +1,4 @@
-== 1326. Minimum Number of Taps to Open to Water a Garden
+= 1326. Minimum Number of Taps to Open to Water a Garden
 
 https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/[LeetCode - Minimum Number of Taps to Open to Water a Garden]
 
@@ -72,7 +72,7 @@ Opening Only the second tap will water the whole garden [0,5]
 
 
 [[src-1326]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1326_MinimumNumberOfTapsToOpenToWaterAGarden.java[]
 ----

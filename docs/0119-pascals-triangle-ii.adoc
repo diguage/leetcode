@@ -1,4 +1,4 @@
-== 119. Pascal's Triangle II
+= 119. Pascal's Triangle II
 
 https://leetcode.com/problems/pascals-triangle-ii/[LeetCode - Pascal's Triangle II]
 
@@ -26,7 +26,7 @@ Could you optimize your algorithm to use only _O_(_k_) extra space?
 
 
 [[src-0119]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0119_PascalSTriangleII.java[]
 ----

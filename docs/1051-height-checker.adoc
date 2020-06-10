@@ -1,4 +1,4 @@
-== 1051. Height Checker
+= 1051. Height Checker
 
 https://leetcode.com/problems/height-checker/[LeetCode - Height Checker]
 
@@ -24,7 +24,7 @@ Return the minimum number of students that must move in order for all students t
 
 
 [[src-1051]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1051_HeightChecker.java[]
 ----

@@ -1,4 +1,4 @@
-== 972. Equal Rational Numbers
+= 972. Equal Rational Numbers
 
 https://leetcode.com/problems/equal-rational-numbers/[LeetCode - Equal Rational Numbers]
 
@@ -70,7 +70,7 @@ Because "0.(52)" represents 0.52525252..., and "0.5(25)" represents 0.5252525252
 
 
 [[src-0972]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0972_EqualRationalNumbers.java[]
 ----

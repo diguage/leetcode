@@ -1,11 +1,11 @@
-== 1136. Parallel Courses
+= 1136. Parallel Courses
 
 https://leetcode.com/problems/parallel-courses/[LeetCode - Parallel Courses]
 
 
 
 [[src-1136]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1136_ParallelCourses.java[]
 ----

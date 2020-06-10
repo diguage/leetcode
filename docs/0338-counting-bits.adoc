@@ -1,4 +1,4 @@
-== 338. Counting Bits
+= 338. Counting Bits
 
 https://leetcode.com/problems/counting-bits/[LeetCode - Counting Bits]
 
@@ -22,7 +22,7 @@ Output: [0,1,1,2,1,2]
 * Space complexity should be *O(n)*.
 * Can you do it like a boss? Do it without using any builtin function like ___builtin_popcount_ in c++ or in any other language.
 
-=== 解题分析
+== 解题分析
 
 从 `0` 开始，每个奇数包含 `1` 的个数，都比前面一个数要多 `1`。所以，只需要计算偶数包含的 `1` 的个数，然后奇数直接在前面的基础上加 `1` 即可。
 
@@ -57,7 +57,7 @@ for (int i = 0; i < 99; i++) {
 
 思考题：尝试"动态规划 + 最低有效位"的解法。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/counting-bits/solution/bi-te-wei-ji-shu-by-leetcode/[比特位计数 - 比特位计数 - 力扣（LeetCode）]
 
@@ -89,7 +89,7 @@ Given a non negative integer number *num*. For every numbers *i* in the range *0
 
 
 [[src-0338]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0338_CountingBits.java[]
 ----

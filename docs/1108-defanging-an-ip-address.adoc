@@ -1,4 +1,4 @@
-== 1108. Defanging an IP Address
+= 1108. Defanging an IP Address
 
 https://leetcode.com/problems/defanging-an-ip-address/[LeetCode - Defanging an IP Address]
 
@@ -31,7 +31,7 @@ A _defanged IP address_ replaces every period `"."` with `"[.]"`.
 
 
 [[src-1108]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1108_DefangingAnIPAddress.java[]
 ----

@@ -1,4 +1,4 @@
-== 685. Redundant Connection II
+= 685. Redundant Connection II
 
 https://leetcode.com/problems/redundant-connection-ii/[LeetCode - Redundant Connection II]
 
@@ -47,7 +47,7 @@ v   v
 
 
 [[src-0685]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0685_RedundantConnectionII.java[]
 ----

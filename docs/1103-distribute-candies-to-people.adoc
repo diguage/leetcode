@@ -1,4 +1,4 @@
-== 1103. Distribute Candies to People
+= 1103. Distribute Candies to People
 
 https://leetcode.com/problems/distribute-candies-to-people/[LeetCode - Distribute Candies to People]
 
@@ -50,7 +50,7 @@ On the fourth turn, ans[0] += 4, and the final array is [5,2,3].
 
 
 [[src-1103]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1103_DistributeCandiesToPeople.java[]
 ----

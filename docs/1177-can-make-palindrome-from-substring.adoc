@@ -1,4 +1,4 @@
-== 1177. Can Make Palindrome from Substring
+= 1177. Can Make Palindrome from Substring
 
 https://leetcode.com/problems/can-make-palindrome-from-substring/[LeetCode - Can Make Palindrome from Substring]
 
@@ -40,7 +40,7 @@ queries[4] : substring = "abcda", could be changed to "abcba" which is palidrome
 
 
 [[src-1177]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1177_CanMakePalindromeFromSubstring.java[]
 ----

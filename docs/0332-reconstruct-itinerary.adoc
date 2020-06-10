@@ -1,4 +1,4 @@
-== 332. Reconstruct Itinerary
+= 332. Reconstruct Itinerary
 
 https://leetcode.com/problems/reconstruct-itinerary/[LeetCode - Reconstruct Itinerary]
 
@@ -33,7 +33,7 @@ Given a list of airline tickets represented by pairs of departure and arrival ai
 
 
 [[src-0332]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0332_ReconstructItinerary.java[]
 ----

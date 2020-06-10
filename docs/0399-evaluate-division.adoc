@@ -1,4 +1,4 @@
-== 399. Evaluate Division
+= 399. Evaluate Division
 
 https://leetcode.com/problems/evaluate-division/[LeetCode - Evaluate Division]
 
@@ -33,7 +33,7 @@ The input is always valid. You may assume that evaluating the queries will resul
 
 
 [[src-0399]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0399_EvaluateDivision.java[]
 ----

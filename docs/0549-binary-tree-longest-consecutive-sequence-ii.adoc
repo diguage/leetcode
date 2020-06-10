@@ -1,11 +1,11 @@
-== 549. Binary Tree Longest Consecutive Sequence II
+= 549. Binary Tree Longest Consecutive Sequence II
 
 https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/[LeetCode - Binary Tree Longest Consecutive Sequence II]
 
 
 
 [[src-0549]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0549_BinaryTreeLongestConsecutiveSequenceII.java[]
 ----

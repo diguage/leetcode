@@ -1,11 +1,11 @@
-== 1121. Divide Array Into Increasing Sequences
+= 1121. Divide Array Into Increasing Sequences
 
 https://leetcode.com/problems/divide-array-into-increasing-sequences/[LeetCode - Divide Array Into Increasing Sequences]
 
 
 
 [[src-1121]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1121_DivideArrayIntoIncreasingSequences.java[]
 ----

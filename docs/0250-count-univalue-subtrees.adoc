@@ -1,11 +1,11 @@
-== 250. Count Univalue Subtrees
+= 250. Count Univalue Subtrees
 
 https://leetcode.com/problems/count-univalue-subtrees/[LeetCode - Count Univalue Subtrees]
 
 
 
 [[src-0250]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0250_CountUnivalueSubtrees.java[]
 ----

@@ -1,4 +1,4 @@
-== 494. Target Sum
+= 494. Target Sum
 
 https://leetcode.com/problems/target-sum/[LeetCode - Target Sum]
 
@@ -27,16 +27,16 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 . The sum of elements in the given array will not exceed 1000.
 . Your output answer is guaranteed to be fitted in a 32-bit integer.
 
-=== 解题分析
+== 解题分析
 
 这道题可以使用 DFS 解决。不过，需要注意的是，只需要保存关键变量即可。另外，也可以增加实例变量。
 
-=== 思考题
+== 思考题
 
 . 再推敲一下动态规划的解法；
 . 学习背包问题！
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/target-sum/solution/mu-biao-he-by-leetcode/[目标和 - 目标和 - 力扣（LeetCode）]
 . https://leetcode-cn.com/problems/target-sum/solution/dong-tai-gui-hua-ji-bai-liao-98de-javayong-hu-by-r/[动态规划击败了98%的java用户 - 目标和 - 力扣（LeetCode）]
@@ -78,7 +78,7 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 
 
 [[src-0494]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0494_TargetSum.java[]
 ----

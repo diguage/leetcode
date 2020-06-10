@@ -1,4 +1,4 @@
-== 67. Add Binary
+= 67. Add Binary
 
 https://leetcode.com/problems/add-binary/[LeetCode - Add Binary]
 
@@ -40,7 +40,7 @@ The input strings are both *non-empty* and contains only characters `1` or `0`.
 
 
 [[src-0067]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0067_AddBinary.java[]
 ----

@@ -1,4 +1,4 @@
-== 84. Largest Rectangle in Histogram
+= 84. Largest Rectangle in Histogram
 
 https://leetcode.com/problems/largest-rectangle-in-histogram/[LeetCode - Largest Rectangle in Histogram]
 
@@ -30,7 +30,7 @@ image::https://assets.leetcode.com/uploads/2018/10/12/histogram_area.png[]
 
 
 [[src-0084]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0084_LargestRectangleInHistogram.java[]
 ----

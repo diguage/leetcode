@@ -1,4 +1,4 @@
-== 60. Permutation Sequence
+= 60. Permutation Sequence
 
 https://leetcode.com/problems/permutation-sequence/[LeetCode - Permutation Sequence]
 
@@ -32,7 +32,7 @@ Input: n = 4, k = 9
 Output: "2314"
 ----
 
-=== 解题分析
+== 解题分析
 
 image::images/0060-5.png[]
 
@@ -42,11 +42,11 @@ image::images/0060-6.png[]
 
 这里的重点是如何剪枝！
 
-=== 思考题
+== 思考题
 
 对回溯再推敲推敲！
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/permutation-sequence/solution/hui-su-jian-zhi-python-dai-ma-java-dai-ma-by-liwei/[深度优先遍历 + 剪枝、双链表模拟 - 第k个排列 - 力扣（LeetCode）]
 
@@ -90,7 +90,7 @@ Given _n_ and _k_, return the _k_^th^ permutation sequence.
 
 
 [[src-0060]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0060_PermutationSequence.java[]
 ----

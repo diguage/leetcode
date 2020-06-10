@@ -1,4 +1,4 @@
-== 478. Generate Random Point in a Circle
+= 478. Generate Random Point in a Circle
 
 https://leetcode.com/problems/generate-random-point-in-a-circle/[LeetCode - Generate Random Point in a Circle]
 
@@ -44,7 +44,7 @@ The input is two lists: the subroutines called and their arguments. `Solution`'s
 
 
 [[src-0478]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0478_GenerateRandomPointInACircle.java[]
 ----

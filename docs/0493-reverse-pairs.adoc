@@ -1,4 +1,4 @@
-== 493. Reverse Pairs
+= 493. Reverse Pairs
 
 https://leetcode.com/problems/reverse-pairs/[LeetCode - Reverse Pairs]
 
@@ -29,7 +29,7 @@ You need to return the number of important reverse pairs in the given array.
 
 
 [[src-0493]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0493_ReversePairs.java[]
 ----

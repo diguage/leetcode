@@ -1,11 +1,11 @@
-== 305. Number of Islands II
+= 305. Number of Islands II
 
 https://leetcode.com/problems/number-of-islands-ii/[LeetCode - Number of Islands II]
 
 
 
 [[src-0305]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0305_NumberOfIslandsII.java[]
 ----

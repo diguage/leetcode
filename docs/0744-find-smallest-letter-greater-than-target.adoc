@@ -1,4 +1,4 @@
-== 744. Find Smallest Letter Greater Than Target
+= 744. Find Smallest Letter Greater Than Target
 
 https://leetcode.com/problems/find-smallest-letter-greater-than-target/[LeetCode - Find Smallest Letter Greater Than Target]
 
@@ -55,7 +55,7 @@ target = "k"
 
 
 [[src-0744]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0744_FindSmallestLetterGreaterThanTarget.java[]
 ----

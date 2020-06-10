@@ -1,4 +1,4 @@
-== 134. Gas Station
+= 134. Gas Station
 
 https://leetcode.com/problems/gas-station/[LeetCode - Gas Station]
 
@@ -70,7 +70,7 @@ Therefore, you can't travel around the circuit once no matter where you start.
 
 
 [[src-0134]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0134_GasStation.java[]
 ----

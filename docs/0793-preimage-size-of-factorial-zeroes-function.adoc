@@ -1,4 +1,4 @@
-== 793. Preimage Size of Factorial Zeroes Function
+= 793. Preimage Size of Factorial Zeroes Function
 
 https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/[LeetCode - Preimage Size of Factorial Zeroes Function]
 
@@ -28,7 +28,7 @@ For example, `f(3) = 0` because 3! = 6 has no zeroes at the end, while `f(11) = 
 
 
 [[src-0793]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0793_PreimageSizeOfFactorialZeroesFunction.java[]
 ----

@@ -1,4 +1,4 @@
-== 1287. Element Appearing More Than 25% In Sorted Array
+= 1287. Element Appearing More Than 25% In Sorted Array
 
 https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/[LeetCode - Element Appearing More Than 25% In Sorted Array]
 
@@ -23,7 +23,7 @@ Return that integer.
 
 
 [[src-1287]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1287_ElementAppearingMoreThan25InSortedArray.java[]
 ----

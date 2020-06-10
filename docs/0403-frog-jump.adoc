@@ -1,4 +1,4 @@
-== 403. Frog Jump
+= 403. Frog Jump
 
 https://leetcode.com/problems/frog-jump/[LeetCode - Frog Jump]
 
@@ -46,7 +46,7 @@ the gap between the 5th and 6th stone is too large.
 
 
 [[src-0403]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0403_FrogJump.java[]
 ----

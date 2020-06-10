@@ -1,4 +1,4 @@
-== 765. Couples Holding Hands
+= 765. Couples Holding Hands
 
 https://leetcode.com/problems/couples-holding-hands/[LeetCode - Couples Holding Hands]
 
@@ -36,7 +36,7 @@ The couples' initial seating is given by `row[i]` being the value of the person 
 
 
 [[src-0765]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0765_CouplesHoldingHands.java[]
 ----

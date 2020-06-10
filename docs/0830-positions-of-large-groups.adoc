@@ -1,4 +1,4 @@
-== 830. Positions of Large Groups
+= 830. Positions of Large Groups
 
 https://leetcode.com/problems/positions-of-large-groups/[LeetCode - Positions of Large Groups]
 
@@ -47,7 +47,7 @@ The final answer should be in lexicographic order.
 
 
 [[src-0830]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0830_PositionsOfLargeGroups.java[]
 ----

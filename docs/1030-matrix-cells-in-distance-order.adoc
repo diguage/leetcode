@@ -1,4 +1,4 @@
-== 1030. Matrix Cells in Distance Order
+= 1030. Matrix Cells in Distance Order
 
 https://leetcode.com/problems/matrix-cells-in-distance-order/[LeetCode - Matrix Cells in Distance Order]
 
@@ -59,7 +59,7 @@ There are other answers that would also be accepted as correct, such as [[1,2],[
 
 
 [[src-1030]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1030_MatrixCellsInDistanceOrder.java[]
 ----

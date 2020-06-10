@@ -1,4 +1,4 @@
-== 135. Candy
+= 135. Candy
 
 https://leetcode.com/problems/candy/[LeetCode - Candy]
 
@@ -35,7 +35,7 @@ What is the minimum candies you must give?
 
 
 [[src-0135]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0135_Candy.java[]
 ----

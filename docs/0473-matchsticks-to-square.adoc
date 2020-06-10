@@ -1,4 +1,4 @@
-== 473. Matchsticks to Square
+= 473. Matchsticks to Square
 
 https://leetcode.com/problems/matchsticks-to-square/[LeetCode - Matchsticks to Square]
 
@@ -39,7 +39,7 @@ Remember the story of Little Match Girl? By now, you know exactly what matchstic
 
 
 [[src-0473]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0473_MatchsticksToSquare.java[]
 ----

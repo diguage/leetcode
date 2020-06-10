@@ -1,4 +1,4 @@
-== 563. Binary Tree Tilt
+= 563. Binary Tree Tilt
 
 https://leetcode.com/problems/binary-tree-tilt/[LeetCode - Binary Tree Tilt]
 
@@ -35,7 +35,7 @@ Tilt of binary tree : 0 + 0 + 1 = 1
 
 
 [[src-0563]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0563_BinaryTreeTilt.java[]
 ----

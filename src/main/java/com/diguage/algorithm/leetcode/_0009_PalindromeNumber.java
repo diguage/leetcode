@@ -42,33 +42,52 @@ import java.util.List;
  * @since 2018-07-01
  */
 public class _0009_PalindromeNumber {
-    public static boolean isPalindrome(int x) {
-        boolean result = true;
-        if (x < 0) {
-            return false;
-        }
-        int multiBitNumStarter = 10;
-        if (x < multiBitNumStarter) {
-            return result;
-        }
-        List<Integer> bitNums = new ArrayList<>(25);
-        for (int i = x; i > 0; i /= 10) {
-            bitNums.add(i % 10);
-        }
-        int halfLength = bitNums.size() / 2;
-        for (int i = 0; i < halfLength; i++) {
-            if (!bitNums.get(i).equals(bitNums.get(bitNums.size() - i - 1))) {
-                result = false;
-                break;
-            }
-        }
 
-        return result;
+  public static boolean isPalindrome(int x) {
+    if (x < 0 || (x > 0 && x % 10 == 0)) {
+      return false;
+    }
+    // 如果是回文数字，则反转之后数字相等。
+    // 可以再进一步，不需要完全反转，只需要反转一半即可。
+    int part = 0;
+    while (x > part) {
+      int digit = x % 10;
+      part = part * 10 + digit;
+      x /= 10;
+    }
+    // 这里分分两种情况：
+    // abccba 型，则 x == part == abc
+    // abcba  型，则 x == 12, part = abc，所以 x == part / 10
+    return x == part || x == part / 10;
+  }
+
+  public static boolean isPalindromeDigits(int x) {
+    boolean result = true;
+    if (x < 0) {
+      return false;
+    }
+    int multiBitNumStarter = 10;
+    if (x < multiBitNumStarter) {
+      return result;
+    }
+    List<Integer> bitNums = new ArrayList<>(25);
+    for (int i = x; i > 0; i /= 10) {
+      bitNums.add(i % 10);
+    }
+    int halfLength = bitNums.size() / 2;
+    for (int i = 0; i < halfLength; i++) {
+      if (!bitNums.get(i).equals(bitNums.get(bitNums.size() - i - 1))) {
+        result = false;
+        break;
+      }
     }
 
-    public static void main(String[] args) {
-        System.out.println(isPalindrome(121));
-        System.out.println(isPalindrome(-121));
-        System.out.println(isPalindrome(10));
-    }
+    return result;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(isPalindrome(121));
+    System.out.println(isPalindrome(-121));
+    System.out.println(isPalindrome(10));
+  }
 }

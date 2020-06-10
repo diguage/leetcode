@@ -1,11 +1,11 @@
-== 510. Inorder Successor in BST II
+= 510. Inorder Successor in BST II
 
 https://leetcode.com/problems/inorder-successor-in-bst-ii/[LeetCode - Inorder Successor in BST II]
 
 
 
 [[src-0510]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0510_InorderSuccessorInBSTII.java[]
 ----

@@ -1,4 +1,4 @@
-== 344. Reverse String
+= 344. Reverse String
 
 https://leetcode.com/problems/reverse-string/[LeetCode - Reverse String]
 
@@ -34,7 +34,7 @@ You may assume all the characters consist of https://en.wikipedia.org/wiki/ASCII
 
 
 [[src-0344]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0344_ReverseString.java[]
 ----

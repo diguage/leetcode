@@ -1,4 +1,4 @@
-== 479. Largest Palindrome Product
+= 479. Largest Palindrome Product
 
 https://leetcode.com/problems/largest-palindrome-product/[LeetCode - Largest Palindrome Product]
 
@@ -25,7 +25,7 @@ The range of n is [1,8].
 
 
 [[src-0479]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0479_LargestPalindromeProduct.java[]
 ----

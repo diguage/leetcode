@@ -9,6 +9,12 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-04-25 23:32
  */
 public class _0154_FindMinimumInRotatedSortedArrayII {
+    /**
+     * Runtime: 0 ms, faster than 100.00% of Java online submissions for Find Minimum in Rotated Sorted Array II.
+     * Memory Usage: 39.5 MB, less than 31.25% of Java online submissions for Find Minimum in Rotated Sorted Array II.
+     *
+     * Copy from: https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/solution/xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-zui-1-8/[寻找旋转排序数组中的最小值 II - 寻找旋转排序数组中的最小值 II - 力扣（LeetCode）]
+     */
     public int findMin(int[] nums) {
         int low = 0;
         int high = nums.length - 1;

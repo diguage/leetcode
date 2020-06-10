@@ -1,4 +1,4 @@
-== 917. Reverse Only Letters
+= 917. Reverse Only Letters
 
 https://leetcode.com/problems/reverse-only-letters/[LeetCode - Reverse Only Letters]
 
@@ -59,7 +59,7 @@ Given a string `S`, return the "reversed" string where all characters that are n
 
 
 [[src-0917]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0917_ReverseOnlyLetters.java[]
 ----

@@ -1,4 +1,4 @@
-== 1238. Circular Permutation in Binary Representation
+= 1238. Circular Permutation in Binary Representation
 
 https://leetcode.com/problems/circular-permutation-in-binary-representation/[LeetCode - Circular Permutation in Binary Representation]
 
@@ -41,7 +41,7 @@ All the adjacent element differ by one bit. Another valid permutation is [3,1,0,
 
 
 [[src-1238]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1238_CircularPermutationInBinaryRepresentation.java[]
 ----

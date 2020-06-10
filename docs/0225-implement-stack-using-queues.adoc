@@ -1,4 +1,4 @@
-== 225. Implement Stack using Queues
+= 225. Implement Stack using Queues
 
 https://leetcode.com/problems/implement-stack-using-queues/[LeetCode - Implement Stack using Queues]
 
@@ -35,7 +35,7 @@ stack.empty(); // returns false
 
 
 [[src-0225]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0225_ImplementStackUsingQueues.java[]
 ----

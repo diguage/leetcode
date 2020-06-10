@@ -1,4 +1,4 @@
-== 377. Combination Sum IV
+= 377. Combination Sum IV
 
 https://leetcode.com/problems/combination-sum-iv/[LeetCode - Combination Sum IV]
 
@@ -46,7 +46,7 @@ Special thanks to <a href="https://leetcode.com/pbrother/">@pbrother</a> for add
 
 
 [[src-0377]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0377_CombinationSumIV.java[]
 ----

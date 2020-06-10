@@ -1,4 +1,4 @@
-== 692. Top K Frequent Words
+= 692. Top K Frequent Words
 
 https://leetcode.com/problems/top-k-frequent-words/[LeetCode - Top K Frequent Words]
 
@@ -46,7 +46,7 @@ Your answer should be sorted by frequency from highest to lowest. If two words h
 
 
 [[src-0692]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0692_TopKFrequentWords.java[]
 ----

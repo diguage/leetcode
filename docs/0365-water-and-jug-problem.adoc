@@ -1,4 +1,4 @@
-== 365. Water and Jug Problem
+= 365. Water and Jug Problem
 
 https://leetcode.com/problems/water-and-jug-problem/[LeetCode - Water and Jug Problem]
 
@@ -32,7 +32,7 @@ Output: False
 
 
 [[src-0365]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0365_WaterAndJugProblem.java[]
 ----

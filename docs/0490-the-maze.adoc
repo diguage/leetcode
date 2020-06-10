@@ -1,11 +1,11 @@
-== 490. The Maze
+= 490. The Maze
 
 https://leetcode.com/problems/the-maze/[LeetCode - The Maze]
 
 
 
 [[src-0490]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0490_TheMaze.java[]
 ----

@@ -1,4 +1,4 @@
-== 283. Move Zeroes
+= 283. Move Zeroes
 
 https://leetcode.com/problems/move-zeroes/[LeetCode - Move Zeroes]
 
@@ -23,7 +23,7 @@ Given an array `nums`, write a function to move all `0`'s to the end of it while
 
 
 [[src-0283]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0283_MoveZeroes.java[]
 ----

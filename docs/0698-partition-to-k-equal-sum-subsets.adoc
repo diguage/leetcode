@@ -1,4 +1,4 @@
-== 698. Partition to K Equal Sum Subsets
+= 698. Partition to K Equal Sum Subsets
 
 https://leetcode.com/problems/partition-to-k-equal-sum-subsets/[LeetCode - Partition to K Equal Sum Subsets]
 
@@ -27,7 +27,7 @@ Given an array of integers `nums` and a positive integer `k`, find whether it's 
 
 
 [[src-0698]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0698_PartitionToKEqualSumSubsets.java[]
 ----

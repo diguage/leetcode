@@ -1,11 +1,11 @@
-== 614. Second Degree Follower
+= 614. Second Degree Follower
 
 https://leetcode.com/problems/second-degree-follower/[LeetCode - Second Degree Follower]
 
 
 
 [[src-0614]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0614_SecondDegreeFollower.java[]
 ----

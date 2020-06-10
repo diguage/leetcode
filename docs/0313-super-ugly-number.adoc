@@ -1,4 +1,4 @@
-== 313. Super Ugly Number
+= 313. Super Ugly Number
 
 https://leetcode.com/problems/super-ugly-number/[LeetCode - Super Ugly Number]
 
@@ -28,7 +28,7 @@ Super ugly numbers are positive numbers whose all prime factors are in the given
 
 
 [[src-0313]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0313_SuperUglyNumber.java[]
 ----

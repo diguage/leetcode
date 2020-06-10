@@ -1,4 +1,4 @@
-== 1224. Maximum Equal Frequency
+= 1224. Maximum Equal Frequency
 
 https://leetcode.com/problems/maximum-equal-frequency/[LeetCode - Maximum Equal Frequency]
 
@@ -51,7 +51,7 @@ If after removing one element there are no remaining elements, it's still consid
 
 
 [[src-1224]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1224_MaximumEqualFrequency.java[]
 ----

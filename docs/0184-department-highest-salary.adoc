@@ -1,4 +1,4 @@
-== 184. Department Highest Salary
+= 184. Department Highest Salary
 
 https://leetcode.com/problems/department-highest-salary/[LeetCode - Department Highest Salary]
 
@@ -49,7 +49,7 @@ Max and Jim both have the highest salary in the IT department and Henry has the 
 
 
 [[src-0184]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0184_DepartmentHighestSalary.java[]
 ----

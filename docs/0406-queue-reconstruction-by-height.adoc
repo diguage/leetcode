@@ -1,4 +1,4 @@
-== 406. Queue Reconstruction by Height
+= 406. Queue Reconstruction by Height
 
 https://leetcode.com/problems/queue-reconstruction-by-height/[LeetCode - Queue Reconstruction by Height]
 
@@ -20,7 +20,7 @@ Output:
 
 这道题有点不明觉厉。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/queue-reconstruction-by-height/solution/gen-ju-shen-gao-zhong-jian-dui-lie-by-leetcode/[根据身高重建队列 - 根据身高重建队列 - 力扣（LeetCode）]
 
@@ -48,7 +48,7 @@ Output:
 
 
 [[src-0406]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0406_QueueReconstructionByHeight.java[]
 ----

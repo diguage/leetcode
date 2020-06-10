@@ -1,11 +1,11 @@
-== 1066. Campus Bikes II
+= 1066. Campus Bikes II
 
 https://leetcode.com/problems/campus-bikes-ii/[LeetCode - Campus Bikes II]
 
 
 
 [[src-1066]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1066_CampusBikesII.java[]
 ----

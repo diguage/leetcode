@@ -1,4 +1,4 @@
-== 983. Minimum Cost For Tickets
+= 983. Minimum Cost For Tickets
 
 https://leetcode.com/problems/minimum-cost-for-tickets/[LeetCode - Minimum Cost For Tickets]
 
@@ -62,7 +62,7 @@ In total you spent $17 and covered all the days of your travel.
 
 
 [[src-0983]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0983_MinimumCostForTickets.java[]
 ----

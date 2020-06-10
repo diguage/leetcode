@@ -1,11 +1,11 @@
-== 484. Find Permutation
+= 484. Find Permutation
 
 https://leetcode.com/problems/find-permutation/[LeetCode - Find Permutation]
 
 
 
 [[src-0484]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0484_FindPermutation.java[]
 ----

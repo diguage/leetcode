@@ -1,4 +1,4 @@
-== 623. Add One Row to Tree
+= 623. Add One Row to Tree
 
 https://leetcode.com/problems/add-one-row-to-tree/[LeetCode - Add One Row to Tree]
 
@@ -73,7 +73,7 @@ A binary tree as following:
 
 
 [[src-0623]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0623_AddOneRowToTree.java[]
 ----

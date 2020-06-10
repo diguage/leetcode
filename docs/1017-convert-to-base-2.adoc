@@ -1,4 +1,4 @@
-== 1017. Convert to Base -2
+= 1017. Convert to Base -2
 
 https://leetcode.com/problems/convert-to-base-2/[LeetCode - Convert to Base -2]
 
@@ -51,7 +51,7 @@ The returned string must have no leading zeroes, unless the string is `"0"`.
 
 
 [[src-1017]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1017_ConvertToBase2.java[]
 ----

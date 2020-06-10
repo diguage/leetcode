@@ -1,4 +1,4 @@
-== 1307. Verbal Arithmetic Puzzle
+= 1307. Verbal Arithmetic Puzzle
 
 https://leetcode.com/problems/verbal-arithmetic-puzzle/[LeetCode - Verbal Arithmetic Puzzle]
 
@@ -67,7 +67,7 @@ Such that: "SIX" + "SEVEN" + "SEVEN" = "TWENTY" ,  650 + 68782 + 68782 = 138214
 
 
 [[src-1307]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1307_VerbalArithmeticPuzzle.java[]
 ----

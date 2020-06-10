@@ -1,11 +1,11 @@
-== 734. Sentence Similarity
+= 734. Sentence Similarity
 
 https://leetcode.com/problems/sentence-similarity/[LeetCode - Sentence Similarity]
 
 
 
 [[src-0734]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0734_SentenceSimilarity.java[]
 ----

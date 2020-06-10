@@ -1,4 +1,4 @@
-== 1220. Count Vowels Permutation
+= 1220. Count Vowels Permutation
 
 https://leetcode.com/problems/count-vowels-permutation/[LeetCode - Count Vowels Permutation]
 
@@ -54,7 +54,7 @@ Since the answer may be too large, return it modulo `10^9 + 7.`
 
 
 [[src-1220]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1220_CountVowelsPermutation.java[]
 ----

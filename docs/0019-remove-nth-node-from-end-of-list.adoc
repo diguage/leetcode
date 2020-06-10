@@ -1,4 +1,4 @@
-== 19. Remove Nth Node From End of List
+= 19. Remove Nth Node From End of List
 
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/[LeetCode - Remove Nth Node From End of List]
 
@@ -21,10 +21,18 @@ Given _n_ will always be valid.
 
 Could you do this in one pass?
 
+== 解题分析
+
+快慢指针
+
+image::images/0019-0.png[]
 
 [[src-0019]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0019_RemoveNthNodeFromEndOfList.java[]
 ----
 
+== 参考资料
+
+. https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-by-l/[删除链表的倒数第N个节点 - 删除链表的倒数第N个节点 - 力扣（LeetCode）]

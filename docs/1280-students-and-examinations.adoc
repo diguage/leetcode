@@ -1,11 +1,11 @@
-== 1280. Students and Examinations
+= 1280. Students and Examinations
 
 https://leetcode.com/problems/students-and-examinations/[LeetCode - Students and Examinations]
 
 
 
 [[src-1280]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1280_StudentsAndExaminations.java[]
 ----

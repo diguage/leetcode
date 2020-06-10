@@ -1,4 +1,4 @@
-== 1009. Complement of Base 10 Integer
+= 1009. Complement of Base 10 Integer
 
 https://leetcode.com/problems/complement-of-base-10-integer/[LeetCode - Complement of Base 10 Integer]
 
@@ -56,7 +56,7 @@ For a given number `N` in base-10, return the complement of it's binary represen
 
 
 [[src-1009]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1009_ComplementOfBase10Integer.java[]
 ----

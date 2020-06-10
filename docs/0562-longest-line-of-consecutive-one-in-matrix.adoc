@@ -1,11 +1,11 @@
-== 562. Longest Line of Consecutive One in Matrix
+= 562. Longest Line of Consecutive One in Matrix
 
 https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/[LeetCode - Longest Line of Consecutive One in Matrix]
 
 
 
 [[src-0562]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0562_LongestLineOfConsecutiveOneInMatrix.java[]
 ----

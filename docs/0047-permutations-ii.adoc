@@ -1,4 +1,4 @@
-== 47. Permutations II
+= 47. Permutations II
 
 https://leetcode.com/problems/permutations-ii/[LeetCode - Permutations II]
 
@@ -20,7 +20,7 @@ image::images/0047-1.png[]
 
 思考：去重剪枝的判断是怎么实现的？
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/permutations-ii/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liwe-2/[回溯搜索 + 剪枝 - 全排列 II - 力扣（LeetCode）]
 
@@ -41,7 +41,7 @@ Given a collection of numbers that might contain duplicates, return all possible
 
 
 [[src-0047]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0047_PermutationsII.java[]
 ----

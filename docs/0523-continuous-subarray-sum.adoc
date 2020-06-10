@@ -1,4 +1,4 @@
-== 523. Continuous Subarray Sum
+= 523. Continuous Subarray Sum
 
 https://leetcode.com/problems/continuous-subarray-sum/[LeetCode - Continuous Subarray Sum]
 
@@ -36,7 +36,7 @@ Given a list of *non-negative* numbers and a target *integer* k, write a functio
 
 
 [[src-0523]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0523_ContinuousSubarraySum.java[]
 ----

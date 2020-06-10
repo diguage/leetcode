@@ -1,4 +1,4 @@
-== 404. Sum of Left Leaves
+= 404. Sum of Left Leaves
 
 https://leetcode.com/problems/sum-of-left-leaves/[LeetCode - Sum of Left Leaves]
 
@@ -19,7 +19,7 @@ There are two left leaves in the binary tree, with values *9* and *15* respectiv
 
 
 [[src-0404]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0404_SumOfLeftLeaves.java[]
 ----

@@ -29,57 +29,77 @@ import java.util.Objects;
  * @since 2019-07-13 11:12
  */
 public class _0005_LongestPalindromicSubstring {
-    /**
-     * Runtime: 1118 ms, faster than 5.01% of Java online submissions for Longest Palindromic Substring.
-     *
-     * Memory Usage: 37.2 MB, less than 94.36% of Java online submissions for Longest Palindromic Substring.
-     */
-    public String longestPalindrome(String s) {
-        if (Objects.isNull(s) || s.length() == 0) {
-            return "";
-        }
-        int length = s.length();
-        String result = "";
-        for (int i = 0; i < length; i++) {
-            for (int j = i; j < length; j++) {
-                if (isPalindrome(s, i, j)) {
-                    String substring = s.substring(i, j + 1);
-                    if (substring.length() > result.length()) {
-                        result = substring;
-                    }
-                }
-            }
-        }
-        return result;
+  /**
+   * Runtime: 1118 ms, faster than 5.01% of Java online submissions for Longest Palindromic Substring.
+   *
+   * Memory Usage: 37.2 MB, less than 94.36% of Java online submissions for Longest Palindromic Substring.
+   */
+  public String longestPalindromeBruteForce(String s) {
+    if (Objects.isNull(s) || s.length() == 1) {
+      return s;
     }
-
-    private boolean isPalindrome(String s, int start, int end) {
-        if (start == end) {
-            return true;
+    int maxLength = 1;
+    int begin = 0;
+    for (int i = 0; i < s.length() - 1; i++) {
+      for (int j = i + 1; j < s.length(); j++) {
+        // 这里要注意：先判断长度，然后执行回文判断，相当于做了剪枝操作，效率会提高很多。
+        if (j - i + 1 > maxLength && isPalindrome(s, i, j)) {
+          maxLength = j - i + 1;
+          begin = i;
         }
-        while (start < end) {
-            char sChar = s.charAt(start);
-            char eChar = s.charAt(end);
-            if (sChar != eChar) {
-                return false;
-            }
-            start++;
-            end--;
-        }
-        return true;
+      }
     }
+    return s.substring(begin, begin + maxLength);
+  }
 
-
-    public static void main(String[] args) {
-        _0005_LongestPalindromicSubstring solution = new _0005_LongestPalindromicSubstring();
-        System.out.println("aaabaaa - " + solution.longestPalindrome("aaabaaaa"));
-        System.out.println("ccc - " + solution.longestPalindrome("ccc"));
-        System.out.println("a - " + solution.longestPalindrome("abcda"));
-        System.out.println("abcba - " + solution.longestPalindrome("abcba"));
-        System.out.println("a - " + solution.longestPalindrome("ac"));
-        System.out.println("bab - " + solution.longestPalindrome("babad"));
-        System.out.println("bb  - " + solution.longestPalindrome("cbbd"));
-        System.out.println("bb  - " + solution.longestPalindrome("abbc"));
-        System.out.println("a - " + solution.longestPalindrome("a"));
+  private boolean isPalindrome(String s, int low, int high) {
+    while (low <= high) {
+      if (s.charAt(low) != s.charAt(high)) {
+        return false;
+      }
+      low++;
+      high--;
     }
+    return true;
+  }
+
+  public String longestPalindrome(String s) {
+    if (Objects.isNull(s) || s.length() <= 1) {
+      return s;
+    }
+    int start = 0;
+    int end = 0;
+    for (int i = 0; i < s.length() - 1; i++) {
+      int len1 = expandAroundCenter(s, i, i);
+      int len2 = expandAroundCenter(s, i, i + 1);
+      int len = Math.max(len1, len2);
+      if (len > end - start) {
+        start = i - (len - 1) / 2;
+        end = i + len / 2;
+      }
+    }
+    return s.substring(start, end + 1);
+  }
+
+  private int expandAroundCenter(String s, int left, int right) {
+    while (0 <= left && right < s.length() && s.charAt(left) == s.charAt(right)) {
+      left--;
+      right++;
+    }
+    return right - left - 1;
+  }
+
+  public static void main(String[] args) {
+    _0005_LongestPalindromicSubstring solution = new _0005_LongestPalindromicSubstring();
+    System.out.println("aaabaaa - " + solution.longestPalindrome("cbbd"));
+    System.out.println("aaabaaa - " + solution.longestPalindrome("aaabaaaa"));
+    System.out.println("ccc - " + solution.longestPalindrome("ccc"));
+    System.out.println("a - " + solution.longestPalindrome("abcda"));
+    System.out.println("abcba - " + solution.longestPalindrome("abcba"));
+    System.out.println("a - " + solution.longestPalindrome("ac"));
+    System.out.println("bab - " + solution.longestPalindrome("babad"));
+    System.out.println("bb  - " + solution.longestPalindrome("cbbd"));
+    System.out.println("bb  - " + solution.longestPalindrome("abbc"));
+    System.out.println("a - " + solution.longestPalindrome("a"));
+  }
 }

@@ -1,11 +1,11 @@
-== 1264. Page Recommendations
+= 1264. Page Recommendations
 
 https://leetcode.com/problems/page-recommendations/[LeetCode - Page Recommendations]
 
 
 
 [[src-1264]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1264_PageRecommendations.java[]
 ----

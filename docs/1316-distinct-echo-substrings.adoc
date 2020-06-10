@@ -1,4 +1,4 @@
-== 1316. Distinct Echo Substrings
+= 1316. Distinct Echo Substrings
 
 https://leetcode.com/problems/distinct-echo-substrings/[LeetCode - Distinct Echo Substrings]
 
@@ -34,7 +34,7 @@ Return the number of *distinct* non-empty substrings of `text` that can be writt
 
 
 [[src-1316]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1316_DistinctEchoSubstrings.java[]
 ----

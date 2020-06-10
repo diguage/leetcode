@@ -1,4 +1,4 @@
-== 996. Number of Squareful Arrays
+= 996. Number of Squareful Arrays
 
 https://leetcode.com/problems/number-of-squareful-arrays/[LeetCode - Number of Squareful Arrays]
 
@@ -37,7 +37,7 @@ Return the number of permutations of A that are squareful.  Two permutations `A1
 
 
 [[src-0996]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0996_NumberOfSquarefulArrays.java[]
 ----

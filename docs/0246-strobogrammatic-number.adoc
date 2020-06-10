@@ -1,11 +1,11 @@
-== 246. Strobogrammatic Number
+= 246. Strobogrammatic Number
 
 https://leetcode.com/problems/strobogrammatic-number/[LeetCode - Strobogrammatic Number]
 
 
 
 [[src-0246]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0246_StrobogrammaticNumber.java[]
 ----

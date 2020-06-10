@@ -1,11 +1,11 @@
-== 320. Generalized Abbreviation
+= 320. Generalized Abbreviation
 
 https://leetcode.com/problems/generalized-abbreviation/[LeetCode - Generalized Abbreviation]
 
 
 
 [[src-0320]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0320_GeneralizedAbbreviation.java[]
 ----

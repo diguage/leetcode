@@ -1,4 +1,4 @@
-== 141. Linked List Cycle
+= 141. Linked List Cycle
 
 https://leetcode.com/problems/linked-list-cycle/[LeetCode - Linked List Cycle]
 
@@ -58,7 +58,7 @@ Can you solve it using _O(1)_ (i.e. constant) memory?
 
 
 [[src-0141]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0141_LinkedListCycle.java[]
 ----

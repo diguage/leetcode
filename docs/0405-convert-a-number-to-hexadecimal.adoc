@@ -1,4 +1,4 @@
-== 405. Convert a Number to Hexadecimal
+= 405. Convert a Number to Hexadecimal
 
 https://leetcode.com/problems/convert-a-number-to-hexadecimal/[LeetCode - Convert a Number to Hexadecimal]
 
@@ -39,7 +39,7 @@ Output:
 
 
 [[src-0405]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0405_ConvertANumberToHexadecimal.java[]
 ----

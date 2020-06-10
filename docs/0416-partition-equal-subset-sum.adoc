@@ -1,4 +1,4 @@
-== 416. Partition Equal Subset Sum
+= 416. Partition Equal Subset Sum
 
 https://leetcode.com/problems/partition-equal-subset-sum/[LeetCode - Partition Equal Subset Sum]
 
@@ -32,12 +32,12 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 
 image::images/0416-1.png[]
 
-=== 思考题
+== 思考题
 
 . 将计算过程在纸上手动推演一遍；
 . 研究一下背包问题。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/partition-equal-subset-sum/solution/0-1-bei-bao-wen-ti-xiang-jie-zhen-dui-ben-ti-de-yo/[动态规划（0-1 背包问题） - 分割等和子集 - 力扣（LeetCode）]
 . https://leetcode-cn.com/problems/partition-equal-subset-sum/solution/java-hui-su-fa-jie-fa-2ms-by-wang_dong/[java 回溯法解法 2ms - 分割等和子集 - 力扣（LeetCode）]
@@ -85,7 +85,7 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 
 
 [[src-0416]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0416_PartitionEqualSubsetSum.java[]
 ----

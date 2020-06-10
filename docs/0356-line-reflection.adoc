@@ -1,11 +1,11 @@
-== 356. Line Reflection
+= 356. Line Reflection
 
 https://leetcode.com/problems/line-reflection/[LeetCode - Line Reflection]
 
 
 
 [[src-0356]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0356_LineReflection.java[]
 ----

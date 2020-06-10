@@ -1,4 +1,4 @@
-== 104. Maximum Depth of Binary Tree
+= 104. Maximum Depth of Binary Tree
 
 https://leetcode.com/problems/maximum-depth-of-binary-tree/[LeetCode - Maximum Depth of Binary Tree]
 
@@ -27,7 +27,7 @@ return its depth = 3.
 
 
 [[src-0104]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0104_MaximumDepthOfBinaryTree.java[]
 ----

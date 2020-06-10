@@ -1,4 +1,4 @@
-== 1005. Maximize Sum Of Array After K Negations
+= 1005. Maximize Sum Of Array After K Negations
 
 https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/[LeetCode - Maximize Sum Of Array After K Negations]
 
@@ -52,7 +52,7 @@ Return the largest possible sum of the array after modifying it in this way.
 
 
 [[src-1005]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1005_MaximizeSumOfArrayAfterKNegations.java[]
 ----

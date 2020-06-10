@@ -1,4 +1,4 @@
-== 117. Populating Next Right Pointers in Each Node II
+= 117. Populating Next Right Pointers in Each Node II
 
 https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/[LeetCode - Populating Next Right Pointers in Each Node II]
 
@@ -41,7 +41,7 @@ image::images/0117-1.png[]
 * `-100 <= node.val <= 100`
 
 
-=== 解题分析
+== 解题分析
 
 这道题和 xref:0116-populating-next-right-pointers-in-each-node.adoc[116. Populating Next Right Pointers in Each Node] 算是姊妹题。
 
@@ -56,14 +56,14 @@ image::images/0117-2.jpg[]
 
 这样，把第一种解法的代码稍作修改就可以了。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-28/[详细通俗的思路分析，多解法 - 填充每个节点的下一个右侧节点指针 II - 力扣（LeetCode）]
 . https://leetcode.wang/leetcode-117-Populating-Next-Right-Pointers-in-Each-NodeII.html[117. Populating Next Right Pointers in Each Node II · leetcode]
 
 
 [[src-0117]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII.java[]
 ----

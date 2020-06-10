@@ -1,4 +1,4 @@
-== 871. Minimum Number of Refueling Stops
+= 871. Minimum Number of Refueling Stops
 
 https://leetcode.com/problems/minimum-number-of-refueling-stops/[LeetCode - Minimum Number of Refueling Stops]
 
@@ -67,7 +67,7 @@ We made 2 refueling stops along the way, so we return 2.
 
 
 [[src-0871]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0871_MinimumNumberOfRefuelingStops.java[]
 ----

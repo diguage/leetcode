@@ -1,4 +1,4 @@
-== 959. Regions Cut By Slashes
+= 959. Regions Cut By Slashes
 
 https://leetcode.com/problems/regions-cut-by-slashes/[LeetCode - Regions Cut By Slashes]
 
@@ -121,7 +121,7 @@ image::https://assets.leetcode.com/uploads/2018/12/15/5.png[]
 
 
 [[src-0959]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0959_RegionsCutBySlashes.java[]
 ----

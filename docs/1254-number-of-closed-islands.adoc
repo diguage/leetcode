@@ -1,4 +1,4 @@
-== 1254. Number of Closed Islands
+= 1254. Number of Closed Islands
 
 https://leetcode.com/problems/number-of-closed-islands/[LeetCode - Number of Closed Islands]
 
@@ -54,7 +54,7 @@ image::https://assets.leetcode.com/uploads/2019/10/31/sample_4_1610.png[]
 
 
 [[src-1254]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1254_NumberOfClosedIslands.java[]
 ----

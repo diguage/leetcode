@@ -1,4 +1,4 @@
-== 879. Profitable Schemes
+= 879. Profitable Schemes
 
 https://leetcode.com/problems/profitable-schemes/[LeetCode - Profitable Schemes]
 
@@ -57,7 +57,7 @@ There are 7 possible schemes: (0), (1), (2), (0,1), (0,2), (1,2), and (0,1,2).
 
 
 [[src-0879]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0879_ProfitableSchemes.java[]
 ----

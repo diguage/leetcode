@@ -1,4 +1,4 @@
-== 1339. Maximum Product of Splitted Binary Tree
+= 1339. Maximum Product of Splitted Binary Tree
 
 https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/[LeetCode - Maximum Product of Splitted Binary Tree]
 
@@ -55,7 +55,7 @@ image::https://assets.leetcode.com/uploads/2020/01/21/sample_2_1699.png[]
 
 
 [[src-1339]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1339_MaximumProductOfSplittedBinaryTree.java[]
 ----

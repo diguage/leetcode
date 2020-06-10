@@ -1,4 +1,4 @@
-== 655. Print Binary Tree
+= 655. Print Binary Tree
 
 https://leetcode.com/problems/print-binary-tree/[LeetCode - Print Binary Tree]
 
@@ -74,7 +74,7 @@ The height of binary tree is in the range of [1, 10].
 
 
 [[src-0655]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0655_PrintBinaryTree.java[]
 ----

@@ -1,11 +1,11 @@
-== 269. Alien Dictionary
+= 269. Alien Dictionary
 
 https://leetcode.com/problems/alien-dictionary/[LeetCode - Alien Dictionary]
 
 
 
 [[src-0269]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0269_AlienDictionary.java[]
 ----

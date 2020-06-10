@@ -1,4 +1,4 @@
-== 1160. Find Words That Can Be Formed by Characters
+= 1160. Find Words That Can Be Formed by Characters
 
 https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/[LeetCode - Find Words That Can Be Formed by Characters]
 
@@ -42,7 +42,7 @@ The strings that can be formed are "hello" and "world" so the answer is 5 + 5 = 
 
 
 [[src-1160]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1160_FindWordsThatCanBeFormedByCharacters.java[]
 ----

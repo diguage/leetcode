@@ -1,11 +1,11 @@
-== 1166. Design File System
+= 1166. Design File System
 
 https://leetcode.com/problems/design-file-system/[LeetCode - Design File System]
 
 
 
 [[src-1166]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1166_DesignFileSystem.java[]
 ----

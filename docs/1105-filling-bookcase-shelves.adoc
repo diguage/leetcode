@@ -1,4 +1,4 @@
-== 1105. Filling Bookcase Shelves
+= 1105. Filling Bookcase Shelves
 
 https://leetcode.com/problems/filling-bookcase-shelves/[LeetCode - Filling Bookcase Shelves]
 
@@ -38,7 +38,7 @@ Notice that book number 2 does not have to be on the first shelf.
 
 
 [[src-1105]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1105_FillingBookcaseShelves.java[]
 ----

@@ -1,4 +1,4 @@
-== 20. Valid Parentheses
+= 20. Valid Parentheses
 
 https://leetcode.com/problems/valid-parentheses/[LeetCode - Valid Parentheses]
 
@@ -55,7 +55,7 @@ Note that an empty string is also considered valid.
 
 
 [[src-0020]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0020_ValidParentheses.java[]
 ----

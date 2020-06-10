@@ -1,4 +1,4 @@
-== 430. Flatten a Multilevel Doubly Linked List
+= 430. Flatten a Multilevel Doubly Linked List
 
 https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/[LeetCode - Flatten a Multilevel Doubly Linked List]
 
@@ -103,7 +103,7 @@ Merging the serialization of each level and removing trailing nulls we obtain:
 
 
 [[src-0430]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0430_FlattenAMultilevelDoublyLinkedList.java[]
 ----

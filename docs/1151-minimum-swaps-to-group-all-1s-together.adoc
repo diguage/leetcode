@@ -1,11 +1,11 @@
-== 1151. Minimum Swaps to Group All 1's Together
+= 1151. Minimum Swaps to Group All 1's Together
 
 https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/[LeetCode - Minimum Swaps to Group All 1's Together]
 
 
 
 [[src-1151]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1151_MinimumSwapsToGroupAll1STogether.java[]
 ----

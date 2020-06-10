@@ -1,4 +1,4 @@
-== 1186. Maximum Subarray Sum with One Deletion
+= 1186. Maximum Subarray Sum with One Deletion
 
 https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/[LeetCode - Maximum Subarray Sum with One Deletion]
 
@@ -46,7 +46,7 @@ Note that the subarray needs to be *non-empty* after deleting one element.
 
 
 [[src-1186]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1186_MaximumSubarraySumWithOneDeletion.java[]
 ----

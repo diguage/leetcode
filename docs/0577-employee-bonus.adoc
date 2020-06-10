@@ -1,11 +1,11 @@
-== 577. Employee Bonus
+= 577. Employee Bonus
 
 https://leetcode.com/problems/employee-bonus/[LeetCode - Employee Bonus]
 
 
 
 [[src-0577]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0577_EmployeeBonus.java[]
 ----

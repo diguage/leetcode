@@ -1,4 +1,4 @@
-== 540. Single Element in a Sorted Array
+= 540. Single Element in a Sorted Array
 
 https://leetcode.com/problems/single-element-in-a-sorted-array/[LeetCode - Single Element in a Sorted Array]
 
@@ -29,7 +29,7 @@ You are given a sorted array consisting of only integers where every element app
 
 
 [[src-0540]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0540_SingleElementInASortedArray.java[]
 ----

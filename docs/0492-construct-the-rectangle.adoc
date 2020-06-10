@@ -1,4 +1,4 @@
-== 492. Construct the Rectangle
+= 492. Construct the Rectangle
 
 https://leetcode.com/problems/construct-the-rectangle/[LeetCode - Construct the Rectangle]
 
@@ -37,7 +37,7 @@ But according to requirement 2, [1,4] is illegal; according to requirement 3,  [
 
 
 [[src-0492]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0492_ConstructTheRectangle.java[]
 ----

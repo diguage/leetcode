@@ -1,4 +1,4 @@
-== 593. Valid Square
+= 593. Valid Square
 
 https://leetcode.com/problems/valid-square/[LeetCode - Valid Square]
 
@@ -29,7 +29,7 @@ Note:
 
 
 [[src-0593]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0593_ValidSquare.java[]
 ----

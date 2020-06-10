@@ -1,4 +1,4 @@
-== 182. Duplicate Emails
+= 182. Duplicate Emails
 
 https://leetcode.com/problems/duplicate-emails/[LeetCode - Duplicate Emails]
 
@@ -31,7 +31,7 @@ For example, your query should return the following for the above table:
 
 
 [[src-0182]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0182_DuplicateEmails.java[]
 ----

@@ -1,4 +1,4 @@
-== 165. Compare Version Numbers
+= 165. Compare Version Numbers
 
 https://leetcode.com/problems/compare-version-numbers/[LeetCode - Compare Version Numbers]
 
@@ -61,7 +61,7 @@ You may assume the default revision number for each level of a version number to
 
 
 [[src-0165]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0165_CompareVersionNumbers.java[]
 ----

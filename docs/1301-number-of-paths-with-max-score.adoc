@@ -1,4 +1,4 @@
-== 1301. Number of Paths with Max Score
+= 1301. Number of Paths with Max Score
 
 https://leetcode.com/problems/number-of-paths-with-max-score/[LeetCode - Number of Paths with Max Score]
 
@@ -43,7 +43,7 @@ In case there is no path, return `[0, 0]`.
 
 
 [[src-1301]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1301_NumberOfPathsWithMaxScore.java[]
 ----

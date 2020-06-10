@@ -1,4 +1,4 @@
-== 859. Buddy Strings
+= 859. Buddy Strings
 
 https://leetcode.com/problems/buddy-strings/[LeetCode - Buddy Strings]
 
@@ -69,7 +69,7 @@ Given two strings `A` and `B` of lowercase letters, return `true` if and only if
 
 
 [[src-0859]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0859_BuddyStrings.java[]
 ----

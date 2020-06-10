@@ -1,4 +1,4 @@
-== 233. Number of Digit One
+= 233. Number of Digit One
 
 https://leetcode.com/problems/number-of-digit-one/[LeetCode - Number of Digit One]
 
@@ -16,7 +16,7 @@ Given an integer n, count the total number of digit 1 appearing in all non-negat
 
 
 [[src-0233]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0233_NumberOfDigitOne.java[]
 ----

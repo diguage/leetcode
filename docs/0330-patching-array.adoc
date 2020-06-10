@@ -1,4 +1,4 @@
-== 330. Patching Array
+= 330. Patching Array
 
 https://leetcode.com/problems/patching-array/[LeetCode - Patching Array]
 
@@ -38,7 +38,7 @@ So we only need `1` patch.
 
 
 [[src-0330]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0330_PatchingArray.java[]
 ----

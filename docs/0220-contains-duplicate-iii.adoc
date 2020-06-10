@@ -1,4 +1,4 @@
-== 220. Contains Duplicate III
+= 220. Contains Duplicate III
 
 https://leetcode.com/problems/contains-duplicate-iii/[LeetCode - Contains Duplicate III]
 
@@ -36,7 +36,7 @@ Given an array of integers, find out whether there are two distinct indices _i_ 
 
 
 [[src-0220]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0220_ContainsDuplicateIII.java[]
 ----

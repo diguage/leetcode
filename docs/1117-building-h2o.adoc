@@ -1,4 +1,4 @@
-== 1117. Building H2O
+= 1117. Building H2O
 
 https://leetcode.com/problems/building-h2o/[LeetCode - Building H2O]
 
@@ -53,7 +53,7 @@ Write synchronization code for oxygen and hydrogen molecules that enforces these
 
 
 [[src-1117]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1117_BuildingH2O.java[]
 ----

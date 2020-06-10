@@ -1,4 +1,4 @@
-== 433. Minimum Genetic Mutation
+= 433. Minimum Genetic Mutation
 
 https://leetcode.com/problems/minimum-genetic-mutation/[LeetCode - Minimum Genetic Mutation]
 
@@ -64,7 +64,7 @@ return: 3
 
 
 [[src-0433]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0433_MinimumGeneticMutation.java[]
 ----

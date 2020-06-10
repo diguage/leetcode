@@ -1,4 +1,4 @@
-== 149. Max Points on a Line
+= 149. Max Points on a Line
 
 https://leetcode.com/problems/max-points-on-a-line/[LeetCode - Max Points on a Line]
 
@@ -42,7 +42,7 @@ Given _n_ points on a 2D plane, find the maximum number of points that lie on th
 
 
 [[src-0149]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0149_MaxPointsOnALine.java[]
 ----

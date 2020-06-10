@@ -1,4 +1,4 @@
-== 8. String to Integer (atoi)
+= 8. String to Integer (atoi)
 
 https://leetcode.com/problems/string-to-integer-atoi/[LeetCode - String to Integer (atoi)]
 
@@ -61,8 +61,12 @@ If no valid conversion could be performed, a zero value is returned.
 ----
 
 
+== 解题分析
+
+`result > (Integer.MAX_VALUE - num) / 10` 注意这个判断移除方法。
+
 [[src-0008]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0008_StringToIntegerAtoi.java[]
 ----

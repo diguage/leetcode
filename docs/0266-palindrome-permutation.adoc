@@ -1,11 +1,11 @@
-== 266. Palindrome Permutation
+= 266. Palindrome Permutation
 
 https://leetcode.com/problems/palindrome-permutation/[LeetCode - Palindrome Permutation]
 
 
 
 [[src-0266]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0266_PalindromePermutation.java[]
 ----

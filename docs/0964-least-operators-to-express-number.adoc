@@ -1,4 +1,4 @@
-== 964. Least Operators to Express Number
+= 964. Least Operators to Express Number
 
 https://leetcode.com/problems/least-operators-to-express-number/[LeetCode - Least Operators to Express Number]
 
@@ -68,7 +68,7 @@ We would like to write an expression with the least number of operators such tha
 
 
 [[src-0964]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0964_LeastOperatorsToExpressNumber.java[]
 ----

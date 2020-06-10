@@ -1,11 +1,11 @@
-== 774. Minimize Max Distance to Gas Station
+= 774. Minimize Max Distance to Gas Station
 
 https://leetcode.com/problems/minimize-max-distance-to-gas-station/[LeetCode - Minimize Max Distance to Gas Station]
 
 
 
 [[src-0774]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0774_MinimizeMaxDistanceToGasStation.java[]
 ----

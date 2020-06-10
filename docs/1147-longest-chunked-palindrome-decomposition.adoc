@@ -1,4 +1,4 @@
-== 1147. Longest Chunked Palindrome Decomposition
+= 1147. Longest Chunked Palindrome Decomposition
 
 https://leetcode.com/problems/longest-chunked-palindrome-decomposition/[LeetCode - Longest Chunked Palindrome Decomposition]
 
@@ -57,7 +57,7 @@ Return the largest possible `k` such that there exists `a_1, a_2, ..., a_k` such
 
 
 [[src-1147]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1147_LongestChunkedPalindromeDecomposition.java[]
 ----

@@ -1,4 +1,4 @@
-== 848. Shifting Letters
+= 848. Shifting Letters
 
 https://leetcode.com/problems/shifting-letters/[LeetCode - Shifting Letters]
 
@@ -35,7 +35,7 @@ After shifting the first 3 letters of S by 9, we have "rpl", the answer.
 
 
 [[src-0848]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0848_ShiftingLetters.java[]
 ----

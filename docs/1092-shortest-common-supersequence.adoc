@@ -1,4 +1,4 @@
-== 1092. Shortest Common Supersequence 
+= 1092. Shortest Common Supersequence 
 
 https://leetcode.com/problems/shortest-common-supersequence/[LeetCode - Shortest Common Supersequence ]
 
@@ -32,7 +32,7 @@ The answer provided is the shortest such string that satisfies these properties.
 
 
 [[src-1092]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1092_ShortestCommonSupersequence.java[]
 ----

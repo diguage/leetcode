@@ -1,4 +1,4 @@
-== 648. Replace Words
+= 648. Replace Words
 
 https://leetcode.com/problems/replace-words/[LeetCode - Replace Words]
 
@@ -34,7 +34,7 @@ sentence = "the cattle was rattled by the battery"
 
 
 [[src-0648]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0648_ReplaceWords.java[]
 ----

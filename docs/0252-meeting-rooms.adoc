@@ -1,11 +1,11 @@
-== 252. Meeting Rooms
+= 252. Meeting Rooms
 
 https://leetcode.com/problems/meeting-rooms/[LeetCode - Meeting Rooms]
 
 
 
 [[src-0252]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0252_MeetingRooms.java[]
 ----

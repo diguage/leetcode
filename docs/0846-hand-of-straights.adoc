@@ -1,4 +1,4 @@
-== 846. Hand of Straights
+= 846. Hand of Straights
 
 https://leetcode.com/problems/hand-of-straights/[LeetCode - Hand of Straights]
 
@@ -44,7 +44,7 @@ Return `true` if and only if she can.
 
 
 [[src-0846]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0846_HandOfStraights.java[]
 ----

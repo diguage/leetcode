@@ -1,11 +1,11 @@
-== 631. Design Excel Sum Formula
+= 631. Design Excel Sum Formula
 
 https://leetcode.com/problems/design-excel-sum-formula/[LeetCode - Design Excel Sum Formula]
 
 
 
 [[src-0631]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0631_DesignExcelSumFormula.java[]
 ----

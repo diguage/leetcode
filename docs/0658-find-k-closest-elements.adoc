@@ -1,4 +1,4 @@
-== 658. Find K Closest Elements
+= 658. Find K Closest Elements
 
 https://leetcode.com/problems/find-k-closest-elements/[LeetCode - Find K Closest Elements]
 
@@ -47,7 +47,7 @@ The _arr_ parameter had been changed to an *array of integers* (instead of a lis
 
 
 [[src-0658]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0658_FindKClosestElements.java[]
 ----

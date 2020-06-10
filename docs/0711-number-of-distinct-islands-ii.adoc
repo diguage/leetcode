@@ -1,11 +1,11 @@
-== 711. Number of Distinct Islands II
+= 711. Number of Distinct Islands II
 
 https://leetcode.com/problems/number-of-distinct-islands-ii/[LeetCode - Number of Distinct Islands II]
 
 
 
 [[src-0711]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0711_NumberOfDistinctIslandsII.java[]
 ----

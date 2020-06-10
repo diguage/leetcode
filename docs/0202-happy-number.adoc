@@ -1,4 +1,4 @@
-== 202. Happy Number
+= 202. Happy Number
 
 https://leetcode.com/problems/happy-number/[LeetCode - Happy Number]
 
@@ -24,7 +24,7 @@ A happy number is a number defined by the following process: Starting with any p
 
 
 [[src-0202]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0202_HappyNumber.java[]
 ----

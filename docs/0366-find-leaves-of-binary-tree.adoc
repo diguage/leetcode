@@ -1,11 +1,11 @@
-== 366. Find Leaves of Binary Tree
+= 366. Find Leaves of Binary Tree
 
 https://leetcode.com/problems/find-leaves-of-binary-tree/[LeetCode - Find Leaves of Binary Tree]
 
 
 
 [[src-0366]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0366_FindLeavesOfBinaryTree.java[]
 ----

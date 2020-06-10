@@ -1,4 +1,4 @@
-== 236. Lowest Common Ancestor of a Binary Tree
+= 236. Lowest Common Ancestor of a Binary Tree
 
 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/[LeetCode - Lowest Common Ancestor of a Binary Tree]
 
@@ -8,7 +8,7 @@ D瓜哥的思路：先找出一条从根节点到某个节点的路径；然后�
 
 思考题：如何按照"路径"的思路实现一遍？
 
-=== 参考资料
+== 参考资料
 
 . https://en.wikipedia.org/wiki/Lowest_common_ancestor[Lowest common ancestor - Wikipedia]
 
@@ -51,7 +51,7 @@ image::https://assets.leetcode.com/uploads/2018/12/14/binarytree.png[]
 
 
 [[src-0236]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0236_LowestCommonAncestorOfABinaryTree.java[]
 ----

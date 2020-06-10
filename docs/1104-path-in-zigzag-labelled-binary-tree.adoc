@@ -1,4 +1,4 @@
-== 1104. Path In Zigzag Labelled Binary Tree
+= 1104. Path In Zigzag Labelled Binary Tree
 
 https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/[LeetCode - Path In Zigzag Labelled Binary Tree]
 
@@ -37,7 +37,7 @@ Given the `label` of a node in this tree, return the labels in the path from the
 
 
 [[src-1104]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1104_PathInZigzagLabelledBinaryTree.java[]
 ----

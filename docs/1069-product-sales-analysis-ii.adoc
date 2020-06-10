@@ -1,11 +1,11 @@
-== 1069. Product Sales Analysis II
+= 1069. Product Sales Analysis II
 
 https://leetcode.com/problems/product-sales-analysis-ii/[LeetCode - Product Sales Analysis II]
 
 
 
 [[src-1069]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1069_ProductSalesAnalysisII.java[]
 ----

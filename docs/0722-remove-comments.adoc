@@ -1,4 +1,4 @@
-== 722. Remove Comments
+= 722. Remove Comments
 
 https://leetcode.com/problems/remove-comments/[LeetCode - Remove Comments]
 
@@ -78,7 +78,7 @@ source = ["a/*comment", "line", "more_comment*/b"]
 
 
 [[src-0722]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0722_RemoveComments.java[]
 ----

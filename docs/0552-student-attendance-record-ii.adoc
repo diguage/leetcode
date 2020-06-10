@@ -1,4 +1,4 @@
-== 552. Student Attendance Record II
+= 552. Student Attendance Record II
 
 https://leetcode.com/problems/student-attendance-record-ii/[LeetCode - Student Attendance Record II]
 
@@ -40,7 +40,7 @@ The value of *n* won't exceed 100,000.
 
 
 [[src-0552]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0552_StudentAttendanceRecordII.java[]
 ----

@@ -1,4 +1,4 @@
-== 172. Factorial Trailing Zeroes
+= 172. Factorial Trailing Zeroes
 
 https://leetcode.com/problems/factorial-trailing-zeroes/[LeetCode - Factorial Trailing Zeroes]
 
@@ -49,7 +49,7 @@ Given an integer _n_, return the number of trailing zeroes in _n_!.
 
 
 [[src-0172]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0172_FactorialTrailingZeroes.java[]
 ----

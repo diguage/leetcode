@@ -1,11 +1,11 @@
-== 1082. Sales Analysis I
+= 1082. Sales Analysis I
 
 https://leetcode.com/problems/sales-analysis-i/[LeetCode - Sales Analysis I]
 
 
 
 [[src-1082]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1082_SalesAnalysisI.java[]
 ----

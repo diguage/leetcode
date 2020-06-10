@@ -1,11 +1,11 @@
-== 644. Maximum Average Subarray II
+= 644. Maximum Average Subarray II
 
 https://leetcode.com/problems/maximum-average-subarray-ii/[LeetCode - Maximum Average Subarray II]
 
 
 
 [[src-0644]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0644_MaximumAverageSubarrayII.java[]
 ----

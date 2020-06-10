@@ -1,4 +1,4 @@
-== 376. Wiggle Subsequence
+= 376. Wiggle Subsequence
 
 https://leetcode.com/problems/wiggle-subsequence/[LeetCode - Wiggle Subsequence]
 
@@ -46,7 +46,7 @@ Can you do it in O(_n_) time?
 
 
 [[src-0376]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0376_WiggleSubsequence.java[]
 ----

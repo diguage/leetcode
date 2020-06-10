@@ -1,4 +1,4 @@
-== 904. Fruit Into Baskets
+= 904. Fruit Into Baskets
 
 https://leetcode.com/problems/fruit-into-baskets/[LeetCode - Fruit Into Baskets]
 
@@ -76,7 +76,7 @@ If we started at the first tree or the eighth tree, we would only collect 4 frui
 
 
 [[src-0904]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0904_FruitIntoBaskets.java[]
 ----

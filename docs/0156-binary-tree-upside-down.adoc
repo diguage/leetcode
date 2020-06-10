@@ -1,11 +1,11 @@
-== 156. Binary Tree Upside Down
+= 156. Binary Tree Upside Down
 
 https://leetcode.com/problems/binary-tree-upside-down/[LeetCode - Binary Tree Upside Down]
 
 
 
 [[src-0156]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0156_BinaryTreeUpsideDown.java[]
 ----

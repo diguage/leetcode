@@ -1,4 +1,4 @@
-== 373. Find K Pairs with Smallest Sums
+= 373. Find K Pairs with Smallest Sums
 
 https://leetcode.com/problems/find-k-pairs-with-smallest-sums/[LeetCode - Find K Pairs with Smallest Sums]
 
@@ -41,7 +41,7 @@ Find the k pairs *(u~1~,v~1~),(u~2~,v~2~) ...(u~k~,v~k~)* with the smallest sums
 
 
 [[src-0373]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0373_FindKPairsWithSmallestSums.java[]
 ----

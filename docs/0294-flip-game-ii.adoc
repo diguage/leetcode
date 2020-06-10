@@ -1,11 +1,11 @@
-== 294. Flip Game II
+= 294. Flip Game II
 
 https://leetcode.com/problems/flip-game-ii/[LeetCode - Flip Game II]
 
 
 
 [[src-0294]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0294_FlipGameII.java[]
 ----

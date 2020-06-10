@@ -1,4 +1,4 @@
-== 436. Find Right Interval
+= 436. Find Right Interval
 
 https://leetcode.com/problems/find-right-interval/[LeetCode - Find Right Interval]
 
@@ -60,7 +60,7 @@ For [2,3], the interval [3,4] has minimum-"right" start point.
 
 
 [[src-0436]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0436_FindRightInterval.java[]
 ----

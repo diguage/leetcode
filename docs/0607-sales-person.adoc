@@ -1,11 +1,11 @@
-== 607. Sales Person
+= 607. Sales Person
 
 https://leetcode.com/problems/sales-person/[LeetCode - Sales Person]
 
 
 
 [[src-0607]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0607_SalesPerson.java[]
 ----

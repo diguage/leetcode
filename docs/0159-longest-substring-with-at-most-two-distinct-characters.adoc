@@ -1,11 +1,11 @@
-== 159. Longest Substring with At Most Two Distinct Characters
+= 159. Longest Substring with At Most Two Distinct Characters
 
 https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/[LeetCode - Longest Substring with At Most Two Distinct Characters]
 
 
 
 [[src-0159]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0159_LongestSubstringWithAtMostTwoDistinctCharacters.java[]
 ----

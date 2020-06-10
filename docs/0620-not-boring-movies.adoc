@@ -1,4 +1,4 @@
-== 620. Not Boring Movies
+= 620. Not Boring Movies
 
 https://leetcode.com/problems/not-boring-movies/[LeetCode - Not Boring Movies]
 
@@ -38,7 +38,7 @@ For the example above, the output should be:
 
 
 [[src-0620]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0620_NotBoringMovies.java[]
 ----

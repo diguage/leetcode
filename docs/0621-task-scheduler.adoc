@@ -1,4 +1,4 @@
-== 621. Task Scheduler
+= 621. Task Scheduler
 
 https://leetcode.com/problems/task-scheduler/[LeetCode - Task Scheduler]
 
@@ -20,7 +20,7 @@ Explanation: A -> B -> idle -> A -> B -> idle -> A -> B.
 . The number of tasks is in the range [1, 10000].
 . The integer n is in the range [0, 100].
 
-=== 解题分析
+== 解题分析
 
 这道题有三个点需要注意：
 
@@ -35,7 +35,7 @@ Explanation: A -> B -> idle -> A -> B -> idle -> A -> B.
 . 再排序下一个任务，如果下一个任务B个数和最大任务数一致，则retCount++ ==> A->B->X->A->B->X->A->B
 . 如果空位都插满之后还有任务，那就随便在这些间隔里面插入就可以，因为间隔长度肯定会大于n，在这种情况下就是任务的总数是最小所需时间
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/task-scheduler/solution/ren-wu-diao-du-qi-by-leetcode/[任务调度器 - 任务调度器 - 力扣（LeetCode）]
 . https://leetcode-cn.com/problems/task-scheduler/solution/621-ren-wu-diao-du-qi-java-jie-ti-zhu-shi-ying-gai/[621. 任务调度器--Java--解题注释应该能看懂 - 任务调度器 - 力扣（LeetCode）] -- 这个解释清楚。
@@ -69,7 +69,7 @@ You need to return the *least* number of intervals the CPU will take to finish a
 
 
 [[src-0621]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0621_TaskScheduler.java[]
 ----

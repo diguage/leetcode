@@ -1,4 +1,4 @@
-== 1031. Maximum Sum of Two Non-Overlapping Subarrays
+= 1031. Maximum Sum of Two Non-Overlapping Subarrays
 
 https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/[LeetCode - Maximum Sum of Two Non-Overlapping Subarrays]
 
@@ -63,7 +63,7 @@ Formally, return the largest `V` for which `V = (A[i] + A[i+1] + ... + A[i+L-1])
 
 
 [[src-1031]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1031_MaximumSumOfTwoNonOverlappingSubarrays.java[]
 ----

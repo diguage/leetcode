@@ -1,4 +1,4 @@
-== 1130. Minimum Cost Tree From Leaf Values
+= 1130. Minimum Cost Tree From Leaf Values
 
 https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/[LeetCode - Minimum Cost Tree From Leaf Values]
 
@@ -40,7 +40,7 @@ There are two possible trees.  The first has non-leaf node sum 36, and the secon
 
 
 [[src-1130]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1130_MinimumCostTreeFromLeafValues.java[]
 ----

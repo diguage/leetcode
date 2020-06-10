@@ -1,4 +1,4 @@
-== 77. Combinations
+= 77. Combinations
 
 https://leetcode.com/problems/combinations/[LeetCode - Combinations]
 
@@ -18,15 +18,15 @@ Output:
 ]
 ----
 
-=== 解题分析
+== 解题分析
 
 要注意和 xref:0046-permutations.adoc[46. Permutations] 的区别。
 
-=== 思考题
+== 思考题
 
 尝试一下字典序组合解法。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/combinations/solution/zu-he-by-leetcode/[组合 - 组合 - 力扣（LeetCode）]
 
@@ -50,7 +50,7 @@ Given two integers _n_ and _k_, return all possible combinations of _k_ numbers 
 
 
 [[src-0077]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0077_Combinations.java[]
 ----

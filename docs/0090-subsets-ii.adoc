@@ -1,4 +1,4 @@
-== 90. Subsets II
+= 90. Subsets II
 
 https://leetcode.com/problems/subsets-ii/[LeetCode - Subsets II]
 
@@ -20,7 +20,7 @@ Output:
 ]
 ----
 
-=== 解题分析
+== 解题分析
 
 这道题跟 xref:0078-subsets.adoc[78. Subsets] 类似。不一样的地方是要处理重复元素：
 
@@ -34,7 +34,7 @@ image::images/0090-1.png[]
 
 如果使用递归回溯来解决这个问题，遇到重复的直接跳过就可以了，因为重复字段已经处理过一次了。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/subsets-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-19/[详细通俗的思路分析，多解法 - 子集 II - 力扣（LeetCode）]
 
@@ -60,7 +60,7 @@ Given a collection of integers that might contain duplicates, *_nums_*, return a
 
 
 [[src-0090]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0090_SubsetsII.java[]
 ----

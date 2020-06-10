@@ -1,4 +1,4 @@
-== 600. Non-negative Integers without Consecutive Ones
+= 600. Non-negative Integers without Consecutive Ones
 
 https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/[LeetCode - Non-negative Integers without Consecutive Ones]
 
@@ -30,7 +30,7 @@ Among them, only integer 3 disobeys the rule (two consecutive ones) and the othe
 
 
 [[src-0600]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0600_NonNegativeIntegersWithoutConsecutiveOnes.java[]
 ----

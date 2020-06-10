@@ -1,4 +1,4 @@
-== 753. Cracking the Safe
+= 753. Cracking the Safe
 
 https://leetcode.com/problems/cracking-the-safe/[LeetCode - Cracking the Safe]
 
@@ -45,7 +45,7 @@ Return any password of *minimum length* that is guaranteed to open the box at so
 
 
 [[src-0753]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0753_CrackingTheSafe.java[]
 ----

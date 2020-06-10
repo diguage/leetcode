@@ -1,4 +1,4 @@
-== 677. Map Sum Pairs
+= 677. Map Sum Pairs
 
 https://leetcode.com/problems/map-sum-pairs/[LeetCode - Map Sum Pairs]
 
@@ -29,7 +29,7 @@ Input: sum("ap"), Output: 5
 
 
 [[src-0677]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0677_MapSumPairs.java[]
 ----

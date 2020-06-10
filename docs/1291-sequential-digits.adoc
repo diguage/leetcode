@@ -1,4 +1,4 @@
-== 1291. Sequential Digits
+= 1291. Sequential Digits
 
 https://leetcode.com/problems/sequential-digits/[LeetCode - Sequential Digits]
 
@@ -32,7 +32,7 @@ Return a *sorted* list of all the integers in the range `[low, high]` inclusive 
 
 
 [[src-1291]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1291_SequentialDigits.java[]
 ----

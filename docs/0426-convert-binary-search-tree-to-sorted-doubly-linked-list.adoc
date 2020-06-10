@@ -1,11 +1,11 @@
-== 426. Convert Binary Search Tree to Sorted Doubly Linked List
+= 426. Convert Binary Search Tree to Sorted Doubly Linked List
 
 https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/[LeetCode - Convert Binary Search Tree to Sorted Doubly Linked List]
 
 
 
 [[src-0426]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0426_ConvertBinarySearchTreeToSortedDoublyLinkedList.java[]
 ----

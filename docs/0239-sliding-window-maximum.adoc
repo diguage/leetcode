@@ -1,4 +1,4 @@
-== 239. Sliding Window Maximum
+= 239. Sliding Window Maximum
 
 https://leetcode.com/problems/sliding-window-maximum/[LeetCode - Sliding Window Maximum]
 
@@ -28,7 +28,7 @@ You may assume `k` is always valid, `1 ≤ k ≤` input array's size for non-emp
 
 Could you solve it in linear time?
 
-=== 解题分析
+== 解题分析
 
 image::images/0239-1.png[]
 
@@ -41,11 +41,11 @@ image::images/0239-4.png[]
 image::images/0239-5.png[]
 
 
-=== 思考题
+== 思考题
 
 思考一下动态规划解法的正确性！
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-leetcode-3/[滑动窗口最大值 - 滑动窗口最大值 - 力扣（LeetCode）]
 
@@ -80,7 +80,7 @@ Could you solve it in linear time?
 
 
 [[src-0239]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0239_SlidingWindowMaximum.java[]
 ----

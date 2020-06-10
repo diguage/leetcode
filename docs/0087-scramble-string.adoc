@@ -1,4 +1,4 @@
-== 87. Scramble String
+= 87. Scramble String
 
 https://leetcode.com/problems/scramble-string/[LeetCode - Scramble String]
 
@@ -73,7 +73,7 @@ Given two strings _s1_ and _s2_ of the same length, determine if _s2_ is a scram
 
 
 [[src-0087]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0087_ScrambleString.java[]
 ----

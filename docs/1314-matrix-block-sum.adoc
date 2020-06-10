@@ -1,4 +1,4 @@
-== 1314. Matrix Block Sum
+= 1314. Matrix Block Sum
 
 https://leetcode.com/problems/matrix-block-sum/[LeetCode - Matrix Block Sum]
 
@@ -32,7 +32,7 @@ Given a `m * n` matrix `mat` and an integer `K`, return a matrix `answer` where 
 
 
 [[src-1314]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1314_MatrixBlockSum.java[]
 ----

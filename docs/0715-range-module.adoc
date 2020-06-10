@@ -1,4 +1,4 @@
-== 715. Range Module
+= 715. Range Module
 
 https://leetcode.com/problems/range-module/[LeetCode - Range Module]
 
@@ -35,7 +35,7 @@ A Range Module is a module that tracks ranges of numbers. Your task is to design
 
 
 [[src-0715]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0715_RangeModule.java[]
 ----

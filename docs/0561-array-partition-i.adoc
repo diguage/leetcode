@@ -1,4 +1,4 @@
-== 561. Array Partition I
+= 561. Array Partition I
 
 https://leetcode.com/problems/array-partition-i/[LeetCode - Array Partition I]
 
@@ -27,7 +27,7 @@ Given an array of *2n* integers, your task is to group these integers into *n* p
 
 
 [[src-0561]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0561_ArrayPartitionI.java[]
 ----

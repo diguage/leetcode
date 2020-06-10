@@ -1,4 +1,4 @@
-== 852. Peak Index in a Mountain Array
+= 852. Peak Index in a Mountain Array
 
 https://leetcode.com/problems/peak-index-in-a-mountain-array/[LeetCode - Peak Index in a Mountain Array]
 
@@ -40,7 +40,7 @@ Given an array that is definitely a mountain, return any `i` such that `A[0] < A
 
 
 [[src-0852]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0852_PeakIndexInAMountainArray.java[]
 ----

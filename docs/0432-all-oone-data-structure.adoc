@@ -1,4 +1,4 @@
-== 432. All O`one Data Structure
+= 432. All O`one Data Structure
 
 https://leetcode.com/problems/all-oone-data-structure/[LeetCode - All O`one Data Structure]
 
@@ -19,7 +19,7 @@ Challenge: Perform all these in O(1) time complexity.
 
 
 [[src-0432]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0432_AllOOneDataStructure.java[]
 ----

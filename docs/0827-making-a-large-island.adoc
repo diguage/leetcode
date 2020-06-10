@@ -1,4 +1,4 @@
-== 827. Making A Large Island
+= 827. Making A Large Island
 
 https://leetcode.com/problems/making-a-large-island/[LeetCode - Making A Large Island]
 
@@ -48,7 +48,7 @@ Notes:
 
 
 [[src-0827]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0827_MakingALargeIsland.java[]
 ----

@@ -1,4 +1,4 @@
-== 1190. Reverse Substrings Between Each Pair of Parentheses
+= 1190. Reverse Substrings Between Each Pair of Parentheses
 
 https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/[LeetCode - Reverse Substrings Between Each Pair of Parentheses]
 
@@ -55,7 +55,7 @@ Your result should *not* contain any brackets.
 
 
 [[src-1190]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1190_ReverseSubstringsBetweenEachPairOfParentheses.java[]
 ----

@@ -1,11 +1,11 @@
-== 276. Paint Fence
+= 276. Paint Fence
 
 https://leetcode.com/problems/paint-fence/[LeetCode - Paint Fence]
 
 
 
 [[src-0276]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0276_PaintFence.java[]
 ----

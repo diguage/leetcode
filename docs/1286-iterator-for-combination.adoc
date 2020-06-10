@@ -1,4 +1,4 @@
-== 1286. Iterator for Combination
+= 1286. Iterator for Combination
 
 https://leetcode.com/problems/iterator-for-combination/[LeetCode - Iterator for Combination]
 
@@ -38,7 +38,7 @@ iterator.hasNext(); // returns false
 
 
 [[src-1286]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1286_IteratorForCombination.java[]
 ----

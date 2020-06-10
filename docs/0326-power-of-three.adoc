@@ -1,4 +1,4 @@
-== 326. Power of Three
+= 326. Power of Three
 
 https://leetcode.com/problems/power-of-three/[LeetCode - Power of Three]
 
@@ -48,7 +48,7 @@ Could you do it without using any loop / recursion?
 
 
 [[src-0326]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0326_PowerOfThree.java[]
 ----

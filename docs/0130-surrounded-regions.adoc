@@ -1,4 +1,4 @@
-== 130. Surrounded Regions
+= 130. Surrounded Regions
 
 https://leetcode.com/problems/surrounded-regions/[LeetCode - Surrounded Regions]
 
@@ -39,7 +39,7 @@ Surrounded regions shouldn&rsquo;t be on the border, which means that any `'O'` 
 
 
 [[src-0130]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0130_SurroundedRegions.java[]
 ----

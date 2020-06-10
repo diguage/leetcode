@@ -1,4 +1,4 @@
-== 234. Palindrome Linked List
+= 234. Palindrome Linked List
 
 https://leetcode.com/problems/palindrome-linked-list/[LeetCode - Palindrome Linked List]
 
@@ -30,7 +30,7 @@ Could you do it in O(n) time and O(1) space?
 
 
 [[src-0234]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0234_PalindromeLinkedList.java[]
 ----

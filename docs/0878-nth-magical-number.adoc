@@ -1,4 +1,4 @@
-== 878. Nth Magical Number
+= 878. Nth Magical Number
 
 https://leetcode.com/problems/nth-magical-number/[LeetCode - Nth Magical Number]
 
@@ -64,7 +64,7 @@ Return the <font face="monospace">N-th magical number.  Since the answer may be 
 
 
 [[src-0878]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0878_NthMagicalNumber.java[]
 ----

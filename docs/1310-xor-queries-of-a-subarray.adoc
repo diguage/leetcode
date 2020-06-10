@@ -1,4 +1,4 @@
-== 1310. XOR Queries of a Subarray
+= 1310. XOR Queries of a Subarray
 
 https://leetcode.com/problems/xor-queries-of-a-subarray/[LeetCode - XOR Queries of a Subarray]
 
@@ -44,7 +44,7 @@ The XOR values for queries are:
 
 
 [[src-1310]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1310_XORQueriesOfASubarray.java[]
 ----

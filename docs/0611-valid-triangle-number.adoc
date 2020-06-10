@@ -1,4 +1,4 @@
-== 611. Valid Triangle Number
+= 611. Valid Triangle Number
 
 https://leetcode.com/problems/valid-triangle-number/[LeetCode - Valid Triangle Number]
 
@@ -29,7 +29,7 @@ Valid combinations are:
 
 
 [[src-0611]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0611_ValidTriangleNumber.java[]
 ----

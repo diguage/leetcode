@@ -1,4 +1,4 @@
-== 1275. Find Winner on a Tic Tac Toe Game
+= 1275. Find Winner on a Tic Tac Toe Game
 
 https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/[LeetCode - Find Winner on a Tic Tac Toe Game]
 
@@ -83,7 +83,7 @@ You can assume that `moves` is *valid* (It follows the rules of Tic-Tac-Toe), th
 
 
 [[src-1275]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1275_FindWinnerOnATicTacToeGame.java[]
 ----

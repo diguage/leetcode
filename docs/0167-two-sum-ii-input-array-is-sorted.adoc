@@ -1,4 +1,4 @@
-== 167. Two Sum II - Input array is sorted
+= 167. Two Sum II - Input array is sorted
 
 https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/[LeetCode - Two Sum II - Input array is sorted]
 
@@ -18,11 +18,11 @@ Output: [1,2]
 Explanation: The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
 ----
 
-=== 解题思路
+== 解题思路
 
 利用输入数组的有序性，可以从两边向中级"挤压"来查找正确解。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/solution/liang-shu-zhi-he-ii-shu-ru-you-xu-shu-zu-by-leetco/[两数之和 II - 输入有序数组 - 两数之和 II - 输入有序数组 - 力扣（LeetCode）]
 
@@ -49,7 +49,7 @@ The function twoSum should return indices of the two numbers such that they add 
 
 
 [[src-0167]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0167_TwoSumIIInputArrayIsSorted.java[]
 ----

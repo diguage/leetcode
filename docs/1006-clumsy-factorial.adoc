@@ -1,4 +1,4 @@
-== 1006. Clumsy Factorial
+= 1006. Clumsy Factorial
 
 https://leetcode.com/problems/clumsy-factorial/[LeetCode - Clumsy Factorial]
 
@@ -44,7 +44,7 @@ Additionally, the division that we use is _floor division_ such that `10 * 9 / 8
 
 
 [[src-1006]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1006_ClumsyFactorial.java[]
 ----

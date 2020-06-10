@@ -1,4 +1,4 @@
-== 997. Find the Town Judge
+= 997. Find the Town Judge
 
 https://leetcode.com/problems/find-the-town-judge/[LeetCode - Find the Town Judge]
 
@@ -81,7 +81,7 @@ If the town judge exists and can be identified, return the label of the town jud
 
 
 [[src-0997]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0997_FindTheTownJudge.java[]
 ----

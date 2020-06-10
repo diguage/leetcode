@@ -1,11 +1,11 @@
-== 573. Squirrel Simulation
+= 573. Squirrel Simulation
 
 https://leetcode.com/problems/squirrel-simulation/[LeetCode - Squirrel Simulation]
 
 
 
 [[src-0573]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0573_SquirrelSimulation.java[]
 ----

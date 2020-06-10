@@ -1,4 +1,4 @@
-== 470. Implement Rand10() Using Rand7()
+= 470. Implement Rand10() Using Rand7()
 
 https://leetcode.com/problems/implement-rand10-using-rand7/[LeetCode - Implement Rand10() Using Rand7()]
 
@@ -62,7 +62,7 @@ Do NOT use system's `Math.random()`.
 
 
 [[src-0470]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0470_ImplementRand10UsingRand7.java[]
 ----

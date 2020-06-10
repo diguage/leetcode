@@ -1,4 +1,4 @@
-== 592. Fraction Addition and Subtraction
+= 592. Fraction Addition and Subtraction
 
 https://leetcode.com/problems/fraction-addition-and-subtraction/[LeetCode - Fraction Addition and Subtraction]
 
@@ -56,7 +56,7 @@ Given a string representing an expression of fraction addition and subtraction, 
 
 
 [[src-0592]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0592_FractionAdditionAndSubtraction.java[]
 ----

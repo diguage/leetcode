@@ -1,4 +1,4 @@
-== 488. Zuma Game
+= 488. Zuma Game
 
 https://leetcode.com/problems/zuma-game/[LeetCode - Zuma Game]
 
@@ -58,7 +58,7 @@ Find the minimal balls you have to insert to remove all the balls on the table. 
 
 
 [[src-0488]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0488_ZumaGame.java[]
 ----

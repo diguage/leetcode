@@ -1,11 +1,11 @@
-== 1077. Project Employees III
+= 1077. Project Employees III
 
 https://leetcode.com/problems/project-employees-iii/[LeetCode - Project Employees III]
 
 
 
 [[src-1077]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1077_ProjectEmployeesIII.java[]
 ----

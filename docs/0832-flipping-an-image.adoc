@@ -1,4 +1,4 @@
-== 832. Flipping an Image
+= 832. Flipping an Image
 
 https://leetcode.com/problems/flipping-an-image/[LeetCode - Flipping an Image]
 
@@ -38,7 +38,7 @@ Then invert the image: [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
 
 
 [[src-0832]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0832_FlippingAnImage.java[]
 ----

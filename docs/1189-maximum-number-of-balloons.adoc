@@ -1,4 +1,4 @@
-== 1189. Maximum Number of Balloons
+= 1189. Maximum Number of Balloons
 
 https://leetcode.com/problems/maximum-number-of-balloons/[LeetCode - Maximum Number of Balloons]
 
@@ -43,7 +43,7 @@ image::https://assets.leetcode.com/uploads/2019/09/05/1536_ex2_upd.JPG[]
 
 
 [[src-1189]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1189_MaximumNumberOfBalloons.java[]
 ----

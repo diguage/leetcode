@@ -1,4 +1,4 @@
-== 1237. Find Positive Integer Solution for a Given Equation
+= 1237. Find Positive Integer Solution for a Given Equation
 
 https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/[LeetCode - Find Positive Integer Solution for a Given Equation]
 
@@ -60,7 +60,7 @@ You may return the solutions in any order.
 
 
 [[src-1237]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1237_FindPositiveIntegerSolutionForAGivenEquation.java[]
 ----

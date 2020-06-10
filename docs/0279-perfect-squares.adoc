@@ -1,4 +1,4 @@
-== 279. Perfect Squares
+= 279. Perfect Squares
 
 https://leetcode.com/problems/perfect-squares/[LeetCode - Perfect Squares]
 
@@ -26,7 +26,7 @@ Given a positive integer _n_, find the least number of perfect square numbers (f
 
 
 [[src-0279]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0279_PerfectSquares.java[]
 ----

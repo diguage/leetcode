@@ -1,4 +1,4 @@
-== 115. Distinct Subsequences
+= 115. Distinct Subsequences
 
 https://leetcode.com/problems/distinct-subsequences/[LeetCode - Distinct Subsequences]
 
@@ -48,7 +48,7 @@ As shown below, there are 5 ways you can generate "bag" from S.
 
 
 [[src-0115]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0115_DistinctSubsequences.java[]
 ----

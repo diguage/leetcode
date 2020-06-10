@@ -1,4 +1,4 @@
-== 319. Bulb Switcher
+= 319. Bulb Switcher
 
 https://leetcode.com/problems/bulb-switcher/[LeetCode - Bulb Switcher]
 
@@ -22,7 +22,7 @@ So you should return 1, because there is only one bulb is on.
 
 
 [[src-0319]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0319_BulbSwitcher.java[]
 ----

@@ -1,11 +1,11 @@
-== 533. Lonely Pixel II
+= 533. Lonely Pixel II
 
 https://leetcode.com/problems/lonely-pixel-ii/[LeetCode - Lonely Pixel II]
 
 
 
 [[src-0533]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0533_LonelyPixelII.java[]
 ----

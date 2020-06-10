@@ -1,11 +1,11 @@
-== 1174. Immediate Food Delivery II
+= 1174. Immediate Food Delivery II
 
 https://leetcode.com/problems/immediate-food-delivery-ii/[LeetCode - Immediate Food Delivery II]
 
 
 
 [[src-1174]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1174_ImmediateFoodDeliveryII.java[]
 ----

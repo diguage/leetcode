@@ -1,4 +1,4 @@
-== 921. Minimum Add to Make Parentheses Valid
+= 921. Minimum Add to Make Parentheses Valid
 
 https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/[LeetCode - Minimum Add to Make Parentheses Valid]
 
@@ -73,7 +73,7 @@ Given a parentheses string, return the minimum number of parentheses we must add
 
 
 [[src-0921]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0921_MinimumAddToMakeParenthesesValid.java[]
 ----

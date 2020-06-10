@@ -1,11 +1,11 @@
-== 1194. Tournament Winners
+= 1194. Tournament Winners
 
 https://leetcode.com/problems/tournament-winners/[LeetCode - Tournament Winners]
 
 
 
 [[src-1194]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1194_TournamentWinners.java[]
 ----

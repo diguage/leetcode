@@ -1,4 +1,4 @@
-== 542. 01 Matrix
+= 542. 01 Matrix
 
 https://leetcode.com/problems/01-matrix/[LeetCode - 01 Matrix]
 
@@ -51,7 +51,7 @@ The distance between two adjacent cells is 1.
 
 
 [[src-0542]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0542_01Matrix.java[]
 ----

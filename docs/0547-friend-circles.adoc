@@ -1,4 +1,4 @@
-== 547. Friend Circles
+= 547. Friend Circles
 
 https://leetcode.com/problems/friend-circles/[LeetCode - Friend Circles]
 
@@ -49,7 +49,7 @@ Given a *N*N* matrix *M* representing the friend relationship between students i
 
 
 [[src-0547]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0547_FriendCircles.java[]
 ----

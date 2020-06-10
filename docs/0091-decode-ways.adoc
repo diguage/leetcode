@@ -1,4 +1,4 @@
-== 91. Decode Ways
+= 91. Decode Ways
 
 https://leetcode.com/problems/decode-ways/[LeetCode - Decode Ways]
 
@@ -38,7 +38,7 @@ Given a *non-empty* string containing only digits, determine the total number of
 
 
 [[src-0091]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0091_DecodeWays.java[]
 ----

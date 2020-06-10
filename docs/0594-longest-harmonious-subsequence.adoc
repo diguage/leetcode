@@ -1,4 +1,4 @@
-== 594. Longest Harmonious Subsequence
+= 594. Longest Harmonious Subsequence
 
 https://leetcode.com/problems/longest-harmonious-subsequence/[LeetCode - Longest Harmonious Subsequence]
 
@@ -22,7 +22,7 @@ Now, given an integer array, you need to find the length of its longest harmonio
 
 
 [[src-0594]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0594_LongestHarmoniousSubsequence.java[]
 ----

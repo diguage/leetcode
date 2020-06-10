@@ -1,4 +1,4 @@
-== 459. Repeated Substring Pattern
+= 459. Repeated Substring Pattern
 
 https://leetcode.com/problems/repeated-substring-pattern/[LeetCode - Repeated Substring Pattern]
 
@@ -35,7 +35,7 @@ Given a non-empty string check if it can be constructed by taking a substring of
 
 
 [[src-0459]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0459_RepeatedSubstringPattern.java[]
 ----

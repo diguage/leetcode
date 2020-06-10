@@ -1,4 +1,4 @@
-== 712. Minimum ASCII Delete Sum for Two Strings
+= 712. Minimum ASCII Delete Sum for Two Strings
 
 https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/[LeetCode - Minimum ASCII Delete Sum for Two Strings]
 
@@ -38,7 +38,7 @@ If instead we turned both strings into "lee" or "eet", we would get answers of 4
 
 
 [[src-0712]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0712_MinimumASCIIDeleteSumForTwoStrings.java[]
 ----

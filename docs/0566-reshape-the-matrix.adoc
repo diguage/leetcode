@@ -1,4 +1,4 @@
-== 566. Reshape the Matrix
+= 566. Reshape the Matrix
 
 https://leetcode.com/problems/reshape-the-matrix/[LeetCode - Reshape the Matrix]
 
@@ -59,7 +59,7 @@ There is no way to reshape a 2 * 2 matrix to a 2 * 4 matrix. So output the origi
 
 
 [[src-0566]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0566_ReshapeTheMatrix.java[]
 ----

@@ -1,4 +1,4 @@
-== 1094. Car Pooling
+= 1094. Car Pooling
 
 https://leetcode.com/problems/car-pooling/[LeetCode - Car Pooling]
 
@@ -70,7 +70,7 @@ Return `true` if and only if it is possible to pick up and drop off all passenge
 
 
 [[src-1094]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1094_CarPooling.java[]
 ----

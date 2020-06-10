@@ -1,11 +1,11 @@
-== 1058. Minimize Rounding Error to Meet Target
+= 1058. Minimize Rounding Error to Meet Target
 
 https://leetcode.com/problems/minimize-rounding-error-to-meet-target/[LeetCode - Minimize Rounding Error to Meet Target]
 
 
 
 [[src-1058]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1058_MinimizeRoundingErrorToMeetTarget.java[]
 ----

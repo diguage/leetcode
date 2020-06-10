@@ -1,4 +1,4 @@
-== 900. RLE Iterator
+= 900. RLE Iterator
 
 https://leetcode.com/problems/rle-iterator/[LeetCode - RLE Iterator]
 
@@ -47,7 +47,7 @@ but the second term did not exist.  Since the last term exhausted does not exist
 
 
 [[src-0900]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0900_RLEIterator.java[]
 ----

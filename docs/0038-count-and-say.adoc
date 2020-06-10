@@ -1,4 +1,4 @@
-== 38. Count and Say
+= 38. Count and Say
 
 https://leetcode.com/problems/count-and-say/[LeetCode - Count and Say]
 
@@ -51,7 +51,7 @@ Note: Each term of the sequence of integers will be represented as a string.
 
 
 [[src-0038]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0038_CountAndSay.java[]
 ----

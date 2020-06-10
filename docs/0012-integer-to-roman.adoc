@@ -1,4 +1,4 @@
-== 12. Integer to Roman
+= 12. Integer to Roman
 
 https://leetcode.com/problems/integer-to-roman/[LeetCode - Integer to Roman]
 
@@ -72,7 +72,7 @@ Given an integer, convert it to a roman numeral. Input is guaranteed to be withi
 
 
 [[src-0012]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0012_IntegerToRoman.java[]
 ----

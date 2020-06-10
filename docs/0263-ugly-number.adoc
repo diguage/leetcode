@@ -1,4 +1,4 @@
-== 263. Ugly Number
+= 263. Ugly Number
 
 https://leetcode.com/problems/ugly-number/[LeetCode - Ugly Number]
 
@@ -44,7 +44,7 @@ Ugly numbers are *positive numbers* whose prime factors only include `2, 3, 5`.
 
 
 [[src-0263]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0263_UglyNumber.java[]
 ----

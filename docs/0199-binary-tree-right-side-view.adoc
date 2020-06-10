@@ -1,4 +1,4 @@
-== 199. Binary Tree Right Side View
+= 199. Binary Tree Right Side View
 
 https://leetcode.com/problems/binary-tree-right-side-view/[LeetCode - Binary Tree Right Side View]
 
@@ -21,7 +21,7 @@ Given a binary tree, imagine yourself standing on the _right_ side of it, return
 
 
 [[src-0199]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0199_BinaryTreeRightSideView.java[]
 ----

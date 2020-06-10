@@ -1,11 +1,11 @@
-== 1212. Team Scores in Football Tournament
+= 1212. Team Scores in Football Tournament
 
 https://leetcode.com/problems/team-scores-in-football-tournament/[LeetCode - Team Scores in Football Tournament]
 
 
 
 [[src-1212]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1212_TeamScoresInFootballTournament.java[]
 ----

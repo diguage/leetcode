@@ -1,4 +1,4 @@
-== 39. Combination Sum
+= 39. Combination Sum
 
 https://leetcode.com/problems/combination-sum/[LeetCode - Combination Sum]
 
@@ -44,7 +44,7 @@ image::images/0039-3.png[]
 
 思考题：如何做剪枝？这道题通过做剪枝从 164ms 优化到了 9ms。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/[回溯算法 + 剪枝（Python、Java、C++） - 组合总和 - 力扣（LeetCode）]
 
@@ -86,7 +86,7 @@ The *same* repeated number may be chosen from `candidates` unlimited number of t
 
 
 [[src-0039]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0039_CombinationSum.java[]
 ----

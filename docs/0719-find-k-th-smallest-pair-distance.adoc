@@ -1,4 +1,4 @@
-== 719. Find K-th Smallest Pair Distance
+= 719. Find K-th Smallest Pair Distance
 
 https://leetcode.com/problems/find-k-th-smallest-pair-distance/[LeetCode - Find K-th Smallest Pair Distance]
 
@@ -32,7 +32,7 @@ Then the 1st smallest distance pair is (1,1), and its distance is 0.
 
 
 [[src-0719]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0719_FindKThSmallestPairDistance.java[]
 ----

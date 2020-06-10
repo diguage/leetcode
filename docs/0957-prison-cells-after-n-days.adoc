@@ -1,4 +1,4 @@
-== 957. Prison Cells After N Days
+= 957. Prison Cells After N Days
 
 https://leetcode.com/problems/prison-cells-after-n-days/[LeetCode - Prison Cells After N Days]
 
@@ -68,7 +68,7 @@ Day 7: [0, 0, 1, 1, 0, 0, 0, 0]
 
 
 [[src-0957]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0957_PrisonCellsAfterNDays.java[]
 ----

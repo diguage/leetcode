@@ -1,4 +1,4 @@
-== 382. Linked List Random Node
+= 382. Linked List Random Node
 
 https://leetcode.com/problems/linked-list-random-node/[LeetCode - Linked List Random Node]
 
@@ -26,7 +26,7 @@ solution.getRandom();
 
 
 [[src-0382]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0382_LinkedListRandomNode.java[]
 ----

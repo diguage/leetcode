@@ -1,4 +1,4 @@
-== 78. Subsets
+= 78. Subsets
 
 https://leetcode.com/problems/subsets/[LeetCode - Subsets]
 
@@ -22,7 +22,7 @@ Output:
 ]
 ----
 
-=== 解题分析
+== 解题分析
 
 这道题跟 xref:0090-subsets-ii.adoc[90. Subsets II] 类似。
 
@@ -34,7 +34,7 @@ image::images/0078-subsets-backtracking.png[]
 
 image::images/0078-subsets-bitmask4.png[]
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode.com/problems/subsets/solution/[Subsets solution - LeetCode]
 
@@ -62,7 +62,7 @@ Given a set of *distinct* integers, _nums_, return all possible subsets (the pow
 
 
 [[src-0078]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0078_Subsets.java[]
 ----

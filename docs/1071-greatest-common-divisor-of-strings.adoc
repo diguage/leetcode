@@ -1,4 +1,4 @@
-== 1071. Greatest Common Divisor of Strings
+= 1071. Greatest Common Divisor of Strings
 
 https://leetcode.com/problems/greatest-common-divisor-of-strings/[LeetCode - Greatest Common Divisor of Strings]
 
@@ -45,7 +45,7 @@ Return the largest string `X` such that `X` divides <font face="monospace">str1 
 
 
 [[src-1071]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1071_GreatestCommonDivisorOfStrings.java[]
 ----

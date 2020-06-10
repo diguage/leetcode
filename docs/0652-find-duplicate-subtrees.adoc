@@ -1,4 +1,4 @@
-== 652. Find Duplicate Subtrees
+= 652. Find Duplicate Subtrees
 
 https://leetcode.com/problems/find-duplicate-subtrees/[LeetCode - Find Duplicate Subtrees]
 
@@ -38,7 +38,7 @@ Therefore, you need to return above trees' root in the form of a list.
 
 
 [[src-0652]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0652_FindDuplicateSubtrees.java[]
 ----

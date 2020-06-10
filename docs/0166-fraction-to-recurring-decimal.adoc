@@ -1,4 +1,4 @@
-== 166. Fraction to Recurring Decimal
+= 166. Fraction to Recurring Decimal
 
 https://leetcode.com/problems/fraction-to-recurring-decimal/[LeetCode - Fraction to Recurring Decimal]
 
@@ -35,7 +35,7 @@ If the fractional part is repeating, enclose the repeating part in parentheses.
 
 
 [[src-0166]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0166_FractionToRecurringDecimal.java[]
 ----

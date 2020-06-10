@@ -1,4 +1,4 @@
-== 672. Bulb Switcher II
+= 672. Bulb Switcher II
 
 https://leetcode.com/problems/bulb-switcher-ii/[LeetCode - Bulb Switcher II]
 
@@ -53,7 +53,7 @@ Suppose `n` lights are labeled as number [1, 2, 3 ..., n], function of these 4 b
 
 
 [[src-0672]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0672_BulbSwitcherII.java[]
 ----

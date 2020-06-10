@@ -1,4 +1,4 @@
-== 435. Non-overlapping Intervals
+= 435. Non-overlapping Intervals
 
 https://leetcode.com/problems/non-overlapping-intervals/[LeetCode - Non-overlapping Intervals]
 
@@ -48,7 +48,7 @@ Given a collection of intervals, find the minimum number of intervals you need t
 
 
 [[src-0435]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0435_NonOverlappingIntervals.java[]
 ----

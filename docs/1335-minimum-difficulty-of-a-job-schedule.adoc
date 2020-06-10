@@ -1,4 +1,4 @@
-== 1335. Minimum Difficulty of a Job Schedule
+= 1335. Minimum Difficulty of a Job Schedule
 
 https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/[LeetCode - Minimum Difficulty of a Job Schedule]
 
@@ -69,7 +69,7 @@ The difficulty of the schedule = 6 + 1 = 7
 
 
 [[src-1335]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1335_MinimumDifficultyOfAJobSchedule.java[]
 ----

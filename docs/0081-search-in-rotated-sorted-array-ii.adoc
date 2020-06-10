@@ -1,4 +1,4 @@
-== 81. Search in Rotated Sorted Array II
+= 81. Search in Rotated Sorted Array II
 
 https://leetcode.com/problems/search-in-rotated-sorted-array-ii/[LeetCode - Search in Rotated Sorted Array II]
 
@@ -25,13 +25,13 @@ Output: false
 * This is a follow up problem to xref:0033-search-in-rotated-sorted-array.adoc[33. Search in Rotated Sorted Array], where `nums` may contain duplicates.
 * Would this affect the run-time complexity? How and why?
 
-=== 解题思路
+== 解题思路
 
 这道题的关键是先确定哪部分有序，然后判断目标值是否在有序区间内，如果没有则再另外一部分内。
 
 另外，需要注意的就是对重复值的处理。如果左边的值和中间值相等，直接让左边下标向前移动一下，简单有效。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/solution/zai-javazhong-ji-bai-liao-100de-yong-hu-by-reedfan/[搜索旋转排序数组 II - 搜索旋转排序数组 II - 力扣（LeetCode）]
 
@@ -66,7 +66,7 @@ You are given a target value to search. If found in the array return `true`, oth
 
 
 [[src-0081]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0081_SearchInRotatedSortedArrayII.java[]
 ----

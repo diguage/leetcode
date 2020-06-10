@@ -1,4 +1,4 @@
-== 674. Longest Continuous Increasing Subsequence
+= 674. Longest Continuous Increasing Subsequence
 
 https://leetcode.com/problems/longest-continuous-increasing-subsequence/[LeetCode - Longest Continuous Increasing Subsequence]
 
@@ -35,7 +35,7 @@ Length of the array will not exceed 10,000.
 
 
 [[src-0674]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0674_LongestContinuousIncreasingSubsequence.java[]
 ----

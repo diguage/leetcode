@@ -1,4 +1,4 @@
-== 160. Intersection of Two Linked Lists
+= 160. Intersection of Two Linked Lists
 
 https://leetcode.com/problems/intersection-of-two-linked-lists/[LeetCode - Intersection of Two Linked Lists]
 
@@ -76,7 +76,7 @@ image::https://assets.leetcode.com/uploads/2018/12/13/160_example_3.png[]
 
 
 [[src-0160]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0160_IntersectionOfTwoLinkedLists.java[]
 ----

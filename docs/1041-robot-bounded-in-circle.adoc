@@ -1,4 +1,4 @@
-== 1041. Robot Bounded In Circle
+= 1041. Robot Bounded In Circle
 
 https://leetcode.com/problems/robot-bounded-in-circle/[LeetCode - Robot Bounded In Circle]
 
@@ -59,7 +59,7 @@ The robot moves from (0, 0) -> (0, 1) -> (-1, 1) -> (-1, 0) -> (0, 0) -> ...
 
 
 [[src-1041]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1041_RobotBoundedInCircle.java[]
 ----

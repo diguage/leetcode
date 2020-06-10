@@ -1,4 +1,4 @@
-== 804. Unique Morse Code Words
+= 804. Unique Morse Code Words
 
 https://leetcode.com/problems/unique-morse-code-words/[LeetCode - Unique Morse Code Words]
 
@@ -42,7 +42,7 @@ There are 2 different transformations, "--...-." and "--...--.".
 
 
 [[src-0804]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0804_UniqueMorseCodeWords.java[]
 ----

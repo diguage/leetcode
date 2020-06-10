@@ -1,11 +1,11 @@
-== 1256. Encode Number
+= 1256. Encode Number
 
 https://leetcode.com/problems/encode-number/[LeetCode - Encode Number]
 
 
 
 [[src-1256]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1256_EncodeNumber.java[]
 ----

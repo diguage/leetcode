@@ -1,4 +1,4 @@
-== 152. Maximum Product Subarray
+= 152. Maximum Product Subarray
 
 https://leetcode.com/problems/maximum-product-subarray/[LeetCode - Maximum Product Subarray]
 
@@ -29,7 +29,7 @@ Given an integer array `nums`, find the contiguous subarray within an array (con
 
 
 [[src-0152]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0152_MaximumProductSubarray.java[]
 ----

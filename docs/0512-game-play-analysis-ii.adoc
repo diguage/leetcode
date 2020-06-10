@@ -1,11 +1,11 @@
-== 512. Game Play Analysis II
+= 512. Game Play Analysis II
 
 https://leetcode.com/problems/game-play-analysis-ii/[LeetCode - Game Play Analysis II]
 
 
 
 [[src-0512]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0512_GamePlayAnalysisII.java[]
 ----

@@ -1,11 +1,11 @@
-== 471. Encode String with Shortest Length
+= 471. Encode String with Shortest Length
 
 https://leetcode.com/problems/encode-string-with-shortest-length/[LeetCode - Encode String with Shortest Length]
 
 
 
 [[src-0471]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0471_EncodeStringWithShortestLength.java[]
 ----

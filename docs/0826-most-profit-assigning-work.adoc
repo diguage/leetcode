@@ -1,4 +1,4 @@
-== 826. Most Profit Assigning Work
+= 826. Most Profit Assigning Work
 
 https://leetcode.com/problems/most-profit-assigning-work/[LeetCode - Most Profit Assigning Work]
 
@@ -32,7 +32,7 @@ What is the most profit we can make?
 
 
 [[src-0826]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0826_MostProfitAssigningWork.java[]
 ----

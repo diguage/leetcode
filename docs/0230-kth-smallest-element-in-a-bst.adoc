@@ -1,4 +1,4 @@
-== 230. Kth Smallest Element in a BST
+= 230. Kth Smallest Element in a BST
 
 https://leetcode.com/problems/kth-smallest-element-in-a-bst/[LeetCode - Kth Smallest Element in a BST]
 
@@ -56,7 +56,7 @@ What if the BST is modified (insert/delete operations) often and you need to fin
 
 
 [[src-0230]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0230_KthSmallestElementInABST.java[]
 ----

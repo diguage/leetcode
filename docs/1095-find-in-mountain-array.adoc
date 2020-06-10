@@ -1,4 +1,4 @@
-== 1095. Find in Mountain Array
+= 1095. Find in Mountain Array
 
 https://leetcode.com/problems/find-in-mountain-array/[LeetCode - Find in Mountain Array]
 
@@ -62,7 +62,7 @@ Submissions making more than `100` calls to `MountainArray.get` will be judged _
 
 
 [[src-1095]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1095_FindInMountainArray.java[]
 ----

@@ -1,4 +1,4 @@
-== 103. Binary Tree Zigzag Level Order Traversal
+= 103. Binary Tree Zigzag Level Order Traversal
 
 https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/[LeetCode - Binary Tree Zigzag Level Order Traversal]
 
@@ -37,7 +37,7 @@ return its zigzag level order traversal as:
 
 
 [[src-0103]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0103_BinaryTreeZigzagLevelOrderTraversal.java[]
 ----

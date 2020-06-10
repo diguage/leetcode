@@ -1,4 +1,4 @@
-== 169. Majority Element
+= 169. Majority Element
 
 https://leetcode.com/problems/majority-element/[LeetCode - Majority Element]
 
@@ -30,7 +30,7 @@ You may assume that the array is non-empty and the majority element always exist
 
 
 [[src-0169]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0169_MajorityElement.java[]
 ----

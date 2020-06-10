@@ -1,4 +1,4 @@
-== 1131. Maximum of Absolute Value Expression
+= 1131. Maximum of Absolute Value Expression
 
 https://leetcode.com/problems/maximum-of-absolute-value-expression/[LeetCode - Maximum of Absolute Value Expression]
 
@@ -36,7 +36,7 @@ where the maximum is taken over all `0 <= i, j < arr1.length`.
 
 
 [[src-1131]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1131_MaximumOfAbsoluteValueExpression.java[]
 ----

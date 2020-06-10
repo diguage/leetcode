@@ -1,4 +1,4 @@
-== 1072. Flip Columns For Maximum Number of Equal Rows
+= 1072. Flip Columns For Maximum Number of Equal Rows
 
 https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/[LeetCode - Flip Columns For Maximum Number of Equal Rows]
 
@@ -58,7 +58,7 @@ Return the maximum number of rows that have all values equal after some number o
 
 
 [[src-1072]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1072_FlipColumnsForMaximumNumberOfEqualRows.java[]
 ----

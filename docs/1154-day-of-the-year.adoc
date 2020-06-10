@@ -1,4 +1,4 @@
-== 1154. Day of the Year
+= 1154. Day of the Year
 
 https://leetcode.com/problems/day-of-the-year/[LeetCode - Day of the Year]
 
@@ -49,7 +49,7 @@ Given a string `date` representing a https://en.wikipedia.org/wiki/Gregorian_cal
 
 
 [[src-1154]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1154_DayOfTheYear.java[]
 ----

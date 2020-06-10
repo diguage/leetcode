@@ -1,4 +1,4 @@
-== 1002. Find Common Characters
+= 1002. Find Common Characters
 
 https://leetcode.com/problems/find-common-characters/[LeetCode - Find Common Characters]
 
@@ -40,7 +40,7 @@ You may return the answer in any order.
 
 
 [[src-1002]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1002_FindCommonCharacters.java[]
 ----

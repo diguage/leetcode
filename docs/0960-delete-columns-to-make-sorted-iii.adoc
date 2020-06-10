@@ -1,4 +1,4 @@
-== 960. Delete Columns to Make Sorted III
+= 960. Delete Columns to Make Sorted III
 
 https://leetcode.com/problems/delete-columns-to-make-sorted-iii/[LeetCode - Delete Columns to Make Sorted III]
 
@@ -62,7 +62,7 @@ Note that A[0] > A[1] - the array A isn't necessarily in lexicographic order.
 
 
 [[src-0960]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0960_DeleteColumnsToMakeSortedIII.java[]
 ----

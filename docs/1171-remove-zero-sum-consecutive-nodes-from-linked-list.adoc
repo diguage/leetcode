@@ -1,4 +1,4 @@
-== 1171. Remove Zero Sum Consecutive Nodes from Linked List
+= 1171. Remove Zero Sum Consecutive Nodes from Linked List
 
 https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/[LeetCode - Remove Zero Sum Consecutive Nodes from Linked List]
 
@@ -45,7 +45,7 @@ After doing so, return the head of the final linked list.  You may return any su
 
 
 [[src-1171]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1171_RemoveZeroSumConsecutiveNodesFromLinkedList.java[]
 ----

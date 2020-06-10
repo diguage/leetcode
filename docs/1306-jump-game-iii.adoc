@@ -1,4 +1,4 @@
-== 1306. Jump Game III
+= 1306. Jump Game III
 
 https://leetcode.com/problems/jump-game-iii/[LeetCode - Jump Game III]
 
@@ -50,7 +50,7 @@ index 0 -> index 4 -> index 1 -> index 3
 
 
 [[src-1306]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1306_JumpGameIII.java[]
 ----

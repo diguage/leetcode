@@ -1,4 +1,4 @@
-== 1054. Distant Barcodes
+= 1054. Distant Barcodes
 
 https://leetcode.com/problems/distant-barcodes/[LeetCode - Distant Barcodes]
 
@@ -41,7 +41,7 @@ Rearrange the barcodes so that no two adjacent barcodes are equal.  You may retu
 
 
 [[src-1054]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1054_DistantBarcodes.java[]
 ----

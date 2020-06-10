@@ -1,4 +1,4 @@
-== 869. Reordered Power of 2
+= 869. Reordered Power of 2
 
 https://leetcode.com/problems/reordered-power-of-2/[LeetCode - Reordered Power of 2]
 
@@ -72,7 +72,7 @@ Return `true` if and only if we can do this in a way such that the resulting num
 
 
 [[src-0869]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0869_ReorderedPowerOf2.java[]
 ----

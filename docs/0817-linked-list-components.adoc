@@ -1,4 +1,4 @@
-== 817. Linked List Components
+= 817. Linked List Components
 
 https://leetcode.com/problems/linked-list-components/[LeetCode - Linked List Components]
 
@@ -44,7 +44,7 @@ G = [0, 3, 1, 4]
 
 
 [[src-0817]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0817_LinkedListComponents.java[]
 ----

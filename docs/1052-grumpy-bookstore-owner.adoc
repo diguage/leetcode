@@ -1,4 +1,4 @@
-== 1052. Grumpy Bookstore Owner
+= 1052. Grumpy Bookstore Owner
 
 https://leetcode.com/problems/grumpy-bookstore-owner/[LeetCode - Grumpy Bookstore Owner]
 
@@ -34,7 +34,7 @@ The maximum number of customers that can be satisfied = 1 + 1 + 1 + 1 + 7 + 5 = 
 
 
 [[src-1052]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1052_GrumpyBookstoreOwner.java[]
 ----

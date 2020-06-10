@@ -1,4 +1,4 @@
-== 916. Word Subsets
+= 916. Word Subsets
 
 https://leetcode.com/problems/word-subsets/[LeetCode - Word Subsets]
 
@@ -79,7 +79,7 @@ Return a list of all universal words in `A`.  You can return the words in any or
 
 
 [[src-0916]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0916_WordSubsets.java[]
 ----

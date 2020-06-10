@@ -1,4 +1,4 @@
-== 125. Valid Palindrome
+= 125. Valid Palindrome
 
 https://leetcode.com/problems/valid-palindrome/[LeetCode - Valid Palindrome]
 
@@ -27,7 +27,7 @@ Given a string, determine if it is a palindrome, considering only alphanumeric c
 
 
 [[src-0125]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0125_ValidPalindrome.java[]
 ----

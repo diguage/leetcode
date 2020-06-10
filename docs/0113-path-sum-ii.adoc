@@ -1,4 +1,4 @@
-== 113. Path Sum II
+= 113. Path Sum II
 
 https://leetcode.com/problems/path-sum-ii/[LeetCode - Path Sum II]
 
@@ -31,18 +31,18 @@ Return:
 ]
 ----
 
-=== 解题分析
+== 解题分析
 
 利用回溯+深度优先搜索即可解决。
 
 这样要重点注意的是：回溯时，前进和后退要成对出现。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/path-sum-ii/solution/dfs-by-powcai-2/[DFS - 路径总和 II - 力扣（LeetCode）]
 
 [[src-0113]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0113_PathSumII.java[]
 ----

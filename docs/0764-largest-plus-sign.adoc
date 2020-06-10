@@ -1,4 +1,4 @@
-== 764. Largest Plus Sign
+= 764. Largest Plus Sign
 
 https://leetcode.com/problems/largest-plus-sign/[LeetCode - Largest Plus Sign]
 
@@ -78,7 +78,7 @@ There is no plus sign, so return 0.
 
 
 [[src-0764]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0764_LargestPlusSign.java[]
 ----

@@ -1,4 +1,4 @@
-== 963. Minimum Area Rectangle II
+= 963. Minimum Area Rectangle II
 
 https://leetcode.com/problems/minimum-area-rectangle-ii/[LeetCode - Minimum Area Rectangle II]
 
@@ -73,7 +73,7 @@ image::https://assets.leetcode.com/uploads/2018/12/21/4c.png[]
 
 
 [[src-0963]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0963_MinimumAreaRectangleII.java[]
 ----

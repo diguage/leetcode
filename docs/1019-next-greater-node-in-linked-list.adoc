@@ -1,4 +1,4 @@
-== 1019. Next Greater Node In Linked List
+= 1019. Next Greater Node In Linked List
 
 https://leetcode.com/problems/next-greater-node-in-linked-list/[LeetCode - Next Greater Node In Linked List]
 
@@ -53,7 +53,7 @@ Note that in the example *inputs* (not outputs) below, arrays such as `[2,1,5]` 
 
 
 [[src-1019]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1019_NextGreaterNodeInLinkedList.java[]
 ----

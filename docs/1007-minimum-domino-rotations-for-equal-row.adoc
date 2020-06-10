@@ -1,4 +1,4 @@
-== 1007. Minimum Domino Rotations For Equal Row
+= 1007. Minimum Domino Rotations For Equal Row
 
 https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/[LeetCode - Minimum Domino Rotations For Equal Row]
 
@@ -47,7 +47,7 @@ In this case, it is not possible to rotate the dominoes to make one row of value
 
 
 [[src-1007]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1007_MinimumDominoRotationsForEqualRow.java[]
 ----

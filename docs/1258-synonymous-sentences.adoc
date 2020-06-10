@@ -1,11 +1,11 @@
-== 1258. Synonymous Sentences
+= 1258. Synonymous Sentences
 
 https://leetcode.com/problems/synonymous-sentences/[LeetCode - Synonymous Sentences]
 
 
 
 [[src-1258]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1258_SynonymousSentences.java[]
 ----

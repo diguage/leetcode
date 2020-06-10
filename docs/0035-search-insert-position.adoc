@@ -1,4 +1,4 @@
-== 35. Search Insert Position
+= 35. Search Insert Position
 
 https://leetcode.com/problems/search-insert-position/[LeetCode - Search Insert Position]
 
@@ -40,7 +40,7 @@ You may assume no duplicates in the array.
 
 
 [[src-0035]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0035_SearchInsertPosition.java[]
 ----

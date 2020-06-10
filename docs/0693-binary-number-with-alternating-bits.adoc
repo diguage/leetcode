@@ -1,4 +1,4 @@
-== 693. Binary Number with Alternating Bits
+= 693. Binary Number with Alternating Bits
 
 https://leetcode.com/problems/binary-number-with-alternating-bits/[LeetCode - Binary Number with Alternating Bits]
 
@@ -54,7 +54,7 @@ The binary representation of 10 is: 1010.
 
 
 [[src-0693]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0693_BinaryNumberWithAlternatingBits.java[]
 ----

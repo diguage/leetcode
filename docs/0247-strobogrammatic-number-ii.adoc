@@ -1,11 +1,11 @@
-== 247. Strobogrammatic Number II
+= 247. Strobogrammatic Number II
 
 https://leetcode.com/problems/strobogrammatic-number-ii/[LeetCode - Strobogrammatic Number II]
 
 
 
 [[src-0247]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0247_StrobogrammaticNumberII.java[]
 ----

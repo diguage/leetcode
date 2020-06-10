@@ -1,4 +1,4 @@
-== 773. Sliding Puzzle
+= 773. Sliding Puzzle
 
 https://leetcode.com/problems/sliding-puzzle/[LeetCode - Sliding Puzzle]
 
@@ -56,7 +56,7 @@ After move 5: [[1,2,3],[4,5,0]]
 
 
 [[src-0773]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0773_SlidingPuzzle.java[]
 ----

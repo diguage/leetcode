@@ -1,4 +1,4 @@
-== 919. Complete Binary Tree Inserter
+= 919. Complete Binary Tree Inserter
 
 https://leetcode.com/problems/complete-binary-tree-inserter/[LeetCode - Complete Binary Tree Inserter]
 
@@ -58,7 +58,7 @@ Write a data structure `CBTInserter` that is initialized with a complete binary 
 
 
 [[src-0919]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0919_CompleteBinaryTreeInserter.java[]
 ----

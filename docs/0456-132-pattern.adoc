@@ -1,4 +1,4 @@
-== 456. 132 Pattern
+= 456. 132 Pattern
 
 https://leetcode.com/problems/132-pattern/[LeetCode - 132 Pattern]
 
@@ -49,7 +49,7 @@ that *i* < *j* < *k* and a~*i*~ < a~*k*~ < a~*j*~. Design an algorithm that take
 
 
 [[src-0456]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0456_132Pattern.java[]
 ----

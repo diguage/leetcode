@@ -1,4 +1,4 @@
-== 74. Search a 2D Matrix
+= 74. Search a 2D Matrix
 
 https://leetcode.com/problems/search-a-2d-matrix/[LeetCode - Search a 2D Matrix]
 
@@ -41,7 +41,7 @@ target = 13
 
 
 [[src-0074]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0074_SearchA2DMatrix.java[]
 ----

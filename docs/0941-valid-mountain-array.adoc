@@ -1,4 +1,4 @@
-== 941. Valid Mountain Array
+= 941. Valid Mountain Array
 
 https://leetcode.com/problems/valid-mountain-array/[LeetCode - Valid Mountain Array]
 
@@ -63,7 +63,7 @@ image::https://assets.leetcode.com/uploads/2019/10/20/hint_valid_mountain_array.
 
 
 [[src-0941]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0941_ValidMountainArray.java[]
 ----

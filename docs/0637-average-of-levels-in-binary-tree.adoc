@@ -1,4 +1,4 @@
-== 637. Average of Levels in Binary Tree
+= 637. Average of Levels in Binary Tree
 
 https://leetcode.com/problems/average-of-levels-in-binary-tree/[LeetCode - Average of Levels in Binary Tree]
 
@@ -29,7 +29,7 @@ The average value of nodes on level 0 is 3,  on level 1 is 14.5, and on level 2 
 
 
 [[src-0637]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0637_AverageOfLevelsInBinaryTree.java[]
 ----

@@ -1,4 +1,4 @@
-== 1323. Maximum 69 Number
+= 1323. Maximum 69 Number
 
 https://leetcode.com/problems/maximum-69-number/[LeetCode - Maximum 69 Number]
 
@@ -50,7 +50,7 @@ The maximum number is 9969.
 
 
 [[src-1323]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1323_Maximum69Number.java[]
 ----

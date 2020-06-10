@@ -1,11 +1,11 @@
-== 243. Shortest Word Distance
+= 243. Shortest Word Distance
 
 https://leetcode.com/problems/shortest-word-distance/[LeetCode - Shortest Word Distance]
 
 
 
 [[src-0243]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0243_ShortestWordDistance.java[]
 ----

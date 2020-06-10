@@ -1,11 +1,11 @@
-== 625. Minimum Factorization
+= 625. Minimum Factorization
 
 https://leetcode.com/problems/minimum-factorization/[LeetCode - Minimum Factorization]
 
 
 
 [[src-0625]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0625_MinimumFactorization.java[]
 ----

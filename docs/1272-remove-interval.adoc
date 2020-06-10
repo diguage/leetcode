@@ -1,11 +1,11 @@
-== 1272. Remove Interval
+= 1272. Remove Interval
 
 https://leetcode.com/problems/remove-interval/[LeetCode - Remove Interval]
 
 
 
 [[src-1272]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1272_RemoveInterval.java[]
 ----

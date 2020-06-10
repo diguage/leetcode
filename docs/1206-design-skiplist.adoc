@@ -1,4 +1,4 @@
-== 1206. Design Skiplist
+= 1206. Design Skiplist
 
 https://leetcode.com/problems/design-skiplist/[LeetCode - Design Skiplist]
 
@@ -56,7 +56,7 @@ skiplist.search(1);   // return false, 1 has already been erased.
 
 
 [[src-1206]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1206_DesignSkiplist.java[]
 ----

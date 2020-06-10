@@ -1,4 +1,4 @@
-== 131. Palindrome Partitioning
+= 131. Palindrome Partitioning
 
 https://leetcode.com/problems/palindrome-partitioning/[LeetCode - Palindrome Partitioning]
 
@@ -21,7 +21,7 @@ Return all possible palindrome partitioning of _s_.
 
 
 [[src-0131]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0131_PalindromePartitioning.java[]
 ----

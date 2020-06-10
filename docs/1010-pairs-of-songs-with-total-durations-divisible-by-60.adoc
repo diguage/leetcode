@@ -1,4 +1,4 @@
-== 1010. Pairs of Songs With Total Durations Divisible by 60
+= 1010. Pairs of Songs With Total Durations Divisible by 60
 
 https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/[LeetCode - Pairs of Songs With Total Durations Divisible by 60]
 
@@ -42,7 +42,7 @@ Return the number of pairs of songs for which their total duration in seconds is
 
 
 [[src-1010]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1010_PairsOfSongsWithTotalDurationsDivisibleBy60.java[]
 ----

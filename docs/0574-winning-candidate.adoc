@@ -1,11 +1,11 @@
-== 574. Winning Candidate
+= 574. Winning Candidate
 
 https://leetcode.com/problems/winning-candidate/[LeetCode - Winning Candidate]
 
 
 
 [[src-0574]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0574_WinningCandidate.java[]
 ----

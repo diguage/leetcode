@@ -1,4 +1,4 @@
-== 466. Count The Repetitions
+= 466. Count The Repetitions
 
 https://leetcode.com/problems/count-the-repetitions/[LeetCode - Count The Repetitions]
 
@@ -20,7 +20,7 @@ Return:
 
 
 [[src-0466]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0466_CountTheRepetitions.java[]
 ----

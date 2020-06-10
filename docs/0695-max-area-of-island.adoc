@@ -1,4 +1,4 @@
-== 695. Max Area of Island
+= 695. Max Area of Island
 
 https://leetcode.com/problems/max-area-of-island/[LeetCode - Max Area of Island]
 
@@ -35,7 +35,7 @@ Given the above grid, return `0`.
 
 
 [[src-0695]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0695_MaxAreaOfIsland.java[]
 ----

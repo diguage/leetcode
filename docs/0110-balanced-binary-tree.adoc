@@ -1,4 +1,4 @@
-== 110. Balanced Binary Tree
+= 110. Balanced Binary Tree
 
 https://leetcode.com/problems/balanced-binary-tree/[LeetCode - Balanced Binary Tree]
 
@@ -41,7 +41,7 @@ Given the following tree `[1,2,2,3,3,null,null,4,4]`:
 Return false.
 ----
 
-=== 解题分析
+== 解题分析
 
 * 对二叉树做深度优先遍历DFS，递归过程中：
 ** 终止条件：当DFS越过叶子节点时，返回高度0；
@@ -53,13 +53,13 @@ Return false.
 
 这里有个思维误区：并不是最顶层的左右树相差不超过 1 就是平衡树；而是递归定义的，是每棵树的左右子树的高度差都不能超过 1 才可以。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/balanced-binary-tree/solution/balanced-binary-tree-di-gui-fang-fa-by-jin40789108/[Balanced Binary Tree （Top-down和Bottom-up递归方法） - 平衡二叉树 - 力扣（LeetCode）]
 
 
 [[src-0110]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0110_BalancedBinaryTree.java[]
 ----

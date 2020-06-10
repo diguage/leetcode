@@ -1,4 +1,4 @@
-== 1013. Partition Array Into Three Parts With Equal Sum
+= 1013. Partition Array Into Three Parts With Equal Sum
 
 https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/[LeetCode - Partition Array Into Three Parts With Equal Sum]
 
@@ -49,7 +49,7 @@ Formally, we can partition the array if we can find indexes `i+1 < j` with `(A[0
 
 
 [[src-1013]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1013_PartitionArrayIntoThreePartsWithEqualSum.java[]
 ----

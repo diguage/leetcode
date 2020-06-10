@@ -1,4 +1,4 @@
-== 756. Pyramid Transition Matrix
+= 756. Pyramid Transition Matrix
 
 https://leetcode.com/problems/pyramid-transition-matrix/[LeetCode - Pyramid Transition Matrix]
 
@@ -56,7 +56,7 @@ Note that there could be allowed triples (A, B, C) and (A, B, D) with C != D.
 
 
 [[src-0756]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0756_PyramidTransitionMatrix.java[]
 ----

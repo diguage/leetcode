@@ -1,4 +1,4 @@
-== 437. Path Sum III
+= 437. Path Sum III
 
 https://leetcode.com/problems/path-sum-iii/[LeetCode - Path Sum III]
 
@@ -64,7 +64,7 @@ Return 3. The paths that sum to 8 are:
 
 
 [[src-0437]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0437_PathSumIII.java[]
 ----

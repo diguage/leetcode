@@ -1,4 +1,4 @@
-== 1156. Swap For Longest Repeated Character Substring
+= 1156. Swap For Longest Repeated Character Substring
 
 https://leetcode.com/problems/swap-for-longest-repeated-character-substring/[LeetCode - Swap For Longest Repeated Character Substring]
 
@@ -58,7 +58,7 @@ Given a string `text`, we are allowed to swap two of the characters in the strin
 
 
 [[src-1156]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1156_SwapForLongestRepeatedCharacterSubstring.java[]
 ----

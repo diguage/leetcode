@@ -1,4 +1,4 @@
-== 845. Longest Mountain in Array
+= 845. Longest Mountain in Array
 
 https://leetcode.com/problems/longest-mountain-in-array/[LeetCode - Longest Mountain in Array]
 
@@ -50,7 +50,7 @@ Return `0` if there is no mountain.
 
 
 [[src-0845]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0845_LongestMountainInArray.java[]
 ----

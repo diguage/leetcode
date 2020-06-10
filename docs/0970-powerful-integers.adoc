@@ -1,4 +1,4 @@
-== 970. Powerful Integers
+= 970. Powerful Integers
 
 https://leetcode.com/problems/powerful-integers/[LeetCode - Powerful Integers]
 
@@ -50,7 +50,7 @@ You may return the answer in any order.  In your answer, each value should occur
 
 
 [[src-0970]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0970_PowerfulIntegers.java[]
 ----

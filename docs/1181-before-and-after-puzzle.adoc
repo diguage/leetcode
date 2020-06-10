@@ -1,11 +1,11 @@
-== 1181. Before and After Puzzle
+= 1181. Before and After Puzzle
 
 https://leetcode.com/problems/before-and-after-puzzle/[LeetCode - Before and After Puzzle]
 
 
 
 [[src-1181]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1181_BeforeAndAfterPuzzle.java[]
 ----

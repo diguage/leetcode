@@ -1,4 +1,4 @@
-== 1125. Smallest Sufficient Team
+= 1125. Smallest Sufficient Team
 
 https://leetcode.com/problems/smallest-sufficient-team/[LeetCode - Smallest Sufficient Team]
 
@@ -42,7 +42,7 @@ You may return the answer in any order.  It is guaranteed an answer exists.
 
 
 [[src-1125]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1125_SmallestSufficientTeam.java[]
 ----

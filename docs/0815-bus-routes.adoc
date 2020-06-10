@@ -1,4 +1,4 @@
-== 815. Bus Routes
+= 815. Bus Routes
 
 https://leetcode.com/problems/bus-routes/[LeetCode - Bus Routes]
 
@@ -29,7 +29,7 @@ The best strategy is take the first bus to the bus stop 7, then take the second 
 
 
 [[src-0815]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0815_BusRoutes.java[]
 ----

@@ -1,4 +1,4 @@
-== 1122. Relative Sort Array
+= 1122. Relative Sort Array
 
 https://leetcode.com/problems/relative-sort-array/[LeetCode - Relative Sort Array]
 
@@ -26,7 +26,7 @@ Sort the elements of `arr1` such that the relative ordering of items in `arr1` a
 
 
 [[src-1122]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1122_RelativeSortArray.java[]
 ----

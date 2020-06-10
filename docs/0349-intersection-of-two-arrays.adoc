@@ -1,4 +1,4 @@
-== 349. Intersection of Two Arrays
+= 349. Intersection of Two Arrays
 
 https://leetcode.com/problems/intersection-of-two-arrays/[LeetCode - Intersection of Two Arrays]
 
@@ -34,7 +34,7 @@ Given two arrays, write a function to compute their intersection.
 
 
 [[src-0349]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0349_IntersectionOfTwoArrays.java[]
 ----

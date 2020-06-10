@@ -1,4 +1,4 @@
-== 1144. Decrease Elements To Make Array Zigzag
+= 1144. Decrease Elements To Make Array Zigzag
 
 https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/[LeetCode - Decrease Elements To Make Array Zigzag]
 
@@ -42,7 +42,7 @@ Return the minimum number of moves to transform the given array `nums` into a zi
 
 
 [[src-1144]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1144_DecreaseElementsToMakeArrayZigzag.java[]
 ----

@@ -1,4 +1,4 @@
-== 810. Chalkboard XOR Game
+= 810. Chalkboard XOR Game
 
 https://leetcode.com/problems/chalkboard-xor-game/[LeetCode - Chalkboard XOR Game]
 
@@ -32,7 +32,7 @@ If Alice erases 2 first, now nums becomes [1, 1]. The bitwise XOR of all the ele
 
 
 [[src-0810]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0810_ChalkboardXORGame.java[]
 ----

@@ -1,11 +1,11 @@
-== 1061. Lexicographically Smallest Equivalent String
+= 1061. Lexicographically Smallest Equivalent String
 
 https://leetcode.com/problems/lexicographically-smallest-equivalent-string/[LeetCode - Lexicographically Smallest Equivalent String]
 
 
 
 [[src-1061]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1061_LexicographicallySmallestEquivalentString.java[]
 ----

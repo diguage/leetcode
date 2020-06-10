@@ -1,4 +1,4 @@
-== 506. Relative Ranks
+= 506. Relative Ranks
 
 https://leetcode.com/problems/relative-ranks/[LeetCode - Relative Ranks]
 
@@ -26,7 +26,7 @@ Given scores of *N* athletes, find their relative ranks and the people with the 
 
 
 [[src-0506]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0506_RelativeRanks.java[]
 ----

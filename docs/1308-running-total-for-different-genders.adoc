@@ -1,11 +1,11 @@
-== 1308. Running Total for Different Genders
+= 1308. Running Total for Different Genders
 
 https://leetcode.com/problems/running-total-for-different-genders/[LeetCode - Running Total for Different Genders]
 
 
 
 [[src-1308]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1308_RunningTotalForDifferentGenders.java[]
 ----

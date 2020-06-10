@@ -1,11 +1,11 @@
-== 308. Range Sum Query 2D - Mutable
+= 308. Range Sum Query 2D - Mutable
 
 https://leetcode.com/problems/range-sum-query-2d-mutable/[LeetCode - Range Sum Query 2D - Mutable]
 
 
 
 [[src-0308]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0308_RangeSumQuery2DMutable.java[]
 ----

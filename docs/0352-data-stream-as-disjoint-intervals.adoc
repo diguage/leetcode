@@ -1,4 +1,4 @@
-== 352. Data Stream as Disjoint Intervals
+= 352. Data Stream as Disjoint Intervals
 
 https://leetcode.com/problems/data-stream-as-disjoint-intervals/[LeetCode - Data Stream as Disjoint Intervals]
 
@@ -24,7 +24,7 @@ What if there are lots of merges and the number of disjoint intervals are small 
 
 
 [[src-0352]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0352_DataStreamAsDisjointIntervals.java[]
 ----

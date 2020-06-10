@@ -1,4 +1,4 @@
-== 21. Merge Two Sorted Lists
+= 21. Merge Two Sorted Lists
 
 https://leetcode.com/problems/merge-two-sorted-lists/[LeetCode - Merge Two Sorted Lists]
 
@@ -13,7 +13,7 @@ Merge two sorted linked lists and return it as a new list. The new list should b
 
 
 [[src-0021]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0021_MergeTwoSortedLists.java[]
 ----

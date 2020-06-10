@@ -1,4 +1,4 @@
-== 564. Find the Closest Palindrome
+= 564. Find the Closest Palindrome
 
 https://leetcode.com/problems/find-the-closest-palindrome/[LeetCode - Find the Closest Palindrome]
 
@@ -25,7 +25,7 @@ The 'closest' is defined as absolute difference minimized between two integers.
 
 
 [[src-0564]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0564_FindTheClosestPalindrome.java[]
 ----

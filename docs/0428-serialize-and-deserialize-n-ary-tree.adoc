@@ -1,11 +1,11 @@
-== 428. Serialize and Deserialize N-ary Tree
+= 428. Serialize and Deserialize N-ary Tree
 
 https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/[LeetCode - Serialize and Deserialize N-ary Tree]
 
 
 
 [[src-0428]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0428_SerializeAndDeserializeNAryTree.java[]
 ----

@@ -1,11 +1,11 @@
-== 251. Flatten 2D Vector
+= 251. Flatten 2D Vector
 
 https://leetcode.com/problems/flatten-2d-vector/[LeetCode - Flatten 2D Vector]
 
 
 
 [[src-0251]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0251_Flatten2DVector.java[]
 ----

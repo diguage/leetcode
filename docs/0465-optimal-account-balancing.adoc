@@ -1,11 +1,11 @@
-== 465. Optimal Account Balancing
+= 465. Optimal Account Balancing
 
 https://leetcode.com/problems/optimal-account-balancing/[LeetCode - Optimal Account Balancing]
 
 
 
 [[src-0465]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0465_OptimalAccountBalancing.java[]
 ----

@@ -1,4 +1,4 @@
-== 1128. Number of Equivalent Domino Pairs
+= 1128. Number of Equivalent Domino Pairs
 
 https://leetcode.com/problems/number-of-equivalent-domino-pairs/[LeetCode - Number of Equivalent Domino Pairs]
 
@@ -23,7 +23,7 @@ Return the number of pairs `(i, j)` for which `0 <= i < j < dominoes.length`, an
 
 
 [[src-1128]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1128_NumberOfEquivalentDominoPairs.java[]
 ----

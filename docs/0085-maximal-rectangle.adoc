@@ -1,4 +1,4 @@
-== 85. Maximal Rectangle
+= 85. Maximal Rectangle
 
 https://leetcode.com/problems/maximal-rectangle/[LeetCode - Maximal Rectangle]
 
@@ -20,7 +20,7 @@ Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle con
 
 
 [[src-0085]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0085_MaximalRectangle.java[]
 ----

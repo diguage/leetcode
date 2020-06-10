@@ -1,4 +1,4 @@
-== 736. Parse Lisp Expression
+= 736. Parse Lisp Expression
 
 https://leetcode.com/problems/parse-lisp-expression/[LeetCode - Parse Lisp Expression]
 
@@ -70,7 +70,7 @@ of the final x in the add-expression.  That final x will equal 2.
 
 
 [[src-0736]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0736_ParseLispExpression.java[]
 ----

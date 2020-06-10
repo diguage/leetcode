@@ -1,4 +1,4 @@
-== 1143. Longest Common Subsequence
+= 1143. Longest Common Subsequence
 
 https://leetcode.com/problems/longest-common-subsequence/[LeetCode - Longest Common Subsequence]
 
@@ -50,7 +50,7 @@ If there is no common subsequence, return 0.
 
 
 [[src-1143]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1143_LongestCommonSubsequence.java[]
 ----

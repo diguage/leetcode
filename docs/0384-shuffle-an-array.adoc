@@ -1,4 +1,4 @@
-== 384. Shuffle an Array
+= 384. Shuffle an Array
 
 https://leetcode.com/problems/shuffle-an-array/[LeetCode - Shuffle an Array]
 
@@ -23,7 +23,7 @@ solution.shuffle();
 
 又学习了一个算法：Fisher-Yates Algorithm。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode.com/problems/shuffle-an-array/solution/[Shuffle an Array solution - LeetCode]
 . https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle[Fisher–Yates shuffle - Wikipedia]
@@ -52,7 +52,7 @@ solution.shuffle();
 
 
 [[src-0384]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0384_ShuffleAnArray.java[]
 ----

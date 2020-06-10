@@ -1,4 +1,4 @@
-== 214. Shortest Palindrome
+= 214. Shortest Palindrome
 
 https://leetcode.com/problems/shortest-palindrome/[LeetCode - Shortest Palindrome]
 
@@ -22,7 +22,7 @@ Given a string _*s*_, you are allowed to convert it to a palindrome by adding ch
 
 
 [[src-0214]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0214_ShortestPalindrome.java[]
 ----

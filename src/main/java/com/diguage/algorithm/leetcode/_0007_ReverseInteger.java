@@ -41,55 +41,78 @@ import java.util.List;
  * @since 2018-07-01
  */
 public class _0007_ReverseInteger {
-    public static int reverse(int x) {
-        if (x == 0
-                || x > Math.pow(2, 31)
-                || x < -Math.pow(2, 31)) {
-            return 0;
-        }
+  public static int reverse(int x) {
+    int sign = 1;
+    if (x < 0) {
+      sign = -1;
+      if (x < -Integer.MAX_VALUE) {
+        return 0;
+      }
+      x = -x;
+    }
+    int result = 0;
+    while (x > 0) {
+      int digit = x % 10;
+      int num = result * 10 + digit;
+      if ((num - digit) / 10 != result) {
+        return 0;
+      }
+      result = num;
 
-        int sign = 1;
-        int positiveNum = x;
-        if (x < 0) {
-            sign = -1;
-            positiveNum = x * sign;
-        }
+      x /= 10;
+    }
+    return sign * result;
+  }
 
-        boolean zeroOfEnd = true;
-        List<Integer> bitNums = new ArrayList<>(25);
-        for (int i = positiveNum; i > 0; ) {
-            int bitNum = i % 10;
-            i = i / 10;
-            if (zeroOfEnd && bitNum == 0) {
-                continue;
-            }
-            bitNums.add(bitNum);
-            if (zeroOfEnd) {
-                zeroOfEnd = false;
-            }
-        }
-
-        long result = 0;
-        for (int j = 0; j < bitNums.size(); j++) {
-            result += bitNums.get(j) * ((long) Math.pow(10, bitNums.size() - j - 1));
-        }
-        if (result > Integer.MAX_VALUE) {
-            return 0;
-        }
-
-        return (int) result * sign;
+  public static int reverse1(int x) {
+    if (x == 0
+      || x > Math.pow(2, 31)
+      || x < -Math.pow(2, 31)) {
+      return 0;
     }
 
-    public static void main(String[] args) {
-        System.out.println(reverse(120));
-        System.out.println(reverse(123));
-        System.out.println(reverse(-123));
-        System.out.println(reverse(-10305));
-        int i = 1534236469;
-        System.out.println(reverse(i));
-        System.out.println(Integer.bitCount(i));
-        System.out.println(i);
-        System.out.println(Integer.MAX_VALUE);
-        System.out.println(Integer.MIN_VALUE);
+    int sign = 1;
+    int positiveNum = x;
+    if (x < 0) {
+      sign = -1;
+      positiveNum = x * sign;
     }
+
+    boolean zeroOfEnd = true;
+    List<Integer> bitNums = new ArrayList<>(25);
+    for (int i = positiveNum; i > 0; ) {
+      int bitNum = i % 10;
+      i = i / 10;
+      if (zeroOfEnd && bitNum == 0) {
+        continue;
+      }
+      bitNums.add(bitNum);
+      if (zeroOfEnd) {
+        zeroOfEnd = false;
+      }
+    }
+
+    long result = 0;
+    for (int j = 0; j < bitNums.size(); j++) {
+      result += bitNums.get(j) * ((long) Math.pow(10, bitNums.size() - j - 1));
+    }
+    if (result > Integer.MAX_VALUE) {
+      return 0;
+    }
+
+    return (int) result * sign;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(reverse(120));
+    System.out.println(reverse(123));
+    System.out.println(reverse(-123));
+    System.out.println(reverse(-10305));
+    int i = 1534236469;
+    System.out.println(reverse(i));
+    System.out.println(Integer.bitCount(i));
+    System.out.println(i);
+    System.out.println(reverse(Integer.MAX_VALUE));
+    System.out.println(reverse(Integer.MIN_VALUE));
+  }
 }

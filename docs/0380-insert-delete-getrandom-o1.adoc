@@ -1,4 +1,4 @@
-== 380. Insert Delete GetRandom O(1)
+= 380. Insert Delete GetRandom O(1)
 
 https://leetcode.com/problems/insert-delete-getrandom-o1/[LeetCode - Insert Delete GetRandom O(1)]
 
@@ -43,7 +43,7 @@ randomSet.getRandom();
 
 
 [[src-0380]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0380_InsertDeleteGetRandomO1.java[]
 ----

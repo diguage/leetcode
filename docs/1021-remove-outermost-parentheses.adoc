@@ -1,4 +1,4 @@
-== 1021. Remove Outermost Parentheses
+= 1021. Remove Outermost Parentheses
 
 https://leetcode.com/problems/remove-outermost-parentheses/[LeetCode - Remove Outermost Parentheses]
 
@@ -67,7 +67,7 @@ After removing outer parentheses of each part, this is "" + "" = "".
 
 
 [[src-1021]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1021_RemoveOutermostParentheses.java[]
 ----

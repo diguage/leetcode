@@ -1,4 +1,4 @@
-== 312. Burst Balloons
+= 312. Burst Balloons
 
 https://leetcode.com/problems/burst-balloons/[LeetCode - Burst Balloons]
 
@@ -25,7 +25,7 @@ Find the maximum coins you can collect by bursting the balloons wisely.
 
 
 [[src-0312]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0312_BurstBalloons.java[]
 ----

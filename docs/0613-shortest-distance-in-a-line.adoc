@@ -1,11 +1,11 @@
-== 613. Shortest Distance in a Line
+= 613. Shortest Distance in a Line
 
 https://leetcode.com/problems/shortest-distance-in-a-line/[LeetCode - Shortest Distance in a Line]
 
 
 
 [[src-0613]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0613_ShortestDistanceInALine.java[]
 ----

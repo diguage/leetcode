@@ -1,4 +1,4 @@
-== 483. Smallest Good Base
+= 483. Smallest Good Base
 
 https://leetcode.com/problems/smallest-good-base/[LeetCode - Smallest Good Base]
 
@@ -51,7 +51,7 @@ Now given a string representing n, you should return the smallest good base of n
 
 
 [[src-0483]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0483_SmallestGoodBase.java[]
 ----

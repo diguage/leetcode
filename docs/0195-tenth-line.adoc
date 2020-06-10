@@ -1,4 +1,4 @@
-== 195. Tenth Line
+= 195. Tenth Line
 
 https://leetcode.com/problems/tenth-line/[LeetCode - Tenth Line]
 
@@ -40,7 +40,7 @@ Line 10
 
 
 [[src-0195]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0195_TenthLine.java[]
 ----

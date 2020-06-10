@@ -1,4 +1,4 @@
-== 178. Rank Scores
+= 178. Rank Scores
 
 https://leetcode.com/problems/rank-scores/[LeetCode - Rank Scores]
 
@@ -37,7 +37,7 @@ For example, given the above `Scores` table, your query should generate the foll
 
 
 [[src-0178]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0178_RankScores.java[]
 ----

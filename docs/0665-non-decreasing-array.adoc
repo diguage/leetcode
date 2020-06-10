@@ -1,4 +1,4 @@
-== 665. Non-decreasing Array
+= 665. Non-decreasing Array
 
 https://leetcode.com/problems/non-decreasing-array/[LeetCode - Non-decreasing Array]
 
@@ -38,7 +38,7 @@ The `n` belongs to [1, 10,000].
 
 
 [[src-0665]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0665_NonDecreasingArray.java[]
 ----

@@ -1,11 +1,11 @@
-== 1060. Missing Element in Sorted Array
+= 1060. Missing Element in Sorted Array
 
 https://leetcode.com/problems/missing-element-in-sorted-array/[LeetCode - Missing Element in Sorted Array]
 
 
 
 [[src-1060]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1060_MissingElementInSortedArray.java[]
 ----

@@ -1,4 +1,4 @@
-== 83. Remove Duplicates from Sorted List
+= 83. Remove Duplicates from Sorted List
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-list/[LeetCode - Remove Duplicates from Sorted List]
 
@@ -16,11 +16,11 @@ Input: 1->1->2->3->3
 Output: 1->2->3
 ----
 
-=== 解题分析
+== 解题分析
 
 思考如何把代码写的简单易懂。
 
-=== 附加题
+== 附加题
 
 如果效仿 xref:0080-remove-duplicates-from-sorted-array-ii.adoc[80. Remove Duplicates from Sorted Array II] 要求每个元素保留不得两个，又该怎么做呢？
 
@@ -44,7 +44,7 @@ Given a sorted linked list, delete all duplicates such that each element appear 
 
 
 [[src-0083]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0083_RemoveDuplicatesFromSortedList.java[]
 ----

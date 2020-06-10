@@ -1,11 +1,11 @@
-== 1198. Find Smallest Common Element in All Rows
+= 1198. Find Smallest Common Element in All Rows
 
 https://leetcode.com/problems/find-smallest-common-element-in-all-rows/[LeetCode - Find Smallest Common Element in All Rows]
 
 
 
 [[src-1198]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1198_FindSmallestCommonElementInAllRows.java[]
 ----

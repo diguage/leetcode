@@ -1,4 +1,4 @@
-== 729. My Calendar I
+= 729. My Calendar I
 
 https://leetcode.com/problems/my-calendar-i/[LeetCode - My Calendar I]
 
@@ -38,7 +38,7 @@ The third event can be booked, as the first event takes every time less than 20,
 
 
 [[src-0729]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0729_MyCalendarI.java[]
 ----

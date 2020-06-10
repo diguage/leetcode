@@ -1,11 +1,11 @@
-== 302. Smallest Rectangle Enclosing Black Pixels
+= 302. Smallest Rectangle Enclosing Black Pixels
 
 https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/[LeetCode - Smallest Rectangle Enclosing Black Pixels]
 
 
 
 [[src-0302]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0302_SmallestRectangleEnclosingBlackPixels.java[]
 ----

@@ -1,11 +1,11 @@
-== 244. Shortest Word Distance II
+= 244. Shortest Word Distance II
 
 https://leetcode.com/problems/shortest-word-distance-ii/[LeetCode - Shortest Word Distance II]
 
 
 
 [[src-0244]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0244_ShortestWordDistanceII.java[]
 ----

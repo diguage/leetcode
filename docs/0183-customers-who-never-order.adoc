@@ -1,4 +1,4 @@
-== 183. Customers Who Never Order
+= 183. Customers Who Never Order
 
 https://leetcode.com/problems/customers-who-never-order/[LeetCode - Customers Who Never Order]
 
@@ -45,7 +45,7 @@ Using the above tables as example, return the following:
 
 
 [[src-0183]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0183_CustomersWhoNeverOrder.java[]
 ----

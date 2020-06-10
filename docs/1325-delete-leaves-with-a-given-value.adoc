@@ -1,4 +1,4 @@
-== 1325. Delete Leaves With a Given Value
+= 1325. Delete Leaves With a Given Value
 
 https://leetcode.com/problems/delete-leaves-with-a-given-value/[LeetCode - Delete Leaves With a Given Value]
 
@@ -67,7 +67,7 @@ image::https://assets.leetcode.com/uploads/2020/01/15/sample_3_1684.png[]
 
 
 [[src-1325]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1325_DeleteLeavesWithAGivenValue.java[]
 ----

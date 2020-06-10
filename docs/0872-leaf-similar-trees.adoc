@@ -1,4 +1,4 @@
-== 872. Leaf-Similar Trees
+= 872. Leaf-Similar Trees
 
 https://leetcode.com/problems/leaf-similar-trees/[LeetCode - Leaf-Similar Trees]
 
@@ -23,7 +23,7 @@ Return `true` if and only if the two given trees with head nodes `root1` and `ro
 
 
 [[src-0872]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0872_LeafSimilarTrees.java[]
 ----

@@ -1,4 +1,4 @@
-== 961. N-Repeated Element in Size 2N Array
+= 961. N-Repeated Element in Size 2N Array
 
 https://leetcode.com/problems/n-repeated-element-in-size-2n-array/[LeetCode - N-Repeated Element in Size 2N Array]
 
@@ -54,7 +54,7 @@ Return the element repeated `N` times.
 
 
 [[src-0961]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0961_NRepeatedElementInSize2NArray.java[]
 ----

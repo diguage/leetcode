@@ -1,4 +1,4 @@
-== 754. Reach a Number
+= 754. Reach a Number
 
 https://leetcode.com/problems/reach-a-number/[LeetCode - Reach a Number]
 
@@ -43,7 +43,7 @@ On the third move we step from -1 to 2.
 
 
 [[src-0754]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0754_ReachANumber.java[]
 ----

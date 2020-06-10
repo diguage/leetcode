@@ -1,4 +1,4 @@
-== 1024. Video Stitching
+= 1024. Video Stitching
 
 https://leetcode.com/problems/video-stitching/[LeetCode - Video Stitching]
 
@@ -66,7 +66,7 @@ Notice you can have extra video after the event ends.
 
 
 [[src-1024]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1024_VideoStitching.java[]
 ----

@@ -1,4 +1,4 @@
-== 849. Maximize Distance to Closest Person
+= 849. Maximize Distance to Closest Person
 
 https://leetcode.com/problems/maximize-distance-to-closest-person/[LeetCode - Maximize Distance to Closest Person]
 
@@ -48,7 +48,7 @@ This is the maximum distance possible, so the answer is 3.
 
 
 [[src-0849]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0849_MaximizeDistanceToClosestPerson.java[]
 ----

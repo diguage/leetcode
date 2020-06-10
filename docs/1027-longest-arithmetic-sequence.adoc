@@ -1,4 +1,4 @@
-== 1027. Longest Arithmetic Sequence
+= 1027. Longest Arithmetic Sequence
 
 https://leetcode.com/problems/longest-arithmetic-sequence/[LeetCode - Longest Arithmetic Sequence]
 
@@ -53,7 +53,7 @@ The longest arithmetic subsequence is [20,15,10,5].
 
 
 [[src-1027]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1027_LongestArithmeticSequence.java[]
 ----

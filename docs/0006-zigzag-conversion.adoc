@@ -1,4 +1,4 @@
-== 6. ZigZag Conversion
+= 6. ZigZag Conversion
 
 https://leetcode.com/problems/zigzag-conversion/[LeetCode - ZigZag Conversion]
 
@@ -43,7 +43,7 @@ P     I
 
 
 [[src-0006]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0006_ZigZagConversion.java[]
 ----

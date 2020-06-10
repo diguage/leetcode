@@ -1,4 +1,4 @@
-== 336. Palindrome Pairs
+= 336. Palindrome Pairs
 
 https://leetcode.com/problems/palindrome-pairs/[LeetCode - Palindrome Pairs]
 
@@ -29,7 +29,7 @@ Given a list of *unique* words, find all pairs of *_distinct_* indices `(i, j)` 
 
 
 [[src-0336]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0336_PalindromePairs.java[]
 ----

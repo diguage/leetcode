@@ -1,11 +1,11 @@
-== 1097. Game Play Analysis V
+= 1097. Game Play Analysis V
 
 https://leetcode.com/problems/game-play-analysis-v/[LeetCode - Game Play Analysis V]
 
 
 
 [[src-1097]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1097_GamePlayAnalysisV.java[]
 ----

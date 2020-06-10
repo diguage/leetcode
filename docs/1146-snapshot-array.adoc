@@ -1,4 +1,4 @@
-== 1146. Snapshot Array
+= 1146. Snapshot Array
 
 https://leetcode.com/problems/snapshot-array/[LeetCode - Snapshot Array]
 
@@ -41,7 +41,7 @@ snapshotArr.get(0,0);  // Get the value of array[0] with snap_id = 0, return 5
 
 
 [[src-1146]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1146_SnapshotArray.java[]
 ----

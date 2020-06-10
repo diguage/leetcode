@@ -1,4 +1,4 @@
-== 275. H-Index II
+= 275. H-Index II
 
 https://leetcode.com/problems/h-index-ii/[LeetCode - H-Index II]
 
@@ -32,7 +32,7 @@ If there are several possible values for _h_, the maximum one is taken as the h-
 
 
 [[src-0275]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0275_HIndexII.java[]
 ----

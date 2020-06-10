@@ -1,4 +1,4 @@
-== 926. Flip String to Monotone Increasing
+= 926. Flip String to Monotone Increasing
 
 https://leetcode.com/problems/flip-string-to-monotone-increasing/[LeetCode - Flip String to Monotone Increasing]
 
@@ -54,7 +54,7 @@ Return the minimum number of flips to make `S` monotone increasing.
 
 
 [[src-0926]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0926_FlipStringToMonotoneIncreasing.java[]
 ----

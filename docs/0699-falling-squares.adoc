@@ -1,4 +1,4 @@
-== 699. Falling Squares
+= 699. Falling Squares
 
 https://leetcode.com/problems/falling-squares/[LeetCode - Falling Squares]
 
@@ -55,7 +55,7 @@ After the third drop of `positions[1] = [6, 1]: __aaa __aaa __aaa _aa _aa___a --
 
 
 [[src-0699]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0699_FallingSquares.java[]
 ----

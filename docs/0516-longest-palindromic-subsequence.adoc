@@ -1,4 +1,4 @@
-== 516. Longest Palindromic Subsequence
+= 516. Longest Palindromic Subsequence
 
 https://leetcode.com/problems/longest-palindromic-subsequence/[LeetCode - Longest Palindromic Subsequence]
 
@@ -36,7 +36,7 @@ One possible longest palindromic subsequence is "bb".
 
 
 [[src-0516]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0516_LongestPalindromicSubsequence.java[]
 ----

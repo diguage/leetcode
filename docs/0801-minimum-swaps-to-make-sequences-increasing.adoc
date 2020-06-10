@@ -1,4 +1,4 @@
-== 801. Minimum Swaps To Make Sequences Increasing
+= 801. Minimum Swaps To Make Sequences Increasing
 
 https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/[LeetCode - Minimum Swaps To Make Sequences Increasing]
 
@@ -31,7 +31,7 @@ which are both strictly increasing.
 
 
 [[src-0801]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0801_MinimumSwapsToMakeSequencesIncreasing.java[]
 ----

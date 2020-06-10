@@ -1,4 +1,4 @@
-== 958. Check Completeness of a Binary Tree
+= 958. Check Completeness of a Binary Tree
 
 https://leetcode.com/problems/check-completeness-of-a-binary-tree/[LeetCode - Check Completeness of a Binary Tree]
 
@@ -46,7 +46,7 @@ image::https://assets.leetcode.com/uploads/2018/12/15/complete-binary-tree-2.png
 
 
 [[src-0958]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0958_CheckCompletenessOfABinaryTree.java[]
 ----

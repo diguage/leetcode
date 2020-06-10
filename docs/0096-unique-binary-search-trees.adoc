@@ -1,4 +1,4 @@
-== 96. Unique Binary Search Trees
+= 96. Unique Binary Search Trees
 
 :stem: latexmath
 
@@ -42,7 +42,7 @@ C_{0}=1, \quad C_{n+1}=\frac{2(2 n+1)}{n+2} C_{n}
 
 附加题：参考资料显示，关于 Catalan number 有好多好玩的东西可以把玩。查资料把玩把玩。
 
-=== 参考资料
+== 参考资料
 
 . https://en.wikipedia.org/wiki/Catalan_number[Catalan number - Wikipedia]
 . https://leetcode-cn.com/problems/unique-binary-search-trees/solution/bu-tong-de-er-cha-sou-suo-shu-by-leetcode/[不同的二叉搜索树 - 不同的二叉搜索树 - 力扣（LeetCode）]
@@ -68,7 +68,7 @@ Given _n_, how many structurally unique *BST's* (binary search trees) that store
 
 
 [[src-0096]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0096_UniqueBinarySearchTrees.java[]
 ----

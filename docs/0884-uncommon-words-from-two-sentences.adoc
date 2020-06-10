@@ -1,4 +1,4 @@
-== 884. Uncommon Words from Two Sentences
+= 884. Uncommon Words from Two Sentences
 
 https://leetcode.com/problems/uncommon-words-from-two-sentences/[LeetCode - Uncommon Words from Two Sentences]
 
@@ -48,7 +48,7 @@ You may return the list in any order.
 
 
 [[src-0884]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0884_UncommonWordsFromTwoSentences.java[]
 ----

@@ -1,4 +1,4 @@
-== 290. Word Pattern
+= 290. Word Pattern
 
 https://leetcode.com/problems/word-pattern/[LeetCode - Word Pattern]
 
@@ -46,7 +46,7 @@ You may assume `pattern` contains only lowercase letters, and `str` contains low
 
 
 [[src-0290]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0290_WordPattern.java[]
 ----

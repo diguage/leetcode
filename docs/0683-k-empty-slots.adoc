@@ -1,11 +1,11 @@
-== 683. K Empty Slots
+= 683. K Empty Slots
 
 https://leetcode.com/problems/k-empty-slots/[LeetCode - K Empty Slots]
 
 
 
 [[src-0683]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0683_KEmptySlots.java[]
 ----

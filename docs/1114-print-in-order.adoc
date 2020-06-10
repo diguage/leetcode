@@ -1,4 +1,4 @@
-== 1114. Print in Order
+= 1114. Print in Order
 
 https://leetcode.com/problems/print-in-order/[LeetCode - Print in Order]
 
@@ -46,7 +46,7 @@ We do not know how the threads will be scheduled in the operating system, even t
 
 
 [[src-1114]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1114_PrintInOrder.java[]
 ----

@@ -1,11 +1,11 @@
-== 286. Walls and Gates
+= 286. Walls and Gates
 
 https://leetcode.com/problems/walls-and-gates/[LeetCode - Walls and Gates]
 
 
 
 [[src-0286]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0286_WallsAndGates.java[]
 ----

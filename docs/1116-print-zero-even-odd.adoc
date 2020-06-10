@@ -1,4 +1,4 @@
-== 1116. Print Zero Even Odd
+= 1116. Print Zero Even Odd
 
 https://leetcode.com/problems/print-zero-even-odd/[LeetCode - Print Zero Even Odd]
 
@@ -46,7 +46,7 @@ Each of the threads is given a `printNumber` method to output an integer. Modify
 
 
 [[src-1116]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1116_PrintZeroEvenOdd.java[]
 ----

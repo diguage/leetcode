@@ -1,4 +1,4 @@
-== 388. Longest Absolute File Path
+= 388. Longest Absolute File Path
 
 https://leetcode.com/problems/longest-absolute-file-path/[LeetCode - Longest Absolute File Path]
 
@@ -46,7 +46,7 @@ Notice that `a/aa/aaa/file1.txt` is not the longest file path, if there is anoth
 
 
 [[src-0388]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0388_LongestAbsoluteFilePath.java[]
 ----

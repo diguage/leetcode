@@ -1,4 +1,4 @@
-== 458. Poor Pigs
+= 458. Poor Pigs
 
 https://leetcode.com/problems/poor-pigs/[LeetCode - Poor Pigs]
 
@@ -24,7 +24,7 @@ If there are `n` buckets and a pig drinking poison will die within `m` minutes, 
 
 
 [[src-0458]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0458_PoorPigs.java[]
 ----

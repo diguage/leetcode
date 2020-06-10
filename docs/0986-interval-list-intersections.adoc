@@ -1,4 +1,4 @@
-== 986. Interval List Intersections
+= 986. Interval List Intersections
 
 https://leetcode.com/problems/interval-list-intersections/[LeetCode - Interval List Intersections]
 
@@ -38,7 +38,7 @@ _(Formally, a closed interval `[a, b]` (with `a <= b`) denotes the set of real n
 
 
 [[src-0986]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0986_IntervalListIntersections.java[]
 ----

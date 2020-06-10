@@ -1,11 +1,11 @@
-== 603. Consecutive Available Seats
+= 603. Consecutive Available Seats
 
 https://leetcode.com/problems/consecutive-available-seats/[LeetCode - Consecutive Available Seats]
 
 
 
 [[src-0603]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0603_ConsecutiveAvailableSeats.java[]
 ----

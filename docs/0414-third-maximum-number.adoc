@@ -1,4 +1,4 @@
-== 414. Third Maximum Number
+= 414. Third Maximum Number
 
 https://leetcode.com/problems/third-maximum-number/[LeetCode - Third Maximum Number]
 
@@ -46,7 +46,7 @@ Both numbers with value 2 are both considered as second maximum.
 
 
 [[src-0414]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0414_ThirdMaximumNumber.java[]
 ----

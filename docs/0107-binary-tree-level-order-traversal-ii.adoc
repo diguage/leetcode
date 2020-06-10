@@ -1,4 +1,4 @@
-== 107. Binary Tree Level Order Traversal II
+= 107. Binary Tree Level Order Traversal II
 
 https://leetcode.com/problems/binary-tree-level-order-traversal-ii/[LeetCode - Binary Tree Level Order Traversal II]
 
@@ -25,15 +25,15 @@ return its bottom-up level order traversal as:
 ]
 ----
 
-=== 解题分析
+== 解题分析
 
 分层访问，然后再把顺序反转过来。
 
-=== 思考题
+== 思考题
 
 尝试一下递归的解法！
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/solution/107er-cha-shu-de-ceng-ci-bian-li-iidui-lie-fa-he-d/[107二叉树的层次遍历II（队列法和递归法） - 二叉树的层次遍历 II - 力扣（LeetCode）]
 
@@ -70,7 +70,7 @@ return its bottom-up level order traversal as:
 
 
 [[src-0107]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0107_BinaryTreeLevelOrderTraversalII.java[]
 ----

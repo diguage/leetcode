@@ -1,4 +1,4 @@
-== 138. Copy List with Random Pointer
+= 138. Copy List with Random Pointer
 
 https://leetcode.com/problems/copy-list-with-random-pointer/[LeetCode - Copy List with Random Pointer]
 
@@ -57,7 +57,7 @@ image::images/0138-copy-list-with-random-pointer-example-3.png[]
 * `Node.random` is null or pointing to a node in the linked list.
 * Number of Nodes will not exceed 1000.
 
-=== 解题分析
+== 解题分析
 
 这道题可以使用类似 xref:133. Clone Graph[133. Clone Graph] 的解法来求解。
 
@@ -70,7 +70,7 @@ image::images/0138-copy-list-with-random-pointer.jpg[]
 使用 `Map` 的解法也好巧妙啊！
 
 [[src-0138]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0138_CopyListWithRandomPointer.java[]
 ----

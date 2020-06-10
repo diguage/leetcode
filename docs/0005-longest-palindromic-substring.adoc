@@ -1,4 +1,4 @@
-== 5. Longest Palindromic Substring
+= 5. Longest Palindromic Substring
 
 https://leetcode.com/problems/longest-palindromic-substring/[LeetCode - Longest Palindromic Substring]
 
@@ -19,7 +19,7 @@ Given a string *s*, find the longest palindromic substring in *s*. You may assum
 *Output:* "bb"
 ----
 
-=== 解题分析
+== 解题分析
 
 最简单的方式：使用两个指针，把字符串逐个"拆成"子串，然后留下最大子串即可。可惜，这种算法的时间复杂度是 O(n^3^)。
 
@@ -27,7 +27,7 @@ Given a string *s*, find the longest palindromic substring in *s*. You may assum
 
 另外，这道题还可以练手动态规划。
 
-=== 参考资料
+== 参考资料
 
 * https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-1/[Manacher's Algorithm - Linear Time Longest Palindromic Substring - Part 1 - GeeksforGeeks]
 * https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-2/[Manacher's Algorithm - Linear Time Longest Palindromic Substring - Part 2 - GeeksforGeeks]
@@ -39,7 +39,7 @@ Given a string *s*, find the longest palindromic substring in *s*. You may assum
 
 
 [[src-0005]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0005_LongestPalindromicSubstring.java[]
 ----

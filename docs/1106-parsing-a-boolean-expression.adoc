@@ -1,4 +1,4 @@
-== 1106. Parsing A Boolean Expression
+= 1106. Parsing A Boolean Expression
 
 https://leetcode.com/problems/parsing-a-boolean-expression/[LeetCode - Parsing A Boolean Expression]
 
@@ -59,7 +59,7 @@ An expression can either be:
 
 
 [[src-1106]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1106_ParsingABooleanExpression.java[]
 ----

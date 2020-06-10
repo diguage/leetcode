@@ -1,4 +1,4 @@
-== 909. Snakes and Ladders
+= 909. Snakes and Ladders
 
 https://leetcode.com/problems/snakes-and-ladders/[LeetCode - Snakes and Ladders]
 
@@ -60,7 +60,7 @@ It can be shown that you need at least 4 moves to reach the N*N-th square, so th
 
 
 [[src-0909]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0909_SnakesAndLadders.java[]
 ----

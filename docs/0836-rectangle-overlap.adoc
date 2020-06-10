@@ -1,4 +1,4 @@
-== 836. Rectangle Overlap
+= 836. Rectangle Overlap
 
 https://leetcode.com/problems/rectangle-overlap/[LeetCode - Rectangle Overlap]
 
@@ -34,7 +34,7 @@ Given two (axis-aligned) rectangles, return whether they overlap.
 
 
 [[src-0836]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0836_RectangleOverlap.java[]
 ----

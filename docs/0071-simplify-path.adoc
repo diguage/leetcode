@@ -1,4 +1,4 @@
-== 71. Simplify Path
+= 71. Simplify Path
 
 https://leetcode.com/problems/simplify-path/[LeetCode - Simplify Path]
 
@@ -47,13 +47,13 @@ Input: "/a//b////c/d//././/.."
 Output: "/a/b/c"
 ----
 
-=== 解题分析
+== 解题分析
 
 有点想复杂了，只需要一个字符串分割，然后加一个辅助栈即可。
 
 不过，我感觉滑动窗口应该也可以，回头可以试试。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/simplify-path/solution/java-yi-dong-yi-jie-xiao-lu-gao-by-spirit-9-18/[Java 易懂,易解,效率高 - 简化路径 - 力扣（LeetCode）]
 
@@ -119,7 +119,7 @@ Note that the returned canonical path must always begin with a slash `/`, and th
 
 
 [[src-0071]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0071_SimplifyPath.java[]
 ----

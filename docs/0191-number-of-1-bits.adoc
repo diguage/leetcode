@@ -1,4 +1,4 @@
-== 191. Number of 1 Bits
+= 191. Number of 1 Bits
 
 https://leetcode.com/problems/number-of-1-bits/[LeetCode - Number of 1 Bits]
 
@@ -57,7 +57,7 @@ If this function is called many times, how would you optimize it?
 
 
 [[src-0191]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0191_NumberOf1Bits.java[]
 ----

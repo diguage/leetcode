@@ -1,4 +1,4 @@
-== 939. Minimum Area Rectangle
+= 939. Minimum Area Rectangle
 
 https://leetcode.com/problems/minimum-area-rectangle/[LeetCode - Minimum Area Rectangle]
 
@@ -41,7 +41,7 @@ If there isn't any rectangle, return 0.
 
 
 [[src-0939]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0939_MinimumAreaRectangle.java[]
 ----

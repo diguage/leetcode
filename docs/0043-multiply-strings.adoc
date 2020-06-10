@@ -1,4 +1,4 @@
-== 43. Multiply Strings
+= 43. Multiply Strings
 
 https://leetcode.com/problems/multiply-strings/[LeetCode - Multiply Strings]
 
@@ -23,14 +23,14 @@ Output: "56088"
 . Both `num1` and `num2` do not contain any leading zero, except the number 0 itself.
 . You *must not use any built-in `BigInteger` library* or *convert the inputs to integer* directly.
 
-=== 解题思路
+== 解题思路
 
 image::images/0043-1.png[]
 
 将每次相乘的计算结果存入到一个数组中，每个元素保存一个位上的数字。
 
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/multiply-strings/solution/you-hua-ban-shu-shi-da-bai-994-by-breezean/[优化版竖式(打败99.4%) - 字符串相乘 - 力扣（LeetCode）] -- 第二种解法，最初没看明白，但是受他们的启发，我自己想到了。
 
@@ -63,7 +63,7 @@ Given two non-negative integers `num1` and `num2` represented as strings, return
 
 
 [[src-0043]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0043_MultiplyStrings.java[]
 ----

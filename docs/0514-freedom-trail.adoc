@@ -1,4 +1,4 @@
-== 514. Freedom Trail
+= 514. Freedom Trail
 
 https://leetcode.com/problems/freedom-trail/[LeetCode - Freedom Trail]
 
@@ -42,7 +42,7 @@ So the final output is 4.
 
 
 [[src-0514]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0514_FreedomTrail.java[]
 ----

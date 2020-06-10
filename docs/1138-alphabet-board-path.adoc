@@ -1,4 +1,4 @@
-== 1138. Alphabet Board Path
+= 1138. Alphabet Board Path
 
 https://leetcode.com/problems/alphabet-board-path/[LeetCode - Alphabet Board Path]
 
@@ -48,7 +48,7 @@ Return a sequence of moves that makes our answer equal to `target` in the minimu
 
 
 [[src-1138]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1138_AlphabetBoardPath.java[]
 ----

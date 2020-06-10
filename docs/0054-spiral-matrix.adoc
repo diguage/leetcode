@@ -1,4 +1,4 @@
-== 54. Spiral Matrix
+= 54. Spiral Matrix
 
 https://leetcode.com/problems/spiral-matrix/[LeetCode - Spiral Matrix]
 
@@ -31,7 +31,7 @@ Given a matrix of _m_ x _n_ elements (_m_ rows, _n_ columns), return all element
 
 
 [[src-0054]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0054_SpiralMatrix.java[]
 ----

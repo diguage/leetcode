@@ -1,11 +1,11 @@
-== 1204. Last Person to Fit in the Elevator
+= 1204. Last Person to Fit in the Elevator
 
 https://leetcode.com/problems/last-person-to-fit-in-the-elevator/[LeetCode - Last Person to Fit in the Elevator]
 
 
 
 [[src-1204]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1204_LastPersonToFitInTheElevator.java[]
 ----

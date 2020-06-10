@@ -1,4 +1,4 @@
-== 1129. Shortest Path with Alternating Colors
+= 1129. Shortest Path with Alternating Colors
 
 https://leetcode.com/problems/shortest-path-with-alternating-colors/[LeetCode - Shortest Path with Alternating Colors]
 
@@ -61,7 +61,7 @@ Return an array `answer` of length `n`, where each `answer[X]` is the length of 
 
 
 [[src-1129]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1129_ShortestPathWithAlternatingColors.java[]
 ----

@@ -1,4 +1,4 @@
-== 975. Odd Even Jump
+= 975. Odd Even Jump
 
 https://leetcode.com/problems/odd-even-jump/[LeetCode - Odd Even Jump]
 
@@ -82,7 +82,7 @@ We can reach the end from starting indexes 1, 2, and 4.
 
 
 [[src-0975]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0975_OddEvenJump.java[]
 ----

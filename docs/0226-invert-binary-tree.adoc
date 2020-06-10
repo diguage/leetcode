@@ -1,4 +1,4 @@
-== 226. Invert Binary Tree
+= 226. Invert Binary Tree
 
 https://leetcode.com/problems/invert-binary-tree/[LeetCode - Invert Binary Tree]
 
@@ -70,7 +70,7 @@ This problem was inspired by https://twitter.com/mxcl/status/608682016205344768[
 
 
 [[src-0226]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0226_InvertBinaryTree.java[]
 ----

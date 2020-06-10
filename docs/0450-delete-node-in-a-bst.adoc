@@ -1,4 +1,4 @@
-== 450. Delete Node in a BST
+= 450. Delete Node in a BST
 
 https://leetcode.com/problems/delete-node-in-a-bst/[LeetCode - Delete Node in a BST]
 
@@ -47,7 +47,7 @@ Another valid answer is [5,2,6,null,4,null,7].
 
 
 [[src-0450]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0450_DeleteNodeInABST.java[]
 ----

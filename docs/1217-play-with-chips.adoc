@@ -1,4 +1,4 @@
-== 1217. Play with Chips
+= 1217. Play with Chips
 
 https://leetcode.com/problems/play-with-chips/[LeetCode - Play with Chips]
 
@@ -45,7 +45,7 @@ Return the minimum cost needed to move all the chips to the same position (any p
 
 
 [[src-1217]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1217_PlayWithChips.java[]
 ----

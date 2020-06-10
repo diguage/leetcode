@@ -1,11 +1,11 @@
-== 569. Median Employee Salary
+= 569. Median Employee Salary
 
 https://leetcode.com/problems/median-employee-salary/[LeetCode - Median Employee Salary]
 
 
 
 [[src-0569]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0569_MedianEmployeeSalary.java[]
 ----

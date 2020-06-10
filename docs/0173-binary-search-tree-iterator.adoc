@@ -1,4 +1,4 @@
-== 173. Binary Search Tree Iterator
+= 173. Binary Search Tree Iterator
 
 https://leetcode.com/problems/binary-search-tree-iterator/[LeetCode - Binary Search Tree Iterator]
 
@@ -41,7 +41,7 @@ iterator.hasNext(); // return false
 
 
 [[src-0173]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0173_BinarySearchTreeIterator.java[]
 ----

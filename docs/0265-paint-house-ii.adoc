@@ -1,11 +1,11 @@
-== 265. Paint House II
+= 265. Paint House II
 
 https://leetcode.com/problems/paint-house-ii/[LeetCode - Paint House II]
 
 
 
 [[src-0265]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0265_PaintHouseII.java[]
 ----

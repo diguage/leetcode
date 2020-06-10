@@ -1,4 +1,4 @@
-== 468. Validate IP Address
+= 468. Validate IP Address
 
 https://leetcode.com/problems/validate-ip-address/[LeetCode - Validate IP Address]
 
@@ -74,7 +74,7 @@ You may assume there is no extra space or special characters in the input string
 
 
 [[src-0468]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0468_ValidateIPAddress.java[]
 ----

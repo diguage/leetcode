@@ -1,4 +1,4 @@
-== 334. Increasing Triplet Subsequence
+= 334. Increasing Triplet Subsequence
 
 https://leetcode.com/problems/increasing-triplet-subsequence/[LeetCode - Increasing Triplet Subsequence]
 
@@ -16,7 +16,7 @@ Trick 就在这里了！假如当前的 small 和 mid 为 [3, 5]，这时又来�
 
 另外，即使我们更新了 small ，这个 small 在 mid 后面，没有严格遵守递增顺序，但它隐含着的真相是，**有一个比 small 大比 mid 小的前·最小值出现在 mid 之前。因此，当后续出现比 mid 大的值的时候，我们一样可以通过当前 small 和 mid 推断的确存在着长度为 3 的递增序列。** 所以，这样的替换并不会干扰我们后续的计算！
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/increasing-triplet-subsequence/solution/c-xian-xing-shi-jian-fu-za-du-xiang-xi-jie-xi-da-b/[C++ 线性时间复杂度详细解析，打败 98% - 递增的三元子序列 - 力扣（LeetCode）]
 
@@ -54,7 +54,7 @@ such that _arr[i]_ < _arr[j]_ < _arr[k]_ given 0 ≤ _i_ < _j_ < _k_ ≤ _n_-1 e
 
 
 [[src-0334]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0334_IncreasingTripletSubsequence.java[]
 ----

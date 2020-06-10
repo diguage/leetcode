@@ -1,4 +1,4 @@
-== 792. Number of Matching Subsequences
+= 792. Number of Matching Subsequences
 
 https://leetcode.com/problems/number-of-matching-subsequences/[LeetCode - Number of Matching Subsequences]
 
@@ -26,7 +26,7 @@ words = ["a", "bb", "acd", "ace"]
 
 
 [[src-0792]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0792_NumberOfMatchingSubsequences.java[]
 ----

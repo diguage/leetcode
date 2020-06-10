@@ -1,4 +1,4 @@
-== 102. Binary Tree Level Order Traversal
+= 102. Binary Tree Level Order Traversal
 
 https://leetcode.com/problems/binary-tree-level-order-traversal/[LeetCode - Binary Tree Level Order Traversal]
 
@@ -37,7 +37,7 @@ return its level order traversal as:
 
 
 [[src-0102]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0102_BinaryTreeLevelOrderTraversal.java[]
 ----

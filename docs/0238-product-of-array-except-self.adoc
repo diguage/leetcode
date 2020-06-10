@@ -1,4 +1,4 @@
-== 238. Product of Array Except Self
+= 238. Product of Array Except Self
 
 https://leetcode.com/problems/product-of-array-except-self/[LeetCode - Product of Array Except Self]
 
@@ -22,7 +22,7 @@ Could you solve it with constant space complexity? (The output array *does not* 
 
 
 [[src-0238]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0238_ProductOfArrayExceptSelf.java[]
 ----

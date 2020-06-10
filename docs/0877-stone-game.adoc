@@ -1,4 +1,4 @@
-== 877. Stone Game
+= 877. Stone Game
 
 https://leetcode.com/problems/stone-game/[LeetCode - Stone Game]
 
@@ -39,7 +39,7 @@ This demonstrated that taking the first 5 was a winning move for Alex, so we ret
 
 
 [[src-0877]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0877_StoneGame.java[]
 ----

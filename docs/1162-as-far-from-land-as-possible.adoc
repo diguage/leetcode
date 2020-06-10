@@ -1,4 +1,4 @@
-== 1162. As Far from Land as Possible
+= 1162. As Far from Land as Possible
 
 https://leetcode.com/problems/as-far-from-land-as-possible/[LeetCode - As Far from Land as Possible]
 
@@ -46,7 +46,7 @@ The cell (2, 2) is as far as possible from all the land with distance 4.
 
 
 [[src-1162]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1162_AsFarFromLandAsPossible.java[]
 ----

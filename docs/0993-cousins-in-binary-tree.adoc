@@ -1,4 +1,4 @@
-== 993. Cousins in Binary Tree
+= 993. Cousins in Binary Tree
 
 https://leetcode.com/problems/cousins-in-binary-tree/[LeetCode - Cousins in Binary Tree]
 
@@ -65,7 +65,7 @@ image::https://assets.leetcode.com/uploads/2019/02/13/q1248-03.png[]
 
 
 [[src-0993]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0993_CousinsInBinaryTree.java[]
 ----

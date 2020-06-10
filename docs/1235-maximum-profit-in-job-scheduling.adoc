@@ -1,4 +1,4 @@
-== 1235. Maximum Profit in Job Scheduling
+= 1235. Maximum Profit in Job Scheduling
 
 https://leetcode.com/problems/maximum-profit-in-job-scheduling/[LeetCode - Maximum Profit in Job Scheduling]
 
@@ -56,7 +56,7 @@ image::https://assets.leetcode.com/uploads/2019/10/10/sample3_1584.png[]
 
 
 [[src-1235]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1235_MaximumProfitInJobScheduling.java[]
 ----

@@ -1,11 +1,11 @@
-== 656. Coin Path
+= 656. Coin Path
 
 https://leetcode.com/problems/coin-path/[LeetCode - Coin Path]
 
 
 
 [[src-0656]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0656_CoinPath.java[]
 ----

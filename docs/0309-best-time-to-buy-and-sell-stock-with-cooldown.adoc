@@ -1,4 +1,4 @@
-== 309. Best Time to Buy and Sell Stock with Cooldown
+= 309. Best Time to Buy and Sell Stock with Cooldown
 
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/[LeetCode - Best Time to Buy and Sell Stock with Cooldown]
 
@@ -16,7 +16,7 @@ Output: 3
 Explanation: transactions = [buy, sell, cooldown, buy, sell]
 ----
 
-=== 解题分析
+== 解题分析
 
 针对 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）] 这个解题框架，进行小试牛刀。
 
@@ -25,7 +25,7 @@ image::images/0309-1.png[]
 这里有一点需要注意：由于卖出后，需要隔一天才能再次买入。所以，需要保存前一天"为空"状态的值。
 
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
 . https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/dong-tai-gui-hua-shen-ru-fen-xi-by-wang-yan-19/[动态规划深入分析 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
@@ -50,7 +50,7 @@ Design an algorithm to find the maximum profit. You may complete as many transac
 
 
 [[src-0309]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0309_BestTimeToBuyAndSellStockWithCooldown.java[]
 ----

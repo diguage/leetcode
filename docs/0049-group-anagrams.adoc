@@ -1,4 +1,4 @@
-== 49. Group Anagrams
+= 49. Group Anagrams
 
 https://leetcode.com/problems/group-anagrams/[LeetCode - Group Anagrams]
 
@@ -27,7 +27,7 @@ Given an array of strings, group anagrams together.
 
 
 [[src-0049]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0049_GroupAnagrams.java[]
 ----

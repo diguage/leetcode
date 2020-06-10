@@ -1,4 +1,4 @@
-== 777. Swap Adjacent in LR String
+= 777. Swap Adjacent in LR String
 
 https://leetcode.com/problems/swap-adjacent-in-lr-string/[LeetCode - Swap Adjacent in LR String]
 
@@ -29,7 +29,7 @@ XRLXXRRLX
 
 
 [[src-0777]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0777_SwapAdjacentInLRString.java[]
 ----

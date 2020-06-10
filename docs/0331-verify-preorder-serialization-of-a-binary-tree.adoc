@@ -1,4 +1,4 @@
-== 331. Verify Preorder Serialization of a Binary Tree
+= 331. Verify Preorder Serialization of a Binary Tree
 
 https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/[LeetCode - Verify Preorder Serialization of a Binary Tree]
 
@@ -49,7 +49,7 @@ You may assume that the input format is always valid, for example it could never
 
 
 [[src-0331]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0331_VerifyPreorderSerializationOfABinaryTree.java[]
 ----

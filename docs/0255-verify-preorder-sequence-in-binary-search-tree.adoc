@@ -1,11 +1,11 @@
-== 255. Verify Preorder Sequence in Binary Search Tree
+= 255. Verify Preorder Sequence in Binary Search Tree
 
 https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/[LeetCode - Verify Preorder Sequence in Binary Search Tree]
 
 
 
 [[src-0255]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0255_VerifyPreorderSequenceInBinarySearchTree.java[]
 ----

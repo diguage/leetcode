@@ -1,11 +1,11 @@
-== 604. Design Compressed String Iterator
+= 604. Design Compressed String Iterator
 
 https://leetcode.com/problems/design-compressed-string-iterator/[LeetCode - Design Compressed String Iterator]
 
 
 
 [[src-0604]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0604_DesignCompressedStringIterator.java[]
 ----

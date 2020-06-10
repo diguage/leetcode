@@ -1,11 +1,11 @@
-== 323. Number of Connected Components in an Undirected Graph
+= 323. Number of Connected Components in an Undirected Graph
 
 https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/[LeetCode - Number of Connected Components in an Undirected Graph]
 
 
 
 [[src-0323]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0323_NumberOfConnectedComponentsInAnUndirectedGraph.java[]
 ----

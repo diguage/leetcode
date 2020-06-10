@@ -1,4 +1,4 @@
-== 453. Minimum Moves to Equal Array Elements
+= 453. Minimum Moves to Equal Array Elements
 
 https://leetcode.com/problems/minimum-moves-to-equal-array-elements/[LeetCode - Minimum Moves to Equal Array Elements]
 
@@ -22,7 +22,7 @@ Only three moves are needed (remember each move increments two elements):
 
 
 [[src-0453]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0453_MinimumMovesToEqualArrayElements.java[]
 ----

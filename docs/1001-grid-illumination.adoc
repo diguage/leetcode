@@ -1,4 +1,4 @@
-== 1001. Grid Illumination
+= 1001. Grid Illumination
 
 https://leetcode.com/problems/grid-illumination/[LeetCode - Grid Illumination]
 
@@ -50,7 +50,7 @@ Before performing the second query we have only the lamp [4,4] on.  Now the quer
 
 
 [[src-1001]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1001_GridIllumination.java[]
 ----

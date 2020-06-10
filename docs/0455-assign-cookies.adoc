@@ -1,4 +1,4 @@
-== 455. Assign Cookies
+= 455. Assign Cookies
 
 https://leetcode.com/problems/assign-cookies/[LeetCode - Assign Cookies]
 
@@ -47,7 +47,7 @@ You need to output 2.
 
 
 [[src-0455]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0455_AssignCookies.java[]
 ----

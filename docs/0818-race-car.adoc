@@ -1,4 +1,4 @@
-== 818. Race Car
+= 818. Race Car
 
 https://leetcode.com/problems/race-car/[LeetCode - Race Car]
 
@@ -47,7 +47,7 @@ Your position goes from 0->1->3->7->7->6.
 
 
 [[src-0818]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0818_RaceCar.java[]
 ----

@@ -1,4 +1,4 @@
-== 717. 1-bit and 2-bit Characters
+= 717. 1-bit and 2-bit Characters
 
 https://leetcode.com/problems/1-bit-and-2-bit-characters/[LeetCode - 1-bit and 2-bit Characters]
 
@@ -39,7 +39,7 @@ The only way to decode it is two-bit character and two-bit character. So the las
 
 
 [[src-0717]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0717_1BitAnd2BitCharacters.java[]
 ----

@@ -1,4 +1,4 @@
-== 390. Elimination Game
+= 390. Elimination Game
 
 https://leetcode.com/problems/elimination-game/[LeetCode - Elimination Game]
 
@@ -28,7 +28,7 @@ Output:
 
 
 [[src-0390]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0390_EliminationGame.java[]
 ----

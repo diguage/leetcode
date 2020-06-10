@@ -1,4 +1,4 @@
-== 664. Strange Printer
+= 664. Strange Printer
 
 https://leetcode.com/problems/strange-printer/[LeetCode - Strange Printer]
 
@@ -42,7 +42,7 @@ Given a string consists of lower English letters only, your job is to count the 
 
 
 [[src-0664]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0664_StrangePrinter.java[]
 ----

@@ -1,4 +1,4 @@
-== 967. Numbers With Same Consecutive Differences
+= 967. Numbers With Same Consecutive Differences
 
 https://leetcode.com/problems/numbers-with-same-consecutive-differences/[LeetCode - Numbers With Same Consecutive Differences]
 
@@ -41,7 +41,7 @@ You may return the answer in any order.
 
 
 [[src-0967]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0967_NumbersWithSameConsecutiveDifferences.java[]
 ----

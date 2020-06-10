@@ -1,11 +1,11 @@
-== 1070. Product Sales Analysis III
+= 1070. Product Sales Analysis III
 
 https://leetcode.com/problems/product-sales-analysis-iii/[LeetCode - Product Sales Analysis III]
 
 
 
 [[src-1070]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1070_ProductSalesAnalysisIII.java[]
 ----

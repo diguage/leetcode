@@ -1,4 +1,4 @@
-== 935. Knight Dialer
+= 935. Knight Dialer
 
 https://leetcode.com/problems/knight-dialer/[LeetCode - Knight Dialer]
 
@@ -62,7 +62,7 @@ Since the answer may be large, *output the answer modulo `10^9 + 7`*.
 
 
 [[src-0935]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0935_KnightDialer.java[]
 ----

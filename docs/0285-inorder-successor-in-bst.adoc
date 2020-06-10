@@ -1,11 +1,11 @@
-== 285. Inorder Successor in BST
+= 285. Inorder Successor in BST
 
 https://leetcode.com/problems/inorder-successor-in-bst/[LeetCode - Inorder Successor in BST]
 
 
 
 [[src-0285]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0285_InorderSuccessorInBST.java[]
 ----

@@ -1,4 +1,4 @@
-== 553. Optimal Division
+= 553. Optimal Division
 
 https://leetcode.com/problems/optimal-division/[LeetCode - Optimal Division]
 
@@ -35,7 +35,7 @@ Other cases:
 
 
 [[src-0553]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0553_OptimalDivision.java[]
 ----

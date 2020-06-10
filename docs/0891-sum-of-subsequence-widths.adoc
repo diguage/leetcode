@@ -1,4 +1,4 @@
-== 891. Sum of Subsequence Widths
+= 891. Sum of Subsequence Widths
 
 https://leetcode.com/problems/sum-of-subsequence-widths/[LeetCode - Sum of Subsequence Widths]
 
@@ -38,7 +38,7 @@ The sum of these widths is 6.
 
 
 [[src-0891]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0891_SumOfSubsequenceWidths.java[]
 ----

@@ -1,4 +1,4 @@
-== 1253. Reconstruct a 2-Row Binary Matrix
+= 1253. Reconstruct a 2-Row Binary Matrix
 
 https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/[LeetCode - Reconstruct a 2-Row Binary Matrix]
 
@@ -57,7 +57,7 @@ If no valid solution exists, return an empty 2-D array.
 
 
 [[src-1253]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1253_ReconstructA2RowBinaryMatrix.java[]
 ----

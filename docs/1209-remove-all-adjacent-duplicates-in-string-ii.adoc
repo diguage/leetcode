@@ -1,4 +1,4 @@
-== 1209. Remove All Adjacent Duplicates in String II
+= 1209. Remove All Adjacent Duplicates in String II
 
 https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/[LeetCode - Remove All Adjacent Duplicates in String II]
 
@@ -53,7 +53,7 @@ Finally delete "ddd", get "aa"
 
 
 [[src-1209]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1209_RemoveAllAdjacentDuplicatesInStringII.java[]
 ----

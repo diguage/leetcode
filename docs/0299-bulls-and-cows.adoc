@@ -1,4 +1,4 @@
-== 299. Bulls and Cows
+= 299. Bulls and Cows
 
 https://leetcode.com/problems/bulls-and-cows/[LeetCode - Bulls and Cows]
 
@@ -34,7 +34,7 @@ Please note that both secret number and friend's guess may contain duplicate dig
 
 
 [[src-0299]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0299_BullsAndCows.java[]
 ----

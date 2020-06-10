@@ -1,4 +1,4 @@
-== 1053. Previous Permutation With One Swap
+= 1053. Previous Permutation With One Swap
 
 https://leetcode.com/problems/previous-permutation-with-one-swap/[LeetCode - Previous Permutation With One Swap]
 
@@ -54,7 +54,7 @@ Given an array `A` of positive integers (not necessarily distinct), return the l
 
 
 [[src-1053]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1053_PreviousPermutationWithOneSwap.java[]
 ----

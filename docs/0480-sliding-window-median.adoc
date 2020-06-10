@@ -1,4 +1,4 @@
-== 480. Sliding Window Median
+= 480. Sliding Window Median
 
 https://leetcode.com/problems/sliding-window-median/[LeetCode - Sliding Window Median]
 
@@ -41,7 +41,7 @@ Answers within `10^-5` of the actual value will be accepted as correct.
 
 
 [[src-0480]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0480_SlidingWindowMedian.java[]
 ----

@@ -1,11 +1,11 @@
-== 325. Maximum Size Subarray Sum Equals k
+= 325. Maximum Size Subarray Sum Equals k
 
 https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/[LeetCode - Maximum Size Subarray Sum Equals k]
 
 
 
 [[src-0325]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0325_MaximumSizeSubarraySumEqualsK.java[]
 ----

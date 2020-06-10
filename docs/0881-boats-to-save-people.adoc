@@ -1,4 +1,4 @@
-== 881. Boats to Save People
+= 881. Boats to Save People
 
 https://leetcode.com/problems/boats-to-save-people/[LeetCode - Boats to Save People]
 
@@ -55,7 +55,7 @@ Return the minimum number of boats to carry every given person.  (It is guarante
 
 
 [[src-0881]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0881_BoatsToSavePeople.java[]
 ----

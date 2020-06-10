@@ -1,4 +1,4 @@
-== 1268. Search Suggestions System
+= 1268. Search Suggestions System
 
 https://leetcode.com/problems/search-suggestions-system/[LeetCode - Search Suggestions System]
 
@@ -63,7 +63,7 @@ After typing mou, mous and mouse the system suggests ["mouse","mousepad"]
 
 
 [[src-1268]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1268_SearchSuggestionsSystem.java[]
 ----

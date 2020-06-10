@@ -1,4 +1,4 @@
-== 53. Maximum Subarray
+= 53. Maximum Subarray
 
 https://leetcode.com/problems/maximum-subarray/[LeetCode - Maximum Subarray]
 
@@ -19,7 +19,7 @@ If you have figured out the O(_n_) solution, try coding another solution using t
 
 
 [[src-0053]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0053_MaximumSubarray.java[]
 ----

@@ -1,4 +1,4 @@
-== 789. Escape The Ghosts
+= 789. Escape The Ghosts
 
 https://leetcode.com/problems/escape-the-ghosts/[LeetCode - Escape The Ghosts]
 
@@ -53,7 +53,7 @@ The ghost can reach the target at the same time as you.
 
 
 [[src-0789]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0789_EscapeTheGhosts.java[]
 ----

@@ -1,4 +1,4 @@
-== 155. Min Stack
+= 155. Min Stack
 
 https://leetcode.com/problems/min-stack/[LeetCode - Min Stack]
 
@@ -36,7 +36,7 @@ minStack.getMin();   --> Returns -2.
 
 
 [[src-0155]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0155_MinStack.java[]
 ----

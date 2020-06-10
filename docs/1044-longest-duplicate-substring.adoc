@@ -1,4 +1,4 @@
-== 1044. Longest Duplicate Substring
+= 1044. Longest Duplicate Substring
 
 https://leetcode.com/problems/longest-duplicate-substring/[LeetCode - Longest Duplicate Substring]
 
@@ -36,7 +36,7 @@ Return *any* duplicated substring that has the longest possible length.  (If `S`
 
 
 [[src-1044]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1044_LongestDuplicateSubstring.java[]
 ----

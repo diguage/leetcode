@@ -1,4 +1,4 @@
-== 1311. Get Watched Videos by Your Friends
+= 1311. Get Watched Videos by Your Friends
 
 https://leetcode.com/problems/get-watched-videos-by-your-friends/[LeetCode - Get Watched Videos by Your Friends]
 
@@ -54,7 +54,7 @@ You have id = 0 (green color in the figure) and the only friend of your friends 
 
 
 [[src-1311]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1311_GetWatchedVideosByYourFriends.java[]
 ----

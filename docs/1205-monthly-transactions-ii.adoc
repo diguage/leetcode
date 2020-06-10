@@ -1,11 +1,11 @@
-== 1205. Monthly Transactions II
+= 1205. Monthly Transactions II
 
 https://leetcode.com/problems/monthly-transactions-ii/[LeetCode - Monthly Transactions II]
 
 
 
 [[src-1205]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1205_MonthlyTransactionsII.java[]
 ----

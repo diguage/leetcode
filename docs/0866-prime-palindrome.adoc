@@ -1,4 +1,4 @@
-== 866. Prime Palindrome
+= 866. Prime Palindrome
 
 https://leetcode.com/problems/prime-palindrome/[LeetCode - Prime Palindrome]
 
@@ -56,7 +56,7 @@ For example, 12321 is a palindrome.
 
 
 [[src-0866]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0866_PrimePalindrome.java[]
 ----

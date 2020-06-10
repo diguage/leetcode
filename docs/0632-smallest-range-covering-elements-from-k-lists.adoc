@@ -1,4 +1,4 @@
-== 632. Smallest Range Covering Elements from K Lists
+= 632. Smallest Range Covering Elements from K Lists
 
 https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/[LeetCode - Smallest Range Covering Elements from K Lists]
 
@@ -33,7 +33,7 @@ List 3: [5, 18, 22, 30], 22 is in range [20,24].
 
 
 [[src-0632]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0632_SmallestRangeCoveringElementsFromKLists.java[]
 ----

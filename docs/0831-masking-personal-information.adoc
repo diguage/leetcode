@@ -1,4 +1,4 @@
-== 831. Masking Personal Information
+= 831. Masking Personal Information
 
 https://leetcode.com/problems/masking-personal-information/[LeetCode - Masking Personal Information]
 
@@ -90,7 +90,7 @@ Return the correct "mask" of the information provided.
 
 
 [[src-0831]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0831_MaskingPersonalInformation.java[]
 ----

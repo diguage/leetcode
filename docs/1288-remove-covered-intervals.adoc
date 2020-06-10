@@ -1,4 +1,4 @@
-== 1288. Remove Covered Intervals
+= 1288. Remove Covered Intervals
 
 https://leetcode.com/problems/remove-covered-intervals/[LeetCode - Remove Covered Intervals]
 
@@ -28,7 +28,7 @@ After doing so, return the number of remaining intervals.
 
 
 [[src-1288]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1288_RemoveCoveredIntervals.java[]
 ----

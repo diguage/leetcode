@@ -1,4 +1,4 @@
-== 1283. Find the Smallest Divisor Given a Threshold
+= 1283. Find the Smallest Divisor Given a Threshold
 
 https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/[LeetCode - Find the Smallest Divisor Given a Threshold]
 
@@ -46,7 +46,7 @@ If the divisor is 4 we can get a sum to 7 (1+1+2+3) and if the divisor is 5 the 
 
 
 [[src-1283]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1283_FindTheSmallestDivisorGivenAThreshold.java[]
 ----

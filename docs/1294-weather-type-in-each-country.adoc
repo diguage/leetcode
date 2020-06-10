@@ -1,11 +1,11 @@
-== 1294. Weather Type in Each Country
+= 1294. Weather Type in Each Country
 
 https://leetcode.com/problems/weather-type-in-each-country/[LeetCode - Weather Type in Each Country]
 
 
 
 [[src-1294]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1294_WeatherTypeInEachCountry.java[]
 ----

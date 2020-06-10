@@ -1,11 +1,11 @@
-== 586. Customer Placing the Largest Number of Orders
+= 586. Customer Placing the Largest Number of Orders
 
 https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/[LeetCode - Customer Placing the Largest Number of Orders]
 
 
 
 [[src-0586]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0586_CustomerPlacingTheLargestNumberOfOrders.java[]
 ----

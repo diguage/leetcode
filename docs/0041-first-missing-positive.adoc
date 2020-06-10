@@ -1,4 +1,4 @@
-== 41. First Missing Positive
+= 41. First Missing Positive
 
 https://leetcode.com/problems/first-missing-positive/[LeetCode - First Missing Positive]
 
@@ -37,7 +37,7 @@ Your algorithm should run in _O_(_n_) time and uses constant extra space.
 
 
 [[src-0041]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0041_FirstMissingPositive.java[]
 ----

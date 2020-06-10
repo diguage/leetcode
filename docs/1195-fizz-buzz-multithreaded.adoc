@@ -1,4 +1,4 @@
-== 1195. Fizz Buzz Multithreaded
+= 1195. Fizz Buzz Multithreaded
 
 https://leetcode.com/problems/fizz-buzz-multithreaded/[LeetCode - Fizz Buzz Multithreaded]
 
@@ -37,7 +37,7 @@ Implement a multithreaded version of `FizzBuzz` with *four* threads. The same in
 
 
 [[src-1195]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1195_FizzBuzzMultithreaded.java[]
 ----

@@ -1,4 +1,4 @@
-== 929. Unique Email Addresses
+= 929. Unique Email Addresses
 
 https://leetcode.com/problems/unique-email-addresses/[LeetCode - Unique Email Addresses]
 
@@ -44,7 +44,7 @@ Given a list of `emails`, we send one email to each address in the list.  How ma
 
 
 [[src-0929]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0929_UniqueEmailAddresses.java[]
 ----

@@ -1,4 +1,4 @@
-== 1247. Minimum Swaps to Make Strings Equal
+= 1247. Minimum Swaps to Make Strings Equal
 
 https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/[LeetCode - Minimum Swaps to Make Strings Equal]
 
@@ -58,7 +58,7 @@ Note that you can't swap s1[0] and s1[1] to make s1 equal to "yx", cause we can 
 
 
 [[src-1247]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1247_MinimumSwapsToMakeStringsEqual.java[]
 ----

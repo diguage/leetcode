@@ -1,4 +1,4 @@
-== 638. Shopping Offers
+= 638. Shopping Offers
 
 https://leetcode.com/problems/shopping-offers/[LeetCode - Shopping Offers]
 
@@ -63,7 +63,7 @@ You cannot add more items, though only $9 for 2A ,2B and 1C.
 
 
 [[src-0638]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0638_ShoppingOffers.java[]
 ----

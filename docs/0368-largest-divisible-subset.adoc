@@ -1,4 +1,4 @@
-== 368. Largest Divisible Subset
+= 368. Largest Divisible Subset
 
 https://leetcode.com/problems/largest-divisible-subset/[LeetCode - Largest Divisible Subset]
 
@@ -30,7 +30,7 @@ If there are multiple solutions, return any subset is fine.
 
 
 [[src-0368]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0368_LargestDivisibleSubset.java[]
 ----

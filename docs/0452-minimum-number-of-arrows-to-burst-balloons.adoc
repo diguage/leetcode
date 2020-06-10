@@ -1,4 +1,4 @@
-== 452. Minimum Number of Arrows to Burst Balloons
+= 452. Minimum Number of Arrows to Burst Balloons
 
 https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/[LeetCode - Minimum Number of Arrows to Burst Balloons]
 
@@ -25,7 +25,7 @@ One way is to shoot one arrow for example at x = 6 (bursting the balloons [2,8] 
 
 
 [[src-0452]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0452_MinimumNumberOfArrowsToBurstBalloons.java[]
 ----

@@ -1,4 +1,4 @@
-== 287. Find the Duplicate Number
+= 287. Find the Duplicate Number
 
 :stem: latexmath
 
@@ -29,7 +29,7 @@ Output: 3
 
 可以使用 xref:0142-linked-list-cycle-ii.adoc[142. Linked List Cycle II] 中的 Floyd's Tortoise and Hare (Cycle Detection) 算法来解决。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode.com/problems/find-the-duplicate-number/solution/[Find the Duplicate Number solution - LeetCode] 中 Approach #3 Floyd's Tortoise and Hare (Cycle Detection) [Accepted] 的好精巧！类似于在链表中发现环。还需要再仔细思考一下这个问题！
 
@@ -64,7 +64,7 @@ Given an array _nums_ containing _n_ + 1 integers where each integer is between 
 
 
 [[src-0287]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0287_FindTheDuplicateNumber.java[]
 ----

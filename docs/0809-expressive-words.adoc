@@ -1,4 +1,4 @@
-== 809. Expressive Words
+= 809. Expressive Words
 
 https://leetcode.com/problems/expressive-words/[LeetCode - Expressive Words]
 
@@ -40,7 +40,7 @@ We can't extend "helo" to get "heeellooo" because the group "ll" is not size 3 o
 
 
 [[src-0809]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0809_ExpressiveWords.java[]
 ----

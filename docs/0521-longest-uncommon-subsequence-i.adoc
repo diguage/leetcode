@@ -1,4 +1,4 @@
-== 521. Longest Uncommon Subsequence I 
+= 521. Longest Uncommon Subsequence I 
 
 https://leetcode.com/problems/longest-uncommon-subsequence-i/[LeetCode - Longest Uncommon Subsequence I ]
 
@@ -35,7 +35,7 @@ The input will be two strings, and the output needs to be the length of the long
 
 
 [[src-0521]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0521_LongestUncommonSubsequenceI.java[]
 ----

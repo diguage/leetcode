@@ -1,4 +1,4 @@
-== 1047. Remove All Adjacent Duplicates In String
+= 1047. Remove All Adjacent Duplicates In String
 
 https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/[LeetCode - Remove All Adjacent Duplicates In String]
 
@@ -31,7 +31,7 @@ For example, in "abbaca" we could remove "bb" since the letters are adjacent and
 
 
 [[src-1047]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1047_RemoveAllAdjacentDuplicatesInString.java[]
 ----

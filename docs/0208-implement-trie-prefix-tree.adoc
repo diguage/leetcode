@@ -1,4 +1,4 @@
-== 208. Implement Trie (Prefix Tree)
+= 208. Implement Trie (Prefix Tree)
 
 https://leetcode.com/problems/implement-trie-prefix-tree/[LeetCode - Implement Trie (Prefix Tree)]
 
@@ -8,7 +8,7 @@ https://leetcode.com/problems/implement-trie-prefix-tree/[LeetCode - Implement T
 
 image::images/0208-1.png[]
 
-=== 参考资料
+== 参考资料
 
 . https://en.wikipedia.org/wiki/Trie[Trie - Wikipedia]
 . https://www.geeksforgeeks.org/trie-insert-and-search/[Trie | (Insert and Search) - GeeksforGeeks]
@@ -39,7 +39,7 @@ trie.search("app");     // returns true
 
 
 [[src-0208]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0208_ImplementTriePrefixTree.java[]
 ----

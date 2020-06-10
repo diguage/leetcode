@@ -1,4 +1,4 @@
-== 1014. Best Sightseeing Pair
+= 1014. Best Sightseeing Pair
 
 https://leetcode.com/problems/best-sightseeing-pair/[LeetCode - Best Sightseeing Pair]
 
@@ -30,7 +30,7 @@ Return the maximum score of a pair of sightseeing spots.
 
 
 [[src-1014]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1014_BestSightseeingPair.java[]
 ----

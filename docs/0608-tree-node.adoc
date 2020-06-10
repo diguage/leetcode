@@ -1,11 +1,11 @@
-== 608. Tree Node
+= 608. Tree Node
 
 https://leetcode.com/problems/tree-node/[LeetCode - Tree Node]
 
 
 
 [[src-0608]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0608_TreeNode.java[]
 ----

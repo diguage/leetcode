@@ -1,11 +1,11 @@
-== 1101. The Earliest Moment When Everyone Become Friends
+= 1101. The Earliest Moment When Everyone Become Friends
 
 https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/[LeetCode - The Earliest Moment When Everyone Become Friends]
 
 
 
 [[src-1101]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1101_TheEarliestMomentWhenEveryoneBecomeFriends.java[]
 ----

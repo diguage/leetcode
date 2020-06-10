@@ -1,4 +1,4 @@
-== 539. Minimum Time Difference
+= 539. Minimum Time Difference
 
 https://leetcode.com/problems/minimum-time-difference/[LeetCode - Minimum Time Difference]
 
@@ -23,7 +23,7 @@ Given a list of 24-hour clock time points in "Hour:Minutes" format, find the min
 
 
 [[src-0539]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0539_MinimumTimeDifference.java[]
 ----

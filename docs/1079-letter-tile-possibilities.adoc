@@ -1,4 +1,4 @@
-== 1079. Letter Tile Possibilities
+= 1079. Letter Tile Possibilities
 
 https://leetcode.com/problems/letter-tile-possibilities/[LeetCode - Letter Tile Possibilities]
 
@@ -36,7 +36,7 @@ You have a set of `tiles`, where each tile has one letter `tiles[i]` printed on 
 
 
 [[src-1079]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1079_LetterTilePossibilities.java[]
 ----

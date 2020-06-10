@@ -1,4 +1,4 @@
-== 219. Contains Duplicate II
+= 219. Contains Duplicate II
 
 https://leetcode.com/problems/contains-duplicate-ii/[LeetCode - Contains Duplicate II]
 
@@ -37,7 +37,7 @@ Given an array of integers and an integer _k_, find out whether there are two di
 
 
 [[src-0219]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0219_ContainsDuplicateII.java[]
 ----

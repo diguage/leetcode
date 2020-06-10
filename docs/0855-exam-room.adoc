@@ -1,4 +1,4 @@
-== 855. Exam Room
+= 855. Exam Room
 
 https://leetcode.com/problems/exam-room/[LeetCode - Exam Room]
 
@@ -39,7 +39,7 @@ seat() -> 5, the student sits at the last seat number 5.
 
 
 [[src-0855]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0855_ExamRoom.java[]
 ----

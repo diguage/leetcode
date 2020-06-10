@@ -1,4 +1,4 @@
-== 189. Rotate Array
+= 189. Rotate Array
 
 https://leetcode.com/problems/rotate-array/[LeetCode - Rotate Array]
 
@@ -40,7 +40,7 @@ rotate 2 steps to the right: [3,99,-1,-100]
 
 
 [[src-0189]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0189_RotateArray.java[]
 ----

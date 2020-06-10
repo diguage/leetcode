@@ -1,4 +1,4 @@
-== 389. Find the Difference
+= 389. Find the Difference
 
 https://leetcode.com/problems/find-the-difference/[LeetCode - Find the Difference]
 
@@ -25,7 +25,7 @@ Explanation:
 
 
 [[src-0389]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0389_FindTheDifference.java[]
 ----

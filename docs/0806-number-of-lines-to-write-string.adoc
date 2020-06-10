@@ -1,4 +1,4 @@
-== 806. Number of Lines To Write String
+= 806. Number of Lines To Write String
 
 https://leetcode.com/problems/number-of-lines-to-write-string/[LeetCode - Number of Lines To Write String]
 
@@ -49,7 +49,7 @@ So the answer is 2 lines, plus 4 units in the second line.
 
 
 [[src-0806]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0806_NumberOfLinesToWriteString.java[]
 ----

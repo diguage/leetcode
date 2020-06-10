@@ -1,4 +1,4 @@
-== 937. Reorder Data in Log Files
+= 937. Reorder Data in Log Files
 
 https://leetcode.com/problems/reorder-data-in-log-files/[LeetCode - Reorder Data in Log Files]
 
@@ -36,7 +36,7 @@ Return the final order of the logs.
 
 
 [[src-0937]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0937_ReorderDataInLogFiles.java[]
 ----

@@ -1,4 +1,4 @@
-== 194. Transpose File
+= 194. Transpose File
 
 https://leetcode.com/problems/transpose-file/[LeetCode - Transpose File]
 
@@ -30,7 +30,7 @@ age 21 30
 
 
 [[src-0194]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0194_TransposeFile.java[]
 ----

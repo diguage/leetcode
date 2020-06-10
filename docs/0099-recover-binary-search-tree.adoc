@@ -1,4 +1,4 @@
-== 99. Recover Binary Search Tree
+= 99. Recover Binary Search Tree
 
 https://leetcode.com/problems/recover-binary-search-tree/[LeetCode - Recover Binary Search Tree]
 
@@ -56,7 +56,7 @@ Recover the tree without changing its structure.
 
 
 [[src-0099]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0099_RecoverBinarySearchTree.java[]
 ----

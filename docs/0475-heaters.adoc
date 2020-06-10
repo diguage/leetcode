@@ -1,4 +1,4 @@
-== 475. Heaters
+= 475. Heaters
 
 https://leetcode.com/problems/heaters/[LeetCode - Heaters]
 
@@ -44,7 +44,7 @@ So, your input will be the positions of houses and heaters seperately, and your 
 
 
 [[src-0475]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0475_Heaters.java[]
 ----

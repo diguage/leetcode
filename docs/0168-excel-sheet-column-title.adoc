@@ -1,4 +1,4 @@
-== 168. Excel Sheet Column Title
+= 168. Excel Sheet Column Title
 
 https://leetcode.com/problems/excel-sheet-column-title/[LeetCode - Excel Sheet Column Title]
 
@@ -44,7 +44,7 @@ For example:
 
 
 [[src-0168]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0168_ExcelSheetColumnTitle.java[]
 ----

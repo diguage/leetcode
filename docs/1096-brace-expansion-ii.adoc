@@ -1,4 +1,4 @@
-== 1096. Brace Expansion II
+= 1096. Brace Expansion II
 
 https://leetcode.com/problems/brace-expansion-ii/[LeetCode - Brace Expansion II]
 
@@ -73,7 +73,7 @@ Given an `expression` representing a set of words under the given grammar, retur
 
 
 [[src-1096]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1096_BraceExpansionII.java[]
 ----

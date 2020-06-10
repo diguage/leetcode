@@ -1,4 +1,4 @@
-== 973. K Closest Points to Origin
+= 973. K Closest Points to Origin
 
 https://leetcode.com/problems/k-closest-points-to-origin/[LeetCode - K Closest Points to Origin]
 
@@ -48,7 +48,7 @@ We only want the closest K = 1 points from the origin, so the answer is just [[-
 
 
 [[src-0973]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0973_KClosestPointsToOrigin.java[]
 ----

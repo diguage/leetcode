@@ -1,4 +1,4 @@
-== 629. K Inverse Pairs Array
+= 629. K Inverse Pairs Array
 
 https://leetcode.com/problems/k-inverse-pairs-array/[LeetCode - K Inverse Pairs Array]
 
@@ -43,7 +43,7 @@ The array [1,3,2] and [2,1,3] have exactly 1 inverse pair.
 
 
 [[src-0629]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0629_KInversePairsArray.java[]
 ----

@@ -1,4 +1,4 @@
-== 915. Partition Array into Disjoint Intervals
+= 915. Partition Array into Disjoint Intervals
 
 https://leetcode.com/problems/partition-array-into-disjoint-intervals/[LeetCode - Partition Array into Disjoint Intervals]
 
@@ -51,7 +51,7 @@ Return the *length* of `left` after such a partitioning.  It is guaranteed that 
 
 
 [[src-0915]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0915_PartitionArrayIntoDisjointIntervals.java[]
 ----

@@ -1,11 +1,11 @@
-== 1285. Find the Start and End Number of Continuous Ranges
+= 1285. Find the Start and End Number of Continuous Ranges
 
 https://leetcode.com/problems/find-the-start-and-end-number-of-continuous-ranges/[LeetCode - Find the Start and End Number of Continuous Ranges]
 
 
 
 [[src-1285]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1285_FindTheStartAndEndNumberOfContinuousRanges.java[]
 ----

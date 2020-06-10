@@ -1,4 +1,4 @@
-== 857. Minimum Cost to Hire K Workers
+= 857. Minimum Cost to Hire K Workers
 
 https://leetcode.com/problems/minimum-cost-to-hire-k-workers/[LeetCode - Minimum Cost to Hire K Workers]
 
@@ -54,7 +54,7 @@ Return the least amount of money needed to form a paid group satisfying the abov
 
 
 [[src-0857]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0857_MinimumCostToHireKWorkers.java[]
 ----

@@ -1,11 +1,11 @@
-== 1087. Brace Expansion
+= 1087. Brace Expansion
 
 https://leetcode.com/problems/brace-expansion/[LeetCode - Brace Expansion]
 
 
 
 [[src-1087]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1087_BraceExpansion.java[]
 ----

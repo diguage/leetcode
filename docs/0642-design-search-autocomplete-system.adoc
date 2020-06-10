@@ -1,11 +1,11 @@
-== 642. Design Search Autocomplete System
+= 642. Design Search Autocomplete System
 
 https://leetcode.com/problems/design-search-autocomplete-system/[LeetCode - Design Search Autocomplete System]
 
 
 
 [[src-0642]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0642_DesignSearchAutocompleteSystem.java[]
 ----

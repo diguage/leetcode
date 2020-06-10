@@ -1,4 +1,4 @@
-== 303. Range Sum Query - Immutable
+= 303. Range Sum Query - Immutable
 
 https://leetcode.com/problems/range-sum-query-immutable/[LeetCode - Range Sum Query - Immutable]
 
@@ -24,7 +24,7 @@ sumRange(0, 5) -> -3
 
 
 [[src-0303]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0303_RangeSumQueryImmutable.java[]
 ----

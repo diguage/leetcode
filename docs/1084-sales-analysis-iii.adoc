@@ -1,11 +1,11 @@
-== 1084. Sales Analysis III
+= 1084. Sales Analysis III
 
 https://leetcode.com/problems/sales-analysis-iii/[LeetCode - Sales Analysis III]
 
 
 
 [[src-1084]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1084_SalesAnalysisIII.java[]
 ----

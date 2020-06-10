@@ -1,4 +1,4 @@
-== 1210. Minimum Moves to Reach Target with Rotations
+= 1210. Minimum Moves to Reach Target with Rotations
 
 https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/[LeetCode - Minimum Moves to Reach Target with Rotations]
 
@@ -67,7 +67,7 @@ One possible solution is [right, right, rotate clockwise, right, down, down, dow
 
 
 [[src-1210]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1210_MinimumMovesToReachTargetWithRotations.java[]
 ----

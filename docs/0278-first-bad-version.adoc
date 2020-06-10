@@ -1,4 +1,4 @@
-== 278. First Bad Version
+= 278. First Bad Version
 
 https://leetcode.com/problems/first-bad-version/[LeetCode - First Bad Version]
 
@@ -24,7 +24,7 @@ Then 4 is the first bad version. `
 
 
 [[src-0278]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0278_FirstBadVersion.java[]
 ----

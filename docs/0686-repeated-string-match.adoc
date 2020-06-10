@@ -1,4 +1,4 @@
-== 686. Repeated String Match
+= 686. Repeated String Match
 
 https://leetcode.com/problems/repeated-string-match/[LeetCode - Repeated String Match]
 
@@ -16,7 +16,7 @@ The length of `A` and `B` will be between 1 and 10000.
 
 
 [[src-0686]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0686_RepeatedStringMatch.java[]
 ----

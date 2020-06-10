@@ -1,4 +1,4 @@
-== 572. Subtree of Another Tree
+= 572. Subtree of Another Tree
 
 https://leetcode.com/problems/subtree-of-another-tree/[LeetCode - Subtree of Another Tree]
 
@@ -52,7 +52,7 @@ Return *false*.
 
 
 [[src-0572]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0572_SubtreeOfAnotherTree.java[]
 ----

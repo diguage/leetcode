@@ -1,11 +1,11 @@
-== 271. Encode and Decode Strings
+= 271. Encode and Decode Strings
 
 https://leetcode.com/problems/encode-and-decode-strings/[LeetCode - Encode and Decode Strings]
 
 
 
 [[src-0271]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0271_EncodeAndDecodeStrings.java[]
 ----

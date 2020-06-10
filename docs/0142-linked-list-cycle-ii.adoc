@@ -1,4 +1,4 @@
-== 142. Linked List Cycle II
+= 142. Linked List Cycle II
 
 :stem: latexmath
 
@@ -44,7 +44,7 @@ image::images/0142-3.png[]
 
 Can you solve it without using extra space?
 
-=== 解题思路分析
+== 解题思路分析
 
 这是 Floyd's Tortoise and Hare (Cycle Detection) 算法。
 
@@ -69,7 +69,7 @@ $$
 附加题：尝试其他探测环形算法。
 
 
-=== 参考资料
+== 参考资料
 
 . https://en.wikipedia.org/wiki/Cycle_detection[Cycle detection - Wikipedia]
 . https://leetcode-cn.com/problems/linked-list-cycle-ii/solution/huan-xing-lian-biao-ii-by-leetcode/[环形链表 II - 环形链表 II - 力扣（LeetCode）]
@@ -125,7 +125,7 @@ Can you solve it without using extra space?
 
 
 [[src-0142]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0142_LinkedListCycleII.java[]
 ----

@@ -1,4 +1,4 @@
-== 630. Course Schedule III
+= 630. Course Schedule III
 
 https://leetcode.com/problems/course-schedule-iii/[LeetCode - Course Schedule III]
 
@@ -34,7 +34,7 @@ The 4th course cannot be taken now, since you will finish it on the 3300th day, 
 
 
 [[src-0630]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0630_CourseScheduleIII.java[]
 ----

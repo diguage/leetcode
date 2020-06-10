@@ -1,4 +1,4 @@
-== 371. Sum of Two Integers
+= 371. Sum of Two Integers
 
 https://leetcode.com/problems/sum-of-two-integers/[LeetCode - Sum of Two Integers]
 
@@ -10,7 +10,7 @@ https://leetcode.com/problems/sum-of-two-integers/[LeetCode - Sum of Two Integer
 
 思考题：思考如何通过位运算来实现加减乘除？
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary%3A-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently[A summary: how to use bit manipulation to solve problems easily and efficiently - LeetCode Discuss]
 
@@ -39,7 +39,7 @@ Calculate the sum of two integers _a_ and _b_, but you are *not allowed* to use 
 
 
 [[src-0371]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0371_SumOfTwoIntegers.java[]
 ----

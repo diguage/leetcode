@@ -1,4 +1,4 @@
-== 1185. Day of the Week
+= 1185. Day of the Week
 
 https://leetcode.com/problems/day-of-the-week/[LeetCode - Day of the Week]
 
@@ -42,7 +42,7 @@ Return the answer as one of the following values `{"Sunday", "Monday", "Tuesday"
 
 
 [[src-1185]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1185_DayOfTheWeek.java[]
 ----

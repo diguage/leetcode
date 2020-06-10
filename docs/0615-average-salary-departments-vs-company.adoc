@@ -1,11 +1,11 @@
-== 615. Average Salary: Departments VS Company
+= 615. Average Salary: Departments VS Company
 
 https://leetcode.com/problems/average-salary-departments-vs-company/[LeetCode - Average Salary: Departments VS Company]
 
 
 
 [[src-0615]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0615_AverageSalaryDepartmentsVSCompany.java[]
 ----

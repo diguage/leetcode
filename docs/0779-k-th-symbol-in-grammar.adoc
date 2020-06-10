@@ -1,4 +1,4 @@
-== 779. K-th Symbol in Grammar
+= 779. K-th Symbol in Grammar
 
 https://leetcode.com/problems/k-th-symbol-in-grammar/[LeetCode - K-th Symbol in Grammar]
 
@@ -38,7 +38,7 @@ row 4: 01101001
 
 
 [[src-0779]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0779_KThSymbolInGrammar.java[]
 ----

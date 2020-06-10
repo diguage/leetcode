@@ -1,4 +1,4 @@
-== 62. Unique Paths
+= 62. Unique Paths
 
 https://leetcode.com/problems/unique-paths/[LeetCode - Unique Paths]
 
@@ -39,7 +39,7 @@ From the top-left corner, there are a total of 3 ways to reach the bottom-right 
 
 
 [[src-0062]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0062_UniquePaths.java[]
 ----

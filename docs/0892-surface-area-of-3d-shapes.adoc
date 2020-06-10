@@ -1,4 +1,4 @@
-== 892. Surface Area of 3D Shapes
+= 892. Surface Area of 3D Shapes
 
 https://leetcode.com/problems/surface-area-of-3d-shapes/[LeetCode - Surface Area of 3D Shapes]
 
@@ -81,7 +81,7 @@ Return the total surface area of the resulting shapes.
 
 
 [[src-0892]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0892_SurfaceAreaOf3DShapes.java[]
 ----

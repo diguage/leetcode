@@ -1,4 +1,4 @@
-== 966. Vowel Spellchecker
+= 966. Vowel Spellchecker
 
 https://leetcode.com/problems/vowel-spellchecker/[LeetCode - Vowel Spellchecker]
 
@@ -60,7 +60,7 @@ Given some `queries`, return a list of words `answer`, where `answer[i]` is the 
 
 
 [[src-0966]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0966_VowelSpellchecker.java[]
 ----

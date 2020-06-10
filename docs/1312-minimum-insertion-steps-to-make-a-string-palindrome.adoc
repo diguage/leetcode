@@ -1,4 +1,4 @@
-== 1312. Minimum Insertion Steps to Make a String Palindrome
+= 1312. Minimum Insertion Steps to Make a String Palindrome
 
 https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/[LeetCode - Minimum Insertion Steps to Make a String Palindrome]
 
@@ -62,7 +62,7 @@ A *Palindrome String* is one that reads the same backward as well as forward.
 
 
 [[src-1312]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1312_MinimumInsertionStepsToMakeAStringPalindrome.java[]
 ----

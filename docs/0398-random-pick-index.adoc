@@ -1,4 +1,4 @@
-== 398. Random Pick Index
+= 398. Random Pick Index
 
 https://leetcode.com/problems/random-pick-index/[LeetCode - Random Pick Index]
 
@@ -26,7 +26,7 @@ solution.pick(1);
 
 
 [[src-0398]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0398_RandomPickIndex.java[]
 ----

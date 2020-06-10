@@ -1,4 +1,4 @@
-== 1039. Minimum Score Triangulation of Polygon
+= 1039. Minimum Score Triangulation of Polygon
 
 https://leetcode.com/problems/minimum-score-triangulation-of-polygon/[LeetCode - Minimum Score Triangulation of Polygon]
 
@@ -59,7 +59,7 @@ image::https://assets.leetcode.com/uploads/2019/05/01/minimum-score-triangulatio
 
 
 [[src-1039]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1039_MinimumScoreTriangulationOfPolygon.java[]
 ----

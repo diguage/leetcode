@@ -1,4 +1,4 @@
-== 551. Student Attendance Record I
+= 551. Student Attendance Record I
 
 https://leetcode.com/problems/student-attendance-record-i/[LeetCode - Student Attendance Record I]
 
@@ -42,7 +42,7 @@ You need to return whether the student could be rewarded according to his attend
 
 
 [[src-0551]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0551_StudentAttendanceRecordI.java[]
 ----

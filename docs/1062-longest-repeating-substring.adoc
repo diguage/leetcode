@@ -1,11 +1,11 @@
-== 1062. Longest Repeating Substring
+= 1062. Longest Repeating Substring
 
 https://leetcode.com/problems/longest-repeating-substring/[LeetCode - Longest Repeating Substring]
 
 
 
 [[src-1062]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1062_LongestRepeatingSubstring.java[]
 ----

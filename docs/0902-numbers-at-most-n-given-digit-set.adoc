@@ -1,4 +1,4 @@
-== 902. Numbers At Most N Given Digit Set
+= 902. Numbers At Most N Given Digit Set
 
 https://leetcode.com/problems/numbers-at-most-n-given-digit-set/[LeetCode - Numbers At Most N Given Digit Set]
 
@@ -49,7 +49,7 @@ In total, this is 29523 integers that can be written using the digits of D.
 
 
 [[src-0902]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0902_NumbersAtMostNGivenDigitSet.java[]
 ----

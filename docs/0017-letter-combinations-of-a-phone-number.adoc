@@ -1,4 +1,4 @@
-== 17. Letter Combinations of a Phone Number
+= 17. Letter Combinations of a Phone Number
 
 https://leetcode.com/problems/letter-combinations-of-a-phone-number/[LeetCode - Letter Combinations of a Phone Number]
 
@@ -20,10 +20,16 @@ image::http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad
 
 Although the above answer is in lexicographical order, your answer could be in any order you want.
 
+== 解题分析
+
+这道题可以使用回溯来解决：每次取出一个数字对应的字母列表，遍历追加到上一次的字母组合中。依次进行，直到数字取完为止。
 
 [[src-0017]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0017_LetterCombinationsOfAPhoneNumber.java[]
 ----
 
+== 参考资料
+
+. https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/solution/dian-hua-hao-ma-de-zi-mu-zu-he-by-leetcode/[电话号码的字母组合 - 电话号码的字母组合 - 力扣（LeetCode）]

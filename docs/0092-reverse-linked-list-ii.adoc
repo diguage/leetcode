@@ -1,4 +1,4 @@
-== 92. Reverse Linked List II
+= 92. Reverse Linked List II
 
 https://leetcode.com/problems/reverse-linked-list-ii/[LeetCode - Reverse Linked List II]
 
@@ -12,7 +12,7 @@ Input: 1->2->3->4->5->NULL, m = 2, n = 4
 Output: 1->4->3->2->5->NULL
 ----
 
-=== 解题分析
+== 解题分析
 
 将链表拆分成三段（注意保存必要的访问节点）：
 
@@ -23,11 +23,11 @@ Output: 1->4->3->2->5->NULL
 最后再将三个拼接在一起。
 
 
-=== 思考题
+== 思考题
 
 尝试递归的解题方式。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/reverse-linked-list-ii/solution/fan-zhuan-lian-biao-ii-by-leetcode/[反转链表 II - 反转链表 II - 力扣（LeetCode）]
 
@@ -46,7 +46,7 @@ Reverse a linked list from position _m_ to _n_. Do it in one-pass.
 
 
 [[src-0092]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0092_ReverseLinkedListII.java[]
 ----

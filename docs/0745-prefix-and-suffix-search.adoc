@@ -1,4 +1,4 @@
-== 745. Prefix and Suffix Search
+= 745. Prefix and Suffix Search
 
 https://leetcode.com/problems/prefix-and-suffix-search/[LeetCode - Prefix and Suffix Search]
 
@@ -33,7 +33,7 @@ WordFilter.f("b", "") // returns -1
 
 
 [[src-0745]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0745_PrefixAndSuffixSearch.java[]
 ----

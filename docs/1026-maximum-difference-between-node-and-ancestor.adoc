@@ -1,4 +1,4 @@
-== 1026. Maximum Difference Between Node and Ancestor
+= 1026. Maximum Difference Between Node and Ancestor
 
 https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/[LeetCode - Maximum Difference Between Node and Ancestor]
 
@@ -37,7 +37,7 @@ Among all possible differences, the maximum value of 7 is obtained by |8 - 1| = 
 
 
 [[src-1026]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1026_MaximumDifferenceBetweenNodeAndAncestor.java[]
 ----

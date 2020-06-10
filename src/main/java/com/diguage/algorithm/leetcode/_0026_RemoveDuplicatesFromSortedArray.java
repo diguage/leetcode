@@ -1,6 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 /**
  * = 26. Remove Duplicates from Sorted Array
@@ -59,35 +60,49 @@ import java.util.Arrays;
  * @since 2018-07-19 18:34
  */
 public class _0026_RemoveDuplicatesFromSortedArray {
-    public static int removeDuplicates(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return 0;
-        }
-        int result = nums.length;
-        if (nums.length == 1) {
-            return result;
-        }
+  public static int removeDuplicates(int[] nums) {
+    if (Objects.isNull(nums) || nums.length == 0) {
+      return 0;
+    }
+    int i = 0;
+    for (int j = 1; j < nums.length; j++) {
+      if (nums[i] != nums[j]) {
+        i++;
+        nums[i] = nums[j];
+      }
+    }
+    return i + 1;
+  }
 
-        int previousNum = nums[0];
-        int minuendIndex = 0;
-        for (int i = 1; i < nums.length; i++) {
-            if (previousNum == nums[i]) {
-                minuendIndex++;
-                result--;
-            } else {
-                previousNum = nums[i];
-            }
-            if (minuendIndex > 0) {
-                nums[i - minuendIndex] = nums[i];
-            }
-        }
-
-        return result;
+  public static int removeDuplicates1(int[] nums) {
+    if (nums == null || nums.length == 0) {
+      return 0;
+    }
+    int result = nums.length;
+    if (nums.length == 1) {
+      return result;
     }
 
-    public static void main(String[] args) {
-        int[] nums = new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
-        System.out.println(removeDuplicates(nums));
-        System.out.println(Arrays.toString(nums));
+    int previousNum = nums[0];
+    int minuendIndex = 0;
+    for (int i = 1; i < nums.length; i++) {
+      if (previousNum == nums[i]) {
+        minuendIndex++;
+        result--;
+      } else {
+        previousNum = nums[i];
+      }
+      if (minuendIndex > 0) {
+        nums[i - minuendIndex] = nums[i];
+      }
     }
+
+    return result;
+  }
+
+  public static void main(String[] args) {
+    int[] nums = {1, 2, 2};
+    System.out.println(removeDuplicates(nums));
+    System.out.println(Arrays.toString(nums));
+  }
 }

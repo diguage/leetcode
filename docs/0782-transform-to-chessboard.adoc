@@ -1,4 +1,4 @@
-== 782. Transform to Chessboard
+= 782. Transform to Chessboard
 
 https://leetcode.com/problems/transform-to-chessboard/[LeetCode - Transform to Chessboard]
 
@@ -48,7 +48,7 @@ No matter what sequence of moves you make, you cannot end with a valid chessboar
 
 
 [[src-0782]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0782_TransformToChessboard.java[]
 ----

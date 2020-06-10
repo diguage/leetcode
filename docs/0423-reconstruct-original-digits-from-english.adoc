@@ -1,4 +1,4 @@
-== 423. Reconstruct Original Digits from English
+= 423. Reconstruct Original Digits from English
 
 https://leetcode.com/problems/reconstruct-original-digits-from-english/[LeetCode - Reconstruct Original Digits from English]
 
@@ -38,7 +38,7 @@ Output: "45"
 
 
 [[src-0423]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0423_ReconstructOriginalDigitsFromEnglish.java[]
 ----

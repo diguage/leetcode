@@ -1,4 +1,4 @@
-== 217. Contains Duplicate
+= 217. Contains Duplicate
 
 https://leetcode.com/problems/contains-duplicate/[LeetCode - Contains Duplicate]
 
@@ -33,7 +33,7 @@ Your function should return true if any value appears at least twice in the arra
 
 
 [[src-0217]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0217_ContainsDuplicate.java[]
 ----

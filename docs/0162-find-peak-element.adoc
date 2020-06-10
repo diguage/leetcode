@@ -1,4 +1,4 @@
-== 162. Find Peak Element
+= 162. Find Peak Element
 
 https://leetcode.com/problems/find-peak-element/[LeetCode - Find Peak Element]
 
@@ -37,7 +37,7 @@ Your solution should be in logarithmic complexity.
 
 
 [[src-0162]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0162_FindPeakElement.java[]
 ----

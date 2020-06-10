@@ -1,11 +1,11 @@
-== 1076. Project Employees II
+= 1076. Project Employees II
 
 https://leetcode.com/problems/project-employees-ii/[LeetCode - Project Employees II]
 
 
 
 [[src-1076]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1076_ProjectEmployeesII.java[]
 ----

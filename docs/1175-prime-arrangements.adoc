@@ -1,4 +1,4 @@
-== 1175. Prime Arrangements
+= 1175. Prime Arrangements
 
 https://leetcode.com/problems/prime-arrangements/[LeetCode - Prime Arrangements]
 
@@ -36,7 +36,7 @@ Since the answer may be large, return the answer *modulo `10^9 + 7`*.
 
 
 [[src-1175]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1175_PrimeArrangements.java[]
 ----

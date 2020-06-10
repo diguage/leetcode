@@ -1,4 +1,4 @@
-== 1319. Number of Operations to Make Network Connected
+= 1319. Number of Operations to Make Network Connected
 
 https://leetcode.com/problems/number-of-operations-to-make-network-connected/[LeetCode - Number of Operations to Make Network Connected]
 
@@ -60,7 +60,7 @@ image::https://assets.leetcode.com/uploads/2020/01/02/sample_2_1677.png[]
 
 
 [[src-1319]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1319_NumberOfOperationsToMakeNetworkConnected.java[]
 ----

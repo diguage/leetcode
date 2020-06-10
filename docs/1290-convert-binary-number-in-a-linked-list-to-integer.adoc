@@ -1,4 +1,4 @@
-== 1290. Convert Binary Number in a Linked List to Integer
+= 1290. Convert Binary Number in a Linked List to Integer
 
 https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/[LeetCode - Convert Binary Number in a Linked List to Integer]
 
@@ -61,7 +61,7 @@ image::https://assets.leetcode.com/uploads/2019/12/05/graph-1.png[]
 
 
 [[src-1290]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1290_ConvertBinaryNumberInALinkedListToInteger.java[]
 ----

@@ -1,4 +1,4 @@
-== 778. Swim in Rising Water
+= 778. Swim in Rising Water
 
 https://leetcode.com/problems/swim-in-rising-water/[LeetCode - Swim in Rising Water]
 
@@ -49,7 +49,7 @@ We need to wait until time 16 so that (0, 0) and (4, 4) are connected.
 
 
 [[src-0778]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0778_SwimInRisingWater.java[]
 ----

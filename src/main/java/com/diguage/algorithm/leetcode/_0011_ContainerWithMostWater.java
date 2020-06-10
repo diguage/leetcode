@@ -16,30 +16,23 @@ package com.diguage.algorithm.leetcode;
  * @since 2018-07-13
  */
 public class _0011_ContainerWithMostWater {
-    public static int maxArea(int[] height) {
-        int left = 0;
-        int right = height.length - 1;
-        int result = 0;
-        while (left < right) {
-            int length = right - left;
-            boolean greater = height[left] < height[right];
-            int high = greater ? height[left] : height[right];
-            int area = length * high;
-            if (area > result) {
-                result = area;
-            }
-            if (greater) {
-                left++;
-            } else {
-                right--;
-            }
-        }
-
-        return result;
+  public static int maxArea(int[] height) {
+    int result = 0;
+    int left = 0, right = height.length - 1;
+    while (left < right) {
+      int area = Math.min(height[left], height[right]) * (right - left);
+      result = Math.max(result, area);
+      if (height[left] < height[right]) {
+        left++;
+      } else {
+        right--;
+      }
     }
+    return result;
+  }
 
-    public static void main(String[] args) {
-        int[] height = new int[]{3, 8, 4, 7, 5, 9, 1, 2, 6};
-        System.out.println(maxArea(height));
-    }
+  public static void main(String[] args) {
+    int[] height = new int[]{3, 8, 4, 7, 5, 9, 1, 2, 6};
+    System.out.println(maxArea(height));
+  }
 }

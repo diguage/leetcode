@@ -1,4 +1,4 @@
-== 237. Delete Node in a Linked List
+= 237. Delete Node in a Linked List
 
 https://leetcode.com/problems/delete-node-in-a-linked-list/[LeetCode - Delete Node in a Linked List]
 
@@ -52,7 +52,7 @@ image::https://assets.leetcode.com/uploads/2018/12/28/237_example.png[]
 
 
 [[src-0237]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0237_DeleteNodeInALinkedList.java[]
 ----

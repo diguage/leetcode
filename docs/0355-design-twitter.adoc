@@ -1,4 +1,4 @@
-== 355. Design Twitter
+= 355. Design Twitter
 
 https://leetcode.com/problems/design-twitter/[LeetCode - Design Twitter]
 
@@ -45,7 +45,7 @@ twitter.getNewsFeed(1);
 
 
 [[src-0355]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0355_DesignTwitter.java[]
 ----

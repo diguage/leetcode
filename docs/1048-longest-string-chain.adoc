@@ -1,4 +1,4 @@
-== 1048. Longest String Chain
+= 1048. Longest String Chain
 
 https://leetcode.com/problems/longest-string-chain/[LeetCode - Longest String Chain]
 
@@ -37,7 +37,7 @@ Return the longest possible length of a word chain with words chosen from the gi
 
 
 [[src-1048]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1048_LongestStringChain.java[]
 ----

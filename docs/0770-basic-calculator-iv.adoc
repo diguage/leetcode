@@ -1,4 +1,4 @@
-== 770. Basic Calculator IV
+= 770. Basic Calculator IV
 
 https://leetcode.com/problems/basic-calculator-iv/[LeetCode - Basic Calculator IV]
 
@@ -57,7 +57,7 @@ evalvars = [], evalints = []
 
 
 [[src-0770]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0770_BasicCalculatorIV.java[]
 ----

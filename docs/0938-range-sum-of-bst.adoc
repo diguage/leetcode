@@ -1,4 +1,4 @@
-== 938. Range Sum of BST
+= 938. Range Sum of BST
 
 https://leetcode.com/problems/range-sum-of-bst/[LeetCode - Range Sum of BST]
 
@@ -39,7 +39,7 @@ The binary search tree is guaranteed to have unique values.
 
 
 [[src-0938]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0938_RangeSumOfBST.java[]
 ----

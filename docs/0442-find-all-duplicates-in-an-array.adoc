@@ -1,4 +1,4 @@
-== 442. Find All Duplicates in an Array
+= 442. Find All Duplicates in an Array
 
 https://leetcode.com/problems/find-all-duplicates-in-an-array/[LeetCode - Find All Duplicates in an Array]
 
@@ -20,7 +20,7 @@ Could you do it without extra space and in O(_n_) runtime?
 
 
 [[src-0442]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0442_FindAllDuplicatesInAnArray.java[]
 ----

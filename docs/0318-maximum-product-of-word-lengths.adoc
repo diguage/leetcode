@@ -1,4 +1,4 @@
-== 318. Maximum Product of Word Lengths
+= 318. Maximum Product of Word Lengths
 
 https://leetcode.com/problems/maximum-product-of-word-lengths/[LeetCode - Maximum Product of Word Lengths]
 
@@ -34,7 +34,7 @@ Given a string array `words`, find the maximum value of `length(word[i]) * lengt
 
 
 [[src-0318]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0318_MaximumProductOfWordLengths.java[]
 ----

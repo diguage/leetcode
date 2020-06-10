@@ -1,4 +1,4 @@
-== 44. Wildcard Matching
+= 44. Wildcard Matching
 
 https://leetcode.com/problems/wildcard-matching/[LeetCode - Wildcard Matching]
 
@@ -75,7 +75,7 @@ p = "a*c?b"
 
 
 [[src-0044]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0044_WildcardMatching.java[]
 ----

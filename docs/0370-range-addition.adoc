@@ -1,11 +1,11 @@
-== 370. Range Addition
+= 370. Range Addition
 
 https://leetcode.com/problems/range-addition/[LeetCode - Range Addition]
 
 
 
 [[src-0370]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0370_RangeAddition.java[]
 ----

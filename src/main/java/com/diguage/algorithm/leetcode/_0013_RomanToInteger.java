@@ -80,56 +80,102 @@ import java.util.Objects;
  */
 public class _0013_RomanToInteger {
 
-    public int romanToInt(String s) {
-        int result = 0;
-        if (Objects.isNull(s) || s.length() == 0) {
-            return result;
-        }
+  // 从右向左，从小到大，更容易理解
+  public int romanToInt(String s) {
+    int result = 0;
+    int pre = 0;
+    for (int i = s.length() - 1; i >= 0; i--) {
+      int curr = charToNum(s.charAt(i));
+      if (curr >= pre) {
+        result += curr;
+      } else {
+        result -= curr;
+      }
+      pre = curr;
+    }
+    return result;
+  }
 
-        HashMap<String, Integer> r2i = new HashMap<>();
-        r2i.put("I", 1);
-        r2i.put("V", 5);
-        r2i.put("X", 10);
-        r2i.put("L", 50);
-        r2i.put("C", 100);
-        r2i.put("D", 500);
-        r2i.put("M", 1000);
-        r2i.put("IV", 4);
-        r2i.put("IX", 9);
-        r2i.put("XL", 40);
-        r2i.put("XC", 90);
-        r2i.put("CD", 400);
-        r2i.put("CM", 900);
+  private int charToNum(char c) {
+    switch (c) {
+      case 'I': return 1;
+      case 'V': return 5;
+      case 'X': return 10;
+      case 'L': return 50;
+      case 'C': return 100;
+      case 'D': return 500;
+      case 'M': return 1000;
+      default: return 0;
+    }
+  }
 
-        for (int i = s.length(); i > 0; ) {
-            int step = 2;
-            int beginIndex = i - step;
-            if (beginIndex < 0) {
-                beginIndex = 0;
-            }
-            String symbol = s.substring(beginIndex, i);
-            Integer value = r2i.get(symbol);
-            if (Objects.isNull(value)) {
-                step = 1;
-                beginIndex = i - step;
-                if (beginIndex < 0) {
-                    beginIndex = 0;
-                }
-                symbol = s.substring(beginIndex, i);
-                value = r2i.get(symbol);
-            }
-            result += value;
-            i -= step;
-        }
-        return result;
+  // 从左向右处理
+  public int romanToIntLeftToRight(String s) {
+    int result = 0;
+    int prenum = charToNum(s.charAt(0));
+    for (int i = 1; i < s.length(); i++) {
+      int num = charToNum(s.charAt(i));
+      if (prenum < num) {
+        result -= prenum;
+      } else {
+        result += prenum;
+      }
+      prenum = num;
+    }
+    result += prenum;
+    return result;
+  }
+
+  public int romanToInt2(String s) {
+    int result = 0;
+    if (Objects.isNull(s) || s.length() == 0) {
+      return result;
     }
 
-    public static void main(String[] args) {
-        _0013_RomanToInteger roman = new _0013_RomanToInteger();
-        System.out.println(roman.romanToInt("III") == 3);
-        System.out.println(roman.romanToInt("IV") == 4);
-        System.out.println(roman.romanToInt("IX") == 9);
-        System.out.println(roman.romanToInt("LVIII") == 58);
-        System.out.println(roman.romanToInt("MCMXCIV") == 1994);
+    HashMap<String, Integer> r2i = new HashMap<>();
+    r2i.put("I", 1);
+    r2i.put("V", 5);
+    r2i.put("X", 10);
+    r2i.put("L", 50);
+    r2i.put("C", 100);
+    r2i.put("D", 500);
+    r2i.put("M", 1000);
+    r2i.put("IV", 4);
+    r2i.put("IX", 9);
+    r2i.put("XL", 40);
+    r2i.put("XC", 90);
+    r2i.put("CD", 400);
+    r2i.put("CM", 900);
+
+    for (int i = s.length(); i > 0; ) {
+      int step = 2;
+      int beginIndex = i - step;
+      if (beginIndex < 0) {
+        beginIndex = 0;
+      }
+      String symbol = s.substring(beginIndex, i);
+      Integer value = r2i.get(symbol);
+      if (Objects.isNull(value)) {
+        step = 1;
+        beginIndex = i - step;
+        if (beginIndex < 0) {
+          beginIndex = 0;
+        }
+        symbol = s.substring(beginIndex, i);
+        value = r2i.get(symbol);
+      }
+      result += value;
+      i -= step;
     }
+    return result;
+  }
+
+  public static void main(String[] args) {
+    _0013_RomanToInteger roman = new _0013_RomanToInteger();
+    System.out.println(roman.romanToInt("III") == 3);
+    System.out.println(roman.romanToInt("IV") == 4);
+    System.out.println(roman.romanToInt("IX") == 9);
+    System.out.println(roman.romanToInt("LVIII") == 58);
+    System.out.println(roman.romanToInt("MCMXCIV") == 1994);
+  }
 }

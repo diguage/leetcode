@@ -1,4 +1,4 @@
-== 218. The Skyline Problem
+= 218. The Skyline Problem
 
 https://leetcode.com/problems/the-skyline-problem/[LeetCode - The Skyline Problem]
 
@@ -26,7 +26,7 @@ For instance, the skyline in Figure B should be represented as:`[ [2 10], [3 15]
 
 
 [[src-0218]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0218_TheSkylineProblem.java[]
 ----

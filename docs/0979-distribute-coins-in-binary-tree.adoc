@@ -1,4 +1,4 @@
-== 979. Distribute Coins in Binary Tree
+= 979. Distribute Coins in Binary Tree
 
 https://leetcode.com/problems/distribute-coins-in-binary-tree/[LeetCode - Distribute Coins in Binary Tree]
 
@@ -71,7 +71,7 @@ image::https://assets.leetcode.com/uploads/2019/01/18/tree4.png[]
 
 
 [[src-0979]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0979_DistributeCoinsInBinaryTree.java[]
 ----

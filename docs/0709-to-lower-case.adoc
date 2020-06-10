@@ -1,4 +1,4 @@
-== 709. To Lower Case
+= 709. To Lower Case
 
 https://leetcode.com/problems/to-lower-case/[LeetCode - To Lower Case]
 
@@ -38,7 +38,7 @@ Implement function ToLowerCase() that has a string parameter str, and returns th
 
 
 [[src-0709]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0709_ToLowerCase.java[]
 ----

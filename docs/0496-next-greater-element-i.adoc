@@ -1,4 +1,4 @@
-== 496. Next Greater Element I
+= 496. Next Greater Element I
 
 https://leetcode.com/problems/next-greater-element-i/[LeetCode - Next Greater Element I]
 
@@ -47,7 +47,7 @@ The Next Greater Number of a number *x* in `nums1` is the first greater number t
 
 
 [[src-0496]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0496_NextGreaterElementI.java[]
 ----

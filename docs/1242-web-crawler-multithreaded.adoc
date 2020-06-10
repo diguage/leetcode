@@ -1,11 +1,11 @@
-== 1242. Web Crawler Multithreaded
+= 1242. Web Crawler Multithreaded
 
 https://leetcode.com/problems/web-crawler-multithreaded/[LeetCode - Web Crawler Multithreaded]
 
 
 
 [[src-1242]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1242_WebCrawlerMultithreaded.java[]
 ----

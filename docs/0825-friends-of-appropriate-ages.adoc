@@ -1,4 +1,4 @@
-== 825. Friends Of Appropriate Ages
+= 825. Friends Of Appropriate Ages
 
 https://leetcode.com/problems/friends-of-appropriate-ages/[LeetCode - Friends Of Appropriate Ages]
 
@@ -59,7 +59,7 @@ Notes:
 
 
 [[src-0825]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0825_FriendsOfAppropriateAges.java[]
 ----

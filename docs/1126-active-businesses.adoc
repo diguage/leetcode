@@ -1,11 +1,11 @@
-== 1126. Active Businesses
+= 1126. Active Businesses
 
 https://leetcode.com/problems/active-businesses/[LeetCode - Active Businesses]
 
 
 
 [[src-1126]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1126_ActiveBusinesses.java[]
 ----

@@ -1,4 +1,4 @@
-== 94. Binary Tree Inorder Traversal
+= 94. Binary Tree Inorder Traversal
 
 https://leetcode.com/problems/binary-tree-inorder-traversal/[LeetCode - Binary Tree Inorder Traversal]
 
@@ -24,7 +24,7 @@ Given a binary tree, return the _inorder_ traversal of its nodes' values.
 
 
 [[src-0094]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0094_BinaryTreeInorderTraversal.java[]
 ----

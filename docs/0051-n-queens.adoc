@@ -1,4 +1,4 @@
-== 51. N-Queens
+= 51. N-Queens
 
 https://leetcode.com/problems/n-queens/[LeetCode - N-Queens]
 
@@ -28,7 +28,7 @@ Output: [
 Explanation: There exist two distinct solutions to the 4-queens puzzle as shown above.
 ----
 
-=== 解题分析
+== 解题分析
 
 八皇后问题是回溯思想的经典题目。
 
@@ -46,7 +46,7 @@ image::images/0051-2.png[]
 
 利用回溯解题时，只回溯一半，然后将每个解反转即可求得另外一般解。这里有个细节需要注意：**如果长度是奇数，而且第一行中间是合法位置，则在回溯过程中已经产生了对称解法。就不需要再反转了。**。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/n-queens/solution/nhuang-hou-by-leetcode/[51. N皇后 题解 - 力扣（LeetCode）]
 
@@ -79,7 +79,7 @@ Each solution contains a distinct board configuration of the _n_-queens' placeme
 
 
 [[src-0051]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0051_NQueens.java[]
 ----

@@ -1,11 +1,11 @@
-== 618. Students Report By Geography
+= 618. Students Report By Geography
 
 https://leetcode.com/problems/students-report-by-geography/[LeetCode - Students Report By Geography]
 
 
 
 [[src-0618]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0618_StudentsReportByGeography.java[]
 ----

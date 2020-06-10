@@ -1,4 +1,4 @@
-== 257. Binary Tree Paths
+= 257. Binary Tree Paths
 
 https://leetcode.com/problems/binary-tree-paths/[LeetCode - Binary Tree Paths]
 
@@ -25,7 +25,7 @@ Given a binary tree, return all root-to-leaf paths.
 
 
 [[src-0257]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0257_BinaryTreePaths.java[]
 ----

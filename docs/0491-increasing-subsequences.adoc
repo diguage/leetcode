@@ -1,4 +1,4 @@
-== 491. Increasing Subsequences
+= 491. Increasing Subsequences
 
 https://leetcode.com/problems/increasing-subsequences/[LeetCode - Increasing Subsequences]
 
@@ -27,7 +27,7 @@ Given an integer array, your task is to find all the different possible increasi
 
 
 [[src-0491]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0491_IncreasingSubsequences.java[]
 ----

@@ -1,4 +1,4 @@
-== 181. Employees Earning More Than Their Managers
+= 181. Employees Earning More Than Their Managers
 
 https://leetcode.com/problems/employees-earning-more-than-their-managers/[LeetCode - Employees Earning More Than Their Managers]
 
@@ -30,7 +30,7 @@ Given the `Employee` table, write a SQL query that finds out employees who earn 
 
 
 [[src-0181]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0181_EmployeesEarningMoreThanTheirManagers.java[]
 ----

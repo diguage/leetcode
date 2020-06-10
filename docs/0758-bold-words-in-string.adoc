@@ -1,11 +1,11 @@
-== 758. Bold Words in String
+= 758. Bold Words in String
 
 https://leetcode.com/problems/bold-words-in-string/[LeetCode - Bold Words in String]
 
 
 
 [[src-0758]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0758_BoldWordsInString.java[]
 ----

@@ -1,4 +1,4 @@
-== 942. DI String Match
+= 942. DI String Match
 
 https://leetcode.com/problems/di-string-match/[LeetCode - DI String Match]
 
@@ -52,7 +52,7 @@ Return *any* permutation `A` of `[0, 1, ..., N]` such that for all `i = 0, ..., 
 
 
 [[src-0942]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0942_DIStringMatch.java[]
 ----

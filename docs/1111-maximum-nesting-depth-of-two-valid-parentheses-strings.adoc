@@ -1,4 +1,4 @@
-== 1111. Maximum Nesting Depth of Two Valid Parentheses Strings
+= 1111. Maximum Nesting Depth of Two Valid Parentheses Strings
 
 https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/[LeetCode - Maximum Nesting Depth of Two Valid Parentheses Strings]
 
@@ -55,7 +55,7 @@ Return an `answer` array (of length `seq.length`) that encodes such a choice of 
 
 
 [[src-1111]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1111_MaximumNestingDepthOfTwoValidParenthesesStrings.java[]
 ----

@@ -1,4 +1,4 @@
-== 224. Basic Calculator
+= 224. Basic Calculator
 
 https://leetcode.com/problems/basic-calculator/[LeetCode - Basic Calculator]
 
@@ -39,7 +39,7 @@ The expression string may contain open `(` and closing parentheses `)`, the plus
 
 
 [[src-0224]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0224_BasicCalculator.java[]
 ----

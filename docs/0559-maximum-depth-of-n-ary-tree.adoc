@@ -1,4 +1,4 @@
-== 559. Maximum Depth of N-ary Tree
+= 559. Maximum Depth of N-ary Tree
 
 https://leetcode.com/problems/maximum-depth-of-n-ary-tree/[LeetCode - Maximum Depth of N-ary Tree]
 
@@ -40,7 +40,7 @@ image::https://assets.leetcode.com/uploads/2019/11/08/sample_4_964.png[]
 
 
 [[src-0559]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0559_MaximumDepthOfNAryTree.java[]
 ----

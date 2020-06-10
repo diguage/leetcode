@@ -1,11 +1,11 @@
-== 505. The Maze II
+= 505. The Maze II
 
 https://leetcode.com/problems/the-maze-ii/[LeetCode - The Maze II]
 
 
 
 [[src-0505]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0505_TheMazeII.java[]
 ----

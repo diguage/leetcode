@@ -1,4 +1,4 @@
-== 116. Populating Next Right Pointers in Each Node
+= 116. Populating Next Right Pointers in Each Node
 
 https://leetcode.com/problems/populating-next-right-pointers-in-each-node/[LeetCode - Populating Next Right Pointers in Each Node]
 
@@ -42,7 +42,7 @@ image::images/0116-0.png[]
 * The number of nodes in the given tree is less than `4096`.
 * `-1000 <= node.val <= 1000`
 
-=== 解题分析
+== 解题分析
 
 这道题和 xref:0117-populating-next-right-pointers-in-each-node-ii.adoc[117. Populating Next Right Pointers in Each Node II] 算是姊妹题。
 
@@ -54,13 +54,13 @@ image::images/0116-2.jpg[]
 
 因为是完全二叉树。所以，如果左下节点为空则到达最后一层；向右节点为空，则到达行尾需要换行。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--27/[详细通俗的思路分析，多解法 - 填充每个节点的下一个右侧节点指针 - 力扣（LeetCode）]
 
 
 [[src-0116]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0116_PopulatingNextRightPointersInEachNode.java[]
 ----

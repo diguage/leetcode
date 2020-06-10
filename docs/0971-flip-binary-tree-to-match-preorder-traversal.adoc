@@ -1,4 +1,4 @@
-== 971. Flip Binary Tree To Match Preorder Traversal
+= 971. Flip Binary Tree To Match Preorder Traversal
 
 https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/[LeetCode - Flip Binary Tree To Match Preorder Traversal]
 
@@ -65,7 +65,7 @@ image::https://assets.leetcode.com/uploads/2019/01/02/1219-02.png[]
 
 
 [[src-0971]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0971_FlipBinaryTreeToMatchPreorderTraversal.java[]
 ----

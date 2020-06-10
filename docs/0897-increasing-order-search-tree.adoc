@@ -1,4 +1,4 @@
-== 897. Increasing Order Search Tree
+= 897. Increasing Order Search Tree
 
 https://leetcode.com/problems/increasing-order-search-tree/[LeetCode - Increasing Order Search Tree]
 
@@ -48,7 +48,7 @@ Given a binary search tree, rearrange the tree in *in-order* so that the leftmos
 
 
 [[src-0897]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0897_IncreasingOrderSearchTree.java[]
 ----

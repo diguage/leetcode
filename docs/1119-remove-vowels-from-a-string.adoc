@@ -1,11 +1,11 @@
-== 1119. Remove Vowels from a String
+= 1119. Remove Vowels from a String
 
 https://leetcode.com/problems/remove-vowels-from-a-string/[LeetCode - Remove Vowels from a String]
 
 
 
 [[src-1119]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1119_RemoveVowelsFromAString.java[]
 ----

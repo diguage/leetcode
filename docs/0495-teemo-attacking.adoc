@@ -1,4 +1,4 @@
-== 495. Teemo Attacking
+= 495. Teemo Attacking
 
 https://leetcode.com/problems/teemo-attacking/[LeetCode - Teemo Attacking]
 
@@ -47,7 +47,7 @@ So you finally need to output 3.
 
 
 [[src-0495]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0495_TeemoAttacking.java[]
 ----

@@ -1,4 +1,4 @@
-== 235. Lowest Common Ancestor of a Binary Search Tree
+= 235. Lowest Common Ancestor of a Binary Search Tree
 
 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/[LeetCode - Lowest Common Ancestor of a Binary Search Tree]
 
@@ -41,7 +41,7 @@ image::https://assets.leetcode.com/uploads/2018/12/14/binarysearchtree_improved.
 
 
 [[src-0235]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0235_LowestCommonAncestorOfABinarySearchTree.java[]
 ----

@@ -1,4 +1,4 @@
-== 820. Short Encoding of Words
+= 820. Short Encoding of Words
 
 https://leetcode.com/problems/short-encoding-of-words/[LeetCode - Short Encoding of Words]
 
@@ -32,7 +32,7 @@ What is the length of the shortest reference string S possible that encodes the 
 
 
 [[src-0820]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0820_ShortEncodingOfWords.java[]
 ----

@@ -1,4 +1,4 @@
-== 1263. Minimum Moves to Move a Box to Their Target Location
+= 1263. Minimum Moves to Move a Box to Their Target Location
 
 https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location/[LeetCode - Minimum Moves to Move a Box to Their Target Location]
 
@@ -91,7 +91,7 @@ image::https://assets.leetcode.com/uploads/2019/11/06/sample_1_1620.png[]
 
 
 [[src-1263]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1263_MinimumMovesToMoveABoxToTheirTargetLocation.java[]
 ----

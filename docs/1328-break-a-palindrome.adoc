@@ -1,4 +1,4 @@
-== 1328. Break a Palindrome
+= 1328. Break a Palindrome
 
 https://leetcode.com/problems/break-a-palindrome/[LeetCode - Break a Palindrome]
 
@@ -33,7 +33,7 @@ After doing so, return the final string.  If there is no way to do so, return th
 
 
 [[src-1328]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1328_BreakAPalindrome.java[]
 ----

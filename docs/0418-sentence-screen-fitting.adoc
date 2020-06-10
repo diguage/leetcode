@@ -1,11 +1,11 @@
-== 418. Sentence Screen Fitting
+= 418. Sentence Screen Fitting
 
 https://leetcode.com/problems/sentence-screen-fitting/[LeetCode - Sentence Screen Fitting]
 
 
 
 [[src-0418]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0418_SentenceScreenFitting.java[]
 ----

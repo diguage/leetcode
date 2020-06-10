@@ -1,4 +1,4 @@
-== 513. Find Bottom Left Tree Value
+= 513. Find Bottom Left Tree Value
 
 https://leetcode.com/problems/find-bottom-left-tree-value/[LeetCode - Find Bottom Left Tree Value]
 
@@ -47,7 +47,7 @@ You may assume the tree (i.e., the given root node) is not *NULL*.
 
 
 [[src-0513]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0513_FindBottomLeftTreeValue.java[]
 ----

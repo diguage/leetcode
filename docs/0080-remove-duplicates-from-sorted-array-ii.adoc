@@ -1,4 +1,4 @@
-== 80. Remove Duplicates from Sorted Array II
+= 80. Remove Duplicates from Sorted Array II
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/[LeetCode - Remove Duplicates from Sorted Array II]
 
@@ -43,11 +43,11 @@ for (int i = 0; i < len; i++) {
 }
 ----
 
-=== 解题分析
+== 解题分析
 
 解题思路很简单：把后面的值覆盖前面多余的值。关键是如何用简单的代码来实现这个思路。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/solution/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang-i-7/[删除排序数组中的重复项 II - 删除排序数组中的重复项 II - 力扣（LeetCode）]
 
@@ -101,7 +101,7 @@ for (int i = 0; i < len; i++) {
 
 
 [[src-0080]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0080_RemoveDuplicatesFromSortedArrayII.java[]
 ----

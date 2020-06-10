@@ -1,11 +1,11 @@
-== 1133. Largest Unique Number
+= 1133. Largest Unique Number
 
 https://leetcode.com/problems/largest-unique-number/[LeetCode - Largest Unique Number]
 
 
 
 [[src-1133]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1133_LargestUniqueNumber.java[]
 ----

@@ -1,11 +1,11 @@
-== 1199. Minimum Time to Build Blocks
+= 1199. Minimum Time to Build Blocks
 
 https://leetcode.com/problems/minimum-time-to-build-blocks/[LeetCode - Minimum Time to Build Blocks]
 
 
 
 [[src-1199]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1199_MinimumTimeToBuildBlocks.java[]
 ----

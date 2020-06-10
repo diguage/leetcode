@@ -1,4 +1,4 @@
-== 15. 3Sum
+= 15. 3Sum
 
 https://leetcode.com/problems/3sum/[LeetCode - 3Sum]
 
@@ -21,10 +21,17 @@ A solution set is:
 ]
 ----
 
+== 解题分析
+
+为什么参考资料中，JS 的代码可以通过，但是转成 Java 之后就不能通过呢？
 
 [[src-0015]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0015_3Sum.java[]
 ----
+
+== 参考资料
+
+. https://leetcode-cn.com/problems/3sum/solution/three-sum-ti-jie-by-wonderful611/[三数之和题解 - 三数之和 - 力扣（LeetCode）]
 

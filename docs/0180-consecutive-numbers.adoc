@@ -1,4 +1,4 @@
-== 180. Consecutive Numbers
+= 180. Consecutive Numbers
 
 https://leetcode.com/problems/consecutive-numbers/[LeetCode - Consecutive Numbers]
 
@@ -33,7 +33,7 @@ For example, given the above `Logs` table, `1` is the only number that appears c
 
 
 [[src-0180]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0180_ConsecutiveNumbers.java[]
 ----

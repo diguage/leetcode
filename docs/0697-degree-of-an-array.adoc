@@ -1,4 +1,4 @@
-== 697. Degree of an Array
+= 697. Degree of an Array
 
 https://leetcode.com/problems/degree-of-an-array/[LeetCode - Degree of an Array]
 
@@ -38,7 +38,7 @@ The shortest length is 2. So return 2.
 
 
 [[src-0697]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0697_DegreeOfAnArray.java[]
 ----

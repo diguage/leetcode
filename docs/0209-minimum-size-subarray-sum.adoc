@@ -1,4 +1,4 @@
-== 209. Minimum Size Subarray Sum
+= 209. Minimum Size Subarray Sum
 
 https://leetcode.com/problems/minimum-size-subarray-sum/[LeetCode - Minimum Size Subarray Sum]
 
@@ -20,7 +20,7 @@ Given an array of *n* positive integers and a positive integer *s*, find the min
 
 
 [[src-0209]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0209_MinimumSizeSubarraySum.java[]
 ----

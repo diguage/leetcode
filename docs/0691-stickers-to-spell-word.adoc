@@ -1,4 +1,4 @@
-== 691. Stickers to Spell Word
+= 691. Stickers to Spell Word
 
 https://leetcode.com/problems/stickers-to-spell-word/[LeetCode - Stickers to Spell Word]
 
@@ -56,7 +56,7 @@ We can't form the target "basicbasic" from cutting letters from the given sticke
 
 
 [[src-0691]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0691_StickersToSpellWord.java[]
 ----

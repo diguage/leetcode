@@ -1,4 +1,4 @@
-== 982. Triples with Bitwise AND Equal To Zero
+= 982. Triples with Bitwise AND Equal To Zero
 
 https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/[LeetCode - Triples with Bitwise AND Equal To Zero]
 
@@ -46,7 +46,7 @@ Given an array of integers `A`, find the number of triples of indices (i, j, k) 
 
 
 [[src-0982]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0982_TriplesWithBitwiseANDEqualToZero.java[]
 ----

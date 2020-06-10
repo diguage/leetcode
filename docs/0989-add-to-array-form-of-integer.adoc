@@ -1,4 +1,4 @@
-== 989. Add to Array-Form of Integer
+= 989. Add to Array-Form of Integer
 
 https://leetcode.com/problems/add-to-array-form-of-integer/[LeetCode - Add to Array-Form of Integer]
 
@@ -68,7 +68,7 @@ Given the array-form `A` of a non-negative integer `X`, return the array-form of
 
 
 [[src-0989]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0989_AddToArrayFormOfInteger.java[]
 ----

@@ -1,4 +1,4 @@
-== 446. Arithmetic Slices II - Subsequence
+= 446. Arithmetic Slices II - Subsequence
 
 https://leetcode.com/problems/arithmetic-slices-ii-subsequence/[LeetCode - Arithmetic Slices II - Subsequence]
 
@@ -53,7 +53,7 @@ All arithmetic subsequence slices are:
 
 
 [[src-0446]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0446_ArithmeticSlicesIISubsequence.java[]
 ----

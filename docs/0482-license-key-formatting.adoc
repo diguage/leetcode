@@ -1,4 +1,4 @@
-== 482. License Key Formatting
+= 482. License Key Formatting
 
 https://leetcode.com/problems/license-key-formatting/[LeetCode - License Key Formatting]
 
@@ -46,7 +46,7 @@ Note that the two extra dashes are not needed and can be removed.
 
 
 [[src-0482]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0482_LicenseKeyFormatting.java[]
 ----

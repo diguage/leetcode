@@ -1,4 +1,4 @@
-== 641. Design Circular Deque
+= 641. Design Circular Deque
 
 https://leetcode.com/problems/design-circular-deque/[LeetCode - Design Circular Deque]
 
@@ -49,7 +49,7 @@ circularDeque.getFront();			// return 4
 
 
 [[src-0641]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0641_DesignCircularDeque.java[]
 ----

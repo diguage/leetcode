@@ -1,4 +1,4 @@
-== 221. Maximal Square
+= 221. Maximal Square
 
 https://leetcode.com/problems/maximal-square/[LeetCode - Maximal Square]
 
@@ -24,7 +24,7 @@ image::images/0221-1.png[]
 
 image::images/0221-2.png[]
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode.com/problems/maximal-square/solution/[Maximal Square solution - LeetCode]
 
@@ -46,7 +46,7 @@ Given a 2D binary matrix filled with 0's and 1's, find the largest square contai
 
 
 [[src-0221]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0221_MaximalSquare.java[]
 ----

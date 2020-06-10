@@ -1,11 +1,11 @@
-== 1102. Path With Maximum Minimum Value
+= 1102. Path With Maximum Minimum Value
 
 https://leetcode.com/problems/path-with-maximum-minimum-value/[LeetCode - Path With Maximum Minimum Value]
 
 
 
 [[src-1102]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1102_PathWithMaximumMinimumValue.java[]
 ----

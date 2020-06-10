@@ -1,4 +1,4 @@
-== 216. Combination Sum III
+= 216. Combination Sum III
 
 https://leetcode.com/problems/combination-sum-iii/[LeetCode - Combination Sum III]
 
@@ -31,7 +31,7 @@ Find all possible combinations of _*k*_ numbers that add up to a number _*n*_, g
 
 
 [[src-0216]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0216_CombinationSumIII.java[]
 ----

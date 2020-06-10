@@ -1,4 +1,4 @@
-== 501. Find Mode in Binary Search Tree
+= 501. Find Mode in Binary Search Tree
 
 https://leetcode.com/problems/find-mode-in-binary-search-tree/[LeetCode - Find Mode in Binary Search Tree]
 
@@ -39,7 +39,7 @@ return `[2]`.
 
 
 [[src-0501]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0501_FindModeInBinarySearchTree.java[]
 ----

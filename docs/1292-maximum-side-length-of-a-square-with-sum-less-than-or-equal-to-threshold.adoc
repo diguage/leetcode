@@ -1,4 +1,4 @@
-== 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
+= 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
 
 https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/[LeetCode - Maximum Side Length of a Square with Sum Less than or Equal to Threshold]
 
@@ -54,7 +54,7 @@ image::https://assets.leetcode.com/uploads/2019/12/05/e1.png[]
 
 
 [[src-1292]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1292_MaximumSideLengthOfASquareWithSumLessThanOrEqualToThreshold.java[]
 ----

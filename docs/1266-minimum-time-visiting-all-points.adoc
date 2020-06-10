@@ -1,4 +1,4 @@
-== 1266. Minimum Time Visiting All Points
+= 1266. Minimum Time Visiting All Points
 
 https://leetcode.com/problems/minimum-time-visiting-all-points/[LeetCode - Minimum Time Visiting All Points]
 
@@ -48,7 +48,7 @@ Total time = 7 seconds
 
 
 [[src-1266]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1266_MinimumTimeVisitingAllPoints.java[]
 ----

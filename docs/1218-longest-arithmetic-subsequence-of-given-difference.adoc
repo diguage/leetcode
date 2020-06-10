@@ -1,4 +1,4 @@
-== 1218. Longest Arithmetic Subsequence of Given Difference
+= 1218. Longest Arithmetic Subsequence of Given Difference
 
 https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/[LeetCode - Longest Arithmetic Subsequence of Given Difference]
 
@@ -45,7 +45,7 @@ Given an integer array `arr` and an integer `<font face="monospace">difference`,
 
 
 [[src-1218]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1218_LongestArithmeticSubsequenceOfGivenDifference.java[]
 ----

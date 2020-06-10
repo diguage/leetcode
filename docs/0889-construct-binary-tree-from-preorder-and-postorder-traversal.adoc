@@ -1,4 +1,4 @@
-== 889. Construct Binary Tree from Preorder and Postorder Traversal
+= 889. Construct Binary Tree from Preorder and Postorder Traversal
 
 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/[LeetCode - Construct Binary Tree from Preorder and Postorder Traversal]
 
@@ -31,7 +31,7 @@ Values in the traversals `pre` and `post` are distinct positive integers.
 
 
 [[src-0889]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0889_ConstructBinaryTreeFromPreorderAndPostorderTraversal.java[]
 ----

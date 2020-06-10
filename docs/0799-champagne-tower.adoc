@@ -1,4 +1,4 @@
-== 799. Champagne Tower
+= 799. Champagne Tower
 
 https://leetcode.com/problems/champagne-tower/[LeetCode - Champagne Tower]
 
@@ -41,7 +41,7 @@ Now after pouring some non-negative integer cups of champagne, return how full t
 
 
 [[src-0799]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0799_ChampagneTower.java[]
 ----

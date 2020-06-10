@@ -1,4 +1,4 @@
-== 522. Longest Uncommon Subsequence II
+= 522. Longest Uncommon Subsequence II
 
 https://leetcode.com/problems/longest-uncommon-subsequence-ii/[LeetCode - Longest Uncommon Subsequence II]
 
@@ -33,7 +33,7 @@ The input will be a list of strings, and the output needs to be the length of th
 
 
 [[src-0522]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0522_LongestUncommonSubsequenceII.java[]
 ----

@@ -1,4 +1,4 @@
-== 988. Smallest String Starting From Leaf
+= 988. Smallest String Starting From Leaf
 
 https://leetcode.com/problems/smallest-string-starting-from-leaf/[LeetCode - Smallest String Starting From Leaf]
 
@@ -64,7 +64,7 @@ image::https://assets.leetcode.com/uploads/2019/02/01/tree3.png[]
 
 
 [[src-0988]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0988_SmallestStringStartingFromLeaf.java[]
 ----

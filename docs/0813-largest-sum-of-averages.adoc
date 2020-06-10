@@ -1,4 +1,4 @@
-== 813. Largest Sum of Averages
+= 813. Largest Sum of Averages
 
 https://leetcode.com/problems/largest-sum-of-averages/[LeetCode - Largest Sum of Averages]
 
@@ -33,7 +33,7 @@ That partition would lead to a score of 5 + 2 + 6 = 13, which is worse.
 
 
 [[src-0813]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0813_LargestSumOfAverages.java[]
 ----

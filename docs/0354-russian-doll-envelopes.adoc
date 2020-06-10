@@ -1,4 +1,4 @@
-== 354. Russian Doll Envelopes
+= 354. Russian Doll Envelopes
 
 https://leetcode.com/problems/russian-doll-envelopes/[LeetCode - Russian Doll Envelopes]
 
@@ -25,7 +25,7 @@ Rotation is not allowed.
 
 
 [[src-0354]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0354_RussianDollEnvelopes.java[]
 ----

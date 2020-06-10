@@ -1,4 +1,4 @@
-== 726. Number of Atoms
+= 726. Number of Atoms
 
 https://leetcode.com/problems/number-of-atoms/[LeetCode - Number of Atoms]
 
@@ -61,7 +61,7 @@ The count of elements are {'K': 4, 'N': 2, 'O': 14, 'S': 4}.
 
 
 [[src-0726]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0726_NumberOfAtoms.java[]
 ----

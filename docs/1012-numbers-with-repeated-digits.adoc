@@ -1,4 +1,4 @@
-== 1012. Numbers With Repeated Digits
+= 1012. Numbers With Repeated Digits
 
 https://leetcode.com/problems/numbers-with-repeated-digits/[LeetCode - Numbers With Repeated Digits]
 
@@ -48,7 +48,7 @@ Given a positive integer `N`, return the number of positive integers less than o
 
 
 [[src-1012]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1012_NumbersWithRepeatedDigits.java[]
 ----

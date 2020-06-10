@@ -1,4 +1,4 @@
-== 1299. Replace Elements with Greatest Element on Right Side
+= 1299. Replace Elements with Greatest Element on Right Side
 
 https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/[LeetCode - Replace Elements with Greatest Element on Right Side]
 
@@ -24,7 +24,7 @@ After doing so, return the array.
 
 
 [[src-1299]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1299_ReplaceElementsWithGreatestElementOnRightSide.java[]
 ----

@@ -1,4 +1,4 @@
-== 733. Flood Fill
+= 733. Flood Fill
 
 https://leetcode.com/problems/flood-fill/[LeetCode - Flood Fill]
 
@@ -36,7 +36,7 @@ to the starting pixel.
 
 
 [[src-0733]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0733_FloodFill.java[]
 ----

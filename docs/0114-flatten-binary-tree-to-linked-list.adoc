@@ -1,4 +1,4 @@
-== 114. Flatten Binary Tree to Linked List
+= 114. Flatten Binary Tree to Linked List
 
 https://leetcode.com/problems/flatten-binary-tree-to-linked-list/[LeetCode - Flatten Binary Tree to Linked List]
 
@@ -34,7 +34,7 @@ The flattened tree should look like:
 
 思考题：看题解中，可以逐级将左树并入到右树。尝试一下。
 
-=== 参考资料
+== 参考资料
 
 . https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--26/[详细通俗的思路分析，多解法 - 二叉树展开为链表 - 力扣（LeetCode）]
 . https://leetcode.wang/leetcode-114-Flatten-Binary-Tree-to-Linked-List.html[114. Flatten Binary Tree to Linked List · leetcode]
@@ -71,7 +71,7 @@ The flattened tree should look like:
 
 
 [[src-0114]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList.java[]
 ----

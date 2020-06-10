@@ -1,4 +1,4 @@
-== 781. Rabbits in Forest
+= 781. Rabbits in Forest
 
 https://leetcode.com/problems/rabbits-in-forest/[LeetCode - Rabbits in Forest]
 
@@ -35,7 +35,7 @@ The smallest possible number of rabbits in the forest is therefore 5: 3 that ans
 
 
 [[src-0781]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0781_RabbitsInForest.java[]
 ----

@@ -1,4 +1,4 @@
-== 728. Self Dividing Numbers
+= 728. Self Dividing Numbers
 
 https://leetcode.com/problems/self-dividing-numbers/[LeetCode - Self Dividing Numbers]
 
@@ -28,7 +28,7 @@ left = 1, right = 22
 
 
 [[src-0728]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0728_SelfDividingNumbers.java[]
 ----

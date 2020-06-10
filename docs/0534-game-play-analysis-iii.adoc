@@ -1,11 +1,11 @@
-== 534. Game Play Analysis III
+= 534. Game Play Analysis III
 
 https://leetcode.com/problems/game-play-analysis-iii/[LeetCode - Game Play Analysis III]
 
 
 
 [[src-0534]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0534_GamePlayAnalysisIII.java[]
 ----

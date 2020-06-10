@@ -1,11 +1,11 @@
-== 612. Shortest Distance in a Plane
+= 612. Shortest Distance in a Plane
 
 https://leetcode.com/problems/shortest-distance-in-a-plane/[LeetCode - Shortest Distance in a Plane]
 
 
 
 [[src-0612]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0612_ShortestDistanceInAPlane.java[]
 ----

@@ -1,11 +1,11 @@
-== 361. Bomb Enemy
+= 361. Bomb Enemy
 
 https://leetcode.com/problems/bomb-enemy/[LeetCode - Bomb Enemy]
 
 
 
 [[src-0361]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0361_BombEnemy.java[]
 ----

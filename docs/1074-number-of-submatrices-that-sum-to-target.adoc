@@ -1,4 +1,4 @@
-== 1074. Number of Submatrices That Sum to Target
+= 1074. Number of Submatrices That Sum to Target
 
 https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/[LeetCode - Number of Submatrices That Sum to Target]
 
@@ -44,7 +44,7 @@ Two submatrices `(x1, y1, x2, y2)` and `(x1', y1', x2', y2')` are different if t
 
 
 [[src-1074]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1074_NumberOfSubmatricesThatSumToTarget.java[]
 ----

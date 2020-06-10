@@ -1,4 +1,4 @@
-== 1281. Subtract the Product and Sum of Digits of an Integer
+= 1281. Subtract the Product and Sum of Digits of an Integer
 
 https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/[LeetCode - Subtract the Product and Sum of Digits of an Integer]
 
@@ -38,7 +38,7 @@ Result = 32 - 11 = 21
 
 
 [[src-1281]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1281_SubtractTheProductAndSumOfDigitsOfAnInteger.java[]
 ----

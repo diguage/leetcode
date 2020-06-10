@@ -1,4 +1,4 @@
-== 48. Rotate Image
+= 48. Rotate Image
 
 https://leetcode.com/problems/rotate-image/[LeetCode - Rotate Image]
 
@@ -52,7 +52,7 @@ rotate the input matrix *in-place* such that it becomes:
 
 
 [[src-0048]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0048_RotateImage.java[]
 ----

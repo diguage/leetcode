@@ -1,4 +1,4 @@
-== 258. Add Digits
+= 258. Add Digits
 
 https://leetcode.com/problems/add-digits/[LeetCode - Add Digits]
 
@@ -21,7 +21,7 @@ Could you do it without any loop/recursion in O(1) runtime?
 
 
 [[src-0258]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0258_AddDigits.java[]
 ----

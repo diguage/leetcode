@@ -1,4 +1,4 @@
-== 1124. Longest Well-Performing Interval
+= 1124. Longest Well-Performing Interval
 
 https://leetcode.com/problems/longest-well-performing-interval/[LeetCode - Longest Well-Performing Interval]
 
@@ -31,7 +31,7 @@ Return the length of the longest well-performing interval.
 
 
 [[src-1124]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1124_LongestWellPerformingInterval.java[]
 ----

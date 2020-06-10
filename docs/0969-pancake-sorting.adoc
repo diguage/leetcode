@@ -1,4 +1,4 @@
-== 969. Pancake Sorting
+= 969. Pancake Sorting
 
 https://leetcode.com/problems/pancake-sorting/[LeetCode - Pancake Sorting]
 
@@ -47,7 +47,7 @@ Note that other answers, such as [3, 3], would also be accepted.
 
 
 [[src-0969]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0969_PancakeSorting.java[]
 ----

@@ -1,4 +1,4 @@
-== 628. Maximum Product of Three Numbers
+= 628. Maximum Product of Three Numbers
 
 https://leetcode.com/problems/maximum-product-of-three-numbers/[LeetCode - Maximum Product of Three Numbers]
 
@@ -36,7 +36,7 @@ Given an integer array, find three numbers whose product is maximum and output t
 
 
 [[src-0628]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0628_MaximumProductOfThreeNumbers.java[]
 ----

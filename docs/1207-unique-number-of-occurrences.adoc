@@ -1,4 +1,4 @@
-== 1207. Unique Number of Occurrences
+= 1207. Unique Number of Occurrences
 
 https://leetcode.com/problems/unique-number-of-occurrences/[LeetCode - Unique Number of Occurrences]
 
@@ -43,7 +43,7 @@ Given an array of integers `arr`, write a function that returns `true` if and on
 
 
 [[src-1207]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_1207_UniqueNumberOfOccurrences.java[]
 ----

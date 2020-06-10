@@ -1,4 +1,4 @@
-== 541. Reverse String II
+= 541. Reverse String II
 
 https://leetcode.com/problems/reverse-string-ii/[LeetCode - Reverse String II]
 
@@ -24,7 +24,7 @@ Given a string and an integer k, you need to reverse the first k characters for 
 
 
 [[src-0541]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0541_ReverseStringII.java[]
 ----

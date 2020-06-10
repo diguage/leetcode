@@ -1,4 +1,4 @@
-== 725. Split Linked List in Parts
+= 725. Split Linked List in Parts
 
 https://leetcode.com/problems/split-linked-list-in-parts/[LeetCode - Split Linked List in Parts]
 
@@ -55,7 +55,7 @@ The input has been split into consecutive parts with size difference at most 1, 
 
 
 [[src-0725]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0725_SplitLinkedListInParts.java[]
 ----

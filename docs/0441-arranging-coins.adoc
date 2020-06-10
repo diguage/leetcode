@@ -1,4 +1,4 @@
-== 441. Arranging Coins
+= 441. Arranging Coins
 
 https://leetcode.com/problems/arranging-coins/[LeetCode - Arranging Coins]
 
@@ -39,7 +39,7 @@ Because the 4th row is incomplete, we return 3.
 
 
 [[src-0441]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0441_ArrangingCoins.java[]
 ----

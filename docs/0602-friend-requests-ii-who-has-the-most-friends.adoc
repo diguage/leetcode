@@ -1,11 +1,11 @@
-== 602. Friend Requests II: Who Has the Most Friends
+= 602. Friend Requests II: Who Has the Most Friends
 
 https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/[LeetCode - Friend Requests II: Who Has the Most Friends]
 
 
 
 [[src-0602]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0602_FriendRequestsIIWhoHasTheMostFriends.java[]
 ----

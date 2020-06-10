@@ -1,0 +1,12 @@
+[#palindromic-subsequence]
+== Palindromic Subsequence，回文子系列
+
+Longest Palindromic Subsequence，最长回文子序列
+
+Longest Palindromic Substring，最长回文子字符串
+
+Count of Palindromic Substrings，最长子字符串的个数问题
+
+Minimum Deletions in a String to make it a Palindrome，怎么删掉最少字符构成回文
+
+Palindromic Partitioning，怎么分配字符，形成回文

@@ -1,4 +1,4 @@
-== 227. Basic Calculator II
+= 227. Basic Calculator II
 
 https://leetcode.com/problems/basic-calculator-ii/[LeetCode - Basic Calculator II]
 
@@ -48,7 +48,7 @@ The expression string contains only *non-negative* integers, `+`, `-`, `*`, `/` 
 
 
 [[src-0227]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0227_BasicCalculatorII.java[]
 ----

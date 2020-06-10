@@ -1,4 +1,4 @@
-== 700. Search in a Binary Search Tree
+= 700. Search in a Binary Search Tree
 
 https://leetcode.com/problems/search-in-a-binary-search-tree/[LeetCode - Search in a Binary Search Tree]
 
@@ -34,7 +34,7 @@ Note that an empty tree is represented by `NULL`, therefore you would see the ex
 
 
 [[src-0700]]
-[source,{java_source_attr}]
+[{java_src_attr}]
 ----
 include::{sourcedir}/_0700_SearchInABinarySearchTree.java[]
 ----
