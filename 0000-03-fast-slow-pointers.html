@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.10">
+<title>Fast &amp; Slow pointers, 快慢指针类型</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="assets/css/asciidoctor.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="book">
+<div id="header">
+<h1>Fast &amp; Slow pointers, 快慢指针类型</h1>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>这种模式，有一个非常出门的名字，叫龟兔赛跑。咱们肯定都知道龟兔赛跑啦。但还是再解释一下快慢指针：这种算法的两个指针的在数组上（或是链表上，序列上）的移动速度不一样。还别说，这种方法在解决有环的链表和数组时特别有用。</p>
+</div>
+<div class="paragraph">
+<p>通过控制指针不同的移动速度（比如在环形链表上），这种算法证明了他们肯定会相遇的。快的一个指针肯定会追上慢的一个（可以想象成跑道上面跑得快的人套圈跑得慢的人）。</p>
+</div>
+<div class="paragraph">
+<p>咋知道需要用快慢指针模式勒？</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>问题需要处理环上的问题，比如环形链表和环形数组</p>
+</li>
+<li>
+<p>当你需要知道链表的长度或是某个特别位置的信息的时候</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>那啥时候用快慢指针而不是上面的双指针呢？</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>有些情形下，咱们不应该用双指针，比如我们在单链表上不能往回移动的时候。一个典型的需要用到快慢指针的模式的是当你需要去判断一个链表是否是回文的时候。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>LinkedList Cycle (easy)</p>
+</div>
+<div class="paragraph">
+<p>Start of LinkedList Cycle (medium)</p>
+</div>
+<div class="paragraph">
+<p>Happy Number (medium)</p>
+</div>
+<div class="paragraph">
+<p>Middle of the LinkedList (easy)</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2020-06-10 07:06:59 UTC
+</div>
+</div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "none" } }
+})
+MathJax.Hub.Register.StartupHook("AsciiMath Jax Ready", function () {
+  MathJax.InputJax.AsciiMath.postfilterHooks.Add(function (data, node) {
+    if ((node = data.script.parentNode) && (node = node.parentNode) && node.classList.contains('stemblock')) {
+      data.math.root.display = "block"
+    }
+    return data
+  })
+})
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.10">
+<title>Two Pointer</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="assets/css/asciidoctor.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="0000-backtrack" class="book toc2 toc-left">
+<div id="header">
+<h1>Two Pointer</h1>
+<div id="toc" class="toc2">
+<div id="toctitle">目录</div>
+<ul class="sectlevel1">
+<li><a href="#_参考资料">参考资料</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>76. Minimum Window Substring</p>
+</li>
+<li>
+<p>209. Minimum Size Subarray Sum</p>
+</li>
+<li>
+<p>239. Sliding Window Maximum</p>
+</li>
+<li>
+<p>424. Longest Repeating Character Replacement</p>
+</li>
+<li>
+<p>438. Find All Anagrams in a String</p>
+</li>
+<li>
+<p>567. Permutation in String</p>
+</li>
+<li>
+<p>713. Subarray Product Less Than K</p>
+</li>
+<li>
+<p>763. Partition Labels</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Pair with Target Sum (easy)
+Remove Duplicates (easy)
+Squaring a Sorted Array (easy)
+Triplet Sum to Zero (medium)
+Triplet Sum Close to Target (medium)
+Triplets with Smaller Sum (medium)
+Subarrays with Product Less than a Target (medium)
+Dutch National Flag Problem (medium)</p>
+</div>
+<div class="paragraph">
+<p>双指针是这样的模式：两个指针朝着左右方向移动（双指针分为同向双指针和异向双指针），直到他们有一个或是两个都满足某种条件。双指针通常用在排好序的数组或是链表中寻找对子。比如，你需要去比较数组中每个元素和其他元素的关系时，你就需要用到双指针了。</p>
+</div>
+<div class="paragraph">
+<p>我们需要双指针的原因是：如果你只用一个指针的话，你得来回跑才能在数组中找到你需要的答案。这一个指针来来回回的过程就很耗时和浪费空间了 — 这是考虑算法的复杂度分析的时候的重要概念。虽然brute force一个指针的解法可能会奏效，但时间复杂度一般会是O(n²)。在很多情况下，双指针能帮助我们找到空间或是时间复杂度更低的解。</p>
+</div>
+<div class="paragraph">
+<p>识别使用双指针的招数：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>一般来说，数组或是链表是排好序的，你得在里头找一些组合满足某种限制条件</p>
+</li>
+<li>
+<p>这种组合可能是一对数，三个数，或是一个子数组</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>经典题目：</p>
+</div>
+<div class="paragraph">
+<p>Pair with Target Sum (easy)</p>
+</div>
+<div class="paragraph">
+<p>Remove Duplicates (easy)</p>
+</div>
+<div class="paragraph">
+<p>Squaring a Sorted Array (easy)</p>
+</div>
+<div class="paragraph">
+<p>Triplet Sum to Zero (medium)</p>
+</div>
+<div class="paragraph">
+<p>Triplet Sum Close to Target (medium)</p>
+</div>
+<div class="paragraph">
+<p>Triplets with Smaller Sum (medium)</p>
+</div>
+<div class="paragraph">
+<p>Subarrays with Product Less than a Target (medium)</p>
+</div>
+<div class="paragraph">
+<p>Dutch National Flag Problem (medium)</p>
+</div>
+<div class="paragraph">
+<p>LeetCode 32. Longest Valid Parentheses (hard)</p>
+</div>
+<div class="paragraph">
+<p>LeetCode 76. Minimum Window Substring (hard)</p>
+</div>
+<div class="paragraph">
+<p>LeetCode 799. Champagne Tower (medium)</p>
+</div>
+<div class="paragraph">
+<p>LeetCode 962. Maximum Width Ramp (medium)</p>
+</div>
+<div class="paragraph">
+<p>LeetCode 1124. Longest Well-Performing Interval (medium)</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_参考资料"><a class="anchor" href="#_参考资料"></a>参考资料</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="http://joshuablog.herokuapp.com/Two-Pointer%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.html">Two Pointer问题总结 | Joshua</a></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2020-06-10 07:06:59 UTC
+</div>
+</div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "none" } }
+})
+MathJax.Hub.Register.StartupHook("AsciiMath Jax Ready", function () {
+  MathJax.InputJax.AsciiMath.postfilterHooks.Add(function (data, node) {
+    if ((node = data.script.parentNode) && (node = node.parentNode) && node.classList.contains('stemblock')) {
+      data.math.root.display = "block"
+    }
+    return data
+  })
+})
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+</body>
+</html>

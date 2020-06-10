@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.10">
+<title>Top ‘K’ Elements，前K个系列</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="assets/css/asciidoctor.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="book">
+<div id="header">
+<h1>Top ‘K’ Elements，前K个系列</h1>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>任何让我们求解最大/最小/最频繁的K个元素的题，都遵循这种模式。</p>
+</div>
+<div class="paragraph">
+<p>用来记录这种前K类型的最佳数据结构就是堆了（译者注：在Java中，改了个名，叫优先队列（PriorityQueue））。这种模式借助堆来解决很多这种前K个数值的问题。</p>
+</div>
+<div class="paragraph">
+<p>这个模式是这样的：</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>根据题目要求，将K个元素插入到最小堆或是最大堆。</p>
+</li>
+<li>
+<p>遍历剩下的还没访问的元素，如果当前出来到的这个元素比堆顶元素大，那咱们把堆顶元素先删除，再加当前元素进去。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>注意这种模式下，咱们不需要去排序数组，因为堆具有这种良好的局部有序性，这对咱们需要解决问题就够了。</p>
+</div>
+<div class="paragraph">
+<p>识别最大K个元素模式：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>如果你需要求最大/最小/最频繁的前K个元素</p>
+</li>
+<li>
+<p>如果你需要通过排序去找一个特定的数</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>经典题目：</p>
+</div>
+<div class="paragraph">
+<p>Top ‘K’ Numbers (easy)</p>
+</div>
+<div class="paragraph">
+<p>Kth Smallest Number (easy)</p>
+</div>
+<div class="paragraph">
+<p>‘K’ Closest Points to the Origin (easy)</p>
+</div>
+<div class="paragraph">
+<p>Connect Ropes (easy)</p>
+</div>
+<div class="paragraph">
+<p>Top ‘K’ Frequent Numbers (medium)</p>
+</div>
+<div class="paragraph">
+<p>Frequency Sort (medium)</p>
+</div>
+<div class="paragraph">
+<p>Kth Largest Number in a Stream (medium)</p>
+</div>
+<div class="paragraph">
+<p>‘K’ Closest Numbers (medium)</p>
+</div>
+<div class="paragraph">
+<p>Maximum Distinct Elements (medium)</p>
+</div>
+<div class="paragraph">
+<p>Sum of Elements (medium)</p>
+</div>
+<div class="paragraph">
+<p>Rearrange String (hard)</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2020-06-10 07:06:59 UTC
+</div>
+</div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "none" } }
+})
+MathJax.Hub.Register.StartupHook("AsciiMath Jax Ready", function () {
+  MathJax.InputJax.AsciiMath.postfilterHooks.Add(function (data, node) {
+    if ((node = data.script.parentNode) && (node = node.parentNode) && node.classList.contains('stemblock')) {
+      data.math.root.display = "block"
+    }
+    return data
+  })
+})
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+</body>
+</html>

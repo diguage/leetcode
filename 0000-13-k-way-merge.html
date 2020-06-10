@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.10">
+<title>K-way merge，多路归并</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="assets/css/asciidoctor.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="book">
+<div id="header">
+<h1>K-way merge，多路归并</h1>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>K路归并能帮咱们解决那些涉及到多组排好序的数组的问题。</p>
+</div>
+<div class="paragraph">
+<p>每当你的输入是K个排好序的数组，你就可以用堆来高效顺序遍历其中所有数组的所有元素。你可以将每个数组中最小的一个元素加入到最小堆中，从而得到全局最小值。当我们拿到这个全局最小值之后，再从该元素所在的数组里取出其后面紧挨着的元素，加入堆。如此往复直到处理完所有的元素。</p>
+</div>
+<div class="paragraph">
+<p>该模式是这样的运行的：</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>把每个数组中的第一个元素都加入最小堆中</p>
+</li>
+<li>
+<p>取出堆顶元素（全局最小），将该元素放入排好序的结果集合里面</p>
+</li>
+<li>
+<p>将刚取出的元素所在的数组里面的下一个元素加入堆</p>
+</li>
+<li>
+<p>重复步骤2，3，直到处理完所有数字</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>识别K路归并：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>该问题的输入是排好序的数组，链表或是矩阵</p>
+</li>
+<li>
+<p>如果问题让咱们合并多个排好序的集合，或是需要找这些集合中最小的元素</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>经典题目：</p>
+</div>
+<div class="paragraph">
+<p>Merge K Sorted Lists (medium)</p>
+</div>
+<div class="paragraph">
+<p>Kth Smallest Number in M Sorted Lists (Medium)</p>
+</div>
+<div class="paragraph">
+<p>Kth Smallest Number in a Sorted Matrix (Hard)</p>
+</div>
+<div class="paragraph">
+<p>Smallest Number Range (Hard)</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2020-06-10 07:06:59 UTC
+</div>
+</div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "none" } }
+})
+MathJax.Hub.Register.StartupHook("AsciiMath Jax Ready", function () {
+  MathJax.InputJax.AsciiMath.postfilterHooks.Add(function (data, node) {
+    if ((node = data.script.parentNode) && (node = node.parentNode) && node.classList.contains('stemblock')) {
+      data.math.root.display = "block"
+    }
+    return data
+  })
+})
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.10">
+<title>Modified Binary Search，改造过的二分</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="assets/css/asciidoctor.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="book">
+<div id="header">
+<h1>Modified Binary Search，改造过的二分</h1>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>当你需要解决的问题的输入是排好序的数组，链表，或是排好序的矩阵，要求咱们寻找某些特定元素。这个时候的不二选择就是二分搜索。这种模式是一种超级牛的用二分来解决问题的方式。</p>
+</div>
+<div class="paragraph">
+<p>对于一组满足上升排列的数集来说，这种模式的步骤是这样的：</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>首先，算出左右端点的中点。最简单的方式是这样的：middle = (start + end) / 2。但这种计算方式有不小的概率会出现整数越界。因此一般都推荐另外这种写法：middle = start + (end — start) / 2</p>
+</li>
+<li>
+<p>如果要找的目标改好和中点所在的数值相等，我们返回中点的下标就行</p>
+</li>
+<li>
+<p>如果目标不等的话：我们就有两种移动方式了如果目标比中点在的值小（key &lt; arr[middle]）：将下一步搜索空间放到左边（end = middle - 1）</p>
+</li>
+<li>
+<p>如果比中点的值大，则继续在右边搜索，丢弃左边：left = middle + 1</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>经典题目：</p>
+</div>
+<div class="paragraph">
+<p>Order-agnostic Binary Search (easy)</p>
+</div>
+<div class="paragraph">
+<p>Ceiling of a Number (medium)</p>
+</div>
+<div class="paragraph">
+<p>Next Letter (medium)</p>
+</div>
+<div class="paragraph">
+<p>Number Range (medium)</p>
+</div>
+<div class="paragraph">
+<p>Search in a Sorted Infinite Array (medium)</p>
+</div>
+<div class="paragraph">
+<p>Minimum Difference Element (medium)</p>
+</div>
+<div class="paragraph">
+<p>Bitonic Array Maximum (easy)</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2020-06-10 07:06:59 UTC
+</div>
+</div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "none" } }
+})
+MathJax.Hub.Register.StartupHook("AsciiMath Jax Ready", function () {
+  MathJax.InputJax.AsciiMath.postfilterHooks.Add(function (data, node) {
+    if ((node = data.script.parentNode) && (node = node.parentNode) && node.classList.contains('stemblock')) {
+      data.math.root.display = "block"
+    }
+    return data
+  })
+})
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+</body>
+</html>
