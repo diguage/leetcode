@@ -31,12 +31,29 @@ import java.util.*;
  * @since 2020-01-06 22:14
  */
 public class _0094_BinaryTreeInorderTraversal {
+
+  public List<Integer> inorderTraversal(TreeNode root) {
+    Stack<TreeNode> stack = new Stack<>();
+    List<Integer> result = new LinkedList<>();
+    TreeNode head = root;
+    while (head != null || !stack.empty()) {
+      if (head != null) {
+        stack.push(head);
+        head = head.left;
+      } else {
+        head = stack.pop();
+        result.add(head.val);
+        head = head.right;
+      }
+    }
+    return result;
+  }
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Binary Tree Inorder Traversal.
      *
      * Memory Usage: 34.8 MB, less than 100.00% of Java online submissions for Binary Tree Inorder Traversal.
      */
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversal1(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         Deque<TreeNode> stack = new LinkedList<>();
         TreeNode current = root;
