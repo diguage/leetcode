@@ -20,11 +20,23 @@ Given a binary tree, return the _postorder_ traversal of its nodes' values.
 
 *Follow up:* Recursive solution is trivial, could you do it iteratively?
 
+== 解题分析
 
+这个题有些麻烦。
+
+我的解法是使用 `Stack` 和 `Set`（保存处理过子节点，直接弹出，不再处理）。
+
+还可以使用两个 `Stack`。
+
+甚至一个 `Stack`。
 
 [[src-0145]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0145_BinaryTreePostorderTraversal.java[]
 ----
+
+== 思考题
+
+如何使用一个栈来解决这个问题？
 

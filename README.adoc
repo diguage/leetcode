@@ -874,11 +874,11 @@
 |{doc_base_url}/0144-binary-tree-preorder-traversal.adoc[Note]
 |Medium
 
-//|145
-//|{leetcode_base_url}/binary-tree-postorder-traversal/[Binary Tree Postorder Traversal]
-//|{source_base_url}/_0145_BinaryTreePostorderTraversal.java[Java]
-//|{doc_base_url}/0145-binary-tree-postorder-traversal.adoc[Note]
-//|Hard
+|145
+|{leetcode_base_url}/binary-tree-postorder-traversal/[Binary Tree Postorder Traversal]
+|{source_base_url}/_0145_BinaryTreePostorderTraversal.java[Java]
+|{doc_base_url}/0145-binary-tree-postorder-traversal.adoc[Note]
+|Hard
 
 |146
 |{leetcode_base_url}/lru-cache/[LRU Cache]
