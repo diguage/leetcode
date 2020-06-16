@@ -127,6 +127,23 @@
 79
 80
 81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
 </pre></td><td class="code"><pre><span class="kn">package</span> <span class="nn">com.diguage.algorithm.leetcode</span><span class="o">;</span>
 
 <span class="kn">import</span> <span class="nn">com.diguage.algorithm.util.TreeNode</span><span class="o">;</span>
@@ -160,12 +177,29 @@
  * @since 2020-01-06 22:14
  */</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="nc">_0094_BinaryTreeInorderTraversal</span> <span class="o">{</span>
+
+  <span class="kd">public</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="nf">inorderTraversal</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">root</span><span class="o">)</span> <span class="o">{</span>
+    <span class="nc">Stack</span><span class="o">&lt;</span><span class="nc">TreeNode</span><span class="o">&gt;</span> <span class="n">stack</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Stack</span><span class="o">&lt;&gt;();</span>
+    <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">result</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">LinkedList</span><span class="o">&lt;&gt;();</span>
+    <span class="nc">TreeNode</span> <span class="n">head</span> <span class="o">=</span> <span class="n">root</span><span class="o">;</span>
+    <span class="k">while</span> <span class="o">(</span><span class="n">head</span> <span class="o">!=</span> <span class="kc">null</span> <span class="o">||</span> <span class="o">!</span><span class="n">stack</span><span class="o">.</span><span class="na">empty</span><span class="o">())</span> <span class="o">{</span>
+      <span class="k">if</span> <span class="o">(</span><span class="n">head</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">head</span><span class="o">);</span>
+        <span class="n">head</span> <span class="o">=</span> <span class="n">head</span><span class="o">.</span><span class="na">left</span><span class="o">;</span>
+      <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+        <span class="n">head</span> <span class="o">=</span> <span class="n">stack</span><span class="o">.</span><span class="na">pop</span><span class="o">();</span>
+        <span class="n">result</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">head</span><span class="o">.</span><span class="na">val</span><span class="o">);</span>
+        <span class="n">head</span> <span class="o">=</span> <span class="n">head</span><span class="o">.</span><span class="na">right</span><span class="o">;</span>
+      <span class="o">}</span>
+    <span class="o">}</span>
+    <span class="k">return</span> <span class="n">result</span><span class="o">;</span>
+  <span class="o">}</span>
     <span class="cm">/**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Binary Tree Inorder Traversal.
      *
      * Memory Usage: 34.8 MB, less than 100.00% of Java online submissions for Binary Tree Inorder Traversal.
      */</span>
-    <span class="kd">public</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="nf">inorderTraversal</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">root</span><span class="o">)</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="nf">inorderTraversal1</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">root</span><span class="o">)</span> <span class="o">{</span>
         <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">result</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
         <span class="nc">Deque</span><span class="o">&lt;</span><span class="nc">TreeNode</span><span class="o">&gt;</span> <span class="n">stack</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">LinkedList</span><span class="o">&lt;&gt;();</span>
         <span class="nc">TreeNode</span> <span class="n">current</span> <span class="o">=</span> <span class="n">root</span><span class="o">;</span>
@@ -216,7 +250,7 @@
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-06-10 07:11:36 UTC
+Last updated 2020-06-16 14:01:18 UTC
 </div>
 </div>
 <link rel="stylesheet" href="assets/css/rouge-monokai.css">
