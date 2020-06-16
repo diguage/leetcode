@@ -1,0 +1,9 @@
+[#tree]
+= 树
+
+树的遍历，如果用递归，代码写起来很简单。但是用遍历，又该如何做呢？
+
+凡是用递归能解决的问题，都可以使用遍历来解决。用递归来求解问题，无非就是使用了方法栈来保存相关信息。同样，可以使用 `Stack` 来自己动手维护这些信息。例如：
+
+xref:0144-binary-tree-preorder-traversal.adoc[144. Binary Tree Preorder Traversal^]
+

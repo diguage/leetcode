@@ -867,13 +867,13 @@
 //|{source_base_url}/_0143_ReorderList.java[Java]
 //|{doc_base_url}/0143-reorder-list.adoc[Note]
 //|Medium
-//
-//|144
-//|{leetcode_base_url}/binary-tree-preorder-traversal/[Binary Tree Preorder Traversal]
-//|{source_base_url}/_0144_BinaryTreePreorderTraversal.java[Java]
-//|{doc_base_url}/0144-binary-tree-preorder-traversal.adoc[Note]
-//|Medium
-//
+
+|144
+|{leetcode_base_url}/binary-tree-preorder-traversal/[Binary Tree Preorder Traversal]
+|{source_base_url}/_0144_BinaryTreePreorderTraversal.java[Java]
+|{doc_base_url}/0144-binary-tree-preorder-traversal.adoc[Note]
+|Medium
+
 //|145
 //|{leetcode_base_url}/binary-tree-postorder-traversal/[Binary Tree Postorder Traversal]
 //|{source_base_url}/_0145_BinaryTreePostorderTraversal.java[Java]
