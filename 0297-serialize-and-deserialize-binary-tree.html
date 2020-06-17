@@ -10,9 +10,15 @@
 <link rel="stylesheet" href="assets/css/asciidoctor.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="book">
+<body class="book toc2 toc-left">
 <div id="header">
 <h1>297. Serialize and Deserialize Binary Tree</h1>
+<div id="toc" class="toc2">
+<div id="toctitle">目录</div>
+<ul class="sectlevel1">
+<li><a href="#_解题分析">解题分析</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
 <div id="preamble">
@@ -48,10 +54,169 @@ as <code>"[1,2,3,null,null,4,5]"</code></pre>
 <div class="paragraph">
 <p>*Note: *Do not use class member/global/static variables to store states. Your serialize and deserialize algorithms should be stateless.</p>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_解题分析"><a class="anchor" href="#_解题分析"></a>解题分析</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>一个比较简单的思路是分层进行序列化。这里一个误区就是把二叉树按照满二叉树转化成一个数组形式。</p>
+</div>
+<div class="paragraph">
+<p>一个解决办法就是：在序列化的时候，先出力父节点，然后循环调用处理子节点，这样的话，就会把父子节点的关联关系给用上，也可以正常应对极端不平衡的情况。</p>
+</div>
 <div id="src-0297" class="listingblock">
 <div class="content">
-<pre class="rouge highlight nowrap"><code data-lang="java"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno">1
-</pre></td><td class="code"><pre><span class="nc">Unresolved</span> <span class="n">directive</span> <span class="n">in</span> <span class="mo">02</span><span class="mi">97</span><span class="o">-</span><span class="n">serialize</span><span class="o">-</span><span class="n">and</span><span class="o">-</span><span class="n">deserialize</span><span class="o">-</span><span class="n">binary</span><span class="o">-</span><span class="n">tree</span><span class="o">.</span><span class="na">adoc</span> <span class="o">-</span> <span class="nl">include:</span><span class="o">:/</span><span class="n">home</span><span class="o">/</span><span class="n">runner</span><span class="o">/</span><span class="n">work</span><span class="o">/</span><span class="n">leetcode</span><span class="o">/</span><span class="n">leetcode</span><span class="o">/</span><span class="n">src</span><span class="o">/</span><span class="n">main</span><span class="o">/</span><span class="n">java</span><span class="o">/</span><span class="n">com</span><span class="o">/</span><span class="n">diguage</span><span class="o">/</span><span class="n">algorithm</span><span class="o">/</span><span class="n">leetcode</span><span class="o">/</span><span class="n">_0297_SerializeAndDeserializeBinaryTree</span><span class="o">.</span><span class="na">java</span><span class="o">[]</span>
+<pre class="rouge highlight nowrap"><code data-lang="java"><table class="linenotable"><tbody><tr><td class="linenos gl"><pre class="lineno"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+</pre></td><td class="code"><pre><span class="kn">package</span> <span class="nn">com.diguage.algorithm.leetcode</span><span class="o">;</span>
+
+<span class="kn">import</span> <span class="nn">com.diguage.algorithm.util.TreeNode</span><span class="o">;</span>
+
+<span class="kn">import</span> <span class="nn">java.util.LinkedList</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.util.Queue</span><span class="o">;</span>
+
+<span class="cm">/**
+ * = 297. Serialize and Deserialize Binary Tree
+ * &lt;p&gt;
+ * https://leetcode.com/problems/serialize-and-deserialize-binary-tree/[Serialize and Deserialize Binary Tree - LeetCode]
+ *
+ * @author D瓜哥, https://www.diguage.com/
+ * @since 2020-06-16 22:01
+ */</span>
+<span class="kd">class</span> <span class="nc">Codec</span> <span class="o">{</span>
+
+  <span class="c1">// Encodes a tree to a single string.</span>
+  <span class="kd">public</span> <span class="nc">String</span> <span class="nf">serialize</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">root</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">root</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+      <span class="k">return</span> <span class="s">"#!"</span><span class="o">;</span>
+    <span class="o">}</span>
+    <span class="nc">String</span> <span class="n">result</span> <span class="o">=</span> <span class="n">root</span><span class="o">.</span><span class="na">val</span> <span class="o">+</span> <span class="s">"!"</span><span class="o">;</span>
+    <span class="nc">Queue</span><span class="o">&lt;</span><span class="nc">TreeNode</span><span class="o">&gt;</span> <span class="n">queue</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">LinkedList</span><span class="o">&lt;&gt;();</span>
+    <span class="n">queue</span><span class="o">.</span><span class="na">offer</span><span class="o">(</span><span class="n">root</span><span class="o">);</span>
+    <span class="k">while</span> <span class="o">(!</span><span class="n">queue</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">())</span> <span class="o">{</span>
+      <span class="n">root</span> <span class="o">=</span> <span class="n">queue</span><span class="o">.</span><span class="na">poll</span><span class="o">();</span>
+      <span class="k">if</span> <span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">left</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">result</span> <span class="o">+=</span> <span class="n">root</span><span class="o">.</span><span class="na">left</span><span class="o">.</span><span class="na">val</span> <span class="o">+</span> <span class="s">"!"</span><span class="o">;</span>
+        <span class="n">queue</span><span class="o">.</span><span class="na">offer</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">left</span><span class="o">);</span>
+      <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+        <span class="n">result</span> <span class="o">+=</span> <span class="s">"#!"</span><span class="o">;</span>
+      <span class="o">}</span>
+      <span class="k">if</span> <span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">right</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">result</span> <span class="o">+=</span> <span class="n">root</span><span class="o">.</span><span class="na">right</span><span class="o">.</span><span class="na">val</span> <span class="o">+</span> <span class="s">"!"</span><span class="o">;</span>
+        <span class="n">queue</span><span class="o">.</span><span class="na">offer</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">right</span><span class="o">);</span>
+      <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+        <span class="n">result</span> <span class="o">+=</span> <span class="s">"#!"</span><span class="o">;</span>
+      <span class="o">}</span>
+    <span class="o">}</span>
+    <span class="k">return</span> <span class="n">result</span><span class="o">;</span>
+
+  <span class="o">}</span>
+
+  <span class="c1">// Decodes your encoded data to tree.</span>
+  <span class="kd">public</span> <span class="nc">TreeNode</span> <span class="nf">deserialize</span><span class="o">(</span><span class="nc">String</span> <span class="n">data</span><span class="o">)</span> <span class="o">{</span>
+    <span class="nc">String</span><span class="o">[]</span> <span class="n">values</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="na">split</span><span class="o">(</span><span class="s">"!"</span><span class="o">);</span>
+    <span class="kt">int</span> <span class="n">index</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+    <span class="nc">TreeNode</span> <span class="n">head</span> <span class="o">=</span> <span class="n">generate</span><span class="o">(</span><span class="n">values</span><span class="o">[</span><span class="n">index</span><span class="o">++]);</span>
+    <span class="nc">Queue</span><span class="o">&lt;</span><span class="nc">TreeNode</span><span class="o">&gt;</span> <span class="n">queue</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">LinkedList</span><span class="o">&lt;&gt;();</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">head</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+      <span class="n">queue</span><span class="o">.</span><span class="na">offer</span><span class="o">(</span><span class="n">head</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="nc">TreeNode</span> <span class="n">node</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+    <span class="k">while</span> <span class="o">(!</span><span class="n">queue</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">())</span> <span class="o">{</span>
+      <span class="n">node</span> <span class="o">=</span> <span class="n">queue</span><span class="o">.</span><span class="na">poll</span><span class="o">();</span>
+      <span class="n">node</span><span class="o">.</span><span class="na">left</span> <span class="o">=</span> <span class="n">generate</span><span class="o">(</span><span class="n">values</span><span class="o">[</span><span class="n">index</span><span class="o">++]);</span>
+      <span class="n">node</span><span class="o">.</span><span class="na">right</span> <span class="o">=</span> <span class="n">generate</span><span class="o">(</span><span class="n">values</span><span class="o">[</span><span class="n">index</span><span class="o">++]);</span>
+      <span class="k">if</span> <span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">left</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">queue</span><span class="o">.</span><span class="na">offer</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">left</span><span class="o">);</span>
+      <span class="o">}</span>
+      <span class="k">if</span> <span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">right</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">queue</span><span class="o">.</span><span class="na">offer</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">right</span><span class="o">);</span>
+      <span class="o">}</span>
+    <span class="o">}</span>
+    <span class="k">return</span> <span class="n">head</span><span class="o">;</span>
+  <span class="o">}</span>
+
+  <span class="kd">private</span> <span class="nc">TreeNode</span> <span class="nf">generate</span><span class="o">(</span><span class="nc">String</span> <span class="n">val</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="s">"#"</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">val</span><span class="o">))</span> <span class="o">{</span>
+      <span class="k">return</span> <span class="kc">null</span><span class="o">;</span>
+    <span class="o">}</span>
+    <span class="k">return</span> <span class="k">new</span> <span class="nf">TreeNode</span><span class="o">(</span><span class="nc">Integer</span><span class="o">.</span><span class="na">parseInt</span><span class="o">(</span><span class="n">val</span><span class="o">));</span>
+  <span class="o">}</span>
+<span class="o">}</span>
 </pre></td></tr></tbody></table></code></pre>
 </div>
 </div>
@@ -60,7 +225,7 @@ as <code>"[1,2,3,null,null,4,5]"</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-06-16 14:01:18 UTC
+Last updated 2020-06-17 02:12:11 UTC
 </div>
 </div>
 <link rel="stylesheet" href="assets/css/rouge-monokai.css">
