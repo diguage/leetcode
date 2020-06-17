@@ -1785,13 +1785,13 @@
 //|{source_base_url}/_0296_BestMeetingPoint.java[Java]
 //|{doc_base_url}/0296-best-meeting-point.adoc[Note]
 //|Hard
-//
-//|297
-//|{leetcode_base_url}/serialize-and-deserialize-binary-tree/[Serialize and Deserialize Binary Tree]
-//|{source_base_url}/_0297_SerializeAndDeserializeBinaryTree.java[Java]
-//|{doc_base_url}/0297-serialize-and-deserialize-binary-tree.adoc[Note]
-//|Hard
-//
+
+|297
+|{leetcode_base_url}/serialize-and-deserialize-binary-tree/[Serialize and Deserialize Binary Tree]
+|{source_base_url}/_0297_SerializeAndDeserializeBinaryTree.java[Java]
+|{doc_base_url}/0297-serialize-and-deserialize-binary-tree.adoc[Note]
+|Hard
+
 //|298
 //|{leetcode_base_url}/binary-tree-longest-consecutive-sequence/[Binary Tree Longest Consecutive Sequence]
 //|{source_base_url}/_0298_BinaryTreeLongestConsecutiveSequence.java[Java]
