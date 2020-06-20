@@ -31,7 +31,7 @@ Determine whether an integer is a palindrome. An integer is a palindrome when it
 
 Coud you solve it without converting the integer to a string?
 
-= 解题分析
+== 解题分析
 
 如果是回文数字，则反转之后数字相等。可以再进一步，不需要完全反转，只需要反转一半即可，反转一般，反转数字跟原始数字就相等或者相近了。
 

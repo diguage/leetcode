@@ -659,7 +659,7 @@
 |Easy
 
 |109
-|{leetcode_base_url}/convert-sorted-list-to-binary-search-tree/[Convert Sorted List to Binary Search Tree]
+|{leetcode_base_url}/convert-sorted-list-to-binary-search-tree/[Convert Sorted List to Binary Search Tree]``
 |{source_base_url}/_0109_ConvertSortedListToBinarySearchTree.java[Java]
 |{doc_base_url}/0109-convert-sorted-list-to-binary-search-tree.adoc[Note]
 |Medium
