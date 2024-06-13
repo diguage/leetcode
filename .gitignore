@@ -21,3 +21,8 @@ buildNumber.properties
 /*.html
 /images
 /assets
+
+*.ttf
+*.otf
+
+/cfg/gems
