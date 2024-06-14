@@ -1,3 +1,4 @@
+[#0106-construct-binary-tree-from-inorder-and-postorder-traversal]
 = 106. Construct Binary Tree from Inorder and Postorder Traversal
 
 https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/[LeetCode - Construct Binary Tree from Inorder and Postorder Traversal]
@@ -29,9 +30,9 @@ Return the following binary tree:
 
 使用递归，从底层向上构建整个树。
 
-image::images/0106-1.png[]
+image::images/0106-01.png[]
 
-image::images/0106-2.png[]
+image::images/0106-02.png[]
 
 == 参考资料
 
@@ -44,3 +45,17 @@ image::images/0106-2.png[]
 include::{sourcedir}/_0106_ConstructBinaryTreeFromInorderAndPostorderTraversal.java[]
 ----
 
+[{java_src_attr}]
+----
+include::{sourcedir}/_0106_ConstructBinaryTreeFromInorderAndPostorderTraversal_2.java[]
+----
+
+image::images/0106-03.png[]
+
+== 图解树的还原过程
+
+图片来自： https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/solutions/50561/tu-jie-gou-zao-er-cha-shu-wei-wan-dai-xu-by-user72/comments/396129
+
+== 思考题
+
+如何使用迭代来构建二叉树？参考： https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/solutions/426738/cong-zhong-xu-yu-hou-xu-bian-li-xu-lie-gou-zao-14

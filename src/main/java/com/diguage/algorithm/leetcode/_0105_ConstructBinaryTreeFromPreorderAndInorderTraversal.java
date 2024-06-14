@@ -35,40 +35,42 @@ import com.diguage.algorithm.util.TreeNode;
  * @since 2020-01-04 20:25
  */
 public class _0105_ConstructBinaryTreeFromPreorderAndInorderTraversal {
-    /**
-     * Runtime: 10 ms, faster than 34.14% of Java online submissions for Construct Binary Tree from Preorder and Inorder Traversal.
-     *
-     * Memory Usage: 36.1 MB, less than 100.00% of Java online submissions for Construct Binary Tree from Preorder and Inorder Traversal.
-     *
-     * Copy from: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/discuss/34538/My-Accepted-Java-Solution[My Accepted Java Solution - LeetCode Discuss]
-     */
-    public TreeNode buildTree(int[] preorder, int[] inorder) {
-        return build(preorder, inorder, 0, 0, inorder.length);
+  /**
+   * 自我实现，感觉比 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/discuss/34538/My-Accepted-Java-Solution[My Accepted Java Solution - LeetCode Discuss] 简单。
+   */
+  public TreeNode buildTree(int[] preorder, int[] inorder) {
+    if (preorder == null || inorder == null || preorder.length != inorder.length) {
+      return null;
     }
+    return buildTree(preorder, inorder, 0, 0, preorder.length);
+  }
 
-    private TreeNode build(int[] preorder, int[] inorder, int preStart, int inStart, int inEnd) {
-        if (preStart > preorder.length - 1 || inStart > inEnd) {
-            return null;
-        }
-        int value = preorder[preStart];
-        int index = inStart;
-        for (int i = inStart; i <= inEnd; i++) {
-            if (inorder[i] == value) {
-                index = i;
-                break;
-            }
-        }
-        TreeNode root = new TreeNode(value);
-        root.left = build(preorder, inorder, preStart + 1, inStart, index - 1);
-        root.right = build(preorder, inorder, preStart + (index - inStart) + 1, index + 1, inEnd);
-        return root;
+  private TreeNode buildTree(int[] preorder, int[] inorder, int pre, int in, int size) {
+    int val = preorder[pre];
+    TreeNode root = new TreeNode(val);
+    int leftSize = 0;
+    int i = in;
+    for (; i < size + in; i++) {
+      if (inorder[i] == val) {
+        break;
+      }
+      leftSize++;
     }
+    if (leftSize > 0) {
+      root.left = buildTree(preorder, inorder, pre + 1, in, leftSize);
+    }
+    int rightSize = size - leftSize - 1;
+    if (rightSize > 0) {
+      root.right = buildTree(preorder, inorder, pre + leftSize + 1, i + 1, rightSize);
+    }
+    return root;
+  }
 
-    public static void main(String[] args) {
-        _0105_ConstructBinaryTreeFromPreorderAndInorderTraversal solution = new _0105_ConstructBinaryTreeFromPreorderAndInorderTraversal();
-        int[] preorder = {3, 9, 20, 15, 7};
-        int[] inorder = {9, 3, 15, 20, 7};
-        TreeNode tree = solution.buildTree(preorder, inorder);
-        System.out.println(JsonUtils.toJson(tree));
-    }
+  public static void main(String[] args) {
+    _0105_ConstructBinaryTreeFromPreorderAndInorderTraversal solution = new _0105_ConstructBinaryTreeFromPreorderAndInorderTraversal();
+    int[] preorder = {3, 9, 20, 15, 7};
+    int[] inorder = {9, 3, 15, 20, 7};
+    TreeNode tree = solution.buildTree(preorder, inorder);
+    System.out.println(JsonUtils.toJson(tree));
+  }
 }
