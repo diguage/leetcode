@@ -29,3 +29,13 @@ Given a binary tree, return the _inorder_ traversal of its nodes' values.
 include::{sourcedir}/_0094_BinaryTreeInorderTraversal.java[]
 ----
 
+[{java_src_attr}]
+----
+include::{sourcedir}/_0094_BinaryTreeInorderTraversal_Recur.java[]
+----
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0094_BinaryTreeInorderTraversal_Stack.java[]
+----
+

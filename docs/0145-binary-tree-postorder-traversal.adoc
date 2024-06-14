@@ -36,7 +36,68 @@ Given a binary tree, return the _postorder_ traversal of its nodes' values.
 include::{sourcedir}/_0145_BinaryTreePostorderTraversal.java[]
 ----
 
+[{java_src_attr}]
+----
+include::{sourcedir}/_0145_BinaryTreePostorderTraversal_Recur.java[]
+----
+
+== 迭代实现
+TIP: TODO：还需要加强迭代遍历的实现！
+
+核心思想为：
+
+. 每拿到一个 *节点* 就把它保存在 *栈* 中
+. 继续对这个节点的 *左子树* 重复 *过程1*，直到左子树为 *空*
+. 因为保存在 *栈* 中的节点都遍历了 *左子树* 但是没有遍历 *右子树*，所以对栈中节点 *出栈* 并对它的 *右子树* 重复 *过程1*
+. 直到遍历完所有节点
+
+image::images/0145-01.png[]
+
+image::images/0145-02.png[]
+
+image::images/0145-03.png[]
+
+image::images/0145-04.png[]
+
+image::images/0145-05.png[]
+
+image::images/0145-06.png[]
+
+image::images/0145-07.png[]
+
+image::images/0145-08.png[]
+
+image::images/0145-09.png[]
+
+image::images/0145-10.png[]
+
+image::images/0145-12.png[]
+
+image::images/0145-13.png[]
+
+image::images/0145-14.png[]
+
+image::images/0145-15.png[]
+
+image::images/0145-16.png[]
+
+image::images/0145-17.png[]
+
+image::images/0145-18.png[]
+
+image::images/0145-19.png[]
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0145_BinaryTreePostorderTraversal_Stack.java[]
+----
+
+
 == 思考题
 
-如何使用一个栈来解决这个问题？
+. 如何使用一个栈来解决这个问题？
+. 对比一下前根遍历和后跟遍历的区别。 参考： https://leetcode.cn/problems/binary-tree-postorder-traversal/solutions/12336/die-dai-jie-fa-shi-jian-fu-za-du-onkong-jian-fu-za/[145. 二叉树的后序遍历^]。
+
+
+
 
