@@ -13,3 +13,5 @@
 :sourcedir: {asciidoctorconfigdir}/../src/main/java/com/diguage/algorithm/leetcode
 :source_attr: linenums,indent=0,subs="attributes,verbatim,quotes"
 :java_src_attr: source%nowrap,java,{source_attr}
+
+:doc_base_url: {asciidoctorconfigdir}/../docs
