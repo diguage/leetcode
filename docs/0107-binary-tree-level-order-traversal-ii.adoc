@@ -75,3 +75,11 @@ return its bottom-up level order traversal as:
 include::{sourcedir}/_0107_BinaryTreeLevelOrderTraversalII.java[]
 ----
 
+[{java_src_attr}]
+----
+include::{sourcedir}/_0107_BinaryTreeLevelOrderTraversalII_2.java[]
+----
+
+相比第一次解，第二次解直接在链表前面添加元素即可，这样就无需反转了。
+
+
