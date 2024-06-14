@@ -1,3 +1,4 @@
+[#0637-average-of-levels-in-binary-tree]
 = 637. Average of Levels in Binary Tree
 
 https://leetcode.com/problems/average-of-levels-in-binary-tree/[LeetCode - Average of Levels in Binary Tree]
@@ -34,3 +35,8 @@ The average value of nodes on level 0 is 3,  on level 1 is 14.5, and on level 2 
 include::{sourcedir}/_0637_AverageOfLevelsInBinaryTree.java[]
 ----
 
+与 xref:0102-binary-tree-level-order-traversal.adoc[102. Binary Tree Level Order Traversal] 和 xref:0103-binary-tree-zigzag-level-order-traversal.adoc[103. Binary Tree Zigzag Level Order Traversal] 非常类似。
+
+== 思考题
+
+尝试一下深度优先搜索
