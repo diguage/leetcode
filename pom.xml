@@ -424,26 +424,26 @@
             </configuration>
           </execution>
 
-          <execution>
-            <id>generate-html</id>
-            <phase>package</phase>
-            <goals>
-              <goal>process-asciidoc</goal>
-            </goals>
-            <configuration>
-              <backend>html5</backend>
-              <doctype>book</doctype>
-              <outputDirectory>${project.build.directory}/docs/html</outputDirectory>
-              <attributes>
-                <toc>left</toc>
-              </attributes>
-              <gemPath>${gem.path}</gemPath>
-              <requires>
-                <require>asciidoctor-diagram</require>
-                <require>asciidoctor-comment-links</require>
-              </requires>
-            </configuration>
-          </execution>
+          <!-- <execution>-->
+          <!--   <id>generate-html</id>-->
+          <!--   <phase>package</phase>-->
+          <!--   <goals>-->
+          <!--     <goal>process-asciidoc</goal>-->
+          <!--   </goals>-->
+          <!--   <configuration>-->
+          <!--     <backend>html5</backend>-->
+          <!--     <doctype>book</doctype>-->
+          <!--     <outputDirectory>${project.build.directory}/docs/html</outputDirectory>-->
+          <!--     <attributes>-->
+          <!--       <toc>left</toc>-->
+          <!--     </attributes>-->
+          <!--     <gemPath>${gem.path}</gemPath>-->
+          <!--     <requires>-->
+          <!--       <require>asciidoctor-diagram</require>-->
+          <!--       <require>asciidoctor-comment-links</require>-->
+          <!--     </requires>-->
+          <!--   </configuration>-->
+          <!-- </execution>-->
 
           <!-- <execution>-->
           <!--     <id>generate-epub</id>-->
