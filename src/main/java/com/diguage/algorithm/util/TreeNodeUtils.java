@@ -3,10 +3,7 @@ package com.diguage.algorithm.util;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 /**
  * @author D瓜哥, https://www.diguage.com/
@@ -39,6 +36,24 @@ public class TreeNodeUtils {
             treeNodeList.add(treeNode);
         }
         return result;
+    }
+
+    public List<Integer> printTree(TreeNode root) {
+      if (Objects.isNull(root)) {
+        return Collections.emptyList();
+      }
+      List<Integer> result = new ArrayList<>();
+      Deque<TreeNode> stack = new LinkedList<>();
+      stack.offer(root);
+      int level = 1;
+      while (!stack.isEmpty()) {
+        int size = stack.size();
+        for (int i = 0; i < size; i++) {
+          TreeNode node = stack.poll();
+        }
+      }
+
+      return result;
     }
 
     public static void main(String[] args) throws JsonProcessingException {
