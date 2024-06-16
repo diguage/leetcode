@@ -1,3 +1,4 @@
+[#0995-minimum-number-of-k-consecutive-bit-flips]
 = 995. Minimum Number of K Consecutive Bit Flips
 
 https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/[LeetCode - Minimum Number of K Consecutive Bit Flips]
