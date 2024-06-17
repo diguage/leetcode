@@ -3173,13 +3173,13 @@
 //|{doc_base_url}/0452-minimum-number-of-arrows-to-burst-balloons.adoc[Note]
 //|Medium
 //|
-//
-//|453
-//|{leetcode_base_url}/minimum-moves-to-equal-array-elements/[Minimum Moves to Equal Array Elements]
-//|{source_base_url}/_0453_MinimumMovesToEqualArrayElements.java[Java]
-//|{doc_base_url}/0453-minimum-moves-to-equal-array-elements.adoc[Note]
-//|Easy
-//|
+
+|453
+|{leetcode_base_url}/minimum-moves-to-equal-array-elements/[Minimum Moves to Equal Array Elements]
+|{source_base_url}/_0453_MinimumMovesToEqualArrayElements.java[Java]
+|{doc_base_url}/0453-minimum-moves-to-equal-array-elements.adoc[Note]
+|Medium
+|
 
 |454
 |{leetcode_base_url}/4sum-ii/[4Sum II]

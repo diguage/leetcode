@@ -10,7 +10,7 @@ import java.util.Set;
  *
  * https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/[Find All Numbers Disappeared in an Array - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-29 19:06
  */
 public class _0448_FindAllNumbersDisappearedInAnArray {

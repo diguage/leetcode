@@ -1,3 +1,4 @@
+[#0453-minimum-moves-to-equal-array-elements]
 = 453. Minimum Moves to Equal Array Elements
 
 https://leetcode.com/problems/minimum-moves-to-equal-array-elements/[LeetCode - Minimum Moves to Equal Array Elements]
@@ -19,7 +20,9 @@ Only three moves are needed (remember each move increments two elements):
 [1,2,3]  =>  [2,3,3]  =>  [3,4,3]  =>  [4,4,4]
 ----
 
+== 题解
 
+题目说明，每次给 `n - 1` 个元素加 `1`，反过来就是给一个元素减 `1`，这样只需要把所有数减到数组最小值即可，也就是所有数和最小值的差值之和。
 
 [[src-0453]]
 [{java_src_attr}]
