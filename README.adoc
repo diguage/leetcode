@@ -3236,14 +3236,14 @@
 //|{doc_base_url}/0461-hamming-distance.adoc[Note]
 //|Easy
 //|
-//
-//|462
-//|{leetcode_base_url}/minimum-moves-to-equal-array-elements-ii/[Minimum Moves to Equal Array Elements II]
-//|{source_base_url}/_0462_MinimumMovesToEqualArrayElementsII.java[Java]
-//|{doc_base_url}/0462-minimum-moves-to-equal-array-elements-ii.adoc[Note]
-//|Medium
-//|
-//
+
+|462
+|{leetcode_base_url}/minimum-moves-to-equal-array-elements-ii/[Minimum Moves to Equal Array Elements II]
+|{source_base_url}/_0462_MinimumMovesToEqualArrayElementsII.java[Java]
+|{doc_base_url}/0462-minimum-moves-to-equal-array-elements-ii.adoc[Note]
+|Medium
+|快速选择
+
 //|463
 //|{leetcode_base_url}/island-perimeter/[Island Perimeter]
 //|{source_base_url}/_0463_IslandPerimeter.java[Java]

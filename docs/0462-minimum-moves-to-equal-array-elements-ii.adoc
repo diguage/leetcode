@@ -1,3 +1,4 @@
+[#0462-minimum-moves-to-equal-array-elements-ii]
 = 462. Minimum Moves to Equal Array Elements II
 
 https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/[LeetCode - Minimum Moves to Equal Array Elements II]
@@ -22,6 +23,9 @@ Only two moves are needed (remember each move increments or decrements one eleme
 ----
 
 
+没想到这里竟然还可以用上快速排序中的变体：快速选择！
+
+相关问题请看： xref:0215-kth-largest-element-in-an-array.adoc[215. Kth Largest Element in an Array]。
 
 [[src-0462]]
 [{java_src_attr}]
