@@ -83,7 +83,7 @@ public class _0215_KthLargestElementInAnArray {
      *
      * Memory Usage: 41.4 MB, less than 5.18% of Java online submissions for Kth Largest Element in an Array.
      *
-     * Copy from: https://leetcode-cn.com/problems/kth-largest-element-in-an-array/solution/shu-zu-zhong-de-di-kge-zui-da-yuan-su-by-leetcode/[数组中的第 K 个最大元素 - 数组中的第K个最大元素 - 力扣（LeetCode）]
+     * Copy from: https://leetcode.cn/problems/kth-largest-element-in-an-array/solutions/307351/shu-zu-zhong-de-di-kge-zui-da-yuan-su-by-leetcode-/[数组中的第K个最大元素-题解^]
      */
     public int findKthLargest(int[] nums, int k) {
         this.nums = nums;

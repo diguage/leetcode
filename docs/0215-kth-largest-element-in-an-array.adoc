@@ -1,10 +1,11 @@
+[#0215-kth-largest-element-in-an-array]
 = 215. Kth Largest Element in an Array
 
 https://leetcode.com/problems/kth-largest-element-in-an-array/[LeetCode - Kth Largest Element in an Array]
 
 没想到竟然可以使用快排的套路来解决这个问题。
 
-image::images/0215-1.gif[]
+image::images/0215-01.gif[]
 
 == 参考资料
 
@@ -41,4 +42,10 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 ----
 include::{sourcedir}/_0215_KthLargestElementInAnArray.java[]
 ----
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0215_KthLargestElementInAnArray_2.java[]
+----
+
 
