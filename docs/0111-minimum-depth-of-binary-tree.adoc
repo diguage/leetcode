@@ -1,3 +1,4 @@
+[#0111-minimum-depth-of-binary-tree]
 = 111. Minimum Depth of Binary Tree
 
 https://leetcode.com/problems/minimum-depth-of-binary-tree/[LeetCode - Minimum Depth of Binary Tree]
@@ -42,3 +43,18 @@ return its minimum depth = 2.
 include::{sourcedir}/_0111_MinimumDepthOfBinaryTree.java[]
 ----
 
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0111_MinimumDepthOfBinaryTree_2.java[]
+----
+
+
+TIP: 可以换个角度理解这道题：使用 Morris 遍历树时，遍历到每个节点时，计算该节点的深度，然后从中筛选出叶子阶段的深度，取最小值即可。
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0111_MinimumDepthOfBinaryTree_Morris.java[]
+----
+
+竟然在 LeetCode 中文站点没有找到使用 Morris 遍历方法处理的解答。
