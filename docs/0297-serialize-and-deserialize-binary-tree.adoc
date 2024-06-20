@@ -1,3 +1,4 @@
+[#0297-serialize-and-deserialize-binary-tree]
 = 297. Serialize and Deserialize Binary Tree
 
 https://leetcode.com/problems/serialize-and-deserialize-binary-tree/[LeetCode - Serialize and Deserialize Binary Tree]
@@ -36,4 +37,37 @@ as `"[1,2,3,null,null,4,5]"`
 ----
 include::{sourcedir}/_0297_SerializeAndDeserializeBinaryTree.java[]
 ----
+
+.前序遍历序列化
+[{java_src_attr}]
+----
+include::{sourcedir}/_0297_SerializeAndDeserializeBinaryTree_2.java[]
+----
+
+这里有一个思维误区：总感觉如果二叉树有大量空节点（比如左子树只有左边有值，右子树只要右边有值），无法正常进行序列化！但是，实际这里是错误的感觉！在进行递归序列化时，递归调用到每棵树时，会被当前节点的左右节点都做一下序列化，那么没有值的节点会被处理成 `#`，这样，当前节点和左右子节点都会被标识出来。不会漏标或者错标。另外需要注意，叶子节点也会产生两个 `#` 值来表示叶子节点的子节点，这点和前序遍历不一样。看下图：
+
+image::images/0297-01.png[]
+
+image::images/0297-02.png[]
+
+image::images/0297-03.png[]
+
+image::images/0297-04.png[]
+
+image::images/0297-05.png[]
+
+image::images/0297-06.png[]
+
+image::images/0297-07.png[]
+
+image::images/0297-08.png[]
+
+image::images/0297-09.png[]
+
+image::images/0297-10.png[]
+
+image::images/0297-11.png[]
+
+image::images/0297-12.png[]
+
 

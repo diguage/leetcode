@@ -2087,7 +2087,7 @@
 |{source_base_url}/_0297_SerializeAndDeserializeBinaryTree.java[Java]
 |{doc_base_url}/0297-serialize-and-deserialize-binary-tree.adoc[Note]
 |Hard
-|
+|注意思维误区！
 
 //|298
 //|{leetcode_base_url}/binary-tree-longest-consecutive-sequence/[Binary Tree Longest Consecutive Sequence]

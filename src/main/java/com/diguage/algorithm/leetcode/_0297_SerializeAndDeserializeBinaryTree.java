@@ -13,7 +13,7 @@ import java.util.Queue;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2020-06-16 22:01
  */
-class Codec {
+public class _0297_SerializeAndDeserializeBinaryTree {
 
   // Encodes a tree to a single string.
   public String serialize(TreeNode root) {
