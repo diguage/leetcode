@@ -1,3 +1,4 @@
+[#0112-path-sum]
 = 112. Path Sum
 
 https://leetcode.com/problems/path-sum/[LeetCode - Path Sum]
@@ -38,3 +39,14 @@ return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
 include::{sourcedir}/_0112_PathSum.java[]
 ----
 
+[{java_src_attr}]
+----
+include::{sourcedir}/_0112_PathSum_2.java[]
+----
+
+很简单的一道题。本来是想找另外一道题（见 <<0112-additional-question>>），结果找到了这道题。
+
+[#0112-additional-question]
+== 思考题
+
+给定一颗二叉树和一个整数 sum，求累加和为 sum 的最长路径长度。路径是指从某个节点往下，每次最多选择一个孩子节点或者不选所形成的节点链。

@@ -12,7 +12,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/path-sum-ii/[Path Sum II - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-07 22:31
  */
 public class _0113_PathSumII {

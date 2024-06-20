@@ -3066,8 +3066,8 @@
 |{leetcode_base_url}/path-sum-iii/[Path Sum III]
 |{source_base_url}/_0437_PathSumIII.java[Java]
 |{doc_base_url}/0437-path-sum-iii.adoc[Note]
-|Easy
-|
+|Medium
+|前缀和解法还需要多思考！
 
 |438
 |{leetcode_base_url}/find-all-anagrams-in-a-string/[Find All Anagrams in a String]

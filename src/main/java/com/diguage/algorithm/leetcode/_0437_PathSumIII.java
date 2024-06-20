@@ -12,7 +12,7 @@ import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
  *
  * https://leetcode.com/problems/path-sum-iii/[Path Sum III - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-28 23:06
  */
 public class _0437_PathSumIII {

@@ -1,3 +1,4 @@
+[#0437-path-sum-iii]
 = 437. Path Sum III
 
 https://leetcode.com/problems/path-sum-iii/[LeetCode - Path Sum III]
@@ -7,6 +8,8 @@ You are given a binary tree in which each node contains an integer value.
 Find the number of paths that sum to a given value.
 
 The path does not need to start or end at the root or a leaf, but it must go downwards (traveling only from parent nodes to child nodes).
+
+image::images/0437-00.jpg[]
 
 The tree has no more than 1,000 nodes and the values are in the range -1,000,000 to 1,000,000.
 
@@ -68,4 +71,27 @@ Return 3. The paths that sum to 8 are:
 ----
 include::{sourcedir}/_0437_PathSumIII.java[]
 ----
+
+.错误提交
+[{java_src_attr}]
+----
+include::{sourcedir}/_0437_PathSumIII_2.java[]
+----
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0437_PathSumIII_21.java[]
+----
+
+== 前缀和解法
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0437_PathSumIII_22.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/path-sum-iii/solutions/596361/dui-qian-zhui-he-jie-fa-de-yi-dian-jie-s-dey6/[437. 路径总和 III / 对前缀和解法的一点解释^]
+. https://leetcode.cn/problems/path-sum-iii/solutions/100992/qian-zhui-he-di-gui-hui-su-by-shi-huo-de-xia-tian/[437. 路径总和 III / 前缀和，递归，回溯^]
 
