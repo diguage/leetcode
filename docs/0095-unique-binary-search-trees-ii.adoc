@@ -1,3 +1,4 @@
+[#0095-unique-binary-search-trees-ii]
 = 95. Unique Binary Search Trees II
 
 https://leetcode.com/problems/unique-binary-search-trees-ii/[LeetCode - Unique Binary Search Trees II]
@@ -33,4 +34,6 @@ The above output corresponds to the 5 unique BST's shown below:
 ----
 include::{sourcedir}/_0095_UniqueBinarySearchTreesII.java[]
 ----
+
+这道题用到了回溯思想！昨天突击，又重新看了一遍回溯。有个模糊影响，但是还是要加强练习。
 

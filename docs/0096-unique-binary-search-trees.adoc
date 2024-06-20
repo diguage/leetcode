@@ -1,3 +1,4 @@
+[#0096-unique-binary-search-trees]
 = 96. Unique Binary Search Trees
 
 :stem: latexmath
@@ -29,13 +30,47 @@ Given n = 3, there are a total of 5 unique BST's:
 
 给定序列 `1 ... n`，我们选出数字 `i` 作为根，则对于根 `i` 的不同二叉搜索树数量 latexmath:[F(i, n)]，是左右子树个数的笛卡尔积，如下图所示:
 
-image::images/0096-1.png[]
+image::images/0096-01.png[]
+
+image::images/0096-02.png[]
+
+== 公式推到过程
+
+[asciimath]
+++++
+
+G_{(n)} \text { 长度为 n 的序列能构成的不同二叉搜索树的个数 }
+
+
+F_{(i, n)} \text { 以 i 为根、序列长度为 n 的不同二叉搜索树个数 (1≤i≤n)。 }
+
+
+G_{n}=\sum_{i=1}^{n} F_{(i, n)} = F_{(1, n)} + F_{(2, n)} + ... + F_{(n-1, n)} + F_{(n, n)}
+
+
+F_{(i, n)} = G_{(i-1)} \cdot G_{(n-i)}
+
+
+G_{(n)} = \sum_{i=1}^n G_{(i-1)} \cdot G_{(n-i)} = G_{0} \cdot G_{(n-1)} + ... + G_{(n-1)} \cdot G_{0}
+
+
+C_{n+1}=\frac{2(2 n+1)}{n+2} C_{n}   \text { 明安图数 或 卡特兰数}
+++++
+
+TIP: 注意：题目要是二叉搜索树！
 
 没想到这里还埋了一个数学知识：Catalan number：
 
 [asciimath]
 ++++
 C_{0}=1 \quad \text { and } \quad C_{n+1}=\sum_{i=0}^{n} C_{i} C_{n-i} \quad \text { for } n \geq 0
+
+
+C_{0}=1 \text { and } C_{1}=1
+
+
+C_{n}=\sum_{i=1}^{n} C_{i-1} C_{n-i} \quad
+
 
 C_{0}=1, \quad C_{n+1}=\frac{2(2 n+1)}{n+2} C_{n}
 ++++
@@ -71,5 +106,11 @@ Given _n_, how many structurally unique *BST's* (binary search trees) that store
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0096_UniqueBinarySearchTrees.java[]
+----
+
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0096_UniqueBinarySearchTrees_2.java[]
 ----
 

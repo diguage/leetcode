@@ -668,12 +668,12 @@
 |Medium
 |
 
-//|95
-//|{leetcode_base_url}/unique-binary-search-trees-ii/[Unique Binary Search Trees II]
-//|{source_base_url}/_0095_UniqueBinarySearchTreesII.java[Java]
-//|{doc_base_url}/0095-unique-binary-search-trees-ii.adoc[Note]
-//|Medium
-//|
+|95
+|{leetcode_base_url}/unique-binary-search-trees-ii/[Unique Binary Search Trees II]
+|{source_base_url}/_0095_UniqueBinarySearchTreesII.java[Java]
+|{doc_base_url}/0095-unique-binary-search-trees-ii.adoc[Note]
+|Medium
+|
 
 |96
 |{leetcode_base_url}/unique-binary-search-trees/[Unique Binary Search Trees]
