@@ -1,4 +1,7 @@
-= Tree Breadth First Search，树上的BFS
+[#breadth-first-search]
+= Tree Breadth First Search 广度优先搜索
+
+== Tree Breadth First Search，树上的BFS
 
 这种模式基于宽搜（Breadth First Search (BFS)），适用于需要遍历一颗树。借助于队列数据结构，从而能保证树的节点按照他们的层数打印出来。打印完当前层所有元素，才能执行到下一层。所有这种需要遍历树且需要一层一层遍历的问题，都能用这种模式高效解决。
 

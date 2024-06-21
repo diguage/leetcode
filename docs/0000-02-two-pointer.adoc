@@ -1,4 +1,4 @@
-[#0000-backtrack]
+[#two-pointer]
 = Two Pointer
 
 . 76. Minimum Window Substring
