@@ -12,6 +12,7 @@ include::0000-21-dp-4-palindromic-subsequence.adoc[leveloffset=+1]
 include::0000-21-dp-5-longest-common-substring.adoc[leveloffset=+1]
 
 
+[#tree-dp-trick]
 == 树形 DP 套路
 
 树形 DP 套路使用前提：如果题目求解目标是 S 规则，则求解释流程可以定成以每一个节点为头节点的子树在 S 规则下的每一个答案，并且最终答案一定就在其中。

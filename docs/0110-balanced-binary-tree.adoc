@@ -1,3 +1,4 @@
+[#0110-balanced-binary-tree]
 = 110. Balanced Binary Tree
 
 https://leetcode.com/problems/balanced-binary-tree/[LeetCode - Balanced Binary Tree]
@@ -55,12 +56,30 @@ Return false.
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/balanced-binary-tree/solution/balanced-binary-tree-di-gui-fang-fa-by-jin40789108/[Balanced Binary Tree （Top-down和Bottom-up递归方法） - 平衡二叉树 - 力扣（LeetCode）]
+. https://leetcode.cn/problems/balanced-binary-tree/solutions/8737/balanced-binary-tree-di-gui-fang-fa-by-jin40789108/[Balanced Binary Tree （Top-down和Bottom-up递归方法） - 平衡二叉树 - 力扣（LeetCode）]
 
 
 [[src-0110]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0110_BalancedBinaryTree.java[]
+----
+
+== 基于树形 DP 套路解法
+
+这个解法参考了：xref:0000-21-dynamic-programming.adoc[动态规划] 中介绍的 “树形 DP 套路” 解法。
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0110_BalancedBinaryTree_2.java[]
+----
+
+== 剪枝优化后的解法
+
+参考论坛中大家的讨论，可以在发现不平衡时，就及时返回，停止执行其他相关递归调用，起到“剪枝”的作用。同时，时间复杂度也可以做到最好。
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0110_BalancedBinaryTree_21.java[]
 ----
 
