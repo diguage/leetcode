@@ -20,9 +20,9 @@ include::0000-05-cyclic-sort.adoc[leveloffset=+1]
 
 include::0000-06-reversed-list.adoc[leveloffset=+1]
 
-include::0000-07-bfs-breadth-first-search.adoc[leveloffset=+1]
+include::0000-07-breadth-first-search.adoc[leveloffset=+1]
 
-include::0000-08-dfs-depth-first-search.adoc[leveloffset=+1]
+include::0000-08-depth-first-search.adoc[leveloffset=+1]
 
 include::0000-09-two-heaps.adoc[leveloffset=+1]
 
@@ -48,15 +48,7 @@ include::0000-19-divide-and-conquer.adoc[leveloffset=+1]
 
 include::0000-20-transform-and-conquer.adoc[leveloffset=+1]
 
-include::0000-21-dp-1-0-1-knapsack.adoc[leveloffset=+1]
-
-include::0000-21-dp-2-unbounded-knapsack.adoc[leveloffset=+1]
-
-include::0000-21-dp-3-fibonacci-numbers.adoc[leveloffset=+1]
-
-include::0000-21-dp-4-palindromic-subsequence.adoc[leveloffset=+1]
-
-include::0000-21-dp-5-longest-common-substring.adoc[leveloffset=+1]
+include::0000-21-dynamic-programming.adoc[leveloffset=+1]
 
 // :sectnums:
 

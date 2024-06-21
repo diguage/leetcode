@@ -1,8 +1,5 @@
-[#dynamic-programming]
-= Dynamic Programming，动态规划
-
 [#0-1-knapsack]
-== 0/1 Knapsack，0/1背包
+= 0/1 Knapsack，0/1背包
 
 0/1 Knapsack，0/1背包问题
 
