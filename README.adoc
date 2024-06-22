@@ -3663,14 +3663,14 @@
 //|{doc_base_url}/0522-longest-uncommon-subsequence-ii.adoc[Note]
 //|Medium
 //|
-//
-//|523
-//|{leetcode_base_url}/continuous-subarray-sum/[Continuous Subarray Sum]
-//|{source_base_url}/_0523_ContinuousSubarraySum.java[Java]
-//|{doc_base_url}/0523-continuous-subarray-sum.adoc[Note]
-//|Medium
-//|
-//
+
+|523
+|{leetcode_base_url}/continuous-subarray-sum/[Continuous Subarray Sum]
+|{source_base_url}/_0523_ContinuousSubarraySum.java[Java]
+|{doc_base_url}/0523-continuous-subarray-sum.adoc[Note]
+|Medium
+|前缀和
+
 //|524
 //|{leetcode_base_url}/longest-word-in-dictionary-through-deleting/[Longest Word in Dictionary through Deleting]
 //|{source_base_url}/_0524_LongestWordInDictionaryThroughDeleting.java[Java]

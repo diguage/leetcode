@@ -1,3 +1,4 @@
+[#0523-continuous-subarray-sum]
 = 523. Continuous Subarray Sum
 
 https://leetcode.com/problems/continuous-subarray-sum/[LeetCode - Continuous Subarray Sum]
@@ -32,6 +33,24 @@ Given a list of *non-negative* numbers and a target *integer* k, write a functio
 . The length of the array won't exceed 10,000.
 . You may assume the sum of all the numbers is in the range of a signed 32-bit integer.
 
+
+== 解题分析
+
+利用同余定理：
+
+image::images/0523-01.png[]
+
+当 latexmath:[prefixSums[q\]−prefixSums[p\]] 为 latexmath:[k] 的倍数时，latexmath:[prefixSums[p\]] 和 latexmath:[prefixSums[q\]] 除以 latexmath:[k] 的余数相同。（_D瓜哥注：余数相同，则相减之后余数就被减掉了。_）因此只需要计算每个下标对应的前缀和除以 latexmath:[k] 的余数即可，使用哈希表存储每个余数第一次出现的下标。
+
+image::images/0523-02.png[]
+
+image::images/0523-03.png[]
+
+image::images/0523-04.png[]
+
+image::images/0523-05.png[]
+
+image::images/0523-06.png[]
 
 
 
