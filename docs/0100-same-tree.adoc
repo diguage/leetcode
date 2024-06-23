@@ -1,3 +1,4 @@
+[#0100-same-tree]
 = 100. Same Tree
 
 https://leetcode.com/problems/same-tree/[LeetCode - Same Tree]
@@ -97,3 +98,8 @@ Two binary trees are considered the same if they are structurally identical and 
 include::{sourcedir}/_0100_SameTree.java[]
 ----
 
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0100_SameTree_2.java[]
+----
