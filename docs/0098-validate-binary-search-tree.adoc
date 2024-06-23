@@ -1,3 +1,4 @@
+[#0098-validate-binary-search-tree]
 = 98. Validate Binary Search Tree
 
 https://leetcode.com/problems/validate-binary-search-tree/[LeetCode - Validate Binary Search Tree]
@@ -54,3 +55,26 @@ Assume a BST is defined as follows:
 include::{sourcedir}/_0098_ValidateBinarySearchTree.java[]
 ----
 
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0098_ValidateBinarySearchTree_2.java[]
+----
+
+直接使用“树形DP套路”+剪枝技巧，速度直接击败 100%。
+
+这里有一点需要注意：最大值最小值用 `Long.MIN_VALUE` 和 `Long.MAX_VALUE`，这样可以防止单节点树 `Integer.MAX_VALUE` （最小值的单节点树应该也会有问题）造成的错误。
+
+另外，查看了官方题解后，发现可以使用树的中序排列来检查（二叉搜索树中序排列是升序），这样跟前几天在牛客网上做的那个“发现二叉搜索树中的两个错误节点”的思路就一致了。回头尝试一下。
+
+image::images/0098-01.png[]
+
+image::images/0098-02.png[]
+
+image::images/0098-03.png[]
+
+image::images/0098-04.png[]
+
+== 参考资料
+
+. https://leetcode.cn/problems/validate-binary-search-tree/solutions/230256/yan-zheng-er-cha-sou-suo-shu-by-leetcode-solution/[98. 验证二叉搜索树 - 官方题解^]

@@ -694,7 +694,7 @@
 |{source_base_url}/_0098_ValidateBinarySearchTree.java[Java]
 |{doc_base_url}/0098-validate-binary-search-tree.adoc[Note]
 |Medium
-|
+|树形DP套路或中序遍历
 
 //|99
 //|{leetcode_base_url}/recover-binary-search-tree/[Recover Binary Search Tree]
