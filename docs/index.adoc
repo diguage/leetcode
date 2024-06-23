@@ -8,6 +8,8 @@ D瓜哥 <https://www.diguage.com/>
 
 include::0000-00-overview.adoc[leveloffset=+1]
 
+include::0000-data-structure-tree.adoc[leveloffset=+1]
+
 include::0000-01-sliding-window.adoc[leveloffset=+1]
 
 include::0000-02-two-pointer.adoc[leveloffset=+1]
@@ -49,6 +51,8 @@ include::0000-19-divide-and-conquer.adoc[leveloffset=+1]
 include::0000-20-transform-and-conquer.adoc[leveloffset=+1]
 
 include::0000-21-dynamic-programming.adoc[leveloffset=+1]
+
+include::0000-22-union-find-set.adoc[leveloffset=+1]
 
 // :sectnums:
 

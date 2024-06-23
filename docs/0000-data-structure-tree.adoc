@@ -1,0 +1,18 @@
+[#data-structure-tree]
+= 数据结构：树
+
+
+== Morris 遍历
+
+二叉搜索树相关的的一些题目，很可能就会利用中序遍历是升序序列的特性来处理一下问题。那么，在时间复杂度相同，但空间复杂度都特别优秀的 Morris 遍历就是一个很好的选择。
+
+image::images/0000-ds-tree-01.jpg[]
+
+. xref:0098-validate-binary-search-tree.adoc[98. Validate Binary Search Tree]
+. xref:0099-recover-binary-search-tree.adoc[99. Recover Binary Search Tree]
+
+TODO: 加强基于 Morris 遍历的前序和后序遍历练习。
+
+== 参考资料
+
+. https://leetcode.cn/problems/recover-binary-search-tree/solutions/365873/yi-wen-zhang-wo-morrisbian-li-suan-fa-by-a-fei-8/[99. 恢复二叉搜索树 - 一文掌握Morris遍历算法^]

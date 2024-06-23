@@ -8,3 +8,5 @@
 . 树形 DP 套路
 . 前缀和
 .. xref:0523-continuous-subarray-sum.adoc[523. Continuous Subarray Sum]
+. 树的 Morris 遍历
+.. TODO: 基于 Morris 遍历的中序排列已经掌握，前序，尤其是后续还需要加强。

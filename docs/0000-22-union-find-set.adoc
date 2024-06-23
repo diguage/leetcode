@@ -1,0 +1,7 @@
+[#union-find-set]
+= Union Find Set 查并集
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/redundant-connection/solutions/372045/yi-wen-zhang-wo-bing-cha-ji-suan-fa-by-a-fei-8/[684. 冗余连接 - 一文掌握并查集算法^]
