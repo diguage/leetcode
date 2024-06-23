@@ -1,3 +1,4 @@
+[#0713-subarray-product-less-than-k]
 = 713. Subarray Product Less Than K
 
 https://leetcode.com/problems/subarray-product-less-than-k/[LeetCode - Subarray Product Less Than K]
@@ -30,3 +31,11 @@ Note that [10, 5, 2] is not included as the product of 100 is not strictly less 
 include::{sourcedir}/_0713_SubarrayProductLessThanK.java[]
 ----
 
+image::images/0713-01.png[]
+
+== 参考资料
+
+. https://leetcode.cn/problems/subarray-product-less-than-k/solutions/1320871/jian-dan-yi-dong-xiang-xi-zhu-jie-shuang-jvy3/[713. 乘积小于 K 的子数组 - 官方思路秒懂○注释详细○双指针滑窗 【附通用滑窗模板】^]
+. https://leetcode.cn/problems/subarray-product-less-than-k/solutions/1373555/hua-dong-chuang-kou-by-fenjue-xvg5/[713. 乘积小于 K 的子数组 - 变长滑动窗口，理解窗口含义^]
+. https://leetcode.cn/problems/subarray-product-less-than-k/solutions/1389823/by-programmercoding-hqm4/[713. 乘积小于 K 的子数组 - 滑动窗口^]
+. https://leetcode.cn/problems/subarray-product-less-than-k/solutions/1959538/xia-biao-zong-suan-cuo-qing-kan-zhe-by-e-jebq/[713. 乘积小于 K 的子数组 - 【视频讲解】不定长滑窗：求方案数^]

@@ -4993,13 +4993,13 @@
 //|{doc_base_url}/0712-minimum-ascii-delete-sum-for-two-strings.adoc[Note]
 //|Medium
 //|
-//
-//|713
-//|{leetcode_base_url}/subarray-product-less-than-k/[Subarray Product Less Than K]
-//|{source_base_url}/_0713_SubarrayProductLessThanK.java[Java]
-//|{doc_base_url}/0713-subarray-product-less-than-k.adoc[Note]
-//|Medium
-//|
+
+|713
+|{leetcode_base_url}/subarray-product-less-than-k/[Subarray Product Less Than K]
+|{source_base_url}/_0713_SubarrayProductLessThanK.java[Java]
+|{doc_base_url}/0713-subarray-product-less-than-k.adoc[Note]
+|Medium
+|滑动窗口
 
 |714
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-with-transaction-fee/[Best Time to Buy and Sell Stock with Transaction Fee]
