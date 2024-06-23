@@ -1,3 +1,4 @@
+[#0099-recover-binary-search-tree]
 = 99. Recover Binary Search Tree
 
 https://leetcode.com/problems/recover-binary-search-tree/[LeetCode - Recover Binary Search Tree]
@@ -54,6 +55,32 @@ Recover the tree without changing its structure.
 * A solution using O(_n_) space is pretty straight forward.
 * Could you devise a constant space solution?
 
+== 思路分析
+
+二叉搜索树中序遍历时，就是一个升序排列的序列，在遍历过程中，就可以检查序列的大小。要求使用 O(1) 的空间复杂度，那么只能使用 Morris 遍历。
+
+image::images/0099-01.png[]
+
+image::images/0099-02.png[]
+
+image::images/0099-03.png[]
+
+image::images/0099-04.png[]
+
+image::images/0099-05.png[]
+
+image::images/0099-06.png[]
+
+image::images/0099-07.png[]
+
+image::images/0099-08.png[]
+
+image::images/0099-09.png[]
+
+image::images/0099-10.png[]
+
+image::images/0099-11.png[]
+
 
 [[src-0099]]
 [{java_src_attr}]
@@ -61,3 +88,7 @@ Recover the tree without changing its structure.
 include::{sourcedir}/_0099_RecoverBinarySearchTree.java[]
 ----
 
+
+== 参考资料
+
+. https://leetcode.cn/problems/recover-binary-search-tree/solutions/365385/hui-fu-er-cha-sou-suo-shu-by-leetcode-solution/[99. 恢复二叉搜索树 - 官方题解^]

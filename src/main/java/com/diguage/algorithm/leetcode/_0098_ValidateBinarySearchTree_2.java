@@ -6,6 +6,10 @@ import java.util.Arrays;
 
 import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
 
+/**
+ * @author D瓜哥 · https://www.diguage.com
+ * @since 2024-06-23 16:38:11
+ */
 public class _0098_ValidateBinarySearchTree_2 {
   public boolean isValidBST(TreeNode root) {
     return dfs(root).valid;

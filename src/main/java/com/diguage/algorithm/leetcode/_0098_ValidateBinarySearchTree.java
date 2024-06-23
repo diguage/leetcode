@@ -45,7 +45,7 @@ import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
  * Explanation: The root node's value is 5 but its right child's value is 4.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-24 19:06
  */
 public class _0098_ValidateBinarySearchTree {

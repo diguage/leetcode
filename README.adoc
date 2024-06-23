@@ -696,12 +696,12 @@
 |Medium
 |树形DP套路或中序遍历
 
-//|99
-//|{leetcode_base_url}/recover-binary-search-tree/[Recover Binary Search Tree]
-//|{source_base_url}/_0099_RecoverBinarySearchTree.java[Java]
-//|{doc_base_url}/0099-recover-binary-search-tree.adoc[Note]
-//|Hard
-//|
+|99
+|{leetcode_base_url}/recover-binary-search-tree/[Recover Binary Search Tree]
+|{source_base_url}/_0099_RecoverBinarySearchTree.java[Java]
+|{doc_base_url}/0099-recover-binary-search-tree.adoc[Note]
+|Medium
+|Morris遍历
 
 |100
 |{leetcode_base_url}/same-tree/[Same Tree]
