@@ -3928,7 +3928,7 @@
 |{source_base_url}/_0560_SubarraySumEqualsK.java[Java]
 |{doc_base_url}/0560-subarray-sum-equals-k.adoc[Note]
 |Medium
-|
+|前缀和
 
 //|561
 //|{leetcode_base_url}/array-partition-i/[Array Partition I]

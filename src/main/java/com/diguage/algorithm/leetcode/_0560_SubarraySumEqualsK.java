@@ -9,7 +9,7 @@ import java.util.Objects;
  *
  * https://leetcode.com/problems/subarray-sum-equals-k/[Subarray Sum Equals K - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-30 23:14
  */
 public class _0560_SubarraySumEqualsK {

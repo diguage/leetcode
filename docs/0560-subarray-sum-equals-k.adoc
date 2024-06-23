@@ -25,17 +25,40 @@ Given an array of integers and an integer **k**, you need to find the total numb
 
 在完成遍历数组后，`count` 记录了所需结果
 
+基于一个idea：`sum[j] - sum[i] == k` 的话，`nums[i+1, j]` 之间数字的和就是 `k`。
+
+image::images/0560-01.png[]
+
+image::images/0560-02.png[]
+
+image::images/0560-03.png[]
+
+image::images/0560-04.png[]
+
+image::images/0560-05.png[]
+
+image::images/0560-06.png[]
+
+image::images/0560-07.png[]
+
+image::images/0560-08.png[]
+
+image::images/0560-09.png[]
+
 [[src-0560]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0560_SubarraySumEqualsK.java[]
 ----
 
-这个方法是基于一个idea：`sum[j] - sum[i] == k` 的话，`nums[i, j ]` 之间数字的和就是 `k`。
+[{java_src_attr}]
+----
+include::{sourcedir}/_0560_SubarraySumEqualsK_2.java[]
+----
 
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/subarray-sum-equals-k/solution/he-wei-kde-zi-shu-zu-by-leetcode/[和为K的子数组 - 和为K的子数组 - 力扣（LeetCode）]
+. https://leetcode.cn/problems/continuous-subarray-sum/solutions/807930/lian-xu-de-zi-shu-zu-he-by-leetcode-solu-rdzi/[和为K的子数组 - 和为K的子数组 - 官方题解^]
 
 
