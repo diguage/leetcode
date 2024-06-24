@@ -1,3 +1,4 @@
+[#0101-symmetric-tree.adoc]
 = 101. Symmetric Tree
 
 https://leetcode.com/problems/symmetric-tree/[LeetCode - Symmetric Tree]
@@ -38,10 +39,37 @@ But the following `[1,2,2,null,3,null,3]` is not:
 
 Bonus points if you could solve it both recursively and iteratively.
 
+== 思路分析
+
+image::images/0101-00.png[]
+
+image::images/0101-01.png[]
+
+image::images/0101-02.png[]
+
+image::images/0101-03.png[]
+
+image::images/0101-04.png[]
+
+image::images/0101-05.png[]
+
+image::images/0101-06.png[]
+
+image::images/0101-07.png[]
+
+image::images/0101-08.png[]
+
+image::images/0101-09.png[]
+
 
 [[src-0101]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0101_SymmetricTree.java[]
+----
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0101_SymmetricTree_2.java[]
 ----
 
