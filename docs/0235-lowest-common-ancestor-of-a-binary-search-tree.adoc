@@ -37,7 +37,23 @@ image::https://assets.leetcode.com/uploads/2018/12/14/binarysearchtree_improved.
 * All of the nodes' values will be unique.
 * p and q are different and both values will exist in the BST.
 
+== 思路分析
 
+要充分利用二叉搜索树的特性：左大右小，如果根节点大于两个指定节点的值，那么公共祖先就在左子树上；如果根节点小于两个指定节点的值，那么公共祖先就在右子树上；否则就是他们的公共祖先节点。
+
+image::images/0235-00.png[]
+
+image::images/0235-01.png[]
+
+image::images/0235-02.png[]
+
+image::images/0235-03.png[]
+
+image::images/0235-04.png[]
+
+image::images/0235-05.png[]
+
+image::images/0235-06.png[]
 
 
 [[src-0235]]
@@ -45,4 +61,10 @@ image::https://assets.leetcode.com/uploads/2018/12/14/binarysearchtree_improved.
 ----
 include::{sourcedir}/_0235_LowestCommonAncestorOfABinarySearchTree.java[]
 ----
+
+== 参考资料
+
+. https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/solutions/428633/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-26/[235. 二叉搜索树的最近公共祖先 - 官方题解^]
+. https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/solutions/2361725/235-er-cha-sou-suo-shu-de-zui-jin-gong-g-qqck/[235. 二叉搜索树的最近公共祖先 - 深度优先搜索，清晰图解^]
+. https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/solutions/428739/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-3c/[235. 二叉搜索树的最近公共祖先 - 3种解决方式^] -- 根节点与两个节点的差值相乘，如果小于 `0` 则节点分布在左右子树上，当前根节点就是公共祖先节点。
 

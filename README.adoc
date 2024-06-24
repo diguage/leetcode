@@ -1648,12 +1648,12 @@
 |Easy
 |
 
-//|235
-//|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-search-tree/[Lowest Common Ancestor of a Binary Search Tree]
-//|{source_base_url}/_0235_LowestCommonAncestorOfABinarySearchTree.java[Java]
-//|{doc_base_url}/0235-lowest-common-ancestor-of-a-binary-search-tree.adoc[Note]
-//|Easy
-//|
+|235
+|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-search-tree/[Lowest Common Ancestor of a Binary Search Tree]
+|{source_base_url}/_0235_LowestCommonAncestorOfABinarySearchTree.java[Java]
+|{doc_base_url}/0235-lowest-common-ancestor-of-a-binary-search-tree.adoc[Note]
+|Easy
+|二叉搜索树左大右小的特性
 
 |236
 |{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree/[Lowest Common Ancestor of a Binary Tree]
