@@ -73,3 +73,8 @@ include::{sourcedir}/_0101_SymmetricTree.java[]
 include::{sourcedir}/_0101_SymmetricTree_2.java[]
 ----
 
+== 参考资料
+
+. https://leetcode.cn/problems/symmetric-tree/solutions/268109/dui-cheng-er-cha-shu-by-leetcode-solution/[101. 对称二叉树 - 官方题解^]
+. https://leetcode.cn/problems/symmetric-tree/solutions/2361627/101-dui-cheng-er-cha-shu-fen-zhi-qing-xi-8oba/[101. 对称二叉树 - 深度优先搜索，清晰图解^]
+
