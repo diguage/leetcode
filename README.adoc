@@ -771,7 +771,7 @@
 |{source_base_url}/_0109_ConvertSortedListToBinarySearchTree.java[Java]
 |{doc_base_url}/0109-convert-sorted-list-to-binary-search-tree.adoc[Note]
 |Medium
-|
+|分治+中序遍历
 
 |110
 |{leetcode_base_url}/balanced-binary-tree/[Balanced Binary Tree]

@@ -25,7 +25,9 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 
 这道题跟 xref:0108-convert-sorted-array-to-binary-search-tree.adoc[108. Convert Sorted Array to Binary Search Tree] 类似。可以转化成数组（或链表）进行求解。这属于空间换时间的解法。
 
-另外一种解法，就是使用快满指针，找到中间节点，然后再构造二叉树。
+另外一种解法，就是使用快慢指针，找到中间节点，然后再构造二叉树。
+
+还有一种解法：利用分治+中序遍历，先逐步构建左树，然后构建根节点，最后构建右树。
 
 == 参考资料
 
@@ -36,5 +38,16 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0109_ConvertSortedListToBinarySearchTree.java[]
+----
+
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0109_ConvertSortedListToBinarySearchTree_2.java[]
+----
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0109_ConvertSortedListToBinarySearchTree_21.java[]
 ----
 
