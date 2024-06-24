@@ -1,4 +1,4 @@
-[#dynamic-programming]
+[#0000-21-dynamic-programming]
 = Dynamic Programming，动态规划
 
 include::0000-21-dp-1-0-1-knapsack.adoc[leveloffset=+1]
