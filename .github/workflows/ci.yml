@@ -29,6 +29,9 @@ jobs:
           cd docs
           sed -i 's/xref:\([^\.]*\).adoc\[[^:]*\]/<<\1>>/g' *.adoc
           cd ..
+      # 处理 sed 不支持非贪婪模式
+      # https://stackoverflow.com/a/46719361
+      # https://stackoverflow.com/a/1103159
 
       - name: Build 🔧
         run: |
