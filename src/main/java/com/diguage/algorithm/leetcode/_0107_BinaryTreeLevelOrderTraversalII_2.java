@@ -41,7 +41,7 @@ public class _0107_BinaryTreeLevelOrderTraversalII_2 {
           queue.offer(node.right);
         }
       }
-      result.addFirst(level);
+      result.add(0, level);
     }
     return result;
   }

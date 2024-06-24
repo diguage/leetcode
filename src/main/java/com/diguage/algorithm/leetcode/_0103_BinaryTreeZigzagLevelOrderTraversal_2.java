@@ -56,9 +56,9 @@ public class _0103_BinaryTreeZigzagLevelOrderTraversal_2 {
       for (int i = 0; i < size; i++) {
         TreeNode node = queue.poll();
         if (reversed) {
-          list.addFirst(node.val);
+          list.add(0, node.val);
         } else {
-          list.addLast(node.val);
+          list.add(node.val);
         }
         if (node.left != null) {
           queue.offer(node.left);
