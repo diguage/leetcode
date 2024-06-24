@@ -24,8 +24,15 @@ jobs:
           sudo apt update -y -m
           sudo apt install -y graphviz
 
+      - name: Improve Document 📝
+        run: |
+          cd docs
+          sed -i 's/xref:\([^\.]*\).adoc\[[^:]*\]/<<\1>>/g' *.adoc
+          cd ..
+
       - name: Build 🔧
-        run: mvn clean package
+        run: |
+          mvn clean package
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
