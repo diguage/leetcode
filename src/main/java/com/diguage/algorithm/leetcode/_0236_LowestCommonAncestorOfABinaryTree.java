@@ -40,7 +40,7 @@ import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
  * All of the nodes' values will be unique.
  * p and q are different and both values will exist in the binary tree.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-26 21:14
  */
 public class _0236_LowestCommonAncestorOfABinaryTree {

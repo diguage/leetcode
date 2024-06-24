@@ -1,3 +1,4 @@
+[#0235-lowest-common-ancestor-of-a-binary-search-tree]
 = 235. Lowest Common Ancestor of a Binary Search Tree
 
 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/[LeetCode - Lowest Common Ancestor of a Binary Search Tree]
@@ -61,6 +62,8 @@ image::images/0235-06.png[]
 ----
 include::{sourcedir}/_0235_LowestCommonAncestorOfABinarySearchTree.java[]
 ----
+
+作为这道题的延伸，继续看 xref:0236-lowest-common-ancestor-of-a-binary-tree.adoc[236. Lowest Common Ancestor of a Binary Tree]。
 
 == 参考资料
 
