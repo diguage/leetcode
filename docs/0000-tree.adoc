@@ -1,6 +1,8 @@
 [#0000-tree]
 = 树
 
+image::images/0000-ds-tree-00.png[]
+
 树的遍历，如果用递归，代码写起来很简单。但是用遍历，又该如何做呢？
 
 凡是用递归能解决的问题，都可以使用遍历来解决。用递归来求解问题，无非就是使用了方法栈来保存相关信息。同样，可以使用 `Stack` 来自己动手维护这些信息。例如：
@@ -12,6 +14,27 @@ xref:0144-binary-tree-preorder-traversal.adoc[144. Binary Tree Preorder Traversa
 
 将一棵搜索二叉树按后序遍历生成一个数组。那么，数组最后一个元素就是根节点，同时，从后向前遍历，第一个小于根节点值的地方就是左右树的分界线。然后再递归解析。就可以重建这棵搜索二叉树了。
 
+== 需要加强的内容
+
+. 基于 Morris 遍历的前序和后序遍历练习
+. 前中后根遍历的非递归实现
+.
+
+== 技巧或者隐藏知识点
+
+. 非递归法后序遍历，可以用一个取巧的办法，套用一下前序遍历，前序遍历是根左右，后序遍历是左右根，我们只需要将前序遍历的结果反转一下，就是根左右。如果使用Java实现，可以在链表上做文章，将尾插改成头插也是一样的效果。
+. 归并排序和二叉树后根遍历的递归顺序是一样的。
+
+
+== Morris 遍历
+
+二叉搜索树相关的的一些题目，很可能就会利用中序遍历是升序序列的特性来处理一下问题。那么，在时间复杂度相同，但空间复杂度都特别优秀的 Morris 遍历就是一个很好的选择。
+
+image::images/0000-ds-tree-01.jpg[]
+
+. xref:0098-validate-binary-search-tree.adoc[98. Validate Binary Search Tree]
+. xref:0099-recover-binary-search-tree.adoc[99. Recover Binary Search Tree]
+
 == 树形 DP 套路
 
 树形 DP 套路使用前提：如果题目求解目标是 S 规则，则求解流程可以定成以每一个节点为头节点的子树在 S 规则下的每一个答案，并且最终答案一定在其中。
@@ -20,3 +43,7 @@ xref:0144-binary-tree-preorder-traversal.adoc[144. Binary Tree Preorder Traversa
 . 根据第一步的可能性分析，列出所有需要的信息。
 . 合并第二步的信息，对左树和右树提出同样的要求，并写出信息结构。
 . 设计递归函数，递归函数是处理以 X 为头节点的情况下的答案，包括设计递归的 base case，默认直接得到左树和右树的所有信息，以及把可能性整合，并且要返回第三步的信息结构这四个小步骤。
+
+== 参考资料
+
+. https://leetcode.cn/problems/recover-binary-search-tree/solutions/365873/yi-wen-zhang-wo-morrisbian-li-suan-fa-by-a-fei-8/[99. 恢复二叉搜索树 - 一文掌握Morris遍历算法^]
