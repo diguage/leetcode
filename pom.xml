@@ -28,6 +28,7 @@
     <asciidoctorj-epub3.version>2.1.3</asciidoctorj-epub3.version>
     <asciidoctorj-diagram.version>2.3.0</asciidoctorj-diagram.version>
     <asciidoctor-multipage.version>0.0.19</asciidoctor-multipage.version>
+    <rouge.version>4.3.0</rouge.version>
     <asciidoctor-comment-links.version>0.0.2</asciidoctor-comment-links.version>
     <asciidoclet.version>2.0.0</asciidoclet.version>
     <asciidoctor-maven-plugin.version>3.0.0</asciidoctor-maven-plugin.version>
@@ -42,6 +43,12 @@
   </properties>
 
   <dependencies>
+    <!--<dependency>-->
+    <!--  <groupId>rubygems</groupId>-->
+    <!--  <artifactId>rouge</artifactId>-->
+    <!--  <version>${rouge.version}</version>-->
+    <!--  <type>gem</type>-->
+    <!--</dependency>-->
     <dependency>
       <groupId>rubygems</groupId>
       <artifactId>asciidoctor-multipage</artifactId>
@@ -409,8 +416,6 @@
             <source-highlighter>rouge</source-highlighter>
             <rouge-style>github</rouge-style>
             <imagesdir>.</imagesdir>
-            <docinfo>true</docinfo>
-            <docinfodir>assets/tags</docinfodir>
             <icons>font</icons>
             <linkcss>true</linkcss>
             <stylesdir>assets/styles</stylesdir>
@@ -448,6 +453,7 @@
               <outputDirectory>${project.build.directory}/docs/multipage</outputDirectory>
               <attributes>
                 <toc>left</toc>
+                <docinfo1>true</docinfo1>
               </attributes>
             </configuration>
           </execution>
@@ -464,6 +470,7 @@
           <!--     <outputDirectory>${project.build.directory}/docs/html</outputDirectory>-->
           <!--     <attributes>-->
           <!--       <toc>left</toc>-->
+          <!--       <docinfo1>true</docinfo1>-->
           <!--     </attributes>-->
           <!--     <gemPath>${gem.path}</gemPath>-->
           <!--     <requires>-->
