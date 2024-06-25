@@ -50,6 +50,7 @@ Longest Subarray with Ones after Replacement (hard)
 
 [source]
 ----
+// @author D瓜哥 · https://www.diguage.com
 int left = 0, right = 0;
 
 while (right < s.size()) {

@@ -26,3 +26,5 @@ buildNumber.properties
 *.otf
 
 /cfg/gems
+
+*.html
