@@ -27,7 +27,7 @@ package com.diguage.algorithm.leetcode;
  * You may assume k is always valid, 1 ≤ k ≤ n2.
  *
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-23 18:08
  */
 public class _0378_KthSmallestElementInASortedMatrix {

@@ -29,7 +29,7 @@ package com.diguage.algorithm.leetcode;
  * . There is only one duplicate number in the array, but it could be repeated more than once.
  *
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-05 22:52
  */
 public class _0287_FindTheDuplicateNumber {

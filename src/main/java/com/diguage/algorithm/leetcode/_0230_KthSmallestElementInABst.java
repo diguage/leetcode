@@ -45,7 +45,7 @@ import java.util.*;
  *
  * What if the BST is modified (insert/delete operations) often and you need to find the kth smallest frequently? How would you optimize the kthSmallest routine?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-22 08:27
  */
 public class _0230_KthSmallestElementInABst {

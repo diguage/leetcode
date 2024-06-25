@@ -5,7 +5,7 @@ package com.diguage.algorithm.leetcode;
  * <p>
  * https://leetcode.com/problems/integer-break/[Integer Break - LeetCode^]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-04-26 16:38
  */
 public class _0343_IntegerBreak {

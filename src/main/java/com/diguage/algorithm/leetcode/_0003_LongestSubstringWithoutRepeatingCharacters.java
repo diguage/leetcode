@@ -38,7 +38,7 @@ import java.util.Set;
  * Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-07-11 21:31
  */
 public class _0003_LongestSubstringWithoutRepeatingCharacters {

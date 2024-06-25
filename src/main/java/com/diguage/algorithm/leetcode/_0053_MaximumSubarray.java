@@ -22,7 +22,7 @@ import java.util.Objects;
  *
  * If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-23 11:47
  */
 public class _0053_MaximumSubarray {

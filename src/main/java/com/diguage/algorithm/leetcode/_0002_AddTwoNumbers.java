@@ -27,7 +27,7 @@ import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
  * Explanation: 342 + 465 = 807.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-09-17 11:42
  */
 public class _0002_AddTwoNumbers {

@@ -24,7 +24,7 @@ import java.util.Arrays;
  * Output: [1,2,2,3,5,6]
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-25 00:43
  */
 public class _0088_MergeSortedArray {

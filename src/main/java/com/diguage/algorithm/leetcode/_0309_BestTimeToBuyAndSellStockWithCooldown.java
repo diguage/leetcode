@@ -5,7 +5,7 @@ package com.diguage.algorithm.leetcode;
  *
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/[Best Time to Buy and Sell Stock with Cooldown - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-28 15:16
  */
 public class _0309_BestTimeToBuyAndSellStockWithCooldown {

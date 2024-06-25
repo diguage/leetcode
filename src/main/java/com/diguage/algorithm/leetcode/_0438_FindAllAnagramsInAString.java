@@ -7,7 +7,7 @@ import java.util.*;
  *
  * https://leetcode.com/problems/find-all-anagrams-in-a-string/[Find All Anagrams in a String - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-30 12:24
  */
 public class _0438_FindAllAnagramsInAString {

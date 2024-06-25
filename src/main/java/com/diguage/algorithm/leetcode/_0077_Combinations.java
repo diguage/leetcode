@@ -7,7 +7,7 @@ import java.util.*;
  *
  * https://leetcode.com/problems/combinations/[Combinations - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-04 17:43
  */
 public class _0077_Combinations {

@@ -26,7 +26,7 @@ import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
  *
  * A linked list can be reversed either iteratively or recursively. Could you implement both?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-12 12:47
  */
 public class _0206_ReverseLinkedList {

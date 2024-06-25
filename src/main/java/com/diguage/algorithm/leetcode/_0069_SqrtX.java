@@ -27,7 +27,7 @@ package com.diguage.algorithm.leetcode;
  *              the decimal part is truncated, 2 is returned.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-13 22:30
  */
 public class _0069_SqrtX {

@@ -28,7 +28,7 @@ import java.util.Arrays;
  * Output: [-1,-1]
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-09-16 20:50
  */
 public class _0034_FindFirstAndLastPositionOfElementInSortedArray {

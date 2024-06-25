@@ -30,7 +30,7 @@ import java.util.Objects;
  * For the purpose of this problem, we will return 0 when `needle` is an empty string. This is consistent to C's `strstr()`
  * and Java's `indexOf()`.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018
  */
 public class _0028_ImplementStrStr {

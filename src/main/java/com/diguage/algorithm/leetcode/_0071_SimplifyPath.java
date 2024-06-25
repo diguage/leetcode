@@ -9,7 +9,7 @@ import java.util.Objects;
  *
  * https://leetcode.com/problems/simplify-path/[Simplify Path - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-04 16:15
  */
 public class _0071_SimplifyPath {

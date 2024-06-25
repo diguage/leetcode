@@ -10,7 +10,7 @@ import java.util.List;
  *
  * https://leetcode.com/problems/restore-ip-addresses/[Restore IP Addresses - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-06 10:00
  */
 public class _0093_RestoreIPAddresses {

@@ -9,7 +9,7 @@ import java.util.List;
  *
  * https://leetcode.com/problems/gray-code/[Gray Code - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-05 19:36
  */
 public class _0089_GrayCode {

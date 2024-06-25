@@ -27,7 +27,7 @@ import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
  *
  * Given n will always be valid.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-07-26 20:17
  */
 public class _0019_RemoveNthNodeFromEndOfList {

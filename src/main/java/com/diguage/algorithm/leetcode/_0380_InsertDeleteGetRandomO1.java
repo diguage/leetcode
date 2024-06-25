@@ -41,7 +41,7 @@ import java.util.*;
  * randomSet.getRandom();
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-05 23:47
  */
 public class _0380_InsertDeleteGetRandomO1 {

@@ -29,7 +29,7 @@ import java.util.Arrays;
  *
  * Can you do it in O(n) time and/or in-place with O(1) extra space?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-26 23:29
  */
 public class _0324_WiggleSortII {

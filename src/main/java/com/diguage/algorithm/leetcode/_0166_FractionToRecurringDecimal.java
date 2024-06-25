@@ -33,7 +33,7 @@ import java.util.Map;
  * Output: "0.(6)"
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-11 13:14
  */
 public class _0166_FractionToRecurringDecimal {

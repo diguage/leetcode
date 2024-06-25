@@ -74,7 +74,7 @@ import java.util.*;
  * Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-07-17 10:45
  */
 public class _0012_IntegerToRoman {

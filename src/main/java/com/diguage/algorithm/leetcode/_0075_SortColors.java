@@ -29,7 +29,7 @@ import java.util.Objects;
  * +
  * * Could you come up with a one-pass algorithm using only constant space?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-29 01:01
  */
 public class _0075_SortColors {

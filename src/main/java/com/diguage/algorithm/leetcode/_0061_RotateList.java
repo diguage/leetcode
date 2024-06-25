@@ -13,7 +13,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/rotate-list/[Rotate List - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-01 23:11
  */
 public class _0061_RotateList {

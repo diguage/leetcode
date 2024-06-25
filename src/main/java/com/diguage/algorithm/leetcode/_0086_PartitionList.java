@@ -13,7 +13,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/partition-list/[Partition List - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-05 19:14
  */
 public class _0086_PartitionList {

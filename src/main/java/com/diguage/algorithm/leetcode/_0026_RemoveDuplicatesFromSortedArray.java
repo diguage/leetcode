@@ -56,7 +56,7 @@ import java.util.Objects;
  * }
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-07-19 18:34
  */
 public class _0026_RemoveDuplicatesFromSortedArray {

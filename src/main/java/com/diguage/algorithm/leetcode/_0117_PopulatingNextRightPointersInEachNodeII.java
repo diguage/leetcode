@@ -10,7 +10,7 @@ import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
 import static java.util.Arrays.asList;
 
 /**
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-09 23:17
  */
 public class _0117_PopulatingNextRightPointersInEachNodeII {

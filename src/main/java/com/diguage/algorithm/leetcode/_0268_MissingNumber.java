@@ -28,7 +28,7 @@ import java.util.Objects;
  *
  * Your algorithm should run in linear runtime complexity. Could you implement it using only constant extra space complexity?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-05 21:30
  */
 public class _0268_MissingNumber {

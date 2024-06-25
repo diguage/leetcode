@@ -7,7 +7,7 @@ import java.util.*;
  *
  * https://leetcode.com/problems/flatten-nested-list-iterator/[Flatten Nested List Iterator - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-27 15:17
  */
 public class _0341_FlattenNestedListIterator {

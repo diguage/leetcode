@@ -25,7 +25,7 @@ package com.diguage.algorithm.leetcode;
  *
  * *Note:* Your solution should be in logarithmic time complexity.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-14 12:11
  */
 public class _0172_FactorialTrailingZeroes {

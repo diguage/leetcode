@@ -23,7 +23,7 @@ package com.diguage.algorithm.leetcode;
  * Explanation: 13 = 4 + 9.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-24 11:34
  */
 public class _0279_PerfectSquares {

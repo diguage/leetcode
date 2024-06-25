@@ -3,7 +3,7 @@ package com.diguage.algorithm.leetcode;
 import java.util.*;
 
 /**
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-10 00:22
  */
 public class _0133_CloneGraph {

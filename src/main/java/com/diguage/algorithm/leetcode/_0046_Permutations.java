@@ -27,7 +27,7 @@ import java.util.Objects;
  * ]
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-24 12:35
  */
 public class _0046_Permutations {

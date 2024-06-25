@@ -25,7 +25,7 @@ import java.util.Arrays;
  *
  * *Note:* The result may be very large, so you need to return a string instead of an integer.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-25 22:29
  */
 public class _0179_LargestNumber {

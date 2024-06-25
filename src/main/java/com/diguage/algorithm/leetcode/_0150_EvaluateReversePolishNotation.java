@@ -47,7 +47,7 @@ import java.util.*;
  * = 22
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-26 16:01
  */
 public class _0150_EvaluateReversePolishNotation {

@@ -7,7 +7,7 @@ import java.util.Objects;
  * <p>
  * https://leetcode.com/problems/length-of-last-word/[Length of Last Word - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-01 22:49
  */
 public class _0058_LengthOfLastWord {

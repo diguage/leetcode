@@ -25,7 +25,7 @@ import java.util.Objects;
  * `3,2,1` → `1,2,3` +
  * `1,1,5` → `1,5,1`
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-07-15 01:12
  */
 public class _0031_NextPermutation {

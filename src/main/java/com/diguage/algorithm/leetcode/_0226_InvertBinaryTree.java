@@ -13,7 +13,7 @@ import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
  *
  * https://leetcode.com/problems/invert-binary-tree/[Invert Binary Tree - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-28 11:33
  */
 public class _0226_InvertBinaryTree {

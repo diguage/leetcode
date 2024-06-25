@@ -12,7 +12,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/sum-root-to-leaf-numbers/[Sum Root to Leaf Numbers - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-07 23:56
  */
 public class _0129_SumRootToLeafNumbers {

@@ -31,7 +31,7 @@ import java.util.Objects;
  * Output: 3
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-25 23:42
  */
 public class _0200_NumberOfIslands {

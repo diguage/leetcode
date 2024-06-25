@@ -32,7 +32,7 @@ import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
  *
  * return its depth = 3.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-24 22:17
  */
 public class _0104_MaximumDepthOfBinaryTree {

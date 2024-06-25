@@ -35,7 +35,7 @@ import java.util.Set;
  * Output: true
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-05 20:01
  */
 public class _0217_ContainsDuplicate {

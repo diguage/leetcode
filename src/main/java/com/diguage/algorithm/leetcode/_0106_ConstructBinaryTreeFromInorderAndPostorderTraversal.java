@@ -9,7 +9,7 @@ import static com.diguage.algorithm.util.JsonUtils.toJson;
  *
  * https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/[Construct Binary Tree from Inorder and Postorder Traversal - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-06 21:56
  */
 public class _0106_ConstructBinaryTreeFromInorderAndPostorderTraversal {

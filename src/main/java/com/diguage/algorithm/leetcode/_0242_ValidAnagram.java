@@ -29,7 +29,7 @@ import java.util.Objects;
  *
  * What if the inputs contain unicode characters? How would you adapt your solution to such case?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-10 23:48
  */
 public class _0242_ValidAnagram {

@@ -28,7 +28,7 @@ package com.diguage.algorithm.leetcode;
  * The median is (2 + 3)/2 = 2.5
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-07-01
  */
 public class _0004_MedianOfTwoSortedArrays {

@@ -27,7 +27,7 @@ import java.util.Objects;
  * Output: 2
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-05 12:33
  */
 public class _0169_MajorityElement {

@@ -10,7 +10,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/minimum-depth-of-binary-tree/[Minimum Depth of Binary Tree - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-07 21:26
  */
 public class _0111_MinimumDepthOfBinaryTree_Morris {

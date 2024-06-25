@@ -40,7 +40,7 @@ package com.diguage.algorithm.leetcode;
  *
  * If this function is called many times, how would you optimize it?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-25 23:12
  */
 public class _0191_NumberOf1Bits {

@@ -28,7 +28,7 @@ import java.util.*;
  *
  * You may assume that you have an infinite number of each kind of coin.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-26 22:16
  */
 public class _0322_CoinChange {

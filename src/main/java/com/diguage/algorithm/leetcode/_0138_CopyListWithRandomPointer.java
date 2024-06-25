@@ -53,7 +53,7 @@ import java.util.Objects;
  * * `Node.random` is null or pointing to a node in the linked list.
  * * Number of Nodes will not exceed 1000.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-07 22:21
  */
 public class _0138_CopyListWithRandomPointer {

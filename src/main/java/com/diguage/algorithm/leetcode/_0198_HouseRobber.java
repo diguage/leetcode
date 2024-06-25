@@ -30,7 +30,7 @@ import java.util.Objects;
  *              Total amount you can rob = 2 + 9 + 1 = 12.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-23 22:37
  */
 public class _0198_HouseRobber {

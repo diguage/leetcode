@@ -9,7 +9,7 @@ import java.util.Objects;
  *
  * https://leetcode.com/problems/permutation-in-string/[Permutation in String - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-30 18:05
  */
 public class _0567_PermutationInString {

@@ -34,7 +34,7 @@ import java.util.Arrays;
  * Output: 28
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-26 22:56
  */
 public class _0062_UniquePaths {

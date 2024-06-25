@@ -9,7 +9,7 @@ import java.util.List;
  *
  * https://leetcode.com/problems/queue-reconstruction-by-height/[Queue Reconstruction by Height - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-29 17:20
  */
 public class _0406_QueueReconstructionByHeight {

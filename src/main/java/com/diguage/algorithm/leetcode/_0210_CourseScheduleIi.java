@@ -39,7 +39,7 @@ import java.util.List;
  * * The input prerequisites is a graph represented by *a list of edges*, not adjacency matrices. Read more about https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs[how a graph is represented].
  * * You may assume that there are no duplicate edges in the input prerequisites.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-26 17:41
  */
 public class _0210_CourseScheduleIi {

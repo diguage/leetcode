@@ -28,7 +28,7 @@ import java.util.Objects;
  * * You may assume that all inputs are consist of lowercase letters `a-z`.
  * * All inputs are guaranteed to be non-empty strings.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-26 19:47
  */
 public class _0208_ImplementTriePrefixTree {

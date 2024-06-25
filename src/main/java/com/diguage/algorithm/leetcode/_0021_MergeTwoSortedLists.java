@@ -22,7 +22,7 @@ import static com.diguage.algorithm.util.ListNodeUtils.isOrder;
  * Output: 1->1->2->3->4->4
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-07-26 08:49
  */
 public class _0021_MergeTwoSortedLists {

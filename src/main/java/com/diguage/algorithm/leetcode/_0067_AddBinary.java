@@ -5,7 +5,7 @@ package com.diguage.algorithm.leetcode;
  *
  * https://leetcode.com/problems/add-binary/[Add Binary - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-02 22:27
  */
 public class _0067_AddBinary {

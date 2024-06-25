@@ -9,7 +9,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/triangle/[Triangle - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-07 23:14
  */
 public class _0120_Triangle {

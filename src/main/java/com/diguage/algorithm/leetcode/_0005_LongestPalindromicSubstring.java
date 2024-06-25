@@ -25,7 +25,7 @@ import java.util.Objects;
  * Output: "bb"
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-07-13 11:12
  */
 public class _0005_LongestPalindromicSubstring {

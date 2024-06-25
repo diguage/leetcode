@@ -45,7 +45,7 @@ import java.util.Set;
  *
  * Can you solve it using O(1) (i.e. constant) memory?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-12 10:06
  */
 public class _0141_LinkedListCycle {

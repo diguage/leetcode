@@ -52,7 +52,7 @@ import static com.diguage.algorithm.util.PrintUtils.printMatrix;
  * * A simple improvement uses O(m + n) space, but still not the best solution.
  * * Could you devise a constant space solution?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-27 00:59
  */
 public class _0073_SetMatrixZeroes {

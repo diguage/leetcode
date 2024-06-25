@@ -30,7 +30,7 @@ import static com.diguage.algorithm.util.ListNodeUtils.build;
  *
  * Could you do it in O(n) time and O(1) space?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-13 19:58
  */
 public class _0234_PalindromeLinkedList {

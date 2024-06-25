@@ -13,7 +13,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/swap-nodes-in-pairs/[Swap Nodes in Pairs - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-03 20:12
  */
 public class _0024_SwapNodesInPairs {

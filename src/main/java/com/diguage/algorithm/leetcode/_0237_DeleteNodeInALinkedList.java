@@ -38,7 +38,7 @@ import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
  * * The given node will not be the tail and it will always be a valid node of the linked list.
  * * Do not return anything from your function.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-13 20:28
  */
 public class _0237_DeleteNodeInALinkedList {

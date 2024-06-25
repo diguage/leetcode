@@ -8,7 +8,7 @@ import java.util.Objects;
 import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
 
 /**
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-04-01 23:09
  */
 public class _0124_BinaryTreeMaximumPathSum {

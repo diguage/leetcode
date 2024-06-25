@@ -34,7 +34,7 @@ import java.util.Objects;
  * Explanation: It could be decoded as "BZ" (2 26), "VF" (22 6), or "BBF" (2 2 6).
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-18 00:20
  */
 public class _0091_DecodeWays {

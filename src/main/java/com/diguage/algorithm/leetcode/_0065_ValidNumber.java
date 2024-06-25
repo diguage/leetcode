@@ -5,7 +5,7 @@ package com.diguage.algorithm.leetcode;
  *
  * https://leetcode.com/problems/valid-number/[Valid Number - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-04-26 18:59
  */
 public class _0065_ValidNumber {

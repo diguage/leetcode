@@ -13,7 +13,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/binary-tree-level-order-traversal-ii/[Binary Tree Level Order Traversal II - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-05 23:20
  */
 public class _0107_BinaryTreeLevelOrderTraversalII {

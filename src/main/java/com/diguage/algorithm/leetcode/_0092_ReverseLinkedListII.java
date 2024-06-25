@@ -13,7 +13,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/reverse-linked-list-ii/[Reverse Linked List II - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-05 22:46
  */
 public class _0092_ReverseLinkedListII {

@@ -7,7 +7,7 @@ import java.util.*;
  *
  * https://leetcode.com/problems/permutation-sequence/[Permutation Sequence - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-03 22:42
  */
 public class _0060_PermutationSequence {

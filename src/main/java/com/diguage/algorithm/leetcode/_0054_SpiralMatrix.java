@@ -33,7 +33,7 @@ import java.util.*;
  * Output: [1,2,3,4,8,12,11,10,9,5,6,7]
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-26 00:51:20
  */
 public class _0054_SpiralMatrix {

@@ -7,7 +7,7 @@ import java.util.Objects;
  *
  * https://leetcode.com/problems/search-in-rotated-sorted-array-ii/[Search in Rotated Sorted Array II - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-04 22:13
  */
 public class _0081_SearchInRotatedSortedArrayII {

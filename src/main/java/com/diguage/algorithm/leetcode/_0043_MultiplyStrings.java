@@ -5,7 +5,7 @@ package com.diguage.algorithm.leetcode;
  *
  * https://leetcode.com/problems/multiply-strings/[Multiply Strings - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-03 21:07
  */
 public class _0043_MultiplyStrings {

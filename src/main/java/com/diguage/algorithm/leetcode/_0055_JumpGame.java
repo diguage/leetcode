@@ -30,7 +30,7 @@ import java.util.Objects;
  * jump length is 0, which makes it impossible to reach the last index.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-23 12:25
  */
 public class _0055_JumpGame {

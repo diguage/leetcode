@@ -28,7 +28,7 @@ import java.util.List;
  * ]
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-25 01:04
  */
 public class _0118_PascalSTriangle {

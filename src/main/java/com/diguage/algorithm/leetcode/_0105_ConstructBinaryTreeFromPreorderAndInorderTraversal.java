@@ -31,7 +31,7 @@ import com.diguage.algorithm.util.TreeNode;
  *    15   7
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-04 20:25
  */
 public class _0105_ConstructBinaryTreeFromPreorderAndInorderTraversal {

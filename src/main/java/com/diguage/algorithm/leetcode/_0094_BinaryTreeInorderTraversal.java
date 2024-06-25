@@ -27,7 +27,7 @@ import java.util.*;
  *
  * *Follow up:* Recursive solution is trivial, could you do it iteratively?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-06 22:14
  */
 public class _0094_BinaryTreeInorderTraversal {

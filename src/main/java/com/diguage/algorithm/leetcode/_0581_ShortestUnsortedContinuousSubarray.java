@@ -5,7 +5,7 @@ package com.diguage.algorithm.leetcode;
  *
  * https://leetcode.com/problems/shortest-unsorted-continuous-subarray/[Shortest Unsorted Continuous Subarray - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-30 21:44
  */
 public class _0581_ShortestUnsortedContinuousSubarray {

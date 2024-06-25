@@ -35,7 +35,7 @@ import java.util.*;
  *
  * Although the above answer is in lexicographical order, your answer could be in any order you want.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-07-19 00:19
  */
 public class _0017_LetterCombinationsOfAPhoneNumber {

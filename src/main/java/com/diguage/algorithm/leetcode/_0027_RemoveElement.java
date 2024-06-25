@@ -57,7 +57,7 @@ import java.util.Arrays;
  * }
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-07-19 18:55
  */
 public class _0027_RemoveElement {

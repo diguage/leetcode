@@ -34,7 +34,7 @@ import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
  * ]
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-24 21:12
  */
 public class _0103_BinaryTreeZigzagLevelOrderTraversal {

@@ -47,7 +47,7 @@ import java.util.Objects;
  * P     I
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-07-14 18:20
  */
 public class _0006_ZigZagConversion {

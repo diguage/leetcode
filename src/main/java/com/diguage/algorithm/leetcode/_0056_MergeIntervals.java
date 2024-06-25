@@ -31,7 +31,7 @@ import static com.diguage.algorithm.util.PrintUtils.printMatrix;
  *
  * *NOTE:* input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-23 12:27
  */
 public class _0056_MergeIntervals {

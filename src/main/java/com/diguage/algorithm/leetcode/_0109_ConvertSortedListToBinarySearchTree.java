@@ -16,7 +16,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/[LeetCode - Convert Sorted List to Binary Search Tree]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-06 22:42
  */
 public class _0109_ConvertSortedListToBinarySearchTree {

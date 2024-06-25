@@ -8,7 +8,7 @@ import java.util.Objects;
  *
  * https://leetcode.com/problems/minimum-path-sum/[Minimum Path Sum - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-27 21:29
  */
 public class _0064_MinimumPathSum {

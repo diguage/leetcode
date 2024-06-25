@@ -34,7 +34,7 @@ import java.util.Objects;
  *
  * Your algorithm should run in O(n) time and uses constant extra space.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-23 12:54:29
  */
 public class _0041_FirstMissingPositive {

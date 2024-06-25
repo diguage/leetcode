@@ -23,7 +23,7 @@ import java.util.List;
  * ]
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-07-27 08:11
  */
 public class _0022_GenerateParentheses {

@@ -26,7 +26,7 @@ import java.util.Objects;
  * Given word = "ABCB", return false.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-03 17:31
  */
 public class _0079_WordSearch {

@@ -30,7 +30,7 @@ import java.util.Objects;
  *
  * Given target = `20`, return `false`.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-23 10:04
  */
 public class _0240_SearchA2DMatrixII {

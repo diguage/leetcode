@@ -28,7 +28,7 @@ import java.util.Stack;
  * minStack.getMin();   --> Returns -2.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-24 16:40
  */
 class _0155_MinStack {

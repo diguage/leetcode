@@ -12,7 +12,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/same-tree/[Same Tree - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-05 09:53
  */
 public class _0100_SameTree {

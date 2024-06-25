@@ -13,7 +13,7 @@ import static com.diguage.algorithm.util.ListNodeUtils.build;
  *
  * https://leetcode.com/problems/linked-list-cycle-ii/[Linked List Cycle II - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-28 08:52
  */
 public class _0142_LinkedListCycleII {

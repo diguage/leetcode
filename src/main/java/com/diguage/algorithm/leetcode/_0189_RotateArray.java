@@ -34,7 +34,7 @@ import java.util.Objects;
  * * Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem.
  * * Could you do it in-place with O(1) extra space?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-05 13:05
  */
 public class _0189_RotateArray {

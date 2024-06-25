@@ -42,7 +42,7 @@ import java.util.Objects;
  * * `-1000 <= node.val <= 1000`
  *
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-24 23:06
  */
 public class _0116_PopulatingNextRightPointersInEachNode {

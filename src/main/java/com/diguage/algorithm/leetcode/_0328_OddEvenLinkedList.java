@@ -36,7 +36,7 @@ import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
  * * The relative order inside both the even and odd groups should remain as it was in the input.
  * * The first node is considered odd, the second node even and so on ...
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-12 12:20
  */
 public class _0328_OddEvenLinkedList {

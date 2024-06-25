@@ -12,7 +12,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/balanced-binary-tree/[LeetCode - Balanced Binary Tree]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-06 23:10
  */
 public class _0110_BalancedBinaryTree_2 {

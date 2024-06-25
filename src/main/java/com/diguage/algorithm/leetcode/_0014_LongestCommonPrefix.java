@@ -30,7 +30,7 @@ import java.util.Objects;
  *
  * All given inputs are in lowercase letters `a-z`.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-07-11 17:50
  */
 public class _0014_LongestCommonPrefix {

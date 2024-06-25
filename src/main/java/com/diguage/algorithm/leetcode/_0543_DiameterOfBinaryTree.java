@@ -12,7 +12,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/diameter-of-binary-tree/[Diameter of Binary Tree - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-29 23:31
  */
 public class _0543_DiameterOfBinaryTree {

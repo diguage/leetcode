@@ -13,7 +13,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/merge-two-binary-trees/[Merge Two Binary Trees - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-29 16:17
  */
 public class _0617_MergeTwoBinaryTrees {

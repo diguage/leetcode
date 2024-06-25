@@ -9,7 +9,7 @@ import java.util.Map;
  *
  * https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/[Two Sum II - Input array is sorted - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-04 23:35
  */
 public class _0167_TwoSumIIInputArrayIsSorted {

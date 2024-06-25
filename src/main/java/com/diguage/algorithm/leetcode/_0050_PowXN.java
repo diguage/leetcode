@@ -34,7 +34,7 @@ package com.diguage.algorithm.leetcode;
  * * `-100.0 < x < 100.0`
  * * n is a 32-bit signed integer, within the range [−2^31^, 2^31^ − 1]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-13 21:19
  */
 public class _0050_PowXN {

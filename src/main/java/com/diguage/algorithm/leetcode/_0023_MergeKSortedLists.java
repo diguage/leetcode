@@ -25,7 +25,7 @@ import static com.diguage.algorithm.util.ListNodeUtils.*;
  * Output: 1->1->2->3->4->4->5->6
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-22 12:40:12
  */
 public class _0023_MergeKSortedLists {

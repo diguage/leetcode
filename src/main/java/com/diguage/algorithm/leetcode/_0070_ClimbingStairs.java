@@ -33,7 +33,7 @@ package com.diguage.algorithm.leetcode;
  * ----
  *
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-23 21:29
  */
 public class _0070_ClimbingStairs {

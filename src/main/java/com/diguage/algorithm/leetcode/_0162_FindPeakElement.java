@@ -37,7 +37,7 @@ import java.util.Objects;
  *
  * Your solution should be in logarithmic complexity.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-05 11:03
  */
 public class _0162_FindPeakElement {

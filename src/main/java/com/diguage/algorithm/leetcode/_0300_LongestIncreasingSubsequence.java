@@ -25,7 +25,7 @@ import java.util.Objects;
  *
  * *Follow up:* Could you improve it to O(n log n) time complexity?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-23 10:24
  */
 public class _0300_LongestIncreasingSubsequence {

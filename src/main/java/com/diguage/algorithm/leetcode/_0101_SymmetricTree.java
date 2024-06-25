@@ -36,7 +36,7 @@ import java.util.*;
  *
  * Bonus points if you could solve it both recursively and iteratively.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-02 00:20
  */
 public class _0101_SymmetricTree {

@@ -20,7 +20,7 @@ import java.util.Objects;
  * The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-07-15 00:55
  */
 public class _0016_3SumClosest {

@@ -10,7 +10,7 @@ import java.util.List;
  * <p>
  * https://leetcode.com/problems/binary-tree-postorder-traversal/[Binary Tree Postorder Traversal - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-06-16 11:24
  */
 public class _0145_BinaryTreePostorderTraversal_Recur {

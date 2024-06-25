@@ -26,7 +26,7 @@ import java.util.*;
  * * All inputs will be in lowercase.
  * * The order of your output does not matter.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-06 21:42
  */
 public class _0049_GroupAnagrams {

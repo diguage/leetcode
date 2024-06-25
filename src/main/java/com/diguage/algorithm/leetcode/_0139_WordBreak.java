@@ -41,7 +41,7 @@ import java.util.Set;
  * Output: false
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-24 09:39
  */
 public class _0139_WordBreak {

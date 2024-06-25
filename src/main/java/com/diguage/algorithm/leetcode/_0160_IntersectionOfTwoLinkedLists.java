@@ -54,7 +54,7 @@ import java.util.Set;
  * You may assume there are no cycles anywhere in the entire linked structure.
  * Your code should preferably run in O(n) time and use only O(1) memory.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-12 11:12
  */
 public class _0160_IntersectionOfTwoLinkedLists {

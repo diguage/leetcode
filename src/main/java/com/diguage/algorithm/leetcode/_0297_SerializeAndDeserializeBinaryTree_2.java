@@ -13,7 +13,7 @@ import java.util.Queue;
  *
  * https://leetcode.com/problems/serialize-and-deserialize-binary-tree/[Serialize and Deserialize Binary Tree - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2024-06-20 11:39:45
  */
 public class _0297_SerializeAndDeserializeBinaryTree_2 {

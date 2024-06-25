@@ -30,7 +30,7 @@ import java.util.*;
  * * You may assume `k` is always valid, `1 ≤ k ≤ number` of unique elements.
  * * Your algorithm's time complexity *must be* better than O(nlogn), where `n` is the array's size.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-11 00:04
  */
 public class _0347_TopKFrequentElements {

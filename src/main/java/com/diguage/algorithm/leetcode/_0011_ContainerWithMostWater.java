@@ -12,7 +12,7 @@ package com.diguage.algorithm.leetcode;
  *
  * Note: You may not slant the container and n is at least 2.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-07-13
  */
 public class _0011_ContainerWithMostWater {

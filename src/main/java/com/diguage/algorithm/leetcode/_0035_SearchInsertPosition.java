@@ -38,7 +38,7 @@ package com.diguage.algorithm.leetcode;
  * Output: 0
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-09-16 21:32
  */
 public class _0035_SearchInsertPosition {

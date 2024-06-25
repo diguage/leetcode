@@ -44,7 +44,7 @@ import java.util.List;
  * ]
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-09-16 21:56
  */
 public class _0039_CombinationSum {

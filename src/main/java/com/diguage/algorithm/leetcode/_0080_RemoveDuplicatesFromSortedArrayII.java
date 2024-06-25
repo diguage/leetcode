@@ -2,7 +2,7 @@ package com.diguage.algorithm.leetcode;
 
 /**
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-04 20:57
  */
 public class _0080_RemoveDuplicatesFromSortedArrayII {

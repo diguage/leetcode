@@ -10,7 +10,7 @@ import static com.diguage.algorithm.util.PrintUtils.printMatrix;
  *
  * [N-Queens - LeetCode](https://leetcode.com/problems/n-queens/)
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-05 12:55
  */
 public class _0051_NQueens {

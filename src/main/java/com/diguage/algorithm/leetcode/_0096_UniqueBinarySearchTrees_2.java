@@ -5,7 +5,7 @@ package com.diguage.algorithm.leetcode;
  *
  * https://leetcode.com/problems/unique-binary-search-trees/[Unique Binary Search Trees - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-27 22:14
  */
 public class _0096_UniqueBinarySearchTrees_2 {

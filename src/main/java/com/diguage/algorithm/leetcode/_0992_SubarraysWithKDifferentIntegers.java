@@ -9,7 +9,7 @@ import java.util.Objects;
  *
  * https://leetcode.com/problems/subarrays-with-k-different-integers/[Subarrays with K Different Integers - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-30 19:44
  */
 public class _0992_SubarraysWithKDifferentIntegers {

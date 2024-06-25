@@ -7,7 +7,7 @@ import java.util.*;
  *
  * https://leetcode.com/problems/subsets-ii/[Subsets II - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-05 21:28
  */
 public class _0090_SubsetsII {

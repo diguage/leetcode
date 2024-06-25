@@ -31,7 +31,7 @@ import java.util.Objects;
  * Output: false
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-27 14:26
  */
 public class _0334_IncreasingTripletSubsequence {

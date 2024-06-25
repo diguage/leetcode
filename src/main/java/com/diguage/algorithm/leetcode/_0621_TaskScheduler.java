@@ -7,7 +7,7 @@ import java.util.*;
  *
  * https://leetcode.com/problems/task-scheduler/[Task Scheduler - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-31 21:26
  */
 public class _0621_TaskScheduler {

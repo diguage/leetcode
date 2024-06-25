@@ -40,7 +40,7 @@ import java.util.Objects;
  * Explanation: In this case, no transaction is done, i.e. max profit = 0.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-04 10:55
  */
 public class _0122_BestTimeToBuyAndSellStockII {

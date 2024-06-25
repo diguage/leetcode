@@ -31,7 +31,7 @@ package com.diguage.algorithm.leetcode;
  * Output: -1
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-09-16 17:45
  */
 public class _0033_SearchInRotatedSortedArray {

@@ -21,7 +21,7 @@ import java.util.Arrays;
  * . You must do this *in-place* without making a copy of the array.
  * . Minimize the total number of operations.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-05 22:26
  */
 public class _0283_MoveZeroes {

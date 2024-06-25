@@ -24,7 +24,7 @@ import java.util.Objects;
  *
  * *Note:* You may assume the string contain only lowercase letters.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-11 10:48
  */
 public class _0387_FirstUniqueCharacterInAString {

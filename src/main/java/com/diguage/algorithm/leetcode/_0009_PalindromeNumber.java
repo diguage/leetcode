@@ -38,7 +38,7 @@ import java.util.List;
  *
  * Coud you solve it without converting the integer to a string?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-07-01
  */
 public class _0009_PalindromeNumber {

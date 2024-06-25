@@ -7,7 +7,7 @@ import java.util.Arrays;
  * <p>
  * https://leetcode.com/problems/counting-bits/[Counting Bits - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-29 14:50
  */
 public class _0338_CountingBits {

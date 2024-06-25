@@ -21,7 +21,7 @@ package com.diguage.algorithm.leetcode;
  * 12 + 02 + 02 = 1
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-10 21:40
  */
 public class _0202_HappyNumber {

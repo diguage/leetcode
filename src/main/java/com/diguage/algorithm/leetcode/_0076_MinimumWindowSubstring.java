@@ -9,7 +9,7 @@ import java.util.Objects;
  *
  * https://leetcode.com/problems/minimum-window-substring/[Minimum Window Substring - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-30 16:15
  */
 public class _0076_MinimumWindowSubstring {

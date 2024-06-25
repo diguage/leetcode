@@ -18,7 +18,7 @@ import java.util.Set;
  * Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-10 23:04
  */
 public class _0204_CountPrimes {

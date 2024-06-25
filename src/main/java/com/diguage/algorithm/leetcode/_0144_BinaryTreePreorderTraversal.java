@@ -13,7 +13,7 @@ import java.util.Stack;
  *
  * https://leetcode.com/problems/binary-tree-preorder-traversal/[Binary Tree Preorder Traversal - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-06-16 10:59
  */
 public class _0144_BinaryTreePreorderTraversal {

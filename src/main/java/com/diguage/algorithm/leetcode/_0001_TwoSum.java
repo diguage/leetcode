@@ -24,7 +24,7 @@ import java.util.Map;
  * return [0, 1].
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-06-30
  */
 public class _0001_TwoSum {

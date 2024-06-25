@@ -9,7 +9,7 @@ import java.util.concurrent.ThreadLocalRandom;
  *
  * https://leetcode.com/problems/shuffle-an-array/[Shuffle an Array - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-27 15:51
  */
 public class _0384_ShuffleAnArray {

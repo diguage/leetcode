@@ -37,7 +37,7 @@ import java.util.List;
  * ]
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-26 23:17
  */
 public class _0412_FizzBuzz {

@@ -7,7 +7,7 @@ import java.util.Objects;
  *
  * https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/[Longest Substring with At Least K Repeating Characters - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-27 16:28
  */
 public class _0395_LongestSubstringWithAtLeastKRepeatingCharacters {

@@ -55,7 +55,7 @@ import static com.diguage.algorithm.util.PrintUtils.printMatrix;
  * ]
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-24 00:57:55
  */
 public class _0048_RotateImage {

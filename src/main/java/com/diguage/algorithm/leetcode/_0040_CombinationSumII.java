@@ -7,7 +7,7 @@ import java.util.*;
  *
  * https://leetcode.com/problems/combination-sum-ii/[Combination Sum II - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-27 19:20
  */
 public class _0040_CombinationSumII {

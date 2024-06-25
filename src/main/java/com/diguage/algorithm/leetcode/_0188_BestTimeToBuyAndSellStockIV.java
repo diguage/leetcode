@@ -7,7 +7,7 @@ import java.util.Objects;
  *
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/[Best Time to Buy and Sell Stock IV - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-28 20:54
  */
 public class _0188_BestTimeToBuyAndSellStockIV {

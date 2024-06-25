@@ -32,7 +32,7 @@ import java.util.*;
  * * What if nums1's size is small compared to nums2's size? Which algorithm is better?
  * * What if elements of nums2 are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-11 10:00
  */
 public class _0350_IntersectionOfTwoArraysIi {

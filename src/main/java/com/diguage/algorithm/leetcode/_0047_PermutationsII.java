@@ -7,7 +7,7 @@ import java.util.*;
  *
  * https://leetcode.com/problems/permutations-ii/[Permutations II - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-27 20:29
  */
 public class _0047_PermutationsII {

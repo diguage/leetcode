@@ -34,7 +34,7 @@ import java.util.Objects;
  * 2. Down -> Down -> Right -> Right
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-26 23:50
  */
 public class _0063_UniquePathsII {

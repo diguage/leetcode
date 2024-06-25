@@ -22,7 +22,7 @@ import java.util.Arrays;
  *
  * Could you solve it with constant space complexity? (The output array *does not* count as extra space for the purpose of space complexity analysis.)
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-05 20:15
  */
 public class _0238_ProductOfArrayExceptSelf {

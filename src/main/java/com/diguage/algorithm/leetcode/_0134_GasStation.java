@@ -54,7 +54,7 @@ package com.diguage.algorithm.leetcode;
  * Therefore, you can't travel around the circuit once no matter where you start.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-25 21:55
  */
 public class _0134_GasStation {

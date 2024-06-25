@@ -5,7 +5,7 @@ package com.diguage.algorithm.leetcode;
  *
  * https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/[Find Minimum in Rotated Sorted Array - LeetCode^]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-04-25 22:37
  */
 public class _0153_FindMinimumInRotatedSortedArray {

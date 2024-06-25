@@ -28,7 +28,7 @@ import java.util.Objects;
  *  -10  5
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-24 22:28
  */
 public class _0108_ConvertSortedArrayToBinarySearchTree {

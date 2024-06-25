@@ -29,7 +29,7 @@ import java.util.stream.Collectors;
  * ]
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-02 19:56
  */
 public class _0078_Subsets {

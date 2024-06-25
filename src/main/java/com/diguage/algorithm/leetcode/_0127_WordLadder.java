@@ -47,7 +47,7 @@ import java.util.*;
  * Explanation: The endWord "cog" is not in wordList, therefore no possible transformation.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-25 18:43
  */
 public class _0127_WordLadder {

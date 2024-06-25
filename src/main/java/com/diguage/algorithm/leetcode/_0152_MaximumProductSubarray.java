@@ -23,7 +23,7 @@ package com.diguage.algorithm.leetcode;
  * Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-05 07:59
  */
 public class _0152_MaximumProductSubarray {

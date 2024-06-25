@@ -12,7 +12,7 @@ import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
  *
  * https://leetcode.com/problems/flatten-binary-tree-to-linked-list/[Flatten Binary Tree to Linked List - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-27 23:18
  */
 public class _0114_FlattenBinaryTreeToLinkedList_2 {

@@ -31,7 +31,7 @@ package com.diguage.algorithm.leetcode;
  * * The divisor will never be 0.
  * * Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^31^,  2^31^ − 1]. For the purpose of this problem, assume that your function returns 2^31^ − 1 when the division result overflows.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-14 16:46
  */
 public class _0029_DivideTwoIntegers {

@@ -32,7 +32,7 @@ import java.util.Arrays;
  * Explanation: The array represents the integer 4321.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-07-14 15:30
  */
 public class _0066_PlusOne {

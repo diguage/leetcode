@@ -21,7 +21,7 @@ import static com.diguage.algorithm.util.PrintUtils.printMatrix;
  * ]
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-26 00:54
  */
 public class _0059_SpiralMatrixII {

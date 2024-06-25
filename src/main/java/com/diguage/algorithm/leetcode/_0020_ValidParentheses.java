@@ -53,7 +53,7 @@ import java.util.Stack;
  * Output: true
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-07-26 08:12
  */
 public class _0020_ValidParentheses {

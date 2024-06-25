@@ -27,7 +27,7 @@ import java.util.Objects;
  * Output: ["h","a","n","n","a","H"]\
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-15 00:03
  */
 public class _0344_ReverseString {

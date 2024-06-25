@@ -75,7 +75,7 @@ import java.util.Objects;
  * Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-07-11 17:14
  */
 public class _0013_RomanToInteger {

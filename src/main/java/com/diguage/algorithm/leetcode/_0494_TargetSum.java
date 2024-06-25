@@ -7,7 +7,7 @@ import java.util.Objects;
  *
  * https://leetcode.com/problems/target-sum/[Target Sum - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-29 21:59
  */
 public class _0494_TargetSum {

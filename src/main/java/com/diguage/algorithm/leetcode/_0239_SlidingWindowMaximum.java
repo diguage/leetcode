@@ -10,7 +10,7 @@ import java.util.Objects;
  *
  * https://leetcode.com/problems/sliding-window-maximum/[Sliding Window Maximum - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-30 17:00
  */
 public class _0239_SlidingWindowMaximum {

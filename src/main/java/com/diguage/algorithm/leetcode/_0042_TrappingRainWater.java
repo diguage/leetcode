@@ -16,7 +16,7 @@ package com.diguage.algorithm.leetcode;
  * Output: 6
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-07-26 08:49
  */
 public class _0042_TrappingRainWater {

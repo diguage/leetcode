@@ -28,7 +28,7 @@ import java.util.*;
  * ]
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2018-07-15 00:58
  */
 public class _0018_4Sum {

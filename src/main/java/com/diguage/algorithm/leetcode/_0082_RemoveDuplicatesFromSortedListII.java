@@ -13,7 +13,7 @@ import static java.util.Arrays.asList;
  *
  * https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/[Remove Duplicates from Sorted List II - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-02-04 22:58
  */
 public class _0082_RemoveDuplicatesFromSortedListII {

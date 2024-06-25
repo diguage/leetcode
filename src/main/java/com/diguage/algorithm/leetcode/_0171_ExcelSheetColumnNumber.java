@@ -43,7 +43,7 @@ import java.util.Objects;
  * Output: 701
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-14 00:12
  */
 public class _0171_ExcelSheetColumnNumber {

@@ -64,7 +64,7 @@ import java.util.Set;
  * * The given board contain only digits `1-9` and the character `'.'`.
  * * The given board size is always 9x9.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-06 12:24
  */
 public class _0036_ValidSudoku {

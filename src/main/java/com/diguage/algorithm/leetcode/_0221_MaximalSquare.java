@@ -7,7 +7,7 @@ import java.util.Objects;
  *
  * https://leetcode.com/problems/maximal-square/[Maximal Square - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-28 12:21
  */
 public class _0221_MaximalSquare {

@@ -37,7 +37,7 @@ import java.util.Objects;
  * * You may assume that the given expression is always valid.
  * * *Do not* use the `eval` built-in library function.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-19 23:30
  */
 public class _0227_BasicCalculatorIi {

@@ -26,7 +26,7 @@ import java.util.Objects;
  *
  * You can assume that you can always reach the last index.
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-26 11:29
  */
 public class _0045_JumpGameII {

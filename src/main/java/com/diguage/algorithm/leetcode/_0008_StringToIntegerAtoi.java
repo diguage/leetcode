@@ -69,7 +69,7 @@ import java.util.Objects;
  * Thefore INT_MIN (−231) is returned.
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-07-14 19:57
  */
 public class _0008_StringToIntegerAtoi {

@@ -29,7 +29,7 @@ import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
  * Output: -1->0->3->4->5
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2019-10-29 21:05
  */
 public class _0148_SortList {

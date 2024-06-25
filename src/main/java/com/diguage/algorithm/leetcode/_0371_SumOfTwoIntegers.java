@@ -21,7 +21,7 @@ package com.diguage.algorithm.leetcode;
  * Output: 1
  * ----
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-25 17:03
  */
 public class _0371_SumOfTwoIntegers {

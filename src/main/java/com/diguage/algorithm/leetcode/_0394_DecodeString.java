@@ -9,7 +9,7 @@ import java.util.Objects;
  *
  * https://leetcode.com/problems/decode-string/[Decode String - LeetCode]
  *
- * @author D瓜哥, https://www.diguage.com/
+ * @author D瓜哥 · https://www.diguage.com
  * @since 2020-01-28 22:08
  */
 public class _0394_DecodeString {
