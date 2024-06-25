@@ -32,10 +32,6 @@ return its minimum depth = 2.
 
 使用深度优先搜索和广度优先搜索来解决这个问题。
 
-== 参考资料
-
-. https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/solution/er-cha-shu-de-zui-xiao-shen-du-by-leetcode/[二叉树的最小深度 - 二叉树的最小深度 - 力扣（LeetCode）]
-
 
 [[src-0111]]
 [{java_src_attr}]
@@ -58,3 +54,8 @@ include::{sourcedir}/_0111_MinimumDepthOfBinaryTree_Morris.java[]
 ----
 
 竟然在 LeetCode 中文站点没有找到使用 Morris 遍历方法处理的解答。
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/minimum-depth-of-binary-tree/solutions/382646/er-cha-shu-de-zui-xiao-shen-du-by-leetcode-solutio/[二叉树的最小深度 - 二叉树的最小深度 - 官方题解^]

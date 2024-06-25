@@ -18,7 +18,7 @@ xref:0144-binary-tree-preorder-traversal.adoc[144. Binary Tree Preorder Traversa
 
 . 基于 Morris 遍历的前序和后序遍历练习
 . 前中后根遍历的非递归实现
-.
+. 利用 Morris 求树的最小深度： xref:0111-minimum-depth-of-binary-tree.adoc[111. Minimum Depth of Binary Tree]，尝试一下最大深度。
 
 == 技巧或者隐藏知识点
 

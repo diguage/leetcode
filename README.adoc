@@ -785,7 +785,7 @@
 |{source_base_url}/_0111_MinimumDepthOfBinaryTree.java[Java]
 |{doc_base_url}/0111-minimum-depth-of-binary-tree.adoc[Note]
 |Easy
-|
+|Morris解法需要深入研究
 
 |112
 |{leetcode_base_url}/path-sum/[Path Sum]
