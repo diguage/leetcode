@@ -5,7 +5,7 @@
 
 [cols="1,4,1,4",options="header"]
 |===
-|# |题目 |题解 |注意事项
+|题号 |题目 |题解 |注意事项
 
 |222
 |{leetcode_base_url}/count-complete-tree-nodes/[Count Complete Tree Nodes]
@@ -21,5 +21,10 @@
 |{leetcode_base_url}/find-bottom-left-tree-value/[Find Bottom Left Tree Value]
 |{doc_base_url}/0513-find-bottom-left-tree-value.adoc[题解]
 |广度优先，尝试一下深度优先。
+
+|257
+|{leetcode_base_url}/binary-tree-paths/[Binary Tree Paths]
+|{doc_base_url}/0257-binary-tree-paths.adoc[题解]
+|递归，尝试了一下回溯。
 
 |===

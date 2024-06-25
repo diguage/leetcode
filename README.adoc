@@ -8,7 +8,7 @@
 
 [cols="1,4,1,1,1,2",options="header"]
 |===
-|# |标题 |代码 |题解 |难度 |备注
+|题号 |标题 |代码 |题解 |难度 |备注
 
 |1
 |{leetcode_base_url}/two-sum/[Two Sum]
@@ -1801,14 +1801,14 @@
 //|{doc_base_url}/0256-paint-house.adoc[题解]
 //|Easy
 //|
-//
-//|257
-//|{leetcode_base_url}/binary-tree-paths/[Binary Tree Paths]
-//|{source_base_url}/_0257_BinaryTreePaths.java[Java]
-//|{doc_base_url}/0257-binary-tree-paths.adoc[题解]
-//|Easy
-//|
-//
+
+|257
+|{leetcode_base_url}/binary-tree-paths/[Binary Tree Paths]
+|{source_base_url}/_0257_BinaryTreePaths.java[Java]
+|{doc_base_url}/0257-binary-tree-paths.adoc[题解]
+|Easy
+|
+
 //|258
 //|{leetcode_base_url}/add-digits/[Add Digits]
 //|{source_base_url}/_0258_AddDigits.java[Java]
