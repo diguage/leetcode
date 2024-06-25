@@ -46,7 +46,16 @@ include::{sourcedir}/_0112_PathSum_2.java[]
 
 很简单的一道题。本来是想找另外一道题（见 <<0112-additional-question>>），结果找到了这道题。
 
+也可以利用回溯来解答。如图：
+
+image::images/0112-01.png[]
+
 [#0112-additional-question]
 == 思考题
 
 给定一颗二叉树和一个整数 sum，求累加和为 sum 的最长路径长度。路径是指从某个节点往下，每次最多选择一个孩子节点或者不选所形成的节点链。
+
+== 参考资料
+
+. https://leetcode.cn/problems/path-sum/solutions/318487/lu-jing-zong-he-by-leetcode-solution/[112. 路径总和 - 官方题解^]
+. https://leetcode.cn/problems/path-sum/solutions/319149/lu-jing-zong-he-de-si-chong-jie-fa-dfs-hui-su-bfs-/[112. 路径总和 - 四种解法：DFS、回溯、BFS、栈^]

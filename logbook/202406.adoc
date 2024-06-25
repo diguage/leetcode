@@ -10,21 +10,26 @@
 |222
 |{leetcode_base_url}/count-complete-tree-nodes/[Count Complete Tree Nodes]
 |{doc_base_url}/0222-count-complete-tree-nodes.adoc[题解]
-|解法技巧有待掌握。完全二叉树的性质还需要加强学习。
+|二叉树属性。解法技巧有待掌握。完全二叉树的性质还需要加强学习。
 
 |444
 |{leetcode_base_url}/sequence-reconstruction/[Sequence Reconstruction]
 |{doc_base_url}/0444-sequence-reconstruction.adoc[题解]
-|深刻理解递归退出条件
+|二叉树属性。深刻理解递归退出条件
 
 |513
 |{leetcode_base_url}/find-bottom-left-tree-value/[Find Bottom Left Tree Value]
 |{doc_base_url}/0513-find-bottom-left-tree-value.adoc[题解]
-|广度优先，尝试一下深度优先。
+|二叉树属性。广度优先，尝试一下深度优先。
 
 |257
 |{leetcode_base_url}/binary-tree-paths/[Binary Tree Paths]
 |{doc_base_url}/0257-binary-tree-paths.adoc[题解]
-|递归，尝试了一下回溯。
+|路径问题。递归，尝试了一下回溯。
+
+|112
+|{leetcode_base_url}/path-sum/[Path Sum]
+|{doc_base_url}/0112-path-sum.adoc[题解]
+|路径问题。
 
 |===
