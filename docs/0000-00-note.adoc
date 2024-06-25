@@ -1,3 +1,4 @@
+[#0000-00-note]
 = 刷题随想
 
 . xref:0215-kth-largest-element-in-an-array.adoc[215. Kth Largest Element in an Array] 没想到快速排序的分区算法，竟然可以用于做快速选择？！神奇… 可惜的是，这题目以前做过，现在都给忘完了…

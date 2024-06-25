@@ -1,3 +1,4 @@
+[#0460-lfu-cache]
 = 460. LFU Cache
 
 https://leetcode.com/problems/lfu-cache/[LeetCode - LFU Cache]

@@ -1,4 +1,4 @@
-[#modified-binary-search]
+[#0000-11-modified-binary-search]
 = Modified Binary Search，改造过的二分
 
 当你需要解决的问题的输入是排好序的数组，链表，或是排好序的矩阵，要求咱们寻找某些特定元素。这个时候的不二选择就是二分搜索。这种模式是一种超级牛的用二分来解决问题的方式。

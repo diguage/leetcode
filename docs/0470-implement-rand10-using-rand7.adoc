@@ -1,3 +1,4 @@
+[#0470-implement-rand10-using-rand7]
 = 470. Implement Rand10() Using Rand7()
 
 https://leetcode.com/problems/implement-rand10-using-rand7/[LeetCode - Implement Rand10() Using Rand7()]

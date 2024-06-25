@@ -1,3 +1,4 @@
+[#0590-n-ary-tree-postorder-traversal]
 = 590. N-ary Tree Postorder Traversal
 
 https://leetcode.com/problems/n-ary-tree-postorder-traversal/[LeetCode - N-ary Tree Postorder Traversal]

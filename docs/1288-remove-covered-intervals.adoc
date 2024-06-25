@@ -1,3 +1,4 @@
+[#1288-remove-covered-intervals]
 = 1288. Remove Covered Intervals
 
 https://leetcode.com/problems/remove-covered-intervals/[LeetCode - Remove Covered Intervals]
