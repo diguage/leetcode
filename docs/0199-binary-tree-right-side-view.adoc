@@ -31,6 +31,8 @@ Given a binary tree, imagine yourself standing on the _right_ side of it, return
 include::{sourcedir}/_0199_BinaryTreeRightSideView.java[]
 ----
 
+这道题是 xref:0102-binary-tree-level-order-traversal.adoc[102. Binary Tree Level Order Traversal] 的延伸。
+
 == 思考题
 
 这道题也可以使用深度优先遍历，思考如何实现？

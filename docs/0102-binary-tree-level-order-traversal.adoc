@@ -50,3 +50,7 @@ include::{sourcedir}/_0102_BinaryTreeLevelOrderTraversal_2.java[]
 
 TIP: TODO：还可以优化成只用一个队列对象，思考如何实现？
 
+== 拓展题
+
+. xref:0199-binary-tree-right-side-view.adoc[199. Binary Tree Right Side View]
+
