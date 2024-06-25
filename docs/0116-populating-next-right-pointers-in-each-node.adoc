@@ -29,7 +29,7 @@ Initially, all next pointers are set to `NULL`.
 
 *Example 1:*
 
-image::images/0116-0.png[]
+image::images/0116-00.png[]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -47,17 +47,27 @@ image::images/0116-0.png[]
 
 这道题和 xref:0117-populating-next-right-pointers-in-each-node-ii.adoc[117. Populating Next Right Pointers in Each Node II] 算是姊妹题。
 
-image::images/0116-1.jpg[]
+image::images/0116-01.jpg[]
 
-image::images/0116-2.jpg[]
+image::images/0116-02.jpg[]
 
 这道题的关键是在上层遍历中，把下层的链接关系建立起来。
 
+根据这个提示，再重新实现这个题目时，在思考的过程发现，最重要的就是保存每一层的最左节点。（这点也是根据树的 Morris 遍历得到的启发）这是每一层的起始位置。另外，每层循环的结束是当前节点为 `null` 了。（每层最后的一个节点没有 `next` 节点）。
+
 因为是完全二叉树。所以，如果左下节点为空则到达最后一层；向右节点为空，则到达行尾需要换行。
 
-== 参考资料
+image::images/0116-01.png[]
 
-. https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--27/[详细通俗的思路分析，多解法 - 填充每个节点的下一个右侧节点指针 - 力扣（LeetCode）]
+image::images/0116-02.png[]
+
+image::images/0116-03.png[]
+
+image::images/0116-04.png[]
+
+image::images/0116-05.png[]
+
+image::images/0116-06.png[]
 
 
 [[src-0116]]
@@ -66,3 +76,20 @@ image::images/0116-2.jpg[]
 include::{sourcedir}/_0116_PopulatingNextRightPointersInEachNode.java[]
 ----
 
+=== 常规解法
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0116_PopulatingNextRightPointersInEachNode_2.java[]
+----
+
+=== 常数空间复杂度解法
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0116_PopulatingNextRightPointersInEachNode_21.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/solutions/17870/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--27/[详细通俗的思路分析，多解法 - 填充每个节点的下一个右侧节点指针 - 力扣（LeetCode）]
