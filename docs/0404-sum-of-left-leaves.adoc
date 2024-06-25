@@ -18,6 +18,16 @@ There are two left leaves in the binary tree, with values *9* and *15* respectiv
 ----
 
 
+== 思路分析
+
+这道题的一个重点是搞清楚什么是左叶子节点？两个要求：
+
+. 必须是叶子节点，这个好判断： `node.left == null && node.right == null`
+. 还必须是左节点，这个也容易判断： `parent.left == node`。
+
+对上面的两个条件整理，即可得出： `parent.left != null && parent.left.left == null && parent.left.right == null`。这就是退出递归的一个条件。
+
+其余就是正常的递归的深度优先遍历了。
 
 [[src-0404]]
 [{java_src_attr}]

@@ -5,11 +5,16 @@
 
 [cols="1,4,1,4",options="header"]
 |===
-|# |Title |Solution |注意事项
+|# |题目 |题解 |注意事项
 
 |222
 |{leetcode_base_url}/count-complete-tree-nodes/[Count Complete Tree Nodes]
 |{doc_base_url}/0222-count-complete-tree-nodes.adoc[题解]
 |解法技巧有待掌握。完全二叉树的性质还需要加强学习。
+
+|444
+|{leetcode_base_url}/sequence-reconstruction/[Sequence Reconstruction]
+|{doc_base_url}/0444-sequence-reconstruction.adoc[题解]
+|深刻理解递归退出条件
 
 |===

@@ -3110,14 +3110,14 @@
 //|{doc_base_url}/0443-string-compression.adoc[题解]
 //|Easy
 //|
-//
-//|444
-//|{leetcode_base_url}/sequence-reconstruction/[Sequence Reconstruction]
-//|{source_base_url}/_0444_SequenceReconstruction.java[Java]
-//|{doc_base_url}/0444-sequence-reconstruction.adoc[题解]
-//|Medium
-//|
-//
+
+|444
+|{leetcode_base_url}/sequence-reconstruction/[Sequence Reconstruction]
+|{source_base_url}/_0444_SequenceReconstruction.java[Java]
+|{doc_base_url}/0444-sequence-reconstruction.adoc[题解]
+|Medium
+|
+
 //|445
 //|{leetcode_base_url}/add-two-numbers-ii/[Add Two Numbers II]
 //|{source_base_url}/_0445_AddTwoNumbersII.java[Java]
