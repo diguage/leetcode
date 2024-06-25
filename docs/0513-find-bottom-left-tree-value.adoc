@@ -45,11 +45,23 @@ Output:
 *Note:*
 You may assume the tree (i.e., the given root node) is not *NULL*.
 
+== 思路分析
 
+常规思路是广度优先，记录每一层第一个节点的值。
+
+看社区讨论，可以在广度优先的基础上做个优化：通常在队列里面先放左节点，再放右节点。反转一下，*先放右节点，再放左节点，那么最后一个节点就是需要的节点。*
+
+广度优先比较熟悉，尝试了一下深度优先的解法。
 
 [[src-0513]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0513_FindBottomLeftTreeValue.java[]
 ----
+
+== 参考资料
+
+. https://leetcode.cn/problems/find-bottom-left-tree-value/solutions/1614779/zhao-shu-zuo-xia-jiao-de-zhi-by-leetcode-weeh/[513. 找树左下角的值 - 官方题解^]
+. https://leetcode.cn/problems/find-bottom-left-tree-value/solutions/2049776/bfs-wei-shi-yao-yao-yong-dui-lie-yi-ge-s-f34y/[513. 找树左下角的值 - 【视频讲解】简洁写法^]
+. https://leetcode.cn/problems/find-bottom-left-tree-value/solutions/867882/dai-ma-sui-xiang-lu-dai-ni-xue-tou-er-ch-w3og/[513. 找树左下角的值 - 【递归】【迭代】详解^]
 

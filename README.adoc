@@ -3593,14 +3593,14 @@
 //|{doc_base_url}/0512-game-play-analysis-ii.adoc[题解]
 //|Easy
 //|
-//
-//|513
-//|{leetcode_base_url}/find-bottom-left-tree-value/[Find Bottom Left Tree Value]
-//|{source_base_url}/_0513_FindBottomLeftTreeValue.java[Java]
-//|{doc_base_url}/0513-find-bottom-left-tree-value.adoc[题解]
-//|Medium
-//|
-//
+
+|513
+|{leetcode_base_url}/find-bottom-left-tree-value/[Find Bottom Left Tree Value]
+|{source_base_url}/_0513_FindBottomLeftTreeValue.java[Java]
+|{doc_base_url}/0513-find-bottom-left-tree-value.adoc[题解]
+|Medium
+|
+
 //|514
 //|{leetcode_base_url}/freedom-trail/[Freedom Trail]
 //|{source_base_url}/_0514_FreedomTrail.java[Java]

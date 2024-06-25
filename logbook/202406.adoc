@@ -17,4 +17,9 @@
 |{doc_base_url}/0444-sequence-reconstruction.adoc[题解]
 |深刻理解递归退出条件
 
+|513
+|{leetcode_base_url}/find-bottom-left-tree-value/[Find Bottom Left Tree Value]
+|{doc_base_url}/0513-find-bottom-left-tree-value.adoc[题解]
+|广度优先，尝试一下深度优先。
+
 |===
