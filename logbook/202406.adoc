@@ -32,4 +32,9 @@
 |{doc_base_url}/0112-path-sum.adoc[题解]
 |路径问题。
 
+|437
+|{leetcode_base_url}/path-sum-iii/[Path Sum III]
+|{doc_base_url}/0437-path-sum-iii.adoc[题解]
+|前缀和解法还需要多思考！
+
 |===
