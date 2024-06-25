@@ -1,10 +1,9 @@
 package com.diguage.algorithm.leetcode;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 import static com.diguage.algorithm.leetcode._0116_PopulatingNextRightPointersInEachNode.Node;
+import static com.diguage.algorithm.leetcode._0116_PopulatingNextRightPointersInEachNode.build;
 
 /**
  * = 116. Populating Next Right Pointers in Each Node
@@ -51,7 +50,7 @@ import static com.diguage.algorithm.leetcode._0116_PopulatingNextRightPointersIn
 public class _0116_PopulatingNextRightPointersInEachNode_21 {
   /**
    * 根据提示写出来的：在上一层建立下一层的链接。
-   *
+   * 
    * 根据思考的过程，最重要的就是保存每一层的最左节点。这是每一层的起始位置。
    * 另外，每层循环的结束是当前节点为 `null` 了。（每层最后的一个节点没有 `next` 节点）。
    */
@@ -108,22 +107,8 @@ public class _0116_PopulatingNextRightPointersInEachNode_21 {
   }
 
   public static void main(String[] args) {
-    List<Integer> nums = Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12);
-    List<Node> nodes = new ArrayList<>();
-    for (int i = 0; i < nums.size(); i++) {
-      nodes.add(new Node(nums.get(i)));
-    }
-    for (int i = 0; i < nums.size(); i++) {
-      Node node = nodes.get(i);
-      if (i * 2 + 1 < nums.size()) {
-        node.left = nodes.get(i * 2 + 1);
-      }
-      if (i * 2 + 2 < nums.size()) {
-        node.right = nodes.get(i * 2 + 2);
-      }
-    }
     _0116_PopulatingNextRightPointersInEachNode_21 solution = new _0116_PopulatingNextRightPointersInEachNode_21();
-    Node node = solution.connect(nodes.get(0));
+    Node node = solution.connect(build(Arrays.asList(0, 1, 2, 3, 4, 5)));
     System.out.println(node);
   }
 }

@@ -1,5 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -102,4 +104,29 @@ public class _0116_PopulatingNextRightPointersInEachNode {
             next = _next;
         }
     }
+
+  public static Node build(List<Integer> nums) {
+    List<Node> nodes = new ArrayList<>();
+    for (int i = 0; i < nums.size(); i++) {
+      Integer num = nums.get(i);
+      if (num != null) {
+        nodes.add(new Node(num));
+      } else {
+        nodes.add(null);
+      }
+    }
+    for (int i = 0; i < nums.size(); i++) {
+      Node node = nodes.get(i);
+      if (node == null) {
+        continue;
+      }
+      if (i * 2 + 1 < nums.size()) {
+        node.left = nodes.get(i * 2 + 1);
+      }
+      if (i * 2 + 2 < nums.size()) {
+        node.right = nodes.get(i * 2 + 2);
+      }
+    }
+    return nodes.get(0);
+  }
 }

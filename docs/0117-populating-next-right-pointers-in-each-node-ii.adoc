@@ -53,14 +53,13 @@ image::images/0117-1.png[]
 . 这条链表的头结点，用于下一层的遍历；
 . 这条链表的尾节点，用于添加下一个节点。
 
+这道题的思路和 xref:0116-populating-next-right-pointers-in-each-node.adoc[116. Populating Next Right Pointers in Each Node] 思路几乎是一样的：在上层遍历中，建立下一层的链接。
+
+但这道题和 xref:0116-populating-next-right-pointers-in-each-node.adoc[116. Populating Next Right Pointers in Each Node] 在于：116 是完全二叉树，那么可以直接使用 `next` 节点的 `left` 子节点。这道题不是一个完全二叉树，所以，就需要在运动中寻找不为空的节点。另外，最左节点的选择，也不能直接使用 `mostLeft.left`，也是需要在运动中去寻找下一层第一个不为空的节点。两道题区别不大只是需要多注意细节。
+
 image::images/0117-2.jpg[]
 
 这样，把第一种解法的代码稍作修改就可以了。
-
-== 参考资料
-
-. https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-28/[详细通俗的思路分析，多解法 - 填充每个节点的下一个右侧节点指针 II - 力扣（LeetCode）]
-. https://leetcode.wang/leetcode-117-Populating-Next-Right-Pointers-in-Each-NodeII.html[117. Populating Next Right Pointers in Each Node II · leetcode]
 
 
 [[src-0117]]
@@ -68,4 +67,19 @@ image::images/0117-2.jpg[]
 ----
 include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII.java[]
 ----
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII_2.java[]
+----
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII_21.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/populating-next-right-pointers-in-each-node-ii/solutions/18093/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-28/[详细通俗的思路分析，多解法 - 填充每个节点的下一个右侧节点指针 II^]
+. https://leetcode.wang/leetcode-117-Populating-Next-Right-Pointers-in-Each-NodeII.html[117. 填充每个节点的下一个右侧节点指针 II]
 
