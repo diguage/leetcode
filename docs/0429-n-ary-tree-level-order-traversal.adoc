@@ -20,7 +20,7 @@ image::https://assets.leetcode.com/uploads/2018/10/12/narytreeexample.png[]
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/11/08/sample_4_964.png[]
+image::images/0429-00.png[]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -36,7 +36,9 @@ image::https://assets.leetcode.com/uploads/2019/11/08/sample_4_964.png[]
 * The total number of nodes is between `[0, 10^4]`
 
 
+== 思路分析
 
+直接广度优先遍历，每层独立处理即可。
 
 [[src-0429]]
 [{java_src_attr}]

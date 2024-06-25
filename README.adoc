@@ -3005,14 +3005,14 @@
 //|{doc_base_url}/0428-serialize-and-deserialize-n-ary-tree.adoc[Note]
 //|Hard
 //|
-//
-//|429
-//|{leetcode_base_url}/n-ary-tree-level-order-traversal/[N-ary Tree Level Order Traversal]
-//|{source_base_url}/_0429_NAryTreeLevelOrderTraversal.java[Java]
-//|{doc_base_url}/0429-n-ary-tree-level-order-traversal.adoc[Note]
-//|Medium
-//|
-//
+
+|429
+|{leetcode_base_url}/n-ary-tree-level-order-traversal/[N-ary Tree Level Order Traversal]
+|{source_base_url}/_0429_NAryTreeLevelOrderTraversal.java[Java]
+|{doc_base_url}/0429-n-ary-tree-level-order-traversal.adoc[Note]
+|Medium
+|广度优先
+
 //|430
 //|{leetcode_base_url}/flatten-a-multilevel-doubly-linked-list/[Flatten a Multilevel Doubly Linked List]
 //|{source_base_url}/_0430_FlattenAMultilevelDoublyLinkedList.java[Java]
