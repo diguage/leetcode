@@ -3607,14 +3607,14 @@
 //|{doc_base_url}/0514-freedom-trail.adoc[Note]
 //|Hard
 //|
-//
-//|515
-//|{leetcode_base_url}/find-largest-value-in-each-tree-row/[Find Largest Value in Each Tree Row]
-//|{source_base_url}/_0515_FindLargestValueInEachTreeRow.java[Java]
-//|{doc_base_url}/0515-find-largest-value-in-each-tree-row.adoc[Note]
-//|Medium
-//|
-//
+
+|515
+|{leetcode_base_url}/find-largest-value-in-each-tree-row/[Find Largest Value in Each Tree Row]
+|{source_base_url}/_0515_FindLargestValueInEachTreeRow.java[Java]
+|{doc_base_url}/0515-find-largest-value-in-each-tree-row.adoc[Note]
+|Medium
+|层序遍历
+
 //|516
 //|{leetcode_base_url}/longest-palindromic-subsequence/[Longest Palindromic Subsequence]
 //|{source_base_url}/_0516_LongestPalindromicSubsequence.java[Java]
