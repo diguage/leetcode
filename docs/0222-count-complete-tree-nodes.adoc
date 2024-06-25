@@ -54,6 +54,12 @@ image::images/0222-01.png[]
 image::images/0222-02.png[]
 --
 
+根据下面这张图：
+
+image::images/0222-03.png[]
+
+再结合代码，就更容易理解了。
+
 如何计算 2^left^，最快的方法是移位计算。
 
 [[src-0222]]
