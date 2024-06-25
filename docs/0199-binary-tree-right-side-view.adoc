@@ -1,3 +1,4 @@
+[#0199-binary-tree-right-side-view]
 = 199. Binary Tree Right Side View
 
 https://leetcode.com/problems/binary-tree-right-side-view/[LeetCode - Binary Tree Right Side View]
@@ -20,9 +21,27 @@ Given a binary tree, imagine yourself standing on the _right_ side of it, return
 ----
 
 
+== 思路分析
+
+最简单的思路就是利用 BFS 思想进行分层遍历，然后每层取最后一个节点的值。
+
 [[src-0199]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0199_BinaryTreeRightSideView.java[]
 ----
+
+== 思考题
+
+这道题也可以使用深度优先遍历，思考如何实现？
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0199_BinaryTreeRightSideView_1.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/binary-tree-right-side-view/solutions/213494/er-cha-shu-de-you-shi-tu-by-leetcode-solution/[199. 二叉树的右视图 - 官方题解^] -- 感觉官方的深度优先搜索的解法不对，或者实际是广度优先。
+. https://leetcode.cn/problems/binary-tree-right-side-view/solutions/2015061/ru-he-ling-huo-yun-yong-di-gui-lai-kan-s-r1nc/[199. 二叉树的右视图 - 【视频】如何灵活运用递归？^]
 

@@ -1396,12 +1396,12 @@
 |Easy
 |
 
-//|199
-//|{leetcode_base_url}/binary-tree-right-side-view/[Binary Tree Right Side View]
-//|{source_base_url}/_0199_BinaryTreeRightSideView.java[Java]
-//|{doc_base_url}/0199-binary-tree-right-side-view.adoc[Note]
-//|Medium
-//|
+|199
+|{leetcode_base_url}/binary-tree-right-side-view/[Binary Tree Right Side View]
+|{source_base_url}/_0199_BinaryTreeRightSideView.java[Java]
+|{doc_base_url}/0199-binary-tree-right-side-view.adoc[Note]
+|Medium
+|递归+DFS解法有意思
 
 |200
 |{leetcode_base_url}/number-of-islands/[Number of Islands]
