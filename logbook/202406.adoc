@@ -1,0 +1,15 @@
+= 2024年06月 刷题日志
+:leetcode_base_url: https://leetcode.com/problems
+:doc_base_url: link:../docs
+
+
+[cols="1,4,1,4",options="header"]
+|===
+|# |Title |Solution |注意事项
+
+|222
+|{leetcode_base_url}/count-complete-tree-nodes/[Count Complete Tree Nodes]
+|{doc_base_url}/0222-count-complete-tree-nodes.adoc[题解]
+|解法技巧有待掌握。完全二叉树的性质还需要加强学习。
+
+|===
