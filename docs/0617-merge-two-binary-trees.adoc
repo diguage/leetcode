@@ -55,7 +55,9 @@ Merged tree:
 
 *Note:* The merging process must start from the root nodes of both trees.
 
+== 思路分析
 
+image::images/0617-01.gif[]
 
 [[src-0617]]
 [{java_src_attr}]
@@ -63,3 +65,14 @@ Merged tree:
 include::{sourcedir}/_0617_MergeTwoBinaryTrees.java[]
 ----
 
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0617_MergeTwoBinaryTrees_2.java[]
+----
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/merge-two-binary-trees/solutions/82841/dong-hua-yan-shi-di-gui-die-dai-617he-bing-er-cha-/[617. 合并二叉树 - 动画演示 递归+迭代^]
+. https://leetcode.cn/problems/merge-two-binary-trees/solutions/424201/he-bing-er-cha-shu-by-leetcode-solution/[617. 合并二叉树 - 官方题解^]

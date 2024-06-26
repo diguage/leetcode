@@ -42,4 +42,9 @@
 |{doc_base_url}/0654-maximum-binary-tree.adoc[题解]
 |单调栈，与503套路相同。单调栈不是很理解。还需要再加强练习。
 
+|617
+|{leetcode_base_url}/merge-two-binary-trees/[Merge Two Binary Trees]
+|{doc_base_url}/0617-merge-two-binary-trees.adoc[题解]
+|一个简单的树遍历，递归比较容易，尝试一下迭代，BFS，DFS。
+
 |===
