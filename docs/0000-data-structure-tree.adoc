@@ -9,6 +9,8 @@ image::images/0000-ds-tree-00.png[]
 
 xref:0144-binary-tree-preorder-traversal.adoc[144. Binary Tree Preorder Traversal^]
 
+image::images/0000-ds-tree-02.gif[]
+
 
 搜索二叉树，一个隐含的性质是如果中序遍历，其值是单调递增的。所以，如果两个节点交换位置了，则第一个错误节点是比较大的节点（后面的跑前面了），第二个错误节点为较小的节点（后面的跑前面了）。如果是相邻节点交换，也是类似。
 
@@ -44,6 +46,112 @@ image::images/0000-ds-tree-01.jpg[]
 . 合并第二步的信息，对左树和右树提出同样的要求，并写出信息结构。
 . 设计递归函数，递归函数是处理以 X 为头节点的情况下的答案，包括设计递归的 base case，默认直接得到左树和右树的所有信息，以及把可能性整合，并且要返回第三步的信息结构这四个小步骤。
 
+== 路径问题
+
+=== 问题分类
+
+二叉树路径的问题大致可以分为两类：
+
+. 自顶向下：顾名思义，就是从某一个节点(不一定是根节点)，从上向下寻找路径，到某一个节点(不一定是叶节点)结束。而继续细分的话还可以分成一般路径与给定和的路径。
+.. xref:0257-binary-tree-paths.adoc[257. Binary Tree Paths]
+.. xref:0112-path-sum.adoc[112. Path Sum]
+.. xref:0113-path-sum-ii.adoc[113. Path Sum II]
+.. xref:0437-path-sum-iii.adoc[437. Path Sum III]
+.. xref:0988-smallest-string-starting-from-leaf.adoc[988. Smallest String Starting From Leaf]
+. 非自顶向下：就是从任意节点到任意节点的路径，不需要自顶向下。
+.. xref:0124-binary-tree-maximum-path-sum.adoc[124. Binary Tree Maximum Path Sum]
+.. xref:0687-longest-univalue-path.adoc[687. Longest Univalue Path]
+.. xref:0543-diameter-of-binary-tree.adoc[543. Diameter of Binary Tree]
+
+=== 解题模板
+
+这类题通常用深度优先搜索(DFS)和广度优先搜索(BFS)解决，BFS较DFS繁琐，这里为了简洁只展现DFS代码
+下面是我对两类题目的分析与模板
+
+==== 一、自顶而下：
+
+[source,cpp]
+----
+// **一般路径**
+vector<vector<int>>res;
+void dfs(TreeNode*root,vector<int>path)
+{
+    if(!root) return;  //根节点为空直接返回
+    path.push_back(root->val);  //作出选择
+    if(!root->left && !root->right) //如果到叶节点
+    {
+        res.push_back(path);
+        return;
+    }
+    dfs(root->left,path);  //继续递归
+    dfs(root->right,path);
+}
+
+// **给定和的路径**
+void dfs(TreeNode*root, int sum, vector<int> path)
+{
+    if (!root)
+        return;
+    sum -= root->val;
+    path.push_back(root->val);
+    if (!root->left && !root->right && sum == 0)
+    {
+        res.push_back(path);
+        return;
+    }
+    dfs(root->left, sum, path);
+    dfs(root->right, sum, path);
+}
+----
+
+这类题型DFS注意点：
+
+. 如果是找路径和等于给定 `target` 的路径的，那么可以不用新增一个临时变量 `curSum` 来判断当前路径和，只需要用给定和 `target` 减去节点值，最终结束条件判断 `target==0` 即可
+. 是否要回溯：二叉树的问题大部分是不需要回溯的，原因如下：
++
+--
+二叉树的递归部分：dfs(root->left),dfs(root->right)已经把可能的路径穷尽了，
+因此到任意叶节点的路径只可能有一条，绝对不可能出现另外的路径也到这个满足条件的叶节点的；
+
+而对比二维数组(例如迷宫问题)的DFS，for循环向四个方向查找每次只能朝向一个方向，并没有穷尽路径，
+因此某一个满足条件的点可能是有多条路径到该点的
+
+并且visited数组标记已经走过的路径是会受到另外路径是否访问的影响，这时候必须回溯
+--
++
+. 找到路径后是否要return：取决于题目是否要求找到叶节点满足条件的路径，如果必须到叶节点，那么就要return；但如果是到任意节点都可以，那么必不能return，因为这条路径下面还可能有更深的路径满足条件，还要在此基础上继续递归
+. 是否要双重递归(即调用根节点的dfs函数后，继续调用根左右节点的pathsum函数)：看题目要不要求从根节点开始的，还是从任意节点开始
+
+==== 二、非自顶而下：
+
+这类题目一般解题思路如下：
+
+设计一个辅助函数 `maxPath`，调用自身求出以一个节点为根节点的左侧最长路径 `left` 和右侧最长路径 `right`，那么经过该节点的最长路径就是 `left+right`
+
+接着只需要从根节点开始dfs,不断比较更新全局变量即可
+
+[source,cpp]
+----
+int res=0;
+int maxPath(TreeNode *root) //以root为路径起始点的最长路径
+{
+    if (!root)
+        return 0;
+    int left=maxPath(root->left);
+    int right=maxPath(root->right);
+    res = max(res, left + right + root->val); //更新全局变量
+    return max(left, right);   //返回左右路径较长者
+}
+----
+
+这类题型DFS注意点：
+
+. left,right代表的含义要根据题目所求设置，比如最长路径、最大路径和等等
+. 全局变量res的初值设置是0还是INT_MIN要看题目节点是否存在负值,如果存在就用INT_MIN，否则就是0
+. 注意两点之间路径为1，因此一个点是不能构成路径的
+
+
 == 参考资料
 
 . https://leetcode.cn/problems/recover-binary-search-tree/solutions/365873/yi-wen-zhang-wo-morrisbian-li-suan-fa-by-a-fei-8/[99. 恢复二叉搜索树 - 一文掌握Morris遍历算法^]
+. https://leetcode.cn/problems/path-sum-iii/solutions/815688/yi-pian-wen-zhang-jie-jue-suo-you-er-cha-smch/[437. 路径总和 III - 一篇文章解决所有二叉树路径问题（问题分析+分类模板+题目剖析）^]
