@@ -20,7 +20,13 @@ Given a Binary Search Tree (BST), convert it to a Greater Tree such that every k
           20     13
 ----
 
+image::images/0538-00.png[]
 
+== 思路分析
+
+题目要求：原树中大于或等于 `node.val` 的值之和。二叉搜索树中根遍历是从小到大到，那么反其道而行之，将遍历顺序从“左中右”改为“右中左”，遍历顺序就是从大到小，这样一直累加即可。
+
+=== 一、递归
 
 [[src-0538]]
 [{java_src_attr}]
@@ -28,3 +34,16 @@ Given a Binary Search Tree (BST), convert it to a Greater Tree such that every k
 include::{sourcedir}/_0538_ConvertBSTToGreaterTree.java[]
 ----
 
+=== 二、迭代
+
+基于 Morris 的倒序中根遍历
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0538_ConvertBSTToGreaterTree_1.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/convert-bst-to-greater-tree/solutions/421616/ba-er-cha-sou-suo-shu-zhuan-huan-wei-lei-jia-sh-14/[538. 把二叉搜索树转换为累加树 - 官方题解^]
+. https://leetcode.cn/problems/convert-bst-to-greater-tree/solutions/1/yi-tao-quan-fa-shua-diao-nge-bian-li-shu-de-wen-5/[538. 把二叉搜索树转换为累加树 - 一套拳法👊刷掉n个遍历树的问题^]

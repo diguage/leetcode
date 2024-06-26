@@ -3768,14 +3768,14 @@
 //|{doc_base_url}/0537-complex-number-multiplication.adoc[题解]
 //|Medium
 //|
-//
-//|538
-//|{leetcode_base_url}/convert-bst-to-greater-tree/[Convert BST to Greater Tree]
-//|{source_base_url}/_0538_ConvertBSTToGreaterTree.java[Java]
-//|{doc_base_url}/0538-convert-bst-to-greater-tree.adoc[题解]
-//|Easy
-//|
-//
+
+|538
+|{leetcode_base_url}/convert-bst-to-greater-tree/[Convert BST to Greater Tree]
+|{source_base_url}/_0538_ConvertBSTToGreaterTree.java[Java]
+|{doc_base_url}/0538-convert-bst-to-greater-tree.adoc[题解]
+|Easy
+|
+
 //|539
 //|{leetcode_base_url}/minimum-time-difference/[Minimum Time Difference]
 //|{source_base_url}/_0539_MinimumTimeDifference.java[Java]
