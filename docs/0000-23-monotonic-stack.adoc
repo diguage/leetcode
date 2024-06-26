@@ -1,0 +1,14 @@
+[#0000-23-monotonic-stack]
+= Monotonic Stack 单调栈
+
+== 经典题目
+
+. xref:0654-maximum-binary-tree.adoc[654. Maximum Binary Tree]
+. xref:0084-largest-rectangle-in-histogram.adoc[84. Largest Rectangle in Histogram]
+. xref:0503-next-greater-element-ii.adoc[503. Next Greater Element II]
+. xref:0042-trapping-rain-water.adoc[42. Trapping Rain Water]
+
+== 参考资料
+
+. https://cloud.tencent.com/developer/article/1998273[单调栈详解及其LeetCode应用详解^]
+.

@@ -4580,14 +4580,14 @@
 //|{doc_base_url}/0653-two-sum-iv-input-is-a-bst.adoc[题解]
 //|Easy
 //|
-//
-//|654
-//|{leetcode_base_url}/maximum-binary-tree/[Maximum Binary Tree]
-//|{source_base_url}/_0654_MaximumBinaryTree.java[Java]
-//|{doc_base_url}/0654-maximum-binary-tree.adoc[题解]
-//|Medium
-//|
-//
+
+|654
+|{leetcode_base_url}/maximum-binary-tree/[Maximum Binary Tree]
+|{source_base_url}/_0654_MaximumBinaryTree.java[Java]
+|{doc_base_url}/0654-maximum-binary-tree.adoc[题解]
+|Medium
+|
+
 //|655
 //|{leetcode_base_url}/print-binary-tree/[Print Binary Tree]
 //|{source_base_url}/_0655_PrintBinaryTree.java[Java]

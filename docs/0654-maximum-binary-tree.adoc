@@ -11,13 +11,9 @@ Given an integer array with no duplicates. A maximum tree building on this array
 . The right subtree is the maximum tree constructed from right part subarray divided by the maximum number. 
 
 
-
-
 Construct the maximum tree by the given array and output the root node of this tree.
 
-
 *Example 1:*
-
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -33,17 +29,39 @@ Construct the maximum tree by the given array and output the root node of this t
         1
 ----
 
-
 *Note:*
 
 . The size of the given array will be in the range [1,1000].
 
+== 思路分析
 
+=== 一、递归
 
+image::images/0654-01.png[]
 
 [[src-0654]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0654_MaximumBinaryTree.java[]
 ----
+
+=== 二、单调栈
+
+image::images/0654-02.png[]
+
+image::images/0654-03.png[]
+
+image::images/0654-04.png[]
+
+image::images/0654-05.png[]
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0654_MaximumBinaryTree_1.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/maximum-binary-tree/solutions/1762400/zhua-wa-mou-si-by-muse-77-myd7/[654. 最大二叉树 - 图解LeetCode^]
+
 

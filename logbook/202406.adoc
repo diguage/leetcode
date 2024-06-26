@@ -37,4 +37,9 @@
 |{doc_base_url}/0437-path-sum-iii.adoc[题解]
 |前缀和解法还需要多思考！
 
+|654
+|{leetcode_base_url}/maximum-binary-tree/[Maximum Binary Tree]
+|{doc_base_url}/0654-maximum-binary-tree.adoc[题解]
+|单调栈，与503套路相同。单调栈不是很理解。还需要再加强练习。
+
 |===

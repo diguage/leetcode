@@ -56,6 +56,8 @@ include::0000-21-dynamic-programming.adoc[leveloffset=+1]
 
 include::0000-22-union-find-set.adoc[leveloffset=+1]
 
+include::0000-23-monotonic-stack.adoc[leveloffset=+1]
+
 // :sectnums:
 
 include::0001-two-sum.adoc[leveloffset=+1]
