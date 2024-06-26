@@ -82,5 +82,10 @@
 |{doc_base_url}/0701-insert-into-a-binary-search-tree.adoc[题解]
 |对二叉搜索树的特性利用。题目中的示例有点干扰。只管往左右子树找即可。
 
+|450
+|{leetcode_base_url}/delete-node-in-a-bst/[Delete Node in a BST]
+|{doc_base_url}/0450-delete-node-in-a-bst.adoc[题解]
+|DFS递归，找到需要删除的节点，然后返回处理后的节点，再把左右树嫁接起来即可。尝试一下迭代的实现。
+
 
 |===

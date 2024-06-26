@@ -45,11 +45,27 @@ Another valid answer is [5,2,6,null,4,null,7].
     4   7
 ----
 
+== 思路分析
 
+=== 一、递归
+
+. 根据二叉搜索树的特性，逐步递归去寻找要删除的节点。
+. 找到后，有几种情况要处理：
+.. 如果是叶子节点，则直接返回 null。
+.. 如果没有左树或右树，那么把右树或者左树返回接口
+.. 如果同时有左右树，那么在左树上找到最右节点或者在右树上找到最左节点，然后将其删除。把原来的左右树对接到寻找到的节点的左右树上，返回找到的那个节点即可。
 
 [[src-0450]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0450_DeleteNodeInABST.java[]
 ----
+
+=== 二、迭代
+
+迭代就需要注意了：要找到删除节点的父节点（否则没版本处理。）
+
+== 参考资料
+
+. https://leetcode.cn/problems/delete-node-in-a-bst/solutions/1529700/shan-chu-er-cha-sou-suo-shu-zhong-de-jie-n6vo/[450. 删除二叉搜索树中的节点 - 官方题解^]
 

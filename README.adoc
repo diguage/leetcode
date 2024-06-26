@@ -3152,14 +3152,14 @@
 //|{doc_base_url}/0449-serialize-and-deserialize-bst.adoc[题解]
 //|Medium
 //|
-//
-//|450
-//|{leetcode_base_url}/delete-node-in-a-bst/[Delete Node in a BST]
-//|{source_base_url}/_0450_DeleteNodeInABST.java[Java]
-//|{doc_base_url}/0450-delete-node-in-a-bst.adoc[题解]
-//|Medium
-//|
-//
+
+|450
+|{leetcode_base_url}/delete-node-in-a-bst/[Delete Node in a BST]
+|{source_base_url}/_0450_DeleteNodeInABST.java[Java]
+|{doc_base_url}/0450-delete-node-in-a-bst.adoc[题解]
+|Medium
+|
+
 //|451
 //|{leetcode_base_url}/sort-characters-by-frequency/[Sort Characters By Frequency]
 //|{source_base_url}/_0451_SortCharactersByFrequency.java[Java]
