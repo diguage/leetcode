@@ -44,11 +44,18 @@ This tree is also valid:
           4
 ----
 
+== 思路分析
 
+二叉搜索树的特性：左中右是有序的。如果插入的值比当前节点小，那么就在左子树上找，如果最节点为空，直接插入；否则就不断 `cur = cur.left`。如果插入的值更大，亦是如此。
 
 [[src-0701]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0701_InsertIntoABinarySearchTree.java[]
 ----
+
+== 参考资料
+
+. https://leetcode.cn/problems/insert-into-a-binary-search-tree/solutions/432223/er-cha-sou-suo-shu-zhong-de-cha-ru-cao-zuo-by-le-3/[701. 二叉搜索树中的插入操作 - 官方题解^]
+. https://leetcode.cn/problems/insert-into-a-binary-search-tree/solutions/1766937/acm-xuan-shou-tu-jie-leetcode-by-rocky04-4yub/[701. 二叉搜索树中的插入操作 - ACM 选手图解 LeetCode 二叉搜索树中的插入操作（递归 + 非递归）^] -- 整理了一些资料，可以看看。
 

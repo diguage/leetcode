@@ -4910,13 +4910,13 @@
 |Easy
 |
 
-//|701
-//|{leetcode_base_url}/insert-into-a-binary-search-tree/[Insert into a Binary Search Tree]
-//|{source_base_url}/_0701_InsertIntoABinarySearchTree.java[Java]
-//|{doc_base_url}/0701-insert-into-a-binary-search-tree.adoc[题解]
-//|Medium
-//|
-//
+|701
+|{leetcode_base_url}/insert-into-a-binary-search-tree/[Insert into a Binary Search Tree]
+|{source_base_url}/_0701_InsertIntoABinarySearchTree.java[Java]
+|{doc_base_url}/0701-insert-into-a-binary-search-tree.adoc[题解]
+|Medium
+|
+
 //|702
 //|{leetcode_base_url}/search-in-a-sorted-array-of-unknown-size/[Search in a Sorted Array of Unknown Size]
 //|{source_base_url}/_0702_SearchInASortedArrayOfUnknownSize.java[Java]

@@ -67,5 +67,20 @@
 |{doc_base_url}/0501-find-mode-in-binary-search-tree.adoc[题解]
 |利用中根遍历的特性：相同数字一起出现
 
+|236
+|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree/[Lowest Common Ancestor of a Binary Tree]
+|{doc_base_url}/0236-lowest-common-ancestor-of-a-binary-tree.adoc[题解]
+|想清楚怎么判断是否为公共祖先：在同一棵子树下。拿这棵树的节点逐步递归地去判断是否相等，如果返回值不为空，则处于同一个子树下。
+
+|235
+|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-search-tree/[Lowest Common Ancestor of a Binary Search Tree]
+|{doc_base_url}/0235-lowest-common-ancestor-of-a-binary-search-tree.adoc[题解]
+|二叉搜索树左大右小，祖先在中间的特性，可以快速去除不必要的判断。
+
+|701
+|{leetcode_base_url}/insert-into-a-binary-search-tree/[Insert into a Binary Search Tree]
+|{doc_base_url}/0701-insert-into-a-binary-search-tree.adoc[题解]
+|对二叉搜索树的特性利用。题目中的示例有点干扰。只管往左右子树找即可。
+
 
 |===
