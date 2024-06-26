@@ -24,14 +24,19 @@ Given a binary search tree with non-negative values, find the minimum <a href="h
 The minimum absolute difference is 1, which is the difference between 2 and 1 (or between 2 and 3).
 ----
 
- 
-
 *Note:* There are at least two nodes in this BST.
 
+== 思路分析
+
+看到二叉搜索树，就要想到中序遍历。
 
 [[src-0530]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0530_MinimumAbsoluteDifferenceInBST.java[]
 ----
+
+== 参考资料
+
+. https://leetcode.cn/problems/minimum-absolute-difference-in-bst/solutions/39609/zhong-xu-bian-li-tuan-mie-xi-lie-er-cha-sou-suo-sh/[530. 二叉搜索树的最小绝对差 - 中序遍历团灭系列二叉搜索树问题^]
 

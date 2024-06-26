@@ -3712,14 +3712,14 @@
 //|{doc_base_url}/0529-minesweeper.adoc[题解]
 //|Medium
 //|
-//
-//|530
-//|{leetcode_base_url}/minimum-absolute-difference-in-bst/[Minimum Absolute Difference in BST]
-//|{source_base_url}/_0530_MinimumAbsoluteDifferenceInBST.java[Java]
-//|{doc_base_url}/0530-minimum-absolute-difference-in-bst.adoc[题解]
-//|Easy
-//|
-//
+
+|530
+|{leetcode_base_url}/minimum-absolute-difference-in-bst/[Minimum Absolute Difference in BST]
+|{source_base_url}/_0530_MinimumAbsoluteDifferenceInBST.java[Java]
+|{doc_base_url}/0530-minimum-absolute-difference-in-bst.adoc[题解]
+|Easy
+|
+
 //|531
 //|{leetcode_base_url}/lonely-pixel-i/[Lonely Pixel I]
 //|{source_base_url}/_0531_LonelyPixelI.java[Java]

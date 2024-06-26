@@ -18,6 +18,16 @@ image::images/0000-ds-tree-02.gif[]
 
 将一棵搜索二叉树按后序遍历生成一个数组。那么，数组最后一个元素就是根节点，同时，从后向前遍历，第一个小于根节点值的地方就是左右树的分界线。然后再递归解析。就可以重建这棵搜索二叉树了。
 
+社区里有人宣称： https://leetcode.cn/problems/minimum-absolute-difference-in-bst/solutions/39609/zhong-xu-bian-li-tuan-mie-xi-lie-er-cha-sou-suo-sh/[中序遍历团灭系列二叉搜索树问题^]。这点可以尝试一下：
+
+. xref:0094-binary-tree-inorder-traversal.adoc[94. Binary Tree Inorder Traversal] 中序遍历二叉树
+. xref:0530-minimum-absolute-difference-in-bst.adoc[530. Minimum Absolute Difference in BST] 二叉搜索树的最小绝对差
+. xref:0230-kth-smallest-element-in-a-bst.adoc[230. Kth Smallest Element in a BST] 二叉搜索树中第k小的元素
+. xref:0501-find-mode-in-binary-search-tree.adoc[501. Find Mode in Binary Search Tree] 二叉搜索树中的众数
+. xref:0938-range-sum-of-bst.adoc[938. Range Sum of BST] 二叉搜索树的范围和
+. xref:0653-two-sum-iv-input-is-a-bst.adoc[653. Two Sum IV - Input is a BST] 两数之和IV-输入BST
+. xref:0098-validate-binary-search-tree.adoc[98. Validate Binary Search Tree] 验证二叉搜索树
+
 == 需要加强的内容
 
 . 基于 Morris 遍历的前序和后序遍历练习
@@ -158,3 +168,4 @@ int maxPath(TreeNode *root) //以root为路径起始点的最长路径
 . https://leetcode.cn/problems/recover-binary-search-tree/solutions/365873/yi-wen-zhang-wo-morrisbian-li-suan-fa-by-a-fei-8/[99. 恢复二叉搜索树 - 一文掌握Morris遍历算法^]
 . https://leetcode.cn/problems/path-sum-iii/solutions/815688/yi-pian-wen-zhang-jie-jue-suo-you-er-cha-smch/[437. 路径总和 III - 一篇文章解决所有二叉树路径问题（问题分析+分类模板+题目剖析）^]
 . https://leetcode.cn/problems/search-in-a-binary-search-tree/solutions/867987/dai-ma-sui-xiang-lu-dai-ni-xue-tou-er-ch-3ww7/[700. 二叉搜索树中的搜索:【递归法】【迭代法】详解^]
+. https://leetcode.cn/problems/minimum-absolute-difference-in-bst/solutions/39609/zhong-xu-bian-li-tuan-mie-xi-lie-er-cha-sou-suo-sh/[530. 二叉搜索树的最小绝对差 - 中序遍历团灭系列二叉搜索树问题^]
