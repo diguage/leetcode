@@ -52,6 +52,16 @@ Given a binary search tree and the lowest and highest boundaries as `L` and `R`,
  1
 ----
 
+== 思路分析
+
+=== 递归
+
+对于当前访问的结点，分四种情况进行处理：
+
+. 如果结点为空结点，直接返回空结点；
+. 如果结点的值小于 low，那么说明该结点及它的左子树都不符合要求，我们返回对它的右结点进行修剪后的结果；
+. 如果结点的值大于 high，那么说明该结点及它的右子树都不符合要求，我们返回对它的左子树进行修剪后的结果；
+. 如果结点的值位于区间 [low,high]，我们将结点的左结点设为对它的左子树修剪后的结果，右结点设为对它的右子树进行修剪后的结果。
 
 
 [[src-0669]]
@@ -59,4 +69,21 @@ Given a binary search tree and the lowest and highest boundaries as `L` and `R`,
 ----
 include::{sourcedir}/_0669_TrimABinarySearchTree.java[]
 ----
+
+=== 迭代
+
+先讨论左子树的修剪：
+
+. node 的左结点为空结点：不需要修剪
+. node 的左结点非空：
+.. 如果它的左结点 left 的值小于 low，那么 left 以及 left 的左子树都不符合要求，我们将 node 的左结点设为 left 的右结点，然后再重新对 node 的左子树进行修剪。
+.. 如果它的左结点 left 的值大于等于 low，又因为 node 的值已经符合要求，所以 left 的右子树一定符合要求。基于此，我们只需要对 left 的左子树进行修剪。我们令 node 等于 left ，然后再重新对 node 的左子树进行修剪。
+
+TODO: 留下当思考题吧。
+
+网页评价“深搜递归永远那么：暴！力！美！学！广搜迭代永远那么：神！秘！深！奥！”！在这道题里，真是极致恰当啊！
+
+== 参考资料
+
+. https://leetcode.cn/problems/trim-a-binary-search-tree/solutions/1813384/xiu-jian-er-cha-sou-suo-shu-by-leetcode-qe7q1/[669. 修剪二叉搜索树 - 官方题解^]
 

@@ -4685,14 +4685,14 @@
 //|{doc_base_url}/0668-kth-smallest-number-in-multiplication-table.adoc[题解]
 //|Hard
 //|
-//
-//|669
-//|{leetcode_base_url}/trim-a-binary-search-tree/[Trim a Binary Search Tree]
-//|{source_base_url}/_0669_TrimABinarySearchTree.java[Java]
-//|{doc_base_url}/0669-trim-a-binary-search-tree.adoc[题解]
-//|Easy
-//|
-//
+
+|669
+|{leetcode_base_url}/trim-a-binary-search-tree/[Trim a Binary Search Tree]
+|{source_base_url}/_0669_TrimABinarySearchTree.java[Java]
+|{doc_base_url}/0669-trim-a-binary-search-tree.adoc[题解]
+|Easy
+|
+
 //|670
 //|{leetcode_base_url}/maximum-swap/[Maximum Swap]
 //|{source_base_url}/_0670_MaximumSwap.java[Java]

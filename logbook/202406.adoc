@@ -92,4 +92,9 @@
 |{doc_base_url}/0538-convert-bst-to-greater-tree.adoc[题解]
 |基于 Morris 的倒序中根遍历，值得研究。递归的理解需要加强。
 
+|669
+|{leetcode_base_url}/trim-a-binary-search-tree/[Trim a Binary Search Tree]
+|{doc_base_url}/0669-trim-a-binary-search-tree.adoc[题解]
+|递归简单明了，迭代一脸懵逼。看到答案瞬间就明白了，但自己写不出来，对递归还是似懂非懂！
+
 |===
