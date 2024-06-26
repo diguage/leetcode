@@ -3,7 +3,9 @@ package com.diguage.algorithm.leetcode;
 import com.diguage.algorithm.util.TreeNode;
 import com.diguage.algorithm.util.TreeNodeUtils;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author D瓜哥 · https://www.diguage.com
@@ -18,7 +20,7 @@ public class _0501_FindModeInBinarySearchTree {
       return new int[0];
     }
     List<Integer> result = new ArrayList<>();
-    Integer baseNum = null;
+    TreeNode baseNode = null;
     int count = 0;
     int maxCount = Integer.MIN_VALUE;
     TreeNode cur = root;
@@ -39,35 +41,20 @@ public class _0501_FindModeInBinarySearchTree {
       }
       // 在这里，利用二叉搜索树中序遍历，序列是有序的特性
       // 相同的数字就会出现在一起，这是统计每个数字的出现次数
-      // 第一次遍历到这里
-      if (baseNum == null) {
-        baseNum = cur.val;
-        count++;
-        if (count > maxCount) {
-          result.add(cur.val);
-          maxCount = count;
-        }
+      // baseNode == null 第一次遍历到这里
+      // baseNode.val != cur.val 进行到下一个数字
+      if (baseNode == null || baseNode.val != cur.val) {
+        baseNode = cur;
+        count = 1;
       } else {
-        if (cur.val == baseNum) {
-          count++;
-          if (count > maxCount) {
-            result.clear();
-            result.add(cur.val);
-            maxCount = count;
-          } else if (count == maxCount) {
-            result.add(cur.val);
-          }
-        } else {
-          count = 1;
-          baseNum = cur.val;
-          if (count > maxCount) {
-            result.clear();
-            result.add(cur.val);
-            maxCount = count;
-          } else if (count == maxCount) {
-            result.add(cur.val);
-          }
-        }
+        count++;
+      }
+      if (count > maxCount) {
+        result.clear();
+        result.add(cur.val);
+        maxCount = count;
+      } else if (count == maxCount) {
+        result.add(cur.val);
       }
       cur = cur.right;
     }

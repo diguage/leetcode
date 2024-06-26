@@ -34,9 +34,22 @@ return `[2]`.
 
 == 思路分析
 
+看到二叉搜索树，应该条件反射般想到**二叉搜索树的中根遍历是有序的。**
+
+由于中根遍历有序的特性，那么相同的数字就会一起出现，在出现的时候，统计每个数字出现的次数即可。思想容易理解，重点是代码的实现。有两个地方可以稍微简化一下代码：
+
+* 先更新要处理的数字及次数；
+* 然后根据次数，就可以处理需要的结果。
+
 [[src-0501]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0501_FindModeInBinarySearchTree.java[]
 ----
+
+== 参考资料
+
+. https://leetcode.cn/problems/find-mode-in-binary-search-tree/solutions/425430/er-cha-sou-suo-shu-zhong-de-zhong-shu-by-leetcode-/[501. 二叉搜索树中的众数 - 官方题解^]
+. https://leetcode.cn/problems/find-mode-in-binary-search-tree/solutions/425776/501-er-cha-sou-suo-shu-zhong-de-zhong-shu-bao-li-t/[501. 二叉搜索树中的众数 - 【暴力统计】【中序遍历】详解^]
+. https://leetcode.cn/problems/find-mode-in-binary-search-tree/solutions/1654306/by-rocky0429-2-kabs/[501. 二叉搜索树中的众数 - ACM 选手图解 LeetCode 二叉搜索树中的众数（递归 + 非递归）^]
 
