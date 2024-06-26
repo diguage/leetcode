@@ -3509,14 +3509,14 @@
 //|{doc_base_url}/0500-keyboard-row.adoc[题解]
 //|Easy
 //|
-//
-//|501
-//|{leetcode_base_url}/find-mode-in-binary-search-tree/[Find Mode in Binary Search Tree]
-//|{source_base_url}/_0501_FindModeInBinarySearchTree.java[Java]
-//|{doc_base_url}/0501-find-mode-in-binary-search-tree.adoc[题解]
-//|Easy
-//|
-//
+
+|501
+|{leetcode_base_url}/find-mode-in-binary-search-tree/[Find Mode in Binary Search Tree]
+|{source_base_url}/_0501_FindModeInBinarySearchTree.java[Java]
+|{doc_base_url}/0501-find-mode-in-binary-search-tree.adoc[题解]
+|Easy
+|
+
 //|502
 //|{leetcode_base_url}/ipo/[IPO]
 //|{source_base_url}/_0502_IPO.java[Java]

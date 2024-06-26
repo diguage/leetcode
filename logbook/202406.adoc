@@ -57,11 +57,15 @@
 |{doc_base_url}/0098-validate-binary-search-tree.adoc[题解]
 |树形DP套路或中序遍历（前几天做的）
 
-
 |530
 |{leetcode_base_url}/minimum-absolute-difference-in-bst/[Minimum Absolute Difference in BST]
 |{doc_base_url}/0530-minimum-absolute-difference-in-bst.adoc[题解]
 |98可用中序遍历，正好实验一下
+
+|501
+|{leetcode_base_url}/find-mode-in-binary-search-tree/[Find Mode in Binary Search Tree]
+|{doc_base_url}/0501-find-mode-in-binary-search-tree.adoc[题解]
+|利用中根遍历的特性：相同数字一起出现
 
 
 |===

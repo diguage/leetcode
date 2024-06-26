@@ -1,5 +1,6 @@
 package com.diguage.algorithm.util;
 
+import com.diguage.algorithm.leetcode._0116_PopulatingNextRightPointersInEachNode;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -10,33 +11,30 @@ import java.util.*;
  * @since 2020-01-02 00:25
  */
 public class TreeNodeUtils {
-    public static TreeNode buildTree(List<Integer> array) {
-        if (Objects.isNull(array) || array.size() == 0) {
-            return null;
-        }
-
-        TreeNode result = new TreeNode(array.get(0));
-        List<TreeNode> treeNodeList = new ArrayList<>(array.size());
-        treeNodeList.add(result);
-        for (int i = 1; i < array.size(); i++) {
-            TreeNode parent = treeNodeList.get((i - 1) / 2);
-            if (Objects.isNull(parent)) {
-                continue;
-            }
-            Integer value = array.get(i);
-            TreeNode treeNode = null;
-            if (Objects.nonNull(value)) {
-                treeNode = new TreeNode(value);
-                if (i % 2 == 0) {
-                    parent.right = treeNode;
-                } else {
-                    parent.left = treeNode;
-                }
-            }
-            treeNodeList.add(treeNode);
-        }
-        return result;
+  public static TreeNode buildTree(List<Integer> nums) {
+    List<TreeNode> nodes = new ArrayList<>();
+    for (int i = 0; i < nums.size(); i++) {
+      Integer num = nums.get(i);
+      if (num != null) {
+        nodes.add(new TreeNode(num));
+      } else {
+        nodes.add(null);
+      }
     }
+    for (int i = 0; i < nums.size(); i++) {
+      TreeNode node = nodes.get(i);
+      if (node == null) {
+        continue;
+      }
+      if (i * 2 + 1 < nums.size()) {
+        node.left = nodes.get(i * 2 + 1);
+      }
+      if (i * 2 + 2 < nums.size()) {
+        node.right = nodes.get(i * 2 + 2);
+      }
+    }
+    return nodes.get(0);
+  }
 
     public List<Integer> printTree(TreeNode root) {
       if (Objects.isNull(root)) {
