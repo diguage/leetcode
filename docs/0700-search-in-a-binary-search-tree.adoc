@@ -32,7 +32,9 @@ In the example above, if we want to search the value `5`, since there is no node
 
 Note that an empty tree is represented by `NULL`, therefore you would see the expected output (serialized tree format) as `[]`, not `null`.
 
+== 思路分析
 
+可以理解成二分查找在二叉搜索树上的应用。
 
 [[src-0700]]
 [{java_src_attr}]
@@ -40,3 +42,7 @@ Note that an empty tree is represented by `NULL`, therefore you would see the ex
 include::{sourcedir}/_0700_SearchInABinarySearchTree.java[]
 ----
 
+
+== 参考资料
+
+. https://leetcode.cn/problems/search-in-a-binary-search-tree/solutions/1121178/er-cha-sou-suo-shu-zhong-de-sou-suo-by-l-d8zi/[700. 二叉搜索树中的搜索 - 官方题解^]

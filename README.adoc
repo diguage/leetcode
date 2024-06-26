@@ -4902,14 +4902,14 @@
 //|{doc_base_url}/0699-falling-squares.adoc[题解]
 //|Hard
 //|
-//
-//|700
-//|{leetcode_base_url}/search-in-a-binary-search-tree/[Search in a Binary Search Tree]
-//|{source_base_url}/_0700_SearchInABinarySearchTree.java[Java]
-//|{doc_base_url}/0700-search-in-a-binary-search-tree.adoc[题解]
-//|Easy
-//|
-//
+
+|700
+|{leetcode_base_url}/search-in-a-binary-search-tree/[Search in a Binary Search Tree]
+|{source_base_url}/_0700_SearchInABinarySearchTree.java[Java]
+|{doc_base_url}/0700-search-in-a-binary-search-tree.adoc[题解]
+|Easy
+|
+
 //|701
 //|{leetcode_base_url}/insert-into-a-binary-search-tree/[Insert into a Binary Search Tree]
 //|{source_base_url}/_0701_InsertIntoABinarySearchTree.java[Java]
