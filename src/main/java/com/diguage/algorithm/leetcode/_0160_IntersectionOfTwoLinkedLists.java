@@ -1,7 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
 import com.diguage.algorithm.util.ListNode;
-import com.diguage.algorithm.util.ListNodeUtils;
+import com.diguage.util.ListNodes;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -105,10 +105,10 @@ public class _0160_IntersectionOfTwoLinkedLists {
 
     public static void main(String[] args) {
         _0160_IntersectionOfTwoLinkedLists solution = new _0160_IntersectionOfTwoLinkedLists();
-        ListNode l11 = ListNodeUtils.build(Arrays.asList(4, 1, 8, 4, 5));
-        ListNode l12 = ListNodeUtils.build(Arrays.asList(5, 0, 1));
+        ListNode l11 = ListNodes.build(Arrays.asList(4, 1, 8, 4, 5));
+        ListNode l12 = ListNodes.build(Arrays.asList(5, 0, 1));
         l12.next.next.next = l11.next.next;
         ListNode r1 = solution.getIntersectionNode(l11, l12);
-        ListNodeUtils.printListNode(r1);
+        ListNodes.printListNode(r1);
     }
 }

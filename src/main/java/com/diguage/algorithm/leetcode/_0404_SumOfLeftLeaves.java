@@ -1,7 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
 import com.diguage.algorithm.util.TreeNode;
-import com.diguage.algorithm.util.TreeNodeUtils;
+import com.diguage.util.TreeNodes;
 
 import java.util.Arrays;
 
@@ -22,7 +22,7 @@ public class _0404_SumOfLeftLeaves {
   }
 
   public static void main(String[] args) {
-    TreeNode root = TreeNodeUtils.buildTree(Arrays.asList(3, 9, 20, null, null, 15, 7));
+    TreeNode root = TreeNodes.buildTree(Arrays.asList(3, 9, 20, null, null, 15, 7));
     _0404_SumOfLeftLeaves solution = new _0404_SumOfLeftLeaves();
     int result = solution.sumOfLeftLeaves(root);
     System.out.println(result + " : " + (result == 24));

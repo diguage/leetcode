@@ -1,8 +1,8 @@
 package com.diguage.algorithm.leetcode;
 
-import com.diguage.algorithm.util.JsonUtils;
+import com.diguage.util.Jsons;
 import com.diguage.algorithm.util.TreeNode;
-import com.diguage.algorithm.util.TreeNodeUtils;
+import com.diguage.util.TreeNodes;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -58,11 +58,11 @@ public class _0297_SerializeAndDeserializeBinaryTree_2 {
   }
 
   public static void main(String[] args) {
-    TreeNode root = TreeNodeUtils.buildTree(Arrays.asList(0, 1, 2, 3, null, null, 6, 7, null, null, null, null, null, null, 14));
+    TreeNode root = TreeNodes.buildTree(Arrays.asList(0, 1, 2, 3, null, null, 6, 7, null, null, null, null, null, null, 14));
     _0297_SerializeAndDeserializeBinaryTree_2 solution = new _0297_SerializeAndDeserializeBinaryTree_2();
     String data = solution.serialize(root);
     System.out.println(data);
     TreeNode tree = solution.deserialize(data);
-    System.out.println(JsonUtils.toJson(tree));
+    System.out.println(Jsons.toJson(tree));
   }
 }

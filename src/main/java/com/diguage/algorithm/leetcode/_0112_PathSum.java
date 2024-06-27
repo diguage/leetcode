@@ -4,7 +4,7 @@ import com.diguage.algorithm.util.TreeNode;
 
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.TreeNodeUtils.*;
+import static com.diguage.util.TreeNodes.*;
 import static java.util.Arrays.*;
 
 /**

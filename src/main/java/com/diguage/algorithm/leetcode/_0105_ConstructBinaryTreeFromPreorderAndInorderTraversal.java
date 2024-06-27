@@ -1,6 +1,6 @@
 package com.diguage.algorithm.leetcode;
 
-import com.diguage.algorithm.util.JsonUtils;
+import com.diguage.util.Jsons;
 import com.diguage.algorithm.util.TreeNode;
 
 /**
@@ -71,6 +71,6 @@ public class _0105_ConstructBinaryTreeFromPreorderAndInorderTraversal {
     int[] preorder = {3, 9, 20, 15, 7};
     int[] inorder = {9, 3, 15, 20, 7};
     TreeNode tree = solution.buildTree(preorder, inorder);
-    System.out.println(JsonUtils.toJson(tree));
+    System.out.println(Jsons.toJson(tree));
   }
 }

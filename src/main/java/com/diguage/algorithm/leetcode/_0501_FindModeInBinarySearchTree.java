@@ -1,7 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
 import com.diguage.algorithm.util.TreeNode;
-import com.diguage.algorithm.util.TreeNodeUtils;
+import com.diguage.util.TreeNodes;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -66,7 +66,7 @@ public class _0501_FindModeInBinarySearchTree {
   }
 
   public static void main(String[] args) {
-    TreeNode tree = TreeNodeUtils.buildTree(Arrays.asList(3, 2, 3, 1, 2));
+    TreeNode tree = TreeNodes.buildTree(Arrays.asList(3, 2, 3, 1, 2));
     _0501_FindModeInBinarySearchTree solution = new _0501_FindModeInBinarySearchTree();
     int[] mode = solution.findMode(tree);
     System.out.println(Arrays.toString(mode));

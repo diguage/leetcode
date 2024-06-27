@@ -1,12 +1,12 @@
 package com.diguage.algorithm.leetcode;
 
-import com.diguage.algorithm.util.JsonUtils;
+import com.diguage.util.Jsons;
 import com.diguage.algorithm.util.ListNode;
 
 import java.util.Arrays;
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.ListNodeUtils.build;
+import static com.diguage.util.ListNodes.build;
 
 /**
  * = 142. Linked List Cycle II
@@ -60,6 +60,6 @@ public class _0142_LinkedListCycleII {
         ListNode l1 = build(Arrays.asList(3, 2, 0, -4));
         l1.next.next.next.next = l1.next;
         ListNode listNode = solution.detectCycle(l1);
-        System.out.println(JsonUtils.toJson(listNode));
+        System.out.println(Jsons.toJson(listNode));
     }
 }

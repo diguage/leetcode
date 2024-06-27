@@ -4,7 +4,7 @@ import com.diguage.algorithm.util.TreeNode;
 
 import java.util.*;
 
-import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
+import static com.diguage.util.TreeNodes.buildTree;
 
 /**
  * = 103. Binary Tree Zigzag Level Order Traversal

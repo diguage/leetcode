@@ -1,11 +1,11 @@
 package com.diguage.algorithm.leetcode;
 
-import com.diguage.algorithm.util.PrintUtils;
+import com.diguage.util.Printers;
 import com.diguage.algorithm.util.TreeNode;
 
 import java.util.*;
 
-import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
+import static com.diguage.util.TreeNodes.buildTree;
 import static java.util.Arrays.asList;
 
 /**
@@ -51,6 +51,6 @@ public class _0107_BinaryTreeLevelOrderTraversalII {
     public static void main(String[] args) {
         _0107_BinaryTreeLevelOrderTraversalII solution = new _0107_BinaryTreeLevelOrderTraversalII();
         List<List<Integer>> r1 = solution.levelOrderBottom(buildTree(asList(3, 9, 20, null, null, 15, 7)));
-        PrintUtils.printMatrix(r1);
+        Printers.printMatrix(r1);
     }
 }

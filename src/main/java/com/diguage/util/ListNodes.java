@@ -1,4 +1,6 @@
-package com.diguage.algorithm.util;
+package com.diguage.util;
+
+import com.diguage.algorithm.util.ListNode;
 
 import java.util.List;
 import java.util.Objects;
@@ -9,7 +11,7 @@ import java.util.Objects;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2019-10-29 21:07
  */
-public class ListNodeUtils {
+public class ListNodes {
     public static boolean isOrder(ListNode head) {
         if (Objects.isNull(head)) {
             return true;

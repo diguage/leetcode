@@ -1,6 +1,6 @@
 package com.diguage.algorithm.leetcode;
 
-import com.diguage.algorithm.util.JsonUtils;
+import com.diguage.util.Jsons;
 import com.diguage.algorithm.util.TreeNode;
 
 import java.util.Objects;
@@ -69,6 +69,6 @@ public class _0108_ConvertSortedArrayToBinarySearchTree {
         _0108_ConvertSortedArrayToBinarySearchTree solution = new _0108_ConvertSortedArrayToBinarySearchTree();
         int[] n1 = {-10, -3, 0, 5, 9};
         TreeNode r1 = solution.sortedArrayToBST(n1);
-        System.out.println(JsonUtils.toJson(r1));
+        System.out.println(Jsons.toJson(r1));
     }
 }

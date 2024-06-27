@@ -1,7 +1,7 @@
 package com.diguage.algorithm.ciqas;
 
 import com.diguage.algorithm.util.ListNode;
-import com.diguage.algorithm.util.ListNodeUtils;
+import com.diguage.util.ListNodes;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -38,9 +38,9 @@ public class Test25 {
     public static void main(String[] args) {
         Test25 test = new Test25();
         ListNode r1 = test.mergeTwoLists(
-                ListNodeUtils.build(Arrays.asList(1, 2, 3)),
-                ListNodeUtils.build(Arrays.asList(1, 3, 4)));
-        ListNodeUtils.printListNode(r1);
+                ListNodes.build(Arrays.asList(1, 2, 3)),
+                ListNodes.build(Arrays.asList(1, 3, 4)));
+        ListNodes.printListNode(r1);
     }
 
 }

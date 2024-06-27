@@ -1,7 +1,7 @@
 package com.diguage.algorithm.ciqas;
 
 import com.diguage.algorithm.util.ListNode;
-import com.diguage.algorithm.util.ListNodeUtils;
+import com.diguage.util.ListNodes;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -32,6 +32,6 @@ public class Test18 {
 
     public static void main(String[] args) {
         Test18 test = new Test18();
-        test.deleteNode(ListNodeUtils.build(Arrays.asList(4, 5, 1, 9)), 5);
+        test.deleteNode(ListNodes.build(Arrays.asList(4, 5, 1, 9)), 5);
     }
 }

@@ -1,6 +1,6 @@
 package com.diguage.algorithm.leetcode;
 
-import com.diguage.algorithm.util.PrintUtils;
+import com.diguage.util.Printers;
 
 /**
  * = 37. Sudoku Solver
@@ -39,7 +39,7 @@ public class _0037_SudokuSolver {
                     board[i][j] = c;
                     System.out.printf("y=%d,x=%d, num=%s, step=%d %n",
                             y, x, c, step);
-                    PrintUtils.printMatrix(board);
+                    Printers.printMatrix(board);
                     if (backtrack(board, step + 1)) {
                         return true;
                     }
@@ -84,7 +84,7 @@ public class _0037_SudokuSolver {
                     }
                     board[i][j] = c;
                     System.out.printf("y=%d,x=%d, num=%s %n", i, j, c);
-                    PrintUtils.printMatrix(board);
+                    Printers.printMatrix(board);
                     if (backtrackXY(board, i, j + 1)) {
                         return true;
                     }
@@ -109,8 +109,8 @@ public class _0037_SudokuSolver {
                 {'.', '.', '.', '.', '8', '.', '.', '7', '9'}
         };
         _0037_SudokuSolver solution = new _0037_SudokuSolver();
-        PrintUtils.printMatrix(b1);
+        Printers.printMatrix(b1);
         solution.solveSudoku(b1);
-        PrintUtils.printMatrix(b1);
+        Printers.printMatrix(b1);
     }
 }

@@ -1,7 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
 import com.diguage.algorithm.util.TreeNode;
-import com.diguage.algorithm.util.TreeNodeUtils;
+import com.diguage.util.TreeNodes;
 
 import java.util.*;
 
@@ -134,17 +134,17 @@ public class _0101_SymmetricTree {
         _0101_SymmetricTree solution = new _0101_SymmetricTree();
 
         List<Integer> a1 = Arrays.asList(1, 2, 2, 3, 4, 4, 3);
-        TreeNode t1 = TreeNodeUtils.buildTree(a1);
+        TreeNode t1 = TreeNodes.buildTree(a1);
         boolean r1 = solution.isSymmetric(t1);
         System.out.println((r1 == true) + " : " + r1);
 
         List<Integer> a2 = Arrays.asList(1, 2, 2, null, 3, null, 3);
-        TreeNode t2 = TreeNodeUtils.buildTree(a2);
+        TreeNode t2 = TreeNodes.buildTree(a2);
         boolean r2 = solution.isSymmetric(t2);
         System.out.println((r2 == false) + " : " + r2);
 
         List<Integer> a3 = Arrays.asList(1, 2, 2, null, 3, 3);
-        TreeNode t3 = TreeNodeUtils.buildTree(a3);
+        TreeNode t3 = TreeNodes.buildTree(a3);
         boolean r3 = solution.isSymmetric(t3);
         System.out.println((r3 == true) + " : " + r3);
     }

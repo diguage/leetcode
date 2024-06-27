@@ -1,7 +1,7 @@
 package com.diguage.algorithm.ciqas;
 
 import com.diguage.algorithm.util.ListNode;
-import com.diguage.algorithm.util.ListNodeUtils;
+import com.diguage.util.ListNodes;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -33,7 +33,7 @@ public class Test22 {
 
     public static void main(String[] args) {
         Test22 test = new Test22();
-        ListNode r1 = test.getKthFromEnd(ListNodeUtils.build(Arrays.asList(1, 2, 3, 4, 5, 6)), 0);
-        ListNodeUtils.printListNode(r1);
+        ListNode r1 = test.getKthFromEnd(ListNodes.build(Arrays.asList(1, 2, 3, 4, 5, 6)), 0);
+        ListNodes.printListNode(r1);
     }
 }

@@ -1,7 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
 import com.diguage.algorithm.util.TreeNode;
-import com.diguage.algorithm.util.TreeNodeUtils;
+import com.diguage.util.TreeNodes;
 
 import java.util.*;
 
@@ -96,11 +96,11 @@ public class _0230_KthSmallestElementInABst {
 
     public static void main(String[] args) {
         _0230_KthSmallestElementInABst solution = new _0230_KthSmallestElementInABst();
-        TreeNode t1 = TreeNodeUtils.buildTree(Arrays.asList(3, 1, 4, null, 2));
+        TreeNode t1 = TreeNodes.buildTree(Arrays.asList(3, 1, 4, null, 2));
         int r1 = solution.kthSmallest(t1, 1);
         System.out.println((r1 == 1) + " : " + r1);
 
-        TreeNode t2 = TreeNodeUtils.buildTree(Arrays.asList(5, 3, 6, 2, 4, null, null, 1));
+        TreeNode t2 = TreeNodes.buildTree(Arrays.asList(5, 3, 6, 2, 4, null, null, 1));
         int r2 = solution.kthSmallest(t2, 3);
         System.out.println((r2 == 3) + " : " + r2);
     }

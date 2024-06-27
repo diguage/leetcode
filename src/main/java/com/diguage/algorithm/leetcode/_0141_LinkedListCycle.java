@@ -1,7 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
 import com.diguage.algorithm.util.ListNode;
-import com.diguage.algorithm.util.ListNodeUtils;
+import com.diguage.util.ListNodes;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -95,7 +95,7 @@ public class _0141_LinkedListCycle {
     }
     public static void main(String[] args) {
         _0141_LinkedListCycle solution = new _0141_LinkedListCycle();
-        ListNode l1 = ListNodeUtils.build(Arrays.asList(3, 2, 0, -4));
+        ListNode l1 = ListNodes.build(Arrays.asList(3, 2, 0, -4));
         l1.next.next.next.next = l1.next;
         boolean r1 = solution.hasCycle(l1);
         System.out.println(r1);

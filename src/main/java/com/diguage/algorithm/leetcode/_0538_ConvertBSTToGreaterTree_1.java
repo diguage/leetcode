@@ -1,7 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
 import com.diguage.algorithm.util.TreeNode;
-import com.diguage.algorithm.util.TreeNodeUtils;
+import com.diguage.util.TreeNodes;
 
 import java.util.Arrays;
 
@@ -37,7 +37,7 @@ public class _0538_ConvertBSTToGreaterTree_1 {
   }
 
   public static void main(String[] args) {
-    TreeNode tree = TreeNodeUtils.buildTree(Arrays.asList(4, 2, 6, 1, 3, 5, 7));
+    TreeNode tree = TreeNodes.buildTree(Arrays.asList(4, 2, 6, 1, 3, 5, 7));
     _0538_ConvertBSTToGreaterTree_1 solution = new _0538_ConvertBSTToGreaterTree_1();
     solution.convertBST(tree);
   }

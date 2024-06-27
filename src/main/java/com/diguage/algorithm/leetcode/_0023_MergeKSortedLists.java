@@ -4,7 +4,7 @@ import java.util.*;
 
 import com.diguage.algorithm.util.ListNode;
 
-import static com.diguage.algorithm.util.ListNodeUtils.*;
+import static com.diguage.util.ListNodes.*;
 
 /**
  * = 23. Merge k Sorted Lists

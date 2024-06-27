@@ -1,6 +1,6 @@
-package com.diguage.algorithm.util;
+package com.diguage.util;
 
-import com.diguage.algorithm.leetcode._0116_PopulatingNextRightPointersInEachNode;
+import com.diguage.algorithm.util.TreeNode;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -10,7 +10,7 @@ import java.util.*;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2020-01-02 00:25
  */
-public class TreeNodeUtils {
+public class TreeNodes {
   public static TreeNode buildTree(List<Integer> nums) {
     List<TreeNode> nodes = new ArrayList<>();
     for (int i = 0; i < nums.size(); i++) {

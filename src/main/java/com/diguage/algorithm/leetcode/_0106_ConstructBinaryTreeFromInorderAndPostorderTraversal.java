@@ -2,7 +2,7 @@ package com.diguage.algorithm.leetcode;
 
 import com.diguage.algorithm.util.TreeNode;
 
-import static com.diguage.algorithm.util.JsonUtils.toJson;
+import static com.diguage.util.Jsons.toJson;
 
 /**
  * = 106. Construct Binary Tree from Inorder and Postorder Traversal

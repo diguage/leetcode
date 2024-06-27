@@ -1,10 +1,10 @@
 package com.diguage.algorithm.leetcode;
 
-import com.diguage.algorithm.util.JsonUtils;
+import com.diguage.util.Jsons;
 import com.diguage.algorithm.util.ListNode;
 import com.diguage.algorithm.util.TreeNode;
 
-import static com.diguage.algorithm.util.ListNodeUtils.build;
+import static com.diguage.util.ListNodes.build;
 import static java.util.Arrays.asList;
 
 /**
@@ -61,6 +61,6 @@ public class _0109_ConvertSortedListToBinarySearchTree_21 {
     public static void main(String[] args) {
         _0109_ConvertSortedListToBinarySearchTree_21 solution = new _0109_ConvertSortedListToBinarySearchTree_21();
         TreeNode r1 = solution.sortedListToBST(build(asList(-10, -3, 0, 5, 9)));
-        System.out.println(JsonUtils.toJson(r1));
+        System.out.println(Jsons.toJson(r1));
     }
 }

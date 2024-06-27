@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.PrintUtils.printMatrix;
+import static com.diguage.util.Printers.printMatrix;
 
 /**
  * = 56. Merge Intervals

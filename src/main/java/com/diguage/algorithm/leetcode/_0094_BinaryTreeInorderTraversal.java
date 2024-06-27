@@ -1,7 +1,7 @@
 package com.diguage.algorithm.leetcode;
 
 import com.diguage.algorithm.util.TreeNode;
-import com.diguage.algorithm.util.TreeNodeUtils;
+import com.diguage.util.TreeNodes;
 
 import java.util.*;
 
@@ -91,7 +91,7 @@ public class _0094_BinaryTreeInorderTraversal {
 
     public static void main(String[] args) {
         _0094_BinaryTreeInorderTraversal solution = new _0094_BinaryTreeInorderTraversal();
-        TreeNode a1 = TreeNodeUtils.buildTree(Arrays.asList(1, null, 2, null, null, 3));
+        TreeNode a1 = TreeNodes.buildTree(Arrays.asList(1, null, 2, null, null, 3));
         List<Integer> r1 = solution.inorderTraversal(a1);
         System.out.println(Arrays.toString(r1.toArray()));
     }

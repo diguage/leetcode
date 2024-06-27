@@ -1,12 +1,10 @@
 package com.diguage.algorithm.leetcode;
 
 import com.diguage.algorithm.util.ListNode;
-import com.diguage.algorithm.util.ListNodeUtils;
+import com.diguage.util.ListNodes;
 
 import java.util.Arrays;
 import java.util.Objects;
-
-import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
 
 /**
  * = 2. Add Two Numbers
@@ -174,8 +172,8 @@ public class _0002_AddTwoNumbers {
 //        ListNode list2 = result.convertNumberToList(99);
 //        ListNode sum = result.addTwoNumbers(list1, list2);
 //        printListNode(sum);
-        ListNode list = result.addTwoNumbers(ListNodeUtils.build(Arrays.asList(9, 8)), ListNodeUtils.build(Arrays.asList(8)));
-        ListNodeUtils.printListNode(list);
+        ListNode list = result.addTwoNumbers(ListNodes.build(Arrays.asList(9, 8)), ListNodes.build(Arrays.asList(8)));
+        ListNodes.printListNode(list);
     }
 
 

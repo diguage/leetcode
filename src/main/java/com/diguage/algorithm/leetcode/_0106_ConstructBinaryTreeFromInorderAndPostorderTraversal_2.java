@@ -5,7 +5,7 @@ import com.diguage.algorithm.util.TreeNode;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.diguage.algorithm.util.JsonUtils.toJson;
+import static com.diguage.util.Jsons.toJson;
 
 /**
  * = 106. Construct Binary Tree from Inorder and Postorder Traversal

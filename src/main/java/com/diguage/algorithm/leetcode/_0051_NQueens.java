@@ -3,7 +3,7 @@ package com.diguage.algorithm.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.diguage.algorithm.util.PrintUtils.printMatrix;
+import static com.diguage.util.Printers.printMatrix;
 
 /**
  * = 51. N-Queens

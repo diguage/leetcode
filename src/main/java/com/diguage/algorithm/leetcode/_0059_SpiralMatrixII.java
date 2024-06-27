@@ -1,6 +1,6 @@
 package com.diguage.algorithm.leetcode;
 
-import static com.diguage.algorithm.util.PrintUtils.printMatrix;
+import static com.diguage.util.Printers.printMatrix;
 
 /**
  * = 59. Spiral Matrix II

@@ -5,8 +5,8 @@ import com.diguage.algorithm.util.ListNode;
 import java.util.Arrays;
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.ListNodeUtils.build;
-import static com.diguage.algorithm.util.ListNodeUtils.printListNode;
+import static com.diguage.util.ListNodes.build;
+import static com.diguage.util.ListNodes.printListNode;
 
 /**
  * = 148. Sort List

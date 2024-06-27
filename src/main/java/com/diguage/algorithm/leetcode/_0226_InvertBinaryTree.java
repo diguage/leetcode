@@ -1,12 +1,12 @@
 package com.diguage.algorithm.leetcode;
 
-import com.diguage.algorithm.util.JsonUtils;
+import com.diguage.util.Jsons;
 import com.diguage.algorithm.util.TreeNode;
 
 import java.util.Arrays;
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
+import static com.diguage.util.TreeNodes.buildTree;
 
 /**
  * = 226. Invert Binary Tree
@@ -36,6 +36,6 @@ public class _0226_InvertBinaryTree {
     public static void main(String[] args) {
         _0226_InvertBinaryTree solution = new _0226_InvertBinaryTree();
         TreeNode r1 = solution.invertTree(buildTree(Arrays.asList(4, 2, 7, 1, 3, 6, 9)));
-        System.out.println(JsonUtils.toJson(r1));
+        System.out.println(Jsons.toJson(r1));
     }
 }

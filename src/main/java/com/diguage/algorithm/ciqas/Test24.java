@@ -1,7 +1,7 @@
 package com.diguage.algorithm.ciqas;
 
 import com.diguage.algorithm.util.ListNode;
-import com.diguage.algorithm.util.ListNodeUtils;
+import com.diguage.util.ListNodes;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -41,7 +41,7 @@ public class Test24 {
 
     public static void main(String[] args) {
         Test24 test = new Test24();
-        ListNode r1 = test.reverseList(ListNodeUtils.build(Arrays.asList(1, 2, 3, 4, 5)));
-        ListNodeUtils.printListNode(r1);
+        ListNode r1 = test.reverseList(ListNodes.build(Arrays.asList(1, 2, 3, 4, 5)));
+        ListNodes.printListNode(r1);
     }
 }

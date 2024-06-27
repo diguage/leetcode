@@ -1,11 +1,11 @@
 package com.diguage.algorithm.leetcode;
 
-import com.diguage.algorithm.util.JsonUtils;
+import com.diguage.util.Jsons;
 import com.diguage.algorithm.util.TreeNode;
 
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
+import static com.diguage.util.TreeNodes.buildTree;
 import static java.util.Arrays.asList;
 
 /**
@@ -38,6 +38,6 @@ public class _0617_MergeTwoBinaryTrees {
     public static void main(String[] args) {
         _0617_MergeTwoBinaryTrees solution = new _0617_MergeTwoBinaryTrees();
         TreeNode r1 = solution.mergeTrees(buildTree(asList(1, 3, 2, 5)), buildTree(asList(2, 1, 3, null, 4, 7)));
-        System.out.println(JsonUtils.toJson(r1));
+        System.out.println(Jsons.toJson(r1));
     }
 }

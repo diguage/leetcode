@@ -1,4 +1,4 @@
-package com.diguage.algorithm.util;
+package com.diguage.util;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -8,7 +8,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * @author D瓜哥, https://www.diguage.com/
  * @since 2020-01-04 20:28
  */
-public class JsonUtils {
+public class Jsons {
     private static final ObjectMapper MAPPER = new ObjectMapper();
     static {
         MAPPER.setSerializationInclusion(JsonInclude.Include.NON_EMPTY);

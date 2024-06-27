@@ -1,6 +1,6 @@
 package com.diguage.algorithm.leetcode;
 
-import com.diguage.algorithm.util.JsonUtils;
+import com.diguage.util.Jsons;
 import com.diguage.algorithm.util.TreeNode;
 
 import java.util.ArrayDeque;
@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Objects;
 import java.util.Queue;
 
-import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
+import static com.diguage.util.TreeNodes.buildTree;
 
 /**
  * = 114. Flatten Binary Tree to Linked List
@@ -68,6 +68,6 @@ public class _0114_FlattenBinaryTreeToLinkedList {
         _0114_FlattenBinaryTreeToLinkedList solution = new _0114_FlattenBinaryTreeToLinkedList();
         TreeNode t1 = buildTree(Arrays.asList(1, 2, 5, 3, 4, null, 6));
         solution.flatten(t1);
-        System.out.println(JsonUtils.toJson(t1));
+        System.out.println(Jsons.toJson(t1));
     }
 }

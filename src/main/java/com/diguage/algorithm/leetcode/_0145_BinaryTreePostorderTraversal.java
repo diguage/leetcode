@@ -11,7 +11,7 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.Stack;
 
-import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
+import static com.diguage.util.TreeNodes.buildTree;
 
 /**
  * = 145. Binary Tree Postorder Traversal

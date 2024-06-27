@@ -5,7 +5,7 @@ import com.diguage.algorithm.util.TreeNode;
 import java.util.Arrays;
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
+import static com.diguage.util.TreeNodes.buildTree;
 
 /**
  * = 98. Validate Binary Search Tree

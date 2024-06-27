@@ -2,7 +2,7 @@ package com.diguage.algorithm.leetcode;
 
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.PrintUtils.printMatrix;
+import static com.diguage.util.Printers.printMatrix;
 
 /**
  * = 289. Game of Life

@@ -2,7 +2,7 @@ package com.diguage.algorithm.leetcode;
 
 import com.diguage.algorithm.util.TreeNode;
 
-import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
+import static com.diguage.util.TreeNodes.buildTree;
 import static java.util.Arrays.asList;
 
 /**

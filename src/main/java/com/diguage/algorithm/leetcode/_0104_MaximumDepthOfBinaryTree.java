@@ -5,7 +5,7 @@ import com.diguage.algorithm.util.TreeNode;
 import java.util.Arrays;
 import java.util.Objects;
 
-import static com.diguage.algorithm.util.TreeNodeUtils.buildTree;
+import static com.diguage.util.TreeNodes.buildTree;
 
 /**
  * = 104. Maximum Depth of Binary Tree
