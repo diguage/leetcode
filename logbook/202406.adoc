@@ -66,7 +66,7 @@
 |{leetcode_base_url}/find-mode-in-binary-search-tree/[Find Mode in Binary Search Tree]
 |{doc_base_url}/0501-find-mode-in-binary-search-tree.adoc[题解]
 |利用中根遍历的特性：相同数字一起出现
-
+[.line-through]##
 |236
 |{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree/[Lowest Common Ancestor of a Binary Tree]
 |{doc_base_url}/0236-lowest-common-ancestor-of-a-binary-tree.adoc[题解]
@@ -96,5 +96,10 @@
 |{leetcode_base_url}/trim-a-binary-search-tree/[Trim a Binary Search Tree]
 |{doc_base_url}/0669-trim-a-binary-search-tree.adoc[题解]
 |递归简单明了，迭代一脸懵逼。看到答案瞬间就明白了，但自己写不出来，对递归还是似懂非懂！
+
+|322
+|{leetcode_base_url}/coin-change/[Coin Change]
+|{doc_base_url}/0322-coin-change.adoc[题解]
+|从暴力穷举，逐步优化到动态规划。尝试了左程云的阶梯思路，没看明白，需实际案例再分析一下。官方题解的解答比较容易理解。
 
 |===
