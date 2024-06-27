@@ -41,3 +41,4 @@ TIP: 写出信息结构是把所有的信息都装到一个对象中。如果只
 == 参考资料
 
 . 左程云《程序员代码面试指南》
+. https://leetcode.cn/problems/coin-change/solutions/778891/yi-pian-wen-zhang-chi-tou-bei-bao-wen-ti-sq9n/[一篇文章吃透背包问题！（细致引入+解题模板+例题分析+代码呈现）^] -- 背包问题大全
