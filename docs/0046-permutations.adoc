@@ -11,7 +11,9 @@ https://leetcode.com/problems/permutations/[LeetCode - Permutations]
 
 使用编程的方法得到全排列，就是在这样的一个树形结构中进行编程，具体来说，就是**执行一次深度优先遍历，从树的根结点到叶子结点形成的路径就是一个全排列。**
 
-image::images/0046-1.png[]
+image::images/0046-01.png[]
+
+image::images/0046-02.png[]
 
 说明：
 
@@ -49,11 +51,6 @@ def backtrack(路径, 选择列表):
 
 必须说明的是，不管怎么优化，都符合回溯框架，而且时间复杂度都不可能低于 O(N!)，因为穷举整棵决策树是无法避免的。**这也是回溯算法的一个特点，不像动态规划存在重叠子问题可以优化，回溯算法就是纯暴力穷举，复杂度一般都很高。**
 
-== 参考资料
-
-. https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/[从全排列问题开始理解“回溯搜索”算法（深度优先遍历 + 状态重置 + 剪枝） - 全排列 - 力扣（LeetCode）]
-. https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-xiang-jie-by-labuladong-2/[回溯算法详解 - 全排列 - 力扣（LeetCode）]
-. https://labuladong.gitbook.io/algo/suan-fa-si-wei-xi-lie/hui-su-suan-fa-xiang-jie-xiu-ding-ban[回溯算法详解 - labuladong]
 
 Given a collection of *distinct* integers, return all possible permutations.
 
@@ -73,10 +70,22 @@ Given a collection of *distinct* integers, return all possible permutations.
 ]
 ----
 
+== 思路分析
 
 [[src-0046]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0046_Permutations.java[]
 ----
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0046_Permutations_2.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/permutations/solutions/9914/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/[从全排列问题开始理解“回溯搜索”算法（深度优先遍历 + 状态重置 + 剪枝）^]
+. https://leetcode.cn/problems/permutations/solutions/49013/hui-su-suan-fa-xiang-jie-by-labuladong-2/[回溯算法框架详解^]
+. https://leetcode.cn/problems/permutations/solutions/2363882/46-quan-pai-lie-hui-su-qing-xi-tu-jie-by-6o7h/[46. 全排列 - （回溯，清晰图解）^]
 
