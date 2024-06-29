@@ -112,4 +112,9 @@
 |{doc_base_url}/0051-n-queens.adoc[题解]
 |独立思考很久完成，经过了多次调试，还需要加强回溯的练习。
 
+|52
+|{leetcode_base_url}/n-queens-ii/[N-Queens II]
+|{doc_base_url}/0052-n-queens-ii.adoc[题解]
+|回溯，根据51题简化而来
+
 |===
