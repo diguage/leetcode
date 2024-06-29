@@ -26,6 +26,7 @@ public class Printers {
         System.out.print(String.format(format, i));
       }
     }
+    System.out.println("");
     printCutLine(length, m.length);
     for (int i = 0; i < m.length; i++) {
       System.out.println("");

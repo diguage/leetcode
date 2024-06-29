@@ -107,4 +107,9 @@
 |{doc_base_url}/0046-permutations.adoc[题解]
 |回溯思想的入门练习，还需要加强练习
 
+|51
+|{leetcode_base_url}/n-queens/[N-Queens]
+|{doc_base_url}/0051-n-queens.adoc[题解]
+|独立思考很久完成，经过了多次调试，还需要加强回溯的练习。
+
 |===
