@@ -39,12 +39,16 @@ return its minimum depth = 2.
 include::{sourcedir}/_0111_MinimumDepthOfBinaryTree.java[]
 ----
 
+=== 基于 DFS 的解法
+
+代码最简单。
 
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0111_MinimumDepthOfBinaryTree_2.java[]
 ----
 
+=== 基于 Morris 遍历的解法
 
 TIP: 可以换个角度理解这道题：使用 Morris 遍历树时，遍历到每个节点时，计算该节点的深度，然后从中筛选出叶子阶段的深度，取最小值即可。
 
@@ -54,6 +58,16 @@ include::{sourcedir}/_0111_MinimumDepthOfBinaryTree_Morris.java[]
 ----
 
 竟然在 LeetCode 中文站点没有找到使用 Morris 遍历方法处理的解答。
+
+=== 基于 BFS 的解法
+
+BFS 不需要遍历所有节点，所以，时间复杂度是最小的。
+
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0111_MinimumDepthOfBinaryTree_BFS.java[]
+----
 
 
 == 参考资料
