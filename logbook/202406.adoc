@@ -122,4 +122,11 @@
 |{doc_base_url}/0111-minimum-depth-of-binary-tree.adoc[题解]
 |两个议题：①Morris解法；②DFS vs BFS 的对比。
 
+
+|752
+|{leetcode_base_url}/open-the-lock/[Open the Lock]
+|{doc_base_url}/0752-open-the-lock.adoc[题解]
+|多叉树BFS遍历，回头尝试一下双向BFS解法。
+
+
 |===

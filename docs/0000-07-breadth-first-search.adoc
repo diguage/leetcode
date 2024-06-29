@@ -1,5 +1,5 @@
 [#0000-07-breadth-first-search]
-= Tree Breadth First Search 广度优先搜索
+= Breadth First Search 广度优先搜索
 
 == Tree Breadth First Search，树上的BFS
 
@@ -11,18 +11,24 @@
 
 * 如果你被问到去遍历树，需要按层操作的方式（也称作层序遍历）
 
-经典题目：
+== 经典题目
 
-Binary Tree Level Order Traversal (easy)
-
-Reverse Level Order Traversal (easy)
-
-Zigzag Traversal (medium)
-
-Level Averages in a Binary Tree (easy)
-
-Minimum Depth of a Binary Tree (easy)
+. xref:0102-binary-tree-level-order-traversal.adoc[102. Binary Tree Level Order Traversal]
+. xref:0103-binary-tree-zigzag-level-order-traversal.adoc[103. Binary Tree Zigzag Level Order Traversal]
+. xref:0107-binary-tree-level-order-traversal-ii.adoc[107. Binary Tree Level Order Traversal II]
+xref:0111-minimum-depth-of-binary-tree.adoc[111. Minimum Depth of Binary Tree]
+. xref:0637-average-of-levels-in-binary-tree.adoc[637. Average of Levels in Binary Tree]
+. xref:0752-open-the-lock.adoc[752. Open the Lock]
 
 Level Order Successor (easy)
 
 Connect Level Order Siblings (medium)
+
+
+== 参考资料
+
+链接中，有双向 BFS 的介绍，可以抽空了解一下。
+
+. https://leetcode.cn/problems/open-the-lock/solutions/843986/gong-shui-san-xie-yi-ti-shuang-jie-shuan-wyr9/[752. 打开转盘锁 - 一题三解：「双向 BFS」& 「AStar 算法」&「IDA* 算法」^] -- 双向 BFS 有点意思。
+. https://leetcode.cn/problems/open-the-lock/solutions/844162/shuang-xiang-bfsliang-mian-bao-jia-zhi-s-hvev/[752. 打开转盘锁 - 双向BFS详解，两面包夹芝士寻找起点与终点的最短路上的汇集点，妈妈再也不用担心BFS复杂...^]
+. https://leetcode.cn/problems/open-the-lock/solutions/1399174/by-huan-huan-20-f37j/[752. 打开转盘锁 - BFS、双向BFS清晰易懂方法论 [图解\] & [框架\] & [超详细注释\]^]

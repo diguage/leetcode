@@ -5266,14 +5266,14 @@
 //|{doc_base_url}/0751-ip-to-cidr.adoc[题解]
 //|Easy
 //|
-//
-//|752
-//|{leetcode_base_url}/open-the-lock/[Open the Lock]
-//|{source_base_url}/_0752_OpenTheLock.java[Java]
-//|{doc_base_url}/0752-open-the-lock.adoc[题解]
-//|Medium
-//|
-//
+
+|752
+|{leetcode_base_url}/open-the-lock/[Open the Lock]
+|{source_base_url}/_0752_OpenTheLock.java[Java]
+|{doc_base_url}/0752-open-the-lock.adoc[题解]
+|Medium
+|
+
 //|753
 //|{leetcode_base_url}/cracking-the-safe/[Cracking the Safe]
 //|{source_base_url}/_0753_CrackingTheSafe.java[Java]
