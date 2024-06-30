@@ -16,7 +16,8 @@
 . xref:0102-binary-tree-level-order-traversal.adoc[102. Binary Tree Level Order Traversal]
 . xref:0103-binary-tree-zigzag-level-order-traversal.adoc[103. Binary Tree Zigzag Level Order Traversal]
 . xref:0107-binary-tree-level-order-traversal-ii.adoc[107. Binary Tree Level Order Traversal II]
-xref:0111-minimum-depth-of-binary-tree.adoc[111. Minimum Depth of Binary Tree]
+. xref:0111-minimum-depth-of-binary-tree.adoc[111. Minimum Depth of Binary Tree]
+. xref:0127-word-ladder.adoc[127. Word Ladder]
 . xref:0637-average-of-levels-in-binary-tree.adoc[637. Average of Levels in Binary Tree]
 . xref:0752-open-the-lock.adoc[752. Open the Lock]
 

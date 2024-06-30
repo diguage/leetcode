@@ -56,14 +56,28 @@ wordList = ["hot","dot","dog","lot","log"]
 *Explanation:* The endWord "cog" is not in wordList, therefore no possible* *transformation.
 ----
 
+== 思路分析
 
+BFS 解题思路，与 xref:0752-open-the-lock.adoc[752. Open the Lock] 的套路是一样的。
 
+image::images/0127-01.png[]
 
-
+image::images/0127-02.png[]
 
 [[src-0127]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0127_WordLadder.java[]
 ----
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0127_WordLadder_2.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/word-ladder/solutions/473600/dan-ci-jie-long-by-leetcode-solution/[127. 单词接龙 - 官方题解^]
+. https://leetcode.cn/problems/word-ladder/solutions/276923/yan-du-you-xian-bian-li-shuang-xiang-yan-du-you-2/[127. 单词接龙 - 广度优先遍历、双向广度优先遍历（Java）^]
+. https://leetcode.cn/problems/word-ladder/solutions/102383/suan-fa-shi-xian-he-you-hua-javashuang-xiang-bfs23/[127. 单词接龙 - 算法实现和优化（Java 双向 BFS，23ms）^] -- 优化思路非常值得学习！
 

@@ -128,5 +128,9 @@
 |{doc_base_url}/0752-open-the-lock.adoc[题解]
 |多叉树BFS遍历，回头尝试一下双向BFS解法。
 
+|127
+|{leetcode_base_url}/word-ladder/[Word Ladder]
+|{doc_base_url}/0127-word-ladder.adoc[题解]
+|BFS，与752类似
 
 |===
