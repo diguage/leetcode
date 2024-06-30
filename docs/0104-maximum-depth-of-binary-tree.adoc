@@ -26,6 +26,11 @@ Given binary tree `[3,9,20,null,null,15,7]`,
 
 return its depth = 3.
 
+== 思路分析
+
+后根遍历，当然也可以使用BFS遍历。
+
+image::images/0104-01.png[]
 
 [[src-0104]]
 [{java_src_attr}]
@@ -33,3 +38,12 @@ return its depth = 3.
 include::{sourcedir}/_0104_MaximumDepthOfBinaryTree.java[]
 ----
 
+[{java_src_attr}]
+----
+include::{sourcedir}/_0104_MaximumDepthOfBinaryTree_2.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/maximum-depth-of-binary-tree/solutions/349250/er-cha-shu-de-zui-da-shen-du-by-leetcode-solution/[104. 二叉树的最大深度 - 官方题解^]
+. https://leetcode.cn/problems/maximum-depth-of-binary-tree/solutions/2361697/104-er-cha-shu-de-zui-da-shen-du-hou-xu-txzrx/[104. 二叉树的最大深度 -后序或层序遍历，清晰图解^]

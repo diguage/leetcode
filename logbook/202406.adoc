@@ -133,4 +133,9 @@
 |{doc_base_url}/0127-word-ladder.adoc[题解]
 |BFS，与752类似
 
+|104
+|{leetcode_base_url}/maximum-depth-of-binary-tree/[Maximum Depth of Binary Tree]
+|{doc_base_url}/0104-maximum-depth-of-binary-tree.adoc[题解]
+|后根遍历既可以访问父节点，又可以从返回值中获取想要的信息。
+
 |===
