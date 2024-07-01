@@ -29,55 +29,56 @@ import java.util.Arrays;
  * ----
  *
  * @author D瓜哥 · https://www.diguage.com
- * @since 2018-09-16 20:50
+ * @since 2018-09-16 20:50 初次完成，2024-07-01 17:24:23 优化
  */
 public class _0034_FindFirstAndLastPositionOfElementInSortedArray {
-    public static int[] searchRange(int[] nums, int target) {
-        int[] result = new int[]{-1, -1};
-        if (null == nums || nums.length == 0) {
-            return result;
-        }
-        int low = 0;
-        int high = nums.length - 1;
-        int index = -1;
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            int midNum = nums[mid];
-            if (midNum == target) {
-                index = mid;
-                break;
-            }
-            if (target <= midNum) {
-                high = mid - 1;
-            }
-            if (midNum < target) {
-                low = mid + 1;
-            }
-        }
-        if (index < 0) {
-            return result;
-        }
-        int startIndex = index;
-        while (startIndex >= 0 && nums[startIndex] == target) {
-            startIndex--;
-        }
-        result[0] = startIndex + 1;
-
-        int endIndex = index;
-        while (endIndex < nums.length && nums[endIndex] == target) {
-            endIndex++;
-        }
-        result[1] = endIndex - 1;
-        return result;
+  public static int[] searchRange(int[] nums, int target) {
+    if (nums == null || nums.length == 0) {
+      return new int[]{-1, -1};
     }
-
-    public static void main(String[] args) {
-//        int[] nums = new int[]{5, 7, 7, 8, 8, 10};
-//        int target = 8;
-
-        int[] nums = new int[]{1};
-        int target = 1;
-
-        System.out.println(Arrays.toString(searchRange(nums, target)));
+    // 搜索左边界
+    int left = 0, right = nums.length - 1;
+    while (left <= right) {
+      int mid = left + (right - left) / 2;
+      if (nums[mid] < target) {
+        left = mid + 1;
+      } else if (target < nums[mid]) {
+        right = mid - 1;
+      } else if (nums[mid] == target) {
+        right = mid - 1; // 注意这里的处理
+      }
     }
+    if (left == nums.length) {
+      return new int[]{-1, -1};
+    }
+    int i1 = -1;
+    if (nums[left] == target) {
+      i1 = left;
+    } else {
+      return new int[]{-1, -1};
+    }
+    // 搜索右边界
+    left = 0;
+    right = nums.length - 1;
+    while (left <= right) {
+      int mid = left + (right - left) / 2;
+      if (nums[mid] < target) {
+        left = mid + 1;
+      } else if (target < nums[mid]) {
+        right = mid - 1;
+      } else if (nums[mid] == target) {
+        left = mid + 1; // 注意这里的处理
+      }
+    }
+    if (left - 1 < 0) {
+      return new int[]{-1, -1};
+    }
+    int i2 = -1;
+    if (nums[left - 1] == target) {
+      i2 = left - 1;
+    } else {
+      return new int[]{-1, -1};
+    }
+    return new int[]{i1, i2};
+  }
 }

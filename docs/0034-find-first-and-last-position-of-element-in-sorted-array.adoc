@@ -25,10 +25,19 @@ If the target is not found in the array, return `[-1, -1]`.
 *Output:* [-1,-1]
 ----
 
+== 思路分析
+
+可以直接使用二分查找，搜索两次。
 
 [[src-0034]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0034_FindFirstAndLastPositionOfElementInSortedArray.java[]
 ----
+
+== 参考资料
+
+. https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/solutions/504484/zai-pai-xu-shu-zu-zhong-cha-zhao-yuan-su-de-di-3-4/[34. 在排序数组中查找元素的第一个和最后一个位置 - 官方题解^]
+. https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/solutions/1980196/er-fen-cha-zhao-zong-shi-xie-bu-dui-yi-g-t9l9/[34. 在排序数组中查找元素的第一个和最后一个位置 - 二分查找总是写不对？三种写法，一个视频讲透！^]
+. https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/solutions/955576/tu-jie-er-fen-zui-qing-xi-yi-dong-de-jia-ddvc/[34. 在排序数组中查找元素的第一个和最后一个位置 - 图解二分 | 最清晰易懂的讲解 | 一次性帮你解决二分边界问题^]
 

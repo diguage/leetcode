@@ -143,5 +143,9 @@
 |{doc_base_url}/0704-binary-search.adoc[题解]
 |二分查找
 
+|34
+|{leetcode_base_url}/find-first-and-last-position-of-element-in-sorted-array/[Find First and Last Position of Element in Sorted Array]
+|{doc_base_url}/0034-find-first-and-last-position-of-element-in-sorted-array.adoc[题解]
+|格局打开，两次二分查找还是 `O(log n)`。注意边界处理。
 
 |===
