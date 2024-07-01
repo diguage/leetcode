@@ -5,7 +5,7 @@
 
 [cols="1,4,1,4",options="header"]
 |===
-|题号 |题目 |题解 |注意事项
+|题号 |题目 |题解 |备注
 
 |222
 |{leetcode_base_url}/count-complete-tree-nodes/[Count Complete Tree Nodes]
@@ -137,5 +137,11 @@
 |{leetcode_base_url}/maximum-depth-of-binary-tree/[Maximum Depth of Binary Tree]
 |{doc_base_url}/0104-maximum-depth-of-binary-tree.adoc[题解]
 |后根遍历既可以访问父节点，又可以从返回值中获取想要的信息。
+
+|704
+|{leetcode_base_url}/binary-search/[Binary Search]
+|{doc_base_url}/0704-binary-search.adoc[题解]
+|二分查找
+
 
 |===

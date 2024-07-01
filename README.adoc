@@ -4930,14 +4930,14 @@
 //|{doc_base_url}/0703-kth-largest-element-in-a-stream.adoc[题解]
 //|Easy
 //|
-//
-//|704
-//|{leetcode_base_url}/binary-search/[Binary Search]
-//|{source_base_url}/_0704_BinarySearch.java[Java]
-//|{doc_base_url}/0704-binary-search.adoc[题解]
-//|Easy
-//|
-//
+
+|704
+|{leetcode_base_url}/binary-search/[Binary Search]
+|{source_base_url}/_0704_BinarySearch.java[Java]
+|{doc_base_url}/0704-binary-search.adoc[题解]
+|Easy
+|
+
 //|705
 //|{leetcode_base_url}/design-hashset/[Design HashSet]
 //|{source_base_url}/_0705_DesignHashSet.java[Java]
