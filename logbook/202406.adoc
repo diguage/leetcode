@@ -168,4 +168,9 @@
 |{doc_base_url}/0003-longest-substring-without-repeating-characters.adoc[题解]
 |滑动窗口
 
+|21
+|{leetcode_base_url}/merge-two-sorted-lists/[Merge Two Sorted Lists]
+|{doc_base_url}/0021-merge-two-sorted-lists.adoc[题解]
+|竟然也可以用递归解决！
+
 |===
