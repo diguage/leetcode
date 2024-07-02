@@ -163,4 +163,9 @@
 |{doc_base_url}/0438-find-all-anagrams-in-a-string.adoc[题解]
 |滑动窗口，567的变种
 
+|3
+|{leetcode_base_url}/longest-substring-without-repeating-characters/[Longest Substring Without Repeating Characters]
+|{doc_base_url}/0003-longest-substring-without-repeating-characters.adoc[题解]
+|滑动窗口
+
 |===
