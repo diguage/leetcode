@@ -158,4 +158,9 @@
 |{doc_base_url}/0567-permutation-in-string.adoc[题解]
 |滑动窗口
 
+|438
+|{leetcode_base_url}/find-all-anagrams-in-a-string/[Find All Anagrams in a String]
+|{doc_base_url}/0438-find-all-anagrams-in-a-string.adoc[题解]
+|滑动窗口，567的变种
+
 |===

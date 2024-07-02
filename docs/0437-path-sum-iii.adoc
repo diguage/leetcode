@@ -33,38 +33,7 @@ Return 3. The paths that sum to 8 are:
 3. -3 -> 11
 ----
 
-思考题：感觉目前的解法还是有些繁琐。效仿 https://leetcode-cn.com/problems/path-sum-iii/solution/javajie-fa-shi-jian-100-kong-jian-93-by-xiao-chao-/[java解法 时间100% 空间93% - 路径总和 III - 力扣（LeetCode）]，设计一个更加高效的实现。
-
-You are given a binary tree in which each node contains an integer value.
-
-Find the number of paths that sum to a given value.
-
-The path does not need to start or end at the root or a leaf, but it must go downwards
-(traveling only from parent nodes to child nodes).
-
-The tree has no more than 1,000 nodes and the values are in the range -1,000,000 to 1,000,000.
-
-*Example:*
-[subs="verbatim,quotes,macros"]
-----
-root = [10,5,-3,3,2,null,11,3,-2,null,1], sum = 8
-
-      10
-     /  \
-    *5*   *-3*
-   */* *\*    *\*
-  *3*   *2*   *11*
- / \   *\*
-3  -2   *1*
-
-Return 3. The paths that sum to 8 are:
-
-1.  5 -> 3
-2.  5 -> 2 -> 1
-3. -3 -> 11
-----
-
-
+== 思路分析
 
 [[src-0437]]
 [{java_src_attr}]
@@ -83,7 +52,7 @@ include::{sourcedir}/_0437_PathSumIII_2.java[]
 include::{sourcedir}/_0437_PathSumIII_21.java[]
 ----
 
-== 前缀和解法
+=== 前缀和解法
 
 . 前缀和定义：一个节点的前缀和就是该节点到根之间的路径和。
 . 前缀和对于本题的作用：两节点间的路径和=两节点的前缀和之差
@@ -122,6 +91,10 @@ image::images/0437-12.png[]
 ----
 include::{sourcedir}/_0437_PathSumIII_22.java[]
 ----
+
+== 思考题
+
+感觉目前的解法还是有些繁琐。效仿 https://leetcode.cn/problems/path-sum-iii/solutions/49141/javajie-fa-shi-jian-100-kong-jian-93-by-xiao-chao-/[java解法 时间100% 空间93% - 路径总和 III^]，设计一个更加高效的实现。
 
 == 参考资料
 
