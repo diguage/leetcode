@@ -173,4 +173,9 @@
 |{doc_base_url}/0021-merge-two-sorted-lists.adoc[题解]
 |竟然也可以用递归解决！
 
+|23
+|{leetcode_base_url}/merge-k-sorted-lists/[Merge k Sorted Lists]
+|{doc_base_url}/0023-merge-k-sorted-lists.adoc[题解]
+|优先队列，分治，最差逐个合并都可以。
+
 |===

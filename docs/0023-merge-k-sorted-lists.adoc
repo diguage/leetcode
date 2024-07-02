@@ -18,10 +18,23 @@ Merge _k_ sorted linked lists and return it as one sorted list. Analyze and desc
 *Output:* 1->1->2->3->4->4->5->6
 ----
 
+== 思路分析
+
+优先队列是最优解，退而求其次，可以考虑使用分治。
 
 [[src-0023]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0023_MergeKSortedLists.java[]
 ----
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0023_MergeKSortedLists_2.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/merge-k-sorted-lists/solutions/219756/he-bing-kge-pai-xu-lian-biao-by-leetcode-solutio-2/[23. 合并 K 个升序链表 - 官方题解^]
+. https://leetcode.cn/problems/merge-k-sorted-lists/solutions/220518/4-chong-fang-fa-xiang-jie-bi-xu-miao-dong-by-sweet/[23. 合并 K 个升序链表 - 4 种方法详解，🤷‍♀️必须秒懂！^]
 
