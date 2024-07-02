@@ -148,4 +148,9 @@
 |{doc_base_url}/0034-find-first-and-last-position-of-element-in-sorted-array.adoc[题解]
 |格局打开，两次二分查找还是 `O(log n)`。注意边界处理。
 
+|76
+|{leetcode_base_url}/minimum-window-substring/[Minimum Window Substring]
+|{doc_base_url}/0076-minimum-window-substring.adoc[题解]
+|滑动窗口，好久不写，忘记咋写了。
+
 |===
