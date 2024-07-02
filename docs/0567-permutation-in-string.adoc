@@ -27,41 +27,21 @@ Output: False
 
 滑动窗口大法好！
 
-Given two strings *s1* and *s2*, write a function to return true if *s2* contains the permutation of *s1*. In other words, one of the first string's permutations is the *substring* of the second string.
-
- 
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* s1 = "ab" s2 = "eidbaooo"
-*Output:* True
-*Explanation:* s2 contains one permutation of s1 ("ba").
-----
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* s1= "ab" s2 = "eidboaoo"
-*Output:* False
-----
-
- 
-
-*Note:*
-
-
-. The input strings only contain lower case letters.
-. The length of both given strings is in range [1, 10,000].
-
-
-
+image::images/0567-01.gif[]
 
 [[src-0567]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0567_PermutationInString.java[]
 ----
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0567_PermutationInString_2.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/permutation-in-string/solutions/599202/zi-fu-chuan-de-pai-lie-by-leetcode-solut-7k7u/[567. 字符串的排列 - 官方题解^]
+. https://leetcode.cn/problems/permutation-in-string/solutions/599528/zhu-shi-chao-xiang-xi-de-hua-dong-chuang-rc7d/[567. 字符串的排列 - 注释超详细的滑动窗口讲解，附本题躲坑指南^]
 

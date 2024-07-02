@@ -18,6 +18,8 @@ Output: "BANC"
 
 == 思路分析
 
+滑动窗口
+
 image::images/0076-01.gif[]
 
 [[src-0076]]

@@ -153,4 +153,9 @@
 |{doc_base_url}/0076-minimum-window-substring.adoc[题解]
 |滑动窗口，好久不写，忘记咋写了。
 
+|567
+|{leetcode_base_url}/permutation-in-string/[Permutation in String]
+|{doc_base_url}/0567-permutation-in-string.adoc[题解]
+|滑动窗口
+
 |===
