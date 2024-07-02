@@ -184,6 +184,9 @@
 |{doc_base_url}/0876-middle-of-the-linked-list.adoc[题解]
 |快慢指针，注意尾部处理
 
-
+|141
+|{leetcode_base_url}/linked-list-cycle/[Linked List Cycle]
+|{doc_base_url}/0141-linked-list-cycle.adoc[题解]
+|快慢指针
 
 |===
