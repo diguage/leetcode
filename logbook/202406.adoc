@@ -178,4 +178,12 @@
 |{doc_base_url}/0023-merge-k-sorted-lists.adoc[题解]
 |优先队列，分治，最差逐个合并都可以。
 
+
+|876
+|{leetcode_base_url}/middle-of-the-linked-list/[Middle of the Linked List]
+|{doc_base_url}/0876-middle-of-the-linked-list.adoc[题解]
+|快慢指针，注意尾部处理
+
+
+
 |===

@@ -7,10 +7,10 @@ Given a non-empty, singly linked list with head node `head`, return a middle nod
 
 If there are two middle nodes, return the second middle node.
 
- 
-
 
 *Example 1:*
+
+image::images/0876-00.jpg[]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -24,6 +24,8 @@ ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, and ans.next.next.next = N
 
 *Example 2:*
 
+image::images/0876-01.jpg[]
+
 [subs="verbatim,quotes,macros"]
 ----
 *Input:* [1,2,3,4,5,6]
@@ -31,7 +33,6 @@ ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, and ans.next.next.next = N
 Since the list has two middle nodes with values 3 and 4, we return the second one.
 ----
 
- 
 
 *Note:*
 
@@ -39,13 +40,22 @@ Since the list has two middle nodes with values 3 and 4, we return the second on
 * The number of nodes in the given list will be between `1` and `100`.
 
 
+== 解题分析
 
+快慢指针，注意最后节点的处理。
 
+image::images/0876-02.png[]
 
+image::images/0876-03.png[]
 
 [[src-0876]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0876_MiddleOfTheLinkedList.java[]
 ----
+
+== 参考资料
+
+. https://leetcode.cn/problems/middle-of-the-linked-list/solutions/164351/lian-biao-de-zhong-jian-jie-dian-by-leetcode-solut/[876. 链表的中间结点 - 官方题解^]
+. https://leetcode.cn/problems/middle-of-the-linked-list/solutions/165152/kuai-man-zhi-zhen-zhu-yao-zai-yu-diao-shi-by-liwei/[876. 链表的中间结点 - 注意链表长度为偶数时，返回第 2 个结点的细节^]
 

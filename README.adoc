@@ -6134,14 +6134,14 @@
 //|{doc_base_url}/0875-koko-eating-bananas.adoc[题解]
 //|Medium
 //|
-//
-//|876
-//|{leetcode_base_url}/middle-of-the-linked-list/[Middle of the Linked List]
-//|{source_base_url}/_0876_MiddleOfTheLinkedList.java[Java]
-//|{doc_base_url}/0876-middle-of-the-linked-list.adoc[题解]
-//|Easy
-//|
-//
+
+|876
+|{leetcode_base_url}/middle-of-the-linked-list/[Middle of the Linked List]
+|{source_base_url}/_0876_MiddleOfTheLinkedList.java[Java]
+|{doc_base_url}/0876-middle-of-the-linked-list.adoc[题解]
+|Easy
+|
+
 //|877
 //|{leetcode_base_url}/stone-game/[Stone Game]
 //|{source_base_url}/_0877_StoneGame.java[Java]
