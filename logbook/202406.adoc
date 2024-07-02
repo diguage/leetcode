@@ -189,4 +189,9 @@
 |{doc_base_url}/0141-linked-list-cycle.adoc[题解]
 |快慢指针
 
+|142
+|{leetcode_base_url}/linked-list-cycle-ii/[Linked List Cycle II]
+|{doc_base_url}/0142-linked-list-cycle-ii.adoc[题解]
+|快慢指针
+
 |===
