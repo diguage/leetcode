@@ -194,4 +194,9 @@
 |{doc_base_url}/0142-linked-list-cycle-ii.adoc[题解]
 |快慢指针
 
+|160
+|{leetcode_base_url}/intersection-of-two-linked-lists/[Intersection of Two Linked Lists]
+|{doc_base_url}/0160-intersection-of-two-linked-lists.adoc[题解]
+|双指针，两个链表逻辑拼接
+
 |===

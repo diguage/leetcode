@@ -3,29 +3,17 @@
 
 https://leetcode.com/problems/intersection-of-two-linked-lists/[LeetCode - Intersection of Two Linked Lists]
 
-image::images/0160-1.png[]
-
-image::images/0160-2.png[]
-
-image::images/0160-3.png[]
-0
-image::images/0160-4.png[]
-
-没想到竟然可以将两个链表"相加"就可以得出正确结果：两个"相加"，正好两个长度相等，最后部分就是重叠部分，双指针完美搞定！
-
 Write a program to find the node at which the intersection of two singly linked lists begins.
 
 For example, the following two linked lists:
 
-image::https://assets.leetcode.com/uploads/2018/12/13/160_statement.png[]
+image::images/0160-01.png[]
 
 begin to intersect at node c1.
 
- 
-
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2018/12/13/160_example_1.png[]
+image::images/0160-02.png[]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -38,7 +26,7 @@ image::https://assets.leetcode.com/uploads/2018/12/13/160_example_1.png[]
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2018/12/13/160_example_2.png[]
+image::images/0160-03.png[]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -52,7 +40,7 @@ image::https://assets.leetcode.com/uploads/2018/12/13/160_example_2.png[]
 
 *Example 3:*
 
-image::https://assets.leetcode.com/uploads/2018/12/13/160_example_3.png[]
+image::images/0160-04.png[]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -74,6 +62,9 @@ image::https://assets.leetcode.com/uploads/2018/12/13/160_example_3.png[]
 * Your code should preferably run in O(n) time and use only O(1) memory.
 
 
+== 思路分析
+
+没想到竟然可以将两个链表"相加"就可以得出正确结果：两个"相加"，正好两个长度相等，最后部分就是重叠部分，双指针完美搞定！
 
 
 [[src-0160]]
@@ -82,3 +73,14 @@ image::https://assets.leetcode.com/uploads/2018/12/13/160_example_3.png[]
 include::{sourcedir}/_0160_IntersectionOfTwoLinkedLists.java[]
 ----
 
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0160_IntersectionOfTwoLinkedLists_2.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/intersection-of-two-linked-lists/solutions/10774/tu-jie-xiang-jiao-lian-biao-by-user7208t/[160. 相交链表 - 图解相交链表^]
+. https://leetcode.cn/problems/intersection-of-two-linked-lists/solutions/811625/xiang-jiao-lian-biao-by-leetcode-solutio-a8jn/[160. 相交链表 - 官方题解^]
+. https://leetcode.cn/problems/intersection-of-two-linked-lists/solutions/12624/intersection-of-two-linked-lists-shuang-zhi-zhen-l/[160. 相交链表 - 双指针，清晰图解^]
