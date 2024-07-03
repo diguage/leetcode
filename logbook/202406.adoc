@@ -204,4 +204,9 @@
 |{doc_base_url}/0026-remove-duplicates-from-sorted-array.adoc[题解]
 |算法了解，编码功力有待提高
 
+|167
+|{leetcode_base_url}/two-sum-ii-input-array-is-sorted/[Two Sum II - Input array is sorted]
+|{doc_base_url}/0167-two-sum-ii-input-array-is-sorted.adoc[题解]
+|两个指针向中间挤压
+
 |===

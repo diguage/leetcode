@@ -19,39 +19,36 @@ Output: [1,2]
 Explanation: The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
 ----
 
-== 解题思路
+== 思路分析
 
 利用输入数组的有序性，可以从两边向中级"挤压"来查找正确解。
 
-== 参考资料
+image::images/0167-01.png[{image_attr}]
 
-. https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/solution/liang-shu-zhi-he-ii-shu-ru-you-xu-shu-zu-by-leetco/[两数之和 II - 输入有序数组 - 两数之和 II - 输入有序数组 - 力扣（LeetCode）]
+image::images/0167-02.png[{image_attr}]
 
-Given an array of integers that is already *_sorted in ascending order_*, find two numbers such that they add up to a specific target number.
+image::images/0167-03.png[{image_attr}]
 
-The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2.
+image::images/0167-04.png[{image_attr}]
 
-*Note:*
-
-
-* Your returned answers (both index1 and index2) are not zero-based.
-* You may assume that each input would have _exactly_ one solution and you may not use the _same_ element twice.
-
-
-*Example:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* numbers = [2,7,11,15], target = 9
-*Output:* [1,2]
-*Explanation:* The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
-----
-
-
+image::images/0167-05.png[{image_attr}]
 
 [[src-0167]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0167_TwoSumIIInputArrayIsSorted.java[]
 ----
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0167_TwoSumIIInputArrayIsSorted_2.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/solutions/337156/liang-shu-zhi-he-ii-shu-ru-you-xu-shu-zu-by-leet-2/[167. 两数之和 II - 输入有序数组 - 官方题解^]
+. https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/solutions/87919/yi-zhang-tu-gao-su-ni-on-de-shuang-zhi-zhen-jie-fa/[167. 两数之和 II - 输入有序数组 - 一张图告诉你 O(n) 的双指针解法的本质原理（C++/Java）^]
+. https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/solutions/38241/shuang-zhi-zhen-on-shi-jian-fu-za-du-by-cyc2018/[167. 两数之和 II - 输入有序数组 - 双指针 O(N) 时间复杂度^]
+. https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/solutions/2361541/167-liang-shu-zhi-he-ii-shu-ru-you-xu-sh-k3oy/[167. 两数之和 II - 输入有序数组 - 力扣（LeetCode）^]
+
 
