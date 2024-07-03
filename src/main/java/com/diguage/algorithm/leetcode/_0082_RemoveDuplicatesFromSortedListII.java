@@ -22,7 +22,7 @@ public class _0082_RemoveDuplicatesFromSortedListII {
      * Runtime: 1 ms, faster than 60.61% of Java online submissions for Remove Duplicates from Sorted List II.
      * Memory Usage: 39.4 MB, less than 6.98% of Java online submissions for Remove Duplicates from Sorted List II.
      *
-     * Copy from: https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/solution/kuai-man-zhi-zhen-by-powcai-2/[递归与非递归 - 删除排序链表中的重复元素 II - 力扣（LeetCode）]
+     * Copy from: https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/solutions/7396/kuai-man-zhi-zhen-by-powcai-2/[递归与非递归 - 删除排序链表中的重复元素 II - 力扣（LeetCode）]
      */
     public ListNode deleteDuplicates(ListNode head) {
         ListNode dummy = new ListNode(0);

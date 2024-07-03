@@ -23,32 +23,21 @@ Output: 2->3
 
 注意推敲满指针前进的条件！
 
-== 参考资料
-
-. https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/solution/kuai-man-zhi-zhen-by-powcai-2/[递归与非递归 - 删除排序链表中的重复元素 II - 力扣（LeetCode）]
-
-Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only _distinct_ numbers from the original list.
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 1->2->3->3->4->4->5
-*Output:* 1->2->5
-----
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 1->1->1->2->3
-*Output:* 2->3
-----
-
-
 [[src-0082]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListII.java[]
 ----
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListII_2.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/solutions/678122/shan-chu-pai-xu-lian-biao-zhong-de-zhong-oayn/[82. 删除排序链表中的重复元素 II - 官方题解^]
+. https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/solutions/7396/kuai-man-zhi-zhen-by-powcai-2/[82. 删除排序链表中的重复元素 II - 递归与非递归^]
+
+
 
