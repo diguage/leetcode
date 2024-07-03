@@ -30,9 +30,9 @@ Return the following binary tree:
 
 使用递归，从底层向上构建整个树。
 
-image::images/0106-01.png[]
+image::images/0106-01.png[{image_attr}]
 
-image::images/0106-02.png[]
+image::images/0106-02.png[{image_attr}]
 
 == 参考资料
 
@@ -50,7 +50,7 @@ include::{sourcedir}/_0106_ConstructBinaryTreeFromInorderAndPostorderTraversal.j
 include::{sourcedir}/_0106_ConstructBinaryTreeFromInorderAndPostorderTraversal_2.java[]
 ----
 
-image::images/0106-03.png[]
+image::images/0106-03.png[{image_attr}]
 
 == 图解树的还原过程
 

@@ -31,7 +31,7 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 
 这道题使用回溯法更容易理解，也更高效。
 
-image::images/0416-1.png[]
+image::images/0416-1.png[{image_attr}]
 
 == 思考题
 

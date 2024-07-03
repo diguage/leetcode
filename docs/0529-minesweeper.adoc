@@ -40,7 +40,7 @@ Click : [3,0]
 
 *Explanation:*
 
-image::https://assets.leetcode.com/uploads/2018/10/12/minesweeper_example_1.png[]
+image::https://assets.leetcode.com/uploads/2018/10/12/minesweeper_example_1.png[{image_attr}]
 ----
 
 *Example 2:*
@@ -65,7 +65,7 @@ Click : [1,2]
 
 *Explanation:*
 
-image::https://assets.leetcode.com/uploads/2018/10/12/minesweeper_example_2.png[]
+image::https://assets.leetcode.com/uploads/2018/10/12/minesweeper_example_2.png[{image_attr}]
 ----
 
  

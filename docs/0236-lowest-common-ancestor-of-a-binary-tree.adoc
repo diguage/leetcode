@@ -4,7 +4,7 @@
 
 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/[LeetCode - Lowest Common Ancestor of a Binary Tree]
 
-image::images/0236-1.png[]
+image::images/0236-1.png[{image_attr}]
 
 D瓜哥的思路：先找出一条从根节点到某个节点的路径；然后从这条路径上以此去寻找另外一个节点。找到这返回此节点。
 
@@ -18,7 +18,7 @@ According to the https://en.wikipedia.org/wiki/Lowest_common_ancestor[definition
 
 Given the following binary tree:  root = [3,5,1,6,2,0,8,null,null,7,4]
 
-image::https://assets.leetcode.com/uploads/2018/12/14/binarytree.png[]
+image::https://assets.leetcode.com/uploads/2018/12/14/binarytree.png[{image_attr}]
  
 
 *Example 1:*
@@ -60,47 +60,47 @@ image::https://assets.leetcode.com/uploads/2018/12/14/binarytree.png[]
 
 当左右子树都返回不为 `null` 时，那么当前节点就是两棵树的公共祖先节点。情况如下：
 
-image::images/0236-19.png[]
+image::images/0236-19.png[{image_attr}]
 
 
 
-image::images/0236-00.png[]
+image::images/0236-00.png[{image_attr}]
 
-image::images/0236-01.png[]
+image::images/0236-01.png[{image_attr}]
 
-image::images/0236-02.png[]
+image::images/0236-02.png[{image_attr}]
 
-image::images/0236-03.png[]
+image::images/0236-03.png[{image_attr}]
 
-image::images/0236-04.png[]
+image::images/0236-04.png[{image_attr}]
 
-image::images/0236-05.png[]
+image::images/0236-05.png[{image_attr}]
 
-image::images/0236-06.png[]
+image::images/0236-06.png[{image_attr}]
 
-image::images/0236-07.png[]
+image::images/0236-07.png[{image_attr}]
 
-image::images/0236-08.png[]
+image::images/0236-08.png[{image_attr}]
 
-image::images/0236-09.png[]
+image::images/0236-09.png[{image_attr}]
 
-image::images/0236-10.png[]
+image::images/0236-10.png[{image_attr}]
 
-image::images/0236-11.png[]
+image::images/0236-11.png[{image_attr}]
 
-image::images/0236-12.png[]
+image::images/0236-12.png[{image_attr}]
 
-image::images/0236-13.png[]
+image::images/0236-13.png[{image_attr}]
 
-image::images/0236-14.png[]
+image::images/0236-14.png[{image_attr}]
 
-image::images/0236-15.png[]
+image::images/0236-15.png[{image_attr}]
 
-image::images/0236-16.png[]
+image::images/0236-16.png[{image_attr}]
 
-image::images/0236-17.png[]
+image::images/0236-17.png[{image_attr}]
 
-image::images/0236-18.png[]
+image::images/0236-18.png[{image_attr}]
 
 
 [[src-0236]]

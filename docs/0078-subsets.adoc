@@ -27,13 +27,13 @@ Output:
 
 这道题跟 xref:0090-subsets-ii.adoc[90. Subsets II] 类似。
 
-image::images/0078-subsets-recursion.png[]
+image::images/0078-subsets-recursion.png[{image_attr}]
 
-image::images/0078-subsets-combinations.png[]
+image::images/0078-subsets-combinations.png[{image_attr}]
 
-image::images/0078-subsets-backtracking.png[]
+image::images/0078-subsets-backtracking.png[{image_attr}]
 
-image::images/0078-subsets-bitmask4.png[]
+image::images/0078-subsets-bitmask4.png[{image_attr}]
 
 == 参考资料
 

@@ -25,7 +25,7 @@ Return the size of the largest connected component in the graph.
 *Input:* [4,6,15,35]
 *Output:* 4
 
-image::https://assets.leetcode.com/uploads/2018/12/01/ex1.png[]
+image::https://assets.leetcode.com/uploads/2018/12/01/ex1.png[{image_attr}]
 ----
 
 
@@ -36,7 +36,7 @@ image::https://assets.leetcode.com/uploads/2018/12/01/ex1.png[]
 *Input:* [20,50,9,63]
 *Output:* 2
 
-image::https://assets.leetcode.com/uploads/2018/12/01/ex2.png[]
+image::https://assets.leetcode.com/uploads/2018/12/01/ex2.png[{image_attr}]
 ----
 
 
@@ -47,7 +47,7 @@ image::https://assets.leetcode.com/uploads/2018/12/01/ex2.png[]
 *Input:* [2,3,6,7,4,12,21,39]
 *Output:* 8
 
-image::https://assets.leetcode.com/uploads/2018/12/01/ex3.png[]
+image::https://assets.leetcode.com/uploads/2018/12/01/ex3.png[{image_attr}]
 ----
 
 *Note:*

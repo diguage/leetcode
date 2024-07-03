@@ -7,7 +7,7 @@ The *__n__-queens* puzzle is the problem of placing *n* queens on an *n×n* ches
 
 Given an integer **n**, return the number of distinct solutions to the *__n__-queens* puzzle.
 
-image::images/0052-00.jpg[]
+image::images/0052-00.jpg[{image_attr}]
 
 .Example:
 ----

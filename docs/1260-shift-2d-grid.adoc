@@ -18,7 +18,7 @@ Return the _2D grid_ after applying shift operation `k` times.
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/11/05/e1.png[]
+image::https://assets.leetcode.com/uploads/2019/11/05/e1.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -28,7 +28,7 @@ image::https://assets.leetcode.com/uploads/2019/11/05/e1.png[]
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/11/05/e2.png[]
+image::https://assets.leetcode.com/uploads/2019/11/05/e2.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

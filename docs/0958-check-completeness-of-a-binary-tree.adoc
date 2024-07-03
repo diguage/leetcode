@@ -14,7 +14,7 @@ In a complete binary tree every level, except possibly the last, is completely f
 
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2018/12/15/complete-binary-tree-1.png[]
+image::https://assets.leetcode.com/uploads/2018/12/15/complete-binary-tree-1.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -26,7 +26,7 @@ image::https://assets.leetcode.com/uploads/2018/12/15/complete-binary-tree-1.png
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2018/12/15/complete-binary-tree-2.png[]
+image::https://assets.leetcode.com/uploads/2018/12/15/complete-binary-tree-2.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

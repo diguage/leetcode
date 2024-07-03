@@ -20,7 +20,7 @@ Return the minimum number of minutes that must elapse until no cell has a fresh 
 
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/02/16/oranges.png[]
+image::https://assets.leetcode.com/uploads/2019/02/16/oranges.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

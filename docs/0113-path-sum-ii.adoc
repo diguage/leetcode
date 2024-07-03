@@ -65,27 +65,27 @@ include::{sourcedir}/_0113_PathSumII_21.java[]
 TIP: 非常典型的回溯问题！
 
 
-image::images/0113-01.png[]
+image::images/0113-01.png[{image_attr}]
 
-image::images/0113-02.png[]
+image::images/0113-02.png[{image_attr}]
 
-image::images/0113-03.png[]
+image::images/0113-03.png[{image_attr}]
 
-image::images/0113-04.png[]
+image::images/0113-04.png[{image_attr}]
 
-image::images/0113-05.png[]
+image::images/0113-05.png[{image_attr}]
 
-image::images/0113-06.png[]
+image::images/0113-06.png[{image_attr}]
 
-image::images/0113-07.png[]
+image::images/0113-07.png[{image_attr}]
 
-image::images/0113-08.png[]
+image::images/0113-08.png[{image_attr}]
 
-image::images/0113-09.png[]
+image::images/0113-09.png[{image_attr}]
 
-image::images/0113-10.png[]
+image::images/0113-10.png[{image_attr}]
 
-image::images/0113-11.png[]
+image::images/0113-11.png[{image_attr}]
 
-image::images/0113-12.png[]
+image::images/0113-12.png[{image_attr}]
 

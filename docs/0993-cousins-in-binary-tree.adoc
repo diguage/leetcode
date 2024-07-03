@@ -16,7 +16,7 @@ Return `true` if and only if the nodes corresponding to the values `x` and `y` a
 *Example 1:
 
 
-image::https://assets.leetcode.com/uploads/2019/02/12/q1248-01.png[]*
+image::https://assets.leetcode.com/uploads/2019/02/12/q1248-01.png[{image_attr}]*
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -28,7 +28,7 @@ image::https://assets.leetcode.com/uploads/2019/02/12/q1248-01.png[]*
 *Example 2:
 
 
-image::https://assets.leetcode.com/uploads/2019/02/12/q1248-02.png[]*
+image::https://assets.leetcode.com/uploads/2019/02/12/q1248-02.png[{image_attr}]*
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -39,7 +39,7 @@ image::https://assets.leetcode.com/uploads/2019/02/12/q1248-02.png[]*
 
 *Example 3:*
 
-image::https://assets.leetcode.com/uploads/2019/02/13/q1248-03.png[]
+image::https://assets.leetcode.com/uploads/2019/02/13/q1248-03.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

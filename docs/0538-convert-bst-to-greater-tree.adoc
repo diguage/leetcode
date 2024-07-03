@@ -20,7 +20,7 @@ Given a Binary Search Tree (BST), convert it to a Greater Tree such that every k
           20     13
 ----
 
-image::images/0538-00.png[]
+image::images/0538-00.png[{image_attr}]
 
 == 思路分析
 

@@ -22,11 +22,11 @@ Output:
 
 原地修改的思路有点绕。再推敲推敲。
 
-image::images/0448-1.jpeg[]
+image::images/0448-1.jpeg[{image_attr}]
 
-image::images/0448-2.jpeg[]
+image::images/0448-2.jpeg[{image_attr}]
 
-image::images/0448-3.jpeg[]
+image::images/0448-3.jpeg[{image_attr}]
 
 == 参考资料
 

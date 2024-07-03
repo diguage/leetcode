@@ -28,7 +28,7 @@ If your line go through the edge of a brick, then the brick is not considered as
 
 *Explanation:* 
 
-image::https://assets.leetcode.com/uploads/2018/10/12/brick_wall.png[]
+image::https://assets.leetcode.com/uploads/2018/10/12/brick_wall.png[{image_attr}]
 ----
 
  

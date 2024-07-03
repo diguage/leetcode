@@ -20,9 +20,9 @@ Output: 7
 Explanation: Because the path 1→3→1→1→1 minimizes the sum.
 ----
 
-image::images/0064-1.png[]
+image::images/0064-1.png[{image_attr}]
 
-image::images/0064-2.png[]
+image::images/0064-2.png[{image_attr}]
 
 思考题：尝试使用一维数组做备忘录来实现一下。
 

@@ -25,7 +25,7 @@ The island doesn't have "lakes" (water inside that isn't connected to the water 
 
 *Explanation:* The perimeter is the 16 yellow stripes in the image below:
 
-image::https://assets.leetcode.com/uploads/2018/10/12/island.png[]
+image::https://assets.leetcode.com/uploads/2018/10/12/island.png[{image_attr}]
 ----
 
 

@@ -10,7 +10,7 @@ Since the answer may be too large, return it modulo 10^9 + 7.
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2020/01/21/sample_1_1699.png[]
+image::https://assets.leetcode.com/uploads/2020/01/21/sample_1_1699.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -21,7 +21,7 @@ image::https://assets.leetcode.com/uploads/2020/01/21/sample_1_1699.png[]
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2020/01/21/sample_2_1699.png[]
+image::https://assets.leetcode.com/uploads/2020/01/21/sample_2_1699.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

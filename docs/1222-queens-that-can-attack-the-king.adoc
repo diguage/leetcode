@@ -10,7 +10,7 @@ Given an array of integer coordinates `queens` that represents the positions of 
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/10/01/untitled-diagram.jpg[]
+image::https://assets.leetcode.com/uploads/2019/10/01/untitled-diagram.jpg[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -27,7 +27,7 @@ The queen at [2,4] can't attack the king cause it's not in the same row/column/d
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/10/01/untitled-diagram-1.jpg[]
+image::https://assets.leetcode.com/uploads/2019/10/01/untitled-diagram-1.jpg[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -37,7 +37,7 @@ image::https://assets.leetcode.com/uploads/2019/10/01/untitled-diagram-1.jpg[]
 
 *Example 3:*
 
-image::https://assets.leetcode.com/uploads/2019/10/01/untitled-diagram-2.jpg[]
+image::https://assets.leetcode.com/uploads/2019/10/01/untitled-diagram-2.jpg[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

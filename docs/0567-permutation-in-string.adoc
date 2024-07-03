@@ -27,7 +27,7 @@ Output: False
 
 滑动窗口大法好！
 
-image::images/0567-01.gif[]
+image::images/0567-01.gif[{image_attr}]
 
 [[src-0567]]
 [{java_src_attr}]

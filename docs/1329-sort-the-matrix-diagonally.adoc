@@ -8,7 +8,7 @@ Given a `m * n` matrix `mat` of integers, sort it diagonally in ascending order 
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2020/01/21/1482_example_1_2.png[]
+image::https://assets.leetcode.com/uploads/2020/01/21/1482_example_1_2.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

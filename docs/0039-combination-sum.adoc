@@ -37,11 +37,11 @@ A solution set is:
 
 参考 xref:0046-permutations.adoc[46. Permutations] 认真学习一下回溯思想。
 
-image::images/0039-1.png[]
+image::images/0039-1.png[{image_attr}]
 
-image::images/0039-2.png[]
+image::images/0039-2.png[{image_attr}]
 
-image::images/0039-3.png[]
+image::images/0039-3.png[{image_attr}]
 
 思考题：如何做剪枝？这道题通过做剪枝从 164ms 优化到了 9ms。
 

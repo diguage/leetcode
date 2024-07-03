@@ -14,7 +14,7 @@ Calling `next()` will return the next smallest number in the BST.
 
 *Example:*
 
-image::https://assets.leetcode.com/uploads/2018/12/25/bst-tree.png[]
+image::https://assets.leetcode.com/uploads/2018/12/25/bst-tree.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

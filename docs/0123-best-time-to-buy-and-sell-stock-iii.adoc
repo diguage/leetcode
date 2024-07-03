@@ -35,7 +35,7 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 针对 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）] 这个解题框架，进行小试牛刀。
 
-image::images/0123-1.png[]
+image::images/0123-1.png[{image_attr}]
 
 思考题：将表格改成变量时，还需要再思考思考。
 

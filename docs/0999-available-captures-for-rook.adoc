@@ -13,7 +13,7 @@ Return the number of pawns the rook can capture in one move.
 
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/02/20/1253_example_1_improved.PNG[]
+image::https://assets.leetcode.com/uploads/2019/02/20/1253_example_1_improved.PNG[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -25,7 +25,7 @@ In this example the rook is able to capture all the pawns.
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/02/19/1253_example_2_improved.PNG[]
+image::https://assets.leetcode.com/uploads/2019/02/19/1253_example_2_improved.PNG[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -37,7 +37,7 @@ Bishops are blocking the rook to capture any pawn.
 
 *Example 3:*
 
-image::https://assets.leetcode.com/uploads/2019/02/20/1253_example_3_improved.PNG[]
+image::https://assets.leetcode.com/uploads/2019/02/20/1253_example_3_improved.PNG[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

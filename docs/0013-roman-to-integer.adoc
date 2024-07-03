@@ -76,7 +76,7 @@ Given a roman numeral, convert it to an integer. Input is guaranteed to be withi
 
 查看罗马数字，如果左边的数字比右边大，则就是需要做减法，否则做加法。
 
-image::images/0013-0.png[]
+image::images/0013-0.png[{image_attr}]
 
 
 [[src-0013]]

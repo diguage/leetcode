@@ -15,7 +15,7 @@ There are some trees, where each tree is represented by (x,y) coordinate in a tw
 *Output:* [[1,1],[2,0],[4,2],[3,3],[2,4]]
 *Explanation:*
 
-image::https://assets.leetcode.com/uploads/2018/10/12/erect_the_fence_1.png[]
+image::https://assets.leetcode.com/uploads/2018/10/12/erect_the_fence_1.png[{image_attr}]
 ----
 
 *Example 2:*
@@ -26,7 +26,7 @@ image::https://assets.leetcode.com/uploads/2018/10/12/erect_the_fence_1.png[]
 *Output:* [[1,2],[2,2],[4,2]]
 *Explanation:*
 
-image::https://assets.leetcode.com/uploads/2018/10/12/erect_the_fence_2.png[]
+image::https://assets.leetcode.com/uploads/2018/10/12/erect_the_fence_2.png[{image_attr}]
 Even you only have trees in a line, you need to use rope to enclose them. 
 ----
 

@@ -10,7 +10,7 @@ Return the number of _closed islands_.
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/10/31/sample_3_1610.png[]
+image::https://assets.leetcode.com/uploads/2019/10/31/sample_3_1610.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -22,7 +22,7 @@ Islands in gray are closed because they are completely surrounded by water (grou
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/10/31/sample_4_1610.png[]
+image::https://assets.leetcode.com/uploads/2019/10/31/sample_4_1610.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

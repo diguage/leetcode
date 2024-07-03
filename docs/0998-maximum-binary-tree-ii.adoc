@@ -25,7 +25,7 @@ Return `Construct(B)`.
 
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-1-1.png[]image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-1-2.png[]
+image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-1-1.png[]image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-1-2.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -38,7 +38,7 @@ image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-1-1.pn
 *Example 2:
 
 
-image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-2-1.png[]image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-2-2.png[]*
+image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-2-1.png[]image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-2-2.png[{image_attr}]*
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -51,7 +51,7 @@ image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-2-1.pn
 *Example 3:
 
 
-image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-3-1.png[]image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-3-2.png[]*
+image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-3-1.png[]image::https://assets.leetcode.com/uploads/2019/02/21/maximum-binary-tree-3-2.png[{image_attr}]*
 
 [subs="verbatim,quotes,macros"]
 ----

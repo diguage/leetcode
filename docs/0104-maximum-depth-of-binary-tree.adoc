@@ -30,7 +30,7 @@ return its depth = 3.
 
 后根遍历，当然也可以使用BFS遍历。
 
-image::images/0104-01.png[]
+image::images/0104-01.png[{image_attr}]
 
 [[src-0104]]
 [{java_src_attr}]

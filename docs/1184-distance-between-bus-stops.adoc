@@ -12,7 +12,7 @@ Return the shortest distance between the given `start` and `destination` stops.
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1.jpg[]
+image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1.jpg[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -25,7 +25,7 @@ image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1.jpg[]
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1-1.jpg[]
+image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1-1.jpg[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -38,7 +38,7 @@ image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1-1.jpg[]
 
 *Example 3:*
 
-image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1-2.jpg[]
+image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1-2.jpg[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

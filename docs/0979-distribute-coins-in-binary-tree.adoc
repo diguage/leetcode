@@ -14,7 +14,7 @@ Return the number of moves required to make every node have exactly one coin.
 
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/01/18/tree1.png[]
+image::https://assets.leetcode.com/uploads/2019/01/18/tree1.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -26,7 +26,7 @@ image::https://assets.leetcode.com/uploads/2019/01/18/tree1.png[]
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/01/18/tree2.png[]
+image::https://assets.leetcode.com/uploads/2019/01/18/tree2.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -38,7 +38,7 @@ image::https://assets.leetcode.com/uploads/2019/01/18/tree2.png[]
 
 *Example 3:*
 
-image::https://assets.leetcode.com/uploads/2019/01/18/tree3.png[]
+image::https://assets.leetcode.com/uploads/2019/01/18/tree3.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -49,7 +49,7 @@ image::https://assets.leetcode.com/uploads/2019/01/18/tree3.png[]
 
 *Example 4:*
 
-image::https://assets.leetcode.com/uploads/2019/01/18/tree4.png[]
+image::https://assets.leetcode.com/uploads/2019/01/18/tree4.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

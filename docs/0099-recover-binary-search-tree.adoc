@@ -59,27 +59,27 @@ Recover the tree without changing its structure.
 
 二叉搜索树中序遍历时，就是一个升序排列的序列，在遍历过程中，就可以检查序列的大小。要求使用 O(1) 的空间复杂度，那么只能使用 Morris 遍历。
 
-image::images/0099-01.png[]
+image::images/0099-01.png[{image_attr}]
 
-image::images/0099-02.png[]
+image::images/0099-02.png[{image_attr}]
 
-image::images/0099-03.png[]
+image::images/0099-03.png[{image_attr}]
 
-image::images/0099-04.png[]
+image::images/0099-04.png[{image_attr}]
 
-image::images/0099-05.png[]
+image::images/0099-05.png[{image_attr}]
 
-image::images/0099-06.png[]
+image::images/0099-06.png[{image_attr}]
 
-image::images/0099-07.png[]
+image::images/0099-07.png[{image_attr}]
 
-image::images/0099-08.png[]
+image::images/0099-08.png[{image_attr}]
 
-image::images/0099-09.png[]
+image::images/0099-09.png[{image_attr}]
 
-image::images/0099-10.png[]
+image::images/0099-10.png[{image_attr}]
 
-image::images/0099-11.png[]
+image::images/0099-11.png[{image_attr}]
 
 
 [[src-0099]]

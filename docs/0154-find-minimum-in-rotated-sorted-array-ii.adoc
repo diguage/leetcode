@@ -41,7 +41,7 @@ The array may contain duplicates.
 * 移动指针来缩小查找范围，通常将指针移动到 `low`、`high` 的中间(`pivot = (low + high)/2`)。这样查找范围就可以缩小一半，这也是二分查找名字的由来。
 * 在找到目标元素或者两个指针重合时(low == high)，算法终止。
 
-image::images/0154-axis.png[]
+image::images/0154-axis.png[{image_attr}]
 
 在传统的二分查找中，会将中轴元素(`nums[pivot]`)与目标元素相比较。但在这个问题里面，需要将中轴元素与右边界元素(`nums[high]`)相比较。
 
@@ -49,19 +49,19 @@ image::images/0154-axis.png[]
 
 . `nums[pivot] < nums[high]`
 +
-image::images/0154-case-1.png[]
+image::images/0154-case-1.png[{image_attr}]
 +
 中轴元素跟右边界元素在**同一半边**。这时候最小元素在中轴元素**左边**，将右边界指针移动到中轴元素位置（`high = pivot`）。
 +
 . `nums[pivot] > nums[high]`
 +
-image::images/0154-case-2.png[]
+image::images/0154-case-2.png[{image_attr}]
 +
 中轴元素跟右边界届元素在**不同半边**。这时候最小元素在中轴元素**右边**，将下届指针移动到中轴元素位置右边（`low = pivot + 1`）。
 +
 . `nums[pivot] == nums[high]`
 +
-image::images/0154-case-3.png[]
+image::images/0154-case-3.png[{image_attr}]
 +
 在这种情况下，不能确定最小元素在中轴元素的左边还是右边。
 +

@@ -12,7 +12,7 @@ Notice that the distance of a path connecting cities _*i*_ and _*j*_ is equal to
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2020/01/16/find_the_city_01.png[]
+image::https://assets.leetcode.com/uploads/2020/01/16/find_the_city_01.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -29,7 +29,7 @@ Cities 0 and 3 have 2 neighboring cities at a distanceThreshold = 4, but we have
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2020/01/16/find_the_city_02.png[]
+image::https://assets.leetcode.com/uploads/2020/01/16/find_the_city_02.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

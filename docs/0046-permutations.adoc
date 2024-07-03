@@ -11,9 +11,9 @@ https://leetcode.com/problems/permutations/[LeetCode - Permutations]
 
 使用编程的方法得到全排列，就是在这样的一个树形结构中进行编程，具体来说，就是**执行一次深度优先遍历，从树的根结点到叶子结点形成的路径就是一个全排列。**
 
-image::images/0046-01.png[]
+image::images/0046-01.png[{image_attr}]
 
-image::images/0046-02.png[]
+image::images/0046-02.png[{image_attr}]
 
 说明：
 

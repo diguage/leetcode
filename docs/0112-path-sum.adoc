@@ -48,7 +48,7 @@ include::{sourcedir}/_0112_PathSum_2.java[]
 
 也可以利用回溯来解答。如图：
 
-image::images/0112-01.png[]
+image::images/0112-01.png[{image_attr}]
 
 [#0112-additional-question]
 == 思考题

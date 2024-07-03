@@ -15,7 +15,7 @@ If it cannot be done, return `-1`.
 
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/03/08/domino.png[]
+image::https://assets.leetcode.com/uploads/2019/03/08/domino.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

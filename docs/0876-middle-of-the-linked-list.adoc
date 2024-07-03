@@ -10,7 +10,7 @@ If there are two middle nodes, return the second middle node.
 
 *Example 1:*
 
-image::images/0876-00.jpg[]
+image::images/0876-00.jpg[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -24,7 +24,7 @@ ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, and ans.next.next.next = N
 
 *Example 2:*
 
-image::images/0876-01.jpg[]
+image::images/0876-01.jpg[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -44,9 +44,9 @@ Since the list has two middle nodes with values 3 and 4, we return the second on
 
 快慢指针，注意最后节点的处理。
 
-image::images/0876-02.png[]
+image::images/0876-02.png[{image_attr}]
 
-image::images/0876-03.png[]
+image::images/0876-03.png[{image_attr}]
 
 [[src-0876]]
 [{java_src_attr}]

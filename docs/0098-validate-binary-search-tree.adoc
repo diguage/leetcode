@@ -3,9 +3,9 @@
 
 https://leetcode.com/problems/validate-binary-search-tree/[LeetCode - Validate Binary Search Tree]
 
-image::images/0098-1.png[]
+image::images/0098-1.png[{image_attr}]
 
-image::images/0098-2.png[]
+image::images/0098-2.png[{image_attr}]
 
 思路很简单，利用搜索二叉树的定义，界定好树的上下界，然后递归比较就好。
 
@@ -67,13 +67,13 @@ include::{sourcedir}/_0098_ValidateBinarySearchTree_2.java[]
 
 另外，查看了官方题解后，发现可以使用树的中序排列来检查（二叉搜索树中序排列是升序），这样跟前几天在牛客网上做的那个“发现二叉搜索树中的两个错误节点”的思路就一致了。回头尝试一下。
 
-image::images/0098-01.png[]
+image::images/0098-01.png[{image_attr}]
 
-image::images/0098-02.png[]
+image::images/0098-02.png[{image_attr}]
 
-image::images/0098-03.png[]
+image::images/0098-03.png[{image_attr}]
 
-image::images/0098-04.png[]
+image::images/0098-04.png[{image_attr}]
 
 == 参考资料
 

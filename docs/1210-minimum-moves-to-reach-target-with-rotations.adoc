@@ -13,12 +13,12 @@ In one move the snake can:
 * Rotate clockwise if it's in a horizontal position and the two cells under it are both empty. In that case the snake moves from `(r, c)` and `(r, c+1)` to `(r, c)` and `(r+1, c)`.
 
 
-image::https://assets.leetcode.com/uploads/2019/09/24/image-2.png[]
+image::https://assets.leetcode.com/uploads/2019/09/24/image-2.png[{image_attr}]
 
 * Rotate counterclockwise if it's in a vertical position and the two cells to its right are both empty. In that case the snake moves from `(r, c)` and `(r+1, c)` to `(r, c)` and `(r, c+1)`.
 
 
-image::https://assets.leetcode.com/uploads/2019/09/24/image-1.png[]
+image::https://assets.leetcode.com/uploads/2019/09/24/image-1.png[{image_attr}]
 
 
 Return the minimum number of moves to reach the target.
@@ -28,7 +28,7 @@ If there is no way to reach the target, return `-1`.
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/09/24/image.png[]
+image::https://assets.leetcode.com/uploads/2019/09/24/image.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

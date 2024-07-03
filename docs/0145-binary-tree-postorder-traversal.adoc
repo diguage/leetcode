@@ -52,43 +52,43 @@ TIP: TODO：还需要加强迭代遍历的实现！
 . 因为保存在 *栈* 中的节点都遍历了 *左子树* 但是没有遍历 *右子树*，所以对栈中节点 *出栈* 并对它的 *右子树* 重复 *过程1*
 . 直到遍历完所有节点
 
-image::images/0145-01.png[]
+image::images/0145-01.png[{image_attr}]
 
-image::images/0145-02.png[]
+image::images/0145-02.png[{image_attr}]
 
-image::images/0145-03.png[]
+image::images/0145-03.png[{image_attr}]
 
-image::images/0145-04.png[]
+image::images/0145-04.png[{image_attr}]
 
-image::images/0145-05.png[]
+image::images/0145-05.png[{image_attr}]
 
-image::images/0145-06.png[]
+image::images/0145-06.png[{image_attr}]
 
-image::images/0145-07.png[]
+image::images/0145-07.png[{image_attr}]
 
-image::images/0145-08.png[]
+image::images/0145-08.png[{image_attr}]
 
-image::images/0145-09.png[]
+image::images/0145-09.png[{image_attr}]
 
-image::images/0145-10.png[]
+image::images/0145-10.png[{image_attr}]
 
-image::images/0145-11.png[]
+image::images/0145-11.png[{image_attr}]
 
-image::images/0145-12.png[]
+image::images/0145-12.png[{image_attr}]
 
-image::images/0145-13.png[]
+image::images/0145-13.png[{image_attr}]
 
-image::images/0145-14.png[]
+image::images/0145-14.png[{image_attr}]
 
-image::images/0145-15.png[]
+image::images/0145-15.png[{image_attr}]
 
-image::images/0145-16.png[]
+image::images/0145-16.png[{image_attr}]
 
-image::images/0145-17.png[]
+image::images/0145-17.png[{image_attr}]
 
-image::images/0145-18.png[]
+image::images/0145-18.png[{image_attr}]
 
-image::images/0145-19.png[]
+image::images/0145-19.png[{image_attr}]
 
 [{java_src_attr}]
 ----

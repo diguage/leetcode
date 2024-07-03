@@ -9,7 +9,7 @@ A chess knight has 8 possible moves it can make, as illustrated below. Each move
 
  
 
-image::https://assets.leetcode.com/uploads/2018/10/12/knight.png[]
+image::https://assets.leetcode.com/uploads/2018/10/12/knight.png[{image_attr}]
 
  
 

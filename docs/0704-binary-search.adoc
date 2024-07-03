@@ -33,7 +33,7 @@ Given a *sorted* (in ascending order) integer array `nums` of `n` elements and a
 
 二分查找
 
-image::images/0704-01.gif[]
+image::images/0704-01.gif[{image_attr}]
 
 [[src-0704]]
 [{java_src_attr}]

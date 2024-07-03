@@ -15,7 +15,7 @@ Given the output `S` of this traversal, recover the tree and return its `root`.
 
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/04/08/recover-a-tree-from-preorder-traversal.png[]
+image::https://assets.leetcode.com/uploads/2019/04/08/recover-a-tree-from-preorder-traversal.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -26,7 +26,7 @@ image::https://assets.leetcode.com/uploads/2019/04/08/recover-a-tree-from-preord
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-114101-pm.png[]
+image::https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-114101-pm.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -41,7 +41,7 @@ image::https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-
 
 *Example 3:*
 
-image::https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-114955-pm.png[]
+image::https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-114955-pm.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

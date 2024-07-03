@@ -3,7 +3,7 @@
 
 https://leetcode.com/problems/coin-change/[LeetCode - Coin Change]
 
-image::images/0322-01.png[]
+image::images/0322-01.png[{image_attr}]
 
 思考题：
 
@@ -43,7 +43,7 @@ You may assume that you have an infinite number of each kind of coin.
 . 而在回溯法中，如果含有很多的重复的计算的时候，就可以使用记忆化的搜索，将可能出现的重复计算大状态使用一个数组来保存其值，在进行重复的计算的时候，就可以直接的调用数组中的值，较少了不必要的递归。
 . 使用了记忆化搜索后，一般还可以进行优化，在记忆化搜索的基础上，变成 *自底而上* 的动态规划。
 
-image::images/0322-03.png[]
+image::images/0322-03.png[{image_attr}]
 
 
 === 暴力穷举
@@ -55,7 +55,7 @@ include::{sourcedir}/_0322_CoinChange_2.java[]
 
 === 动态规划
 
-image::images/0322-02.jpeg[]
+image::images/0322-02.jpeg[{image_attr}]
 
 [source,linenums,indent=0,subs="attributes,verbatim,quotes"]
 ----

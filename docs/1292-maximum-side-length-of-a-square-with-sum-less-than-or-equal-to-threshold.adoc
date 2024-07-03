@@ -8,7 +8,7 @@ Given a `m x n` matrix `mat` and an integer `threshold`. Return the maximum side
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/12/05/e1.png[]
+image::https://assets.leetcode.com/uploads/2019/12/05/e1.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

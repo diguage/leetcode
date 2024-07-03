@@ -10,7 +10,7 @@ Level *1* of videos are all watched videos by your friends, level *2* of videos 
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2020/01/02/leetcode_friends_1.png[]
+image::https://assets.leetcode.com/uploads/2020/01/02/leetcode_friends_1.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -27,7 +27,7 @@ C -> 2
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2020/01/02/leetcode_friends_2.png[]
+image::https://assets.leetcode.com/uploads/2020/01/02/leetcode_friends_2.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

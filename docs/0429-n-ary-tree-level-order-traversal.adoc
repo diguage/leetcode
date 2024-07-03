@@ -10,7 +10,7 @@ _Nary-Tree input serialization is represented in their level order traversal, ea
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2018/10/12/narytreeexample.png[]
+image::https://assets.leetcode.com/uploads/2018/10/12/narytreeexample.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -20,7 +20,7 @@ image::https://assets.leetcode.com/uploads/2018/10/12/narytreeexample.png[]
 
 *Example 2:*
 
-image::images/0429-00.png[]
+image::images/0429-00.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

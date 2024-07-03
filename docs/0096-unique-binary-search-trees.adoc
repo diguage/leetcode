@@ -30,9 +30,9 @@ Given n = 3, there are a total of 5 unique BST's:
 
 给定序列 `1 ... n`，我们选出数字 `i` 作为根，则对于根 `i` 的不同二叉搜索树数量 latexmath:[F(i, n)]，是左右子树个数的笛卡尔积，如下图所示:
 
-image::images/0096-01.png[]
+image::images/0096-01.png[{image_attr}]
 
-image::images/0096-02.png[]
+image::images/0096-02.png[{image_attr}]
 
 == 公式推到过程
 

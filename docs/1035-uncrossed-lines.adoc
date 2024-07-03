@@ -20,7 +20,7 @@ Return the maximum number of connecting lines we can draw in this way.
 
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/04/26/142.png[]
+image::https://assets.leetcode.com/uploads/2019/04/26/142.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

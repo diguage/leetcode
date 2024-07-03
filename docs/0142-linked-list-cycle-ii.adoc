@@ -19,7 +19,7 @@ Output: tail connects to node index 1
 Explanation: There is a cycle in the linked list, where tail connects to the second node.
 ----
 
-image::images/0142-01.png[]
+image::images/0142-01.png[{image_attr}]
 
 .Example 2:
 [source]
@@ -29,7 +29,7 @@ Output: tail connects to node index 0
 Explanation: There is a cycle in the linked list, where tail connects to the first node.
 ----
 
-image::images/0142-02.png[]
+image::images/0142-02.png[{image_attr}]
 
 .Example 3:
 [source]
@@ -39,7 +39,7 @@ Output: no cycle
 Explanation: There is no cycle in the linked list.
 ----
 
-image::images/0142-03.png[]
+image::images/0142-03.png[{image_attr}]
 
 *Follow-up:*
 
@@ -49,7 +49,7 @@ Can you solve it without using extra space?
 
 这是 Floyd's Tortoise and Hare (Cycle Detection) 算法。
 
-image::images/0142-04.png[]
+image::images/0142-04.png[{image_attr}]
 
 $$
 \begin{aligned}
@@ -64,27 +64,27 @@ $$
 
 这个思路还可以用于解决 xref:0287-find-the-duplicate-number.adoc[287. Find the Duplicate Number]。
 
-image::images/0142-05.png[]
+image::images/0142-05.png[{image_attr}]
 
-image::images/0142-06.png[]
+image::images/0142-06.png[{image_attr}]
 
-image::images/0142-07.png[]
+image::images/0142-07.png[{image_attr}]
 
-image::images/0142-08.png[]
+image::images/0142-08.png[{image_attr}]
 
-image::images/0142-09.png[]
+image::images/0142-09.png[{image_attr}]
 
-image::images/0142-10.png[]
+image::images/0142-10.png[{image_attr}]
 
-image::images/0142-11.png[]
+image::images/0142-11.png[{image_attr}]
 
-image::images/0142-12.png[]
+image::images/0142-12.png[{image_attr}]
 
-image::images/0142-13.png[]
+image::images/0142-13.png[{image_attr}]
 
-image::images/0142-14.png[]
+image::images/0142-14.png[{image_attr}]
 
-image::images/0142-15.png[]
+image::images/0142-15.png[{image_attr}]
 
 
 [[src-0142]]

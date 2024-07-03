@@ -15,7 +15,7 @@ You can move according to the next rules:
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/11/14/1626_example_1.PNG[]
+image::https://assets.leetcode.com/uploads/2019/11/14/1626_example_1.PNG[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

@@ -17,7 +17,7 @@ Return any solution if there is more than one solution and return an *empty list
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/09/11/1359_ex1.png[]
+image::https://assets.leetcode.com/uploads/2019/09/11/1359_ex1.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

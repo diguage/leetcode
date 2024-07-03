@@ -10,7 +10,7 @@ Return a list containing _all the integers_ from _both trees_ sorted in *ascendi
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png[]
+image::https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -44,7 +44,7 @@ image::https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png[]
 
 *Example 5:*
 
-image::https://assets.leetcode.com/uploads/2019/12/18/q2-e5-.png[]
+image::https://assets.leetcode.com/uploads/2019/12/18/q2-e5-.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

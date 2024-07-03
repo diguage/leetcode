@@ -17,15 +17,15 @@ Output: 1->2->2->4->3->5
 
 思路很简单，直接双指针维护大小两个队列就好。
 
-image::images/0086-1.png[]
+image::images/0086-1.png[{image_attr}]
 
-image::images/0086-2.png[]
+image::images/0086-2.png[{image_attr}]
 
-image::images/0086-3.png[]
+image::images/0086-3.png[{image_attr}]
 
-image::images/0086-4.png[]
+image::images/0086-4.png[{image_attr}]
 
-image::images/0086-5.png[]
+image::images/0086-5.png[{image_attr}]
 
 
 Given a linked list and a value _x_, partition it such that all nodes less than _x_ come before nodes greater than or equal to _x_.

@@ -16,7 +16,7 @@ You are the second player.  If it is possible to choose such a `y` to ensure you
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/08/01/1480-binary-tree-coloring-game.png[]
+image::https://assets.leetcode.com/uploads/2019/08/01/1480-binary-tree-coloring-game.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

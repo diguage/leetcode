@@ -15,7 +15,7 @@ The Linked List is represented in the input/output as a list of `n` nodes. Each 
 
 *Example 1:*
 
-image::images/0138-copy-list-with-random-pointer-example-1.png[]
+image::images/0138-copy-list-with-random-pointer-example-1.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -25,7 +25,7 @@ image::images/0138-copy-list-with-random-pointer-example-1.png[]
 
 *Example 2:*
 
-image::images/0138-copy-list-with-random-pointer-example-2.png[]
+image::images/0138-copy-list-with-random-pointer-example-2.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -35,7 +35,7 @@ image::images/0138-copy-list-with-random-pointer-example-2.png[]
 
 *Example 3:*
 
-image::images/0138-copy-list-with-random-pointer-example-3.png[]
+image::images/0138-copy-list-with-random-pointer-example-3.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -64,7 +64,7 @@ image::images/0138-copy-list-with-random-pointer-example-3.png[]
 
 video::OvpKeraoxW0[youtube]
 
-image::images/0138-copy-list-with-random-pointer.jpg[]
+image::images/0138-copy-list-with-random-pointer.jpg[{image_attr}]
 
 这个解法非常精妙！
 

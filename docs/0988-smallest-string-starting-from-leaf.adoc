@@ -32,7 +32,7 @@ _(As a reminder, any shorter prefix of a string is lexicographically smaller: fo
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/01/30/tree2.png[]
+image::https://assets.leetcode.com/uploads/2019/01/30/tree2.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -43,7 +43,7 @@ image::https://assets.leetcode.com/uploads/2019/01/30/tree2.png[]
 
 *Example 3:*
 
-image::https://assets.leetcode.com/uploads/2019/02/01/tree3.png[]
+image::https://assets.leetcode.com/uploads/2019/02/01/tree3.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

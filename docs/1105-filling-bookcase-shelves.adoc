@@ -16,7 +16,7 @@ Return the minimum possible height that the total bookshelf can be after placing
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/06/24/shelves.png[]
+image::https://assets.leetcode.com/uploads/2019/06/24/shelves.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

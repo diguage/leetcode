@@ -19,7 +19,7 @@ Notice that you can not jump outside of the array at any time.
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2020/01/23/meta-chart.jpeg[]
+image::https://assets.leetcode.com/uploads/2020/01/23/meta-chart.jpeg[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

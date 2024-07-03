@@ -17,7 +17,7 @@ As a reminder, a _binary search tree_ is a tree that satisfies these constraints
 
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/05/02/tree.png[]
+image::https://assets.leetcode.com/uploads/2019/05/02/tree.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

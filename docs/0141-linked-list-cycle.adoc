@@ -20,7 +20,7 @@ To represent a cycle in the given linked list, we use an integer `pos` which rep
 
 
 
-image::images/0141-00.png[]
+image::images/0141-00.png[{image_attr}]
 
 *Example 2:*
 
@@ -33,7 +33,7 @@ image::images/0141-00.png[]
 
 
 
-image::images/0141-01.png[]
+image::images/0141-01.png[{image_attr}]
 
 *Example 3:*
 
@@ -45,7 +45,7 @@ image::images/0141-01.png[]
 ----
 
 
-image::images/0141-03.png[]
+image::images/0141-03.png[{image_attr}]
 
 
 *Follow up:*
@@ -58,15 +58,15 @@ Can you solve it using _O(1)_ (i.e. constant) memory?
 除了双指针外，还可以使用 `Map` 来解决。只是空间复杂度要高一些。
 
 
-image::images/0141-04.png[]
+image::images/0141-04.png[{image_attr}]
 
-image::images/0141-05.png[]
+image::images/0141-05.png[{image_attr}]
 
-image::images/0141-06.png[]
+image::images/0141-06.png[{image_attr}]
 
-image::images/0141-07.png[]
+image::images/0141-07.png[{image_attr}]
 
-image::images/0141-08.png[]
+image::images/0141-08.png[{image_attr}]
 
 
 [[src-0141]]

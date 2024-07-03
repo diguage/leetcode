@@ -37,7 +37,7 @@ Return the number of regions.
 *Output:* 2
 *Explanation:* The 2x2 grid is as follows:
 
-image::https://assets.leetcode.com/uploads/2018/12/15/1.png[]
+image::https://assets.leetcode.com/uploads/2018/12/15/1.png[{image_attr}]
 ----
 
 
@@ -53,7 +53,7 @@ image::https://assets.leetcode.com/uploads/2018/12/15/1.png[]
 *Output:* 1
 *Explanation:* The 2x2 grid is as follows:
 
-image::https://assets.leetcode.com/uploads/2018/12/15/2.png[]
+image::https://assets.leetcode.com/uploads/2018/12/15/2.png[{image_attr}]
 ----
 
 
@@ -70,7 +70,7 @@ image::https://assets.leetcode.com/uploads/2018/12/15/2.png[]
 *Explanation:* (Recall that because \ characters are escaped, "\\/" refers to \/, and "/\\" refers to /\.)
 The 2x2 grid is as follows:
 
-image::https://assets.leetcode.com/uploads/2018/12/15/3.png[]
+image::https://assets.leetcode.com/uploads/2018/12/15/3.png[{image_attr}]
 ----
 
 
@@ -87,7 +87,7 @@ image::https://assets.leetcode.com/uploads/2018/12/15/3.png[]
 *Explanation:* (Recall that because \ characters are escaped, "/\\" refers to /\, and "\\/" refers to \/.)
 The 2x2 grid is as follows:
 
-image::https://assets.leetcode.com/uploads/2018/12/15/4.png[]
+image::https://assets.leetcode.com/uploads/2018/12/15/4.png[{image_attr}]
 ----
 
 
@@ -103,7 +103,7 @@ image::https://assets.leetcode.com/uploads/2018/12/15/4.png[]
 *Output:* 3
 *Explanation:* The 2x2 grid is as follows:
 
-image::https://assets.leetcode.com/uploads/2018/12/15/5.png[]
+image::https://assets.leetcode.com/uploads/2018/12/15/5.png[{image_attr}]
 ----
 
  

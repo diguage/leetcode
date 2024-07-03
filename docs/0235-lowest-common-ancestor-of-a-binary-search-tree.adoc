@@ -9,7 +9,7 @@ According to the https://en.wikipedia.org/wiki/Lowest_common_ancestor[definition
 
 Given binary search tree:  root = [6,2,8,0,4,7,9,null,null,3,5]
 
-image::https://assets.leetcode.com/uploads/2018/12/14/binarysearchtree_improved.png[]
+image::https://assets.leetcode.com/uploads/2018/12/14/binarysearchtree_improved.png[{image_attr}]
  
 
 *Example 1:*
@@ -42,19 +42,19 @@ image::https://assets.leetcode.com/uploads/2018/12/14/binarysearchtree_improved.
 
 要充分利用二叉搜索树的特性：左大右小，如果根节点大于两个指定节点的值，那么公共祖先就在左子树上；如果根节点小于两个指定节点的值，那么公共祖先就在右子树上；否则就是他们的公共祖先节点。
 
-image::images/0235-00.png[]
+image::images/0235-00.png[{image_attr}]
 
-image::images/0235-01.png[]
+image::images/0235-01.png[{image_attr}]
 
-image::images/0235-02.png[]
+image::images/0235-02.png[{image_attr}]
 
-image::images/0235-03.png[]
+image::images/0235-03.png[{image_attr}]
 
-image::images/0235-04.png[]
+image::images/0235-04.png[{image_attr}]
 
-image::images/0235-05.png[]
+image::images/0235-05.png[{image_attr}]
 
-image::images/0235-06.png[]
+image::images/0235-06.png[{image_attr}]
 
 
 [[src-0235]]

@@ -7,7 +7,7 @@ Given a non-negative index _k_ where _k_ ≤ 33, return the _k_^th^ index row of
 
 Note that the row index starts from 0.
 
-image::https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif[]
+image::https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif[{image_attr}]
 
 
 [.small]#In Pascal's triangle, each number is the sum of the two numbers directly above it.#

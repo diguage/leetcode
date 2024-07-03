@@ -67,7 +67,7 @@ We can't reach the target without getting stuck.
 
 可以把题目的意思画图表示一下：
 
-image::images/0752-01.png[]
+image::images/0752-01.png[{image_attr}]
 
 从这张图上可以看出，可以使用广度优先搜索算法来解题。这道题可以 xref:0111-minimum-depth-of-binary-tree.adoc[111. Minimum Depth of Binary Tree] 参考理解，不同的是： 111 是二叉树，本题是多叉树。
 

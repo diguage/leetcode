@@ -5,7 +5,7 @@ https://leetcode.com/problems/merge-two-sorted-lists/[LeetCode - Merge Two Sorte
 
 Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
 
-image::images/0021-00.jpg[]
+image::images/0021-00.jpg[{image_attr}]
 
 *Example:*
 [subs="verbatim,quotes,macros"]
@@ -33,25 +33,25 @@ include::{sourcedir}/_0021_MergeTwoSortedLists_2.java[]
 
 没想到这个题也可以用递归解决！
 
-image::images/0021-09.png[]
+image::images/0021-09.png[{image_attr}]
 
-image::images/0021-01.jpeg[]
+image::images/0021-01.jpeg[{image_attr}]
 
-image::images/0021-02.jpeg[]
+image::images/0021-02.jpeg[{image_attr}]
 
-image::images/0021-03.jpeg[]
+image::images/0021-03.jpeg[{image_attr}]
 
-image::images/0021-03.jpeg[]
+image::images/0021-03.jpeg[{image_attr}]
 
-image::images/0021-04.jpeg[]
+image::images/0021-04.jpeg[{image_attr}]
 
-image::images/0021-05.jpeg[]
+image::images/0021-05.jpeg[{image_attr}]
 
-image::images/0021-06.jpeg[]
+image::images/0021-06.jpeg[{image_attr}]
 
-image::images/0021-07.jpeg[]
+image::images/0021-07.jpeg[{image_attr}]
 
-image::images/0021-08.jpeg[]
+image::images/0021-08.jpeg[{image_attr}]
 
 
 == 参考资料

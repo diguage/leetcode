@@ -12,7 +12,7 @@ _Nary-Tree input serialization is represented in their level order traversal, ea
  
 *Example 1:*
 
-image::images/0559-00.png[]
+image::images/0559-00.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -22,7 +22,7 @@ image::images/0559-00.png[]
 
 *Example 2:*
 
-image::images/0559-01.png[]
+image::images/0559-01.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

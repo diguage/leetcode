@@ -27,7 +27,7 @@ Initially, all next pointers are set to `NULL`.
 
 *Example 1:*
 
-image::images/0117-1.png[]
+image::images/0117-1.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -57,7 +57,7 @@ image::images/0117-1.png[]
 
 但这道题和 xref:0116-populating-next-right-pointers-in-each-node.adoc[116. Populating Next Right Pointers in Each Node] 在于：116 是完全二叉树，那么可以直接使用 `next` 节点的 `left` 子节点。这道题不是一个完全二叉树，所以，就需要在运动中寻找不为空的节点。另外，最左节点的选择，也不能直接使用 `mostLeft.left`，也是需要在运动中去寻找下一层第一个不为空的节点。两道题区别不大只是需要多注意细节。
 
-image::images/0117-2.jpg[]
+image::images/0117-2.jpg[{image_attr}]
 
 这样，把第一种解法的代码稍作修改就可以了。
 

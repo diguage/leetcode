@@ -12,7 +12,7 @@ Return the roots of the trees in the remaining forest.  You may return the resul
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/07/01/screen-shot-2019-07-01-at-53836-pm.png[]
+image::https://assets.leetcode.com/uploads/2019/07/01/screen-shot-2019-07-01-at-53836-pm.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

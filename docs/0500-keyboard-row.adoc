@@ -7,7 +7,7 @@ Given a List of words, return the words that can be typed using letters of *alph
 
  
 
-image::https://assets.leetcode.com/uploads/2018/10/12/keyboard.png[]
+image::https://assets.leetcode.com/uploads/2018/10/12/keyboard.png[{image_attr}]
  
 
 *Example:*

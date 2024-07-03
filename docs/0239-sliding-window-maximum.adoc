@@ -31,15 +31,15 @@ Could you solve it in linear time?
 
 == 解题分析
 
-image::images/0239-1.png[]
+image::images/0239-1.png[{image_attr}]
 
-image::images/0239-2.png[]
+image::images/0239-2.png[{image_attr}]
 
-image::images/0239-3.png[]
+image::images/0239-3.png[{image_attr}]
 
-image::images/0239-4.png[]
+image::images/0239-4.png[{image_attr}]
 
-image::images/0239-5.png[]
+image::images/0239-5.png[{image_attr}]
 
 
 == 思考题

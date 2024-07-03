@@ -11,7 +11,7 @@ Given the `root` of a binary tree, find the maximum value `V` for which there ex
 
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/09/09/2whqcep.jpg[]
+image::https://assets.leetcode.com/uploads/2019/09/09/2whqcep.jpg[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

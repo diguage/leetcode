@@ -7,13 +7,13 @@ Write a program to find the node at which the intersection of two singly linked 
 
 For example, the following two linked lists:
 
-image::images/0160-01.png[]
+image::images/0160-01.png[{image_attr}]
 
 begin to intersect at node c1.
 
 *Example 1:*
 
-image::images/0160-02.png[]
+image::images/0160-02.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -26,7 +26,7 @@ image::images/0160-02.png[]
 
 *Example 2:*
 
-image::images/0160-03.png[]
+image::images/0160-03.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -40,7 +40,7 @@ image::images/0160-03.png[]
 
 *Example 3:*
 
-image::images/0160-04.png[]
+image::images/0160-04.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

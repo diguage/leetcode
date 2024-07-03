@@ -9,7 +9,7 @@ Find the number of paths that sum to a given value.
 
 The path does not need to start or end at the root or a leaf, but it must go downwards (traveling only from parent nodes to child nodes).
 
-image::images/0437-00.jpg[]
+image::images/0437-00.jpg[{image_attr}]
 
 The tree has no more than 1,000 nodes and the values are in the range -1,000,000 to 1,000,000.
 
@@ -63,29 +63,29 @@ include::{sourcedir}/_0437_PathSumIII_21.java[]
 .. 也就是说，当我们把一个节点的前缀和信息更新到hashMap里时，它应当只对其子节点有效。
 .. 所以我们应该：*在遍历完一个节点的所有子节点后，将其从 `Map` 中减去它的频率。*
 
-image::images/0437-01.png[]
+image::images/0437-01.png[{image_attr}]
 
-image::images/0437-02.png[]
+image::images/0437-02.png[{image_attr}]
 
-image::images/0437-03.png[]
+image::images/0437-03.png[{image_attr}]
 
-image::images/0437-04.png[]
+image::images/0437-04.png[{image_attr}]
 
-image::images/0437-05.png[]
+image::images/0437-05.png[{image_attr}]
 
-image::images/0437-06.png[]
+image::images/0437-06.png[{image_attr}]
 
-image::images/0437-07.png[]
+image::images/0437-07.png[{image_attr}]
 
-image::images/0437-08.png[]
+image::images/0437-08.png[{image_attr}]
 
-image::images/0437-09.png[]
+image::images/0437-09.png[{image_attr}]
 
-image::images/0437-10.png[]
+image::images/0437-10.png[{image_attr}]
 
-image::images/0437-11.png[]
+image::images/0437-11.png[{image_attr}]
 
-image::images/0437-12.png[]
+image::images/0437-12.png[{image_attr}]
 
 [{java_src_attr}]
 ----

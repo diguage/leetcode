@@ -5,7 +5,7 @@ https://leetcode.com/problems/n-queens/[LeetCode - N-Queens]
 
 The *__n__-queens* puzzle is the problem of placing *n* queens on an *n×n* chessboard such that no two queens attack each other.
 
-image::images/0051-00.png[]
+image::images/0051-00.png[{image_attr}]
 
 Given an integer **n**, return all distinct solutions to the *__n__-queens* puzzle.
 
@@ -35,7 +35,7 @@ Explanation: There exist two distinct solutions to the 4-queens puzzle as shown 
 
 当在棋盘上放置了一个皇后后，立即排除当前行，列和对应的两个对角线。这里有一点可以优化：**我们从上向下进行尝试，所以，只需要判断当前行以上的相关节点是否冲突即可。**另外，先检查再渐进点，合适之后，再向前走，可以做到有效地剪枝。
 
-image::images/0051-01.png[]
+image::images/0051-01.png[{image_attr}]
 
 这里有个知识点需要注意：
 
@@ -43,11 +43,11 @@ image::images/0051-01.png[]
 对于所有的次对角线有 `行号 - 列号 = 常数`。 +
 如下图所示：
 
-image::images/0051-02.png[]
+image::images/0051-02.png[{image_attr}]
 
 利用回溯解题时，只回溯一半，然后将每个解反转即可求得另外一般解。这里有个细节需要注意：**如果长度是奇数，而且第一行中间是合法位置，则在回溯过程中已经产生了对称解法。就不需要再反转了。**。
 
-image::images/0051-03.png[]
+image::images/0051-03.png[{image_attr}]
 
 [[src-0051]]
 [{java_src_attr}]

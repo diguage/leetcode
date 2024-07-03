@@ -18,11 +18,11 @@ Flatten the list so that all the nodes appear in a single-level, doubly linked l
 *
 The multilevel linked list in the input is as follows:
 
-image::https://assets.leetcode.com/uploads/2018/10/12/multilevellinkedlist.png[]
+image::https://assets.leetcode.com/uploads/2018/10/12/multilevellinkedlist.png[{image_attr}]
 
 After flattening the multilevel linked list it becomes:
 
-image::https://assets.leetcode.com/uploads/2018/10/12/multilevellinkedlistflattened.png[]
+image::https://assets.leetcode.com/uploads/2018/10/12/multilevellinkedlistflattened.png[{image_attr}]
 
 ----
 

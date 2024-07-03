@@ -8,11 +8,11 @@ Given _n_ non-negative integers representing the histogram's bar height where th
 
 *Example 1:*
 
-image::images/0084-00.png[]
+image::images/0084-00.png[{image_attr}]
 
 [.small]#Above is a histogram where width of each bar is 1, given height = `[2,1,5,6,2,3]`.#
 
-image::images/0084-01.png[]
+image::images/0084-01.png[{image_attr}]
 
 [.small]#The largest rectangle is shown in the shaded area, which has area = `10` unit.#
 

@@ -12,7 +12,7 @@ If you choose a job that ends at time `X` you will be able to start another job 
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/10/10/sample1_1584.png[]
+image::https://assets.leetcode.com/uploads/2019/10/10/sample1_1584.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -24,7 +24,7 @@ Time range [1-3]+[3-6] , we get profit of 120 = 50 + 70.
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/10/10/sample22_1584.png[]
+image::https://assets.leetcode.com/uploads/2019/10/10/sample22_1584.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -37,7 +37,7 @@ Profit obtained 150 = 20 + 70 + 60.
 
 *Example 3:*
 
-image::https://assets.leetcode.com/uploads/2019/10/10/sample3_1584.png[]
+image::https://assets.leetcode.com/uploads/2019/10/10/sample3_1584.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

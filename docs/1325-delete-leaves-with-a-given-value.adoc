@@ -10,7 +10,7 @@ Note that once you delete a leaf node with value `target`*, *if it's parent node
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2020/01/09/sample_1_1684.png[]
+image::https://assets.leetcode.com/uploads/2020/01/09/sample_1_1684.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -22,7 +22,7 @@ After removing, new nodes become leaf nodes with value (target = 2) (Picture in 
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2020/01/09/sample_2_1684.png[]
+image::https://assets.leetcode.com/uploads/2020/01/09/sample_2_1684.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -32,7 +32,7 @@ image::https://assets.leetcode.com/uploads/2020/01/09/sample_2_1684.png[]
 
 *Example 3:*
 
-image::https://assets.leetcode.com/uploads/2020/01/15/sample_3_1684.png[]
+image::https://assets.leetcode.com/uploads/2020/01/15/sample_3_1684.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

@@ -14,7 +14,7 @@ Zero matrix is a matrix with all cells equal to 0.
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/11/28/matrix.png[]
+image::https://assets.leetcode.com/uploads/2019/11/28/matrix.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

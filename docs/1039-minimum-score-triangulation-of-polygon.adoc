@@ -27,7 +27,7 @@ Return the smallest possible total score that you can achieve with some triangul
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/05/01/minimum-score-triangulation-of-polygon-1.png[]
+image::https://assets.leetcode.com/uploads/2019/05/01/minimum-score-triangulation-of-polygon-1.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

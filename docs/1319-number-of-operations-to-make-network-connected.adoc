@@ -10,7 +10,7 @@ Given an initial computer network `connections`. You can extract certain cables 
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2020/01/02/sample_1_1677.png[]
+image::https://assets.leetcode.com/uploads/2020/01/02/sample_1_1677.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -21,7 +21,7 @@ image::https://assets.leetcode.com/uploads/2020/01/02/sample_1_1677.png[]
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2020/01/02/sample_2_1677.png[]
+image::https://assets.leetcode.com/uploads/2020/01/02/sample_2_1677.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

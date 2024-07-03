@@ -5,7 +5,7 @@ https://leetcode.com/problems/kth-largest-element-in-an-array/[LeetCode - Kth La
 
 没想到竟然可以使用快排的套路来解决这个问题。
 
-image::images/0215-01.gif[]
+image::images/0215-01.gif[{image_attr}]
 
 == 参考资料
 

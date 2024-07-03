@@ -29,7 +29,7 @@ Initially, all next pointers are set to `NULL`.
 
 *Example 1:*
 
-image::images/0116-00.png[]
+image::images/0116-00.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -47,9 +47,9 @@ image::images/0116-00.png[]
 
 这道题和 xref:0117-populating-next-right-pointers-in-each-node-ii.adoc[117. Populating Next Right Pointers in Each Node II] 算是姊妹题。
 
-image::images/0116-01.jpg[]
+image::images/0116-01.jpg[{image_attr}]
 
-image::images/0116-02.jpg[]
+image::images/0116-02.jpg[{image_attr}]
 
 这道题的关键是在上层遍历中，把下层的链接关系建立起来。
 
@@ -57,17 +57,17 @@ image::images/0116-02.jpg[]
 
 因为是完全二叉树。所以，如果左下节点为空则到达最后一层；向右节点为空，则到达行尾需要换行。
 
-image::images/0116-01.png[]
+image::images/0116-01.png[{image_attr}]
 
-image::images/0116-02.png[]
+image::images/0116-02.png[{image_attr}]
 
-image::images/0116-03.png[]
+image::images/0116-03.png[{image_attr}]
 
-image::images/0116-04.png[]
+image::images/0116-04.png[{image_attr}]
 
-image::images/0116-05.png[]
+image::images/0116-05.png[{image_attr}]
 
-image::images/0116-06.png[]
+image::images/0116-06.png[{image_attr}]
 
 
 [[src-0116]]

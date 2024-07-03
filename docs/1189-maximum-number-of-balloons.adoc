@@ -10,7 +10,7 @@ You can use each character in `text` *at most once*. Return the maximum number o
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/09/05/1536_ex1_upd.JPG[]
+image::https://assets.leetcode.com/uploads/2019/09/05/1536_ex1_upd.JPG[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -20,7 +20,7 @@ image::https://assets.leetcode.com/uploads/2019/09/05/1536_ex1_upd.JPG[]
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/09/05/1536_ex2_upd.JPG[]
+image::https://assets.leetcode.com/uploads/2019/09/05/1536_ex2_upd.JPG[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

@@ -19,7 +19,7 @@ Write a function that determines whether two binary trees are _flip equivalent_.
 *Output:* true
 *Explanation:* We flipped at nodes with values 1, 3, and 5.
 
-image::https://assets.leetcode.com/uploads/2018/11/29/tree_ex.png[]
+image::https://assets.leetcode.com/uploads/2018/11/29/tree_ex.png[{image_attr}]
 ----
 
  

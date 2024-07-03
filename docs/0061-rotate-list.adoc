@@ -28,7 +28,7 @@ rotate 4 steps to the right: 2->0->1->NULL
 
 == 解题分析
 
-image::images/0061-1.png[]
+image::images/0061-1.png[{image_attr}]
 
 这个环形解题法很赞！
 

@@ -14,7 +14,7 @@ Return _the minimum difficulty_ of a job schedule. If you cannot find a schedule
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2020/01/16/untitled.png[]
+image::https://assets.leetcode.com/uploads/2020/01/16/untitled.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

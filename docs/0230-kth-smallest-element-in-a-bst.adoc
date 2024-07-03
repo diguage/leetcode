@@ -5,13 +5,13 @@ https://leetcode.com/problems/kth-smallest-element-in-a-bst/[LeetCode - Kth Smal
 
 TODO: 树的非递归遍历还需要多加推敲，加强理解。
 
-image::images/0230-1.png[]
+image::images/0230-1.png[{image_attr}]
 
-image::images/0230-2.png[]
+image::images/0230-2.png[{image_attr}]
 
-image::images/0230-3.png[]
+image::images/0230-3.png[{image_attr}]
 
-image::images/0230-4.png[]
+image::images/0230-4.png[{image_attr}]
 
 Given a binary search tree, write a function `kthSmallest` to find the *k*th smallest element in it.
 

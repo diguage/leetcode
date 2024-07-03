@@ -30,7 +30,7 @@ Given a positive integer _n_, break it into the sum of *at least* two positive i
 
 == 解题分析
 
-image::images/0343-1.png[]
+image::images/0343-1.png[{image_attr}]
 
 [[src-0343]]
 [{java_src_attr}]

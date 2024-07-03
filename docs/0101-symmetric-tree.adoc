@@ -41,25 +41,25 @@ Bonus points if you could solve it both recursively and iteratively.
 
 == 思路分析
 
-image::images/0101-00.png[]
+image::images/0101-00.png[{image_attr}]
 
-image::images/0101-01.png[]
+image::images/0101-01.png[{image_attr}]
 
-image::images/0101-02.png[]
+image::images/0101-02.png[{image_attr}]
 
-image::images/0101-03.png[]
+image::images/0101-03.png[{image_attr}]
 
-image::images/0101-04.png[]
+image::images/0101-04.png[{image_attr}]
 
-image::images/0101-05.png[]
+image::images/0101-05.png[{image_attr}]
 
-image::images/0101-06.png[]
+image::images/0101-06.png[{image_attr}]
 
-image::images/0101-07.png[]
+image::images/0101-07.png[{image_attr}]
 
-image::images/0101-08.png[]
+image::images/0101-08.png[{image_attr}]
 
-image::images/0101-09.png[]
+image::images/0101-09.png[{image_attr}]
 
 
 [[src-0101]]

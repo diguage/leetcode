@@ -17,7 +17,7 @@ Output:
 ]
 ----
 
-image::images/0047-1.png[]
+image::images/0047-1.png[{image_attr}]
 
 思考：去重剪枝的判断是怎么实现的？
 

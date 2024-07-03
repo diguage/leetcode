@@ -2,7 +2,7 @@
 
 https://leetcode.com/problems/valid-sudoku/[LeetCode - Valid Sudoku]
 
-image::images/0036-valid-sudoku.png[]
+image::images/0036-valid-sudoku.png[{image_attr}]
 
 
 Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be validated *according to the following rules*:
@@ -13,7 +13,7 @@ Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be valid
 * Each of the 9 `3x3` sub-boxes of the grid must contain the digits `1-9` without repetition.
 
 
-image::https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png[]
+image::https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png[{image_attr}]
 
 
 [.small]#A partially filled sudoku which is valid.#

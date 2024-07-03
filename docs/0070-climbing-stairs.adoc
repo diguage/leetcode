@@ -40,7 +40,7 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 
 以此类推：当第 n 个台阶时，可以从第 n-2 个台阶跳起；也可以从第 n-1 个台阶跳起。
 
-image::images/0070-1.png[]
+image::images/0070-1.png[{image_attr}]
 
 到这里就很明显了，这是一个斐波那契数列。
 

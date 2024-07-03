@@ -10,7 +10,7 @@ You are given an array `coordinates`, `coordinates[i] = [x, y]`, where `[x, y]` 
  
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/10/15/untitled-diagram-2.jpg[]
+image::https://assets.leetcode.com/uploads/2019/10/15/untitled-diagram-2.jpg[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -20,7 +20,7 @@ image::https://assets.leetcode.com/uploads/2019/10/15/untitled-diagram-2.jpg[]
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/10/09/untitled-diagram-1.jpg[]
+image::https://assets.leetcode.com/uploads/2019/10/09/untitled-diagram-1.jpg[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

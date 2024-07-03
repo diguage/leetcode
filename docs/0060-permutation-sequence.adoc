@@ -35,9 +35,9 @@ Output: "2314"
 
 == 解题分析
 
-image::images/0060-5.png[]
+image::images/0060-5.png[{image_attr}]
 
-image::images/0060-6.png[]
+image::images/0060-6.png[{image_attr}]
 
 不需要生成所有的全排列。如图，通过剪枝，只需要生成需要的排列的路径即可。
 

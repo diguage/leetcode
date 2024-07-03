@@ -5,9 +5,9 @@ https://leetcode.com/problems/word-ladder/[LeetCode - Word Ladder]
 
 通过 https://leetcode.com/problems/word-ladder/solution/[Word Ladder - LeetCode] 讲解，竟然可以抽象成无向无权图，然后通过 `Queue` 将其串联起来，实在好精巧。
 
-image::images/0127-1.png[]
+image::images/0127-1.png[{image_attr}]
 
-image::images/0127-2.png[]
+image::images/0127-2.png[{image_attr}]
 
 
 Given two words (_beginWord_ and _endWord_), and a dictionary's word list, find the length of shortest transformation sequence from _beginWord_ to _endWord_, such that:
@@ -60,9 +60,9 @@ wordList = ["hot","dot","dog","lot","log"]
 
 BFS 解题思路，与 xref:0752-open-the-lock.adoc[752. Open the Lock] 的套路是一样的。
 
-image::images/0127-01.png[]
+image::images/0127-01.png[{image_attr}]
 
-image::images/0127-02.png[]
+image::images/0127-02.png[{image_attr}]
 
 [[src-0127]]
 [{java_src_attr}]

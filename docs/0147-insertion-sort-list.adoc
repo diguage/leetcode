@@ -8,7 +8,7 @@ Sort a linked list using insertion sort.
 
 
 
-image::https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif[]
+image::https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif[{image_attr}]
 
 
 [.small]#A graphical example of insertion sort. The partial sorted list (black) initially contains only the first element in the list.

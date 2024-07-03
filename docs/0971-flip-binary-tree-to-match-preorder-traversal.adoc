@@ -22,7 +22,7 @@ If we cannot do so, then return the list `[-1]`.
 
 *Example 1:*
 
-image::https://assets.leetcode.com/uploads/2019/01/02/1219-01.png[]
+image::https://assets.leetcode.com/uploads/2019/01/02/1219-01.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -33,7 +33,7 @@ image::https://assets.leetcode.com/uploads/2019/01/02/1219-01.png[]
 
 *Example 2:*
 
-image::https://assets.leetcode.com/uploads/2019/01/02/1219-02.png[]
+image::https://assets.leetcode.com/uploads/2019/01/02/1219-02.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -44,7 +44,7 @@ image::https://assets.leetcode.com/uploads/2019/01/02/1219-02.png[]
 
 *Example 3:*
 
-image::https://assets.leetcode.com/uploads/2019/01/02/1219-02.png[]
+image::https://assets.leetcode.com/uploads/2019/01/02/1219-02.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

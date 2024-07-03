@@ -20,7 +20,7 @@ Output: "BANC"
 
 滑动窗口
 
-image::images/0076-01.gif[]
+image::images/0076-01.gif[{image_attr}]
 
 [[src-0076]]
 [{java_src_attr}]

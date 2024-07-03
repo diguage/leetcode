@@ -57,7 +57,7 @@ Merged tree:
 
 == 思路分析
 
-image::images/0617-01.gif[]
+image::images/0617-01.gif[{image_attr}]
 
 [[src-0617]]
 [{java_src_attr}]

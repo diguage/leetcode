@@ -7,7 +7,7 @@ https://leetcode.com/problems/implement-trie-prefix-tree/[LeetCode - Implement T
 
 思考题：如何实现一个工业级的 Trie Tree？
 
-image::images/0208-1.png[]
+image::images/0208-1.png[{image_attr}]
 
 == 参考资料
 

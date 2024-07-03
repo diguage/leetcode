@@ -21,7 +21,7 @@ Explanation: transactions = [buy, sell, cooldown, buy, sell]
 
 针对 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）] 这个解题框架，进行小试牛刀。
 
-image::images/0309-1.png[]
+image::images/0309-1.png[{image_attr}]
 
 这里有一点需要注意：由于卖出后，需要隔一天才能再次买入。所以，需要保存前一天"为空"状态的值。
 

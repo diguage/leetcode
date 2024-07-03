@@ -47,11 +47,11 @@ Therefore, for n = 0 the gray code sequence is [0].
 ** 计算 R'(n)：执行 `head = 1 << i` 计算出对应位数，以给 R(n) 前添加 1 得到对应 R'(n)；
 ** 倒序遍历 res(即 G(n) )：依次求得 R'(n) 各元素添加至 res 尾端，遍历完成后 res(即 G(n+1))。
 
-image::images/0089-1.png[]
+image::images/0089-1.png[{image_attr}]
 
-image::images/0089-2.png[]
+image::images/0089-2.png[{image_attr}]
 
-image::images/0089-3.png[]
+image::images/0089-3.png[{image_attr}]
 
 这个题的解法跟 xref:0338-counting-bits.adoc[338. Counting Bits] 有异曲同工之妙！
 

@@ -30,7 +30,7 @@ Given a binary tree, return all root-to-leaf paths.
 
 这次尝试了一下回溯的写法，过程大概如下：
 
-image::images/0257-00.png[]
+image::images/0257-00.png[{image_attr}]
 
 [[src-0257]]
 [{java_src_attr}]

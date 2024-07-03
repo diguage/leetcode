@@ -7,8 +7,8 @@
 :pdf-theme: Source
 
 :icons: font
-
-:diagram_attr: format=svg,align="center",width=100%
+:image_attr: align="center",width=95%
+:diagram_attr: format=svg,align="center",width=95%
 
 :sourcedir: {asciidoctorconfigdir}/../src/main/java/com/diguage/algorithm/leetcode
 :source_attr: linenums,indent=0,subs="attributes,verbatim,quotes"

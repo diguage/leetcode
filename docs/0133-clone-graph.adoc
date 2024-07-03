@@ -28,7 +28,7 @@ The given node will always be the first node with `val = 1`. You must return the
  
 *Example 1:*
 
-image::images/0133-1-clone_graph_question.png[]
+image::images/0133-1-clone_graph_question.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -43,7 +43,7 @@ image::images/0133-1-clone_graph_question.png[]
 
 *Example 2:*
 
-image::images/0133-2-graph.png[]
+image::images/0133-2-graph.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -63,7 +63,7 @@ image::images/0133-2-graph.png[]
 
 *Example 4:*
 
-image::images/0133-3-graph.png[]
+image::images/0133-3-graph.png[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----

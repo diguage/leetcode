@@ -15,11 +15,11 @@ A sudoku solution must satisfy *all of the following rules*:
 
 Empty cells are indicated by the character `'.'`.
 
-image::images/0037-1.png[]
+image::images/0037-1.png[{image_attr}]
 
 [.small]#A sudoku puzzle...#
 
-image::images/0037-2.png[]
+image::images/0037-2.png[{image_attr}]
 
 [.small]#...and its solution numbers marked in red.#
 

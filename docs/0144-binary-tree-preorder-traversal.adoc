@@ -38,33 +38,33 @@ include::{sourcedir}/_0144_BinaryTreePreorderTraversal_Recur.java[]
 
 == 迭代实现
 
-image::images/0144-01.png[]
+image::images/0144-01.png[{image_attr}]
 
-image::images/0144-02.png[]
+image::images/0144-02.png[{image_attr}]
 
-image::images/0144-03.png[]
+image::images/0144-03.png[{image_attr}]
 
-image::images/0144-04.png[]
+image::images/0144-04.png[{image_attr}]
 
-image::images/0144-05.png[]
+image::images/0144-05.png[{image_attr}]
 
-image::images/0144-06.png[]
+image::images/0144-06.png[{image_attr}]
 
-image::images/0144-07.png[]
+image::images/0144-07.png[{image_attr}]
 
-image::images/0144-08.png[]
+image::images/0144-08.png[{image_attr}]
 
-image::images/0144-09.png[]
+image::images/0144-09.png[{image_attr}]
 
-image::images/0144-10.png[]
+image::images/0144-10.png[{image_attr}]
 
-image::images/0144-11.png[]
+image::images/0144-11.png[{image_attr}]
 
-image::images/0144-12.png[]
+image::images/0144-12.png[{image_attr}]
 
-image::images/0144-13.png[]
+image::images/0144-13.png[{image_attr}]
 
-image::images/0144-14.png[]
+image::images/0144-14.png[{image_attr}]
 
 [{java_src_attr}]
 ----

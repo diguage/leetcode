@@ -28,23 +28,23 @@ Given an array of integers and an integer **k**, you need to find the total numb
 
 基于一个idea：`sum[j] - sum[i] == k` 的话，`nums[i+1, j]` 之间数字的和就是 `k`。
 
-image::images/0560-01.png[]
+image::images/0560-01.png[{image_attr}]
 
-image::images/0560-02.png[]
+image::images/0560-02.png[{image_attr}]
 
-image::images/0560-03.png[]
+image::images/0560-03.png[{image_attr}]
 
-image::images/0560-04.png[]
+image::images/0560-04.png[{image_attr}]
 
-image::images/0560-05.png[]
+image::images/0560-05.png[{image_attr}]
 
-image::images/0560-06.png[]
+image::images/0560-06.png[{image_attr}]
 
-image::images/0560-07.png[]
+image::images/0560-07.png[{image_attr}]
 
-image::images/0560-08.png[]
+image::images/0560-08.png[{image_attr}]
 
-image::images/0560-09.png[]
+image::images/0560-09.png[{image_attr}]
 
 [[src-0560]]
 [{java_src_attr}]
