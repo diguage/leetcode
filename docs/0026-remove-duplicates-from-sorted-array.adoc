@@ -60,3 +60,14 @@ for (int i = 0; i < len; i++) {
 include::{sourcedir}/_0026_RemoveDuplicatesFromSortedArray.java[]
 ----
 
+[{java_src_attr}]
+----
+include::{sourcedir}/_0026_RemoveDuplicatesFromSortedArray_2.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/remove-duplicates-from-sorted-array/solutions/34033/shuang-zhi-zhen-shan-chu-zhong-fu-xiang-dai-you-hu/[26. 删除有序数组中的重复项 - 删除重复项-带优化思路^]
+. https://leetcode.cn/problems/remove-duplicates-from-sorted-array/solutions/728105/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-tudo/[26. 删除有序数组中的重复项 - 官方题解^]
+. https://leetcode.cn/problems/remove-duplicates-from-sorted-array/solutions/575549/shua-chuan-lc-jian-ji-shuang-zhi-zhen-ji-2eg8/[26. 删除有序数组中的重复项 - 一题双解 :「双指针」&「通用」解法^]
+

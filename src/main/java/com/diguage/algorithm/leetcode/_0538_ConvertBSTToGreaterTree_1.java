@@ -5,6 +5,10 @@ import com.diguage.util.TreeNodes;
 
 import java.util.Arrays;
 
+/**
+ * @author D瓜哥 · https://www.diguage.com
+ * @since 2024-06-26 20:50:34
+ */
 public class _0538_ConvertBSTToGreaterTree_1 {
 
   /**
@@ -16,19 +20,24 @@ public class _0538_ConvertBSTToGreaterTree_1 {
     TreeNode cur = root;
     TreeNode mostLeft = null;
     while (cur != null) {
+      // 向右转
       mostLeft = cur.right;
       if (mostLeft != null) {
+        // 寻找最左边的节点
         while (mostLeft.left != null && mostLeft.left != cur) {
           mostLeft = mostLeft.left;
         }
         if (mostLeft.left == null) {
+          // 第一次访问，将最左节点的左子树指向当前节点
           mostLeft.left = cur;
           cur = cur.right;
           continue;
         } else {
+          // 第二次访问，掐断中间建立的连接
           mostLeft.left = null;
         }
       }
+      // 计算累加和
       sum += cur.val;
       cur.val = sum;
       cur = cur.left;

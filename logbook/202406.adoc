@@ -199,4 +199,9 @@
 |{doc_base_url}/0160-intersection-of-two-linked-lists.adoc[题解]
 |双指针，两个链表逻辑拼接
 
+|26
+|{leetcode_base_url}/remove-duplicates-from-sorted-array/[Remove Duplicates from Sorted Array]
+|{doc_base_url}/0026-remove-duplicates-from-sorted-array.adoc[题解]
+|算法了解，编码功力有待提高
+
 |===
