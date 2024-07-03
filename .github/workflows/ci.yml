@@ -12,6 +12,13 @@ jobs:
         with:
           persist-credentials: false
 
+      # https://github.com/actions/setup-node
+      - name: Setup Node.js 🕸
+        uses: actions/setup-node@v4
+        with:
+          # https://github.com/nvm-sh/nvm#long-term-support
+          node-version: 'lts/*'
+
       - name: Set up JDK ☕️
         uses: actions/setup-java@v4
         with:
@@ -36,6 +43,25 @@ jobs:
       - name: Build 🔧
         run: |
           mvn clean package
+
+      - name: Install Cssnano 🍻
+        run: |
+          npm install cssnano-cli --location=global
+
+      - name: Compress HTML Style 🍭
+        run: |
+          # Multiple HTML page
+          cd target/docs/multipage/assets/styles
+          for f in `find . -name "*.css"`;
+          do
+            if [[ $f == *asciidoctor.css ]]; then
+              echo -e '\na{text-decoration:none;}p>code,strong>code{color: #d14 !important;background-color: #f5f5f5 !important;border: 1px solid #e1e1e8;}' >> $f
+            fi
+            fn="${f%.*}.min.css";
+            cssnano $f $fn;
+            rm -rf $f;
+            mv $fn $f
+          done
 
       - name: Add links for comments 🔗
         run: |
