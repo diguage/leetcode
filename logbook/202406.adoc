@@ -209,4 +209,9 @@
 |{doc_base_url}/0167-two-sum-ii-input-array-is-sorted.adoc[题解]
 |两个指针向中间挤压
 
+|5
+|{leetcode_base_url}/longest-palindromic-substring/[Longest Palindromic Substring]
+|{doc_base_url}/0005-longest-palindromic-substring.adoc[题解]
+|最容易想到的是中心扩散法，还可以用动态规划，甚至还有 O(n) 的马拉车算法。
+
 |===
