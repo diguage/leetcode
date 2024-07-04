@@ -2139,14 +2139,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0302-smallest-rectangle-enclosing-black-pixels.adoc[题解]
 //|Hard
 //|
-//
-//|303
-//|{leetcode_base_url}/range-sum-query-immutable/[Range Sum Query - Immutable]
-//|{source_base_url}/_0303_RangeSumQueryImmutable.java[Java]
-//|{doc_base_url}/0303-range-sum-query-immutable.adoc[题解]
-//|Easy
-//|
-//
+
+|303
+|{leetcode_base_url}/range-sum-query-immutable/[Range Sum Query - Immutable]
+|{source_base_url}/_0303_RangeSumQueryImmutable.java[Java]
+|{doc_base_url}/0303-range-sum-query-immutable.adoc[题解]
+|Easy
+|
+
 //|304
 //|{leetcode_base_url}/range-sum-query-2d-immutable/[Range Sum Query 2D - Immutable]
 //|{source_base_url}/_0304_RangeSumQuery2DImmutable.java[Java]

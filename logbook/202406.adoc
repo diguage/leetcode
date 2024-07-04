@@ -214,4 +214,11 @@
 |{doc_base_url}/0005-longest-palindromic-substring.adoc[题解]
 |最容易想到的是中心扩散法，还可以用动态规划，甚至还有 O(n) 的马拉车算法。
 
+
+|303
+|{leetcode_base_url}/range-sum-query-immutable/[Range Sum Query - Immutable]
+|{doc_base_url}/0303-range-sum-query-immutable.adoc[题解]
+|前缀和非常好的入门试题
+
+
 |===

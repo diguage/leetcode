@@ -1,0 +1,12 @@
+[#0000-data-structure-list]
+= 数据与链表
+
+== 套路
+
+=== 前缀和
+
+. xref:0303-range-sum-query-immutable.adoc[303. Range Sum Query - Immutable]
+
+== 参考资料
+
+. https://leetcode.cn/problems/range-sum-query-immutable/solutions/627185/jian-dan-wen-ti-xi-zhi-fen-xi-qian-tan-q-t2nz/[303. 区域和检索 - 数组不可变 - 简单问题细致分析，『前缀和』优化了什么^]

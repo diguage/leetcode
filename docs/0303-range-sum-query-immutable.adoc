@@ -21,7 +21,11 @@ sumRange(0, 5) -> -3
 . You may assume that the array does not change.
 . There are many calls to _sumRange_ function.
 
+== 思路分析
 
+前缀和
+
+image::images/0303-01.png[{image_attr}]
 
 
 [[src-0303]]
@@ -29,4 +33,11 @@ sumRange(0, 5) -> -3
 ----
 include::{sourcedir}/_0303_RangeSumQueryImmutable.java[]
 ----
+
+== 参考资料
+
+. https://leetcode.cn/problems/range-sum-query-immutable/solutions/627052/qu-yu-he-jian-suo-shu-zu-bu-ke-bian-by-l-px41/[303. 区域和检索 - 数组不可变 - 官方题解^]
+. https://leetcode.cn/problems/range-sum-query-immutable/solutions/2772310/chao-hao-li-jie-jia-chao-kuai-yong-shi-b-l2os/[303. 区域和检索 - 数组不可变 - 超好理解，加超快用时^]
+. https://leetcode.cn/problems/range-sum-query-immutable/solutions/627185/jian-dan-wen-ti-xi-zhi-fen-xi-qian-tan-q-t2nz/[303. 区域和检索 - 数组不可变 - 简单问题细致分析，『前缀和』优化了什么^]
+. https://leetcode.cn/problems/range-sum-query-immutable/solutions/2693473/javapython3cqian-zhui-he-qiu-ren-yi-qu-j-zwpz/[303. 区域和检索 - 数组不可变 - 【图解】^]
 

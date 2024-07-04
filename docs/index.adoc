@@ -8,6 +8,8 @@ D瓜哥 <https://www.diguage.com/>
 
 include::0000-00-overview.adoc[leveloffset=+1]
 
+include::0000-data-structure-list.adoc[leveloffset=+1]
+
 include::0000-data-structure-tree.adoc[leveloffset=+1]
 
 include::0000-00-recursion.adoc[leveloffset=+1]
