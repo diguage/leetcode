@@ -2608,13 +2608,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0369-plus-one-linked-list.adoc[题解]
 //|Medium
 //|
-//
-//|370
-//|{leetcode_base_url}/range-addition/[Range Addition]
-//|{source_base_url}/_0370_RangeAddition.java[Java]
-//|{doc_base_url}/0370-range-addition.adoc[题解]
-//|Medium
-//|
+
+|370
+|{leetcode_base_url}/range-addition/[Range Addition]
+|{source_base_url}/_0370_RangeAddition.java[Java]
+|{doc_base_url}/0370-range-addition.adoc[题解]
+|Medium
+|Plus专题
 
 |371
 |{leetcode_base_url}/sum-of-two-integers/[Sum of Two Integers]

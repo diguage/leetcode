@@ -224,5 +224,10 @@
 |{doc_base_url}/0304-range-sum-query-2d-immutable.adoc[题解]
 |复杂一点的前缀和，需要处理更多细节
 
+|370
+|{leetcode_base_url}/range-addition/[Range Addition]
+|{doc_base_url}/0370-range-addition.adoc[题解]
+|差分数组
+
 
 |===

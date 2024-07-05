@@ -6,6 +6,14 @@
 === 前缀和
 
 . xref:0303-range-sum-query-immutable.adoc[303. Range Sum Query - Immutable]
+. xref:0304-range-sum-query-2d-immutable.adoc[304. Range Sum Query 2D - Immutable]
+
+=== 差分数组
+
+. xref:0370-range-addition.adoc[370. Range Addition]
+. xref:1094-car-pooling.adoc[1094. Car Pooling]
+. xref:1109-corporate-flight-bookings.adoc[1109. Corporate Flight Bookings]
+
 
 == 参考资料
 
