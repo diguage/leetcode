@@ -6,13 +6,10 @@ https://leetcode.com/problems/next-greater-element-i/[LeetCode - Next Greater El
 
 You are given two arrays *(without duplicates)* `nums1` and `nums2` where `nums1`’s elements are subset of `nums2`. Find all the next greater numbers for `nums1`'s elements in the corresponding places of `nums2`. 
 
-
-
 The Next Greater Number of a number *x* in `nums1` is the first greater number to its right in `nums2`. If it does not exist, output -1 for this number.
 
 
 *Example 1:*
-
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -27,7 +24,6 @@ The Next Greater Number of a number *x* in `nums1` is the first greater number t
 
 *Example 2:*
 
-
 [subs="verbatim,quotes,macros"]
 ----
 *Input:* *nums1* = [2,4], *nums2* = [1,2,3,4].
@@ -38,13 +34,40 @@ The Next Greater Number of a number *x* in `nums1` is the first greater number t
 ----
 
 
-
 *Note:*
 
 . All elements in `nums1` and `nums2` are unique.
 . The length of both `nums1` and `nums2` would not exceed 1000.
 
+== 思路分析
 
+单调栈
+
+image::images/0496-01.png[{image_attr}]
+
+image::images/0496-02.png[{image_attr}]
+
+image::images/0496-03.png[{image_attr}]
+
+image::images/0496-04.png[{image_attr}]
+
+image::images/0496-05.png[{image_attr}]
+
+image::images/0496-06.png[{image_attr}]
+
+image::images/0496-07.png[{image_attr}]
+
+image::images/0496-08.png[{image_attr}]
+
+image::images/0496-09.png[{image_attr}]
+
+image::images/0496-10.png[{image_attr}]
+
+image::images/0496-11.png[{image_attr}]
+
+image::images/0496-12.png[{image_attr}]
+
+image::images/0496-13.png[{image_attr}]
 
 
 [[src-0496]]
@@ -52,4 +75,9 @@ The Next Greater Number of a number *x* in `nums1` is the first greater number t
 ----
 include::{sourcedir}/_0496_NextGreaterElementI.java[]
 ----
+
+== 参考资料
+
+. https://leetcode.cn/problems/next-greater-element-i/solutions/1065517/xia-yi-ge-geng-da-yuan-su-i-by-leetcode-bfcoj/[496. 下一个更大元素 I - 官方题解^]
+. https://leetcode.cn/problems/next-greater-element-i/solutions/2820648/shi-pin-dan-diao-zhan-de-liang-chong-xie-ri0i/[496. 下一个更大元素 I - 单调栈的两种写法，附单调栈题单^]
 

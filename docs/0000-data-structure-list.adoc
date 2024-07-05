@@ -14,6 +14,11 @@
 . xref:1094-car-pooling.adoc[1094. Car Pooling]
 . xref:1109-corporate-flight-bookings.adoc[1109. Corporate Flight Bookings]
 
+=== 单调栈
+
+详情见 xref:0000-23-monotonic-stack.adoc[Monotonic Stack 单调栈]
+
+
 
 == 参考资料
 

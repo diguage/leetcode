@@ -7,8 +7,9 @@
 . xref:0084-largest-rectangle-in-histogram.adoc[84. Largest Rectangle in Histogram]
 . xref:0503-next-greater-element-ii.adoc[503. Next Greater Element II]
 . xref:0042-trapping-rain-water.adoc[42. Trapping Rain Water]
+. xref:0496-next-greater-element-i.adoc[496. Next Greater Element I]
 
 == 参考资料
 
 . https://cloud.tencent.com/developer/article/1998273[单调栈详解及其LeetCode应用详解^]
-.
+. https://blog.csdn.net/weixin_50348837/article/details/136304458[深入理解单调栈算法，这一篇就够了^]

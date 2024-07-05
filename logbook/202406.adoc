@@ -295,6 +295,12 @@
 |{doc_base_url}/0710-random-pick-with-blacklist.adoc[题解]
 |把映射处理好
 
+|{counter:codes}
+|496
+|{leetcode_base_url}/next-greater-element-i/[Next Greater Element I]
+|{doc_base_url}/0496-next-greater-element-i.adoc[题解]
+|单调栈，理解不是很透彻，还需要加强练习
+
 
 |===
 

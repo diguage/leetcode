@@ -3985,15 +3985,15 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0495-teemo-attacking.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|496
-//|{leetcode_base_url}/next-greater-element-i/[Next Greater Element I]
-//|{source_base_url}/_0496_NextGreaterElementI.java[Java]
-//|{doc_base_url}/0496-next-greater-element-i.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|496
+|{leetcode_base_url}/next-greater-element-i/[Next Greater Element I]
+|{source_base_url}/_0496_NextGreaterElementI.java[Java]
+|{doc_base_url}/0496-next-greater-element-i.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|497
 //|{leetcode_base_url}/random-point-in-non-overlapping-rectangles/[Random Point in Non-overlapping Rectangles]
