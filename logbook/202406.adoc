@@ -301,6 +301,11 @@
 |{doc_base_url}/0496-next-greater-element-i.adoc[题解]
 |单调栈，理解不是很透彻，还需要加强练习
 
+|{counter:codes}
+|503
+|{leetcode_base_url}/next-greater-element-ii/[Next Greater Element II]
+|{doc_base_url}/0503-next-greater-element-ii.adoc[题解]
+|单调栈+循环数组
 
 |===
 

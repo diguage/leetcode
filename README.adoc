@@ -4041,15 +4041,15 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0502-ipo.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|503
-//|{leetcode_base_url}/next-greater-element-ii/[Next Greater Element II]
-//|{source_base_url}/_0503_NextGreaterElementII.java[Java]
-//|{doc_base_url}/0503-next-greater-element-ii.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|503
+|{leetcode_base_url}/next-greater-element-ii/[Next Greater Element II]
+|{source_base_url}/_0503_NextGreaterElementII.java[Java]
+|{doc_base_url}/0503-next-greater-element-ii.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|504
 //|{leetcode_base_url}/base-7/[Base 7]
