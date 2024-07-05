@@ -235,5 +235,10 @@
 |差分数组
 
 
+|1109
+|{leetcode_base_url}/corporate-flight-bookings/[Corporate Flight Bookings]
+|{doc_base_url}/1109-corporate-flight-bookings.adoc[题解]
+|差分数组
+
 
 |===

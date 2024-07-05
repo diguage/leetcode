@@ -18,3 +18,4 @@
 == 参考资料
 
 . https://leetcode.cn/problems/range-sum-query-immutable/solutions/627185/jian-dan-wen-ti-xi-zhi-fen-xi-qian-tan-q-t2nz/[303. 区域和检索 - 数组不可变 - 简单问题细致分析，『前缀和』优化了什么^]
+. https://leetcode.cn/problems/corporate-flight-bookings/solutions/968467/gong-shui-san-xie-yi-ti-shuang-jie-chai-fm1ef/[1109. 航班预订统计 - 【宫水三叶】一题双解 :「差分」&「线段树」（附区间求和目录）^]

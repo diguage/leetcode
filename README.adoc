@@ -7781,14 +7781,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1108-defanging-an-ip-address.adoc[题解]
 //|Easy
 //|
-//
-//|1109
-//|{leetcode_base_url}/corporate-flight-bookings/[Corporate Flight Bookings]
-//|{source_base_url}/_1109_CorporateFlightBookings.java[Java]
-//|{doc_base_url}/1109-corporate-flight-bookings.adoc[题解]
-//|Medium
-//|
-//
+
+|1109
+|{leetcode_base_url}/corporate-flight-bookings/[Corporate Flight Bookings]
+|{source_base_url}/_1109_CorporateFlightBookings.java[Java]
+|{doc_base_url}/1109-corporate-flight-bookings.adoc[题解]
+|Medium
+|
+
 //|1110
 //|{leetcode_base_url}/delete-nodes-and-return-forest/[Delete Nodes And Return Forest]
 //|{source_base_url}/_1110_DeleteNodesAndReturnForest.java[Java]

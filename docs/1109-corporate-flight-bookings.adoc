@@ -26,7 +26,9 @@ Return an array `answer` of length `n`, representing the number of seats booked 
 * `1 <= bookings[i][0] <= bookings[i][1] <= n <= 20000`
 * `1 <= bookings[i][2] <= 10000`
 
+== 思路分析
 
+差分数组，与 xref:1094-car-pooling.adoc[1094. Car Pooling] 解题思路一样。
 
 [[src-1109]]
 [{java_src_attr}]
@@ -34,3 +36,8 @@ Return an array `answer` of length `n`, representing the number of seats booked 
 include::{sourcedir}/_1109_CorporateFlightBookings.java[]
 ----
 
+
+== 参考资料
+
+. https://leetcode.cn/problems/corporate-flight-bookings/solutions/968214/hang-ban-yu-ding-tong-ji-by-leetcode-sol-5pv8/[1109. 航班预订统计 - 官方题解^]
+. https://leetcode.cn/problems/corporate-flight-bookings/solutions/968467/gong-shui-san-xie-yi-ti-shuang-jie-chai-fm1ef/[1109. 航班预订统计 - 【宫水三叶】一题双解 :「差分」&「线段树」（附区间求和目录）^]
