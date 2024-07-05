@@ -244,5 +244,10 @@
 |{doc_base_url}/0380-insert-delete-getrandom-o1.adoc[题解]
 |数据结构应用
 
+|710
+|{leetcode_base_url}/random-pick-with-blacklist/[Random Pick with Blacklist]
+|{doc_base_url}/0710-random-pick-with-blacklist.adoc[题解]
+|把映射处理好
+
 
 |===

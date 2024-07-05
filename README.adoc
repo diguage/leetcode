@@ -4988,14 +4988,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0709-to-lower-case.adoc[题解]
 //|Easy
 //|
-//
-//|710
-//|{leetcode_base_url}/random-pick-with-blacklist/[Random Pick with Blacklist]
-//|{source_base_url}/_0710_RandomPickWithBlacklist.java[Java]
-//|{doc_base_url}/0710-random-pick-with-blacklist.adoc[题解]
-//|Hard
-//|
-//
+
+|710
+|{leetcode_base_url}/random-pick-with-blacklist/[Random Pick with Blacklist]
+|{source_base_url}/_0710_RandomPickWithBlacklist.java[Java]
+|{doc_base_url}/0710-random-pick-with-blacklist.adoc[题解]
+|Hard
+|
+
 //|711
 //|{leetcode_base_url}/number-of-distinct-islands-ii/[Number of Distinct Islands II]
 //|{source_base_url}/_0711_NumberOfDistinctIslandsII.java[Java]
