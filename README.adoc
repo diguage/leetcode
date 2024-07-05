@@ -2147,13 +2147,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|304
-//|{leetcode_base_url}/range-sum-query-2d-immutable/[Range Sum Query 2D - Immutable]
-//|{source_base_url}/_0304_RangeSumQuery2DImmutable.java[Java]
-//|{doc_base_url}/0304-range-sum-query-2d-immutable.adoc[题解]
-//|Medium
-//|
-//
+|304
+|{leetcode_base_url}/range-sum-query-2d-immutable/[Range Sum Query 2D - Immutable]
+|{source_base_url}/_0304_RangeSumQuery2DImmutable.java[Java]
+|{doc_base_url}/0304-range-sum-query-2d-immutable.adoc[题解]
+|Medium
+|
+
 //|305
 //|{leetcode_base_url}/number-of-islands-ii/[Number of Islands II]
 //|{source_base_url}/_0305_NumberOfIslandsII.java[Java]
