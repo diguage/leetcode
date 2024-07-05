@@ -13,11 +13,20 @@ For example, given the list of temperatures `T = [73, 74, 75, 71, 69, 72, 76, 73
 The length of `temperatures` will be in the range `[1, 30000]`.
 Each temperature will be an integer in the range `[30, 100]`.
 
-
+== 思路分析
 
 [[src-0739]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0739_DailyTemperatures.java[]
 ----
+
+== 参考资料
+
+. https://leetcode.cn/problems/daily-temperatures/solutions/283196/mei-ri-wen-du-by-leetcode-solution/[739. 每日温度 - 官方题解^]
+. https://leetcode.cn/problems/daily-temperatures/solutions/71433/leetcode-tu-jie-739mei-ri-wen-du-by-misterbooo/[739. 每日温度 - LeetCode 图解^]
+. https://leetcode.cn/problems/daily-temperatures/solutions/2811416/dai-ni-xue-hui-dan-diao-zhan-ji-chu-zhi-eqpen/[739. 每日温度 - PPT 动画带你轻松学会单调栈基础知识^]
+. https://leetcode.cn/problems/daily-temperatures/solutions/2470179/shi-pin-jiang-qing-chu-wei-shi-yao-yao-y-k0ks/[739. 每日温度 - 讲清楚为什么要用单调栈！两种写法：从右到左/从左到右^]
+
+
 

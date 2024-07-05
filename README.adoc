@@ -5929,15 +5929,15 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0738-monotone-increasing-digits.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|739
-//|{leetcode_base_url}/daily-temperatures/[Daily Temperatures]
-//|{source_base_url}/_0739_DailyTemperatures.java[Java]
-//|{doc_base_url}/0739-daily-temperatures.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|739
+|{leetcode_base_url}/daily-temperatures/[Daily Temperatures]
+|{source_base_url}/_0739_DailyTemperatures.java[Java]
+|{doc_base_url}/0739-daily-temperatures.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|740
 //|{leetcode_base_url}/delete-and-earn/[Delete and Earn]

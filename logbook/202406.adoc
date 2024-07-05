@@ -307,6 +307,13 @@
 |{doc_base_url}/0503-next-greater-element-ii.adoc[题解]
 |单调栈+循环数组
 
+|{counter:codes}
+|739
+|{leetcode_base_url}/daily-temperatures/[Daily Temperatures]
+|{doc_base_url}/0739-daily-temperatures.adoc[题解]
+|单调栈，从左向右的写法还需要再加强一下。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
