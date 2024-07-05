@@ -229,5 +229,11 @@
 |{doc_base_url}/0370-range-addition.adoc[题解]
 |差分数组
 
+|1094
+|{leetcode_base_url}/car-pooling/[Car Pooling]
+|{doc_base_url}/1094-car-pooling.adoc[题解]
+|差分数组
+
+
 
 |===

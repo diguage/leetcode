@@ -9,7 +9,6 @@ Given a list of `trips`, `trip[i] = [num_passengers, start_location, end_locatio
 
 Return `true` if and only if it is possible to pick up and drop off all passengers for all the given trips. 
 
- 
 
 *Example 1:*
 
@@ -46,18 +45,6 @@ Return `true` if and only if it is possible to pick up and drop off all passenge
 *Output:* true
 ----
 
-
-
-
-
-
-
- 
-
-
-
-
- 
 *Constraints:*
 
 
@@ -68,11 +55,22 @@ Return `true` if and only if it is possible to pick up and drop off all passenge
 . `1 <= capacity <= 100000`
 
 
+== 思路分析
 
+与 xref:0370-range-addition.adoc[370. Range Addition] 思路一样，都是差分数组。
+
+image::images/1094-01.png[{image_attr}]
 
 [[src-1094]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1094_CarPooling.java[]
 ----
+
+== 参考资料
+
+.https://leetcode.cn/problems/car-pooling/solutions/2546591/pin-che-by-leetcode-solution-scp6/[1094. 拼车 - 官方题解^]
+. https://leetcode.cn/problems/car-pooling/solutions/2550264/suan-fa-xiao-ke-tang-chai-fen-shu-zu-fu-9d4ra/[1094. 拼车 - 差分数组（附题单）^]
+. https://leetcode.cn/problems/car-pooling/solutions/2550276/gong-shui-san-xie-tu-jie-chai-fen-ru-men-opii/[1094. 拼车 - 【宫水三叶】图解「差分」入门（"前缀和" 到 "差分" 丝滑过渡）^]
+. https://leetcode.cn/problems/car-pooling/solutions/2550518/javapython3cmo-ni-shu-zu-tong-ji-shang-x-lb0z/[1094. 拼车 - 模拟 + 数组：统计上下客乘客数变化【图解】^]
 

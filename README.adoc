@@ -7676,14 +7676,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1093-statistics-from-a-large-sample.adoc[题解]
 //|Medium
 //|
-//
-//|1094
-//|{leetcode_base_url}/car-pooling/[Car Pooling]
-//|{source_base_url}/_1094_CarPooling.java[Java]
-//|{doc_base_url}/1094-car-pooling.adoc[题解]
-//|Medium
-//|
-//
+
+|1094
+|{leetcode_base_url}/car-pooling/[Car Pooling]
+|{source_base_url}/_1094_CarPooling.java[Java]
+|{doc_base_url}/1094-car-pooling.adoc[题解]
+|Medium
+|
+
 //|1095
 //|{leetcode_base_url}/find-in-mountain-array/[Find in Mountain Array]
 //|{source_base_url}/_1095_FindInMountainArray.java[Java]
