@@ -234,11 +234,15 @@
 |{doc_base_url}/1094-car-pooling.adoc[题解]
 |差分数组
 
-
 |1109
 |{leetcode_base_url}/corporate-flight-bookings/[Corporate Flight Bookings]
 |{doc_base_url}/1109-corporate-flight-bookings.adoc[题解]
 |差分数组
+
+|380
+|{leetcode_base_url}/insert-delete-getrandom-o1/[Insert Delete GetRandom O(1)]
+|{doc_base_url}/0380-insert-delete-getrandom-o1.adoc[题解]
+|数据结构应用
 
 
 |===

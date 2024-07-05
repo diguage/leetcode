@@ -41,11 +41,21 @@ randomSet.insert(2);
 randomSet.getRandom();
 ----
 
-
+== 思路分析
 
 [[src-0380]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0380_InsertDeleteGetRandomO1.java[]
 ----
+
+[{java_src_attr}]
+----
+include::{sourcedir}/_0380_InsertDeleteGetRandomO1_2.java[]
+----
+
+== 参考资料
+
+. https://leetcode.cn/problems/insert-delete-getrandom-o1/solutions/1411578/o1-shi-jian-cha-ru-shan-chu-he-huo-qu-su-rlz2/[380. O(1) 时间插入、删除和获取随机元素 - 官方题解^]
+. https://leetcode.cn/problems/insert-delete-getrandom-o1/solutions/1416888/by-ac_oier-tpex/[380. O(1) 时间插入、删除和获取随机元素 - 【宫水三叶】数据结构运用题^]
 
