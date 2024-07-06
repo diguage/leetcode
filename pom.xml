@@ -27,6 +27,8 @@
     <asciidoctorj-pdf.version>2.3.17</asciidoctorj-pdf.version>
     <asciidoctorj-epub3.version>2.1.3</asciidoctorj-epub3.version>
     <asciidoctorj-diagram.version>2.3.0</asciidoctorj-diagram.version>
+    <asciidoctor-diagram.version>2.3.1</asciidoctor-diagram.version>
+    <asciidoctor-diagram-plantuml.version>1.2024.5</asciidoctor-diagram-plantuml.version>
     <asciidoctor-multipage.version>0.0.19</asciidoctor-multipage.version>
     <rouge.version>4.3.0</rouge.version>
     <asciidoctor-comment-links.version>0.0.2</asciidoctor-comment-links.version>
@@ -43,12 +45,34 @@
   </properties>
 
   <dependencies>
-    <!--<dependency>-->
-    <!--  <groupId>rubygems</groupId>-->
-    <!--  <artifactId>rouge</artifactId>-->
-    <!--  <version>${rouge.version}</version>-->
-    <!--  <type>gem</type>-->
-    <!--</dependency>-->
+    <dependency>
+      <groupId>rubygems</groupId>
+      <artifactId>rouge</artifactId>
+      <version>${rouge.version}</version>
+      <type>gem</type>
+    </dependency>
+    <dependency>
+      <groupId>rubygems</groupId>
+      <artifactId>asciidoctor-diagram-plantuml</artifactId>
+      <version>${asciidoctor-diagram-plantuml.version}</version>
+      <type>gem</type>
+    </dependency>
+    <dependency>
+      <groupId>rubygems</groupId>
+      <artifactId>asciidoctor-diagram</artifactId>
+      <version>${asciidoctor-diagram.version}</version>
+      <type>gem</type>
+      <exclusions>
+        <exclusion>
+          <groupId>rubygems</groupId>
+          <artifactId>asciidoctor</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>rubygems</groupId>
+          <artifactId>asciidoctor-diagram-plantuml</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
     <dependency>
       <groupId>rubygems</groupId>
       <artifactId>asciidoctor-multipage</artifactId>
@@ -117,23 +141,28 @@
             <version>${asciidoclet.version}</version>
           </docletArtifact>
           <additionalJOptions>
-             <additionalJOption>-J--add-exports=jdk.javadoc/jdk.javadoc.internal.tool=ALL-UNNAMED</additionalJOption>
-             <additionalJOption>-J--add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED</additionalJOption>
-             <additionalJOption>-J--add-opens=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED</additionalJOption>
-             <additionalJOption>-J--add-opens=jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED</additionalJOption>
+            <additionalJOption>-J--add-exports=jdk.javadoc/jdk.javadoc.internal.tool=ALL-UNNAMED</additionalJOption>
+            <additionalJOption>-J--add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED</additionalJOption>
+            <additionalJOption>-J--add-opens=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED</additionalJOption>
+            <additionalJOption>-J--add-opens=jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED</additionalJOption>
             <additionalJOption>-Xdoclint:all,-html,-accessibility</additionalJOption>
           </additionalJOptions>
           <!--<overview>src/main/java/overview.adoc</overview>-->
           <additionalOptions>
-            --base-dir ${project.basedir}
-            <!--TODO: How to use asciidoctor-diagram?-->
-            --gem-path ${gem.path}
-            --require asciidoctor-diagram
-            --attribute "stem=latexmath"
-            --attribute "icons=font"
-            --attribute "name=${project.name}"
-            --attribute "version=${project.version}"
-            --attribute "title-link=https://www.diguage.com/[${project.name} ${project.version}|地瓜哥]"
+            <additionalOption>--base-dir ${project.basedir}</additionalOption>
+            <!--Throw error!  TODO: How to use asciidoctor-diagram?-->
+            <additionalOption>--gem-path ${gem.path}</additionalOption>
+            <additionalOption>--require asciidoctor-diagram</additionalOption>
+            <!-- TODO 没有生效！ -->
+            <additionalOption>--require asciidoctor-comment-links</additionalOption>
+            <!-- 经测试，这些参数值确实可以传递到 JavaDoc 中 -->
+            <additionalOption>--attribute "stem=latexmath"</additionalOption>
+            <additionalOption>--attribute "icons=font"</additionalOption>
+            <additionalOption>--attribute "name=${project.name}"</additionalOption>
+            <additionalOption>--attribute "version=${project.version}"</additionalOption>
+            <additionalOption>
+              --attribute "title-link=https://www.diguage.com/[${project.name}/${project.version} | 地瓜哥]"
+            </additionalOption>
           </additionalOptions>
           <additionalDependencies>
             <additionalDependency>
