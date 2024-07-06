@@ -262,6 +262,10 @@
 |{doc_base_url}/0739-daily-temperatures.adoc[题解]
 |单调栈，从左向右的写法还需要再加强一下。
 
+|{counter:codes}
+|{leetcode_base_url}/sliding-window-maximum/[239. Sliding Window Maximum]
+|{doc_base_url}/0239-sliding-window-maximum.adoc[题解]
+|单调栈的妙用！值得学习。
 
 |===
 

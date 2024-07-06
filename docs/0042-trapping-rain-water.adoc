@@ -1,7 +1,7 @@
 [#0042-trapping-rain-water]
 = 42. Trapping Rain Water
 
-https://leetcode.com/problems/trapping-rain-water/[LeetCode - Trapping Rain Water]
+https://leetcode.com/problems/trapping-rain-water/[LeetCode - Trapping Rain Water^]
 
 Given _n_ non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
 
@@ -35,4 +35,4 @@ include::{sourcedir}/_0042_TrappingRainWater.java[]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/trapping-rain-water/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-8/[详细通俗的思路分析，多解法 - 接雨水 - 力扣（LeetCode）]
+. https://leetcode.cn/problems/trapping-rain-water/solutions/9112/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-8/[42. 接雨水 - 详细通俗的思路分析，多解法^]
