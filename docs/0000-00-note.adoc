@@ -12,7 +12,7 @@
 . 树的 Morris 遍历
 .. TODO: 基于 Morris 遍历的中序排列已经掌握，前序，尤其是后续还需要加强。
 
-image::images/quicksort.gif[{image_attr}]
+image::images/quick-sort-01.gif[{image_attr}]
 
 == 未知
 

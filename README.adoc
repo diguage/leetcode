@@ -6402,14 +6402,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0911-online-election.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/sort-an-array/[912. Sort an Array]
-//|{source_base_url}/_0912_SortAnArray.java[Java]
-//|{doc_base_url}/0912-sort-an-array.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/sort-an-array/[912. Sort an Array]
+|{source_base_url}/_0912_SortAnArray.java[Java]
+|{doc_base_url}/0912-sort-an-array.adoc[题解]
+|Medium
+|归并，快排
+
 //|{counter:codes}
 //|{leetcode_base_url}/cat-and-mouse/[913. Cat and Mouse]
 //|{source_base_url}/_0913_CatAndMouse.java[Java]

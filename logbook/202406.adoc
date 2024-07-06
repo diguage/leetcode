@@ -272,6 +272,11 @@
 |{doc_base_url}/0114-flatten-binary-tree-to-linked-list.adoc[题解]
 |遍历+递归，两套解决方案
 
+|{counter:codes}
+|{leetcode_base_url}/sort-an-array/[912. Sort an Array]
+|{doc_base_url}/0912-sort-an-array.adoc[题解]
+|归并，快排都可以
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

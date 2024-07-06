@@ -28,12 +28,31 @@ Given an array of integers `nums`, sort the array in ascending order.
 * `1 <= nums.length <= 50000`
 * `-50000 <= nums[i] <= 50000`
 
+== 思路分析
 
+归并排序
 
+image::images/merge-sort-02.gif[{image_attr}]
+
+image::images/merge-sort-01.gif[{image_attr}]
+
+image::images/meger-sort-03.png[{image_attr}]
+
+image::images/quick-sort-01.gif[{image_attr}]
+
+image::images/quick-sort-02.gif[{image_attr}]
+
+image::images/quick-sort-03.png[{image_attr}]
 
 [[src-0912]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0912_SortAnArray.java[]
+include::{sourcedir}/_0912_SortAnArray.java[tag=answer]
 ----
+
+== 参考资料
+
+. https://leetcode.cn/problems/sort-an-array/solutions/178305/pai-xu-shu-zu-by-leetcode-solution/[912. 排序数组 - 官方题解^]
+. https://leetcode.cn/problems/sort-an-array/solutions/179489/fu-xi-ji-chu-pai-xu-suan-fa-java-by-liweiwei1419/[912. 排序数组 - 复习基础排序算法^]
+. https://leetcode.cn/problems/sort-an-array/solutions/1311934/duo-chong-pai-xu-yi-wang-da-jin-kuai-pai-wgz4/[912. 排序数组 - 『 3种排序一网打尽 』 快速排序、归并排序、堆排序详解^]
 
