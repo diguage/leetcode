@@ -267,6 +267,11 @@
 |{doc_base_url}/0239-sliding-window-maximum.adoc[题解]
 |单调栈的妙用！值得学习。
 
+|{counter:codes}
+|{leetcode_base_url}/flatten-binary-tree-to-linked-list/[114. Flatten Binary Tree to Linked List]
+|{doc_base_url}/0114-flatten-binary-tree-to-linked-list.adoc[题解]
+|遍历+递归，两套解决方案
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
