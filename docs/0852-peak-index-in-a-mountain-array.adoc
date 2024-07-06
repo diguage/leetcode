@@ -43,6 +43,6 @@ Given an array that is definitely a mountain, return any `i` such that `A[0] < A
 [[src-0852]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0852_PeakIndexInAMountainArray.java[]
+include::{sourcedir}/_0852_PeakIndexInAMountainArray.java[tag=answer]
 ----
 

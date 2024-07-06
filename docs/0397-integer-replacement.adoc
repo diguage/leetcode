@@ -54,6 +54,6 @@ or
 [[src-0397]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0397_IntegerReplacement.java[]
+include::{sourcedir}/_0397_IntegerReplacement.java[tag=answer]
 ----
 

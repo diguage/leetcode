@@ -66,6 +66,6 @@ After typing mou, mous and mouse the system suggests ["mouse","mousepad"]
 [[src-1268]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1268_SearchSuggestionsSystem.java[]
+include::{sourcedir}/_1268_SearchSuggestionsSystem.java[tag=answer]
 ----
 

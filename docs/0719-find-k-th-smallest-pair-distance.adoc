@@ -35,6 +35,6 @@ Then the 1st smallest distance pair is (1,1), and its distance is 0.
 [[src-0719]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0719_FindKThSmallestPairDistance.java[]
+include::{sourcedir}/_0719_FindKThSmallestPairDistance.java[tag=answer]
 ----
 

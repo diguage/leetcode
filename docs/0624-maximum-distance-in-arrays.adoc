@@ -8,6 +8,6 @@ https://leetcode.com/problems/maximum-distance-in-arrays/[LeetCode - Maximum Dis
 [[src-0624]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0624_MaximumDistanceInArrays.java[]
+include::{sourcedir}/_0624_MaximumDistanceInArrays.java[tag=answer]
 ----
 

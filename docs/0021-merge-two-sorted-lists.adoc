@@ -21,12 +21,12 @@ image::images/0021-00.jpg[{image_attr}]
 [[src-0021]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0021_MergeTwoSortedLists.java[]
+include::{sourcedir}/_0021_MergeTwoSortedLists.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0021_MergeTwoSortedLists_2.java[]
+include::{sourcedir}/_0021_MergeTwoSortedLists_2.java[tag=answer]
 ----
 
 === 递归

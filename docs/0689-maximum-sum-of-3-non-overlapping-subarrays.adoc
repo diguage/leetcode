@@ -36,6 +36,6 @@ We could have also taken [2, 1], but an answer of [1, 3, 5] would be lexicograph
 [[src-0689]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0689_MaximumSumOf3NonOverlappingSubarrays.java[]
+include::{sourcedir}/_0689_MaximumSumOf3NonOverlappingSubarrays.java[tag=answer]
 ----
 

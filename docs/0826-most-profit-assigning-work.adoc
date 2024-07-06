@@ -35,6 +35,6 @@ What is the most profit we can make?
 [[src-0826]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0826_MostProfitAssigningWork.java[]
+include::{sourcedir}/_0826_MostProfitAssigningWork.java[tag=answer]
 ----
 

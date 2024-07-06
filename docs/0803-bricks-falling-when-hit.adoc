@@ -47,6 +47,6 @@ When we erase the brick at (1, 0), the brick at (1, 1) has already disappeared d
 [[src-0803]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0803_BricksFallingWhenHit.java[]
+include::{sourcedir}/_0803_BricksFallingWhenHit.java[tag=answer]
 ----
 

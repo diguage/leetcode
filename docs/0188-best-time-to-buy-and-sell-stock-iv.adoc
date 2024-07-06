@@ -119,6 +119,6 @@ You may not engage in multiple transactions at the same time (ie, you must sell 
 [[src-0188]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0188_BestTimeToBuyAndSellStockIV.java[]
+include::{sourcedir}/_0188_BestTimeToBuyAndSellStockIV.java[tag=answer]
 ----
 

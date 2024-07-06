@@ -8,6 +8,6 @@ https://leetcode.com/problems/find-smallest-common-element-in-all-rows/[LeetCode
 [[src-1198]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1198_FindSmallestCommonElementInAllRows.java[]
+include::{sourcedir}/_1198_FindSmallestCommonElementInAllRows.java[tag=answer]
 ----
 

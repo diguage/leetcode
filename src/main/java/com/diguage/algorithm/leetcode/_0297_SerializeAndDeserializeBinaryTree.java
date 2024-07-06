@@ -14,6 +14,7 @@ import java.util.Queue;
  * @since 2020-06-16 22:01
  */
 public class _0297_SerializeAndDeserializeBinaryTree {
+  // tag::answer[]
 
   // Encodes a tree to a single string.
   public String serialize(TreeNode root) {
@@ -72,4 +73,5 @@ public class _0297_SerializeAndDeserializeBinaryTree {
     }
     return new TreeNode(Integer.parseInt(val));
   }
+  // end::answer[]
 }

@@ -41,6 +41,6 @@ So we only need `1` patch.
 [[src-0330]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0330_PatchingArray.java[]
+include::{sourcedir}/_0330_PatchingArray.java[tag=answer]
 ----
 

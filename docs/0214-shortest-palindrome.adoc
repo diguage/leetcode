@@ -25,6 +25,6 @@ Given a string _*s*_, you are allowed to convert it to a palindrome by adding ch
 [[src-0214]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0214_ShortestPalindrome.java[]
+include::{sourcedir}/_0214_ShortestPalindrome.java[tag=answer]
 ----
 

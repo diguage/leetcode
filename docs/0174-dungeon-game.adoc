@@ -61,6 +61,6 @@ For example, given the dungeon below, the initial health of the knight must be a
 [[src-0174]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0174_DungeonGame.java[]
+include::{sourcedir}/_0174_DungeonGame.java[tag=answer]
 ----
 

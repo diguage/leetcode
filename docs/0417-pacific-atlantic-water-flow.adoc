@@ -44,6 +44,6 @@ Return:
 [[src-0417]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0417_PacificAtlanticWaterFlow.java[]
+include::{sourcedir}/_0417_PacificAtlanticWaterFlow.java[tag=answer]
 ----
 

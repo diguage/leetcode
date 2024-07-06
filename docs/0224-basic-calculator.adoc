@@ -42,6 +42,6 @@ The expression string may contain open `(` and closing parentheses `)`, the plus
 [[src-0224]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0224_BasicCalculator.java[]
+include::{sourcedir}/_0224_BasicCalculator.java[tag=answer]
 ----
 

@@ -29,6 +29,6 @@ canConstruct("aa", "aab") -> true
 [[src-0383]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0383_RansomNote.java[]
+include::{sourcedir}/_0383_RansomNote.java[tag=answer]
 ----
 

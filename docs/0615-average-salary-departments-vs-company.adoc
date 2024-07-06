@@ -8,6 +8,6 @@ https://leetcode.com/problems/average-salary-departments-vs-company/[LeetCode - 
 [[src-0615]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0615_AverageSalaryDepartmentsVSCompany.java[]
+include::{sourcedir}/_0615_AverageSalaryDepartmentsVSCompany.java[tag=answer]
 ----
 

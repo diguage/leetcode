@@ -75,6 +75,6 @@ The substrings with different start indexes or end indexes are counted as differ
 [[src-0647]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0647_PalindromicSubstrings.java[]
+include::{sourcedir}/_0647_PalindromicSubstrings.java[tag=answer]
 ----
 

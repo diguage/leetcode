@@ -48,6 +48,6 @@ The descriptions of the inputs above are just serializations of these objects.
 [[src-0863]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0863_AllNodesDistanceKInBinaryTree.java[]
+include::{sourcedir}/_0863_AllNodesDistanceKInBinaryTree.java[tag=answer]
 ----
 

@@ -34,6 +34,7 @@ import java.util.Random;
  * @since 2020-01-26 18:00
  */
 public class _0215_KthLargestElementInAnArray {
+  // tag::answer[]
     private int[] nums;
 
     private void swap(int a, int b) {
@@ -111,6 +112,9 @@ public class _0215_KthLargestElementInAnArray {
         Arrays.sort(nums);
         return nums[nums.length - k];
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0215_KthLargestElementInAnArray solution = new _0215_KthLargestElementInAnArray();

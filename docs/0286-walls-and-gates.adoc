@@ -8,6 +8,6 @@ https://leetcode.com/problems/walls-and-gates/[LeetCode - Walls and Gates]
 [[src-0286]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0286_WallsAndGates.java[]
+include::{sourcedir}/_0286_WallsAndGates.java[tag=answer]
 ----
 

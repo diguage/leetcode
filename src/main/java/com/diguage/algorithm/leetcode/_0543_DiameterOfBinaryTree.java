@@ -16,6 +16,7 @@ import static java.util.Arrays.asList;
  * @since 2020-01-29 23:31
  */
 public class _0543_DiameterOfBinaryTree {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Diameter of Binary Tree.
@@ -37,6 +38,9 @@ public class _0543_DiameterOfBinaryTree {
         result = Math.max(result, left + right + 1);
         return Math.max(left, right) + 1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0543_DiameterOfBinaryTree solution = new _0543_DiameterOfBinaryTree();

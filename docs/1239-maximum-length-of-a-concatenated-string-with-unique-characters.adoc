@@ -49,6 +49,6 @@ Maximum length is 4.
 [[src-1239]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1239_MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java[]
+include::{sourcedir}/_1239_MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java[tag=answer]
 ----
 

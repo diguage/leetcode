@@ -37,6 +37,6 @@ There are two ways to reach the bottom-right corner:
 [[src-0063]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0063_UniquePathsII.java[]
+include::{sourcedir}/_0063_UniquePathsII.java[tag=answer]
 ----
 

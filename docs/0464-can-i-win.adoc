@@ -37,6 +37,6 @@ Same with other integers chosen by the first player, the second player will alwa
 [[src-0464]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0464_CanIWin.java[]
+include::{sourcedir}/_0464_CanIWin.java[tag=answer]
 ----
 

@@ -43,6 +43,6 @@ If there are multiple answers, print any of them.
 [[src-0667]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0667_BeautifulArrangementII.java[]
+include::{sourcedir}/_0667_BeautifulArrangementII.java[tag=answer]
 ----
 

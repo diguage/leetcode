@@ -67,7 +67,7 @@ Given a binary search tree and the lowest and highest boundaries as `L` and `R`,
 [[src-0669]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0669_TrimABinarySearchTree.java[]
+include::{sourcedir}/_0669_TrimABinarySearchTree.java[tag=answer]
 ----
 
 === 迭代

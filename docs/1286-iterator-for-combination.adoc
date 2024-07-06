@@ -41,6 +41,6 @@ iterator.hasNext(); // returns false
 [[src-1286]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1286_IteratorForCombination.java[]
+include::{sourcedir}/_1286_IteratorForCombination.java[tag=answer]
 ----
 

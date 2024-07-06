@@ -49,6 +49,6 @@ the gap between the 5th and 6th stone is too large.
 [[src-0403]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0403_FrogJump.java[]
+include::{sourcedir}/_0403_FrogJump.java[tag=answer]
 ----
 

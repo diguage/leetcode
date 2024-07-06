@@ -47,6 +47,6 @@ We may assume that no string in `A` is substring of another string in `A`.
 [[src-0943]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0943_FindTheShortestSuperstring.java[]
+include::{sourcedir}/_0943_FindTheShortestSuperstring.java[tag=answer]
 ----
 

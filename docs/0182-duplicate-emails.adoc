@@ -34,6 +34,6 @@ For example, your query should return the following for the above table:
 [[src-0182]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0182_DuplicateEmails.java[]
+include::{sourcedir}/_0182_DuplicateEmails.java[tag=answer]
 ----
 

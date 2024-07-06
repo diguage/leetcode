@@ -8,6 +8,6 @@ https://leetcode.com/problems/web-crawler/[LeetCode - Web Crawler]
 [[src-1236]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1236_WebCrawler.java[]
+include::{sourcedir}/_1236_WebCrawler.java[tag=answer]
 ----
 

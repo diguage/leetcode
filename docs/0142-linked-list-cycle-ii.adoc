@@ -90,12 +90,12 @@ image::images/0142-15.png[{image_attr}]
 [[src-0142]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0142_LinkedListCycleII.java[]
+include::{sourcedir}/_0142_LinkedListCycleII.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0142_LinkedListCycleII_2.java[]
+include::{sourcedir}/_0142_LinkedListCycleII_2.java[tag=answer]
 ----
 
 

@@ -28,7 +28,7 @@ Although the above answer is in lexicographical order, your answer could be in a
 [[src-0017]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0017_LetterCombinationsOfAPhoneNumber.java[]
+include::{sourcedir}/_0017_LetterCombinationsOfAPhoneNumber.java[tag=answer]
 ----
 
 == 参考资料

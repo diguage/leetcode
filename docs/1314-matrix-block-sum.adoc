@@ -35,6 +35,6 @@ Given a `m * n` matrix `mat` and an integer `K`, return a matrix `answer` where 
 [[src-1314]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1314_MatrixBlockSum.java[]
+include::{sourcedir}/_1314_MatrixBlockSum.java[tag=answer]
 ----
 

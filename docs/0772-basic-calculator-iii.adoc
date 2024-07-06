@@ -8,6 +8,6 @@ https://leetcode.com/problems/basic-calculator-iii/[LeetCode - Basic Calculator 
 [[src-0772]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0772_BasicCalculatorIII.java[]
+include::{sourcedir}/_0772_BasicCalculatorIII.java[tag=answer]
 ----
 

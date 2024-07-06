@@ -71,6 +71,6 @@ Total distance = 6
 [[src-1320]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1320_MinimumDistanceToTypeAWordUsingTwoFingers.java[]
+include::{sourcedir}/_1320_MinimumDistanceToTypeAWordUsingTwoFingers.java[tag=answer]
 ----
 

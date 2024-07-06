@@ -52,6 +52,6 @@ In total, this is 29523 integers that can be written using the digits of D.
 [[src-0902]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0902_NumbersAtMostNGivenDigitSet.java[]
+include::{sourcedir}/_0902_NumbersAtMostNGivenDigitSet.java[tag=answer]
 ----
 

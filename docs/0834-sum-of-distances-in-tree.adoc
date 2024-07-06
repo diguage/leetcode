@@ -33,6 +33,6 @@ Note:<font face="monospace"> `1 <= N <= 10000`
 [[src-0834]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0834_SumOfDistancesInTree.java[]
+include::{sourcedir}/_0834_SumOfDistancesInTree.java[tag=answer]
 ----
 

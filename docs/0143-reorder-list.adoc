@@ -30,6 +30,6 @@ Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
 [[src-0143]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0143_ReorderList.java[]
+include::{sourcedir}/_0143_ReorderList.java[tag=answer]
 ----
 

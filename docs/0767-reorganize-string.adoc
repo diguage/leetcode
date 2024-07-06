@@ -36,6 +36,6 @@ If possible, output any possible result.  If not possible, return the empty stri
 [[src-0767]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0767_ReorganizeString.java[]
+include::{sourcedir}/_0767_ReorganizeString.java[tag=answer]
 ----
 

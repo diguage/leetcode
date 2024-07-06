@@ -26,6 +26,6 @@ Return the number of pairs `(i, j)` for which `0 <= i < j < dominoes.length`, an
 [[src-1128]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1128_NumberOfEquivalentDominoPairs.java[]
+include::{sourcedir}/_1128_NumberOfEquivalentDominoPairs.java[tag=answer]
 ----
 

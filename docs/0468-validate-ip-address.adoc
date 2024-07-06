@@ -77,6 +77,6 @@ You may assume there is no extra space or special characters in the input string
 [[src-0468]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0468_ValidateIPAddress.java[]
+include::{sourcedir}/_0468_ValidateIPAddress.java[tag=answer]
 ----
 

@@ -43,6 +43,6 @@ The number of boxes `n` would not exceed 100.
 [[src-0546]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0546_RemoveBoxes.java[]
+include::{sourcedir}/_0546_RemoveBoxes.java[tag=answer]
 ----
 

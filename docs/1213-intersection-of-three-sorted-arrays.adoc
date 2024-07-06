@@ -8,6 +8,6 @@ https://leetcode.com/problems/intersection-of-three-sorted-arrays/[LeetCode - In
 [[src-1213]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1213_IntersectionOfThreeSortedArrays.java[]
+include::{sourcedir}/_1213_IntersectionOfThreeSortedArrays.java[tag=answer]
 ----
 

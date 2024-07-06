@@ -50,6 +50,6 @@ Note that other answers, such as [3, 3], would also be accepted.
 [[src-0969]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0969_PancakeSorting.java[]
+include::{sourcedir}/_0969_PancakeSorting.java[tag=answer]
 ----
 

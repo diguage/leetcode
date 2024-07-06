@@ -57,6 +57,6 @@ such that _arr[i]_ < _arr[j]_ < _arr[k]_ given 0 ≤ _i_ < _j_ < _k_ ≤ _n_-1 e
 [[src-0334]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0334_IncreasingTripletSubsequence.java[]
+include::{sourcedir}/_0334_IncreasingTripletSubsequence.java[tag=answer]
 ----
 

@@ -24,6 +24,6 @@ Return all possible palindrome partitioning of _s_.
 [[src-0131]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0131_PalindromePartitioning.java[]
+include::{sourcedir}/_0131_PalindromePartitioning.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/kill-process/[LeetCode - Kill Process]
 [[src-0582]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0582_KillProcess.java[]
+include::{sourcedir}/_0582_KillProcess.java[tag=answer]
 ----
 

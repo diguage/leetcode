@@ -37,6 +37,6 @@ One series of moves that transforms the starting point to the target is:
 [[src-0780]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0780_ReachingPoints.java[]
+include::{sourcedir}/_0780_ReachingPoints.java[tag=answer]
 ----
 

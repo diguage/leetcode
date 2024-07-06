@@ -74,6 +74,6 @@ D.pop()            // Returns -1.  There are still no stacks.
 [[src-1172]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1172_DinnerPlateStacks.java[]
+include::{sourcedir}/_1172_DinnerPlateStacks.java[tag=answer]
 ----
 

@@ -38,6 +38,6 @@ Other cases:
 [[src-0553]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0553_OptimalDivision.java[]
+include::{sourcedir}/_0553_OptimalDivision.java[tag=answer]
 ----
 

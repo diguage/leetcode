@@ -48,6 +48,6 @@ So we will choose the smallest K, which is 0.
 [[src-0798]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0798_SmallestRotationWithHighestScore.java[]
+include::{sourcedir}/_0798_SmallestRotationWithHighestScore.java[tag=answer]
 ----
 

@@ -11,6 +11,7 @@ import java.util.*;
  * @since 2020-02-03 22:42
  */
 public class _0060_PermutationSequence {
+  // tag::answer[]
 
     /**
      * Runtime: 1 ms, faster than 99.26% of Java online submissions for Permutation Sequence.
@@ -90,6 +91,9 @@ public class _0060_PermutationSequence {
             Collections.swap(nums, i, index);
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0060_PermutationSequence solution = new _0060_PermutationSequence();

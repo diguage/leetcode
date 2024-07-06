@@ -49,6 +49,7 @@ import java.util.*;
  * @since 2020-01-22 08:27
  */
 public class _0230_KthSmallestElementInABst {
+  // tag::answer[]
 
     /**
      * Runtime: 1 ms, faster than 57.26% of Java online submissions for Kth Smallest Element in a BST.
@@ -93,6 +94,9 @@ public class _0230_KthSmallestElementInABst {
             inorder(root.right, list);
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0230_KthSmallestElementInABst solution = new _0230_KthSmallestElementInABst();

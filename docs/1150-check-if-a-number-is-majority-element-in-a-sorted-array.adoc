@@ -8,6 +8,6 @@ https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-
 [[src-1150]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1150_CheckIfANumberIsMajorityElementInASortedArray.java[]
+include::{sourcedir}/_1150_CheckIfANumberIsMajorityElementInASortedArray.java[tag=answer]
 ----
 

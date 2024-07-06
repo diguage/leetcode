@@ -8,6 +8,6 @@ https://leetcode.com/problems/triangle-judgement/[LeetCode - Triangle Judgement]
 [[src-0610]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0610_TriangleJudgement.java[]
+include::{sourcedir}/_0610_TriangleJudgement.java[tag=answer]
 ----
 

@@ -29,6 +29,7 @@ import java.util.Arrays;
  * @since 2020-01-25 22:29
  */
 public class _0179_LargestNumber {
+  // tag::answer[]
     /**
      * Runtime: 21 ms, faster than 6.20% of Java online submissions for Largest Number.
      *
@@ -52,6 +53,9 @@ public class _0179_LargestNumber {
 
         return String.join("", strings);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0179_LargestNumber solution = new _0179_LargestNumber();

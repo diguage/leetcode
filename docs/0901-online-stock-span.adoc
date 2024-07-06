@@ -49,6 +49,6 @@ Note that (for example) S.next(75) returned 4, because the last 4 prices
 [[src-0901]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0901_OnlineStockSpan.java[]
+include::{sourcedir}/_0901_OnlineStockSpan.java[tag=answer]
 ----
 

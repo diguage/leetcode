@@ -31,6 +31,6 @@ left = 1, right = 22
 [[src-0728]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0728_SelfDividingNumbers.java[]
+include::{sourcedir}/_0728_SelfDividingNumbers.java[tag=answer]
 ----
 

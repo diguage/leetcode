@@ -13,6 +13,7 @@ import java.util.Map;
  * @since 2020-02-04 23:35
  */
 public class _0167_TwoSumIIInputArrayIsSorted {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Two Sum II - Input array is sorted.
      * Memory Usage: 42.2 MB, less than 5.22% of Java online submissions for Two Sum II - Input array is sorted.
@@ -63,6 +64,9 @@ public class _0167_TwoSumIIInputArrayIsSorted {
             this.index = index;
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0167_TwoSumIIInputArrayIsSorted solution = new _0167_TwoSumIIInputArrayIsSorted();

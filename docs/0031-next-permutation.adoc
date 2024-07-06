@@ -23,6 +23,6 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 [[src-0031]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0031_NextPermutation.java[]
+include::{sourcedir}/_0031_NextPermutation.java[tag=answer]
 ----
 

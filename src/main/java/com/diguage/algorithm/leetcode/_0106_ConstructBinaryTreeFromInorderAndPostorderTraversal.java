@@ -13,6 +13,7 @@ import static com.diguage.util.Jsons.toJson;
  * @since 2020-02-06 21:56
  */
 public class _0106_ConstructBinaryTreeFromInorderAndPostorderTraversal {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Construct Binary Tree from Inorder and Postorder Traversal.
@@ -38,6 +39,9 @@ public class _0106_ConstructBinaryTreeFromInorderAndPostorderTraversal {
         result.right = buildTree(inorder, postorder, index + 1, inend, postend - 1);
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0106_ConstructBinaryTreeFromInorderAndPostorderTraversal

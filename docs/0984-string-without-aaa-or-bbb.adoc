@@ -47,6 +47,6 @@ Given two integers `A` and `B`, return *any* string `S` such that:
 [[src-0984]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0984_StringWithoutAAAOrBBB.java[]
+include::{sourcedir}/_0984_StringWithoutAAAOrBBB.java[tag=answer]
 ----
 

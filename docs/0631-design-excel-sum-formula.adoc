@@ -8,6 +8,6 @@ https://leetcode.com/problems/design-excel-sum-formula/[LeetCode - Design Excel 
 [[src-0631]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0631_DesignExcelSumFormula.java[]
+include::{sourcedir}/_0631_DesignExcelSumFormula.java[tag=answer]
 ----
 

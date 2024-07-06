@@ -38,6 +38,7 @@ import java.util.Arrays;
  * @since 2019-10-26 22:56
  */
 public class _0062_UniquePaths {
+  // tag::answer[]
     public int uniquePaths(int m, int n) {
         if (m == 0 || n == 0) {
             return 0;
@@ -88,6 +89,9 @@ public class _0062_UniquePaths {
         }
         return paths[m - 1][n - 1];
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0062_UniquePaths solution = new _0062_UniquePaths();

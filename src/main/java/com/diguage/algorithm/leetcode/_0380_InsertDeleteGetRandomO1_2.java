@@ -45,6 +45,7 @@ import java.util.*;
  * @since 2024-07-05 16:44:29
  */
 public class _0380_InsertDeleteGetRandomO1_2 {
+  // tag::answer[]
   /**
    * 自己实现
    */
@@ -89,4 +90,5 @@ public class _0380_InsertDeleteGetRandomO1_2 {
       return nums.get(random.nextInt(nums.size()));
     }
   }
+  // end::answer[]
 }

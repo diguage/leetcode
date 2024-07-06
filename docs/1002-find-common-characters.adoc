@@ -43,6 +43,6 @@ You may return the answer in any order.
 [[src-1002]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1002_FindCommonCharacters.java[]
+include::{sourcedir}/_1002_FindCommonCharacters.java[tag=answer]
 ----
 

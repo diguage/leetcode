@@ -60,7 +60,7 @@ image::images/0235-06.png[{image_attr}]
 [[src-0235]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0235_LowestCommonAncestorOfABinarySearchTree.java[]
+include::{sourcedir}/_0235_LowestCommonAncestorOfABinarySearchTree.java[tag=answer]
 ----
 
 作为这道题的延伸，继续看 xref:0236-lowest-common-ancestor-of-a-binary-tree.adoc[236. Lowest Common Ancestor of a Binary Tree]。

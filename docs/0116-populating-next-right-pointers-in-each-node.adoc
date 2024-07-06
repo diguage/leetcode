@@ -73,21 +73,21 @@ image::images/0116-06.png[{image_attr}]
 [[src-0116]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0116_PopulatingNextRightPointersInEachNode.java[]
+include::{sourcedir}/_0116_PopulatingNextRightPointersInEachNode.java[tag=answer]
 ----
 
 === 常规解法
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0116_PopulatingNextRightPointersInEachNode_2.java[]
+include::{sourcedir}/_0116_PopulatingNextRightPointersInEachNode_2.java[tag=answer]
 ----
 
 === 常数空间复杂度解法
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0116_PopulatingNextRightPointersInEachNode_21.java[]
+include::{sourcedir}/_0116_PopulatingNextRightPointersInEachNode_21.java[tag=answer]
 ----
 
 == 参考资料

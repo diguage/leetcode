@@ -25,12 +25,12 @@ image::images/0076-01.gif[{image_attr}]
 [[src-0076]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0076_MinimumWindowSubstring.java[]
+include::{sourcedir}/_0076_MinimumWindowSubstring.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0076_MinimumWindowSubstring_2.java[]
+include::{sourcedir}/_0076_MinimumWindowSubstring_2.java[tag=answer]
 ----
 
 == 参考资料

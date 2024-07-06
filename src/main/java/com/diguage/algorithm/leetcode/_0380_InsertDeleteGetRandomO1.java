@@ -45,6 +45,10 @@ import java.util.*;
  * @since 2020-01-05 23:47
  */
 public class _0380_InsertDeleteGetRandomO1 {
+  // tag::answer[]
+  // end::answer[]
+
+
     public static void main(String[] args) {
         RandomizedSet solution = new RandomizedSet();
         solution.insert(3);

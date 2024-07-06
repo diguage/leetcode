@@ -19,6 +19,6 @@ The length of `A` and `B` will be between 1 and 10000.
 [[src-0686]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0686_RepeatedStringMatch.java[]
+include::{sourcedir}/_0686_RepeatedStringMatch.java[tag=answer]
 ----
 

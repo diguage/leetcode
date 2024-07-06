@@ -8,6 +8,6 @@ https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-tim
 [[src-0158]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0158_ReadNCharactersGivenRead4IICallMultipleTimes.java[]
+include::{sourcedir}/_0158_ReadNCharactersGivenRead4IICallMultipleTimes.java[tag=answer]
 ----
 

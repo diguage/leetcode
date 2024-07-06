@@ -38,6 +38,6 @@ What is the minimum candies you must give?
 [[src-0135]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0135_Candy.java[]
+include::{sourcedir}/_0135_Candy.java[tag=answer]
 ----
 

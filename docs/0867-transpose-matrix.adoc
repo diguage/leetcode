@@ -39,6 +39,6 @@ image::https://assets.leetcode.com/uploads/2019/10/20/hint_transpose.png[{image_
 [[src-0867]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0867_TransposeMatrix.java[]
+include::{sourcedir}/_0867_TransposeMatrix.java[tag=answer]
 ----
 

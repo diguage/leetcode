@@ -60,6 +60,6 @@ image::https://assets.leetcode.com/uploads/2019/08/04/example2_2.png[{image_attr
 [[src-1091]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1091_ShortestPathInBinaryMatrix.java[]
+include::{sourcedir}/_1091_ShortestPathInBinaryMatrix.java[tag=answer]
 ----
 

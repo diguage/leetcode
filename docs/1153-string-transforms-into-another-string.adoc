@@ -8,6 +8,6 @@ https://leetcode.com/problems/string-transforms-into-another-string/[LeetCode - 
 [[src-1153]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1153_StringTransformsIntoAnotherString.java[]
+include::{sourcedir}/_1153_StringTransformsIntoAnotherString.java[tag=answer]
 ----
 

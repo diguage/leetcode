@@ -41,6 +41,6 @@ Given a *non-empty* string containing only digits, determine the total number of
 [[src-0091]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0091_DecodeWays.java[]
+include::{sourcedir}/_0091_DecodeWays.java[tag=answer]
 ----
 

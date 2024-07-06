@@ -52,6 +52,7 @@ import com.diguage.algorithm.util.ListNode;
  * @since 2024-07-02 21:37:57
  */
 public class _0160_IntersectionOfTwoLinkedLists_2 {
+  // tag::answer[]
     /**
      * 两个链表逻辑拼接
      */
@@ -66,4 +67,5 @@ public class _0160_IntersectionOfTwoLinkedLists_2 {
       }
       return a;
     }
+  // end::answer[]
 }

@@ -41,6 +41,6 @@ row 4: 01101001
 [[src-0779]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0779_KThSymbolInGrammar.java[]
+include::{sourcedir}/_0779_KThSymbolInGrammar.java[tag=answer]
 ----
 

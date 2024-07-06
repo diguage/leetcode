@@ -106,6 +106,6 @@ Merging the serialization of each level and removing trailing nulls we obtain:
 [[src-0430]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0430_FlattenAMultilevelDoublyLinkedList.java[]
+include::{sourcedir}/_0430_FlattenAMultilevelDoublyLinkedList.java[tag=answer]
 ----
 

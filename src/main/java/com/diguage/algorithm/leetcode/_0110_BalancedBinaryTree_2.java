@@ -14,6 +14,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-06 23:10
  */
 public class _0110_BalancedBinaryTree_2 {
+  // tag::answer[]
 
   /**
    * 使用“树形 DP 套路”
@@ -41,6 +42,9 @@ public class _0110_BalancedBinaryTree_2 {
       this.height = height;
     }
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0110_BalancedBinaryTree_2 solution = new _0110_BalancedBinaryTree_2();

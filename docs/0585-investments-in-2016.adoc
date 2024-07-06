@@ -8,6 +8,6 @@ https://leetcode.com/problems/investments-in-2016/[LeetCode - Investments in 201
 [[src-0585]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0585_InvestmentsIn2016.java[]
+include::{sourcedir}/_0585_InvestmentsIn2016.java[tag=answer]
 ----
 

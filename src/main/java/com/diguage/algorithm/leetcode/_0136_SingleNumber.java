@@ -31,6 +31,7 @@ import java.util.Objects;
  * @since 2020-01-01 12:38
  */
 public class _0136_SingleNumber {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Single Number.
      *
@@ -46,6 +47,9 @@ public class _0136_SingleNumber {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0136_SingleNumber solution = new _0136_SingleNumber();

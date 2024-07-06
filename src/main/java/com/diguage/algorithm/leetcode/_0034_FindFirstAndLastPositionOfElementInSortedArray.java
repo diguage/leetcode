@@ -32,6 +32,7 @@ import java.util.Arrays;
  * @since 2018-09-16 20:50 初次完成，2024-07-01 17:24:23 优化
  */
 public class _0034_FindFirstAndLastPositionOfElementInSortedArray {
+  // tag::answer[]
   public static int[] searchRange(int[] nums, int target) {
     if (nums == null || nums.length == 0) {
       return new int[]{-1, -1};
@@ -81,4 +82,5 @@ public class _0034_FindFirstAndLastPositionOfElementInSortedArray {
     }
     return new int[]{i1, i2};
   }
+  // end::answer[]
 }

@@ -70,6 +70,6 @@ After removing outer parentheses of each part, this is "" + "" = "".
 [[src-1021]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1021_RemoveOutermostParentheses.java[]
+include::{sourcedir}/_1021_RemoveOutermostParentheses.java[tag=answer]
 ----
 

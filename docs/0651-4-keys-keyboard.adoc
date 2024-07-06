@@ -8,6 +8,6 @@ https://leetcode.com/problems/4-keys-keyboard/[LeetCode - 4 Keys Keyboard]
 [[src-0651]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0651_4KeysKeyboard.java[]
+include::{sourcedir}/_0651_4KeysKeyboard.java[tag=answer]
 ----
 

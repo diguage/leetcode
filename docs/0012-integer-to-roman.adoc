@@ -75,6 +75,6 @@ Given an integer, convert it to a roman numeral. Input is guaranteed to be withi
 [[src-0012]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0012_IntegerToRoman.java[]
+include::{sourcedir}/_0012_IntegerToRoman.java[tag=answer]
 ----
 

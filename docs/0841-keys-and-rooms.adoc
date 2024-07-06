@@ -51,6 +51,6 @@ We then go to room 3.  Since we were able to go to every room, we return true.
 [[src-0841]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0841_KeysAndRooms.java[]
+include::{sourcedir}/_0841_KeysAndRooms.java[tag=answer]
 ----
 

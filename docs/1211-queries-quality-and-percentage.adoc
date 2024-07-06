@@ -8,6 +8,6 @@ https://leetcode.com/problems/queries-quality-and-percentage/[LeetCode - Queries
 [[src-1211]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1211_QueriesQualityAndPercentage.java[]
+include::{sourcedir}/_1211_QueriesQualityAndPercentage.java[tag=answer]
 ----
 

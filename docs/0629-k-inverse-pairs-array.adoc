@@ -46,6 +46,6 @@ The array [1,3,2] and [2,1,3] have exactly 1 inverse pair.
 [[src-0629]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0629_KInversePairsArray.java[]
+include::{sourcedir}/_0629_KInversePairsArray.java[tag=answer]
 ----
 

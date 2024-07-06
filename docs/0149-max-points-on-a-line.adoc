@@ -45,6 +45,6 @@ Given _n_ points on a 2D plane, find the maximum number of points that lie on th
 [[src-0149]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0149_MaxPointsOnALine.java[]
+include::{sourcedir}/_0149_MaxPointsOnALine.java[tag=answer]
 ----
 

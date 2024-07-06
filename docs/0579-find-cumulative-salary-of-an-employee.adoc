@@ -8,6 +8,6 @@ https://leetcode.com/problems/find-cumulative-salary-of-an-employee/[LeetCode - 
 [[src-0579]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0579_FindCumulativeSalaryOfAnEmployee.java[]
+include::{sourcedir}/_0579_FindCumulativeSalaryOfAnEmployee.java[tag=answer]
 ----
 

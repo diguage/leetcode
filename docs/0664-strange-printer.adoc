@@ -45,6 +45,6 @@ Given a string consists of lower English letters only, your job is to count the 
 [[src-0664]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0664_StrangePrinter.java[]
+include::{sourcedir}/_0664_StrangePrinter.java[tag=answer]
 ----
 

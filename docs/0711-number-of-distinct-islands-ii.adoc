@@ -8,6 +8,6 @@ https://leetcode.com/problems/number-of-distinct-islands-ii/[LeetCode - Number o
 [[src-0711]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0711_NumberOfDistinctIslandsII.java[]
+include::{sourcedir}/_0711_NumberOfDistinctIslandsII.java[tag=answer]
 ----
 

@@ -27,6 +27,6 @@ If there are `n` buckets and a pig drinking poison will die within `m` minutes, 
 [[src-0458]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0458_PoorPigs.java[]
+include::{sourcedir}/_0458_PoorPigs.java[tag=answer]
 ----
 

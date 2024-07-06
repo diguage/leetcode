@@ -86,6 +86,6 @@ Design an algorithm to find the maximum profit. You may complete at most _two_ t
 [[src-0123]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0123_BestTimeToBuyAndSellStockIII.java[]
+include::{sourcedir}/_0123_BestTimeToBuyAndSellStockIII.java[tag=answer]
 ----
 

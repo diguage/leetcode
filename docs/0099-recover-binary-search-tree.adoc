@@ -85,7 +85,7 @@ image::images/0099-11.png[{image_attr}]
 [[src-0099]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0099_RecoverBinarySearchTree.java[]
+include::{sourcedir}/_0099_RecoverBinarySearchTree.java[tag=answer]
 ----
 
 

@@ -65,6 +65,6 @@ We cannot draw 3 uncrossed lines, because the line from A[1]=4 to B[2]=4 will in
 [[src-1035]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1035_UncrossedLines.java[]
+include::{sourcedir}/_1035_UncrossedLines.java[tag=answer]
 ----
 

@@ -49,6 +49,6 @@ Note that the two extra dashes are not needed and can be removed.
 [[src-0482]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0482_LicenseKeyFormatting.java[]
+include::{sourcedir}/_0482_LicenseKeyFormatting.java[tag=answer]
 ----
 

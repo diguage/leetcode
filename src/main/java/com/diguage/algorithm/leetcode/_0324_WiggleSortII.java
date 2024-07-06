@@ -33,6 +33,7 @@ import java.util.Arrays;
  * @since 2020-01-26 23:29
  */
 public class _0324_WiggleSortII {
+  // tag::answer[]
 
     /**
      * Runtime: 3 ms, faster than 99.88% of Java online submissions for Wiggle Sort II.
@@ -59,6 +60,9 @@ public class _0324_WiggleSortII {
             nums[2 * i] = smaller[smaller.length - 1 - i];
         }
     }
+
+
+  // end::answer[]
 
 
     public static void main(String[] args) {

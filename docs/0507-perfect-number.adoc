@@ -27,6 +27,6 @@ The input number *n* will not exceed 100,000,000. (1e8)
 [[src-0507]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0507_PerfectNumber.java[]
+include::{sourcedir}/_0507_PerfectNumber.java[tag=answer]
 ----
 

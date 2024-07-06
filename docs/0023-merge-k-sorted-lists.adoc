@@ -25,12 +25,12 @@ Merge _k_ sorted linked lists and return it as one sorted list. Analyze and desc
 [[src-0023]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0023_MergeKSortedLists.java[]
+include::{sourcedir}/_0023_MergeKSortedLists.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0023_MergeKSortedLists_2.java[]
+include::{sourcedir}/_0023_MergeKSortedLists_2.java[tag=answer]
 ----
 
 == 参考资料

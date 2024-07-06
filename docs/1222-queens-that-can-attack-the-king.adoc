@@ -61,6 +61,6 @@ image::https://assets.leetcode.com/uploads/2019/10/01/untitled-diagram-2.jpg[{im
 [[src-1222]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1222_QueensThatCanAttackTheKing.java[]
+include::{sourcedir}/_1222_QueensThatCanAttackTheKing.java[tag=answer]
 ----
 

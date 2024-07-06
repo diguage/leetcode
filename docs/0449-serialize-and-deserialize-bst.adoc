@@ -16,6 +16,6 @@ Design an algorithm to serialize and deserialize a *binary search tree*. There i
 [[src-0449]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0449_SerializeAndDeserializeBST.java[]
+include::{sourcedir}/_0449_SerializeAndDeserializeBST.java[tag=answer]
 ----
 

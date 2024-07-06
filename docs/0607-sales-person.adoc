@@ -8,6 +8,6 @@ https://leetcode.com/problems/sales-person/[LeetCode - Sales Person]
 [[src-0607]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0607_SalesPerson.java[]
+include::{sourcedir}/_0607_SalesPerson.java[tag=answer]
 ----
 

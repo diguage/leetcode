@@ -8,6 +8,6 @@ https://leetcode.com/problems/android-unlock-patterns/[LeetCode - Android Unlock
 [[src-0351]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0351_AndroidUnlockPatterns.java[]
+include::{sourcedir}/_0351_AndroidUnlockPatterns.java[tag=answer]
 ----
 

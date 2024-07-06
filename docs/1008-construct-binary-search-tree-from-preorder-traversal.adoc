@@ -33,6 +33,6 @@ image::https://assets.leetcode.com/uploads/2019/03/06/1266.png[{image_attr}]
 [[src-1008]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1008_ConstructBinarySearchTreeFromPreorderTraversal.java[]
+include::{sourcedir}/_1008_ConstructBinarySearchTreeFromPreorderTraversal.java[tag=answer]
 ----
 

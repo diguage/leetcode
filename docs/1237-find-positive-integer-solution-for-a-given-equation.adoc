@@ -63,6 +63,6 @@ You may return the solutions in any order.
 [[src-1237]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1237_FindPositiveIntegerSolutionForAGivenEquation.java[]
+include::{sourcedir}/_1237_FindPositiveIntegerSolutionForAGivenEquation.java[tag=answer]
 ----
 

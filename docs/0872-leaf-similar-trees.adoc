@@ -26,6 +26,6 @@ Return `true` if and only if the two given trees with head nodes `root1` and `ro
 [[src-0872]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0872_LeafSimilarTrees.java[]
+include::{sourcedir}/_0872_LeafSimilarTrees.java[tag=answer]
 ----
 

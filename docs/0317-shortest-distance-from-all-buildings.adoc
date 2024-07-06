@@ -8,6 +8,6 @@ https://leetcode.com/problems/shortest-distance-from-all-buildings/[LeetCode - S
 [[src-0317]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0317_ShortestDistanceFromAllBuildings.java[]
+include::{sourcedir}/_0317_ShortestDistanceFromAllBuildings.java[tag=answer]
 ----
 

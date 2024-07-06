@@ -8,6 +8,6 @@ https://leetcode.com/problems/connecting-cities-with-minimum-cost/[LeetCode - Co
 [[src-1135]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1135_ConnectingCitiesWithMinimumCost.java[]
+include::{sourcedir}/_1135_ConnectingCitiesWithMinimumCost.java[tag=answer]
 ----
 

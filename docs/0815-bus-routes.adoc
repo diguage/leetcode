@@ -32,6 +32,6 @@ The best strategy is take the first bus to the bus stop 7, then take the second 
 [[src-0815]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0815_BusRoutes.java[]
+include::{sourcedir}/_0815_BusRoutes.java[tag=answer]
 ----
 

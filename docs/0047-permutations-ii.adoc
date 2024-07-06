@@ -44,6 +44,6 @@ Given a collection of numbers that might contain duplicates, return all possible
 [[src-0047]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0047_PermutationsII.java[]
+include::{sourcedir}/_0047_PermutationsII.java[tag=answer]
 ----
 

@@ -72,6 +72,6 @@ Given two strings `A` and `B` of lowercase letters, return `true` if and only if
 [[src-0859]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0859_BuddyStrings.java[]
+include::{sourcedir}/_0859_BuddyStrings.java[tag=answer]
 ----
 

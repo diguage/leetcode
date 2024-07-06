@@ -49,6 +49,6 @@ Given a sequence of `words` written in the alien language, and the `order` of th
 [[src-0953]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0953_VerifyingAnAlienDictionary.java[]
+include::{sourcedir}/_0953_VerifyingAnAlienDictionary.java[tag=answer]
 ----
 

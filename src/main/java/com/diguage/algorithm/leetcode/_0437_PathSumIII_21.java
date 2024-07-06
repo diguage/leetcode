@@ -15,6 +15,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2020-01-28 23:06
  */
 public class _0437_PathSumIII_21 {
+  // tag::answer[]
   /**
    */
   public int pathSum(TreeNode root, long sum) {
@@ -37,6 +38,9 @@ public class _0437_PathSumIII_21 {
     result += rootSum(root.right, sum - val);
     return result;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0437_PathSumIII_21 solution = new _0437_PathSumIII_21();

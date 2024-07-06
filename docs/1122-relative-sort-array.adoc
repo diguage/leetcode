@@ -29,6 +29,6 @@ Sort the elements of `arr1` such that the relative ordering of items in `arr1` a
 [[src-1122]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1122_RelativeSortArray.java[]
+include::{sourcedir}/_1122_RelativeSortArray.java[tag=answer]
 ----
 

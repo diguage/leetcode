@@ -7,6 +7,7 @@ import com.diguage.algorithm.util.TreeNode;
  * @since 2020-01-28 12:21
  */
 public class _0222_CountCompleteTreeNodes {
+  // tag::answer[]
   public int countNodes(TreeNode root) {
     if (root == null) {
       return 0;
@@ -30,4 +31,5 @@ public class _0222_CountCompleteTreeNodes {
     }
     return result;
   }
+  // end::answer[]
 }

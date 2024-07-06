@@ -8,6 +8,6 @@ https://leetcode.com/problems/maximum-number-of-ones/[LeetCode - Maximum Number 
 [[src-1183]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1183_MaximumNumberOfOnes.java[]
+include::{sourcedir}/_1183_MaximumNumberOfOnes.java[tag=answer]
 ----
 

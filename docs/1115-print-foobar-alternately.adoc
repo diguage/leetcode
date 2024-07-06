@@ -49,6 +49,6 @@ The same instance of `FooBar` will be passed to two different threads. Thread A 
 [[src-1115]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1115_PrintFooBarAlternately.java[]
+include::{sourcedir}/_1115_PrintFooBarAlternately.java[tag=answer]
 ----
 

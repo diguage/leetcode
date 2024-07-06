@@ -64,7 +64,7 @@ image::images/1094-01.png[{image_attr}]
 [[src-1094]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1094_CarPooling.java[]
+include::{sourcedir}/_1094_CarPooling.java[tag=answer]
 ----
 
 == 参考资料

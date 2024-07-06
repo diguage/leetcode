@@ -56,6 +56,6 @@ N will not exceed 100,000.
 [[src-0481]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0481_MagicalString.java[]
+include::{sourcedir}/_0481_MagicalString.java[tag=answer]
 ----
 

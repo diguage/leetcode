@@ -37,6 +37,6 @@ image::https://assets.leetcode.com/uploads/2019/05/23/931_example_1.png[{image_a
 [[src-0743]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0743_NetworkDelayTime.java[]
+include::{sourcedir}/_0743_NetworkDelayTime.java[tag=answer]
 ----
 

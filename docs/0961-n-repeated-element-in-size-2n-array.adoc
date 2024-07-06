@@ -57,6 +57,6 @@ Return the element repeated `N` times.
 [[src-0961]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0961_NRepeatedElementInSize2NArray.java[]
+include::{sourcedir}/_0961_NRepeatedElementInSize2NArray.java[tag=answer]
 ----
 

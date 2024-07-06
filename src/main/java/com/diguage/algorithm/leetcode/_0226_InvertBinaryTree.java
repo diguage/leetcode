@@ -17,6 +17,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2020-01-28 11:33
  */
 public class _0226_InvertBinaryTree {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Invert Binary Tree.
@@ -32,6 +33,9 @@ public class _0226_InvertBinaryTree {
         root.left = right;
         return root;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0226_InvertBinaryTree solution = new _0226_InvertBinaryTree();

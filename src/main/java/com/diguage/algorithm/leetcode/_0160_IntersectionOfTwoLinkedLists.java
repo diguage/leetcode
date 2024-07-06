@@ -58,6 +58,7 @@ import java.util.Set;
  * @since 2020-01-12 11:12
  */
 public class _0160_IntersectionOfTwoLinkedLists {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 99.29% of Java online submissions for Intersection of Two Linked Lists.
      *
@@ -102,6 +103,9 @@ public class _0160_IntersectionOfTwoLinkedLists {
         }
         return null;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0160_IntersectionOfTwoLinkedLists solution = new _0160_IntersectionOfTwoLinkedLists();

@@ -93,6 +93,6 @@ Return the correct "mask" of the information provided.
 [[src-0831]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0831_MaskingPersonalInformation.java[]
+include::{sourcedir}/_0831_MaskingPersonalInformation.java[tag=answer]
 ----
 

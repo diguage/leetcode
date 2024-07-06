@@ -8,6 +8,6 @@ https://leetcode.com/problems/find-median-given-frequency-of-numbers/[LeetCode -
 [[src-0571]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0571_FindMedianGivenFrequencyOfNumbers.java[]
+include::{sourcedir}/_0571_FindMedianGivenFrequencyOfNumbers.java[tag=answer]
 ----
 

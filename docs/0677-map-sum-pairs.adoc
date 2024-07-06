@@ -32,6 +32,6 @@ Input: sum("ap"), Output: 5
 [[src-0677]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0677_MapSumPairs.java[]
+include::{sourcedir}/_0677_MapSumPairs.java[tag=answer]
 ----
 

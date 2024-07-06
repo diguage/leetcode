@@ -42,6 +42,6 @@ Remember the story of Little Match Girl? By now, you know exactly what matchstic
 [[src-0473]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0473_MatchsticksToSquare.java[]
+include::{sourcedir}/_0473_MatchsticksToSquare.java[tag=answer]
 ----
 

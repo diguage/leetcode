@@ -90,6 +90,6 @@ There aren't any consecutive pairs of 1's in the binary representation of 8, so 
 [[src-0868]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0868_BinaryGap.java[]
+include::{sourcedir}/_0868_BinaryGap.java[tag=answer]
 ----
 

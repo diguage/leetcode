@@ -8,6 +8,6 @@ https://leetcode.com/problems/highest-grade-for-each-student/[LeetCode - Highest
 [[src-1112]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1112_HighestGradeForEachStudent.java[]
+include::{sourcedir}/_1112_HighestGradeForEachStudent.java[tag=answer]
 ----
 

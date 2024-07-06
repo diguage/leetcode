@@ -26,6 +26,6 @@ What if you cannot modify the input lists? In other words, reversing the lists i
 [[src-0445]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0445_AddTwoNumbersII.java[]
+include::{sourcedir}/_0445_AddTwoNumbersII.java[tag=answer]
 ----
 

@@ -34,6 +34,6 @@ image::https://assets.leetcode.com/uploads/2019/07/01/screen-shot-2019-07-01-at-
 [[src-1110]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1110_DeleteNodesAndReturnForest.java[]
+include::{sourcedir}/_1110_DeleteNodesAndReturnForest.java[tag=answer]
 ----
 

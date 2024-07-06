@@ -38,6 +38,6 @@ After shifting the first 3 letters of S by 9, we have "rpl", the answer.
 [[src-0848]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0848_ShiftingLetters.java[]
+include::{sourcedir}/_0848_ShiftingLetters.java[tag=answer]
 ----
 

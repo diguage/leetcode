@@ -56,6 +56,6 @@ Suppose `n` lights are labeled as number [1, 2, 3 ..., n], function of these 4 b
 [[src-0672]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0672_BulbSwitcherII.java[]
+include::{sourcedir}/_0672_BulbSwitcherII.java[tag=answer]
 ----
 

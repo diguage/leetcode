@@ -41,6 +41,6 @@ Output: "45"
 [[src-0423]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0423_ReconstructOriginalDigitsFromEnglish.java[]
+include::{sourcedir}/_0423_ReconstructOriginalDigitsFromEnglish.java[tag=answer]
 ----
 

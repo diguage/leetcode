@@ -33,6 +33,6 @@ The repeated subarray with maximum length is [3, 2, 1].
 [[src-0718]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0718_MaximumLengthOfRepeatedSubarray.java[]
+include::{sourcedir}/_0718_MaximumLengthOfRepeatedSubarray.java[tag=answer]
 ----
 

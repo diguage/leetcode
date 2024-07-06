@@ -16,6 +16,7 @@ import static com.diguage.util.Jsons.toJson;
  * @since 2024-06-14 17:07:33
  */
 public class _0106_ConstructBinaryTreeFromInorderAndPostorderTraversal_2 {
+  // tag::answer[]
 
   /**
    *在自己实现的基础上，参考： https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/solutions/426738/cong-zhong-xu-yu-hou-xu-bian-li-xu-lie-gou-zao-14/comments/2236345 解决了下标错误的问题。
@@ -43,6 +44,9 @@ public class _0106_ConstructBinaryTreeFromInorderAndPostorderTraversal_2 {
     root.right = buildTree(inorder, postorder, numToIndex, index + 1, inEnd, postStart + size, postEnd - 1);
     return root;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0106_ConstructBinaryTreeFromInorderAndPostorderTraversal_2

@@ -67,6 +67,6 @@ image::https://assets.leetcode.com/uploads/2019/02/01/tree3.png[{image_attr}]
 [[src-0988]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0988_SmallestStringStartingFromLeaf.java[]
+include::{sourcedir}/_0988_SmallestStringStartingFromLeaf.java[tag=answer]
 ----
 

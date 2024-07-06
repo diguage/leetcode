@@ -39,6 +39,6 @@ Given a positive integer `N`, how many ways can we write it as a sum of consecut
 [[src-0829]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0829_ConsecutiveNumbersSum.java[]
+include::{sourcedir}/_0829_ConsecutiveNumbersSum.java[tag=answer]
 ----
 

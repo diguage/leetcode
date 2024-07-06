@@ -49,6 +49,6 @@ Given a 2D binary matrix filled with 0's and 1's, find the largest square contai
 [[src-0221]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0221_MaximalSquare.java[]
+include::{sourcedir}/_0221_MaximalSquare.java[tag=answer]
 ----
 

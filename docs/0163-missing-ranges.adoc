@@ -8,6 +8,6 @@ https://leetcode.com/problems/missing-ranges/[LeetCode - Missing Ranges]
 [[src-0163]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0163_MissingRanges.java[]
+include::{sourcedir}/_0163_MissingRanges.java[tag=answer]
 ----
 

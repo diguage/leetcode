@@ -34,12 +34,12 @@ Given a binary tree, return the _postorder_ traversal of its nodes' values.
 [[src-0145]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0145_BinaryTreePostorderTraversal.java[]
+include::{sourcedir}/_0145_BinaryTreePostorderTraversal.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0145_BinaryTreePostorderTraversal_Recur.java[]
+include::{sourcedir}/_0145_BinaryTreePostorderTraversal_Recur.java[tag=answer]
 ----
 
 == 迭代实现
@@ -92,7 +92,7 @@ image::images/0145-19.png[{image_attr}]
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0145_BinaryTreePostorderTraversal_Stack.java[]
+include::{sourcedir}/_0145_BinaryTreePostorderTraversal_Stack.java[tag=answer]
 ----
 
 

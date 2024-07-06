@@ -50,6 +50,6 @@ v   v
 [[src-0685]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0685_RedundantConnectionII.java[]
+include::{sourcedir}/_0685_RedundantConnectionII.java[tag=answer]
 ----
 

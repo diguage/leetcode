@@ -34,6 +34,6 @@ Return the length of the longest well-performing interval.
 [[src-1124]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1124_LongestWellPerformingInterval.java[]
+include::{sourcedir}/_1124_LongestWellPerformingInterval.java[tag=answer]
 ----
 

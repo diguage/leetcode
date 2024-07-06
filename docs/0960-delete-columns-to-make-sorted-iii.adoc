@@ -65,6 +65,6 @@ Note that A[0] > A[1] - the array A isn't necessarily in lexicographic order.
 [[src-0960]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0960_DeleteColumnsToMakeSortedIII.java[]
+include::{sourcedir}/_0960_DeleteColumnsToMakeSortedIII.java[tag=answer]
 ----
 

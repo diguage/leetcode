@@ -17,6 +17,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-05 22:46
  */
 public class _0092_ReverseLinkedListII {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Reverse Linked List II.
      * Memory Usage: 36.6 MB, less than 11.36% of Java online submissions for Reverse Linked List II.
@@ -50,6 +51,9 @@ public class _0092_ReverseLinkedListII {
         tail.next = reverseList.next;
         return dummy.next;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0092_ReverseLinkedListII solution = new _0092_ReverseLinkedListII();

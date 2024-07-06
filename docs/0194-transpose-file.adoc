@@ -33,6 +33,6 @@ age 21 30
 [[src-0194]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0194_TransposeFile.java[]
+include::{sourcedir}/_0194_TransposeFile.java[tag=answer]
 ----
 

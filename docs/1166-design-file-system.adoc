@@ -8,6 +8,6 @@ https://leetcode.com/problems/design-file-system/[LeetCode - Design File System]
 [[src-1166]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1166_DesignFileSystem.java[]
+include::{sourcedir}/_1166_DesignFileSystem.java[tag=answer]
 ----
 

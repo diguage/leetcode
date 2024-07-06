@@ -58,6 +58,6 @@ You can assume that
 [[src-0518]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0518_CoinChange2.java[]
+include::{sourcedir}/_0518_CoinChange2.java[tag=answer]
 ----
 

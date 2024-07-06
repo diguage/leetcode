@@ -59,6 +59,6 @@ For example, 12321 is a palindrome.
 [[src-0866]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0866_PrimePalindrome.java[]
+include::{sourcedir}/_0866_PrimePalindrome.java[tag=answer]
 ----
 

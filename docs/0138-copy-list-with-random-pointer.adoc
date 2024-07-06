@@ -73,6 +73,6 @@ image::images/0138-copy-list-with-random-pointer.jpg[{image_attr}]
 [[src-0138]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0138_CopyListWithRandomPointer.java[]
+include::{sourcedir}/_0138_CopyListWithRandomPointer.java[tag=answer]
 ----
 

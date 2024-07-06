@@ -53,6 +53,6 @@ On the fourth turn, ans[0] += 4, and the final array is [5,2,3].
 [[src-1103]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1103_DistributeCandiesToPeople.java[]
+include::{sourcedir}/_1103_DistributeCandiesToPeople.java[tag=answer]
 ----
 

@@ -45,21 +45,21 @@ Return:
 [[src-0113]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0113_PathSumII.java[]
+include::{sourcedir}/_0113_PathSumII.java[tag=answer]
 ----
 
 == 未优化版
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0113_PathSumII_2.java[]
+include::{sourcedir}/_0113_PathSumII_2.java[tag=answer]
 ----
 
 == 优化版
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0113_PathSumII_21.java[]
+include::{sourcedir}/_0113_PathSumII_21.java[tag=answer]
 ----
 
 TIP: 非常典型的回溯问题！

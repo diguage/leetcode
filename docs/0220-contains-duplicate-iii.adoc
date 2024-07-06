@@ -39,6 +39,6 @@ Given an array of integers, find out whether there are two distinct indices _i_ 
 [[src-0220]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0220_ContainsDuplicateIII.java[]
+include::{sourcedir}/_0220_ContainsDuplicateIII.java[tag=answer]
 ----
 

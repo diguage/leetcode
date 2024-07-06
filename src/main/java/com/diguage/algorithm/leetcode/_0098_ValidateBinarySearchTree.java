@@ -49,6 +49,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2020-01-24 19:06
  */
 public class _0098_ValidateBinarySearchTree {
+  // tag::answer[]
 
     /**
      * Runtime: 1 ms, faster than 33.82% of Java online submissions for Validate Binary Search Tree.
@@ -83,6 +84,9 @@ public class _0098_ValidateBinarySearchTree {
         }
         return true;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0098_ValidateBinarySearchTree solution = new _0098_ValidateBinarySearchTree();

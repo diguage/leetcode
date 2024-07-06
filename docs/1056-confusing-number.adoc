@@ -8,6 +8,6 @@ https://leetcode.com/problems/confusing-number/[LeetCode - Confusing Number]
 [[src-1056]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1056_ConfusingNumber.java[]
+include::{sourcedir}/_1056_ConfusingNumber.java[tag=answer]
 ----
 

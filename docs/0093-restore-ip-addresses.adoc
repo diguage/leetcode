@@ -35,6 +35,6 @@ Given a string containing only digits, restore it by returning all possible vali
 [[src-0093]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0093_RestoreIPAddresses.java[]
+include::{sourcedir}/_0093_RestoreIPAddresses.java[tag=answer]
 ----
 

@@ -13,11 +13,15 @@ import java.util.Objects;
  * @since 2020-01-30 19:44
  */
 public class _0992_SubarraysWithKDifferentIntegers {
+  // tag::answer[]
     /**
      * Runtime: 5 ms, faster than 93.74% of Java online submissions for Subarrays with K Different Integers.
      * Memory Usage: 51.9 MB, less than 5.26% of Java online submissions for Subarrays with K Different Integers.
      *
      * Copy from: https://mp.weixin.qq.com/s/6YeZUCYj5ft-OGa85sQegw[面试官，你再问我滑动窗口问题试试？我有解题模板，不怕！]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-30 19:44
      */
     public int subarraysWithKDistinct(int[] A, int K) {
         if (Objects.isNull(A) || A.length == 0 || A.length < K) {
@@ -104,6 +108,9 @@ public class _0992_SubarraysWithKDifferentIntegers {
             return nonzeo;
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0992_SubarraysWithKDifferentIntegers solution = new _0992_SubarraysWithKDifferentIntegers();

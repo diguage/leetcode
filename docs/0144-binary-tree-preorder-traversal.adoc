@@ -28,12 +28,12 @@ Given a binary tree, return the _preorder_ traversal of its nodes' values.
 [[src-0144]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0144_BinaryTreePreorderTraversal.java[]
+include::{sourcedir}/_0144_BinaryTreePreorderTraversal.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0144_BinaryTreePreorderTraversal_Recur.java[]
+include::{sourcedir}/_0144_BinaryTreePreorderTraversal_Recur.java[tag=answer]
 ----
 
 == 迭代实现
@@ -68,6 +68,6 @@ image::images/0144-14.png[{image_attr}]
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0144_BinaryTreePreorderTraversal_Stack.java[]
+include::{sourcedir}/_0144_BinaryTreePreorderTraversal_Stack.java[tag=answer]
 ----
 

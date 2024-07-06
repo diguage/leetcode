@@ -8,6 +8,6 @@ https://leetcode.com/problems/design-in-memory-file-system/[LeetCode - Design In
 [[src-0588]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0588_DesignInMemoryFileSystem.java[]
+include::{sourcedir}/_0588_DesignInMemoryFileSystem.java[tag=answer]
 ----
 

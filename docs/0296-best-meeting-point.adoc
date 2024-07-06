@@ -8,6 +8,6 @@ https://leetcode.com/problems/best-meeting-point/[LeetCode - Best Meeting Point]
 [[src-0296]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0296_BestMeetingPoint.java[]
+include::{sourcedir}/_0296_BestMeetingPoint.java[tag=answer]
 ----
 

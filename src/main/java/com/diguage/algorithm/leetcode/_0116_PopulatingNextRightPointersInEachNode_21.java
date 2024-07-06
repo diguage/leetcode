@@ -48,6 +48,7 @@ import static com.diguage.algorithm.leetcode._0116_PopulatingNextRightPointersIn
  * @since 2024-06-25 16:22:49
  */
 public class _0116_PopulatingNextRightPointersInEachNode_21 {
+  // tag::answer[]
   /**
    * 根据提示写出来的：在上一层建立下一层的链接。
    * 
@@ -105,6 +106,9 @@ public class _0116_PopulatingNextRightPointersInEachNode_21 {
     }
     return root;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0116_PopulatingNextRightPointersInEachNode_21 solution = new _0116_PopulatingNextRightPointersInEachNode_21();

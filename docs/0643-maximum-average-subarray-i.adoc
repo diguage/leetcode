@@ -30,6 +30,6 @@ Given an array consisting of `n` integers, find the contiguous subarray of given
 [[src-0643]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0643_MaximumAverageSubarrayI.java[]
+include::{sourcedir}/_0643_MaximumAverageSubarrayI.java[tag=answer]
 ----
 

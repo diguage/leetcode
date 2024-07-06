@@ -51,6 +51,6 @@ You need to help them find out their *common interest* with the *least list inde
 [[src-0599]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0599_MinimumIndexSumOfTwoLists.java[]
+include::{sourcedir}/_0599_MinimumIndexSumOfTwoLists.java[tag=answer]
 ----
 

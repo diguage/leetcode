@@ -70,6 +70,6 @@ The other two groups are ["xyzz", "zzxy"] and ["zzyx"].  Note that in particular
 [[src-0893]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0893_GroupsOfSpecialEquivalentStrings.java[]
+include::{sourcedir}/_0893_GroupsOfSpecialEquivalentStrings.java[tag=answer]
 ----
 

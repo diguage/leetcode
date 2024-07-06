@@ -51,6 +51,6 @@ Here are the rules of Tic-Tac-Toe:
 [[src-0794]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0794_ValidTicTacToeState.java[]
+include::{sourcedir}/_0794_ValidTicTacToeState.java[tag=answer]
 ----
 

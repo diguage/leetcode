@@ -8,6 +8,6 @@ https://leetcode.com/problems/reverse-words-in-a-string-ii/[LeetCode - Reverse W
 [[src-0186]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0186_ReverseWordsInAStringII.java[]
+include::{sourcedir}/_0186_ReverseWordsInAStringII.java[tag=answer]
 ----
 

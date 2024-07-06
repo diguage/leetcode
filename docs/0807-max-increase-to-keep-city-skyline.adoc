@@ -46,6 +46,6 @@ gridNew = [ [8, 4, 8, 7],
 [[src-0807]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0807_MaxIncreaseToKeepCitySkyline.java[]
+include::{sourcedir}/_0807_MaxIncreaseToKeepCitySkyline.java[tag=answer]
 ----
 

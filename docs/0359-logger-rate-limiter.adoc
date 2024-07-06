@@ -8,6 +8,6 @@ https://leetcode.com/problems/logger-rate-limiter/[LeetCode - Logger Rate Limite
 [[src-0359]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0359_LoggerRateLimiter.java[]
+include::{sourcedir}/_0359_LoggerRateLimiter.java[tag=answer]
 ----
 

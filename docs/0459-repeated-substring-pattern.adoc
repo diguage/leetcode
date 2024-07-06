@@ -38,6 +38,6 @@ Given a non-empty string check if it can be constructed by taking a substring of
 [[src-0459]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0459_RepeatedSubstringPattern.java[]
+include::{sourcedir}/_0459_RepeatedSubstringPattern.java[tag=answer]
 ----
 

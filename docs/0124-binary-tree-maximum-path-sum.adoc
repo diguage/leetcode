@@ -40,6 +40,6 @@ For this problem, a path is defined as any sequence of nodes from some starting 
 [[src-0124]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0124_BinaryTreeMaximumPathSum.java[]
+include::{sourcedir}/_0124_BinaryTreeMaximumPathSum.java[tag=answer]
 ----
 

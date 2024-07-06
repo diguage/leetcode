@@ -43,6 +43,6 @@ You may assume no duplicates in the array.
 [[src-0035]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0035_SearchInsertPosition.java[]
+include::{sourcedir}/_0035_SearchInsertPosition.java[tag=answer]
 ----
 

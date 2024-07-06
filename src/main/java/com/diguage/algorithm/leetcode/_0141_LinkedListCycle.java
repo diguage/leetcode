@@ -49,6 +49,7 @@ import java.util.Set;
  * @since 2020-01-12 10:06
  */
 public class _0141_LinkedListCycle {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Linked List Cycle.
      *
@@ -93,6 +94,9 @@ public class _0141_LinkedListCycle {
         }
         return false;
     }
+  // end::answer[]
+
+
     public static void main(String[] args) {
         _0141_LinkedListCycle solution = new _0141_LinkedListCycle();
         ListNode l1 = ListNodes.build(Arrays.asList(3, 2, 0, -4));

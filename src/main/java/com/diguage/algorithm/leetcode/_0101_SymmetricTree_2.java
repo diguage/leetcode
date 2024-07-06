@@ -3,6 +3,7 @@ package com.diguage.algorithm.leetcode;
 import com.diguage.algorithm.util.TreeNode;
 
 public class _0101_SymmetricTree_2 {
+  // tag::answer[]
   public boolean isSymmetric(TreeNode root) {
     return root == null || isSymmetric(root.left, root.right);
   }
@@ -23,4 +24,5 @@ public class _0101_SymmetricTree_2 {
       && isSymmetric(left.right, right.left);
   }
 
+  // end::answer[]
 }

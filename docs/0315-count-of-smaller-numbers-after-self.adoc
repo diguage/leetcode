@@ -22,6 +22,6 @@ To the right of 1 there is *0* smaller element.
 [[src-0315]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0315_CountOfSmallerNumbersAfterSelf.java[]
+include::{sourcedir}/_0315_CountOfSmallerNumbersAfterSelf.java[tag=answer]
 ----
 

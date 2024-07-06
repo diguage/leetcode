@@ -76,6 +76,6 @@ Given an `expression` representing a set of words under the given grammar, retur
 [[src-1096]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1096_BraceExpansionII.java[]
+include::{sourcedir}/_1096_BraceExpansionII.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/path-with-maximum-minimum-value/[LeetCode - Path W
 [[src-1102]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1102_PathWithMaximumMinimumValue.java[]
+include::{sourcedir}/_1102_PathWithMaximumMinimumValue.java[tag=answer]
 ----
 

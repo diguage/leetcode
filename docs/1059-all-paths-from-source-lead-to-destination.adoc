@@ -8,6 +8,6 @@ https://leetcode.com/problems/all-paths-from-source-lead-to-destination/[LeetCod
 [[src-1059]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1059_AllPathsFromSourceLeadToDestination.java[]
+include::{sourcedir}/_1059_AllPathsFromSourceLeadToDestination.java[tag=answer]
 ----
 

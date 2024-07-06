@@ -8,6 +8,6 @@ https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/[LeetCode
 [[src-0702]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0702_SearchInASortedArrayOfUnknownSize.java[]
+include::{sourcedir}/_0702_SearchInASortedArrayOfUnknownSize.java[tag=answer]
 ----
 

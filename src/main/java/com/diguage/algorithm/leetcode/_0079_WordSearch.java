@@ -30,6 +30,7 @@ import java.util.Objects;
  * @since 2020-01-03 17:31
  */
 public class _0079_WordSearch {
+  // tag::answer[]
 
     /**
      * Runtime: 4 ms, faster than 89.90% of Java online submissions for Word Search.
@@ -74,6 +75,9 @@ public class _0079_WordSearch {
         board[y][x] = word[i];
         return existable;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0079_WordSearch solution = new _0079_WordSearch();

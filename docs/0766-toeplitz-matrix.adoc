@@ -67,6 +67,6 @@ The diagonal "[1, 2]" has different elements.
 [[src-0766]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0766_ToeplitzMatrix.java[]
+include::{sourcedir}/_0766_ToeplitzMatrix.java[tag=answer]
 ----
 

@@ -57,6 +57,6 @@ Return the largest possible height of your billboard installation.  If you canno
 [[src-0956]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0956_TallestBillboard.java[]
+include::{sourcedir}/_0956_TallestBillboard.java[tag=answer]
 ----
 

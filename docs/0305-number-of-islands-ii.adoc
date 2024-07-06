@@ -8,6 +8,6 @@ https://leetcode.com/problems/number-of-islands-ii/[LeetCode - Number of Islands
 [[src-0305]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0305_NumberOfIslandsII.java[]
+include::{sourcedir}/_0305_NumberOfIslandsII.java[tag=answer]
 ----
 

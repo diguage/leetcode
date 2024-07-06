@@ -30,6 +30,7 @@ import static com.diguage.util.Printers.*;
  * @since 2020-01-24 12:35
  */
 public class _0046_Permutations_2 {
+  // tag::answer[]
   /**
    * 参考《算法小抄》的参数，自己实现的
    */
@@ -61,6 +62,9 @@ public class _0046_Permutations_2 {
       used[i] = false;
     }
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     List<List<Integer>> result = new _0046_Permutations_2().permute(new int[]{1, 2, 3});

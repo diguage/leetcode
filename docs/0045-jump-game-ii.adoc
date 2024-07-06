@@ -27,6 +27,6 @@ You can assume that you can always reach the last index.
 [[src-0045]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0045_JumpGameII.java[]
+include::{sourcedir}/_0045_JumpGameII.java[tag=answer]
 ----
 

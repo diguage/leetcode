@@ -32,6 +32,12 @@ package com.diguage.algorithm.leetcode;
  * @since 2018-07-01
  */
 public class _0004_MedianOfTwoSortedArrays {
+  // tag::answer[]
+
+    /**
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2018-07-01
+     */
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         if (isEmpty(nums1) && isEmpty(nums2)) {
             return 0;
@@ -101,6 +107,9 @@ public class _0004_MedianOfTwoSortedArrays {
             return (nums2[nums2.length / 2 - 1] + nums2[nums2.length / 2]) / 2.0;
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         int[] nums1 = new int[]{100001};

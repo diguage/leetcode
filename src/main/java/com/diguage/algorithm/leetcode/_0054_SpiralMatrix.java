@@ -37,6 +37,7 @@ import java.util.*;
  * @since 2019-10-26 00:51:20
  */
 public class _0054_SpiralMatrix {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Spiral Matrix.
      *
@@ -73,6 +74,9 @@ public class _0054_SpiralMatrix {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0054_SpiralMatrix solution = new _0054_SpiralMatrix();

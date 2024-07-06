@@ -38,18 +38,18 @@ Return 3. The paths that sum to 8 are:
 [[src-0437]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0437_PathSumIII.java[]
+include::{sourcedir}/_0437_PathSumIII.java[tag=answer]
 ----
 
 .错误提交
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0437_PathSumIII_2.java[]
+include::{sourcedir}/_0437_PathSumIII_2.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0437_PathSumIII_21.java[]
+include::{sourcedir}/_0437_PathSumIII_21.java[tag=answer]
 ----
 
 === 前缀和解法
@@ -89,7 +89,7 @@ image::images/0437-12.png[{image_attr}]
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0437_PathSumIII_22.java[]
+include::{sourcedir}/_0437_PathSumIII_22.java[tag=answer]
 ----
 
 == 思考题

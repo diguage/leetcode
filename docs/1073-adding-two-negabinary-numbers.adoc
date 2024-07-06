@@ -37,6 +37,6 @@ Return the result of adding `arr1` and `arr2` in the same format: as an array of
 [[src-1073]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1073_AddingTwoNegabinaryNumbers.java[]
+include::{sourcedir}/_1073_AddingTwoNegabinaryNumbers.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/shortest-way-to-form-string/[LeetCode - Shortest W
 [[src-1055]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1055_ShortestWayToFormString.java[]
+include::{sourcedir}/_1055_ShortestWayToFormString.java[tag=answer]
 ----
 

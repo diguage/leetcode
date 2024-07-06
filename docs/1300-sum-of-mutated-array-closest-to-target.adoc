@@ -47,6 +47,6 @@ Notice that the answer is not neccesarilly a number from `arr`.
 [[src-1300]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1300_SumOfMutatedArrayClosestToTarget.java[]
+include::{sourcedir}/_1300_SumOfMutatedArrayClosestToTarget.java[tag=answer]
 ----
 

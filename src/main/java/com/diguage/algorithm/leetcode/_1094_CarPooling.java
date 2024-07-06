@@ -5,6 +5,12 @@ package com.diguage.algorithm.leetcode;
  * @since 2024-07-05 15:01:49
  */
 public class _1094_CarPooling {
+  // tag::answer[]
+
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-07-05 15:01:49
+   */
   public boolean carPooling(int[][] trips, int capacity) {
     if (trips == null || trips.length == 0) {
       return true;
@@ -36,4 +42,5 @@ public class _1094_CarPooling {
     }
     return true;
   }
+  // end::answer[]
 }

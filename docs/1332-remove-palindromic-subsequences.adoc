@@ -61,6 +61,6 @@ Remove palindromic subsequence "baab" then "b".
 [[src-1332]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1332_RemovePalindromicSubsequences.java[]
+include::{sourcedir}/_1332_RemovePalindromicSubsequences.java[tag=answer]
 ----
 

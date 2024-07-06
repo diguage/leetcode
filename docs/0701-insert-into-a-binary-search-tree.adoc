@@ -51,7 +51,7 @@ This tree is also valid:
 [[src-0701]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0701_InsertIntoABinarySearchTree.java[]
+include::{sourcedir}/_0701_InsertIntoABinarySearchTree.java[tag=answer]
 ----
 
 == 参考资料

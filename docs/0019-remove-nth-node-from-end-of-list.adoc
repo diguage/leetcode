@@ -31,7 +31,7 @@ image::images/0019-0.png[{image_attr}]
 [[src-0019]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0019_RemoveNthNodeFromEndOfList.java[]
+include::{sourcedir}/_0019_RemoveNthNodeFromEndOfList.java[tag=answer]
 ----
 
 == 参考资料

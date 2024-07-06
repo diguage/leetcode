@@ -32,7 +32,7 @@ If the target is not found in the array, return `[-1, -1]`.
 [[src-0034]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0034_FindFirstAndLastPositionOfElementInSortedArray.java[]
+include::{sourcedir}/_0034_FindFirstAndLastPositionOfElementInSortedArray.java[tag=answer]
 ----
 
 == 参考资料

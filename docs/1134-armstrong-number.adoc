@@ -8,6 +8,6 @@ https://leetcode.com/problems/armstrong-number/[LeetCode - Armstrong Number]
 [[src-1134]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1134_ArmstrongNumber.java[]
+include::{sourcedir}/_1134_ArmstrongNumber.java[tag=answer]
 ----
 

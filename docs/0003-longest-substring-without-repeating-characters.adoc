@@ -64,12 +64,12 @@ image::images/0003-10.png[{image_attr}]
 [[src-0003]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0003_LongestSubstringWithoutRepeatingCharacters.java[]
+include::{sourcedir}/_0003_LongestSubstringWithoutRepeatingCharacters.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0003_LongestSubstringWithoutRepeatingCharacters_2.java[]
+include::{sourcedir}/_0003_LongestSubstringWithoutRepeatingCharacters_2.java[tag=answer]
 ----
 
 == 参考资料

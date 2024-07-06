@@ -8,6 +8,6 @@ https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/[LeetCode - Encod
 [[src-0431]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0431_EncodeNAryTreeToBinaryTree.java[]
+include::{sourcedir}/_0431_EncodeNAryTreeToBinaryTree.java[tag=answer]
 ----
 

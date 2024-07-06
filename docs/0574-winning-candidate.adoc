@@ -8,6 +8,6 @@ https://leetcode.com/problems/winning-candidate/[LeetCode - Winning Candidate]
 [[src-0574]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0574_WinningCandidate.java[]
+include::{sourcedir}/_0574_WinningCandidate.java[tag=answer]
 ----
 

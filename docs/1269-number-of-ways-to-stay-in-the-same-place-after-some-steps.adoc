@@ -55,6 +55,6 @@ Stay, Stay
 [[src-1269]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1269_NumberOfWaysToStayInTheSamePlaceAfterSomeSteps.java[]
+include::{sourcedir}/_1269_NumberOfWaysToStayInTheSamePlaceAfterSomeSteps.java[tag=answer]
 ----
 

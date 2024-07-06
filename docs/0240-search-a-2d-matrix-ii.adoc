@@ -39,6 +39,6 @@ Given target = `20`, return `false`.
 [[src-0240]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0240_SearchA2DMatrixII.java[]
+include::{sourcedir}/_0240_SearchA2DMatrixII.java[tag=answer]
 ----
 

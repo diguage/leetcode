@@ -10,6 +10,7 @@ import static com.diguage.util.Printers.*;
  * @since 2024-06-29 20:35:25
  */
 public class _0052_NQueensII_2 {
+  // tag::answer[]
   /**
    * 自己实现
    */
@@ -64,6 +65,9 @@ public class _0052_NQueensII_2 {
     }
     return true;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     int result = new _0052_NQueensII_2().totalNQueens(4);

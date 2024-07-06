@@ -8,6 +8,6 @@ https://leetcode.com/problems/design-compressed-string-iterator/[LeetCode - Desi
 [[src-0604]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0604_DesignCompressedStringIterator.java[]
+include::{sourcedir}/_0604_DesignCompressedStringIterator.java[tag=answer]
 ----
 

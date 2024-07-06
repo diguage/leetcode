@@ -46,6 +46,6 @@ push(5), pop() -> 5, pop() -> 3, pop() -> 2, pop() -> 1
 [[src-0946]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0946_ValidateStackSequences.java[]
+include::{sourcedir}/_0946_ValidateStackSequences.java[tag=answer]
 ----
 

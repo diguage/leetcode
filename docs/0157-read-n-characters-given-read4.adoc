@@ -8,6 +8,6 @@ https://leetcode.com/problems/read-n-characters-given-read4/[LeetCode - Read N C
 [[src-0157]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0157_ReadNCharactersGivenRead4.java[]
+include::{sourcedir}/_0157_ReadNCharactersGivenRead4.java[tag=answer]
 ----
 

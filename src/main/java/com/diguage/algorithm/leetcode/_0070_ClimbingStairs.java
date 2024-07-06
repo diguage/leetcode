@@ -37,6 +37,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-23 21:29
  */
 public class _0070_ClimbingStairs {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Climbing Stairs.
      *
@@ -53,6 +54,9 @@ public class _0070_ClimbingStairs {
         }
         return dp[n];
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0070_ClimbingStairs solution = new _0070_ClimbingStairs();

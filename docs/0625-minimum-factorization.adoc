@@ -8,6 +8,6 @@ https://leetcode.com/problems/minimum-factorization/[LeetCode - Minimum Factoriz
 [[src-0625]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0625_MinimumFactorization.java[]
+include::{sourcedir}/_0625_MinimumFactorization.java[tag=answer]
 ----
 

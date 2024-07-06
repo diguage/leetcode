@@ -28,7 +28,7 @@ Given a binary tree, imagine yourself standing on the _right_ side of it, return
 [[src-0199]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0199_BinaryTreeRightSideView.java[]
+include::{sourcedir}/_0199_BinaryTreeRightSideView.java[tag=answer]
 ----
 
 这道题是 xref:0102-binary-tree-level-order-traversal.adoc[102. Binary Tree Level Order Traversal] 的延伸。
@@ -39,7 +39,7 @@ include::{sourcedir}/_0199_BinaryTreeRightSideView.java[]
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0199_BinaryTreeRightSideView_1.java[]
+include::{sourcedir}/_0199_BinaryTreeRightSideView_1.java[tag=answer]
 ----
 
 == 参考资料

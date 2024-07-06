@@ -25,6 +25,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-10 21:40
  */
 public class _0202_HappyNumber {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 99.99% of Java online submissions for Happy Number.
      *
@@ -55,6 +56,9 @@ public class _0202_HappyNumber {
         }
         return sum;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0202_HappyNumber solution = new _0202_HappyNumber();

@@ -57,12 +57,12 @@ for (int i = 0; i < len; i++) {
 [[src-0026]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0026_RemoveDuplicatesFromSortedArray.java[]
+include::{sourcedir}/_0026_RemoveDuplicatesFromSortedArray.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0026_RemoveDuplicatesFromSortedArray_2.java[]
+include::{sourcedir}/_0026_RemoveDuplicatesFromSortedArray_2.java[tag=answer]
 ----
 
 == 参考资料

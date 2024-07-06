@@ -34,6 +34,6 @@ For example, return the following Ids for the above `Weather` table:
 [[src-0197]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0197_RisingTemperature.java[]
+include::{sourcedir}/_0197_RisingTemperature.java[tag=answer]
 ----
 

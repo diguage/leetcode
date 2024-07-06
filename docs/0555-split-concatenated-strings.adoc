@@ -8,6 +8,6 @@ https://leetcode.com/problems/split-concatenated-strings/[LeetCode - Split Conca
 [[src-0555]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0555_SplitConcatenatedStrings.java[]
+include::{sourcedir}/_0555_SplitConcatenatedStrings.java[tag=answer]
 ----
 

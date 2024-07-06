@@ -8,6 +8,6 @@ https://leetcode.com/problems/get-highest-answer-rate-question/[LeetCode - Get H
 [[src-0578]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0578_GetHighestAnswerRateQuestion.java[]
+include::{sourcedir}/_0578_GetHighestAnswerRateQuestion.java[tag=answer]
 ----
 

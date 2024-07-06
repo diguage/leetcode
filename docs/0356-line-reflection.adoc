@@ -8,6 +8,6 @@ https://leetcode.com/problems/line-reflection/[LeetCode - Line Reflection]
 [[src-0356]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0356_LineReflection.java[]
+include::{sourcedir}/_0356_LineReflection.java[tag=answer]
 ----
 

@@ -50,6 +50,6 @@ The length of path between two nodes is represented by the number of edges betwe
 [[src-0687]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0687_LongestUnivaluePath.java[]
+include::{sourcedir}/_0687_LongestUnivaluePath.java[tag=answer]
 ----
 

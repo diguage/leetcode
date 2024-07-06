@@ -8,6 +8,6 @@ https://leetcode.com/problems/design-log-storage-system/[LeetCode - Design Log S
 [[src-0635]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0635_DesignLogStorageSystem.java[]
+include::{sourcedir}/_0635_DesignLogStorageSystem.java[tag=answer]
 ----
 

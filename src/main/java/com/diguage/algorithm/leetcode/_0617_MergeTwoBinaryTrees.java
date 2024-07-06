@@ -17,10 +17,13 @@ import static java.util.Arrays.asList;
  * @since 2020-01-29 16:17
  */
 public class _0617_MergeTwoBinaryTrees {
-
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Merge Two Binary Trees.
      * Memory Usage: 41.6 MB, less than 22.22% of Java online submissions for Merge Two Binary Trees.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-29 16:17
      */
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         if (Objects.isNull(t1)) {
@@ -34,6 +37,9 @@ public class _0617_MergeTwoBinaryTrees {
         t1.right = mergeTrees(t1.right, t2.right);
         return t1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0617_MergeTwoBinaryTrees solution = new _0617_MergeTwoBinaryTrees();

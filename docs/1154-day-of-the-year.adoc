@@ -52,6 +52,6 @@ Given a string `date` representing a https://en.wikipedia.org/wiki/Gregorian_cal
 [[src-1154]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1154_DayOfTheYear.java[]
+include::{sourcedir}/_1154_DayOfTheYear.java[tag=answer]
 ----
 

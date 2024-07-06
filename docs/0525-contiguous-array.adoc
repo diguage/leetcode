@@ -36,6 +36,6 @@ The length of the given binary array will not exceed 50,000.
 [[src-0525]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0525_ContiguousArray.java[]
+include::{sourcedir}/_0525_ContiguousArray.java[tag=answer]
 ----
 

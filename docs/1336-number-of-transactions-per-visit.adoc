@@ -8,6 +8,6 @@ https://leetcode.com/problems/number-of-transactions-per-visit/[LeetCode - Numbe
 [[src-1336]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1336_NumberOfTransactionsPerVisit.java[]
+include::{sourcedir}/_1336_NumberOfTransactionsPerVisit.java[tag=answer]
 ----
 

@@ -34,9 +34,13 @@ import java.util.Objects;
  * @since 2019-07-11 17:50
  */
 public class _0014_LongestCommonPrefix {
+  // tag::answer[]
 
   /**
    * 使用逐列扫描前进，遇到不同时，则终止。
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2019-07-11 17:50
    */
   public String longestCommonPrefix(String[] strs) {
     if (Objects.isNull(strs) || strs.length == 0) {
@@ -87,6 +91,9 @@ public class _0014_LongestCommonPrefix {
       return "";
     }
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0014_LongestCommonPrefix prefix = new _0014_LongestCommonPrefix();

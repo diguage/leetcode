@@ -39,7 +39,7 @@ Coud you solve it without converting the integer to a string?
 [[src-0009]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0009_PalindromeNumber.java[]
+include::{sourcedir}/_0009_PalindromeNumber.java[tag=answer]
 ----
 
 == 参考资料

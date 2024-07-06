@@ -44,6 +44,7 @@ import java.util.Objects;
  * @since 2020-01-04 10:55
  */
 public class _0122_BestTimeToBuyAndSellStockII {
+  // tag::answer[]
 
     /**
      * Runtime: 1 ms, faster than 87.57% of Java online submissions for Best Time to Buy and Sell Stock II.
@@ -106,6 +107,9 @@ public class _0122_BestTimeToBuyAndSellStockII {
 
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0122_BestTimeToBuyAndSellStockII solution = new _0122_BestTimeToBuyAndSellStockII();

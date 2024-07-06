@@ -8,6 +8,6 @@ https://leetcode.com/problems/divide-chocolate/[LeetCode - Divide Chocolate]
 [[src-1231]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1231_DivideChocolate.java[]
+include::{sourcedir}/_1231_DivideChocolate.java[tag=answer]
 ----
 

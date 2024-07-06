@@ -39,6 +39,6 @@ to the starting pixel.
 [[src-0733]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0733_FloodFill.java[]
+include::{sourcedir}/_0733_FloodFill.java[tag=answer]
 ----
 

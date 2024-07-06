@@ -38,6 +38,6 @@ A Range Module is a module that tracks ranges of numbers. Your task is to design
 [[src-0715]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0715_RangeModule.java[]
+include::{sourcedir}/_0715_RangeModule.java[tag=answer]
 ----
 

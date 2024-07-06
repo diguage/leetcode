@@ -44,6 +44,6 @@ You may return the answer in any order.
 [[src-0967]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0967_NumbersWithSameConsecutiveDifferences.java[]
+include::{sourcedir}/_0967_NumbersWithSameConsecutiveDifferences.java[tag=answer]
 ----
 

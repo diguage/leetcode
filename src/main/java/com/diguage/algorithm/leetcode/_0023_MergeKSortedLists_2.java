@@ -29,6 +29,7 @@ import java.util.PriorityQueue;
  * @since 2024-07-02 20:13:49
  */
 public class _0023_MergeKSortedLists_2 {
+  // tag::answer[]
   public ListNode mergeKLists(ListNode[] lists) {
     if (Objects.isNull(lists) || lists.length == 0) {
       return null;
@@ -51,5 +52,6 @@ public class _0023_MergeKSortedLists_2 {
     }
     return dummy.next;
   }
+  // end::answer[]
 }
 

@@ -11,6 +11,7 @@ import java.util.Objects;
  * @since 2020-01-29 21:59
  */
 public class _0494_TargetSum {
+  // tag::answer[]
     /**
      * Runtime: 3 ms, faster than 90.55% of Java online submissions for Target Sum.
      * Memory Usage: 38.8 MB, less than 10.00% of Java online submissions for Target Sum.
@@ -61,6 +62,9 @@ public class _0494_TargetSum {
             findTargetSumWays(nums, target, sum - num, index + 1);
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0494_TargetSum solution = new _0494_TargetSum();

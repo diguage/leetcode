@@ -40,6 +40,7 @@ import static com.diguage.util.ListNodes.printListNode;
  * @since 2020-01-12 12:20
  */
 public class _0328_OddEvenLinkedList {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Odd Even Linked List.
      *
@@ -63,6 +64,9 @@ public class _0328_OddEvenLinkedList {
         odd.next = evenHead;
         return head;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0328_OddEvenLinkedList solution = new _0328_OddEvenLinkedList();

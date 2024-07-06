@@ -51,6 +51,6 @@ Given an array `nums` of integers, we need to find the maximum possible sum of e
 [[src-1262]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1262_GreatestSumDivisibleByThree.java[]
+include::{sourcedir}/_1262_GreatestSumDivisibleByThree.java[tag=answer]
 ----
 

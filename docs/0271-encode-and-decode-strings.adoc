@@ -8,6 +8,6 @@ https://leetcode.com/problems/encode-and-decode-strings/[LeetCode - Encode and D
 [[src-0271]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0271_EncodeAndDecodeStrings.java[]
+include::{sourcedir}/_0271_EncodeAndDecodeStrings.java[tag=answer]
 ----
 

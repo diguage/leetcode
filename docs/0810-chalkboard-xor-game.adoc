@@ -35,6 +35,6 @@ If Alice erases 2 first, now nums becomes [1, 1]. The bitwise XOR of all the ele
 [[src-0810]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0810_ChalkboardXORGame.java[]
+include::{sourcedir}/_0810_ChalkboardXORGame.java[tag=answer]
 ----
 

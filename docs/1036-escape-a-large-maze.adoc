@@ -49,6 +49,6 @@ Because there are no blocked cells, it's possible to reach the target square.
 [[src-1036]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1036_EscapeALargeMaze.java[]
+include::{sourcedir}/_1036_EscapeALargeMaze.java[tag=answer]
 ----
 

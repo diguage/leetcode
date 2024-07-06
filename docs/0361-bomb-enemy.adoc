@@ -8,6 +8,6 @@ https://leetcode.com/problems/bomb-enemy/[LeetCode - Bomb Enemy]
 [[src-0361]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0361_BombEnemy.java[]
+include::{sourcedir}/_0361_BombEnemy.java[tag=answer]
 ----
 

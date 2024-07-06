@@ -59,6 +59,6 @@ k = 1
 [[src-1293]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1293_ShortestPathInAGridWithObstaclesElimination.java[]
+include::{sourcedir}/_1293_ShortestPathInAGridWithObstaclesElimination.java[tag=answer]
 ----
 

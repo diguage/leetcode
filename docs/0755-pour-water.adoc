@@ -8,6 +8,6 @@ https://leetcode.com/problems/pour-water/[LeetCode - Pour Water]
 [[src-0755]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0755_PourWater.java[]
+include::{sourcedir}/_0755_PourWater.java[tag=answer]
 ----
 

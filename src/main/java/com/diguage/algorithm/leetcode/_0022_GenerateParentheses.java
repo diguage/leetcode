@@ -27,6 +27,7 @@ import java.util.List;
  * @since 2019-07-27 08:11
  */
 public class _0022_GenerateParentheses {
+  // tag::answer[]
   /**
    * Runtime: 2 ms, faster than 21.88% of Java online submissions for Generate Parentheses.
    *
@@ -52,6 +53,9 @@ public class _0022_GenerateParentheses {
       backtrack(result, curr + ")", open, close + 1, n);
     }
   }
+
+
+  // end::answer[]
 
 
   public static void main(String[] args) {

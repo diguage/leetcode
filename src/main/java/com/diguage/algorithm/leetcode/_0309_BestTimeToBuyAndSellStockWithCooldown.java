@@ -9,6 +9,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-28 15:16
  */
 public class _0309_BestTimeToBuyAndSellStockWithCooldown {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Best Time to Buy and Sell Stock with Cooldown.
@@ -28,6 +29,9 @@ public class _0309_BestTimeToBuyAndSellStockWithCooldown {
         }
         return dp0;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0309_BestTimeToBuyAndSellStockWithCooldown solution = new _0309_BestTimeToBuyAndSellStockWithCooldown();

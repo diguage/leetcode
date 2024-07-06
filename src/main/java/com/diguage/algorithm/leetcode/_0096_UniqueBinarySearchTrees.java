@@ -9,6 +9,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-27 22:14
  */
 public class _0096_UniqueBinarySearchTrees {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Unique Binary Search Trees.
@@ -41,6 +42,9 @@ public class _0096_UniqueBinarySearchTrees {
         }
         return g[n];
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0096_UniqueBinarySearchTrees solution = new _0096_UniqueBinarySearchTrees();

@@ -8,6 +8,6 @@ https://leetcode.com/problems/encode-string-with-shortest-length/[LeetCode - Enc
 [[src-0471]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0471_EncodeStringWithShortestLength.java[]
+include::{sourcedir}/_0471_EncodeStringWithShortestLength.java[tag=answer]
 ----
 

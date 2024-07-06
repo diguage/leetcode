@@ -51,6 +51,6 @@ Return a sequence of moves that makes our answer equal to `target` in the minimu
 [[src-1138]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1138_AlphabetBoardPath.java[]
+include::{sourcedir}/_1138_AlphabetBoardPath.java[tag=answer]
 ----
 

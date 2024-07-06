@@ -64,6 +64,6 @@ The total number of cherries picked up is 5, and this is the maximum possible.
 [[src-0741]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0741_CherryPickup.java[]
+include::{sourcedir}/_0741_CherryPickup.java[tag=answer]
 ----
 

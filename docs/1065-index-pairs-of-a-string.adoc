@@ -8,6 +8,6 @@ https://leetcode.com/problems/index-pairs-of-a-string/[LeetCode - Index Pairs of
 [[src-1065]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1065_IndexPairsOfAString.java[]
+include::{sourcedir}/_1065_IndexPairsOfAString.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/flip-game/[LeetCode - Flip Game]
 [[src-0293]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0293_FlipGame.java[]
+include::{sourcedir}/_0293_FlipGame.java[tag=answer]
 ----
 

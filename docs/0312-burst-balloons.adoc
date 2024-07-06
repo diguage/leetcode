@@ -28,6 +28,6 @@ Find the maximum coins you can collect by bursting the balloons wisely.
 [[src-0312]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0312_BurstBalloons.java[]
+include::{sourcedir}/_0312_BurstBalloons.java[tag=answer]
 ----
 

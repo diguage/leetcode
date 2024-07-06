@@ -31,6 +31,6 @@ You may assume that the intervals were initially sorted according to their start
 [[src-0057]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0057_InsertInterval.java[]
+include::{sourcedir}/_0057_InsertInterval.java[tag=answer]
 ----
 

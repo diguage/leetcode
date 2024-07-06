@@ -38,8 +38,12 @@ import java.util.*;
  * @since 2024-07-02 19:27:43
  */
 public class _0003_LongestSubstringWithoutRepeatingCharacters_2 {
+  // tag::answer[]
   /**
    * 有思路，写不出代码
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-07-02 19:27:43
    */
   public int lengthOfLongestSubstring(String s) {
     if (s == null || s.isEmpty()) {
@@ -62,6 +66,9 @@ public class _0003_LongestSubstringWithoutRepeatingCharacters_2 {
     }
     return result == Integer.MAX_VALUE ? 0 : result;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0003_LongestSubstringWithoutRepeatingCharacters_2 result = new _0003_LongestSubstringWithoutRepeatingCharacters_2();

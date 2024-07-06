@@ -8,6 +8,6 @@ https://leetcode.com/problems/list-the-products-ordered-in-a-period/[LeetCode - 
 [[src-1327]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1327_ListTheProductsOrderedInAPeriod.java[]
+include::{sourcedir}/_1327_ListTheProductsOrderedInAPeriod.java[tag=answer]
 ----
 

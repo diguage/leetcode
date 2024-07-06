@@ -36,6 +36,6 @@ WordFilter.f("b", "") // returns -1
 [[src-0745]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0745_PrefixAndSuffixSearch.java[]
+include::{sourcedir}/_0745_PrefixAndSuffixSearch.java[tag=answer]
 ----
 

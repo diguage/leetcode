@@ -33,6 +33,7 @@ import java.util.stream.Collectors;
  * @since 2020-01-02 19:56
  */
 public class _0078_Subsets {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Subsets.
      * 
@@ -79,6 +80,9 @@ public class _0078_Subsets {
                 .collect(Collectors.toList());
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0078_Subsets solution = new _0078_Subsets();

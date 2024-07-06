@@ -36,6 +36,7 @@ import java.util.Arrays;
  * @since 2018-07-14 15:30
  */
 public class _0066_PlusOne {
+  // tag::answer[]
     public static int[] plusOne(int[] digits) {
         if (digits == null || digits.length == 0) {
             return digits;
@@ -53,6 +54,9 @@ public class _0066_PlusOne {
         result[0] = 1;
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         int[] a1 = new int[]{4, 3, 2, 1};

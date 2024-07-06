@@ -8,6 +8,6 @@ https://leetcode.com/problems/game-play-analysis-iii/[LeetCode - Game Play Analy
 [[src-0534]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0534_GamePlayAnalysisIII.java[]
+include::{sourcedir}/_0534_GamePlayAnalysisIII.java[tag=answer]
 ----
 

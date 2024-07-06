@@ -32,6 +32,6 @@ You need to return the number of important reverse pairs in the given array.
 [[src-0493]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0493_ReversePairs.java[]
+include::{sourcedir}/_0493_ReversePairs.java[tag=answer]
 ----
 

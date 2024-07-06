@@ -38,6 +38,6 @@ The input will be two strings, and the output needs to be the length of the long
 [[src-0521]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0521_LongestUncommonSubsequenceI.java[]
+include::{sourcedir}/_0521_LongestUncommonSubsequenceI.java[tag=answer]
 ----
 

@@ -31,6 +31,6 @@ After doing so, return the number of remaining intervals.
 [[src-1288]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1288_RemoveCoveredIntervals.java[]
+include::{sourcedir}/_1288_RemoveCoveredIntervals.java[tag=answer]
 ----
 

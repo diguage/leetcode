@@ -16,6 +16,7 @@ import static java.util.Arrays.asList;
  * @since 2020-01-29 16:34
  */
 public class _0337_HouseRobberIII {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for House Robber III.
      * Memory Usage: 41.3 MB, less than 13.89% of Java online submissions for House Robber III.
@@ -38,6 +39,9 @@ public class _0337_HouseRobberIII {
         result[1] = left[0] + right[0] + root.val;
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0337_HouseRobberIII solution = new _0337_HouseRobberIII();

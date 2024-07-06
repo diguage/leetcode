@@ -41,6 +41,6 @@ s = "abpcplea", d = ["a","b","c"]
 [[src-0524]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0524_LongestWordInDictionaryThroughDeleting.java[]
+include::{sourcedir}/_0524_LongestWordInDictionaryThroughDeleting.java[tag=answer]
 ----
 

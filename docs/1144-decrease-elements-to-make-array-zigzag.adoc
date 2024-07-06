@@ -45,6 +45,6 @@ Return the minimum number of moves to transform the given array `nums` into a zi
 [[src-1144]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1144_DecreaseElementsToMakeArrayZigzag.java[]
+include::{sourcedir}/_1144_DecreaseElementsToMakeArrayZigzag.java[tag=answer]
 ----
 

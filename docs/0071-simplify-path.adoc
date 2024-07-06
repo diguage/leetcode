@@ -122,6 +122,6 @@ Note that the returned canonical path must always begin with a slash `/`, and th
 [[src-0071]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0071_SimplifyPath.java[]
+include::{sourcedir}/_0071_SimplifyPath.java[tag=answer]
 ----
 

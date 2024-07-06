@@ -36,12 +36,12 @@ image::images/0167-05.png[{image_attr}]
 [[src-0167]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0167_TwoSumIIInputArrayIsSorted.java[]
+include::{sourcedir}/_0167_TwoSumIIInputArrayIsSorted.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0167_TwoSumIIInputArrayIsSorted_2.java[]
+include::{sourcedir}/_0167_TwoSumIIInputArrayIsSorted_2.java[tag=answer]
 ----
 
 == 参考资料

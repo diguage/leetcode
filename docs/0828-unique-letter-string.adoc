@@ -49,6 +49,6 @@ Sum of lengths of all substring is 1 + 1 + 1 + 2 + 2 + 3 = 10
 [[src-0828]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0828_UniqueLetterString.java[]
+include::{sourcedir}/_0828_UniqueLetterString.java[tag=answer]
 ----
 

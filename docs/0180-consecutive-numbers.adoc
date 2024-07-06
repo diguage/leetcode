@@ -36,6 +36,6 @@ For example, given the above `Logs` table, `1` is the only number that appears c
 [[src-0180]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0180_ConsecutiveNumbers.java[]
+include::{sourcedir}/_0180_ConsecutiveNumbers.java[tag=answer]
 ----
 

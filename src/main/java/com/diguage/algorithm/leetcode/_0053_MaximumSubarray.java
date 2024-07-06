@@ -26,6 +26,7 @@ import java.util.Objects;
  * @since 2019-10-23 11:47
  */
 public class _0053_MaximumSubarray {
+  // tag::answer[]
     public int maxSubArrayDP(int[] nums) {
         // TODO Dynamic Programming
         // TODO Divide and Conquer
@@ -48,6 +49,9 @@ public class _0053_MaximumSubarray {
         }
         return largestSum;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0053_MaximumSubarray solution = new _0053_MaximumSubarray();

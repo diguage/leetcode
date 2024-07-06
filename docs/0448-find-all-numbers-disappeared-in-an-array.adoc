@@ -53,6 +53,6 @@ Could you do it without extra space and in O(_n_) runtime? You may assume the re
 [[src-0448]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0448_FindAllNumbersDisappearedInAnArray.java[]
+include::{sourcedir}/_0448_FindAllNumbersDisappearedInAnArray.java[tag=answer]
 ----
 

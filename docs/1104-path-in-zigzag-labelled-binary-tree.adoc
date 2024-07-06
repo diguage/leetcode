@@ -40,6 +40,6 @@ Given the `label` of a node in this tree, return the labels in the path from the
 [[src-1104]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1104_PathInZigzagLabelledBinaryTree.java[]
+include::{sourcedir}/_1104_PathInZigzagLabelledBinaryTree.java[tag=answer]
 ----
 

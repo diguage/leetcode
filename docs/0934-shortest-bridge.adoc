@@ -58,6 +58,6 @@ Return the smallest number of `0`s that must be flipped.  (It is guaranteed that
 [[src-0934]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0934_ShortestBridge.java[]
+include::{sourcedir}/_0934_ShortestBridge.java[tag=answer]
 ----
 

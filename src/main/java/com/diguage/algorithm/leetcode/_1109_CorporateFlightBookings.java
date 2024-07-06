@@ -5,6 +5,12 @@ package com.diguage.algorithm.leetcode;
  * @since 2024-07-05 15:17:57
  */
 public class _1109_CorporateFlightBookings {
+  // tag::answer[]
+
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-07-05 15:17:57
+   */
   public int[] corpFlightBookings(int[][] bookings, int n) {
     if (bookings == null || bookings.length == 0) {
       return new int[n];
@@ -24,4 +30,5 @@ public class _1109_CorporateFlightBookings {
     }
     return flights;
   }
+  // end::answer[]
 }

@@ -61,6 +61,6 @@ Return the maximum number of rows that have all values equal after some number o
 [[src-1072]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1072_FlipColumnsForMaximumNumberOfEqualRows.java[]
+include::{sourcedir}/_1072_FlipColumnsForMaximumNumberOfEqualRows.java[tag=answer]
 ----
 

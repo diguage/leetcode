@@ -38,6 +38,7 @@ import java.util.Objects;
  * @since 2019-10-26 23:50
  */
 public class _0063_UniquePathsII {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Unique Paths II.
      * <p>
@@ -149,6 +150,9 @@ public class _0063_UniquePathsII {
         }
         return Math.max(obstacleGrid[m - 1][n - 1], 0);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0063_UniquePathsII solution = new _0063_UniquePathsII();

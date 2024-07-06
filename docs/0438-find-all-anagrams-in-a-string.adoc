@@ -43,7 +43,7 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 [[src-0438]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0438_FindAllAnagramsInAString.java[]
+include::{sourcedir}/_0438_FindAllAnagramsInAString.java[tag=answer]
 ----
 
 == 思考题

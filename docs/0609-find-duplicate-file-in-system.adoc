@@ -55,6 +55,6 @@ The *output* is a list of group of duplicate file paths. For each group, it cont
 [[src-0609]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0609_FindDuplicateFileInSystem.java[]
+include::{sourcedir}/_0609_FindDuplicateFileInSystem.java[tag=answer]
 ----
 

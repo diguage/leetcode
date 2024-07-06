@@ -29,6 +29,6 @@ For instance, the skyline in Figure B should be represented as:`[ [2 10], [3 15]
 [[src-0218]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0218_TheSkylineProblem.java[]
+include::{sourcedir}/_0218_TheSkylineProblem.java[tag=answer]
 ----
 

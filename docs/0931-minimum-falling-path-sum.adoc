@@ -40,6 +40,6 @@ The falling path with the smallest sum is `[1,4,7]`, so the answer is `12`.
 [[src-0931]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0931_MinimumFallingPathSum.java[]
+include::{sourcedir}/_0931_MinimumFallingPathSum.java[tag=answer]
 ----
 

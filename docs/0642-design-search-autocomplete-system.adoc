@@ -8,6 +8,6 @@ https://leetcode.com/problems/design-search-autocomplete-system/[LeetCode - Desi
 [[src-0642]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0642_DesignSearchAutocompleteSystem.java[]
+include::{sourcedir}/_0642_DesignSearchAutocompleteSystem.java[tag=answer]
 ----
 

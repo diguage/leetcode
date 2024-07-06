@@ -42,6 +42,6 @@ Given an integer `n`, return *any* array containing `n` *unique* integers such t
 [[src-1304]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1304_FindNUniqueIntegersSumUpToZero.java[]
+include::{sourcedir}/_1304_FindNUniqueIntegersSumUpToZero.java[tag=answer]
 ----
 

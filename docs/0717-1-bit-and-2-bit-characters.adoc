@@ -42,6 +42,6 @@ The only way to decode it is two-bit character and two-bit character. So the las
 [[src-0717]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0717_1BitAnd2BitCharacters.java[]
+include::{sourcedir}/_0717_1BitAnd2BitCharacters.java[tag=answer]
 ----
 

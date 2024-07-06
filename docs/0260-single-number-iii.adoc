@@ -24,6 +24,6 @@ Given an array of numbers `nums`, in which exactly two elements appear only once
 [[src-0260]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0260_SingleNumberIII.java[]
+include::{sourcedir}/_0260_SingleNumberIII.java[tag=answer]
 ----
 

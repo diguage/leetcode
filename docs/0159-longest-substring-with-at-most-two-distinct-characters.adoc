@@ -8,6 +8,6 @@ https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-charac
 [[src-0159]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0159_LongestSubstringWithAtMostTwoDistinctCharacters.java[]
+include::{sourcedir}/_0159_LongestSubstringWithAtMostTwoDistinctCharacters.java[tag=answer]
 ----
 

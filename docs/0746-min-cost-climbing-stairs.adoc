@@ -42,6 +42,6 @@ Once you pay the cost, you can either climb one or two steps. You need to find m
 [[src-0746]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0746_MinCostClimbingStairs.java[]
+include::{sourcedir}/_0746_MinCostClimbingStairs.java[tag=answer]
 ----
 

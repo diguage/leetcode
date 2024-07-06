@@ -65,6 +65,6 @@ A *Palindrome String* is one that reads the same backward as well as forward.
 [[src-1312]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1312_MinimumInsertionStepsToMakeAStringPalindrome.java[]
+include::{sourcedir}/_1312_MinimumInsertionStepsToMakeAStringPalindrome.java[tag=answer]
 ----
 

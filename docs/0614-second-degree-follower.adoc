@@ -8,6 +8,6 @@ https://leetcode.com/problems/second-degree-follower/[LeetCode - Second Degree F
 [[src-0614]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0614_SecondDegreeFollower.java[]
+include::{sourcedir}/_0614_SecondDegreeFollower.java[tag=answer]
 ----
 

@@ -63,6 +63,6 @@ Given a collection of integers that might contain duplicates, *_nums_*, return a
 [[src-0090]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0090_SubsetsII.java[]
+include::{sourcedir}/_0090_SubsetsII.java[tag=answer]
 ----
 

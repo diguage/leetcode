@@ -47,6 +47,6 @@ Now your task is to find the maximum number of strings that you can form with gi
 [[src-0474]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0474_OnesAndZeroes.java[]
+include::{sourcedir}/_0474_OnesAndZeroes.java[tag=answer]
 ----
 

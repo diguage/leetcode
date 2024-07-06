@@ -26,6 +26,6 @@ Assume that the total area is never beyond the maximum possible value of *int*.
 [[src-0223]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0223_RectangleArea.java[]
+include::{sourcedir}/_0223_RectangleArea.java[tag=answer]
 ----
 

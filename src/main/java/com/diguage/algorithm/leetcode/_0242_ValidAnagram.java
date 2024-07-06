@@ -33,6 +33,7 @@ import java.util.Objects;
  * @since 2020-01-10 23:48
  */
 public class _0242_ValidAnagram {
+  // tag::answer[]
     /**
      * Runtime: 3 ms, faster than 93.97% of Java online submissions for Valid Anagram.
      *
@@ -68,6 +69,9 @@ public class _0242_ValidAnagram {
         Arrays.sort(tChars);
         return Arrays.equals(sChars, tChars);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0242_ValidAnagram solution = new _0242_ValidAnagram();

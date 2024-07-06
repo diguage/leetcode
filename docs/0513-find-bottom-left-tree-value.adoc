@@ -56,7 +56,7 @@ You may assume the tree (i.e., the given root node) is not *NULL*.
 [[src-0513]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0513_FindBottomLeftTreeValue.java[]
+include::{sourcedir}/_0513_FindBottomLeftTreeValue.java[tag=answer]
 ----
 
 == 参考资料

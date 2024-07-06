@@ -41,6 +41,6 @@ _(Formally, a closed interval `[a, b]` (with `a <= b`) denotes the set of real n
 [[src-0986]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0986_IntervalListIntersections.java[]
+include::{sourcedir}/_0986_IntervalListIntersections.java[tag=answer]
 ----
 

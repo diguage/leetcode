@@ -27,6 +27,6 @@ A solution set is:
 [[src-0018]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0018_4Sum.java[]
+include::{sourcedir}/_0018_4Sum.java[tag=answer]
 ----
 

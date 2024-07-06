@@ -30,6 +30,6 @@ Given an array of *2n* integers, your task is to group these integers into *n* p
 [[src-0561]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0561_ArrayPartitionI.java[]
+include::{sourcedir}/_0561_ArrayPartitionI.java[tag=answer]
 ----
 

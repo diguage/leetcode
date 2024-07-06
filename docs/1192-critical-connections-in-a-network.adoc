@@ -36,6 +36,6 @@ image::https://assets.leetcode.com/uploads/2019/09/03/1537_ex1_2.png[{image_attr
 [[src-1192]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1192_CriticalConnectionsInANetwork.java[]
+include::{sourcedir}/_1192_CriticalConnectionsInANetwork.java[tag=answer]
 ----
 

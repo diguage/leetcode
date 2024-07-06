@@ -80,6 +80,6 @@ We have to delete every column.
 [[src-0955]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0955_DeleteColumnsToMakeSortedII.java[]
+include::{sourcedir}/_0955_DeleteColumnsToMakeSortedII.java[tag=answer]
 ----
 

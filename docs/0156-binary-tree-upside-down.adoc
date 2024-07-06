@@ -8,6 +8,6 @@ https://leetcode.com/problems/binary-tree-upside-down/[LeetCode - Binary Tree Up
 [[src-0156]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0156_BinaryTreeUpsideDown.java[]
+include::{sourcedir}/_0156_BinaryTreeUpsideDown.java[tag=answer]
 ----
 

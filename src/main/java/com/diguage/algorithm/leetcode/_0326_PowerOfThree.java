@@ -42,6 +42,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-14 22:54
  */
 public class _0326_PowerOfThree {
+  // tag::answer[]
     /**
      * Runtime: 11 ms, faster than 89.24% of Java online submissions for Power of Three.
      *
@@ -85,6 +86,9 @@ public class _0326_PowerOfThree {
         }
         return false;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0326_PowerOfThree solution = new _0326_PowerOfThree();

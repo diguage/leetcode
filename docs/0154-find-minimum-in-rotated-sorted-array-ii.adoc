@@ -77,7 +77,7 @@ image::images/0154-case-3.png[{image_attr}]
 [[src-0154]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0154_FindMinimumInRotatedSortedArrayII.java[]
+include::{sourcedir}/_0154_FindMinimumInRotatedSortedArrayII.java[tag=answer]
 ----
 
 == 参考资料

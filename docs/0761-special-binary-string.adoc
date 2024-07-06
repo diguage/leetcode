@@ -36,6 +36,6 @@ This is the lexicographically largest string possible after some number of swaps
 [[src-0761]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0761_SpecialBinaryString.java[]
+include::{sourcedir}/_0761_SpecialBinaryString.java[tag=answer]
 ----
 

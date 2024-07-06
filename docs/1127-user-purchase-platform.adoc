@@ -8,6 +8,6 @@ https://leetcode.com/problems/user-purchase-platform/[LeetCode - User Purchase P
 [[src-1127]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1127_UserPurchasePlatform.java[]
+include::{sourcedir}/_1127_UserPurchasePlatform.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/fixed-point/[LeetCode - Fixed Point]
 [[src-1064]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1064_FixedPoint.java[]
+include::{sourcedir}/_1064_FixedPoint.java[tag=answer]
 ----
 

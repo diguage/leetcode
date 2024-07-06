@@ -50,6 +50,6 @@ Then, delete 3 again to earn 3 points, and 3 again to earn 3 points.
 [[src-0740]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0740_DeleteAndEarn.java[]
+include::{sourcedir}/_0740_DeleteAndEarn.java[tag=answer]
 ----
 

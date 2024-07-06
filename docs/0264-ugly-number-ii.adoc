@@ -27,6 +27,6 @@ Ugly numbers are* positive numbers* whose prime factors only include `2, 3, 5`.
 [[src-0264]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0264_UglyNumberII.java[]
+include::{sourcedir}/_0264_UglyNumberII.java[tag=answer]
 ----
 

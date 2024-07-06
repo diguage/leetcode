@@ -16,6 +16,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2020-01-28 23:06
  */
 public class _0437_PathSumIII {
+  // tag::answer[]
     /**
      * Runtime: 23 ms, faster than 10.40% of Java online submissions for Path Sum III.
      * Memory Usage: 39.1 MB, less than 90.91% of Java online submissions for Path Sum III.
@@ -41,6 +42,9 @@ public class _0437_PathSumIII {
         result += childPathSum(root.right, sum - root.val);
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0437_PathSumIII solution = new _0437_PathSumIII();

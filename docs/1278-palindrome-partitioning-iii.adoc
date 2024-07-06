@@ -53,6 +53,6 @@ Return the minimal number of characters that you need to change to divide the st
 [[src-1278]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1278_PalindromePartitioningIII.java[]
+include::{sourcedir}/_1278_PalindromePartitioningIII.java[tag=answer]
 ----
 

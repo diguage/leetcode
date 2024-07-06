@@ -4,6 +4,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 public class _0503_NextGreaterElementII {
+  // tag::answer[]
   /**
    * 参考 496 题，自己写出来的
    *
@@ -26,4 +27,5 @@ public class _0503_NextGreaterElementII {
     }
     return result;
   }
+  // end::answer[]
 }

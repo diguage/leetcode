@@ -8,6 +8,6 @@ https://leetcode.com/problems/3sum-smaller/[LeetCode - 3Sum Smaller]
 [[src-0259]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0259_3SumSmaller.java[]
+include::{sourcedir}/_0259_3SumSmaller.java[tag=answer]
 ----
 

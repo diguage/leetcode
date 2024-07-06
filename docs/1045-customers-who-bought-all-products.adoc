@@ -8,6 +8,6 @@ https://leetcode.com/problems/customers-who-bought-all-products/[LeetCode - Cust
 [[src-1045]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1045_CustomersWhoBoughtAllProducts.java[]
+include::{sourcedir}/_1045_CustomersWhoBoughtAllProducts.java[tag=answer]
 ----
 

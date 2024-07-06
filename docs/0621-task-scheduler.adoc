@@ -72,6 +72,6 @@ You need to return the *least* number of intervals the CPU will take to finish a
 [[src-0621]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0621_TaskScheduler.java[]
+include::{sourcedir}/_0621_TaskScheduler.java[tag=answer]
 ----
 

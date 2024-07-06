@@ -42,6 +42,7 @@ import java.util.Queue;
  * @since 2020-01-26 16:36
  */
 public class _0207_CourseSchedule {
+  // tag::answer[]
     /**
      * Runtime: 20 ms, faster than 36.81% of Java online submissions for Course Schedule.
      *
@@ -78,6 +79,9 @@ public class _0207_CourseSchedule {
         }
         return count == numCourses;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0207_CourseSchedule solution = new _0207_CourseSchedule();

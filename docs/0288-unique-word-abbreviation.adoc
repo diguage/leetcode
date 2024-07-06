@@ -8,6 +8,6 @@ https://leetcode.com/problems/unique-word-abbreviation/[LeetCode - Unique Word A
 [[src-0288]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0288_UniqueWordAbbreviation.java[]
+include::{sourcedir}/_0288_UniqueWordAbbreviation.java[tag=answer]
 ----
 

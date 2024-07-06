@@ -8,6 +8,6 @@ https://leetcode.com/problems/running-total-for-different-genders/[LeetCode - Ru
 [[src-1308]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1308_RunningTotalForDifferentGenders.java[]
+include::{sourcedir}/_1308_RunningTotalForDifferentGenders.java[tag=answer]
 ----
 

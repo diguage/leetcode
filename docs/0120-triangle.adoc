@@ -43,6 +43,6 @@ image::images/0120-1.png[{image_attr}]
 [[src-0120]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0120_Triangle.java[]
+include::{sourcedir}/_0120_Triangle.java[tag=answer]
 ----
 

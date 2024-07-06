@@ -16,6 +16,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-05 09:53
  */
 public class _0100_SameTree {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Same Tree.
      * Memory Usage: 36.4 MB, less than 5.75% of Java online submissions for Same Tree.
@@ -36,6 +37,9 @@ public class _0100_SameTree {
         }
         return isSameTree(p.right, q.right);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0100_SameTree solution = new _0100_SameTree();

@@ -17,6 +17,7 @@ import java.util.Stack;
  * @since 2020-06-16 10:59
  */
 public class _0144_BinaryTreePreorderTraversal {
+  // tag::answer[]
 
   /**
    * Runtime: 0 ms, faster than 100.00% of Java online submissions for Binary Tree Preorder Traversal.
@@ -41,4 +42,5 @@ public class _0144_BinaryTreePreorderTraversal {
     }
     return result;
   }
+  // end::answer[]
 }

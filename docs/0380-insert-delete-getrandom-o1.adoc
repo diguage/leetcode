@@ -46,12 +46,12 @@ randomSet.getRandom();
 [[src-0380]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0380_InsertDeleteGetRandomO1.java[]
+include::{sourcedir}/_0380_InsertDeleteGetRandomO1.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0380_InsertDeleteGetRandomO1_2.java[]
+include::{sourcedir}/_0380_InsertDeleteGetRandomO1_2.java[tag=answer]
 ----
 
 == 参考资料

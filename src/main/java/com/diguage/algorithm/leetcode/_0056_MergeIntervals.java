@@ -35,6 +35,7 @@ import static com.diguage.util.Printers.printMatrix;
  * @since 2019-10-23 12:27
  */
 public class _0056_MergeIntervals {
+  // tag::answer[]
     public int[][] merge(int[][] intervals) {
         if (Objects.isNull(intervals) || intervals.length <= 1) {
             return intervals;
@@ -51,6 +52,9 @@ public class _0056_MergeIntervals {
         }
         return Arrays.copyOf(intervals, index + 1);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0056_MergeIntervals solution = new _0056_MergeIntervals();

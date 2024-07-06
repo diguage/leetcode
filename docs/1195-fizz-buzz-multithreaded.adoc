@@ -40,6 +40,6 @@ Implement a multithreaded version of `FizzBuzz` with *four* threads. The same in
 [[src-1195]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1195_FizzBuzzMultithreaded.java[]
+include::{sourcedir}/_1195_FizzBuzzMultithreaded.java[tag=answer]
 ----
 

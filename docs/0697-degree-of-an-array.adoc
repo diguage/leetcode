@@ -41,6 +41,6 @@ The shortest length is 2. So return 2.
 [[src-0697]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0697_DegreeOfAnArray.java[]
+include::{sourcedir}/_0697_DegreeOfAnArray.java[tag=answer]
 ----
 

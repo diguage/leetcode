@@ -8,6 +8,6 @@ https://leetcode.com/problems/nested-list-weight-sum-ii/[LeetCode - Nested List 
 [[src-0364]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0364_NestedListWeightSumII.java[]
+include::{sourcedir}/_0364_NestedListWeightSumII.java[tag=answer]
 ----
 

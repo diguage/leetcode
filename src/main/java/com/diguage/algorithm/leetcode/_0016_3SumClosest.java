@@ -24,10 +24,14 @@ import java.util.Objects;
  * @since 2018-07-15 00:55
  */
 public class _0016_3SumClosest {
+  // tag::answer[]
     /**
      * Runtime: 4 ms, faster than 96.20% of Java online submissions for 3Sum Closest.
      *
      * Memory Usage: 36.1 MB, less than 100.00% of Java online submissions for 3Sum Closest.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2018-07-15 00:55
      */
     public int threeSumClosest(int[] nums, int target) {
         if (Objects.isNull(nums)) {
@@ -102,6 +106,9 @@ public class _0016_3SumClosest {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0016_3SumClosest solution = new _0016_3SumClosest();

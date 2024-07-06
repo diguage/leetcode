@@ -65,7 +65,7 @@ image::images/0222-03.png[{image_attr}]
 [[src-0222]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0222_CountCompleteTreeNodes.java[]
+include::{sourcedir}/_0222_CountCompleteTreeNodes.java[tag=answer]
 ----
 
 == 参考资料

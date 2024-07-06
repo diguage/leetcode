@@ -51,6 +51,6 @@ image::https://assets.leetcode.com/uploads/2018/12/29/bst_cameras_02.png[{image_
 [[src-0968]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0968_BinaryTreeCameras.java[]
+include::{sourcedir}/_0968_BinaryTreeCameras.java[tag=answer]
 ----
 

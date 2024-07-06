@@ -8,6 +8,6 @@ https://leetcode.com/problems/palindrome-permutation/[LeetCode - Palindrome Perm
 [[src-0266]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0266_PalindromePermutation.java[]
+include::{sourcedir}/_0266_PalindromePermutation.java[tag=answer]
 ----
 

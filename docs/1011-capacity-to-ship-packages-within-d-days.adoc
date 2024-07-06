@@ -67,6 +67,6 @@ A ship capacity of 6 is the minimum to ship all the packages in 3 days like this
 [[src-1011]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1011_CapacityToShipPackagesWithinDDays.java[]
+include::{sourcedir}/_1011_CapacityToShipPackagesWithinDDays.java[tag=answer]
 ----
 

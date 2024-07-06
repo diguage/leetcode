@@ -25,6 +25,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-25 17:03
  */
 public class _0371_SumOfTwoIntegers {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Sum of Two Integers.
      *
@@ -47,6 +48,9 @@ public class _0371_SumOfTwoIntegers {
     public int getSum(int a, int b) {
         return b == 0 ? a : getSum(a ^ b, (a & b) << 1);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0371_SumOfTwoIntegers solution = new _0371_SumOfTwoIntegers();

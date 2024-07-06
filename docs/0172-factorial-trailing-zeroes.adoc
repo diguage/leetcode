@@ -52,6 +52,6 @@ Given an integer _n_, return the number of trailing zeroes in _n_!.
 [[src-0172]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0172_FactorialTrailingZeroes.java[]
+include::{sourcedir}/_0172_FactorialTrailingZeroes.java[tag=answer]
 ----
 

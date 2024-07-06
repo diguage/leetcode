@@ -42,6 +42,6 @@ In step 3, we use *Paste* operation to get 'AAA'.
 [[src-0650]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0650_2KeysKeyboard.java[]
+include::{sourcedir}/_0650_2KeysKeyboard.java[tag=answer]
 ----
 

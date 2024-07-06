@@ -1,10 +1,11 @@
 package com.diguage.algorithm.leetcode;
 
-/**
- * @author D瓜哥 · https://www.diguage.com
- * @since 2024-07-01 15:22:49
- */
 public class _0704_BinarySearch {
+  // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-07-01 15:22:49
+   */
   public int search(int[] nums, int target) {
     if (nums == null || nums.length == 0) {
       return -1;
@@ -23,4 +24,5 @@ public class _0704_BinarySearch {
     }
     return -1;
   }
+  // end::answer[]
 }

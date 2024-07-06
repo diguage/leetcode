@@ -19,6 +19,7 @@ import static java.util.Arrays.asList;
  * @since 2024-06-24 15:03:55
  */
 public class _0109_ConvertSortedListToBinarySearchTree_2 {
+  // tag::answer[]
 
     /**
      * 使用递归，将其逐步分解成左树，根节点，右树三部分，然后将其组成一棵树即可。
@@ -49,6 +50,9 @@ public class _0109_ConvertSortedListToBinarySearchTree_2 {
     root.right = buildTree(nums, mid + 1, right);
     return root;
   }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0109_ConvertSortedListToBinarySearchTree_2 solution = new _0109_ConvertSortedListToBinarySearchTree_2();

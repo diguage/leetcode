@@ -8,6 +8,6 @@ https://leetcode.com/problems/maximum-vacation-days/[LeetCode - Maximum Vacation
 [[src-0568]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0568_MaximumVacationDays.java[]
+include::{sourcedir}/_0568_MaximumVacationDays.java[tag=answer]
 ----
 

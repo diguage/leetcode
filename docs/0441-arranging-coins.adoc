@@ -42,6 +42,6 @@ Because the 4th row is incomplete, we return 3.
 [[src-0441]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0441_ArrangingCoins.java[]
+include::{sourcedir}/_0441_ArrangingCoins.java[tag=answer]
 ----
 

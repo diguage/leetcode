@@ -77,6 +77,6 @@ Similarly You cannot jump from index 3 to index 2 or index 1.
 [[src-1340]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1340_JumpGameV.java[]
+include::{sourcedir}/_1340_JumpGameV.java[tag=answer]
 ----
 

@@ -17,6 +17,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-04 22:39
  */
 public class _0083_RemoveDuplicatesFromSortedList {
+  // tag::answer[]
 
     /**
      * Runtime: 1 ms, faster than 22.08% of Java online submissions for Remove Duplicates from Sorted List.
@@ -33,6 +34,9 @@ public class _0083_RemoveDuplicatesFromSortedList {
         }
         return head;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0083_RemoveDuplicatesFromSortedList solution = new _0083_RemoveDuplicatesFromSortedList();

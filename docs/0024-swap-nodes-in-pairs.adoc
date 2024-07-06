@@ -37,6 +37,6 @@ Given `1->2->3->4`, you should return the list as `2->1->4->3`.
 [[src-0024]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0024_SwapNodesInPairs.java[]
+include::{sourcedir}/_0024_SwapNodesInPairs.java[tag=answer]
 ----
 

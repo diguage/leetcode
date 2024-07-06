@@ -39,6 +39,7 @@ import java.util.Set;
  * @since 2020-01-05 20:01
  */
 public class _0217_ContainsDuplicate {
+  // tag::answer[]
     /**
      * Runtime: 9 ms, faster than 58.06% of Java online submissions for Contains Duplicate.
      *
@@ -76,6 +77,9 @@ public class _0217_ContainsDuplicate {
         }
         return false;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0217_ContainsDuplicate solution = new _0217_ContainsDuplicate();

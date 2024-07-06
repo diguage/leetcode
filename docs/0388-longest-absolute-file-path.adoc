@@ -49,6 +49,6 @@ Notice that `a/aa/aaa/file1.txt` is not the longest file path, if there is anoth
 [[src-0388]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0388_LongestAbsoluteFilePath.java[]
+include::{sourcedir}/_0388_LongestAbsoluteFilePath.java[tag=answer]
 ----
 

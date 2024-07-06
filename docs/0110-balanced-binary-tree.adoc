@@ -62,7 +62,7 @@ Return false.
 [[src-0110]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0110_BalancedBinaryTree.java[]
+include::{sourcedir}/_0110_BalancedBinaryTree.java[tag=answer]
 ----
 
 == 基于树形 DP 套路解法
@@ -71,7 +71,7 @@ include::{sourcedir}/_0110_BalancedBinaryTree.java[]
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0110_BalancedBinaryTree_2.java[]
+include::{sourcedir}/_0110_BalancedBinaryTree_2.java[tag=answer]
 ----
 
 == 剪枝优化后的解法
@@ -80,6 +80,6 @@ include::{sourcedir}/_0110_BalancedBinaryTree_2.java[]
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0110_BalancedBinaryTree_21.java[]
+include::{sourcedir}/_0110_BalancedBinaryTree_21.java[tag=answer]
 ----
 

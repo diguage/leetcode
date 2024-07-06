@@ -48,6 +48,6 @@ Given a _m_ x _n_ grid filled with non-negative numbers, find a path from top le
 [[src-0064]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0064_MinimumPathSum.java[]
+include::{sourcedir}/_0064_MinimumPathSum.java[tag=answer]
 ----
 

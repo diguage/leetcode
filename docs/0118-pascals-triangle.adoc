@@ -30,6 +30,6 @@ image::https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimate
 [[src-0118]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0118_PascalSTriangle.java[]
+include::{sourcedir}/_0118_PascalSTriangle.java[tag=answer]
 ----
 

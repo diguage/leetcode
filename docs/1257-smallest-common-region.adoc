@@ -8,6 +8,6 @@ https://leetcode.com/problems/smallest-common-region/[LeetCode - Smallest Common
 [[src-1257]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1257_SmallestCommonRegion.java[]
+include::{sourcedir}/_1257_SmallestCommonRegion.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/campus-bikes/[LeetCode - Campus Bikes]
 [[src-1057]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1057_CampusBikes.java[]
+include::{sourcedir}/_1057_CampusBikes.java[tag=answer]
 ----
 

@@ -9,6 +9,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-30 21:44
  */
 public class _0581_ShortestUnsortedContinuousSubarray {
+  // tag::answer[]
 
     /**
      * Runtime: 4 ms, faster than 60.88% of Java online submissions for Shortest Unsorted Continuous Subarray.
@@ -48,6 +49,9 @@ public class _0581_ShortestUnsortedContinuousSubarray {
         }
         return right - left < 0 ? 0 : right - left + 1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0581_ShortestUnsortedContinuousSubarray solution = new _0581_ShortestUnsortedContinuousSubarray();

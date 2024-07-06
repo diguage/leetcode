@@ -42,6 +42,6 @@ If we choose the first two operations, A will become empty first. For the third 
 [[src-0808]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0808_SoupServings.java[]
+include::{sourcedir}/_0808_SoupServings.java[tag=answer]
 ----
 

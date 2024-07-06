@@ -51,6 +51,6 @@ linkedList.get(1);            // returns 3
 [[src-0707]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0707_DesignLinkedList.java[]
+include::{sourcedir}/_0707_DesignLinkedList.java[tag=answer]
 ----
 

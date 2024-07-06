@@ -27,6 +27,6 @@ What if there are lots of merges and the number of disjoint intervals are small 
 [[src-0352]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0352_DataStreamAsDisjointIntervals.java[]
+include::{sourcedir}/_0352_DataStreamAsDisjointIntervals.java[tag=answer]
 ----
 

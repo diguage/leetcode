@@ -38,6 +38,7 @@ import java.util.Objects;
  * @since 2020-01-05 13:05
  */
 public class _0189_RotateArray {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Rotate Array.
@@ -87,6 +88,9 @@ public class _0189_RotateArray {
             nums[i] = temp[i];
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0189_RotateArray solution = new _0189_RotateArray();

@@ -7,6 +7,7 @@ import com.diguage.algorithm.util.TreeNode;
  * @since 2024-06-24 18:21:20
  */
 public class _0235_LowestCommonAncestorOfABinarySearchTree {
+  // tag::answer[]
   /**
    * 要充分利用二叉搜索树的特性
    */
@@ -23,4 +24,5 @@ public class _0235_LowestCommonAncestorOfABinarySearchTree {
     }
     return result;
   }
+  // end::answer[]
 }

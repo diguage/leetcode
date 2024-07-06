@@ -30,6 +30,7 @@ import java.util.*;
  * @since 2020-01-06 22:14
  */
 public class _0094_BinaryTreeInorderTraversal_Stack {
+  // tag::answer[]
   public List<Integer> inorderTraversal(TreeNode root) {
     List<Integer> result = new ArrayList<>();
     Deque<TreeNode> stack = new LinkedList<>();
@@ -46,4 +47,5 @@ public class _0094_BinaryTreeInorderTraversal_Stack {
     }
     return result;
   }
+  // end::answer[]
 }

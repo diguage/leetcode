@@ -44,6 +44,6 @@ The input is two lists: the subroutines called and their arguments. `Solution`'s
 [[src-0528]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0528_RandomPickWithWeight.java[]
+include::{sourcedir}/_0528_RandomPickWithWeight.java[tag=answer]
 ----
 

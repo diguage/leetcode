@@ -68,12 +68,12 @@ image::images/0239-10.png[{image_attr}]
 [[src-0239]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0239_SlidingWindowMaximum.java[]
+include::{sourcedir}/_0239_SlidingWindowMaximum.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0239_SlidingWindowMaximum_2.java[]
+include::{sourcedir}/_0239_SlidingWindowMaximum_2.java[tag=answer]
 ----
 
 == 思考题

@@ -8,6 +8,6 @@ https://leetcode.com/problems/palindrome-removal/[LeetCode - Palindrome Removal]
 [[src-1246]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1246_PalindromeRemoval.java[]
+include::{sourcedir}/_1246_PalindromeRemoval.java[tag=answer]
 ----
 

@@ -73,6 +73,6 @@ of the final x in the add-expression.  That final x will equal 2.
 [[src-0736]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0736_ParseLispExpression.java[]
+include::{sourcedir}/_0736_ParseLispExpression.java[tag=answer]
 ----
 

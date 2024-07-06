@@ -36,12 +36,12 @@ image::images/0005-01.png[]
 [[src-0005]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0005_LongestPalindromicSubstring.java[]
+include::{sourcedir}/_0005_LongestPalindromicSubstring.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0005_LongestPalindromicSubstring_2.java[]
+include::{sourcedir}/_0005_LongestPalindromicSubstring_2.java[tag=answer]
 ----
 
 == 参考资料

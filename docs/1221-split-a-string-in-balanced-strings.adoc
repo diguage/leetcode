@@ -59,6 +59,6 @@ Return the maximum amount of splitted balanced strings.
 [[src-1221]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1221_SplitAStringInBalancedStrings.java[]
+include::{sourcedir}/_1221_SplitAStringInBalancedStrings.java[tag=answer]
 ----
 

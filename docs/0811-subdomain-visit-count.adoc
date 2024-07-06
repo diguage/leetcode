@@ -48,6 +48,6 @@ We will visit "google.mail.com" 900 times, "yahoo.com" 50 times, "intel.mail.com
 [[src-0811]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0811_SubdomainVisitCount.java[]
+include::{sourcedir}/_0811_SubdomainVisitCount.java[tag=answer]
 ----
 

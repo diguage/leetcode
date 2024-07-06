@@ -31,6 +31,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-13 22:30
  */
 public class _0069_SqrtX {
+  // tag::answer[]
     /**
      * Runtime: 2 ms, faster than 14.88% of Java online submissions for Sqrt(x).
      *
@@ -57,6 +58,9 @@ public class _0069_SqrtX {
             }
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0069_SqrtX solution = new _0069_SqrtX();

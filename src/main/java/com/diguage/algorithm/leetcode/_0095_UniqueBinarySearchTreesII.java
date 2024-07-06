@@ -11,6 +11,7 @@ import java.util.List;
  * @since 2024-06-20 11:03:26
  */
 public class _0095_UniqueBinarySearchTreesII {
+  // tag::answer[]
   /**
    * 参考 https://leetcode.cn/problems/unique-binary-search-trees-ii/solutions/339143/bu-tong-de-er-cha-sou-suo-shu-ii-by-leetcode-solut/[95. 不同的二叉搜索树 II - 官方题解^]
    */
@@ -47,4 +48,5 @@ public class _0095_UniqueBinarySearchTreesII {
     }
     return result;
   }
+  // end::answer[]
 }

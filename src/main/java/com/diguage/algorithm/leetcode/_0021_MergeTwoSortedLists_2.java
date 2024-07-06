@@ -26,6 +26,7 @@ import static com.diguage.util.ListNodes.isOrder;
  * @since 2024-07-02 19:43:59
  */
 public class _0021_MergeTwoSortedLists_2 {
+  // tag::answer[]
   public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
     if (Objects.isNull(l1)) {
       return l2;
@@ -56,6 +57,9 @@ public class _0021_MergeTwoSortedLists_2 {
     }
     return dummy.next;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0021_MergeTwoSortedLists_2 solution = new _0021_MergeTwoSortedLists_2();

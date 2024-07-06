@@ -8,6 +8,6 @@ https://leetcode.com/problems/handshakes-that-dont-cross/[LeetCode - Handshakes 
 [[src-1259]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1259_HandshakesThatDonTCross.java[]
+include::{sourcedir}/_1259_HandshakesThatDonTCross.java[tag=answer]
 ----
 

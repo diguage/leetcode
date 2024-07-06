@@ -52,6 +52,6 @@ Formally, we can partition the array if we can find indexes `i+1 < j` with `(A[0
 [[src-1013]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1013_PartitionArrayIntoThreePartsWithEqualSum.java[]
+include::{sourcedir}/_1013_PartitionArrayIntoThreePartsWithEqualSum.java[tag=answer]
 ----
 

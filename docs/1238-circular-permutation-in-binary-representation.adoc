@@ -44,6 +44,6 @@ All the adjacent element differ by one bit. Another valid permutation is [3,1,0,
 [[src-1238]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1238_CircularPermutationInBinaryRepresentation.java[]
+include::{sourcedir}/_1238_CircularPermutationInBinaryRepresentation.java[tag=answer]
 ----
 

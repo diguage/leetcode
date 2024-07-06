@@ -32,6 +32,7 @@ import java.util.*;
  * @since 2018-07-15 00:58
  */
 public class _0018_4Sum {
+  // tag::answer[]
     /**
      * Runtime: 4 ms, faster than 94.46% of Java online submissions for 4Sum.
      *
@@ -95,6 +96,9 @@ public class _0018_4Sum {
 
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0018_4Sum solution = new _0018_4Sum();

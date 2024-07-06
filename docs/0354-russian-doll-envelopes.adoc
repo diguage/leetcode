@@ -28,6 +28,6 @@ Rotation is not allowed.
 [[src-0354]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0354_RussianDollEnvelopes.java[]
+include::{sourcedir}/_0354_RussianDollEnvelopes.java[tag=answer]
 ----
 

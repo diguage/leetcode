@@ -41,6 +41,6 @@ Now, given string arrays `queries` and `words`, return an integer array `answer`
 [[src-1170]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1170_CompareStringsByFrequencyOfTheSmallestCharacter.java[]
+include::{sourcedir}/_1170_CompareStringsByFrequencyOfTheSmallestCharacter.java[tag=answer]
 ----
 

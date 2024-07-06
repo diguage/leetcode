@@ -30,6 +30,6 @@ Note that 1 and 10 are not good numbers, since they remain unchanged after rotat
 [[src-0788]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0788_RotatedDigits.java[]
+include::{sourcedir}/_0788_RotatedDigits.java[tag=answer]
 ----
 

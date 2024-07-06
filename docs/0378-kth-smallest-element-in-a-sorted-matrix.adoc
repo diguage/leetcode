@@ -32,6 +32,6 @@ You may assume k is always valid, 1 ≤ k ≤ n^2^.
 [[src-0378]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0378_KthSmallestElementInASortedMatrix.java[]
+include::{sourcedir}/_0378_KthSmallestElementInASortedMatrix.java[tag=answer]
 ----
 

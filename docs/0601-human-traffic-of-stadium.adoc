@@ -48,6 +48,6 @@ Each day only have one row record, and the dates are increasing with id increasi
 [[src-0601]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0601_HumanTrafficOfStadium.java[]
+include::{sourcedir}/_0601_HumanTrafficOfStadium.java[tag=answer]
 ----
 

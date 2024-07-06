@@ -8,6 +8,6 @@ https://leetcode.com/problems/moving-average-from-data-stream/[LeetCode - Moving
 [[src-0346]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0346_MovingAverageFromDataStream.java[]
+include::{sourcedir}/_0346_MovingAverageFromDataStream.java[tag=answer]
 ----
 

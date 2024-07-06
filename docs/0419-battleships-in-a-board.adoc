@@ -41,6 +41,6 @@ Could you do it in *one-pass*, using only *O(1) extra memory* and *without modif
 [[src-0419]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0419_BattleshipsInABoard.java[]
+include::{sourcedir}/_0419_BattleshipsInABoard.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/shortest-distance-in-a-plane/[LeetCode - Shortest 
 [[src-0612]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0612_ShortestDistanceInAPlane.java[]
+include::{sourcedir}/_0612_ShortestDistanceInAPlane.java[tag=answer]
 ----
 

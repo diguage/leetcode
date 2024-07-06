@@ -54,6 +54,6 @@ Note: Each term of the sequence of integers will be represented as a string.
 [[src-0038]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0038_CountAndSay.java[]
+include::{sourcedir}/_0038_CountAndSay.java[tag=answer]
 ----
 

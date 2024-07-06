@@ -12,6 +12,7 @@ import java.util.List;
  * @since 2024-06-26 18:55:44
  */
 public class _0501_FindModeInBinarySearchTree {
+  // tag::answer[]
   /**
    * 根据相同数字出现在一起的提示，写出来的。
    */
@@ -64,6 +65,9 @@ public class _0501_FindModeInBinarySearchTree {
     }
     return nums;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     TreeNode tree = TreeNodes.buildTree(Arrays.asList(3, 2, 3, 1, 2));

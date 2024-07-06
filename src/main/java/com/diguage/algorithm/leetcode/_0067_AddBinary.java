@@ -9,6 +9,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-02-02 22:27
  */
 public class _0067_AddBinary {
+  // tag::answer[]
     /**
      * Runtime: 2 ms, faster than 64.49% of Java online submissions for Add Binary.
      * Memory Usage: 38.3 MB, less than 5.62% of Java online submissions for Add Binary.
@@ -26,6 +27,9 @@ public class _0067_AddBinary {
         result.append(carr > 0 ? carr : "");
         return result.reverse().toString();
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0067_AddBinary sollution = new _0067_AddBinary();

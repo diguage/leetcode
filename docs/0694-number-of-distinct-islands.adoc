@@ -8,6 +8,6 @@ https://leetcode.com/problems/number-of-distinct-islands/[LeetCode - Number of D
 [[src-0694]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0694_NumberOfDistinctIslands.java[]
+include::{sourcedir}/_0694_NumberOfDistinctIslands.java[tag=answer]
 ----
 

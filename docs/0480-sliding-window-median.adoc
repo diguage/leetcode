@@ -44,6 +44,6 @@ Answers within `10^-5` of the actual value will be accepted as correct.
 [[src-0480]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0480_SlidingWindowMedian.java[]
+include::{sourcedir}/_0480_SlidingWindowMedian.java[tag=answer]
 ----
 

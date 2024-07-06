@@ -32,6 +32,6 @@ Determine if you are able to reach the last index.
 [[src-0055]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0055_JumpGame.java[]
+include::{sourcedir}/_0055_JumpGame.java[tag=answer]
 ----
 

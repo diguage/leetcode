@@ -8,6 +8,6 @@ https://leetcode.com/problems/design-hit-counter/[LeetCode - Design Hit Counter]
 [[src-0362]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0362_DesignHitCounter.java[]
+include::{sourcedir}/_0362_DesignHitCounter.java[tag=answer]
 ----
 

@@ -33,7 +33,7 @@ image::images/0022-1.png[{image_attr}]
 [[src-0022]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0022_GenerateParentheses.java[]
+include::{sourcedir}/_0022_GenerateParentheses.java[tag=answer]
 ----
 
 == 思考题

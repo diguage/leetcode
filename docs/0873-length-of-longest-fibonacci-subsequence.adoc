@@ -55,6 +55,6 @@ The longest subsequence that is fibonacci-like:
 [[src-0873]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0873_LengthOfLongestFibonacciSubsequence.java[]
+include::{sourcedir}/_0873_LengthOfLongestFibonacciSubsequence.java[tag=answer]
 ----
 

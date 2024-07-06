@@ -43,6 +43,6 @@ queries[4] : substring = "abcda", could be changed to "abcba" which is palidrome
 [[src-1177]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1177_CanMakePalindromeFromSubstring.java[]
+include::{sourcedir}/_1177_CanMakePalindromeFromSubstring.java[tag=answer]
 ----
 

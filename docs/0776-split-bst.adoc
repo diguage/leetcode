@@ -8,6 +8,6 @@ https://leetcode.com/problems/split-bst/[LeetCode - Split BST]
 [[src-0776]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0776_SplitBST.java[]
+include::{sourcedir}/_0776_SplitBST.java[tag=answer]
 ----
 

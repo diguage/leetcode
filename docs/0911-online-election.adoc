@@ -43,6 +43,6 @@ This continues for 3 more queries at time 15, 24, and 8.
 [[src-0911]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0911_OnlineElection.java[]
+include::{sourcedir}/_0911_OnlineElection.java[tag=answer]
 ----
 

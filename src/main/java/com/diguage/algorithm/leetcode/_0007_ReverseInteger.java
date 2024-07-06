@@ -41,6 +41,11 @@ import java.util.List;
  * @since 2018-07-01
  */
 public class _0007_ReverseInteger {
+  // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2018-07-01
+   */
   public static int reverse(int x) {
     int sign = 1;
     if (x < 0) {
@@ -102,6 +107,9 @@ public class _0007_ReverseInteger {
 
     return (int) result * sign;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     System.out.println(reverse(120));

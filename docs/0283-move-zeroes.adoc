@@ -26,6 +26,6 @@ Given an array `nums`, write a function to move all `0`'s to the end of it while
 [[src-0283]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0283_MoveZeroes.java[]
+include::{sourcedir}/_0283_MoveZeroes.java[tag=answer]
 ----
 

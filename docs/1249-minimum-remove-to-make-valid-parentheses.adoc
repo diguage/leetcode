@@ -62,6 +62,6 @@ Formally, a _parentheses string_ is valid if and only if:
 [[src-1249]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1249_MinimumRemoveToMakeValidParentheses.java[]
+include::{sourcedir}/_1249_MinimumRemoveToMakeValidParentheses.java[tag=answer]
 ----
 

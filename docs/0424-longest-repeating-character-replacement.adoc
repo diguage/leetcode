@@ -52,6 +52,6 @@ The substring "BBBB" has the longest repeating letters, which is 4.
 [[src-0424]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0424_LongestRepeatingCharacterReplacement.java[]
+include::{sourcedir}/_0424_LongestRepeatingCharacterReplacement.java[tag=answer]
 ----
 

@@ -29,8 +29,12 @@ import java.util.Objects;
  * @since 2019-07-13 11:12
  */
 public class _0005_LongestPalindromicSubstring_2 {
+  // tag::answer[]
   /**
    * 自己实现
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2019-07-13 11:12
    */
   public String longestPalindrome(String s) {
     if (Objects.isNull(s) || s.length() == 1) {
@@ -73,6 +77,9 @@ public class _0005_LongestPalindromicSubstring_2 {
     }
     return left >= 0 ? s.substring(left, right + 1) : null;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0005_LongestPalindromicSubstring_2 solution = new _0005_LongestPalindromicSubstring_2();

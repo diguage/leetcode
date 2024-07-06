@@ -8,6 +8,6 @@ https://leetcode.com/problems/before-and-after-puzzle/[LeetCode - Before and Aft
 [[src-1181]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1181_BeforeAndAfterPuzzle.java[]
+include::{sourcedir}/_1181_BeforeAndAfterPuzzle.java[tag=answer]
 ----
 

@@ -58,6 +58,6 @@ target = "k"
 [[src-0744]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0744_FindSmallestLetterGreaterThanTarget.java[]
+include::{sourcedir}/_0744_FindSmallestLetterGreaterThanTarget.java[tag=answer]
 ----
 

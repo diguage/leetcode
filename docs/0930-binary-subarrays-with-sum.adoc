@@ -35,6 +35,6 @@ The 4 subarrays are bolded below:
 [[src-0930]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0930_BinarySubarraysWithSum.java[]
+include::{sourcedir}/_0930_BinarySubarraysWithSum.java[tag=answer]
 ----
 

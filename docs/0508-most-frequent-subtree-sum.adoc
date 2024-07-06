@@ -37,6 +37,6 @@ You may assume the sum of values in any subtree is in the range of 32-bit signed
 [[src-0508]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0508_MostFrequentSubtreeSum.java[]
+include::{sourcedir}/_0508_MostFrequentSubtreeSum.java[tag=answer]
 ----
 

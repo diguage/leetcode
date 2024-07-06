@@ -8,6 +8,6 @@ https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/[LeetC
 [[src-1196]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1196_HowManyApplesCanYouPutIntoTheBasket.java[]
+include::{sourcedir}/_1196_HowManyApplesCanYouPutIntoTheBasket.java[tag=answer]
 ----
 

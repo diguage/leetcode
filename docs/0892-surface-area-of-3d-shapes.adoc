@@ -84,6 +84,6 @@ Return the total surface area of the resulting shapes.
 [[src-0892]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0892_SurfaceAreaOf3DShapes.java[]
+include::{sourcedir}/_0892_SurfaceAreaOf3DShapes.java[tag=answer]
 ----
 

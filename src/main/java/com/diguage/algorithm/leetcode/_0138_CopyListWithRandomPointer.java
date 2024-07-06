@@ -57,6 +57,7 @@ import java.util.Objects;
  * @since 2020-01-07 22:21
  */
 public class _0138_CopyListWithRandomPointer {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Copy List with Random Pointer.
@@ -141,6 +142,9 @@ public class _0138_CopyListWithRandomPointer {
 
         return prefixHead.next;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0138_CopyListWithRandomPointer solution = new _0138_CopyListWithRandomPointer();

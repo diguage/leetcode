@@ -65,6 +65,6 @@ In total you spent $17 and covered all the days of your travel.
 [[src-0983]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0983_MinimumCostForTickets.java[]
+include::{sourcedir}/_0983_MinimumCostForTickets.java[tag=answer]
 ----
 

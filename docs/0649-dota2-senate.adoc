@@ -67,6 +67,6 @@ And in the round 2, the third senator can just announce the victory since he is 
 [[src-0649]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0649_Dota2Senate.java[]
+include::{sourcedir}/_0649_Dota2Senate.java[tag=answer]
 ----
 

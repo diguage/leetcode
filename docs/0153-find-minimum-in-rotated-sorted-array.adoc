@@ -32,7 +32,7 @@ You may assume no duplicate exists in the array.
 [[src-0153]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0153_FindMinimumInRotatedSortedArray.java[]
+include::{sourcedir}/_0153_FindMinimumInRotatedSortedArray.java[tag=answer]
 ----
 
 == 解题分析

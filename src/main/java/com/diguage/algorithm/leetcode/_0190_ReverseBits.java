@@ -32,6 +32,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-15 22:55
  */
 public class _0190_ReverseBits {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 100.00% of Java online submissions for Reverse Bits.
      *
@@ -51,6 +52,9 @@ public class _0190_ReverseBits {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0190_ReverseBits solution = new _0190_ReverseBits();

@@ -67,6 +67,6 @@ The total cost was 25, and this is the minimum possible.
 [[src-1000]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1000_MinimumCostToMergeStones.java[]
+include::{sourcedir}/_1000_MinimumCostToMergeStones.java[tag=answer]
 ----
 

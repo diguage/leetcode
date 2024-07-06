@@ -49,6 +49,6 @@ If the divisor is 4 we can get a sum to 7 (1+1+2+3) and if the divisor is 5 the 
 [[src-1283]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1283_FindTheSmallestDivisorGivenAThreshold.java[]
+include::{sourcedir}/_1283_FindTheSmallestDivisorGivenAThreshold.java[tag=answer]
 ----
 

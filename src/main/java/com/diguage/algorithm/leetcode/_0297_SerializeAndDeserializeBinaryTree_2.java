@@ -17,6 +17,7 @@ import java.util.Queue;
  * @since 2024-06-20 11:39:45
  */
 public class _0297_SerializeAndDeserializeBinaryTree_2 {
+  // tag::answer[]
 
   /**
    * 参考左程云
@@ -56,6 +57,9 @@ public class _0297_SerializeAndDeserializeBinaryTree_2 {
     head.right = deserialize(queue);
     return head;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     TreeNode root = TreeNodes.buildTree(Arrays.asList(0, 1, 2, 3, null, null, 6, 7, null, null, null, null, null, null, 14));

@@ -57,6 +57,6 @@ The input is two lists: the subroutines called and their arguments. `Solution`'s
 [[src-0497]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0497_RandomPointInNonOverlappingRectangles.java[]
+include::{sourcedir}/_0497_RandomPointInNonOverlappingRectangles.java[tag=answer]
 ----
 

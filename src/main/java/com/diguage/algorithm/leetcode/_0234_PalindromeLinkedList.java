@@ -34,6 +34,7 @@ import static com.diguage.util.ListNodes.build;
  * @since 2020-01-13 19:58
  */
 public class _0234_PalindromeLinkedList {
+  // tag::answer[]
 
     /**
      * Runtime: 1 ms, faster than 99.33% of Java online submissions for Palindrome Linked List.
@@ -73,6 +74,9 @@ public class _0234_PalindromeLinkedList {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0234_PalindromeLinkedList solution = new _0234_PalindromeLinkedList();

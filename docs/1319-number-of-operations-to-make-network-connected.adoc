@@ -63,6 +63,6 @@ image::https://assets.leetcode.com/uploads/2020/01/02/sample_2_1677.png[{image_a
 [[src-1319]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1319_NumberOfOperationsToMakeNetworkConnected.java[]
+include::{sourcedir}/_1319_NumberOfOperationsToMakeNetworkConnected.java[tag=answer]
 ----
 

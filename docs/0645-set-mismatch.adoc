@@ -33,6 +33,6 @@ Given an array `nums` representing the data status of this set after the error. 
 [[src-0645]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0645_SetMismatch.java[]
+include::{sourcedir}/_0645_SetMismatch.java[tag=answer]
 ----
 

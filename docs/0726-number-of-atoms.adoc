@@ -64,6 +64,6 @@ The count of elements are {'K': 4, 'N': 2, 'O': 14, 'S': 4}.
 [[src-0726]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0726_NumberOfAtoms.java[]
+include::{sourcedir}/_0726_NumberOfAtoms.java[tag=answer]
 ----
 

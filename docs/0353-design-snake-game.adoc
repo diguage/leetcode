@@ -8,6 +8,6 @@ https://leetcode.com/problems/design-snake-game/[LeetCode - Design Snake Game]
 [[src-0353]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0353_DesignSnakeGame.java[]
+include::{sourcedir}/_0353_DesignSnakeGame.java[tag=answer]
 ----
 

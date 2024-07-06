@@ -48,6 +48,6 @@ Return the largest string `X` such that `X` divides <font face="monospace">str1 
 [[src-1071]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1071_GreatestCommonDivisorOfStrings.java[]
+include::{sourcedir}/_1071_GreatestCommonDivisorOfStrings.java[tag=answer]
 ----
 

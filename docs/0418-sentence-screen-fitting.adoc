@@ -8,6 +8,6 @@ https://leetcode.com/problems/sentence-screen-fitting/[LeetCode - Sentence Scree
 [[src-0418]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0418_SentenceScreenFitting.java[]
+include::{sourcedir}/_0418_SentenceScreenFitting.java[tag=answer]
 ----
 

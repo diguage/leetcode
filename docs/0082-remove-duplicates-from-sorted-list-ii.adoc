@@ -26,12 +26,12 @@ Output: 2->3
 [[src-0082]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListII.java[]
+include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListII.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListII_2.java[]
+include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListII_2.java[tag=answer]
 ----
 
 == 参考资料

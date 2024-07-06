@@ -45,6 +45,6 @@ So the final output is 4.
 [[src-0514]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0514_FreedomTrail.java[]
+include::{sourcedir}/_0514_FreedomTrail.java[tag=answer]
 ----
 

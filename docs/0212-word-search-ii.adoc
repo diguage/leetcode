@@ -39,6 +39,6 @@ Each word must be constructed from letters of sequentially adjacent cell, where 
 [[src-0212]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0212_WordSearchII.java[]
+include::{sourcedir}/_0212_WordSearchII.java[tag=answer]
 ----
 

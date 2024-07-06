@@ -17,6 +17,7 @@ import static com.diguage.util.ListNodes.build;
  * @since 2020-01-28 08:52
  */
 public class _0142_LinkedListCycleII {
+  // tag::answer[]
 
     /**
      * Runtime: 1 ms, faster than 32.38% of Java online submissions for Linked List Cycle II.
@@ -54,6 +55,9 @@ public class _0142_LinkedListCycleII {
         }
         return null;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0142_LinkedListCycleII solution = new _0142_LinkedListCycleII();

@@ -11,6 +11,7 @@ import java.util.*;
  * @since 2020-02-04 17:43
  */
 public class _0077_Combinations {
+  // tag::answer[]
     /**
      * Runtime: 20 ms, faster than 58.94% of Java online submissions for Combinations.
      * Memory Usage: 42.7 MB, less than 6.52% of Java online submissions for Combinations.
@@ -32,6 +33,9 @@ public class _0077_Combinations {
             current.removeLast();
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0077_Combinations solution = new _0077_Combinations();

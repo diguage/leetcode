@@ -26,6 +26,7 @@ import java.util.Arrays;
  * @since 2020-01-05 20:15
  */
 public class _0238_ProductOfArrayExceptSelf {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 100.00% of Java online submissions for Product of Array Except Self.
      *
@@ -79,6 +80,9 @@ public class _0238_ProductOfArrayExceptSelf {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0238_ProductOfArrayExceptSelf solution = new _0238_ProductOfArrayExceptSelf();

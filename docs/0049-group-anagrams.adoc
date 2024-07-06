@@ -30,6 +30,6 @@ Given an array of strings, group anagrams together.
 [[src-0049]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0049_GroupAnagrams.java[]
+include::{sourcedir}/_0049_GroupAnagrams.java[tag=answer]
 ----
 

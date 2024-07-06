@@ -44,6 +44,6 @@ Return a NestedInteger object containing a nested list with 2 elements:
 [[src-0385]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0385_MiniParser.java[]
+include::{sourcedir}/_0385_MiniParser.java[tag=answer]
 ----
 

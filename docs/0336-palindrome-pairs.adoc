@@ -32,6 +32,6 @@ Given a list of *unique* words, find all pairs of *_distinct_* indices `(i, j)` 
 [[src-0336]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0336_PalindromePairs.java[]
+include::{sourcedir}/_0336_PalindromePairs.java[tag=answer]
 ----
 

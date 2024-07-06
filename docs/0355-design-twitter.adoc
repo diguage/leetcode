@@ -48,6 +48,6 @@ twitter.getNewsFeed(1);
 [[src-0355]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0355_DesignTwitter.java[]
+include::{sourcedir}/_0355_DesignTwitter.java[tag=answer]
 ----
 

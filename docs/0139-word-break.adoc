@@ -46,6 +46,6 @@ Given a *non-empty* string _s_ and a dictionary _wordDict_ containing a list of 
 [[src-0139]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0139_WordBreak.java[]
+include::{sourcedir}/_0139_WordBreak.java[tag=answer]
 ----
 

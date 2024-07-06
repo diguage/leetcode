@@ -82,7 +82,7 @@ image::images/0013-0.png[{image_attr}]
 [[src-0013]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0013_RomanToInteger.java[]
+include::{sourcedir}/_0013_RomanToInteger.java[tag=answer]
 ----
 
 == 参考资料

@@ -38,6 +38,7 @@ import java.util.Objects;
  * @since 2020-01-18 00:20
  */
 public class _0091_DecodeWays {
+  // tag::answer[]
     /**
      * Runtime: 3 ms, faster than 19.41% of Java online submissions for Decode Ways.
      *
@@ -63,6 +64,9 @@ public class _0091_DecodeWays {
         }
         return memo[0];
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0091_DecodeWays solution = new _0091_DecodeWays();

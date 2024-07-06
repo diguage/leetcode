@@ -8,6 +8,6 @@ https://leetcode.com/problems/minimize-max-distance-to-gas-station/[LeetCode - M
 [[src-0774]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0774_MinimizeMaxDistanceToGasStation.java[]
+include::{sourcedir}/_0774_MinimizeMaxDistanceToGasStation.java[tag=answer]
 ----
 

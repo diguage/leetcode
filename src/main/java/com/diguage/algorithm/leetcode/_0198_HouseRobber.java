@@ -34,6 +34,7 @@ import java.util.Objects;
  * @since 2020-01-23 22:37
  */
 public class _0198_HouseRobber {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for House Robber.
@@ -120,6 +121,9 @@ public class _0198_HouseRobber {
         }
         return Math.max(rob(nums, k - 2) + nums[k], rob(nums, k - 1));
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0198_HouseRobber solution = new _0198_HouseRobber();

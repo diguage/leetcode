@@ -36,7 +36,7 @@ image::images/0037-2.png[{image_attr}]
 [[src-0037]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0037_SudokuSolver.java[]
+include::{sourcedir}/_0037_SudokuSolver.java[tag=answer]
 ----
 
 == 参考资料

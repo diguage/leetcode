@@ -8,6 +8,6 @@ https://leetcode.com/problems/web-crawler-multithreaded/[LeetCode - Web Crawler 
 [[src-1242]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1242_WebCrawlerMultithreaded.java[]
+include::{sourcedir}/_1242_WebCrawlerMultithreaded.java[tag=answer]
 ----
 

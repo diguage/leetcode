@@ -45,6 +45,6 @@ An example of a minimum sized set is {1, 2, 3, 4, 5}.
 [[src-0757]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0757_SetIntersectionSizeAtLeastTwo.java[]
+include::{sourcedir}/_0757_SetIntersectionSizeAtLeastTwo.java[tag=answer]
 ----
 

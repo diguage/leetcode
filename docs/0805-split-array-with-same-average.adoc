@@ -30,6 +30,6 @@ Return true if and only if after such a move, it is possible that the average va
 [[src-0805]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0805_SplitArrayWithSameAverage.java[]
+include::{sourcedir}/_0805_SplitArrayWithSameAverage.java[tag=answer]
 ----
 

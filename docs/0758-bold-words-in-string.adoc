@@ -8,6 +8,6 @@ https://leetcode.com/problems/bold-words-in-string/[LeetCode - Bold Words in Str
 [[src-0758]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0758_BoldWordsInString.java[]
+include::{sourcedir}/_0758_BoldWordsInString.java[tag=answer]
 ----
 

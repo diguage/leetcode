@@ -58,6 +58,6 @@ After the third drop of `positions[1] = [6, 1]: __aaa __aaa __aaa _aa _aa___a --
 [[src-0699]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0699_FallingSquares.java[]
+include::{sourcedir}/_0699_FallingSquares.java[tag=answer]
 ----
 

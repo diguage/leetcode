@@ -8,6 +8,6 @@ https://leetcode.com/problems/immediate-food-delivery-i/[LeetCode - Immediate Fo
 [[src-1173]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1173_ImmediateFoodDeliveryI.java[]
+include::{sourcedir}/_1173_ImmediateFoodDeliveryI.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/array-transformation/[LeetCode - Array Transformat
 [[src-1243]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1243_ArrayTransformation.java[]
+include::{sourcedir}/_1243_ArrayTransformation.java[tag=answer]
 ----
 

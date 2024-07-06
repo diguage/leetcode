@@ -33,6 +33,6 @@ The third fraction is 2/5.
 [[src-0786]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0786_KThSmallestPrimeFraction.java[]
+include::{sourcedir}/_0786_KThSmallestPrimeFraction.java[tag=answer]
 ----
 

@@ -33,7 +33,7 @@ Return the following binary tree:
 [[src-0105]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java[]
+include::{sourcedir}/_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java[tag=answer]
 ----
 
 == 思考题

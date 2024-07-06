@@ -8,6 +8,6 @@ https://leetcode.com/problems/optimal-account-balancing/[LeetCode - Optimal Acco
 [[src-0465]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0465_OptimalAccountBalancing.java[]
+include::{sourcedir}/_0465_OptimalAccountBalancing.java[tag=answer]
 ----
 

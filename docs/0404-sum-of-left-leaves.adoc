@@ -32,6 +32,6 @@ There are two left leaves in the binary tree, with values *9* and *15* respectiv
 [[src-0404]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0404_SumOfLeftLeaves.java[]
+include::{sourcedir}/_0404_SumOfLeftLeaves.java[tag=answer]
 ----
 

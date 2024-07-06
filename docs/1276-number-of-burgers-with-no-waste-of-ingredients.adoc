@@ -68,6 +68,6 @@ Return `[total_jumbo, total_small]` so that the number of remaining `tomatoSlice
 [[src-1276]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1276_NumberOfBurgersWithNoWasteOfIngredients.java[]
+include::{sourcedir}/_1276_NumberOfBurgersWithNoWasteOfIngredients.java[tag=answer]
 ----
 

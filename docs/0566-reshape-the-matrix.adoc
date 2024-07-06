@@ -62,6 +62,6 @@ There is no way to reshape a 2 * 2 matrix to a 2 * 4 matrix. So output the origi
 [[src-0566]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0566_ReshapeTheMatrix.java[]
+include::{sourcedir}/_0566_ReshapeTheMatrix.java[tag=answer]
 ----
 

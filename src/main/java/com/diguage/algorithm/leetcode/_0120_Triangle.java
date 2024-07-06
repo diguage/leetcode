@@ -13,6 +13,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-07 23:14
  */
 public class _0120_Triangle {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 99.42% of Java online submissions for Triangle.
      * Memory Usage: 39.2 MB, less than 8.16% of Java online submissions for Triangle.
@@ -27,6 +28,9 @@ public class _0120_Triangle {
         }
         return sums[0];
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0120_Triangle solution = new _0120_Triangle();

@@ -19,6 +19,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2020-01-27 23:18
  */
 public class _0114_FlattenBinaryTreeToLinkedList {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Flatten Binary Tree to Linked List.
      * Memory Usage: 38.4 MB, less than 40.00% of Java online submissions for Flatten Binary Tree to Linked List.
@@ -63,6 +64,9 @@ public class _0114_FlattenBinaryTreeToLinkedList {
         preorder(root.left, queue);
         preorder(root.right, queue);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0114_FlattenBinaryTreeToLinkedList solution = new _0114_FlattenBinaryTreeToLinkedList();

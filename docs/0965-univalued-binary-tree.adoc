@@ -45,6 +45,6 @@ image::https://assets.leetcode.com/uploads/2018/12/28/unival_bst_2.png[{image_at
 [[src-0965]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0965_UnivaluedBinaryTree.java[]
+include::{sourcedir}/_0965_UnivaluedBinaryTree.java[tag=answer]
 ----
 

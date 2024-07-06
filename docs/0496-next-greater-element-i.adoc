@@ -73,7 +73,7 @@ image::images/0496-13.png[{image_attr}]
 [[src-0496]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0496_NextGreaterElementI.java[]
+include::{sourcedir}/_0496_NextGreaterElementI.java[tag=answer]
 ----
 
 == 参考资料

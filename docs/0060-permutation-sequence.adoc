@@ -93,6 +93,6 @@ Given _n_ and _k_, return the _k_^th^ permutation sequence.
 [[src-0060]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0060_PermutationSequence.java[]
+include::{sourcedir}/_0060_PermutationSequence.java[tag=answer]
 ----
 

@@ -37,6 +37,6 @@ Given a set of pairs, find the length longest chain which can be formed. You nee
 [[src-0646]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0646_MaximumLengthOfPairChain.java[]
+include::{sourcedir}/_0646_MaximumLengthOfPairChain.java[tag=answer]
 ----
 

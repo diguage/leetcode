@@ -62,13 +62,13 @@ image::images/0617-01.gif[{image_attr}]
 [[src-0617]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0617_MergeTwoBinaryTrees.java[]
+include::{sourcedir}/_0617_MergeTwoBinaryTrees.java[tag=answer]
 ----
 
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0617_MergeTwoBinaryTrees_2.java[]
+include::{sourcedir}/_0617_MergeTwoBinaryTrees_2.java[tag=answer]
 ----
 
 

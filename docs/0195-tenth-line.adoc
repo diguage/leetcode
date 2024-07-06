@@ -43,6 +43,6 @@ Line 10
 [[src-0195]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0195_TenthLine.java[]
+include::{sourcedir}/_0195_TenthLine.java[tag=answer]
 ----
 

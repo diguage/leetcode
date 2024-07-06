@@ -8,6 +8,6 @@ https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characte
 [[src-0340]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0340_LongestSubstringWithAtMostKDistinctCharacters.java[]
+include::{sourcedir}/_0340_LongestSubstringWithAtMostKDistinctCharacters.java[tag=answer]
 ----
 

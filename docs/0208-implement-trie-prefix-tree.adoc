@@ -42,6 +42,6 @@ trie.search("app");     // returns true
 [[src-0208]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0208_ImplementTriePrefixTree.java[]
+include::{sourcedir}/_0208_ImplementTriePrefixTree.java[tag=answer]
 ----
 

@@ -19,6 +19,6 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 [[src-0002]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0002_AddTwoNumbers.java[]
+include::{sourcedir}/_0002_AddTwoNumbers.java[tag=answer]
 ----
 

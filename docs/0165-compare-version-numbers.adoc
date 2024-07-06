@@ -64,6 +64,6 @@ You may assume the default revision number for each level of a version number to
 [[src-0165]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0165_CompareVersionNumbers.java[]
+include::{sourcedir}/_0165_CompareVersionNumbers.java[tag=answer]
 ----
 

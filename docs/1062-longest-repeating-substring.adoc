@@ -8,6 +8,6 @@ https://leetcode.com/problems/longest-repeating-substring/[LeetCode - Longest Re
 [[src-1062]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1062_LongestRepeatingSubstring.java[]
+include::{sourcedir}/_1062_LongestRepeatingSubstring.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/paint-house-ii/[LeetCode - Paint House II]
 [[src-0265]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0265_PaintHouseII.java[]
+include::{sourcedir}/_0265_PaintHouseII.java[tag=answer]
 ----
 

@@ -68,6 +68,6 @@ image::https://assets.leetcode.com/uploads/2019/01/02/1219-02.png[{image_attr}]
 [[src-0971]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0971_FlipBinaryTreeToMatchPreorderTraversal.java[]
+include::{sourcedir}/_0971_FlipBinaryTreeToMatchPreorderTraversal.java[tag=answer]
 ----
 

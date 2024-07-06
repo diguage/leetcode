@@ -67,6 +67,6 @@ Given a balanced parentheses string `S`, compute the score of the string based o
 [[src-0856]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0856_ScoreOfParentheses.java[]
+include::{sourcedir}/_0856_ScoreOfParentheses.java[tag=answer]
 ----
 

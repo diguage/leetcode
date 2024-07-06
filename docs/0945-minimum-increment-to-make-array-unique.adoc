@@ -47,6 +47,6 @@ It can be shown with 5 or less moves that it is impossible for the array to have
 [[src-0945]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0945_MinimumIncrementToMakeArrayUnique.java[]
+include::{sourcedir}/_0945_MinimumIncrementToMakeArrayUnique.java[tag=answer]
 ----
 

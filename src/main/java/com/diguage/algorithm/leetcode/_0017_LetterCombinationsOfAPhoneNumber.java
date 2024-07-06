@@ -39,6 +39,7 @@ import java.util.*;
  * @since 2019-07-19 00:19
  */
 public class _0017_LetterCombinationsOfAPhoneNumber {
+  // tag::answer[]
 
   private List<String> result = new ArrayList<>();
   public List<String> letterCombinations(String digits) {
@@ -143,6 +144,9 @@ public class _0017_LetterCombinationsOfAPhoneNumber {
     }
     return result;
   }
+
+
+  // end::answer[]
 
 
   public static void main(String[] args) {

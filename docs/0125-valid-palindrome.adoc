@@ -30,6 +30,6 @@ Given a string, determine if it is a palindrome, considering only alphanumeric c
 [[src-0125]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0125_ValidPalindrome.java[]
+include::{sourcedir}/_0125_ValidPalindrome.java[tag=answer]
 ----
 

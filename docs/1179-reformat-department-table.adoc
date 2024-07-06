@@ -55,6 +55,6 @@ Note that the result table has 13 columns (1 for the department id + 12 for the 
 [[src-1179]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1179_ReformatDepartmentTable.java[]
+include::{sourcedir}/_1179_ReformatDepartmentTable.java[tag=answer]
 ----
 

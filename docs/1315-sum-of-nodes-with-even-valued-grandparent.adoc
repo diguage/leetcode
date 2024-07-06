@@ -31,6 +31,6 @@ image::https://assets.leetcode.com/uploads/2019/07/24/1473_ex1.png[{image_attr}]
 [[src-1315]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1315_SumOfNodesWithEvenValuedGrandparent.java[]
+include::{sourcedir}/_1315_SumOfNodesWithEvenValuedGrandparent.java[tag=answer]
 ----
 

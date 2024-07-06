@@ -14,6 +14,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-06 23:10
  */
 public class _0110_BalancedBinaryTree_21 {
+  // tag::answer[]
 
   /**
    * 看了论坛中大家的讨论，做了提前结束递归的优化。
@@ -38,6 +39,9 @@ public class _0110_BalancedBinaryTree_21 {
     }
     return Math.abs(left - right) > 1 ? -1 : Math.max(left, right) + 1;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0110_BalancedBinaryTree_21 solution = new _0110_BalancedBinaryTree_21();

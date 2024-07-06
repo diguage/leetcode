@@ -30,6 +30,6 @@ Given a list of non negative integers, arrange them such that they form the larg
 [[src-0179]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0179_LargestNumber.java[]
+include::{sourcedir}/_0179_LargestNumber.java[tag=answer]
 ----
 

@@ -44,6 +44,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2020-01-26 21:14
  */
 public class _0236_LowestCommonAncestorOfABinaryTree {
+  // tag::answer[]
 
     private TreeNode result;
 
@@ -75,6 +76,9 @@ public class _0236_LowestCommonAncestorOfABinaryTree {
         }
         return (left + mid + right) > 0;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0236_LowestCommonAncestorOfABinaryTree solution = new _0236_LowestCommonAncestorOfABinaryTree();

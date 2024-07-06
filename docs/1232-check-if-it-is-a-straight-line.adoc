@@ -43,6 +43,6 @@ image::https://assets.leetcode.com/uploads/2019/10/09/untitled-diagram-1.jpg[{im
 [[src-1232]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1232_CheckIfItIsAStraightLine.java[]
+include::{sourcedir}/_1232_CheckIfItIsAStraightLine.java[tag=answer]
 ----
 

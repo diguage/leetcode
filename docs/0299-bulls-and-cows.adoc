@@ -37,6 +37,6 @@ Please note that both secret number and friend's guess may contain duplicate dig
 [[src-0299]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0299_BullsAndCows.java[]
+include::{sourcedir}/_0299_BullsAndCows.java[tag=answer]
 ----
 

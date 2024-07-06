@@ -50,6 +50,6 @@ As the answer can be very large, return the answer *modulo* `10^9 + 7`.
 [[src-1191]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1191_KConcatenationMaximumSum.java[]
+include::{sourcedir}/_1191_KConcatenationMaximumSum.java[tag=answer]
 ----
 

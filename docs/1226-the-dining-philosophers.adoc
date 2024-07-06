@@ -57,6 +57,6 @@ output[i] = [a, b, c] (three integers)
 [[src-1226]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1226_TheDiningPhilosophers.java[]
+include::{sourcedir}/_1226_TheDiningPhilosophers.java[tag=answer]
 ----
 

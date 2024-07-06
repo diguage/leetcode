@@ -64,6 +64,6 @@ Return the largest number of points we can have after playing any number of toke
 [[src-0948]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0948_BagOfTokens.java[]
+include::{sourcedir}/_0948_BagOfTokens.java[tag=answer]
 ----
 

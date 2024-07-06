@@ -25,6 +25,6 @@ Could you solve it with constant space complexity? (The output array *does not* 
 [[src-0238]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0238_ProductOfArrayExceptSelf.java[]
+include::{sourcedir}/_0238_ProductOfArrayExceptSelf.java[tag=answer]
 ----
 

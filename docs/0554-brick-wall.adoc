@@ -45,6 +45,6 @@ image::https://assets.leetcode.com/uploads/2018/10/12/brick_wall.png[{image_attr
 [[src-0554]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0554_BrickWall.java[]
+include::{sourcedir}/_0554_BrickWall.java[tag=answer]
 ----
 

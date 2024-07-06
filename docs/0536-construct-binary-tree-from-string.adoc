@@ -8,6 +8,6 @@ https://leetcode.com/problems/construct-binary-tree-from-string/[LeetCode - Cons
 [[src-0536]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0536_ConstructBinaryTreeFromString.java[]
+include::{sourcedir}/_0536_ConstructBinaryTreeFromString.java[tag=answer]
 ----
 

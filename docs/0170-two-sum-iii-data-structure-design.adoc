@@ -8,6 +8,6 @@ https://leetcode.com/problems/two-sum-iii-data-structure-design/[LeetCode - Two 
 [[src-0170]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0170_TwoSumIIIDataStructureDesign.java[]
+include::{sourcedir}/_0170_TwoSumIIIDataStructureDesign.java[tag=answer]
 ----
 

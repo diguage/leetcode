@@ -42,6 +42,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2018-09-16 21:32
  */
 public class _0035_SearchInsertPosition {
+  // tag::answer[]
     public static int searchInsert(int[] nums, int target) {
         if (null == nums || nums.length == 0) {
             return 0;
@@ -76,6 +77,9 @@ public class _0035_SearchInsertPosition {
 
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         int[] nums = new int[]{1, 3, 5, 6};

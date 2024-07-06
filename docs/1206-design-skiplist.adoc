@@ -59,6 +59,6 @@ skiplist.search(1);   // return false, 1 has already been erased.
 [[src-1206]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1206_DesignSkiplist.java[]
+include::{sourcedir}/_1206_DesignSkiplist.java[tag=answer]
 ----
 

@@ -35,6 +35,6 @@ If the last word does not exist, return 0.
 [[src-0058]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0058_LengthOfLastWord.java[]
+include::{sourcedir}/_0058_LengthOfLastWord.java[tag=answer]
 ----
 

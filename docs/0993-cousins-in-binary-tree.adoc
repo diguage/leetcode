@@ -68,6 +68,6 @@ image::https://assets.leetcode.com/uploads/2019/02/13/q1248-03.png[{image_attr}]
 [[src-0993]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0993_CousinsInBinaryTree.java[]
+include::{sourcedir}/_0993_CousinsInBinaryTree.java[tag=answer]
 ----
 

@@ -14,6 +14,7 @@ import java.util.Objects;
  * @since 2020-01-30 17:00
  */
 public class _0239_SlidingWindowMaximum {
+  // tag::answer[]
     /**
      * Runtime: 9 ms, faster than 85.37% of Java online submissions for Sliding Window Maximum.
      * Memory Usage: 56.6 MB, less than 6.25% of Java online submissions for Sliding Window Maximum.
@@ -77,6 +78,9 @@ public class _0239_SlidingWindowMaximum {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0239_SlidingWindowMaximum solution = new _0239_SlidingWindowMaximum();

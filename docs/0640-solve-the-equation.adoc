@@ -61,6 +61,6 @@ If there is exactly one solution for the equation, we ensure that the value of `
 [[src-0640]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0640_SolveTheEquation.java[]
+include::{sourcedir}/_0640_SolveTheEquation.java[tag=answer]
 ----
 

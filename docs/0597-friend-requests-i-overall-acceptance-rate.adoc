@@ -8,6 +8,6 @@ https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate/[LeetCod
 [[src-0597]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0597_FriendRequestsIOverallAcceptanceRate.java[]
+include::{sourcedir}/_0597_FriendRequestsIOverallAcceptanceRate.java[tag=answer]
 ----
 

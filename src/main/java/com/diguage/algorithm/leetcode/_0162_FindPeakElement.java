@@ -41,6 +41,7 @@ import java.util.Objects;
  * @since 2020-01-05 11:03
  */
 public class _0162_FindPeakElement {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Find Peak Element.
@@ -90,6 +91,9 @@ public class _0162_FindPeakElement {
         }
         return true;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0162_FindPeakElement solution = new _0162_FindPeakElement();

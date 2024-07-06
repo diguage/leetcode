@@ -40,6 +40,7 @@ import java.util.*;
  * @since 2020-01-26 10:49
  */
 public class _0146_LRUCache {
+  // tag::answer[]
     /**
      * Runtime: 14 ms, faster than 90.57% of Java online submissions for LRU Cache.
      *
@@ -171,6 +172,9 @@ public class _0146_LRUCache {
         int r5 = solution.get(4);
         System.out.println((r5 == 4) + " : " + r5);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0146_LRUCache solution = new _0146_LRUCache();

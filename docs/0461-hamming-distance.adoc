@@ -33,6 +33,6 @@ The above arrows point to positions where the corresponding bits are different.
 [[src-0461]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0461_HammingDistance.java[]
+include::{sourcedir}/_0461_HammingDistance.java[tag=answer]
 ----
 

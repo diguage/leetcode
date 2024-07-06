@@ -8,6 +8,6 @@ https://leetcode.com/problems/last-person-to-fit-in-the-elevator/[LeetCode - Las
 [[src-1204]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1204_LastPersonToFitInTheElevator.java[]
+include::{sourcedir}/_1204_LastPersonToFitInTheElevator.java[tag=answer]
 ----
 

@@ -9,6 +9,7 @@ import java.util.*;
  * @since 2024-06-25 11:30:36
  */
 public class _0199_BinaryTreeRightSideView {
+  // tag::answer[]
   public List<Integer> rightSideView(TreeNode root) {
     if (root == null) {
       return Collections.emptyList();
@@ -33,4 +34,5 @@ public class _0199_BinaryTreeRightSideView {
     }
     return result;
   }
+  // end::answer[]
 }

@@ -53,6 +53,7 @@ import static com.diguage.util.Printers.printMatrix;
  * @since 2019-10-29 00:01
  */
 public class _0289_GameOfLife {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Game of Life.
      *
@@ -131,6 +132,9 @@ public class _0289_GameOfLife {
             return -count;
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0289_GameOfLife solution = new _0289_GameOfLife();

@@ -42,7 +42,12 @@ import java.util.List;
  * @since 2018-07-01
  */
 public class _0009_PalindromeNumber {
+  // tag::answer[]
 
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2018-07-01
+   */
   public static boolean isPalindrome(int x) {
     if (x < 0 || (x > 0 && x % 10 == 0)) {
       return false;
@@ -84,6 +89,9 @@ public class _0009_PalindromeNumber {
 
     return result;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     System.out.println(isPalindrome(121));

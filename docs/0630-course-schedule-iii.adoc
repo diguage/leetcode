@@ -37,6 +37,6 @@ The 4th course cannot be taken now, since you will finish it on the 3300th day, 
 [[src-0630]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0630_CourseScheduleIII.java[]
+include::{sourcedir}/_0630_CourseScheduleIII.java[tag=answer]
 ----
 

@@ -28,6 +28,7 @@ import java.util.Objects;
  * @since 2020-01-11 10:48
  */
 public class _0387_FirstUniqueCharacterInAString {
+  // tag::answer[]
     /**
      * Runtime: 34 ms, faster than 54.19% of Java online submissions for First Unique Character in a String.
      *
@@ -85,6 +86,9 @@ public class _0387_FirstUniqueCharacterInAString {
         }
         return -1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0387_FirstUniqueCharacterInAString solution = new _0387_FirstUniqueCharacterInAString();

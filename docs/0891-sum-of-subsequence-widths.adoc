@@ -41,6 +41,6 @@ The sum of these widths is 6.
 [[src-0891]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0891_SumOfSubsequenceWidths.java[]
+include::{sourcedir}/_0891_SumOfSubsequenceWidths.java[tag=answer]
 ----
 

@@ -26,6 +26,7 @@ import java.util.*;
  * @since 2020-01-04 19:04
  */
 public class _0131_PalindromePartitioning {
+  // tag::answer[]
     /**
      * Runtime: 2 ms, faster than 94.23% of Java online submissions for Palindrome Partitioning.
      * Memory Usage: 39.2 MB, less than 95.45% of Java online submissions for Palindrome Partitioning.
@@ -64,6 +65,9 @@ public class _0131_PalindromePartitioning {
         }
         return true;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0131_PalindromePartitioning solution = new _0131_PalindromePartitioning();

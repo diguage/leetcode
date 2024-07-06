@@ -8,6 +8,6 @@ https://leetcode.com/problems/median-employee-salary/[LeetCode - Median Employee
 [[src-0569]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0569_MedianEmployeeSalary.java[]
+include::{sourcedir}/_0569_MedianEmployeeSalary.java[tag=answer]
 ----
 

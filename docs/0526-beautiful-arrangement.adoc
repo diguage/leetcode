@@ -50,6 +50,6 @@ Number at the 2nd position (i=2) is 1, and i (i=2) is divisible by 1.
 [[src-0526]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0526_BeautifulArrangement.java[]
+include::{sourcedir}/_0526_BeautifulArrangement.java[tag=answer]
 ----
 

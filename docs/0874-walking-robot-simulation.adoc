@@ -58,6 +58,6 @@ Explanation: robot will go to (3, 4)
 [[src-0874]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0874_WalkingRobotSimulation.java[]
+include::{sourcedir}/_0874_WalkingRobotSimulation.java[tag=answer]
 ----
 

@@ -59,6 +59,7 @@ import static com.diguage.util.Printers.printMatrix;
  * @since 2019-10-24 00:57:55
  */
 public class _0048_RotateImage {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Rotate Image.
      *
@@ -111,6 +112,9 @@ public class _0048_RotateImage {
             }
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0048_RotateImage solution = new _0048_RotateImage();

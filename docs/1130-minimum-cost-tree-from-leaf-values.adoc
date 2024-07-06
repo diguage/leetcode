@@ -43,6 +43,6 @@ There are two possible trees.  The first has non-leaf node sum 36, and the secon
 [[src-1130]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1130_MinimumCostTreeFromLeafValues.java[]
+include::{sourcedir}/_1130_MinimumCostTreeFromLeafValues.java[tag=answer]
 ----
 

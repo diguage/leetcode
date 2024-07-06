@@ -8,6 +8,6 @@ https://leetcode.com/problems/sort-transformed-array/[LeetCode - Sort Transforme
 [[src-0360]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0360_SortTransformedArray.java[]
+include::{sourcedir}/_0360_SortTransformedArray.java[tag=answer]
 ----
 

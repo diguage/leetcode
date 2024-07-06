@@ -73,6 +73,6 @@ Because "0.(52)" represents 0.52525252..., and "0.5(25)" represents 0.5252525252
 [[src-0972]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0972_EqualRationalNumbers.java[]
+include::{sourcedir}/_0972_EqualRationalNumbers.java[tag=answer]
 ----
 

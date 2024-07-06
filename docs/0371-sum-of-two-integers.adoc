@@ -42,6 +42,6 @@ Calculate the sum of two integers _a_ and _b_, but you are *not allowed* to use 
 [[src-0371]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0371_SumOfTwoIntegers.java[]
+include::{sourcedir}/_0371_SumOfTwoIntegers.java[tag=answer]
 ----
 

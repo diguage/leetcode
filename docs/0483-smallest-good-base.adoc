@@ -54,6 +54,6 @@ Now given a string representing n, you should return the smallest good base of n
 [[src-0483]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0483_SmallestGoodBase.java[]
+include::{sourcedir}/_0483_SmallestGoodBase.java[tag=answer]
 ----
 

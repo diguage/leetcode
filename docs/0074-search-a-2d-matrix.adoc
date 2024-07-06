@@ -44,6 +44,6 @@ target = 13
 [[src-0074]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0074_SearchA2DMatrix.java[]
+include::{sourcedir}/_0074_SearchA2DMatrix.java[tag=answer]
 ----
 

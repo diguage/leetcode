@@ -8,6 +8,6 @@ https://leetcode.com/problems/sales-analysis-ii/[LeetCode - Sales Analysis II]
 [[src-1083]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1083_SalesAnalysisII.java[]
+include::{sourcedir}/_1083_SalesAnalysisII.java[tag=answer]
 ----
 

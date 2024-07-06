@@ -42,6 +42,6 @@ The sister has two different kinds of candies, the brother has only one kind of 
 [[src-0575]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0575_DistributeCandies.java[]
+include::{sourcedir}/_0575_DistributeCandies.java[tag=answer]
 ----
 

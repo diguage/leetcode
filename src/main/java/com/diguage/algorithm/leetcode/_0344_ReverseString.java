@@ -31,6 +31,7 @@ import java.util.Objects;
  * @since 2020-01-15 00:03
  */
 public class _0344_ReverseString {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 100.00% of Java online submissions for Reverse String.
      *
@@ -46,6 +47,9 @@ public class _0344_ReverseString {
             s[right] = temp;
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0344_ReverseString solution = new _0344_ReverseString();

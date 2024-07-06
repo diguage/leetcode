@@ -37,6 +37,6 @@ Given a string array `words`, find the maximum value of `length(word[i]) * lengt
 [[src-0318]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0318_MaximumProductOfWordLengths.java[]
+include::{sourcedir}/_0318_MaximumProductOfWordLengths.java[tag=answer]
 ----
 

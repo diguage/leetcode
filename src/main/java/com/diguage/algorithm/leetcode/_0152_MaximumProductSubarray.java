@@ -27,6 +27,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-05 07:59
  */
 public class _0152_MaximumProductSubarray {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 97.91% of Java online submissions for Maximum Product Subarray.
      *
@@ -57,6 +58,9 @@ public class _0152_MaximumProductSubarray {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0152_MaximumProductSubarray solution = new _0152_MaximumProductSubarray();

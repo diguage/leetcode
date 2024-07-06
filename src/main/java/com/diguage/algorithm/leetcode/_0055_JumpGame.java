@@ -34,6 +34,7 @@ import java.util.Objects;
  * @since 2019-10-23 12:25
  */
 public class _0055_JumpGame {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 99.35% of Java online submissions for Jump Game.
      *
@@ -57,6 +58,9 @@ public class _0055_JumpGame {
     // TODO: Backtracking
     // TODO: Dynamic Programming Top-down
     // TODO: Dynamic Programming Bottom-up
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0055_JumpGame solution = new _0055_JumpGame();

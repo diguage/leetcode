@@ -27,6 +27,6 @@ Given a binary tree, return the sum of values of its deepest leaves.
 [[src-1302]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1302_DeepestLeavesSum.java[]
+include::{sourcedir}/_1302_DeepestLeavesSum.java[tag=answer]
 ----
 

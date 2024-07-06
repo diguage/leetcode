@@ -8,6 +8,6 @@ https://leetcode.com/problems/sparse-matrix-multiplication/[LeetCode - Sparse Ma
 [[src-0311]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0311_SparseMatrixMultiplication.java[]
+include::{sourcedir}/_0311_SparseMatrixMultiplication.java[tag=answer]
 ----
 

@@ -76,6 +76,6 @@ Given two strings _s1_ and _s2_ of the same length, determine if _s2_ is a scram
 [[src-0087]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0087_ScrambleString.java[]
+include::{sourcedir}/_0087_ScrambleString.java[tag=answer]
 ----
 

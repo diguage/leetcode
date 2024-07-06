@@ -66,6 +66,6 @@ Given two non-negative integers `num1` and `num2` represented as strings, return
 [[src-0043]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0043_MultiplyStrings.java[]
+include::{sourcedir}/_0043_MultiplyStrings.java[tag=answer]
 ----
 

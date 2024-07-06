@@ -34,6 +34,7 @@ import java.util.Objects;
  * @since 2020-01-01 13:01
  */
 public class _0121_BestTimeToBuyAndSellStock {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 69.16% of Java online submissions for Best Time to Buy and Sell Stock.
      * Memory Usage: 42.6 MB, less than 5.31% of Java online submissions for Best Time to Buy and Sell Stock.
@@ -108,6 +109,9 @@ public class _0121_BestTimeToBuyAndSellStock {
         }
         return maxProfit;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0121_BestTimeToBuyAndSellStock solution = new _0121_BestTimeToBuyAndSellStock();

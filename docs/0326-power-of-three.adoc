@@ -51,6 +51,6 @@ Could you do it without using any loop / recursion?
 [[src-0326]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0326_PowerOfThree.java[]
+include::{sourcedir}/_0326_PowerOfThree.java[tag=answer]
 ----
 

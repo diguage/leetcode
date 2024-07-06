@@ -57,6 +57,6 @@ image::https://assets.leetcode.com/uploads/2019/12/05/e1.png[{image_attr}]
 [[src-1292]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1292_MaximumSideLengthOfASquareWithSumLessThanOrEqualToThreshold.java[]
+include::{sourcedir}/_1292_MaximumSideLengthOfASquareWithSumLessThanOrEqualToThreshold.java[tag=answer]
 ----
 

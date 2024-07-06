@@ -38,6 +38,6 @@ Given a positive integer, output its complement number. The complement strategy 
 [[src-0476]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0476_NumberComplement.java[]
+include::{sourcedir}/_0476_NumberComplement.java[tag=answer]
 ----
 

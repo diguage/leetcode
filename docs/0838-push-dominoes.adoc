@@ -50,6 +50,6 @@ Return a string representing the final state.
 [[src-0838]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0838_PushDominoes.java[]
+include::{sourcedir}/_0838_PushDominoes.java[tag=answer]
 ----
 

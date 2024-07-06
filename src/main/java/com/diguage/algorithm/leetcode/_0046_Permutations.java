@@ -31,6 +31,7 @@ import java.util.Objects;
  * @since 2020-01-24 12:35
  */
 public class _0046_Permutations {
+  // tag::answer[]
     /**
      * Runtime: 5 ms, faster than 8.40% of Java online submissions for Permutations.
      *
@@ -59,6 +60,9 @@ public class _0046_Permutations {
             }
         }
     }
+
+
+  // end::answer[]
 
 
     public static void main(String[] args) {

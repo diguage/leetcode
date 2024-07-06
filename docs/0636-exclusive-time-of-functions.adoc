@@ -51,6 +51,6 @@ So function 0 spends 2 + 1 = 3 units of total time executing, and function 1 spe
 [[src-0636]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0636_ExclusiveTimeOfFunctions.java[]
+include::{sourcedir}/_0636_ExclusiveTimeOfFunctions.java[tag=answer]
 ----
 

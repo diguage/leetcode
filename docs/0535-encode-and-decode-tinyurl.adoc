@@ -16,6 +16,6 @@ Design the `encode` and `decode` methods for the TinyURL service. There is no re
 [[src-0535]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0535_EncodeAndDecodeTinyURL.java[]
+include::{sourcedir}/_0535_EncodeAndDecodeTinyURL.java[tag=answer]
 ----
 

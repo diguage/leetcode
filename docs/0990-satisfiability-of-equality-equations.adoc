@@ -81,6 +81,6 @@ Return `true` if and only if it is possible to assign integers to variable names
 [[src-0990]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0990_SatisfiabilityOfEqualityEquations.java[]
+include::{sourcedir}/_0990_SatisfiabilityOfEqualityEquations.java[tag=answer]
 ----
 

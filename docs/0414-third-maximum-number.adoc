@@ -49,6 +49,6 @@ Both numbers with value 2 are both considered as second maximum.
 [[src-0414]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0414_ThirdMaximumNumber.java[]
+include::{sourcedir}/_0414_ThirdMaximumNumber.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/consecutive-available-seats/[LeetCode - Consecutiv
 [[src-0603]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0603_ConsecutiveAvailableSeats.java[]
+include::{sourcedir}/_0603_ConsecutiveAvailableSeats.java[tag=answer]
 ----
 

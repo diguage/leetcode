@@ -22,6 +22,6 @@ Challenge: Perform all these in O(1) time complexity.
 [[src-0432]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0432_AllOOneDataStructure.java[]
+include::{sourcedir}/_0432_AllOOneDataStructure.java[tag=answer]
 ----
 

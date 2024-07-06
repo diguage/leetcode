@@ -8,6 +8,6 @@ https://leetcode.com/problems/meeting-rooms/[LeetCode - Meeting Rooms]
 [[src-0252]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0252_MeetingRooms.java[]
+include::{sourcedir}/_0252_MeetingRooms.java[tag=answer]
 ----
 

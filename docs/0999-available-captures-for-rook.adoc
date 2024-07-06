@@ -62,6 +62,6 @@ The rook can capture the pawns at positions b5, d6 and f5.
 [[src-0999]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0999_AvailableCapturesForRook.java[]
+include::{sourcedir}/_0999_AvailableCapturesForRook.java[tag=answer]
 ----
 

@@ -73,6 +73,6 @@ Asteroids moving the same direction never meet, so no asteroids will meet each o
 [[src-0735]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0735_AsteroidCollision.java[]
+include::{sourcedir}/_0735_AsteroidCollision.java[tag=answer]
 ----
 

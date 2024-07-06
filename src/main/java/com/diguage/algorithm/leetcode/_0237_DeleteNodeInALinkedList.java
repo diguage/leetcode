@@ -42,6 +42,7 @@ import static com.diguage.util.ListNodes.printListNode;
  * @since 2020-01-13 20:28
  */
 public class _0237_DeleteNodeInALinkedList {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Delete Node in a Linked List.
@@ -72,6 +73,9 @@ public class _0237_DeleteNodeInALinkedList {
             }
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0237_DeleteNodeInALinkedList solution = new _0237_DeleteNodeInALinkedList();

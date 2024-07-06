@@ -8,6 +8,6 @@ https://leetcode.com/problems/students-report-by-geography/[LeetCode - Students 
 [[src-0618]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0618_StudentsReportByGeography.java[]
+include::{sourcedir}/_0618_StudentsReportByGeography.java[tag=answer]
 ----
 

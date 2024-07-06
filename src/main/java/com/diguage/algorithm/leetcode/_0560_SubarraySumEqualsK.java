@@ -13,6 +13,7 @@ import java.util.Objects;
  * @since 2020-01-30 23:14
  */
 public class _0560_SubarraySumEqualsK {
+  // tag::answer[]
     /**
      * Runtime: 12 ms, faster than 97.62% of Java online submissions for Subarray Sum Equals K.
      * Memory Usage: 42.2 MB, less than 5.43% of Java online submissions for Subarray Sum Equals K.
@@ -35,6 +36,9 @@ public class _0560_SubarraySumEqualsK {
         }
         return count;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0560_SubarraySumEqualsK solution = new _0560_SubarraySumEqualsK();

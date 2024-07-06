@@ -8,6 +8,6 @@ https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/[LeetC
 [[src-0549]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0549_BinaryTreeLongestConsecutiveSequenceII.java[]
+include::{sourcedir}/_0549_BinaryTreeLongestConsecutiveSequenceII.java[tag=answer]
 ----
 

@@ -29,6 +29,7 @@ import java.util.Objects;
  * @since 2018-07-15 01:12
  */
 public class _0031_NextPermutation {
+  // tag::answer[]
     public static void nextPermutation(int[] nums) {
         if (nums == null || nums.length < 2) {
             return;
@@ -44,6 +45,9 @@ public class _0031_NextPermutation {
         }
         Arrays.sort(nums);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         int[] a1 = new int[]{1, 2, 3};

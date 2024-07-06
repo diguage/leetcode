@@ -81,6 +81,6 @@ source = ["a/*comment", "line", "more_comment*/b"]
 [[src-0722]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0722_RemoveComments.java[]
+include::{sourcedir}/_0722_RemoveComments.java[tag=answer]
 ----
 

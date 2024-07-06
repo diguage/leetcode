@@ -8,6 +8,6 @@ https://leetcode.com/problems/plus-one-linked-list/[LeetCode - Plus One Linked L
 [[src-0369]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0369_PlusOneLinkedList.java[]
+include::{sourcedir}/_0369_PlusOneLinkedList.java[tag=answer]
 ----
 

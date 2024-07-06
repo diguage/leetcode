@@ -105,12 +105,12 @@ Given _n_, how many structurally unique *BST's* (binary search trees) that store
 [[src-0096]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0096_UniqueBinarySearchTrees.java[]
+include::{sourcedir}/_0096_UniqueBinarySearchTrees.java[tag=answer]
 ----
 
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0096_UniqueBinarySearchTrees_2.java[]
+include::{sourcedir}/_0096_UniqueBinarySearchTrees_2.java[tag=answer]
 ----
 

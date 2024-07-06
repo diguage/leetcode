@@ -8,6 +8,6 @@ https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/[LeetCode - S
 [[src-0428]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0428_SerializeAndDeserializeNAryTree.java[]
+include::{sourcedir}/_0428_SerializeAndDeserializeNAryTree.java[tag=answer]
 ----
 

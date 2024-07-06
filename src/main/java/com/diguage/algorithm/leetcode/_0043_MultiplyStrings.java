@@ -9,6 +9,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-02-03 21:07
  */
 public class _0043_MultiplyStrings {
+  // tag::answer[]
     /**
      * Runtime: 5 ms, faster than 59.85% of Java online submissions for Multiply Strings.
      * Memory Usage: 38.5 MB, less than 16.67% of Java online submissions for Multiply Strings.
@@ -39,6 +40,9 @@ public class _0043_MultiplyStrings {
         }
         return sb.toString();
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0043_MultiplyStrings solution = new _0043_MultiplyStrings();

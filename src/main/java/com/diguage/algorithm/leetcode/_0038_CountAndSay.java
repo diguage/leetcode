@@ -43,6 +43,7 @@ import java.util.Objects;
  * @since 2020-01-17 23:16
  */
 public class _0038_CountAndSay {
+  // tag::answer[]
     /**
      * Runtime: 3 ms, faster than 40.24% of Java online submissions for Count and Say.
      *
@@ -82,6 +83,9 @@ public class _0038_CountAndSay {
 
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0038_CountAndSay solution = new _0038_CountAndSay();

@@ -23,6 +23,6 @@ Given an array of *n* positive integers and a positive integer *s*, find the min
 [[src-0209]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0209_MinimumSizeSubarraySum.java[]
+include::{sourcedir}/_0209_MinimumSizeSubarraySum.java[tag=answer]
 ----
 

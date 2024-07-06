@@ -34,6 +34,6 @@ HammingDistance(4, 14) + HammingDistance(4, 2) + HammingDistance(14, 2) = 2 + 2 
 [[src-0477]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0477_TotalHammingDistance.java[]
+include::{sourcedir}/_0477_TotalHammingDistance.java[tag=answer]
 ----
 

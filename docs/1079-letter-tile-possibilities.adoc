@@ -39,6 +39,6 @@ You have a set of `tiles`, where each tile has one letter `tiles[i]` printed on 
 [[src-1079]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1079_LetterTilePossibilities.java[]
+include::{sourcedir}/_1079_LetterTilePossibilities.java[tag=answer]
 ----
 

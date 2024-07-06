@@ -31,6 +31,6 @@ Given a non-negative integer `c`, your task is to decide whether there're two in
 [[src-0633]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0633_SumOfSquareNumbers.java[]
+include::{sourcedir}/_0633_SumOfSquareNumbers.java[tag=answer]
 ----
 

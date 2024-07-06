@@ -8,6 +8,6 @@ https://leetcode.com/problems/encode-number/[LeetCode - Encode Number]
 [[src-1256]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1256_EncodeNumber.java[]
+include::{sourcedir}/_1256_EncodeNumber.java[tag=answer]
 ----
 

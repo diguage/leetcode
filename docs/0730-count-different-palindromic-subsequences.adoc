@@ -49,6 +49,6 @@ There are 3104860382 different non-empty palindromic subsequences, which is 1048
 [[src-0730]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0730_CountDifferentPalindromicSubsequences.java[]
+include::{sourcedir}/_0730_CountDifferentPalindromicSubsequences.java[tag=answer]
 ----
 

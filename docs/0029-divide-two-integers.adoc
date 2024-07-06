@@ -43,6 +43,6 @@ https://leetcode.com/problems/divide-two-integers/discuss/13428/15-line-easy-und
 [[src-0029]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0029_DivideTwoIntegers.java[]
+include::{sourcedir}/_0029_DivideTwoIntegers.java[tag=answer]
 ----
 

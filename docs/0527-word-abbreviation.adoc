@@ -8,6 +8,6 @@ https://leetcode.com/problems/word-abbreviation/[LeetCode - Word Abbreviation]
 [[src-0527]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0527_WordAbbreviation.java[]
+include::{sourcedir}/_0527_WordAbbreviation.java[tag=answer]
 ----
 

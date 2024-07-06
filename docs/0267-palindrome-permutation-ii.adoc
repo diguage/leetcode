@@ -8,6 +8,6 @@ https://leetcode.com/problems/palindrome-permutation-ii/[LeetCode - Palindrome P
 [[src-0267]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0267_PalindromePermutationII.java[]
+include::{sourcedir}/_0267_PalindromePermutationII.java[tag=answer]
 ----
 

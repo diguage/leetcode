@@ -95,11 +95,11 @@ Two binary trees are considered the same if they are structurally identical and 
 [[src-0100]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0100_SameTree.java[]
+include::{sourcedir}/_0100_SameTree.java[tag=answer]
 ----
 
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0100_SameTree_2.java[]
+include::{sourcedir}/_0100_SameTree_2.java[tag=answer]
 ----

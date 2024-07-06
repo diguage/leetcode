@@ -21,6 +21,6 @@ Your algorithm should run in O(_n_) complexity.
 [[src-0128]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0128_LongestConsecutiveSequence.java[]
+include::{sourcedir}/_0128_LongestConsecutiveSequence.java[tag=answer]
 ----
 

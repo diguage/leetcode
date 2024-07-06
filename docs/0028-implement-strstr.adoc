@@ -36,6 +36,6 @@ For the purpose of this problem, we will return 0 when `needle` is an empty stri
 [[src-0028]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0028_ImplementStrStr.java[]
+include::{sourcedir}/_0028_ImplementStrStr.java[tag=answer]
 ----
 

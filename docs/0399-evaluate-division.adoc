@@ -36,6 +36,6 @@ The input is always valid. You may assume that evaluating the queries will resul
 [[src-0399]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0399_EvaluateDivision.java[]
+include::{sourcedir}/_0399_EvaluateDivision.java[tag=answer]
 ----
 

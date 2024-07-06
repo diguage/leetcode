@@ -51,6 +51,6 @@ circularQueue.Rear();  // return 4
 [[src-0622]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0622_DesignCircularQueue.java[]
+include::{sourcedir}/_0622_DesignCircularQueue.java[tag=answer]
 ----
 

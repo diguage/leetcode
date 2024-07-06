@@ -47,6 +47,6 @@ Additionally, the division that we use is _floor division_ such that `10 * 9 / 8
 [[src-1006]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1006_ClumsyFactorial.java[]
+include::{sourcedir}/_1006_ClumsyFactorial.java[tag=answer]
 ----
 

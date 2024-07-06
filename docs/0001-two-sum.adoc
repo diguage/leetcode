@@ -20,6 +20,6 @@ return [*0*, *1*].
 [[src-0001]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0001_TwoSum.java[]
+include::{sourcedir}/_0001_TwoSum.java[tag=answer]
 ----
 

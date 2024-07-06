@@ -27,6 +27,6 @@ Could you do this in O(_n_) runtime?
 [[src-0421]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0421_MaximumXOROfTwoNumbersInAnArray.java[]
+include::{sourcedir}/_0421_MaximumXOROfTwoNumbersInAnArray.java[tag=answer]
 ----
 

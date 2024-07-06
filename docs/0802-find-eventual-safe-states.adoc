@@ -35,6 +35,6 @@ image::https://s3-lc-upload.s3.amazonaws.com/uploads/2018/03/17/picture1.png[{im
 [[src-0802]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0802_FindEventualSafeStates.java[]
+include::{sourcedir}/_0802_FindEventualSafeStates.java[tag=answer]
 ----
 

@@ -49,6 +49,6 @@ Your answer should be sorted by frequency from highest to lowest. If two words h
 [[src-0692]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0692_TopKFrequentWords.java[]
+include::{sourcedir}/_0692_TopKFrequentWords.java[tag=answer]
 ----
 

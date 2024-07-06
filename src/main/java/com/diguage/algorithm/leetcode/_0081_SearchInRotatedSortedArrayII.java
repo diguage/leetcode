@@ -11,6 +11,7 @@ import java.util.Objects;
  * @since 2020-02-04 22:13
  */
 public class _0081_SearchInRotatedSortedArrayII {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Search in Rotated Sorted Array II.
      * Memory Usage: 38.6 MB, less than 88.73% of Java online submissions for Search in Rotated Sorted Array II.
@@ -47,6 +48,9 @@ public class _0081_SearchInRotatedSortedArrayII {
         }
         return false;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0081_SearchInRotatedSortedArrayII solution = new _0081_SearchInRotatedSortedArrayII();

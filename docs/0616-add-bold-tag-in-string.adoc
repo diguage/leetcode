@@ -8,6 +8,6 @@ https://leetcode.com/problems/add-bold-tag-in-string/[LeetCode - Add Bold Tag in
 [[src-0616]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0616_AddBoldTagInString.java[]
+include::{sourcedir}/_0616_AddBoldTagInString.java[tag=answer]
 ----
 

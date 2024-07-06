@@ -36,12 +36,12 @@ return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
 [[src-0112]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0112_PathSum.java[]
+include::{sourcedir}/_0112_PathSum.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0112_PathSum_2.java[]
+include::{sourcedir}/_0112_PathSum_2.java[tag=answer]
 ----
 
 很简单的一道题。本来是想找另外一道题（见 <<0112-additional-question>>），结果找到了这道题。

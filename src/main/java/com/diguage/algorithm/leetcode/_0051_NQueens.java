@@ -14,6 +14,7 @@ import static com.diguage.util.Printers.printMatrix;
  * @since 2020-02-05 12:55
  */
 public class _0051_NQueens {
+  // tag::answer[]
     /**
      * Runtime: 4 ms, faster than 64.59% of Java online submissions for N-Queens.
      * Memory Usage: 41.3 MB, less than 5.41% of Java online submissions for N-Queens.
@@ -116,6 +117,9 @@ public class _0051_NQueens {
         }
         return true;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0051_NQueens solution = new _0051_NQueens();

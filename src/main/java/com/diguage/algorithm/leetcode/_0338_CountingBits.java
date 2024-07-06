@@ -11,6 +11,7 @@ import java.util.Arrays;
  * @since 2020-01-29 14:50
  */
 public class _0338_CountingBits {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 99.73% of Java online submissions for Counting Bits.
      * Memory Usage: 43 MB, less than 5.88% of Java online submissions for Counting Bits.
@@ -57,6 +58,9 @@ public class _0338_CountingBits {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0338_CountingBits solution = new _0338_CountingBits();

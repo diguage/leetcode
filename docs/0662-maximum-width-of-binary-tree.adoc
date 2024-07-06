@@ -81,6 +81,6 @@ The width of one level is defined as the length between the end-nodes (the leftm
 [[src-0662]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0662_MaximumWidthOfBinaryTree.java[]
+include::{sourcedir}/_0662_MaximumWidthOfBinaryTree.java[tag=answer]
 ----
 

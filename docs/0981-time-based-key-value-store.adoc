@@ -67,6 +67,6 @@ kv.get("foo", 5); //output "bar2"
 [[src-0981]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0981_TimeBasedKeyValueStore.java[]
+include::{sourcedir}/_0981_TimeBasedKeyValueStore.java[tag=answer]
 ----
 

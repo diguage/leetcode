@@ -13,6 +13,7 @@ import java.util.Objects;
  * @since 2020-02-04 16:15
  */
 public class _0071_SimplifyPath {
+  // tag::answer[]
     /**
      * Runtime: 5 ms, faster than 71.14% of Java online submissions for Simplify Path.
      * Memory Usage: 39.9 MB, less than 6.67% of Java online submissions for Simplify Path.
@@ -84,6 +85,9 @@ public class _0071_SimplifyPath {
         }
         return result.length() > 0 ? result.toString() : "/";
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0071_SimplifyPath solution = new _0071_SimplifyPath();

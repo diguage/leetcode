@@ -11,6 +11,7 @@ import com.diguage.util.Printers;
  * @since 2020-03-25 09:34
  */
 public class _0037_SudokuSolver {
+  // tag::answer[]
     public void solveSudoku(char[][] board) {
         backtrack(board, 0);
     }
@@ -95,6 +96,9 @@ public class _0037_SudokuSolver {
         }
         return false;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         char[][] b1 = {

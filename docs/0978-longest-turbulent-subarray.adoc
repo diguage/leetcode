@@ -60,6 +60,6 @@ Return the *length* of a maximum size turbulent subarray of A.
 [[src-0978]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0978_LongestTurbulentSubarray.java[]
+include::{sourcedir}/_0978_LongestTurbulentSubarray.java[tag=answer]
 ----
 

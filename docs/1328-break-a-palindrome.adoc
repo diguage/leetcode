@@ -36,6 +36,6 @@ After doing so, return the final string.  If there is no way to do so, return th
 [[src-1328]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1328_BreakAPalindrome.java[]
+include::{sourcedir}/_1328_BreakAPalindrome.java[tag=answer]
 ----
 

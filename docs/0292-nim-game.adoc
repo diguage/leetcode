@@ -22,6 +22,6 @@ Both of you are very clever and have optimal strategies for the game. Write a fu
 [[src-0292]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0292_NimGame.java[]
+include::{sourcedir}/_0292_NimGame.java[tag=answer]
 ----
 

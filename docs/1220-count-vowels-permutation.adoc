@@ -57,6 +57,6 @@ Since the answer may be too large, return it modulo `10^9 + 7.`
 [[src-1220]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1220_CountVowelsPermutation.java[]
+include::{sourcedir}/_1220_CountVowelsPermutation.java[tag=answer]
 ----
 

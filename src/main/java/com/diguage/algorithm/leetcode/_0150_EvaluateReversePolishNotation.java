@@ -51,6 +51,7 @@ import java.util.*;
  * @since 2020-01-26 16:01
  */
 public class _0150_EvaluateReversePolishNotation {
+  // tag::answer[]
     /**
      * Runtime: 4 ms, faster than 97.32% of Java online submissions for Evaluate Reverse Polish Notation.
      *
@@ -90,6 +91,9 @@ public class _0150_EvaluateReversePolishNotation {
 
         return stack.pop();
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0150_EvaluateReversePolishNotation solution = new _0150_EvaluateReversePolishNotation();

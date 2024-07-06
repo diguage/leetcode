@@ -30,6 +30,7 @@ import java.util.List;
  * @since 2019-10-26 01:34
  */
 public class _0119_PascalSTriangleII {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 89.02% of Java online submissions for Pascal's Triangle II.
      *
@@ -53,6 +54,9 @@ public class _0119_PascalSTriangleII {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0119_PascalSTriangleII solution = new _0119_PascalSTriangleII();

@@ -69,6 +69,6 @@ Notice you can have extra video after the event ends.
 [[src-1024]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1024_VideoStitching.java[]
+include::{sourcedir}/_1024_VideoStitching.java[tag=answer]
 ----
 

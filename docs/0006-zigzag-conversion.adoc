@@ -46,6 +46,6 @@ P     I
 [[src-0006]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0006_ZigZagConversion.java[]
+include::{sourcedir}/_0006_ZigZagConversion.java[tag=answer]
 ----
 

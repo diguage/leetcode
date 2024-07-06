@@ -55,6 +55,6 @@ Return *false*.
 [[src-0572]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0572_SubtreeOfAnotherTree.java[]
+include::{sourcedir}/_0572_SubtreeOfAnotherTree.java[tag=answer]
 ----
 

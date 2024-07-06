@@ -13,6 +13,7 @@ import java.util.Objects;
  * @since 2020-01-30 16:15
  */
 public class _0076_MinimumWindowSubstring {
+  // tag::answer[]
 
     /**
      * Runtime: 489 ms, faster than 5.03% of Java online submissions for Minimum Window Substring.
@@ -68,6 +69,9 @@ public class _0076_MinimumWindowSubstring {
         }
         return minLength == Integer.MAX_VALUE ? "" : s.substring(start, start + minLength);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0076_MinimumWindowSubstring solution = new _0076_MinimumWindowSubstring();

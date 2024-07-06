@@ -42,6 +42,6 @@ Do the above modifications to the input array *in place*, do not return anything
 [[src-1089]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1089_DuplicateZeros.java[]
+include::{sourcedir}/_1089_DuplicateZeros.java[tag=answer]
 ----
 

@@ -63,6 +63,6 @@ The stack becomes [5,7].
 [[src-0895]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0895_MaximumFrequencyStack.java[]
+include::{sourcedir}/_0895_MaximumFrequencyStack.java[tag=answer]
 ----
 

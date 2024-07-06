@@ -35,6 +35,6 @@ Return a *sorted* list of all the integers in the range `[low, high]` inclusive 
 [[src-1291]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1291_SequentialDigits.java[]
+include::{sourcedir}/_1291_SequentialDigits.java[tag=answer]
 ----
 

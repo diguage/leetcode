@@ -41,6 +41,6 @@ Explanation: Remove all the digits from the number and it is left with nothing w
 [[src-0402]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0402_RemoveKDigits.java[]
+include::{sourcedir}/_0402_RemoveKDigits.java[tag=answer]
 ----
 

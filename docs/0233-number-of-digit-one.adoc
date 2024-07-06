@@ -19,6 +19,6 @@ Given an integer n, count the total number of digit 1 appearing in all non-negat
 [[src-0233]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0233_NumberOfDigitOne.java[]
+include::{sourcedir}/_0233_NumberOfDigitOne.java[tag=answer]
 ----
 

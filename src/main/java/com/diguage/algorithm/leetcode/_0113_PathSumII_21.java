@@ -16,6 +16,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-07 22:31
  */
 public class _0113_PathSumII_21 {
+  // tag::answer[]
 
     /**
      * 原始解法
@@ -47,6 +48,9 @@ public class _0113_PathSumII_21 {
     // 用完删除，这不就是回溯吗？
     path.removeLast();
   }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0113_PathSumII_21 solution = new _0113_PathSumII_21();

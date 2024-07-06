@@ -8,6 +8,6 @@ https://leetcode.com/problems/students-and-examinations/[LeetCode - Students and
 [[src-1280]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1280_StudentsAndExaminations.java[]
+include::{sourcedir}/_1280_StudentsAndExaminations.java[tag=answer]
 ----
 

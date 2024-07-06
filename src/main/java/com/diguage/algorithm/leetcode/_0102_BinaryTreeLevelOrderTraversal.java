@@ -38,6 +38,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2020-01-24 20:40
  */
 public class _0102_BinaryTreeLevelOrderTraversal {
+  // tag::answer[]
 
     /**
      * Runtime: 3 ms, faster than 5.15% of Java online submissions for Binary Tree Level Order Traversal.
@@ -70,6 +71,9 @@ public class _0102_BinaryTreeLevelOrderTraversal {
 
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0102_BinaryTreeLevelOrderTraversal solution = new _0102_BinaryTreeLevelOrderTraversal();

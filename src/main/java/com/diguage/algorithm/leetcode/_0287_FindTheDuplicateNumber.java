@@ -33,6 +33,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-05 22:52
  */
 public class _0287_FindTheDuplicateNumber {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Find the Duplicate Number.
      * Memory Usage: 42.8 MB, less than 5.09% of Java online submissions for Find the Duplicate Number.
@@ -72,6 +73,9 @@ public class _0287_FindTheDuplicateNumber {
         }
         return -1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0287_FindTheDuplicateNumber solution = new _0287_FindTheDuplicateNumber();

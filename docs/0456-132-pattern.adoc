@@ -52,6 +52,6 @@ that *i* < *j* < *k* and a~*i*~ < a~*k*~ < a~*j*~. Design an algorithm that take
 [[src-0456]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0456_132Pattern.java[]
+include::{sourcedir}/_0456_132Pattern.java[tag=answer]
 ----
 

@@ -57,6 +57,6 @@ Return the least amount of money needed to form a paid group satisfying the abov
 [[src-0857]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0857_MinimumCostToHireKWorkers.java[]
+include::{sourcedir}/_0857_MinimumCostToHireKWorkers.java[tag=answer]
 ----
 

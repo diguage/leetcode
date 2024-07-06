@@ -35,6 +35,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2018-09-16 17:45
  */
 public class _0033_SearchInRotatedSortedArray {
+  // tag::answer[]
     public static int search(int[] nums, int target) {
         int result = -1;
         if (null == nums || nums.length == 0) {
@@ -90,6 +91,9 @@ public class _0033_SearchInRotatedSortedArray {
         }
         return -1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
 //        int[] nums = new int[]{4, 5, 6, 7, 0, 1, 2};

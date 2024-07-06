@@ -56,6 +56,6 @@ Flip A[5],A[6],A[7]: A becomes [1,1,1,1,1,1,1,1]
 [[src-0995]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0995_MinimumNumberOfKConsecutiveBitFlips.java[]
+include::{sourcedir}/_0995_MinimumNumberOfKConsecutiveBitFlips.java[tag=answer]
 ----
 

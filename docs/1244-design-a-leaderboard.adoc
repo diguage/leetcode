@@ -8,6 +8,6 @@ https://leetcode.com/problems/design-a-leaderboard/[LeetCode - Design A Leaderbo
 [[src-1244]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1244_DesignALeaderboard.java[]
+include::{sourcedir}/_1244_DesignALeaderboard.java[tag=answer]
 ----
 

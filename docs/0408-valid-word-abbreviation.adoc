@@ -8,6 +8,6 @@ https://leetcode.com/problems/valid-word-abbreviation/[LeetCode - Valid Word Abb
 [[src-0408]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0408_ValidWordAbbreviation.java[]
+include::{sourcedir}/_0408_ValidWordAbbreviation.java[tag=answer]
 ----
 

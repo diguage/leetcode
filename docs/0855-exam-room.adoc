@@ -42,6 +42,6 @@ seat() -> 5, the student sits at the last seat number 5.
 [[src-0855]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0855_ExamRoom.java[]
+include::{sourcedir}/_0855_ExamRoom.java[tag=answer]
 ----
 

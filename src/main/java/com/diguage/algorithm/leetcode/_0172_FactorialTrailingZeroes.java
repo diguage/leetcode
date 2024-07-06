@@ -29,6 +29,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-14 12:11
  */
 public class _0172_FactorialTrailingZeroes {
+  // tag::answer[]
 
     /**
      * Runtime: 1 ms, faster than 97.29% of Java online submissions for Factorial Trailing Zeroes.
@@ -43,6 +44,9 @@ public class _0172_FactorialTrailingZeroes {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0172_FactorialTrailingZeroes solultion = new _0172_FactorialTrailingZeroes();

@@ -35,7 +35,7 @@ image::images/0257-00.png[{image_attr}]
 [[src-0257]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0257_BinaryTreePaths.java[]
+include::{sourcedir}/_0257_BinaryTreePaths.java[tag=answer]
 ----
 
 == 参考资料

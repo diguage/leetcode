@@ -71,6 +71,6 @@ Day 7: [0, 0, 1, 1, 0, 0, 0, 0]
 [[src-0957]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0957_PrisonCellsAfterNDays.java[]
+include::{sourcedir}/_0957_PrisonCellsAfterNDays.java[tag=answer]
 ----
 

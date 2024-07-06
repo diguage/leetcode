@@ -43,6 +43,6 @@ rotate 2 steps to the right: [3,99,-1,-100]
 [[src-0189]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0189_RotateArray.java[]
+include::{sourcedir}/_0189_RotateArray.java[tag=answer]
 ----
 

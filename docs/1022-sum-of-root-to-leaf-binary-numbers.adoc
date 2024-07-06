@@ -37,6 +37,6 @@ image::https://assets.leetcode.com/uploads/2019/04/04/sum-of-root-to-leaf-binary
 [[src-1022]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1022_SumOfRootToLeafBinaryNumbers.java[]
+include::{sourcedir}/_1022_SumOfRootToLeafBinaryNumbers.java[tag=answer]
 ----
 

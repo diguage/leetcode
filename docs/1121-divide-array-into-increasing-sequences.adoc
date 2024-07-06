@@ -8,6 +8,6 @@ https://leetcode.com/problems/divide-array-into-increasing-sequences/[LeetCode -
 [[src-1121]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1121_DivideArrayIntoIncreasingSequences.java[]
+include::{sourcedir}/_1121_DivideArrayIntoIncreasingSequences.java[tag=answer]
 ----
 

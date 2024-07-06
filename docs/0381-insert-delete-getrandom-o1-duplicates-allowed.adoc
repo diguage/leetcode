@@ -43,6 +43,6 @@ collection.getRandom();
 [[src-0381]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0381_InsertDeleteGetRandomO1DuplicatesAllowed.java[]
+include::{sourcedir}/_0381_InsertDeleteGetRandomO1DuplicatesAllowed.java[tag=answer]
 ----
 

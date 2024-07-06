@@ -45,6 +45,6 @@ You may return the answer in any order.  It is guaranteed an answer exists.
 [[src-1125]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1125_SmallestSufficientTeam.java[]
+include::{sourcedir}/_1125_SmallestSufficientTeam.java[tag=answer]
 ----
 

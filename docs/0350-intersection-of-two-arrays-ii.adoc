@@ -43,6 +43,6 @@ Given two arrays, write a function to compute their intersection.
 [[src-0350]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0350_IntersectionOfTwoArraysII.java[]
+include::{sourcedir}/_0350_IntersectionOfTwoArraysII.java[tag=answer]
 ----
 

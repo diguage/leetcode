@@ -29,6 +29,6 @@ solution.pick(1);
 [[src-0398]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0398_RandomPickIndex.java[]
+include::{sourcedir}/_0398_RandomPickIndex.java[tag=answer]
 ----
 

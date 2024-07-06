@@ -57,6 +57,7 @@ import java.util.Stack;
  * @since 2019-07-26 08:12
  */
 public class _0020_ValidParentheses {
+  // tag::answer[]
     /**
      * Runtime: 2 ms, faster than 60.99% of Java online submissions for Valid Parentheses.
      *
@@ -87,6 +88,9 @@ public class _0020_ValidParentheses {
         }
         return stack.isEmpty();
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0020_ValidParentheses solution = new _0020_ValidParentheses();

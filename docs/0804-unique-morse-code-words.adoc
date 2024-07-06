@@ -45,6 +45,6 @@ There are 2 different transformations, "--...-." and "--...--.".
 [[src-0804]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0804_UniqueMorseCodeWords.java[]
+include::{sourcedir}/_0804_UniqueMorseCodeWords.java[tag=answer]
 ----
 

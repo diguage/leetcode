@@ -31,6 +31,6 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 [[src-0108]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0108_ConvertSortedArrayToBinarySearchTree.java[]
+include::{sourcedir}/_0108_ConvertSortedArrayToBinarySearchTree.java[tag=answer]
 ----
 

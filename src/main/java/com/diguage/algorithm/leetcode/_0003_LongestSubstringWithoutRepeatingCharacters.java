@@ -42,10 +42,14 @@ import java.util.Set;
  * @since 2019-07-11 21:31
  */
 public class _0003_LongestSubstringWithoutRepeatingCharacters {
+  // tag::answer[]
   /**
    * Runtime: 6 ms, faster than 85.45% of Java online submissions for Longest Substring Without Repeating Characters.
    *
    * Memory Usage: 36.4 MB, less than 99.80% of Java online submissions for Longest Substring Without Repeating Characters.
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2019-07-11 21:31
    */
   public int lengthOfLongestSubstring(String s) {
     if (Objects.isNull(s) || s.length() == 0) {
@@ -128,6 +132,9 @@ public class _0003_LongestSubstringWithoutRepeatingCharacters {
     }
     return result;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0003_LongestSubstringWithoutRepeatingCharacters result = new _0003_LongestSubstringWithoutRepeatingCharacters();

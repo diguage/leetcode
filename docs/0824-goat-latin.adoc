@@ -64,6 +64,6 @@ Notes:
 [[src-0824]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0824_GoatLatin.java[]
+include::{sourcedir}/_0824_GoatLatin.java[tag=answer]
 ----
 

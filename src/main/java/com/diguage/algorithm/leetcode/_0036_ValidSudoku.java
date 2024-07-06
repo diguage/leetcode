@@ -68,6 +68,7 @@ import java.util.Set;
  * @since 2020-01-06 12:24
  */
 public class _0036_ValidSudoku {
+  // tag::answer[]
     /**
      * Runtime: 5 ms, faster than 21.21% of Java online submissions for Valid Sudoku.
      *
@@ -91,6 +92,9 @@ public class _0036_ValidSudoku {
         }
         return true;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0036_ValidSudoku solution = new _0036_ValidSudoku();

@@ -50,6 +50,6 @@ How would you handle overflow for very large input integers?
 [[src-0306]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0306_AdditiveNumber.java[]
+include::{sourcedir}/_0306_AdditiveNumber.java[tag=answer]
 ----
 

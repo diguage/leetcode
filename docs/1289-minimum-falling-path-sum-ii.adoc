@@ -35,6 +35,6 @@ The falling path with the smallest sum is [1,5,7], so the answer is 13.
 [[src-1289]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1289_MinimumFallingPathSumII.java[]
+include::{sourcedir}/_1289_MinimumFallingPathSumII.java[tag=answer]
 ----
 

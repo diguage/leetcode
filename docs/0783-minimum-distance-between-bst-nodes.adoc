@@ -36,6 +36,6 @@ while the minimum difference in this tree is 1, it occurs between node 1 and nod
 [[src-0783]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0783_MinimumDistanceBetweenBSTNodes.java[]
+include::{sourcedir}/_0783_MinimumDistanceBetweenBSTNodes.java[tag=answer]
 ----
 

@@ -44,6 +44,6 @@ iterator.hasNext(); // return false
 [[src-0173]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0173_BinarySearchTreeIterator.java[]
+include::{sourcedir}/_0173_BinarySearchTreeIterator.java[tag=answer]
 ----
 

@@ -49,6 +49,6 @@ We do not know how the threads will be scheduled in the operating system, even t
 [[src-1114]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1114_PrintInOrder.java[]
+include::{sourcedir}/_1114_PrintInOrder.java[tag=answer]
 ----
 

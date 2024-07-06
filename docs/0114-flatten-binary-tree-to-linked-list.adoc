@@ -76,17 +76,17 @@ image::images/0114-18.png[{image_attr}]
 [[src-0114]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList.java[]
+include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_2.java[]
+include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_2.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_3.java[]
+include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_3.java[tag=answer]
 ----
 
 == 思考题
@@ -95,7 +95,7 @@ include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_3.java[]
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_3rec.java[]
+include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_3rec.java[tag=answer]
 ----
 
 == 参考资料

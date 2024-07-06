@@ -14,6 +14,6 @@ Please optimize your algorithm to use less time and space. The input size may be
 [[src-0386]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0386_LexicographicalNumbers.java[]
+include::{sourcedir}/_0386_LexicographicalNumbers.java[tag=answer]
 ----
 

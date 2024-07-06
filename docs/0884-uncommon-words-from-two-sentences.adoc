@@ -51,6 +51,6 @@ You may return the list in any order.
 [[src-0884]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0884_UncommonWordsFromTwoSentences.java[]
+include::{sourcedir}/_0884_UncommonWordsFromTwoSentences.java[tag=answer]
 ----
 

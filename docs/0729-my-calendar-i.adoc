@@ -41,6 +41,6 @@ The third event can be booked, as the first event takes every time less than 20,
 [[src-0729]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0729_MyCalendarI.java[]
+include::{sourcedir}/_0729_MyCalendarI.java[tag=answer]
 ----
 

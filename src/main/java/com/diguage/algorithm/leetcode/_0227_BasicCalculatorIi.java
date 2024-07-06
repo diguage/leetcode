@@ -41,6 +41,7 @@ import java.util.Objects;
  * @since 2020-01-19 23:30
  */
 public class _0227_BasicCalculatorIi {
+  // tag::answer[]
     /**
      * Runtime: 5 ms, faster than 98.92% of Java online submissions for Basic Calculator II.
      *
@@ -87,6 +88,9 @@ public class _0227_BasicCalculatorIi {
         result += previous;
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0227_BasicCalculatorIi solution = new _0227_BasicCalculatorIi();

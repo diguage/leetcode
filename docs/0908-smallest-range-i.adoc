@@ -61,6 +61,6 @@ Return the smallest possible difference between the maximum value of `B` and the
 [[src-0908]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0908_SmallestRangeI.java[]
+include::{sourcedir}/_0908_SmallestRangeI.java[tag=answer]
 ----
 

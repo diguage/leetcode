@@ -48,6 +48,6 @@ After doing so, return the head of the final linked list.  You may return any su
 [[src-1171]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1171_RemoveZeroSumConsecutiveNodesFromLinkedList.java[]
+include::{sourcedir}/_1171_RemoveZeroSumConsecutiveNodesFromLinkedList.java[tag=answer]
 ----
 

@@ -63,6 +63,6 @@ For [2,3], the interval [3,4] has minimum-"right" start point.
 [[src-0436]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0436_FindRightInterval.java[]
+include::{sourcedir}/_0436_FindRightInterval.java[tag=answer]
 ----
 

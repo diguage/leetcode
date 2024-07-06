@@ -63,6 +63,6 @@ Therefore, sum = 495 + 491 + 40 = `1026`.
 [[src-0129]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0129_SumRootToLeafNumbers.java[]
+include::{sourcedir}/_0129_SumRootToLeafNumbers.java[tag=answer]
 ----
 

@@ -51,6 +51,6 @@ Output:
 [[src-0406]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0406_QueueReconstructionByHeight.java[]
+include::{sourcedir}/_0406_QueueReconstructionByHeight.java[tag=answer]
 ----
 

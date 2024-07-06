@@ -8,6 +8,6 @@ https://leetcode.com/problems/sentence-similarity/[LeetCode - Sentence Similarit
 [[src-0734]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0734_SentenceSimilarity.java[]
+include::{sourcedir}/_0734_SentenceSimilarity.java[tag=answer]
 ----
 

@@ -50,7 +50,7 @@ image::images/0322-03.png[{image_attr}]
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0322_CoinChange_2.java[]
+include::{sourcedir}/_0322_CoinChange_2.java[tag=answer]
 ----
 
 === 动态规划
@@ -68,13 +68,13 @@ F(3) =min(F(3−c~1~),F(3−c ~2~),F(3−c~3~))+1
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0322_CoinChange_22.java[]
+include::{sourcedir}/_0322_CoinChange_22.java[tag=answer]
 ----
 
 [[src-0322]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0322_CoinChange.java[]
+include::{sourcedir}/_0322_CoinChange.java[tag=answer]
 ----
 
 

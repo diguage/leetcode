@@ -27,6 +27,6 @@ return 2.
 [[src-0387]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0387_FirstUniqueCharacterInAString.java[]
+include::{sourcedir}/_0387_FirstUniqueCharacterInAString.java[tag=answer]
 ----
 

@@ -106,6 +106,6 @@ The reason why cdata is NOT *"<![CDATA[<div>]>]]>]]>"* is because of the rule 7.
 [[src-0591]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0591_TagValidator.java[]
+include::{sourcedir}/_0591_TagValidator.java[tag=answer]
 ----
 

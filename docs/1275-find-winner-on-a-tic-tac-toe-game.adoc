@@ -86,6 +86,6 @@ You can assume that `moves` is *valid* (It follows the rules of Tic-Tac-Toe), th
 [[src-1275]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1275_FindWinnerOnATicTacToeGame.java[]
+include::{sourcedir}/_1275_FindWinnerOnATicTacToeGame.java[tag=answer]
 ----
 

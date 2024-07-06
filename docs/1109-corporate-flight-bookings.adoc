@@ -33,7 +33,7 @@ Return an array `answer` of length `n`, representing the number of seats booked 
 [[src-1109]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1109_CorporateFlightBookings.java[]
+include::{sourcedir}/_1109_CorporateFlightBookings.java[tag=answer]
 ----
 
 

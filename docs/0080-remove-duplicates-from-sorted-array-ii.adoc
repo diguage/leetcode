@@ -104,6 +104,6 @@ for (int i = 0; i < len; i++) {
 [[src-0080]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0080_RemoveDuplicatesFromSortedArrayII.java[]
+include::{sourcedir}/_0080_RemoveDuplicatesFromSortedArrayII.java[tag=answer]
 ----
 

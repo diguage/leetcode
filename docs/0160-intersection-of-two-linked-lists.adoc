@@ -70,13 +70,13 @@ image::images/0160-04.png[{image_attr}]
 [[src-0160]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0160_IntersectionOfTwoLinkedLists.java[]
+include::{sourcedir}/_0160_IntersectionOfTwoLinkedLists.java[tag=answer]
 ----
 
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0160_IntersectionOfTwoLinkedLists_2.java[]
+include::{sourcedir}/_0160_IntersectionOfTwoLinkedLists_2.java[tag=answer]
 ----
 
 == 参考资料

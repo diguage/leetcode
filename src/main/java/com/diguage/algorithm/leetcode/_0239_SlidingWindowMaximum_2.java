@@ -11,6 +11,7 @@ import java.util.*;
  * @since 2024-07-06 16:20:24
  */
 public class _0239_SlidingWindowMaximum_2 {
+  // tag::answer[]
   /**
    * 参考 https://leetcode.cn/problems/sliding-window-maximum/solutions/543426/hua-dong-chuang-kou-zui-da-zhi-by-leetco-ki6m/[239. 滑动窗口最大值 - 官方题解^]
    *
@@ -43,6 +44,9 @@ public class _0239_SlidingWindowMaximum_2 {
     }
     return result;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     new _0239_SlidingWindowMaximum_2()

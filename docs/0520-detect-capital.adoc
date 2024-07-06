@@ -43,6 +43,6 @@ Otherwise, we define that this word doesn't use capitals in a right way.
 [[src-0520]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0520_DetectCapital.java[]
+include::{sourcedir}/_0520_DetectCapital.java[tag=answer]
 ----
 

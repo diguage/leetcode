@@ -46,6 +46,6 @@ If no such second minimum value exists, output -1 instead.
 [[src-0671]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0671_SecondMinimumNodeInABinaryTree.java[]
+include::{sourcedir}/_0671_SecondMinimumNodeInABinaryTree.java[tag=answer]
 ----
 

@@ -42,12 +42,12 @@ image::images/0106-02.png[{image_attr}]
 [[src-0106]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0106_ConstructBinaryTreeFromInorderAndPostorderTraversal.java[]
+include::{sourcedir}/_0106_ConstructBinaryTreeFromInorderAndPostorderTraversal.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0106_ConstructBinaryTreeFromInorderAndPostorderTraversal_2.java[]
+include::{sourcedir}/_0106_ConstructBinaryTreeFromInorderAndPostorderTraversal_2.java[tag=answer]
 ----
 
 image::images/0106-03.png[{image_attr}]

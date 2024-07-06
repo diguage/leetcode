@@ -35,6 +35,6 @@ Employee 1 has importance value 5, and he has two direct subordinates: employee 
 [[src-0690]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0690_EmployeeImportance.java[]
+include::{sourcedir}/_0690_EmployeeImportance.java[tag=answer]
 ----
 

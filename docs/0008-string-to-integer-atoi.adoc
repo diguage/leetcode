@@ -69,6 +69,6 @@ If no valid conversion could be performed, a zero value is returned.
 [[src-0008]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0008_StringToIntegerAtoi.java[]
+include::{sourcedir}/_0008_StringToIntegerAtoi.java[tag=answer]
 ----
 

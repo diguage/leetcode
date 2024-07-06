@@ -43,6 +43,6 @@ How many binary trees can we make?  Return the answer *modulo 10 ** 9 + 7*.
 [[src-0823]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0823_BinaryTreesWithFactors.java[]
+include::{sourcedir}/_0823_BinaryTreesWithFactors.java[tag=answer]
 ----
 

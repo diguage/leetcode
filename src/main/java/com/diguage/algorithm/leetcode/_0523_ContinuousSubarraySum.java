@@ -8,6 +8,7 @@ import java.util.Map;
  * @since 2024-06-23 00:23:40
  */
 public class _0523_ContinuousSubarraySum {
+  // tag::answer[]
   /**
    * 参考 https://leetcode.cn/problems/continuous-subarray-sum/solutions/807930/lian-xu-de-zi-shu-zu-he-by-leetcode-solu-rdzi/[523. 连续的子数组和 - 官方题解^]
    */
@@ -35,6 +36,9 @@ public class _0523_ContinuousSubarraySum {
     }
     return false;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0523_ContinuousSubarraySum solution = new _0523_ContinuousSubarraySum();

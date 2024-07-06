@@ -55,6 +55,6 @@ Return *any* permutation `A` of `[0, 1, ..., N]` such that for all `i = 0, ..., 
 [[src-0942]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0942_DIStringMatch.java[]
+include::{sourcedir}/_0942_DIStringMatch.java[tag=answer]
 ----
 

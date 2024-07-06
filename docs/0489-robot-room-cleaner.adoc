@@ -8,6 +8,6 @@ https://leetcode.com/problems/robot-room-cleaner/[LeetCode - Robot Room Cleaner]
 [[src-0489]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0489_RobotRoomCleaner.java[]
+include::{sourcedir}/_0489_RobotRoomCleaner.java[tag=answer]
 ----
 

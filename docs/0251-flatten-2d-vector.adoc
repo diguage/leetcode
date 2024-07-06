@@ -8,6 +8,6 @@ https://leetcode.com/problems/flatten-2d-vector/[LeetCode - Flatten 2D Vector]
 [[src-0251]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0251_Flatten2DVector.java[]
+include::{sourcedir}/_0251_Flatten2DVector.java[tag=answer]
 ----
 

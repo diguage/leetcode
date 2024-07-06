@@ -60,6 +60,6 @@ Given a list of `queries`, and a `pattern`, return an `answer` list of booleans,
 [[src-1023]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1023_CamelcaseMatching.java[]
+include::{sourcedir}/_1023_CamelcaseMatching.java[tag=answer]
 ----
 

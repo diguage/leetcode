@@ -54,6 +54,6 @@ The other answers can be filled out with similar reasoning.
 [[src-0851]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0851_LoudAndRich.java[]
+include::{sourcedir}/_0851_LoudAndRich.java[tag=answer]
 ----
 

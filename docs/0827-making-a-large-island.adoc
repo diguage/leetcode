@@ -51,6 +51,6 @@ Notes:
 [[src-0827]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0827_MakingALargeIsland.java[]
+include::{sourcedir}/_0827_MakingALargeIsland.java[tag=answer]
 ----
 

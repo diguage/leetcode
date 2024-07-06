@@ -60,6 +60,6 @@ Swap s[0] and s[1], s = "abc"
 [[src-1202]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1202_SmallestStringWithSwaps.java[]
+include::{sourcedir}/_1202_SmallestStringWithSwaps.java[tag=answer]
 ----
 

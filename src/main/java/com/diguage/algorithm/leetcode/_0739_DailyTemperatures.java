@@ -4,6 +4,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 public class _0739_DailyTemperatures {
+  // tag::answer[]
   /**
    * @author D瓜哥 · https://www.diguage.com
    * @since 2024-07-05 23:35:54
@@ -25,4 +26,5 @@ public class _0739_DailyTemperatures {
     }
     return result;
   }
+  // end::answer[]
 }

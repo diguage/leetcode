@@ -31,6 +31,7 @@ import static com.diguage.util.ListNodes.printListNode;
  * @since 2019-07-26 20:17
  */
 public class _0019_RemoveNthNodeFromEndOfList {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Remove Nth Node From End of List.
      *
@@ -63,6 +64,9 @@ public class _0019_RemoveNthNodeFromEndOfList {
         }
         return head;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0019_RemoveNthNodeFromEndOfList solution = new _0019_RemoveNthNodeFromEndOfList();

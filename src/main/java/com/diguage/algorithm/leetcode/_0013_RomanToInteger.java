@@ -79,8 +79,14 @@ import java.util.Objects;
  * @since 2019-07-11 17:14
  */
 public class _0013_RomanToInteger {
+  // tag::answer[]
 
-  // 从右向左，从小到大，更容易理解
+  /**
+   * 从右向左，从小到大，更容易理解
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2019-07-11 17:14
+   */
   public int romanToInt(String s) {
     int result = 0;
     int pre = 0;
@@ -169,6 +175,9 @@ public class _0013_RomanToInteger {
     }
     return result;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0013_RomanToInteger roman = new _0013_RomanToInteger();

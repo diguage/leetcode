@@ -16,6 +16,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-06 23:10
  */
 public class _0110_BalancedBinaryTree {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Balanced Binary Tree.
@@ -39,6 +40,9 @@ public class _0110_BalancedBinaryTree {
         }
         return Math.abs(left - right) < 2 ? Math.max(left, right) + 1 : -1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0110_BalancedBinaryTree solution = new _0110_BalancedBinaryTree();

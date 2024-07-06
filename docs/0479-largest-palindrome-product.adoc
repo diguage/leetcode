@@ -28,6 +28,6 @@ The range of n is [1,8].
 [[src-0479]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0479_LargestPalindromeProduct.java[]
+include::{sourcedir}/_0479_LargestPalindromeProduct.java[tag=answer]
 ----
 

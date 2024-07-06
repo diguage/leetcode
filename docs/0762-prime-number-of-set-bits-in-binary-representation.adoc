@@ -46,6 +46,6 @@ Given two integers `L` and `R`, find the count of numbers in the range `[L, R]` 
 [[src-0762]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0762_PrimeNumberOfSetBitsInBinaryRepresentation.java[]
+include::{sourcedir}/_0762_PrimeNumberOfSetBitsInBinaryRepresentation.java[tag=answer]
 ----
 

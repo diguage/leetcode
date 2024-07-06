@@ -23,6 +23,6 @@ In the string, each word is separated by single space and there will not be any 
 [[src-0557]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0557_ReverseWordsInAStringIII.java[]
+include::{sourcedir}/_0557_ReverseWordsInAStringIII.java[tag=answer]
 ----
 

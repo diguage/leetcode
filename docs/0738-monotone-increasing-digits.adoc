@@ -47,6 +47,6 @@ Given a non-negative integer `N`, find the largest number that is less than or e
 [[src-0738]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0738_MonotoneIncreasingDigits.java[]
+include::{sourcedir}/_0738_MonotoneIncreasingDigits.java[tag=answer]
 ----
 

@@ -67,6 +67,6 @@ Given an array _nums_ containing _n_ + 1 integers where each integer is between 
 [[src-0287]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0287_FindTheDuplicateNumber.java[]
+include::{sourcedir}/_0287_FindTheDuplicateNumber.java[tag=answer]
 ----
 

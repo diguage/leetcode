@@ -8,6 +8,6 @@ https://leetcode.com/problems/missing-number-in-arithmetic-progression/[LeetCode
 [[src-1228]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1228_MissingNumberInArithmeticProgression.java[]
+include::{sourcedir}/_1228_MissingNumberInArithmeticProgression.java[tag=answer]
 ----
 

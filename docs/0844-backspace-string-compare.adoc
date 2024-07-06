@@ -68,6 +68,6 @@ Given two strings `S` and `T`, return if they are equal when both are typed into
 [[src-0844]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0844_BackspaceStringCompare.java[]
+include::{sourcedir}/_0844_BackspaceStringCompare.java[tag=answer]
 ----
 

@@ -39,7 +39,7 @@ Note that an empty tree is represented by `NULL`, therefore you would see the ex
 [[src-0700]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0700_SearchInABinarySearchTree.java[]
+include::{sourcedir}/_0700_SearchInABinarySearchTree.java[tag=answer]
 ----
 
 

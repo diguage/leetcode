@@ -32,6 +32,6 @@ Return the largest sum of the given array after partitioning.
 [[src-1043]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1043_PartitionArrayForMaximumSum.java[]
+include::{sourcedir}/_1043_PartitionArrayForMaximumSum.java[tag=answer]
 ----
 

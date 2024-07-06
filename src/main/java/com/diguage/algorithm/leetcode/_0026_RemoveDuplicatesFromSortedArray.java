@@ -60,6 +60,7 @@ import java.util.Objects;
  * @since 2018-07-19 18:34
  */
 public class _0026_RemoveDuplicatesFromSortedArray {
+  // tag::answer[]
   public static int removeDuplicates(int[] nums) {
     if (Objects.isNull(nums) || nums.length == 0) {
       return 0;
@@ -99,6 +100,9 @@ public class _0026_RemoveDuplicatesFromSortedArray {
 
     return result;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     int[] nums = {1, 2, 2};

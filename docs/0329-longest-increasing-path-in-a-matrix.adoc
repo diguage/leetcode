@@ -40,6 +40,6 @@ From each cell, you can either move to four directions: left, right, up or down.
 [[src-0329]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0329_LongestIncreasingPathInAMatrix.java[]
+include::{sourcedir}/_0329_LongestIncreasingPathInAMatrix.java[tag=answer]
 ----
 

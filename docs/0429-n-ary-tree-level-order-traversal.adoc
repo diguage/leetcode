@@ -43,6 +43,6 @@ image::images/0429-00.png[{image_attr}]
 [[src-0429]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0429_NAryTreeLevelOrderTraversal.java[]
+include::{sourcedir}/_0429_NAryTreeLevelOrderTraversal.java[tag=answer]
 ----
 

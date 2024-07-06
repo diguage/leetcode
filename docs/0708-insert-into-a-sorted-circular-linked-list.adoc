@@ -8,6 +8,6 @@ https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/[LeetCod
 [[src-0708]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0708_InsertIntoASortedCircularLinkedList.java[]
+include::{sourcedir}/_0708_InsertIntoASortedCircularLinkedList.java[tag=answer]
 ----
 

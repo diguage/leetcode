@@ -38,6 +38,6 @@ The total minimum cost is 10 + 30 + 50 + 20 = 110 to have half the people interv
 [[src-1029]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1029_TwoCityScheduling.java[]
+include::{sourcedir}/_1029_TwoCityScheduling.java[tag=answer]
 ----
 

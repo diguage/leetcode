@@ -8,6 +8,6 @@ https://leetcode.com/problems/count-univalue-subtrees/[LeetCode - Count Univalue
 [[src-0250]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0250_CountUnivalueSubtrees.java[]
+include::{sourcedir}/_0250_CountUnivalueSubtrees.java[tag=answer]
 ----
 

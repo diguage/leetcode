@@ -24,6 +24,6 @@ Calling *`hasNext()`* after that should return *false*.
 [[src-0284]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0284_PeekingIterator.java[]
+include::{sourcedir}/_0284_PeekingIterator.java[tag=answer]
 ----
 

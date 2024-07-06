@@ -29,6 +29,6 @@ solution.getRandom();
 [[src-0382]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0382_LinkedListRandomNode.java[]
+include::{sourcedir}/_0382_LinkedListRandomNode.java[tag=answer]
 ----
 

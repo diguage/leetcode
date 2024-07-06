@@ -72,6 +72,6 @@ Return any Fibonacci-like sequence split from `S`, or return `[]` if it cannot b
 [[src-0842]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0842_SplitArrayIntoFibonacciSequence.java[]
+include::{sourcedir}/_0842_SplitArrayIntoFibonacciSequence.java[tag=answer]
 ----
 

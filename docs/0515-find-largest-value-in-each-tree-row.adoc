@@ -29,6 +29,6 @@ You need to find the largest value in each row of a binary tree.
 [[src-0515]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0515_FindLargestValueInEachTreeRow.java[]
+include::{sourcedir}/_0515_FindLargestValueInEachTreeRow.java[tag=answer]
 ----
 

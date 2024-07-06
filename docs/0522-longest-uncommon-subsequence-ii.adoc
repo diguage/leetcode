@@ -36,6 +36,6 @@ The input will be a list of strings, and the output needs to be the length of th
 [[src-0522]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0522_LongestUncommonSubsequenceII.java[]
+include::{sourcedir}/_0522_LongestUncommonSubsequenceII.java[tag=answer]
 ----
 

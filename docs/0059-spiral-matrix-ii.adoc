@@ -22,6 +22,6 @@ Given a positive integer _n_, generate a square matrix filled with elements from
 [[src-0059]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0059_SpiralMatrixII.java[]
+include::{sourcedir}/_0059_SpiralMatrixII.java[tag=answer]
 ----
 

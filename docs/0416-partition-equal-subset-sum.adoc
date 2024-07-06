@@ -88,6 +88,6 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 [[src-0416]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0416_PartitionEqualSubsetSum.java[]
+include::{sourcedir}/_0416_PartitionEqualSubsetSum.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/find-the-team-size/[LeetCode - Find the Team Size]
 [[src-1303]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1303_FindTheTeamSize.java[]
+include::{sourcedir}/_1303_FindTheTeamSize.java[tag=answer]
 ----
 

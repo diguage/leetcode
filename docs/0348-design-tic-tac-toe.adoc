@@ -8,6 +8,6 @@ https://leetcode.com/problems/design-tic-tac-toe/[LeetCode - Design Tic-Tac-Toe]
 [[src-0348]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0348_DesignTicTacToe.java[]
+include::{sourcedir}/_0348_DesignTicTacToe.java[tag=answer]
 ----
 

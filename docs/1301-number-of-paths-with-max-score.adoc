@@ -46,6 +46,6 @@ In case there is no path, return `[0, 0]`.
 [[src-1301]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1301_NumberOfPathsWithMaxScore.java[]
+include::{sourcedir}/_1301_NumberOfPathsWithMaxScore.java[tag=answer]
 ----
 

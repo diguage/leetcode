@@ -61,6 +61,6 @@ image::https://assets.leetcode.com/uploads/2019/11/05/e2.png[{image_attr}]
 [[src-1260]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1260_Shift2DGrid.java[]
+include::{sourcedir}/_1260_Shift2DGrid.java[tag=answer]
 ----
 

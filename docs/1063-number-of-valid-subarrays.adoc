@@ -8,6 +8,6 @@ https://leetcode.com/problems/number-of-valid-subarrays/[LeetCode - Number of Va
 [[src-1063]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1063_NumberOfValidSubarrays.java[]
+include::{sourcedir}/_1063_NumberOfValidSubarrays.java[tag=answer]
 ----
 

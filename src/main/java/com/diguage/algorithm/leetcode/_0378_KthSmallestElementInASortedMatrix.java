@@ -31,6 +31,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-23 18:08
  */
 public class _0378_KthSmallestElementInASortedMatrix {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Kth Smallest Element in a Sorted Matrix.
      *
@@ -60,6 +61,9 @@ public class _0378_KthSmallestElementInASortedMatrix {
         }
         return low;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0378_KthSmallestElementInASortedMatrix solution = new _0378_KthSmallestElementInASortedMatrix();

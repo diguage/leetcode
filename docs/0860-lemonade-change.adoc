@@ -79,6 +79,6 @@ Since not every customer received correct change, the answer is false.
 [[src-0860]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0860_LemonadeChange.java[]
+include::{sourcedir}/_0860_LemonadeChange.java[tag=answer]
 ----
 

@@ -60,6 +60,6 @@ wordDict = ["cats", "dog", "sand", "and", "cat"]
 [[src-0140]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0140_WordBreakII.java[]
+include::{sourcedir}/_0140_WordBreakII.java[tag=answer]
 ----
 

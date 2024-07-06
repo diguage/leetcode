@@ -34,6 +34,6 @@ Given a matrix of _m_ x _n_ elements (_m_ rows, _n_ columns), return all element
 [[src-0054]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0054_SpiralMatrix.java[]
+include::{sourcedir}/_0054_SpiralMatrix.java[tag=answer]
 ----
 

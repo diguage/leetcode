@@ -34,6 +34,6 @@ We could return these lists in any order, for example the answer [['Mary', 'mary
 [[src-0721]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0721_AccountsMerge.java[]
+include::{sourcedir}/_0721_AccountsMerge.java[tag=answer]
 ----
 

@@ -23,6 +23,6 @@ Return:
 [[src-0466]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0466_CountTheRepetitions.java[]
+include::{sourcedir}/_0466_CountTheRepetitions.java[tag=answer]
 ----
 

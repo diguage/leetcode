@@ -38,6 +38,6 @@ queue.empty(); // returns false
 [[src-0232]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0232_ImplementQueueUsingStacks.java[]
+include::{sourcedir}/_0232_ImplementQueueUsingStacks.java[tag=answer]
 ----
 

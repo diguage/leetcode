@@ -38,6 +38,6 @@ Given a string `s`, return the last substring of `s` in lexicographical order.
 [[src-1163]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1163_LastSubstringInLexicographicalOrder.java[]
+include::{sourcedir}/_1163_LastSubstringInLexicographicalOrder.java[tag=answer]
 ----
 

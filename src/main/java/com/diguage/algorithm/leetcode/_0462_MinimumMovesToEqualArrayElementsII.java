@@ -5,6 +5,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2024-06-18 18:57:41
  */
 public class _0462_MinimumMovesToEqualArrayElementsII {
+  // tag::answer[]
   /**
    * 参考 https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/solutions/1501230/zui-shao-yi-dong-ci-shu-shi-shu-zu-yuan-xt3r2/[462. 最小操作次数使数组元素相等 II - 官方题解^]。
    */
@@ -44,4 +45,5 @@ public class _0462_MinimumMovesToEqualArrayElementsII {
       return quickSelect(nums, r + 1, right, index);
     }
   }
+  // end::answer[]
 }

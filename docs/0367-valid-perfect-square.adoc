@@ -31,6 +31,6 @@ Given a positive integer _num_, write a function which returns True if _num_ is 
 [[src-0367]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0367_ValidPerfectSquare.java[]
+include::{sourcedir}/_0367_ValidPerfectSquare.java[tag=answer]
 ----
 

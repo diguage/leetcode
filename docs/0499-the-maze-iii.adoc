@@ -8,6 +8,6 @@ https://leetcode.com/problems/the-maze-iii/[LeetCode - The Maze III]
 [[src-0499]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0499_TheMazeIII.java[]
+include::{sourcedir}/_0499_TheMazeIII.java[tag=answer]
 ----
 

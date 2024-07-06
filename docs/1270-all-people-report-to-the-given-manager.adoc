@@ -8,6 +8,6 @@ https://leetcode.com/problems/all-people-report-to-the-given-manager/[LeetCode -
 [[src-1270]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1270_AllPeopleReportToTheGivenManager.java[]
+include::{sourcedir}/_1270_AllPeopleReportToTheGivenManager.java[tag=answer]
 ----
 

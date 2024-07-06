@@ -40,6 +40,6 @@ Your solution should be in logarithmic complexity.
 [[src-0162]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0162_FindPeakElement.java[]
+include::{sourcedir}/_0162_FindPeakElement.java[tag=answer]
 ----
 

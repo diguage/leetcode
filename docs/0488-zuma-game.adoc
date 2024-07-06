@@ -61,6 +61,6 @@ Find the minimal balls you have to insert to remove all the balls on the table. 
 [[src-0488]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0488_ZumaGame.java[]
+include::{sourcedir}/_0488_ZumaGame.java[tag=answer]
 ----
 

@@ -58,6 +58,6 @@ Your result should *not* contain any brackets.
 [[src-1190]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1190_ReverseSubstringsBetweenEachPairOfParentheses.java[]
+include::{sourcedir}/_1190_ReverseSubstringsBetweenEachPairOfParentheses.java[tag=answer]
 ----
 

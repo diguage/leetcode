@@ -39,6 +39,6 @@ The maximum length of the string is 50000.
 [[src-0680]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0680_ValidPalindromeII.java[]
+include::{sourcedir}/_0680_ValidPalindromeII.java[tag=answer]
 ----
 

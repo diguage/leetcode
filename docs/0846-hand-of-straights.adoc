@@ -47,6 +47,6 @@ Return `true` if and only if she can.
 [[src-0846]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0846_HandOfStraights.java[]
+include::{sourcedir}/_0846_HandOfStraights.java[tag=answer]
 ----
 

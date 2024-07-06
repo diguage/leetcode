@@ -76,6 +76,6 @@ A binary tree as following:
 [[src-0623]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0623_AddOneRowToTree.java[]
+include::{sourcedir}/_0623_AddOneRowToTree.java[tag=answer]
 ----
 

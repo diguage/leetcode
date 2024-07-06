@@ -29,6 +29,6 @@ A _shift on `A`_ consists of taking string `A` and moving the leftmost character
 [[src-0796]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0796_RotateString.java[]
+include::{sourcedir}/_0796_RotateString.java[tag=answer]
 ----
 

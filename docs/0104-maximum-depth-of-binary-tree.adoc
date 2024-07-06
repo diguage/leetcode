@@ -35,12 +35,12 @@ image::images/0104-01.png[{image_attr}]
 [[src-0104]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0104_MaximumDepthOfBinaryTree.java[]
+include::{sourcedir}/_0104_MaximumDepthOfBinaryTree.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0104_MaximumDepthOfBinaryTree_2.java[]
+include::{sourcedir}/_0104_MaximumDepthOfBinaryTree_2.java[tag=answer]
 ----
 
 == 参考资料

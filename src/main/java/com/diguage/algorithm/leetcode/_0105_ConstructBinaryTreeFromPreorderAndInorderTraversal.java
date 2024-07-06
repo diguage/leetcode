@@ -35,6 +35,7 @@ import com.diguage.algorithm.util.TreeNode;
  * @since 2020-01-04 20:25
  */
 public class _0105_ConstructBinaryTreeFromPreorderAndInorderTraversal {
+  // tag::answer[]
   /**
    * 自我实现，感觉比 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/discuss/34538/My-Accepted-Java-Solution[My Accepted Java Solution - LeetCode Discuss] 简单。
    */
@@ -65,6 +66,9 @@ public class _0105_ConstructBinaryTreeFromPreorderAndInorderTraversal {
     }
     return root;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0105_ConstructBinaryTreeFromPreorderAndInorderTraversal solution = new _0105_ConstructBinaryTreeFromPreorderAndInorderTraversal();

@@ -47,6 +47,6 @@ All 1s are either on the boundary or can reach the boundary.
 [[src-1020]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1020_NumberOfEnclaves.java[]
+include::{sourcedir}/_1020_NumberOfEnclaves.java[tag=answer]
 ----
 

@@ -12,6 +12,7 @@ import java.util.Map;
  * @since 2024-07-02 17:19:45
  */
 public class _0567_PermutationInString_2 {
+  // tag::answer[]
   /**
    * 自己实现
    */
@@ -53,4 +54,5 @@ public class _0567_PermutationInString_2 {
     }
     return false;
   }
+  // end::answer[]
 }

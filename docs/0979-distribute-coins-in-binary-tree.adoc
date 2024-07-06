@@ -74,6 +74,6 @@ image::https://assets.leetcode.com/uploads/2019/01/18/tree4.png[{image_attr}]
 [[src-0979]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0979_DistributeCoinsInBinaryTree.java[]
+include::{sourcedir}/_0979_DistributeCoinsInBinaryTree.java[tag=answer]
 ----
 

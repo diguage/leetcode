@@ -48,6 +48,6 @@ Given an integer array `arr` and an integer `<font face="monospace">difference`,
 [[src-1218]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1218_LongestArithmeticSubsequenceOfGivenDifference.java[]
+include::{sourcedir}/_1218_LongestArithmeticSubsequenceOfGivenDifference.java[tag=answer]
 ----
 

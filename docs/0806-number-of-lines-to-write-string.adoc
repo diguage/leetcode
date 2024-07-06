@@ -52,6 +52,6 @@ So the answer is 2 lines, plus 4 units in the second line.
 [[src-0806]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0806_NumberOfLinesToWriteString.java[]
+include::{sourcedir}/_0806_NumberOfLinesToWriteString.java[tag=answer]
 ----
 

@@ -49,6 +49,6 @@ Each of the threads is given a `printNumber` method to output an integer. Modify
 [[src-1116]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1116_PrintZeroEvenOdd.java[]
+include::{sourcedir}/_1116_PrintZeroEvenOdd.java[tag=answer]
 ----
 

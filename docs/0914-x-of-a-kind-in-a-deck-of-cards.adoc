@@ -92,6 +92,6 @@ Return `true` if and only if you can choose `X >= 2` such that it is possible to
 [[src-0914]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0914_XOfAKindInADeckOfCards.java[]
+include::{sourcedir}/_0914_XOfAKindInADeckOfCards.java[tag=answer]
 ----
 

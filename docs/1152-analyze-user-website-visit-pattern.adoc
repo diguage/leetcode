@@ -8,6 +8,6 @@ https://leetcode.com/problems/analyze-user-website-visit-pattern/[LeetCode - Ana
 [[src-1152]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1152_AnalyzeUserWebsiteVisitPattern.java[]
+include::{sourcedir}/_1152_AnalyzeUserWebsiteVisitPattern.java[tag=answer]
 ----
 

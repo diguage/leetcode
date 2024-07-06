@@ -11,6 +11,7 @@ import java.util.*;
  * @since 2020-01-30 12:24
  */
 public class _0438_FindAllAnagramsInAString {
+  // tag::answer[]
     /**
      * Runtime: 18 ms, faster than 51.95% of Java online submissions for Find All Anagrams in a String.
      * Memory Usage: 42.6 MB, less than 6.00% of Java online submissions for Find All Anagrams in a String.
@@ -123,6 +124,9 @@ public class _0438_FindAllAnagramsInAString {
             Collections.swap(chars, i, index);
         }
     }
+
+
+  // end::answer[]
 
 
     public static void main(String[] args) {

@@ -31,6 +31,7 @@ import java.util.List;
  * @since 2020-01-06 22:14
  */
 public class _0094_BinaryTreeInorderTraversal_Recur {
+  // tag::answer[]
   public List<Integer> inorderTraversal(TreeNode root) {
     List<Integer> result = new ArrayList<>();
     inorderTraversal(root, result);
@@ -45,4 +46,5 @@ public class _0094_BinaryTreeInorderTraversal_Recur {
     result.add(root.val);
     inorderTraversal(root.right, result);
   }
+  // end::answer[]
 }

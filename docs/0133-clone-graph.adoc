@@ -86,7 +86,7 @@ image::images/0133-3-graph.png[{image_attr}]
 [[src-0133]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0133_CloneGraph.java[]
+include::{sourcedir}/_0133_CloneGraph.java[tag=answer]
 ----
 
 == 参考资料

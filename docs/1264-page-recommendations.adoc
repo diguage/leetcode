@@ -8,6 +8,6 @@ https://leetcode.com/problems/page-recommendations/[LeetCode - Page Recommendati
 [[src-1264]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1264_PageRecommendations.java[]
+include::{sourcedir}/_1264_PageRecommendations.java[tag=answer]
 ----
 

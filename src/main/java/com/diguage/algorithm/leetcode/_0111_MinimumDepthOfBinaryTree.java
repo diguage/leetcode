@@ -16,6 +16,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-07 21:26
  */
 public class _0111_MinimumDepthOfBinaryTree {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Minimum Depth of Binary Tree.
@@ -37,6 +38,9 @@ public class _0111_MinimumDepthOfBinaryTree {
         }
         return min + 1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0111_MinimumDepthOfBinaryTree solution = new _0111_MinimumDepthOfBinaryTree();

@@ -13,6 +13,7 @@ import java.util.Objects;
  * @since 2020-01-30 18:05
  */
 public class _0567_PermutationInString {
+  // tag::answer[]
     /**
      * Runtime: 14 ms, faster than 45.41% of Java online submissions for Permutation in String.
      * Memory Usage: 39.4 MB, less than 7.69% of Java online submissions for Permutation in String.
@@ -59,6 +60,9 @@ public class _0567_PermutationInString {
         }
         return false;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0567_PermutationInString solution = new _0567_PermutationInString();

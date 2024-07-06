@@ -32,6 +32,6 @@ All given inputs are in lowercase letters `a-z`.
 [[src-0014]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0014_LongestCommonPrefix.java[]
+include::{sourcedir}/_0014_LongestCommonPrefix.java[tag=answer]
 ----
 

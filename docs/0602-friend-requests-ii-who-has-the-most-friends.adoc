@@ -8,6 +8,6 @@ https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/[LeetC
 [[src-0602]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0602_FriendRequestsIIWhoHasTheMostFriends.java[]
+include::{sourcedir}/_0602_FriendRequestsIIWhoHasTheMostFriends.java[tag=answer]
 ----
 

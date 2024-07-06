@@ -60,6 +60,6 @@ evalvars = [], evalints = []
 [[src-0770]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0770_BasicCalculatorIV.java[]
+include::{sourcedir}/_0770_BasicCalculatorIV.java[tag=answer]
 ----
 

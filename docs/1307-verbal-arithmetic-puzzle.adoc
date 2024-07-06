@@ -70,6 +70,6 @@ Such that: "SIX" + "SEVEN" + "SEVEN" = "TWENTY" ,  650 + 68782 + 68782 = 138214
 [[src-1307]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1307_VerbalArithmeticPuzzle.java[]
+include::{sourcedir}/_1307_VerbalArithmeticPuzzle.java[tag=answer]
 ----
 

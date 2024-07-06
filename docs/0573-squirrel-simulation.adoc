@@ -8,6 +8,6 @@ https://leetcode.com/problems/squirrel-simulation/[LeetCode - Squirrel Simulatio
 [[src-0573]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0573_SquirrelSimulation.java[]
+include::{sourcedir}/_0573_SquirrelSimulation.java[tag=answer]
 ----
 

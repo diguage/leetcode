@@ -18,6 +18,6 @@ Remove all elements from a linked list of integers that have value *_val_*.
 [[src-0203]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0203_RemoveLinkedListElements.java[]
+include::{sourcedir}/_0203_RemoveLinkedListElements.java[tag=answer]
 ----
 

@@ -41,6 +41,6 @@ T_4 = 1 + 1 + 2 = 4
 [[src-1137]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1137_NThTribonacciNumber.java[]
+include::{sourcedir}/_1137_NThTribonacciNumber.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/find-customer-referee/[LeetCode - Find Customer Re
 [[src-0584]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0584_FindCustomerReferee.java[]
+include::{sourcedir}/_0584_FindCustomerReferee.java[tag=answer]
 ----
 

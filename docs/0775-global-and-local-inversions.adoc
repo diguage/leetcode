@@ -42,6 +42,6 @@ Return `true` if and only if the number of global inversions is equal to the num
 [[src-0775]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0775_GlobalAndLocalInversions.java[]
+include::{sourcedir}/_0775_GlobalAndLocalInversions.java[tag=answer]
 ----
 

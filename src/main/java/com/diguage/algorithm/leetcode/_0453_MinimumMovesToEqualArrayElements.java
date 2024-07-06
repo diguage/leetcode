@@ -8,6 +8,7 @@ import java.util.Objects;
  * @since 2024-06-17 17:22:04
  */
 public class _0453_MinimumMovesToEqualArrayElements {
+  // tag::answer[]
   /**
    * 参考： https://leetcode.cn/problems/minimum-moves-to-equal-array-elements/solutions/1054870/zui-xiao-cao-zuo-ci-shu-shi-shu-zu-yuan-3meg3/[453. 最小操作次数使数组元素相等 官方题解^]
    */
@@ -22,4 +23,5 @@ public class _0453_MinimumMovesToEqualArrayElements {
     }
     return result;
   }
+  // end::answer[]
 }

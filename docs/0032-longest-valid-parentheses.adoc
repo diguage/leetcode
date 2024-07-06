@@ -27,6 +27,6 @@ Given a string containing just the characters `'('` and `')'`, find the length o
 [[src-0032]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0032_LongestValidParentheses.java[]
+include::{sourcedir}/_0032_LongestValidParentheses.java[tag=answer]
 ----
 

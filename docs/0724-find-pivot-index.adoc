@@ -50,6 +50,6 @@ There is no index that satisfies the conditions in the problem statement.
 [[src-0724]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0724_FindPivotIndex.java[]
+include::{sourcedir}/_0724_FindPivotIndex.java[tag=answer]
 ----
 

@@ -60,6 +60,6 @@ If no valid solution exists, return an empty 2-D array.
 [[src-1253]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1253_ReconstructA2RowBinaryMatrix.java[]
+include::{sourcedir}/_1253_ReconstructA2RowBinaryMatrix.java[tag=answer]
 ----
 

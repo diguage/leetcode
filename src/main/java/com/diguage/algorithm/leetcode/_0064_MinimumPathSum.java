@@ -12,6 +12,7 @@ import java.util.Objects;
  * @since 2020-01-27 21:29
  */
 public class _0064_MinimumPathSum {
+  // tag::answer[]
     /**
      * Runtime: 7 ms, faster than 5.53% of Java online submissions for Minimum Path Sum.
      * Memory Usage: 43.5 MB, less than 33.78% of Java online submissions for Minimum Path Sum.
@@ -69,6 +70,9 @@ public class _0064_MinimumPathSum {
         }
         return sums[yLength - 1][xLength - 1];
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0064_MinimumPathSum solution = new _0064_MinimumPathSum();

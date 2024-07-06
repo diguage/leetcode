@@ -51,6 +51,7 @@ import java.util.*;
  * @since 2024-06-30 21:46:35
  */
 public class _0127_WordLadder_2 {
+  // tag::answer[]
   /**
    * 自己解答
    */
@@ -99,6 +100,9 @@ public class _0127_WordLadder_2 {
     }
     return result;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0127_WordLadder_2 solution = new _0127_WordLadder_2();

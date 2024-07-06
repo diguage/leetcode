@@ -49,6 +49,6 @@ The students should not be counted duplicate in each course.
 [[src-0596]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0596_ClassesMoreThan5Students.java[]
+include::{sourcedir}/_0596_ClassesMoreThan5Students.java[tag=answer]
 ----
 

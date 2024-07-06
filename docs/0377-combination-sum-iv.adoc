@@ -49,6 +49,6 @@ Special thanks to <a href="https://leetcode.com/pbrother/">@pbrother</a> for add
 [[src-0377]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0377_CombinationSumIV.java[]
+include::{sourcedir}/_0377_CombinationSumIV.java[tag=answer]
 ----
 

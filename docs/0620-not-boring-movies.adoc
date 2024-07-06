@@ -41,6 +41,6 @@ For the example above, the output should be:
 [[src-0620]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0620_NotBoringMovies.java[]
+include::{sourcedir}/_0620_NotBoringMovies.java[tag=answer]
 ----
 

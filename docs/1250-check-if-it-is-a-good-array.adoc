@@ -49,6 +49,6 @@ Return `True` if the array is *good *otherwise return `False`.
 [[src-1250]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1250_CheckIfItIsAGoodArray.java[]
+include::{sourcedir}/_1250_CheckIfItIsAGoodArray.java[tag=answer]
 ----
 

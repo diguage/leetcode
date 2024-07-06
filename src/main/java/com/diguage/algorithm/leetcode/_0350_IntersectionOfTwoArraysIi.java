@@ -36,6 +36,7 @@ import java.util.*;
  * @since 2020-01-11 10:00
  */
 public class _0350_IntersectionOfTwoArraysIi {
+  // tag::answer[]
 
     /**
      * Runtime: 2 ms, faster than 88.63% of Java online submissions for Intersection of Two Arrays II.
@@ -120,6 +121,9 @@ public class _0350_IntersectionOfTwoArraysIi {
         }
         return numToCountMap1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0350_IntersectionOfTwoArraysIi solution = new _0350_IntersectionOfTwoArraysIi();

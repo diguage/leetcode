@@ -27,6 +27,6 @@ Then 4 is the first bad version. `
 [[src-0278]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0278_FirstBadVersion.java[]
+include::{sourcedir}/_0278_FirstBadVersion.java[tag=answer]
 ----
 

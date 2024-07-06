@@ -45,6 +45,6 @@ _(Recall that the median of a sample is:_
 [[src-1093]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1093_StatisticsFromALargeSample.java[]
+include::{sourcedir}/_1093_StatisticsFromALargeSample.java[tag=answer]
 ----
 

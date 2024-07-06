@@ -8,6 +8,6 @@ https://leetcode.com/problems/high-five/[LeetCode - High Five]
 [[src-1086]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1086_HighFive.java[]
+include::{sourcedir}/_1086_HighFive.java[tag=answer]
 ----
 

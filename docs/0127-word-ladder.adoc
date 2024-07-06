@@ -67,12 +67,12 @@ image::images/0127-02.png[{image_attr}]
 [[src-0127]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0127_WordLadder.java[]
+include::{sourcedir}/_0127_WordLadder.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0127_WordLadder_2.java[]
+include::{sourcedir}/_0127_WordLadder_2.java[tag=answer]
 ----
 
 == 参考资料

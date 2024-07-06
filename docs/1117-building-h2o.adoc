@@ -56,6 +56,6 @@ Write synchronization code for oxygen and hydrogen molecules that enforces these
 [[src-1117]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1117_BuildingH2O.java[]
+include::{sourcedir}/_1117_BuildingH2O.java[tag=answer]
 ----
 

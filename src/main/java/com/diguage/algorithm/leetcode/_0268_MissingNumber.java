@@ -32,6 +32,7 @@ import java.util.Objects;
  * @since 2020-01-05 21:30
  */
 public class _0268_MissingNumber {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Missing Number.
      *
@@ -68,6 +69,9 @@ public class _0268_MissingNumber {
         }
         return -1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0268_MissingNumber solution = new _0268_MissingNumber();

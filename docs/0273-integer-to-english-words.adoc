@@ -42,6 +42,6 @@ Convert a non-negative integer to its english words representation. Given input 
 [[src-0273]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0273_IntegerToEnglishWords.java[]
+include::{sourcedir}/_0273_IntegerToEnglishWords.java[tag=answer]
 ----
 

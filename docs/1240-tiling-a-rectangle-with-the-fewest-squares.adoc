@@ -54,6 +54,6 @@ image::https://assets.leetcode.com/uploads/2019/10/17/sample_33_1592.png[{image_
 [[src-1240]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1240_TilingARectangleWithTheFewestSquares.java[]
+include::{sourcedir}/_1240_TilingARectangleWithTheFewestSquares.java[tag=answer]
 ----
 

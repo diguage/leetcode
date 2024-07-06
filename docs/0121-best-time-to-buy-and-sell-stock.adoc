@@ -61,6 +61,6 @@ Note that you cannot sell a stock before you buy one.
 [[src-0121]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0121_BestTimeToBuyAndSellStock.java[]
+include::{sourcedir}/_0121_BestTimeToBuyAndSellStock.java[tag=answer]
 ----
 

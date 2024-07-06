@@ -31,6 +31,7 @@ import java.util.*;
  * @since 2020-01-06 22:14
  */
 public class _0094_BinaryTreeInorderTraversal {
+  // tag::answer[]
 
   public List<Integer> inorderTraversal(TreeNode root) {
     Stack<TreeNode> stack = new Stack<>();
@@ -88,6 +89,9 @@ public class _0094_BinaryTreeInorderTraversal {
         result.add(root.val);
         inorderTraversal(root.right, result);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0094_BinaryTreeInorderTraversal solution = new _0094_BinaryTreeInorderTraversal();

@@ -29,7 +29,7 @@ A solution set is:
 [[src-0015]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0015_3Sum.java[]
+include::{sourcedir}/_0015_3Sum.java[tag=answer]
 ----
 
 == 参考资料

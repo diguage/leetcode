@@ -29,6 +29,6 @@ Given an integer (signed 32 bits), write a function to check whether it is a pow
 [[src-0342]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0342_PowerOfFour.java[]
+include::{sourcedir}/_0342_PowerOfFour.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/shortest-word-distance-iii/[LeetCode - Shortest Wo
 [[src-0245]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0245_ShortestWordDistanceIII.java[]
+include::{sourcedir}/_0245_ShortestWordDistanceIII.java[tag=answer]
 ----
 

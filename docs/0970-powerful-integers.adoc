@@ -53,6 +53,6 @@ You may return the answer in any order.  In your answer, each value should occur
 [[src-0970]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0970_PowerfulIntegers.java[]
+include::{sourcedir}/_0970_PowerfulIntegers.java[tag=answer]
 ----
 

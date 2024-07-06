@@ -8,6 +8,6 @@ https://leetcode.com/problems/rearrange-string-k-distance-apart/[LeetCode - Rear
 [[src-0358]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0358_RearrangeStringKDistanceApart.java[]
+include::{sourcedir}/_0358_RearrangeStringKDistanceApart.java[tag=answer]
 ----
 

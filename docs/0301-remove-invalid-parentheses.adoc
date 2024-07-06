@@ -35,6 +35,6 @@ Remove the minimum number of invalid parentheses in order to make the input stri
 [[src-0301]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0301_RemoveInvalidParentheses.java[]
+include::{sourcedir}/_0301_RemoveInvalidParentheses.java[tag=answer]
 ----
 

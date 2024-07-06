@@ -34,6 +34,7 @@ import java.util.*;
  * @since 2020-01-11 00:04
  */
 public class _0347_TopKFrequentElements {
+  // tag::answer[]
     /**
      * Runtime: 10 ms, faster than 98.24% of Java online submissions for Top K Frequent Elements.
      *
@@ -82,6 +83,9 @@ public class _0347_TopKFrequentElements {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0347_TopKFrequentElements solution = new _0347_TopKFrequentElements();

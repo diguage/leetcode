@@ -55,6 +55,6 @@ Return `True` if and only if Alice wins the game, assuming both players play opt
 [[src-1025]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1025_DivisorGame.java[]
+include::{sourcedir}/_1025_DivisorGame.java[tag=answer]
 ----
 

@@ -32,6 +32,6 @@ Valid combinations are:
 [[src-0611]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0611_ValidTriangleNumber.java[]
+include::{sourcedir}/_0611_ValidTriangleNumber.java[tag=answer]
 ----
 

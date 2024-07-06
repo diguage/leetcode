@@ -55,6 +55,6 @@ rotate the input matrix *in-place* such that it becomes:
 [[src-0048]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0048_RotateImage.java[]
+include::{sourcedir}/_0048_RotateImage.java[tag=answer]
 ----
 

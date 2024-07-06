@@ -8,6 +8,6 @@ https://leetcode.com/problems/group-shifted-strings/[LeetCode - Group Shifted St
 [[src-0249]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0249_GroupShiftedStrings.java[]
+include::{sourcedir}/_0249_GroupShiftedStrings.java[tag=answer]
 ----
 

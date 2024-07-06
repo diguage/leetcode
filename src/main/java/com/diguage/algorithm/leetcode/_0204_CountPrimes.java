@@ -22,6 +22,7 @@ import java.util.Set;
  * @since 2020-01-10 23:04
  */
 public class _0204_CountPrimes {
+  // tag::answer[]
     /**
      * Runtime: 163 ms, faster than 25.96% of Java online submissions for Count Primes.
      *
@@ -46,6 +47,9 @@ public class _0204_CountPrimes {
         }
         return numbers.size();
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0204_CountPrimes solution = new _0204_CountPrimes();

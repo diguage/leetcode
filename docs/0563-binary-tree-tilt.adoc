@@ -38,6 +38,6 @@ Tilt of binary tree : 0 + 0 + 1 = 1
 [[src-0563]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0563_BinaryTreeTilt.java[]
+include::{sourcedir}/_0563_BinaryTreeTilt.java[tag=answer]
 ----
 

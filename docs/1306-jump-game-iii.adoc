@@ -53,6 +53,6 @@ index 0 -> index 4 -> index 1 -> index 3
 [[src-1306]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1306_JumpGameIII.java[]
+include::{sourcedir}/_1306_JumpGameIII.java[tag=answer]
 ----
 

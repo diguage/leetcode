@@ -53,6 +53,6 @@ The cheapest price from city `0` to city `2` with at most 0 stop costs 500, as m
 [[src-0787]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0787_CheapestFlightsWithinKStops.java[]
+include::{sourcedir}/_0787_CheapestFlightsWithinKStops.java[tag=answer]
 ----
 

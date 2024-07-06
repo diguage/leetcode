@@ -8,6 +8,6 @@ https://leetcode.com/problems/active-businesses/[LeetCode - Active Businesses]
 [[src-1126]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1126_ActiveBusinesses.java[]
+include::{sourcedir}/_1126_ActiveBusinesses.java[tag=answer]
 ----
 

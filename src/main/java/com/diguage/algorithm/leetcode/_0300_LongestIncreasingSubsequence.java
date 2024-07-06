@@ -29,6 +29,7 @@ import java.util.Objects;
  * @since 2020-01-23 10:24
  */
 public class _0300_LongestIncreasingSubsequence {
+  // tag::answer[]
 
     /**
      * Runtime: 2 ms, faster than 76.15% of Java online submissions for Longest Increasing Subsequence.
@@ -114,6 +115,9 @@ public class _0300_LongestIncreasingSubsequence {
 
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0300_LongestIncreasingSubsequence solution = new _0300_LongestIncreasingSubsequence();

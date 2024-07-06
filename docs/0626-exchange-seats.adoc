@@ -53,6 +53,6 @@ If the number of students is odd, there is no need to change the last one's seat
 [[src-0626]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0626_ExchangeSeats.java[]
+include::{sourcedir}/_0626_ExchangeSeats.java[tag=answer]
 ----
 

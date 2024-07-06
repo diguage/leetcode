@@ -59,6 +59,6 @@ Given a `graph`, and assuming both players play optimally, return `1` if the gam
 [[src-0913]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0913_CatAndMouse.java[]
+include::{sourcedir}/_0913_CatAndMouse.java[tag=answer]
 ----
 

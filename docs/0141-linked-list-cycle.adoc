@@ -72,12 +72,12 @@ image::images/0141-08.png[{image_attr}]
 [[src-0141]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0141_LinkedListCycle.java[]
+include::{sourcedir}/_0141_LinkedListCycle.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0141_LinkedListCycle_2.java[]
+include::{sourcedir}/_0141_LinkedListCycle_2.java[tag=answer]
 ----
 
 == 参考资料

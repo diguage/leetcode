@@ -33,6 +33,6 @@ You call a pre-defined API `guess(int num)` which returns 3 possible results (`-
 [[src-0374]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0374_GuessNumberHigherOrLower.java[]
+include::{sourcedir}/_0374_GuessNumberHigherOrLower.java[tag=answer]
 ----
 

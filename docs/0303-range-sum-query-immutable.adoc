@@ -31,7 +31,7 @@ image::images/0303-01.png[{image_attr}]
 [[src-0303]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0303_RangeSumQueryImmutable.java[]
+include::{sourcedir}/_0303_RangeSumQueryImmutable.java[tag=answer]
 ----
 
 == 参考资料

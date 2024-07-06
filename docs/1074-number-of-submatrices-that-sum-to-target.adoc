@@ -47,6 +47,6 @@ Two submatrices `(x1, y1, x2, y2)` and `(x1', y1', x2', y2')` are different if t
 [[src-1074]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1074_NumberOfSubmatricesThatSumToTarget.java[]
+include::{sourcedir}/_1074_NumberOfSubmatricesThatSumToTarget.java[tag=answer]
 ----
 

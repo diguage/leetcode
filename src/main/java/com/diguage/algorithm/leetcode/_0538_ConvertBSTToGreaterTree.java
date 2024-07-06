@@ -7,6 +7,7 @@ import com.diguage.algorithm.util.TreeNode;
  * @since 2024-06-26 20:50:34
  */
 public class _0538_ConvertBSTToGreaterTree {
+  // tag::answer[]
   int sum = 0;
 
   public TreeNode convertBST(TreeNode root) {
@@ -19,4 +20,5 @@ public class _0538_ConvertBSTToGreaterTree {
     convertBST(root.left);
     return root;
   }
+  // end::answer[]
 }

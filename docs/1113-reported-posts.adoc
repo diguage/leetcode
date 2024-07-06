@@ -8,6 +8,6 @@ https://leetcode.com/problems/reported-posts/[LeetCode - Reported Posts]
 [[src-1113]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1113_ReportedPosts.java[]
+include::{sourcedir}/_1113_ReportedPosts.java[tag=answer]
 ----
 

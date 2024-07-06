@@ -8,6 +8,6 @@ https://leetcode.com/problems/delete-tree-nodes/[LeetCode - Delete Tree Nodes]
 [[src-1273]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1273_DeleteTreeNodes.java[]
+include::{sourcedir}/_1273_DeleteTreeNodes.java[tag=answer]
 ----
 

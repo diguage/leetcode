@@ -46,6 +46,6 @@ the time [40, 50) will be single booked, and the time [50, 55) will be double bo
 [[src-0731]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0731_MyCalendarII.java[]
+include::{sourcedir}/_0731_MyCalendarII.java[tag=answer]
 ----
 

@@ -33,6 +33,7 @@ import java.util.Objects;
  * @since 2019-10-29 01:01
  */
 public class _0075_SortColors {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Sort Colors.
      *
@@ -65,6 +66,9 @@ public class _0075_SortColors {
         nums[i] = nums[j];
         nums[j] = temp;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0075_SortColors solution = new _0075_SortColors();

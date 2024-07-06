@@ -30,6 +30,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-26 22:16
  */
 public class _0322_CoinChange_2 {
+  // tag::answer[]
 
   /**
    * 最笨的方法：暴力穷举，超时
@@ -51,6 +52,9 @@ public class _0322_CoinChange_2 {
     }
     return result == Integer.MAX_VALUE ? -1 : result;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0322_CoinChange_2 solution = new _0322_CoinChange_2();

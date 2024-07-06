@@ -5,6 +5,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2024-07-04 17:09:17
  */
 public class _0304_RangeSumQuery2DImmutable {
+  // tag::answer[]
   static class NumMatrix {
     private int[][] sums;
 
@@ -29,6 +30,9 @@ public class _0304_RangeSumQuery2DImmutable {
         - sums[row1][col2 + 1] + sums[row1][col1];
     }
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     NumMatrix m = new NumMatrix(new int[][]{

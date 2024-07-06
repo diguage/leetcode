@@ -39,6 +39,6 @@ Note that 676 is not a superpalindrome: 26 * 26 = 676, but 26 is not a palindrom
 [[src-0906]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0906_SuperPalindromes.java[]
+include::{sourcedir}/_0906_SuperPalindromes.java[tag=answer]
 ----
 

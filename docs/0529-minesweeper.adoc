@@ -84,6 +84,6 @@ image::https://assets.leetcode.com/uploads/2018/10/12/minesweeper_example_2.png[
 [[src-0529]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0529_Minesweeper.java[]
+include::{sourcedir}/_0529_Minesweeper.java[tag=answer]
 ----
 

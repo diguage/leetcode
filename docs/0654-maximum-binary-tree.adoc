@@ -42,7 +42,7 @@ image::images/0654-01.png[{image_attr}]
 [[src-0654]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0654_MaximumBinaryTree.java[]
+include::{sourcedir}/_0654_MaximumBinaryTree.java[tag=answer]
 ----
 
 === 二、单调栈
@@ -57,7 +57,7 @@ image::images/0654-05.png[{image_attr}]
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0654_MaximumBinaryTree_1.java[]
+include::{sourcedir}/_0654_MaximumBinaryTree_1.java[tag=answer]
 ----
 
 == 参考资料

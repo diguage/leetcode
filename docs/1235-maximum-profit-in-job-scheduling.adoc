@@ -59,6 +59,6 @@ image::https://assets.leetcode.com/uploads/2019/10/10/sample3_1584.png[{image_at
 [[src-1235]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1235_MaximumProfitInJobScheduling.java[]
+include::{sourcedir}/_1235_MaximumProfitInJobScheduling.java[tag=answer]
 ----
 

@@ -60,6 +60,6 @@ It satisfies the conditions, 2 unique letters and size 3 (between minSize and ma
 [[src-1297]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1297_MaximumNumberOfOccurrencesOfASubstring.java[]
+include::{sourcedir}/_1297_MaximumNumberOfOccurrencesOfASubstring.java[tag=answer]
 ----
 

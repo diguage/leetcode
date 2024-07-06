@@ -32,12 +32,12 @@ image::images/0567-01.gif[{image_attr}]
 [[src-0567]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0567_PermutationInString.java[]
+include::{sourcedir}/_0567_PermutationInString.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0567_PermutationInString_2.java[]
+include::{sourcedir}/_0567_PermutationInString_2.java[tag=answer]
 ----
 
 == 参考资料

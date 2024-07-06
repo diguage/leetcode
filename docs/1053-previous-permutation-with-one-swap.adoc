@@ -57,6 +57,6 @@ Given an array `A` of positive integers (not necessarily distinct), return the l
 [[src-1053]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1053_PreviousPermutationWithOneSwap.java[]
+include::{sourcedir}/_1053_PreviousPermutationWithOneSwap.java[tag=answer]
 ----
 

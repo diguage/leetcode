@@ -29,6 +29,7 @@ import java.util.Objects;
  * @since 2020-01-14 23:34
  */
 public class _0125_ValidPalindrome {
+  // tag::answer[]
     /**
      * Runtime: 3 ms, faster than 96.33% of Java online submissions for Valid Palindrome.
      *
@@ -62,6 +63,9 @@ public class _0125_ValidPalindrome {
         return ('a' <= aChar && aChar <= 'z') || ('A' <= aChar && aChar <= 'Z')
                 || ('0' <= aChar && aChar <= '9');
     }
+
+
+  // end::answer[]
 
 
     public static void main(String[] args) {

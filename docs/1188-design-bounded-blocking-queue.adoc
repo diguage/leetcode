@@ -8,6 +8,6 @@ https://leetcode.com/problems/design-bounded-blocking-queue/[LeetCode - Design B
 [[src-1188]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1188_DesignBoundedBlockingQueue.java[]
+include::{sourcedir}/_1188_DesignBoundedBlockingQueue.java[tag=answer]
 ----
 

@@ -124,6 +124,6 @@ image::https://assets.leetcode.com/uploads/2018/12/15/5.png[{image_attr}]
 [[src-0959]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0959_RegionsCutBySlashes.java[]
+include::{sourcedir}/_0959_RegionsCutBySlashes.java[tag=answer]
 ----
 

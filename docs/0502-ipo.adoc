@@ -44,6 +44,6 @@ To sum up, pick a list of at most *k* distinct projects from given projects to m
 [[src-0502]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0502_IPO.java[]
+include::{sourcedir}/_0502_IPO.java[tag=answer]
 ----
 

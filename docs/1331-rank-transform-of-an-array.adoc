@@ -54,6 +54,6 @@ The rank represents how large the element is. The rank has the following rules:
 [[src-1331]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1331_RankTransformOfAnArray.java[]
+include::{sourcedir}/_1331_RankTransformOfAnArray.java[tag=answer]
 ----
 

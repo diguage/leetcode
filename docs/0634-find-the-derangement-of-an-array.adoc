@@ -8,6 +8,6 @@ https://leetcode.com/problems/find-the-derangement-of-an-array/[LeetCode - Find 
 [[src-0634]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0634_FindTheDerangementOfAnArray.java[]
+include::{sourcedir}/_0634_FindTheDerangementOfAnArray.java[tag=answer]
 ----
 

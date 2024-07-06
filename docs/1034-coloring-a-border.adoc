@@ -58,6 +58,6 @@ Given a square at location `(r0, c0)` in the grid and a `color`, color the borde
 [[src-1034]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1034_ColoringABorder.java[]
+include::{sourcedir}/_1034_ColoringABorder.java[tag=answer]
 ----
 

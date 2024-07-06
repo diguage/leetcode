@@ -13,6 +13,7 @@ import java.util.List;
  * @since 2020-02-05 19:36
  */
 public class _0089_GrayCode {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Gray Code.
      * Memory Usage: 37 MB, less than 8.00% of Java online submissions for Gray Code.
@@ -31,6 +32,9 @@ public class _0089_GrayCode {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0089_GrayCode solution = new _0089_GrayCode();

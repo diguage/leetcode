@@ -8,6 +8,6 @@ https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/[Le
 [[src-1180]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1180_CountSubstringsWithOnlyOneDistinctLetter.java[]
+include::{sourcedir}/_1180_CountSubstringsWithOnlyOneDistinctLetter.java[tag=answer]
 ----
 

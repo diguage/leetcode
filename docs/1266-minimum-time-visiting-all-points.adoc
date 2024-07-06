@@ -51,6 +51,6 @@ Total time = 7 seconds
 [[src-1266]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1266_MinimumTimeVisitingAllPoints.java[]
+include::{sourcedir}/_1266_MinimumTimeVisitingAllPoints.java[tag=answer]
 ----
 

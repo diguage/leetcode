@@ -8,6 +8,6 @@ https://leetcode.com/problems/hexspeak/[LeetCode - Hexspeak]
 [[src-1271]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1271_Hexspeak.java[]
+include::{sourcedir}/_1271_Hexspeak.java[tag=answer]
 ----
 

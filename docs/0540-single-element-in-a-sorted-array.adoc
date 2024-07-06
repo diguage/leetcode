@@ -32,6 +32,6 @@ You are given a sorted array consisting of only integers where every element app
 [[src-0540]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0540_SingleElementInASortedArray.java[]
+include::{sourcedir}/_0540_SingleElementInASortedArray.java[tag=answer]
 ----
 

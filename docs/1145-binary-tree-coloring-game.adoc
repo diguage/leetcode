@@ -39,6 +39,6 @@ image::https://assets.leetcode.com/uploads/2019/08/01/1480-binary-tree-coloring-
 [[src-1145]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1145_BinaryTreeColoringGame.java[]
+include::{sourcedir}/_1145_BinaryTreeColoringGame.java[tag=answer]
 ----
 

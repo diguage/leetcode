@@ -43,6 +43,6 @@ You need to return a string representing their multiplication. Note i^2^ = -1 ac
 [[src-0537]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0537_ComplexNumberMultiplication.java[]
+include::{sourcedir}/_0537_ComplexNumberMultiplication.java[tag=answer]
 ----
 

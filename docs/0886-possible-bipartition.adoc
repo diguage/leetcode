@@ -68,6 +68,6 @@ Return `true` if and only if it is possible to split everyone into two groups in
 [[src-0886]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0886_PossibleBipartition.java[]
+include::{sourcedir}/_0886_PossibleBipartition.java[tag=answer]
 ----
 

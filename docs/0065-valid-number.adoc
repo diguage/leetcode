@@ -69,6 +69,6 @@ The signature of the `C++` function had been updated. If you still see your func
 [[src-0065]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0065_ValidNumber.java[]
+include::{sourcedir}/_0065_ValidNumber.java[tag=answer]
 ----
 

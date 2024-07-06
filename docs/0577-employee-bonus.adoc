@@ -8,6 +8,6 @@ https://leetcode.com/problems/employee-bonus/[LeetCode - Employee Bonus]
 [[src-0577]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0577_EmployeeBonus.java[]
+include::{sourcedir}/_0577_EmployeeBonus.java[tag=answer]
 ----
 

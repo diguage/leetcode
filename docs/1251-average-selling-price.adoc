@@ -8,6 +8,6 @@ https://leetcode.com/problems/average-selling-price/[LeetCode - Average Selling 
 [[src-1251]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1251_AverageSellingPrice.java[]
+include::{sourcedir}/_1251_AverageSellingPrice.java[tag=answer]
 ----
 

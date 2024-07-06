@@ -8,6 +8,6 @@ https://leetcode.com/problems/managers-with-at-least-5-direct-reports/[LeetCode 
 [[src-0570]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0570_ManagersWithAtLeast5DirectReports.java[]
+include::{sourcedir}/_0570_ManagersWithAtLeast5DirectReports.java[tag=answer]
 ----
 

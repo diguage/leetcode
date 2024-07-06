@@ -43,6 +43,6 @@ Only 1771 contains an even number of digits.
 [[src-1295]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1295_FindNumbersWithEvenNumberOfDigits.java[]
+include::{sourcedir}/_1295_FindNumbersWithEvenNumberOfDigits.java[tag=answer]
 ----
 

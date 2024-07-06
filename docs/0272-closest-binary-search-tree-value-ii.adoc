@@ -8,6 +8,6 @@ https://leetcode.com/problems/closest-binary-search-tree-value-ii/[LeetCode - Cl
 [[src-0272]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0272_ClosestBinarySearchTreeValueII.java[]
+include::{sourcedir}/_0272_ClosestBinarySearchTreeValueII.java[tag=answer]
 ----
 

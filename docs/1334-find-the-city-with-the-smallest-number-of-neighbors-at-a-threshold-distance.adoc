@@ -61,6 +61,6 @@ The city 0 has 1 neighboring city at a distanceThreshold = 2.
 [[src-1334]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1334_FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance.java[]
+include::{sourcedir}/_1334_FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance.java[tag=answer]
 ----
 

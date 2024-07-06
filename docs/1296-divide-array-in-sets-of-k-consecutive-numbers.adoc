@@ -57,6 +57,6 @@ Return `True` if its possible* *otherwise return `False`.
 [[src-1296]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1296_DivideArrayInSetsOfKConsecutiveNumbers.java[]
+include::{sourcedir}/_1296_DivideArrayInSetsOfKConsecutiveNumbers.java[tag=answer]
 ----
 

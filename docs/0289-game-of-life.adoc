@@ -49,6 +49,6 @@ Write a function to compute the next state (after one update) of the board given
 [[src-0289]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0289_GameOfLife.java[]
+include::{sourcedir}/_0289_GameOfLife.java[tag=answer]
 ----
 

@@ -30,6 +30,6 @@ Given a string S, we can transform every letter individually to be lowercase or 
 [[src-0784]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0784_LetterCasePermutation.java[]
+include::{sourcedir}/_0784_LetterCasePermutation.java[tag=answer]
 ----
 

@@ -12,6 +12,7 @@ import java.util.Map;
  * @since 2024-07-02 17:03:23
  */
 public class _0076_MinimumWindowSubstring_2 {
+  // tag::answer[]
 
   /**
    * 自己实现失败后，参考社区答案修改的
@@ -68,6 +69,9 @@ public class _0076_MinimumWindowSubstring_2 {
     }
     return minLen == Integer.MAX_VALUE ? "" : s.substring(start, start + minLen);
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0076_MinimumWindowSubstring_2 solution = new _0076_MinimumWindowSubstring_2();

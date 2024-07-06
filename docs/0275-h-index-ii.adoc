@@ -35,6 +35,6 @@ If there are several possible values for _h_, the maximum one is taken as the h-
 [[src-0275]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0275_HIndexII.java[]
+include::{sourcedir}/_0275_HIndexII.java[tag=answer]
 ----
 

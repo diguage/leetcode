@@ -26,6 +26,6 @@ Given a list of 24-hour clock time points in "Hour:Minutes" format, find the min
 [[src-0539]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0539_MinimumTimeDifference.java[]
+include::{sourcedir}/_0539_MinimumTimeDifference.java[tag=answer]
 ----
 

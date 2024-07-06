@@ -47,6 +47,6 @@ The XOR values for queries are:
 [[src-1310]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1310_XORQueriesOfASubarray.java[]
+include::{sourcedir}/_1310_XORQueriesOfASubarray.java[tag=answer]
 ----
 

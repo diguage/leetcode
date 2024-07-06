@@ -32,6 +32,7 @@ import java.util.Arrays;
  * @since 2020-01-26 22:16
  */
 public class _0322_CoinChange_22 {
+  // tag::answer[]
 
   /**
    * 参考 https://leetcode.cn/problems/coin-change/solutions/132979/322-ling-qian-dui-huan-by-leetcode-solution/[322. 零钱兑换 - 官方题解^]
@@ -53,4 +54,5 @@ public class _0322_CoinChange_22 {
     }
     return dp[amt] > amt ? -1 : dp[amt];
   }
+  // end::answer[]
 }

@@ -41,6 +41,6 @@ It is guaranteed that every call to `ping` uses a strictly larger value of `t` t
 [[src-0933]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0933_NumberOfRecentCalls.java[]
+include::{sourcedir}/_0933_NumberOfRecentCalls.java[tag=answer]
 ----
 

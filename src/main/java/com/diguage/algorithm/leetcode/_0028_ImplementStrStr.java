@@ -34,6 +34,7 @@ import java.util.Objects;
  * @since 2018
  */
 public class _0028_ImplementStrStr {
+  // tag::answer[]
   public int strStr(String haystack, String needle) {
     if (Objects.isNull(needle) || needle.length() == 0) {
       return 0;
@@ -78,6 +79,9 @@ public class _0028_ImplementStrStr {
     }
     return true;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0028_ImplementStrStr result = new _0028_ImplementStrStr();

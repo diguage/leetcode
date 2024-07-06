@@ -40,6 +40,6 @@ For example, given the above `Scores` table, your query should generate the foll
 [[src-0178]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0178_RankScores.java[]
+include::{sourcedir}/_0178_RankScores.java[tag=answer]
 ----
 

@@ -37,6 +37,6 @@ Length of the given array will be not exceed 2000 and the answer is guaranteed t
 [[src-0673]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0673_NumberOfLongestIncreasingSubsequence.java[]
+include::{sourcedir}/_0673_NumberOfLongestIncreasingSubsequence.java[tag=answer]
 ----
 

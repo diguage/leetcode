@@ -8,6 +8,6 @@ https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three
 [[src-1050]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1050_ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.java[]
+include::{sourcedir}/_1050_ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.java[tag=answer]
 ----
 

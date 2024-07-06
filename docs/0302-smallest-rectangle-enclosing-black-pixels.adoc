@@ -8,6 +8,6 @@ https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/[LeetCod
 [[src-0302]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0302_SmallestRectangleEnclosingBlackPixels.java[]
+include::{sourcedir}/_0302_SmallestRectangleEnclosingBlackPixels.java[tag=answer]
 ----
 

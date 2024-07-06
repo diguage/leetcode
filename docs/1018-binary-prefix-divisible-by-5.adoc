@@ -55,6 +55,6 @@ The input numbers in binary are 0, 01, 011; which are 0, 1, and 3 in base-10.  O
 [[src-1018]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1018_BinaryPrefixDivisibleBy5.java[]
+include::{sourcedir}/_1018_BinaryPrefixDivisibleBy5.java[tag=answer]
 ----
 

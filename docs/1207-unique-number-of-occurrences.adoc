@@ -46,6 +46,6 @@ Given an array of integers `arr`, write a function that returns `true` if and on
 [[src-1207]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1207_UniqueNumberOfOccurrences.java[]
+include::{sourcedir}/_1207_UniqueNumberOfOccurrences.java[tag=answer]
 ----
 

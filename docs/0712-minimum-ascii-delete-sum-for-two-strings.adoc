@@ -41,6 +41,6 @@ If instead we turned both strings into "lee" or "eet", we would get answers of 4
 [[src-0712]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0712_MinimumASCIIDeleteSumForTwoStrings.java[]
+include::{sourcedir}/_0712_MinimumASCIIDeleteSumForTwoStrings.java[tag=answer]
 ----
 

@@ -45,6 +45,6 @@ day 1
 [[src-0192]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0192_WordFrequency.java[]
+include::{sourcedir}/_0192_WordFrequency.java[tag=answer]
 ----
 

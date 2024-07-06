@@ -44,6 +44,6 @@ Both the input and output have TreeNode type.
 [[src-0865]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0865_SmallestSubtreeWithAllTheDeepestNodes.java[]
+include::{sourcedir}/_0865_SmallestSubtreeWithAllTheDeepestNodes.java[tag=answer]
 ----
 

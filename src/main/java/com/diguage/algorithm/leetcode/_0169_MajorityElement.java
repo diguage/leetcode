@@ -31,6 +31,7 @@ import java.util.Objects;
  * @since 2020-01-05 12:33
  */
 public class _0169_MajorityElement {
+  // tag::answer[]
     /**
      *Runtime: 2 ms, faster than 61.24% of Java online submissions for Majority Element.
      *
@@ -74,6 +75,9 @@ public class _0169_MajorityElement {
         }
         return result.getKey();
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0169_MajorityElement solution = new _0169_MajorityElement();

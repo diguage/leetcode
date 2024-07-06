@@ -3,6 +3,7 @@ package com.diguage.algorithm.leetcode;
 import com.diguage.algorithm.util.TreeNode;
 
 public class _0450_DeleteNodeInABST {
+  // tag::answer[]
   /**
    * 参考 https://leetcode.cn/problems/delete-node-in-a-bst/solutions/1529700/shan-chu-er-cha-sou-suo-shu-zhong-de-jie-n6vo/[450. 删除二叉搜索树中的节点 - 官方题解^]
    */
@@ -39,4 +40,5 @@ public class _0450_DeleteNodeInABST {
     }
     return root;
   }
+  // end::answer[]
 }

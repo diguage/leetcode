@@ -7,6 +7,7 @@ import java.util.*;
  * @since 2020-02-10 00:22
  */
 public class _0133_CloneGraph {
+  // tag::answer[]
     // Definition for a Node.
     static class Node {
         public int val;
@@ -77,6 +78,9 @@ public class _0133_CloneGraph {
 
         return dict.get(node);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0133_CloneGraph solution = new _0133_CloneGraph();

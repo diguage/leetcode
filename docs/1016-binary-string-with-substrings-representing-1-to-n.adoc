@@ -37,6 +37,6 @@ Given a binary string `S` (a string consisting only of '0' and '1's) and a posit
 [[src-1016]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1016_BinaryStringWithSubstringsRepresenting1ToN.java[]
+include::{sourcedir}/_1016_BinaryStringWithSubstringsRepresenting1ToN.java[tag=answer]
 ----
 

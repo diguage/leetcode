@@ -32,6 +32,6 @@ Given a particular *n ≥ 1*, find out how much money you need to have to guaran
 [[src-0375]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0375_GuessNumberHigherOrLowerII.java[]
+include::{sourcedir}/_0375_GuessNumberHigherOrLowerII.java[tag=answer]
 ----
 

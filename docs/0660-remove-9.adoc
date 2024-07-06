@@ -8,6 +8,6 @@ https://leetcode.com/problems/remove-9/[LeetCode - Remove 9]
 [[src-0660]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0660_Remove9.java[]
+include::{sourcedir}/_0660_Remove9.java[tag=answer]
 ----
 

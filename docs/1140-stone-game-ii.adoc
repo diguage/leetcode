@@ -35,6 +35,6 @@ Assuming Alex and Lee play optimally, return the maximum number of stones Alex c
 [[src-1140]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1140_StoneGameII.java[]
+include::{sourcedir}/_1140_StoneGameII.java[tag=answer]
 ----
 

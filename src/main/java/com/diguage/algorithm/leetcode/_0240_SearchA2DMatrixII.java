@@ -34,6 +34,7 @@ import java.util.Objects;
  * @since 2020-01-23 10:04
  */
 public class _0240_SearchA2DMatrixII {
+  // tag::answer[]
     /**
      * Runtime: 5 ms, faster than 99.96% of Java online submissions for Search a 2D Matrix II.
      *
@@ -59,6 +60,9 @@ public class _0240_SearchA2DMatrixII {
         }
         return false;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0240_SearchA2DMatrixII solution = new _0240_SearchA2DMatrixII();

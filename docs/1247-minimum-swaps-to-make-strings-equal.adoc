@@ -61,6 +61,6 @@ Note that you can't swap s1[0] and s1[1] to make s1 equal to "yx", cause we can 
 [[src-1247]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1247_MinimumSwapsToMakeStringsEqual.java[]
+include::{sourcedir}/_1247_MinimumSwapsToMakeStringsEqual.java[tag=answer]
 ----
 

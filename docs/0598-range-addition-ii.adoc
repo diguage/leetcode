@@ -48,6 +48,6 @@ So the maximum integer in M is 2, and there are four of it in M. So return 4.
 [[src-0598]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0598_RangeAdditionII.java[]
+include::{sourcedir}/_0598_RangeAdditionII.java[tag=answer]
 ----
 

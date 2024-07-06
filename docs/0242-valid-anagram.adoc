@@ -38,6 +38,6 @@ What if the inputs contain unicode characters? How would you adapt your solution
 [[src-0242]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0242_ValidAnagram.java[]
+include::{sourcedir}/_0242_ValidAnagram.java[tag=answer]
 ----
 

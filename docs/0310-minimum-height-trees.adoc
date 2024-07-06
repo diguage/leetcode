@@ -56,6 +56,6 @@ You can assume that no duplicate edges will appear in `edges`. Since all edges a
 [[src-0310]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0310_MinimumHeightTrees.java[]
+include::{sourcedir}/_0310_MinimumHeightTrees.java[tag=answer]
 ----
 

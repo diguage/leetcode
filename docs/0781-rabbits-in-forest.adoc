@@ -38,6 +38,6 @@ The smallest possible number of rabbits in the forest is therefore 5: 3 that ans
 [[src-0781]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0781_RabbitsInForest.java[]
+include::{sourcedir}/_0781_RabbitsInForest.java[tag=answer]
 ----
 

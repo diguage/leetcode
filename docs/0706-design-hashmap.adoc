@@ -47,6 +47,6 @@ hashMap.get(2);            // returns -1 (not found)
 [[src-0706]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0706_DesignHashMap.java[]
+include::{sourcedir}/_0706_DesignHashMap.java[tag=answer]
 ----
 

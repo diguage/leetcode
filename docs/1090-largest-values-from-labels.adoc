@@ -74,6 +74,6 @@ Return the largest possible sum of the subset `S`.
 [[src-1090]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1090_LargestValuesFromLabels.java[]
+include::{sourcedir}/_1090_LargestValuesFromLabels.java[tag=answer]
 ----
 

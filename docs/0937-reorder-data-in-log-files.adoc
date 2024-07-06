@@ -39,6 +39,6 @@ Return the final order of the logs.
 [[src-0937]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0937_ReorderDataInLogFiles.java[]
+include::{sourcedir}/_0937_ReorderDataInLogFiles.java[tag=answer]
 ----
 

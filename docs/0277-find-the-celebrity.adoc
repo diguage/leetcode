@@ -8,6 +8,6 @@ https://leetcode.com/problems/find-the-celebrity/[LeetCode - Find the Celebrity]
 [[src-0277]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0277_FindTheCelebrity.java[]
+include::{sourcedir}/_0277_FindTheCelebrity.java[tag=answer]
 ----
 

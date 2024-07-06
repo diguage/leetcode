@@ -8,6 +8,6 @@ https://leetcode.com/problems/synonymous-sentences/[LeetCode - Synonymous Senten
 [[src-1258]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1258_SynonymousSentences.java[]
+include::{sourcedir}/_1258_SynonymousSentences.java[tag=answer]
 ----
 

@@ -30,6 +30,6 @@ R = 3
 [[src-0795]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0795_NumberOfSubarraysWithBoundedMaximum.java[]
+include::{sourcedir}/_0795_NumberOfSubarraysWithBoundedMaximum.java[tag=answer]
 ----
 

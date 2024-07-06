@@ -44,6 +44,6 @@ You should preserve the original relative order of the nodes in each of the two 
 [[src-0086]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0086_PartitionList.java[]
+include::{sourcedir}/_0086_PartitionList.java[tag=answer]
 ----
 

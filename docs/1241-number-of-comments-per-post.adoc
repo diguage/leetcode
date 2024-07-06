@@ -8,6 +8,6 @@ https://leetcode.com/problems/number-of-comments-per-post/[LeetCode - Number of 
 [[src-1241]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1241_NumberOfCommentsPerPost.java[]
+include::{sourcedir}/_1241_NumberOfCommentsPerPost.java[tag=answer]
 ----
 

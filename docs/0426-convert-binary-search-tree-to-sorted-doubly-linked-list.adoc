@@ -8,6 +8,6 @@ https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked
 [[src-0426]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0426_ConvertBinarySearchTreeToSortedDoublyLinkedList.java[]
+include::{sourcedir}/_0426_ConvertBinarySearchTreeToSortedDoublyLinkedList.java[tag=answer]
 ----
 

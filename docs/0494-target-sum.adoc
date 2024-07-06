@@ -81,6 +81,6 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 [[src-0494]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0494_TargetSum.java[]
+include::{sourcedir}/_0494_TargetSum.java[tag=answer]
 ----
 

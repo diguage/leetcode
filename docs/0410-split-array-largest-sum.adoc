@@ -37,6 +37,6 @@ where the largest sum among the two subarrays is only 18.
 [[src-0410]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0410_SplitArrayLargestSum.java[]
+include::{sourcedir}/_0410_SplitArrayLargestSum.java[tag=answer]
 ----
 

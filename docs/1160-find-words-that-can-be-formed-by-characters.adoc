@@ -45,6 +45,6 @@ The strings that can be formed are "hello" and "world" so the answer is 5 + 5 = 
 [[src-1160]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1160_FindWordsThatCanBeFormedByCharacters.java[]
+include::{sourcedir}/_1160_FindWordsThatCanBeFormedByCharacters.java[tag=answer]
 ----
 

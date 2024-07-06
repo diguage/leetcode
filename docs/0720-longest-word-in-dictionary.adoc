@@ -41,6 +41,6 @@ Both "apply" and "apple" can be built from other words in the dictionary. Howeve
 [[src-0720]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0720_LongestWordInDictionary.java[]
+include::{sourcedir}/_0720_LongestWordInDictionary.java[tag=answer]
 ----
 

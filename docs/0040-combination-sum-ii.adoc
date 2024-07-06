@@ -87,6 +87,6 @@ Each number in `candidates` may only be used *once* in the combination.
 [[src-0040]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0040_CombinationSumII.java[]
+include::{sourcedir}/_0040_CombinationSumII.java[tag=answer]
 ----
 

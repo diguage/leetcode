@@ -13,6 +13,7 @@ import java.util.List;
  * @since 2020-01-29 17:20
  */
 public class _0406_QueueReconstructionByHeight {
+  // tag::answer[]
     /**
      * Runtime: 8 ms, faster than 39.43% of Java online submissions for Queue Reconstruction by Height.
      * Memory Usage: 42.6 MB, less than 89.36% of Java online submissions for Queue Reconstruction by Height.
@@ -26,6 +27,9 @@ public class _0406_QueueReconstructionByHeight {
         int length = people.length;
         return queue.toArray(new int[length][2]);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0406_QueueReconstructionByHeight solution = new _0406_QueueReconstructionByHeight();

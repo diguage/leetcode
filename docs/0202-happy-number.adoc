@@ -27,6 +27,6 @@ A happy number is a number defined by the following process: Starting with any p
 [[src-0202]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0202_HappyNumber.java[]
+include::{sourcedir}/_0202_HappyNumber.java[tag=answer]
 ----
 

@@ -92,6 +92,6 @@ findElements.find(5); // return True
 [[src-1261]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1261_FindElementsInAContaminatedBinaryTree.java[]
+include::{sourcedir}/_1261_FindElementsInAContaminatedBinaryTree.java[tag=answer]
 ----
 

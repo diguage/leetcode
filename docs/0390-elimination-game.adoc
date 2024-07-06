@@ -31,6 +31,6 @@ Output:
 [[src-0390]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0390_EliminationGame.java[]
+include::{sourcedir}/_0390_EliminationGame.java[tag=answer]
 ----
 

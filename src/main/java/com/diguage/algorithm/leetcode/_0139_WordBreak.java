@@ -45,6 +45,7 @@ import java.util.Set;
  * @since 2020-01-24 09:39
  */
 public class _0139_WordBreak {
+  // tag::answer[]
     /**
      * Runtime: 11 ms, faster than 6.65% of Java online submissions for Word Break.
      *
@@ -67,6 +68,9 @@ public class _0139_WordBreak {
         }
         return dp[s.length()];
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0139_WordBreak solution = new _0139_WordBreak();

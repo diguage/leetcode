@@ -8,6 +8,6 @@ https://leetcode.com/problems/project-employees-ii/[LeetCode - Project Employees
 [[src-1076]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1076_ProjectEmployeesII.java[]
+include::{sourcedir}/_1076_ProjectEmployeesII.java[tag=answer]
 ----
 

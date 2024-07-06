@@ -44,6 +44,6 @@ majorityChecker.query(2,3,2); // returns 2
 [[src-1157]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1157_OnlineMajorityElementInSubarray.java[]
+include::{sourcedir}/_1157_OnlineMajorityElementInSubarray.java[tag=answer]
 ----
 

@@ -49,6 +49,6 @@ The 5 valid permutations of (0, 1, 2, 3) are:
 [[src-0903]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0903_ValidPermutationsForDISequence.java[]
+include::{sourcedir}/_0903_ValidPermutationsForDISequence.java[tag=answer]
 ----
 

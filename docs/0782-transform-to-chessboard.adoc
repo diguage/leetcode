@@ -51,6 +51,6 @@ No matter what sequence of moves you make, you cannot end with a valid chessboar
 [[src-0782]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0782_TransformToChessboard.java[]
+include::{sourcedir}/_0782_TransformToChessboard.java[tag=answer]
 ----
 

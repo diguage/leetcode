@@ -72,6 +72,6 @@ Given an array of integers `A` with even length, return `true` if and only if it
 [[src-0954]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0954_ArrayOfDoubledPairs.java[]
+include::{sourcedir}/_0954_ArrayOfDoubledPairs.java[tag=answer]
 ----
 

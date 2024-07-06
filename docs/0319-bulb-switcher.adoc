@@ -25,6 +25,6 @@ So you should return 1, because there is only one bulb is on.
 [[src-0319]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0319_BulbSwitcher.java[]
+include::{sourcedir}/_0319_BulbSwitcher.java[tag=answer]
 ----
 

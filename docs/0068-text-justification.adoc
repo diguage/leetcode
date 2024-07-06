@@ -75,6 +75,6 @@ maxWidth = 20
 [[src-0068]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0068_TextJustification.java[]
+include::{sourcedir}/_0068_TextJustification.java[tag=answer]
 ----
 

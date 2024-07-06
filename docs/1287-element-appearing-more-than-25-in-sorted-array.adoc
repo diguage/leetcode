@@ -26,6 +26,6 @@ Return that integer.
 [[src-1287]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1287_ElementAppearingMoreThan25InSortedArray.java[]
+include::{sourcedir}/_1287_ElementAppearingMoreThan25InSortedArray.java[tag=answer]
 ----
 

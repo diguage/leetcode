@@ -30,6 +30,7 @@ import java.util.*;
  * @since 2020-01-06 21:42
  */
 public class _0049_GroupAnagrams {
+  // tag::answer[]
     /**
      * Runtime: 16 ms, faster than 22.85% of Java online submissions for Group Anagrams.
      *
@@ -79,6 +80,9 @@ public class _0049_GroupAnagrams {
         }
         return new ArrayList<>(charsToStringsMap.values());
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0049_GroupAnagrams solution = new _0049_GroupAnagrams();

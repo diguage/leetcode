@@ -5,6 +5,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2024-07-04 16:46:40
  */
 public class _0303_RangeSumQueryImmutable {
+  // tag::answer[]
   class NumArray {
     int[] sums;
 
@@ -22,4 +23,5 @@ public class _0303_RangeSumQueryImmutable {
       return sums[right + 1] - sums[left];
     }
   }
+  // end::answer[]
 }

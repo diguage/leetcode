@@ -10,8 +10,12 @@ import java.util.Set;
  * @since 2024-06-29 20:59:24
  */
 public class _0752_OpenTheLock {
+  // tag::answer[]
   /**
    * 在看到 BFS 的提示下，自己思考出来
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-29 20:59:24
    */
   public int openLock(String[] deadends, String target) {
     String origin = "0000";
@@ -82,6 +86,9 @@ public class _0752_OpenTheLock {
     sb.replace(index, index + 1, String.valueOf(c));
     return sb.toString();
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     int result = new _0752_OpenTheLock()

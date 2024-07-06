@@ -30,6 +30,6 @@ Given an integer array, your task is to find all the different possible increasi
 [[src-0491]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0491_IncreasingSubsequences.java[]
+include::{sourcedir}/_0491_IncreasingSubsequences.java[tag=answer]
 ----
 

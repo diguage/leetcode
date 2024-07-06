@@ -31,7 +31,7 @@ image::images/0503-02.png[{image_attr}]
 [[src-0503]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0503_NextGreaterElementII.java[]
+include::{sourcedir}/_0503_NextGreaterElementII.java[tag=answer]
 ----
 
 == 参考资料

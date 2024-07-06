@@ -55,6 +55,6 @@ Valid operators are `+`, `-`, `*`, `/`. Each operand may be an integer or anothe
 [[src-0150]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0150_EvaluateReversePolishNotation.java[]
+include::{sourcedir}/_0150_EvaluateReversePolishNotation.java[tag=answer]
 ----
 

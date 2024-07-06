@@ -84,6 +84,6 @@ If the town judge exists and can be identified, return the label of the town jud
 [[src-0997]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0997_FindTheTownJudge.java[]
+include::{sourcedir}/_0997_FindTheTownJudge.java[tag=answer]
 ----
 

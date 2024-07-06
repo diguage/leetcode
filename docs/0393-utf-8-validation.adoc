@@ -58,6 +58,6 @@ But the second continuation byte does not start with 10, so it is invalid.
 [[src-0393]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0393_UTF8Validation.java[]
+include::{sourcedir}/_0393_UTF8Validation.java[tag=answer]
 ----
 

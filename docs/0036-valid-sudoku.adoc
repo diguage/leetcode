@@ -72,6 +72,6 @@ The Sudoku board could be partially filled, where empty cells are filled with th
 [[src-0036]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0036_ValidSudoku.java[]
+include::{sourcedir}/_0036_ValidSudoku.java[tag=answer]
 ----
 

@@ -9,6 +9,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-04-26 16:38
  */
 public class _0343_IntegerBreak {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Integer Break.
      * Memory Usage: 38.1 MB, less than 14.29% of Java online submissions for Integer Break.
@@ -35,6 +36,9 @@ public class _0343_IntegerBreak {
         }
         return (int) Math.pow(3, timeOf3) * 2;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0343_IntegerBreak solution = new _0343_IntegerBreak();

@@ -38,6 +38,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2020-01-24 21:12
  */
 public class _0103_BinaryTreeZigzagLevelOrderTraversal {
+  // tag::answer[]
 
     /**
      * Runtime: 1 ms, faster than 75.19% of Java online submissions for Binary Tree Zigzag Level Order Traversal.
@@ -74,6 +75,9 @@ public class _0103_BinaryTreeZigzagLevelOrderTraversal {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0103_BinaryTreeZigzagLevelOrderTraversal solution = new _0103_BinaryTreeZigzagLevelOrderTraversal();

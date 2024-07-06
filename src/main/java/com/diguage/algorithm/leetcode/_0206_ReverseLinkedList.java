@@ -30,6 +30,7 @@ import static com.diguage.util.ListNodes.printListNode;
  * @since 2020-01-12 12:47
  */
 public class _0206_ReverseLinkedList {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Reverse Linked List.
@@ -66,6 +67,9 @@ public class _0206_ReverseLinkedList {
         head.next = null;
         return node;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0206_ReverseLinkedList solution = new _0206_ReverseLinkedList();

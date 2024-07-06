@@ -34,6 +34,6 @@ A _defanged IP address_ replaces every period `"."` with `"[.]"`.
 [[src-1108]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1108_DefangingAnIPAddress.java[]
+include::{sourcedir}/_1108_DefangingAnIPAddress.java[tag=answer]
 ----
 

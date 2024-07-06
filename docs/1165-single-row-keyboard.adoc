@@ -8,6 +8,6 @@ https://leetcode.com/problems/single-row-keyboard/[LeetCode - Single-Row Keyboar
 [[src-1165]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1165_SingleRowKeyboard.java[]
+include::{sourcedir}/_1165_SingleRowKeyboard.java[tag=answer]
 ----
 

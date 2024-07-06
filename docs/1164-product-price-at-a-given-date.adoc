@@ -8,6 +8,6 @@ https://leetcode.com/problems/product-price-at-a-given-date/[LeetCode - Product 
 [[src-1164]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1164_ProductPriceAtAGivenDate.java[]
+include::{sourcedir}/_1164_ProductPriceAtAGivenDate.java[tag=answer]
 ----
 

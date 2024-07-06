@@ -11,6 +11,7 @@ import java.util.Objects;
  * @since 2020-02-01 22:49
  */
 public class _0058_LengthOfLastWord {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Length of Last Word.
      * Memory Usage: 38 MB, less than 7.57% of Java online submissions for Length of Last Word.
@@ -59,6 +60,9 @@ public class _0058_LengthOfLastWord {
         }
         return end - start;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0058_LengthOfLastWord solution = new _0058_LengthOfLastWord();

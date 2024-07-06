@@ -52,6 +52,6 @@ circularDeque.getFront();			// return 4
 [[src-0641]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0641_DesignCircularDeque.java[]
+include::{sourcedir}/_0641_DesignCircularDeque.java[tag=answer]
 ----
 

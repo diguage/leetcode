@@ -48,6 +48,6 @@ image::https://assets.leetcode.com/uploads/2019/10/30/e2.png[{image_attr}]
 [[src-1252]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1252_CellsWithOddValuesInAMatrix.java[]
+include::{sourcedir}/_1252_CellsWithOddValuesInAMatrix.java[tag=answer]
 ----
 

@@ -9,6 +9,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-02-05 16:25
  */
 public class _0052_NQueensII {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 95.68% of Java online submissions for N-Queens II.
      * Memory Usage: 36 MB, less than 8.70% of Java online submissions for N-Queens II.
@@ -57,6 +58,9 @@ public class _0052_NQueensII {
         }
         return true;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0052_NQueensII solution = new _0052_NQueensII();

@@ -45,6 +45,6 @@ You need to return whether the student could be rewarded according to his attend
 [[src-0551]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0551_StudentAttendanceRecordI.java[]
+include::{sourcedir}/_0551_StudentAttendanceRecordI.java[tag=answer]
 ----
 

@@ -40,6 +40,6 @@ Input: search("leetcoded"), Output: False
 [[src-0676]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0676_ImplementMagicDictionary.java[]
+include::{sourcedir}/_0676_ImplementMagicDictionary.java[tag=answer]
 ----
 

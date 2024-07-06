@@ -52,14 +52,14 @@ image::images/0051-03.png[{image_attr}]
 [[src-0051]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0051_NQueens.java[]
+include::{sourcedir}/_0051_NQueens.java[tag=answer]
 ----
 
 第二次自己实现，没有使用反转，感觉更容易理解。
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0051_NQueens_2.java[]
+include::{sourcedir}/_0051_NQueens_2.java[tag=answer]
 ----
 
 == 参考资料

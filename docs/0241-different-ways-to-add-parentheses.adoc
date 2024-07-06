@@ -35,6 +35,6 @@ Given a string of numbers and operators, return all possible results from comput
 [[src-0241]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0241_DifferentWaysToAddParentheses.java[]
+include::{sourcedir}/_0241_DifferentWaysToAddParentheses.java[tag=answer]
 ----
 

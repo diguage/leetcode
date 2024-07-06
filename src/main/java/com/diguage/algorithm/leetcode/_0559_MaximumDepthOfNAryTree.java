@@ -7,6 +7,7 @@ import java.util.List;
  * @since 2024-06-25 18:12:21
  */
 public class _0559_MaximumDepthOfNAryTree {
+  // tag::answer[]
   public int maxDepth(Node root) {
     if (root == null) {
       return 0;
@@ -37,4 +38,5 @@ public class _0559_MaximumDepthOfNAryTree {
       children = _children;
     }
   }
+  // end::answer[]
 }

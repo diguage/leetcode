@@ -40,12 +40,12 @@ return its level order traversal as:
 [[src-0102]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0102_BinaryTreeLevelOrderTraversal.java[]
+include::{sourcedir}/_0102_BinaryTreeLevelOrderTraversal.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0102_BinaryTreeLevelOrderTraversal_2.java[]
+include::{sourcedir}/_0102_BinaryTreeLevelOrderTraversal_2.java[tag=answer]
 ----
 
 TIP: TODO：还可以优化成只用一个队列对象，思考如何实现？

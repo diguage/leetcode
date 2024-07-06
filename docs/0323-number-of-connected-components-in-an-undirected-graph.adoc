@@ -8,6 +8,6 @@ https://leetcode.com/problems/number-of-connected-components-in-an-undirected-gr
 [[src-0323]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0323_NumberOfConnectedComponentsInAnUndirectedGraph.java[]
+include::{sourcedir}/_0323_NumberOfConnectedComponentsInAnUndirectedGraph.java[tag=answer]
 ----
 

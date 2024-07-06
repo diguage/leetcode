@@ -29,6 +29,6 @@ words = ["a", "bb", "acd", "ace"]
 [[src-0792]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0792_NumberOfMatchingSubsequences.java[]
+include::{sourcedir}/_0792_NumberOfMatchingSubsequences.java[tag=answer]
 ----
 

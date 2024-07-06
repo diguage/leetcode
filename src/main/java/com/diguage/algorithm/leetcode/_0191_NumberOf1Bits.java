@@ -44,6 +44,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-25 23:12
  */
 public class _0191_NumberOf1Bits {
+  // tag::answer[]
     /**
      * Runtime: 2 ms, faster than 7.49% of Java online submissions for Number of 1 Bits.
      *
@@ -75,6 +76,9 @@ public class _0191_NumberOf1Bits {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0191_NumberOf1Bits solution = new _0191_NumberOf1Bits();

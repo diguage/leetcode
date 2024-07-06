@@ -8,6 +8,6 @@ https://leetcode.com/problems/ip-to-cidr/[LeetCode - IP to CIDR]
 [[src-0751]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0751_IPToCIDR.java[]
+include::{sourcedir}/_0751_IPToCIDR.java[tag=answer]
 ----
 

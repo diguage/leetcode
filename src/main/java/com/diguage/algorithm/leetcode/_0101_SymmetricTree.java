@@ -40,6 +40,7 @@ import java.util.*;
  * @since 2020-01-02 00:20
  */
 public class _0101_SymmetricTree {
+  // tag::answer[]
     public boolean isSymmetric(TreeNode root) {
         return isMirror(root, root);
     }
@@ -129,6 +130,9 @@ public class _0101_SymmetricTree {
 
         return true;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0101_SymmetricTree solution = new _0101_SymmetricTree();

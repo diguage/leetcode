@@ -27,6 +27,6 @@ Only three moves are needed (remember each move increments two elements):
 [[src-0453]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0453_MinimumMovesToEqualArrayElements.java[]
+include::{sourcedir}/_0453_MinimumMovesToEqualArrayElements.java[tag=answer]
 ----
 

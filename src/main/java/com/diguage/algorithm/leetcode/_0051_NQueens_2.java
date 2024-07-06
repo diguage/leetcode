@@ -16,6 +16,7 @@ import static com.diguage.util.Printers.printMatrix;
  * @since 2024-06-29 16:44:40
  */
 public class _0051_NQueens_2 {
+  // tag::answer[]
   /**
    * 自己实现
    */
@@ -95,4 +96,5 @@ public class _0051_NQueens_2 {
     }
     return true;
   }
+  // end::answer[]
 }

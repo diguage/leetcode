@@ -44,11 +44,11 @@ return its zigzag level order traversal as:
 [[src-0103]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0103_BinaryTreeZigzagLevelOrderTraversal.java[]
+include::{sourcedir}/_0103_BinaryTreeZigzagLevelOrderTraversal.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0103_BinaryTreeZigzagLevelOrderTraversal_2.java[]
+include::{sourcedir}/_0103_BinaryTreeZigzagLevelOrderTraversal_2.java[tag=answer]
 ----
 

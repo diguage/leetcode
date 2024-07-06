@@ -8,6 +8,6 @@ https://leetcode.com/problems/minimum-knight-moves/[LeetCode - Minimum Knight Mo
 [[src-1197]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1197_MinimumKnightMoves.java[]
+include::{sourcedir}/_1197_MinimumKnightMoves.java[tag=answer]
 ----
 

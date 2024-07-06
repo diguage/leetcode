@@ -41,6 +41,7 @@ import java.util.List;
  * @since 2020-01-26 23:17
  */
 public class _0412_FizzBuzz {
+  // tag::answer[]
 
     /**
      * Runtime: 2 ms, faster than 29.17% of Java online submissions for Fizz Buzz.
@@ -62,6 +63,9 @@ public class _0412_FizzBuzz {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0412_FizzBuzz solution = new _0412_FizzBuzz();

@@ -51,6 +51,6 @@ We return the one that occurred first.
 [[src-0748]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0748_ShortestCompletingWord.java[]
+include::{sourcedir}/_0748_ShortestCompletingWord.java[tag=answer]
 ----
 

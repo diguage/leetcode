@@ -65,6 +65,6 @@ Return 0 if the string is already *balanced*.
 [[src-1234]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1234_ReplaceTheSubstringForBalancedString.java[]
+include::{sourcedir}/_1234_ReplaceTheSubstringForBalancedString.java[tag=answer]
 ----
 

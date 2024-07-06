@@ -52,6 +52,6 @@ We need to wait until time 16 so that (0, 0) and (4, 4) are connected.
 [[src-0778]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0778_SwimInRisingWater.java[]
+include::{sourcedir}/_0778_SwimInRisingWater.java[tag=answer]
 ----
 

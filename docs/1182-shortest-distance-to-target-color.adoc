@@ -8,6 +8,6 @@ https://leetcode.com/problems/shortest-distance-to-target-color/[LeetCode - Shor
 [[src-1182]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1182_ShortestDistanceToTargetColor.java[]
+include::{sourcedir}/_1182_ShortestDistanceToTargetColor.java[tag=answer]
 ----
 

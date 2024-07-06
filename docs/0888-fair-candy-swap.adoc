@@ -71,6 +71,6 @@ If there are multiple answers, you may return any one of them.  It is guaranteed
 [[src-0888]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0888_FairCandySwap.java[]
+include::{sourcedir}/_0888_FairCandySwap.java[tag=answer]
 ----
 

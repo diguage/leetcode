@@ -50,6 +50,6 @@ Your position goes from 0->1->3->7->7->6.
 [[src-0818]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0818_RaceCar.java[]
+include::{sourcedir}/_0818_RaceCar.java[tag=answer]
 ----
 

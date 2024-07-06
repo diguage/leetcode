@@ -44,7 +44,7 @@ return `[2]`.
 [[src-0501]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0501_FindModeInBinarySearchTree.java[]
+include::{sourcedir}/_0501_FindModeInBinarySearchTree.java[tag=answer]
 ----
 
 == 参考资料

@@ -69,6 +69,6 @@ You are given a target value to search. If found in the array return `true`, oth
 [[src-0081]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0081_SearchInRotatedSortedArrayII.java[]
+include::{sourcedir}/_0081_SearchInRotatedSortedArrayII.java[tag=answer]
 ----
 

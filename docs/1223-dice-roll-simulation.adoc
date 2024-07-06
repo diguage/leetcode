@@ -49,6 +49,6 @@ Two sequences are considered different if at least one element differs from each
 [[src-1223]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1223_DiceRollSimulation.java[]
+include::{sourcedir}/_1223_DiceRollSimulation.java[tag=answer]
 ----
 

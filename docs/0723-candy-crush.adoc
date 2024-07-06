@@ -8,6 +8,6 @@ https://leetcode.com/problems/candy-crush/[LeetCode - Candy Crush]
 [[src-0723]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0723_CandyCrush.java[]
+include::{sourcedir}/_0723_CandyCrush.java[tag=answer]
 ----
 

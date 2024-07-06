@@ -44,6 +44,6 @@ Toggled to [[1,1,1,1],[1,0,0,1],[1,1,1,1]].
 [[src-0861]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0861_ScoreAfterFlippingMatrix.java[]
+include::{sourcedir}/_0861_ScoreAfterFlippingMatrix.java[tag=answer]
 ----
 

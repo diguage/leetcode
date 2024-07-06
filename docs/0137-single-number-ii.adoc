@@ -31,6 +31,6 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 [[src-0137]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0137_SingleNumberII.java[]
+include::{sourcedir}/_0137_SingleNumberII.java[tag=answer]
 ----
 

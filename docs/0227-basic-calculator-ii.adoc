@@ -51,6 +51,6 @@ The expression string contains only *non-negative* integers, `+`, `-`, `*`, `/` 
 [[src-0227]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0227_BasicCalculatorII.java[]
+include::{sourcedir}/_0227_BasicCalculatorII.java[tag=answer]
 ----
 

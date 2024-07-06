@@ -39,6 +39,7 @@ import com.diguage.algorithm.util.TreeNode;
  * @since 2024-06-24 21:08:59
  */
 public class _0236_LowestCommonAncestorOfABinaryTree_2 {
+  // tag::answer[]
   /**
    * 参考 左程云《程序员代码面试指南》的解法
    */
@@ -53,4 +54,5 @@ public class _0236_LowestCommonAncestorOfABinaryTree_2 {
     }
     return left != null ? left : right;
   }
+  // end::answer[]
 }

@@ -79,6 +79,6 @@ Notice that walls are only built on the shared boundary of two different cells.
 [[src-0749]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0749_ContainVirus.java[]
+include::{sourcedir}/_0749_ContainVirus.java[tag=answer]
 ----
 

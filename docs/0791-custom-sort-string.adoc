@@ -36,6 +36,6 @@ Since "d" does not appear in S, it can be at any position in T. "dcba", "cdba", 
 [[src-0791]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0791_CustomSortString.java[]
+include::{sourcedir}/_0791_CustomSortString.java[tag=answer]
 ----
 

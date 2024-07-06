@@ -8,6 +8,6 @@ https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/[LeetCode -
 [[src-1151]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1151_MinimumSwapsToGroupAll1STogether.java[]
+include::{sourcedir}/_1151_MinimumSwapsToGroupAll1STogether.java[tag=answer]
 ----
 

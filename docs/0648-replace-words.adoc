@@ -37,6 +37,6 @@ sentence = "the cattle was rattled by the battery"
 [[src-0648]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0648_ReplaceWords.java[]
+include::{sourcedir}/_0648_ReplaceWords.java[tag=answer]
 ----
 

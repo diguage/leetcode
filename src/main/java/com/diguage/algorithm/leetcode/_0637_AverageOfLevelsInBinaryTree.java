@@ -5,6 +5,11 @@ import com.diguage.algorithm.util.TreeNode;
 import java.util.*;
 
 public class _0637_AverageOfLevelsInBinaryTree {
+  // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-14
+   */
   public List<Double> averageOfLevels(TreeNode root) {
     if (root == null) {
       return Collections.emptyList();
@@ -29,4 +34,5 @@ public class _0637_AverageOfLevelsInBinaryTree {
     }
     return result;
   }
+  // end::answer[]
 }

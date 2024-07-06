@@ -55,6 +55,6 @@ image::https://assets.leetcode.com/uploads/2018/12/28/237_example.png[{image_att
 [[src-0237]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0237_DeleteNodeInALinkedList.java[]
+include::{sourcedir}/_0237_DeleteNodeInALinkedList.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/largest-bst-subtree/[LeetCode - Largest BST Subtre
 [[src-0333]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0333_LargestBSTSubtree.java[]
+include::{sourcedir}/_0333_LargestBSTSubtree.java[tag=answer]
 ----
 

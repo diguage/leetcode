@@ -30,6 +30,6 @@ Given an array of integers `nums` and a positive integer `k`, find whether it's 
 [[src-0698]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0698_PartitionToKEqualSumSubsets.java[]
+include::{sourcedir}/_0698_PartitionToKEqualSumSubsets.java[tag=answer]
 ----
 

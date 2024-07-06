@@ -30,6 +30,6 @@ sumRange(0, 2) -> 8
 [[src-0307]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0307_RangeSumQueryMutable.java[]
+include::{sourcedir}/_0307_RangeSumQueryMutable.java[tag=answer]
 ----
 

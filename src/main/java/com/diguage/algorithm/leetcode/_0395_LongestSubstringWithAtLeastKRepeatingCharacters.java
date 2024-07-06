@@ -11,6 +11,7 @@ import java.util.Objects;
  * @since 2020-01-27 16:28
  */
 public class _0395_LongestSubstringWithAtLeastKRepeatingCharacters {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Longest Substring with At Least K Repeating Characters.
      *
@@ -53,6 +54,9 @@ public class _0395_LongestSubstringWithAtLeastKRepeatingCharacters {
         }
         return end - start + 1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0395_LongestSubstringWithAtLeastKRepeatingCharacters solution = new _0395_LongestSubstringWithAtLeastKRepeatingCharacters();

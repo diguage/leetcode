@@ -8,6 +8,6 @@ https://leetcode.com/problems/product-sales-analysis-i/[LeetCode - Product Sales
 [[src-1068]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1068_ProductSalesAnalysisI.java[]
+include::{sourcedir}/_1068_ProductSalesAnalysisI.java[tag=answer]
 ----
 

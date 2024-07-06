@@ -7,6 +7,7 @@ import com.diguage.algorithm.util.TreeNode;
  * @since 2024-06-25 20:55:53
  */
 public class _0513_FindBottomLeftTreeValue {
+  // tag::answer[]
   int curHeight = 0;
 
   int curValue = 0;
@@ -31,4 +32,5 @@ public class _0513_FindBottomLeftTreeValue {
       curValue = root.val;
     }
   }
+  // end::answer[]
 }

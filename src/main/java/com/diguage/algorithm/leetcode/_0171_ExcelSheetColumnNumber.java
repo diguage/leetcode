@@ -47,6 +47,7 @@ import java.util.Objects;
  * @since 2020-01-14 00:12
  */
 public class _0171_ExcelSheetColumnNumber {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 100.00% of Java online submissions for Excel Sheet Column Number.
      *
@@ -65,6 +66,9 @@ public class _0171_ExcelSheetColumnNumber {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0171_ExcelSheetColumnNumber solution = new _0171_ExcelSheetColumnNumber();

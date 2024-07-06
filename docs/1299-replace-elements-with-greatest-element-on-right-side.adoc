@@ -27,6 +27,6 @@ After doing so, return the array.
 [[src-1299]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1299_ReplaceElementsWithGreatestElementOnRightSide.java[]
+include::{sourcedir}/_1299_ReplaceElementsWithGreatestElementOnRightSide.java[tag=answer]
 ----
 

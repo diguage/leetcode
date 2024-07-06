@@ -59,6 +59,6 @@ Given a string representing an expression of fraction addition and subtraction, 
 [[src-0592]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0592_FractionAdditionAndSubtraction.java[]
+include::{sourcedir}/_0592_FractionAdditionAndSubtraction.java[tag=answer]
 ----
 

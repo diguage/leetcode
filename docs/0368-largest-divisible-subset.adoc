@@ -33,6 +33,6 @@ If there are multiple solutions, return any subset is fine.
 [[src-0368]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0368_LargestDivisibleSubset.java[]
+include::{sourcedir}/_0368_LargestDivisibleSubset.java[tag=answer]
 ----
 

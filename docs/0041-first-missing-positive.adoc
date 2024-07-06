@@ -40,6 +40,6 @@ Your algorithm should run in _O_(_n_) time and uses constant extra space.
 [[src-0041]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0041_FirstMissingPositive.java[]
+include::{sourcedir}/_0041_FirstMissingPositive.java[tag=answer]
 ----
 

@@ -70,6 +70,6 @@ One possible solution is [right, right, rotate clockwise, right, down, down, dow
 [[src-1210]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1210_MinimumMovesToReachTargetWithRotations.java[]
+include::{sourcedir}/_1210_MinimumMovesToReachTargetWithRotations.java[tag=answer]
 ----
 

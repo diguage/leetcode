@@ -74,6 +74,6 @@ You examine the `typed` characters of the keyboard.  Return `True` if it is poss
 [[src-0925]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0925_LongPressedName.java[]
+include::{sourcedir}/_0925_LongPressedName.java[tag=answer]
 ----
 

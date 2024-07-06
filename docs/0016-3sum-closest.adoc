@@ -18,6 +18,6 @@ The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 [[src-0016]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0016_3SumClosest.java[]
+include::{sourcedir}/_0016_3SumClosest.java[tag=answer]
 ----
 

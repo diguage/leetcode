@@ -44,6 +44,6 @@ s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
 [[src-0394]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0394_DecodeString.java[]
+include::{sourcedir}/_0394_DecodeString.java[tag=answer]
 ----
 

@@ -66,6 +66,6 @@ Each element is either an integer, or a list -- whose elements may also be integ
 [[src-0341]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0341_FlattenNestedListIterator.java[]
+include::{sourcedir}/_0341_FlattenNestedListIterator.java[tag=answer]
 ----
 

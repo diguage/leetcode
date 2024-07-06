@@ -72,6 +72,6 @@ You are guaranteed that no two `trees` have the same height and there is at leas
 [[src-0675]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0675_CutOffTreesForGolfEvent.java[]
+include::{sourcedir}/_0675_CutOffTreesForGolfEvent.java[tag=answer]
 ----
 

@@ -57,6 +57,6 @@ image::images/0523-06.png[{image_attr}]
 [[src-0523]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0523_ContinuousSubarraySum.java[]
+include::{sourcedir}/_0523_ContinuousSubarraySum.java[tag=answer]
 ----
 

@@ -35,6 +35,6 @@ Assume we are dealing with an environment which could only store integers within
 [[src-0007]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0007_ReverseInteger.java[]
+include::{sourcedir}/_0007_ReverseInteger.java[tag=answer]
 ----
 

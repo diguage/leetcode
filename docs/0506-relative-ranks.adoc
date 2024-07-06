@@ -29,6 +29,6 @@ Given scores of *N* athletes, find their relative ranks and the people with the 
 [[src-0506]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0506_RelativeRanks.java[]
+include::{sourcedir}/_0506_RelativeRanks.java[tag=answer]
 ----
 

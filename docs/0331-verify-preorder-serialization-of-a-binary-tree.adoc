@@ -52,6 +52,6 @@ You may assume that the input format is always valid, for example it could never
 [[src-0331]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0331_VerifyPreorderSerializationOfABinaryTree.java[]
+include::{sourcedir}/_0331_VerifyPreorderSerializationOfABinaryTree.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/lonely-pixel-i/[LeetCode - Lonely Pixel I]
 [[src-0531]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0531_LonelyPixelI.java[]
+include::{sourcedir}/_0531_LonelyPixelI.java[tag=answer]
 ----
 

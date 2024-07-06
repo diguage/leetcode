@@ -50,6 +50,6 @@ but the second term did not exist.  Since the last term exhausted does not exist
 [[src-0900]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0900_RLEIterator.java[]
+include::{sourcedir}/_0900_RLEIterator.java[tag=answer]
 ----
 

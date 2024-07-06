@@ -29,6 +29,6 @@ Given two words _word1_ and _word2_, find the minimum number of steps required t
 [[src-0583]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0583_DeleteOperationForTwoStrings.java[]
+include::{sourcedir}/_0583_DeleteOperationForTwoStrings.java[tag=answer]
 ----
 

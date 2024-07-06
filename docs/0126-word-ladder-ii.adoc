@@ -58,6 +58,6 @@ wordList = ["hot","dot","dog","lot","log"]
 [[src-0126]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0126_WordLadderII.java[]
+include::{sourcedir}/_0126_WordLadderII.java[tag=answer]
 ----
 

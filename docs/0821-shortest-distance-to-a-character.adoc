@@ -28,6 +28,6 @@ Given a string `S` and a character `C`, return an array of integers representing
 [[src-0821]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0821_ShortestDistanceToACharacter.java[]
+include::{sourcedir}/_0821_ShortestDistanceToACharacter.java[tag=answer]
 ----
 

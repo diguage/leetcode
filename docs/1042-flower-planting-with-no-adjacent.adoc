@@ -60,6 +60,6 @@ Return *any* such a choice as an array `answer`, where `answer[i]` is the type o
 [[src-1042]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1042_FlowerPlantingWithNoAdjacent.java[]
+include::{sourcedir}/_1042_FlowerPlantingWithNoAdjacent.java[tag=answer]
 ----
 

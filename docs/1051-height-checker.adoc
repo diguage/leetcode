@@ -27,6 +27,6 @@ Return the minimum number of students that must move in order for all students t
 [[src-1051]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1051_HeightChecker.java[]
+include::{sourcedir}/_1051_HeightChecker.java[tag=answer]
 ----
 

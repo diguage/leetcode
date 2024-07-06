@@ -35,6 +35,6 @@ At the end the concatenation [2] + [4,4,4,4] is [2,4,4,4].
 [[src-1313]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1313_DecompressRunLengthEncodedList.java[]
+include::{sourcedir}/_1313_DecompressRunLengthEncodedList.java[tag=answer]
 ----
 

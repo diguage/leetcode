@@ -38,6 +38,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2020-01-24 21:12
  */
 public class _0103_BinaryTreeZigzagLevelOrderTraversal_2 {
+  // tag::answer[]
 
   /**
    *
@@ -72,6 +73,9 @@ public class _0103_BinaryTreeZigzagLevelOrderTraversal_2 {
     }
     return result;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0103_BinaryTreeZigzagLevelOrderTraversal_2 solution = new _0103_BinaryTreeZigzagLevelOrderTraversal_2();

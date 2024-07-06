@@ -32,7 +32,15 @@ import java.util.stream.Collectors;
  * @since 2018-07-19
  */
 public class _0015_3Sum {
+  // tag::answer[]
   // TODO 还没有通过
+
+  /**
+   * TODO 还没有通过
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2018-07-19
+   */
   public static List<List<Integer>> threeSum(int[] nums) {
     if (Objects.isNull(nums) || nums.length < 3) {
       return Collections.emptyList();
@@ -94,6 +102,9 @@ public class _0015_3Sum {
 
     return new ArrayList<>(result);
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
 //        int[] nums = {-1, 0, 1, 2, -1, -4};

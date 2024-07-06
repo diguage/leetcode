@@ -61,6 +61,6 @@ It's guaranteed that a unique mapping will always exist.
 [[src-1309]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1309_DecryptStringFromAlphabetToIntegerMapping.java[]
+include::{sourcedir}/_1309_DecryptStringFromAlphabetToIntegerMapping.java[tag=answer]
 ----
 

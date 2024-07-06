@@ -58,6 +58,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-25 21:55
  */
 public class _0134_GasStation {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Gas Station.
      *
@@ -80,6 +81,9 @@ public class _0134_GasStation {
         }
         return totalTank >= 0 ? startStation : -1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0134_GasStation solution = new _0134_GasStation();

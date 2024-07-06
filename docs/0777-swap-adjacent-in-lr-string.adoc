@@ -32,6 +32,6 @@ XRLXXRRLX
 [[src-0777]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0777_SwapAdjacentInLRString.java[]
+include::{sourcedir}/_0777_SwapAdjacentInLRString.java[tag=answer]
 ----
 

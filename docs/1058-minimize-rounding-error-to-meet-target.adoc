@@ -8,6 +8,6 @@ https://leetcode.com/problems/minimize-rounding-error-to-meet-target/[LeetCode -
 [[src-1058]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1058_MinimizeRoundingErrorToMeetTarget.java[]
+include::{sourcedir}/_1058_MinimizeRoundingErrorToMeetTarget.java[tag=answer]
 ----
 

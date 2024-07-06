@@ -8,6 +8,6 @@ https://leetcode.com/problems/lexicographically-smallest-equivalent-string/[Leet
 [[src-1061]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1061_LexicographicallySmallestEquivalentString.java[]
+include::{sourcedir}/_1061_LexicographicallySmallestEquivalentString.java[tag=answer]
 ----
 

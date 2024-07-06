@@ -8,6 +8,6 @@ https://leetcode.com/problems/restaurant-growth/[LeetCode - Restaurant Growth]
 [[src-1321]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1321_RestaurantGrowth.java[]
+include::{sourcedir}/_1321_RestaurantGrowth.java[tag=answer]
 ----
 

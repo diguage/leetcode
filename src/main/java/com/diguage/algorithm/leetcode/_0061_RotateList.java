@@ -17,6 +17,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-01 23:11
  */
 public class _0061_RotateList {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Rotate List.
@@ -89,6 +90,9 @@ public class _0061_RotateList {
 
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0061_RotateList solution = new _0061_RotateList();

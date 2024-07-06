@@ -78,6 +78,6 @@ p = "a*c?b"
 [[src-0044]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0044_WildcardMatching.java[]
+include::{sourcedir}/_0044_WildcardMatching.java[tag=answer]
 ----
 

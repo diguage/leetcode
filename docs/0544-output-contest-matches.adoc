@@ -8,6 +8,6 @@ https://leetcode.com/problems/output-contest-matches/[LeetCode - Output Contest 
 [[src-0544]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0544_OutputContestMatches.java[]
+include::{sourcedir}/_0544_OutputContestMatches.java[tag=answer]
 ----
 

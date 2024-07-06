@@ -43,6 +43,6 @@ For each such occurrence, add "`third`" to the answer, and return the answer.
 [[src-1078]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1078_OccurrencesAfterBigram.java[]
+include::{sourcedir}/_1078_OccurrencesAfterBigram.java[tag=answer]
 ----
 

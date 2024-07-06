@@ -8,6 +8,6 @@ https://leetcode.com/problems/remove-vowels-from-a-string/[LeetCode - Remove Vow
 [[src-1119]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1119_RemoveVowelsFromAString.java[]
+include::{sourcedir}/_1119_RemoveVowelsFromAString.java[tag=answer]
 ----
 

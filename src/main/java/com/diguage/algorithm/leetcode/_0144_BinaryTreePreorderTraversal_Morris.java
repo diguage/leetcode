@@ -16,6 +16,7 @@ import java.util.List;
  * @since 2020-06-16 10:59
  */
 public class _0144_BinaryTreePreorderTraversal_Morris {
+  // tag::answer[]
 
   /**
    * 有一种巧妙的方法可以在线性时间内，只占用常数空间来实现前序遍历。
@@ -25,4 +26,5 @@ public class _0144_BinaryTreePreorderTraversal_Morris {
   public List<Integer> preorderTraversal(TreeNode root) {
     return null;
   }
+  // end::answer[]
 }

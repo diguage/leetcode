@@ -63,6 +63,6 @@ Since the result may be large, *return the answer modulo `10^9 + 7`*.
 [[src-0940]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0940_DistinctSubsequencesII.java[]
+include::{sourcedir}/_0940_DistinctSubsequencesII.java[tag=answer]
 ----
 

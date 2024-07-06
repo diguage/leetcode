@@ -76,6 +76,6 @@ Given a parentheses string, return the minimum number of parentheses we must add
 [[src-0921]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0921_MinimumAddToMakeParenthesesValid.java[]
+include::{sourcedir}/_0921_MinimumAddToMakeParenthesesValid.java[tag=answer]
 ----
 

@@ -11,6 +11,7 @@ import java.util.*;
  * @since 2024-07-02 17:52:50
  */
 public class _0438_FindAllAnagramsInAString_2 {
+  // tag::answer[]
   public List<Integer> findAnagrams(String s, String p) {
     if (s == null || s.isEmpty()
       || p == null || p.isEmpty()
@@ -51,4 +52,5 @@ public class _0438_FindAllAnagramsInAString_2 {
     }
     return result;
   }
+  // end::answer[]
 }

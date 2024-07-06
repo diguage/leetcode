@@ -8,6 +8,6 @@ https://leetcode.com/problems/tree-node/[LeetCode - Tree Node]
 [[src-0608]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0608_TreeNode.java[]
+include::{sourcedir}/_0608_TreeNode.java[tag=answer]
 ----
 

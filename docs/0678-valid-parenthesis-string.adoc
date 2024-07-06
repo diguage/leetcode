@@ -54,6 +54,6 @@ Given a string containing only three types of characters: '(', ')' and '*', writ
 [[src-0678]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0678_ValidParenthesisString.java[]
+include::{sourcedir}/_0678_ValidParenthesisString.java[tag=answer]
 ----
 

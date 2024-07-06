@@ -32,6 +32,6 @@ Note:
 [[src-0593]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0593_ValidSquare.java[]
+include::{sourcedir}/_0593_ValidSquare.java[tag=answer]
 ----
 

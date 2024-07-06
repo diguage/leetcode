@@ -51,6 +51,7 @@ import java.util.*;
  * @since 2020-01-25 18:43
  */
 public class _0127_WordLadder {
+  // tag::answer[]
     /**
      * Runtime: 43 ms, faster than 80.36% of Java online submissions for Word Ladder.
      *
@@ -120,6 +121,9 @@ public class _0127_WordLadder {
             this.value = value;
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0127_WordLadder solution = new _0127_WordLadder();

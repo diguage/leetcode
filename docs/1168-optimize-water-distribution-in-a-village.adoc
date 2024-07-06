@@ -8,6 +8,6 @@ https://leetcode.com/problems/optimize-water-distribution-in-a-village/[LeetCode
 [[src-1168]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1168_OptimizeWaterDistributionInAVillage.java[]
+include::{sourcedir}/_1168_OptimizeWaterDistributionInAVillage.java[tag=answer]
 ----
 

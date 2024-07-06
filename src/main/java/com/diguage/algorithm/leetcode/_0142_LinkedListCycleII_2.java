@@ -17,6 +17,7 @@ import static com.diguage.util.ListNodes.build;
  * @since 2024-07-02 21:08:43
  */
 public class _0142_LinkedListCycleII_2 {
+  // tag::answer[]
 
   /**
    *
@@ -47,4 +48,5 @@ public class _0142_LinkedListCycleII_2 {
     }
     return slow;
   }
+  // end::answer[]
 }

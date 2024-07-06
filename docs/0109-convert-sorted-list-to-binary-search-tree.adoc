@@ -37,17 +37,17 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 [[src-0109]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0109_ConvertSortedListToBinarySearchTree.java[]
+include::{sourcedir}/_0109_ConvertSortedListToBinarySearchTree.java[tag=answer]
 ----
 
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0109_ConvertSortedListToBinarySearchTree_2.java[]
+include::{sourcedir}/_0109_ConvertSortedListToBinarySearchTree_2.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0109_ConvertSortedListToBinarySearchTree_21.java[]
+include::{sourcedir}/_0109_ConvertSortedListToBinarySearchTree_21.java[tag=answer]
 ----
 

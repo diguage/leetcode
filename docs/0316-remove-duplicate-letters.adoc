@@ -26,6 +26,6 @@ Given a string which contains only lowercase letters, remove duplicate letters s
 [[src-0316]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0316_RemoveDuplicateLetters.java[]
+include::{sourcedir}/_0316_RemoveDuplicateLetters.java[tag=answer]
 ----
 

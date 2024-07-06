@@ -36,6 +36,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2024-06-30 22:09:09
  */
 public class _0104_MaximumDepthOfBinaryTree_2 {
+  // tag::answer[]
 
     /**
      * 后根遍历既可以访问父节点，又可以从返回值中获取想要的信息，
@@ -49,4 +50,5 @@ public class _0104_MaximumDepthOfBinaryTree_2 {
       int right = maxDepth(root.right);
       return Math.max(left, right) + 1;
     }
+  // end::answer[]
 }

@@ -8,6 +8,6 @@ https://leetcode.com/problems/paint-fence/[LeetCode - Paint Fence]
 [[src-0276]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0276_PaintFence.java[]
+include::{sourcedir}/_0276_PaintFence.java[tag=answer]
 ----
 

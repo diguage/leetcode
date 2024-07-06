@@ -71,6 +71,6 @@ The answer must be returned modulo 10^9 + 7.
 [[src-1155]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1155_NumberOfDiceRollsWithTargetSum.java[]
+include::{sourcedir}/_1155_NumberOfDiceRollsWithTargetSum.java[tag=answer]
 ----
 

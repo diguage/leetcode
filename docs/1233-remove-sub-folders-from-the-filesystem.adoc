@@ -52,6 +52,6 @@ The format of a path is one or more concatenated strings of the form: `/` follow
 [[src-1233]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1233_RemoveSubFoldersFromTheFilesystem.java[]
+include::{sourcedir}/_1233_RemoveSubFoldersFromTheFilesystem.java[tag=answer]
 ----
 

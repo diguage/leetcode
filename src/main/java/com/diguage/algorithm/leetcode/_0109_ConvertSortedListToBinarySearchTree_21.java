@@ -16,6 +16,7 @@ import static java.util.Arrays.asList;
  * @since 2024-06-24 15:03:55
  */
 public class _0109_ConvertSortedListToBinarySearchTree_21 {
+  // tag::answer[]
 
   ListNode globalHead = null;
 
@@ -56,6 +57,9 @@ public class _0109_ConvertSortedListToBinarySearchTree_21 {
     }
     return result;
   }
+
+
+  // end::answer[]
 
 
     public static void main(String[] args) {

@@ -40,6 +40,6 @@ Return the longest possible length of a word chain with words chosen from the gi
 [[src-1048]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1048_LongestStringChain.java[]
+include::{sourcedir}/_1048_LongestStringChain.java[tag=answer]
 ----
 

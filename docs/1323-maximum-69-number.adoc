@@ -53,6 +53,6 @@ The maximum number is 9969.
 [[src-1323]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1323_Maximum69Number.java[]
+include::{sourcedir}/_1323_Maximum69Number.java[tag=answer]
 ----
 

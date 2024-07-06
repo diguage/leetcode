@@ -42,6 +42,6 @@ This demonstrated that taking the first 5 was a winning move for Alex, so we ret
 [[src-0877]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0877_StoneGame.java[]
+include::{sourcedir}/_0877_StoneGame.java[tag=answer]
 ----
 

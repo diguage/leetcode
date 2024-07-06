@@ -8,6 +8,6 @@ https://leetcode.com/problems/minimum-unique-word-abbreviation/[LeetCode - Minim
 [[src-0411]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0411_MinimumUniqueWordAbbreviation.java[]
+include::{sourcedir}/_0411_MinimumUniqueWordAbbreviation.java[tag=answer]
 ----
 

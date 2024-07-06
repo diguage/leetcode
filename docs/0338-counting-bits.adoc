@@ -92,6 +92,6 @@ Given a non negative integer number *num*. For every numbers *i* in the range *0
 [[src-0338]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0338_CountingBits.java[]
+include::{sourcedir}/_0338_CountingBits.java[tag=answer]
 ----
 

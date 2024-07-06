@@ -48,6 +48,6 @@ Notes:
 [[src-0833]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0833_FindAndReplaceInString.java[]
+include::{sourcedir}/_0833_FindAndReplaceInString.java[tag=answer]
 ----
 

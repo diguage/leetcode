@@ -106,12 +106,12 @@ image::images/0236-18.png[{image_attr}]
 [[src-0236]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0236_LowestCommonAncestorOfABinaryTree.java[]
+include::{sourcedir}/_0236_LowestCommonAncestorOfABinaryTree.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0236_LowestCommonAncestorOfABinaryTree_2.java[]
+include::{sourcedir}/_0236_LowestCommonAncestorOfABinaryTree_2.java[tag=answer]
 ----
 
 == 参考资料

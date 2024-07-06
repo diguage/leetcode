@@ -54,6 +54,6 @@ Given a _m_ x _n_ matrix, if an element is 0, set its entire row and column to 0
 [[src-0073]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0073_SetMatrixZeroes.java[]
+include::{sourcedir}/_0073_SetMatrixZeroes.java[tag=answer]
 ----
 

@@ -44,6 +44,6 @@ exection -> execution (insert 'u')
 [[src-0072]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0072_EditDistance.java[]
+include::{sourcedir}/_0072_EditDistance.java[tag=answer]
 ----
 

@@ -36,6 +36,6 @@ Your function should return true if any value appears at least twice in the arra
 [[src-0217]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0217_ContainsDuplicate.java[]
+include::{sourcedir}/_0217_ContainsDuplicate.java[tag=answer]
 ----
 

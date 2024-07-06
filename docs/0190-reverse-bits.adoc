@@ -48,6 +48,6 @@ If this function is called many times, how would you optimize it?
 [[src-0190]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0190_ReverseBits.java[]
+include::{sourcedir}/_0190_ReverseBits.java[tag=answer]
 ----
 

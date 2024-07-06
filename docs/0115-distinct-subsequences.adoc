@@ -51,6 +51,6 @@ As shown below, there are 5 ways you can generate "bag" from S.
 [[src-0115]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0115_DistinctSubsequences.java[]
+include::{sourcedir}/_0115_DistinctSubsequences.java[tag=answer]
 ----
 

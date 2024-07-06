@@ -57,6 +57,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2024-07-03 14:23:14
  */
 public class _0026_RemoveDuplicatesFromSortedArray_2 {
+  // tag::answer[]
   public static int removeDuplicates(int[] nums) {
     if (nums == null || nums.length == 0) {
       return 0;
@@ -70,4 +71,5 @@ public class _0026_RemoveDuplicatesFromSortedArray_2 {
     }
     return result + 1;
   }
+  // end::answer[]
 }

@@ -39,6 +39,6 @@ Find maximum possible value of the final array.
 [[src-1330]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1330_ReverseSubarrayToMaximizeArrayValue.java[]
+include::{sourcedir}/_1330_ReverseSubarrayToMaximizeArrayValue.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/valid-word-square/[LeetCode - Valid Word Square]
 [[src-0422]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0422_ValidWordSquare.java[]
+include::{sourcedir}/_0422_ValidWordSquare.java[tag=answer]
 ----
 

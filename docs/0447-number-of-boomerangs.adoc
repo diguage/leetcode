@@ -28,6 +28,6 @@ The two boomerangs are *[[1,0],[0,0],[2,0]]* and *[[1,0],[2,0],[0,0]]*
 [[src-0447]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0447_NumberOfBoomerangs.java[]
+include::{sourcedir}/_0447_NumberOfBoomerangs.java[tag=answer]
 ----
 

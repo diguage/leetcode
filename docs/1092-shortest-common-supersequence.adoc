@@ -35,6 +35,6 @@ The answer provided is the shortest such string that satisfies these properties.
 [[src-1092]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1092_ShortestCommonSupersequence.java[]
+include::{sourcedir}/_1092_ShortestCommonSupersequence.java[tag=answer]
 ----
 

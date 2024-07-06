@@ -52,6 +52,6 @@ Given a *N*N* matrix *M* representing the friend relationship between students i
 [[src-0547]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0547_FriendCircles.java[]
+include::{sourcedir}/_0547_FriendCircles.java[tag=answer]
 ----
 

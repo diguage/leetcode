@@ -42,6 +42,6 @@ From the top-left corner, there are a total of 3 ways to reach the bottom-right 
 [[src-0062]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0062_UniquePaths.java[]
+include::{sourcedir}/_0062_UniquePaths.java[tag=answer]
 ----
 

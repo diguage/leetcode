@@ -42,6 +42,6 @@ Surrounded regions shouldn&rsquo;t be on the border, which means that any `'O'` 
 [[src-0130]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0130_SurroundedRegions.java[]
+include::{sourcedir}/_0130_SurroundedRegions.java[tag=answer]
 ----
 

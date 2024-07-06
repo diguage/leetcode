@@ -59,6 +59,6 @@ Given a list of non-negative integers representing the amount of money of each h
 [[src-0198]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0198_HouseRobber.java[]
+include::{sourcedir}/_0198_HouseRobber.java[tag=answer]
 ----
 

@@ -22,6 +22,6 @@ If you have figured out the O(_n_) solution, try coding another solution using t
 [[src-0053]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0053_MaximumSubarray.java[]
+include::{sourcedir}/_0053_MaximumSubarray.java[tag=answer]
 ----
 

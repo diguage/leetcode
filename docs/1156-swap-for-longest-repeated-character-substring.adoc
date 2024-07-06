@@ -61,6 +61,6 @@ Given a string `text`, we are allowed to swap two of the characters in the strin
 [[src-1156]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1156_SwapForLongestRepeatedCharacterSubstring.java[]
+include::{sourcedir}/_1156_SwapForLongestRepeatedCharacterSubstring.java[tag=answer]
 ----
 

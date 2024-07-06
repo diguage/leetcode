@@ -7,6 +7,7 @@ import com.diguage.algorithm.util.TreeNode;
  * @since 2024-06-23 22:21:59
  */
 public class _0099_RecoverBinarySearchTree {
+  // tag::answer[]
   /**
    * 使用 Morris 遍历找出错误节点，然后交换其值
    */
@@ -47,4 +48,5 @@ public class _0099_RecoverBinarySearchTree {
     errorNodes[0].val = errorNodes[1].val;
     errorNodes[1].val = temp;
   }
+  // end::answer[]
 }

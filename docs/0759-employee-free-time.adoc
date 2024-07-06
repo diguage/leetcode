@@ -8,6 +8,6 @@ https://leetcode.com/problems/employee-free-time/[LeetCode - Employee Free Time]
 [[src-0759]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0759_EmployeeFreeTime.java[]
+include::{sourcedir}/_0759_EmployeeFreeTime.java[tag=answer]
 ----
 

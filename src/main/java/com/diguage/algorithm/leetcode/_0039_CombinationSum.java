@@ -48,6 +48,7 @@ import java.util.List;
  * @since 2018-09-16 21:56
  */
 public class _0039_CombinationSum {
+  // tag::answer[]
     /**
      * Runtime: 164 ms, faster than 5.05% of Java online submissions for Combination Sum.
      * Memory Usage: 45.5 MB, less than 5.19% of Java online submissions for Combination Sum.
@@ -84,6 +85,9 @@ public class _0039_CombinationSum {
             current.remove(current.size() - 1);
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0039_CombinationSum solution = new _0039_CombinationSum();

@@ -71,6 +71,6 @@ Given the array-form `A` of a non-negative integer `X`, return the array-form of
 [[src-0989]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0989_AddToArrayFormOfInteger.java[]
+include::{sourcedir}/_0989_AddToArrayFormOfInteger.java[tag=answer]
 ----
 

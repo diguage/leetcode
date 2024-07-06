@@ -47,6 +47,6 @@ Return the length of the shortest path that visits every node. You may start and
 [[src-0847]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0847_ShortestPathVisitingAllNodes.java[]
+include::{sourcedir}/_0847_ShortestPathVisitingAllNodes.java[tag=answer]
 ----
 

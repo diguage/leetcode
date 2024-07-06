@@ -8,6 +8,6 @@ https://leetcode.com/problems/minimum-cost-to-connect-sticks/[LeetCode - Minimum
 [[src-1167]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1167_MinimumCostToConnectSticks.java[]
+include::{sourcedir}/_1167_MinimumCostToConnectSticks.java[tag=answer]
 ----
 

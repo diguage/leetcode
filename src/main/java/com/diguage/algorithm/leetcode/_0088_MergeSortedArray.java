@@ -28,6 +28,7 @@ import java.util.Arrays;
  * @since 2019-10-25 00:43
  */
 public class _0088_MergeSortedArray {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Merge Sorted Array.
      *
@@ -63,6 +64,9 @@ public class _0088_MergeSortedArray {
             ni--;
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0088_MergeSortedArray solution = new _0088_MergeSortedArray();

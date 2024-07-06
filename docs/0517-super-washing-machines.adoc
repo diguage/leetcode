@@ -59,6 +59,6 @@ It's impossible to make all the three washing machines have the same number of d
 [[src-0517]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0517_SuperWashingMachines.java[]
+include::{sourcedir}/_0517_SuperWashingMachines.java[tag=answer]
 ----
 

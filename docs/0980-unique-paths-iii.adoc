@@ -70,6 +70,6 @@ Note that the starting and ending square can be anywhere in the grid.
 [[src-0980]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0980_UniquePathsIII.java[]
+include::{sourcedir}/_0980_UniquePathsIII.java[tag=answer]
 ----
 

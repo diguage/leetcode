@@ -14,6 +14,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-07 21:26
  */
 public class _0111_MinimumDepthOfBinaryTree_Morris {
+  // tag::answer[]
 
   /**
    * 参考左程云《程序员代码面试指南》的解法
@@ -69,6 +70,9 @@ public class _0111_MinimumDepthOfBinaryTree_Morris {
     }
     return minHeight;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0111_MinimumDepthOfBinaryTree_Morris solution = new _0111_MinimumDepthOfBinaryTree_Morris();

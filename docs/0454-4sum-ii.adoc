@@ -35,6 +35,6 @@ The two tuples are:
 [[src-0454]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0454_4SumII.java[]
+include::{sourcedir}/_0454_4SumII.java[tag=answer]
 ----
 

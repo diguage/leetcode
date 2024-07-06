@@ -75,6 +75,6 @@ Opening Only the second tap will water the whole garden [0,5]
 [[src-1326]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1326_MinimumNumberOfTapsToOpenToWaterAGarden.java[]
+include::{sourcedir}/_1326_MinimumNumberOfTapsToOpenToWaterAGarden.java[tag=answer]
 ----
 

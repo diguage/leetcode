@@ -65,6 +65,6 @@ image::https://assets.leetcode.com/uploads/2019/02/16/oranges.png[{image_attr}]
 [[src-0994]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0994_RottingOranges.java[]
+include::{sourcedir}/_0994_RottingOranges.java[tag=answer]
 ----
 

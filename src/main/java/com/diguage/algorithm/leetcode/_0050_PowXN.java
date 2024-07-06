@@ -38,6 +38,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-13 21:19
  */
 public class _0050_PowXN {
+  // tag::answer[]
 
     /**
      * Runtime: 1 ms, faster than 94.10% of Java online submissions for Pow(x, n).
@@ -77,6 +78,9 @@ public class _0050_PowXN {
         return n % 2 == 0 ? myPowTimeout(x, n / 2) * myPowTimeout(x, n / 2)
                 : x * myPowTimeout(x, n / 2) * myPowTimeout(x, n / 2);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0050_PowXN solution = new _0050_PowXN();

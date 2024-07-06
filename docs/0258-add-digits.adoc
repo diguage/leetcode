@@ -24,6 +24,6 @@ Could you do it without any loop/recursion in O(1) runtime?
 [[src-0258]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0258_AddDigits.java[]
+include::{sourcedir}/_0258_AddDigits.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/monthly-transactions-i/[LeetCode - Monthly Transac
 [[src-1193]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1193_MonthlyTransactionsI.java[]
+include::{sourcedir}/_1193_MonthlyTransactionsI.java[tag=answer]
 ----
 

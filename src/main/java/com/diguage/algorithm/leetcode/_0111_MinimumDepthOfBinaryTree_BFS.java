@@ -17,6 +17,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-07 21:26
  */
 public class _0111_MinimumDepthOfBinaryTree_BFS {
+  // tag::answer[]
 
   /**
    * 参考左程云《程序员代码面试指南》的解法
@@ -47,6 +48,9 @@ public class _0111_MinimumDepthOfBinaryTree_BFS {
     }
     return depth;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0111_MinimumDepthOfBinaryTree_BFS solution = new _0111_MinimumDepthOfBinaryTree_BFS();

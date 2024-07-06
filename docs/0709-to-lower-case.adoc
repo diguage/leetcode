@@ -41,6 +41,6 @@ Implement function ToLowerCase() that has a string parameter str, and returns th
 [[src-0709]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0709_ToLowerCase.java[]
+include::{sourcedir}/_0709_ToLowerCase.java[tag=answer]
 ----
 

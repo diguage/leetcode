@@ -65,6 +65,6 @@ Do NOT use system's `Math.random()`.
 [[src-0470]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0470_ImplementRand10UsingRand7.java[]
+include::{sourcedir}/_0470_ImplementRand10UsingRand7.java[tag=answer]
 ----
 

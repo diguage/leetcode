@@ -57,6 +57,6 @@ image::https://assets.leetcode.com/uploads/2019/10/31/sample_4_1610.png[{image_a
 [[src-1254]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1254_NumberOfClosedIslands.java[]
+include::{sourcedir}/_1254_NumberOfClosedIslands.java[tag=answer]
 ----
 

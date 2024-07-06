@@ -48,6 +48,7 @@ import java.util.Objects;
  * @since 2020-01-24 23:06
  */
 public class _0116_PopulatingNextRightPointersInEachNode {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 47.22% of Java online submissions for Populating Next Right Pointers in Each Node.
      *
@@ -78,6 +79,9 @@ public class _0116_PopulatingNextRightPointersInEachNode {
         }
         return root;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
 

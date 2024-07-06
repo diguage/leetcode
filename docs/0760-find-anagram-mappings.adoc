@@ -8,6 +8,6 @@ https://leetcode.com/problems/find-anagram-mappings/[LeetCode - Find Anagram Map
 [[src-0760]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0760_FindAnagramMappings.java[]
+include::{sourcedir}/_0760_FindAnagramMappings.java[tag=answer]
 ----
 

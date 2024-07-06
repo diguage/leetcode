@@ -48,6 +48,6 @@ streamChecker.query('l');          // return true, because 'kl' is in the wordli
 [[src-1032]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1032_StreamOfCharacters.java[]
+include::{sourcedir}/_1032_StreamOfCharacters.java[tag=answer]
 ----
 

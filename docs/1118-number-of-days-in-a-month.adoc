@@ -8,6 +8,6 @@ https://leetcode.com/problems/number-of-days-in-a-month/[LeetCode - Number of Da
 [[src-1118]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1118_NumberOfDaysInAMonth.java[]
+include::{sourcedir}/_1118_NumberOfDaysInAMonth.java[tag=answer]
 ----
 

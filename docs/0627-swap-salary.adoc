@@ -37,6 +37,6 @@ After running your *update* statement, the above salary table should have the fo
 [[src-0627]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0627_SwapSalary.java[]
+include::{sourcedir}/_0627_SwapSalary.java[tag=answer]
 ----
 

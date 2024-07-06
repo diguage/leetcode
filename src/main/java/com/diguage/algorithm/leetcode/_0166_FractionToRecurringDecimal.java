@@ -37,6 +37,7 @@ import java.util.Map;
  * @since 2020-01-11 13:14
  */
 public class _0166_FractionToRecurringDecimal {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 100.00% of Java online submissions for Fraction to Recurring Decimal.
      *
@@ -81,6 +82,9 @@ public class _0166_FractionToRecurringDecimal {
 
         return result.toString();
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0166_FractionToRecurringDecimal solultion = new _0166_FractionToRecurringDecimal();

@@ -69,6 +69,6 @@ Hence, we needed 2 moves in the worst case to know what F is with certainty.
 [[src-0887]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0887_SuperEggDrop.java[]
+include::{sourcedir}/_0887_SuperEggDrop.java[tag=answer]
 ----
 

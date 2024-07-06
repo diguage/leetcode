@@ -26,6 +26,6 @@ Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of 
 [[src-0201]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0201_BitwiseANDOfNumbersRange.java[]
+include::{sourcedir}/_0201_BitwiseANDOfNumbersRange.java[tag=answer]
 ----
 

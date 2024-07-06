@@ -34,6 +34,6 @@ which are both strictly increasing.
 [[src-0801]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0801_MinimumSwapsToMakeSequencesIncreasing.java[]
+include::{sourcedir}/_0801_MinimumSwapsToMakeSequencesIncreasing.java[tag=answer]
 ----
 

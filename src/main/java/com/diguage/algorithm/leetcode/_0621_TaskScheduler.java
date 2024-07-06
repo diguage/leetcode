@@ -11,11 +11,15 @@ import java.util.*;
  * @since 2020-01-31 21:26
  */
 public class _0621_TaskScheduler {
+  // tag::answer[]
     /**
      * Runtime: 2 ms, faster than 99.97% of Java online submissions for Task Scheduler.
      * Memory Usage: 42.7 MB, less than 5.88% of Java online submissions for Task Scheduler.
      *
      * Copy from: https://leetcode-cn.com/problems/task-scheduler/solution/621-ren-wu-diao-du-qi-java-jie-ti-zhu-shi-ying-gai/[621. 任务调度器--Java--解题注释应该能看懂 - 任务调度器 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-31 21:26
      */
     public int leastInterval(char[] tasks, int n) {
         if (Objects.isNull(tasks) || tasks.length == 0) {
@@ -101,6 +105,9 @@ public class _0621_TaskScheduler {
         }
         return time;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0621_TaskScheduler solution = new _0621_TaskScheduler();

@@ -8,6 +8,7 @@ import java.util.Objects;
  * @since 2020-01-29 19:30
  */
 public class _0416_PartitionEqualSubsetSum {
+  // tag::answer[]
     /**
      * Runtime: 10 ms, faster than 72.90% of Java online submissions for Partition Equal Subset Sum.
      * Memory Usage: 37.8 MB, less than 50.79% of Java online submissions for Partition Equal Subset Sum.
@@ -87,6 +88,9 @@ public class _0416_PartitionEqualSubsetSum {
             right--;
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0416_PartitionEqualSubsetSum solution = new _0416_PartitionEqualSubsetSum();

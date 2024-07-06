@@ -37,6 +37,6 @@ Given a non-empty array of integers, return the *_k_* most frequent elements.
 [[src-0347]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0347_TopKFrequentElements.java[]
+include::{sourcedir}/_0347_TopKFrequentElements.java[tag=answer]
 ----
 

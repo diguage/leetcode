@@ -47,6 +47,6 @@ However, splitting into [2, 1], [3], [4], [4] is the highest number of chunks po
 [[src-0768]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0768_MaxChunksToMakeSortedII.java[]
+include::{sourcedir}/_0768_MaxChunksToMakeSortedII.java[tag=answer]
 ----
 

@@ -39,6 +39,6 @@ One possible longest palindromic subsequence is "bb".
 [[src-0516]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0516_LongestPalindromicSubsequence.java[]
+include::{sourcedir}/_0516_LongestPalindromicSubsequence.java[tag=answer]
 ----
 

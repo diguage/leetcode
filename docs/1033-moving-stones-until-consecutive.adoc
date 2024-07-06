@@ -68,6 +68,6 @@ When the game ends, what is the minimum and maximum number of moves that you cou
 [[src-1033]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1033_MovingStonesUntilConsecutive.java[]
+include::{sourcedir}/_1033_MovingStonesUntilConsecutive.java[tag=answer]
 ----
 

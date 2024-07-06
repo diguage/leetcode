@@ -31,6 +31,6 @@ You may assume that `nums`' length ≥ `k-1` and `k` ≥ 1.
 [[src-0703]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0703_KthLargestElementInAStream.java[]
+include::{sourcedir}/_0703_KthLargestElementInAStream.java[tag=answer]
 ----
 

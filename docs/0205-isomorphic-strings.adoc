@@ -44,6 +44,6 @@ You may assume both *_s _*and *_t _*have the same length.
 [[src-0205]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0205_IsomorphicStrings.java[]
+include::{sourcedir}/_0205_IsomorphicStrings.java[tag=answer]
 ----
 

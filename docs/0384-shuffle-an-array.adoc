@@ -55,6 +55,6 @@ solution.shuffle();
 [[src-0384]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0384_ShuffleAnArray.java[]
+include::{sourcedir}/_0384_ShuffleAnArray.java[tag=answer]
 ----
 

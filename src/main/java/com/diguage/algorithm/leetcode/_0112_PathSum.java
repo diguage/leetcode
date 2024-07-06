@@ -16,6 +16,7 @@ import static java.util.Arrays.*;
  * @since 2020-02-07 21:53
  */
 public class _0112_PathSum {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Path Sum.
@@ -31,6 +32,9 @@ public class _0112_PathSum {
         }
         return hasPathSum(root.left, sum) || hasPathSum(root.right, sum);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0112_PathSum solution = new _0112_PathSum();

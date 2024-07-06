@@ -14,6 +14,7 @@ import java.util.List;
  * @since 2020-02-06 10:00
  */
 public class _0093_RestoreIPAddresses {
+  // tag::answer[]
     /**
      * Runtime: 2 ms, faster than 88.51% of Java online submissions for Restore IP Addresses.
      * Memory Usage: 38.4 MB, less than 30.23% of Java online submissions for Restore IP Addresses.
@@ -42,6 +43,9 @@ public class _0093_RestoreIPAddresses {
             }
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0093_RestoreIPAddresses solution = new _0093_RestoreIPAddresses();

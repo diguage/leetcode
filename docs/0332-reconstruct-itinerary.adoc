@@ -36,6 +36,6 @@ Given a list of airline tickets represented by pairs of departure and arrival ai
 [[src-0332]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0332_ReconstructItinerary.java[]
+include::{sourcedir}/_0332_ReconstructItinerary.java[tag=answer]
 ----
 

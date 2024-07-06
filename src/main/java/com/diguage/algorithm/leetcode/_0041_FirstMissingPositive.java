@@ -38,6 +38,7 @@ import java.util.Objects;
  * @since 2019-10-23 12:54:29
  */
 public class _0041_FirstMissingPositive {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for First Missing Positive.
      *
@@ -69,6 +70,9 @@ public class _0041_FirstMissingPositive {
         nums[i] = nums[j];
         nums[j] = temp;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0041_FirstMissingPositive solution = new _0041_FirstMissingPositive();

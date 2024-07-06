@@ -75,6 +75,6 @@ Return `true` if and only if we can do this in a way such that the resulting num
 [[src-0869]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0869_ReorderedPowerOf2.java[]
+include::{sourcedir}/_0869_ReorderedPowerOf2.java[tag=answer]
 ----
 

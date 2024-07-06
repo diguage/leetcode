@@ -59,6 +59,6 @@ Since all the cards revealed are in increasing order, the answer is correct.
 [[src-0950]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0950_RevealCardsInIncreasingOrder.java[]
+include::{sourcedir}/_0950_RevealCardsInIncreasingOrder.java[tag=answer]
 ----
 

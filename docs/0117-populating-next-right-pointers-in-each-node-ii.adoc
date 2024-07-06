@@ -65,17 +65,17 @@ image::images/0117-2.jpg[{image_attr}]
 [[src-0117]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII.java[]
+include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII_2.java[]
+include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII_2.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII_21.java[]
+include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII_21.java[tag=answer]
 ----
 
 == 参考资料

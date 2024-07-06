@@ -60,6 +60,6 @@ Also, since the answer may be very large, you should return the output mod 10^9^
 [[src-0639]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0639_DecodeWaysII.java[]
+include::{sourcedir}/_0639_DecodeWaysII.java[tag=answer]
 ----
 

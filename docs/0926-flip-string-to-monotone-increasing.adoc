@@ -57,6 +57,6 @@ Return the minimum number of flips to make `S` monotone increasing.
 [[src-0926]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0926_FlipStringToMonotoneIncreasing.java[]
+include::{sourcedir}/_0926_FlipStringToMonotoneIncreasing.java[tag=answer]
 ----
 

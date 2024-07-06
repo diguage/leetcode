@@ -48,6 +48,6 @@ Return the length of `N`.  If there is no such `N`, return -1.
 [[src-1015]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1015_SmallestIntegerDivisibleByK.java[]
+include::{sourcedir}/_1015_SmallestIntegerDivisibleByK.java[tag=answer]
 ----
 

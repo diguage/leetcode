@@ -47,6 +47,6 @@ image::https://assets.leetcode.com/uploads/2019/11/08/sample_4_964.png[{image_at
 [[src-0589]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0589_NAryTreePreorderTraversal.java[]
+include::{sourcedir}/_0589_NAryTreePreorderTraversal.java[tag=answer]
 ----
 

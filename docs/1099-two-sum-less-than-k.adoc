@@ -8,6 +8,6 @@ https://leetcode.com/problems/two-sum-less-than-k/[LeetCode - Two Sum Less Than 
 [[src-1099]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1099_TwoSumLessThanK.java[]
+include::{sourcedir}/_1099_TwoSumLessThanK.java[tag=answer]
 ----
 

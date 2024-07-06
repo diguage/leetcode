@@ -8,6 +8,6 @@ https://leetcode.com/problems/minimum-time-to-build-blocks/[LeetCode - Minimum T
 [[src-1199]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1199_MinimumTimeToBuildBlocks.java[]
+include::{sourcedir}/_1199_MinimumTimeToBuildBlocks.java[tag=answer]
 ----
 

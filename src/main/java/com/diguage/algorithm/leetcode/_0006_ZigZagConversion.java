@@ -51,10 +51,14 @@ import java.util.Objects;
  * @since 2019-07-14 18:20
  */
 public class _0006_ZigZagConversion {
+  // tag::answer[]
     /**
      * Runtime: 5 ms, faster than 73.81% of Java online submissions for ZigZag Conversion.
      *
      * Memory Usage: 38.7 MB, less than 77.68% of Java online submissions for ZigZag Conversion.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-07-14 18:20
      */
     public String convert(String s, int numRows) {
         if (Objects.isNull(s) || s.length() == 0) {
@@ -92,6 +96,9 @@ public class _0006_ZigZagConversion {
         }
         return result.toString();
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0006_ZigZagConversion solution = new _0006_ZigZagConversion();

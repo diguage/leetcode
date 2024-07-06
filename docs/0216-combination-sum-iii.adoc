@@ -34,6 +34,6 @@ Find all possible combinations of _*k*_ numbers that add up to a number _*n*_, g
 [[src-0216]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0216_CombinationSumIII.java[]
+include::{sourcedir}/_0216_CombinationSumIII.java[tag=answer]
 ----
 

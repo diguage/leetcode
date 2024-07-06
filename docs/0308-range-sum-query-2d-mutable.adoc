@@ -8,6 +8,6 @@ https://leetcode.com/problems/range-sum-query-2d-mutable/[LeetCode - Range Sum Q
 [[src-0308]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0308_RangeSumQuery2DMutable.java[]
+include::{sourcedir}/_0308_RangeSumQuery2DMutable.java[tag=answer]
 ----
 

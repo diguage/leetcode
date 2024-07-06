@@ -64,6 +64,6 @@ Return an array `answer` of length `n`, where each `answer[X]` is the length of 
 [[src-1129]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1129_ShortestPathWithAlternatingColors.java[]
+include::{sourcedir}/_1129_ShortestPathWithAlternatingColors.java[tag=answer]
 ----
 

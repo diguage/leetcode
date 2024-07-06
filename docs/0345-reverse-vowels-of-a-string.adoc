@@ -35,6 +35,6 @@ The vowels does not include the letter "y".
 [[src-0345]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0345_ReverseVowelsOfAString.java[]
+include::{sourcedir}/_0345_ReverseVowelsOfAString.java[tag=answer]
 ----
 

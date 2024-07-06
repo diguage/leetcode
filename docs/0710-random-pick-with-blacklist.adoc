@@ -68,6 +68,6 @@ image::images/0710-02.png[{image_attr}]
 [[src-0710]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0710_RandomPickWithBlacklist.java[]
+include::{sourcedir}/_0710_RandomPickWithBlacklist.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/ads-performance/[LeetCode - Ads Performance]
 [[src-1322]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1322_AdsPerformance.java[]
+include::{sourcedir}/_1322_AdsPerformance.java[tag=answer]
 ----
 

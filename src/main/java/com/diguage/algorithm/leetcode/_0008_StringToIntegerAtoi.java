@@ -73,7 +73,12 @@ import java.util.Objects;
  * @since 2019-07-14 19:57
  */
 public class _0008_StringToIntegerAtoi {
+  // tag::answer[]
 
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2019-07-14 19:57
+   */
   public int myAtoi(String str) {
     char[] chars = str.toCharArray();
     int n = str.length();
@@ -252,6 +257,9 @@ public class _0008_StringToIntegerAtoi {
     }
     return result;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0008_StringToIntegerAtoi solution = new _0008_StringToIntegerAtoi();

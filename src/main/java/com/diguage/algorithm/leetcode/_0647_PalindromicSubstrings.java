@@ -9,11 +9,15 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-31 23:17
  */
 public class _0647_PalindromicSubstrings {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 100.00% of Java online submissions for Palindromic Substrings.
      * Memory Usage: 37.8 MB, less than 11.39% of Java online submissions for Palindromic Substrings.
      *
      * Copy from: https://leetcode-cn.com/problems/palindromic-substrings/solution/hui-wen-zi-chuan-by-leetcode/[回文子串 - 回文子串 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-31 23:17
      */
     public int countSubstrings(String s) {
         char[] A = new char[2 * s.length() + 3];
@@ -46,6 +50,9 @@ public class _0647_PalindromicSubstrings {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0647_PalindromicSubstrings solution = new _0647_PalindromicSubstrings();

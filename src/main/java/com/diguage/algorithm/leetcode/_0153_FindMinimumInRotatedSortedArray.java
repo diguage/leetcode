@@ -9,6 +9,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-04-25 22:37
  */
 public class _0153_FindMinimumInRotatedSortedArray {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Find Minimum in Rotated Sorted Array.
      * Memory Usage: 39.8 MB, less than 12.50% of Java online submissions for Find Minimum in Rotated Sorted Array.
@@ -44,6 +45,9 @@ public class _0153_FindMinimumInRotatedSortedArray {
         }
         return -1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0153_FindMinimumInRotatedSortedArray solution = new _0153_FindMinimumInRotatedSortedArray();

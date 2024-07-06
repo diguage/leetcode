@@ -65,6 +65,6 @@ Return the minimum number of operations needed to display the number `Y`.
 [[src-0991]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0991_BrokenCalculator.java[]
+include::{sourcedir}/_0991_BrokenCalculator.java[tag=answer]
 ----
 

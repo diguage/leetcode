@@ -26,6 +26,6 @@ Given a non-empty 2D matrix _matrix_ and an integer _k_, find the max sum of a r
 [[src-0363]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0363_MaxSumOfRectangleNoLargerThanK.java[]
+include::{sourcedir}/_0363_MaxSumOfRectangleNoLargerThanK.java[tag=answer]
 ----
 

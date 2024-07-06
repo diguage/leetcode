@@ -7,6 +7,7 @@ import com.diguage.algorithm.util.TreeNode;
  * @since 2024-06-26 17:07:39
  */
 public class _0530_MinimumAbsoluteDifferenceInBST {
+  // tag::answer[]
   public int getMinimumDifference(TreeNode root) {
     int result = Integer.MAX_VALUE;
     TreeNode cur = root;
@@ -34,4 +35,5 @@ public class _0530_MinimumAbsoluteDifferenceInBST {
     }
     return result;
   }
+  // end::answer[]
 }

@@ -8,6 +8,6 @@ https://leetcode.com/problems/weather-type-in-each-country/[LeetCode - Weather T
 [[src-1294]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1294_WeatherTypeInEachCountry.java[]
+include::{sourcedir}/_1294_WeatherTypeInEachCountry.java[tag=answer]
 ----
 

@@ -9,6 +9,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-27 22:14
  */
 public class _0096_UniqueBinarySearchTrees_2 {
+  // tag::answer[]
   public int numTrees(int num) {
     int[] r = new int[num + 1];
     r[0] = 1;
@@ -20,6 +21,9 @@ public class _0096_UniqueBinarySearchTrees_2 {
     }
     return r[num];
   }
+
+
+  // end::answer[]
 
 
   public static void main(String[] args) {

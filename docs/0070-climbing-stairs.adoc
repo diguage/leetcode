@@ -62,6 +62,6 @@ F_{n}=1 / \sqrt{5}\left[\left(\frac{1+\sqrt{5}}{2}\right)^{n}-\left(\frac{1-\sqr
 [[src-0070]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0070_ClimbingStairs.java[]
+include::{sourcedir}/_0070_ClimbingStairs.java[tag=answer]
 ----
 

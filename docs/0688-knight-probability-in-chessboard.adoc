@@ -45,6 +45,6 @@ The total probability the knight stays on the board is 0.0625.
 [[src-0688]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0688_KnightProbabilityInChessboard.java[]
+include::{sourcedir}/_0688_KnightProbabilityInChessboard.java[tag=answer]
 ----
 

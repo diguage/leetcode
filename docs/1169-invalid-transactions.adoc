@@ -58,6 +58,6 @@ Given a list of `transactions`, return a list of transactions that are possibly 
 [[src-1169]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1169_InvalidTransactions.java[]
+include::{sourcedir}/_1169_InvalidTransactions.java[tag=answer]
 ----
 

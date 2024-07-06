@@ -38,6 +38,6 @@ You may return any answer array that satisfies this condition.
 [[src-0922]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0922_SortArrayByParityII.java[]
+include::{sourcedir}/_0922_SortArrayByParityII.java[tag=answer]
 ----
 

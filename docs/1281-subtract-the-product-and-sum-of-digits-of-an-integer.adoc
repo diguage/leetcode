@@ -41,6 +41,6 @@ Result = 32 - 11 = 21
 [[src-1281]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1281_SubtractTheProductAndSumOfDigitsOfAnInteger.java[]
+include::{sourcedir}/_1281_SubtractTheProductAndSumOfDigitsOfAnInteger.java[tag=answer]
 ----
 

@@ -49,6 +49,7 @@ import java.util.Set;
  * @since 2024-07-02 21:00:01
  */
 public class _0141_LinkedListCycle_2 {
+  // tag::answer[]
   /**
    * 快慢指针
    */
@@ -67,4 +68,5 @@ public class _0141_LinkedListCycle_2 {
     }
     return false;
   }
+  // end::answer[]
 }

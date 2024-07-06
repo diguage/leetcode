@@ -38,6 +38,6 @@ Return 0 if the array contains less than 2 elements.
 [[src-0164]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0164_MaximumGap.java[]
+include::{sourcedir}/_0164_MaximumGap.java[tag=answer]
 ----
 

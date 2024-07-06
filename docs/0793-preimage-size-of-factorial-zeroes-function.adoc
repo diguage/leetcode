@@ -31,6 +31,6 @@ For example, `f(3) = 0` because 3! = 6 has no zeroes at the end, while `f(11) = 
 [[src-0793]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0793_PreimageSizeOfFactorialZeroesFunction.java[]
+include::{sourcedir}/_0793_PreimageSizeOfFactorialZeroesFunction.java[tag=answer]
 ----
 

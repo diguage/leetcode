@@ -28,12 +28,12 @@ import java.util.Map;
  * @since 2018-06-30
  */
 public class _0001_TwoSum {
+    // tag::answer[]
     /**
      * 原始算法，时间复杂度为 `O(n^2^)`.
      *
-     * @param nums   数组
-     * @param target 目标
-     * @return 结果
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2018-06-30
      */
     public static int[] twoSum(int[] nums, int target) {
         if (nums == null || nums.length < 2) {
@@ -73,6 +73,9 @@ public class _0001_TwoSum {
 
         return null;
     }
+
+    // end::answer[]
+
 
     public static void main(String[] args) {
         int[] nums = new int[]{4, 9, 2, 7, 11, 15};

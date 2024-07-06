@@ -8,6 +8,6 @@ https://leetcode.com/problems/number-of-corner-rectangles/[LeetCode - Number Of 
 [[src-0750]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0750_NumberOfCornerRectangles.java[]
+include::{sourcedir}/_0750_NumberOfCornerRectangles.java[tag=answer]
 ----
 

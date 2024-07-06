@@ -8,6 +8,6 @@ https://leetcode.com/problems/binary-tree-vertical-order-traversal/[LeetCode - B
 [[src-0314]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0314_BinaryTreeVerticalOrderTraversal.java[]
+include::{sourcedir}/_0314_BinaryTreeVerticalOrderTraversal.java[tag=answer]
 ----
 

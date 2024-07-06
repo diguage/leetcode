@@ -50,6 +50,6 @@ The _arr_ parameter had been changed to an *array of integers* (instead of a lis
 [[src-0658]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0658_FindKClosestElements.java[]
+include::{sourcedir}/_0658_FindKClosestElements.java[tag=answer]
 ----
 

@@ -37,6 +37,6 @@ Given two (axis-aligned) rectangles, return whether they overlap.
 [[src-0836]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0836_RectangleOverlap.java[]
+include::{sourcedir}/_0836_RectangleOverlap.java[tag=answer]
 ----
 

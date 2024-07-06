@@ -45,6 +45,6 @@ Output: 4
 [[src-0084]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0084_LargestRectangleInHistogram.java[]
+include::{sourcedir}/_0084_LargestRectangleInHistogram.java[tag=answer]
 ----
 

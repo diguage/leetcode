@@ -44,6 +44,6 @@ Find the k pairs *(u~1~,v~1~),(u~2~,v~2~) ...(u~k~,v~k~)* with the smallest sums
 [[src-0373]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0373_FindKPairsWithSmallestSums.java[]
+include::{sourcedir}/_0373_FindKPairsWithSmallestSums.java[tag=answer]
 ----
 

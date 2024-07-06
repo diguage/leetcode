@@ -74,7 +74,7 @@ image::images/0752-01.png[{image_attr}]
 [[src-0752]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0752_OpenTheLock.java[]
+include::{sourcedir}/_0752_OpenTheLock.java[tag=answer]
 ----
 
 == 附加题

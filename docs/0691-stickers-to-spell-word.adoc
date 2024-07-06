@@ -59,6 +59,6 @@ We can't form the target "basicbasic" from cutting letters from the given sticke
 [[src-0691]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0691_StickersToSpellWord.java[]
+include::{sourcedir}/_0691_StickersToSpellWord.java[tag=answer]
 ----
 

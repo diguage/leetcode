@@ -28,6 +28,6 @@ Explanation:
 [[src-0389]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0389_FindTheDifference.java[]
+include::{sourcedir}/_0389_FindTheDifference.java[tag=answer]
 ----
 

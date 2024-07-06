@@ -12,6 +12,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2020-04-01 23:09
  */
 public class _0124_BinaryTreeMaximumPathSum {
+  // tag::answer[]
 
     private int result = Integer.MIN_VALUE;
 
@@ -29,6 +30,9 @@ public class _0124_BinaryTreeMaximumPathSum {
         result = Math.max(result, left + root.val + right);
         return Math.max(left, right) + root.val;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0124_BinaryTreeMaximumPathSum solution = new _0124_BinaryTreeMaximumPathSum();

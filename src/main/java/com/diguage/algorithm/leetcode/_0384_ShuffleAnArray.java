@@ -13,6 +13,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * @since 2020-01-27 15:51
  */
 public class _0384_ShuffleAnArray {
+  // tag::answer[]
 
     /**
      * Runtime: 146 ms, faster than 8.33% of Java online submissions for Shuffle an Array.
@@ -103,6 +104,9 @@ public class _0384_ShuffleAnArray {
         int[] reset = solution.reset();
         int[] shuffle = solution.shuffle();
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0384_ShuffleAnArray solution = new _0384_ShuffleAnArray();

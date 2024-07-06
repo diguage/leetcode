@@ -78,6 +78,6 @@ Then we can insert "abc" before the last letter, resulting in "abcabcab" + "abc"
 [[src-1003]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1003_CheckIfWordIsValidAfterSubstitutions.java[]
+include::{sourcedir}/_1003_CheckIfWordIsValidAfterSubstitutions.java[tag=answer]
 ----
 

@@ -18,7 +18,7 @@ Each temperature will be an integer in the range `[30, 100]`.
 [[src-0739]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0739_DailyTemperatures.java[]
+include::{sourcedir}/_0739_DailyTemperatures.java[tag=answer]
 ----
 
 == 参考资料

@@ -67,6 +67,6 @@ It's guarateed that there is at least one valid solution. If there are many vali
 [[src-1317]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1317_ConvertIntegerToTheSumOfTwoNoZeroIntegers.java[]
+include::{sourcedir}/_1317_ConvertIntegerToTheSumOfTwoNoZeroIntegers.java[tag=answer]
 ----
 

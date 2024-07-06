@@ -31,6 +31,6 @@ There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3.
 [[src-0797]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0797_AllPathsFromSourceToTarget.java[]
+include::{sourcedir}/_0797_AllPathsFromSourceToTarget.java[tag=answer]
 ----
 

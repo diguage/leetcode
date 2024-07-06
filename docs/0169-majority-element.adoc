@@ -33,6 +33,6 @@ You may assume that the array is non-empty and the majority element always exist
 [[src-0169]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0169_MajorityElement.java[]
+include::{sourcedir}/_0169_MajorityElement.java[tag=answer]
 ----
 

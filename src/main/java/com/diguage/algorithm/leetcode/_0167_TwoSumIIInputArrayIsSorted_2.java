@@ -9,6 +9,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2024-07-03 20:02:38
  */
 public class _0167_TwoSumIIInputArrayIsSorted_2 {
+  // tag::answer[]
     /**
      */
     public int[] twoSum(int[] numbers, int target) {
@@ -24,4 +25,5 @@ public class _0167_TwoSumIIInputArrayIsSorted_2 {
       }
       return new int[]{-1, -1};
     }
+  // end::answer[]
 }

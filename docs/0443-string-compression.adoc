@@ -79,6 +79,6 @@ Notice each digit has it's own entry in the array.
 [[src-0443]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0443_StringCompression.java[]
+include::{sourcedir}/_0443_StringCompression.java[tag=answer]
 ----
 

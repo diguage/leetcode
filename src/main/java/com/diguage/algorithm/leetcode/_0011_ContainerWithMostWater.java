@@ -16,6 +16,12 @@ package com.diguage.algorithm.leetcode;
  * @since 2018-07-13
  */
 public class _0011_ContainerWithMostWater {
+  // tag::answer[]
+
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2018-07-13
+   */
   public static int maxArea(int[] height) {
     int result = 0;
     int left = 0, right = height.length - 1;
@@ -30,6 +36,9 @@ public class _0011_ContainerWithMostWater {
     }
     return result;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     int[] height = new int[]{3, 8, 4, 7, 5, 9, 1, 2, 6};

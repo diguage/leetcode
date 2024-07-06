@@ -56,6 +56,6 @@ Given the total number of courses and a list of prerequisite *pairs*, is it poss
 [[src-0207]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0207_CourseSchedule.java[]
+include::{sourcedir}/_0207_CourseSchedule.java[tag=answer]
 ----
 

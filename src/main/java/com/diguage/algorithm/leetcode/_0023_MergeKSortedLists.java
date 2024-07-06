@@ -29,6 +29,7 @@ import static com.diguage.util.ListNodes.*;
  * @since 2019-10-22 12:40:12
  */
 public class _0023_MergeKSortedLists {
+  // tag::answer[]
 
   public ListNode mergeKLists(ListNode[] lists) {
     PriorityQueue<ListNode> heap = new PriorityQueue<>((l1, l2) -> l1.val - l2.val);
@@ -82,6 +83,9 @@ public class _0023_MergeKSortedLists {
 
     return result;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     ListNode node1 = build(Arrays.asList(1, 4, 5));

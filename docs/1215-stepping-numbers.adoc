@@ -8,6 +8,6 @@ https://leetcode.com/problems/stepping-numbers/[LeetCode - Stepping Numbers]
 [[src-1215]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1215_SteppingNumbers.java[]
+include::{sourcedir}/_1215_SteppingNumbers.java[tag=answer]
 ----
 

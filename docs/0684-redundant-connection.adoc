@@ -57,6 +57,6 @@ We have overhauled the problem description + test cases and specified clearly th
 [[src-0684]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0684_RedundantConnection.java[]
+include::{sourcedir}/_0684_RedundantConnection.java[tag=answer]
 ----
 

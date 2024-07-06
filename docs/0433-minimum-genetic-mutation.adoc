@@ -67,6 +67,6 @@ return: 3
 [[src-0433]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0433_MinimumGeneticMutation.java[]
+include::{sourcedir}/_0433_MinimumGeneticMutation.java[tag=answer]
 ----
 

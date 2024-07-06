@@ -40,6 +40,6 @@ image::https://assets.leetcode.com/uploads/2018/11/29/tree_ex.png[{image_attr}]
 [[src-0951]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0951_FlipEquivalentBinaryTrees.java[]
+include::{sourcedir}/_0951_FlipEquivalentBinaryTrees.java[tag=answer]
 ----
 

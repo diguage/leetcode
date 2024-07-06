@@ -58,6 +58,6 @@ Could you solve it in *O(n)* time complexity and *O(1)* extra space complexity?
 [[src-0457]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0457_CircularArrayLoop.java[]
+include::{sourcedir}/_0457_CircularArrayLoop.java[tag=answer]
 ----
 

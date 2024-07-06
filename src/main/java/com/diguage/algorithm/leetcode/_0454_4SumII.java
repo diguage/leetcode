@@ -34,6 +34,7 @@ import java.util.Map;
  * @since 2020-01-11 13:02
  */
 public class _0454_4SumII {
+  // tag::answer[]
     /**
      * Runtime: 94 ms, faster than 38.81% of Java online submissions for 4Sum II.
      *
@@ -58,6 +59,9 @@ public class _0454_4SumII {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0454_4SumII solution = new _0454_4SumII();

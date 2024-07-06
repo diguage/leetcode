@@ -58,6 +58,6 @@ Return an `answer` array (of length `seq.length`) that encodes such a choice of 
 [[src-1111]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1111_MaximumNestingDepthOfTwoValidParenthesesStrings.java[]
+include::{sourcedir}/_1111_MaximumNestingDepthOfTwoValidParenthesesStrings.java[tag=answer]
 ----
 

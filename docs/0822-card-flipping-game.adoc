@@ -40,6 +40,6 @@ We choose the second card, which has number 2 on the back, and it isn't on the f
 [[src-0822]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0822_CardFlippingGame.java[]
+include::{sourcedir}/_0822_CardFlippingGame.java[tag=answer]
 ----
 

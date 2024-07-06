@@ -44,6 +44,6 @@ findMedian() -> 2
 [[src-0295]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0295_FindMedianFromDataStream.java[]
+include::{sourcedir}/_0295_FindMedianFromDataStream.java[tag=answer]
 ----
 

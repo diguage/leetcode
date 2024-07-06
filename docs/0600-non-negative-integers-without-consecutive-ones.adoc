@@ -33,6 +33,6 @@ Among them, only integer 3 disobeys the rule (two consecutive ones) and the othe
 [[src-0600]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0600_NonNegativeIntegersWithoutConsecutiveOnes.java[]
+include::{sourcedir}/_0600_NonNegativeIntegersWithoutConsecutiveOnes.java[tag=answer]
 ----
 

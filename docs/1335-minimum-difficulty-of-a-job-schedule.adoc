@@ -72,6 +72,6 @@ The difficulty of the schedule = 6 + 1 = 7
 [[src-1335]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1335_MinimumDifficultyOfAJobSchedule.java[]
+include::{sourcedir}/_1335_MinimumDifficultyOfAJobSchedule.java[tag=answer]
 ----
 

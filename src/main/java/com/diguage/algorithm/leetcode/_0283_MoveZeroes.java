@@ -25,6 +25,7 @@ import java.util.Arrays;
  * @since 2020-01-05 22:26
  */
 public class _0283_MoveZeroes {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Move Zeroes.
      *
@@ -43,6 +44,9 @@ public class _0283_MoveZeroes {
             nums[i] = 0;
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0283_MoveZeroes solution = new _0283_MoveZeroes();

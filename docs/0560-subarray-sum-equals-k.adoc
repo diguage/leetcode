@@ -49,12 +49,12 @@ image::images/0560-09.png[{image_attr}]
 [[src-0560]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0560_SubarraySumEqualsK.java[]
+include::{sourcedir}/_0560_SubarraySumEqualsK.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0560_SubarraySumEqualsK_2.java[]
+include::{sourcedir}/_0560_SubarraySumEqualsK_2.java[tag=answer]
 ----
 
 

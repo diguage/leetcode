@@ -46,6 +46,6 @@ cache.get(4);       // returns 4
 [[src-0460]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0460_LFUCache.java[]
+include::{sourcedir}/_0460_LFUCache.java[tag=answer]
 ----
 

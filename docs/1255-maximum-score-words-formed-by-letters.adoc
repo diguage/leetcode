@@ -62,6 +62,6 @@ Letter "e" can only be used once.
 [[src-1255]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1255_MaximumScoreWordsFormedByLetters.java[]
+include::{sourcedir}/_1255_MaximumScoreWordsFormedByLetters.java[tag=answer]
 ----
 

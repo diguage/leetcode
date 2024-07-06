@@ -52,6 +52,6 @@ Note that no other cars meet these fleets before the destination, so the answer 
 [[src-0853]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0853_CarFleet.java[]
+include::{sourcedir}/_0853_CarFleet.java[tag=answer]
 ----
 

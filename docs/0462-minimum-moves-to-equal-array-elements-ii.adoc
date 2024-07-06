@@ -30,6 +30,6 @@ Only two moves are needed (remember each move increments or decrements one eleme
 [[src-0462]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0462_MinimumMovesToEqualArrayElementsII.java[]
+include::{sourcedir}/_0462_MinimumMovesToEqualArrayElementsII.java[tag=answer]
 ----
 

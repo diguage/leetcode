@@ -43,6 +43,6 @@ The input strings are both *non-empty* and contains only characters `1` or `0`.
 [[src-0067]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0067_AddBinary.java[]
+include::{sourcedir}/_0067_AddBinary.java[tag=answer]
 ----
 

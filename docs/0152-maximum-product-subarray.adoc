@@ -32,6 +32,6 @@ Given an integer array `nums`, find the contiguous subarray within an array (con
 [[src-0152]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0152_MaximumProductSubarray.java[]
+include::{sourcedir}/_0152_MaximumProductSubarray.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/missing-element-in-sorted-array/[LeetCode - Missin
 [[src-1060]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1060_MissingElementInSortedArray.java[]
+include::{sourcedir}/_1060_MissingElementInSortedArray.java[tag=answer]
 ----
 

@@ -61,6 +61,6 @@ Write a data structure `CBTInserter` that is initialized with a complete binary 
 [[src-0919]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0919_CompleteBinaryTreeInserter.java[]
+include::{sourcedir}/_0919_CompleteBinaryTreeInserter.java[tag=answer]
 ----
 

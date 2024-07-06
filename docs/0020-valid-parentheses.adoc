@@ -58,6 +58,6 @@ Note that an empty string is also considered valid.
 [[src-0020]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0020_ValidParentheses.java[]
+include::{sourcedir}/_0020_ValidParentheses.java[tag=answer]
 ----
 

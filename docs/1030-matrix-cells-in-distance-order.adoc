@@ -62,6 +62,6 @@ There are other answers that would also be accepted as correct, such as [[1,2],[
 [[src-1030]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1030_MatrixCellsInDistanceOrder.java[]
+include::{sourcedir}/_1030_MatrixCellsInDistanceOrder.java[tag=answer]
 ----
 

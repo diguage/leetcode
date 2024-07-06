@@ -8,6 +8,6 @@ https://leetcode.com/problems/traffic-light-controlled-intersection/[LeetCode - 
 [[src-1279]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1279_TrafficLightControlledIntersection.java[]
+include::{sourcedir}/_1279_TrafficLightControlledIntersection.java[tag=answer]
 ----
 

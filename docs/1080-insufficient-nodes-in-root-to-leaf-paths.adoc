@@ -73,6 +73,6 @@ image::https://assets.leetcode.com/uploads/2019/06/11/screen-shot-2019-06-11-at-
 [[src-1080]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1080_InsufficientNodesInRootToLeafPaths.java[]
+include::{sourcedir}/_1080_InsufficientNodesInRootToLeafPaths.java[tag=answer]
 ----
 

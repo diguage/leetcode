@@ -28,6 +28,6 @@ Given an integer array of size _n_, find all elements that appear more than `&lf
 [[src-0229]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0229_MajorityElementII.java[]
+include::{sourcedir}/_0229_MajorityElementII.java[tag=answer]
 ----
 

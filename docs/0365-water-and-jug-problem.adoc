@@ -35,6 +35,6 @@ Output: False
 [[src-0365]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0365_WaterAndJugProblem.java[]
+include::{sourcedir}/_0365_WaterAndJugProblem.java[tag=answer]
 ----
 

@@ -20,6 +20,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-06 22:42
  */
 public class _0109_ConvertSortedListToBinarySearchTree {
+  // tag::answer[]
 
     /**
      * Runtime: 1 ms, faster than 68.60% of Java online submissions for Convert Sorted List to Binary Search Tree.
@@ -47,6 +48,9 @@ public class _0109_ConvertSortedListToBinarySearchTree {
         root.right = buildTree(nums, mid + 1, end);
         return root;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0109_ConvertSortedListToBinarySearchTree solution = new _0109_ConvertSortedListToBinarySearchTree();

@@ -35,6 +35,6 @@ What is the length of the shortest reference string S possible that encodes the 
 [[src-0820]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0820_ShortEncodingOfWords.java[]
+include::{sourcedir}/_0820_ShortEncodingOfWords.java[tag=answer]
 ----
 

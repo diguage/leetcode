@@ -35,6 +35,6 @@ Given a 2D `grid` of `0`s and `1`s, return the number of elements in the largest
 [[src-1139]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1139_Largest1BorderedSquare.java[]
+include::{sourcedir}/_1139_Largest1BorderedSquare.java[tag=answer]
 ----
 

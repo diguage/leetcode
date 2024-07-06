@@ -8,6 +8,6 @@ https://leetcode.com/problems/shortest-distance-in-a-line/[LeetCode - Shortest D
 [[src-0613]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0613_ShortestDistanceInALine.java[]
+include::{sourcedir}/_0613_ShortestDistanceInALine.java[tag=answer]
 ----
 

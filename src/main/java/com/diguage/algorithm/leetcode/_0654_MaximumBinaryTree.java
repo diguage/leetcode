@@ -2,11 +2,13 @@ package com.diguage.algorithm.leetcode;
 
 import com.diguage.algorithm.util.TreeNode;
 
-/**
- * @author D瓜哥 · https://www.diguage.com
- * @since 2024-06-26 14:34:18
- */
+
 public class _0654_MaximumBinaryTree {
+  // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-26 14:34:18
+   */
   public TreeNode constructMaximumBinaryTree(int[] nums) {
     if (nums == null || nums.length == 0) {
       return null;
@@ -39,4 +41,5 @@ public class _0654_MaximumBinaryTree {
     }
     return result;
   }
+  // end::answer[]
 }

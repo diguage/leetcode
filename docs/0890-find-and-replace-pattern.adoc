@@ -42,6 +42,6 @@ since a and b map to the same letter.
 [[src-0890]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0890_FindAndReplacePattern.java[]
+include::{sourcedir}/_0890_FindAndReplacePattern.java[tag=answer]
 ----
 

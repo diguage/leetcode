@@ -34,6 +34,6 @@ The move sequence is represented by a string, and the character moves[i] represe
 [[src-0657]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0657_RobotReturnToOrigin.java[]
+include::{sourcedir}/_0657_RobotReturnToOrigin.java[tag=answer]
 ----
 

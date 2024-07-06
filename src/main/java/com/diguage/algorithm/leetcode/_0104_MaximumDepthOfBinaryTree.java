@@ -36,6 +36,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2020-01-24 22:17
  */
 public class _0104_MaximumDepthOfBinaryTree {
+  // tag::answer[]
 
     /**
      * Runtime: 1 ms, faster than 14.28% of Java online submissions for Maximum Depth of Binary Tree.
@@ -56,6 +57,9 @@ public class _0104_MaximumDepthOfBinaryTree {
         }
         return Math.max(left, right) + 1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0104_MaximumDepthOfBinaryTree solution = new _0104_MaximumDepthOfBinaryTree();

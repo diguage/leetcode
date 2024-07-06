@@ -34,6 +34,6 @@ For example, in "abbaca" we could remove "bb" since the letters are adjacent and
 [[src-1047]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1047_RemoveAllAdjacentDuplicatesInString.java[]
+include::{sourcedir}/_1047_RemoveAllAdjacentDuplicatesInString.java[tag=answer]
 ----
 

@@ -13,6 +13,7 @@ import java.util.Objects;
  * @since 2020-01-28 22:08
  */
 public class _0394_DecodeString {
+  // tag::answer[]
 
     /**
      * Runtime: 1 ms, faster than 64.03% of Java online submissions for Decode String.
@@ -47,6 +48,9 @@ public class _0394_DecodeString {
         }
         return result.toString();
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0394_DecodeString solution = new _0394_DecodeString();

@@ -50,6 +50,6 @@ So you finally need to output 3.
 [[src-0495]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0495_TeemoAttacking.java[]
+include::{sourcedir}/_0495_TeemoAttacking.java[tag=answer]
 ----
 

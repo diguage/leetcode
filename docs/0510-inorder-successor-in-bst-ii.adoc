@@ -8,6 +8,6 @@ https://leetcode.com/problems/inorder-successor-in-bst-ii/[LeetCode - Inorder Su
 [[src-0510]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0510_InorderSuccessorInBSTII.java[]
+include::{sourcedir}/_0510_InorderSuccessorInBSTII.java[tag=answer]
 ----
 

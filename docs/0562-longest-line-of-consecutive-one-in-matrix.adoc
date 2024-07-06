@@ -8,6 +8,6 @@ https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/[LeetCod
 [[src-0562]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0562_LongestLineOfConsecutiveOneInMatrix.java[]
+include::{sourcedir}/_0562_LongestLineOfConsecutiveOneInMatrix.java[tag=answer]
 ----
 

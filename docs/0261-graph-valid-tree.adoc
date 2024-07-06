@@ -8,6 +8,6 @@ https://leetcode.com/problems/graph-valid-tree/[LeetCode - Graph Valid Tree]
 [[src-0261]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0261_GraphValidTree.java[]
+include::{sourcedir}/_0261_GraphValidTree.java[tag=answer]
 ----
 

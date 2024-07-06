@@ -11,6 +11,7 @@ import com.diguage.algorithm.util.TreeNode;
  * @since 2020-01-27 23:18
  */
 public class _0114_FlattenBinaryTreeToLinkedList_3 {
+  // tag::answer[]
   /**
    * @author D瓜哥 · https://www.diguage.com
    * @since 2024-07-06 17:12:19
@@ -32,4 +33,5 @@ public class _0114_FlattenBinaryTreeToLinkedList_3 {
       root = root.right;
     }
   }
+  // end::answer[]
 }

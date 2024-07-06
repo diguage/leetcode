@@ -8,6 +8,6 @@ https://leetcode.com/problems/maximum-average-subarray-ii/[LeetCode - Maximum Av
 [[src-0644]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0644_MaximumAverageSubarrayII.java[]
+include::{sourcedir}/_0644_MaximumAverageSubarrayII.java[tag=answer]
 ----
 

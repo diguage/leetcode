@@ -21,6 +21,6 @@ Return the minimum cuts needed for a palindrome partitioning of _s_.
 [[src-0132]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0132_PalindromePartitioningII.java[]
+include::{sourcedir}/_0132_PalindromePartitioningII.java[tag=answer]
 ----
 

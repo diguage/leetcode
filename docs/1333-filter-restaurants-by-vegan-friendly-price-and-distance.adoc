@@ -59,6 +59,6 @@ After filter restaurants with veganFriendly = 1, maxPrice = 50 and maxDistance =
 [[src-1333]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1333_FilterRestaurantsByVeganFriendlyPriceAndDistance.java[]
+include::{sourcedir}/_1333_FilterRestaurantsByVeganFriendlyPriceAndDistance.java[tag=answer]
 ----
 

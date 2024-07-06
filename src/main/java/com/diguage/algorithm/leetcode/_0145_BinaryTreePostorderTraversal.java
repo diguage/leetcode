@@ -22,6 +22,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2020-06-16 11:24
  */
 public class _0145_BinaryTreePostorderTraversal {
+  // tag::answer[]
 
   public List<Integer> postorderTraversal(TreeNode head) {
     if (Objects.isNull(head)) {
@@ -79,6 +80,9 @@ public class _0145_BinaryTreePostorderTraversal {
     return result;
 
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     TreeNode tree = buildTree(Arrays.asList(1, null, 2, null, null, 3));

@@ -60,6 +60,6 @@ If this function is called many times, how would you optimize it?
 [[src-0191]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0191_NumberOf1Bits.java[]
+include::{sourcedir}/_0191_NumberOf1Bits.java[tag=answer]
 ----
 

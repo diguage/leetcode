@@ -33,6 +33,6 @@ Return the maximum score of a pair of sightseeing spots.
 [[src-1014]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1014_BestSightseeingPair.java[]
+include::{sourcedir}/_1014_BestSightseeingPair.java[tag=answer]
 ----
 

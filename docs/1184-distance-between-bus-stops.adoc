@@ -61,6 +61,6 @@ image::https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1-2.jpg[{
 [[src-1184]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1184_DistanceBetweenBusStops.java[]
+include::{sourcedir}/_1184_DistanceBetweenBusStops.java[tag=answer]
 ----
 

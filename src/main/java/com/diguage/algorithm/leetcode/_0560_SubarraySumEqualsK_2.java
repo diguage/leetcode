@@ -11,6 +11,7 @@ import java.util.*;
  * @since 2024-06-23 11:08:29
  */
 public class _0560_SubarraySumEqualsK_2 {
+  // tag::answer[]
     /**
      * 自己根据“前缀和”套路想的思路，参考 https://leetcode.cn/problems/subarray-sum-equals-k/solutions/238572/he-wei-kde-zi-shu-zu-by-leetcode-solution/[560. 和为 K 的子数组 - 官方题解^] 更正了代码。
      */
@@ -36,6 +37,9 @@ public class _0560_SubarraySumEqualsK_2 {
       }
       return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0560_SubarraySumEqualsK_2 solution = new _0560_SubarraySumEqualsK_2();

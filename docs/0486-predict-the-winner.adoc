@@ -43,6 +43,6 @@ Finally, player 1 has more score (234) than player 2 (12), so you need to return
 [[src-0486]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0486_PredictTheWinner.java[]
+include::{sourcedir}/_0486_PredictTheWinner.java[tag=answer]
 ----
 

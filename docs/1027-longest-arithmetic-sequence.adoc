@@ -56,6 +56,6 @@ The longest arithmetic subsequence is [20,15,10,5].
 [[src-1027]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1027_LongestArithmeticSequence.java[]
+include::{sourcedir}/_1027_LongestArithmeticSequence.java[tag=answer]
 ----
 

@@ -11,6 +11,7 @@ import java.util.*;
  * @since 2020-01-27 19:20
  */
 public class _0040_CombinationSumII {
+  // tag::answer[]
     /**
      * Runtime: 2 ms, faster than 100.00% of Java online submissions for Combination Sum II.
      * Memory Usage: 39.5 MB, less than 54.74% of Java online submissions for Combination Sum II.
@@ -48,6 +49,9 @@ public class _0040_CombinationSumII {
             current.removeLast();
         }
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0040_CombinationSumII solution = new _0040_CombinationSumII();

@@ -53,6 +53,6 @@ Also, if the sequence is possible to stamp, it is guaranteed it is possible to s
 [[src-0936]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0936_StampingTheSequence.java[]
+include::{sourcedir}/_0936_StampingTheSequence.java[tag=answer]
 ----
 

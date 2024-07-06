@@ -30,6 +30,6 @@ Given an unsorted array of integers, find the length of longest increasing subse
 [[src-0300]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0300_LongestIncreasingSubsequence.java[]
+include::{sourcedir}/_0300_LongestIncreasingSubsequence.java[tag=answer]
 ----
 

@@ -21,6 +21,6 @@ Write a function to find all the 10-letter-long sequences (substrings) that occu
 [[src-0187]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0187_RepeatedDNASequences.java[]
+include::{sourcedir}/_0187_RepeatedDNASequences.java[tag=answer]
 ----
 

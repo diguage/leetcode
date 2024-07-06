@@ -43,6 +43,6 @@ The value of *n* won't exceed 100,000.
 [[src-0552]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0552_StudentAttendanceRecordII.java[]
+include::{sourcedir}/_0552_StudentAttendanceRecordII.java[tag=answer]
 ----
 

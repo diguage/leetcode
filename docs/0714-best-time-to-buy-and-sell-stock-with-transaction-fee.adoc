@@ -61,6 +61,6 @@ Return the maximum profit you can make.
 [[src-0714]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0714_BestTimeToBuyAndSellStockWithTransactionFee.java[]
+include::{sourcedir}/_0714_BestTimeToBuyAndSellStockWithTransactionFee.java[tag=answer]
 ----
 

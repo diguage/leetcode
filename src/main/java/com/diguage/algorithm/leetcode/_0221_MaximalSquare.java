@@ -11,6 +11,7 @@ import java.util.Objects;
  * @since 2020-01-28 12:21
  */
 public class _0221_MaximalSquare {
+  // tag::answer[]
 
     /**
      * Runtime: 4 ms, faster than 95.17% of Java online submissions for Maximal Square.
@@ -68,6 +69,9 @@ public class _0221_MaximalSquare {
 
         return maxSideLength * maxSideLength;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0221_MaximalSquare solution = new _0221_MaximalSquare();

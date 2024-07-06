@@ -9,6 +9,7 @@ import java.util.*;
  * @since 2024-06-25 14:44:16
  */
 public class _0199_BinaryTreeRightSideView_1 {
+  // tag::answer[]
   /**
    * 参考 https://leetcode.cn/problems/binary-tree-right-side-view/solutions/2015061/ru-he-ling-huo-yun-yong-di-gui-lai-kan-s-r1nc/[199. 二叉树的右视图 - 【视频】如何灵活运用递归？^]
    */
@@ -30,4 +31,5 @@ public class _0199_BinaryTreeRightSideView_1 {
     dfs(root.right, level + 1, result);
     dfs(root.left, level + 1, result);
   }
+  // end::answer[]
 }

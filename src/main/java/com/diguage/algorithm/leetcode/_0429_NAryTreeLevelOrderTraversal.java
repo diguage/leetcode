@@ -7,6 +7,7 @@ import java.util.*;
  * @since 2024-06-25 15:17:45
  */
 public class _0429_NAryTreeLevelOrderTraversal {
+  // tag::answer[]
   public List<List<Integer>> levelOrder(Node root) {
     if (root == null) {
       return Collections.emptyList();
@@ -45,4 +46,5 @@ public class _0429_NAryTreeLevelOrderTraversal {
       children = _children;
     }
   }
+  // end::answer[]
 }

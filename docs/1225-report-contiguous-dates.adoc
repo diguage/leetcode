@@ -8,6 +8,6 @@ https://leetcode.com/problems/report-contiguous-dates/[LeetCode - Report Contigu
 [[src-1225]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1225_ReportContiguousDates.java[]
+include::{sourcedir}/_1225_ReportContiguousDates.java[tag=answer]
 ----
 

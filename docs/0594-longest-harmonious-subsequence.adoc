@@ -25,6 +25,6 @@ Now, given an integer array, you need to find the length of its longest harmonio
 [[src-0594]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0594_LongestHarmoniousSubsequence.java[]
+include::{sourcedir}/_0594_LongestHarmoniousSubsequence.java[tag=answer]
 ----
 

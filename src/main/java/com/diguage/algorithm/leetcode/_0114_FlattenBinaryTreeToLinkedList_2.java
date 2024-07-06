@@ -16,6 +16,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2020-01-27 23:18
  */
 public class _0114_FlattenBinaryTreeToLinkedList_2 {
+  // tag::answer[]
   /**
    * 参考 https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/solutions/17274/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--26/[114. 二叉树展开为链表^] 的解法，自己实现的。
    */
@@ -38,6 +39,9 @@ public class _0114_FlattenBinaryTreeToLinkedList_2 {
       }
     }
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0114_FlattenBinaryTreeToLinkedList_2 solution = new _0114_FlattenBinaryTreeToLinkedList_2();

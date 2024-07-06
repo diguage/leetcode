@@ -48,6 +48,6 @@ Can you do it in O(n) time and/or in-place with O(1) extra space?
 [[src-0324]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0324_WiggleSortII.java[]
+include::{sourcedir}/_0324_WiggleSortII.java[tag=answer]
 ----
 

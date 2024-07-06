@@ -71,6 +71,6 @@ Round 7: You could get 9 + 5 = 14 points. The sum is 27.
 [[src-0682]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0682_BaseballGame.java[]
+include::{sourcedir}/_0682_BaseballGame.java[tag=answer]
 ----
 

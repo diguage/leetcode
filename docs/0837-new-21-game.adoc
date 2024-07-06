@@ -52,6 +52,6 @@ In 6 out of W = 10 possibilities, she is at or below N = 6 points.
 [[src-0837]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0837_New21Game.java[]
+include::{sourcedir}/_0837_New21Game.java[tag=answer]
 ----
 

@@ -19,6 +19,6 @@ Please note that the string does not contain any *non-printable* characters.
 [[src-0434]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0434_NumberOfSegmentsInAString.java[]
+include::{sourcedir}/_0434_NumberOfSegmentsInAString.java[tag=answer]
 ----
 

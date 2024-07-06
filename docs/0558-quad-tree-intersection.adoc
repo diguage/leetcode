@@ -78,6 +78,6 @@ A:                 B:                 C (A or B):
 [[src-0558]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0558_QuadTreeIntersection.java[]
+include::{sourcedir}/_0558_QuadTreeIntersection.java[tag=answer]
 ----
 

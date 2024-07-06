@@ -10,6 +10,7 @@ import java.util.Arrays;
  * @since 2024-06-26 20:50:34
  */
 public class _0538_ConvertBSTToGreaterTree_1 {
+  // tag::answer[]
 
   /**
    * 基于 Morris 的倒序中根遍历
@@ -44,6 +45,9 @@ public class _0538_ConvertBSTToGreaterTree_1 {
     }
     return root;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     TreeNode tree = TreeNodes.buildTree(Arrays.asList(4, 2, 6, 1, 3, 5, 7));

@@ -21,6 +21,6 @@ Count the number of prime numbers less than a non-negative number, *_n_*.
 [[src-0204]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0204_CountPrimes.java[]
+include::{sourcedir}/_0204_CountPrimes.java[tag=answer]
 ----
 

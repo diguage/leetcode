@@ -67,6 +67,6 @@ rotate 4 steps to the right: `2->0->1->NULL`
 [[src-0061]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0061_RotateList.java[]
+include::{sourcedir}/_0061_RotateList.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/equal-tree-partition/[LeetCode - Equal Tree Partit
 [[src-0663]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0663_EqualTreePartition.java[]
+include::{sourcedir}/_0663_EqualTreePartition.java[tag=answer]
 ----
 

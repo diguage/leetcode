@@ -8,6 +8,6 @@ https://leetcode.com/problems/team-scores-in-football-tournament/[LeetCode - Tea
 [[src-1212]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1212_TeamScoresInFootballTournament.java[]
+include::{sourcedir}/_1212_TeamScoresInFootballTournament.java[tag=answer]
 ----
 

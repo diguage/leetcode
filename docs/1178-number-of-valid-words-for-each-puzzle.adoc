@@ -47,6 +47,6 @@ There're no valid words for "gaswxyz" cause none of the words in the list contai
 [[src-1178]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1178_NumberOfValidWordsForEachPuzzle.java[]
+include::{sourcedir}/_1178_NumberOfValidWordsForEachPuzzle.java[tag=answer]
 ----
 

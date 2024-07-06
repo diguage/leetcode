@@ -11,6 +11,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * @since 2024-06-23 16:38:11
  */
 public class _0098_ValidateBinarySearchTree_2 {
+  // tag::answer[]
   public boolean isValidBST(TreeNode root) {
     return dfs(root).valid;
   }
@@ -46,6 +47,9 @@ public class _0098_ValidateBinarySearchTree_2 {
       this.min = min;
     }
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0098_ValidateBinarySearchTree_2 solution = new _0098_ValidateBinarySearchTree_2();

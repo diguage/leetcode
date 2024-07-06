@@ -51,6 +51,6 @@ This is the maximum distance possible, so the answer is 3.
 [[src-0849]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0849_MaximizeDistanceToClosestPerson.java[]
+include::{sourcedir}/_0849_MaximizeDistanceToClosestPerson.java[tag=answer]
 ----
 

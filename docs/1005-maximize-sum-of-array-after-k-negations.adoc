@@ -55,6 +55,6 @@ Return the largest possible sum of the array after modifying it in this way.
 [[src-1005]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1005_MaximizeSumOfArrayAfterKNegations.java[]
+include::{sourcedir}/_1005_MaximizeSumOfArrayAfterKNegations.java[tag=answer]
 ----
 

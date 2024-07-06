@@ -36,6 +36,6 @@ For the point (1,1): floor(8/9) = floor(0.88888889) = 0
 [[src-0661]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0661_ImageSmoother.java[]
+include::{sourcedir}/_0661_ImageSmoother.java[tag=answer]
 ----
 

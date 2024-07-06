@@ -33,6 +33,6 @@ image::https://assets.leetcode.com/uploads/2018/10/12/island.png[{image_attr}]
 [[src-0463]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0463_IslandPerimeter.java[]
+include::{sourcedir}/_0463_IslandPerimeter.java[tag=answer]
 ----
 

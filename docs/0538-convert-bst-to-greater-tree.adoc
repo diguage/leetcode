@@ -31,7 +31,7 @@ image::images/0538-00.png[{image_attr}]
 [[src-0538]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0538_ConvertBSTToGreaterTree.java[]
+include::{sourcedir}/_0538_ConvertBSTToGreaterTree.java[tag=answer]
 ----
 
 === 二、迭代
@@ -40,7 +40,7 @@ include::{sourcedir}/_0538_ConvertBSTToGreaterTree.java[]
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0538_ConvertBSTToGreaterTree_1.java[]
+include::{sourcedir}/_0538_ConvertBSTToGreaterTree_1.java[tag=answer]
 ----
 
 == 参考资料

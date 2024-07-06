@@ -47,6 +47,6 @@ k = `3`
 [[src-0321]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0321_CreateMaximumNumber.java[]
+include::{sourcedir}/_0321_CreateMaximumNumber.java[tag=answer]
 ----
 

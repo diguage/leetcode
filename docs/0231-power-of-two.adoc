@@ -37,6 +37,6 @@ Given an integer, write a function to determine if it is a power of two.
 [[src-0231]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0231_PowerOfTwo.java[]
+include::{sourcedir}/_0231_PowerOfTwo.java[tag=answer]
 ----
 

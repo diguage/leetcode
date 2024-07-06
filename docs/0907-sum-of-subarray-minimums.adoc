@@ -37,6 +37,6 @@ Minimums are 3, 1, 2, 4, 1, 1, 2, 1, 1, 1.  Sum is 17.
 [[src-0907]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0907_SumOfSubarrayMinimums.java[]
+include::{sourcedir}/_0907_SumOfSubarrayMinimums.java[tag=answer]
 ----
 

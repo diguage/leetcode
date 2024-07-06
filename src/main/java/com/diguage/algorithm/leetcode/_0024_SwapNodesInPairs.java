@@ -17,6 +17,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-03 20:12
  */
 public class _0024_SwapNodesInPairs {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Swap Nodes in Pairs.
      * Memory Usage: 37.3 MB, less than 5.50% of Java online submissions for Swap Nodes in Pairs.
@@ -39,6 +40,9 @@ public class _0024_SwapNodesInPairs {
 
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0024_SwapNodesInPairs solution = new _0024_SwapNodesInPairs();

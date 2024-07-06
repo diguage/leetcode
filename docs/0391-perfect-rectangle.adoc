@@ -78,6 +78,6 @@ Return false. Because two of the rectangles overlap with each other.
 [[src-0391]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0391_PerfectRectangle.java[]
+include::{sourcedir}/_0391_PerfectRectangle.java[tag=answer]
 ----
 

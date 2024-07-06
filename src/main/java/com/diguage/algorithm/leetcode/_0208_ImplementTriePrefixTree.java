@@ -32,6 +32,7 @@ import java.util.Objects;
  * @since 2020-01-26 19:47
  */
 public class _0208_ImplementTriePrefixTree {
+  // tag::answer[]
     /**
      * Runtime: 69 ms, faster than 11.59% of Java online submissions for Implement Trie (Prefix Tree).
      *
@@ -124,6 +125,9 @@ public class _0208_ImplementTriePrefixTree {
         trie.insert("app");
         System.out.println(trie.search("app"));
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0208_ImplementTriePrefixTree solution = new _0208_ImplementTriePrefixTree();

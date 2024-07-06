@@ -54,6 +54,6 @@ Note that 'A' and 'a' are treated as two different characters.
 [[src-0451]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0451_SortCharactersByFrequency.java[]
+include::{sourcedir}/_0451_SortCharactersByFrequency.java[tag=answer]
 ----
 

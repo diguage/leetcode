@@ -8,6 +8,6 @@ https://leetcode.com/problems/new-users-daily-count/[LeetCode - New Users Daily 
 [[src-1107]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1107_NewUsersDailyCount.java[]
+include::{sourcedir}/_1107_NewUsersDailyCount.java[tag=answer]
 ----
 

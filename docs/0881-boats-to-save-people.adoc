@@ -58,6 +58,6 @@ Return the minimum number of boats to carry every given person.  (It is guarante
 [[src-0881]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0881_BoatsToSavePeople.java[]
+include::{sourcedir}/_0881_BoatsToSavePeople.java[tag=answer]
 ----
 

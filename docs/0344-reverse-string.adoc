@@ -37,6 +37,6 @@ You may assume all the characters consist of https://en.wikipedia.org/wiki/ASCII
 [[src-0344]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0344_ReverseString.java[]
+include::{sourcedir}/_0344_ReverseString.java[tag=answer]
 ----
 

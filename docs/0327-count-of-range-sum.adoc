@@ -26,6 +26,6 @@ A naive algorithm of _O_(_n_^2^) is trivial. You MUST do better than that.
 [[src-0327]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0327_CountOfRangeSum.java[]
+include::{sourcedir}/_0327_CountOfRangeSum.java[tag=answer]
 ----
 

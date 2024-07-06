@@ -8,6 +8,6 @@ https://leetcode.com/problems/shortest-word-distance/[LeetCode - Shortest Word D
 [[src-0243]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0243_ShortestWordDistance.java[]
+include::{sourcedir}/_0243_ShortestWordDistance.java[tag=answer]
 ----
 

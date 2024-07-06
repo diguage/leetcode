@@ -73,6 +73,6 @@ Therefore, you can't travel around the circuit once no matter where you start.
 [[src-0134]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0134_GasStation.java[]
+include::{sourcedir}/_0134_GasStation.java[tag=answer]
 ----
 

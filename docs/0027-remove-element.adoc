@@ -58,6 +58,6 @@ for (int i = 0; i < len; i++) {
 [[src-0027]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0027_RemoveElement.java[]
+include::{sourcedir}/_0027_RemoveElement.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/[
 [[src-1101]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1101_TheEarliestMomentWhenEveryoneBecomeFriends.java[]
+include::{sourcedir}/_1101_TheEarliestMomentWhenEveryoneBecomeFriends.java[tag=answer]
 ----
 

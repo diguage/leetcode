@@ -57,6 +57,6 @@ The final answer list can be returned in any order.  Also note that all coordina
 [[src-0816]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0816_AmbiguousCoordinates.java[]
+include::{sourcedir}/_0816_AmbiguousCoordinates.java[tag=answer]
 ----
 

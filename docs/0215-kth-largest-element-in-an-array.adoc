@@ -40,12 +40,12 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 [[src-0215]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0215_KthLargestElementInAnArray.java[]
+include::{sourcedir}/_0215_KthLargestElementInAnArray.java[tag=answer]
 ----
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0215_KthLargestElementInAnArray_2.java[]
+include::{sourcedir}/_0215_KthLargestElementInAnArray_2.java[tag=answer]
 ----
 
 

@@ -36,7 +36,7 @@ return its minimum depth = 2.
 [[src-0111]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0111_MinimumDepthOfBinaryTree.java[]
+include::{sourcedir}/_0111_MinimumDepthOfBinaryTree.java[tag=answer]
 ----
 
 === 基于 DFS 的解法
@@ -45,7 +45,7 @@ include::{sourcedir}/_0111_MinimumDepthOfBinaryTree.java[]
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0111_MinimumDepthOfBinaryTree_2.java[]
+include::{sourcedir}/_0111_MinimumDepthOfBinaryTree_2.java[tag=answer]
 ----
 
 === 基于 Morris 遍历的解法
@@ -54,7 +54,7 @@ TIP: 可以换个角度理解这道题：使用 Morris 遍历树时，遍历到�
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0111_MinimumDepthOfBinaryTree_Morris.java[]
+include::{sourcedir}/_0111_MinimumDepthOfBinaryTree_Morris.java[tag=answer]
 ----
 
 竟然在 LeetCode 中文站点没有找到使用 Morris 遍历方法处理的解答。
@@ -66,7 +66,7 @@ BFS 不需要遍历所有节点，所以，时间复杂度是最小的。
 
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0111_MinimumDepthOfBinaryTree_BFS.java[]
+include::{sourcedir}/_0111_MinimumDepthOfBinaryTree_BFS.java[tag=answer]
 ----
 
 

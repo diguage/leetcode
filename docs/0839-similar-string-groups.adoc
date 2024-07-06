@@ -35,6 +35,6 @@ We are given a list `A` of strings.  Every string in `A` is an anagram of every 
 [[src-0839]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0839_SimilarStringGroups.java[]
+include::{sourcedir}/_0839_SimilarStringGroups.java[tag=answer]
 ----
 

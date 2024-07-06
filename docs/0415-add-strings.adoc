@@ -18,6 +18,6 @@ Given two non-negative integers `num1` and `num2` represented as string, return 
 [[src-0415]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0415_AddStrings.java[]
+include::{sourcedir}/_0415_AddStrings.java[tag=answer]
 ----
 

@@ -57,6 +57,6 @@ The binary representation of 10 is: 1010.
 [[src-0693]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0693_BinaryNumberWithAlternatingBits.java[]
+include::{sourcedir}/_0693_BinaryNumberWithAlternatingBits.java[tag=answer]
 ----
 

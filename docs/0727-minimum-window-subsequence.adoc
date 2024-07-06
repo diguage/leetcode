@@ -8,6 +8,6 @@ https://leetcode.com/problems/minimum-window-subsequence/[LeetCode - Minimum Win
 [[src-0727]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0727_MinimumWindowSubsequence.java[]
+include::{sourcedir}/_0727_MinimumWindowSubsequence.java[tag=answer]
 ----
 

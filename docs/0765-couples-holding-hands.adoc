@@ -39,6 +39,6 @@ The couples' initial seating is given by `row[i]` being the value of the person 
 [[src-0765]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0765_CouplesHoldingHands.java[]
+include::{sourcedir}/_0765_CouplesHoldingHands.java[tag=answer]
 ----
 

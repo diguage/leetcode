@@ -31,6 +31,6 @@ Super ugly numbers are positive numbers whose all prime factors are in the given
 [[src-0313]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0313_SuperUglyNumber.java[]
+include::{sourcedir}/_0313_SuperUglyNumber.java[tag=answer]
 ----
 

@@ -38,7 +38,7 @@ image::images/0704-01.gif[{image_attr}]
 [[src-0704]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0704_BinarySearch.java[]
+include::{sourcedir}/_0704_BinarySearch.java[tag=answer]
 ----
 
 == 参考资料

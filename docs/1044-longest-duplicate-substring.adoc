@@ -39,6 +39,6 @@ Return *any* duplicated substring that has the longest possible length.  (If `S`
 [[src-1044]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1044_LongestDuplicateSubstring.java[]
+include::{sourcedir}/_1044_LongestDuplicateSubstring.java[tag=answer]
 ----
 

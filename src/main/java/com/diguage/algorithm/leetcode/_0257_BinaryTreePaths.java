@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
   * @since 2024-06-25 20:59:38
   */
 public class _0257_BinaryTreePaths {
+  // tag::answer[]
 
   public List<String> binaryTreePaths(TreeNode root) {
     List<String> result = new ArrayList<>();
@@ -31,4 +32,5 @@ public class _0257_BinaryTreePaths {
     backtrack(root.right, result, chars);
     chars.remove(chars.size() - 1);
   }
+  // end::answer[]
 }

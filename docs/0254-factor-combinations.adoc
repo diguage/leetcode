@@ -8,6 +8,6 @@ https://leetcode.com/problems/factor-combinations/[LeetCode - Factor Combination
 [[src-0254]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0254_FactorCombinations.java[]
+include::{sourcedir}/_0254_FactorCombinations.java[tag=answer]
 ----
 

@@ -62,6 +62,6 @@ An expression can either be:
 [[src-1106]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1106_ParsingABooleanExpression.java[]
+include::{sourcedir}/_1106_ParsingABooleanExpression.java[tag=answer]
 ----
 

@@ -94,6 +94,6 @@ image::https://assets.leetcode.com/uploads/2019/11/06/sample_1_1620.png[{image_a
 [[src-1263]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1263_MinimumMovesToMoveABoxToTheirTargetLocation.java[]
+include::{sourcedir}/_1263_MinimumMovesToMoveABoxToTheirTargetLocation.java[tag=answer]
 ----
 

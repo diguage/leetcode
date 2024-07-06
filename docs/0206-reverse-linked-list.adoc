@@ -25,6 +25,6 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 [[src-0206]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0206_ReverseLinkedList.java[]
+include::{sourcedir}/_0206_ReverseLinkedList.java[tag=answer]
 ----
 

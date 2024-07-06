@@ -38,6 +38,6 @@ If the fractional part is repeating, enclose the repeating part in parentheses.
 [[src-0166]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0166_FractionToRecurringDecimal.java[]
+include::{sourcedir}/_0166_FractionToRecurringDecimal.java[tag=answer]
 ----
 

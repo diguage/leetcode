@@ -30,6 +30,6 @@ Given a collection of intervals, merge all overlapping intervals.
 [[src-0056]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0056_MergeIntervals.java[]
+include::{sourcedir}/_0056_MergeIntervals.java[tag=answer]
 ----
 

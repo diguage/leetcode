@@ -49,6 +49,6 @@ image::https://assets.leetcode.com/uploads/2018/12/15/complete-binary-tree-2.png
 [[src-0958]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0958_CheckCompletenessOfABinaryTree.java[]
+include::{sourcedir}/_0958_CheckCompletenessOfABinaryTree.java[tag=answer]
 ----
 

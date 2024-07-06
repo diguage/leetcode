@@ -41,6 +41,6 @@ The `n` belongs to [1, 10,000].
 [[src-0665]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0665_NonDecreasingArray.java[]
+include::{sourcedir}/_0665_NonDecreasingArray.java[tag=answer]
 ----
 

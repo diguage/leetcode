@@ -33,6 +33,6 @@ Given an array `A` of integers, return the number of (contiguous, non-empty) sub
 [[src-0974]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0974_SubarraySumsDivisibleByK.java[]
+include::{sourcedir}/_0974_SubarraySumsDivisibleByK.java[tag=answer]
 ----
 

@@ -33,6 +33,7 @@ import static com.diguage.util.ListNodes.printListNode;
  * @since 2019-10-29 21:05
  */
 public class _0148_SortList {
+  // tag::answer[]
 
     /**
      * Runtime: 4 ms, faster than 62.99% of Java online submissions for Sort List.
@@ -80,6 +81,9 @@ public class _0148_SortList {
         }
         return result.next;
     }
+
+
+  // end::answer[]
 
 
     public static void main(String[] args) {

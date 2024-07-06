@@ -61,6 +61,7 @@ import java.util.Arrays;
  * @since 2018-07-19 18:55
  */
 public class _0027_RemoveElement {
+  // tag::answer[]
     public static int removeElement(int[] nums, int val) {
         if (nums == null || nums.length == 0) {
             return 0;
@@ -78,6 +79,9 @@ public class _0027_RemoveElement {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         int[] nums = new int[]{0, 1, 2, 2, 3, 0, 4, 2};

@@ -27,6 +27,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-24 11:34
  */
 public class _0279_PerfectSquares {
+  // tag::answer[]
     /**
      * Runtime: 45 ms, faster than 31.57% of Java online submissions for Perfect Squares.
      *
@@ -47,6 +48,9 @@ public class _0279_PerfectSquares {
         }
         return dp[n];
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0279_PerfectSquares solution = new _0279_PerfectSquares();

@@ -49,6 +49,6 @@ For example:
 [[src-0171]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0171_ExcelSheetColumnNumber.java[]
+include::{sourcedir}/_0171_ExcelSheetColumnNumber.java[tag=answer]
 ----
 

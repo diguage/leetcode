@@ -8,6 +8,6 @@ https://leetcode.com/problems/user-activity-for-the-past-30-days-i/[LeetCode - U
 [[src-1141]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1141_UserActivityForThePast30DaysI.java[]
+include::{sourcedir}/_1141_UserActivityForThePast30DaysI.java[tag=answer]
 ----
 

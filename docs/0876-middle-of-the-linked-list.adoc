@@ -51,7 +51,7 @@ image::images/0876-03.png[{image_attr}]
 [[src-0876]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0876_MiddleOfTheLinkedList.java[]
+include::{sourcedir}/_0876_MiddleOfTheLinkedList.java[tag=answer]
 ----
 
 == 参考资料

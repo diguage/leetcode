@@ -37,6 +37,6 @@ Return:
 [[src-0412]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0412_FizzBuzz.java[]
+include::{sourcedir}/_0412_FizzBuzz.java[tag=answer]
 ----
 

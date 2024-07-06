@@ -34,6 +34,6 @@ A concatenated word is defined as a string that is comprised entirely of at leas
 [[src-0472]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0472_ConcatenatedWords.java[]
+include::{sourcedir}/_0472_ConcatenatedWords.java[tag=answer]
 ----
 

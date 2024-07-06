@@ -53,6 +53,6 @@ If there is no way to make `arr1` strictly increasing, return `-1`.
 [[src-1187]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1187_MakeArrayStrictlyIncreasing.java[]
+include::{sourcedir}/_1187_MakeArrayStrictlyIncreasing.java[tag=answer]
 ----
 

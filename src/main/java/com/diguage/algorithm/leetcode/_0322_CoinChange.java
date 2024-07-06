@@ -32,6 +32,7 @@ import java.util.*;
  * @since 2020-01-26 22:16
  */
 public class _0322_CoinChange {
+  // tag::answer[]
 
     /**
      * Runtime: 91 ms, faster than 6.13% of Java online submissions for Coin Change.
@@ -126,6 +127,9 @@ public class _0322_CoinChange {
         }
         return Collections.min(counts);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0322_CoinChange solution = new _0322_CoinChange();

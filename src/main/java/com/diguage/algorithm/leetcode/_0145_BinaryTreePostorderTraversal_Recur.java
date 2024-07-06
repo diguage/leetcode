@@ -14,6 +14,7 @@ import java.util.List;
  * @since 2020-06-16 11:24
  */
 public class _0145_BinaryTreePostorderTraversal_Recur {
+  // tag::answer[]
 
   public List<Integer> postorderTraversal(TreeNode head) {
     List<Integer> result = new ArrayList<>();
@@ -29,4 +30,5 @@ public class _0145_BinaryTreePostorderTraversal_Recur {
     postorderTraversal(head.right, result);
     result.add(head.val);
   }
+  // end::answer[]
 }

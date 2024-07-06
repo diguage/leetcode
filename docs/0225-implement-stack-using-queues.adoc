@@ -38,6 +38,6 @@ stack.empty(); // returns false
 [[src-0225]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0225_ImplementStackUsingQueues.java[]
+include::{sourcedir}/_0225_ImplementStackUsingQueues.java[tag=answer]
 ----
 

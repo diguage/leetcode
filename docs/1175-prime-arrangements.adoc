@@ -39,6 +39,6 @@ Since the answer may be large, return the answer *modulo `10^9 + 7`*.
 [[src-1175]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1175_PrimeArrangements.java[]
+include::{sourcedir}/_1175_PrimeArrangements.java[tag=answer]
 ----
 

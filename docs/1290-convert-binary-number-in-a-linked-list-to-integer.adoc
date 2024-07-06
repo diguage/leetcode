@@ -64,6 +64,6 @@ image::https://assets.leetcode.com/uploads/2019/12/05/graph-1.png[{image_attr}]
 [[src-1290]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1290_ConvertBinaryNumberInALinkedListToInteger.java[]
+include::{sourcedir}/_1290_ConvertBinaryNumberInALinkedListToInteger.java[tag=answer]
 ----
 

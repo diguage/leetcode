@@ -41,6 +41,6 @@ Given an array of integers `A` sorted in non-decreasing order, return an array o
 [[src-0977]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0977_SquaresOfASortedArray.java[]
+include::{sourcedir}/_0977_SquaresOfASortedArray.java[tag=answer]
 ----
 

@@ -66,6 +66,6 @@ Special thanks to <a href="https://leetcode.com/discuss/user/cak1erlizhou">@cak1
 [[src-0262]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0262_TripsAndUsers.java[]
+include::{sourcedir}/_0262_TripsAndUsers.java[tag=answer]
 ----
 

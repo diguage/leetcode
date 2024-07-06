@@ -29,10 +29,14 @@ import java.util.Objects;
  * @since 2019-07-13 11:12
  */
 public class _0005_LongestPalindromicSubstring {
+  // tag::answer[]
   /**
    * Runtime: 1118 ms, faster than 5.01% of Java online submissions for Longest Palindromic Substring.
    *
    * Memory Usage: 37.2 MB, less than 94.36% of Java online submissions for Longest Palindromic Substring.
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2019-07-13 11:12
    */
   public String longestPalindromeBruteForce(String s) {
     if (Objects.isNull(s) || s.length() == 1) {
@@ -88,6 +92,9 @@ public class _0005_LongestPalindromicSubstring {
     }
     return right - left - 1;
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     _0005_LongestPalindromicSubstring solution = new _0005_LongestPalindromicSubstring();

@@ -20,6 +20,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2019-07-26 08:49
  */
 public class _0042_TrappingRainWater {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Trapping Rain Water.
      * Memory Usage: 38.3 MB, less than 91.10% of Java online submissions for Trapping Rain Water.
@@ -49,6 +50,9 @@ public class _0042_TrappingRainWater {
         }
         return result;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0042_TrappingRainWater solution = new _0042_TrappingRainWater();

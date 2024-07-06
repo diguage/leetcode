@@ -29,6 +29,6 @@ Given a positive integer _n_, find the least number of perfect square numbers (f
 [[src-0279]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0279_PerfectSquares.java[]
+include::{sourcedir}/_0279_PerfectSquares.java[tag=answer]
 ----
 

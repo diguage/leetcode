@@ -11,6 +11,7 @@ import com.diguage.algorithm.util.TreeNode;
  * @since 2020-01-27 23:18
  */
 public class _0114_FlattenBinaryTreeToLinkedList_3rec {
+  // tag::answer[]
   /**
    * 递归解决方案
    *
@@ -36,4 +37,5 @@ public class _0114_FlattenBinaryTreeToLinkedList_3rec {
     }
     mostRight.right = right;
   }
+  // end::answer[]
 }

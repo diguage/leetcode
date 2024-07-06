@@ -26,6 +26,6 @@ According to the https://en.wikipedia.org/wiki/H-index[definition of h-index on 
 [[src-0274]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0274_HIndex.java[]
+include::{sourcedir}/_0274_HIndex.java[tag=answer]
 ----
 

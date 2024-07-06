@@ -16,6 +16,7 @@ import static java.util.Arrays.asList;
  * @since 2024-06-20 15:15:50
  */
 public class _0112_PathSum_2 {
+  // tag::answer[]
 
     public boolean hasPathSum(TreeNode root, int sum) {
       if (Objects.isNull(root)) {
@@ -26,6 +27,9 @@ public class _0112_PathSum_2 {
       }
       return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0112_PathSum_2 solution = new _0112_PathSum_2();

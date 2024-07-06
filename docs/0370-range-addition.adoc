@@ -55,7 +55,7 @@ image::images/0370-01.png[{image_attr}]
 [[src-0370]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0370_RangeAddition.java[]
+include::{sourcedir}/_0370_RangeAddition.java[tag=answer]
 ----
 
 == 参考资料

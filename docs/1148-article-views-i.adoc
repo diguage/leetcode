@@ -8,6 +8,6 @@ https://leetcode.com/problems/article-views-i/[LeetCode - Article Views I]
 [[src-1148]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1148_ArticleViewsI.java[]
+include::{sourcedir}/_1148_ArticleViewsI.java[tag=answer]
 ----
 

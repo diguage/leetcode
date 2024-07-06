@@ -50,6 +50,6 @@ You need to output 2.
 [[src-0455]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0455_AssignCookies.java[]
+include::{sourcedir}/_0455_AssignCookies.java[tag=answer]
 ----
 

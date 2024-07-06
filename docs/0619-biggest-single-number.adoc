@@ -8,6 +8,6 @@ https://leetcode.com/problems/biggest-single-number/[LeetCode - Biggest Single N
 [[src-0619]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0619_BiggestSingleNumber.java[]
+include::{sourcedir}/_0619_BiggestSingleNumber.java[tag=answer]
 ----
 

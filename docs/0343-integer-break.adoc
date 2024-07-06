@@ -35,7 +35,7 @@ image::images/0343-1.png[{image_attr}]
 [[src-0343]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0343_IntegerBreak.java[]
+include::{sourcedir}/_0343_IntegerBreak.java[tag=answer]
 ----
 
 == 参考资料

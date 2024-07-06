@@ -35,6 +35,7 @@ import java.util.Objects;
  * @since 2020-01-25 23:42
  */
 public class _0200_NumberOfIslands {
+  // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 99.99% of Java online submissions for Number of Islands.
      *
@@ -74,6 +75,9 @@ public class _0200_NumberOfIslands {
         dfs(grid, y, x - 1);
         dfs(grid, y, x + 1);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0200_NumberOfIslands solution = new _0200_NumberOfIslands();

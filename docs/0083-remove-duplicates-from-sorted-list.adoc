@@ -47,6 +47,6 @@ Given a sorted linked list, delete all duplicates such that each element appear 
 [[src-0083]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0083_RemoveDuplicatesFromSortedList.java[]
+include::{sourcedir}/_0083_RemoveDuplicatesFromSortedList.java[tag=answer]
 ----
 

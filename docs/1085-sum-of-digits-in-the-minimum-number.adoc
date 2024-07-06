@@ -8,6 +8,6 @@ https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/[LeetCode - Su
 [[src-1085]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1085_SumOfDigitsInTheMinimumNumber.java[]
+include::{sourcedir}/_1085_SumOfDigitsInTheMinimumNumber.java[tag=answer]
 ----
 

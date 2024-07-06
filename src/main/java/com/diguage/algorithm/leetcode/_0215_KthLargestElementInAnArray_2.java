@@ -29,6 +29,7 @@ package com.diguage.algorithm.leetcode;
  * @since 2020-01-26 18:00
  */
 public class _0215_KthLargestElementInAnArray_2 {
+  // tag::answer[]
   /**
    * 参考 https://leetcode.cn/problems/kth-largest-element-in-an-array/solutions/307351/shu-zu-zhong-de-di-kge-zui-da-yuan-su-by-leetcode-/[数组中的第K个最大元素-题解^] 思路后，自己写出来的。
    */
@@ -63,6 +64,9 @@ public class _0215_KthLargestElementInAnArray_2 {
       return quickselect(nums, r + 1, right, k);
     }
   }
+
+  // end::answer[]
+
 
   public static void main(String[] args) {
     int[] nums = new int[]{3, 2, 3, 1, 2, 4, 5, 5, 6};

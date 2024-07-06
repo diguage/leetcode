@@ -10,6 +10,7 @@ import java.util.Map;
  * @since 2024-07-05 22:40:25
  */
 public class _0496_NextGreaterElementI {
+  // tag::answer[]
   /**
    * 单调栈，参考模板，自己书写
    */
@@ -30,4 +31,5 @@ public class _0496_NextGreaterElementI {
     }
     return result;
   }
+  // end::answer[]
 }

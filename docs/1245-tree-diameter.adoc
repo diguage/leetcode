@@ -8,6 +8,6 @@ https://leetcode.com/problems/tree-diameter/[LeetCode - Tree Diameter]
 [[src-1245]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1245_TreeDiameter.java[]
+include::{sourcedir}/_1245_TreeDiameter.java[tag=answer]
 ----
 

@@ -53,6 +53,6 @@ If there is no common subsequence, return 0.
 [[src-1143]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1143_LongestCommonSubsequence.java[]
+include::{sourcedir}/_1143_LongestCommonSubsequence.java[tag=answer]
 ----
 

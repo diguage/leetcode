@@ -32,6 +32,7 @@ import java.util.Objects;
  * @since 2020-01-24 22:28
  */
 public class _0108_ConvertSortedArrayToBinarySearchTree {
+  // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Convert Sorted Array to Binary Search Tree.
@@ -64,6 +65,9 @@ public class _0108_ConvertSortedArrayToBinarySearchTree {
         build(node, true, nums, low, mid - 1);
         build(node, false, nums, mid + 1, high);
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0108_ConvertSortedArrayToBinarySearchTree solution = new _0108_ConvertSortedArrayToBinarySearchTree();

@@ -43,6 +43,6 @@ image::images/0559-01.png[{image_attr}]
 [[src-0559]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0559_MaximumDepthOfNAryTree.java[]
+include::{sourcedir}/_0559_MaximumDepthOfNAryTree.java[tag=answer]
 ----
 

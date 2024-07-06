@@ -85,6 +85,6 @@ We can reach the end from starting indexes 1, 2, and 4.
 [[src-0975]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0975_OddEvenJump.java[]
+include::{sourcedir}/_0975_OddEvenJump.java[tag=answer]
 ----
 

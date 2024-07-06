@@ -38,6 +38,6 @@ So we return the level with the maximum sum which is level 2.
 [[src-1161]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1161_MaximumLevelSumOfABinaryTree.java[]
+include::{sourcedir}/_1161_MaximumLevelSumOfABinaryTree.java[tag=answer]
 ----
 

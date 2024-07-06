@@ -47,6 +47,6 @@ G = [0, 3, 1, 4]
 [[src-0817]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0817_LinkedListComponents.java[]
+include::{sourcedir}/_0817_LinkedListComponents.java[tag=answer]
 ----
 

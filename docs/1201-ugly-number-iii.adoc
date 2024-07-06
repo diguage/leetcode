@@ -60,6 +60,6 @@ Ugly numbers are* positive integers* which are divisible by `a` *or* `b` *or* `c
 [[src-1201]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1201_UglyNumberIII.java[]
+include::{sourcedir}/_1201_UglyNumberIII.java[tag=answer]
 ----
 

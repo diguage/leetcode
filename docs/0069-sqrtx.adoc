@@ -33,6 +33,6 @@ Since the return type is an integer, the decimal digits are truncated and only t
 [[src-0069]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0069_SqrtX.java[]
+include::{sourcedir}/_0069_SqrtX.java[tag=answer]
 ----
 

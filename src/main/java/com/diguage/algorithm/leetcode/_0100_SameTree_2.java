@@ -7,6 +7,7 @@ import com.diguage.algorithm.util.TreeNode;
  * @since 2024-06-23 23:09:02
  */
 public class _0100_SameTree_2 {
+  // tag::answer[]
   public boolean isSameTree(TreeNode p, TreeNode q) {
     if (p == null && q == null) {
       return true;
@@ -18,4 +19,5 @@ public class _0100_SameTree_2 {
     }
     return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
   }
+  // end::answer[]
 }

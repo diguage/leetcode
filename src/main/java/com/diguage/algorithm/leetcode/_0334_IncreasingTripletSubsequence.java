@@ -35,6 +35,7 @@ import java.util.Objects;
  * @since 2020-01-27 14:26
  */
 public class _0334_IncreasingTripletSubsequence {
+  // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Increasing Triplet Subsequence.
      *
@@ -84,6 +85,9 @@ public class _0334_IncreasingTripletSubsequence {
         }
         return false;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0334_IncreasingTripletSubsequence solution = new _0334_IncreasingTripletSubsequence();

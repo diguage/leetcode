@@ -16,6 +16,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-07 21:26
  */
 public class _0111_MinimumDepthOfBinaryTree_2 {
+  // tag::answer[]
 
     public int minDepth(TreeNode root) {
       if (Objects.isNull(root)) {
@@ -33,6 +34,9 @@ public class _0111_MinimumDepthOfBinaryTree_2 {
       }
       return result + 1;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0111_MinimumDepthOfBinaryTree_2 solution = new _0111_MinimumDepthOfBinaryTree_2();

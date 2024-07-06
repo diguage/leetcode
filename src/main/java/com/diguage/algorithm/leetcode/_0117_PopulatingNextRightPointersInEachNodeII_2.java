@@ -10,6 +10,7 @@ import static com.diguage.algorithm.leetcode._0116_PopulatingNextRightPointersIn
  * @since 2024-06-25 17:26:18
  */
 public class _0117_PopulatingNextRightPointersInEachNodeII_2 {
+  // tag::answer[]
 
   public Node connect(Node root) {
     if (root == null) {
@@ -36,4 +37,5 @@ public class _0117_PopulatingNextRightPointersInEachNodeII_2 {
     }
     return root;
   }
+  // end::answer[]
 }

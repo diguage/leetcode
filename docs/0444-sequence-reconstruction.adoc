@@ -8,6 +8,6 @@ https://leetcode.com/problems/sequence-reconstruction/[LeetCode - Sequence Recon
 [[src-0444]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0444_SequenceReconstruction.java[]
+include::{sourcedir}/_0444_SequenceReconstruction.java[tag=answer]
 ----
 

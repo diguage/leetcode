@@ -54,6 +54,6 @@ The distance between two adjacent cells is 1.
 [[src-0542]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0542_01Matrix.java[]
+include::{sourcedir}/_0542_01Matrix.java[tag=answer]
 ----
 

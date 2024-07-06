@@ -46,6 +46,6 @@ Special thanks to <a href="https://leetcode.com/pbrother/">@pbrother</a> for add
 [[src-0392]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0392_IsSubsequence.java[]
+include::{sourcedir}/_0392_IsSubsequence.java[tag=answer]
 ----
 

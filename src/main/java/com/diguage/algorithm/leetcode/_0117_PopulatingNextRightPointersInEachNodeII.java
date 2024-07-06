@@ -14,6 +14,7 @@ import static java.util.Arrays.asList;
  * @since 2020-02-09 23:17
  */
 public class _0117_PopulatingNextRightPointersInEachNodeII {
+  // tag::answer[]
 
     static class Node {
         public int val;
@@ -92,6 +93,9 @@ public class _0117_PopulatingNextRightPointersInEachNodeII {
         }
         return root;
     }
+
+  // end::answer[]
+
 
     public static void main(String[] args) {
         _0117_PopulatingNextRightPointersInEachNodeII solution = new _0117_PopulatingNextRightPointersInEachNodeII();

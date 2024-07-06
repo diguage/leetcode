@@ -8,6 +8,6 @@ https://leetcode.com/problems/split-array-with-equal-sum/[LeetCode - Split Array
 [[src-0548]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0548_SplitArrayWithEqualSum.java[]
+include::{sourcedir}/_0548_SplitArrayWithEqualSum.java[tag=answer]
 ----
 

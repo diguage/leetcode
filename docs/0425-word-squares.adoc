@@ -8,6 +8,6 @@ https://leetcode.com/problems/word-squares/[LeetCode - Word Squares]
 [[src-0425]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0425_WordSquares.java[]
+include::{sourcedir}/_0425_WordSquares.java[tag=answer]
 ----
 

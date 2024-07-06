@@ -65,6 +65,6 @@ image::https://assets.leetcode.com/uploads/2019/12/18/q2-e5-.png[{image_attr}]
 [[src-1305]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1305_AllElementsInTwoBinarySearchTrees.java[]
+include::{sourcedir}/_1305_AllElementsInTwoBinarySearchTrees.java[tag=answer]
 ----
 

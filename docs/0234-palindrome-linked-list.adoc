@@ -33,6 +33,6 @@ Could you do it in O(n) time and O(1) space?
 [[src-0234]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0234_PalindromeLinkedList.java[]
+include::{sourcedir}/_0234_PalindromeLinkedList.java[tag=answer]
 ----
 

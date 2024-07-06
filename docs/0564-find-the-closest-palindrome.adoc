@@ -28,6 +28,6 @@ The 'closest' is defined as absolute difference minimized between two integers.
 [[src-0564]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0564_FindTheClosestPalindrome.java[]
+include::{sourcedir}/_0564_FindTheClosestPalindrome.java[tag=answer]
 ----
 

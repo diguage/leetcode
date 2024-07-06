@@ -47,6 +47,6 @@ Now we have another string `p`. Your job is to find out how many unique non-empt
 [[src-0467]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0467_UniqueSubstringsInWraparoundString.java[]
+include::{sourcedir}/_0467_UniqueSubstringsInWraparoundString.java[tag=answer]
 ----
 

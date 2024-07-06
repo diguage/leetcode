@@ -47,6 +47,6 @@ hashSet.contains(2);    // returns false (already removed)
 [[src-0705]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0705_DesignHashSet.java[]
+include::{sourcedir}/_0705_DesignHashSet.java[tag=answer]
 ----
 

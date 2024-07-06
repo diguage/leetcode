@@ -51,6 +51,6 @@ Given a binary search tree, rearrange the tree in *in-order* so that the leftmos
 [[src-0897]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0897_IncreasingOrderSearchTree.java[]
+include::{sourcedir}/_0897_IncreasingOrderSearchTree.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/k-empty-slots/[LeetCode - K Empty Slots]
 [[src-0683]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0683_KEmptySlots.java[]
+include::{sourcedir}/_0683_KEmptySlots.java[tag=answer]
 ----
 

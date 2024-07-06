@@ -29,6 +29,12 @@ import java.util.Objects;
  * @since 2018-09-17 11:42
  */
 public class _0002_AddTwoNumbers {
+  // tag::answer[]
+
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2018-09-17 11:42
+   */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 //        ListNode h1 = l1;
 //        ListNode h2 = l2;
@@ -164,6 +170,9 @@ public class _0002_AddTwoNumbers {
 //        }
 //        return result;
     }
+
+
+  // end::answer[]
 
 
     public static void main(String[] args) {

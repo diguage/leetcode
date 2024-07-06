@@ -38,6 +38,6 @@ Your output is the whole `Person` table after executing your sql. Use `delete` s
 [[src-0196]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0196_DeleteDuplicateEmails.java[]
+include::{sourcedir}/_0196_DeleteDuplicateEmails.java[tag=answer]
 ----
 

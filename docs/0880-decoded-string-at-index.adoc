@@ -68,6 +68,6 @@ The decoded string is "a" repeated 8301530446056247680 times.  The 1st letter is
 [[src-0880]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0880_DecodedStringAtIndex.java[]
+include::{sourcedir}/_0880_DecodedStringAtIndex.java[tag=answer]
 ----
 

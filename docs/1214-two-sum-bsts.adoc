@@ -8,6 +8,6 @@ https://leetcode.com/problems/two-sum-bsts/[LeetCode - Two Sum BSTs]
 [[src-1214]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_1214_TwoSumBSTs.java[]
+include::{sourcedir}/_1214_TwoSumBSTs.java[tag=answer]
 ----
 

@@ -44,6 +44,6 @@ and that "hit" isn't the answer even though it occurs more because it is banned.
 [[src-0819]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0819_MostCommonWord.java[]
+include::{sourcedir}/_0819_MostCommonWord.java[tag=answer]
 ----
 

@@ -8,6 +8,6 @@ https://leetcode.com/problems/strobogrammatic-number-ii/[LeetCode - Strobogramma
 [[src-0247]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0247_StrobogrammaticNumberII.java[]
+include::{sourcedir}/_0247_StrobogrammaticNumberII.java[tag=answer]
 ----
 

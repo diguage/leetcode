@@ -40,6 +40,6 @@ Given a non-negative integer, you could swap two digits *at most* once to get th
 [[src-0670]]
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0670_MaximumSwap.java[]
+include::{sourcedir}/_0670_MaximumSwap.java[tag=answer]
 ----
 

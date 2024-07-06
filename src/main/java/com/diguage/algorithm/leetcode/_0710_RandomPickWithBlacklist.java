@@ -3,6 +3,11 @@ package com.diguage.algorithm.leetcode;
 import java.util.*;
 
 public class _0710_RandomPickWithBlacklist {
+  // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-07-05 22:30:53
+   */
   class Solution {
     Map<Integer, Integer> b2w;
     Random random;
@@ -46,4 +51,5 @@ public class _0710_RandomPickWithBlacklist {
       return b2w.getOrDefault(val, val);
     }
   }
+  // end::answer[]
 }
