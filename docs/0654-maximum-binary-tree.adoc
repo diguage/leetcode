@@ -45,6 +45,11 @@ image::images/0654-01.png[{image_attr}]
 include::{sourcedir}/_0654_MaximumBinaryTree.java[tag=answer]
 ----
 
+[{java_src_attr}]
+----
+include::{sourcedir}/_0654_MaximumBinaryTree_2.java[tag=answer]
+----
+
 === 二、单调栈
 
 image::images/0654-02.png[{image_attr}]
