@@ -5,7 +5,7 @@
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.diguage.algorithm</groupId>
+  <groupId>com.diguage.algo</groupId>
   <artifactId>leetcode</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
@@ -409,7 +409,7 @@
           <sourceDirectory>docs</sourceDirectory>
           <sourceDocumentName>index.adoc</sourceDocumentName>
           <attributes>
-            <sourcedir>${project.build.sourceDirectory}/com/diguage/algorithm/leetcode</sourcedir>
+            <sourcedir>${project.build.sourceDirectory}/com/diguage/algo/leetcode</sourcedir>
             <basedir>${project.basedir}</basedir>
             <doctype>book</doctype>
             <stem>latexmath</stem>
@@ -426,8 +426,8 @@
             <sectanchors>true</sectanchors>
             <graphvizdot>/usr/local/bin/dot</graphvizdot>
             <project_basedir>${project.basedir}</project_basedir>
-            <source_attr>linenums,indent=0,subs="attributes,verbatim,quotes"</source_attr>
-            <java_src_attr>source%nowrap,java,{source_attr}</java_src_attr>
+            <!-- <source_attr>linenums,indent=0,subs="attributes,verbatim,quotes"</source_attr> -->
+            <java_src_attr>source%nowrap,java,linenums,indent=0,subs="attributes,verbatim"</java_src_attr>
             <image_attr>align="center",width=95%</image_attr>
             <diagram_attr>format=svg,align="center",width=95%</diagram_attr>
             <plantumlconfig>${project.basedir}/cfg/plantuml.cfg</plantumlconfig>

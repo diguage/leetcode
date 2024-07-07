@@ -1,6 +1,6 @@
 package com.diguage.util;
 
-import com.diguage.algorithm.util.TreeNode;
+import com.diguage.algo.util.TreeNode;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

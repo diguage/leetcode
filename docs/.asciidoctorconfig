@@ -10,8 +10,7 @@
 :image_attr: align="center",width=95%
 :diagram_attr: format=svg,align="center",width=95%
 
-:sourcedir: {asciidoctorconfigdir}/../src/main/java/com/diguage/algorithm/leetcode
-:source_attr: linenums,indent=0,subs="attributes,verbatim,quotes"
-:java_src_attr: source%nowrap,java,{source_attr}
+:sourcedir: {asciidoctorconfigdir}/../src/main/java/com/diguage/algo/leetcode
+:java_src_attr: source%nowrap,java,indent=0,linenums,subs="attributes,verbatim,quotes"
 
 :doc_base_url: {asciidoctorconfigdir}/../docs

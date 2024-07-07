@@ -1,6 +1,6 @@
 package com.diguage.util;
 
-import com.diguage.algorithm.util.ListNode;
+import com.diguage.algo.util.ListNode;
 
 import java.util.List;
 import java.util.Objects;
