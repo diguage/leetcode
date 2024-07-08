@@ -277,6 +277,11 @@
 |{doc_base_url}/0912-sort-an-array.adoc[题解]
 |归并，快排都可以
 
+|{counter:codes}
+|{leetcode_base_url}/kth-smallest-element-in-a-bst/[230. Kth Smallest Element in a BST]
+|{doc_base_url}/0230-kth-smallest-element-in-a-bst.adoc[题解]
+|二叉树中根遍历
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
