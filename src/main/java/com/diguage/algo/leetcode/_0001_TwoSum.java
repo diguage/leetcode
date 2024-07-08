@@ -53,9 +53,8 @@ public class _0001_TwoSum {
     /**
      * 优化后的算法，时间复杂度减低为 `O(n)`， 空间复杂度提高了。
      *
-     * @param nums   数组
-     * @param target 目标
-     * @return 结果
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2018-07-13 23:31
      */
     public static int[] twoSumO1(int[] nums, int target) {
         if (nums == null || nums.length < 2) {
