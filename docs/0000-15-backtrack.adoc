@@ -20,3 +20,4 @@
 . https://leetcode.cn/problems/permutations/solutions/9914/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/[从全排列问题开始理解“回溯搜索”算法（深度优先遍历 + 状态重置 + 剪枝）^]
 . https://leetcode.cn/problems/n-queens/solutions/2566744/dai-ma-sui-xiang-lu-leetcode51nhuang-hou-hcat/[51. N 皇后 - 代码随想录^]
 . https://leetcode.cn/problems/n-queens-ii/solutions/449558/52-nhuang-hou-iihui-su-fa-jing-dian-wen-ti-xiang-j/[代码随想录」52. N皇后 II:【回溯法经典问题】详解^]
+. https://leetcode.cn/problems/subsets/solutions/229569/c-zong-jie-liao-hui-su-wen-ti-lei-xing-dai-ni-gao-/[78. 子集 - C++，总结了回溯问题类型，带你搞懂回溯算法(大量例题)^]

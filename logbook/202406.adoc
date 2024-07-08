@@ -282,6 +282,11 @@
 |{doc_base_url}/0230-kth-smallest-element-in-a-bst.adoc[题解]
 |二叉树中根遍历
 
+|{counter:codes}
+|{leetcode_base_url}/subsets/[78. Subsets]
+|{doc_base_url}/0078-subsets.adoc[题解]
+|回溯
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

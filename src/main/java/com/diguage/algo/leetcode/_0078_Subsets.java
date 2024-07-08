@@ -28,9 +28,6 @@ import java.util.stream.Collectors;
  *   []
  * ]
  * ----
- *
- * @author D瓜哥 · https://www.diguage.com
- * @since 2020-01-02 19:56
  */
 public class _0078_Subsets {
   // tag::answer[]
@@ -38,6 +35,9 @@ public class _0078_Subsets {
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Subsets.
      * 
      * Memory Usage: 37.1 MB, less than 99.18% of Java online submissions for Subsets.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-02 19:56
      */
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
