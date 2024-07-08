@@ -34,15 +34,26 @@ image::images/0005-01.png[]
 
 
 [[src-0005]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0005_LongestPalindromicSubstring.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0005_LongestPalindromicSubstring_2.java[tag=answer]
 ----
+--
+====
 
 == 参考资料
 
