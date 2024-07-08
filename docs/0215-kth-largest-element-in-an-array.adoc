@@ -3,14 +3,6 @@
 
 https://leetcode.com/problems/kth-largest-element-in-an-array/[LeetCode - Kth Largest Element in an Array]
 
-没想到竟然可以使用快排的套路来解决这个问题。
-
-image::images/0215-01.gif[{image_attr}]
-
-== 参考资料
-
-. https://en.wikipedia.org/wiki/Quickselect[Quickselect - Wikipedia]
-
 Find the *k*th largest element in an unsorted array. Note that it is the kth largest element in the sorted order, not the kth distinct element.
 
 *Example 1:*
@@ -35,7 +27,13 @@ Find the *k*th largest element in an unsorted array. Note that it is the kth lar
 
 You may assume k is always valid, 1 ≤ k ≤ array's length.
 
+== 思路分析
 
+没想到竟然可以使用快排的套路来解决这个问题。
+
+image::images/0215-01.gif[{image_attr}]
+
+image::images/0215-02.png[{image_attr}]
 
 [[src-0215]]
 [{java_src_attr}]
@@ -47,5 +45,11 @@ include::{sourcedir}/_0215_KthLargestElementInAnArray.java[tag=answer]
 ----
 include::{sourcedir}/_0215_KthLargestElementInAnArray_2.java[tag=answer]
 ----
+
+== 参考资料
+
+. https://en.wikipedia.org/wiki/Quickselect[Quickselect - Wikipedia]
+. https://leetcode.cn/problems/kth-largest-element-in-an-array/solutions/307351/shu-zu-zhong-de-di-kge-zui-da-yuan-su-by-leetcode-/[215. 数组中的第K个最大元素 - 官方题解^]
+. https://leetcode.cn/problems/kth-largest-element-in-an-array/solutions/2361969/215-shu-zu-zhong-de-di-k-ge-zui-da-yuan-d786p/[215. 数组中的第K个最大元素 - 分治，清晰图解^]
 
 

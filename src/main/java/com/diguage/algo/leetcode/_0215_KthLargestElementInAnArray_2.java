@@ -24,14 +24,14 @@ package com.diguage.algo.leetcode;
  * *Note:*
  *
  * You may assume k is always valid, 1 ≤ k ≤ array's length.
- *
- * @author D瓜哥 · https://www.diguage.com
- * @since 2020-01-26 18:00
  */
 public class _0215_KthLargestElementInAnArray_2 {
   // tag::answer[]
   /**
    * 参考 https://leetcode.cn/problems/kth-largest-element-in-an-array/solutions/307351/shu-zu-zhong-de-di-kge-zui-da-yuan-su-by-leetcode-/[数组中的第K个最大元素-题解^] 思路后，自己写出来的。
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-18 17:13
    */
   public int findKthLargest(int[] nums, int k) {
     int size = nums.length;
