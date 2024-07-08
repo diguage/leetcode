@@ -1,7 +1,7 @@
 [#0676-implement-magic-dictionary]
 = 676. Implement Magic Dictionary
 
-https://leetcode.com/problems/implement-magic-dictionary/[LeetCode - Implement Magic Dictionary]
+https://leetcode.com/problems/implement-magic-dictionary/[LeetCode - Implement Magic Dictionary^]
 
 
 Implement a magic directory with `buildDict`, and `search` methods.

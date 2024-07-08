@@ -1,7 +1,7 @@
 [#0094-binary-tree-inorder-traversal]
 = 94. Binary Tree Inorder Traversal
 
-https://leetcode.com/problems/binary-tree-inorder-traversal/[LeetCode - Binary Tree Inorder Traversal]
+https://leetcode.com/problems/binary-tree-inorder-traversal/[LeetCode - Binary Tree Inorder Traversal^]
 
 迭代的方式，还不是很理解，还需要再思考思考。
 

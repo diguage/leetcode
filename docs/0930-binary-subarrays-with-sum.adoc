@@ -1,7 +1,7 @@
 [#0930-binary-subarrays-with-sum]
 = 930. Binary Subarrays With Sum
 
-https://leetcode.com/problems/binary-subarrays-with-sum/[LeetCode - Binary Subarrays With Sum]
+https://leetcode.com/problems/binary-subarrays-with-sum/[LeetCode - Binary Subarrays With Sum^]
 
 In an array `A` of `0`s and `1`s, how many *non-empty* subarrays have sum `S`?
 

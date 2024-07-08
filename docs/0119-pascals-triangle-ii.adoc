@@ -1,7 +1,7 @@
 [#0119-pascals-triangle-ii]
 = 119. Pascal's Triangle II
 
-https://leetcode.com/problems/pascals-triangle-ii/[LeetCode - Pascal's Triangle II]
+https://leetcode.com/problems/pascals-triangle-ii/[LeetCode - Pascal's Triangle II^]
 
 Given a non-negative index _k_ where _k_ ≤ 33, return the _k_^th^ index row of the Pascal's triangle.
 

@@ -1,7 +1,7 @@
 [#0217-contains-duplicate]
 = 217. Contains Duplicate
 
-https://leetcode.com/problems/contains-duplicate/[LeetCode - Contains Duplicate]
+https://leetcode.com/problems/contains-duplicate/[LeetCode - Contains Duplicate^]
 
 Given an array of integers, find if the array contains any duplicates.
 

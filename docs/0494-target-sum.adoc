@@ -1,7 +1,7 @@
 [#0494-target-sum]
 = 494. Target Sum
 
-https://leetcode.com/problems/target-sum/[LeetCode - Target Sum]
+https://leetcode.com/problems/target-sum/[LeetCode - Target Sum^]
 
 You are given a list of non-negative integers, a1, a2, ..., an, and a target, S. Now you have 2 symbols `+` and `-`. For each integer, you should choose one from `+` and `-` as its new symbol.
 
@@ -39,8 +39,8 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/target-sum/solution/mu-biao-he-by-leetcode/[目标和 - 目标和 - 力扣（LeetCode）]
-. https://leetcode-cn.com/problems/target-sum/solution/dong-tai-gui-hua-ji-bai-liao-98de-javayong-hu-by-r/[动态规划击败了98%的java用户 - 目标和 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/target-sum/solution/mu-biao-he-by-leetcode/[目标和 - 目标和 - 力扣（LeetCode）^]
+. https://leetcode-cn.com/problems/target-sum/solution/dong-tai-gui-hua-ji-bai-liao-98de-javayong-hu-by-r/[动态规划击败了98%的java用户 - 目标和 - 力扣（LeetCode）^]
 
 
 

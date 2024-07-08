@@ -1,7 +1,7 @@
 [#0386-lexicographical-numbers]
 = 386. Lexicographical Numbers
 
-https://leetcode.com/problems/lexicographical-numbers/[LeetCode - Lexicographical Numbers]
+https://leetcode.com/problems/lexicographical-numbers/[LeetCode - Lexicographical Numbers^]
 
 Given an integer _n_, return 1 - _n_ in lexicographical order.
 

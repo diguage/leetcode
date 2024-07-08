@@ -1,7 +1,7 @@
 [#0402-remove-k-digits]
 = 402. Remove K Digits
 
-https://leetcode.com/problems/remove-k-digits/[LeetCode - Remove K Digits]
+https://leetcode.com/problems/remove-k-digits/[LeetCode - Remove K Digits^]
 
 Given a non-negative integer _num_ represented as a string, remove _k_ digits from the number so that the new number is the smallest possible.
 

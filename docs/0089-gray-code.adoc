@@ -1,7 +1,7 @@
 [#0089-gray-code]
 = 89. Gray Code
 
-https://leetcode.com/problems/gray-code/[LeetCode - Gray Code]
+https://leetcode.com/problems/gray-code/[LeetCode - Gray Code^]
 
 The gray code is a binary numeral system where two successive values differ in only one bit.
 
@@ -57,9 +57,9 @@ image::images/0089-3.png[{image_attr}]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/gray-code/solution/gray-code-jing-xiang-fan-she-fa-by-jyd/[Gray Code （镜像反射法，图解） - 格雷编码 - 力扣（LeetCode）]
-. https://en.wikipedia.org/wiki/Gray_code[Gray code - Wikipedia]
-. http://mathworld.wolfram.com/GrayCode.html[Gray Code -- from Wolfram MathWorld]
+. https://leetcode-cn.com/problems/gray-code/solution/gray-code-jing-xiang-fan-she-fa-by-jyd/[Gray Code （镜像反射法，图解） - 格雷编码 - 力扣（LeetCode）^]
+. https://en.wikipedia.org/wiki/Gray_code[Gray code - Wikipedia^]
+. http://mathworld.wolfram.com/GrayCode.html[Gray Code -- from Wolfram MathWorld^]
 
 
 The gray code is a binary numeral system where two successive values differ in only one bit.

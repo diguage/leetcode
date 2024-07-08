@@ -1,7 +1,7 @@
 [#0263-ugly-number]
 = 263. Ugly Number
 
-https://leetcode.com/problems/ugly-number/[LeetCode - Ugly Number]
+https://leetcode.com/problems/ugly-number/[LeetCode - Ugly Number^]
 
 Write a program to check whether a given number is an ugly number.
 

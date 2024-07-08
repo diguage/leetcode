@@ -1,13 +1,13 @@
 [#0191-number-of-1-bits]
 = 191. Number of 1 Bits
 
-https://leetcode.com/problems/number-of-1-bits/[LeetCode - Number of 1 Bits]
+https://leetcode.com/problems/number-of-1-bits/[LeetCode - Number of 1 Bits^]
 
 image::images/0191-1.png[{image_attr}]
 
 减法解法让人开眼界。但是有一个疑问：它的效率就一定高吗？
 
-Write a function that takes an unsigned integer and return the number of '1' bits it has (also known as the http://en.wikipedia.org/wiki/Hamming_weight[Hamming weight]).
+Write a function that takes an unsigned integer and return the number of '1' bits it has (also known as the http://en.wikipedia.org/wiki/Hamming_weight[Hamming weight^]).
 
  
 
@@ -46,7 +46,7 @@ Write a function that takes an unsigned integer and return the number of '1' bit
 
 
 * Note that in some languages such as Java, there is no unsigned integer type. In this case, the input will be given as signed integer type and should not affect your implementation, as the internal binary representation of the integer is the same whether it is signed or unsigned.
-* In Java, the compiler represents the signed integers using https://en.wikipedia.org/wiki/Two%27s_complement[2's complement notation]. Therefore, in *Example 3* above the input represents the signed integer `-3`.
+* In Java, the compiler represents the signed integers using https://en.wikipedia.org/wiki/Two%27s_complement[2's complement notation^]. Therefore, in *Example 3* above the input represents the signed integer `-3`.
 
 
  

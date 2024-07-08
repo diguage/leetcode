@@ -1,7 +1,7 @@
 [#0674-longest-continuous-increasing-subsequence]
 = 674. Longest Continuous Increasing Subsequence
 
-https://leetcode.com/problems/longest-continuous-increasing-subsequence/[LeetCode - Longest Continuous Increasing Subsequence]
+https://leetcode.com/problems/longest-continuous-increasing-subsequence/[LeetCode - Longest Continuous Increasing Subsequence^]
 
 
 Given an unsorted array of integers, find the length of longest `continuous` increasing subsequence (subarray).

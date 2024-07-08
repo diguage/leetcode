@@ -1,7 +1,7 @@
 [#0019-remove-nth-node-from-end-of-list]
 = 19. Remove Nth Node From End of List
 
-https://leetcode.com/problems/remove-nth-node-from-end-of-list/[LeetCode - Remove Nth Node From End of List]
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/[LeetCode - Remove Nth Node From End of List^]
 
 Given a linked list, remove the _n_-th node from the end of list and return its head.
 
@@ -36,4 +36,4 @@ include::{sourcedir}/_0019_RemoveNthNodeFromEndOfList.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-by-l/[删除链表的倒数第N个节点 - 删除链表的倒数第N个节点 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-by-l/[删除链表的倒数第N个节点 - 删除链表的倒数第N个节点 - 力扣（LeetCode）^]

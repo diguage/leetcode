@@ -1,7 +1,7 @@
 [#1143-longest-common-subsequence]
 = 1143. Longest Common Subsequence
 
-https://leetcode.com/problems/longest-common-subsequence/[LeetCode - Longest Common Subsequence]
+https://leetcode.com/problems/longest-common-subsequence/[LeetCode - Longest Common Subsequence^]
 
 Given two strings `text1` and `text2`, return the length of their longest common subsequence.
 

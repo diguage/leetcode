@@ -1,6 +1,6 @@
 = 36. Valid Sudoku
 
-https://leetcode.com/problems/valid-sudoku/[LeetCode - Valid Sudoku]
+https://leetcode.com/problems/valid-sudoku/[LeetCode - Valid Sudoku^]
 
 image::images/0036-valid-sudoku.png[{image_attr}]
 

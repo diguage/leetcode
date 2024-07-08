@@ -1,7 +1,7 @@
 [#1001-grid-illumination]
 = 1001. Grid Illumination
 
-https://leetcode.com/problems/grid-illumination/[LeetCode - Grid Illumination]
+https://leetcode.com/problems/grid-illumination/[LeetCode - Grid Illumination^]
 
 On a `N x N` grid of cells, each cell `(x, y)` with `0 <= x < N` and `0 <= y < N` has a lamp.
 

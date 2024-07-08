@@ -1,7 +1,7 @@
 [#1000-minimum-cost-to-merge-stones]
 = 1000. Minimum Cost to Merge Stones
 
-https://leetcode.com/problems/minimum-cost-to-merge-stones/[LeetCode - Minimum Cost to Merge Stones]
+https://leetcode.com/problems/minimum-cost-to-merge-stones/[LeetCode - Minimum Cost to Merge Stones^]
 
 There are `N` piles of stones arranged in a row.  The `i`-th pile has `stones[i]` stones.
 

@@ -1,7 +1,7 @@
 [#0070-climbing-stairs]
 = 70. Climbing Stairs
 
-https://leetcode.com/problems/climbing-stairs/[LeetCode - Climbing Stairs]
+https://leetcode.com/problems/climbing-stairs/[LeetCode - Climbing Stairs^]
 
 You are climbing a stair case. It takes _n_ steps to reach to the top.
 
@@ -44,7 +44,7 @@ image::images/0070-1.png[{image_attr}]
 
 到这里就很明显了，这是一个斐波那契数列。
 
-让 D瓜哥 使用 https://www.diguage.com/post/dynamic-programming/[动态规划的模式] 来重新解读一下：
+让 D瓜哥 使用 https://www.diguage.com/post/dynamic-programming/[动态规划的模式^] 来重新解读一下：
 
 . 刻画一个最优解的结构特征：跳到第 n 个台阶最多的跳法。
 . 递归地定义最优解的值： `dp[n] = dp[n-2] + dp[n-1]`。

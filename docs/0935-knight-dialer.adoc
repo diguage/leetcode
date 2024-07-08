@@ -1,7 +1,7 @@
 [#0935-knight-dialer]
 = 935. Knight Dialer
 
-https://leetcode.com/problems/knight-dialer/[LeetCode - Knight Dialer]
+https://leetcode.com/problems/knight-dialer/[LeetCode - Knight Dialer^]
 
 A chess knight can move as indicated in the chess diagram below:
 

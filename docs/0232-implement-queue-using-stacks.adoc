@@ -1,7 +1,7 @@
 [#0232-implement-queue-using-stacks]
 = 232. Implement Queue using Stacks
 
-https://leetcode.com/problems/implement-queue-using-stacks/[LeetCode - Implement Queue using Stacks]
+https://leetcode.com/problems/implement-queue-using-stacks/[LeetCode - Implement Queue using Stacks^]
 
 Implement the following operations of a queue using stacks.
 

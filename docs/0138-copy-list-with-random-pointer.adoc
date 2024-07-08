@@ -1,11 +1,11 @@
 [#0138-copy-list-with-random-pointer]
 = 138. Copy List with Random Pointer
 
-https://leetcode.com/problems/copy-list-with-random-pointer/[LeetCode - Copy List with Random Pointer]
+https://leetcode.com/problems/copy-list-with-random-pointer/[LeetCode - Copy List with Random Pointer^]
 
 A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
 
-Return a https://en.wikipedia.org/wiki/Object_copying#Deep_copy[*deep copy*] of the list.
+Return a https://en.wikipedia.org/wiki/Object_copying#Deep_copy[*deep copy*^] of the list.
 
 The Linked List is represented in the input/output as a list of `n` nodes. Each node is represented as a pair of `[val, random_index]` where:
 

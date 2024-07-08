@@ -1,7 +1,7 @@
 [#1014-best-sightseeing-pair]
 = 1014. Best Sightseeing Pair
 
-https://leetcode.com/problems/best-sightseeing-pair/[LeetCode - Best Sightseeing Pair]
+https://leetcode.com/problems/best-sightseeing-pair/[LeetCode - Best Sightseeing Pair^]
 
 Given an array `A` of positive integers, `A[i]` represents the value of the `i`-th sightseeing spot, and two sightseeing spots `i` and `j` have distance `j - i` between them.
 

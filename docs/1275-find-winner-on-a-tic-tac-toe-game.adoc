@@ -1,7 +1,7 @@
 [#1275-find-winner-on-a-tic-tac-toe-game]
 = 1275. Find Winner on a Tic Tac Toe Game
 
-https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/[LeetCode - Find Winner on a Tic Tac Toe Game]
+https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/[LeetCode - Find Winner on a Tic Tac Toe Game^]
 
 Tic-tac-toe is played by two players _A_ and _B_ on a _3_ x _3_ grid.
 

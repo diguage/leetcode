@@ -1,7 +1,7 @@
 [#0037-sudoku-solver]
 = 37. Sudoku Solver
 
-https://leetcode.com/problems/sudoku-solver/[LeetCode - Sudoku Solver]
+https://leetcode.com/problems/sudoku-solver/[LeetCode - Sudoku Solver^]
 
 Write a program to solve a Sudoku puzzle by filling the empty cells.
 
@@ -41,5 +41,5 @@ include::{sourcedir}/_0037_SudokuSolver.java[tag=answer]
 
 == 参考资料
 
-. https://mp.weixin.qq.com/s/VCirGskFGPln-S2LGFTgKg[搞懂回溯算法，我终于能做数独了]
+. https://mp.weixin.qq.com/s/VCirGskFGPln-S2LGFTgKg[搞懂回溯算法，我终于能做数独了^]
 

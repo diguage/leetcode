@@ -1,7 +1,7 @@
 [#0009-palindrome-number]
 = 9. Palindrome Number
 
-https://leetcode.com/problems/palindrome-number/[LeetCode - Palindrome Number]
+https://leetcode.com/problems/palindrome-number/[LeetCode - Palindrome Number^]
 
 Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
 
@@ -44,5 +44,5 @@ include::{sourcedir}/_0009_PalindromeNumber.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/palindrome-number/solution/hui-wen-shu-by-leetcode/[回文数 - 回文数 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/palindrome-number/solution/hui-wen-shu-by-leetcode/[回文数 - 回文数 - 力扣（LeetCode）^]
 

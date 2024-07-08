@@ -1,7 +1,7 @@
 [#1027-longest-arithmetic-sequence]
 = 1027. Longest Arithmetic Sequence
 
-https://leetcode.com/problems/longest-arithmetic-sequence/[LeetCode - Longest Arithmetic Sequence]
+https://leetcode.com/problems/longest-arithmetic-sequence/[LeetCode - Longest Arithmetic Sequence^]
 
 Given an array `A` of integers, return the *length* of the longest arithmetic subsequence in `A`.
 

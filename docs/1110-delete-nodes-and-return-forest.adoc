@@ -1,7 +1,7 @@
 [#1110-delete-nodes-and-return-forest]
 = 1110. Delete Nodes And Return Forest
 
-https://leetcode.com/problems/delete-nodes-and-return-forest/[LeetCode - Delete Nodes And Return Forest]
+https://leetcode.com/problems/delete-nodes-and-return-forest/[LeetCode - Delete Nodes And Return Forest^]
 
 Given the `root` of a binary tree, each node in the tree has a distinct value.
 

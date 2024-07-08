@@ -1,7 +1,7 @@
 [#0521-longest-uncommon-subsequence-i]
 = 521. Longest Uncommon Subsequence I 
 
-https://leetcode.com/problems/longest-uncommon-subsequence-i/[LeetCode - Longest Uncommon Subsequence I ]
+https://leetcode.com/problems/longest-uncommon-subsequence-i/[LeetCode - Longest Uncommon Subsequence I ^]
 
 
 Given a group of two strings, you need to find the longest uncommon subsequence of this group of two strings.

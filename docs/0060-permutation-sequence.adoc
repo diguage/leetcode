@@ -1,7 +1,7 @@
 [#0060-permutation-sequence]
 = 60. Permutation Sequence
 
-https://leetcode.com/problems/permutation-sequence/[LeetCode - Permutation Sequence]
+https://leetcode.com/problems/permutation-sequence/[LeetCode - Permutation Sequence^]
 
 The set `[1,2,3,...,n]` contains a total of n! unique permutations.
 
@@ -49,7 +49,7 @@ image::images/0060-6.png[{image_attr}]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/permutation-sequence/solution/hui-su-jian-zhi-python-dai-ma-java-dai-ma-by-liwei/[深度优先遍历 + 剪枝、双链表模拟 - 第k个排列 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/permutation-sequence/solution/hui-su-jian-zhi-python-dai-ma-java-dai-ma-by-liwei/[深度优先遍历 + 剪枝、双链表模拟 - 第k个排列 - 力扣（LeetCode）^]
 
 The set `[1,2,3,...,_n_]` contains a total of _n_! unique permutations.
 

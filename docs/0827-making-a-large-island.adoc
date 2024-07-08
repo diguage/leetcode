@@ -1,7 +1,7 @@
 [#0827-making-a-large-island]
 = 827. Making A Large Island
 
-https://leetcode.com/problems/making-a-large-island/[LeetCode - Making A Large Island]
+https://leetcode.com/problems/making-a-large-island/[LeetCode - Making A Large Island^]
 
 In a 2D grid of `0`s and `1`s, we change at most one `0` to a `1`.
 

@@ -1,9 +1,9 @@
 [#0041-first-missing-positive]
 = 41. First Missing Positive
 
-https://leetcode.com/problems/first-missing-positive/[LeetCode - First Missing Positive]
+https://leetcode.com/problems/first-missing-positive/[LeetCode - First Missing Positive^]
 
-这道题跟 https://leetcode.com/problems/missing-number/[268. Missing Number - LeetCode] 很像！
+这道题跟 https://leetcode.com/problems/missing-number/[268. Missing Number - LeetCode^] 很像！
 
 
 Given an unsorted integer array, find the smallest missing positive integer.

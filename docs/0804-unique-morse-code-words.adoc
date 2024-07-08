@@ -1,7 +1,7 @@
 [#0804-unique-morse-code-words]
 = 804. Unique Morse Code Words
 
-https://leetcode.com/problems/unique-morse-code-words/[LeetCode - Unique Morse Code Words]
+https://leetcode.com/problems/unique-morse-code-words/[LeetCode - Unique Morse Code Words^]
 
 International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes, as follows: `"a"` maps to `".-"`, `"b"` maps to `"-..."`, `"c"` maps to `"-.-."`, and so on.
 

@@ -1,7 +1,7 @@
 [#1024-video-stitching]
 = 1024. Video Stitching
 
-https://leetcode.com/problems/video-stitching/[LeetCode - Video Stitching]
+https://leetcode.com/problems/video-stitching/[LeetCode - Video Stitching^]
 
 You are given a series of video clips from a sporting event that lasted `T` seconds.  These video clips can be overlapping with each other and have varied lengths.
 

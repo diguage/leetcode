@@ -1,7 +1,7 @@
 [#0442-find-all-duplicates-in-an-array]
 = 442. Find All Duplicates in an Array
 
-https://leetcode.com/problems/find-all-duplicates-in-an-array/[LeetCode - Find All Duplicates in an Array]
+https://leetcode.com/problems/find-all-duplicates-in-an-array/[LeetCode - Find All Duplicates in an Array^]
 
 Given an array of integers, 1 ≤ a[i] ≤ _n_ (_n_ = size of array), some elements appear *twice* and others appear *once*.
 

@@ -1,7 +1,7 @@
 [#0847-shortest-path-visiting-all-nodes]
 = 847. Shortest Path Visiting All Nodes
 
-https://leetcode.com/problems/shortest-path-visiting-all-nodes/[LeetCode - Shortest Path Visiting All Nodes]
+https://leetcode.com/problems/shortest-path-visiting-all-nodes/[LeetCode - Shortest Path Visiting All Nodes^]
 
 An undirected, connected graph of N nodes (labeled `0, 1, 2, ..., N-1`) is given as `graph`.
 

@@ -1,7 +1,7 @@
 [#0080-remove-duplicates-from-sorted-array-ii]
 = 80. Remove Duplicates from Sorted Array II
 
-https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/[LeetCode - Remove Duplicates from Sorted Array II]
+https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/[LeetCode - Remove Duplicates from Sorted Array II^]
 
 Given a sorted array `nums`, remove the duplicates in-place such that duplicates appeared at most *twice* and return the new length.
 
@@ -50,11 +50,11 @@ for (int i = 0; i < len; i++) {
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/solution/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang-i-7/[删除排序数组中的重复项 II - 删除排序数组中的重复项 II - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/solution/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang-i-7/[删除排序数组中的重复项 II - 删除排序数组中的重复项 II - 力扣（LeetCode）^]
 
-Given a sorted array _nums_, remove the duplicates https://en.wikipedia.org/wiki/In-place_algorithm[*in-place*] such that duplicates appeared at most _twice_ and return the new length.
+Given a sorted array _nums_, remove the duplicates https://en.wikipedia.org/wiki/In-place_algorithm[*in-place*^] such that duplicates appeared at most _twice_ and return the new length.
 
-Do not allocate extra space for another array, you must do this by *modifying the input array https://en.wikipedia.org/wiki/In-place_algorithm[in-place]* with O(1) extra memory.
+Do not allocate extra space for another array, you must do this by *modifying the input array https://en.wikipedia.org/wiki/In-place_algorithm[in-place^]* with O(1) extra memory.
 
 *Example 1:*
 

@@ -1,7 +1,7 @@
 [#1035-uncrossed-lines]
 = 1035. Uncrossed Lines
 
-https://leetcode.com/problems/uncrossed-lines/[LeetCode - Uncrossed Lines]
+https://leetcode.com/problems/uncrossed-lines/[LeetCode - Uncrossed Lines^]
 
 We write the integers of `A` and `B` (in the order they are given) on two separate horizontal lines.
 

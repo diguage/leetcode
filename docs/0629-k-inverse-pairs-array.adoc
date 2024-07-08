@@ -1,7 +1,7 @@
 [#0629-k-inverse-pairs-array]
 = 629. K Inverse Pairs Array
 
-https://leetcode.com/problems/k-inverse-pairs-array/[LeetCode - K Inverse Pairs Array]
+https://leetcode.com/problems/k-inverse-pairs-array/[LeetCode - K Inverse Pairs Array^]
 
 Given two integers `n` and `k`, find how many different arrays consist of numbers from `1` to `n` such that there are exactly `k` inverse pairs.
 

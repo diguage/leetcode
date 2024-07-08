@@ -1,7 +1,7 @@
 [#0109-convert-sorted-list-to-binary-search-tree]
 = 109. Convert Sorted List to Binary Search Tree
 
-https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/[LeetCode - Convert Sorted List to Binary Search Tree]
+https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/[LeetCode - Convert Sorted List to Binary Search Tree^]
 
 Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
 
@@ -31,7 +31,7 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/solution/you-xu-lian-biao-zhuan-huan-er-cha-sou-suo-shu-by-/[有序链表转换二叉搜索树 - 有序链表转换二叉搜索树 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/solution/you-xu-lian-biao-zhuan-huan-er-cha-sou-suo-shu-by-/[有序链表转换二叉搜索树 - 有序链表转换二叉搜索树 - 力扣（LeetCode）^]
 
 
 [[src-0109]]

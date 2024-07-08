@@ -1,7 +1,7 @@
 [#0166-fraction-to-recurring-decimal]
 = 166. Fraction to Recurring Decimal
 
-https://leetcode.com/problems/fraction-to-recurring-decimal/[LeetCode - Fraction to Recurring Decimal]
+https://leetcode.com/problems/fraction-to-recurring-decimal/[LeetCode - Fraction to Recurring Decimal^]
 
 需要注意的是是：在 Map 中放的是被除数，而不是计算出来的位数digit。这样更方便处理！
 

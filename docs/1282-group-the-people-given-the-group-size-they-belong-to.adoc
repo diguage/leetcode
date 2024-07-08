@@ -1,7 +1,7 @@
 [#1282-group-the-people-given-the-group-size-they-belong-to]
 = 1282. Group the People Given the Group Size They Belong To
 
-https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/[LeetCode - Group the People Given the Group Size They Belong To]
+https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/[LeetCode - Group the People Given the Group Size They Belong To^]
 
 There are `n` people whose *IDs* go from `0` to `n - 1` and each person belongs *exactly* to one group. Given the array `groupSizes` of length `n` telling the group size each person belongs to, return the groups there are and the people's *IDs* each group includes.
 

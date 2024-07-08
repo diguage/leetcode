@@ -1,7 +1,7 @@
 [#0766-toeplitz-matrix]
 = 766. Toeplitz Matrix
 
-https://leetcode.com/problems/toeplitz-matrix/[LeetCode - Toeplitz Matrix]
+https://leetcode.com/problems/toeplitz-matrix/[LeetCode - Toeplitz Matrix^]
 
 A matrix is _Toeplitz_ if every diagonal from top-left to bottom-right has the same element.
 

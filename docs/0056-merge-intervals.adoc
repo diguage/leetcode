@@ -1,7 +1,7 @@
 [#0056-merge-intervals]
 = 56. Merge Intervals
 
-https://leetcode.com/problems/merge-intervals/[LeetCode - Merge Intervals]
+https://leetcode.com/problems/merge-intervals/[LeetCode - Merge Intervals^]
 
 Given a collection of intervals, merge all overlapping intervals.
 

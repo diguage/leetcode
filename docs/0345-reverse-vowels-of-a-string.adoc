@@ -1,7 +1,7 @@
 [#0345-reverse-vowels-of-a-string]
 = 345. Reverse Vowels of a String
 
-https://leetcode.com/problems/reverse-vowels-of-a-string/[LeetCode - Reverse Vowels of a String]
+https://leetcode.com/problems/reverse-vowels-of-a-string/[LeetCode - Reverse Vowels of a String^]
 
 Write a function that takes a string as input and reverse only the vowels of a string.
 

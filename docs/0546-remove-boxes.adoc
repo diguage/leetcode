@@ -1,7 +1,7 @@
 [#0546-remove-boxes]
 = 546. Remove Boxes
 
-https://leetcode.com/problems/remove-boxes/[LeetCode - Remove Boxes]
+https://leetcode.com/problems/remove-boxes/[LeetCode - Remove Boxes^]
 
 Given several boxes with different colors represented by different positive numbers. 
 

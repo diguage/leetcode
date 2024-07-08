@@ -1,7 +1,7 @@
 [#0872-leaf-similar-trees]
 = 872. Leaf-Similar Trees
 
-https://leetcode.com/problems/leaf-similar-trees/[LeetCode - Leaf-Similar Trees]
+https://leetcode.com/problems/leaf-similar-trees/[LeetCode - Leaf-Similar Trees^]
 
 Consider all the leaves of a binary tree.  From left to right order, the values of those leaves form a _leaf value sequence._
 

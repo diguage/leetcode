@@ -1,7 +1,7 @@
 [#0965-univalued-binary-tree]
 = 965. Univalued Binary Tree
 
-https://leetcode.com/problems/univalued-binary-tree/[LeetCode - Univalued Binary Tree]
+https://leetcode.com/problems/univalued-binary-tree/[LeetCode - Univalued Binary Tree^]
 
 A binary tree is _univalued_ if every node in the tree has the same value.
 

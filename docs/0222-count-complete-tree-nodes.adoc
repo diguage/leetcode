@@ -1,13 +1,13 @@
 [#0222-count-complete-tree-nodes]
 = 222. Count Complete Tree Nodes
 
-https://leetcode.com/problems/count-complete-tree-nodes/[LeetCode - Count Complete Tree Nodes]
+https://leetcode.com/problems/count-complete-tree-nodes/[LeetCode - Count Complete Tree Nodes^]
 
 Given a *complete* binary tree, count the number of nodes.
 
 *Note: *
 
-*[.underline]#Definition of a complete binary tree from http://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees[Wikipedia]:#*
+*[.underline]#Definition of a complete binary tree from http://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees[Wikipedia^]:#*
 
 
 In a complete binary tree every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible. It can have between 1 and 2^h^ nodes inclusive at the last level h.

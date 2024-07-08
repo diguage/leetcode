@@ -1,7 +1,7 @@
 [#0834-sum-of-distances-in-tree]
 = 834. Sum of Distances in Tree
 
-https://leetcode.com/problems/sum-of-distances-in-tree/[LeetCode - Sum of Distances in Tree]
+https://leetcode.com/problems/sum-of-distances-in-tree/[LeetCode - Sum of Distances in Tree^]
 
 An undirected, connected tree with `N` nodes labelled `0...N-1` and `N-1` `edges` are given.
 

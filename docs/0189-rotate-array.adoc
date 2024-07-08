@@ -1,7 +1,7 @@
 [#0189-rotate-array]
 = 189. Rotate Array
 
-https://leetcode.com/problems/rotate-array/[LeetCode - Rotate Array]
+https://leetcode.com/problems/rotate-array/[LeetCode - Rotate Array^]
 
 发现官网测试用例少了一个特殊情况：如果 `k` 大于两倍数组长度，提交的测试就会报错，但是官网却显示通过。
 

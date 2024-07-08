@@ -1,7 +1,7 @@
 [#0828-unique-letter-string]
 = 828. Unique Letter String
 
-https://leetcode.com/problems/unique-letter-string/[LeetCode - Unique Letter String]
+https://leetcode.com/problems/unique-letter-string/[LeetCode - Unique Letter String^]
 
 A character is unique in string `S` if it occurs exactly once in it.
 

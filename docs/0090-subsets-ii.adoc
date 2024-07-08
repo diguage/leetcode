@@ -1,7 +1,7 @@
 [#0090-subsets-ii]
 = 90. Subsets II
 
-https://leetcode.com/problems/subsets-ii/[LeetCode - Subsets II]
+https://leetcode.com/problems/subsets-ii/[LeetCode - Subsets II^]
 
 Given a collection of integers that might contain duplicates, `nums`, return all possible subsets (the power set).
 
@@ -37,7 +37,7 @@ image::images/0090-1.png[{image_attr}]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/subsets-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-19/[详细通俗的思路分析，多解法 - 子集 II - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/subsets-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-19/[详细通俗的思路分析，多解法 - 子集 II - 力扣（LeetCode）^]
 
 Given a collection of integers that might contain duplicates, *_nums_*, return all possible subsets (the power set).
 

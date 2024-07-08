@@ -1,7 +1,7 @@
 [#0081-search-in-rotated-sorted-array-ii]
 = 81. Search in Rotated Sorted Array II
 
-https://leetcode.com/problems/search-in-rotated-sorted-array-ii/[LeetCode - Search in Rotated Sorted Array II]
+https://leetcode.com/problems/search-in-rotated-sorted-array-ii/[LeetCode - Search in Rotated Sorted Array II^]
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 
@@ -34,7 +34,7 @@ Output: false
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/solution/zai-javazhong-ji-bai-liao-100de-yong-hu-by-reedfan/[搜索旋转排序数组 II - 搜索旋转排序数组 II - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/solution/zai-javazhong-ji-bai-liao-100de-yong-hu-by-reedfan/[搜索旋转排序数组 II - 搜索旋转排序数组 II - 力扣（LeetCode）^]
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 

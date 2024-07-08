@@ -1,7 +1,7 @@
 [#1094-car-pooling]
 = 1094. Car Pooling
 
-https://leetcode.com/problems/car-pooling/[LeetCode - Car Pooling]
+https://leetcode.com/problems/car-pooling/[LeetCode - Car Pooling^]
 
 You are driving a vehicle that has `capacity` empty seats initially available for passengers.  The vehicle *only* drives east (ie. it *cannot* turn around and drive west.)
 

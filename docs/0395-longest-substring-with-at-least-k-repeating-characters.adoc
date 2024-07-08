@@ -1,7 +1,7 @@
 [#0395-longest-substring-with-at-least-k-repeating-characters]
 = 395. Longest Substring with At Least K Repeating Characters
 
-https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/[LeetCode - Longest Substring with At Least K Repeating Characters]
+https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/[LeetCode - Longest Substring with At Least K Repeating Characters^]
 
 Find the length of the longest substring *_T_* of a given string (consists of lowercase letters only) such that every character in *_T_* appears no less than _k_ times.
 
@@ -33,7 +33,7 @@ The longest substring is "ababb", as 'a' is repeated 2 times and 'b' is repeated
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/solution/javadi-gui-by-tzfun/[Java递归 - 至少有K个重复字符的最长子串 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/solution/javadi-gui-by-tzfun/[Java递归 - 至少有K个重复字符的最长子串 - 力扣（LeetCode）^]
 
 
 Find the length of the longest substring *_T_* of a given string (consists of lowercase letters only) such that every character in *_T_* appears no less than _k_ times.

@@ -1,7 +1,7 @@
 [#0179-largest-number]
 = 179. Largest Number
 
-https://leetcode.com/problems/largest-number/[LeetCode - Largest Number]
+https://leetcode.com/problems/largest-number/[LeetCode - Largest Number^]
 
 这道题很容易想到需要根据数字的字符串大小进行倒序排列（目的是将首个数字比较大的数字排在前面）。很容想到需要自定义 `Comparator`。最简单省事的方式就是直接将排序的两个字符串相加（左右，右左）进行比较就可以了。
 

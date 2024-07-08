@@ -1,7 +1,7 @@
 [#0114-flatten-binary-tree-to-linked-list]
 = 114. Flatten Binary Tree to Linked List
 
-https://leetcode.com/problems/flatten-binary-tree-to-linked-list/[LeetCode - Flatten Binary Tree to Linked List]
+https://leetcode.com/problems/flatten-binary-tree-to-linked-list/[LeetCode - Flatten Binary Tree to Linked List^]
 
 Given a binary tree, flatten it to a linked list in-place.
 
@@ -100,5 +100,5 @@ include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_3rec.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--26/[详细通俗的思路分析，多解法 - 二叉树展开为链表 - 力扣（LeetCode）]
-. https://leetcode.wang/leetcode-114-Flatten-Binary-Tree-to-Linked-List.html[114. Flatten Binary Tree to Linked List · leetcode]
+. https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--26/[详细通俗的思路分析，多解法 - 二叉树展开为链表 - 力扣（LeetCode）^]
+. https://leetcode.wang/leetcode-114-Flatten-Binary-Tree-to-Linked-List.html[114. Flatten Binary Tree to Linked List · leetcode^]

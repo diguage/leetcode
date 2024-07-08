@@ -1,7 +1,7 @@
 [#0896-monotonic-array]
 = 896. Monotonic Array
 
-https://leetcode.com/problems/monotonic-array/[LeetCode - Monotonic Array]
+https://leetcode.com/problems/monotonic-array/[LeetCode - Monotonic Array^]
 
 An array is _monotonic_ if it is either monotone increasing or monotone decreasing.
 

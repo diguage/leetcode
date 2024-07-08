@@ -1,7 +1,7 @@
 [#0231-power-of-two]
 = 231. Power of Two
 
-https://leetcode.com/problems/power-of-two/[LeetCode - Power of Two]
+https://leetcode.com/problems/power-of-two/[LeetCode - Power of Two^]
 
 Given an integer, write a function to determine if it is a power of two.
 

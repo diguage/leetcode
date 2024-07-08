@@ -1,7 +1,7 @@
 [#0129-sum-root-to-leaf-numbers]
 = 129. Sum Root to Leaf Numbers
 
-https://leetcode.com/problems/sum-root-to-leaf-numbers/[LeetCode - Sum Root to Leaf Numbers]
+https://leetcode.com/problems/sum-root-to-leaf-numbers/[LeetCode - Sum Root to Leaf Numbers^]
 
 Given a binary tree containing digits from `0-9` only, each root-to-leaf path could represent a number.
 
@@ -57,8 +57,8 @@ Therefore, sum = 495 + 491 + 40 = `1026`.
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/solution/3zhong-jie-fa-di-gui-xian-xu-fei-di-gui-xian-xu-ce/[3中解法：递归先序、非递归先序、层序 - 求根到叶子节点数字之和 - 力扣（LeetCode）]
-. https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-3-5/[详细通俗的思路分析，多解法 - 求根到叶子节点数字之和 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/solution/3zhong-jie-fa-di-gui-xian-xu-fei-di-gui-xian-xu-ce/[3中解法：递归先序、非递归先序、层序 - 求根到叶子节点数字之和 - 力扣（LeetCode）^]
+. https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-3-5/[详细通俗的思路分析，多解法 - 求根到叶子节点数字之和 - 力扣（LeetCode）^]
 
 [[src-0129]]
 [{java_src_attr}]

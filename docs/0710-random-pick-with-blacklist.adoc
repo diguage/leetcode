@@ -1,7 +1,7 @@
 [#0710-random-pick-with-blacklist]
 = 710. Random Pick with Blacklist
 
-https://leetcode.com/problems/random-pick-with-blacklist/[LeetCode - Random Pick with Blacklist]
+https://leetcode.com/problems/random-pick-with-blacklist/[LeetCode - Random Pick with Blacklist^]
 
 Given a blacklist `B` containing unique integers from `[0, N)`, write a function to return a uniform random integer from `[0, N)` which is *NOT* in `B`.
 
@@ -12,7 +12,7 @@ Optimize it such that it minimizes the call to system&rsquo;s `Math.random()`.
 
 . `1 <= N <= 1000000000`
 . `0 <= B.length < min(100000, N)`
-. `[0, N)` does NOT include N. See https://en.wikipedia.org/wiki/Interval_(mathematics)[interval notation].
+. `[0, N)` does NOT include N. See https://en.wikipedia.org/wiki/Interval_(mathematics)[interval notation^].
 
 
 *Example 1:*

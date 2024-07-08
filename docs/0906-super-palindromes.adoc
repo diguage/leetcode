@@ -1,7 +1,7 @@
 [#0906-super-palindromes]
 = 906. Super Palindromes
 
-https://leetcode.com/problems/super-palindromes/[LeetCode - Super Palindromes]
+https://leetcode.com/problems/super-palindromes/[LeetCode - Super Palindromes^]
 
 Let's say a positive integer is a _superpalindrome_ if it is a palindrome, and it is also the square of a palindrome.
 

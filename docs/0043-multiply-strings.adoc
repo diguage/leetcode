@@ -1,7 +1,7 @@
 [#0043-multiply-strings]
 = 43. Multiply Strings
 
-https://leetcode.com/problems/multiply-strings/[LeetCode - Multiply Strings]
+https://leetcode.com/problems/multiply-strings/[LeetCode - Multiply Strings^]
 
 Given two non-negative integers `num1` and `num2` represented as strings, return the product of `num1` and num2, also represented as a string.
 
@@ -33,7 +33,7 @@ image::images/0043-1.png[{image_attr}]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/multiply-strings/solution/you-hua-ban-shu-shi-da-bai-994-by-breezean/[优化版竖式(打败99.4%) - 字符串相乘 - 力扣（LeetCode）] -- 第二种解法，最初没看明白，但是受他们的启发，我自己想到了。
+. https://leetcode-cn.com/problems/multiply-strings/solution/you-hua-ban-shu-shi-da-bai-994-by-breezean/[优化版竖式(打败99.4%) - 字符串相乘 - 力扣（LeetCode）^] -- 第二种解法，最初没看明白，但是受他们的启发，我自己想到了。
 
 
 Given two non-negative integers `num1` and `num2` represented as strings, return the product of `num1` and `num2`, also represented as a string.

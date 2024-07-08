@@ -1,7 +1,7 @@
 [#1177-can-make-palindrome-from-substring]
 = 1177. Can Make Palindrome from Substring
 
-https://leetcode.com/problems/can-make-palindrome-from-substring/[LeetCode - Can Make Palindrome from Substring]
+https://leetcode.com/problems/can-make-palindrome-from-substring/[LeetCode - Can Make Palindrome from Substring^]
 
 Given a string `s`, we make queries on substrings of `s`.
 

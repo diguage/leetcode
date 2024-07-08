@@ -1,7 +1,7 @@
 [#0391-perfect-rectangle]
 = 391. Perfect Rectangle
 
-https://leetcode.com/problems/perfect-rectangle/[LeetCode - Perfect Rectangle]
+https://leetcode.com/problems/perfect-rectangle/[LeetCode - Perfect Rectangle^]
 
 Given N axis-aligned rectangles where N > 0, determine if they all together form an exact cover of a rectangular region.
 

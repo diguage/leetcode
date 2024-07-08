@@ -1,7 +1,7 @@
 [#0154-find-minimum-in-rotated-sorted-array-ii]
 = 154. Find Minimum in Rotated Sorted Array II
 
-https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/[LeetCode - Find Minimum in Rotated Sorted Array II]
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/[LeetCode - Find Minimum in Rotated Sorted Array II^]
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 
@@ -82,5 +82,5 @@ include::{sourcedir}/_0154_FindMinimumInRotatedSortedArrayII.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/solution/xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-zui-1-8/[寻找旋转排序数组中的最小值 II - 寻找旋转排序数组中的最小值 II - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/solution/xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-zui-1-8/[寻找旋转排序数组中的最小值 II - 寻找旋转排序数组中的最小值 II - 力扣（LeetCode）^]
 

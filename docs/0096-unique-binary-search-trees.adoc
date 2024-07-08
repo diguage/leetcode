@@ -3,7 +3,7 @@
 
 :stem: latexmath
 
-https://leetcode.com/problems/unique-binary-search-trees/[LeetCode - Unique Binary Search Trees]
+https://leetcode.com/problems/unique-binary-search-trees/[LeetCode - Unique Binary Search Trees^]
 
 Given _n_, how many structurally unique *BST's* (binary search trees) that store values __1 ... n__?
 
@@ -79,9 +79,9 @@ C_{0}=1, \quad C_{n+1}=\frac{2(2 n+1)}{n+2} C_{n}
 
 == 参考资料
 
-. https://en.wikipedia.org/wiki/Catalan_number[Catalan number - Wikipedia]
-. https://leetcode-cn.com/problems/unique-binary-search-trees/solution/bu-tong-de-er-cha-sou-suo-shu-by-leetcode/[不同的二叉搜索树 - 不同的二叉搜索树 - 力扣（LeetCode）]
-. https://blog.csdn.net/Hackbuteer1/article/details/7450250[Catalan数——卡特兰数_Hackbuteer1的专栏-CSDN博客]
+. https://en.wikipedia.org/wiki/Catalan_number[Catalan number - Wikipedia^]
+. https://leetcode-cn.com/problems/unique-binary-search-trees/solution/bu-tong-de-er-cha-sou-suo-shu-by-leetcode/[不同的二叉搜索树 - 不同的二叉搜索树 - 力扣（LeetCode）^]
+. https://blog.csdn.net/Hackbuteer1/article/details/7450250[Catalan数——卡特兰数_Hackbuteer1的专栏-CSDN博客^]
 
 Given _n_, how many structurally unique *BST's* (binary search trees) that store values 1 ... _n_?
 

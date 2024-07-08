@@ -1,7 +1,7 @@
 [#0397-integer-replacement]
 = 397. Integer Replacement
 
-https://leetcode.com/problems/integer-replacement/[LeetCode - Integer Replacement]
+https://leetcode.com/problems/integer-replacement/[LeetCode - Integer Replacement^]
 
 
 Given a positive integer _n_ and you can do operations as follow:

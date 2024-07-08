@@ -1,7 +1,7 @@
 [#0039-combination-sum]
 = 39. Combination Sum
 
-https://leetcode.com/problems/combination-sum/[LeetCode - Combination Sum]
+https://leetcode.com/problems/combination-sum/[LeetCode - Combination Sum^]
 
 Given a *set* of candidate numbers (`candidates`) (**without duplicates**) and a target number (`target`), find all unique combinations in `candidates` where the candidate numbers sums to `target`.
 
@@ -47,7 +47,7 @@ image::images/0039-3.png[{image_attr}]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/[回溯算法 + 剪枝（Python、Java、C++） - 组合总和 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/[回溯算法 + 剪枝（Python、Java、C++） - 组合总和 - 力扣（LeetCode）^]
 
 Given a *set* of candidate numbers (`candidates`) *(without duplicates)* and a target number (`target`), find all unique combinations in `candidates` where the candidate numbers sums to `target`.
 

@@ -1,7 +1,7 @@
 [#1172-dinner-plate-stacks]
 = 1172. Dinner Plate Stacks
 
-https://leetcode.com/problems/dinner-plate-stacks/[LeetCode - Dinner Plate Stacks]
+https://leetcode.com/problems/dinner-plate-stacks/[LeetCode - Dinner Plate Stacks^]
 
 You have an infinite number of stacks arranged in a row and numbered (left to right) from 0, each of the stacks has the same maximum `capacity`.
 

@@ -1,15 +1,15 @@
 [#0344-reverse-string]
 = 344. Reverse String
 
-https://leetcode.com/problems/reverse-string/[LeetCode - Reverse String]
+https://leetcode.com/problems/reverse-string/[LeetCode - Reverse String^]
 
-这个跟 https://leetcode.com/problems/valid-palindrome/[Valid Palindrome - LeetCode] 的思路类似，都是"左右夹击"。
+这个跟 https://leetcode.com/problems/valid-palindrome/[Valid Palindrome - LeetCode^] 的思路类似，都是"左右夹击"。
 
 Write a function that reverses a string. The input string is given as an array of characters `char[]`.
 
-Do not allocate extra space for another array, you must do this by *modifying the input array https://en.wikipedia.org/wiki/In-place_algorithm[in-place]* with O(1) extra memory.
+Do not allocate extra space for another array, you must do this by *modifying the input array https://en.wikipedia.org/wiki/In-place_algorithm[in-place^]* with O(1) extra memory.
 
-You may assume all the characters consist of https://en.wikipedia.org/wiki/ASCII#Printable_characters[printable ascii characters].
+You may assume all the characters consist of https://en.wikipedia.org/wiki/ASCII#Printable_characters[printable ascii characters^].
 
  
 

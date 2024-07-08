@@ -1,7 +1,7 @@
 [#0192-word-frequency]
 = 192. Word Frequency
 
-https://leetcode.com/problems/word-frequency/[LeetCode - Word Frequency]
+https://leetcode.com/problems/word-frequency/[LeetCode - Word Frequency^]
 
 Write a bash script to calculate the frequency of each word in a text file `words.txt`.
 

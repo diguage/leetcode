@@ -1,7 +1,7 @@
 [#0117-populating-next-right-pointers-in-each-node-ii]
 = 117. Populating Next Right Pointers in Each Node II
 
-https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/[LeetCode - Populating Next Right Pointers in Each Node II]
+https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/[LeetCode - Populating Next Right Pointers in Each Node II^]
 
 Given a binary tree
 
@@ -81,5 +81,5 @@ include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII_21.java[tag=a
 == 参考资料
 
 . https://leetcode.cn/problems/populating-next-right-pointers-in-each-node-ii/solutions/18093/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-28/[详细通俗的思路分析，多解法 - 填充每个节点的下一个右侧节点指针 II^]
-. https://leetcode.wang/leetcode-117-Populating-Next-Right-Pointers-in-Each-NodeII.html[117. 填充每个节点的下一个右侧节点指针 II]
+. https://leetcode.wang/leetcode-117-Populating-Next-Right-Pointers-in-Each-NodeII.html[117. 填充每个节点的下一个右侧节点指针 II^]
 

@@ -1,7 +1,7 @@
 [#0899-orderly-queue]
 = 899. Orderly Queue
 
-https://leetcode.com/problems/orderly-queue/[LeetCode - Orderly Queue]
+https://leetcode.com/problems/orderly-queue/[LeetCode - Orderly Queue^]
 
 A string `S` of lowercase letters is given.  Then, we may make any number of _moves_.
 

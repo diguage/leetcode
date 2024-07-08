@@ -1,7 +1,7 @@
 [#0007-reverse-integer]
 = 7. Reverse Integer
 
-https://leetcode.com/problems/reverse-integer/[LeetCode - Reverse Integer]
+https://leetcode.com/problems/reverse-integer/[LeetCode - Reverse Integer^]
 
 Given a 32-bit signed integer, reverse digits of an integer.
 

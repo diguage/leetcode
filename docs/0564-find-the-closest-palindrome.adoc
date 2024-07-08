@@ -1,7 +1,7 @@
 [#0564-find-the-closest-palindrome]
 = 564. Find the Closest Palindrome
 
-https://leetcode.com/problems/find-the-closest-palindrome/[LeetCode - Find the Closest Palindrome]
+https://leetcode.com/problems/find-the-closest-palindrome/[LeetCode - Find the Closest Palindrome^]
 
 Given an integer n, find the closest integer (not including itself), which is a palindrome. 
 

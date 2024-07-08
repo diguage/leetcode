@@ -1,11 +1,11 @@
 [#0133-clone-graph]
 = 133. Clone Graph
 
-https://leetcode.com/problems/clone-graph/[LeetCode - Clone Graph]
+https://leetcode.com/problems/clone-graph/[LeetCode - Clone Graph^]
 
-Given a reference of a node in a *https://en.wikipedia.org/wiki/Connectivity_(graph_theory)#Connected_graph[connected]* undirected graph.
+Given a reference of a node in a *https://en.wikipedia.org/wiki/Connectivity_(graph_theory)#Connected_graph[connected^]* undirected graph.
 
-Return a https://en.wikipedia.org/wiki/Object_copying#Deep_copy[*deep copy*] (clone) of the graph.
+Return a https://en.wikipedia.org/wiki/Object_copying#Deep_copy[*deep copy*^] (clone) of the graph.
 
 Each node in the graph contains a val (`int`) and a list (`List[Node]`) of its neighbors.
 
@@ -91,5 +91,5 @@ include::{sourcedir}/_0133_CloneGraph.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/clone-graph/solution/dfs-he-bfs-by-powcai/[DFS 和 BFS - 克隆图 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/clone-graph/solution/dfs-he-bfs-by-powcai/[DFS 和 BFS - 克隆图 - 力扣（LeetCode）^]
 

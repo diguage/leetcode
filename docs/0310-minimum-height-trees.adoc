@@ -1,7 +1,7 @@
 [#0310-minimum-height-trees]
 = 310. Minimum Height Trees
 
-https://leetcode.com/problems/minimum-height-trees/[LeetCode - Minimum Height Trees]
+https://leetcode.com/problems/minimum-height-trees/[LeetCode - Minimum Height Trees^]
 
 For an undirected graph with tree characteristics, we can choose any node as the root. The result graph is then a rooted tree. Among all possible rooted trees, those with minimum height are called minimum height trees (MHTs). Given such a graph, write a function to find all the MHTs and return a list of their root labels.
 
@@ -47,7 +47,7 @@ You can assume that no duplicate edges will appear in `edges`. Since all edges a
 *Note*:
 
 
-* According to the https://en.wikipedia.org/wiki/Tree_(graph_theory)[definition of tree on Wikipedia]: &ldquo;a tree is an undirected graph in which any two vertices are connected by _exactly_ one path. In other words, any connected graph without simple cycles is a tree.&rdquo;
+* According to the https://en.wikipedia.org/wiki/Tree_(graph_theory)[definition of tree on Wikipedia^]: &ldquo;a tree is an undirected graph in which any two vertices are connected by _exactly_ one path. In other words, any connected graph without simple cycles is a tree.&rdquo;
 * The height of a rooted tree is the number of edges on the longest downward path between the root and a leaf.
 
 

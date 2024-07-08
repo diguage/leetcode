@@ -1,7 +1,7 @@
 [#1288-remove-covered-intervals]
 = 1288. Remove Covered Intervals
 
-https://leetcode.com/problems/remove-covered-intervals/[LeetCode - Remove Covered Intervals]
+https://leetcode.com/problems/remove-covered-intervals/[LeetCode - Remove Covered Intervals^]
 
 Given a list of intervals, remove all intervals that are covered by another interval in the list. Interval `[a,b)` is covered by interval `[c,d)` if and only if `c <= a` and `b <= d`.
 

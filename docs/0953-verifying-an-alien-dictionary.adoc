@@ -1,7 +1,7 @@
 [#0953-verifying-an-alien-dictionary]
 = 953. Verifying an Alien Dictionary
 
-https://leetcode.com/problems/verifying-an-alien-dictionary/[LeetCode - Verifying an Alien Dictionary]
+https://leetcode.com/problems/verifying-an-alien-dictionary/[LeetCode - Verifying an Alien Dictionary^]
 
 In an alien language, surprisingly they also use english lowercase letters, but possibly in a different `order`. The `order` of the alphabet is some permutation of lowercase letters.
 
@@ -31,7 +31,7 @@ Given a sequence of `words` written in the alien language, and the `order` of th
 ----
 *Input:* words = ["apple","app"], order = "abcdefghijklmnopqrstuvwxyz"
 *Output:* false
-*Explanation:* The first three characters "app" match, and the second string is shorter (in size.) According to lexicographical rules "apple" > "app", because 'l' > '&empty;', where '&empty;' is defined as the blank character which is less than any other character (https://en.wikipedia.org/wiki/Lexicographical_order[More info]).
+*Explanation:* The first three characters "app" match, and the second string is shorter (in size.) According to lexicographical rules "apple" > "app", because 'l' > '&empty;', where '&empty;' is defined as the blank character which is less than any other character (https://en.wikipedia.org/wiki/Lexicographical_order[More info^]).
 ----
 
  

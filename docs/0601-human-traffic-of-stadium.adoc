@@ -1,7 +1,7 @@
 [#0601-human-traffic-of-stadium]
 = 601. Human Traffic of Stadium
 
-https://leetcode.com/problems/human-traffic-of-stadium/[LeetCode - Human Traffic of Stadium]
+https://leetcode.com/problems/human-traffic-of-stadium/[LeetCode - Human Traffic of Stadium^]
 
 X city built a new stadium, each day many people visit it and the stats are saved as these columns: *id*, *visit_**date*, *people*
 

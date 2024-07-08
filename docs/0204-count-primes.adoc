@@ -1,7 +1,7 @@
 [#0204-count-primes]
 = 204. Count Primes
 
-https://leetcode.com/problems/count-primes/[LeetCode - Count Primes]
+https://leetcode.com/problems/count-primes/[LeetCode - Count Primes^]
 
 如何实现一个高效的筛选法？
 

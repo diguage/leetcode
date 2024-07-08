@@ -1,7 +1,7 @@
 [#0122-best-time-to-buy-and-sell-stock-ii]
 = 122. Best Time to Buy and Sell Stock II
 
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/[LeetCode - Best Time to Buy and Sell Stock II]
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/[LeetCode - Best Time to Buy and Sell Stock II^]
 
 Say you have an array for which the _i^th^_ element is the price of a given stock on day _i_.
 
@@ -33,12 +33,12 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ----
 
-针对 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）] 这个解题框架，进行小试牛刀。
+针对 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^] 这个解题框架，进行小试牛刀。
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
-. https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/dong-tai-gui-hua-shen-ru-fen-xi-by-wang-yan-19/[动态规划深入分析 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^]
+. https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/dong-tai-gui-hua-shen-ru-fen-xi-by-wang-yan-19/[动态规划深入分析 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^]
 
 Say you have an array for which the _i_^th^ element is the price of a given stock on day _i_.
 

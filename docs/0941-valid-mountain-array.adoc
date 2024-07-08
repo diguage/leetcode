@@ -1,7 +1,7 @@
 [#0941-valid-mountain-array]
 = 941. Valid Mountain Array
 
-https://leetcode.com/problems/valid-mountain-array/[LeetCode - Valid Mountain Array]
+https://leetcode.com/problems/valid-mountain-array/[LeetCode - Valid Mountain Array^]
 
 Given an array `A` of integers, return `true` if and only if it is a _valid mountain array_.
 

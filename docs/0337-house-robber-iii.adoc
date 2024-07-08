@@ -1,7 +1,7 @@
 [#0337-house-robber-iii]
 = 337. House Robber III
 
-https://leetcode.com/problems/house-robber-iii/[LeetCode - House Robber III]
+https://leetcode.com/problems/house-robber-iii/[LeetCode - House Robber III^]
 
 The thief has found himself a new place for his thievery again. There is only one entrance to this area, called the "root." Besides the root, each house has one and only one parent house. After a tour, the smart thief realized that "all houses in this place forms a binary tree". It will automatically contact the police if two directly-linked houses were broken into on the same night.
 
@@ -50,9 +50,9 @@ Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/house-robber-iii/solution/java-2ms-by-horanol/[java 2ms - 打家劫舍 III - 力扣（LeetCode）]
-. https://leetcode-cn.com/problems/house-robber-iii/solution/san-chong-fang-fa-jie-jue-shu-xing-dong-tai-gui-hu/[三种方法解决树形动态规划问题-从入门级代码到高效树形动态规划代码实现 - 打家劫舍 III - 力扣（LeetCode）]
-. https://leetcode-cn.com/problems/house-robber-iii/solution/tong-yong-si-lu-tuan-mie-da-jia-jie-she-wen-ti-b-2/[通用思路团灭打家劫舍问题 - 打家劫舍 III - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/house-robber-iii/solution/java-2ms-by-horanol/[java 2ms - 打家劫舍 III - 力扣（LeetCode）^]
+. https://leetcode-cn.com/problems/house-robber-iii/solution/san-chong-fang-fa-jie-jue-shu-xing-dong-tai-gui-hu/[三种方法解决树形动态规划问题-从入门级代码到高效树形动态规划代码实现 - 打家劫舍 III - 力扣（LeetCode）^]
+. https://leetcode-cn.com/problems/house-robber-iii/solution/tong-yong-si-lu-tuan-mie-da-jia-jie-she-wen-ti-b-2/[通用思路团灭打家劫舍问题 - 打家劫舍 III - 力扣（LeetCode）^]
 
 The thief has found himself a new place for his thievery again. There is only one entrance to this area, called the "root." Besides the root, each house has one and only one parent house. After a tour, the smart thief realized that "all houses in this place forms a binary tree". It will automatically contact the police if two directly-linked houses were broken into on the same night.
 

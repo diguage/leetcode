@@ -3,7 +3,7 @@
 
 :stem: latexmath
 
-https://leetcode.com/problems/linked-list-cycle-ii/[LeetCode - Linked List Cycle II]
+https://leetcode.com/problems/linked-list-cycle-ii/[LeetCode - Linked List Cycle II^]
 
 Given a linked list, return the node where the cycle begins. If there is no cycle, return `null`.
 
@@ -108,7 +108,7 @@ include::{sourcedir}/_0142_LinkedListCycleII_2.java[tag=answer]
 
 == 参考资料
 
-. https://en.wikipedia.org/wiki/Cycle_detection[Cycle detection - Wikipedia]
+. https://en.wikipedia.org/wiki/Cycle_detection[Cycle detection - Wikipedia^]
 . https://leetcode.cn/problems/linked-list-cycle-ii/solutions/441131/huan-xing-lian-biao-ii-by-leetcode-solution/[142. 环形链表 II - 官方题解^]
 . https://leetcode.cn/problems/linked-list-cycle-ii/solutions/12616/linked-list-cycle-ii-kuai-man-zhi-zhen-shuang-zhi-/[142. 环形链表 II - 双指针，清晰图解^]
 

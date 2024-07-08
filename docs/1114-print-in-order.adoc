@@ -1,7 +1,7 @@
 [#1114-print-in-order]
 = 1114. Print in Order
 
-https://leetcode.com/problems/print-in-order/[LeetCode - Print in Order]
+https://leetcode.com/problems/print-in-order/[LeetCode - Print in Order^]
 
 Suppose we have a class:
 

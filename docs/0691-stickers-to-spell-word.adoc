@@ -1,7 +1,7 @@
 [#0691-stickers-to-spell-word]
 = 691. Stickers to Spell Word
 
-https://leetcode.com/problems/stickers-to-spell-word/[LeetCode - Stickers to Spell Word]
+https://leetcode.com/problems/stickers-to-spell-word/[LeetCode - Stickers to Spell Word^]
 
 
 We are given N different types of stickers.  Each sticker has a lowercase English word on it.

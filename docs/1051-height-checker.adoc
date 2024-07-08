@@ -1,7 +1,7 @@
 [#1051-height-checker]
 = 1051. Height Checker
 
-https://leetcode.com/problems/height-checker/[LeetCode - Height Checker]
+https://leetcode.com/problems/height-checker/[LeetCode - Height Checker^]
 
 Students are asked to stand in non-decreasing order of heights for an annual photo.
 

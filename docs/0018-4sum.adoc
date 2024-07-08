@@ -1,7 +1,7 @@
 [#0018-4sum]
 = 18. 4Sum
 
-https://leetcode.com/problems/4sum/[LeetCode - 4Sum]
+https://leetcode.com/problems/4sum/[LeetCode - 4Sum^]
 
 Given an array `nums` of _n_ integers and an integer `target`, are there elements _a_, _b_, _c_, and _d_ in `nums` such that _a_ + _b_ + _c_ + _d_ = `target`? Find all unique quadruplets in the array which gives the sum of `target`.
 

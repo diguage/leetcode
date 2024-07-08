@@ -1,11 +1,11 @@
 [#0150-evaluate-reverse-polish-notation]
 = 150. Evaluate Reverse Polish Notation
 
-https://leetcode.com/problems/evaluate-reverse-polish-notation/[LeetCode - Evaluate Reverse Polish Notation]
+https://leetcode.com/problems/evaluate-reverse-polish-notation/[LeetCode - Evaluate Reverse Polish Notation^]
 
 其实这只是一个栈操作。
 
-Evaluate the value of an arithmetic expression in http://en.wikipedia.org/wiki/Reverse_Polish_notation[Reverse Polish Notation].
+Evaluate the value of an arithmetic expression in http://en.wikipedia.org/wiki/Reverse_Polish_notation[Reverse Polish Notation^].
 
 Valid operators are `+`, `-`, `*`, `/`. Each operand may be an integer or another expression.
 

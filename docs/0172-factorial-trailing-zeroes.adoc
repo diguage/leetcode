@@ -1,7 +1,7 @@
 [#0172-factorial-trailing-zeroes]
 = 172. Factorial Trailing Zeroes
 
-https://leetcode.com/problems/factorial-trailing-zeroes/[LeetCode - Factorial Trailing Zeroes]
+https://leetcode.com/problems/factorial-trailing-zeroes/[LeetCode - Factorial Trailing Zeroes^]
 
 这个题的解题思路也很精巧，D瓜哥先来举例说明一下。
 
@@ -23,7 +23,7 @@ https://leetcode.com/problems/factorial-trailing-zeroes/[LeetCode - Factorial Tr
 
 以此类推，直到最后的序列只剩下不超过 `5` 截止。上面每行中的 `5x` 数字的个数就是我们需要的结果：结尾 `0` 的个数。
 
-思路上，我受到了 https://leetcode.com/problems/factorial-trailing-zeroes/discuss/196311/topic[这详尽的思路令我茅塞顿开！递归非递归都有哦！ - LeetCode Discuss] 的启发。但是，自认为比他的解释更容易理解。
+思路上，我受到了 https://leetcode.com/problems/factorial-trailing-zeroes/discuss/196311/topic[这详尽的思路令我茅塞顿开！递归非递归都有哦！ - LeetCode Discuss^] 的启发。但是，自认为比他的解释更容易理解。
 
 Given an integer _n_, return the number of trailing zeroes in _n_!.
 

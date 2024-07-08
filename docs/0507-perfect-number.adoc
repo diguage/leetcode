@@ -1,7 +1,7 @@
 [#0507-perfect-number]
 = 507. Perfect Number
 
-https://leetcode.com/problems/perfect-number/[LeetCode - Perfect Number]
+https://leetcode.com/problems/perfect-number/[LeetCode - Perfect Number^]
 
 We define the Perfect Number is a *positive* integer that is equal to the sum of all its *positive* divisors except itself. 
 

@@ -1,7 +1,7 @@
 [#0125-valid-palindrome]
 = 125. Valid Palindrome
 
-https://leetcode.com/problems/valid-palindrome/[LeetCode - Valid Palindrome]
+https://leetcode.com/problems/valid-palindrome/[LeetCode - Valid Palindrome^]
 
 基本思路就是从两边想中间挤压。记得前不久有一道题使用了相似的处理手段，容我有时间找找看！
 

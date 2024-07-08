@@ -1,7 +1,7 @@
 [#1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance]
 = 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance
 
-https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/[LeetCode - Find the City With the Smallest Number of Neighbors at a Threshold Distance]
+https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/[LeetCode - Find the City With the Smallest Number of Neighbors at a Threshold Distance^]
 
 There are `n` cities numbered from `0` to `n-1`. Given the array `edges` where `edges[i] = [from~i~, to~i~, weight~i~]` represents a bidirectional and weighted edge between cities `from~i~` and `to~i~`, and given the integer `distanceThreshold`.
 

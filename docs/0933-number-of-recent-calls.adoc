@@ -1,7 +1,7 @@
 [#0933-number-of-recent-calls]
 = 933. Number of Recent Calls
 
-https://leetcode.com/problems/number-of-recent-calls/[LeetCode - Number of Recent Calls]
+https://leetcode.com/problems/number-of-recent-calls/[LeetCode - Number of Recent Calls^]
 
 Write a class `RecentCounter` to count recent requests.
 

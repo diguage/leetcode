@@ -1,7 +1,7 @@
 [#0113-path-sum-ii]
 = 113. Path Sum II
 
-https://leetcode.com/problems/path-sum-ii/[LeetCode - Path Sum II]
+https://leetcode.com/problems/path-sum-ii/[LeetCode - Path Sum II^]
 
 Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
 
@@ -40,7 +40,7 @@ Return:
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/path-sum-ii/solution/dfs-by-powcai-2/[DFS - 路径总和 II - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/path-sum-ii/solution/dfs-by-powcai-2/[DFS - 路径总和 II - 力扣（LeetCode）^]
 
 [[src-0113]]
 [{java_src_attr}]

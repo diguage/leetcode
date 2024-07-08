@@ -1,7 +1,7 @@
 [#0647-palindromic-substrings]
 = 647. Palindromic Substrings
 
-https://leetcode.com/problems/palindromic-substrings/[LeetCode - Palindromic Substrings]
+https://leetcode.com/problems/palindromic-substrings/[LeetCode - Palindromic Substrings^]
 
 Given a string, your task is to count how many palindromic substrings in this string.
 
@@ -35,7 +35,7 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/palindromic-substrings/solution/hui-wen-zi-chuan-by-leetcode/[回文子串 - 回文子串 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/palindromic-substrings/solution/hui-wen-zi-chuan-by-leetcode/[回文子串 - 回文子串 - 力扣（LeetCode）^]
 
 Given a string, your task is to count how many palindromic substrings in this string.
 

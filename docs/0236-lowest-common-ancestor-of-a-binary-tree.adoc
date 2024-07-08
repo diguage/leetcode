@@ -2,7 +2,7 @@
 [#0236-lowest-common-ancestor-of-a-binary-tree]
 = 236. Lowest Common Ancestor of a Binary Tree
 
-https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/[LeetCode - Lowest Common Ancestor of a Binary Tree]
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/[LeetCode - Lowest Common Ancestor of a Binary Tree^]
 
 image::images/0236-1.png[{image_attr}]
 
@@ -14,7 +14,7 @@ D瓜哥的思路：先找出一条从根节点到某个节点的路径；然后�
 
 Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
 
-According to the https://en.wikipedia.org/wiki/Lowest_common_ancestor[definition of LCA on Wikipedia]: &ldquo;The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow *a node to be a descendant of itself*).&rdquo;
+According to the https://en.wikipedia.org/wiki/Lowest_common_ancestor[definition of LCA on Wikipedia^]: &ldquo;The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow *a node to be a descendant of itself*).&rdquo;
 
 Given the following binary tree:  root = [3,5,1,6,2,0,8,null,null,7,4]
 
@@ -116,7 +116,7 @@ include::{sourcedir}/_0236_LowestCommonAncestorOfABinaryTree_2.java[tag=answer]
 
 == 参考资料
 
-. https://en.wikipedia.org/wiki/Lowest_common_ancestor[Lowest common ancestor - Wikipedia]
+. https://en.wikipedia.org/wiki/Lowest_common_ancestor[Lowest common ancestor - Wikipedia^]
 . https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/solutions/238552/er-cha-shu-de-zui-jin-gong-gong-zu-xian-by-leetc-2/[236. 二叉树的最近公共祖先 - 官方题解^]
 . https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/solutions/240096/236-er-cha-shu-de-zui-jin-gong-gong-zu-xian-hou-xu/[236. 二叉树的最近公共祖先 - DFS ，清晰图解^]
 . https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/solutions/2023872/fen-lei-tao-lun-luan-ru-ma-yi-ge-shi-pin-2r95/[236. 二叉树的最近公共祖先 - 本题最简单写法！^]

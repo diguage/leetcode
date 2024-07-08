@@ -1,7 +1,7 @@
 [#1201-ugly-number-iii]
 = 1201. Ugly Number III
 
-https://leetcode.com/problems/ugly-number-iii/[LeetCode - Ugly Number III]
+https://leetcode.com/problems/ugly-number-iii/[LeetCode - Ugly Number III^]
 
 Write a program to find the `n`-th ugly number.
 

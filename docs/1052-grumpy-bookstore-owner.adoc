@@ -1,7 +1,7 @@
 [#1052-grumpy-bookstore-owner]
 = 1052. Grumpy Bookstore Owner
 
-https://leetcode.com/problems/grumpy-bookstore-owner/[LeetCode - Grumpy Bookstore Owner]
+https://leetcode.com/problems/grumpy-bookstore-owner/[LeetCode - Grumpy Bookstore Owner^]
 
 Today, the bookstore owner has a store open for `customers.length` minutes.  Every minute, some number of customers (`customers[i]`) enter the store, and all those customers leave after the end of that minute.
 

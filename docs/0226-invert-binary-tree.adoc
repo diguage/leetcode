@@ -1,7 +1,7 @@
 [#0226-invert-binary-tree]
 = 226. Invert Binary Tree
 
-https://leetcode.com/problems/invert-binary-tree/[LeetCode - Invert Binary Tree]
+https://leetcode.com/problems/invert-binary-tree/[LeetCode - Invert Binary Tree^]
 
 Invert a binary tree.
 
@@ -25,7 +25,7 @@ Output:
 
 *Trivia:*
 
-This problem was inspired by https://twitter.com/mxcl/status/608682016205344768[this original tweet] by https://twitter.com/mxcl[Max Howell (@mxcl)]:
+This problem was inspired by https://twitter.com/mxcl/status/608682016205344768[this original tweet] by https://twitter.com/mxcl[Max Howell (@mxcl)^]:
 
 ****
 Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so fuck off.
@@ -64,7 +64,7 @@ Output:
 *Trivia:*
 
 
-This problem was inspired by https://twitter.com/mxcl/status/608682016205344768[this original tweet] by https://twitter.com/mxcl[Max Howell]:
+This problem was inspired by https://twitter.com/mxcl/status/608682016205344768[this original tweet] by https://twitter.com/mxcl[Max Howell^]:
 
 <blockquote>Google: 90% of our engineers use the software you wrote (Homebrew), but you can&rsquo;t invert a binary tree on a whiteboard so f*** off.</blockquote>
 

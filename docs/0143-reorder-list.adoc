@@ -1,7 +1,7 @@
 [#0143-reorder-list]
 = 143. Reorder List
 
-https://leetcode.com/problems/reorder-list/[LeetCode - Reorder List]
+https://leetcode.com/problems/reorder-list/[LeetCode - Reorder List^]
 
 Given a singly linked list _L_: _L_~0~&rarr;_L_~1~&rarr;&hellip;&rarr;_L_~_n_-1~&rarr;_L_~n~,
 

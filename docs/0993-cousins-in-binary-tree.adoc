@@ -1,7 +1,7 @@
 [#0993-cousins-in-binary-tree]
 = 993. Cousins in Binary Tree
 
-https://leetcode.com/problems/cousins-in-binary-tree/[LeetCode - Cousins in Binary Tree]
+https://leetcode.com/problems/cousins-in-binary-tree/[LeetCode - Cousins in Binary Tree^]
 
 In a binary tree, the root node is at depth `0`, and children of each depth `k` node are at depth `k+1`.
 

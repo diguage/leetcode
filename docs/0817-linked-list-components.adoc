@@ -1,7 +1,7 @@
 [#0817-linked-list-components]
 = 817. Linked List Components
 
-https://leetcode.com/problems/linked-list-components/[LeetCode - Linked List Components]
+https://leetcode.com/problems/linked-list-components/[LeetCode - Linked List Components^]
 
 We are given `head`, the head node of a linked list containing *unique integer values*.
 

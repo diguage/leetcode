@@ -1,7 +1,7 @@
 [#0102-binary-tree-level-order-traversal]
 = 102. Binary Tree Level Order Traversal
 
-https://leetcode.com/problems/binary-tree-level-order-traversal/[LeetCode - Binary Tree Level Order Traversal]
+https://leetcode.com/problems/binary-tree-level-order-traversal/[LeetCode - Binary Tree Level Order Traversal^]
 
 这个题其实很简单，只要保持需要读取值的那一层的节点就可以了。
 

@@ -3,7 +3,7 @@
 
 :stem: latexmath
 
-https://leetcode.com/problems/house-robber/[LeetCode - House Robber]
+https://leetcode.com/problems/house-robber/[LeetCode - House Robber^]
 
 假设 f(k) = 从前 k 个房屋中能抢劫到的最大数额，A~i~ = 第 i 个房屋的钱数。
 
@@ -20,7 +20,7 @@ https://leetcode.com/problems/house-robber/[LeetCode - House Robber]
 
 剩下的工作就好办了。
 
-让 D瓜哥 使用 https://www.diguage.com/post/dynamic-programming/[动态规划的模式] 来重新解读一下：
+让 D瓜哥 使用 https://www.diguage.com/post/dynamic-programming/[动态规划的模式^] 来重新解读一下：
 
 . 刻画一个最优解的结构特征：求解抢劫金额最大值。
 . 递归地定义最优解的值： latexmath:[f(k)=\max \left(f(k-2)+A_{k}, f(k-1)\right)]。

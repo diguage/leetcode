@@ -1,7 +1,7 @@
 [#0753-cracking-the-safe]
 = 753. Cracking the Safe
 
-https://leetcode.com/problems/cracking-the-safe/[LeetCode - Cracking the Safe]
+https://leetcode.com/problems/cracking-the-safe/[LeetCode - Cracking the Safe^]
 
 There is a box protected by a password. The password is a sequence of `n` digits where each digit can be one of the first `k` digits `0, 1, ..., k-1`.
 

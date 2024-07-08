@@ -1,11 +1,11 @@
 [#0274-h-index]
 = 274. H-Index
 
-https://leetcode.com/problems/h-index/[LeetCode - H-Index]
+https://leetcode.com/problems/h-index/[LeetCode - H-Index^]
 
 Given an array of citations (each citation is a non-negative integer) of a researcher, write a function to compute the researcher's h-index.
 
-According to the https://en.wikipedia.org/wiki/H-index[definition of h-index on Wikipedia]: "A scientist has index _h_ if _h_ of his/her _N_ papers have *at least* _h_ citations each, and the other _N - h_ papers have *no more than* _h_ citations each."
+According to the https://en.wikipedia.org/wiki/H-index[definition of h-index on Wikipedia^]: "A scientist has index _h_ if _h_ of his/her _N_ papers have *at least* _h_ citations each, and the other _N - h_ papers have *no more than* _h_ citations each."
 
 *Example:*
 

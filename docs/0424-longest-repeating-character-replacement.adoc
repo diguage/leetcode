@@ -1,7 +1,7 @@
 [#0424-longest-repeating-character-replacement]
 = 424. Longest Repeating Character Replacement
 
-https://leetcode.com/problems/longest-repeating-character-replacement/[LeetCode - Longest Repeating Character Replacement]
+https://leetcode.com/problems/longest-repeating-character-replacement/[LeetCode - Longest Repeating Character Replacement^]
 
 Given a string `s` that consists of only uppercase English letters, you can perform at most `k` operations on that string.
 

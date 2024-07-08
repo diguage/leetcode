@@ -1,7 +1,7 @@
 [#0636-exclusive-time-of-functions]
 = 636. Exclusive Time of Functions
 
-https://leetcode.com/problems/exclusive-time-of-functions/[LeetCode - Exclusive Time of Functions]
+https://leetcode.com/problems/exclusive-time-of-functions/[LeetCode - Exclusive Time of Functions^]
 
 On a *single threaded* CPU, we execute some functions.  Each function has a unique id between `0` and `N-1`.
 

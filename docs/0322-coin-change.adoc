@@ -1,7 +1,7 @@
 [#0322-coin-change]
 = 322. Coin Change
 
-https://leetcode.com/problems/coin-change/[LeetCode - Coin Change]
+https://leetcode.com/problems/coin-change/[LeetCode - Coin Change^]
 
 image::images/0322-01.png[{image_attr}]
 

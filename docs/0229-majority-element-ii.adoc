@@ -1,7 +1,7 @@
 [#0229-majority-element-ii]
 = 229. Majority Element II
 
-https://leetcode.com/problems/majority-element-ii/[LeetCode - Majority Element II]
+https://leetcode.com/problems/majority-element-ii/[LeetCode - Majority Element II^]
 
 Given an integer array of size _n_, find all elements that appear more than `&lfloor; n/3 &rfloor;` times.
 

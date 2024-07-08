@@ -1,7 +1,7 @@
 [#0106-construct-binary-tree-from-inorder-and-postorder-traversal]
 = 106. Construct Binary Tree from Inorder and Postorder Traversal
 
-https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/[LeetCode - Construct Binary Tree from Inorder and Postorder Traversal]
+https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/[LeetCode - Construct Binary Tree from Inorder and Postorder Traversal^]
 
 Given inorder and postorder traversal of a tree, construct the binary tree.
 
@@ -36,7 +36,7 @@ image::images/0106-02.png[{image_attr}]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/solution/hou-xu-bian-li-python-dai-ma-java-dai-ma-by-liwe-2/[分治法（Python、Java） - 从中序与后序遍历序列构造二叉树 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/solution/hou-xu-bian-li-python-dai-ma-java-dai-ma-by-liwe-2/[分治法（Python、Java） - 从中序与后序遍历序列构造二叉树 - 力扣（LeetCode）^]
 
 
 [[src-0106]]

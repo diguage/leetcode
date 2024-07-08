@@ -1,7 +1,7 @@
 [#1310-xor-queries-of-a-subarray]
 = 1310. XOR Queries of a Subarray
 
-https://leetcode.com/problems/xor-queries-of-a-subarray/[LeetCode - XOR Queries of a Subarray]
+https://leetcode.com/problems/xor-queries-of-a-subarray/[LeetCode - XOR Queries of a Subarray^]
 
 Given the array `arr` of positive integers and the array `queries` where `queries[i] = [L~i, ~R~i~]`, for each query `i` compute the *XOR* of elements from `L~i~` to `Ri` (that is, `arr[L~i~] *xor* arr[L~i+1~] *xor* ... *xor* arr[R~i~]` ). Return an array containing the result for the given `queries`.
  

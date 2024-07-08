@@ -1,7 +1,7 @@
 [#0838-push-dominoes]
 = 838. Push Dominoes
 
-https://leetcode.com/problems/push-dominoes/[LeetCode - Push Dominoes]
+https://leetcode.com/problems/push-dominoes/[LeetCode - Push Dominoes^]
 
 There are<font face="monospace"> `N` dominoes in a line, and we place each domino vertically upright.
 

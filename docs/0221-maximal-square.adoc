@@ -1,7 +1,7 @@
 [#0221-maximal-square]
 = 221. Maximal Square
 
-https://leetcode.com/problems/maximal-square/[LeetCode - Maximal Square]
+https://leetcode.com/problems/maximal-square/[LeetCode - Maximal Square^]
 
 Given a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
 
@@ -27,7 +27,7 @@ image::images/0221-2.png[{image_attr}]
 
 == 参考资料
 
-. https://leetcode.com/problems/maximal-square/solution/[Maximal Square solution - LeetCode]
+. https://leetcode.com/problems/maximal-square/solution/[Maximal Square solution - LeetCode^]
 
 Given a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
 

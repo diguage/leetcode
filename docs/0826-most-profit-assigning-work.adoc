@@ -1,7 +1,7 @@
 [#0826-most-profit-assigning-work]
 = 826. Most Profit Assigning Work
 
-https://leetcode.com/problems/most-profit-assigning-work/[LeetCode - Most Profit Assigning Work]
+https://leetcode.com/problems/most-profit-assigning-work/[LeetCode - Most Profit Assigning Work^]
 
 We have jobs: `difficulty[i]` is the difficulty of the `i`th job, and `profit[i]` is the profit of the `i`th job. 
 

@@ -1,7 +1,7 @@
 [#1169-invalid-transactions]
 = 1169. Invalid Transactions
 
-https://leetcode.com/problems/invalid-transactions/[LeetCode - Invalid Transactions]
+https://leetcode.com/problems/invalid-transactions/[LeetCode - Invalid Transactions^]
 
 A transaction is _possibly invalid_ if:
 

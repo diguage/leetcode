@@ -1,11 +1,11 @@
 [#0289-game-of-life]
 = 289. Game of Life
 
-https://leetcode.com/problems/game-of-life/[LeetCode - Game of Life]
+https://leetcode.com/problems/game-of-life/[LeetCode - Game of Life^]
 
-According to the https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life[Wikipedia's article]: "The *Game of Life*, also known simply as *Life*, is a cellular automaton devised by the British mathematician John Horton Conway in 1970."
+According to the https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life[Wikipedia's article^]: "The *Game of Life*, also known simply as *Life*, is a cellular automaton devised by the British mathematician John Horton Conway in 1970."
 
-Given a _board_ with _m_ by _n_ cells, each cell has an initial state _live_ (1) or _dead_ (0). Each cell interacts with its https://en.wikipedia.org/wiki/Moore_neighborhood[eight neighbors] (horizontal, vertical, diagonal) using the following four rules (taken from the above Wikipedia article):
+Given a _board_ with _m_ by _n_ cells, each cell has an initial state _live_ (1) or _dead_ (0). Each cell interacts with its https://en.wikipedia.org/wiki/Moore_neighborhood[eight neighbors^] (horizontal, vertical, diagonal) using the following four rules (taken from the above Wikipedia article):
 
 
 . Any live cell with fewer than two live neighbors dies, as if caused by under-population.

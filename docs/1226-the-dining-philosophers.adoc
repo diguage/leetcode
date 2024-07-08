@@ -1,7 +1,7 @@
 [#1226-the-dining-philosophers]
 = 1226. The Dining Philosophers
 
-https://leetcode.com/problems/the-dining-philosophers/[LeetCode - The Dining Philosophers]
+https://leetcode.com/problems/the-dining-philosophers/[LeetCode - The Dining Philosophers^]
 
 Five silent philosophers sit at a round table with bowls of spaghetti. Forks are placed between each pair of adjacent philosophers.
 
@@ -13,7 +13,7 @@ Design a discipline of behavior (a concurrent algorithm) such that no philosophe
 
 image::https://assets.leetcode.com/uploads/2019/09/24/an_illustration_of_the_dining_philosophers_problem.png[{image_attr}]
 
-_The problem statement and the image above are taken from https://en.wikipedia.org/wiki/Dining_philosophers_problem[wikipedia.org]_
+_The problem statement and the image above are taken from https://en.wikipedia.org/wiki/Dining_philosophers_problem[wikipedia.org^]_
 
  
 

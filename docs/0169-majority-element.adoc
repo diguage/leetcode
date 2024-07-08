@@ -1,11 +1,11 @@
 [#0169-majority-element]
 = 169. Majority Element
 
-https://leetcode.com/problems/majority-element/[LeetCode - Majority Element]
+https://leetcode.com/problems/majority-element/[LeetCode - Majority Element^]
 
 Boyer-Moore Voting Algorithm 这个算法好巧妙啊！简直妙不可言！
 
-https://leetcode.com/problems/majority-element/solution/[Majority Element solution - LeetCode]
+https://leetcode.com/problems/majority-element/solution/[Majority Element solution - LeetCode^]
 
 Given an array of size _n_, find the majority element. The majority element is the element that appears *more than* `&lfloor; n/2 &rfloor;` times.
 

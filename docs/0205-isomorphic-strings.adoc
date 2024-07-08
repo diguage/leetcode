@@ -1,7 +1,7 @@
 [#0205-isomorphic-strings]
 = 205. Isomorphic Strings
 
-https://leetcode.com/problems/isomorphic-strings/[LeetCode - Isomorphic Strings]
+https://leetcode.com/problems/isomorphic-strings/[LeetCode - Isomorphic Strings^]
 
 Given two strings *_s_* and *_t_*, determine if they are isomorphic.
 

@@ -1,7 +1,7 @@
 [#0005-longest-palindromic-substring]
 = 5. Longest Palindromic Substring
 
-https://leetcode.com/problems/longest-palindromic-substring/[LeetCode - Longest Palindromic Substring]
+https://leetcode.com/problems/longest-palindromic-substring/[LeetCode - Longest Palindromic Substring^]
 
 Given a string *s*, find the longest palindromic substring in *s*. You may assume that the maximum length of *s* is 1000.
 
@@ -28,7 +28,7 @@ Given a string *s*, find the longest palindromic substring in *s*. You may assum
 
 image::images/0005-01.png[]
 
-没想到，竟然存在时间复杂度为 O(n) 的算法：Manacher's Algorithm。在维基百科上有解释： https://en.wikipedia.org/wiki/Longest_palindromic_substring[Longest palindromic substring - Wikipedia]。回头研究研究再补充！
+没想到，竟然存在时间复杂度为 O(n) 的算法：Manacher's Algorithm。在维基百科上有解释： https://en.wikipedia.org/wiki/Longest_palindromic_substring[Longest palindromic substring - Wikipedia^]。回头研究研究再补充！
 
 另外，这道题还可以练手动态规划。
 

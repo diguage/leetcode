@@ -1,7 +1,7 @@
 [#0705-design-hashset]
 = 705. Design HashSet
 
-https://leetcode.com/problems/design-hashset/[LeetCode - Design HashSet]
+https://leetcode.com/problems/design-hashset/[LeetCode - Design HashSet^]
 
 Design a HashSet without using any built-in hash table libraries.
 

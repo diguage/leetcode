@@ -1,15 +1,15 @@
 [#0443-string-compression]
 = 443. String Compression
 
-https://leetcode.com/problems/string-compression/[LeetCode - String Compression]
+https://leetcode.com/problems/string-compression/[LeetCode - String Compression^]
 
-Given an array of characters, compress it https://en.wikipedia.org/wiki/In-place_algorithm[*in-place*].
+Given an array of characters, compress it https://en.wikipedia.org/wiki/In-place_algorithm[*in-place*^].
 
 The length after compression must always be smaller than or equal to the original array.
 
 Every element of the array should be a *character* (not int) of length 1.
 
-After you are done *modifying the input array https://en.wikipedia.org/wiki/In-place_algorithm[in-place]*, return the new length of the array.
+After you are done *modifying the input array https://en.wikipedia.org/wiki/In-place_algorithm[in-place^]*, return the new length of the array.
  
 
 *Follow up:*

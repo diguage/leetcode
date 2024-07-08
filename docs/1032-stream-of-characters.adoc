@@ -1,7 +1,7 @@
 [#1032-stream-of-characters]
 = 1032. Stream of Characters
 
-https://leetcode.com/problems/stream-of-characters/[LeetCode - Stream of Characters]
+https://leetcode.com/problems/stream-of-characters/[LeetCode - Stream of Characters^]
 
 Implement the `StreamChecker` class as follows:
 

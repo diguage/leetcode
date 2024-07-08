@@ -1,7 +1,7 @@
 [#0986-interval-list-intersections]
 = 986. Interval List Intersections
 
-https://leetcode.com/problems/interval-list-intersections/[LeetCode - Interval List Intersections]
+https://leetcode.com/problems/interval-list-intersections/[LeetCode - Interval List Intersections^]
 
 Given two lists of *closed* intervals, each list of intervals is pairwise disjoint and in sorted order.
 

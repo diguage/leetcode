@@ -1,7 +1,7 @@
 [#0780-reaching-points]
 = 780. Reaching Points
 
-https://leetcode.com/problems/reaching-points/[LeetCode - Reaching Points]
+https://leetcode.com/problems/reaching-points/[LeetCode - Reaching Points^]
 
 A move consists of taking a point `(x, y)` and transforming it to either `(x, x+y)` or `(x+y, y)`.
 

@@ -1,7 +1,7 @@
 [#0823-binary-trees-with-factors]
 = 823. Binary Trees With Factors
 
-https://leetcode.com/problems/binary-trees-with-factors/[LeetCode - Binary Trees With Factors]
+https://leetcode.com/problems/binary-trees-with-factors/[LeetCode - Binary Trees With Factors^]
 
 Given an array of unique integers, each integer is strictly greater than 1.
 

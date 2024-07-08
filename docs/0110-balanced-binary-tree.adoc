@@ -1,7 +1,7 @@
 [#0110-balanced-binary-tree]
 = 110. Balanced Binary Tree
 
-https://leetcode.com/problems/balanced-binary-tree/[LeetCode - Balanced Binary Tree]
+https://leetcode.com/problems/balanced-binary-tree/[LeetCode - Balanced Binary Tree^]
 
 Given a binary tree, determine if it is height-balanced.
 
@@ -56,7 +56,7 @@ Return false.
 
 == 参考资料
 
-. https://leetcode.cn/problems/balanced-binary-tree/solutions/8737/balanced-binary-tree-di-gui-fang-fa-by-jin40789108/[Balanced Binary Tree （Top-down和Bottom-up递归方法） - 平衡二叉树 - 力扣（LeetCode）]
+. https://leetcode.cn/problems/balanced-binary-tree/solutions/8737/balanced-binary-tree-di-gui-fang-fa-by-jin40789108/[Balanced Binary Tree （Top-down和Bottom-up递归方法） - 平衡二叉树 - 力扣（LeetCode）^]
 
 
 [[src-0110]]

@@ -1,7 +1,7 @@
 [#1333-filter-restaurants-by-vegan-friendly-price-and-distance]
 = 1333. Filter Restaurants by Vegan-Friendly, Price and Distance
 
-https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/[LeetCode - Filter Restaurants by Vegan-Friendly, Price and Distance]
+https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/[LeetCode - Filter Restaurants by Vegan-Friendly, Price and Distance^]
 
 Given the array `restaurants` where  `restaurants[i] = [id~i~, rating~i~, veganFriendly~i~, price~i~, distance~i~]`. You have to filter the restaurants using three filters.
 

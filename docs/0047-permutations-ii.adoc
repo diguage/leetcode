@@ -1,7 +1,7 @@
 [#0047-permutations-ii]
 = 47. Permutations II
 
-https://leetcode.com/problems/permutations-ii/[LeetCode - Permutations II]
+https://leetcode.com/problems/permutations-ii/[LeetCode - Permutations II^]
 
 Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 
@@ -23,7 +23,7 @@ image::images/0047-1.png[{image_attr}]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/permutations-ii/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liwe-2/[回溯搜索 + 剪枝 - 全排列 II - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/permutations-ii/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liwe-2/[回溯搜索 + 剪枝 - 全排列 II - 力扣（LeetCode）^]
 
 Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 

@@ -1,7 +1,7 @@
 [#0728-self-dividing-numbers]
 = 728. Self Dividing Numbers
 
-https://leetcode.com/problems/self-dividing-numbers/[LeetCode - Self Dividing Numbers]
+https://leetcode.com/problems/self-dividing-numbers/[LeetCode - Self Dividing Numbers^]
 
 
 A _self-dividing number_ is a number that is divisible by every digit it contains.

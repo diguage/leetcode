@@ -1,7 +1,7 @@
 [#0943-find-the-shortest-superstring]
 = 943. Find the Shortest Superstring
 
-https://leetcode.com/problems/find-the-shortest-superstring/[LeetCode - Find the Shortest Superstring]
+https://leetcode.com/problems/find-the-shortest-superstring/[LeetCode - Find the Shortest Superstring^]
 
 Given an array A of strings, find any smallest string that contains each string in `A` as a substring.
 

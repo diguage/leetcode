@@ -1,7 +1,7 @@
 [#0761-special-binary-string]
 = 761. Special Binary String
 
-https://leetcode.com/problems/special-binary-string/[LeetCode - Special Binary String]
+https://leetcode.com/problems/special-binary-string/[LeetCode - Special Binary String^]
 
 
 _Special_ binary strings are binary strings with the following two properties:

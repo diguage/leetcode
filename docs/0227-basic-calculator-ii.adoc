@@ -1,7 +1,7 @@
 [#0227-basic-calculator-ii]
 = 227. Basic Calculator II
 
-https://leetcode.com/problems/basic-calculator-ii/[LeetCode - Basic Calculator II]
+https://leetcode.com/problems/basic-calculator-ii/[LeetCode - Basic Calculator II^]
 
 这里在处理将字符串转成数字时，从左向右按位乘以十再相加的方法，这样就可以只遍历一遍字符串。
 

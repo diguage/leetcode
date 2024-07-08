@@ -1,7 +1,7 @@
 [#0283-move-zeroes]
 = 283. Move Zeroes
 
-https://leetcode.com/problems/move-zeroes/[LeetCode - Move Zeroes]
+https://leetcode.com/problems/move-zeroes/[LeetCode - Move Zeroes^]
 
 每次答案都比我写的简洁！
 

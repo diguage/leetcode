@@ -1,7 +1,7 @@
 [#0995-minimum-number-of-k-consecutive-bit-flips]
 = 995. Minimum Number of K Consecutive Bit Flips
 
-https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/[LeetCode - Minimum Number of K Consecutive Bit Flips]
+https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/[LeetCode - Minimum Number of K Consecutive Bit Flips^]
 
 In an array `A` containing only 0s and 1s, a _`K`-bit flip _consists of choosing a (contiguous) subarray of length `K` and simultaneously changing every 0 in the subarray to 1, and every 1 in the subarray to 0.
 

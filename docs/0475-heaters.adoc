@@ -1,7 +1,7 @@
 [#0475-heaters]
 = 475. Heaters
 
-https://leetcode.com/problems/heaters/[LeetCode - Heaters]
+https://leetcode.com/problems/heaters/[LeetCode - Heaters^]
 
 Winter is coming! Your first job during the contest is to design a standard heater with fixed warm radius to warm all the houses.
 

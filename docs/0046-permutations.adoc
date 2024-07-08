@@ -1,7 +1,7 @@
 [#0046-permutations]
 = 46. Permutations
 
-https://leetcode.com/problems/permutations/[LeetCode - Permutations]
+https://leetcode.com/problems/permutations/[LeetCode - Permutations^]
 
 首先介绍“回溯”算法的应用。“回溯”算法也叫“回溯搜索”算法，主要用于在一个庞大的空间里搜索我们所需要的问题的解。我们每天使用的“搜索引擎”就是帮助我们在庞大的互联网上搜索我们需要的信息。“搜索”引擎的“搜索”和“回溯搜索”算法的“搜索”意思是一样的。
 

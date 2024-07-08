@@ -1,7 +1,7 @@
 [#0824-goat-latin]
 = 824. Goat Latin
 
-https://leetcode.com/problems/goat-latin/[LeetCode - Goat Latin]
+https://leetcode.com/problems/goat-latin/[LeetCode - Goat Latin^]
 
 A sentence `S` is given, composed of words separated by spaces. Each word consists of lowercase and uppercase letters only.
 

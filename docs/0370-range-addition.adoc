@@ -1,7 +1,7 @@
 [#0370-range-addition]
 = 370. Range Addition
 
-https://leetcode.com/problems/range-addition/[LeetCode - Range Addition]
+https://leetcode.com/problems/range-addition/[LeetCode - Range Addition^]
 
 Assume you have an array of length n initialized with all 0's and are given k update operations.
 

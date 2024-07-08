@@ -1,7 +1,7 @@
 [#0193-valid-phone-numbers]
 = 193. Valid Phone Numbers
 
-https://leetcode.com/problems/valid-phone-numbers/[LeetCode - Valid Phone Numbers]
+https://leetcode.com/problems/valid-phone-numbers/[LeetCode - Valid Phone Numbers^]
 
 Given a text file `file.txt` that contains list of phone numbers (one per line), write a one liner bash script to print all valid phone numbers.
 

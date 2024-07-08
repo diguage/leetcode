@@ -1,7 +1,7 @@
 [#0207-course-schedule]
 = 207. Course Schedule
 
-https://leetcode.com/problems/course-schedule/[LeetCode - Course Schedule]
+https://leetcode.com/problems/course-schedule/[LeetCode - Course Schedule^]
 
 TODO: 研究一下图相关算法和拓扑排序。
 
@@ -13,8 +13,8 @@ TODO: 研究一下图相关算法和拓扑排序。
 
 == 参考资料
 
-. http://songlee24.github.io/2015/05/07/topological-sorting/[拓扑排序（Topological Sorting） | 神奕的博客]
-. https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs[Representing graphs (article) | Algorithms | Khan Academy]
+. http://songlee24.github.io/2015/05/07/topological-sorting/[拓扑排序（Topological Sorting） | 神奕的博客^]
+. https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs[Representing graphs (article) | Algorithms | Khan Academy^]
 
 There are a total of _n_ courses you have to take, labeled from `0` to `n-1`.
 
@@ -47,7 +47,7 @@ Given the total number of courses and a list of prerequisite *pairs*, is it poss
 *Note:*
 
 
-. The input prerequisites is a graph represented by *a list of edges*, not adjacency matrices. Read more about https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs[how a graph is represented].
+. The input prerequisites is a graph represented by *a list of edges*, not adjacency matrices. Read more about https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs[how a graph is represented^].
 . You may assume that there are no duplicate edges in the input prerequisites.
 
 

@@ -1,7 +1,7 @@
 [#0767-reorganize-string]
 = 767. Reorganize String
 
-https://leetcode.com/problems/reorganize-string/[LeetCode - Reorganize String]
+https://leetcode.com/problems/reorganize-string/[LeetCode - Reorganize String^]
 
 Given a string `S`, check if the letters can be rearranged so that two characters that are adjacent to each other are not the same.
 

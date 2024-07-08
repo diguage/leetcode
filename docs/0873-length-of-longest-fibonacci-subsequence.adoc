@@ -1,7 +1,7 @@
 [#0873-length-of-longest-fibonacci-subsequence]
 = 873. Length of Longest Fibonacci Subsequence
 
-https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/[LeetCode - Length of Longest Fibonacci Subsequence]
+https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/[LeetCode - Length of Longest Fibonacci Subsequence^]
 
 A sequence `X_1, X_2, ..., X_n` is _fibonacci-like_ if:
 

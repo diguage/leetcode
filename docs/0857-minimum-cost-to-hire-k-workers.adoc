@@ -1,7 +1,7 @@
 [#0857-minimum-cost-to-hire-k-workers]
 = 857. Minimum Cost to Hire K Workers
 
-https://leetcode.com/problems/minimum-cost-to-hire-k-workers/[LeetCode - Minimum Cost to Hire K Workers]
+https://leetcode.com/problems/minimum-cost-to-hire-k-workers/[LeetCode - Minimum Cost to Hire K Workers^]
 
 There are `N` workers.  The `i`-th worker has a `quality[i]` and a minimum wage expectation `wage[i]`.
 

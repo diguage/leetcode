@@ -1,7 +1,7 @@
 [#0104-maximum-depth-of-binary-tree]
 = 104. Maximum Depth of Binary Tree
 
-https://leetcode.com/problems/maximum-depth-of-binary-tree/[LeetCode - Maximum Depth of Binary Tree]
+https://leetcode.com/problems/maximum-depth-of-binary-tree/[LeetCode - Maximum Depth of Binary Tree^]
 
 思考题：尝试使用迭代方式来解决一下。
 

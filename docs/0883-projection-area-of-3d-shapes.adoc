@@ -1,7 +1,7 @@
 [#0883-projection-area-of-3d-shapes]
 = 883. Projection Area of 3D Shapes
 
-https://leetcode.com/problems/projection-area-of-3d-shapes/[LeetCode - Projection Area of 3D Shapes]
+https://leetcode.com/problems/projection-area-of-3d-shapes/[LeetCode - Projection Area of 3D Shapes^]
 
 On a `N * N` grid, we place some `1 * 1 * 1 `cubes that are axis-aligned with the x, y, and z axes.
 

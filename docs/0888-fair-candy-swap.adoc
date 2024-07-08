@@ -1,7 +1,7 @@
 [#0888-fair-candy-swap]
 = 888. Fair Candy Swap
 
-https://leetcode.com/problems/fair-candy-swap/[LeetCode - Fair Candy Swap]
+https://leetcode.com/problems/fair-candy-swap/[LeetCode - Fair Candy Swap^]
 
 Alice and Bob have candy bars of different sizes: `A[i]` is the size of the `i`-th bar of candy that Alice has, and `B[j]` is the size of the `j`-th bar of candy that Bob has.
 

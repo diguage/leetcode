@@ -1,7 +1,7 @@
 [#0208-implement-trie-prefix-tree]
 = 208. Implement Trie (Prefix Tree)
 
-https://leetcode.com/problems/implement-trie-prefix-tree/[LeetCode - Implement Trie (Prefix Tree)]
+https://leetcode.com/problems/implement-trie-prefix-tree/[LeetCode - Implement Trie (Prefix Tree)^]
 
 没想到 Trie Tree 实现起来一点也不复杂！
 
@@ -11,8 +11,8 @@ image::images/0208-1.png[{image_attr}]
 
 == 参考资料
 
-. https://en.wikipedia.org/wiki/Trie[Trie - Wikipedia]
-. https://www.geeksforgeeks.org/trie-insert-and-search/[Trie | (Insert and Search) - GeeksforGeeks]
+. https://en.wikipedia.org/wiki/Trie[Trie - Wikipedia^]
+. https://www.geeksforgeeks.org/trie-insert-and-search/[Trie | (Insert and Search) - GeeksforGeeks^]
 
 Implement a trie with `insert`, `search`, and `startsWith` methods.
 

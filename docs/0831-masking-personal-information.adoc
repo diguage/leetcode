@@ -1,7 +1,7 @@
 [#0831-masking-personal-information]
 = 831. Masking Personal Information
 
-https://leetcode.com/problems/masking-personal-information/[LeetCode - Masking Personal Information]
+https://leetcode.com/problems/masking-personal-information/[LeetCode - Masking Personal Information^]
 
 We are given a personal information string `S`, which may represent either *an email address* or *a phone number.*
 

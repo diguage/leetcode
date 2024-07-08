@@ -1,7 +1,7 @@
 [#1044-longest-duplicate-substring]
 = 1044. Longest Duplicate Substring
 
-https://leetcode.com/problems/longest-duplicate-substring/[LeetCode - Longest Duplicate Substring]
+https://leetcode.com/problems/longest-duplicate-substring/[LeetCode - Longest Duplicate Substring^]
 
 Given a string `S`, consider all _duplicated substrings_: (contiguous) substrings of S that occur 2 or more times.  (The occurrences may overlap.)
 

@@ -1,7 +1,7 @@
 [#0141-linked-list-cycle]
 = 141. Linked List Cycle
 
-https://leetcode.com/problems/linked-list-cycle/[LeetCode - Linked List Cycle]
+https://leetcode.com/problems/linked-list-cycle/[LeetCode - Linked List Cycle^]
 
 
 Given a linked list, determine if it has a cycle in it.

@@ -1,7 +1,7 @@
 [#0448-find-all-numbers-disappeared-in-an-array]
 = 448. Find All Numbers Disappeared in an Array
 
-https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/[LeetCode - Find All Numbers Disappeared in an Array]
+https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/[LeetCode - Find All Numbers Disappeared in an Array^]
 
 Given an array of integers where `1 ≤ a[i] ≤ n` (n = size of array), some elements appear twice and others appear once.
 
@@ -30,7 +30,7 @@ image::images/0448-3.jpeg[{image_attr}]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/solution/zhao-dao-suo-you-shu-zu-zhong-xiao-shi-de-shu-zi-2/[找到所有数组中消失的数字 - 找到所有数组中消失的数字 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/solution/zhao-dao-suo-you-shu-zu-zhong-xiao-shi-de-shu-zi-2/[找到所有数组中消失的数字 - 找到所有数组中消失的数字 - 力扣（LeetCode）^]
 
 Given an array of integers where 1 ≤ a[i] ≤ _n_ (_n_ = size of array), some elements appear twice and others appear once.
 

@@ -1,7 +1,7 @@
 [#0116-populating-next-right-pointers-in-each-node]
 = 116. Populating Next Right Pointers in Each Node
 
-https://leetcode.com/problems/populating-next-right-pointers-in-each-node/[LeetCode - Populating Next Right Pointers in Each Node]
+https://leetcode.com/problems/populating-next-right-pointers-in-each-node/[LeetCode - Populating Next Right Pointers in Each Node^]
 
 You are given a *perfect binary tree* where all leaves are on the same level, and every parent has two children. The binary tree has the following definition:
 
@@ -92,4 +92,4 @@ include::{sourcedir}/_0116_PopulatingNextRightPointersInEachNode_21.java[tag=ans
 
 == 参考资料
 
-. https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/solutions/17870/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--27/[详细通俗的思路分析，多解法 - 填充每个节点的下一个右侧节点指针 - 力扣（LeetCode）]
+. https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/solutions/17870/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--27/[详细通俗的思路分析，多解法 - 填充每个节点的下一个右侧节点指针 - 力扣（LeetCode）^]

@@ -1,7 +1,7 @@
 [#0050-powx-n]
 = 50. Pow(x, n)
 
-https://leetcode.com/problems/powx-n/[LeetCode - Pow(x, n)]
+https://leetcode.com/problems/powx-n/[LeetCode - Pow(x, n)^]
 
 首先，可以把"一半的计算结果"存储起来，节省一半的递归调用；
 
@@ -9,7 +9,7 @@ https://leetcode.com/problems/powx-n/[LeetCode - Pow(x, n)]
 
 另外，思考一下，如果使用迭代来实现？
 
-Implement http://www.cplusplus.com/reference/valarray/pow/[pow(_x_, _n_)], which calculates _x_ raised to the power _n_ (x^n^).
+Implement http://www.cplusplus.com/reference/valarray/pow/[pow(_x_, _n_)^], which calculates _x_ raised to the power _n_ (x^n^).
 
 *Example 1:*
 

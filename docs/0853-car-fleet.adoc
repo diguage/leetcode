@@ -1,7 +1,7 @@
 [#0853-car-fleet]
 = 853. Car Fleet
 
-https://leetcode.com/problems/car-fleet/[LeetCode - Car Fleet]
+https://leetcode.com/problems/car-fleet/[LeetCode - Car Fleet^]
 
 `N` cars are going to the same destination along a one lane road.  The destination is `target` miles away.
 

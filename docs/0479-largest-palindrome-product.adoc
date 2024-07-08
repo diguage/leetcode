@@ -1,7 +1,7 @@
 [#0479-largest-palindrome-product]
 = 479. Largest Palindrome Product
 
-https://leetcode.com/problems/largest-palindrome-product/[LeetCode - Largest Palindrome Product]
+https://leetcode.com/problems/largest-palindrome-product/[LeetCode - Largest Palindrome Product^]
 
 Find the largest palindrome made from the product of two n-digit numbers.
 

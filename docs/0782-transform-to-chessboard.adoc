@@ -1,7 +1,7 @@
 [#0782-transform-to-chessboard]
 = 782. Transform to Chessboard
 
-https://leetcode.com/problems/transform-to-chessboard/[LeetCode - Transform to Chessboard]
+https://leetcode.com/problems/transform-to-chessboard/[LeetCode - Transform to Chessboard^]
 
 An N x N `board` contains only `0`s and `1`s. In each move, you can swap any 2 rows with each other, or any 2 columns with each other.
 

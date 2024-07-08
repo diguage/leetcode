@@ -1,7 +1,7 @@
 [#0224-basic-calculator]
 = 224. Basic Calculator
 
-https://leetcode.com/problems/basic-calculator/[LeetCode - Basic Calculator]
+https://leetcode.com/problems/basic-calculator/[LeetCode - Basic Calculator^]
 
 Implement a basic calculator to evaluate a simple expression string.
 

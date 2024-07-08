@@ -1,7 +1,7 @@
 [#0721-accounts-merge]
 = 721. Accounts Merge
 
-https://leetcode.com/problems/accounts-merge/[LeetCode - Accounts Merge]
+https://leetcode.com/problems/accounts-merge/[LeetCode - Accounts Merge^]
 
 Given a list `accounts`, each element `accounts[i]` is a list of strings, where the first element `accounts[i][0]` is a _name_, and the rest of the elements are _emails_ representing emails of the account.
 

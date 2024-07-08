@@ -1,7 +1,7 @@
 [#0416-partition-equal-subset-sum]
 = 416. Partition Equal Subset Sum
 
-https://leetcode.com/problems/partition-equal-subset-sum/[LeetCode - Partition Equal Subset Sum]
+https://leetcode.com/problems/partition-equal-subset-sum/[LeetCode - Partition Equal Subset Sum^]
 
 Given a *non-empty* array containing **only positive integers**, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
 
@@ -40,11 +40,11 @@ image::images/0416-1.png[{image_attr}]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/partition-equal-subset-sum/solution/0-1-bei-bao-wen-ti-xiang-jie-zhen-dui-ben-ti-de-yo/[动态规划（0-1 背包问题） - 分割等和子集 - 力扣（LeetCode）]
-. https://leetcode-cn.com/problems/partition-equal-subset-sum/solution/java-hui-su-fa-jie-fa-2ms-by-wang_dong/[java 回溯法解法 2ms - 分割等和子集 - 力扣（LeetCode）]
-. https://www.kancloud.cn/kancloud/pack/70124[前言 · 背包问题九讲 · 看云]
-. https://www.youtube.com/watch?v=nleY0-eexps[背包九讲问题（上） - YouTube]
-. https://www.youtube.com/watch?v=0Jp4p0uO7Dw[背包九讲问题（下） - YouTube]
+. https://leetcode-cn.com/problems/partition-equal-subset-sum/solution/0-1-bei-bao-wen-ti-xiang-jie-zhen-dui-ben-ti-de-yo/[动态规划（0-1 背包问题） - 分割等和子集 - 力扣（LeetCode）^]
+. https://leetcode-cn.com/problems/partition-equal-subset-sum/solution/java-hui-su-fa-jie-fa-2ms-by-wang_dong/[java 回溯法解法 2ms - 分割等和子集 - 力扣（LeetCode）^]
+. https://www.kancloud.cn/kancloud/pack/70124[前言 · 背包问题九讲 · 看云^]
+. https://www.youtube.com/watch?v=nleY0-eexps[背包九讲问题（上） - YouTube^]
+. https://www.youtube.com/watch?v=0Jp4p0uO7Dw[背包九讲问题（下） - YouTube^]
 
 Given a *non-empty* array containing *only positive integers*, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
 

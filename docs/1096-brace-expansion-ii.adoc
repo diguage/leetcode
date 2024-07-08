@@ -1,7 +1,7 @@
 [#1096-brace-expansion-ii]
 = 1096. Brace Expansion II
 
-https://leetcode.com/problems/brace-expansion-ii/[LeetCode - Brace Expansion II]
+https://leetcode.com/problems/brace-expansion-ii/[LeetCode - Brace Expansion II^]
 
 Under a grammar given below, strings can represent a set of lowercase words.  Let's use `R(expr)` to denote the *set* of words the expression represents.
 

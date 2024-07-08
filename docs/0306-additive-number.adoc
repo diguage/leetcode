@@ -1,7 +1,7 @@
 [#0306-additive-number]
 = 306. Additive Number
 
-https://leetcode.com/problems/additive-number/[LeetCode - Additive Number]
+https://leetcode.com/problems/additive-number/[LeetCode - Additive Number^]
 
 Additive number is a string whose digits can form additive sequence.
 

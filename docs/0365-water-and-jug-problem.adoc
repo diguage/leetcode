@@ -1,7 +1,7 @@
 [#0365-water-and-jug-problem]
 = 365. Water and Jug Problem
 
-https://leetcode.com/problems/water-and-jug-problem/[LeetCode - Water and Jug Problem]
+https://leetcode.com/problems/water-and-jug-problem/[LeetCode - Water and Jug Problem^]
 
 You are given two jugs with capacities _x_ and _y_ litres. There is an infinite amount of water supply available. You need to determine whether it is possible to measure exactly _z_ litres using these two jugs.
 
@@ -15,7 +15,7 @@ Operations allowed:
 * Pour water from one jug into another till the other jug is completely full or the first jug itself is empty.
 
 
-*Example 1:* (From the famous https://www.youtube.com/watch?v=BVtQNK_ZUJg[_"Die Hard"_ example])
+*Example 1:* (From the famous https://www.youtube.com/watch?v=BVtQNK_ZUJg[_"Die Hard"_ example^])
 
 [subs="verbatim,quotes,macros"]
 ----

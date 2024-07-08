@@ -1,7 +1,7 @@
 [#0581-shortest-unsorted-continuous-subarray]
 = 581. Shortest Unsorted Continuous Subarray
 
-https://leetcode.com/problems/shortest-unsorted-continuous-subarray/[LeetCode - Shortest Unsorted Continuous Subarray]
+https://leetcode.com/problems/shortest-unsorted-continuous-subarray/[LeetCode - Shortest Unsorted Continuous Subarray^]
 
 Given an integer array, you need to find one *continuous subarray* that if you only sort this subarray in ascending order, then the whole array will be sorted in ascending order, too.
 
@@ -31,7 +31,7 @@ Explanation: You need to sort [6, 4, 8, 10, 9] in ascending order to make the wh
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/solution/zui-duan-wu-xu-lian-xu-zi-shu-zu-by-leetcode/[最短无序连续子数组 - 最短无序连续子数组 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/solution/zui-duan-wu-xu-lian-xu-zi-shu-zu-by-leetcode/[最短无序连续子数组 - 最短无序连续子数组 - 力扣（LeetCode）^]
 
 Given an integer array, you need to find one *continuous subarray* that if you only sort this subarray in ascending order, then the whole array will be sorted in ascending order, too.  
 

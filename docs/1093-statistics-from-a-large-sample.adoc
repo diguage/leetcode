@@ -1,7 +1,7 @@
 [#1093-statistics-from-a-large-sample]
 = 1093. Statistics from a Large Sample
 
-https://leetcode.com/problems/statistics-from-a-large-sample/[LeetCode - Statistics from a Large Sample]
+https://leetcode.com/problems/statistics-from-a-large-sample/[LeetCode - Statistics from a Large Sample^]
 
 We sampled integers between `0` and `255`, and stored the results in an array `count`:  `count[k]` is the number of integers we sampled equal to `k`.
 

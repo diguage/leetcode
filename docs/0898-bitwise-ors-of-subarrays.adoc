@@ -1,7 +1,7 @@
 [#0898-bitwise-ors-of-subarrays]
 = 898. Bitwise ORs of Subarrays
 
-https://leetcode.com/problems/bitwise-ors-of-subarrays/[LeetCode - Bitwise ORs of Subarrays]
+https://leetcode.com/problems/bitwise-ors-of-subarrays/[LeetCode - Bitwise ORs of Subarrays^]
 
 We have an array `A` of non-negative integers.
 

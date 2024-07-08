@@ -1,7 +1,7 @@
 [#0791-custom-sort-string]
 = 791. Custom Sort String
 
-https://leetcode.com/problems/custom-sort-string/[LeetCode - Custom Sort String]
+https://leetcode.com/problems/custom-sort-string/[LeetCode - Custom Sort String^]
 
 `S` and `T` are strings composed of lowercase letters. In `S`, no letter occurs more than once.
 

@@ -1,7 +1,7 @@
 [#0866-prime-palindrome]
 = 866. Prime Palindrome
 
-https://leetcode.com/problems/prime-palindrome/[LeetCode - Prime Palindrome]
+https://leetcode.com/problems/prime-palindrome/[LeetCode - Prime Palindrome^]
 
 Find the smallest prime palindrome greater than or equal to `N`.
 

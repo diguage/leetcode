@@ -1,7 +1,7 @@
 [#0107-binary-tree-level-order-traversal-ii]
 = 107. Binary Tree Level Order Traversal II
 
-https://leetcode.com/problems/binary-tree-level-order-traversal-ii/[LeetCode - Binary Tree Level Order Traversal II]
+https://leetcode.com/problems/binary-tree-level-order-traversal-ii/[LeetCode - Binary Tree Level Order Traversal II^]
 
 Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
 
@@ -36,7 +36,7 @@ return its bottom-up level order traversal as:
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/solution/107er-cha-shu-de-ceng-ci-bian-li-iidui-lie-fa-he-d/[107二叉树的层次遍历II（队列法和递归法） - 二叉树的层次遍历 II - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/solution/107er-cha-shu-de-ceng-ci-bian-li-iidui-lie-fa-he-d/[107二叉树的层次遍历II（队列法和递归法） - 二叉树的层次遍历 II - 力扣（LeetCode）^]
 
 Given a binary tree, return the _bottom-up level order_ traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
 

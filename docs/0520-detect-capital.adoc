@@ -1,7 +1,7 @@
 [#0520-detect-capital]
 = 520. Detect Capital
 
-https://leetcode.com/problems/detect-capital/[LeetCode - Detect Capital]
+https://leetcode.com/problems/detect-capital/[LeetCode - Detect Capital^]
 
 Given a word, you need to judge whether the usage of capitals in it is right or not.
 

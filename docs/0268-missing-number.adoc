@@ -1,9 +1,9 @@
 [#0268-missing-number]
 = 268. Missing Number
 
-https://leetcode.com/problems/missing-number/[LeetCode - Missing Number]
+https://leetcode.com/problems/missing-number/[LeetCode - Missing Number^]
 
-这道题跟 https://leetcode.com/problems/first-missing-positive/[41. First Missing Positive] 很像！
+这道题跟 https://leetcode.com/problems/first-missing-positive/[41. First Missing Positive^] 很像！
 
 Given an array containing _n_ distinct numbers taken from `0, 1, 2, ..., n`, find the one that is missing from the array.
 

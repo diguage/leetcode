@@ -1,7 +1,7 @@
 [#0134-gas-station]
 = 134. Gas Station
 
-https://leetcode.com/problems/gas-station/[LeetCode - Gas Station]
+https://leetcode.com/problems/gas-station/[LeetCode - Gas Station^]
 
 image::images/0134-1.png[{image_attr}]
 

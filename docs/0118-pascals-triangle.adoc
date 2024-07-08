@@ -1,7 +1,7 @@
 [#0118-pascals-triangle]
 = 118. Pascal's Triangle
 
-https://leetcode.com/problems/pascals-triangle/[LeetCode - Pascal's Triangle]
+https://leetcode.com/problems/pascals-triangle/[LeetCode - Pascal's Triangle^]
 
 Given a non-negative integer _numRows_, generate the first _numRows_ of Pascal's triangle.
 

@@ -1,7 +1,7 @@
 [#0848-shifting-letters]
 = 848. Shifting Letters
 
-https://leetcode.com/problems/shifting-letters/[LeetCode - Shifting Letters]
+https://leetcode.com/problems/shifting-letters/[LeetCode - Shifting Letters^]
 
 We have a string `S` of lowercase letters, and an integer array `shifts`.
 

@@ -1,7 +1,7 @@
 [#0726-number-of-atoms]
 = 726. Number of Atoms
 
-https://leetcode.com/problems/number-of-atoms/[LeetCode - Number of Atoms]
+https://leetcode.com/problems/number-of-atoms/[LeetCode - Number of Atoms^]
 
 Given a chemical `formula` (given as a string), return the count of each atom.
 

@@ -1,7 +1,7 @@
 [#0088-merge-sorted-array]
 = 88. Merge Sorted Array
 
-https://leetcode.com/problems/merge-sorted-array/[LeetCode - Merge Sorted Array]
+https://leetcode.com/problems/merge-sorted-array/[LeetCode - Merge Sorted Array^]
 
 Given two sorted integer arrays _nums1_ and _nums2_, merge _nums2_ into _nums1_ as one sorted array.
 

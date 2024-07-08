@@ -1,7 +1,7 @@
 [#1109-corporate-flight-bookings]
 = 1109. Corporate Flight Bookings
 
-https://leetcode.com/problems/corporate-flight-bookings/[LeetCode - Corporate Flight Bookings]
+https://leetcode.com/problems/corporate-flight-bookings/[LeetCode - Corporate Flight Bookings^]
 
 There are `n` flights, and they are labeled from `1` to `n`.
 

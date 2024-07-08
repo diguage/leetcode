@@ -1,7 +1,7 @@
 [#1034-coloring-a-border]
 = 1034. Coloring A Border
 
-https://leetcode.com/problems/coloring-a-border/[LeetCode - Coloring A Border]
+https://leetcode.com/problems/coloring-a-border/[LeetCode - Coloring A Border^]
 
 Given a 2-dimensional `grid` of integers, each value in the grid represents the color of the grid square at that location.
 

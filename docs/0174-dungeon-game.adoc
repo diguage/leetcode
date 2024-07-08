@@ -1,7 +1,7 @@
 [#0174-dungeon-game]
 = 174. Dungeon Game
 
-https://leetcode.com/problems/dungeon-game/[LeetCode - Dungeon Game]
+https://leetcode.com/problems/dungeon-game/[LeetCode - Dungeon Game^]
 
 <style type="text/css">table.dungeon, .dungeon th, .dungeon td {
   border:3px solid black;

@@ -1,7 +1,7 @@
 [#0684-redundant-connection]
 = 684. Redundant Connection
 
-https://leetcode.com/problems/redundant-connection/[LeetCode - Redundant Connection]
+https://leetcode.com/problems/redundant-connection/[LeetCode - Redundant Connection^]
 
 
 In this problem, a tree is an *undirected* graph that is connected and has no cycles.

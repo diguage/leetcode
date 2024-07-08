@@ -1,7 +1,7 @@
 [#0120-triangle]
 = 120. Triangle
 
-https://leetcode.com/problems/triangle/[LeetCode - Triangle]
+https://leetcode.com/problems/triangle/[LeetCode - Triangle^]
 
 Given a triangle, find the minimum path sum from top to bottom. Each step you may move to adjacent numbers on the row below.
 
@@ -37,8 +37,8 @@ image::images/0120-1.png[{image_attr}]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/triangle/solution/120-san-jiao-xing-zui-xiao-lu-jing-he-by-alexer-66/[120. 三角形最小路径和 - 三角形最小路径和 - 力扣（LeetCode）]
-. https://leetcode-cn.com/problems/triangle/solution/di-gui-ji-yi-hua-sou-suo-zai-dao-dp-by-crsm/[【Java】递归，记忆化搜索，再到DP - 三角形最小路径和 - 力扣（LeetCode）]
+. https://leetcode-cn.com/problems/triangle/solution/120-san-jiao-xing-zui-xiao-lu-jing-he-by-alexer-66/[120. 三角形最小路径和 - 三角形最小路径和 - 力扣（LeetCode）^]
+. https://leetcode-cn.com/problems/triangle/solution/di-gui-ji-yi-hua-sou-suo-zai-dao-dp-by-crsm/[【Java】递归，记忆化搜索，再到DP - 三角形最小路径和 - 力扣（LeetCode）^]
 
 [[src-0120]]
 [{java_src_attr}]

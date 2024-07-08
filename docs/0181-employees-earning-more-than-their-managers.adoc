@@ -1,7 +1,7 @@
 [#0181-employees-earning-more-than-their-managers]
 = 181. Employees Earning More Than Their Managers
 
-https://leetcode.com/problems/employees-earning-more-than-their-managers/[LeetCode - Employees Earning More Than Their Managers]
+https://leetcode.com/problems/employees-earning-more-than-their-managers/[LeetCode - Employees Earning More Than Their Managers^]
 
 The `Employee` table holds all employees including their managers. Every employee has an Id, and there is also a column for the manager Id.
 

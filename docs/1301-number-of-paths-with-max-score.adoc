@@ -1,7 +1,7 @@
 [#1301-number-of-paths-with-max-score]
 = 1301. Number of Paths with Max Score
 
-https://leetcode.com/problems/number-of-paths-with-max-score/[LeetCode - Number of Paths with Max Score]
+https://leetcode.com/problems/number-of-paths-with-max-score/[LeetCode - Number of Paths with Max Score^]
 
 You are given a square `board` of characters. You can move on the board starting at the bottom right square marked with the character `'S'`.
 

@@ -1,7 +1,7 @@
 [#0307-range-sum-query-mutable]
 = 307. Range Sum Query - Mutable
 
-https://leetcode.com/problems/range-sum-query-mutable/[LeetCode - Range Sum Query - Mutable]
+https://leetcode.com/problems/range-sum-query-mutable/[LeetCode - Range Sum Query - Mutable^]
 
 Given an integer array _nums_, find the sum of the elements between indices _i_ and _j_ (_i_ ≤ _j_), inclusive.
 

@@ -1,7 +1,7 @@
 [#0468-validate-ip-address]
 = 468. Validate IP Address
 
-https://leetcode.com/problems/validate-ip-address/[LeetCode - Validate IP Address]
+https://leetcode.com/problems/validate-ip-address/[LeetCode - Validate IP Address^]
 
 
 Write a function to check whether an input string is a valid IPv4 address or IPv6 address or neither.

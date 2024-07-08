@@ -1,7 +1,7 @@
 [#0620-not-boring-movies]
 = 620. Not Boring Movies
 
-https://leetcode.com/problems/not-boring-movies/[LeetCode - Not Boring Movies]
+https://leetcode.com/problems/not-boring-movies/[LeetCode - Not Boring Movies^]
 
 X city opened a new cinema, many people would like to go to this cinema. The cinema also gives out a poster indicating the movies&rsquo; ratings and descriptions.
 Please write a SQL query to output movies with an odd numbered ID and a description that is not 'boring'. Order the result by rating.

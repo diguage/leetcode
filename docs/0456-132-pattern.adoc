@@ -1,7 +1,7 @@
 [#0456-132-pattern]
 = 456. 132 Pattern
 
-https://leetcode.com/problems/132-pattern/[LeetCode - 132 Pattern]
+https://leetcode.com/problems/132-pattern/[LeetCode - 132 Pattern^]
 
 
 Given a sequence of n integers a~1~, a~2~, ..., a~n~, a 132 pattern is a subsequence a~*i*~, a~*j*~, a~*k*~ such

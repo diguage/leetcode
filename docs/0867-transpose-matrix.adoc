@@ -1,7 +1,7 @@
 [#0867-transpose-matrix]
 = 867. Transpose Matrix
 
-https://leetcode.com/problems/transpose-matrix/[LeetCode - Transpose Matrix]
+https://leetcode.com/problems/transpose-matrix/[LeetCode - Transpose Matrix^]
 
 Given a matrix `A`, return the transpose of `A`.
 

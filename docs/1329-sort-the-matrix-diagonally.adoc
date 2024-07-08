@@ -1,7 +1,7 @@
 [#1329-sort-the-matrix-diagonally]
 = 1329. Sort the Matrix Diagonally
 
-https://leetcode.com/problems/sort-the-matrix-diagonally/[LeetCode - Sort the Matrix Diagonally]
+https://leetcode.com/problems/sort-the-matrix-diagonally/[LeetCode - Sort the Matrix Diagonally^]
 
 Given a `m * n` matrix `mat` of integers, sort it diagonally in ascending order from the top-left to the bottom-right then return the sorted array.
 

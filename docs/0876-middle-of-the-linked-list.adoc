@@ -1,7 +1,7 @@
 [#0876-middle-of-the-linked-list]
 = 876. Middle of the Linked List
 
-https://leetcode.com/problems/middle-of-the-linked-list/[LeetCode - Middle of the Linked List]
+https://leetcode.com/problems/middle-of-the-linked-list/[LeetCode - Middle of the Linked List^]
 
 Given a non-empty, singly linked list with head node `head`, return a middle node of linked list.
 

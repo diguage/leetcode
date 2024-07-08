@@ -1,7 +1,7 @@
 [#1015-smallest-integer-divisible-by-k]
 = 1015. Smallest Integer Divisible by K
 
-https://leetcode.com/problems/smallest-integer-divisible-by-k/[LeetCode - Smallest Integer Divisible by K]
+https://leetcode.com/problems/smallest-integer-divisible-by-k/[LeetCode - Smallest Integer Divisible by K^]
 
 Given a positive integer `K`, you need find the *smallest* positive integer `N` such that `N` is divisible by `K`, and `N` only contains the digit *1*.
 

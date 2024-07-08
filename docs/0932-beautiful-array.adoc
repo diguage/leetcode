@@ -1,7 +1,7 @@
 [#0932-beautiful-array]
 = 932. Beautiful Array
 
-https://leetcode.com/problems/beautiful-array/[LeetCode - Beautiful Array]
+https://leetcode.com/problems/beautiful-array/[LeetCode - Beautiful Array^]
 
 For some fixed `N`, an array `A` is _beautiful_ if it is a permutation of the integers `1, 2, ..., N`, such that:
 

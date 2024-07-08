@@ -3,7 +3,7 @@
 
 :stem: latexmath
 
-https://leetcode.com/problems/find-the-duplicate-number/[LeetCode - Find the Duplicate Number]
+https://leetcode.com/problems/find-the-duplicate-number/[LeetCode - Find the Duplicate Number^]
 
 Given an array nums containing _n + 1_ integers where each integer is between _1_ and _n_ (inclusive), prove that at least one duplicate number must exist. Assume that there is only one duplicate number, find the duplicate one.
 
@@ -32,7 +32,7 @@ Output: 3
 
 == 参考资料
 
-. https://leetcode.com/problems/find-the-duplicate-number/solution/[Find the Duplicate Number solution - LeetCode] 中 Approach #3 Floyd's Tortoise and Hare (Cycle Detection) [Accepted] 的好精巧！类似于在链表中发现环。还需要再仔细思考一下这个问题！
+. https://leetcode.com/problems/find-the-duplicate-number/solution/[Find the Duplicate Number solution - LeetCode] 中 Approach #3 Floyd's Tortoise and Hare (Cycle Detection) [Accepted^] 的好精巧！类似于在链表中发现环。还需要再仔细思考一下这个问题！
 
 Given an array _nums_ containing _n_ + 1 integers where each integer is between 1 and _n_ (inclusive), prove that at least one duplicate number must exist. Assume that there is only one duplicate number, find the duplicate one.
 

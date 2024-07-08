@@ -1,7 +1,7 @@
 [#0078-subsets]
 = 78. Subsets
 
-https://leetcode.com/problems/subsets/[LeetCode - Subsets]
+https://leetcode.com/problems/subsets/[LeetCode - Subsets^]
 
 Given a set of *distinct* integers, nums, return all possible subsets (the power set).
 
@@ -37,7 +37,7 @@ image::images/0078-subsets-bitmask4.png[{image_attr}]
 
 == 参考资料
 
-. https://leetcode.com/problems/subsets/solution/[Subsets solution - LeetCode]
+. https://leetcode.com/problems/subsets/solution/[Subsets solution - LeetCode^]
 
 Given a set of *distinct* integers, _nums_, return all possible subsets (the power set).
 

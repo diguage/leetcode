@@ -1,7 +1,7 @@
 [#0145-binary-tree-postorder-traversal]
 = 145. Binary Tree Postorder Traversal
 
-https://leetcode.com/problems/binary-tree-postorder-traversal/[LeetCode - Binary Tree Postorder Traversal]
+https://leetcode.com/problems/binary-tree-postorder-traversal/[LeetCode - Binary Tree Postorder Traversal^]
 
 Given a binary tree, return the _postorder_ traversal of its nodes' values.
 

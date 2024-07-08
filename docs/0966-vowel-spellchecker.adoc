@@ -1,7 +1,7 @@
 [#0966-vowel-spellchecker]
 = 966. Vowel Spellchecker
 
-https://leetcode.com/problems/vowel-spellchecker/[LeetCode - Vowel Spellchecker]
+https://leetcode.com/problems/vowel-spellchecker/[LeetCode - Vowel Spellchecker^]
 
 Given a `wordlist`, we want to implement a spellchecker that converts a query word into a correct word.
 
