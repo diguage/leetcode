@@ -169,3 +169,4 @@ int maxPath(TreeNode *root) //以root为路径起始点的最长路径
 . https://leetcode.cn/problems/path-sum-iii/solutions/815688/yi-pian-wen-zhang-jie-jue-suo-you-er-cha-smch/[437. 路径总和 III - 一篇文章解决所有二叉树路径问题（问题分析+分类模板+题目剖析）^]
 . https://leetcode.cn/problems/search-in-a-binary-search-tree/solutions/867987/dai-ma-sui-xiang-lu-dai-ni-xue-tou-er-ch-3ww7/[700. 二叉搜索树中的搜索:【递归法】【迭代法】详解^]
 . https://leetcode.cn/problems/minimum-absolute-difference-in-bst/solutions/39609/zhong-xu-bian-li-tuan-mie-xi-lie-er-cha-sou-suo-sh/[530. 二叉搜索树的最小绝对差 - 中序遍历团灭系列二叉搜索树问题^]
+. https://leetcode.cn/problems/insert-into-a-binary-search-tree/solutions/1766937/acm-xuan-shou-tu-jie-leetcode-by-rocky04-4yub/[701. 二叉搜索树中的插入操作 - ACM 选手图解 LeetCode 二叉搜索树中的插入操作（递归 + 非递归）^] -- 整理了一些资料，可以看看。
