@@ -6,15 +6,15 @@ import java.util.*;
  * = 90. Subsets II
  *
  * https://leetcode.com/problems/subsets-ii/[Subsets II - LeetCode]
- *
- * @author D瓜哥 · https://www.diguage.com
- * @since 2020-02-05 21:28
  */
 public class _0090_SubsetsII {
   // tag::answer[]
     /**
      * Runtime: 2 ms, faster than 27.76% of Java online submissions for Subsets II.
      * Memory Usage: 39.4 MB, less than 5.88% of Java online submissions for Subsets II.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-05 21:28
      */
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
