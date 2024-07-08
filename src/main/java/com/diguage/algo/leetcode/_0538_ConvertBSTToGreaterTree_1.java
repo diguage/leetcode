@@ -6,14 +6,15 @@ import com.diguage.util.TreeNodes;
 import java.util.Arrays;
 
 /**
- * @author D瓜哥 · https://www.diguage.com
- * @since 2024-06-26 20:50:34
  */
 public class _0538_ConvertBSTToGreaterTree_1 {
   // tag::answer[]
 
   /**
    * 基于 Morris 的倒序中根遍历
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-26 20:50:34
    */
   public TreeNode convertBST(TreeNode root) {
     int sum = 0;
