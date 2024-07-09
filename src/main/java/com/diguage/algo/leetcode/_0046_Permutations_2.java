@@ -25,14 +25,14 @@ import static com.diguage.util.Printers.*;
  *   [3,2,1]
  * ]
  * ----
- *
- * @author D瓜哥 · https://www.diguage.com
- * @since 2020-01-24 12:35
  */
 public class _0046_Permutations_2 {
   // tag::answer[]
   /**
    * 参考《算法小抄》的参数，自己实现的
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-28 22:30
    */
   public List<List<Integer>> permute(int[] nums) {
     List<List<Integer>> result = new ArrayList<>();
@@ -62,12 +62,5 @@ public class _0046_Permutations_2 {
       used[i] = false;
     }
   }
-
   // end::answer[]
-
-
-  public static void main(String[] args) {
-    List<List<Integer>> result = new _0046_Permutations_2().permute(new int[]{1, 2, 3});
-    printMatrix(result);
-  }
 }
