@@ -8,18 +8,18 @@ jobs:
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idruns-on
     runs-on: ubuntu-latest
     steps:
-      # https://github.com/actions/checkout
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-
       # https://github.com/actions/setup-node
       - name: Setup Node.js 🕸
         uses: actions/setup-node@v4
         with:
           # https://github.com/nvm-sh/nvm#long-term-support
           node-version: 'lts/*'
+
+      # https://github.com/actions/checkout
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       # https://github.com/actions/setup-java
       - name: Set up JDK ☕️
@@ -75,6 +75,22 @@ jobs:
             fn="${f%.*}.min.css";
             echo  "compress $f"
             cleancss -o $fn $f
+            rm -rf $f;
+            mv $fn $f
+          done
+
+      # https://github.com/privatenumber/minification-benchmarks
+      - name: Compress JS 🐢
+        run: |
+          # https://github.com/mishoo/UglifyJS
+          npm install uglify-js -g
+          # Multiple HTML page
+          cd target/docs/multipage/assets/scripts
+          for f in `find . -name "*.js"`;
+          do
+            fn="${f%.*}.min.css";
+            echo  "compress $f"
+            uglifyjs $f --compress --rename -o $fn 
             rm -rf $f;
             mv $fn $f
           done
