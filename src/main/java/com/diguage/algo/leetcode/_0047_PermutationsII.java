@@ -6,15 +6,15 @@ import java.util.*;
  * = 47. Permutations II
  *
  * https://leetcode.com/problems/permutations-ii/[Permutations II - LeetCode]
- *
- * @author D瓜哥 · https://www.diguage.com
- * @since 2020-01-27 20:29
  */
 public class _0047_PermutationsII {
   // tag::answer[]
     /**
      * Runtime: 1 ms, faster than 100.00% of Java online submissions for Permutations II.
      * Memory Usage: 41.6 MB, less than 11.94% of Java online submissions for Permutations II.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-27 20:29
      */
     public List<List<Integer>> permuteUnique(int[] nums) {
         if (Objects.isNull(nums) || nums.length == 0) {

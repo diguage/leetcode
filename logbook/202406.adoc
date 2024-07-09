@@ -297,6 +297,11 @@
 |{doc_base_url}/0077-combinations.adoc[题解]
 |组合，回溯，剪枝
 
+|{counter:codes}
+|{leetcode_base_url}/permutations-ii/[47. Permutations II]
+|{doc_base_url}/0047-permutations-ii.adoc[题解]
+|组合，回溯，同层剪枝
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
