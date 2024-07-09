@@ -36,8 +36,8 @@ public class _0047_PermutationsII {
 
         for (int i = 0; i < nums.length; i++) {
             if (!used[i]) {
-
-                // 修改 2：在 used[i - 1] 刚刚被撤销的时候剪枝，说明接下来会被选择，搜索一定会重复，故"剪枝"
+                // 修改 2：在 used[i - 1] 刚刚被撤销的时候剪枝，
+                // 说明接下来会被选择，搜索一定会重复，故"剪枝"
                 if (i > 0 && nums[i - 1] == nums[i] && !used[i - 1]) {
                     continue;
                 }
