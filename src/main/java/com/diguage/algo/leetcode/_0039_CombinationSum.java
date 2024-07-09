@@ -57,6 +57,9 @@ public class _0039_CombinationSum {
      * <p>
      * Runtime: 9 ms, faster than 17.31% of Java online submissions for Combination Sum.
      * Memory Usage: 41 MB, less than 5.19% of Java online submissions for Combination Sum.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2018-09-16 21:56
      */
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         if (null == candidates || candidates.length == 0) {

@@ -22,3 +22,4 @@
 . https://leetcode.cn/problems/n-queens-ii/solutions/449558/52-nhuang-hou-iihui-su-fa-jing-dian-wen-ti-xiang-j/[代码随想录」52. N皇后 II:【回溯法经典问题】详解^]
 . https://leetcode.cn/problems/subsets/solutions/229569/c-zong-jie-liao-hui-su-wen-ti-lei-xing-dai-ni-gao-/[78. 子集 - C++，总结了回溯问题类型，带你搞懂回溯算法(大量例题)^]
 . https://leetcode.cn/problems/subsets-ii/solutions/690866/90-zi-ji-iiche-di-li-jie-zi-ji-wen-ti-ru-djmf/[90. 子集 II - 「代码随想录」带你学透回溯算法！90. 子集 II:【彻底理解子集问题如何去重】^]
+. https://leetcode.cn/problems/permutations/solutions/9914/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/[46. 全排列 - 回溯算法入门级详解 + 练习（持续更新）^]

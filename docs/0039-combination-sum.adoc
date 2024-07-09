@@ -83,5 +83,6 @@ include::{sourcedir}/_0039_CombinationSum_2.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/[回溯算法 + 剪枝（Python、Java、C++） - 组合总和 - 力扣（LeetCode）^]
+. https://leetcode.cn/problems/combination-sum/solutions/14697/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/[39. 组合总和 - 回溯算法 + 剪枝（回溯经典例题详解）^]
+. https://leetcode.cn/problems/combination-sum/solutions/2363929/39-zu-he-zong-he-hui-su-qing-xi-tu-jie-b-9zx7/[39. 组合总和 - （回溯，清晰图解）^]
 

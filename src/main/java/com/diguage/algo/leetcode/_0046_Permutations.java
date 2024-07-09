@@ -38,6 +38,9 @@ public class _0046_Permutations {
      * Memory Usage: 45.3 MB, less than 5.68% of Java online submissions for Permutations.
      *
      * Copy from: https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)[A general approach to backtracking questions in Java (Subsets, Permutations, Combination Sum, Palindrome Partioning) - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-24 12:35
      */
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new LinkedList<>();
