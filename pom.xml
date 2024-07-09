@@ -450,6 +450,7 @@
             <diagram_attr>format=svg,align="center",width=95%</diagram_attr>
             <plantumlconfig>${project.basedir}/cfg/plantuml.cfg</plantumlconfig>
             <toc-title>目录</toc-title>
+            <iconfont-cdn>//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css</iconfont-cdn>
           </attributes>
         </configuration>
         <executions>
