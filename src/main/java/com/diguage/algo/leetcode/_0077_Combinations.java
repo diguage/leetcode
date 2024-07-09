@@ -6,15 +6,15 @@ import java.util.*;
  * = 77. Combinations
  *
  * https://leetcode.com/problems/combinations/[Combinations - LeetCode]
- *
- * @author D瓜哥 · https://www.diguage.com
- * @since 2020-02-04 17:43
  */
 public class _0077_Combinations {
   // tag::answer[]
     /**
      * Runtime: 20 ms, faster than 58.94% of Java online submissions for Combinations.
      * Memory Usage: 42.7 MB, less than 6.52% of Java online submissions for Combinations.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-04 17:43
      */
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> result = new LinkedList<>();
