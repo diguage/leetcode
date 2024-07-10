@@ -312,6 +312,12 @@
 |{doc_base_url}/0040-combination-sum-ii.adoc[题解]
 |组合，回溯，剪枝
 
+|{counter:codes}
+|{leetcode_base_url}/partition-to-k-equal-sum-subsets/[698. Partition to K Equal Sum Subsets]
+|{doc_base_url}/0698-partition-to-k-equal-sum-subsets.adoc[题解]
+|组合，回溯，极致剪枝
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

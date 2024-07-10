@@ -5,7 +5,6 @@ https://leetcode.com/problems/partition-to-k-equal-sum-subsets/[LeetCode - Parti
 
 Given an array of integers `nums` and a positive integer `k`, find whether it's possible to divide this array into `k` non-empty subsets whose sums are all equal.
 
- 
 
 *Example 1:*
 
@@ -16,20 +15,36 @@ Given an array of integers `nums` and a positive integer `k`, find whether it's 
 *Explanation:* It's possible to divide it into 4 subsets (5), (1, 4), (2,3), (2,3) with equal sums.
 ----
 
- 
 
 *Note:*
-
 
 * `1 <= k <= len(nums) <= 16`.
 * `0 < nums[i] < 10000`.
 
 
-
+== 思路分析
 
 [[src-0698]]
+[tabs]
+====
+一刷（超时）::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0698_PartitionToKEqualSumSubsets.java[tag=answer]
 ----
+--
+
+一刷（优化）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0698_PartitionToKEqualSumSubsets_1.java[tag=answer]
+----
+--
+====
+
+== 参考资料
 
