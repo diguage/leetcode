@@ -30,12 +30,14 @@ package com.diguage.algo.leetcode;
  * Input: nums = [4,5,6,7,0,1,2], target = 3
  * Output: -1
  * ----
- *
- * @author D瓜哥 · https://www.diguage.com
- * @since 2018-09-16 17:45
  */
 public class _0033_SearchInRotatedSortedArray {
   // tag::answer[]
+
+    /**
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2018-09-16 17:45
+     */
     public static int search(int[] nums, int target) {
         int result = -1;
         if (null == nums || nums.length == 0) {
