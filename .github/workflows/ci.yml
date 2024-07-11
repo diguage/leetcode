@@ -66,12 +66,9 @@ jobs:
           # https://github.com/parcel-bundler/lightningcss
           npm install -g clean-css-cli
           # Multiple HTML page
-          cd target/docs/multipage/assets/styles
+          cd target/docs/
           for f in `find . -name "*.css"`;
           do
-            if [[ $f == *asciidoctor.css ]]; then
-              echo -e '\na{text-decoration:none;}p>code,strong>code{color: #d14 !important;background-color: #f5f5f5 !important;border: 1px solid #e1e1e8;}' >> $f
-            fi
             fn="${f%.*}.min.css";
             echo  "compress $f"
             cleancss -o $fn $f
@@ -85,7 +82,7 @@ jobs:
           # https://github.com/mishoo/UglifyJS
           npm install uglify-js -g
           # Multiple HTML page
-          cd target/docs/multipage/assets/scripts
+          cd target/docs/
           for f in `find . -name "*.js"`;
           do
             fn="${f%.*}.min.css";
@@ -97,8 +94,11 @@ jobs:
 
       - name: Add links for comments 🔗
         run: |
-          cd target/docs/multipage
-          sed -i 's/\(D瓜哥 · https:\/\/www.diguage.com\)/<a href="https:\/\/www.diguage.com" class="cmt-link" target="_blank">\1<\/a>/g' *.html
+          cd target/docs/
+          for file in `find . -name "*.html"`;
+          do
+            sed -i 's/\(D瓜哥 · https:\/\/www.diguage.com\)/<a href="https:\/\/www.diguage.com" class="cmt-link" target="_blank">\1<\/a>/g' $file
+          done
 
       # https://github.com/JamesIves/github-pages-deploy-action
       - name: Deploy 🚀

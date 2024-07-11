@@ -24,6 +24,10 @@ Given an array of integers `nums` and a positive integer `k`, find whether it's 
 
 == 思路分析
 
+=== 球视角
+
+image::images/0698-01.svg[{image_attr}]
+
 [[src-0698]]
 [tabs]
 ====
@@ -46,5 +50,15 @@ include::{sourcedir}/_0698_PartitionToKEqualSumSubsets_1.java[tag=answer]
 --
 ====
 
+=== 桶视角
+
+回头尝试一下桶视角的解法。
+
+image::images/0698-02.svg[{image_attr}]
+
 == 参考资料
 
+. https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/solutions/1441006/by-lfool-d9o7/[698. 划分为k个相等的子集 - 经典回溯算法：集合划分问题「重要更新 🔥🔥🔥」^] -- 逐步优化的过程挺好的。
+. https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/solutions/1833777/hua-fen-wei-kge-xiang-deng-de-zi-ji-by-l-v66o/[698. 划分为k个相等的子集 - 官方题解^]
+. https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/solutions/1835857/by-ac_oier-mryw/[698. 划分为k个相等的子集 - 一题双解 :「搜索 + 剪枝」&「模拟退火」^]
+. https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/solutions/1835851/zhua-wa-mou-si-by-muse-77-hytu/[698. 划分为k个相等的子集 - 【爪哇缪斯】图解LeetCode^]
