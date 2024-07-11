@@ -42,6 +42,9 @@ public class _0200_NumberOfIslands {
      * Memory Usage: 42 MB, less than 41.86% of Java online submissions for Number of Islands.
      *
      * Copy from: https://leetcode-cn.com/problems/number-of-islands/solution/dao-yu-shu-liang-by-leetcode/[岛屿数量 - 岛屿数量 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-25 23:42
      */
     public int numIslands(char[][] grid) {
         if (Objects.isNull(grid) || grid.length == 0) {

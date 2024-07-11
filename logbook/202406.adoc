@@ -317,6 +317,11 @@
 |{doc_base_url}/0698-partition-to-k-equal-sum-subsets.adoc[题解]
 |组合，回溯，极致剪枝。回头尝试一下桶视角的方案
 
+|{counter:codes}
+|{leetcode_base_url}/number-of-islands/[200. Number of Islands]
+|{doc_base_url}/0200-number-of-islands.adoc[题解]
+|DFS，对于网格遍历还需要加强练习。
+
 
 |===
 

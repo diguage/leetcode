@@ -17,3 +17,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 == 未知
 
 . xref:0239-sliding-window-maximum.adoc[239. Sliding Window Maximum] 的一个解题方法与稀疏表（Sparse Table）相识。稀疏表（Sparse Table）是什么？
+
+== TODO
+
+* [ ] https://leetcode.cn/problems/number-of-islands/solutions/211211/dao-yu-lei-wen-ti-de-tong-yong-jie-fa-dfs-bian-li-/[200. 岛屿数量 - 岛屿类问题的通用解法、DFS 遍历框架^]

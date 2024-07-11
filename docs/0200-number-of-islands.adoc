@@ -1,13 +1,7 @@
 [#0200-number-of-islands]
 = 200. Number of Islands
 
-https://leetcode.com/problems/number-of-islands/[LeetCode - Number of Islands^]
-
-思考题：看题解可以使用 UnionFind 来解决这个问题。可以思考一下，如何实现？
-
-这道题与 link:0130-surrounded-regions.adoc[] 类似。
-
-https://leetcode.com/problems/surrounded-regions/[LeetCode - Surrounded Regions^]
+https://leetcode.com/problems/number-of-islands/[Number of Islands - LeetCode^]
 
 Given a 2d grid map of `'1'`s (land) and `'0'`s (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 
@@ -37,10 +31,43 @@ Given a 2d grid map of `'1'`s (land) and `'0'`s (water), count the number of isl
 *Output:* 3
 ----
 
+== 思路分析
+
+image::images/0200-01.jpg[{image_attr}]
+
+image::images/0200-02.jpg[{image_attr}]
+
+思考题：看题解可以使用 UnionFind 来解决这个问题。可以思考一下，如何实现？
+
+这道题与 link:0130-surrounded-regions.adoc[] 类似。
+
 
 [[src-0200]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0200_NumberOfIslands.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0200_NumberOfIslands_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/number-of-islands/solutions/211211/dao-yu-lei-wen-ti-de-tong-yong-jie-fa-dfs-bian-li-/[200. 岛屿数量 - 岛屿类问题的通用解法、DFS 遍历框架^]
+. https://leetcode.cn/problems/number-of-islands/solutions/13103/dao-yu-shu-liang-by-leetcode/[200. 岛屿数量 - 官方题解^]
+
+
 
