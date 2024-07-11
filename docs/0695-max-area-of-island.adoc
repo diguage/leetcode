@@ -9,6 +9,8 @@ Find the maximum area of an island in the given 2D array. (If there is no island
 
 *Example 1:*
 
+image::images/0695-01.jpg[{image_attr}]
+
 [subs="verbatim,quotes,macros"]
 ----
 [[0,0,1,0,0,0,0,1,0,0,0,0,0],
@@ -33,11 +35,18 @@ Given the above grid, return `0`.
 
 *Note:* The length of each dimension in the given `grid` does not exceed 50.
 
+== 思路分析
 
+image::images/0695-02.jpg[{image_attr}]
 
 [[src-0695]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0695_MaxAreaOfIsland.java[tag=answer]
 ----
+
+== 参考资料
+
+. https://leetcode.cn/problems/max-area-of-island/solutions/147677/dao-yu-de-zui-da-mian-ji-by-leetcode-solution/[695. 岛屿的最大面积 - 官方题解^]
+. https://leetcode.cn/problems/max-area-of-island/solutions/150127/biao-zhun-javadong-tai-gui-hua-jie-fa-100-by-mark-/[695. 岛屿的最大面积 - Java标准DFS解法，100%，无全局变量。简洁易懂。^]
 
