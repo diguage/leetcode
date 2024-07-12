@@ -327,6 +327,11 @@
 |{doc_base_url}/0695-max-area-of-island.adoc[题解]
 |DFS，利用递归的返回值。
 
+|{counter:codes}
+|{leetcode_base_url}/count-sub-islands/[1905. Count Sub Islands]
+|{doc_base_url}/1905-count-sub-islands.adoc[题解]
+|DFS，沉岛
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

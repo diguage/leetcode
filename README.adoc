@@ -9413,6 +9413,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Hard
 //|
 
+|{counter:codes}
+|{leetcode_base_url}/count-sub-islands/[1905. Count Sub Islands]
+|{source_base_url}/_1905_CountSubIslands.java[Java]
+|{doc_base_url}/1905-count-sub-islands.adoc[题解]
+|Medium
+|
+
 |===
 
 截止目前，一共完成 {codes} 道题。
