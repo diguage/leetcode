@@ -9414,6 +9414,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|
 
 |{counter:codes}
+|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree-ii/[1644. Lowest Common Ancestor of a Binary Tree II]
+|{source_base_url}/_1644_LowestCommonAncestorOfABinaryTreeII.java[Java]
+|{doc_base_url}/1644-lowest-common-ancestor-of-a-binary-tree-ii.adoc[题解]
+|Medium
+|树形DP套路，没有验证答案！
+
+|{counter:codes}
 |{leetcode_base_url}/count-sub-islands/[1905. Count Sub Islands]
 |{source_base_url}/_1905_CountSubIslands.java[Java]
 |{doc_base_url}/1905-count-sub-islands.adoc[题解]
