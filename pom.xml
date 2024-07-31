@@ -20,7 +20,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
-    <maven-javadoc-plugin.version>3.7.0</maven-javadoc-plugin.version>
+    <maven-javadoc-plugin.version>3.8.0</maven-javadoc-plugin.version>
     <fizzed-watcher-maven-plugin.version>3.7.0</fizzed-watcher-maven-plugin.version>
 
     <asciidoctorj.version>3.0.0-alpha.2</asciidoctorj.version>
@@ -153,24 +153,24 @@
             <additionalOption>--attribute "version=${project.version}"</additionalOption>
             <additionalOption>--attribute "title-link=https://www.diguage.com/[${project.name}/${project.version} | 地瓜哥]"</additionalOption>
           </additionalOptions>
-          <additionalDependencies>
-            <additionalDependency>
-              <groupId>org.jruby</groupId>
-              <artifactId>jruby</artifactId>
-              <version>${jruby.version}</version>
-            </additionalDependency>
-            <additionalDependency>
-              <groupId>org.asciidoctor</groupId>
-              <artifactId>asciidoctorj</artifactId>
-              <version>${asciidoctorj.version}</version>
-            </additionalDependency>
-            <additionalDependency>
-              <groupId>org.asciidoctor</groupId>
-              <artifactId>asciidoctorj-diagram</artifactId>
-              <version>${asciidoctorj-diagram.version}</version>
-            </additionalDependency>
-          </additionalDependencies>
         </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>org.jruby</groupId>
+            <artifactId>jruby</artifactId>
+            <version>${jruby.version}</version>
+          </dependency>
+          <dependency>
+            <groupId>org.asciidoctor</groupId>
+            <artifactId>asciidoctorj</artifactId>
+            <version>${asciidoctorj.version}</version>
+          </dependency>
+          <dependency>
+            <groupId>org.asciidoctor</groupId>
+            <artifactId>asciidoctorj-diagram</artifactId>
+            <version>${asciidoctorj-diagram.version}</version>
+          </dependency>
+        </dependencies>
       </plugin>
       <plugin>
         <groupId>org.jruby.maven</groupId>
@@ -195,6 +195,13 @@
             <phase>initialize</phase>
           </execution>
         </executions>
+        <dependencies>
+          <dependency>
+            <groupId>org.jruby</groupId>
+            <artifactId>jruby</artifactId>
+            <version>${jruby.version}</version>
+          </dependency>
+        </dependencies>
       </plugin>
       <plugin>
         <groupId>com.googlecode.maven-download-plugin</groupId>
