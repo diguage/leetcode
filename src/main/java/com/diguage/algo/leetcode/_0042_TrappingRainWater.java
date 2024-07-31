@@ -15,9 +15,6 @@ package com.diguage.algo.leetcode;
  * Input: [0,1,0,2,1,0,1,3,2,1,2,1]
  * Output: 6
  * ----
- *
- * @author D瓜哥 · https://www.diguage.com
- * @since 2019-07-26 08:49
  */
 public class _0042_TrappingRainWater {
   // tag::answer[]
@@ -26,6 +23,9 @@ public class _0042_TrappingRainWater {
      * Memory Usage: 38.3 MB, less than 91.10% of Java online submissions for Trapping Rain Water.
      *
      * Copy from: https://leetcode-cn.com/problems/trapping-rain-water/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-8/[详细通俗的思路分析，多解法 - 接雨水 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-07-26 08:49
      */
     public int trap(int[] height) {
         int left = 0, right = height.length - 1;

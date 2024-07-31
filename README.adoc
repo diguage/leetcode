@@ -325,7 +325,7 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |{source_base_url}/_0042_TrappingRainWater.java[Java]
 |{doc_base_url}/0042-trapping-rain-water.adoc[题解]
 |Hard
-|
+|单调栈
 
 |{counter:codes}
 |{leetcode_base_url}/multiply-strings/[43. Multiply Strings]

@@ -19,14 +19,40 @@ image::images/0042-00.png[{image_attr}]
 
 == 解题分析
 
-有点懵逼，没看太明白。
+image::images/0042-01.png[{image_attr}]
+
+image::images/0042-02.png[{image_attr}]
+
+image::images/0042-03.png[{image_attr}]
+
+image::images/0042-04.png[{image_attr}]
+
+image::images/0042-05.png[{image_attr}]
+
+image::images/0042-06.png[{image_attr}]
 
 
 [[src-0042]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0042_TrappingRainWater.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0042_TrappingRainWater_2.java[tag=answer]
+----
+--
+====
 
 
 == 思考题
@@ -36,3 +62,5 @@ include::{sourcedir}/_0042_TrappingRainWater.java[tag=answer]
 == 参考资料
 
 . https://leetcode.cn/problems/trapping-rain-water/solutions/9112/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-8/[42. 接雨水 - 详细通俗的思路分析，多解法^]
+. https://blog.csdn.net/weixin_50348837/article/details/136304458[深入理解单调栈算法，这一篇就够了^]
+. https://leetcode.cn/problems/trapping-rain-water/solutions/185678/trapping-rain-water-by-ikaruga/[42. 接雨水 - 单调递减栈，简洁代码，动图模拟^]

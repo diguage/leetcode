@@ -342,6 +342,11 @@
 |{doc_base_url}/0155-min-stack.adoc[题解]
 |复习单调栈
 
+|{counter:codes}
+|{leetcode_base_url}/trapping-rain-water/[42. Trapping Rain Water]
+|{doc_base_url}/0042-trapping-rain-water.adoc[题解]
+|巧用单调栈
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
