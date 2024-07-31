@@ -33,15 +33,15 @@ Could you solve it in linear time?
 
 最佳解决方案是单调栈：下面最大，单调递增。
 
-image::images/0239-1.png[{image_attr}]
-
-image::images/0239-2.png[{image_attr}]
-
-image::images/0239-3.png[{image_attr}]
-
-image::images/0239-4.png[{image_attr}]
-
-image::images/0239-5.png[{image_attr}]
+// image::images/0239-1.png[{image_attr}]
+//
+// image::images/0239-2.png[{image_attr}]
+//
+// image::images/0239-3.png[{image_attr}]
+//
+// image::images/0239-4.png[{image_attr}]
+//
+// image::images/0239-5.png[{image_attr}]
 
 image::images/0239-00.png[{image_attr}]
 
@@ -65,16 +65,29 @@ image::images/0239-09.png[{image_attr}]
 
 image::images/0239-10.png[{image_attr}]
 
+使用单调栈，即使数组最大元素在最前面也没事，可以通过判断栈的长度，超过指定长度则将第一个元素删除，那么第一个元素就是当前窗口的最大值。
+
 [[src-0239]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0239_SlidingWindowMaximum.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0239_SlidingWindowMaximum_2.java[tag=answer]
 ----
+--
+====
 
 == 思考题
 
