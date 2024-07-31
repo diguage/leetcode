@@ -3,10 +3,6 @@
 
 https://leetcode.com/problems/min-stack/[LeetCode - Min Stack^]
 
-这道题解法还挺多。只使用一个栈的方案，还需要再思考思考。
-
-TODO
-
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 
 
@@ -32,13 +28,39 @@ minStack.top();      --> Returns 0.
 minStack.getMin();   --> Returns -2.
 ----
 
- 
+== 思路分析
 
+使用两个栈，一个栈存原始数据，另外一个栈存当前栈的最小值。
 
+image::images/0155-01.gif[{image_attr}]
+
+// TODO 这道题解法还挺多。只使用一个栈的方案，还需要再思考思考。
 
 [[src-0155]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0155_MinStack.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0155_MinStack_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/min-stack/solutions/242190/zui-xiao-zhan-by-leetcode-solution/[155. 最小栈 - 官方题解^]
+. https://leetcode.cn/problems/min-stack/solutions/13496/shi-yong-fu-zhu-zhan-tong-bu-he-bu-tong-bu-python-/[155. 最小栈 - 使用辅助栈（同步和不同步，Python 代码、Java 代码）^]
+
 
