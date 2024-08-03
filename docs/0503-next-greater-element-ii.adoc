@@ -28,6 +28,8 @@ image::images/0503-01.png[{image_attr}]
 
 image::images/0503-02.png[{image_attr}]
 
+// TODO 图解是从前向后处理，代码时从后向前处理，尝试从前向后的处理方案。
+
 [[src-0503]]
 [{java_src_attr}]
 ----
