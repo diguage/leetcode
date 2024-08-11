@@ -5,35 +5,36 @@
 
 一般会用到 `Deque` 的以下四个方法：
 
-* `deque.isEmpty()`：如果deque不包含任何元素，则返回true，否则返回false。因为要栈顶元素在满足要求的时候要弹出，所以需要进行空栈判断。有些场景，可能栈一定不会空的时候，就不需要该方法进行空栈判断。
-* `deque.push(e)`：将元素e入栈。一定能用到该方法。
-* `deque.pop()`：将栈顶元素弹出，并返回当前弹出的栈顶元素。一定能用到该方法。
-* `deque.peek()`：获取栈顶元素，不弹出。一定能用到该方法。
+* `deque.isEmpty()`：如果 `deque` 不包含任何元素，则返回 `true`，否则返回 `false`。因为要栈顶元素在满足要求的时候要弹出，所以需要进行空栈判断。有些场景，可能栈一定不会空的时候，就不需要该方法进行空栈判断。
+* `deque.push(e)`：将元素 `e` 入栈。
+* `deque.pop()`：将栈顶元素弹出，并返回当前弹出的栈顶元素。
+* `deque.peek()`：获取栈顶元素，不弹出。
 
 [{java_src_attr}]
 ----
-// 第一个一个单调栈
+// 定义一个单调栈
 Deque<Integer> stack = new LinkedList<>();
 // 第一个元素，直接添加
 stack.push(0); // 这里存的是数组下标
 for (int i = 1; i < nums.length; i++) {
-    // 单调递减栈这里就是大于，即 nums[i] > nums[deque.peek()]
+    // 单调递增栈这里就是大于，即 nums[i] > nums[deque.peek()]
     if (nums[i] < nums[stack.peek()]) {
         stack.push(i);
     } else if (nums[i] == nums[stack.peek()]) {
         stack.push(i);
-        //此处除了入栈，在有些场景下，还有可能有其他操作
+        // 此处除了入栈，在有些场景下，还有可能有其他操作
         // ..............
     } else {
-        //循环比较，直到遇到当前元素小于栈顶的元素情况，跳出循环
-        // 单调递减栈，这里是小于，即nums[i]<nums[deque.peek()]
+        // 循环比较，直到遇到当前元素小于栈顶的元素情况，跳出循环
+        // 单调递增栈，这里是小于，即nums[i] < nums[deque.peek()]
         while (!stack.isEmpty() && nums[i] > nums[stack.peek()]) {
             //主要逻辑
             // ............
             // ............
             // 弹出栈顶元素
             stack.pop();
-        } stack.push(i);
+        }
+        stack.push(i);
     }
 }
 ----

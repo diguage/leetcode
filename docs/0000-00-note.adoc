@@ -21,3 +21,226 @@ image::images/quick-sort-01.gif[{image_attr}]
 == TODO
 
 * [ ] https://leetcode.cn/problems/number-of-islands/solutions/211211/dao-yu-lei-wen-ti-de-tong-yong-jie-fa-dfs-bian-li-/[200. 岛屿数量 - 岛屿类问题的通用解法、DFS 遍历框架^]
+
+== 解题范式
+
+. Two Pointers
+.. Pair with Target Sum (easy)
+.. Find Non-Duplicate Number Instances (easy)
+.. Squaring a Sorted Array (easy)
+.. Triplet Sum to Zero (medium)
+.. Triplet Sum Close to Target (medium)
+.. Triplets with Smaller Sum (medium)
+.. Subarrays with Product Less than a Target (medium)
+.. Dutch National Flag Problem (medium)
+.. Problem Challenge 1: Quadruple Sum to Target (medium)
+.. Problem Challenge 2: Comparing Strings containing Backspaces (medium)
+.. Problem Challenge 3: Minimum Window Sort (medium)
+. Fast & Slow Pointers
+.. LinkedList Cycle (easy)
+.. Middle of the LinkedList (easy)
+.. Start of LinkedList Cycle (medium)
+.. Happy Number (medium)
+.. Problem Challenge 1: Palindrome LinkedList (medium)
+.. Problem Challenge 2: Rearrange a LinkedList (medium)
+.. Problem Challenge 3: Cycle in a Circular Array (hard)
+. Sliding Window
+.. Maximum Sum Subarray of Size K  (easy)
+.. Smallest Subarray With a Greater Sum (easy)
+.. Longest Substring with K Distinct Characters (medium)
+.. Fruits into Baskets (medium)
+.. Longest Substring with Same Letters after Replacement (hard)
+.. Longest Subarray with Ones after Replacement (hard)
+.. Problem Challenge 1: Permutation in a String (hard)
+.. Problem Challenge 2:&nbsp;String Anagrams (hard)
+.. Problem Challenge 3: Smallest Window containing Substring (hard)
+.. Problem Challenge 4: Words Concatenation (hard)
+. Merge Intervals
+.. Merge Intervals (medium)
+.. Insert Interval (medium)
+.. Intervals Intersection (medium)
+.. Conflicting Appointments (medium)
+.. Problem Challenge 1: Minimum Meeting Rooms (hard)
+.. Problem Challenge 2: Maximum CPU Load (hard)
+.. Problem Challenge 3: Employee Free Time (hard)
+. Cyclic Sort
+.. Cyclic Sort (easy)
+.. Find the Missing Number (easy)
+.. Find all Missing Numbers (easy)
+.. Find the Duplicate Number (easy)
+.. Find all Duplicate Numbers (easy)
+.. Problem Challenge 1: Find the Corrupt Pair (easy)
+.. Problem Challenge 2: Find the Smallest Missing Positive Number (medium)
+.. Problem Challenge 3: Find the First K Missing Positive Numbers (hard)
+. In-place Reversal of a Linked List
+.. Reverse a LinkedList (easy)
+.. Reverse a Sub-list (medium)
+.. Reverse every K-element Sub-list (medium)
+.. Problem Challenge 1: Reverse alternating K-element Sub-list (medium)
+.. Problem Challenge 2: Rotate a LinkedList (medium)
+. Stacks
+.. Operations on Stack
+.. Implementing Stack Data Structure
+.. Applications of Stack
+.. Problem 1: Balanced Parentheses
+.. Problem 2: Reverse a String
+.. Problem 3: Decimal to Binary Conversion
+.. Problem 4: Next Greater Element
+.. Problem 5: Sorting a Stack
+.. Problem 6: Simplify Path
+. Monotonic Stack
+.. Remove Nodes From Linked List (medium)
+.. Remove All Adjacent Duplicates In String (easy)
+.. Next Greater Element (easy)
+.. Daily Temperatures (easy)
+.. Remove All Adjacent Duplicates in String II (medium)
+.. Remove K Digits (hard)
+. Hash Maps
+.. Introduction to Hash Tables
+.. Issues with Hash Tables
+.. Problem 1: First Non-repeating Character (easy)
+.. Problem 2: Largest Unique Number (easy)
+.. Problem 3: Maximum Number of Balloons (easy)
+.. Problem 4: Longest Palindrome(easy)
+.. Problem 5: Ransom Note (easy)
+. Tree Breadth First Search
+.. Binary Tree Level Order Traversal (easy)
+.. Reverse Level Order Traversal (easy)
+.. Zigzag Traversal (medium)
+.. Level Averages in a Binary Tree (easy)
+.. Minimum Depth of a Binary Tree (easy)
+.. Level Order Successor (easy)
+.. Connect Level Order Siblings (medium)
+.. Problem Challenge 1: Connect All Level Order Siblings (medium)
+.. Problem Challenge 2: Right View of a Binary Tree (easy)
+. Tree Depth First Search
+.. Binary Tree Path Sum (easy)
+.. All Paths for a Sum (medium)
+.. Sum of Path Numbers (medium)
+.. Path With Given Sequence (medium)
+.. Count Paths for a Sum (medium)
+.. Problem Challenge 1: Tree Diameter (medium)
+.. Problem Challenge 2: Path with Maximum Sum (hard)
+. Graphs
+.. Graph Representations
+.. Graph as an Abstract Data Type (ADT)
+.. Graph Traversal - Depth First Search(DFS)
+.. Graph Traversal - Breadth First Search (BFS)
+.. Problem  1: Find if Path Exists in Graph(easy)
+.. Problem 2: Number of Provinces (medium)
+.. Problem 3: Minimum Number of Vertices to Reach All Nodes(medium)
+. Island (Matrix Traversal)
+.. Number of Islands (easy)
+.. Biggest Island (easy)
+.. Flood Fill (easy)
+.. Number of Closed Islands (easy)
+.. Problem Challenge 1 (easy)
+.. Problem Challenge 2 (medium)
+.. Problem Challenge 3 (medium)
+. Two Heaps
+.. Find the Median of a Number Stream (medium)
+.. Sliding Window Median (hard)
+.. Maximize Capital (hard)
+.. Problem Challenge 1: Next Interval (hard)
+. Subsets
+.. Subsets (easy)
+.. Subsets With Duplicates (easy)
+.. Permutations (medium)
+.. String Permutations by changing case (medium)
+.. Balanced Parentheses (hard)
+.. Unique Generalized Abbreviations (hard)
+.. Problem Challenge 1: Evaluate Expression (hard)
+.. Problem Challenge 2: Structurally Unique Binary Search Trees (hard)
+.. Problem Challenge 3: Count of Structurally Unique Binary Search Trees (hard)
+.  Modified Binary Search
+.. Order-agnostic Binary Search (easy)
+.. Ceiling of a Number (medium)
+.. Next Letter (medium)
+.. Number Range (medium)
+.. Search in a Sorted Infinite Array (medium)
+.. Minimum Difference Element (medium)
+.. Bitonic Array Maximum (easy)
+.. Problem Challenge 1: Search Bitonic Array (medium)
+.. Problem Challenge 2: Search in Rotated Array (medium)
+.. Problem Challenge 3: Rotation Count (medium)
+. Bitwise XOR
+.. Single Number (easy)
+.. Two Single Numbers (medium)
+.. Complement of Base 10 Number (medium)
+.. Problem Challenge 1: Flip and Invert an Image (hard)
+. Top 'K' Elements
+.. Top 'K' Numbers (easy)
+.. Kth Smallest Number (easy)
+.. 'K' Closest Points to the Origin (easy)
+.. Connect Ropes (easy)
+.. Top 'K' Frequent Numbers (medium)
+.. Frequency Sort (medium)
+.. Kth Largest Number in a Stream (medium)
+.. 'K' Closest Numbers (medium)
+.. Maximum Distinct Elements (medium)
+.. Sum of Elements (medium)
+.. Rearrange String (hard)
+.. Problem Challenge 1: Rearrange String K Distance Apart (hard)
+.. Problem Challenge 2: Scheduling Tasks (hard)
+.. Problem Challenge 3: Frequency Stack (hard)
+. Greedy Algorithms
+.. Valid Palindrome II (easy)
+.. Maximum Length of Pair Chain (medium)
+.. Minimum Add to Make Parentheses Valid (medium)
+.. Remove Duplicate Letters (medium)
+.. Largest Palindromic Number (medium)
+.. Removing Minimum and Maximum From Array  (medium)
+. 0/1 Knapsack (Dynamic Programming)
+.. 0/1 Knapsack (medium)
+.. Equal Subset Sum Partition (medium)
+.. Subset Sum (medium)
+.. Minimum Subset Sum Difference (hard)
+.. Problem Challenge 1: Count of Subset Sum (hard)
+.. Problem Challenge 2: Target Sum (hard)
+. Backtracking
+.. Combination Sum (medium)
+.. Word Search (medium)
+.. Factor Combinations (medium)
+.. Split a String Into the Max Number of Unique Substrings (medium)
+.. Sudoku Solver  (hard)
+. Trie
+.. Implement Trie (Prefix Tree) (medium)
+.. Index Pairs of a String (easy)
+.. Design Add and Search Words Data Structure (medium)
+.. Extra Characters in a String (medium)
+.. Search Suggestions System (medium)
+. Topological Sort (Graph)
+.. Topological Sort (medium)
+.. Tasks Scheduling (medium)
+.. Tasks Scheduling Order (medium)
+.. All Tasks Scheduling Orders (hard)
+.. Alien Dictionary (hard)
+.. Problem Challenge 1: Reconstructing a Sequence (hard)
+.. Problem Challenge 2: Minimum Height Trees (hard)
+. Union Find
+.. Redundant Connection (medium)
+.. Number of Provinces (medium)
+.. Is Graph Bipartite? (medium)
+.. Path With Minimum Effort (medium)
+. Ordered Set
+.. Merge Similar Items (easy)
+.. 132 Pattern (medium)
+.. My Calendar I (medium)
+.. Longest Continuous Subarray (medium)
+. Prefix Sum
+.. Find the Middle Index in Array (easy)
+.. Left and Right Sum Differences (easy)
+.. Maximum Size Subarray Sum Equals k (medium)
+.. Binary Subarrays With Sum (medium)
+.. Subarray Sums Divisible by K (medium)
+.. Sum of Absolute Differences in a Sorted Array (medium)
+.. Subarray Sum Equals K (medium)
+. Multi-threaded
+.. Same Tree (medium)
+.. Invert Binary Tree (medium)
+.. Binary Search Tree Iterator (medium)
+
+
+== 参考资料
+
+. https://www.designgurus.io/course/grokking-the-coding-interview[Grokking the Coding Interview Patterns^]
