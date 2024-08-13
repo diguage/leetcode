@@ -32,6 +32,10 @@ import java.util.List;
  */
 public class _0094_BinaryTreeInorderTraversal_Recur {
   // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-14 11:30
+   */
   public List<Integer> inorderTraversal(TreeNode root) {
     List<Integer> result = new ArrayList<>();
     inorderTraversal(root, result);

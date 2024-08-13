@@ -31,6 +31,10 @@ import java.util.*;
  */
 public class _0094_BinaryTreeInorderTraversal_Stack {
   // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-14 11:30
+   */
   public List<Integer> inorderTraversal(TreeNode root) {
     List<Integer> result = new ArrayList<>();
     Deque<TreeNode> stack = new LinkedList<>();

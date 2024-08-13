@@ -55,6 +55,9 @@ public class _0098_ValidateBinarySearchTree {
      * Runtime: 1 ms, faster than 33.82% of Java online submissions for Validate Binary Search Tree.
      *
      * Memory Usage: 45.2 MB, less than 5.58% of Java online submissions for Validate Binary Search Tree.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-24 19:06
      */
     public boolean isValidBST(TreeNode root) {
         if (Objects.isNull(root)) {

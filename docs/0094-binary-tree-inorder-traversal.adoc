@@ -25,18 +25,33 @@ Given a binary tree, return the _inorder_ traversal of its nodes' values.
 
 
 [[src-0094]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0094_BinaryTreeInorderTraversal.java[tag=answer]
 ----
+--
 
+二刷（递归）::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0094_BinaryTreeInorderTraversal_Recur.java[tag=answer]
 ----
+--
 
+二刷（栈）::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0094_BinaryTreeInorderTraversal_Stack.java[tag=answer]
 ----
+--
+====
 

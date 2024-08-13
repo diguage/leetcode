@@ -10,6 +10,9 @@ public class _0099_RecoverBinarySearchTree {
   // tag::answer[]
   /**
    * 使用 Morris 遍历找出错误节点，然后交换其值
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-23 22:21:59
    */
   public void recoverTree(TreeNode root) {
     if (root == null) return;

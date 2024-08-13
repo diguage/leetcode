@@ -12,6 +12,10 @@ import static com.diguage.util.TreeNodes.buildTree;
  */
 public class _0098_ValidateBinarySearchTree_2 {
   // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-23 16:38:11
+   */
   public boolean isValidBST(TreeNode root) {
     return dfs(root).valid;
   }
