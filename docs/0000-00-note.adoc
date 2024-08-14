@@ -244,3 +244,4 @@ image::images/quick-sort-01.gif[{image_attr}]
 == 参考资料
 
 . https://www.designgurus.io/course/grokking-the-coding-interview[Grokking the Coding Interview Patterns^]
+. https://leetcode.ca/all/1650.html[Leetcode 1650. Lowest Common Ancestor of a Binary Tree III^] -- 会员题目可以在这里查找。

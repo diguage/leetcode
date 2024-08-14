@@ -20,14 +20,22 @@ with open('./sourcs.txt', 'rb') as fh:
 
         f = open(idToFile[id], "a")
 
+        f.write("== 思路分析\n")
         f.write("\n\n")
         f.write('[[src-%s]]\n'%(id))
-        f.write('[source,{java_source_attr}]\n')
+        f.write('[tabs]\n')
+        f.write('====\n')
+        f.write('一刷::\n')
+        f.write('+\n')
+        f.write('--\n')
+        f.write('[{java_src_attr}]\n')
         f.write('----\n')
         f.write('include::{sourcedir}/%s[]\n'%(name))
-        f.write('----')
+        f.write('----\n')
+        f.write('--\n')
+        f.write('====\n')
+        f.write("\n\n")
+        f.write("== 参考资料\n")
         f.write("\n\n")
         f.close()
         print(name, " OK…")
-
-

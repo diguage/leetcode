@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/bin/env python
 
 import os
 import os.path
@@ -45,17 +45,22 @@ for problem in problem_list:
     titleSlug = problem["stat"]["question__title_slug"]
     filename = "%04d-%s.adoc"%(problem["stat"]["frontend_question_id"], titleSlug)
 
-#     if id < 1211:
-#         continue
+    if id < 1340:
+        continue
 
     filepath = "../docs/"+filename
     problem_file = filepath+".json"
     if path.exists(problem_file):
-        print(problem_file, " exists…")
-        pjson = open(problem_file, 'r').read()
+#         print(problem_file, " exists…")
+#         pjson = open(problem_file, 'r').read()
+        continue
     else:
+        print("fetch %d - %s" % (id, problem["stat"]["question__title"]))
         pjson = fetch_problem(titleSlug)
 
+    if pjson is None:
+        print("fetch %d - %s fail" % (id, problem["stat"]["question__title"]))
+        continue
     jo = json.loads(pjson)
     content = jo["data"]["question"]["content"]
 

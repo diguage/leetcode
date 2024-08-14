@@ -9,12 +9,12 @@ public class _1650_LowestCommonAncestorOfABinaryTreeIII {
    * @author D瓜哥 · https://www.diguage.com
    * @since 2024-07-26 20:00:58
    */
-  public TreeNode lowestCommonAncestor(TreeNode p, TreeNode q) {
+  public Node lowestCommonAncestor(Node p, Node q) {
     if (Objects.isNull(p) || Objects.isNull(q)) {
       return null;
     }
-    TreeNode a = p;
-    TreeNode b = q;
+    Node a = p;
+    Node b = q;
     while (a != b) {
       if (a == null) {
         a = q;
@@ -31,16 +31,16 @@ public class _1650_LowestCommonAncestorOfABinaryTreeIII {
   }
   // end::answer[]
 
-  public class TreeNode {
+  public class Node {
     public int val;
-    public TreeNode left;
-    public TreeNode right;
-    public TreeNode parent;
+    public Node left;
+    public Node right;
+    public Node parent;
 
-    public TreeNode() {
+    public Node() {
     }
 
-    public TreeNode(int x) {
+    public Node(int x) {
       val = x;
     }
 
@@ -48,8 +48,8 @@ public class _1650_LowestCommonAncestorOfABinaryTreeIII {
     public boolean equals(Object o) {
       if (this == o) return true;
       if (o == null || getClass() != o.getClass()) return false;
-      TreeNode treeNode = (TreeNode) o;
-      return val == treeNode.val;
+      Node node = (Node) o;
+      return val == node.val;
     }
 
     @Override
