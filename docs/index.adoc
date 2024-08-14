@@ -2744,6 +2744,8 @@ include::1340-jump-game-v.adoc[leveloffset=+1]
 
 include::1644-lowest-common-ancestor-of-a-binary-tree-ii.adoc[leveloffset=+1]
 
+include::1650-lowest-common-ancestor-of-a-binary-tree-iii.adoc[leveloffset=+1]
+
 include::1905-count-sub-islands.adoc[leveloffset=+1]
 
 include::0000-00-note.adoc[leveloffset=+1]

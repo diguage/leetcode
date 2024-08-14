@@ -347,6 +347,11 @@
 |{doc_base_url}/0042-trapping-rain-water.adoc[题解]
 |巧用单调栈
 
+|{counter:codes}
+|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree-iii/[1650. Lowest Common Ancestor of a Binary Tree III^]
+|{doc_base_url}/1650-lowest-common-ancestor-of-a-binary-tree-iii.adoc[题解]
+|链表相交
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
