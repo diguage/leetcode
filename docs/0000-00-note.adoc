@@ -245,3 +245,4 @@ image::images/quick-sort-01.gif[{image_attr}]
 
 . https://www.designgurus.io/course/grokking-the-coding-interview[Grokking the Coding Interview Patterns^]
 . https://leetcode.ca/all/1650.html[Leetcode 1650. Lowest Common Ancestor of a Binary Tree III^] -- 会员题目可以在这里查找。
+. https://github.com/doocs/leetcode[doocs/leetcode: 🔥LeetCode solutions in any programming language | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解^] -- 也可以在这里找题目
