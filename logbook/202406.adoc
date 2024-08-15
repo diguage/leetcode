@@ -368,6 +368,11 @@
 |{doc_base_url}/0042-trapping-rain-water.adoc[题解]
 |双指针解题方案
 
+|{counter:codes}
+|{leetcode_base_url}/container-with-most-water/[11. Container With Most Water^]
+|{doc_base_url}/0011-container-with-most-water.adoc[题解]
+|双指针
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
