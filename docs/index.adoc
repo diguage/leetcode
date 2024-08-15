@@ -2084,7 +2084,7 @@ include::0992-subarrays-with-k-different-integers.adoc[leveloffset=+1]
 
 // include::1010-pairs-of-songs-with-total-durations-divisible-by-60.adoc[leveloffset=+1]
 
-// include::1011-capacity-to-ship-packages-within-d-days.adoc[leveloffset=+1]
+include::1011-capacity-to-ship-packages-within-d-days.adoc[leveloffset=+1]
 
 // include::1012-numbers-with-repeated-digits.adoc[leveloffset=+1]
 

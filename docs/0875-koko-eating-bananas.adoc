@@ -49,6 +49,7 @@ Return the minimum integer `K` such that she can eat all the bananas within `H` 
 
 == 思路分析
 
+二分查找，确定左边界
 
 [[src-0875]]
 [tabs]

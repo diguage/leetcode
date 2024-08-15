@@ -7102,14 +7102,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1010-pairs-of-songs-with-total-durations-divisible-by-60.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/capacity-to-ship-packages-within-d-days/[1011. Capacity To Ship Packages Within D Days^]
-//|{source_base_url}/_1011_CapacityToShipPackagesWithinDDays.java[Java]
-//|{doc_base_url}/1011-capacity-to-ship-packages-within-d-days.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/capacity-to-ship-packages-within-d-days/[1011. Capacity To Ship Packages Within D Days^]
+|{source_base_url}/_1011_CapacityToShipPackagesWithinDDays.java[Java]
+|{doc_base_url}/1011-capacity-to-ship-packages-within-d-days.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/numbers-with-repeated-digits/[1012. Numbers With Repeated Digits^]
 //|{source_base_url}/_1012_NumbersWithRepeatedDigits.java[Java]

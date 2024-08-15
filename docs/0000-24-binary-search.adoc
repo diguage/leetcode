@@ -7,6 +7,7 @@
 
 . xref:0704-binary-search.adoc[704. Binary Search]
 . xref:0875-koko-eating-bananas.adoc[875. Koko Eating Bananas]
+. xref:1011-capacity-to-ship-packages-within-d-days.adoc[1011. Capacity To Ship Packages Within D Days]
 
 
 == 参考资料
