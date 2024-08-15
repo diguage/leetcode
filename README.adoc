@@ -136,7 +136,7 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |{source_base_url}/_0015_3Sum.java[Java]
 |{doc_base_url}/0015-3sum.adoc[题解]
 |Medium
-|
+|双指针
 
 |{counter:codes}
 |{leetcode_base_url}/3sum-closest/[16. 3Sum Closest]

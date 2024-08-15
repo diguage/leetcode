@@ -27,12 +27,37 @@ A solution set is:
 为什么参考资料中，JS 的代码可以通过，但是转成 Java 之后就不能通过呢？
 
 [[src-0015]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0015_3Sum.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0015_3Sum_20.java[tag=answer]
+----
+--
+
+二刷（万能方法）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0015_3Sum_21.java[tag=answer]
+----
+--
+====
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/3sum/solution/three-sum-ti-jie-by-wonderful611/[三数之和题解 - 三数之和 - 力扣（LeetCode）^]
+. https://leetcode.cn/problems/3sum/solutions/4684/three-sum-ti-jie-by-wonderful611/[15. 三数之和 - 三数之和题解^]
 
