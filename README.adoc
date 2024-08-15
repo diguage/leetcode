@@ -3938,13 +3938,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0558-quad-tree-intersection.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/maximum-depth-of-n-ary-tree/[559. Maximum Depth of N-ary Tree^]
-//|{source_base_url}/_0559_MaximumDepthOfNAryTree.java[Java]
-//|{doc_base_url}/0559-maximum-depth-of-n-ary-tree.adoc[题解]
-//|Easy
-//|
+
+|{counter:codes}
+|{leetcode_base_url}/maximum-depth-of-n-ary-tree/[559. Maximum Depth of N-ary Tree^]
+|{source_base_url}/_0559_MaximumDepthOfNAryTree.java[Java]
+|{doc_base_url}/0559-maximum-depth-of-n-ary-tree.adoc[题解]
+|Easy
+|
 
 |{counter:codes}
 |{leetcode_base_url}/subarray-sum-equals-k/[560. Subarray Sum Equals K^]
@@ -4484,14 +4484,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0636-exclusive-time-of-functions.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/average-of-levels-in-binary-tree/[637. Average of Levels in Binary Tree^]
-//|{source_base_url}/_0637_AverageOfLevelsInBinaryTree.java[Java]
-//|{doc_base_url}/0637-average-of-levels-in-binary-tree.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/average-of-levels-in-binary-tree/[637. Average of Levels in Binary Tree^]
+|{source_base_url}/_0637_AverageOfLevelsInBinaryTree.java[Java]
+|{doc_base_url}/0637-average-of-levels-in-binary-tree.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/shopping-offers/[638. Shopping Offers^]
 //|{source_base_url}/_0638_ShoppingOffers.java[Java]
