@@ -1,0 +1,36 @@
+[#1756-design-most-recently-used-queue]
+= 1756. Design Most Recently Used Queue
+
+https://leetcode.com/problems/design-most-recently-used-queue/[LeetCode - 1756. Design Most Recently Used Queue ^]
+
+
+
+== 思路分析
+
+
+[[src-1756]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1756_DesignMostRecentlyUsedQueue.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1756_DesignMostRecentlyUsedQueue_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

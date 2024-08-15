@@ -1,0 +1,36 @@
+[#2853-highest-salaries-difference]
+= 2853. Highest Salaries Difference
+
+https://leetcode.com/problems/highest-salaries-difference/[LeetCode - 2853. Highest Salaries Difference ^]
+
+
+
+== 思路分析
+
+
+[[src-2853]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2853_HighestSalariesDifference.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2853_HighestSalariesDifference_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

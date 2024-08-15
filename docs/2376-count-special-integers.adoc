@@ -1,0 +1,78 @@
+[#2376-count-special-integers]
+= 2376. Count Special Integers
+
+https://leetcode.com/problems/count-special-integers/[LeetCode - 2376. Count Special Integers ^]
+
+We call a positive integer *special* if all of its digits are *distinct*.
+
+Given a *positive* integer `n`, return _the number of special integers that belong to the interval _`[1, n]`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 20
+*Output:* 19
+*Explanation:* All the integers from 1 to 20, except 11, are special. Thus, there are 19 special integers.
+
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 5
+*Output:* 5
+*Explanation:* All the integers from 1 to 5 are special.
+
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 135
+*Output:* 110
+*Explanation:* There are 110 integers from 1 to 135 that are special.
+Some of the integers that are not special are: 22, 114, and 131.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 2 * 10^9^`
+
+
+
+
+== 思路分析
+
+
+[[src-2376]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2376_CountSpecialIntegers.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2376_CountSpecialIntegers_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2994-friday-purchases-ii]
+= 2994. Friday Purchases II 
+
+https://leetcode.com/problems/friday-purchases-ii/[LeetCode - 2994. Friday Purchases II  ^]
+
+
+
+== 思路分析
+
+
+[[src-2994]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2994_FridayPurchasesIi.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2994_FridayPurchasesIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

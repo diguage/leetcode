@@ -1,0 +1,36 @@
+[#1602-find-nearest-right-node-in-binary-tree]
+= 1602. Find Nearest Right Node in Binary Tree
+
+https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/[LeetCode - 1602. Find Nearest Right Node in Binary Tree ^]
+
+
+
+== 思路分析
+
+
+[[src-1602]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1602_FindNearestRightNodeInBinaryTree.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1602_FindNearestRightNodeInBinaryTree_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

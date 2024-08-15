@@ -1,0 +1,36 @@
+[#2701-consecutive-transactions-with-increasing-amounts]
+= 2701. Consecutive Transactions with Increasing Amounts
+
+https://leetcode.com/problems/consecutive-transactions-with-increasing-amounts/[LeetCode - 2701. Consecutive Transactions with Increasing Amounts ^]
+
+
+
+== 思路分析
+
+
+[[src-2701]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2701_ConsecutiveTransactionsWithIncreasingAmounts.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2701_ConsecutiveTransactionsWithIncreasingAmounts_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

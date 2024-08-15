@@ -1,0 +1,93 @@
+[#3217-delete-nodes-from-linked-list-present-in-array]
+= 3217. Delete Nodes From Linked List Present in Array
+
+https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/[LeetCode - 3217. Delete Nodes From Linked List Present in Array ^]
+
+You are given an array of integers `nums` and the `head` of a linked list. Return the `head` of the modified linked list after *removing* all nodes from the linked list that have a value that exists in `nums`.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,2,3], head = [1,2,3,4,5]
+
+*Output:* <span class="example-io">[4,5]
+
+*Explanation:*
+
+*<img alt="" src="https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample0.png" style="width: 400px; height: 66px;" />*
+
+Remove the nodes with values 1, 2, and 3.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1], head = [1,2,1,2,1,2]
+
+*Output:* <span class="example-io">[2,2,2]
+
+*Explanation:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample1.png" style="height: 62px; width: 450px;" />
+
+Remove the nodes with value 1.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [5], head = [1,2,3,4]
+
+*Output:* <span class="example-io">[1,2,3,4]
+
+*Explanation:*
+
+*<img alt="" src="https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample2.png" style="width: 400px; height: 83px;" />*
+
+No node has value 5.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 10^5^`
+* `1 <= nums[i] <= 10^5^`
+* All elements in `nums` are unique.
+* The number of nodes in the given list is in the range `[1, 10^5^]`.
+* `1 <= Node.val <= 10^5^`
+* The input is generated such that there is at least one node in the linked list that has a value not present in `nums`.
+
+
+
+
+== 思路分析
+
+
+[[src-3217]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3217_DeleteNodesFromLinkedListPresentInArray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3217_DeleteNodesFromLinkedListPresentInArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

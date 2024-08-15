@@ -1,0 +1,36 @@
+[#2524-maximum-frequency-score-of-a-subarray]
+= 2524. Maximum Frequency Score of a Subarray
+
+https://leetcode.com/problems/maximum-frequency-score-of-a-subarray/[LeetCode - 2524. Maximum Frequency Score of a Subarray ^]
+
+
+
+== 思路分析
+
+
+[[src-2524]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2524_MaximumFrequencyScoreOfASubarray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2524_MaximumFrequencyScoreOfASubarray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

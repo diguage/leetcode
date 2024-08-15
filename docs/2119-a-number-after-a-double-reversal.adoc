@@ -1,0 +1,79 @@
+[#2119-a-number-after-a-double-reversal]
+= 2119. A Number After a Double Reversal
+
+https://leetcode.com/problems/a-number-after-a-double-reversal/[LeetCode - 2119. A Number After a Double Reversal ^]
+
+*Reversing* an integer means to reverse all its digits.
+
+
+* For example, reversing `2021` gives `1202`. Reversing `12300` gives `321` as the *leading zeros are not retained*.
+
+
+Given an integer `num`, *reverse* `num` to get `reversed1`, *then reverse* `reversed1` to get `reversed2`. Return `true` _if_ `reversed2` _equals_ `num`. Otherwise return `false`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num = 526
+*Output:* true
+*Explanation:* Reverse num to get 625, then reverse 625 to get 526, which equals num.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num = 1800
+*Output:* false
+*Explanation:* Reverse num to get 81, then reverse 81 to get 18, which does not equal num.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num = 0
+*Output:* true
+*Explanation:* Reverse num to get 0, then reverse 0 to get 0, which equals num.
+----
+
+ 
+*Constraints:*
+
+
+* `0 <= num <= 10^6^`
+
+
+
+
+== 思路分析
+
+
+[[src-2119]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2119_ANumberAfterADoubleReversal.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2119_ANumberAfterADoubleReversal_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

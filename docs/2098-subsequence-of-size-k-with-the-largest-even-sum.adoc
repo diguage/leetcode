@@ -1,0 +1,36 @@
+[#2098-subsequence-of-size-k-with-the-largest-even-sum]
+= 2098. Subsequence of Size K With the Largest Even Sum
+
+https://leetcode.com/problems/subsequence-of-size-k-with-the-largest-even-sum/[LeetCode - 2098. Subsequence of Size K With the Largest Even Sum ^]
+
+
+
+== 思路分析
+
+
+[[src-2098]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2098_SubsequenceOfSizeKWithTheLargestEvenSum.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2098_SubsequenceOfSizeKWithTheLargestEvenSum_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

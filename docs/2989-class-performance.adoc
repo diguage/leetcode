@@ -1,0 +1,36 @@
+[#2989-class-performance]
+= 2989. Class Performance
+
+https://leetcode.com/problems/class-performance/[LeetCode - 2989. Class Performance ^]
+
+
+
+== 思路分析
+
+
+[[src-2989]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2989_ClassPerformance.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2989_ClassPerformance_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

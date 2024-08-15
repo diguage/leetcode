@@ -1,0 +1,36 @@
+[#2738-count-occurrences-in-text]
+= 2738. Count Occurrences in Text
+
+https://leetcode.com/problems/count-occurrences-in-text/[LeetCode - 2738. Count Occurrences in Text ^]
+
+
+
+== 思路分析
+
+
+[[src-2738]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2738_CountOccurrencesInText.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2738_CountOccurrencesInText_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

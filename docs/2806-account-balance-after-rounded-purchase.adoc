@@ -1,0 +1,95 @@
+[#2806-account-balance-after-rounded-purchase]
+= 2806. Account Balance After Rounded Purchase
+
+https://leetcode.com/problems/account-balance-after-rounded-purchase/[LeetCode - 2806. Account Balance After Rounded Purchase ^]
+
+Initially, you have a bank account balance of *100* dollars.
+
+You are given an integer `purchaseAmount` representing the amount you will spend on a purchase in dollars, in other words, its price.
+
+When making the purchase, first the `purchaseAmount` *is rounded to the nearest multiple of 10*. Let us call this value `roundedAmount`. Then, `roundedAmount` dollars are removed from your bank account.
+
+Return an integer denoting your final bank account balance after this purchase.
+
+*Notes:*
+
+
+* 0 is considered to be a multiple of 10 in this problem.
+* When rounding, 5 is rounded upward (5 is rounded to 10, 15 is rounded to 20, 25 to 30, and so on).
+
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">purchaseAmount = 9
+
+*Output:* <span class="example-io">90
+
+*Explanation:*
+
+The nearest multiple of 10 to 9 is 10. So your account balance becomes 100 - 10 = 90.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">purchaseAmount = 15
+
+*Output:* <span class="example-io">80
+
+*Explanation:*
+
+The nearest multiple of 10 to 15 is 20. So your account balance becomes 100 - 20 = 80.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">purchaseAmount = 10
+
+*Output:* <span class="example-io">90
+
+*Explanation:*
+
+10 is a multiple of 10 itself. So your account balance becomes 100 - 10 = 90.
+
+
+ 
+*Constraints:*
+
+
+* `0 <= purchaseAmount <= 100`
+
+
+
+
+== 思路分析
+
+
+[[src-2806]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2806_AccountBalanceAfterRoundedPurchase.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2806_AccountBalanceAfterRoundedPurchase_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

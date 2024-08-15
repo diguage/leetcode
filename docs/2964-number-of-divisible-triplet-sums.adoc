@@ -1,0 +1,36 @@
+[#2964-number-of-divisible-triplet-sums]
+= 2964. Number of Divisible Triplet Sums
+
+https://leetcode.com/problems/number-of-divisible-triplet-sums/[LeetCode - 2964. Number of Divisible Triplet Sums ^]
+
+
+
+== 思路分析
+
+
+[[src-2964]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2964_NumberOfDivisibleTripletSums.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2964_NumberOfDivisibleTripletSums_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2377-sort-the-olympic-table]
+= 2377. Sort the Olympic Table
+
+https://leetcode.com/problems/sort-the-olympic-table/[LeetCode - 2377. Sort the Olympic Table ^]
+
+
+
+== 思路分析
+
+
+[[src-2377]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2377_SortTheOlympicTable.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2377_SortTheOlympicTable_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

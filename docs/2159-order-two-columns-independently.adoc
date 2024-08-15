@@ -1,0 +1,36 @@
+[#2159-order-two-columns-independently]
+= 2159. Order Two Columns Independently
+
+https://leetcode.com/problems/order-two-columns-independently/[LeetCode - 2159. Order Two Columns Independently ^]
+
+
+
+== 思路分析
+
+
+[[src-2159]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2159_OrderTwoColumnsIndependently.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2159_OrderTwoColumnsIndependently_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

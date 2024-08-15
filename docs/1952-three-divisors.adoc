@@ -1,0 +1,66 @@
+[#1952-three-divisors]
+= 1952. Three Divisors
+
+https://leetcode.com/problems/three-divisors/[LeetCode - 1952. Three Divisors ^]
+
+Given an integer `n`, return `true`_ if _`n`_ has *exactly three positive divisors*. Otherwise, return _`false`.
+
+An integer `m` is a *divisor* of `n` if there exists an integer `k` such that `n = k * m`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 2
+*Output:* false
+*Explantion:* 2 has only two divisors: 1 and 2.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 4
+*Output:* true
+*Explantion:* 4 has three divisors: 1, 2, and 4.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 10^4^`
+
+
+
+
+== 思路分析
+
+
+[[src-1952]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1952_ThreeDivisors.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1952_ThreeDivisors_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

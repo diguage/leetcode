@@ -1,0 +1,36 @@
+[#1989-maximum-number-of-people-that-can-be-caught-in-tag]
+= 1989. Maximum Number of People That Can Be Caught in Tag
+
+https://leetcode.com/problems/maximum-number-of-people-that-can-be-caught-in-tag/[LeetCode - 1989. Maximum Number of People That Can Be Caught in Tag ^]
+
+
+
+== 思路分析
+
+
+[[src-1989]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1989_MaximumNumberOfPeopleThatCanBeCaughtInTag.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1989_MaximumNumberOfPeopleThatCanBeCaughtInTag_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

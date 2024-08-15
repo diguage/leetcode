@@ -1,0 +1,69 @@
+[#3079-find-the-sum-of-encrypted-integers]
+= 3079. Find the Sum of Encrypted Integers
+
+https://leetcode.com/problems/find-the-sum-of-encrypted-integers/[LeetCode - 3079. Find the Sum of Encrypted Integers ^]
+
+You are given an integer array `nums` containing *positive* integers. We define a function `encrypt` such that `encrypt(x)` replaces *every* digit in `x` with the *largest* digit in `x`. For example, `encrypt(523) = 555` and `encrypt(213) = 333`.
+
+Return _the *sum *of encrypted elements_.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
+*Input: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">nums = [1,2,3]
+
+*Output: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">6
+
+*Explanation:* The encrypted elements are `[1,2,3]`. The sum of encrypted elements is `1 + 2 + 3 == 6`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
+*Input: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">nums = [10,21,31]
+
+*Output: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">66
+
+*Explanation:* The encrypted elements are `[11,22,33]`. The sum of encrypted elements is `11 + 22 + 33 == 66`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 50`
+* `1 <= nums[i] <= 1000`
+
+
+
+
+== 思路分析
+
+
+[[src-3079]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3079_FindTheSumOfEncryptedIntegers.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3079_FindTheSumOfEncryptedIntegers_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

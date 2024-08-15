@@ -1,0 +1,75 @@
+[#2750-ways-to-split-array-into-good-subarrays]
+= 2750. Ways to Split Array Into Good Subarrays
+
+https://leetcode.com/problems/ways-to-split-array-into-good-subarrays/[LeetCode - 2750. Ways to Split Array Into Good Subarrays ^]
+
+You are given a binary array `nums`.
+
+A subarray of an array is *good* if it contains *exactly* *one* element with the value `1`.
+
+Return _an integer denoting the number of ways to split the array _`nums`_ into *good* subarrays_. As the number may be too large, return it *modulo* `10^9^ + 7`.
+
+A subarray is a contiguous *non-empty* sequence of elements within an array.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [0,1,0,0,1]
+*Output:* 3
+*Explanation:* There are 3 ways to split nums into good subarrays:
+- [0,1] [0,0,1]
+- [0,1,0] [0,1]
+- [0,1,0,0] [1]
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [0,1,0]
+*Output:* 1
+*Explanation:* There is 1 way to split nums into good subarrays:
+- [0,1,0]
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 10^5^`
+* `0 <= nums[i] <= 1`
+
+
+
+
+== 思路分析
+
+
+[[src-2750]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2750_WaysToSplitArrayIntoGoodSubarrays.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2750_WaysToSplitArrayIntoGoodSubarrays_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

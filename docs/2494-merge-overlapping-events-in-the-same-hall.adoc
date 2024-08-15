@@ -1,0 +1,36 @@
+[#2494-merge-overlapping-events-in-the-same-hall]
+= 2494. Merge Overlapping Events in the Same Hall
+
+https://leetcode.com/problems/merge-overlapping-events-in-the-same-hall/[LeetCode - 2494. Merge Overlapping Events in the Same Hall ^]
+
+
+
+== 思路分析
+
+
+[[src-2494]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2494_MergeOverlappingEventsInTheSameHall.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2494_MergeOverlappingEventsInTheSameHall_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

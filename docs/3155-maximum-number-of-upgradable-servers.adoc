@@ -1,0 +1,36 @@
+[#3155-maximum-number-of-upgradable-servers]
+= 3155. Maximum Number of Upgradable Servers
+
+https://leetcode.com/problems/maximum-number-of-upgradable-servers/[LeetCode - 3155. Maximum Number of Upgradable Servers ^]
+
+
+
+== 思路分析
+
+
+[[src-3155]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3155_MaximumNumberOfUpgradableServers.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3155_MaximumNumberOfUpgradableServers_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,80 @@
+[#2942-find-words-containing-character]
+= 2942. Find Words Containing Character
+
+https://leetcode.com/problems/find-words-containing-character/[LeetCode - 2942. Find Words Containing Character ^]
+
+You are given a *0-indexed* array of strings `words` and a character `x`.
+
+Return _an *array of indices* representing the words that contain the character _`x`.
+
+*Note* that the returned array may be in *any* order.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* words = ["leet","code"], x = "e"
+*Output:* [0,1]
+*Explanation:* "e" occurs in both words: "l*[.underline]#ee#*t", and "cod[.underline]#*e*#". Hence, we return indices 0 and 1.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* words = ["abc","bcd","aaaa","cbc"], x = "a"
+*Output:* [0,2]
+*Explanation:* "a" occurs in "*[.underline]#a#*bc", and "[.underline]#*aaaa*#". Hence, we return indices 0 and 2.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* words = ["abc","bcd","aaaa","cbc"], x = "z"
+*Output:* []
+*Explanation:* "z" does not occur in any of the words. Hence, we return an empty array.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= words.length <= 50`
+* `1 <= words[i].length <= 50`
+* `x` is a lowercase English letter.
+* `words[i]` consists only of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-2942]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2942_FindWordsContainingCharacter.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2942_FindWordsContainingCharacter_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,90 @@
+[#2269-find-the-k-beauty-of-a-number]
+= 2269. Find the K-Beauty of a Number
+
+https://leetcode.com/problems/find-the-k-beauty-of-a-number/[LeetCode - 2269. Find the K-Beauty of a Number ^]
+
+The *k-beauty* of an integer `num` is defined as the number of *substrings* of `num` when it is read as a string that meet the following conditions:
+
+
+* It has a length of `k`.
+* It is a divisor of `num`.
+
+
+Given integers `num` and `k`, return _the k-beauty of _`num`.
+
+Note:
+
+
+* *Leading zeros* are allowed.
+* `0` is not a divisor of any value.
+
+
+A *substring* is a contiguous sequence of characters in a string.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num = 240, k = 2
+*Output:* 2
+*Explanation:* The following are the substrings of num of length k:
+- "24" from "*[.underline]#24#*0": 24 is a divisor of 240.
+- "40" from "2[.underline]#*40*#": 40 is a divisor of 240.
+Therefore, the k-beauty is 2.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num = 430043, k = 2
+*Output:* 2
+*Explanation:* The following are the substrings of num of length k:
+- "43" from "[.underline]#*43*#0043": 43 is a divisor of 430043.
+- "30" from "4[.underline]#*30*#043": 30 is not a divisor of 430043.
+- "00" from "43[.underline]#*00*#43": 0 is not a divisor of 430043.
+- "04" from "430[.underline]#*04*#3": 4 is not a divisor of 430043.
+- "43" from "4300[.underline]#*43*#": 43 is a divisor of 430043.
+Therefore, the k-beauty is 2.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= num <= 10^9^`
+* `1 <= k <= num.length` (taking `num` as a string)
+
+
+
+
+== 思路分析
+
+
+[[src-2269]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2269_FindTheKBeautyOfANumber.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2269_FindTheKBeautyOfANumber_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

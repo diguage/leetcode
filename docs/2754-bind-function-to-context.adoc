@@ -1,0 +1,36 @@
+[#2754-bind-function-to-context]
+= 2754. Bind Function to Context
+
+https://leetcode.com/problems/bind-function-to-context/[LeetCode - 2754. Bind Function to Context ^]
+
+
+
+== 思路分析
+
+
+[[src-2754]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2754_BindFunctionToContext.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2754_BindFunctionToContext_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

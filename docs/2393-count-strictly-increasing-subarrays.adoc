@@ -1,0 +1,36 @@
+[#2393-count-strictly-increasing-subarrays]
+= 2393. Count Strictly Increasing Subarrays
+
+https://leetcode.com/problems/count-strictly-increasing-subarrays/[LeetCode - 2393. Count Strictly Increasing Subarrays ^]
+
+
+
+== 思路分析
+
+
+[[src-2393]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2393_CountStrictlyIncreasingSubarrays.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2393_CountStrictlyIncreasingSubarrays_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

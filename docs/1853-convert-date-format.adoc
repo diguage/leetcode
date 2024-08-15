@@ -1,0 +1,36 @@
+[#1853-convert-date-format]
+= 1853. Convert Date Format
+
+https://leetcode.com/problems/convert-date-format/[LeetCode - 1853. Convert Date Format ^]
+
+
+
+== 思路分析
+
+
+[[src-1853]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1853_ConvertDateFormat.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1853_ConvertDateFormat_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

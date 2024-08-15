@@ -1,0 +1,36 @@
+[#2991-top-three-wineries]
+= 2991. Top Three Wineries 
+
+https://leetcode.com/problems/top-three-wineries/[LeetCode - 2991. Top Three Wineries  ^]
+
+
+
+== 思路分析
+
+
+[[src-2991]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2991_TopThreeWineries.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2991_TopThreeWineries_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

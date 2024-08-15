@@ -1,0 +1,259 @@
+[#3007-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k]
+= 3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K
+
+https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/[LeetCode - 3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K ^]
+
+You are given an integer `k` and an integer `x`. The price of a number `num` is calculated by the count of <span data-keyword="set-bit">set bits at positions `x`, `2x`, `3x`, etc., in its binary representation, starting from the least significant bit. The following table contains examples of how price is calculated.
+
+<table border="1">
+	<tbody>
+		<tr>
+			<th>x</th>
+			<th>num</th>
+			<th>Binary Representation</th>
+			<th>Price</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>13</td>
+			<td>[.underline]#0#[.underline]#0#[.underline]#0#[.underline]#0#[.underline]#0#*[.underline]#1#**[.underline]#1#*[.underline]#0#*[.underline]#1#*</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>13</td>
+			<td>0[.underline]#0#0[.underline]#0#0*[.underline]#1#*1[.underline]#0#1</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>233</td>
+			<td>0*[.underline]#1#*1*[.underline]#1#*0*[.underline]#1#*0[.underline]#0#1</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>13</td>
+			<td>[.underline]#0#00[.underline]#0#01*[.underline]#1#*01</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>362</td>
+			<td>*[.underline]#1#*01*[.underline]#1#*01[.underline]#0#10</td>
+			<td>2</td>
+		</tr>
+	</tbody>
+</table>
+
+The *accumulated price* of `num` is the *total* price of numbers from `1` to `num`. `num` is considered *cheap* if its accumulated price is less than or equal to `k`.
+
+Return the *greatest* cheap number.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">k = 9, x = 1
+
+*Output:* <span class="example-io">6
+
+*Explanation:*
+
+As shown in the table below, `6` is the greatest cheap number.
+
+<table border="1">
+	<tbody>
+		<tr>
+			<th>x</th>
+			<th>num</th>
+			<th>Binary Representation</th>
+			<th>Price</th>
+			<th>Accumulated Price</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>1</td>
+			<td>[.underline]#0#[.underline]#0#*[.underline]#1#*</td>
+			<td>1</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>[.underline]#0#*[.underline]#1#*[.underline]#0#</td>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>3</td>
+			<td>[.underline]#0#*[.underline]#1#**[.underline]#1#*</td>
+			<td>2</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>4</td>
+			<td>*[.underline]#1#*[.underline]#0#[.underline]#0#</td>
+			<td>1</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>5</td>
+			<td>*[.underline]#1#*[.underline]#0#*[.underline]#1#*</td>
+			<td>2</td>
+			<td>7</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>6</td>
+			<td>*[.underline]#1#**[.underline]#1#*[.underline]#0#</td>
+			<td>2</td>
+			<td>9</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>7</td>
+			<td>*[.underline]#1#**[.underline]#1#**[.underline]#1#*</td>
+			<td>3</td>
+			<td>12</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">k = 7, x = 2
+
+*Output:* <span class="example-io">9
+
+*Explanation:*
+
+As shown in the table below, `9` is the greatest cheap number.
+
+<table border="1">
+	<tbody>
+		<tr>
+			<th>x</th>
+			<th>num</th>
+			<th>Binary Representation</th>
+			<th>Price</th>
+			<th>Accumulated Price</th>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>1</td>
+			<td>[.underline]#0#0[.underline]#0#1</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>2</td>
+			<td>[.underline]#0#0*[.underline]#1#*0</td>
+			<td>1</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>3</td>
+			<td>[.underline]#0#0*[.underline]#1#*1</td>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>4</td>
+			<td>[.underline]#0#1[.underline]#0#0</td>
+			<td>0</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>5</td>
+			<td>[.underline]#0#1[.underline]#0#1</td>
+			<td>0</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>6</td>
+			<td>[.underline]#0#1*[.underline]#1#*0</td>
+			<td>1</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>7</td>
+			<td>[.underline]#0#1*[.underline]#1#*1</td>
+			<td>1</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>8</td>
+			<td>*[.underline]#1#*0[.underline]#0#0</td>
+			<td>1</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>9</td>
+			<td>*[.underline]#1#*0[.underline]#0#1</td>
+			<td>1</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>10</td>
+			<td>*[.underline]#1#*0*[.underline]#1#*0</td>
+			<td>2</td>
+			<td>8</td>
+		</tr>
+	</tbody>
+</table>
+
+
+ 
+*Constraints:*
+
+
+* `1 <= k <= 10^15^`
+* `1 <= x <= 8`
+
+
+
+
+== 思路分析
+
+
+[[src-3007]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3007_MaximumNumberThatSumOfThePricesIsLessThanOrEqualToK.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3007_MaximumNumberThatSumOfThePricesIsLessThanOrEqualToK_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

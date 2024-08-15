@@ -1,0 +1,36 @@
+[#2489-number-of-substrings-with-fixed-ratio]
+= 2489. Number of Substrings With Fixed Ratio
+
+https://leetcode.com/problems/number-of-substrings-with-fixed-ratio/[LeetCode - 2489. Number of Substrings With Fixed Ratio ^]
+
+
+
+== 思路分析
+
+
+[[src-2489]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2489_NumberOfSubstringsWithFixedRatio.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2489_NumberOfSubstringsWithFixedRatio_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

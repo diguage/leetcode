@@ -1,0 +1,36 @@
+[#1836-remove-duplicates-from-an-unsorted-linked-list]
+= 1836. Remove Duplicates From an Unsorted Linked List
+
+https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/[LeetCode - 1836. Remove Duplicates From an Unsorted Linked List ^]
+
+
+
+== 思路分析
+
+
+[[src-1836]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1836_RemoveDuplicatesFromAnUnsortedLinkedList.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1836_RemoveDuplicatesFromAnUnsortedLinkedList_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

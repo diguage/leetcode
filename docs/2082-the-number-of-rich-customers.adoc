@@ -1,0 +1,36 @@
+[#2082-the-number-of-rich-customers]
+= 2082. The Number of Rich Customers
+
+https://leetcode.com/problems/the-number-of-rich-customers/[LeetCode - 2082. The Number of Rich Customers ^]
+
+
+
+== 思路分析
+
+
+[[src-2082]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2082_TheNumberOfRichCustomers.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2082_TheNumberOfRichCustomers_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2479-maximum-xor-of-two-non-overlapping-subtrees]
+= 2479. Maximum XOR of Two Non-Overlapping Subtrees
+
+https://leetcode.com/problems/maximum-xor-of-two-non-overlapping-subtrees/[LeetCode - 2479. Maximum XOR of Two Non-Overlapping Subtrees ^]
+
+
+
+== 思路分析
+
+
+[[src-2479]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2479_MaximumXorOfTwoNonOverlappingSubtrees.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2479_MaximumXorOfTwoNonOverlappingSubtrees_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

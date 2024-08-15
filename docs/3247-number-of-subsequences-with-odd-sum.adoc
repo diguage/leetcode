@@ -1,0 +1,36 @@
+[#3247-number-of-subsequences-with-odd-sum]
+= 3247. Number of Subsequences with Odd Sum
+
+https://leetcode.com/problems/number-of-subsequences-with-odd-sum/[LeetCode - 3247. Number of Subsequences with Odd Sum ^]
+
+
+
+== 思路分析
+
+
+[[src-3247]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3247_NumberOfSubsequencesWithOddSum.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3247_NumberOfSubsequencesWithOddSum_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

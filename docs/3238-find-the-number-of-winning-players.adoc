@@ -1,0 +1,99 @@
+[#3238-find-the-number-of-winning-players]
+= 3238. Find the Number of Winning Players
+
+https://leetcode.com/problems/find-the-number-of-winning-players/[LeetCode - 3238. Find the Number of Winning Players ^]
+
+You are given an integer `n` representing the number of players in a game and a 2D array `pick` where `pick[i] = [x<sub>i</sub>, y<sub>i</sub>]` represents that the player `x<sub>i</sub>` picked a ball of color `y<sub>i</sub>`.
+
+Player `i` *wins* the game if they pick *strictly more* than `i` balls of the *same* color. In other words,
+
+
+* Player 0 wins if they pick any ball.
+* Player 1 wins if they pick at least two balls of the _same_ color.
+* ...
+* Player `i` wins if they pick at least`i + 1` balls of the _same_ color.
+
+
+Return the number of players who *win* the game.
+
+*Note* that _multiple_ players can win the game.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 4, pick = [[0,0],[1,0],[1,0],[2,1],[2,1],[2,0]]
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+Player 0 and player 1 win the game, while players 2 and 3 do not win.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 5, pick = [[1,1],[1,2],[1,3],[1,4]]
+
+*Output:* <span class="example-io">0
+
+*Explanation:*
+
+No player wins the game.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 5, pick = [[1,1],[2,4],[2,4],[2,4]]
+
+*Output:* <span class="example-io">1
+
+*Explanation:*
+
+Player 2 wins the game by picking 3 balls with color 4.
+
+
+ 
+*Constraints:*
+
+
+* `2 <= n <= 10`
+* `1 <= pick.length <= 100`
+* `pick[i].length == 2`
+* `0 <= x<sub>i</sub> <= n - 1 `
+* `0 <= y<sub>i</sub> <= 10`
+
+
+
+
+== 思路分析
+
+
+[[src-3238]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3238_FindTheNumberOfWinningPlayers.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3238_FindTheNumberOfWinningPlayers_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

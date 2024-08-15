@@ -1,0 +1,75 @@
+[#1931-painting-a-grid-with-three-different-colors]
+= 1931. Painting a Grid With Three Different Colors
+
+https://leetcode.com/problems/painting-a-grid-with-three-different-colors/[LeetCode - 1931. Painting a Grid With Three Different Colors ^]
+
+You are given two integers `m` and `n`. Consider an `m x n` grid where each cell is initially white. You can paint each cell *red*, *green*, or *blue*. All cells *must* be painted.
+
+Return_ the number of ways to color the grid with *no two adjacent cells having the same color*_. Since the answer can be very large, return it *modulo* `10^9^ + 7`.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2021/06/22/colorthegrid.png" style="width: 200px; height: 50px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* m = 1, n = 1
+*Output:* 3
+*Explanation:* The three possible colorings are shown in the image above.
+----
+
+<strong class="example">Example 2:*
+<img alt="" src="https://assets.leetcode.com/uploads/2021/06/22/copy-of-colorthegrid.png" style="width: 321px; height: 121px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* m = 1, n = 2
+*Output:* 6
+*Explanation:* The six possible colorings are shown in the image above.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* m = 5, n = 5
+*Output:* 580986
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= m <= 5`
+* `1 <= n <= 1000`
+
+
+
+
+== 思路分析
+
+
+[[src-1931]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1931_PaintingAGridWithThreeDifferentColors.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1931_PaintingAGridWithThreeDifferentColors_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

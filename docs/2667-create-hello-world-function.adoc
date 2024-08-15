@@ -1,0 +1,71 @@
+[#2667-create-hello-world-function]
+= 2667. Create Hello World Function
+
+https://leetcode.com/problems/create-hello-world-function/[LeetCode - 2667. Create Hello World Function ^]
+
+Write a function `createHelloWorld`. It should return a new function that always returns `"Hello World"`.
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* args = []
+*Output:* "Hello World"
+*Explanation:*
+const f = createHelloWorld();
+f(); // "Hello World"
+
+The function returned by createHelloWorld should always return "Hello World".
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* args = [{},null,42]
+*Output:* "Hello World"
+*Explanation:*
+const f = createHelloWorld();
+f({}, null, 42); // "Hello World"
+
+Any arguments could be passed to the function but it should still always return "Hello World".
+----
+
+ 
+*Constraints:*
+
+
+* `0 <= args.length <= 10`
+
+
+
+
+== 思路分析
+
+
+[[src-2667]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2667_CreateHelloWorldFunction.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2667_CreateHelloWorldFunction_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

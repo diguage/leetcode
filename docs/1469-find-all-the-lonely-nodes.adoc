@@ -1,0 +1,36 @@
+[#1469-find-all-the-lonely-nodes]
+= 1469. Find All The Lonely Nodes
+
+https://leetcode.com/problems/find-all-the-lonely-nodes/[LeetCode - 1469. Find All The Lonely Nodes ^]
+
+
+
+== 思路分析
+
+
+[[src-1469]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1469_FindAllTheLonelyNodes.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1469_FindAllTheLonelyNodes_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

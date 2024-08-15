@@ -1,0 +1,36 @@
+[#2219-maximum-sum-score-of-array]
+= 2219. Maximum Sum Score of Array
+
+https://leetcode.com/problems/maximum-sum-score-of-array/[LeetCode - 2219. Maximum Sum Score of Array ^]
+
+
+
+== 思路分析
+
+
+[[src-2219]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2219_MaximumSumScoreOfArray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2219_MaximumSumScoreOfArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

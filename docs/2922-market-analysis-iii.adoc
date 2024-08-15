@@ -1,0 +1,36 @@
+[#2922-market-analysis-iii]
+= 2922. Market Analysis III
+
+https://leetcode.com/problems/market-analysis-iii/[LeetCode - 2922. Market Analysis III ^]
+
+
+
+== 思路分析
+
+
+[[src-2922]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2922_MarketAnalysisIii.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2922_MarketAnalysisIii_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

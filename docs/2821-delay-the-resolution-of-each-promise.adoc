@@ -1,0 +1,36 @@
+[#2821-delay-the-resolution-of-each-promise]
+= 2821. Delay the Resolution of Each Promise
+
+https://leetcode.com/problems/delay-the-resolution-of-each-promise/[LeetCode - 2821. Delay the Resolution of Each Promise ^]
+
+
+
+== 思路分析
+
+
+[[src-2821]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2821_DelayTheResolutionOfEachPromise.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2821_DelayTheResolutionOfEachPromise_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

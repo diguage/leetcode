@@ -1,0 +1,36 @@
+[#2324-product-sales-analysis-iv]
+= 2324. Product Sales Analysis IV
+
+https://leetcode.com/problems/product-sales-analysis-iv/[LeetCode - 2324. Product Sales Analysis IV ^]
+
+
+
+== 思路分析
+
+
+[[src-2324]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2324_ProductSalesAnalysisIv.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2324_ProductSalesAnalysisIv_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

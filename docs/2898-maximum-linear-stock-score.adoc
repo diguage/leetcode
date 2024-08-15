@@ -1,0 +1,36 @@
+[#2898-maximum-linear-stock-score]
+= 2898. Maximum Linear Stock Score
+
+https://leetcode.com/problems/maximum-linear-stock-score/[LeetCode - 2898. Maximum Linear Stock Score ^]
+
+
+
+== 思路分析
+
+
+[[src-2898]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2898_MaximumLinearStockScore.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2898_MaximumLinearStockScore_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

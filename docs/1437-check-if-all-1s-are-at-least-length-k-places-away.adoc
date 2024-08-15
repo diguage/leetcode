@@ -1,0 +1,66 @@
+[#1437-check-if-all-1s-are-at-least-length-k-places-away]
+= 1437. Check If All 1's Are at Least Length K Places Away
+
+https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/[LeetCode - 1437. Check If All 1's Are at Least Length K Places Away ^]
+
+Given an binary array `nums` and an integer `k`, return `true`_ if all _`1`_'s are at least _`k`_ places away from each other, otherwise return _`false`.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2020/04/15/sample_1_1791.png" style="width: 428px; height: 181px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [1,0,0,0,1,0,0,1], k = 2
+*Output:* true
+*Explanation:* Each of the 1s are at least 2 places away from each other.
+----
+
+<strong class="example">Example 2:*
+<img alt="" src="https://assets.leetcode.com/uploads/2020/04/15/sample_2_1791.png" style="width: 320px; height: 173px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [1,0,0,1,0,1], k = 2
+*Output:* false
+*Explanation:* The second 1 and third 1 are only one apart from each other.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 10^5^`
+* `0 <= k <= nums.length`
+* `nums[i]` is `0` or `1`
+
+
+
+
+== 思路分析
+
+
+[[src-1437]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1437_CheckIfAll1SAreAtLeastLengthKPlacesAway.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1437_CheckIfAll1SAreAtLeastLengthKPlacesAway_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

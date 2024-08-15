@@ -1,0 +1,36 @@
+[#1543-fix-product-name-format]
+= 1543. Fix Product Name Format
+
+https://leetcode.com/problems/fix-product-name-format/[LeetCode - 1543. Fix Product Name Format ^]
+
+
+
+== 思路分析
+
+
+[[src-1543]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1543_FixProductNameFormat.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1543_FixProductNameFormat_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

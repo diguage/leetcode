@@ -1,0 +1,86 @@
+[#1373-maximum-sum-bst-in-binary-tree]
+= 1373. Maximum Sum BST in Binary Tree
+
+https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/[LeetCode - 1373. Maximum Sum BST in Binary Tree ^]
+
+Given a *binary tree* `root`, return _the maximum sum of all keys of *any* sub-tree which is also a Binary Search Tree (BST)_.
+
+Assume a BST is defined as follows:
+
+
+* The left subtree of a node contains only nodes with keys *less than* the node's key.
+* The right subtree of a node contains only nodes with keys *greater than* the node's key.
+* Both the left and right subtrees must also be binary search trees.
+
+
+ 
+<strong class="example">Example 1:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2020/01/30/sample_1_1709.png" style="width: 320px; height: 250px;" />
+
+[subs="verbatim,quotes"]
+----
+*Input:* root = [1,4,3,2,4,2,5,null,null,null,null,null,null,4,6]
+*Output:* 20
+*Explanation:* Maximum sum in a valid Binary search tree is obtained in root node with key equal to 3.
+----
+
+<strong class="example">Example 2:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2020/01/30/sample_2_1709.png" style="width: 134px; height: 180px;" />
+
+[subs="verbatim,quotes"]
+----
+*Input:* root = [4,3,null,1,2]
+*Output:* 2
+*Explanation:* Maximum sum in a valid Binary search tree is obtained in a single root node with key equal to 2.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* root = [-4,-2,-5]
+*Output:* 0
+*Explanation:* All values are negatives. Return an empty BST.
+----
+
+ 
+*Constraints:*
+
+
+* The number of nodes in the tree is in the range `[1, 4 * 10^4^]`.
+* `-4 * 10^4^ <= Node.val <= 4 * 10^4^`
+
+
+
+
+== 思路分析
+
+
+[[src-1373]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1373_MaximumSumBstInBinaryTree.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1373_MaximumSumBstInBinaryTree_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2403-minimum-time-to-kill-all-monsters]
+= 2403. Minimum Time to Kill All Monsters
+
+https://leetcode.com/problems/minimum-time-to-kill-all-monsters/[LeetCode - 2403. Minimum Time to Kill All Monsters ^]
+
+
+
+== 思路分析
+
+
+[[src-2403]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2403_MinimumTimeToKillAllMonsters.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2403_MinimumTimeToKillAllMonsters_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

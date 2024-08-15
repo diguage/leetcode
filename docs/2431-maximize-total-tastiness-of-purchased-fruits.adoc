@@ -1,0 +1,36 @@
+[#2431-maximize-total-tastiness-of-purchased-fruits]
+= 2431. Maximize Total Tastiness of Purchased Fruits
+
+https://leetcode.com/problems/maximize-total-tastiness-of-purchased-fruits/[LeetCode - 2431. Maximize Total Tastiness of Purchased Fruits ^]
+
+
+
+== 思路分析
+
+
+[[src-2431]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2431_MaximizeTotalTastinessOfPurchasedFruits.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2431_MaximizeTotalTastinessOfPurchasedFruits_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

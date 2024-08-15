@@ -1,0 +1,36 @@
+[#2979-most-expensive-item-that-can-not-be-bought]
+= 2979. Most Expensive Item That Can Not Be Bought
+
+https://leetcode.com/problems/most-expensive-item-that-can-not-be-bought/[LeetCode - 2979. Most Expensive Item That Can Not Be Bought ^]
+
+
+
+== 思路分析
+
+
+[[src-2979]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2979_MostExpensiveItemThatCanNotBeBought.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2979_MostExpensiveItemThatCanNotBeBought_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

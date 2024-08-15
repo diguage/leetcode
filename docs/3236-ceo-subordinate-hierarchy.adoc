@@ -1,0 +1,36 @@
+[#3236-ceo-subordinate-hierarchy]
+= 3236. CEO Subordinate Hierarchy
+
+https://leetcode.com/problems/ceo-subordinate-hierarchy/[LeetCode - 3236. CEO Subordinate Hierarchy ^]
+
+
+
+== 思路分析
+
+
+[[src-3236]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3236_CeoSubordinateHierarchy.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3236_CeoSubordinateHierarchy_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

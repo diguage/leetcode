@@ -1,0 +1,36 @@
+[#3059-find-all-unique-email-domains]
+= 3059. Find All Unique Email Domains
+
+https://leetcode.com/problems/find-all-unique-email-domains/[LeetCode - 3059. Find All Unique Email Domains ^]
+
+
+
+== 思路分析
+
+
+[[src-3059]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3059_FindAllUniqueEmailDomains.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3059_FindAllUniqueEmailDomains_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

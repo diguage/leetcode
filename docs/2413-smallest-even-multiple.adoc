@@ -1,0 +1,63 @@
+[#2413-smallest-even-multiple]
+= 2413. Smallest Even Multiple
+
+https://leetcode.com/problems/smallest-even-multiple/[LeetCode - 2413. Smallest Even Multiple ^]
+
+Given a *positive* integer `n`, return _the smallest positive integer that is a multiple of *both* _`2`_ and _`n`.
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 5
+*Output:* 10
+*Explanation:* The smallest multiple of both 5 and 2 is 10.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 6
+*Output:* 6
+*Explanation:* The smallest multiple of both 6 and 2 is 6. Note that a number is a multiple of itself.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 150`
+
+
+
+
+== 思路分析
+
+
+[[src-2413]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2413_SmallestEvenMultiple.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2413_SmallestEvenMultiple_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

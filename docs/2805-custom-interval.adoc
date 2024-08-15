@@ -1,0 +1,36 @@
+[#2805-custom-interval]
+= 2805. Custom Interval
+
+https://leetcode.com/problems/custom-interval/[LeetCode - 2805. Custom Interval ^]
+
+
+
+== 思路分析
+
+
+[[src-2805]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2805_CustomInterval.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2805_CustomInterval_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

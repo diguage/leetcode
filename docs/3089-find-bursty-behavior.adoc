@@ -1,0 +1,36 @@
+[#3089-find-bursty-behavior]
+= 3089. Find Bursty Behavior
+
+https://leetcode.com/problems/find-bursty-behavior/[LeetCode - 3089. Find Bursty Behavior ^]
+
+
+
+== 思路分析
+
+
+[[src-3089]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3089_FindBurstyBehavior.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3089_FindBurstyBehavior_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

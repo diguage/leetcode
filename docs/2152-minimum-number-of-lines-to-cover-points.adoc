@@ -1,0 +1,36 @@
+[#2152-minimum-number-of-lines-to-cover-points]
+= 2152. Minimum Number of Lines to Cover Points
+
+https://leetcode.com/problems/minimum-number-of-lines-to-cover-points/[LeetCode - 2152. Minimum Number of Lines to Cover Points ^]
+
+
+
+== 思路分析
+
+
+[[src-2152]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2152_MinimumNumberOfLinesToCoverPoints.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2152_MinimumNumberOfLinesToCoverPoints_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

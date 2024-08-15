@@ -1,0 +1,36 @@
+[#1794-count-pairs-of-equal-substrings-with-minimum-difference]
+= 1794. Count Pairs of Equal Substrings With Minimum Difference
+
+https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference/[LeetCode - 1794. Count Pairs of Equal Substrings With Minimum Difference ^]
+
+
+
+== 思路分析
+
+
+[[src-1794]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1794_CountPairsOfEqualSubstringsWithMinimumDifference.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1794_CountPairsOfEqualSubstringsWithMinimumDifference_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

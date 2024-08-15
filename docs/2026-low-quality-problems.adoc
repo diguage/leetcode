@@ -1,0 +1,36 @@
+[#2026-low-quality-problems]
+= 2026. Low-Quality Problems
+
+https://leetcode.com/problems/low-quality-problems/[LeetCode - 2026. Low-Quality Problems ^]
+
+
+
+== 思路分析
+
+
+[[src-2026]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2026_LowQualityProblems.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2026_LowQualityProblems_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

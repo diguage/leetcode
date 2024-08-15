@@ -1,0 +1,36 @@
+[#1692-count-ways-to-distribute-candies]
+= 1692. Count Ways to Distribute Candies
+
+https://leetcode.com/problems/count-ways-to-distribute-candies/[LeetCode - 1692. Count Ways to Distribute Candies ^]
+
+
+
+== 思路分析
+
+
+[[src-1692]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1692_CountWaysToDistributeCandies.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1692_CountWaysToDistributeCandies_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

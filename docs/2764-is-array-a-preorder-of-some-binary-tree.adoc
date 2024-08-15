@@ -1,0 +1,36 @@
+[#2764-is-array-a-preorder-of-some-binary-tree]
+= 2764. Is Array a Preorder of Some ‌Binary Tree
+
+https://leetcode.com/problems/is-array-a-preorder-of-some-binary-tree/[LeetCode - 2764. Is Array a Preorder of Some ‌Binary Tree ^]
+
+
+
+== 思路分析
+
+
+[[src-2764]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2764_IsArrayAPreorderOfSomeBinaryTree.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2764_IsArrayAPreorderOfSomeBinaryTree_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2128-remove-all-ones-with-row-and-column-flips]
+= 2128. Remove All Ones With Row and Column Flips
+
+https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips/[LeetCode - 2128. Remove All Ones With Row and Column Flips ^]
+
+
+
+== 思路分析
+
+
+[[src-2128]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2128_RemoveAllOnesWithRowAndColumnFlips.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2128_RemoveAllOnesWithRowAndColumnFlips_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

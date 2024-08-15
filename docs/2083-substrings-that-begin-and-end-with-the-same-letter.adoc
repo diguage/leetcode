@@ -1,0 +1,36 @@
+[#2083-substrings-that-begin-and-end-with-the-same-letter]
+= 2083. Substrings That Begin and End With the Same Letter
+
+https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter/[LeetCode - 2083. Substrings That Begin and End With the Same Letter ^]
+
+
+
+== 思路分析
+
+
+[[src-2083]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2083_SubstringsThatBeginAndEndWithTheSameLetter.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2083_SubstringsThatBeginAndEndWithTheSameLetter_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

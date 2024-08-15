@@ -1,0 +1,78 @@
+[#2550-count-collisions-of-monkeys-on-a-polygon]
+= 2550. Count Collisions of Monkeys on a Polygon
+
+https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/[LeetCode - 2550. Count Collisions of Monkeys on a Polygon ^]
+
+There is a regular convex polygon with `n` vertices. The vertices are labeled from `0` to `n - 1` in a clockwise direction, and each vertex has *exactly one monkey*. The following figure shows a convex polygon of `6` vertices.
+<img alt="" src="https://assets.leetcode.com/uploads/2023/01/22/hexagon.jpg" style="width: 300px; height: 293px;" />
+Simultaneously, each monkey moves to a neighboring vertex. A *collision* happens if at least two monkeys reside on the same vertex after the movement or intersect on an edge.
+
+Return the number of ways the monkeys can move so that at least *one collision* happens. Since the answer may be very large, return it modulo `10^9 ^+ 7`.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 3
+
+*Output:* <span class="example-io">6
+
+*Explanation:*
+
+There are 8 total possible movements.
+
+
+Two ways such that they collide at some point are:
+
+
+* Monkey 1 moves in a clockwise direction; monkey 2 moves in an anticlockwise direction; monkey 3 moves in a clockwise direction. Monkeys 1 and 2 collide.
+* Monkey 1 moves in an anticlockwise direction; monkey 2 moves in an anticlockwise direction; monkey 3 moves in a clockwise direction. Monkeys 1 and 3 collide.
+
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 4
+
+*Output:* <span class="example-io">14
+
+
+ 
+*Constraints:*
+
+
+* `3 <= n <= 10^9^`
+
+
+
+
+== 思路分析
+
+
+[[src-2550]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2550_CountCollisionsOfMonkeysOnAPolygon.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2550_CountCollisionsOfMonkeysOnAPolygon_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

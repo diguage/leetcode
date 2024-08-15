@@ -1,0 +1,36 @@
+[#2691-immutability-helper]
+= 2691. Immutability Helper
+
+https://leetcode.com/problems/immutability-helper/[LeetCode - 2691. Immutability Helper ^]
+
+
+
+== 思路分析
+
+
+[[src-2691]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2691_ImmutabilityHelper.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2691_ImmutabilityHelper_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

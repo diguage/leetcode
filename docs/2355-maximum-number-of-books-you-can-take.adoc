@@ -1,0 +1,36 @@
+[#2355-maximum-number-of-books-you-can-take]
+= 2355. Maximum Number of Books You Can Take
+
+https://leetcode.com/problems/maximum-number-of-books-you-can-take/[LeetCode - 2355. Maximum Number of Books You Can Take ^]
+
+
+
+== 思路分析
+
+
+[[src-2355]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2355_MaximumNumberOfBooksYouCanTake.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2355_MaximumNumberOfBooksYouCanTake_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

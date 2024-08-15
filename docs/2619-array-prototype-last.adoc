@@ -1,0 +1,67 @@
+[#2619-array-prototype-last]
+= 2619. Array Prototype Last
+
+https://leetcode.com/problems/array-prototype-last/[LeetCode - 2619. Array Prototype Last ^]
+
+Write code that enhances all arrays such that you can call the `array.last()` method on any array and it will return the last element. If there are no elements in the array, it should return `-1`.
+
+You may assume the array is the output of `JSON.parse`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [null, {}, 3]
+*Output:* 3
+*Explanation:* Calling nums.last() should return the last element: 3.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = []
+*Output:* -1
+*Explanation:* Because there are no elements, return -1.
+----
+
+ 
+*Constraints:*
+
+
+* `arr` is a valid JSON array
+* `0 <= arr.length <= 1000`
+
+
+
+
+== 思路分析
+
+
+[[src-2619]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2619_ArrayPrototypeLast.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2619_ArrayPrototypeLast_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

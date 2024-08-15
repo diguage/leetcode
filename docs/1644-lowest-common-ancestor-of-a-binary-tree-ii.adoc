@@ -48,7 +48,7 @@ The number of nodes in the tree is in the range [1, 104].
 All Node.val are unique.
 p != q
 
-== 解题思路
+== 思路分析
 
 [[src-1644]]
 [tabs]
@@ -67,7 +67,12 @@ include::{sourcedir}/_1644_LowestCommonAncestorOfABinaryTreeII.java[tag=answer]
 // --
 // [{java_src_attr}]
 // ----
-// include::{sourcedir}/_0078_Subsets_2.java[tag=answer]
+// include::{sourcedir}/_1644_LowestCommonAncestorOfABinaryTreeIi_2.java[tag=answer]
 // ----
 // --
 ====
+
+
+== 参考资料
+
+

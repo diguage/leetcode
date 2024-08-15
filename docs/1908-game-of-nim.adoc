@@ -1,0 +1,36 @@
+[#1908-game-of-nim]
+= 1908. Game of Nim
+
+https://leetcode.com/problems/game-of-nim/[LeetCode - 1908. Game of Nim ^]
+
+
+
+== 思路分析
+
+
+[[src-1908]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1908_GameOfNim.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1908_GameOfNim_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

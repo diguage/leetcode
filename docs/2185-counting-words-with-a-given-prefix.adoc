@@ -1,0 +1,70 @@
+[#2185-counting-words-with-a-given-prefix]
+= 2185. Counting Words With a Given Prefix
+
+https://leetcode.com/problems/counting-words-with-a-given-prefix/[LeetCode - 2185. Counting Words With a Given Prefix ^]
+
+You are given an array of strings `words` and a string `pref`.
+
+Return _the number of strings in _`words`_ that contain _`pref`_ as a *prefix*_.
+
+A *prefix* of a string `s` is any leading contiguous substring of `s`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* words = ["pay","*[.underline]#at#*tention","practice","[.underline]#*at*#tend"], `pref `= "at"
+*Output:* 2
+*Explanation:* The 2 strings that contain "at" as a prefix are: "[.underline]#*at*#tention" and "[.underline]#*at*#tend".
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* words = ["leetcode","win","loops","success"], `pref `= "code"
+*Output:* 0
+*Explanation:* There are no strings that contain "code" as a prefix.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= words.length <= 100`
+* `1 <= words[i].length, pref.length <= 100`
+* `words[i]` and `pref` consist of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-2185]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2185_CountingWordsWithAGivenPrefix.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2185_CountingWordsWithAGivenPrefix_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

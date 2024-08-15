@@ -1,0 +1,36 @@
+[#2647-color-the-triangle-red]
+= 2647. Color the Triangle Red
+
+https://leetcode.com/problems/color-the-triangle-red/[LeetCode - 2647. Color the Triangle Red ^]
+
+
+
+== 思路分析
+
+
+[[src-2647]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2647_ColorTheTriangleRed.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2647_ColorTheTriangleRed_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

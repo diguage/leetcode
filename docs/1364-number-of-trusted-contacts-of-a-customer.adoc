@@ -1,0 +1,36 @@
+[#1364-number-of-trusted-contacts-of-a-customer]
+= 1364. Number of Trusted Contacts of a Customer
+
+https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer/[LeetCode - 1364. Number of Trusted Contacts of a Customer ^]
+
+
+
+== 思路分析
+
+
+[[src-1364]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1364_NumberOfTrustedContactsOfACustomer.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1364_NumberOfTrustedContactsOfACustomer_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

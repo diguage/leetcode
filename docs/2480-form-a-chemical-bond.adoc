@@ -1,0 +1,36 @@
+[#2480-form-a-chemical-bond]
+= 2480. Form a Chemical Bond
+
+https://leetcode.com/problems/form-a-chemical-bond/[LeetCode - 2480. Form a Chemical Bond ^]
+
+
+
+== 思路分析
+
+
+[[src-2480]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2480_FormAChemicalBond.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2480_FormAChemicalBond_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

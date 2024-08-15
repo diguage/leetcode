@@ -1,0 +1,36 @@
+[#2912-number-of-ways-to-reach-destination-in-the-grid]
+= 2912. Number of Ways to Reach Destination in the Grid
+
+https://leetcode.com/problems/number-of-ways-to-reach-destination-in-the-grid/[LeetCode - 2912. Number of Ways to Reach Destination in the Grid ^]
+
+
+
+== 思路分析
+
+
+[[src-2912]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2912_NumberOfWaysToReachDestinationInTheGrid.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2912_NumberOfWaysToReachDestinationInTheGrid_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

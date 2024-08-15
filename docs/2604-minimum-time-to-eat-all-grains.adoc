@@ -1,0 +1,36 @@
+[#2604-minimum-time-to-eat-all-grains]
+= 2604. Minimum Time to Eat All Grains
+
+https://leetcode.com/problems/minimum-time-to-eat-all-grains/[LeetCode - 2604. Minimum Time to Eat All Grains ^]
+
+
+
+== 思路分析
+
+
+[[src-2604]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2604_MinimumTimeToEatAllGrains.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2604_MinimumTimeToEatAllGrains_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

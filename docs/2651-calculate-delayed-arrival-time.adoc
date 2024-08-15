@@ -1,0 +1,69 @@
+[#2651-calculate-delayed-arrival-time]
+= 2651. Calculate Delayed Arrival Time
+
+https://leetcode.com/problems/calculate-delayed-arrival-time/[LeetCode - 2651. Calculate Delayed Arrival Time ^]
+
+You are given a positive integer `arrivalTime` denoting the arrival time of a train in hours, and another positive integer `delayedTime` denoting the amount of delay in hours.
+
+Return _the time when the train will arrive at the station._
+
+Note that the time in this problem is in 24-hours format.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* arrivalTime = 15, delayedTime = 5 
+*Output:* 20 
+*Explanation:* Arrival time of the train was 15:00 hours. It is delayed by 5 hours. Now it will reach at 15+5 = 20 (20:00 hours).
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* arrivalTime = 13, delayedTime = 11
+*Output:* 0
+*Explanation:* Arrival time of the train was 13:00 hours. It is delayed by 11 hours. Now it will reach at 13+11=24 (Which is denoted by 00:00 in 24 hours format so return 0).
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= arrivaltime < 24`
+* `1 <= delayedTime <= 24`
+
+
+
+
+== 思路分析
+
+
+[[src-2651]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2651_CalculateDelayedArrivalTime.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2651_CalculateDelayedArrivalTime_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

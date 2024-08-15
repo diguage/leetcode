@@ -1,0 +1,36 @@
+[#2308-arrange-table-by-gender]
+= 2308. Arrange Table by Gender
+
+https://leetcode.com/problems/arrange-table-by-gender/[LeetCode - 2308. Arrange Table by Gender ^]
+
+
+
+== 思路分析
+
+
+[[src-2308]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2308_ArrangeTableByGender.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2308_ArrangeTableByGender_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

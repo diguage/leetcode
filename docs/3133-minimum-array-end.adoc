@@ -1,0 +1,72 @@
+[#3133-minimum-array-end]
+= 3133. Minimum Array End
+
+https://leetcode.com/problems/minimum-array-end/[LeetCode - 3133. Minimum Array End ^]
+
+You are given two integers `n` and `x`. You have to construct an array of *positive* integers `nums` of size `n` where for every `0 <= i < n - 1`, `nums[i + 1]` is *greater than* `nums[i]`, and the result of the bitwise `AND` operation between all elements of `nums` is `x`.
+
+Return the *minimum* possible value of `nums[n - 1]`.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 3, x = 4
+
+*Output:* <span class="example-io">6
+
+*Explanation:*
+
+`nums` can be `[4,5,6]` and its last element is 6.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 2, x = 7
+
+*Output:* <span class="example-io">15
+
+*Explanation:*
+
+`nums` can be `[7,15]` and its last element is 15.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= n, x <= 10^8^`
+
+
+
+
+== 思路分析
+
+
+[[src-3133]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3133_MinimumArrayEnd.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3133_MinimumArrayEnd_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

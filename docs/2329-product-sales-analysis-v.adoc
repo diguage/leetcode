@@ -1,0 +1,36 @@
+[#2329-product-sales-analysis-v]
+= 2329. Product Sales Analysis V
+
+https://leetcode.com/problems/product-sales-analysis-v/[LeetCode - 2329. Product Sales Analysis V ^]
+
+
+
+== 思路分析
+
+
+[[src-2329]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2329_ProductSalesAnalysisV.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2329_ProductSalesAnalysisV_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

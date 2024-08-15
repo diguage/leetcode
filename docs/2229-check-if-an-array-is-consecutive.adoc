@@ -1,0 +1,36 @@
+[#2229-check-if-an-array-is-consecutive]
+= 2229. Check if an Array Is Consecutive
+
+https://leetcode.com/problems/check-if-an-array-is-consecutive/[LeetCode - 2229. Check if an Array Is Consecutive ^]
+
+
+
+== 思路分析
+
+
+[[src-2229]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2229_CheckIfAnArrayIsConsecutive.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2229_CheckIfAnArrayIsConsecutive_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

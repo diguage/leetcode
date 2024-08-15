@@ -1,0 +1,36 @@
+[#2445-number-of-nodes-with-value-one]
+= 2445. Number of Nodes With Value One
+
+https://leetcode.com/problems/number-of-nodes-with-value-one/[LeetCode - 2445. Number of Nodes With Value One ^]
+
+
+
+== 思路分析
+
+
+[[src-2445]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2445_NumberOfNodesWithValueOne.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2445_NumberOfNodesWithValueOne_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

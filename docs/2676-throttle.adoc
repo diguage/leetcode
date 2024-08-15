@@ -1,0 +1,36 @@
+[#2676-throttle]
+= 2676. Throttle
+
+https://leetcode.com/problems/throttle/[LeetCode - 2676. Throttle ^]
+
+
+
+== 思路分析
+
+
+[[src-2676]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2676_Throttle.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2676_Throttle_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

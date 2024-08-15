@@ -1,0 +1,85 @@
+[#3121-count-the-number-of-special-characters-ii]
+= 3121. Count the Number of Special Characters II
+
+https://leetcode.com/problems/count-the-number-of-special-characters-ii/[LeetCode - 3121. Count the Number of Special Characters II ^]
+
+You are given a string `word`. A letter `c` is called *special* if it appears *both* in lowercase and uppercase in `word`, and *every* lowercase occurrence of `c` appears before the *first* uppercase occurrence of `c`.
+
+Return the number of_ _*special* letters_ _in_ _`word`.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">word = "aaAbcBC"
+
+*Output:* <span class="example-io">3
+
+*Explanation:*
+
+The special characters are `'a'`, `'b'`, and `'c'`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">word = "abc"
+
+*Output:* <span class="example-io">0
+
+*Explanation:*
+
+There are no special characters in `word`.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">word = "AbBCab"
+
+*Output:* <span class="example-io">0
+
+*Explanation:*
+
+There are no special characters in `word`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= word.length <= 2 * 10^5^`
+* `word` consists of only lowercase and uppercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-3121]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3121_CountTheNumberOfSpecialCharactersIi.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3121_CountTheNumberOfSpecialCharactersIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

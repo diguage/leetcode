@@ -74,9 +74,32 @@ Similarly You cannot jump from index 3 to index 2 or index 1.
 
 
 
+== 思路分析
+
+
 [[src-1340]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1340_JumpGameV.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1340_JumpGameV_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
 

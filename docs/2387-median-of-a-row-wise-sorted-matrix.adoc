@@ -1,0 +1,36 @@
+[#2387-median-of-a-row-wise-sorted-matrix]
+= 2387. Median of a Row Wise Sorted Matrix
+
+https://leetcode.com/problems/median-of-a-row-wise-sorted-matrix/[LeetCode - 2387. Median of a Row Wise Sorted Matrix ^]
+
+
+
+== 思路分析
+
+
+[[src-2387]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2387_MedianOfARowWiseSortedMatrix.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2387_MedianOfARowWiseSortedMatrix_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

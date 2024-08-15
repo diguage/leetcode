@@ -1,0 +1,87 @@
+[#2250-count-number-of-rectangles-containing-each-point]
+= 2250. Count Number of Rectangles Containing Each Point
+
+https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/[LeetCode - 2250. Count Number of Rectangles Containing Each Point ^]
+
+You are given a 2D integer array `rectangles` where `rectangles[i] = [l<sub>i</sub>, h<sub>i</sub>]` indicates that `i^th^` rectangle has a length of `l<sub>i</sub>` and a height of `h<sub>i</sub>`. You are also given a 2D integer array `points` where `points[j] = [x<sub>j</sub>, y<sub>j</sub>]` is a point with coordinates `(x<sub>j</sub>, y<sub>j</sub>)`.
+
+The `i^th^` rectangle has its *bottom-left corner* point at the coordinates `(0, 0)` and its *top-right corner* point at `(l<sub>i</sub>, h<sub>i</sub>)`.
+
+Return_ an integer array _`count`_ of length _`points.length`_ where _`count[j]`_ is the number of rectangles that *contain* the _`j^th^`_ point._
+
+The `i^th^` rectangle *contains* the `j^th^` point if `0 <= x<sub>j</sub> <= l<sub>i</sub>` and `0 <= y<sub>j</sub> <= h<sub>i</sub>`. Note that points that lie on the *edges* of a rectangle are also considered to be contained by that rectangle.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2022/03/02/example1.png" style="width: 300px; height: 509px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* rectangles = [[1,2],[2,3],[2,5]], points = [[2,1],[1,4]]
+*Output:* [2,1]
+*Explanation:* 
+The first rectangle contains no points.
+The second rectangle contains only the point (2, 1).
+The third rectangle contains the points (2, 1) and (1, 4).
+The number of rectangles that contain the point (2, 1) is 2.
+The number of rectangles that contain the point (1, 4) is 1.
+Therefore, we return [2, 1].
+----
+
+<strong class="example">Example 2:*
+<img alt="" src="https://assets.leetcode.com/uploads/2022/03/02/example2.png" style="width: 300px; height: 312px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* rectangles = [[1,1],[2,2],[3,3]], points = [[1,3],[1,1]]
+*Output:* [1,3]
+*Explanation:
+*The first rectangle contains only the point (1, 1).
+The second rectangle contains only the point (1, 1).
+The third rectangle contains the points (1, 3) and (1, 1).
+The number of rectangles that contain the point (1, 3) is 1.
+The number of rectangles that contain the point (1, 1) is 3.
+Therefore, we return [1, 3].
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= rectangles.length, points.length <= 5 * 10^4^`
+* `rectangles[i].length == points[j].length == 2`
+* `1 <= l<sub>i</sub>, x<sub>j</sub> <= 10^9^`
+* `1 <= h<sub>i</sub>, y<sub>j</sub> <= 100`
+* All the `rectangles` are *unique*.
+* All the `points` are *unique*.
+
+
+
+
+== 思路分析
+
+
+[[src-2250]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2250_CountNumberOfRectanglesContainingEachPoint.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2250_CountNumberOfRectanglesContainingEachPoint_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#1565-unique-orders-and-customers-per-month]
+= 1565. Unique Orders and Customers Per Month
+
+https://leetcode.com/problems/unique-orders-and-customers-per-month/[LeetCode - 1565. Unique Orders and Customers Per Month ^]
+
+
+
+== 思路分析
+
+
+[[src-1565]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1565_UniqueOrdersAndCustomersPerMonth.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1565_UniqueOrdersAndCustomersPerMonth_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#1892-page-recommendations-ii]
+= 1892. Page Recommendations II
+
+https://leetcode.com/problems/page-recommendations-ii/[LeetCode - 1892. Page Recommendations II ^]
+
+
+
+== 思路分析
+
+
+[[src-1892]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1892_PageRecommendationsIi.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1892_PageRecommendationsIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

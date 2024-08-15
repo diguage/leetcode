@@ -1,0 +1,67 @@
+[#3084-count-substrings-starting-and-ending-with-given-character]
+= 3084. Count Substrings Starting and Ending with Given Character
+
+https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/[LeetCode - 3084. Count Substrings Starting and Ending with Given Character ^]
+
+You are given a string `s` and a character `c`. Return _the total number of <span data-keyword="substring-nonempty">substrings of _`s`_ that start and end with _`c`_._
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
+*Input: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">s = "abada", c = "a"
+
+*Output: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">6
+
+*Explanation:* Substrings starting and ending with `"a"` are: `"*[.underline]#a#*bada"`, `"[.underline]#*aba*#da"`, `"[.underline]#*abada*#"`, `"ab[.underline]#*a*#da"`, `"ab[.underline]#*ada*#"`, `"abad[.underline]#*a*#"`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
+*Input: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">s = "zzz", c = "z"
+
+*Output: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">6
+
+*Explanation:* There are a total of `6` substrings in `s` and all start and end with `"z"`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 10^5^`
+* `s` and `c` consist only of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-3084]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3084_CountSubstringsStartingAndEndingWithGivenCharacter.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3084_CountSubstringsStartingAndEndingWithGivenCharacter_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

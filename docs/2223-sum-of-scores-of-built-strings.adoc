@@ -1,0 +1,85 @@
+[#2223-sum-of-scores-of-built-strings]
+= 2223. Sum of Scores of Built Strings
+
+https://leetcode.com/problems/sum-of-scores-of-built-strings/[LeetCode - 2223. Sum of Scores of Built Strings ^]
+
+You are *building* a string `s` of length `n` *one* character at a time, *prepending* each new character to the *front* of the string. The strings are labeled from `1` to `n`, where the string with length `i` is labeled `s<sub>i</sub>`.
+
+
+* For example, for `s = "abaca"`, `s<sub>1</sub> == "a"`, `s<sub>2</sub> == "ca"`, `s<sub>3</sub> == "aca"`, etc.
+
+
+The *score* of `s<sub>i</sub>` is the length of the *longest common prefix* between `s<sub>i</sub>` and `s<sub>n</sub>` (Note that `s == s<sub>n</sub>`).
+
+Given the final string `s`, return_ the *sum* of the *score* of every _`s<sub>i</sub>`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "babab"
+*Output:* 9
+*Explanation:*
+For s<sub>1</sub> == "b", the longest common prefix is "b" which has a score of 1.
+For s<sub>2</sub> == "ab", there is no common prefix so the score is 0.
+For s<sub>3</sub> == "bab", the longest common prefix is "bab" which has a score of 3.
+For s<sub>4</sub> == "abab", there is no common prefix so the score is 0.
+For s<sub>5</sub> == "babab", the longest common prefix is "babab" which has a score of 5.
+The sum of the scores is 1 + 0 + 3 + 0 + 5 = 9, so we return 9.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "azbazbzaz"
+*Output:* 14
+*Explanation:* 
+For s<sub>2</sub> == "az", the longest common prefix is "az" which has a score of 2.
+For s<sub>6</sub> == "azbzaz", the longest common prefix is "azb" which has a score of 3.
+For s<sub>9</sub> == "azbazbzaz", the longest common prefix is "azbazbzaz" which has a score of 9.
+For all other s<sub>i</sub>, the score is 0.
+The sum of the scores is 2 + 3 + 9 = 14, so we return 14.
+
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 10^5^`
+* `s` consists of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-2223]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2223_SumOfScoresOfBuiltStrings.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2223_SumOfScoresOfBuiltStrings_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

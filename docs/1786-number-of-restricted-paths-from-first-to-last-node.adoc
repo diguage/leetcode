@@ -1,0 +1,80 @@
+[#1786-number-of-restricted-paths-from-first-to-last-node]
+= 1786. Number of Restricted Paths From First to Last Node
+
+https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/[LeetCode - 1786. Number of Restricted Paths From First to Last Node ^]
+
+There is an undirected weighted connected graph. You are given a positive integer `n` which denotes that the graph has `n` nodes labeled from `1` to `n`, and an array `edges` where each `edges[i] = [u<sub>i</sub>, v<sub>i</sub>, weight<sub>i</sub>]` denotes that there is an edge between nodes `u<sub>i</sub>` and `v<sub>i</sub>` with weight equal to `weight<sub>i</sub>`.
+
+A path from node `start` to node `end` is a sequence of nodes `[z<sub>0</sub>, z<sub>1</sub>,<sub> </sub>z<sub>2</sub>, ..., z<sub>k</sub>]` such that `z<sub>0 </sub>= start` and `z<sub>k</sub> = end` and there is an edge between `z<sub>i</sub>` and `z<sub>i+1</sub>` where `0 <= i <= k-1`.
+
+The distance of a path is the sum of the weights on the edges of the path. Let `distanceToLastNode(x)` denote the shortest distance of a path between node `n` and node `x`. A *restricted path* is a path that also satisfies that `distanceToLastNode(z<sub>i</sub>) > distanceToLastNode(z<sub>i+1</sub>)` where `0 <= i <= k-1`.
+
+Return _the number of restricted paths from node_ `1` _to node_ `n`. Since that number may be too large, return it *modulo* `10^9^ + 7`.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2021/02/17/restricted_paths_ex1.png" style="width: 351px; height: 341px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* n = 5, edges = [[1,2,3],[1,3,3],[2,3,1],[1,4,2],[5,2,2],[3,5,1],[5,4,10]]
+*Output:* 3
+*Explanation:* Each circle contains the node number in black and its `distanceToLastNode value in blue. `The three restricted paths are:
+1) 1 --> 2 --> 5
+2) 1 --> 2 --> 3 --> 5
+3) 1 --> 3 --> 5
+----
+
+<strong class="example">Example 2:*
+<img alt="" src="https://assets.leetcode.com/uploads/2021/02/17/restricted_paths_ex22.png" style="width: 356px; height: 401px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* n = 7, edges = [[1,3,1],[4,1,2],[7,3,4],[2,5,3],[5,6,1],[6,7,2],[7,5,3],[2,6,4]]
+*Output:* 1
+*Explanation:* Each circle contains the node number in black and its `distanceToLastNode value in blue. `The only restricted path is 1 --> 3 --> 7.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 2 * 10^4^`
+* `n - 1 <= edges.length <= 4 * 10^4^`
+* `edges[i].length == 3`
+* `1 <= u<sub>i</sub>, v<sub>i</sub> <= n`
+* `u<sub>i </sub>!= v<sub>i</sub>`
+* `1 <= weight<sub>i</sub> <= 10^5^`
+* There is at most one edge between any two nodes.
+* There is at least one path between any two nodes.
+
+
+
+
+== 思路分析
+
+
+[[src-1786]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1786_NumberOfRestrictedPathsFromFirstToLastNode.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1786_NumberOfRestrictedPathsFromFirstToLastNode_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,70 @@
+[#1528-shuffle-string]
+= 1528. Shuffle String
+
+https://leetcode.com/problems/shuffle-string/[LeetCode - 1528. Shuffle String ^]
+
+You are given a string `s` and an integer array `indices` of the *same length*. The string `s` will be shuffled such that the character at the `i^th^` position moves to `indices[i]` in the shuffled string.
+
+Return _the shuffled string_.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2020/07/09/q1.jpg" style="width: 321px; height: 243px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* s = "codeleet", `indices` = [4,5,6,7,0,2,1,3]
+*Output:* "leetcode"
+*Explanation:* As shown, "codeleet" becomes "leetcode" after shuffling.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "abc", `indices` = [0,1,2]
+*Output:* "abc"
+*Explanation:* After shuffling, each character remains in its position.
+----
+
+ 
+*Constraints:*
+
+
+* `s.length == indices.length == n`
+* `1 <= n <= 100`
+* `s` consists of only lowercase English letters.
+* `0 <= indices[i] < n`
+* All values of `indices` are *unique*.
+
+
+
+
+== 思路分析
+
+
+[[src-1528]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1528_ShuffleString.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1528_ShuffleString_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

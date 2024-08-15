@@ -1,0 +1,95 @@
+[#3239-minimum-number-of-flips-to-make-binary-grid-palindromic-i]
+= 3239. Minimum Number of Flips to Make Binary Grid Palindromic I
+
+https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i/[LeetCode - 3239. Minimum Number of Flips to Make Binary Grid Palindromic I ^]
+
+You are given an `m x n` binary matrix `grid`.
+
+A row or column is considered *palindromic* if its values read the same forward and backward.
+
+You can *flip* any number of cells in `grid` from `0` to `1`, or from `1` to `0`.
+
+Return the *minimum* number of cells that need to be flipped to make *either* all rows *palindromic* or all columns *palindromic*.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">grid = [[1,0,0],[0,0,0],[0,0,1]]
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/07/07/screenshot-from-2024-07-08-00-20-10.png" style="width: 420px; height: 108px;" />
+
+Flipping the highlighted cells makes all the rows palindromic.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">grid = [[0,1],[0,1],[0,0]]
+
+*Output:* <span class="example-io">1
+
+*Explanation:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/07/07/screenshot-from-2024-07-08-00-31-23.png" style="width: 300px; height: 100px;" />
+
+Flipping the highlighted cell makes all the columns palindromic.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">grid = [[1],[0]]
+
+*Output:* <span class="example-io">0
+
+*Explanation:*
+
+All rows are already palindromic.
+
+
+ 
+*Constraints:*
+
+
+* `m == grid.length`
+* `n == grid[i].length`
+* `1 <= m * n <= 2 * 10^5^`
+* `0 <= grid[i][j] <= 1`
+
+
+
+
+== 思路分析
+
+
+[[src-3239]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3239_MinimumNumberOfFlipsToMakeBinaryGridPalindromicI.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3239_MinimumNumberOfFlipsToMakeBinaryGridPalindromicI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#1474-delete-n-nodes-after-m-nodes-of-a-linked-list]
+= 1474. Delete N Nodes After M Nodes of a Linked List
+
+https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/[LeetCode - 1474. Delete N Nodes After M Nodes of a Linked List ^]
+
+
+
+== 思路分析
+
+
+[[src-1474]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1474_DeleteNNodesAfterMNodesOfALinkedList.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1474_DeleteNNodesAfterMNodesOfALinkedList_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

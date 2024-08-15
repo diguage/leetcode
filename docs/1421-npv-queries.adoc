@@ -1,0 +1,36 @@
+[#1421-npv-queries]
+= 1421. NPV Queries
+
+https://leetcode.com/problems/npv-queries/[LeetCode - 1421. NPV Queries ^]
+
+
+
+== 思路分析
+
+
+[[src-1421]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1421_NpvQueries.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1421_NpvQueries_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

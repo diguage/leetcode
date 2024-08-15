@@ -1,0 +1,78 @@
+[#2108-find-first-palindromic-string-in-the-array]
+= 2108. Find First Palindromic String in the Array
+
+https://leetcode.com/problems/find-first-palindromic-string-in-the-array/[LeetCode - 2108. Find First Palindromic String in the Array ^]
+
+Given an array of strings `words`, return _the first *palindromic* string in the array_. If there is no such string, return _an *empty string* _`""`.
+
+A string is *palindromic* if it reads the same forward and backward.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* words = ["abc","car","ada","racecar","cool"]
+*Output:* "ada"
+*Explanation:* The first string that is palindromic is "ada".
+Note that "racecar" is also palindromic, but it is not the first.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* words = ["notapalindrome","racecar"]
+*Output:* "racecar"
+*Explanation:* The first and only string that is palindromic is "racecar".
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* words = ["def","ghi"]
+*Output:* ""
+*Explanation:* There are no palindromic strings, so the empty string is returned.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= words.length <= 100`
+* `1 <= words[i].length <= 100`
+* `words[i]` consists only of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-2108]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2108_FindFirstPalindromicStringInTheArray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2108_FindFirstPalindromicStringInTheArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#1767-find-the-subtasks-that-did-not-execute]
+= 1767. Find the Subtasks That Did Not Execute
+
+https://leetcode.com/problems/find-the-subtasks-that-did-not-execute/[LeetCode - 1767. Find the Subtasks That Did Not Execute ^]
+
+
+
+== 思路分析
+
+
+[[src-1767]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1767_FindTheSubtasksThatDidNotExecute.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1767_FindTheSubtasksThatDidNotExecute_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

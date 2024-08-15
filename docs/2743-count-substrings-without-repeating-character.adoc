@@ -1,0 +1,36 @@
+[#2743-count-substrings-without-repeating-character]
+= 2743. Count Substrings Without Repeating Character
+
+https://leetcode.com/problems/count-substrings-without-repeating-character/[LeetCode - 2743. Count Substrings Without Repeating Character ^]
+
+
+
+== 思路分析
+
+
+[[src-2743]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2743_CountSubstringsWithoutRepeatingCharacter.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2743_CountSubstringsWithoutRepeatingCharacter_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

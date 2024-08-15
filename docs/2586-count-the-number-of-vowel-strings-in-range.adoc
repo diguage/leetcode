@@ -1,0 +1,80 @@
+[#2586-count-the-number-of-vowel-strings-in-range]
+= 2586. Count the Number of Vowel Strings in Range
+
+https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/[LeetCode - 2586. Count the Number of Vowel Strings in Range ^]
+
+You are given a *0-indexed* array of string `words` and two integers `left` and `right`.
+
+A string is called a *vowel string* if it starts with a vowel character and ends with a vowel character where vowel characters are `'a'`, `'e'`, `'i'`, `'o'`, and `'u'`.
+
+Return _the number of vowel strings _`words[i]`_ where _`i`_ belongs to the inclusive range _`[left, right]`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* words = ["are","amy","u"], left = 0, right = 2
+*Output:* 2
+*Explanation:* 
+- "are" is a vowel string because it starts with 'a' and ends with 'e'.
+- "amy" is not a vowel string because it does not end with a vowel.
+- "u" is a vowel string because it starts with 'u' and ends with 'u'.
+The number of vowel strings in the mentioned range is 2.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* words = ["hey","aeo","mu","ooo","artro"], left = 1, right = 4
+*Output:* 3
+*Explanation:* 
+- "aeo" is a vowel string because it starts with 'a' and ends with 'o'.
+- "mu" is not a vowel string because it does not start with a vowel.
+- "ooo" is a vowel string because it starts with 'o' and ends with 'o'.
+- "artro" is a vowel string because it starts with 'a' and ends with 'o'.
+The number of vowel strings in the mentioned range is 3.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= words.length <= 1000`
+* `1 <= words[i].length <= 10`
+* `words[i]` consists of only lowercase English letters.
+* `0 <= left <= right < words.length`
+
+
+
+
+== 思路分析
+
+
+[[src-2586]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2586_CountTheNumberOfVowelStringsInRange.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2586_CountTheNumberOfVowelStringsInRange_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

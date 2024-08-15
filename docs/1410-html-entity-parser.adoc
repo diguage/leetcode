@@ -1,0 +1,79 @@
+[#1410-html-entity-parser]
+= 1410. HTML Entity Parser
+
+https://leetcode.com/problems/html-entity-parser/[LeetCode - 1410. HTML Entity Parser ^]
+
+*HTML entity parser* is the parser that takes HTML code as input and replace all the entities of the special characters by the characters itself.
+
+The special characters and their entities for HTML are:
+
+
+* *Quotation Mark:* the entity is `&amp;quot;` and symbol character is `"`.
+* *Single Quote Mark:* the entity is `&amp;apos;` and symbol character is `'`.
+* *Ampersand:* the entity is `&amp;amp;` and symbol character is `&amp;`.
+* *Greater Than Sign:* the entity is `&amp;gt;` and symbol character is `>`.
+* *Less Than Sign:* the entity is `&amp;lt;` and symbol character is `<`.
+* *Slash:* the entity is `&amp;frasl;` and symbol character is `/`.
+
+
+Given the input `text` string to the HTML parser, you have to implement the entity parser.
+
+Return _the text after replacing the entities by the special characters_.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* text = "&amp;amp; is an HTML entity but &amp;ambassador; is not."
+*Output:* "&amp; is an HTML entity but &amp;ambassador; is not."
+*Explanation:* The parser will replace the &amp;amp; entity by &amp;
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* text = "and I quote: &amp;quot;...&amp;quot;"
+*Output:* "and I quote: \"...\""
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= text.length <= 10^5^`
+* The string may contain any possible characters out of all the 256 ASCII characters.
+
+
+
+
+== 思路分析
+
+
+[[src-1410]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1410_HtmlEntityParser.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1410_HtmlEntityParser_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

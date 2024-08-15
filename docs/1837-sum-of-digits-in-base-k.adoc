@@ -1,0 +1,67 @@
+[#1837-sum-of-digits-in-base-k]
+= 1837. Sum of Digits in Base K
+
+https://leetcode.com/problems/sum-of-digits-in-base-k/[LeetCode - 1837. Sum of Digits in Base K ^]
+
+Given an integer `n` (in base `10`) and a base `k`, return _the *sum* of the digits of _`n`_ *after* converting _`n`_ from base _`10`_ to base _`k`.
+
+After converting, each digit should be interpreted as a base `10` number, and the sum should be returned in base `10`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 34, k = 6
+*Output:* 9
+*Explanation: *34 (base 10) expressed in base 6 is 54. 5 + 4 = 9.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 10, k = 10
+*Output:* 1
+*Explanation: *n is already in base 10. 1 + 0 = 1.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 100`
+* `2 <= k <= 10`
+
+
+
+
+== 思路分析
+
+
+[[src-1837]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1837_SumOfDigitsInBaseK.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1837_SumOfDigitsInBaseK_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

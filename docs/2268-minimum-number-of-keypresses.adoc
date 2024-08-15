@@ -1,0 +1,36 @@
+[#2268-minimum-number-of-keypresses]
+= 2268. Minimum Number of Keypresses
+
+https://leetcode.com/problems/minimum-number-of-keypresses/[LeetCode - 2268. Minimum Number of Keypresses ^]
+
+
+
+== 思路分析
+
+
+[[src-2268]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2268_MinimumNumberOfKeypresses.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2268_MinimumNumberOfKeypresses_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

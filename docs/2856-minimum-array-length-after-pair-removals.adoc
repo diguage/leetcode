@@ -1,0 +1,105 @@
+[#2856-minimum-array-length-after-pair-removals]
+= 2856. Minimum Array Length After Pair Removals
+
+https://leetcode.com/problems/minimum-array-length-after-pair-removals/[LeetCode - 2856. Minimum Array Length After Pair Removals ^]
+
+Given an integer array `num` sorted in non-decreasing order.
+
+You can perform the following operation any number of times:
+
+
+* Choose *two* indices, `i` and `j`, where `nums[i] < nums[j]`.
+* Then, remove the elements at indices `i` and `j` from `nums`. The remaining elements retain their original order, and the array is re-indexed.
+
+
+Return the *minimum* length of `nums` after applying the operation zero or more times.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,2,3,4]
+
+*Output:* <span class="example-io">0
+
+*Explanation:*
+
+<img src="https://assets.leetcode.com/uploads/2024/05/18/tcase1.gif" style="width: 160px; height: 70px;" />
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,1,2,2,3,3]
+
+*Output:* <span class="example-io">0
+
+*Explanation:*
+
+<img src="https://assets.leetcode.com/uploads/2024/05/19/tcase2.gif" style="width: 240px; height: 70px;" />
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1000000000,1000000000]
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+Since both numbers are equal, they cannot be removed.
+
+
+<strong class="example">Example 4:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [2,3,4,4,4]
+
+*Output:* <span class="example-io">1
+
+*Explanation:*
+
+<img src="https://assets.leetcode.com/uploads/2024/05/19/tcase3.gif" style="width: 210px; height: 70px;" />
+
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 10^5^`
+* `1 <= nums[i] <= 10^9^`
+* `nums` is sorted in *non-decreasing* order.
+
+
+
+
+== 思路分析
+
+
+[[src-2856]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2856_MinimumArrayLengthAfterPairRemovals.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2856_MinimumArrayLengthAfterPairRemovals_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

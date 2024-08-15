@@ -1,0 +1,36 @@
+[#1516-move-sub-tree-of-n-ary-tree]
+= 1516. Move Sub-Tree of N-Ary Tree
+
+https://leetcode.com/problems/move-sub-tree-of-n-ary-tree/[LeetCode - 1516. Move Sub-Tree of N-Ary Tree ^]
+
+
+
+== 思路分析
+
+
+[[src-1516]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1516_MoveSubTreeOfNAryTree.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1516_MoveSubTreeOfNAryTree_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

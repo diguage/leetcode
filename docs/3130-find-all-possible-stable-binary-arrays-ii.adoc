@@ -1,0 +1,94 @@
+[#3130-find-all-possible-stable-binary-arrays-ii]
+= 3130. Find All Possible Stable Binary Arrays II
+
+https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/[LeetCode - 3130. Find All Possible Stable Binary Arrays II ^]
+
+You are given 3 positive integers `zero`, `one`, and `limit`.
+
+A <span data-keyword="binary-array">binary array `arr` is called *stable* if:
+
+
+* The number of occurrences of 0 in `arr` is *exactly *`zero`.
+* The number of occurrences of 1 in `arr` is *exactly* `one`.
+* Each <span data-keyword="subarray-nonempty">subarray of `arr` with a size greater than `limit` must contain *both *0 and 1.
+
+
+Return the _total_ number of *stable* binary arrays.
+
+Since the answer may be very large, return it *modulo* `10^9^ + 7`.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">zero = 1, one = 1, limit = 2
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+The two possible stable binary arrays are `[1,0]` and `[0,1]`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">zero = 1, one = 2, limit = 1
+
+*Output:* <span class="example-io">1
+
+*Explanation:*
+
+The only possible stable binary array is `[1,0,1]`.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">zero = 3, one = 3, limit = 2
+
+*Output:* <span class="example-io">14
+
+*Explanation:*
+
+All the possible stable binary arrays are `[0,0,1,0,1,1]`, `[0,0,1,1,0,1]`, `[0,1,0,0,1,1]`, `[0,1,0,1,0,1]`, `[0,1,0,1,1,0]`, `[0,1,1,0,0,1]`, `[0,1,1,0,1,0]`, `[1,0,0,1,0,1]`, `[1,0,0,1,1,0]`, `[1,0,1,0,0,1]`, `[1,0,1,0,1,0]`, `[1,0,1,1,0,0]`, `[1,1,0,0,1,0]`, and `[1,1,0,1,0,0]`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= zero, one, limit <= 1000`
+
+
+
+
+== 思路分析
+
+
+[[src-3130]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3130_FindAllPossibleStableBinaryArraysIi.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3130_FindAllPossibleStableBinaryArraysIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

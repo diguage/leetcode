@@ -1,0 +1,36 @@
+[#2015-average-height-of-buildings-in-each-segment]
+= 2015. Average Height of Buildings in Each Segment
+
+https://leetcode.com/problems/average-height-of-buildings-in-each-segment/[LeetCode - 2015. Average Height of Buildings in Each Segment ^]
+
+
+
+== 思路分析
+
+
+[[src-2015]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2015_AverageHeightOfBuildingsInEachSegment.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2015_AverageHeightOfBuildingsInEachSegment_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

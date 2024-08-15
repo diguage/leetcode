@@ -1,0 +1,75 @@
+[#3101-count-alternating-subarrays]
+= 3101. Count Alternating Subarrays
+
+https://leetcode.com/problems/count-alternating-subarrays/[LeetCode - 3101. Count Alternating Subarrays ^]
+
+You are given a <span data-keyword="binary-array">binary array `nums`.
+
+We call a <span data-keyword="subarray-nonempty">subarray *alternating* if *no* two *adjacent* elements in the subarray have the *same* value.
+
+Return _the number of alternating subarrays in _`nums`.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [0,1,1,1]
+
+*Output:* <span class="example-io">5
+
+*Explanation:*
+
+The following subarrays are alternating: `[0]`, `[1]`, `[1]`, `[1]`, and `[0,1]`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,0,1,0]
+
+*Output:* <span class="example-io">10
+
+*Explanation:*
+
+Every subarray of the array is alternating. There are 10 possible subarrays that we can choose.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 10^5^`
+* `nums[i]` is either `0` or `1`.
+
+
+
+
+== 思路分析
+
+
+[[src-3101]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3101_CountAlternatingSubarrays.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3101_CountAlternatingSubarrays_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

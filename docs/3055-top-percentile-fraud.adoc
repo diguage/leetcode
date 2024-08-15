@@ -1,0 +1,36 @@
+[#3055-top-percentile-fraud]
+= 3055. Top Percentile Fraud
+
+https://leetcode.com/problems/top-percentile-fraud/[LeetCode - 3055. Top Percentile Fraud ^]
+
+
+
+== 思路分析
+
+
+[[src-3055]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3055_TopPercentileFraud.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3055_TopPercentileFraud_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

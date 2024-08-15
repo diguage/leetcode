@@ -1,0 +1,36 @@
+[#2892-minimizing-array-after-replacing-pairs-with-their-product]
+= 2892. Minimizing Array After Replacing Pairs With Their Product
+
+https://leetcode.com/problems/minimizing-array-after-replacing-pairs-with-their-product/[LeetCode - 2892. Minimizing Array After Replacing Pairs With Their Product ^]
+
+
+
+== 思路分析
+
+
+[[src-2892]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2892_MinimizingArrayAfterReplacingPairsWithTheirProduct.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2892_MinimizingArrayAfterReplacingPairsWithTheirProduct_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

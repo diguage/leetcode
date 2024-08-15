@@ -1,0 +1,66 @@
+[#1411-number-of-ways-to-paint-n-3-grid]
+= 1411. Number of Ways to Paint N × 3 Grid
+
+https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/[LeetCode - 1411. Number of Ways to Paint N × 3 Grid ^]
+
+You have a `grid` of size `n x 3` and you want to paint each cell of the grid with exactly one of the three colors: *Red*, *Yellow,* or *Green* while making sure that no two adjacent cells have the same color (i.e., no two cells that share vertical or horizontal sides have the same color).
+
+Given `n` the number of rows of the grid, return _the number of ways_ you can paint this `grid`. As the answer may grow large, the answer *must be* computed modulo `10^9^ + 7`.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2020/03/26/e1.png" style="width: 400px; height: 257px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* n = 1
+*Output:* 12
+*Explanation:* There are 12 possible way to paint the grid as shown.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 5000
+*Output:* 30228214
+----
+
+ 
+*Constraints:*
+
+
+* `n == grid.length`
+* `1 <= n <= 5000`
+
+
+
+
+== 思路分析
+
+
+[[src-1411]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1411_NumberOfWaysToPaintN3Grid.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1411_NumberOfWaysToPaintN3Grid_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

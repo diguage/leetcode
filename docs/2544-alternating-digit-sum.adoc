@@ -1,0 +1,89 @@
+[#2544-alternating-digit-sum]
+= 2544. Alternating Digit Sum
+
+https://leetcode.com/problems/alternating-digit-sum/[LeetCode - 2544. Alternating Digit Sum ^]
+
+You are given a positive integer `n`. Each digit of `n` has a sign according to the following rules:
+
+
+* The *most significant digit* is assigned a *positive* sign.
+* Each other digit has an opposite sign to its adjacent digits.
+
+
+Return _the sum of all digits with their corresponding sign_.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 521
+*Output:* 4
+*Explanation:* (+5) + (-2) + (+1) = 4.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 111
+*Output:* 1
+*Explanation:* (+1) + (-1) + (+1) = 1.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 886996
+*Output:* 0
+*Explanation:* (+8) + (-8) + (+6) + (-9) + (+9) + (-6) = 0.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 10^9^`
+
+
+ 
+<style type="text/css">.spoilerbutton {display:block; border:dashed; padding: 0px 0px; margin:10px 0px; font-size:150%; font-weight: bold; color:#000000; background-color:cyan; outline:0; 
+}
+.spoiler {overflow:hidden;}
+.spoiler > div {-webkit-transition: all 0s ease;-moz-transition: margin 0s ease;-o-transition: all 0s ease;transition: margin 0s ease;}
+.spoilerbutton[value="Show Message"] + .spoiler > div {margin-top:-500%;}
+.spoilerbutton[value="Hide Message"] + .spoiler {padding:5px;}
+</style>
+
+
+
+== 思路分析
+
+
+[[src-2544]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2544_AlternatingDigitSum.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2544_AlternatingDigitSum_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

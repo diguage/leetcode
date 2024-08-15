@@ -1,0 +1,36 @@
+[#1495-friendly-movies-streamed-last-month]
+= 1495. Friendly Movies Streamed Last Month
+
+https://leetcode.com/problems/friendly-movies-streamed-last-month/[LeetCode - 1495. Friendly Movies Streamed Last Month ^]
+
+
+
+== 思路分析
+
+
+[[src-1495]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1495_FriendlyMoviesStreamedLastMonth.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1495_FriendlyMoviesStreamedLastMonth_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

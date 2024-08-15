@@ -1,0 +1,85 @@
+[#1998-gcd-sort-of-an-array]
+= 1998. GCD Sort of an Array
+
+https://leetcode.com/problems/gcd-sort-of-an-array/[LeetCode - 1998. GCD Sort of an Array ^]
+
+You are given an integer array `nums`, and you can perform the following operation *any* number of times on `nums`:
+
+
+* Swap the positions of two elements `nums[i]` and `nums[j]` if `gcd(nums[i], nums[j]) > 1` where `gcd(nums[i], nums[j])` is the *greatest common divisor* of `nums[i]` and `nums[j]`.
+
+
+Return `true` _if it is possible to sort _`nums`_ in *non-decreasing* order using the above swap method, or _`false`_ otherwise._
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [7,21,3]
+*Output:* true
+*Explanation:* We can sort [7,21,3] by performing the following operations:
+- Swap 7 and 21 because gcd(7,21) = 7. nums = [[.underline]#*21*#,[.underline]#*7*#,3]
+- Swap 21 and 3 because gcd(21,3) = 3. nums = [[.underline]#*3*#,7,[.underline]#*21*#]
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [5,2,6,2]
+*Output:* false
+*Explanation:* It is impossible to sort the array because 5 cannot be swapped with any other element.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [10,5,9,3,15]
+*Output:* true
+We can sort [10,5,9,3,15] by performing the following operations:
+- Swap 10 and 15 because gcd(10,15) = 5. nums = [[.underline]#*15*#,5,9,3,[.underline]#*10*#]
+- Swap 15 and 3 because gcd(15,3) = 3. nums = [[.underline]#*3*#,5,9,[.underline]#*15*#,10]
+- Swap 10 and 15 because gcd(10,15) = 5. nums = [3,5,9,[.underline]#*10*#,[.underline]#*15*#]
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 3 * 10^4^`
+* `2 <= nums[i] <= 10^5^`
+
+
+
+
+== 思路分析
+
+
+[[src-1998]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1998_GcdSortOfAnArray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1998_GcdSortOfAnArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

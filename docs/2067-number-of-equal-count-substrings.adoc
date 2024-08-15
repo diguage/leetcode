@@ -1,0 +1,36 @@
+[#2067-number-of-equal-count-substrings]
+= 2067. Number of Equal Count Substrings
+
+https://leetcode.com/problems/number-of-equal-count-substrings/[LeetCode - 2067. Number of Equal Count Substrings ^]
+
+
+
+== 思路分析
+
+
+[[src-2067]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2067_NumberOfEqualCountSubstrings.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2067_NumberOfEqualCountSubstrings_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

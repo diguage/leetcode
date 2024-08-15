@@ -1,0 +1,120 @@
+[#3145-find-products-of-elements-of-big-array]
+= 3145. Find Products of Elements of Big Array
+
+https://leetcode.com/problems/find-products-of-elements-of-big-array/[LeetCode - 3145. Find Products of Elements of Big Array ^]
+
+The *powerful array* of a non-negative integer `x` is defined as the shortest sorted array of powers of two that sum up to `x`. The table below illustrates examples of how the *powerful array* is determined. It can be proven that the powerful array of `x` is unique.
+
+<table border="1">
+	<tbody>
+		<tr>
+			<th>num</th>
+			<th>Binary Representation</th>
+			<th>powerful array</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>0000[.underline]#1#</td>
+			<td>[1]</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>0[.underline]#1#000</td>
+			<td>[8]</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>0[.underline]#1#0[.underline]#1#0</td>
+			<td>[2, 8]</td>
+		</tr>
+		<tr>
+			<td>13</td>
+			<td>0[.underline]#11#0[.underline]#1#</td>
+			<td>[1, 4, 8]</td>
+		</tr>
+		<tr>
+			<td>23</td>
+			<td>[.underline]#1#0[.underline]#111#</td>
+			<td>[1, 2, 4, 16]</td>
+		</tr>
+	</tbody>
+</table>
+
+The array `big_nums` is created by concatenating the *powerful arrays* for every positive integer `i` in ascending order: 1, 2, 3, and so on. Thus, `big_nums` begins as `[[.underline]#1#, [.underline]#2#, [.underline]#1, 2#, [.underline]#4#, [.underline]#1, 4#, [.underline]#2, 4#, [.underline]#1, 2, 4#, [.underline]#8#, ...]`.
+
+You are given a 2D integer matrix `queries`, where for `queries[i] = [from<sub>i</sub>, to<sub>i</sub>, mod<sub>i</sub>]` you should calculate `(big_nums[from<sub>i</sub>] * big_nums[from<sub>i</sub> + 1] * ... * big_nums[to<sub>i</sub>]) % mod<sub>i</sub>`<!-- notionvc: a71131cc-7b52-4786-9a4b-660d6d864f89 -->.
+
+Return an integer array `answer` such that `answer[i]` is the answer to the `i^th^` query.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">queries = [[1,3,7]]
+
+*Output:* <span class="example-io">[4]
+
+*Explanation:*
+
+There is one query.
+
+`big_nums[1..3] = [2,1,2]`. The product of them is 4. The result is `4 % 7 = 4.`
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">queries = [[2,5,3],[7,7,4]]
+
+*Output:* <span class="example-io">[2,2]
+
+*Explanation:*
+
+There are two queries.
+
+First query: `big_nums[2..5] = [1,2,4,1]`. The product of them is 8. The result is `8 % 3 = 2`.
+
+Second query: `big_nums[7] = 2`. The result is `2 % 4 = 2`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= queries.length <= 500`
+* `queries[i].length == 3`
+* `0 <= queries[i][0] <= queries[i][1] <= 10^15^`
+* `1 <= queries[i][2] <= 10^5^`
+
+
+
+
+== 思路分析
+
+
+[[src-3145]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3145_FindProductsOfElementsOfBigArray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3145_FindProductsOfElementsOfBigArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

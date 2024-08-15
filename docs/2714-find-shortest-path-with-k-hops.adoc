@@ -1,0 +1,36 @@
+[#2714-find-shortest-path-with-k-hops]
+= 2714. Find Shortest Path with K Hops
+
+https://leetcode.com/problems/find-shortest-path-with-k-hops/[LeetCode - 2714. Find Shortest Path with K Hops ^]
+
+
+
+== 思路分析
+
+
+[[src-2714]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2714_FindShortestPathWithKHops.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2714_FindShortestPathWithKHops_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

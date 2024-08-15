@@ -1,0 +1,80 @@
+[#2705-compact-object]
+= 2705. Compact Object
+
+https://leetcode.com/problems/compact-object/[LeetCode - 2705. Compact Object ^]
+
+Given an object or array `obj`, return a *compact object*.
+
+A *compact object* is the same as the original object, except with keys containing *falsy* values removed. This operation applies to the object and any nested objects. Arrays are considered objects where the indices are keys. A value is considered *falsy* when `Boolean(value)` returns `false`.
+
+You may assume the `obj` is the output of `JSON.parse`. In other words, it is valid JSON.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* obj = [null, 0, false, 1]
+*Output:* [1]
+*Explanation:* All falsy values have been removed from the array.
+
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* obj = {"a": null, "b": [false, 1]}
+*Output:* {"b": [1]}
+*Explanation:* obj["a"] and obj["b"][0] had falsy values and were removed.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* obj = [null, 0, 5, [0], [false, 16]]
+*Output:* [5, [], [16]]
+*Explanation:* obj[0], obj[1], obj[3][0], and obj[4][0] were falsy and removed.
+
+----
+
+ 
+*Constraints:*
+
+
+* `obj` is a valid JSON object
+* `2 <= JSON.stringify(obj).length <= 10^6^`
+
+
+
+
+== 思路分析
+
+
+[[src-2705]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2705_CompactObject.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2705_CompactObject_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

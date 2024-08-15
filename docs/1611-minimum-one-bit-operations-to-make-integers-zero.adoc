@@ -1,0 +1,77 @@
+[#1611-minimum-one-bit-operations-to-make-integers-zero]
+= 1611. Minimum One Bit Operations to Make Integers Zero
+
+https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/[LeetCode - 1611. Minimum One Bit Operations to Make Integers Zero ^]
+
+Given an integer `n`, you must transform it into `0` using the following operations any number of times:
+
+
+* Change the rightmost (`0^th^`) bit in the binary representation of `n`.
+* Change the `i^th^` bit in the binary representation of `n` if the `(i-1)^th^` bit is set to `1` and the `(i-2)^th^` through `0^th^` bits are set to `0`.
+
+
+Return _the minimum number of operations to transform _`n`_ into _`0`_._
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 3
+*Output:* 2
+*Explanation:* The binary representation of 3 is "11".
+"[.underline]#1#1" -> "[.underline]#0#1" with the 2^nd^ operation since the 0^th^ bit is 1.
+"0[.underline]#1#" -> "0[.underline]#0#" with the 1^st^ operation.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 6
+*Output:* 4
+*Explanation:* The binary representation of 6 is "110".
+"[.underline]#1#10" -> "[.underline]#0#10" with the 2^nd^ operation since the 1^st^ bit is 1 and 0^th^ through 0^th^ bits are 0.
+"01[.underline]#0#" -> "01[.underline]#1#" with the 1^st^ operation.
+"0[.underline]#1#1" -> "0[.underline]#0#1" with the 2^nd^ operation since the 0^th^ bit is 1.
+"00[.underline]#1#" -> "00[.underline]#0#" with the 1^st^ operation.
+----
+
+ 
+*Constraints:*
+
+
+* `0 <= n <= 10^9^`
+
+
+
+
+== 思路分析
+
+
+[[src-1611]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1611_MinimumOneBitOperationsToMakeIntegersZero.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1611_MinimumOneBitOperationsToMakeIntegersZero_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,72 @@
+[#2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros]
+= 2918. Minimum Equal Sum of Two Arrays After Replacing Zeros
+
+https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/[LeetCode - 2918. Minimum Equal Sum of Two Arrays After Replacing Zeros ^]
+
+You are given two arrays `nums1` and `nums2` consisting of positive integers.
+
+You have to replace *all* the `0`'s in both arrays with *strictly* positive integers such that the sum of elements of both arrays becomes *equal*.
+
+Return _the *minimum* equal sum you can obtain, or _`-1`_ if it is impossible_.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums1 = [3,2,0,1,0], nums2 = [6,5,0]
+*Output:* 12
+*Explanation:* We can replace 0's in the following way:
+- Replace the two 0's in nums1 with the values 2 and 4. The resulting array is nums1 = [3,2,2,1,4].
+- Replace the 0 in nums2 with the value 1. The resulting array is nums2 = [6,5,1].
+Both arrays have an equal sum of 12. It can be shown that it is the minimum sum we can obtain.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums1 = [2,0,2,0], nums2 = [1,4]
+*Output:* -1
+*Explanation:* It is impossible to make the sum of both arrays equal.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= nums1.length, nums2.length <= 10^5^`
+* `0 <= nums1[i], nums2[i] <= 10^6^`
+
+
+
+
+== 思路分析
+
+
+[[src-2918]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2918_MinimumEqualSumOfTwoArraysAfterReplacingZeros.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2918_MinimumEqualSumOfTwoArraysAfterReplacingZeros_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

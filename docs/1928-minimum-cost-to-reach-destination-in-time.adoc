@@ -1,0 +1,92 @@
+[#1928-minimum-cost-to-reach-destination-in-time]
+= 1928. Minimum Cost to Reach Destination in Time
+
+https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/[LeetCode - 1928. Minimum Cost to Reach Destination in Time ^]
+
+There is a country of `n` cities numbered from `0` to `n - 1` where *all the cities are connected* by bi-directional roads. The roads are represented as a 2D integer array `edges` where `edges[i] = [x<sub>i</sub>, y<sub>i</sub>, time<sub>i</sub>]` denotes a road between cities `x<sub>i</sub>` and `y<sub>i</sub>` that takes `time<sub>i</sub>` minutes to travel. There may be multiple roads of differing travel times connecting the same two cities, but no road connects a city to itself.
+
+Each time you pass through a city, you must pay a passing fee. This is represented as a *0-indexed* integer array `passingFees` of length `n` where `passingFees[j]` is the amount of dollars you must pay when you pass through city `j`.
+
+In the beginning, you are at city `0` and want to reach city `n - 1` in `maxTime`* minutes or less*. The *cost* of your journey is the *summation of passing fees* for each city that you passed through at some moment of your journey (*including* the source and destination cities).
+
+Given `maxTime`, `edges`, and `passingFees`, return _the *minimum cost* to complete your journey, or _`-1`_ if you cannot complete it within _`maxTime`_ minutes_.
+
+ 
+<strong class="example">Example 1:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2021/06/04/leetgraph1-1.png" style="width: 371px; height: 171px;" />
+
+[subs="verbatim,quotes"]
+----
+*Input:* maxTime = 30, edges = [[0,1,10],[1,2,10],[2,5,10],[0,3,1],[3,4,10],[4,5,15]], passingFees = [5,1,2,20,20,3]
+*Output:* 11
+*Explanation:* The path to take is 0 -> 1 -> 2 -> 5, which takes 30 minutes and has $11 worth of passing fees.
+----
+
+<strong class="example">Example 2:*
+
+*<img alt="" src="https://assets.leetcode.com/uploads/2021/06/04/copy-of-leetgraph1-1.png" style="width: 371px; height: 171px;" />*
+
+[subs="verbatim,quotes"]
+----
+*Input:* maxTime = 29, edges = [[0,1,10],[1,2,10],[2,5,10],[0,3,1],[3,4,10],[4,5,15]], passingFees = [5,1,2,20,20,3]
+*Output:* 48
+*Explanation:* The path to take is 0 -> 3 -> 4 -> 5, which takes 26 minutes and has $48 worth of passing fees.
+You cannot take path 0 -> 1 -> 2 -> 5 since it would take too long.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* maxTime = 25, edges = [[0,1,10],[1,2,10],[2,5,10],[0,3,1],[3,4,10],[4,5,15]], passingFees = [5,1,2,20,20,3]
+*Output:* -1
+*Explanation:* There is no way to reach city 5 from city 0 within 25 minutes.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= maxTime <= 1000`
+* `n == passingFees.length`
+* `2 <= n <= 1000`
+* `n - 1 <= edges.length <= 1000`
+* `0 <= x<sub>i</sub>, y<sub>i</sub> <= n - 1`
+* `1 <= time<sub>i</sub> <= 1000`
+* `1 <= passingFees[j] <= 1000` 
+* The graph may contain multiple edges between two nodes.
+* The graph does not contain self loops.
+
+
+
+
+== 思路分析
+
+
+[[src-1928]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1928_MinimumCostToReachDestinationInTime.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1928_MinimumCostToReachDestinationInTime_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#3061-calculate-trapping-rain-water]
+= 3061. Calculate Trapping Rain Water
+
+https://leetcode.com/problems/calculate-trapping-rain-water/[LeetCode - 3061. Calculate Trapping Rain Water ^]
+
+
+
+== 思路分析
+
+
+[[src-3061]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3061_CalculateTrappingRainWater.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3061_CalculateTrappingRainWater_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

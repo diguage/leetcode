@@ -1,0 +1,36 @@
+[#1852-distinct-numbers-in-each-subarray]
+= 1852. Distinct Numbers in Each Subarray
+
+https://leetcode.com/problems/distinct-numbers-in-each-subarray/[LeetCode - 1852. Distinct Numbers in Each Subarray ^]
+
+
+
+== 思路分析
+
+
+[[src-1852]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1852_DistinctNumbersInEachSubarray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1852_DistinctNumbersInEachSubarray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

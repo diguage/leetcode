@@ -1,0 +1,36 @@
+[#2990-loan-types]
+= 2990. Loan Types
+
+https://leetcode.com/problems/loan-types/[LeetCode - 2990. Loan Types ^]
+
+
+
+== 思路分析
+
+
+[[src-2990]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2990_LoanTypes.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2990_LoanTypes_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

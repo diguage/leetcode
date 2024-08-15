@@ -1,0 +1,107 @@
+[#3235-check-if-the-rectangle-corner-is-reachable]
+= 3235. Check if the Rectangle Corner Is Reachable
+
+https://leetcode.com/problems/check-if-the-rectangle-corner-is-reachable/[LeetCode - 3235. Check if the Rectangle Corner Is Reachable ^]
+
+You are given two positive integers `xCorner` and `yCorner`, and a 2D array `circles`, where `circles[i] = [x<sub>i</sub>, y<sub>i</sub>, r<sub>i</sub>]` denotes a circle with center at `(x<sub>i</sub>, y<sub>i</sub>)` and radius `r<sub>i</sub>`.
+
+There is a rectangle in the coordinate plane with its bottom left corner at the origin and top right corner at the coordinate `(xCorner, yCorner)`. You need to check whether there is a path from the bottom left corner to the top right corner such that the *entire path* lies inside the rectangle, *does not* touch or lie inside *any* circle, and touches the rectangle *only* at the two corners.
+
+Return `true` if such a path exists, and `false` otherwise.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">xCorner = 3, yCorner = 4, circles = [[2,1,1]]
+
+*Output:* <span class="example-io">true
+
+*Explanation:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/05/18/example2circle1.png" style="width: 346px; height: 264px;" />
+
+The black curve shows a possible path between `(0, 0)` and `(3, 4)`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">xCorner = 3, yCorner = 3, circles = [[1,1,2]]
+
+*Output:* <span class="example-io">false
+
+*Explanation:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/05/18/example1circle.png" style="width: 346px; height: 264px;" />
+
+No path exists from `(0, 0)` to `(3, 3)`.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">xCorner = 3, yCorner = 3, circles = [[2,1,1],[1,2,1]]
+
+*Output:* <span class="example-io">false
+
+*Explanation:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/05/18/example0circle.png" style="width: 346px; height: 264px;" />
+
+No path exists from `(0, 0)` to `(3, 3)`.
+
+
+<strong class="example">Example 4:*
+
+<div class="example-block">
+*Input:* <span class="example-io">xCorner = 4, yCorner = 4, circles = [[5,5,1]]
+
+*Output:* <span class="example-io">true
+
+*Explanation:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/08/04/rectangles.png" style="width: 346px; height: 264px;" />
+
+
+ 
+*Constraints:*
+
+
+* `3 <= xCorner, yCorner <= 10^9^`
+* `1 <= circles.length <= 1000`
+* `circles[i].length == 3`
+* `1 <= x<sub>i</sub>, y<sub>i</sub>, r<sub>i</sub> <= 10^9^`
+
+
+
+
+== 思路分析
+
+
+[[src-3235]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3235_CheckIfTheRectangleCornerIsReachable.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3235_CheckIfTheRectangleCornerIsReachable_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

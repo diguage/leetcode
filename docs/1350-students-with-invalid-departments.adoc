@@ -1,0 +1,36 @@
+[#1350-students-with-invalid-departments]
+= 1350. Students With Invalid Departments
+
+https://leetcode.com/problems/students-with-invalid-departments/[LeetCode - 1350. Students With Invalid Departments ^]
+
+
+
+== 思路分析
+
+
+[[src-1350]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1350_StudentsWithInvalidDepartments.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1350_StudentsWithInvalidDepartments_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

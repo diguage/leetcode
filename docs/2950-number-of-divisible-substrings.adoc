@@ -1,0 +1,36 @@
+[#2950-number-of-divisible-substrings]
+= 2950. Number of Divisible Substrings
+
+https://leetcode.com/problems/number-of-divisible-substrings/[LeetCode - 2950. Number of Divisible Substrings ^]
+
+
+
+== 思路分析
+
+
+[[src-2950]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2950_NumberOfDivisibleSubstrings.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2950_NumberOfDivisibleSubstrings_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

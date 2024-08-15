@@ -1,0 +1,36 @@
+[#1635-hopper-company-queries-i]
+= 1635. Hopper Company Queries I
+
+https://leetcode.com/problems/hopper-company-queries-i/[LeetCode - 1635. Hopper Company Queries I ^]
+
+
+
+== 思路分析
+
+
+[[src-1635]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1635_HopperCompanyQueriesI.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1635_HopperCompanyQueriesI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

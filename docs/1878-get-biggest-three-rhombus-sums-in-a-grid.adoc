@@ -1,0 +1,88 @@
+[#1878-get-biggest-three-rhombus-sums-in-a-grid]
+= 1878. Get Biggest Three Rhombus Sums in a Grid
+
+https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/[LeetCode - 1878. Get Biggest Three Rhombus Sums in a Grid ^]
+
+You are given an `m x n` integer matrix `grid`​​​.
+
+A *rhombus sum* is the sum of the elements that form *the* *border* of a regular rhombus shape in `grid`​​​. The rhombus must have the shape of a square rotated 45 degrees with each of the corners centered in a grid cell. Below is an image of four valid rhombus shapes with the corresponding colored cells that should be included in each *rhombus sum*:
+<img alt="" src="https://assets.leetcode.com/uploads/2021/04/23/pc73-q4-desc-2.png" style="width: 385px; height: 385px;" />
+Note that the rhombus can have an area of 0, which is depicted by the purple rhombus in the bottom right corner.
+
+Return _the biggest three *distinct rhombus sums* in the _`grid`_ in *descending order*__. If there are less than three distinct values, return all of them_.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2021/04/23/pc73-q4-ex1.png" style="width: 360px; height: 361px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* grid = [[3,4,5,1,3],[3,3,4,2,3],[20,30,200,40,10],[1,5,5,4,1],[4,3,2,2,5]]
+*Output:* [228,216,211]
+*Explanation:* The rhombus shapes for the three biggest distinct rhombus sums are depicted above.
+- Blue: 20 + 3 + 200 + 5 = 228
+- Red: 200 + 2 + 10 + 4 = 216
+- Green: 5 + 200 + 4 + 2 = 211
+----
+
+<strong class="example">Example 2:*
+<img alt="" src="https://assets.leetcode.com/uploads/2021/04/23/pc73-q4-ex2.png" style="width: 217px; height: 217px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* grid = [[1,2,3],[4,5,6],[7,8,9]]
+*Output:* [20,9,8]
+*Explanation:* The rhombus shapes for the three biggest distinct rhombus sums are depicted above.
+- Blue: 4 + 2 + 6 + 8 = 20
+- Red: 9 (area 0 rhombus in the bottom right corner)
+- Green: 8 (area 0 rhombus in the bottom middle)
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* grid = [[7,7,7]]
+*Output:* [7]
+*Explanation:* All three possible rhombus sums are the same, so return [7].
+----
+
+ 
+*Constraints:*
+
+
+* `m == grid.length`
+* `n == grid[i].length`
+* `1 <= m, n <= 50`
+* `1 <= grid[i][j] <= 10^5^`
+
+
+
+
+== 思路分析
+
+
+[[src-1878]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1878_GetBiggestThreeRhombusSumsInAGrid.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1878_GetBiggestThreeRhombusSumsInAGrid_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2238-number-of-times-a-driver-was-a-passenger]
+= 2238. Number of Times a Driver Was a Passenger
+
+https://leetcode.com/problems/number-of-times-a-driver-was-a-passenger/[LeetCode - 2238. Number of Times a Driver Was a Passenger ^]
+
+
+
+== 思路分析
+
+
+[[src-2238]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2238_NumberOfTimesADriverWasAPassenger.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2238_NumberOfTimesADriverWasAPassenger_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

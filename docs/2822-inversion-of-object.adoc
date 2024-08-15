@@ -1,0 +1,36 @@
+[#2822-inversion-of-object]
+= 2822. Inversion of Object
+
+https://leetcode.com/problems/inversion-of-object/[LeetCode - 2822. Inversion of Object ^]
+
+
+
+== 思路分析
+
+
+[[src-2822]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2822_InversionOfObject.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2822_InversionOfObject_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

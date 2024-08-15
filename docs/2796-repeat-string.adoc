@@ -1,0 +1,36 @@
+[#2796-repeat-string]
+= 2796. Repeat String
+
+https://leetcode.com/problems/repeat-string/[LeetCode - 2796. Repeat String ^]
+
+
+
+== 思路分析
+
+
+[[src-2796]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2796_RepeatString.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2796_RepeatString_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

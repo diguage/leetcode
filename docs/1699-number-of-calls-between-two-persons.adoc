@@ -1,0 +1,36 @@
+[#1699-number-of-calls-between-two-persons]
+= 1699. Number of Calls Between Two Persons
+
+https://leetcode.com/problems/number-of-calls-between-two-persons/[LeetCode - 1699. Number of Calls Between Two Persons ^]
+
+
+
+== 思路分析
+
+
+[[src-1699]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1699_NumberOfCallsBetweenTwoPersons.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1699_NumberOfCallsBetweenTwoPersons_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

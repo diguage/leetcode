@@ -1,0 +1,36 @@
+[#2107-number-of-unique-flavors-after-sharing-k-candies]
+= 2107. Number of Unique Flavors After Sharing K Candies
+
+https://leetcode.com/problems/number-of-unique-flavors-after-sharing-k-candies/[LeetCode - 2107. Number of Unique Flavors After Sharing K Candies ^]
+
+
+
+== 思路分析
+
+
+[[src-2107]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2107_NumberOfUniqueFlavorsAfterSharingKCandies.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2107_NumberOfUniqueFlavorsAfterSharingKCandies_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

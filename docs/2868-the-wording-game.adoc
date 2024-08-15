@@ -1,0 +1,36 @@
+[#2868-the-wording-game]
+= 2868. The Wording Game
+
+https://leetcode.com/problems/the-wording-game/[LeetCode - 2868. The Wording Game ^]
+
+
+
+== 思路分析
+
+
+[[src-2868]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2868_TheWordingGame.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2868_TheWordingGame_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

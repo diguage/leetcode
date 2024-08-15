@@ -1,0 +1,36 @@
+[#1746-maximum-subarray-sum-after-one-operation]
+= 1746. Maximum Subarray Sum After One Operation
+
+https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/[LeetCode - 1746. Maximum Subarray Sum After One Operation ^]
+
+
+
+== 思路分析
+
+
+[[src-1746]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1746_MaximumSubarraySumAfterOneOperation.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1746_MaximumSubarraySumAfterOneOperation_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

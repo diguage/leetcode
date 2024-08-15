@@ -1,0 +1,102 @@
+[#3200-maximum-height-of-a-triangle]
+= 3200. Maximum Height of a Triangle
+
+https://leetcode.com/problems/maximum-height-of-a-triangle/[LeetCode - 3200. Maximum Height of a Triangle ^]
+
+You are given two integers `red` and `blue` representing the count of red and blue colored balls. You have to arrange these balls to form a triangle such that the 1^st^ row will have 1 ball, the 2^nd^ row will have 2 balls, the 3^rd^ row will have 3 balls, and so on.
+
+All the balls in a particular row should be the *same* color, and adjacent rows should have *different* colors.
+
+Return the *maximum*_ height of the triangle_ that can be achieved.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">red = 2, blue = 4
+
+*Output:* 3
+
+*Explanation:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/06/16/brb.png" style="width: 300px; height: 240px; padding: 10px;" />
+
+The only possible arrangement is shown above.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">red = 2, blue = 1
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/06/16/br.png" style="width: 150px; height: 135px; padding: 10px;" />
+
+
+The only possible arrangement is shown above.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">red = 1, blue = 1
+
+*Output:* <span class="example-io">1
+
+
+<strong class="example">Example 4:*
+
+<div class="example-block">
+*Input:* <span class="example-io">red = 10, blue = 1
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/06/16/br.png" style="width: 150px; height: 135px; padding: 10px;" />
+
+
+The only possible arrangement is shown above.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= red, blue <= 100`
+
+
+
+
+== 思路分析
+
+
+[[src-3200]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3200_MaximumHeightOfATriangle.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3200_MaximumHeightOfATriangle_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

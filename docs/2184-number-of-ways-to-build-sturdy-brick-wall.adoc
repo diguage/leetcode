@@ -1,0 +1,36 @@
+[#2184-number-of-ways-to-build-sturdy-brick-wall]
+= 2184. Number of Ways to Build Sturdy Brick Wall
+
+https://leetcode.com/problems/number-of-ways-to-build-sturdy-brick-wall/[LeetCode - 2184. Number of Ways to Build Sturdy Brick Wall ^]
+
+
+
+== 思路分析
+
+
+[[src-2184]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2184_NumberOfWaysToBuildSturdyBrickWall.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2184_NumberOfWaysToBuildSturdyBrickWall_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

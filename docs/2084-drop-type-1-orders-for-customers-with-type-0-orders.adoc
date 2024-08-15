@@ -1,0 +1,36 @@
+[#2084-drop-type-1-orders-for-customers-with-type-0-orders]
+= 2084. Drop Type 1 Orders for Customers With Type 0 Orders
+
+https://leetcode.com/problems/drop-type-1-orders-for-customers-with-type-0-orders/[LeetCode - 2084. Drop Type 1 Orders for Customers With Type 0 Orders ^]
+
+
+
+== 思路分析
+
+
+[[src-2084]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2084_DropType1OrdersForCustomersWithType0Orders.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2084_DropType1OrdersForCustomersWithType0Orders_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

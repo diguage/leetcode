@@ -1,0 +1,66 @@
+[#1784-check-if-binary-string-has-at-most-one-segment-of-ones]
+= 1784. Check if Binary String Has at Most One Segment of Ones
+
+https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/[LeetCode - 1784. Check if Binary String Has at Most One Segment of Ones ^]
+
+Given a binary string `s` *​​​​​without leading zeros*, return `true`​​​ _if _`s`_ contains *at most one contiguous segment of ones*_. Otherwise, return `false`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "1001"
+*Output:* false
+*Explanation: *The ones do not form a contiguous segment.
+
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "110"
+*Output:* true
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 100`
+* `s[i]`​​​​ is either `'0'` or `'1'`.
+* `s[0]` is `'1'`.
+
+
+
+
+== 思路分析
+
+
+[[src-1784]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1784_CheckIfBinaryStringHasAtMostOneSegmentOfOnes.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1784_CheckIfBinaryStringHasAtMostOneSegmentOfOnes_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

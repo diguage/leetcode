@@ -1,0 +1,36 @@
+[#1628-design-an-expression-tree-with-evaluate-function]
+= 1628. Design an Expression Tree With Evaluate Function
+
+https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function/[LeetCode - 1628. Design an Expression Tree With Evaluate Function ^]
+
+
+
+== 思路分析
+
+
+[[src-1628]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1628_DesignAnExpressionTreeWithEvaluateFunction.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1628_DesignAnExpressionTreeWithEvaluateFunction_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

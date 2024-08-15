@@ -1,0 +1,36 @@
+[#2534-time-taken-to-cross-the-door]
+= 2534. Time Taken to Cross the Door
+
+https://leetcode.com/problems/time-taken-to-cross-the-door/[LeetCode - 2534. Time Taken to Cross the Door ^]
+
+
+
+== 思路分析
+
+
+[[src-2534]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2534_TimeTakenToCrossTheDoor.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2534_TimeTakenToCrossTheDoor_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

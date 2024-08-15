@@ -1,0 +1,83 @@
+[#2325-decode-the-message]
+= 2325. Decode the Message
+
+https://leetcode.com/problems/decode-the-message/[LeetCode - 2325. Decode the Message ^]
+
+You are given the strings `key` and `message`, which represent a cipher key and a secret message, respectively. The steps to decode `message` are as follows:
+
+
+* Use the *first* appearance of all 26 lowercase English letters in `key` as the *order* of the substitution table.
+* Align the substitution table with the regular English alphabet.
+* Each letter in `message` is then *substituted* using the table.
+* Spaces `' '` are transformed to themselves.
+
+
+
+* For example, given `key = "[.underline]#*hap*#p[.underline]#*y*# [.underline]#*bo*#y"` (actual key would have *at least one* instance of each letter in the alphabet), we have the partial substitution table of (`'h' -> 'a'`, `'a' -> 'b'`, `'p' -> 'c'`, `'y' -> 'd'`, `'b' -> 'e'`, `'o' -> 'f'`).
+
+
+Return _the decoded message_.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2022/05/08/ex1new4.jpg" style="width: 752px; height: 150px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* key = "the quick brown fox jumps over the lazy dog", message = "vkbs bs t suepuv"
+*Output:* "this is a secret"
+*Explanation:* The diagram above shows the substitution table.
+It is obtained by taking the first appearance of each letter in "[.underline]#*the*# [.underline]#*quick*# [.underline]#*brown*# [.underline]#*f*#o[.underline]#*x*# [.underline]#*j*#u[.underline]#*mps*# o[.underline]#*v*#er the [.underline]#*lazy*# [.underline]#*d*#o[.underline]#*g*#".
+----
+
+<strong class="example">Example 2:*
+<img alt="" src="https://assets.leetcode.com/uploads/2022/05/08/ex2new.jpg" style="width: 754px; height: 150px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* key = "eljuxhpwnyrdgtqkviszcfmabo", message = "zwx hnfx lqantp mnoeius ycgk vcnjrdb"
+*Output:* "the five boxing wizards jump quickly"
+*Explanation:* The diagram above shows the substitution table.
+It is obtained by taking the first appearance of each letter in "[.underline]#*eljuxhpwnyrdgtqkviszcfmabo*#".
+----
+
+ 
+*Constraints:*
+
+
+* `26 <= key.length <= 2000`
+* `key` consists of lowercase English letters and `' '`.
+* `key` contains every letter in the English alphabet (`'a'` to `'z'`) *at least once*.
+* `1 <= message.length <= 2000`
+* `message` consists of lowercase English letters and `' '`.
+
+
+
+
+== 思路分析
+
+
+[[src-2325]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2325_DecodeTheMessage.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2325_DecodeTheMessage_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

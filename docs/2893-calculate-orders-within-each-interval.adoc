@@ -1,0 +1,36 @@
+[#2893-calculate-orders-within-each-interval]
+= 2893. Calculate Orders Within Each Interval
+
+https://leetcode.com/problems/calculate-orders-within-each-interval/[LeetCode - 2893. Calculate Orders Within Each Interval ^]
+
+
+
+== 思路分析
+
+
+[[src-2893]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2893_CalculateOrdersWithinEachInterval.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2893_CalculateOrdersWithinEachInterval_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

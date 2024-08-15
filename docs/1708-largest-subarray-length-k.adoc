@@ -1,0 +1,36 @@
+[#1708-largest-subarray-length-k]
+= 1708. Largest Subarray Length K
+
+https://leetcode.com/problems/largest-subarray-length-k/[LeetCode - 1708. Largest Subarray Length K ^]
+
+
+
+== 思路分析
+
+
+[[src-1708]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1708_LargestSubarrayLengthK.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1708_LargestSubarrayLengthK_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

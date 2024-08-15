@@ -1,0 +1,73 @@
+[#1353-maximum-number-of-events-that-can-be-attended]
+= 1353. Maximum Number of Events That Can Be Attended
+
+https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/[LeetCode - 1353. Maximum Number of Events That Can Be Attended ^]
+
+You are given an array of `events` where `events[i] = [startDay<sub>i</sub>, endDay<sub>i</sub>]`. Every event `i` starts at `startDay<sub>i</sub>`<sub> </sub>and ends at `endDay<sub>i</sub>`.
+
+You can attend an event `i` at any day `d` where `startTime<sub>i</sub> <= d <= endTime<sub>i</sub>`. You can only attend one event at any time `d`.
+
+Return _the maximum number of events you can attend_.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2020/02/05/e1.png" style="width: 400px; height: 267px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* events = [[1,2],[2,3],[3,4]]
+*Output:* 3
+*Explanation:* You can attend all the three events.
+One way to attend them all is as shown.
+Attend the first event on day 1.
+Attend the second event on day 2.
+Attend the third event on day 3.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* events= [[1,2],[2,3],[3,4],[1,2]]
+*Output:* 4
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= events.length <= 10^5^`
+* `events[i].length == 2`
+* `1 <= startDay<sub>i</sub> <= endDay<sub>i</sub> <= 10^5^`
+
+
+
+
+== 思路分析
+
+
+[[src-1353]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1353_MaximumNumberOfEventsThatCanBeAttended.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1353_MaximumNumberOfEventsThatCanBeAttended_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

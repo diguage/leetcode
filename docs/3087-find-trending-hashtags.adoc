@@ -1,0 +1,36 @@
+[#3087-find-trending-hashtags]
+= 3087. Find Trending Hashtags
+
+https://leetcode.com/problems/find-trending-hashtags/[LeetCode - 3087. Find Trending Hashtags ^]
+
+
+
+== 思路分析
+
+
+[[src-3087]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3087_FindTrendingHashtags.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3087_FindTrendingHashtags_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

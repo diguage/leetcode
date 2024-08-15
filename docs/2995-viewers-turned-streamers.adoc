@@ -1,0 +1,36 @@
+[#2995-viewers-turned-streamers]
+= 2995. Viewers Turned Streamers
+
+https://leetcode.com/problems/viewers-turned-streamers/[LeetCode - 2995. Viewers Turned Streamers ^]
+
+
+
+== 思路分析
+
+
+[[src-2995]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2995_ViewersTurnedStreamers.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2995_ViewersTurnedStreamers_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -56,7 +56,7 @@ image::https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/165
 *  `p` and  `q` exist in the tree.
 
 
-== 解题分析
+== 思路分析
 
 这道题披着树的外衣，里面确实一个链接相交的芯。
 
@@ -71,7 +71,17 @@ image::https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/165
 include::{sourcedir}/_1650_LowestCommonAncestorOfABinaryTreeIII.java[tag=answer]
 ----
 --
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1650_LowestCommonAncestorOfABinaryTreeIii_2.java[tag=answer]
+// ----
+// --
 ====
 
+== 参考资料
 
 

@@ -1,0 +1,68 @@
+[#1941-check-if-all-characters-have-equal-number-of-occurrences]
+= 1941. Check if All Characters Have Equal Number of Occurrences
+
+https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/[LeetCode - 1941. Check if All Characters Have Equal Number of Occurrences ^]
+
+Given a string `s`, return `true`_ if _`s`_ is a *good* string, or _`false`_ otherwise_.
+
+A string `s` is *good* if *all* the characters that appear in `s` have the *same* number of occurrences (i.e., the same frequency).
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "abacbc"
+*Output:* true
+*Explanation:* The characters that appear in s are 'a', 'b', and 'c'. All characters occur 2 times in s.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "aaabb"
+*Output:* false
+*Explanation:* The characters that appear in s are 'a' and 'b'.
+'a' occurs 3 times while 'b' occurs 2 times, which is not the same number of times.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 1000`
+* `s` consists of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-1941]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1941_CheckIfAllCharactersHaveEqualNumberOfOccurrences.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1941_CheckIfAllCharactersHaveEqualNumberOfOccurrences_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

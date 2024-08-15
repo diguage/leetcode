@@ -1,0 +1,36 @@
+[#1369-get-the-second-most-recent-activity]
+= 1369. Get the Second Most Recent Activity
+
+https://leetcode.com/problems/get-the-second-most-recent-activity/[LeetCode - 1369. Get the Second Most Recent Activity ^]
+
+
+
+== 思路分析
+
+
+[[src-1369]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1369_GetTheSecondMostRecentActivity.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1369_GetTheSecondMostRecentActivity_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

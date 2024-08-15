@@ -1,0 +1,72 @@
+[#1584-min-cost-to-connect-all-points]
+= 1584. Min Cost to Connect All Points
+
+https://leetcode.com/problems/min-cost-to-connect-all-points/[LeetCode - 1584. Min Cost to Connect All Points ^]
+
+You are given an array `points` representing integer coordinates of some points on a 2D-plane, where `points[i] = [x<sub>i</sub>, y<sub>i</sub>]`.
+
+The cost of connecting two points `[x<sub>i</sub>, y<sub>i</sub>]` and `[x<sub>j</sub>, y<sub>j</sub>]` is the *manhattan distance* between them: `|x<sub>i</sub> - x<sub>j</sub>| + |y<sub>i</sub> - y<sub>j</sub>|`, where `|val|` denotes the absolute value of `val`.
+
+Return _the minimum cost to make all points connected._ All points are connected if there is *exactly one* simple path between any two points.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2020/08/26/d.png" style="width: 214px; height: 268px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* points = [[0,0],[2,2],[3,10],[5,2],[7,0]]
+*Output:* 20
+*Explanation:* 
+<img alt="" src="https://assets.leetcode.com/uploads/2020/08/26/c.png" style="width: 214px; height: 268px;" />
+We can connect the points as shown above to get the minimum cost of 20.
+Notice that there is a unique path between every pair of points.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* points = [[3,12],[-2,5],[-4,1]]
+*Output:* 18
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= points.length <= 1000`
+* `-10^6^ <= x<sub>i</sub>, y<sub>i</sub> <= 10^6^`
+* All pairs `(x<sub>i</sub>, y<sub>i</sub>)` are distinct.
+
+
+
+
+== 思路分析
+
+
+[[src-1584]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1584_MinCostToConnectAllPoints.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1584_MinCostToConnectAllPoints_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

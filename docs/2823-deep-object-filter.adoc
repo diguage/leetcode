@@ -1,0 +1,36 @@
+[#2823-deep-object-filter]
+= 2823. Deep Object Filter
+
+https://leetcode.com/problems/deep-object-filter/[LeetCode - 2823. Deep Object Filter ^]
+
+
+
+== 思路分析
+
+
+[[src-2823]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2823_DeepObjectFilter.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2823_DeepObjectFilter_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

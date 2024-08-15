@@ -1,0 +1,79 @@
+[#2351-first-letter-to-appear-twice]
+= 2351. First Letter to Appear Twice
+
+https://leetcode.com/problems/first-letter-to-appear-twice/[LeetCode - 2351. First Letter to Appear Twice ^]
+
+Given a string `s` consisting of lowercase English letters, return _the first letter to appear *twice*_.
+
+*Note*:
+
+
+* A letter `a` appears twice before another letter `b` if the *second* occurrence of `a` is before the *second* occurrence of `b`.
+* `s` will contain at least one letter that appears twice.
+
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "abccbaacz"
+*Output:* "c"
+*Explanation:*
+The letter 'a' appears on the indexes 0, 5 and 6.
+The letter 'b' appears on the indexes 1 and 4.
+The letter 'c' appears on the indexes 2, 3 and 7.
+The letter 'z' appears on the index 8.
+The letter 'c' is the first letter to appear twice, because out of all the letters the index of its second occurrence is the smallest.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "abcdd"
+*Output:* "d"
+*Explanation:*
+The only letter that appears twice is 'd' so we return 'd'.
+----
+
+ 
+*Constraints:*
+
+
+* `2 <= s.length <= 100`
+* `s` consists of lowercase English letters.
+* `s` has at least one repeated letter.
+
+
+
+
+== 思路分析
+
+
+[[src-2351]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2351_FirstLetterToAppearTwice.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2351_FirstLetterToAppearTwice_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

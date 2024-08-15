@@ -1,0 +1,36 @@
+[#2408-design-sql]
+= 2408. Design SQL
+
+https://leetcode.com/problems/design-sql/[LeetCode - 2408. Design SQL ^]
+
+
+
+== 思路分析
+
+
+[[src-2408]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2408_DesignSql.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2408_DesignSql_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

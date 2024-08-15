@@ -1,0 +1,36 @@
+[#1777-products-price-for-each-store]
+= 1777. Product's Price for Each Store
+
+https://leetcode.com/problems/products-price-for-each-store/[LeetCode - 1777. Product's Price for Each Store ^]
+
+
+
+== 思路分析
+
+
+[[src-1777]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1777_ProductSPriceForEachStore.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1777_ProductSPriceForEachStore_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

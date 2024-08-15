@@ -1,0 +1,36 @@
+[#3157-find-the-level-of-tree-with-minimum-sum]
+= 3157. Find the Level of Tree with Minimum Sum
+
+https://leetcode.com/problems/find-the-level-of-tree-with-minimum-sum/[LeetCode - 3157. Find the Level of Tree with Minimum Sum ^]
+
+
+
+== 思路分析
+
+
+[[src-3157]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3157_FindTheLevelOfTreeWithMinimumSum.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3157_FindTheLevelOfTreeWithMinimumSum_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

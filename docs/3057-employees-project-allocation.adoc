@@ -1,0 +1,36 @@
+[#3057-employees-project-allocation]
+= 3057. Employees Project Allocation
+
+https://leetcode.com/problems/employees-project-allocation/[LeetCode - 3057. Employees Project Allocation ^]
+
+
+
+== 思路分析
+
+
+[[src-3057]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3057_EmployeesProjectAllocation.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3057_EmployeesProjectAllocation_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

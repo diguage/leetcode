@@ -1,0 +1,36 @@
+[#2863-maximum-length-of-semi-decreasing-subarrays]
+= 2863. Maximum Length of Semi-Decreasing Subarrays
+
+https://leetcode.com/problems/maximum-length-of-semi-decreasing-subarrays/[LeetCode - 2863. Maximum Length of Semi-Decreasing Subarrays ^]
+
+
+
+== 思路分析
+
+
+[[src-2863]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2863_MaximumLengthOfSemiDecreasingSubarrays.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2863_MaximumLengthOfSemiDecreasingSubarrays_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

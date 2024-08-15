@@ -1,0 +1,36 @@
+[#2533-number-of-good-binary-strings]
+= 2533. Number of Good Binary Strings
+
+https://leetcode.com/problems/number-of-good-binary-strings/[LeetCode - 2533. Number of Good Binary Strings ^]
+
+
+
+== 思路分析
+
+
+[[src-2533]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2533_NumberOfGoodBinaryStrings.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2533_NumberOfGoodBinaryStrings_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

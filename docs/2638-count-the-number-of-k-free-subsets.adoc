@@ -1,0 +1,36 @@
+[#2638-count-the-number-of-k-free-subsets]
+= 2638. Count the Number of K-Free Subsets
+
+https://leetcode.com/problems/count-the-number-of-k-free-subsets/[LeetCode - 2638. Count the Number of K-Free Subsets ^]
+
+
+
+== 思路分析
+
+
+[[src-2638]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2638_CountTheNumberOfKFreeSubsets.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2638_CountTheNumberOfKFreeSubsets_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

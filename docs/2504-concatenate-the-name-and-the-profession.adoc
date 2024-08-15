@@ -1,0 +1,36 @@
+[#2504-concatenate-the-name-and-the-profession]
+= 2504. Concatenate the Name and the Profession
+
+https://leetcode.com/problems/concatenate-the-name-and-the-profession/[LeetCode - 2504. Concatenate the Name and the Profession ^]
+
+
+
+== 思路分析
+
+
+[[src-2504]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2504_ConcatenateTheNameAndTheProfession.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2504_ConcatenateTheNameAndTheProfession_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

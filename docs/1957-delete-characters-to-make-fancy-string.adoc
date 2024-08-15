@@ -1,0 +1,83 @@
+[#1957-delete-characters-to-make-fancy-string]
+= 1957. Delete Characters to Make Fancy String
+
+https://leetcode.com/problems/delete-characters-to-make-fancy-string/[LeetCode - 1957. Delete Characters to Make Fancy String ^]
+
+A *fancy string* is a string where no *three* *consecutive* characters are equal.
+
+Given a string `s`, delete the *minimum* possible number of characters from `s` to make it *fancy*.
+
+Return _the final string after the deletion_. It can be shown that the answer will always be *unique*.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "le[.underline]#e#etcode"
+*Output:* "leetcode"
+*Explanation:*
+Remove an 'e' from the first group of 'e's to create "leetcode".
+No three consecutive characters are equal, so return "leetcode".
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "[.underline]#a#aab[.underline]#aa#aa"
+*Output:* "aabaa"
+*Explanation:*
+Remove an 'a' from the first group of 'a's to create "aabaaaa".
+Remove two 'a's from the second group of 'a's to create "aabaa".
+No three consecutive characters are equal, so return "aabaa".
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "aab"
+*Output:* "aab"
+*Explanation:* No three consecutive characters are equal, so return "aab".
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 10^5^`
+* `s` consists only of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-1957]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1957_DeleteCharactersToMakeFancyString.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1957_DeleteCharactersToMakeFancyString_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2036-maximum-alternating-subarray-sum]
+= 2036. Maximum Alternating Subarray Sum
+
+https://leetcode.com/problems/maximum-alternating-subarray-sum/[LeetCode - 2036. Maximum Alternating Subarray Sum ^]
+
+
+
+== 思路分析
+
+
+[[src-2036]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2036_MaximumAlternatingSubarraySum.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2036_MaximumAlternatingSubarraySum_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

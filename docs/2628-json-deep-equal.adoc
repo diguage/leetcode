@@ -1,0 +1,36 @@
+[#2628-json-deep-equal]
+= 2628. JSON Deep Equal
+
+https://leetcode.com/problems/json-deep-equal/[LeetCode - 2628. JSON Deep Equal ^]
+
+
+
+== 思路分析
+
+
+[[src-2628]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2628_JsonDeepEqual.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2628_JsonDeepEqual_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

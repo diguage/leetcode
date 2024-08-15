@@ -1,0 +1,36 @@
+[#1951-all-the-pairs-with-the-maximum-number-of-common-followers]
+= 1951. All the Pairs With the Maximum Number of Common Followers
+
+https://leetcode.com/problems/all-the-pairs-with-the-maximum-number-of-common-followers/[LeetCode - 1951. All the Pairs With the Maximum Number of Common Followers ^]
+
+
+
+== 思路分析
+
+
+[[src-1951]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1951_AllThePairsWithTheMaximumNumberOfCommonFollowers.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1951_AllThePairsWithTheMaximumNumberOfCommonFollowers_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

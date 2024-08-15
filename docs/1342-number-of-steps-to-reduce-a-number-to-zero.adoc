@@ -1,0 +1,84 @@
+[#1342-number-of-steps-to-reduce-a-number-to-zero]
+= 1342. Number of Steps to Reduce a Number to Zero
+
+https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/[LeetCode - 1342. Number of Steps to Reduce a Number to Zero ^]
+
+Given an integer `num`, return _the number of steps to reduce it to zero_.
+
+In one step, if the current number is even, you have to divide it by `2`, otherwise, you have to subtract `1` from it.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num = 14
+*Output:* 6
+*Explanation:* 
+Step 1) 14 is even; divide by 2 and obtain 7. 
+Step 2) 7 is odd; subtract 1 and obtain 6.
+Step 3) 6 is even; divide by 2 and obtain 3. 
+Step 4) 3 is odd; subtract 1 and obtain 2. 
+Step 5) 2 is even; divide by 2 and obtain 1. 
+Step 6) 1 is odd; subtract 1 and obtain 0.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num = 8
+*Output:* 4
+*Explanation:* 
+Step 1) 8 is even; divide by 2 and obtain 4. 
+Step 2) 4 is even; divide by 2 and obtain 2. 
+Step 3) 2 is even; divide by 2 and obtain 1. 
+Step 4) 1 is odd; subtract 1 and obtain 0.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num = 123
+*Output:* 12
+----
+
+ 
+*Constraints:*
+
+
+* `0 <= num <= 10^6^`
+
+
+
+
+== 思路分析
+
+
+[[src-1342]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1342_NumberOfStepsToReduceANumberToZero.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1342_NumberOfStepsToReduceANumberToZero_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

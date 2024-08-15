@@ -1,0 +1,74 @@
+[#3211-generate-binary-strings-without-adjacent-zeros]
+= 3211. Generate Binary Strings Without Adjacent Zeros
+
+https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/[LeetCode - 3211. Generate Binary Strings Without Adjacent Zeros ^]
+
+You are given a positive integer `n`.
+
+A binary string `x` is *valid* if all <span data-keyword="substring-nonempty">substrings of `x` of length 2 contain *at least* one `"1"`.
+
+Return all *valid* strings with length `n`*, *in _any_ order.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 3
+
+*Output:* <span class="example-io">["010","011","101","110","111"]
+
+*Explanation:*
+
+The valid strings of length 3 are: `"010"`, `"011"`, `"101"`, `"110"`, and `"111"`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 1
+
+*Output:* <span class="example-io">["0","1"]
+
+*Explanation:*
+
+The valid strings of length 1 are: `"0"` and `"1"`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 18`
+
+
+
+
+== 思路分析
+
+
+[[src-3211]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3211_GenerateBinaryStringsWithoutAdjacentZeros.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3211_GenerateBinaryStringsWithoutAdjacentZeros_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

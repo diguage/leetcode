@@ -1,0 +1,36 @@
+[#1990-count-the-number-of-experiments]
+= 1990. Count the Number of Experiments
+
+https://leetcode.com/problems/count-the-number-of-experiments/[LeetCode - 1990. Count the Number of Experiments ^]
+
+
+
+== 思路分析
+
+
+[[src-1990]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1990_CountTheNumberOfExperiments.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1990_CountTheNumberOfExperiments_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

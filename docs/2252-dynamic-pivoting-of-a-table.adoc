@@ -1,0 +1,36 @@
+[#2252-dynamic-pivoting-of-a-table]
+= 2252. Dynamic Pivoting of a Table
+
+https://leetcode.com/problems/dynamic-pivoting-of-a-table/[LeetCode - 2252. Dynamic Pivoting of a Table ^]
+
+
+
+== 思路分析
+
+
+[[src-2252]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2252_DynamicPivotingOfATable.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2252_DynamicPivotingOfATable_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

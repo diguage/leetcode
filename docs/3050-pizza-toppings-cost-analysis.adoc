@@ -1,0 +1,36 @@
+[#3050-pizza-toppings-cost-analysis]
+= 3050. Pizza Toppings Cost Analysis
+
+https://leetcode.com/problems/pizza-toppings-cost-analysis/[LeetCode - 3050. Pizza Toppings Cost Analysis ^]
+
+
+
+== 思路分析
+
+
+[[src-3050]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3050_PizzaToppingsCostAnalysis.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3050_PizzaToppingsCostAnalysis_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

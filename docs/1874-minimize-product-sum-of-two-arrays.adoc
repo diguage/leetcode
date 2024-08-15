@@ -1,0 +1,36 @@
+[#1874-minimize-product-sum-of-two-arrays]
+= 1874. Minimize Product Sum of Two Arrays
+
+https://leetcode.com/problems/minimize-product-sum-of-two-arrays/[LeetCode - 1874. Minimize Product Sum of Two Arrays ^]
+
+
+
+== 思路分析
+
+
+[[src-1874]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1874_MinimizeProductSumOfTwoArrays.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1874_MinimizeProductSumOfTwoArrays_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

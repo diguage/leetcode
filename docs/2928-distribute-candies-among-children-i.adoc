@@ -1,0 +1,67 @@
+[#2928-distribute-candies-among-children-i]
+= 2928. Distribute Candies Among Children I
+
+https://leetcode.com/problems/distribute-candies-among-children-i/[LeetCode - 2928. Distribute Candies Among Children I ^]
+
+You are given two positive integers `n` and `limit`.
+
+Return _the *total number* of ways to distribute _`n` _candies among _`3`_ children such that no child gets more than _`limit`_ candies._
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 5, limit = 2
+*Output:* 3
+*Explanation:* There are 3 ways to distribute 5 candies such that no child gets more than 2 candies: (1, 2, 2), (2, 1, 2) and (2, 2, 1).
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 3, limit = 3
+*Output:* 10
+*Explanation:* There are 10 ways to distribute 3 candies such that no child gets more than 3 candies: (0, 0, 3), (0, 1, 2), (0, 2, 1), (0, 3, 0), (1, 0, 2), (1, 1, 1), (1, 2, 0), (2, 0, 1), (2, 1, 0) and (3, 0, 0).
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 50`
+* `1 <= limit <= 50`
+
+
+
+
+== 思路分析
+
+
+[[src-2928]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2928_DistributeCandiesAmongChildrenI.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2928_DistributeCandiesAmongChildrenI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

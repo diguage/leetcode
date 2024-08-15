@@ -1,0 +1,36 @@
+[#2669-count-artist-occurrences-on-spotify-ranking-list]
+= 2669. Count Artist Occurrences On Spotify Ranking List
+
+https://leetcode.com/problems/count-artist-occurrences-on-spotify-ranking-list/[LeetCode - 2669. Count Artist Occurrences On Spotify Ranking List ^]
+
+
+
+== 思路分析
+
+
+[[src-2669]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2669_CountArtistOccurrencesOnSpotifyRankingList.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2669_CountArtistOccurrencesOnSpotifyRankingList_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

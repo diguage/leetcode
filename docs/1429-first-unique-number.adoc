@@ -1,0 +1,36 @@
+[#1429-first-unique-number]
+= 1429. First Unique Number
+
+https://leetcode.com/problems/first-unique-number/[LeetCode - 1429. First Unique Number ^]
+
+
+
+== 思路分析
+
+
+[[src-1429]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1429_FirstUniqueNumber.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1429_FirstUniqueNumber_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

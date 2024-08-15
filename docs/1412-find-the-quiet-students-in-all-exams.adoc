@@ -1,0 +1,36 @@
+[#1412-find-the-quiet-students-in-all-exams]
+= 1412. Find the Quiet Students in All Exams
+
+https://leetcode.com/problems/find-the-quiet-students-in-all-exams/[LeetCode - 1412. Find the Quiet Students in All Exams ^]
+
+
+
+== 思路分析
+
+
+[[src-1412]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1412_FindTheQuietStudentsInAllExams.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1412_FindTheQuietStudentsInAllExams_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

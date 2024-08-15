@@ -1,0 +1,36 @@
+[#2804-array-prototype-foreach]
+= 2804. Array Prototype ForEach
+
+https://leetcode.com/problems/array-prototype-foreach/[LeetCode - 2804. Array Prototype ForEach ^]
+
+
+
+== 思路分析
+
+
+[[src-2804]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2804_ArrayPrototypeForeach.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2804_ArrayPrototypeForeach_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

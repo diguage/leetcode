@@ -1,0 +1,85 @@
+[#2826-sorting-three-groups]
+= 2826. Sorting Three Groups
+
+https://leetcode.com/problems/sorting-three-groups/[LeetCode - 2826. Sorting Three Groups ^]
+
+You are given an integer array `nums`. Each element in `nums` is 1, 2 or 3. In each operation, you can remove an element from `nums`. Return the *minimum* number of operations to make `nums` *non-decreasing*.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [2,1,3,2,1]
+
+*Output:* <span class="example-io">3
+
+*Explanation:*
+
+One of the optimal solutions is to remove `nums[0]`, `nums[2]` and `nums[3]`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,3,2,1,3,3]
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+One of the optimal solutions is to remove `nums[1]` and `nums[2]`.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [2,2,2,2,3,3]
+
+*Output:* <span class="example-io">0
+
+*Explanation:*
+
+`nums` is already non-decreasing.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 100`
+* `1 <= nums[i] <= 3`
+
+
+ 
+*Follow-up:* Can you come up with an algorithm that runs in `O(n)` time complexity?
+
+
+== 思路分析
+
+
+[[src-2826]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2826_SortingThreeGroups.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2826_SortingThreeGroups_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

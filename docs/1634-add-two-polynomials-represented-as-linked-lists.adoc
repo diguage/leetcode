@@ -1,0 +1,36 @@
+[#1634-add-two-polynomials-represented-as-linked-lists]
+= 1634. Add Two Polynomials Represented as Linked Lists
+
+https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists/[LeetCode - 1634. Add Two Polynomials Represented as Linked Lists ^]
+
+
+
+== 思路分析
+
+
+[[src-1634]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1634_AddTwoPolynomialsRepresentedAsLinkedLists.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1634_AddTwoPolynomialsRepresentedAsLinkedLists_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

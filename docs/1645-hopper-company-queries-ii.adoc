@@ -1,0 +1,36 @@
+[#1645-hopper-company-queries-ii]
+= 1645. Hopper Company Queries II
+
+https://leetcode.com/problems/hopper-company-queries-ii/[LeetCode - 1645. Hopper Company Queries II ^]
+
+
+
+== 思路分析
+
+
+[[src-1645]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1645_HopperCompanyQueriesIi.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1645_HopperCompanyQueriesIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2263-make-array-non-decreasing-or-non-increasing]
+= 2263. Make Array Non-decreasing or Non-increasing
+
+https://leetcode.com/problems/make-array-non-decreasing-or-non-increasing/[LeetCode - 2263. Make Array Non-decreasing or Non-increasing ^]
+
+
+
+== 思路分析
+
+
+[[src-2263]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2263_MakeArrayNonDecreasingOrNonIncreasing.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2263_MakeArrayNonDecreasingOrNonIncreasing_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,97 @@
+[#2910-minimum-number-of-groups-to-create-a-valid-assignment]
+= 2910. Minimum Number of Groups to Create a Valid Assignment
+
+https://leetcode.com/problems/minimum-number-of-groups-to-create-a-valid-assignment/[LeetCode - 2910. Minimum Number of Groups to Create a Valid Assignment ^]
+
+You are given a collection of numbered `balls` and instructed to sort them into boxes for a nearly balanced distribution. There are two rules you must follow:
+
+
+* Balls with the same box must have the same value. But, if you have more than one ball with the same number, you can put them in different boxes.
+* The biggest box can only have one more ball than the smallest box.
+
+
+​Return the _fewest number of boxes_ to sort these balls following these rules.
+
+ 
+<strong class="example">Example 1: *
+
+<div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
+*Input: * <span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;"> balls = [3,2,3,2,3] 
+
+*Output: * <span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;"> 2 
+
+*Explanation:*
+
+We can sort `balls` into boxes as follows:
+
+
+* `[3,3,3]`
+* `[2,2]`
+
+
+The size difference between the two boxes doesn't exceed one.
+
+
+<strong class="example">Example 2: *
+
+<div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
+*Input: * <span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;"> balls = [10,10,10,3,1,1] 
+
+*Output: * <span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;"> 4 
+
+*Explanation:*
+
+We can sort `balls` into boxes as follows:
+
+
+
+
+
+* `[10]`
+* `[10,10]`
+* `[3]`
+* `[1,1]`
+
+
+You can't use fewer than four boxes while still following the rules. For example, putting all three balls numbered 10 in one box would break the rule about the maximum size difference between boxes.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 10^5^`
+* `1 <= nums[i] <= 10^9^`
+
+
+
+
+== 思路分析
+
+
+[[src-2910]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2910_MinimumNumberOfGroupsToCreateAValidAssignment.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2910_MinimumNumberOfGroupsToCreateAValidAssignment_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

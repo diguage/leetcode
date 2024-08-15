@@ -1,0 +1,36 @@
+[#2330-valid-palindrome-iv]
+= 2330. Valid Palindrome IV
+
+https://leetcode.com/problems/valid-palindrome-iv/[LeetCode - 2330. Valid Palindrome IV ^]
+
+
+
+== 思路分析
+
+
+[[src-2330]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2330_ValidPalindromeIv.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2330_ValidPalindromeIv_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

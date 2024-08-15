@@ -1,0 +1,36 @@
+[#1778-shortest-path-in-a-hidden-grid]
+= 1778. Shortest Path in a Hidden Grid
+
+https://leetcode.com/problems/shortest-path-in-a-hidden-grid/[LeetCode - 1778. Shortest Path in a Hidden Grid ^]
+
+
+
+== 思路分析
+
+
+[[src-1778]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1778_ShortestPathInAHiddenGrid.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1778_ShortestPathInAHiddenGrid_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

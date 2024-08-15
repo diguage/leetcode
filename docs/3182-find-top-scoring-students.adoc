@@ -1,0 +1,36 @@
+[#3182-find-top-scoring-students]
+= 3182. Find Top Scoring Students
+
+https://leetcode.com/problems/find-top-scoring-students/[LeetCode - 3182. Find Top Scoring Students ^]
+
+
+
+== 思路分析
+
+
+[[src-3182]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3182_FindTopScoringStudents.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3182_FindTopScoringStudents_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

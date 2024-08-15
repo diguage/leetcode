@@ -1,0 +1,36 @@
+[#3183-the-number-of-ways-to-make-the-sum]
+= 3183. The Number of Ways to Make the Sum
+
+https://leetcode.com/problems/the-number-of-ways-to-make-the-sum/[LeetCode - 3183. The Number of Ways to Make the Sum ^]
+
+
+
+== 思路分析
+
+
+[[src-3183]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3183_TheNumberOfWaysToMakeTheSum.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3183_TheNumberOfWaysToMakeTheSum_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

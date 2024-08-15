@@ -1,0 +1,88 @@
+[#3165-maximum-sum-of-subsequence-with-non-adjacent-elements]
+= 3165. Maximum Sum of Subsequence With Non-adjacent Elements
+
+https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/[LeetCode - 3165. Maximum Sum of Subsequence With Non-adjacent Elements ^]
+
+You are given an array `nums` consisting of integers. You are also given a 2D array `queries`, where `queries[i] = [pos<sub>i</sub>, x<sub>i</sub>]`.
+
+For query `i`, we first set `nums[pos<sub>i</sub>]` equal to `x<sub>i</sub>`, then we calculate the answer to query `i` which is the *maximum* sum of a <span data-keyword="subsequence-array">subsequence of `nums` where *no two adjacent elements are selected*.
+
+Return the _sum_ of the answers to all queries.
+
+Since the final answer may be very large, return it *modulo* `10^9^ + 7`.
+
+A *subsequence* is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [3,5,9], queries = [[1,-2],[0,-3]]
+
+*Output:* <span class="example-io">21
+
+*Explanation:*
+
+
+After the 1^st^ query, `nums = [3,-2,9]` and the maximum sum of a subsequence with non-adjacent elements is `3 + 9 = 12`.
+
+
+After the 2^nd^ query, `nums = [-3,-2,9]` and the maximum sum of a subsequence with non-adjacent elements is 9.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [0,-1], queries = [[0,-5]]
+
+*Output:* <span class="example-io">0
+
+*Explanation:*
+
+
+After the 1^st^ query, `nums = [-5,-1]` and the maximum sum of a subsequence with non-adjacent elements is 0 (choosing an empty subsequence).
+
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 5 * 10^4^`
+* `-10^5^ <= nums[i] <= 10^5^`
+* `1 <= queries.length <= 5 * 10^4^`
+* `queries[i] == [pos<sub>i</sub>, x<sub>i</sub>]`
+* `0 <= pos<sub>i</sub> <= nums.length - 1`
+* `-10^5^ <= x<sub>i</sub> <= 10^5^`
+
+
+
+
+== 思路分析
+
+
+[[src-3165]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3165_MaximumSumOfSubsequenceWithNonAdjacentElements.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3165_MaximumSumOfSubsequenceWithNonAdjacentElements_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

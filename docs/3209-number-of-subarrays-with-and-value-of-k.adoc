@@ -1,0 +1,83 @@
+[#3209-number-of-subarrays-with-and-value-of-k]
+= 3209. Number of Subarrays With AND Value of K
+
+https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k/[LeetCode - 3209. Number of Subarrays With AND Value of K ^]
+
+Given an array of integers `nums` and an integer `k`, return the number of <span data-keyword="subarray-nonempty">subarrays of `nums` where the bitwise `AND` of the elements of the subarray equals `k`.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,1,1], k = 1
+
+*Output:* <span class="example-io">6
+
+*Explanation:*
+
+All subarrays contain only 1's.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,1,2], k = 1
+
+*Output:* <span class="example-io">3
+
+*Explanation:*
+
+Subarrays having an `AND` value of 1 are: `[[.underline]#*1*#,1,2]`, `[1,[.underline]#*1*#,2]`, `[[.underline]#*1,1*#,2]`.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,2,3], k = 2
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+Subarrays having an `AND` value of 2 are: `[1,*[.underline]#2#*,3]`, `[1,[.underline]#*2,3*#]`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 10^5^`
+* `0 <= nums[i], k <= 10^9^`
+
+
+
+
+== 思路分析
+
+
+[[src-3209]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3209_NumberOfSubarraysWithAndValueOfK.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3209_NumberOfSubarraysWithAndValueOfK_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

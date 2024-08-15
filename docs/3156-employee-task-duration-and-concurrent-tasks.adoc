@@ -1,0 +1,36 @@
+[#3156-employee-task-duration-and-concurrent-tasks]
+= 3156. Employee Task Duration and Concurrent Tasks
+
+https://leetcode.com/problems/employee-task-duration-and-concurrent-tasks/[LeetCode - 3156. Employee Task Duration and Concurrent Tasks ^]
+
+
+
+== 思路分析
+
+
+[[src-3156]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3156_EmployeeTaskDurationAndConcurrentTasks.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3156_EmployeeTaskDurationAndConcurrentTasks_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

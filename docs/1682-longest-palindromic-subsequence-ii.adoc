@@ -1,0 +1,36 @@
+[#1682-longest-palindromic-subsequence-ii]
+= 1682. Longest Palindromic Subsequence II
+
+https://leetcode.com/problems/longest-palindromic-subsequence-ii/[LeetCode - 1682. Longest Palindromic Subsequence II ^]
+
+
+
+== 思路分析
+
+
+[[src-1682]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1682_LongestPalindromicSubsequenceIi.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1682_LongestPalindromicSubsequenceIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

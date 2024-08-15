@@ -1,0 +1,36 @@
+[#2985-calculate-compressed-mean]
+= 2985. Calculate Compressed Mean
+
+https://leetcode.com/problems/calculate-compressed-mean/[LeetCode - 2985. Calculate Compressed Mean ^]
+
+
+
+== 思路分析
+
+
+[[src-2985]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2985_CalculateCompressedMean.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2985_CalculateCompressedMean_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

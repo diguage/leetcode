@@ -1,0 +1,36 @@
+[#1398-customers-who-bought-products-a-and-b-but-not-c]
+= 1398. Customers Who Bought Products A and B but Not C
+
+https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c/[LeetCode - 1398. Customers Who Bought Products A and B but Not C ^]
+
+
+
+== 思路分析
+
+
+[[src-1398]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1398_CustomersWhoBoughtProductsAAndBButNotC.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1398_CustomersWhoBoughtProductsAAndBButNotC_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

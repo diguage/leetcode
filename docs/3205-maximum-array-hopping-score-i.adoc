@@ -1,0 +1,36 @@
+[#3205-maximum-array-hopping-score-i]
+= 3205. Maximum Array Hopping Score I
+
+https://leetcode.com/problems/maximum-array-hopping-score-i/[LeetCode - 3205. Maximum Array Hopping Score I ^]
+
+
+
+== 思路分析
+
+
+[[src-3205]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3205_MaximumArrayHoppingScoreI.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3205_MaximumArrayHoppingScoreI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#1983-widest-pair-of-indices-with-equal-range-sum]
+= 1983. Widest Pair of Indices With Equal Range Sum
+
+https://leetcode.com/problems/widest-pair-of-indices-with-equal-range-sum/[LeetCode - 1983. Widest Pair of Indices With Equal Range Sum ^]
+
+
+
+== 思路分析
+
+
+[[src-1983]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1983_WidestPairOfIndicesWithEqualRangeSum.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1983_WidestPairOfIndicesWithEqualRangeSum_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

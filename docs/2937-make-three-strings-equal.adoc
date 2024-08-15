@@ -1,0 +1,69 @@
+[#2937-make-three-strings-equal]
+= 2937. Make Three Strings Equal
+
+https://leetcode.com/problems/make-three-strings-equal/[LeetCode - 2937. Make Three Strings Equal ^]
+
+You are given three strings: `s1`, `s2`, and `s3`. In one operation you can choose one of these strings and delete its *rightmost* character. Note that you *cannot* completely empty a string.
+
+Return the _minimum number of operations_ required to make the strings equal_. _If it is impossible to make them equal, return `-1`.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
+*Input: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">s1 = "abc", s2 = "abb", s3 = "ab"
+
+*Output: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">2
+
+*Explanation: *Deleting the rightmost character from both `s1` and `s2` will result in three equal strings.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
+*Input: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">s1 = "dac", s2 = "bac", s3 = "cac"
+
+*Output: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">-1
+
+*Explanation:* Since the first letters of `s1` and `s2` differ, they cannot be made equal.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= s1.length, s2.length, s3.length <= 100`
+* <font face="monospace">`s1`, `<font face="monospace">s2`<font face="monospace"> and `<font face="monospace">s3` consist only of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-2937]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2937_MakeThreeStringsEqual.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2937_MakeThreeStringsEqual_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

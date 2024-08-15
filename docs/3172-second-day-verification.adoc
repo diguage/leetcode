@@ -1,0 +1,36 @@
+[#3172-second-day-verification]
+= 3172. Second Day Verification
+
+https://leetcode.com/problems/second-day-verification/[LeetCode - 3172. Second Day Verification ^]
+
+
+
+== 思路分析
+
+
+[[src-3172]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3172_SecondDayVerification.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3172_SecondDayVerification_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

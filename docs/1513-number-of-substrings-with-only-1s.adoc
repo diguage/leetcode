@@ -1,0 +1,79 @@
+[#1513-number-of-substrings-with-only-1s]
+= 1513. Number of Substrings With Only 1s
+
+https://leetcode.com/problems/number-of-substrings-with-only-1s/[LeetCode - 1513. Number of Substrings With Only 1s ^]
+
+Given a binary string `s`, return _the number of substrings with all characters_ `1`_'s_. Since the answer may be too large, return it modulo `10^9^ + 7`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "0110111"
+*Output:* 9
+*Explanation:* There are 9 substring in total with only 1's characters.
+"1" -> 5 times.
+"11" -> 3 times.
+"111" -> 1 time.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "101"
+*Output:* 2
+*Explanation:* Substring "1" is shown 2 times in s.
+
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "111111"
+*Output:* 21
+*Explanation:* Each substring contains only 1's characters.
+
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 10^5^`
+* `s[i]` is either `'0'` or `'1'`.
+
+
+
+
+== 思路分析
+
+
+[[src-1513]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1513_NumberOfSubstringsWithOnly1S.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1513_NumberOfSubstringsWithOnly1S_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

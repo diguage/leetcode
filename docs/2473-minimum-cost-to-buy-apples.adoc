@@ -1,0 +1,36 @@
+[#2473-minimum-cost-to-buy-apples]
+= 2473. Minimum Cost to Buy Apples
+
+https://leetcode.com/problems/minimum-cost-to-buy-apples/[LeetCode - 2473. Minimum Cost to Buy Apples ^]
+
+
+
+== 思路分析
+
+
+[[src-2473]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2473_MinimumCostToBuyApples.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2473_MinimumCostToBuyApples_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

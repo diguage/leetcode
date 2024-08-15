@@ -1,0 +1,36 @@
+[#1821-find-customers-with-positive-revenue-this-year]
+= 1821. Find Customers With Positive Revenue this Year
+
+https://leetcode.com/problems/find-customers-with-positive-revenue-this-year/[LeetCode - 1821. Find Customers With Positive Revenue this Year ^]
+
+
+
+== 思路分析
+
+
+[[src-1821]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1821_FindCustomersWithPositiveRevenueThisYear.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1821_FindCustomersWithPositiveRevenueThisYear_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

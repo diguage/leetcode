@@ -1,0 +1,36 @@
+[#2292-products-with-three-or-more-orders-in-two-consecutive-years]
+= 2292. Products With Three or More Orders in Two Consecutive Years
+
+https://leetcode.com/problems/products-with-three-or-more-orders-in-two-consecutive-years/[LeetCode - 2292. Products With Three or More Orders in Two Consecutive Years ^]
+
+
+
+== 思路分析
+
+
+[[src-2292]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2292_ProductsWithThreeOrMoreOrdersInTwoConsecutiveYears.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2292_ProductsWithThreeOrMoreOrdersInTwoConsecutiveYears_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

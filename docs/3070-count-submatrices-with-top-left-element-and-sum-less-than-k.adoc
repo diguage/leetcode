@@ -1,0 +1,71 @@
+[#3070-count-submatrices-with-top-left-element-and-sum-less-than-k]
+= 3070. Count Submatrices with Top-Left Element and Sum Less Than k
+
+https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/[LeetCode - 3070. Count Submatrices with Top-Left Element and Sum Less Than k ^]
+
+You are given a *0-indexed* integer matrix `grid` and an integer `k`.
+
+Return _the *number* of <span data-keyword="submatrix">submatrices that contain the top-left element of the_ `grid`, _and have a sum less than or equal to _`k`.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2024/01/01/example1.png" style="padding: 10px; background: #fff; border-radius: .5rem;" />
+[subs="verbatim,quotes"]
+----
+*Input:* grid = [[7,6,3],[6,6,1]], k = 18
+*Output:* 4
+*Explanation:* There are only 4 submatrices, shown in the image above, that contain the top-left element of grid, and have a sum less than or equal to 18.
+----
+
+<strong class="example">Example 2:*
+<img alt="" src="https://assets.leetcode.com/uploads/2024/01/01/example21.png" style="padding: 10px; background: #fff; border-radius: .5rem;" />
+[subs="verbatim,quotes"]
+----
+*Input:* grid = [[7,2,9],[1,5,0],[2,6,6]], k = 20
+*Output:* 6
+*Explanation:* There are only 6 submatrices, shown in the image above, that contain the top-left element of grid, and have a sum less than or equal to 20.
+
+----
+
+ 
+*Constraints:*
+
+
+* `m == grid.length `
+* `n == grid[i].length`
+* `1 <= n, m <= 1000 `
+* `0 <= grid[i][j] <= 1000`
+* `1 <= k <= 10^9^`
+
+
+
+
+== 思路分析
+
+
+[[src-3070]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3070_CountSubmatricesWithTopLeftElementAndSumLessThanK.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3070_CountSubmatricesWithTopLeftElementAndSumLessThanK_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2505-bitwise-or-of-all-subsequence-sums]
+= 2505. Bitwise OR of All Subsequence Sums
+
+https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums/[LeetCode - 2505. Bitwise OR of All Subsequence Sums ^]
+
+
+
+== 思路分析
+
+
+[[src-2505]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2505_BitwiseOrOfAllSubsequenceSums.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2505_BitwiseOrOfAllSubsequenceSums_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

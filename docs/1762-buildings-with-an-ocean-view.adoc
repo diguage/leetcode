@@ -1,0 +1,36 @@
+[#1762-buildings-with-an-ocean-view]
+= 1762. Buildings With an Ocean View
+
+https://leetcode.com/problems/buildings-with-an-ocean-view/[LeetCode - 1762. Buildings With an Ocean View ^]
+
+
+
+== 思路分析
+
+
+[[src-1762]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1762_BuildingsWithAnOceanView.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1762_BuildingsWithAnOceanView_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

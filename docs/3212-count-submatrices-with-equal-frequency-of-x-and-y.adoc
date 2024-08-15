@@ -1,0 +1,89 @@
+[#3212-count-submatrices-with-equal-frequency-of-x-and-y]
+= 3212. Count Submatrices With Equal Frequency of X and Y
+
+https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/[LeetCode - 3212. Count Submatrices With Equal Frequency of X and Y ^]
+
+Given a 2D character matrix `grid`, where `grid[i][j]` is either `'X'`, `'Y'`, or `'.'`, return the number of <span data-keyword="submatrix">submatrices that contain:
+
+
+* `grid[0][0]`
+* an *equal* frequency of `'X'` and `'Y'`.
+* *at least* one `'X'`.
+
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">grid = [["X","Y","."],["Y",".","."]]
+
+*Output:* <span class="example-io">3
+
+*Explanation:*
+
+*<img alt="" src="https://assets.leetcode.com/uploads/2024/06/07/examplems.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 175px; height: 350px;" />*
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">grid = [["X","X"],["X","Y"]]
+
+*Output:* <span class="example-io">0
+
+*Explanation:*
+
+No submatrix has an equal frequency of `'X'` and `'Y'`.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">grid = [[".","."],[".","."]]
+
+*Output:* <span class="example-io">0
+
+*Explanation:*
+
+No submatrix has at least one `'X'`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= grid.length, grid[i].length <= 1000`
+* `grid[i][j]` is either `'X'`, `'Y'`, or `'.'`.
+
+
+
+
+== 思路分析
+
+
+[[src-3212]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3212_CountSubmatricesWithEqualFrequencyOfXAndY.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3212_CountSubmatricesWithEqualFrequencyOfXAndY_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,86 @@
+[#2222-number-of-ways-to-select-buildings]
+= 2222. Number of Ways to Select Buildings
+
+https://leetcode.com/problems/number-of-ways-to-select-buildings/[LeetCode - 2222. Number of Ways to Select Buildings ^]
+
+You are given a *0-indexed* binary string `s` which represents the types of buildings along a street where:
+
+
+* `s[i] = '0'` denotes that the `i^th^` building is an office and
+* `s[i] = '1'` denotes that the `i^th^` building is a restaurant.
+
+
+As a city official, you would like to *select* 3 buildings for random inspection. However, to ensure variety, *no two consecutive* buildings out of the *selected* buildings can be of the same type.
+
+
+* For example, given `s = "0[.underline]#*0*#1[.underline]#*1*#0[.underline]#*1*#"`, we cannot select the `1^st^`, `3^rd^`, and `5^th^` buildings as that would form `"0*[.underline]#11#*"` which is *not* allowed due to having two consecutive buildings of the same type.
+
+
+Return _the *number of valid ways* to select 3 buildings._
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "001101"
+*Output:* 6
+*Explanation:* 
+The following sets of indices selected are valid:
+- [0,2,4] from "[.underline]#*0*#0*[.underline]#1#*1*[.underline]#0#*1" forms "010"
+- [0,3,4] from "[.underline]#*0*#01[.underline]#*10*#1" forms "010"
+- [1,2,4] from "0[.underline]#*01*#1[.underline]#*0*#1" forms "010"
+- [1,3,4] from "0[.underline]#*0*#1[.underline]#*10*#1" forms "010"
+- [2,4,5] from "00[.underline]#*1*#1[.underline]#*01*#" forms "101"
+- [3,4,5] from "001[.underline]#*101*#" forms "101"
+No other selection is valid. Thus, there are 6 total ways.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "11100"
+*Output:* 0
+*Explanation:* It can be shown that there are no valid selections.
+----
+
+ 
+*Constraints:*
+
+
+* `3 <= s.length <= 10^5^`
+* `s[i]` is either `'0'` or `'1'`.
+
+
+
+
+== 思路分析
+
+
+[[src-2222]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2222_NumberOfWaysToSelectBuildings.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2222_NumberOfWaysToSelectBuildings_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2371-minimize-maximum-value-in-a-grid]
+= 2371. Minimize Maximum Value in a Grid
+
+https://leetcode.com/problems/minimize-maximum-value-in-a-grid/[LeetCode - 2371. Minimize Maximum Value in a Grid ^]
+
+
+
+== 思路分析
+
+
+[[src-2371]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2371_MinimizeMaximumValueInAGrid.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2371_MinimizeMaximumValueInAGrid_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

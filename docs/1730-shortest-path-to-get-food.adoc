@@ -1,0 +1,36 @@
+[#1730-shortest-path-to-get-food]
+= 1730. Shortest Path to Get Food
+
+https://leetcode.com/problems/shortest-path-to-get-food/[LeetCode - 1730. Shortest Path to Get Food ^]
+
+
+
+== 思路分析
+
+
+[[src-1730]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1730_ShortestPathToGetFood.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1730_ShortestPathToGetFood_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2041-accepted-candidates-from-the-interviews]
+= 2041. Accepted Candidates From the Interviews
+
+https://leetcode.com/problems/accepted-candidates-from-the-interviews/[LeetCode - 2041. Accepted Candidates From the Interviews ^]
+
+
+
+== 思路分析
+
+
+[[src-2041]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2041_AcceptedCandidatesFromTheInterviews.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2041_AcceptedCandidatesFromTheInterviews_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

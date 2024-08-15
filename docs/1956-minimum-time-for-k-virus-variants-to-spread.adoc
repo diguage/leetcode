@@ -1,0 +1,36 @@
+[#1956-minimum-time-for-k-virus-variants-to-spread]
+= 1956. Minimum Time For K Virus Variants to Spread
+
+https://leetcode.com/problems/minimum-time-for-k-virus-variants-to-spread/[LeetCode - 1956. Minimum Time For K Virus Variants to Spread ^]
+
+
+
+== 思路分析
+
+
+[[src-1956]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1956_MinimumTimeForKVirusVariantsToSpread.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1956_MinimumTimeForKVirusVariantsToSpread_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

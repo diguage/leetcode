@@ -1,0 +1,36 @@
+[#2590-design-a-todo-list]
+= 2590. Design a Todo List
+
+https://leetcode.com/problems/design-a-todo-list/[LeetCode - 2590. Design a Todo List ^]
+
+
+
+== 思路分析
+
+
+[[src-2590]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2590_DesignATodoList.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2590_DesignATodoList_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

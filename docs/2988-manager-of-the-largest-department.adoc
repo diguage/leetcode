@@ -1,0 +1,36 @@
+[#2988-manager-of-the-largest-department]
+= 2988. Manager of the Largest Department
+
+https://leetcode.com/problems/manager-of-the-largest-department/[LeetCode - 2988. Manager of the Largest Department ^]
+
+
+
+== 思路分析
+
+
+[[src-2988]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2988_ManagerOfTheLargestDepartment.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2988_ManagerOfTheLargestDepartment_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

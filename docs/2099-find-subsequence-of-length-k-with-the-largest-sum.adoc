@@ -1,0 +1,85 @@
+[#2099-find-subsequence-of-length-k-with-the-largest-sum]
+= 2099. Find Subsequence of Length K With the Largest Sum
+
+https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/[LeetCode - 2099. Find Subsequence of Length K With the Largest Sum ^]
+
+You are given an integer array `nums` and an integer `k`. You want to find a *subsequence *of `nums` of length `k` that has the *largest* sum.
+
+Return_ __*any* such subsequence as an integer array of length _`k`.
+
+A *subsequence* is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [2,1,3,3], k = 2
+*Output:* [3,3]
+*Explanation:*
+The subsequence has the largest sum of 3 + 3 = 6.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [-1,-2,3,4], k = 3
+*Output:* [-1,3,4]
+*Explanation:* 
+The subsequence has the largest sum of -1 + 3 + 4 = 6.
+
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [3,4,3,3], k = 2
+*Output:* [3,4]
+*Explanation:*
+The subsequence has the largest sum of 3 + 4 = 7. 
+Another possible subsequence is [4, 3].
+
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 1000`
+* `-10^5^ <= nums[i] <= 10^5^`
+* `1 <= k <= nums.length`
+
+
+
+
+== 思路分析
+
+
+[[src-2099]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2099_FindSubsequenceOfLengthKWithTheLargestSum.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2099_FindSubsequenceOfLengthKWithTheLargestSum_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

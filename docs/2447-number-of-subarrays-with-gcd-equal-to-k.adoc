@@ -1,0 +1,73 @@
+[#2447-number-of-subarrays-with-gcd-equal-to-k]
+= 2447. Number of Subarrays With GCD Equal to K
+
+https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/[LeetCode - 2447. Number of Subarrays With GCD Equal to K ^]
+
+Given an integer array `nums` and an integer `k`, return _the number of *subarrays* of _`nums`_ where the greatest common divisor of the subarray's elements is _`k`.
+
+A *subarray* is a contiguous non-empty sequence of elements within an array.
+
+The *greatest common divisor of an array* is the largest integer that evenly divides all the array elements.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [9,3,1,2,6,3], k = 3
+*Output:* 4
+*Explanation:* The subarrays of nums where 3 is the greatest common divisor of all the subarray's elements are:
+- [9,[.underline]#*3*#,1,2,6,3]
+- [9,3,1,2,6,[.underline]#*3*#]
+- [[.underline]#*9,3*#,1,2,6,3]
+- [9,3,1,2,[.underline]#*6,3*#]
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [4], k = 7
+*Output:* 0
+*Explanation:* There are no subarrays of nums where 7 is the greatest common divisor of all the subarray's elements.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 1000`
+* `1 <= nums[i], k <= 10^9^`
+
+
+
+
+== 思路分析
+
+
+[[src-2447]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2447_NumberOfSubarraysWithGcdEqualToK.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2447_NumberOfSubarraysWithGcdEqualToK_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

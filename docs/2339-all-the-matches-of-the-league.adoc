@@ -1,0 +1,36 @@
+[#2339-all-the-matches-of-the-league]
+= 2339. All the Matches of the League
+
+https://leetcode.com/problems/all-the-matches-of-the-league/[LeetCode - 2339. All the Matches of the League ^]
+
+
+
+== 思路分析
+
+
+[[src-2339]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2339_AllTheMatchesOfTheLeague.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2339_AllTheMatchesOfTheLeague_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

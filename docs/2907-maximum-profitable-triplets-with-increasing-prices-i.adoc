@@ -1,0 +1,36 @@
+[#2907-maximum-profitable-triplets-with-increasing-prices-i]
+= 2907. Maximum Profitable Triplets With Increasing Prices I
+
+https://leetcode.com/problems/maximum-profitable-triplets-with-increasing-prices-i/[LeetCode - 2907. Maximum Profitable Triplets With Increasing Prices I ^]
+
+
+
+== 思路分析
+
+
+[[src-2907]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2907_MaximumProfitableTripletsWithIncreasingPricesI.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2907_MaximumProfitableTripletsWithIncreasingPricesI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2795-parallel-execution-of-promises-for-individual-results-retrieval]
+= 2795. Parallel Execution of Promises for Individual Results Retrieval
+
+https://leetcode.com/problems/parallel-execution-of-promises-for-individual-results-retrieval/[LeetCode - 2795. Parallel Execution of Promises for Individual Results Retrieval ^]
+
+
+
+== 思路分析
+
+
+[[src-2795]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2795_ParallelExecutionOfPromisesForIndividualResultsRetrieval.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2795_ParallelExecutionOfPromisesForIndividualResultsRetrieval_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

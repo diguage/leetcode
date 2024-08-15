@@ -1,0 +1,84 @@
+[#2588-count-the-number-of-beautiful-subarrays]
+= 2588. Count the Number of Beautiful Subarrays
+
+https://leetcode.com/problems/count-the-number-of-beautiful-subarrays/[LeetCode - 2588. Count the Number of Beautiful Subarrays ^]
+
+You are given a *0-indexed* integer array `nums`. In one operation, you can:
+
+
+* Choose two different indices `i` and `j` such that `0 <= i, j < nums.length`.
+* Choose a non-negative integer `k` such that the `k^th^` bit (*0-indexed*) in the binary representation of `nums[i]` and `nums[j]` is `1`.
+* Subtract `2^k^` from `nums[i]` and `nums[j]`.
+
+
+A subarray is *beautiful* if it is possible to make all of its elements equal to `0` after applying the above operation any number of times.
+
+Return _the number of *beautiful subarrays* in the array_ `nums`.
+
+A subarray is a contiguous *non-empty* sequence of elements within an array.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [4,3,1,2,4]
+*Output:* 2
+*Explanation:* There are 2 beautiful subarrays in nums: [4,[.underline]#3,1,2#,4] and [[.underline]#4,3,1,2,4#].
+- We can make all elements in the subarray [3,1,2] equal to 0 in the following way:
+  - Choose [[.underline]#3#, 1, [.underline]#2#] and k = 1. Subtract 2^1^ from both numbers. The subarray becomes [1, 1, 0].
+  - Choose [[.underline]#1#, [.underline]#1#, 0] and k = 0. Subtract 2^0^ from both numbers. The subarray becomes [0, 0, 0].
+- We can make all elements in the subarray [4,3,1,2,4] equal to 0 in the following way:
+  - Choose [[.underline]#4#, 3, 1, 2, [.underline]#4#] and k = 2. Subtract 2^2^ from both numbers. The subarray becomes [0, 3, 1, 2, 0].
+  - Choose [0, [.underline]#3#, [.underline]#1#, 2, 0] and k = 0. Subtract 2^0^ from both numbers. The subarray becomes [0, 2, 0, 2, 0].
+  - Choose [0, [.underline]#2#, 0, [.underline]#2#, 0] and k = 1. Subtract 2^1^ from both numbers. The subarray becomes [0, 0, 0, 0, 0].
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [1,10,4]
+*Output:* 0
+*Explanation:* There are no beautiful subarrays in nums.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 10^5^`
+* `0 <= nums[i] <= 10^6^`
+
+
+
+
+== 思路分析
+
+
+[[src-2588]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2588_CountTheNumberOfBeautifulSubarrays.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2588_CountTheNumberOfBeautifulSubarrays_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

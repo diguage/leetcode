@@ -1,0 +1,36 @@
+[#2173-longest-winning-streak]
+= 2173. Longest Winning Streak
+
+https://leetcode.com/problems/longest-winning-streak/[LeetCode - 2173. Longest Winning Streak ^]
+
+
+
+== 思路分析
+
+
+[[src-2173]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2173_LongestWinningStreak.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2173_LongestWinningStreak_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

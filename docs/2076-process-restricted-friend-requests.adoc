@@ -1,0 +1,99 @@
+[#2076-process-restricted-friend-requests]
+= 2076. Process Restricted Friend Requests
+
+https://leetcode.com/problems/process-restricted-friend-requests/[LeetCode - 2076. Process Restricted Friend Requests ^]
+
+You are given an integer `n` indicating the number of people in a network. Each person is labeled from `0` to `n - 1`.
+
+You are also given a *0-indexed* 2D integer array `restrictions`, where `restrictions[i] = [x<sub>i</sub>, y<sub>i</sub>]` means that person `x<sub>i</sub>` and person `y<sub>i</sub>` *cannot *become *friends*,* *either *directly* or *indirectly* through other people.
+
+Initially, no one is friends with each other. You are given a list of friend requests as a *0-indexed* 2D integer array `requests`, where `requests[j] = [u<sub>j</sub>, v<sub>j</sub>]` is a friend request between person `u<sub>j</sub>` and person `v<sub>j</sub>`.
+
+A friend request is *successful *if `u<sub>j</sub>` and `v<sub>j</sub>` can be *friends*. Each friend request is processed in the given order (i.e., `requests[j]` occurs before `requests[j + 1]`), and upon a successful request, `u<sub>j</sub>` and `v<sub>j</sub>` *become direct friends* for all future friend requests.
+
+Return _a *boolean array* _`result`,_ where each _`result[j]`_ is _`true`_ if the _`j^th^`_ friend request is *successful* or _`false`_ if it is not_.
+
+*Note:* If `u<sub>j</sub>` and `v<sub>j</sub>` are already direct friends, the request is still *successful*.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 3, restrictions = [[0,1]], requests = [[0,2],[2,1]]
+*Output:* [true,false]
+*Explanation:
+*Request 0: Person 0 and person 2 can be friends, so they become direct friends. 
+Request 1: Person 2 and person 1 cannot be friends since person 0 and person 1 would be indirect friends (1--2--0).
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 3, restrictions = [[0,1]], requests = [[1,2],[0,2]]
+*Output:* [true,false]
+*Explanation:
+*Request 0: Person 1 and person 2 can be friends, so they become direct friends.
+Request 1: Person 0 and person 2 cannot be friends since person 0 and person 1 would be indirect friends (0--2--1).
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 5, restrictions = [[0,1],[1,2],[2,3]], requests = [[0,4],[1,2],[3,1],[3,4]]
+*Output:* [true,false,true,false]
+*Explanation:
+*Request 0: Person 0 and person 4 can be friends, so they become direct friends.
+Request 1: Person 1 and person 2 cannot be friends since they are directly restricted.
+Request 2: Person 3 and person 1 can be friends, so they become direct friends.
+Request 3: Person 3 and person 4 cannot be friends since person 0 and person 1 would be indirect friends (0--4--3--1).
+----
+
+ 
+*Constraints:*
+
+
+* `2 <= n <= 1000`
+* `0 <= restrictions.length <= 1000`
+* `restrictions[i].length == 2`
+* `0 <= x<sub>i</sub>, y<sub>i</sub> <= n - 1`
+* `x<sub>i</sub> != y<sub>i</sub>`
+* `1 <= requests.length <= 1000`
+* `requests[j].length == 2`
+* `0 <= u<sub>j</sub>, v<sub>j</sub> <= n - 1`
+* `u<sub>j</sub> != v<sub>j</sub>`
+
+
+
+
+== 思路分析
+
+
+[[src-2076]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2076_ProcessRestrictedFriendRequests.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2076_ProcessRestrictedFriendRequests_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

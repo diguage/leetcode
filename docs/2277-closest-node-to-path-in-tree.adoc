@@ -1,0 +1,36 @@
+[#2277-closest-node-to-path-in-tree]
+= 2277. Closest Node to Path in Tree
+
+https://leetcode.com/problems/closest-node-to-path-in-tree/[LeetCode - 2277. Closest Node to Path in Tree ^]
+
+
+
+== 思路分析
+
+
+[[src-2277]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2277_ClosestNodeToPathInTree.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2277_ClosestNodeToPathInTree_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

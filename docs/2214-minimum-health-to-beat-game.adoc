@@ -1,0 +1,36 @@
+[#2214-minimum-health-to-beat-game]
+= 2214. Minimum Health to Beat Game
+
+https://leetcode.com/problems/minimum-health-to-beat-game/[LeetCode - 2214. Minimum Health to Beat Game ^]
+
+
+
+== 思路分析
+
+
+[[src-2214]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2214_MinimumHealthToBeatGame.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2214_MinimumHealthToBeatGame_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

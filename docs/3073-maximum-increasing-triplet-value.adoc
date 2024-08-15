@@ -1,0 +1,36 @@
+[#3073-maximum-increasing-triplet-value]
+= 3073. Maximum Increasing Triplet Value
+
+https://leetcode.com/problems/maximum-increasing-triplet-value/[LeetCode - 3073. Maximum Increasing Triplet Value ^]
+
+
+
+== 思路分析
+
+
+[[src-3073]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3073_MaximumIncreasingTripletValue.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3073_MaximumIncreasingTripletValue_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

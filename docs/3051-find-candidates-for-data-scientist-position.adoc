@@ -1,0 +1,36 @@
+[#3051-find-candidates-for-data-scientist-position]
+= 3051. Find Candidates for Data Scientist Position
+
+https://leetcode.com/problems/find-candidates-for-data-scientist-position/[LeetCode - 3051. Find Candidates for Data Scientist Position ^]
+
+
+
+== 思路分析
+
+
+[[src-3051]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3051_FindCandidatesForDataScientistPosition.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3051_FindCandidatesForDataScientistPosition_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

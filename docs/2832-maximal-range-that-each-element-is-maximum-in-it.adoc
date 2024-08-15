@@ -1,0 +1,36 @@
+[#2832-maximal-range-that-each-element-is-maximum-in-it]
+= 2832. Maximal Range That Each Element Is Maximum in It
+
+https://leetcode.com/problems/maximal-range-that-each-element-is-maximum-in-it/[LeetCode - 2832. Maximal Range That Each Element Is Maximum in It ^]
+
+
+
+== 思路分析
+
+
+[[src-2832]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2832_MaximalRangeThatEachElementIsMaximumInIt.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2832_MaximalRangeThatEachElementIsMaximumInIt_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

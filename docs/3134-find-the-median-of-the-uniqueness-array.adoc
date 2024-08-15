@@ -1,0 +1,89 @@
+[#3134-find-the-median-of-the-uniqueness-array]
+= 3134. Find the Median of the Uniqueness Array
+
+https://leetcode.com/problems/find-the-median-of-the-uniqueness-array/[LeetCode - 3134. Find the Median of the Uniqueness Array ^]
+
+You are given an integer array `nums`. The *uniqueness array* of `nums` is the sorted array that contains the number of distinct elements of all the <span data-keyword="subarray-nonempty">subarrays of `nums`. In other words, it is a sorted array consisting of `distinct(nums[i..j])`, for all `0 <= i <= j < nums.length`.
+
+Here, `distinct(nums[i..j])` denotes the number of distinct elements in the subarray that starts at index `i` and ends at index `j`.
+
+Return the *median* of the *uniqueness array* of `nums`.
+
+*Note* that the *median* of an array is defined as the middle element of the array when it is sorted in non-decreasing order. If there are two choices for a median, the *smaller* of the two values is taken.<!-- notionvc: 7e0f5178-4273-4a82-95ce-3395297921dc -->
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,2,3]
+
+*Output:* <span class="example-io">1
+
+*Explanation:*
+
+The uniqueness array of `nums` is `[distinct(nums[0..0]), distinct(nums[1..1]), distinct(nums[2..2]), distinct(nums[0..1]), distinct(nums[1..2]), distinct(nums[0..2])]` which is equal to `[1, 1, 1, 2, 2, 3]`. The uniqueness array has a median of 1. Therefore, the answer is 1.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [3,4,3,4,5]
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+The uniqueness array of `nums` is `[1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3]`. The uniqueness array has a median of 2. Therefore, the answer is 2.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [4,3,5,4]
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+The uniqueness array of `nums` is `[1, 1, 1, 1, 2, 2, 2, 3, 3, 3]`. The uniqueness array has a median of 2. Therefore, the answer is 2.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 10^5^`
+* `1 <= nums[i] <= 10^5^`
+
+
+
+
+== 思路分析
+
+
+[[src-3134]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3134_FindTheMedianOfTheUniquenessArray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3134_FindTheMedianOfTheUniquenessArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

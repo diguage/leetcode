@@ -1,0 +1,36 @@
+[#2021-brightest-position-on-street]
+= 2021. Brightest Position on Street
+
+https://leetcode.com/problems/brightest-position-on-street/[LeetCode - 2021. Brightest Position on Street ^]
+
+
+
+== 思路分析
+
+
+[[src-2021]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2021_BrightestPositionOnStreet.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2021_BrightestPositionOnStreet_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

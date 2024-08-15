@@ -1,0 +1,36 @@
+[#2782-number-of-unique-categories]
+= 2782. Number of Unique Categories
+
+https://leetcode.com/problems/number-of-unique-categories/[LeetCode - 2782. Number of Unique Categories ^]
+
+
+
+== 思路分析
+
+
+[[src-2782]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2782_NumberOfUniqueCategories.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2782_NumberOfUniqueCategories_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2093-minimum-cost-to-reach-city-with-discounts]
+= 2093. Minimum Cost to Reach City With Discounts
+
+https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts/[LeetCode - 2093. Minimum Cost to Reach City With Discounts ^]
+
+
+
+== 思路分析
+
+
+[[src-2093]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2093_MinimumCostToReachCityWithDiscounts.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2093_MinimumCostToReachCityWithDiscounts_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

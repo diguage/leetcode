@@ -1,0 +1,36 @@
+[#2797-partial-function-with-placeholders]
+= 2797. Partial Function with Placeholders
+
+https://leetcode.com/problems/partial-function-with-placeholders/[LeetCode - 2797. Partial Function with Placeholders ^]
+
+
+
+== 思路分析
+
+
+[[src-2797]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2797_PartialFunctionWithPlaceholders.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2797_PartialFunctionWithPlaceholders_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

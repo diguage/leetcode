@@ -1,0 +1,36 @@
+[#2690-infinite-method-object]
+= 2690. Infinite Method Object
+
+https://leetcode.com/problems/infinite-method-object/[LeetCode - 2690. Infinite Method Object ^]
+
+
+
+== 思路分析
+
+
+[[src-2690]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2690_InfiniteMethodObject.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2690_InfiniteMethodObject_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

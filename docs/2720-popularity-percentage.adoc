@@ -1,0 +1,36 @@
+[#2720-popularity-percentage]
+= 2720. Popularity Percentage
+
+https://leetcode.com/problems/popularity-percentage/[LeetCode - 2720. Popularity Percentage ^]
+
+
+
+== 思路分析
+
+
+[[src-2720]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2720_PopularityPercentage.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2720_PopularityPercentage_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

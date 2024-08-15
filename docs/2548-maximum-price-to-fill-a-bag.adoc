@@ -1,0 +1,36 @@
+[#2548-maximum-price-to-fill-a-bag]
+= 2548. Maximum Price to Fill a Bag
+
+https://leetcode.com/problems/maximum-price-to-fill-a-bag/[LeetCode - 2548. Maximum Price to Fill a Bag ^]
+
+
+
+== 思路分析
+
+
+[[src-2548]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2548_MaximumPriceToFillABag.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2548_MaximumPriceToFillABag_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

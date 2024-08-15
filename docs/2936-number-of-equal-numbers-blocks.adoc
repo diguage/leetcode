@@ -1,0 +1,36 @@
+[#2936-number-of-equal-numbers-blocks]
+= 2936. Number of Equal Numbers Blocks
+
+https://leetcode.com/problems/number-of-equal-numbers-blocks/[LeetCode - 2936. Number of Equal Numbers Blocks ^]
+
+
+
+== 思路分析
+
+
+[[src-2936]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2936_NumberOfEqualNumbersBlocks.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2936_NumberOfEqualNumbersBlocks_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2758-next-day]
+= 2758. Next Day
+
+https://leetcode.com/problems/next-day/[LeetCode - 2758. Next Day ^]
+
+
+
+== 思路分析
+
+
+[[src-2758]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2758_NextDay.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2758_NextDay_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2228-users-with-two-purchases-within-seven-days]
+= 2228. Users With Two Purchases Within Seven Days
+
+https://leetcode.com/problems/users-with-two-purchases-within-seven-days/[LeetCode - 2228. Users With Two Purchases Within Seven Days ^]
+
+
+
+== 思路分析
+
+
+[[src-2228]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2228_UsersWithTwoPurchasesWithinSevenDays.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2228_UsersWithTwoPurchasesWithinSevenDays_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

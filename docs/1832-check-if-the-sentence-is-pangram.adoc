@@ -1,0 +1,66 @@
+[#1832-check-if-the-sentence-is-pangram]
+= 1832. Check if the Sentence Is Pangram
+
+https://leetcode.com/problems/check-if-the-sentence-is-pangram/[LeetCode - 1832. Check if the Sentence Is Pangram ^]
+
+A *pangram* is a sentence where every letter of the English alphabet appears at least once.
+
+Given a string `sentence` containing only lowercase English letters, return_ _`true`_ if _`sentence`_ is a *pangram*, or _`false`_ otherwise._
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* sentence = "thequickbrownfoxjumpsoverthelazydog"
+*Output:* true
+*Explanation:* sentence contains at least one of every letter of the English alphabet.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* sentence = "leetcode"
+*Output:* false
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= sentence.length <= 1000`
+* `sentence` consists of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-1832]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1832_CheckIfTheSentenceIsPangram.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1832_CheckIfTheSentenceIsPangram_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,71 @@
+[#1781-sum-of-beauty-of-all-substrings]
+= 1781. Sum of Beauty of All Substrings
+
+https://leetcode.com/problems/sum-of-beauty-of-all-substrings/[LeetCode - 1781. Sum of Beauty of All Substrings ^]
+
+The *beauty* of a string is the difference in frequencies between the most frequent and least frequent characters.
+
+
+* For example, the beauty of `"abaacc"` is `3 - 1 = 2`.
+
+
+Given a string `s`, return _the sum of *beauty* of all of its substrings._
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "aabcb"
+*Output:* 5
+*Explanation: *The substrings with non-zero beauty are ["aab","aabc","aabcb","abcb","bcb"], each with beauty equal to 1.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "aabcbaa"
+*Output:* 17
+
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <=^ ^500`
+* `s` consists of only lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-1781]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1781_SumOfBeautyOfAllSubstrings.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1781_SumOfBeautyOfAllSubstrings_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

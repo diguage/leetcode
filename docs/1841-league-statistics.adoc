@@ -1,0 +1,36 @@
+[#1841-league-statistics]
+= 1841. League Statistics
+
+https://leetcode.com/problems/league-statistics/[LeetCode - 1841. League Statistics ^]
+
+
+
+== 思路分析
+
+
+[[src-1841]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1841_LeagueStatistics.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1841_LeagueStatistics_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

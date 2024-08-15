@@ -1,0 +1,36 @@
+[#1506-find-root-of-n-ary-tree]
+= 1506. Find Root of N-Ary Tree
+
+https://leetcode.com/problems/find-root-of-n-ary-tree/[LeetCode - 1506. Find Root of N-Ary Tree ^]
+
+
+
+== 思路分析
+
+
+[[src-1506]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1506_FindRootOfNAryTree.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1506_FindRootOfNAryTree_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

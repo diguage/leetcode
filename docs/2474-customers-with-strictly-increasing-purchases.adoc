@@ -1,0 +1,36 @@
+[#2474-customers-with-strictly-increasing-purchases]
+= 2474. Customers With Strictly Increasing Purchases
+
+https://leetcode.com/problems/customers-with-strictly-increasing-purchases/[LeetCode - 2474. Customers With Strictly Increasing Purchases ^]
+
+
+
+== 思路分析
+
+
+[[src-2474]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2474_CustomersWithStrictlyIncreasingPurchases.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2474_CustomersWithStrictlyIncreasingPurchases_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,77 @@
+[#2481-minimum-cuts-to-divide-a-circle]
+= 2481. Minimum Cuts to Divide a Circle
+
+https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/[LeetCode - 2481. Minimum Cuts to Divide a Circle ^]
+
+A *valid cut* in a circle can be:
+
+
+* A cut that is represented by a straight line that touches two points on the edge of the circle and passes through its center, or
+* A cut that is represented by a straight line that touches one point on the edge of the circle and its center.
+
+
+Some valid and invalid cuts are shown in the figures below.
+<img alt="" src="https://assets.leetcode.com/uploads/2022/10/29/alldrawio.png" style="width: 450px; height: 174px;" />
+Given the integer `n`, return _the *minimum* number of cuts needed to divide a circle into _`n`_ equal slices_.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2022/10/24/11drawio.png" style="width: 200px; height: 200px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* n = 4
+*Output:* 2
+*Explanation:* 
+The above figure shows how cutting the circle twice through the middle divides it into 4 equal slices.
+----
+
+<strong class="example">Example 2:*
+<img alt="" src="https://assets.leetcode.com/uploads/2022/10/24/22drawio.png" style="width: 200px; height: 201px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* n = 3
+*Output:* 3
+*Explanation:*
+At least 3 cuts are needed to divide the circle into 3 equal slices. 
+It can be shown that less than 3 cuts cannot result in 3 slices of equal size and shape.
+Also note that the first cut will not divide the circle into distinct parts.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 100`
+
+
+
+
+== 思路分析
+
+
+[[src-2481]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2481_MinimumCutsToDivideACircle.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2481_MinimumCutsToDivideACircle_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

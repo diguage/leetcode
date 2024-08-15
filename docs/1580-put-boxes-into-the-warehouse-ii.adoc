@@ -1,0 +1,36 @@
+[#1580-put-boxes-into-the-warehouse-ii]
+= 1580. Put Boxes Into the Warehouse II
+
+https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/[LeetCode - 1580. Put Boxes Into the Warehouse II ^]
+
+
+
+== 思路分析
+
+
+[[src-1580]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1580_PutBoxesIntoTheWarehouseIi.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1580_PutBoxesIntoTheWarehouseIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

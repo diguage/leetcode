@@ -1,0 +1,91 @@
+[#3163-string-compression-iii]
+= 3163. String Compression III
+
+https://leetcode.com/problems/string-compression-iii/[LeetCode - 3163. String Compression III ^]
+
+Given a string `word`, compress it using the following algorithm:
+
+
+* Begin with an empty string `comp`. While `word` is *not* empty, use the following operation:
+
+	
+	* Remove a maximum length prefix of `word` made of a _single character_ `c` repeating *at most* 9 times.
+	* Append the length of the prefix followed by `c` to `comp`.
+	
+	
+
+
+Return the string `comp`.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">word = "abcde"
+
+*Output:* <span class="example-io">"1a1b1c1d1e"
+
+*Explanation:*
+
+Initially, `comp = ""`. Apply the operation 5 times, choosing `"a"`, `"b"`, `"c"`, `"d"`, and `"e"` as the prefix in each operation.
+
+For each prefix, append `"1"` followed by the character to `comp`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">word = "aaaaaaaaaaaaaabb"
+
+*Output:* <span class="example-io">"9a5a2b"
+
+*Explanation:*
+
+Initially, `comp = ""`. Apply the operation 3 times, choosing `"aaaaaaaaa"`, `"aaaaa"`, and `"bb"` as the prefix in each operation.
+
+
+* For prefix `"aaaaaaaaa"`, append `"9"` followed by `"a"` to `comp`.
+* For prefix `"aaaaa"`, append `"5"` followed by `"a"` to `comp`.
+* For prefix `"bb"`, append `"2"` followed by `"b"` to `comp`.
+
+
+
+ 
+*Constraints:*
+
+
+* `1 <= word.length <= 2 * 10^5^`
+* `word` consists only of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-3163]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3163_StringCompressionIii.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3163_StringCompressionIii_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

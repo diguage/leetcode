@@ -1,0 +1,36 @@
+[#1677-products-worth-over-invoices]
+= 1677. Product's Worth Over Invoices
+
+https://leetcode.com/problems/products-worth-over-invoices/[LeetCode - 1677. Product's Worth Over Invoices ^]
+
+
+
+== 思路分析
+
+
+[[src-1677]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1677_ProductSWorthOverInvoices.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1677_ProductSWorthOverInvoices_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

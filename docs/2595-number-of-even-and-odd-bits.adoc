@@ -1,0 +1,82 @@
+[#2595-number-of-even-and-odd-bits]
+= 2595. Number of Even and Odd Bits
+
+https://leetcode.com/problems/number-of-even-and-odd-bits/[LeetCode - 2595. Number of Even and Odd Bits ^]
+
+You are given a *positive* integer `n`.
+
+Let `even` denote the number of even indices in the binary representation of `n` with value 1.
+
+Let `odd` denote the number of odd indices in the binary representation of `n` with value 1.
+
+Note that bits are indexed from *right to left* in the binary representation of a number.
+
+Return the array `[even, odd]`.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 50
+
+*Output:* <span class="example-io">[1,2]
+
+*Explanation:*
+
+The binary representation of 50 is `110010`.
+
+It contains 1 on indices 1, 4, and 5.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 2
+
+*Output:* <span class="example-io">[0,1]
+
+*Explanation:*
+
+The binary representation of 2 is `10`.
+
+It contains 1 only on index 1.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 1000`
+
+
+
+
+== 思路分析
+
+
+[[src-2595]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2595_NumberOfEvenAndOddBits.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2595_NumberOfEvenAndOddBits_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

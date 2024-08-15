@@ -1,0 +1,36 @@
+[#2372-calculate-the-influence-of-each-salesperson]
+= 2372. Calculate the Influence of Each Salesperson
+
+https://leetcode.com/problems/calculate-the-influence-of-each-salesperson/[LeetCode - 2372. Calculate the Influence of Each Salesperson ^]
+
+
+
+== 思路分析
+
+
+[[src-2372]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2372_CalculateTheInfluenceOfEachSalesperson.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2372_CalculateTheInfluenceOfEachSalesperson_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

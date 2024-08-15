@@ -1,0 +1,36 @@
+[#1440-evaluate-boolean-expression]
+= 1440. Evaluate Boolean Expression
+
+https://leetcode.com/problems/evaluate-boolean-expression/[LeetCode - 1440. Evaluate Boolean Expression ^]
+
+
+
+== 思路分析
+
+
+[[src-1440]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1440_EvaluateBooleanExpression.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1440_EvaluateBooleanExpression_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

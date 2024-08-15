@@ -1,0 +1,36 @@
+[#1532-the-most-recent-three-orders]
+= 1532. The Most Recent Three Orders
+
+https://leetcode.com/problems/the-most-recent-three-orders/[LeetCode - 1532. The Most Recent Three Orders ^]
+
+
+
+== 思路分析
+
+
+[[src-1532]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1532_TheMostRecentThreeOrders.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1532_TheMostRecentThreeOrders_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

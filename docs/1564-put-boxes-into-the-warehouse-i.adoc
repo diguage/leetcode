@@ -1,0 +1,36 @@
+[#1564-put-boxes-into-the-warehouse-i]
+= 1564. Put Boxes Into the Warehouse I
+
+https://leetcode.com/problems/put-boxes-into-the-warehouse-i/[LeetCode - 1564. Put Boxes Into the Warehouse I ^]
+
+
+
+== 思路分析
+
+
+[[src-1564]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1564_PutBoxesIntoTheWarehouseI.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1564_PutBoxesIntoTheWarehouseI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

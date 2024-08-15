@@ -1,0 +1,36 @@
+[#3037-find-pattern-in-infinite-stream-ii]
+= 3037. Find Pattern in Infinite Stream II
+
+https://leetcode.com/problems/find-pattern-in-infinite-stream-ii/[LeetCode - 3037. Find Pattern in Infinite Stream II ^]
+
+
+
+== 思路分析
+
+
+[[src-3037]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3037_FindPatternInInfiniteStreamIi.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3037_FindPatternInInfiniteStreamIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

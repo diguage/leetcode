@@ -1,0 +1,36 @@
+[#2969-minimum-number-of-coins-for-fruits-ii]
+= 2969. Minimum Number of Coins for Fruits II
+
+https://leetcode.com/problems/minimum-number-of-coins-for-fruits-ii/[LeetCode - 2969. Minimum Number of Coins for Fruits II ^]
+
+
+
+== 思路分析
+
+
+[[src-2969]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2969_MinimumNumberOfCoinsForFruitsIi.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2969_MinimumNumberOfCoinsForFruitsIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

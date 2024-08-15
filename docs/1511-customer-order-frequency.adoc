@@ -1,0 +1,36 @@
+[#1511-customer-order-frequency]
+= 1511. Customer Order Frequency
+
+https://leetcode.com/problems/customer-order-frequency/[LeetCode - 1511. Customer Order Frequency ^]
+
+
+
+== 思路分析
+
+
+[[src-1511]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1511_CustomerOrderFrequency.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1511_CustomerOrderFrequency_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

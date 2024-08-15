@@ -1,0 +1,36 @@
+[#2664-the-knights-tour]
+= 2664. The Knight’s Tour
+
+https://leetcode.com/problems/the-knights-tour/[LeetCode - 2664. The Knight’s Tour ^]
+
+
+
+== 思路分析
+
+
+[[src-2664]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2664_TheKnightSTour.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2664_TheKnightSTour_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2417-closest-fair-integer]
+= 2417. Closest Fair Integer
+
+https://leetcode.com/problems/closest-fair-integer/[LeetCode - 2417. Closest Fair Integer ^]
+
+
+
+== 思路分析
+
+
+[[src-2417]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2417_ClosestFairInteger.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2417_ClosestFairInteger_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

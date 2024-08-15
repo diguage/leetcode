@@ -1,0 +1,36 @@
+[#2539-count-the-number-of-good-subsequences]
+= 2539. Count the Number of Good Subsequences
+
+https://leetcode.com/problems/count-the-number-of-good-subsequences/[LeetCode - 2539. Count the Number of Good Subsequences ^]
+
+
+
+== 思路分析
+
+
+[[src-2539]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2539_CountTheNumberOfGoodSubsequences.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2539_CountTheNumberOfGoodSubsequences_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

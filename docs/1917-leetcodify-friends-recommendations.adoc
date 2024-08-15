@@ -1,0 +1,36 @@
+[#1917-leetcodify-friends-recommendations]
+= 1917. Leetcodify Friends Recommendations
+
+https://leetcode.com/problems/leetcodify-friends-recommendations/[LeetCode - 1917. Leetcodify Friends Recommendations ^]
+
+
+
+== 思路分析
+
+
+[[src-1917]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1917_LeetcodifyFriendsRecommendations.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1917_LeetcodifyFriendsRecommendations_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

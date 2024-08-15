@@ -1,0 +1,87 @@
+[#2493-divide-nodes-into-the-maximum-number-of-groups]
+= 2493. Divide Nodes Into the Maximum Number of Groups
+
+https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/[LeetCode - 2493. Divide Nodes Into the Maximum Number of Groups ^]
+
+You are given a positive integer `n` representing the number of nodes in an *undirected* graph. The nodes are labeled from `1` to `n`.
+
+You are also given a 2D integer array `edges`, where `edges[i] = [a<sub>i, </sub>b<sub>i</sub>]` indicates that there is a *bidirectional* edge between nodes `a<sub>i</sub>` and `b<sub>i</sub>`. *Notice* that the given graph may be disconnected.
+
+Divide the nodes of the graph into `m` groups (*1-indexed*) such that:
+
+
+* Each node in the graph belongs to exactly one group.
+* For every pair of nodes in the graph that are connected by an edge `[a<sub>i, </sub>b<sub>i</sub>]`, if `a<sub>i</sub>` belongs to the group with index `x`, and `b<sub>i</sub>` belongs to the group with index `y`, then `|y - x| = 1`.
+
+
+Return _the maximum number of groups (i.e., maximum _`m`_) into which you can divide the nodes_. Return `-1` _if it is impossible to group the nodes with the given conditions_.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2022/10/13/example1.png" style="width: 352px; height: 201px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* n = 6, edges = [[1,2],[1,4],[1,5],[2,6],[2,3],[4,6]]
+*Output:* 4
+*Explanation:* As shown in the image we:
+- Add node 5 to the first group.
+- Add node 1 to the second group.
+- Add nodes 2 and 4 to the third group.
+- Add nodes 3 and 6 to the fourth group.
+We can see that every edge is satisfied.
+It can be shown that that if we create a fifth group and move any node from the third or fourth group to it, at least on of the edges will not be satisfied.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 3, edges = [[1,2],[2,3],[3,1]]
+*Output:* -1
+*Explanation:* If we add node 1 to the first group, node 2 to the second group, and node 3 to the third group to satisfy the first two edges, we can see that the third edge will not be satisfied.
+It can be shown that no grouping is possible.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 500`
+* `1 <= edges.length <= 10^4^`
+* `edges[i].length == 2`
+* `1 <= a<sub>i</sub>, b<sub>i</sub> <= n`
+* `a<sub>i</sub> != b<sub>i</sub>`
+* There is at most one edge between any pair of vertices.
+
+
+
+
+== 思路分析
+
+
+[[src-2493]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2493_DivideNodesIntoTheMaximumNumberOfGroups.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2493_DivideNodesIntoTheMaximumNumberOfGroups_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2692-make-object-immutable]
+= 2692. Make Object Immutable
+
+https://leetcode.com/problems/make-object-immutable/[LeetCode - 2692. Make Object Immutable ^]
+
+
+
+== 思路分析
+
+
+[[src-2692]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2692_MakeObjectImmutable.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2692_MakeObjectImmutable_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

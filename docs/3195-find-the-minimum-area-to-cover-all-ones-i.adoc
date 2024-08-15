@@ -1,0 +1,78 @@
+[#3195-find-the-minimum-area-to-cover-all-ones-i]
+= 3195. Find the Minimum Area to Cover All Ones I
+
+https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/[LeetCode - 3195. Find the Minimum Area to Cover All Ones I ^]
+
+You are given a 2D *binary* array `grid`. Find a rectangle with horizontal and vertical sides with the* smallest* area, such that all the 1's in `grid` lie inside this rectangle.
+
+Return the *minimum* possible area of the rectangle.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">grid = [[0,1,0],[1,0,1]]
+
+*Output:* <span class="example-io">6
+
+*Explanation:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/05/08/examplerect0.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 279px; height: 198px;" />
+
+The smallest rectangle has a height of 2 and a width of 3, so it has an area of `2 * 3 = 6`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">grid = [[1,0],[0,0]]
+
+*Output:* <span class="example-io">1
+
+*Explanation:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/05/08/examplerect1.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 204px; height: 201px;" />
+
+The smallest rectangle has both height and width 1, so its area is `1 * 1 = 1`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= grid.length, grid[i].length <= 1000`
+* `grid[i][j]` is either 0 or 1.
+* The input is generated such that there is at least one 1 in `grid`.
+
+
+
+
+== 思路分析
+
+
+[[src-3195]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3195_FindTheMinimumAreaToCoverAllOnesI.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3195_FindTheMinimumAreaToCoverAllOnesI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2702-minimum-operations-to-make-numbers-non-positive]
+= 2702. Minimum Operations to Make Numbers Non-positive
+
+https://leetcode.com/problems/minimum-operations-to-make-numbers-non-positive/[LeetCode - 2702. Minimum Operations to Make Numbers Non-positive ^]
+
+
+
+== 思路分析
+
+
+[[src-2702]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2702_MinimumOperationsToMakeNumbersNonPositive.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2702_MinimumOperationsToMakeNumbersNonPositive_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

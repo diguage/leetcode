@@ -1,0 +1,36 @@
+[#2753-count-houses-in-a-circular-street-ii]
+= 2753. Count Houses in a Circular Street II
+
+https://leetcode.com/problems/count-houses-in-a-circular-street-ii/[LeetCode - 2753. Count Houses in a Circular Street II ^]
+
+
+
+== 思路分析
+
+
+[[src-2753]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2753_CountHousesInACircularStreetIi.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2753_CountHousesInACircularStreetIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

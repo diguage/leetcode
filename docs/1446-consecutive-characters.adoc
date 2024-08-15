@@ -1,0 +1,67 @@
+[#1446-consecutive-characters]
+= 1446. Consecutive Characters
+
+https://leetcode.com/problems/consecutive-characters/[LeetCode - 1446. Consecutive Characters ^]
+
+The *power* of the string is the maximum length of a non-empty substring that contains only one unique character.
+
+Given a string `s`, return _the *power* of_ `s`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "leetcode"
+*Output:* 2
+*Explanation:* The substring "ee" is of length 2 with the character 'e' only.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "abbcccddddeeeeedcba"
+*Output:* 5
+*Explanation:* The substring "eeeee" is of length 5 with the character 'e' only.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 500`
+* `s` consists of only lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-1446]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1446_ConsecutiveCharacters.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1446_ConsecutiveCharacters_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

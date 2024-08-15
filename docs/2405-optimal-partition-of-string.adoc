@@ -1,0 +1,72 @@
+[#2405-optimal-partition-of-string]
+= 2405. Optimal Partition of String
+
+https://leetcode.com/problems/optimal-partition-of-string/[LeetCode - 2405. Optimal Partition of String ^]
+
+Given a string `s`, partition the string into one or more *substrings* such that the characters in each substring are *unique*. That is, no letter appears in a single substring more than *once*.
+
+Return _the *minimum* number of substrings in such a partition._
+
+Note that each character should belong to exactly one substring in a partition.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "abacaba"
+*Output:* 4
+*Explanation:*
+Two possible partitions are ("a","ba","cab","a") and ("ab","a","ca","ba").
+It can be shown that 4 is the minimum number of substrings needed.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "ssssss"
+*Output:* 6
+*Explanation:
+*The only valid partition is ("s","s","s","s","s","s").
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 10^5^`
+* `s` consists of only English lowercase letters.
+
+
+
+
+== 思路分析
+
+
+[[src-2405]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2405_OptimalPartitionOfString.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2405_OptimalPartitionOfString_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

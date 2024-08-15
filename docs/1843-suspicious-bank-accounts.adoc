@@ -1,0 +1,36 @@
+[#1843-suspicious-bank-accounts]
+= 1843. Suspicious Bank Accounts
+
+https://leetcode.com/problems/suspicious-bank-accounts/[LeetCode - 1843. Suspicious Bank Accounts ^]
+
+
+
+== 思路分析
+
+
+[[src-1843]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1843_SuspiciousBankAccounts.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1843_SuspiciousBankAccounts_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

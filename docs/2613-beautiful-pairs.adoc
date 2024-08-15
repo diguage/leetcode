@@ -1,0 +1,36 @@
+[#2613-beautiful-pairs]
+= 2613. Beautiful Pairs
+
+https://leetcode.com/problems/beautiful-pairs/[LeetCode - 2613. Beautiful Pairs ^]
+
+
+
+== 思路分析
+
+
+[[src-2613]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2613_BeautifulPairs.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2613_BeautifulPairs_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

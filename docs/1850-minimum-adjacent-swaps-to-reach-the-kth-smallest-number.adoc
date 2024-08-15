@@ -1,0 +1,100 @@
+[#1850-minimum-adjacent-swaps-to-reach-the-kth-smallest-number]
+= 1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number
+
+https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/[LeetCode - 1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number ^]
+
+You are given a string `num`, representing a large integer, and an integer `k`.
+
+We call some integer *wonderful* if it is a *permutation* of the digits in `num` and is *greater in value* than `num`. There can be many wonderful integers. However, we only care about the *smallest-valued* ones.
+
+
+* For example, when `num = "5489355142"`:
+
+	
+	* The 1^st^ smallest wonderful integer is `"5489355214"`.
+	* The 2^nd^ smallest wonderful integer is `"5489355241"`.
+	* The 3^rd^ smallest wonderful integer is `"5489355412"`.
+	* The 4^th^ smallest wonderful integer is `"5489355421"`.
+	
+	
+
+
+Return _the *minimum number of adjacent digit swaps* that needs to be applied to _`num`_ to reach the _`k^th^`_* smallest wonderful* integer_.
+
+The tests are generated in such a way that `k^th^` smallest wonderful integer exists.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num = "5489355142", k = 4
+*Output:* 2
+*Explanation:* The 4^th^ smallest wonderful number is "5489355421". To get this number:
+- Swap index 7 with index 8: "5489355[.underline]#14#2" -> "5489355[.underline]#41#2"
+- Swap index 8 with index 9: "54893554[.underline]#12#" -> "54893554[.underline]#21#"
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num = "11112", k = 4
+*Output:* 4
+*Explanation:* The 4^th^ smallest wonderful number is "21111". To get this number:
+- Swap index 3 with index 4: "111[.underline]#12#" -> "111[.underline]#21#"
+- Swap index 2 with index 3: "11[.underline]#12#1" -> "11[.underline]#21#1"
+- Swap index 1 with index 2: "1[.underline]#12#11" -> "1[.underline]#21#11"
+- Swap index 0 with index 1: "[.underline]#12#111" -> "[.underline]#21#111"
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num = "00123", k = 1
+*Output:* 1
+*Explanation:* The 1^st^ smallest wonderful number is "00132". To get this number:
+- Swap index 3 with index 4: "001[.underline]#23#" -> "001[.underline]#32#"
+----
+
+ 
+*Constraints:*
+
+
+* `2 <= num.length <= 1000`
+* `1 <= k <= 1000`
+* `num` only consists of digits.
+
+
+
+
+== 思路分析
+
+
+[[src-1850]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1850_MinimumAdjacentSwapsToReachTheKthSmallestNumber.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1850_MinimumAdjacentSwapsToReachTheKthSmallestNumber_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

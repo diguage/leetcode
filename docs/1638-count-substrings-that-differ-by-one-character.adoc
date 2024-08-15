@@ -1,0 +1,81 @@
+[#1638-count-substrings-that-differ-by-one-character]
+= 1638. Count Substrings That Differ by One Character
+
+https://leetcode.com/problems/count-substrings-that-differ-by-one-character/[LeetCode - 1638. Count Substrings That Differ by One Character ^]
+
+Given two strings `s` and `t`, find the number of ways you can choose a non-empty substring of `s` and replace a *single character* by a different character such that the resulting substring is a substring of `t`. In other words, find the number of substrings in `s` that differ from some substring in `t` by *exactly* one character.
+
+For example, the underlined substrings in `"[.underline]#compute#r"` and `"[.underline]#computa#tion"` only differ by the `'e'`/`'a'`, so this is a valid way.
+
+Return _the number of substrings that satisfy the condition above._
+
+A *substring* is a contiguous sequence of characters within a string.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "aba", t = "baba"
+*Output:* 6
+*Explanation:* The following are the pairs of substrings from s and t that differ by exactly 1 character:
+("[.underline]#a#ba", "[.underline]#b#aba")
+("[.underline]#a#ba", "ba[.underline]#b#a")
+("ab[.underline]#a#", "[.underline]#b#aba")
+("ab[.underline]#a#", "ba[.underline]#b#a")
+("a[.underline]#b#a", "b[.underline]#a#ba")
+("a[.underline]#b#a", "bab[.underline]#a#")
+The underlined portions are the substrings that are chosen from s and t.
+----
+​​<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "ab", t = "bb"
+*Output:* 3
+*Explanation:* The following are the pairs of substrings from s and t that differ by 1 character:
+("[.underline]#a#b", "[.underline]#b#b")
+("[.underline]#a#b", "b[.underline]#b#")
+("[.underline]#ab#", "[.underline]#bb#")
+​​​​The underlined portions are the substrings that are chosen from s and t.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length, t.length <= 100`
+* `s` and `t` consist of lowercase English letters only.
+
+
+
+
+== 思路分析
+
+
+[[src-1638]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1638_CountSubstringsThatDifferByOneCharacter.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1638_CountSubstringsThatDifferByOneCharacter_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

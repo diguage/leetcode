@@ -1,0 +1,64 @@
+[#1550-three-consecutive-odds]
+= 1550. Three Consecutive Odds
+
+https://leetcode.com/problems/three-consecutive-odds/[LeetCode - 1550. Three Consecutive Odds ^]
+
+Given an integer array `arr`, return `true` if there are three consecutive odd numbers in the array. Otherwise, return `false`.
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* arr = [2,6,4,1]
+*Output:* false
+*Explanation:* There are no three consecutive odds.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* arr = [1,2,34,3,4,5,7,23,12]
+*Output:* true
+*Explanation:* [5,7,23] are three consecutive odds.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= arr.length <= 1000`
+* `1 <= arr[i] <= 1000`
+
+
+
+
+== 思路分析
+
+
+[[src-1550]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1550_ThreeConsecutiveOdds.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1550_ThreeConsecutiveOdds_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

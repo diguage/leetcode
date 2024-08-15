@@ -1,0 +1,36 @@
+[#2345-finding-the-number-of-visible-mountains]
+= 2345. Finding the Number of Visible Mountains
+
+https://leetcode.com/problems/finding-the-number-of-visible-mountains/[LeetCode - 2345. Finding the Number of Visible Mountains ^]
+
+
+
+== 思路分析
+
+
+[[src-2345]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2345_FindingTheNumberOfVisibleMountains.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2345_FindingTheNumberOfVisibleMountains_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

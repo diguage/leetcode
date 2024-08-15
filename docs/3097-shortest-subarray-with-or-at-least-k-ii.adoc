@@ -1,0 +1,88 @@
+[#3097-shortest-subarray-with-or-at-least-k-ii]
+= 3097. Shortest Subarray With OR at Least K II
+
+https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/[LeetCode - 3097. Shortest Subarray With OR at Least K II ^]
+
+You are given an array `nums` of *non-negative* integers and an integer `k`.
+
+An array is called *special* if the bitwise `OR` of all of its elements is *at least* `k`.
+
+Return _the length of the *shortest* *special* *non-empty* <span data-keyword="subarray-nonempty">subarray of_ `nums`, _or return_ `-1` _if no special subarray exists_.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,2,3], k = 2
+
+*Output:* <span class="example-io">1
+
+*Explanation:*
+
+The subarray `[3]` has `OR` value of `3`. Hence, we return `1`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [2,1,8], k = 10
+
+*Output:* <span class="example-io">3
+
+*Explanation:*
+
+The subarray `[2,1,8]` has `OR` value of `11`. Hence, we return `3`.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,2], k = 0
+
+*Output:* <span class="example-io">1
+
+*Explanation:*
+
+The subarray `[1]` has `OR` value of `1`. Hence, we return `1`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 2 * 10^5^`
+* `0 <= nums[i] <= 10^9^`
+* `0 <= k <= 10^9^`
+
+
+
+
+== 思路分析
+
+
+[[src-3097]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3097_ShortestSubarrayWithOrAtLeastKIi.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3097_ShortestSubarrayWithOrAtLeastKIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

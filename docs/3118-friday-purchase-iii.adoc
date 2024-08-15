@@ -1,0 +1,36 @@
+[#3118-friday-purchase-iii]
+= 3118. Friday Purchase III 
+
+https://leetcode.com/problems/friday-purchase-iii/[LeetCode - 3118. Friday Purchase III  ^]
+
+
+
+== 思路分析
+
+
+[[src-3118]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3118_FridayPurchaseIii.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3118_FridayPurchaseIii_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

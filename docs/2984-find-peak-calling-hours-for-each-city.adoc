@@ -1,0 +1,36 @@
+[#2984-find-peak-calling-hours-for-each-city]
+= 2984. Find Peak Calling Hours for Each City
+
+https://leetcode.com/problems/find-peak-calling-hours-for-each-city/[LeetCode - 2984. Find Peak Calling Hours for Each City ^]
+
+
+
+== 思路分析
+
+
+[[src-2984]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2984_FindPeakCallingHoursForEachCity.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2984_FindPeakCallingHoursForEachCity_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

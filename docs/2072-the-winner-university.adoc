@@ -1,0 +1,36 @@
+[#2072-the-winner-university]
+= 2072. The Winner University
+
+https://leetcode.com/problems/the-winner-university/[LeetCode - 2072. The Winner University ^]
+
+
+
+== 思路分析
+
+
+[[src-2072]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2072_TheWinnerUniversity.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2072_TheWinnerUniversity_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2820-election-results]
+= 2820. Election Results
+
+https://leetcode.com/problems/election-results/[LeetCode - 2820. Election Results ^]
+
+
+
+== 思路分析
+
+
+[[src-2820]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2820_ElectionResults.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2820_ElectionResults_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

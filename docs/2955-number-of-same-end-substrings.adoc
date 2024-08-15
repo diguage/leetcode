@@ -1,0 +1,36 @@
+[#2955-number-of-same-end-substrings]
+= 2955. Number of Same-End Substrings
+
+https://leetcode.com/problems/number-of-same-end-substrings/[LeetCode - 2955. Number of Same-End Substrings ^]
+
+
+
+== 思路分析
+
+
+[[src-2955]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2955_NumberOfSameEndSubstrings.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2955_NumberOfSameEndSubstrings_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

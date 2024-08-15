@@ -1,0 +1,110 @@
+[#2811-check-if-it-is-possible-to-split-array]
+= 2811. Check if it is Possible to Split Array
+
+https://leetcode.com/problems/check-if-it-is-possible-to-split-array/[LeetCode - 2811. Check if it is Possible to Split Array ^]
+
+You are given an array `nums` of length `n` and an integer `m`. You need to determine if it is possible to split the array into `n` arrays of size 1 by performing a series of steps.
+
+An array is called *good* if:
+
+
+* The length of the array is *one*, or
+* The sum of the elements of the array is *greater than or equal* to `m`.
+
+
+In each step, you can select an existing array (which may be the result of previous steps) with a length of *at least two* and split it into *two *arrays, if both resulting arrays are good.
+
+Return true if you can split the given array into `n` arrays, otherwise return false.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [2, 2, 1], m = 4
+
+*Output:* <span class="example-io">true
+
+*Explanation:*
+
+
+* Split `[2, 2, 1]` to `[2, 2]` and `[1]`. The array `[1]` has a length of one, and the array `[2, 2]` has the sum of its elements equal to `4 >= m`, so both are good arrays.
+* Split `[2, 2]` to `[2]` and `[2]`. both arrays have the length of one, so both are good arrays.
+
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [2, 1, 3], m = 5
+
+*Output:* <span class="example-io">false
+
+*Explanation:*
+
+The first move has to be either of the following:
+
+
+* Split `[2, 1, 3]` to `[2, 1]` and `[3]`. The array `[2, 1]` has neither length of one nor sum of elements greater than or equal to `m`.
+* Split `[2, 1, 3]` to `[2]` and `[1, 3]`. The array `[1, 3]` has neither length of one nor sum of elements greater than or equal to `m`.
+
+
+So as both moves are invalid (they do not divide the array into two good arrays), we are unable to split `nums` into `n` arrays of size 1.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [2, 3, 3, 2, 3], m = 6
+
+*Output:* <span class="example-io">true
+
+*Explanation:*
+
+
+* <span class="example-io">Split `[2, 3, 3, 2, 3]` to `[2]` and `[3, 3, 2, 3]`.
+* <span class="example-io">Split `[3, 3, 2, 3]` to `[3, 3, 2]` and `[3]`.
+* <span class="example-io">Split `[3, 3, 2]` to `[3, 3]` and `[2]`.
+* <span class="example-io">Split `[3, 3]` to `[3]` and `[3]`.
+
+
+
+ 
+*Constraints:*
+
+
+* `1 <= n == nums.length <= 100`
+* `1 <= nums[i] <= 100`
+* `1 <= m <= 200`
+
+
+
+
+== 思路分析
+
+
+[[src-2811]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2811_CheckIfItIsPossibleToSplitArray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2811_CheckIfItIsPossibleToSplitArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

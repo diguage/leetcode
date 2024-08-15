@@ -1,0 +1,36 @@
+[#2636-promise-pool]
+= 2636. Promise Pool
+
+https://leetcode.com/problems/promise-pool/[LeetCode - 2636. Promise Pool ^]
+
+
+
+== 思路分析
+
+
+[[src-2636]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2636_PromisePool.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2636_PromisePool_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

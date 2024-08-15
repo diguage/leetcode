@@ -1,0 +1,36 @@
+[#3104-find-longest-self-contained-substring]
+= 3104. Find Longest Self-Contained Substring
+
+https://leetcode.com/problems/find-longest-self-contained-substring/[LeetCode - 3104. Find Longest Self-Contained Substring ^]
+
+
+
+== 思路分析
+
+
+[[src-3104]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3104_FindLongestSelfContainedSubstring.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3104_FindLongestSelfContainedSubstring_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

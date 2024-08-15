@@ -1,0 +1,36 @@
+[#2837-total-traveled-distance]
+= 2837. Total Traveled Distance
+
+https://leetcode.com/problems/total-traveled-distance/[LeetCode - 2837. Total Traveled Distance ^]
+
+
+
+== 思路分析
+
+
+[[src-2837]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2837_TotalTraveledDistance.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2837_TotalTraveledDistance_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

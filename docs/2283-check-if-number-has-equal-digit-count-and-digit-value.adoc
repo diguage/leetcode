@@ -1,0 +1,77 @@
+[#2283-check-if-number-has-equal-digit-count-and-digit-value]
+= 2283. Check if Number Has Equal Digit Count and Digit Value
+
+https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/[LeetCode - 2283. Check if Number Has Equal Digit Count and Digit Value ^]
+
+You are given a *0-indexed* string `num` of length `n` consisting of digits.
+
+Return `true` _if for *every* index _`i`_ in the range _`0 <= i < n`_, the digit _`i`_ occurs _`num[i]`_ times in _`num`_, otherwise return _`false`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num = "1210"
+*Output:* true
+*Explanation:*
+num[0] = '1'. The digit 0 occurs once in num.
+num[1] = '2'. The digit 1 occurs twice in num.
+num[2] = '1'. The digit 2 occurs once in num.
+num[3] = '0'. The digit 3 occurs zero times in num.
+The condition holds true for every index in "1210", so return true.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num = "030"
+*Output:* false
+*Explanation:*
+num[0] = '0'. The digit 0 should occur zero times, but actually occurs twice in num.
+num[1] = '3'. The digit 1 should occur three times, but actually occurs zero times in num.
+num[2] = '0'. The digit 2 occurs zero times in num.
+The indices 0 and 1 both violate the condition, so return false.
+----
+
+ 
+*Constraints:*
+
+
+* `n == num.length`
+* `1 <= n <= 10`
+* `num` consists of digits.
+
+
+
+
+== 思路分析
+
+
+[[src-2283]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2283_CheckIfNumberHasEqualDigitCountAndDigitValue.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2283_CheckIfNumberHasEqualDigitCountAndDigitValue_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

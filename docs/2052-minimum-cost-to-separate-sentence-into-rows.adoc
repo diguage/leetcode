@@ -1,0 +1,36 @@
+[#2052-minimum-cost-to-separate-sentence-into-rows]
+= 2052. Minimum Cost to Separate Sentence Into Rows
+
+https://leetcode.com/problems/minimum-cost-to-separate-sentence-into-rows/[LeetCode - 2052. Minimum Cost to Separate Sentence Into Rows ^]
+
+
+
+== 思路分析
+
+
+[[src-2052]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2052_MinimumCostToSeparateSentenceIntoRows.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2052_MinimumCostToSeparateSentenceIntoRows_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

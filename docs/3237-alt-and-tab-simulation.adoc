@@ -1,0 +1,36 @@
+[#3237-alt-and-tab-simulation]
+= 3237. Alt and Tab Simulation
+
+https://leetcode.com/problems/alt-and-tab-simulation/[LeetCode - 3237. Alt and Tab Simulation ^]
+
+
+
+== 思路分析
+
+
+[[src-3237]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3237_AltAndTabSimulation.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3237_AltAndTabSimulation_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

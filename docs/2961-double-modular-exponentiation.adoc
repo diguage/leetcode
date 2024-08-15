@@ -1,0 +1,82 @@
+[#2961-double-modular-exponentiation]
+= 2961. Double Modular Exponentiation
+
+https://leetcode.com/problems/double-modular-exponentiation/[LeetCode - 2961. Double Modular Exponentiation ^]
+
+You are given a *0-indexed* 2D array `variables` where `variables[i] = [a<sub>i</sub>, b<sub>i</sub>, c<sub>i,</sub> m<sub>i</sub>]`, and an integer `target`.
+
+An index `i` is *good* if the following formula holds:
+
+
+* `0 <= i < variables.length`
+* `((a<sub>i</sub>^b<sub>i</sub>^ % 10)^c<sub>i</sub>^) % m<sub>i</sub> == target`
+
+
+Return _an array consisting of *good* indices in *any order*_.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* variables = [[2,3,3,10],[3,3,3,1],[6,1,1,4]], target = 2
+*Output:* [0,2]
+*Explanation:* For each index i in the variables array:
+1) For the index 0, variables[0] = [2,3,3,10], (2^3^ % 10)^3^ % 10 = 2.
+2) For the index 1, variables[1] = [3,3,3,1], (3^3^ % 10)^3^ % 1 = 0.
+3) For the index 2, variables[2] = [6,1,1,4], (6^1^ % 10)^1^ % 4 = 2.
+Therefore we return [0,2] as the answer.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* variables = [[39,3,1000,1000]], target = 17
+*Output:* []
+*Explanation:* For each index i in the variables array:
+1) For the index 0, variables[0] = [39,3,1000,1000], (39^3^ % 10)^1000^ % 1000 = 1.
+Therefore we return [] as the answer.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= variables.length <= 100`
+* `variables[i] == [a<sub>i</sub>, b<sub>i</sub>, c<sub>i</sub>, m<sub>i</sub>]`
+* `1 <= a<sub>i</sub>, b<sub>i</sub>, c<sub>i</sub>, m<sub>i</sub> <= 10^3^`
+* `<font face="monospace">0 <= target <= 10^3^`
+
+
+
+
+== 思路分析
+
+
+[[src-2961]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2961_DoubleModularExponentiation.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2961_DoubleModularExponentiation_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#1783-grand-slam-titles]
+= 1783. Grand Slam Titles
+
+https://leetcode.com/problems/grand-slam-titles/[LeetCode - 1783. Grand Slam Titles ^]
+
+
+
+== 思路分析
+
+
+[[src-1783]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1783_GrandSlamTitles.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1783_GrandSlamTitles_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

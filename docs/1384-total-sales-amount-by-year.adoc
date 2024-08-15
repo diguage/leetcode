@@ -1,0 +1,36 @@
+[#1384-total-sales-amount-by-year]
+= 1384. Total Sales Amount by Year
+
+https://leetcode.com/problems/total-sales-amount-by-year/[LeetCode - 1384. Total Sales Amount by Year ^]
+
+
+
+== 思路分析
+
+
+[[src-1384]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1384_TotalSalesAmountByYear.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1384_TotalSalesAmountByYear_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

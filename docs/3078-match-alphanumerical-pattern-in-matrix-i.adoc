@@ -1,0 +1,36 @@
+[#3078-match-alphanumerical-pattern-in-matrix-i]
+= 3078. Match Alphanumerical Pattern in Matrix I
+
+https://leetcode.com/problems/match-alphanumerical-pattern-in-matrix-i/[LeetCode - 3078. Match Alphanumerical Pattern in Matrix I ^]
+
+
+
+== 思路分析
+
+
+[[src-3078]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3078_MatchAlphanumericalPatternInMatrixI.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3078_MatchAlphanumericalPatternInMatrixI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

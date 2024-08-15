@@ -1,0 +1,74 @@
+[#2787-ways-to-express-an-integer-as-sum-of-powers]
+= 2787. Ways to Express an Integer as Sum of Powers
+
+https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/[LeetCode - 2787. Ways to Express an Integer as Sum of Powers ^]
+
+Given two *positive* integers `n` and `x`.
+
+Return _the number of ways _`n`_ can be expressed as the sum of the _`x^th^`_ power of *unique* positive integers, in other words, the number of sets of unique integers _`[n<sub>1</sub>, n<sub>2</sub>, ..., n<sub>k</sub>]`_ where _`n = n<sub>1</sub>^x^ + n<sub>2</sub>^x^ + ... + n<sub>k</sub>^x^`_._
+
+Since the result can be very large, return it modulo `10^9^ + 7`.
+
+For example, if `n = 160` and `x = 3`, one way to express `n` is `n = 2^3^ + 3^3^ + 5^3^`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 10, x = 2
+*Output:* 1
+*Explanation:* We can express n as the following: n = 3^2^ + 1^2^ = 10.
+It can be shown that it is the only way to express 10 as the sum of the 2^nd^ power of unique integers.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 4, x = 1
+*Output:* 2
+*Explanation:* We can express n in the following ways:
+- n = 4^1^ = 4.
+- n = 3^1^ + 1^1^ = 4.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 300`
+* `1 <= x <= 5`
+
+
+
+
+== 思路分析
+
+
+[[src-2787]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2787_WaysToExpressAnIntegerAsSumOfPowers.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2787_WaysToExpressAnIntegerAsSumOfPowers_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

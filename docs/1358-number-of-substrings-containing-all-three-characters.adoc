@@ -1,0 +1,75 @@
+[#1358-number-of-substrings-containing-all-three-characters]
+= 1358. Number of Substrings Containing All Three Characters
+
+https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/[LeetCode - 1358. Number of Substrings Containing All Three Characters ^]
+
+Given a string `s` consisting only of characters _a_, _b_ and _c_.
+
+Return the number of substrings containing *at least* one occurrence of all these characters _a_, _b_ and _c_.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "abcabc"
+*Output:* 10
+*Explanation:* The substrings containing at least one occurrence of the characters _a_, _b_ and _c are "_abc_", "_abca_", "_abcab_", "_abcabc_", "_bca_", "_bcab_", "_bcabc_", "_cab_", "_cabc_" _and_ "_abc_" _(*again*)_. _
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "aaacb"
+*Output:* 3
+*Explanation:* The substrings containing at least one occurrence of the characters _a_, _b_ and _c are "_aaacb_", "_aacb_" _and_ "_acb_".__ _
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "abc"
+*Output:* 1
+----
+
+ 
+*Constraints:*
+
+
+* `3 <= s.length <= 5 x 10^4`
+* `s` only consists of _a_, _b_ or _c _characters.
+
+
+
+
+== 思路分析
+
+
+[[src-1358]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1358_NumberOfSubstringsContainingAllThreeCharacters.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1358_NumberOfSubstringsContainingAllThreeCharacters_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

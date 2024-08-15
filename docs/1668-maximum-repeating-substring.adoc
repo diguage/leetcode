@@ -1,0 +1,77 @@
+[#1668-maximum-repeating-substring]
+= 1668. Maximum Repeating Substring
+
+https://leetcode.com/problems/maximum-repeating-substring/[LeetCode - 1668. Maximum Repeating Substring ^]
+
+For a string `sequence`, a string `word` is *`k`-repeating* if `word` concatenated `k` times is a substring of `sequence`. The `word`'s *maximum `k`-repeating value* is the highest value `k` where `word` is `k`-repeating in `sequence`. If `word` is not a substring of `sequence`, `word`'s maximum `k`-repeating value is `0`.
+
+Given strings `sequence` and `word`, return _the *maximum `k`-repeating value* of `word` in `sequence`_.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* sequence = "ababc", word = "ab"
+*Output:* 2
+*Explanation: *"abab" is a substring in "[.underline]#abab#c".
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* sequence = "ababc", word = "ba"
+*Output:* 1
+*Explanation: *"ba" is a substring in "a[.underline]#ba#bc". "baba" is not a substring in "ababc".
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* sequence = "ababc", word = "ac"
+*Output:* 0
+*Explanation: *"ac" is not a substring in "ababc". 
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= sequence.length <= 100`
+* `1 <= word.length <= 100`
+* `sequence` and `word` contains only lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-1668]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1668_MaximumRepeatingSubstring.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1668_MaximumRepeatingSubstring_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

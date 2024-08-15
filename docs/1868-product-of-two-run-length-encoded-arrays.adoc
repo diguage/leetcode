@@ -1,0 +1,36 @@
+[#1868-product-of-two-run-length-encoded-arrays]
+= 1868. Product of Two Run-Length Encoded Arrays
+
+https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/[LeetCode - 1868. Product of Two Run-Length Encoded Arrays ^]
+
+
+
+== 思路分析
+
+
+[[src-1868]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1868_ProductOfTwoRunLengthEncodedArrays.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1868_ProductOfTwoRunLengthEncodedArrays_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

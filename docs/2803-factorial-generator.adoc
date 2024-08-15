@@ -1,0 +1,36 @@
+[#2803-factorial-generator]
+= 2803. Factorial Generator
+
+https://leetcode.com/problems/factorial-generator/[LeetCode - 2803. Factorial Generator ^]
+
+
+
+== 思路分析
+
+
+[[src-2803]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2803_FactorialGenerator.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2803_FactorialGenerator_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

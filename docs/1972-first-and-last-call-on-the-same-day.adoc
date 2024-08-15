@@ -1,0 +1,36 @@
+[#1972-first-and-last-call-on-the-same-day]
+= 1972. First and Last Call On the Same Day
+
+https://leetcode.com/problems/first-and-last-call-on-the-same-day/[LeetCode - 1972. First and Last Call On the Same Day ^]
+
+
+
+== 思路分析
+
+
+[[src-1972]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1972_FirstAndLastCallOnTheSameDay.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1972_FirstAndLastCallOnTheSameDay_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

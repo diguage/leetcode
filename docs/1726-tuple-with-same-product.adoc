@@ -1,0 +1,72 @@
+[#1726-tuple-with-same-product]
+= 1726. Tuple with Same Product
+
+https://leetcode.com/problems/tuple-with-same-product/[LeetCode - 1726. Tuple with Same Product ^]
+
+Given an array `nums` of *distinct* positive integers, return _the number of tuples _`(a, b, c, d)`_ such that _`a * b = c * d`_ where _`a`_, _`b`_, _`c`_, and _`d`_ are elements of _`nums`_, and _`a != b != c != d`_._
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [2,3,4,6]
+*Output:* 8
+*Explanation:* There are 8 valid tuples:
+(2,6,3,4) , (2,6,4,3) , (6,2,3,4) , (6,2,4,3)
+(3,4,2,6) , (4,3,2,6) , (3,4,6,2) , (4,3,6,2)
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [1,2,4,5,10]
+*Output:* 16
+*Explanation:* There are 16 valid tuples:
+(1,10,2,5) , (1,10,5,2) , (10,1,2,5) , (10,1,5,2)
+(2,5,1,10) , (2,5,10,1) , (5,2,1,10) , (5,2,10,1)
+(2,10,4,5) , (2,10,5,4) , (10,2,4,5) , (10,2,5,4)
+(4,5,2,10) , (4,5,10,2) , (5,4,2,10) , (5,4,10,2)
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 1000`
+* `1 <= nums[i] <= 10^4^`
+* All elements in `nums` are *distinct*.
+
+
+
+
+== 思路分析
+
+
+[[src-1726]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1726_TupleWithSameProduct.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1726_TupleWithSameProduct_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

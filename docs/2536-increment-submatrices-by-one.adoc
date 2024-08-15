@@ -1,0 +1,78 @@
+[#2536-increment-submatrices-by-one]
+= 2536. Increment Submatrices by One
+
+https://leetcode.com/problems/increment-submatrices-by-one/[LeetCode - 2536. Increment Submatrices by One ^]
+
+You are given a positive integer `n`, indicating that we initially have an `n x n` *0-indexed* integer matrix `mat` filled with zeroes.
+
+You are also given a 2D integer array `query`. For each `query[i] = [row1<sub>i</sub>, col1<sub>i</sub>, row2<sub>i</sub>, col2<sub>i</sub>]`, you should do the following operation:
+
+
+* Add `1` to *every element* in the submatrix with the *top left* corner `(row1<sub>i</sub>, col1<sub>i</sub>)` and the *bottom right* corner `(row2<sub>i</sub>, col2<sub>i</sub>)`. That is, add `1` to `mat[x][y]` for all `row1<sub>i</sub> <= x <= row2<sub>i</sub>` and `col1<sub>i</sub> <= y <= col2<sub>i</sub>`.
+
+
+Return_ the matrix_ `mat`_ after performing every query._
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2022/11/24/p2example11.png" style="width: 531px; height: 121px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* n = 3, queries = [[1,1,2,2],[0,0,1,1]]
+*Output:* [[1,1,0],[1,2,1],[0,1,1]]
+*Explanation:* The diagram above shows the initial matrix, the matrix after the first query, and the matrix after the second query.
+- In the first query, we add 1 to every element in the submatrix with the top left corner (1, 1) and bottom right corner (2, 2).
+- In the second query, we add 1 to every element in the submatrix with the top left corner (0, 0) and bottom right corner (1, 1).
+----
+
+<strong class="example">Example 2:*
+<img alt="" src="https://assets.leetcode.com/uploads/2022/11/24/p2example22.png" style="width: 261px; height: 82px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* n = 2, queries = [[0,0,1,1]]
+*Output:* [[1,1],[1,1]]
+*Explanation:* The diagram above shows the initial matrix and the matrix after the first query.
+- In the first query we add 1 to every element in the matrix.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 500`
+* `1 <= queries.length <= 10^4^`
+* `0 <= row1<sub>i</sub> <= row2<sub>i</sub> < n`
+* `0 <= col1<sub>i</sub> <= col2<sub>i</sub> < n`
+
+
+
+
+== 思路分析
+
+
+[[src-2536]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2536_IncrementSubmatricesByOne.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2536_IncrementSubmatricesByOne_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

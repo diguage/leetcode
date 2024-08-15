@@ -1,0 +1,36 @@
+[#1538-guess-the-majority-in-a-hidden-array]
+= 1538. Guess the Majority in a Hidden Array
+
+https://leetcode.com/problems/guess-the-majority-in-a-hidden-array/[LeetCode - 1538. Guess the Majority in a Hidden Array ^]
+
+
+
+== 思路分析
+
+
+[[src-1538]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1538_GuessTheMajorityInAHiddenArray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1538_GuessTheMajorityInAHiddenArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

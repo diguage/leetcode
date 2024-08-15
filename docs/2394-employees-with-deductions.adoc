@@ -1,0 +1,36 @@
+[#2394-employees-with-deductions]
+= 2394. Employees With Deductions
+
+https://leetcode.com/problems/employees-with-deductions/[LeetCode - 2394. Employees With Deductions ^]
+
+
+
+== 思路分析
+
+
+[[src-2394]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2394_EmployeesWithDeductions.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2394_EmployeesWithDeductions_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

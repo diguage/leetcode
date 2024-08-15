@@ -1,0 +1,36 @@
+[#2689-extract-kth-character-from-the-rope-tree]
+= 2689. Extract Kth Character From The Rope Tree
+
+https://leetcode.com/problems/extract-kth-character-from-the-rope-tree/[LeetCode - 2689. Extract Kth Character From The Rope Tree ^]
+
+
+
+== 思路分析
+
+
+[[src-2689]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2689_ExtractKthCharacterFromTheRopeTree.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2689_ExtractKthCharacterFromTheRopeTree_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

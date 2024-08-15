@@ -1,0 +1,36 @@
+[#2927-distribute-candies-among-children-iii]
+= 2927. Distribute Candies Among Children III
+
+https://leetcode.com/problems/distribute-candies-among-children-iii/[LeetCode - 2927. Distribute Candies Among Children III ^]
+
+
+
+== 思路分析
+
+
+[[src-2927]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2927_DistributeCandiesAmongChildrenIii.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2927_DistributeCandiesAmongChildrenIii_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

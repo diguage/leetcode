@@ -1,0 +1,36 @@
+[#2450-number-of-distinct-binary-strings-after-applying-operations]
+= 2450. Number of Distinct Binary Strings After Applying Operations
+
+https://leetcode.com/problems/number-of-distinct-binary-strings-after-applying-operations/[LeetCode - 2450. Number of Distinct Binary Strings After Applying Operations ^]
+
+
+
+== 思路分析
+
+
+[[src-2450]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2450_NumberOfDistinctBinaryStringsAfterApplyingOperations.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2450_NumberOfDistinctBinaryStringsAfterApplyingOperations_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

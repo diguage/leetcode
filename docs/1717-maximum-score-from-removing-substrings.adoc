@@ -1,0 +1,87 @@
+[#1717-maximum-score-from-removing-substrings]
+= 1717. Maximum Score From Removing Substrings
+
+https://leetcode.com/problems/maximum-score-from-removing-substrings/[LeetCode - 1717. Maximum Score From Removing Substrings ^]
+
+You are given a string `s` and two integers `x` and `y`. You can perform two types of operations any number of times.
+
+
+* Remove substring `"ab"` and gain `x` points.
+
+	
+	* For example, when removing `"ab"` from `"c[.underline]#ab#xbae"` it becomes `"cxbae"`.
+	
+	
+* Remove substring `"ba"` and gain `y` points.
+	
+	* For example, when removing `"ba"` from `"cabx[.underline]#ba#e"` it becomes `"cabxe"`.
+	
+	
+
+
+Return _the maximum points you can gain after applying the above operations on_ `s`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "cdbcbbaaabab", x = 4, y = 5
+*Output:* 19
+*Explanation:*
+- Remove the "ba" underlined in "cdbcbbaaa[.underline]#ba#b". Now, s = "cdbcbbaaab" and 5 points are added to the score.
+- Remove the "ab" underlined in "cdbcbbaa[.underline]#ab#". Now, s = "cdbcbbaa" and 4 points are added to the score.
+- Remove the "ba" underlined in "cdbcb[.underline]#ba#a". Now, s = "cdbcba" and 5 points are added to the score.
+- Remove the "ba" underlined in "cdbc[.underline]#ba#". Now, s = "cdbc" and 5 points are added to the score.
+Total score = 5 + 4 + 5 + 5 = 19.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "aabbaaxybbaabb", x = 5, y = 4
+*Output:* 20
+
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 10^5^`
+* `1 <= x, y <= 10^4^`
+* `s` consists of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-1717]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1717_MaximumScoreFromRemovingSubstrings.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1717_MaximumScoreFromRemovingSubstrings_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

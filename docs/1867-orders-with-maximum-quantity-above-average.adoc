@@ -1,0 +1,36 @@
+[#1867-orders-with-maximum-quantity-above-average]
+= 1867. Orders With Maximum Quantity Above Average
+
+https://leetcode.com/problems/orders-with-maximum-quantity-above-average/[LeetCode - 1867. Orders With Maximum Quantity Above Average ^]
+
+
+
+== 思路分析
+
+
+[[src-1867]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1867_OrdersWithMaximumQuantityAboveAverage.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1867_OrdersWithMaximumQuantityAboveAverage_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,86 @@
+[#1616-split-two-strings-to-make-palindrome]
+= 1616. Split Two Strings to Make Palindrome
+
+https://leetcode.com/problems/split-two-strings-to-make-palindrome/[LeetCode - 1616. Split Two Strings to Make Palindrome ^]
+
+You are given two strings `a` and `b` of the same length. Choose an index and split both strings *at the same index*, splitting `a` into two strings: `a<sub>prefix</sub>` and `a<sub>suffix</sub>` where `a = a<sub>prefix</sub> + a<sub>suffix</sub>`, and splitting `b` into two strings: `b<sub>prefix</sub>` and `b<sub>suffix</sub>` where `b = b<sub>prefix</sub> + b<sub>suffix</sub>`. Check if `a<sub>prefix</sub> + b<sub>suffix</sub>` or `b<sub>prefix</sub> + a<sub>suffix</sub>` forms a palindrome.
+
+When you split a string `s` into `s<sub>prefix</sub>` and `s<sub>suffix</sub>`, either `s<sub>suffix</sub>` or `s<sub>prefix</sub>` is allowed to be empty. For example, if `s = "abc"`, then `"" + "abc"`, `"a" + "bc"`, `"ab" + "c"` , and `"abc" + ""` are valid splits.
+
+Return `true`_ if it is possible to form__ a palindrome string, otherwise return _`false`.
+
+*Notice* that `x + y` denotes the concatenation of strings `x` and `y`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* a = "x", b = "y"
+*Output:* true
+*Explaination:* If either a or b are palindromes the answer is true since you can split in the following way:
+a<sub>prefix</sub> = "", a<sub>suffix</sub> = "x"
+b<sub>prefix</sub> = "", b<sub>suffix</sub> = "y"
+Then, a<sub>prefix</sub> + b<sub>suffix</sub> = "" + "y" = "y", which is a palindrome.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* a = "xbdef", b = "xecab"
+*Output:* false
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* a = "ulacfd", b = "jizalu"
+*Output:* true
+*Explaination:* Split them at index 3:
+a<sub>prefix</sub> = "ula", a<sub>suffix</sub> = "cfd"
+b<sub>prefix</sub> = "jiz", b<sub>suffix</sub> = "alu"
+Then, a<sub>prefix</sub> + b<sub>suffix</sub> = "ula" + "alu" = "ulaalu", which is a palindrome.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= a.length, b.length <= 10^5^`
+* `a.length == b.length`
+* `a` and `b` consist of lowercase English letters
+
+
+
+
+== 思路分析
+
+
+[[src-1616]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1616_SplitTwoStringsToMakePalindrome.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1616_SplitTwoStringsToMakePalindrome_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

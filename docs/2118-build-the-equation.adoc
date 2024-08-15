@@ -1,0 +1,36 @@
+[#2118-build-the-equation]
+= 2118. Build the Equation
+
+https://leetcode.com/problems/build-the-equation/[LeetCode - 2118. Build the Equation ^]
+
+
+
+== 思路分析
+
+
+[[src-2118]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2118_BuildTheEquation.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2118_BuildTheEquation_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

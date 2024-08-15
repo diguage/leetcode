@@ -1,0 +1,77 @@
+[#1971-find-if-path-exists-in-graph]
+= 1971. Find if Path Exists in Graph
+
+https://leetcode.com/problems/find-if-path-exists-in-graph/[LeetCode - 1971. Find if Path Exists in Graph ^]
+
+There is a *bi-directional* graph with `n` vertices, where each vertex is labeled from `0` to `n - 1` (*inclusive*). The edges in the graph are represented as a 2D integer array `edges`, where each `edges[i] = [u<sub>i</sub>, v<sub>i</sub>]` denotes a bi-directional edge between vertex `u<sub>i</sub>` and vertex `v<sub>i</sub>`. Every vertex pair is connected by *at most one* edge, and no vertex has an edge to itself.
+
+You want to determine if there is a *valid path* that exists from vertex `source` to vertex `destination`.
+
+Given `edges` and the integers `n`, `source`, and `destination`, return `true`_ if there is a *valid path* from _`source`_ to _`destination`_, or _`false`_ otherwise__._
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2021/08/14/validpath-ex1.png" style="width: 141px; height: 121px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* n = 3, edges = [[0,1],[1,2],[2,0]], source = 0, destination = 2
+*Output:* true
+*Explanation:* There are two paths from vertex 0 to vertex 2:
+- 0 &rarr; 1 &rarr; 2
+- 0 &rarr; 2
+----
+
+<strong class="example">Example 2:*
+<img alt="" src="https://assets.leetcode.com/uploads/2021/08/14/validpath-ex2.png" style="width: 281px; height: 141px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* n = 6, edges = [[0,1],[0,2],[3,5],[5,4],[4,3]], source = 0, destination = 5
+*Output:* false
+*Explanation:* There is no path from vertex 0 to vertex 5.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 2 * 10^5^`
+* `0 <= edges.length <= 2 * 10^5^`
+* `edges[i].length == 2`
+* `0 <= u<sub>i</sub>, v<sub>i</sub> <= n - 1`
+* `u<sub>i</sub> != v<sub>i</sub>`
+* `0 <= source, destination <= n - 1`
+* There are no duplicate edges.
+* There are no self edges.
+
+
+
+
+== 思路分析
+
+
+[[src-1971]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1971_FindIfPathExistsInGraph.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1971_FindIfPathExistsInGraph_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

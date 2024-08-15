@@ -1,0 +1,36 @@
+[#1949-strong-friendship]
+= 1949. Strong Friendship
+
+https://leetcode.com/problems/strong-friendship/[LeetCode - 1949. Strong Friendship ^]
+
+
+
+== 思路分析
+
+
+[[src-1949]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1949_StrongFriendship.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1949_StrongFriendship_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,78 @@
+[#1697-checking-existence-of-edge-length-limited-paths]
+= 1697. Checking Existence of Edge Length Limited Paths
+
+https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/[LeetCode - 1697. Checking Existence of Edge Length Limited Paths ^]
+
+An undirected graph of `n` nodes is defined by `edgeList`, where `edgeList[i] = [u<sub>i</sub>, v<sub>i</sub>, dis<sub>i</sub>]` denotes an edge between nodes `u<sub>i</sub>` and `v<sub>i</sub>` with distance `dis<sub>i</sub>`. Note that there may be *multiple* edges between two nodes.
+
+Given an array `queries`, where `queries[j] = [p<sub>j</sub>, q<sub>j</sub>, limit<sub>j</sub>]`, your task is to determine for each `queries[j]` whether there is a path between `p<sub>j</sub>` and `q<sub>j</sub>`<sub> </sub>such that each edge on the path has a distance *strictly less than* `limit<sub>j</sub>` .
+
+Return _a *boolean array* _`answer`_, where _`answer.length == queries.length` _and the _`j^th^` _value of _`answer` _is _`true`_ if there is a path for _`queries[j]`_ is _`true`_, and _`false`_ otherwise_.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2020/12/08/h.png" style="width: 267px; height: 262px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* n = 3, edgeList = [[0,1,2],[1,2,4],[2,0,8],[1,0,16]], queries = [[0,1,2],[0,2,5]]
+*Output:* [false,true]
+*Explanation:* The above figure shows the given graph. Note that there are two overlapping edges between 0 and 1 with distances 2 and 16.
+For the first query, between 0 and 1 there is no path where each distance is less than 2, thus we return false for this query.
+For the second query, there is a path (0 -> 1 -> 2) of two edges with distances less than 5, thus we return true for this query.
+----
+
+<strong class="example">Example 2:*
+<img alt="" src="https://assets.leetcode.com/uploads/2020/12/08/q.png" style="width: 390px; height: 358px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* n = 5, edgeList = [[0,1,10],[1,2,5],[2,3,9],[3,4,13]], queries = [[0,4,14],[1,4,13]]
+*Output:* [true,false]
+*Explanation:* The above figure shows the given graph.
+----
+
+ 
+*Constraints:*
+
+
+* `2 <= n <= 10^5^`
+* `1 <= edgeList.length, queries.length <= 10^5^`
+* `edgeList[i].length == 3`
+* `queries[j].length == 3`
+* `0 <= u<sub>i</sub>, v<sub>i</sub>, p<sub>j</sub>, q<sub>j</sub> <= n - 1`
+* `u<sub>i</sub> != v<sub>i</sub>`
+* `p<sub>j</sub> != q<sub>j</sub>`
+* `1 <= dis<sub>i</sub>, limit<sub>j</sub> <= 10^9^`
+* There may be *multiple* edges between two nodes.
+
+
+
+
+== 思路分析
+
+
+[[src-1697]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1697_CheckingExistenceOfEdgeLengthLimitedPaths.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1697_CheckingExistenceOfEdgeLengthLimitedPaths_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

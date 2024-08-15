@@ -1,0 +1,36 @@
+[#1571-warehouse-manager]
+= 1571. Warehouse Manager
+
+https://leetcode.com/problems/warehouse-manager/[LeetCode - 1571. Warehouse Manager ^]
+
+
+
+== 思路分析
+
+
+[[src-1571]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1571_WarehouseManager.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1571_WarehouseManager_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

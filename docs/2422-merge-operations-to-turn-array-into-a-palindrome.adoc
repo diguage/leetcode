@@ -1,0 +1,36 @@
+[#2422-merge-operations-to-turn-array-into-a-palindrome]
+= 2422. Merge Operations to Turn Array Into a Palindrome
+
+https://leetcode.com/problems/merge-operations-to-turn-array-into-a-palindrome/[LeetCode - 2422. Merge Operations to Turn Array Into a Palindrome ^]
+
+
+
+== 思路分析
+
+
+[[src-2422]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2422_MergeOperationsToTurnArrayIntoAPalindrome.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2422_MergeOperationsToTurnArrayIntoAPalindrome_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

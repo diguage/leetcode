@@ -1,0 +1,36 @@
+[#1555-bank-account-summary]
+= 1555. Bank Account Summary
+
+https://leetcode.com/problems/bank-account-summary/[LeetCode - 1555. Bank Account Summary ^]
+
+
+
+== 思路分析
+
+
+[[src-1555]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1555_BankAccountSummary.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1555_BankAccountSummary_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

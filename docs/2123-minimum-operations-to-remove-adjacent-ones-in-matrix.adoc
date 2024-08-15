@@ -1,0 +1,36 @@
+[#2123-minimum-operations-to-remove-adjacent-ones-in-matrix]
+= 2123. Minimum Operations to Remove Adjacent Ones in Matrix
+
+https://leetcode.com/problems/minimum-operations-to-remove-adjacent-ones-in-matrix/[LeetCode - 2123. Minimum Operations to Remove Adjacent Ones in Matrix ^]
+
+
+
+== 思路分析
+
+
+[[src-2123]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2123_MinimumOperationsToRemoveAdjacentOnesInMatrix.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2123_MinimumOperationsToRemoveAdjacentOnesInMatrix_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

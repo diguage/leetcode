@@ -1,0 +1,36 @@
+[#1826-faulty-sensor]
+= 1826. Faulty Sensor
+
+https://leetcode.com/problems/faulty-sensor/[LeetCode - 1826. Faulty Sensor ^]
+
+
+
+== 思路分析
+
+
+[[src-1826]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1826_FaultySensor.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1826_FaultySensor_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

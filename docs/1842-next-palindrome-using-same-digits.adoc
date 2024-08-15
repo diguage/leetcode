@@ -1,0 +1,36 @@
+[#1842-next-palindrome-using-same-digits]
+= 1842. Next Palindrome Using Same Digits
+
+https://leetcode.com/problems/next-palindrome-using-same-digits/[LeetCode - 1842. Next Palindrome Using Same Digits ^]
+
+
+
+== 思路分析
+
+
+[[src-1842]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1842_NextPalindromeUsingSameDigits.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1842_NextPalindromeUsingSameDigits_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

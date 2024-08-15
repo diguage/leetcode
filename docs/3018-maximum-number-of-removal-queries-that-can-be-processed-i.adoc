@@ -1,0 +1,36 @@
+[#3018-maximum-number-of-removal-queries-that-can-be-processed-i]
+= 3018. Maximum Number of Removal Queries That Can Be Processed I
+
+https://leetcode.com/problems/maximum-number-of-removal-queries-that-can-be-processed-i/[LeetCode - 3018. Maximum Number of Removal Queries That Can Be Processed I ^]
+
+
+
+== 思路分析
+
+
+[[src-3018]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3018_MaximumNumberOfRemovalQueriesThatCanBeProcessedI.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3018_MaximumNumberOfRemovalQueriesThatCanBeProcessedI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#1612-check-if-two-expression-trees-are-equivalent]
+= 1612. Check If Two Expression Trees are Equivalent
+
+https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/[LeetCode - 1612. Check If Two Expression Trees are Equivalent ^]
+
+
+
+== 思路分析
+
+
+[[src-1612]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1612_CheckIfTwoExpressionTreesAreEquivalent.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1612_CheckIfTwoExpressionTreesAreEquivalent_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

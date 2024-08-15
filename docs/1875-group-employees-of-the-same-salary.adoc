@@ -1,0 +1,36 @@
+[#1875-group-employees-of-the-same-salary]
+= 1875. Group Employees of the Same Salary
+
+https://leetcode.com/problems/group-employees-of-the-same-salary/[LeetCode - 1875. Group Employees of the Same Salary ^]
+
+
+
+== 思路分析
+
+
+[[src-1875]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1875_GroupEmployeesOfTheSameSalary.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1875_GroupEmployeesOfTheSameSalary_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

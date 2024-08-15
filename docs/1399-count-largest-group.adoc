@@ -1,0 +1,70 @@
+[#1399-count-largest-group]
+= 1399. Count Largest Group
+
+https://leetcode.com/problems/count-largest-group/[LeetCode - 1399. Count Largest Group ^]
+
+You are given an integer `n`.
+
+Each number from `1` to `n` is grouped according to the sum of its digits.
+
+Return _the number of groups that have the largest size_.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 13
+*Output:* 4
+*Explanation:* There are 9 groups in total, they are grouped according sum of its digits of numbers from 1 to 13:
+[1,10], [2,11], [3,12], [4,13], [5], [6], [7], [8], [9].
+There are 4 groups with largest size.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 2
+*Output:* 2
+*Explanation:* There are 2 groups [1], [2] of size 1.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 10^4^`
+
+
+
+
+== 思路分析
+
+
+[[src-1399]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1399_CountLargestGroup.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1399_CountLargestGroup_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

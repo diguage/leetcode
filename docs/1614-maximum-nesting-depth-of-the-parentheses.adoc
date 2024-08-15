@@ -1,0 +1,80 @@
+[#1614-maximum-nesting-depth-of-the-parentheses]
+= 1614. Maximum Nesting Depth of the Parentheses
+
+https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/[LeetCode - 1614. Maximum Nesting Depth of the Parentheses ^]
+
+Given a *valid parentheses string* `s`, return the *nesting depth* of_ _`s`. The nesting depth is the *maximum* number of nested parentheses.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">s = "(1+(2*3)+((8)/4))+1"
+
+*Output:* <span class="example-io">3
+
+*Explanation:*
+
+Digit 8 is inside of 3 nested parentheses in the string.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">s = "(1)+((2))+(((3)))"
+
+*Output:* <span class="example-io">3
+
+*Explanation:*
+
+Digit 3 is inside of 3 nested parentheses in the string.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">s = "()(())((()()))"
+
+*Output:* <span class="example-io">3
+
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 100`
+* `s` consists of digits `0-9` and characters `'+'`, `'-'`, `'*'`, `'/'`, `'('`, and `')'`.
+* It is guaranteed that parentheses expression `s` is a VPS.
+
+
+
+
+== 思路分析
+
+
+[[src-1614]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1614_MaximumNestingDepthOfTheParentheses.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1614_MaximumNestingDepthOfTheParentheses_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2362-generate-the-invoice]
+= 2362. Generate the Invoice
+
+https://leetcode.com/problems/generate-the-invoice/[LeetCode - 2362. Generate the Invoice ^]
+
+
+
+== 思路分析
+
+
+[[src-2362]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2362_GenerateTheInvoice.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2362_GenerateTheInvoice_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

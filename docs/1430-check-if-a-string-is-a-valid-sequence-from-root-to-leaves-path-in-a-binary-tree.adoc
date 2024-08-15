@@ -1,0 +1,36 @@
+[#1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree]
+= 1430. Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
+
+https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/[LeetCode - 1430. Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree ^]
+
+
+
+== 思路分析
+
+
+[[src-1430]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1430_CheckIfAStringIsAValidSequenceFromRootToLeavesPathInABinaryTree.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1430_CheckIfAStringIsAValidSequenceFromRootToLeavesPathInABinaryTree_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

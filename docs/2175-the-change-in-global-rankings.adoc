@@ -1,0 +1,36 @@
+[#2175-the-change-in-global-rankings]
+= 2175. The Change in Global Rankings
+
+https://leetcode.com/problems/the-change-in-global-rankings/[LeetCode - 2175. The Change in Global Rankings ^]
+
+
+
+== 思路分析
+
+
+[[src-2175]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2175_TheChangeInGlobalRankings.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2175_TheChangeInGlobalRankings_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

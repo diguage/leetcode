@@ -1,0 +1,84 @@
+[#1414-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k]
+= 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
+
+https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/[LeetCode - 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K ^]
+
+Given an integer `k`, _return the minimum number of Fibonacci numbers whose sum is equal to _`k`. The same Fibonacci number can be used multiple times.
+
+The Fibonacci numbers are defined as:
+
+
+* `F<sub>1</sub> = 1`
+* `F<sub>2</sub> = 1`
+* `F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-2</sub>` for `n > 2.`
+
+It is guaranteed that for the given constraints we can always find such Fibonacci numbers that sum up to `k`.
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* k = 7
+*Output:* 2 
+*Explanation:* The Fibonacci numbers are: 1, 1, 2, 3, 5, 8, 13, ... 
+For k = 7 we can use 2 + 5 = 7.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* k = 10
+*Output:* 2 
+*Explanation:* For k = 10 we can use 2 + 8 = 10.
+
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* k = 19
+*Output:* 3 
+*Explanation:* For k = 19 we can use 1 + 5 + 13 = 19.
+
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= k <= 10^9^`
+
+
+
+
+== 思路分析
+
+
+[[src-1414]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1414_FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1414_FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,83 @@
+[#2315-count-asterisks]
+= 2315. Count Asterisks
+
+https://leetcode.com/problems/count-asterisks/[LeetCode - 2315. Count Asterisks ^]
+
+You are given a string `s`, where every *two* consecutive vertical bars `'|'` are grouped into a *pair*. In other words, the 1^st^ and 2^nd^ `'|'` make a pair, the 3^rd^ and 4^th^ `'|'` make a pair, and so forth.
+
+Return _the number of _`'*'`_ in _`s`_, *excluding* the _`'*'`_ between each pair of _`'|'`.
+
+*Note* that each `'|'` will belong to *exactly* one pair.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "l|*e*et|c**o|*de|"
+*Output:* 2
+*Explanation:* The considered characters are underlined: "[.underline]#l#|*e*et|[.underline]#c**o#|*de|".
+The characters between the first and second '|' are excluded from the answer.
+Also, the characters between the third and fourth '|' are excluded from the answer.
+There are 2 asterisks considered. Therefore, we return 2.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "iamprogrammer"
+*Output:* 0
+*Explanation:* In this example, there are no asterisks in s. Therefore, we return 0.
+
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "yo|uar|e**|b|e***au|tifu|l"
+*Output:* 5
+*Explanation:* The considered characters are underlined: "[.underline]#yo#|uar|[.underline]#e**#|b|[.underline]#e***au#|tifu|[.underline]#l#". There are 5 asterisks considered. Therefore, we return 5.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 1000`
+* `s` consists of lowercase English letters, vertical bars `'|'`, and asterisks `'*'`.
+* `s` contains an *even* number of vertical bars `'|'`.
+
+
+
+
+== 思路分析
+
+
+[[src-2315]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2315_CountAsterisks.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2315_CountAsterisks_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

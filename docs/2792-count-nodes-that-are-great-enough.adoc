@@ -1,0 +1,36 @@
+[#2792-count-nodes-that-are-great-enough]
+= 2792. Count Nodes That Are Great Enough
+
+https://leetcode.com/problems/count-nodes-that-are-great-enough/[LeetCode - 2792. Count Nodes That Are Great Enough ^]
+
+
+
+== 思路分析
+
+
+[[src-2792]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2792_CountNodesThatAreGreatEnough.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2792_CountNodesThatAreGreatEnough_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

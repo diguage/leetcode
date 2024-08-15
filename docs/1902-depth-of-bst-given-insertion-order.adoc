@@ -1,0 +1,36 @@
+[#1902-depth-of-bst-given-insertion-order]
+= 1902. Depth of BST Given Insertion Order
+
+https://leetcode.com/problems/depth-of-bst-given-insertion-order/[LeetCode - 1902. Depth of BST Given Insertion Order ^]
+
+
+
+== 思路分析
+
+
+[[src-1902]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1902_DepthOfBstGivenInsertionOrder.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1902_DepthOfBstGivenInsertionOrder_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,86 @@
+[#2030-smallest-k-length-subsequence-with-occurrences-of-a-letter]
+= 2030. Smallest K-Length Subsequence With Occurrences of a Letter
+
+https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/[LeetCode - 2030. Smallest K-Length Subsequence With Occurrences of a Letter ^]
+
+You are given a string `s`, an integer `k`, a letter `letter`, and an integer `repetition`.
+
+Return _the *lexicographically smallest* subsequence of_ `s`_ of length_ `k` _that has the letter_ `letter` _appear *at least*_ `repetition` _times_. The test cases are generated so that the `letter` appears in `s` *at least* `repetition` times.
+
+A *subsequence* is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.
+
+A string `a` is *lexicographically smaller* than a string `b` if in the first position where `a` and `b` differ, string `a` has a letter that appears earlier in the alphabet than the corresponding letter in `b`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "leet", k = 3, letter = "e", repetition = 1
+*Output:* "eet"
+*Explanation:* There are four subsequences of length 3 that have the letter 'e' appear at least 1 time:
+- "lee" (from "*[.underline]#lee#*t")
+- "let" (from "*[.underline]#le#*e[.underline]#*t*#")
+- "let" (from "[.underline]#*l*#e[.underline]#*et*#")
+- "eet" (from "l[.underline]#*eet*#")
+The lexicographically smallest subsequence among them is "eet".
+----
+
+<strong class="example">Example 2:*
+<img alt="example-2" src="https://assets.leetcode.com/uploads/2021/09/13/smallest-k-length-subsequence.png" style="width: 339px; height: 67px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* s = "leetcode", k = 4, letter = "e", repetition = 2
+*Output:* "ecde"
+*Explanation:* "ecde" is the lexicographically smallest subsequence of length 4 that has the letter "e" appear at least 2 times.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "bb", k = 2, letter = "b", repetition = 2
+*Output:* "bb"
+*Explanation:* "bb" is the only subsequence of length 2 that has the letter "b" appear at least 2 times.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= repetition <= k <= s.length <= 5 * 10^4^`
+* `s` consists of lowercase English letters.
+* `letter` is a lowercase English letter, and appears in `s` at least `repetition` times.
+
+
+
+
+== 思路分析
+
+
+[[src-2030]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2030_SmallestKLengthSubsequenceWithOccurrencesOfALetter.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2030_SmallestKLengthSubsequenceWithOccurrencesOfALetter_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

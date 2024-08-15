@@ -1,0 +1,36 @@
+[#2077-paths-in-maze-that-lead-to-same-room]
+= 2077. Paths in Maze That Lead to Same Room
+
+https://leetcode.com/problems/paths-in-maze-that-lead-to-same-room/[LeetCode - 2077. Paths in Maze That Lead to Same Room ^]
+
+
+
+== 思路分析
+
+
+[[src-2077]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2077_PathsInMazeThatLeadToSameRoom.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2077_PathsInMazeThatLeadToSameRoom_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

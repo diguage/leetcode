@@ -1,0 +1,36 @@
+[#3189-minimum-moves-to-get-a-peaceful-board]
+= 3189. Minimum Moves to Get a Peaceful Board
+
+https://leetcode.com/problems/minimum-moves-to-get-a-peaceful-board/[LeetCode - 3189. Minimum Moves to Get a Peaceful Board ^]
+
+
+
+== 思路分析
+
+
+[[src-3189]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3189_MinimumMovesToGetAPeacefulBoard.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3189_MinimumMovesToGetAPeacefulBoard_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2253-dynamic-unpivoting-of-a-table]
+= 2253. Dynamic Unpivoting of a Table
+
+https://leetcode.com/problems/dynamic-unpivoting-of-a-table/[LeetCode - 2253. Dynamic Unpivoting of a Table ^]
+
+
+
+== 思路分析
+
+
+[[src-2253]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2253_DynamicUnpivotingOfATable.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2253_DynamicUnpivotingOfATable_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

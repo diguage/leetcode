@@ -1,0 +1,36 @@
+[#2655-find-maximal-uncovered-ranges]
+= 2655. Find Maximal Uncovered Ranges
+
+https://leetcode.com/problems/find-maximal-uncovered-ranges/[LeetCode - 2655. Find Maximal Uncovered Ranges ^]
+
+
+
+== 思路分析
+
+
+[[src-2655]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2655_FindMaximalUncoveredRanges.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2655_FindMaximalUncoveredRanges_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

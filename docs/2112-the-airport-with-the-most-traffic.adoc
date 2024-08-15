@@ -1,0 +1,36 @@
+[#2112-the-airport-with-the-most-traffic]
+= 2112. The Airport With the Most Traffic
+
+https://leetcode.com/problems/the-airport-with-the-most-traffic/[LeetCode - 2112. The Airport With the Most Traffic ^]
+
+
+
+== 思路分析
+
+
+[[src-2112]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2112_TheAirportWithTheMostTraffic.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2112_TheAirportWithTheMostTraffic_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

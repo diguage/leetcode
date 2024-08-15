@@ -1,0 +1,85 @@
+[#2057-smallest-index-with-equal-value]
+= 2057. Smallest Index With Equal Value
+
+https://leetcode.com/problems/smallest-index-with-equal-value/[LeetCode - 2057. Smallest Index With Equal Value ^]
+
+Given a *0-indexed* integer array `nums`, return _the *smallest* index _`i`_ of _`nums`_ such that _`i mod 10 == nums[i]`_, or _`-1`_ if such index does not exist_.
+
+`x mod y` denotes the *remainder* when `x` is divided by `y`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [0,1,2]
+*Output:* 0
+*Explanation:* 
+i=0: 0 mod 10 = 0 == nums[0].
+i=1: 1 mod 10 = 1 == nums[1].
+i=2: 2 mod 10 = 2 == nums[2].
+All indices have i mod 10 == nums[i], so we return the smallest index 0.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [4,3,2,1]
+*Output:* 2
+*Explanation:* 
+i=0: 0 mod 10 = 0 != nums[0].
+i=1: 1 mod 10 = 1 != nums[1].
+i=2: 2 mod 10 = 2 == nums[2].
+i=3: 3 mod 10 = 3 != nums[3].
+2 is the only index which has i mod 10 == nums[i].
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [1,2,3,4,5,6,7,8,9,0]
+*Output:* -1
+*Explanation:* No index satisfies i mod 10 == nums[i].
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 100`
+* `0 <= nums[i] <= 9`
+
+
+
+
+== 思路分析
+
+
+[[src-2057]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2057_SmallestIndexWithEqualValue.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2057_SmallestIndexWithEqualValue_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

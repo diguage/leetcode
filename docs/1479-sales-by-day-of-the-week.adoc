@@ -1,0 +1,36 @@
+[#1479-sales-by-day-of-the-week]
+= 1479. Sales by Day of the Week
+
+https://leetcode.com/problems/sales-by-day-of-the-week/[LeetCode - 1479. Sales by Day of the Week ^]
+
+
+
+== 思路分析
+
+
+[[src-1479]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1479_SalesByDayOfTheWeek.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1479_SalesByDayOfTheWeek_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

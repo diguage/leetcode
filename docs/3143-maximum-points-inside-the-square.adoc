@@ -1,0 +1,102 @@
+[#3143-maximum-points-inside-the-square]
+= 3143. Maximum Points Inside the Square
+
+https://leetcode.com/problems/maximum-points-inside-the-square/[LeetCode - 3143. Maximum Points Inside the Square ^]
+
+You are given a 2D* *array `points` and a string `s` where, `points[i]` represents the coordinates of point `i`, and `s[i]` represents the *tag* of point `i`.
+
+A *valid* square is a square centered at the origin `(0, 0)`, has edges parallel to the axes, and *does not* contain two points with the same tag.
+
+Return the *maximum* number of points contained in a *valid* square.
+
+Note:
+
+
+* A point is considered to be inside the square if it lies on or within the square's boundaries.
+* The side length of the square can be zero.
+
+
+ 
+<strong class="example">Example 1:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/03/29/3708-tc1.png" style="width: 303px; height: 303px;" />
+
+<div class="example-block">
+*Input:* <span class="example-io">points = [[2,2],[-1,-2],[-4,4],[-3,1],[3,-3]], s = "abdca"
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+The square of side length 4 covers two points `points[0]` and `points[1]`.
+
+
+<strong class="example">Example 2:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/03/29/3708-tc2.png" style="width: 302px; height: 302px;" />
+
+<div class="example-block">
+*Input:* <span class="example-io">points = [[1,1],[-2,-2],[-2,2]], s = "abb"
+
+*Output:* <span class="example-io">1
+
+*Explanation:*
+
+The square of side length 2 covers one point, which is `points[0]`.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">points = [[1,1],[-1,-1],[2,-2]], s = "ccd"
+
+*Output:* <span class="example-io">0
+
+*Explanation:*
+
+It's impossible to make any valid squares centered at the origin such that it covers only one point among `points[0]` and `points[1]`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length, points.length <= 10^5^`
+* `points[i].length == 2`
+* `-10^9^ <= points[i][0], points[i][1] <= 10^9^`
+* `s.length == points.length`
+* `points` consists of distinct coordinates.
+* `s` consists only of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-3143]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3143_MaximumPointsInsideTheSquare.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3143_MaximumPointsInsideTheSquare_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

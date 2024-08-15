@@ -1,0 +1,108 @@
+[#3117-minimum-sum-of-values-by-dividing-array]
+= 3117. Minimum Sum of Values by Dividing Array
+
+https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/[LeetCode - 3117. Minimum Sum of Values by Dividing Array ^]
+
+You are given two arrays `nums` and `andValues` of length `n` and `m` respectively.
+
+The *value* of an array is equal to the *last* element of that array.
+
+You have to divide `nums` into `m` *disjoint contiguous* <span data-keyword="subarray-nonempty">subarrays such that for the `i^th^` subarray `[l<sub>i</sub>, r<sub>i</sub>]`, the bitwise `AND` of the subarray elements is equal to `andValues[i]`, in other words, `nums[l<sub>i</sub>] &amp; nums[l<sub>i</sub> + 1] &amp; ... &amp; nums[r<sub>i</sub>] == andValues[i]` for all `1 <= i <= m`, where `&amp;` represents the bitwise `AND` operator.
+
+Return _the *minimum* possible sum of the *values* of the _`m`_ subarrays _`nums`_ is divided into_. _If it is not possible to divide _`nums`_ into _`m`_ subarrays satisfying these conditions, return_ `-1`.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,4,3,3,2], andValues = [0,3,3,2]
+
+*Output:* <span class="example-io">12
+
+*Explanation:*
+
+The only possible way to divide `nums` is:
+
+
+* `[1,4]` as `1 &amp; 4 == 0`.
+* `[3]` as the bitwise `AND` of a single element subarray is that element itself.
+* `[3]` as the bitwise `AND` of a single element subarray is that element itself.
+* `[2]` as the bitwise `AND` of a single element subarray is that element itself.
+
+
+The sum of the values for these subarrays is `4 + 3 + 3 + 2 = 12`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [2,3,5,7,7,7,5], andValues = [0,7,5]
+
+*Output:* <span class="example-io">17
+
+*Explanation:*
+
+There are three ways to divide `nums`:
+
+
+* `[[2,3,5],[7,7,7],[5]]` with the sum of the values `5 + 7 + 5 == 17`.
+* `[[2,3,5,7],[7,7],[5]]` with the sum of the values `7 + 7 + 5 == 19`.
+* `[[2,3,5,7,7],[7],[5]]` with the sum of the values `7 + 7 + 5 == 19`.
+
+
+The minimum possible sum of the values is `17`.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,2,3,4], andValues = [2]
+
+*Output:* <span class="example-io">-1
+
+*Explanation:*
+
+The bitwise `AND` of the entire array `nums` is `0`. As there is no possible way to divide `nums` into a single subarray to have the bitwise `AND` of elements `2`, return `-1`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= n == nums.length <= 10^4^`
+* `1 <= m == andValues.length <= min(n, 10)`
+* `1 <= nums[i] < 10^5^`
+* `0 <= andValues[j] < 10^5^`
+
+
+
+
+== 思路分析
+
+
+[[src-3117]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3117_MinimumSumOfValuesByDividingArray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3117_MinimumSumOfValuesByDividingArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

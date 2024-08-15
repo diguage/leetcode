@@ -1,0 +1,36 @@
+[#1660-correct-a-binary-tree]
+= 1660. Correct a Binary Tree
+
+https://leetcode.com/problems/correct-a-binary-tree/[LeetCode - 1660. Correct a Binary Tree ^]
+
+
+
+== 思路分析
+
+
+[[src-1660]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1660_CorrectABinaryTree.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1660_CorrectABinaryTree_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,68 @@
+[#1481-least-number-of-unique-integers-after-k-removals]
+= 1481. Least Number of Unique Integers after K Removals
+
+https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/[LeetCode - 1481. Least Number of Unique Integers after K Removals ^]
+
+Given an array of integers `arr` and an integer `k`. Find the _least number of unique integers_ after removing *exactly* `k` elements*.*
+
+
+
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *arr = [5,5,4], k = 1
+*Output: *1
+*Explanation*: Remove the single 4, only 5 is left.
+
+----
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input: *arr = [4,3,1,1,3,3,2], k = 3
+*Output: *2
+*Explanation*: Remove 4, 2 and either one of the two 1s or three 3s. 1 and 3 will be left.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= arr.length <= 10^5`
+* `1 <= arr[i] <= 10^9`
+* `0 <= k <= arr.length`
+
+
+
+== 思路分析
+
+
+[[src-1481]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1481_LeastNumberOfUniqueIntegersAfterKRemovals.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1481_LeastNumberOfUniqueIntegersAfterKRemovals_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

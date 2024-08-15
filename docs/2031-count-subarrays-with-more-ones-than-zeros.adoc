@@ -1,0 +1,36 @@
+[#2031-count-subarrays-with-more-ones-than-zeros]
+= 2031. Count Subarrays With More Ones Than Zeros
+
+https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/[LeetCode - 2031. Count Subarrays With More Ones Than Zeros ^]
+
+
+
+== 思路分析
+
+
+[[src-2031]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2031_CountSubarraysWithMoreOnesThanZeros.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2031_CountSubarraysWithMoreOnesThanZeros_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

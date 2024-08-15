@@ -1,0 +1,36 @@
+[#2847-smallest-number-with-given-digit-product]
+= 2847. Smallest Number With Given Digit Product
+
+https://leetcode.com/problems/smallest-number-with-given-digit-product/[LeetCode - 2847. Smallest Number With Given Digit Product ^]
+
+
+
+== 思路分析
+
+
+[[src-2847]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2847_SmallestNumberWithGivenDigitProduct.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2847_SmallestNumberWithGivenDigitProduct_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,97 @@
+[#1657-determine-if-two-strings-are-close]
+= 1657. Determine if Two Strings Are Close
+
+https://leetcode.com/problems/determine-if-two-strings-are-close/[LeetCode - 1657. Determine if Two Strings Are Close ^]
+
+Two strings are considered *close* if you can attain one from the other using the following operations:
+
+
+* Operation 1: Swap any two *existing* characters.
+
+	
+	* For example, `a[.underline]#b#cd[.underline]#e# -> a[.underline]#e#cd[.underline]#b#`
+	
+	
+* Operation 2: Transform *every* occurrence of one *existing* character into another *existing* character, and do the same with the other character.
+	
+	* For example, `[.underline]#aa#c[.underline]#abb# -> [.underline]#bb#c[.underline]#baa#` (all `a`'s turn into `b`'s, and all `b`'s turn into `a`'s)
+	
+	
+
+
+You can use the operations on either string as many times as necessary.
+
+Given two strings, `word1` and `word2`, return `true`_ if _`word1`_ and _`word2`_ are *close*, and _`false`_ otherwise._
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* word1 = "abc", word2 = "bca"
+*Output:* true
+*Explanation:* You can attain word2 from word1 in 2 operations.
+Apply Operation 1: "a[.underline]#bc#" -> "a[.underline]#cb#"
+Apply Operation 1: "[.underline]#a#c[.underline]#b#" -> "[.underline]#b#c[.underline]#a#"
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* word1 = "a", word2 = "aa"
+*Output:* false
+*Explanation: *It is impossible to attain word2 from word1, or vice versa, in any number of operations.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* word1 = "cabbba", word2 = "abbccc"
+*Output:* true
+*Explanation:* You can attain word2 from word1 in 3 operations.
+Apply Operation 1: "ca[.underline]#b#bb[.underline]#a#" -> "ca[.underline]#a#bb[.underline]#b#"
+Apply Operation 2: "[.underline]#c#aa[.underline]#bbb#" -> "[.underline]#b#aa[.underline]#ccc#"
+Apply Operation 2: "[.underline]#baa#ccc" -> "[.underline]#abb#ccc"
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= word1.length, word2.length <= 10^5^`
+* `word1` and `word2` contain only lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-1657]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1657_DetermineIfTwoStringsAreClose.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1657_DetermineIfTwoStringsAreClose_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

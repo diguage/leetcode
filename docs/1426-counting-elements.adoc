@@ -1,0 +1,36 @@
+[#1426-counting-elements]
+= 1426. Counting Elements
+
+https://leetcode.com/problems/counting-elements/[LeetCode - 1426. Counting Elements ^]
+
+
+
+== 思路分析
+
+
+[[src-1426]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1426_CountingElements.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1426_CountingElements_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

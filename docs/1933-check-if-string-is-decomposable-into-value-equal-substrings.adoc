@@ -1,0 +1,36 @@
+[#1933-check-if-string-is-decomposable-into-value-equal-substrings]
+= 1933. Check if String Is Decomposable Into Value-Equal Substrings
+
+https://leetcode.com/problems/check-if-string-is-decomposable-into-value-equal-substrings/[LeetCode - 1933. Check if String Is Decomposable Into Value-Equal Substrings ^]
+
+
+
+== 思路分析
+
+
+[[src-1933]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1933_CheckIfStringIsDecomposableIntoValueEqualSubstrings.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1933_CheckIfStringIsDecomposableIntoValueEqualSubstrings_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

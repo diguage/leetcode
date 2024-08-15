@@ -1,0 +1,36 @@
+[#2254-design-video-sharing-platform]
+= 2254. Design Video Sharing Platform
+
+https://leetcode.com/problems/design-video-sharing-platform/[LeetCode - 2254. Design Video Sharing Platform ^]
+
+
+
+== 思路分析
+
+
+[[src-2254]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2254_DesignVideoSharingPlatform.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2254_DesignVideoSharingPlatform_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

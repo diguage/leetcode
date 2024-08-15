@@ -1,0 +1,36 @@
+[#2519-count-the-number-of-k-big-indices]
+= 2519. Count the Number of K-Big Indices
+
+https://leetcode.com/problems/count-the-number-of-k-big-indices/[LeetCode - 2519. Count the Number of K-Big Indices ^]
+
+
+
+== 思路分析
+
+
+[[src-2519]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2519_CountTheNumberOfKBigIndices.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2519_CountTheNumberOfKBigIndices_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

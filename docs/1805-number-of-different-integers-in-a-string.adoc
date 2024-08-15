@@ -1,0 +1,80 @@
+[#1805-number-of-different-integers-in-a-string]
+= 1805. Number of Different Integers in a String
+
+https://leetcode.com/problems/number-of-different-integers-in-a-string/[LeetCode - 1805. Number of Different Integers in a String ^]
+
+You are given a string `word` that consists of digits and lowercase English letters.
+
+You will replace every non-digit character with a space. For example, `"a123bc34d8ef34"` will become `" 123  34 8  34"`. Notice that you are left with some integers that are separated by at least one space: `"123"`, `"34"`, `"8"`, and `"34"`.
+
+Return _the number of *different* integers after performing the replacement operations on _`word`.
+
+Two integers are considered different if their decimal representations *without any leading zeros* are different.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* word = "a[.underline]#123#bc[.underline]#34#d[.underline]#8#ef[.underline]#34#"
+*Output:* 3
+*Explanation: *The three different integers are "123", "34", and "8". Notice that "34" is only counted once.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* word = "leet[.underline]#1234#code[.underline]#234#"
+*Output:* 2
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* word = "a[.underline]#1#b[.underline]#01#c[.underline]#001#"
+*Output:* 1
+*Explanation: *The three integers "1", "01", and "001" all represent the same integer because
+the leading zeros are ignored when comparing their decimal values.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= word.length <= 1000`
+* `word` consists of digits and lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-1805]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1805_NumberOfDifferentIntegersInAString.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1805_NumberOfDifferentIntegersInAString_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

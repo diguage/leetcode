@@ -1,0 +1,36 @@
+[#2986-find-third-transaction]
+= 2986. Find Third Transaction
+
+https://leetcode.com/problems/find-third-transaction/[LeetCode - 2986. Find Third Transaction ^]
+
+
+
+== 思路分析
+
+
+[[src-2986]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2986_FindThirdTransaction.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2986_FindThirdTransaction_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

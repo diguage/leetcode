@@ -1,0 +1,36 @@
+[#1500-design-a-file-sharing-system]
+= 1500. Design a File Sharing System
+
+https://leetcode.com/problems/design-a-file-sharing-system/[LeetCode - 1500. Design a File Sharing System ^]
+
+
+
+== 思路分析
+
+
+[[src-1500]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1500_DesignAFileSharingSystem.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1500_DesignAFileSharingSystem_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

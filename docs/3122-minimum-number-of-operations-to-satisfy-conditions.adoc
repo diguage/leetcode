@@ -1,0 +1,102 @@
+[#3122-minimum-number-of-operations-to-satisfy-conditions]
+= 3122. Minimum Number of Operations to Satisfy Conditions
+
+https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/[LeetCode - 3122. Minimum Number of Operations to Satisfy Conditions ^]
+
+You are given a 2D matrix `grid` of size `m x n`. In one *operation*, you can change the value of *any* cell to *any* non-negative number. You need to perform some *operations* such that each cell `grid[i][j]` is:
+
+
+* Equal to the cell below it, i.e. `grid[i][j] == grid[i + 1][j]` (if it exists).
+* Different from the cell to its right, i.e. `grid[i][j] != grid[i][j + 1]` (if it exists).
+
+
+Return the *minimum* number of operations needed.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">grid = [[1,0,2],[1,0,2]]
+
+*Output:* 0
+
+*Explanation:*
+
+*<img alt="" src="https://assets.leetcode.com/uploads/2024/04/15/examplechanged.png" style="width: 254px; height: 186px;padding: 10px; background: #fff; border-radius: .5rem;" />*
+
+All the cells in the matrix already satisfy the properties.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">grid = [[1,1,1],[0,0,0]]
+
+*Output:* 3
+
+*Explanation:*
+
+*<img alt="" src="https://assets.leetcode.com/uploads/2024/03/27/example21.png" style="width: 254px; height: 186px;padding: 10px; background: #fff; border-radius: .5rem;" />*
+
+The matrix becomes `[[1,0,1],[1,0,1]]` which satisfies the properties, by doing these 3 operations:
+
+
+* Change `grid[1][0]` to 1.
+* Change `grid[0][1]` to 0.
+* Change `grid[1][2]` to 1.
+
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">grid = [[1],[2],[3]]
+
+*Output:* 2
+
+*Explanation:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2024/03/31/changed.png" style="width: 86px; height: 277px;padding: 10px; background: #fff; border-radius: .5rem;" />
+
+There is a single column. We can change the value to 1 in each cell using 2 operations.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= n, m <= 1000`
+* `0 <= grid[i][j] <= 9`
+
+
+
+
+== 思路分析
+
+
+[[src-3122]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3122_MinimumNumberOfOperationsToSatisfyConditions.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3122_MinimumNumberOfOperationsToSatisfyConditions_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

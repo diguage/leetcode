@@ -1,0 +1,36 @@
+[#1570-dot-product-of-two-sparse-vectors]
+= 1570. Dot Product of Two Sparse Vectors
+
+https://leetcode.com/problems/dot-product-of-two-sparse-vectors/[LeetCode - 1570. Dot Product of Two Sparse Vectors ^]
+
+
+
+== 思路分析
+
+
+[[src-1570]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1570_DotProductOfTwoSparseVectors.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1570_DotProductOfTwoSparseVectors_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

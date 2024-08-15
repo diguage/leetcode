@@ -1,0 +1,92 @@
+[#3201-find-the-maximum-length-of-valid-subsequence-i]
+= 3201. Find the Maximum Length of Valid Subsequence I
+
+https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/[LeetCode - 3201. Find the Maximum Length of Valid Subsequence I ^]
+
+You are given an integer array `nums`.
+A <span data-keyword="subsequence-array">subsequence `sub` of `nums` with length `x` is called *valid* if it satisfies:
+
+
+* `(sub[0] + sub[1]) % 2 == (sub[1] + sub[2]) % 2 == ... == (sub[x - 2] + sub[x - 1]) % 2.`
+
+
+Return the length of the *longest* *valid* subsequence of `nums`.
+
+A *subsequence* is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,2,3,4]
+
+*Output:* <span class="example-io">4
+
+*Explanation:*
+
+The longest valid subsequence is `[1, 2, 3, 4]`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,2,1,1,2,1,2]
+
+*Output:* 6
+
+*Explanation:*
+
+The longest valid subsequence is `[1, 2, 1, 2, 1, 2]`.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,3]
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+The longest valid subsequence is `[1, 3]`.
+
+
+ 
+*Constraints:*
+
+
+* `2 <= nums.length <= 2 * 10^5^`
+* `1 <= nums[i] <= 10^7^`
+
+
+
+
+== 思路分析
+
+
+[[src-3201]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3201_FindTheMaximumLengthOfValidSubsequenceI.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3201_FindTheMaximumLengthOfValidSubsequenceI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

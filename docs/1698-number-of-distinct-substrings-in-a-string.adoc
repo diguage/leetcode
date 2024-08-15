@@ -1,0 +1,36 @@
+[#1698-number-of-distinct-substrings-in-a-string]
+= 1698. Number of Distinct Substrings in a String
+
+https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/[LeetCode - 1698. Number of Distinct Substrings in a String ^]
+
+
+
+== 思路分析
+
+
+[[src-1698]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1698_NumberOfDistinctSubstringsInAString.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1698_NumberOfDistinctSubstringsInAString_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

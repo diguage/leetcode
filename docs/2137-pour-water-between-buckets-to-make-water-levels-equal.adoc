@@ -1,0 +1,36 @@
+[#2137-pour-water-between-buckets-to-make-water-levels-equal]
+= 2137. Pour Water Between Buckets to Make Water Levels Equal
+
+https://leetcode.com/problems/pour-water-between-buckets-to-make-water-levels-equal/[LeetCode - 2137. Pour Water Between Buckets to Make Water Levels Equal ^]
+
+
+
+== 思路分析
+
+
+[[src-2137]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2137_PourWaterBetweenBucketsToMakeWaterLevelsEqual.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2137_PourWaterBetweenBucketsToMakeWaterLevelsEqual_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

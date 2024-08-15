@@ -1,0 +1,36 @@
+[#2313-minimum-flips-in-binary-tree-to-get-result]
+= 2313. Minimum Flips in Binary Tree to Get Result
+
+https://leetcode.com/problems/minimum-flips-in-binary-tree-to-get-result/[LeetCode - 2313. Minimum Flips in Binary Tree to Get Result ^]
+
+
+
+== 思路分析
+
+
+[[src-2313]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2313_MinimumFlipsInBinaryTreeToGetResult.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2313_MinimumFlipsInBinaryTreeToGetResult_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

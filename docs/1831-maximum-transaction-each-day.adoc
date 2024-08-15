@@ -1,0 +1,36 @@
+[#1831-maximum-transaction-each-day]
+= 1831. Maximum Transaction Each Day
+
+https://leetcode.com/problems/maximum-transaction-each-day/[LeetCode - 1831. Maximum Transaction Each Day ^]
+
+
+
+== 思路分析
+
+
+[[src-1831]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1831_MaximumTransactionEachDay.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1831_MaximumTransactionEachDay_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

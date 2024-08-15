@@ -1,0 +1,36 @@
+[#1747-leetflex-banned-accounts]
+= 1747. Leetflex Banned Accounts
+
+https://leetcode.com/problems/leetflex-banned-accounts/[LeetCode - 1747. Leetflex Banned Accounts ^]
+
+
+
+== 思路分析
+
+
+[[src-1747]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1747_LeetflexBannedAccounts.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1747_LeetflexBannedAccounts_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

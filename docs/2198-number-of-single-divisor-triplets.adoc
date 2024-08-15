@@ -1,0 +1,36 @@
+[#2198-number-of-single-divisor-triplets]
+= 2198. Number of Single Divisor Triplets
+
+https://leetcode.com/problems/number-of-single-divisor-triplets/[LeetCode - 2198. Number of Single Divisor Triplets ^]
+
+
+
+== 思路分析
+
+
+[[src-2198]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2198_NumberOfSingleDivisorTriplets.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2198_NumberOfSingleDivisorTriplets_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

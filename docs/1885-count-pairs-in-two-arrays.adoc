@@ -1,0 +1,36 @@
+[#1885-count-pairs-in-two-arrays]
+= 1885. Count Pairs in Two Arrays
+
+https://leetcode.com/problems/count-pairs-in-two-arrays/[LeetCode - 1885. Count Pairs in Two Arrays ^]
+
+
+
+== 思路分析
+
+
+[[src-1885]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1885_CountPairsInTwoArrays.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1885_CountPairsInTwoArrays_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

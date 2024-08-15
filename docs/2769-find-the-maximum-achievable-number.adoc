@@ -1,0 +1,84 @@
+[#2769-find-the-maximum-achievable-number]
+= 2769. Find the Maximum Achievable Number
+
+https://leetcode.com/problems/find-the-maximum-achievable-number/[LeetCode - 2769. Find the Maximum Achievable Number ^]
+
+Given two integers, `num` and `t`. A *number is achievable* if it can become equal to `num` after applying the following operation:
+
+
+* Increase or decrease the number by `1`, and simultaneously increase or decrease `num` by `1`.
+
+
+Return the *maximum achievable number* after applying the operation at most `t` times.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">num = 4, t = 1
+
+*Output:* <span class="example-io">6
+
+*Explanation:*
+
+Apply the following operation once to make the maximum achievable number equal to `num`:
+
+
+* Decrease the maximum achievable number by 1, and increase `num` by 1.
+
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">num = 3, t = 2
+
+*Output:* <span class="example-io">7
+
+*Explanation:*
+
+Apply the following operation twice to make the maximum achievable number equal to `num`:
+
+
+* Decrease the maximum achievable number by 1, and increase `num` by 1.
+
+
+
+ 
+*Constraints:*
+
+
+* `1 <= num, t <= 50`
+
+
+
+
+== 思路分析
+
+
+[[src-2769]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2769_FindTheMaximumAchievableNumber.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2769_FindTheMaximumAchievableNumber_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

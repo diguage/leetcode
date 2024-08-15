@@ -1,0 +1,80 @@
+[#1812-determine-color-of-a-chessboard-square]
+= 1812. Determine Color of a Chessboard Square
+
+https://leetcode.com/problems/determine-color-of-a-chessboard-square/[LeetCode - 1812. Determine Color of a Chessboard Square ^]
+
+You are given `coordinates`, a string that represents the coordinates of a square of the chessboard. Below is a chessboard for your reference.
+
+<img alt="" src="https://assets.leetcode.com/uploads/2021/02/19/screenshot-2021-02-20-at-22159-pm.png" style="width: 400px; height: 396px;" />
+
+Return `true`_ if the square is white, and _`false`_ if the square is black_.
+
+The coordinate will always represent a valid chessboard square. The coordinate will always have the letter first, and the number second.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* coordinates = "a1"
+*Output:* false
+*Explanation:* From the chessboard above, the square with coordinates "a1" is black, so return false.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* coordinates = "h3"
+*Output:* true
+*Explanation:* From the chessboard above, the square with coordinates "h3" is white, so return true.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* coordinates = "c7"
+*Output:* false
+----
+
+ 
+*Constraints:*
+
+
+* `coordinates.length == 2`
+* `'a' <= coordinates[0] <= 'h'`
+* `'1' <= coordinates[1] <= '8'`
+
+
+
+
+== 思路分析
+
+
+[[src-1812]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1812_DetermineColorOfAChessboardSquare.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1812_DetermineColorOfAChessboardSquare_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

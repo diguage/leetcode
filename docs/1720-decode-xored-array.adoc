@@ -1,0 +1,72 @@
+[#1720-decode-xored-array]
+= 1720. Decode XORed Array
+
+https://leetcode.com/problems/decode-xored-array/[LeetCode - 1720. Decode XORed Array ^]
+
+There is a *hidden* integer array `arr` that consists of `n` non-negative integers.
+
+It was encoded into another integer array `encoded` of length `n - 1`, such that `encoded[i] = arr[i] XOR arr[i + 1]`. For example, if `arr = [1,0,2,1]`, then `encoded = [1,2,3]`.
+
+You are given the `encoded` array. You are also given an integer `first`, that is the first element of `arr`, i.e. `arr[0]`.
+
+Return _the original array_ `arr`. It can be proved that the answer exists and is unique.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* encoded = [1,2,3], first = 1
+*Output:* [1,0,2,1]
+*Explanation:* If arr = [1,0,2,1], then first = 1 and encoded = [1 XOR 0, 0 XOR 2, 2 XOR 1] = [1,2,3]
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* encoded = [6,2,7,3], first = 4
+*Output:* [4,2,0,7,4]
+----
+
+ 
+*Constraints:*
+
+
+* `2 <= n <= 10^4^`
+* `encoded.length == n - 1`
+* `0 <= encoded[i] <= 10^5^`
+* `0 <= first <= 10^5^`
+
+
+
+
+== 思路分析
+
+
+[[src-1720]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1720_DecodeXoredArray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1720_DecodeXoredArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

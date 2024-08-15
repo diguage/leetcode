@@ -1,0 +1,68 @@
+[#2621-sleep]
+= 2621. Sleep
+
+https://leetcode.com/problems/sleep/[LeetCode - 2621. Sleep ^]
+
+Given a positive integer `millis`, write an asynchronous function that sleeps for `millis` milliseconds. It can resolve any value.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* millis = 100
+*Output:* 100
+*Explanation:* It should return a promise that resolves after 100ms.
+let t = Date.now();
+sleep(100).then(() => {
+  console.log(Date.now() - t); // 100
+});
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* millis = 200
+*Output:* 200
+*Explanation:* It should return a promise that resolves after 200ms.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= millis <= 1000`
+
+
+
+
+== 思路分析
+
+
+[[src-2621]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2621_Sleep.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2621_Sleep_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

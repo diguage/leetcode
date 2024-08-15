@@ -1,0 +1,36 @@
+[#2061-number-of-spaces-cleaning-robot-cleaned]
+= 2061. Number of Spaces Cleaning Robot Cleaned
+
+https://leetcode.com/problems/number-of-spaces-cleaning-robot-cleaned/[LeetCode - 2061. Number of Spaces Cleaning Robot Cleaned ^]
+
+
+
+== 思路分析
+
+
+[[src-2061]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2061_NumberOfSpacesCleaningRobotCleaned.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2061_NumberOfSpacesCleaningRobotCleaned_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

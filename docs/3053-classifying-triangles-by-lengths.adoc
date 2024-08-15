@@ -1,0 +1,36 @@
+[#3053-classifying-triangles-by-lengths]
+= 3053. Classifying Triangles by Lengths
+
+https://leetcode.com/problems/classifying-triangles-by-lengths/[LeetCode - 3053. Classifying Triangles by Lengths ^]
+
+
+
+== 思路分析
+
+
+[[src-3053]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3053_ClassifyingTrianglesByLengths.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3053_ClassifyingTrianglesByLengths_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#1804-implement-trie-ii-prefix-tree]
+= 1804. Implement Trie II (Prefix Tree)
+
+https://leetcode.com/problems/implement-trie-ii-prefix-tree/[LeetCode - 1804. Implement Trie II (Prefix Tree) ^]
+
+
+
+== 思路分析
+
+
+[[src-1804]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1804_ImplementTrieIiPrefixTree.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1804_ImplementTrieIiPrefixTree_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

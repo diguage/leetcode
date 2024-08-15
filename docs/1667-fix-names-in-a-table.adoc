@@ -1,0 +1,80 @@
+[#1667-fix-names-in-a-table]
+= 1667. Fix Names in a Table
+
+https://leetcode.com/problems/fix-names-in-a-table/[LeetCode - 1667. Fix Names in a Table ^]
+
+Table: `Users`
+
+[subs="verbatim,quotes"]
+----
++----------------+---------+
+| Column Name    | Type    |
++----------------+---------+
+| user_id        | int     |
+| name           | varchar |
++----------------+---------+
+user_id is the primary key (column with unique values) for this table.
+This table contains the ID and the name of the user. The name consists of only lowercase and uppercase characters.
+----
+
+ 
+
+Write a solution to fix the names so that only the first character is uppercase and the rest are lowercase.
+
+Return the result table ordered by `user_id`.
+
+The result format is in the following example.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* 
+Users table:
++---------+-------+
+| user_id | name  |
++---------+-------+
+| 1       | aLice |
+| 2       | bOB   |
++---------+-------+
+*Output:* 
++---------+-------+
+| user_id | name  |
++---------+-------+
+| 1       | Alice |
+| 2       | Bob   |
++---------+-------+
+----
+
+
+
+== 思路分析
+
+
+[[src-1667]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1667_FixNamesInATable.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1667_FixNamesInATable_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

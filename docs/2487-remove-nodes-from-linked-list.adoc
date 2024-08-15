@@ -1,0 +1,72 @@
+[#2487-remove-nodes-from-linked-list]
+= 2487. Remove Nodes From Linked List
+
+https://leetcode.com/problems/remove-nodes-from-linked-list/[LeetCode - 2487. Remove Nodes From Linked List ^]
+
+You are given the `head` of a linked list.
+
+Remove every node which has a node with a greater value anywhere to the right side of it.
+
+Return _the _`head`_ of the modified linked list._
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2022/10/02/drawio.png" style="width: 631px; height: 51px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* head = [5,2,13,3,8]
+*Output:* [13,8]
+*Explanation:* The nodes that should be removed are 5, 2 and 3.
+- Node 13 is to the right of node 5.
+- Node 13 is to the right of node 2.
+- Node 8 is to the right of node 3.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* head = [1,1,1,1]
+*Output:* [1,1,1,1]
+*Explanation:* Every node has value 1, so no nodes are removed.
+----
+
+ 
+*Constraints:*
+
+
+* The number of the nodes in the given list is in the range `[1, 10^5^]`.
+* `1 <= Node.val <= 10^5^`
+
+
+
+
+== 思路分析
+
+
+[[src-2487]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2487_RemoveNodesFromLinkedList.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2487_RemoveNodesFromLinkedList_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

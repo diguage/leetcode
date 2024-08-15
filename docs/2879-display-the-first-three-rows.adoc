@@ -1,0 +1,81 @@
+[#2879-display-the-first-three-rows]
+= 2879. Display the First Three Rows
+
+https://leetcode.com/problems/display-the-first-three-rows/[LeetCode - 2879. Display the First Three Rows ^]
+
+[subs="verbatim,quotes"]
+----
+DataFrame: `employees`
++-------------+--------+
+| Column Name | Type   |
++-------------+--------+
+| employee_id | int    |
+| name        | object |
+| department  | object |
+| salary      | int    |
++-------------+--------+
+
+----
+
+Write a solution to display the *first `3` *rows* *of this DataFrame.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:
+*DataFrame employees
++-------------+-----------+-----------------------+--------+
+| employee_id | name      | department            | salary |
++-------------+-----------+-----------------------+--------+
+| 3           | Bob       | Operations            | 48675  |
+| 90          | Alice     | Sales                 | 11096  |
+| 9           | Tatiana   | Engineering           | 33805  |
+| 60          | Annabelle | InformationTechnology | 37678  |
+| 49          | Jonathan  | HumanResources        | 23793  |
+| 43          | Khaled    | Administration        | 40454  |
++-------------+-----------+-----------------------+--------+
+*Output:*
++-------------+---------+-------------+--------+
+| employee_id | name    | department  | salary |
++-------------+---------+-------------+--------+
+| 3           | Bob     | Operations  | 48675  |
+| 90          | Alice   | Sales       | 11096  |
+| 9           | Tatiana | Engineering | 33805  |
++-------------+---------+-------------+--------+
+*Explanation:* 
+Only the first 3 rows are displayed.
+----
+
+
+
+== 思路分析
+
+
+[[src-2879]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2879_DisplayTheFirstThreeRows.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2879_DisplayTheFirstThreeRows_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

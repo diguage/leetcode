@@ -1,0 +1,85 @@
+[#3151-special-array-i]
+= 3151. Special Array I
+
+https://leetcode.com/problems/special-array-i/[LeetCode - 3151. Special Array I ^]
+
+An array is considered *special* if every pair of its adjacent elements contains two numbers with different parity.<!-- notionvc: e6bed0fa-c67d-43a7-81b4-99fb85b99e98 -->
+
+You are given an array of integers `nums`. Return `true` if `nums` is a *special* array, otherwise, return `false`.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1]
+
+*Output:* <span class="example-io">true
+
+*Explanation:*
+
+There is only one element. So the answer is `true`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [2,1,4]
+
+*Output:* <span class="example-io">true
+
+*Explanation:*
+
+There is only two pairs: `(2,1)` and `(1,4)`, and both of them contain numbers with different parity. So the answer is `true`.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [4,3,1,6]
+
+*Output:* <span class="example-io">false
+
+*Explanation:*
+
+`nums[1]` and `nums[2]` are both odd. So the answer is `false`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 100`
+* `1 <= nums[i] <= 100`
+
+
+
+
+== 思路分析
+
+
+[[src-3151]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3151_SpecialArrayI.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3151_SpecialArrayI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

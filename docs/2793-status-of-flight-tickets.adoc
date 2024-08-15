@@ -1,0 +1,36 @@
+[#2793-status-of-flight-tickets]
+= 2793. Status of Flight Tickets
+
+https://leetcode.com/problems/status-of-flight-tickets/[LeetCode - 2793. Status of Flight Tickets ^]
+
+
+
+== 思路分析
+
+
+[[src-2793]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2793_StatusOfFlightTickets.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2793_StatusOfFlightTickets_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

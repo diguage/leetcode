@@ -1,0 +1,36 @@
+[#1999-smallest-greater-multiple-made-of-two-digits]
+= 1999. Smallest Greater Multiple Made of Two Digits
+
+https://leetcode.com/problems/smallest-greater-multiple-made-of-two-digits/[LeetCode - 1999. Smallest Greater Multiple Made of Two Digits ^]
+
+
+
+== 思路分析
+
+
+[[src-1999]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1999_SmallestGreaterMultipleMadeOfTwoDigits.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1999_SmallestGreaterMultipleMadeOfTwoDigits_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

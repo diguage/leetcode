@@ -1,0 +1,36 @@
+[#2700-differences-between-two-objects]
+= 2700. Differences Between Two Objects
+
+https://leetcode.com/problems/differences-between-two-objects/[LeetCode - 2700. Differences Between Two Objects ^]
+
+
+
+== 思路分析
+
+
+[[src-2700]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2700_DifferencesBetweenTwoObjects.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2700_DifferencesBetweenTwoObjects_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

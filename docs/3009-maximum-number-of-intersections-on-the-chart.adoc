@@ -1,0 +1,36 @@
+[#3009-maximum-number-of-intersections-on-the-chart]
+= 3009. Maximum Number of Intersections on the Chart
+
+https://leetcode.com/problems/maximum-number-of-intersections-on-the-chart/[LeetCode - 3009. Maximum Number of Intersections on the Chart ^]
+
+
+
+== 思路分析
+
+
+[[src-3009]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3009_MaximumNumberOfIntersectionsOnTheChart.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3009_MaximumNumberOfIntersectionsOnTheChart_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

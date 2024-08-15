@@ -1,0 +1,36 @@
+[#2838-maximum-coins-heroes-can-collect]
+= 2838. Maximum Coins Heroes Can Collect
+
+https://leetcode.com/problems/maximum-coins-heroes-can-collect/[LeetCode - 2838. Maximum Coins Heroes Can Collect ^]
+
+
+
+== 思路分析
+
+
+[[src-2838]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2838_MaximumCoinsHeroesCanCollect.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2838_MaximumCoinsHeroesCanCollect_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

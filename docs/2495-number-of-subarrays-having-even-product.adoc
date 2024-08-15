@@ -1,0 +1,36 @@
+[#2495-number-of-subarrays-having-even-product]
+= 2495. Number of Subarrays Having Even Product
+
+https://leetcode.com/problems/number-of-subarrays-having-even-product/[LeetCode - 2495. Number of Subarrays Having Even Product ^]
+
+
+
+== 思路分析
+
+
+[[src-2495]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2495_NumberOfSubarraysHavingEvenProduct.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2495_NumberOfSubarraysHavingEvenProduct_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

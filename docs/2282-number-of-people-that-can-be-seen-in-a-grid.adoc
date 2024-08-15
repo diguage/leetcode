@@ -1,0 +1,36 @@
+[#2282-number-of-people-that-can-be-seen-in-a-grid]
+= 2282. Number of People That Can Be Seen in a Grid
+
+https://leetcode.com/problems/number-of-people-that-can-be-seen-in-a-grid/[LeetCode - 2282. Number of People That Can Be Seen in a Grid ^]
+
+
+
+== 思路分析
+
+
+[[src-2282]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2282_NumberOfPeopleThatCanBeSeenInAGrid.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2282_NumberOfPeopleThatCanBeSeenInAGrid_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

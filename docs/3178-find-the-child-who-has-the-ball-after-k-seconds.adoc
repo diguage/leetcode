@@ -1,0 +1,172 @@
+[#3178-find-the-child-who-has-the-ball-after-k-seconds]
+= 3178. Find the Child Who Has the Ball After K Seconds
+
+https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/[LeetCode - 3178. Find the Child Who Has the Ball After K Seconds ^]
+
+You are given two *positive* integers `n` and `k`. There are `n` children numbered from `0` to `n - 1` standing in a queue _in order_ from left to right.
+
+Initially, child 0 holds a ball and the direction of passing the ball is towards the right direction. After each second, the child holding the ball passes it to the child next to them. Once the ball reaches *either* end of the line, i.e. child 0 or child `n - 1`, the direction of passing is *reversed*.
+
+Return the number of the child who receives the ball after `k` seconds.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 3, k = 5
+
+*Output:* <span class="example-io">1
+
+*Explanation:*
+
+<table>
+	<tbody>
+		<tr>
+			<th>Time elapsed</th>
+			<th>Children</th>
+		</tr>
+		<tr>
+			<td>`0`</td>
+			<td>`[[.underline]#0#, 1, 2]`</td>
+		</tr>
+		<tr>
+			<td>`1`</td>
+			<td>`[0, [.underline]#1#, 2]`</td>
+		</tr>
+		<tr>
+			<td>`2`</td>
+			<td>`[0, 1, [.underline]#2#]`</td>
+		</tr>
+		<tr>
+			<td>`3`</td>
+			<td>`[0, [.underline]#1#, 2]`</td>
+		</tr>
+		<tr>
+			<td>`4`</td>
+			<td>`[[.underline]#0#, 1, 2]`</td>
+		</tr>
+		<tr>
+			<td>`5`</td>
+			<td>`[0, [.underline]#1#, 2]`</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 5, k = 6
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+<table>
+	<tbody>
+		<tr>
+			<th>Time elapsed</th>
+			<th>Children</th>
+		</tr>
+		<tr>
+			<td>`0`</td>
+			<td>`[[.underline]#0#, 1, 2, 3, 4]`</td>
+		</tr>
+		<tr>
+			<td>`1`</td>
+			<td>`[0, [.underline]#1#, 2, 3, 4]`</td>
+		</tr>
+		<tr>
+			<td>`2`</td>
+			<td>`[0, 1, [.underline]#2#, 3, 4]`</td>
+		</tr>
+		<tr>
+			<td>`3`</td>
+			<td>`[0, 1, 2, [.underline]#3#, 4]`</td>
+		</tr>
+		<tr>
+			<td>`4`</td>
+			<td>`[0, 1, 2, 3, [.underline]#4#]`</td>
+		</tr>
+		<tr>
+			<td>`5`</td>
+			<td>`[0, 1, 2, [.underline]#3#, 4]`</td>
+		</tr>
+		<tr>
+			<td>`6`</td>
+			<td>`[0, 1, [.underline]#2#, 3, 4]`</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 4, k = 2
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+<table>
+	<tbody>
+		<tr>
+			<th>Time elapsed</th>
+			<th>Children</th>
+		</tr>
+		<tr>
+			<td>`0`</td>
+			<td>`[[.underline]#0#, 1, 2, 3]`</td>
+		</tr>
+		<tr>
+			<td>`1`</td>
+			<td>`[0, [.underline]#1#, 2, 3]`</td>
+		</tr>
+		<tr>
+			<td>`2`</td>
+			<td>`[0, 1, [.underline]#2#, 3]`</td>
+		</tr>
+	</tbody>
+</table>
+
+
+ 
+*Constraints:*
+
+
+* `2 <= n <= 50`
+* `1 <= k <= 50`
+
+
+
+
+== 思路分析
+
+
+[[src-3178]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3178_FindTheChildWhoHasTheBallAfterKSeconds.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3178_FindTheChildWhoHasTheBallAfterKSeconds_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

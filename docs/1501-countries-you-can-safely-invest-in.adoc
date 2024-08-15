@@ -1,0 +1,36 @@
+[#1501-countries-you-can-safely-invest-in]
+= 1501. Countries You Can Safely Invest In
+
+https://leetcode.com/problems/countries-you-can-safely-invest-in/[LeetCode - 1501. Countries You Can Safely Invest In ^]
+
+
+
+== 思路分析
+
+
+[[src-1501]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1501_CountriesYouCanSafelyInvestIn.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1501_CountriesYouCanSafelyInvestIn_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

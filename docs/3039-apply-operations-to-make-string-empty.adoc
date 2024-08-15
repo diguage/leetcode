@@ -1,0 +1,83 @@
+[#3039-apply-operations-to-make-string-empty]
+= 3039. Apply Operations to Make String Empty
+
+https://leetcode.com/problems/apply-operations-to-make-string-empty/[LeetCode - 3039. Apply Operations to Make String Empty ^]
+
+You are given a string `s`.
+
+Consider performing the following operation until `s` becomes *empty*:
+
+
+* For *every* alphabet character from `'a'` to `'z'`, remove the *first* occurrence of that character in `s` (if it exists).
+
+
+For example, let initially `s = "aabcbbca"`. We do the following operations:
+
+
+* Remove the underlined characters `s = "[.underline]#*a*#a*[.underline]#bc#*bbca"`. The resulting string is `s = "abbca"`.
+* Remove the underlined characters `s = "[.underline]#*ab*#b[.underline]#*c*#a"`. The resulting string is `s = "ba"`.
+* Remove the underlined characters `s = "[.underline]#*ba*#"`. The resulting string is `s = ""`.
+
+
+Return _the value of the string _`s`_ right *before* applying the *last* operation_. In the example above, answer is `"ba"`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "aabcbbca"
+*Output:* "ba"
+*Explanation:* Explained in the statement.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "abcd"
+*Output:* "abcd"
+*Explanation:* We do the following operation:
+- Remove the underlined characters s = "[.underline]#*abcd*#". The resulting string is s = "".
+The string just before the last operation is "abcd".
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 5 * 10^5^`
+* `s` consists only of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-3039]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3039_ApplyOperationsToMakeStringEmpty.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3039_ApplyOperationsToMakeStringEmpty_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

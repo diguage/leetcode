@@ -1,0 +1,36 @@
+[#3063-linked-list-frequency]
+= 3063. Linked List Frequency
+
+https://leetcode.com/problems/linked-list-frequency/[LeetCode - 3063. Linked List Frequency ^]
+
+
+
+== 思路分析
+
+
+[[src-3063]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3063_LinkedListFrequency.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3063_LinkedListFrequency_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

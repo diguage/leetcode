@@ -1,0 +1,62 @@
+[#1556-thousand-separator]
+= 1556. Thousand Separator
+
+https://leetcode.com/problems/thousand-separator/[LeetCode - 1556. Thousand Separator ^]
+
+Given an integer `n`, add a dot (".") as the thousands separator and return it in string format.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 987
+*Output:* "987"
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 1234
+*Output:* "1.234"
+----
+
+ 
+*Constraints:*
+
+
+* `0 <= n <= 2^31^ - 1`
+
+
+
+
+== 思路分析
+
+
+[[src-1556]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1556_ThousandSeparator.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1556_ThousandSeparator_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

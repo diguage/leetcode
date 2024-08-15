@@ -1,0 +1,36 @@
+[#1613-find-the-missing-ids]
+= 1613. Find the Missing IDs
+
+https://leetcode.com/problems/find-the-missing-ids/[LeetCode - 1613. Find the Missing IDs ^]
+
+
+
+== 思路分析
+
+
+[[src-1613]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1613_FindTheMissingIds.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1613_FindTheMissingIds_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

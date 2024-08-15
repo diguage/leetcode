@@ -1,0 +1,77 @@
+[#1456-maximum-number-of-vowels-in-a-substring-of-given-length]
+= 1456. Maximum Number of Vowels in a Substring of Given Length
+
+https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/[LeetCode - 1456. Maximum Number of Vowels in a Substring of Given Length ^]
+
+Given a string `s` and an integer `k`, return _the maximum number of vowel letters in any substring of _`s`_ with length _`k`.
+
+*Vowel letters* in English are `'a'`, `'e'`, `'i'`, `'o'`, and `'u'`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "abciiidef", k = 3
+*Output:* 3
+*Explanation:* The substring "iii" contains 3 vowel letters.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "aeiou", k = 2
+*Output:* 2
+*Explanation:* Any substring of length 2 contains 2 vowels.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "leetcode", k = 3
+*Output:* 2
+*Explanation:* "lee", "eet" and "ode" contain 2 vowels.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 10^5^`
+* `s` consists of lowercase English letters.
+* `1 <= k <= s.length`
+
+
+
+
+== 思路分析
+
+
+[[src-1456]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1456_MaximumNumberOfVowelsInASubstringOfGivenLength.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1456_MaximumNumberOfVowelsInASubstringOfGivenLength_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

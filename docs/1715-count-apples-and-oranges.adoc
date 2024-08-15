@@ -1,0 +1,36 @@
+[#1715-count-apples-and-oranges]
+= 1715. Count Apples and Oranges
+
+https://leetcode.com/problems/count-apples-and-oranges/[LeetCode - 1715. Count Apples and Oranges ^]
+
+
+
+== 思路分析
+
+
+[[src-1715]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1715_CountApplesAndOranges.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1715_CountApplesAndOranges_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

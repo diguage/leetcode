@@ -1,0 +1,36 @@
+[#1820-maximum-number-of-accepted-invitations]
+= 1820. Maximum Number of Accepted Invitations
+
+https://leetcode.com/problems/maximum-number-of-accepted-invitations/[LeetCode - 1820. Maximum Number of Accepted Invitations ^]
+
+
+
+== 思路分析
+
+
+[[src-1820]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1820_MaximumNumberOfAcceptedInvitations.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1820_MaximumNumberOfAcceptedInvitations_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

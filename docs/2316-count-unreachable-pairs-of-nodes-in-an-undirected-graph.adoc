@@ -1,0 +1,73 @@
+[#2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph]
+= 2316. Count Unreachable Pairs of Nodes in an Undirected Graph
+
+https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/[LeetCode - 2316. Count Unreachable Pairs of Nodes in an Undirected Graph ^]
+
+You are given an integer `n`. There is an *undirected* graph with `n` nodes, numbered from `0` to `n - 1`. You are given a 2D integer array `edges` where `edges[i] = [a<sub>i</sub>, b<sub>i</sub>]` denotes that there exists an *undirected* edge connecting nodes `a<sub>i</sub>` and `b<sub>i</sub>`.
+
+Return _the *number of pairs* of different nodes that are *unreachable* from each other_.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2022/05/05/tc-3.png" style="width: 267px; height: 169px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* n = 3, edges = [[0,1],[0,2],[1,2]]
+*Output:* 0
+*Explanation:* There are no pairs of nodes that are unreachable from each other. Therefore, we return 0.
+----
+
+<strong class="example">Example 2:*
+<img alt="" src="https://assets.leetcode.com/uploads/2022/05/05/tc-2.png" style="width: 295px; height: 269px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* n = 7, edges = [[0,2],[0,5],[2,4],[1,6],[5,4]]
+*Output:* 14
+*Explanation:* There are 14 pairs of nodes that are unreachable from each other:
+[[0,1],[0,3],[0,6],[1,2],[1,3],[1,4],[1,5],[2,3],[2,6],[3,4],[3,5],[3,6],[4,6],[5,6]].
+Therefore, we return 14.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 10^5^`
+* `0 <= edges.length <= 2 * 10^5^`
+* `edges[i].length == 2`
+* `0 <= a<sub>i</sub>, b<sub>i</sub> < n`
+* `a<sub>i</sub> != b<sub>i</sub>`
+* There are no repeated edges.
+
+
+
+
+== 思路分析
+
+
+[[src-2316]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2316_CountUnreachablePairsOfNodesInAnUndirectedGraph.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2316_CountUnreachablePairsOfNodesInAnUndirectedGraph_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,78 @@
+[#1678-goal-parser-interpretation]
+= 1678. Goal Parser Interpretation
+
+https://leetcode.com/problems/goal-parser-interpretation/[LeetCode - 1678. Goal Parser Interpretation ^]
+
+You own a *Goal Parser* that can interpret a string `command`. The `command` consists of an alphabet of `"G"`, `"()"` and/or `"(al)"` in some order. The Goal Parser will interpret `"G"` as the string `"G"`, `"()"` as the string `"o"`, and `"(al)"` as the string `"al"`. The interpreted strings are then concatenated in the original order.
+
+Given the string `command`, return _the *Goal Parser*'s interpretation of _`command`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* command = "G()(al)"
+*Output:* "Goal"
+*Explanation:* The Goal Parser interprets the command as follows:
+G -> G
+() -> o
+(al) -> al
+The final concatenated result is "Goal".
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* command = "G()()()()(al)"
+*Output:* "Gooooal"
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* command = "(al)G(al)()()G"
+*Output:* "alGalooG"
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= command.length <= 100`
+* `command` consists of `"G"`, `"()"`, and/or `"(al)"` in some order.
+
+
+
+
+== 思路分析
+
+
+[[src-1678]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1678_GoalParserInterpretation.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1678_GoalParserInterpretation_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

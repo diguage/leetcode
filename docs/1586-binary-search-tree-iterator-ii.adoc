@@ -1,0 +1,36 @@
+[#1586-binary-search-tree-iterator-ii]
+= 1586. Binary Search Tree Iterator II
+
+https://leetcode.com/problems/binary-search-tree-iterator-ii/[LeetCode - 1586. Binary Search Tree Iterator II ^]
+
+
+
+== 思路分析
+
+
+[[src-1586]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1586_BinarySearchTreeIteratorIi.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1586_BinarySearchTreeIteratorIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

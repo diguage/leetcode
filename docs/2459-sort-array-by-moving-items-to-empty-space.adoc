@@ -1,0 +1,36 @@
+[#2459-sort-array-by-moving-items-to-empty-space]
+= 2459. Sort Array by Moving Items to Empty Space
+
+https://leetcode.com/problems/sort-array-by-moving-items-to-empty-space/[LeetCode - 2459. Sort Array by Moving Items to Empty Space ^]
+
+
+
+== 思路分析
+
+
+[[src-2459]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2459_SortArrayByMovingItemsToEmptySpace.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2459_SortArrayByMovingItemsToEmptySpace_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

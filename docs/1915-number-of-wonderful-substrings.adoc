@@ -1,0 +1,96 @@
+[#1915-number-of-wonderful-substrings]
+= 1915. Number of Wonderful Substrings
+
+https://leetcode.com/problems/number-of-wonderful-substrings/[LeetCode - 1915. Number of Wonderful Substrings ^]
+
+A *wonderful* string is a string where *at most one* letter appears an *odd* number of times.
+
+
+* For example, `"ccjjc"` and `"abab"` are wonderful, but `"ab"` is not.
+
+
+Given a string `word` that consists of the first ten lowercase English letters (`'a'` through `'j'`), return _the *number of wonderful non-empty substrings* in _`word`_. If the same substring appears multiple times in _`word`_, then count *each occurrence* separately._
+
+A *substring* is a contiguous sequence of characters in a string.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* word = "aba"
+*Output:* 4
+*Explanation:* The four wonderful substrings are underlined below:
+- "[.underline]#*a*#ba" -> "a"
+- "a[.underline]#*b*#a" -> "b"
+- "ab[.underline]#*a*#" -> "a"
+- "[.underline]#*aba*#" -> "aba"
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* word = "aabb"
+*Output:* 9
+*Explanation:* The nine wonderful substrings are underlined below:
+- "*[.underline]#a#*abb" -> "a"
+- "[.underline]#*aa*#bb" -> "aa"
+- "[.underline]#*aab*#b" -> "aab"
+- "[.underline]#*aabb*#" -> "aabb"
+- "a[.underline]#*a*#bb" -> "a"
+- "a[.underline]#*abb*#" -> "abb"
+- "aa[.underline]#*b*#b" -> "b"
+- "aa[.underline]#*bb*#" -> "bb"
+- "aab[.underline]#*b*#" -> "b"
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* word = "he"
+*Output:* 2
+*Explanation:* The two wonderful substrings are underlined below:
+- "*[.underline]#h#*e" -> "h"
+- "h*[.underline]#e#*" -> "e"
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= word.length <= 10^5^`
+* `word` consists of lowercase English letters from `'a'` to `'j'`.
+
+
+
+== 思路分析
+
+
+[[src-1915]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1915_NumberOfWonderfulSubstrings.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1915_NumberOfWonderfulSubstrings_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

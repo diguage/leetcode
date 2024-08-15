@@ -1,0 +1,36 @@
+[#2189-number-of-ways-to-build-house-of-cards]
+= 2189. Number of Ways to Build House of Cards
+
+https://leetcode.com/problems/number-of-ways-to-build-house-of-cards/[LeetCode - 2189. Number of Ways to Build House of Cards ^]
+
+
+
+== 思路分析
+
+
+[[src-2189]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2189_NumberOfWaysToBuildHouseOfCards.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2189_NumberOfWaysToBuildHouseOfCards_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

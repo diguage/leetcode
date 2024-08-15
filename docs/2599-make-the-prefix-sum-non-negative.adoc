@@ -1,0 +1,36 @@
+[#2599-make-the-prefix-sum-non-negative]
+= 2599. Make the Prefix Sum Non-negative
+
+https://leetcode.com/problems/make-the-prefix-sum-non-negative/[LeetCode - 2599. Make the Prefix Sum Non-negative ^]
+
+
+
+== 思路分析
+
+
+[[src-2599]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2599_MakeThePrefixSumNonNegative.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2599_MakeThePrefixSumNonNegative_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

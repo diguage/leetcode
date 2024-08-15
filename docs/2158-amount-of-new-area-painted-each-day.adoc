@@ -1,0 +1,36 @@
+[#2158-amount-of-new-area-painted-each-day]
+= 2158. Amount of New Area Painted Each Day
+
+https://leetcode.com/problems/amount-of-new-area-painted-each-day/[LeetCode - 2158. Amount of New Area Painted Each Day ^]
+
+
+
+== 思路分析
+
+
+[[src-2158]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2158_AmountOfNewAreaPaintedEachDay.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2158_AmountOfNewAreaPaintedEachDay_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

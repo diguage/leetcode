@@ -1,0 +1,76 @@
+[#2271-maximum-white-tiles-covered-by-a-carpet]
+= 2271. Maximum White Tiles Covered by a Carpet
+
+https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/[LeetCode - 2271. Maximum White Tiles Covered by a Carpet ^]
+
+You are given a 2D integer array `tiles` where `tiles[i] = [l<sub>i</sub>, r<sub>i</sub>]` represents that every tile `j` in the range `l<sub>i</sub> <= j <= r<sub>i</sub>` is colored white.
+
+You are also given an integer `carpetLen`, the length of a single carpet that can be placed *anywhere*.
+
+Return _the *maximum* number of white tiles that can be covered by the carpet_.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2022/03/25/example1drawio3.png" style="width: 644px; height: 158px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* tiles = [[1,5],[10,11],[12,18],[20,25],[30,32]], carpetLen = 10
+*Output:* 9
+*Explanation:* Place the carpet starting on tile 10. 
+It covers 9 white tiles, so we return 9.
+Note that there may be other places where the carpet covers 9 white tiles.
+It can be shown that the carpet cannot cover more than 9 white tiles.
+----
+
+<strong class="example">Example 2:*
+<img alt="" src="https://assets.leetcode.com/uploads/2022/03/24/example2drawio.png" style="width: 231px; height: 168px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* tiles = [[10,11],[1,1]], carpetLen = 2
+*Output:* 2
+*Explanation:* Place the carpet starting on tile 10. 
+It covers 2 white tiles, so we return 2.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= tiles.length <= 5 * 10^4^`
+* `tiles[i].length == 2`
+* `1 <= l<sub>i</sub> <= r<sub>i</sub> <= 10^9^`
+* `1 <= carpetLen <= 10^9^`
+* The `tiles` are *non-overlapping*.
+
+
+
+
+== 思路分析
+
+
+[[src-2271]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2271_MaximumWhiteTilesCoveredByACarpet.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2271_MaximumWhiteTilesCoveredByACarpet_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

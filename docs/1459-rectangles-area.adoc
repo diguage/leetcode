@@ -1,0 +1,36 @@
+[#1459-rectangles-area]
+= 1459. Rectangles Area
+
+https://leetcode.com/problems/rectangles-area/[LeetCode - 1459. Rectangles Area ^]
+
+
+
+== 思路分析
+
+
+[[src-1459]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1459_RectanglesArea.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1459_RectanglesArea_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

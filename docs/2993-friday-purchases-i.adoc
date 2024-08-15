@@ -1,0 +1,36 @@
+[#2993-friday-purchases-i]
+= 2993. Friday Purchases I
+
+https://leetcode.com/problems/friday-purchases-i/[LeetCode - 2993. Friday Purchases I ^]
+
+
+
+== 思路分析
+
+
+[[src-2993]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2993_FridayPurchasesI.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2993_FridayPurchasesI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

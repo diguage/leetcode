@@ -1,0 +1,36 @@
+[#3246-premier-league-table-ranking]
+= 3246. Premier League Table Ranking
+
+https://leetcode.com/problems/premier-league-table-ranking/[LeetCode - 3246. Premier League Table Ranking ^]
+
+
+
+== 思路分析
+
+
+[[src-3246]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3246_PremierLeagueTableRanking.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3246_PremierLeagueTableRanking_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

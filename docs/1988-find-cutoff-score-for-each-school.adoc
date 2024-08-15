@@ -1,0 +1,36 @@
+[#1988-find-cutoff-score-for-each-school]
+= 1988. Find Cutoff Score for Each School
+
+https://leetcode.com/problems/find-cutoff-score-for-each-school/[LeetCode - 1988. Find Cutoff Score for Each School ^]
+
+
+
+== 思路分析
+
+
+[[src-1988]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1988_FindCutoffScoreForEachSchool.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1988_FindCutoffScoreForEachSchool_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

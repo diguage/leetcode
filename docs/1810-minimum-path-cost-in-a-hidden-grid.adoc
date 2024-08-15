@@ -1,0 +1,36 @@
+[#1810-minimum-path-cost-in-a-hidden-grid]
+= 1810. Minimum Path Cost in a Hidden Grid
+
+https://leetcode.com/problems/minimum-path-cost-in-a-hidden-grid/[LeetCode - 1810. Minimum Path Cost in a Hidden Grid ^]
+
+
+
+== 思路分析
+
+
+[[src-1810]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1810_MinimumPathCostInAHiddenGrid.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1810_MinimumPathCostInAHiddenGrid_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

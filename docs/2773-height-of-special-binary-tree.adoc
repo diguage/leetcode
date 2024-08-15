@@ -1,0 +1,36 @@
+[#2773-height-of-special-binary-tree]
+= 2773. Height of Special Binary Tree
+
+https://leetcode.com/problems/height-of-special-binary-tree/[LeetCode - 2773. Height of Special Binary Tree ^]
+
+
+
+== 思路分析
+
+
+[[src-2773]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2773_HeightOfSpecialBinaryTree.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2773_HeightOfSpecialBinaryTree_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

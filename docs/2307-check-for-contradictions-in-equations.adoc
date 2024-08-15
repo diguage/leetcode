@@ -1,0 +1,36 @@
+[#2307-check-for-contradictions-in-equations]
+= 2307. Check for Contradictions in Equations
+
+https://leetcode.com/problems/check-for-contradictions-in-equations/[LeetCode - 2307. Check for Contradictions in Equations ^]
+
+
+
+== 思路分析
+
+
+[[src-2307]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2307_CheckForContradictionsInEquations.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2307_CheckForContradictionsInEquations_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2852-sum-of-remoteness-of-all-cells]
+= 2852. Sum of Remoteness of All Cells
+
+https://leetcode.com/problems/sum-of-remoteness-of-all-cells/[LeetCode - 2852. Sum of Remoteness of All Cells ^]
+
+
+
+== 思路分析
+
+
+[[src-2852]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2852_SumOfRemotenessOfAllCells.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2852_SumOfRemotenessOfAllCells_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

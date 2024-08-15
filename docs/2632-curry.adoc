@@ -1,0 +1,36 @@
+[#2632-curry]
+= 2632. Curry
+
+https://leetcode.com/problems/curry/[LeetCode - 2632. Curry ^]
+
+
+
+== 思路分析
+
+
+[[src-2632]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2632_Curry.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2632_Curry_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

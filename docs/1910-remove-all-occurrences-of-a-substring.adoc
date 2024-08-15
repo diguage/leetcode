@@ -1,0 +1,83 @@
+[#1910-remove-all-occurrences-of-a-substring]
+= 1910. Remove All Occurrences of a Substring
+
+https://leetcode.com/problems/remove-all-occurrences-of-a-substring/[LeetCode - 1910. Remove All Occurrences of a Substring ^]
+
+Given two strings `s` and `part`, perform the following operation on `s` until *all* occurrences of the substring `part` are removed:
+
+
+* Find the *leftmost* occurrence of the substring `part` and *remove* it from `s`.
+
+
+Return `s`_ after removing all occurrences of _`part`.
+
+A *substring* is a contiguous sequence of characters in a string.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "daabcbaabcbc", part = "abc"
+*Output:* "dab"
+*Explanation*: The following operations are done:
+- s = "da*[.underline]#abc#*baabcbc", remove "abc" starting at index 2, so s = "dabaabcbc".
+- s = "daba*[.underline]#abc#*bc", remove "abc" starting at index 4, so s = "dababc".
+- s = "dab*[.underline]#abc#*", remove "abc" starting at index 3, so s = "dab".
+Now s has no occurrences of "abc".
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "axxxxyyyyb", part = "xy"
+*Output:* "ab"
+*Explanation*: The following operations are done:
+- s = "axxx*[.underline]#xy#*yyyb", remove "xy" starting at index 4 so s = "axxxyyyb".
+- s = "axx*[.underline]#xy#*yyb", remove "xy" starting at index 3 so s = "axxyyb".
+- s = "ax*[.underline]#xy#*yb", remove "xy" starting at index 2 so s = "axyb".
+- s = "a*[.underline]#xy#*b", remove "xy" starting at index 1 so s = "ab".
+Now s has no occurrences of "xy".
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 1000`
+* `1 <= part.length <= 1000`
+* `s`​​​​​​ and `part` consists of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-1910]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1910_RemoveAllOccurrencesOfASubstring.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1910_RemoveAllOccurrencesOfASubstring_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

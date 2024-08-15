@@ -1,0 +1,36 @@
+[#3032-count-numbers-with-unique-digits-ii]
+= 3032. Count Numbers With Unique Digits II
+
+https://leetcode.com/problems/count-numbers-with-unique-digits-ii/[LeetCode - 3032. Count Numbers With Unique Digits II ^]
+
+
+
+== 思路分析
+
+
+[[src-3032]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3032_CountNumbersWithUniqueDigitsIi.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3032_CountNumbersWithUniqueDigitsIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

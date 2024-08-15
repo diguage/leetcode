@@ -1,0 +1,36 @@
+[#2361-minimum-costs-using-the-train-line]
+= 2361. Minimum Costs Using the Train Line
+
+https://leetcode.com/problems/minimum-costs-using-the-train-line/[LeetCode - 2361. Minimum Costs Using the Train Line ^]
+
+
+
+== 思路分析
+
+
+[[src-2361]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2361_MinimumCostsUsingTheTrainLine.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2361_MinimumCostsUsingTheTrainLine_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

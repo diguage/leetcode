@@ -1,0 +1,36 @@
+[#1596-the-most-frequently-ordered-products-for-each-customer]
+= 1596. The Most Frequently Ordered Products for Each Customer
+
+https://leetcode.com/problems/the-most-frequently-ordered-products-for-each-customer/[LeetCode - 1596. The Most Frequently Ordered Products for Each Customer ^]
+
+
+
+== 思路分析
+
+
+[[src-1596]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1596_TheMostFrequentlyOrderedProductsForEachCustomer.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1596_TheMostFrequentlyOrderedProductsForEachCustomer_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,78 @@
+[#1864-minimum-number-of-swaps-to-make-the-binary-string-alternating]
+= 1864. Minimum Number of Swaps to Make the Binary String Alternating
+
+https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/[LeetCode - 1864. Minimum Number of Swaps to Make the Binary String Alternating ^]
+
+Given a binary string `s`, return _the *minimum* number of character swaps to make it *alternating*, or _`-1`_ if it is impossible._
+
+The string is called *alternating* if no two adjacent characters are equal. For example, the strings `"010"` and `"1010"` are alternating, while the string `"0100"` is not.
+
+Any two characters may be swapped, even if they are *not adjacent*.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "111000"
+*Output:* 1
+*Explanation:* Swap positions 1 and 4: "1[.underline]#1#10[.underline]#0#0" -> "1[.underline]#0#10[.underline]#1#0"
+The string is now alternating.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "010"
+*Output:* 0
+*Explanation:* The string is already alternating, no swaps are needed.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "1110"
+*Output:* -1
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 1000`
+* `s[i]` is either `'0'` or `'1'`.
+
+
+
+
+== 思路分析
+
+
+[[src-1864]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1864_MinimumNumberOfSwapsToMakeTheBinaryStringAlternating.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1864_MinimumNumberOfSwapsToMakeTheBinaryStringAlternating_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

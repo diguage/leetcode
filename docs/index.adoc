@@ -6490,4 +6490,82 @@ include::1905-count-sub-islands.adoc[leveloffset=+1]
 
 // include::3214-year-on-year-growth-rate.adoc[leveloffset=+1]
 
+// include::3215-count-triplets-with-even-xor-set-bits-ii.adoc[leveloffset=+1]
+
+// include::3216-lexicographically-smallest-string-after-a-swap.adoc[leveloffset=+1]
+
+// include::3217-delete-nodes-from-linked-list-present-in-array.adoc[leveloffset=+1]
+
+// include::3218-minimum-cost-for-cutting-cake-i.adoc[leveloffset=+1]
+
+// include::3219-minimum-cost-for-cutting-cake-ii.adoc[leveloffset=+1]
+
+// include::3220-odd-and-even-transactions.adoc[leveloffset=+1]
+
+// include::3221-maximum-array-hopping-score-ii.adoc[leveloffset=+1]
+
+// include::3222-find-the-winning-player-in-coin-game.adoc[leveloffset=+1]
+
+// include::3223-minimum-length-of-string-after-operations.adoc[leveloffset=+1]
+
+// include::3224-minimum-array-changes-to-make-differences-equal.adoc[leveloffset=+1]
+
+// include::3225-maximum-score-from-grid-operations.adoc[leveloffset=+1]
+
+// include::3226-number-of-bit-changes-to-make-two-integers-equal.adoc[leveloffset=+1]
+
+// include::3227-vowels-game-in-a-string.adoc[leveloffset=+1]
+
+// include::3228-maximum-number-of-operations-to-move-ones-to-the-end.adoc[leveloffset=+1]
+
+// include::3229-minimum-operations-to-make-array-equal-to-target.adoc[leveloffset=+1]
+
+// include::3230-customer-purchasing-behavior-analysis.adoc[leveloffset=+1]
+
+// include::3231-minimum-number-of-increasing-subsequence-to-be-removed.adoc[leveloffset=+1]
+
+// include::3232-find-if-digit-game-can-be-won.adoc[leveloffset=+1]
+
+// include::3233-find-the-count-of-numbers-which-are-not-special.adoc[leveloffset=+1]
+
+// include::3234-count-the-number-of-substrings-with-dominant-ones.adoc[leveloffset=+1]
+
+// include::3235-check-if-the-rectangle-corner-is-reachable.adoc[leveloffset=+1]
+
+// include::3236-ceo-subordinate-hierarchy.adoc[leveloffset=+1]
+
+// include::3237-alt-and-tab-simulation.adoc[leveloffset=+1]
+
+// include::3238-find-the-number-of-winning-players.adoc[leveloffset=+1]
+
+// include::3239-minimum-number-of-flips-to-make-binary-grid-palindromic-i.adoc[leveloffset=+1]
+
+// include::3240-minimum-number-of-flips-to-make-binary-grid-palindromic-ii.adoc[leveloffset=+1]
+
+// include::3241-time-taken-to-mark-all-nodes.adoc[leveloffset=+1]
+
+// include::3242-design-neighbor-sum-service.adoc[leveloffset=+1]
+
+// include::3243-shortest-distance-after-road-addition-queries-i.adoc[leveloffset=+1]
+
+// include::3244-shortest-distance-after-road-addition-queries-ii.adoc[leveloffset=+1]
+
+// include::3245-alternating-groups-iii.adoc[leveloffset=+1]
+
+// include::3246-premier-league-table-ranking.adoc[leveloffset=+1]
+
+// include::3247-number-of-subsequences-with-odd-sum.adoc[leveloffset=+1]
+
+// include::3248-snake-in-matrix.adoc[leveloffset=+1]
+
+// include::3249-count-the-number-of-good-nodes.adoc[leveloffset=+1]
+
+// include::3250-find-the-count-of-monotonic-pairs-i.adoc[leveloffset=+1]
+
+// include::3251-find-the-count-of-monotonic-pairs-ii.adoc[leveloffset=+1]
+
+// include::3252-premier-league-table-ranking-ii.adoc[leveloffset=+1]
+
+// include::3253-construct-string-with-minimum-cost-easy.adoc[leveloffset=+1]
+
 include::0000-00-note.adoc[leveloffset=+1]

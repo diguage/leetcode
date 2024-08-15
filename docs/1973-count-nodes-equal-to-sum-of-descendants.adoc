@@ -1,0 +1,36 @@
+[#1973-count-nodes-equal-to-sum-of-descendants]
+= 1973. Count Nodes Equal to Sum of Descendants
+
+https://leetcode.com/problems/count-nodes-equal-to-sum-of-descendants/[LeetCode - 1973. Count Nodes Equal to Sum of Descendants ^]
+
+
+
+== 思路分析
+
+
+[[src-1973]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1973_CountNodesEqualToSumOfDescendants.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1973_CountNodesEqualToSumOfDescendants_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

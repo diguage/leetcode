@@ -1,0 +1,36 @@
+[#1858-longest-word-with-all-prefixes]
+= 1858. Longest Word With All Prefixes
+
+https://leetcode.com/problems/longest-word-with-all-prefixes/[LeetCode - 1858. Longest Word With All Prefixes ^]
+
+
+
+== 思路分析
+
+
+[[src-1858]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1858_LongestWordWithAllPrefixes.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1858_LongestWordWithAllPrefixes_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

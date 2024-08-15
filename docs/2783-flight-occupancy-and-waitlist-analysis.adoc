@@ -1,0 +1,36 @@
+[#2783-flight-occupancy-and-waitlist-analysis]
+= 2783. Flight Occupancy and Waitlist Analysis
+
+https://leetcode.com/problems/flight-occupancy-and-waitlist-analysis/[LeetCode - 2783. Flight Occupancy and Waitlist Analysis ^]
+
+
+
+== 思路分析
+
+
+[[src-2783]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2783_FlightOccupancyAndWaitlistAnalysis.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2783_FlightOccupancyAndWaitlistAnalysis_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

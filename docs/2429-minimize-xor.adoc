@@ -1,0 +1,79 @@
+[#2429-minimize-xor]
+= 2429. Minimize XOR
+
+https://leetcode.com/problems/minimize-xor/[LeetCode - 2429. Minimize XOR ^]
+
+Given two positive integers `num1` and `num2`, find the positive integer `x` such that:
+
+
+* `x` has the same number of set bits as `num2`, and
+* The value `x XOR num1` is *minimal*.
+
+
+Note that `XOR` is the bitwise XOR operation.
+
+Return _the integer _`x`. The test cases are generated such that `x` is *uniquely determined*.
+
+The number of *set bits* of an integer is the number of `1`'s in its binary representation.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num1 = 3, num2 = 5
+*Output:* 3
+*Explanation:*
+The binary representations of num1 and num2 are 0011 and 0101, respectively.
+The integer *3* has the same number of set bits as num2, and the value `3 XOR 3 = 0` is minimal.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* num1 = 1, num2 = 12
+*Output:* 3
+*Explanation:*
+The binary representations of num1 and num2 are 0001 and 1100, respectively.
+The integer *3* has the same number of set bits as num2, and the value `3 XOR 1 = 2` is minimal.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= num1, num2 <= 10^9^`
+
+
+
+
+== 思路分析
+
+
+[[src-2429]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2429_MinimizeXor.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2429_MinimizeXor_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

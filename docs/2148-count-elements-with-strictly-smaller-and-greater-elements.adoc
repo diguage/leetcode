@@ -1,0 +1,68 @@
+[#2148-count-elements-with-strictly-smaller-and-greater-elements]
+= 2148. Count Elements With Strictly Smaller and Greater Elements 
+
+https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/[LeetCode - 2148. Count Elements With Strictly Smaller and Greater Elements  ^]
+
+Given an integer array `nums`, return _the number of elements that have *both* a strictly smaller and a strictly greater element appear in _`nums`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [11,7,2,15]
+*Output:* 2
+*Explanation:* The element 7 has the element 2 strictly smaller than it and the element 11 strictly greater than it.
+Element 11 has element 7 strictly smaller than it and element 15 strictly greater than it.
+In total there are 2 elements having both a strictly smaller and a strictly greater element appear in `nums`.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [-3,3,3,90]
+*Output:* 2
+*Explanation:* The element 3 has the element -3 strictly smaller than it and the element 90 strictly greater than it.
+Since there are two elements with the value 3, in total there are 2 elements having both a strictly smaller and a strictly greater element appear in `nums`.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 100`
+* `-10^5^ <= nums[i] <= 10^5^`
+
+
+
+
+== 思路分析
+
+
+[[src-2148]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2148_CountElementsWithStrictlySmallerAndGreaterElements.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2148_CountElementsWithStrictlySmallerAndGreaterElements_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

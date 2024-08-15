@@ -1,0 +1,87 @@
+[#1839-longest-substring-of-all-vowels-in-order]
+= 1839. Longest Substring Of All Vowels in Order
+
+https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/[LeetCode - 1839. Longest Substring Of All Vowels in Order ^]
+
+A string is considered *beautiful* if it satisfies the following conditions:
+
+
+* Each of the 5 English vowels (`'a'`, `'e'`, `'i'`, `'o'`, `'u'`) must appear *at least once* in it.
+* The letters must be sorted in *alphabetical order* (i.e. all `'a'`s before `'e'`s, all `'e'`s before `'i'`s, etc.).
+
+
+For example, strings `"aeiou"` and `"aaaaaaeiiiioou"` are considered *beautiful*, but `"uaeio"`, `"aeoiu"`, and `"aaaeeeooo"` are *not beautiful*.
+
+Given a string `word` consisting of English vowels, return _the *length of the longest beautiful substring* of _`word`_. If no such substring exists, return _`0`.
+
+A *substring* is a contiguous sequence of characters in a string.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* word = "aeiaaio[.underline]#aaaaeiiiiouuu#ooaauuaeiu"
+*Output:* 13
+*Explanation:* The longest beautiful substring in word is "aaaaeiiiiouuu" of length 13.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* word = "aeeeiiiioooauuu[.underline]#aeiou#"
+*Output:* 5
+*Explanation:* The longest beautiful substring in word is "aeiou" of length 5.
+
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* word = "a"
+*Output:* 0
+*Explanation:* There is no beautiful substring, so return 0.
+
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= word.length <= 5 * 10^5^`
+* `word` consists of characters `'a'`, `'e'`, `'i'`, `'o'`, and `'u'`.
+
+
+
+
+== 思路分析
+
+
+[[src-1839]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1839_LongestSubstringOfAllVowelsInOrder.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1839_LongestSubstringOfAllVowelsInOrder_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

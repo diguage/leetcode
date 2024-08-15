@@ -1,0 +1,77 @@
+[#2207-maximize-number-of-subsequences-in-a-string]
+= 2207. Maximize Number of Subsequences in a String
+
+https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/[LeetCode - 2207. Maximize Number of Subsequences in a String ^]
+
+You are given a *0-indexed* string `text` and another *0-indexed* string `pattern` of length `2`, both of which consist of only lowercase English letters.
+
+You can add *either* `pattern[0]` *or* `pattern[1]` anywhere in `text` *exactly once*. Note that the character can be added even at the beginning or at the end of `text`.
+
+Return _the *maximum* number of times_ `pattern` _can occur as a *subsequence* of the modified _`text`.
+
+A *subsequence* is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* text = "abdcdbc", pattern = "ac"
+*Output:* 4
+*Explanation:*
+If we add pattern[0] = 'a' in between text[1] and text[2], we get "ab[.underline]#*a*#dcdbc". Now, the number of times "ac" occurs as a subsequence is 4.
+Some other strings which have 4 subsequences "ac" after adding a character to text are "[.underline]#*a*#abdcdbc" and "abd[.underline]#*a*#cdbc".
+However, strings such as "abdc[.underline]#*a*#dbc", "abd[.underline]#*c*#cdbc", and "abdcdbc[.underline]#*c*#", although obtainable, have only 3 subsequences "ac" and are thus suboptimal.
+It can be shown that it is not possible to get more than 4 subsequences "ac" by adding only one character.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* text = "aabb", pattern = "ab"
+*Output:* 6
+*Explanation:*
+Some of the strings which can be obtained from text and have 6 subsequences "ab" are "[.underline]#*a*#aabb", "aa[.underline]#*a*#bb", and "aab[.underline]#*b*#b".
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= text.length <= 10^5^`
+* `pattern.length == 2`
+* `text` and `pattern` consist only of lowercase English letters.
+
+
+
+
+== 思路分析
+
+
+[[src-2207]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2207_MaximizeNumberOfSubsequencesInAString.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2207_MaximizeNumberOfSubsequencesInAString_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

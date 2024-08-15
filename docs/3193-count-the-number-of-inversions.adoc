@@ -1,0 +1,125 @@
+[#3193-count-the-number-of-inversions]
+= 3193. Count the Number of Inversions
+
+https://leetcode.com/problems/count-the-number-of-inversions/[LeetCode - 3193. Count the Number of Inversions ^]
+
+You are given an integer `n` and a 2D array `requirements`, where `requirements[i] = [end<sub>i</sub>, cnt<sub>i</sub>]` represents the end index and the *inversion* count of each requirement.
+
+A pair of indices `(i, j)` from an integer array `nums` is called an *inversion* if:
+
+
+* `i < j` and `nums[i] > nums[j]`
+
+
+Return the number of <span data-keyword="permutation">permutations `perm` of `[0, 1, 2, ..., n - 1]` such that for *all* `requirements[i]`, `perm[0..end<sub>i</sub>]` has exactly `cnt<sub>i</sub>` inversions.
+
+Since the answer may be very large, return it *modulo* `10^9^ + 7`.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 3, requirements = [[2,2],[0,0]]
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+The two permutations are:
+
+
+* `[2, 0, 1]`
+
+	
+	* Prefix `[2, 0, 1]` has inversions `(0, 1)` and `(0, 2)`.
+	* Prefix `[2]` has 0 inversions.
+	
+	
+* `[1, 2, 0]`
+	
+	* Prefix `[1, 2, 0]` has inversions `(0, 2)` and `(1, 2)`.
+	* Prefix `[1]` has 0 inversions.
+	
+	
+
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 3, requirements = [[2,2],[1,1],[0,0]]
+
+*Output:* 1
+
+*Explanation:*
+
+The only satisfying permutation is `[2, 0, 1]`:
+
+
+* Prefix `[2, 0, 1]` has inversions `(0, 1)` and `(0, 2)`.
+* Prefix `[2, 0]` has an inversion `(0, 1)`.
+* Prefix `[2]` has 0 inversions.
+
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 2, requirements = [[0,0],[1,0]]
+
+*Output:* <span class="example-io">1
+
+*Explanation:*
+
+The only satisfying permutation is `[0, 1]`:
+
+
+* Prefix `[0]` has 0 inversions.
+* Prefix `[0, 1]` has an inversion `(0, 1)`.
+
+
+
+ 
+*Constraints:*
+
+
+* `2 <= n <= 300`
+* `1 <= requirements.length <= n`
+* `requirements[i] = [end<sub>i</sub>, cnt<sub>i</sub>]`
+* `0 <= end<sub>i</sub> <= n - 1`
+* `0 <= cnt<sub>i</sub> <= 400`
+* The input is generated such that there is at least one `i` such that `end<sub>i</sub> == n - 1`.
+* The input is generated such that all `end<sub>i</sub>` are unique.
+
+
+
+
+== 思路分析
+
+
+[[src-3193]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3193_CountTheNumberOfInversions.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3193_CountTheNumberOfInversions_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2314-the-first-day-of-the-maximum-recorded-degree-in-each-city]
+= 2314. The First Day of the Maximum Recorded Degree in Each City
+
+https://leetcode.com/problems/the-first-day-of-the-maximum-recorded-degree-in-each-city/[LeetCode - 2314. The First Day of the Maximum Recorded Degree in Each City ^]
+
+
+
+== 思路分析
+
+
+[[src-2314]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2314_TheFirstDayOfTheMaximumRecordedDegreeInEachCity.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2314_TheFirstDayOfTheMaximumRecordedDegreeInEachCity_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

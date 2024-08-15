@@ -1,0 +1,68 @@
+[#2816-double-a-number-represented-as-a-linked-list]
+= 2816. Double a Number Represented as a Linked List
+
+https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/[LeetCode - 2816. Double a Number Represented as a Linked List ^]
+
+You are given the `head` of a *non-empty* linked list representing a non-negative integer without leading zeroes.
+
+Return _the _`head`_ of the linked list after *doubling* it_.
+
+ 
+<strong class="example">Example 1:*
+<img alt="" src="https://assets.leetcode.com/uploads/2023/05/28/example.png" style="width: 401px; height: 81px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* head = [1,8,9]
+*Output:* [3,7,8]
+*Explanation:* The figure above corresponds to the given linked list which represents the number 189. Hence, the returned linked list represents the number 189 * 2 = 378.
+----
+
+<strong class="example">Example 2:*
+<img alt="" src="https://assets.leetcode.com/uploads/2023/05/28/example2.png" style="width: 401px; height: 81px;" />
+[subs="verbatim,quotes"]
+----
+*Input:* head = [9,9,9]
+*Output:* [1,9,9,8]
+*Explanation:* The figure above corresponds to the given linked list which represents the number 999. Hence, the returned linked list reprersents the number 999 * 2 = 1998. 
+----
+
+ 
+*Constraints:*
+
+
+* The number of nodes in the list is in the range `[1, 10^4^]`
+* <font face="monospace">`0 <= Node.val <= 9`
+* The input is generated such that the list represents a number that does not have leading zeros, except the number `0` itself.
+
+
+
+
+== 思路分析
+
+
+[[src-2816]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2816_DoubleANumberRepresentedAsALinkedList.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2816_DoubleANumberRepresentedAsALinkedList_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

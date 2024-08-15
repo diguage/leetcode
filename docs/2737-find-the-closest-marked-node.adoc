@@ -1,0 +1,36 @@
+[#2737-find-the-closest-marked-node]
+= 2737. Find the Closest Marked Node
+
+https://leetcode.com/problems/find-the-closest-marked-node/[LeetCode - 2737. Find the Closest Marked Node ^]
+
+
+
+== 思路分析
+
+
+[[src-2737]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2737_FindTheClosestMarkedNode.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2737_FindTheClosestMarkedNode_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#1966-binary-searchable-numbers-in-an-unsorted-array]
+= 1966. Binary Searchable Numbers in an Unsorted Array
+
+https://leetcode.com/problems/binary-searchable-numbers-in-an-unsorted-array/[LeetCode - 1966. Binary Searchable Numbers in an Unsorted Array ^]
+
+
+
+== 思路分析
+
+
+[[src-1966]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1966_BinarySearchableNumbersInAnUnsortedArray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1966_BinarySearchableNumbersInAnUnsortedArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

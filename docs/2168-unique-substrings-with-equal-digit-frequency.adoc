@@ -1,0 +1,36 @@
+[#2168-unique-substrings-with-equal-digit-frequency]
+= 2168. Unique Substrings With Equal Digit Frequency
+
+https://leetcode.com/problems/unique-substrings-with-equal-digit-frequency/[LeetCode - 2168. Unique Substrings With Equal Digit Frequency ^]
+
+
+
+== 思路分析
+
+
+[[src-2168]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2168_UniqueSubstringsWithEqualDigitFrequency.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2168_UniqueSubstringsWithEqualDigitFrequency_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

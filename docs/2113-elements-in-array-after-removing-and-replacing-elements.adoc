@@ -1,0 +1,36 @@
+[#2113-elements-in-array-after-removing-and-replacing-elements]
+= 2113. Elements in Array After Removing and Replacing Elements
+
+https://leetcode.com/problems/elements-in-array-after-removing-and-replacing-elements/[LeetCode - 2113. Elements in Array After Removing and Replacing Elements ^]
+
+
+
+== 思路分析
+
+
+[[src-2113]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2113_ElementsInArrayAfterRemovingAndReplacingElements.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2113_ElementsInArrayAfterRemovingAndReplacingElements_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

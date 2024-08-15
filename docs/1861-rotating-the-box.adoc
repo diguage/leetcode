@@ -1,0 +1,103 @@
+[#1861-rotating-the-box]
+= 1861. Rotating the Box
+
+https://leetcode.com/problems/rotating-the-box/[LeetCode - 1861. Rotating the Box ^]
+
+You are given an `m x n` matrix of characters `box` representing a side-view of a box. Each cell of the box is one of the following:
+
+
+* A stone `'#'`
+* A stationary obstacle `'*'`
+* Empty `'.'`
+
+
+The box is rotated *90 degrees clockwise*, causing some of the stones to fall due to gravity. Each stone falls down until it lands on an obstacle, another stone, or the bottom of the box. Gravity *does not* affect the obstacles' positions, and the inertia from the box's rotation *does not *affect the stones' horizontal positions.
+
+It is *guaranteed* that each stone in `box` rests on an obstacle, another stone, or the bottom of the box.
+
+Return _an _`n x m`_ matrix representing the box after the rotation described above_.
+
+ 
+<strong class="example">Example 1:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/rotatingtheboxleetcodewithstones.png" style="width: 300px; height: 150px;" />
+
+[subs="verbatim,quotes"]
+----
+*Input:* box = [["#",".","#"]]
+*Output:* [["."],
+         ["#"],
+         ["#"]]
+----
+
+<strong class="example">Example 2:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/rotatingtheboxleetcode2withstones.png" style="width: 375px; height: 195px;" />
+
+[subs="verbatim,quotes"]
+----
+*Input:* box = [["#",".","*","."],
+              ["#","#","*","."]]
+*Output:* [["#","."],
+         ["#","#"],
+         ["*","*"],
+         [".","."]]
+----
+
+<strong class="example">Example 3:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/rotatingtheboxleetcode3withstone.png" style="width: 400px; height: 218px;" />
+
+[subs="verbatim,quotes"]
+----
+*Input:* box = [["#","#","*",".","*","."],
+              ["#","#","#","*",".","."],
+              ["#","#","#",".","#","."]]
+*Output:* [[".","#","#"],
+         [".","#","#"],
+         ["#","#","*"],
+         ["#","*","."],
+         ["#",".","*"],
+         ["#",".","."]]
+----
+
+ 
+*Constraints:*
+
+
+* `m == box.length`
+* `n == box[i].length`
+* `1 <= m, n <= 500`
+* `box[i][j]` is either `'#'`, `'*'`, or `'.'`.
+
+
+
+== 思路分析
+
+
+[[src-1861]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1861_RotatingTheBox.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1861_RotatingTheBox_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

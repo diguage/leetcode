@@ -1,0 +1,36 @@
+[#1772-sort-features-by-popularity]
+= 1772. Sort Features by Popularity
+
+https://leetcode.com/problems/sort-features-by-popularity/[LeetCode - 1772. Sort Features by Popularity ^]
+
+
+
+== 思路分析
+
+
+[[src-1772]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1772_SortFeaturesByPopularity.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1772_SortFeaturesByPopularity_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

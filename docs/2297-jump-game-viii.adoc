@@ -1,0 +1,36 @@
+[#2297-jump-game-viii]
+= 2297. Jump Game VIII
+
+https://leetcode.com/problems/jump-game-viii/[LeetCode - 2297. Jump Game VIII ^]
+
+
+
+== 思路分析
+
+
+[[src-2297]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2297_JumpGameViii.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2297_JumpGameViii_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

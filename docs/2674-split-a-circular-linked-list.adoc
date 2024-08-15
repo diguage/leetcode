@@ -1,0 +1,36 @@
+[#2674-split-a-circular-linked-list]
+= 2674. Split a Circular Linked List
+
+https://leetcode.com/problems/split-a-circular-linked-list/[LeetCode - 2674. Split a Circular Linked List ^]
+
+
+
+== 思路分析
+
+
+[[src-2674]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2674_SplitACircularLinkedList.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2674_SplitACircularLinkedList_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

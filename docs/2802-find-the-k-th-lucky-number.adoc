@@ -1,0 +1,36 @@
+[#2802-find-the-k-th-lucky-number]
+= 2802. Find The K-th Lucky Number
+
+https://leetcode.com/problems/find-the-k-th-lucky-number/[LeetCode - 2802. Find The K-th Lucky Number ^]
+
+
+
+== 思路分析
+
+
+[[src-2802]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2802_FindTheKThLuckyNumber.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2802_FindTheKThLuckyNumber_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

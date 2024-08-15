@@ -1,0 +1,36 @@
+[#2675-array-of-objects-to-matrix]
+= 2675. Array of Objects to Matrix
+
+https://leetcode.com/problems/array-of-objects-to-matrix/[LeetCode - 2675. Array of Objects to Matrix ^]
+
+
+
+== 思路分析
+
+
+[[src-2675]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2675_ArrayOfObjectsToMatrix.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2675_ArrayOfObjectsToMatrix_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

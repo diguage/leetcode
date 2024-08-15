@@ -1,0 +1,36 @@
+[#2323-find-minimum-time-to-finish-all-jobs-ii]
+= 2323. Find Minimum Time to Finish All Jobs II
+
+https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs-ii/[LeetCode - 2323. Find Minimum Time to Finish All Jobs II ^]
+
+
+
+== 思路分析
+
+
+[[src-2323]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2323_FindMinimumTimeToFinishAllJobsIi.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2323_FindMinimumTimeToFinishAllJobsIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#2752-customers-with-maximum-number-of-transactions-on-consecutive-days]
+= 2752. Customers with Maximum Number of Transactions on Consecutive Days
+
+https://leetcode.com/problems/customers-with-maximum-number-of-transactions-on-consecutive-days/[LeetCode - 2752. Customers with Maximum Number of Transactions on Consecutive Days ^]
+
+
+
+== 思路分析
+
+
+[[src-2752]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2752_CustomersWithMaximumNumberOfTransactionsOnConsecutiveDays.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_2752_CustomersWithMaximumNumberOfTransactionsOnConsecutiveDays_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,76 @@
+[#1680-concatenation-of-consecutive-binary-numbers]
+= 1680. Concatenation of Consecutive Binary Numbers
+
+https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/[LeetCode - 1680. Concatenation of Consecutive Binary Numbers ^]
+
+Given an integer `n`, return _the *decimal value* of the binary string formed by concatenating the binary representations of _`1`_ to _`n`_ in order, *modulo *_`10^9 ^+ 7`.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 1
+*Output:* 1
+*Explanation: *"1" in binary corresponds to the decimal value 1. 
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 3
+*Output:* 27
+*Explanation: *In binary, 1, 2, and 3 corresponds to "1", "10", and "11".
+After concatenating them, we have "11011", which corresponds to the decimal value 27.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* n = 12
+*Output:* 505379714
+*Explanation*: The concatenation results in "1101110010111011110001001101010111100".
+The decimal value of that is 118505380540.
+After modulo 10^9^ + 7, the result is 505379714.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 10^5^`
+
+
+
+
+== 思路分析
+
+
+[[src-1680]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1680_ConcatenationOfConsecutiveBinaryNumbers.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1680_ConcatenationOfConsecutiveBinaryNumbers_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

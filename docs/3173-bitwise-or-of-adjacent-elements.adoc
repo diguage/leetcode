@@ -1,0 +1,36 @@
+[#3173-bitwise-or-of-adjacent-elements]
+= 3173. Bitwise OR of Adjacent Elements
+
+https://leetcode.com/problems/bitwise-or-of-adjacent-elements/[LeetCode - 3173. Bitwise OR of Adjacent Elements ^]
+
+
+
+== 思路分析
+
+
+[[src-3173]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3173_BitwiseOrOfAdjacentElements.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3173_BitwiseOrOfAdjacentElements_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

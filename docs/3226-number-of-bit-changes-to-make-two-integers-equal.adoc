@@ -1,0 +1,92 @@
+[#3226-number-of-bit-changes-to-make-two-integers-equal]
+= 3226. Number of Bit Changes to Make Two Integers Equal
+
+https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/[LeetCode - 3226. Number of Bit Changes to Make Two Integers Equal ^]
+
+You are given two positive integers `n` and `k`.
+
+You can choose *any* bit in the *binary representation* of `n` that is equal to 1 and change it to 0.
+
+Return the _number of changes_ needed to make `n` equal to `k`. If it is impossible, return -1.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 13, k = 4
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+
+Initially, the binary representations of `n` and `k` are `n = (1101)<sub>2</sub>` and `k = (0100)<sub>2</sub>`.
+
+
+We can change the first and fourth bits of `n`. The resulting integer is `n = ([.underline]#*0*#10[.underline]#*0*#)<sub>2</sub> = k`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 21, k = 21
+
+*Output:* <span class="example-io">0
+
+*Explanation:*
+
+
+`n` and `k` are already equal, so no changes are needed.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">n = 14, k = 13
+
+*Output:* <span class="example-io">-1
+
+*Explanation:*
+
+
+It is not possible to make `n` equal to `k`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= n, k <= 10^6^`
+
+
+
+
+== 思路分析
+
+
+[[src-3226]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3226_NumberOfBitChangesToMakeTwoIntegersEqual.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3226_NumberOfBitChangesToMakeTwoIntegersEqual_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,95 @@
+[#3105-longest-strictly-increasing-or-strictly-decreasing-subarray]
+= 3105. Longest Strictly Increasing or Strictly Decreasing Subarray
+
+https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/[LeetCode - 3105. Longest Strictly Increasing or Strictly Decreasing Subarray ^]
+
+You are given an array of integers `nums`. Return _the length of the *longest* <span data-keyword="subarray-nonempty">subarray of _`nums`_ which is either *<span data-keyword="strictly-increasing-array">strictly increasing* or *<span data-keyword="strictly-decreasing-array">strictly decreasing*_.
+
+ 
+<strong class="example">Example 1:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [1,4,3,3,2]
+
+*Output:* <span class="example-io">2
+
+*Explanation:*
+
+The strictly increasing subarrays of `nums` are `[1]`, `[2]`, `[3]`, `[3]`, `[4]`, and `[1,4]`.
+
+The strictly decreasing subarrays of `nums` are `[1]`, `[2]`, `[3]`, `[3]`, `[4]`, `[3,2]`, and `[4,3]`.
+
+Hence, we return `2`.
+
+
+<strong class="example">Example 2:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [3,3,3,3]
+
+*Output:* <span class="example-io">1
+
+*Explanation:*
+
+The strictly increasing subarrays of `nums` are `[3]`, `[3]`, `[3]`, and `[3]`.
+
+The strictly decreasing subarrays of `nums` are `[3]`, `[3]`, `[3]`, and `[3]`.
+
+Hence, we return `1`.
+
+
+<strong class="example">Example 3:*
+
+<div class="example-block">
+*Input:* <span class="example-io">nums = [3,2,1]
+
+*Output:* <span class="example-io">3
+
+*Explanation:*
+
+The strictly increasing subarrays of `nums` are `[3]`, `[2]`, and `[1]`.
+
+The strictly decreasing subarrays of `nums` are `[3]`, `[2]`, `[1]`, `[3,2]`, `[2,1]`, and `[3,2,1]`.
+
+Hence, we return `3`.
+
+
+ 
+*Constraints:*
+
+
+* `1 <= nums.length <= 50`
+* `1 <= nums[i] <= 50`
+
+
+
+
+== 思路分析
+
+
+[[src-3105]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3105_LongestStrictlyIncreasingOrStrictlyDecreasingSubarray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3105_LongestStrictlyIncreasingOrStrictlyDecreasingSubarray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

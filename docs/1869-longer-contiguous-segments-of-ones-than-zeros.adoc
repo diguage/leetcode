@@ -1,0 +1,89 @@
+[#1869-longer-contiguous-segments-of-ones-than-zeros]
+= 1869. Longer Contiguous Segments of Ones than Zeros
+
+https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/[LeetCode - 1869. Longer Contiguous Segments of Ones than Zeros ^]
+
+Given a binary string `s`, return `true`_ if the *longest* contiguous segment of _`1`'_s is *strictly longer* than the *longest* contiguous segment of _`0`'_s in _`s`, or return `false`_ otherwise_.
+
+
+* For example, in `s = "[.underline]#11#01[.underline]#000#10"` the longest continuous segment of `1`s has length `2`, and the longest continuous segment of `0`s has length `3`.
+
+
+Note that if there are no `0`'s, then the longest continuous segment of `0`'s is considered to have a length `0`. The same applies if there is no `1`'s.
+
+ 
+<strong class="example">Example 1:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "1101"
+*Output:* true
+*Explanation:*
+The longest contiguous segment of 1s has length 2: "[.underline]#11#01"
+The longest contiguous segment of 0s has length 1: "11[.underline]#0#1"
+The segment of 1s is longer, so return true.
+----
+
+<strong class="example">Example 2:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "111000"
+*Output:* false
+*Explanation:*
+The longest contiguous segment of 1s has length 3: "[.underline]#111#000"
+The longest contiguous segment of 0s has length 3: "111[.underline]#000#"
+The segment of 1s is not longer, so return false.
+----
+
+<strong class="example">Example 3:*
+
+[subs="verbatim,quotes"]
+----
+*Input:* s = "110100010"
+*Output:* false
+*Explanation:*
+The longest contiguous segment of 1s has length 2: "[.underline]#11#0100010"
+The longest contiguous segment of 0s has length 3: "1101[.underline]#000#10"
+The segment of 1s is not longer, so return false.
+----
+
+ 
+*Constraints:*
+
+
+* `1 <= s.length <= 100`
+* `s[i]` is either `'0'` or `'1'`.
+
+
+
+
+== 思路分析
+
+
+[[src-1869]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1869_LongerContiguousSegmentsOfOnesThanZeros.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1869_LongerContiguousSegmentsOfOnesThanZeros_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

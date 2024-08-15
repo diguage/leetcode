@@ -1,0 +1,36 @@
+[#1714-sum-of-special-evenly-spaced-elements-in-array]
+= 1714. Sum Of Special Evenly-Spaced Elements In Array
+
+https://leetcode.com/problems/sum-of-special-evenly-spaced-elements-in-array/[LeetCode - 1714. Sum Of Special Evenly-Spaced Elements In Array ^]
+
+
+
+== 思路分析
+
+
+[[src-1714]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1714_SumOfSpecialEvenlySpacedElementsInArray.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1714_SumOfSpecialEvenlySpacedElementsInArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

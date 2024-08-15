@@ -1,0 +1,57 @@
+[#1360-number-of-days-between-two-dates]
+= 1360. Number of Days Between Two Dates
+
+https://leetcode.com/problems/number-of-days-between-two-dates/[LeetCode - 1360. Number of Days Between Two Dates ^]
+
+Write a program to count the number of days between two dates.
+
+The two dates are given as strings, their format is `YYYY-MM-DD` as shown in the examples.
+
+ 
+<strong class="example">Example 1:*
+[subs="verbatim,quotes"]
+----*Input:* date1 = "2019-06-29", date2 = "2019-06-30"
+*Output:* 1
+----<strong class="example">Example 2:*
+[subs="verbatim,quotes"]
+----*Input:* date1 = "2020-01-15", date2 = "2019-12-31"
+*Output:* 15
+----
+ 
+*Constraints:*
+
+
+* The given dates are valid dates between the years `1971` and `2100`.
+
+
+
+
+== 思路分析
+
+
+[[src-1360]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1360_NumberOfDaysBetweenTwoDates.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1360_NumberOfDaysBetweenTwoDates_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

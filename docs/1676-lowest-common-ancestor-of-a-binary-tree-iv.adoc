@@ -1,0 +1,36 @@
+[#1676-lowest-common-ancestor-of-a-binary-tree-iv]
+= 1676. Lowest Common Ancestor of a Binary Tree IV
+
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/[LeetCode - 1676. Lowest Common Ancestor of a Binary Tree IV ^]
+
+
+
+== 思路分析
+
+
+[[src-1676]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1676_LowestCommonAncestorOfABinaryTreeIv.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1676_LowestCommonAncestorOfABinaryTreeIv_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

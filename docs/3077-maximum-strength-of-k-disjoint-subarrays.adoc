@@ -1,0 +1,98 @@
+[#3077-maximum-strength-of-k-disjoint-subarrays]
+= 3077. Maximum Strength of K Disjoint Subarrays
+
+https://leetcode.com/problems/maximum-strength-of-k-disjoint-subarrays/[LeetCode - 3077. Maximum Strength of K Disjoint Subarrays ^]
+
+You are given an array of integers `nums` with length `n`, and a positive *odd* integer `k`.
+
+Select exactly *`k`* disjoint <span data-keyword="subarray-nonempty">subarrays *`sub<sub>1</sub>, sub<sub>2</sub>, ..., sub<sub>k</sub>`* from `nums` such that the last element of `sub<sub>i</sub>` appears before the first element of `sub<sub>{i+1}</sub>` for all `1 <= i <= k-1`. The goal is to maximize their combined strength.
+
+The strength of the selected subarrays is defined as:
+
+`strength = k * sum(sub<sub>1</sub>)- (k - 1) * sum(sub<sub>2</sub>) + (k - 2) * sum(sub<sub>3</sub>) - ... - 2 * sum(sub<sub>{k-1}</sub>) + sum(sub<sub>k</sub>)`
+
+where *`sum(sub<sub>i</sub>)`* is the sum of the elements in the `i`-th subarray.
+
+Return the *maximum* possible strength that can be obtained from selecting exactly *`k`* disjoint subarrays from `nums`.
+
+*Note* that the chosen subarrays *don't* need to cover the entire array.
+
+ 
+<strong class="example">Example 1:*
+
+*Input:* <span class="example-io">nums = [1,2,3,-1,2], k = 3
+
+*Output:* <span class="example-io">22
+
+*Explanation:*
+
+The best possible way to select 3 subarrays is: nums[0..2], nums[3..3], and nums[4..4]. The strength is calculated as follows:
+
+`strength = 3 * (1 + 2 + 3) - 2 * (-1) + 2 = 22`
+
+ 
+
+<strong class="example">Example 2:*
+
+*Input:* <span class="example-io">nums = [12,-2,-2,-2,-2], k = 5
+
+*Output:* <span class="example-io">64
+
+*Explanation:*
+
+The only possible way to select 5 disjoint subarrays is: nums[0..0], nums[1..1], nums[2..2], nums[3..3], and nums[4..4]. The strength is calculated as follows:
+
+`strength = 5 * 12 - 4 * (-2) + 3 * (-2) - 2 * (-2) + (-2) = 64`
+
+<strong class="example">Example 3:*
+
+*Input:* <span class="example-io">nums = [-1,-2,-3], k = 1
+
+*Output:* <span class="example-io">-1
+
+*Explanation:*
+
+The best possible way to select 1 subarray is: nums[0..0]. The strength is -1.
+
+ 
+*Constraints:*
+
+
+* `1 <= n <= 10^4^`
+* `-10^9^ <= nums[i] <= 10^9^`
+* `1 <= k <= n`
+* `1 <= n * k <= 10^6^`
+* `k` is odd.
+
+
+
+
+== 思路分析
+
+
+[[src-3077]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3077_MaximumStrengthOfKDisjointSubarrays.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3077_MaximumStrengthOfKDisjointSubarrays_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,87 @@
+[#1766-tree-of-coprimes]
+= 1766. Tree of Coprimes
+
+https://leetcode.com/problems/tree-of-coprimes/[LeetCode - 1766. Tree of Coprimes ^]
+
+There is a tree (i.e., a connected, undirected graph that has no cycles) consisting of `n` nodes numbered from `0` to `n - 1` and exactly `n - 1` edges. Each node has a value associated with it, and the *root* of the tree is node `0`.
+
+To represent this tree, you are given an integer array `nums` and a 2D array `edges`. Each `nums[i]` represents the `i^th^` node's value, and each `edges[j] = [u<sub>j</sub>, v<sub>j</sub>]` represents an edge between nodes `u<sub>j</sub>` and `v<sub>j</sub>` in the tree.
+
+Two values `x` and `y` are *coprime* if `gcd(x, y) == 1` where `gcd(x, y)` is the *greatest common divisor* of `x` and `y`.
+
+An ancestor of a node `i` is any other node on the shortest path from node `i` to the *root*. A node is *not *considered an ancestor of itself.
+
+Return _an array _`ans`_ of size _`n`, _where _`ans[i]`_ is the closest ancestor to node _`i`_ such that _`nums[i]` _and _`nums[ans[i]]` are *coprime*, or `-1`_ if there is no such ancestor_.
+
+ 
+<strong class="example">Example 1:*
+
+*<img alt="" src="https://assets.leetcode.com/uploads/2021/01/06/untitled-diagram.png" style="width: 191px; height: 281px;" />*
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [2,3,3,2], edges = [[0,1],[1,2],[1,3]]
+*Output:* [-1,0,0,1]
+*Explanation:* In the above figure, each node's value is in parentheses.
+- Node 0 has no coprime ancestors.
+- Node 1 has only one ancestor, node 0. Their values are coprime (gcd(2,3) == 1).
+- Node 2 has two ancestors, nodes 1 and 0. Node 1's value is not coprime (gcd(3,3) == 3), but node 0's
+  value is (gcd(2,3) == 1), so node 0 is the closest valid ancestor.
+- Node 3 has two ancestors, nodes 1 and 0. It is coprime with node 1 (gcd(3,2) == 1), so node 1 is its
+  closest valid ancestor.
+----
+
+<strong class="example">Example 2:*
+
+<img alt="" src="https://assets.leetcode.com/uploads/2021/01/06/untitled-diagram1.png" style="width: 441px; height: 291px;" />
+
+[subs="verbatim,quotes"]
+----
+*Input:* nums = [5,6,10,2,3,6,15], edges = [[0,1],[0,2],[1,3],[1,4],[2,5],[2,6]]
+*Output:* [-1,0,-1,0,0,0,-1]
+----
+
+ 
+*Constraints:*
+
+
+* `nums.length == n`
+* `1 <= nums[i] <= 50`
+* `1 <= n <= 10^5^`
+* `edges.length == n - 1`
+* `edges[j].length == 2`
+* `0 <= u<sub>j</sub>, v<sub>j</sub> < n`
+* `u<sub>j</sub> != v<sub>j</sub>`
+
+
+
+
+== 思路分析
+
+
+[[src-1766]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1766_TreeOfCoprimes.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1766_TreeOfCoprimes_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+

@@ -1,0 +1,36 @@
+[#3198-find-cities-in-each-state]
+= 3198. Find Cities in Each State
+
+https://leetcode.com/problems/find-cities-in-each-state/[LeetCode - 3198. Find Cities in Each State ^]
+
+
+
+== 思路分析
+
+
+[[src-3198]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_3198_FindCitiesInEachState.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_3198_FindCitiesInEachState_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+
