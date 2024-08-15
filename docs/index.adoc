@@ -6569,3 +6569,5 @@ include::1905-count-sub-islands.adoc[leveloffset=+1]
 // include::3253-construct-string-with-minimum-cost-easy.adoc[leveloffset=+1]
 
 include::0000-00-note.adoc[leveloffset=+1]
+
+include::../logbook/202406.adoc[leveloffset=+1]

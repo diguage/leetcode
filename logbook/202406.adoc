@@ -1,3 +1,4 @@
+[#logbook-202406]
 = 2024年06月 刷题日志
 :leetcode_base_url: https://leetcode.com/problems
 :doc_base_url: link:../docs
@@ -8,342 +9,342 @@
 |序号 |题目 |题解 |备注
 
 |{counter:codes}
-|{leetcode_base_url}/count-complete-tree-nodes/[222. Count Complete Tree Nodes]
+|{leetcode_base_url}/count-complete-tree-nodes/[222. Count Complete Tree Nodes^]
 |{doc_base_url}/0222-count-complete-tree-nodes.adoc[题解]
 |二叉树属性。解法技巧有待掌握。完全二叉树的性质还需要加强学习。
 
 |{counter:codes}
-|{leetcode_base_url}/sequence-reconstruction/[444. Sequence Reconstruction]
-|{doc_base_url}/0444-sequence-reconstruction.adoc[题解]
+|{leetcode_base_url}/sum-of-left-leaves/[404. Sum of Left Leaves^]
+|{doc_base_url}/0404-sum-of-left-leaves.adoc[题解]
 |二叉树属性。深刻理解递归退出条件
 
 |{counter:codes}
-|{leetcode_base_url}/find-bottom-left-tree-value/[513. Find Bottom Left Tree Value]
+|{leetcode_base_url}/find-bottom-left-tree-value/[513. Find Bottom Left Tree Value^]
 |{doc_base_url}/0513-find-bottom-left-tree-value.adoc[题解]
 |二叉树属性。广度优先，尝试一下深度优先。
 
 |{counter:codes}
-|{leetcode_base_url}/binary-tree-paths/[257. Binary Tree Paths]
+|{leetcode_base_url}/binary-tree-paths/[257. Binary Tree Paths^]
 |{doc_base_url}/0257-binary-tree-paths.adoc[题解]
 |路径问题。递归，尝试了一下回溯。
 
 |{counter:codes}
-|{leetcode_base_url}/path-sum/[112. Path Sum]
+|{leetcode_base_url}/path-sum/[112. Path Sum^]
 |{doc_base_url}/0112-path-sum.adoc[题解]
 |路径问题。
 
 |{counter:codes}
-|{leetcode_base_url}/path-sum-iii/[437. Path Sum III]
+|{leetcode_base_url}/path-sum-iii/[437. Path Sum III^]
 |{doc_base_url}/0437-path-sum-iii.adoc[题解]
 |前缀和解法还需要多思考！
 
 |{counter:codes}
-|{leetcode_base_url}/maximum-binary-tree/[654. Maximum Binary Tree]
+|{leetcode_base_url}/maximum-binary-tree/[654. Maximum Binary Tree^]
 |{doc_base_url}/0654-maximum-binary-tree.adoc[题解]
 |单调栈，与503套路相同。单调栈不是很理解。还需要再加强练习。
 
 |{counter:codes}
-|{leetcode_base_url}/merge-two-binary-trees/[617. Merge Two Binary Trees]
+|{leetcode_base_url}/merge-two-binary-trees/[617. Merge Two Binary Trees^]
 |{doc_base_url}/0617-merge-two-binary-trees.adoc[题解]
 |一个简单的树遍历，递归比较容易，尝试一下迭代，BFS，DFS。
 
 |{counter:codes}
-|{leetcode_base_url}/search-in-a-binary-search-tree/[700. Search in a Binary Search Tree]
+|{leetcode_base_url}/search-in-a-binary-search-tree/[700. Search in a Binary Search Tree^]
 |{doc_base_url}/0700-search-in-a-binary-search-tree.adoc[题解]
 |简单的“左右查找”（二分查找）
 
 |{counter:codes}
-|{leetcode_base_url}/validate-binary-search-tree/[98. Validate Binary Search Tree]
+|{leetcode_base_url}/validate-binary-search-tree/[98. Validate Binary Search Tree^]
 |{doc_base_url}/0098-validate-binary-search-tree.adoc[题解]
 |树形DP套路或中序遍历（前几天做的）
 
 |{counter:codes}
-|{leetcode_base_url}/minimum-absolute-difference-in-bst/[530. Minimum Absolute Difference in BST]
+|{leetcode_base_url}/minimum-absolute-difference-in-bst/[530. Minimum Absolute Difference in BST^]
 |{doc_base_url}/0530-minimum-absolute-difference-in-bst.adoc[题解]
 |98可用中序遍历，正好实验一下
 
 |{counter:codes}
-|{leetcode_base_url}/find-mode-in-binary-search-tree/[501. Find Mode in Binary Search Tree]
+|{leetcode_base_url}/find-mode-in-binary-search-tree/[501. Find Mode in Binary Search Tree^]
 |{doc_base_url}/0501-find-mode-in-binary-search-tree.adoc[题解]
 |利用中根遍历的特性：相同数字一起出现
 
 |{counter:codes}
-|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree/[236. Lowest Common Ancestor of a Binary Tree]
+|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree/[236. Lowest Common Ancestor of a Binary Tree^]
 |{doc_base_url}/0236-lowest-common-ancestor-of-a-binary-tree.adoc[题解]
 |想清楚怎么判断是否为公共祖先：在同一棵子树下。拿这棵树的节点逐步递归地去判断是否相等，如果返回值不为空，则处于同一个子树下。
 
 |{counter:codes}
-|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-search-tree/[235. Lowest Common Ancestor of a Binary Search Tree]
+|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-search-tree/[235. Lowest Common Ancestor of a Binary Search Tree^]
 |{doc_base_url}/0235-lowest-common-ancestor-of-a-binary-search-tree.adoc[题解]
 |二叉搜索树左大右小，祖先在中间的特性，可以快速去除不必要的判断。
 
 |{counter:codes}
-|{leetcode_base_url}/insert-into-a-binary-search-tree/[701. Insert into a Binary Search Tree]
+|{leetcode_base_url}/insert-into-a-binary-search-tree/[701. Insert into a Binary Search Tree^]
 |{doc_base_url}/0701-insert-into-a-binary-search-tree.adoc[题解]
 |对二叉搜索树的特性利用。题目中的示例有点干扰。只管往左右子树找即可。
 
 |{counter:codes}
-|{leetcode_base_url}/delete-node-in-a-bst/[450. Delete Node in a BST]
+|{leetcode_base_url}/delete-node-in-a-bst/[450. Delete Node in a BST^]
 |{doc_base_url}/0450-delete-node-in-a-bst.adoc[题解]
 |DFS递归，找到需要删除的节点，然后返回处理后的节点，再把左右树嫁接起来即可。尝试一下迭代的实现。
 
 |{counter:codes}
-|{leetcode_base_url}/convert-bst-to-greater-tree/[538. Convert BST to Greater Tree]
+|{leetcode_base_url}/convert-bst-to-greater-tree/[538. Convert BST to Greater Tree^]
 |{doc_base_url}/0538-convert-bst-to-greater-tree.adoc[题解]
 |基于 Morris 的倒序中根遍历，值得研究。递归的理解需要加强。
 
 |{counter:codes}
-|{leetcode_base_url}/trim-a-binary-search-tree/[669. Trim a Binary Search Tree]
+|{leetcode_base_url}/trim-a-binary-search-tree/[669. Trim a Binary Search Tree^]
 |{doc_base_url}/0669-trim-a-binary-search-tree.adoc[题解]
 |递归简单明了，迭代一脸懵逼。看到答案瞬间就明白了，但自己写不出来，对递归还是似懂非懂！
 
 |{counter:codes}
-|{leetcode_base_url}/coin-change/[322. Coin Change]
+|{leetcode_base_url}/coin-change/[322. Coin Change^]
 |{doc_base_url}/0322-coin-change.adoc[题解]
 |从暴力穷举，逐步优化到动态规划。尝试了左程云的阶梯思路，没看明白，需实际案例再分析一下。官方题解的解答比较容易理解。
 
 |{counter:codes}
-|{leetcode_base_url}/permutations/[46. Permutations]
+|{leetcode_base_url}/permutations/[46. Permutations^]
 |{doc_base_url}/0046-permutations.adoc[题解]
 |回溯思想的入门练习，还需要加强练习
 
 |{counter:codes}
-|{leetcode_base_url}/n-queens/[51. N-Queens]
+|{leetcode_base_url}/n-queens/[51. N-Queens^]
 |{doc_base_url}/0051-n-queens.adoc[题解]
 |独立思考很久完成，经过了多次调试，还需要加强回溯的练习。
 
 |{counter:codes}
-|{leetcode_base_url}/n-queens-ii/[52. N-Queens II]
+|{leetcode_base_url}/n-queens-ii/[52. N-Queens II^]
 |{doc_base_url}/0052-n-queens-ii.adoc[题解]
 |回溯，根据51题简化而来
 
 |{counter:codes}
-|{leetcode_base_url}/minimum-depth-of-binary-tree/[111. Minimum Depth of Binary Tree]
+|{leetcode_base_url}/minimum-depth-of-binary-tree/[111. Minimum Depth of Binary Tree^]
 |{doc_base_url}/0111-minimum-depth-of-binary-tree.adoc[题解]
 |两个议题：①Morris解法；②DFS vs BFS 的对比。
 
 |{counter:codes}
-|{leetcode_base_url}/open-the-lock/[752. Open the Lock]
+|{leetcode_base_url}/open-the-lock/[752. Open the Lock^]
 |{doc_base_url}/0752-open-the-lock.adoc[题解]
 |多叉树BFS遍历，回头尝试一下双向BFS解法。
 
 |{counter:codes}
-|{leetcode_base_url}/word-ladder/[127. Word Ladder]
+|{leetcode_base_url}/word-ladder/[127. Word Ladder^]
 |{doc_base_url}/0127-word-ladder.adoc[题解]
 |BFS，与752类似
 
 |{counter:codes}
-|{leetcode_base_url}/maximum-depth-of-binary-tree/[104. Maximum Depth of Binary Tree]
+|{leetcode_base_url}/maximum-depth-of-binary-tree/[104. Maximum Depth of Binary Tree^]
 |{doc_base_url}/0104-maximum-depth-of-binary-tree.adoc[题解]
 |后根遍历既可以访问父节点，又可以从返回值中获取想要的信息。
 
 |{counter:codes}
-|{leetcode_base_url}/binary-search/[704. Binary Search]
+|{leetcode_base_url}/binary-search/[704. Binary Search^]
 |{doc_base_url}/0704-binary-search.adoc[题解]
 |二分查找
 
 |{counter:codes}
-|{leetcode_base_url}/find-first-and-last-position-of-element-in-sorted-array/[34. Find First and Last Position of Element in Sorted Array]
+|{leetcode_base_url}/find-first-and-last-position-of-element-in-sorted-array/[34. Find First and Last Position of Element in Sorted Array^]
 |{doc_base_url}/0034-find-first-and-last-position-of-element-in-sorted-array.adoc[题解]
 |格局打开，两次二分查找还是 `O(log n)`。注意边界处理。
 
 |{counter:codes}
-|{leetcode_base_url}/minimum-window-substring/[76. Minimum Window Substring]
+|{leetcode_base_url}/minimum-window-substring/[76. Minimum Window Substring^]
 |{doc_base_url}/0076-minimum-window-substring.adoc[题解]
 |滑动窗口，好久不写，忘记咋写了。
 
 |{counter:codes}
-|{leetcode_base_url}/permutation-in-string/[567. Permutation in String]
+|{leetcode_base_url}/permutation-in-string/[567. Permutation in String^]
 |{doc_base_url}/0567-permutation-in-string.adoc[题解]
 |滑动窗口
 
 |{counter:codes}
-|{leetcode_base_url}/find-all-anagrams-in-a-string/[438. Find All Anagrams in a String]
+|{leetcode_base_url}/find-all-anagrams-in-a-string/[438. Find All Anagrams in a String^]
 |{doc_base_url}/0438-find-all-anagrams-in-a-string.adoc[题解]
 |滑动窗口，567的变种
 
 |{counter:codes}
-|{leetcode_base_url}/longest-substring-without-repeating-characters/[3. Longest Substring Without Repeating Characters]
+|{leetcode_base_url}/longest-substring-without-repeating-characters/[3. Longest Substring Without Repeating Characters^]
 |{doc_base_url}/0003-longest-substring-without-repeating-characters.adoc[题解]
 |滑动窗口
 
 |{counter:codes}
-|{leetcode_base_url}/merge-two-sorted-lists/[21. Merge Two Sorted Lists]
+|{leetcode_base_url}/merge-two-sorted-lists/[21. Merge Two Sorted Lists^]
 |{doc_base_url}/0021-merge-two-sorted-lists.adoc[题解]
 |竟然也可以用递归解决！
 
 |{counter:codes}
-|{leetcode_base_url}/merge-k-sorted-lists/[23. Merge k Sorted Lists]
+|{leetcode_base_url}/merge-k-sorted-lists/[23. Merge k Sorted Lists^]
 |{doc_base_url}/0023-merge-k-sorted-lists.adoc[题解]
 |优先队列，分治，最差逐个合并都可以。
 
 |{counter:codes}
-|{leetcode_base_url}/middle-of-the-linked-list/[876. Middle of the Linked List]
+|{leetcode_base_url}/middle-of-the-linked-list/[876. Middle of the Linked List^]
 |{doc_base_url}/0876-middle-of-the-linked-list.adoc[题解]
 |快慢指针，注意尾部处理
 
 |{counter:codes}
-|{leetcode_base_url}/linked-list-cycle/[141. Linked List Cycle]
+|{leetcode_base_url}/linked-list-cycle/[141. Linked List Cycle^]
 |{doc_base_url}/0141-linked-list-cycle.adoc[题解]
 |快慢指针
 
 |{counter:codes}
-|{leetcode_base_url}/linked-list-cycle-ii/[142. Linked List Cycle II]
+|{leetcode_base_url}/linked-list-cycle-ii/[142. Linked List Cycle II^]
 |{doc_base_url}/0142-linked-list-cycle-ii.adoc[题解]
 |快慢指针
 
 |{counter:codes}
-|{leetcode_base_url}/intersection-of-two-linked-lists/[160. Intersection of Two Linked Lists]
+|{leetcode_base_url}/intersection-of-two-linked-lists/[160. Intersection of Two Linked Lists^]
 |{doc_base_url}/0160-intersection-of-two-linked-lists.adoc[题解]
 |双指针，两个链表逻辑拼接
 
 |{counter:codes}
-|{leetcode_base_url}/remove-duplicates-from-sorted-array/[26. Remove Duplicates from Sorted Array]
+|{leetcode_base_url}/remove-duplicates-from-sorted-array/[26. Remove Duplicates from Sorted Array^]
 |{doc_base_url}/0026-remove-duplicates-from-sorted-array.adoc[题解]
 |算法了解，编码功力有待提高
 
 |{counter:codes}
-|{leetcode_base_url}/two-sum-ii-input-array-is-sorted/[167. Two Sum II - Input array is sorted]
+|{leetcode_base_url}/two-sum-ii-input-array-is-sorted/[167. Two Sum II - Input array is sorted^]
 |{doc_base_url}/0167-two-sum-ii-input-array-is-sorted.adoc[题解]
 |两个指针向中间挤压
 
 |{counter:codes}
-|{leetcode_base_url}/longest-palindromic-substring/[5. Longest Palindromic Substring]
+|{leetcode_base_url}/longest-palindromic-substring/[5. Longest Palindromic Substring^]
 |{doc_base_url}/0005-longest-palindromic-substring.adoc[题解]
 |最容易想到的是中心扩散法，还可以用动态规划，甚至还有 O(n) 的马拉车算法。
 
 |{counter:codes}
-|{leetcode_base_url}/range-sum-query-immutable/[303. Range Sum Query - Immutable]
+|{leetcode_base_url}/range-sum-query-immutable/[303. Range Sum Query - Immutable^]
 |{doc_base_url}/0303-range-sum-query-immutable.adoc[题解]
 |前缀和非常好的入门试题
 
 |{counter:codes}
-|{leetcode_base_url}/range-sum-query-2d-immutable/[304. Range Sum Query 2D - Immutable]
+|{leetcode_base_url}/range-sum-query-2d-immutable/[304. Range Sum Query 2D - Immutable^]
 |{doc_base_url}/0304-range-sum-query-2d-immutable.adoc[题解]
 |复杂一点的前缀和，需要处理更多细节
 
 |{counter:codes}
-|{leetcode_base_url}/range-addition/[370. Range Addition]
+|{leetcode_base_url}/range-addition/[370. Range Addition^]
 |{doc_base_url}/0370-range-addition.adoc[题解]
 |差分数组
 
 |{counter:codes}
-|{leetcode_base_url}/car-pooling/[1094. Car Pooling]
+|{leetcode_base_url}/car-pooling/[1094. Car Pooling^]
 |{doc_base_url}/1094-car-pooling.adoc[题解]
 |差分数组
 
 |{counter:codes}
-|{leetcode_base_url}/corporate-flight-bookings/[1109. Corporate Flight Bookings]
+|{leetcode_base_url}/corporate-flight-bookings/[1109. Corporate Flight Bookings^]
 |{doc_base_url}/1109-corporate-flight-bookings.adoc[题解]
 |差分数组
 
 |{counter:codes}
-|{leetcode_base_url}/insert-delete-getrandom-o1/[380. Insert Delete GetRandom O(1)]
+|{leetcode_base_url}/insert-delete-getrandom-o1/[380. Insert Delete GetRandom O(1)^]
 |{doc_base_url}/0380-insert-delete-getrandom-o1.adoc[题解]
 |数据结构应用
 
 |{counter:codes}
-|{leetcode_base_url}/random-pick-with-blacklist/[710. Random Pick with Blacklist]
+|{leetcode_base_url}/random-pick-with-blacklist/[710. Random Pick with Blacklist^]
 |{doc_base_url}/0710-random-pick-with-blacklist.adoc[题解]
 |把映射处理好
 
 |{counter:codes}
-|{leetcode_base_url}/next-greater-element-i/[496. Next Greater Element I]
+|{leetcode_base_url}/next-greater-element-i/[496. Next Greater Element I^]
 |{doc_base_url}/0496-next-greater-element-i.adoc[题解]
 |单调栈，理解不是很透彻，还需要加强练习
 
 |{counter:codes}
-|{leetcode_base_url}/next-greater-element-ii/[503. Next Greater Element II]
+|{leetcode_base_url}/next-greater-element-ii/[503. Next Greater Element II^]
 |{doc_base_url}/0503-next-greater-element-ii.adoc[题解]
 |单调栈+循环数组
 
 |{counter:codes}
-|{leetcode_base_url}/daily-temperatures/[739. Daily Temperatures]
+|{leetcode_base_url}/daily-temperatures/[739. Daily Temperatures^]
 |{doc_base_url}/0739-daily-temperatures.adoc[题解]
 |单调栈，从左向右的写法还需要再加强一下。
 
 |{counter:codes}
-|{leetcode_base_url}/sliding-window-maximum/[239. Sliding Window Maximum]
+|{leetcode_base_url}/sliding-window-maximum/[239. Sliding Window Maximum^]
 |{doc_base_url}/0239-sliding-window-maximum.adoc[题解]
 |单调栈的妙用！值得学习。
 
 |{counter:codes}
-|{leetcode_base_url}/flatten-binary-tree-to-linked-list/[114. Flatten Binary Tree to Linked List]
+|{leetcode_base_url}/flatten-binary-tree-to-linked-list/[114. Flatten Binary Tree to Linked List^]
 |{doc_base_url}/0114-flatten-binary-tree-to-linked-list.adoc[题解]
 |遍历+递归，两套解决方案
 
 |{counter:codes}
-|{leetcode_base_url}/sort-an-array/[912. Sort an Array]
+|{leetcode_base_url}/sort-an-array/[912. Sort an Array^]
 |{doc_base_url}/0912-sort-an-array.adoc[题解]
 |归并，快排都可以
 
 |{counter:codes}
-|{leetcode_base_url}/kth-smallest-element-in-a-bst/[230. Kth Smallest Element in a BST]
+|{leetcode_base_url}/kth-smallest-element-in-a-bst/[230. Kth Smallest Element in a BST^]
 |{doc_base_url}/0230-kth-smallest-element-in-a-bst.adoc[题解]
 |二叉树中根遍历
 
 |{counter:codes}
-|{leetcode_base_url}/subsets/[78. Subsets]
+|{leetcode_base_url}/subsets/[78. Subsets^]
 |{doc_base_url}/0078-subsets.adoc[题解]
 |组合，回溯
 
 |{counter:codes}
-|{leetcode_base_url}/subsets-ii/[90. Subsets II]
+|{leetcode_base_url}/subsets-ii/[90. Subsets II^]
 |{doc_base_url}/0090-subsets-ii.adoc[题解]
 |组合，回溯，去重
 
 |{counter:codes}
-|{leetcode_base_url}/combinations/[77. Combinations]
+|{leetcode_base_url}/combinations/[77. Combinations^]
 |{doc_base_url}/0077-combinations.adoc[题解]
 |组合，回溯，剪枝
 
 |{counter:codes}
-|{leetcode_base_url}/permutations-ii/[47. Permutations II]
+|{leetcode_base_url}/permutations-ii/[47. Permutations II^]
 |{doc_base_url}/0047-permutations-ii.adoc[题解]
 |组合，回溯，同层剪枝
 
 |{counter:codes}
-|{leetcode_base_url}/combination-sum/[39. Combination Sum]
+|{leetcode_base_url}/combination-sum/[39. Combination Sum^]
 |{doc_base_url}/0039-combination-sum.adoc[题解]
 |组合，回溯，注意学习剪枝的技巧
 
 |{counter:codes}
-|{leetcode_base_url}/combination-sum-ii/[40. Combination Sum II]
+|{leetcode_base_url}/combination-sum-ii/[40. Combination Sum II^]
 |{doc_base_url}/0040-combination-sum-ii.adoc[题解]
 |组合，回溯，剪枝
 
 |{counter:codes}
-|{leetcode_base_url}/partition-to-k-equal-sum-subsets/[698. Partition to K Equal Sum Subsets]
+|{leetcode_base_url}/partition-to-k-equal-sum-subsets/[698. Partition to K Equal Sum Subsets^]
 |{doc_base_url}/0698-partition-to-k-equal-sum-subsets.adoc[题解]
 |组合，回溯，极致剪枝。回头尝试一下桶视角的方案
 
 |{counter:codes}
-|{leetcode_base_url}/number-of-islands/[200. Number of Islands]
+|{leetcode_base_url}/number-of-islands/[200. Number of Islands^]
 |{doc_base_url}/0200-number-of-islands.adoc[题解]
 |DFS，对于网格遍历还需要加强练习。
 
 |{counter:codes}
-|{leetcode_base_url}/max-area-of-island/[695. Max Area of Island]
+|{leetcode_base_url}/max-area-of-island/[695. Max Area of Island^]
 |{doc_base_url}/0695-max-area-of-island.adoc[题解]
 |DFS，利用递归的返回值。
 
 |{counter:codes}
-|{leetcode_base_url}/count-sub-islands/[1905. Count Sub Islands]
+|{leetcode_base_url}/count-sub-islands/[1905. Count Sub Islands^]
 |{doc_base_url}/1905-count-sub-islands.adoc[题解]
 |DFS，沉岛
 
 |{counter:codes}
-|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree-ii/[1644. Lowest Common Ancestor of a Binary Tree II]
+|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree-ii/[1644. Lowest Common Ancestor of a Binary Tree II^]
 |{doc_base_url}/1644-lowest-common-ancestor-of-a-binary-tree-ii.adoc[题解]
 |树形DP套路，没有验证答案！
 
 |{counter:codes}
-|{leetcode_base_url}/min-stack/[155. Min Stack]
+|{leetcode_base_url}/min-stack/[155. Min Stack^]
 |{doc_base_url}/0155-min-stack.adoc[题解]
 |复习单调栈
 
 |{counter:codes}
-|{leetcode_base_url}/trapping-rain-water/[42. Trapping Rain Water]
+|{leetcode_base_url}/trapping-rain-water/[42. Trapping Rain Water^]
 |{doc_base_url}/0042-trapping-rain-water.adoc[题解]
 |巧用单调栈
 
@@ -353,7 +354,7 @@
 |链表相交
 
 |{counter:codes}
-|{leetcode_base_url}/3sum/[15. 3Sum]
+|{leetcode_base_url}/3sum/[15. 3Sum^]
 |{doc_base_url}/0015-3sum.adoc[题解]
 |双指针
 
