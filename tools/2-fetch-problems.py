@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding:utf-8 -*-
 
 import os
 import os.path
@@ -11,22 +12,29 @@ import random
 import time
 from re import search
 
-def get_problems(json_data):
-    jo = json.loads(json_data)
+# def get_problems(json_data):
+#     jo = json.loads(json_data)
+#     problems = jo['stat_status_pairs']
+#     # https://stackoverflow.com/a/403426/951836
+#     sorted_problems = sorted(
+#         problems, key=lambda x: x["stat"]["frontend_question_id"], reverse=False)
+#     return sorted_problems
+#
+# def get_data(url):
+#     r = requests.get(url)
+#     return r.text
+#
+# URL_LEETCODE_PROBLEMS = 'https://leetcode.com/api/problems/all/'
+# json_problems = get_data(URL_LEETCODE_PROBLEMS)
+# problem_list = get_problems(json_problems)
+
+def get_problems():
+    jo = json.loads(open("leetcode.json", 'r').read())
     problems = jo['stat_status_pairs']
     # https://stackoverflow.com/a/403426/951836
     sorted_problems = sorted(
         problems, key=lambda x: x["stat"]["frontend_question_id"], reverse=False)
     return sorted_problems
-
-def get_data(url):
-    r = requests.get(url)
-    return r.text
-
-URL_LEETCODE_PROBLEMS = 'https://leetcode.com/api/problems/all/'
-json_problems = get_data(URL_LEETCODE_PROBLEMS)
-problem_list = get_problems(json_problems)
-
 
 # 所有的题目都可以获取到
 # 如果是锁定题目，则 data.question.content 为 null；
@@ -40,13 +48,12 @@ def fetch_problem(title_slug):
     else:
         return None
 
+problem_list = get_problems()
+
 for problem in problem_list:
     id = problem["stat"]["frontend_question_id"]
     titleSlug = problem["stat"]["question__title_slug"]
     filename = "%04d-%s.adoc"%(problem["stat"]["frontend_question_id"], titleSlug)
-
-    if id < 1340:
-        continue
 
     filepath = "../docs/"+filename
     problem_file = filepath+".json"
@@ -61,6 +68,7 @@ for problem in problem_list:
     if pjson is None:
         print("fetch %d - %s fail" % (id, problem["stat"]["question__title"]))
         continue
+
     jo = json.loads(pjson)
     content = jo["data"]["question"]["content"]
 
@@ -72,12 +80,15 @@ for problem in problem_list:
             pjf.write(pjson)
             pjf.close()
 
+    if id < 3213:
+        continue
+
     content = content.replace("<pre>", "[subs=\"verbatim,quotes\"]\n----")
 
-    if search("[\w\]\}\)\.\"`]</pre>", content):
+    if search("[\\w\\]\\}\\)\\.\"`]</pre>", content):
         content = content.replace("</pre>", "\n----")
     else:
-        content = content.replace("</pre>", "----")
+        content = content.replace("</pre>", "\n----")
 
     content = content.replace("<strong>", "*")
     content = content.replace("</strong>", "*")
