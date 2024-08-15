@@ -363,6 +363,11 @@
 |{doc_base_url}/0018-4sum.adoc[题解]
 |双指针
 
+|{counter:codes}
+|{leetcode_base_url}/trapping-rain-water/[42. Trapping Rain Water^]
+|{doc_base_url}/0042-trapping-rain-water.adoc[题解]
+|双指针解题方案
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
