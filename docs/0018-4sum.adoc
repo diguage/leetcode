@@ -23,10 +23,27 @@ A solution set is:
 ]
 ----
 
+== 思路分析
 
 [[src-0018]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0018_4Sum.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0018_4Sum_2.java[tag=answer]
+----
+--
+====
 
