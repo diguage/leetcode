@@ -62,16 +62,26 @@ image::images/0230-03.png[{image_attr}]
 image::images/0230-04.png[{image_attr}]
 
 [[src-0230]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0230_KthSmallestElementInABST.java[tag=answer]
 ----
+--
 
-[[src-0230]]
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0230_KthSmallestElementInABst_2.java[tag=answer]
 ----
+--
+====
 
 == 参考资料
 
