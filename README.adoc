@@ -7,7 +7,7 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 :leetcode_base_url: https://leetcode.com/problems
-:source_base_url: link:./src/main/java/com/diguage/algorithm/leetcode
+:source_base_url: link:./src/main/java/com/diguage/algo/leetcode
 :doc_base_url: link:./docs
 
 == 友情支持
