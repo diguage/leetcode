@@ -1,0 +1,14 @@
+[#0000-24-binary-search]
+= Binary Search 二分查找
+
+
+
+== 经典题目
+
+. xref:0704-binary-search.adoc[704. Binary Search]
+. xref:0875-koko-eating-bananas.adoc[875. Koko Eating Bananas]
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/binary-search/solutions/8337/er-fen-cha-zhao-xiang-jie-by-labuladong/[704. 二分查找 - 二分查找细节详解，顺便赋诗一首^]

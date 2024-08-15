@@ -6150,13 +6150,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0874-walking-robot-simulation.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/koko-eating-bananas/[875. Koko Eating Bananas^]
-//|{source_base_url}/_0875_KokoEatingBananas.java[Java]
-//|{doc_base_url}/0875-koko-eating-bananas.adoc[题解]
-//|Medium
-//|
+
+|{counter:codes}
+|{leetcode_base_url}/koko-eating-bananas/[875. Koko Eating Bananas^]
+|{source_base_url}/_0875_KokoEatingBananas.java[Java]
+|{doc_base_url}/0875-koko-eating-bananas.adoc[题解]
+|Medium
+|二分查找
 
 |{counter:codes}
 |{leetcode_base_url}/middle-of-the-linked-list/[876. Middle of the Linked List^]

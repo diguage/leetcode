@@ -60,6 +60,8 @@ include::0000-22-union-find-set.adoc[leveloffset=+1]
 
 include::0000-23-monotonic-stack.adoc[leveloffset=+1]
 
+include::0000-24-binary-search.adoc[leveloffset=+1]
+
 // :sectnums:
 
 include::0001-two-sum.adoc[leveloffset=+1]
@@ -1810,7 +1812,7 @@ include::0752-open-the-lock.adoc[leveloffset=+1]
 
 // include::0874-walking-robot-simulation.adoc[leveloffset=+1]
 
-// include::0875-koko-eating-bananas.adoc[leveloffset=+1]
+include::0875-koko-eating-bananas.adoc[leveloffset=+1]
 
 include::0876-middle-of-the-linked-list.adoc[leveloffset=+1]
 

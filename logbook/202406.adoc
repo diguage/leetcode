@@ -373,6 +373,11 @@
 |{doc_base_url}/0011-container-with-most-water.adoc[题解]
 |双指针
 
+|{counter:codes}
+|{leetcode_base_url}/koko-eating-bananas/[875. Koko Eating Bananas^]
+|{doc_base_url}/0875-koko-eating-bananas.adoc[题解]
+|二分查找，确定左边界
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

@@ -11,11 +11,6 @@ Koko likes to eat slowly, but still wants to finish eating all the bananas befor
 
 Return the minimum integer `K` such that she can eat all the bananas within `H` hours.
 
- 
-
-
-
-
 
 *Example 1:*
 
@@ -25,7 +20,6 @@ Return the minimum integer `K` such that she can eat all the bananas within `H` 
 *Output:* 4
 ----
 
-
 *Example 2:*
 
 [subs="verbatim,quotes,macros"]
@@ -33,7 +27,6 @@ Return the minimum integer `K` such that she can eat all the bananas within `H` 
 *Input:* piles = [30,11,23,4,20], H = 5
 *Output:* 30
 ----
-
 
 *Example 3:*
 
@@ -54,13 +47,34 @@ Return the minimum integer `K` such that she can eat all the bananas within `H` 
 
 
 
-
-
+== 思路分析
 
 
 [[src-0875]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0875_KokoEatingBananas.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0098_ValidateBinarySearchTree_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/koko-eating-bananas/solutions/1537914/ai-chi-xiang-jiao-de-ke-ke-by-leetcode-s-z4rt/[875. 爱吃香蕉的珂珂 - 官方题解^]
+. https://leetcode.cn/problems/koko-eating-bananas/solutions/51963/er-fen-cha-zhao-ding-wei-su-du-by-liweiwei1419/[875. 爱吃香蕉的珂珂 - 二分查找定位速度（最大值最小化问题，Java）^]
+. https://leetcode.cn/problems/binary-search/solutions/8337/er-fen-cha-zhao-xiang-jie-by-labuladong/[704. 二分查找 - 二分查找细节详解，顺便赋诗一首^]
 
