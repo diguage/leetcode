@@ -18,29 +18,25 @@ public class _0316_RemoveDuplicateLetters {
       count[c - 'a']++;
     }
     boolean[] visited = new boolean[26];
-    List<Character> chars = new ArrayList<>();
+    StringBuilder chars = new StringBuilder();
     for (char c : s.toCharArray()) {
       int idx = c - 'a';
       count[idx]--;
       if (visited[idx]) {
         continue;
       }
-      while (!chars.isEmpty() && chars.getLast() > c) {
-        int lastIdx = chars.getLast() - 'a';
+      while (!chars.isEmpty() && chars.charAt(chars.length() - 1) > c) {
+        int lastIdx = chars.charAt(chars.length() - 1) - 'a';
         if (count[lastIdx] == 0) {
           break;
         }
-        chars.removeLast();
+        chars.deleteCharAt(chars.length() - 1);
         visited[lastIdx] = false;
       }
-      chars.addLast(c);
+      chars.append(c);
       visited[idx] = true;
     }
-    StringBuilder sb = new StringBuilder();
-    for (Character c : chars) {
-      sb.append(c);
-    }
-    return sb.toString();
+    return chars.toString();
   }
 
   // end::answer[]
