@@ -399,6 +399,11 @@
 |{doc_base_url}/0402-remove-k-digits.adoc[题解]
 |单调栈
 
+|{counter:codes}
+|{leetcode_base_url}/advantage-shuffle/[870. Advantage Shuffle^]
+|{doc_base_url}/0870-advantage-shuffle.adoc[题解]
+|双指针+优先队列（排序）
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

@@ -6115,14 +6115,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0869-reordered-power-of-2.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/advantage-shuffle/[870. Advantage Shuffle^]
-//|{source_base_url}/_0870_AdvantageShuffle.java[Java]
-//|{doc_base_url}/0870-advantage-shuffle.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/advantage-shuffle/[870. Advantage Shuffle^]
+|{source_base_url}/_0870_AdvantageShuffle.java[Java]
+|{doc_base_url}/0870-advantage-shuffle.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/minimum-number-of-refueling-stops/[871. Minimum Number of Refueling Stops^]
 //|{source_base_url}/_0871_MinimumNumberOfRefuelingStops.java[Java]

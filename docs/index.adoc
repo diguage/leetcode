@@ -1802,7 +1802,7 @@ include::0752-open-the-lock.adoc[leveloffset=+1]
 
 // include::0869-reordered-power-of-2.adoc[leveloffset=+1]
 
-// include::0870-advantage-shuffle.adoc[leveloffset=+1]
+include::0870-advantage-shuffle.adoc[leveloffset=+1]
 
 // include::0871-minimum-number-of-refueling-stops.adoc[leveloffset=+1]
 
