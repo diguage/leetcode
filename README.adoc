@@ -2237,14 +2237,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0315-count-of-smaller-numbers-after-self.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/remove-duplicate-letters/[316. Remove Duplicate Letters^]
-//|{source_base_url}/_0316_RemoveDuplicateLetters.java[Java]
-//|{doc_base_url}/0316-remove-duplicate-letters.adoc[题解]
-//|Hard
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/remove-duplicate-letters/[316. Remove Duplicate Letters^]
+|{source_base_url}/_0316_RemoveDuplicateLetters.java[Java]
+|{doc_base_url}/0316-remove-duplicate-letters.adoc[题解]
+|Hard
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/shortest-distance-from-all-buildings/[317. Shortest Distance from All Buildings^]
 //|{source_base_url}/_0317_ShortestDistanceFromAllBuildings.java[Java]

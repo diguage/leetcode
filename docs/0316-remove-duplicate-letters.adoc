@@ -21,11 +21,29 @@ Given a string which contains only lowercase letters, remove duplicate letters s
 *Output:* `"acdb"`
 ----
 
+== 思路分析
 
+先遍历字符串，统计每个字符的出现次数。
 
 [[src-0316]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0316_RemoveDuplicateLetters.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0316_RemoveDuplicateLetters_2.java[tag=answer]
+// ----
+// --
+====
 

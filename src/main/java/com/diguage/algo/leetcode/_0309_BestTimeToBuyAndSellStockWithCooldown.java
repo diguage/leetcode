@@ -16,6 +16,9 @@ public class _0309_BestTimeToBuyAndSellStockWithCooldown {
      * Memory Usage: 37.9 MB, less than 25.93% of Java online submissions for Best Time to Buy and Sell Stock with Cooldown.
      *
      * Copy from: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-28 15:16
      */
     public int maxProfit(int[] prices) {
         int dp0 = 0;
