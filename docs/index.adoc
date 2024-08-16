@@ -866,7 +866,7 @@ include::0395-longest-substring-with-at-least-k-repeating-characters.adoc[levelo
 
 // include::0401-binary-watch.adoc[leveloffset=+1]
 
-// include::0402-remove-k-digits.adoc[leveloffset=+1]
+include::0402-remove-k-digits.adoc[leveloffset=+1]
 
 // include::0403-frog-jump.adoc[leveloffset=+1]
 

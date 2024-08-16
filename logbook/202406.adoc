@@ -394,6 +394,11 @@
 |{doc_base_url}/0316-remove-duplicate-letters.adoc[题解]
 |综合运用
 
+|{counter:codes}
+|{leetcode_base_url}/remove-k-digits/[402. Remove K Digits^]
+|{doc_base_url}/0402-remove-k-digits.adoc[题解]
+|单调栈
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

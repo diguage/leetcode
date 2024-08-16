@@ -47,3 +47,8 @@ include::{sourcedir}/_0316_RemoveDuplicateLetters.java[tag=answer]
 // --
 ====
 
+
+== 参考资料
+
+. https://leetcode.cn/problems/remove-duplicate-letters/solutions/527359/qu-chu-zhong-fu-zi-mu-by-leetcode-soluti-vuso/[316. 去除重复字母 - 官方题解^]
+. https://leetcode.cn/problems/remove-duplicate-letters/solutions/290200/yi-zhao-chi-bian-li-kou-si-dao-ti-ma-ma-zai-ye-b-4/[316. 去除重复字母 - 一招吃遍力扣四道题^]

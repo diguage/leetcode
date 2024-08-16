@@ -18,6 +18,9 @@ public class _0395_LongestSubstringWithAtLeastKRepeatingCharacters {
      * Memory Usage: 38.7 MB, less than 10.00% of Java online submissions for Longest Substring with At Least K Repeating Characters.
      *
      * Copy from: https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/solution/javadi-gui-by-tzfun/[Java递归 - 至少有K个重复字符的最长子串 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-27 16:28
      */
     public int longestSubstring(String s, int k) {
         if (Objects.isNull(s) || s.length() == 0 || k > s.length()) {
