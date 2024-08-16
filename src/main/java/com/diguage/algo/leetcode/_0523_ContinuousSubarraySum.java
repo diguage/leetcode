@@ -11,6 +11,9 @@ public class _0523_ContinuousSubarraySum {
   // tag::answer[]
   /**
    * 参考 https://leetcode.cn/problems/continuous-subarray-sum/solutions/807930/lian-xu-de-zi-shu-zu-he-by-leetcode-solu-rdzi/[523. 连续的子数组和 - 官方题解^]
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-23 00:23:40
    */
   public boolean checkSubarraySum(int[] nums, int k) {
     if (nums == null || nums.length < 2) {

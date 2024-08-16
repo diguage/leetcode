@@ -3721,14 +3721,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0527-word-abbreviation.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/random-pick-with-weight/[528. Random Pick with Weight^]
-//|{source_base_url}/_0528_RandomPickWithWeight.java[Java]
-//|{doc_base_url}/0528-random-pick-with-weight.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/random-pick-with-weight/[528. Random Pick with Weight^]
+|{source_base_url}/_0528_RandomPickWithWeight.java[Java]
+|{doc_base_url}/0528-random-pick-with-weight.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/minesweeper/[529. Minesweeper^]
 //|{source_base_url}/_0529_Minesweeper.java[Java]

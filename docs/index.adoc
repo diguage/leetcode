@@ -1118,7 +1118,7 @@ include::0523-continuous-subarray-sum.adoc[leveloffset=+1]
 
 // include::0527-word-abbreviation.adoc[leveloffset=+1]
 
-// include::0528-random-pick-with-weight.adoc[leveloffset=+1]
+include::0528-random-pick-with-weight.adoc[leveloffset=+1]
 
 // include::0529-minesweeper.adoc[leveloffset=+1]
 

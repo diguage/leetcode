@@ -383,6 +383,11 @@
 |{doc_base_url}/1011-capacity-to-ship-packages-within-d-days.adoc[题解]
 |二分查找，确定左边界
 
+|{counter:codes}
+|{leetcode_base_url}/random-pick-with-weight/[528. Random Pick with Weight^]
+|{doc_base_url}/0528-random-pick-with-weight.adoc[题解]
+|前缀和+二分查找
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
