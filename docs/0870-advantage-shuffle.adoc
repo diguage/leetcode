@@ -36,6 +36,11 @@ Return *any* permutation of `A` that maximizes its advantage with respect to `B`
 
 == 思路分析
 
+image::images/0870-01.png[{image_attr}]
+
+image::images/0870-02.png[{image_attr}]
+
+image::images/0870-03.png[{image_attr}]
 
 [[src-0870]]
 [tabs]
