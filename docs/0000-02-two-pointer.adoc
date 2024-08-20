@@ -1,5 +1,5 @@
 [#0000-02-two-pointer]
-= Two Pointer
+= Two Pointer 双指针
 
 双指针是这样的模式：两个指针朝着左右方向移动（双指针分为同向双指针和异向双指针），直到他们有一个或是两个都满足某种条件。双指针通常用在排好序的数组或是链表中寻找对子。比如，你需要去比较数组中每个元素和其他元素的关系时，你就需要用到双指针了。
 
@@ -12,11 +12,7 @@
 
 == 经典题目
 
-Pair with Target Sum (easy)
 
-Remove Duplicates (easy)
-
-Squaring a Sorted Array (easy)
 
 Triplet Sum to Zero (medium)
 
@@ -28,19 +24,30 @@ Subarrays with Product Less than a Target (medium)
 
 Dutch National Flag Problem (medium)
 
+. xref:0001-two-sum.adoc[1. Two Sum]
+. xref:0015-3sum.adoc[15. 3Sum]
+. xref:0016-3sum-closest.adoc[16. 3Sum Closest]
+. xref:0018-4sum.adoc[18. 4Sum]
+. xref:0026-remove-duplicates-from-sorted-array.adoc[26. Remove Duplicates from Sorted Array]
+. xref:0027-remove-element.adoc[27. Remove Element]
 . xref:0032-longest-valid-parentheses.adoc[32. Longest Valid Parentheses]
+. xref:0075-sort-colors.adoc[75. Sort Colors]
 . xref:0076-minimum-window-substring.adoc[76. Minimum Window Substring]
 . xref:0109-convert-sorted-list-to-binary-search-tree.adoc[109. Convert Sorted List to Binary Search Tree]
 . xref:0209-minimum-size-subarray-sum.adoc[209. Minimum Size Subarray Sum]
 . xref:0239-sliding-window-maximum.adoc[239. Sliding Window Maximum]
+. xref:0259-3sum-smaller.adoc[259. 3Sum Smaller]
 . xref:0424-longest-repeating-character-replacement.adoc[424. Longest Repeating Character Replacement]
 . xref:0438-find-all-anagrams-in-a-string.adoc[438. Find All Anagrams in a String]
 . xref:0567-permutation-in-string.adoc[567. Permutation in String]
 . xref:0713-subarray-product-less-than-k.adoc[713. Subarray Product Less Than K]
 . xref:0763-partition-labels.adoc[763. Partition Labels]
 . xref:0799-champagne-tower.adoc[799. Champagne Tower]
+. xref:0844-backspace-string-compare.adoc[844. Backspace String Compare]
 . xref:0962-maximum-width-ramp.adoc[962. Maximum Width Ramp]
+. xref:0977-squares-of-a-sorted-array.adoc[977. Squares of a Sorted Array]
 . xref:1124-longest-well-performing-interval.adoc[1124. Longest Well-Performing Interval]
+. xref:1574-shortest-subarray-to-be-removed-to-make-array-sorted.adoc[1574. Shortest Subarray to be Removed to Make Array Sorted]
 
 
 == 参考资料

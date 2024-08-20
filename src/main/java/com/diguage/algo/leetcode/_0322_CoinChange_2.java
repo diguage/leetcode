@@ -27,13 +27,16 @@ package com.diguage.algo.leetcode;
  * You may assume that you have an infinite number of each kind of coin.
  *
  * @author D瓜哥 · https://www.diguage.com
- * @since 2020-01-26 22:16
+ * @since 2024-06-27 21:12
  */
 public class _0322_CoinChange_2 {
   // tag::answer[]
 
   /**
    * 最笨的方法：暴力穷举，超时
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-27 21:12
    */
   public int coinChange(int[] coins, int amount) {
     if (amount < 0) {

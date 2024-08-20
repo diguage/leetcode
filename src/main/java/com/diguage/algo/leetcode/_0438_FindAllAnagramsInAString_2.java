@@ -12,6 +12,10 @@ import java.util.*;
  */
 public class _0438_FindAllAnagramsInAString_2 {
   // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-07-02 17:52:50
+   */
   public List<Integer> findAnagrams(String s, String p) {
     if (s == null || s.isEmpty()
       || p == null || p.isEmpty()

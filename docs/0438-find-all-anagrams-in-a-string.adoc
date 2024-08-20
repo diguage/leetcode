@@ -41,10 +41,26 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 使用滑动窗口来"圈定"字符串！
 
 [[src-0438]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0438_FindAllAnagramsInAString.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0438_FindAllAnagramsInAString_2.java[tag=answer]
+----
+--
+====
 
 == 思考题
 

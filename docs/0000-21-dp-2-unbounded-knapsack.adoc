@@ -1,11 +1,19 @@
 [#0000-21-dp-2-unbounded-knapsack]
-== Unbounded Knapsack，无限背包
+= Unbounded Knapsack 无限背包
+
+
+== 经典题目
+
+. xref:0322-coin-change.adoc[322. Coin Change]
+. xref:0518-coin-change-2.adoc[518. Coin Change 2]
+. xref:1547-minimum-cost-to-cut-a-stick.adoc[1547. Minimum Cost to Cut a Stick]
+. xref:1891-cutting-ribbons.adoc[1891. Cutting Ribbons]
+
 
 Unbounded Knapsack，无限背包
 
 Rod Cutting，切钢条问题
 
-Coin Change，换硬币问题
 
 Minimum Coin Change，凑齐每个数需要的最少硬币问题
 

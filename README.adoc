@@ -1617,7 +1617,7 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 
 |{counter:codes}
 |{leetcode_base_url}/basic-calculator-ii/[227. Basic Calculator II^]
-|{source_base_url}/_0227_BasicCalculatorII.java[Java]
+|{source_base_url}/_0227_BasicCalculatorIi.java[Java]
 |{doc_base_url}/0227-basic-calculator-ii.adoc[题解]
 |Medium
 |
@@ -1638,7 +1638,7 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 
 |{counter:codes}
 |{leetcode_base_url}/kth-smallest-element-in-a-bst/[230. Kth Smallest Element in a BST^]
-|{source_base_url}/_0230_KthSmallestElementInABST.java[Java]
+|{source_base_url}/_0230_KthSmallestElementInABst.java[Java]
 |{doc_base_url}/0230-kth-smallest-element-in-a-bst.adoc[题解]
 |Medium
 |
@@ -2478,7 +2478,7 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 
 |{counter:codes}
 |{leetcode_base_url}/intersection-of-two-arrays-ii/[350. Intersection of Two Arrays II^]
-|{source_base_url}/_0350_IntersectionOfTwoArraysII.java[Java]
+|{source_base_url}/_0350_IntersectionOfTwoArraysIi.java[Java]
 |{doc_base_url}/0350-intersection-of-two-arrays-ii.adoc[题解]
 |Easy
 |

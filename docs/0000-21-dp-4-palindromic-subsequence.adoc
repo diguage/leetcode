@@ -1,7 +1,17 @@
 [#0000-21-dp-4-palindromic-subsequence]
-== Palindromic Subsequence，回文子系列
+= Palindromic Subsequence 回文子系列
 
-Longest Palindromic Subsequence，最长回文子序列
+
+== 经典题目
+
+. xref:0005-longest-palindromic-substring.adoc[5. Longest Palindromic Substring]
+. xref:0132-palindrome-partitioning-ii.adoc[132. Palindrome Partitioning II]
+. xref:0516-longest-palindromic-subsequence.adoc[516. Longest Palindromic Subsequence]
+. xref:0647-palindromic-substrings.adoc[647. Palindromic Substrings]
+. xref:1216-valid-palindrome-iii.adoc[1216. Valid Palindrome III]
+. xref:1312-minimum-insertion-steps-to-make-a-string-palindrome.adoc[1312. Minimum Insertion Steps to Make a String Palindrome]
+
+
 
 Longest Palindromic Substring，最长回文子字符串
 

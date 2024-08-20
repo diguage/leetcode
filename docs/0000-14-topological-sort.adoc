@@ -1,5 +1,5 @@
 [#0000-14-topological-sort]
-= Topological Sort (Graph)，拓扑排序类型
+= Topological Sort (Graph) 拓扑排序
 
 拓扑排序模式用来寻找一种线性的顺序，这些元素之间具有依懒性。比如，如果事件B依赖于事件A，那A在拓扑排序顺序中排在B的前面。
 
@@ -28,14 +28,16 @@
 * 你需要以一种有序的秩序更新输入元素
 * 需要处理的输入遵循某种特定的顺序
 
-经典题目：
+== 经典题目
+
+. xref:0207-course-schedule.adoc[207. Course Schedule]
+. xref:0210-course-schedule-ii.adoc[210. Course Schedule II]
+. xref:0269-alien-dictionary.adoc[269. Alien Dictionary]
+. xref:0444-sequence-reconstruction.adoc[444. Sequence Reconstruction]
+. xref:0310-minimum-height-trees.adoc[310. Minimum Height Trees]
+
 
 Topological Sort (medium)
 
-Tasks Scheduling (medium)
-
-Tasks Scheduling Order (medium)
-
 All Tasks Scheduling Orders (hard)
 
-Alien Dictionary (hard)

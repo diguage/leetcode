@@ -1,5 +1,5 @@
 [#0000-06-reversed-list]
-= In-place Reversal of a LinkedList，链表翻转
+= In-place Reversal of a LinkedList 原地链表翻转
 
 在众多问题中，题目可能需要你去翻转链表中某一段的节点。通常，要求都是你得原地翻转，就是重复使用这些已经建好的节点，而不使用额外的空间。这个时候，原地翻转模式就要发挥威力了。
 
@@ -9,10 +9,9 @@
 
 * 如果你被问到需要去翻转链表，要求不能使用额外空间的时候
 
-经典题目：
+== 经典题目
 
-Reverse a LinkedList (easy)
-
-Reverse a Sub-list (medium)
-
-Reverse every K-element Sub-list (medium)
+. xref:0025-reverse-nodes-in-k-group.adoc[25. Reverse Nodes in k-Group]
+. xref:0061-rotate-list.adoc[61. Rotate List]
+. xref:0092-reverse-linked-list-ii.adoc[92. Reverse Linked List II]
+. xref:0206-reverse-linked-list.adoc[206. Reverse Linked List]

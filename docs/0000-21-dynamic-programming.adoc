@@ -1,5 +1,5 @@
 [#0000-21-dynamic-programming]
-= Dynamic Programming，动态规划
+= Dynamic Programming 动态规划
 
 include::0000-21-dp-1-0-1-knapsack.adoc[leveloffset=+1]
 
@@ -42,3 +42,4 @@ TIP: 写出信息结构是把所有的信息都装到一个对象中。如果只
 
 . 左程云《程序员代码面试指南》
 . https://leetcode.cn/problems/coin-change/solutions/778891/yi-pian-wen-zhang-chi-tou-bei-bao-wen-ti-sq9n/[一篇文章吃透背包问题！（细致引入+解题模板+例题分析+代码呈现）^] -- 背包问题大全
+. https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews/blob/main/%E2%9C%85%20Pattern%2015%3A%200-1%20Knapsack%20(Dynamic%20Programming).md[Pattern 15: 0-1 Knapsack (Dynamic Programming)^]

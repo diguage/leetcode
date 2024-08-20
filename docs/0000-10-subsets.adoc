@@ -1,5 +1,7 @@
 [#0000-10-subsets]
-= Subsets，子集类型，一般都是使用多重DFS
+= Subsets 子集
+
+一般都是使用多重DFS
 
 超级多的编程面试问题都会涉及到排列和组合问题。子集问题模式讲的是用BFS来处理这些问题。
 
@@ -16,13 +18,18 @@
 
 * 问题需要咱们去找数字的组合或是排列
 
-经典题目：
+== 经典题目
 
-Subsets (easy)
+. xref:0022-generate-parentheses.adoc[22. Generate Parentheses]
+. xref:0046-permutations.adoc[46. Permutations]
+. xref:0078-subsets.adoc[78. Subsets]
+. xref:0090-subsets-ii.adoc[90. Subsets II]
+. xref:0095-unique-binary-search-trees-ii.adoc[95. Unique Binary Search Trees II]
+. xref:0096-unique-binary-search-trees.adoc[96. Unique Binary Search Trees]
+. xref:0241-different-ways-to-add-parentheses.adoc[241. Different Ways to Add Parentheses]
+. xref:0320-generalized-abbreviation.adoc[320. Generalized Abbreviation]
+. xref:0784-letter-case-permutation.adoc[784. Letter Case Permutation]
 
-Subsets With Duplicates (easy)
-
-Permutations (medium)
 
 String Permutations by changing case (medium)
 

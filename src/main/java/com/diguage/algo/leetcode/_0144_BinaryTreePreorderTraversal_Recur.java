@@ -11,11 +11,14 @@ import java.util.List;
  * https://leetcode.com/problems/binary-tree-preorder-traversal/[Binary Tree Preorder Traversal - LeetCode]
  *
  * @author D瓜哥 · https://www.diguage.com
- * @since 2020-06-16 10:59
+ * @since 2024-06-14 11:30
  */
 public class _0144_BinaryTreePreorderTraversal_Recur {
   // tag::answer[]
-
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-14 11:30
+   */
   public List<Integer> preorderTraversal(TreeNode root) {
     List<Integer> result = new ArrayList<>();
     preorderTraversal(root, result);

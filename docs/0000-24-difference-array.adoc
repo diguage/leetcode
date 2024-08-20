@@ -1,0 +1,13 @@
+[#0000-24-difference-array]
+= Difference Array 差分数组
+
+
+
+== 经典题目
+
+. xref:0370-range-addition.adoc[370. Range Addition]
+. xref:1094-car-pooling.adoc[1094. Car Pooling]
+. xref:1109-corporate-flight-bookings.adoc[1109. Corporate Flight Bookings]
+
+== 参考资料
+

@@ -1,5 +1,5 @@
 [#0000-13-k-way-merge]
-= K-way merge，多路归并
+= K-way merge 多路归并
 
 K路归并能帮咱们解决那些涉及到多组排好序的数组的问题。
 
@@ -17,7 +17,14 @@ K路归并能帮咱们解决那些涉及到多组排好序的数组的问题。
 * 该问题的输入是排好序的数组，链表或是矩阵
 * 如果问题让咱们合并多个排好序的集合，或是需要找这些集合中最小的元素
 
-经典题目：
+== 经典题目
+
+. xref:0004-median-of-two-sorted-arrays.adoc[4. Median of Two Sorted Arrays]
+. xref:0023-merge-k-sorted-lists.adoc[23. Merge k Sorted Lists]
+. xref:0373-find-k-pairs-with-smallest-sums.adoc[373. Find K Pairs with Smallest Sums]
+. xref:0378-kth-smallest-element-in-a-sorted-matrix.adoc[378. Kth Smallest Element in a Sorted Matrix]
+. xref:0632-smallest-range-covering-elements-from-k-lists.adoc[632. Smallest Range Covering Elements from K Lists]
+
 
 Merge K Sorted Lists (medium)
 

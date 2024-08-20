@@ -69,7 +69,7 @@ image::images/0230-04.png[{image_attr}]
 --
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0230_KthSmallestElementInABST.java[tag=answer]
+include::{sourcedir}/_0230_KthSmallestElementInABst.java[tag=answer]
 ----
 --
 

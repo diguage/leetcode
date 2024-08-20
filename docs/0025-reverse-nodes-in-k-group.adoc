@@ -26,8 +26,24 @@ For _k_ = 3, you should return: `3->2->1->4->5`
 
 
 [[src-0025]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0025_ReverseNodesInKGroup.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0015_3Sum_20.java[tag=answer]
+// ----
+// --
+====
 

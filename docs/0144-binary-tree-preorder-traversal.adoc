@@ -36,6 +36,36 @@ include::{sourcedir}/_0144_BinaryTreePreorderTraversal.java[tag=answer]
 include::{sourcedir}/_0144_BinaryTreePreorderTraversal_Recur.java[tag=answer]
 ----
 
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0144_BinaryTreePreorderTraversal.java[tag=answer]
+----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0144_BinaryTreePreorderTraversal_Recur.java[tag=answer]
+----
+--
+
+二刷（Morris遍历）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0144_BinaryTreePreorderTraversal_Morris.java[tag=answer]
+----
+--
+====
+
 == 迭代实现
 
 image::images/0144-01.png[{image_attr}]

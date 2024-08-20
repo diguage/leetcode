@@ -15,11 +15,15 @@
 
 . xref:0102-binary-tree-level-order-traversal.adoc[102. Binary Tree Level Order Traversal]
 . xref:0103-binary-tree-zigzag-level-order-traversal.adoc[103. Binary Tree Zigzag Level Order Traversal]
+. xref:0104-maximum-depth-of-binary-tree.adoc[104. Maximum Depth of Binary Tree]
 . xref:0107-binary-tree-level-order-traversal-ii.adoc[107. Binary Tree Level Order Traversal II]
 . xref:0111-minimum-depth-of-binary-tree.adoc[111. Minimum Depth of Binary Tree]
+. xref:0116-populating-next-right-pointers-in-each-node.adoc[116. Populating Next Right Pointers in Each Node]
+. xref:0199-binary-tree-right-side-view.adoc[199. Binary Tree Right Side View]
 . xref:0127-word-ladder.adoc[127. Word Ladder]
 . xref:0637-average-of-levels-in-binary-tree.adoc[637. Average of Levels in Binary Tree]
 . xref:0752-open-the-lock.adoc[752. Open the Lock]
+. xref:1161-maximum-level-sum-of-a-binary-tree.adoc[1161. Maximum Level Sum of a Binary Tree]
 
 Level Order Successor (easy)
 

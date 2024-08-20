@@ -1,5 +1,5 @@
 [#0000-12-top-k-elements]
-= Top ‘K’ Elements，前K个系列
+= Top 'K' Elements 顶端 K 元素
 
 任何让我们求解最大/最小/最频繁的K个元素的题，都遵循这种模式。
 
@@ -17,7 +17,21 @@
 * 如果你需要求最大/最小/最频繁的前K个元素
 * 如果你需要通过排序去找一个特定的数
 
-经典题目：
+== 经典题目
+
+. xref:0215-kth-largest-element-in-an-array.adoc[215. Kth Largest Element in an Array]
+. xref:0347-top-k-frequent-elements.adoc[347. Top K Frequent Elements]
+. xref:0358-rearrange-string-k-distance-apart.adoc[358. Rearrange String k Distance Apart]
+. xref:0451-sort-characters-by-frequency.adoc[451. Sort Characters By Frequency]
+. xref:0621-task-scheduler.adoc[621. Task Scheduler]
+. xref:0658-find-k-closest-elements.adoc[658. Find K Closest Elements]
+. xref:0703-kth-largest-element-in-a-stream.adoc[703. Kth Largest Element in a Stream]
+. xref:0767-reorganize-string.adoc[767. Reorganize String]
+. xref:0895-maximum-frequency-stack.adoc[895. Maximum Frequency Stack]
+. xref:0973-k-closest-points-to-origin.adoc[973. K Closest Points to Origin]
+. xref:1167-minimum-cost-to-connect-sticks.adoc[1167. Minimum Cost to Connect Sticks]
+. xref:1481-least-number-of-unique-integers-after-k-removals.adoc[1481. Least Number of Unique Integers after K Removals]
+
 
 Top ‘K’ Numbers (easy)
 

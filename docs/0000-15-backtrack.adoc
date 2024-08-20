@@ -1,5 +1,5 @@
 [#0000-15-backtrack]
-= Backtrack，回溯
+= Backtracking 回溯
 
 参考 xref:0046-permutations.adoc[46. Permutations] 认真学习一下回溯思想。
 

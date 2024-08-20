@@ -1,5 +1,5 @@
 [#0000-04-merge-intervals]
-= Merge Intervals，区间合并类型
+= Merge Intervals 区间合并
 
 
 区间合并模式是一个用来处理有区间重叠的很高效的技术。在设计到区间的很多问题中，通常咱们需要要么判断是否有重叠，要么合并区间，如果他们重叠的话。这个模式是这么起作用的：
@@ -11,11 +11,15 @@
 * 当你需要产生一堆相互之间没有交集的区间的时候
 * 当你听到重叠区间的时候
 
+== 经典题目
 
-Merge Intervals (medium)
+. xref:0056-merge-intervals.adoc[56. Merge Intervals]
+. xref:0057-insert-interval.adoc[57. Insert Interval]
+. xref:0986-interval-list-intersections.adoc[986. Interval List Intersections]
+. xref:0252-meeting-rooms.adoc[252. Meeting Rooms]
+. xref:0253-meeting-rooms-ii.adoc[253. Meeting Rooms II]
+. xref:0759-employee-free-time.adoc[759. Employee Free Time]
+. xref:1094-car-pooling.adoc[1094. Car Pooling]
 
-Insert Interval (medium)
-
-Intervals Intersection (medium)
 
 Conflicting Appointments (medium)

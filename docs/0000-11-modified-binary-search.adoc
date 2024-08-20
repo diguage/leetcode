@@ -1,5 +1,5 @@
 [#0000-11-modified-binary-search]
-= Modified Binary Search，改造过的二分
+= Modified Binary Search 改造过的二分搜索
 
 当你需要解决的问题的输入是排好序的数组，链表，或是排好序的矩阵，要求咱们寻找某些特定元素。这个时候的不二选择就是二分搜索。这种模式是一种超级牛的用二分来解决问题的方式。
 
@@ -10,7 +10,22 @@
 . 如果目标不等的话：我们就有两种移动方式了如果目标比中点在的值小（key < arr[middle]）：将下一步搜索空间放到左边（end = middle - 1）
 . 如果比中点的值大，则继续在右边搜索，丢弃左边：left = middle + 1
 
-经典题目：
+== 经典题目
+
+. xref:0033-search-in-rotated-sorted-array.adoc[33. Search in Rotated Sorted Array]
+. xref:0034-find-first-and-last-position-of-element-in-sorted-array.adoc[34. Find First and Last Position of Element in Sorted Array]
+. xref:0035-search-insert-position.adoc[35. Search Insert Position]
+. xref:0081-search-in-rotated-sorted-array-ii.adoc[81. Search in Rotated Sorted Array II]
+. xref:0153-find-minimum-in-rotated-sorted-array.adoc[153. Find Minimum in Rotated Sorted Array]
+. xref:0154-find-minimum-in-rotated-sorted-array-ii.adoc[154. Find Minimum in Rotated Sorted Array II]
+. xref:0702-search-in-a-sorted-array-of-unknown-size.adoc[702. Search in a Sorted Array of Unknown Size]
+. xref:0704-binary-search.adoc[704. Binary Search]
+. xref:0744-find-smallest-letter-greater-than-target.adoc[744. Find Smallest Letter Greater Than Target]
+. xref:0875-koko-eating-bananas.adoc[875. Koko Eating Bananas]
+. xref:1011-capacity-to-ship-packages-within-d-days.adoc[1011. Capacity To Ship Packages Within D Days]
+. xref:1200-minimum-absolute-difference.adoc[1200. Minimum Absolute Difference]
+
+
 
 Order-agnostic Binary Search (easy)
 
@@ -25,3 +40,7 @@ Search in a Sorted Infinite Array (medium)
 Minimum Difference Element (medium)
 
 Bitonic Array Maximum (easy)
+
+== 参考资料
+
+. https://leetcode.cn/problems/binary-search/solutions/8337/er-fen-cha-zhao-xiang-jie-by-labuladong/[704. 二分查找 - 二分查找细节详解，顺便赋诗一首^]

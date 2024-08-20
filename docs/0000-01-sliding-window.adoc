@@ -1,5 +1,5 @@
 [#0000-01-sliding-window]
-= 滑动窗口算法
+= Sliding Window 滑动窗口
 
 滑动窗口类型的题目经常是用来执行数组或是链表上某个区间（窗口）上的操作。比如找最长的全为1的子数组长度。滑动窗口一般从第一个元素开始，一直往右边一个一个元素挪动。当然了，根据题目要求，我们可能有固定窗口大小的情况，也有窗口的大小变化的情况。
 
@@ -14,35 +14,36 @@ Maximum Sum Subarray of Size K (easy)
 
 Smallest Subarray with a given sum (easy)
 
-Longest Substring with K Distinct Characters (medium)
-
-Fruits into Baskets (medium)
-
 No-repeat Substring (hard)
 
 Longest Substring with Same Letters after Replacement (hard)
 
 Longest Subarray with Ones after Replacement (hard)
 
-
-. xref:0239-sliding-window-maximum.adoc[239. Sliding Window Maximum (hard)]
-. xref:0480-sliding-window-median.adoc[480. Sliding Window Median (hard)]
 . xref:0003-longest-substring-without-repeating-characters.adoc[3. Longest Substring Without Repeating Characters (medium)]
+. xref:0030-substring-with-concatenation-of-all-words.adoc[30. Substring with Concatenation of All Words]
 . xref:0076-minimum-window-substring.adoc[76. Minimum Window Substring (hard)]
-. xref:0395-longest-substring-with-at-least-k-repeating-characters.adoc[395. Longest Substring with At Least K Repeating Characters (medium)]
-. xref:0567-permutation-in-string.adoc[567. Permutation in String (medium)]
-. xref:0438-find-all-anagrams-in-a-string.adoc[438. Find All Anagrams in a String (medium)]
+. xref:0159-longest-substring-with-at-most-two-distinct-characters.adoc[159. Longest Substring with At Most Two Distinct Characters]
 . xref:0209-minimum-size-subarray-sum.adoc[209. Minimum Size Subarray Sum (medium)]
+. xref:0239-sliding-window-maximum.adoc[239. Sliding Window Maximum (hard)]
+. xref:0340-longest-substring-with-at-most-k-distinct-characters.adoc[340. Longest Substring with At Most K Distinct Characters]
+. xref:0395-longest-substring-with-at-least-k-repeating-characters.adoc[395. Longest Substring with At Least K Repeating Characters (medium)]
 . xref:0424-longest-repeating-character-replacement.adoc[424. Longest Repeating Character Replacement (medium)]
+. xref:0438-find-all-anagrams-in-a-string.adoc[438. Find All Anagrams in a String (medium)]
+. xref:0480-sliding-window-median.adoc[480. Sliding Window Median (hard)]
+. xref:0567-permutation-in-string.adoc[567. Permutation in String (medium)]
+. xref:0643-maximum-average-subarray-i.adoc[643. Maximum Average Subarray I]
 . xref:0713-subarray-product-less-than-k.adoc[713. Subarray Product Less Than K]
-. xref:1208-get-equal-substrings-within-budget.adoc[1208. Get Equal Substrings Within Budget (medium)]
-. xref:0904-fruit-into-baskets.adoc[904. Fruit Into Baskets (medium)]
+. xref:0904-fruit-into-baskets.adoc[904. Fruit Into Baskets]
 . xref:0978-longest-turbulent-subarray.adoc[978. Longest Turbulent Subarray]
 . xref:0992-subarrays-with-k-different-integers.adoc[992. Subarrays with K Different Integers]
 . xref:0995-minimum-number-of-k-consecutive-bit-flips.adoc[995. Minimum Number of K Consecutive Bit Flips]
+. xref:1004-max-consecutive-ones-iii.adoc[1004. Max Consecutive Ones III]
 . xref:1040-moving-stones-until-consecutive-ii.adoc[1040. Moving Stones Until Consecutive II]
 . xref:1052-grumpy-bookstore-owner.adoc[1052. Grumpy Bookstore Owner]
 . xref:1074-number-of-submatrices-that-sum-to-target.adoc[1074. Number of Submatrices That Sum to Target]
+. xref:1208-get-equal-substrings-within-budget.adoc[1208. Get Equal Substrings Within Budget (medium)]
+. xref:1708-largest-subarray-length-k.adoc[1708. Largest Subarray Length K]
 
 == 整体思路
 

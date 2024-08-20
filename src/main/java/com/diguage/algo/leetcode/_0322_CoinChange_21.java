@@ -29,13 +29,16 @@ import static com.diguage.util.Printers.printMatrix;
  * You may assume that you have an infinite number of each kind of coin.
  *
  * @author D瓜哥 · https://www.diguage.com
- * @since 2020-01-26 22:16
+ * @since 2024-06-27 21:12
  */
 public class _0322_CoinChange_21 {
   // tag::answer[]
 
   /**
    * 参考 左程云《程序员代码面试指南》。完全没看明白。
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-27 21:12
    */
   public int coinChange(int[] coins, int amt) {
     if (coins == null || coins.length == 0 || amt < 0) {

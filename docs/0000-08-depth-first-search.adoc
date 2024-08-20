@@ -17,13 +17,15 @@
 * 你需要按前中后序的DFS方式遍历树
 * 如果该问题的解一般离叶子节点比较近。
 
-经典题目：
+== 经典题目
 
-Binary Tree Path Sum (easy)
+. xref:0112-path-sum.adoc[112. Path Sum]
+. xref:0113-path-sum-ii.adoc[113. Path Sum II]
+. xref:0129-sum-root-to-leaf-numbers.adoc[129. Sum Root to Leaf Numbers]
+. xref:0437-path-sum-iii.adoc[437. Path Sum III]
+. xref:0543-diameter-of-binary-tree.adoc[543. Diameter of Binary Tree]
+. xref:0124-binary-tree-maximum-path-sum.adoc[124. Binary Tree Maximum Path Sum]
 
-All Paths for a Sum (medium)
-
-Sum of Path Numbers (medium)
 
 Path With Given Sequence (medium)
 

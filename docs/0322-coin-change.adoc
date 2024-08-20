@@ -77,6 +77,10 @@ include::{sourcedir}/_0322_CoinChange_22.java[tag=answer]
 include::{sourcedir}/_0322_CoinChange.java[tag=answer]
 ----
 
+[{java_src_attr}]
+----
+include::{sourcedir}/_0322_CoinChange_21.java[tag=answer]
+----
 
 == 参考资料
 

@@ -1,5 +1,5 @@
 [#0000-09-two-heaps]
-= Two Heaps，双堆类型
+= Two Heaps 双堆
 
 很多问题中，我们被告知，我们拿到一大把可以分成两队的数字。为了解决这个问题，我们感兴趣的是，怎么把数字分成两半？使得：小的数字都放在一起，大的放在另外一半。双堆模式就能高效解决此类问题。
 
@@ -11,7 +11,12 @@
 * 如果问题让你找一组数中的最大/最小/中位数
 * 有时候，这种模式在涉及到二叉树数据结构时也特别有用
 
-经典题目：
+== 经典题目
+
+. xref:0295-find-median-from-data-stream.adoc[295. Find Median from Data Stream]
+. xref:0436-find-right-interval.adoc[436. Find Right Interval]
+. xref:0480-sliding-window-median.adoc[480. Sliding Window Median]
+. xref:0502-ipo.adoc[502. IPO]
 
 Find the Median of a Number Stream (medium)
 

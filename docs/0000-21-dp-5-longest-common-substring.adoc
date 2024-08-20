@@ -1,5 +1,13 @@
 [#0000-21-dp-5-longest-common-substring]
-== Longest Common Substring，最长子字符串系列
+= Longest Common Substring 最长子字符串系列
+
+== 经典题目
+
+. xref:0072-edit-distance.adoc[72. Edit Distance]
+. xref:0097-interleaving-string.adoc[97. Interleaving String]
+. xref:0300-longest-increasing-subsequence.adoc[300. Longest Increasing Subsequence]
+. xref:1143-longest-common-subsequence.adoc[1143. Longest Common Subsequence]
+. xref:1092-shortest-common-supersequence.adoc[1092. Shortest Common Supersequence]
 
 Longest Common Substring，最长相同子串
 

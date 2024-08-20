@@ -29,13 +29,16 @@ import java.util.Arrays;
  * You may assume that you have an infinite number of each kind of coin.
  *
  * @author D瓜哥 · https://www.diguage.com
- * @since 2020-01-26 22:16
+ * @since 2024-06-27 21:12
  */
 public class _0322_CoinChange_22 {
   // tag::answer[]
 
   /**
    * 参考 https://leetcode.cn/problems/coin-change/solutions/132979/322-ling-qian-dui-huan-by-leetcode-solution/[322. 零钱兑换 - 官方题解^]
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-27 21:12
    */
   public int coinChange(int[] coins, int amt) {
     if (coins == null || coins.length == 0 || amt < 0) {

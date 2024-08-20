@@ -1,0 +1,12 @@
+[#0000-25-prefix-sum]
+= Prefix Sum 前缀和
+
+
+
+== 经典题目
+
+. xref:0303-range-sum-query-immutable.adoc[303. Range Sum Query - Immutable]
+. xref:0304-range-sum-query-2d-immutable.adoc[304. Range Sum Query 2D - Immutable]
+
+== 参考资料
+
