@@ -1,7 +1,7 @@
 [#2601-prime-subtraction-operation]
 = 2601. Prime Subtraction Operation
 
-https://leetcode.com/problems/prime-subtraction-operation/[LeetCode - 2601. Prime Subtraction Operation ^]
+{leetcode}/problems/prime-subtraction-operation/[LeetCode - 2601. Prime Subtraction Operation ^]
 
 You are given a *0-indexed* integer array `nums` of length `n`.
 

@@ -1,7 +1,7 @@
 [#3178-find-the-child-who-has-the-ball-after-k-seconds]
 = 3178. Find the Child Who Has the Ball After K Seconds
 
-https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/[LeetCode - 3178. Find the Child Who Has the Ball After K Seconds ^]
+{leetcode}/problems/find-the-child-who-has-the-ball-after-k-seconds/[LeetCode - 3178. Find the Child Who Has the Ball After K Seconds ^]
 
 You are given two *positive* integers `n` and `k`. There are `n` children numbered from `0` to `n - 1` standing in a queue _in order_ from left to right.
 

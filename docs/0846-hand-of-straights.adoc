@@ -1,7 +1,7 @@
 [#0846-hand-of-straights]
 = 846. Hand of Straights
 
-https://leetcode.com/problems/hand-of-straights/[LeetCode - Hand of Straights^]
+{leetcode}/problems/hand-of-straights/[LeetCode - Hand of Straights^]
 
 Alice has a `hand` of cards, given as an array of integers.
 

@@ -1,7 +1,7 @@
 [#2575-find-the-divisibility-array-of-a-string]
 = 2575. Find the Divisibility Array of a String
 
-https://leetcode.com/problems/find-the-divisibility-array-of-a-string/[LeetCode - 2575. Find the Divisibility Array of a String ^]
+{leetcode}/problems/find-the-divisibility-array-of-a-string/[LeetCode - 2575. Find the Divisibility Array of a String ^]
 
 You are given a *0-indexed* string `word` of length `n` consisting of digits, and a positive integer `m`.
 

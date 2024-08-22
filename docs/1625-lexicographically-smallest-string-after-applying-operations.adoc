@@ -1,7 +1,7 @@
 [#1625-lexicographically-smallest-string-after-applying-operations]
 = 1625. Lexicographically Smallest String After Applying Operations
 
-https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/[LeetCode - 1625. Lexicographically Smallest String After Applying Operations ^]
+{leetcode}/problems/lexicographically-smallest-string-after-applying-operations/[LeetCode - 1625. Lexicographically Smallest String After Applying Operations ^]
 
 You are given a string `s` of *even length* consisting of digits from `0` to `9`, and two integers `a` and `b`.
 

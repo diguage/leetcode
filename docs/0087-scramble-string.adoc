@@ -1,7 +1,7 @@
 [#0087-scramble-string]
 = 87. Scramble String
 
-https://leetcode.com/problems/scramble-string/[LeetCode - Scramble String^]
+{leetcode}/problems/scramble-string/[LeetCode - Scramble String^]
 
 Given a string _s1_, we may represent it as a binary tree by partitioning it to two non-empty substrings recursively.
 

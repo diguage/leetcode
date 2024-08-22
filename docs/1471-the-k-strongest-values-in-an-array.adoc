@@ -1,7 +1,7 @@
 [#1471-the-k-strongest-values-in-an-array]
 = 1471. The k Strongest Values in an Array
 
-https://leetcode.com/problems/the-k-strongest-values-in-an-array/[LeetCode - 1471. The k Strongest Values in an Array ^]
+{leetcode}/problems/the-k-strongest-values-in-an-array/[LeetCode - 1471. The k Strongest Values in an Array ^]
 
 Given an array of integers `arr` and an integer `k`.
 

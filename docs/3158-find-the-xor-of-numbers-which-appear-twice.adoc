@@ -1,7 +1,7 @@
 [#3158-find-the-xor-of-numbers-which-appear-twice]
 = 3158. Find the XOR of Numbers Which Appear Twice
 
-https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/[LeetCode - 3158. Find the XOR of Numbers Which Appear Twice ^]
+{leetcode}/problems/find-the-xor-of-numbers-which-appear-twice/[LeetCode - 3158. Find the XOR of Numbers Which Appear Twice ^]
 
 You are given an array `nums`, where each number in the array appears *either*_ _once_ _or_ _twice.
 

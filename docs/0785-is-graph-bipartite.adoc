@@ -1,7 +1,7 @@
 [#0785-is-graph-bipartite]
 = 785. Is Graph Bipartite?
 
-https://leetcode.com/problems/is-graph-bipartite/[LeetCode - Is Graph Bipartite?^]
+{leetcode}/problems/is-graph-bipartite/[LeetCode - Is Graph Bipartite?^]
 
 Given an undirected `graph`, return `true` if and only if it is bipartite.
 

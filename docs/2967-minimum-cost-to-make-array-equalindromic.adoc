@@ -1,7 +1,7 @@
 [#2967-minimum-cost-to-make-array-equalindromic]
 = 2967. Minimum Cost to Make Array Equalindromic
 
-https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic/[LeetCode - 2967. Minimum Cost to Make Array Equalindromic ^]
+{leetcode}/problems/minimum-cost-to-make-array-equalindromic/[LeetCode - 2967. Minimum Cost to Make Array Equalindromic ^]
 
 You are given a *0-indexed* integer array `nums` having length `n`.
 

@@ -1,7 +1,7 @@
 [#1286-iterator-for-combination]
 = 1286. Iterator for Combination
 
-https://leetcode.com/problems/iterator-for-combination/[LeetCode - Iterator for Combination^]
+{leetcode}/problems/iterator-for-combination/[LeetCode - Iterator for Combination^]
 
 Design an Iterator class, which has:
 

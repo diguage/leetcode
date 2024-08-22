@@ -1,7 +1,7 @@
 [#0952-largest-component-size-by-common-factor]
 = 952. Largest Component Size by Common Factor
 
-https://leetcode.com/problems/largest-component-size-by-common-factor/[LeetCode - Largest Component Size by Common Factor^]
+{leetcode}/problems/largest-component-size-by-common-factor/[LeetCode - Largest Component Size by Common Factor^]
 
 Given a non-empty array of unique positive integers `A`, consider the following graph:
 

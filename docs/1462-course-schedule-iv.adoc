@@ -1,7 +1,7 @@
 [#1462-course-schedule-iv]
 = 1462. Course Schedule IV
 
-https://leetcode.com/problems/course-schedule-iv/[LeetCode - 1462. Course Schedule IV ^]
+{leetcode}/problems/course-schedule-iv/[LeetCode - 1462. Course Schedule IV ^]
 
 There are a total of `numCourses` courses you have to take, labeled from `0` to `numCourses - 1`. You are given an array `prerequisites` where `prerequisites[i] = [a<sub>i</sub>, b<sub>i</sub>]` indicates that you *must* take course `a<sub>i</sub>` first if you want to take course `b<sub>i</sub>`.
 

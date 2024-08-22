@@ -1,7 +1,7 @@
 [#0273-integer-to-english-words]
 = 273. Integer to English Words
 
-https://leetcode.com/problems/integer-to-english-words/[LeetCode - Integer to English Words^]
+{leetcode}/problems/integer-to-english-words/[LeetCode - Integer to English Words^]
 
 Convert a non-negative integer to its english words representation. Given input is guaranteed to be less than 2^31^ - 1.
 

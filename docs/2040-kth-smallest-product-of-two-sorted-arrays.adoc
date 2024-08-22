@@ -1,7 +1,7 @@
 [#2040-kth-smallest-product-of-two-sorted-arrays]
 = 2040. Kth Smallest Product of Two Sorted Arrays
 
-https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/[LeetCode - 2040. Kth Smallest Product of Two Sorted Arrays ^]
+{leetcode}/problems/kth-smallest-product-of-two-sorted-arrays/[LeetCode - 2040. Kth Smallest Product of Two Sorted Arrays ^]
 
 Given two *sorted 0-indexed* integer arrays `nums1` and `nums2` as well as an integer `k`, return _the _`k^th^`_ (*1-based*) smallest product of _`nums1[i] * nums2[j]`_ where _`0 <= i < nums1.length`_ and _`0 <= j < nums2.length`.
  

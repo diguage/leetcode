@@ -1,7 +1,7 @@
 [#2481-minimum-cuts-to-divide-a-circle]
 = 2481. Minimum Cuts to Divide a Circle
 
-https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/[LeetCode - 2481. Minimum Cuts to Divide a Circle ^]
+{leetcode}/problems/minimum-cuts-to-divide-a-circle/[LeetCode - 2481. Minimum Cuts to Divide a Circle ^]
 
 A *valid cut* in a circle can be:
 

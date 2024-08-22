@@ -1,7 +1,7 @@
 [#0257-binary-tree-paths]
 = 257. Binary Tree Paths
 
-https://leetcode.com/problems/binary-tree-paths/[LeetCode - Binary Tree Paths^]
+{leetcode}/problems/binary-tree-paths/[LeetCode - Binary Tree Paths^]
 
 Given a binary tree, return all root-to-leaf paths.
 

@@ -1,7 +1,7 @@
 [#2208-minimum-operations-to-halve-array-sum]
 = 2208. Minimum Operations to Halve Array Sum
 
-https://leetcode.com/problems/minimum-operations-to-halve-array-sum/[LeetCode - 2208. Minimum Operations to Halve Array Sum ^]
+{leetcode}/problems/minimum-operations-to-halve-array-sum/[LeetCode - 2208. Minimum Operations to Halve Array Sum ^]
 
 You are given an array `nums` of positive integers. In one operation, you can choose *any* number from `nums` and reduce it to *exactly* half the number. (Note that you may choose this reduced number in future operations.)
 

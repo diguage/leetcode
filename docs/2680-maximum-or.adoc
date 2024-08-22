@@ -1,7 +1,7 @@
 [#2680-maximum-or]
 = 2680. Maximum OR
 
-https://leetcode.com/problems/maximum-or/[LeetCode - 2680. Maximum OR ^]
+{leetcode}/problems/maximum-or/[LeetCode - 2680. Maximum OR ^]
 
 You are given a *0-indexed* integer array `nums` of length `n` and an integer `k`. In an operation, you can choose an element and multiply it by `2`.
 

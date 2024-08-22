@@ -1,7 +1,7 @@
 [#2413-smallest-even-multiple]
 = 2413. Smallest Even Multiple
 
-https://leetcode.com/problems/smallest-even-multiple/[LeetCode - 2413. Smallest Even Multiple ^]
+{leetcode}/problems/smallest-even-multiple/[LeetCode - 2413. Smallest Even Multiple ^]
 
 Given a *positive* integer `n`, return _the smallest positive integer that is a multiple of *both* _`2`_ and _`n`.
  

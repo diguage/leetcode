@@ -1,7 +1,7 @@
 [#3012-minimize-length-of-array-using-operations]
 = 3012. Minimize Length of Array Using Operations
 
-https://leetcode.com/problems/minimize-length-of-array-using-operations/[LeetCode - 3012. Minimize Length of Array Using Operations ^]
+{leetcode}/problems/minimize-length-of-array-using-operations/[LeetCode - 3012. Minimize Length of Array Using Operations ^]
 
 You are given a *0-indexed* integer array `nums` containing *positive* integers.
 

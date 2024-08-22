@@ -1,7 +1,7 @@
 [#0039-combination-sum]
 = 39. Combination Sum
 
-https://leetcode.com/problems/combination-sum/[LeetCode - Combination Sum^]
+{leetcode}/problems/combination-sum/[LeetCode - Combination Sum^]
 
 Given a *set* of candidate numbers (`candidates`) (**without duplicates**) and a target number (`target`), find all unique combinations in `candidates` where the candidate numbers sums to `target`.
 

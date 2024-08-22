@@ -1,7 +1,7 @@
 [#2825-make-string-a-subsequence-using-cyclic-increments]
 = 2825. Make String a Subsequence Using Cyclic Increments
 
-https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/[LeetCode - 2825. Make String a Subsequence Using Cyclic Increments ^]
+{leetcode}/problems/make-string-a-subsequence-using-cyclic-increments/[LeetCode - 2825. Make String a Subsequence Using Cyclic Increments ^]
 
 You are given two *0-indexed* strings `str1` and `str2`.
 

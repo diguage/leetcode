@@ -1,7 +1,7 @@
 [#3082-find-the-sum-of-the-power-of-all-subsequences]
 = 3082. Find the Sum of the Power of All Subsequences
 
-https://leetcode.com/problems/find-the-sum-of-the-power-of-all-subsequences/[LeetCode - 3082. Find the Sum of the Power of All Subsequences ^]
+{leetcode}/problems/find-the-sum-of-the-power-of-all-subsequences/[LeetCode - 3082. Find the Sum of the Power of All Subsequences ^]
 
 You are given an integer array `nums` of length `n` and a *positive* integer `k`.
 

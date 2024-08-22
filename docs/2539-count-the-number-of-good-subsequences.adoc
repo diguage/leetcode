@@ -1,7 +1,7 @@
 [#2539-count-the-number-of-good-subsequences]
 = 2539. Count the Number of Good Subsequences
 
-https://leetcode.com/problems/count-the-number-of-good-subsequences/[LeetCode - 2539. Count the Number of Good Subsequences ^]
+{leetcode}/problems/count-the-number-of-good-subsequences/[LeetCode - 2539. Count the Number of Good Subsequences ^]
 
 
 

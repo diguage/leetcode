@@ -1,7 +1,7 @@
 [#3100-water-bottles-ii]
 = 3100. Water Bottles II
 
-https://leetcode.com/problems/water-bottles-ii/[LeetCode - 3100. Water Bottles II ^]
+{leetcode}/problems/water-bottles-ii/[LeetCode - 3100. Water Bottles II ^]
 
 You are given two integers `numBottles` and `numExchange`.
 

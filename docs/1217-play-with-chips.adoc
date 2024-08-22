@@ -1,7 +1,7 @@
 [#1217-play-with-chips]
 = 1217. Play with Chips
 
-https://leetcode.com/problems/play-with-chips/[LeetCode - Play with Chips^]
+{leetcode}/problems/play-with-chips/[LeetCode - Play with Chips^]
 
 There are some chips, and the i-th chip is at position `chips[i]`.
 

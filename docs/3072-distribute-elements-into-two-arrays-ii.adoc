@@ -1,7 +1,7 @@
 [#3072-distribute-elements-into-two-arrays-ii]
 = 3072. Distribute Elements Into Two Arrays II
 
-https://leetcode.com/problems/distribute-elements-into-two-arrays-ii/[LeetCode - 3072. Distribute Elements Into Two Arrays II ^]
+{leetcode}/problems/distribute-elements-into-two-arrays-ii/[LeetCode - 3072. Distribute Elements Into Two Arrays II ^]
 
 You are given a *1-indexed* array of integers `nums` of length `n`.
 

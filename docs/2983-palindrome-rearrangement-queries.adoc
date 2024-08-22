@@ -1,7 +1,7 @@
 [#2983-palindrome-rearrangement-queries]
 = 2983. Palindrome Rearrangement Queries
 
-https://leetcode.com/problems/palindrome-rearrangement-queries/[LeetCode - 2983. Palindrome Rearrangement Queries ^]
+{leetcode}/problems/palindrome-rearrangement-queries/[LeetCode - 2983. Palindrome Rearrangement Queries ^]
 
 You are given a *0-indexed* string `s` having an *even* length `n`.
 

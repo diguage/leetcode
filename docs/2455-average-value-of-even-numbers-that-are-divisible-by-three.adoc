@@ -1,7 +1,7 @@
 [#2455-average-value-of-even-numbers-that-are-divisible-by-three]
 = 2455. Average Value of Even Numbers That Are Divisible by Three
 
-https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/[LeetCode - 2455. Average Value of Even Numbers That Are Divisible by Three ^]
+{leetcode}/problems/average-value-of-even-numbers-that-are-divisible-by-three/[LeetCode - 2455. Average Value of Even Numbers That Are Divisible by Three ^]
 
 Given an integer array `nums` of *positive* integers, return _the average value of all even integers that are divisible by_ `3`_._
 

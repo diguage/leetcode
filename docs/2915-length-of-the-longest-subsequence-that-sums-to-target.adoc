@@ -1,7 +1,7 @@
 [#2915-length-of-the-longest-subsequence-that-sums-to-target]
 = 2915. Length of the Longest Subsequence That Sums to Target
 
-https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target/[LeetCode - 2915. Length of the Longest Subsequence That Sums to Target ^]
+{leetcode}/problems/length-of-the-longest-subsequence-that-sums-to-target/[LeetCode - 2915. Length of the Longest Subsequence That Sums to Target ^]
 
 You are given a *0-indexed* array of integers `nums`, and an integer `target`.
 

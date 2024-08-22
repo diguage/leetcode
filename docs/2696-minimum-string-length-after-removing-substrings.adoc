@@ -1,7 +1,7 @@
 [#2696-minimum-string-length-after-removing-substrings]
 = 2696. Minimum String Length After Removing Substrings
 
-https://leetcode.com/problems/minimum-string-length-after-removing-substrings/[LeetCode - 2696. Minimum String Length After Removing Substrings ^]
+{leetcode}/problems/minimum-string-length-after-removing-substrings/[LeetCode - 2696. Minimum String Length After Removing Substrings ^]
 
 You are given a string `s` consisting only of *uppercase* English letters.
 

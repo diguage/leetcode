@@ -1,7 +1,7 @@
 [#0195-tenth-line]
 = 195. Tenth Line
 
-https://leetcode.com/problems/tenth-line/[LeetCode - Tenth Line^]
+{leetcode}/problems/tenth-line/[LeetCode - Tenth Line^]
 
 Given a text file `file.txt`, print just the 10th line of the file.
 

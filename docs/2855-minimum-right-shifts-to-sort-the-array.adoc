@@ -1,7 +1,7 @@
 [#2855-minimum-right-shifts-to-sort-the-array]
 = 2855. Minimum Right Shifts to Sort the Array
 
-https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/[LeetCode - 2855. Minimum Right Shifts to Sort the Array ^]
+{leetcode}/problems/minimum-right-shifts-to-sort-the-array/[LeetCode - 2855. Minimum Right Shifts to Sort the Array ^]
 
 You are given a *0-indexed* array `nums` of length `n` containing *distinct* positive integers. Return _the *minimum* number of *right shifts* required to sort _`nums`_ and _`-1`_ if this is not possible._
 

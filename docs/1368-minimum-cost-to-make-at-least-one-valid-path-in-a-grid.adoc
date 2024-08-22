@@ -1,7 +1,7 @@
 [#1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid]
 = 1368. Minimum Cost to Make at Least One Valid Path in a Grid
 
-https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/[LeetCode - 1368. Minimum Cost to Make at Least One Valid Path in a Grid ^]
+{leetcode}/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/[LeetCode - 1368. Minimum Cost to Make at Least One Valid Path in a Grid ^]
 
 Given an `m x n` grid. Each cell of the grid has a sign pointing to the next cell you should visit if you are currently in this cell. The sign of `grid[i][j]` can be:
 

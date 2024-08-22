@@ -1,7 +1,7 @@
 [#1728-cat-and-mouse-ii]
 = 1728. Cat and Mouse II
 
-https://leetcode.com/problems/cat-and-mouse-ii/[LeetCode - 1728. Cat and Mouse II ^]
+{leetcode}/problems/cat-and-mouse-ii/[LeetCode - 1728. Cat and Mouse II ^]
 
 A game is played by a cat and a mouse named Cat and Mouse.
 

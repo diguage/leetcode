@@ -1,7 +1,7 @@
 [#2076-process-restricted-friend-requests]
 = 2076. Process Restricted Friend Requests
 
-https://leetcode.com/problems/process-restricted-friend-requests/[LeetCode - 2076. Process Restricted Friend Requests ^]
+{leetcode}/problems/process-restricted-friend-requests/[LeetCode - 2076. Process Restricted Friend Requests ^]
 
 You are given an integer `n` indicating the number of people in a network. Each person is labeled from `0` to `n - 1`.
 

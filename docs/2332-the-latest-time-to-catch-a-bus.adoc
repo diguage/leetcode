@@ -1,7 +1,7 @@
 [#2332-the-latest-time-to-catch-a-bus]
 = 2332. The Latest Time to Catch a Bus
 
-https://leetcode.com/problems/the-latest-time-to-catch-a-bus/[LeetCode - 2332. The Latest Time to Catch a Bus ^]
+{leetcode}/problems/the-latest-time-to-catch-a-bus/[LeetCode - 2332. The Latest Time to Catch a Bus ^]
 
 You are given a *0-indexed* integer array `buses` of length `n`, where `buses[i]` represents the departure time of the `i^th^` bus. You are also given a *0-indexed* integer array `passengers` of length `m`, where `passengers[j]` represents the arrival time of the `j^th^` passenger. All bus departure times are unique. All passenger arrival times are unique.
 

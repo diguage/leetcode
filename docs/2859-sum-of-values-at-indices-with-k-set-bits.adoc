@@ -1,7 +1,7 @@
 [#2859-sum-of-values-at-indices-with-k-set-bits]
 = 2859. Sum of Values at Indices With K Set Bits
 
-https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/[LeetCode - 2859. Sum of Values at Indices With K Set Bits ^]
+{leetcode}/problems/sum-of-values-at-indices-with-k-set-bits/[LeetCode - 2859. Sum of Values at Indices With K Set Bits ^]
 
 You are given a *0-indexed* integer array `nums` and an integer `k`.
 

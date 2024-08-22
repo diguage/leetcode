@@ -1,7 +1,7 @@
 [#2224-minimum-number-of-operations-to-convert-time]
 = 2224. Minimum Number of Operations to Convert Time
 
-https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/[LeetCode - 2224. Minimum Number of Operations to Convert Time ^]
+{leetcode}/problems/minimum-number-of-operations-to-convert-time/[LeetCode - 2224. Minimum Number of Operations to Convert Time ^]
 
 You are given two strings `current` and `correct` representing two *24-hour times*.
 

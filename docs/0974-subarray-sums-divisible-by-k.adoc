@@ -1,7 +1,7 @@
 [#0974-subarray-sums-divisible-by-k]
 = 974. Subarray Sums Divisible by K
 
-https://leetcode.com/problems/subarray-sums-divisible-by-k/[LeetCode - Subarray Sums Divisible by K^]
+{leetcode}/problems/subarray-sums-divisible-by-k/[LeetCode - Subarray Sums Divisible by K^]
 
 Given an array `A` of integers, return the number of (contiguous, non-empty) subarrays that have a sum divisible by `K`.
 

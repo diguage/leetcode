@@ -1,7 +1,7 @@
 [#1476-subrectangle-queries]
 = 1476. Subrectangle Queries
 
-https://leetcode.com/problems/subrectangle-queries/[LeetCode - 1476. Subrectangle Queries ^]
+{leetcode}/problems/subrectangle-queries/[LeetCode - 1476. Subrectangle Queries ^]
 
 Implement the class `SubrectangleQueries` which receives a `rows x cols` rectangle as a matrix of integers in the constructor and supports two methods:
 

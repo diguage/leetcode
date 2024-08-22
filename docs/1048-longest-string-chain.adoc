@@ -1,7 +1,7 @@
 [#1048-longest-string-chain]
 = 1048. Longest String Chain
 
-https://leetcode.com/problems/longest-string-chain/[LeetCode - Longest String Chain^]
+{leetcode}/problems/longest-string-chain/[LeetCode - Longest String Chain^]
 
 Given a list of words, each word consists of English lowercase letters.
 

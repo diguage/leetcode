@@ -1,7 +1,7 @@
 [#2434-using-a-robot-to-print-the-lexicographically-smallest-string]
 = 2434. Using a Robot to Print the Lexicographically Smallest String
 
-https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/[LeetCode - 2434. Using a Robot to Print the Lexicographically Smallest String ^]
+{leetcode}/problems/using-a-robot-to-print-the-lexicographically-smallest-string/[LeetCode - 2434. Using a Robot to Print the Lexicographically Smallest String ^]
 
 You are given a string `s` and a robot that currently holds an empty string `t`. Apply one of the following operations until `s` and `t` *are both empty*:
 

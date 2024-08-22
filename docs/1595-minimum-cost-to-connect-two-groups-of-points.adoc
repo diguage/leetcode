@@ -1,7 +1,7 @@
 [#1595-minimum-cost-to-connect-two-groups-of-points]
 = 1595. Minimum Cost to Connect Two Groups of Points
 
-https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points/[LeetCode - 1595. Minimum Cost to Connect Two Groups of Points ^]
+{leetcode}/problems/minimum-cost-to-connect-two-groups-of-points/[LeetCode - 1595. Minimum Cost to Connect Two Groups of Points ^]
 
 You are given two groups of points where the first group has `size<sub>1</sub>` points, the second group has `size<sub>2</sub>` points, and `size<sub>1</sub> >= size<sub>2</sub>`.
 

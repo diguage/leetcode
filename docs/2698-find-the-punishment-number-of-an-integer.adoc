@@ -1,7 +1,7 @@
 [#2698-find-the-punishment-number-of-an-integer]
 = 2698. Find the Punishment Number of an Integer
 
-https://leetcode.com/problems/find-the-punishment-number-of-an-integer/[LeetCode - 2698. Find the Punishment Number of an Integer ^]
+{leetcode}/problems/find-the-punishment-number-of-an-integer/[LeetCode - 2698. Find the Punishment Number of an Integer ^]
 
 Given a positive integer `n`, return _the *punishment number*_ of `n`.
 

@@ -1,7 +1,7 @@
 [#2295-replace-elements-in-an-array]
 = 2295. Replace Elements in an Array
 
-https://leetcode.com/problems/replace-elements-in-an-array/[LeetCode - 2295. Replace Elements in an Array ^]
+{leetcode}/problems/replace-elements-in-an-array/[LeetCode - 2295. Replace Elements in an Array ^]
 
 You are given a *0-indexed* array `nums` that consists of `n` *distinct* positive integers. Apply `m` operations to this array, where in the `i^th^` operation you replace the number `operations[i][0]` with `operations[i][1]`.
 

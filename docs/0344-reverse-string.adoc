@@ -1,9 +1,9 @@
 [#0344-reverse-string]
 = 344. Reverse String
 
-https://leetcode.com/problems/reverse-string/[LeetCode - Reverse String^]
+{leetcode}/problems/reverse-string/[LeetCode - Reverse String^]
 
-这个跟 https://leetcode.com/problems/valid-palindrome/[Valid Palindrome - LeetCode^] 的思路类似，都是"左右夹击"。
+这个跟 {leetcode}/problems/valid-palindrome/[Valid Palindrome - LeetCode^] 的思路类似，都是"左右夹击"。
 
 Write a function that reverses a string. The input string is given as an array of characters `char[]`.
 

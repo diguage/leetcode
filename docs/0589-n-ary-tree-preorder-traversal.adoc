@@ -1,7 +1,7 @@
 [#0589-n-ary-tree-preorder-traversal]
 = 589. N-ary Tree Preorder Traversal
 
-https://leetcode.com/problems/n-ary-tree-preorder-traversal/[LeetCode - N-ary Tree Preorder Traversal^]
+{leetcode}/problems/n-ary-tree-preorder-traversal/[LeetCode - N-ary Tree Preorder Traversal^]
 
 Given an n-ary tree, return the _preorder_ traversal of its nodes' values.
 

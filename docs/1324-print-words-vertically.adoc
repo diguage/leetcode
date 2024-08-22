@@ -1,7 +1,7 @@
 [#1324-print-words-vertically]
 = 1324. Print Words Vertically
 
-https://leetcode.com/problems/print-words-vertically/[LeetCode - Print Words Vertically^]
+{leetcode}/problems/print-words-vertically/[LeetCode - Print Words Vertically^]
 
 Given a string `s`. Return all the words vertically in the same order in which they appear in `s`.
 

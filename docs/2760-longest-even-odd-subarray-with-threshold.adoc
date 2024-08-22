@@ -1,7 +1,7 @@
 [#2760-longest-even-odd-subarray-with-threshold]
 = 2760. Longest Even Odd Subarray With Threshold
 
-https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/[LeetCode - 2760. Longest Even Odd Subarray With Threshold ^]
+{leetcode}/problems/longest-even-odd-subarray-with-threshold/[LeetCode - 2760. Longest Even Odd Subarray With Threshold ^]
 
 You are given a *0-indexed* integer array `nums` and an integer `threshold`.
 

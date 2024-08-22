@@ -1,7 +1,7 @@
 [#0833-find-and-replace-in-string]
 = 833. Find And Replace in String
 
-https://leetcode.com/problems/find-and-replace-in-string/[LeetCode - Find And Replace in String^]
+{leetcode}/problems/find-and-replace-in-string/[LeetCode - Find And Replace in String^]
 
 To some string `S`, we will perform some replacement operations that replace groups of letters with new ones (not necessarily the same size).
 

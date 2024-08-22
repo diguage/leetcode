@@ -1,7 +1,7 @@
 [#2038-remove-colored-pieces-if-both-neighbors-are-the-same-color]
 = 2038. Remove Colored Pieces if Both Neighbors are the Same Color
 
-https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/[LeetCode - 2038. Remove Colored Pieces if Both Neighbors are the Same Color ^]
+{leetcode}/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/[LeetCode - 2038. Remove Colored Pieces if Both Neighbors are the Same Color ^]
 
 There are `n` pieces arranged in a line, and each piece is colored either by `'A'` or by `'B'`. You are given a string `colors` of length `n` where `colors[i]` is the color of the `i^th^` piece.
 

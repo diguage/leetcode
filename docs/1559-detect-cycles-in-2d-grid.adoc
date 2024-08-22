@@ -1,7 +1,7 @@
 [#1559-detect-cycles-in-2d-grid]
 = 1559. Detect Cycles in 2D Grid
 
-https://leetcode.com/problems/detect-cycles-in-2d-grid/[LeetCode - 1559. Detect Cycles in 2D Grid ^]
+{leetcode}/problems/detect-cycles-in-2d-grid/[LeetCode - 1559. Detect Cycles in 2D Grid ^]
 
 Given a 2D array of characters `grid` of size `m x n`, you need to find if there exists any cycle consisting of the *same value* in `grid`.
 

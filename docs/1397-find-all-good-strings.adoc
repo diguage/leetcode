@@ -1,7 +1,7 @@
 [#1397-find-all-good-strings]
 = 1397. Find All Good Strings
 
-https://leetcode.com/problems/find-all-good-strings/[LeetCode - 1397. Find All Good Strings ^]
+{leetcode}/problems/find-all-good-strings/[LeetCode - 1397. Find All Good Strings ^]
 
 Given the strings `s1` and `s2` of size `n` and the string `evil`, return _the number of *good* strings_.
 

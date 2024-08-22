@@ -1,7 +1,7 @@
 [#1467-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls]
 = 1467. Probability of a Two Boxes Having The Same Number of Distinct Balls
 
-https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/[LeetCode - 1467. Probability of a Two Boxes Having The Same Number of Distinct Balls ^]
+{leetcode}/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/[LeetCode - 1467. Probability of a Two Boxes Having The Same Number of Distinct Balls ^]
 
 Given `2n` balls of `k` distinct colors. You will be given an integer array `balls` of size `k` where `balls[i]` is the number of balls of color `i`.
 

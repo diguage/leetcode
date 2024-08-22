@@ -1,7 +1,7 @@
 [#2836-maximize-value-of-function-in-a-ball-passing-game]
 = 2836. Maximize Value of Function in a Ball Passing Game
 
-https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/[LeetCode - 2836. Maximize Value of Function in a Ball Passing Game ^]
+{leetcode}/problems/maximize-value-of-function-in-a-ball-passing-game/[LeetCode - 2836. Maximize Value of Function in a Ball Passing Game ^]
 
 You are given an integer array `receiver` of length `n` and an integer `k`. `n` players are playing a ball-passing game.
 

@@ -1,7 +1,7 @@
 [#1713-minimum-operations-to-make-a-subsequence]
 = 1713. Minimum Operations to Make a Subsequence
 
-https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/[LeetCode - 1713. Minimum Operations to Make a Subsequence ^]
+{leetcode}/problems/minimum-operations-to-make-a-subsequence/[LeetCode - 1713. Minimum Operations to Make a Subsequence ^]
 
 You are given an array `target` that consists of *distinct* integers and another integer array `arr` that *can* have duplicates.
 

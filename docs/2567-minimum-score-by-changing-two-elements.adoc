@@ -1,7 +1,7 @@
 [#2567-minimum-score-by-changing-two-elements]
 = 2567. Minimum Score by Changing Two Elements
 
-https://leetcode.com/problems/minimum-score-by-changing-two-elements/[LeetCode - 2567. Minimum Score by Changing Two Elements ^]
+{leetcode}/problems/minimum-score-by-changing-two-elements/[LeetCode - 2567. Minimum Score by Changing Two Elements ^]
 
 You are given an integer array `nums`.
 

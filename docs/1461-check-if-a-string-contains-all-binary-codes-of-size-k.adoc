@@ -1,7 +1,7 @@
 [#1461-check-if-a-string-contains-all-binary-codes-of-size-k]
 = 1461. Check If a String Contains All Binary Codes of Size K
 
-https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/[LeetCode - 1461. Check If a String Contains All Binary Codes of Size K ^]
+{leetcode}/problems/check-if-a-string-contains-all-binary-codes-of-size-k/[LeetCode - 1461. Check If a String Contains All Binary Codes of Size K ^]
 
 Given a binary string `s` and an integer `k`, return `true` _if every binary code of length_ `k` _is a substring of_ `s`. Otherwise, return `false`.
 

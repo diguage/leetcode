@@ -1,7 +1,7 @@
 [#2447-number-of-subarrays-with-gcd-equal-to-k]
 = 2447. Number of Subarrays With GCD Equal to K
 
-https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/[LeetCode - 2447. Number of Subarrays With GCD Equal to K ^]
+{leetcode}/problems/number-of-subarrays-with-gcd-equal-to-k/[LeetCode - 2447. Number of Subarrays With GCD Equal to K ^]
 
 Given an integer array `nums` and an integer `k`, return _the number of *subarrays* of _`nums`_ where the greatest common divisor of the subarray's elements is _`k`.
 

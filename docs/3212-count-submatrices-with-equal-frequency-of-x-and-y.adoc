@@ -1,7 +1,7 @@
 [#3212-count-submatrices-with-equal-frequency-of-x-and-y]
 = 3212. Count Submatrices With Equal Frequency of X and Y
 
-https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/[LeetCode - 3212. Count Submatrices With Equal Frequency of X and Y ^]
+{leetcode}/problems/count-submatrices-with-equal-frequency-of-x-and-y/[LeetCode - 3212. Count Submatrices With Equal Frequency of X and Y ^]
 
 Given a 2D character matrix `grid`, where `grid[i][j]` is either `'X'`, `'Y'`, or `'.'`, return the number of <span data-keyword="submatrix">submatrices that contain:
 

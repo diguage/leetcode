@@ -1,7 +1,7 @@
 [#2191-sort-the-jumbled-numbers]
 = 2191. Sort the Jumbled Numbers
 
-https://leetcode.com/problems/sort-the-jumbled-numbers/[LeetCode - 2191. Sort the Jumbled Numbers ^]
+{leetcode}/problems/sort-the-jumbled-numbers/[LeetCode - 2191. Sort the Jumbled Numbers ^]
 
 You are given a *0-indexed* integer array `mapping` which represents the mapping rule of a shuffled decimal system. `mapping[i] = j` means digit `i` should be mapped to digit `j` in this system.
 

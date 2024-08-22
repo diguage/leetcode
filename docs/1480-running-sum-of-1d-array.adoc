@@ -1,7 +1,7 @@
 [#1480-running-sum-of-1d-array]
 = 1480. Running Sum of 1d Array
 
-https://leetcode.com/problems/running-sum-of-1d-array/[LeetCode - 1480. Running Sum of 1d Array ^]
+{leetcode}/problems/running-sum-of-1d-array/[LeetCode - 1480. Running Sum of 1d Array ^]
 
 Given an array `nums`. We define a running sum of an array as `runningSum[i] = sum(nums[0]&hellip;nums[i])`.
 

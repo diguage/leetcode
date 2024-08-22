@@ -1,7 +1,7 @@
 [#2274-maximum-consecutive-floors-without-special-floors]
 = 2274. Maximum Consecutive Floors Without Special Floors
 
-https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/[LeetCode - 2274. Maximum Consecutive Floors Without Special Floors ^]
+{leetcode}/problems/maximum-consecutive-floors-without-special-floors/[LeetCode - 2274. Maximum Consecutive Floors Without Special Floors ^]
 
 Alice manages a company and has rented some floors of a building as office space. Alice has decided some of these floors should be *special floors*, used for relaxation only.
 

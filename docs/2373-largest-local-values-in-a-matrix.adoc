@@ -1,7 +1,7 @@
 [#2373-largest-local-values-in-a-matrix]
 = 2373. Largest Local Values in a Matrix
 
-https://leetcode.com/problems/largest-local-values-in-a-matrix/[LeetCode - 2373. Largest Local Values in a Matrix ^]
+{leetcode}/problems/largest-local-values-in-a-matrix/[LeetCode - 2373. Largest Local Values in a Matrix ^]
 
 You are given an `n x n` integer matrix `grid`.
 

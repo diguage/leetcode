@@ -1,7 +1,7 @@
 [#1389-create-target-array-in-the-given-order]
 = 1389. Create Target Array in the Given Order
 
-https://leetcode.com/problems/create-target-array-in-the-given-order/[LeetCode - 1389. Create Target Array in the Given Order ^]
+{leetcode}/problems/create-target-array-in-the-given-order/[LeetCode - 1389. Create Target Array in the Given Order ^]
 
 Given two arrays of integers `nums` and `index`. Your task is to create _target_ array under the following rules:
 

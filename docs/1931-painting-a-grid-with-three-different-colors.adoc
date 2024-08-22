@@ -1,7 +1,7 @@
 [#1931-painting-a-grid-with-three-different-colors]
 = 1931. Painting a Grid With Three Different Colors
 
-https://leetcode.com/problems/painting-a-grid-with-three-different-colors/[LeetCode - 1931. Painting a Grid With Three Different Colors ^]
+{leetcode}/problems/painting-a-grid-with-three-different-colors/[LeetCode - 1931. Painting a Grid With Three Different Colors ^]
 
 You are given two integers `m` and `n`. Consider an `m x n` grid where each cell is initially white. You can paint each cell *red*, *green*, or *blue*. All cells *must* be painted.
 

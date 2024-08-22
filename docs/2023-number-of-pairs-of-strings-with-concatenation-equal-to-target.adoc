@@ -1,7 +1,7 @@
 [#2023-number-of-pairs-of-strings-with-concatenation-equal-to-target]
 = 2023. Number of Pairs of Strings With Concatenation Equal to Target
 
-https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/[LeetCode - 2023. Number of Pairs of Strings With Concatenation Equal to Target ^]
+{leetcode}/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/[LeetCode - 2023. Number of Pairs of Strings With Concatenation Equal to Target ^]
 
 Given an array of *digit* strings `nums` and a *digit* string `target`, return _the number of pairs of indices _`(i, j)`_ (where _`i != j`_) such that the *concatenation* of _`nums[i] + nums[j]`_ equals _`target`.
 

@@ -1,7 +1,7 @@
 [#1708-largest-subarray-length-k]
 = 1708. Largest Subarray Length K
 
-https://leetcode.com/problems/largest-subarray-length-k/[LeetCode - 1708. Largest Subarray Length K ^]
+{leetcode}/problems/largest-subarray-length-k/[LeetCode - 1708. Largest Subarray Length K ^]
 
 
 

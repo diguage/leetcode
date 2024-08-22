@@ -1,7 +1,7 @@
 [#1534-count-good-triplets]
 = 1534. Count Good Triplets
 
-https://leetcode.com/problems/count-good-triplets/[LeetCode - 1534. Count Good Triplets ^]
+{leetcode}/problems/count-good-triplets/[LeetCode - 1534. Count Good Triplets ^]
 
 Given an array of integers `arr`, and three integers `a`, `b` and `c`. You need to find the number of good triplets.
 

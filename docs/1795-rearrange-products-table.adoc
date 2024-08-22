@@ -1,7 +1,7 @@
 [#1795-rearrange-products-table]
 = 1795. Rearrange Products Table
 
-https://leetcode.com/problems/rearrange-products-table/[LeetCode - 1795. Rearrange Products Table ^]
+{leetcode}/problems/rearrange-products-table/[LeetCode - 1795. Rearrange Products Table ^]
 
 Table: `Products`
 

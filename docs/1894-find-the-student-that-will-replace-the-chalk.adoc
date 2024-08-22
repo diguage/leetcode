@@ -1,7 +1,7 @@
 [#1894-find-the-student-that-will-replace-the-chalk]
 = 1894. Find the Student that Will Replace the Chalk
 
-https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/[LeetCode - 1894. Find the Student that Will Replace the Chalk ^]
+{leetcode}/problems/find-the-student-that-will-replace-the-chalk/[LeetCode - 1894. Find the Student that Will Replace the Chalk ^]
 
 There are `n` students in a class numbered from `0` to `n - 1`. The teacher will give each student a problem starting with the student number `0`, then the student number `1`, and so on until the teacher reaches the student number `n - 1`. After that, the teacher will restart the process, starting with the student number `0` again.
 

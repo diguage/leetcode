@@ -1,7 +1,7 @@
 [#2306-naming-a-company]
 = 2306. Naming a Company
 
-https://leetcode.com/problems/naming-a-company/[LeetCode - 2306. Naming a Company ^]
+{leetcode}/problems/naming-a-company/[LeetCode - 2306. Naming a Company ^]
 
 You are given an array of strings `ideas` that represents a list of names to be used in the process of naming a company. The process of naming a company is as follows:
 

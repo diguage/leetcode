@@ -1,7 +1,7 @@
 [#0122-best-time-to-buy-and-sell-stock-ii]
 = 122. Best Time to Buy and Sell Stock II
 
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/[LeetCode - Best Time to Buy and Sell Stock II^]
+{leetcode}/problems/best-time-to-buy-and-sell-stock-ii/[LeetCode - Best Time to Buy and Sell Stock II^]
 
 Say you have an array for which the _i^th^_ element is the price of a given stock on day _i_.
 

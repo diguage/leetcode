@@ -1,7 +1,7 @@
 [#2580-count-ways-to-group-overlapping-ranges]
 = 2580. Count Ways to Group Overlapping Ranges
 
-https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/[LeetCode - 2580. Count Ways to Group Overlapping Ranges ^]
+{leetcode}/problems/count-ways-to-group-overlapping-ranges/[LeetCode - 2580. Count Ways to Group Overlapping Ranges ^]
 
 You are given a 2D integer array `ranges` where `ranges[i] = [start<sub>i</sub>, end<sub>i</sub>]` denotes that all integers between `start<sub>i</sub>` and `end<sub>i</sub>` (both *inclusive*) are contained in the `i^th^` range.
 

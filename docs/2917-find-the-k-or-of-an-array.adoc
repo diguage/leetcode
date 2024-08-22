@@ -1,7 +1,7 @@
 [#2917-find-the-k-or-of-an-array]
 = 2917. Find the K-or of an Array
 
-https://leetcode.com/problems/find-the-k-or-of-an-array/[LeetCode - 2917. Find the K-or of an Array ^]
+{leetcode}/problems/find-the-k-or-of-an-array/[LeetCode - 2917. Find the K-or of an Array ^]
 
 You are given an integer array `nums`, and an integer `k`. Let's introduce *K-or* operation by extending the standard bitwise OR. In K-or, a bit position in the result is set to `1` if at least `k` numbers in `nums` have a `1` in that position.
 

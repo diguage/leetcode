@@ -1,7 +1,7 @@
 [#2146-k-highest-ranked-items-within-a-price-range]
 = 2146. K Highest Ranked Items Within a Price Range
 
-https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/[LeetCode - 2146. K Highest Ranked Items Within a Price Range ^]
+{leetcode}/problems/k-highest-ranked-items-within-a-price-range/[LeetCode - 2146. K Highest Ranked Items Within a Price Range ^]
 
 You are given a *0-indexed* 2D integer array `grid` of size `m x n` that represents a map of the items in a shop. The integers in the grid represent the following:
 

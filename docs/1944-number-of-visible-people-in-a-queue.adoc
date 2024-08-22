@@ -1,7 +1,7 @@
 [#1944-number-of-visible-people-in-a-queue]
 = 1944. Number of Visible People in a Queue
 
-https://leetcode.com/problems/number-of-visible-people-in-a-queue/[LeetCode - 1944. Number of Visible People in a Queue ^]
+{leetcode}/problems/number-of-visible-people-in-a-queue/[LeetCode - 1944. Number of Visible People in a Queue ^]
 
 There are `n` people standing in a queue, and they numbered from `0` to `n - 1` in *left to right* order. You are given an array `heights` of *distinct* integers where `heights[i]` represents the height of the `i^th^` person.
 

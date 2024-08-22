@@ -1,7 +1,7 @@
 [#0630-course-schedule-iii]
 = 630. Course Schedule III
 
-https://leetcode.com/problems/course-schedule-iii/[LeetCode - Course Schedule III^]
+{leetcode}/problems/course-schedule-iii/[LeetCode - Course Schedule III^]
 
 There are `n` different online courses numbered from `1` to `n`. Each course has some duration(course length) `t` and closed on `d~th~` day. A course should be taken *continuously* for `t` days and must be finished before or on the `d~th~` day. You will start at the `1~st~` day.
 

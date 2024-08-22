@@ -1,7 +1,7 @@
 [#2188-minimum-time-to-finish-the-race]
 = 2188. Minimum Time to Finish the Race
 
-https://leetcode.com/problems/minimum-time-to-finish-the-race/[LeetCode - 2188. Minimum Time to Finish the Race ^]
+{leetcode}/problems/minimum-time-to-finish-the-race/[LeetCode - 2188. Minimum Time to Finish the Race ^]
 
 You are given a *0-indexed* 2D integer array `tires` where `tires[i] = [f<sub>i</sub>, r<sub>i</sub>]` indicates that the `i^th^` tire can finish its `x^th^` successive lap in `f<sub>i</sub> * r<sub>i</sub>^(x-1)^` seconds.
 

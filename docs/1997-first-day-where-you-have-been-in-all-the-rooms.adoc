@@ -1,7 +1,7 @@
 [#1997-first-day-where-you-have-been-in-all-the-rooms]
 = 1997. First Day Where You Have Been in All the Rooms
 
-https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/[LeetCode - 1997. First Day Where You Have Been in All the Rooms ^]
+{leetcode}/problems/first-day-where-you-have-been-in-all-the-rooms/[LeetCode - 1997. First Day Where You Have Been in All the Rooms ^]
 
 There are `n` rooms you need to visit, labeled from `0` to `n - 1`. Each day is labeled, starting from `0`. You will go in and visit one room a day.
 

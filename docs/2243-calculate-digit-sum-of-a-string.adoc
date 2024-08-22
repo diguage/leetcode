@@ -1,7 +1,7 @@
 [#2243-calculate-digit-sum-of-a-string]
 = 2243. Calculate Digit Sum of a String
 
-https://leetcode.com/problems/calculate-digit-sum-of-a-string/[LeetCode - 2243. Calculate Digit Sum of a String ^]
+{leetcode}/problems/calculate-digit-sum-of-a-string/[LeetCode - 2243. Calculate Digit Sum of a String ^]
 
 You are given a string `s` consisting of digits and an integer `k`.
 

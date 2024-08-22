@@ -1,7 +1,7 @@
 [#2402-meeting-rooms-iii]
 = 2402. Meeting Rooms III
 
-https://leetcode.com/problems/meeting-rooms-iii/[LeetCode - 2402. Meeting Rooms III ^]
+{leetcode}/problems/meeting-rooms-iii/[LeetCode - 2402. Meeting Rooms III ^]
 
 You are given an integer `n`. There are `n` rooms numbered from `0` to `n - 1`.
 

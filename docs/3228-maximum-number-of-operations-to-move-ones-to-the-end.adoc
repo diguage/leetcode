@@ -1,7 +1,7 @@
 [#3228-maximum-number-of-operations-to-move-ones-to-the-end]
 = 3228. Maximum Number of Operations to Move Ones to the End
 
-https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/[LeetCode - 3228. Maximum Number of Operations to Move Ones to the End ^]
+{leetcode}/problems/maximum-number-of-operations-to-move-ones-to-the-end/[LeetCode - 3228. Maximum Number of Operations to Move Ones to the End ^]
 
 You are given a <span data-keyword="binary-string">binary string `s`.
 

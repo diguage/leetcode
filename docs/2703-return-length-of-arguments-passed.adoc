@@ -1,7 +1,7 @@
 [#2703-return-length-of-arguments-passed]
 = 2703. Return Length of Arguments Passed
 
-https://leetcode.com/problems/return-length-of-arguments-passed/[LeetCode - 2703. Return Length of Arguments Passed ^]
+{leetcode}/problems/return-length-of-arguments-passed/[LeetCode - 2703. Return Length of Arguments Passed ^]
 
 Write a function `argumentsLength` that returns the count of arguments passed to it.
  

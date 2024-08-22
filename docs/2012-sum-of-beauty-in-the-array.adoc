@@ -1,7 +1,7 @@
 [#2012-sum-of-beauty-in-the-array]
 = 2012. Sum of Beauty in the Array
 
-https://leetcode.com/problems/sum-of-beauty-in-the-array/[LeetCode - 2012. Sum of Beauty in the Array ^]
+{leetcode}/problems/sum-of-beauty-in-the-array/[LeetCode - 2012. Sum of Beauty in the Array ^]
 
 You are given a *0-indexed* integer array `nums`. For each index `i` (`1 <= i <= nums.length - 2`) the *beauty* of `nums[i]` equals:
 

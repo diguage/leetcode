@@ -1,7 +1,7 @@
 [#2425-bitwise-xor-of-all-pairings]
 = 2425. Bitwise XOR of All Pairings
 
-https://leetcode.com/problems/bitwise-xor-of-all-pairings/[LeetCode - 2425. Bitwise XOR of All Pairings ^]
+{leetcode}/problems/bitwise-xor-of-all-pairings/[LeetCode - 2425. Bitwise XOR of All Pairings ^]
 
 You are given two *0-indexed* arrays, `nums1` and `nums2`, consisting of non-negative integers. There exists another array, `nums3`, which contains the bitwise XOR of *all pairings* of integers between `nums1` and `nums2` (every integer in `nums1` is paired with every integer in `nums2` *exactly once*).
 

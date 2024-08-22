@@ -1,7 +1,7 @@
 [#2181-merge-nodes-in-between-zeros]
 = 2181. Merge Nodes in Between Zeros
 
-https://leetcode.com/problems/merge-nodes-in-between-zeros/[LeetCode - 2181. Merge Nodes in Between Zeros ^]
+{leetcode}/problems/merge-nodes-in-between-zeros/[LeetCode - 2181. Merge Nodes in Between Zeros ^]
 
 You are given the `head` of a linked list, which contains a series of integers *separated* by `0`'s. The *beginning* and *end* of the linked list will have `Node.val == 0`.
 

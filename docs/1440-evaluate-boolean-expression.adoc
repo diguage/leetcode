@@ -1,7 +1,7 @@
 [#1440-evaluate-boolean-expression]
 = 1440. Evaluate Boolean Expression
 
-https://leetcode.com/problems/evaluate-boolean-expression/[LeetCode - 1440. Evaluate Boolean Expression ^]
+{leetcode}/problems/evaluate-boolean-expression/[LeetCode - 1440. Evaluate Boolean Expression ^]
 
 
 

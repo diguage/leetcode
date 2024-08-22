@@ -1,7 +1,7 @@
 [#2651-calculate-delayed-arrival-time]
 = 2651. Calculate Delayed Arrival Time
 
-https://leetcode.com/problems/calculate-delayed-arrival-time/[LeetCode - 2651. Calculate Delayed Arrival Time ^]
+{leetcode}/problems/calculate-delayed-arrival-time/[LeetCode - 2651. Calculate Delayed Arrival Time ^]
 
 You are given a positive integer `arrivalTime` denoting the arrival time of a train in hours, and another positive integer `delayedTime` denoting the amount of delay in hours.
 

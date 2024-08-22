@@ -1,7 +1,7 @@
 [#2683-neighboring-bitwise-xor]
 = 2683. Neighboring Bitwise XOR
 
-https://leetcode.com/problems/neighboring-bitwise-xor/[LeetCode - 2683. Neighboring Bitwise XOR ^]
+{leetcode}/problems/neighboring-bitwise-xor/[LeetCode - 2683. Neighboring Bitwise XOR ^]
 
 A *0-indexed* array `derived` with length `n` is derived by computing the *bitwise XOR* (&oplus;) of adjacent values in a *binary array* `original` of length `n`.
 

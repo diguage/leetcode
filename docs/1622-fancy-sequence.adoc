@@ -1,7 +1,7 @@
 [#1622-fancy-sequence]
 = 1622. Fancy Sequence
 
-https://leetcode.com/problems/fancy-sequence/[LeetCode - 1622. Fancy Sequence ^]
+{leetcode}/problems/fancy-sequence/[LeetCode - 1622. Fancy Sequence ^]
 
 Write an API that generates fancy sequences using the `append`, `addAll`, and `multAll` operations.
 

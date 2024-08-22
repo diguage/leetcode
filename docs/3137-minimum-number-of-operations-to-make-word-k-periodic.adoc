@@ -1,7 +1,7 @@
 [#3137-minimum-number-of-operations-to-make-word-k-periodic]
 = 3137. Minimum Number of Operations to Make Word K-Periodic
 
-https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/[LeetCode - 3137. Minimum Number of Operations to Make Word K-Periodic ^]
+{leetcode}/problems/minimum-number-of-operations-to-make-word-k-periodic/[LeetCode - 3137. Minimum Number of Operations to Make Word K-Periodic ^]
 
 You are given a string `word` of size `n`, and an integer `k` such that `k` divides `n`.
 

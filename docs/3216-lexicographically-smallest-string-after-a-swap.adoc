@@ -1,7 +1,7 @@
 [#3216-lexicographically-smallest-string-after-a-swap]
 = 3216. Lexicographically Smallest String After a Swap
 
-https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/[LeetCode - 3216. Lexicographically Smallest String After a Swap ^]
+{leetcode}/problems/lexicographically-smallest-string-after-a-swap/[LeetCode - 3216. Lexicographically Smallest String After a Swap ^]
 
 Given a string `s` containing only digits, return the <span data-keyword="lexicographically-smaller-string">lexicographically smallest string that can be obtained after swapping *adjacent* digits in `s` with the same *parity* at most *once*.
 

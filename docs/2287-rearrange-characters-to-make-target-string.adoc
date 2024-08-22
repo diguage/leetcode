@@ -1,7 +1,7 @@
 [#2287-rearrange-characters-to-make-target-string]
 = 2287. Rearrange Characters to Make Target String
 
-https://leetcode.com/problems/rearrange-characters-to-make-target-string/[LeetCode - 2287. Rearrange Characters to Make Target String ^]
+{leetcode}/problems/rearrange-characters-to-make-target-string/[LeetCode - 2287. Rearrange Characters to Make Target String ^]
 
 You are given two *0-indexed* strings `s` and `target`. You can take some letters from `s` and rearrange them to form new strings.
 

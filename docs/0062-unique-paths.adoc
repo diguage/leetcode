@@ -1,7 +1,7 @@
 [#0062-unique-paths]
 = 62. Unique Paths
 
-https://leetcode.com/problems/unique-paths/[LeetCode - Unique Paths^]
+{leetcode}/problems/unique-paths/[LeetCode - Unique Paths^]
 
 A robot is located at the top-left corner of a _m_ x _n_ grid (marked 'Start' in the diagram below).
 

@@ -1,7 +1,7 @@
 [#0870-advantage-shuffle]
 = 870. Advantage Shuffle
 
-https://leetcode.com/problems/advantage-shuffle/[LeetCode - Advantage Shuffle^]
+{leetcode}/problems/advantage-shuffle/[LeetCode - Advantage Shuffle^]
 
 Given two arrays `A` and `B` of equal size, the _advantage of `A` with respect to `B`_ is the number of indices `i` for which `A[i] > B[i]`.
 

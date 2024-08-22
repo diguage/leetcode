@@ -1,7 +1,7 @@
 [#2150-find-all-lonely-numbers-in-the-array]
 = 2150. Find All Lonely Numbers in the Array
 
-https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/[LeetCode - 2150. Find All Lonely Numbers in the Array ^]
+{leetcode}/problems/find-all-lonely-numbers-in-the-array/[LeetCode - 2150. Find All Lonely Numbers in the Array ^]
 
 You are given an integer array `nums`. A number `x` is *lonely* when it appears only *once*, and no *adjacent* numbers (i.e. `x + 1` and `x - 1)` appear in the array.
 

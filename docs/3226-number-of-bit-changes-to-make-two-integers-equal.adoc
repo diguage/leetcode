@@ -1,7 +1,7 @@
 [#3226-number-of-bit-changes-to-make-two-integers-equal]
 = 3226. Number of Bit Changes to Make Two Integers Equal
 
-https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/[LeetCode - 3226. Number of Bit Changes to Make Two Integers Equal ^]
+{leetcode}/problems/number-of-bit-changes-to-make-two-integers-equal/[LeetCode - 3226. Number of Bit Changes to Make Two Integers Equal ^]
 
 You are given two positive integers `n` and `k`.
 

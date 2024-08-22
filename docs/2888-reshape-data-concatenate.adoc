@@ -1,7 +1,7 @@
 [#2888-reshape-data-concatenate]
 = 2888. Reshape Data: Concatenate
 
-https://leetcode.com/problems/reshape-data-concatenate/[LeetCode - 2888. Reshape Data: Concatenate ^]
+{leetcode}/problems/reshape-data-concatenate/[LeetCode - 2888. Reshape Data: Concatenate ^]
 
 [subs="verbatim,quotes"]
 ----

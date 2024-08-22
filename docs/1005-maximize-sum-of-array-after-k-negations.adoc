@@ -1,7 +1,7 @@
 [#1005-maximize-sum-of-array-after-k-negations]
 = 1005. Maximize Sum Of Array After K Negations
 
-https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/[LeetCode - Maximize Sum Of Array After K Negations^]
+{leetcode}/problems/maximize-sum-of-array-after-k-negations/[LeetCode - Maximize Sum Of Array After K Negations^]
 
 Given an array `A` of integers, we *must* modify the array in the following way: we choose an `i` and replace `A[i]` with `-A[i]`, and we repeat this process `K` times in total.  (We may choose the same index `i` multiple times.)
 

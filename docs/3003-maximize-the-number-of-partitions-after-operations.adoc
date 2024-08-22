@@ -1,7 +1,7 @@
 [#3003-maximize-the-number-of-partitions-after-operations]
 = 3003. Maximize the Number of Partitions After Operations
 
-https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/[LeetCode - 3003. Maximize the Number of Partitions After Operations ^]
+{leetcode}/problems/maximize-the-number-of-partitions-after-operations/[LeetCode - 3003. Maximize the Number of Partitions After Operations ^]
 
 You are given a string `s` and an integer `k`.
 

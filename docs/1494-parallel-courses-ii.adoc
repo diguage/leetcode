@@ -1,7 +1,7 @@
 [#1494-parallel-courses-ii]
 = 1494. Parallel Courses II
 
-https://leetcode.com/problems/parallel-courses-ii/[LeetCode - 1494. Parallel Courses II ^]
+{leetcode}/problems/parallel-courses-ii/[LeetCode - 1494. Parallel Courses II ^]
 
 You are given an integer `n`, which indicates that there are `n` courses labeled from `1` to `n`. You are also given an array `relations` where `relations[i] = [prevCourse<sub>i</sub>, nextCourse<sub>i</sub>]`, representing a prerequisite relationship between course `prevCourse<sub>i</sub>` and course `nextCourse<sub>i</sub>`: course `prevCourse<sub>i</sub>` has to be taken before course `nextCourse<sub>i</sub>`. Also, you are given the integer `k`.
 

@@ -1,7 +1,7 @@
 [#2713-maximum-strictly-increasing-cells-in-a-matrix]
 = 2713. Maximum Strictly Increasing Cells in a Matrix
 
-https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/[LeetCode - 2713. Maximum Strictly Increasing Cells in a Matrix ^]
+{leetcode}/problems/maximum-strictly-increasing-cells-in-a-matrix/[LeetCode - 2713. Maximum Strictly Increasing Cells in a Matrix ^]
 
 Given a *1-indexed* `m x n` integer matrix `mat`, you can select any cell in the matrix as your *starting cell*.
 

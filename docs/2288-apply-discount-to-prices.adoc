@@ -1,7 +1,7 @@
 [#2288-apply-discount-to-prices]
 = 2288. Apply Discount to Prices
 
-https://leetcode.com/problems/apply-discount-to-prices/[LeetCode - 2288. Apply Discount to Prices ^]
+{leetcode}/problems/apply-discount-to-prices/[LeetCode - 2288. Apply Discount to Prices ^]
 
 A *sentence* is a string of single-space separated words where each word can contain digits, lowercase letters, and the dollar sign `'$'`. A word represents a *price* if it is a sequence of digits preceded by a dollar sign.
 

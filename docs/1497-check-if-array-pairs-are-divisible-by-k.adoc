@@ -1,7 +1,7 @@
 [#1497-check-if-array-pairs-are-divisible-by-k]
 = 1497. Check If Array Pairs Are Divisible by k
 
-https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/[LeetCode - 1497. Check If Array Pairs Are Divisible by k ^]
+{leetcode}/problems/check-if-array-pairs-are-divisible-by-k/[LeetCode - 1497. Check If Array Pairs Are Divisible by k ^]
 
 Given an array of integers `arr` of even length `n` and an integer `k`.
 

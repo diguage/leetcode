@@ -1,7 +1,7 @@
 [#2050-parallel-courses-iii]
 = 2050. Parallel Courses III
 
-https://leetcode.com/problems/parallel-courses-iii/[LeetCode - 2050. Parallel Courses III ^]
+{leetcode}/problems/parallel-courses-iii/[LeetCode - 2050. Parallel Courses III ^]
 
 You are given an integer `n`, which indicates that there are `n` courses labeled from `1` to `n`. You are also given a 2D integer array `relations` where `relations[j] = [prevCourse<sub>j</sub>, nextCourse<sub>j</sub>]` denotes that course `prevCourse<sub>j</sub>` has to be completed *before* course `nextCourse<sub>j</sub>` (prerequisite relationship). Furthermore, you are given a *0-indexed* integer array `time` where `time[i]` denotes how many *months* it takes to complete the `(i+1)^th^` course.
 

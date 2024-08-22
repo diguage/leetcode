@@ -1,7 +1,7 @@
 [#1463-cherry-pickup-ii]
 = 1463. Cherry Pickup II
 
-https://leetcode.com/problems/cherry-pickup-ii/[LeetCode - 1463. Cherry Pickup II ^]
+{leetcode}/problems/cherry-pickup-ii/[LeetCode - 1463. Cherry Pickup II ^]
 
 You are given a `rows x cols` matrix `grid` representing a field of cherries where `grid[i][j]` represents the number of cherries that you can collect from the `(i, j)` cell.
 

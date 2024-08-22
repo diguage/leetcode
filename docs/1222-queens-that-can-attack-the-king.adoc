@@ -1,7 +1,7 @@
 [#1222-queens-that-can-attack-the-king]
 = 1222. Queens That Can Attack the King
 
-https://leetcode.com/problems/queens-that-can-attack-the-king/[LeetCode - Queens That Can Attack the King^]
+{leetcode}/problems/queens-that-can-attack-the-king/[LeetCode - Queens That Can Attack the King^]
 
 On an *8x8* chessboard, there can be multiple Black Queens and one White King.
 

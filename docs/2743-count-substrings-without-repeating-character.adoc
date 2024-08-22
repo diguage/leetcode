@@ -1,7 +1,7 @@
 [#2743-count-substrings-without-repeating-character]
 = 2743. Count Substrings Without Repeating Character
 
-https://leetcode.com/problems/count-substrings-without-repeating-character/[LeetCode - 2743. Count Substrings Without Repeating Character ^]
+{leetcode}/problems/count-substrings-without-repeating-character/[LeetCode - 2743. Count Substrings Without Repeating Character ^]
 
 
 

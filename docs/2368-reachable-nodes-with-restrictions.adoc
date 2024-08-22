@@ -1,7 +1,7 @@
 [#2368-reachable-nodes-with-restrictions]
 = 2368. Reachable Nodes With Restrictions
 
-https://leetcode.com/problems/reachable-nodes-with-restrictions/[LeetCode - 2368. Reachable Nodes With Restrictions ^]
+{leetcode}/problems/reachable-nodes-with-restrictions/[LeetCode - 2368. Reachable Nodes With Restrictions ^]
 
 There is an undirected tree with `n` nodes labeled from `0` to `n - 1` and `n - 1` edges.
 

@@ -1,7 +1,7 @@
 [#2605-form-smallest-number-from-two-digit-arrays]
 = 2605. Form Smallest Number From Two Digit Arrays
 
-https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/[LeetCode - 2605. Form Smallest Number From Two Digit Arrays ^]
+{leetcode}/problems/form-smallest-number-from-two-digit-arrays/[LeetCode - 2605. Form Smallest Number From Two Digit Arrays ^]
 
 Given two arrays of *unique* digits `nums1` and `nums2`, return _the *smallest* number that contains *at least* one digit from each array_.
  

@@ -1,7 +1,7 @@
 [#2671-frequency-tracker]
 = 2671. Frequency Tracker
 
-https://leetcode.com/problems/frequency-tracker/[LeetCode - 2671. Frequency Tracker ^]
+{leetcode}/problems/frequency-tracker/[LeetCode - 2671. Frequency Tracker ^]
 
 Design a data structure that keeps track of the values in it and answers some queries regarding their frequencies.
 

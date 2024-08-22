@@ -1,7 +1,7 @@
 [#0749-contain-virus]
 = 749. Contain Virus
 
-https://leetcode.com/problems/contain-virus/[LeetCode - Contain Virus^]
+{leetcode}/problems/contain-virus/[LeetCode - Contain Virus^]
 
 
 A virus is spreading rapidly, and your task is to quarantine the infected area by installing walls.

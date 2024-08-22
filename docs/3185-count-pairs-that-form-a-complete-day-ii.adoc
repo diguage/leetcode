@@ -1,7 +1,7 @@
 [#3185-count-pairs-that-form-a-complete-day-ii]
 = 3185. Count Pairs That Form a Complete Day II
 
-https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/[LeetCode - 3185. Count Pairs That Form a Complete Day II ^]
+{leetcode}/problems/count-pairs-that-form-a-complete-day-ii/[LeetCode - 3185. Count Pairs That Form a Complete Day II ^]
 
 Given an integer array `hours` representing times in *hours*, return an integer denoting the number of pairs `i`, `j` where `i < j` and `hours[i] + hours[j]` forms a *complete day*.
 

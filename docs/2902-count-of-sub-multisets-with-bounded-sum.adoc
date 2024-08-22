@@ -1,7 +1,7 @@
 [#2902-count-of-sub-multisets-with-bounded-sum]
 = 2902. Count of Sub-Multisets With Bounded Sum
 
-https://leetcode.com/problems/count-of-sub-multisets-with-bounded-sum/[LeetCode - 2902. Count of Sub-Multisets With Bounded Sum ^]
+{leetcode}/problems/count-of-sub-multisets-with-bounded-sum/[LeetCode - 2902. Count of Sub-Multisets With Bounded Sum ^]
 
 You are given a *0-indexed* array `nums` of non-negative integers, and two integers `l` and `r`.
 

@@ -1,7 +1,7 @@
 [#0160-intersection-of-two-linked-lists]
 = 160. Intersection of Two Linked Lists
 
-https://leetcode.com/problems/intersection-of-two-linked-lists/[LeetCode - Intersection of Two Linked Lists^]
+{leetcode}/problems/intersection-of-two-linked-lists/[LeetCode - Intersection of Two Linked Lists^]
 
 Write a program to find the node at which the intersection of two singly linked lists begins.
 

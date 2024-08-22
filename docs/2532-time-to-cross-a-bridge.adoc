@@ -1,7 +1,7 @@
 [#2532-time-to-cross-a-bridge]
 = 2532. Time to Cross a Bridge
 
-https://leetcode.com/problems/time-to-cross-a-bridge/[LeetCode - 2532. Time to Cross a Bridge ^]
+{leetcode}/problems/time-to-cross-a-bridge/[LeetCode - 2532. Time to Cross a Bridge ^]
 
 There are `k` workers who want to move `n` boxes from the right (old) warehouse to the left (new) warehouse. You are given the two integers `n` and `k`, and a 2D integer array `time` of size `k x 4` where `time[i] = [right<sub>i</sub>, pick<sub>i</sub>, left<sub>i</sub>, put<sub>i</sub>]`.
 

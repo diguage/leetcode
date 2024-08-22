@@ -1,7 +1,7 @@
 [#0915-partition-array-into-disjoint-intervals]
 = 915. Partition Array into Disjoint Intervals
 
-https://leetcode.com/problems/partition-array-into-disjoint-intervals/[LeetCode - Partition Array into Disjoint Intervals^]
+{leetcode}/problems/partition-array-into-disjoint-intervals/[LeetCode - Partition Array into Disjoint Intervals^]
 
 Given an array `A`, partition it into two (contiguous) subarrays `left` and `right` so that:
 

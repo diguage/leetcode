@@ -1,7 +1,7 @@
 [#2717-semi-ordered-permutation]
 = 2717. Semi-Ordered Permutation
 
-https://leetcode.com/problems/semi-ordered-permutation/[LeetCode - 2717. Semi-Ordered Permutation ^]
+{leetcode}/problems/semi-ordered-permutation/[LeetCode - 2717. Semi-Ordered Permutation ^]
 
 You are given a *0-indexed* permutation of `n` integers `nums`.
 

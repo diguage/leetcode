@@ -1,7 +1,7 @@
 [#1882-process-tasks-using-servers]
 = 1882. Process Tasks Using Servers
 
-https://leetcode.com/problems/process-tasks-using-servers/[LeetCode - 1882. Process Tasks Using Servers ^]
+{leetcode}/problems/process-tasks-using-servers/[LeetCode - 1882. Process Tasks Using Servers ^]
 
 You are given two *0-indexed* integer arrays `servers` and `tasks` of lengths `n`​​​​​​ and `m`​​​​​​ respectively. `servers[i]` is the *weight* of the `i^​​​​​​th^`​​​​ server, and `tasks[j]` is the *time needed* to process the `j^​​​​​​th^`​​​​ task *in seconds*.
 

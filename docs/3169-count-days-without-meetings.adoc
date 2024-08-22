@@ -1,7 +1,7 @@
 [#3169-count-days-without-meetings]
 = 3169. Count Days Without Meetings
 
-https://leetcode.com/problems/count-days-without-meetings/[LeetCode - 3169. Count Days Without Meetings ^]
+{leetcode}/problems/count-days-without-meetings/[LeetCode - 3169. Count Days Without Meetings ^]
 
 You are given a positive integer `days` representing the total number of days an employee is available for work (starting from day 1). You are also given a 2D array `meetings` of size `n` where, `meetings[i] = [start_i, end_i]` represents the starting and ending days of meeting `i` (inclusive).
 

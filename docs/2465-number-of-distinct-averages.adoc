@@ -1,7 +1,7 @@
 [#2465-number-of-distinct-averages]
 = 2465. Number of Distinct Averages
 
-https://leetcode.com/problems/number-of-distinct-averages/[LeetCode - 2465. Number of Distinct Averages ^]
+{leetcode}/problems/number-of-distinct-averages/[LeetCode - 2465. Number of Distinct Averages ^]
 
 You are given a *0-indexed* integer array `nums` of *even* length.
 

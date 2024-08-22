@@ -1,7 +1,7 @@
 [#2225-find-players-with-zero-or-one-losses]
 = 2225. Find Players With Zero or One Losses
 
-https://leetcode.com/problems/find-players-with-zero-or-one-losses/[LeetCode - 2225. Find Players With Zero or One Losses ^]
+{leetcode}/problems/find-players-with-zero-or-one-losses/[LeetCode - 2225. Find Players With Zero or One Losses ^]
 
 You are given an integer array `matches` where `matches[i] = [winner<sub>i</sub>, loser<sub>i</sub>]` indicates that the player `winner<sub>i</sub>` defeated player `loser<sub>i</sub>` in a match.
 

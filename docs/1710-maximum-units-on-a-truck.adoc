@@ -1,7 +1,7 @@
 [#1710-maximum-units-on-a-truck]
 = 1710. Maximum Units on a Truck
 
-https://leetcode.com/problems/maximum-units-on-a-truck/[LeetCode - 1710. Maximum Units on a Truck ^]
+{leetcode}/problems/maximum-units-on-a-truck/[LeetCode - 1710. Maximum Units on a Truck ^]
 
 You are assigned to put some amount of boxes onto *one truck*. You are given a 2D array `boxTypes`, where `boxTypes[i] = [numberOfBoxes<sub>i</sub>, numberOfUnitsPerBox<sub>i</sub>]`:
 

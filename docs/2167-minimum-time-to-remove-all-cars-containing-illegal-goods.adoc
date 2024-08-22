@@ -1,7 +1,7 @@
 [#2167-minimum-time-to-remove-all-cars-containing-illegal-goods]
 = 2167. Minimum Time to Remove All Cars Containing Illegal Goods
 
-https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/[LeetCode - 2167. Minimum Time to Remove All Cars Containing Illegal Goods ^]
+{leetcode}/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/[LeetCode - 2167. Minimum Time to Remove All Cars Containing Illegal Goods ^]
 
 You are given a *0-indexed* binary string `s` which represents a sequence of train cars. `s[i] = '0'` denotes that the `i^th^` car does *not* contain illegal goods and `s[i] = '1'` denotes that the `i^th^` car does contain illegal goods.
 

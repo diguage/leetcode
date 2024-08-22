@@ -1,7 +1,7 @@
 [#3007-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k]
 = 3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K
 
-https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/[LeetCode - 3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K ^]
+{leetcode}/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/[LeetCode - 3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K ^]
 
 You are given an integer `k` and an integer `x`. The price of a number `num` is calculated by the count of <span data-keyword="set-bit">set bits at positions `x`, `2x`, `3x`, etc., in its binary representation, starting from the least significant bit. The following table contains examples of how price is calculated.
 

@@ -1,7 +1,7 @@
 [#1206-design-skiplist]
 = 1206. Design Skiplist
 
-https://leetcode.com/problems/design-skiplist/[LeetCode - Design Skiplist^]
+{leetcode}/problems/design-skiplist/[LeetCode - Design Skiplist^]
 
 Design a Skiplist without using any built-in libraries.
 

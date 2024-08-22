@@ -1,7 +1,7 @@
 [#1867-orders-with-maximum-quantity-above-average]
 = 1867. Orders With Maximum Quantity Above Average
 
-https://leetcode.com/problems/orders-with-maximum-quantity-above-average/[LeetCode - 1867. Orders With Maximum Quantity Above Average ^]
+{leetcode}/problems/orders-with-maximum-quantity-above-average/[LeetCode - 1867. Orders With Maximum Quantity Above Average ^]
 
 
 

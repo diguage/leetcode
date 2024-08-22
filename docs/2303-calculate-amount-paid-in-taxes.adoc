@@ -1,7 +1,7 @@
 [#2303-calculate-amount-paid-in-taxes]
 = 2303. Calculate Amount Paid in Taxes
 
-https://leetcode.com/problems/calculate-amount-paid-in-taxes/[LeetCode - 2303. Calculate Amount Paid in Taxes ^]
+{leetcode}/problems/calculate-amount-paid-in-taxes/[LeetCode - 2303. Calculate Amount Paid in Taxes ^]
 
 You are given a *0-indexed* 2D integer array `brackets` where `brackets[i] = [upper<sub>i</sub>, percent<sub>i</sub>]` means that the `i^th^` tax bracket has an upper bound of `upper<sub>i</sub>` and is taxed at a rate of `percent<sub>i</sub>`. The brackets are *sorted* by upper bound (i.e. `upper<sub>i-1</sub> < upper<sub>i</sub>` for `0 < i < brackets.length`).
 

@@ -1,7 +1,7 @@
 [#1278-palindrome-partitioning-iii]
 = 1278. Palindrome Partitioning III
 
-https://leetcode.com/problems/palindrome-partitioning-iii/[LeetCode - Palindrome Partitioning III^]
+{leetcode}/problems/palindrome-partitioning-iii/[LeetCode - Palindrome Partitioning III^]
 
 You are given a string `s` containing lowercase letters and an integer `k`. You need to :
 

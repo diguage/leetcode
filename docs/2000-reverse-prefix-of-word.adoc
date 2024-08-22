@@ -1,7 +1,7 @@
 [#2000-reverse-prefix-of-word]
 = 2000. Reverse Prefix of Word
 
-https://leetcode.com/problems/reverse-prefix-of-word/[LeetCode - 2000. Reverse Prefix of Word ^]
+{leetcode}/problems/reverse-prefix-of-word/[LeetCode - 2000. Reverse Prefix of Word ^]
 
 Given a *0-indexed* string `word` and a character `ch`, *reverse* the segment of `word` that starts at index `0` and ends at the index of the *first occurrence* of `ch` (*inclusive*). If the character `ch` does not exist in `word`, do nothing.
 

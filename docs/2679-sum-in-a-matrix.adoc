@@ -1,7 +1,7 @@
 [#2679-sum-in-a-matrix]
 = 2679. Sum in a Matrix
 
-https://leetcode.com/problems/sum-in-a-matrix/[LeetCode - 2679. Sum in a Matrix ^]
+{leetcode}/problems/sum-in-a-matrix/[LeetCode - 2679. Sum in a Matrix ^]
 
 You are given a *0-indexed* 2D integer array `nums`. Initially, your score is `0`. Perform the following operations until the matrix becomes empty:
 

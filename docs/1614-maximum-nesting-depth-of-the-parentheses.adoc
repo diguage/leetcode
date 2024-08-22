@@ -1,7 +1,7 @@
 [#1614-maximum-nesting-depth-of-the-parentheses]
 = 1614. Maximum Nesting Depth of the Parentheses
 
-https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/[LeetCode - 1614. Maximum Nesting Depth of the Parentheses ^]
+{leetcode}/problems/maximum-nesting-depth-of-the-parentheses/[LeetCode - 1614. Maximum Nesting Depth of the Parentheses ^]
 
 Given a *valid parentheses string* `s`, return the *nesting depth* of_ _`s`. The nesting depth is the *maximum* number of nested parentheses.
 

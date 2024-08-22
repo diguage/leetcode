@@ -1,7 +1,7 @@
 [#0668-kth-smallest-number-in-multiplication-table]
 = 668. Kth Smallest Number in Multiplication Table
 
-https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/[LeetCode - Kth Smallest Number in Multiplication Table^]
+{leetcode}/problems/kth-smallest-number-in-multiplication-table/[LeetCode - Kth Smallest Number in Multiplication Table^]
 
 
 Nearly every one have used the <a href="https://en.wikipedia.org/wiki/Multiplication_table">Multiplication Table</a>. But could you find out the `k-th` smallest number quickly from the multiplication table?

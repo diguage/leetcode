@@ -1,7 +1,7 @@
 [#1818-minimum-absolute-sum-difference]
 = 1818. Minimum Absolute Sum Difference
 
-https://leetcode.com/problems/minimum-absolute-sum-difference/[LeetCode - 1818. Minimum Absolute Sum Difference ^]
+{leetcode}/problems/minimum-absolute-sum-difference/[LeetCode - 1818. Minimum Absolute Sum Difference ^]
 
 You are given two positive integer arrays `nums1` and `nums2`, both of length `n`.
 

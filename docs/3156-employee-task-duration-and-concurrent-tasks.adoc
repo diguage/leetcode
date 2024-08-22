@@ -1,7 +1,7 @@
 [#3156-employee-task-duration-and-concurrent-tasks]
 = 3156. Employee Task Duration and Concurrent Tasks
 
-https://leetcode.com/problems/employee-task-duration-and-concurrent-tasks/[LeetCode - 3156. Employee Task Duration and Concurrent Tasks ^]
+{leetcode}/problems/employee-task-duration-and-concurrent-tasks/[LeetCode - 3156. Employee Task Duration and Concurrent Tasks ^]
 
 
 

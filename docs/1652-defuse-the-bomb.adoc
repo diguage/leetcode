@@ -1,7 +1,7 @@
 [#1652-defuse-the-bomb]
 = 1652. Defuse the Bomb
 
-https://leetcode.com/problems/defuse-the-bomb/[LeetCode - 1652. Defuse the Bomb ^]
+{leetcode}/problems/defuse-the-bomb/[LeetCode - 1652. Defuse the Bomb ^]
 
 You have a bomb to defuse, and your time is running out! Your informer will provide you with a *circular* array `code` of length of `n` and a key `k`.
 

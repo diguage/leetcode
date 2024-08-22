@@ -1,7 +1,7 @@
 [#1755-closest-subsequence-sum]
 = 1755. Closest Subsequence Sum
 
-https://leetcode.com/problems/closest-subsequence-sum/[LeetCode - 1755. Closest Subsequence Sum ^]
+{leetcode}/problems/closest-subsequence-sum/[LeetCode - 1755. Closest Subsequence Sum ^]
 
 You are given an integer array `nums` and an integer `goal`.
 

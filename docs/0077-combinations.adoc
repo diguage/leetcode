@@ -1,7 +1,7 @@
 [#0077-combinations]
 = 77. Combinations
 
-https://leetcode.com/problems/combinations/[LeetCode - Combinations^]
+{leetcode}/problems/combinations/[LeetCode - Combinations^]
 
 Given two integers `n` and `k`, return all possible combinations of `k` numbers out of `1 ... n`.
 

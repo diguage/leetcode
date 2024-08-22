@@ -1,7 +1,7 @@
 [#1886-determine-whether-matrix-can-be-obtained-by-rotation]
 = 1886. Determine Whether Matrix Can Be Obtained By Rotation
 
-https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/[LeetCode - 1886. Determine Whether Matrix Can Be Obtained By Rotation ^]
+{leetcode}/problems/determine-whether-matrix-can-be-obtained-by-rotation/[LeetCode - 1886. Determine Whether Matrix Can Be Obtained By Rotation ^]
 
 Given two `n x n` binary matrices `mat` and `target`, return `true`_ if it is possible to make _`mat`_ equal to _`target`_ by *rotating* _`mat`_ in *90-degree increments*, or _`false`_ otherwise._
 

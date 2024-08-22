@@ -1,7 +1,7 @@
 [#1470-shuffle-the-array]
 = 1470. Shuffle the Array
 
-https://leetcode.com/problems/shuffle-the-array/[LeetCode - 1470. Shuffle the Array ^]
+{leetcode}/problems/shuffle-the-array/[LeetCode - 1470. Shuffle the Array ^]
 
 Given the array `nums` consisting of `2n` elements in the form `[x<sub>1</sub>,x<sub>2</sub>,...,x<sub>n</sub>,y<sub>1</sub>,y<sub>2</sub>,...,y<sub>n</sub>]`.
 

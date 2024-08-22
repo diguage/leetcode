@@ -1,7 +1,7 @@
 [#1764-form-array-by-concatenating-subarrays-of-another-array]
 = 1764. Form Array by Concatenating Subarrays of Another Array
 
-https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/[LeetCode - 1764. Form Array by Concatenating Subarrays of Another Array ^]
+{leetcode}/problems/form-array-by-concatenating-subarrays-of-another-array/[LeetCode - 1764. Form Array by Concatenating Subarrays of Another Array ^]
 
 You are given a 2D integer array `groups` of length `n`. You are also given an integer array `nums`.
 

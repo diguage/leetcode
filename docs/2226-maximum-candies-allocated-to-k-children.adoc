@@ -1,7 +1,7 @@
 [#2226-maximum-candies-allocated-to-k-children]
 = 2226. Maximum Candies Allocated to K Children
 
-https://leetcode.com/problems/maximum-candies-allocated-to-k-children/[LeetCode - 2226. Maximum Candies Allocated to K Children ^]
+{leetcode}/problems/maximum-candies-allocated-to-k-children/[LeetCode - 2226. Maximum Candies Allocated to K Children ^]
 
 You are given a *0-indexed* integer array `candies`. Each element in the array denotes a pile of candies of size `candies[i]`. You can divide each pile into any number of *sub piles*, but you *cannot* merge two piles together.
 

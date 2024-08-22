@@ -1,7 +1,7 @@
 [#2151-maximum-good-people-based-on-statements]
 = 2151. Maximum Good People Based on Statements
 
-https://leetcode.com/problems/maximum-good-people-based-on-statements/[LeetCode - 2151. Maximum Good People Based on Statements ^]
+{leetcode}/problems/maximum-good-people-based-on-statements/[LeetCode - 2151. Maximum Good People Based on Statements ^]
 
 There are two types of persons:
 

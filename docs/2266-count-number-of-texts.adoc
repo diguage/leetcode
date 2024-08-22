@@ -1,7 +1,7 @@
 [#2266-count-number-of-texts]
 = 2266. Count Number of Texts
 
-https://leetcode.com/problems/count-number-of-texts/[LeetCode - 2266. Count Number of Texts ^]
+{leetcode}/problems/count-number-of-texts/[LeetCode - 2266. Count Number of Texts ^]
 
 Alice is texting Bob using her phone. The *mapping* of digits to letters is shown in the figure below.
 <img alt="" src="https://assets.leetcode.com/uploads/2022/03/15/1200px-telephone-keypad2svg.png" style="width: 200px; height: 162px;" />

@@ -1,7 +1,7 @@
 [#2681-power-of-heroes]
 = 2681. Power of Heroes
 
-https://leetcode.com/problems/power-of-heroes/[LeetCode - 2681. Power of Heroes ^]
+{leetcode}/problems/power-of-heroes/[LeetCode - 2681. Power of Heroes ^]
 
 You are given a *0-indexed* integer array `nums` representing the strength of some heroes. The* power* of a group of heroes is defined as follows:
 

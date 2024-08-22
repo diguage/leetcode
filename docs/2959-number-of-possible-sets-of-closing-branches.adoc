@@ -1,7 +1,7 @@
 [#2959-number-of-possible-sets-of-closing-branches]
 = 2959. Number of Possible Sets of Closing Branches
 
-https://leetcode.com/problems/number-of-possible-sets-of-closing-branches/[LeetCode - 2959. Number of Possible Sets of Closing Branches ^]
+{leetcode}/problems/number-of-possible-sets-of-closing-branches/[LeetCode - 2959. Number of Possible Sets of Closing Branches ^]
 
 There is a company with `n` branches across the country, some of which are connected by roads. Initially, all branches are reachable from each other by traveling some roads.
 

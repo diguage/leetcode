@@ -1,7 +1,7 @@
 [#2692-make-object-immutable]
 = 2692. Make Object Immutable
 
-https://leetcode.com/problems/make-object-immutable/[LeetCode - 2692. Make Object Immutable ^]
+{leetcode}/problems/make-object-immutable/[LeetCode - 2692. Make Object Immutable ^]
 
 
 

@@ -1,7 +1,7 @@
 [#2391-minimum-amount-of-time-to-collect-garbage]
 = 2391. Minimum Amount of Time to Collect Garbage
 
-https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/[LeetCode - 2391. Minimum Amount of Time to Collect Garbage ^]
+{leetcode}/problems/minimum-amount-of-time-to-collect-garbage/[LeetCode - 2391. Minimum Amount of Time to Collect Garbage ^]
 
 You are given a *0-indexed* array of strings `garbage` where `garbage[i]` represents the assortment of garbage at the `i^th^` house. `garbage[i]` consists only of the characters `'M'`, `'P'` and `'G'` representing one unit of metal, paper and glass garbage respectively. Picking up *one* unit of any type of garbage takes `1` minute.
 

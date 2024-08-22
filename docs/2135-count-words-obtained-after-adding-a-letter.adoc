@@ -1,7 +1,7 @@
 [#2135-count-words-obtained-after-adding-a-letter]
 = 2135. Count Words Obtained After Adding a Letter
 
-https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/[LeetCode - 2135. Count Words Obtained After Adding a Letter ^]
+{leetcode}/problems/count-words-obtained-after-adding-a-letter/[LeetCode - 2135. Count Words Obtained After Adding a Letter ^]
 
 You are given two *0-indexed* arrays of strings `startWords` and `targetWords`. Each string consists of *lowercase English letters* only.
 

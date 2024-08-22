@@ -1,7 +1,7 @@
 [#1540-can-convert-string-in-k-moves]
 = 1540. Can Convert String in K Moves
 
-https://leetcode.com/problems/can-convert-string-in-k-moves/[LeetCode - 1540. Can Convert String in K Moves ^]
+{leetcode}/problems/can-convert-string-in-k-moves/[LeetCode - 1540. Can Convert String in K Moves ^]
 
 Given two strings `s` and `t`, your goal is to convert `s` into `t` in `k`* *moves or less.
 

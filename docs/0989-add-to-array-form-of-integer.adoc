@@ -1,7 +1,7 @@
 [#0989-add-to-array-form-of-integer]
 = 989. Add to Array-Form of Integer
 
-https://leetcode.com/problems/add-to-array-form-of-integer/[LeetCode - Add to Array-Form of Integer^]
+{leetcode}/problems/add-to-array-form-of-integer/[LeetCode - Add to Array-Form of Integer^]
 
 For a non-negative integer `X`, the _array-form of `X`_ is an array of its digits in left to right order.  For example, if `X = 1231`, then the array form is `[1,2,3,1]`.
 

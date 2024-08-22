@@ -1,7 +1,7 @@
 [#0813-largest-sum-of-averages]
 = 813. Largest Sum of Averages
 
-https://leetcode.com/problems/largest-sum-of-averages/[LeetCode - Largest Sum of Averages^]
+{leetcode}/problems/largest-sum-of-averages/[LeetCode - Largest Sum of Averages^]
 
 We partition a row of numbers `A` into at most `K` adjacent (non-empty) groups, then our score is the sum of the average of each group. What is the largest score we can achieve?
 

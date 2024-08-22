@@ -1,7 +1,7 @@
 [#1390-four-divisors]
 = 1390. Four Divisors
 
-https://leetcode.com/problems/four-divisors/[LeetCode - 1390. Four Divisors ^]
+{leetcode}/problems/four-divisors/[LeetCode - 1390. Four Divisors ^]
 
 Given an integer array `nums`, return _the sum of divisors of the integers in that array that have exactly four divisors_. If there is no such integer in the array, return `0`.
 

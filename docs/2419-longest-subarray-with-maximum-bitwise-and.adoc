@@ -1,7 +1,7 @@
 [#2419-longest-subarray-with-maximum-bitwise-and]
 = 2419. Longest Subarray With Maximum Bitwise AND
 
-https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/[LeetCode - 2419. Longest Subarray With Maximum Bitwise AND ^]
+{leetcode}/problems/longest-subarray-with-maximum-bitwise-and/[LeetCode - 2419. Longest Subarray With Maximum Bitwise AND ^]
 
 You are given an integer array `nums` of size `n`.
 

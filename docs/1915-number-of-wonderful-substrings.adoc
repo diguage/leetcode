@@ -1,7 +1,7 @@
 [#1915-number-of-wonderful-substrings]
 = 1915. Number of Wonderful Substrings
 
-https://leetcode.com/problems/number-of-wonderful-substrings/[LeetCode - 1915. Number of Wonderful Substrings ^]
+{leetcode}/problems/number-of-wonderful-substrings/[LeetCode - 1915. Number of Wonderful Substrings ^]
 
 A *wonderful* string is a string where *at most one* letter appears an *odd* number of times.
 

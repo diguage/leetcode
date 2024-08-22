@@ -1,7 +1,7 @@
 [#1406-stone-game-iii]
 = 1406. Stone Game III
 
-https://leetcode.com/problems/stone-game-iii/[LeetCode - 1406. Stone Game III ^]
+{leetcode}/problems/stone-game-iii/[LeetCode - 1406. Stone Game III ^]
 
 Alice and Bob continue their games with piles of stones. There are several stones *arranged in a row*, and each stone has an associated value which is an integer given in the array `stoneValue`.
 

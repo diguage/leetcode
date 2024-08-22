@@ -1,7 +1,7 @@
 [#1731-the-number-of-employees-which-report-to-each-employee]
 = 1731. The Number of Employees Which Report to Each Employee
 
-https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/[LeetCode - 1731. The Number of Employees Which Report to Each Employee ^]
+{leetcode}/problems/the-number-of-employees-which-report-to-each-employee/[LeetCode - 1731. The Number of Employees Which Report to Each Employee ^]
 
 Table: `Employees`
 

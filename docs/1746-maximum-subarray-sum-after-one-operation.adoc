@@ -1,7 +1,7 @@
 [#1746-maximum-subarray-sum-after-one-operation]
 = 1746. Maximum Subarray Sum After One Operation
 
-https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/[LeetCode - 1746. Maximum Subarray Sum After One Operation ^]
+{leetcode}/problems/maximum-subarray-sum-after-one-operation/[LeetCode - 1746. Maximum Subarray Sum After One Operation ^]
 
 
 

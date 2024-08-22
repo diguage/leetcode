@@ -1,7 +1,7 @@
 [#0809-expressive-words]
 = 809. Expressive Words
 
-https://leetcode.com/problems/expressive-words/[LeetCode - Expressive Words^]
+{leetcode}/problems/expressive-words/[LeetCode - Expressive Words^]
 
 Sometimes people repeat letters to represent extra feeling, such as "hello" -> "heeellooo", "hi" -> "hiiii".  In these strings like "heeellooo", we have _groups_ of adjacent letters that are all the same:  "h", "eee", "ll", "ooo".
 

@@ -1,7 +1,7 @@
 [#2013-detect-squares]
 = 2013. Detect Squares
 
-https://leetcode.com/problems/detect-squares/[LeetCode - 2013. Detect Squares ^]
+{leetcode}/problems/detect-squares/[LeetCode - 2013. Detect Squares ^]
 
 You are given a stream of points on the X-Y plane. Design an algorithm that:
 

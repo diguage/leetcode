@@ -1,7 +1,7 @@
 [#0091-decode-ways]
 = 91. Decode Ways
 
-https://leetcode.com/problems/decode-ways/[LeetCode - Decode Ways^]
+{leetcode}/problems/decode-ways/[LeetCode - Decode Ways^]
 
 这道题可以使用动态规划算法解决。学习《算法导论》中"动态规划"的解题步骤，再推演几次这个解题方法。
 

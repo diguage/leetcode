@@ -1,7 +1,7 @@
 [#0559-maximum-depth-of-n-ary-tree]
 = 559. Maximum Depth of N-ary Tree
 
-https://leetcode.com/problems/maximum-depth-of-n-ary-tree/[LeetCode - Maximum Depth of N-ary Tree^]
+{leetcode}/problems/maximum-depth-of-n-ary-tree/[LeetCode - Maximum Depth of N-ary Tree^]
 
 Given a n-ary tree, find its maximum depth.
 

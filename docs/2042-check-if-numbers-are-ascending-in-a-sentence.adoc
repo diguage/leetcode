@@ -1,7 +1,7 @@
 [#2042-check-if-numbers-are-ascending-in-a-sentence]
 = 2042. Check if Numbers Are Ascending in a Sentence
 
-https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/[LeetCode - 2042. Check if Numbers Are Ascending in a Sentence ^]
+{leetcode}/problems/check-if-numbers-are-ascending-in-a-sentence/[LeetCode - 2042. Check if Numbers Are Ascending in a Sentence ^]
 
 A sentence is a list of *tokens* separated by a *single* space with no leading or trailing spaces. Every token is either a *positive number* consisting of digits `0-9` with no leading zeros, or a *word* consisting of lowercase English letters.
 

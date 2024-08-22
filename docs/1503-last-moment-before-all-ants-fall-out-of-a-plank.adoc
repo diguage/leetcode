@@ -1,7 +1,7 @@
 [#1503-last-moment-before-all-ants-fall-out-of-a-plank]
 = 1503. Last Moment Before All Ants Fall Out of a Plank
 
-https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/[LeetCode - 1503. Last Moment Before All Ants Fall Out of a Plank ^]
+{leetcode}/problems/last-moment-before-all-ants-fall-out-of-a-plank/[LeetCode - 1503. Last Moment Before All Ants Fall Out of a Plank ^]
 
 We have a wooden plank of the length `n` *units*. Some ants are walking on the plank, each ant moves with a speed of *1 unit per second*. Some of the ants move to the *left*, the other move to the *right*.
 

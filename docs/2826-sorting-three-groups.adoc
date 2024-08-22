@@ -1,7 +1,7 @@
 [#2826-sorting-three-groups]
 = 2826. Sorting Three Groups
 
-https://leetcode.com/problems/sorting-three-groups/[LeetCode - 2826. Sorting Three Groups ^]
+{leetcode}/problems/sorting-three-groups/[LeetCode - 2826. Sorting Three Groups ^]
 
 You are given an integer array `nums`. Each element in `nums` is 1, 2 or 3. In each operation, you can remove an element from `nums`. Return the *minimum* number of operations to make `nums` *non-decreasing*.
 

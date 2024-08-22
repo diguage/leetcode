@@ -1,7 +1,7 @@
 [#1925-count-square-sum-triples]
 = 1925. Count Square Sum Triples
 
-https://leetcode.com/problems/count-square-sum-triples/[LeetCode - 1925. Count Square Sum Triples ^]
+{leetcode}/problems/count-square-sum-triples/[LeetCode - 1925. Count Square Sum Triples ^]
 
 A *square triple* `(a,b,c)` is a triple where `a`, `b`, and `c` are *integers* and `a^2^ + b^2^ = c^2^`.
 

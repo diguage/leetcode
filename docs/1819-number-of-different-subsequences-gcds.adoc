@@ -1,7 +1,7 @@
 [#1819-number-of-different-subsequences-gcds]
 = 1819. Number of Different Subsequences GCDs
 
-https://leetcode.com/problems/number-of-different-subsequences-gcds/[LeetCode - 1819. Number of Different Subsequences GCDs ^]
+{leetcode}/problems/number-of-different-subsequences-gcds/[LeetCode - 1819. Number of Different Subsequences GCDs ^]
 
 You are given an array `nums` that consists of positive integers.
 

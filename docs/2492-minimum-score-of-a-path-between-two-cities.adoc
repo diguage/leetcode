@@ -1,7 +1,7 @@
 [#2492-minimum-score-of-a-path-between-two-cities]
 = 2492. Minimum Score of a Path Between Two Cities
 
-https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/[LeetCode - 2492. Minimum Score of a Path Between Two Cities ^]
+{leetcode}/problems/minimum-score-of-a-path-between-two-cities/[LeetCode - 2492. Minimum Score of a Path Between Two Cities ^]
 
 You are given a positive integer `n` representing `n` cities numbered from `1` to `n`. You are also given a *2D* array `roads` where `roads[i] = [a<sub>i</sub>, b<sub>i</sub>, distance<sub>i</sub>]` indicates that there is a *bidirectional *road between cities `a<sub>i</sub>` and `b<sub>i</sub>` with a distance equal to `distance<sub>i</sub>`. The cities graph is not necessarily connected.
 

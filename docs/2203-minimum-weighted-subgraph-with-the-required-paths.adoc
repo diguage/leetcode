@@ -1,7 +1,7 @@
 [#2203-minimum-weighted-subgraph-with-the-required-paths]
 = 2203. Minimum Weighted Subgraph With the Required Paths
 
-https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/[LeetCode - 2203. Minimum Weighted Subgraph With the Required Paths ^]
+{leetcode}/problems/minimum-weighted-subgraph-with-the-required-paths/[LeetCode - 2203. Minimum Weighted Subgraph With the Required Paths ^]
 
 You are given an integer `n` denoting the number of nodes of a *weighted directed* graph. The nodes are numbered from `0` to `n - 1`.
 

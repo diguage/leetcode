@@ -1,7 +1,7 @@
 [#2748-number-of-beautiful-pairs]
 = 2748. Number of Beautiful Pairs
 
-https://leetcode.com/problems/number-of-beautiful-pairs/[LeetCode - 2748. Number of Beautiful Pairs ^]
+{leetcode}/problems/number-of-beautiful-pairs/[LeetCode - 2748. Number of Beautiful Pairs ^]
 
 You are given a *0-indexed *integer array `nums`. A pair of indices `i`, `j` where `0 <= i < j < nums.length` is called beautiful if the *first digit* of `nums[i]` and the *last digit* of `nums[j]` are *coprime*.
 

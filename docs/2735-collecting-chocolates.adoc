@@ -1,7 +1,7 @@
 [#2735-collecting-chocolates]
 = 2735. Collecting Chocolates
 
-https://leetcode.com/problems/collecting-chocolates/[LeetCode - 2735. Collecting Chocolates ^]
+{leetcode}/problems/collecting-chocolates/[LeetCode - 2735. Collecting Chocolates ^]
 
 You are given a *0-indexed* integer array `nums` of size `n` representing the cost of collecting different chocolates. The cost of collecting the chocolate at the index `i` is `nums[i]`. Each chocolate is of a different type, and initially, the chocolate at the index `i` is of `i^th^` type.
 

@@ -1,7 +1,7 @@
 [#2009-minimum-number-of-operations-to-make-array-continuous]
 = 2009. Minimum Number of Operations to Make Array Continuous
 
-https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/[LeetCode - 2009. Minimum Number of Operations to Make Array Continuous ^]
+{leetcode}/problems/minimum-number-of-operations-to-make-array-continuous/[LeetCode - 2009. Minimum Number of Operations to Make Array Continuous ^]
 
 You are given an integer array `nums`. In one operation, you can replace *any* element in `nums` with *any* integer.
 

@@ -1,7 +1,7 @@
 [#0692-top-k-frequent-words]
 = 692. Top K Frequent Words
 
-https://leetcode.com/problems/top-k-frequent-words/[LeetCode - Top K Frequent Words^]
+{leetcode}/problems/top-k-frequent-words/[LeetCode - Top K Frequent Words^]
 
 Given a non-empty list of words, return the _k_ most frequent elements.
 Your answer should be sorted by frequency from highest to lowest. If two words have the same frequency, then the word with the lower alphabetical order comes first.

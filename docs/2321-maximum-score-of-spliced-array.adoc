@@ -1,7 +1,7 @@
 [#2321-maximum-score-of-spliced-array]
 = 2321. Maximum Score Of Spliced Array
 
-https://leetcode.com/problems/maximum-score-of-spliced-array/[LeetCode - 2321. Maximum Score Of Spliced Array ^]
+{leetcode}/problems/maximum-score-of-spliced-array/[LeetCode - 2321. Maximum Score Of Spliced Array ^]
 
 You are given two *0-indexed* integer arrays `nums1` and `nums2`, both of length `n`.
 

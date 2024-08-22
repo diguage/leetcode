@@ -1,7 +1,7 @@
 [#0135-candy]
 = 135. Candy
 
-https://leetcode.com/problems/candy/[LeetCode - Candy^]
+{leetcode}/problems/candy/[LeetCode - Candy^]
 
 There are _N_ children standing in a line. Each child is assigned a rating value.
 

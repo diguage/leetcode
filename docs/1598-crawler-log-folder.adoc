@@ -1,7 +1,7 @@
 [#1598-crawler-log-folder]
 = 1598. Crawler Log Folder
 
-https://leetcode.com/problems/crawler-log-folder/[LeetCode - 1598. Crawler Log Folder ^]
+{leetcode}/problems/crawler-log-folder/[LeetCode - 1598. Crawler Log Folder ^]
 
 The Leetcode file system keeps a log each time some user performs a _change folder_ operation.
 

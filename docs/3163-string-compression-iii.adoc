@@ -1,7 +1,7 @@
 [#3163-string-compression-iii]
 = 3163. String Compression III
 
-https://leetcode.com/problems/string-compression-iii/[LeetCode - 3163. String Compression III ^]
+{leetcode}/problems/string-compression-iii/[LeetCode - 3163. String Compression III ^]
 
 Given a string `word`, compress it using the following algorithm:
 

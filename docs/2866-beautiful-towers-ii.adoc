@@ -1,7 +1,7 @@
 [#2866-beautiful-towers-ii]
 = 2866. Beautiful Towers II
 
-https://leetcode.com/problems/beautiful-towers-ii/[LeetCode - 2866. Beautiful Towers II ^]
+{leetcode}/problems/beautiful-towers-ii/[LeetCode - 2866. Beautiful Towers II ^]
 
 You are given a *0-indexed* array `maxHeights` of `n` integers.
 

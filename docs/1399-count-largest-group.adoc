@@ -1,7 +1,7 @@
 [#1399-count-largest-group]
 = 1399. Count Largest Group
 
-https://leetcode.com/problems/count-largest-group/[LeetCode - 1399. Count Largest Group ^]
+{leetcode}/problems/count-largest-group/[LeetCode - 1399. Count Largest Group ^]
 
 You are given an integer `n`.
 

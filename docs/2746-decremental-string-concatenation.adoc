@@ -1,7 +1,7 @@
 [#2746-decremental-string-concatenation]
 = 2746. Decremental String Concatenation
 
-https://leetcode.com/problems/decremental-string-concatenation/[LeetCode - 2746. Decremental String Concatenation ^]
+{leetcode}/problems/decremental-string-concatenation/[LeetCode - 2746. Decremental String Concatenation ^]
 
 You are given a *0-indexed* array `words` containing `n` strings.
 

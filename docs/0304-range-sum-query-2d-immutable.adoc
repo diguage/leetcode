@@ -1,7 +1,7 @@
 [#0304-range-sum-query-2d-immutable]
 = 304. Range Sum Query 2D - Immutable
 
-https://leetcode.com/problems/range-sum-query-2d-immutable/[LeetCode - Range Sum Query 2D - Immutable^]
+{leetcode}/problems/range-sum-query-2d-immutable/[LeetCode - Range Sum Query 2D - Immutable^]
 
 Given a 2D matrix _matrix_, find the sum of the elements inside the rectangle defined by its upper left corner (_row_1, _col_1) and lower right corner (_row_2, _col_2).
 

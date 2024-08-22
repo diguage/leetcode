@@ -1,7 +1,7 @@
 [#3125-maximum-number-that-makes-result-of-bitwise-and-zero]
 = 3125. Maximum Number That Makes Result of Bitwise AND Zero
 
-https://leetcode.com/problems/maximum-number-that-makes-result-of-bitwise-and-zero/[LeetCode - 3125. Maximum Number That Makes Result of Bitwise AND Zero ^]
+{leetcode}/problems/maximum-number-that-makes-result-of-bitwise-and-zero/[LeetCode - 3125. Maximum Number That Makes Result of Bitwise AND Zero ^]
 
 
 

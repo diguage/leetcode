@@ -1,7 +1,7 @@
 [#2259-remove-digit-from-number-to-maximize-result]
 = 2259. Remove Digit From Number to Maximize Result
 
-https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/[LeetCode - 2259. Remove Digit From Number to Maximize Result ^]
+{leetcode}/problems/remove-digit-from-number-to-maximize-result/[LeetCode - 2259. Remove Digit From Number to Maximize Result ^]
 
 You are given a string `number` representing a *positive integer* and a character `digit`.
 

@@ -1,7 +1,7 @@
 [#2319-check-if-matrix-is-x-matrix]
 = 2319. Check if Matrix Is X-Matrix
 
-https://leetcode.com/problems/check-if-matrix-is-x-matrix/[LeetCode - 2319. Check if Matrix Is X-Matrix ^]
+{leetcode}/problems/check-if-matrix-is-x-matrix/[LeetCode - 2319. Check if Matrix Is X-Matrix ^]
 
 A square matrix is said to be an *X-Matrix* if *both* of the following conditions hold:
 

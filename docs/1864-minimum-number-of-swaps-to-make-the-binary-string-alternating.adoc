@@ -1,7 +1,7 @@
 [#1864-minimum-number-of-swaps-to-make-the-binary-string-alternating]
 = 1864. Minimum Number of Swaps to Make the Binary String Alternating
 
-https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/[LeetCode - 1864. Minimum Number of Swaps to Make the Binary String Alternating ^]
+{leetcode}/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/[LeetCode - 1864. Minimum Number of Swaps to Make the Binary String Alternating ^]
 
 Given a binary string `s`, return _the *minimum* number of character swaps to make it *alternating*, or _`-1`_ if it is impossible._
 

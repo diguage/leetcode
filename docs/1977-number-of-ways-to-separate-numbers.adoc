@@ -1,7 +1,7 @@
 [#1977-number-of-ways-to-separate-numbers]
 = 1977. Number of Ways to Separate Numbers
 
-https://leetcode.com/problems/number-of-ways-to-separate-numbers/[LeetCode - 1977. Number of Ways to Separate Numbers ^]
+{leetcode}/problems/number-of-ways-to-separate-numbers/[LeetCode - 1977. Number of Ways to Separate Numbers ^]
 
 You wrote down many *positive* integers in a string called `num`. However, you realized that you forgot to add commas to seperate the different numbers. You remember that the list of integers was *non-decreasing* and that *no* integer had leading zeros.
 

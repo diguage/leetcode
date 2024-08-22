@@ -1,7 +1,7 @@
 [#2883-drop-missing-data]
 = 2883. Drop Missing Data
 
-https://leetcode.com/problems/drop-missing-data/[LeetCode - 2883. Drop Missing Data ^]
+{leetcode}/problems/drop-missing-data/[LeetCode - 2883. Drop Missing Data ^]
 
 [subs="verbatim,quotes"]
 ----

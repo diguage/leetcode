@@ -1,7 +1,7 @@
 [#1517-find-users-with-valid-e-mails]
 = 1517. Find Users With Valid E-Mails
 
-https://leetcode.com/problems/find-users-with-valid-e-mails/[LeetCode - 1517. Find Users With Valid E-Mails ^]
+{leetcode}/problems/find-users-with-valid-e-mails/[LeetCode - 1517. Find Users With Valid E-Mails ^]
 
 Table: `Users`
 

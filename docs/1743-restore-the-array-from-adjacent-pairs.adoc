@@ -1,7 +1,7 @@
 [#1743-restore-the-array-from-adjacent-pairs]
 = 1743. Restore the Array From Adjacent Pairs
 
-https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/[LeetCode - 1743. Restore the Array From Adjacent Pairs ^]
+{leetcode}/problems/restore-the-array-from-adjacent-pairs/[LeetCode - 1743. Restore the Array From Adjacent Pairs ^]
 
 There is an integer array `nums` that consists of `n` *unique *elements, but you have forgotten it. However, you do remember every pair of adjacent elements in `nums`.
 

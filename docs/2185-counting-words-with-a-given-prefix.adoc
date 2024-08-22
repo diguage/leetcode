@@ -1,7 +1,7 @@
 [#2185-counting-words-with-a-given-prefix]
 = 2185. Counting Words With a Given Prefix
 
-https://leetcode.com/problems/counting-words-with-a-given-prefix/[LeetCode - 2185. Counting Words With a Given Prefix ^]
+{leetcode}/problems/counting-words-with-a-given-prefix/[LeetCode - 2185. Counting Words With a Given Prefix ^]
 
 You are given an array of strings `words` and a string `pref`.
 

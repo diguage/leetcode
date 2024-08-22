@@ -1,7 +1,7 @@
 [#2781-length-of-the-longest-valid-substring]
 = 2781. Length of the Longest Valid Substring
 
-https://leetcode.com/problems/length-of-the-longest-valid-substring/[LeetCode - 2781. Length of the Longest Valid Substring ^]
+{leetcode}/problems/length-of-the-longest-valid-substring/[LeetCode - 2781. Length of the Longest Valid Substring ^]
 
 You are given a string `word` and an array of strings `forbidden`.
 

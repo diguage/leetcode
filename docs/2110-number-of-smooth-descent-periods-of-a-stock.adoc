@@ -1,7 +1,7 @@
 [#2110-number-of-smooth-descent-periods-of-a-stock]
 = 2110. Number of Smooth Descent Periods of a Stock
 
-https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/[LeetCode - 2110. Number of Smooth Descent Periods of a Stock ^]
+{leetcode}/problems/number-of-smooth-descent-periods-of-a-stock/[LeetCode - 2110. Number of Smooth Descent Periods of a Stock ^]
 
 You are given an integer array `prices` representing the daily price history of a stock, where `prices[i]` is the stock price on the `i^th^` day.
 

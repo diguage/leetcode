@@ -1,7 +1,7 @@
 [#0900-rle-iterator]
 = 900. RLE Iterator
 
-https://leetcode.com/problems/rle-iterator/[LeetCode - RLE Iterator^]
+{leetcode}/problems/rle-iterator/[LeetCode - RLE Iterator^]
 
 Write an iterator that iterates through a run-length encoded sequence.
 

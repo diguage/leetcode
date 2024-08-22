@@ -1,7 +1,7 @@
 [#1974-minimum-time-to-type-word-using-special-typewriter]
 = 1974. Minimum Time to Type Word Using Special Typewriter
 
-https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/[LeetCode - 1974. Minimum Time to Type Word Using Special Typewriter ^]
+{leetcode}/problems/minimum-time-to-type-word-using-special-typewriter/[LeetCode - 1974. Minimum Time to Type Word Using Special Typewriter ^]
 
 There is a special typewriter with lowercase English letters `'a'` to `'z'` arranged in a *circle* with a *pointer*. A character can *only* be typed if the pointer is pointing to that character. The pointer is *initially* pointing to the character `'a'`.
 <img alt="" src="https://assets.leetcode.com/uploads/2021/07/31/chart.jpg" style="width: 530px; height: 410px;" />

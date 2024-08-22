@@ -1,7 +1,7 @@
 [#0110-balanced-binary-tree]
 = 110. Balanced Binary Tree
 
-https://leetcode.com/problems/balanced-binary-tree/[LeetCode - Balanced Binary Tree^]
+{leetcode}/problems/balanced-binary-tree/[LeetCode - Balanced Binary Tree^]
 
 Given a binary tree, determine if it is height-balanced.
 

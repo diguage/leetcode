@@ -1,7 +1,7 @@
 [#0709-to-lower-case]
 = 709. To Lower Case
 
-https://leetcode.com/problems/to-lower-case/[LeetCode - To Lower Case^]
+{leetcode}/problems/to-lower-case/[LeetCode - To Lower Case^]
 
 Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
 

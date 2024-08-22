@@ -1,7 +1,7 @@
 [#1475-final-prices-with-a-special-discount-in-a-shop]
 = 1475. Final Prices With a Special Discount in a Shop
 
-https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/[LeetCode - 1475. Final Prices With a Special Discount in a Shop ^]
+{leetcode}/problems/final-prices-with-a-special-discount-in-a-shop/[LeetCode - 1475. Final Prices With a Special Discount in a Shop ^]
 
 You are given an integer array `prices` where `prices[i]` is the price of the `i^th^` item in a shop.
 

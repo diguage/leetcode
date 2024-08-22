@@ -1,7 +1,7 @@
 [#2018-check-if-word-can-be-placed-in-crossword]
 = 2018. Check if Word Can Be Placed In Crossword
 
-https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/[LeetCode - 2018. Check if Word Can Be Placed In Crossword ^]
+{leetcode}/problems/check-if-word-can-be-placed-in-crossword/[LeetCode - 2018. Check if Word Can Be Placed In Crossword ^]
 
 You are given an `m x n` matrix `board`, representing the* current *state of a crossword puzzle. The crossword contains lowercase English letters (from solved words), `' '` to represent any *empty *cells, and `'#'` to represent any *blocked* cells.
 

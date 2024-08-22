@@ -1,7 +1,7 @@
 [#0210-course-schedule-ii]
 = 210. Course Schedule II
 
-https://leetcode.com/problems/course-schedule-ii/[LeetCode - Course Schedule II^]
+{leetcode}/problems/course-schedule-ii/[LeetCode - Course Schedule II^]
 
 思考题：看题解，可以通过深度优先遍历来实现。思考如何实现？
 

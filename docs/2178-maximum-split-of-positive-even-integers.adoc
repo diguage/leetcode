@@ -1,7 +1,7 @@
 [#2178-maximum-split-of-positive-even-integers]
 = 2178. Maximum Split of Positive Even Integers
 
-https://leetcode.com/problems/maximum-split-of-positive-even-integers/[LeetCode - 2178. Maximum Split of Positive Even Integers ^]
+{leetcode}/problems/maximum-split-of-positive-even-integers/[LeetCode - 2178. Maximum Split of Positive Even Integers ^]
 
 You are given an integer `finalSum`. Split it into a sum of a *maximum* number of *unique* positive even integers.
 

@@ -1,7 +1,7 @@
 [#3187-peaks-in-array]
 = 3187. Peaks in Array
 
-https://leetcode.com/problems/peaks-in-array/[LeetCode - 3187. Peaks in Array ^]
+{leetcode}/problems/peaks-in-array/[LeetCode - 3187. Peaks in Array ^]
 
 A *peak* in an array `arr` is an element that is *greater* than its previous and next element in `arr`.
 

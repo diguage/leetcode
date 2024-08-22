@@ -1,7 +1,7 @@
 [#1642-furthest-building-you-can-reach]
 = 1642. Furthest Building You Can Reach
 
-https://leetcode.com/problems/furthest-building-you-can-reach/[LeetCode - 1642. Furthest Building You Can Reach ^]
+{leetcode}/problems/furthest-building-you-can-reach/[LeetCode - 1642. Furthest Building You Can Reach ^]
 
 You are given an integer array `heights` representing the heights of buildings, some `bricks`, and some `ladders`.
 

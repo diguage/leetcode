@@ -1,7 +1,7 @@
 [#2879-display-the-first-three-rows]
 = 2879. Display the First Three Rows
 
-https://leetcode.com/problems/display-the-first-three-rows/[LeetCode - 2879. Display the First Three Rows ^]
+{leetcode}/problems/display-the-first-three-rows/[LeetCode - 2879. Display the First Three Rows ^]
 
 [subs="verbatim,quotes"]
 ----

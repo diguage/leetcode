@@ -1,7 +1,7 @@
 [#2637-promise-time-limit]
 = 2637. Promise Time Limit
 
-https://leetcode.com/problems/promise-time-limit/[LeetCode - 2637. Promise Time Limit ^]
+{leetcode}/problems/promise-time-limit/[LeetCode - 2637. Promise Time Limit ^]
 
 Given an asynchronous function `fn` and a time `t` in milliseconds, return a new *time limited* version of the input function. `fn` takes arguments provided to the *time limited *function.
 

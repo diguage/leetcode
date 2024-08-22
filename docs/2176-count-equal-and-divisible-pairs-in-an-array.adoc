@@ -1,7 +1,7 @@
 [#2176-count-equal-and-divisible-pairs-in-an-array]
 = 2176. Count Equal and Divisible Pairs in an Array
 
-https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/[LeetCode - 2176. Count Equal and Divisible Pairs in an Array ^]
+{leetcode}/problems/count-equal-and-divisible-pairs-in-an-array/[LeetCode - 2176. Count Equal and Divisible Pairs in an Array ^]
 
 Given a *0-indexed* integer array `nums` of length `n` and an integer `k`, return _the *number of pairs*_ `(i, j)` _where_ `0 <= i < j < n`, _such that_ `nums[i] == nums[j]` _and_ `(i * j)` _is divisible by_ `k`.
  

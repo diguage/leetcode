@@ -1,7 +1,7 @@
 [#3088-make-string-anti-palindrome]
 = 3088. Make String Anti-palindrome
 
-https://leetcode.com/problems/make-string-anti-palindrome/[LeetCode - 3088. Make String Anti-palindrome ^]
+{leetcode}/problems/make-string-anti-palindrome/[LeetCode - 3088. Make String Anti-palindrome ^]
 
 
 

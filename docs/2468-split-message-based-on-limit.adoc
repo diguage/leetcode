@@ -1,7 +1,7 @@
 [#2468-split-message-based-on-limit]
 = 2468. Split Message Based on Limit
 
-https://leetcode.com/problems/split-message-based-on-limit/[LeetCode - 2468. Split Message Based on Limit ^]
+{leetcode}/problems/split-message-based-on-limit/[LeetCode - 2468. Split Message Based on Limit ^]
 
 You are given a string, `message`, and a positive integer, `limit`.
 

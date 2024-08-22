@@ -1,7 +1,7 @@
 [#2875-minimum-size-subarray-in-infinite-array]
 = 2875. Minimum Size Subarray in Infinite Array
 
-https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/[LeetCode - 2875. Minimum Size Subarray in Infinite Array ^]
+{leetcode}/problems/minimum-size-subarray-in-infinite-array/[LeetCode - 2875. Minimum Size Subarray in Infinite Array ^]
 
 You are given a *0-indexed* array `nums` and an integer `target`.
 

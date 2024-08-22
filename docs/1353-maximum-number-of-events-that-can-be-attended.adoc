@@ -1,7 +1,7 @@
 [#1353-maximum-number-of-events-that-can-be-attended]
 = 1353. Maximum Number of Events That Can Be Attended
 
-https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/[LeetCode - 1353. Maximum Number of Events That Can Be Attended ^]
+{leetcode}/problems/maximum-number-of-events-that-can-be-attended/[LeetCode - 1353. Maximum Number of Events That Can Be Attended ^]
 
 You are given an array of `events` where `events[i] = [startDay<sub>i</sub>, endDay<sub>i</sub>]`. Every event `i` starts at `startDay<sub>i</sub>`<sub> </sub>and ends at `endDay<sub>i</sub>`.
 

@@ -1,7 +1,7 @@
 [#0895-maximum-frequency-stack]
 = 895. Maximum Frequency Stack
 
-https://leetcode.com/problems/maximum-frequency-stack/[LeetCode - Maximum Frequency Stack^]
+{leetcode}/problems/maximum-frequency-stack/[LeetCode - Maximum Frequency Stack^]
 
 Implement `FreqStack`, a class which simulates the operation of a stack-like data structure.
 

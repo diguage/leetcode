@@ -1,7 +1,7 @@
 [#2780-minimum-index-of-a-valid-split]
 = 2780. Minimum Index of a Valid Split
 
-https://leetcode.com/problems/minimum-index-of-a-valid-split/[LeetCode - 2780. Minimum Index of a Valid Split ^]
+{leetcode}/problems/minimum-index-of-a-valid-split/[LeetCode - 2780. Minimum Index of a Valid Split ^]
 
 An element `x` of an integer array `arr` of length `m` is *dominant* if `freq(x) * 2 > m`, where `freq(x)` is the number of occurrences of `x` in `arr`. Note that this definition implies that `arr` can have *at most one* dominant element.
 

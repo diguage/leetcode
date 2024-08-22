@@ -1,7 +1,7 @@
 [#2426-number-of-pairs-satisfying-inequality]
 = 2426. Number of Pairs Satisfying Inequality
 
-https://leetcode.com/problems/number-of-pairs-satisfying-inequality/[LeetCode - 2426. Number of Pairs Satisfying Inequality ^]
+{leetcode}/problems/number-of-pairs-satisfying-inequality/[LeetCode - 2426. Number of Pairs Satisfying Inequality ^]
 
 You are given two *0-indexed* integer arrays `nums1` and `nums2`, each of size `n`, and an integer `diff`. Find the number of *pairs* `(i, j)` such that:
 

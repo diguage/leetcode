@@ -1,7 +1,7 @@
 [#3016-minimum-number-of-pushes-to-type-word-ii]
 = 3016. Minimum Number of Pushes to Type Word II
 
-https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/[LeetCode - 3016. Minimum Number of Pushes to Type Word II ^]
+{leetcode}/problems/minimum-number-of-pushes-to-type-word-ii/[LeetCode - 3016. Minimum Number of Pushes to Type Word II ^]
 
 You are given a string `word` containing lowercase English letters.
 

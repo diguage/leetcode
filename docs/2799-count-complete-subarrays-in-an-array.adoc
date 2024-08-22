@@ -1,7 +1,7 @@
 [#2799-count-complete-subarrays-in-an-array]
 = 2799. Count Complete Subarrays in an Array
 
-https://leetcode.com/problems/count-complete-subarrays-in-an-array/[LeetCode - 2799. Count Complete Subarrays in an Array ^]
+{leetcode}/problems/count-complete-subarrays-in-an-array/[LeetCode - 2799. Count Complete Subarrays in an Array ^]
 
 You are given an array `nums` consisting of *positive* integers.
 

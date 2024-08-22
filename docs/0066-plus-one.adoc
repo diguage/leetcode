@@ -1,7 +1,7 @@
 [#0066-plus-one]
 = 66. Plus One
 
-https://leetcode.com/problems/plus-one/[LeetCode - Plus One^]
+{leetcode}/problems/plus-one/[LeetCode - Plus One^]
 
 Given a *non-empty* array of digits representing a non-negative integer, plus one to the integer.
 

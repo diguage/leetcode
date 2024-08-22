@@ -1,7 +1,7 @@
 [#0152-maximum-product-subarray]
 = 152. Maximum Product Subarray
 
-https://leetcode.com/problems/maximum-product-subarray/[LeetCode - Maximum Product Subarray^]
+{leetcode}/problems/maximum-product-subarray/[LeetCode - Maximum Product Subarray^]
 
 这道题的阶梯思路跟另外某个题的解题思路很类似！
 

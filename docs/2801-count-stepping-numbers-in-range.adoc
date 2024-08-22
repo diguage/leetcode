@@ -1,7 +1,7 @@
 [#2801-count-stepping-numbers-in-range]
 = 2801. Count Stepping Numbers in Range
 
-https://leetcode.com/problems/count-stepping-numbers-in-range/[LeetCode - 2801. Count Stepping Numbers in Range ^]
+{leetcode}/problems/count-stepping-numbers-in-range/[LeetCode - 2801. Count Stepping Numbers in Range ^]
 
 Given two positive integers `low` and `high` represented as strings, find the count of *stepping numbers* in the inclusive range `[low, high]`.
 

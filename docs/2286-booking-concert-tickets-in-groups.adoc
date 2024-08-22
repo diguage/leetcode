@@ -1,7 +1,7 @@
 [#2286-booking-concert-tickets-in-groups]
 = 2286. Booking Concert Tickets in Groups
 
-https://leetcode.com/problems/booking-concert-tickets-in-groups/[LeetCode - 2286. Booking Concert Tickets in Groups ^]
+{leetcode}/problems/booking-concert-tickets-in-groups/[LeetCode - 2286. Booking Concert Tickets in Groups ^]
 
 A concert hall has `n` rows numbered from `0` to `n - 1`, each with `m` seats, numbered from `0` to `m - 1`. You need to design a ticketing system that can allocate seats in the following cases:
 

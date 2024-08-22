@@ -1,7 +1,7 @@
 [#2034-stock-price-fluctuation]
 = 2034. Stock Price Fluctuation 
 
-https://leetcode.com/problems/stock-price-fluctuation/[LeetCode - 2034. Stock Price Fluctuation  ^]
+{leetcode}/problems/stock-price-fluctuation/[LeetCode - 2034. Stock Price Fluctuation  ^]
 
 You are given a stream of *records* about a particular stock. Each record contains a *timestamp* and the corresponding *price* of the stock at that timestamp.
 

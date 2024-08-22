@@ -1,7 +1,7 @@
 [#1717-maximum-score-from-removing-substrings]
 = 1717. Maximum Score From Removing Substrings
 
-https://leetcode.com/problems/maximum-score-from-removing-substrings/[LeetCode - 1717. Maximum Score From Removing Substrings ^]
+{leetcode}/problems/maximum-score-from-removing-substrings/[LeetCode - 1717. Maximum Score From Removing Substrings ^]
 
 You are given a string `s` and two integers `x` and `y`. You can perform two types of operations any number of times.
 

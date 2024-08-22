@@ -459,6 +459,7 @@
             <toc-title>目录</toc-title>
             <iconfont-cdn>//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css</iconfont-cdn>
             <doc_base_url>xref:.</doc_base_url>
+            <leetcode>https://leetcode.cn</leetcode>
           </attributes>
         </configuration>
         <executions>

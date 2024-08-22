@@ -1,7 +1,7 @@
 [#2785-sort-vowels-in-a-string]
 = 2785. Sort Vowels in a String
 
-https://leetcode.com/problems/sort-vowels-in-a-string/[LeetCode - 2785. Sort Vowels in a String ^]
+{leetcode}/problems/sort-vowels-in-a-string/[LeetCode - 2785. Sort Vowels in a String ^]
 
 Given a *0-indexed* string `s`, *permute* `s` to get a new string `t` such that:
 

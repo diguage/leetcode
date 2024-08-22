@@ -1,7 +1,7 @@
 [#3030-find-the-grid-of-region-average]
 = 3030. Find the Grid of Region Average
 
-https://leetcode.com/problems/find-the-grid-of-region-average/[LeetCode - 3030. Find the Grid of Region Average ^]
+{leetcode}/problems/find-the-grid-of-region-average/[LeetCode - 3030. Find the Grid of Region Average ^]
 
 You are given `m x n` grid `image` which represents a grayscale image, where `image[i][j]` represents a pixel with intensity in the range `[0..255]`. You are also given a *non-negative* integer `threshold`.
 

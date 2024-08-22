@@ -1,7 +1,7 @@
 [#3213-construct-string-with-minimum-cost]
 = 3213. Construct String with Minimum Cost
 
-https://leetcode.com/problems/construct-string-with-minimum-cost/[LeetCode - 3213. Construct String with Minimum Cost ^]
+{leetcode}/problems/construct-string-with-minimum-cost/[LeetCode - 3213. Construct String with Minimum Cost ^]
 
 You are given a string `target`, an array of strings `words`, and an integer array `costs`, both arrays of the same length.
 

@@ -1,7 +1,7 @@
 [#2554-maximum-number-of-integers-to-choose-from-a-range-i]
 = 2554. Maximum Number of Integers to Choose From a Range I
 
-https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/[LeetCode - 2554. Maximum Number of Integers to Choose From a Range I ^]
+{leetcode}/problems/maximum-number-of-integers-to-choose-from-a-range-i/[LeetCode - 2554. Maximum Number of Integers to Choose From a Range I ^]
 
 You are given an integer array `banned` and two integers `n` and `maxSum`. You are choosing some number of integers following the below rules:
 

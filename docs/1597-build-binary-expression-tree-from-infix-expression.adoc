@@ -1,7 +1,7 @@
 [#1597-build-binary-expression-tree-from-infix-expression]
 = 1597. Build Binary Expression Tree From Infix Expression
 
-https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression/[LeetCode - 1597. Build Binary Expression Tree From Infix Expression ^]
+{leetcode}/problems/build-binary-expression-tree-from-infix-expression/[LeetCode - 1597. Build Binary Expression Tree From Infix Expression ^]
 
 
 

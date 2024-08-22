@@ -1,7 +1,7 @@
 [#0207-course-schedule]
 = 207. Course Schedule
 
-https://leetcode.com/problems/course-schedule/[LeetCode - Course Schedule^]
+{leetcode}/problems/course-schedule/[LeetCode - Course Schedule^]
 
 TODO: 研究一下图相关算法和拓扑排序。
 

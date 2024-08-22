@@ -1,7 +1,7 @@
 [#1535-find-the-winner-of-an-array-game]
 = 1535. Find the Winner of an Array Game
 
-https://leetcode.com/problems/find-the-winner-of-an-array-game/[LeetCode - 1535. Find the Winner of an Array Game ^]
+{leetcode}/problems/find-the-winner-of-an-array-game/[LeetCode - 1535. Find the Winner of an Array Game ^]
 
 Given an integer array `arr` of *distinct* integers and an integer `k`.
 

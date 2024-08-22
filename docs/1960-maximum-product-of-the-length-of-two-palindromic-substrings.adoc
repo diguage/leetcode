@@ -1,7 +1,7 @@
 [#1960-maximum-product-of-the-length-of-two-palindromic-substrings]
 = 1960. Maximum Product of the Length of Two Palindromic Substrings
 
-https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-substrings/[LeetCode - 1960. Maximum Product of the Length of Two Palindromic Substrings ^]
+{leetcode}/problems/maximum-product-of-the-length-of-two-palindromic-substrings/[LeetCode - 1960. Maximum Product of the Length of Two Palindromic Substrings ^]
 
 You are given a *0-indexed* string `s` and are tasked with finding two *non-intersecting palindromic *substrings of *odd* length such that the product of their lengths is maximized.
 

@@ -1,7 +1,7 @@
 [#0976-largest-perimeter-triangle]
 = 976. Largest Perimeter Triangle
 
-https://leetcode.com/problems/largest-perimeter-triangle/[LeetCode - Largest Perimeter Triangle^]
+{leetcode}/problems/largest-perimeter-triangle/[LeetCode - Largest Perimeter Triangle^]
 
 Given an array `A` of positive lengths, return the largest perimeter of a triangle with *non-zero area*, formed from 3 of these lengths.
 

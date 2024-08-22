@@ -1,7 +1,7 @@
 [#2596-check-knight-tour-configuration]
 = 2596. Check Knight Tour Configuration
 
-https://leetcode.com/problems/check-knight-tour-configuration/[LeetCode - 2596. Check Knight Tour Configuration ^]
+{leetcode}/problems/check-knight-tour-configuration/[LeetCode - 2596. Check Knight Tour Configuration ^]
 
 There is a knight on an `n x n` chessboard. In a valid configuration, the knight starts *at the top-left cell* of the board and visits every cell on the board *exactly once*.
 

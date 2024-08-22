@@ -1,7 +1,7 @@
 [#2938-separate-black-and-white-balls]
 = 2938. Separate Black and White Balls
 
-https://leetcode.com/problems/separate-black-and-white-balls/[LeetCode - 2938. Separate Black and White Balls ^]
+{leetcode}/problems/separate-black-and-white-balls/[LeetCode - 2938. Separate Black and White Balls ^]
 
 There are `n` balls on a table, each ball has a color black or white.
 

@@ -1,7 +1,7 @@
 [#1735-count-ways-to-make-array-with-product]
 = 1735. Count Ways to Make Array With Product
 
-https://leetcode.com/problems/count-ways-to-make-array-with-product/[LeetCode - 1735. Count Ways to Make Array With Product ^]
+{leetcode}/problems/count-ways-to-make-array-with-product/[LeetCode - 1735. Count Ways to Make Array With Product ^]
 
 You are given a 2D integer array, `queries`. For each `queries[i]`, where `queries[i] = [n<sub>i</sub>, k<sub>i</sub>]`, find the number of different ways you can place positive integers into an array of size `n<sub>i</sub>` such that the product of the integers is `k<sub>i</sub>`. As the number of ways may be too large, the answer to the `i^th^` query is the number of ways *modulo* `10^9^ + 7`.
 

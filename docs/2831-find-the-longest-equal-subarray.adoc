@@ -1,7 +1,7 @@
 [#2831-find-the-longest-equal-subarray]
 = 2831. Find the Longest Equal Subarray
 
-https://leetcode.com/problems/find-the-longest-equal-subarray/[LeetCode - 2831. Find the Longest Equal Subarray ^]
+{leetcode}/problems/find-the-longest-equal-subarray/[LeetCode - 2831. Find the Longest Equal Subarray ^]
 
 You are given a *0-indexed* integer array `nums` and an integer `k`.
 

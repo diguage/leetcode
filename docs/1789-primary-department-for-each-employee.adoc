@@ -1,7 +1,7 @@
 [#1789-primary-department-for-each-employee]
 = 1789. Primary Department for Each Employee
 
-https://leetcode.com/problems/primary-department-for-each-employee/[LeetCode - 1789. Primary Department for Each Employee ^]
+{leetcode}/problems/primary-department-for-each-employee/[LeetCode - 1789. Primary Department for Each Employee ^]
 
 Table: `Employee`
 

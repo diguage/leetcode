@@ -1,7 +1,7 @@
 [#2334-subarray-with-elements-greater-than-varying-threshold]
 = 2334. Subarray With Elements Greater Than Varying Threshold
 
-https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/[LeetCode - 2334. Subarray With Elements Greater Than Varying Threshold ^]
+{leetcode}/problems/subarray-with-elements-greater-than-varying-threshold/[LeetCode - 2334. Subarray With Elements Greater Than Varying Threshold ^]
 
 You are given an integer array `nums` and an integer `threshold`.
 

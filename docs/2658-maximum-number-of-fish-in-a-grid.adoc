@@ -1,7 +1,7 @@
 [#2658-maximum-number-of-fish-in-a-grid]
 = 2658. Maximum Number of Fish in a Grid
 
-https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/[LeetCode - 2658. Maximum Number of Fish in a Grid ^]
+{leetcode}/problems/maximum-number-of-fish-in-a-grid/[LeetCode - 2658. Maximum Number of Fish in a Grid ^]
 
 You are given a *0-indexed* 2D matrix `grid` of size `m x n`, where `(r, c)` represents:
 

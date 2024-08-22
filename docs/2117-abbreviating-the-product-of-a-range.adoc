@@ -1,7 +1,7 @@
 [#2117-abbreviating-the-product-of-a-range]
 = 2117. Abbreviating the Product of a Range
 
-https://leetcode.com/problems/abbreviating-the-product-of-a-range/[LeetCode - 2117. Abbreviating the Product of a Range ^]
+{leetcode}/problems/abbreviating-the-product-of-a-range/[LeetCode - 2117. Abbreviating the Product of a Range ^]
 
 You are given two positive integers `left` and `right` with `left <= right`. Calculate the *product* of all integers in the *inclusive* range `[left, right]`.
 

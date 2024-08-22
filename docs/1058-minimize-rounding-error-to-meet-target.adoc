@@ -1,7 +1,7 @@
 [#1058-minimize-rounding-error-to-meet-target]
 = 1058. Minimize Rounding Error to Meet Target
 
-https://leetcode.com/problems/minimize-rounding-error-to-meet-target/[LeetCode - Minimize Rounding Error to Meet Target^]
+{leetcode}/problems/minimize-rounding-error-to-meet-target/[LeetCode - Minimize Rounding Error to Meet Target^]
 
 
 

@@ -1,7 +1,7 @@
 [#0467-unique-substrings-in-wraparound-string]
 = 467. Unique Substrings in Wraparound String
 
-https://leetcode.com/problems/unique-substrings-in-wraparound-string/[LeetCode - Unique Substrings in Wraparound String^]
+{leetcode}/problems/unique-substrings-in-wraparound-string/[LeetCode - Unique Substrings in Wraparound String^]
 
 Consider the string `s` to be the infinite wraparound string of "abcdefghijklmnopqrstuvwxyz", so `s` will look like this: "...zabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd....".
 

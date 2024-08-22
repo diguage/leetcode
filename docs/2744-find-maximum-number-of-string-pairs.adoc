@@ -1,7 +1,7 @@
 [#2744-find-maximum-number-of-string-pairs]
 = 2744. Find Maximum Number of String Pairs
 
-https://leetcode.com/problems/find-maximum-number-of-string-pairs/[LeetCode - 2744. Find Maximum Number of String Pairs ^]
+{leetcode}/problems/find-maximum-number-of-string-pairs/[LeetCode - 2744. Find Maximum Number of String Pairs ^]
 
 You are given a *0-indexed* array `words` consisting of *distinct* strings.
 

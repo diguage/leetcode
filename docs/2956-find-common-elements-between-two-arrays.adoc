@@ -1,7 +1,7 @@
 [#2956-find-common-elements-between-two-arrays]
 = 2956. Find Common Elements Between Two Arrays
 
-https://leetcode.com/problems/find-common-elements-between-two-arrays/[LeetCode - 2956. Find Common Elements Between Two Arrays ^]
+{leetcode}/problems/find-common-elements-between-two-arrays/[LeetCode - 2956. Find Common Elements Between Two Arrays ^]
 
 You are given two integer arrays `nums1` and `nums2` of sizes `n` and `m`, respectively. Calculate the following values:
 

@@ -1,7 +1,7 @@
 [#2850-minimum-moves-to-spread-stones-over-grid]
 = 2850. Minimum Moves to Spread Stones Over Grid
 
-https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/[LeetCode - 2850. Minimum Moves to Spread Stones Over Grid ^]
+{leetcode}/problems/minimum-moves-to-spread-stones-over-grid/[LeetCode - 2850. Minimum Moves to Spread Stones Over Grid ^]
 
 You are given a *0-indexed* 2D integer matrix `grid` of size `3 * 3`, representing the number of stones in each cell. The grid contains exactly `9` stones, and there can be *multiple* stones in a single cell.
 

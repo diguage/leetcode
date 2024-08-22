@@ -1,7 +1,7 @@
 [#2896-apply-operations-to-make-two-strings-equal]
 = 2896. Apply Operations to Make Two Strings Equal
 
-https://leetcode.com/problems/apply-operations-to-make-two-strings-equal/[LeetCode - 2896. Apply Operations to Make Two Strings Equal ^]
+{leetcode}/problems/apply-operations-to-make-two-strings-equal/[LeetCode - 2896. Apply Operations to Make Two Strings Equal ^]
 
 You are given two *0-indexed* binary strings `s1` and `s2`, both of length `n`, and a positive integer `x`.
 

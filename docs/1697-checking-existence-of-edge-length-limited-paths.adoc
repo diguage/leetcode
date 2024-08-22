@@ -1,7 +1,7 @@
 [#1697-checking-existence-of-edge-length-limited-paths]
 = 1697. Checking Existence of Edge Length Limited Paths
 
-https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/[LeetCode - 1697. Checking Existence of Edge Length Limited Paths ^]
+{leetcode}/problems/checking-existence-of-edge-length-limited-paths/[LeetCode - 1697. Checking Existence of Edge Length Limited Paths ^]
 
 An undirected graph of `n` nodes is defined by `edgeList`, where `edgeList[i] = [u<sub>i</sub>, v<sub>i</sub>, dis<sub>i</sub>]` denotes an edge between nodes `u<sub>i</sub>` and `v<sub>i</sub>` with distance `dis<sub>i</sub>`. Note that there may be *multiple* edges between two nodes.
 

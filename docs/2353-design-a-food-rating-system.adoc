@@ -1,7 +1,7 @@
 [#2353-design-a-food-rating-system]
 = 2353. Design a Food Rating System
 
-https://leetcode.com/problems/design-a-food-rating-system/[LeetCode - 2353. Design a Food Rating System ^]
+{leetcode}/problems/design-a-food-rating-system/[LeetCode - 2353. Design a Food Rating System ^]
 
 Design a food rating system that can do the following:
 

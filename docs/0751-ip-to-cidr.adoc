@@ -1,7 +1,7 @@
 [#0751-ip-to-cidr]
 = 751. IP to CIDR
 
-https://leetcode.com/problems/ip-to-cidr/[LeetCode - IP to CIDR^]
+{leetcode}/problems/ip-to-cidr/[LeetCode - IP to CIDR^]
 
 
 

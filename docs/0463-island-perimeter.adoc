@@ -1,7 +1,7 @@
 [#0463-island-perimeter]
 = 463. Island Perimeter
 
-https://leetcode.com/problems/island-perimeter/[LeetCode - Island Perimeter^]
+{leetcode}/problems/island-perimeter/[LeetCode - Island Perimeter^]
 
 You are given a map in form of a two-dimensional integer grid where 1 represents land and 0 represents water.
 

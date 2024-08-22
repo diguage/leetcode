@@ -1,7 +1,7 @@
 [#2485-find-the-pivot-integer]
 = 2485. Find the Pivot Integer
 
-https://leetcode.com/problems/find-the-pivot-integer/[LeetCode - 2485. Find the Pivot Integer ^]
+{leetcode}/problems/find-the-pivot-integer/[LeetCode - 2485. Find the Pivot Integer ^]
 
 Given a positive integer `n`, find the *pivot integer* `x` such that:
 

@@ -1,7 +1,7 @@
 [#2813-maximum-elegance-of-a-k-length-subsequence]
 = 2813. Maximum Elegance of a K-Length Subsequence
 
-https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence/[LeetCode - 2813. Maximum Elegance of a K-Length Subsequence ^]
+{leetcode}/problems/maximum-elegance-of-a-k-length-subsequence/[LeetCode - 2813. Maximum Elegance of a K-Length Subsequence ^]
 
 You are given a *0-indexed* 2D integer array `items` of length `n` and an integer `k`.
 

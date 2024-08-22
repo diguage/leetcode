@@ -1,7 +1,7 @@
 [#3090-maximum-length-substring-with-two-occurrences]
 = 3090. Maximum Length Substring With Two Occurrences
 
-https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/[LeetCode - 3090. Maximum Length Substring With Two Occurrences ^]
+{leetcode}/problems/maximum-length-substring-with-two-occurrences/[LeetCode - 3090. Maximum Length Substring With Two Occurrences ^]
 
 Given a string `s`, return the *maximum* length of a <span data-keyword="substring">substring such that it contains _at most two occurrences_ of each character.
  

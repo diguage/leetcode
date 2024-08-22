@@ -1,7 +1,7 @@
 [#0972-equal-rational-numbers]
 = 972. Equal Rational Numbers
 
-https://leetcode.com/problems/equal-rational-numbers/[LeetCode - Equal Rational Numbers^]
+{leetcode}/problems/equal-rational-numbers/[LeetCode - Equal Rational Numbers^]
 
 Given two strings `S` and `T`, each of which represents a non-negative rational number, return *True* if and only if they represent the same number. The strings may use parentheses to denote the repeating part of the rational number.
 

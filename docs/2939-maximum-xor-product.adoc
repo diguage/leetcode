@@ -1,7 +1,7 @@
 [#2939-maximum-xor-product]
 = 2939. Maximum Xor Product
 
-https://leetcode.com/problems/maximum-xor-product/[LeetCode - 2939. Maximum Xor Product ^]
+{leetcode}/problems/maximum-xor-product/[LeetCode - 2939. Maximum Xor Product ^]
 
 Given three integers `a`, `b`, and `n`, return _the *maximum value* of_ `(a XOR x) * (b XOR x)` _where_ `0 <= x < 2^n^`.
 

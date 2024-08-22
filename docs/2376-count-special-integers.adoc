@@ -1,7 +1,7 @@
 [#2376-count-special-integers]
 = 2376. Count Special Integers
 
-https://leetcode.com/problems/count-special-integers/[LeetCode - 2376. Count Special Integers ^]
+{leetcode}/problems/count-special-integers/[LeetCode - 2376. Count Special Integers ^]
 
 We call a positive integer *special* if all of its digits are *distinct*.
 

@@ -1,7 +1,7 @@
 [#2312-selling-pieces-of-wood]
 = 2312. Selling Pieces of Wood
 
-https://leetcode.com/problems/selling-pieces-of-wood/[LeetCode - 2312. Selling Pieces of Wood ^]
+{leetcode}/problems/selling-pieces-of-wood/[LeetCode - 2312. Selling Pieces of Wood ^]
 
 You are given two integers `m` and `n` that represent the height and width of a rectangular piece of wood. You are also given a 2D integer array `prices`, where `prices[i] = [h<sub>i</sub>, w<sub>i</sub>, price<sub>i</sub>]` indicates you can sell a rectangular piece of wood of height `h<sub>i</sub>` and width `w<sub>i</sub>` for `price<sub>i</sub>` dollars.
 

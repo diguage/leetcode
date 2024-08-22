@@ -1,7 +1,7 @@
 [#2055-plates-between-candles]
 = 2055. Plates Between Candles
 
-https://leetcode.com/problems/plates-between-candles/[LeetCode - 2055. Plates Between Candles ^]
+{leetcode}/problems/plates-between-candles/[LeetCode - 2055. Plates Between Candles ^]
 
 There is a long table with a line of plates and candles arranged on top of it. You are given a *0-indexed* string `s` consisting of characters `'*'` and `'|'` only, where a `'*'` represents a *plate* and a `'|'` represents a *candle*.
 

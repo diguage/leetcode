@@ -1,7 +1,7 @@
 [#2140-solving-questions-with-brainpower]
 = 2140. Solving Questions With Brainpower
 
-https://leetcode.com/problems/solving-questions-with-brainpower/[LeetCode - 2140. Solving Questions With Brainpower ^]
+{leetcode}/problems/solving-questions-with-brainpower/[LeetCode - 2140. Solving Questions With Brainpower ^]
 
 You are given a *0-indexed* 2D integer array `questions` where `questions[i] = [points<sub>i</sub>, brainpower<sub>i</sub>]`.
 

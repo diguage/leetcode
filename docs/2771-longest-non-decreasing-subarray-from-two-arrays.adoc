@@ -1,7 +1,7 @@
 [#2771-longest-non-decreasing-subarray-from-two-arrays]
 = 2771. Longest Non-decreasing Subarray From Two Arrays
 
-https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/[LeetCode - 2771. Longest Non-decreasing Subarray From Two Arrays ^]
+{leetcode}/problems/longest-non-decreasing-subarray-from-two-arrays/[LeetCode - 2771. Longest Non-decreasing Subarray From Two Arrays ^]
 
 You are given two *0-indexed* integer arrays `nums1` and `nums2` of length `n`.
 

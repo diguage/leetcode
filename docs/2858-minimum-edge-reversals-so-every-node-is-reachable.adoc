@@ -1,7 +1,7 @@
 [#2858-minimum-edge-reversals-so-every-node-is-reachable]
 = 2858. Minimum Edge Reversals So Every Node Is Reachable
 
-https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable/[LeetCode - 2858. Minimum Edge Reversals So Every Node Is Reachable ^]
+{leetcode}/problems/minimum-edge-reversals-so-every-node-is-reachable/[LeetCode - 2858. Minimum Edge Reversals So Every Node Is Reachable ^]
 
 There is a *simple directed graph* with `n` nodes labeled from `0` to `n - 1`. The graph would form a *tree* if its edges were bi-directional.
 

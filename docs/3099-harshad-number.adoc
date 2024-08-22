@@ -1,7 +1,7 @@
 [#3099-harshad-number]
 = 3099. Harshad Number
 
-https://leetcode.com/problems/harshad-number/[LeetCode - 3099. Harshad Number ^]
+{leetcode}/problems/harshad-number/[LeetCode - 3099. Harshad Number ^]
 
 An integer divisible by the *sum* of its digits is said to be a *Harshad* number. You are given an integer `x`. Return_ the sum of the digits _of_ _`x`_ _if_ _`x`_ _is a *Harshad* number, otherwise, return_ _`-1`_._
 

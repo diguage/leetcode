@@ -1,7 +1,7 @@
 [#0863-all-nodes-distance-k-in-binary-tree]
 = 863. All Nodes Distance K in Binary Tree
 
-https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/[LeetCode - All Nodes Distance K in Binary Tree^]
+{leetcode}/problems/all-nodes-distance-k-in-binary-tree/[LeetCode - All Nodes Distance K in Binary Tree^]
 
 We are given a binary tree (with root node `root`), a `target` node, and an integer value `K`.
 

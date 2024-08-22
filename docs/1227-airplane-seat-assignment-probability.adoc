@@ -1,7 +1,7 @@
 [#1227-airplane-seat-assignment-probability]
 = 1227. Airplane Seat Assignment Probability
 
-https://leetcode.com/problems/airplane-seat-assignment-probability/[LeetCode - Airplane Seat Assignment Probability^]
+{leetcode}/problems/airplane-seat-assignment-probability/[LeetCode - Airplane Seat Assignment Probability^]
 
 <code data-stringify-type="code">n` passengers board an airplane with exactly <code data-stringify-type="code">n` seats. The first passenger has lost the ticket and picks a seat randomly. But after that, the rest of passengers will:
 

@@ -1,7 +1,7 @@
 [#2646-minimize-the-total-price-of-the-trips]
 = 2646. Minimize the Total Price of the Trips
 
-https://leetcode.com/problems/minimize-the-total-price-of-the-trips/[LeetCode - 2646. Minimize the Total Price of the Trips ^]
+{leetcode}/problems/minimize-the-total-price-of-the-trips/[LeetCode - 2646. Minimize the Total Price of the Trips ^]
 
 There exists an undirected and unrooted tree with `n` nodes indexed from `0` to `n - 1`. You are given the integer `n` and a 2D integer array `edges` of length `n - 1`, where `edges[i] = [a<sub>i</sub>, b<sub>i</sub>]` indicates that there is an edge between nodes `a<sub>i</sub>` and `b<sub>i</sub>` in the tree.
 

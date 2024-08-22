@@ -1,7 +1,7 @@
 [#0710-random-pick-with-blacklist]
 = 710. Random Pick with Blacklist
 
-https://leetcode.com/problems/random-pick-with-blacklist/[LeetCode - Random Pick with Blacklist^]
+{leetcode}/problems/random-pick-with-blacklist/[LeetCode - Random Pick with Blacklist^]
 
 Given a blacklist `B` containing unique integers from `[0, N)`, write a function to return a uniform random integer from `[0, N)` which is *NOT* in `B`.
 

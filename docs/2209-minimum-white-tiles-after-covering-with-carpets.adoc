@@ -1,7 +1,7 @@
 [#2209-minimum-white-tiles-after-covering-with-carpets]
 = 2209. Minimum White Tiles After Covering With Carpets
 
-https://leetcode.com/problems/minimum-white-tiles-after-covering-with-carpets/[LeetCode - 2209. Minimum White Tiles After Covering With Carpets ^]
+{leetcode}/problems/minimum-white-tiles-after-covering-with-carpets/[LeetCode - 2209. Minimum White Tiles After Covering With Carpets ^]
 
 You are given a *0-indexed binary* string `floor`, which represents the colors of tiles on a floor:
 

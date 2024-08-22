@@ -1,7 +1,7 @@
 [#2168-unique-substrings-with-equal-digit-frequency]
 = 2168. Unique Substrings With Equal Digit Frequency
 
-https://leetcode.com/problems/unique-substrings-with-equal-digit-frequency/[LeetCode - 2168. Unique Substrings With Equal Digit Frequency ^]
+{leetcode}/problems/unique-substrings-with-equal-digit-frequency/[LeetCode - 2168. Unique Substrings With Equal Digit Frequency ^]
 
 
 

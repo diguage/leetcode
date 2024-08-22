@@ -1,7 +1,7 @@
 [#3238-find-the-number-of-winning-players]
 = 3238. Find the Number of Winning Players
 
-https://leetcode.com/problems/find-the-number-of-winning-players/[LeetCode - 3238. Find the Number of Winning Players ^]
+{leetcode}/problems/find-the-number-of-winning-players/[LeetCode - 3238. Find the Number of Winning Players ^]
 
 You are given an integer `n` representing the number of players in a game and a 2D array `pick` where `pick[i] = [x<sub>i</sub>, y<sub>i</sub>]` represents that the player `x<sub>i</sub>` picked a ball of color `y<sub>i</sub>`.
 

@@ -1,7 +1,7 @@
 [#2007-find-original-array-from-doubled-array]
 = 2007. Find Original Array From Doubled Array
 
-https://leetcode.com/problems/find-original-array-from-doubled-array/[LeetCode - 2007. Find Original Array From Doubled Array ^]
+{leetcode}/problems/find-original-array-from-doubled-array/[LeetCode - 2007. Find Original Array From Doubled Array ^]
 
 An integer array `original` is transformed into a *doubled* array `changed` by appending *twice the value* of every element in `original`, and then randomly *shuffling* the resulting array.
 

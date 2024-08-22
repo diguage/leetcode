@@ -1,7 +1,7 @@
 [#0441-arranging-coins]
 = 441. Arranging Coins
 
-https://leetcode.com/problems/arranging-coins/[LeetCode - Arranging Coins^]
+{leetcode}/problems/arranging-coins/[LeetCode - Arranging Coins^]
 
 You have a total of _n_ coins that you want to form in a staircase shape, where every _k_-th row must have exactly _k_ coins.
  

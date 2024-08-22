@@ -1,7 +1,7 @@
 [#2660-determine-the-winner-of-a-bowling-game]
 = 2660. Determine the Winner of a Bowling Game
 
-https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/[LeetCode - 2660. Determine the Winner of a Bowling Game ^]
+{leetcode}/problems/determine-the-winner-of-a-bowling-game/[LeetCode - 2660. Determine the Winner of a Bowling Game ^]
 
 You are given two *0-indexed* integer arrays `<font face="monospace">player1` and `player2`, representing the number of pins that player 1 and player 2 hit in a bowling game, respectively.
 

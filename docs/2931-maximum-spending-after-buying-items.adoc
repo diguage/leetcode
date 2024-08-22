@@ -1,7 +1,7 @@
 [#2931-maximum-spending-after-buying-items]
 = 2931. Maximum Spending After Buying Items
 
-https://leetcode.com/problems/maximum-spending-after-buying-items/[LeetCode - 2931. Maximum Spending After Buying Items ^]
+{leetcode}/problems/maximum-spending-after-buying-items/[LeetCode - 2931. Maximum Spending After Buying Items ^]
 
 You are given a *0-indexed* `m * n` integer matrix `values`, representing the values of `m * n` different items in `m` different shops. Each shop has `n` items where the `j^th^` item in the `i^th^` shop has a value of `values[i][j]`. Additionally, the items in the `i^th^` shop are sorted in non-increasing order of value. That is, `values[i][j] >= values[i][j + 1]` for all `0 <= j < n - 1`.
 

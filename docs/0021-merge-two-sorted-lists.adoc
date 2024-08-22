@@ -1,7 +1,7 @@
 [#0021-merge-two-sorted-lists]
 = 21. Merge Two Sorted Lists
 
-https://leetcode.com/problems/merge-two-sorted-lists/[LeetCode - Merge Two Sorted Lists^]
+{leetcode}/problems/merge-two-sorted-lists/[LeetCode - Merge Two Sorted Lists^]
 
 Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
 

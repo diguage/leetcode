@@ -1,7 +1,7 @@
 [#2710-remove-trailing-zeros-from-a-string]
 = 2710. Remove Trailing Zeros From a String
 
-https://leetcode.com/problems/remove-trailing-zeros-from-a-string/[LeetCode - 2710. Remove Trailing Zeros From a String ^]
+{leetcode}/problems/remove-trailing-zeros-from-a-string/[LeetCode - 2710. Remove Trailing Zeros From a String ^]
 
 Given a *positive* integer `num` represented as a string, return _the integer _`num`_ without trailing zeros as a string_.
 

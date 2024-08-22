@@ -1,7 +1,7 @@
 [#3200-maximum-height-of-a-triangle]
 = 3200. Maximum Height of a Triangle
 
-https://leetcode.com/problems/maximum-height-of-a-triangle/[LeetCode - 3200. Maximum Height of a Triangle ^]
+{leetcode}/problems/maximum-height-of-a-triangle/[LeetCode - 3200. Maximum Height of a Triangle ^]
 
 You are given two integers `red` and `blue` representing the count of red and blue colored balls. You have to arrange these balls to form a triangle such that the 1^st^ row will have 1 ball, the 2^nd^ row will have 2 balls, the 3^rd^ row will have 3 balls, and so on.
 

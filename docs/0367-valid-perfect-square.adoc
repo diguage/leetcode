@@ -1,7 +1,7 @@
 [#0367-valid-perfect-square]
 = 367. Valid Perfect Square
 
-https://leetcode.com/problems/valid-perfect-square/[LeetCode - Valid Perfect Square^]
+{leetcode}/problems/valid-perfect-square/[LeetCode - Valid Perfect Square^]
 
 Given a positive integer _num_, write a function which returns True if _num_ is a perfect square else False.
 

@@ -1,7 +1,7 @@
 [#2216-minimum-deletions-to-make-array-beautiful]
 = 2216. Minimum Deletions to Make Array Beautiful
 
-https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/[LeetCode - 2216. Minimum Deletions to Make Array Beautiful ^]
+{leetcode}/problems/minimum-deletions-to-make-array-beautiful/[LeetCode - 2216. Minimum Deletions to Make Array Beautiful ^]
 
 You are given a *0-indexed* integer array `nums`. The array `nums` is *beautiful* if:
 

@@ -1,7 +1,7 @@
 [#2068-check-whether-two-strings-are-almost-equivalent]
 = 2068. Check Whether Two Strings are Almost Equivalent
 
-https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/[LeetCode - 2068. Check Whether Two Strings are Almost Equivalent ^]
+{leetcode}/problems/check-whether-two-strings-are-almost-equivalent/[LeetCode - 2068. Check Whether Two Strings are Almost Equivalent ^]
 
 Two strings `word1` and `word2` are considered *almost equivalent* if the differences between the frequencies of each letter from `'a'` to `'z'` between `word1` and `word2` is *at most* `3`.
 

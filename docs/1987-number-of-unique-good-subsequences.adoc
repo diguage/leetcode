@@ -1,7 +1,7 @@
 [#1987-number-of-unique-good-subsequences]
 = 1987. Number of Unique Good Subsequences
 
-https://leetcode.com/problems/number-of-unique-good-subsequences/[LeetCode - 1987. Number of Unique Good Subsequences ^]
+{leetcode}/problems/number-of-unique-good-subsequences/[LeetCode - 1987. Number of Unique Good Subsequences ^]
 
 You are given a binary string `binary`. A *subsequence* of `binary` is considered *good* if it is *not empty* and has *no leading zeros* (with the exception of `"0"`).
 

@@ -1,7 +1,7 @@
 [#2412-minimum-money-required-before-transactions]
 = 2412. Minimum Money Required Before Transactions
 
-https://leetcode.com/problems/minimum-money-required-before-transactions/[LeetCode - 2412. Minimum Money Required Before Transactions ^]
+{leetcode}/problems/minimum-money-required-before-transactions/[LeetCode - 2412. Minimum Money Required Before Transactions ^]
 
 You are given a *0-indexed* 2D integer array `<font face="monospace">transactions`, where `transactions[i] = [cost<sub>i</sub>, cashback<sub>i</sub>]`.
 

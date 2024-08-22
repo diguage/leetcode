@@ -1,7 +1,7 @@
 [#1801-number-of-orders-in-the-backlog]
 = 1801. Number of Orders in the Backlog
 
-https://leetcode.com/problems/number-of-orders-in-the-backlog/[LeetCode - 1801. Number of Orders in the Backlog ^]
+{leetcode}/problems/number-of-orders-in-the-backlog/[LeetCode - 1801. Number of Orders in the Backlog ^]
 
 You are given a 2D integer array `orders`, where each `orders[i] = [price<sub>i</sub>, amount<sub>i</sub>, orderType<sub>i</sub>]` denotes that `amount<sub>i</sub>`<sub> </sub>orders have been placed of type `orderType<sub>i</sub>` at the price `price<sub>i</sub>`. The `orderType<sub>i</sub>` is:
 

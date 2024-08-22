@@ -1,7 +1,7 @@
 [#2541-minimum-operations-to-make-array-equal-ii]
 = 2541. Minimum Operations to Make Array Equal II
 
-https://leetcode.com/problems/minimum-operations-to-make-array-equal-ii/[LeetCode - 2541. Minimum Operations to Make Array Equal II ^]
+{leetcode}/problems/minimum-operations-to-make-array-equal-ii/[LeetCode - 2541. Minimum Operations to Make Array Equal II ^]
 
 You are given two integer arrays `nums1` and `nums2` of equal length `n` and an integer `k`. You can perform the following operation on `nums1`:
 

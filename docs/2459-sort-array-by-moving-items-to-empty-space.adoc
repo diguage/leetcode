@@ -1,7 +1,7 @@
 [#2459-sort-array-by-moving-items-to-empty-space]
 = 2459. Sort Array by Moving Items to Empty Space
 
-https://leetcode.com/problems/sort-array-by-moving-items-to-empty-space/[LeetCode - 2459. Sort Array by Moving Items to Empty Space ^]
+{leetcode}/problems/sort-array-by-moving-items-to-empty-space/[LeetCode - 2459. Sort Array by Moving Items to Empty Space ^]
 
 
 

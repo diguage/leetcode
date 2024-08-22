@@ -1,7 +1,7 @@
 [#2589-minimum-time-to-complete-all-tasks]
 = 2589. Minimum Time to Complete All Tasks
 
-https://leetcode.com/problems/minimum-time-to-complete-all-tasks/[LeetCode - 2589. Minimum Time to Complete All Tasks ^]
+{leetcode}/problems/minimum-time-to-complete-all-tasks/[LeetCode - 2589. Minimum Time to Complete All Tasks ^]
 
 There is a computer that can run an unlimited number of tasks *at the same time*. You are given a 2D integer array `tasks` where `tasks[i] = [start<sub>i</sub>, end<sub>i</sub>, duration<sub>i</sub>]` indicates that the `i^th^` task should run for a total of `duration<sub>i</sub>` seconds (not necessarily continuous) within the *inclusive* time range `[start<sub>i</sub>, end<sub>i</sub>]`.
 

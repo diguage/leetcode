@@ -1,7 +1,7 @@
 [#2406-divide-intervals-into-minimum-number-of-groups]
 = 2406. Divide Intervals Into Minimum Number of Groups
 
-https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/[LeetCode - 2406. Divide Intervals Into Minimum Number of Groups ^]
+{leetcode}/problems/divide-intervals-into-minimum-number-of-groups/[LeetCode - 2406. Divide Intervals Into Minimum Number of Groups ^]
 
 You are given a 2D integer array `intervals` where `intervals[i] = [left<sub>i</sub>, right<sub>i</sub>]` represents the *inclusive* interval `[left<sub>i</sub>, right<sub>i</sub>]`.
 

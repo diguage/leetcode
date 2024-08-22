@@ -1,7 +1,7 @@
 [#2965-find-missing-and-repeated-values]
 = 2965. Find Missing and Repeated Values
 
-https://leetcode.com/problems/find-missing-and-repeated-values/[LeetCode - 2965. Find Missing and Repeated Values ^]
+{leetcode}/problems/find-missing-and-repeated-values/[LeetCode - 2965. Find Missing and Repeated Values ^]
 
 You are given a *0-indexed* 2D integer matrix `<font face="monospace">grid` of size `n * n` with values in the range `[1, n^2^]`. Each integer appears *exactly once* except `a` which appears *twice* and `b` which is *missing*. The task is to find the repeating and missing numbers `a` and `b`.
 

@@ -1,7 +1,7 @@
 [#2450-number-of-distinct-binary-strings-after-applying-operations]
 = 2450. Number of Distinct Binary Strings After Applying Operations
 
-https://leetcode.com/problems/number-of-distinct-binary-strings-after-applying-operations/[LeetCode - 2450. Number of Distinct Binary Strings After Applying Operations ^]
+{leetcode}/problems/number-of-distinct-binary-strings-after-applying-operations/[LeetCode - 2450. Number of Distinct Binary Strings After Applying Operations ^]
 
 
 

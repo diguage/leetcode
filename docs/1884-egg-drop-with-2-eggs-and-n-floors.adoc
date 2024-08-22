@@ -1,7 +1,7 @@
 [#1884-egg-drop-with-2-eggs-and-n-floors]
 = 1884. Egg Drop With 2 Eggs and N Floors
 
-https://leetcode.com/problems/egg-drop-with-2-eggs-and-n-floors/[LeetCode - 1884. Egg Drop With 2 Eggs and N Floors ^]
+{leetcode}/problems/egg-drop-with-2-eggs-and-n-floors/[LeetCode - 1884. Egg Drop With 2 Eggs and N Floors ^]
 
 You are given *two identical* eggs and you have access to a building with `n` floors labeled from `1` to `n`.
 

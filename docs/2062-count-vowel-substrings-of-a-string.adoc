@@ -1,7 +1,7 @@
 [#2062-count-vowel-substrings-of-a-string]
 = 2062. Count Vowel Substrings of a String
 
-https://leetcode.com/problems/count-vowel-substrings-of-a-string/[LeetCode - 2062. Count Vowel Substrings of a String ^]
+{leetcode}/problems/count-vowel-substrings-of-a-string/[LeetCode - 2062. Count Vowel Substrings of a String ^]
 
 A *substring* is a contiguous (non-empty) sequence of characters within a string.
 

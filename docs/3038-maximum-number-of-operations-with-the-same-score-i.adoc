@@ -1,7 +1,7 @@
 [#3038-maximum-number-of-operations-with-the-same-score-i]
 = 3038. Maximum Number of Operations With the Same Score I
 
-https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-i/[LeetCode - 3038. Maximum Number of Operations With the Same Score I ^]
+{leetcode}/problems/maximum-number-of-operations-with-the-same-score-i/[LeetCode - 3038. Maximum Number of Operations With the Same Score I ^]
 
 Given an array of integers called `nums`, you can perform the following operation while `nums` contains *at least* `2` elements:
 

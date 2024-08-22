@@ -1,7 +1,7 @@
 [#2428-maximum-sum-of-an-hourglass]
 = 2428. Maximum Sum of an Hourglass
 
-https://leetcode.com/problems/maximum-sum-of-an-hourglass/[LeetCode - 2428. Maximum Sum of an Hourglass ^]
+{leetcode}/problems/maximum-sum-of-an-hourglass/[LeetCode - 2428. Maximum Sum of an Hourglass ^]
 
 You are given an `m x n` integer matrix `grid`.
 

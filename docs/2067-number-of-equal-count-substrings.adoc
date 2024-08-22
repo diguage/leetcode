@@ -1,7 +1,7 @@
 [#2067-number-of-equal-count-substrings]
 = 2067. Number of Equal Count Substrings
 
-https://leetcode.com/problems/number-of-equal-count-substrings/[LeetCode - 2067. Number of Equal Count Substrings ^]
+{leetcode}/problems/number-of-equal-count-substrings/[LeetCode - 2067. Number of Equal Count Substrings ^]
 
 
 

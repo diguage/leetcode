@@ -1,7 +1,7 @@
 [#1545-find-kth-bit-in-nth-binary-string]
 = 1545. Find Kth Bit in Nth Binary String
 
-https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/[LeetCode - 1545. Find Kth Bit in Nth Binary String ^]
+{leetcode}/problems/find-kth-bit-in-nth-binary-string/[LeetCode - 1545. Find Kth Bit in Nth Binary String ^]
 
 Given two positive integers `n` and `k`, the binary string `S<sub>n</sub>` is formed as follows:
 

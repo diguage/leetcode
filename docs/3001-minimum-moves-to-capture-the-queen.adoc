@@ -1,7 +1,7 @@
 [#3001-minimum-moves-to-capture-the-queen]
 = 3001. Minimum Moves to Capture The Queen
 
-https://leetcode.com/problems/minimum-moves-to-capture-the-queen/[LeetCode - 3001. Minimum Moves to Capture The Queen ^]
+{leetcode}/problems/minimum-moves-to-capture-the-queen/[LeetCode - 3001. Minimum Moves to Capture The Queen ^]
 
 There is a *1-indexed* `8 x 8` chessboard containing `3` pieces.
 

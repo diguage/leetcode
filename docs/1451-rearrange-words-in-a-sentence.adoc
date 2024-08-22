@@ -1,7 +1,7 @@
 [#1451-rearrange-words-in-a-sentence]
 = 1451. Rearrange Words in a Sentence
 
-https://leetcode.com/problems/rearrange-words-in-a-sentence/[LeetCode - 1451. Rearrange Words in a Sentence ^]
+{leetcode}/problems/rearrange-words-in-a-sentence/[LeetCode - 1451. Rearrange Words in a Sentence ^]
 
 Given a sentence `text` (A _sentence_ is a string of space-separated words) in the following format:
 

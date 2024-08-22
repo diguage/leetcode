@@ -1,7 +1,7 @@
 [#1331-rank-transform-of-an-array]
 = 1331. Rank Transform of an Array
 
-https://leetcode.com/problems/rank-transform-of-an-array/[LeetCode - Rank Transform of an Array^]
+{leetcode}/problems/rank-transform-of-an-array/[LeetCode - Rank Transform of an Array^]
 
 Given an array of integers `arr`, replace each element with its rank.
 

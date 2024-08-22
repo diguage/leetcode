@@ -1,7 +1,7 @@
 [#0945-minimum-increment-to-make-array-unique]
 = 945. Minimum Increment to Make Array Unique
 
-https://leetcode.com/problems/minimum-increment-to-make-array-unique/[LeetCode - Minimum Increment to Make Array Unique^]
+{leetcode}/problems/minimum-increment-to-make-array-unique/[LeetCode - Minimum Increment to Make Array Unique^]
 
 Given an array of integers A, a _move_ consists of choosing any `A[i]`, and incrementing it by `1`.
 

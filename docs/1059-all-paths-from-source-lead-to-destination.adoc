@@ -1,7 +1,7 @@
 [#1059-all-paths-from-source-lead-to-destination]
 = 1059. All Paths from Source Lead to Destination
 
-https://leetcode.com/problems/all-paths-from-source-lead-to-destination/[LeetCode - All Paths from Source Lead to Destination^]
+{leetcode}/problems/all-paths-from-source-lead-to-destination/[LeetCode - All Paths from Source Lead to Destination^]
 
 
 

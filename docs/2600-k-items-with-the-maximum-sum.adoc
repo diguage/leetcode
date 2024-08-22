@@ -1,7 +1,7 @@
 [#2600-k-items-with-the-maximum-sum]
 = 2600. K Items With the Maximum Sum
 
-https://leetcode.com/problems/k-items-with-the-maximum-sum/[LeetCode - 2600. K Items With the Maximum Sum ^]
+{leetcode}/problems/k-items-with-the-maximum-sum/[LeetCode - 2600. K Items With the Maximum Sum ^]
 
 There is a bag that consists of items, each item has a number `1`, `0`, or `-1` written on it.
 

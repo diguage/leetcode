@@ -1,7 +1,7 @@
 [#1062-longest-repeating-substring]
 = 1062. Longest Repeating Substring
 
-https://leetcode.com/problems/longest-repeating-substring/[LeetCode - Longest Repeating Substring^]
+{leetcode}/problems/longest-repeating-substring/[LeetCode - Longest Repeating Substring^]
 
 
 

@@ -1,7 +1,7 @@
 [#2194-cells-in-a-range-on-an-excel-sheet]
 = 2194. Cells in a Range on an Excel Sheet
 
-https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/[LeetCode - 2194. Cells in a Range on an Excel Sheet ^]
+{leetcode}/problems/cells-in-a-range-on-an-excel-sheet/[LeetCode - 2194. Cells in a Range on an Excel Sheet ^]
 
 A cell `(r, c)` of an excel sheet is represented as a string `"<col><row>"` where:
 

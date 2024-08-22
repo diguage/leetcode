@@ -1,7 +1,7 @@
 [#2750-ways-to-split-array-into-good-subarrays]
 = 2750. Ways to Split Array Into Good Subarrays
 
-https://leetcode.com/problems/ways-to-split-array-into-good-subarrays/[LeetCode - 2750. Ways to Split Array Into Good Subarrays ^]
+{leetcode}/problems/ways-to-split-array-into-good-subarrays/[LeetCode - 2750. Ways to Split Array Into Good Subarrays ^]
 
 You are given a binary array `nums`.
 

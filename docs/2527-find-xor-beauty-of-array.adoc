@@ -1,7 +1,7 @@
 [#2527-find-xor-beauty-of-array]
 = 2527. Find Xor-Beauty of Array
 
-https://leetcode.com/problems/find-xor-beauty-of-array/[LeetCode - 2527. Find Xor-Beauty of Array ^]
+{leetcode}/problems/find-xor-beauty-of-array/[LeetCode - 2527. Find Xor-Beauty of Array ^]
 
 You are given a *0-indexed* integer array `nums`.
 

@@ -1,7 +1,7 @@
 [#0987-vertical-order-traversal-of-a-binary-tree]
 = 987. Vertical Order Traversal of a Binary Tree
 
-https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/[LeetCode - Vertical Order Traversal of a Binary Tree^]
+{leetcode}/problems/vertical-order-traversal-of-a-binary-tree/[LeetCode - Vertical Order Traversal of a Binary Tree^]
 
 Given a binary tree, return the _vertical order_ traversal of its nodes values.
 

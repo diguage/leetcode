@@ -1,7 +1,7 @@
 [#0393-utf-8-validation]
 = 393. UTF-8 Validation
 
-https://leetcode.com/problems/utf-8-validation/[LeetCode - UTF-8 Validation^]
+{leetcode}/problems/utf-8-validation/[LeetCode - UTF-8 Validation^]
 
 A character in UTF8 can be from *1 to 4 bytes* long, subjected to the following rules:
 

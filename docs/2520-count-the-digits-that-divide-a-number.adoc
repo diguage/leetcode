@@ -1,7 +1,7 @@
 [#2520-count-the-digits-that-divide-a-number]
 = 2520. Count the Digits That Divide a Number
 
-https://leetcode.com/problems/count-the-digits-that-divide-a-number/[LeetCode - 2520. Count the Digits That Divide a Number ^]
+{leetcode}/problems/count-the-digits-that-divide-a-number/[LeetCode - 2520. Count the Digits That Divide a Number ^]
 
 Given an integer `num`, return _the number of digits in `num` that divide _`num`.
 

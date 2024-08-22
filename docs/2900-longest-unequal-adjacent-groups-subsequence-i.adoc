@@ -1,7 +1,7 @@
 [#2900-longest-unequal-adjacent-groups-subsequence-i]
 = 2900. Longest Unequal Adjacent Groups Subsequence I
 
-https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/[LeetCode - 2900. Longest Unequal Adjacent Groups Subsequence I ^]
+{leetcode}/problems/longest-unequal-adjacent-groups-subsequence-i/[LeetCode - 2900. Longest Unequal Adjacent Groups Subsequence I ^]
 
 You are given a string array `words` and a *binary* array `groups` both of length `n`, where `words[i]` is associated with `groups[i]`.
 

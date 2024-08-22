@@ -1,7 +1,7 @@
 [#3014-minimum-number-of-pushes-to-type-word-i]
 = 3014. Minimum Number of Pushes to Type Word I
 
-https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/[LeetCode - 3014. Minimum Number of Pushes to Type Word I ^]
+{leetcode}/problems/minimum-number-of-pushes-to-type-word-i/[LeetCode - 3014. Minimum Number of Pushes to Type Word I ^]
 
 You are given a string `word` containing *distinct* lowercase English letters.
 

@@ -1,7 +1,7 @@
 [#2525-categorize-box-according-to-criteria]
 = 2525. Categorize Box According to Criteria
 
-https://leetcode.com/problems/categorize-box-according-to-criteria/[LeetCode - 2525. Categorize Box According to Criteria ^]
+{leetcode}/problems/categorize-box-according-to-criteria/[LeetCode - 2525. Categorize Box According to Criteria ^]
 
 Given four integers `length`, `width`, `height`, and `mass`, representing the dimensions and mass of a box, respectively, return _a string representing the *category* of the box_.
 

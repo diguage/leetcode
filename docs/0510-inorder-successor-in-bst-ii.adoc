@@ -1,7 +1,7 @@
 [#0510-inorder-successor-in-bst-ii]
 = 510. Inorder Successor in BST II
 
-https://leetcode.com/problems/inorder-successor-in-bst-ii/[LeetCode - Inorder Successor in BST II^]
+{leetcode}/problems/inorder-successor-in-bst-ii/[LeetCode - Inorder Successor in BST II^]
 
 
 

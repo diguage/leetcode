@@ -1,7 +1,7 @@
 [#2512-reward-top-k-students]
 = 2512. Reward Top K Students
 
-https://leetcode.com/problems/reward-top-k-students/[LeetCode - 2512. Reward Top K Students ^]
+{leetcode}/problems/reward-top-k-students/[LeetCode - 2512. Reward Top K Students ^]
 
 You are given two string arrays `positive_feedback` and `negative_feedback`, containing the words denoting positive and negative feedback, respectively. Note that *no* word is both positive and negative.
 

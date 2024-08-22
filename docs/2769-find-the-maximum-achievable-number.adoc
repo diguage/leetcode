@@ -1,7 +1,7 @@
 [#2769-find-the-maximum-achievable-number]
 = 2769. Find the Maximum Achievable Number
 
-https://leetcode.com/problems/find-the-maximum-achievable-number/[LeetCode - 2769. Find the Maximum Achievable Number ^]
+{leetcode}/problems/find-the-maximum-achievable-number/[LeetCode - 2769. Find the Maximum Achievable Number ^]
 
 Given two integers, `num` and `t`. A *number is achievable* if it can become equal to `num` after applying the following operation:
 

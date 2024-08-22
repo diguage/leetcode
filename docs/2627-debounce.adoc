@@ -1,7 +1,7 @@
 [#2627-debounce]
 = 2627. Debounce
 
-https://leetcode.com/problems/debounce/[LeetCode - 2627. Debounce ^]
+{leetcode}/problems/debounce/[LeetCode - 2627. Debounce ^]
 
 Given a function `fn` and a time in milliseconds `t`, return a *debounced* version of that function.
 

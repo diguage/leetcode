@@ -1,7 +1,7 @@
 [#2546-apply-bitwise-operations-to-make-strings-equal]
 = 2546. Apply Bitwise Operations to Make Strings Equal
 
-https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/[LeetCode - 2546. Apply Bitwise Operations to Make Strings Equal ^]
+{leetcode}/problems/apply-bitwise-operations-to-make-strings-equal/[LeetCode - 2546. Apply Bitwise Operations to Make Strings Equal ^]
 
 You are given two *0-indexed binary* strings `s` and `target` of the same length `n`. You can do the following operation on `s` *any* number of times:
 

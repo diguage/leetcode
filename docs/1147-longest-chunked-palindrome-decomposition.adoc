@@ -1,7 +1,7 @@
 [#1147-longest-chunked-palindrome-decomposition]
 = 1147. Longest Chunked Palindrome Decomposition
 
-https://leetcode.com/problems/longest-chunked-palindrome-decomposition/[LeetCode - Longest Chunked Palindrome Decomposition^]
+{leetcode}/problems/longest-chunked-palindrome-decomposition/[LeetCode - Longest Chunked Palindrome Decomposition^]
 
 Return the largest possible `k` such that there exists `a_1, a_2, ..., a_k` such that:
 

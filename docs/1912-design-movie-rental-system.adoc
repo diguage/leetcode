@@ -1,7 +1,7 @@
 [#1912-design-movie-rental-system]
 = 1912. Design Movie Rental System
 
-https://leetcode.com/problems/design-movie-rental-system/[LeetCode - 1912. Design Movie Rental System ^]
+{leetcode}/problems/design-movie-rental-system/[LeetCode - 1912. Design Movie Rental System ^]
 
 You have a movie renting company consisting of `n` shops. You want to implement a renting system that supports searching for, booking, and returning movies. The system should also support generating a report of the currently rented movies.
 

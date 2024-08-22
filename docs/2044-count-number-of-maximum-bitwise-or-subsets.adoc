@@ -1,7 +1,7 @@
 [#2044-count-number-of-maximum-bitwise-or-subsets]
 = 2044. Count Number of Maximum Bitwise-OR Subsets
 
-https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/[LeetCode - 2044. Count Number of Maximum Bitwise-OR Subsets ^]
+{leetcode}/problems/count-number-of-maximum-bitwise-or-subsets/[LeetCode - 2044. Count Number of Maximum Bitwise-OR Subsets ^]
 
 Given an integer array `nums`, find the *maximum* possible *bitwise OR* of a subset of `nums` and return _the *number of different non-empty subsets* with the maximum bitwise OR_.
 

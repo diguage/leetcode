@@ -1,7 +1,7 @@
 [#2835-minimum-operations-to-form-subsequence-with-target-sum]
 = 2835. Minimum Operations to Form Subsequence With Target Sum
 
-https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/[LeetCode - 2835. Minimum Operations to Form Subsequence With Target Sum ^]
+{leetcode}/problems/minimum-operations-to-form-subsequence-with-target-sum/[LeetCode - 2835. Minimum Operations to Form Subsequence With Target Sum ^]
 
 You are given a *0-indexed* array `nums` consisting of *non-negative* powers of `2`, and an integer `target`.
 

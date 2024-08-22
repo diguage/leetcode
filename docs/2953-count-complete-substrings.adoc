@@ -1,7 +1,7 @@
 [#2953-count-complete-substrings]
 = 2953. Count Complete Substrings
 
-https://leetcode.com/problems/count-complete-substrings/[LeetCode - 2953. Count Complete Substrings ^]
+{leetcode}/problems/count-complete-substrings/[LeetCode - 2953. Count Complete Substrings ^]
 
 You are given a string `word` and an integer `k`.
 

@@ -1,7 +1,7 @@
 [#0191-number-of-1-bits]
 = 191. Number of 1 Bits
 
-https://leetcode.com/problems/number-of-1-bits/[LeetCode - Number of 1 Bits^]
+{leetcode}/problems/number-of-1-bits/[LeetCode - Number of 1 Bits^]
 
 image::images/0191-1.png[{image_attr}]
 

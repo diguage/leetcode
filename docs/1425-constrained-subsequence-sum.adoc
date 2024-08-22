@@ -1,7 +1,7 @@
 [#1425-constrained-subsequence-sum]
 = 1425. Constrained Subsequence Sum
 
-https://leetcode.com/problems/constrained-subsequence-sum/[LeetCode - 1425. Constrained Subsequence Sum ^]
+{leetcode}/problems/constrained-subsequence-sum/[LeetCode - 1425. Constrained Subsequence Sum ^]
 
 Given an integer array `nums` and an integer `k`, return the maximum sum of a *non-empty* subsequence of that array such that for every two *consecutive* integers in the subsequence, `nums[i]` and `nums[j]`, where `i < j`, the condition `j - i <= k` is satisfied.
 

@@ -1,7 +1,7 @@
 [#1527-patients-with-a-condition]
 = 1527. Patients With a Condition
 
-https://leetcode.com/problems/patients-with-a-condition/[LeetCode - 1527. Patients With a Condition ^]
+{leetcode}/problems/patients-with-a-condition/[LeetCode - 1527. Patients With a Condition ^]
 
 Table: `Patients`
 

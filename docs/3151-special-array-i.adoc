@@ -1,7 +1,7 @@
 [#3151-special-array-i]
 = 3151. Special Array I
 
-https://leetcode.com/problems/special-array-i/[LeetCode - 3151. Special Array I ^]
+{leetcode}/problems/special-array-i/[LeetCode - 3151. Special Array I ^]
 
 An array is considered *special* if every pair of its adjacent elements contains two numbers with different parity.<!-- notionvc: e6bed0fa-c67d-43a7-81b4-99fb85b99e98 -->
 

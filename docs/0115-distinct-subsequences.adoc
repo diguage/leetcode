@@ -1,7 +1,7 @@
 [#0115-distinct-subsequences]
 = 115. Distinct Subsequences
 
-https://leetcode.com/problems/distinct-subsequences/[LeetCode - Distinct Subsequences^]
+{leetcode}/problems/distinct-subsequences/[LeetCode - Distinct Subsequences^]
 
 Given a string *S* and a string *T*, count the number of distinct subsequences of *S* which equals *T*.
 

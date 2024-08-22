@@ -1,7 +1,7 @@
 [#1816-truncate-sentence]
 = 1816. Truncate Sentence
 
-https://leetcode.com/problems/truncate-sentence/[LeetCode - 1816. Truncate Sentence ^]
+{leetcode}/problems/truncate-sentence/[LeetCode - 1816. Truncate Sentence ^]
 
 A *sentence* is a list of words that are separated by a single space with no leading or trailing spaces. Each of the words consists of *only* uppercase and lowercase English letters (no punctuation).
 

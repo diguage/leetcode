@@ -1,7 +1,7 @@
 [#1782-count-pairs-of-nodes]
 = 1782. Count Pairs Of Nodes
 
-https://leetcode.com/problems/count-pairs-of-nodes/[LeetCode - 1782. Count Pairs Of Nodes ^]
+{leetcode}/problems/count-pairs-of-nodes/[LeetCode - 1782. Count Pairs Of Nodes ^]
 
 You are given an undirected graph defined by an integer `n`, the number of nodes, and a 2D integer array `edges`, the edges in the graph, where `edges[i] = [u<sub>i</sub>, v<sub>i</sub>]` indicates that there is an *undirected* edge between `u<sub>i</sub>` and `v<sub>i</sub>`. You are also given an integer array `queries`.
 

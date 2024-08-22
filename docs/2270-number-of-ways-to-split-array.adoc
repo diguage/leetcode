@@ -1,7 +1,7 @@
 [#2270-number-of-ways-to-split-array]
 = 2270. Number of Ways to Split Array
 
-https://leetcode.com/problems/number-of-ways-to-split-array/[LeetCode - 2270. Number of Ways to Split Array ^]
+{leetcode}/problems/number-of-ways-to-split-array/[LeetCode - 2270. Number of Ways to Split Array ^]
 
 You are given a *0-indexed* integer array `nums` of length `n`.
 

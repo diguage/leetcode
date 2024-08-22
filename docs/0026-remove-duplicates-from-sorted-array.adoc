@@ -1,7 +1,7 @@
 [#0026-remove-duplicates-from-sorted-array]
 = 26. Remove Duplicates from Sorted Array
 
-https://leetcode.com/problems/remove-duplicates-from-sorted-array/[LeetCode - Remove Duplicates from Sorted Array^]
+{leetcode}/problems/remove-duplicates-from-sorted-array/[LeetCode - Remove Duplicates from Sorted Array^]
 
 Given a sorted array _nums_, remove the duplicates https://en.wikipedia.org/wiki/In-place_algorithm[*in-place*^] such that each element appear only _once_ and return the new length.
 

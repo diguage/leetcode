@@ -1,7 +1,7 @@
 [#0054-spiral-matrix]
 = 54. Spiral Matrix
 
-https://leetcode.com/problems/spiral-matrix/[LeetCode - Spiral Matrix^]
+{leetcode}/problems/spiral-matrix/[LeetCode - Spiral Matrix^]
 
 Given a matrix of _m_ x _n_ elements (_m_ rows, _n_ columns), return all elements of the matrix in spiral order.
 

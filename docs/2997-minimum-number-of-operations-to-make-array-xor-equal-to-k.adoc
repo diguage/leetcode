@@ -1,7 +1,7 @@
 [#2997-minimum-number-of-operations-to-make-array-xor-equal-to-k]
 = 2997. Minimum Number of Operations to Make Array XOR Equal to K
 
-https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/[LeetCode - 2997. Minimum Number of Operations to Make Array XOR Equal to K ^]
+{leetcode}/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/[LeetCode - 2997. Minimum Number of Operations to Make Array XOR Equal to K ^]
 
 You are given a *0-indexed* integer array `nums` and a positive integer `k`.
 

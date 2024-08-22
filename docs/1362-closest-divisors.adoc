@@ -1,7 +1,7 @@
 [#1362-closest-divisors]
 = 1362. Closest Divisors
 
-https://leetcode.com/problems/closest-divisors/[LeetCode - 1362. Closest Divisors ^]
+{leetcode}/problems/closest-divisors/[LeetCode - 1362. Closest Divisors ^]
 
 Given an integer `num`, find the closest two integers in absolute difference whose product equals `num + 1` or `num + 2`.
 

@@ -1,7 +1,7 @@
 [#3123-find-edges-in-shortest-paths]
 = 3123. Find Edges in Shortest Paths
 
-https://leetcode.com/problems/find-edges-in-shortest-paths/[LeetCode - 3123. Find Edges in Shortest Paths ^]
+{leetcode}/problems/find-edges-in-shortest-paths/[LeetCode - 3123. Find Edges in Shortest Paths ^]
 
 You are given an undirected weighted graph of `n` nodes numbered from 0 to `n - 1`. The graph consists of `m` edges represented by a 2D array `edges`, where `edges[i] = [a<sub>i</sub>, b<sub>i</sub>, w<sub>i</sub>]` indicates that there is an edge between nodes `a<sub>i</sub>` and `b<sub>i</sub>` with weight `w<sub>i</sub>`.
 

@@ -1,7 +1,7 @@
 [#1542-find-longest-awesome-substring]
 = 1542. Find Longest Awesome Substring
 
-https://leetcode.com/problems/find-longest-awesome-substring/[LeetCode - 1542. Find Longest Awesome Substring ^]
+{leetcode}/problems/find-longest-awesome-substring/[LeetCode - 1542. Find Longest Awesome Substring ^]
 
 You are given a string `s`. An *awesome* substring is a non-empty substring of `s` such that we can make any number of swaps in order to make it a palindrome.
 

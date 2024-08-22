@@ -1,7 +1,7 @@
 [#1667-fix-names-in-a-table]
 = 1667. Fix Names in a Table
 
-https://leetcode.com/problems/fix-names-in-a-table/[LeetCode - 1667. Fix Names in a Table ^]
+{leetcode}/problems/fix-names-in-a-table/[LeetCode - 1667. Fix Names in a Table ^]
 
 Table: `Users`
 

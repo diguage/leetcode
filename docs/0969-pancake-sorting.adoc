@@ -1,7 +1,7 @@
 [#0969-pancake-sorting]
 = 969. Pancake Sorting
 
-https://leetcode.com/problems/pancake-sorting/[LeetCode - Pancake Sorting^]
+{leetcode}/problems/pancake-sorting/[LeetCode - Pancake Sorting^]
 
 Given an array `A`, we can perform a _pancake flip_: We choose some positive integer `*k* <= A.length`, then reverse the order of the first *k* elements of `A`.  We want to perform zero or more pancake flips (doing them one after another in succession) to sort the array `A`.
 

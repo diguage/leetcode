@@ -1,7 +1,7 @@
 [#2284-sender-with-largest-word-count]
 = 2284. Sender With Largest Word Count
 
-https://leetcode.com/problems/sender-with-largest-word-count/[LeetCode - 2284. Sender With Largest Word Count ^]
+{leetcode}/problems/sender-with-largest-word-count/[LeetCode - 2284. Sender With Largest Word Count ^]
 
 You have a chat log of `n` messages. You are given two string arrays `messages` and `senders` where `messages[i]` is a *message* sent by `senders[i]`.
 

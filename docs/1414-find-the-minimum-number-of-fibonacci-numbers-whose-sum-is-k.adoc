@@ -1,7 +1,7 @@
 [#1414-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k]
 = 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
 
-https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/[LeetCode - 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K ^]
+{leetcode}/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/[LeetCode - 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K ^]
 
 Given an integer `k`, _return the minimum number of Fibonacci numbers whose sum is equal to _`k`. The same Fibonacci number can be used multiple times.
 

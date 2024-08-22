@@ -1,7 +1,7 @@
 [#2697-lexicographically-smallest-palindrome]
 = 2697. Lexicographically Smallest Palindrome
 
-https://leetcode.com/problems/lexicographically-smallest-palindrome/[LeetCode - 2697. Lexicographically Smallest Palindrome ^]
+{leetcode}/problems/lexicographically-smallest-palindrome/[LeetCode - 2697. Lexicographically Smallest Palindrome ^]
 
 You are given a string <code node="[object Object]">s` consisting of *lowercase English letters*, and you are allowed to perform operations on it. In one operation, you can *replace* a character in <code node="[object Object]">s` with another lowercase English letter.
 

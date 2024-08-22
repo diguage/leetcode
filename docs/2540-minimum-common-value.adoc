@@ -1,7 +1,7 @@
 [#2540-minimum-common-value]
 = 2540. Minimum Common Value
 
-https://leetcode.com/problems/minimum-common-value/[LeetCode - 2540. Minimum Common Value ^]
+{leetcode}/problems/minimum-common-value/[LeetCode - 2540. Minimum Common Value ^]
 
 Given two integer arrays `nums1` and `nums2`, sorted in non-decreasing order, return _the *minimum integer common* to both arrays_. If there is no common integer amongst `nums1` and `nums2`, return `-1`.
 

@@ -1,7 +1,7 @@
 [#2515-shortest-distance-to-target-string-in-a-circular-array]
 = 2515. Shortest Distance to Target String in a Circular Array
 
-https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/[LeetCode - 2515. Shortest Distance to Target String in a Circular Array ^]
+{leetcode}/problems/shortest-distance-to-target-string-in-a-circular-array/[LeetCode - 2515. Shortest Distance to Target String in a Circular Array ^]
 
 You are given a *0-indexed* *circular* string array `words` and a string `target`. A *circular array* means that the array's end connects to the array's beginning.
 

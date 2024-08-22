@@ -1,7 +1,7 @@
 [#1690-stone-game-vii]
 = 1690. Stone Game VII
 
-https://leetcode.com/problems/stone-game-vii/[LeetCode - 1690. Stone Game VII ^]
+{leetcode}/problems/stone-game-vii/[LeetCode - 1690. Stone Game VII ^]
 
 Alice and Bob take turns playing a game, with *Alice starting first*.
 

@@ -1,7 +1,7 @@
 [#2122-recover-the-original-array]
 = 2122. Recover the Original Array
 
-https://leetcode.com/problems/recover-the-original-array/[LeetCode - 2122. Recover the Original Array ^]
+{leetcode}/problems/recover-the-original-array/[LeetCode - 2122. Recover the Original Array ^]
 
 Alice had a *0-indexed* array `arr` consisting of `n` *positive* integers. She chose an arbitrary *positive integer* `k` and created two new *0-indexed* integer arrays `lower` and `higher` in the following manner:
 

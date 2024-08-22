@@ -1,7 +1,7 @@
 [#2968-apply-operations-to-maximize-frequency-score]
 = 2968. Apply Operations to Maximize Frequency Score
 
-https://leetcode.com/problems/apply-operations-to-maximize-frequency-score/[LeetCode - 2968. Apply Operations to Maximize Frequency Score ^]
+{leetcode}/problems/apply-operations-to-maximize-frequency-score/[LeetCode - 2968. Apply Operations to Maximize Frequency Score ^]
 
 You are given a *0-indexed* integer array `nums` and an integer `k`.
 

@@ -1,7 +1,7 @@
 [#2985-calculate-compressed-mean]
 = 2985. Calculate Compressed Mean
 
-https://leetcode.com/problems/calculate-compressed-mean/[LeetCode - 2985. Calculate Compressed Mean ^]
+{leetcode}/problems/calculate-compressed-mean/[LeetCode - 2985. Calculate Compressed Mean ^]
 
 
 

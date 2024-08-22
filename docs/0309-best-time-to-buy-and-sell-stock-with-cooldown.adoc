@@ -1,7 +1,7 @@
 [#0309-best-time-to-buy-and-sell-stock-with-cooldown]
 = 309. Best Time to Buy and Sell Stock with Cooldown
 
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/[LeetCode - Best Time to Buy and Sell Stock with Cooldown^]
+{leetcode}/problems/best-time-to-buy-and-sell-stock-with-cooldown/[LeetCode - Best Time to Buy and Sell Stock with Cooldown^]
 
 Say you have an array for which the _i^th^_ element is the price of a given stock on day _i_.
 

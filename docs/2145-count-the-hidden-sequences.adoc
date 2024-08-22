@@ -1,7 +1,7 @@
 [#2145-count-the-hidden-sequences]
 = 2145. Count the Hidden Sequences
 
-https://leetcode.com/problems/count-the-hidden-sequences/[LeetCode - 2145. Count the Hidden Sequences ^]
+{leetcode}/problems/count-the-hidden-sequences/[LeetCode - 2145. Count the Hidden Sequences ^]
 
 You are given a *0-indexed* array of `n` integers `differences`, which describes the *differences *between each pair of *consecutive *integers of a *hidden* sequence of length `(n + 1)`. More formally, call the hidden sequence `hidden`, then we have that `differences[i] = hidden[i + 1] - hidden[i]`.
 

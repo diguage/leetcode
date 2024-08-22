@@ -1,7 +1,7 @@
 [#1773-count-items-matching-a-rule]
 = 1773. Count Items Matching a Rule
 
-https://leetcode.com/problems/count-items-matching-a-rule/[LeetCode - 1773. Count Items Matching a Rule ^]
+{leetcode}/problems/count-items-matching-a-rule/[LeetCode - 1773. Count Items Matching a Rule ^]
 
 You are given an array `items`, where each `items[i] = [type<sub>i</sub>, color<sub>i</sub>, name<sub>i</sub>]` describes the type, color, and name of the `i^th^` item. You are also given a rule represented by two strings, `ruleKey` and `ruleValue`.
 

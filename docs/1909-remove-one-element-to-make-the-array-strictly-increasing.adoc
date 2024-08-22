@@ -1,7 +1,7 @@
 [#1909-remove-one-element-to-make-the-array-strictly-increasing]
 = 1909. Remove One Element to Make the Array Strictly Increasing
 
-https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/[LeetCode - 1909. Remove One Element to Make the Array Strictly Increasing ^]
+{leetcode}/problems/remove-one-element-to-make-the-array-strictly-increasing/[LeetCode - 1909. Remove One Element to Make the Array Strictly Increasing ^]
 
 Given a *0-indexed* integer array `nums`, return `true` _if it can be made *strictly increasing* after removing *exactly one* element, or _`false`_ otherwise. If the array is already strictly increasing, return _`true`.
 

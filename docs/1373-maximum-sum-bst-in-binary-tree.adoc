@@ -1,7 +1,7 @@
 [#1373-maximum-sum-bst-in-binary-tree]
 = 1373. Maximum Sum BST in Binary Tree
 
-https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/[LeetCode - 1373. Maximum Sum BST in Binary Tree ^]
+{leetcode}/problems/maximum-sum-bst-in-binary-tree/[LeetCode - 1373. Maximum Sum BST in Binary Tree ^]
 
 Given a *binary tree* `root`, return _the maximum sum of all keys of *any* sub-tree which is also a Binary Search Tree (BST)_.
 

@@ -1,7 +1,7 @@
 [#3098-find-the-sum-of-subsequence-powers]
 = 3098. Find the Sum of Subsequence Powers
 
-https://leetcode.com/problems/find-the-sum-of-subsequence-powers/[LeetCode - 3098. Find the Sum of Subsequence Powers ^]
+{leetcode}/problems/find-the-sum-of-subsequence-powers/[LeetCode - 3098. Find the Sum of Subsequence Powers ^]
 
 You are given an integer array `nums` of length `n`, and a *positive* integer `k`.
 

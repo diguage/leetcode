@@ -1,7 +1,7 @@
 [#2235-add-two-integers]
 = 2235. Add Two Integers
 
-https://leetcode.com/problems/add-two-integers/[LeetCode - 2235. Add Two Integers ^]
+{leetcode}/problems/add-two-integers/[LeetCode - 2235. Add Two Integers ^]
 
 Given two integers `num1` and `num2`, return _the *sum* of the two integers_.
  

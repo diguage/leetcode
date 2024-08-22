@@ -1,7 +1,7 @@
 [#2222-number-of-ways-to-select-buildings]
 = 2222. Number of Ways to Select Buildings
 
-https://leetcode.com/problems/number-of-ways-to-select-buildings/[LeetCode - 2222. Number of Ways to Select Buildings ^]
+{leetcode}/problems/number-of-ways-to-select-buildings/[LeetCode - 2222. Number of Ways to Select Buildings ^]
 
 You are given a *0-indexed* binary string `s` which represents the types of buildings along a street where:
 

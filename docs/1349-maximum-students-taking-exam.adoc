@@ -1,7 +1,7 @@
 [#1349-maximum-students-taking-exam]
 = 1349. Maximum Students Taking Exam
 
-https://leetcode.com/problems/maximum-students-taking-exam/[LeetCode - 1349. Maximum Students Taking Exam ^]
+{leetcode}/problems/maximum-students-taking-exam/[LeetCode - 1349. Maximum Students Taking Exam ^]
 
 Given a `m * n` matrix `seats`  that represent seats distributions in a classroom. If a seat is broken, it is denoted by `'#'` character otherwise it is denoted by a `'.'` character.
 

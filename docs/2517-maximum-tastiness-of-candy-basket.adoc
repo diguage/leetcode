@@ -1,7 +1,7 @@
 [#2517-maximum-tastiness-of-candy-basket]
 = 2517. Maximum Tastiness of Candy Basket
 
-https://leetcode.com/problems/maximum-tastiness-of-candy-basket/[LeetCode - 2517. Maximum Tastiness of Candy Basket ^]
+{leetcode}/problems/maximum-tastiness-of-candy-basket/[LeetCode - 2517. Maximum Tastiness of Candy Basket ^]
 
 You are given an array of positive integers `price` where `price[i]` denotes the price of the `i^th^` candy and a positive integer `k`.
 

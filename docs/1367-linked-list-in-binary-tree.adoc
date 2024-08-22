@@ -1,7 +1,7 @@
 [#1367-linked-list-in-binary-tree]
 = 1367. Linked List in Binary Tree
 
-https://leetcode.com/problems/linked-list-in-binary-tree/[LeetCode - 1367. Linked List in Binary Tree ^]
+{leetcode}/problems/linked-list-in-binary-tree/[LeetCode - 1367. Linked List in Binary Tree ^]
 
 Given a binary tree `root` and a linked list with `head` as the first node. 
 

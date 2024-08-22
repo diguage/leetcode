@@ -1,7 +1,7 @@
 [#2019-the-score-of-students-solving-math-expression]
 = 2019. The Score of Students Solving Math Expression
 
-https://leetcode.com/problems/the-score-of-students-solving-math-expression/[LeetCode - 2019. The Score of Students Solving Math Expression ^]
+{leetcode}/problems/the-score-of-students-solving-math-expression/[LeetCode - 2019. The Score of Students Solving Math Expression ^]
 
 You are given a string `s` that contains digits `0-9`, addition symbols `'+'`, and multiplication symbols `'*'` *only*, representing a *valid* math expression of *single digit numbers* (e.g., `3+5*2`). This expression was given to `n` elementary school students. The students were instructed to get the answer of the expression by following this *order of operations*:
 

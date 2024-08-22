@@ -1,7 +1,7 @@
 [#0892-surface-area-of-3d-shapes]
 = 892. Surface Area of 3D Shapes
 
-https://leetcode.com/problems/surface-area-of-3d-shapes/[LeetCode - Surface Area of 3D Shapes^]
+{leetcode}/problems/surface-area-of-3d-shapes/[LeetCode - Surface Area of 3D Shapes^]
 
 On a `N * N` grid, we place some `1 * 1 * 1 `cubes.
 

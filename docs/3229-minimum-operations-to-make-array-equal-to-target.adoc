@@ -1,7 +1,7 @@
 [#3229-minimum-operations-to-make-array-equal-to-target]
 = 3229. Minimum Operations to Make Array Equal to Target
 
-https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/[LeetCode - 3229. Minimum Operations to Make Array Equal to Target ^]
+{leetcode}/problems/minimum-operations-to-make-array-equal-to-target/[LeetCode - 3229. Minimum Operations to Make Array Equal to Target ^]
 
 You are given two positive integer arrays `nums` and `target`, of the same length.
 

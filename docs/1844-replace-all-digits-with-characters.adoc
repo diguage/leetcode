@@ -1,7 +1,7 @@
 [#1844-replace-all-digits-with-characters]
 = 1844. Replace All Digits with Characters
 
-https://leetcode.com/problems/replace-all-digits-with-characters/[LeetCode - 1844. Replace All Digits with Characters ^]
+{leetcode}/problems/replace-all-digits-with-characters/[LeetCode - 1844. Replace All Digits with Characters ^]
 
 You are given a *0-indexed* string `s` that has lowercase English letters in its *even* indices and digits in its *odd* indices.
 

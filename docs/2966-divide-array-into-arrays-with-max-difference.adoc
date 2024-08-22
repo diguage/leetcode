@@ -1,7 +1,7 @@
 [#2966-divide-array-into-arrays-with-max-difference]
 = 2966. Divide Array Into Arrays With Max Difference
 
-https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/[LeetCode - 2966. Divide Array Into Arrays With Max Difference ^]
+{leetcode}/problems/divide-array-into-arrays-with-max-difference/[LeetCode - 2966. Divide Array Into Arrays With Max Difference ^]
 
 You are given an integer array `nums` of size `n` where `n` is a multiple of 3 and a positive integer `k`.
 

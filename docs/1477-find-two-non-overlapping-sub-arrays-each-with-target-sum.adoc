@@ -1,7 +1,7 @@
 [#1477-find-two-non-overlapping-sub-arrays-each-with-target-sum]
 = 1477. Find Two Non-overlapping Sub-arrays Each With Target Sum
 
-https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/[LeetCode - 1477. Find Two Non-overlapping Sub-arrays Each With Target Sum ^]
+{leetcode}/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/[LeetCode - 1477. Find Two Non-overlapping Sub-arrays Each With Target Sum ^]
 
 You are given an array of integers `arr` and an integer `target`.
 

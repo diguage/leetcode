@@ -1,7 +1,7 @@
 [#1830-minimum-number-of-operations-to-make-string-sorted]
 = 1830. Minimum Number of Operations to Make String Sorted
 
-https://leetcode.com/problems/minimum-number-of-operations-to-make-string-sorted/[LeetCode - 1830. Minimum Number of Operations to Make String Sorted ^]
+{leetcode}/problems/minimum-number-of-operations-to-make-string-sorted/[LeetCode - 1830. Minimum Number of Operations to Make String Sorted ^]
 
 You are given a string `s` (*0-indexed*)​​​​​​. You are asked to perform the following operation on `s`​​​​​​ until you get a sorted string:
 

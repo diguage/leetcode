@@ -1,7 +1,7 @@
 [#2457-minimum-addition-to-make-integer-beautiful]
 = 2457. Minimum Addition to Make Integer Beautiful
 
-https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/[LeetCode - 2457. Minimum Addition to Make Integer Beautiful ^]
+{leetcode}/problems/minimum-addition-to-make-integer-beautiful/[LeetCode - 2457. Minimum Addition to Make Integer Beautiful ^]
 
 You are given two positive integers `n` and `target`.
 

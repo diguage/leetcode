@@ -1,7 +1,7 @@
 [#2798-number-of-employees-who-met-the-target]
 = 2798. Number of Employees Who Met the Target
 
-https://leetcode.com/problems/number-of-employees-who-met-the-target/[LeetCode - 2798. Number of Employees Who Met the Target ^]
+{leetcode}/problems/number-of-employees-who-met-the-target/[LeetCode - 2798. Number of Employees Who Met the Target ^]
 
 There are `n` employees in a company, numbered from `0` to `n - 1`. Each employee `i` has worked for `hours[i]` hours in the company.
 

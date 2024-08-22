@@ -1,7 +1,7 @@
 [#2410-maximum-matching-of-players-with-trainers]
 = 2410. Maximum Matching of Players With Trainers
 
-https://leetcode.com/problems/maximum-matching-of-players-with-trainers/[LeetCode - 2410. Maximum Matching of Players With Trainers ^]
+{leetcode}/problems/maximum-matching-of-players-with-trainers/[LeetCode - 2410. Maximum Matching of Players With Trainers ^]
 
 You are given a *0-indexed* integer array `players`, where `players[i]` represents the *ability* of the `i^th^` player. You are also given a *0-indexed* integer array `trainers`, where `trainers[j]` represents the *training capacity *of the `j^th^` trainer.
 

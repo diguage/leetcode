@@ -1,7 +1,7 @@
 [#3127-make-a-square-with-the-same-color]
 = 3127. Make a Square with the Same Color
 
-https://leetcode.com/problems/make-a-square-with-the-same-color/[LeetCode - 3127. Make a Square with the Same Color ^]
+{leetcode}/problems/make-a-square-with-the-same-color/[LeetCode - 3127. Make a Square with the Same Color ^]
 
 You are given a 2D matrix `grid` of size `3 x 3` consisting only of characters `'B'` and `'W'`. Character `'W'` represents the white color<!-- notionvc: 06a49cc0-a296-4bd2-9bfe-c8818edeb53a -->, and character `'B'` represents the black color<!-- notionvc: 06a49cc0-a296-4bd2-9bfe-c8818edeb53a -->.
 

@@ -1,7 +1,7 @@
 [#2862-maximum-element-sum-of-a-complete-subset-of-indices]
 = 2862. Maximum Element-Sum of a Complete Subset of Indices
 
-https://leetcode.com/problems/maximum-element-sum-of-a-complete-subset-of-indices/[LeetCode - 2862. Maximum Element-Sum of a Complete Subset of Indices ^]
+{leetcode}/problems/maximum-element-sum-of-a-complete-subset-of-indices/[LeetCode - 2862. Maximum Element-Sum of a Complete Subset of Indices ^]
 
 You are given a *1**-indexed* array `nums`. Your task is to select a *complete subset* from `nums` where every pair of selected indices multiplied is a <span data-keyword="perfect-square">perfect square,. i. e. if you select `a<sub>i</sub>` and `a<sub>j</sub>`, `i * j` must be a perfect square.
 

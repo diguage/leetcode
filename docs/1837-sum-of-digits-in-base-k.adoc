@@ -1,7 +1,7 @@
 [#1837-sum-of-digits-in-base-k]
 = 1837. Sum of Digits in Base K
 
-https://leetcode.com/problems/sum-of-digits-in-base-k/[LeetCode - 1837. Sum of Digits in Base K ^]
+{leetcode}/problems/sum-of-digits-in-base-k/[LeetCode - 1837. Sum of Digits in Base K ^]
 
 Given an integer `n` (in base `10`) and a base `k`, return _the *sum* of the digits of _`n`_ *after* converting _`n`_ from base _`10`_ to base _`k`.
 

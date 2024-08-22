@@ -1,7 +1,7 @@
 [#1967-number-of-strings-that-appear-as-substrings-in-word]
 = 1967. Number of Strings That Appear as Substrings in Word
 
-https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/[LeetCode - 1967. Number of Strings That Appear as Substrings in Word ^]
+{leetcode}/problems/number-of-strings-that-appear-as-substrings-in-word/[LeetCode - 1967. Number of Strings That Appear as Substrings in Word ^]
 
 Given an array of strings `patterns` and a string `word`, return _the *number* of strings in _`patterns`_ that exist as a *substring* in _`word`.
 

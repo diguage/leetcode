@@ -1,7 +1,7 @@
 [#1589-maximum-sum-obtained-of-any-permutation]
 = 1589. Maximum Sum Obtained of Any Permutation
 
-https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/[LeetCode - 1589. Maximum Sum Obtained of Any Permutation ^]
+{leetcode}/problems/maximum-sum-obtained-of-any-permutation/[LeetCode - 1589. Maximum Sum Obtained of Any Permutation ^]
 
 We have an array of integers, `nums`, and an array of `requests` where `requests[i] = [start<sub>i</sub>, end<sub>i</sub>]`. The `i^th^` request asks for the sum of `nums[start<sub>i</sub>] + nums[start<sub>i</sub> + 1] + ... + nums[end<sub>i</sub> - 1] + nums[end<sub>i</sub>]`. Both `start<sub>i</sub>` and `end<sub>i</sub>` are _0-indexed_.
 

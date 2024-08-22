@@ -1,7 +1,7 @@
 [#0146-lru-cache]
 = 146. LRU Cache
 
-https://leetcode.com/problems/lru-cache/[LeetCode - LRU Cache^]
+{leetcode}/problems/lru-cache/[LeetCode - LRU Cache^]
 
 使用双向链表实现时，使用两个"空节点" `head` 和 `tail`，可以有效减少空值判断，真是精巧。想起来上大学时，老师讲课提到这么一句。没想到竟然是如此实现。
 

@@ -1,7 +1,7 @@
 [#2070-most-beautiful-item-for-each-query]
 = 2070. Most Beautiful Item for Each Query
 
-https://leetcode.com/problems/most-beautiful-item-for-each-query/[LeetCode - 2070. Most Beautiful Item for Each Query ^]
+{leetcode}/problems/most-beautiful-item-for-each-query/[LeetCode - 2070. Most Beautiful Item for Each Query ^]
 
 You are given a 2D integer array `items` where `items[i] = [price<sub>i</sub>, beauty<sub>i</sub>]` denotes the *price* and *beauty* of an item respectively.
 

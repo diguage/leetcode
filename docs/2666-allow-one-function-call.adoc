@@ -1,7 +1,7 @@
 [#2666-allow-one-function-call]
 = 2666. Allow One Function Call
 
-https://leetcode.com/problems/allow-one-function-call/[LeetCode - 2666. Allow One Function Call ^]
+{leetcode}/problems/allow-one-function-call/[LeetCode - 2666. Allow One Function Call ^]
 
 Given a function `fn`, return a new function that is identical to the original function except that it ensures `fn` is called at most once.
 

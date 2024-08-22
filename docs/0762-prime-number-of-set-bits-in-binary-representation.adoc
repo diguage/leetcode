@@ -1,7 +1,7 @@
 [#0762-prime-number-of-set-bits-in-binary-representation]
 = 762. Prime Number of Set Bits in Binary Representation
 
-https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/[LeetCode - Prime Number of Set Bits in Binary Representation^]
+{leetcode}/problems/prime-number-of-set-bits-in-binary-representation/[LeetCode - Prime Number of Set Bits in Binary Representation^]
 
 
 Given two integers `L` and `R`, find the count of numbers in the range `[L, R]` (inclusive) having a prime number of set bits in their binary representation.

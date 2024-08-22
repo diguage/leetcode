@@ -1,7 +1,7 @@
 [#2598-smallest-missing-non-negative-integer-after-operations]
 = 2598. Smallest Missing Non-negative Integer After Operations
 
-https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/[LeetCode - 2598. Smallest Missing Non-negative Integer After Operations ^]
+{leetcode}/problems/smallest-missing-non-negative-integer-after-operations/[LeetCode - 2598. Smallest Missing Non-negative Integer After Operations ^]
 
 You are given a *0-indexed* integer array `nums` and an integer `value`.
 

@@ -1,7 +1,7 @@
 [#2857-count-pairs-of-points-with-distance-k]
 = 2857. Count Pairs of Points With Distance k
 
-https://leetcode.com/problems/count-pairs-of-points-with-distance-k/[LeetCode - 2857. Count Pairs of Points With Distance k ^]
+{leetcode}/problems/count-pairs-of-points-with-distance-k/[LeetCode - 2857. Count Pairs of Points With Distance k ^]
 
 You are given a *2D* integer array `coordinates` and an integer `k`, where `coordinates[i] = [x<sub>i</sub>, y<sub>i</sub>]` are the coordinates of the `i^th^` point in a 2D plane.
 

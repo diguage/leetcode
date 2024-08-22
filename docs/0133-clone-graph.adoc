@@ -1,7 +1,7 @@
 [#0133-clone-graph]
 = 133. Clone Graph
 
-https://leetcode.com/problems/clone-graph/[LeetCode - Clone Graph^]
+{leetcode}/problems/clone-graph/[LeetCode - Clone Graph^]
 
 Given a reference of a node in a *https://en.wikipedia.org/wiki/Connectivity_(graph_theory)#Connected_graph[connected^]* undirected graph.
 

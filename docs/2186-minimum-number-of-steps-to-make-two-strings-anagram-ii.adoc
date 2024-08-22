@@ -1,7 +1,7 @@
 [#2186-minimum-number-of-steps-to-make-two-strings-anagram-ii]
 = 2186. Minimum Number of Steps to Make Two Strings Anagram II
 
-https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/[LeetCode - 2186. Minimum Number of Steps to Make Two Strings Anagram II ^]
+{leetcode}/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/[LeetCode - 2186. Minimum Number of Steps to Make Two Strings Anagram II ^]
 
 You are given two strings `s` and `t`. In one step, you can append *any character* to either `s` or `t`.
 

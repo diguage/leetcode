@@ -1,7 +1,7 @@
 [#2919-minimum-increment-operations-to-make-array-beautiful]
 = 2919. Minimum Increment Operations to Make Array Beautiful
 
-https://leetcode.com/problems/minimum-increment-operations-to-make-array-beautiful/[LeetCode - 2919. Minimum Increment Operations to Make Array Beautiful ^]
+{leetcode}/problems/minimum-increment-operations-to-make-array-beautiful/[LeetCode - 2919. Minimum Increment Operations to Make Array Beautiful ^]
 
 You are given a *0-indexed* integer array `nums` having length `n`, and an integer `k`.
 

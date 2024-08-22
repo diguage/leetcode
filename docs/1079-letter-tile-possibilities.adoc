@@ -1,7 +1,7 @@
 [#1079-letter-tile-possibilities]
 = 1079. Letter Tile Possibilities
 
-https://leetcode.com/problems/letter-tile-possibilities/[LeetCode - Letter Tile Possibilities^]
+{leetcode}/problems/letter-tile-possibilities/[LeetCode - Letter Tile Possibilities^]
 
 You have a set of `tiles`, where each tile has one letter `tiles[i]` printed on it.  Return the number of possible non-empty sequences of letters you can make.
 

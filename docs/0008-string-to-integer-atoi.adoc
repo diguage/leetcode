@@ -1,7 +1,7 @@
 [#0008-string-to-integer-atoi]
 = 8. String to Integer (atoi)
 
-https://leetcode.com/problems/string-to-integer-atoi/[LeetCode - String to Integer (atoi)^]
+{leetcode}/problems/string-to-integer-atoi/[LeetCode - String to Integer (atoi)^]
 
 Implement `atoi` which converts a string to an integer.
 

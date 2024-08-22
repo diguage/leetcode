@@ -1,7 +1,7 @@
 [#0970-powerful-integers]
 = 970. Powerful Integers
 
-https://leetcode.com/problems/powerful-integers/[LeetCode - Powerful Integers^]
+{leetcode}/problems/powerful-integers/[LeetCode - Powerful Integers^]
 
 Given two positive integers `x` and `y`, an integer is _powerful_ if it is equal to `x^i + y^j` for some integers `i >= 0` and `j >= 0`.
 

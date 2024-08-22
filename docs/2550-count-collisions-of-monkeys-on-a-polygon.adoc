@@ -1,7 +1,7 @@
 [#2550-count-collisions-of-monkeys-on-a-polygon]
 = 2550. Count Collisions of Monkeys on a Polygon
 
-https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/[LeetCode - 2550. Count Collisions of Monkeys on a Polygon ^]
+{leetcode}/problems/count-collisions-of-monkeys-on-a-polygon/[LeetCode - 2550. Count Collisions of Monkeys on a Polygon ^]
 
 There is a regular convex polygon with `n` vertices. The vertices are labeled from `0` to `n - 1` in a clockwise direction, and each vertex has *exactly one monkey*. The following figure shows a convex polygon of `6` vertices.
 <img alt="" src="https://assets.leetcode.com/uploads/2023/01/22/hexagon.jpg" style="width: 300px; height: 293px;" />

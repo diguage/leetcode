@@ -1,7 +1,7 @@
 [#2482-difference-between-ones-and-zeros-in-row-and-column]
 = 2482. Difference Between Ones and Zeros in Row and Column
 
-https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/[LeetCode - 2482. Difference Between Ones and Zeros in Row and Column ^]
+{leetcode}/problems/difference-between-ones-and-zeros-in-row-and-column/[LeetCode - 2482. Difference Between Ones and Zeros in Row and Column ^]
 
 You are given a *0-indexed* `m x n` binary matrix `grid`.
 

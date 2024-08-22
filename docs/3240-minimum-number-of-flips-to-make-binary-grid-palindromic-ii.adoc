@@ -1,7 +1,7 @@
 [#3240-minimum-number-of-flips-to-make-binary-grid-palindromic-ii]
 = 3240. Minimum Number of Flips to Make Binary Grid Palindromic II
 
-https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-ii/[LeetCode - 3240. Minimum Number of Flips to Make Binary Grid Palindromic II ^]
+{leetcode}/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-ii/[LeetCode - 3240. Minimum Number of Flips to Make Binary Grid Palindromic II ^]
 
 You are given an `m x n` binary matrix `grid`.
 

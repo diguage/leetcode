@@ -1,7 +1,7 @@
 [#2537-count-the-number-of-good-subarrays]
 = 2537. Count the Number of Good Subarrays
 
-https://leetcode.com/problems/count-the-number-of-good-subarrays/[LeetCode - 2537. Count the Number of Good Subarrays ^]
+{leetcode}/problems/count-the-number-of-good-subarrays/[LeetCode - 2537. Count the Number of Good Subarrays ^]
 
 Given an integer array `nums` and an integer `k`, return _the number of *good* subarrays of_ `nums`.
 

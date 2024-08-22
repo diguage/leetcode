@@ -1,7 +1,7 @@
 [#2500-delete-greatest-value-in-each-row]
 = 2500. Delete Greatest Value in Each Row
 
-https://leetcode.com/problems/delete-greatest-value-in-each-row/[LeetCode - 2500. Delete Greatest Value in Each Row ^]
+{leetcode}/problems/delete-greatest-value-in-each-row/[LeetCode - 2500. Delete Greatest Value in Each Row ^]
 
 You are given an `m x n` matrix `grid` consisting of positive integers.
 

@@ -1,7 +1,7 @@
 [#3219-minimum-cost-for-cutting-cake-ii]
 = 3219. Minimum Cost for Cutting Cake II
 
-https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/[LeetCode - 3219. Minimum Cost for Cutting Cake II ^]
+{leetcode}/problems/minimum-cost-for-cutting-cake-ii/[LeetCode - 3219. Minimum Cost for Cutting Cake II ^]
 
 There is an `m x n` cake that needs to be cut into `1 x 1` pieces.
 

@@ -1,7 +1,7 @@
 [#0977-squares-of-a-sorted-array]
 = 977. Squares of a Sorted Array
 
-https://leetcode.com/problems/squares-of-a-sorted-array/[LeetCode - Squares of a Sorted Array^]
+{leetcode}/problems/squares-of-a-sorted-array/[LeetCode - Squares of a Sorted Array^]
 
 Given an array of integers `A` sorted in non-decreasing order, return an array of the squares of each number, also in sorted non-decreasing order.
 

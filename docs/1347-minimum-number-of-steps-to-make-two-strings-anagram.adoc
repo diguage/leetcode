@@ -1,7 +1,7 @@
 [#1347-minimum-number-of-steps-to-make-two-strings-anagram]
 = 1347. Minimum Number of Steps to Make Two Strings Anagram
 
-https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/[LeetCode - 1347. Minimum Number of Steps to Make Two Strings Anagram ^]
+{leetcode}/problems/minimum-number-of-steps-to-make-two-strings-anagram/[LeetCode - 1347. Minimum Number of Steps to Make Two Strings Anagram ^]
 
 You are given two strings of the same length `s` and `t`. In one step you can choose *any character* of `t` and replace it with *another character*.
 

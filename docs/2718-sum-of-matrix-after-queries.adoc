@@ -1,7 +1,7 @@
 [#2718-sum-of-matrix-after-queries]
 = 2718. Sum of Matrix After Queries
 
-https://leetcode.com/problems/sum-of-matrix-after-queries/[LeetCode - 2718. Sum of Matrix After Queries ^]
+{leetcode}/problems/sum-of-matrix-after-queries/[LeetCode - 2718. Sum of Matrix After Queries ^]
 
 You are given an integer `n` and a *0-indexed* *2D array* `queries` where `queries[i] = [type<sub>i</sub>, index<sub>i</sub>, val<sub>i</sub>]`.
 

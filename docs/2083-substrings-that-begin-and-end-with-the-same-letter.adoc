@@ -1,7 +1,7 @@
 [#2083-substrings-that-begin-and-end-with-the-same-letter]
 = 2083. Substrings That Begin and End With the Same Letter
 
-https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter/[LeetCode - 2083. Substrings That Begin and End With the Same Letter ^]
+{leetcode}/problems/substrings-that-begin-and-end-with-the-same-letter/[LeetCode - 2083. Substrings That Begin and End With the Same Letter ^]
 
 
 

@@ -1,7 +1,7 @@
 [#2897-apply-operations-on-array-to-maximize-sum-of-squares]
 = 2897. Apply Operations on Array to Maximize Sum of Squares
 
-https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/[LeetCode - 2897. Apply Operations on Array to Maximize Sum of Squares ^]
+{leetcode}/problems/apply-operations-on-array-to-maximize-sum-of-squares/[LeetCode - 2897. Apply Operations on Array to Maximize Sum of Squares ^]
 
 You are given a *0-indexed* integer array `nums` and a *positive* integer `k`.
 

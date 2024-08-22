@@ -1,7 +1,7 @@
 [#2370-longest-ideal-subsequence]
 = 2370. Longest Ideal Subsequence
 
-https://leetcode.com/problems/longest-ideal-subsequence/[LeetCode - 2370. Longest Ideal Subsequence ^]
+{leetcode}/problems/longest-ideal-subsequence/[LeetCode - 2370. Longest Ideal Subsequence ^]
 
 You are given a string `s` consisting of lowercase letters and an integer `k`. We call a string `t` *ideal* if the following conditions are satisfied:
 

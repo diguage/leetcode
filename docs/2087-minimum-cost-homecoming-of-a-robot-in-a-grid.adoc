@@ -1,7 +1,7 @@
 [#2087-minimum-cost-homecoming-of-a-robot-in-a-grid]
 = 2087. Minimum Cost Homecoming of a Robot in a Grid
 
-https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/[LeetCode - 2087. Minimum Cost Homecoming of a Robot in a Grid ^]
+{leetcode}/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/[LeetCode - 2087. Minimum Cost Homecoming of a Robot in a Grid ^]
 
 There is an `m x n` grid, where `(0, 0)` is the top-left cell and `(m - 1, n - 1)` is the bottom-right cell. You are given an integer array `startPos` where `startPos = [start<sub>row</sub>, start<sub>col</sub>]` indicates that *initially*, a *robot* is at the cell `(start<sub>row</sub>, start<sub>col</sub>)`. You are also given an integer array `homePos` where `homePos = [home<sub>row</sub>, home<sub>col</sub>]` indicates that its *home* is at the cell `(home<sub>row</sub>, home<sub>col</sub>)`.
 

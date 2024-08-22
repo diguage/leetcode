@@ -1,7 +1,7 @@
 [#1975-maximum-matrix-sum]
 = 1975. Maximum Matrix Sum
 
-https://leetcode.com/problems/maximum-matrix-sum/[LeetCode - 1975. Maximum Matrix Sum ^]
+{leetcode}/problems/maximum-matrix-sum/[LeetCode - 1975. Maximum Matrix Sum ^]
 
 You are given an `n x n` integer `matrix`. You can do the following operation *any* number of times:
 

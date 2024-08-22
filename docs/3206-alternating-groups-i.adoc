@@ -1,7 +1,7 @@
 [#3206-alternating-groups-i]
 = 3206. Alternating Groups I
 
-https://leetcode.com/problems/alternating-groups-i/[LeetCode - 3206. Alternating Groups I ^]
+{leetcode}/problems/alternating-groups-i/[LeetCode - 3206. Alternating Groups I ^]
 
 There is a circle of red and blue tiles. You are given an array of integers `colors`. The color of tile `i` is represented by `colors[i]`:
 

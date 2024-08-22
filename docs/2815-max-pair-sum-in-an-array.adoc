@@ -1,7 +1,7 @@
 [#2815-max-pair-sum-in-an-array]
 = 2815. Max Pair Sum in an Array
 
-https://leetcode.com/problems/max-pair-sum-in-an-array/[LeetCode - 2815. Max Pair Sum in an Array ^]
+{leetcode}/problems/max-pair-sum-in-an-array/[LeetCode - 2815. Max Pair Sum in an Array ^]
 
 You are given an integer array `nums`. You have to find the *maximum* sum of a pair of numbers from `nums` such that the *largest digit *in both numbers is equal.
 

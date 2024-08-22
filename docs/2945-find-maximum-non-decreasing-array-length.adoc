@@ -1,7 +1,7 @@
 [#2945-find-maximum-non-decreasing-array-length]
 = 2945. Find Maximum Non-decreasing Array Length
 
-https://leetcode.com/problems/find-maximum-non-decreasing-array-length/[LeetCode - 2945. Find Maximum Non-decreasing Array Length ^]
+{leetcode}/problems/find-maximum-non-decreasing-array-length/[LeetCode - 2945. Find Maximum Non-decreasing Array Length ^]
 
 You are given a *0-indexed* integer array `nums`.
 

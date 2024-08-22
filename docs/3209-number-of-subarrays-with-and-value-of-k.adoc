@@ -1,7 +1,7 @@
 [#3209-number-of-subarrays-with-and-value-of-k]
 = 3209. Number of Subarrays With AND Value of K
 
-https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k/[LeetCode - 3209. Number of Subarrays With AND Value of K ^]
+{leetcode}/problems/number-of-subarrays-with-and-value-of-k/[LeetCode - 3209. Number of Subarrays With AND Value of K ^]
 
 Given an array of integers `nums` and an integer `k`, return the number of <span data-keyword="subarray-nonempty">subarrays of `nums` where the bitwise `AND` of the elements of the subarray equals `k`.
 

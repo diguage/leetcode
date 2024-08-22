@@ -1,7 +1,7 @@
 [#0275-h-index-ii]
 = 275. H-Index II
 
-https://leetcode.com/problems/h-index-ii/[LeetCode - H-Index II^]
+{leetcode}/problems/h-index-ii/[LeetCode - H-Index II^]
 
 Given an array of citations *sorted in ascending order *(each citation is a non-negative integer) of a researcher, write a function to compute the researcher's h-index.
 

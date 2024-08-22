@@ -1,7 +1,7 @@
 [#3168-minimum-number-of-chairs-in-a-waiting-room]
 = 3168. Minimum Number of Chairs in a Waiting Room
 
-https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/[LeetCode - 3168. Minimum Number of Chairs in a Waiting Room ^]
+{leetcode}/problems/minimum-number-of-chairs-in-a-waiting-room/[LeetCode - 3168. Minimum Number of Chairs in a Waiting Room ^]
 
 You are given a string `s`. Simulate events at each second `i`:
 

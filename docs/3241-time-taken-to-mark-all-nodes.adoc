@@ -1,7 +1,7 @@
 [#3241-time-taken-to-mark-all-nodes]
 = 3241. Time Taken to Mark All Nodes
 
-https://leetcode.com/problems/time-taken-to-mark-all-nodes/[LeetCode - 3241. Time Taken to Mark All Nodes ^]
+{leetcode}/problems/time-taken-to-mark-all-nodes/[LeetCode - 3241. Time Taken to Mark All Nodes ^]
 
 There exists an *undirected* tree with `n` nodes numbered `0` to `n - 1`. You are given a 2D integer array `edges` of length `n - 1`, where `edges[i] = [u<sub>i</sub>, v<sub>i</sub>]` indicates that there is an edge between nodes `u<sub>i</sub>` and `v<sub>i</sub>` in the tree.
 

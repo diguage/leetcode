@@ -1,7 +1,7 @@
 [#1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one]
 = 1404. Number of Steps to Reduce a Number in Binary Representation to One
 
-https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/[LeetCode - 1404. Number of Steps to Reduce a Number in Binary Representation to One ^]
+{leetcode}/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/[LeetCode - 1404. Number of Steps to Reduce a Number in Binary Representation to One ^]
 
 Given the binary representation of an integer as a string `s`, return _the number of steps to reduce it to _`1`_ under the following rules_:
 

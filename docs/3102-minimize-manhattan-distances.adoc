@@ -1,7 +1,7 @@
 [#3102-minimize-manhattan-distances]
 = 3102. Minimize Manhattan Distances
 
-https://leetcode.com/problems/minimize-manhattan-distances/[LeetCode - 3102. Minimize Manhattan Distances ^]
+{leetcode}/problems/minimize-manhattan-distances/[LeetCode - 3102. Minimize Manhattan Distances ^]
 
 You are given a array `points` representing integer coordinates of some points on a 2D plane, where `points[i] = [x<sub>i</sub>, y<sub>i</sub>]`.
 

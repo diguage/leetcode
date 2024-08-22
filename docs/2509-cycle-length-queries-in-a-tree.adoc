@@ -1,7 +1,7 @@
 [#2509-cycle-length-queries-in-a-tree]
 = 2509. Cycle Length Queries in a Tree
 
-https://leetcode.com/problems/cycle-length-queries-in-a-tree/[LeetCode - 2509. Cycle Length Queries in a Tree ^]
+{leetcode}/problems/cycle-length-queries-in-a-tree/[LeetCode - 2509. Cycle Length Queries in a Tree ^]
 
 You are given an integer `n`. There is a *complete binary tree* with `2^n^ - 1` nodes. The root of that tree is the node with the value `1`, and every node with a value `val` in the range `[1, 2^n - 1^ - 1]` has two children where:
 

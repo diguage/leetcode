@@ -1,7 +1,7 @@
 [#2775-undefined-to-null]
 = 2775. Undefined to Null
 
-https://leetcode.com/problems/undefined-to-null/[LeetCode - 2775. Undefined to Null ^]
+{leetcode}/problems/undefined-to-null/[LeetCode - 2775. Undefined to Null ^]
 
 
 

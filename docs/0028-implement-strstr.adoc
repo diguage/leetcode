@@ -1,7 +1,7 @@
 [#0028-implement-strstr]
 = 28. Implement strStr()
 
-https://leetcode.com/problems/implement-strstr/[LeetCode - Implement strStr()^]
+{leetcode}/problems/implement-strstr/[LeetCode - Implement strStr()^]
 
 Implement http://www.cplusplus.com/reference/cstring/strstr/[strStr()^].
 

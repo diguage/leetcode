@@ -1,7 +1,7 @@
 [#3017-count-the-number-of-houses-at-a-certain-distance-ii]
 = 3017. Count the Number of Houses at a Certain Distance II
 
-https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-ii/[LeetCode - 3017. Count the Number of Houses at a Certain Distance II ^]
+{leetcode}/problems/count-the-number-of-houses-at-a-certain-distance-ii/[LeetCode - 3017. Count the Number of Houses at a Certain Distance II ^]
 
 You are given three *positive* integers `n`, `x`, and `y`.
 

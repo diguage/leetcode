@@ -1,7 +1,7 @@
 [#2975-maximum-square-area-by-removing-fences-from-a-field]
 = 2975. Maximum Square Area by Removing Fences From a Field
 
-https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/[LeetCode - 2975. Maximum Square Area by Removing Fences From a Field ^]
+{leetcode}/problems/maximum-square-area-by-removing-fences-from-a-field/[LeetCode - 2975. Maximum Square Area by Removing Fences From a Field ^]
 
 There is a large `(m - 1) x (n - 1)` rectangular field with corners at `(1, 1)` and `(m, n)` containing some horizontal and vertical fences given in arrays `hFences` and `vFences` respectively.
 

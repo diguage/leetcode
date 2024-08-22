@@ -1,7 +1,7 @@
 [#2960-count-tested-devices-after-test-operations]
 = 2960. Count Tested Devices After Test Operations
 
-https://leetcode.com/problems/count-tested-devices-after-test-operations/[LeetCode - 2960. Count Tested Devices After Test Operations ^]
+{leetcode}/problems/count-tested-devices-after-test-operations/[LeetCode - 2960. Count Tested Devices After Test Operations ^]
 
 You are given a *0-indexed* integer array `batteryPercentages` having length `n`, denoting the battery percentages of `n` *0-indexed* devices.
 

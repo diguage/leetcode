@@ -1,7 +1,7 @@
 [#2612-minimum-reverse-operations]
 = 2612. Minimum Reverse Operations
 
-https://leetcode.com/problems/minimum-reverse-operations/[LeetCode - 2612. Minimum Reverse Operations ^]
+{leetcode}/problems/minimum-reverse-operations/[LeetCode - 2612. Minimum Reverse Operations ^]
 
 You are given an integer `n` and an integer `p` representing an array `arr` of length `n` where all elements are set to 0's, except position `p` which is set to 1. You are also given an integer array `banned` containing restricted positions. Perform the following operation on `arr`:
 

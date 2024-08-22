@@ -1,7 +1,7 @@
 [#1930-unique-length-3-palindromic-subsequences]
 = 1930. Unique Length-3 Palindromic Subsequences
 
-https://leetcode.com/problems/unique-length-3-palindromic-subsequences/[LeetCode - 1930. Unique Length-3 Palindromic Subsequences ^]
+{leetcode}/problems/unique-length-3-palindromic-subsequences/[LeetCode - 1930. Unique Length-3 Palindromic Subsequences ^]
 
 Given a string `s`, return _the number of *unique palindromes of length three* that are a *subsequence* of _`s`.
 

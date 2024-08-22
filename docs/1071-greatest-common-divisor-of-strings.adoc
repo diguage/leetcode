@@ -1,7 +1,7 @@
 [#1071-greatest-common-divisor-of-strings]
 = 1071. Greatest Common Divisor of Strings
 
-https://leetcode.com/problems/greatest-common-divisor-of-strings/[LeetCode - Greatest Common Divisor of Strings^]
+{leetcode}/problems/greatest-common-divisor-of-strings/[LeetCode - Greatest Common Divisor of Strings^]
 
 For strings `S` and `T`, we say "`T` divides `S`" if and only if `S = T + ... + T`  (`T` concatenated with itself 1 or more times)
 

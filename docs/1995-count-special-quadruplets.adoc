@@ -1,7 +1,7 @@
 [#1995-count-special-quadruplets]
 = 1995. Count Special Quadruplets
 
-https://leetcode.com/problems/count-special-quadruplets/[LeetCode - 1995. Count Special Quadruplets ^]
+{leetcode}/problems/count-special-quadruplets/[LeetCode - 1995. Count Special Quadruplets ^]
 
 Given a *0-indexed* integer array `nums`, return _the number of *distinct* quadruplets_ `(a, b, c, d)` _such that:_
 

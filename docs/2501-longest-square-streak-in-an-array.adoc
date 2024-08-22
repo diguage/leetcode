@@ -1,7 +1,7 @@
 [#2501-longest-square-streak-in-an-array]
 = 2501. Longest Square Streak in an Array
 
-https://leetcode.com/problems/longest-square-streak-in-an-array/[LeetCode - 2501. Longest Square Streak in an Array ^]
+{leetcode}/problems/longest-square-streak-in-an-array/[LeetCode - 2501. Longest Square Streak in an Array ^]
 
 You are given an integer array `nums`. A subsequence of `nums` is called a *square streak* if:
 

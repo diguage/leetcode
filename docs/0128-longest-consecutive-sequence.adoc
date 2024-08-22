@@ -1,7 +1,7 @@
 [#0128-longest-consecutive-sequence]
 = 128. Longest Consecutive Sequence
 
-https://leetcode.com/problems/longest-consecutive-sequence/[LeetCode - Longest Consecutive Sequence^]
+{leetcode}/problems/longest-consecutive-sequence/[LeetCode - Longest Consecutive Sequence^]
 
 Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
 

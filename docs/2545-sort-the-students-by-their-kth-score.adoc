@@ -1,7 +1,7 @@
 [#2545-sort-the-students-by-their-kth-score]
 = 2545. Sort the Students by Their Kth Score
 
-https://leetcode.com/problems/sort-the-students-by-their-kth-score/[LeetCode - 2545. Sort the Students by Their Kth Score ^]
+{leetcode}/problems/sort-the-students-by-their-kth-score/[LeetCode - 2545. Sort the Students by Their Kth Score ^]
 
 There is a class with `m` students and `n` exams. You are given a *0-indexed* `m x n` integer matrix `score`, where each row represents one student and `score[i][j]` denotes the score the `i^th^` student got in the `j^th^` exam. The matrix `score` contains *distinct* integers only.
 

@@ -1,7 +1,7 @@
 [#2563-count-the-number-of-fair-pairs]
 = 2563. Count the Number of Fair Pairs
 
-https://leetcode.com/problems/count-the-number-of-fair-pairs/[LeetCode - 2563. Count the Number of Fair Pairs ^]
+{leetcode}/problems/count-the-number-of-fair-pairs/[LeetCode - 2563. Count the Number of Fair Pairs ^]
 
 Given a *0-indexed* integer array `nums` of size `n` and two integers `lower` and `upper`, return _the number of fair pairs_.
 

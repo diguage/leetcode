@@ -1,7 +1,7 @@
 [#1979-find-greatest-common-divisor-of-array]
 = 1979. Find Greatest Common Divisor of Array
 
-https://leetcode.com/problems/find-greatest-common-divisor-of-array/[LeetCode - 1979. Find Greatest Common Divisor of Array ^]
+{leetcode}/problems/find-greatest-common-divisor-of-array/[LeetCode - 1979. Find Greatest Common Divisor of Array ^]
 
 Given an integer array `nums`, return* *_the *greatest common divisor* of the smallest number and largest number in _`nums`.
 

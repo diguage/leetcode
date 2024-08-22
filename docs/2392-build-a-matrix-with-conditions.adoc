@@ -1,7 +1,7 @@
 [#2392-build-a-matrix-with-conditions]
 = 2392. Build a Matrix With Conditions
 
-https://leetcode.com/problems/build-a-matrix-with-conditions/[LeetCode - 2392. Build a Matrix With Conditions ^]
+{leetcode}/problems/build-a-matrix-with-conditions/[LeetCode - 2392. Build a Matrix With Conditions ^]
 
 You are given a *positive* integer `k`. You are also given:
 

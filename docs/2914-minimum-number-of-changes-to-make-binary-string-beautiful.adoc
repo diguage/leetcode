@@ -1,7 +1,7 @@
 [#2914-minimum-number-of-changes-to-make-binary-string-beautiful]
 = 2914. Minimum Number of Changes to Make Binary String Beautiful
 
-https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/[LeetCode - 2914. Minimum Number of Changes to Make Binary String Beautiful ^]
+{leetcode}/problems/minimum-number-of-changes-to-make-binary-string-beautiful/[LeetCode - 2914. Minimum Number of Changes to Make Binary String Beautiful ^]
 
 You are given a *0-indexed* binary string `s` having an even length.
 

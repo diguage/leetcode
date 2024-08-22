@@ -1,7 +1,7 @@
 [#1624-largest-substring-between-two-equal-characters]
 = 1624. Largest Substring Between Two Equal Characters
 
-https://leetcode.com/problems/largest-substring-between-two-equal-characters/[LeetCode - 1624. Largest Substring Between Two Equal Characters ^]
+{leetcode}/problems/largest-substring-between-two-equal-characters/[LeetCode - 1624. Largest Substring Between Two Equal Characters ^]
 
 Given a string `s`, return _the length of the longest substring between two equal characters, excluding the two characters._ If there is no such substring return `-1`.
 

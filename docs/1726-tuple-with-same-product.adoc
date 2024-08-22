@@ -1,7 +1,7 @@
 [#1726-tuple-with-same-product]
 = 1726. Tuple with Same Product
 
-https://leetcode.com/problems/tuple-with-same-product/[LeetCode - 1726. Tuple with Same Product ^]
+{leetcode}/problems/tuple-with-same-product/[LeetCode - 1726. Tuple with Same Product ^]
 
 Given an array `nums` of *distinct* positive integers, return _the number of tuples _`(a, b, c, d)`_ such that _`a * b = c * d`_ where _`a`_, _`b`_, _`c`_, and _`d`_ are elements of _`nums`_, and _`a != b != c != d`_._
 

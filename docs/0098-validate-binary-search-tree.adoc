@@ -1,7 +1,7 @@
 [#0098-validate-binary-search-tree]
 = 98. Validate Binary Search Tree
 
-https://leetcode.com/problems/validate-binary-search-tree/[LeetCode - Validate Binary Search Tree^]
+{leetcode}/problems/validate-binary-search-tree/[LeetCode - Validate Binary Search Tree^]
 
 image::images/0098-1.png[{image_attr}]
 

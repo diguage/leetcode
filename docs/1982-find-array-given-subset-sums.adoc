@@ -1,7 +1,7 @@
 [#1982-find-array-given-subset-sums]
 = 1982. Find Array Given Subset Sums
 
-https://leetcode.com/problems/find-array-given-subset-sums/[LeetCode - 1982. Find Array Given Subset Sums ^]
+{leetcode}/problems/find-array-given-subset-sums/[LeetCode - 1982. Find Array Given Subset Sums ^]
 
 You are given an integer `n` representing the length of an unknown array that you are trying to recover. You are also given an array `sums` containing the values of all `2^n^` *subset sums* of the unknown array (in no particular order).
 

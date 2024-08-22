@@ -1,7 +1,7 @@
 [#0395-longest-substring-with-at-least-k-repeating-characters]
 = 395. Longest Substring with At Least K Repeating Characters
 
-https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/[LeetCode - Longest Substring with At Least K Repeating Characters^]
+{leetcode}/problems/longest-substring-with-at-least-k-repeating-characters/[LeetCode - Longest Substring with At Least K Repeating Characters^]
 
 Find the length of the longest substring *_T_* of a given string (consists of lowercase letters only) such that every character in *_T_* appears no less than _k_ times.
 

@@ -1,7 +1,7 @@
 [#3046-split-the-array]
 = 3046. Split the Array
 
-https://leetcode.com/problems/split-the-array/[LeetCode - 3046. Split the Array ^]
+{leetcode}/problems/split-the-array/[LeetCode - 3046. Split the Array ^]
 
 You are given an integer array `nums` of *even* length. You have to split the array into two parts `nums1` and `nums2` such that:
 

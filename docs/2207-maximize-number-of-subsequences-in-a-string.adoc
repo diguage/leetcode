@@ -1,7 +1,7 @@
 [#2207-maximize-number-of-subsequences-in-a-string]
 = 2207. Maximize Number of Subsequences in a String
 
-https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/[LeetCode - 2207. Maximize Number of Subsequences in a String ^]
+{leetcode}/problems/maximize-number-of-subsequences-in-a-string/[LeetCode - 2207. Maximize Number of Subsequences in a String ^]
 
 You are given a *0-indexed* string `text` and another *0-indexed* string `pattern` of length `2`, both of which consist of only lowercase English letters.
 

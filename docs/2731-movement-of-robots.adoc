@@ -1,7 +1,7 @@
 [#2731-movement-of-robots]
 = 2731. Movement of Robots
 
-https://leetcode.com/problems/movement-of-robots/[LeetCode - 2731. Movement of Robots ^]
+{leetcode}/problems/movement-of-robots/[LeetCode - 2731. Movement of Robots ^]
 
 Some robots are standing on an infinite number line with their initial coordinates given by a *0-indexed* integer array `nums` and will start moving once given the command to move. The robots will move a unit distance each second.
 

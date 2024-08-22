@@ -1,7 +1,7 @@
 [#2211-count-collisions-on-a-road]
 = 2211. Count Collisions on a Road
 
-https://leetcode.com/problems/count-collisions-on-a-road/[LeetCode - 2211. Count Collisions on a Road ^]
+{leetcode}/problems/count-collisions-on-a-road/[LeetCode - 2211. Count Collisions on a Road ^]
 
 There are `n` cars on an infinitely long road. The cars are numbered from `0` to `n - 1` from left to right and each car is present at a *unique* point.
 

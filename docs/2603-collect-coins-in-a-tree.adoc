@@ -1,7 +1,7 @@
 [#2603-collect-coins-in-a-tree]
 = 2603. Collect Coins in a Tree
 
-https://leetcode.com/problems/collect-coins-in-a-tree/[LeetCode - 2603. Collect Coins in a Tree ^]
+{leetcode}/problems/collect-coins-in-a-tree/[LeetCode - 2603. Collect Coins in a Tree ^]
 
 There exists an undirected and unrooted tree with `n` nodes indexed from `0` to `n - 1`. You are given an integer `n` and a 2D integer array edges of length `n - 1`, where `edges[i] = [a<sub>i</sub>, b<sub>i</sub>]` indicates that there is an edge between nodes `a<sub>i</sub>` and `b<sub>i</sub>` in the tree. You are also given an array `coins` of size `n` where `coins[i]` can be either `0` or `1`, where `1` indicates the presence of a coin in the vertex `i`.
 

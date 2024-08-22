@@ -1,7 +1,7 @@
 [#2227-encrypt-and-decrypt-strings]
 = 2227. Encrypt and Decrypt Strings
 
-https://leetcode.com/problems/encrypt-and-decrypt-strings/[LeetCode - 2227. Encrypt and Decrypt Strings ^]
+{leetcode}/problems/encrypt-and-decrypt-strings/[LeetCode - 2227. Encrypt and Decrypt Strings ^]
 
 You are given a character array `keys` containing *unique* characters and a string array `values` containing strings of length 2. You are also given another string array `dictionary` that contains all permitted original strings after decryption. You should implement a data structure that can encrypt or decrypt a *0-indexed* string.
 

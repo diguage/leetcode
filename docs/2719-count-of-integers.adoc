@@ -1,7 +1,7 @@
 [#2719-count-of-integers]
 = 2719. Count of Integers
 
-https://leetcode.com/problems/count-of-integers/[LeetCode - 2719. Count of Integers ^]
+{leetcode}/problems/count-of-integers/[LeetCode - 2719. Count of Integers ^]
 
 You are given two numeric strings `num1` and `num2` and two integers `max_sum` and `min_sum`. We denote an integer `x` to be _good_ if:
 

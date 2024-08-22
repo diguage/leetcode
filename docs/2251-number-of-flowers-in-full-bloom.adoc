@@ -1,7 +1,7 @@
 [#2251-number-of-flowers-in-full-bloom]
 = 2251. Number of Flowers in Full Bloom
 
-https://leetcode.com/problems/number-of-flowers-in-full-bloom/[LeetCode - 2251. Number of Flowers in Full Bloom ^]
+{leetcode}/problems/number-of-flowers-in-full-bloom/[LeetCode - 2251. Number of Flowers in Full Bloom ^]
 
 You are given a *0-indexed* 2D integer array `flowers`, where `flowers[i] = [start<sub>i</sub>, end<sub>i</sub>]` means the `i^th^` flower will be in *full bloom* from `start<sub>i</sub>` to `end<sub>i</sub>` (*inclusive*). You are also given a *0-indexed* integer array `people` of size `n`, where `people[i]` is the time that the `i^th^` person will arrive to see the flowers.
 

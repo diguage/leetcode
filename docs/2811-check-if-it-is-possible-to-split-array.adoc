@@ -1,7 +1,7 @@
 [#2811-check-if-it-is-possible-to-split-array]
 = 2811. Check if it is Possible to Split Array
 
-https://leetcode.com/problems/check-if-it-is-possible-to-split-array/[LeetCode - 2811. Check if it is Possible to Split Array ^]
+{leetcode}/problems/check-if-it-is-possible-to-split-array/[LeetCode - 2811. Check if it is Possible to Split Array ^]
 
 You are given an array `nums` of length `n` and an integer `m`. You need to determine if it is possible to split the array into `n` arrays of size 1 by performing a series of steps.
 

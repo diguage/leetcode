@@ -1,7 +1,7 @@
 [#1845-seat-reservation-manager]
 = 1845. Seat Reservation Manager
 
-https://leetcode.com/problems/seat-reservation-manager/[LeetCode - 1845. Seat Reservation Manager ^]
+{leetcode}/problems/seat-reservation-manager/[LeetCode - 1845. Seat Reservation Manager ^]
 
 Design a system that manages the reservation state of `n` seats that are numbered from `1` to `n`.
 

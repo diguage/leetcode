@@ -1,7 +1,7 @@
 [#1547-minimum-cost-to-cut-a-stick]
 = 1547. Minimum Cost to Cut a Stick
 
-https://leetcode.com/problems/minimum-cost-to-cut-a-stick/[LeetCode - 1547. Minimum Cost to Cut a Stick ^]
+{leetcode}/problems/minimum-cost-to-cut-a-stick/[LeetCode - 1547. Minimum Cost to Cut a Stick ^]
 
 Given a wooden stick of length `n` units. The stick is labelled from `0` to `n`. For example, a stick of length *6* is labelled as follows:
 <img alt="" src="https://assets.leetcode.com/uploads/2020/07/21/statement.jpg" style="width: 521px; height: 111px;" />

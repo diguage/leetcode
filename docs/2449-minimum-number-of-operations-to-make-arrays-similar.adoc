@@ -1,7 +1,7 @@
 [#2449-minimum-number-of-operations-to-make-arrays-similar]
 = 2449. Minimum Number of Operations to Make Arrays Similar
 
-https://leetcode.com/problems/minimum-number-of-operations-to-make-arrays-similar/[LeetCode - 2449. Minimum Number of Operations to Make Arrays Similar ^]
+{leetcode}/problems/minimum-number-of-operations-to-make-arrays-similar/[LeetCode - 2449. Minimum Number of Operations to Make Arrays Similar ^]
 
 You are given two positive integer arrays `nums` and `target`, of the same length.
 

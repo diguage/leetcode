@@ -1,7 +1,7 @@
 [#3116-kth-smallest-amount-with-single-denomination-combination]
 = 3116. Kth Smallest Amount With Single Denomination Combination
 
-https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/[LeetCode - 3116. Kth Smallest Amount With Single Denomination Combination ^]
+{leetcode}/problems/kth-smallest-amount-with-single-denomination-combination/[LeetCode - 3116. Kth Smallest Amount With Single Denomination Combination ^]
 
 You are given an integer array `coins` representing coins of different denominations and an integer `k`.
 

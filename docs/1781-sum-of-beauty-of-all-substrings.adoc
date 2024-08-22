@@ -1,7 +1,7 @@
 [#1781-sum-of-beauty-of-all-substrings]
 = 1781. Sum of Beauty of All Substrings
 
-https://leetcode.com/problems/sum-of-beauty-of-all-substrings/[LeetCode - 1781. Sum of Beauty of All Substrings ^]
+{leetcode}/problems/sum-of-beauty-of-all-substrings/[LeetCode - 1781. Sum of Beauty of All Substrings ^]
 
 The *beauty* of a string is the difference in frequencies between the most frequent and least frequent characters.
 

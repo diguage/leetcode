@@ -1,7 +1,7 @@
 [#3112-minimum-time-to-visit-disappearing-nodes]
 = 3112. Minimum Time to Visit Disappearing Nodes
 
-https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/[LeetCode - 3112. Minimum Time to Visit Disappearing Nodes ^]
+{leetcode}/problems/minimum-time-to-visit-disappearing-nodes/[LeetCode - 3112. Minimum Time to Visit Disappearing Nodes ^]
 
 There is an undirected graph of `n` nodes. You are given a 2D array `edges`, where `edges[i] = [u<sub>i</sub>, v<sub>i</sub>, length<sub>i</sub>]` describes an edge between node `u<sub>i</sub>` and node `v<sub>i</sub>` with a traversal time of `length<sub>i</sub>` units.
 

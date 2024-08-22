@@ -1,7 +1,7 @@
 [#3080-mark-elements-on-array-by-performing-queries]
 = 3080. Mark Elements on Array by Performing Queries
 
-https://leetcode.com/problems/mark-elements-on-array-by-performing-queries/[LeetCode - 3080. Mark Elements on Array by Performing Queries ^]
+{leetcode}/problems/mark-elements-on-array-by-performing-queries/[LeetCode - 3080. Mark Elements on Array by Performing Queries ^]
 
 You are given a *0-indexed* array `nums` of size `n` consisting of positive integers.
 

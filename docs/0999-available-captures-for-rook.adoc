@@ -1,7 +1,7 @@
 [#0999-available-captures-for-rook]
 = 999. Available Captures for Rook
 
-https://leetcode.com/problems/available-captures-for-rook/[LeetCode - Available Captures for Rook^]
+{leetcode}/problems/available-captures-for-rook/[LeetCode - Available Captures for Rook^]
 
 On an 8 x 8 chessboard, there is one white rook.  There also may be empty squares, white bishops, and black pawns.  These are given as characters 'R', '.', 'B', and 'p' respectively. Uppercase characters represent white pieces, and lowercase characters represent black pieces.
 

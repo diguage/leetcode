@@ -1,7 +1,7 @@
 [#2629-function-composition]
 = 2629. Function Composition
 
-https://leetcode.com/problems/function-composition/[LeetCode - 2629. Function Composition ^]
+{leetcode}/problems/function-composition/[LeetCode - 2629. Function Composition ^]
 
 Given an array of functions `[f<span style="font-size: 10.8333px;">1, f<sub>2</sub>, f<sub>3</sub>, ..., f<sub>n</sub>]`, return a new function `fn` that is the *function composition* of the array of functions.
 

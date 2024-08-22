@@ -1,7 +1,7 @@
 [#1444-number-of-ways-of-cutting-a-pizza]
 = 1444. Number of Ways of Cutting a Pizza
 
-https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/[LeetCode - 1444. Number of Ways of Cutting a Pizza ^]
+{leetcode}/problems/number-of-ways-of-cutting-a-pizza/[LeetCode - 1444. Number of Ways of Cutting a Pizza ^]
 
 Given a rectangular pizza represented as a `rows x cols` matrix containing the following characters: `'A'` (an apple) and `'.'` (empty cell) and given the integer `k`. You have to cut the pizza into `k` pieces using `k-1` cuts. 
 

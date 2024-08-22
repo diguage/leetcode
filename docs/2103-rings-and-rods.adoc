@@ -1,7 +1,7 @@
 [#2103-rings-and-rods]
 = 2103. Rings and Rods
 
-https://leetcode.com/problems/rings-and-rods/[LeetCode - 2103. Rings and Rods ^]
+{leetcode}/problems/rings-and-rods/[LeetCode - 2103. Rings and Rods ^]
 
 There are `n` rings and each ring is either red, green, or blue. The rings are distributed *across ten rods* labeled from `0` to `9`.
 

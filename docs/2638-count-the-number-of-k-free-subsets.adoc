@@ -1,7 +1,7 @@
 [#2638-count-the-number-of-k-free-subsets]
 = 2638. Count the Number of K-Free Subsets
 
-https://leetcode.com/problems/count-the-number-of-k-free-subsets/[LeetCode - 2638. Count the Number of K-Free Subsets ^]
+{leetcode}/problems/count-the-number-of-k-free-subsets/[LeetCode - 2638. Count the Number of K-Free Subsets ^]
 
 
 

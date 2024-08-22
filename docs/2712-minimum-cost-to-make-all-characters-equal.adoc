@@ -1,7 +1,7 @@
 [#2712-minimum-cost-to-make-all-characters-equal]
 = 2712. Minimum Cost to Make All Characters Equal
 
-https://leetcode.com/problems/minimum-cost-to-make-all-characters-equal/[LeetCode - 2712. Minimum Cost to Make All Characters Equal ^]
+{leetcode}/problems/minimum-cost-to-make-all-characters-equal/[LeetCode - 2712. Minimum Cost to Make All Characters Equal ^]
 
 You are given a *0-indexed* binary string `s` of length `n` on which you can apply two types of operations:
 

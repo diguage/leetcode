@@ -1,7 +1,7 @@
 [#2232-minimize-result-by-adding-parentheses-to-expression]
 = 2232. Minimize Result by Adding Parentheses to Expression
 
-https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/[LeetCode - 2232. Minimize Result by Adding Parentheses to Expression ^]
+{leetcode}/problems/minimize-result-by-adding-parentheses-to-expression/[LeetCode - 2232. Minimize Result by Adding Parentheses to Expression ^]
 
 You are given a *0-indexed* string `expression` of the form `"<num1>+<num2>"` where `<num1>` and `<num2>` represent positive integers.
 

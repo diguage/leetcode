@@ -1,7 +1,7 @@
 [#0913-cat-and-mouse]
 = 913. Cat and Mouse
 
-https://leetcode.com/problems/cat-and-mouse/[LeetCode - Cat and Mouse^]
+{leetcode}/problems/cat-and-mouse/[LeetCode - Cat and Mouse^]
 
 A game on an *undirected* graph is played by two players, Mouse and Cat, who alternate turns.
 

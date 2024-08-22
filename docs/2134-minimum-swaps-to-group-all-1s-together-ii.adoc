@@ -1,7 +1,7 @@
 [#2134-minimum-swaps-to-group-all-1s-together-ii]
 = 2134. Minimum Swaps to Group All 1's Together II
 
-https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/[LeetCode - 2134. Minimum Swaps to Group All 1's Together II ^]
+{leetcode}/problems/minimum-swaps-to-group-all-1s-together-ii/[LeetCode - 2134. Minimum Swaps to Group All 1's Together II ^]
 
 A *swap* is defined as taking two *distinct* positions in an array and swapping the values in them.
 

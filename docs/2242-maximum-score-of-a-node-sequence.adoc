@@ -1,7 +1,7 @@
 [#2242-maximum-score-of-a-node-sequence]
 = 2242. Maximum Score of a Node Sequence
 
-https://leetcode.com/problems/maximum-score-of-a-node-sequence/[LeetCode - 2242. Maximum Score of a Node Sequence ^]
+{leetcode}/problems/maximum-score-of-a-node-sequence/[LeetCode - 2242. Maximum Score of a Node Sequence ^]
 
 There is an *undirected* graph with `n` nodes, numbered from `0` to `n - 1`.
 

@@ -1,7 +1,7 @@
 [#2139-minimum-moves-to-reach-target-score]
 = 2139. Minimum Moves to Reach Target Score
 
-https://leetcode.com/problems/minimum-moves-to-reach-target-score/[LeetCode - 2139. Minimum Moves to Reach Target Score ^]
+{leetcode}/problems/minimum-moves-to-reach-target-score/[LeetCode - 2139. Minimum Moves to Reach Target Score ^]
 
 You are playing a game with integers. You start with the integer `1` and you want to reach the integer `target`.
 

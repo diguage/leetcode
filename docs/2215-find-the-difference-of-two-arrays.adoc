@@ -1,7 +1,7 @@
 [#2215-find-the-difference-of-two-arrays]
 = 2215. Find the Difference of Two Arrays
 
-https://leetcode.com/problems/find-the-difference-of-two-arrays/[LeetCode - 2215. Find the Difference of Two Arrays ^]
+{leetcode}/problems/find-the-difference-of-two-arrays/[LeetCode - 2215. Find the Difference of Two Arrays ^]
 
 Given two *0-indexed* integer arrays `nums1` and `nums2`, return _a list_ `answer` _of size_ `2` _where:_
 

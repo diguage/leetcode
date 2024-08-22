@@ -1,7 +1,7 @@
 [#0368-largest-divisible-subset]
 = 368. Largest Divisible Subset
 
-https://leetcode.com/problems/largest-divisible-subset/[LeetCode - Largest Divisible Subset^]
+{leetcode}/problems/largest-divisible-subset/[LeetCode - Largest Divisible Subset^]
 
 Given a set of *distinct* positive integers, find the largest subset such that every pair (S~i~, S~j~) of elements in this subset satisfies:
 

@@ -1,7 +1,7 @@
 [#0553-optimal-division]
 = 553. Optimal Division
 
-https://leetcode.com/problems/optimal-division/[LeetCode - Optimal Division^]
+{leetcode}/problems/optimal-division/[LeetCode - Optimal Division^]
 
 Given a list of *positive integers*, the adjacent integers will perform the float division. For example, [2,3,4] -> 2 / 3 / 4.
 

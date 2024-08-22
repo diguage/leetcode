@@ -1,7 +1,7 @@
 [#1833-maximum-ice-cream-bars]
 = 1833. Maximum Ice Cream Bars
 
-https://leetcode.com/problems/maximum-ice-cream-bars/[LeetCode - 1833. Maximum Ice Cream Bars ^]
+{leetcode}/problems/maximum-ice-cream-bars/[LeetCode - 1833. Maximum Ice Cream Bars ^]
 
 It is a sweltering summer day, and a boy wants to buy some ice cream bars.
 

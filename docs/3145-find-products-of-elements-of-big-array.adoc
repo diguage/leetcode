@@ -1,7 +1,7 @@
 [#3145-find-products-of-elements-of-big-array]
 = 3145. Find Products of Elements of Big Array
 
-https://leetcode.com/problems/find-products-of-elements-of-big-array/[LeetCode - 3145. Find Products of Elements of Big Array ^]
+{leetcode}/problems/find-products-of-elements-of-big-array/[LeetCode - 3145. Find Products of Elements of Big Array ^]
 
 The *powerful array* of a non-negative integer `x` is defined as the shortest sorted array of powers of two that sum up to `x`. The table below illustrates examples of how the *powerful array* is determined. It can be proven that the powerful array of `x` is unique.
 

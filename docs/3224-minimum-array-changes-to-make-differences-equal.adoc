@@ -1,7 +1,7 @@
 [#3224-minimum-array-changes-to-make-differences-equal]
 = 3224. Minimum Array Changes to Make Differences Equal
 
-https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/[LeetCode - 3224. Minimum Array Changes to Make Differences Equal ^]
+{leetcode}/problems/minimum-array-changes-to-make-differences-equal/[LeetCode - 3224. Minimum Array Changes to Make Differences Equal ^]
 
 You are given an integer array `nums` of size `n` where `n` is *even*, and an integer `k`.
 

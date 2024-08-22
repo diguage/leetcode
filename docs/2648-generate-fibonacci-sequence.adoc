@@ -1,7 +1,7 @@
 [#2648-generate-fibonacci-sequence]
 = 2648. Generate Fibonacci Sequence
 
-https://leetcode.com/problems/generate-fibonacci-sequence/[LeetCode - 2648. Generate Fibonacci Sequence ^]
+{leetcode}/problems/generate-fibonacci-sequence/[LeetCode - 2648. Generate Fibonacci Sequence ^]
 
 Write a generator function that returns a generator object which yields the *fibonacci sequence*.
 

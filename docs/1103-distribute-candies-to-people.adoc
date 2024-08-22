@@ -1,7 +1,7 @@
 [#1103-distribute-candies-to-people]
 = 1103. Distribute Candies to People
 
-https://leetcode.com/problems/distribute-candies-to-people/[LeetCode - Distribute Candies to People^]
+{leetcode}/problems/distribute-candies-to-people/[LeetCode - Distribute Candies to People^]
 
 We distribute some number of `candies`, to a row of *`n = num_people`* people in the following way:
 

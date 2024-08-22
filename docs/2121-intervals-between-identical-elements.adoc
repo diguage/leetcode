@@ -1,7 +1,7 @@
 [#2121-intervals-between-identical-elements]
 = 2121. Intervals Between Identical Elements
 
-https://leetcode.com/problems/intervals-between-identical-elements/[LeetCode - 2121. Intervals Between Identical Elements ^]
+{leetcode}/problems/intervals-between-identical-elements/[LeetCode - 2121. Intervals Between Identical Elements ^]
 
 You are given a *0-indexed* array of `n` integers `arr`.
 

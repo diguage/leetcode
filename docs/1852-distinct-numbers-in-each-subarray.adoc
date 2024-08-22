@@ -1,7 +1,7 @@
 [#1852-distinct-numbers-in-each-subarray]
 = 1852. Distinct Numbers in Each Subarray
 
-https://leetcode.com/problems/distinct-numbers-in-each-subarray/[LeetCode - 1852. Distinct Numbers in Each Subarray ^]
+{leetcode}/problems/distinct-numbers-in-each-subarray/[LeetCode - 1852. Distinct Numbers in Each Subarray ^]
 
 
 

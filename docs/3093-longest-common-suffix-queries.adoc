@@ -1,7 +1,7 @@
 [#3093-longest-common-suffix-queries]
 = 3093. Longest Common Suffix Queries
 
-https://leetcode.com/problems/longest-common-suffix-queries/[LeetCode - 3093. Longest Common Suffix Queries ^]
+{leetcode}/problems/longest-common-suffix-queries/[LeetCode - 3093. Longest Common Suffix Queries ^]
 
 You are given two arrays of strings `wordsContainer` and `wordsQuery`.
 

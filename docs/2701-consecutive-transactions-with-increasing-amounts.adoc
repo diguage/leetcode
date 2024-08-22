@@ -1,7 +1,7 @@
 [#2701-consecutive-transactions-with-increasing-amounts]
 = 2701. Consecutive Transactions with Increasing Amounts
 
-https://leetcode.com/problems/consecutive-transactions-with-increasing-amounts/[LeetCode - 2701. Consecutive Transactions with Increasing Amounts ^]
+{leetcode}/problems/consecutive-transactions-with-increasing-amounts/[LeetCode - 2701. Consecutive Transactions with Increasing Amounts ^]
 
 
 

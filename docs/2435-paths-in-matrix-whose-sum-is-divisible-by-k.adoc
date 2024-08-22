@@ -1,7 +1,7 @@
 [#2435-paths-in-matrix-whose-sum-is-divisible-by-k]
 = 2435. Paths in Matrix Whose Sum Is Divisible by K
 
-https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/[LeetCode - 2435. Paths in Matrix Whose Sum Is Divisible by K ^]
+{leetcode}/problems/paths-in-matrix-whose-sum-is-divisible-by-k/[LeetCode - 2435. Paths in Matrix Whose Sum Is Divisible by K ^]
 
 You are given a *0-indexed* `m x n` integer matrix `grid` and an integer `k`. You are currently at position `(0, 0)` and you want to reach position `(m - 1, n - 1)` moving only *down* or *right*.
 

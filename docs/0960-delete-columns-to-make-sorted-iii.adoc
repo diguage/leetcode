@@ -1,7 +1,7 @@
 [#0960-delete-columns-to-make-sorted-iii]
 = 960. Delete Columns to Make Sorted III
 
-https://leetcode.com/problems/delete-columns-to-make-sorted-iii/[LeetCode - Delete Columns to Make Sorted III^]
+{leetcode}/problems/delete-columns-to-make-sorted-iii/[LeetCode - Delete Columns to Make Sorted III^]
 
 We are given an array `A` of `N` lowercase letter strings, all of the same length.
 

@@ -1,7 +1,7 @@
 [#1767-find-the-subtasks-that-did-not-execute]
 = 1767. Find the Subtasks That Did Not Execute
 
-https://leetcode.com/problems/find-the-subtasks-that-did-not-execute/[LeetCode - 1767. Find the Subtasks That Did Not Execute ^]
+{leetcode}/problems/find-the-subtasks-that-did-not-execute/[LeetCode - 1767. Find the Subtasks That Did Not Execute ^]
 
 
 

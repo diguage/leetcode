@@ -1,7 +1,7 @@
 [#1721-swapping-nodes-in-a-linked-list]
 = 1721. Swapping Nodes in a Linked List
 
-https://leetcode.com/problems/swapping-nodes-in-a-linked-list/[LeetCode - 1721. Swapping Nodes in a Linked List ^]
+{leetcode}/problems/swapping-nodes-in-a-linked-list/[LeetCode - 1721. Swapping Nodes in a Linked List ^]
 
 You are given the `head` of a linked list, and an integer `k`.
 

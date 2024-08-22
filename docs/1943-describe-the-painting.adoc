@@ -1,7 +1,7 @@
 [#1943-describe-the-painting]
 = 1943. Describe the Painting
 
-https://leetcode.com/problems/describe-the-painting/[LeetCode - 1943. Describe the Painting ^]
+{leetcode}/problems/describe-the-painting/[LeetCode - 1943. Describe the Painting ^]
 
 There is a long and thin painting that can be represented by a number line. The painting was painted with multiple overlapping segments where each segment was painted with a *unique* color. You are given a 2D integer array `segments`, where `segments[i] = [start<sub>i</sub>, end<sub>i</sub>, color<sub>i</sub>]` represents the *half-closed segment* `[start<sub>i</sub>, end<sub>i</sub>)` with `color<sub>i</sub>` as the color.
 

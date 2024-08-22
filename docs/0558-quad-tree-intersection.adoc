@@ -1,7 +1,7 @@
 [#0558-quad-tree-intersection]
 = 558. Quad Tree Intersection
 
-https://leetcode.com/problems/quad-tree-intersection/[LeetCode - Quad Tree Intersection^]
+{leetcode}/problems/quad-tree-intersection/[LeetCode - Quad Tree Intersection^]
 
 A quadtree is a tree data in which each internal node has exactly four children: `topLeft`, `topRight`, `bottomLeft` and `bottomRight`. Quad trees are often used to partition a two-dimensional space by recursively subdividing it into four quadrants or regions.
 

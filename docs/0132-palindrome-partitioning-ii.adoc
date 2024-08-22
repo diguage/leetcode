@@ -1,7 +1,7 @@
 [#0132-palindrome-partitioning-ii]
 = 132. Palindrome Partitioning II
 
-https://leetcode.com/problems/palindrome-partitioning-ii/[LeetCode - Palindrome Partitioning II^]
+{leetcode}/problems/palindrome-partitioning-ii/[LeetCode - Palindrome Partitioning II^]
 
 Given a string _s_, partition _s_ such that every substring of the partition is a palindrome.
 

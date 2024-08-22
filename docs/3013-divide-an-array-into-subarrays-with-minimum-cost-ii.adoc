@@ -1,7 +1,7 @@
 [#3013-divide-an-array-into-subarrays-with-minimum-cost-ii]
 = 3013. Divide an Array Into Subarrays With Minimum Cost II
 
-https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/[LeetCode - 3013. Divide an Array Into Subarrays With Minimum Cost II ^]
+{leetcode}/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/[LeetCode - 3013. Divide an Array Into Subarrays With Minimum Cost II ^]
 
 You are given a *0-indexed* array of integers `nums` of length `n`, and two *positive* integers `k` and `dist`.
 

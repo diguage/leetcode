@@ -1,7 +1,7 @@
 [#3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i]
 = 3191. Minimum Operations to Make Binary Array Elements Equal to One I
 
-https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/[LeetCode - 3191. Minimum Operations to Make Binary Array Elements Equal to One I ^]
+{leetcode}/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/[LeetCode - 3191. Minimum Operations to Make Binary Array Elements Equal to One I ^]
 
 You are given a <span data-keyword="binary-array">binary array `nums`.
 

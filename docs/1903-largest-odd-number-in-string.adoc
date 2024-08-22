@@ -1,7 +1,7 @@
 [#1903-largest-odd-number-in-string]
 = 1903. Largest Odd Number in String
 
-https://leetcode.com/problems/largest-odd-number-in-string/[LeetCode - 1903. Largest Odd Number in String ^]
+{leetcode}/problems/largest-odd-number-in-string/[LeetCode - 1903. Largest Odd Number in String ^]
 
 You are given a string `num`, representing a large integer. Return _the *largest-valued odd* integer (as a string) that is a *non-empty substring* of _`num`_, or an empty string _`""`_ if no odd integer exists_.
 

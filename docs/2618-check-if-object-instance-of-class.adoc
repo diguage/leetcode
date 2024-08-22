@@ -1,7 +1,7 @@
 [#2618-check-if-object-instance-of-class]
 = 2618. Check if Object Instance of Class
 
-https://leetcode.com/problems/check-if-object-instance-of-class/[LeetCode - 2618. Check if Object Instance of Class ^]
+{leetcode}/problems/check-if-object-instance-of-class/[LeetCode - 2618. Check if Object Instance of Class ^]
 
 Write a function that checks if a given value is an instance of a given class or superclass. For this problem, an object is considered an instance of a given class if that object has access to that class's methods.
 

@@ -1,7 +1,7 @@
 [#1507-reformat-date]
 = 1507. Reformat Date
 
-https://leetcode.com/problems/reformat-date/[LeetCode - 1507. Reformat Date ^]
+{leetcode}/problems/reformat-date/[LeetCode - 1507. Reformat Date ^]
 
 Given a `date` string in the form `Day Month Year`, where:
 

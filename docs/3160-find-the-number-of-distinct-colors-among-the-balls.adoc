@@ -1,7 +1,7 @@
 [#3160-find-the-number-of-distinct-colors-among-the-balls]
 = 3160. Find the Number of Distinct Colors Among the Balls
 
-https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/[LeetCode - 3160. Find the Number of Distinct Colors Among the Balls ^]
+{leetcode}/problems/find-the-number-of-distinct-colors-among-the-balls/[LeetCode - 3160. Find the Number of Distinct Colors Among the Balls ^]
 
 You are given an integer `limit` and a 2D array `queries` of size `n x 2`.
 

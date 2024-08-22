@@ -1,7 +1,7 @@
 [#2440-create-components-with-same-value]
 = 2440. Create Components With Same Value
 
-https://leetcode.com/problems/create-components-with-same-value/[LeetCode - 2440. Create Components With Same Value ^]
+{leetcode}/problems/create-components-with-same-value/[LeetCode - 2440. Create Components With Same Value ^]
 
 There is an undirected tree with `n` nodes labeled from `0` to `n - 1`.
 

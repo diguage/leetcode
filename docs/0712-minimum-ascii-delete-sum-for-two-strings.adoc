@@ -1,7 +1,7 @@
 [#0712-minimum-ascii-delete-sum-for-two-strings]
 = 712. Minimum ASCII Delete Sum for Two Strings
 
-https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/[LeetCode - Minimum ASCII Delete Sum for Two Strings^]
+{leetcode}/problems/minimum-ascii-delete-sum-for-two-strings/[LeetCode - Minimum ASCII Delete Sum for Two Strings^]
 
 Given two strings `s1, s2`, find the lowest ASCII sum of deleted characters to make two strings equal.
 

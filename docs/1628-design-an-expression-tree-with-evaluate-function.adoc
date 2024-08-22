@@ -1,7 +1,7 @@
 [#1628-design-an-expression-tree-with-evaluate-function]
 = 1628. Design an Expression Tree With Evaluate Function
 
-https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function/[LeetCode - 1628. Design an Expression Tree With Evaluate Function ^]
+{leetcode}/problems/design-an-expression-tree-with-evaluate-function/[LeetCode - 1628. Design an Expression Tree With Evaluate Function ^]
 
 
 

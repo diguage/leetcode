@@ -1,7 +1,7 @@
 [#0070-climbing-stairs]
 = 70. Climbing Stairs
 
-https://leetcode.com/problems/climbing-stairs/[LeetCode - Climbing Stairs^]
+{leetcode}/problems/climbing-stairs/[LeetCode - Climbing Stairs^]
 
 You are climbing a stair case. It takes _n_ steps to reach to the top.
 

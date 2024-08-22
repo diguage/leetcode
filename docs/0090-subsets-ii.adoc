@@ -1,7 +1,7 @@
 [#0090-subsets-ii]
 = 90. Subsets II
 
-https://leetcode.com/problems/subsets-ii/[LeetCode - Subsets II^]
+{leetcode}/problems/subsets-ii/[LeetCode - Subsets II^]
 
 Given a collection of integers that might contain duplicates, `nums`, return all possible subsets (the power set).
 

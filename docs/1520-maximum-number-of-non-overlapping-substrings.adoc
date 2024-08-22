@@ -1,7 +1,7 @@
 [#1520-maximum-number-of-non-overlapping-substrings]
 = 1520. Maximum Number of Non-Overlapping Substrings
 
-https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/[LeetCode - 1520. Maximum Number of Non-Overlapping Substrings ^]
+{leetcode}/problems/maximum-number-of-non-overlapping-substrings/[LeetCode - 1520. Maximum Number of Non-Overlapping Substrings ^]
 
 Given a string `s` of lowercase letters, you need to find the maximum number of *non-empty* substrings of `s` that meet the following conditions:
 

@@ -1,7 +1,7 @@
 [#1712-ways-to-split-array-into-three-subarrays]
 = 1712. Ways to Split Array Into Three Subarrays
 
-https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/[LeetCode - 1712. Ways to Split Array Into Three Subarrays ^]
+{leetcode}/problems/ways-to-split-array-into-three-subarrays/[LeetCode - 1712. Ways to Split Array Into Three Subarrays ^]
 
 A split of an integer array is *good* if:
 

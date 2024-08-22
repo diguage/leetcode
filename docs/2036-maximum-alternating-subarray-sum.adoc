@@ -1,7 +1,7 @@
 [#2036-maximum-alternating-subarray-sum]
 = 2036. Maximum Alternating Subarray Sum
 
-https://leetcode.com/problems/maximum-alternating-subarray-sum/[LeetCode - 2036. Maximum Alternating Subarray Sum ^]
+{leetcode}/problems/maximum-alternating-subarray-sum/[LeetCode - 2036. Maximum Alternating Subarray Sum ^]
 
 
 

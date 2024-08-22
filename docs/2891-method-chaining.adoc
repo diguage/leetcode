@@ -1,7 +1,7 @@
 [#2891-method-chaining]
 = 2891. Method Chaining
 
-https://leetcode.com/problems/method-chaining/[LeetCode - 2891. Method Chaining ^]
+{leetcode}/problems/method-chaining/[LeetCode - 2891. Method Chaining ^]
 
 [subs="verbatim,quotes"]
 ----

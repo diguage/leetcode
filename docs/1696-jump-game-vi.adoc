@@ -1,7 +1,7 @@
 [#1696-jump-game-vi]
 = 1696. Jump Game VI
 
-https://leetcode.com/problems/jump-game-vi/[LeetCode - 1696. Jump Game VI ^]
+{leetcode}/problems/jump-game-vi/[LeetCode - 1696. Jump Game VI ^]
 
 You are given a *0-indexed* integer array `nums` and an integer `k`.
 

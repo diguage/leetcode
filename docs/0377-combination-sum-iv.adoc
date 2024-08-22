@@ -1,7 +1,7 @@
 [#0377-combination-sum-iv]
 = 377. Combination Sum IV
 
-https://leetcode.com/problems/combination-sum-iv/[LeetCode - Combination Sum IV^]
+{leetcode}/problems/combination-sum-iv/[LeetCode - Combination Sum IV^]
 
 Given an integer array with all positive numbers and no duplicates, find the number of possible combinations that add up to a positive integer target.
 

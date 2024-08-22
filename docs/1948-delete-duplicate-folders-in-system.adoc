@@ -1,7 +1,7 @@
 [#1948-delete-duplicate-folders-in-system]
 = 1948. Delete Duplicate Folders in System
 
-https://leetcode.com/problems/delete-duplicate-folders-in-system/[LeetCode - 1948. Delete Duplicate Folders in System ^]
+{leetcode}/problems/delete-duplicate-folders-in-system/[LeetCode - 1948. Delete Duplicate Folders in System ^]
 
 Due to a bug, there are many duplicate folders in a file system. You are given a 2D array `paths`, where `paths[i]` is an array representing an absolute path to the `i^th^` folder in the file system.
 

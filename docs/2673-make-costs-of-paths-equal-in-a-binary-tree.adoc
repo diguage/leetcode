@@ -1,7 +1,7 @@
 [#2673-make-costs-of-paths-equal-in-a-binary-tree]
 = 2673. Make Costs of Paths Equal in a Binary Tree
 
-https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/[LeetCode - 2673. Make Costs of Paths Equal in a Binary Tree ^]
+{leetcode}/problems/make-costs-of-paths-equal-in-a-binary-tree/[LeetCode - 2673. Make Costs of Paths Equal in a Binary Tree ^]
 
 You are given an integer `n` representing the number of nodes in a *perfect binary tree* consisting of nodes numbered from `1` to `n`. The root of the tree is node `1` and each node `i` in the tree has two children where the left child is the node `2 * i` and the right child is `2 * i + 1`.
 

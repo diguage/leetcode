@@ -1,7 +1,7 @@
 [#2842-count-k-subsequences-of-a-string-with-maximum-beauty]
 = 2842. Count K-Subsequences of a String With Maximum Beauty
 
-https://leetcode.com/problems/count-k-subsequences-of-a-string-with-maximum-beauty/[LeetCode - 2842. Count K-Subsequences of a String With Maximum Beauty ^]
+{leetcode}/problems/count-k-subsequences-of-a-string-with-maximum-beauty/[LeetCode - 2842. Count K-Subsequences of a String With Maximum Beauty ^]
 
 You are given a string `s` and an integer `k`.
 

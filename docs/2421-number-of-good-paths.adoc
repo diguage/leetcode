@@ -1,7 +1,7 @@
 [#2421-number-of-good-paths]
 = 2421. Number of Good Paths
 
-https://leetcode.com/problems/number-of-good-paths/[LeetCode - 2421. Number of Good Paths ^]
+{leetcode}/problems/number-of-good-paths/[LeetCode - 2421. Number of Good Paths ^]
 
 There is a tree (i.e. a connected, undirected graph with no cycles) consisting of `n` nodes numbered from `0` to `n - 1` and exactly `n - 1` edges.
 

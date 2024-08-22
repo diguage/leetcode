@@ -1,7 +1,7 @@
 [#2366-minimum-replacements-to-sort-the-array]
 = 2366. Minimum Replacements to Sort the Array
 
-https://leetcode.com/problems/minimum-replacements-to-sort-the-array/[LeetCode - 2366. Minimum Replacements to Sort the Array ^]
+{leetcode}/problems/minimum-replacements-to-sort-the-array/[LeetCode - 2366. Minimum Replacements to Sort the Array ^]
 
 You are given a *0-indexed* integer array `nums`. In one operation you can replace any element of the array with *any two* elements that *sum* to it.
 

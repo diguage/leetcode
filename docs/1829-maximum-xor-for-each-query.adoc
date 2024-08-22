@@ -1,7 +1,7 @@
 [#1829-maximum-xor-for-each-query]
 = 1829. Maximum XOR for Each Query
 
-https://leetcode.com/problems/maximum-xor-for-each-query/[LeetCode - 1829. Maximum XOR for Each Query ^]
+{leetcode}/problems/maximum-xor-for-each-query/[LeetCode - 1829. Maximum XOR for Each Query ^]
 
 You are given a *sorted* array `nums` of `n` non-negative integers and an integer `maximumBit`. You want to perform the following query `n` *times*:
 

@@ -1,7 +1,7 @@
 [#2374-node-with-highest-edge-score]
 = 2374. Node With Highest Edge Score
 
-https://leetcode.com/problems/node-with-highest-edge-score/[LeetCode - 2374. Node With Highest Edge Score ^]
+{leetcode}/problems/node-with-highest-edge-score/[LeetCode - 2374. Node With Highest Edge Score ^]
 
 You are given a directed graph with `n` nodes labeled from `0` to `n - 1`, where each node has *exactly one* outgoing edge.
 

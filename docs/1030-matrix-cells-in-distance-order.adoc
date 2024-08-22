@@ -1,7 +1,7 @@
 [#1030-matrix-cells-in-distance-order]
 = 1030. Matrix Cells in Distance Order
 
-https://leetcode.com/problems/matrix-cells-in-distance-order/[LeetCode - Matrix Cells in Distance Order^]
+{leetcode}/problems/matrix-cells-in-distance-order/[LeetCode - Matrix Cells in Distance Order^]
 
 We are given a matrix with `R` rows and `C` columns has cells with integer coordinates `(r, c)`, where `0 <= r < R` and `0 <= c < C`.
 

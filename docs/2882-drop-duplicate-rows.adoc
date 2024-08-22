@@ -1,7 +1,7 @@
 [#2882-drop-duplicate-rows]
 = 2882. Drop Duplicate Rows
 
-https://leetcode.com/problems/drop-duplicate-rows/[LeetCode - 2882. Drop Duplicate Rows ^]
+{leetcode}/problems/drop-duplicate-rows/[LeetCode - 2882. Drop Duplicate Rows ^]
 
 [subs="verbatim,quotes"]
 ----

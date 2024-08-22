@@ -1,7 +1,7 @@
 [#0074-search-a-2d-matrix]
 = 74. Search a 2D Matrix
 
-https://leetcode.com/problems/search-a-2d-matrix/[LeetCode - Search a 2D Matrix^]
+{leetcode}/problems/search-a-2d-matrix/[LeetCode - Search a 2D Matrix^]
 
 Write an efficient algorithm that searches for a value in an _m_ x _n_ matrix. This matrix has the following properties:
 

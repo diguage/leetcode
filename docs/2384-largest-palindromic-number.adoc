@@ -1,7 +1,7 @@
 [#2384-largest-palindromic-number]
 = 2384. Largest Palindromic Number
 
-https://leetcode.com/problems/largest-palindromic-number/[LeetCode - 2384. Largest Palindromic Number ^]
+{leetcode}/problems/largest-palindromic-number/[LeetCode - 2384. Largest Palindromic Number ^]
 
 You are given a string `num` consisting of digits only.
 

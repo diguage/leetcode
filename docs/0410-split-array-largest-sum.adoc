@@ -1,7 +1,7 @@
 [#0410-split-array-largest-sum]
 = 410. Split Array Largest Sum
 
-https://leetcode.com/problems/split-array-largest-sum/[LeetCode - Split Array Largest Sum^]
+{leetcode}/problems/split-array-largest-sum/[LeetCode - Split Array Largest Sum^]
 
 Given an array which consists of non-negative integers and an integer _m_, you can split the array into _m_ non-empty continuous subarrays. Write an algorithm to minimize the largest sum among these _m_ subarrays.
 

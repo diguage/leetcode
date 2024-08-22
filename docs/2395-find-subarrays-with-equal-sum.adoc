@@ -1,7 +1,7 @@
 [#2395-find-subarrays-with-equal-sum]
 = 2395. Find Subarrays With Equal Sum
 
-https://leetcode.com/problems/find-subarrays-with-equal-sum/[LeetCode - 2395. Find Subarrays With Equal Sum ^]
+{leetcode}/problems/find-subarrays-with-equal-sum/[LeetCode - 2395. Find Subarrays With Equal Sum ^]
 
 Given a *0-indexed* integer array `nums`, determine whether there exist *two* subarrays of length `2` with *equal* sum. Note that the two subarrays must begin at *different* indices.
 

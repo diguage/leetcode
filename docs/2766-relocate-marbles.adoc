@@ -1,7 +1,7 @@
 [#2766-relocate-marbles]
 = 2766. Relocate Marbles
 
-https://leetcode.com/problems/relocate-marbles/[LeetCode - 2766. Relocate Marbles ^]
+{leetcode}/problems/relocate-marbles/[LeetCode - 2766. Relocate Marbles ^]
 
 You are given a *0-indexed* integer array `nums` representing the initial positions of some marbles. You are also given two *0-indexed *integer arrays `moveFrom` and `moveTo` of *equal* length.
 

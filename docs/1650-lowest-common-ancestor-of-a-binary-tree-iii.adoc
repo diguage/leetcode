@@ -1,7 +1,7 @@
 [#1650-lowest-common-ancestor-of-a-binary-tree-iii]
 = 1650. Lowest Common Ancestor of a Binary Tree III
 
-https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/[LeetCode - 1650. Lowest Common Ancestor of a Binary Tree III ^]
+{leetcode}/problems/lowest-common-ancestor-of-a-binary-tree-iii/[LeetCode - 1650. Lowest Common Ancestor of a Binary Tree III ^]
 
 Given two nodes of a binary tree  `p` and  `q`, return **their lowest common ancestor (LCA)**.
 

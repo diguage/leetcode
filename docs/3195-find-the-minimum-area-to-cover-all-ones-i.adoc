@@ -1,7 +1,7 @@
 [#3195-find-the-minimum-area-to-cover-all-ones-i]
 = 3195. Find the Minimum Area to Cover All Ones I
 
-https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/[LeetCode - 3195. Find the Minimum Area to Cover All Ones I ^]
+{leetcode}/problems/find-the-minimum-area-to-cover-all-ones-i/[LeetCode - 3195. Find the Minimum Area to Cover All Ones I ^]
 
 You are given a 2D *binary* array `grid`. Find a rectangle with horizontal and vertical sides with the* smallest* area, such that all the 1's in `grid` lie inside this rectangle.
 

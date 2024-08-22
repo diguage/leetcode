@@ -1,7 +1,7 @@
 [#2149-rearrange-array-elements-by-sign]
 = 2149. Rearrange Array Elements by Sign
 
-https://leetcode.com/problems/rearrange-array-elements-by-sign/[LeetCode - 2149. Rearrange Array Elements by Sign ^]
+{leetcode}/problems/rearrange-array-elements-by-sign/[LeetCode - 2149. Rearrange Array Elements by Sign ^]
 
 You are given a *0-indexed* integer array `nums` of *even* length consisting of an *equal* number of positive and negative integers.
 

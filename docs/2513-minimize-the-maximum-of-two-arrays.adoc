@@ -1,7 +1,7 @@
 [#2513-minimize-the-maximum-of-two-arrays]
 = 2513. Minimize the Maximum of Two Arrays
 
-https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/[LeetCode - 2513. Minimize the Maximum of Two Arrays ^]
+{leetcode}/problems/minimize-the-maximum-of-two-arrays/[LeetCode - 2513. Minimize the Maximum of Two Arrays ^]
 
 We have two arrays `arr1` and `arr2` which are initially empty. You need to add positive integers to them such that they satisfy all the following conditions:
 

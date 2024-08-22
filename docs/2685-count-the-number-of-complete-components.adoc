@@ -1,7 +1,7 @@
 [#2685-count-the-number-of-complete-components]
 = 2685. Count the Number of Complete Components
 
-https://leetcode.com/problems/count-the-number-of-complete-components/[LeetCode - 2685. Count the Number of Complete Components ^]
+{leetcode}/problems/count-the-number-of-complete-components/[LeetCode - 2685. Count the Number of Complete Components ^]
 
 You are given an integer `n`. There is an *undirected* graph with `n` vertices, numbered from `0` to `n - 1`. You are given a 2D integer array `edges` where `edges[i] = [a<sub>i</sub>, b<sub>i</sub>]` denotes that there exists an *undirected* edge connecting vertices `a<sub>i</sub>` and `b<sub>i</sub>`.
 

@@ -1,7 +1,7 @@
 [#2001-number-of-pairs-of-interchangeable-rectangles]
 = 2001. Number of Pairs of Interchangeable Rectangles
 
-https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/[LeetCode - 2001. Number of Pairs of Interchangeable Rectangles ^]
+{leetcode}/problems/number-of-pairs-of-interchangeable-rectangles/[LeetCode - 2001. Number of Pairs of Interchangeable Rectangles ^]
 
 You are given `n` rectangles represented by a *0-indexed* 2D integer array `rectangles`, where `rectangles[i] = [width<sub>i</sub>, height<sub>i</sub>]` denotes the width and height of the `i^th^` rectangle.
 

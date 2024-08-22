@@ -1,7 +1,7 @@
 [#3071-minimum-operations-to-write-the-letter-y-on-a-grid]
 = 3071. Minimum Operations to Write the Letter Y on a Grid
 
-https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/[LeetCode - 3071. Minimum Operations to Write the Letter Y on a Grid ^]
+{leetcode}/problems/minimum-operations-to-write-the-letter-y-on-a-grid/[LeetCode - 3071. Minimum Operations to Write the Letter Y on a Grid ^]
 
 You are given a *0-indexed* `n x n` grid where `n` is odd, and `grid[r][c]` is `0`, `1`, or `2`.
 

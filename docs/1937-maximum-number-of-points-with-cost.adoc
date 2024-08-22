@@ -1,7 +1,7 @@
 [#1937-maximum-number-of-points-with-cost]
 = 1937. Maximum Number of Points with Cost
 
-https://leetcode.com/problems/maximum-number-of-points-with-cost/[LeetCode - 1937. Maximum Number of Points with Cost ^]
+{leetcode}/problems/maximum-number-of-points-with-cost/[LeetCode - 1937. Maximum Number of Points with Cost ^]
 
 You are given an `m x n` integer matrix `points` (*0-indexed*). Starting with `0` points, you want to *maximize* the number of points you can get from the matrix.
 

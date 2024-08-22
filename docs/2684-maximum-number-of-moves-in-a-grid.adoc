@@ -1,7 +1,7 @@
 [#2684-maximum-number-of-moves-in-a-grid]
 = 2684. Maximum Number of Moves in a Grid
 
-https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/[LeetCode - 2684. Maximum Number of Moves in a Grid ^]
+{leetcode}/problems/maximum-number-of-moves-in-a-grid/[LeetCode - 2684. Maximum Number of Moves in a Grid ^]
 
 You are given a *0-indexed* `m x n` matrix `grid` consisting of *positive* integers.
 

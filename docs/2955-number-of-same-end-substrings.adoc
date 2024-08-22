@@ -1,7 +1,7 @@
 [#2955-number-of-same-end-substrings]
 = 2955. Number of Same-End Substrings
 
-https://leetcode.com/problems/number-of-same-end-substrings/[LeetCode - 2955. Number of Same-End Substrings ^]
+{leetcode}/problems/number-of-same-end-substrings/[LeetCode - 2955. Number of Same-End Substrings ^]
 
 
 

@@ -1,7 +1,7 @@
 [#2920-maximum-points-after-collecting-coins-from-all-nodes]
 = 2920. Maximum Points After Collecting Coins From All Nodes
 
-https://leetcode.com/problems/maximum-points-after-collecting-coins-from-all-nodes/[LeetCode - 2920. Maximum Points After Collecting Coins From All Nodes ^]
+{leetcode}/problems/maximum-points-after-collecting-coins-from-all-nodes/[LeetCode - 2920. Maximum Points After Collecting Coins From All Nodes ^]
 
 There exists an undirected tree rooted at node `0` with `n` nodes labeled from `0` to `n - 1`. You are given a 2D *integer* array `edges` of length `n - 1`, where `edges[i] = [a<sub>i</sub>, b<sub>i</sub>]` indicates that there is an edge between nodes `a<sub>i</sub>` and `b<sub>i</sub>` in the tree. You are also given a *0-indexed* array `coins` of size `n` where `coins[i]` indicates the number of coins in the vertex `i`, and an integer `k`.
 

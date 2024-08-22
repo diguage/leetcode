@@ -1,7 +1,7 @@
 [#1254-number-of-closed-islands]
 = 1254. Number of Closed Islands
 
-https://leetcode.com/problems/number-of-closed-islands/[LeetCode - Number of Closed Islands^]
+{leetcode}/problems/number-of-closed-islands/[LeetCode - Number of Closed Islands^]
 
 Given a 2D `grid` consists of `0s` (land) and `1s` (water).  An _island_ is a maximal 4-directionally connected group of `<font face="monospace">0s` and a _closed island_ is an island *totally* (all left, top, right, bottom) surrounded by `1s.`
 

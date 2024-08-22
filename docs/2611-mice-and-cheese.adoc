@@ -1,7 +1,7 @@
 [#2611-mice-and-cheese]
 = 2611. Mice and Cheese
 
-https://leetcode.com/problems/mice-and-cheese/[LeetCode - 2611. Mice and Cheese ^]
+{leetcode}/problems/mice-and-cheese/[LeetCode - 2611. Mice and Cheese ^]
 
 There are two mice and `n` different types of cheese, each type of cheese should be eaten by exactly one mouse.
 

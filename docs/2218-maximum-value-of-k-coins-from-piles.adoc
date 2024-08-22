@@ -1,7 +1,7 @@
 [#2218-maximum-value-of-k-coins-from-piles]
 = 2218. Maximum Value of K Coins From Piles
 
-https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/[LeetCode - 2218. Maximum Value of K Coins From Piles ^]
+{leetcode}/problems/maximum-value-of-k-coins-from-piles/[LeetCode - 2218. Maximum Value of K Coins From Piles ^]
 
 There are `n` *piles* of coins on a table. Each pile consists of a *positive number* of coins of assorted denominations.
 

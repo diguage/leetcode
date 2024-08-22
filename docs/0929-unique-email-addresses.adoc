@@ -1,7 +1,7 @@
 [#0929-unique-email-addresses]
 = 929. Unique Email Addresses
 
-https://leetcode.com/problems/unique-email-addresses/[LeetCode - Unique Email Addresses^]
+{leetcode}/problems/unique-email-addresses/[LeetCode - Unique Email Addresses^]
 
 Every email consists of a local name and a domain name, separated by the @ sign.
 

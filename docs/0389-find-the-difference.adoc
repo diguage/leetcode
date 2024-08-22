@@ -1,7 +1,7 @@
 [#0389-find-the-difference]
 = 389. Find the Difference
 
-https://leetcode.com/problems/find-the-difference/[LeetCode - Find the Difference^]
+{leetcode}/problems/find-the-difference/[LeetCode - Find the Difference^]
 
 
 Given two strings *_s_* and *_t_* which consist of only lowercase letters.

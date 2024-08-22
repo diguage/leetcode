@@ -1,7 +1,7 @@
 [#1800-maximum-ascending-subarray-sum]
 = 1800. Maximum Ascending Subarray Sum
 
-https://leetcode.com/problems/maximum-ascending-subarray-sum/[LeetCode - 1800. Maximum Ascending Subarray Sum ^]
+{leetcode}/problems/maximum-ascending-subarray-sum/[LeetCode - 1800. Maximum Ascending Subarray Sum ^]
 
 Given an array of positive integers `nums`, return the _maximum possible sum of an *ascending* subarray in _`nums`.
 

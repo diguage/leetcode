@@ -1,7 +1,7 @@
 [#2564-substring-xor-queries]
 = 2564. Substring XOR Queries
 
-https://leetcode.com/problems/substring-xor-queries/[LeetCode - 2564. Substring XOR Queries ^]
+{leetcode}/problems/substring-xor-queries/[LeetCode - 2564. Substring XOR Queries ^]
 
 You are given a *binary string* `s`, and a *2D* integer array `queries` where `queries[i] = [first<sub>i</sub>, second<sub>i</sub>]`.
 

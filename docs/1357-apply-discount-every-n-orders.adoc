@@ -1,7 +1,7 @@
 [#1357-apply-discount-every-n-orders]
 = 1357. Apply Discount Every n Orders
 
-https://leetcode.com/problems/apply-discount-every-n-orders/[LeetCode - 1357. Apply Discount Every n Orders ^]
+{leetcode}/problems/apply-discount-every-n-orders/[LeetCode - 1357. Apply Discount Every n Orders ^]
 
 There is a supermarket that is frequented by many customers. The products sold at the supermarket are represented as two parallel integer arrays `products` and `prices`, where the `i^th^` product has an ID of `products[i]` and a price of `prices[i]`.
 

@@ -1,7 +1,7 @@
 [#2182-construct-string-with-repeat-limit]
 = 2182. Construct String With Repeat Limit
 
-https://leetcode.com/problems/construct-string-with-repeat-limit/[LeetCode - 2182. Construct String With Repeat Limit ^]
+{leetcode}/problems/construct-string-with-repeat-limit/[LeetCode - 2182. Construct String With Repeat Limit ^]
 
 You are given a string `s` and an integer `repeatLimit`. Construct a new string `repeatLimitedString` using the characters of `s` such that no letter appears *more than* `repeatLimit` times *in a row*. You do *not* have to use all characters from `s`.
 

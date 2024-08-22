@@ -1,7 +1,7 @@
 [#1688-count-of-matches-in-tournament]
 = 1688. Count of Matches in Tournament
 
-https://leetcode.com/problems/count-of-matches-in-tournament/[LeetCode - 1688. Count of Matches in Tournament ^]
+{leetcode}/problems/count-of-matches-in-tournament/[LeetCode - 1688. Count of Matches in Tournament ^]
 
 You are given an integer `n`, the number of teams in a tournament that has strange rules:
 

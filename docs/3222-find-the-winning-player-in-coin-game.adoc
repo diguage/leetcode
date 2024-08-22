@@ -1,7 +1,7 @@
 [#3222-find-the-winning-player-in-coin-game]
 = 3222. Find the Winning Player in Coin Game
 
-https://leetcode.com/problems/find-the-winning-player-in-coin-game/[LeetCode - 3222. Find the Winning Player in Coin Game ^]
+{leetcode}/problems/find-the-winning-player-in-coin-game/[LeetCode - 3222. Find the Winning Player in Coin Game ^]
 
 You are given two *positive* integers `x` and `y`, denoting the number of coins with values 75 and 10 _respectively_.
 

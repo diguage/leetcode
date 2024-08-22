@@ -1,7 +1,7 @@
 [#2617-minimum-number-of-visited-cells-in-a-grid]
 = 2617. Minimum Number of Visited Cells in a Grid
 
-https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/[LeetCode - 2617. Minimum Number of Visited Cells in a Grid ^]
+{leetcode}/problems/minimum-number-of-visited-cells-in-a-grid/[LeetCode - 2617. Minimum Number of Visited Cells in a Grid ^]
 
 You are given a *0-indexed* `m x n` integer matrix `grid`. Your initial position is at the *top-left* cell `(0, 0)`.
 

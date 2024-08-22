@@ -1,7 +1,7 @@
 [#3115-maximum-prime-difference]
 = 3115. Maximum Prime Difference
 
-https://leetcode.com/problems/maximum-prime-difference/[LeetCode - 3115. Maximum Prime Difference ^]
+{leetcode}/problems/maximum-prime-difference/[LeetCode - 3115. Maximum Prime Difference ^]
 
 You are given an integer array `nums`.
 

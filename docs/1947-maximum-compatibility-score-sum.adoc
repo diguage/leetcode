@@ -1,7 +1,7 @@
 [#1947-maximum-compatibility-score-sum]
 = 1947. Maximum Compatibility Score Sum
 
-https://leetcode.com/problems/maximum-compatibility-score-sum/[LeetCode - 1947. Maximum Compatibility Score Sum ^]
+{leetcode}/problems/maximum-compatibility-score-sum/[LeetCode - 1947. Maximum Compatibility Score Sum ^]
 
 There is a survey that consists of `n` questions where each question's answer is either `0` (no) or `1` (yes).
 

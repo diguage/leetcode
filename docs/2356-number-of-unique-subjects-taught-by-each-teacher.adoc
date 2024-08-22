@@ -1,7 +1,7 @@
 [#2356-number-of-unique-subjects-taught-by-each-teacher]
 = 2356. Number of Unique Subjects Taught by Each Teacher
 
-https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/[LeetCode - 2356. Number of Unique Subjects Taught by Each Teacher ^]
+{leetcode}/problems/number-of-unique-subjects-taught-by-each-teacher/[LeetCode - 2356. Number of Unique Subjects Taught by Each Teacher ^]
 
 Table: `Teacher`
 

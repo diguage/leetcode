@@ -1,7 +1,7 @@
 [#0742-closest-leaf-in-a-binary-tree]
 = 742. Closest Leaf in a Binary Tree
 
-https://leetcode.com/problems/closest-leaf-in-a-binary-tree/[LeetCode - Closest Leaf in a Binary Tree^]
+{leetcode}/problems/closest-leaf-in-a-binary-tree/[LeetCode - Closest Leaf in a Binary Tree^]
 
 
 

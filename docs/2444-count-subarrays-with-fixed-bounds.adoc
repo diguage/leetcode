@@ -1,7 +1,7 @@
 [#2444-count-subarrays-with-fixed-bounds]
 = 2444. Count Subarrays With Fixed Bounds
 
-https://leetcode.com/problems/count-subarrays-with-fixed-bounds/[LeetCode - 2444. Count Subarrays With Fixed Bounds ^]
+{leetcode}/problems/count-subarrays-with-fixed-bounds/[LeetCode - 2444. Count Subarrays With Fixed Bounds ^]
 
 You are given an integer array `nums` and two integers `minK` and `maxK`.
 

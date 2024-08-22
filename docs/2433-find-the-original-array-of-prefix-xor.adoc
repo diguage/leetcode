@@ -1,7 +1,7 @@
 [#2433-find-the-original-array-of-prefix-xor]
 = 2433. Find The Original Array of Prefix Xor
 
-https://leetcode.com/problems/find-the-original-array-of-prefix-xor/[LeetCode - 2433. Find The Original Array of Prefix Xor ^]
+{leetcode}/problems/find-the-original-array-of-prefix-xor/[LeetCode - 2433. Find The Original Array of Prefix Xor ^]
 
 You are given an *integer* array `pref` of size `n`. Find and return _the array _`arr`_ of size _`n`_ that satisfies_:
 

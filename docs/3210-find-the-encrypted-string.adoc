@@ -1,7 +1,7 @@
 [#3210-find-the-encrypted-string]
 = 3210. Find the Encrypted String
 
-https://leetcode.com/problems/find-the-encrypted-string/[LeetCode - 3210. Find the Encrypted String ^]
+{leetcode}/problems/find-the-encrypted-string/[LeetCode - 3210. Find the Encrypted String ^]
 
 You are given a string `s` and an integer `k`. Encrypt the string using the following algorithm:
 

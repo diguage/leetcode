@@ -1,7 +1,7 @@
 [#0779-k-th-symbol-in-grammar]
 = 779. K-th Symbol in Grammar
 
-https://leetcode.com/problems/k-th-symbol-in-grammar/[LeetCode - K-th Symbol in Grammar^]
+{leetcode}/problems/k-th-symbol-in-grammar/[LeetCode - K-th Symbol in Grammar^]
 
 On the first row, we write a `0`. Now in every subsequent row, we look at the previous row and replace each occurrence of `0` with `01`, and each occurrence of `1` with `10`.
 

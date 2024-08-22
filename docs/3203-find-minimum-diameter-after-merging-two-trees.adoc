@@ -1,7 +1,7 @@
 [#3203-find-minimum-diameter-after-merging-two-trees]
 = 3203. Find Minimum Diameter After Merging Two Trees
 
-https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/[LeetCode - 3203. Find Minimum Diameter After Merging Two Trees ^]
+{leetcode}/problems/find-minimum-diameter-after-merging-two-trees/[LeetCode - 3203. Find Minimum Diameter After Merging Two Trees ^]
 
 There exist two *undirected *trees with `n` and `m` nodes, numbered from `0` to `n - 1` and from `0` to `m - 1`, respectively. You are given two 2D integer arrays `edges1` and `edges2` of lengths `n - 1` and `m - 1`, respectively, where `edges1[i] = [a<sub>i</sub>, b<sub>i</sub>]` indicates that there is an edge between nodes `a<sub>i</sub>` and `b<sub>i</sub>` in the first tree and `edges2[i] = [u<sub>i</sub>, v<sub>i</sub>]` indicates that there is an edge between nodes `u<sub>i</sub>` and `v<sub>i</sub>` in the second tree.
 

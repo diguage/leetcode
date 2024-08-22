@@ -71,7 +71,7 @@ while (right < s.size()) {
 
 == 常见题目
 
-. https://leetcode.com/problems/subarray-sum-equals-k/[Subarray Sum Equals K - LeetCode^]
+. {leetcode}/problems/subarray-sum-equals-k/[Subarray Sum Equals K - LeetCode^]
 
 
 

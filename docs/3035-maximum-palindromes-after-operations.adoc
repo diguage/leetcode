@@ -1,7 +1,7 @@
 [#3035-maximum-palindromes-after-operations]
 = 3035. Maximum Palindromes After Operations
 
-https://leetcode.com/problems/maximum-palindromes-after-operations/[LeetCode - 3035. Maximum Palindromes After Operations ^]
+{leetcode}/problems/maximum-palindromes-after-operations/[LeetCode - 3035. Maximum Palindromes After Operations ^]
 
 You are given a *0-indexed* string array `words` having length `n` and containing *0-indexed* strings.
 

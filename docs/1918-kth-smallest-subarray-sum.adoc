@@ -1,7 +1,7 @@
 [#1918-kth-smallest-subarray-sum]
 = 1918. Kth Smallest Subarray Sum
 
-https://leetcode.com/problems/kth-smallest-subarray-sum/[LeetCode - 1918. Kth Smallest Subarray Sum ^]
+{leetcode}/problems/kth-smallest-subarray-sum/[LeetCode - 1918. Kth Smallest Subarray Sum ^]
 
 
 

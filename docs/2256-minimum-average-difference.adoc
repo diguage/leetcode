@@ -1,7 +1,7 @@
 [#2256-minimum-average-difference]
 = 2256. Minimum Average Difference
 
-https://leetcode.com/problems/minimum-average-difference/[LeetCode - 2256. Minimum Average Difference ^]
+{leetcode}/problems/minimum-average-difference/[LeetCode - 2256. Minimum Average Difference ^]
 
 You are given a *0-indexed* integer array `nums` of length `n`.
 

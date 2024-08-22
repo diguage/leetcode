@@ -1,7 +1,7 @@
 [#2272-substring-with-largest-variance]
 = 2272. Substring With Largest Variance
 
-https://leetcode.com/problems/substring-with-largest-variance/[LeetCode - 2272. Substring With Largest Variance ^]
+{leetcode}/problems/substring-with-largest-variance/[LeetCode - 2272. Substring With Largest Variance ^]
 
 The *variance* of a string is defined as the largest difference between the number of occurrences of *any* `2` characters present in the string. Note the two characters may or may not be the same.
 

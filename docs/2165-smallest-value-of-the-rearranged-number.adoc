@@ -1,7 +1,7 @@
 [#2165-smallest-value-of-the-rearranged-number]
 = 2165. Smallest Value of the Rearranged Number
 
-https://leetcode.com/problems/smallest-value-of-the-rearranged-number/[LeetCode - 2165. Smallest Value of the Rearranged Number ^]
+{leetcode}/problems/smallest-value-of-the-rearranged-number/[LeetCode - 2165. Smallest Value of the Rearranged Number ^]
 
 You are given an integer `num.` *Rearrange* the digits of `num` such that its value is *minimized* and it does not contain *any* leading zeros.
 

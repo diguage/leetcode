@@ -3,7 +3,7 @@
 
 :stem: latexmath
 
-https://leetcode.com/problems/house-robber/[LeetCode - House Robber^]
+{leetcode}/problems/house-robber/[LeetCode - House Robber^]
 
 假设 f(k) = 从前 k 个房屋中能抢劫到的最大数额，A~i~ = 第 i 个房屋的钱数。
 

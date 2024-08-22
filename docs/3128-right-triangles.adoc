@@ -1,7 +1,7 @@
 [#3128-right-triangles]
 = 3128. Right Triangles
 
-https://leetcode.com/problems/right-triangles/[LeetCode - 3128. Right Triangles ^]
+{leetcode}/problems/right-triangles/[LeetCode - 3128. Right Triangles ^]
 
 You are given a 2D boolean matrix `grid`.
 

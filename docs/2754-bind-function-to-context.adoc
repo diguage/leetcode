@@ -1,7 +1,7 @@
 [#2754-bind-function-to-context]
 = 2754. Bind Function to Context
 
-https://leetcode.com/problems/bind-function-to-context/[LeetCode - 2754. Bind Function to Context ^]
+{leetcode}/problems/bind-function-to-context/[LeetCode - 2754. Bind Function to Context ^]
 
 
 

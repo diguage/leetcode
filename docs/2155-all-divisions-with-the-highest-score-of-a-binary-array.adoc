@@ -1,7 +1,7 @@
 [#2155-all-divisions-with-the-highest-score-of-a-binary-array]
 = 2155. All Divisions With the Highest Score of a Binary Array
 
-https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/[LeetCode - 2155. All Divisions With the Highest Score of a Binary Array ^]
+{leetcode}/problems/all-divisions-with-the-highest-score-of-a-binary-array/[LeetCode - 2155. All Divisions With the Highest Score of a Binary Array ^]
 
 You are given a *0-indexed* binary array `nums` of length `n`. `nums` can be divided at index `i` (where `0 <= i <= n)` into two arrays (possibly empty) `nums<sub>left</sub>` and `nums<sub>right</sub>`:
 

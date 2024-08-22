@@ -1,7 +1,7 @@
 [#1325-delete-leaves-with-a-given-value]
 = 1325. Delete Leaves With a Given Value
 
-https://leetcode.com/problems/delete-leaves-with-a-given-value/[LeetCode - Delete Leaves With a Given Value^]
+{leetcode}/problems/delete-leaves-with-a-given-value/[LeetCode - Delete Leaves With a Given Value^]
 
 Given a binary tree `root` and an integer `target`, delete all the *leaf nodes* with value `target`.
 

@@ -1,7 +1,7 @@
 [#0664-strange-printer]
 = 664. Strange Printer
 
-https://leetcode.com/problems/strange-printer/[LeetCode - Strange Printer^]
+{leetcode}/problems/strange-printer/[LeetCode - Strange Printer^]
 
 
 There is a strange printer with the following two special requirements:

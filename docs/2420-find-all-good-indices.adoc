@@ -1,7 +1,7 @@
 [#2420-find-all-good-indices]
 = 2420. Find All Good Indices
 
-https://leetcode.com/problems/find-all-good-indices/[LeetCode - 2420. Find All Good Indices ^]
+{leetcode}/problems/find-all-good-indices/[LeetCode - 2420. Find All Good Indices ^]
 
 You are given a *0-indexed* integer array `nums` of size `n` and a positive integer `k`.
 

@@ -1,7 +1,7 @@
 [#2318-number-of-distinct-roll-sequences]
 = 2318. Number of Distinct Roll Sequences
 
-https://leetcode.com/problems/number-of-distinct-roll-sequences/[LeetCode - 2318. Number of Distinct Roll Sequences ^]
+{leetcode}/problems/number-of-distinct-roll-sequences/[LeetCode - 2318. Number of Distinct Roll Sequences ^]
 
 You are given an integer `n`. You roll a fair 6-sided dice `n` times. Determine the total number of *distinct* sequences of rolls possible such that the following conditions are satisfied:
 

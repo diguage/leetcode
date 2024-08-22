@@ -1,7 +1,7 @@
 [#2886-change-data-type]
 = 2886. Change Data Type
 
-https://leetcode.com/problems/change-data-type/[LeetCode - 2886. Change Data Type ^]
+{leetcode}/problems/change-data-type/[LeetCode - 2886. Change Data Type ^]
 
 [subs="verbatim,quotes"]
 ----

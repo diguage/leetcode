@@ -1,7 +1,7 @@
 [#1591-strange-printer-ii]
 = 1591. Strange Printer II
 
-https://leetcode.com/problems/strange-printer-ii/[LeetCode - 1591. Strange Printer II ^]
+{leetcode}/problems/strange-printer-ii/[LeetCode - 1591. Strange Printer II ^]
 
 There is a strange printer with the following two special requirements:
 

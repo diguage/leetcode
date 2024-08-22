@@ -1,7 +1,7 @@
 [#2708-maximum-strength-of-a-group]
 = 2708. Maximum Strength of a Group
 
-https://leetcode.com/problems/maximum-strength-of-a-group/[LeetCode - 2708. Maximum Strength of a Group ^]
+{leetcode}/problems/maximum-strength-of-a-group/[LeetCode - 2708. Maximum Strength of a Group ^]
 
 You are given a *0-indexed* integer array `nums` representing the score of students in an exam. The teacher would like to form one *non-empty* group of students with maximal *strength*, where the strength of a group of students of indices `i<sub>0</sub>`, `i<sub>1</sub>`, `i<sub>2</sub>`, ... , `i<sub>k</sub>` is defined as `nums[i<sub>0</sub>] * nums[i<sub>1</sub>] * nums[i<sub>2</sub>] * ... * nums[i<sub>k</sub>​]`.
 

@@ -1,7 +1,7 @@
 [#1619-mean-of-array-after-removing-some-elements]
 = 1619. Mean of Array After Removing Some Elements
 
-https://leetcode.com/problems/mean-of-array-after-removing-some-elements/[LeetCode - 1619. Mean of Array After Removing Some Elements ^]
+{leetcode}/problems/mean-of-array-after-removing-some-elements/[LeetCode - 1619. Mean of Array After Removing Some Elements ^]
 
 Given an integer array `arr`, return _the mean of the remaining integers after removing the smallest `5%` and the largest `5%` of the elements._
 

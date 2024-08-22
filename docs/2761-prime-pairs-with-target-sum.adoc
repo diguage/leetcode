@@ -1,7 +1,7 @@
 [#2761-prime-pairs-with-target-sum]
 = 2761. Prime Pairs With Target Sum
 
-https://leetcode.com/problems/prime-pairs-with-target-sum/[LeetCode - 2761. Prime Pairs With Target Sum ^]
+{leetcode}/problems/prime-pairs-with-target-sum/[LeetCode - 2761. Prime Pairs With Target Sum ^]
 
 You are given an integer `n`. We say that two integers `x` and `y` form a prime number pair if:
 

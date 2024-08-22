@@ -1,7 +1,7 @@
 [#0735-asteroid-collision]
 = 735. Asteroid Collision
 
-https://leetcode.com/problems/asteroid-collision/[LeetCode - Asteroid Collision^]
+{leetcode}/problems/asteroid-collision/[LeetCode - Asteroid Collision^]
 
 
 We are given an array `asteroids` of integers representing asteroids in a row.

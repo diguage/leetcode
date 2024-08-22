@@ -1,7 +1,7 @@
 [#3170-lexicographically-minimum-string-after-removing-stars]
 = 3170. Lexicographically Minimum String After Removing Stars
 
-https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/[LeetCode - 3170. Lexicographically Minimum String After Removing Stars ^]
+{leetcode}/problems/lexicographically-minimum-string-after-removing-stars/[LeetCode - 3170. Lexicographically Minimum String After Removing Stars ^]
 
 You are given a string `s`. It may contain any number of `'*'` characters. Your task is to remove all `'*'` characters.
 

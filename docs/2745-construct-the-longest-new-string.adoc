@@ -1,7 +1,7 @@
 [#2745-construct-the-longest-new-string]
 = 2745. Construct the Longest New String
 
-https://leetcode.com/problems/construct-the-longest-new-string/[LeetCode - 2745. Construct the Longest New String ^]
+{leetcode}/problems/construct-the-longest-new-string/[LeetCode - 2745. Construct the Longest New String ^]
 
 You are given three integers `x`, `y`, and `z`.
 

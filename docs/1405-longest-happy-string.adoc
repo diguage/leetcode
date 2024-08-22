@@ -1,7 +1,7 @@
 [#1405-longest-happy-string]
 = 1405. Longest Happy String
 
-https://leetcode.com/problems/longest-happy-string/[LeetCode - 1405. Longest Happy String ^]
+{leetcode}/problems/longest-happy-string/[LeetCode - 1405. Longest Happy String ^]
 
 A string `s` is called *happy* if it satisfies the following conditions:
 

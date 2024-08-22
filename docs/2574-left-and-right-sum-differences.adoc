@@ -1,7 +1,7 @@
 [#2574-left-and-right-sum-differences]
 = 2574. Left and Right Sum Differences
 
-https://leetcode.com/problems/left-and-right-sum-differences/[LeetCode - 2574. Left and Right Sum Differences ^]
+{leetcode}/problems/left-and-right-sum-differences/[LeetCode - 2574. Left and Right Sum Differences ^]
 
 Given a *0-indexed* integer array `nums`, find a *0-indexed *integer array `answer` where:
 

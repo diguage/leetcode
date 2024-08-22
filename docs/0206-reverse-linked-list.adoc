@@ -1,7 +1,7 @@
 [#0206-reverse-linked-list]
 = 206. Reverse Linked List
 
-https://leetcode.com/problems/reverse-linked-list/[LeetCode - Reverse Linked List^]
+{leetcode}/problems/reverse-linked-list/[LeetCode - Reverse Linked List^]
 
 递归需要加强一下，反转链表的递归细节再推敲推敲。
 

@@ -1,7 +1,7 @@
 [#1546-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target]
 = 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 
-https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/[LeetCode - 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target ^]
+{leetcode}/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/[LeetCode - 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target ^]
 
 Given an array `nums` and an integer `target`, return _the maximum number of *non-empty* *non-overlapping* subarrays such that the sum of values in each subarray is equal to_ `target`.
 

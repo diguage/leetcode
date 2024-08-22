@@ -1,7 +1,7 @@
 [#3248-snake-in-matrix]
 = 3248. Snake in Matrix
 
-https://leetcode.com/problems/snake-in-matrix/[LeetCode - 3248. Snake in Matrix ^]
+{leetcode}/problems/snake-in-matrix/[LeetCode - 3248. Snake in Matrix ^]
 
 There is a snake in an `n x n` matrix `grid` and can move in *four possible directions*. Each cell in the `grid` is identified by the position: `grid[i][j] = (i * n) + j`.
 

@@ -1,7 +1,7 @@
 [#2585-number-of-ways-to-earn-points]
 = 2585. Number of Ways to Earn Points
 
-https://leetcode.com/problems/number-of-ways-to-earn-points/[LeetCode - 2585. Number of Ways to Earn Points ^]
+{leetcode}/problems/number-of-ways-to-earn-points/[LeetCode - 2585. Number of Ways to Earn Points ^]
 
 There is a test that has `n` types of questions. You are given an integer `target` and a *0-indexed* 2D integer array `types` where `types[i] = [count<sub>i</sub>, marks<sub>i</sub>]` indicates that there are `count<sub>i</sub>` questions of the `i^th^` type, and each one of them is worth `marks<sub>i</sub>` points.
 

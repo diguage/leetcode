@@ -1,7 +1,7 @@
 [#1953-maximum-number-of-weeks-for-which-you-can-work]
 = 1953. Maximum Number of Weeks for Which You Can Work
 
-https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work/[LeetCode - 1953. Maximum Number of Weeks for Which You Can Work ^]
+{leetcode}/problems/maximum-number-of-weeks-for-which-you-can-work/[LeetCode - 1953. Maximum Number of Weeks for Which You Can Work ^]
 
 There are `n` projects numbered from `0` to `n - 1`. You are given an integer array `milestones` where each `milestones[i]` denotes the number of milestones the `i^th^` project has.
 

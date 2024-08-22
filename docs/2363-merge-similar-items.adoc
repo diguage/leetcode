@@ -1,7 +1,7 @@
 [#2363-merge-similar-items]
 = 2363. Merge Similar Items
 
-https://leetcode.com/problems/merge-similar-items/[LeetCode - 2363. Merge Similar Items ^]
+{leetcode}/problems/merge-similar-items/[LeetCode - 2363. Merge Similar Items ^]
 
 You are given two 2D integer arrays, `items1` and `items2`, representing two sets of items. Each array `items` has the following properties:
 

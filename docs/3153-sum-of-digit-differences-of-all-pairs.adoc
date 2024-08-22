@@ -1,7 +1,7 @@
 [#3153-sum-of-digit-differences-of-all-pairs]
 = 3153. Sum of Digit Differences of All Pairs
 
-https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/[LeetCode - 3153. Sum of Digit Differences of All Pairs ^]
+{leetcode}/problems/sum-of-digit-differences-of-all-pairs/[LeetCode - 3153. Sum of Digit Differences of All Pairs ^]
 
 You are given an array `nums` consisting of *positive* integers where all integers have the *same* number of digits.
 

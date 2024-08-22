@@ -1,7 +1,7 @@
 [#0010-regular-expression-matching]
 = 10. Regular Expression Matching
 
-https://leetcode.com/problems/regular-expression-matching/[LeetCode - Regular Expression Matching^]
+{leetcode}/problems/regular-expression-matching/[LeetCode - Regular Expression Matching^]
 
 Given an input string (`s`) and a pattern (`p`), implement regular expression matching with support for `'.'` and `'*'`.
 

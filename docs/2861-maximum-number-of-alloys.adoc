@@ -1,7 +1,7 @@
 [#2861-maximum-number-of-alloys]
 = 2861. Maximum Number of Alloys
 
-https://leetcode.com/problems/maximum-number-of-alloys/[LeetCode - 2861. Maximum Number of Alloys ^]
+{leetcode}/problems/maximum-number-of-alloys/[LeetCode - 2861. Maximum Number of Alloys ^]
 
 You are the owner of a company that creates alloys using various types of metals. There are `n` different types of metals available, and you have access to `k` machines that can be used to create alloys. Each machine requires a specific amount of each metal type to create an alloy.
 

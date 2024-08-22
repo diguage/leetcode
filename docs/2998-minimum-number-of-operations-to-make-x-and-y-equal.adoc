@@ -1,7 +1,7 @@
 [#2998-minimum-number-of-operations-to-make-x-and-y-equal]
 = 2998. Minimum Number of Operations to Make X and Y Equal
 
-https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/[LeetCode - 2998. Minimum Number of Operations to Make X and Y Equal ^]
+{leetcode}/problems/minimum-number-of-operations-to-make-x-and-y-equal/[LeetCode - 2998. Minimum Number of Operations to Make X and Y Equal ^]
 
 You are given two positive integers `x` and `y`.
 

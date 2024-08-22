@@ -1,7 +1,7 @@
 [#1879-minimum-xor-sum-of-two-arrays]
 = 1879. Minimum XOR Sum of Two Arrays
 
-https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/[LeetCode - 1879. Minimum XOR Sum of Two Arrays ^]
+{leetcode}/problems/minimum-xor-sum-of-two-arrays/[LeetCode - 1879. Minimum XOR Sum of Two Arrays ^]
 
 You are given two integer arrays `nums1` and `nums2` of length `n`.
 

@@ -1,7 +1,7 @@
 [#1694-reformat-phone-number]
 = 1694. Reformat Phone Number
 
-https://leetcode.com/problems/reformat-phone-number/[LeetCode - 1694. Reformat Phone Number ^]
+{leetcode}/problems/reformat-phone-number/[LeetCode - 1694. Reformat Phone Number ^]
 
 You are given a phone number as a string `number`. `number` consists of digits, spaces `' '`, and/or dashes `'-'`.
 

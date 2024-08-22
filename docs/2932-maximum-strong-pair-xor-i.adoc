@@ -1,7 +1,7 @@
 [#2932-maximum-strong-pair-xor-i]
 = 2932. Maximum Strong Pair XOR I
 
-https://leetcode.com/problems/maximum-strong-pair-xor-i/[LeetCode - 2932. Maximum Strong Pair XOR I ^]
+{leetcode}/problems/maximum-strong-pair-xor-i/[LeetCode - 2932. Maximum Strong Pair XOR I ^]
 
 You are given a *0-indexed* integer array `nums`. A pair of integers `x` and `y` is called a *strong* pair if it satisfies the condition:
 

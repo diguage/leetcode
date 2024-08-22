@@ -1,7 +1,7 @@
 [#2147-number-of-ways-to-divide-a-long-corridor]
 = 2147. Number of Ways to Divide a Long Corridor
 
-https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/[LeetCode - 2147. Number of Ways to Divide a Long Corridor ^]
+{leetcode}/problems/number-of-ways-to-divide-a-long-corridor/[LeetCode - 2147. Number of Ways to Divide a Long Corridor ^]
 
 Along a long library corridor, there is a line of seats and decorative plants. You are given a *0-indexed* string `corridor` of length `n` consisting of letters `'S'` and `'P'` where each `'S'` represents a seat and each `'P'` represents a plant.
 

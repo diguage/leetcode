@@ -1,7 +1,7 @@
 [#2498-frog-jump-ii]
 = 2498. Frog Jump II
 
-https://leetcode.com/problems/frog-jump-ii/[LeetCode - 2498. Frog Jump II ^]
+{leetcode}/problems/frog-jump-ii/[LeetCode - 2498. Frog Jump II ^]
 
 You are given a *0-indexed* integer array `stones` sorted in *strictly increasing order* representing the positions of stones in a river.
 

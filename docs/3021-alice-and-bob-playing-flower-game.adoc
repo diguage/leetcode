@@ -1,7 +1,7 @@
 [#3021-alice-and-bob-playing-flower-game]
 = 3021. Alice and Bob Playing Flower Game
 
-https://leetcode.com/problems/alice-and-bob-playing-flower-game/[LeetCode - 3021. Alice and Bob Playing Flower Game ^]
+{leetcode}/problems/alice-and-bob-playing-flower-game/[LeetCode - 3021. Alice and Bob Playing Flower Game ^]
 
 Alice and Bob are playing a turn-based game on a circular field surrounded by flowers. The circle represents the field, and there are `x` flowers in the clockwise direction between Alice and Bob, and `y` flowers in the anti-clockwise direction between them.
 

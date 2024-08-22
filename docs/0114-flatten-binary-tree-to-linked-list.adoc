@@ -1,7 +1,7 @@
 [#0114-flatten-binary-tree-to-linked-list]
 = 114. Flatten Binary Tree to Linked List
 
-https://leetcode.com/problems/flatten-binary-tree-to-linked-list/[LeetCode - Flatten Binary Tree to Linked List^]
+{leetcode}/problems/flatten-binary-tree-to-linked-list/[LeetCode - Flatten Binary Tree to Linked List^]
 
 Given a binary tree, flatten it to a linked list in-place.
 

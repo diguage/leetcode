@@ -1,7 +1,7 @@
 [#2360-longest-cycle-in-a-graph]
 = 2360. Longest Cycle in a Graph
 
-https://leetcode.com/problems/longest-cycle-in-a-graph/[LeetCode - 2360. Longest Cycle in a Graph ^]
+{leetcode}/problems/longest-cycle-in-a-graph/[LeetCode - 2360. Longest Cycle in a Graph ^]
 
 You are given a *directed* graph of `n` nodes numbered from `0` to `n - 1`, where each node has *at most one* outgoing edge.
 

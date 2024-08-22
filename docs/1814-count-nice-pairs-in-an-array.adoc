@@ -1,7 +1,7 @@
 [#1814-count-nice-pairs-in-an-array]
 = 1814. Count Nice Pairs in an Array
 
-https://leetcode.com/problems/count-nice-pairs-in-an-array/[LeetCode - 1814. Count Nice Pairs in an Array ^]
+{leetcode}/problems/count-nice-pairs-in-an-array/[LeetCode - 1814. Count Nice Pairs in an Array ^]
 
 You are given an array `nums` that consists of non-negative integers. Let us define `rev(x)` as the reverse of the non-negative integer `x`. For example, `rev(123) = 321`, and `rev(120) = 21`. A pair of indices `(i, j)` is *nice* if it satisfies all of the following conditions:
 

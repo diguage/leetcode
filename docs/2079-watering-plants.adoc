@@ -1,7 +1,7 @@
 [#2079-watering-plants]
 = 2079. Watering Plants
 
-https://leetcode.com/problems/watering-plants/[LeetCode - 2079. Watering Plants ^]
+{leetcode}/problems/watering-plants/[LeetCode - 2079. Watering Plants ^]
 
 You want to water `n` plants in your garden with a watering can. The plants are arranged in a row and are labeled from `0` to `n - 1` from left to right where the `i^th^` plant is located at `x = i`. There is a river at `x = -1` that you can refill your watering can at.
 

@@ -1,7 +1,7 @@
 [#1248-count-number-of-nice-subarrays]
 = 1248. Count Number of Nice Subarrays
 
-https://leetcode.com/problems/count-number-of-nice-subarrays/[LeetCode - Count Number of Nice Subarrays^]
+{leetcode}/problems/count-number-of-nice-subarrays/[LeetCode - Count Number of Nice Subarrays^]
 
 Given an array of integers `nums` and an integer `k`. A_ _subarray is called *nice* if there are `k` odd numbers on it.
 

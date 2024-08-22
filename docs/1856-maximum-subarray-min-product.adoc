@@ -1,7 +1,7 @@
 [#1856-maximum-subarray-min-product]
 = 1856. Maximum Subarray Min-Product
 
-https://leetcode.com/problems/maximum-subarray-min-product/[LeetCode - 1856. Maximum Subarray Min-Product ^]
+{leetcode}/problems/maximum-subarray-min-product/[LeetCode - 1856. Maximum Subarray Min-Product ^]
 
 The *min-product* of an array is equal to the *minimum value* in the array *multiplied by* the array's *sum*.
 

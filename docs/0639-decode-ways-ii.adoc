@@ -1,7 +1,7 @@
 [#0639-decode-ways-ii]
 = 639. Decode Ways II
 
-https://leetcode.com/problems/decode-ways-ii/[LeetCode - Decode Ways II^]
+{leetcode}/problems/decode-ways-ii/[LeetCode - Decode Ways II^]
 
 
 A message containing letters from `A-Z` is being encoded to numbers using the following mapping way:

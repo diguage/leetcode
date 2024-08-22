@@ -1,7 +1,7 @@
 [#2885-rename-columns]
 = 2885. Rename Columns
 
-https://leetcode.com/problems/rename-columns/[LeetCode - 2885. Rename Columns ^]
+{leetcode}/problems/rename-columns/[LeetCode - 2885. Rename Columns ^]
 
 [subs="verbatim,quotes"]
 ----

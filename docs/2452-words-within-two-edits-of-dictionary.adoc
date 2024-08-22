@@ -1,7 +1,7 @@
 [#2452-words-within-two-edits-of-dictionary]
 = 2452. Words Within Two Edits of Dictionary
 
-https://leetcode.com/problems/words-within-two-edits-of-dictionary/[LeetCode - 2452. Words Within Two Edits of Dictionary ^]
+{leetcode}/problems/words-within-two-edits-of-dictionary/[LeetCode - 2452. Words Within Two Edits of Dictionary ^]
 
 You are given two string arrays, `queries` and `dictionary`. All words in each array comprise of lowercase English letters and have the same length.
 

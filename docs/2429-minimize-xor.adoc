@@ -1,7 +1,7 @@
 [#2429-minimize-xor]
 = 2429. Minimize XOR
 
-https://leetcode.com/problems/minimize-xor/[LeetCode - 2429. Minimize XOR ^]
+{leetcode}/problems/minimize-xor/[LeetCode - 2429. Minimize XOR ^]
 
 Given two positive integers `num1` and `num2`, find the positive integer `x` such that:
 

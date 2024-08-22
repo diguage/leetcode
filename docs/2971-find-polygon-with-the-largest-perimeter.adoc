@@ -1,7 +1,7 @@
 [#2971-find-polygon-with-the-largest-perimeter]
 = 2971. Find Polygon With the Largest Perimeter
 
-https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/[LeetCode - 2971. Find Polygon With the Largest Perimeter ^]
+{leetcode}/problems/find-polygon-with-the-largest-perimeter/[LeetCode - 2971. Find Polygon With the Largest Perimeter ^]
 
 You are given an array of *positive* integers `nums` of length `n`.
 

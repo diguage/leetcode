@@ -1,7 +1,7 @@
 [#0038-count-and-say]
 = 38. Count and Say
 
-https://leetcode.com/problems/count-and-say/[LeetCode - Count and Say^]
+{leetcode}/problems/count-and-say/[LeetCode - Count and Say^]
 
 看懂了这道题，相声就已经入门了……
 

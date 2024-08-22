@@ -1,7 +1,7 @@
 [#3139-minimum-cost-to-equalize-array]
 = 3139. Minimum Cost to Equalize Array
 
-https://leetcode.com/problems/minimum-cost-to-equalize-array/[LeetCode - 3139. Minimum Cost to Equalize Array ^]
+{leetcode}/problems/minimum-cost-to-equalize-array/[LeetCode - 3139. Minimum Cost to Equalize Array ^]
 
 You are given an integer array `nums` and two integers `cost1` and `cost2`. You are allowed to perform *either* of the following operations *any* number of times:
 

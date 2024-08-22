@@ -1,7 +1,7 @@
 [#1703-minimum-adjacent-swaps-for-k-consecutive-ones]
 = 1703. Minimum Adjacent Swaps for K Consecutive Ones
 
-https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/[LeetCode - 1703. Minimum Adjacent Swaps for K Consecutive Ones ^]
+{leetcode}/problems/minimum-adjacent-swaps-for-k-consecutive-ones/[LeetCode - 1703. Minimum Adjacent Swaps for K Consecutive Ones ^]
 
 You are given an integer array, `nums`, and an integer `k`. `nums` comprises of only `0`'s and `1`'s. In one move, you can choose two *adjacent* indices and swap their values.
 

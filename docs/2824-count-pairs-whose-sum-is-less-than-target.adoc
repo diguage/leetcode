@@ -1,7 +1,7 @@
 [#2824-count-pairs-whose-sum-is-less-than-target]
 = 2824. Count Pairs Whose Sum is Less than Target
 
-https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/[LeetCode - 2824. Count Pairs Whose Sum is Less than Target ^]
+{leetcode}/problems/count-pairs-whose-sum-is-less-than-target/[LeetCode - 2824. Count Pairs Whose Sum is Less than Target ^]
 
 Given a *0-indexed* integer array `nums` of length `n` and an integer `target`, return _the number of pairs_ `(i, j)` _where_ `0 <= i < j < n` _and_ `nums[i] + nums[j] < target`.
  

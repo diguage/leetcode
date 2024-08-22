@@ -1,7 +1,7 @@
 [#2909-minimum-sum-of-mountain-triplets-ii]
 = 2909. Minimum Sum of Mountain Triplets II
 
-https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/[LeetCode - 2909. Minimum Sum of Mountain Triplets II ^]
+{leetcode}/problems/minimum-sum-of-mountain-triplets-ii/[LeetCode - 2909. Minimum Sum of Mountain Triplets II ^]
 
 You are given a *0-indexed* array `nums` of integers.
 

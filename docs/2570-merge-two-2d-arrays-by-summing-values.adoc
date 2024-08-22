@@ -1,7 +1,7 @@
 [#2570-merge-two-2d-arrays-by-summing-values]
 = 2570. Merge Two 2D Arrays by Summing Values
 
-https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/[LeetCode - 2570. Merge Two 2D Arrays by Summing Values ^]
+{leetcode}/problems/merge-two-2d-arrays-by-summing-values/[LeetCode - 2570. Merge Two 2D Arrays by Summing Values ^]
 
 You are given two *2D* integer arrays `nums1` and `nums2.`
 

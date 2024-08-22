@@ -1,7 +1,7 @@
 [#2670-find-the-distinct-difference-array]
 = 2670. Find the Distinct Difference Array
 
-https://leetcode.com/problems/find-the-distinct-difference-array/[LeetCode - 2670. Find the Distinct Difference Array ^]
+{leetcode}/problems/find-the-distinct-difference-array/[LeetCode - 2670. Find the Distinct Difference Array ^]
 
 You are given a *0-indexed* array `nums` of length `n`.
 

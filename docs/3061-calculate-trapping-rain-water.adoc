@@ -1,7 +1,7 @@
 [#3061-calculate-trapping-rain-water]
 = 3061. Calculate Trapping Rain Water
 
-https://leetcode.com/problems/calculate-trapping-rain-water/[LeetCode - 3061. Calculate Trapping Rain Water ^]
+{leetcode}/problems/calculate-trapping-rain-water/[LeetCode - 3061. Calculate Trapping Rain Water ^]
 
 
 

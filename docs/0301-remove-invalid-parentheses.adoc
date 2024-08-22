@@ -1,7 +1,7 @@
 [#0301-remove-invalid-parentheses]
 = 301. Remove Invalid Parentheses
 
-https://leetcode.com/problems/remove-invalid-parentheses/[LeetCode - Remove Invalid Parentheses^]
+{leetcode}/problems/remove-invalid-parentheses/[LeetCode - Remove Invalid Parentheses^]
 
 Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results.
 

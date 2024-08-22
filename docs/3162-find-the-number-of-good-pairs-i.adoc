@@ -1,7 +1,7 @@
 [#3162-find-the-number-of-good-pairs-i]
 = 3162. Find the Number of Good Pairs I
 
-https://leetcode.com/problems/find-the-number-of-good-pairs-i/[LeetCode - 3162. Find the Number of Good Pairs I ^]
+{leetcode}/problems/find-the-number-of-good-pairs-i/[LeetCode - 3162. Find the Number of Good Pairs I ^]
 
 You are given 2 integer arrays `nums1` and `nums2` of lengths `n` and `m` respectively. You are also given a *positive* integer `k`.
 

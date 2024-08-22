@@ -1,7 +1,7 @@
 [#1585-check-if-string-is-transformable-with-substring-sort-operations]
 = 1585. Check If String Is Transformable With Substring Sort Operations
 
-https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/[LeetCode - 1585. Check If String Is Transformable With Substring Sort Operations ^]
+{leetcode}/problems/check-if-string-is-transformable-with-substring-sort-operations/[LeetCode - 1585. Check If String Is Transformable With Substring Sort Operations ^]
 
 Given two strings `s` and `t`, transform string `s` into string `t` using the following operation any number of times:
 

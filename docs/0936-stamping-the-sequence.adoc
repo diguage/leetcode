@@ -1,7 +1,7 @@
 [#0936-stamping-the-sequence]
 = 936. Stamping The Sequence
 
-https://leetcode.com/problems/stamping-the-sequence/[LeetCode - Stamping The Sequence^]
+{leetcode}/problems/stamping-the-sequence/[LeetCode - Stamping The Sequence^]
 
 You want to form a `target` string of *lowercase letters*.
 

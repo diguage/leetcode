@@ -1,7 +1,7 @@
 [#2320-count-number-of-ways-to-place-houses]
 = 2320. Count Number of Ways to Place Houses
 
-https://leetcode.com/problems/count-number-of-ways-to-place-houses/[LeetCode - 2320. Count Number of Ways to Place Houses ^]
+{leetcode}/problems/count-number-of-ways-to-place-houses/[LeetCode - 2320. Count Number of Ways to Place Houses ^]
 
 There is a street with `n * 2` *plots*, where there are `n` plots on each side of the street. The plots on each side are numbered from `1` to `n`. On each plot, a house can be placed.
 

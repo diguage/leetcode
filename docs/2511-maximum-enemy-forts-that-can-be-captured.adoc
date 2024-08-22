@@ -1,7 +1,7 @@
 [#2511-maximum-enemy-forts-that-can-be-captured]
 = 2511. Maximum Enemy Forts That Can Be Captured
 
-https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/[LeetCode - 2511. Maximum Enemy Forts That Can Be Captured ^]
+{leetcode}/problems/maximum-enemy-forts-that-can-be-captured/[LeetCode - 2511. Maximum Enemy Forts That Can Be Captured ^]
 
 You are given a *0-indexed* integer array `forts` of length `n` representing the positions of several forts. `forts[i]` can be `-1`, `0`, or `1` where:
 

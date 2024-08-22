@@ -1,7 +1,7 @@
 [#1392-longest-happy-prefix]
 = 1392. Longest Happy Prefix
 
-https://leetcode.com/problems/longest-happy-prefix/[LeetCode - 1392. Longest Happy Prefix ^]
+{leetcode}/problems/longest-happy-prefix/[LeetCode - 1392. Longest Happy Prefix ^]
 
 A string is called a *happy prefix* if is a *non-empty* prefix which is also a suffix (excluding itself).
 

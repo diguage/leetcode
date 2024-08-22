@@ -1,7 +1,7 @@
 [#1779-find-nearest-point-that-has-the-same-x-or-y-coordinate]
 = 1779. Find Nearest Point That Has the Same X or Y Coordinate
 
-https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/[LeetCode - 1779. Find Nearest Point That Has the Same X or Y Coordinate ^]
+{leetcode}/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/[LeetCode - 1779. Find Nearest Point That Has the Same X or Y Coordinate ^]
 
 You are given two integers, `x` and `y`, which represent your current location on a Cartesian grid: `(x, y)`. You are also given an array `points` where each `points[i] = [a<sub>i</sub>, b<sub>i</sub>]` represents that a point exists at `(a<sub>i</sub>, b<sub>i</sub>)`. A point is *valid* if it shares the same x-coordinate or the same y-coordinate as your location.
 

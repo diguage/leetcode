@@ -1,7 +1,7 @@
 [#2599-make-the-prefix-sum-non-negative]
 = 2599. Make the Prefix Sum Non-negative
 
-https://leetcode.com/problems/make-the-prefix-sum-non-negative/[LeetCode - 2599. Make the Prefix Sum Non-negative ^]
+{leetcode}/problems/make-the-prefix-sum-non-negative/[LeetCode - 2599. Make the Prefix Sum Non-negative ^]
 
 
 

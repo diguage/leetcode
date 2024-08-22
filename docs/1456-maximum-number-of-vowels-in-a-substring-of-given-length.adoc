@@ -1,7 +1,7 @@
 [#1456-maximum-number-of-vowels-in-a-substring-of-given-length]
 = 1456. Maximum Number of Vowels in a Substring of Given Length
 
-https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/[LeetCode - 1456. Maximum Number of Vowels in a Substring of Given Length ^]
+{leetcode}/problems/maximum-number-of-vowels-in-a-substring-of-given-length/[LeetCode - 1456. Maximum Number of Vowels in a Substring of Given Length ^]
 
 Given a string `s` and an integer `k`, return _the maximum number of vowel letters in any substring of _`s`_ with length _`k`.
 

@@ -1,7 +1,7 @@
 [#2156-find-substring-with-given-hash-value]
 = 2156. Find Substring With Given Hash Value
 
-https://leetcode.com/problems/find-substring-with-given-hash-value/[LeetCode - 2156. Find Substring With Given Hash Value ^]
+{leetcode}/problems/find-substring-with-given-hash-value/[LeetCode - 2156. Find Substring With Given Hash Value ^]
 
 The hash of a *0-indexed* string `s` of length `k`, given integers `p` and `m`, is computed using the following function:
 

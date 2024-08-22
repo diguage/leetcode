@@ -1,7 +1,7 @@
 [#3138-minimum-length-of-anagram-concatenation]
 = 3138. Minimum Length of Anagram Concatenation
 
-https://leetcode.com/problems/minimum-length-of-anagram-concatenation/[LeetCode - 3138. Minimum Length of Anagram Concatenation ^]
+{leetcode}/problems/minimum-length-of-anagram-concatenation/[LeetCode - 3138. Minimum Length of Anagram Concatenation ^]
 
 You are given a string `s`, which is known to be a concatenation of *anagrams* of some string `t`.
 

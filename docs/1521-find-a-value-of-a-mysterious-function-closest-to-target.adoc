@@ -1,7 +1,7 @@
 [#1521-find-a-value-of-a-mysterious-function-closest-to-target]
 = 1521. Find a Value of a Mysterious Function Closest to Target
 
-https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/[LeetCode - 1521. Find a Value of a Mysterious Function Closest to Target ^]
+{leetcode}/problems/find-a-value-of-a-mysterious-function-closest-to-target/[LeetCode - 1521. Find a Value of a Mysterious Function Closest to Target ^]
 
 <img alt="" src="https://assets.leetcode.com/uploads/2020/07/09/change.png" style="width: 635px; height: 312px;" />
 

@@ -1,7 +1,7 @@
 [#0396-rotate-function]
 = 396. Rotate Function
 
-https://leetcode.com/problems/rotate-function/[LeetCode - Rotate Function^]
+{leetcode}/problems/rotate-function/[LeetCode - Rotate Function^]
 
 
 Given an array of integers `A` and let _n_ to be its length.

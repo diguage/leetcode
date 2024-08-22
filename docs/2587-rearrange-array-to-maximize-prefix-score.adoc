@@ -1,7 +1,7 @@
 [#2587-rearrange-array-to-maximize-prefix-score]
 = 2587. Rearrange Array to Maximize Prefix Score
 
-https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/[LeetCode - 2587. Rearrange Array to Maximize Prefix Score ^]
+{leetcode}/problems/rearrange-array-to-maximize-prefix-score/[LeetCode - 2587. Rearrange Array to Maximize Prefix Score ^]
 
 You are given a *0-indexed* integer array `nums`. You can rearrange the elements of `nums` to *any order* (including the given order).
 

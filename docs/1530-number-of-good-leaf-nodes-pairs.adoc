@@ -1,7 +1,7 @@
 [#1530-number-of-good-leaf-nodes-pairs]
 = 1530. Number of Good Leaf Nodes Pairs
 
-https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/[LeetCode - 1530. Number of Good Leaf Nodes Pairs ^]
+{leetcode}/problems/number-of-good-leaf-nodes-pairs/[LeetCode - 1530. Number of Good Leaf Nodes Pairs ^]
 
 You are given the `root` of a binary tree and an integer `distance`. A pair of two different *leaf* nodes of a binary tree is said to be good if the length of *the shortest path* between them is less than or equal to `distance`.
 

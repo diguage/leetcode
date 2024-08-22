@@ -1,7 +1,7 @@
 [#2722-join-two-arrays-by-id]
 = 2722. Join Two Arrays by ID
 
-https://leetcode.com/problems/join-two-arrays-by-id/[LeetCode - 2722. Join Two Arrays by ID ^]
+{leetcode}/problems/join-two-arrays-by-id/[LeetCode - 2722. Join Two Arrays by ID ^]
 
 Given two arrays `arr1` and `arr2`, return a new array `joinedArray`. All the objects in each of the two inputs arrays will contain an `id` field that has an integer value. 
 

@@ -1,7 +1,7 @@
 [#2405-optimal-partition-of-string]
 = 2405. Optimal Partition of String
 
-https://leetcode.com/problems/optimal-partition-of-string/[LeetCode - 2405. Optimal Partition of String ^]
+{leetcode}/problems/optimal-partition-of-string/[LeetCode - 2405. Optimal Partition of String ^]
 
 Given a string `s`, partition the string into one or more *substrings* such that the characters in each substring are *unique*. That is, no letter appears in a single substring more than *once*.
 

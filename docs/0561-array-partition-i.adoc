@@ -1,7 +1,7 @@
 [#0561-array-partition-i]
 = 561. Array Partition I
 
-https://leetcode.com/problems/array-partition-i/[LeetCode - Array Partition I^]
+{leetcode}/problems/array-partition-i/[LeetCode - Array Partition I^]
 
 
 Given an array of *2n* integers, your task is to group these integers into *n* pairs of integer, say (a~1~, b~1~), (a~2~, b~2~), ..., (a~n~, b~n~) which makes sum of min(a~i~, b~i~) for all i from 1 to n as large as possible.

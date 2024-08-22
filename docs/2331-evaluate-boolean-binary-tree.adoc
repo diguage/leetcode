@@ -1,7 +1,7 @@
 [#2331-evaluate-boolean-binary-tree]
 = 2331. Evaluate Boolean Binary Tree
 
-https://leetcode.com/problems/evaluate-boolean-binary-tree/[LeetCode - 2331. Evaluate Boolean Binary Tree ^]
+{leetcode}/problems/evaluate-boolean-binary-tree/[LeetCode - 2331. Evaluate Boolean Binary Tree ^]
 
 You are given the `root` of a *full binary tree* with the following properties:
 

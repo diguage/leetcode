@@ -1,7 +1,7 @@
 [#2674-split-a-circular-linked-list]
 = 2674. Split a Circular Linked List
 
-https://leetcode.com/problems/split-a-circular-linked-list/[LeetCode - 2674. Split a Circular Linked List ^]
+{leetcode}/problems/split-a-circular-linked-list/[LeetCode - 2674. Split a Circular Linked List ^]
 
 
 

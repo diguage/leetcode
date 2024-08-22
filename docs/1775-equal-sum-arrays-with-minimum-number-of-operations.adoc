@@ -1,7 +1,7 @@
 [#1775-equal-sum-arrays-with-minimum-number-of-operations]
 = 1775. Equal Sum Arrays With Minimum Number of Operations
 
-https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/[LeetCode - 1775. Equal Sum Arrays With Minimum Number of Operations ^]
+{leetcode}/problems/equal-sum-arrays-with-minimum-number-of-operations/[LeetCode - 1775. Equal Sum Arrays With Minimum Number of Operations ^]
 
 You are given two arrays of integers `nums1` and `<font face="monospace">nums2`, possibly of different lengths. The values in the arrays are between `1` and `6`, inclusive.
 

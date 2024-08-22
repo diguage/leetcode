@@ -1,7 +1,7 @@
 [#2290-minimum-obstacle-removal-to-reach-corner]
 = 2290. Minimum Obstacle Removal to Reach Corner
 
-https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/[LeetCode - 2290. Minimum Obstacle Removal to Reach Corner ^]
+{leetcode}/problems/minimum-obstacle-removal-to-reach-corner/[LeetCode - 2290. Minimum Obstacle Removal to Reach Corner ^]
 
 You are given a *0-indexed* 2D integer array `grid` of size `m x n`. Each cell has one of two values:
 

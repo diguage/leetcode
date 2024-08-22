@@ -1,7 +1,7 @@
 [#2354-number-of-excellent-pairs]
 = 2354. Number of Excellent Pairs
 
-https://leetcode.com/problems/number-of-excellent-pairs/[LeetCode - 2354. Number of Excellent Pairs ^]
+{leetcode}/problems/number-of-excellent-pairs/[LeetCode - 2354. Number of Excellent Pairs ^]
 
 You are given a *0-indexed* positive integer array `nums` and a positive integer `k`.
 

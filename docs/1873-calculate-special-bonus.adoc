@@ -1,7 +1,7 @@
 [#1873-calculate-special-bonus]
 = 1873. Calculate Special Bonus
 
-https://leetcode.com/problems/calculate-special-bonus/[LeetCode - 1873. Calculate Special Bonus ^]
+{leetcode}/problems/calculate-special-bonus/[LeetCode - 1873. Calculate Special Bonus ^]
 
 Table: `Employees`
 

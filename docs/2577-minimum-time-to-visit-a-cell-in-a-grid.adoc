@@ -1,7 +1,7 @@
 [#2577-minimum-time-to-visit-a-cell-in-a-grid]
 = 2577. Minimum Time to Visit a Cell In a Grid
 
-https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/[LeetCode - 2577. Minimum Time to Visit a Cell In a Grid ^]
+{leetcode}/problems/minimum-time-to-visit-a-cell-in-a-grid/[LeetCode - 2577. Minimum Time to Visit a Cell In a Grid ^]
 
 You are given a `m x n` matrix `grid` consisting of *non-negative* integers where `grid[row][col]` represents the *minimum* time required to be able to visit the cell `(row, col)`, which means you can visit the cell `(row, col)` only when the time you visit it is greater than or equal to `grid[row][col]`.
 

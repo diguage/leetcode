@@ -1,7 +1,7 @@
 [#0971-flip-binary-tree-to-match-preorder-traversal]
 = 971. Flip Binary Tree To Match Preorder Traversal
 
-https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/[LeetCode - Flip Binary Tree To Match Preorder Traversal^]
+{leetcode}/problems/flip-binary-tree-to-match-preorder-traversal/[LeetCode - Flip Binary Tree To Match Preorder Traversal^]
 
 Given a binary tree with `N` nodes, each node has a different value from `{1, ..., N}`.
 

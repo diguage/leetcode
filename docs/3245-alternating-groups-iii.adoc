@@ -1,7 +1,7 @@
 [#3245-alternating-groups-iii]
 = 3245. Alternating Groups III
 
-https://leetcode.com/problems/alternating-groups-iii/[LeetCode - 3245. Alternating Groups III ^]
+{leetcode}/problems/alternating-groups-iii/[LeetCode - 3245. Alternating Groups III ^]
 
 There are some red and blue tiles arranged circularly. You are given an array of integers `colors` and a 2D integers array `queries`.
 

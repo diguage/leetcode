@@ -1,7 +1,7 @@
 [#2080-range-frequency-queries]
 = 2080. Range Frequency Queries
 
-https://leetcode.com/problems/range-frequency-queries/[LeetCode - 2080. Range Frequency Queries ^]
+{leetcode}/problems/range-frequency-queries/[LeetCode - 2080. Range Frequency Queries ^]
 
 Design a data structure to find the *frequency* of a given value in a given subarray.
 

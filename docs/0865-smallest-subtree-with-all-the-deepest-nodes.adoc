@@ -1,7 +1,7 @@
 [#0865-smallest-subtree-with-all-the-deepest-nodes]
 = 865. Smallest Subtree with all the Deepest Nodes
 
-https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/[LeetCode - Smallest Subtree with all the Deepest Nodes^]
+{leetcode}/problems/smallest-subtree-with-all-the-deepest-nodes/[LeetCode - Smallest Subtree with all the Deepest Nodes^]
 
 Given a binary tree rooted at `root`, the _depth_ of each node is the shortest distance to the root.
 

@@ -1,7 +1,7 @@
 [#1402-reducing-dishes]
 = 1402. Reducing Dishes
 
-https://leetcode.com/problems/reducing-dishes/[LeetCode - 1402. Reducing Dishes ^]
+{leetcode}/problems/reducing-dishes/[LeetCode - 1402. Reducing Dishes ^]
 
 A chef has collected data on the `satisfaction` level of his `n` dishes. Chef can cook any dish in 1 unit of time.
 

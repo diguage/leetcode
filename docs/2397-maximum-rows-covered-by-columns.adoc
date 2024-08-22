@@ -1,7 +1,7 @@
 [#2397-maximum-rows-covered-by-columns]
 = 2397. Maximum Rows Covered by Columns
 
-https://leetcode.com/problems/maximum-rows-covered-by-columns/[LeetCode - 2397. Maximum Rows Covered by Columns ^]
+{leetcode}/problems/maximum-rows-covered-by-columns/[LeetCode - 2397. Maximum Rows Covered by Columns ^]
 
 You are given a *0-indexed* `m x n` binary matrix `matrix` and an integer `numSelect`, which denotes the number of *distinct* columns you must select from `matrix`.
 

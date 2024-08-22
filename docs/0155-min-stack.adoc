@@ -1,7 +1,7 @@
 [#0155-min-stack]
 = 155. Min Stack
 
-https://leetcode.com/problems/min-stack/[LeetCode - Min Stack^]
+{leetcode}/problems/min-stack/[LeetCode - Min Stack^]
 
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 

@@ -1,7 +1,7 @@
 [#2357-make-array-zero-by-subtracting-equal-amounts]
 = 2357. Make Array Zero by Subtracting Equal Amounts
 
-https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/[LeetCode - 2357. Make Array Zero by Subtracting Equal Amounts ^]
+{leetcode}/problems/make-array-zero-by-subtracting-equal-amounts/[LeetCode - 2357. Make Array Zero by Subtracting Equal Amounts ^]
 
 You are given a non-negative integer array `nums`. In one operation, you must:
 

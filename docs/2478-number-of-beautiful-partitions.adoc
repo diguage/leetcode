@@ -1,7 +1,7 @@
 [#2478-number-of-beautiful-partitions]
 = 2478. Number of Beautiful Partitions
 
-https://leetcode.com/problems/number-of-beautiful-partitions/[LeetCode - 2478. Number of Beautiful Partitions ^]
+{leetcode}/problems/number-of-beautiful-partitions/[LeetCode - 2478. Number of Beautiful Partitions ^]
 
 You are given a string `s` that consists of the digits `'1'` to `'9'` and two integers `k` and `minLength`.
 

@@ -1,7 +1,7 @@
 [#2677-chunk-array]
 = 2677. Chunk Array
 
-https://leetcode.com/problems/chunk-array/[LeetCode - 2677. Chunk Array ^]
+{leetcode}/problems/chunk-array/[LeetCode - 2677. Chunk Array ^]
 
 Given an array `arr` and a chunk size `size`, return a *chunked* array.
 

@@ -1,7 +1,7 @@
 [#2594-minimum-time-to-repair-cars]
 = 2594. Minimum Time to Repair Cars
 
-https://leetcode.com/problems/minimum-time-to-repair-cars/[LeetCode - 2594. Minimum Time to Repair Cars ^]
+{leetcode}/problems/minimum-time-to-repair-cars/[LeetCode - 2594. Minimum Time to Repair Cars ^]
 
 You are given an integer array `ranks` representing the *ranks* of some mechanics. <font face="monospace">ranks<sub>i</sub> is the rank of the <font face="monospace">i^th^ mechanic<font face="monospace">. A mechanic with a rank `r` can repair <font face="monospace">n cars in `r * n^2^` minutes.
 

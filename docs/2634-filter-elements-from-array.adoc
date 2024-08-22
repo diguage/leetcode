@@ -1,7 +1,7 @@
 [#2634-filter-elements-from-array]
 = 2634. Filter Elements from Array
 
-https://leetcode.com/problems/filter-elements-from-array/[LeetCode - 2634. Filter Elements from Array ^]
+{leetcode}/problems/filter-elements-from-array/[LeetCode - 2634. Filter Elements from Array ^]
 
 Given an integer array `arr` and a filtering function `fn`, return a filtered array `filteredArr`.
 

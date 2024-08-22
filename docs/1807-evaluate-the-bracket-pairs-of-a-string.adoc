@@ -1,7 +1,7 @@
 [#1807-evaluate-the-bracket-pairs-of-a-string]
 = 1807. Evaluate the Bracket Pairs of a String
 
-https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/[LeetCode - 1807. Evaluate the Bracket Pairs of a String ^]
+{leetcode}/problems/evaluate-the-bracket-pairs-of-a-string/[LeetCode - 1807. Evaluate the Bracket Pairs of a String ^]
 
 You are given a string `s` that contains some bracket pairs, with each pair containing a *non-empty* key.
 

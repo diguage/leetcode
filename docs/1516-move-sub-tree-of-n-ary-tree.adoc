@@ -1,7 +1,7 @@
 [#1516-move-sub-tree-of-n-ary-tree]
 = 1516. Move Sub-Tree of N-Ary Tree
 
-https://leetcode.com/problems/move-sub-tree-of-n-ary-tree/[LeetCode - 1516. Move Sub-Tree of N-Ary Tree ^]
+{leetcode}/problems/move-sub-tree-of-n-ary-tree/[LeetCode - 1516. Move Sub-Tree of N-Ary Tree ^]
 
 
 

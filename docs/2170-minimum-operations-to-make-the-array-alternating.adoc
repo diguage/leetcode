@@ -1,7 +1,7 @@
 [#2170-minimum-operations-to-make-the-array-alternating]
 = 2170. Minimum Operations to Make the Array Alternating
 
-https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/[LeetCode - 2170. Minimum Operations to Make the Array Alternating ^]
+{leetcode}/problems/minimum-operations-to-make-the-array-alternating/[LeetCode - 2170. Minimum Operations to Make the Array Alternating ^]
 
 You are given a *0-indexed* array `nums` consisting of `n` positive integers.
 

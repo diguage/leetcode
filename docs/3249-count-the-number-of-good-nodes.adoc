@@ -1,7 +1,7 @@
 [#3249-count-the-number-of-good-nodes]
 = 3249. Count the Number of Good Nodes
 
-https://leetcode.com/problems/count-the-number-of-good-nodes/[LeetCode - 3249. Count the Number of Good Nodes ^]
+{leetcode}/problems/count-the-number-of-good-nodes/[LeetCode - 3249. Count the Number of Good Nodes ^]
 
 There is an *undirected* tree with `n` nodes labeled from `0` to `n - 1`, and rooted at node `0`. You are given a 2D integer array `edges` of length `n - 1`, where `edges[i] = [a<sub>i</sub>, b<sub>i</sub>]` indicates that there is an edge between nodes `a<sub>i</sub>` and `b<sub>i</sub>` in the tree.
 

@@ -1,7 +1,7 @@
 [#3043-find-the-length-of-the-longest-common-prefix]
 = 3043. Find the Length of the Longest Common Prefix
 
-https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/[LeetCode - 3043. Find the Length of the Longest Common Prefix ^]
+{leetcode}/problems/find-the-length-of-the-longest-common-prefix/[LeetCode - 3043. Find the Length of the Longest Common Prefix ^]
 
 You are given two arrays with *positive* integers `arr1` and `arr2`.
 

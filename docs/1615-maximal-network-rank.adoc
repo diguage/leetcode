@@ -1,7 +1,7 @@
 [#1615-maximal-network-rank]
 = 1615. Maximal Network Rank
 
-https://leetcode.com/problems/maximal-network-rank/[LeetCode - 1615. Maximal Network Rank ^]
+{leetcode}/problems/maximal-network-rank/[LeetCode - 1615. Maximal Network Rank ^]
 
 There is an infrastructure of `n` cities with some number of `roads` connecting these cities. Each `roads[i] = [a<sub>i</sub>, b<sub>i</sub>]` indicates that there is a bidirectional road between cities `a<sub>i</sub>` and `b<sub>i</sub>`.
 

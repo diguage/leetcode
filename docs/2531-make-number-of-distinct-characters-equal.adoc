@@ -1,7 +1,7 @@
 [#2531-make-number-of-distinct-characters-equal]
 = 2531. Make Number of Distinct Characters Equal
 
-https://leetcode.com/problems/make-number-of-distinct-characters-equal/[LeetCode - 2531. Make Number of Distinct Characters Equal ^]
+{leetcode}/problems/make-number-of-distinct-characters-equal/[LeetCode - 2531. Make Number of Distinct Characters Equal ^]
 
 You are given two *0-indexed* strings `word1` and `word2`.
 

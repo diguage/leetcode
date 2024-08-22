@@ -1,7 +1,7 @@
 [#1523-count-odd-numbers-in-an-interval-range]
 = 1523. Count Odd Numbers in an Interval Range
 
-https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/[LeetCode - 1523. Count Odd Numbers in an Interval Range ^]
+{leetcode}/problems/count-odd-numbers-in-an-interval-range/[LeetCode - 1523. Count Odd Numbers in an Interval Range ^]
 
 Given two non-negative integers `low` and `<font face="monospace">high`. Return the _count of odd numbers between _`low`_ and _`<font face="monospace">high`_ (inclusive)_.
 

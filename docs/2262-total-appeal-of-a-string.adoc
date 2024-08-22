@@ -1,7 +1,7 @@
 [#2262-total-appeal-of-a-string]
 = 2262. Total Appeal of A String
 
-https://leetcode.com/problems/total-appeal-of-a-string/[LeetCode - 2262. Total Appeal of A String ^]
+{leetcode}/problems/total-appeal-of-a-string/[LeetCode - 2262. Total Appeal of A String ^]
 
 The *appeal* of a string is the number of *distinct* characters found in the string.
 

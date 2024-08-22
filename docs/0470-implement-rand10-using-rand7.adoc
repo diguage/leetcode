@@ -1,7 +1,7 @@
 [#0470-implement-rand10-using-rand7]
 = 470. Implement Rand10() Using Rand7()
 
-https://leetcode.com/problems/implement-rand10-using-rand7/[LeetCode - Implement Rand10() Using Rand7()^]
+{leetcode}/problems/implement-rand10-using-rand7/[LeetCode - Implement Rand10() Using Rand7()^]
 
 Given a function `rand7` which generates a uniform random integer in the range 1 to 7, write a function `rand10` which generates a uniform random integer in the range 1 to 10.
 

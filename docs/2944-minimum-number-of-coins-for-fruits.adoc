@@ -1,7 +1,7 @@
 [#2944-minimum-number-of-coins-for-fruits]
 = 2944. Minimum Number of Coins for Fruits
 
-https://leetcode.com/problems/minimum-number-of-coins-for-fruits/[LeetCode - 2944. Minimum Number of Coins for Fruits ^]
+{leetcode}/problems/minimum-number-of-coins-for-fruits/[LeetCode - 2944. Minimum Number of Coins for Fruits ^]
 
 You are given an integer array `prices` where `prices[i]` denotes the number of coins needed to purchase the `i^th^` fruit.
 

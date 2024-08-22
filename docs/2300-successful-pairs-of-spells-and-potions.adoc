@@ -1,7 +1,7 @@
 [#2300-successful-pairs-of-spells-and-potions]
 = 2300. Successful Pairs of Spells and Potions
 
-https://leetcode.com/problems/successful-pairs-of-spells-and-potions/[LeetCode - 2300. Successful Pairs of Spells and Potions ^]
+{leetcode}/problems/successful-pairs-of-spells-and-potions/[LeetCode - 2300. Successful Pairs of Spells and Potions ^]
 
 You are given two positive integer arrays `spells` and `potions`, of length `n` and `m` respectively, where `spells[i]` represents the strength of the `i^th^` spell and `potions[j]` represents the strength of the `j^th^` potion.
 

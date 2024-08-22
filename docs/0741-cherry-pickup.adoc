@@ -1,7 +1,7 @@
 [#0741-cherry-pickup]
 = 741. Cherry Pickup
 
-https://leetcode.com/problems/cherry-pickup/[LeetCode - Cherry Pickup^]
+{leetcode}/problems/cherry-pickup/[LeetCode - Cherry Pickup^]
 
 In a N x N `grid` representing a field of cherries, each cell is one of three possible integers.
 

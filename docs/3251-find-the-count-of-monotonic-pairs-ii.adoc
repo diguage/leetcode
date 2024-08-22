@@ -1,7 +1,7 @@
 [#3251-find-the-count-of-monotonic-pairs-ii]
 = 3251. Find the Count of Monotonic Pairs II
 
-https://leetcode.com/problems/find-the-count-of-monotonic-pairs-ii/[LeetCode - 3251. Find the Count of Monotonic Pairs II ^]
+{leetcode}/problems/find-the-count-of-monotonic-pairs-ii/[LeetCode - 3251. Find the Count of Monotonic Pairs II ^]
 
 You are given an array of *positive* integers `nums` of length `n`.
 

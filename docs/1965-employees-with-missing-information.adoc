@@ -1,7 +1,7 @@
 [#1965-employees-with-missing-information]
 = 1965. Employees With Missing Information
 
-https://leetcode.com/problems/employees-with-missing-information/[LeetCode - 1965. Employees With Missing Information ^]
+{leetcode}/problems/employees-with-missing-information/[LeetCode - 1965. Employees With Missing Information ^]
 
 Table: `Employees`
 

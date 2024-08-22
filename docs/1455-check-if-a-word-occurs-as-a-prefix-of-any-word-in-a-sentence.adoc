@@ -1,7 +1,7 @@
 [#1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence]
 = 1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence
 
-https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/[LeetCode - 1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence ^]
+{leetcode}/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/[LeetCode - 1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence ^]
 
 Given a `sentence` that consists of some words separated by a *single space*, and a `searchWord`, check if `searchWord` is a prefix of any word in `sentence`.
 

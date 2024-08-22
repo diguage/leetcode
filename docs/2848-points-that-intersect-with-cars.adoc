@@ -1,7 +1,7 @@
 [#2848-points-that-intersect-with-cars]
 = 2848. Points That Intersect With Cars
 
-https://leetcode.com/problems/points-that-intersect-with-cars/[LeetCode - 2848. Points That Intersect With Cars ^]
+{leetcode}/problems/points-that-intersect-with-cars/[LeetCode - 2848. Points That Intersect With Cars ^]
 
 You are given a *0-indexed* 2D integer array `nums` representing the coordinates of the cars parking on a number line. For any index `i`, `nums[i] = [start<sub>i</sub>, end<sub>i</sub>]` where `start<sub>i</sub>` is the starting point of the `i^th^` car and `end<sub>i</sub>` is the ending point of the `i^th^` car.
 

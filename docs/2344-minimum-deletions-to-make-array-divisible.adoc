@@ -1,7 +1,7 @@
 [#2344-minimum-deletions-to-make-array-divisible]
 = 2344. Minimum Deletions to Make Array Divisible
 
-https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/[LeetCode - 2344. Minimum Deletions to Make Array Divisible ^]
+{leetcode}/problems/minimum-deletions-to-make-array-divisible/[LeetCode - 2344. Minimum Deletions to Make Array Divisible ^]
 
 You are given two positive integer arrays `nums` and `numsDivide`. You can delete any number of elements from `nums`.
 

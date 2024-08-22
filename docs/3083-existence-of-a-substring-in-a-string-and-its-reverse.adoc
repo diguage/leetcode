@@ -1,7 +1,7 @@
 [#3083-existence-of-a-substring-in-a-string-and-its-reverse]
 = 3083. Existence of a Substring in a String and Its Reverse
 
-https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/[LeetCode - 3083. Existence of a Substring in a String and Its Reverse ^]
+{leetcode}/problems/existence-of-a-substring-in-a-string-and-its-reverse/[LeetCode - 3083. Existence of a Substring in a String and Its Reverse ^]
 
 Given a* *string `s`, find any <span data-keyword="substring">substring of length `2` which is also present in the reverse of `s`.
 

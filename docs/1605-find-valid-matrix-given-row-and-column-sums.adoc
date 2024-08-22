@@ -1,7 +1,7 @@
 [#1605-find-valid-matrix-given-row-and-column-sums]
 = 1605. Find Valid Matrix Given Row and Column Sums
 
-https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/[LeetCode - 1605. Find Valid Matrix Given Row and Column Sums ^]
+{leetcode}/problems/find-valid-matrix-given-row-and-column-sums/[LeetCode - 1605. Find Valid Matrix Given Row and Column Sums ^]
 
 You are given two arrays `rowSum` and `colSum` of non-negative integers where `rowSum[i]` is the sum of the elements in the `i^th^` row and `colSum[j]` is the sum of the elements of the `j^th^` column of a 2D matrix. In other words, you do not know the elements of the matrix, but you do know the sums of each row and column.
 

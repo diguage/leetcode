@@ -1,7 +1,7 @@
 [#3122-minimum-number-of-operations-to-satisfy-conditions]
 = 3122. Minimum Number of Operations to Satisfy Conditions
 
-https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/[LeetCode - 3122. Minimum Number of Operations to Satisfy Conditions ^]
+{leetcode}/problems/minimum-number-of-operations-to-satisfy-conditions/[LeetCode - 3122. Minimum Number of Operations to Satisfy Conditions ^]
 
 You are given a 2D matrix `grid` of size `m x n`. In one *operation*, you can change the value of *any* cell to *any* non-negative number. You need to perform some *operations* such that each cell `grid[i][j]` is:
 

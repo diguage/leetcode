@@ -1,7 +1,7 @@
 [#1408-string-matching-in-an-array]
 = 1408. String Matching in an Array
 
-https://leetcode.com/problems/string-matching-in-an-array/[LeetCode - 1408. String Matching in an Array ^]
+{leetcode}/problems/string-matching-in-an-array/[LeetCode - 1408. String Matching in an Array ^]
 
 Given an array of string `words`, return _all strings in _`words`_ that is a *substring* of another word_. You can return the answer in *any order*.
 

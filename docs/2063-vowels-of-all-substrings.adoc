@@ -1,7 +1,7 @@
 [#2063-vowels-of-all-substrings]
 = 2063. Vowels of All Substrings
 
-https://leetcode.com/problems/vowels-of-all-substrings/[LeetCode - 2063. Vowels of All Substrings ^]
+{leetcode}/problems/vowels-of-all-substrings/[LeetCode - 2063. Vowels of All Substrings ^]
 
 Given a string `word`, return _the *sum of the number of vowels* (_`'a'`, `'e'`_,_ `'i'`_,_ `'o'`_, and_ `'u'`_)_ _in every substring of _`word`.
 

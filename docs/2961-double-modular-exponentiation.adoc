@@ -1,7 +1,7 @@
 [#2961-double-modular-exponentiation]
 = 2961. Double Modular Exponentiation
 
-https://leetcode.com/problems/double-modular-exponentiation/[LeetCode - 2961. Double Modular Exponentiation ^]
+{leetcode}/problems/double-modular-exponentiation/[LeetCode - 2961. Double Modular Exponentiation ^]
 
 You are given a *0-indexed* 2D array `variables` where `variables[i] = [a<sub>i</sub>, b<sub>i</sub>, c<sub>i,</sub> m<sub>i</sub>]`, and an integer `target`.
 

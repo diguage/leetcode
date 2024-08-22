@@ -1,7 +1,7 @@
 [#2619-array-prototype-last]
 = 2619. Array Prototype Last
 
-https://leetcode.com/problems/array-prototype-last/[LeetCode - 2619. Array Prototype Last ^]
+{leetcode}/problems/array-prototype-last/[LeetCode - 2619. Array Prototype Last ^]
 
 Write code that enhances all arrays such that you can call the `array.last()` method on any array and it will return the last element. If there are no elements in the array, it should return `-1`.
 

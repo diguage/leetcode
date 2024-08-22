@@ -1,7 +1,7 @@
 [#1298-maximum-candies-you-can-get-from-boxes]
 = 1298. Maximum Candies You Can Get from Boxes
 
-https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/[LeetCode - Maximum Candies You Can Get from Boxes^]
+{leetcode}/problems/maximum-candies-you-can-get-from-boxes/[LeetCode - Maximum Candies You Can Get from Boxes^]
 
 Given `n` boxes, each box is given in the format `[status, candies, keys, containedBoxes]` where:
 

@@ -1,7 +1,7 @@
 [#2310-sum-of-numbers-with-units-digit-k]
 = 2310. Sum of Numbers With Units Digit K
 
-https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/[LeetCode - 2310. Sum of Numbers With Units Digit K ^]
+{leetcode}/problems/sum-of-numbers-with-units-digit-k/[LeetCode - 2310. Sum of Numbers With Units Digit K ^]
 
 Given two integers `num` and `k`, consider a set of positive integers with the following properties:
 

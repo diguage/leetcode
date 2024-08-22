@@ -1,7 +1,7 @@
 [#3165-maximum-sum-of-subsequence-with-non-adjacent-elements]
 = 3165. Maximum Sum of Subsequence With Non-adjacent Elements
 
-https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/[LeetCode - 3165. Maximum Sum of Subsequence With Non-adjacent Elements ^]
+{leetcode}/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/[LeetCode - 3165. Maximum Sum of Subsequence With Non-adjacent Elements ^]
 
 You are given an array `nums` consisting of integers. You are also given a 2D array `queries`, where `queries[i] = [pos<sub>i</sub>, x<sub>i</sub>]`.
 

@@ -1,7 +1,7 @@
 [#0394-decode-string]
 = 394. Decode String
 
-https://leetcode.com/problems/decode-string/[LeetCode - Decode String^]
+{leetcode}/problems/decode-string/[LeetCode - Decode String^]
 
 Given an encoded string, return its decoded string.
 

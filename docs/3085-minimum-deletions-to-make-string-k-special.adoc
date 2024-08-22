@@ -1,7 +1,7 @@
 [#3085-minimum-deletions-to-make-string-k-special]
 = 3085. Minimum Deletions to Make String K-Special
 
-https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/[LeetCode - 3085. Minimum Deletions to Make String K-Special ^]
+{leetcode}/problems/minimum-deletions-to-make-string-k-special/[LeetCode - 3085. Minimum Deletions to Make String K-Special ^]
 
 You are given a string `word` and an integer `k`.
 

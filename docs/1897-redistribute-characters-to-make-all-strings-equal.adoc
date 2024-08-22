@@ -1,7 +1,7 @@
 [#1897-redistribute-characters-to-make-all-strings-equal]
 = 1897. Redistribute Characters to Make All Strings Equal
 
-https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/[LeetCode - 1897. Redistribute Characters to Make All Strings Equal ^]
+{leetcode}/problems/redistribute-characters-to-make-all-strings-equal/[LeetCode - 1897. Redistribute Characters to Make All Strings Equal ^]
 
 You are given an array of strings `words` (*0-indexed*).
 

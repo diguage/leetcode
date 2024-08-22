@@ -1,7 +1,7 @@
 [#1734-decode-xored-permutation]
 = 1734. Decode XORed Permutation
 
-https://leetcode.com/problems/decode-xored-permutation/[LeetCode - 1734. Decode XORed Permutation ^]
+{leetcode}/problems/decode-xored-permutation/[LeetCode - 1734. Decode XORed Permutation ^]
 
 There is an integer array `perm` that is a permutation of the first `n` positive integers, where `n` is always *odd*.
 

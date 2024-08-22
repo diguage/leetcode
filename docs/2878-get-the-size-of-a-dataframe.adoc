@@ -1,7 +1,7 @@
 [#2878-get-the-size-of-a-dataframe]
 = 2878. Get the Size of a DataFrame
 
-https://leetcode.com/problems/get-the-size-of-a-dataframe/[LeetCode - 2878. Get the Size of a DataFrame ^]
+{leetcode}/problems/get-the-size-of-a-dataframe/[LeetCode - 2878. Get the Size of a DataFrame ^]
 
 [subs="verbatim,quotes"]
 ----

@@ -1,7 +1,7 @@
 [#0878-nth-magical-number]
 = 878. Nth Magical Number
 
-https://leetcode.com/problems/nth-magical-number/[LeetCode - Nth Magical Number^]
+{leetcode}/problems/nth-magical-number/[LeetCode - Nth Magical Number^]
 
 A positive integer is _magical_ if it is divisible by either <font face="monospace">A or <font face="monospace">B.
 

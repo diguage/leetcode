@@ -1,7 +1,7 @@
 [#1186-maximum-subarray-sum-with-one-deletion]
 = 1186. Maximum Subarray Sum with One Deletion
 
-https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/[LeetCode - Maximum Subarray Sum with One Deletion^]
+{leetcode}/problems/maximum-subarray-sum-with-one-deletion/[LeetCode - Maximum Subarray Sum with One Deletion^]
 
 Given an array of integers, return the maximum sum for a *non-empty* subarray (contiguous elements) with at most one element deletion. In other words, you want to choose a subarray and optionally delete one element from it so that there is still at least one element left and the sum of the remaining elements is maximum possible.
 

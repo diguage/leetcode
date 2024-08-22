@@ -1,7 +1,7 @@
 [#1641-count-sorted-vowel-strings]
 = 1641. Count Sorted Vowel Strings
 
-https://leetcode.com/problems/count-sorted-vowel-strings/[LeetCode - 1641. Count Sorted Vowel Strings ^]
+{leetcode}/problems/count-sorted-vowel-strings/[LeetCode - 1641. Count Sorted Vowel Strings ^]
 
 Given an integer `n`, return _the number of strings of length _`n`_ that consist only of vowels (_`a`_, _`e`_, _`i`_, _`o`_, _`u`_) and are *lexicographically sorted*._
 

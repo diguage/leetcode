@@ -1,7 +1,7 @@
 [#1673-find-the-most-competitive-subsequence]
 = 1673. Find the Most Competitive Subsequence
 
-https://leetcode.com/problems/find-the-most-competitive-subsequence/[LeetCode - 1673. Find the Most Competitive Subsequence ^]
+{leetcode}/problems/find-the-most-competitive-subsequence/[LeetCode - 1673. Find the Most Competitive Subsequence ^]
 
 Given an integer array `nums` and a positive integer `k`, return _the most* competitive* subsequence of _`nums` _of size _`k`.
 

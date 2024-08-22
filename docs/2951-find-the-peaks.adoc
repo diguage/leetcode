@@ -1,7 +1,7 @@
 [#2951-find-the-peaks]
 = 2951. Find the Peaks
 
-https://leetcode.com/problems/find-the-peaks/[LeetCode - 2951. Find the Peaks ^]
+{leetcode}/problems/find-the-peaks/[LeetCode - 2951. Find the Peaks ^]
 
 You are given a *0-indexed* array `mountain`. Your task is to find all the *peaks* in the `mountain` array.
 

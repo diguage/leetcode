@@ -1,7 +1,7 @@
 [#2081-sum-of-k-mirror-numbers]
 = 2081. Sum of k-Mirror Numbers
 
-https://leetcode.com/problems/sum-of-k-mirror-numbers/[LeetCode - 2081. Sum of k-Mirror Numbers ^]
+{leetcode}/problems/sum-of-k-mirror-numbers/[LeetCode - 2081. Sum of k-Mirror Numbers ^]
 
 A *k-mirror number* is a *positive* integer *without leading zeros* that reads the same both forward and backward in base-10 *as well as* in base-k.
 

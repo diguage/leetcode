@@ -1,7 +1,7 @@
 [#2396-strictly-palindromic-number]
 = 2396. Strictly Palindromic Number
 
-https://leetcode.com/problems/strictly-palindromic-number/[LeetCode - 2396. Strictly Palindromic Number ^]
+{leetcode}/problems/strictly-palindromic-number/[LeetCode - 2396. Strictly Palindromic Number ^]
 
 An integer `n` is *strictly palindromic* if, for *every* base `b` between `2` and `n - 2` (*inclusive*), the string representation of the integer `n` in base `b` is *palindromic*.
 

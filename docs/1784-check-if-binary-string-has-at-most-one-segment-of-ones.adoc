@@ -1,7 +1,7 @@
 [#1784-check-if-binary-string-has-at-most-one-segment-of-ones]
 = 1784. Check if Binary String Has at Most One Segment of Ones
 
-https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/[LeetCode - 1784. Check if Binary String Has at Most One Segment of Ones ^]
+{leetcode}/problems/check-if-binary-string-has-at-most-one-segment-of-ones/[LeetCode - 1784. Check if Binary String Has at Most One Segment of Ones ^]
 
 Given a binary string `s` *​​​​​without leading zeros*, return `true`​​​ _if _`s`_ contains *at most one contiguous segment of ones*_. Otherwise, return `false`.
 

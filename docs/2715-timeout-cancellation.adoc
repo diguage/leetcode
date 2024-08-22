@@ -1,7 +1,7 @@
 [#2715-timeout-cancellation]
 = 2715. Timeout Cancellation
 
-https://leetcode.com/problems/timeout-cancellation/[LeetCode - 2715. Timeout Cancellation ^]
+{leetcode}/problems/timeout-cancellation/[LeetCode - 2715. Timeout Cancellation ^]
 
 Given a function `fn`, an array of arguments `args`, and a timeout `t` in milliseconds, return a cancel function `cancelFn`.
 

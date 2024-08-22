@@ -1,7 +1,7 @@
 [#2351-first-letter-to-appear-twice]
 = 2351. First Letter to Appear Twice
 
-https://leetcode.com/problems/first-letter-to-appear-twice/[LeetCode - 2351. First Letter to Appear Twice ^]
+{leetcode}/problems/first-letter-to-appear-twice/[LeetCode - 2351. First Letter to Appear Twice ^]
 
 Given a string `s` consisting of lowercase English letters, return _the first letter to appear *twice*_.
 

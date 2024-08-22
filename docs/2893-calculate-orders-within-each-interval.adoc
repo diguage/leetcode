@@ -1,7 +1,7 @@
 [#2893-calculate-orders-within-each-interval]
 = 2893. Calculate Orders Within Each Interval
 
-https://leetcode.com/problems/calculate-orders-within-each-interval/[LeetCode - 2893. Calculate Orders Within Each Interval ^]
+{leetcode}/problems/calculate-orders-within-each-interval/[LeetCode - 2893. Calculate Orders Within Each Interval ^]
 
 
 

@@ -1,7 +1,7 @@
 [#2716-minimize-string-length]
 = 2716. Minimize String Length
 
-https://leetcode.com/problems/minimize-string-length/[LeetCode - 2716. Minimize String Length ^]
+{leetcode}/problems/minimize-string-length/[LeetCode - 2716. Minimize String Length ^]
 
 Given a string `s`, you have two types of operation:
 

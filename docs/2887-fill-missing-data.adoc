@@ -1,7 +1,7 @@
 [#2887-fill-missing-data]
 = 2887. Fill Missing Data
 
-https://leetcode.com/problems/fill-missing-data/[LeetCode - 2887. Fill Missing Data ^]
+{leetcode}/problems/fill-missing-data/[LeetCode - 2887. Fill Missing Data ^]
 
 [subs="verbatim,quotes"]
 ----

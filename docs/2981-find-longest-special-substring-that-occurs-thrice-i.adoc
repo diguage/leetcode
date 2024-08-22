@@ -1,7 +1,7 @@
 [#2981-find-longest-special-substring-that-occurs-thrice-i]
 = 2981. Find Longest Special Substring That Occurs Thrice I
 
-https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/[LeetCode - 2981. Find Longest Special Substring That Occurs Thrice I ^]
+{leetcode}/problems/find-longest-special-substring-that-occurs-thrice-i/[LeetCode - 2981. Find Longest Special Substring That Occurs Thrice I ^]
 
 You are given a string `s` that consists of lowercase English letters.
 

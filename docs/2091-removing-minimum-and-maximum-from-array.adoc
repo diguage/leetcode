@@ -1,7 +1,7 @@
 [#2091-removing-minimum-and-maximum-from-array]
 = 2091. Removing Minimum and Maximum From Array
 
-https://leetcode.com/problems/removing-minimum-and-maximum-from-array/[LeetCode - 2091. Removing Minimum and Maximum From Array ^]
+{leetcode}/problems/removing-minimum-and-maximum-from-array/[LeetCode - 2091. Removing Minimum and Maximum From Array ^]
 
 You are given a *0-indexed* array of *distinct* integers `nums`.
 

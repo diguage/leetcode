@@ -1,7 +1,7 @@
 [#0583-delete-operation-for-two-strings]
 = 583. Delete Operation for Two Strings
 
-https://leetcode.com/problems/delete-operation-for-two-strings/[LeetCode - Delete Operation for Two Strings^]
+{leetcode}/problems/delete-operation-for-two-strings/[LeetCode - Delete Operation for Two Strings^]
 
 
 Given two words _word1_ and _word2_, find the minimum number of steps required to make _word1_ and _word2_ the same, where in each step you can delete one character in either string.

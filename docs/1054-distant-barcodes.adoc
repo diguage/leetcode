@@ -1,7 +1,7 @@
 [#1054-distant-barcodes]
 = 1054. Distant Barcodes
 
-https://leetcode.com/problems/distant-barcodes/[LeetCode - Distant Barcodes^]
+{leetcode}/problems/distant-barcodes/[LeetCode - Distant Barcodes^]
 
 In a warehouse, there is a row of barcodes, where the `i`-th barcode is `barcodes[i]`.
 

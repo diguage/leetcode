@@ -1,7 +1,7 @@
 [#0080-remove-duplicates-from-sorted-array-ii]
 = 80. Remove Duplicates from Sorted Array II
 
-https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/[LeetCode - Remove Duplicates from Sorted Array II^]
+{leetcode}/problems/remove-duplicates-from-sorted-array-ii/[LeetCode - Remove Duplicates from Sorted Array II^]
 
 Given a sorted array `nums`, remove the duplicates in-place such that duplicates appeared at most *twice* and return the new length.
 

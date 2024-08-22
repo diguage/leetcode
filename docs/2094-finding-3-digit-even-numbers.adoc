@@ -1,7 +1,7 @@
 [#2094-finding-3-digit-even-numbers]
 = 2094. Finding 3-Digit Even Numbers
 
-https://leetcode.com/problems/finding-3-digit-even-numbers/[LeetCode - 2094. Finding 3-Digit Even Numbers ^]
+{leetcode}/problems/finding-3-digit-even-numbers/[LeetCode - 2094. Finding 3-Digit Even Numbers ^]
 
 You are given an integer array `digits`, where each element is a digit. The array may contain duplicates.
 

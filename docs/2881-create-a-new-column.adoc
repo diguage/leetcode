@@ -1,7 +1,7 @@
 [#2881-create-a-new-column]
 = 2881. Create a New Column
 
-https://leetcode.com/problems/create-a-new-column/[LeetCode - 2881. Create a New Column ^]
+{leetcode}/problems/create-a-new-column/[LeetCode - 2881. Create a New Column ^]
 
 [subs="verbatim,quotes"]
 ----

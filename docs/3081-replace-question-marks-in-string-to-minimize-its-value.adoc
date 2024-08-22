@@ -1,7 +1,7 @@
 [#3081-replace-question-marks-in-string-to-minimize-its-value]
 = 3081. Replace Question Marks in String to Minimize Its Value
 
-https://leetcode.com/problems/replace-question-marks-in-string-to-minimize-its-value/[LeetCode - 3081. Replace Question Marks in String to Minimize Its Value ^]
+{leetcode}/problems/replace-question-marks-in-string-to-minimize-its-value/[LeetCode - 3081. Replace Question Marks in String to Minimize Its Value ^]
 
 You are given a string `s`. `s[i]` is either a lowercase English letter or `'?'`.
 

@@ -1,7 +1,7 @@
 [#1872-stone-game-viii]
 = 1872. Stone Game VIII
 
-https://leetcode.com/problems/stone-game-viii/[LeetCode - 1872. Stone Game VIII ^]
+{leetcode}/problems/stone-game-viii/[LeetCode - 1872. Stone Game VIII ^]
 
 Alice and Bob take turns playing a game, with *Alice starting first*.
 

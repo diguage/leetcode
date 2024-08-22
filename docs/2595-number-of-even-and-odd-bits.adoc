@@ -1,7 +1,7 @@
 [#2595-number-of-even-and-odd-bits]
 = 2595. Number of Even and Odd Bits
 
-https://leetcode.com/problems/number-of-even-and-odd-bits/[LeetCode - 2595. Number of Even and Odd Bits ^]
+{leetcode}/problems/number-of-even-and-odd-bits/[LeetCode - 2595. Number of Even and Odd Bits ^]
 
 You are given a *positive* integer `n`.
 

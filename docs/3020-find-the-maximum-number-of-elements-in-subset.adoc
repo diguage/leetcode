@@ -1,7 +1,7 @@
 [#3020-find-the-maximum-number-of-elements-in-subset]
 = 3020. Find the Maximum Number of Elements in Subset
 
-https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/[LeetCode - 3020. Find the Maximum Number of Elements in Subset ^]
+{leetcode}/problems/find-the-maximum-number-of-elements-in-subset/[LeetCode - 3020. Find the Maximum Number of Elements in Subset ^]
 
 You are given an array of *positive* integers `nums`.
 

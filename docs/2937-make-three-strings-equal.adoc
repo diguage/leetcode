@@ -1,7 +1,7 @@
 [#2937-make-three-strings-equal]
 = 2937. Make Three Strings Equal
 
-https://leetcode.com/problems/make-three-strings-equal/[LeetCode - 2937. Make Three Strings Equal ^]
+{leetcode}/problems/make-three-strings-equal/[LeetCode - 2937. Make Three Strings Equal ^]
 
 You are given three strings: `s1`, `s2`, and `s3`. In one operation you can choose one of these strings and delete its *rightmost* character. Note that you *cannot* completely empty a string.
 

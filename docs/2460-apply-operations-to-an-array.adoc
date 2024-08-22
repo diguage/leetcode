@@ -1,7 +1,7 @@
 [#2460-apply-operations-to-an-array]
 = 2460. Apply Operations to an Array
 
-https://leetcode.com/problems/apply-operations-to-an-array/[LeetCode - 2460. Apply Operations to an Array ^]
+{leetcode}/problems/apply-operations-to-an-array/[LeetCode - 2460. Apply Operations to an Array ^]
 
 You are given a *0-indexed* array `nums` of size `n` consisting of *non-negative* integers.
 

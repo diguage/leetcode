@@ -1,7 +1,7 @@
 [#0428-serialize-and-deserialize-n-ary-tree]
 = 428. Serialize and Deserialize N-ary Tree
 
-https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/[LeetCode - Serialize and Deserialize N-ary Tree^]
+{leetcode}/problems/serialize-and-deserialize-n-ary-tree/[LeetCode - Serialize and Deserialize N-ary Tree^]
 
 
 

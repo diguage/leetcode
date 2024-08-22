@@ -1,7 +1,7 @@
 [#2948-make-lexicographically-smallest-array-by-swapping-elements]
 = 2948. Make Lexicographically Smallest Array by Swapping Elements
 
-https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/[LeetCode - 2948. Make Lexicographically Smallest Array by Swapping Elements ^]
+{leetcode}/problems/make-lexicographically-smallest-array-by-swapping-elements/[LeetCode - 2948. Make Lexicographically Smallest Array by Swapping Elements ^]
 
 You are given a *0-indexed* array of *positive* integers `nums` and a *positive* integer `limit`.
 

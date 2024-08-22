@@ -1,7 +1,7 @@
 [#0159-longest-substring-with-at-most-two-distinct-characters]
 = 159. Longest Substring with At Most Two Distinct Characters
 
-https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/[LeetCode - Longest Substring with At Most Two Distinct Characters^]
+{leetcode}/problems/longest-substring-with-at-most-two-distinct-characters/[LeetCode - Longest Substring with At Most Two Distinct Characters^]
 
 
 

@@ -1,7 +1,7 @@
 [#2398-maximum-number-of-robots-within-budget]
 = 2398. Maximum Number of Robots Within Budget
 
-https://leetcode.com/problems/maximum-number-of-robots-within-budget/[LeetCode - 2398. Maximum Number of Robots Within Budget ^]
+{leetcode}/problems/maximum-number-of-robots-within-budget/[LeetCode - 2398. Maximum Number of Robots Within Budget ^]
 
 You have `n` robots. You are given two *0-indexed* integer arrays, `chargeTimes` and `runningCosts`, both of length `n`. The `i^th^` robot costs `chargeTimes[i]` units to charge and costs `runningCosts[i]` units to run. You are also given an integer `budget`.
 

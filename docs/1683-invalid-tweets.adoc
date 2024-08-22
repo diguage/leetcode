@@ -1,7 +1,7 @@
 [#1683-invalid-tweets]
 = 1683. Invalid Tweets
 
-https://leetcode.com/problems/invalid-tweets/[LeetCode - 1683. Invalid Tweets ^]
+{leetcode}/problems/invalid-tweets/[LeetCode - 1683. Invalid Tweets ^]
 
 Table: `Tweets`
 

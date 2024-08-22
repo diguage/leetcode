@@ -1,7 +1,7 @@
 [#2269-find-the-k-beauty-of-a-number]
 = 2269. Find the K-Beauty of a Number
 
-https://leetcode.com/problems/find-the-k-beauty-of-a-number/[LeetCode - 2269. Find the K-Beauty of a Number ^]
+{leetcode}/problems/find-the-k-beauty-of-a-number/[LeetCode - 2269. Find the K-Beauty of a Number ^]
 
 The *k-beauty* of an integer `num` is defined as the number of *substrings* of `num` when it is read as a string that meet the following conditions:
 

@@ -1,7 +1,7 @@
 [#3193-count-the-number-of-inversions]
 = 3193. Count the Number of Inversions
 
-https://leetcode.com/problems/count-the-number-of-inversions/[LeetCode - 3193. Count the Number of Inversions ^]
+{leetcode}/problems/count-the-number-of-inversions/[LeetCode - 3193. Count the Number of Inversions ^]
 
 You are given an integer `n` and a 2D array `requirements`, where `requirements[i] = [end<sub>i</sub>, cnt<sub>i</sub>]` represents the end index and the *inversion* count of each requirement.
 

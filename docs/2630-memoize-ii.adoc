@@ -1,7 +1,7 @@
 [#2630-memoize-ii]
 = 2630. Memoize II
 
-https://leetcode.com/problems/memoize-ii/[LeetCode - 2630. Memoize II ^]
+{leetcode}/problems/memoize-ii/[LeetCode - 2630. Memoize II ^]
 
 Given a function `fn`, return a *memoized* version of that function.
 

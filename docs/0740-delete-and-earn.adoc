@@ -1,7 +1,7 @@
 [#0740-delete-and-earn]
 = 740. Delete and Earn
 
-https://leetcode.com/problems/delete-and-earn/[LeetCode - Delete and Earn^]
+{leetcode}/problems/delete-and-earn/[LeetCode - Delete and Earn^]
 
 Given an array `nums` of integers, you can perform operations on the array.
 

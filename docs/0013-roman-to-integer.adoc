@@ -1,7 +1,7 @@
 [#0013-roman-to-integer]
 = 13. Roman to Integer
 
-https://leetcode.com/problems/roman-to-integer/[LeetCode - Roman to Integer^]
+{leetcode}/problems/roman-to-integer/[LeetCode - Roman to Integer^]
 
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 

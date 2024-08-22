@@ -1,7 +1,7 @@
 [#1991-find-the-middle-index-in-array]
 = 1991. Find the Middle Index in Array
 
-https://leetcode.com/problems/find-the-middle-index-in-array/[LeetCode - 1991. Find the Middle Index in Array ^]
+{leetcode}/problems/find-the-middle-index-in-array/[LeetCode - 1991. Find the Middle Index in Array ^]
 
 Given a *0-indexed* integer array `nums`, find the *leftmost* `middleIndex` (i.e., the smallest amongst all the possible ones).
 
@@ -50,7 +50,7 @@ The sum of the numbers after index 2 is: 0
 
 
  
-*Note:* This question is the same as 724: <a href="https://leetcode.com/problems/find-pivot-index/" target="_blank">https://leetcode.com/problems/find-pivot-index/</a>
+*Note:* This question is the same as 724: <a href="{leetcode}/problems/find-pivot-index/" target="_blank">{leetcode}/problems/find-pivot-index/</a>
 
 
 

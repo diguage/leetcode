@@ -1,7 +1,7 @@
 [#2934-minimum-operations-to-maximize-last-elements-in-arrays]
 = 2934. Minimum Operations to Maximize Last Elements in Arrays
 
-https://leetcode.com/problems/minimum-operations-to-maximize-last-elements-in-arrays/[LeetCode - 2934. Minimum Operations to Maximize Last Elements in Arrays ^]
+{leetcode}/problems/minimum-operations-to-maximize-last-elements-in-arrays/[LeetCode - 2934. Minimum Operations to Maximize Last Elements in Arrays ^]
 
 You are given two *0-indexed* integer arrays, `nums1` and `nums2`, both having length `n`.
 

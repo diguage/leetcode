@@ -1,7 +1,7 @@
 [#2196-create-binary-tree-from-descriptions]
 = 2196. Create Binary Tree From Descriptions
 
-https://leetcode.com/problems/create-binary-tree-from-descriptions/[LeetCode - 2196. Create Binary Tree From Descriptions ^]
+{leetcode}/problems/create-binary-tree-from-descriptions/[LeetCode - 2196. Create Binary Tree From Descriptions ^]
 
 You are given a 2D integer array `descriptions` where `descriptions[i] = [parent<sub>i</sub>, child<sub>i</sub>, isLeft<sub>i</sub>]` indicates that `parent<sub>i</sub>` is the *parent* of `child<sub>i</sub>` in a *binary* tree of *unique* values. Furthermore,
 

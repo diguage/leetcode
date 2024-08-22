@@ -1,7 +1,7 @@
 [#3002-maximum-size-of-a-set-after-removals]
 = 3002. Maximum Size of a Set After Removals
 
-https://leetcode.com/problems/maximum-size-of-a-set-after-removals/[LeetCode - 3002. Maximum Size of a Set After Removals ^]
+{leetcode}/problems/maximum-size-of-a-set-after-removals/[LeetCode - 3002. Maximum Size of a Set After Removals ^]
 
 You are given two *0-indexed* integer arrays `nums1` and `nums2` of even length `n`.
 

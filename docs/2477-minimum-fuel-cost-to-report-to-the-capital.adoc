@@ -1,7 +1,7 @@
 [#2477-minimum-fuel-cost-to-report-to-the-capital]
 = 2477. Minimum Fuel Cost to Report to the Capital
 
-https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/[LeetCode - 2477. Minimum Fuel Cost to Report to the Capital ^]
+{leetcode}/problems/minimum-fuel-cost-to-report-to-the-capital/[LeetCode - 2477. Minimum Fuel Cost to Report to the Capital ^]
 
 There is a tree (i.e., a connected, undirected graph with no cycles) structure country network consisting of `n` cities numbered from `0` to `n - 1` and exactly `n - 1` roads. The capital city is city `0`. You are given a 2D integer array `roads` where `roads[i] = [a<sub>i</sub>, b<sub>i</sub>]` denotes that there exists a *bidirectional road* connecting cities `a<sub>i</sub>` and `b<sub>i</sub>`.
 

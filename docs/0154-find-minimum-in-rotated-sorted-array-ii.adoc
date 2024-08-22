@@ -1,7 +1,7 @@
 [#0154-find-minimum-in-rotated-sorted-array-ii]
 = 154. Find Minimum in Rotated Sorted Array II
 
-https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/[LeetCode - Find Minimum in Rotated Sorted Array II^]
+{leetcode}/problems/find-minimum-in-rotated-sorted-array-ii/[LeetCode - Find Minimum in Rotated Sorted Array II^]
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 
@@ -30,7 +30,7 @@ The array may contain duplicates.
 *Note:*
 
 
-* This is a follow up problem to <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/">Find Minimum in Rotated Sorted Array</a>.
+* This is a follow up problem to <a href="{leetcode}/problems/find-minimum-in-rotated-sorted-array/description/">Find Minimum in Rotated Sorted Array</a>.
 * Would allow duplicates affect the run-time complexity? How and why?
 
 == 解题分析

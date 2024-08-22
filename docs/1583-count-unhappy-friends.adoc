@@ -1,7 +1,7 @@
 [#1583-count-unhappy-friends]
 = 1583. Count Unhappy Friends
 
-https://leetcode.com/problems/count-unhappy-friends/[LeetCode - 1583. Count Unhappy Friends ^]
+{leetcode}/problems/count-unhappy-friends/[LeetCode - 1583. Count Unhappy Friends ^]
 
 You are given a list of `preferences` for `n` friends, where `n` is always *even*.
 

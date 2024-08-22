@@ -1,7 +1,7 @@
 [#1587-bank-account-summary-ii]
 = 1587. Bank Account Summary II
 
-https://leetcode.com/problems/bank-account-summary-ii/[LeetCode - 1587. Bank Account Summary II ^]
+{leetcode}/problems/bank-account-summary-ii/[LeetCode - 1587. Bank Account Summary II ^]
 
 Table: `Users`
 

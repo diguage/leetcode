@@ -1,7 +1,7 @@
 [#0446-arithmetic-slices-ii-subsequence]
 = 446. Arithmetic Slices II - Subsequence
 
-https://leetcode.com/problems/arithmetic-slices-ii-subsequence/[LeetCode - Arithmetic Slices II - Subsequence^]
+{leetcode}/problems/arithmetic-slices-ii-subsequence/[LeetCode - Arithmetic Slices II - Subsequence^]
 
 A sequence of numbers is called arithmetic if it consists of at least three elements and if the difference between any two consecutive elements is the same.
 

@@ -1,7 +1,7 @@
 [#1570-dot-product-of-two-sparse-vectors]
 = 1570. Dot Product of Two Sparse Vectors
 
-https://leetcode.com/problems/dot-product-of-two-sparse-vectors/[LeetCode - 1570. Dot Product of Two Sparse Vectors ^]
+{leetcode}/problems/dot-product-of-two-sparse-vectors/[LeetCode - 1570. Dot Product of Two Sparse Vectors ^]
 
 
 

@@ -1,7 +1,7 @@
 [#1861-rotating-the-box]
 = 1861. Rotating the Box
 
-https://leetcode.com/problems/rotating-the-box/[LeetCode - 1861. Rotating the Box ^]
+{leetcode}/problems/rotating-the-box/[LeetCode - 1861. Rotating the Box ^]
 
 You are given an `m x n` matrix of characters `box` representing a side-view of a box. Each cell of the box is one of the following:
 

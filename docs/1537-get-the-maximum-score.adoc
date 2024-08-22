@@ -1,7 +1,7 @@
 [#1537-get-the-maximum-score]
 = 1537. Get the Maximum Score
 
-https://leetcode.com/problems/get-the-maximum-score/[LeetCode - 1537. Get the Maximum Score ^]
+{leetcode}/problems/get-the-maximum-score/[LeetCode - 1537. Get the Maximum Score ^]
 
 You are given two *sorted* arrays of distinct integers `nums1` and `nums2`.
 

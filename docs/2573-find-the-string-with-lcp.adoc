@@ -1,7 +1,7 @@
 [#2573-find-the-string-with-lcp]
 = 2573. Find the String with LCP
 
-https://leetcode.com/problems/find-the-string-with-lcp/[LeetCode - 2573. Find the String with LCP ^]
+{leetcode}/problems/find-the-string-with-lcp/[LeetCode - 2573. Find the String with LCP ^]
 
 We define the `lcp` matrix of any *0-indexed* string `word` of `n` lowercase English letters as an `n x n` grid such that:
 

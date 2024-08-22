@@ -1,7 +1,7 @@
 [#1981-minimize-the-difference-between-target-and-chosen-elements]
 = 1981. Minimize the Difference Between Target and Chosen Elements
 
-https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/[LeetCode - 1981. Minimize the Difference Between Target and Chosen Elements ^]
+{leetcode}/problems/minimize-the-difference-between-target-and-chosen-elements/[LeetCode - 1981. Minimize the Difference Between Target and Chosen Elements ^]
 
 You are given an `m x n` integer matrix `mat` and an integer `target`.
 

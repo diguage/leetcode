@@ -1,7 +1,7 @@
 [#3029-minimum-time-to-revert-word-to-initial-state-i]
 = 3029. Minimum Time to Revert Word to Initial State I
 
-https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-i/[LeetCode - 3029. Minimum Time to Revert Word to Initial State I ^]
+{leetcode}/problems/minimum-time-to-revert-word-to-initial-state-i/[LeetCode - 3029. Minimum Time to Revert Word to Initial State I ^]
 
 You are given a *0-indexed* string `word` and an integer `k`.
 

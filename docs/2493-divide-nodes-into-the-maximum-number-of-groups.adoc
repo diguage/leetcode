@@ -1,7 +1,7 @@
 [#2493-divide-nodes-into-the-maximum-number-of-groups]
 = 2493. Divide Nodes Into the Maximum Number of Groups
 
-https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/[LeetCode - 2493. Divide Nodes Into the Maximum Number of Groups ^]
+{leetcode}/problems/divide-nodes-into-the-maximum-number-of-groups/[LeetCode - 2493. Divide Nodes Into the Maximum Number of Groups ^]
 
 You are given a positive integer `n` representing the number of nodes in an *undirected* graph. The nodes are labeled from `1` to `n`.
 

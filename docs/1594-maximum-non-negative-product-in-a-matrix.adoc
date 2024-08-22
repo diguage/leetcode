@@ -1,7 +1,7 @@
 [#1594-maximum-non-negative-product-in-a-matrix]
 = 1594. Maximum Non Negative Product in a Matrix
 
-https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/[LeetCode - 1594. Maximum Non Negative Product in a Matrix ^]
+{leetcode}/problems/maximum-non-negative-product-in-a-matrix/[LeetCode - 1594. Maximum Non Negative Product in a Matrix ^]
 
 You are given a `m x n` matrix `grid`. Initially, you are located at the top-left corner `(0, 0)`, and in each step, you can only *move right or down* in the matrix.
 

@@ -1,7 +1,7 @@
 [#1632-rank-transform-of-a-matrix]
 = 1632. Rank Transform of a Matrix
 
-https://leetcode.com/problems/rank-transform-of-a-matrix/[LeetCode - 1632. Rank Transform of a Matrix ^]
+{leetcode}/problems/rank-transform-of-a-matrix/[LeetCode - 1632. Rank Transform of a Matrix ^]
 
 Given an `m x n` `matrix`, return _a new matrix _`answer`_ where _`answer[row][col]`_ is the __*rank* of _`matrix[row][col]`.
 

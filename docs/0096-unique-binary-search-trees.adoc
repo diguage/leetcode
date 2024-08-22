@@ -3,7 +3,7 @@
 
 :stem: latexmath
 
-https://leetcode.com/problems/unique-binary-search-trees/[LeetCode - Unique Binary Search Trees^]
+{leetcode}/problems/unique-binary-search-trees/[LeetCode - Unique Binary Search Trees^]
 
 Given _n_, how many structurally unique *BST's* (binary search trees) that store values __1 ... n__?
 

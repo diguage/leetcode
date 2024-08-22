@@ -1,7 +1,7 @@
 [#2657-find-the-prefix-common-array-of-two-arrays]
 = 2657. Find the Prefix Common Array of Two Arrays
 
-https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/[LeetCode - 2657. Find the Prefix Common Array of Two Arrays ^]
+{leetcode}/problems/find-the-prefix-common-array-of-two-arrays/[LeetCode - 2657. Find the Prefix Common Array of Two Arrays ^]
 
 You are given two *0-indexed *integer* *permutations `A` and `B` of length `n`.
 

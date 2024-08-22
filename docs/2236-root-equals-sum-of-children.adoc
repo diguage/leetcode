@@ -1,7 +1,7 @@
 [#2236-root-equals-sum-of-children]
 = 2236. Root Equals Sum of Children
 
-https://leetcode.com/problems/root-equals-sum-of-children/[LeetCode - 2236. Root Equals Sum of Children ^]
+{leetcode}/problems/root-equals-sum-of-children/[LeetCode - 2236. Root Equals Sum of Children ^]
 
 You are given the `root` of a *binary tree* that consists of exactly `3` nodes: the root, its left child, and its right child.
 

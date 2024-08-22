@@ -1,7 +1,7 @@
 [#2510-check-if-there-is-a-path-with-equal-number-of-0s-and-1s]
 = 2510. Check if There is a Path With Equal Number of 0's And 1's
 
-https://leetcode.com/problems/check-if-there-is-a-path-with-equal-number-of-0s-and-1s/[LeetCode - 2510. Check if There is a Path With Equal Number of 0's And 1's ^]
+{leetcode}/problems/check-if-there-is-a-path-with-equal-number-of-0s-and-1s/[LeetCode - 2510. Check if There is a Path With Equal Number of 0's And 1's ^]
 
 
 

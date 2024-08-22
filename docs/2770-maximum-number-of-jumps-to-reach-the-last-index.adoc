@@ -1,7 +1,7 @@
 [#2770-maximum-number-of-jumps-to-reach-the-last-index]
 = 2770. Maximum Number of Jumps to Reach the Last Index
 
-https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/[LeetCode - 2770. Maximum Number of Jumps to Reach the Last Index ^]
+{leetcode}/problems/maximum-number-of-jumps-to-reach-the-last-index/[LeetCode - 2770. Maximum Number of Jumps to Reach the Last Index ^]
 
 You are given a *0-indexed* array `nums` of `n` integers and an integer `target`.
 

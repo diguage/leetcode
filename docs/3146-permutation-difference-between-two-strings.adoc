@@ -1,7 +1,7 @@
 [#3146-permutation-difference-between-two-strings]
 = 3146. Permutation Difference between Two Strings
 
-https://leetcode.com/problems/permutation-difference-between-two-strings/[LeetCode - 3146. Permutation Difference between Two Strings ^]
+{leetcode}/problems/permutation-difference-between-two-strings/[LeetCode - 3146. Permutation Difference between Two Strings ^]
 
 You are given two strings `s` and `t` such that every character occurs at most once in `s` and `t` is a permutation of `s`.
 

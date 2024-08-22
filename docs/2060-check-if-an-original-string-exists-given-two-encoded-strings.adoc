@@ -1,7 +1,7 @@
 [#2060-check-if-an-original-string-exists-given-two-encoded-strings]
 = 2060. Check if an Original String Exists Given Two Encoded Strings
 
-https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/[LeetCode - 2060. Check if an Original String Exists Given Two Encoded Strings ^]
+{leetcode}/problems/check-if-an-original-string-exists-given-two-encoded-strings/[LeetCode - 2060. Check if an Original String Exists Given Two Encoded Strings ^]
 
 An original string, consisting of lowercase English letters, can be encoded by the following steps:
 

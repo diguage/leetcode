@@ -1,7 +1,7 @@
 [#3096-minimum-levels-to-gain-more-points]
 = 3096. Minimum Levels to Gain More Points
 
-https://leetcode.com/problems/minimum-levels-to-gain-more-points/[LeetCode - 3096. Minimum Levels to Gain More Points ^]
+{leetcode}/problems/minimum-levels-to-gain-more-points/[LeetCode - 3096. Minimum Levels to Gain More Points ^]
 
 You are given a binary array `possible` of length `n`.
 

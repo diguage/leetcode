@@ -1,7 +1,7 @@
 [#2430-maximum-deletions-on-a-string]
 = 2430. Maximum Deletions on a String
 
-https://leetcode.com/problems/maximum-deletions-on-a-string/[LeetCode - 2430. Maximum Deletions on a String ^]
+{leetcode}/problems/maximum-deletions-on-a-string/[LeetCode - 2430. Maximum Deletions on a String ^]
 
 You are given a string `s` consisting of only lowercase English letters. In one operation, you can:
 

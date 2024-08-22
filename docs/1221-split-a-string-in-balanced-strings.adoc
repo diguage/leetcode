@@ -1,7 +1,7 @@
 [#1221-split-a-string-in-balanced-strings]
 = 1221. Split a String in Balanced Strings
 
-https://leetcode.com/problems/split-a-string-in-balanced-strings/[LeetCode - Split a String in Balanced Strings^]
+{leetcode}/problems/split-a-string-in-balanced-strings/[LeetCode - Split a String in Balanced Strings^]
 
 <i data-stringify-type="italic">Balanced_ strings are those who have equal quantity of 'L' and 'R' characters.
 

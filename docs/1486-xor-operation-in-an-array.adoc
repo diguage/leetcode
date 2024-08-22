@@ -1,7 +1,7 @@
 [#1486-xor-operation-in-an-array]
 = 1486. XOR Operation in an Array
 
-https://leetcode.com/problems/xor-operation-in-an-array/[LeetCode - 1486. XOR Operation in an Array ^]
+{leetcode}/problems/xor-operation-in-an-array/[LeetCode - 1486. XOR Operation in an Array ^]
 
 You are given an integer `n` and an integer `start`.
 

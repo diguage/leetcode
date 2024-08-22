@@ -1,7 +1,7 @@
 [#2776-convert-callback-based-function-to-promise-based-function]
 = 2776. Convert Callback Based Function to Promise Based Function
 
-https://leetcode.com/problems/convert-callback-based-function-to-promise-based-function/[LeetCode - 2776. Convert Callback Based Function to Promise Based Function ^]
+{leetcode}/problems/convert-callback-based-function-to-promise-based-function/[LeetCode - 2776. Convert Callback Based Function to Promise Based Function ^]
 
 
 

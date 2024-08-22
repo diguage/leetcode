@@ -1,7 +1,7 @@
 [#1386-cinema-seat-allocation]
 = 1386. Cinema Seat Allocation
 
-https://leetcode.com/problems/cinema-seat-allocation/[LeetCode - 1386. Cinema Seat Allocation ^]
+{leetcode}/problems/cinema-seat-allocation/[LeetCode - 1386. Cinema Seat Allocation ^]
 
 <img alt="" src="https://assets.leetcode.com/uploads/2020/02/14/cinema_seats_1.png" style="width: 400px; height: 149px;" />
 

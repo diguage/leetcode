@@ -1,7 +1,7 @@
 [#1729-find-followers-count]
 = 1729. Find Followers Count
 
-https://leetcode.com/problems/find-followers-count/[LeetCode - 1729. Find Followers Count ^]
+{leetcode}/problems/find-followers-count/[LeetCode - 1729. Find Followers Count ^]
 
 Table: `Followers`
 

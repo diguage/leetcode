@@ -1,7 +1,7 @@
 [#0775-global-and-local-inversions]
 = 775. Global and Local Inversions
 
-https://leetcode.com/problems/global-and-local-inversions/[LeetCode - Global and Local Inversions^]
+{leetcode}/problems/global-and-local-inversions/[LeetCode - Global and Local Inversions^]
 
 We have some permutation `A` of `[0, 1, ..., N - 1]`, where `N` is the length of `A`.
 

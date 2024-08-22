@@ -1,7 +1,7 @@
 [#2172-maximum-and-sum-of-array]
 = 2172. Maximum AND Sum of Array
 
-https://leetcode.com/problems/maximum-and-sum-of-array/[LeetCode - 2172. Maximum AND Sum of Array ^]
+{leetcode}/problems/maximum-and-sum-of-array/[LeetCode - 2172. Maximum AND Sum of Array ^]
 
 You are given an integer array `nums` of length `n` and an integer `numSlots` such that `2 * numSlots >= n`. There are `numSlots` slots numbered from `1` to `numSlots`.
 

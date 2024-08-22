@@ -1,7 +1,7 @@
 [#1394-find-lucky-integer-in-an-array]
 = 1394. Find Lucky Integer in an Array
 
-https://leetcode.com/problems/find-lucky-integer-in-an-array/[LeetCode - 1394. Find Lucky Integer in an Array ^]
+{leetcode}/problems/find-lucky-integer-in-an-array/[LeetCode - 1394. Find Lucky Integer in an Array ^]
 
 Given an array of integers `arr`, a *lucky integer* is an integer that has a frequency in the array equal to its value.
 

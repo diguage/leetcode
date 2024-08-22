@@ -1,7 +1,7 @@
 [#2693-call-function-with-custom-context]
 = 2693. Call Function with Custom Context
 
-https://leetcode.com/problems/call-function-with-custom-context/[LeetCode - 2693. Call Function with Custom Context ^]
+{leetcode}/problems/call-function-with-custom-context/[LeetCode - 2693. Call Function with Custom Context ^]
 
 Enhance all functions to have the `callPolyfill` method. The method accepts an object `obj` as it's first parameter and any number of additional arguments. The `obj` becomes the `this` context for the function. The additional arguments are passed to the function (that the `callPolyfill` method belongs on).
 

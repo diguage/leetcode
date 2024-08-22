@@ -1,7 +1,7 @@
 [#1437-check-if-all-1s-are-at-least-length-k-places-away]
 = 1437. Check If All 1's Are at Least Length K Places Away
 
-https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/[LeetCode - 1437. Check If All 1's Are at Least Length K Places Away ^]
+{leetcode}/problems/check-if-all-1s-are-at-least-length-k-places-away/[LeetCode - 1437. Check If All 1's Are at Least Length K Places Away ^]
 
 Given an binary array `nums` and an integer `k`, return `true`_ if all _`1`_'s are at least _`k`_ places away from each other, otherwise return _`false`.
 

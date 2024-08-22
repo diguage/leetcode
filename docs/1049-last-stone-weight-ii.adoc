@@ -1,7 +1,7 @@
 [#1049-last-stone-weight-ii]
 = 1049. Last Stone Weight II
 
-https://leetcode.com/problems/last-stone-weight-ii/[LeetCode - Last Stone Weight II^]
+{leetcode}/problems/last-stone-weight-ii/[LeetCode - Last Stone Weight II^]
 
 We have a collection of rocks, each rock has a positive integer weight.
 

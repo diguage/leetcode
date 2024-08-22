@@ -1,7 +1,7 @@
 [#2343-query-kth-smallest-trimmed-number]
 = 2343. Query Kth Smallest Trimmed Number
 
-https://leetcode.com/problems/query-kth-smallest-trimmed-number/[LeetCode - 2343. Query Kth Smallest Trimmed Number ^]
+{leetcode}/problems/query-kth-smallest-trimmed-number/[LeetCode - 2343. Query Kth Smallest Trimmed Number ^]
 
 You are given a *0-indexed* array of strings `nums`, where each string is of *equal length* and consists of only digits.
 

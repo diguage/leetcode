@@ -1,7 +1,7 @@
 [#2030-smallest-k-length-subsequence-with-occurrences-of-a-letter]
 = 2030. Smallest K-Length Subsequence With Occurrences of a Letter
 
-https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/[LeetCode - 2030. Smallest K-Length Subsequence With Occurrences of a Letter ^]
+{leetcode}/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/[LeetCode - 2030. Smallest K-Length Subsequence With Occurrences of a Letter ^]
 
 You are given a string `s`, an integer `k`, a letter `letter`, and an integer `repetition`.
 

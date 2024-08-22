@@ -1,7 +1,7 @@
 [#0404-sum-of-left-leaves]
 = 404. Sum of Left Leaves
 
-https://leetcode.com/problems/sum-of-left-leaves/[LeetCode - Sum of Left Leaves^]
+{leetcode}/problems/sum-of-left-leaves/[LeetCode - Sum of Left Leaves^]
 
 Find the sum of all left leaves in a given binary tree.
 

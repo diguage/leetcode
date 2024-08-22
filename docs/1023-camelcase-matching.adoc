@@ -1,7 +1,7 @@
 [#1023-camelcase-matching]
 = 1023. Camelcase Matching
 
-https://leetcode.com/problems/camelcase-matching/[LeetCode - Camelcase Matching^]
+{leetcode}/problems/camelcase-matching/[LeetCode - Camelcase Matching^]
 
 A query word matches a given `pattern` if we can insert *lowercase* letters to the pattern word so that it equals the `query`. (We may insert each character at any position, and may insert 0 characters.)
 

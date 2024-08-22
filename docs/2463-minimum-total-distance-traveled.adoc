@@ -1,7 +1,7 @@
 [#2463-minimum-total-distance-traveled]
 = 2463. Minimum Total Distance Traveled
 
-https://leetcode.com/problems/minimum-total-distance-traveled/[LeetCode - 2463. Minimum Total Distance Traveled ^]
+{leetcode}/problems/minimum-total-distance-traveled/[LeetCode - 2463. Minimum Total Distance Traveled ^]
 
 There are some robots and factories on the X-axis. You are given an integer array `robot` where `robot[i]` is the position of the `i^th^` robot. You are also given a 2D integer array `factory` where `factory[j] = [position<sub>j</sub>, limit<sub>j</sub>]` indicates that `position<sub>j</sub>` is the position of the `j^th^` factory and that the `j^th^` factory can repair at most `limit<sub>j</sub>` robots.
 

@@ -1,7 +1,7 @@
 [#2271-maximum-white-tiles-covered-by-a-carpet]
 = 2271. Maximum White Tiles Covered by a Carpet
 
-https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/[LeetCode - 2271. Maximum White Tiles Covered by a Carpet ^]
+{leetcode}/problems/maximum-white-tiles-covered-by-a-carpet/[LeetCode - 2271. Maximum White Tiles Covered by a Carpet ^]
 
 You are given a 2D integer array `tiles` where `tiles[i] = [l<sub>i</sub>, r<sub>i</sub>]` represents that every tile `j` in the range `l<sub>i</sub> <= j <= r<sub>i</sub>` is colored white.
 

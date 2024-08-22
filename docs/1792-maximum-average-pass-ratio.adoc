@@ -1,7 +1,7 @@
 [#1792-maximum-average-pass-ratio]
 = 1792. Maximum Average Pass Ratio
 
-https://leetcode.com/problems/maximum-average-pass-ratio/[LeetCode - 1792. Maximum Average Pass Ratio ^]
+{leetcode}/problems/maximum-average-pass-ratio/[LeetCode - 1792. Maximum Average Pass Ratio ^]
 
 There is a school that has classes of students and each class will be having a final exam. You are given a 2D integer array `classes`, where `classes[i] = [pass<sub>i</sub>, total<sub>i</sub>]`. You know beforehand that in the `i^th^` class, there are `total<sub>i</sub>` total students, but only `pass<sub>i</sub>` number of students will pass the exam.
 

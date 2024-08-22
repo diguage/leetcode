@@ -1,7 +1,7 @@
 [#1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows]
 = 1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows
 
-https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/[LeetCode - 1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows ^]
+{leetcode}/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/[LeetCode - 1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows ^]
 
 You are given an `m x n` matrix `mat` that has its rows sorted in non-decreasing order and an integer `k`.
 

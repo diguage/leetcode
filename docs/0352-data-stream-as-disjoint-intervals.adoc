@@ -1,7 +1,7 @@
 [#0352-data-stream-as-disjoint-intervals]
 = 352. Data Stream as Disjoint Intervals
 
-https://leetcode.com/problems/data-stream-as-disjoint-intervals/[LeetCode - Data Stream as Disjoint Intervals^]
+{leetcode}/problems/data-stream-as-disjoint-intervals/[LeetCode - Data Stream as Disjoint Intervals^]
 
 Given a data stream input of non-negative integers a~1~, a~2~, ..., a~n~, ..., summarize the numbers seen so far as a list of disjoint intervals.
 

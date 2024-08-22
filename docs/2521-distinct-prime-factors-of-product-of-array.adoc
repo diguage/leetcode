@@ -1,7 +1,7 @@
 [#2521-distinct-prime-factors-of-product-of-array]
 = 2521. Distinct Prime Factors of Product of Array
 
-https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/[LeetCode - 2521. Distinct Prime Factors of Product of Array ^]
+{leetcode}/problems/distinct-prime-factors-of-product-of-array/[LeetCode - 2521. Distinct Prime Factors of Product of Array ^]
 
 Given an array of positive integers `nums`, return _the number of *distinct prime factors* in the product of the elements of_ `nums`.
 

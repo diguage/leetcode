@@ -1,7 +1,7 @@
 [#2296-design-a-text-editor]
 = 2296. Design a Text Editor
 
-https://leetcode.com/problems/design-a-text-editor/[LeetCode - 2296. Design a Text Editor ^]
+{leetcode}/problems/design-a-text-editor/[LeetCode - 2296. Design a Text Editor ^]
 
 Design a text editor with a cursor that can do the following:
 

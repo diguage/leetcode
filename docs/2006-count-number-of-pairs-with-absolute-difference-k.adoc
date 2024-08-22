@@ -1,7 +1,7 @@
 [#2006-count-number-of-pairs-with-absolute-difference-k]
 = 2006. Count Number of Pairs With Absolute Difference K
 
-https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/[LeetCode - 2006. Count Number of Pairs With Absolute Difference K ^]
+{leetcode}/problems/count-number-of-pairs-with-absolute-difference-k/[LeetCode - 2006. Count Number of Pairs With Absolute Difference K ^]
 
 Given an integer array `nums` and an integer `k`, return _the number of pairs_ `(i, j)` _where_ `i < j` _such that_ `|nums[i] - nums[j]| == k`.
 

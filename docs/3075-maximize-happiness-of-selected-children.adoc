@@ -1,7 +1,7 @@
 [#3075-maximize-happiness-of-selected-children]
 = 3075. Maximize Happiness of Selected Children
 
-https://leetcode.com/problems/maximize-happiness-of-selected-children/[LeetCode - 3075. Maximize Happiness of Selected Children ^]
+{leetcode}/problems/maximize-happiness-of-selected-children/[LeetCode - 3075. Maximize Happiness of Selected Children ^]
 
 You are given an array `happiness` of length `n`, and a *positive* integer `k`.
 

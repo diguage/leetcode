@@ -1,7 +1,7 @@
 [#2736-maximum-sum-queries]
 = 2736. Maximum Sum Queries
 
-https://leetcode.com/problems/maximum-sum-queries/[LeetCode - 2736. Maximum Sum Queries ^]
+{leetcode}/problems/maximum-sum-queries/[LeetCode - 2736. Maximum Sum Queries ^]
 
 You are given two *0-indexed* integer arrays `nums1` and `nums2`, each of length `n`, and a *1-indexed 2D array* `queries` where `queries[i] = [x<sub>i</sub>, y<sub>i</sub>]`.
 

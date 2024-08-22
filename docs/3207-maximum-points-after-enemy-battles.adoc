@@ -1,7 +1,7 @@
 [#3207-maximum-points-after-enemy-battles]
 = 3207. Maximum Points After Enemy Battles
 
-https://leetcode.com/problems/maximum-points-after-enemy-battles/[LeetCode - 3207. Maximum Points After Enemy Battles ^]
+{leetcode}/problems/maximum-points-after-enemy-battles/[LeetCode - 3207. Maximum Points After Enemy Battles ^]
 
 You are given an integer array `enemyEnergies` denoting the energy values of various enemies.
 

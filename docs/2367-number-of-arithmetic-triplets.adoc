@@ -1,7 +1,7 @@
 [#2367-number-of-arithmetic-triplets]
 = 2367. Number of Arithmetic Triplets
 
-https://leetcode.com/problems/number-of-arithmetic-triplets/[LeetCode - 2367. Number of Arithmetic Triplets ^]
+{leetcode}/problems/number-of-arithmetic-triplets/[LeetCode - 2367. Number of Arithmetic Triplets ^]
 
 You are given a *0-indexed*, *strictly increasing* integer array `nums` and a positive integer `diff`. A triplet `(i, j, k)` is an *arithmetic triplet* if the following conditions are met:
 

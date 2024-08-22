@@ -1,7 +1,7 @@
 [#2212-maximum-points-in-an-archery-competition]
 = 2212. Maximum Points in an Archery Competition
 
-https://leetcode.com/problems/maximum-points-in-an-archery-competition/[LeetCode - 2212. Maximum Points in an Archery Competition ^]
+{leetcode}/problems/maximum-points-in-an-archery-competition/[LeetCode - 2212. Maximum Points in an Archery Competition ^]
 
 Alice and Bob are opponents in an archery competition. The competition has set the following rules:
 

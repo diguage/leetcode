@@ -1,7 +1,7 @@
 [#2542-maximum-subsequence-score]
 = 2542. Maximum Subsequence Score
 
-https://leetcode.com/problems/maximum-subsequence-score/[LeetCode - 2542. Maximum Subsequence Score ^]
+{leetcode}/problems/maximum-subsequence-score/[LeetCode - 2542. Maximum Subsequence Score ^]
 
 You are given two *0-indexed* integer arrays `nums1` and `nums2` of equal length `n` and a positive integer `k`. You must choose a *subsequence* of indices from `nums1` of length `k`.
 

@@ -1,7 +1,7 @@
 [#1482-minimum-number-of-days-to-make-m-bouquets]
 = 1482. Minimum Number of Days to Make m Bouquets
 
-https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/[LeetCode - 1482. Minimum Number of Days to Make m Bouquets ^]
+{leetcode}/problems/minimum-number-of-days-to-make-m-bouquets/[LeetCode - 1482. Minimum Number of Days to Make m Bouquets ^]
 
 You are given an integer array `bloomDay`, an integer `m` and an integer `k`.
 

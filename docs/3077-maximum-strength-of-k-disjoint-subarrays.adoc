@@ -1,7 +1,7 @@
 [#3077-maximum-strength-of-k-disjoint-subarrays]
 = 3077. Maximum Strength of K Disjoint Subarrays
 
-https://leetcode.com/problems/maximum-strength-of-k-disjoint-subarrays/[LeetCode - 3077. Maximum Strength of K Disjoint Subarrays ^]
+{leetcode}/problems/maximum-strength-of-k-disjoint-subarrays/[LeetCode - 3077. Maximum Strength of K Disjoint Subarrays ^]
 
 You are given an array of integers `nums` with length `n`, and a positive *odd* integer `k`.
 

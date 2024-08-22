@@ -1,7 +1,7 @@
 [#2899-last-visited-integers]
 = 2899. Last Visited Integers
 
-https://leetcode.com/problems/last-visited-integers/[LeetCode - 2899. Last Visited Integers ^]
+{leetcode}/problems/last-visited-integers/[LeetCode - 2899. Last Visited Integers ^]
 
 Given an integer array `nums` where `nums[i]` is either a positive integer or `-1`. We need to find for each `-1` the respective positive integer, which we call the last visited integer.
 

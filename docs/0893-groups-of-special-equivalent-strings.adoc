@@ -1,7 +1,7 @@
 [#0893-groups-of-special-equivalent-strings]
 = 893. Groups of Special-Equivalent Strings
 
-https://leetcode.com/problems/groups-of-special-equivalent-strings/[LeetCode - Groups of Special-Equivalent Strings^]
+{leetcode}/problems/groups-of-special-equivalent-strings/[LeetCode - Groups of Special-Equivalent Strings^]
 
 You are given an array `A` of strings.
 

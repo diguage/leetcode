@@ -1,7 +1,7 @@
 [#2424-longest-uploaded-prefix]
 = 2424. Longest Uploaded Prefix
 
-https://leetcode.com/problems/longest-uploaded-prefix/[LeetCode - 2424. Longest Uploaded Prefix ^]
+{leetcode}/problems/longest-uploaded-prefix/[LeetCode - 2424. Longest Uploaded Prefix ^]
 
 You are given a stream of `n` videos, each represented by a *distinct* number from `1` to `n` that you need to "upload" to a server. You need to implement a data structure that calculates the length of the *longest uploaded prefix* at various points in the upload process.
 

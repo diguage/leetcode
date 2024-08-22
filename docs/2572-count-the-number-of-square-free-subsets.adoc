@@ -1,7 +1,7 @@
 [#2572-count-the-number-of-square-free-subsets]
 = 2572. Count the Number of Square-Free Subsets
 
-https://leetcode.com/problems/count-the-number-of-square-free-subsets/[LeetCode - 2572. Count the Number of Square-Free Subsets ^]
+{leetcode}/problems/count-the-number-of-square-free-subsets/[LeetCode - 2572. Count the Number of Square-Free Subsets ^]
 
 You are given a positive integer *0-indexed* array `nums`.
 

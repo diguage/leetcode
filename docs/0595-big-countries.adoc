@@ -1,7 +1,7 @@
 [#0595-big-countries]
 = 595. Big Countries
 
-https://leetcode.com/problems/big-countries/[LeetCode - Big Countries^]
+{leetcode}/problems/big-countries/[LeetCode - Big Countries^]
 
 There is a table `World`
 

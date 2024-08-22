@@ -1,7 +1,7 @@
 [#2864-maximum-odd-binary-number]
 = 2864. Maximum Odd Binary Number
 
-https://leetcode.com/problems/maximum-odd-binary-number/[LeetCode - 2864. Maximum Odd Binary Number ^]
+{leetcode}/problems/maximum-odd-binary-number/[LeetCode - 2864. Maximum Odd Binary Number ^]
 
 You are given a *binary* string `s` that contains at least one `'1'`.
 

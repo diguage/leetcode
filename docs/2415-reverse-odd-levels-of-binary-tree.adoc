@@ -1,7 +1,7 @@
 [#2415-reverse-odd-levels-of-binary-tree]
 = 2415. Reverse Odd Levels of Binary Tree
 
-https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/[LeetCode - 2415. Reverse Odd Levels of Binary Tree ^]
+{leetcode}/problems/reverse-odd-levels-of-binary-tree/[LeetCode - 2415. Reverse Odd Levels of Binary Tree ^]
 
 Given the `root` of a *perfect* binary tree, reverse the node values at each *odd* level of the tree.
 

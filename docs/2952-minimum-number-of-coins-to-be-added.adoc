@@ -1,7 +1,7 @@
 [#2952-minimum-number-of-coins-to-be-added]
 = 2952. Minimum Number of Coins to be Added
 
-https://leetcode.com/problems/minimum-number-of-coins-to-be-added/[LeetCode - 2952. Minimum Number of Coins to be Added ^]
+{leetcode}/problems/minimum-number-of-coins-to-be-added/[LeetCode - 2952. Minimum Number of Coins to be Added ^]
 
 You are given a *0-indexed* integer array `coins`, representing the values of the coins available, and an integer `target`.
 

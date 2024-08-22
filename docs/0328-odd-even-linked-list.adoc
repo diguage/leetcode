@@ -1,7 +1,7 @@
 [#0328-odd-even-linked-list]
 = 328. Odd Even Linked List
 
-https://leetcode.com/problems/odd-even-linked-list/[LeetCode - Odd Even Linked List^]
+{leetcode}/problems/odd-even-linked-list/[LeetCode - Odd Even Linked List^]
 
 使用双指针，将链表拆分成奇偶数两个链表，然后再拼接！确实是个很棒的方法！
 

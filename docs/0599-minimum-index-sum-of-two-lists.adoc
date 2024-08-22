@@ -1,7 +1,7 @@
 [#0599-minimum-index-sum-of-two-lists]
 = 599. Minimum Index Sum of Two Lists
 
-https://leetcode.com/problems/minimum-index-sum-of-two-lists/[LeetCode - Minimum Index Sum of Two Lists^]
+{leetcode}/problems/minimum-index-sum-of-two-lists/[LeetCode - Minimum Index Sum of Two Lists^]
 
 
 Suppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings. 

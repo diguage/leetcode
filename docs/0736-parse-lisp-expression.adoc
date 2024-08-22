@@ -1,7 +1,7 @@
 [#0736-parse-lisp-expression]
 = 736. Parse Lisp Expression
 
-https://leetcode.com/problems/parse-lisp-expression/[LeetCode - Parse Lisp Expression^]
+{leetcode}/problems/parse-lisp-expression/[LeetCode - Parse Lisp Expression^]
 
 
 You are given a string `expression` representing a Lisp-like expression to return the integer value of.

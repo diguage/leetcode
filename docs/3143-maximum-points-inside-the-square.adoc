@@ -1,7 +1,7 @@
 [#3143-maximum-points-inside-the-square]
 = 3143. Maximum Points Inside the Square
 
-https://leetcode.com/problems/maximum-points-inside-the-square/[LeetCode - 3143. Maximum Points Inside the Square ^]
+{leetcode}/problems/maximum-points-inside-the-square/[LeetCode - 3143. Maximum Points Inside the Square ^]
 
 You are given a 2D* *array `points` and a string `s` where, `points[i]` represents the coordinates of point `i`, and `s[i]` represents the *tag* of point `i`.
 

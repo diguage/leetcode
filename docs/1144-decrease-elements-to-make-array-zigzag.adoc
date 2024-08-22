@@ -1,7 +1,7 @@
 [#1144-decrease-elements-to-make-array-zigzag]
 = 1144. Decrease Elements To Make Array Zigzag
 
-https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/[LeetCode - Decrease Elements To Make Array Zigzag^]
+{leetcode}/problems/decrease-elements-to-make-array-zigzag/[LeetCode - Decrease Elements To Make Array Zigzag^]
 
 Given an array `nums` of integers, a _move_ consists of choosing any element and *decreasing it by 1*.
 

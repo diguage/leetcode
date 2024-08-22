@@ -1,7 +1,7 @@
 [#0787-cheapest-flights-within-k-stops]
 = 787. Cheapest Flights Within K Stops
 
-https://leetcode.com/problems/cheapest-flights-within-k-stops/[LeetCode - Cheapest Flights Within K Stops^]
+{leetcode}/problems/cheapest-flights-within-k-stops/[LeetCode - Cheapest Flights Within K Stops^]
 
 There are `n` cities connected by `m` flights. Each fight starts from city `u `and arrives at `v` with a price `w`.
 

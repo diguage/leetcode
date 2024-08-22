@@ -1,7 +1,7 @@
 [#2644-find-the-maximum-divisibility-score]
 = 2644. Find the Maximum Divisibility Score
 
-https://leetcode.com/problems/find-the-maximum-divisibility-score/[LeetCode - 2644. Find the Maximum Divisibility Score ^]
+{leetcode}/problems/find-the-maximum-divisibility-score/[LeetCode - 2644. Find the Maximum Divisibility Score ^]
 
 You are given two integer arrays `nums` and `divisors`.
 

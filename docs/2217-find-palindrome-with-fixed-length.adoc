@@ -1,7 +1,7 @@
 [#2217-find-palindrome-with-fixed-length]
 = 2217. Find Palindrome With Fixed Length
 
-https://leetcode.com/problems/find-palindrome-with-fixed-length/[LeetCode - 2217. Find Palindrome With Fixed Length ^]
+{leetcode}/problems/find-palindrome-with-fixed-length/[LeetCode - 2217. Find Palindrome With Fixed Length ^]
 
 Given an integer array `queries` and a *positive* integer `intLength`, return _an array_ `answer` _where_ `answer[i]` _is either the _`queries[i]^th^` _smallest *positive palindrome* of length_ `intLength` _or_ `-1`_ if no such palindrome exists_.
 

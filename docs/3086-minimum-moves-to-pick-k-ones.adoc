@@ -1,7 +1,7 @@
 [#3086-minimum-moves-to-pick-k-ones]
 = 3086. Minimum Moves to Pick K Ones
 
-https://leetcode.com/problems/minimum-moves-to-pick-k-ones/[LeetCode - 3086. Minimum Moves to Pick K Ones ^]
+{leetcode}/problems/minimum-moves-to-pick-k-ones/[LeetCode - 3086. Minimum Moves to Pick K Ones ^]
 
 You are given a binary array `nums` of length `n`, a *positive* integer `k` and a *non-negative* integer `maxChanges`.
 

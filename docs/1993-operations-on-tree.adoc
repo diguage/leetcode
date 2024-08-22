@@ -1,7 +1,7 @@
 [#1993-operations-on-tree]
 = 1993. Operations on Tree
 
-https://leetcode.com/problems/operations-on-tree/[LeetCode - 1993. Operations on Tree ^]
+{leetcode}/problems/operations-on-tree/[LeetCode - 1993. Operations on Tree ^]
 
 You are given a tree with `n` nodes numbered from `0` to `n - 1` in the form of a parent array `parent` where `parent[i]` is the parent of the `i^th^` node. The root of the tree is node `0`, so `parent[0] = -1` since it has no parent. You want to design a data structure that allows users to lock, unlock, and upgrade nodes in the tree.
 

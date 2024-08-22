@@ -1,7 +1,7 @@
 [#2584-split-the-array-to-make-coprime-products]
 = 2584. Split the Array to Make Coprime Products
 
-https://leetcode.com/problems/split-the-array-to-make-coprime-products/[LeetCode - 2584. Split the Array to Make Coprime Products ^]
+{leetcode}/problems/split-the-array-to-make-coprime-products/[LeetCode - 2584. Split the Array to Make Coprime Products ^]
 
 You are given a *0-indexed* integer array `nums` of length `n`.
 

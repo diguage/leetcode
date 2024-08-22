@@ -1,7 +1,7 @@
 [#1832-check-if-the-sentence-is-pangram]
 = 1832. Check if the Sentence Is Pangram
 
-https://leetcode.com/problems/check-if-the-sentence-is-pangram/[LeetCode - 1832. Check if the Sentence Is Pangram ^]
+{leetcode}/problems/check-if-the-sentence-is-pangram/[LeetCode - 1832. Check if the Sentence Is Pangram ^]
 
 A *pangram* is a sentence where every letter of the English alphabet appears at least once.
 

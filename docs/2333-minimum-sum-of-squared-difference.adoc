@@ -1,7 +1,7 @@
 [#2333-minimum-sum-of-squared-difference]
 = 2333. Minimum Sum of Squared Difference
 
-https://leetcode.com/problems/minimum-sum-of-squared-difference/[LeetCode - 2333. Minimum Sum of Squared Difference ^]
+{leetcode}/problems/minimum-sum-of-squared-difference/[LeetCode - 2333. Minimum Sum of Squared Difference ^]
 
 You are given two positive *0-indexed* integer arrays `nums1` and `nums2`, both of length `n`.
 

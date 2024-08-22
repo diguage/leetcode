@@ -1,7 +1,7 @@
 [#1955-count-number-of-special-subsequences]
 = 1955. Count Number of Special Subsequences
 
-https://leetcode.com/problems/count-number-of-special-subsequences/[LeetCode - 1955. Count Number of Special Subsequences ^]
+{leetcode}/problems/count-number-of-special-subsequences/[LeetCode - 1955. Count Number of Special Subsequences ^]
 
 A sequence is *special* if it consists of a *positive* number of `0`s, followed by a *positive* number of `1`s, then a *positive* number of `2`s.
 

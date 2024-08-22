@@ -1,7 +1,7 @@
 [#3176-find-the-maximum-length-of-a-good-subsequence-i]
 = 3176. Find the Maximum Length of a Good Subsequence I
 
-https://leetcode.com/problems/find-the-maximum-length-of-a-good-subsequence-i/[LeetCode - 3176. Find the Maximum Length of a Good Subsequence I ^]
+{leetcode}/problems/find-the-maximum-length-of-a-good-subsequence-i/[LeetCode - 3176. Find the Maximum Length of a Good Subsequence I ^]
 
 You are given an integer array `nums` and a *non-negative* integer `k`. A sequence of integers `seq` is called *good* if there are *at most* `k` indices `i` in the range `[0, seq.length - 2]` such that `seq[i] != seq[i + 1]`.
 

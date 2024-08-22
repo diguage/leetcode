@@ -1,7 +1,7 @@
 [#2106-maximum-fruits-harvested-after-at-most-k-steps]
 = 2106. Maximum Fruits Harvested After at Most K Steps
 
-https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/[LeetCode - 2106. Maximum Fruits Harvested After at Most K Steps ^]
+{leetcode}/problems/maximum-fruits-harvested-after-at-most-k-steps/[LeetCode - 2106. Maximum Fruits Harvested After at Most K Steps ^]
 
 Fruits are available at some positions on an infinite x-axis. You are given a 2D integer array `fruits` where `fruits[i] = [position<sub>i</sub>, amount<sub>i</sub>]` depicts `amount<sub>i</sub>` fruits at the position `position<sub>i</sub>`. `fruits` is already *sorted* by `position<sub>i</sub>` in *ascending order*, and each `position<sub>i</sub>` is *unique*.
 

@@ -1,7 +1,7 @@
 [#2261-k-divisible-elements-subarrays]
 = 2261. K Divisible Elements Subarrays
 
-https://leetcode.com/problems/k-divisible-elements-subarrays/[LeetCode - 2261. K Divisible Elements Subarrays ^]
+{leetcode}/problems/k-divisible-elements-subarrays/[LeetCode - 2261. K Divisible Elements Subarrays ^]
 
 Given an integer array `nums` and two integers `k` and `p`, return _the number of *distinct subarrays,* which have *at most*_ `k` _elements _that are _divisible by_ `p`.
 

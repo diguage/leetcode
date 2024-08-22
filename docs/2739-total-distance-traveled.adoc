@@ -1,7 +1,7 @@
 [#2739-total-distance-traveled]
 = 2739. Total Distance Traveled
 
-https://leetcode.com/problems/total-distance-traveled/[LeetCode - 2739. Total Distance Traveled ^]
+{leetcode}/problems/total-distance-traveled/[LeetCode - 2739. Total Distance Traveled ^]
 
 A truck has two fuel tanks. You are given two integers, `mainTank` representing the fuel present in the main tank in liters and `additionalTank` representing the fuel present in the additional tank in liters.
 

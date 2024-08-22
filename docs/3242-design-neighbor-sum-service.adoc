@@ -1,7 +1,7 @@
 [#3242-design-neighbor-sum-service]
 = 3242. Design Neighbor Sum Service
 
-https://leetcode.com/problems/design-neighbor-sum-service/[LeetCode - 3242. Design Neighbor Sum Service ^]
+{leetcode}/problems/design-neighbor-sum-service/[LeetCode - 3242. Design Neighbor Sum Service ^]
 
 You are given a `n x n` 2D array `grid` containing *distinct* elements in the range `[0, n^2^ - 1]`.
 

@@ -1,7 +1,7 @@
 [#2154-keep-multiplying-found-values-by-two]
 = 2154. Keep Multiplying Found Values by Two
 
-https://leetcode.com/problems/keep-multiplying-found-values-by-two/[LeetCode - 2154. Keep Multiplying Found Values by Two ^]
+{leetcode}/problems/keep-multiplying-found-values-by-two/[LeetCode - 2154. Keep Multiplying Found Values by Two ^]
 
 You are given an array of integers `nums`. You are also given an integer `original` which is the first number that needs to be searched for in `nums`.
 

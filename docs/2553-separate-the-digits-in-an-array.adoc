@@ -1,7 +1,7 @@
 [#2553-separate-the-digits-in-an-array]
 = 2553. Separate the Digits in an Array
 
-https://leetcode.com/problems/separate-the-digits-in-an-array/[LeetCode - 2553. Separate the Digits in an Array ^]
+{leetcode}/problems/separate-the-digits-in-an-array/[LeetCode - 2553. Separate the Digits in an Array ^]
 
 Given an array of positive integers `nums`, return _an array _`answer`_ that consists of the digits of each integer in _`nums`_ after separating them in *the same order* they appear in _`nums`.
 

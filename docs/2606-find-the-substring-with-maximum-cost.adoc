@@ -1,7 +1,7 @@
 [#2606-find-the-substring-with-maximum-cost]
 = 2606. Find the Substring With Maximum Cost
 
-https://leetcode.com/problems/find-the-substring-with-maximum-cost/[LeetCode - 2606. Find the Substring With Maximum Cost ^]
+{leetcode}/problems/find-the-substring-with-maximum-cost/[LeetCode - 2606. Find the Substring With Maximum Cost ^]
 
 You are given a string `s`, a string `chars` of *distinct* characters and an integer array `vals` of the same length as `chars`.
 

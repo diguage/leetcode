@@ -1,7 +1,7 @@
 [#1646-get-maximum-in-generated-array]
 = 1646. Get Maximum in Generated Array
 
-https://leetcode.com/problems/get-maximum-in-generated-array/[LeetCode - 1646. Get Maximum in Generated Array ^]
+{leetcode}/problems/get-maximum-in-generated-array/[LeetCode - 1646. Get Maximum in Generated Array ^]
 
 You are given an integer `n`. A *0-indexed* integer array `nums` of length `n + 1` is generated in the following way:
 

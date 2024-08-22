@@ -1,7 +1,7 @@
 [#3022-minimize-or-of-remaining-elements-using-operations]
 = 3022. Minimize OR of Remaining Elements Using Operations
 
-https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations/[LeetCode - 3022. Minimize OR of Remaining Elements Using Operations ^]
+{leetcode}/problems/minimize-or-of-remaining-elements-using-operations/[LeetCode - 3022. Minimize OR of Remaining Elements Using Operations ^]
 
 You are given a *0-indexed* integer array `nums` and an integer `k`.
 

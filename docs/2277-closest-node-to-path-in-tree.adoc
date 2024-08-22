@@ -1,7 +1,7 @@
 [#2277-closest-node-to-path-in-tree]
 = 2277. Closest Node to Path in Tree
 
-https://leetcode.com/problems/closest-node-to-path-in-tree/[LeetCode - 2277. Closest Node to Path in Tree ^]
+{leetcode}/problems/closest-node-to-path-in-tree/[LeetCode - 2277. Closest Node to Path in Tree ^]
 
 
 

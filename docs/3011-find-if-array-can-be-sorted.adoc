@@ -1,7 +1,7 @@
 [#3011-find-if-array-can-be-sorted]
 = 3011. Find if Array Can Be Sorted
 
-https://leetcode.com/problems/find-if-array-can-be-sorted/[LeetCode - 3011. Find if Array Can Be Sorted ^]
+{leetcode}/problems/find-if-array-can-be-sorted/[LeetCode - 3011. Find if Array Can Be Sorted ^]
 
 You are given a *0-indexed* array of *positive* integers `nums`.
 

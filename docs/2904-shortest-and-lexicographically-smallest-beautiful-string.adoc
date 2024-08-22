@@ -1,7 +1,7 @@
 [#2904-shortest-and-lexicographically-smallest-beautiful-string]
 = 2904. Shortest and Lexicographically Smallest Beautiful String
 
-https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/[LeetCode - 2904. Shortest and Lexicographically Smallest Beautiful String ^]
+{leetcode}/problems/shortest-and-lexicographically-smallest-beautiful-string/[LeetCode - 2904. Shortest and Lexicographically Smallest Beautiful String ^]
 
 You are given a binary string `s` and a positive integer `k`.
 

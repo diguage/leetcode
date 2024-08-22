@@ -1,7 +1,7 @@
 [#2560-house-robber-iv]
 = 2560. House Robber IV
 
-https://leetcode.com/problems/house-robber-iv/[LeetCode - 2560. House Robber IV ^]
+{leetcode}/problems/house-robber-iv/[LeetCode - 2560. House Robber IV ^]
 
 There are several consecutive houses along a street, each of which has some money inside. There is also a robber, who wants to steal money from the homes, but he *refuses to steal from adjacent homes*.
 

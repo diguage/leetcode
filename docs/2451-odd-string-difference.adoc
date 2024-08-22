@@ -1,7 +1,7 @@
 [#2451-odd-string-difference]
 = 2451. Odd String Difference
 
-https://leetcode.com/problems/odd-string-difference/[LeetCode - 2451. Odd String Difference ^]
+{leetcode}/problems/odd-string-difference/[LeetCode - 2451. Odd String Difference ^]
 
 You are given an array of equal-length strings `words`. Assume that the length of each string is `n`.
 

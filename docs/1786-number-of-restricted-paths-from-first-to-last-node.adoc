@@ -1,7 +1,7 @@
 [#1786-number-of-restricted-paths-from-first-to-last-node]
 = 1786. Number of Restricted Paths From First to Last Node
 
-https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/[LeetCode - 1786. Number of Restricted Paths From First to Last Node ^]
+{leetcode}/problems/number-of-restricted-paths-from-first-to-last-node/[LeetCode - 1786. Number of Restricted Paths From First to Last Node ^]
 
 There is an undirected weighted connected graph. You are given a positive integer `n` which denotes that the graph has `n` nodes labeled from `1` to `n`, and an array `edges` where each `edges[i] = [u<sub>i</sub>, v<sub>i</sub>, weight<sub>i</sub>]` denotes that there is an edge between nodes `u<sub>i</sub>` and `v<sub>i</sub>` with weight equal to `weight<sub>i</sub>`.
 

@@ -1,7 +1,7 @@
 [#1851-minimum-interval-to-include-each-query]
 = 1851. Minimum Interval to Include Each Query
 
-https://leetcode.com/problems/minimum-interval-to-include-each-query/[LeetCode - 1851. Minimum Interval to Include Each Query ^]
+{leetcode}/problems/minimum-interval-to-include-each-query/[LeetCode - 1851. Minimum Interval to Include Each Query ^]
 
 You are given a 2D integer array `intervals`, where `intervals[i] = [left<sub>i</sub>, right<sub>i</sub>]` describes the `i^th^` interval starting at `left<sub>i</sub>` and ending at `right<sub>i</sub>` *(inclusive)*. The *size* of an interval is defined as the number of integers it contains, or more formally `right<sub>i</sub> - left<sub>i</sub> + 1`.
 

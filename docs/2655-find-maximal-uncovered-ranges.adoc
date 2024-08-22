@@ -1,7 +1,7 @@
 [#2655-find-maximal-uncovered-ranges]
 = 2655. Find Maximal Uncovered Ranges
 
-https://leetcode.com/problems/find-maximal-uncovered-ranges/[LeetCode - 2655. Find Maximal Uncovered Ranges ^]
+{leetcode}/problems/find-maximal-uncovered-ranges/[LeetCode - 2655. Find Maximal Uncovered Ranges ^]
 
 
 

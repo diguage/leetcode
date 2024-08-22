@@ -1,7 +1,7 @@
 [#3129-find-all-possible-stable-binary-arrays-i]
 = 3129. Find All Possible Stable Binary Arrays I
 
-https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/[LeetCode - 3129. Find All Possible Stable Binary Arrays I ^]
+{leetcode}/problems/find-all-possible-stable-binary-arrays-i/[LeetCode - 3129. Find All Possible Stable Binary Arrays I ^]
 
 You are given 3 positive integers `zero`, `one`, and `limit`.
 

@@ -1,7 +1,7 @@
 [#2562-find-the-array-concatenation-value]
 = 2562. Find the Array Concatenation Value
 
-https://leetcode.com/problems/find-the-array-concatenation-value/[LeetCode - 2562. Find the Array Concatenation Value ^]
+{leetcode}/problems/find-the-array-concatenation-value/[LeetCode - 2562. Find the Array Concatenation Value ^]
 
 You are given a *0-indexed* integer array `nums`.
 

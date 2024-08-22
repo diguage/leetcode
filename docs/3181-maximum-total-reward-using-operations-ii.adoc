@@ -1,7 +1,7 @@
 [#3181-maximum-total-reward-using-operations-ii]
 = 3181. Maximum Total Reward Using Operations II
 
-https://leetcode.com/problems/maximum-total-reward-using-operations-ii/[LeetCode - 3181. Maximum Total Reward Using Operations II ^]
+{leetcode}/problems/maximum-total-reward-using-operations-ii/[LeetCode - 3181. Maximum Total Reward Using Operations II ^]
 
 You are given an integer array `rewardValues` of length `n`, representing the values of rewards.
 

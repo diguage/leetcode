@@ -1,7 +1,7 @@
 [#3039-apply-operations-to-make-string-empty]
 = 3039. Apply Operations to Make String Empty
 
-https://leetcode.com/problems/apply-operations-to-make-string-empty/[LeetCode - 3039. Apply Operations to Make String Empty ^]
+{leetcode}/problems/apply-operations-to-make-string-empty/[LeetCode - 3039. Apply Operations to Make String Empty ^]
 
 You are given a string `s`.
 

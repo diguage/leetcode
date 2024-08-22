@@ -1,7 +1,7 @@
 [#3114-latest-time-you-can-obtain-after-replacing-characters]
 = 3114. Latest Time You Can Obtain After Replacing Characters
 
-https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/[LeetCode - 3114. Latest Time You Can Obtain After Replacing Characters ^]
+{leetcode}/problems/latest-time-you-can-obtain-after-replacing-characters/[LeetCode - 3114. Latest Time You Can Obtain After Replacing Characters ^]
 
 You are given a string `s` representing a 12-hour format time where some of the digits (possibly none) are replaced with a `"?"`.
 

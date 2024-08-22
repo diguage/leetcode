@@ -1,7 +1,7 @@
 [#0223-rectangle-area]
 = 223. Rectangle Area
 
-https://leetcode.com/problems/rectangle-area/[LeetCode - Rectangle Area^]
+{leetcode}/problems/rectangle-area/[LeetCode - Rectangle Area^]
 
 Find the total area covered by two *rectilinear* rectangles in a *2D* plane.
 

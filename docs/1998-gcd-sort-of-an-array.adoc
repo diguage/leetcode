@@ -1,7 +1,7 @@
 [#1998-gcd-sort-of-an-array]
 = 1998. GCD Sort of an Array
 
-https://leetcode.com/problems/gcd-sort-of-an-array/[LeetCode - 1998. GCD Sort of an Array ^]
+{leetcode}/problems/gcd-sort-of-an-array/[LeetCode - 1998. GCD Sort of an Array ^]
 
 You are given an integer array `nums`, and you can perform the following operation *any* number of times on `nums`:
 

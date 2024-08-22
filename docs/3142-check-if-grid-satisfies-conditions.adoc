@@ -1,7 +1,7 @@
 [#3142-check-if-grid-satisfies-conditions]
 = 3142. Check if Grid Satisfies Conditions
 
-https://leetcode.com/problems/check-if-grid-satisfies-conditions/[LeetCode - 3142. Check if Grid Satisfies Conditions ^]
+{leetcode}/problems/check-if-grid-satisfies-conditions/[LeetCode - 3142. Check if Grid Satisfies Conditions ^]
 
 You are given a 2D matrix `grid` of size `m x n`. You need to check if each cell `grid[i][j]` is:
 

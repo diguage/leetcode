@@ -1,7 +1,7 @@
 [#1360-number-of-days-between-two-dates]
 = 1360. Number of Days Between Two Dates
 
-https://leetcode.com/problems/number-of-days-between-two-dates/[LeetCode - 1360. Number of Days Between Two Dates ^]
+{leetcode}/problems/number-of-days-between-two-dates/[LeetCode - 1360. Number of Days Between Two Dates ^]
 
 Write a program to count the number of days between two dates.
 

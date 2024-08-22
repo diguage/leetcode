@@ -1,7 +1,7 @@
 [#3154-find-number-of-ways-to-reach-the-k-th-stair]
 = 3154. Find Number of Ways to Reach the K-th Stair
 
-https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/[LeetCode - 3154. Find Number of Ways to Reach the K-th Stair ^]
+{leetcode}/problems/find-number-of-ways-to-reach-the-k-th-stair/[LeetCode - 3154. Find Number of Ways to Reach the K-th Stair ^]
 
 You are given a *non-negative* integer `k`. There exists a staircase with an infinite number of stairs, with the *lowest* stair numbered 0.
 

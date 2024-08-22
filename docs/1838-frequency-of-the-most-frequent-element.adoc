@@ -1,7 +1,7 @@
 [#1838-frequency-of-the-most-frequent-element]
 = 1838. Frequency of the Most Frequent Element
 
-https://leetcode.com/problems/frequency-of-the-most-frequent-element/[LeetCode - 1838. Frequency of the Most Frequent Element ^]
+{leetcode}/problems/frequency-of-the-most-frequent-element/[LeetCode - 1838. Frequency of the Most Frequent Element ^]
 
 The *frequency* of an element is the number of times it occurs in an array.
 

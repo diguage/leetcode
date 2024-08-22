@@ -1,7 +1,7 @@
 [#2901-longest-unequal-adjacent-groups-subsequence-ii]
 = 2901. Longest Unequal Adjacent Groups Subsequence II
 
-https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/[LeetCode - 2901. Longest Unequal Adjacent Groups Subsequence II ^]
+{leetcode}/problems/longest-unequal-adjacent-groups-subsequence-ii/[LeetCode - 2901. Longest Unequal Adjacent Groups Subsequence II ^]
 
 You are given a string array `words`, and an array `groups`, both arrays having length `n`.
 

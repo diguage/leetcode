@@ -1,7 +1,7 @@
 [#2260-minimum-consecutive-cards-to-pick-up]
 = 2260. Minimum Consecutive Cards to Pick Up
 
-https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/[LeetCode - 2260. Minimum Consecutive Cards to Pick Up ^]
+{leetcode}/problems/minimum-consecutive-cards-to-pick-up/[LeetCode - 2260. Minimum Consecutive Cards to Pick Up ^]
 
 You are given an integer array `cards` where `cards[i]` represents the *value* of the `i^th^` card. A pair of cards are *matching* if the cards have the *same* value.
 

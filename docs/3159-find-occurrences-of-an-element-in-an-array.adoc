@@ -1,7 +1,7 @@
 [#3159-find-occurrences-of-an-element-in-an-array]
 = 3159. Find Occurrences of an Element in an Array
 
-https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/[LeetCode - 3159. Find Occurrences of an Element in an Array ^]
+{leetcode}/problems/find-occurrences-of-an-element-in-an-array/[LeetCode - 3159. Find Occurrences of an Element in an Array ^]
 
 You are given an integer array `nums`, an integer array `queries`, and an integer `x`.
 

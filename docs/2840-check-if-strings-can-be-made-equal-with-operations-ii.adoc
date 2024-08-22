@@ -1,7 +1,7 @@
 [#2840-check-if-strings-can-be-made-equal-with-operations-ii]
 = 2840. Check if Strings Can be Made Equal With Operations II
 
-https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/[LeetCode - 2840. Check if Strings Can be Made Equal With Operations II ^]
+{leetcode}/problems/check-if-strings-can-be-made-equal-with-operations-ii/[LeetCode - 2840. Check if Strings Can be Made Equal With Operations II ^]
 
 You are given two strings `s1` and `s2`, both of length `n`, consisting of *lowercase* English letters.
 

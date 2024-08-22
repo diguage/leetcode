@@ -1,7 +1,7 @@
 [#2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph]
 = 2316. Count Unreachable Pairs of Nodes in an Undirected Graph
 
-https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/[LeetCode - 2316. Count Unreachable Pairs of Nodes in an Undirected Graph ^]
+{leetcode}/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/[LeetCode - 2316. Count Unreachable Pairs of Nodes in an Undirected Graph ^]
 
 You are given an integer `n`. There is an *undirected* graph with `n` nodes, numbered from `0` to `n - 1`. You are given a 2D integer array `edges` where `edges[i] = [a<sub>i</sub>, b<sub>i</sub>]` denotes that there exists an *undirected* edge connecting nodes `a<sub>i</sub>` and `b<sub>i</sub>`.
 

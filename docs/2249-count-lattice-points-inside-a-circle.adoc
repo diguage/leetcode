@@ -1,7 +1,7 @@
 [#2249-count-lattice-points-inside-a-circle]
 = 2249. Count Lattice Points Inside a Circle
 
-https://leetcode.com/problems/count-lattice-points-inside-a-circle/[LeetCode - 2249. Count Lattice Points Inside a Circle ^]
+{leetcode}/problems/count-lattice-points-inside-a-circle/[LeetCode - 2249. Count Lattice Points Inside a Circle ^]
 
 Given a 2D integer array `circles` where `circles[i] = [x<sub>i</sub>, y<sub>i</sub>, r<sub>i</sub>]` represents the center `(x<sub>i</sub>, y<sub>i</sub>)` and radius `r<sub>i</sub>` of the `i^th^` circle drawn on a grid, return _the *number of lattice points* __that are present inside *at least one* circle_.
 

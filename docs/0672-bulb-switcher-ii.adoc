@@ -1,7 +1,7 @@
 [#0672-bulb-switcher-ii]
 = 672. Bulb Switcher II
 
-https://leetcode.com/problems/bulb-switcher-ii/[LeetCode - Bulb Switcher II^]
+{leetcode}/problems/bulb-switcher-ii/[LeetCode - Bulb Switcher II^]
 
 There is a room with `n` lights which are turned on initially and 4 buttons on the wall. After performing exactly `m` unknown operations towards buttons, you need to return how many different kinds of status of the `n` lights could be.
 

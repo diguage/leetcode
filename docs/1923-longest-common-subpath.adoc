@@ -1,7 +1,7 @@
 [#1923-longest-common-subpath]
 = 1923. Longest Common Subpath
 
-https://leetcode.com/problems/longest-common-subpath/[LeetCode - 1923. Longest Common Subpath ^]
+{leetcode}/problems/longest-common-subpath/[LeetCode - 1923. Longest Common Subpath ^]
 
 There is a country of `n` cities numbered from `0` to `n - 1`. In this country, there is a road connecting *every pair* of cities.
 

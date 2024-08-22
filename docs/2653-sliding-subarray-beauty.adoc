@@ -1,7 +1,7 @@
 [#2653-sliding-subarray-beauty]
 = 2653. Sliding Subarray Beauty
 
-https://leetcode.com/problems/sliding-subarray-beauty/[LeetCode - 2653. Sliding Subarray Beauty ^]
+{leetcode}/problems/sliding-subarray-beauty/[LeetCode - 2653. Sliding Subarray Beauty ^]
 
 Given an integer array `nums` containing `n` integers, find the *beauty* of each subarray of size `k`.
 

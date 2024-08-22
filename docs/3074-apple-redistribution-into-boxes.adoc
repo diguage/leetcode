@@ -1,7 +1,7 @@
 [#3074-apple-redistribution-into-boxes]
 = 3074. Apple Redistribution into Boxes
 
-https://leetcode.com/problems/apple-redistribution-into-boxes/[LeetCode - 3074. Apple Redistribution into Boxes ^]
+{leetcode}/problems/apple-redistribution-into-boxes/[LeetCode - 3074. Apple Redistribution into Boxes ^]
 
 You are given an array `apple` of size `n` and an array `capacity` of size `m`.
 

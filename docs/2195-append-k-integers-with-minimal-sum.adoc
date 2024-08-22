@@ -1,7 +1,7 @@
 [#2195-append-k-integers-with-minimal-sum]
 = 2195. Append K Integers With Minimal Sum
 
-https://leetcode.com/problems/append-k-integers-with-minimal-sum/[LeetCode - 2195. Append K Integers With Minimal Sum ^]
+{leetcode}/problems/append-k-integers-with-minimal-sum/[LeetCode - 2195. Append K Integers With Minimal Sum ^]
 
 You are given an integer array `nums` and an integer `k`. Append `k` *unique positive* integers that do *not* appear in `nums` to `nums` such that the resulting total sum is *minimum*.
 

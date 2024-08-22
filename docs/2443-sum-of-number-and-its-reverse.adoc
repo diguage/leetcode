@@ -1,7 +1,7 @@
 [#2443-sum-of-number-and-its-reverse]
 = 2443. Sum of Number and Its Reverse
 
-https://leetcode.com/problems/sum-of-number-and-its-reverse/[LeetCode - 2443. Sum of Number and Its Reverse ^]
+{leetcode}/problems/sum-of-number-and-its-reverse/[LeetCode - 2443. Sum of Number and Its Reverse ^]
 
 Given a *non-negative* integer `num`, return `true`_ if _`num`_ can be expressed as the sum of any *non-negative* integer and its reverse, or _`false`_ otherwise._
 

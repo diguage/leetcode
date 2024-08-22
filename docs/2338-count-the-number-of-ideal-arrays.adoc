@@ -1,7 +1,7 @@
 [#2338-count-the-number-of-ideal-arrays]
 = 2338. Count the Number of Ideal Arrays
 
-https://leetcode.com/problems/count-the-number-of-ideal-arrays/[LeetCode - 2338. Count the Number of Ideal Arrays ^]
+{leetcode}/problems/count-the-number-of-ideal-arrays/[LeetCode - 2338. Count the Number of Ideal Arrays ^]
 
 You are given two integers `n` and `maxValue`, which are used to describe an *ideal* array.
 

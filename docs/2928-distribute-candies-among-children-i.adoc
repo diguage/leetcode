@@ -1,7 +1,7 @@
 [#2928-distribute-candies-among-children-i]
 = 2928. Distribute Candies Among Children I
 
-https://leetcode.com/problems/distribute-candies-among-children-i/[LeetCode - 2928. Distribute Candies Among Children I ^]
+{leetcode}/problems/distribute-candies-among-children-i/[LeetCode - 2928. Distribute Candies Among Children I ^]
 
 You are given two positive integers `n` and `limit`.
 

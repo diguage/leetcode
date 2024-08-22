@@ -1,7 +1,7 @@
 [#2348-number-of-zero-filled-subarrays]
 = 2348. Number of Zero-Filled Subarrays
 
-https://leetcode.com/problems/number-of-zero-filled-subarrays/[LeetCode - 2348. Number of Zero-Filled Subarrays ^]
+{leetcode}/problems/number-of-zero-filled-subarrays/[LeetCode - 2348. Number of Zero-Filled Subarrays ^]
 
 Given an integer array `nums`, return _the number of *subarrays* filled with _`0`.
 

@@ -1,7 +1,7 @@
 [#2790-maximum-number-of-groups-with-increasing-length]
 = 2790. Maximum Number of Groups With Increasing Length
 
-https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length/[LeetCode - 2790. Maximum Number of Groups With Increasing Length ^]
+{leetcode}/problems/maximum-number-of-groups-with-increasing-length/[LeetCode - 2790. Maximum Number of Groups With Increasing Length ^]
 
 You are given a *0-indexed* array `usageLimits` of length `n`.
 

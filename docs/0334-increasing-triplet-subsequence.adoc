@@ -1,7 +1,7 @@
 [#0334-increasing-triplet-subsequence]
 = 334. Increasing Triplet Subsequence
 
-https://leetcode.com/problems/increasing-triplet-subsequence/[LeetCode - Increasing Triplet Subsequence^]
+{leetcode}/problems/increasing-triplet-subsequence/[LeetCode - Increasing Triplet Subsequence^]
 
 这道题可以使用 xref:0300-longest-increasing-subsequence.adoc[300. Longest Increasing Subsequence] 的思路来解决。具体思路分析可以看 https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/zui-chang-shang-sheng-zi-xu-lie-dong-tai-gui-hua-2/[最长上升子序列（动态规划 + 二分查找，清晰图解） - 最长上升子序列 - 力扣（LeetCode）^]。
 

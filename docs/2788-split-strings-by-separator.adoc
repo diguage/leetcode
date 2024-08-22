@@ -1,7 +1,7 @@
 [#2788-split-strings-by-separator]
 = 2788. Split Strings by Separator
 
-https://leetcode.com/problems/split-strings-by-separator/[LeetCode - 2788. Split Strings by Separator ^]
+{leetcode}/problems/split-strings-by-separator/[LeetCode - 2788. Split Strings by Separator ^]
 
 Given an array of strings `words` and a character `separator`, *split* each string in `words` by `separator`.
 

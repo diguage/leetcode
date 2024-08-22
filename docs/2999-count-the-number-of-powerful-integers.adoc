@@ -1,7 +1,7 @@
 [#2999-count-the-number-of-powerful-integers]
 = 2999. Count the Number of Powerful Integers
 
-https://leetcode.com/problems/count-the-number-of-powerful-integers/[LeetCode - 2999. Count the Number of Powerful Integers ^]
+{leetcode}/problems/count-the-number-of-powerful-integers/[LeetCode - 2999. Count the Number of Powerful Integers ^]
 
 You are given three integers `start`, `finish`, and `limit`. You are also given a *0-indexed* string `s` representing a *positive* integer.
 

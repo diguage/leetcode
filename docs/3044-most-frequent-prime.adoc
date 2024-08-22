@@ -1,7 +1,7 @@
 [#3044-most-frequent-prime]
 = 3044. Most Frequent Prime
 
-https://leetcode.com/problems/most-frequent-prime/[LeetCode - 3044. Most Frequent Prime ^]
+{leetcode}/problems/most-frequent-prime/[LeetCode - 3044. Most Frequent Prime ^]
 
 You are given a `m x n` *0-indexed *2D* *matrix `mat`. From every cell, you can create numbers in the following way:
 

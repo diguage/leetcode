@@ -1,7 +1,7 @@
 [#2239-find-closest-number-to-zero]
 = 2239. Find Closest Number to Zero
 
-https://leetcode.com/problems/find-closest-number-to-zero/[LeetCode - 2239. Find Closest Number to Zero ^]
+{leetcode}/problems/find-closest-number-to-zero/[LeetCode - 2239. Find Closest Number to Zero ^]
 
 Given an integer array `nums` of size `n`, return _the number with the value *closest* to _`0`_ in _`nums`. If there are multiple answers, return _the number with the *largest* value_.
  

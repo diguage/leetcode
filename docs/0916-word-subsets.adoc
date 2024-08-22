@@ -1,7 +1,7 @@
 [#0916-word-subsets]
 = 916. Word Subsets
 
-https://leetcode.com/problems/word-subsets/[LeetCode - Word Subsets^]
+{leetcode}/problems/word-subsets/[LeetCode - Word Subsets^]
 
 We are given two arrays `A` and `B` of words.  Each word is a string of lowercase letters.
 

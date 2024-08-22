@@ -1,7 +1,7 @@
 [#3010-divide-an-array-into-subarrays-with-minimum-cost-i]
 = 3010. Divide an Array Into Subarrays With Minimum Cost I
 
-https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/[LeetCode - 3010. Divide an Array Into Subarrays With Minimum Cost I ^]
+{leetcode}/problems/divide-an-array-into-subarrays-with-minimum-cost-i/[LeetCode - 3010. Divide an Array Into Subarrays With Minimum Cost I ^]
 
 You are given an array of integers `nums` of length `n`.
 

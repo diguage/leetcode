@@ -1,7 +1,7 @@
 [#2863-maximum-length-of-semi-decreasing-subarrays]
 = 2863. Maximum Length of Semi-Decreasing Subarrays
 
-https://leetcode.com/problems/maximum-length-of-semi-decreasing-subarrays/[LeetCode - 2863. Maximum Length of Semi-Decreasing Subarrays ^]
+{leetcode}/problems/maximum-length-of-semi-decreasing-subarrays/[LeetCode - 2863. Maximum Length of Semi-Decreasing Subarrays ^]
 
 
 

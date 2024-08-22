@@ -1,7 +1,7 @@
 [#2365-task-scheduler-ii]
 = 2365. Task Scheduler II
 
-https://leetcode.com/problems/task-scheduler-ii/[LeetCode - 2365. Task Scheduler II ^]
+{leetcode}/problems/task-scheduler-ii/[LeetCode - 2365. Task Scheduler II ^]
 
 You are given a *0-indexed* array of positive integers `tasks`, representing tasks that need to be completed *in order*, where `tasks[i]` represents the *type* of the `i^th^` task.
 

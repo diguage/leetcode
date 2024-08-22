@@ -1,7 +1,7 @@
 [#2245-maximum-trailing-zeros-in-a-cornered-path]
 = 2245. Maximum Trailing Zeros in a Cornered Path
 
-https://leetcode.com/problems/maximum-trailing-zeros-in-a-cornered-path/[LeetCode - 2245. Maximum Trailing Zeros in a Cornered Path ^]
+{leetcode}/problems/maximum-trailing-zeros-in-a-cornered-path/[LeetCode - 2245. Maximum Trailing Zeros in a Cornered Path ^]
 
 You are given a 2D integer array `grid` of size `m x n`, where each cell contains a positive integer.
 

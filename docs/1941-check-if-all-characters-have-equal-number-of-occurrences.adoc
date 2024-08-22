@@ -1,7 +1,7 @@
 [#1941-check-if-all-characters-have-equal-number-of-occurrences]
 = 1941. Check if All Characters Have Equal Number of Occurrences
 
-https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/[LeetCode - 1941. Check if All Characters Have Equal Number of Occurrences ^]
+{leetcode}/problems/check-if-all-characters-have-equal-number-of-occurrences/[LeetCode - 1941. Check if All Characters Have Equal Number of Occurrences ^]
 
 Given a string `s`, return `true`_ if _`s`_ is a *good* string, or _`false`_ otherwise_.
 

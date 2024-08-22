@@ -1,7 +1,7 @@
 [#0678-valid-parenthesis-string]
 = 678. Valid Parenthesis String
 
-https://leetcode.com/problems/valid-parenthesis-string/[LeetCode - Valid Parenthesis String^]
+{leetcode}/problems/valid-parenthesis-string/[LeetCode - Valid Parenthesis String^]
 
 
 Given a string containing only three types of characters: '(', ')' and '*', write a function to check whether this string is valid. We define the validity of a string by these rules:

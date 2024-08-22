@@ -1,7 +1,7 @@
 [#2136-earliest-possible-day-of-full-bloom]
 = 2136. Earliest Possible Day of Full Bloom
 
-https://leetcode.com/problems/earliest-possible-day-of-full-bloom/[LeetCode - 2136. Earliest Possible Day of Full Bloom ^]
+{leetcode}/problems/earliest-possible-day-of-full-bloom/[LeetCode - 2136. Earliest Possible Day of Full Bloom ^]
 
 You have `n` flower seeds. Every seed must be planted first before it can begin to grow, then bloom. Planting a seed takes time and so does the growth of a seed. You are given two *0-indexed* integer arrays `plantTime` and `growTime`, of length `n` each:
 

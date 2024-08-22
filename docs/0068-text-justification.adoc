@@ -1,7 +1,7 @@
 [#0068-text-justification]
 = 68. Text Justification
 
-https://leetcode.com/problems/text-justification/[LeetCode - Text Justification^]
+{leetcode}/problems/text-justification/[LeetCode - Text Justification^]
 
 Given an array of words and a width _maxWidth_, format the text such that each line has exactly _maxWidth_ characters and is fully (left and right) justified.
 

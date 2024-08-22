@@ -1,7 +1,7 @@
 [#2054-two-best-non-overlapping-events]
 = 2054. Two Best Non-Overlapping Events
 
-https://leetcode.com/problems/two-best-non-overlapping-events/[LeetCode - 2054. Two Best Non-Overlapping Events ^]
+{leetcode}/problems/two-best-non-overlapping-events/[LeetCode - 2054. Two Best Non-Overlapping Events ^]
 
 You are given a *0-indexed* 2D integer array of `events` where `events[i] = [startTime<sub>i</sub>, endTime<sub>i</sub>, value<sub>i</sub>]`. The `i^th^` event starts at `startTime<sub>i</sub>`<sub> </sub>and ends at `endTime<sub>i</sub>`, and if you attend this event, you will receive a value of `value<sub>i</sub>`. You can choose *at most* *two* *non-overlapping* events to attend such that the sum of their values is *maximized*.
 

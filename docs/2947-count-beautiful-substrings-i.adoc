@@ -1,7 +1,7 @@
 [#2947-count-beautiful-substrings-i]
 = 2947. Count Beautiful Substrings I
 
-https://leetcode.com/problems/count-beautiful-substrings-i/[LeetCode - 2947. Count Beautiful Substrings I ^]
+{leetcode}/problems/count-beautiful-substrings-i/[LeetCode - 2947. Count Beautiful Substrings I ^]
 
 You are given a string `s` and a positive integer `k`.
 

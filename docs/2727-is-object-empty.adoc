@@ -1,7 +1,7 @@
 [#2727-is-object-empty]
 = 2727. Is Object Empty
 
-https://leetcode.com/problems/is-object-empty/[LeetCode - 2727. Is Object Empty ^]
+{leetcode}/problems/is-object-empty/[LeetCode - 2727. Is Object Empty ^]
 
 Given an object or an array, return if it is empty.
 

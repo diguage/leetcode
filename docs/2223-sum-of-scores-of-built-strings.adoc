@@ -1,7 +1,7 @@
 [#2223-sum-of-scores-of-built-strings]
 = 2223. Sum of Scores of Built Strings
 
-https://leetcode.com/problems/sum-of-scores-of-built-strings/[LeetCode - 2223. Sum of Scores of Built Strings ^]
+{leetcode}/problems/sum-of-scores-of-built-strings/[LeetCode - 2223. Sum of Scores of Built Strings ^]
 
 You are *building* a string `s` of length `n` *one* character at a time, *prepending* each new character to the *front* of the string. The strings are labeled from `1` to `n`, where the string with length `i` is labeled `s<sub>i</sub>`.
 

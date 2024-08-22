@@ -1,7 +1,7 @@
 [#2973-find-number-of-coins-to-place-in-tree-nodes]
 = 2973. Find Number of Coins to Place in Tree Nodes
 
-https://leetcode.com/problems/find-number-of-coins-to-place-in-tree-nodes/[LeetCode - 2973. Find Number of Coins to Place in Tree Nodes ^]
+{leetcode}/problems/find-number-of-coins-to-place-in-tree-nodes/[LeetCode - 2973. Find Number of Coins to Place in Tree Nodes ^]
 
 You are given an *undirected* tree with `n` nodes labeled from `0` to `n - 1`, and rooted at node `0`. You are given a 2D integer array `edges` of length `n - 1`, where `edges[i] = [a<sub>i</sub>, b<sub>i</sub>]` indicates that there is an edge between nodes `a<sub>i</sub>` and `b<sub>i</sub>` in the tree.
 

@@ -1,7 +1,7 @@
 [#2273-find-resultant-array-after-removing-anagrams]
 = 2273. Find Resultant Array After Removing Anagrams
 
-https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/[LeetCode - 2273. Find Resultant Array After Removing Anagrams ^]
+{leetcode}/problems/find-resultant-array-after-removing-anagrams/[LeetCode - 2273. Find Resultant Array After Removing Anagrams ^]
 
 You are given a *0-indexed* string array `words`, where `words[i]` consists of lowercase English letters.
 

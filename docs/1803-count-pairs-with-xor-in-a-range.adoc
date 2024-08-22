@@ -1,7 +1,7 @@
 [#1803-count-pairs-with-xor-in-a-range]
 = 1803. Count Pairs With XOR in a Range
 
-https://leetcode.com/problems/count-pairs-with-xor-in-a-range/[LeetCode - 1803. Count Pairs With XOR in a Range ^]
+{leetcode}/problems/count-pairs-with-xor-in-a-range/[LeetCode - 1803. Count Pairs With XOR in a Range ^]
 
 Given a *(0-indexed)* integer array `nums` and two integers `low` and `high`, return _the number of *nice pairs*_.
 

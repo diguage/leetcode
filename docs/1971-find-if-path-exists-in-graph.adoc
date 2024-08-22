@@ -1,7 +1,7 @@
 [#1971-find-if-path-exists-in-graph]
 = 1971. Find if Path Exists in Graph
 
-https://leetcode.com/problems/find-if-path-exists-in-graph/[LeetCode - 1971. Find if Path Exists in Graph ^]
+{leetcode}/problems/find-if-path-exists-in-graph/[LeetCode - 1971. Find if Path Exists in Graph ^]
 
 There is a *bi-directional* graph with `n` vertices, where each vertex is labeled from `0` to `n - 1` (*inclusive*). The edges in the graph are represented as a 2D integer array `edges`, where each `edges[i] = [u<sub>i</sub>, v<sub>i</sub>]` denotes a bi-directional edge between vertex `u<sub>i</sub>` and vertex `v<sub>i</sub>`. Every vertex pair is connected by *at most one* edge, and no vertex has an edge to itself.
 

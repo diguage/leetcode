@@ -1,7 +1,7 @@
 [#2954-count-the-number-of-infection-sequences]
 = 2954. Count the Number of Infection Sequences
 
-https://leetcode.com/problems/count-the-number-of-infection-sequences/[LeetCode - 2954. Count the Number of Infection Sequences ^]
+{leetcode}/problems/count-the-number-of-infection-sequences/[LeetCode - 2954. Count the Number of Infection Sequences ^]
 
 You are given an integer `n` and an array `sick` sorted in increasing order, representing positions of infected people in a line of `n` people.
 

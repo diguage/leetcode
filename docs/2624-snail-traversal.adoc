@@ -1,7 +1,7 @@
 [#2624-snail-traversal]
 = 2624. Snail Traversal
 
-https://leetcode.com/problems/snail-traversal/[LeetCode - 2624. Snail Traversal ^]
+{leetcode}/problems/snail-traversal/[LeetCode - 2624. Snail Traversal ^]
 
 Write code that enhances all arrays such that you can call the `snail(rowsCount, colsCount)` method that transforms the 1D array into a 2D array organised in the pattern known as *snail traversal order*. Invalid input values should output an empty array. If `rowsCount * colsCount !== nums.length`, the input is considered invalid.
 

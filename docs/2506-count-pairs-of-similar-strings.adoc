@@ -1,7 +1,7 @@
 [#2506-count-pairs-of-similar-strings]
 = 2506. Count Pairs Of Similar Strings
 
-https://leetcode.com/problems/count-pairs-of-similar-strings/[LeetCode - 2506. Count Pairs Of Similar Strings ^]
+{leetcode}/problems/count-pairs-of-similar-strings/[LeetCode - 2506. Count Pairs Of Similar Strings ^]
 
 You are given a *0-indexed* string array `words`.
 

@@ -1,7 +1,7 @@
 [#1341-movie-rating]
 = 1341. Movie Rating
 
-https://leetcode.com/problems/movie-rating/[LeetCode - 1341. Movie Rating ^]
+{leetcode}/problems/movie-rating/[LeetCode - 1341. Movie Rating ^]
 
 Table: `Movies`
 

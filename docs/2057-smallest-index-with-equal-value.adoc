@@ -1,7 +1,7 @@
 [#2057-smallest-index-with-equal-value]
 = 2057. Smallest Index With Equal Value
 
-https://leetcode.com/problems/smallest-index-with-equal-value/[LeetCode - 2057. Smallest Index With Equal Value ^]
+{leetcode}/problems/smallest-index-with-equal-value/[LeetCode - 2057. Smallest Index With Equal Value ^]
 
 Given a *0-indexed* integer array `nums`, return _the *smallest* index _`i`_ of _`nums`_ such that _`i mod 10 == nums[i]`_, or _`-1`_ if such index does not exist_.
 

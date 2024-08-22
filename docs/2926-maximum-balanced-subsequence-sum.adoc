@@ -1,7 +1,7 @@
 [#2926-maximum-balanced-subsequence-sum]
 = 2926. Maximum Balanced Subsequence Sum
 
-https://leetcode.com/problems/maximum-balanced-subsequence-sum/[LeetCode - 2926. Maximum Balanced Subsequence Sum ^]
+{leetcode}/problems/maximum-balanced-subsequence-sum/[LeetCode - 2926. Maximum Balanced Subsequence Sum ^]
 
 You are given a *0-indexed* integer array `nums`.
 

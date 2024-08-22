@@ -1,7 +1,7 @@
 [#3233-find-the-count-of-numbers-which-are-not-special]
 = 3233. Find the Count of Numbers Which Are Not Special
 
-https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/[LeetCode - 3233. Find the Count of Numbers Which Are Not Special ^]
+{leetcode}/problems/find-the-count-of-numbers-which-are-not-special/[LeetCode - 3233. Find the Count of Numbers Which Are Not Special ^]
 
 You are given 2 *positive* integers `l` and `r`. For any number `x`, all positive divisors of `x` _except_ `x` are called the *proper divisors* of `x`.
 

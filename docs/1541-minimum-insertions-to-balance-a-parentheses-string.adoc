@@ -1,7 +1,7 @@
 [#1541-minimum-insertions-to-balance-a-parentheses-string]
 = 1541. Minimum Insertions to Balance a Parentheses String
 
-https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/[LeetCode - 1541. Minimum Insertions to Balance a Parentheses String ^]
+{leetcode}/problems/minimum-insertions-to-balance-a-parentheses-string/[LeetCode - 1541. Minimum Insertions to Balance a Parentheses String ^]
 
 Given a parentheses string `s` containing only the characters `'('` and `')'`. A parentheses string is *balanced* if:
 

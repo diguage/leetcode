@@ -1,7 +1,7 @@
 [#2046-sort-linked-list-already-sorted-using-absolute-values]
 = 2046. Sort Linked List Already Sorted Using Absolute Values
 
-https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/[LeetCode - 2046. Sort Linked List Already Sorted Using Absolute Values ^]
+{leetcode}/problems/sort-linked-list-already-sorted-using-absolute-values/[LeetCode - 2046. Sort Linked List Already Sorted Using Absolute Values ^]
 
 
 

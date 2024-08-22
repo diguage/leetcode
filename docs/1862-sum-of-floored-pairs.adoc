@@ -1,7 +1,7 @@
 [#1862-sum-of-floored-pairs]
 = 1862. Sum of Floored Pairs
 
-https://leetcode.com/problems/sum-of-floored-pairs/[LeetCode - 1862. Sum of Floored Pairs ^]
+{leetcode}/problems/sum-of-floored-pairs/[LeetCode - 1862. Sum of Floored Pairs ^]
 
 Given an integer array `nums`, return the sum of `floor(nums[i] / nums[j])` for all pairs of indices `0 <= i, j < nums.length` in the array. Since the answer may be too large, return it *modulo* `10^9^ + 7`.
 

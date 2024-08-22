@@ -1,7 +1,7 @@
 [#2851-string-transformation]
 = 2851. String Transformation
 
-https://leetcode.com/problems/string-transformation/[LeetCode - 2851. String Transformation ^]
+{leetcode}/problems/string-transformation/[LeetCode - 2851. String Transformation ^]
 
 You are given two strings `s` and `t` of equal length `n`. You can perform the following operation on the string `s`:
 

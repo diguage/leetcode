@@ -1,7 +1,7 @@
 [#2074-reverse-nodes-in-even-length-groups]
 = 2074. Reverse Nodes in Even Length Groups
 
-https://leetcode.com/problems/reverse-nodes-in-even-length-groups/[LeetCode - 2074. Reverse Nodes in Even Length Groups ^]
+{leetcode}/problems/reverse-nodes-in-even-length-groups/[LeetCode - 2074. Reverse Nodes in Even Length Groups ^]
 
 You are given the `head` of a linked list.
 

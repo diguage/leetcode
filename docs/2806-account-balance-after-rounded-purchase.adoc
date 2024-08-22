@@ -1,7 +1,7 @@
 [#2806-account-balance-after-rounded-purchase]
 = 2806. Account Balance After Rounded Purchase
 
-https://leetcode.com/problems/account-balance-after-rounded-purchase/[LeetCode - 2806. Account Balance After Rounded Purchase ^]
+{leetcode}/problems/account-balance-after-rounded-purchase/[LeetCode - 2806. Account Balance After Rounded Purchase ^]
 
 Initially, you have a bank account balance of *100* dollars.
 

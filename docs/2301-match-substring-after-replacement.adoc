@@ -1,7 +1,7 @@
 [#2301-match-substring-after-replacement]
 = 2301. Match Substring After Replacement
 
-https://leetcode.com/problems/match-substring-after-replacement/[LeetCode - 2301. Match Substring After Replacement ^]
+{leetcode}/problems/match-substring-after-replacement/[LeetCode - 2301. Match Substring After Replacement ^]
 
 You are given two strings `s` and `sub`. You are also given a 2D character array `mappings` where `mappings[i] = [old<sub>i</sub>, new<sub>i</sub>]` indicates that you may perform the following operation *any* number of times:
 

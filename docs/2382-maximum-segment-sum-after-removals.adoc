@@ -1,7 +1,7 @@
 [#2382-maximum-segment-sum-after-removals]
 = 2382. Maximum Segment Sum After Removals
 
-https://leetcode.com/problems/maximum-segment-sum-after-removals/[LeetCode - 2382. Maximum Segment Sum After Removals ^]
+{leetcode}/problems/maximum-segment-sum-after-removals/[LeetCode - 2382. Maximum Segment Sum After Removals ^]
 
 You are given two *0-indexed* integer arrays `nums` and `removeQueries`, both of length `n`. For the `i^th^` query, the element in `nums` at the index `removeQueries[i]` is removed, splitting `nums` into different segments.
 

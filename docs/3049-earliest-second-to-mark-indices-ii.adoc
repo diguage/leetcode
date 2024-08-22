@@ -1,7 +1,7 @@
 [#3049-earliest-second-to-mark-indices-ii]
 = 3049. Earliest Second to Mark Indices II
 
-https://leetcode.com/problems/earliest-second-to-mark-indices-ii/[LeetCode - 3049. Earliest Second to Mark Indices II ^]
+{leetcode}/problems/earliest-second-to-mark-indices-ii/[LeetCode - 3049. Earliest Second to Mark Indices II ^]
 
 You are given two *1-indexed* integer arrays, `nums` and, `changeIndices`, having lengths `n` and `m`, respectively.
 

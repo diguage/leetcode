@@ -1,7 +1,7 @@
 [#1358-number-of-substrings-containing-all-three-characters]
 = 1358. Number of Substrings Containing All Three Characters
 
-https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/[LeetCode - 1358. Number of Substrings Containing All Three Characters ^]
+{leetcode}/problems/number-of-substrings-containing-all-three-characters/[LeetCode - 1358. Number of Substrings Containing All Three Characters ^]
 
 Given a string `s` consisting only of characters _a_, _b_ and _c_.
 

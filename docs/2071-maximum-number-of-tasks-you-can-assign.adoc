@@ -1,7 +1,7 @@
 [#2071-maximum-number-of-tasks-you-can-assign]
 = 2071. Maximum Number of Tasks You Can Assign
 
-https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/[LeetCode - 2071. Maximum Number of Tasks You Can Assign ^]
+{leetcode}/problems/maximum-number-of-tasks-you-can-assign/[LeetCode - 2071. Maximum Number of Tasks You Can Assign ^]
 
 You have `n` tasks and `m` workers. Each task has a strength requirement stored in a *0-indexed* integer array `tasks`, with the `i^th^` task requiring `tasks[i]` strength to complete. The strength of each worker is stored in a *0-indexed* integer array `workers`, with the `j^th^` worker having `workers[j]` strength. Each worker can only be assigned to a *single* task and must have a strength *greater than or equal* to the task's strength requirement (i.e., `workers[j] >= tasks[i]`).
 

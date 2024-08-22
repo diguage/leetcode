@@ -1,7 +1,7 @@
 [#0940-distinct-subsequences-ii]
 = 940. Distinct Subsequences II
 
-https://leetcode.com/problems/distinct-subsequences-ii/[LeetCode - Distinct Subsequences II^]
+{leetcode}/problems/distinct-subsequences-ii/[LeetCode - Distinct Subsequences II^]
 
 Given a string `S`, count the number of distinct, non-empty subsequences of `S` .
 

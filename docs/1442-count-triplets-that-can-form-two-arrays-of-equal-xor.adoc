@@ -1,7 +1,7 @@
 [#1442-count-triplets-that-can-form-two-arrays-of-equal-xor]
 = 1442. Count Triplets That Can Form Two Arrays of Equal XOR
 
-https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/[LeetCode - 1442. Count Triplets That Can Form Two Arrays of Equal XOR ^]
+{leetcode}/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/[LeetCode - 1442. Count Triplets That Can Form Two Arrays of Equal XOR ^]
 
 Given an array of integers `arr`.
 

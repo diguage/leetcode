@@ -1,7 +1,7 @@
 [#2469-convert-the-temperature]
 = 2469. Convert the Temperature
 
-https://leetcode.com/problems/convert-the-temperature/[LeetCode - 2469. Convert the Temperature ^]
+{leetcode}/problems/convert-the-temperature/[LeetCode - 2469. Convert the Temperature ^]
 
 You are given a non-negative floating point number rounded to two decimal places `celsius`, that denotes the *temperature in Celsius*.
 

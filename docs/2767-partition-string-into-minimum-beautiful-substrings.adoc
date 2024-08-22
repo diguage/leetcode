@@ -1,7 +1,7 @@
 [#2767-partition-string-into-minimum-beautiful-substrings]
 = 2767. Partition String Into Minimum Beautiful Substrings
 
-https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/[LeetCode - 2767. Partition String Into Minimum Beautiful Substrings ^]
+{leetcode}/problems/partition-string-into-minimum-beautiful-substrings/[LeetCode - 2767. Partition String Into Minimum Beautiful Substrings ^]
 
 Given a binary string `s`, partition the string into one or more *substrings* such that each substring is *beautiful*.
 

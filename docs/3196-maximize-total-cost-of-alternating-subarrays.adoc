@@ -1,7 +1,7 @@
 [#3196-maximize-total-cost-of-alternating-subarrays]
 = 3196. Maximize Total Cost of Alternating Subarrays
 
-https://leetcode.com/problems/maximize-total-cost-of-alternating-subarrays/[LeetCode - 3196. Maximize Total Cost of Alternating Subarrays ^]
+{leetcode}/problems/maximize-total-cost-of-alternating-subarrays/[LeetCode - 3196. Maximize Total Cost of Alternating Subarrays ^]
 
 You are given an integer array `nums` with length `n`.
 

@@ -1,7 +1,7 @@
 [#1913-maximum-product-difference-between-two-pairs]
 = 1913. Maximum Product Difference Between Two Pairs
 
-https://leetcode.com/problems/maximum-product-difference-between-two-pairs/[LeetCode - 1913. Maximum Product Difference Between Two Pairs ^]
+{leetcode}/problems/maximum-product-difference-between-two-pairs/[LeetCode - 1913. Maximum Product Difference Between Two Pairs ^]
 
 The *product difference* between two pairs `(a, b)` and `(c, d)` is defined as `(a * b) - (c * d)`.
 

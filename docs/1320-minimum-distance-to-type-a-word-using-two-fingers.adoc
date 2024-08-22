@@ -1,7 +1,7 @@
 [#1320-minimum-distance-to-type-a-word-using-two-fingers]
 = 1320. Minimum Distance to Type a Word Using Two Fingers
 
-https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/[LeetCode - Minimum Distance to Type a Word Using Two Fingers^]
+{leetcode}/problems/minimum-distance-to-type-a-word-using-two-fingers/[LeetCode - Minimum Distance to Type a Word Using Two Fingers^]
 
 image::https://assets.leetcode.com/uploads/2020/01/02/leetcode_keyboard.png[{image_attr}]
 

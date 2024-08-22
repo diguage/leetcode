@@ -1,7 +1,7 @@
 [#1018-binary-prefix-divisible-by-5]
 = 1018. Binary Prefix Divisible By 5
 
-https://leetcode.com/problems/binary-prefix-divisible-by-5/[LeetCode - Binary Prefix Divisible By 5^]
+{leetcode}/problems/binary-prefix-divisible-by-5/[LeetCode - Binary Prefix Divisible By 5^]
 
 Given an array `A` of `0`s and `1`s, consider `N_i`: the i-th subarray from `A[0]` to `A[i]` interpreted as a binary number (from most-significant-bit to least-significant-bit.)
 

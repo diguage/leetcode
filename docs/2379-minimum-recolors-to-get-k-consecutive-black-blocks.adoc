@@ -1,7 +1,7 @@
 [#2379-minimum-recolors-to-get-k-consecutive-black-blocks]
 = 2379. Minimum Recolors to Get K Consecutive Black Blocks
 
-https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/[LeetCode - 2379. Minimum Recolors to Get K Consecutive Black Blocks ^]
+{leetcode}/problems/minimum-recolors-to-get-k-consecutive-black-blocks/[LeetCode - 2379. Minimum Recolors to Get K Consecutive Black Blocks ^]
 
 You are given a *0-indexed* string `blocks` of length `n`, where `blocks[i]` is either `'W'` or `'B'`, representing the color of the `i^th^` block. The characters `'W'` and `'B'` denote the colors white and black, respectively.
 

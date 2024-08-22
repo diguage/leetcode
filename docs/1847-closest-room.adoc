@@ -1,7 +1,7 @@
 [#1847-closest-room]
 = 1847. Closest Room
 
-https://leetcode.com/problems/closest-room/[LeetCode - 1847. Closest Room ^]
+{leetcode}/problems/closest-room/[LeetCode - 1847. Closest Room ^]
 
 There is a hotel with `n` rooms. The rooms are represented by a 2D integer array `rooms` where `rooms[i] = [roomId<sub>i</sub>, size<sub>i</sub>]` denotes that there is a room with room number `roomId<sub>i</sub>` and size equal to `size<sub>i</sub>`. Each `roomId<sub>i</sub>` is guaranteed to be *unique*.
 

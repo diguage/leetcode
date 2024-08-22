@@ -1,7 +1,7 @@
 [#1610-maximum-number-of-visible-points]
 = 1610. Maximum Number of Visible Points
 
-https://leetcode.com/problems/maximum-number-of-visible-points/[LeetCode - 1610. Maximum Number of Visible Points ^]
+{leetcode}/problems/maximum-number-of-visible-points/[LeetCode - 1610. Maximum Number of Visible Points ^]
 
 You are given an array `points`, an integer `angle`, and your `location`, where `location = [pos<sub>x</sub>, pos<sub>y</sub>]` and `points[i] = [x<sub>i</sub>, y<sub>i</sub>]` both denote *integral coordinates* on the X-Y plane.
 

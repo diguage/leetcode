@@ -1,7 +1,7 @@
 [#2393-count-strictly-increasing-subarrays]
 = 2393. Count Strictly Increasing Subarrays
 
-https://leetcode.com/problems/count-strictly-increasing-subarrays/[LeetCode - 2393. Count Strictly Increasing Subarrays ^]
+{leetcode}/problems/count-strictly-increasing-subarrays/[LeetCode - 2393. Count Strictly Increasing Subarrays ^]
 
 
 

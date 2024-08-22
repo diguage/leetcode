@@ -1,7 +1,7 @@
 [#2407-longest-increasing-subsequence-ii]
 = 2407. Longest Increasing Subsequence II
 
-https://leetcode.com/problems/longest-increasing-subsequence-ii/[LeetCode - 2407. Longest Increasing Subsequence II ^]
+{leetcode}/problems/longest-increasing-subsequence-ii/[LeetCode - 2407. Longest Increasing Subsequence II ^]
 
 You are given an integer array `nums` and an integer `k`.
 

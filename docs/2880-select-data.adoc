@@ -1,7 +1,7 @@
 [#2880-select-data]
 = 2880. Select Data
 
-https://leetcode.com/problems/select-data/[LeetCode - 2880. Select Data ^]
+{leetcode}/problems/select-data/[LeetCode - 2880. Select Data ^]
 
 [subs="verbatim,quotes"]
 ----

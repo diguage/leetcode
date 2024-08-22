@@ -1,7 +1,7 @@
 [#2253-dynamic-unpivoting-of-a-table]
 = 2253. Dynamic Unpivoting of a Table
 
-https://leetcode.com/problems/dynamic-unpivoting-of-a-table/[LeetCode - 2253. Dynamic Unpivoting of a Table ^]
+{leetcode}/problems/dynamic-unpivoting-of-a-table/[LeetCode - 2253. Dynamic Unpivoting of a Table ^]
 
 
 

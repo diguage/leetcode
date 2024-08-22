@@ -1,7 +1,7 @@
 [#2845-count-of-interesting-subarrays]
 = 2845. Count of Interesting Subarrays
 
-https://leetcode.com/problems/count-of-interesting-subarrays/[LeetCode - 2845. Count of Interesting Subarrays ^]
+{leetcode}/problems/count-of-interesting-subarrays/[LeetCode - 2845. Count of Interesting Subarrays ^]
 
 You are given a *0-indexed* integer array `nums`, an integer `modulo`, and an integer `k`.
 

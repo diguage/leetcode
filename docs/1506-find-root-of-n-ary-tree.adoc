@@ -1,7 +1,7 @@
 [#1506-find-root-of-n-ary-tree]
 = 1506. Find Root of N-Ary Tree
 
-https://leetcode.com/problems/find-root-of-n-ary-tree/[LeetCode - 1506. Find Root of N-Ary Tree ^]
+{leetcode}/problems/find-root-of-n-ary-tree/[LeetCode - 1506. Find Root of N-Ary Tree ^]
 
 
 

@@ -1,7 +1,7 @@
 [#2784-check-if-array-is-good]
 = 2784. Check if Array is Good
 
-https://leetcode.com/problems/check-if-array-is-good/[LeetCode - 2784. Check if Array is Good ^]
+{leetcode}/problems/check-if-array-is-good/[LeetCode - 2784. Check if Array is Good ^]
 
 You are given an integer array `nums`. We consider an array *good *if it is a permutation of an array `base[n]`.
 

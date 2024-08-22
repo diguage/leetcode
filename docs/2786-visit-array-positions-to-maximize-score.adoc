@@ -1,7 +1,7 @@
 [#2786-visit-array-positions-to-maximize-score]
 = 2786. Visit Array Positions to Maximize Score
 
-https://leetcode.com/problems/visit-array-positions-to-maximize-score/[LeetCode - 2786. Visit Array Positions to Maximize Score ^]
+{leetcode}/problems/visit-array-positions-to-maximize-score/[LeetCode - 2786. Visit Array Positions to Maximize Score ^]
 
 You are given a *0-indexed* integer array `nums` and a positive integer `x`.
 

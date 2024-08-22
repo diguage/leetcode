@@ -1,7 +1,7 @@
 [#0194-transpose-file]
 = 194. Transpose File
 
-https://leetcode.com/problems/transpose-file/[LeetCode - Transpose File^]
+{leetcode}/problems/transpose-file/[LeetCode - Transpose File^]
 
 Given a text file `file.txt`, transpose its content.
 

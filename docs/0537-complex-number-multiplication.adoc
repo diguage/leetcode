@@ -1,7 +1,7 @@
 [#0537-complex-number-multiplication]
 = 537. Complex Number Multiplication
 
-https://leetcode.com/problems/complex-number-multiplication/[LeetCode - Complex Number Multiplication^]
+{leetcode}/problems/complex-number-multiplication/[LeetCode - Complex Number Multiplication^]
 
 
 Given two strings representing two <a href = "https://en.wikipedia.org/wiki/Complex_number">complex numbers</a>.

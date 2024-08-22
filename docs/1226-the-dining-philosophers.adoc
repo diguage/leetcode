@@ -1,7 +1,7 @@
 [#1226-the-dining-philosophers]
 = 1226. The Dining Philosophers
 
-https://leetcode.com/problems/the-dining-philosophers/[LeetCode - The Dining Philosophers^]
+{leetcode}/problems/the-dining-philosophers/[LeetCode - The Dining Philosophers^]
 
 Five silent philosophers sit at a round table with bowls of spaghetti. Forks are placed between each pair of adjacent philosophers.
 

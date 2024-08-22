@@ -1,7 +1,7 @@
 [#2514-count-anagrams]
 = 2514. Count Anagrams
 
-https://leetcode.com/problems/count-anagrams/[LeetCode - 2514. Count Anagrams ^]
+{leetcode}/problems/count-anagrams/[LeetCode - 2514. Count Anagrams ^]
 
 You are given a string `s` containing one or more words. Every consecutive pair of words is separated by a single space `' '`.
 

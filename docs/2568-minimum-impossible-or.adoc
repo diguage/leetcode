@@ -1,7 +1,7 @@
 [#2568-minimum-impossible-or]
 = 2568. Minimum Impossible OR
 
-https://leetcode.com/problems/minimum-impossible-or/[LeetCode - 2568. Minimum Impossible OR ^]
+{leetcode}/problems/minimum-impossible-or/[LeetCode - 2568. Minimum Impossible OR ^]
 
 You are given a *0-indexed* integer array `nums`.
 

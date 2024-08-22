@@ -1,7 +1,7 @@
 [#1606-find-servers-that-handled-most-number-of-requests]
 = 1606. Find Servers That Handled Most Number of Requests
 
-https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/[LeetCode - 1606. Find Servers That Handled Most Number of Requests ^]
+{leetcode}/problems/find-servers-that-handled-most-number-of-requests/[LeetCode - 1606. Find Servers That Handled Most Number of Requests ^]
 
 You have `k` servers numbered from `0` to `k-1` that are being used to handle multiple requests simultaneously. Each server has infinite computational capacity but *cannot handle more than one request at a time*. The requests are assigned to servers according to a specific algorithm:
 

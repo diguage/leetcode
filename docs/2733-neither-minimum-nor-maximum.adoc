@@ -1,7 +1,7 @@
 [#2733-neither-minimum-nor-maximum]
 = 2733. Neither Minimum nor Maximum
 
-https://leetcode.com/problems/neither-minimum-nor-maximum/[LeetCode - 2733. Neither Minimum nor Maximum ^]
+{leetcode}/problems/neither-minimum-nor-maximum/[LeetCode - 2733. Neither Minimum nor Maximum ^]
 
 Given an integer array `nums` containing *distinct* *positive* integers, find and return *any* number from the array that is neither the *minimum* nor the *maximum* value in the array, or *`-1`* if there is no such number.
 

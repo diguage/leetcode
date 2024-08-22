@@ -1,7 +1,7 @@
 [#1994-the-number-of-good-subsets]
 = 1994. The Number of Good Subsets
 
-https://leetcode.com/problems/the-number-of-good-subsets/[LeetCode - 1994. The Number of Good Subsets ^]
+{leetcode}/problems/the-number-of-good-subsets/[LeetCode - 1994. The Number of Good Subsets ^]
 
 You are given an integer array `nums`. We call a subset of `nums` *good* if its product can be represented as a product of one or more *distinct prime* numbers.
 

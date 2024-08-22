@@ -1,7 +1,7 @@
 [#3024-type-of-triangle]
 = 3024. Type of Triangle
 
-https://leetcode.com/problems/type-of-triangle/[LeetCode - 3024. Type of Triangle ^]
+{leetcode}/problems/type-of-triangle/[LeetCode - 3024. Type of Triangle ^]
 
 You are given a *0-indexed* integer array `nums` of size `3` which can form the sides of a triangle.
 

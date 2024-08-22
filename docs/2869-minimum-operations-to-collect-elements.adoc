@@ -1,7 +1,7 @@
 [#2869-minimum-operations-to-collect-elements]
 = 2869. Minimum Operations to Collect Elements
 
-https://leetcode.com/problems/minimum-operations-to-collect-elements/[LeetCode - 2869. Minimum Operations to Collect Elements ^]
+{leetcode}/problems/minimum-operations-to-collect-elements/[LeetCode - 2869. Minimum Operations to Collect Elements ^]
 
 You are given an array `nums` of positive integers and an integer `k`.
 

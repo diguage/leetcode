@@ -1,7 +1,7 @@
 [#3135-equalize-strings-by-adding-or-removing-characters-at-ends]
 = 3135. Equalize Strings by Adding or Removing Characters at Ends
 
-https://leetcode.com/problems/equalize-strings-by-adding-or-removing-characters-at-ends/[LeetCode - 3135. Equalize Strings by Adding or Removing Characters at Ends ^]
+{leetcode}/problems/equalize-strings-by-adding-or-removing-characters-at-ends/[LeetCode - 3135. Equalize Strings by Adding or Removing Characters at Ends ^]
 
 
 

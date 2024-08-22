@@ -1,7 +1,7 @@
 [#1970-last-day-where-you-can-still-cross]
 = 1970. Last Day Where You Can Still Cross
 
-https://leetcode.com/problems/last-day-where-you-can-still-cross/[LeetCode - 1970. Last Day Where You Can Still Cross ^]
+{leetcode}/problems/last-day-where-you-can-still-cross/[LeetCode - 1970. Last Day Where You Can Still Cross ^]
 
 There is a *1-based* binary matrix where `0` represents land and `1` represents water. You are given integers `row` and `col` representing the number of rows and columns in the matrix, respectively.
 

@@ -1,7 +1,7 @@
 [#1138-alphabet-board-path]
 = 1138. Alphabet Board Path
 
-https://leetcode.com/problems/alphabet-board-path/[LeetCode - Alphabet Board Path^]
+{leetcode}/problems/alphabet-board-path/[LeetCode - Alphabet Board Path^]
 
 On an alphabet board, we start at position `(0, 0)`, corresponding to character `board[0][0]`.
 

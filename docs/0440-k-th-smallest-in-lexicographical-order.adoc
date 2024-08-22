@@ -1,7 +1,7 @@
 [#0440-k-th-smallest-in-lexicographical-order]
 = 440. K-th Smallest in Lexicographical Order
 
-https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/[LeetCode - K-th Smallest in Lexicographical Order^]
+{leetcode}/problems/k-th-smallest-in-lexicographical-order/[LeetCode - K-th Smallest in Lexicographical Order^]
 
 Given integers `n` and `k`, find the lexicographically k-th smallest integer in the range from `1` to `n`.
 

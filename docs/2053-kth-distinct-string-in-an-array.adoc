@@ -1,7 +1,7 @@
 [#2053-kth-distinct-string-in-an-array]
 = 2053. Kth Distinct String in an Array
 
-https://leetcode.com/problems/kth-distinct-string-in-an-array/[LeetCode - 2053. Kth Distinct String in an Array ^]
+{leetcode}/problems/kth-distinct-string-in-an-array/[LeetCode - 2053. Kth Distinct String in an Array ^]
 
 A *distinct string* is a string that is present only *once* in an array.
 

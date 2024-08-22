@@ -1,7 +1,7 @@
 [#2844-minimum-operations-to-make-a-special-number]
 = 2844. Minimum Operations to Make a Special Number
 
-https://leetcode.com/problems/minimum-operations-to-make-a-special-number/[LeetCode - 2844. Minimum Operations to Make a Special Number ^]
+{leetcode}/problems/minimum-operations-to-make-a-special-number/[LeetCode - 2844. Minimum Operations to Make a Special Number ^]
 
 You are given a *0-indexed* string `num` representing a non-negative integer.
 

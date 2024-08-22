@@ -1,7 +1,7 @@
 [#1968-array-with-elements-not-equal-to-average-of-neighbors]
 = 1968. Array With Elements Not Equal to Average of Neighbors
 
-https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/[LeetCode - 1968. Array With Elements Not Equal to Average of Neighbors ^]
+{leetcode}/problems/array-with-elements-not-equal-to-average-of-neighbors/[LeetCode - 1968. Array With Elements Not Equal to Average of Neighbors ^]
 
 You are given a *0-indexed* array `nums` of *distinct* integers. You want to rearrange the elements in the array such that every element in the rearranged array is *not* equal to the *average* of its neighbors.
 

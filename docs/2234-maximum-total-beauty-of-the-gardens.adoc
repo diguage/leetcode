@@ -1,7 +1,7 @@
 [#2234-maximum-total-beauty-of-the-gardens]
 = 2234. Maximum Total Beauty of the Gardens
 
-https://leetcode.com/problems/maximum-total-beauty-of-the-gardens/[LeetCode - 2234. Maximum Total Beauty of the Gardens ^]
+{leetcode}/problems/maximum-total-beauty-of-the-gardens/[LeetCode - 2234. Maximum Total Beauty of the Gardens ^]
 
 Alice is a caretaker of `n` gardens and she wants to plant flowers to maximize the total beauty of all her gardens.
 

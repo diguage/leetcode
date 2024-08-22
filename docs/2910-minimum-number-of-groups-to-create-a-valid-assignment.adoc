@@ -1,7 +1,7 @@
 [#2910-minimum-number-of-groups-to-create-a-valid-assignment]
 = 2910. Minimum Number of Groups to Create a Valid Assignment
 
-https://leetcode.com/problems/minimum-number-of-groups-to-create-a-valid-assignment/[LeetCode - 2910. Minimum Number of Groups to Create a Valid Assignment ^]
+{leetcode}/problems/minimum-number-of-groups-to-create-a-valid-assignment/[LeetCode - 2910. Minimum Number of Groups to Create a Valid Assignment ^]
 
 You are given a collection of numbered `balls` and instructed to sort them into boxes for a nearly balanced distribution. There are two rules you must follow:
 

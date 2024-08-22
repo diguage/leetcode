@@ -1,7 +1,7 @@
 [#2972-count-the-number-of-incremovable-subarrays-ii]
 = 2972. Count the Number of Incremovable Subarrays II
 
-https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-ii/[LeetCode - 2972. Count the Number of Incremovable Subarrays II ^]
+{leetcode}/problems/count-the-number-of-incremovable-subarrays-ii/[LeetCode - 2972. Count the Number of Incremovable Subarrays II ^]
 
 You are given a *0-indexed* array of *positive* integers `nums`.
 

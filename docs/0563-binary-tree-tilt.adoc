@@ -1,7 +1,7 @@
 [#0563-binary-tree-tilt]
 = 563. Binary Tree Tilt
 
-https://leetcode.com/problems/binary-tree-tilt/[LeetCode - Binary Tree Tilt^]
+{leetcode}/problems/binary-tree-tilt/[LeetCode - Binary Tree Tilt^]
 
 Given a binary tree, return the tilt of the *whole tree*.
 

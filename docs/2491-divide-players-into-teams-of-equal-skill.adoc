@@ -1,7 +1,7 @@
 [#2491-divide-players-into-teams-of-equal-skill]
 = 2491. Divide Players Into Teams of Equal Skill
 
-https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/[LeetCode - 2491. Divide Players Into Teams of Equal Skill ^]
+{leetcode}/problems/divide-players-into-teams-of-equal-skill/[LeetCode - 2491. Divide Players Into Teams of Equal Skill ^]
 
 You are given a positive integer array `skill` of *even* length `n` where `skill[i]` denotes the skill of the `i^th^` player. Divide the players into `n / 2` teams of size `2` such that the total skill of each team is *equal*.
 

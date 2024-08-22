@@ -1,7 +1,7 @@
 [#1637-widest-vertical-area-between-two-points-containing-no-points]
 = 1637. Widest Vertical Area Between Two Points Containing No Points
 
-https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/[LeetCode - 1637. Widest Vertical Area Between Two Points Containing No Points ^]
+{leetcode}/problems/widest-vertical-area-between-two-points-containing-no-points/[LeetCode - 1637. Widest Vertical Area Between Two Points Containing No Points ^]
 
 Given `n` `points` on a 2D plane where `points[i] = [x<sub>i</sub>, y<sub>i</sub>]`, Return_ the *widest vertical area* between two points such that no points are inside the area._
 

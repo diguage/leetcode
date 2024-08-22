@@ -1,7 +1,7 @@
 [#1963-minimum-number-of-swaps-to-make-the-string-balanced]
 = 1963. Minimum Number of Swaps to Make the String Balanced
 
-https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/[LeetCode - 1963. Minimum Number of Swaps to Make the String Balanced ^]
+{leetcode}/problems/minimum-number-of-swaps-to-make-the-string-balanced/[LeetCode - 1963. Minimum Number of Swaps to Make the String Balanced ^]
 
 You are given a *0-indexed* string `s` of *even* length `n`. The string consists of *exactly* `n / 2` opening brackets `'['` and `n / 2` closing brackets `']'`.
 

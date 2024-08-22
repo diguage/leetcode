@@ -1,7 +1,7 @@
 [#1796-second-largest-digit-in-a-string]
 = 1796. Second Largest Digit in a String
 
-https://leetcode.com/problems/second-largest-digit-in-a-string/[LeetCode - 1796. Second Largest Digit in a String ^]
+{leetcode}/problems/second-largest-digit-in-a-string/[LeetCode - 1796. Second Largest Digit in a String ^]
 
 Given an alphanumeric string `s`, return _the *second largest* numerical digit that appears in _`s`_, or _`-1`_ if it does not exist_.
 

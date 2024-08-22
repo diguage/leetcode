@@ -1,7 +1,7 @@
 [#2489-number-of-substrings-with-fixed-ratio]
 = 2489. Number of Substrings With Fixed Ratio
 
-https://leetcode.com/problems/number-of-substrings-with-fixed-ratio/[LeetCode - 2489. Number of Substrings With Fixed Ratio ^]
+{leetcode}/problems/number-of-substrings-with-fixed-ratio/[LeetCode - 2489. Number of Substrings With Fixed Ratio ^]
 
 
 

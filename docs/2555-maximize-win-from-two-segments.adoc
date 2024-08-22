@@ -1,7 +1,7 @@
 [#2555-maximize-win-from-two-segments]
 = 2555. Maximize Win From Two Segments
 
-https://leetcode.com/problems/maximize-win-from-two-segments/[LeetCode - 2555. Maximize Win From Two Segments ^]
+{leetcode}/problems/maximize-win-from-two-segments/[LeetCode - 2555. Maximize Win From Two Segments ^]
 
 There are some prizes on the *X-axis*. You are given an integer array `prizePositions` that is *sorted in non-decreasing order*, where `prizePositions[i]` is the position of the `i^th^` prize. There could be different prizes at the same position on the line. You are also given an integer `k`.
 

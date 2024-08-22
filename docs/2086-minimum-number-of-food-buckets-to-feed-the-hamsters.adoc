@@ -1,7 +1,7 @@
 [#2086-minimum-number-of-food-buckets-to-feed-the-hamsters]
 = 2086. Minimum Number of Food Buckets to Feed the Hamsters
 
-https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters/[LeetCode - 2086. Minimum Number of Food Buckets to Feed the Hamsters ^]
+{leetcode}/problems/minimum-number-of-food-buckets-to-feed-the-hamsters/[LeetCode - 2086. Minimum Number of Food Buckets to Feed the Hamsters ^]
 
 You are given a *0-indexed* string `hamsters` where `hamsters[i]` is either:
 

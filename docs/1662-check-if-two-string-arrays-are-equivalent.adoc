@@ -1,7 +1,7 @@
 [#1662-check-if-two-string-arrays-are-equivalent]
 = 1662. Check If Two String Arrays are Equivalent
 
-https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/[LeetCode - 1662. Check If Two String Arrays are Equivalent ^]
+{leetcode}/problems/check-if-two-string-arrays-are-equivalent/[LeetCode - 1662. Check If Two String Arrays are Equivalent ^]
 
 Given two string arrays `word1` and `word2`, return_ _`true`_ if the two arrays *represent* the same string, and _`false`_ otherwise._
 

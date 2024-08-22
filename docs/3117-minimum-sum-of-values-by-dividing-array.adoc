@@ -1,7 +1,7 @@
 [#3117-minimum-sum-of-values-by-dividing-array]
 = 3117. Minimum Sum of Values by Dividing Array
 
-https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/[LeetCode - 3117. Minimum Sum of Values by Dividing Array ^]
+{leetcode}/problems/minimum-sum-of-values-by-dividing-array/[LeetCode - 3117. Minimum Sum of Values by Dividing Array ^]
 
 You are given two arrays `nums` and `andValues` of length `n` and `m` respectively.
 

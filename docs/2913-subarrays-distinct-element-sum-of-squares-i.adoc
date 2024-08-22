@@ -1,7 +1,7 @@
 [#2913-subarrays-distinct-element-sum-of-squares-i]
 = 2913. Subarrays Distinct Element Sum of Squares I
 
-https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/[LeetCode - 2913. Subarrays Distinct Element Sum of Squares I ^]
+{leetcode}/problems/subarrays-distinct-element-sum-of-squares-i/[LeetCode - 2913. Subarrays Distinct Element Sum of Squares I ^]
 
 You are given a *0-indexed *integer array `nums`.
 

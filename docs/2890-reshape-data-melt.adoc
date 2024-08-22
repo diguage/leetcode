@@ -1,7 +1,7 @@
 [#2890-reshape-data-melt]
 = 2890. Reshape Data: Melt
 
-https://leetcode.com/problems/reshape-data-melt/[LeetCode - 2890. Reshape Data: Melt ^]
+{leetcode}/problems/reshape-data-melt/[LeetCode - 2890. Reshape Data: Melt ^]
 
 [subs="verbatim,quotes"]
 ----

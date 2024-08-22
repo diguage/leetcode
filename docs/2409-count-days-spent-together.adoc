@@ -1,7 +1,7 @@
 [#2409-count-days-spent-together]
 = 2409. Count Days Spent Together
 
-https://leetcode.com/problems/count-days-spent-together/[LeetCode - 2409. Count Days Spent Together ^]
+{leetcode}/problems/count-days-spent-together/[LeetCode - 2409. Count Days Spent Together ^]
 
 Alice and Bob are traveling to Rome for separate business meetings.
 

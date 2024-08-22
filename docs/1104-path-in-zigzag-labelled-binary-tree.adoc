@@ -1,7 +1,7 @@
 [#1104-path-in-zigzag-labelled-binary-tree]
 = 1104. Path In Zigzag Labelled Binary Tree
 
-https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/[LeetCode - Path In Zigzag Labelled Binary Tree^]
+{leetcode}/problems/path-in-zigzag-labelled-binary-tree/[LeetCode - Path In Zigzag Labelled Binary Tree^]
 
 In an infinite binary tree where every node has two children, the nodes are labelled in row order.
 

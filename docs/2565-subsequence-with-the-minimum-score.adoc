@@ -1,7 +1,7 @@
 [#2565-subsequence-with-the-minimum-score]
 = 2565. Subsequence With the Minimum Score
 
-https://leetcode.com/problems/subsequence-with-the-minimum-score/[LeetCode - 2565. Subsequence With the Minimum Score ^]
+{leetcode}/problems/subsequence-with-the-minimum-score/[LeetCode - 2565. Subsequence With the Minimum Score ^]
 
 You are given two strings `s` and `t`.
 

@@ -1,7 +1,7 @@
 [#1512-number-of-good-pairs]
 = 1512. Number of Good Pairs
 
-https://leetcode.com/problems/number-of-good-pairs/[LeetCode - 1512. Number of Good Pairs ^]
+{leetcode}/problems/number-of-good-pairs/[LeetCode - 1512. Number of Good Pairs ^]
 
 Given an array of integers `nums`, return _the number of *good pairs*_.
 

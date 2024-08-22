@@ -1,7 +1,7 @@
 [#3084-count-substrings-starting-and-ending-with-given-character]
 = 3084. Count Substrings Starting and Ending with Given Character
 
-https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/[LeetCode - 3084. Count Substrings Starting and Ending with Given Character ^]
+{leetcode}/problems/count-substrings-starting-and-ending-with-given-character/[LeetCode - 3084. Count Substrings Starting and Ending with Given Character ^]
 
 You are given a string `s` and a character `c`. Return _the total number of <span data-keyword="substring-nonempty">substrings of _`s`_ that start and end with _`c`_._
 

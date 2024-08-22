@@ -1,7 +1,7 @@
 [#1524-number-of-sub-arrays-with-odd-sum]
 = 1524. Number of Sub-arrays With Odd Sum
 
-https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/[LeetCode - 1524. Number of Sub-arrays With Odd Sum ^]
+{leetcode}/problems/number-of-sub-arrays-with-odd-sum/[LeetCode - 1524. Number of Sub-arrays With Odd Sum ^]
 
 Given an array of integers `arr`, return _the number of subarrays with an *odd* sum_.
 

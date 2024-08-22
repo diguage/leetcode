@@ -1,7 +1,7 @@
 [#1840-maximum-building-height]
 = 1840. Maximum Building Height
 
-https://leetcode.com/problems/maximum-building-height/[LeetCode - 1840. Maximum Building Height ^]
+{leetcode}/problems/maximum-building-height/[LeetCode - 1840. Maximum Building Height ^]
 
 You want to build `n` new buildings in a city. The new buildings will be built in a line and are labeled from `1` to `n`.
 

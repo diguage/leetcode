@@ -1,7 +1,7 @@
 [#0202-happy-number]
 = 202. Happy Number
 
-https://leetcode.com/problems/happy-number/[LeetCode - Happy Number^]
+{leetcode}/problems/happy-number/[LeetCode - Happy Number^]
 
 竟然可以使用"双指针"，类似判断链表中是否有环的思路！妙！
 

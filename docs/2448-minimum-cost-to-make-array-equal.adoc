@@ -1,7 +1,7 @@
 [#2448-minimum-cost-to-make-array-equal]
 = 2448. Minimum Cost to Make Array Equal
 
-https://leetcode.com/problems/minimum-cost-to-make-array-equal/[LeetCode - 2448. Minimum Cost to Make Array Equal ^]
+{leetcode}/problems/minimum-cost-to-make-array-equal/[LeetCode - 2448. Minimum Cost to Make Array Equal ^]
 
 You are given two *0-indexed* arrays `nums` and `cost` consisting each of `n` *positive* integers.
 

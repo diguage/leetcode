@@ -1,13 +1,13 @@
 [#0535-encode-and-decode-tinyurl]
 = 535. Encode and Decode TinyURL
 
-https://leetcode.com/problems/encode-and-decode-tinyurl/[LeetCode - Encode and Decode TinyURL^]
+{leetcode}/problems/encode-and-decode-tinyurl/[LeetCode - Encode and Decode TinyURL^]
 
 ****
 Note: This is a companion problem to the https://leetcode.com/discuss/interview-question/system-design/[System Design] problem: https://leetcode.com/discuss/interview-question/124658/Design-a-URL-Shortener-(-TinyURL-)-System/[Design TinyURL^].
 ****
 
-TinyURL is a URL shortening service where you enter a URL such as `https://leetcode.com/problems/design-tinyurl` and it returns a short URL such as `http://tinyurl.com/4e9iAk`.
+TinyURL is a URL shortening service where you enter a URL such as `{leetcode}/problems/design-tinyurl` and it returns a short URL such as `http://tinyurl.com/4e9iAk`.
 
 Design the `encode` and `decode` methods for the TinyURL service. There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.
 

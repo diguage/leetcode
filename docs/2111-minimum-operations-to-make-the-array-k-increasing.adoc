@@ -1,7 +1,7 @@
 [#2111-minimum-operations-to-make-the-array-k-increasing]
 = 2111. Minimum Operations to Make the Array K-Increasing
 
-https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/[LeetCode - 2111. Minimum Operations to Make the Array K-Increasing ^]
+{leetcode}/problems/minimum-operations-to-make-the-array-k-increasing/[LeetCode - 2111. Minimum Operations to Make the Array K-Increasing ^]
 
 You are given a *0-indexed* array `arr` consisting of `n` positive integers, and a positive integer `k`.
 

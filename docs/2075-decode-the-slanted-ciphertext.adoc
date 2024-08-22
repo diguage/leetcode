@@ -1,7 +1,7 @@
 [#2075-decode-the-slanted-ciphertext]
 = 2075. Decode the Slanted Ciphertext
 
-https://leetcode.com/problems/decode-the-slanted-ciphertext/[LeetCode - 2075. Decode the Slanted Ciphertext ^]
+{leetcode}/problems/decode-the-slanted-ciphertext/[LeetCode - 2075. Decode the Slanted Ciphertext ^]
 
 A string `originalText` is encoded using a *slanted transposition cipher* to a string `encodedText` with the help of a matrix having a *fixed number of rows* `rows`.
 

@@ -1,7 +1,7 @@
 [#2695-array-wrapper]
 = 2695. Array Wrapper
 
-https://leetcode.com/problems/array-wrapper/[LeetCode - 2695. Array Wrapper ^]
+{leetcode}/problems/array-wrapper/[LeetCode - 2695. Array Wrapper ^]
 
 Create a class `ArrayWrapper` that accepts an array of integers in its constructor. This class should have two features:
 

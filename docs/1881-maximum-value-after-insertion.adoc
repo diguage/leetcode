@@ -1,7 +1,7 @@
 [#1881-maximum-value-after-insertion]
 = 1881. Maximum Value after Insertion
 
-https://leetcode.com/problems/maximum-value-after-insertion/[LeetCode - 1881. Maximum Value after Insertion ^]
+{leetcode}/problems/maximum-value-after-insertion/[LeetCode - 1881. Maximum Value after Insertion ^]
 
 You are given a very large integer `n`, represented as a string,​​​​​​ and an integer digit `x`. The digits in `n` and the digit `x` are in the *inclusive* range `[1, 9]`, and `n` may represent a *negative* number.
 

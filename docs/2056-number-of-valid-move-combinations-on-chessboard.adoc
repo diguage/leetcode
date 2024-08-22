@@ -1,7 +1,7 @@
 [#2056-number-of-valid-move-combinations-on-chessboard]
 = 2056. Number of Valid Move Combinations On Chessboard
 
-https://leetcode.com/problems/number-of-valid-move-combinations-on-chessboard/[LeetCode - 2056. Number of Valid Move Combinations On Chessboard ^]
+{leetcode}/problems/number-of-valid-move-combinations-on-chessboard/[LeetCode - 2056. Number of Valid Move Combinations On Chessboard ^]
 
 There is an `8 x 8` chessboard containing `n` pieces (rooks, queens, or bishops). You are given a string array `pieces` of length `n`, where `pieces[i]` describes the type (rook, queen, or bishop) of the `i^th^` piece. In addition, you are given a 2D integer array `positions` also of length `n`, where `positions[i] = [r<sub>i</sub>, c<sub>i</sub>]` indicates that the `i^th^` piece is currently at the *1-based* coordinate `(r<sub>i</sub>, c<sub>i</sub>)` on the chessboard.
 

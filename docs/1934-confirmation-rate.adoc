@@ -1,7 +1,7 @@
 [#1934-confirmation-rate]
 = 1934. Confirmation Rate
 
-https://leetcode.com/problems/confirmation-rate/[LeetCode - 1934. Confirmation Rate ^]
+{leetcode}/problems/confirmation-rate/[LeetCode - 1934. Confirmation Rate ^]
 
 Table: `Signups`
 

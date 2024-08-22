@@ -1,7 +1,7 @@
 [#1860-incremental-memory-leak]
 = 1860. Incremental Memory Leak
 
-https://leetcode.com/problems/incremental-memory-leak/[LeetCode - 1860. Incremental Memory Leak ^]
+{leetcode}/problems/incremental-memory-leak/[LeetCode - 1860. Incremental Memory Leak ^]
 
 You are given two integers `memory1` and `memory2` representing the available memory in bits on two memory sticks. There is currently a faulty program running that consumes an increasing amount of memory every second.
 

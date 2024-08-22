@@ -1,7 +1,7 @@
 [#3042-count-prefix-and-suffix-pairs-i]
 = 3042. Count Prefix and Suffix Pairs I
 
-https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/[LeetCode - 3042. Count Prefix and Suffix Pairs I ^]
+{leetcode}/problems/count-prefix-and-suffix-pairs-i/[LeetCode - 3042. Count Prefix and Suffix Pairs I ^]
 
 You are given a *0-indexed* string array `words`.
 

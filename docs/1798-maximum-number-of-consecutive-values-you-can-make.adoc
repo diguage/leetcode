@@ -1,7 +1,7 @@
 [#1798-maximum-number-of-consecutive-values-you-can-make]
 = 1798. Maximum Number of Consecutive Values You Can Make
 
-https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/[LeetCode - 1798. Maximum Number of Consecutive Values You Can Make ^]
+{leetcode}/problems/maximum-number-of-consecutive-values-you-can-make/[LeetCode - 1798. Maximum Number of Consecutive Values You Can Make ^]
 
 You are given an integer array `coins` of length `n` which represents the `n` coins that you own. The value of the `i^th^` coin is `coins[i]`. You can *make* some value `x` if you can choose some of your `n` coins such that their values sum up to `x`.
 

@@ -1,7 +1,7 @@
 [#0208-implement-trie-prefix-tree]
 = 208. Implement Trie (Prefix Tree)
 
-https://leetcode.com/problems/implement-trie-prefix-tree/[LeetCode - Implement Trie (Prefix Tree)^]
+{leetcode}/problems/implement-trie-prefix-tree/[LeetCode - Implement Trie (Prefix Tree)^]
 
 没想到 Trie Tree 实现起来一点也不复杂！
 

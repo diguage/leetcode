@@ -1,7 +1,7 @@
 [#1436-destination-city]
 = 1436. Destination City
 
-https://leetcode.com/problems/destination-city/[LeetCode - 1436. Destination City ^]
+{leetcode}/problems/destination-city/[LeetCode - 1436. Destination City ^]
 
 You are given the array `paths`, where `paths[i] = [cityA<sub>i</sub>, cityB<sub>i</sub>]` means there exists a direct path going from `cityA<sub>i</sub>` to `cityB<sub>i</sub>`. _Return the destination city, that is, the city without any path outgoing to another city._
 

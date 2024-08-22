@@ -1,7 +1,7 @@
 [#2204-distance-to-a-cycle-in-undirected-graph]
 = 2204. Distance to a Cycle in Undirected Graph
 
-https://leetcode.com/problems/distance-to-a-cycle-in-undirected-graph/[LeetCode - 2204. Distance to a Cycle in Undirected Graph ^]
+{leetcode}/problems/distance-to-a-cycle-in-undirected-graph/[LeetCode - 2204. Distance to a Cycle in Undirected Graph ^]
 
 
 

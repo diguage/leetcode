@@ -1,7 +1,7 @@
 [#1582-special-positions-in-a-binary-matrix]
 = 1582. Special Positions in a Binary Matrix
 
-https://leetcode.com/problems/special-positions-in-a-binary-matrix/[LeetCode - 1582. Special Positions in a Binary Matrix ^]
+{leetcode}/problems/special-positions-in-a-binary-matrix/[LeetCode - 1582. Special Positions in a Binary Matrix ^]
 
 Given an `m x n` binary matrix `mat`, return _the number of special positions in _`mat`_._
 

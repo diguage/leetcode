@@ -1,7 +1,7 @@
 [#1664-ways-to-make-a-fair-array]
 = 1664. Ways to Make a Fair Array
 
-https://leetcode.com/problems/ways-to-make-a-fair-array/[LeetCode - 1664. Ways to Make a Fair Array ^]
+{leetcode}/problems/ways-to-make-a-fair-array/[LeetCode - 1664. Ways to Make a Fair Array ^]
 
 You are given an integer array `nums`. You can choose *exactly one* index (*0-indexed*) and remove the element. Notice that the index of the elements may change after the removal.
 

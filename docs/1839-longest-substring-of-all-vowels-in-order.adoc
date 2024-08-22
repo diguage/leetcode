@@ -1,7 +1,7 @@
 [#1839-longest-substring-of-all-vowels-in-order]
 = 1839. Longest Substring Of All Vowels in Order
 
-https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/[LeetCode - 1839. Longest Substring Of All Vowels in Order ^]
+{leetcode}/problems/longest-substring-of-all-vowels-in-order/[LeetCode - 1839. Longest Substring Of All Vowels in Order ^]
 
 A string is considered *beautiful* if it satisfies the following conditions:
 

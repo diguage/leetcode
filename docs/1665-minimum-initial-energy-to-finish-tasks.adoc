@@ -1,7 +1,7 @@
 [#1665-minimum-initial-energy-to-finish-tasks]
 = 1665. Minimum Initial Energy to Finish Tasks
 
-https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/[LeetCode - 1665. Minimum Initial Energy to Finish Tasks ^]
+{leetcode}/problems/minimum-initial-energy-to-finish-tasks/[LeetCode - 1665. Minimum Initial Energy to Finish Tasks ^]
 
 You are given an array `tasks` where `tasks[i] = [actual<sub>i</sub>, minimum<sub>i</sub>]`:
 

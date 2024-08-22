@@ -1,7 +1,7 @@
 [#0190-reverse-bits]
 = 190. Reverse Bits
 
-https://leetcode.com/problems/reverse-bits/[LeetCode - Reverse Bits^]
+{leetcode}/problems/reverse-bits/[LeetCode - Reverse Bits^]
 
 没想到竟然可以用移位、相与和加法来解决！
 

@@ -1,7 +1,7 @@
 [#1612-check-if-two-expression-trees-are-equivalent]
 = 1612. Check If Two Expression Trees are Equivalent
 
-https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/[LeetCode - 1612. Check If Two Expression Trees are Equivalent ^]
+{leetcode}/problems/check-if-two-expression-trees-are-equivalent/[LeetCode - 1612. Check If Two Expression Trees are Equivalent ^]
 
 
 

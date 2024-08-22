@@ -1,7 +1,7 @@
 [#1047-remove-all-adjacent-duplicates-in-string]
 = 1047. Remove All Adjacent Duplicates In String
 
-https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/[LeetCode - Remove All Adjacent Duplicates In String^]
+{leetcode}/problems/remove-all-adjacent-duplicates-in-string/[LeetCode - Remove All Adjacent Duplicates In String^]
 
 Given a string `S` of lowercase letters, a _duplicate removal_ consists of choosing two adjacent and equal letters, and removing them.
 

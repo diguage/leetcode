@@ -1,7 +1,7 @@
 [#0832-flipping-an-image]
 = 832. Flipping an Image
 
-https://leetcode.com/problems/flipping-an-image/[LeetCode - Flipping an Image^]
+{leetcode}/problems/flipping-an-image/[LeetCode - Flipping an Image^]
 
 Given a binary matrix `A`, we want to flip the image horizontally, then invert it, and return the resulting image.
 

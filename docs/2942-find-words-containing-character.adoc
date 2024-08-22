@@ -1,7 +1,7 @@
 [#2942-find-words-containing-character]
 = 2942. Find Words Containing Character
 
-https://leetcode.com/problems/find-words-containing-character/[LeetCode - 2942. Find Words Containing Character ^]
+{leetcode}/problems/find-words-containing-character/[LeetCode - 2942. Find Words Containing Character ^]
 
 You are given a *0-indexed* array of strings `words` and a character `x`.
 

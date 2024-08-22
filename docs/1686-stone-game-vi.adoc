@@ -1,7 +1,7 @@
 [#1686-stone-game-vi]
 = 1686. Stone Game VI
 
-https://leetcode.com/problems/stone-game-vi/[LeetCode - 1686. Stone Game VI ^]
+{leetcode}/problems/stone-game-vi/[LeetCode - 1686. Stone Game VI ^]
 
 Alice and Bob take turns playing a game, with Alice starting first.
 

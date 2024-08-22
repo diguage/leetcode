@@ -1,7 +1,7 @@
 [#2388-change-null-values-in-a-table-to-the-previous-value]
 = 2388. Change Null Values in a Table to the Previous Value
 
-https://leetcode.com/problems/change-null-values-in-a-table-to-the-previous-value/[LeetCode - 2388. Change Null Values in a Table to the Previous Value ^]
+{leetcode}/problems/change-null-values-in-a-table-to-the-previous-value/[LeetCode - 2388. Change Null Values in a Table to the Previous Value ^]
 
 
 

@@ -1,7 +1,7 @@
 [#2265-count-nodes-equal-to-average-of-subtree]
 = 2265. Count Nodes Equal to Average of Subtree
 
-https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/[LeetCode - 2265. Count Nodes Equal to Average of Subtree ^]
+{leetcode}/problems/count-nodes-equal-to-average-of-subtree/[LeetCode - 2265. Count Nodes Equal to Average of Subtree ^]
 
 Given the `root` of a binary tree, return _the number of nodes where the value of the node is equal to the *average* of the values in its *subtree*_.
 

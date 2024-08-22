@@ -1,7 +1,7 @@
 [#0525-contiguous-array]
 = 525. Contiguous Array
 
-https://leetcode.com/problems/contiguous-array/[LeetCode - Contiguous Array^]
+{leetcode}/problems/contiguous-array/[LeetCode - Contiguous Array^]
 
 Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1. 
 

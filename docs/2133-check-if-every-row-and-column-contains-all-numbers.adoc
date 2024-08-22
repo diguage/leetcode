@@ -1,7 +1,7 @@
 [#2133-check-if-every-row-and-column-contains-all-numbers]
 = 2133. Check if Every Row and Column Contains All Numbers
 
-https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/[LeetCode - 2133. Check if Every Row and Column Contains All Numbers ^]
+{leetcode}/problems/check-if-every-row-and-column-contains-all-numbers/[LeetCode - 2133. Check if Every Row and Column Contains All Numbers ^]
 
 An `n x n` matrix is *valid* if every row and every column contains *all* the integers from `1` to `n` (*inclusive*).
 

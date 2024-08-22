@@ -1,7 +1,7 @@
 [#0901-online-stock-span]
 = 901. Online Stock Span
 
-https://leetcode.com/problems/online-stock-span/[LeetCode - Online Stock Span^]
+{leetcode}/problems/online-stock-span/[LeetCode - Online Stock Span^]
 
 Write a class `StockSpanner` which collects daily price quotes for some stock, and returns the _span_ of that stock's price for the current day.
 

@@ -1,7 +1,7 @@
 [#2821-delay-the-resolution-of-each-promise]
 = 2821. Delay the Resolution of Each Promise
 
-https://leetcode.com/problems/delay-the-resolution-of-each-promise/[LeetCode - 2821. Delay the Resolution of Each Promise ^]
+{leetcode}/problems/delay-the-resolution-of-each-promise/[LeetCode - 2821. Delay the Resolution of Each Promise ^]
 
 
 

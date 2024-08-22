@@ -1,7 +1,7 @@
 [#2873-maximum-value-of-an-ordered-triplet-i]
 = 2873. Maximum Value of an Ordered Triplet I
 
-https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/[LeetCode - 2873. Maximum Value of an Ordered Triplet I ^]
+{leetcode}/problems/maximum-value-of-an-ordered-triplet-i/[LeetCode - 2873. Maximum Value of an Ordered Triplet I ^]
 
 You are given a *0-indexed* integer array `nums`.
 

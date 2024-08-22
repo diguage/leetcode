@@ -1,7 +1,7 @@
 [#2416-sum-of-prefix-scores-of-strings]
 = 2416. Sum of Prefix Scores of Strings
 
-https://leetcode.com/problems/sum-of-prefix-scores-of-strings/[LeetCode - 2416. Sum of Prefix Scores of Strings ^]
+{leetcode}/problems/sum-of-prefix-scores-of-strings/[LeetCode - 2416. Sum of Prefix Scores of Strings ^]
 
 You are given an array `words` of size `n` consisting of *non-empty* strings.
 

@@ -1,7 +1,7 @@
 [#2423-remove-letter-to-equalize-frequency]
 = 2423. Remove Letter To Equalize Frequency
 
-https://leetcode.com/problems/remove-letter-to-equalize-frequency/[LeetCode - 2423. Remove Letter To Equalize Frequency ^]
+{leetcode}/problems/remove-letter-to-equalize-frequency/[LeetCode - 2423. Remove Letter To Equalize Frequency ^]
 
 You are given a *0-indexed* string `word`, consisting of lowercase English letters. You need to select *one* index and *remove* the letter at that index from `word` so that the *frequency* of every letter present in `word` is equal.
 

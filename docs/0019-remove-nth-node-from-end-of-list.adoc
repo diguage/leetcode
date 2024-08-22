@@ -1,7 +1,7 @@
 [#0019-remove-nth-node-from-end-of-list]
 = 19. Remove Nth Node From End of List
 
-https://leetcode.com/problems/remove-nth-node-from-end-of-list/[LeetCode - Remove Nth Node From End of List^]
+{leetcode}/problems/remove-nth-node-from-end-of-list/[LeetCode - Remove Nth Node From End of List^]
 
 Given a linked list, remove the _n_-th node from the end of list and return its head.
 

@@ -1,7 +1,7 @@
 [#2732-find-a-good-subset-of-the-matrix]
 = 2732. Find a Good Subset of the Matrix
 
-https://leetcode.com/problems/find-a-good-subset-of-the-matrix/[LeetCode - 2732. Find a Good Subset of the Matrix ^]
+{leetcode}/problems/find-a-good-subset-of-the-matrix/[LeetCode - 2732. Find a Good Subset of the Matrix ^]
 
 You are given a *0-indexed* `m x n` binary matrix `grid`.
 

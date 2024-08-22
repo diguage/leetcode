@@ -1,7 +1,7 @@
 [#2957-remove-adjacent-almost-equal-characters]
 = 2957. Remove Adjacent Almost-Equal Characters
 
-https://leetcode.com/problems/remove-adjacent-almost-equal-characters/[LeetCode - 2957. Remove Adjacent Almost-Equal Characters ^]
+{leetcode}/problems/remove-adjacent-almost-equal-characters/[LeetCode - 2957. Remove Adjacent Almost-Equal Characters ^]
 
 You are given a *0-indexed* string `word`.
 

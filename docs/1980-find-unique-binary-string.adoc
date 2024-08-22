@@ -1,7 +1,7 @@
 [#1980-find-unique-binary-string]
 = 1980. Find Unique Binary String
 
-https://leetcode.com/problems/find-unique-binary-string/[LeetCode - 1980. Find Unique Binary String ^]
+{leetcode}/problems/find-unique-binary-string/[LeetCode - 1980. Find Unique Binary String ^]
 
 Given an array of strings `nums` containing `n` *unique* binary strings each of length `n`, return _a binary string of length _`n`_ that *does not appear* in _`nums`_. If there are multiple answers, you may return *any* of them_.
 

@@ -1,7 +1,7 @@
 [#2157-groups-of-strings]
 = 2157. Groups of Strings
 
-https://leetcode.com/problems/groups-of-strings/[LeetCode - 2157. Groups of Strings ^]
+{leetcode}/problems/groups-of-strings/[LeetCode - 2157. Groups of Strings ^]
 
 You are given a *0-indexed* array of strings `words`. Each string consists of *lowercase English letters* only. No letter occurs more than once in any string of `words`.
 

@@ -1,7 +1,7 @@
 [#2177-find-three-consecutive-integers-that-sum-to-a-given-number]
 = 2177. Find Three Consecutive Integers That Sum to a Given Number
 
-https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/[LeetCode - 2177. Find Three Consecutive Integers That Sum to a Given Number ^]
+{leetcode}/problems/find-three-consecutive-integers-that-sum-to-a-given-number/[LeetCode - 2177. Find Three Consecutive Integers That Sum to a Given Number ^]
 
 Given an integer `num`, return _three consecutive integers (as a sorted array)__ that *sum* to _`num`. If `num` cannot be expressed as the sum of three consecutive integers, return_ an *empty* array._
 

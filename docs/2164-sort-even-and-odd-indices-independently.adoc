@@ -1,7 +1,7 @@
 [#2164-sort-even-and-odd-indices-independently]
 = 2164. Sort Even and Odd Indices Independently
 
-https://leetcode.com/problems/sort-even-and-odd-indices-independently/[LeetCode - 2164. Sort Even and Odd Indices Independently ^]
+{leetcode}/problems/sort-even-and-odd-indices-independently/[LeetCode - 2164. Sort Even and Odd Indices Independently ^]
 
 You are given a *0-indexed* integer array `nums`. Rearrange the values of `nums` according to the following rules:
 

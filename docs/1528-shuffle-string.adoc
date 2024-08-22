@@ -1,7 +1,7 @@
 [#1528-shuffle-string]
 = 1528. Shuffle String
 
-https://leetcode.com/problems/shuffle-string/[LeetCode - 1528. Shuffle String ^]
+{leetcode}/problems/shuffle-string/[LeetCode - 1528. Shuffle String ^]
 
 You are given a string `s` and an integer array `indices` of the *same length*. The string `s` will be shuffled such that the character at the `i^th^` position moves to `indices[i]` in the shuffled string.
 

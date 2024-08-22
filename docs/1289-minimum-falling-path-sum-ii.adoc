@@ -1,7 +1,7 @@
 [#1289-minimum-falling-path-sum-ii]
 = 1289. Minimum Falling Path Sum II
 
-https://leetcode.com/problems/minimum-falling-path-sum-ii/[LeetCode - Minimum Falling Path Sum II^]
+{leetcode}/problems/minimum-falling-path-sum-ii/[LeetCode - Minimum Falling Path Sum II^]
 
 Given a square grid of integers `arr`, a _falling path with non-zero shifts_ is a choice of exactly one element from each row of `arr`, such that no two elements chosen in adjacent rows are in the same column.
 

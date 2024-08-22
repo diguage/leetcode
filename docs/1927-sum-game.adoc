@@ -1,7 +1,7 @@
 [#1927-sum-game]
 = 1927. Sum Game
 
-https://leetcode.com/problems/sum-game/[LeetCode - 1927. Sum Game ^]
+{leetcode}/problems/sum-game/[LeetCode - 1927. Sum Game ^]
 
 Alice and Bob take turns playing a game, with *Alice** starting first*.
 

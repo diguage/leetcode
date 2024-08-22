@@ -1,7 +1,7 @@
 [#2039-the-time-when-the-network-becomes-idle]
 = 2039. The Time When the Network Becomes Idle
 
-https://leetcode.com/problems/the-time-when-the-network-becomes-idle/[LeetCode - 2039. The Time When the Network Becomes Idle ^]
+{leetcode}/problems/the-time-when-the-network-becomes-idle/[LeetCode - 2039. The Time When the Network Becomes Idle ^]
 
 There is a network of `n` servers, labeled from `0` to `n - 1`. You are given a 2D integer array `edges`, where `edges[i] = [u<sub>i</sub>, v<sub>i</sub>]` indicates there is a message channel between servers `u<sub>i</sub>` and `v<sub>i</sub>`, and they can pass *any* number of messages to *each other* directly in *one* second. You are also given a *0-indexed* integer array `patience` of length `n`.
 

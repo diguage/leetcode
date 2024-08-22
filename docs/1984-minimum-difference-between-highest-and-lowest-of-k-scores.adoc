@@ -1,7 +1,7 @@
 [#1984-minimum-difference-between-highest-and-lowest-of-k-scores]
 = 1984. Minimum Difference Between Highest and Lowest of K Scores
 
-https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/[LeetCode - 1984. Minimum Difference Between Highest and Lowest of K Scores ^]
+{leetcode}/problems/minimum-difference-between-highest-and-lowest-of-k-scores/[LeetCode - 1984. Minimum Difference Between Highest and Lowest of K Scores ^]
 
 You are given a *0-indexed* integer array `nums`, where `nums[i]` represents the score of the `i^th^` student. You are also given an integer `k`.
 

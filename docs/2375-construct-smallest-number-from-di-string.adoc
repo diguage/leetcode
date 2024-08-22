@@ -1,7 +1,7 @@
 [#2375-construct-smallest-number-from-di-string]
 = 2375. Construct Smallest Number From DI String
 
-https://leetcode.com/problems/construct-smallest-number-from-di-string/[LeetCode - 2375. Construct Smallest Number From DI String ^]
+{leetcode}/problems/construct-smallest-number-from-di-string/[LeetCode - 2375. Construct Smallest Number From DI String ^]
 
 You are given a *0-indexed* string `pattern` of length `n` consisting of the characters `'I'` meaning *increasing* and `'D'` meaning *decreasing*.
 

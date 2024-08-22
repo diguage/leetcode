@@ -1,7 +1,7 @@
 [#0048-rotate-image]
 = 48. Rotate Image
 
-https://leetcode.com/problems/rotate-image/[LeetCode - Rotate Image^]
+{leetcode}/problems/rotate-image/[LeetCode - Rotate Image^]
 
 You are given an _n_ x _n_ 2D matrix representing an image.
 

@@ -1,7 +1,7 @@
 [#0264-ugly-number-ii]
 = 264. Ugly Number II
 
-https://leetcode.com/problems/ugly-number-ii/[LeetCode - Ugly Number II^]
+{leetcode}/problems/ugly-number-ii/[LeetCode - Ugly Number II^]
 
 Write a program to find the `n`-th ugly number.
 

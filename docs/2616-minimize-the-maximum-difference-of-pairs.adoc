@@ -1,7 +1,7 @@
 [#2616-minimize-the-maximum-difference-of-pairs]
 = 2616. Minimize the Maximum Difference of Pairs
 
-https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/[LeetCode - 2616. Minimize the Maximum Difference of Pairs ^]
+{leetcode}/problems/minimize-the-maximum-difference-of-pairs/[LeetCode - 2616. Minimize the Maximum Difference of Pairs ^]
 
 You are given a *0-indexed* integer array `nums` and an integer `p`. Find `p` pairs of indices of `nums` such that the *maximum* difference amongst all the pairs is *minimized*. Also, ensure no index appears more than once amongst the `p` pairs.
 

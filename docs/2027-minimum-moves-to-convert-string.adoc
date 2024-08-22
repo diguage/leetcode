@@ -1,7 +1,7 @@
 [#2027-minimum-moves-to-convert-string]
 = 2027. Minimum Moves to Convert String
 
-https://leetcode.com/problems/minimum-moves-to-convert-string/[LeetCode - 2027. Minimum Moves to Convert String ^]
+{leetcode}/problems/minimum-moves-to-convert-string/[LeetCode - 2027. Minimum Moves to Convert String ^]
 
 You are given a string `s` consisting of `n` characters which are either `'X'` or `'O'`.
 

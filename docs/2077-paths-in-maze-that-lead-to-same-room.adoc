@@ -1,7 +1,7 @@
 [#2077-paths-in-maze-that-lead-to-same-room]
 = 2077. Paths in Maze That Lead to Same Room
 
-https://leetcode.com/problems/paths-in-maze-that-lead-to-same-room/[LeetCode - 2077. Paths in Maze That Lead to Same Room ^]
+{leetcode}/problems/paths-in-maze-that-lead-to-same-room/[LeetCode - 2077. Paths in Maze That Lead to Same Room ^]
 
 
 

@@ -1,7 +1,7 @@
 [#3000-maximum-area-of-longest-diagonal-rectangle]
 = 3000. Maximum Area of Longest Diagonal Rectangle
 
-https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/[LeetCode - 3000. Maximum Area of Longest Diagonal Rectangle ^]
+{leetcode}/problems/maximum-area-of-longest-diagonal-rectangle/[LeetCode - 3000. Maximum Area of Longest Diagonal Rectangle ^]
 
 You are given a 2D *0-indexed *integer array `dimensions`.
 

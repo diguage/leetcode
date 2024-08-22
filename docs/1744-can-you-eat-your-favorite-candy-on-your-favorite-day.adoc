@@ -1,7 +1,7 @@
 [#1744-can-you-eat-your-favorite-candy-on-your-favorite-day]
 = 1744. Can You Eat Your Favorite Candy on Your Favorite Day?
 
-https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/[LeetCode - 1744. Can You Eat Your Favorite Candy on Your Favorite Day? ^]
+{leetcode}/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/[LeetCode - 1744. Can You Eat Your Favorite Candy on Your Favorite Day? ^]
 
 You are given a *(0-indexed)* array of positive integers `candiesCount` where `candiesCount[i]` represents the number of candies of the `i^th^` type you have. You are also given a 2D array `queries` where `queries[i] = [favoriteType<sub>i</sub>, favoriteDay<sub>i</sub>, dailyCap<sub>i</sub>]`.
 

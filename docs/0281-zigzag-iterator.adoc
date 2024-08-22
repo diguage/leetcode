@@ -1,7 +1,7 @@
 [#0281-zigzag-iterator]
 = 281. Zigzag Iterator
 
-https://leetcode.com/problems/zigzag-iterator/[LeetCode - Zigzag Iterator^]
+{leetcode}/problems/zigzag-iterator/[LeetCode - Zigzag Iterator^]
 
 
 

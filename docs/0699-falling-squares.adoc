@@ -1,7 +1,7 @@
 [#0699-falling-squares]
 = 699. Falling Squares
 
-https://leetcode.com/problems/falling-squares/[LeetCode - Falling Squares^]
+{leetcode}/problems/falling-squares/[LeetCode - Falling Squares^]
 
 On an infinite number line (x-axis), we drop given squares in the order they are given.
 

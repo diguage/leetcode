@@ -1,7 +1,7 @@
 [#2877-create-a-dataframe-from-list]
 = 2877. Create a DataFrame from List
 
-https://leetcode.com/problems/create-a-dataframe-from-list/[LeetCode - 2877. Create a DataFrame from List ^]
+{leetcode}/problems/create-a-dataframe-from-list/[LeetCode - 2877. Create a DataFrame from List ^]
 
 Write a solution to *create* a DataFrame from a 2D list called `student_data`. This 2D list contains the IDs and ages of some students.
 

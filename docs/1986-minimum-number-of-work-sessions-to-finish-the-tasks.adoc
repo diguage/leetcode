@@ -1,7 +1,7 @@
 [#1986-minimum-number-of-work-sessions-to-finish-the-tasks]
 = 1986. Minimum Number of Work Sessions to Finish the Tasks
 
-https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/[LeetCode - 1986. Minimum Number of Work Sessions to Finish the Tasks ^]
+{leetcode}/problems/minimum-number-of-work-sessions-to-finish-the-tasks/[LeetCode - 1986. Minimum Number of Work Sessions to Finish the Tasks ^]
 
 There are `n` tasks assigned to you. The task times are represented as an integer array `tasks` of length `n`, where the `i^th^` task takes `tasks[i]` hours to finish. A *work session* is when you work for *at most* `sessionTime` consecutive hours and then take a break.
 

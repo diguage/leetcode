@@ -1,7 +1,7 @@
 [#2474-customers-with-strictly-increasing-purchases]
 = 2474. Customers With Strictly Increasing Purchases
 
-https://leetcode.com/problems/customers-with-strictly-increasing-purchases/[LeetCode - 2474. Customers With Strictly Increasing Purchases ^]
+{leetcode}/problems/customers-with-strictly-increasing-purchases/[LeetCode - 2474. Customers With Strictly Increasing Purchases ^]
 
 
 

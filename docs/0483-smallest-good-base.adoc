@@ -1,7 +1,7 @@
 [#0483-smallest-good-base]
 = 483. Smallest Good Base
 
-https://leetcode.com/problems/smallest-good-base/[LeetCode - Smallest Good Base^]
+{leetcode}/problems/smallest-good-base/[LeetCode - Smallest Good Base^]
 
 For an integer n, we call k>=2 a _*good base*_ of n, if all digits of n base k are 1.
 

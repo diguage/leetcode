@@ -1,7 +1,7 @@
 [#2571-minimum-operations-to-reduce-an-integer-to-0]
 = 2571. Minimum Operations to Reduce an Integer to 0
 
-https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/[LeetCode - 2571. Minimum Operations to Reduce an Integer to 0 ^]
+{leetcode}/problems/minimum-operations-to-reduce-an-integer-to-0/[LeetCode - 2571. Minimum Operations to Reduce an Integer to 0 ^]
 
 You are given a positive integer `n`, you can do the following operation *any* number of times:
 

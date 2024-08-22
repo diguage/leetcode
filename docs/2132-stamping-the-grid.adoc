@@ -1,7 +1,7 @@
 [#2132-stamping-the-grid]
 = 2132. Stamping the Grid
 
-https://leetcode.com/problems/stamping-the-grid/[LeetCode - 2132. Stamping the Grid ^]
+{leetcode}/problems/stamping-the-grid/[LeetCode - 2132. Stamping the Grid ^]
 
 You are given an `m x n` binary matrix `grid` where each cell is either `0` (empty) or `1` (occupied).
 

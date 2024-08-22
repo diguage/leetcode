@@ -1,7 +1,7 @@
 [#1407-top-travellers]
 = 1407. Top Travellers
 
-https://leetcode.com/problems/top-travellers/[LeetCode - 1407. Top Travellers ^]
+{leetcode}/problems/top-travellers/[LeetCode - 1407. Top Travellers ^]
 
 Table: `Users`
 

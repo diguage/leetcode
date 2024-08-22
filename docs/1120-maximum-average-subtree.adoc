@@ -1,7 +1,7 @@
 [#1120-maximum-average-subtree]
 = 1120. Maximum Average Subtree
 
-https://leetcode.com/problems/maximum-average-subtree/[LeetCode - Maximum Average Subtree^]
+{leetcode}/problems/maximum-average-subtree/[LeetCode - Maximum Average Subtree^]
 
 
 

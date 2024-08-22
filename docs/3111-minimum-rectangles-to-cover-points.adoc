@@ -1,7 +1,7 @@
 [#3111-minimum-rectangles-to-cover-points]
 = 3111. Minimum Rectangles to Cover Points
 
-https://leetcode.com/problems/minimum-rectangles-to-cover-points/[LeetCode - 3111. Minimum Rectangles to Cover Points ^]
+{leetcode}/problems/minimum-rectangles-to-cover-points/[LeetCode - 3111. Minimum Rectangles to Cover Points ^]
 
 You are given a 2D integer array `points`, where `points[i] = [x<sub>i</sub>, y<sub>i</sub>]`. You are also given an integer `w`. Your task is to *cover* *all* the given points with rectangles.
 

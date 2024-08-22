@@ -1,7 +1,7 @@
 [#2661-first-completely-painted-row-or-column]
 = 2661. First Completely Painted Row or Column
 
-https://leetcode.com/problems/first-completely-painted-row-or-column/[LeetCode - 2661. First Completely Painted Row or Column ^]
+{leetcode}/problems/first-completely-painted-row-or-column/[LeetCode - 2661. First Completely Painted Row or Column ^]
 
 You are given a *0-indexed* integer array `arr`, and an `m x n` integer *matrix* `mat`. `arr` and `mat` both contain *all* the integers in the range `[1, m * n]`.
 

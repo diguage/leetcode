@@ -1,7 +1,7 @@
 [#1393-capital-gainloss]
 = 1393. Capital Gain/Loss
 
-https://leetcode.com/problems/capital-gainloss/[LeetCode - 1393. Capital Gain/Loss ^]
+{leetcode}/problems/capital-gainloss/[LeetCode - 1393. Capital Gain/Loss ^]
 
 Table: `Stocks`
 

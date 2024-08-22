@@ -1,7 +1,7 @@
 [#1478-allocate-mailboxes]
 = 1478. Allocate Mailboxes
 
-https://leetcode.com/problems/allocate-mailboxes/[LeetCode - 1478. Allocate Mailboxes ^]
+{leetcode}/problems/allocate-mailboxes/[LeetCode - 1478. Allocate Mailboxes ^]
 
 Given the array `houses` where `houses[i]` is the location of the `i^th^` house along a street and an integer `k`, allocate `k` mailboxes in the street.
 

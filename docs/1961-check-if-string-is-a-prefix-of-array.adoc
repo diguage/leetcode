@@ -1,7 +1,7 @@
 [#1961-check-if-string-is-a-prefix-of-array]
 = 1961. Check If String Is a Prefix of Array
 
-https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/[LeetCode - 1961. Check If String Is a Prefix of Array ^]
+{leetcode}/problems/check-if-string-is-a-prefix-of-array/[LeetCode - 1961. Check If String Is a Prefix of Array ^]
 
 Given a string `s` and an array of strings `words`, determine whether `s` is a *prefix string* of `words`.
 

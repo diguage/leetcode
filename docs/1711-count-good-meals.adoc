@@ -1,7 +1,7 @@
 [#1711-count-good-meals]
 = 1711. Count Good Meals
 
-https://leetcode.com/problems/count-good-meals/[LeetCode - 1711. Count Good Meals ^]
+{leetcode}/problems/count-good-meals/[LeetCode - 1711. Count Good Meals ^]
 
 A *good meal* is a meal that contains *exactly two different food items* with a sum of deliciousness equal to a power of two.
 

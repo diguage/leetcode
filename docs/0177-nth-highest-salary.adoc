@@ -1,7 +1,7 @@
 [#0177-nth-highest-salary]
 = 177. Nth Highest Salary
 
-https://leetcode.com/problems/nth-highest-salary/[LeetCode - Nth Highest Salary^]
+{leetcode}/problems/nth-highest-salary/[LeetCode - Nth Highest Salary^]
 
 Write a SQL query to get the _n_^th^ highest salary from the `Employee` table.
 

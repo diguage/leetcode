@@ -1,7 +1,7 @@
 [#3174-clear-digits]
 = 3174. Clear Digits
 
-https://leetcode.com/problems/clear-digits/[LeetCode - 3174. Clear Digits ^]
+{leetcode}/problems/clear-digits/[LeetCode - 3174. Clear Digits ^]
 
 You are given a string `s`.
 

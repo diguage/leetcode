@@ -1,7 +1,7 @@
 [#2085-count-common-words-with-one-occurrence]
 = 2085. Count Common Words With One Occurrence
 
-https://leetcode.com/problems/count-common-words-with-one-occurrence/[LeetCode - 2085. Count Common Words With One Occurrence ^]
+{leetcode}/problems/count-common-words-with-one-occurrence/[LeetCode - 2085. Count Common Words With One Occurrence ^]
 
 Given two string arrays `words1` and `words2`, return _the number of strings that appear *exactly once* in *each* of the two arrays._
 

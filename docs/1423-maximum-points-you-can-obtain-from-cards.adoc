@@ -1,7 +1,7 @@
 [#1423-maximum-points-you-can-obtain-from-cards]
 = 1423. Maximum Points You Can Obtain from Cards
 
-https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/[LeetCode - 1423. Maximum Points You Can Obtain from Cards ^]
+{leetcode}/problems/maximum-points-you-can-obtain-from-cards/[LeetCode - 1423. Maximum Points You Can Obtain from Cards ^]
 
 There are several cards *arranged in a row*, and each card has an associated number of points. The points are given in the integer array `cardPoints`.
 

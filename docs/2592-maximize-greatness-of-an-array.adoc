@@ -1,7 +1,7 @@
 [#2592-maximize-greatness-of-an-array]
 = 2592. Maximize Greatness of an Array
 
-https://leetcode.com/problems/maximize-greatness-of-an-array/[LeetCode - 2592. Maximize Greatness of an Array ^]
+{leetcode}/problems/maximize-greatness-of-an-array/[LeetCode - 2592. Maximize Greatness of an Array ^]
 
 You are given a 0-indexed integer array `nums`. You are allowed to permute `nums` into a new array `perm` of your choosing.
 

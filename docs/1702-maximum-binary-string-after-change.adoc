@@ -1,7 +1,7 @@
 [#1702-maximum-binary-string-after-change]
 = 1702. Maximum Binary String After Change
 
-https://leetcode.com/problems/maximum-binary-string-after-change/[LeetCode - 1702. Maximum Binary String After Change ^]
+{leetcode}/problems/maximum-binary-string-after-change/[LeetCode - 1702. Maximum Binary String After Change ^]
 
 You are given a binary string `binary` consisting of only `0`'s or `1`'s. You can apply each of the following operations any number of times:
 

@@ -1,7 +1,7 @@
 [#2250-count-number-of-rectangles-containing-each-point]
 = 2250. Count Number of Rectangles Containing Each Point
 
-https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/[LeetCode - 2250. Count Number of Rectangles Containing Each Point ^]
+{leetcode}/problems/count-number-of-rectangles-containing-each-point/[LeetCode - 2250. Count Number of Rectangles Containing Each Point ^]
 
 You are given a 2D integer array `rectangles` where `rectangles[i] = [l<sub>i</sub>, h<sub>i</sub>]` indicates that `i^th^` rectangle has a length of `l<sub>i</sub>` and a height of `h<sub>i</sub>`. You are also given a 2D integer array `points` where `points[j] = [x<sub>j</sub>, y<sub>j</sub>]` is a point with coordinates `(x<sub>j</sub>, y<sub>j</sub>)`.
 

@@ -1,7 +1,7 @@
 [#1370-increasing-decreasing-string]
 = 1370. Increasing Decreasing String
 
-https://leetcode.com/problems/increasing-decreasing-string/[LeetCode - 1370. Increasing Decreasing String ^]
+{leetcode}/problems/increasing-decreasing-string/[LeetCode - 1370. Increasing Decreasing String ^]
 
 You are given a string `s`. Reorder the string using the following algorithm:
 

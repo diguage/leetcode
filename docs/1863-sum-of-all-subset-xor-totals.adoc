@@ -1,7 +1,7 @@
 [#1863-sum-of-all-subset-xor-totals]
 = 1863. Sum of All Subset XOR Totals
 
-https://leetcode.com/problems/sum-of-all-subset-xor-totals/[LeetCode - 1863. Sum of All Subset XOR Totals ^]
+{leetcode}/problems/sum-of-all-subset-xor-totals/[LeetCode - 1863. Sum of All Subset XOR Totals ^]
 
 The *XOR total* of an array is defined as the bitwise `XOR` of* all its elements*, or `0` if the array is* empty*.
 

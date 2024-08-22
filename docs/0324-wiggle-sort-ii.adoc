@@ -1,7 +1,7 @@
 [#0324-wiggle-sort-ii]
 = 324. Wiggle Sort II
 
-https://leetcode.com/problems/wiggle-sort-ii/[LeetCode - Wiggle Sort II^]
+{leetcode}/problems/wiggle-sort-ii/[LeetCode - Wiggle Sort II^]
 
 思考题：
 
@@ -10,8 +10,8 @@ https://leetcode.com/problems/wiggle-sort-ii/[LeetCode - Wiggle Sort II^]
 
 == 参考资料
 
-. https://leetcode.com/problems/wiggle-sort-ii/discuss/77677/O(n)%2BO(1)-after-median-Virtual-Indexing[O(n)+O(1) after median --- Virtual Indexing - LeetCode Discuss^]
-. https://leetcode.com/problems/wiggle-sort-ii/discuss/77682/Step-by-step-explanation-of-index-mapping-in-Java[Step by step explanation of index mapping in Java - LeetCode Discuss^]
+. {leetcode}/problems/wiggle-sort-ii/discuss/77677/O(n)%2BO(1)-after-median-Virtual-Indexing[O(n)+O(1) after median --- Virtual Indexing - LeetCode Discuss^]
+. {leetcode}/problems/wiggle-sort-ii/discuss/77682/Step-by-step-explanation-of-index-mapping-in-Java[Step by step explanation of index mapping in Java - LeetCode Discuss^]
 . https://leetcode-cn.com/problems/wiggle-sort-ii/solution/javaxiang-xi-ti-jie-shuo-ming-by-heator/[Java详细题解说明 - 摆动排序 II - 力扣（LeetCode）^]
 . https://leetcode-cn.com/problems/wiggle-sort-ii/solution/yi-bu-yi-bu-jiang-shi-jian-fu-za-du-cong-onlognjia/[一步一步将时间复杂度从O(NlogN)降到O(N)，将空间复杂度从O(N)降低到O(1) - 摆动排序 II - 力扣（LeetCode）^]
 

@@ -1,7 +1,7 @@
 [#2856-minimum-array-length-after-pair-removals]
 = 2856. Minimum Array Length After Pair Removals
 
-https://leetcode.com/problems/minimum-array-length-after-pair-removals/[LeetCode - 2856. Minimum Array Length After Pair Removals ^]
+{leetcode}/problems/minimum-array-length-after-pair-removals/[LeetCode - 2856. Minimum Array Length After Pair Removals ^]
 
 Given an integer array `num` sorted in non-decreasing order.
 

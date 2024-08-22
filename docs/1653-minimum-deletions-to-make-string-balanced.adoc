@@ -1,7 +1,7 @@
 [#1653-minimum-deletions-to-make-string-balanced]
 = 1653. Minimum Deletions to Make String Balanced
 
-https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/[LeetCode - 1653. Minimum Deletions to Make String Balanced ^]
+{leetcode}/problems/minimum-deletions-to-make-string-balanced/[LeetCode - 1653. Minimum Deletions to Make String Balanced ^]
 
 You are given a string `s` consisting only of characters `'a'` and `'b'`​​​​.
 

@@ -1,7 +1,7 @@
 [#1952-three-divisors]
 = 1952. Three Divisors
 
-https://leetcode.com/problems/three-divisors/[LeetCode - 1952. Three Divisors ^]
+{leetcode}/problems/three-divisors/[LeetCode - 1952. Three Divisors ^]
 
 Given an integer `n`, return `true`_ if _`n`_ has *exactly three positive divisors*. Otherwise, return _`false`.
 

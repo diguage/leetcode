@@ -1,7 +1,7 @@
 [#2065-maximum-path-quality-of-a-graph]
 = 2065. Maximum Path Quality of a Graph
 
-https://leetcode.com/problems/maximum-path-quality-of-a-graph/[LeetCode - 2065. Maximum Path Quality of a Graph ^]
+{leetcode}/problems/maximum-path-quality-of-a-graph/[LeetCode - 2065. Maximum Path Quality of a Graph ^]
 
 There is an *undirected* graph with `n` nodes numbered from `0` to `n - 1` (*inclusive*). You are given a *0-indexed* integer array `values` where `values[i]` is the *value *of the `i^th^` node. You are also given a *0-indexed* 2D integer array `edges`, where each `edges[j] = [u<sub>j</sub>, v<sub>j</sub>, time<sub>j</sub>]` indicates that there is an undirected edge between the nodes `u<sub>j</sub>` and `v<sub>j</sub>`,<sub> </sub>and it takes `time<sub>j</sub>` seconds to travel between the two nodes. Finally, you are given an integer `maxTime`.
 

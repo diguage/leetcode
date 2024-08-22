@@ -1,7 +1,7 @@
 [#1563-stone-game-v]
 = 1563. Stone Game V
 
-https://leetcode.com/problems/stone-game-v/[LeetCode - 1563. Stone Game V ^]
+{leetcode}/problems/stone-game-v/[LeetCode - 1563. Stone Game V ^]
 
 There are several stones *arranged in a row*, and each stone has an associated value which is an integer given in the array `stoneValue`.
 

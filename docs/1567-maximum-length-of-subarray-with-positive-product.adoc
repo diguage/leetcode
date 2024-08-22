@@ -1,7 +1,7 @@
 [#1567-maximum-length-of-subarray-with-positive-product]
 = 1567. Maximum Length of Subarray With Positive Product
 
-https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/[LeetCode - 1567. Maximum Length of Subarray With Positive Product ^]
+{leetcode}/problems/maximum-length-of-subarray-with-positive-product/[LeetCode - 1567. Maximum Length of Subarray With Positive Product ^]
 
 Given an array of integers `nums`, find the maximum length of a subarray where the product of all its elements is positive.
 

@@ -1,7 +1,7 @@
 [#3132-find-the-integer-added-to-array-ii]
 = 3132. Find the Integer Added to Array II
 
-https://leetcode.com/problems/find-the-integer-added-to-array-ii/[LeetCode - 3132. Find the Integer Added to Array II ^]
+{leetcode}/problems/find-the-integer-added-to-array-ii/[LeetCode - 3132. Find the Integer Added to Array II ^]
 
 You are given two integer arrays `nums1` and `nums2`.
 

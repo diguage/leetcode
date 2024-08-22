@@ -1,7 +1,7 @@
 [#1319-number-of-operations-to-make-network-connected]
 = 1319. Number of Operations to Make Network Connected
 
-https://leetcode.com/problems/number-of-operations-to-make-network-connected/[LeetCode - Number of Operations to Make Network Connected^]
+{leetcode}/problems/number-of-operations-to-make-network-connected/[LeetCode - Number of Operations to Make Network Connected^]
 
 There are `n` computers numbered from `0` to `n-1` connected by ethernet cables `connections` forming a network where `connections[i] = [a, b]` represents a connection between computers `a` and `b`. Any computer can reach any other computer directly or indirectly through the network.
 

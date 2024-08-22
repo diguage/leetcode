@@ -1,7 +1,7 @@
 [#2404-most-frequent-even-element]
 = 2404. Most Frequent Even Element
 
-https://leetcode.com/problems/most-frequent-even-element/[LeetCode - 2404. Most Frequent Even Element ^]
+{leetcode}/problems/most-frequent-even-element/[LeetCode - 2404. Most Frequent Even Element ^]
 
 Given an integer array `nums`, return _the most frequent even element_.
 

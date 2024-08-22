@@ -1,7 +1,7 @@
 [#1601-maximum-number-of-achievable-transfer-requests]
 = 1601. Maximum Number of Achievable Transfer Requests
 
-https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/[LeetCode - 1601. Maximum Number of Achievable Transfer Requests ^]
+{leetcode}/problems/maximum-number-of-achievable-transfer-requests/[LeetCode - 1601. Maximum Number of Achievable Transfer Requests ^]
 
 We have `n` buildings numbered from `0` to `n - 1`. Each building has a number of employees. It's transfer season, and some employees want to change the building they reside in.
 

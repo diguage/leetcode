@@ -1,7 +1,7 @@
 [#2581-count-number-of-possible-root-nodes]
 = 2581. Count Number of Possible Root Nodes
 
-https://leetcode.com/problems/count-number-of-possible-root-nodes/[LeetCode - 2581. Count Number of Possible Root Nodes ^]
+{leetcode}/problems/count-number-of-possible-root-nodes/[LeetCode - 2581. Count Number of Possible Root Nodes ^]
 
 Alice has an undirected tree with `n` nodes labeled from `0` to `n - 1`. The tree is represented as a 2D integer array `edges` of length `n - 1` where `edges[i] = [a<sub>i</sub>, b<sub>i</sub>]` indicates that there is an edge between nodes `a<sub>i</sub>` and `b<sub>i</sub>` in the tree.
 

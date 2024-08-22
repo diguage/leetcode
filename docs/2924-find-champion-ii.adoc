@@ -1,7 +1,7 @@
 [#2924-find-champion-ii]
 = 2924. Find Champion II
 
-https://leetcode.com/problems/find-champion-ii/[LeetCode - 2924. Find Champion II ^]
+{leetcode}/problems/find-champion-ii/[LeetCode - 2924. Find Champion II ^]
 
 There are `n` teams numbered from `0` to `n - 1` in a tournament; each team is also a node in a *DAG*.
 

@@ -1,7 +1,7 @@
 [#3235-check-if-the-rectangle-corner-is-reachable]
 = 3235. Check if the Rectangle Corner Is Reachable
 
-https://leetcode.com/problems/check-if-the-rectangle-corner-is-reachable/[LeetCode - 3235. Check if the Rectangle Corner Is Reachable ^]
+{leetcode}/problems/check-if-the-rectangle-corner-is-reachable/[LeetCode - 3235. Check if the Rectangle Corner Is Reachable ^]
 
 You are given two positive integers `xCorner` and `yCorner`, and a 2D array `circles`, where `circles[i] = [x<sub>i</sub>, y<sub>i</sub>, r<sub>i</sub>]` denotes a circle with center at `(x<sub>i</sub>, y<sub>i</sub>)` and radius `r<sub>i</sub>`.
 

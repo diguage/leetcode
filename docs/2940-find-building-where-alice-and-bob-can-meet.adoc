@@ -1,7 +1,7 @@
 [#2940-find-building-where-alice-and-bob-can-meet]
 = 2940. Find Building Where Alice and Bob Can Meet
 
-https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/[LeetCode - 2940. Find Building Where Alice and Bob Can Meet ^]
+{leetcode}/problems/find-building-where-alice-and-bob-can-meet/[LeetCode - 2940. Find Building Where Alice and Bob Can Meet ^]
 
 You are given a *0-indexed* array `heights` of positive integers, where `heights[i]` represents the height of the `i^th^` building.
 

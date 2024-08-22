@@ -1,7 +1,7 @@
 [#0994-rotting-oranges]
 = 994. Rotting Oranges
 
-https://leetcode.com/problems/rotting-oranges/[LeetCode - Rotting Oranges^]
+{leetcode}/problems/rotting-oranges/[LeetCode - Rotting Oranges^]
 
 In a given grid, each cell can have one of three values:
 

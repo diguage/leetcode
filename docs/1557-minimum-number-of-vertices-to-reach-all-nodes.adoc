@@ -1,7 +1,7 @@
 [#1557-minimum-number-of-vertices-to-reach-all-nodes]
 = 1557. Minimum Number of Vertices to Reach All Nodes
 
-https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/[LeetCode - 1557. Minimum Number of Vertices to Reach All Nodes ^]
+{leetcode}/problems/minimum-number-of-vertices-to-reach-all-nodes/[LeetCode - 1557. Minimum Number of Vertices to Reach All Nodes ^]
 
 Given a* directed acyclic graph*, with `n` vertices numbered from `0` to `n-1`, and an array `edges` where `edges[i] = [from<sub>i</sub>, to<sub>i</sub>]` represents a directed edge from node `from<sub>i</sub>` to node `to<sub>i</sub>`.
 

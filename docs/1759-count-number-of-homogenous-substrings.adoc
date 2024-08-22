@@ -1,7 +1,7 @@
 [#1759-count-number-of-homogenous-substrings]
 = 1759. Count Number of Homogenous Substrings
 
-https://leetcode.com/problems/count-number-of-homogenous-substrings/[LeetCode - 1759. Count Number of Homogenous Substrings ^]
+{leetcode}/problems/count-number-of-homogenous-substrings/[LeetCode - 1759. Count Number of Homogenous Substrings ^]
 
 Given a string `s`, return _the number of *homogenous* substrings of _`s`_._ Since the answer may be too large, return it *modulo* `10^9^ + 7`.
 

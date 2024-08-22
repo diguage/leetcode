@@ -1,7 +1,7 @@
 [#2466-count-ways-to-build-good-strings]
 = 2466. Count Ways To Build Good Strings
 
-https://leetcode.com/problems/count-ways-to-build-good-strings/[LeetCode - 2466. Count Ways To Build Good Strings ^]
+{leetcode}/problems/count-ways-to-build-good-strings/[LeetCode - 2466. Count Ways To Build Good Strings ^]
 
 Given the integers `zero`, `one`, `low`, and `high`, we can construct a string by starting with an empty string, and then at each step perform either of the following:
 

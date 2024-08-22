@@ -1,7 +1,7 @@
 [#3157-find-the-level-of-tree-with-minimum-sum]
 = 3157. Find the Level of Tree with Minimum Sum
 
-https://leetcode.com/problems/find-the-level-of-tree-with-minimum-sum/[LeetCode - 3157. Find the Level of Tree with Minimum Sum ^]
+{leetcode}/problems/find-the-level-of-tree-with-minimum-sum/[LeetCode - 3157. Find the Level of Tree with Minimum Sum ^]
 
 
 

@@ -1,7 +1,7 @@
 [#1124-longest-well-performing-interval]
 = 1124. Longest Well-Performing Interval
 
-https://leetcode.com/problems/longest-well-performing-interval/[LeetCode - Longest Well-Performing Interval^]
+{leetcode}/problems/longest-well-performing-interval/[LeetCode - Longest Well-Performing Interval^]
 
 We are given `hours`, a list of the number of hours worked per day for a given employee.
 

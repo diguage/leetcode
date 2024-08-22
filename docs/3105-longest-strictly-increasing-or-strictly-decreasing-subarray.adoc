@@ -1,7 +1,7 @@
 [#3105-longest-strictly-increasing-or-strictly-decreasing-subarray]
 = 3105. Longest Strictly Increasing or Strictly Decreasing Subarray
 
-https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/[LeetCode - 3105. Longest Strictly Increasing or Strictly Decreasing Subarray ^]
+{leetcode}/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/[LeetCode - 3105. Longest Strictly Increasing or Strictly Decreasing Subarray ^]
 
 You are given an array of integers `nums`. Return _the length of the *longest* <span data-keyword="subarray-nonempty">subarray of _`nums`_ which is either *<span data-keyword="strictly-increasing-array">strictly increasing* or *<span data-keyword="strictly-decreasing-array">strictly decreasing*_.
 

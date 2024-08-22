@@ -1,7 +1,7 @@
 [#2621-sleep]
 = 2621. Sleep
 
-https://leetcode.com/problems/sleep/[LeetCode - 2621. Sleep ^]
+{leetcode}/problems/sleep/[LeetCode - 2621. Sleep ^]
 
 Given a positive integer `millis`, write an asynchronous function that sleeps for `millis` milliseconds. It can resolve any value.
 

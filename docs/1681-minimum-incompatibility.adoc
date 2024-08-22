@@ -1,7 +1,7 @@
 [#1681-minimum-incompatibility]
 = 1681. Minimum Incompatibility
 
-https://leetcode.com/problems/minimum-incompatibility/[LeetCode - 1681. Minimum Incompatibility ^]
+{leetcode}/problems/minimum-incompatibility/[LeetCode - 1681. Minimum Incompatibility ^]
 
 You are given an integer array `nums`​​​ and an integer `k`. You are asked to distribute this array into `k` subsets of *equal size* such that there are no two equal elements in the same subset.
 

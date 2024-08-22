@@ -1,7 +1,7 @@
 [#0033-search-in-rotated-sorted-array]
 = 33. Search in Rotated Sorted Array
 
-https://leetcode.com/problems/search-in-rotated-sorted-array/[LeetCode - Search in Rotated Sorted Array^]
+{leetcode}/problems/search-in-rotated-sorted-array/[LeetCode - Search in Rotated Sorted Array^]
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 

@@ -1,7 +1,7 @@
 [#2499-minimum-total-cost-to-make-arrays-unequal]
 = 2499. Minimum Total Cost to Make Arrays Unequal
 
-https://leetcode.com/problems/minimum-total-cost-to-make-arrays-unequal/[LeetCode - 2499. Minimum Total Cost to Make Arrays Unequal ^]
+{leetcode}/problems/minimum-total-cost-to-make-arrays-unequal/[LeetCode - 2499. Minimum Total Cost to Make Arrays Unequal ^]
 
 You are given two *0-indexed* integer arrays `nums1` and `nums2`, of equal length `n`.
 

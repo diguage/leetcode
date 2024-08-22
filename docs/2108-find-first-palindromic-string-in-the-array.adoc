@@ -1,7 +1,7 @@
 [#2108-find-first-palindromic-string-in-the-array]
 = 2108. Find First Palindromic String in the Array
 
-https://leetcode.com/problems/find-first-palindromic-string-in-the-array/[LeetCode - 2108. Find First Palindromic String in the Array ^]
+{leetcode}/problems/find-first-palindromic-string-in-the-array/[LeetCode - 2108. Find First Palindromic String in the Array ^]
 
 Given an array of strings `words`, return _the first *palindromic* string in the array_. If there is no such string, return _an *empty string* _`""`.
 

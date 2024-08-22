@@ -1,7 +1,7 @@
 [#1611-minimum-one-bit-operations-to-make-integers-zero]
 = 1611. Minimum One Bit Operations to Make Integers Zero
 
-https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/[LeetCode - 1611. Minimum One Bit Operations to Make Integers Zero ^]
+{leetcode}/problems/minimum-one-bit-operations-to-make-integers-zero/[LeetCode - 1611. Minimum One Bit Operations to Make Integers Zero ^]
 
 Given an integer `n`, you must transform it into `0` using the following operations any number of times:
 

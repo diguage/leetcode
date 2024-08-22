@@ -1,7 +1,7 @@
 [#1654-minimum-jumps-to-reach-home]
 = 1654. Minimum Jumps to Reach Home
 
-https://leetcode.com/problems/minimum-jumps-to-reach-home/[LeetCode - 1654. Minimum Jumps to Reach Home ^]
+{leetcode}/problems/minimum-jumps-to-reach-home/[LeetCode - 1654. Minimum Jumps to Reach Home ^]
 
 A certain bug's home is on the x-axis at position `x`. Help them get there from position `0`.
 

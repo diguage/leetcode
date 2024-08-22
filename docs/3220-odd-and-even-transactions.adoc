@@ -1,7 +1,7 @@
 [#3220-odd-and-even-transactions]
 = 3220. Odd and Even Transactions
 
-https://leetcode.com/problems/odd-and-even-transactions/[LeetCode - 3220. Odd and Even Transactions ^]
+{leetcode}/problems/odd-and-even-transactions/[LeetCode - 3220. Odd and Even Transactions ^]
 
 Table: `transactions`
 

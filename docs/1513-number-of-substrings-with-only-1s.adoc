@@ -1,7 +1,7 @@
 [#1513-number-of-substrings-with-only-1s]
 = 1513. Number of Substrings With Only 1s
 
-https://leetcode.com/problems/number-of-substrings-with-only-1s/[LeetCode - 1513. Number of Substrings With Only 1s ^]
+{leetcode}/problems/number-of-substrings-with-only-1s/[LeetCode - 1513. Number of Substrings With Only 1s ^]
 
 Given a binary string `s`, return _the number of substrings with all characters_ `1`_'s_. Since the answer may be too large, return it modulo `10^9^ + 7`.
 

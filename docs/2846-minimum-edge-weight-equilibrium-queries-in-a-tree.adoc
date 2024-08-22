@@ -1,7 +1,7 @@
 [#2846-minimum-edge-weight-equilibrium-queries-in-a-tree]
 = 2846. Minimum Edge Weight Equilibrium Queries in a Tree
 
-https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree/[LeetCode - 2846. Minimum Edge Weight Equilibrium Queries in a Tree ^]
+{leetcode}/problems/minimum-edge-weight-equilibrium-queries-in-a-tree/[LeetCode - 2846. Minimum Edge Weight Equilibrium Queries in a Tree ^]
 
 There is an undirected tree with `n` nodes labeled from `0` to `n - 1`. You are given the integer `n` and a 2D integer array `edges` of length `n - 1`, where `edges[i] = [u<sub>i</sub>, v<sub>i</sub>, w<sub>i</sub>]` indicates that there is an edge between nodes `u<sub>i</sub>` and `v<sub>i</sub>` with weight `w<sub>i</sub>` in the tree.
 

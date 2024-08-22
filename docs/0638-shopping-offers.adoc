@@ -1,7 +1,7 @@
 [#0638-shopping-offers]
 = 638. Shopping Offers
 
-https://leetcode.com/problems/shopping-offers/[LeetCode - Shopping Offers^]
+{leetcode}/problems/shopping-offers/[LeetCode - Shopping Offers^]
 
 
 In LeetCode Store, there are some kinds of items to sell. Each item has a price.

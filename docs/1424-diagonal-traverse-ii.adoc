@@ -1,7 +1,7 @@
 [#1424-diagonal-traverse-ii]
 = 1424. Diagonal Traverse II
 
-https://leetcode.com/problems/diagonal-traverse-ii/[LeetCode - 1424. Diagonal Traverse II ^]
+{leetcode}/problems/diagonal-traverse-ii/[LeetCode - 1424. Diagonal Traverse II ^]
 
 Given a 2D integer array `nums`, return _all elements of _`nums`_ in diagonal order as shown in the below images_.
 

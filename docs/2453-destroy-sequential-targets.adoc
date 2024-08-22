@@ -1,7 +1,7 @@
 [#2453-destroy-sequential-targets]
 = 2453. Destroy Sequential Targets
 
-https://leetcode.com/problems/destroy-sequential-targets/[LeetCode - 2453. Destroy Sequential Targets ^]
+{leetcode}/problems/destroy-sequential-targets/[LeetCode - 2453. Destroy Sequential Targets ^]
 
 You are given a *0-indexed* array `nums` consisting of positive integers, representing targets on a number line. You are also given an integer `space`.
 

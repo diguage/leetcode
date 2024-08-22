@@ -1,7 +1,7 @@
 [#0052-n-queens-ii]
 = 52. N-Queens II
 
-https://leetcode.com/problems/n-queens-ii/[LeetCode - N-Queens II^]
+{leetcode}/problems/n-queens-ii/[LeetCode - N-Queens II^]
 
 The *__n__-queens* puzzle is the problem of placing *n* queens on an *n×n* chessboard such that no two queens attack each other.
 

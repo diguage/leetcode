@@ -1,7 +1,7 @@
 [#0756-pyramid-transition-matrix]
 = 756. Pyramid Transition Matrix
 
-https://leetcode.com/problems/pyramid-transition-matrix/[LeetCode - Pyramid Transition Matrix^]
+{leetcode}/problems/pyramid-transition-matrix/[LeetCode - Pyramid Transition Matrix^]
 
 We are stacking blocks to form a pyramid. Each block has a color which is a one letter string.
 

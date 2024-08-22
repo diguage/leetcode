@@ -1,7 +1,7 @@
 [#2911-minimum-changes-to-make-k-semi-palindromes]
 = 2911. Minimum Changes to Make K Semi-palindromes
 
-https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/[LeetCode - 2911. Minimum Changes to Make K Semi-palindromes ^]
+{leetcode}/problems/minimum-changes-to-make-k-semi-palindromes/[LeetCode - 2911. Minimum Changes to Make K Semi-palindromes ^]
 
 Given a string `s` and an integer `k`, partition `s` into `k` *<span data-keyword="substring-nonempty">substrings* such that the letter changes needed to make each substring a *semi-palindrome* are minimized.
 

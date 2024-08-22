@@ -1,7 +1,7 @@
 [#2120-execution-of-all-suffix-instructions-staying-in-a-grid]
 = 2120. Execution of All Suffix Instructions Staying in a Grid
 
-https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/[LeetCode - 2120. Execution of All Suffix Instructions Staying in a Grid ^]
+{leetcode}/problems/execution-of-all-suffix-instructions-staying-in-a-grid/[LeetCode - 2120. Execution of All Suffix Instructions Staying in a Grid ^]
 
 There is an `n x n` grid, with the top-left cell at `(0, 0)` and the bottom-right cell at `(n - 1, n - 1)`. You are given the integer `n` and an integer array `startPos` where `startPos = [start<sub>row</sub>, start<sub>col</sub>]` indicates that a robot is initially at cell `(start<sub>row</sub>, start<sub>col</sub>)`.
 

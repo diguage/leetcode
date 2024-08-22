@@ -1,7 +1,7 @@
 [#2547-minimum-cost-to-split-an-array]
 = 2547. Minimum Cost to Split an Array
 
-https://leetcode.com/problems/minimum-cost-to-split-an-array/[LeetCode - 2547. Minimum Cost to Split an Array ^]
+{leetcode}/problems/minimum-cost-to-split-an-array/[LeetCode - 2547. Minimum Cost to Split an Array ^]
 
 You are given an integer array `nums` and an integer `k`.
 

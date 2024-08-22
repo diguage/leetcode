@@ -1,7 +1,7 @@
 [#0343-integer-break]
 = 343. Integer Break
 
-https://leetcode.com/problems/integer-break/[LeetCode - Integer Break^]
+{leetcode}/problems/integer-break/[LeetCode - Integer Break^]
 
 Given a positive integer _n_, break it into the sum of *at least* two positive integers and maximize the product of those integers. Return the maximum product you can get.
 

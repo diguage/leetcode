@@ -1,7 +1,7 @@
 [#3186-maximum-total-damage-with-spell-casting]
 = 3186. Maximum Total Damage With Spell Casting
 
-https://leetcode.com/problems/maximum-total-damage-with-spell-casting/[LeetCode - 3186. Maximum Total Damage With Spell Casting ^]
+{leetcode}/problems/maximum-total-damage-with-spell-casting/[LeetCode - 3186. Maximum Total Damage With Spell Casting ^]
 
 A magician has various spells.
 

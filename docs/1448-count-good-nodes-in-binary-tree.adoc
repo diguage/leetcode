@@ -1,7 +1,7 @@
 [#1448-count-good-nodes-in-binary-tree]
 = 1448. Count Good Nodes in Binary Tree
 
-https://leetcode.com/problems/count-good-nodes-in-binary-tree/[LeetCode - 1448. Count Good Nodes in Binary Tree ^]
+{leetcode}/problems/count-good-nodes-in-binary-tree/[LeetCode - 1448. Count Good Nodes in Binary Tree ^]
 
 Given a binary tree `root`, a node _X_ in the tree is named *good* if in the path from root to _X_ there are no nodes with a value _greater than_ X.
 

@@ -1,7 +1,7 @@
 [#0845-longest-mountain-in-array]
 = 845. Longest Mountain in Array
 
-https://leetcode.com/problems/longest-mountain-in-array/[LeetCode - Longest Mountain in Array^]
+{leetcode}/problems/longest-mountain-in-array/[LeetCode - Longest Mountain in Array^]
 
 Let's call any (contiguous) subarray B (of A) a _mountain_ if the following properties hold:
 

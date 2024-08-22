@@ -1,7 +1,7 @@
 [#2667-create-hello-world-function]
 = 2667. Create Hello World Function
 
-https://leetcode.com/problems/create-hello-world-function/[LeetCode - 2667. Create Hello World Function ^]
+{leetcode}/problems/create-hello-world-function/[LeetCode - 2667. Create Hello World Function ^]
 
 Write a function `createHelloWorld`. It should return a new function that always returns `"Hello World"`.
  

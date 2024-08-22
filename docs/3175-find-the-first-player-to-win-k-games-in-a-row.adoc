@@ -1,7 +1,7 @@
 [#3175-find-the-first-player-to-win-k-games-in-a-row]
 = 3175. Find The First Player to win K Games in a Row
 
-https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/[LeetCode - 3175. Find The First Player to win K Games in a Row ^]
+{leetcode}/problems/find-the-first-player-to-win-k-games-in-a-row/[LeetCode - 3175. Find The First Player to win K Games in a Row ^]
 
 A competition consists of `n` players numbered from `0` to `n - 1`.
 

@@ -1,7 +1,7 @@
 [#2283-check-if-number-has-equal-digit-count-and-digit-value]
 = 2283. Check if Number Has Equal Digit Count and Digit Value
 
-https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/[LeetCode - 2283. Check if Number Has Equal Digit Count and Digit Value ^]
+{leetcode}/problems/check-if-number-has-equal-digit-count-and-digit-value/[LeetCode - 2283. Check if Number Has Equal Digit Count and Digit Value ^]
 
 You are given a *0-indexed* string `num` of length `n` consisting of digits.
 

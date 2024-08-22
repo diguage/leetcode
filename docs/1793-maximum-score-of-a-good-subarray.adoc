@@ -1,7 +1,7 @@
 [#1793-maximum-score-of-a-good-subarray]
 = 1793. Maximum Score of a Good Subarray
 
-https://leetcode.com/problems/maximum-score-of-a-good-subarray/[LeetCode - 1793. Maximum Score of a Good Subarray ^]
+{leetcode}/problems/maximum-score-of-a-good-subarray/[LeetCode - 1793. Maximum Score of a Good Subarray ^]
 
 You are given an array of integers `nums` *(0-indexed)* and an integer `k`.
 

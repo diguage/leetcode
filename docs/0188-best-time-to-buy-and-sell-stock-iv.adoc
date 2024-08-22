@@ -8,7 +8,7 @@
 
 
 
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/[LeetCode - Best Time to Buy and Sell Stock IV^]
+{leetcode}/problems/best-time-to-buy-and-sell-stock-iv/[LeetCode - Best Time to Buy and Sell Stock IV^]
 
 Say you have an array for which the _i^th^_ element is the price of a given stock on day _i_.
 

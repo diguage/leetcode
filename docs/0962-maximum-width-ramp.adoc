@@ -1,7 +1,7 @@
 [#0962-maximum-width-ramp]
 = 962. Maximum Width Ramp
 
-https://leetcode.com/problems/maximum-width-ramp/[LeetCode - Maximum Width Ramp^]
+{leetcode}/problems/maximum-width-ramp/[LeetCode - Maximum Width Ramp^]
 
 Given an array `A` of integers, a _ramp_ is a tuple `(i, j)` for which `i < j` and `A[i] <= A[j]`.  The width of such a ramp is `j - i`.
 

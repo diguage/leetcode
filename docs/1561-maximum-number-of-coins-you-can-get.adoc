@@ -1,7 +1,7 @@
 [#1561-maximum-number-of-coins-you-can-get]
 = 1561. Maximum Number of Coins You Can Get
 
-https://leetcode.com/problems/maximum-number-of-coins-you-can-get/[LeetCode - 1561. Maximum Number of Coins You Can Get ^]
+{leetcode}/problems/maximum-number-of-coins-you-can-get/[LeetCode - 1561. Maximum Number of Coins You Can Get ^]
 
 There are `3n` piles of coins of varying size, you and your friends will take piles of coins as follows:
 

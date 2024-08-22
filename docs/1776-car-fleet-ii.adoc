@@ -1,7 +1,7 @@
 [#1776-car-fleet-ii]
 = 1776. Car Fleet II
 
-https://leetcode.com/problems/car-fleet-ii/[LeetCode - 1776. Car Fleet II ^]
+{leetcode}/problems/car-fleet-ii/[LeetCode - 1776. Car Fleet II ^]
 
 There are `n` cars traveling at different speeds in the same direction along a one-lane road. You are given an array `cars` of length `n`, where `cars[i] = [position<sub>i</sub>, speed<sub>i</sub>]` represents:
 

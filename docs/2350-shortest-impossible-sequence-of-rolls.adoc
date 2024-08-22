@@ -1,7 +1,7 @@
 [#2350-shortest-impossible-sequence-of-rolls]
 = 2350. Shortest Impossible Sequence of Rolls
 
-https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/[LeetCode - 2350. Shortest Impossible Sequence of Rolls ^]
+{leetcode}/problems/shortest-impossible-sequence-of-rolls/[LeetCode - 2350. Shortest Impossible Sequence of Rolls ^]
 
 You are given an integer array `rolls` of length `n` and an integer `k`. You roll a `k` sided dice numbered from `1` to `k`, `n` times, where the result of the `i^th^` roll is `rolls[i]`.
 

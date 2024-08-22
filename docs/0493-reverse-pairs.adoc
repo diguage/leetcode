@@ -1,7 +1,7 @@
 [#0493-reverse-pairs]
 = 493. Reverse Pairs
 
-https://leetcode.com/problems/reverse-pairs/[LeetCode - Reverse Pairs^]
+{leetcode}/problems/reverse-pairs/[LeetCode - Reverse Pairs^]
 
 Given an array `nums`, we call `(i, j)` an *_important reverse pair_* if `i < j` and `nums[i] > 2*nums[j]`.
 

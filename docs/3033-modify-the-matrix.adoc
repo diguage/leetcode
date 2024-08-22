@@ -1,7 +1,7 @@
 [#3033-modify-the-matrix]
 = 3033. Modify the Matrix
 
-https://leetcode.com/problems/modify-the-matrix/[LeetCode - 3033. Modify the Matrix ^]
+{leetcode}/problems/modify-the-matrix/[LeetCode - 3033. Modify the Matrix ^]
 
 Given a *0-indexed* `m x n` integer matrix `matrix`, create a new *0-indexed* matrix called `answer`. Make `answer` equal to `matrix`, then replace each element with the value `-1` with the *maximum* element in its respective column.
 

@@ -1,7 +1,7 @@
 [#2645-minimum-additions-to-make-valid-string]
 = 2645. Minimum Additions to Make Valid String
 
-https://leetcode.com/problems/minimum-additions-to-make-valid-string/[LeetCode - 2645. Minimum Additions to Make Valid String ^]
+{leetcode}/problems/minimum-additions-to-make-valid-string/[LeetCode - 2645. Minimum Additions to Make Valid String ^]
 
 Given a string `word` to which you can insert letters "a", "b" or "c" anywhere and any number of times, return _the minimum number of letters that must be inserted so that `word` becomes *valid*._
 

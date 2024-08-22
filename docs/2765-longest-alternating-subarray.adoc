@@ -1,7 +1,7 @@
 [#2765-longest-alternating-subarray]
 = 2765. Longest Alternating Subarray
 
-https://leetcode.com/problems/longest-alternating-subarray/[LeetCode - 2765. Longest Alternating Subarray ^]
+{leetcode}/problems/longest-alternating-subarray/[LeetCode - 2765. Longest Alternating Subarray ^]
 
 You are given a *0-indexed* integer array `nums`. A subarray `s` of length `m` is called *alternating* if:
 

@@ -1,7 +1,7 @@
 [#2800-shortest-string-that-contains-three-strings]
 = 2800. Shortest String That Contains Three Strings
 
-https://leetcode.com/problems/shortest-string-that-contains-three-strings/[LeetCode - 2800. Shortest String That Contains Three Strings ^]
+{leetcode}/problems/shortest-string-that-contains-three-strings/[LeetCode - 2800. Shortest String That Contains Three Strings ^]
 
 Given three strings `a`, `b`, and `c`, your task is to find a string that has the* minimum* length and contains all three strings as *substrings*.
 If there are multiple such strings, return the_ _*lexicographically_ _smallest *one.

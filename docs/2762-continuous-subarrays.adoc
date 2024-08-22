@@ -1,7 +1,7 @@
 [#2762-continuous-subarrays]
 = 2762. Continuous Subarrays
 
-https://leetcode.com/problems/continuous-subarrays/[LeetCode - 2762. Continuous Subarrays ^]
+{leetcode}/problems/continuous-subarrays/[LeetCode - 2762. Continuous Subarrays ^]
 
 You are given a *0-indexed* integer array `nums`. A subarray of `nums` is called *continuous* if:
 

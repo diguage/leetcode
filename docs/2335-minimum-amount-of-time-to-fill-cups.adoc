@@ -1,7 +1,7 @@
 [#2335-minimum-amount-of-time-to-fill-cups]
 = 2335. Minimum Amount of Time to Fill Cups
 
-https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/[LeetCode - 2335. Minimum Amount of Time to Fill Cups ^]
+{leetcode}/problems/minimum-amount-of-time-to-fill-cups/[LeetCode - 2335. Minimum Amount of Time to Fill Cups ^]
 
 You have a water dispenser that can dispense cold, warm, and hot water. Every second, you can either fill up `2` cups with *different* types of water, or `1` cup of any type of water.
 

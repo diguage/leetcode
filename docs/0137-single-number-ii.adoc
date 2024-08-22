@@ -1,7 +1,7 @@
 [#0137-single-number-ii]
 = 137. Single Number II
 
-https://leetcode.com/problems/single-number-ii/[LeetCode - Single Number II^]
+{leetcode}/problems/single-number-ii/[LeetCode - Single Number II^]
 
 Given a *non-empty* array of integers, every element appears _three_ times except for one, which appears exactly once. Find that single one.
 

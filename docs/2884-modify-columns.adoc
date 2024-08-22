@@ -1,7 +1,7 @@
 [#2884-modify-columns]
 = 2884. Modify Columns
 
-https://leetcode.com/problems/modify-columns/[LeetCode - 2884. Modify Columns ^]
+{leetcode}/problems/modify-columns/[LeetCode - 2884. Modify Columns ^]
 
 [subs="verbatim,quotes"]
 ----

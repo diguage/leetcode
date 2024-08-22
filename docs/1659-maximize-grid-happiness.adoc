@@ -1,7 +1,7 @@
 [#1659-maximize-grid-happiness]
 = 1659. Maximize Grid Happiness
 
-https://leetcode.com/problems/maximize-grid-happiness/[LeetCode - 1659. Maximize Grid Happiness ^]
+{leetcode}/problems/maximize-grid-happiness/[LeetCode - 1659. Maximize Grid Happiness ^]
 
 You are given four integers, `m`, `n`, `introvertsCount`, and `extrovertsCount`. You have an `m x n` grid, and there are two types of people: introverts and extroverts. There are `introvertsCount` introverts and `extrovertsCount` extroverts.
 

@@ -1,7 +1,7 @@
 [#2487-remove-nodes-from-linked-list]
 = 2487. Remove Nodes From Linked List
 
-https://leetcode.com/problems/remove-nodes-from-linked-list/[LeetCode - 2487. Remove Nodes From Linked List ^]
+{leetcode}/problems/remove-nodes-from-linked-list/[LeetCode - 2487. Remove Nodes From Linked List ^]
 
 You are given the `head` of a linked list.
 

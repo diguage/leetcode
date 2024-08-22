@@ -1,7 +1,7 @@
 [#2768-number-of-black-blocks]
 = 2768. Number of Black Blocks
 
-https://leetcode.com/problems/number-of-black-blocks/[LeetCode - 2768. Number of Black Blocks ^]
+{leetcode}/problems/number-of-black-blocks/[LeetCode - 2768. Number of Black Blocks ^]
 
 You are given two integers `m` and `n` representing the dimensions of a *0-indexed* `m x n` grid.
 

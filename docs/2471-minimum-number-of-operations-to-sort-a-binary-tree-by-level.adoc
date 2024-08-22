@@ -1,7 +1,7 @@
 [#2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level]
 = 2471. Minimum Number of Operations to Sort a Binary Tree by Level
 
-https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/[LeetCode - 2471. Minimum Number of Operations to Sort a Binary Tree by Level ^]
+{leetcode}/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/[LeetCode - 2471. Minimum Number of Operations to Sort a Binary Tree by Level ^]
 
 You are given the `root` of a binary tree with *unique values*.
 

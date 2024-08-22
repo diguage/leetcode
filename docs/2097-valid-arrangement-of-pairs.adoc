@@ -1,7 +1,7 @@
 [#2097-valid-arrangement-of-pairs]
 = 2097. Valid Arrangement of Pairs
 
-https://leetcode.com/problems/valid-arrangement-of-pairs/[LeetCode - 2097. Valid Arrangement of Pairs ^]
+{leetcode}/problems/valid-arrangement-of-pairs/[LeetCode - 2097. Valid Arrangement of Pairs ^]
 
 You are given a *0-indexed* 2D integer array `pairs` where `pairs[i] = [start<sub>i</sub>, end<sub>i</sub>]`. An arrangement of `pairs` is *valid* if for every index `i` where `1 <= i < pairs.length`, we have `end<sub>i-1</sub> == start<sub>i</sub>`.
 

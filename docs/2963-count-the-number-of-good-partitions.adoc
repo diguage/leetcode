@@ -1,7 +1,7 @@
 [#2963-count-the-number-of-good-partitions]
 = 2963. Count the Number of Good Partitions
 
-https://leetcode.com/problems/count-the-number-of-good-partitions/[LeetCode - 2963. Count the Number of Good Partitions ^]
+{leetcode}/problems/count-the-number-of-good-partitions/[LeetCode - 2963. Count the Number of Good Partitions ^]
 
 You are given a *0-indexed* array `nums` consisting of *positive* integers.
 

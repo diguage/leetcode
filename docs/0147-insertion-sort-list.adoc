@@ -1,7 +1,7 @@
 [#0147-insertion-sort-list]
 = 147. Insertion Sort List
 
-https://leetcode.com/problems/insertion-sort-list/[LeetCode - Insertion Sort List^]
+{leetcode}/problems/insertion-sort-list/[LeetCode - Insertion Sort List^]
 
 Sort a linked list using insertion sort.
 

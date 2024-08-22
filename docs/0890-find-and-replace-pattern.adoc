@@ -1,7 +1,7 @@
 [#0890-find-and-replace-pattern]
 = 890. Find and Replace Pattern
 
-https://leetcode.com/problems/find-and-replace-pattern/[LeetCode - Find and Replace Pattern^]
+{leetcode}/problems/find-and-replace-pattern/[LeetCode - Find and Replace Pattern^]
 
 You have a list of `words` and a `pattern`, and you want to know which words in `words` matches the pattern.
 

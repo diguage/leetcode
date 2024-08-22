@@ -1,7 +1,7 @@
 [#0718-maximum-length-of-repeated-subarray]
 = 718. Maximum Length of Repeated Subarray
 
-https://leetcode.com/problems/maximum-length-of-repeated-subarray/[LeetCode - Maximum Length of Repeated Subarray^]
+{leetcode}/problems/maximum-length-of-repeated-subarray/[LeetCode - Maximum Length of Repeated Subarray^]
 
 Given two integer arrays `A` and `B`, return the maximum length of an subarray that appears in both arrays.
 

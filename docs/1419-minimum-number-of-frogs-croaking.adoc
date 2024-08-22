@@ -1,7 +1,7 @@
 [#1419-minimum-number-of-frogs-croaking]
 = 1419. Minimum Number of Frogs Croaking
 
-https://leetcode.com/problems/minimum-number-of-frogs-croaking/[LeetCode - 1419. Minimum Number of Frogs Croaking ^]
+{leetcode}/problems/minimum-number-of-frogs-croaking/[LeetCode - 1419. Minimum Number of Frogs Croaking ^]
 
 You are given the string `croakOfFrogs`, which represents a combination of the string `"croak"` from different frogs, that is, multiple frogs can croak at the same time, so multiple `"croak"` are mixed.
 

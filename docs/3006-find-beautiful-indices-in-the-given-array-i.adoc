@@ -1,7 +1,7 @@
 [#3006-find-beautiful-indices-in-the-given-array-i]
 = 3006. Find Beautiful Indices in the Given Array I
 
-https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/[LeetCode - 3006. Find Beautiful Indices in the Given Array I ^]
+{leetcode}/problems/find-beautiful-indices-in-the-given-array-i/[LeetCode - 3006. Find Beautiful Indices in the Given Array I ^]
 
 You are given a *0-indexed* string `s`, a string `a`, a string `b`, and an integer `k`.
 

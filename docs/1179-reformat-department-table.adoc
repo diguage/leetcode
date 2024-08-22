@@ -1,7 +1,7 @@
 [#1179-reformat-department-table]
 = 1179. Reformat Department Table
 
-https://leetcode.com/problems/reformat-department-table/[LeetCode - Reformat Department Table^]
+{leetcode}/problems/reformat-department-table/[LeetCode - Reformat Department Table^]
 
 Table: `Department`
 

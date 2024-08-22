@@ -1,7 +1,7 @@
 [#2946-matrix-similarity-after-cyclic-shifts]
 = 2946. Matrix Similarity After Cyclic Shifts
 
-https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/[LeetCode - 2946. Matrix Similarity After Cyclic Shifts ^]
+{leetcode}/problems/matrix-similarity-after-cyclic-shifts/[LeetCode - 2946. Matrix Similarity After Cyclic Shifts ^]
 
 You are given an `m x n` integer matrix `mat` and an integer `k`. The matrix rows are 0-indexed.
 

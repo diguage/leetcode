@@ -1,7 +1,7 @@
 [#2706-buy-two-chocolates]
 = 2706. Buy Two Chocolates
 
-https://leetcode.com/problems/buy-two-chocolates/[LeetCode - 2706. Buy Two Chocolates ^]
+{leetcode}/problems/buy-two-chocolates/[LeetCode - 2706. Buy Two Chocolates ^]
 
 You are given an integer array `prices` representing the prices of various chocolates in a store. You are also given a single integer `money`, which represents your initial amount of money.
 

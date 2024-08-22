@@ -1,7 +1,7 @@
 [#2742-painting-the-walls]
 = 2742. Painting the Walls
 
-https://leetcode.com/problems/painting-the-walls/[LeetCode - 2742. Painting the Walls ^]
+{leetcode}/problems/painting-the-walls/[LeetCode - 2742. Painting the Walls ^]
 
 You are given two *0-indexed* integer arrays, `cost` and `time`, of size `n` representing the costs and the time taken to paint `n` different walls respectively. There are two painters available:
 

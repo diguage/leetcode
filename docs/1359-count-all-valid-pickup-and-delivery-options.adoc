@@ -1,7 +1,7 @@
 [#1359-count-all-valid-pickup-and-delivery-options]
 = 1359. Count All Valid Pickup and Delivery Options
 
-https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/[LeetCode - 1359. Count All Valid Pickup and Delivery Options ^]
+{leetcode}/problems/count-all-valid-pickup-and-delivery-options/[LeetCode - 1359. Count All Valid Pickup and Delivery Options ^]
 
 Given `n` orders, each order consists of a pickup and a delivery service.
 

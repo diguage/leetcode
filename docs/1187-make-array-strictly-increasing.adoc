@@ -1,7 +1,7 @@
 [#1187-make-array-strictly-increasing]
 = 1187. Make Array Strictly Increasing
 
-https://leetcode.com/problems/make-array-strictly-increasing/[LeetCode - Make Array Strictly Increasing^]
+{leetcode}/problems/make-array-strictly-increasing/[LeetCode - Make Array Strictly Increasing^]
 
 Given two integer arrays `arr1` and `arr2`, return the minimum number of operations (possibly zero) needed to make `arr1` strictly increasing.
 

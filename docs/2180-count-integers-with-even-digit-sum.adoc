@@ -1,7 +1,7 @@
 [#2180-count-integers-with-even-digit-sum]
 = 2180. Count Integers With Even Digit Sum
 
-https://leetcode.com/problems/count-integers-with-even-digit-sum/[LeetCode - 2180. Count Integers With Even Digit Sum ^]
+{leetcode}/problems/count-integers-with-even-digit-sum/[LeetCode - 2180. Count Integers With Even Digit Sum ^]
 
 Given a positive integer `num`, return _the number of positive integers *less than or equal to*_ `num` _whose digit sums are *even*_.
 

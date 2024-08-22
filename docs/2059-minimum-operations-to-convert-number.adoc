@@ -1,7 +1,7 @@
 [#2059-minimum-operations-to-convert-number]
 = 2059. Minimum Operations to Convert Number
 
-https://leetcode.com/problems/minimum-operations-to-convert-number/[LeetCode - 2059. Minimum Operations to Convert Number ^]
+{leetcode}/problems/minimum-operations-to-convert-number/[LeetCode - 2059. Minimum Operations to Convert Number ^]
 
 You are given a *0-indexed* integer array `nums` containing *distinct* numbers, an integer `start`, and an integer `goal`. There is an integer `x` that is initially set to `start`, and you want to perform operations on `x` such that it is converted to `goal`. You can perform the following operation repeatedly on the number `x`:
 

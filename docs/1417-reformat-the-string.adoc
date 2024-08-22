@@ -1,7 +1,7 @@
 [#1417-reformat-the-string]
 = 1417. Reformat The String
 
-https://leetcode.com/problems/reformat-the-string/[LeetCode - 1417. Reformat The String ^]
+{leetcode}/problems/reformat-the-string/[LeetCode - 1417. Reformat The String ^]
 
 You are given an alphanumeric string `s`. (*Alphanumeric string* is a string consisting of lowercase English letters and digits).
 

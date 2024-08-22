@@ -1,7 +1,7 @@
 [#2609-find-the-longest-balanced-substring-of-a-binary-string]
 = 2609. Find the Longest Balanced Substring of a Binary String
 
-https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/[LeetCode - 2609. Find the Longest Balanced Substring of a Binary String ^]
+{leetcode}/problems/find-the-longest-balanced-substring-of-a-binary-string/[LeetCode - 2609. Find the Longest Balanced Substring of a Binary String ^]
 
 You are given a binary string `s` consisting only of zeroes and ones.
 

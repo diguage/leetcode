@@ -1,7 +1,7 @@
 [#2017-grid-game]
 = 2017. Grid Game
 
-https://leetcode.com/problems/grid-game/[LeetCode - 2017. Grid Game ^]
+{leetcode}/problems/grid-game/[LeetCode - 2017. Grid Game ^]
 
 You are given a *0-indexed* 2D array `grid` of size `2 x n`, where `grid[r][c]` represents the number of points at position `(r, c)` on the matrix. Two robots are playing a game on this matrix.
 

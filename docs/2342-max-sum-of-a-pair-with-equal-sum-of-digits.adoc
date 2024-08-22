@@ -1,7 +1,7 @@
 [#2342-max-sum-of-a-pair-with-equal-sum-of-digits]
 = 2342. Max Sum of a Pair With Equal Sum of Digits
 
-https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/[LeetCode - 2342. Max Sum of a Pair With Equal Sum of Digits ^]
+{leetcode}/problems/max-sum-of-a-pair-with-equal-sum-of-digits/[LeetCode - 2342. Max Sum of a Pair With Equal Sum of Digits ^]
 
 You are given a *0-indexed* array `nums` consisting of *positive* integers. You can choose two indices `i` and `j`, such that `i != j`, and the sum of digits of the number `nums[i]` is equal to that of `nums[j]`.
 

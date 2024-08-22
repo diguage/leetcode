@@ -1,7 +1,7 @@
 [#1450-number-of-students-doing-homework-at-a-given-time]
 = 1450. Number of Students Doing Homework at a Given Time
 
-https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/[LeetCode - 1450. Number of Students Doing Homework at a Given Time ^]
+{leetcode}/problems/number-of-students-doing-homework-at-a-given-time/[LeetCode - 1450. Number of Students Doing Homework at a Given Time ^]
 
 Given two integer arrays `startTime` and `endTime` and given an integer `queryTime`.
 

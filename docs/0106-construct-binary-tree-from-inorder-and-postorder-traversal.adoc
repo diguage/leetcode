@@ -1,7 +1,7 @@
 [#0106-construct-binary-tree-from-inorder-and-postorder-traversal]
 = 106. Construct Binary Tree from Inorder and Postorder Traversal
 
-https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/[LeetCode - Construct Binary Tree from Inorder and Postorder Traversal^]
+{leetcode}/problems/construct-binary-tree-from-inorder-and-postorder-traversal/[LeetCode - Construct Binary Tree from Inorder and Postorder Traversal^]
 
 Given inorder and postorder traversal of a tree, construct the binary tree.
 

@@ -1,7 +1,7 @@
 [#2352-equal-row-and-column-pairs]
 = 2352. Equal Row and Column Pairs
 
-https://leetcode.com/problems/equal-row-and-column-pairs/[LeetCode - 2352. Equal Row and Column Pairs ^]
+{leetcode}/problems/equal-row-and-column-pairs/[LeetCode - 2352. Equal Row and Column Pairs ^]
 
 Given a *0-indexed* `n x n` integer matrix `grid`, _return the number of pairs _`(r<sub>i</sub>, c<sub>j</sub>)`_ such that row _`r<sub>i</sub>`_ and column _`c<sub>j</sub>`_ are equal_.
 

@@ -1,7 +1,7 @@
 [#3108-minimum-cost-walk-in-weighted-graph]
 = 3108. Minimum Cost Walk in Weighted Graph
 
-https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/[LeetCode - 3108. Minimum Cost Walk in Weighted Graph ^]
+{leetcode}/problems/minimum-cost-walk-in-weighted-graph/[LeetCode - 3108. Minimum Cost Walk in Weighted Graph ^]
 
 There is an undirected weighted graph with `n` vertices labeled from `0` to `n - 1`.
 

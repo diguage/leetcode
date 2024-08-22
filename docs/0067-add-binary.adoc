@@ -1,7 +1,7 @@
 [#0067-add-binary]
 = 67. Add Binary
 
-https://leetcode.com/problems/add-binary/[LeetCode - Add Binary^]
+{leetcode}/problems/add-binary/[LeetCode - Add Binary^]
 
 Given two binary strings, return their sum (also a binary string).
 

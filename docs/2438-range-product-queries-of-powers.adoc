@@ -1,7 +1,7 @@
 [#2438-range-product-queries-of-powers]
 = 2438. Range Product Queries of Powers
 
-https://leetcode.com/problems/range-product-queries-of-powers/[LeetCode - 2438. Range Product Queries of Powers ^]
+{leetcode}/problems/range-product-queries-of-powers/[LeetCode - 2438. Range Product Queries of Powers ^]
 
 Given a positive integer `n`, there exists a *0-indexed* array called `powers`, composed of the *minimum* number of powers of `2` that sum to `n`. The array is sorted in *non-decreasing* order, and there is *only one* way to form the array.
 

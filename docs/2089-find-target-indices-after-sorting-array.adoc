@@ -1,7 +1,7 @@
 [#2089-find-target-indices-after-sorting-array]
 = 2089. Find Target Indices After Sorting Array
 
-https://leetcode.com/problems/find-target-indices-after-sorting-array/[LeetCode - 2089. Find Target Indices After Sorting Array ^]
+{leetcode}/problems/find-target-indices-after-sorting-array/[LeetCode - 2089. Find Target Indices After Sorting Array ^]
 
 You are given a *0-indexed* integer array `nums` and a target element `target`.
 

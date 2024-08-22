@@ -1,7 +1,7 @@
 [#0532-k-diff-pairs-in-an-array]
 = 532. K-diff Pairs in an Array
 
-https://leetcode.com/problems/k-diff-pairs-in-an-array/[LeetCode - K-diff Pairs in an Array^]
+{leetcode}/problems/k-diff-pairs-in-an-array/[LeetCode - K-diff Pairs in an Array^]
 
 
 Given an array of integers and an integer *k*, you need to find the number of *unique* k-diff pairs in the array. Here a *k-diff* pair is defined as an integer pair (i, j), where *i* and *j* are both numbers in the array and their <a href = "https://en.wikipedia.org/wiki/Absolute_difference">absolute difference</a> is *k*.

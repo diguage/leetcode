@@ -1,7 +1,7 @@
 [#0022-generate-parentheses]
 = 22. Generate Parentheses
 
-https://leetcode.com/problems/generate-parentheses/[LeetCode - Generate Parentheses^]
+{leetcode}/problems/generate-parentheses/[LeetCode - Generate Parentheses^]
 
 Given _n_ pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 

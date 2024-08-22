@@ -1,7 +1,7 @@
 [#2906-construct-product-matrix]
 = 2906. Construct Product Matrix
 
-https://leetcode.com/problems/construct-product-matrix/[LeetCode - 2906. Construct Product Matrix ^]
+{leetcode}/problems/construct-product-matrix/[LeetCode - 2906. Construct Product Matrix ^]
 
 Given a *0-indexed* 2D integer matrix `<font face="monospace">grid`<font face="monospace"> of size `n * m`, we define a *0-indexed* 2D matrix `p` of size `n * m` as the *product* matrix of `grid` if the following condition is met:
 

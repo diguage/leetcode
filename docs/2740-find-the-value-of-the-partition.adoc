@@ -1,7 +1,7 @@
 [#2740-find-the-value-of-the-partition]
 = 2740. Find the Value of the Partition
 
-https://leetcode.com/problems/find-the-value-of-the-partition/[LeetCode - 2740. Find the Value of the Partition ^]
+{leetcode}/problems/find-the-value-of-the-partition/[LeetCode - 2740. Find the Value of the Partition ^]
 
 You are given a *positive* integer array `nums`.
 

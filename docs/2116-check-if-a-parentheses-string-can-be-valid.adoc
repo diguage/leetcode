@@ -1,7 +1,7 @@
 [#2116-check-if-a-parentheses-string-can-be-valid]
 = 2116. Check if a Parentheses String Can Be Valid
 
-https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/[LeetCode - 2116. Check if a Parentheses String Can Be Valid ^]
+{leetcode}/problems/check-if-a-parentheses-string-can-be-valid/[LeetCode - 2116. Check if a Parentheses String Can Be Valid ^]
 
 A parentheses string is a *non-empty* string consisting only of `'('` and `')'`. It is valid if *any* of the following conditions is *true*:
 

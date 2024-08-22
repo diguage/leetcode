@@ -1,7 +1,7 @@
 [#3227-vowels-game-in-a-string]
 = 3227. Vowels Game in a String
 
-https://leetcode.com/problems/vowels-game-in-a-string/[LeetCode - 3227. Vowels Game in a String ^]
+{leetcode}/problems/vowels-game-in-a-string/[LeetCode - 3227. Vowels Game in a String ^]
 
 Alice and Bob are playing a game on a string.
 

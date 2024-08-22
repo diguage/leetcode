@@ -1,7 +1,7 @@
 [#2129-capitalize-the-title]
 = 2129. Capitalize the Title
 
-https://leetcode.com/problems/capitalize-the-title/[LeetCode - 2129. Capitalize the Title ^]
+{leetcode}/problems/capitalize-the-title/[LeetCode - 2129. Capitalize the Title ^]
 
 You are given a string `title` consisting of one or more words separated by a single space, where each word consists of English letters. *Capitalize* the string by changing the capitalization of each word such that:
 

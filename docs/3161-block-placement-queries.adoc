@@ -1,7 +1,7 @@
 [#3161-block-placement-queries]
 = 3161. Block Placement Queries
 
-https://leetcode.com/problems/block-placement-queries/[LeetCode - 3161. Block Placement Queries ^]
+{leetcode}/problems/block-placement-queries/[LeetCode - 3161. Block Placement Queries ^]
 
 There exists an infinite number line, with its origin at 0 and extending towards the *positive* x-axis.
 

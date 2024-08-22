@@ -1,7 +1,7 @@
 [#2659-make-array-empty]
 = 2659. Make Array Empty
 
-https://leetcode.com/problems/make-array-empty/[LeetCode - 2659. Make Array Empty ^]
+{leetcode}/problems/make-array-empty/[LeetCode - 2659. Make Array Empty ^]
 
 You are given an integer array `nums` containing *distinct* numbers, and you can perform the following operations *until the array is empty*:
 

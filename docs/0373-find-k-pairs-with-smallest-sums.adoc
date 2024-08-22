@@ -1,7 +1,7 @@
 [#0373-find-k-pairs-with-smallest-sums]
 = 373. Find K Pairs with Smallest Sums
 
-https://leetcode.com/problems/find-k-pairs-with-smallest-sums/[LeetCode - Find K Pairs with Smallest Sums^]
+{leetcode}/problems/find-k-pairs-with-smallest-sums/[LeetCode - Find K Pairs with Smallest Sums^]
 
 You are given two integer arrays *nums1* and *nums2* sorted in ascending order and an integer *k*.
 

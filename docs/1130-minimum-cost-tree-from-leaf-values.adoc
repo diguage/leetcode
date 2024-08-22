@@ -1,7 +1,7 @@
 [#1130-minimum-cost-tree-from-leaf-values]
 = 1130. Minimum Cost Tree From Leaf Values
 
-https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/[LeetCode - Minimum Cost Tree From Leaf Values^]
+{leetcode}/problems/minimum-cost-tree-from-leaf-values/[LeetCode - Minimum Cost Tree From Leaf Values^]
 
 Given an array `arr` of positive integers, consider all binary trees such that:
 

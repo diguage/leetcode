@@ -1,7 +1,7 @@
 [#1033-moving-stones-until-consecutive]
 = 1033. Moving Stones Until Consecutive
 
-https://leetcode.com/problems/moving-stones-until-consecutive/[LeetCode - Moving Stones Until Consecutive^]
+{leetcode}/problems/moving-stones-until-consecutive/[LeetCode - Moving Stones Until Consecutive^]
 
 Three stones are on a number line at positions `a`, `b`, and `c`.
 

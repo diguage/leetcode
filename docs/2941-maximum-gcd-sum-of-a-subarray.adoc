@@ -1,7 +1,7 @@
 [#2941-maximum-gcd-sum-of-a-subarray]
 = 2941. Maximum GCD-Sum of a Subarray
 
-https://leetcode.com/problems/maximum-gcd-sum-of-a-subarray/[LeetCode - 2941. Maximum GCD-Sum of a Subarray ^]
+{leetcode}/problems/maximum-gcd-sum-of-a-subarray/[LeetCode - 2941. Maximum GCD-Sum of a Subarray ^]
 
 
 

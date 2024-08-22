@@ -1,7 +1,7 @@
 [#1447-simplified-fractions]
 = 1447. Simplified Fractions
 
-https://leetcode.com/problems/simplified-fractions/[LeetCode - 1447. Simplified Fractions ^]
+{leetcode}/problems/simplified-fractions/[LeetCode - 1447. Simplified Fractions ^]
 
 Given an integer `n`, return _a list of all *simplified* fractions between _`0`_ and _`1`_ (exclusive) such that the denominator is less-than-or-equal-to _`n`. You can return the answer in *any order*.
 

@@ -1,7 +1,7 @@
 [#2622-cache-with-time-limit]
 = 2622. Cache With Time Limit
 
-https://leetcode.com/problems/cache-with-time-limit/[LeetCode - 2622. Cache With Time Limit ^]
+{leetcode}/problems/cache-with-time-limit/[LeetCode - 2622. Cache With Time Limit ^]
 
 Write a class that allows getting and setting key-value pairs, however a *time until expiration* is associated with each key.
 

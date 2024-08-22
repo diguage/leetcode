@@ -1,7 +1,7 @@
 [#2190-most-frequent-number-following-key-in-an-array]
 = 2190. Most Frequent Number Following Key In an Array
 
-https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/[LeetCode - 2190. Most Frequent Number Following Key In an Array ^]
+{leetcode}/problems/most-frequent-number-following-key-in-an-array/[LeetCode - 2190. Most Frequent Number Following Key In an Array ^]
 
 You are given a *0-indexed* integer array `nums`.* *You are also given an integer `key`, which is present in `nums`.
 

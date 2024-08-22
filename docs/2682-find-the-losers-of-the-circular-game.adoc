@@ -1,7 +1,7 @@
 [#2682-find-the-losers-of-the-circular-game]
 = 2682. Find the Losers of the Circular Game
 
-https://leetcode.com/problems/find-the-losers-of-the-circular-game/[LeetCode - 2682. Find the Losers of the Circular Game ^]
+{leetcode}/problems/find-the-losers-of-the-circular-game/[LeetCode - 2682. Find the Losers of the Circular Game ^]
 
 There are `n` friends that are playing a game. The friends are sitting in a circle and are numbered from `1` to `n` in *clockwise order*. More formally, moving clockwise from the `i^th^` friend brings you to the `(i+1)^th^` friend for `1 <= i < n`, and moving clockwise from the `n^th^` friend brings you to the `1^st^` friend.
 

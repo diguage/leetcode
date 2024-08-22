@@ -1,7 +1,7 @@
 [#0673-number-of-longest-increasing-subsequence]
 = 673. Number of Longest Increasing Subsequence
 
-https://leetcode.com/problems/number-of-longest-increasing-subsequence/[LeetCode - Number of Longest Increasing Subsequence^]
+{leetcode}/problems/number-of-longest-increasing-subsequence/[LeetCode - Number of Longest Increasing Subsequence^]
 
 
 Given an unsorted array of integers, find the number of longest increasing subsequence.

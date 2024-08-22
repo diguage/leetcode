@@ -1,7 +1,7 @@
 [#3076-shortest-uncommon-substring-in-an-array]
 = 3076. Shortest Uncommon Substring in an Array
 
-https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/[LeetCode - 3076. Shortest Uncommon Substring in an Array ^]
+{leetcode}/problems/shortest-uncommon-substring-in-an-array/[LeetCode - 3076. Shortest Uncommon Substring in an Array ^]
 
 You are given an array `arr` of size `n` consisting of *non-empty* strings.
 

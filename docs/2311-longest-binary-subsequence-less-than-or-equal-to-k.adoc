@@ -1,7 +1,7 @@
 [#2311-longest-binary-subsequence-less-than-or-equal-to-k]
 = 2311. Longest Binary Subsequence Less Than or Equal to K
 
-https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/[LeetCode - 2311. Longest Binary Subsequence Less Than or Equal to K ^]
+{leetcode}/problems/longest-binary-subsequence-less-than-or-equal-to-k/[LeetCode - 2311. Longest Binary Subsequence Less Than or Equal to K ^]
 
 You are given a binary string `s` and a positive integer `k`.
 

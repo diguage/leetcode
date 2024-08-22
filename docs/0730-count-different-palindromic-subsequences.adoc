@@ -1,7 +1,7 @@
 [#0730-count-different-palindromic-subsequences]
 = 730. Count Different Palindromic Subsequences
 
-https://leetcode.com/problems/count-different-palindromic-subsequences/[LeetCode - Count Different Palindromic Subsequences^]
+{leetcode}/problems/count-different-palindromic-subsequences/[LeetCode - Count Different Palindromic Subsequences^]
 
 
 Given a string S, find the number of different non-empty palindromic subsequences in S, and *return that number modulo `10^9 + 7`.*

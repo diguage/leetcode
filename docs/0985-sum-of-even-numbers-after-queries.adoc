@@ -1,7 +1,7 @@
 [#0985-sum-of-even-numbers-after-queries]
 = 985. Sum of Even Numbers After Queries
 
-https://leetcode.com/problems/sum-of-even-numbers-after-queries/[LeetCode - Sum of Even Numbers After Queries^]
+{leetcode}/problems/sum-of-even-numbers-after-queries/[LeetCode - Sum of Even Numbers After Queries^]
 
 We have an array `A` of integers, and an array `queries` of queries.
 

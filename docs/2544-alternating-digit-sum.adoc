@@ -1,7 +1,7 @@
 [#2544-alternating-digit-sum]
 = 2544. Alternating Digit Sum
 
-https://leetcode.com/problems/alternating-digit-sum/[LeetCode - 2544. Alternating Digit Sum ^]
+{leetcode}/problems/alternating-digit-sum/[LeetCode - 2544. Alternating Digit Sum ^]
 
 You are given a positive integer `n`. Each digit of `n` has a sign according to the following rules:
 

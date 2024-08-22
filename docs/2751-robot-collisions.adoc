@@ -1,7 +1,7 @@
 [#2751-robot-collisions]
 = 2751. Robot Collisions
 
-https://leetcode.com/problems/robot-collisions/[LeetCode - 2751. Robot Collisions ^]
+{leetcode}/problems/robot-collisions/[LeetCode - 2751. Robot Collisions ^]
 
 There are `n` *1-indexed* robots, each having a position on a line, health, and movement direction.
 

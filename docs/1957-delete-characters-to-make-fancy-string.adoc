@@ -1,7 +1,7 @@
 [#1957-delete-characters-to-make-fancy-string]
 = 1957. Delete Characters to Make Fancy String
 
-https://leetcode.com/problems/delete-characters-to-make-fancy-string/[LeetCode - 1957. Delete Characters to Make Fancy String ^]
+{leetcode}/problems/delete-characters-to-make-fancy-string/[LeetCode - 1957. Delete Characters to Make Fancy String ^]
 
 A *fancy string* is a string where no *three* *consecutive* characters are equal.
 

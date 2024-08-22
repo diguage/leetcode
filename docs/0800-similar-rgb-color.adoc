@@ -1,7 +1,7 @@
 [#0800-similar-rgb-color]
 = 800. Similar RGB Color
 
-https://leetcode.com/problems/similar-rgb-color/[LeetCode - Similar RGB Color^]
+{leetcode}/problems/similar-rgb-color/[LeetCode - Similar RGB Color^]
 
 
 

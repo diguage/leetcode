@@ -1,7 +1,7 @@
 [#1907-count-salary-categories]
 = 1907. Count Salary Categories
 
-https://leetcode.com/problems/count-salary-categories/[LeetCode - 1907. Count Salary Categories ^]
+{leetcode}/problems/count-salary-categories/[LeetCode - 1907. Count Salary Categories ^]
 
 Table: `Accounts`
 

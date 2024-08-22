@@ -1,7 +1,7 @@
 [#0501-find-mode-in-binary-search-tree]
 = 501. Find Mode in Binary Search Tree
 
-https://leetcode.com/problems/find-mode-in-binary-search-tree/[LeetCode - Find Mode in Binary Search Tree^]
+{leetcode}/problems/find-mode-in-binary-search-tree/[LeetCode - Find Mode in Binary Search Tree^]
 
 Given a binary search tree (BST) with duplicates, find all the https://en.wikipedia.org/wiki/Mode_(statistics)[mode(s)^] (the most frequently occurred element) in the given BST.
 

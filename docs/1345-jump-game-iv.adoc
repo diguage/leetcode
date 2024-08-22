@@ -1,7 +1,7 @@
 [#1345-jump-game-iv]
 = 1345. Jump Game IV
 
-https://leetcode.com/problems/jump-game-iv/[LeetCode - 1345. Jump Game IV ^]
+{leetcode}/problems/jump-game-iv/[LeetCode - 1345. Jump Game IV ^]
 
 Given an array of integers `arr`, you are initially positioned at the first index of the array.
 

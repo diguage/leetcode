@@ -1,7 +1,7 @@
 [#2131-longest-palindrome-by-concatenating-two-letter-words]
 = 2131. Longest Palindrome by Concatenating Two Letter Words
 
-https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/[LeetCode - 2131. Longest Palindrome by Concatenating Two Letter Words ^]
+{leetcode}/problems/longest-palindrome-by-concatenating-two-letter-words/[LeetCode - 2131. Longest Palindrome by Concatenating Two Letter Words ^]
 
 You are given an array of strings `words`. Each element of `words` consists of *two* lowercase English letters.
 

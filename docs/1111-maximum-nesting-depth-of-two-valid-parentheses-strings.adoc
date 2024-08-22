@@ -1,7 +1,7 @@
 [#1111-maximum-nesting-depth-of-two-valid-parentheses-strings]
 = 1111. Maximum Nesting Depth of Two Valid Parentheses Strings
 
-https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/[LeetCode - Maximum Nesting Depth of Two Valid Parentheses Strings^]
+{leetcode}/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/[LeetCode - Maximum Nesting Depth of Two Valid Parentheses Strings^]
 
 A string is a _valid parentheses string_ (denoted VPS) if and only if it consists of `"("` and `")"` characters only, and:
 

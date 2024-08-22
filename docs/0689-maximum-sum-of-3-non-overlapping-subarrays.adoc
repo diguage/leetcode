@@ -1,7 +1,7 @@
 [#0689-maximum-sum-of-3-non-overlapping-subarrays]
 = 689. Maximum Sum of 3 Non-Overlapping Subarrays
 
-https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/[LeetCode - Maximum Sum of 3 Non-Overlapping Subarrays^]
+{leetcode}/problems/maximum-sum-of-3-non-overlapping-subarrays/[LeetCode - Maximum Sum of 3 Non-Overlapping Subarrays^]
 
 In a given array `nums` of positive integers, find three non-overlapping subarrays with maximum sum.
 

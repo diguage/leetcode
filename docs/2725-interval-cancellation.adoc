@@ -1,7 +1,7 @@
 [#2725-interval-cancellation]
 = 2725. Interval Cancellation
 
-https://leetcode.com/problems/interval-cancellation/[LeetCode - 2725. Interval Cancellation ^]
+{leetcode}/problems/interval-cancellation/[LeetCode - 2725. Interval Cancellation ^]
 
 Given a function `fn`, an array of arguments `args`, and an interval time `t`, return a cancel function `cancelFn`.
 

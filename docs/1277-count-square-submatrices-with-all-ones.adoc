@@ -1,7 +1,7 @@
 [#1277-count-square-submatrices-with-all-ones]
 = 1277. Count Square Submatrices with All Ones
 
-https://leetcode.com/problems/count-square-submatrices-with-all-ones/[LeetCode - Count Square Submatrices with All Ones^]
+{leetcode}/problems/count-square-submatrices-with-all-ones/[LeetCode - Count Square Submatrices with All Ones^]
 
 Given a `m * n` matrix of ones and zeros, return how many *square* submatrices have all ones.
 

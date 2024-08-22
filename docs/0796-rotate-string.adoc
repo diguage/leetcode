@@ -1,7 +1,7 @@
 [#0796-rotate-string]
 = 796. Rotate String
 
-https://leetcode.com/problems/rotate-string/[LeetCode - Rotate String^]
+{leetcode}/problems/rotate-string/[LeetCode - Rotate String^]
 
 We are given two strings, `A` and `B`.
 

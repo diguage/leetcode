@@ -1,7 +1,7 @@
 [#1340-jump-game-v]
 = 1340. Jump Game V
 
-https://leetcode.com/problems/jump-game-v/[LeetCode - Jump Game V^]
+{leetcode}/problems/jump-game-v/[LeetCode - Jump Game V^]
 
 Given an array of integers `arr` and an integer `d`. In one step you can jump from index `i` to index:
 

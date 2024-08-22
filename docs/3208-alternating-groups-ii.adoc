@@ -1,7 +1,7 @@
 [#3208-alternating-groups-ii]
 = 3208. Alternating Groups II
 
-https://leetcode.com/problems/alternating-groups-ii/[LeetCode - 3208. Alternating Groups II ^]
+{leetcode}/problems/alternating-groups-ii/[LeetCode - 3208. Alternating Groups II ^]
 
 There is a circle of red and blue tiles. You are given an array of integers `colors` and an integer `k`. The color of tile `i` is represented by `colors[i]`:
 

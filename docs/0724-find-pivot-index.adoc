@@ -1,7 +1,7 @@
 [#0724-find-pivot-index]
 = 724. Find Pivot Index
 
-https://leetcode.com/problems/find-pivot-index/[LeetCode - Find Pivot Index^]
+{leetcode}/problems/find-pivot-index/[LeetCode - Find Pivot Index^]
 
 Given an array of integers `nums`, write a method that returns the "pivot" index of this array.
 

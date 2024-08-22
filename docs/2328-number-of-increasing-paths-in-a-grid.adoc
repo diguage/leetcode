@@ -1,7 +1,7 @@
 [#2328-number-of-increasing-paths-in-a-grid]
 = 2328. Number of Increasing Paths in a Grid
 
-https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/[LeetCode - 2328. Number of Increasing Paths in a Grid ^]
+{leetcode}/problems/number-of-increasing-paths-in-a-grid/[LeetCode - 2328. Number of Increasing Paths in a Grid ^]
 
 You are given an `m x n` integer matrix `grid`, where you can move from a cell to any adjacent cell in all `4` directions.
 

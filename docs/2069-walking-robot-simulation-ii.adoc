@@ -1,7 +1,7 @@
 [#2069-walking-robot-simulation-ii]
 = 2069. Walking Robot Simulation II
 
-https://leetcode.com/problems/walking-robot-simulation-ii/[LeetCode - 2069. Walking Robot Simulation II ^]
+{leetcode}/problems/walking-robot-simulation-ii/[LeetCode - 2069. Walking Robot Simulation II ^]
 
 A `width x height` grid is on an XY-plane with the *bottom-left* cell at `(0, 0)` and the *top-right* cell at `(width - 1, height - 1)`. The grid is aligned with the four cardinal directions (`"North"`, `"East"`, `"South"`, and `"West"`). A robot is *initially* at cell `(0, 0)` facing direction `"East"`.
 

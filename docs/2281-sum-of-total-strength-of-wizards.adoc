@@ -1,7 +1,7 @@
 [#2281-sum-of-total-strength-of-wizards]
 = 2281. Sum of Total Strength of Wizards
 
-https://leetcode.com/problems/sum-of-total-strength-of-wizards/[LeetCode - 2281. Sum of Total Strength of Wizards ^]
+{leetcode}/problems/sum-of-total-strength-of-wizards/[LeetCode - 2281. Sum of Total Strength of Wizards ^]
 
 As the ruler of a kingdom, you have an army of wizards at your command.
 

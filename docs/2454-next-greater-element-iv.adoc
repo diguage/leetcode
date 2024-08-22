@@ -1,7 +1,7 @@
 [#2454-next-greater-element-iv]
 = 2454. Next Greater Element IV
 
-https://leetcode.com/problems/next-greater-element-iv/[LeetCode - 2454. Next Greater Element IV ^]
+{leetcode}/problems/next-greater-element-iv/[LeetCode - 2454. Next Greater Element IV ^]
 
 You are given a *0-indexed* array of non-negative integers `nums`. For each integer in `nums`, you must find its respective *second greater* integer.
 

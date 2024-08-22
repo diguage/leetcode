@@ -1,7 +1,7 @@
 [#0818-race-car]
 = 818. Race Car
 
-https://leetcode.com/problems/race-car/[LeetCode - Race Car^]
+{leetcode}/problems/race-car/[LeetCode - Race Car^]
 
 Your car starts at position 0 and speed +1 on an infinite number line.  (Your car can go into negative positions.)
 

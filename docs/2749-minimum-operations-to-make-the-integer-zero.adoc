@@ -1,7 +1,7 @@
 [#2749-minimum-operations-to-make-the-integer-zero]
 = 2749. Minimum Operations to Make the Integer Zero
 
-https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/[LeetCode - 2749. Minimum Operations to Make the Integer Zero ^]
+{leetcode}/problems/minimum-operations-to-make-the-integer-zero/[LeetCode - 2749. Minimum Operations to Make the Integer Zero ^]
 
 You are given two integers `num1` and `num2`.
 

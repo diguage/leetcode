@@ -1,7 +1,7 @@
 [#1441-build-an-array-with-stack-operations]
 = 1441. Build an Array With Stack Operations
 
-https://leetcode.com/problems/build-an-array-with-stack-operations/[LeetCode - 1441. Build an Array With Stack Operations ^]
+{leetcode}/problems/build-an-array-with-stack-operations/[LeetCode - 1441. Build an Array With Stack Operations ^]
 
 You are given an integer array `target` and an integer `n`.
 

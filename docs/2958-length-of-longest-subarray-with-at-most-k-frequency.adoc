@@ -1,7 +1,7 @@
 [#2958-length-of-longest-subarray-with-at-most-k-frequency]
 = 2958. Length of Longest Subarray With at Most K Frequency
 
-https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/[LeetCode - 2958. Length of Longest Subarray With at Most K Frequency ^]
+{leetcode}/problems/length-of-longest-subarray-with-at-most-k-frequency/[LeetCode - 2958. Length of Longest Subarray With at Most K Frequency ^]
 
 You are given an integer array `nums` and an integer `k`.
 

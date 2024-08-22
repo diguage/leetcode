@@ -1,7 +1,7 @@
 [#2508-add-edges-to-make-degrees-of-all-nodes-even]
 = 2508. Add Edges to Make Degrees of All Nodes Even
 
-https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even/[LeetCode - 2508. Add Edges to Make Degrees of All Nodes Even ^]
+{leetcode}/problems/add-edges-to-make-degrees-of-all-nodes-even/[LeetCode - 2508. Add Edges to Make Degrees of All Nodes Even ^]
 
 There is an *undirected* graph consisting of `n` nodes numbered from `1` to `n`. You are given the integer `n` and a *2D* array `edges` where `edges[i] = [a<sub>i</sub>, b<sub>i</sub>]` indicates that there is an edge between nodes `a<sub>i</sub>` and `b<sub>i</sub>`. The graph can be disconnected.
 

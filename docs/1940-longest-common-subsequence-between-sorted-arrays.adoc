@@ -1,7 +1,7 @@
 [#1940-longest-common-subsequence-between-sorted-arrays]
 = 1940. Longest Common Subsequence Between Sorted Arrays
 
-https://leetcode.com/problems/longest-common-subsequence-between-sorted-arrays/[LeetCode - 1940. Longest Common Subsequence Between Sorted Arrays ^]
+{leetcode}/problems/longest-common-subsequence-between-sorted-arrays/[LeetCode - 1940. Longest Common Subsequence Between Sorted Arrays ^]
 
 
 

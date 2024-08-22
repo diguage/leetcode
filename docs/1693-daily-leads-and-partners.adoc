@@ -1,7 +1,7 @@
 [#1693-daily-leads-and-partners]
 = 1693. Daily Leads and Partners
 
-https://leetcode.com/problems/daily-leads-and-partners/[LeetCode - 1693. Daily Leads and Partners ^]
+{leetcode}/problems/daily-leads-and-partners/[LeetCode - 1693. Daily Leads and Partners ^]
 
 Table: `DailySales`
 

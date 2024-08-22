@@ -1,7 +1,7 @@
 [#0684-redundant-connection]
 = 684. Redundant Connection
 
-https://leetcode.com/problems/redundant-connection/[LeetCode - Redundant Connection^]
+{leetcode}/problems/redundant-connection/[LeetCode - Redundant Connection^]
 
 
 In this problem, a tree is an *undirected* graph that is connected and has no cycles.
@@ -50,7 +50,7 @@ Return an edge that can be removed so that the resulting graph is a tree of N no
 
 
 *<font color="red">Update (2017-09-26):*
-We have overhauled the problem description + test cases and specified clearly the graph is an *_undirected_* graph. For the *_directed_* graph follow up please see *<a href="https://leetcode.com/problems/redundant-connection-ii/description/">Redundant Connection II</a>*). We apologize for any inconvenience caused.
+We have overhauled the problem description + test cases and specified clearly the graph is an *_undirected_* graph. For the *_directed_* graph follow up please see *<a href="{leetcode}/problems/redundant-connection-ii/description/">Redundant Connection II</a>*). We apologize for any inconvenience caused.
 
 
 

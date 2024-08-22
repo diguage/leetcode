@@ -1,7 +1,7 @@
 [#3028-ant-on-the-boundary]
 = 3028. Ant on the Boundary
 
-https://leetcode.com/problems/ant-on-the-boundary/[LeetCode - 3028. Ant on the Boundary ^]
+{leetcode}/problems/ant-on-the-boundary/[LeetCode - 3028. Ant on the Boundary ^]
 
 An ant is on a boundary. It sometimes goes *left* and sometimes *right*.
 

@@ -1,7 +1,7 @@
 [#0843-guess-the-word]
 = 843. Guess the Word
 
-https://leetcode.com/problems/guess-the-word/[LeetCode - Guess the Word^]
+{leetcode}/problems/guess-the-word/[LeetCode - Guess the Word^]
 
 This problem is an *_interactive problem_* new to the LeetCode platform.
 

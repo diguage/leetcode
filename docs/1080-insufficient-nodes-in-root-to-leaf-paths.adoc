@@ -1,7 +1,7 @@
 [#1080-insufficient-nodes-in-root-to-leaf-paths]
 = 1080. Insufficient Nodes in Root to Leaf Paths
 
-https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/[LeetCode - Insufficient Nodes in Root to Leaf Paths^]
+{leetcode}/problems/insufficient-nodes-in-root-to-leaf-paths/[LeetCode - Insufficient Nodes in Root to Leaf Paths^]
 
 Given the `root` of a binary tree, consider all _root to leaf paths_: paths from the root to any leaf.  (A leaf is a node with no children.)
 

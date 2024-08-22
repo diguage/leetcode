@@ -1,7 +1,7 @@
 [#0690-employee-importance]
 = 690. Employee Importance
 
-https://leetcode.com/problems/employee-importance/[LeetCode - Employee Importance^]
+{leetcode}/problems/employee-importance/[LeetCode - Employee Importance^]
 
 You are given a data structure of employee information, which includes the employee's *unique id*, his *importance value* and his *direct* subordinates' id.
 

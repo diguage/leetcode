@@ -1,7 +1,7 @@
 [#2705-compact-object]
 = 2705. Compact Object
 
-https://leetcode.com/problems/compact-object/[LeetCode - 2705. Compact Object ^]
+{leetcode}/problems/compact-object/[LeetCode - 2705. Compact Object ^]
 
 Given an object or array `obj`, return a *compact object*.
 

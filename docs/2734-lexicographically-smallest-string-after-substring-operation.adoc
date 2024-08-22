@@ -1,7 +1,7 @@
 [#2734-lexicographically-smallest-string-after-substring-operation]
 = 2734. Lexicographically Smallest String After Substring Operation
 
-https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/[LeetCode - 2734. Lexicographically Smallest String After Substring Operation ^]
+{leetcode}/problems/lexicographically-smallest-string-after-substring-operation/[LeetCode - 2734. Lexicographically Smallest String After Substring Operation ^]
 
 Given a string `s` consisting of lowercase English letters. Perform the following operation:
 

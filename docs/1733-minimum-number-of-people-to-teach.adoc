@@ -1,7 +1,7 @@
 [#1733-minimum-number-of-people-to-teach]
 = 1733. Minimum Number of People to Teach
 
-https://leetcode.com/problems/minimum-number-of-people-to-teach/[LeetCode - 1733. Minimum Number of People to Teach ^]
+{leetcode}/problems/minimum-number-of-people-to-teach/[LeetCode - 1733. Minimum Number of People to Teach ^]
 
 On a social network consisting of `m` users and some friendships between users, two users can communicate with each other if they know a common language.
 

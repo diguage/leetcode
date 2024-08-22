@@ -1,7 +1,7 @@
 [#2569-handling-sum-queries-after-update]
 = 2569. Handling Sum Queries After Update
 
-https://leetcode.com/problems/handling-sum-queries-after-update/[LeetCode - 2569. Handling Sum Queries After Update ^]
+{leetcode}/problems/handling-sum-queries-after-update/[LeetCode - 2569. Handling Sum Queries After Update ^]
 
 You are given two *0-indexed* arrays `nums1` and `nums2` and a 2D array `queries` of queries. There are three types of queries:
 

@@ -1,7 +1,7 @@
 [#1433-check-if-a-string-can-break-another-string]
 = 1433. Check If a String Can Break Another String
 
-https://leetcode.com/problems/check-if-a-string-can-break-another-string/[LeetCode - 1433. Check If a String Can Break Another String ^]
+{leetcode}/problems/check-if-a-string-can-break-another-string/[LeetCode - 1433. Check If a String Can Break Another String ^]
 
 Given two strings: `s1` and `s2` with the same size, check if some permutation of string `s1` can break some permutation of string `s2` or vice-versa. In other words `s2` can break `s1` or vice-versa.
 

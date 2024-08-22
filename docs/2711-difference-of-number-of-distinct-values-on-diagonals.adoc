@@ -1,7 +1,7 @@
 [#2711-difference-of-number-of-distinct-values-on-diagonals]
 = 2711. Difference of Number of Distinct Values on Diagonals
 
-https://leetcode.com/problems/difference-of-number-of-distinct-values-on-diagonals/[LeetCode - 2711. Difference of Number of Distinct Values on Diagonals ^]
+{leetcode}/problems/difference-of-number-of-distinct-values-on-diagonals/[LeetCode - 2711. Difference of Number of Distinct Values on Diagonals ^]
 
 Given a 2D `grid` of size `m x n`, you should find the matrix `answer` of size `m x n`.
 

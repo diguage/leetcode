@@ -1,7 +1,7 @@
 [#2903-find-indices-with-index-and-value-difference-i]
 = 2903. Find Indices With Index and Value Difference I
 
-https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/[LeetCode - 2903. Find Indices With Index and Value Difference I ^]
+{leetcode}/problems/find-indices-with-index-and-value-difference-i/[LeetCode - 2903. Find Indices With Index and Value Difference I ^]
 
 You are given a *0-indexed* integer array `nums` having length `n`, an integer `indexDifference`, and an integer `valueDifference`.
 

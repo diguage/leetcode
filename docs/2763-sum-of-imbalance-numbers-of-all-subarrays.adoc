@@ -1,7 +1,7 @@
 [#2763-sum-of-imbalance-numbers-of-all-subarrays]
 = 2763. Sum of Imbalance Numbers of All Subarrays
 
-https://leetcode.com/problems/sum-of-imbalance-numbers-of-all-subarrays/[LeetCode - 2763. Sum of Imbalance Numbers of All Subarrays ^]
+{leetcode}/problems/sum-of-imbalance-numbers-of-all-subarrays/[LeetCode - 2763. Sum of Imbalance Numbers of All Subarrays ^]
 
 The *imbalance number* of a *0-indexed* integer array `arr` of length `n` is defined as the number of indices in `sarr = sorted(arr)` such that:
 

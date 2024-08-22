@@ -1,7 +1,7 @@
 [#2536-increment-submatrices-by-one]
 = 2536. Increment Submatrices by One
 
-https://leetcode.com/problems/increment-submatrices-by-one/[LeetCode - 2536. Increment Submatrices by One ^]
+{leetcode}/problems/increment-submatrices-by-one/[LeetCode - 2536. Increment Submatrices by One ^]
 
 You are given a positive integer `n`, indicating that we initially have an `n x n` *0-indexed* integer matrix `mat` filled with zeroes.
 

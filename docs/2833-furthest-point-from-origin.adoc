@@ -1,7 +1,7 @@
 [#2833-furthest-point-from-origin]
 = 2833. Furthest Point From Origin
 
-https://leetcode.com/problems/furthest-point-from-origin/[LeetCode - 2833. Furthest Point From Origin ^]
+{leetcode}/problems/furthest-point-from-origin/[LeetCode - 2833. Furthest Point From Origin ^]
 
 You are given a string `moves` of length `n` consisting only of characters `'L'`, `'R'`, and `'_'`. The string represents your movement on a number line starting from the origin `0`.
 

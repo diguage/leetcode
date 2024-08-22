@@ -1,7 +1,7 @@
 [#0014-longest-common-prefix]
 = 14. Longest Common Prefix
 
-https://leetcode.com/problems/longest-common-prefix/[LeetCode - Longest Common Prefix^]
+{leetcode}/problems/longest-common-prefix/[LeetCode - Longest Common Prefix^]
 
 Write a function to find the longest common prefix string amongst an array of strings.
 

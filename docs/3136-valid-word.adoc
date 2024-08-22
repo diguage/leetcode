@@ -1,7 +1,7 @@
 [#3136-valid-word]
 = 3136. Valid Word
 
-https://leetcode.com/problems/valid-word/[LeetCode - 3136. Valid Word ^]
+{leetcode}/problems/valid-word/[LeetCode - 3136. Valid Word ^]
 
 A word is considered *valid* if:
 

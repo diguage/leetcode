@@ -1,7 +1,7 @@
 [#3066-minimum-operations-to-exceed-threshold-value-ii]
 = 3066. Minimum Operations to Exceed Threshold Value II
 
-https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/[LeetCode - 3066. Minimum Operations to Exceed Threshold Value II ^]
+{leetcode}/problems/minimum-operations-to-exceed-threshold-value-ii/[LeetCode - 3066. Minimum Operations to Exceed Threshold Value II ^]
 
 You are given a *0-indexed* integer array `nums`, and an integer `k`.
 

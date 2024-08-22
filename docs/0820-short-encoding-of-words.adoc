@@ -1,7 +1,7 @@
 [#0820-short-encoding-of-words]
 = 820. Short Encoding of Words
 
-https://leetcode.com/problems/short-encoding-of-words/[LeetCode - Short Encoding of Words^]
+{leetcode}/problems/short-encoding-of-words/[LeetCode - Short Encoding of Words^]
 
 Given a list of words, we may encode it by writing a reference string `S` and a list of indexes `A`.
 

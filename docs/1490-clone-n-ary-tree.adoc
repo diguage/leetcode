@@ -1,7 +1,7 @@
 [#1490-clone-n-ary-tree]
 = 1490. Clone N-ary Tree
 
-https://leetcode.com/problems/clone-n-ary-tree/[LeetCode - 1490. Clone N-ary Tree ^]
+{leetcode}/problems/clone-n-ary-tree/[LeetCode - 1490. Clone N-ary Tree ^]
 
 
 

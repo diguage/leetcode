@@ -1,7 +1,7 @@
 [#2747-count-zero-request-servers]
 = 2747. Count Zero Request Servers
 
-https://leetcode.com/problems/count-zero-request-servers/[LeetCode - 2747. Count Zero Request Servers ^]
+{leetcode}/problems/count-zero-request-servers/[LeetCode - 2747. Count Zero Request Servers ^]
 
 You are given an integer `n` denoting the total number of servers and a *2D* *0-indexed *integer array `logs`, where `logs[i] = [server_id, time]` denotes that the server with id `server_id` received a request at time `time`.
 

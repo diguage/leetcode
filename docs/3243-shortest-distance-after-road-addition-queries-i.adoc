@@ -1,7 +1,7 @@
 [#3243-shortest-distance-after-road-addition-queries-i]
 = 3243. Shortest Distance After Road Addition Queries I
 
-https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/[LeetCode - 3243. Shortest Distance After Road Addition Queries I ^]
+{leetcode}/problems/shortest-distance-after-road-addition-queries-i/[LeetCode - 3243. Shortest Distance After Road Addition Queries I ^]
 
 You are given an integer `n` and a 2D integer array `queries`.
 

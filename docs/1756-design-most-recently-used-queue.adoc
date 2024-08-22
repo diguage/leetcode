@@ -1,7 +1,7 @@
 [#1756-design-most-recently-used-queue]
 = 1756. Design Most Recently Used Queue
 
-https://leetcode.com/problems/design-most-recently-used-queue/[LeetCode - 1756. Design Most Recently Used Queue ^]
+{leetcode}/problems/design-most-recently-used-queue/[LeetCode - 1756. Design Most Recently Used Queue ^]
 
 
 

@@ -1,7 +1,7 @@
 [#2730-find-the-longest-semi-repetitive-substring]
 = 2730. Find the Longest Semi-Repetitive Substring
 
-https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/[LeetCode - 2730. Find the Longest Semi-Repetitive Substring ^]
+{leetcode}/problems/find-the-longest-semi-repetitive-substring/[LeetCode - 2730. Find the Longest Semi-Repetitive Substring ^]
 
 You are given a digit string `s` that consists of digits from 0 to 9.
 

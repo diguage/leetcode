@@ -1,7 +1,7 @@
 [#2614-prime-in-diagonal]
 = 2614. Prime In Diagonal
 
-https://leetcode.com/problems/prime-in-diagonal/[LeetCode - 2614. Prime In Diagonal ^]
+{leetcode}/problems/prime-in-diagonal/[LeetCode - 2614. Prime In Diagonal ^]
 
 You are given a 0-indexed two-dimensional integer array `nums`.
 

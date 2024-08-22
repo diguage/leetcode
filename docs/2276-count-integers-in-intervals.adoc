@@ -1,7 +1,7 @@
 [#2276-count-integers-in-intervals]
 = 2276. Count Integers in Intervals
 
-https://leetcode.com/problems/count-integers-in-intervals/[LeetCode - 2276. Count Integers in Intervals ^]
+{leetcode}/problems/count-integers-in-intervals/[LeetCode - 2276. Count Integers in Intervals ^]
 
 Given an *empty* set of intervals, implement a data structure that can:
 

@@ -1,7 +1,7 @@
 [#1493-longest-subarray-of-1s-after-deleting-one-element]
 = 1493. Longest Subarray of 1's After Deleting One Element
 
-https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/[LeetCode - 1493. Longest Subarray of 1's After Deleting One Element ^]
+{leetcode}/problems/longest-subarray-of-1s-after-deleting-one-element/[LeetCode - 1493. Longest Subarray of 1's After Deleting One Element ^]
 
 Given a binary array `nums`, you should delete one element from it.
 

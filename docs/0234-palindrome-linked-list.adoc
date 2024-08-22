@@ -1,7 +1,7 @@
 [#0234-palindrome-linked-list]
 = 234. Palindrome Linked List
 
-https://leetcode.com/problems/palindrome-linked-list/[LeetCode - Palindrome Linked List^]
+{leetcode}/problems/palindrome-linked-list/[LeetCode - Palindrome Linked List^]
 
 使用快慢指针将链表切成两段，然后对后面的一段进行反转，再逐个比较两个子链。
 

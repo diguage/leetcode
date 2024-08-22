@@ -1,7 +1,7 @@
 [#2876-count-visited-nodes-in-a-directed-graph]
 = 2876. Count Visited Nodes in a Directed Graph
 
-https://leetcode.com/problems/count-visited-nodes-in-a-directed-graph/[LeetCode - 2876. Count Visited Nodes in a Directed Graph ^]
+{leetcode}/problems/count-visited-nodes-in-a-directed-graph/[LeetCode - 2876. Count Visited Nodes in a Directed Graph ^]
 
 There is a *directed* graph consisting of `n` nodes numbered from `0` to `n - 1` and `n` directed edges.
 

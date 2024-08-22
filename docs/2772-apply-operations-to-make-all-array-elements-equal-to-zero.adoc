@@ -1,7 +1,7 @@
 [#2772-apply-operations-to-make-all-array-elements-equal-to-zero]
 = 2772. Apply Operations to Make All Array Elements Equal to Zero
 
-https://leetcode.com/problems/apply-operations-to-make-all-array-elements-equal-to-zero/[LeetCode - 2772. Apply Operations to Make All Array Elements Equal to Zero ^]
+{leetcode}/problems/apply-operations-to-make-all-array-elements-equal-to-zero/[LeetCode - 2772. Apply Operations to Make All Array Elements Equal to Zero ^]
 
 You are given a *0-indexed* integer array `nums` and a positive integer `k`.
 

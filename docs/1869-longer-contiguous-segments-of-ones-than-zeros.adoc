@@ -1,7 +1,7 @@
 [#1869-longer-contiguous-segments-of-ones-than-zeros]
 = 1869. Longer Contiguous Segments of Ones than Zeros
 
-https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/[LeetCode - 1869. Longer Contiguous Segments of Ones than Zeros ^]
+{leetcode}/problems/longer-contiguous-segments-of-ones-than-zeros/[LeetCode - 1869. Longer Contiguous Segments of Ones than Zeros ^]
 
 Given a binary string `s`, return `true`_ if the *longest* contiguous segment of _`1`'_s is *strictly longer* than the *longest* contiguous segment of _`0`'_s in _`s`, or return `false`_ otherwise_.
 

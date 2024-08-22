@@ -1,7 +1,7 @@
 [#1418-display-table-of-food-orders-in-a-restaurant]
 = 1418. Display Table of Food Orders in a Restaurant
 
-https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/[LeetCode - 1418. Display Table of Food Orders in a Restaurant ^]
+{leetcode}/problems/display-table-of-food-orders-in-a-restaurant/[LeetCode - 1418. Display Table of Food Orders in a Restaurant ^]
 
 Given the array `orders`, which represents the orders that customers have done in a restaurant. More specifically `orders[i]=[customerName<sub>i</sub>,tableNumber<sub>i</sub>,foodItem<sub>i</sub>]` where `customerName<sub>i</sub>` is the name of the customer, `tableNumber<sub>i</sub>` is the table customer sit at, and `foodItem<sub>i</sub>` is the item customer orders.
 

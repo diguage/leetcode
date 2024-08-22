@@ -1,7 +1,7 @@
 [#1307-verbal-arithmetic-puzzle]
 = 1307. Verbal Arithmetic Puzzle
 
-https://leetcode.com/problems/verbal-arithmetic-puzzle/[LeetCode - Verbal Arithmetic Puzzle^]
+{leetcode}/problems/verbal-arithmetic-puzzle/[LeetCode - Verbal Arithmetic Puzzle^]
 
 Given an equation, represented by `words` on left side and the `result` on right side.
 

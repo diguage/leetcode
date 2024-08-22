@@ -1,7 +1,7 @@
 [#0042-trapping-rain-water]
 = 42. Trapping Rain Water
 
-https://leetcode.com/problems/trapping-rain-water/[LeetCode - Trapping Rain Water^]
+{leetcode}/problems/trapping-rain-water/[LeetCode - Trapping Rain Water^]
 
 Given _n_ non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
 

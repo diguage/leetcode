@@ -1,7 +1,7 @@
 [#1573-number-of-ways-to-split-a-string]
 = 1573. Number of Ways to Split a String
 
-https://leetcode.com/problems/number-of-ways-to-split-a-string/[LeetCode - 1573. Number of Ways to Split a String ^]
+{leetcode}/problems/number-of-ways-to-split-a-string/[LeetCode - 1573. Number of Ways to Split a String ^]
 
 Given a binary string `s`, you can split `s` into 3 *non-empty* strings `s1`, `s2`, and `s3` where `s1 + s2 + s3 = s`.
 
