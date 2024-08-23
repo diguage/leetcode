@@ -13,6 +13,9 @@ public class _0496_NextGreaterElementI {
   // tag::answer[]
   /**
    * 单调栈，参考模板，自己书写
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-07-05 22:40:25
    */
   public int[] nextGreaterElement(int[] nums1, int[] nums2) {
     Deque<Integer> stack = new LinkedList<>();

@@ -3,12 +3,6 @@
 
 {leetcode}/problems/validate-binary-search-tree/[LeetCode - Validate Binary Search Tree^]
 
-image::images/0098-1.png[{image_attr}]
-
-image::images/0098-2.png[{image_attr}]
-
-思路很简单，利用搜索二叉树的定义，界定好树的上下界，然后递归比较就好。
-
 Given a binary tree, determine if it is a valid binary search tree (BST).
 
 Assume a BST is defined as follows:
@@ -48,6 +42,13 @@ Assume a BST is defined as follows:
 *Explanation:* The root node's value is 5 but its right child's value is 4.
 ----
 
+== 思路分析
+
+image::images/0098-1.png[{image_attr}]
+
+image::images/0098-2.png[{image_attr}]
+
+思路很简单，利用搜索二叉树的定义，界定好树的上下界，然后递归比较就好。
 
 [[src-0098]]
 [tabs]
