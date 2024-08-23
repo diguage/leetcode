@@ -36,6 +36,11 @@ import static com.diguage.util.Printers.printMatrix;
  */
 public class _0056_MergeIntervals {
   // tag::answer[]
+
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2019-10-23 12:27
+   */
     public int[][] merge(int[][] intervals) {
         if (Objects.isNull(intervals) || intervals.length <= 1) {
             return intervals;

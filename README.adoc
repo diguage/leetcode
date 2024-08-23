@@ -425,12 +425,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/insert-interval/[57. Insert Interval^]
-//|{source_base_url}/_0057_InsertInterval.java[Java]
-//|{doc_base_url}/0057-insert-interval.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/insert-interval/[57. Insert Interval^]
+|{source_base_url}/_0057_InsertInterval.java[Java]
+|{doc_base_url}/0057-insert-interval.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/length-of-last-word/[58. Length of Last Word^]

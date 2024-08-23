@@ -27,10 +27,33 @@ You may assume that the intervals were initially sorted according to their start
 
 *NOTE:* input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
 
+== 解题分析
+
+image::images/0057-01.png[{image_attr}]
 
 [[src-0057]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0057_InsertInterval.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0057_InsertInterval_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/insert-interval/solutions/472151/cha-ru-qu-jian-by-leetcode-solution/[57. 插入区间 - 官方题解^]
+.
