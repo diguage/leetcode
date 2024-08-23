@@ -56,8 +56,24 @@ target = "k"
 
 
 [[src-0744]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0744_FindSmallestLetterGreaterThanTarget.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0744_FindSmallestLetterGreaterThanTarget_2.java[tag=answer]
+// ----
+// --
+====
 

@@ -404,6 +404,11 @@
 |{doc_base_url}/0870-advantage-shuffle.adoc[题解]
 |双指针+优先队列（排序）
 
+|{counter:codes}
+|{leetcode_base_url}/find-smallest-letter-greater-than-target/[744. Find Smallest Letter Greater Than Target^]
+|{doc_base_url}/0744-find-smallest-letter-greater-than-target.adoc[题解]
+|二分查找取左右端点是一个怎样的套路？
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

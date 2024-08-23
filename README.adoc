@@ -5233,14 +5233,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0743-network-delay-time.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/find-smallest-letter-greater-than-target/[744. Find Smallest Letter Greater Than Target^]
-//|{source_base_url}/_0744_FindSmallestLetterGreaterThanTarget.java[Java]
-//|{doc_base_url}/0744-find-smallest-letter-greater-than-target.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/find-smallest-letter-greater-than-target/[744. Find Smallest Letter Greater Than Target^]
+|{source_base_url}/_0744_FindSmallestLetterGreaterThanTarget.java[Java]
+|{doc_base_url}/0744-find-smallest-letter-greater-than-target.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/prefix-and-suffix-search/[745. Prefix and Suffix Search^]
 //|{source_base_url}/_0745_PrefixAndSuffixSearch.java[Java]

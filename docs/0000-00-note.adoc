@@ -10,7 +10,8 @@
 . 前缀和
 .. xref:0523-continuous-subarray-sum.adoc[523. Continuous Subarray Sum]
 . 树的 Morris 遍历
-.. TODO: 基于 Morris 遍历的中序排列已经掌握，前序，尤其是后续还需要加强。
+.. 基于 Morris 遍历的中序排列已经掌握，前序，尤其是后续还需要加强。
+. 二分搜索怎样可以确定地取左右端点？
 
 image::images/quick-sort-01.gif[{image_attr}]
 
