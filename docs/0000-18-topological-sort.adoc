@@ -1,4 +1,4 @@
-[#0000-14-topological-sort]
+[#0000-18-topological-sort]
 = Topological Sort (Graph) 拓扑排序
 
 拓扑排序模式用来寻找一种线性的顺序，这些元素之间具有依懒性。比如，如果事件B依赖于事件A，那A在拓扑排序顺序中排在B的前面。

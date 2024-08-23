@@ -24,7 +24,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 
 == 解题范式
 
-. xref:0000-02-two-pointer.adoc[Two Pointer 双指针]
+. xref:0000-06-two-pointer.adoc[Two Pointer 双指针]
 .. Pair with Target Sum (easy)
 .. Find Non-Duplicate Number Instances (easy)
 .. Squaring a Sorted Array (easy)
@@ -36,7 +36,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1: Quadruple Sum to Target (medium)
 .. Problem Challenge 2: Comparing Strings containing Backspaces (medium)
 .. Problem Challenge 3: Minimum Window Sort (medium)
-. xref:0000-03-fast-slow-pointers.adoc[Fast & Slow Pointers 快慢指针]
+. xref:0000-07-fast-slow-pointers.adoc[Fast & Slow Pointers 快慢指针]
 .. LinkedList Cycle (easy)
 .. Middle of the LinkedList (easy)
 .. Start of LinkedList Cycle (medium)
@@ -44,7 +44,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1: Palindrome LinkedList (medium)
 .. Problem Challenge 2: Rearrange a LinkedList (medium)
 .. Problem Challenge 3: Cycle in a Circular Array (hard)
-. xref:0000-01-sliding-window.adoc[Sliding Window 滑动窗口]
+. xref:0000-08-sliding-window.adoc[Sliding Window 滑动窗口]
 .. Maximum Sum Subarray of Size K  (easy)
 .. Smallest Subarray With a Greater Sum (easy)
 .. Longest Substring with K Distinct Characters (medium)
@@ -63,7 +63,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1: Minimum Meeting Rooms (hard)
 .. Problem Challenge 2: Maximum CPU Load (hard)
 .. Problem Challenge 3: Employee Free Time (hard)
-. xref:0000-05-cyclic-sort.adoc[Cyclic Sort 循环排序]
+. xref:0000-11-cyclic-sort.adoc[Cyclic Sort 循环排序]
 .. Cyclic Sort (easy)
 .. Find the Missing Number (easy)
 .. Find all Missing Numbers (easy)
@@ -72,7 +72,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1: Find the Corrupt Pair (easy)
 .. Problem Challenge 2: xref:0041-first-missing-positive.adoc[41. First Missing Positive]
 .. Problem Challenge 3: xref:1539-kth-missing-positive-number.adoc[1539. Kth Missing Positive Number]
-. xref:0000-06-reversed-list.adoc[In-place Reversal of a LinkedList 原地链表翻转]
+. xref:0000-05-reversed-list.adoc[In-place Reversal of a LinkedList 原地链表翻转]
 .. Reverse a LinkedList (easy)
 .. Reverse a Sub-list (medium)
 .. Reverse every K-element Sub-list (medium)
@@ -88,7 +88,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem 4: Next Greater Element
 .. Problem 5: Sorting a Stack
 .. Problem 6: Simplify Path
-. xref:0000-23-monotonic-stack.adoc[Monotonic Stack 单调栈]
+. xref:0000-09-monotonic-stack.adoc[Monotonic Stack 单调栈]
 .. Remove Nodes From Linked List (medium)
 .. Remove All Adjacent Duplicates In String (easy)
 .. Next Greater Element (easy)
@@ -103,7 +103,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem 3: Maximum Number of Balloons (easy)
 .. Problem 4: Longest Palindrome(easy)
 .. Problem 5: Ransom Note (easy)
-. xref:0000-07-breadth-first-search.adoc[Breadth First Search 广度优先搜索]
+. xref:0000-14-breadth-first-search.adoc[Breadth First Search 广度优先搜索]
 .. Binary Tree Level Order Traversal (easy)
 .. Reverse Level Order Traversal (easy)
 .. Zigzag Traversal (medium)
@@ -113,7 +113,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Connect Level Order Siblings (medium)
 .. Problem Challenge 1: Connect All Level Order Siblings (medium)
 .. Problem Challenge 2: Right View of a Binary Tree (easy)
-. xref:0000-08-depth-first-search.adoc[Depth First Search 深度优先搜索]
+. xref:0000-15-depth-first-search.adoc[Depth First Search 深度优先搜索]
 .. Binary Tree Path Sum (easy)
 .. All Paths for a Sum (medium)
 .. Sum of Path Numbers (medium)
@@ -137,12 +137,12 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1 (easy)
 .. Problem Challenge 2 (medium)
 .. Problem Challenge 3 (medium)
-. xref:0000-09-two-heaps.adoc[Two Heaps 双堆]
+. xref:0000-12-two-heaps.adoc[Two Heaps 双堆]
 .. Find the Median of a Number Stream (medium)
 .. Sliding Window Median (hard)
 .. Maximize Capital (hard)
 .. Problem Challenge 1: Next Interval (hard)
-. xref:0000-10-subsets.adoc[Subsets 子集]
+. xref:0000-24-subsets.adoc[Subsets 子集]
 .. Subsets (easy)
 .. Subsets With Duplicates (easy)
 .. Permutations (medium)
@@ -152,7 +152,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1: Evaluate Expression (hard)
 .. Problem Challenge 2: Structurally Unique Binary Search Trees (hard)
 .. Problem Challenge 3: Count of Structurally Unique Binary Search Trees (hard)
-. xref:0000-11-modified-binary-search.adoc[Modified Binary Search 改造过的二分搜索]
+. xref:0000-01-modified-binary-search.adoc[Modified Binary Search 改造过的二分搜索]
 .. Order-agnostic Binary Search (easy)
 .. Ceiling of a Number (medium)
 .. Next Letter (medium)
@@ -168,7 +168,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Two Single Numbers (medium)
 .. Complement of Base 10 Number (medium)
 .. Problem Challenge 1: Flip and Invert an Image (hard)
-. xref:0000-12-top-k-elements.adoc[Top 'K' Elements 顶端 K 元素]
+. xref:0000-10-top-k-elements.adoc[Top 'K' Elements 顶端 K 元素]
 .. Top 'K' Numbers (easy)
 .. Kth Smallest Number (easy)
 .. 'K' Closest Points to the Origin (easy)
@@ -183,33 +183,33 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1: Rearrange String K Distance Apart (hard)
 .. Problem Challenge 2: Scheduling Tasks (hard)
 .. Problem Challenge 3: Frequency Stack (hard)
-. xref:0000-16-greedy.adoc[Greedy Algorithms 贪心算法]
+. xref:0000-25-greedy.adoc[Greedy Algorithms 贪心算法]
 .. Valid Palindrome II (easy)
 .. Maximum Length of Pair Chain (medium)
 .. Minimum Add to Make Parentheses Valid (medium)
 .. Remove Duplicate Letters (medium)
 .. Largest Palindromic Number (medium)
 .. Removing Minimum and Maximum From Array  (medium)
-. xref:0000-21-dynamic-programming.adoc[Dynamic Programming 动态规划]
+. xref:0000-26-dynamic-programming.adoc[Dynamic Programming 动态规划]
 .. 0/1 Knapsack (medium)
 .. Equal Subset Sum Partition (medium)
 .. Subset Sum (medium)
 .. Minimum Subset Sum Difference (hard)
 .. Problem Challenge 1: Count of Subset Sum (hard)
 .. Problem Challenge 2: Target Sum (hard)
-. xref:0000-15-backtrack.adoc[Backtracking 回溯]
+. xref:0000-23-backtrack.adoc[Backtracking 回溯]
 .. Combination Sum (medium)
 .. Word Search (medium)
 .. Factor Combinations (medium)
 .. Split a String Into the Max Number of Unique Substrings (medium)
 .. Sudoku Solver  (hard)
-. xref:0000-26-trie.adoc[Trie 前缀树]
+. xref:0000-16-trie.adoc[Trie 前缀树]
 .. Implement Trie (Prefix Tree) (medium)
 .. Index Pairs of a String (easy)
 .. Design Add and Search Words Data Structure (medium)
 .. Extra Characters in a String (medium)
 .. Search Suggestions System (medium)
-. xref:0000-14-topological-sort.adoc[Topological Sort (Graph) 拓扑排序]
+. xref:0000-18-topological-sort.adoc[Topological Sort (Graph) 拓扑排序]
 .. Topological Sort (medium)
 .. Tasks Scheduling (medium)
 .. Tasks Scheduling Order (medium)
@@ -217,7 +217,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Alien Dictionary (hard)
 .. Problem Challenge 1: Reconstructing a Sequence (hard)
 .. Problem Challenge 2: Minimum Height Trees (hard)
-. xref:0000-22-union-find-set.adoc[Union Find Set 查并集]
+. xref:0000-17-union-find-set.adoc[Union Find Set 查并集]
 .. Redundant Connection (medium)
 .. Number of Provinces (medium)
 .. Is Graph Bipartite? (medium)
@@ -227,7 +227,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. 132 Pattern (medium)
 .. My Calendar I (medium)
 .. Longest Continuous Subarray (medium)
-. xref:0000-25-prefix-sum.adoc[Prefix Sum 前缀和]
+. xref:0000-03-prefix-sum.adoc[Prefix Sum 前缀和]
 .. Find the Middle Index in Array (easy)
 .. Left and Right Sum Differences (easy)
 .. Maximum Size Subarray Sum Equals k (medium)
@@ -235,7 +235,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Subarray Sums Divisible by K (medium)
 .. Sum of Absolute Differences in a Sorted Array (medium)
 .. Subarray Sum Equals K (medium)
-. xref:0000-24-difference-array.adoc[Difference Array 差分数组]
+. xref:0000-02-difference-array.adoc[Difference Array 差分数组]
 . Multi-threaded
 .. Same Tree (medium)
 .. Invert Binary Tree (medium)

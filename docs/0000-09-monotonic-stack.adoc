@@ -1,4 +1,4 @@
-[#0000-23-monotonic-stack]
+[#0000-09-monotonic-stack]
 = Monotonic Stack 单调栈
 
 == 基本流程

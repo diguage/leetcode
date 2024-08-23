@@ -1,4 +1,4 @@
-[#0000-10-subsets]
+[#0000-24-subsets]
 = Subsets 子集
 
 一般都是使用多重DFS

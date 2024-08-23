@@ -1,4 +1,4 @@
-[#0000-07-breadth-first-search]
+[#0000-14-breadth-first-search]
 = Breadth First Search 广度优先搜索
 
 == Tree Breadth First Search，树上的BFS
