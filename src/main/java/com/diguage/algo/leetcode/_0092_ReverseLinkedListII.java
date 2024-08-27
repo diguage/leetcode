@@ -21,6 +21,9 @@ public class _0092_ReverseLinkedListII {
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Reverse Linked List II.
      * Memory Usage: 36.6 MB, less than 11.36% of Java online submissions for Reverse Linked List II.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-05 22:46
      */
     public ListNode reverseBetween(ListNode head, int m, int n) {
         if (m == n) {

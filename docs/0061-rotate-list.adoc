@@ -32,41 +32,14 @@ image::images/0061-1.png[{image_attr}]
 
 这个环形解题法很赞！
 
-== 参考资料
-
-. https://leetcode-cn.com/problems/rotate-list/solution/xuan-zhuan-lian-biao-by-leetcode/[旋转链表 - 旋转链表 - 力扣（LeetCode）^]
-
-
-Given a linked list, rotate the list to the right by _k_ places, where _k_ is non-negative.
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 1->2->3->4->5->NULL, k = 2
-*Output:* 4->5->1->2->3->NULL
-*Explanation:*
-rotate 1 steps to the right: 5->1->2->3->4->NULL
-rotate 2 steps to the right: 4->5->1->2->3->NULL
-----
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 0->1->2->NULL, k = 4
-*Output:* `2->0->1->NULL`
-*Explanation:*
-rotate 1 steps to the right: 2->0->1->NULL
-rotate 2 steps to the right: 1->2->0->NULL
-rotate 3 steps to the right: `0->1->2->NULL`
-rotate 4 steps to the right: `2->0->1->NULL`
-----
-
-
 [[src-0061]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0061_RotateList.java[tag=answer]
 ----
+
+== 参考资料
+
+. https://leetcode-cn.com/problems/rotate-list/solution/xuan-zhuan-lian-biao-by-leetcode/[旋转链表 - 旋转链表 - 力扣（LeetCode）^]
+
 

@@ -24,6 +24,9 @@ public class _0061_RotateList {
      * Memory Usage: 38.8 MB, less than 46.55% of Java online submissions for Rotate List.
      *
      * Copy from: https://leetcode-cn.com/problems/rotate-list/solution/xuan-zhuan-lian-biao-by-leetcode/[旋转链表 - 旋转链表 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-01 23:11
      */
     public ListNode rotateRight(ListNode head, int k) {
         if (Objects.isNull(head) || Objects.isNull(head.next) || k == 0) {
