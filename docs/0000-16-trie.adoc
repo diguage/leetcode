@@ -2,8 +2,17 @@
 = Trie 前缀树
 
 
-
 == 经典题目
+
+. xref:0208-implement-trie-prefix-tree.adoc[208. Implement Trie (Prefix Tree)]
+. xref:0212-word-search-ii.adoc[212. Word Search II]
+. xref:0421-maximum-xor-of-two-numbers-in-an-array.adoc[421. Maximum XOR of Two Numbers in an Array]
+. xref:1707-maximum-xor-with-an-element-from-array.adoc[1707. Maximum XOR With an Element From Array]
 
 == 参考资料
 
+. https://leetcode.cn/problems/missing-number/solutions/1086545/gong-shui-san-xie-yi-ti-wu-jie-pai-xu-ji-te3s/[268. 丢失的数字 - 一题五解 :「排序」&「计数」&「原地哈希」&「数学」&「异或」^]
+. https://mp.weixin.qq.com/s/DBTQyNYsEgmN0Vb5fbolUg[【设计数据结构】实现 Trie (前缀树)^]
+. https://mp.weixin.qq.com/s/3KnsATWQOkg20lC2TCOvcA[【面试高频题】难度 4/5，常规解法与数据结构优化解法^]
+. https://mp.weixin.qq.com/s/_Yfh661do3Qmyi5KBn1arw[【综合笔试题】结合贪心的 Trie 运用题^]
+. https://mp.weixin.qq.com/s/5imIHeVpdnLroXSCIWlMig[【综合笔试题】难度 4.5/5，借该问题来实现一个「可计数」的 Trie^]
