@@ -664,7 +664,7 @@ include::0289-game-of-life.adoc[leveloffset=+1]
 
 // include::0294-flip-game-ii.adoc[leveloffset=+1]
 
-// include::0295-find-median-from-data-stream.adoc[leveloffset=+1]
+include::0295-find-median-from-data-stream.adoc[leveloffset=+1]
 
 // include::0296-best-meeting-point.adoc[leveloffset=+1]
 

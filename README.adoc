@@ -2090,14 +2090,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0294-flip-game-ii.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/find-median-from-data-stream/[295. Find Median from Data Stream^]
-//|{source_base_url}/_0295_FindMedianFromDataStream.java[Java]
-//|{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
-//|Hard
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/find-median-from-data-stream/[295. Find Median from Data Stream^]
+|{source_base_url}/_0295_FindMedianFromDataStream.java[Java]
+|{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
+|Hard
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/best-meeting-point/[296. Best Meeting Point^]
 //|{source_base_url}/_0296_BestMeetingPoint.java[Java]

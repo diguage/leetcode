@@ -424,6 +424,11 @@
 |{doc_base_url}/0268-missing-number.adoc[题解]
 |循环排序
 
+|{counter:codes}
+|{leetcode_base_url}/find-median-from-data-stream/[295. Find Median from Data Stream^]
+|{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
+|双堆思路太妙了！
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

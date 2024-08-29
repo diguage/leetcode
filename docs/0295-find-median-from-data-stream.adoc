@@ -38,12 +38,63 @@ findMedian() -> 2
 * If all integer numbers from the stream are between 0 and 100, how would you optimize it?
 * If 99% of all integer numbers from the stream are between 0 and 100, how would you optimize it?
 
+== 思路分析
 
+image::images/0295-01.png[{image_attr}]
+
+image::images/0295-02.png[{image_attr}]
+
+image::images/0295-03.png[{image_attr}]
+
+image::images/0295-04.png[{image_attr}]
+
+image::images/0295-05.png[{image_attr}]
+
+image::images/0295-06.png[{image_attr}]
+
+image::images/0295-07.png[{image_attr}]
+
+image::images/0295-08.png[{image_attr}]
+
+image::images/0295-09.png[{image_attr}]
+
+image::images/0295-10.png[{image_attr}]
+
+image::images/0295-11.png[{image_attr}]
+
+image::images/0295-12.png[{image_attr}]
+
+image::images/0295-13.png[{image_attr}]
+
+image::images/0295-14.png[{image_attr}]
 
 
 [[src-0295]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0295_FindMedianFromDataStream.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0005_LongestPalindromicSubstring_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/find-median-from-data-stream/solutions/961062/shu-ju-liu-de-zhong-wei-shu-by-leetcode-ktkst/[295. 数据流的中位数 - 官方题解^]
+. https://leetcode.cn/problems/find-median-from-data-stream/solutions/2361972/295-shu-ju-liu-de-zhong-wei-shu-dui-qing-gmdo/[295. 数据流的中位数 - 堆，清晰图解^]
+
+
 
