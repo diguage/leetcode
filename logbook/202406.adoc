@@ -414,6 +414,11 @@
 |{doc_base_url}/0057-insert-interval.adoc[题解]
 |合并区间，思路周全再写代码！
 
+|{counter:codes}
+|{leetcode_base_url}/first-missing-positive/[41. First Missing Positive^]
+|{doc_base_url}/0041-first-missing-positive.adoc[题解]
+|循环排序，思路有意思！
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

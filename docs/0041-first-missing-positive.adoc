@@ -37,9 +37,34 @@ Output: 1
 Your algorithm should run in _O_(_n_) time and uses constant extra space.
 
 
+== 思路分析
+
+image::images/0041-01.png[{image_attr}]
+
 [[src-0041]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0041_FirstMissingPositive.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0041_FirstMissingPositive_2.java[tag=answer]
+----
+--
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/first-missing-positive/solutions/304743/que-shi-de-di-yi-ge-zheng-shu-by-leetcode-solution/[41. 缺失的第一个正数 - 官方题解^]
+. https://leetcode.cn/problems/first-missing-positive/solutions/7703/tong-pai-xu-python-dai-ma-by-liweiwei1419/[41. 缺失的第一个正数 - 原地哈希（哈希函数为：f(nums[i]) = nums[i] - 1）^]

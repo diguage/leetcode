@@ -43,6 +43,9 @@ public class _0041_FirstMissingPositive {
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for First Missing Positive.
      *
      * Memory Usage: 34.6 MB, less than 100.00% of Java online submissions for First Missing Positive.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-10-23 12:54:29
      */
     public int firstMissingPositive(int[] nums) {
         if (Objects.isNull(nums) || nums.length == 0) {
