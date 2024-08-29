@@ -419,6 +419,11 @@
 |{doc_base_url}/0041-first-missing-positive.adoc[题解]
 |循环排序，思路有意思！
 
+|{counter:codes}
+|{leetcode_base_url}/missing-number/[268. Missing Number^]
+|{doc_base_url}/0268-missing-number.adoc[题解]
+|循环排序
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

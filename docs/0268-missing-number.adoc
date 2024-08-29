@@ -29,9 +29,32 @@ Given an array containing _n_ distinct numbers taken from `0, 1, 2, ..., n`, fin
 Your algorithm should run in linear runtime complexity. Could you implement it using only constant extra space complexity?
 
 
+== 思路分析
+
 [[src-0268]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0268_MissingNumber.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0268_MissingNumber_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/missing-number/solutions/1085105/diu-shi-de-shu-zi-by-leetcode-solution-naow/[268. 丢失的数字 - 官方题解^]
+. https://leetcode.cn/problems/missing-number/solutions/1086545/gong-shui-san-xie-yi-ti-wu-jie-pai-xu-ji-te3s/[268. 丢失的数字 - 一题五解 :「排序」&「计数」&「原地哈希」&「数学」&「异或」^]
 

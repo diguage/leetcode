@@ -39,6 +39,9 @@ public class _0268_MissingNumber {
      * Memory Usage: 38.9 MB, less than 100.00% of Java online submissions for Missing Number.
      *
      * Copy from: https://leetcode.com/problems/missing-number/solution/[Missing Number solution - LeetCode]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-05 21:30
      */
     public int missingNumber(int[] nums) {
         int actualSum = 0;
