@@ -39,11 +39,32 @@ You may assume `k` is always valid, ie: `k` is always smaller than input array's
 
 Answers within `10^-5` of the actual value will be accepted as correct.
 
-
+== 思路分析
 
 [[src-0480]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0480_SlidingWindowMedian.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0005_LongestPalindromicSubstring_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/sliding-window-median/solutions/588643/hua-dong-chuang-kou-zhong-wei-shu-by-lee-7ai6/[480. 滑动窗口中位数 - 官方题解^]
+. https://leetcode.cn/problems/sliding-window-median/solutions/589561/xiang-jie-po-su-jie-fa-you-xian-dui-lie-mo397/[480. 滑动窗口中位数 - 详解「朴素解法」&「优先队列 」^]
 

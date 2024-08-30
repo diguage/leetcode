@@ -429,6 +429,11 @@
 |{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
 |双堆思路太妙了！
 
+|{counter:codes}
+|{leetcode_base_url}/sliding-window-median/[480. Sliding Window Median^]
+|{doc_base_url}/0480-sliding-window-median.adoc[题解]
+|双端队列+滑动窗口
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

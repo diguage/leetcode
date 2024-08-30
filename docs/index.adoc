@@ -1034,7 +1034,7 @@ include::0462-minimum-moves-to-equal-array-elements-ii.adoc[leveloffset=+1]
 
 // include::0479-largest-palindrome-product.adoc[leveloffset=+1]
 
-// include::0480-sliding-window-median.adoc[leveloffset=+1]
+include::0480-sliding-window-median.adoc[leveloffset=+1]
 
 // include::0481-magical-string.adoc[leveloffset=+1]
 

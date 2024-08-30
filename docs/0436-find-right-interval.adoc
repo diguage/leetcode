@@ -58,11 +58,27 @@ For [2,3], the interval [3,4] has minimum-"right" start point.
 
 *NOTE:* input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
 
-
+== 思路分析
 
 [[src-0436]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0436_FindRightInterval.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0005_LongestPalindromicSubstring_2.java[tag=answer]
+// ----
+// --
+====
 
