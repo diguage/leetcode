@@ -71,8 +71,8 @@ jobs:
               subtitle=$(grep '<h2.*></a>' $file | awk -F'>' '{print $4}' | awk -F'<' '{print $1}')
               echo "$file -- $subtitle"
               if [ "${subtitle}" != "" ]; then
-                sed -i "s/<\/h1>/: ${subtitle}<\/h1>/g" $file
-                sed -i "s/<\/title>/: ${subtitle}<\/title>/g" $file
+                sed -i "s/ 解题笔记<\/h1>/: ${subtitle}<\/h1>/g" $file
+                sed -i "s/ 解题笔记<\/title>/: ${subtitle}<\/title>/g" $file
               fi
             fi
           done
