@@ -434,6 +434,12 @@
 |{doc_base_url}/0480-sliding-window-median.adoc[题解]
 |双端队列+滑动窗口
 
+|{counter:codes}
+|{leetcode_base_url}/minimum-falling-path-sum/[931. Minimum Falling Path Sum^]
+|{doc_base_url}/0931-minimum-falling-path-sum.adoc[题解]
+|动态规划
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

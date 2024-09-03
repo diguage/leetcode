@@ -1936,7 +1936,7 @@ include::0912-sort-an-array.adoc[leveloffset=+1]
 
 // include::0930-binary-subarrays-with-sum.adoc[leveloffset=+1]
 
-// include::0931-minimum-falling-path-sum.adoc[leveloffset=+1]
+include::0931-minimum-falling-path-sum.adoc[leveloffset=+1]
 
 // include::0932-beautiful-array.adoc[leveloffset=+1]
 

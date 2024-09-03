@@ -6542,14 +6542,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0930-binary-subarrays-with-sum.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/minimum-falling-path-sum/[931. Minimum Falling Path Sum^]
-//|{source_base_url}/_0931_MinimumFallingPathSum.java[Java]
-//|{doc_base_url}/0931-minimum-falling-path-sum.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/minimum-falling-path-sum/[931. Minimum Falling Path Sum^]
+|{source_base_url}/_0931_MinimumFallingPathSum.java[Java]
+|{doc_base_url}/0931-minimum-falling-path-sum.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/beautiful-array/[932. Beautiful Array^]
 //|{source_base_url}/_0932_BeautifulArray.java[Java]

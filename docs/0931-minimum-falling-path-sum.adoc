@@ -35,11 +35,31 @@ The falling path with the smallest sum is `[1,4,7]`, so the answer is `12`.
 * `1 <= A.length == A[0].length <= 100`
 * `-100 <= A[i][j] <= 100`
 
-
+== 思路分析
 
 [[src-0931]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0931_MinimumFallingPathSum.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0931_MinimumFallingPathSum_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/minimum-falling-path-sum/solutions/2341851/cong-di-gui-dao-di-tui-jiao-ni-yi-bu-bu-2cwkb/[931. 下降路径最小和 - 从递归到递推，教你一步步思考动态规划！（附题单）^]
 
