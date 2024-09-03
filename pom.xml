@@ -446,7 +446,7 @@
             <stylesdir>assets/styles</stylesdir>
             <toc/>
             <toclevels>1</toclevels>
-            <sectnums>false</sectnums>
+            <!-- <sectnums>false</sectnums>-->
             <sectnumlevels>3</sectnumlevels>
             <sectanchors>true</sectanchors>
             <graphvizdot>/usr/local/bin/dot</graphvizdot>

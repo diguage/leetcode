@@ -1,6 +1,8 @@
 [#0000-26-dynamic-programming]
 = Dynamic Programming 动态规划
 
+:sectnums:
+
 include::0000-26-dp-1-0-1-knapsack.adoc[leveloffset=+1]
 
 include::0000-26-dp-2-unbounded-knapsack.adoc[leveloffset=+1]
@@ -44,3 +46,5 @@ TIP: 写出信息结构是把所有的信息都装到一个对象中。如果只
 . https://leetcode.cn/problems/coin-change/solutions/778891/yi-pian-wen-zhang-chi-tou-bei-bao-wen-ti-sq9n/[一篇文章吃透背包问题！（细致引入+解题模板+例题分析+代码呈现）^] -- 背包问题大全
 . https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews/blob/main/%E2%9C%85%20Pattern%2015%3A%200-1%20Knapsack%20(Dynamic%20Programming).md[Pattern 15: 0-1 Knapsack (Dynamic Programming)^]
 . https://leetcode.cn/problems/minimum-falling-path-sum/solutions/2341851/cong-di-gui-dao-di-tui-jiao-ni-yi-bu-bu-2cwkb/[931. 下降路径最小和 - 从递归到递推，教你一步步思考动态规划！（附题单）^]
+
+:sectnums!:
