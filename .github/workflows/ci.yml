@@ -61,6 +61,22 @@ jobs:
           sed -i 's/src="asciidoctor-tabs.js"/src="assets\/scripts\/asciidoctor-tabs.js"/g' *.html
           sed -i 's/img src=".\/images/img src="assets\/images/g' *.html
 
+      - name: Rename Title 🤡
+        run: |
+          cd target/docs/multipage/
+          for file in ./*.html;
+          do
+            # https://ioflood.com/blog/bash-not-equal/
+            if [ "${file}" != "./index.html" ]; then
+              subtitle=$(grep '<h2.*></a>' $file | awk -F'>' '{print $4}' | awk -F'<' '{print $1}')
+              echo "$file -- $subtitle"
+              if [ "${subtitle}" != "" ]; then
+                sed -i "s/<\/h1>/: ${subtitle}<\/h1>/g" $file
+                sed -i "s/<\/title>/: ${subtitle}<\/title>/g" $file
+              fi
+            fi
+          done
+
       # https://goalsmashers.github.io/css-minification-benchmark/
       - name: Compress CSS 🍭
         run: |
