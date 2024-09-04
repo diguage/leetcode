@@ -8,6 +8,45 @@ import java.util.List;
  * @since 2019-10-26 00:56
  */
 public class Printers {
+  public static void printMatrix(boolean[][] m) {
+    if (m == null || m.length == 0) return;
+    int count = 0;
+    int tCount = 0;
+    for (int i = 0; i < m.length; i++) {
+      for (int j = 0; j < m[i].length; j++) {
+        count++;
+        if (m[i][j]) {
+          tCount++;
+        }
+      }
+    }
+    boolean pt = tCount < count / 2;
+    System.out.println("\n");
+    int length = 3;
+    String format = "%" + length + "s";
+    for (int i = -1; i < m[0].length; i++) {
+      if (i == -1) {
+        System.out.print(String.format(format, ""));
+      } else {
+        System.out.print(String.format(format, i));
+      }
+    }
+    System.out.println();
+    printCutLine(length, m.length);
+    for (int i = 0; i < m.length; i++) {
+      System.out.println();
+      for (int j = -1; j < m[i].length; j++) {
+        if (j == -1) {
+          System.out.print(String.format("%" + (length - 1) + "s|", i));
+        } else {
+          System.out.print(String.format(format, m[i][j] ? (pt ? "T" : "_") : (!pt ? "F" : "_")));
+        }
+      }
+    }
+
+    System.out.println("\n");
+  }
+
   public static void printMatrix(int[][] m) {
     if (m == null || m.length == 0) return;
     int max = Integer.MIN_VALUE;

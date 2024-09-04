@@ -439,6 +439,11 @@
 |{doc_base_url}/0931-minimum-falling-path-sum.adoc[题解]
 |动态规划
 
+|{counter:codes}
+|{leetcode_base_url}/partition-equal-subset-sum/[416. Partition Equal Subset Sum^]
+|{doc_base_url}/0416-partition-equal-subset-sum.adoc[题解]
+|动态规划，0/1背包问题
+
 
 |===
 

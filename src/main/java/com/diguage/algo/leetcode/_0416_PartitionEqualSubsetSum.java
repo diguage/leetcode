@@ -14,6 +14,9 @@ public class _0416_PartitionEqualSubsetSum {
      * Memory Usage: 37.8 MB, less than 50.79% of Java online submissions for Partition Equal Subset Sum.
      *
      * https://leetcode-cn.com/problems/partition-equal-subset-sum/solution/0-1-bei-bao-wen-ti-xiang-jie-zhen-dui-ben-ti-de-yo/[动态规划（0-1 背包问题） - 分割等和子集 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-29 19:30
      */
     public boolean canPartitionDp(int[] nums) {
         if (Objects.isNull(nums) || nums.length == 0) {

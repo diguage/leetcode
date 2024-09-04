@@ -3,14 +3,14 @@
 
 == 经典题目
 
-. xref:0039-combination-sum.adoc[39. Combination Sum]
+. xref:0039-combination-sum.adoc[39. Combination Sum] ？-- 感觉不是DP问题
 . xref:0416-partition-equal-subset-sum.adoc[416. Partition Equal Subset Sum]
+. xref:0474-ones-and-zeroes.adoc[474. Ones and Zeroes]
 . xref:0494-target-sum.adoc[494. Target Sum]
+. xref:0879-profitable-schemes.adoc[879. Profitable Schemes]
 . xref:2008-maximum-earnings-from-taxi.adoc[2008. Maximum Earnings From Taxi]
 . xref:2035-partition-array-into-two-arrays-to-minimize-sum-difference.adoc[2035. Partition Array Into Two Arrays to Minimize Sum Difference]
 
-
-0/1 Knapsack，0/1背包问题
 
 Subset Sum，子集和问题
 
@@ -18,7 +18,6 @@ Minimum Subset Sum Difference，子集和的最小差问题
 
 Count of Subset Sum，相等子集和的个数问题
 
-Target Sum，寻找目标和的问题
 
 == 参考资料
 

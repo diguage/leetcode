@@ -36,32 +36,32 @@ public class TreeNodes {
     return nodes.get(0);
   }
 
-    public List<Integer> printTree(TreeNode root) {
-      if (Objects.isNull(root)) {
-        return Collections.emptyList();
+  public List<Integer> printTree(TreeNode root) {
+    if (Objects.isNull(root)) {
+      return Collections.emptyList();
+    }
+    List<Integer> result = new ArrayList<>();
+    Deque<TreeNode> stack = new LinkedList<>();
+    stack.offer(root);
+    int level = 1;
+    while (!stack.isEmpty()) {
+      int size = stack.size();
+      for (int i = 0; i < size; i++) {
+        TreeNode node = stack.poll();
       }
-      List<Integer> result = new ArrayList<>();
-      Deque<TreeNode> stack = new LinkedList<>();
-      stack.offer(root);
-      int level = 1;
-      while (!stack.isEmpty()) {
-        int size = stack.size();
-        for (int i = 0; i < size; i++) {
-          TreeNode node = stack.poll();
-        }
-      }
-
-      return result;
     }
 
-    public static void main(String[] args) throws JsonProcessingException {
-        ObjectMapper mapper = new ObjectMapper();
-        List<Integer> integers = Arrays.asList(1, 2, 2, 3, 4, 4, 3);
-        TreeNode treeNode = buildTree(integers);
-        System.out.println(mapper.writeValueAsString(treeNode));
+    return result;
+  }
 
-        List<Integer> num = Arrays.asList(1, 2, 2, null, 3, null, 3);
-        TreeNode tree = buildTree(num);
-        System.out.println(mapper.writeValueAsString(tree));
-    }
+  public static void main(String[] args) throws JsonProcessingException {
+    ObjectMapper mapper = new ObjectMapper();
+    List<Integer> integers = java.util.Arrays.asList(1, 2, 2, 3, 4, 4, 3);
+    TreeNode treeNode = buildTree(integers);
+    System.out.println(mapper.writeValueAsString(treeNode));
+
+    List<Integer> num = java.util.Arrays.asList(1, 2, 2, null, 3, null, 3);
+    TreeNode tree = buildTree(num);
+    System.out.println(mapper.writeValueAsString(tree));
+  }
 }
