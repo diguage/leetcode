@@ -1,2 +1,33 @@
 [#0000-25-greedy]
 = Greedy Algorithms 贪心算法
+
+== 经典例题
+
+image::images/greedy-01.png[{image_attr}]
+
+. xref:0455-assign-cookies.adoc[455. Assign Cookies]
+. xref:1005-maximize-sum-of-array-after-k-negations.adoc[1005. Maximize Sum Of Array After K Negations]
+. xref:0860-lemonade-change.adoc[860. Lemonade Change]
+. xref:0376-wiggle-subsequence.adoc[376. Wiggle Subsequence]
+. xref:0738-monotone-increasing-digits.adoc[738. Monotone Increasing Digits]
+. xref:0122-best-time-to-buy-and-sell-stock-ii.adoc[122. Best Time to Buy and Sell Stock II]
+. xref:0714-best-time-to-buy-and-sell-stock-with-transaction-fee.adoc[714. Best Time to Buy and Sell Stock with Transaction Fee]
+. xref:0135-candy.adoc[135. Candy]
+. xref:0406-queue-reconstruction-by-height.adoc[406. Queue Reconstruction by Height]
+. xref:0055-jump-game.adoc[55. Jump Game]
+. xref:0045-jump-game-ii.adoc[45. Jump Game II]
+. xref:0452-minimum-number-of-arrows-to-burst-balloons.adoc[452. Minimum Number of Arrows to Burst Balloons]
+. xref:0435-non-overlapping-intervals.adoc[435. Non-overlapping Intervals]
+. xref:0763-partition-labels.adoc[763. Partition Labels]
+. xref:0056-merge-intervals.adoc[56. Merge Intervals]
+. xref:0053-maximum-subarray.adoc[53. Maximum Subarray]
+. xref:0134-gas-station.adoc[134. Gas Station]
+. xref:0968-binary-tree-cameras.adoc[968. Binary Tree Cameras]
+
+image::images/greedy-02.png[{image_attr}]
+
+
+== 参考资料
+
+. https://programmercarl.com/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html#%E7%AE%97%E6%B3%95%E5%85%AC%E5%BC%80%E8%AF%BE[关于贪心算法，你该了解这些！
+^]
