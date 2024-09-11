@@ -7,6 +7,34 @@
 
 回溯优化，重要的是，要学会剪枝！
 
+回溯三部曲：
+
+. 定义递归函数以及参数
+. 确定递归终止条件
+. 思考递归单层搜索逻辑
+
+== 经典题目
+
+image::images/backtrack-01.png[{image_attr}]
+
+. xref:0077-combinations.adoc[77. Combinations]
+. xref:0216-combination-sum-iii.adoc[216. Combination Sum III]
+. xref:0017-letter-combinations-of-a-phone-number.adoc[17. Letter Combinations of a Phone Number]
+. xref:0039-combination-sum.adoc[39. Combination Sum]
+. xref:0040-combination-sum-ii.adoc[40. Combination Sum II]
+. xref:0131-palindrome-partitioning.adoc[131. Palindrome Partitioning]
+. xref:0093-restore-ip-addresses.adoc[93. Restore IP Addresses]
+. xref:0078-subsets.adoc[78. Subsets]
+. xref:0090-subsets-ii.adoc[90. Subsets II]
+. xref:0491-increasing-subsequences.adoc[491. Increasing Subsequences]
+. xref:0046-permutations.adoc[46. Permutations]
+. xref:0047-permutations-ii.adoc[47. Permutations II]
+. xref:0332-reconstruct-itinerary.adoc[332. Reconstruct Itinerary]
+. xref:0051-n-queens.adoc[51. N-Queens]
+. xref:0052-n-queens-ii.adoc[52. N-Queens II]
+. xref:0037-sudoku-solver.adoc[37. Sudoku Solver]
+
+
 == 附加题
 
 . 写程序尝试生成递归调用树。

@@ -135,10 +135,32 @@ public class Printers {
     }
   }
 
-  public static void printMatrix(char[][] array) {
-    System.out.println("↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓");
-    Arrays.stream(Arrays.deepToString(array).substring(1).split("], "))
-      .forEach(System.out::println);
-    System.out.println("↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑");
+  public static void printMatrix(char[][] m) {
+    if (m == null || m.length == 0) return;
+    int max = 2;
+    System.out.println("\n");
+    int length = String.valueOf(max).length() + 3;
+    String format = "%" + length + "s";
+    for (int i = -1; i < m[0].length; i++) {
+      if (i == -1) {
+        System.out.print(String.format(format, ""));
+      } else {
+        System.out.print(String.format(format, i));
+      }
+    }
+    System.out.println("");
+    printCutLine(length, m.length);
+    for (int i = 0; i < m.length; i++) {
+      System.out.println("");
+      for (int j = -1; j < m[i].length; j++) {
+        if (j == -1) {
+          System.out.print(String.format("%" + (length - 1) + "s|", i));
+        } else {
+          System.out.print(String.format(format, m[i][j]));
+        }
+      }
+    }
+
+    System.out.println("\n");
   }
 }

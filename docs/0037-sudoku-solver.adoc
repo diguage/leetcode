@@ -15,11 +15,11 @@ A sudoku solution must satisfy *all of the following rules*:
 
 Empty cells are indicated by the character `'.'`.
 
-image::images/0037-1.png[{image_attr}]
+image::images/0037-01.png[{image_attr}]
 
 [.small]#A sudoku puzzle...#
 
-image::images/0037-2.png[{image_attr}]
+image::images/0037-02.png[{image_attr}]
 
 [.small]#...and its solution numbers marked in red.#
 
@@ -33,13 +33,34 @@ image::images/0037-2.png[{image_attr}]
 
 这道题特别需要关注的点是：只要找到一个解就可以了，不需要求全部解。所以，需要重点思考的是，如何在找到第一个解时，就立即停止搜索。
 
+递归树
+
+image::images/0037-03.png[{image_attr}]
+
 [[src-0037]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0037_SudokuSolver.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0037_SudokuSolver_2.java[tag=answer]
+----
+--
+====
 
 == 参考资料
 
 . https://mp.weixin.qq.com/s/VCirGskFGPln-S2LGFTgKg[搞懂回溯算法，我终于能做数独了^]
+. https://leetcode.cn/problems/sudoku-solver/solutions/414261/37-jie-shu-du-hui-su-sou-suo-suan-fa-xiang-jie-by-/[37. 解数独 - 「代码随想录」带你学透回溯算法！^]
 

@@ -444,6 +444,11 @@
 |{doc_base_url}/0416-partition-equal-subset-sum.adoc[题解]
 |动态规划，0/1背包问题
 
+|{counter:codes}
+|{leetcode_base_url}/sudoku-solver/[37. Sudoku Solver^]
+|{doc_base_url}/0037-sudoku-solver.adoc[题解]
+|回溯
+
 
 |===
 

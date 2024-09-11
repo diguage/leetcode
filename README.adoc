@@ -285,12 +285,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/sudoku-solver/[37. Sudoku Solver^]
-//|{source_base_url}/_0037_SudokuSolver.java[Java]
-//|{doc_base_url}/0037-sudoku-solver.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/sudoku-solver/[37. Sudoku Solver^]
+|{source_base_url}/_0037_SudokuSolver.java[Java]
+|{doc_base_url}/0037-sudoku-solver.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/count-and-say/[38. Count and Say^]
