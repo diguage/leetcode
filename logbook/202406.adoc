@@ -449,6 +449,11 @@
 |{doc_base_url}/0037-sudoku-solver.adoc[题解]
 |回溯
 
+|{counter:codes}
+|{leetcode_base_url}/min-cost-climbing-stairs/[746. Min Cost Climbing Stairs^]
+|{doc_base_url}/0746-min-cost-climbing-stairs.adoc[题解]
+|动态规划
+
 
 |===
 

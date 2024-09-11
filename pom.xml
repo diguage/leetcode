@@ -23,7 +23,7 @@
     <maven-javadoc-plugin.version>3.8.0</maven-javadoc-plugin.version>
     <fizzed-watcher-maven-plugin.version>3.7.0</fizzed-watcher-maven-plugin.version>
 
-    <asciidoctorj.version>3.0.0-beta.1</asciidoctorj.version>
+    <asciidoctorj.version>3.0.0</asciidoctorj.version>
     <asciidoctorj-pdf.version>2.3.18</asciidoctorj-pdf.version>
     <asciidoctorj-epub3.version>2.1.3</asciidoctorj-epub3.version>
     <asciidoctorj-diagram.version>2.3.1</asciidoctorj-diagram.version>

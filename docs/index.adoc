@@ -1566,7 +1566,7 @@ include::0744-find-smallest-letter-greater-than-target.adoc[leveloffset=+1]
 
 // include::0745-prefix-and-suffix-search.adoc[leveloffset=+1]
 
-// include::0746-min-cost-climbing-stairs.adoc[leveloffset=+1]
+include::0746-min-cost-climbing-stairs.adoc[leveloffset=+1]
 
 // include::0747-largest-number-at-least-twice-of-others.adoc[leveloffset=+1]
 

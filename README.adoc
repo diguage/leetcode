@@ -5247,14 +5247,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0745-prefix-and-suffix-search.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/min-cost-climbing-stairs/[746. Min Cost Climbing Stairs^]
-//|{source_base_url}/_0746_MinCostClimbingStairs.java[Java]
-//|{doc_base_url}/0746-min-cost-climbing-stairs.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/min-cost-climbing-stairs/[746. Min Cost Climbing Stairs^]
+|{source_base_url}/_0746_MinCostClimbingStairs.java[Java]
+|{doc_base_url}/0746-min-cost-climbing-stairs.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/largest-number-at-least-twice-of-others/[747. Largest Number At Least Twice of Others^]
 //|{source_base_url}/_0747_LargestNumberAtLeastTwiceOfOthers.java[Java]

@@ -68,11 +68,33 @@ of the final x in the add-expression.  That final x will equal 2.
 . The length of `expression` is at most 2000.  (It is also non-empty, as that would not be a legal expression.)</li>
 . The answer and all intermediate calculations of that answer are guaranteed to fit in a 32-bit integer.</li>
 
+== 思路分析
+
+image::images/0746-01.jpg[{image_attr}]
 
 
 [[src-0736]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0736_ParseLispExpression.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0078_Subsets_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
 

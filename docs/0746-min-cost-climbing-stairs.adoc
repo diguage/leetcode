@@ -38,10 +38,36 @@ Once you pay the cost, you can either climb one or two steps. You need to find m
 
 
 
+== 思路分析
 
-[[src-0746]]
+image::images/0746-01.jpg[{image_attr}]
+
+
+[[src-0736]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0746_MinCostClimbingStairs.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0078_Subsets_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/min-cost-climbing-stairs/solutions/528955/shi-yong-zui-xiao-hua-fei-pa-lou-ti-by-l-ncf8/[746. 使用最小花费爬楼梯 - 官方题解^]
+. https://leetcode.cn/problems/min-cost-climbing-stairs/solutions/177077/yi-bu-yi-bu-tui-dao-dong-tai-gui-hua-de-duo-chong-/[746. 使用最小花费爬楼梯 - 一步一步推导动态规划的多种解法^]
+. https://leetcode.cn/problems/min-cost-climbing-stairs/solutions/856958/dai-ma-sui-xiang-lu-dong-tai-gui-hua-wu-abbwz/[746. 使用最小花费爬楼梯 - 「代码随想录」带你学透动态规划！^]
 
