@@ -38,10 +38,34 @@ From the top-left corner, there are a total of 3 ways to reach the bottom-right 
 *Output:* 28
 ----
 
+== 思路分析
 
 [[src-0062]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0062_UniquePaths.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0062_UniquePaths_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/unique-paths/solutions/5772/dong-tai-gui-hua-by-powcai-2/[62. 不同路径 - 力扣（LeetCode）^]
+. https://leetcode.cn/problems/unique-paths/solutions/514311/bu-tong-lu-jing-by-leetcode-solution-hzjf/[62. 不同路径 - 官方题解^]
+
+
 

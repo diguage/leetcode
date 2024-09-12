@@ -39,6 +39,11 @@ import java.util.Arrays;
  */
 public class _0062_UniquePaths {
   // tag::answer[]
+
+    /**
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-10-26 22:56
+     */
     public int uniquePaths(int m, int n) {
         if (m == 0 || n == 0) {
             return 0;
