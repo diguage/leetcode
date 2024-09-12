@@ -43,6 +43,9 @@ public class _0063_UniquePathsII {
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Unique Paths II.
      * <p>
      * Memory Usage: 40.5 MB, less than 33.84% of Java online submissions for Unique Paths II.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-10-26 23:50
      */
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         if (Objects.isNull(obstacleGrid)

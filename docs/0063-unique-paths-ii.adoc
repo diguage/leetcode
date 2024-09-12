@@ -33,10 +33,34 @@ There are two ways to reach the bottom-right corner:
 2. Down -> Down -> Right -> Right
 ----
 
+== 思路分析
+
+image::images/0063-01.png[{image_attr}]
 
 [[src-0063]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0063_UniquePathsII.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0063_UniquePathsII_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/unique-paths-ii/solutions/316968/bu-tong-lu-jing-ii-by-leetcode-solution-2/[63. 不同路径 II - 官方题解^]
+. https://leetcode.cn/problems/unique-paths-ii/solutions/2732049/javapython3cdong-tai-gui-hua-kong-jian-y-nyjy/[63. 不同路径 II - 动态规划 + 空间优化^]
 
