@@ -515,6 +515,11 @@
 |{doc_base_url}/0226-invert-binary-tree.adoc[题解]
 |分治
 
+|{counter:codes}
+|{leetcode_base_url}/running-sum-of-1d-array/[1480. Running Sum of 1d Array^]
+|{doc_base_url}/1480-running-sum-of-1d-array.adoc[题解]
+|动态规划入门
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

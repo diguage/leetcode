@@ -8,7 +8,7 @@ Given an array `nums`. We define a running sum of an array as `runningSum[i] = s
 Return the running sum of `nums`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Return the running sum of `nums`.
 *Explanation:* Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return the running sum of `nums`.
 *Explanation:* Running sum is obtained as follows: [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+1+1].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----
@@ -39,14 +39,14 @@ Return the running sum of `nums`.
 *Constraints:*
 
 
-* `1 <= nums.length <= 1000`
-* `-10^6 <= nums[i] <= 10^6`
-
+* `1 \<= nums.length \<= 1000`
+* `-10^6 \<= nums[i] \<= 10^6`
 
 
 
 == 思路分析
 
+image::images/1480-01.gif[{image_attr}]
 
 [[src-1480]]
 [tabs]
@@ -72,5 +72,7 @@ include::{sourcedir}/_1480_RunningSumOf1DArray.java[tag=answer]
 
 
 == 参考资料
+
+. https://leetcode.cn/problems/running-sum-of-1d-array/solutions/1645947/by-jyd-hz70/?envType=study-plan-v2&envId=selected-coding-interview[1480. 一维数组的动态和 -动态规划，清晰图解^]
 
 

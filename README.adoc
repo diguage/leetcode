@@ -10386,12 +10386,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Hard
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/running-sum-of-1d-array/[1480. Running Sum of 1d Array^]
-//|{source_base_url}/_1480_RunningSumOf1DArray.java[Java]
-//|{doc_base_url}/1480-running-sum-of-1d-array.adoc[题解]
-//|Easy
-//|
+|{counter:codes}
+|{leetcode_base_url}/running-sum-of-1d-array/[1480. Running Sum of 1d Array^]
+|{source_base_url}/_1480_RunningSumOf1DArray.java[Java]
+|{doc_base_url}/1480-running-sum-of-1d-array.adoc[题解]
+|Easy
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/least-number-of-unique-integers-after-k-removals/[1481. Least Number of Unique Integers after K Removals^]

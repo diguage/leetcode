@@ -3034,7 +3034,7 @@ include::1109-corporate-flight-bookings.adoc[leveloffset=+1]
 
 // include::1479-sales-by-day-of-the-week.adoc[leveloffset=+1]
 
-// include::1480-running-sum-of-1d-array.adoc[leveloffset=+1]
+include::1480-running-sum-of-1d-array.adoc[leveloffset=+1]
 
 // include::1481-least-number-of-unique-integers-after-k-removals.adoc[leveloffset=+1]
 
