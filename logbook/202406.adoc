@@ -469,6 +469,11 @@
 |{doc_base_url}/0343-integer-break.adoc[题解]
 |动态规划
 
+|{counter:codes}
+|{leetcode_base_url}/reverse-linked-list/[206. Reverse Linked List^]
+|{doc_base_url}/0206-reverse-linked-list.adoc[题解]
+|递给解法非常妙！
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

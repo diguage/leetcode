@@ -36,20 +36,22 @@ public class _0206_ReverseLinkedList {
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Reverse Linked List.
      *
      * Memory Usage: 38 MB, less than 6.48% of Java online submissions for Reverse Linked List.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-12 12:47
      */
     public ListNode reverseList(ListNode head) {
-        if (Objects.isNull(head)) {
-            return null;
-        }
-        ListNode result = null;
-        ListNode current = head;
-        while (Objects.nonNull(current)) {
-            ListNode pre = current.next;
-            current.next = result;
-            result = current;
-            current = pre;
-        }
-        return result;
+      if (head == null || head.next == null) {
+        return head;
+      }
+      ListNode curr = null;
+      while (head != null) {
+        ListNode next = head.next;
+        head.next = curr;
+        curr = head;
+        head = next;
+      }
+      return curr;
     }
 
     /**

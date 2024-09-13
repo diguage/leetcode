@@ -20,11 +20,39 @@ Reverse a singly linked list.
 
 A linked list can be reversed either iteratively or recursively. Could you implement both?
 
+== 思路分析
 
+image::images/0206-01.png[{image_attr}]
 
 [[src-0206]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0206_ReverseLinkedList.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0206_ReverseLinkedList_2.java[tag=answer]
+----
+--
+====
+
+== 思考题
+
+可以尝试一下递归！
+
+另外，思考一下如何通过传参来简化代码。
+
+== 参考资料
+
+. https://leetcode.cn/problems/reverse-linked-list/solutions/551596/fan-zhuan-lian-biao-by-leetcode-solution-d1k2/?envType=study-plan-v2&envId=selected-coding-interview[206. 反转链表 - 官方题解^]
+. https://leetcode.cn/problems/reverse-linked-list/solutions/2361282/206-fan-zhuan-lian-biao-shuang-zhi-zhen-r1jel/?envType=study-plan-v2&envId=selected-coding-interview[206. 反转链表 - 双指针，清晰图解^]
