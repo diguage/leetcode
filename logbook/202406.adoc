@@ -474,6 +474,11 @@
 |{doc_base_url}/0206-reverse-linked-list.adoc[题解]
 |递给解法非常妙！
 
+|{counter:codes}
+|{leetcode_base_url}/valid-parentheses/[20. Valid Parentheses^]
+|{doc_base_url}/0020-valid-parentheses.adoc[题解]
+|栈
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

@@ -62,6 +62,9 @@ public class _0020_ValidParentheses {
      * Runtime: 2 ms, faster than 60.99% of Java online submissions for Valid Parentheses.
      *
      * Memory Usage: 34.2 MB, less than 100.00% of Java online submissions for Valid Parentheses.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-07-26 08:12
      */
     public boolean isValid(String s) {
         if (Objects.isNull(s) || s.length() == 0) {
