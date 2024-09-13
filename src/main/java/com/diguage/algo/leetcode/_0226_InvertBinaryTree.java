@@ -22,6 +22,9 @@ public class _0226_InvertBinaryTree {
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Invert Binary Tree.
      * Memory Usage: 37.1 MB, less than 5.10% of Java online submissions for Invert Binary Tree.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-28 11:33
      */
     public TreeNode invertTree(TreeNode root) {
         if (Objects.isNull(root)) {
