@@ -39,6 +39,9 @@ public class _0287_FindTheDuplicateNumber {
      * Memory Usage: 42.8 MB, less than 5.09% of Java online submissions for Find the Duplicate Number.
      *
      * Copy from: https://leetcode.com/problems/find-the-duplicate-number/solution/[Find the Duplicate Number - LeetCode]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-05 22:52
      */
     public int findDuplicate(int[] nums) {
         int tortoise = nums[0];

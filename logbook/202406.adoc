@@ -495,6 +495,10 @@
 |{doc_base_url}/0946-validate-stack-sequences.adoc[题解]
 |模拟栈的操作
 
+|{counter:codes}
+|{leetcode_base_url}/find-the-duplicate-number/[287. Find the Duplicate Number^]
+|{doc_base_url}/0287-find-the-duplicate-number.adoc[题解]
+|龟兔赛跑找环
 
 |===
 
