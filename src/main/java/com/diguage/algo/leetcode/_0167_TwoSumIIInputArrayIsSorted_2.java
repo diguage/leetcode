@@ -11,6 +11,8 @@ package com.diguage.algo.leetcode;
 public class _0167_TwoSumIIInputArrayIsSorted_2 {
   // tag::answer[]
     /**
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2024-07-03 20:02:38
      */
     public int[] twoSum(int[] numbers, int target) {
       int low = 0, high = numbers.length - 1;

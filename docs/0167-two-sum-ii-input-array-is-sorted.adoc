@@ -34,15 +34,35 @@ image::images/0167-04.png[{image_attr}]
 image::images/0167-05.png[{image_attr}]
 
 [[src-0167]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0167_TwoSumIIInputArrayIsSorted.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0167_TwoSumIIInputArrayIsSorted_2.java[tag=answer]
 ----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0167_TwoSumIIInputArrayIsSorted_3.java[tag=answer]
+----
+--
+====
 
 == 参考资料
 
