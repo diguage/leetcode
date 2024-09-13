@@ -6647,14 +6647,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0945-minimum-increment-to-make-array-unique.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/validate-stack-sequences/[946. Validate Stack Sequences^]
-//|{source_base_url}/_0946_ValidateStackSequences.java[Java]
-//|{doc_base_url}/0946-validate-stack-sequences.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/validate-stack-sequences/[946. Validate Stack Sequences^]
+|{source_base_url}/_0946_ValidateStackSequences.java[Java]
+|{doc_base_url}/0946-validate-stack-sequences.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/most-stones-removed-with-same-row-or-column/[947. Most Stones Removed with Same Row or Column^]
 //|{source_base_url}/_0947_MostStonesRemovedWithSameRowOrColumn.java[Java]

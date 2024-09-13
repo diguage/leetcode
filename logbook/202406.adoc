@@ -489,6 +489,13 @@
 |{doc_base_url}/0167-two-sum-ii-input-array-is-sorted.adoc[题解]
 |双指针
 
+
+|{counter:codes}
+|{leetcode_base_url}/validate-stack-sequences/[946. Validate Stack Sequences^]
+|{doc_base_url}/0946-validate-stack-sequences.adoc[题解]
+|模拟栈的操作
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
