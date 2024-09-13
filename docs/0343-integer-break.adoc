@@ -30,15 +30,35 @@ Given a positive integer _n_, break it into the sum of *at least* two positive i
 
 == 解题分析
 
-image::images/0343-1.png[{image_attr}]
+image::images/0343-02.png[{image_attr}]
+
+image::images/0343-01.png[{image_attr}]
 
 [[src-0343]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0343_IntegerBreak.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0343_IntegerBreak_2.java[tag=answer]
+----
+--
+====
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/jian-sheng-zi-lcof/solution/mian-shi-ti-14-i-jian-sheng-zi-tan-xin-si-xiang-by/[面试题14- I. 剪绳子（数学推导 / 贪心思想，清晰图解） - 剪绳子 - 力扣（LeetCode）^] -- 数学分析真牛逼！
+. https://leetcode.cn/problems/jian-sheng-zi-lcof/solutions/104809/mian-shi-ti-14-i-jian-sheng-zi-tan-xin-si-xiang-by/[面试题14- I. 剪绳子（数学推导 / 贪心思想，清晰图解） - 剪绳子 - 力扣（LeetCode）^] -- 数学分析真牛逼！
+. https://leetcode.cn/problems/integer-break/solutions/352875/zheng-shu-chai-fen-by-leetcode-solution/[343. 整数拆分 - 官方题解^]
+. https://leetcode.cn/problems/integer-break/solutions/353190/shou-hua-tu-jie-di-gui-ji-yi-hua-di-gui-dong-tai-g/[343. 整数拆分 - 「手画图解」递归、记忆化递归、动态规划^]
 

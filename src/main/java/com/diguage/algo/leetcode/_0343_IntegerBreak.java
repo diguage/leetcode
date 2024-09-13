@@ -15,6 +15,9 @@ public class _0343_IntegerBreak {
      * Memory Usage: 38.1 MB, less than 14.29% of Java online submissions for Integer Break.
      *
      * Copy from: https://leetcode-cn.com/problems/jian-sheng-zi-lcof/solution/mian-shi-ti-14-i-jian-sheng-zi-tan-xin-si-xiang-by/[面试题14- I. 剪绳子（数学推导 / 贪心思想，清晰图解） - 剪绳子 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-04-26 16:38
      */
     public int integerBreak(int n) {
         if (n < 2) {
