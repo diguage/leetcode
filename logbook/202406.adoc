@@ -505,6 +505,11 @@
 |{doc_base_url}/0230-kth-smallest-element-in-a-bst.adoc[题解]
 |二叉树中根遍历
 
+|{counter:codes}
+|{leetcode_base_url}/combination-sum/[39. Combination Sum^]
+|{doc_base_url}/0039-combination-sum.adoc[题解]
+|组合，回溯，注意学习剪枝的技巧
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
