@@ -38,6 +38,9 @@ public class _0242_ValidAnagram {
      * Runtime: 3 ms, faster than 93.97% of Java online submissions for Valid Anagram.
      *
      * Memory Usage: 36.2 MB, less than 98.06% of Java online submissions for Valid Anagram.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-10 23:48
      */
     public boolean isAnagram(String s, String t) {
         if (Objects.isNull(s) && Objects.isNull(t)) {
