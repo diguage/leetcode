@@ -81,6 +81,15 @@ include::{sourcedir}/_0230_KthSmallestElementInABst.java[tag=answer]
 include::{sourcedir}/_0230_KthSmallestElementInABst_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0230_KthSmallestElementInABst_3.java[tag=answer]
+----
+--
 ====
 
 == 参考资料

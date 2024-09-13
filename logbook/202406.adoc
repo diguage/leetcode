@@ -500,6 +500,11 @@
 |{doc_base_url}/0287-find-the-duplicate-number.adoc[题解]
 |龟兔赛跑找环
 
+|{counter:codes}
+|{leetcode_base_url}/kth-smallest-element-in-a-bst/[230. Kth Smallest Element in a BST^]
+|{doc_base_url}/0230-kth-smallest-element-in-a-bst.adoc[题解]
+|二叉树中根遍历
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
