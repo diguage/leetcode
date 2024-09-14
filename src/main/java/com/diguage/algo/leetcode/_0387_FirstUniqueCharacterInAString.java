@@ -35,6 +35,9 @@ public class _0387_FirstUniqueCharacterInAString {
      * Memory Usage: 37.4 MB, less than 100.00% of Java online submissions for First Unique Character in a String.
      *
      * Copy from: https://leetcode.com/problems/first-unique-character-in-a-string/solution/[First Unique Character in a String solution - LeetCode]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-11 10:48
      */
     public int firstUniqChar(String s) {
         if (Objects.isNull(s) || s.length() == 0) {

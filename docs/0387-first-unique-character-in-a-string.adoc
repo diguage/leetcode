@@ -22,11 +22,38 @@ return 2.
 
 *Note:* You may assume the string contain only lowercase letters.
 
+== 思路分析
 
+通过解法是再次遍历字符串，思考如何遍历字母表来获取第一个唯一字符的位置。
 
 [[src-0387]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0387_FirstUniqueCharacterInAString.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0387_FirstUniqueCharacterInAString_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/first-unique-character-in-a-string/solutions/2361521/387-zi-fu-chuan-zhong-de-di-yi-ge-wei-yi-c5md/?envType=study-plan-v2&envId=selected-coding-interview[387. 字符串中的第一个唯一字符 - 哈希表，清晰图解^]
+. https://leetcode.cn/problems/first-unique-character-in-a-string/solutions/531740/zi-fu-chuan-zhong-de-di-yi-ge-wei-yi-zi-x9rok/?envType=study-plan-v2&envId=selected-coding-interview[387. 字符串中的第一个唯一字符 - 官方题解^]
+
+
+
+
 

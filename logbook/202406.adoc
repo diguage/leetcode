@@ -545,6 +545,11 @@
 |{doc_base_url}/0155-min-stack.adoc[题解]
 |对，这也是单调栈。
 
+|{counter:codes}
+|{leetcode_base_url}/first-unique-character-in-a-string/[387. First Unique Character in a String^]
+|{doc_base_url}/0387-first-unique-character-in-a-string.adoc[题解]
+|哈希+字符串
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
