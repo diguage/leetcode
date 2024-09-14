@@ -550,6 +550,11 @@
 |{doc_base_url}/0387-first-unique-character-in-a-string.adoc[题解]
 |哈希+字符串
 
+|{counter:codes}
+|{leetcode_base_url}/linked-list-cycle-ii/[142. Linked List Cycle II^]
+|{doc_base_url}/0142-linked-list-cycle-ii.adoc[题解]
+|快慢指针
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

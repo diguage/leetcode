@@ -88,15 +88,35 @@ image::images/0142-15.png[{image_attr}]
 
 
 [[src-0142]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0142_LinkedListCycleII.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0142_LinkedListCycleII_2.java[tag=answer]
 ----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0142_LinkedListCycleII_3.java[tag=answer]
+----
+--
+====
 
 
 == 思考题
