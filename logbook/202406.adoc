@@ -533,7 +533,12 @@
 |{counter:codes}
 |{leetcode_base_url}/product-of-array-except-self/[238. Product of Array Except Self^]
 |{doc_base_url}/0238-product-of-array-except-self.adoc[题解]
-|从后及从前，分两次进行计算
+|从后及从前，在一个数组上分两次进行计算
+
+|{counter:codes}
+|{leetcode_base_url}/partition-list/[86. Partition List^]
+|{doc_base_url}/0086-partition-list.adoc[题解]
+|双指针链表遍历
 
 |===
 

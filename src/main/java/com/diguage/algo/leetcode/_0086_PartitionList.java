@@ -22,6 +22,9 @@ public class _0086_PartitionList {
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Partition List.
      * Memory Usage: 37.5 MB, less than 5.77% of Java online submissions for Partition List.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-05 19:14
      */
     public ListNode partition(ListNode head, int x) {
         if (Objects.isNull(head)) {
