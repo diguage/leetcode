@@ -530,6 +530,11 @@
 |{doc_base_url}/0191-number-of-1-bits.adoc[题解]
 |位运算，减法 `n&(n-1)` 解法牛逼
 
+|{counter:codes}
+|{leetcode_base_url}/product-of-array-except-self/[238. Product of Array Except Self^]
+|{doc_base_url}/0238-product-of-array-except-self.adoc[题解]
+|从后及从前，分两次进行计算
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

@@ -31,6 +31,9 @@ public class _0238_ProductOfArrayExceptSelf {
      * Runtime: 1 ms, faster than 100.00% of Java online submissions for Product of Array Except Self.
      *
      * Memory Usage: 42.8 MB, less than 48.03% of Java online submissions for Product of Array Except Self.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-05 20:15
      */
     public int[] productExceptSelf(int[] nums) {
         int[] result = new int[nums.length];

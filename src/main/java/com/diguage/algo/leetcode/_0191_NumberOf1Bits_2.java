@@ -5,7 +5,7 @@ public class _0191_NumberOf1Bits_2 {
 
   /**
    * @author D瓜哥 · https://www.diguage.com
-   * @since 2020-01-25 23:12
+   * @since 2024-09-14 15:34:01
    */
   public int hammingWeight(int n) {
     // int result = 0;
