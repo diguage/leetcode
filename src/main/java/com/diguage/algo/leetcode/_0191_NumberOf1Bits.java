@@ -49,6 +49,9 @@ public class _0191_NumberOf1Bits {
      * Runtime: 2 ms, faster than 7.49% of Java online submissions for Number of 1 Bits.
      *
      * Memory Usage: 38 MB, less than 5.41% of Java online submissions for Number of 1 Bits.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-25 23:12
      */
     public int hammingWeight(int n) {
         int result = 0;
