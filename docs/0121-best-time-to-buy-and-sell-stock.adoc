@@ -24,43 +24,37 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ----
 
-针对 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^] 这个解题框架，进行小试牛刀。
+== 思路分析
 
-== 参考资料
+一次遍历，在遍历中找最大值减去最小值即可。
 
-. https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^]
-. https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/dong-tai-gui-hua-shen-ru-fen-xi-by-wang-yan-19/[动态规划深入分析 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^]
-
-Say you have an array for which the _i_^th^ element is the price of a given stock on day _i_.
-
-If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.
-
-Note that you cannot sell a stock before you buy one.
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [7,1,5,3,6,4]
-*Output:* 5
-*Explanation:* Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
-             Not 7-1 = 6, as selling price needs to be larger than buying price.
-----
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [7,6,4,3,1]
-*Output:* 0
-*Explanation:* In this case, no transaction is done, i.e. max profit = 0.
-----
-
-
+image::images/0121-01.gif[{image_attr}]
 
 [[src-0121]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0121_BestTimeToBuyAndSellStock.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0121_BestTimeToBuyAndSellStock_2.java[tag=answer]
+----
+--
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/solutions/8610/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[309. 买卖股票的最佳时机含冷冻期 - 一个方法团灭 6 道股票问题^]
+. https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/dong-tai-gui-hua-shen-ru-fen-xi-by-wang-yan-19/[动态规划深入分析 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^]
+. https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/solutions/1692872/by-jyd-cu90/[121. 买卖股票的最佳时机 - 动态规划，清晰图解^]

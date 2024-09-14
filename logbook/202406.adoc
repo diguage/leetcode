@@ -570,6 +570,11 @@
 |{doc_base_url}/0236-lowest-common-ancestor-of-a-binary-tree.adoc[题解]
 |想清楚怎么判断是否为公共祖先。
 
+|{counter:codes}
+|{leetcode_base_url}/best-time-to-buy-and-sell-stock/[121. Best Time to Buy and Sell Stock^]
+|{doc_base_url}/0121-best-time-to-buy-and-sell-stock.adoc[题解]
+|
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
