@@ -56,11 +56,21 @@ include::{sourcedir}/_0155_MinStack.java[tag=answer]
 include::{sourcedir}/_0155_MinStack_2.java[tag=answer]
 ----
 --
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0155_MinStack_3.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
 
 . https://leetcode.cn/problems/min-stack/solutions/242190/zui-xiao-zhan-by-leetcode-solution/[155. 最小栈 - 官方题解^]
 . https://leetcode.cn/problems/min-stack/solutions/13496/shi-yong-fu-zhu-zhan-tong-bu-he-bu-tong-bu-python-/[155. 最小栈 - 使用辅助栈（同步和不同步，Python 代码、Java 代码）^]
+. https://leetcode.cn/problems/min-stack/solutions/9036/min-stack-fu-zhu-stackfa-by-jin407891080/[155. 最小栈 - 辅助栈法，清晰图解^]
 
 
