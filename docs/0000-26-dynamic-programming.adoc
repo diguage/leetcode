@@ -62,5 +62,6 @@ TIP: 写出信息结构是把所有的信息都装到一个对象中。如果只
 . https://leetcode.cn/problems/minimum-falling-path-sum/solutions/2341851/cong-di-gui-dao-di-tui-jiao-ni-yi-bu-bu-2cwkb/[931. 下降路径最小和 - 从递归到递推，教你一步步思考动态规划！（附题单）^]
 . https://leetcode.cn/problems/partition-equal-subset-sum/solutions/13059/0-1-bei-bao-wen-ti-xiang-jie-zhen-dui-ben-ti-de-yo/[416. 分割等和子集 - 动态规划（转换为 0-1 背包问题）^]
 . https://github.com/youngyangyang04/leetcode-master[代码随想-LeetCode 刷题攻略^]
+. https://leetcode.cn/circle/discuss/qiAgHn/[分享｜股票问题系列通解（转载翻译）^]
 
 :sectnums!:

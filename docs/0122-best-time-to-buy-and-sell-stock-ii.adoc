@@ -33,56 +33,54 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ----
 
+== 思路分析
+
+
 针对 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^] 这个解题框架，进行小试牛刀。
 
-== 参考资料
+image::images/0122-01.png[{image_attr}]
 
-. https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^]
-. https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/dong-tai-gui-hua-shen-ru-fen-xi-by-wang-yan-19/[动态规划深入分析 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^]
+image::images/0122-02.png[{image_attr}]
 
-Say you have an array for which the _i_^th^ element is the price of a given stock on day _i_.
+image::images/0122-03.png[{image_attr}]
 
-Design an algorithm to find the maximum profit. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
+image::images/0122-04.png[{image_attr}]
 
-*Note:* You may not engage in multiple transactions at the same time (i.e., you must sell the stock before you buy again).
+image::images/0122-05.png[{image_attr}]
 
-*Example 1:*
+image::images/0122-06.png[{image_attr}]
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [7,1,5,3,6,4]
-*Output:* 7
-*Explanation:* Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-1 = 4.
-             Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3.
+image::images/0122-07.png[{image_attr}]
 
-----
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,2,3,4,5]
-*Output:* 4
-*Explanation:* Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-1 = 4.
-             Note that you cannot buy on day 1, buy on day 2 and sell them later, as you are
-             engaging multiple transactions at the same time. You must sell before buying again.
-
-----
-
-*Example 3:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [7,6,4,3,1]
-*Output:* 0
-*Explanation:* In this case, no transaction is done, i.e. max profit = 0.
-----
-
-
+image::images/0122-08.png[{image_attr}]
 
 [[src-0122]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0122_BestTimeToBuyAndSellStockII.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0122_BestTimeToBuyAndSellStockII_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/solutions/8610/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[309. 买卖股票的最佳时机含冷冻期 - 一个方法团灭 6 道股票问题^]
+. https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/solutions/31589/dong-tai-gui-hua-shen-ru-fen-xi-by-wang-yan-19/[309. 买卖股票的最佳时机含冷冻期 - 动态规划深入分析^]
+. https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/solutions/12625/best-time-to-buy-and-sell-stock-ii-zhuan-hua-fa-ji/?envType=study-plan-v2&envId=selected-coding-interview[122. 买卖股票的最佳时机 II - 贪心，清晰图解^]
+. https://leetcode.cn/circle/discuss/qiAgHn/[分享｜股票问题系列通解（转载翻译）^]
+
 
