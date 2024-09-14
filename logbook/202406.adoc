@@ -565,6 +565,11 @@
 |{doc_base_url}/0704-binary-search.adoc[题解]
 |二分查找
 
+|{counter:codes}
+|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree/[236. Lowest Common Ancestor of a Binary Tree^]
+|{doc_base_url}/0236-lowest-common-ancestor-of-a-binary-tree.adoc[题解]
+|想清楚怎么判断是否为公共祖先。
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

@@ -4,23 +4,14 @@
 
 {leetcode}/problems/lowest-common-ancestor-of-a-binary-tree/[LeetCode - Lowest Common Ancestor of a Binary Tree^]
 
-image::images/0236-1.png[{image_attr}]
-
-D瓜哥的思路：先找出一条从根节点到某个节点的路径；然后从这条路径上以此去寻找另外一个节点。找到这返回此节点。
-
-思考题：如何按照"路径"的思路实现一遍？
-
-== 解题分析
-
 Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
 
 According to the https://en.wikipedia.org/wiki/Lowest_common_ancestor[definition of LCA on Wikipedia^]: &ldquo;The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow *a node to be a descendant of itself*).&rdquo;
 
 Given the following binary tree:  root = [3,5,1,6,2,0,8,null,null,7,4]
 
-image::https://assets.leetcode.com/uploads/2018/12/14/binarytree.png[{image_attr}]
+image::images/0236-1.png[{image_attr}]
  
-
 *Example 1:*
 
 [subs="verbatim,quotes,macros"]
@@ -47,7 +38,12 @@ image::https://assets.leetcode.com/uploads/2018/12/14/binarytree.png[{image_attr
 * All of the nodes' values will be unique.
 * p and q are different and both values will exist in the binary tree.
 
+
 == 思路分析
+
+D瓜哥的思路：先找出一条从根节点到某个节点的路径；然后从这条路径上以此去寻找另外一个节点。找到这返回此节点。
+
+思考题：如何按照"路径"的思路实现一遍？
 
 这道题是 xref:0235-lowest-common-ancestor-of-a-binary-search-tree.adoc[235. Lowest Common Ancestor of a Binary Search Tree] 的延伸。但是，解题思路略有不同，本体的解题思路也可用于前者。
 
@@ -104,15 +100,35 @@ image::images/0236-18.png[{image_attr}]
 
 
 [[src-0236]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0236_LowestCommonAncestorOfABinaryTree.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0236_LowestCommonAncestorOfABinaryTree_2.java[tag=answer]
 ----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0236_LowestCommonAncestorOfABinaryTree_3.java[tag=answer]
+----
+--
+====
 
 == 参考资料
 

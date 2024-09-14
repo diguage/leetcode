@@ -42,6 +42,9 @@ public class _0236_LowestCommonAncestorOfABinaryTree_2 {
   // tag::answer[]
   /**
    * 参考 左程云《程序员代码面试指南》的解法
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-24 21:08:59
    */
   public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
     if (root == null || root == p || root == q) {

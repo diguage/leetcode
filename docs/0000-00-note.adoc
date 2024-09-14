@@ -22,6 +22,8 @@ image::images/quick-sort-01.gif[{image_attr}]
 == TODO
 
 * [ ] https://leetcode.cn/problems/number-of-islands/solutions/211211/dao-yu-lei-wen-ti-de-tong-yong-jie-fa-dfs-bian-li-/[200. 岛屿数量 - 岛屿类问题的通用解法、DFS 遍历框架^]
+* [ ] 魔改的二分查找
+* [ ] 买卖股票
 
 == 解题范式
 
