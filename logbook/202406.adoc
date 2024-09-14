@@ -560,6 +560,11 @@
 |{doc_base_url}/0054-spiral-matrix.adoc[题解]
 |从回溯得到启发，使用递归来完成层次的遍历。
 
+|{counter:codes}
+|{leetcode_base_url}/binary-search/[704. Binary Search^]
+|{doc_base_url}/0704-binary-search.adoc[题解]
+|二分查找
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
