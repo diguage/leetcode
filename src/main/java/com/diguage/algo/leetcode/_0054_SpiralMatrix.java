@@ -42,6 +42,9 @@ public class _0054_SpiralMatrix {
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Spiral Matrix.
      *
      * Memory Usage: 34.4 MB, less than 100.00% of Java online submissions for Spiral Matrix.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-10-26 00:51:20
      */
     public List<Integer> spiralOrder(int[][] matrix) {
         if (Objects.isNull(matrix) || matrix.length == 0) {

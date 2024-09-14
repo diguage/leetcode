@@ -30,10 +30,36 @@ Given a matrix of _m_ x _n_ elements (_m_ rows, _n_ columns), return all element
 *Output:* [1,2,3,4,8,12,11,10,9,5,6,7]
 ----
 
+== 思路分析
+
+从回溯思想得到启发，使用递归来逐层推进。每次方法调用只负责指定层的遍历，向里推进层次的工作，交给递归来完成。这样避免了复杂的判断。
+
+image::images/0054-01.png[{image_attr}]
 
 [[src-0054]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0054_SpiralMatrix.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0054_SpiralMatrix_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/spiral-matrix/solutions/275393/luo-xuan-ju-zhen-by-leetcode-solution/?envType=study-plan-v2&envId=selected-coding-interview[54. 螺旋矩阵 - 官方题解^]
+. https://leetcode.cn/problems/spiral-matrix/solutions/2362055/54-luo-xuan-ju-zhen-mo-ni-qing-xi-tu-jie-juvi/?envType=study-plan-v2&envId=selected-coding-interview[54. 螺旋矩阵 - 模拟，清晰图解^]
 
