@@ -595,6 +595,10 @@
 |{doc_base_url}/0231-power-of-two.adoc[题解]
 |位运算， `n & (n - 1)` 或约数
 
+|{counter:codes}
+|{leetcode_base_url}/integer-break/[343. Integer Break^]
+|{doc_base_url}/0343-integer-break.adoc[题解]
+|动态规划，数学分析也可以看一下：怎么样计算自然底数 `e` 的值？
 
 |===
 

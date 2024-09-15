@@ -54,6 +54,15 @@ include::{sourcedir}/_0343_IntegerBreak.java[tag=answer]
 include::{sourcedir}/_0343_IntegerBreak_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0343_IntegerBreak_3.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
