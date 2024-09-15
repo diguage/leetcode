@@ -3,12 +3,6 @@
 
 {leetcode}/problems/powx-n/[LeetCode - Pow(x, n)^]
 
-首先，可以把"一半的计算结果"存储起来，节省一半的递归调用；
-
-其次，没想到还需要处理"无穷"的情况！
-
-另外，思考一下，如果使用迭代来实现？
-
 Implement http://www.cplusplus.com/reference/valarray/pow/[pow(_x_, _n_)^], which calculates _x_ raised to the power _n_ (x^n^).
 
 *Example 1:*
@@ -42,10 +36,45 @@ Implement http://www.cplusplus.com/reference/valarray/pow/[pow(_x_, _n_)^], whic
 * -100.0 < _x_ < 100.0
 * _n_ is a 32-bit signed integer, within the range [-2^31^, 2^31 ^- 1]
 
+== 思路分析
+
+image::images/0050-01.png[{image_attr}]
+
+image::images/0050-02.png[{image_attr}]
+
+首先，可以把"一半的计算结果"存储起来，节省一半的递归调用；
+
+其次，没想到还需要处理"无穷"的情况！
+
+另外，思考一下，如果使用迭代来实现？
+
+快速幂的算法能看懂，但代码不知道怎么写。
 
 [[src-0050]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0050_PowXN.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0050_PowXN_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/powx-n/solutions/238559/powx-n-by-leetcode-solution/?envType=study-plan-v2&envId=selected-coding-interview[50. Pow(x, n) - 官方题解^]
+. https://leetcode.cn/problems/powx-n/solutions/241471/50-powx-n-kuai-su-mi-qing-xi-tu-jie-by-jyd/?envType=study-plan-v2&envId=selected-coding-interview[50. Pow(x, n) - 快速幂，清晰图解^]
+
 

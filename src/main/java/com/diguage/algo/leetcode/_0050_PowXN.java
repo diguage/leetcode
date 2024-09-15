@@ -44,6 +44,9 @@ public class _0050_PowXN {
      * Runtime: 1 ms, faster than 94.10% of Java online submissions for Pow(x, n).
      *
      * Memory Usage: 34.4 MB, less than 5.88% of Java online submissions for Pow(x, n).
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-13 21:19
      */
     public double myPow(double x, int n) {
         if (n == 0) {
@@ -61,24 +64,6 @@ public class _0050_PowXN {
 
         return (n % 2 == 0 ? 1.0 : x) * semiResult * semiResult;
     }
-
-    /**
-     * Time Limit Exceeded
-     * <p>
-     * Copy from:
-     */
-    public double myPowTimeout(double x, int n) {
-        if (n == 0) {
-            return 1;
-        }
-        if (n < 0) {
-            x = 1 / x;
-            n = -n;
-        }
-        return n % 2 == 0 ? myPowTimeout(x, n / 2) * myPowTimeout(x, n / 2)
-                : x * myPowTimeout(x, n / 2) * myPowTimeout(x, n / 2);
-    }
-
   // end::answer[]
 
 
