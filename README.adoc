@@ -1461,12 +1461,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/isomorphic-strings/[205. Isomorphic Strings^]
-//|{source_base_url}/_0205_IsomorphicStrings.java[Java]
-//|{doc_base_url}/0205-isomorphic-strings.adoc[题解]
-//|Easy
-//|
+|{counter:codes}
+|{leetcode_base_url}/isomorphic-strings/[205. Isomorphic Strings^]
+|{source_base_url}/_0205_IsomorphicStrings.java[Java]
+|{doc_base_url}/0205-isomorphic-strings.adoc[题解]
+|Easy
+|
 
 |{counter:codes}
 |{leetcode_base_url}/reverse-linked-list/[206. Reverse Linked List^]

@@ -610,6 +610,11 @@
 |{doc_base_url}/0232-implement-queue-using-stacks.adoc[题解]
 |❎
 
+|{counter:codes}
+|{leetcode_base_url}/isomorphic-strings/[205. Isomorphic Strings^]
+|{doc_base_url}/0205-isomorphic-strings.adoc[题解]
+|❎哈希映射
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

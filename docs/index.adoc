@@ -484,7 +484,7 @@ include::0202-happy-number.adoc[leveloffset=+1]
 
 include::0204-count-primes.adoc[leveloffset=+1]
 
-// include::0205-isomorphic-strings.adoc[leveloffset=+1]
+include::0205-isomorphic-strings.adoc[leveloffset=+1]
 
 include::0206-reverse-linked-list.adoc[leveloffset=+1]
 
