@@ -16,22 +16,9 @@ image::images/0021-00.jpg[{image_attr}]
 
 == 思路分析
 
-=== 迭代
+最先想到的是迭代。
 
-[[src-0021]]
-[{java_src_attr}]
-----
-include::{sourcedir}/_0021_MergeTwoSortedLists.java[tag=answer]
-----
-
-[{java_src_attr}]
-----
-include::{sourcedir}/_0021_MergeTwoSortedLists_2.java[tag=answer]
-----
-
-=== 递归
-
-没想到这个题也可以用递归解决！
+但是，也可以用递归解决！
 
 image::images/0021-09.png[{image_attr}]
 
@@ -52,6 +39,37 @@ image::images/0021-06.jpeg[{image_attr}]
 image::images/0021-07.jpeg[{image_attr}]
 
 image::images/0021-08.jpeg[{image_attr}]
+
+[[src-0021]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0021_MergeTwoSortedLists.java[tag=answer]
+----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0021_MergeTwoSortedLists_2.java[tag=answer]
+----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0021_MergeTwoSortedLists_3.java[tag=answer]
+----
+--
+====
 
 
 == 参考资料
