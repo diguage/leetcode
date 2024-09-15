@@ -48,11 +48,29 @@ image::images/0876-02.png[{image_attr}]
 
 image::images/0876-03.png[{image_attr}]
 
+image::images/0876-04.gif[{image_attr}]
+
 [[src-0876]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0876_MiddleOfTheLinkedList.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0876_MiddleOfTheLinkedList_2.java[tag=answer]
+----
+--
+====
 
 == 参考资料
 
