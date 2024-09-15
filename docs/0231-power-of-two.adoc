@@ -32,11 +32,38 @@ Given an integer, write a function to determine if it is a power of two.
 *Output:* false
 ----
 
+== 思路分析
 
+这道题可以利用 xref:0191-number-of-1-bits.adoc[191. Number of 1 Bits] 中的思路。
+
+2 的幂次方数，它们的二进制数只有一个 `1`，那么 `n & (n - 1)` 必然为 `0`。
+
+看答案，也可以使用约数法。
 
 [[src-0231]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0231_PowerOfTwo.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0231_PowerOfTwo_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/power-of-two/solutions/796201/2de-mi-by-leetcode-solution-rny3/?envType=study-plan-v2&envId=selected-coding-interview[231. 2 的幂 - 官方题解^]
+. https://leetcode.cn/problems/number-of-1-bits/solutions/2361978/191-wei-1-de-ge-shu-wei-yun-suan-qing-xi-40rw/?envType=study-plan-v2&envId=selected-coding-interview[191. 位1的个数 - 位运算，清晰图解^]
 

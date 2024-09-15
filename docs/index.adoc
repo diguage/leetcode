@@ -536,7 +536,7 @@ include::0227-basic-calculator-ii.adoc[leveloffset=+1]
 
 include::0230-kth-smallest-element-in-a-bst.adoc[leveloffset=+1]
 
-// include::0231-power-of-two.adoc[leveloffset=+1]
+include::0231-power-of-two.adoc[leveloffset=+1]
 
 // include::0232-implement-queue-using-stacks.adoc[leveloffset=+1]
 

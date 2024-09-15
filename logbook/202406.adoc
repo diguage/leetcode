@@ -590,6 +590,12 @@
 |{doc_base_url}/0240-search-a-2d-matrix-ii.adoc[题解]
 |不能对矩阵做二分查找，可以对单行做二分查找。要分析题目，查看如何排除不符合要求的元素。
 
+|{counter:codes}
+|{leetcode_base_url}/power-of-two/[231. Power of Two^]
+|{doc_base_url}/0231-power-of-two.adoc[题解]
+|位运算， `n & (n - 1)` 或约数
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
