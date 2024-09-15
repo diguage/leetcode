@@ -585,6 +585,11 @@
 |{doc_base_url}/0050-powx-n.adoc[题解]
 |分治，快速幂，迭代实现还需要再思考理解一下。
 
+|{counter:codes}
+|{leetcode_base_url}/search-a-2d-matrix-ii/[240. Search a 2D Matrix II^]
+|{doc_base_url}/0240-search-a-2d-matrix-ii.adoc[题解]
+|不能对矩阵做二分查找，可以对单行做二分查找。要分析题目，查看如何排除不符合要求的元素。
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

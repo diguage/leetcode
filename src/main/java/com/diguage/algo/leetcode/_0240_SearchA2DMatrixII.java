@@ -41,6 +41,9 @@ public class _0240_SearchA2DMatrixII {
      * Memory Usage: 50.3 MB, less than 5.66% of Java online submissions for Search a 2D Matrix II.
      *
      * Copy from: https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/66140/My-concise-O(m%2Bn)-Java-solution[(1) My concise O(m+n) Java solution - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-23 10:04
      */
     public boolean searchMatrix(int[][] matrix, int target) {
         if (Objects.isNull(matrix) || matrix.length == 0) {

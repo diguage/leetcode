@@ -4,7 +4,7 @@ public class _0050_PowXN_2 {
   // tag::answer[]
   /**
    * @author D瓜哥 · https://www.diguage.com
-   * @since 2020-01-13 21:19
+   * @since 2024-09-15 17:13:46
    */
   public double myPow(double x, long n) {
     if (x == 0) {
