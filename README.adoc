@@ -1650,13 +1650,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/implement-queue-using-stacks/[232. Implement Queue using Stacks^]
-//|{source_base_url}/_0232_ImplementQueueUsingStacks.java[Java]
-//|{doc_base_url}/0232-implement-queue-using-stacks.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/implement-queue-using-stacks/[232. Implement Queue using Stacks^]
+|{source_base_url}/_0232_ImplementQueueUsingStacks.java[Java]
+|{doc_base_url}/0232-implement-queue-using-stacks.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/number-of-digit-one/[233. Number of Digit One^]
 //|{source_base_url}/_0233_NumberOfDigitOne.java[Java]

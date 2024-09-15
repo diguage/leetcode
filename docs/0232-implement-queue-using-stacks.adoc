@@ -33,11 +33,32 @@ queue.empty(); // returns false
 * You may assume that all operations are valid (for example, no pop or peek operations will be called on an empty queue).
 
 
-
+== 思路分析
 
 [[src-0232]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0232_ImplementQueueUsingStacks.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0232_ImplementQueueUsingStacks_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/implement-queue-using-stacks/solutions/2363977/232-yong-zhan-shi-xian-dui-lie-qing-xi-t-pi4l/?envType=study-plan-v2&envId=selected-coding-interview[232. 用栈实现队列 - 清晰图解^]
+
 

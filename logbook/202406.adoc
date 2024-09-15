@@ -603,7 +603,12 @@
 |{counter:codes}
 |{leetcode_base_url}/merge-two-sorted-lists/[21. Merge Two Sorted Lists^]
 |{doc_base_url}/0021-merge-two-sorted-lists.adoc[题解]
-|递归
+|尝试递归解法
+
+|{counter:codes}
+|{leetcode_base_url}/implement-queue-using-stacks/[232. Implement Queue using Stacks^]
+|{doc_base_url}/0232-implement-queue-using-stacks.adoc[题解]
+|❎
 
 |===
 
