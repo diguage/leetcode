@@ -25,11 +25,14 @@ package com.diguage.algo.leetcode;
  * @since 2020-01-25 17:03
  */
 public class _0371_SumOfTwoIntegers {
-  // tag::answer[]
+    // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Sum of Two Integers.
      *
      * Memory Usage: 37.9 MB, less than 6.67% of Java online submissions for Sum of Two Integers.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-25 17:03
      */
     public int getSumLoop(int a, int b) {
         while (b != 0) {

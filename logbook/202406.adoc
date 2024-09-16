@@ -655,6 +655,11 @@
 |{doc_base_url}/0011-container-with-most-water.adoc[题解]
 |⭕️双指针+贪心
 
+|{counter:codes}
+|{leetcode_base_url}/sum-of-two-integers/[371. Sum of Two Integers^]
+|{doc_base_url}/0371-sum-of-two-integers.adoc[题解]
+|❌位运算
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
