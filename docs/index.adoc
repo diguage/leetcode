@@ -630,7 +630,7 @@ include::0268-missing-number.adoc[leveloffset=+1]
 
 // include::0277-find-the-celebrity.adoc[leveloffset=+1]
 
-// include::0278-first-bad-version.adoc[leveloffset=+1]
+include::0278-first-bad-version.adoc[leveloffset=+1]
 
 include::0279-perfect-squares.adoc[leveloffset=+1]
 

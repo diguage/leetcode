@@ -1971,13 +1971,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0277-find-the-celebrity.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/first-bad-version/[278. First Bad Version^]
-//|{source_base_url}/_0278_FirstBadVersion.java[Java]
-//|{doc_base_url}/0278-first-bad-version.adoc[题解]
-//|Easy
-//|
+
+|{counter:codes}
+|{leetcode_base_url}/first-bad-version/[278. First Bad Version^]
+|{source_base_url}/_0278_FirstBadVersion.java[Java]
+|{doc_base_url}/0278-first-bad-version.adoc[题解]
+|Easy
+|
 
 |{counter:codes}
 |{leetcode_base_url}/perfect-squares/[279. Perfect Squares^]

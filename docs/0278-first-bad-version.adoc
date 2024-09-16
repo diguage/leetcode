@@ -22,11 +22,36 @@ call isBadVersion(4) -> true
 Then 4 is the first bad version. `
 ----
 
+== 思路分析
 
+image::images/0278-01.gif[{image_attr}]
 
 [[src-0278]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0278_FirstBadVersion.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0278_FirstBadVersion_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/first-bad-version/solutions/1693158/by-jyd-19pr/?envType=study-plan-v2&envId=selected-coding-interview[278. 第一个错误的版本 - 二分查找，清晰图解^]
+. https://leetcode.cn/problems/first-bad-version/solutions/1386671/278-di-yi-ge-cuo-wu-de-ban-ben-by-tian-s-11ns/?envType=study-plan-v2&envId=selected-coding-interview[278. 第一个错误的版本 - (二分) 逼近类二分搜索 (模板题)^]
+
+
 
