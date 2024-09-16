@@ -55,53 +55,33 @@ image::images/0089-3.png[{image_attr}]
 
 这个题的解法跟 xref:0338-counting-bits.adoc[338. Counting Bits] 有异曲同工之妙！
 
-== 参考资料
-
-. https://leetcode-cn.com/problems/gray-code/solution/gray-code-jing-xiang-fan-she-fa-by-jyd/[Gray Code （镜像反射法，图解） - 格雷编码 - 力扣（LeetCode）^]
-. https://en.wikipedia.org/wiki/Gray_code[Gray code - Wikipedia^]
-. http://mathworld.wolfram.com/GrayCode.html[Gray Code -- from Wolfram MathWorld^]
-
-
-The gray code is a binary numeral system where two successive values differ in only one bit.
-
-Given a non-negative integer _n_ representing the total number of bits in the code, print the sequence of gray code. A gray code sequence must begin with 0.
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 2
-*Output:* `[0,1,3,2]`
-*Explanation:*
-00 - 0
-01 - 1
-11 - 3
-10 - 2
-
-For a given _n_, a gray code sequence may not be uniquely defined.
-For example, [0,2,3,1] is also a valid gray code sequence.
-
-00 - 0
-10 - 2
-11 - 3
-01 - 1
-----
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 0
-*Output:* `[0]
-*Explanation:* We define the gray code sequence to begin with 0.
-             A gray code sequence of _n_ has size = 2^n^, which for _n_ = 0 the size is 2^0^ = 1.
-             Therefore, for _n_ = 0 the gray code sequence is [0].`
-----
-
 
 [[src-0089]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0089_GrayCode.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0089_GrayCode_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/gray-code/solutions/13637/gray-code-jing-xiang-fan-she-fa-by-jyd/?envType=study-plan-v2&envId=selected-coding-interview[89. 格雷编码 - 清晰图解^]
+. https://en.wikipedia.org/wiki/Gray_code[Gray code - Wikipedia^]
+. http://mathworld.wolfram.com/GrayCode.html[Gray Code -- from Wolfram MathWorld^]
+
 

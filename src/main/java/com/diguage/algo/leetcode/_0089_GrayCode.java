@@ -13,12 +13,15 @@ import java.util.List;
  * @since 2020-02-05 19:36
  */
 public class _0089_GrayCode {
-  // tag::answer[]
+    // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Gray Code.
      * Memory Usage: 37 MB, less than 8.00% of Java online submissions for Gray Code.
      *
      * Copy from: https://leetcode-cn.com/problems/gray-code/solution/gray-code-jing-xiang-fan-she-fa-by-jyd/[Gray Code （镜像反射法，图解） - 格雷编码 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-05 19:36
      */
     public List<Integer> grayCode(int n) {
         List<Integer> result = new ArrayList<>((int) Math.pow(2, n));
