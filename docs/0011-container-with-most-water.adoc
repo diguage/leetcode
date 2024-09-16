@@ -49,6 +49,15 @@ include::{sourcedir}/_0011_ContainerWithMostWater.java[tag=answer]
 include::{sourcedir}/_0011_ContainerWithMostWater_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0011_ContainerWithMostWater_3.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
