@@ -628,7 +628,12 @@
 |{counter:codes}
 |{leetcode_base_url}/first-bad-version/[278. First Bad Version^]
 |{doc_base_url}/0278-first-bad-version.adoc[题解]
-|
+|✅逼近边界的二分查找
+
+|{counter:codes}
+|{leetcode_base_url}/binary-tree-level-order-traversal/[102. Binary Tree Level Order Traversal^]
+|{doc_base_url}/0102-binary-tree-level-order-traversal.adoc[题解]
+|✅广度优先遍历
 
 |===
 

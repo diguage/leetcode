@@ -36,21 +36,43 @@ return its level order traversal as:
 ]
 ----
 
+== 思路分析
+
+image:images/0102-00.png[]
 
 [[src-0102]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0102_BinaryTreeLevelOrderTraversal.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0102_BinaryTreeLevelOrderTraversal_2.java[tag=answer]
 ----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0102_BinaryTreeLevelOrderTraversal_3.java[tag=answer]
+----
+--
+====
 
 TIP: TODO：还可以优化成只用一个队列对象，思考如何实现？
 
-image:images/0102-00.png[]
 
 == 拓展题
 
@@ -59,4 +81,5 @@ image:images/0102-00.png[]
 == 参考资料
 
 . https://cloud.tencent.com/developer/article/1875052[LeetCode通关：连刷三十九道二叉树，刷疯了！^]
+. https://leetcode.cn/problems/binary-tree-level-order-traversal/solutions/2361604/102-er-cha-shu-de-ceng-xu-bian-li-yan-du-dyf7/?envType=study-plan-v2&envId=selected-coding-interview[102. 二叉树的层序遍历 - 广度优先遍历，清晰图解^]
 

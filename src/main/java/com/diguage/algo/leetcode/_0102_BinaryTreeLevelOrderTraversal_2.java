@@ -35,7 +35,7 @@ import static com.diguage.util.TreeNodes.buildTree;
  * ----
  *
  * @author D瓜哥 · https://www.diguage.com
- * @since 2020-01-24 20:40
+ * @since 2024-06-25 11:27
  */
 public class _0102_BinaryTreeLevelOrderTraversal_2 {
   // tag::answer[]
@@ -44,6 +44,9 @@ public class _0102_BinaryTreeLevelOrderTraversal_2 {
    * Runtime: 3 ms, faster than 5.15% of Java online submissions for Binary Tree Level Order Traversal.
    * <p>
    * Memory Usage: 40.2 MB, less than 5.33% of Java online submissions for Binary Tree Level Order Traversal.
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-25 11:27
    */
   public List<List<Integer>> levelOrder(TreeNode root) {
     List<List<Integer>> result = new ArrayList<>();
