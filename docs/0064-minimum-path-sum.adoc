@@ -44,10 +44,33 @@ Given a _m_ x _n_ grid filled with non-negative numbers, find a path from top le
 *Explanation:* Because the path 1&rarr;3&rarr;1&rarr;1&rarr;1 minimizes the sum.
 ----
 
+== 思路分析
 
 [[src-0064]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0064_MinimumPathSum.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0064_MinimumPathSum_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/minimum-path-sum/solutions/342122/zui-xiao-lu-jing-he-by-leetcode-solution/?envType=study-plan-v2&envId=selected-coding-interview[64. 最小路径和 - 官方题解^]
+. https://leetcode.cn/problems/minimum-path-sum/solutions/25943/zui-xiao-lu-jing-he-dong-tai-gui-hua-gui-fan-liu-c/?envType=study-plan-v2&envId=selected-coding-interview[64. 最小路径和 - 动态规划，规范流程，清晰图解^]
+
 

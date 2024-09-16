@@ -645,6 +645,11 @@
 |{doc_base_url}/0101-symmetric-tree.adoc[题解]
 |⭕️分治
 
+|{counter:codes}
+|{leetcode_base_url}/minimum-path-sum/[64. Minimum Path Sum^]
+|{doc_base_url}/0064-minimum-path-sum.adoc[题解]
+|✅动态规划
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
