@@ -3,23 +3,11 @@
 
 {leetcode}/problems/delete-node-in-a-linked-list/[LeetCode - Delete Node in a Linked List^]
 
-这个题其实很简单！把节点的值覆盖当前节点的值即可。
-
-没想到打脸如此之快！还有更简单的办法，两行代码搞定：①把下一个节点的值拷贝到当前节点；②把当前节点的下一节点指向下下一个节点即可。
-
-image::images/0237-0.png[{image_attr}]
-
-image::images/0237-1.png[{image_attr}]
-
-image::images/0237-2.png[{image_attr}]
-
 Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
 
 Given linked list -- head = [4,5,1,9], which looks like following:
 
-image::https://assets.leetcode.com/uploads/2018/12/28/237_example.png[{image_attr}]
-
- 
+image::images/0237-00.png[{image_attr}]
 
 *Example 1:*
 
@@ -50,11 +38,37 @@ image::https://assets.leetcode.com/uploads/2018/12/28/237_example.png[{image_att
 * Do not return anything from your function.
 
 
+== 思路分析
 
+这个题其实很简单！把节点的值覆盖当前节点的值即可。
+
+没想到打脸如此之快！还有更简单的办法，两行代码搞定：①把下一个节点的值拷贝到当前节点；②把当前节点的下一节点指向下下一个节点即可。
+
+image::images/0237-01.png[{image_attr}]
 
 [[src-0237]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0237_DeleteNodeInALinkedList.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0237_DeleteNodeInALinkedList_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/delete-node-in-a-linked-list/solutions/2362069/237-shan-chu-lian-biao-zhong-de-jie-dian-zli2/?envType=study-plan-v2&envId=selected-coding-interview[237. 删除链表中的节点 - 清晰图解^]
 

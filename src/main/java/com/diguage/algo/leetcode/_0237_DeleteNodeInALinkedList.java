@@ -42,7 +42,7 @@ import static com.diguage.util.ListNodes.printListNode;
  * @since 2020-01-13 20:28
  */
 public class _0237_DeleteNodeInALinkedList {
-  // tag::answer[]
+    // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Delete Node in a Linked List.
@@ -50,6 +50,9 @@ public class _0237_DeleteNodeInALinkedList {
      * Memory Usage: 36.2 MB, less than 100.00% of Java online submissions for Delete Node in a Linked List.
      *
      * Copy from: https://leetcode.com/problems/delete-node-in-a-linked-list/solution/[Delete Node in a Linked List solution - LeetCode]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-13 20:28
      */
     public void deleteNode(ListNode node) {
         node.val = node.next.val;
