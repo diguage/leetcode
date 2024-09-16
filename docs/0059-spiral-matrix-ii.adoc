@@ -18,10 +18,35 @@ Given a positive integer _n_, generate a square matrix filled with elements from
 ]
 ----
 
+== 思路分析
+
+利用 xref:0054-spiral-matrix.adoc[54. Spiral Matrix] 的思路，从回溯思想得到启发，使用递归来逐层推进。每次方法调用只负责指定层的遍历，向里推进层次的工作，交给递归来完成。这样避免了复杂的判断。
+
+image::images/0054-01.png[{image_attr}]
 
 [[src-0059]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0059_SpiralMatrixII.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0059_SpiralMatrixII_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/spiral-matrix-ii/solutions/12594/spiral-matrix-ii-mo-ni-fa-she-ding-bian-jie-qing-x/?envType=study-plan-v2&envId=selected-coding-interview[59. 螺旋矩阵 II - 模拟，清晰图解^]
+. https://leetcode.cn/problems/spiral-matrix-ii/solutions/658676/luo-xuan-ju-zhen-ii-by-leetcode-solution-f7fp/?envType=study-plan-v2&envId=selected-coding-interview[59. 螺旋矩阵 II - 官方题解^]
