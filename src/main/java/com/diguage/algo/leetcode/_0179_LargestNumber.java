@@ -29,11 +29,14 @@ import java.util.Arrays;
  * @since 2020-01-25 22:29
  */
 public class _0179_LargestNumber {
-  // tag::answer[]
+    // tag::answer[]
     /**
      * Runtime: 21 ms, faster than 6.20% of Java online submissions for Largest Number.
      *
      * Memory Usage: 40.9 MB, less than 6.67% of Java online submissions for Largest Number.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-25 22:29
      */
     public String largestNumber(int[] nums) {
         String[] strings = new String[nums.length];

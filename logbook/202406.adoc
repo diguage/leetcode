@@ -717,6 +717,11 @@
 |{doc_base_url}/0070-climbing-stairs.adoc[题解]
 |✅ 动态规划
 
+|{counter:codes}
+|{leetcode_base_url}/largest-number/[179. Largest Number^]
+|{doc_base_url}/0179-largest-number.adoc[题解]
+|⭕️ 不能直接比较数字的字符串，要比较 `a+b` 和 `b+a`，这是拼接后的数字。
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
