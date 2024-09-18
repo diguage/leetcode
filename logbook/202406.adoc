@@ -686,6 +686,10 @@
 |{doc_base_url}/0160-intersection-of-two-linked-lists.adoc[题解]
 |✅ 双指针，两个链表逻辑拼接
 
+|{counter:codes}
+|{leetcode_base_url}/zigzag-conversion/[6. ZigZag Conversion^]
+|{doc_base_url}/0006-zigzag-conversion.adoc[题解]
+|❌ 注意审题，看题！
 
 |===
 

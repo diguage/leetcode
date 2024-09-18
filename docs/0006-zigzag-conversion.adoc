@@ -42,10 +42,32 @@ Y A   H R
 P     I
 ----
 
+== 思路分析
 
 [[src-0006]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0006_ZigZagConversion.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0006_ZigZagConversion_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/zigzag-conversion/solutions/21610/zzi-xing-bian-huan-by-jyd/?envType=study-plan-v2&envId=selected-coding-interview[6. Z 字形变换 - 巧设 flag ，清晰图解^]
+. https://leetcode.cn/problems/zigzag-conversion/solutions/1298127/z-zi-xing-bian-huan-by-leetcode-solution-4n3u/?envType=study-plan-v2&envId=selected-coding-interview[6. Z 字形变换 - 官方题解^]
 

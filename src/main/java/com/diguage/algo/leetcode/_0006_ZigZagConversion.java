@@ -51,7 +51,7 @@ import java.util.Objects;
  * @since 2019-07-14 18:20
  */
 public class _0006_ZigZagConversion {
-  // tag::answer[]
+    // tag::answer[]
     /**
      * Runtime: 5 ms, faster than 73.81% of Java online submissions for ZigZag Conversion.
      *
