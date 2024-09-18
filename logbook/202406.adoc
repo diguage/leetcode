@@ -712,6 +712,11 @@
 |{doc_base_url}/0110-balanced-binary-tree.adoc[题解]
 |✅ 平衡树还是要靠高度来平衡！可以用负数表示不平衡。
 
+|{counter:codes}
+|{leetcode_base_url}/climbing-stairs/[70. Climbing Stairs^]
+|{doc_base_url}/0070-climbing-stairs.adoc[题解]
+|✅ 动态规划
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

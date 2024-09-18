@@ -32,7 +32,7 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 3. 2 steps + 1 step
 ----
 
-== 解题分析
+== 思路分析
 
 最简单只有一个台阶，只有 1 种方法；
 
@@ -60,8 +60,32 @@ F_{n}=1 / \sqrt{5}\left[\left(\frac{1+\sqrt{5}}{2}\right)^{n}-\left(\frac{1-\sqr
 
 
 [[src-0070]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0070_ClimbingStairs.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0070_ClimbingStairs_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/climbing-stairs/solutions/2361764/70-pa-lou-ti-dong-tai-gui-hua-qing-xi-tu-ruwa/?envType=study-plan-v2&envId=selected-coding-interview[70. 爬楼梯 - 动态规划，清晰图解^]
+. https://leetcode.cn/problems/climbing-stairs/solutions/286022/pa-lou-ti-by-leetcode-solution/?envType=study-plan-v2&envId=selected-coding-interview[70. 爬楼梯 - 官方题解^]
+. https://leetcode.cn/problems/climbing-stairs/solutions/2560716/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-7zm1/?envType=study-plan-v2&envId=selected-coding-interview[70. 爬楼梯 - 教你一步步思考动态规划：从记忆化搜索到递推^]
+
+
 
