@@ -608,78 +608,83 @@
 |{counter:codes}
 |{leetcode_base_url}/implement-queue-using-stacks/[232. Implement Queue using Stacks^]
 |{doc_base_url}/0232-implement-queue-using-stacks.adoc[题解]
-|❌
+|❌ 
 
 |{counter:codes}
 |{leetcode_base_url}/isomorphic-strings/[205. Isomorphic Strings^]
 |{doc_base_url}/0205-isomorphic-strings.adoc[题解]
-|❌哈希映射
+|❌ 哈希映射
 
 |{counter:codes}
 |{leetcode_base_url}/middle-of-the-linked-list/[876. Middle of the Linked List^]
 |{doc_base_url}/0876-middle-of-the-linked-list.adoc[题解]
-|✅快慢指针，思路OK，注意处理细节。
+|✅ 快慢指针，思路OK，注意处理细节。
 
 |{counter:codes}
 |{leetcode_base_url}/spiral-matrix-ii/[59. Spiral Matrix II^]
 |{doc_base_url}/0059-spiral-matrix-ii.adoc[题解]
-|✅利用回溯思想，逐层推进
+|✅ 利用回溯思想，逐层推进
 
 |{counter:codes}
 |{leetcode_base_url}/first-bad-version/[278. First Bad Version^]
 |{doc_base_url}/0278-first-bad-version.adoc[题解]
-|✅逼近边界的二分查找
+|✅ 逼近边界的二分查找
 
 |{counter:codes}
 |{leetcode_base_url}/binary-tree-level-order-traversal/[102. Binary Tree Level Order Traversal^]
 |{doc_base_url}/0102-binary-tree-level-order-traversal.adoc[题解]
-|✅广度优先遍历
+|✅ 广度优先遍历
 
 |{counter:codes}
 |{leetcode_base_url}/combination-sum-ii/[40. Combination Sum II^]
 |{doc_base_url}/0040-combination-sum-ii.adoc[题解]
-|⭕️组合，回溯，剪枝
+|⭕️ 组合，回溯，剪枝
 
 |{counter:codes}
 |{leetcode_base_url}/symmetric-tree/[101. Symmetric Tree^]
 |{doc_base_url}/0101-symmetric-tree.adoc[题解]
-|⭕️分治
+|⭕️ 分治
 
 |{counter:codes}
 |{leetcode_base_url}/minimum-path-sum/[64. Minimum Path Sum^]
 |{doc_base_url}/0064-minimum-path-sum.adoc[题解]
-|✅动态规划
+|✅ 动态规划
 
 |{counter:codes}
 |{leetcode_base_url}/container-with-most-water/[11. Container With Most Water^]
 |{doc_base_url}/0011-container-with-most-water.adoc[题解]
-|⭕️双指针+贪心
+|⭕️ 双指针+贪心
 
 |{counter:codes}
 |{leetcode_base_url}/sum-of-two-integers/[371. Sum of Two Integers^]
 |{doc_base_url}/0371-sum-of-two-integers.adoc[题解]
-|❌位运算
+|❌ 位运算
 
 |{counter:codes}
 |{leetcode_base_url}/gray-code/[89. Gray Code^]
 |{doc_base_url}/0089-gray-code.adoc[题解]
-|❌位运算
+|❌ 位运算
 
 |{counter:codes}
 |{leetcode_base_url}/delete-node-in-a-linked-list/[237. Delete Node in a Linked List^]
 |{doc_base_url}/0237-delete-node-in-a-linked-list.adoc[题解]
-|⭕️解法很巧妙，只需要拷贝一个值，修改一个指针即可。
+|⭕️ 解法很巧妙，只需要拷贝一个值，修改一个指针即可。
 
 |{counter:codes}
 |{leetcode_base_url}/decode-string/[394. Decode String^]
 |{doc_base_url}/0394-decode-string.adoc[题解]
-|✅利用DFS的思想，遇到数字就递归。细节处理麻烦！
+|✅ 利用DFS的思想，遇到数字就递归。细节处理麻烦！
 
 
 |{counter:codes}
 |{leetcode_base_url}/longest-palindrome/[409. Longest Palindrome^]
 |{doc_base_url}/0409-longest-palindrome.adoc[题解]
-|✅哈希
+|✅ 哈希
+
+|{counter:codes}
+|{leetcode_base_url}/intersection-of-two-linked-lists/[160. Intersection of Two Linked Lists^]
+|{doc_base_url}/0160-intersection-of-two-linked-lists.adoc[题解]
+|✅ 双指针，两个链表逻辑拼接
 
 
 |===

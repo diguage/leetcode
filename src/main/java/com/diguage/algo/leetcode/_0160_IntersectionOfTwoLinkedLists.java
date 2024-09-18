@@ -65,6 +65,9 @@ public class _0160_IntersectionOfTwoLinkedLists {
      * Memory Usage: 43.3 MB, less than 5.71% of Java online submissions for Intersection of Two Linked Lists.
      *
      * Copy from: https://leetcode.com/problems/intersection-of-two-linked-lists/discuss/49785/Java-solution-without-knowing-the-difference-in-len![Java solution without knowing the difference in len! - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-12 11:12
      */
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (Objects.isNull(headA) || Objects.isNull(headB)) {
