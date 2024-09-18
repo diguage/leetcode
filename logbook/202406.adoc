@@ -670,6 +670,11 @@
 |{doc_base_url}/0237-delete-node-in-a-linked-list.adoc[题解]
 |⭕️解法很巧妙，只需要拷贝一个值，修改一个指针即可。
 
+|{counter:codes}
+|{leetcode_base_url}/decode-string/[394. Decode String^]
+|{doc_base_url}/0394-decode-string.adoc[题解]
+|✅利用DFS的思想，遇到数字就递归。细节处理麻烦！
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

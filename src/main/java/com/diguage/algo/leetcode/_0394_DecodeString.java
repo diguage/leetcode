@@ -13,11 +13,14 @@ import java.util.Objects;
  * @since 2020-01-28 22:08
  */
 public class _0394_DecodeString {
-  // tag::answer[]
+    // tag::answer[]
 
     /**
      * Runtime: 1 ms, faster than 64.03% of Java online submissions for Decode String.
      * Memory Usage: 37.4 MB, less than 5.68% of Java online submissions for Decode String.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-28 22:08
      */
     public String decodeString(String s) {
         if (Objects.isNull(s) || s.length() == 0) {
