@@ -5093,14 +5093,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0723-candy-crush.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/find-pivot-index/[724. Find Pivot Index^]
-//|{source_base_url}/_0724_FindPivotIndex.java[Java]
-//|{doc_base_url}/0724-find-pivot-index.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/find-pivot-index/[724. Find Pivot Index^]
+|{source_base_url}/_0724_FindPivotIndex.java[Java]
+|{doc_base_url}/0724-find-pivot-index.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/split-linked-list-in-parts/[725. Split Linked List in Parts^]
 //|{source_base_url}/_0725_SplitLinkedListInParts.java[Java]

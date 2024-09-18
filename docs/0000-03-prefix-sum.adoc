@@ -8,6 +8,8 @@
 . xref:0303-range-sum-query-immutable.adoc[303. Range Sum Query - Immutable]
 . xref:0304-range-sum-query-2d-immutable.adoc[304. Range Sum Query 2D - Immutable]
 . xref:0437-path-sum-iii.adoc[437. Path Sum III]
+. xref:0238-product-of-array-except-self.adoc[238. Product of Array Except Self]
+. xref:0724-find-pivot-index.adoc[724. Find Pivot Index]
 
 == 参考资料
 

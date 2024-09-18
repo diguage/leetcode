@@ -533,7 +533,7 @@
 |{counter:codes}
 |{leetcode_base_url}/product-of-array-except-self/[238. Product of Array Except Self^]
 |{doc_base_url}/0238-product-of-array-except-self.adoc[题解]
-|从后及从前，在一个数组上分两次进行计算
+|✅ 前缀和，从后及从前，在一个数组上分两次进行计算
 
 |{counter:codes}
 |{leetcode_base_url}/partition-list/[86. Partition List^]
@@ -690,6 +690,13 @@
 |{leetcode_base_url}/zigzag-conversion/[6. ZigZag Conversion^]
 |{doc_base_url}/0006-zigzag-conversion.adoc[题解]
 |❌ 注意审题，看题！
+
+
+|{counter:codes}
+|{leetcode_base_url}/find-pivot-index/[724. Find Pivot Index^]
+|{doc_base_url}/0724-find-pivot-index.adoc[题解]
+|✅ 前缀和
+
 
 |===
 

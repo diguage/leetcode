@@ -45,6 +45,8 @@ include::{sourcedir}/_0238_ProductOfArrayExceptSelf_2.java[tag=answer]
 --
 ====
 
+该题的思路也适用于 xref:0724-find-pivot-index.adoc[724. Find Pivot Index]。
+
 == 参考资料
 
 . https://leetcode.cn/problems/product-of-array-except-self/solutions/11472/product-of-array-except-self-shang-san-jiao-xia-sa/?envType=study-plan-v2&envId=selected-coding-interview[238. 除自身以外数组的乘积 - 清晰图解^]

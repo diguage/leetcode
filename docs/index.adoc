@@ -1522,7 +1522,7 @@ include::0714-best-time-to-buy-and-sell-stock-with-transaction-fee.adoc[leveloff
 
 // include::0723-candy-crush.adoc[leveloffset=+1]
 
-// include::0724-find-pivot-index.adoc[leveloffset=+1]
+include::0724-find-pivot-index.adoc[leveloffset=+1]
 
 // include::0725-split-linked-list-in-parts.adoc[leveloffset=+1]
 
