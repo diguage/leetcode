@@ -2888,14 +2888,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0408-valid-word-abbreviation.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/longest-palindrome/[409. Longest Palindrome^]
-//|{source_base_url}/_0409_LongestPalindrome.java[Java]
-//|{doc_base_url}/0409-longest-palindrome.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/longest-palindrome/[409. Longest Palindrome^]
+|{source_base_url}/_0409_LongestPalindrome.java[Java]
+|{doc_base_url}/0409-longest-palindrome.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/split-array-largest-sum/[410. Split Array Largest Sum^]
 //|{source_base_url}/_0410_SplitArrayLargestSum.java[Java]

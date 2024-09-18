@@ -675,6 +675,13 @@
 |{doc_base_url}/0394-decode-string.adoc[题解]
 |✅利用DFS的思想，遇到数字就递归。细节处理麻烦！
 
+
+|{counter:codes}
+|{leetcode_base_url}/longest-palindrome/[409. Longest Palindrome^]
+|{doc_base_url}/0409-longest-palindrome.adoc[题解]
+|✅哈希
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

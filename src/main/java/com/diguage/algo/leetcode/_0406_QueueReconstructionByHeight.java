@@ -17,6 +17,9 @@ public class _0406_QueueReconstructionByHeight {
     /**
      * Runtime: 8 ms, faster than 39.43% of Java online submissions for Queue Reconstruction by Height.
      * Memory Usage: 42.6 MB, less than 89.36% of Java online submissions for Queue Reconstruction by Height.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-29 17:20
      */
     public int[][] reconstructQueue(int[][] people) {
         Arrays.sort(people, (a, b) -> a[0] == b[0] ? a[1] - b[1] : b[0] - a[0]);

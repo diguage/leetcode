@@ -892,7 +892,7 @@ include::0406-queue-reconstruction-by-height.adoc[leveloffset=+1]
 
 // include::0408-valid-word-abbreviation.adoc[leveloffset=+1]
 
-// include::0409-longest-palindrome.adoc[leveloffset=+1]
+include::0409-longest-palindrome.adoc[leveloffset=+1]
 
 // include::0410-split-array-largest-sum.adoc[leveloffset=+1]
 
