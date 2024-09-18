@@ -18,6 +18,9 @@ public class _0110_BalancedBinaryTree_2 {
 
   /**
    * 使用“树形 DP 套路”
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-21 23:25
    */
   public boolean isBalanced(TreeNode root) {
     return dfs(root).balance;

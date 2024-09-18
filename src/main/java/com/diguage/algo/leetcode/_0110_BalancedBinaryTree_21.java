@@ -11,13 +11,16 @@ import static java.util.Arrays.asList;
  * https://leetcode.com/problems/balanced-binary-tree/[LeetCode - Balanced Binary Tree]
  *
  * @author D瓜哥 · https://www.diguage.com
- * @since 2020-02-06 23:10
+ * @since 2024-06-23 00:28
  */
 public class _0110_BalancedBinaryTree_21 {
   // tag::answer[]
 
   /**
    * 看了论坛中大家的讨论，做了提前结束递归的优化。
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-23 00:28
    */
   public boolean isBalanced(TreeNode root) {
     return dfs(root) >= 0;

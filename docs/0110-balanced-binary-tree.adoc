@@ -54,32 +54,53 @@ Return false.
 
 这里有个思维误区：并不是最顶层的左右树相差不超过 1 就是平衡树；而是递归定义的，是每棵树的左右子树的高度差都不能超过 1 才可以。
 
-== 参考资料
-
-. https://leetcode.cn/problems/balanced-binary-tree/solutions/8737/balanced-binary-tree-di-gui-fang-fa-by-jin40789108/[Balanced Binary Tree （Top-down和Bottom-up递归方法） - 平衡二叉树 - 力扣（LeetCode）^]
-
 
 [[src-0110]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0110_BalancedBinaryTree.java[tag=answer]
 ----
+--
 
-== 基于树形 DP 套路解法
-
-这个解法参考了：xref:0000-26-dynamic-programming.adoc[动态规划] 中介绍的 “树形 DP 套路” 解法。
-
+二刷（树形DP）::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0110_BalancedBinaryTree_2.java[tag=answer]
 ----
+--
 
-== 剪枝优化后的解法
-
-参考论坛中大家的讨论，可以在发现不平衡时，就及时返回，停止执行其他相关递归调用，起到“剪枝”的作用。同时，时间复杂度也可以做到最好。
-
+二刷（优化剪枝）::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0110_BalancedBinaryTree_21.java[tag=answer]
 ----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0110_BalancedBinaryTree_3.java[tag=answer]
+----
+--
+====
+
+
+树形 DP 解法参考了：xref:0000-26-dynamic-programming.adoc[动态规划] 中介绍的 “树形 DP 套路” 解法。
+
+参考论坛中大家的讨论，可以在发现不平衡时，就及时返回，停止执行其他相关递归调用，起到“剪枝”的作用。同时，时间复杂度也可以做到最好。
+
+== 参考资料
+
+. https://leetcode.cn/problems/balanced-binary-tree/solutions/8737/balanced-binary-tree-di-gui-fang-fa-by-jin40789108/[Balanced Binary Tree （Top-down和Bottom-up递归方法） - 平衡二叉树 - 力扣（LeetCode）^]
 

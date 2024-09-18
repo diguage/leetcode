@@ -21,6 +21,9 @@ public class _0110_BalancedBinaryTree {
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Balanced Binary Tree.
      * Memory Usage: 41.4 MB, less than 11.11% of Java online submissions for Balanced Binary Tree.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-06 23:10
      */
     public boolean isBalanced(TreeNode root) {
         return depth(root) != -1;

@@ -707,6 +707,11 @@
 |{doc_base_url}/0046-permutations.adoc[题解]
 |✅ 回溯
 
+|{counter:codes}
+|{leetcode_base_url}/balanced-binary-tree/[110. Balanced Binary Tree^]
+|{doc_base_url}/0110-balanced-binary-tree.adoc[题解]
+|✅ 平衡树还是要靠高度来平衡！可以用负数表示不平衡。
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
