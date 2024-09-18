@@ -702,6 +702,11 @@
 |{doc_base_url}/0235-lowest-common-ancestor-of-a-binary-search-tree.adoc[题解]
 |✅ 二叉搜索树左大右小，祖先在中间的特性，可以快速去除不必要的判断。
 
+|{counter:codes}
+|{leetcode_base_url}/permutations/[46. Permutations^]
+|{doc_base_url}/0046-permutations.adoc[题解]
+|✅ 回溯
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
