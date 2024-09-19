@@ -22,7 +22,7 @@ Start iterating from the beginning of the array `nums`.
 Return the array_ _`ans`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,2,-1,-1,-1]
@@ -42,7 +42,7 @@ Start with `seen = []` and `ans = []`.
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,-1,2,-1,-1]

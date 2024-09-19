@@ -12,7 +12,7 @@ Return _the minimum number of operations needed to make the values at each level
 The *level* of a node is the number of edges along the path between it and the root node_._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img src="https://assets.leetcode.com/uploads/2022/09/18/image-20220918174006-2.png" style="width: 500px; height: 324px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ We used 3 operations so return 3.
 It can be proven that 3 is the minimum number of operations needed.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img src="https://assets.leetcode.com/uploads/2022/09/18/image-20220918174026-3.png" style="width: 400px; height: 303px;" />
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ We used 3 operations so return 3.
 It can be proven that 3 is the minimum number of operations needed.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img src="https://assets.leetcode.com/uploads/2022/09/18/image-20220918174052-4.png" style="width: 400px; height: 274px;" />
 [subs="verbatim,quotes"]
 ----

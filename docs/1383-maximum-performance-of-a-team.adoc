@@ -12,7 +12,7 @@ The performance of a team is the sum of its engineers' speeds multiplied by the 
 Return _the maximum performance of this team_. Since the answer can be a huge number, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the maximum performance of this team_. Since the answer can be a huge nu
 We have the maximum performance of the team by selecting engineer 2 (with speed=10 and efficiency=4) and engineer 5 (with speed=5 and efficiency=7). That is, performance = (10 + 5) * min(4, 7) = 60.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ We have the maximum performance of the team by selecting engineer 2 (with speed=
 *This is the same example as the first but k = 3. We can select engineer 1, engineer 2 and engineer 5 to get the maximum performance of the team. That is, performance = (2 + 10 + 5) * min(5, 4, 7) = 68.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

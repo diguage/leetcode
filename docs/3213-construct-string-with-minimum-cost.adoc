@@ -18,7 +18,7 @@ You can perform the following operation any number of times (including *zero*):
 Return the *minimum* cost to make `s` equal to `target`. If it's not possible, return `-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">target = "abcdef", words = ["abdef","abc","d","def","ef"], costs = [100,1,1,10,5]
@@ -36,7 +36,7 @@ The minimum cost can be achieved by performing the following operations:
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">target = "aaaa", words = ["z","zz","zzz"], costs = [1,10,100]

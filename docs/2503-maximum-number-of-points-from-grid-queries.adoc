@@ -17,7 +17,7 @@ After the process, `answer[i]` is the *maximum* number of points you can get. *N
 Return _the resulting array_ `answer`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/10/19/yetgriddrawio.png" style="width: 571px; height: 151px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the resulting array_ `answer`.
 *Explanation:* The diagrams above show which cells we visit to get points for each query.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/10/20/yetgriddrawio-2.png" />
 [subs="verbatim,quotes"]
 ----

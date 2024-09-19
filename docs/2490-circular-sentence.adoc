@@ -23,7 +23,7 @@ For example, `"leetcode exercises sound delightful"`, `"eetcode"`, `"leetcode ea
 Given a string `sentence`, return `true`_ if it is circular_. Otherwise, return `false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ Given a string `sentence`, return `true`_ if it is circular_. Otherwise, return 
 The sentence is circular.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -48,7 +48,7 @@ The sentence is circular.
 The sentence is circular.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

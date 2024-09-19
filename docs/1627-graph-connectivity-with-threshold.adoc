@@ -16,7 +16,7 @@ Given the two integers, `n` and `threshold`, and an array of `queries`, you must
 Return _an array _`answer`_, where _`answer.length == queries.length`_ and _`answer[i]`_ is _`true`_ if for the _`i^th^`_ query, there is a path between _`a<sub>i</sub>`_ and _`b<sub>i</sub>`_, or _`answer[i]`_ is _`false`_ if there is no path._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/10/09/ex1.jpg" style="width: 382px; height: 181px;" />
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ only ones directly connected. The result of each query:
 [3,6]   3 is connected to 6 through path 3--6
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/10/10/tmp.jpg" style="width: 532px; height: 302px;" />
 [subs="verbatim,quotes"]
 ----
@@ -46,7 +46,7 @@ only ones directly connected. The result of each query:
 all divisors can be used. Since all numbers share 1 as a divisor, all cities are connected.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/10/17/ex3.jpg" style="width: 282px; height: 282px;" />
 [subs="verbatim,quotes"]
 ----

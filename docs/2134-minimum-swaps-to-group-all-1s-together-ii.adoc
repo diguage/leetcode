@@ -10,7 +10,7 @@ A *circular* array is defined as an array where we consider the *first* element 
 Given a *binary* *circular* array `nums`, return _the minimum number of swaps required to group all _`1`_'s present in the array together at *any location*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ There is no way to group all 1's together with 0 swaps.
 Thus, the minimum number of swaps required is 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ There is no way to group all 1's together with 0 or 1 swaps.
 Thus, the minimum number of swaps required is 2.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -14,7 +14,7 @@ The *average value* of a set of `k` numbers is the sum of the numbers divided by
 Note that `mean` is an integer, so the sum of the `n + m` rolls should be divisible by `n + m`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Note that `mean` is an integer, so the sum of the `n + m` rolls should be divisi
 *Explanation:* The mean of all n + m rolls is (3 + 2 + 4 + 3 + 6 + 6) / 6 = 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Note that `mean` is an integer, so the sum of the `n + m` rolls should be divisi
 *Explanation:* The mean of all n + m rolls is (1 + 5 + 6 + 2 + 3 + 2 + 2) / 7 = 3.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

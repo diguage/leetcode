@@ -20,7 +20,7 @@ The file system starts in the main folder, then the operations in `logs` are per
 Return _the minimum number of operations needed to go back to the main folder after the change folder operations._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/09/sample_11_1957.png" style="width: 775px; height: 151px;" />
 
@@ -31,7 +31,7 @@ Return _the minimum number of operations needed to go back to the main folder af
 *Explanation: *Use this change folder operation "../" 2 times and go back to the main folder.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/09/sample_22_1957.png" style="width: 600px; height: 270px;" />
 
@@ -41,7 +41,7 @@ Return _the minimum number of operations needed to go back to the main folder af
 *Output:* 3
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

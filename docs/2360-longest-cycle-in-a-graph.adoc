@@ -12,7 +12,7 @@ Return _the length of the *longest* cycle in the graph_. If no cycle exists, ret
 A cycle is a path that starts and ends at the *same* node.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/06/08/graph4drawio-5.png" style="width: 335px; height: 191px;" />
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ A cycle is a path that starts and ends at the *same* node.
 The length of this cycle is 3, so 3 is returned.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/06/07/graph4drawio-1.png" style="width: 171px; height: 161px;" />
 [subs="verbatim,quotes"]
 ----

@@ -14,7 +14,7 @@ You need to find the length of the *longest common prefix* between all pairs of 
 Return _the length of the *longest* common prefix among all pairs_._ If no common prefix exists among them_, _return_ `0`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Return _the length of the *longest* common prefix among all pairs_._ If no commo
 The longest common prefix is 100 with a length of 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

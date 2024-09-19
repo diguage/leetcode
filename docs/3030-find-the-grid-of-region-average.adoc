@@ -16,7 +16,7 @@ You need to calculate a `m x n` grid `result`, where `result[i][j]` is the *aver
 Return the grid `result`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">image = [[5,6,7,10],[8,9,10,10],[11,12,13,10]], threshold = 3
@@ -32,7 +32,7 @@ There are two regions as illustrated above. The average intensity of the first r
 Please note that the rounded-down values are used when calculating the average of multiple regions, hence the calculation is done using 9 as the average intensity of region 2, not 9.67.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">image = [[10,20,30],[15,25,35],[20,30,40],[25,35,45]], threshold = 12
@@ -48,7 +48,7 @@ There are two regions as illustrated above. The average intensity of the first r
 All the pixels in row 0 of the image belong to region 1, hence all the pixels in row 0 in the result are 25. Similarly, all the pixels in row 3 in the result are 30. The pixels in rows 1 and 2 of the image belong to region 1 and region 2, hence their assigned value is 27 in the result.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">image = [[5,6,7],[8,9,10],[11,12,13]], threshold = 1

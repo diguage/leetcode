@@ -10,7 +10,7 @@ Return the count of days when the employee is available for work but no meetings
 *Note: *The meetings may overlap.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">days = 10, meetings = [[5,7],[1,3],[9,10]]
@@ -22,7 +22,7 @@ Return the count of days when the employee is available for work but no meetings
 There is no meeting scheduled on the 4^th^ and 8^th^ days.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">days = 5, meetings = [[2,4],[1,3]]
@@ -34,7 +34,7 @@ There is no meeting scheduled on the 4^th^ and 8^th^ days.
 There is no meeting scheduled on the 5^th ^day.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">days = 6, meetings = [[1,6]]

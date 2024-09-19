@@ -14,7 +14,7 @@ You are given an integer array `nums`.
 Return the *minimum score* after *changing two elements* of `nums`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,4,7,8,5]
@@ -31,7 +31,7 @@ Return the *minimum score* after *changing two elements* of `nums`.
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,4,3]

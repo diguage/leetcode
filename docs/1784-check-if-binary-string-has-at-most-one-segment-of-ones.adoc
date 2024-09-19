@@ -6,7 +6,7 @@
 Given a binary string `s` *​​​​​without leading zeros*, return `true`​​​ _if _`s`_ contains *at most one contiguous segment of ones*_. Otherwise, return `false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -16,7 +16,7 @@ Given a binary string `s` *​​​​​without leading zeros*, return `true`�
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

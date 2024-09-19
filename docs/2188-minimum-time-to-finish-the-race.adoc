@@ -16,7 +16,7 @@ The race consists of `numLaps` laps and you may start the race with *any* tire. 
 Return_ the *minimum* time to finish the race._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Total time = 2 + 6 + 5 + 2 + 6 = 21 seconds.
 The minimum time to complete the race is 21 seconds.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

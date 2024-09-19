@@ -15,7 +15,7 @@ Return _the maximum subarray sum of all the subarrays that meet the conditions__
 _A *subarray* is a contiguous non-empty sequence of elements within an array._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ _A *subarray* is a contiguous non-empty sequence of elements within an array._
 We return 15 because it is the maximum subarray sum of all the subarrays that meet the conditions
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

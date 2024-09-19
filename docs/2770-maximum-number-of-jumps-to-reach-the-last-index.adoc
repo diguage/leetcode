@@ -17,7 +17,7 @@ Return _the *maximum number of jumps* you can make to reach index_ `n - 1`.
 If there is no way to reach index `n - 1`, return `-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ If there is no way to reach index `n - 1`, return `-1`.
 - Jump from index 3 to index 5.
 It can be proven that there is no other jumping sequence that goes from 0 to n - 1 with more than 3 jumps. Hence, the answer is 3. ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -43,7 +43,7 @@ It can be proven that there is no other jumping sequence that goes from 0 to n -
 - Jump from index 4 to index 5.
 It can be proven that there is no other jumping sequence that goes from 0 to n - 1 with more than 5 jumps. Hence, the answer is 5. ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

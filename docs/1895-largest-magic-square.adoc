@@ -8,7 +8,7 @@ A `k x k` *magic square* is a `k x k` grid filled with integers such that every 
 Given an `m x n` integer `grid`, return _the *size* (i.e., the side length _`k`_) of the *largest magic square* that can be found within this grid_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/05/29/magicsquare-grid.jpg" style="width: 413px; height: 335px;" />
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Every row sum, column sum, and diagonal sum of this magic square is equal to 12.
 - Diagonal sums: 5+4+3 = 6+4+2 = 12
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/05/29/magicsquare2-grid.jpg" style="width: 333px; height: 255px;" />
 [subs="verbatim,quotes"]
 ----

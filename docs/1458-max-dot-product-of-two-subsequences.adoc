@@ -10,7 +10,7 @@ Return the maximum dot product between *non-empty* subsequences of nums1 and num
 A subsequence of a array is a new array which is formed from the original array by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie, `[2,3,5]` is a subsequence of `[1,2,3,4,5]` while `[1,5,3]` is not).
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ A subsequence of a array is a new array which is formed from the original array 
 Their dot product is (2*3 + (-2)*(-6)) = 18.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Their dot product is (2*3 + (-2)*(-6)) = 18.
 Their dot product is (3*7) = 21.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

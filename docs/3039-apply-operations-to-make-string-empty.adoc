@@ -22,7 +22,7 @@ For example, let initially `s = "aabcbbca"`. We do the following operations:
 Return _the value of the string _`s`_ right *before* applying the *last* operation_. In the example above, answer is `"ba"`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Return _the value of the string _`s`_ right *before* applying the *last* operati
 *Explanation:* Explained in the statement.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

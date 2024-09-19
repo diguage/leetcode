@@ -10,7 +10,7 @@ The elements from indices `0` to `n - 1` (*inclusive*) of `original` should form
 Return _an _`m x n`_ 2D array constructed according to the above procedure, or an empty 2D array if it is impossible_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img src="https://assets.leetcode.com/uploads/2021/08/26/image-20210826114243-1.png" style="width: 500px; height: 174px;" />
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ The first group of n=2 elements in original, [1,2], becomes the first row in the
 The second group of n=2 elements in original, [3,4], becomes the second row in the constructed 2D array.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ The second group of n=2 elements in original, [3,4], becomes the second row in t
 Put all three elements in original into the first row of the constructed 2D array.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

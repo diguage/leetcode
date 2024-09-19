@@ -15,7 +15,7 @@ There are two types of operations that you can apply on the array *any* number o
 Return _the *minimum* number of operations required to make the array empty, or _`-1`_ if it is not possible_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Return _the *minimum* number of operations required to make the array empty, or 
 It can be shown that we cannot make the array empty in less than 4 operations.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

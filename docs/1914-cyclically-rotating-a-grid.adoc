@@ -14,7 +14,7 @@ A cyclic rotation of the matrix is done by cyclically rotating *each layer* in t
 Return _the matrix after applying _`k` _cyclic rotations to it_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/06/19/rod2.png" style="width: 421px; height: 191px;" />
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Return _the matrix after applying _`k` _cyclic rotations to it_.
 *Explanation:* The figures above represent the grid at every state.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 *<img alt="" src="https://assets.leetcode.com/uploads/2021/06/10/ringofgrid5.png" style="width: 231px; height: 262px;" />* *<img alt="" src="https://assets.leetcode.com/uploads/2021/06/10/ringofgrid6.png" style="width: 231px; height: 262px;" />* *<img alt="" src="https://assets.leetcode.com/uploads/2021/06/10/ringofgrid7.png" style="width: 231px; height: 262px;" />*
 
 [subs="verbatim,quotes"]

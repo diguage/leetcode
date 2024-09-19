@@ -15,7 +15,7 @@ Return _an array that consists of _indices<!-- notionvc: c9879de8-88bd-43b0-8224
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ mountain[1] also can not be a peak because it is not strictly greater than mount
 So the answer is [].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

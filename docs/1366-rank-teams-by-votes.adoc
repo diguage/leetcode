@@ -12,7 +12,7 @@ You are given an array of strings `votes` which is the votes of all voters in th
 Return _a string of all teams *sorted* by the ranking system_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Team C was ranked second by 3 voters and ranked third by 2 voters.
 As most of the voters ranked C second, team C is the second team, and team B is the third.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ As most of the voters ranked C second, team C is the second team, and team B is 
 X is the winner due to the tie-breaking rule. X has the same votes as W for the first position, but X has one vote in the second position, while W does not have any votes in the second position. 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

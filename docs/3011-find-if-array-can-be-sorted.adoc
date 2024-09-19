@@ -10,7 +10,7 @@ In one *operation*, you can swap any two *adjacent* elements if they have the *s
 Return `true` _if you can sort the array, else return _`false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ The array has become sorted, hence we return true.
 Note that there may be other sequences of operations which also sort the array.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Note that there may be other sequences of operations which also sort the array.
 *Explanation:* The array is already sorted, hence we return true.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

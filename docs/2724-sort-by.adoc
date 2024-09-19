@@ -8,7 +8,7 @@ Given an array `arr` and a function `fn`, return a sorted array `sortedArr`. You
 You may assume that `fn` will never duplicate numbers for a given array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ You may assume that `fn` will never duplicate numbers for a given array.
 *Explanation:* fn simply returns the number passed to it so the array is sorted in ascending order.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ You may assume that `fn` will never duplicate numbers for a given array.
 *Explanation:* fn returns the value for the "x" key. So the array is sorted based on that value.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

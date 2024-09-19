@@ -10,7 +10,7 @@ Return _the index *(0-indexed)* of the *valid* point with the smallest *Manhatta
 The *Manhattan distance* between two points `(x<sub>1</sub>, y<sub>1</sub>)` and `(x<sub>2</sub>, y<sub>2</sub>)` is `abs(x<sub>1</sub> - x<sub>2</sub>) + abs(y<sub>1</sub> - y<sub>2</sub>)`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ The *Manhattan distance* between two points `(x<sub>1</sub>, y<sub>1</sub>)` and
 *Explanation:* Of all the points, only [3,1], [2,4] and [4,4] are valid. Of the valid points, [2,4] and [4,4] have the smallest Manhattan distance from your current location, with a distance of 1. [2,4] has the smallest index, so return 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ The *Manhattan distance* between two points `(x<sub>1</sub>, y<sub>1</sub>)` and
 *Explanation:* The answer is allowed to be on the same location as your current location.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

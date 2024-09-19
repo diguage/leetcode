@@ -17,7 +17,7 @@ Return _the integer _`x`. The test cases are generated such that `x` is *uniquel
 The number of *set bits* of an integer is the number of `1`'s in its binary representation.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ The binary representations of num1 and num2 are 0011 and 0101, respectively.
 The integer *3* has the same number of set bits as num2, and the value `3 XOR 3 = 0` is minimal.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

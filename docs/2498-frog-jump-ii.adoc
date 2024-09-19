@@ -18,7 +18,7 @@ The *cost* of a path is the *maximum length of a jump* among all jumps in the pa
 Return _the *minimum* cost of a path for the frog_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/11/14/example-1.png" style="width: 600px; height: 219px;" />
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ The cost of this path is 5, which is the maximum length of a jump.
 Since it is not possible to achieve a cost of less than 5, we return it.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/11/14/example-2.png" style="width: 500px; height: 171px;" />
 [subs="verbatim,quotes"]
 ----

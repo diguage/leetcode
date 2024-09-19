@@ -8,7 +8,7 @@ Given the `root` of a binary search tree, return _a *balanced* binary search tre
 A binary search tree is *balanced* if the depth of the two subtrees of every node never differs by more than `1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/08/10/balance1-tree.jpg" style="width: 500px; height: 319px;" />
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ A binary search tree is *balanced* if the depth of the two subtrees of every nod
 *Explanation:* This is not the only correct answer, [3,1,4,null,2] is also correct.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/08/10/balanced2-tree.jpg" style="width: 224px; height: 145px;" />
 [subs="verbatim,quotes"]
 ----

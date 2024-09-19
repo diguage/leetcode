@@ -19,7 +19,7 @@ Given an array `nums` of *even* length `n`, pair up the elements of `nums` into 
 Return _the minimized *maximum pair sum* after optimally pairing up the elements_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Return _the minimized *maximum pair sum* after optimally pairing up the elements
 The maximum pair sum is max(3+3, 5+2) = max(6, 7) = 7.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

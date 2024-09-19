@@ -10,7 +10,7 @@ Given two nodes `start` and `end`, find the path with the maximum probability of
 If there is no path from `start` to `end`, *return 0*. Your answer will be accepted if it differs from the correct answer by at most *1e-5*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2019/09/20/1558_ex1.png" style="width: 187px; height: 186px;" />*
 
@@ -21,7 +21,7 @@ If there is no path from `start` to `end`, *return 0*. Your answer will be accep
 *Explanation:* There are two paths from start to end, one having a probability of success = 0.2 and the other has 0.5 * 0.5 = 0.25.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2019/09/20/1558_ex2.png" style="width: 189px; height: 186px;" />*
 
@@ -31,7 +31,7 @@ If there is no path from `start` to `end`, *return 0*. Your answer will be accep
 *Output:* 0.30000
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2019/09/20/1558_ex3.png" style="width: 215px; height: 191px;" />*
 

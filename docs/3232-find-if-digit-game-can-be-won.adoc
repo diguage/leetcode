@@ -10,7 +10,7 @@ Alice and Bob are playing a game. In the game, Alice can choose *either* all sin
 Return `true` if Alice can win this game, otherwise, return `false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,2,3,4,10]
@@ -22,7 +22,7 @@ Return `true` if Alice can win this game, otherwise, return `false`.
 Alice cannot win by choosing either single-digit or double-digit numbers.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,2,3,4,5,14]
@@ -34,7 +34,7 @@ Alice cannot win by choosing either single-digit or double-digit numbers.
 Alice can win by choosing single-digit numbers which have a sum equal to 15.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [5,5,5,25]

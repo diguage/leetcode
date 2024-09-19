@@ -26,7 +26,7 @@ Return _the number of *valid* move combinations_​​​​​.
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/09/23/a1.png" style="width: 215px; height: 215px;" />
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Return _the number of *valid* move combinations_​​​​​.
 *Explanation:* The image above shows the possible squares the piece can move to.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/09/23/a2.png" style="width: 215px; height: 215px;" />
 [subs="verbatim,quotes"]
 ----
@@ -44,7 +44,7 @@ Return _the number of *valid* move combinations_​​​​​.
 *Explanation:* The image above shows the possible squares the piece can move to.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/09/23/a3.png" style="width: 214px; height: 215px;" />
 [subs="verbatim,quotes"]
 ----

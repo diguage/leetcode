@@ -8,7 +8,7 @@ You have a water dispenser that can dispense cold, warm, and hot water. Every se
 You are given a *0-indexed* integer array `amount` of length `3` where `amount[0]`, `amount[1]`, and `amount[2]` denote the number of cold, warm, and hot water cups you need to fill respectively. Return _the *minimum* number of seconds needed to fill up all the cups_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Second 4: Fill up a warm cup.
 It can be proven that 4 is the minimum number of seconds needed.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ Second 6: Fill up a cold cup, and a warm cup.
 Second 7: Fill up a hot cup.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

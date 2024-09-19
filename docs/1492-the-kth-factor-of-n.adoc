@@ -8,7 +8,7 @@ You are given two positive integers `n` and `k`. A factor of an integer `n` is d
 Consider a list of all factors of `n` sorted in *ascending order*, return _the _`k^th^`_ factor_ in this list or return `-1` if `n` has less than `k` factors.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Consider a list of all factors of `n` sorted in *ascending order*, return _the _
 *Explanation:* Factors list is [1, 2, 3, 4, 6, 12], the 3^rd^ factor is 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Consider a list of all factors of `n` sorted in *ascending order*, return _the _
 *Explanation:* Factors list is [1, 7], the 2^nd^ factor is 7.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

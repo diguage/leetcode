@@ -16,7 +16,7 @@ Return _an array _`answer`_ of size _`m`_ where _`answer[i]`_ is the *minimum* n
 *Note* that after each query the array is reset to its original state.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ For the second query we can do the following operations:
 So the total number of operations for the second query is 2 + 4 + 1 + 3 = 10.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -26,7 +26,7 @@ The *deviation* of the array is the *maximum difference* between any two element
 Return _the *minimum deviation* the array can have after performing some number of operations._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Return _the *minimum deviation* the array can have after performing some number 
 *Explanation:* You can transform the array to [1,2,3,[.underline]#2#], then to [[.underline]#2#,2,3,2], then the deviation will be 3 - 2 = 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -44,7 +44,7 @@ Return _the *minimum deviation* the array can have after performing some number 
 *Explanation:* You can transform the array after two operations to [4,[.underline]#2#,5,[.underline]#5#,3], then the deviation will be 5 - 2 = 3.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

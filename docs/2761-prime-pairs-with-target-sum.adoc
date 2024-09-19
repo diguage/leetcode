@@ -16,7 +16,7 @@ Return _the 2D sorted list of prime number pairs_ `[x<sub>i</sub>, y<sub>i</sub>
 *Note:* A prime number is a natural number greater than `1` with only two factors, itself and `1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the 2D sorted list of prime number pairs_ `[x<sub>i</sub>, y<sub>i</sub>
 These pairs are [3,7] and [5,5], and we return them in the sorted order as described in the problem statement.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -18,7 +18,7 @@ The blocks are then joined by dashes. Notice that the reformatting process shoul
 Return _the phone number after formatting._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Step 2: There are 3 digits remaining, so put them in a single block of length 3.
 Joining the blocks gives "123-456".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ Step 2: There are 4 digits left, so split them into two blocks of length 2. The 
 Joining the blocks gives "123-45-67".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

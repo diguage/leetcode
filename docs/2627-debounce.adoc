@@ -20,7 +20,7 @@ The above diagram shows how debounce will transform events. Each rectangle repre
 Please solve it without using lodash's `_.debounce()` function.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -44,7 +44,7 @@ The 1st call is cancelled by the 2nd call because the 2nd call occurred before 1
 The 2nd call is delayed by 50ms and executed at 125ms. The inputs were (2).
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -60,7 +60,7 @@ The 1st call is delayed until 70ms. The inputs were (1).
 The 2nd call is delayed until 120ms. The inputs were (2).
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

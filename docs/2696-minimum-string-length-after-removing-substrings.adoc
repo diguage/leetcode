@@ -12,7 +12,7 @@ Return _the *minimum* possible length of the resulting string that you can obtai
 *Note* that the string concatenates after removing the substring and could produce new `"AB"` or `"CD"` substrings.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ So the resulting length of the string is 2.
 It can be shown that it is the minimum length that we can obtain.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

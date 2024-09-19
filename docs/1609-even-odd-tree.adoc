@@ -14,7 +14,7 @@ A binary tree is named *Even-Odd* if it meets the following conditions:
 Given the `root` of a binary tree, _return _`true`_ if the binary tree is *Even-Odd*, otherwise return _`false`_._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/15/sample_1_1966.png" style="width: 362px; height: 229px;" />
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Level 3: [12,8,6,2]
 Since levels 0 and 2 are all odd and increasing and levels 1 and 3 are all even and decreasing, the tree is Even-Odd.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/15/sample_2_1966.png" style="width: 363px; height: 167px;" />
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ Level 2: [3,3,7]
 Node values in level 2 must be in strictly increasing order, so the tree is not Even-Odd.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/22/sample_1_333_1966.png" style="width: 363px; height: 167px;" />
 [subs="verbatim,quotes"]
 ----

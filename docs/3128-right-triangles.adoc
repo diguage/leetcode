@@ -14,7 +14,7 @@ Return an integer that is the number of *right triangles* that can be made with 
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div style="display:flex; gap: 12px;">
 <table border="1" cellspacing="3" style="border-collapse: separate; text-align: center;">
@@ -68,7 +68,7 @@ Return an integer that is the number of *right triangles* that can be made with 
 There are two right triangles.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div style="display:flex; gap: 12px;">
 <table border="1" cellspacing="3" style="border-collapse: separate; text-align: center;">
@@ -105,7 +105,7 @@ There are two right triangles.
 There are no right triangles.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div style="display:flex; gap: 12px;">
 <table border="1" cellspacing="3" style="border-collapse: separate; text-align: center;">

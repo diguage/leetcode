@@ -23,7 +23,7 @@ Given `n`, `edges`, `time`, and `change`, return _the *second minimum time* it w
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/09/29/e1.png" style="width: 200px; height: 250px;" /> &emsp; &emsp; &emsp; &emsp;<img alt="" src="https://assets.leetcode.com/uploads/2021/09/29/e2.png" style="width: 200px; height: 250px;" />
 [subs="verbatim,quotes"]
 ----
@@ -48,7 +48,7 @@ Hence the second minimum time is 13 minutes.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/09/29/eg2.png" style="width: 225px; height: 50px;" />
 [subs="verbatim,quotes"]
 ----

@@ -8,7 +8,7 @@ You are given an array of non-negative integers `nums` and an integer `k`. In on
 Return_ the *maximum* *product* of _`nums`_ after *at most* _`k`_ operations. _Since the answer may be very large, return it *modulo* `10^9^ + 7`. Note that you should maximize the product before taking the modulo. 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ It can be shown that 20 is maximum product possible, so we return 20.
 Note that there may be other ways to increment nums to have the maximum product.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

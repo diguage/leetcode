@@ -10,7 +10,7 @@ Define an array `nums` where `nums[i] = start + 2 * i` (*0-indexed*) and `n == n
 Return _the bitwise XOR of all elements of_ `nums`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Return _the bitwise XOR of all elements of_ `nums`.
 Where "^" corresponds to bitwise XOR operator.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

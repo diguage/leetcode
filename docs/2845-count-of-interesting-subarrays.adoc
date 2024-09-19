@@ -18,7 +18,7 @@ Return _an integer denoting the count of interesting subarrays. _
 *Note:* A subarray is _a contiguous non-empty sequence of elements within an array_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ The subarray nums[0..2] which is [3,2,4].
 It can be shown that there are no other interesting subarrays. So, the answer is 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

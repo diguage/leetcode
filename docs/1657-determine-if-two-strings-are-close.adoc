@@ -24,7 +24,7 @@ You can use the operations on either string as many times as necessary.
 Given two strings, `word1` and `word2`, return `true`_ if _`word1`_ and _`word2`_ are *close*, and _`false`_ otherwise._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Apply Operation 1: "a[.underline]#bc#" -> "a[.underline]#cb#"
 Apply Operation 1: "[.underline]#a#c[.underline]#b#" -> "[.underline]#b#c[.underline]#a#"
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -44,7 +44,7 @@ Apply Operation 1: "[.underline]#a#c[.underline]#b#" -> "[.underline]#b#c[.under
 *Explanation: *It is impossible to attain word2 from word1, or vice versa, in any number of operations.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

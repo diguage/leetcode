@@ -13,7 +13,7 @@ You are given a string `s`. Simulate events at each second `i`:
 Return the *minimum *number of chairs needed so that a chair is available for every person who enters the waiting room given that it is initially *empty*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "EEEEEEE"
@@ -25,7 +25,7 @@ Return the *minimum *number of chairs needed so that a chair is available for ev
 After each second, a person enters the waiting room and no person leaves it. Therefore, a minimum of 7 chairs is needed.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "ELELEEL"
@@ -90,7 +90,7 @@ Let's consider that there are 2 chairs in the waiting room. The table below show
 	</tbody>
 </table>
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "ELEELEELLL"

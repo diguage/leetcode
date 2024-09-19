@@ -14,7 +14,7 @@ You are given two *0-indexed* arrays `nums1` and `nums2` and a 2D array `queries
 Return _an array containing all the answers to the third type queries._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Return _an array containing all the answers to the third type queries._
 *Explanation:* After the first query nums1 becomes [1,1,1]. After the second query, nums2 becomes [1,1,1], so the answer to the third query is 3. Thus, [3] is returned.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

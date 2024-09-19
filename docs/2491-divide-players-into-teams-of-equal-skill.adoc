@@ -10,7 +10,7 @@ The *chemistry* of a team is equal to the *product* of the skills of the players
 Return _the sum of the *chemistry* of all the teams, or return _`-1`_ if there is no way to divide the players into teams such that the total skill of each team is equal._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Divide the players into the following teams: (1, 5), (2, 4), (3, 3), where each 
 The sum of the chemistry of all the teams is: 1 * 5 + 2 * 4 + 3 * 3 = 5 + 8 + 9 = 22.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ The two players form a team with a total skill of 7.
 The chemistry of the team is 3 * 4 = 12.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

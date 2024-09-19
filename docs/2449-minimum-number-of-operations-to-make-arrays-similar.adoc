@@ -17,7 +17,7 @@ Two arrays are considered to be *similar* if the frequency of each element is th
 Return _the minimum number of operations required to make _`nums`_ similar to _`target`. The test cases are generated such that `nums` can always be similar to `target`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Return _the minimum number of operations required to make _`nums`_ similar to _`
 It can be shown that 2 is the minimum number of operations needed.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -39,7 +39,7 @@ It can be shown that 2 is the minimum number of operations needed.
 - Choose i = 1 and j = 2, nums = [1,4,3].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

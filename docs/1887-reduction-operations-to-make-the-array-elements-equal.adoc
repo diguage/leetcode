@@ -14,7 +14,7 @@ Given an integer array `nums`, your goal is to make all elements in `nums` equal
 Return _the number of operations to make all elements in _`nums`_ equal_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the number of operations to make all elements in _`nums`_ equal_.
 3. largest = 3 at index 2. nextLargest = 1. Reduce nums[2] to 1. nums = [1,1,[.underline]#1#].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Return _the number of operations to make all elements in _`nums`_ equal_.
 *Explanation:* All elements in nums are already equal.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

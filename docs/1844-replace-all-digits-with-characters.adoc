@@ -16,7 +16,7 @@ For every *odd* index `i`, you want to replace the digit `s[i]` with `shift(s[i-
 Return `s`_ after replacing all digits. It is *guaranteed* that _`shift(s[i-1], s[i])`_ will never exceed _`'z'`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Return `s`_ after replacing all digits. It is *guaranteed* that _`shift(s[i-1], 
 - s[3] -> shift('c',1) = 'd'
 - s[5] -> shift('e',1) = 'f'----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

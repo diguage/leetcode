@@ -18,7 +18,7 @@ You can *change* any letter of `s` to *any* other lowercase English letter, *any
 Return a string denoting the *<span data-keyword="lexicographically-smaller-string">lexicographically smallest* string `t` you can get after some changes, such that `distance(s, t) <= k`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "zbbz", k = 3
@@ -30,7 +30,7 @@ Return a string denoting the *<span data-keyword="lexicographically-smaller-stri
 Change `s` to `"aaaz"`. The distance between `"zbbz"` and `"aaaz"` is equal to `k = 3`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "xaxcd", k = 4
@@ -42,7 +42,7 @@ Change `s` to `"aaaz"`. The distance between `"zbbz"` and `"aaaz"` is equal to `
 The distance between "xaxcd" and "aawcd" is equal to k = 4.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "lol", k = 0

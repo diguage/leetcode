@@ -19,7 +19,7 @@ Your <font face="monospace">`Calculator` class should have the following methods
 Solutions within `10^-5^` of the actual result are considered correct.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ values = [10, 5, 7]
 new Calculator(10).add(5).subtract(7).getResult() // 10 + 5 - 7 = 8
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -43,7 +43,7 @@ values = [2, 5, 2]
 new Calculator(2).multiply(5).power(2).getResult() // (2 * 5) ^ 2 = 100
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -22,7 +22,7 @@ The *value of the character *is defined in the following way:
 Return _the maximum cost among all substrings of the string_ `s`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ The substring with the maximum cost is "aa" and its cost is 1 + 1 = 2.
 It can be proven that 2 is the maximum cost.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

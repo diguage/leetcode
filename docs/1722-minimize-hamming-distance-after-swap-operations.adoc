@@ -10,7 +10,7 @@ The *Hamming distance* of two arrays of the same length, `source` and `target`, 
 Return _the *minimum Hamming distance* of _`source`_ and _`target`_ after performing *any* amount of swap operations on array _`source`_._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the *minimum Hamming distance* of _`source`_ and _`target`_ after perfor
 The Hamming distance of source and target is 1 as they differ in 1 position: index 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ The Hamming distance of source and target is 1 as they differ in 1 position: ind
 The Hamming distance of source and target is 2 as they differ in 2 positions: index 1 and index 2.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

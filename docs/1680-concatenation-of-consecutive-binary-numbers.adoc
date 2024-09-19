@@ -6,7 +6,7 @@
 Given an integer `n`, return _the *decimal value* of the binary string formed by concatenating the binary representations of _`1`_ to _`n`_ in order, *modulo *_`10^9 ^+ 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -15,7 +15,7 @@ Given an integer `n`, return _the *decimal value* of the binary string formed by
 *Explanation: *"1" in binary corresponds to the decimal value 1. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Given an integer `n`, return _the *decimal value* of the binary string formed by
 After concatenating them, we have "11011", which corresponds to the decimal value 27.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

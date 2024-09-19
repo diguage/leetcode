@@ -10,7 +10,7 @@ All the balls in a particular row should be the *same* color, and adjacent rows 
 Return the *maximum*_ height of the triangle_ that can be achieved.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">red = 2, blue = 4
@@ -24,7 +24,7 @@ Return the *maximum*_ height of the triangle_ that can be achieved.
 The only possible arrangement is shown above.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">red = 2, blue = 1
@@ -39,7 +39,7 @@ The only possible arrangement is shown above.
 The only possible arrangement is shown above.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">red = 1, blue = 1
@@ -47,7 +47,7 @@ The only possible arrangement is shown above.
 *Output:* <span class="example-io">1
 
 
-<strong class="example">Example 4:*
+*Example 4:*
 
 <div class="example-block">
 *Input:* <span class="example-io">red = 10, blue = 1

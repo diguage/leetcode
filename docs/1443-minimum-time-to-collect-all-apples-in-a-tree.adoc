@@ -8,7 +8,7 @@ Given an undirected tree consisting of `n` vertices numbered from `0` to `n-1`, 
 The edges of the undirected tree are given in the array `edges`, where `edges[i] = [a<sub>i</sub>, b<sub>i</sub>]` means that exists an edge connecting the vertices `a<sub>i</sub>` and `b<sub>i</sub>`. Additionally, there is a boolean array `hasApple`, where `hasApple[i] = true` means that vertex `i` has an apple; otherwise, it does not have any apple.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/04/23/min_time_collect_apple_1.png" style="width: 300px; height: 212px;" />
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ The edges of the undirected tree are given in the array `edges`, where `edges[i]
 *Explanation:* The figure above represents the given tree where red vertices have an apple. One optimal path to collect all apples is shown by the green arrows.  
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/04/23/min_time_collect_apple_2.png" style="width: 300px; height: 212px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ The edges of the undirected tree are given in the array `edges`, where `edges[i]
 *Explanation:* The figure above represents the given tree where red vertices have an apple. One optimal path to collect all apples is shown by the green arrows.  
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -33,7 +33,7 @@ Implement the `UndergroundSystem` class:
 You may assume all calls to the `checkIn` and `checkOut` methods are consistent. If a customer checks in at time `t<sub>1</sub>` then checks out at time `t<sub>2</sub>`, then `t<sub>1</sub> < t<sub>2</sub>`. All events happen in chronological order.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -60,7 +60,7 @@ undergroundSystem.checkOut(10, "Waterloo", 38);  // Customer 10 "Leyton" -> "Wat
 undergroundSystem.getAverageTime("Leyton", "Waterloo");    // return 12.00000. Three trips "Leyton" -> "Waterloo", (10 + 12 + 14) / 3 = 12
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

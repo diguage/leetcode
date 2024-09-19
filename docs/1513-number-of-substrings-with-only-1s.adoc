@@ -6,7 +6,7 @@
 Given a binary string `s`, return _the number of substrings with all characters_ `1`_'s_. Since the answer may be too large, return it modulo `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ Given a binary string `s`, return _the number of substrings with all characters_
 "111" -> 1 time.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Given a binary string `s`, return _the number of substrings with all characters_
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

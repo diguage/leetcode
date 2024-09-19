@@ -12,9 +12,9 @@ A *connected component* is a subgraph of a graph in which there exists a path be
 A connected component is said to be *complete* if there exists an edge between every pair of its vertices.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
-<strong class="example"><img alt="" src="https://assets.leetcode.com/uploads/2023/04/11/screenshot-from-2023-04-11-23-31-23.png" style="width: 671px; height: 270px;" />*
+*<img alt="" src="https://assets.leetcode.com/uploads/2023/04/11/screenshot-from-2023-04-11-23-31-23.png" style="width: 671px; height: 270px;" />*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,9 +23,9 @@ A connected component is said to be *complete* if there exists an edge between e
 *Explanation:* From the picture above, one can see that all of the components of this graph are complete.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
-<strong class="example"><img alt="" src="https://assets.leetcode.com/uploads/2023/04/11/screenshot-from-2023-04-11-23-32-00.png" style="width: 671px; height: 270px;" />*
+*<img alt="" src="https://assets.leetcode.com/uploads/2023/04/11/screenshot-from-2023-04-11-23-32-00.png" style="width: 671px; height: 270px;" />*
 
 [subs="verbatim,quotes"]
 ----

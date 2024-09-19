@@ -8,7 +8,7 @@ A *pangram* is a sentence where every letter of the English alphabet appears at 
 Given a string `sentence` containing only lowercase English letters, return_ _`true`_ if _`sentence`_ is a *pangram*, or _`false`_ otherwise._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Given a string `sentence` containing only lowercase English letters, return_ _`t
 *Explanation:* sentence contains at least one of every letter of the English alphabet.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

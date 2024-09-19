@@ -14,7 +14,7 @@ You lose when any monster reaches your city. If a monster reaches the city at th
 Return _the *maximum* number of monsters that you can eliminate before you lose, or _`n`_ if you can eliminate all the monsters before they reach the city._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ After a minute, the distances of the monsters are [X,X,2]. You eliminate the thi
 All 3 monsters can be eliminated.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ You can only eliminate 1 monster.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

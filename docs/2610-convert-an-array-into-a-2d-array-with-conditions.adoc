@@ -16,7 +16,7 @@ Return _the resulting array_. If there are multiple answers, return any of them.
 *Note* that the 2D array can have a different number of elements on each row.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ All elements of nums were used, and each row of the 2D array contains distinct i
 It can be shown that we cannot have less than 3 rows in a valid array.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

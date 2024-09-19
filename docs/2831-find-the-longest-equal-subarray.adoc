@@ -12,7 +12,7 @@ Return _the length of the *longest* possible equal subarray after deleting *at m
 A *subarray* is a contiguous, possibly empty sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ The longest equal subarray starts at i = 1 and ends at j = 3 with length equal t
 It can be proven that no longer equal subarrays can be created.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

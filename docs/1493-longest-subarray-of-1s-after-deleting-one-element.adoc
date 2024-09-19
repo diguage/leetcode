@@ -8,7 +8,7 @@ Given a binary array `nums`, you should delete one element from it.
 Return _the size of the longest non-empty subarray containing only _`1`_'s in the resulting array_. Return `0` if there is no such subarray.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Return _the size of the longest non-empty subarray containing only _`1`_'s in th
 *Explanation:* After deleting the number in position 2, [1,1,1] contains 3 numbers with value of 1's.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the size of the longest non-empty subarray containing only _`1`_'s in th
 *Explanation:* After deleting the number in position 4, [0,1,1,1,1,1,0,1] longest subarray with value of 1's is [1,1,1,1,1].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

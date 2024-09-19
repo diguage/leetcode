@@ -17,7 +17,7 @@ You can finish the tasks in *any order* you like.
 Return _the *minimum* initial amount of energy you will need_ _to finish all the tasks_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Starting with 8 energy, we finish the tasks in the following order:
 Notice that even though we have leftover energy, starting with 7 energy does not work because we cannot do the 3rd task.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -46,7 +46,7 @@ Starting with 32 energy, we finish the tasks in the following order:
     - 5th task. Now energy = 9 - 8 = 1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

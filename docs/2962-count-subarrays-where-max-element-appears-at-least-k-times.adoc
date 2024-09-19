@@ -10,7 +10,7 @@ Return _the number of subarrays where the *maximum* element of _`nums`_ appears 
 A *subarray* is a contiguous sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ A *subarray* is a contiguous sequence of elements within an array.
 *Explanation:* The subarrays that contain the element 3 at least 2 times are: [1,3,2,3], [1,3,2,3,3], [3,2,3], [3,2,3,3], [2,3,3] and [3,3].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

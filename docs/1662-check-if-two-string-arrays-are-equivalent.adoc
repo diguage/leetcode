@@ -8,7 +8,7 @@ Given two string arrays `word1` and `word2`, return_ _`true`_ if the two arrays 
 A string is *represented* by an array if the array elements concatenated *in order* forms the string.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ word2 represents string "a" + "bc" -> "abc"
 The strings are the same, so return true.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ The strings are the same, so return true.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

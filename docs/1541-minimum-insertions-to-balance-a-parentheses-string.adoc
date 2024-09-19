@@ -21,7 +21,7 @@ You can insert the characters `'('` and `')'` at any position of the string to b
 Return _the minimum number of insertions_ needed to make `s` balanced.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _the minimum number of insertions_ needed to make `s` balanced.
 *Explanation:* The second '(' has two matching '))', but the first '(' has only ')' matching. We need to add one more ')' at the end of the string to be "(())))" which is balanced.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -39,7 +39,7 @@ Return _the minimum number of insertions_ needed to make `s` balanced.
 *Explanation:* The string is already balanced.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

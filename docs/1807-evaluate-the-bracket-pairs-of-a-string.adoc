@@ -23,7 +23,7 @@ Each key will appear at most once in your `knowledge`. There will not be any nes
 Return _the resulting string after evaluating *all* of the bracket pairs._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ The key "name" has a value of "bob", so replace "(name)" with "bob".
 The key "age" has a value of "two", so replace "(age)" with "two".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -43,7 +43,7 @@ The key "age" has a value of "two", so replace "(age)" with "two".
 *Explanation:* As you do not know the value of the key "name", replace "(name)" with "?".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

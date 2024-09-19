@@ -10,7 +10,7 @@ Return _*the maximum value over all triplets of indices*_ `(i, j, k)` _such that
 The *value of a triplet of indices* `(i, j, k)` is equal to `(nums[i] - nums[j]) * nums[k]`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ The *value of a triplet of indices* `(i, j, k)` is equal to `(nums[i] - nums[j])
 It can be shown that there are no ordered triplets of indices with a value greater than 77. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ It can be shown that there are no ordered triplets of indices with a value great
 It can be shown that there are no ordered triplets of indices with a value greater than 133.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

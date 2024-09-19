@@ -8,7 +8,7 @@ Given an integer `n`, return `true`_ if _`n`_ has *exactly three positive diviso
 An integer `m` is a *divisor* of `n` if there exists an integer `k` such that `n = k * m`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ An integer `m` is a *divisor* of `n` if there exists an integer `k` such that `n
 *Explantion:* 2 has only two divisors: 1 and 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

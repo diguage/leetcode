@@ -16,7 +16,7 @@ You want to choose a *single supplier* and use boxes from them such that the *to
 Return _the *minimum total wasted space* by choosing the box supplier *optimally*, or _`-1` _if it is *impossible* to fit all the packages inside boxes. _Since the answer may be *large*, return it *modulo *`10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the *minimum total wasted space* by choosing the box supplier *optimally
 The total waste is (4-2) + (4-3) + (8-5) = 6.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ The total waste is (4-2) + (4-3) + (8-5) = 6.
 *Explanation:* There is no box that the package of size 5 can fit in.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

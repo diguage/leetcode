@@ -21,7 +21,7 @@ Implement the `DetectSquares` class:
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/09/01/image.png" style="width: 869px; height: 504px;" />
 [subs="verbatim,quotes"]
 ----

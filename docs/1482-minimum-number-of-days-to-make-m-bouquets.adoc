@@ -12,7 +12,7 @@ The garden consists of `n` flowers, the `i^th^` flower will bloom in the `bloomD
 Return _the minimum number of days you need to wait to be able to make _`m`_ bouquets from the garden_. If it is impossible to make m bouquets return `-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ After day 2: [x, _, _, _, x]   // we can only make two bouquets.
 After day 3: [x, _, x, _, x]   // we can make 3 bouquets. The answer is 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ After day 3: [x, _, x, _, x]   // we can make 3 bouquets. The answer is 3.
 *Explanation:* We need 3 bouquets each has 2 flowers, that means we need 6 flowers. We only have 5 flowers so it is impossible to get the needed bouquets and we return -1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

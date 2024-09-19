@@ -29,7 +29,7 @@ Implement the `MovieRentingSystem` class:
 *Note:* The test cases will be generated such that `rent` will only be called if the shop has an *unrented* copy of the movie, and `drop` will only be called if the shop had *previously rented* out the movie.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----

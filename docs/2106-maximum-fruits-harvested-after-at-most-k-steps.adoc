@@ -10,7 +10,7 @@ You are also given an integer `startPos` and an integer `k`. Initially, you are 
 Return _the *maximum total number* of fruits you can harvest_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/11/21/1.png" style="width: 472px; height: 115px;" />
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ The optimal way is to:
 You moved 3 steps and harvested 3 + 6 = 9 fruits in total.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/11/21/2.png" style="width: 512px; height: 129px;" />
 [subs="verbatim,quotes"]
 ----
@@ -39,7 +39,7 @@ The optimal way is to:
 You moved 1 + 3 = 4 steps and harvested 7 + 1 + 2 + 4 = 14 fruits in total.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/11/21/3.png" style="width: 476px; height: 100px;" />
 [subs="verbatim,quotes"]
 ----

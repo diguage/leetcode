@@ -19,7 +19,7 @@ The bug may jump forward *beyond* its home, but it *cannot jump* to positions nu
 Given an array of integers `forbidden`, where `forbidden[i]` means that the bug cannot jump to the position `forbidden[i]`, and integers `a`, `b`, and `x`, return _the minimum number of jumps needed for the bug to reach its home_. If there is no possible sequence of jumps that lands the bug on position `x`, return `-1.`
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Given an array of integers `forbidden`, where `forbidden[i]` means that the bug 
 *Explanation:* 3 jumps forward (0 -> 3 -> 6 -> 9) will get the bug home.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ Given an array of integers `forbidden`, where `forbidden[i]` means that the bug 
 *Output:* -1
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

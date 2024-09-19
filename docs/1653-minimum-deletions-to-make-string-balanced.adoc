@@ -10,7 +10,7 @@ You can delete any number of characters in `s` to make `s` *balanced*. `s` is *b
 Return _the *minimum* number of deletions needed to make _`s`_ *balanced*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Delete the characters at 0-indexed positions 2 and 6 ("aa[.underline]#b#abb[.und
 Delete the characters at 0-indexed positions 3 and 6 ("aab[.underline]#a#bb[.underline]#a#b" -> "aabbbb").
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

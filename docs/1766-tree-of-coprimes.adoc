@@ -14,7 +14,7 @@ An ancestor of a node `i` is any other node on the shortest path from node `i` t
 Return _an array _`ans`_ of size _`n`, _where _`ans[i]`_ is the closest ancestor to node _`i`_ such that _`nums[i]` _and _`nums[ans[i]]` are *coprime*, or `-1`_ if there is no such ancestor_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2021/01/06/untitled-diagram.png" style="width: 191px; height: 281px;" />*
 
@@ -31,7 +31,7 @@ Return _an array _`ans`_ of size _`n`, _where _`ans[i]`_ is the closest ancestor
   closest valid ancestor.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2021/01/06/untitled-diagram1.png" style="width: 441px; height: 291px;" />
 

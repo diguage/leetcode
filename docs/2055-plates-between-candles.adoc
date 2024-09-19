@@ -14,7 +14,7 @@ You are also given a *0-indexed* 2D integer array `queries` where `queries[i] = 
 Return _an integer array_ `answer` _where_ `answer[i]` _is the answer to the_ `i^th^` _query_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="ex-1" src="https://assets.leetcode.com/uploads/2021/10/04/ex-1.png" style="width: 400px; height: 134px;" />
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Return _an integer array_ `answer` _where_ `answer[i]` _is the answer to the_ `i
 - queries[1] has three plates between candles.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="ex-2" src="https://assets.leetcode.com/uploads/2021/10/04/ex-2.png" style="width: 600px; height: 193px;" />
 [subs="verbatim,quotes"]
 ----

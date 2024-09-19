@@ -15,7 +15,7 @@ Return_ _`true`_ if it is possible to remove one letter so that the frequency of
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return_ _`true`_ if it is possible to remove one letter so that the frequency of
 *Explanation:* Select index 3 and delete it: word becomes "abc" and each character has a frequency of 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

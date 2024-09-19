@@ -15,7 +15,7 @@ Each minute, a node becomes infected if:
 Return _the number of minutes needed for the entire tree to be infected._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/06/25/image-20220625231744-1.png" style="width: 400px; height: 306px;" />
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _the number of minutes needed for the entire tree to be infected._
 It takes 4 minutes for the whole tree to be infected so we return 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/06/25/image-20220625231812-2.png" style="width: 75px; height: 66px;" />
 [subs="verbatim,quotes"]
 ----

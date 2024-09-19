@@ -6,7 +6,7 @@
 Given an array `nums` of *distinct* positive integers, return _the number of tuples _`(a, b, c, d)`_ such that _`a * b = c * d`_ where _`a`_, _`b`_, _`c`_, and _`d`_ are elements of _`nums`_, and _`a != b != c != d`_._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Given an array `nums` of *distinct* positive integers, return _the number of tup
 (3,4,2,6) , (4,3,2,6) , (3,4,6,2) , (4,3,6,2)
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

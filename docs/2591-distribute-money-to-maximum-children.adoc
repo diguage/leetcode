@@ -16,7 +16,7 @@ You have to distribute the money according to the following rules:
 Return _the *maximum* number of children who may receive *exactly* _`8` _dollars if you distribute the money according to the aforementioned rules_. If there is no way to distribute the money, return `-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ The maximum number of children with 8 dollars will be 1. One of the ways to dist
 It can be proven that no distribution exists such that number of children getting 8 dollars is greater than 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

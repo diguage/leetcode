@@ -28,7 +28,7 @@ Return `true` if it is possible to create a `2 x 2` square of the same color, ot
 </style>
 <style class="darkreader darkreader--sync" media="screen" type="text/css">
 </style>
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="grid-container">
 <div class="grid-item"> 
@@ -60,7 +60,7 @@ Return `true` if it is possible to create a `2 x 2` square of the same color, ot
 It can be done by changing the color of the `grid[0][2]`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="grid-container">
 <div class="grid-item"> 
@@ -92,7 +92,7 @@ It can be done by changing the color of the `grid[0][2]`.
 It cannot be done by changing at most one cell.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="grid-container">
 <div class="grid-item"> 

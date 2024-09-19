@@ -12,7 +12,7 @@ You may choose to detonate a *single* bomb. When a bomb is detonated, it will de
 Given the list of `bombs`, return _the *maximum* number of bombs that can be detonated if you are allowed to detonate *only one* bomb_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/11/06/desmos-eg-3.png" style="width: 300px; height: 300px;" />
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ But if we detonate the right bomb, both bombs will be detonated.
 So the maximum bombs that can be detonated is max(1, 2) = 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/11/06/desmos-eg-2.png" style="width: 300px; height: 300px;" />
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ So the maximum bombs that can be detonated is max(1, 2) = 2.
 *Detonating either bomb will not detonate the other bomb, so the maximum number of bombs that can be detonated is 1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/11/07/desmos-eg1.png" style="width: 300px; height: 300px;" />
 [subs="verbatim,quotes"]
 ----

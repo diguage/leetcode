@@ -16,7 +16,7 @@ Your task is to find the *maximum* number of operations that can be performed, s
 Return _the *maximum* number of operations possible that satisfy the condition mentioned above_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _the *maximum* number of operations possible that satisfy the condition m
 We are unable to perform any more operations as nums contain only 1 element.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

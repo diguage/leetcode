@@ -13,7 +13,7 @@ You are given a 2D matrix `grid` of size `m x n`. In one *operation*, you can ch
 Return the *minimum* number of operations needed.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [[1,0,2],[1,0,2]]
@@ -27,7 +27,7 @@ Return the *minimum* number of operations needed.
 All the cells in the matrix already satisfy the properties.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [[1,1,1],[0,0,0]]
@@ -47,7 +47,7 @@ The matrix becomes `[[1,0,1],[1,0,1]]` which satisfies the properties, by doing 
 
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [[1],[2],[3]]

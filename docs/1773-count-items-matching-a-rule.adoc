@@ -16,7 +16,7 @@ The `i^th^` item is said to match the rule if *one* of the following is true:
 Return _the number of items that match the given rule_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the number of items that match the given rule_.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

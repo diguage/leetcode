@@ -10,7 +10,7 @@ The `cost` of the connection between any two points are given in an `size<sub>1<
 Return _the minimum cost it takes to connect the two groups_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/03/ex1.jpg" style="width: 322px; height: 243px;" />
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the minimum cost it takes to connect the two groups_.
 This results in a total cost of 17.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/03/ex2.jpg" style="width: 322px; height: 403px;" />
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ This results in a total cost of 4.
 Note that there are multiple points connected to point 2 in the first group and point A in the second group. This does not matter as there is no limit to the number of points that can be connected. We only care about the minimum total cost.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

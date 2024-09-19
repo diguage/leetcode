@@ -18,7 +18,7 @@ For example, if the given `digits` were `[1, 2, 3]`, integers `132` and `312` fo
 Return _a *sorted* array of the unique integers._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _a *sorted* array of the unique integers._
 Notice that there are no *odd* integers or integers with *leading zeros*.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ Notice that there are no *odd* integers or integers with *leading zeros*.
 In this example, the digit 8 is used twice each time in 288, 828, and 882. 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ Return _the minimum number of steps_ to make `t` an anagram of `s`.
 An *Anagram* of a string is a string that contains the same characters with a different (or the same) ordering.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ An *Anagram* of a string is a string that contains the same characters with a di
 *Explanation:* Replace the first 'a' in t with b, t = "bba" which is anagram of s.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ An *Anagram* of a string is a string that contains the same characters with a di
 *Explanation:* Replace 'p', 'r', 'a', 'i' and 'c' from t with proper characters to make t anagram of s.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

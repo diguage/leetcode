@@ -13,7 +13,7 @@ Given an integer `n`, you must transform it into `0` using the following operati
 Return _the minimum number of operations to transform _`n`_ into _`0`_._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the minimum number of operations to transform _`n`_ into _`0`_._
 "0[.underline]#1#" -> "0[.underline]#0#" with the 1^st^ operation.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

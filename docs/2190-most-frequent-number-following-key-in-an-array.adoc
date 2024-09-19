@@ -16,7 +16,7 @@ For every unique integer `target` in `nums`, *count* the number of times `target
 Return _the _`target`_ with the *maximum* count_. The test cases will be generated such that the `target` with maximum count is unique.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the _`target`_ with the *maximum* count_. The test cases will be generat
 No other integers follow an occurrence of key, so we return 100.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

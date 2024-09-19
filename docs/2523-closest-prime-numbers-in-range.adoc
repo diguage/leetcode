@@ -16,7 +16,7 @@ Return _the positive integer array_ `ans = [num1, num2]`. _If there are multiple
 A number greater than `1` is called *prime* if it is only divisible by `1` and itself.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ The closest gap between any pair is 2, which can be achieved by [11,13] or [17,1
 Since 11 is smaller than 17, we return the first pair.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

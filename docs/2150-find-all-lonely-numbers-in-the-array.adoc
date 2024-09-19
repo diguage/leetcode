@@ -8,7 +8,7 @@ You are given an integer array `nums`. A number `x` is *lonely* when it appears 
 Return _*all* lonely numbers in _`nums`. You may return the answer in *any order*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Hence, the lonely numbers in nums are [10, 8].
 Note that [8, 10] may also be returned.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

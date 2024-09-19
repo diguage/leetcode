@@ -15,7 +15,7 @@ Two arrays `nums1` and `nums2` are said to be *distinct* if:
 A *subarray* is defined as a *non-empty* contiguous sequence of elements in an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Note that the subarrays [2] and [3] occur more than once in nums, but they shoul
 The subarray [2,3,3,2,2] should not be counted because it has 3 elements that are divisible by 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

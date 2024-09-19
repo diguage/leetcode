@@ -10,7 +10,7 @@ The operation of drinking a full water bottle turns it into an empty bottle.
 Given the two integers `numBottles` and `numExchange`, return _the *maximum* number of water bottles you can drink_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/07/01/sample_1_1875.png" style="width: 500px; height: 245px;" />
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Given the two integers `numBottles` and `numExchange`, return _the *maximum* num
 Number of water bottles you can drink: 9 + 3 + 1 = 13.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/07/01/sample_2_1875.png" style="width: 500px; height: 183px;" />
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ You are given a string `s` and an integer `k`. Encrypt the string using the foll
 Return the _encrypted string_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "dart", k = 3
@@ -29,7 +29,7 @@ Return the _encrypted string_.
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "aaa", k = 1

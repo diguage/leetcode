@@ -8,7 +8,7 @@ Given two positive integers `a` and `b`, return _the number of *common* factors 
 An integer `x` is a *common factor* of `a` and `b` if `x` divides both `a` and `b`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ An integer `x` is a *common factor* of `a` and `b` if `x` divides both `a` and `
 *Explanation:* The common factors of 12 and 6 are 1, 2, 3, 6.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

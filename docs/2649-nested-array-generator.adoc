@@ -10,7 +10,7 @@ A *multi-dimensional array* is a recursive data structure that contains both int
 *inorder traversal* iterates over each array from left to right, yielding any integers it encounters or applying *inorder traversal* to any arrays it encounters.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ generator.next().value; // 3
 generator.next().done; // true
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -8,7 +8,7 @@ Given two integer arrays `arr1` and `arr2`, and the integer `d`, _return the dis
 The distance value is defined as the number of elements `arr1[i]` such that there is not any element `arr2[j]` where `|arr1[i]-arr2[j]| <= d`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ For arr1[2]=8 we have:
 *|8-8|=0 <= d=2*
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ For arr1[2]=8 we have:
 *Output:* 2
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

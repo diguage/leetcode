@@ -10,7 +10,7 @@ The distance between two points is defined as their <span data-keyword="manhatta
 Return _the *minimum* possible value for *maximum* distance between any two points by removing exactly one point_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">points = [[3,10],[5,15],[10,2],[4,4]]
@@ -31,7 +31,7 @@ The maximum distance after removing each point is the following:
 12 is the minimum possible maximum distance between any two points after removing exactly one point.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">points = [[1,1],[1,1],[1,1]]

@@ -12,7 +12,7 @@ Given a binary string `s`, return `true`_ if the *longest* contiguous segment of
 Note that if there are no `0`'s, then the longest continuous segment of `0`'s is considered to have a length `0`. The same applies if there is no `1`'s.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ The longest contiguous segment of 0s has length 1: "11[.underline]#0#1"
 The segment of 1s is longer, so return true.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ The longest contiguous segment of 0s has length 3: "111[.underline]#000#"
 The segment of 1s is not longer, so return false.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -16,7 +16,7 @@ Return _a *boolean array* _`result`,_ where each _`result[j]`_ is _`true`_ if th
 *Note:* If `u<sub>j</sub>` and `v<sub>j</sub>` are already direct friends, the request is still *successful*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Return _a *boolean array* _`result`,_ where each _`result[j]`_ is _`true`_ if th
 Request 1: Person 2 and person 1 cannot be friends since person 0 and person 1 would be indirect friends (1--2--0).
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ Request 1: Person 2 and person 1 cannot be friends since person 0 and person 1 w
 Request 1: Person 0 and person 2 cannot be friends since person 0 and person 1 would be indirect friends (0--2--1).
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

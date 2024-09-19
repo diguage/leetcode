@@ -6,7 +6,7 @@
 Given a string `s` and a character `letter`, return_ the *percentage* of characters in _`s`_ that equal _`letter`_ *rounded down* to the nearest whole percent._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ The percentage of characters in s that equal the letter 'o' is 2 / 6 * 100% = 33
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

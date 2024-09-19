@@ -17,7 +17,7 @@ At every second, you must perform the following operations:
 Return _the *minimum* time greater than zero required for_ `word` _to revert to its *initial* state_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ At the 2nd second, we remove characters "cab" from the prefix of word, and add "
 It can be shown that 2 seconds is the minimum time greater than zero required for word to revert to its initial state.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ It can be shown that 2 seconds is the minimum time greater than zero required fo
 It can be shown that 1 second is the minimum time greater than zero required for word to revert to its initial state.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

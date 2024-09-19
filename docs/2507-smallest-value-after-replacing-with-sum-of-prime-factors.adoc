@@ -14,7 +14,7 @@ Continuously replace `n` with the sum of its *prime factors*.
 Return _the smallest value _`n`_ will take on._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Return _the smallest value _`n`_ will take on._
 5 is the smallest value n will take on.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

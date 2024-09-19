@@ -19,7 +19,7 @@ Return _a string array containing the words corresponding to the indices *(in or
 *Note:* strings in `words` may be *unequal* in length.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 *Input: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">words = ["bab","dab","cab"], groups = [1,2,2]
@@ -47,7 +47,7 @@ So, another valid answer is `[words[0],words[1]] = ["bab","dab"]`.
 It can be shown that the length of the longest subsequence of indices that satisfies the conditions is `2`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 *Input: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">words = ["a","b","c","d"], groups = [1,2,3,4]

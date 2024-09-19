@@ -10,7 +10,7 @@ Return _the number of times the user had to change the key. _
 *Note: *Modifiers like `shift` or `caps lock` won't be counted in changing the key that is if a user typed the letter `'a'` and then the letter `'A'` then it will not be considered as a changing of key.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ From s[4] = 'c' to s[5] = 'C', there is no change of key as caps lock or shift i
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

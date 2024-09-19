@@ -16,7 +16,7 @@ Before starting the competition, you can train for some number of hours. After e
 Return _the *minimum* number of training hours required to defeat all _`n`_ opponents_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ You did a total of 6 + 2 = 8 hours of training before the competition, so we ret
 It can be proven that no smaller answer exists.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ The *permutation difference* between `s` and `t` is defined as the *sum* of the 
 Return the *permutation difference* between `s` and `t`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "abc", t = "bac"
@@ -30,7 +30,7 @@ For `s = "abc"` and `t = "bac"`, the permutation difference of `s` and `t` is eq
 That is, the permutation difference between `s` and `t` is equal to `|0 - 1| + |2 - 2| + |1 - 0| = 2`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "abcde", t = "edbac"

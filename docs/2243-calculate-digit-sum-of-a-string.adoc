@@ -16,7 +16,7 @@ A *round* can be completed if the length of `s` is greater than `k`. In one roun
 Return `s` _after all rounds have been completed_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Return `s` _after all rounds have been completed_.
 Now, s.length <= k, so we return "135" as the answer.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

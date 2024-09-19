@@ -12,7 +12,7 @@ Given a string `s` consisting of lowercase English letters. Perform the followin
 Return the <span data-keyword="lexicographically-smaller-string">*lexicographically smallest* string *after performing the operation*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "cbabc"
@@ -24,7 +24,7 @@ Return the <span data-keyword="lexicographically-smaller-string">*lexicographica
 Perform the operation on the substring starting at index 0, and ending at index 1 inclusive.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "aa"
@@ -36,7 +36,7 @@ Perform the operation on the substring starting at index 0, and ending at index 
 Perform the operation on the last letter.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "acbbc"
@@ -48,7 +48,7 @@ Perform the operation on the last letter.
 Perform the operation on the substring starting at index 1, and ending at index 4 inclusive.
 
 
-<strong class="example">Example 4:*
+*Example 4:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "leetcode"

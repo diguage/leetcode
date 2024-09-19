@@ -8,7 +8,7 @@ You are given a string `num` representing *the digits* of a very large integer a
 Return _the minimum integer you can obtain also as a string_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/06/17/q4_1.jpg" style="width: 500px; height: 40px;" />
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Return _the minimum integer you can obtain also as a string_.
 *Explanation:* The steps to obtain the minimum integer from 4321 with 4 adjacent swaps are shown.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the minimum integer you can obtain also as a string_.
 *Explanation:* It's ok for the output to have leading zeros, but the input is guaranteed not to have any leading zeros.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

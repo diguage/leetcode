@@ -22,7 +22,7 @@ Write a solution to *reshape* the data so that each row represents sales data fo
 The result format is in the following example.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----

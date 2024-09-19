@@ -21,7 +21,7 @@ You are given an integer array `answers` of length `n`, which are the submitted 
 Return _the sum of the points of the students_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/09/17/student_solving_math.png" style="width: 678px; height: 109px;" />
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ A student might have applied the operators in this wrong order: ((7+3)*1)*2 = 20
 The points for the students are: [2,5,0]. The sum of the points is 2+5+0=7.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -43,7 +43,7 @@ A student might have applied the operators in this wrong order: ((3+5)*2 = 16. T
 The points for the students are: [5,0,0,5,5,2,2]. The sum of the points is 5+0+0+5+5+2+2=19.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

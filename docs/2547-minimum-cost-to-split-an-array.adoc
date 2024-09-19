@@ -24,7 +24,7 @@ Return _the minimum possible cost of a split of _`nums`.
 A *subarray* is a contiguous *non-empty* sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ The importance value of [1,2,1,3,3] is 2 + (2 + 2) = 6.
 The cost of the split is 2 + 6 = 8. It can be shown that this is the minimum possible cost among all the possible splits.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -48,7 +48,7 @@ The importance value of [1,2,1] is 2 + (2) = 4.
 The cost of the split is 2 + 4 = 6. It can be shown that this is the minimum possible cost among all the possible splits.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

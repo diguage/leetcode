@@ -15,7 +15,7 @@ When a customer arrives, he gives the chef his order, and the chef starts prepar
 Return _the *average* waiting time of all customers_. Solutions within `10^-5^` from the actual answer are considered accepted.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _the *average* waiting time of all customers_. Solutions within `10^-5^` 
 So the average waiting time = (2 + 6 + 7) / 3 = 5.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

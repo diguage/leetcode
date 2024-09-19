@@ -15,7 +15,7 @@ You are given a *0-indexed* integer array `nums` and an integer `k`. Your task i
 Return _the maximum score you can achieve after performing the operation exactly_ `k` _times._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ So, we will return 18.
 It can be proven, that 18 is the maximum answer that we can achieve.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

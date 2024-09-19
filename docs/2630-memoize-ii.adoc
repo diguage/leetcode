@@ -10,7 +10,7 @@ A *memoized *function is a function that will never be called twice with the sam
 `fn` can be any function and there are no constraints on what type of values it accepts. Inputs are considered identical if they are `===` to each other.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ For the inputs of (2, 2): 2 + 2 = 4, but those inputs were seen before so no cal
 For the inputs of (1, 2): 1 + 2 = 3, and it required another call to fn() for a total of 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ fn = function (a, b) { return ({...a, ...b}); }
 Merging two empty objects will always result in an empty object. It may seem like there should only be 1 call to fn() because of cache-hits, however none of those objects are === to each other.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

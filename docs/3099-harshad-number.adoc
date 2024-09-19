@@ -6,7 +6,7 @@
 An integer divisible by the *sum* of its digits is said to be a *Harshad* number. You are given an integer `x`. Return_ the sum of the digits _of_ _`x`_ _if_ _`x`_ _is a *Harshad* number, otherwise, return_ _`-1`_._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">x = 18
@@ -18,7 +18,7 @@ An integer divisible by the *sum* of its digits is said to be a *Harshad* number
 The sum of digits of `x` is `9`. `18` is divisible by `9`. So `18` is a Harshad number and the answer is `9`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">x = 23

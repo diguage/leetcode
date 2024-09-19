@@ -20,7 +20,7 @@ Here, `max(nums1)` denotes the maximum element of the array `nums1`, and `min(nu
 Return _the integer denoting the value of such partition_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ The value of the partition is |2 - 3| = 1.
 It can be proven that 1 is the minimum value out of all partitions.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ Students can see the answers of those sitting next to the left, right, upper lef
 Students must be placed in seats in good condition.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img height="200" src="https://assets.leetcode.com/uploads/2020/01/29/image.png" width="339" />
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Students must be placed in seats in good condition.
 *Explanation:* Teacher can place 4 students in available seats so they don't cheat on the exam. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Students must be placed in seats in good condition.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

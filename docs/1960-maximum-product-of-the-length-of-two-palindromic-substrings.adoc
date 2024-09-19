@@ -12,7 +12,7 @@ Return _the *maximum* possible product of the lengths of the two non-intersectin
 A *palindrome* is a string that is the same forward and backward. A *substring* is a contiguous sequence of characters in a string.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ A *palindrome* is a string that is the same forward and backward. A *substring* 
 *Explanation:* Substrings "aba" and "bbb" are palindromes with odd length. product = 3 * 3 = 9.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

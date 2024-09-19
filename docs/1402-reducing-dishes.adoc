@@ -12,7 +12,7 @@ Return the maximum sum of *like-time coefficient *that the chef can obtain after
 Dishes can be prepared in *any *order and the chef can discard some dishes to get this maximum value.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Dishes can be prepared in *any *order and the chef can discard some dishes to ge
 Each dish is prepared in one unit of time.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Each dish is prepared in one unit of time.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

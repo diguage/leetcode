@@ -12,7 +12,7 @@
 Given an integer `num`, *reverse* `num` to get `reversed1`, *then reverse* `reversed1` to get `reversed2`. Return `true` _if_ `reversed2` _equals_ `num`. Otherwise return `false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Given an integer `num`, *reverse* `num` to get `reversed1`, *then reverse* `reve
 *Explanation:* Reverse num to get 625, then reverse 625 to get 526, which equals num.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Given an integer `num`, *reverse* `num` to get `reversed1`, *then reverse* `reve
 *Explanation:* Reverse num to get 81, then reverse 81 to get 18, which does not equal num.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

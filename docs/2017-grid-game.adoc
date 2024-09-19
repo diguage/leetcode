@@ -12,7 +12,7 @@ At the start of the game, the *first* robot moves from `(0, 0)` to `(1, n-1)`, c
 The *first* robot wants to *minimize* the number of points collected by the *second* robot. In contrast, the *second *robot wants to *maximize* the number of points it collects. If both robots play *optimally*, return _the *number of points* collected by the *second* robot._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/09/08/a1.png" style="width: 388px; height: 103px;" />
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ The cells visited by the first robot are set to 0.
 The second robot will collect 0 + 0 + 4 + 0 = 4 points.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/09/08/a2.png" style="width: 384px; height: 105px;" />
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ The cells visited by the first robot are set to 0.
 The second robot will collect 0 + 3 + 1 + 0 = 4 points.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/09/08/a3.png" style="width: 493px; height: 103px;" />
 [subs="verbatim,quotes"]
 ----

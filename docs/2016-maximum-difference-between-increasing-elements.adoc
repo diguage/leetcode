@@ -8,7 +8,7 @@ Given a *0-indexed* integer array `nums` of size `n`, find the *maximum differen
 Return _the *maximum difference*. _If no such `i` and `j` exists, return `-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ The maximum difference occurs with i = 1 and j = 2, nums[j] - nums[i] = 5 - 1 = 
 Note that with i = 1 and j = 0, the difference nums[j] - nums[i] = 7 - 1 = 6, but i > j, so it is not valid.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Note that with i = 1 and j = 0, the difference nums[j] - nums[i] = 7 - 1 = 6, bu
 There is no i and j such that i < j and nums[i] < nums[j].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

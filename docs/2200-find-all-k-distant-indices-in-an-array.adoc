@@ -8,7 +8,7 @@ You are given a *0-indexed* integer array `nums` and two integers `key` and `k`.
 Return _a list of all k-distant indices sorted in *increasing order*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Return _a list of all k-distant indices sorted in *increasing order*_.
 `Thus, we return [1,2,3,4,5,6] which is sorted in increasing order. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

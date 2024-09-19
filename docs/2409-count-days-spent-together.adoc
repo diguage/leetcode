@@ -12,7 +12,7 @@ Return_ the total number of days that Alice and Bob are in Rome together._
 You can assume that all dates occur in the *same* calendar year, which is *not* a leap year. Note that the number of days per month can be represented as: `[31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ You can assume that all dates occur in the *same* calendar year, which is *not* 
 *Explanation:* Alice will be in Rome from August 15 to August 18. Bob will be in Rome from August 16 to August 19. They are both in Rome together on August 16th, 17th, and 18th, so the answer is 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

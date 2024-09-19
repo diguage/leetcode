@@ -25,7 +25,7 @@ Return _the array _`[c<sub>x</sub>, c<sub>y</sub>]`_ representing the *integral*
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/22/untitled-diagram.png" style="width: 176px; height: 176px;" />
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ Return _the array _`[c<sub>x</sub>, c<sub>y</sub>]`_ representing the *integral*
 No other coordinate has a higher network quality.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -48,7 +48,7 @@ No other coordinate has a higher network quality.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

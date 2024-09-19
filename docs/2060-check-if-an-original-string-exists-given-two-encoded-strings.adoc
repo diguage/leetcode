@@ -24,7 +24,7 @@ Given two encoded strings `s1` and `s2`, consisting of lowercase English letters
 *Note*: The test cases are generated such that the number of consecutive digits in `s1` and `s2` does not exceed `3`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ Given two encoded strings `s1` and `s2`, consisting of lowercase English letters
   -> Concatenate:  "i18n", which is s2
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -58,7 +58,7 @@ Given two encoded strings `s1` and `s2`, consisting of lowercase English letters
   -> Concatenate: "44", which is s2.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

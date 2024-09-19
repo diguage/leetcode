@@ -10,7 +10,7 @@ Alice and Bob are playing a game. Each turn, starting with *Alice*, the player m
 Return the _name_ of the player who wins the game if both players play *optimally*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">x = 2, y = 7
@@ -26,7 +26,7 @@ The game ends in a single turn:
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">x = 4, y = 11

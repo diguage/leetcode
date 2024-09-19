@@ -12,7 +12,7 @@ Return _the length of the *longest valid substring* of the string _`word`.
 A *substring* is a contiguous sequence of characters in a string, possibly empty.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ A *substring* is a contiguous sequence of characters in a string, possibly empty
 *Explanation:* There are 11 valid substrings in word: "c", "b", "a", "ba", "aa", "bc", "baa", "aab", "ab", "abc" and "aabc". The length of the longest valid substring is 4. 
 It can be shown that all other substrings contain either "aaa" or "cb" as a substring. ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

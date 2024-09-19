@@ -8,7 +8,7 @@ We call a positive integer *special* if all of its digits are *distinct*.
 Given a *positive* integer `n`, return _the number of special integers that belong to the interval _`[1, n]`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ Given a *positive* integer `n`, return _the number of special integers that belo
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Given a *positive* integer `n`, return _the number of special integers that belo
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

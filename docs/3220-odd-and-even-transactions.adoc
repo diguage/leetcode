@@ -26,7 +26,7 @@ Return _the result table ordered by_ `transaction_date` _in *ascending* order_.
 The result format is in the following example.
 
  
-<strong class="example">Example:*
+*Example:*
 
 <div class="example-block">
 *Input:*

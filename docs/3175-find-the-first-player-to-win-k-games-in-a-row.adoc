@@ -21,7 +21,7 @@ The winner of the competition is the *first* player who wins `k` games *in a row
 Return the initial index of the _winning_ player.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">skills = [4,2,6,3,9], k = 2
@@ -41,7 +41,7 @@ Initially, the queue of players is `[0,1,2,3,4]`. The following process happens:
 Player 2 won `k = 2` games in a row, so the winner is player 2.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">skills = [2,5,4], k = 3

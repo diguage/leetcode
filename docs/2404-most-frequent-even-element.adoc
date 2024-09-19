@@ -8,7 +8,7 @@ Given an integer array `nums`, return _the most frequent even element_.
 If there is a tie, return the *smallest* one. If there is no such element, return `-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ The even elements are 0, 2, and 4. Of these, 2 and 4 appear the most.
 We return the smallest one, which is 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ We return the smallest one, which is 2.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

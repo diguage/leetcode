@@ -10,7 +10,7 @@ Each bus can make multiple trips *successively*; that is, the next trip can star
 You are also given an integer `totalTrips`, which denotes the number of trips all buses should make *in total*. Return _the *minimum time* required for all buses to complete *at least* _`totalTrips`_ trips_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ You are also given an integer `totalTrips`, which denotes the number of trips al
 So the minimum time needed for all buses to complete at least 5 trips is 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

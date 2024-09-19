@@ -10,7 +10,7 @@ A string `s` is a *prefix string* of `words` if `s` can be made by concatenating
 Return `true`_ if _`s`_ is a *prefix string* of _`words`_, or _`false`_ otherwise_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ s can be made by concatenating "i", "love", and "leetcode" together.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

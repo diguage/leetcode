@@ -12,7 +12,7 @@ Return `expression`_ after adding a pair of parentheses such that _`expression`_
 The input has been generated such that the original value of `expression`, and the value of `expression` after adding any pair of parentheses that meets the requirements fits within a signed 32-bit integer.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Note that "2(4)7+38" is invalid because the right parenthesis must be to the rig
 It can be shown that 170 is the smallest possible value.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ It can be shown that 170 is the smallest possible value.
 *Explanation:* The expression evaluates to 1 * (2 + 3) * 4 = 1 * 5 * 4 = 20.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

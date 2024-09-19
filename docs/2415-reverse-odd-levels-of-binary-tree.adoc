@@ -16,7 +16,7 @@ A binary tree is *perfect* if all parent nodes have two children and all leaves 
 The *level* of a node is the number of edges along the path between it and the root node.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/07/28/first_case1.png" style="width: 626px; height: 191px;" />
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ The tree has only one odd level.
 The nodes at level 1 are 3, 5 respectively, which are reversed and become 5, 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/07/28/second_case3.png" style="width: 591px; height: 111px;" />
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ The nodes at level 1 are 3, 5 respectively, which are reversed and become 5, 3.
 The nodes at level 1 are 13, 11, which are reversed and become 11, 13.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

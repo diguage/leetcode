@@ -10,7 +10,7 @@ Alice and Bob take turns, with *Alice* starting first. On each turn, the player 
 Assuming both players play *optimally*, return `true` _if Alice wins and_ `false` _if Bob wins_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Assuming both players play *optimally*, return `true` _if Alice wins and_ `false
 The sum of the removed stones is 1 + 2 = 3 and is divisible by 3. Therefore, Bob loses and Alice wins the game.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ The sum of the removed stones is 1 + 2 = 3 and is divisible by 3. Therefore, Bob
 Since all the stones are removed and the sum of values is not divisible by 3, Bob wins the game.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

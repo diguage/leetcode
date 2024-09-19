@@ -17,7 +17,7 @@ Alice and Bob are playing a game where they take *alternating turns* removing pi
 Assuming Alice and Bob play optimally, return `true`_ if Alice wins, or return _`false`_ if Bob wins_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Bob cannot make a move on his turn since there are no 'B's whose neighbors are b
 Thus, Alice wins, so return true.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -45,7 +45,7 @@ There are only two 'A's and both are on the edge of the line, so she cannot move
 Thus, Bob wins, so return false.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ In a *well-spaced* string, the number of letters between the two occurrences of 
 Return `true`_ if _`s`_ is a *well-spaced* string, otherwise return _`false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Note that distance[3] = 5, but since 'd' does not appear in s, it can be ignored
 Return true because s is a well-spaced string.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

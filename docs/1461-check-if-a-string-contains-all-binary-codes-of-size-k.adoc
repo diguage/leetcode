@@ -6,7 +6,7 @@
 Given a binary string `s` and an integer `k`, return `true` _if every binary code of length_ `k` _is a substring of_ `s`. Otherwise, return `false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -15,7 +15,7 @@ Given a binary string `s` and an integer `k`, return `true` _if every binary cod
 *Explanation:* The binary codes of length 2 are "00", "01", "10" and "11". They can be all found as substrings at indices 0, 1, 3 and 2 respectively.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Given a binary string `s` and an integer `k`, return `true` _if every binary cod
 *Explanation:* The binary codes of length 1 are "0" and "1", it is clear that both exist as a substring. 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

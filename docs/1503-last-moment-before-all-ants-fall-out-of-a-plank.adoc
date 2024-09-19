@@ -12,7 +12,7 @@ When an ant reaches *one end* of the plank at a time `t`, it falls out of the pl
 Given an integer `n` and two integer arrays `left` and `right`, the positions of the ants moving to the left and the right, return _the moment when the last ant(s) fall out of the plank_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/06/17/ants.jpg" style="width: 450px; height: 610px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Given an integer `n` and two integer arrays `left` and `right`, the positions of
 The last moment when an ant was on the plank is t = 4 seconds. After that, it falls immediately out of the plank. (i.e., We can say that at t = 4.0000000001, there are no ants on the plank).
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/06/17/ants2.jpg" style="width: 639px; height: 101px;" />
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ The last moment when an ant was on the plank is t = 4 seconds. After that, it fa
 *Explanation:* All ants are going to the right, the ant at index 0 needs 7 seconds to fall.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/06/17/ants3.jpg" style="width: 639px; height: 100px;" />
 [subs="verbatim,quotes"]
 ----

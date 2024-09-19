@@ -8,7 +8,7 @@ Write a function that checks if a given value is an instance of a given class or
 There are no constraints on the data types that can be passed to the function. For example, the value or the class could be `undefined`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ There are no constraints on the data types that can be passed to the function. F
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ checkIfInstanceOf(new Dog(), Animal); // true
 Dog is a subclass of Animal. Therefore, a Dog object is an instance of both Dog and Animal.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ Dog is a subclass of Animal. Therefore, a Dog object is an instance of both Dog 
 
 ----
 
-<strong class="example">Example 4:*
+*Example 4:*
 
 [subs="verbatim,quotes"]
 ----

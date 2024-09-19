@@ -14,7 +14,7 @@ The class has three public methods:
 `count()`: returns the count of un-expired keys.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ At t=100, key=1 expires.
 At t=150, get(1) is called but -1 is returned because the cache is empty.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

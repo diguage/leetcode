@@ -14,7 +14,7 @@ We have two arrays `arr1` and `arr2` which are initially empty. You need to add 
 Given `divisor1`, `divisor2`, `uniqueCnt1`, and `uniqueCnt2`, return _the *minimum possible maximum* integer that can be present in either array_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Since the maximum value is 4, we return it.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -39,7 +39,7 @@ Here arr1 = [1,2], and arr2 = [3] satisfy all conditions.
 Since the maximum value is 3, we return it.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

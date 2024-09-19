@@ -14,7 +14,7 @@ Since the answer may be large, return it *modulo* `10^9 ^+ 7`.
 *Note: *The field is surrounded by two horizontal fences from the coordinates `(1, 1)` to `(1, n)` and `(m, 1)` to `(m, n)` and two vertical fences from the coordinates `(1, 1)` to `(m, 1)` and `(1, n)` to `(m, n)`. These fences *cannot* be removed.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2023/11/05/screenshot-from-2023-11-05-22-40-25.png" />
 
@@ -25,7 +25,7 @@ Since the answer may be large, return it *modulo* `10^9 ^+ 7`.
 *Explanation:* Removing the horizontal fence at 2 and the vertical fence at 2 will give a square field of area 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2023/11/22/maxsquareareaexample1.png" style="width: 285px; height: 242px;" />
 

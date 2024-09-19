@@ -10,7 +10,7 @@ Given a string `s`, delete the *minimum* possible number of characters from `s` 
 Return _the final string after the deletion_. It can be shown that the answer will always be *unique*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Remove an 'e' from the first group of 'e's to create "leetcode".
 No three consecutive characters are equal, so return "leetcode".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Remove two 'a's from the second group of 'a's to create "aabaa".
 No three consecutive characters are equal, so return "aabaa".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

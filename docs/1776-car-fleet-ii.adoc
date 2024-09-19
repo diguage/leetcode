@@ -15,7 +15,7 @@ For simplicity, cars can be considered as points moving along the number line. T
 Return an array `answer`, where `answer[i]` is the time, in seconds, at which the `i^th^` car collides with the next car, or `-1` if the car does not collide with the next car. Answers within `10^-5^` of the actual answers are accepted.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return an array `answer`, where `answer[i]` is the time, in seconds, at which th
 *Explanation:* After exactly one second, the first car will collide with the second car, and form a car fleet with speed 1 m/s. After exactly 3 seconds, the third car will collide with the fourth car, and form a car fleet with speed 2 m/s.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

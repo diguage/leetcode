@@ -17,7 +17,7 @@ Return _the array `ans`. _Answers within `10^-5^` of the actual answer will be a
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the array `ans`. _Answers within `10^-5^` of the actual answer will be a
 *Explanation:* Temperature at 36.50 Celsius converted in Kelvin is 309.65 and converted in Fahrenheit is 97.70.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

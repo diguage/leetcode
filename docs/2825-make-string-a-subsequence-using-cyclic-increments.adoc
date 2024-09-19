@@ -12,7 +12,7 @@ Return `true` _if it is possible to make _`str2` _a subsequence of _`str1` _by p
 *Note:* A subsequence of a string is a new string that is formed from the original string by deleting some (possibly none) of the characters without disturbing the relative positions of the remaining characters.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Increment str1[2] to become 'd'.
 Hence, str1 becomes "abd" and str2 is now a subsequence. Therefore, true is returned.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Increment str1[1] to become 'd'.
 Hence, str1 becomes "ad" and str2 is now a subsequence. Therefore, true is returned.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

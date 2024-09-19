@@ -10,7 +10,7 @@ You are also given the array `queries` where `queries[i] = [node<sub>i</sub>, va
 Return _an array _`ans`_ where _`ans[i]`_ is the answer to the _`i^th^`_ query_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/06/29/c1.png" style="width: 118px; height: 163px;" />
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _an array _`ans`_ where _`ans[i]`_ is the answer to the _`i^th^`_ query_.
 - [2,5]: The node with the maximum genetic difference is 2, with a difference of 5 XOR 2 = 7.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/06/29/c2.png" style="width: 256px; height: 221px;" />
 [subs="verbatim,quotes"]
 ----

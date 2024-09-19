@@ -15,7 +15,7 @@ You repeat the following procedure `n / 2` times:
 Return the *minimum* element in `averages`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [7,8,3,4,15,13,4,1]
@@ -60,7 +60,7 @@ Return the *minimum* element in `averages`.
 </table>
 The smallest element of averages, 5.5, is returned.
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,9,8,3,10,5]
@@ -100,7 +100,7 @@ The smallest element of averages, 5.5, is returned.
 </table>
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,2,3,7,8,9]

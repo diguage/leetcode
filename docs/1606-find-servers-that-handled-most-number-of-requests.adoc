@@ -17,7 +17,7 @@ You are given a *strictly increasing* array `arrival` of positive integers, wher
 Return _a list containing the IDs (0-indexed) of the *busiest server(s)*_. You may return the IDs in any order.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/08/load-1.png" style="width: 389px; height: 221px;" />
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Request 4 comes in. It cannot be handled since all servers are busy, so it is dr
 Servers 0 and 2 handled one request each, while server 1 handled two requests. Hence server 1 is the busiest server.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -43,7 +43,7 @@ Request 3 comes in. It is handled by server 0 since the server is available.
 Server 0 handled two requests, while servers 1 and 2 handled one request each. Hence server 0 is the busiest server.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

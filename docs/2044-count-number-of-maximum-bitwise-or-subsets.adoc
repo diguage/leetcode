@@ -10,7 +10,7 @@ An array `a` is a *subset* of an array `b` if `a` can be obtained from `b` by de
 The bitwise OR of an array `a` is equal to `a[0] *OR* a[1] *OR* ... *OR* a[a.length - 1]` (*0-indexed*).
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ The bitwise OR of an array `a` is equal to `a[0] *OR* a[1] *OR* ... *OR* a[a.len
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ The bitwise OR of an array `a` is equal to `a[0] *OR* a[1] *OR* ... *OR* a[a.len
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

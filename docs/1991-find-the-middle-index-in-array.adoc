@@ -12,7 +12,7 @@ If `middleIndex == 0`, the left side sum is considered to be `0`. Similarly, if 
 Return _the *leftmost* _`middleIndex`_ that satisfies the condition, or _`-1`_ if there is no such index_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the *leftmost* _`middleIndex`_ that satisfies the condition, or _`-1`_ i
 The sum of the numbers after index 3 is: 4 = 4
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ The sum of the numbers after index 3 is: 4 = 4
 The sum of the numbers after index 2 is: 0
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

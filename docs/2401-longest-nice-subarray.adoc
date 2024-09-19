@@ -14,7 +14,7 @@ A *subarray* is a *contiguous* part of an array.
 *Note* that subarrays of length `1` are always considered nice.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ A *subarray* is a *contiguous* part of an array.
 It can be proven that no longer nice subarray can be obtained, so we return 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

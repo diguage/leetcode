@@ -12,7 +12,7 @@ Return _an integer denoting the number of ways to split the array _`nums`_ into 
 A subarray is a contiguous *non-empty* sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ A subarray is a contiguous *non-empty* sequence of elements within an array.
 - [0,1,0,0] [1]
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

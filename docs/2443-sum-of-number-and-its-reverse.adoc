@@ -6,7 +6,7 @@
 Given a *non-negative* integer `num`, return `true`_ if _`num`_ can be expressed as the sum of any *non-negative* integer and its reverse, or _`false`_ otherwise._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -15,7 +15,7 @@ Given a *non-negative* integer `num`, return `true`_ if _`num`_ can be expressed
 *Explanation:* 172 + 271 = 443 so we return true.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Given a *non-negative* integer `num`, return `true`_ if _`num`_ can be expressed
 *Explanation:* 63 cannot be expressed as the sum of a non-negative integer and its reverse so we return false.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

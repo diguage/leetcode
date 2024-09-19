@@ -12,7 +12,7 @@ A *subsequence* is a string that can be derived from another string by deleting 
 A string `a` is *lexicographically smaller* than a string `b` if in the first position where `a` and `b` differ, string `a` has a letter that appears earlier in the alphabet than the corresponding letter in `b`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ A string `a` is *lexicographically smaller* than a string `b` if in the first po
 The lexicographically smallest subsequence among them is "eet".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="example-2" src="https://assets.leetcode.com/uploads/2021/09/13/smallest-k-length-subsequence.png" style="width: 339px; height: 67px;" />
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ The lexicographically smallest subsequence among them is "eet".
 *Explanation:* "ecde" is the lexicographically smallest subsequence of length 4 that has the letter "e" appear at least 2 times.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

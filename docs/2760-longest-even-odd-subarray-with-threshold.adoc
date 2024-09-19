@@ -18,7 +18,7 @@ Return _an integer denoting the length of the longest such subarray._
 *Note:* A *subarray* is a contiguous non-empty sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _an integer denoting the length of the longest such subarray._
 Hence, the answer is the length of the subarray, 3. We can show that 3 is the maximum possible achievable length.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -39,7 +39,7 @@ It satisfies all the conditions and we can show that 1 is the maximum possible a
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -9,7 +9,7 @@ Given an array of integers `arr` and an integer `k`. Find the _least number of u
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ Given an array of integers `arr` and an integer `k`. Find the _least number of u
 *Explanation*: Remove the single 4, only 5 is left.
 
 ----
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

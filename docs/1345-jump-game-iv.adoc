@@ -18,7 +18,7 @@ Return _the minimum number of steps_ to reach the *last index* of the array.
 Notice that you can not jump outside of the array at any time.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Notice that you can not jump outside of the array at any time.
 *Explanation:* You need three jumps from index 0 --> 4 --> 3 --> 9. Note that index 9 is the last index of the array.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ Notice that you can not jump outside of the array at any time.
 *Explanation:* Start index is the last index. You do not need to jump.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -8,7 +8,7 @@ Given a string `s`, return `true`_ if _`s`_ is a *good* string, or _`false`_ oth
 A string `s` is *good* if *all* the characters that appear in `s` have the *same* number of occurrences (i.e., the same frequency).
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ A string `s` is *good* if *all* the characters that appear in `s` have the *same
 *Explanation:* The characters that appear in s are 'a', 'b', and 'c'. All characters occur 2 times in s.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

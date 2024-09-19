@@ -10,7 +10,7 @@ The employees are numbered from `0` to `n - 1`. Each employee has a *favorite* p
 Given a *0-indexed* integer array `favorite`, where `favorite[i]` denotes the favorite person of the `i^th^` employee, return _the *maximum number of employees* that can be invited to the meeting_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/14/ex1.png" style="width: 236px; height: 195px;" />
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Note that the company can also invite employees 1, 2, and 3, and give them their
 The maximum number of employees that can be invited to the meeting is 3. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ The seating arrangement will be the same as that in the figure given in example 
 The maximum number of employees that can be invited to the meeting is 3.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/14/ex2.png" style="width: 219px; height: 220px;" />
 [subs="verbatim,quotes"]
 ----

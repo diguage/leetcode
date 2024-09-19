@@ -14,7 +14,7 @@ Given a string `word` that consists of the first ten lowercase English letters (
 A *substring* is a contiguous sequence of characters in a string.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ A *substring* is a contiguous sequence of characters in a string.
 - "[.underline]#*aba*#" -> "aba"
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -45,7 +45,7 @@ A *substring* is a contiguous sequence of characters in a string.
 - "aab[.underline]#*b*#" -> "b"
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

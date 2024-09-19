@@ -20,7 +20,7 @@ Return _a list of the strongest `k`_ values in the array. return the answer *in 
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _a list of the strongest `k`_ values in the array. return the answer *in 
 Please note that although |5 - 3| == |1 - 3| but 5 is stronger than 1 because 5 > 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -39,7 +39,7 @@ Please note that although |5 - 3| == |1 - 3| but 5 is stronger than 1 because 5 
 *Explanation:* Median is 3, the elements of the array sorted by the strongest are [5,5,1,1,3]. The strongest 2 elements are [5, 5].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

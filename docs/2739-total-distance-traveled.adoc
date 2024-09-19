@@ -12,7 +12,7 @@ Return _the maximum distance which can be traveled._
 *Note: *Injection from the additional tank is not continuous. It happens suddenly and immediately for every 5 liters consumed.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ After spending another 1 litre of fuel, no fuel gets injected in the main tank a
 Total distance traveled is 60km.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

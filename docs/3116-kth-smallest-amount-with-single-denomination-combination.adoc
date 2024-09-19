@@ -10,7 +10,7 @@ You have an infinite number of coins of each denomination. However, you are *not
 Return the `k^th^` *smallest* amount that can be made using these coins.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block" style="
     border-color: var(--border-tertiary);
@@ -47,7 +47,7 @@ Coin 9 produces multiples of 9: 9, 18, 27, 36, etc.
 All of the coins combined produce: 3, 6, [.underline]#*9*#, 12, 15, etc.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block" style="
     border-color: var(--border-tertiary);

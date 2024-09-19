@@ -10,7 +10,7 @@ _Return the minimum number of _different_ frogs to finish all the croaks in the 
 A valid `"croak"` means a frog is printing five letters `'c'`, `'r'`, `'o'`, `'a'`, and `'k'` *sequentially*. The frogs have to print all five letters to finish a croak. If the given string is not a combination of a valid `"croak"` return `-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ A valid `"croak"` means a frog is printing five letters `'c'`, `'r'`, `'o'`, `'a
 *Explanation:* One frog yelling "croak*"* twice.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ The first frog could yell "*cr*c*oak*roak".
 The second frog could yell later "cr*c*oak*roak*".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

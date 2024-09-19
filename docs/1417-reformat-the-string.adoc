@@ -10,7 +10,7 @@ You have to find a permutation of the string where no letter is followed by anot
 Return _the reformatted string_ or return *an empty string* if it is impossible to reformat the string.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return _the reformatted string_ or return *an empty string* if it is impossible 
 *Explanation:* No two adjacent characters have the same type in "0a1b2c". "a0b1c2", "0a1b2c", "0c2a1b" are also valid permutations.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _the reformatted string_ or return *an empty string* if it is impossible 
 *Explanation:* "leetcode" has only characters so we cannot separate them by digits.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

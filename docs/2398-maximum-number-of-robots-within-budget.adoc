@@ -10,7 +10,7 @@ The *total cost* of running `k` chosen robots is equal to `max(chargeTimes) + k 
 Return_ the *maximum* number of *consecutive* robots you can run such that the total cost *does not* exceed _`budget`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ To obtain answer 3, consider the first 3 robots. The total cost will be max(3,6,
 It can be shown that it is not possible to run more than 3 consecutive robots within budget, so we return 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

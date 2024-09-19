@@ -16,7 +16,7 @@ Rearrange the elements of `nums2` such that the resulting *XOR sum* is *minimize
 Return _the *XOR sum* after the rearrangement_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the *XOR sum* after the rearrangement_.
 The XOR sum is (1 XOR 3) + (2 XOR 2) = 2 + 0 = 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -23,7 +23,7 @@ While moving the army, all the enemy forts that come in the way are *captured*.
 Return_ the *maximum* number of enemy forts that can be captured_. In case it is *impossible* to move your army, or you do not have any fort under your command, return `0`_._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Return_ the *maximum* number of enemy forts that can be captured_. In case it is
 Since 4 is the maximum number of enemy forts that can be captured, we return 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ Return `true`_ if the square is white, and _`false`_ if the square is black_.
 The coordinate will always represent a valid chessboard square. The coordinate will always have the letter first, and the number second.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ The coordinate will always represent a valid chessboard square. The coordinate w
 *Explanation:* From the chessboard above, the square with coordinates "a1" is black, so return false.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ The coordinate will always represent a valid chessboard square. The coordinate w
 *Explanation:* From the chessboard above, the square with coordinates "h3" is white, so return true.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

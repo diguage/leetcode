@@ -10,7 +10,7 @@ Return _the *length of the longest subsequence* of_ `nums` _that sums up to_ `ta
 A *subsequence* is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ A *subsequence* is an array that can be derived from another array by deleting s
 *Explanation:* There are 3 subsequences with a sum equal to 9: [4,5], [1,3,5], and [2,3,4]. The longest subsequences are [1,3,5], and [2,3,4]. Hence, the answer is 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ A *subsequence* is an array that can be derived from another array by deleting s
 *Explanation:* There are 5 subsequences with a sum equal to 7: [4,3], [4,1,2], [4,2,1], [1,1,5], and [1,3,2,1]. The longest subsequence is [1,3,2,1]. Hence, the answer is 4.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

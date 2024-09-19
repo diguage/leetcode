@@ -10,7 +10,7 @@ Return the number of <span data-keyword="substring-nonempty">substrings with *do
 A string has *dominant* ones if the number of ones in the string is *greater than or equal to* the *square* of the number of zeros in the string.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "00011"
@@ -71,7 +71,7 @@ The substrings with dominant ones are shown in the table below.
 	</tbody>
 </table>
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "101101"

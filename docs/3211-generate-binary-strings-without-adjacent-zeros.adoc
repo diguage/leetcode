@@ -10,7 +10,7 @@ A binary string `x` is *valid* if all <span data-keyword="substring-nonempty">su
 Return all *valid* strings with length `n`*, *in _any_ order.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 3
@@ -22,7 +22,7 @@ Return all *valid* strings with length `n`*, *in _any_ order.
 The valid strings of length 3 are: `"010"`, `"011"`, `"101"`, `"110"`, and `"111"`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 1

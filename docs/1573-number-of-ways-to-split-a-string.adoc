@@ -8,7 +8,7 @@ Given a binary string `s`, you can split `s` into 3 *non-empty* strings `s1`, `s
 Return the number of ways `s` can be split such that the number of ones is the same in `s1`, `s2`, and `s3`. Since the answer may be too large, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Return the number of ways `s` can be split such that the number of ones is the s
 "10|1|01"
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Return the number of ways `s` can be split such that the number of ones is the s
 *Output:* 0
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

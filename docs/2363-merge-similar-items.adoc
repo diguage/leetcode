@@ -15,7 +15,7 @@ Return _a 2D integer array_ `ret` _where_ `ret[i] = [value<sub>i</sub>, weight<s
 *Note:* `ret` should be returned in *ascending* order by value.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Therefore, we return [[1,6],[3,9],[4,5]].
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ The item with value = 3 occurs in items1 with weight = 2 and in items2 with weig
 Therefore, we return [[1,4],[2,4],[3,4]].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

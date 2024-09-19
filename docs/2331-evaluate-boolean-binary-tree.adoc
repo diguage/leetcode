@@ -24,7 +24,7 @@ A *full binary tree* is a binary tree where each node has either `0` or `2` chil
 A *leaf node* is a node that has zero children.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/05/16/example1drawio1.png" style="width: 700px; height: 252px;" />
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ The OR node evaluates to True OR False = True.
 The root node evaluates to True, so we return true.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

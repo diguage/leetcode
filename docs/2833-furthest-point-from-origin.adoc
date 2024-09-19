@@ -15,7 +15,7 @@ In the `i^th^` move, you can choose one of the following directions:
 Return _the *distance from the origin* of the *furthest* point you can get to after _`n`_ moves_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the *distance from the origin* of the *furthest* point you can get to af
 *Explanation:* The furthest point we can reach from the origin 0 is point -3 through the following sequence of moves "LLRLLLR".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Return _the *distance from the origin* of the *furthest* point you can get to af
 *Explanation:* The furthest point we can reach from the origin 0 is point -5 through the following sequence of moves "LRLLLLL".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ An *infection sequence* is the order in which uninfected people become infected,
 Return the number of different infection sequences possible, modulo `10^9^+7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 5, sick = [0,4]
@@ -29,7 +29,7 @@ There is a total of 6 different sequences overall.
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 4, sick = [1]

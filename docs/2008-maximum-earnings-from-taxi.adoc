@@ -14,7 +14,7 @@ Given `n` and `rides`, return _the *maximum* number of dollars you can earn by p
 *Note:* You may drop off a passenger and pick up a different passenger at the same point.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Given `n` and `rides`, return _the *maximum* number of dollars you can earn by p
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

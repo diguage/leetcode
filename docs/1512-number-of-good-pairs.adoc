@@ -8,7 +8,7 @@ Given an array of integers `nums`, return _the number of *good pairs*_.
 A pair `(i, j)` is called _good_ if `nums[i] == nums[j]` and `i` < `j`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ A pair `(i, j)` is called _good_ if `nums[i] == nums[j]` and `i` < `j`.
 *Explanation:* There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ A pair `(i, j)` is called _good_ if `nums[i] == nums[j]` and `i` < `j`.
 *Explanation:* Each pair in the array are _good_.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

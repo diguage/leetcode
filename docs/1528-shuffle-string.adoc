@@ -8,7 +8,7 @@ You are given a string `s` and an integer array `indices` of the *same length*. 
 Return _the shuffled string_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/07/09/q1.jpg" style="width: 321px; height: 243px;" />
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Return _the shuffled string_.
 *Explanation:* As shown, "codeleet" becomes "leetcode" after shuffling.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

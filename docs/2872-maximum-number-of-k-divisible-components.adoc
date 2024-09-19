@@ -12,7 +12,7 @@ A *valid split* of the tree is obtained by removing any set of edges, possibly e
 Return _the *maximum number of components* in any valid split_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/08/07/example12-cropped2svg.jpg" style="width: 1024px; height: 453px;" />
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the *maximum number of components* in any valid split_.
 It can be shown that no other valid split has more than 2 connected components.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/08/07/example21svg-1.jpg" style="width: 999px; height: 338px;" />
 [subs="verbatim,quotes"]
 ----

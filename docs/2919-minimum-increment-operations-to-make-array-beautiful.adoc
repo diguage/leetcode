@@ -18,7 +18,7 @@ Return _an integer denoting the *minimum* number of increment operations needed 
 A subarray is a contiguous *non-empty* sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ It can be shown that nums cannot be made beautiful with fewer than 3 increment o
 Hence, the answer is 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -49,7 +49,7 @@ It can be shown that nums cannot be made beautiful with fewer than 2 increment o
 Hence, the answer is 2.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

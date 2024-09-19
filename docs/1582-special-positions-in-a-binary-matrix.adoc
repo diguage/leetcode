@@ -8,7 +8,7 @@ Given an `m x n` binary matrix `mat`, return _the number of special positions in
 A position `(i, j)` is called *special* if `mat[i][j] == 1` and all other elements in row `i` and column `j` are `0` (rows and columns are *0-indexed*).
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/23/special1.jpg" style="width: 244px; height: 245px;" />
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ A position `(i, j)` is called *special* if `mat[i][j] == 1` and all other elemen
 *Explanation:* (1, 2) is a special position because mat[1][2] == 1 and all other elements in row 1 and column 2 are 0.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/24/special-grid.jpg" style="width: 244px; height: 245px;" />
 [subs="verbatim,quotes"]
 ----

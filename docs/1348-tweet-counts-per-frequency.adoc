@@ -30,7 +30,7 @@ Implement the `TweetCounts` class:
 
 
  
-<strong class="example">Example:*
+*Example:*
 
 [subs="verbatim,quotes"]
 ----

@@ -15,7 +15,7 @@ Return the *minimum* *cost* required to make all elements in the array *equal*_.
 Since the answer may be very large, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [4,1], cost1 = 5, cost2 = 2
@@ -35,7 +35,7 @@ The following operations can be performed to make the values equal:
 The total cost is 15.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [2,3,3,3,5], cost1 = 2, cost2 = 1
@@ -57,7 +57,7 @@ The following operations can be performed to make the values equal:
 The total cost is 6.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [3,5,3], cost1 = 1, cost2 = 3

@@ -12,7 +12,7 @@ Return _the *maximum* _`k`_ you can choose such that _`p`_ is still a *subsequen
 A *subsequence* of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ If we remove the characters at indices 3, 1, and 0, "<s>*ab*</s>c<s>*a*</s>cb" b
 Hence, the maximum k is 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ Hence, the maximum k is 2.
 "abcd" is a subsequence of "[.underline]#*abcd*#dddd".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ You can attend an event `i` at any day `d` where `startTime<sub>i</sub> <= d <= 
 Return _the maximum number of events you can attend_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/02/05/e1.png" style="width: 400px; height: 267px;" />
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Attend the second event on day 2.
 Attend the third event on day 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

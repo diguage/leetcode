@@ -19,7 +19,7 @@ The score of a node sequence is defined as the *sum* of the scores of the nodes 
 Return _the *maximum score* of a valid node sequence with a length of _`4`_. _If no such sequence exists, return_ _`-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/04/15/ex1new3.png" style="width: 290px; height: 215px;" />
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Note that the sequences [3,1,2,0] and [1,0,2,3] are also valid and have a score 
 The sequence [0,3,2,4] is not valid since no edge connects nodes 0 and 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/03/17/ex2.png" style="width: 333px; height: 151px;" />
 [subs="verbatim,quotes"]
 ----

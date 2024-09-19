@@ -8,7 +8,7 @@ You are given an integer array `nums` and a *non-negative* integer `k`. A sequen
 Return the *maximum* possible length of a *good* <span data-keyword="subsequence-array">subsequence of `nums`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,2,1,1,3], k = 2
@@ -20,7 +20,7 @@ Return the *maximum* possible length of a *good* <span data-keyword="subsequence
 The maximum length subsequence is `[[.underline]#1#,[.underline]#2#,[.underline]#1#,[.underline]#1#,3]`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,2,3,4,5,1], k = 0

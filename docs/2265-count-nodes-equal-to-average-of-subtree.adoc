@@ -13,7 +13,7 @@ Given the `root` of a binary tree, return _the number of nodes where the value o
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img src="https://assets.leetcode.com/uploads/2022/03/15/image-20220315203925-1.png" style="width: 300px; height: 212px;" />
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ For the node with value 1: The average of its subtree is 1 / 1 = 1.
 For the node with value 6: The average of its subtree is 6 / 1 = 6.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img src="https://assets.leetcode.com/uploads/2022/03/26/image-20220326133920-1.png" style="width: 80px; height: 76px;" />
 [subs="verbatim,quotes"]
 ----

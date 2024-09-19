@@ -17,7 +17,7 @@ A garden is considered *complete* if it has *at least* `target` flowers. The *to
 Return _the *maximum* total beauty that Alice can obtain after planting at most _`newFlowers`_ flowers._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Thus, the total beauty is 1 * 12 + 2 * 1 = 12 + 2 = 14.
 No other way of planting flowers can obtain a total beauty higher than 14.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

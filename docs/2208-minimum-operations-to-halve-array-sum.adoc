@@ -8,7 +8,7 @@ You are given an array `nums` of positive integers. In one operation, you can ch
 Return_ the *minimum* number of operations to reduce the sum of _`nums`_ by *at least* half._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Overall, 3 operations were used so we return 3.
 It can be shown that we cannot reduce the sum by at least half in less than 3 operations.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

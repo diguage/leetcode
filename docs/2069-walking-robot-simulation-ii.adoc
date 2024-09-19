@@ -24,7 +24,7 @@ Implement the `Robot` class:
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="example-1" src="https://assets.leetcode.com/uploads/2021/10/09/example-1.png" style="width: 498px; height: 268px;" />
 [subs="verbatim,quotes"]
 ----

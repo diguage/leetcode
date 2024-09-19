@@ -15,7 +15,7 @@ You need to distribute *all products* to the retail stores following these rules
 Return _the minimum possible_ `x`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Return _the minimum possible_ `x`.
 The maximum number of products given to any store is max(2, 3, 3, 3, 3, 3) = 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ The maximum number of products given to any store is max(2, 3, 3, 3, 3, 3) = 3.
 The maximum number of products given to any store is max(5, 5, 5, 5, 5, 5, 5) = 5.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

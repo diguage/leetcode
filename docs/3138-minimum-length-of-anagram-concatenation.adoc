@@ -10,7 +10,7 @@ Return the *minimum* possible length of the string `t`.
 An *anagram* is formed by rearranging the letters of a string. For example, "aab", "aba", and, "baa" are anagrams of "aab".
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "abba"
@@ -22,7 +22,7 @@ An *anagram* is formed by rearranging the letters of a string. For example, "aab
 One possible string `t` could be `"ba"`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "cdef"

@@ -12,7 +12,7 @@ Return the _maximum non-negative product *modulo* _`10^9^ + 7`. _If the maximum 
 Notice that the modulo is performed after getting the maximum product.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/23/product1.jpg" style="width: 244px; height: 245px;" />
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Notice that the modulo is performed after getting the maximum product.
 *Explanation:* It is not possible to get non-negative product in the path from (0, 0) to (2, 2), so return -1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/23/product2.jpg" style="width: 244px; height: 245px;" />
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Notice that the modulo is performed after getting the maximum product.
 *Explanation:* Maximum non-negative product is shown (1 * 1 * -2 * -4 * 1 = 8).
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/23/product3.jpg" style="width: 164px; height: 165px;" />
 [subs="verbatim,quotes"]
 ----

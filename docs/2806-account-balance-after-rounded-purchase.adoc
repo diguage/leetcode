@@ -19,7 +19,7 @@ Return an integer denoting your final bank account balance after this purchase.
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">purchaseAmount = 9
@@ -31,7 +31,7 @@ Return an integer denoting your final bank account balance after this purchase.
 The nearest multiple of 10 to 9 is 10. So your account balance becomes 100 - 10 = 90.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">purchaseAmount = 15
@@ -43,7 +43,7 @@ The nearest multiple of 10 to 9 is 10. So your account balance becomes 100 - 10 
 The nearest multiple of 10 to 15 is 20. So your account balance becomes 100 - 20 = 80.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">purchaseAmount = 10

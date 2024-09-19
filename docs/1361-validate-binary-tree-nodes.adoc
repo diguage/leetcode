@@ -10,7 +10,7 @@ If node `i` has no left child then `leftChild[i]` will equal `-1`, similarly for
 Note that the nodes have no values and that we only use the node numbers in this problem.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2019/08/23/1503_ex1.png" style="width: 195px; height: 287px;" />
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ Note that the nodes have no values and that we only use the node numbers in this
 *Output:* true
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2019/08/23/1503_ex2.png" style="width: 183px; height: 272px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Note that the nodes have no values and that we only use the node numbers in this
 *Output:* false
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2019/08/23/1503_ex3.png" style="width: 82px; height: 174px;" />
 [subs="verbatim,quotes"]
 ----

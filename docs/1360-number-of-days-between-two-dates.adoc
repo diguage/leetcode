@@ -8,11 +8,11 @@ Write a program to count the number of days between two dates.
 The two dates are given as strings, their format is `YYYY-MM-DD` as shown in the examples.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 [subs="verbatim,quotes"]
 ----*Input:* date1 = "2019-06-29", date2 = "2019-06-30"
 *Output:* 1
-----<strong class="example">Example 2:*
+----*Example 2:*
 [subs="verbatim,quotes"]
 ----*Input:* date1 = "2020-01-15", date2 = "2019-12-31"
 *Output:* 15

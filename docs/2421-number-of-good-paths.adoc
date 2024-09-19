@@ -19,7 +19,7 @@ Return _the number of distinct good paths_.
 Note that a path and its reverse are counted as the *same* path. For example, `0 -> 1` is considered to be the same as `1 -> 0`. A single node is also considered as a valid path.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/08/04/f9caaac15b383af9115c5586779dec5.png" style="width: 400px; height: 333px;" />
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ There is 1 additional good path: 1 -> 0 -> 2 -> 4.
 Note that 0 -> 2 -> 3 is not a good path because vals[2] > vals[0].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/08/04/149d3065ec165a71a1b9aec890776ff.png" style="width: 273px; height: 350px;" />
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ Note that 0 -> 2 -> 3 is not a good path because vals[2] > vals[0].
 There are 2 additional good paths: 0 -> 1 and 2 -> 3.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/08/04/31705e22af3d9c0a557459bc7d1b62d.png" style="width: 100px; height: 88px;" />
 [subs="verbatim,quotes"]
 ----

@@ -15,7 +15,7 @@ Return _the number of nice divisors of_ `n`. Since that number can be too large,
 Note that a prime number is a natural number greater than `1` that is not a product of two smaller natural numbers. The prime factors of a number `n` is a list of prime numbers such that their product equals `n`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ It has 5 prime factors: [2,2,2,5,5], and it has 6 nice divisors: [10,20,40,50,10
 There is not other value of n that has at most 5 prime factors and more nice divisors.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

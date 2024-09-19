@@ -17,7 +17,7 @@ Find the *minimum non-zero* product of `nums` after performing the above operati
 *Note:* The answer should be the minimum product *before* the modulo operation is done.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Find the *minimum non-zero* product of `nums` after performing the above operati
 There is only one element, so the product equals that element.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ Any swap would either make the product 0 or stay the same.
 Thus, the array product of 1 * 2 * 3 = 6 is already minimized.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

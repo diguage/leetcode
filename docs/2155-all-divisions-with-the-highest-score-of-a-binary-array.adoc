@@ -16,7 +16,7 @@ The *division score* of an index `i` is the *sum* of the number of `0`'s in `num
 Return _*all distinct indices* that have the *highest* possible *division score*_. You may return the answer in *any order*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Indices 2 and 4 both have the highest possible division score 3.
 Note the answer [4,2] would also be accepted.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -47,7 +47,7 @@ Only index 3 has the highest possible division score 3.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ Given a *0-indexed* string `word` and a character `ch`, *reverse* the segment of
 Return _the resulting string_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the resulting string_.
 Reverse the part of word from 0 to 3 (inclusive), the resulting string is "dcbaefd".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Reverse the part of word from 0 to 3 (inclusive), the resulting string is "dcbae
 Reverse the part of word from 0 to 3 (inclusive), the resulting string is "zxyxxe".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

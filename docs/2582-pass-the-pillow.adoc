@@ -11,7 +11,7 @@ There are `n` people standing in a line labeled from `1` to `n`. The first perso
 
 Given the two positive integers `n` and `time`, return _the index of the person holding the pillow after _`time`_ seconds_.
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Given the two positive integers `n` and `time`, return _the index of the person 
 After five seconds, the 2^nd^ person is holding the pillow.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

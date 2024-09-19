@@ -16,7 +16,7 @@ You are also given a 2D array `query`, where `query[i] = [s<sub>i</sub>, t<sub>i
 Return _the array _`answer`_, where _`answer[i]`_ denotes the *minimum* cost of a walk for query _`i`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 5, edges = [[0,1,7],[1,3,7],[1,2,1]], query = [[0,3],[3,4]]
@@ -29,7 +29,7 @@ To achieve the cost of 1 in the first query, we need to move on the following ed
 
 In the second query, there is no walk between nodes 3 and 4, so the answer is -1.
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 
 <div class="example-block">

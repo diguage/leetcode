@@ -17,7 +17,7 @@ After that, do the following partitioning operation until `s` is *empty*:
 Return an integer denoting the *maximum* number of resulting partitions after the operations by optimally choosing at most one index to change.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "accca", k = 2
@@ -39,7 +39,7 @@ Then we perform the operations:
 Doing the operations, the string is divided into 3 partitions, so the answer is 3.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "aabaab", k = 3
@@ -51,7 +51,7 @@ Doing the operations, the string is divided into 3 partitions, so the answer is 
 Initially `s` contains 2 distinct characters, so whichever character we change, it will contain at most 3 distinct characters, so the longest prefix with at most 3 distinct characters would always be all of it, therefore the answer is 1.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "xxyz", k = 1

@@ -16,7 +16,7 @@ You should return the array of nums such that the the array follows the given co
 Return _the modified array after rearranging the elements to satisfy the aforementioned conditions_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ The only possible way to rearrange them such that they satisfy all conditions is
 Other ways such as [1,-2,2,-5,3,-4], [3,1,2,-2,-5,-4], [-2,3,-5,1,-4,2] are incorrect because they do not satisfy one or more conditions.  
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

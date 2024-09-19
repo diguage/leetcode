@@ -16,7 +16,7 @@ Return `true`_ if it is possible to make _`sub`_ a substring of _`s`_ by replaci
 A *substring* is a contiguous non-empty sequence of characters within a string.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ A *substring* is a contiguous non-empty sequence of characters within a string.
 Now sub = "l3e7" is a substring of s, so we return true.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ Note that we cannot replace '0' with 'o'.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

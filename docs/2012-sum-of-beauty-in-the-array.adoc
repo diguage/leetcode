@@ -14,7 +14,7 @@ You are given a *0-indexed* integer array `nums`. For each index `i` (`1 <= i <=
 Return_ the *sum of beauty* of all _`nums[i]`_ where _`1 <= i <= nums.length - 2`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return_ the *sum of beauty* of all _`nums[i]`_ where _`1 <= i <= nums.length - 2
 - The beauty of nums[1] equals 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Return_ the *sum of beauty* of all _`nums[i]`_ where _`1 <= i <= nums.length - 2
 - The beauty of nums[2] equals 0.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

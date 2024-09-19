@@ -12,7 +12,7 @@ You can stop the wheel at any time, including *before* *serving* *all* *customer
 Return_ the minimum number of rotations you need to perform to maximize your profit._ If there is *no scenario* where the profit is positive, return `-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/09/wheeldiagram12.png" style="width: 700px; height: 225px;" />
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Return_ the minimum number of rotations you need to perform to maximize your pro
 The highest profit was $37 after rotating the wheel 3 times.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ The highest profit was $37 after rotating the wheel 3 times.
 The highest profit was $122 after rotating the wheel 7 times.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

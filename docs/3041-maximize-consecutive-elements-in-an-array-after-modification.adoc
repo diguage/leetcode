@@ -12,7 +12,7 @@ After that, you need to select *one or more* elements from the final array such 
 Return _the *maximum* number of elements that you can select_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ We select the elements [[.underline]#*3*#,[.underline]#*1*#,5,[.underline]#*2*#,
 It can be shown that we cannot select more than 3 consecutive elements.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -12,9 +12,9 @@ Your task is to find the *maximum number of cells* that you can visit in the mat
 Return _an integer denoting the maximum number of cells that can be visited._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
-<strong class="example"><img alt="" src="https://assets.leetcode.com/uploads/2023/04/23/diag1drawio.png" style="width: 200px; height: 176px;" />*
+*<img alt="" src="https://assets.leetcode.com/uploads/2023/04/23/diag1drawio.png" style="width: 200px; height: 176px;" />*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,9 +23,9 @@ Return _an integer denoting the maximum number of cells that can be visited._
 *Explanation:* The image shows how we can visit 2 cells starting from row 1, column 2. It can be shown that we cannot visit more than 2 cells no matter where we start from, so the answer is 2. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
-<strong class="example"><img alt="" src="https://assets.leetcode.com/uploads/2023/04/23/diag3drawio.png" style="width: 200px; height: 176px;" />*
+*<img alt="" src="https://assets.leetcode.com/uploads/2023/04/23/diag3drawio.png" style="width: 200px; height: 176px;" />*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,9 +34,9 @@ Return _an integer denoting the maximum number of cells that can be visited._
 *Explanation:* Since the cells must be strictly increasing, we can only visit one cell in this example. 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
-<strong class="example"><img alt="" src="https://assets.leetcode.com/uploads/2023/04/23/diag4drawio.png" style="width: 350px; height: 250px;" />*
+*<img alt="" src="https://assets.leetcode.com/uploads/2023/04/23/diag4drawio.png" style="width: 350px; height: 250px;" />*
 
 [subs="verbatim,quotes"]
 ----

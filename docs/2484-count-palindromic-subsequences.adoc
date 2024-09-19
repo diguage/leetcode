@@ -13,7 +13,7 @@ Given a string of digits `s`, return _the number of *palindromic subsequences* o
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ There are 6 possible subsequences of length 5: "10330","10331","10301","10301","
 Two of them (both equal to "10301") are palindromic.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Two of them (both equal to "10301") are palindromic.
 *Explanation:* All 21 subsequences are "00000", which is palindromic.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

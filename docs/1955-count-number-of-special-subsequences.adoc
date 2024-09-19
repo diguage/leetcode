@@ -15,7 +15,7 @@ Given an array `nums` (consisting of *only* integers `0`, `1`, and `2`), return_
 A *subsequence* of an array is a sequence that can be derived from the array by deleting some or no elements without changing the order of the remaining elements. Two subsequences are *different* if the *set of indices* chosen are different.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ A *subsequence* of an array is a sequence that can be derived from the array by 
 *Explanation:* The special subsequences are bolded [*[.underline]#0#*,*[.underline]#1#*,*[.underline]#2#*,2], [*[.underline]#0#*,*[.underline]#1#*,2,*[.underline]#2#*], and [*[.underline]#0#*,*[.underline]#1#*,*[.underline]#2#*,*[.underline]#2#*].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ A *subsequence* of an array is a sequence that can be derived from the array by 
 *Explanation:* There are no special subsequences in [2,2,0,0].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

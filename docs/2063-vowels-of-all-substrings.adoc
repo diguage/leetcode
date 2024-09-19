@@ -10,7 +10,7 @@ A *substring* is a contiguous (non-empty) sequence of characters within a string
 *Note:* Due to the large constraints, the answer may not fit in a signed 32-bit integer. Please be careful during the calculations.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ All possible substrings are: "a", "ab", "aba", "b", "ba", and "a".
 Hence, the total sum of vowels = 0 + 1 + 1 + 1 + 1 + 2 = 6. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ All possible substrings are: "a", "ab", "abc", "b", "bc", and "c".
 Hence, the total sum of vowels = 1 + 1 + 1 + 0 + 0 + 0 = 3.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

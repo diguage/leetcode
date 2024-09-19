@@ -14,7 +14,7 @@ You can start at *any* cell in the first column of the matrix, and traverse the 
 Return _the *maximum* number of *moves* that you can perform._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/04/11/yetgriddrawio-10.png" style="width: 201px; height: 201px;" />
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Return _the *maximum* number of *moves* that you can perform._
 It can be shown that it is the maximum number of moves that can be made.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

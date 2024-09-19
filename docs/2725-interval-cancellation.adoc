@@ -17,7 +17,7 @@ The function `fn` should be called with `args` immediately and then called again
  
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -46,7 +46,7 @@ Every 35ms, fn(4) is called. Until t=190ms, then it is cancelled.
 Cancelled at 190ms
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -75,7 +75,7 @@ Every 30ms, fn(2, 5) is called. Until t=165ms, then it is cancelled.
 Cancelled at 165ms
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

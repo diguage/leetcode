@@ -8,7 +8,7 @@ Given a square matrix `mat`, return the sum of the matrix diagonals.
 Only include the sum of all the elements on the primary diagonal and all the elements on the secondary diagonal that are not part of the primary diagonal.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/08/14/sample_1911.png" style="width: 336px; height: 174px;" />
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Only include the sum of all the elements on the primary diagonal and all the ele
 Notice that element mat[1][1] = 5 is counted only once.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Notice that element mat[1][1] = 5 is counted only once.
 *Output:* 8
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

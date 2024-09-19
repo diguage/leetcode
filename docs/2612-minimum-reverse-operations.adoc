@@ -12,7 +12,7 @@ You are given an integer `n` and an integer `p` representing an array `arr` of l
 Return an integer array `answer` with `n` results where the `i^th^` result is_ _the *minimum* number of operations needed to bring the single 1 to position `i` in `arr`, or -1 if it is impossible.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 4, p = 0, banned = [1,2], k = 4
@@ -29,7 +29,7 @@ Return an integer array `answer` with `n` results where the `i^th^` result is_ _
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 5, p = 0, banned = [2,4], k = 3
@@ -45,7 +45,7 @@ Return an integer array `answer` with `n` results where the `i^th^` result is_ _
 
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 4, p = 2, banned = [0,1,3], k = 1

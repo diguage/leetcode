@@ -12,7 +12,7 @@ Return _an array of size `n`_ where `ans[i]` is the number of nodes in the subtr
 A subtree of a tree `T` is the tree consisting of a node in `T` and all of its descendant nodes.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/07/01/q3e1.jpg" style="width: 400px; height: 291px;" />
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ A subtree of a tree `T` is the tree consisting of a node in `T` and all of its d
 Node 1 has a label 'b'. The sub-tree of node 1 contains nodes 1,4 and 5, as nodes 4 and 5 have different labels than node 1, the answer is just 1 (the node itself).
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/07/01/q3e2.jpg" style="width: 300px; height: 253px;" />
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ The sub-tree of node 1 contains nodes 1 and 2, both have label 'b', thus the ans
 The sub-tree of node 0 contains nodes 0, 1, 2 and 3, all with label 'b', thus the answer is 4.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/07/01/q3e3.jpg" style="width: 300px; height: 253px;" />
 [subs="verbatim,quotes"]
 ----

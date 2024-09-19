@@ -17,7 +17,7 @@ A *good* string is a string constructed by the above process having a *length* b
 Return _the number of *different* good strings that can be constructed satisfying these properties._ Since the answer can be large, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ It can be constructed as follows: "" -> "0" -> "01" -> "011".
 All binary strings from "000" to "111" are good strings in this example.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

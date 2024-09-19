@@ -14,7 +14,7 @@ Note that `^` denotes the *bitwise-xor* operation.
 It can be proven that the answer is *unique*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ It can be proven that the answer is *unique*.
 - pref[4] = 5 ^ 7 ^ 2 ^ 3 ^ 2 = 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

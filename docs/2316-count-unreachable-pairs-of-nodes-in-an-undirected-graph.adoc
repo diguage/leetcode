@@ -8,7 +8,7 @@ You are given an integer `n`. There is an *undirected* graph with `n` nodes, num
 Return _the *number of pairs* of different nodes that are *unreachable* from each other_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/05/05/tc-3.png" style="width: 267px; height: 169px;" />
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Return _the *number of pairs* of different nodes that are *unreachable* from eac
 *Explanation:* There are no pairs of nodes that are unreachable from each other. Therefore, we return 0.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/05/05/tc-2.png" style="width: 295px; height: 269px;" />
 [subs="verbatim,quotes"]
 ----

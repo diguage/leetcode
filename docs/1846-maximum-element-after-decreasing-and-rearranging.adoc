@@ -20,7 +20,7 @@ There are 2 types of operations that you can perform any number of times:
 Return _the *maximum* possible value of an element in _`arr`_ after performing the operations to satisfy the conditions_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ We can satisfy the conditions by rearranging `arr` so it becomes `[1,2,2,2,1]`.
 The largest element in `arr` is 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -46,7 +46,7 @@ Now `arr = [1,2,3]`, which` `satisfies the conditions.
 The largest element in `arr is 3.`
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

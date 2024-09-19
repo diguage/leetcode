@@ -10,7 +10,7 @@ Return _this *maximum* sum._
 Note that the start time and end time is *inclusive*: that is, you cannot attend two events where one of them starts and the other ends at the same time. More specifically, if you attend an event with end time `t`, the next event must start at or after `t + 1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/09/21/picture5.png" style="width: 400px; height: 75px;" />
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Note that the start time and end time is *inclusive*: that is, you cannot attend
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="Example 1 Diagram" src="https://assets.leetcode.com/uploads/2021/09/21/picture1.png" style="width: 400px; height: 77px;" />
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Note that the start time and end time is *inclusive*: that is, you cannot attend
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/09/21/picture3.png" style="width: 400px; height: 66px;" />
 [subs="verbatim,quotes"]
 ----

@@ -8,7 +8,7 @@ You are given a positive integer `num`. You may swap any two digits of `num` tha
 Return_ the *largest* possible value of _`num`_ after *any* number of swaps._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Note that there may be other sequences of swaps but it can be shown that 3412 is
 Also note that we may not swap the digit 4 with the digit 1 since they are of different parities.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

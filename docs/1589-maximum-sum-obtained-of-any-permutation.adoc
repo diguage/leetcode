@@ -10,7 +10,7 @@ Return _the maximum total sum of all requests *among all permutations* of_ `nums
 Since the answer may be too large, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Total sum: 11 + 8 = 19, which is the best that you can do.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ Total sum: 11 + 8 = 19, which is the best that you can do.
 *Explanation:* A permutation with the max total sum is [6,5,4,3,2,1] with request sums [11].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

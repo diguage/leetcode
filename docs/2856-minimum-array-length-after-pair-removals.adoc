@@ -15,7 +15,7 @@ You can perform the following operation any number of times:
 Return the *minimum* length of `nums` after applying the operation zero or more times.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,2,3,4]
@@ -27,7 +27,7 @@ Return the *minimum* length of `nums` after applying the operation zero or more 
 <img src="https://assets.leetcode.com/uploads/2024/05/18/tcase1.gif" style="width: 160px; height: 70px;" />
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,1,2,2,3,3]
@@ -39,7 +39,7 @@ Return the *minimum* length of `nums` after applying the operation zero or more 
 <img src="https://assets.leetcode.com/uploads/2024/05/19/tcase2.gif" style="width: 240px; height: 70px;" />
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1000000000,1000000000]
@@ -51,7 +51,7 @@ Return the *minimum* length of `nums` after applying the operation zero or more 
 Since both numbers are equal, they cannot be removed.
 
 
-<strong class="example">Example 4:*
+*Example 4:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [2,3,4,4,4]

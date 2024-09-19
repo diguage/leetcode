@@ -6,7 +6,7 @@
 Given an array of *digit* strings `nums` and a *digit* string `target`, return _the number of pairs of indices _`(i, j)`_ (where _`i != j`_) such that the *concatenation* of _`nums[i] + nums[j]`_ equals _`target`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Given an array of *digit* strings `nums` and a *digit* string `target`, return _
 - (3, 2): "77" + "77"
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Given an array of *digit* strings `nums` and a *digit* string `target`, return _
 - (2, 3): "12" + "34"
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

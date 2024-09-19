@@ -23,7 +23,7 @@ The value of `|x|` is defined as:
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ The value of `|x|` is defined as:
 - queries[3] = [0,3]: The subarray is [1,[.underline]#3#,[.underline]#4#,8] and the minimum absolute difference is |3-4| = 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

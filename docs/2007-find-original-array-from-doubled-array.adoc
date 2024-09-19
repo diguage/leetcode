@@ -8,7 +8,7 @@ An integer array `original` is transformed into a *doubled* array `changed` by a
 Given an array `changed`, return `original`_ if _`changed`_ is a *doubled* array. If _`changed`_ is not a *doubled* array, return an empty array. The elements in_ `original` _may be returned in *any* order_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Given an array `changed`, return `original`_ if _`changed`_ is a *doubled* array
 Other original arrays could be [4,3,1] or [3,1,4].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Other original arrays could be [4,3,1] or [3,1,4].
 *Explanation:* changed is not a doubled array.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

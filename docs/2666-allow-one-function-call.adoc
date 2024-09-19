@@ -11,7 +11,7 @@ Given a function `fn`, return a new function that is identical to the original f
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ onceFn(1, 2, 3); // 6
 onceFn(2, 3, 6); // undefined, fn was not called
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

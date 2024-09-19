@@ -10,7 +10,7 @@ You must remove `n / 2` elements from `nums1` and `n / 2` elements from `nums2`.
 Return _the *maximum* possible size of the set_ `s`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Return _the *maximum* possible size of the set_ `s`.
 It can be shown that 2 is the maximum possible size of the set s after the removals.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ It can be shown that 2 is the maximum possible size of the set s after the remov
 It can be shown that 5 is the maximum possible size of the set s after the removals.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

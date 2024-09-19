@@ -11,7 +11,7 @@ A <span data-keyword="subsequence-array">subsequence `sub` of `nums` with length
 
 Return the length of the *longest* *valid* subsequence of `nums`.
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,2,3,4,5], k = 2
@@ -23,7 +23,7 @@ Return the length of the *longest* *valid* subsequence of `nums`.
 The longest valid subsequence is `[1, 2, 3, 4, 5]`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,4,2,3,1,4], k = 3

@@ -10,7 +10,7 @@ However, the basketball team is not allowed to have *conflicts*. A *conflict* ex
 Given two lists, `scores` and `ages`, where each `scores[i]` and `ages[i]` represents the score and age of the `i^th^` player, respectively, return _the highest overall score of all possible basketball teams_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Given two lists, `scores` and `ages`, where each `scores[i]` and `ages[i]` repre
 *Explanation:* You can choose all the players.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Given two lists, `scores` and `ages`, where each `scores[i]` and `ages[i]` repre
 *Explanation:* It is best to choose the last 3 players. Notice that you are allowed to choose multiple people of the same age.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

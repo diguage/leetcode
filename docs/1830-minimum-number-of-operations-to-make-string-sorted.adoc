@@ -15,7 +15,7 @@ You are given a string `s` (*0-indexed*)​​​​​​. You are asked to per
 Return _the number of operations needed to make the string sorted._ Since the answer can be too large, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Operation 4: i=1, j=1. Swap s[0] and s[1] to get s="abc", then reverse the suffi
 Operation 5: i=2, j=2. Swap s[1] and s[2] to get s="abc", then reverse the suffix starting at 2. Now, s="abc".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

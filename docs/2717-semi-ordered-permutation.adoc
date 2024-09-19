@@ -16,7 +16,7 @@ Return _the minimum number of operations to make _`nums`_ a *semi-ordered permut
 A *permutation* is a sequence of integers from `1` to `n` of length `n` containing each number exactly once.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ A *permutation* is a sequence of integers from `1` to `n` of length `n` containi
 It can be proved that there is no sequence of less than two operations that make nums a semi-ordered permutation. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ It can be proved that there is no sequence of less than two operations that make
 It can be proved that there is no sequence of less than three operations that make nums a semi-ordered permutation.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

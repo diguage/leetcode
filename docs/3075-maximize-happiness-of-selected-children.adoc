@@ -12,7 +12,7 @@ In each turn, when you select a child, the *happiness value* of all the children
 Return _the *maximum* sum of the happiness values of the selected children you can achieve by selecting _`k` _children_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the *maximum* sum of the happiness values of the selected children you c
 The sum of the happiness values of the selected children is 3 + 1 = 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ The sum of the happiness values of the selected children is 3 + 1 = 4.
 The sum of the happiness values of the selected children is 1 + 0 = 1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

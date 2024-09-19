@@ -14,7 +14,7 @@ You can apply the following operation on any of the two strings *any* number of 
 Return `true`_ if you can make the strings _`s1`_ and _`s2`_ equal, and _`false`_ otherwise_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Return `true`_ if you can make the strings _`s1`_ and _`s2`_ equal, and _`false`
 - Choose the indices i = 1, j = 3. The resulting string is s1 = "cdab" = s2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

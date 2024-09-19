@@ -20,7 +20,7 @@ Return_ the number of *distinct* integers present on the board after_ `10^9^` _d
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ After that day, 3 will be added to the board because 4 % 3 == 1.
 At the end of a billion days, the distinct numbers on the board will be 2, 3, 4, and 5. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

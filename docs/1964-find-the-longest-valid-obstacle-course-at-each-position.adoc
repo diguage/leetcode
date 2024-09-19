@@ -17,7 +17,7 @@ For every index `i` between `0` and `n - 1` (*inclusive*), find the length of th
 Return _an array_ `ans` _of length_ `n`, _where_ `ans[i]` _is the length of the *longest obstacle course* for index_ `i`_ as described above_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _an array_ `ans` _of length_ `n`, _where_ `ans[i]` _is the length of the 
 - i = 3: [[.underline]#1#,[.underline]#2#,3,[.underline]#2#], [1,2,2] has length 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ Return _an array_ `ans` _of length_ `n`, _where_ `ans[i]` _is the length of the 
 - i = 2: [2,2,[.underline]#1#], [1] has length 1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

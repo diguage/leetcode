@@ -18,7 +18,7 @@ Return the _*minimum number of operations* you need to perform so that _`nums`_ 
 A *subsequence* is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ It can be shown that there is no shorter sequence of operations that results in 
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ At this stage, nums contains the subsequence [1,1,2,8] which sums up to 12.
 It can be shown that there is no shorter sequence of operations that results in a subsequence that sums up to 12.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

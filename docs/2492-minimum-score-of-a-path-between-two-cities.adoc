@@ -18,7 +18,7 @@ Return _the *minimum *possible score of a path between cities _`1`_ and _`n`.
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/10/12/graph11.png" style="width: 190px; height: 231px;" />
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _the *minimum *possible score of a path between cities _`1`_ and _`n`.
 It can be shown that no other path has less score.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/10/12/graph22.png" style="width: 190px; height: 231px;" />
 [subs="verbatim,quotes"]
 ----

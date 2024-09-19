@@ -13,7 +13,7 @@ The *punishment number* of `n` is defined as the sum of the squares of all integ
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ The *punishment number* of `n` is defined as the sum of the squares of all integ
 Hence, the punishment number of 10 is 1 + 81 + 100 = 182
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

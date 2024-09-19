@@ -14,7 +14,7 @@ While there is a `'*'`, do the following operation:
 Return the <span data-keyword="lexicographically-smaller-string">lexicographically smallest resulting string after removing all `'*'` characters.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "aaba*"
@@ -26,7 +26,7 @@ Return the <span data-keyword="lexicographically-smaller-string">lexicographical
 We should delete one of the `'a'` characters with `'*'`. If we choose `s[3]`, `s` becomes the lexicographically smallest.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "abc"

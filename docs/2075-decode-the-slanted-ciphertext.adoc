@@ -22,7 +22,7 @@ Given the encoded string `encodedText` and number of rows `rows`, return _the or
 *Note:* `originalText` *does not* have any trailing spaces `' '`. The test cases are generated such that there is only one possible `originalText`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Given the encoded string `encodedText` and number of rows `rows`, return _the or
 *Explanation:* This is the same example described in the problem description.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/10/26/exam1.png" style="width: 250px; height: 168px;" />
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ Given the encoded string `encodedText` and number of rows `rows`, return _the or
 The blue arrows show how we can find originalText from encodedText.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/10/26/eg2.png" style="width: 300px; height: 51px;" />
 [subs="verbatim,quotes"]
 ----

@@ -6,7 +6,7 @@
 Given an integer array `nums`, return _the number of elements that have *both* a strictly smaller and a strictly greater element appear in _`nums`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Element 11 has element 7 strictly smaller than it and element 15 strictly greate
 In total there are 2 elements having both a strictly smaller and a strictly greater element appear in `nums`.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

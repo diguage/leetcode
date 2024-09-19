@@ -13,7 +13,7 @@ You are given two strings `start` and `target`, both of length `n`. Each string 
 Return `true` _if it is possible to obtain the string_ `target`_ by moving the pieces of the string _`start`_ *any* number of times_. Otherwise, return `false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Since it is possible to get the string target from start, we return true.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ After that, no pieces can move anymore, so it is impossible to obtain the string
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

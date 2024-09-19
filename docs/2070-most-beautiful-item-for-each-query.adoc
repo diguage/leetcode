@@ -10,7 +10,7 @@ You are also given a *0-indexed* integer array `queries`. For each `queries[j]`,
 Return _an array _`answer`_ of the same length as _`queries`_ where _`answer[j]`_ is the answer to the _`j^th^`_ query_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _an array _`answer`_ of the same length as _`queries`_ where _`answer[j]`
   Hence, the answer for them is the maximum beauty of all items, i.e., 6.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ The price of every item is equal to 1, so we choose the item with the maximum be
 Note that multiple items can have the same price and/or beauty.  
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

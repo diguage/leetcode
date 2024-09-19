@@ -18,7 +18,7 @@ You may recall that an array `arr` is a *mountain array* if and only if:
 Given an integer array `nums`​​​, return _the *minimum* number of elements to remove to make _`nums_​​​_`_ __a *mountain array*._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Given an integer array `nums`​​​, return _the *minimum* number of elements
 *Explanation:* The array itself is a mountain array so we do not need to remove any elements.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

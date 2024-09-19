@@ -12,7 +12,7 @@ Find the *minimum* total cost of performing the given operation *any* number of 
 Return _the *minimum total cost* such that _`nums1` and `nums2`_ satisfy the above condition_. In case it is not possible, return `-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ We can see that for each index i, nums1[i] != nums2[i]. The cost required here i
 Note that there are other ways to swap values, but it can be proven that it is not possible to obtain a cost less than 10.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ One of the ways we can perform the operations is:
 The total cost needed here is 10, which is the minimum possible.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

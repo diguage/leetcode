@@ -14,7 +14,7 @@ The *twin sum *is defined as the sum of a node and its twin.
 Given the `head` of a linked list with even length, return _the *maximum twin sum* of the linked list_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/03/eg1drawio.png" style="width: 250px; height: 70px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ There are no other nodes with twins in the linked list.
 Thus, the maximum twin sum of the linked list is 6. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/03/eg2drawio.png" style="width: 250px; height: 70px;" />
 [subs="verbatim,quotes"]
 ----
@@ -39,7 +39,7 @@ The nodes with twins present in this linked list are:
 Thus, the maximum twin sum of the linked list is max(7, 4) = 7. 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/03/eg3drawio.png" style="width: 200px; height: 88px;" />
 [subs="verbatim,quotes"]
 ----

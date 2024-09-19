@@ -16,7 +16,7 @@ Return _the *maximum* _`XOR`_ value out of all possible strong pairs in the arra
 *Note* that you can pick the same integer twice to form a pair.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the *maximum* _`XOR`_ value out of all possible strong pairs in the arra
 The maximum XOR possible from these pairs is 3 XOR 4 = 7.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ The maximum XOR possible from these pairs is 3 XOR 4 = 7.
 The maximum XOR possible from these pairs is 10 XOR 10 = 0 since the pair (100, 100) also gives 100 XOR 100 = 0.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

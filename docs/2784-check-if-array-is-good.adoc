@@ -12,7 +12,7 @@ Return `true` _if the given array is good, otherwise return__ _`false`.
 *Note: *A permutation of integers represents an arrangement of these numbers.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return `true` _if the given array is good, otherwise return__ _`false`.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Return `true` _if the given array is good, otherwise return__ _`false`.
 *Explanation:* Since the maximum element of the array is 3, the only candidate n for which this array could be a permutation of base[n], is n = 3. It can be seen that nums is a permutation of base[3] = [1, 2, 3, 3] (by swapping the second and fourth elements in nums, we reach base[3]). Therefore, the answer is true.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ Return `true` _if the given array is good, otherwise return__ _`false`.
 *Explanation:* Since the maximum element of the array is 1, the only candidate n for which this array could be a permutation of base[n], is n = 1. It can be seen that nums is a permutation of base[1] = [1, 1]. Therefore, the answer is true.
 ----
 
-<strong class="example">Example 4:*
+*Example 4:*
 
 [subs="verbatim,quotes"]
 ----

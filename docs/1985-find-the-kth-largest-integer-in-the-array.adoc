@@ -10,7 +10,7 @@ Return _the string that represents the _`k^th^`_* largest integer* in _`nums`.
 *Note*: Duplicate numbers should be counted distinctly. For example, if `nums` is `["1","2","2"]`, `"2"` is the first largest integer, `"2"` is the second-largest integer, and `"1"` is the third-largest integer.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ The numbers in nums sorted in non-decreasing order are ["3","6","7","10"].
 The 4^th^ largest integer in nums is "3".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ The numbers in nums sorted in non-decreasing order are ["1","2","12","21"].
 The 3^rd^ largest integer in nums is "2".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

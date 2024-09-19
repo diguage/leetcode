@@ -22,7 +22,7 @@ You are given a string `s` and two integers `x` and `y`. You can perform two typ
 Return _the maximum points you can gain after applying the above operations on_ `s`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ Return _the maximum points you can gain after applying the above operations on_ 
 Total score = 5 + 4 + 5 + 5 = 19.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

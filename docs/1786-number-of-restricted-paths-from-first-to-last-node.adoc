@@ -12,7 +12,7 @@ The distance of a path is the sum of the weights on the edges of the path. Let `
 Return _the number of restricted paths from node_ `1` _to node_ `n`. Since that number may be too large, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/02/17/restricted_paths_ex1.png" style="width: 351px; height: 341px;" />
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the number of restricted paths from node_ `1` _to node_ `n`. Since that 
 3) 1 --> 3 --> 5
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/02/17/restricted_paths_ex22.png" style="width: 356px; height: 401px;" />
 [subs="verbatim,quotes"]
 ----

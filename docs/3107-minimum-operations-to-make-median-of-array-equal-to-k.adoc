@@ -10,7 +10,7 @@ Return the *minimum* number of operations needed to make the *median* of `nums` 
 The median of an array is defined as the middle element of the array when it is sorted in non-decreasing order. If there are two choices for a median, the larger of the two values is taken.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [2,5,6,8,5], k = 4
@@ -22,7 +22,7 @@ The median of an array is defined as the middle element of the array when it is 
 We can subtract one from `nums[1]` and `nums[4]` to obtain `[2, 4, 6, 8, 4]`. The median of the resulting array is equal to `k`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [2,5,6,8,5], k = 7
@@ -34,7 +34,7 @@ We can subtract one from `nums[1]` and `nums[4]` to obtain `[2, 4, 6, 8, 4]`. Th
 We can add one to `nums[1]` twice and add one to `nums[2]` once to obtain `[2, 7, 7, 8, 5]`.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,2,3,4,5,6], k = 4

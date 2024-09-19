@@ -15,7 +15,7 @@ Return_ the length of the *longest square streak* in _`nums`_, or return _`-1`_ 
 A *subsequence* is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Therefore, [4,16,2] is a square streak.
 It can be shown that every subsequence of length 4 is not a square streak.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

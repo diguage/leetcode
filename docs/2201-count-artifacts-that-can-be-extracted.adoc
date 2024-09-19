@@ -23,7 +23,7 @@ The test cases are generated such that:
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2019/09/16/untitled-diagram.jpg" style="width: 216px; height: 216px;" />
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ The blue artifact has one part in cell (1,1) which remains uncovered, so we cann
 Thus, we return 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2019/09/16/untitled-diagram-1.jpg" style="width: 216px; height: 216px;" />
 [subs="verbatim,quotes"]
 ----

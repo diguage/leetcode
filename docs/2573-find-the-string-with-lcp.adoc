@@ -14,7 +14,7 @@ Given an `n x n` matrix `lcp`, return the alphabetically smallest string `word` 
 A string `a` is lexicographically smaller than a string `b` (of the same length) if in the first position where `a` and `b` differ, string `a` has a letter that appears earlier in the alphabet than the corresponding letter in `b`. For example, `"aabd"` is lexicographically smaller than `"aaca"` because the first position they differ is at the third letter, and `'b'` comes before `'c'`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ A string `a` is lexicographically smaller than a string `b` (of the same length)
 *Explanation:* lcp corresponds to any 4 letter string with two alternating letters. The lexicographically smallest of them is "abab".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ A string `a` is lexicographically smaller than a string `b` (of the same length)
 *Explanation:* lcp corresponds to any 4 letter string with a single distinct letter. The lexicographically smallest of them is "aaaa". 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

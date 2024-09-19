@@ -17,7 +17,7 @@ You can delete any number of elements from `nums`. When you delete an element, a
 Return _the *minimum* number of elements to delete from _`nums`_ to make it __beautiful._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the *minimum* number of elements to delete from _`nums`_ to make it __be
 *Explanation:* You can delete either `nums[0]` or `nums[1]` to make `nums` = [1,2,3,5] which is beautiful. It can be proven you need at least 1 deletion to make `nums` beautiful.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

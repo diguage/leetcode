@@ -17,7 +17,7 @@ Laser beams are independent, i.e., one beam does not interfere nor join with ano
 Return _the total number of laser beams in the bank_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/24/laser1.jpg" style="width: 400px; height: 368px;" />
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ Note that there is no beam between any device on the 0^th^ row with any on the 3
 This is because the 2^nd^ row contains security devices, which breaks the second condition.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/24/laser2.jpg" style="width: 244px; height: 325px;" />
 [subs="verbatim,quotes"]
 ----

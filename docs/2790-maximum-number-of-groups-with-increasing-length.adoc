@@ -15,7 +15,7 @@ Your task is to create *groups* using numbers from `0` to `n - 1`, ensuring that
 Return _an integer denoting the *maximum* number of groups you can create while satisfying these conditions._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Group 3 contains the numbers [0,1,2].
 It can be shown that the maximum number of groups is 3. 
 So, the output is 3. ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -43,7 +43,7 @@ It can be shown that the maximum number of groups is 2.
 So, the output is 2. 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

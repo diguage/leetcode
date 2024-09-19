@@ -16,7 +16,7 @@ We call a partition of the array *valid* if each of the obtained subarrays satis
 Return `true`_ if the array has *at least* one valid partition_. Otherwise, return `false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return `true`_ if the array has *at least* one valid partition_. Otherwise, retu
 This partition is valid, so we return true.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

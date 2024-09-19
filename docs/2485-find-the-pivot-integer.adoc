@@ -12,7 +12,7 @@ Given a positive integer `n`, find the *pivot integer* `x` such that:
 Return _the pivot integer _`x`. If no such integer exists, return `-1`. It is guaranteed that there will be at most one pivot index for the given input.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Return _the pivot integer _`x`. If no such integer exists, return `-1`. It is gu
 *Explanation:* 6 is the pivot integer since: 1 + 2 + 3 + 4 + 5 + 6 = 6 + 7 + 8 = 21.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _the pivot integer _`x`. If no such integer exists, return `-1`. It is gu
 *Explanation:* 1 is the pivot integer since: 1 = 1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

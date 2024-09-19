@@ -11,7 +11,7 @@ Given two arrays of integers `nums1` and `nums2`, return the number of triplets 
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Given two arrays of integers `nums1` and `nums2`, return the number of triplets 
 *Explanation:* Type 1: (1, 1, 2), nums1[1]^2^ = nums2[1] * nums2[2]. (4^2^ = 2 * 8). 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Type 1: (0,0,1), (0,0,2), (0,1,2), (1,0,1), (1,0,2), (1,1,2).  nums1[i]^2^ = num
 Type 2: (0,0,1), (1,0,1), (2,0,1). nums2[i]^2^ = nums1[j] * nums1[k].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

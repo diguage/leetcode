@@ -14,7 +14,7 @@ Return _an array of size_ `n-1` _where the _`d^th^`_ __element *(1-indexed)* is 
 *Notice* that the *distance* between the two cities is the number of edges in the path between them.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2020/09/21/p1.png" style="width: 161px; height: 181px;" />*
 
@@ -28,7 +28,7 @@ The subtrees with subsets {1,2,3}, {1,2,4}, {2,3,4} and {1,2,3,4} have a max dis
 No subtree has two nodes where the max distance between them is 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ No subtree has two nodes where the max distance between them is 3.
 *Output:* [1]
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

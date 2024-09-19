@@ -8,7 +8,7 @@ Given an integer array `nums`, return _the number of *subarrays* filled with _`0
 A *subarray* is a contiguous non-empty sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ There are 2 occurrences of [0,0] as a subarray.
 There is no occurrence of a subarray with a size more than 2 filled with 0. Therefore, we return 6.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ There is no occurrence of a subarray with a size more than 3 filled with 0. Ther
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

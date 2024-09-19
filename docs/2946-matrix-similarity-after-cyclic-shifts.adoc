@@ -22,7 +22,7 @@ The following proccess happens `k` times:
 Return `true` if the final modified matrix after `k` steps is identical to the original matrix, and `false` otherwise.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">mat = [[1,2,3],[4,5,6],[7,8,9]], k = 4
@@ -36,7 +36,7 @@ In each step left shift is applied to rows 0 and 2 (even indices), and right shi
 <img src="https://assets.leetcode.com/uploads/2024/05/19/t1-2.jpg" style="width: 857px; height: 150px;" />
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">mat = [[1,2,1,2],[5,5,5,5],[6,3,6,3]], k = 2
@@ -48,7 +48,7 @@ In each step left shift is applied to rows 0 and 2 (even indices), and right shi
 <img src="https://assets.leetcode.com/uploads/2024/05/19/t1-3.jpg" style="width: 632px; height: 150px;" />
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">mat = [[2,2],[2,2]], k = 3

@@ -12,7 +12,7 @@ Return _the *minimum* number of operations needed to make _`target`_ a *subseque
 A *subsequence* of an array is a new array generated from the original array by deleting some elements (possibly none) without changing the remaining elements' relative order. For example, `[2,7,4]` is a subsequence of `[4,[.underline]#2#,3,[.underline]#7#,2,1,[.underline]#4#]` (the underlined elements), while `[2,4,2]` is not.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ A *subsequence* of an array is a new array generated from the original array by 
 *Explanation:* You can add 5 and 1 in such a way that makes `arr` = [[.underline]#5#,9,4,[.underline]#1#,2,3,4], then target will be a subsequence of `arr`.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

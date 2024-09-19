@@ -5,7 +5,7 @@
 
 Given two *sorted 0-indexed* integer arrays `nums1` and `nums2` as well as an integer `k`, return _the _`k^th^`_ (*1-based*) smallest product of _`nums1[i] * nums2[j]`_ where _`0 <= i < nums1.length`_ and _`0 <= j < nums2.length`.
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Given two *sorted 0-indexed* integer arrays `nums1` and `nums2` as well as an in
 The 2^nd^ smallest product is 8.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ The 2^nd^ smallest product is 8.
 The 6^th^ smallest product is 0.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

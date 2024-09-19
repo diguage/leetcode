@@ -10,7 +10,7 @@ Bob knows the positions of the `n` darts on the wall. He wants to place a dartbo
 Given the integer `r`, return _the maximum number of darts that can lie on the dartboard_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/04/29/sample_1_1806.png" style="width: 248px; height: 211px;" />
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Given the integer `r`, return _the maximum number of darts that can lie on the d
 *Explanation:* Circle dartboard with center in (0,0) and radius = 2 contain all points.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/04/29/sample_2_1806.png" style="width: 306px; height: 244px;" />
 [subs="verbatim,quotes"]
 ----

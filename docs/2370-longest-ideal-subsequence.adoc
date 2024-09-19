@@ -17,7 +17,7 @@ A *subsequence* is a string that can be derived from another string by deleting 
 *Note* that the alphabet order is not cyclic. For example, the absolute difference in the alphabet order of `'a'` and `'z'` is `25`, not `1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ A *subsequence* is a string that can be derived from another string by deleting 
 Note that "acfgbd" is not ideal because 'c' and 'f' have a difference of 3 in alphabet order.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

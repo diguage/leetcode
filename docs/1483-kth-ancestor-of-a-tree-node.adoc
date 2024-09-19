@@ -15,7 +15,7 @@ Implement the `TreeAncestor` class:
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2019/08/28/1528_ex1.png" style="width: 396px; height: 262px;" />
 [subs="verbatim,quotes"]
 ----

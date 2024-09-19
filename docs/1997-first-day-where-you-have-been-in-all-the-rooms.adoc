@@ -16,7 +16,7 @@ Initially on day `0`, you visit room `0`. The *order* you visit the rooms for th
 Return _the label of the *first* day where you have been in *all* the rooms_. It can be shown that such a day exists. Since the answer may be very large, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _the label of the *first* day where you have been in *all* the rooms_. It
 - On day 2, you visit room 1. This is the first day where you have been in all the rooms.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ Your room visiting order for each day is: [0,0,1,0,0,1,2,...].
 Day 6 is the first day where you have been in all the rooms.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

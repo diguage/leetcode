@@ -19,7 +19,7 @@ Return _an array _`answers`_ such that _`answers.length == queries.length`_ and 
 Note that there can be *multiple edges* between the same two nodes.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/06/08/winword_2021-06-08_00-58-39.png" style="width: 529px; height: 305px;" />
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ The answers for each of the queries are as follows:
 - answers[1] = 5. All the pairs except (3, 4) have an incident(a, b) value greater than 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

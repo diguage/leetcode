@@ -12,7 +12,7 @@ Return _a string representing the maximum odd binary number that can be created 
 *Note *that the resulting string *can* have leading zeros.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Return _a string representing the maximum odd binary number that can be created 
 *Explanation:* Because there is just one '1', it must be in the last position. So the answer is "001".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

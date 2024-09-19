@@ -14,7 +14,7 @@ Return _the *minimum* number of operations needed to make_ `nums` _*strictly* *i
 An array `nums` is *strictly increasing* if `nums[i] < nums[i+1]` for all `0 <= i < nums.length - 1`. An array of length `1` is trivially strictly increasing.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ An array `nums` is *strictly increasing* if `nums[i] < nums[i+1]` for all `0 <= 
 3) Increment nums[2], so nums becomes [1,2,[.underline]#*3*#].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ An array `nums` is *strictly increasing* if `nums[i] < nums[i+1]` for all `0 <= 
 *Output:* 14
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

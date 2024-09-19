@@ -12,7 +12,7 @@ You are given a *positive* integer `num` consisting of exactly four digits. Spli
 Return _the *minimum* possible sum of _`new1`_ and _`new2`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the *minimum* possible sum of _`new1`_ and _`new2`.
 The minimum sum can be obtained by the pair [29, 23]: 29 + 23 = 52.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

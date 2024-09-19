@@ -14,7 +14,7 @@ Note that a node can only be a local maxima/minima if there exists *both* a prev
 Given a linked list `head`, return _an array of length 2 containing _`[minDistance, maxDistance]`_ where _`minDistance`_ is the *minimum distance* between *any two distinct* critical points and _`maxDistance`_ is the *maximum distance* between *any two distinct* critical points. If there are *fewer* than two critical points, return _`[-1, -1]`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/10/13/a1.png" style="width: 148px; height: 55px;" />
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Given a linked list `head`, return _an array of length 2 containing _`[minDistan
 *Explanation:* There are no critical points in [3,1].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/10/13/a2.png" style="width: 624px; height: 46px;" />
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ The minimum distance is between the fifth and the sixth node. minDistance = 6 - 
 The maximum distance is between the third and the sixth node. maxDistance = 6 - 3 = 3.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/10/14/a5.png" style="width: 624px; height: 39px;" />
 [subs="verbatim,quotes"]
 ----

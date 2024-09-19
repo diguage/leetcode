@@ -6,7 +6,7 @@
 Given an array of integers `nums` and an integer `limit`, return the size of the longest *non-empty* subarray such that the absolute difference between any two elements of this subarray is less than or equal to `limit`_._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Given an array of integers `nums` and an integer `limit`, return the size of the
 Therefore, the size of the longest subarray is 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Therefore, the size of the longest subarray is 2.
 *Explanation:* The subarray [2,4,7,2] is the longest since the maximum absolute diff is |2-7| = 5 <= 5.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

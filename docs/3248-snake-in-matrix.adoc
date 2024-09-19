@@ -12,7 +12,7 @@ You are given an integer `n` representing the size of the `grid` and an array of
 Return the position of the final cell where the snake ends up after executing `commands`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 2, commands = ["RIGHT","DOWN"]
@@ -63,7 +63,7 @@ Return the position of the final cell where the snake ends up after executing `c
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 3, commands = ["DOWN","RIGHT","UP"]

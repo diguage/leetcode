@@ -22,7 +22,7 @@ Return_ the *minimum number of side jumps* the frog needs to reach *any lane* at
 *Note:* There will be no obstacles on points `0` and `n`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/03/25/ic234-q3-ex1.png" style="width: 500px; height: 244px;" />
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Return_ the *minimum number of side jumps* the frog needs to reach *any lane* at
 Note that the frog can jump over obstacles only when making side jumps (as shown at point 2).
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/03/25/ic234-q3-ex2.png" style="width: 500px; height: 196px;" />
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ Note that the frog can jump over obstacles only when making side jumps (as shown
 *Explanation:* There are no obstacles on lane 2. No side jumps are required.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/03/25/ic234-q3-ex3.png" style="width: 500px; height: 196px;" />
 [subs="verbatim,quotes"]
 ----

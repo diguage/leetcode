@@ -6,7 +6,7 @@
 Given an array `nums` and an integer `target`, return _the maximum number of *non-empty* *non-overlapping* subarrays such that the sum of values in each subarray is equal to_ `target`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -15,7 +15,7 @@ Given an array `nums` and an integer `target`, return _the maximum number of *no
 *Explanation:* There are 2 non-overlapping subarrays [*1,1*,1,*1,1*] with sum equals to target(2).
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -17,7 +17,7 @@ Two servers `a` and `b` are *connectable* through a server `c` if:
 Return _an integer array_ `count` _of length_ `n` _where_ `count[i]` _is the *number* of server pairs that are *connectable* through_ _the server_ `i`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2024/01/21/example22.png" style="width: 438px; height: 243px; padding: 10px; background: #fff; border-radius: .5rem;" />
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Return _an integer array_ `count` _of length_ `n` _where_ `count[i]` _is the *nu
 In the case of the given path graph, count[c] is equal to the number of servers to the left of c multiplied by the servers to the right of c.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2024/01/21/example11.png" style="width: 495px; height: 484px; padding: 10px; background: #fff; border-radius: .5rem;" />
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ A *good triplet* is a set of `3` *distinct* values which are present in *increas
 Return _the *total number* of good triplets_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ There are 4 triplets (x,y,z) such that pos1<sub>x</sub> < pos1<sub>y</sub> < pos
 Out of those triplets, only the triplet (0,1,3) satisfies pos2<sub>x</sub> < pos2<sub>y</sub> < pos2<sub>z</sub>. Hence, there is only 1 good triplet.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -14,7 +14,7 @@ Given integers `n`, `k`, `budget`, a *1-indexed* 2D array `composition`, and *1-
 Return _the maximum number of alloys that the company can create_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Notice that we have 0 units of metal of each type and we have to buy all the req
 It can be proven that we can create at most 2 alloys.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -45,7 +45,7 @@ In total, we need 5 * 1 + 5 * 2 + 0 * 3 = 15 coins, which is smaller than or equ
 It can be proven that we can create at most 5 alloys.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ Return _a list_ `answer`_, where _`answer[i]`_ is the *list of ancestors* of the
 A node `u` is an *ancestor* of another node `v` if `u` can reach `v` via a set of edges.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2019/12/12/e1.png" style="width: 322px; height: 265px;" />
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ The above diagram represents the input graph.
 - Node 7 has four ancestors 0, 1, 2, and 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2019/12/12/e2.png" style="width: 343px; height: 299px;" />
 [subs="verbatim,quotes"]
 ----

@@ -15,7 +15,7 @@ You are also given an integer `k`. You can choose to change the value of *one* e
 Return _the *maximum* possible number of ways to *partition* _`nums`_ to satisfy both conditions after changing *at most* one element_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ There is one way to partition the array:
 - For pivot = 2, we have the partition [3,-1 | 2]: 3 + -1 == 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ There are two ways to partition the array:
 - For pivot = 2, we have the partition [0,0 | 0]: 0 + 0 == 0.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

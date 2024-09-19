@@ -17,7 +17,7 @@ In one *step*, you can move from point `(x, y)` to any one of the following poin
 Given two integers `targetX` and `targetY` representing the X-coordinate and Y-coordinate of your final position, return `true` _if you can reach the point from_ `(1, 1)` _using some number of steps, and _`false`_ otherwise_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Given two integers `targetX` and `targetY` representing the X-coordinate and Y-c
 *Explanation:* It is impossible to reach (6,9) from (1,1) using any sequence of moves, so false is returned.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

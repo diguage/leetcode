@@ -16,7 +16,7 @@ You then do the following steps:
 Return _the *final* value of _`original`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Return _the *final* value of _`original`.
 - 24 is not found in nums. Thus, 24 is returned.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

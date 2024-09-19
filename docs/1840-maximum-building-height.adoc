@@ -20,7 +20,7 @@ It is guaranteed that each building will appear *at most once* in `restrictions`
 Return _the *maximum possible height* of the *tallest* building_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/ic236-q4-ex1-1.png" style="width: 400px; height: 253px;" />
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _the *maximum possible height* of the *tallest* building_.
 We can build the buildings with heights [0,1,2,1,2], and the tallest building has a height of 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/ic236-q4-ex2.png" style="width: 500px; height: 269px;" />
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ We can build the buildings with heights [0,1,2,3,4,5], and the tallest building 
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/ic236-q4-ex3.png" style="width: 500px; height: 187px;" />
 [subs="verbatim,quotes"]
 ----

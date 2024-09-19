@@ -12,7 +12,7 @@ Return _the* minimum* number of coins *of any value* that need to be added to th
 A *subsequence* of an array is a new *non-empty* array that is formed from the original array by deleting some (*possibly none*) of the elements without disturbing the relative positions of the remaining elements.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ A *subsequence* of an array is a new *non-empty* array that is formed from the o
 It can be shown that all integers from 1 to 19 are obtainable from the resulting array, and that 2 is the minimum number of coins that need to be added to the array. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ It can be shown that all integers from 1 to 19 are obtainable from the resulting
 It can be shown that all integers from 1 to 19 are obtainable from the resulting array, and that 1 is the minimum number of coins that need to be added to the array. 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

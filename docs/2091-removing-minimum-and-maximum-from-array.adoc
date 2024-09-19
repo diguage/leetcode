@@ -12,7 +12,7 @@ A *deletion* is defined as either removing an element from the *front* of the ar
 Return _the *minimum* number of deletions it would take to remove *both* the minimum and maximum element from the array._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ We can remove both the minimum and maximum by removing 2 elements from the front
 This results in 2 + 3 = 5 deletions, which is the minimum number possible.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ We can remove both the minimum and maximum by removing 3 elements from the front
 This results in only 3 deletions, which is the minimum number possible.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

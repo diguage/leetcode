@@ -8,7 +8,7 @@ Given an integer array `nums`, return* *_the *greatest common divisor* of the sm
 The *greatest common divisor* of two numbers is the largest positive integer that evenly divides both numbers.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ The largest number in nums is 10.
 The greatest common divisor of 2 and 10 is 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ The largest number in nums is 8.
 The greatest common divisor of 3 and 8 is 1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

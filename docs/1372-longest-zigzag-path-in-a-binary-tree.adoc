@@ -19,7 +19,7 @@ Zigzag length is defined as the number of nodes visited - 1. (A single node has 
 Return _the longest *ZigZag* path contained in that tree_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/01/22/sample_1_1702.png" style="width: 221px; height: 383px;" />
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _the longest *ZigZag* path contained in that tree_.
 *Explanation:* Longest ZigZag path in blue nodes (right -> left -> right).
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/01/22/sample_2_1702.png" style="width: 157px; height: 329px;" />
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ Return _the longest *ZigZag* path contained in that tree_.
 *Explanation:* Longest ZigZag path in blue nodes (left -> right -> left -> right).
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

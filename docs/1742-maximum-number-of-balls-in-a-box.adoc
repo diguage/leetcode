@@ -10,7 +10,7 @@ Your job at this factory is to put each ball in the box with a number equal to t
 Given two integers `lowLimit` and `highLimit`, return_ the number of balls in the box with the most balls._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Ball Count:  2 1 1 1 1 1 1 1 1 0  0  ...
 Box 1 has the most number of balls with 2 balls.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Boxes 5 and 6 have the most number of balls with 2 balls in each.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

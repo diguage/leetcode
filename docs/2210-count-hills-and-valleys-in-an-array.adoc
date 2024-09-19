@@ -10,7 +10,7 @@ Note that for an index to be part of a hill or valley, it must have a non-equal 
 Return _the number of hills and valleys in _`nums`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ At index 5: There is no non-equal neighbor of 5 on the right, so index 5 is neit
 There are 3 hills and valleys so we return 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ You want to reach the last index of the array (index `n - 1`). Your *score* is t
 Return _the *maximum score* you can get_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Return _the *maximum score* you can get_.
 *Explanation:* You can choose your jumps forming the subsequence [1,-1,4,3] (underlined above). The sum is 7.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _the *maximum score* you can get_.
 *Explanation:* You can choose your jumps forming the subsequence [10,4,3] (underlined above). The sum is 17.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

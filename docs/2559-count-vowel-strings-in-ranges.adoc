@@ -12,7 +12,7 @@ Return _an array _`ans`_ of size _`queries.length`_, where _`ans[i]`_ is the ans
 *Note* that the vowel letters are `'a'`, `'e'`, `'i'`, `'o'`, and `'u'`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ We return [2,3,0].
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

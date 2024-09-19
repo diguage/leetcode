@@ -13,7 +13,7 @@ The *time limited* function should follow these rules:
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ The provided function is set to resolve after 100ms. However, the time limit is 
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -58,7 +58,7 @@ The function resolved 5 * 5 = 25 at t=100ms. The time limit is never reached.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----
@@ -75,7 +75,7 @@ t = 150
 
 ----
 
-<strong class="example">Example 4:*
+*Example 4:*
 
 [subs="verbatim,quotes"]
 ----

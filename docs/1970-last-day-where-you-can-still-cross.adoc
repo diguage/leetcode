@@ -12,7 +12,7 @@ You want to find the *last* day that it is possible to walk from the *top* to th
 Return _the *last* day where it is possible to walk from the *top* to the *bottom* by only walking on land cells_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/07/27/1.png" style="width: 624px; height: 162px;" />
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the *last* day where it is possible to walk from the *top* to the *botto
 The last day where it is possible to cross from top to bottom is on day 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/07/27/2.png" style="width: 504px; height: 178px;" />
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ The last day where it is possible to cross from top to bottom is on day 2.
 The last day where it is possible to cross from top to bottom is on day 1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/07/27/3.png" style="width: 666px; height: 167px;" />
 [subs="verbatim,quotes"]
 ----

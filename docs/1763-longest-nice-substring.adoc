@@ -8,7 +8,7 @@ A string `s` is *nice* if, for every letter of the alphabet that `s` contains, i
 Given a string `s`, return _the longest *substring* of `s` that is *nice*. If there are multiple, return the substring of the *earliest* occurrence. If there are none, return an empty string_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ Given a string `s`, return _the longest *substring* of `s` that is *nice*. If th
 "aAa" is the longest nice substring.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Given a string `s`, return _the longest *substring* of `s` that is *nice*. If th
 *Explanation:* "Bb" is a nice string because both 'B' and 'b' appear. The whole string is a substring.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

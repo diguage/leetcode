@@ -5,7 +5,7 @@
 
 Given a *0-indexed* integer array `nums` of length `n` and an integer `target`, return _the number of pairs_ `(i, j)` _where_ `0 <= i < j < n` _and_ `nums[i] + nums[j] < target`.
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ Given a *0-indexed* integer array `nums` of length `n` and an integer `target`, 
 Note that (0, 3) is not counted since nums[0] + nums[3] is not strictly less than the target.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

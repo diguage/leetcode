@@ -8,7 +8,7 @@ Given two numbers, `hour` and `minutes`, return _the smaller angle (in degrees) 
 Answers within `10^-5^` of the actual value will be accepted as correct.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2019/12/26/sample_1_1673.png" style="width: 300px; height: 296px;" />
 [subs="verbatim,quotes"]
 ----
@@ -16,7 +16,7 @@ Answers within `10^-5^` of the actual value will be accepted as correct.
 *Output:* 165
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2019/12/26/sample_2_1673.png" style="width: 300px; height: 301px;" />
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Answers within `10^-5^` of the actual value will be accepted as correct.
 *Output:* 75
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2019/12/26/sample_3_1673.png" style="width: 300px; height: 301px;" />
 [subs="verbatim,quotes"]
 ----

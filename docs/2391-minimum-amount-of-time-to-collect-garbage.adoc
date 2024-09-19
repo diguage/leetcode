@@ -14,7 +14,7 @@ Only *one* garbage truck may be used at any given moment. While one truck is dri
 Return_ the *minimum* number of minutes needed to pick up all the garbage._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -39,7 +39,7 @@ Since there is no metal garbage, we do not need to consider the metal garbage tr
 Therefore, it takes a total of 8 + 13 = 21 minutes to collect all the garbage.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

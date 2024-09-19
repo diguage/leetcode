@@ -15,7 +15,7 @@ Two baskets are considered equal if sorting them according to the fruit cost mak
 Return _the minimum cost to make both the baskets equal or _`-1`_ if impossible._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the minimum cost to make both the baskets equal or _`-1`_ if impossible.
 *Explanation:* Swap index 1 of basket1 with index 0 of basket2, which has cost 1. Now basket1 = [4,1,2,2] and basket2 = [2,4,1,2]. Rearranging both the arrays makes them equal.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

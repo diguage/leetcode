@@ -14,7 +14,7 @@ Each spell can be cast *only once*.
 Return the *maximum* possible _total damage_ that a magician can cast.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">power = [1,1,3,4]
@@ -26,7 +26,7 @@ Return the *maximum* possible _total damage_ that a magician can cast.
 The maximum possible damage of 6 is produced by casting spells 0, 1, 3 with damage 1, 1, 4.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">power = [7,1,6,6]

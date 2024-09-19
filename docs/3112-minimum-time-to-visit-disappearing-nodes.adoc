@@ -12,7 +12,7 @@ Additionally, you are given an array `disappear`, where `disappear[i]` denotes t
 Return the array `answer`, with `answer[i]` denoting the *minimum* units of time required to reach node `i` from node 0. If node `i` is *unreachable* from node 0 then `answer[i]` is `-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img 10px="" alt="" padding:="" src="https://assets.leetcode.com/uploads/2024/03/09/example1.png" style="width: 350px; height: 210px;" />
 
@@ -32,7 +32,7 @@ We are starting our journey from node 0, and our goal is to find the minimum tim
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <img 10px="" alt="" padding:="" src="https://assets.leetcode.com/uploads/2024/03/09/example2.png" style="width: 350px; height: 210px;" />
 
@@ -52,7 +52,7 @@ We are starting our journey from node 0, and our goal is to find the minimum tim
 
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 2, edges = [[0,1,1]], disappear = [1,1]

@@ -10,7 +10,7 @@ In one operation, you can remove the last element of the array and add it to you
 Return _the *minimum number of operations* needed to collect elements_ `1, 2, ..., k`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return _the *minimum number of operations* needed to collect elements_ `1, 2, ..
 *Explanation:* After 4 operations, we collect elements 2, 4, 5, and 1, in this order. Our collection contains elements 1 and 2. Hence, the answer is 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _the *minimum number of operations* needed to collect elements_ `1, 2, ..
 *Explanation:* After 5 operations, we collect elements 2, 4, 5, 1, and 3, in this order. Our collection contains elements 1 through 5. Hence, the answer is 5.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

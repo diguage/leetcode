@@ -8,7 +8,7 @@ You are given an integer `total` indicating the amount of money you have. You ar
 Return _the *number of distinct ways* you can buy some number of pens and pencils._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Return _the *number of distinct ways* you can buy some number of pens and pencil
 The total number of ways to buy pens and pencils is 5 + 3 + 1 = 9.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

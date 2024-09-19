@@ -16,7 +16,7 @@ The array `result` is formed by concatenating the arrays `arr1` and `arr2`. For 
 Return _the array_ `result`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ After 3 operations, arr1 = [2,3] and arr2 = [1].
 Hence, the array result formed by concatenation is [2,3,1].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

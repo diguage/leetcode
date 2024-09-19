@@ -6,7 +6,7 @@
 You are given an array of integers `nums` and the `head` of a linked list. Return the `head` of the modified linked list after *removing* all nodes from the linked list that have a value that exists in `nums`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,2,3], head = [1,2,3,4,5]
@@ -20,7 +20,7 @@ You are given an array of integers `nums` and the `head` of a linked list. Retur
 Remove the nodes with values 1, 2, and 3.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1], head = [1,2,1,2,1,2]
@@ -34,7 +34,7 @@ Remove the nodes with values 1, 2, and 3.
 Remove the nodes with value 1.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [5], head = [1,2,3,4]

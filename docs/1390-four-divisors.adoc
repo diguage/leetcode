@@ -6,7 +6,7 @@
 Given an integer array `nums`, return _the sum of divisors of the integers in that array that have exactly four divisors_. If there is no such integer in the array, return `0`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Given an integer array `nums`, return _the sum of divisors of the integers in th
 The answer is the sum of divisors of 21 only.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ The answer is the sum of divisors of 21 only.
 *Output:* 64
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

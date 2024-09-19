@@ -10,7 +10,7 @@ In one *edit* you can take a word from `queries`, and change any letter in it to
 Return_ a list of all words from _`queries`_, __that match with some word from _`dictionary`_ after a maximum of *two edits*_. Return the words in the *same order* they appear in `queries`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return_ a list of all words from _`queries`_, __that match with some word from _
 Thus, we return ["word","note","wood"].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

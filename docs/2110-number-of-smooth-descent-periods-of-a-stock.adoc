@@ -10,7 +10,7 @@ A *smooth descent period* of a stock consists of *one or more contiguous* days s
 Return _the number of *smooth descent periods*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Return _the number of *smooth descent periods*_.
 Note that a period with one day is a smooth descent period by the definition.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Note that a period with one day is a smooth descent period by the definition.
 Note that [8,6] is not a smooth descent period as 8 - 6 &ne; 1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -16,7 +16,7 @@ All the strings in words have the same difference integer array, *except one*. Y
 Return_ the string in _`words`_ that has different *difference integer array*._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Return_ the string in _`words`_ that has different *difference integer array*._
 The odd array out is [1, 1], so we return the corresponding string, "abc".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

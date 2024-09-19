@@ -10,7 +10,7 @@ Since two files *cannot* have the same name, if you enter a folder name that was
 Return _an array of strings of length _`n` where `ans[i]` is the actual name the system will assign to the `i^th^` folder when you create it.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Return _an array of strings of length _`n` where `ans[i]` is the actual name the
 "pes(2019)" --> not assigned before, remains "pes(2019)"
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ Return _an array of strings of length _`n` where `ans[i]` is the actual name the
 "avalon" --> not assigned before, remains "avalon"
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

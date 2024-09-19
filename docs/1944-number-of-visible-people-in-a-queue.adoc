@@ -10,7 +10,7 @@ A person can *see* another person to their right in the queue if everybody in be
 Return _an array _`answer`_ of length _`n`_ where _`answer[i]`_ is the *number of people* the _`i^th^`_ person can *see* to their right in the queue_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2021/05/29/queue-plane.jpg" style="width: 600px; height: 247px;" />
 
@@ -27,7 +27,7 @@ Person 4 can see person 5.
 Person 5 can see no one since nobody is to the right of them.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

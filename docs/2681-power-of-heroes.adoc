@@ -12,7 +12,7 @@ You are given a *0-indexed* integer array `nums` representing the strength of so
 Return _the sum of the *power* of all *non-empty* groups of heroes possible._ Since the sum could be very large, return it *modulo* `10^9 ^+ 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ The sum of powers of all groups is 8 + 1 + 64 + 4 + 32 + 16 + 16 = 141.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

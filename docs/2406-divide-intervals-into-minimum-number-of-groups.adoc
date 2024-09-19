@@ -12,7 +12,7 @@ Return _the *minimum* number of groups you need to make_.
 Two intervals *intersect* if there is at least one common number between them. For example, the intervals `[1, 5]` and `[5, 8]` intersect.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Two intervals *intersect* if there is at least one common number between them. F
 It can be proven that it is not possible to divide the intervals into fewer than 3 groups.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

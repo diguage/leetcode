@@ -23,7 +23,7 @@ A *substring* is a contiguous sequence of characters in a string.
 *Consonant letters* in English are every letter except vowels.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ You can see that string "baey" is beautiful as vowels == consonants and vowels *
 It can be shown that there are only 2 beautiful substrings in the given string.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -50,7 +50,7 @@ It can be shown that there are only 2 beautiful substrings in the given string.
 It can be shown that there are only 3 beautiful substrings in the given string.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

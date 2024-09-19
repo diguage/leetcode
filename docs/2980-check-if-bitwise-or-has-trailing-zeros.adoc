@@ -12,7 +12,7 @@ For example, the binary representation of `5`, which is `"101"`, does not have a
 Return `true` _if it is possible to select two or more elements whose bitwise_ `OR` _has trailing zeros, return_ `false` _otherwise_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Return `true` _if it is possible to select two or more elements whose bitwise_ `
 *Explanation:* If we select the elements 2 and 4, their bitwise OR is 6, which has the binary representation "110" with one trailing zero.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Return `true` _if it is possible to select two or more elements whose bitwise_ `
 Other possible ways to select elements to have trailing zeroes in the binary representation of their bitwise OR are: (2, 8), (2, 16), (4, 8), (4, 16), (8, 16), (2, 4, 8), (2, 4, 16), (2, 8, 16), (4, 8, 16), and (2, 4, 8, 16).
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

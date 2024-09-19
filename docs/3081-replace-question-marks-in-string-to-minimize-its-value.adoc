@@ -23,7 +23,7 @@ Your task is to *replace all* occurrences of `'?'` in `s` with any lowercase Eng
 Return _a string denoting the modified string with replaced occurrences of _`'?'`_. If there are multiple strings resulting in the *minimum value*, return the <span data-keyword="lexicographically-smaller-string">lexicographically smallest one._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 *Input: * <span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;"> s = "???" 
@@ -41,7 +41,7 @@ Some other modifications of `s` that have a value of `0` are `"cba"`, `"abz"`, a
 Among all of them, we choose the lexicographically smallest.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 *Input: * <span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">s = "a?a?"

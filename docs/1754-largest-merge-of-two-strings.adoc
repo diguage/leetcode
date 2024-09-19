@@ -24,7 +24,7 @@ Return _the lexicographically *largest* _`merge`_ you can construct_.
 A string `a` is lexicographically larger than a string `b` (of the same length) if in the first position where `a` and `b` differ, `a` has a character strictly larger than the corresponding character in `b`. For example, `"abcd"` is lexicographically larger than `"abcc"` because the first position they differ is at the fourth character, and `d` is greater than `c`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -39,7 +39,7 @@ A string `a` is lexicographically larger than a string `b` (of the same length) 
 - Append the remaining 5 a's from word1 and word2 at the end of merge.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

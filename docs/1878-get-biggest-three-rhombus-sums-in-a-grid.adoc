@@ -12,7 +12,7 @@ Note that the rhombus can have an area of 0, which is depicted by the purple rho
 Return _the biggest three *distinct rhombus sums* in the _`grid`_ in *descending order*__. If there are less than three distinct values, return all of them_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/04/23/pc73-q4-ex1.png" style="width: 360px; height: 361px;" />
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the biggest three *distinct rhombus sums* in the _`grid`_ in *descending
 - Green: 5 + 200 + 4 + 2 = 211
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/04/23/pc73-q4-ex2.png" style="width: 217px; height: 217px;" />
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ Return _the biggest three *distinct rhombus sums* in the _`grid`_ in *descending
 - Green: 8 (area 0 rhombus in the bottom middle)
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

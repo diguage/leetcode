@@ -12,7 +12,7 @@ Given an array of integers `deliciousness` where `deliciousness[i]` is the delic
 Note that items with different indices are considered different even if they have the same deliciousness value.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Their respective sums are 4, 8, 8, and 16, all of which are powers of 2.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

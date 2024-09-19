@@ -16,7 +16,7 @@ Return _an integer denoting the maximum elegance of a subsequence of _`items`_ w
 *Note:* A subsequence of an array is a new array generated from the original array by deleting some elements (possibly none) without changing the remaining elements' relative order.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Hence, the elegance is 13 + 2^2^ = 17, and we can show that it is the maximum ac
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ The total profit in this subsequence is 3 + 2 + 5 = 10, and the subsequence cont
 Hence, the elegance is 10 + 3^2^ = 19, and we can show that it is the maximum achievable elegance.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

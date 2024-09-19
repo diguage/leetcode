@@ -15,7 +15,7 @@ A number is called *special* if it has exactly 2 *proper divisors*. For example:
 Return the count of numbers in the range `[l, r]` that are *not* *special*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">l = 5, r = 7
@@ -27,7 +27,7 @@ Return the count of numbers in the range `[l, r]` that are *not* *special*.
 There are no special numbers in the range `[5, 7]`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">l = 4, r = 16

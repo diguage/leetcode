@@ -13,7 +13,7 @@ Given a string `s` consisting of lowercase English letters, return _the first le
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ The letter 'z' appears on the index 8.
 The letter 'c' is the first letter to appear twice, because out of all the letters the index of its second occurrence is the smallest.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

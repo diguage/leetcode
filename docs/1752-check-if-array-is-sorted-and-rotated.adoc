@@ -10,7 +10,7 @@ There may be *duplicates* in the original array.
 *Note:* An array `A` rotated by `x` positions results in an array `B` of the same length such that `A[i] == B[(i+x) % A.length]`, where `%` is the modulo operation.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ There may be *duplicates* in the original array.
 You can rotate the array by x = 3 positions to begin on the the element of value 3: [3,4,5,1,2].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ You can rotate the array by x = 3 positions to begin on the the element of value
 *Explanation:* There is no sorted array once rotated that can make nums.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

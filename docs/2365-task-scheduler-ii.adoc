@@ -17,7 +17,7 @@ Each day, until all tasks have been completed, you must either:
 Return_ the *minimum* number of days needed to complete all tasks_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ Day 9: Complete the 5th task.
 It can be shown that the tasks cannot be completed in less than 9 days.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

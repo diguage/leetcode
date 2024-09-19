@@ -36,7 +36,7 @@ A subsequence of a string is a new string formed from the original string by del
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -53,7 +53,7 @@ There are 4 k-subsequences that have the maximum beauty, 3.
 Hence, the answer is 4. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

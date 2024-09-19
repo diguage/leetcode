@@ -12,7 +12,7 @@ The *beauty* of a string is the difference in frequencies between the most frequ
 Given a string `s`, return _the sum of *beauty* of all of its substrings._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Given a string `s`, return _the sum of *beauty* of all of its substrings._
 *Explanation: *The substrings with non-zero beauty are ["aab","aabc","aabcb","abcb","bcb"], each with beauty equal to 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

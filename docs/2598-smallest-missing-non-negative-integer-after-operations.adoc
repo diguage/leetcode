@@ -20,7 +20,7 @@ The MEX (minimum excluded) of an array is the smallest missing *non-negative* in
 Return _the maximum MEX of _`nums`_ after applying the mentioned operation *any number of times*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Return _the maximum MEX of _`nums`_ after applying the mentioned operation *any 
 The MEX of nums is 4. It can be shown that 4 is the maximum MEX we can achieve.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ A prefix `nums[0..i]` is *sequential* if, for all `1 <= j <= i`, `nums[j] = nums
 Return _the *smallest* integer_ `x` _missing from_ `nums` _such that_ `x` _is greater than or equal to the sum of the *longest* sequential prefix._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return _the *smallest* integer_ `x` _missing from_ `nums` _such that_ `x` _is gr
 *Explanation:* The longest sequential prefix of nums is [1,2,3] with a sum of 6. 6 is not in the array, therefore 6 is the smallest missing integer greater than or equal to the sum of the longest sequential prefix.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

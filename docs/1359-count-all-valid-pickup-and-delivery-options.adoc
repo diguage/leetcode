@@ -10,7 +10,7 @@ Count all valid pickup/delivery possible sequences such that delivery(i) is alwa
 Since the answer may be too large, return it modulo 10^9 + 7.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Since the answer may be too large, return it modulo 10^9 + 7.
 *Explanation:* Unique order (P1, D1), Delivery 1 always is after of Pickup 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Since the answer may be too large, return it modulo 10^9 + 7.
 This is an invalid order (P1,D2,P2,D1) because Pickup 2 is after of Delivery 2.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

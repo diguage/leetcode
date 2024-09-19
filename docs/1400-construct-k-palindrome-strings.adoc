@@ -6,7 +6,7 @@
 Given a string `s` and an integer `k`, return `true` _if you can use all the characters in _`s`_ to construct _`k`_ palindrome strings or _`false`_ otherwise_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -16,7 +16,7 @@ Given a string `s` and an integer `k`, return `true` _if you can use all the cha
 Some possible constructions "anna" + "elble", "anbna" + "elle", "anellena" + "b"
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Some possible constructions "anna" + "elble", "anbna" + "elle", "anellena" + "b"
 *Explanation:* It is impossible to construct 3 palindromes using all the characters of s.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

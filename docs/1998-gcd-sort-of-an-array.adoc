@@ -12,7 +12,7 @@ You are given an integer array `nums`, and you can perform the following operati
 Return `true` _if it is possible to sort _`nums`_ in *non-decreasing* order using the above swap method, or _`false`_ otherwise._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Return `true` _if it is possible to sort _`nums`_ in *non-decreasing* order usin
 - Swap 21 and 3 because gcd(21,3) = 3. nums = [[.underline]#*3*#,7,[.underline]#*21*#]
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Return `true` _if it is possible to sort _`nums`_ in *non-decreasing* order usin
 *Explanation:* It is impossible to sort the array because 5 cannot be swapped with any other element.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -19,7 +19,7 @@ Return `true` if _it is possible to transform `s` into `t`_. Otherwise, return `
 A *substring* is a contiguous sequence of characters within a string.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ A *substring* is a contiguous sequence of characters within a string.
 "[.underline]#843#52" (from index 0 to 2) -> "[.underline]#348#52"
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ A *substring* is a contiguous sequence of characters within a string.
 "234[.underline]#51#" -> "234[.underline]#15#"
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

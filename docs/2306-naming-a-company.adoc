@@ -15,7 +15,7 @@ You are given an array of strings `ideas` that represents a list of names to be 
 Return _the number of *distinct* valid names for the company_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ The following are some examples of invalid selections:
 - ("coffee", "toffee"): Both names formed after swapping already exist in the original array.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

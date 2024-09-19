@@ -17,7 +17,7 @@ On each day, you would like to buy a single item from one of the shops. Specific
 Return _the *maximum amount of money that can be spent* on buying all _ `m * n` _products_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ Hence, our total spending is equal to 285.
 It can be shown that 285 is the maximum amount of money that can be spent buying all m * n products. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

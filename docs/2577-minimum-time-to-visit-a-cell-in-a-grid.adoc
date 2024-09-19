@@ -10,7 +10,7 @@ You are standing in the *top-left* cell of the matrix in the `0^th^` second, and
 Return _the *minimum* time required in which you can visit the bottom-right cell of the matrix_. If you cannot visit the bottom-right cell, then return `-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2023/02/14/yetgriddrawio-8.png" />
 
@@ -30,7 +30,7 @@ Return _the *minimum* time required in which you can visit the bottom-right cell
 The final time is 7. It can be shown that it is the minimum time possible.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2023/02/14/yetgriddrawio-9.png" style="width: 151px; height: 151px;" />
 

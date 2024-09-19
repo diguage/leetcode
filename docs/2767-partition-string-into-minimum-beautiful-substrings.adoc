@@ -17,7 +17,7 @@ Return _the *minimum* number of substrings in such partition. _If it is impossib
 A *substring* is a contiguous sequence of characters in a string.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ A *substring* is a contiguous sequence of characters in a string.
 It can be shown that 2 is the minimum number of beautiful substrings that s can be partitioned into.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ It can be shown that 2 is the minimum number of beautiful substrings that s can 
 It can be shown that 3 is the minimum number of beautiful substrings that s can be partitioned into.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

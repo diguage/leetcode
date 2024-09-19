@@ -15,7 +15,7 @@ For example, if `s = "0110"`, you can choose `i = 0` and `j = 2`, then simultane
 Return `true` _if you can make the string _`s`_ equal to _`target`_, or _`false`_ otherwise_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Return `true` _if you can make the string _`s`_ equal to _`target`_, or _`false`
 Since we can make s equal to target, we return true.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -8,7 +8,7 @@ You are given an integer array `nums` containing *positive* integers. We define 
 Return _the *sum *of encrypted elements_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 *Input: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">nums = [1,2,3]
@@ -18,7 +18,7 @@ Return _the *sum *of encrypted elements_.
 *Explanation:* The encrypted elements are `[1,2,3]`. The sum of encrypted elements is `1 + 2 + 3 == 6`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 *Input: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">nums = [10,21,31]

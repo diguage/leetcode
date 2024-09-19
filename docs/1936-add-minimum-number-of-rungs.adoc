@@ -10,7 +10,7 @@ You are also given an integer `dist`. You can only climb to the next highest run
 Return _the *minimum* number of rungs that must be added to the ladder in order for you to climb to the last rung._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Add rungs at heights 7 and 8 to climb this ladder.
 The ladder will now have rungs at [1,3,5,[.underline]#7#,[.underline]#8#,10].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ The ladder will now have rungs at [1,3,5,[.underline]#7#,[.underline]#8#,10].
 This ladder can be climbed without adding additional rungs.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

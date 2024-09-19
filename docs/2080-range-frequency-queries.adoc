@@ -17,7 +17,7 @@ Implement the `RangeFreqQuery` class:
 A *subarray* is a contiguous sequence of elements within an array. `arr[left...right]` denotes the subarray that contains the elements of `nums` between indices `left` and `right` (*inclusive*).
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----

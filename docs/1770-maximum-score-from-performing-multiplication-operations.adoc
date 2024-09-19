@@ -20,7 +20,7 @@ You begin with a score of `0`. You want to perform *exactly* `m` operations. On 
 Return _the *maximum* score after performing _`m` _operations._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Return _the *maximum* score after performing _`m` _operations._
 The total score is 9 + 4 + 1 = 14.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

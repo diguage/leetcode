@@ -10,7 +10,7 @@ A subarray `arr` is *good* if it there are *at least *`k` pairs of indices `(i, 
 A *subarray* is a contiguous *non-empty* sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ A *subarray* is a contiguous *non-empty* sequence of elements within an array.
 *Explanation:* The only good subarray is the array nums itself.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

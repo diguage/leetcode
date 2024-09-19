@@ -16,7 +16,7 @@ Return _the *minimum positive integer* speed *(in kilometers per hour)* that all
 Tests are generated such that the answer will not exceed `10^7^` and `hour` will have *at most two digits after the decimal point*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Tests are generated such that the answer will not exceed `10^7^` and `hour` will
 - You will arrive at exactly the 6 hour mark.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ Tests are generated such that the answer will not exceed `10^7^` and `hour` will
 - You will arrive at the 2.66667 hour mark.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

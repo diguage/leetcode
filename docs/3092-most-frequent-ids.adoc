@@ -13,7 +13,7 @@ The problem involves tracking the frequency of IDs in a collection that changes 
 Return an array `ans` of length `n`, where `ans[i]` represents the *count* of the _most frequent ID_ in the collection after the `i^th^` step. If the collection is empty at any step, `ans[i]` should be 0 for that step.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [2,3,2,1], freq = [3,2,-3,1]
@@ -34,7 +34,7 @@ After step 2, we have 2 IDs with the value of 3. So `ans[2] = 2`.
 After step 3, we have 2 IDs with the value of 3 and 1 ID with the value of 1. So `ans[3] = 2`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [5,5,3], freq = [2,-2,1]

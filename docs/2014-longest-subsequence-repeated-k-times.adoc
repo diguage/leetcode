@@ -16,7 +16,7 @@ A subsequence `seq` is *repeated* `k` times in the string `s` if `seq * k` is a 
 Return _the *longest subsequence repeated* _`k`_ times in string _`s`_. If multiple such subsequences are found, return the *lexicographically largest* one. If there is no such subsequence, return an *empty* string_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="example 1" src="https://assets.leetcode.com/uploads/2021/08/30/longest-subsequence-repeat-k-times.png" style="width: 457px; height: 99px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the *longest subsequence repeated* _`k`_ times in string _`s`_. If multi
 "let" is the lexicographically largest one.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Return _the *longest subsequence repeated* _`k`_ times in string _`s`_. If multi
 *Explanation:* The longest subsequence repeated 2 times is "b".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

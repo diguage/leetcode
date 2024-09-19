@@ -10,7 +10,7 @@ In one operation, you can select two indices `x` and `y` where `0 <= x, y < n` a
 Given an integer `n`, the length of the array, return _the minimum number of operations_ needed to make all the elements of arr equal.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ First operation choose x = 2 and y = 0, this leads arr to be [2, 3, 4]
 In the second operation choose x = 2 and y = 0 again, thus arr = [3, 3, 3].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

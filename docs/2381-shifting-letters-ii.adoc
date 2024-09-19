@@ -10,7 +10,7 @@ Shifting a character *forward* means replacing it with the *next* letter in the 
 Return _the final string after all such shifts to _`s`_ are applied_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Secondly, shift the characters from index 1 to index 2 forward. Now s = "zbd".
 Finally, shift the characters from index 0 to index 2 forward. Now s = "ace".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

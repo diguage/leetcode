@@ -18,7 +18,7 @@ An array is *fair* if the sum of the odd-indexed values equals the sum of the ev
 Return the _*number* of indices that you could choose such that after the removal, _`nums`_ __is *fair*. _
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Remove index 3: [2,1,6] -> Even sum: 2 + 6 = 8. Odd sum: 1. Not fair.
 There is 1 index that you can remove to make nums fair.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ There is 1 index that you can remove to make nums fair.
 *Explanation:* You can remove any index and the remaining array is fair.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

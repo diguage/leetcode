@@ -20,7 +20,7 @@ An array is considered *equalindromic* if all the elements in the array are equa
 Return _an integer denoting the *minimum* possible total cost to make _`nums`_ *equalindromic* by performing any number of special moves._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _an integer denoting the *minimum* possible total cost to make _`nums`_ *
 It can be shown that changing all elements to any palindromic number other than 3 cannot be achieved at a lower cost.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ It can be shown that changing all elements to any palindromic number other than 
 It can be shown that changing all elements to any palindromic number other than 11 cannot be achieved at a lower cost.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

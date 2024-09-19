@@ -10,7 +10,7 @@ You decided to eat *at most* one apple a day (to keep the doctors away). Note th
 Given two integer arrays `days` and `apples` of length `n`, return _the maximum number of apples you can eat._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Given two integer arrays `days` and `apples` of length `n`, return _the maximum 
 - On the fourth to the seventh days, you eat apples that grew on the fourth day.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -8,7 +8,7 @@ Given an array of string `words`, return _all strings in _`words`_ that is a *su
 A *substring* is a contiguous sequence of characters within a string
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ A *substring* is a contiguous sequence of characters within a string
 ["hero","as"] is also a valid answer.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ A *substring* is a contiguous sequence of characters within a string
 *Explanation:* "et", "code" are substring of "leetcode".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

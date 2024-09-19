@@ -10,7 +10,7 @@ You have to find *two non-overlapping sub-arrays* of `arr` each with a sum equal
 Return _the minimum sum of the lengths_ of the two required sub-arrays, or return `-1` if you cannot find such two sub-arrays.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return _the minimum sum of the lengths_ of the two required sub-arrays, or retur
 *Explanation:* Only two sub-arrays have sum = 3 ([3] and [3]). The sum of their lengths is 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _the minimum sum of the lengths_ of the two required sub-arrays, or retur
 *Explanation:* Although we have three non-overlapping sub-arrays of sum = 7 ([7], [3,4] and [7]), but we will choose the first and third sub-arrays as the sum of their lengths is 2.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

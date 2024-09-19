@@ -10,7 +10,7 @@ Return _the length of the shortest subarray to remove_.
 A *subarray* is a contiguous subsequence of the array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ A *subarray* is a contiguous subsequence of the array.
 Another correct solution is to remove the subarray [3,10,4].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Another correct solution is to remove the subarray [3,10,4].
 *Explanation:* Since the array is strictly decreasing, we can only keep a single element. Therefore we need to remove a subarray of length 4, either [5,4,3,2] or [4,3,2,1].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

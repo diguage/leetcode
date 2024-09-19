@@ -17,7 +17,7 @@ A word can be placed* horizontally* (left to right *or* right to left) or *verti
 Given a string `word`, return `true`_ if _`word`_ can be placed in _`board`_, or _`false`_ *otherwise*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/10/04/crossword-ex1-1.png" style="width: 478px; height: 180px;" />
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Given a string `word`, return `true`_ if _`word`_ can be placed in _`board`_, or
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/10/04/crossword-ex2-1.png" style="width: 180px; height: 180px;" />
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ Given a string `word`, return `true`_ if _`word`_ can be placed in _`board`_, or
 *Explanation:* It is impossible to place the word because there will always be a space/letter above or below it.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/10/04/crossword-ex3-1.png" style="width: 478px; height: 180px;" />
 [subs="verbatim,quotes"]
 ----

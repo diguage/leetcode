@@ -8,7 +8,7 @@ You are playing a solitaire game with *three piles* of stones of sizes `a`​​
 Given three integers `a`​​​​​, `b`,​​​​​ and `c`​​​​​, return _the_ *_maximum_ *_*score* you can get._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Given three integers `a`​​​​​, `b`,​​​​​ and `c`​​​​
 There are fewer than two non-empty piles, so the game ends. Total: 6 points.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ There are fewer than two non-empty piles, so the game ends. Total: 6 points.
 There are fewer than two non-empty piles, so the game ends. Total: 7 points.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

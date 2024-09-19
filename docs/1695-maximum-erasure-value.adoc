@@ -10,7 +10,7 @@ Return _the *maximum score* you can get by erasing *exactly one* subarray._
 An array `b` is called to be a <span class="tex-font-style-it">subarray of `a` if it forms a contiguous subsequence of `a`, that is, if it is equal to `a[l],a[l+1],...,a[r]` for some `(l,r)`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ An array `b` is called to be a <span class="tex-font-style-it">subarray of `a` i
 *Explanation:* The optimal subarray here is [2,4,5,6].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

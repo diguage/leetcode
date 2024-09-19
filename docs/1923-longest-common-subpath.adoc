@@ -12,7 +12,7 @@ Given an integer `n` and a 2D integer array `paths` where `paths[i]` is an integ
 A *subpath* of a path is a contiguous sequence of cities within that path.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ A *subpath* of a path is a contiguous sequence of cities within that path.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ A *subpath* of a path is a contiguous sequence of cities within that path.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

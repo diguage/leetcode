@@ -17,7 +17,7 @@ A *conflict* happens when two events have some non-empty intersection (i.e., som
 Return `true`_ if there is a conflict between two events. Otherwise, return _`false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return `true`_ if there is a conflict between two events. Otherwise, return _`fa
 *Explanation:* The two events intersect at time 2:00.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Return `true`_ if there is a conflict between two events. Otherwise, return _`fa
 *Explanation:* The two events intersect starting from 01:20 to 02:00.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ It is guaranteed that every adjacent pair of elements `nums[i]` and `nums[i+1]` 
 Return _the original array _`nums`_. If there are multiple solutions, return *any of them*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the original array _`nums`_. If there are multiple solutions, return *an
 Notice that adjacentPairs[i] may not be in left-to-right order.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Notice that adjacentPairs[i] may not be in left-to-right order.
 Another solution is [-3,1,4,-2], which would also be accepted.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

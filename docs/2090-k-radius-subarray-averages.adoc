@@ -16,7 +16,7 @@ The *average* of `x` elements is the sum of the `x` elements divided by `x`, usi
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/11/07/eg1.png" style="width: 343px; height: 119px;" />
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ The *average* of `x` elements is the sum of the `x` elements divided by `x`, usi
 - avg[6], avg[7], and avg[8] are -1 because there are less than k elements *after* each index.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ The *average* of `x` elements is the sum of the `x` elements divided by `x`, usi
   avg[0] = 100000 / 1 = 100000.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

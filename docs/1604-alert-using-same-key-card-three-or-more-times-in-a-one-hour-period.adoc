@@ -14,7 +14,7 @@ Return a _list of unique worker names who received an alert for frequent keycard
 Notice that `"10:00"` - `"11:00"` is considered to be within a one-hour period, while `"22:51"` - `"23:52"` is not considered to be within a one-hour period.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Notice that `"10:00"` - `"11:00"` is considered to be within a one-hour period, 
 *Explanation:* "daniel" used the keycard 3 times in a one-hour period ("10:00","10:40", "11:00").
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -15,7 +15,7 @@ You are given a `m x n` matrix `targetGrid`, where `targetGrid[row][col]` is the
 Return `true`_ if it is possible to print the matrix _`targetGrid`_,__ otherwise, return _`false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/23/print1.jpg" style="width: 600px; height: 175px;" />
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Return `true`_ if it is possible to print the matrix _`targetGrid`_,__ otherwise
 *Output:* true
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/23/print2.jpg" style="width: 600px; height: 367px;" />
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Return `true`_ if it is possible to print the matrix _`targetGrid`_,__ otherwise
 *Output:* true
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

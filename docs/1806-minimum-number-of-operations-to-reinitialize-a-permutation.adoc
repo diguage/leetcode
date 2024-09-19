@@ -17,7 +17,7 @@ You will then assign `arr`​​​​ to `perm`.
 Return _the minimum *non-zero* number of operations you need to perform on _`perm`_ to return the permutation to its initial value._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ After the 1^st^ operation, perm = [0,1]
 So it takes only 1 operation.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ After the 2^nd^ operation, perm = [0,1,2,3]
 So it takes only 2 operations.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

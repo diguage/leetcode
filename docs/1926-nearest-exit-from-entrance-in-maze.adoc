@@ -10,7 +10,7 @@ In one step, you can move one cell *up*, *down*, *left*, or *right*. You cannot 
 Return _the *number of steps* in the shortest path from the _`entrance`_ to the nearest exit, or _`-1`_ if no such path exists_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/06/04/nearest1-grid.jpg" style="width: 333px; height: 253px;" />
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ It is impossible to reach [2,3] from the entrance.
 Thus, the nearest exit is [0,2], which is 1 step away.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/06/04/nearesr2-grid.jpg" style="width: 253px; height: 253px;" />
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ Initially, you are at the entrance cell [1,0].
 Thus, the nearest exit is [1,2], which is 2 steps away.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/06/04/nearest3-grid.jpg" style="width: 173px; height: 93px;" />
 [subs="verbatim,quotes"]
 ----

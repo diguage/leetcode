@@ -14,7 +14,7 @@ Return _the minimum *sum of squared difference* after modifying array _`nums1`_ 
 *Note*: You are allowed to modify the array elements to become *negative* integers.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ The sum of square difference will be: (1 - 2)^2 ^+ (2 - 10)^2 ^+ (3 - 20)^2 ^+ (
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

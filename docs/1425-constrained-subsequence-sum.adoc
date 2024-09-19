@@ -8,7 +8,7 @@ Given an integer array `nums` and an integer `k`, return the maximum sum of a *n
 A _subsequence_ of an array is obtained by deleting some number of elements (can be zero) from the array, leaving the remaining elements in their original order.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ A _subsequence_ of an array is obtained by deleting some number of elements (can
 *Explanation:* The subsequence is [10, 2, 5, 20].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ A _subsequence_ of an array is obtained by deleting some number of elements (can
 *Explanation:* The subsequence must be non-empty, so we choose the largest number.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

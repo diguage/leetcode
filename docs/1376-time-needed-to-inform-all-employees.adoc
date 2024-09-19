@@ -14,7 +14,7 @@ The `i-th` employee needs `informTime[i]` minutes to inform all of his direct su
 Return _the number of minutes_ needed to inform all the employees about the urgent news.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Return _the number of minutes_ needed to inform all the employees about the urge
 *Explanation:* The head of the company is the only employee in the company.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/02/27/graph.png" style="width: 404px; height: 174px;" />
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ Return _the *minimum* number of boxes you need to select to redistribute these _
 *Note* that, apples from the same pack can be distributed into different boxes.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the *minimum* number of boxes you need to select to redistribute these _
 It is possible to distribute the apples as the total capacity is greater than or equal to the total number of apples.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

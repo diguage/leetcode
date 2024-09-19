@@ -10,7 +10,7 @@ Additionally, you have `pills` magical pills that will *increase a worker's stre
 Given the *0-indexed *integer arrays `tasks` and `workers` and the integers `pills` and `strength`, return _the *maximum* number of tasks that can be completed._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ We can assign the magical pill and tasks as follows:
 - Assign worker 2 to task 0 (3 >= 3)
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ We can assign the magical pill and tasks as follows:
 - Assign worker 0 to task 0 (0 + 5 >= 5)
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

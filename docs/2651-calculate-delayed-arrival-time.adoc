@@ -10,7 +10,7 @@ Return _the time when the train will arrive at the station._
 Note that the time in this problem is in 24-hours format.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Note that the time in this problem is in 24-hours format.
 *Explanation:* Arrival time of the train was 15:00 hours. It is delayed by 5 hours. Now it will reach at 15+5 = 20 (20:00 hours).
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

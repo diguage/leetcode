@@ -16,7 +16,7 @@ Implement the `ProductOfNumbers` class:
 The test cases are generated so that, at any time, the product of any contiguous sequence of numbers will fit into a single 32-bit integer without overflowing.
 
  
-<strong class="example">Example:*
+*Example:*
 
 [subs="verbatim,quotes"]
 ----

@@ -15,7 +15,7 @@ You are given a 2D array `queries`, which contains two types of queries:
 Return a boolean array `results`, where `results[i]` is `true` if you can place the block specified in the `i^th^` query of type 2, and `false` otherwise.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">queries = [[1,2],[2,3,3],[2,3,1],[2,2,2]]
@@ -29,7 +29,7 @@ Return a boolean array `results`, where `results[i]` is `true` if you can place 
 For query 0, place an obstacle at `x = 2`. A block of size at most 2 can be placed before `x = 3`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">queries = [[1,7],[2,7,6],[1,2],[2,7,5],[2,7,6]]<!-- notionvc: 4a471445-5af1-4d72-b11b-94d351a2c8e9 -->

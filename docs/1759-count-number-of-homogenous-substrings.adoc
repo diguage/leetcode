@@ -10,7 +10,7 @@ A string is *homogenous* if all the characters of the string are the same.
 A *substring* is a contiguous sequence of characters within a string.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ A *substring* is a contiguous sequence of characters within a string.
 3 + 1 + 2 + 1 + 3 + 2 + 1 = 13.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ A *substring* is a contiguous sequence of characters within a string.
 *Explanation:* The homogenous substrings are "x" and "y".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

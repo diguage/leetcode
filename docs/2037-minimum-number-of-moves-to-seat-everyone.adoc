@@ -16,7 +16,7 @@ Return _the *minimum number of moves* required to move each student to a seat__ 
 Note that there may be *multiple* seats or students in the *same *position at the beginning.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Note that there may be *multiple* seats or students in the *same *position at th
 In total, 1 + 2 + 1 = 4 moves were used.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -43,7 +43,7 @@ In total, 1 + 2 + 1 = 4 moves were used.
 In total, 0 + 1 + 3 + 3 = 7 moves were used.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

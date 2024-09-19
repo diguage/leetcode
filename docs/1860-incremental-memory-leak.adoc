@@ -10,7 +10,7 @@ At the `i^th^` second (starting from 1), `i` bits of memory are allocated to the
 Return _an array containing _`[crashTime, memory1<sub>crash</sub>, memory2<sub>crash</sub>]`_, where _`crashTime`_ is the time (in seconds) when the program crashed and _`memory1<sub>crash</sub>`_ and _`memory2<sub>crash</sub>`_ are the available bits of memory in the first and second sticks respectively_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _an array containing _`[crashTime, memory1<sub>crash</sub>, memory2<sub>c
 - At the 3^rd^ second, the program crashes. The sticks have 1 and 0 bits available respectively.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

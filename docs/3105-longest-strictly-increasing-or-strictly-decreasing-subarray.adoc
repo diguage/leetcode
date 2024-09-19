@@ -6,7 +6,7 @@
 You are given an array of integers `nums`. Return _the length of the *longest* <span data-keyword="subarray-nonempty">subarray of _`nums`_ which is either *<span data-keyword="strictly-increasing-array">strictly increasing* or *<span data-keyword="strictly-decreasing-array">strictly decreasing*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,4,3,3,2]
@@ -22,7 +22,7 @@ The strictly decreasing subarrays of `nums` are `[1]`, `[2]`, `[3]`, `[3]`, `[4]
 Hence, we return `2`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [3,3,3,3]
@@ -38,7 +38,7 @@ The strictly decreasing subarrays of `nums` are `[3]`, `[3]`, `[3]`, and `[3]`.
 Hence, we return `1`.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [3,2,1]

@@ -10,7 +10,7 @@ Return_ __*any* such subsequence as an integer array of length _`k`.
 A *subsequence* is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ A *subsequence* is an array that can be derived from another array by deleting s
 The subsequence has the largest sum of 3 + 3 = 6.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ The subsequence has the largest sum of -1 + 3 + 4 = 6.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

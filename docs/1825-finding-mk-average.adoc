@@ -22,7 +22,7 @@ Implement the `MKAverage` class:
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -47,7 +47,7 @@ obj.addElement(5);        // current elements are [3,1,10,5,5,5]
 obj.calculateMKAverage(); // The last 3 elements are [5,5,5].
                           // After removing smallest and largest 1 element the container will be [5].
                           // The average of [5] equals 5/1 = 5, return 5
-`----
+----
 
  
 *Constraints:*

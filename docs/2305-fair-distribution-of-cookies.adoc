@@ -10,7 +10,7 @@ The *unfairness* of a distribution is defined as the *maximum* *total* cookies o
 Return _the *minimum* unfairness of all distributions_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ The unfairness of the distribution is max(31,30) = 31.
 It can be shown that there is no distribution with an unfairness less than 31.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

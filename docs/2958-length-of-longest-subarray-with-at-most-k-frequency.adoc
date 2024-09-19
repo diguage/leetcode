@@ -14,7 +14,7 @@ Return _the length of the *longest* *good* subarray of_ `nums`_._
 A *subarray* is a contiguous non-empty sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ A *subarray* is a contiguous non-empty sequence of elements within an array.
 It can be shown that there are no good subarrays with length more than 6.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ It can be shown that there are no good subarrays with length more than 6.
 It can be shown that there are no good subarrays with length more than 2.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

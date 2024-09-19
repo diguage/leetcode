@@ -15,7 +15,7 @@ The robot needs to go to its home. It can move one cell in four directions: *lef
 Return _the *minimum total cost* for this robot to return home_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/10/11/eg-1.png" style="width: 282px; height: 217px;" />
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Starting from (1, 0)
 The total cost is 3 + 2 + 6 + 7 = 18
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

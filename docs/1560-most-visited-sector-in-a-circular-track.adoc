@@ -10,7 +10,7 @@ Return _an array of the most visited sectors_ sorted in *ascending* order.
 Notice that you circulate the track in ascending order of sector numbers in the counter-clockwise direction (See the first example).
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/08/14/tmp.jpg" style="width: 433px; height: 341px;" />
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Notice that you circulate the track in ascending order of sector numbers in the 
 We can see that both sectors 1 and 2 are visited twice and they are the most visited sectors. Sectors 3 and 4 are visited only once.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ We can see that both sectors 1 and 2 are visited twice and they are the most vis
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

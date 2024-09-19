@@ -17,7 +17,7 @@ Note that the `i^th^` task starts the moment right after the `(i - 1)^th^` task 
 Return _the id of the employee that worked the task with the longest time._ If there is a tie between two or more employees, return_ the *smallest* id among them_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Task 3 started at 9 and ended at 15 with 6 units of times.
 The task with the longest time is task 3 and the employee with id 1 is the one that worked on it, so we return 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -45,7 +45,7 @@ Task 3 started at 12 and ended at 17 with 5 units of times.
 The tasks with the longest time is task 1. The employee that worked on it is 3, so we return 3.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

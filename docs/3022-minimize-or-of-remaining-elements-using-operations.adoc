@@ -10,7 +10,7 @@ In one operation, you can pick any index `i` of `nums` such that `0 <= i < nums.
 Return _the *minimum* possible value of the bitwise _`OR`_ of the remaining elements of_ `nums` _after applying *at most*_ `k` _operations_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ The bitwise-or of the final array is 3.
 It can be shown that 3 is the minimum possible value of the bitwise OR of the remaining elements of nums after applying at most k operations.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -39,7 +39,7 @@ It can be shown that 2 is the minimum possible value of the bitwise OR of the re
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

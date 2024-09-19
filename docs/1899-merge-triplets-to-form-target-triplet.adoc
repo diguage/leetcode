@@ -19,7 +19,7 @@ To obtain `target`, you may apply the following operation on `triplets` *any num
 Return `true` _if it is possible to obtain the _`target`_ *triplet* _`[x, y, z]`_ as an* element* of _`triplets`_, or _`false`_ otherwise_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return `true` _if it is possible to obtain the _`target`_ *triplet* _`[x, y, z]`
 The target triplet [2,7,5] is now an element of triplets.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -39,7 +39,7 @@ The target triplet [2,7,5] is now an element of triplets.
 *Explanation:* It is impossible to have [3,2,5] as an element because there is no 2 in any of the triplets.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

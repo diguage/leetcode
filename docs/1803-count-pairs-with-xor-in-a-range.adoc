@@ -8,7 +8,7 @@ Given a *(0-indexed)* integer array `nums` and two integers `low` and `high`, re
 A *nice pair* is a pair `(i, j)` where `0 <= i < j < nums.length` and `low <= (nums[i] XOR nums[j]) <= high`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ A *nice pair* is a pair `(i, j)` where `0 <= i < j < nums.length` and `low <= (n
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

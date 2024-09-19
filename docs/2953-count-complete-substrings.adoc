@@ -17,7 +17,7 @@ Return _the number of *complete *substrings of_ `word`.
 A *substring* is a *non-empty* contiguous sequence of characters in a string.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ A *substring* is a *non-empty* contiguous sequence of characters in a string.
 *Explanation:* The complete substrings where each character appears exactly twice and the difference between adjacent characters is at most 2 are: [.underline]#*igig*#ee, igig[.underline]#*ee*#, [.underline]#*igigee*#.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

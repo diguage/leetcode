@@ -12,7 +12,7 @@ Return the *minimum *possible *diameter *of the resulting tree.
 The *diameter* of a tree is the length of the _longest_ path between any two nodes in the tree.
 
  
-<strong class="example">Example 1:*<img alt="" src="https://assets.leetcode.com/uploads/2024/04/22/example11-transformed.png" />
+*Example 1:*<img alt="" src="https://assets.leetcode.com/uploads/2024/04/22/example11-transformed.png" />
 
 <div class="example-block">
 *Input:* <span class="example-io">edges1 = [[0,1],[0,2],[0,3]], edges2 = [[0,1]]
@@ -24,7 +24,7 @@ The *diameter* of a tree is the length of the _longest_ path between any two nod
 We can obtain a tree of diameter 3 by connecting node 0 from the first tree with any node from the second tree.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2024/04/22/example211.png" />
 <div class="example-block">
 *Input:* <span class="example-io">edges1 = [[0,1],[0,2],[0,3],[2,4],[2,5],[3,6],[2,7]], edges2 = [[0,1],[0,2],[0,3],[2,4],[2,5],[3,6],[2,7]]

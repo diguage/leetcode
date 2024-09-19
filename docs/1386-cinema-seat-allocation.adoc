@@ -12,7 +12,7 @@ Given the array `reservedSeats` containing the numbers of seats already reserved
 _Return the maximum number of four-person groups you can assign on the cinema seats._ A four-person group occupies four adjacent seats *in one single row*. Seats across an aisle (such as [3,3] and [3,4]) are not considered to be adjacent, but there is an exceptional case on which an aisle split a four-person group, in that case, the aisle split a four-person group in the middle, which means to have two people on each side.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2020/02/14/cinema_seats_3.png" style="width: 400px; height: 96px;" />
 
@@ -23,7 +23,7 @@ _Return the maximum number of four-person groups you can assign on the cinema se
 *Explanation:* The figure above shows the optimal allocation for four groups, where seats mark with blue are already reserved and contiguous seats mark with orange are for one group.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ _Return the maximum number of four-person groups you can assign on the cinema se
 *Output:* 2
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

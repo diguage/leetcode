@@ -11,7 +11,7 @@ Create a class `ArrayWrapper` that accepts an array of integers in its construct
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ const obj2 = new ArrayWrapper([3,4]);
 obj1 + obj2; // 10
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ const obj = new ArrayWrapper([23,98,42,70]);
 String(obj); // "[23,98,42,70]"
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

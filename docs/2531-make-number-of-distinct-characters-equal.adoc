@@ -10,7 +10,7 @@ A *move* consists of choosing two indices `i` and `j` such that `0 <= i < word1.
 Return `true` _if it is possible to get the number of distinct characters in_ `word1` _and_ `word2` _to be equal with *exactly one* move. _Return `false` _otherwise_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return `true` _if it is possible to get the number of distinct characters in_ `w
 *Explanation:* Any pair of swaps would yield two distinct characters in the first string, and one in the second string.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return `true` _if it is possible to get the number of distinct characters in_ `w
 *Explanation:* We swap index 2 of the first string with index 0 of the second string. The resulting strings are word1 = "abac" and word2 = "cab", which both have 3 distinct characters.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

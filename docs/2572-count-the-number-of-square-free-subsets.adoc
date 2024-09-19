@@ -14,7 +14,7 @@ Return _the number of square-free non-empty subsets of the array_ *nums*. Since 
 A *non-empty* *subset* of `nums` is an array that can be obtained by deleting some (possibly none but not all) elements from `nums`. Two subsets are different if and only if the chosen indices to delete are different.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ A *non-empty* *subset* of `nums` is an array that can be obtained by deleting so
 It can be proven that there are no more than 3 square-free subsets in the given array.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

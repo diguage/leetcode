@@ -12,7 +12,7 @@ Your score is the sum of the points of the cards you have taken.
 Given the integer array `cardPoints` and the integer `k`, return the _maximum score_ you can obtain.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Given the integer array `cardPoints` and the integer `k`, return the _maximum sc
 *Explanation:* After the first step, your score will always be 1. However, choosing the rightmost card first will maximize your total score. The optimal strategy is to take the three cards on the right, giving a final score of 1 + 6 + 5 = 12.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Given the integer array `cardPoints` and the integer `k`, return the _maximum sc
 *Explanation:* Regardless of which two cards you take, your score will always be 4.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

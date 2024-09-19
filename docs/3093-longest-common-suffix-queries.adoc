@@ -10,7 +10,7 @@ For each `wordsQuery[i]`, you need to find a string from `wordsContainer` that h
 Return _an array of integers _`ans`_, where _`ans[i]`_ is the index of the string in _`wordsContainer`_ that has the *longest common suffix* with _`wordsQuery[i]`_._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">wordsContainer = ["abcd","bcd","xbcd"], wordsQuery = ["cd","bcd","xyz"]
@@ -28,7 +28,7 @@ Let's look at each `wordsQuery[i]` separately:
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">wordsContainer = ["abcdefgh","poiuygh","ghghgh"], wordsQuery = ["gh","acbfgh","acbfegh"]

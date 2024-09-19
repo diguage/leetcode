@@ -12,7 +12,7 @@ Divide the corridor into non-overlapping sections, where each section has *exact
 Return _the number of ways to divide the corridor_. Since the answer may be very large, return it *modulo* `10^9^ + 7`. If there is no way, return `0`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/04/1.png" style="width: 410px; height: 199px;" />
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ The black bars in the above image indicate the two room dividers already install
 Note that in each of the ways, *each* section has exactly *two* seats.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/04/2.png" style="width: 357px; height: 68px;" />
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Note that in each of the ways, *each* section has exactly *two* seats.
 Installing any would create some section that does not have exactly two seats.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/12/3.png" style="width: 115px; height: 68px;" />
 [subs="verbatim,quotes"]
 ----

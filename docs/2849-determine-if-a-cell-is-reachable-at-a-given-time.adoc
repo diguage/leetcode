@@ -12,7 +12,7 @@ Return `true` _if you can reach cell _`(fx, fy)` _after* exactly*_ `t` *_seconds
 A cell's *adjacent cells* are the 8 cells around it that share at least one corner with it. You can visit the same cell several times.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/08/05/example2.svg" style="width: 443px; height: 243px;" />
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ A cell's *adjacent cells* are the 8 cells around it that share at least one corn
 *Explanation:* Starting at cell (2, 4), we can reach cell (7, 7) in exactly 6 seconds by going through the cells depicted in the picture above. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/08/05/example1.svg" style="width: 383px; height: 202px;" />
 [subs="verbatim,quotes"]
 ----

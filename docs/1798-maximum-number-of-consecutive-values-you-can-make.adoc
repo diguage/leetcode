@@ -10,7 +10,7 @@ Return the _maximum number of consecutive integer values that you *can* *make* w
 Note that you may have multiple coins of the same value.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Note that you may have multiple coins of the same value.
 You can make 2 consecutive integer values starting from 0.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ You can make 2 consecutive integer values starting from 0.
 You can make 8 consecutive integer values starting from 0.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

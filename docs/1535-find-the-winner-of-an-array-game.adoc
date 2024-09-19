@@ -12,7 +12,7 @@ Return _the integer which will win the game_.
 It is *guaranteed* that there will be a winner of the game.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Round |       arr       | winner | win_count
 So we can see that 4 rounds will be played and 5 is the winner because it wins 2 consecutive games.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

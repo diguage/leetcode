@@ -10,7 +10,7 @@ You have a machine which can destroy targets. *Seeding* the machine with some `n
 Return_ the *minimum value* of _`nums[i]`_ you can seed the machine with to destroy the maximum number of targets._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ In this case, we would destroy 5 total targets (all except for nums[2]).
 It is impossible to destroy more than 5 targets, so we return nums[3].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ It is not possible to destroy more than 3 targets.
 Since nums[0] is the minimal integer that can destroy 3 targets, we return 1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

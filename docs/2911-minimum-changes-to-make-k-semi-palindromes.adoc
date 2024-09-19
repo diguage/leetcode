@@ -38,7 +38,7 @@ Consider the string `"abcabc"`:
 
 
  
-<strong class="example">Example 1: *
+*Example 1: *
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 *Input: * <span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;"> s = "abcac", k = 2 
@@ -48,7 +48,7 @@ Consider the string `"abcabc"`:
 *Explanation: * Divide `s` into `"ab"` and `"cac"`. `"cac"` is already semi-palindrome. Change `"ab"` to `"aa"`, it becomes semi-palindrome with `d = 1`.
 
 
-<strong class="example">Example 2: *
+*Example 2: *
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 *Input: * <span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;"> s = "abcdef", k = 2 
@@ -58,7 +58,7 @@ Consider the string `"abcabc"`:
 *Explanation: * Divide `s` into substrings `"abc"` and `"def"`. Each needs one change to become semi-palindrome.
 
 
-<strong class="example">Example 3: *
+*Example 3: *
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 *Input: * <span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;"> s = "aabbaa", k = 3 

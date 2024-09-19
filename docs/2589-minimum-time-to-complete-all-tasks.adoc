@@ -10,7 +10,7 @@ You may turn on the computer only when it needs to run a task. You can also turn
 Return _the minimum time during which the computer should be turned on to complete all tasks_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Return _the minimum time during which the computer should be turned on to comple
 The computer will be on for a total of 2 seconds.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

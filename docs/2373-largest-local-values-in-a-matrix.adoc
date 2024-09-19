@@ -16,7 +16,7 @@ In other words, we want to find the largest value in every contiguous `3 x 3` ma
 Return _the generated matrix_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/06/21/ex1.png" style="width: 371px; height: 210px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the generated matrix_.
 Notice that each value in the generated matrix corresponds to the largest value of a contiguous 3 x 3 matrix in grid.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/07/02/ex2new2.png" style="width: 436px; height: 240px;" />
 [subs="verbatim,quotes"]
 ----

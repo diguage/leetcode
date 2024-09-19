@@ -21,7 +21,7 @@ Return _the latest time you may arrive at the bus station to catch a bus_. You *
 *Note: *The arrays `buses` and `passengers` are not necessarily sorted.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ At time 20, the second bus departs with you and the 1^st^ passenger.
 Note that you may not arrive at the same time as another passenger, which is why you must arrive before the 1^st^ passenger to catch the bus.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

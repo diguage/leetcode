@@ -10,7 +10,7 @@ For the `i^th^` query, find the *maximum value* of `nums1[j] + nums2[j]` among a
 Return _an array _`answer`_ where _`answer[i]`_ is the answer to the _`i^th^`_ query._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ For the 3rd query <code node="[object Object]">x<sub>i</sub> = 2` and <code node
 Therefore, we return <code node="[object Object]">[6,10,7]`.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Therefore, we return <code node="[object Object]">[6,10,7]`.
 *Explanation:* For this example, we can use index <code node="[object Object]">j = 2` for all the queries since it satisfies the constraints for each query.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -13,7 +13,7 @@ You are given a positive integer `n`. Each digit of `n` has a sign according to 
 Return _the sum of all digits with their corresponding sign_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the sum of all digits with their corresponding sign_.
 *Explanation:* (+5) + (-2) + (+1) = 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Return _the sum of all digits with their corresponding sign_.
 *Explanation:* (+1) + (-1) + (+1) = 1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

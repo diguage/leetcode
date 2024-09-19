@@ -20,7 +20,7 @@ DataFrame: `employees`
 Write a solution to display the *first `3` *rows* *of this DataFrame.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----

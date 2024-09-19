@@ -12,7 +12,7 @@ Each person takes *exactly 1 second* to buy a ticket. A person can only buy *1 t
 Return _the *time taken* for the person at position _`k`_ _*_(0-indexed)_ *_to finish buying tickets_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the *time taken* for the person at position _`k`_ _*_(0-indexed)_ *_to f
 The person at position 2 has successfully bought 2 tickets and it took 3 + 3 = 6 seconds.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

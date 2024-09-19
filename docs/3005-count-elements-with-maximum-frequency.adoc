@@ -10,7 +10,7 @@ Return _the *total frequencies* of elements in__ _`nums` _such that those elemen
 The *frequency* of an element is the number of occurrences of that element in the array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ The *frequency* of an element is the number of occurrences of that element in th
 So the number of elements in the array with maximum frequency is 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

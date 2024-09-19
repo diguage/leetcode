@@ -17,7 +17,7 @@ Return the _total_ number of ways Alice can reach stair `k`.
 *Note* that it is possible that Alice reaches the stair `k`, and performs some operations to reach the stair `k` again.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">k = 0
@@ -44,7 +44,7 @@ The 2 possible ways of reaching stair 0 are:
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">k = 1

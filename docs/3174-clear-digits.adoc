@@ -14,7 +14,7 @@ Your task is to remove *all* digits by doing this operation repeatedly:
 Return the resulting string after removing all digits.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "abc"
@@ -26,7 +26,7 @@ Return the resulting string after removing all digits.
 There is no digit in the string.<!-- notionvc: ff07e34f-b1d6-41fb-9f83-5d0ba3c1ecde -->
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "cb34"

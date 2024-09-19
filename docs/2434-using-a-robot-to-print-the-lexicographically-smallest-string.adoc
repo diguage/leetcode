@@ -13,7 +13,7 @@ You are given a string `s` and a robot that currently holds an empty string `t`.
 Return _the lexicographically smallest string that can be written on the paper._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Perform first operation three times p="", s="", t="zza".
 Perform second operation three times p="azz", s="", t="".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ Perform first operation p="ab", s="", t="c".
 Perform second operation p="abc", s="", t="".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

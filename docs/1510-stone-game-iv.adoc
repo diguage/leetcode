@@ -12,7 +12,7 @@ Also, if a player cannot make a move, he/she loses the game.
 Given a positive integer `n`, return `true` if and only if Alice wins the game otherwise return `false`, assuming both players play optimally.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Given a positive integer `n`, return `true` if and only if Alice wins the game o
 *Explanation: *Alice can remove 1 stone winning the game because Bob doesn't have any moves.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Given a positive integer `n`, return `true` if and only if Alice wins the game o
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

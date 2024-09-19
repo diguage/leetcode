@@ -12,7 +12,7 @@ Return the *median* of the *uniqueness array* of `nums`.
 *Note* that the *median* of an array is defined as the middle element of the array when it is sorted in non-decreasing order. If there are two choices for a median, the *smaller* of the two values is taken.<!-- notionvc: 7e0f5178-4273-4a82-95ce-3395297921dc -->
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,2,3]
@@ -24,7 +24,7 @@ Return the *median* of the *uniqueness array* of `nums`.
 The uniqueness array of `nums` is `[distinct(nums[0..0]), distinct(nums[1..1]), distinct(nums[2..2]), distinct(nums[0..1]), distinct(nums[1..2]), distinct(nums[0..2])]` which is equal to `[1, 1, 1, 2, 2, 3]`. The uniqueness array has a median of 1. Therefore, the answer is 1.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [3,4,3,4,5]
@@ -36,7 +36,7 @@ The uniqueness array of `nums` is `[distinct(nums[0..0]), distinct(nums[1..1]), 
 The uniqueness array of `nums` is `[1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3]`. The uniqueness array has a median of 2. Therefore, the answer is 2.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [4,3,5,4]

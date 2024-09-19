@@ -17,7 +17,7 @@ Return _the sender with the *largest* word count_. If there is more than one sen
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Since Alice has the largest word count, we return "Alice".
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

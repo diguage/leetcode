@@ -10,7 +10,7 @@ Find _the smallest set of vertices from which all nodes in the graph are reachab
 Notice that you can return the vertices in any order.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2020/07/07/untitled22.png" style="width: 231px; height: 181px;" />
 
@@ -21,7 +21,7 @@ Notice that you can return the vertices in any order.
 *Explanation: *It's not possible to reach all the nodes from a single vertex. From 0 we can reach [0,1,2,5]. From 3 we can reach [3,4,2,5]. So we output [0,3].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2020/07/07/untitled.png" style="width: 201px; height: 201px;" />
 

@@ -10,7 +10,7 @@ You are also given an integer `carpetLen`, the length of a single carpet that ca
 Return _the *maximum* number of white tiles that can be covered by the carpet_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/03/25/example1drawio3.png" style="width: 644px; height: 158px;" />
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Note that there may be other places where the carpet covers 9 white tiles.
 It can be shown that the carpet cannot cover more than 9 white tiles.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/03/24/example2drawio.png" style="width: 231px; height: 168px;" />
 [subs="verbatim,quotes"]
 ----

@@ -15,7 +15,7 @@ You can perform *any* of the following operations on the array *any* number of t
 Return _the *minimum* number of operations required to make the *sum* of elements of the final array greater than or equal to _`k`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">k = 11
@@ -37,7 +37,7 @@ The sum of the final array is `4 + 4 + 4 = 12` which is greater than or equal to
 The total number of operations performed is `3 + 2 = 5`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">k = 1

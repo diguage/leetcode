@@ -18,7 +18,7 @@ Note that you can use each `nums[i]` any number of times in any order. Operation
 Return _the *minimum* number of operations needed to convert _`x = start`_ into _`goal`_, and _`-1`_ if it is not possible_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Return _the *minimum* number of operations needed to convert _`x = start`_ into 
 - 14 - 2 = 12
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ Return _the *minimum* number of operations needed to convert _`x = start`_ into 
 Note that the last operation sets x out of the range 0 <= x <= 1000, which is valid.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

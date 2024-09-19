@@ -10,7 +10,7 @@ Return _the rearranged number with minimal value_.
 Note that the sign of the number does not change after rearranging the digits.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Note that the sign of the number does not change after rearranging the digits.
 The arrangement with the smallest value that does not contain any leading zeros is 103.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

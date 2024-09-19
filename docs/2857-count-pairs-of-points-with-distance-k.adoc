@@ -10,7 +10,7 @@ We define the *distance* between two points `(x<sub>1</sub>, y<sub>1</sub>)` and
 Return _the number of pairs _`(i, j)`_ such that _`i < j`_ and the distance between points _`i`_ and _`j`_ is equal to _`k`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Return _the number of pairs _`(i, j)`_ such that _`i < j`_ and the distance betw
 - (2,3): Because we have (1 XOR 5) + (3 XOR 2) = 5.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

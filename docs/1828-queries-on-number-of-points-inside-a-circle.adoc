@@ -12,7 +12,7 @@ For each query `queries[j]`, compute the number of points *inside* the `j^th^` c
 Return _an array _`answer`_, where _`answer[j]`_ is the answer to the _`j^th^`_ query_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/03/25/chrome_2021-03-25_22-34-16.png" style="width: 500px; height: 418px;" />
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _an array _`answer`_, where _`answer[j]`_ is the answer to the _`j^th^`_ 
 queries[0] is the green circle, queries[1] is the red circle, and queries[2] is the blue circle.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/03/25/chrome_2021-03-25_22-42-07.png" style="width: 500px; height: 390px;" />
 [subs="verbatim,quotes"]
 ----

@@ -17,7 +17,7 @@ Return the *maximum* possible score.
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">receiver = [2,0,1], k = 4
@@ -64,7 +64,7 @@ Starting with player `i = 2` the initial score is 2:
 </table>
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">receiver = [1,1,1,2,3], k = 3

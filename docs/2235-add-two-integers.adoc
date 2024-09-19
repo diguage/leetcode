@@ -5,7 +5,7 @@
 
 Given two integers `num1` and `num2`, return _the *sum* of the two integers_.
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -14,7 +14,7 @@ Given two integers `num1` and `num2`, return _the *sum* of the two integers_.
 *Explanation:* num1 is 12, num2 is 5, and their sum is 12 + 5 = 17, so 17 is returned.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

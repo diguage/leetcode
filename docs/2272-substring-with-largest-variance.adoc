@@ -10,7 +10,7 @@ Given a string `s` consisting of lowercase English letters only, return _the *la
 A *substring* is a contiguous sequence of characters within a string.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ All possible variances along with their respective substrings are listed below:
 Since the largest possible variance is 3, we return it.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

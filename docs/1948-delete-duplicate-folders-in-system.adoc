@@ -33,7 +33,7 @@ Once all the identical folders and their subfolders have been marked, the file s
 Return _the 2D array _`ans` _containing the paths of the *remaining* folders after deleting all the marked folders. The paths may be returned in *any* order_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/07/19/lc-dupfolder1.jpg" style="width: 200px; height: 218px;" />
 [subs="verbatim,quotes"]
 ----
@@ -44,7 +44,7 @@ Folders "/a" and "/c" (and their subfolders) are marked for deletion because the
 folder named "b".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/07/19/lc-dupfolder2.jpg" style="width: 200px; height: 355px;" />
 [subs="verbatim,quotes"]
 ----
@@ -55,7 +55,7 @@ Folders "/a/b/x" and "/w" (and their subfolders) are marked for deletion because
 Note that folders "/a" and "/c" are identical after the deletion, but they are not deleted because they were not marked beforehand.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/07/19/lc-dupfolder3.jpg" style="width: 200px; height: 201px;" />
 [subs="verbatim,quotes"]
 ----

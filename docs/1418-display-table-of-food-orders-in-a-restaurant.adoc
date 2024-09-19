@@ -8,7 +8,7 @@ Given the array `orders`, which represents the orders that customers have done i
 _Return the restaurant's &ldquo;*display table*&rdquo;_. The &ldquo;*display table*&rdquo; is a table whose row entries denote how many of each food item each table ordered. The first column is the table number and the remaining columns correspond to each food item in alphabetical order. The first row should be a header whose first column is &ldquo;Table&rdquo;, followed by the names of the food items. Note that the customer names are not part of the table. Additionally, the rows should be sorted in numerically increasing order.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ For the table 5: Carla orders "Water" and "Ceviche".
 For the table 10: Corina orders "Beef Burrito". 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ For the table 1: Adam and Brianna order "Canadian Waffles".
 For the table 12: James, Ratesh and Amadeus order "Fried Chicken".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

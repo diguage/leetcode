@@ -10,7 +10,7 @@ Return _the index of the word in _`sentence`_ (*1-indexed*) where _`searchWord`_
 A *prefix* of a string `s` is any leading contiguous substring of `s`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ A *prefix* of a string `s` is any leading contiguous substring of `s`.
 *Explanation:* "burg" is prefix of "burger" which is the 4th word in the sentence.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ A *prefix* of a string `s` is any leading contiguous substring of `s`.
 *Explanation:* "pro" is prefix of "problem" which is the 2nd and the 6th word in the sentence, but we return 2 as it's the minimal index.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

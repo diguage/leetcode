@@ -12,7 +12,7 @@ Return_ an integer array _`count`_ of length _`points.length`_ where _`count[j]`
 The `i^th^` rectangle *contains* the `j^th^` point if `0 <= x<sub>j</sub> <= l<sub>i</sub>` and `0 <= y<sub>j</sub> <= h<sub>i</sub>`. Note that points that lie on the *edges* of a rectangle are also considered to be contained by that rectangle.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/03/02/example1.png" style="width: 300px; height: 509px;" />
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ The number of rectangles that contain the point (1, 4) is 1.
 Therefore, we return [2, 1].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/03/02/example2.png" style="width: 300px; height: 312px;" />
 [subs="verbatim,quotes"]
 ----

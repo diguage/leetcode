@@ -16,7 +16,7 @@ You are given an integer `n`, an array `languages`, and an array `friendships` w
 You can choose *one* language and teach it to some users so that all friends can communicate with each other. Return <i data-stringify-type="italic">the_ _*minimum* _<i data-stringify-type="italic">number of users you need to teach._
 Note that friendships are not transitive, meaning if `x` is a friend of `y` and `y` is a friend of `z`, this doesn't guarantee that `x` is a friend of `z`.
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Note that friendships are not transitive, meaning if `x` is a friend of `y` and 
 *Explanation:* You can either teach user 1 the second language or user 2 the first language.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -19,7 +19,7 @@ Return _a string representing the *best* type of *poker hand* you can make with 
 *Note* that the return values are *case-sensitive*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Return _a string representing the *best* type of *poker hand* you can make with 
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ Note that we could also make a "Pair" hand but "Three of a Kind" is a better han
 Also note that other cards could be used to make the "Three of a Kind" hand.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

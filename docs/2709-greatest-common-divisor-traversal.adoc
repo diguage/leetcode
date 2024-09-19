@@ -10,7 +10,7 @@ Your task is to determine if for *every pair* of indices `i` and `j` in nums, wh
 Return `true`_ if it is possible to traverse between all such pairs of indices,__ or _`false`_ otherwise._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ To go from index 0 to index 1, we can use the sequence of traversals 0 -> 2 -> 1
 To go from index 0 to index 2, we can just go directly because gcd(nums[0], nums[2]) = gcd(2, 6) = 2 > 1. Likewise, to go from index 1 to index 2, we can just go directly because gcd(nums[1], nums[2]) = gcd(3, 6) = 3 > 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ To go from index 0 to index 2, we can just go directly because gcd(nums[0], nums
 *Explanation:* No sequence of traversals can take us from index 0 to index 2 in this example. So, we return false.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -18,7 +18,7 @@ You are tasked with finding the optimal student-mentor pairings to *maximize* th
 Given `students` and `mentors`, return _the *maximum compatibility score sum* that can be achieved._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Given `students` and `mentors`, return _the *maximum compatibility score sum* th
 The compatibility score sum is 3 + 2 + 3 = 8.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -20,7 +20,7 @@ A *subsequence* of an array is a sequence that can be formed by removing some el
 Return _the *number* of *different* GCDs among all *non-empty* subsequences of_ `nums`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/03/17/image-1.png" style="width: 149px; height: 309px;" />
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _the *number* of *different* GCDs among all *non-empty* subsequences of_ 
 The different GCDs are 6, 10, 3, 2, and 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

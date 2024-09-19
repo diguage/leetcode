@@ -12,7 +12,7 @@ Note that the batteries cannot be recharged.
 Return _the *maximum* number of minutes you can run all the _`n`_ computers simultaneously._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/01/06/example1-fit.png" style="width: 762px; height: 150px;" />
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ We can run the two computers simultaneously for at most 4 minutes, so we return 
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/01/06/example2.png" style="width: 629px; height: 150px;" />
 [subs="verbatim,quotes"]
 ----

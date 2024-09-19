@@ -10,7 +10,7 @@ The array describes transactions, where each transaction must be completed exact
 Return_ the minimum amount of _`money`_ required before any transaction so that all of the transactions can be completed *regardless of the order* of the transactions._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Return_ the minimum amount of _`money`_ required before any transaction so that 
 It can be shown that starting with money < 10 will fail to complete all transactions in some order.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

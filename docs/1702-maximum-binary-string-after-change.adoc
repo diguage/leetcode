@@ -22,7 +22,7 @@ You are given a binary string `binary` consisting of only `0`'s or `1`'s. You ca
 _Return the *maximum binary string* you can obtain after any number of operations. Binary string `x` is greater than binary string `y` if `x`'s decimal representation is greater than `y`'s decimal representation._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ _Return the *maximum binary string* you can obtain after any number of operation
 "11[.underline]#00#11" -> "11[.underline]#10#11"
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

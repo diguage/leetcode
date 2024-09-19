@@ -10,7 +10,7 @@ Return `abs(i - start)`.
 It is *guaranteed* that `target` exists in `nums`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ It is *guaranteed* that `target` exists in `nums`.
 *Explanation:* nums[4] = 5 is the only value equal to target, so the answer is abs(4 - 3) = 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ It is *guaranteed* that `target` exists in `nums`.
 *Explanation:* nums[0] = 1 is the only value equal to target, so the answer is abs(0 - 0) = 0.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

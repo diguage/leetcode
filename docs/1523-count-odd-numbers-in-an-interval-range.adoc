@@ -6,7 +6,7 @@
 Given two non-negative integers `low` and `<font face="monospace">high`. Return the _count of odd numbers between _`low`_ and _`<font face="monospace">high`_ (inclusive)_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -15,7 +15,7 @@ Given two non-negative integers `low` and `<font face="monospace">high`. Return 
 *Explanation: *The odd numbers between 3 and 7 are [3,5,7].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -20,7 +20,7 @@ Determine the result of the game, and:
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Bob can only choose stone 0, and will only receive 2 points.
 Alice wins.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -43,7 +43,7 @@ If Alice takes stone 0, and Bob takes stone 1, they will both have 1 point.
 Draw.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ Return _the *length* of the longest palindrome that you can create_. If it is im
 A *palindrome* is a string that reads the same forward and backward.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ A *palindrome* is a string that reads the same forward and backward.
 Note that "clgglc" is another longest palindrome that can be created.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Note that "clgglc" is another longest palindrome that can be created.
 Note that "lcyttycl" is another longest palindrome that can be created.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

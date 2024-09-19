@@ -16,7 +16,7 @@ Return _an array _`answer`_ of size _`n`_ where _`answer[i]`_ is the *sum* of sc
 *Note* that a string is considered as a prefix of itself.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ The total is answer[2] = 2 + 1 = 3.
 The total is answer[3] = 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

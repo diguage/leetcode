@@ -10,7 +10,7 @@ We say that an integer x is *expressible* from `nums` if there exist some intege
 Return _the minimum *positive non-zero integer* that is not __expressible from _`nums`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return _the minimum *positive non-zero integer* that is not __expressible from _
 *Explanation:* 1 and 2 are already present in the array. We know that 3 is expressible, since nums[0] | nums[1] = 2 | 1 = 3. Since 4 is not expressible, we return 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

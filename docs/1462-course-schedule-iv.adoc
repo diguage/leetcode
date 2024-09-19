@@ -16,7 +16,7 @@ You are also given an array `queries` where `queries[j] = [u<sub>j</sub>, v<sub>
 Return _a boolean array _`answer`_, where _`answer[j]`_ is the answer to the _`j^th^`_ query._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/05/01/courses4-1-graph.jpg" style="width: 222px; height: 62px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _a boolean array _`answer`_, where _`answer[j]`_ is the answer to the _`j
 Course 0 is not a prerequisite of course 1, but the opposite is true.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Course 0 is not a prerequisite of course 1, but the opposite is true.
 *Explanation:* There are no prerequisites, and each course is independent.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/05/01/courses4-3-graph.jpg" style="width: 222px; height: 222px;" />
 [subs="verbatim,quotes"]
 ----

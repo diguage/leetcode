@@ -14,7 +14,7 @@ You are given two integer arrays `nums1` and `nums2` of equal length `n` and an 
 Return _the *minimum* number of operations required to make _`nums1`_ equal to _`nums2`. If it is impossible to make them equal, return `-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the *minimum* number of operations required to make _`nums1`_ equal to _
 One can prove that it is impossible to make arrays equal in fewer operations.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -14,7 +14,7 @@ Return _the *minimum* number of operations to make all elements of _`nums`_ equa
 The gcd of two integers is the greatest common divisor of the two integers.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ The gcd of two integers is the greatest common divisor of the two integers.
 - Choose index i = 2 and replace nums[3] with gcd(1,4) = 1. Now we have nums = [1,1,1,1].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

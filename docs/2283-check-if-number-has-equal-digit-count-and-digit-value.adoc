@@ -8,7 +8,7 @@ You are given a *0-indexed* string `num` of length `n` consisting of digits.
 Return `true` _if for *every* index _`i`_ in the range _`0 <= i < n`_, the digit _`i`_ occurs _`num[i]`_ times in _`num`_, otherwise return _`false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ num[3] = '0'. The digit 3 occurs zero times in num.
 The condition holds true for every index in "1210", so return true.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

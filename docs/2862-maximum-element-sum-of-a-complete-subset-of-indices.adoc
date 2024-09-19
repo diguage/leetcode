@@ -8,7 +8,7 @@ You are given a *1**-indexed* array `nums`. Your task is to select a *complete s
 Return the _sum_ of the complete subset with the _maximum sum_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [8,7,3,5,7,2,4,9]
@@ -20,7 +20,7 @@ Return the _sum_ of the complete subset with the _maximum sum_.
 We select elements at indices 2 and 8 and 2` * 8` is a perfect square.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [8,10,3,8,1,13,7,9,4]

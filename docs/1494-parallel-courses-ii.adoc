@@ -10,7 +10,7 @@ In one semester, you can take *at most* `k` courses as long as you have taken al
 Return _the *minimum* number of semesters needed to take all courses_. The testcases will be generated such that it is possible to take every course.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/05/22/leetcode_parallel_courses_1.png" style="width: 269px; height: 147px;" />
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ In the second semester, you can take course 1.
 In the third semester, you can take course 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/05/22/leetcode_parallel_courses_2.png" style="width: 271px; height: 211px;" />
 [subs="verbatim,quotes"]
 ----

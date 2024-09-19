@@ -15,7 +15,7 @@ The `i^th^` student will become happy if one of these two conditions is met:
 Return _the number of ways to select a group of students so that everyone remains happy._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ The class teacher selects both students to form the group.
 If the class teacher selects just one student to form a group then the both students will not be happy. Therefore, there are only two possible ways.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ Return _the *minimum* total distance between each house and its nearest mailbox_
 The test cases are generated so that the answer fits in a 32-bit integer.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/05/07/sample_11_1816.png" style="width: 454px; height: 154px;" />
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ The test cases are generated so that the answer fits in a 32-bit integer.
 Minimum total distance from each houses to nearest mailboxes is |3-1| + |4-3| + |9-8| + |10-9| + |20-20| = 5 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/05/07/sample_2_1816.png" style="width: 433px; height: 154px;" />
 [subs="verbatim,quotes"]
 ----

@@ -18,7 +18,7 @@ Return _the number of possible sets of closing branches, so that any branch has 
 *Note* that, multiple roads are allowed.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/11/08/example11.png" style="width: 221px; height: 191px;" />
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Return _the number of possible sets of closing branches, so that any branch has 
 It can be proven, that there are only 5 possible sets of closing branches.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/11/08/example22.png" style="width: 221px; height: 241px;" />
 [subs="verbatim,quotes"]
 ----
@@ -50,7 +50,7 @@ It can be proven, that there are only 5 possible sets of closing branches.
 It can be proven, that there are only 7 possible sets of closing branches.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

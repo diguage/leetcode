@@ -10,7 +10,7 @@ It is *guaranteed *that there are no consecutive repeating characters in the giv
 Return _the final string after all the conversions (possibly zero) have been made_. If there is more than one solution, return *any of them*. It can be shown that an answer is always possible with the given constraints.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return _the final string after all the conversions (possibly zero) have been mad
 *Explanation:* There are 25 solutions for this problem. From "azs" to "yzs", all are valid. Only "z" is an invalid modification as the string will consist of consecutive repeating characters in "zzs".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

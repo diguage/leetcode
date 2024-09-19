@@ -22,7 +22,7 @@ Merge the two arrays into one array that is sorted in ascending order by id, res
 Return _the resulting array_. The returned array must be sorted in ascending order by id.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Return _the resulting array_. The returned array must be sorted in ascending ord
 - id = 4, the value of this id is 5 + 1 = 6.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

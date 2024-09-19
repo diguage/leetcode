@@ -10,7 +10,7 @@ You can *remove* some of the bars in `hBars` from horizontal bars and some of th
 Return an integer denoting the *maximum area* of a _square-shaped_ hole in the grid, after removing some bars (possibly none).
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2023/11/05/screenshot-from-2023-11-05-22-40-25.png" style="width: 411px; height: 220px;" />
 
@@ -26,7 +26,7 @@ The left image shows the initial grid formed by the bars. The horizontal bars ar
 One way to get the maximum square-shaped hole is by removing horizontal bar 2 and vertical bar 2.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2023/11/04/screenshot-from-2023-11-04-17-01-02.png" style="width: 368px; height: 145px;" />
 
@@ -40,7 +40,7 @@ One way to get the maximum square-shaped hole is by removing horizontal bar 2 an
 To get the maximum square-shaped hole, we remove horizontal bar 2 and vertical bar 2.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2024/03/12/unsaved-image-2.png" style="width: 648px; height: 218px;" />
 

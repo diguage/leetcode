@@ -15,7 +15,7 @@ You are given a *0-indexed* array of strings `details`. Each element of `details
 Return _the number of passengers who are *strictly **more than 60 years old*._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the number of passengers who are *strictly **more than 60 years old*._
 *Explanation:* The passengers at indices 0, 1, and 2 have ages 75, 92, and 40. Thus, there are 2 people who are over 60 years old.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ Return _the *maximum* number of times_ `pattern` _can occur as a *subsequence* o
 A *subsequence* is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ However, strings such as "abdc[.underline]#*a*#dbc", "abd[.underline]#*c*#cdbc",
 It can be shown that it is not possible to get more than 4 subsequences "ac" by adding only one character.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

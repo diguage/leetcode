@@ -17,7 +17,7 @@ A path `(a, b)` is *valid* if there exists *exactly one* prime number among the 
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/08/27/example1.png" style="width: 440px; height: 357px;" />
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ A path `(a, b)` is *valid* if there exists *exactly one* prime number among the 
 It can be shown that there are only 4 valid paths.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/08/27/example2.png" style="width: 488px; height: 384px;" />
 [subs="verbatim,quotes"]
 ----

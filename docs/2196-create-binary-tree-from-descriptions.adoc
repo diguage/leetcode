@@ -15,7 +15,7 @@ Construct the binary tree described by `descriptions` and return _its *root*_.
 The test cases will be generated such that the binary tree is *valid*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/02/09/example1drawio.png" style="width: 300px; height: 236px;" />
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ The test cases will be generated such that the binary tree is *valid*.
 The resulting binary tree is shown in the diagram.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/02/09/example2drawio.png" style="width: 131px; height: 300px;" />
 [subs="verbatim,quotes"]
 ----

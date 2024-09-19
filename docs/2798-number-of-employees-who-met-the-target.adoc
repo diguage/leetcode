@@ -12,7 +12,7 @@ You are given a *0-indexed* array of non-negative integers `hours` of length `n`
 Return _the integer denoting the number of employees who worked at least_ `target` _hours_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Return _the integer denoting the number of employees who worked at least_ `targe
 There are 3 employees who met the target.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

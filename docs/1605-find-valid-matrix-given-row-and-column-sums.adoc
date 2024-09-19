@@ -10,7 +10,7 @@ Find any matrix of *non-negative* integers of size `rowSum.length x colSum.lengt
 Return _a 2D array representing *any* matrix that fulfills the requirements_. It's guaranteed that *at least one *matrix that fulfills the requirements exists.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Another possible matrix is: [[1,2],
                              [3,5]]
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

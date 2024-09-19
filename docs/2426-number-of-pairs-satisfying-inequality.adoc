@@ -13,7 +13,7 @@ You are given two *0-indexed* integer arrays `nums1` and `nums2`, each of size `
 Return_ the *number of pairs* that satisfy the conditions._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ There are 3 pairs that satisfy the conditions:
 Therefore, we return 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ Return _the *maximum* possible *product* of the lengths of the two palindromic s
 A *subsequence* is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters. A string is *palindromic* if it reads the same forward and backward.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="example-1" src="https://assets.leetcode.com/uploads/2021/08/24/two-palindromic-subsequences.png" style="width: 550px; height: 124px;" />
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ A *subsequence* is a string that can be derived from another string by deleting 
 The product of their lengths is: 3 * 3 = 9.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ The product of their lengths is: 3 * 3 = 9.
 The product of their lengths is: 1 * 1 = 1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

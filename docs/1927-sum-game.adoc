@@ -23,7 +23,7 @@ For Bob to win, the sum of the digits in the first half of `num` must be *equal*
 Assuming Alice and Bob play *optimally*, return `true` _if Alice will win and _`false` _if Bob will win_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Assuming Alice and Bob play *optimally*, return `true` _if Alice will win and _`
 The sum of the first half is equal to the sum of the second half: 5 + 0 = 2 + 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ The sum of the first half is equal to the sum of the second half: 5 + 0 = 2 + 3.
 *Explanation: *Alice can replace one of the '?'s with '9' and it will be impossible for Bob to make the sums equal.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

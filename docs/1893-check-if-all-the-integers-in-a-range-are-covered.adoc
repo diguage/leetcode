@@ -10,7 +10,7 @@ Return `true` _if each integer in the inclusive range_ `[left, right]` _is cover
 An integer `x` is covered by an interval `ranges[i] = [start<sub>i</sub>, end<sub>i</sub>]` if `start<sub>i</sub> <= x <= end<sub>i</sub>`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ An integer `x` is covered by an interval `ranges[i] = [start<sub>i</sub>, end<su
 - 5 is covered by the third range.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -16,7 +16,7 @@ Before performing your first trip, you can choose some *non-adjacent* nodes and 
 Return _the minimum total price sum to perform all the given trips_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/03/16/diagram2.png" style="width: 541px; height: 181px;" />
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ The total price sum of all trips is 6 + 7 + 10 = 23.
 It can be proven, that 23 is the minimum answer that we can achieve.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/03/16/diagram3.png" style="width: 456px; height: 111px;" />
 [subs="verbatim,quotes"]
 ----

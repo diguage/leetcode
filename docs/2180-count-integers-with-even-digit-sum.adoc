@@ -8,7 +8,7 @@ Given a positive integer `num`, return _the number of positive integers *less th
 The *digit sum* of a positive integer is the sum of all its digits.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ The *digit sum* of a positive integer is the sum of all its digits.
 The only integers less than or equal to 4 whose digit sums are even are 2 and 4.    
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

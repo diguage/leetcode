@@ -12,7 +12,7 @@ In each move, you may take an *unbroken* egg and drop it from any floor `x` (whe
 Return _the *minimum number of moves* that you need to determine *with certainty* what the value of _`f` is.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ If the second egg breaks but the first egg didn't, we know that f = 1.
 Otherwise, if both eggs survive, we know that f = 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -17,7 +17,7 @@ Find _the minimum number of edges you need to go through to collect all the coin
 Note that if you pass an edge several times, you need to count it into the answer several times.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/03/01/graph-2.png" style="width: 522px; height: 522px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Note that if you pass an edge several times, you need to count it into the answe
 *Explanation:* Start at vertex 2, collect the coin at vertex 0, move to vertex 3, collect the coin at vertex 5 then move back to vertex 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/03/02/graph-4.png" style="width: 522px; height: 522px;" />
 [subs="verbatim,quotes"]
 ----

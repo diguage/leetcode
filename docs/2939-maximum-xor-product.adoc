@@ -10,7 +10,7 @@ Since the answer may be too large, return it *modulo* `10^9 ^+ 7`.
 *Note* that `XOR` is the bitwise XOR operation.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ It can be shown that 98 is the maximum value of (a XOR x) * (b XOR x) for all 0 
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ It can be shown that 98 is the maximum value of (a XOR x) * (b XOR x) for all 0 
 It can be shown that 930 is the maximum value of (a XOR x) * (b XOR x) for all 0 <= x < 2^n^.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

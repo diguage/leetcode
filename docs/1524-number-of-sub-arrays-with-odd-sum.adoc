@@ -8,7 +8,7 @@ Given an array of integers `arr`, return _the number of subarrays with an *odd* 
 Since the answer can be very large, return it modulo `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ All sub-arrays sum are [1,4,9,3,8,5].
 Odd sums are [1,9,3,5] so the answer is 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ All sub-arrays sum are [2,6,12,4,10,6].
 All sub-arrays have even sum and the answer is 0.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

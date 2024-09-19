@@ -6,7 +6,7 @@
 Given the string `s`, return the size of the longest substring containing each vowel an even number of times. That is, 'a', 'e', 'i', 'o', and 'u' must appear an even number of times.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -15,7 +15,7 @@ Given the string `s`, return the size of the longest substring containing each v
 *Explanation: *The longest substring is "leetminicowor" which contains two each of the vowels: *e*, *i* and *o* and zero of the vowels: *a* and *u*.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Given the string `s`, return the size of the longest substring containing each v
 *Explanation:* The longest substring is "leetc" which contains two e's.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

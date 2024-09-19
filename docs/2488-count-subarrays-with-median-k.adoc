@@ -20,7 +20,7 @@ Return _the number of non-empty subarrays in _`nums`_ that have a *median* equal
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Return _the number of non-empty subarrays in _`nums`_ that have a *median* equal
 *Explanation:* The subarrays that have a median equal to 4 are: [4], [4,5] and [1,4,5].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

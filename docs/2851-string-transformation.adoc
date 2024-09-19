@@ -17,7 +17,7 @@ You are also given an integer `k`. Return _the number of ways in which _`s` _can
 Since the answer can be large, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ In first operation, choose suffix from index = 1, so resulting s = "bcda".
 In second operation, choose suffix from index = 1, so resulting s = "cdab".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

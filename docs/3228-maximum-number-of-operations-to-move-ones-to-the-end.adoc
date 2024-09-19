@@ -15,7 +15,7 @@ You can perform the following operation on the string *any* number of times:
 Return the *maximum* number of operations that you can perform.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "1001101"
@@ -34,7 +34,7 @@ We can perform the following operations:
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "00111"

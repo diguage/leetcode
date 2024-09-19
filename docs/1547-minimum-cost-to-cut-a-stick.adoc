@@ -14,7 +14,7 @@ The cost of one cut is the length of the stick to be cut, the total cost is the 
 Return _the minimum total cost_ of the cuts.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/07/23/e1.jpg" style="width: 350px; height: 284px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ The first cut is done to a rod of length 7 so the cost is 7. The second cut is d
 Rearranging the cuts to be [3, 5, 1, 4] for example will lead to a scenario with total cost = 16 (as shown in the example photo 7 + 4 + 3 + 2 = 16).
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

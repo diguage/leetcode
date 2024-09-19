@@ -16,7 +16,7 @@ Return _the most frequent <span data-keyword="prime-number">prime number *greate
 *Note:* It is invalid to change the direction during the move.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 *<img alt="" src="https://assets.leetcode.com/uploads/2024/02/15/south" style="width: 641px; height: 291px;" /> *
 
 [subs="verbatim,quotes"]
@@ -35,7 +35,7 @@ Numbers greater than 10 created from the cell (2,1) in all possible directions a
 The most frequent prime number among all the created numbers is 19.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -44,7 +44,7 @@ The most frequent prime number among all the created numbers is 19.
 *Explanation:* The only number which can be formed is 7. It is a prime number however it is not greater than 10, so return -1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

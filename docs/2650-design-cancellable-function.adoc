@@ -29,7 +29,7 @@ promise.catch(console.log); // logs "Cancelled" at t=50ms
 If instead `cancel()` was not called or was called after `t=100ms`, the promise would have resolved `5`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -49,7 +49,7 @@ The generator immediately yields 42 and finishes. Because of that, the returned 
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -65,7 +65,7 @@ A promise is yielded. The function handles this by waiting for it to resolve and
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----
@@ -81,7 +81,7 @@ While the function is waiting for the yielded promise to resolve, cancel() is ca
 
 ----
 
-<strong class="example">Example 4:*
+*Example 4:*
 
 [subs="verbatim,quotes"]
 ----
@@ -101,7 +101,7 @@ cancelledAt = null
 
 ----
 
-<strong class="example">Example 5:*
+*Example 5:*
 
 [subs="verbatim,quotes"]
 ----
@@ -125,7 +125,7 @@ The first two yielded promises resolve and cause the result to increment. Howeve
 
 ----
 
-<strong class="example">Example 6:*
+*Example 6:*
 
 [subs="verbatim,quotes"]
 ----

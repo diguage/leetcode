@@ -10,7 +10,7 @@ The `i^th^` player can *match* with the `j^th^` trainer if the player's ability 
 Return _the *maximum* number of matchings between _`players`_ and _`trainers`_ that satisfy these conditions._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ One of the ways we can form two matchings is as follows:
 It can be proven that 2 is the maximum number of matchings that can be formed.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

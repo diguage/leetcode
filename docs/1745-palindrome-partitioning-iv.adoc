@@ -8,7 +8,7 @@ Given a string `s`, return `true` _if it is possible to split the string_ `s` _i
 A string is said to be palindrome if it the same string when reversed.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ A string is said to be palindrome if it the same string when reversed.
 *Explanation: *"abcbdd" = "a" + "bcb" + "dd", and all three substrings are palindromes.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

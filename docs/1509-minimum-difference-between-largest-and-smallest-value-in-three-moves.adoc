@@ -10,7 +10,7 @@ In one move, you can choose one element of `nums` and change it to *any value*.
 Return _the minimum difference between the largest and smallest value of `nums` *after performing at most three moves*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ After performing 3 moves, the difference between the minimum and maximum is 3 - 
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ After performing 3 moves, the difference between the minimum and maximum is 1 - 
 It can be shown that there is no way to make the difference 0 in 3 moves.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

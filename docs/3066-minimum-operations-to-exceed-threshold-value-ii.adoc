@@ -18,7 +18,7 @@ In one operation, you will:
 Return _the *minimum* number of operations needed so that all elements of the array are greater than or equal to_ `k`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ It can be shown that 2 is the minimum number of operations needed so that all el
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

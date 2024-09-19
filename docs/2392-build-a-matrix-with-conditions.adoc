@@ -24,7 +24,7 @@ The matrix should also satisfy the following conditions:
 Return _*any* matrix that satisfies the conditions_. If no answer exists, return an empty matrix.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/07/06/gridosdrawio.png" style="width: 211px; height: 211px;" />
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ The column conditions are the following:
 Note that there may be multiple correct answers.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

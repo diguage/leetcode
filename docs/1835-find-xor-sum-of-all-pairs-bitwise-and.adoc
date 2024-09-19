@@ -16,7 +16,7 @@ Consider the list containing the result of `arr1[i] AND arr2[j]` (bitwise `AND`)
 Return _the *XOR sum* of the aforementioned list_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the *XOR sum* of the aforementioned list_.
 The XOR sum = 0 XOR 1 XOR 2 XOR 0 XOR 2 XOR 1 = 0.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

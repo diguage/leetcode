@@ -10,7 +10,7 @@ A split is called *good* if you can split `s` into two non-empty strings `s<sub>
 Return _the number of *good splits* you can make in `s`_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the number of *good splits* you can make in `s`_.
 ("aacab", "a") Left string and right string contains 3 and 1 different letters respectively.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

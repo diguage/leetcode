@@ -17,7 +17,7 @@ While moving from building `i` to building `i+1` (*0-indexed*),
 _Return the furthest building index (0-indexed) you can reach if you use the given ladders and bricks optimally._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/10/27/q4.gif" style="width: 562px; height: 561px;" />
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ _Return the furthest building index (0-indexed) you can reach if you use the giv
 It is impossible to go beyond building 4 because you do not have any more bricks or ladders.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -39,7 +39,7 @@ It is impossible to go beyond building 4 because you do not have any more bricks
 *Output:* 7
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

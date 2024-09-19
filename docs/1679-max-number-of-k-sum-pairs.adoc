@@ -10,7 +10,7 @@ In one operation, you can pick two numbers from the array whose sum equals `k` a
 Return _the maximum number of operations you can perform on the array_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the maximum number of operations you can perform on the array_.
 There are no more pairs that sum up to 5, hence a total of 2 operations.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

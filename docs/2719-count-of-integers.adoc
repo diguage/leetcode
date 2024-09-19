@@ -15,7 +15,7 @@ Return _the number of good integers_. Since the answer may be large, return it m
 Note that `digit_sum(x)` denotes the sum of the digits of `x`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Note that `digit_sum(x)` denotes the sum of the digits of `x`.
 *Explanation:* There are 11 integers whose sum of digits lies between 1 and 8 are 1,2,3,4,5,6,7,8,10,11, and 12. Thus, we return 11.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

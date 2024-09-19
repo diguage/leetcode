@@ -20,7 +20,7 @@ Given an array of asynchronous functions `functions`, return a new promise `prom
 Please solve it without using the built-in `Promise.all` function.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ promiseAll(functions).then(console.log); // [5]
 The single function was resolved at 200ms with a value of 5.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -46,7 +46,7 @@ The single function was resolved at 200ms with a value of 5.
 *Explanation:* Since one of the promises rejected, the returned promise also rejected with the same error at the same time.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

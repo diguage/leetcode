@@ -19,7 +19,7 @@ You are given the strings `key` and `message`, which represent a cipher key and 
 Return _the decoded message_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/05/08/ex1new4.jpg" style="width: 752px; height: 150px;" />
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Return _the decoded message_.
 It is obtained by taking the first appearance of each letter in "[.underline]#*the*# [.underline]#*quick*# [.underline]#*brown*# [.underline]#*f*#o[.underline]#*x*# [.underline]#*j*#u[.underline]#*mps*# o[.underline]#*v*#er the [.underline]#*lazy*# [.underline]#*d*#o[.underline]#*g*#".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/05/08/ex2new.jpg" style="width: 754px; height: 150px;" />
 [subs="verbatim,quotes"]
 ----

@@ -8,7 +8,7 @@ You are given a string `word`. A letter `c` is called *special* if it appears *b
 Return the number of_ _*special* letters_ _in_ _`word`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">word = "aaAbcBC"
@@ -20,7 +20,7 @@ Return the number of_ _*special* letters_ _in_ _`word`.
 The special characters are `'a'`, `'b'`, and `'c'`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">word = "abc"
@@ -32,7 +32,7 @@ The special characters are `'a'`, `'b'`, and `'c'`.
 There are no special characters in `word`.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">word = "AbBCab"

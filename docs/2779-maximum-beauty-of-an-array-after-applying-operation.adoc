@@ -21,7 +21,7 @@ Return _the *maximum* possible beauty of the array _`nums`_ after applying the o
 A *subsequence* of an array is a new array generated from the original array by deleting some elements (possibly none) without changing the order of the remaining elements.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ After the applied operations, the beauty of the array nums is 3 (subsequence con
 It can be proven that 3 is the maximum possible length we can achieve.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

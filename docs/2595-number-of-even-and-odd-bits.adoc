@@ -14,7 +14,7 @@ Note that bits are indexed from *right to left* in the binary representation of 
 Return the array `[even, odd]`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 50
@@ -28,7 +28,7 @@ The binary representation of 50 is `110010`.
 It contains 1 on indices 1, 4, and 5.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 2

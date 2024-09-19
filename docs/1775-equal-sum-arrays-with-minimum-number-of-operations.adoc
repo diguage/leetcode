@@ -10,7 +10,7 @@ In one operation, you can change any integer's value in *any *of the arrays to *
 Return _the minimum number of operations required to make the sum of values in _`nums1`_ equal to the sum of values in _`nums2`_._ Return `-1`​​​​​ if it is not possible to make the sum of the two arrays equal.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the minimum number of operations required to make the sum of values in _
 - Change nums1[2] to 2. nums1 = [1,2,*[.underline]#2#*,4,5,1], nums2 = [6,1,2,2,2,2].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Return _the minimum number of operations required to make the sum of values in _
 *Explanation:* There is no way to decrease the sum of nums1 or to increase the sum of nums2 to make them equal.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

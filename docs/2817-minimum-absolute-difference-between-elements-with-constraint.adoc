@@ -12,7 +12,7 @@ In other words, find two indices `i` and `j` such that `abs(i - j) >= x` and `ab
 Return_ an integer denoting the *minimum* absolute difference between two elements that are at least_ `x` _indices apart_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ They are at least 2 indices apart, and their absolute difference is the minimum,
 It can be shown that 0 is the optimal answer.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ They are at least 1 index apart, and their absolute difference is the minimum, 1
 It can be shown that 1 is the optimal answer.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

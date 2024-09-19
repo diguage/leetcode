@@ -47,7 +47,7 @@ Return the result table ordered by `employee_id` *in ascending order*.
 The result format is in the following example.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----

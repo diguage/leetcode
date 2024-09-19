@@ -20,7 +20,7 @@ The array describes the questions of an exam, where you have to process the ques
 Return _the *maximum* points you can earn for the exam_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Return _the *maximum* points you can earn for the exam_.
 Total points earned: 3 + 2 = 5. There is no other way to earn 5 or more points.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

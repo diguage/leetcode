@@ -15,7 +15,7 @@ Implement the `BrowserHistory` class:
 
 
  
-<strong class="example">Example:*
+*Example:*
 
 [subs="verbatim,quotes"]
 ----

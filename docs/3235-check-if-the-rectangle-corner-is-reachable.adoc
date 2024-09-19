@@ -10,7 +10,7 @@ There is a rectangle in the coordinate plane with its bottom left corner at the 
 Return `true` if such a path exists, and `false` otherwise.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">xCorner = 3, yCorner = 4, circles = [[2,1,1]]
@@ -24,7 +24,7 @@ Return `true` if such a path exists, and `false` otherwise.
 The black curve shows a possible path between `(0, 0)` and `(3, 4)`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">xCorner = 3, yCorner = 3, circles = [[1,1,2]]
@@ -38,7 +38,7 @@ The black curve shows a possible path between `(0, 0)` and `(3, 4)`.
 No path exists from `(0, 0)` to `(3, 3)`.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">xCorner = 3, yCorner = 3, circles = [[2,1,1],[1,2,1]]
@@ -52,7 +52,7 @@ No path exists from `(0, 0)` to `(3, 3)`.
 No path exists from `(0, 0)` to `(3, 3)`.
 
 
-<strong class="example">Example 4:*
+*Example 4:*
 
 <div class="example-block">
 *Input:* <span class="example-io">xCorner = 4, yCorner = 4, circles = [[5,5,1]]

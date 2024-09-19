@@ -22,7 +22,7 @@ Your task is to test each device `i` *in order* from `0` to `n - 1`, by performi
 Return _an integer denoting the number of devices that will be tested after performing the test operations in order._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ At device 4, batteryPercentages[4] > 0, so there are now 3 tested devices, and b
 So, the answer is 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

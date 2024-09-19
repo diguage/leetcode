@@ -19,7 +19,7 @@ Note that *^* denotes the *bitwise-xor* operation.
 Return _the number of triplets_ (`i`, `j` and `k`) Where `a == b`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _the number of triplets_ (`i`, `j` and `k`) Where `a == b`.
 *Explanation:* The triplets are (0,1,2), (0,2,2), (2,3,4) and (2,4,4)
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ Return _the *total* number of powerful integers in the range_ `[start..finish]`.
 A string `x` is a suffix of a string `y` if and only if `x` is a substring of `y` that starts from some index (*including *`0`) in `y` and extends to the index `y.length - 1`. For example, `25` is a suffix of `5125` whereas `512` is not.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ A string `x` is a suffix of a string `y` if and only if `x` is a substring of `y
 It can be shown that there are only 5 powerful integers in this range.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ It can be shown that there are only 5 powerful integers in this range.
 It can be shown that there are only 2 powerful integers in this range.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

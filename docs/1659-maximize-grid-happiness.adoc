@@ -19,7 +19,7 @@ Neighbors live in the directly adjacent cells north, east, south, and west of a 
 The *grid happiness* is the *sum* of each person's happiness. Return_ the *maximum possible grid happiness*._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/11/05/grid_happiness.png" style="width: 261px; height: 121px;" />
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ The grid happiness is 120 + 60 + 60 = 240.
 The above figure shows the grid in this example with each person's happiness. The introvert stays in the light green cell while the extroverts live on the light purple cells.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -47,7 +47,7 @@ The above figure shows the grid in this example with each person's happiness. Th
 The grid happiness is 90 + 80 + 90 = 260.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

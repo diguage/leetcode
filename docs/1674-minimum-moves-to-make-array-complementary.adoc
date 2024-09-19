@@ -10,7 +10,7 @@ The array `nums` is *complementary* if for all indices `i` (*0-indexed*), `nums[
 Return the _*minimum* number of moves required to make _`nums`_ *complementary*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ nums[3] + nums[0] = 3 + 1 = 4.
 Therefore, nums[i] + nums[n-1-i] = 4 for every i, so nums is complementary.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Therefore, nums[i] + nums[n-1-i] = 4 for every i, so nums is complementary.
 *Explanation:* In 2 moves, you can change nums to [[.underline]#2#,2,2,[.underline]#2#]. You cannot change any number to 3 since 3 > limit.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

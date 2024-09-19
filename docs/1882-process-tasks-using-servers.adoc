@@ -18,7 +18,7 @@ Build an array `ans`​​​​ of length `m`, where `ans[j]` is the *index* of
 Return _the array _`ans`​​​​.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Return _the array _`ans`​​​​.
 - At second 5, all servers become free. Task 5 is added and processed using server 2 until second 7.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

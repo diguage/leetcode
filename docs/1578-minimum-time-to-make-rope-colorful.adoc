@@ -10,7 +10,7 @@ Alice wants the rope to be *colorful*. She does not want *two consecutive balloo
 Return _the *minimum time* Bob needs to make the rope *colorful*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/13/ballon1.jpg" style="width: 404px; height: 243px;" />
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Bob can remove the blue balloon at index 2. This takes 3 seconds.
 There are no longer two consecutive balloons of the same color. Total time = 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/13/balloon2.jpg" style="width: 244px; height: 243px;" />
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ There are no longer two consecutive balloons of the same color. Total time = 3.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/13/balloon3.jpg" style="width: 404px; height: 243px;" />
 [subs="verbatim,quotes"]
 ----

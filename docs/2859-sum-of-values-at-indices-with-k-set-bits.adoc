@@ -14,7 +14,7 @@ The *set bits* in an integer are the `1`'s present when it is written in binary.
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ The *set bits* in an integer are the `1`'s present when it is written in binary.
 Hence, the answer is nums[1] + nums[2] + nums[4] = 13.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

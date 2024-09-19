@@ -21,7 +21,7 @@ Your penalty is the *maximum* number of balls in a bag. You want to *minimize* y
 Return _the minimum possible penalty after performing the operations_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Return _the minimum possible penalty after performing the operations_.
 The bag with the most number of balls has 3 balls, so your penalty is 3 and you should return 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

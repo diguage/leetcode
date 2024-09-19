@@ -8,7 +8,7 @@ Given an integer array `nums` containing *distinct* *positive* integers, find an
 Return _the selected integer._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Return _the selected integer._
 *Explanation:* In this example, the minimum value is 1 and the maximum value is 4. Therefore, either 2 or 3 can be valid answers.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the selected integer._
 *Explanation:* Since there is no number in nums that is neither the maximum nor the minimum, we cannot select a number that satisfies the given condition. Therefore, there is no answer.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

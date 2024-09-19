@@ -13,7 +13,7 @@ A pair `(i, j)` is *fair *if:
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ A pair `(i, j)` is *fair *if:
 *Explanation:* There are 6 fair pairs: (0,3), (0,4), (0,5), (1,3), (1,4), and (1,5).
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

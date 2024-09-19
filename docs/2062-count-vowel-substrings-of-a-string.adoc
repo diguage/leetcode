@@ -10,7 +10,7 @@ A *vowel substring* is a substring that *only* consists of vowels (`'a'`, `'e'`,
 Given a string `word`, return _the number of *vowel substrings* in_ `word`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Given a string `word`, return _the number of *vowel substrings* in_ `word`.
 - "*[.underline]#aeiouu#*"
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Given a string `word`, return _the number of *vowel substrings* in_ `word`.
 *Explanation:* Not all 5 vowels are present, so there are no vowel substrings.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

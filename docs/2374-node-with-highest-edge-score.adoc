@@ -12,7 +12,7 @@ The *edge score* of a node `i` is defined as the sum of the *labels* of all the 
 Return _the node with the highest *edge score*_. If multiple nodes have the same *edge score*, return the node with the *smallest* index.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img src="https://assets.leetcode.com/uploads/2022/06/20/image-20220620195403-1.png" style="width: 450px; height: 260px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the node with the highest *edge score*_. If multiple nodes have the same
 Node 7 has the highest edge score so return 7.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img src="https://assets.leetcode.com/uploads/2022/06/20/image-20220620200212-3.png" style="width: 150px; height: 155px;" />
 [subs="verbatim,quotes"]
 ----

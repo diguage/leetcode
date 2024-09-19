@@ -10,7 +10,7 @@ In the string `time`, the digits represented by the `?` symbol are *unknown*, an
 Return_ an integer _`answer`_, the number of valid clock times that can be created by replacing every _`?`_ with a digit from _`0`_ to _`9`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return_ an integer _`answer`_, the number of valid clock times that can be creat
 *Explanation:* We can replace the ? with either a 0 or 1, producing "05:00" or "15:00". Note that we cannot replace it with a 2, since the time "25:00" is invalid. In total, we have two choices.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return_ an integer _`answer`_, the number of valid clock times that can be creat
 *Explanation:* Each ? can be replaced by any digit from 0 to 9, so we have 100 total choices.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

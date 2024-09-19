@@ -10,7 +10,7 @@ A *pattern* is a subarray (consecutive sub-sequence) that consists of one or mor
 Return `true` _if there exists a pattern of length_ `m` _that is repeated_ `k` _or more times, otherwise return_ `false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return `true` _if there exists a pattern of length_ `m` _that is repeated_ `k` _
 *Explanation: *The pattern *(4)* of length 1 is repeated 4 consecutive times. Notice that pattern can be repeated k or more times but not less.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return `true` _if there exists a pattern of length_ `m` _that is repeated_ `k` _
 *Explanation: *The pattern *(1,2)* of length 2 is repeated 2 consecutive times. Another valid pattern *(2,1) is* also repeated 2 times.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

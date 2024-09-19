@@ -14,7 +14,7 @@ Initially, all of the indices are unmarked. You are allowed to make this operati
 Return _the maximum possible number of marked indices in `nums` using the above operation any number of times_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the maximum possible number of marked indices in `nums` using the above 
 It can be shown that there's no other valid operation so the answer is 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ In the second operation: pick i = 1 and j = 2, the operation is allowed because 
 Since there is no other operation, the answer is 4.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -14,7 +14,7 @@ Return _the *minimum* number of operations to make _`n`_ equal to _`0`.
 A number `x` is power of `2` if `x == 2^i^` where `i >= 0`_._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ A number `x` is power of `2` if `x == 2^i^` where `i >= 0`_._
 It can be shown that 3 is the minimum number of operations we need to make n equal to 0.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

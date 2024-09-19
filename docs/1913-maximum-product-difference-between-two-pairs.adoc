@@ -14,7 +14,7 @@ Given an integer array `nums`, choose four *distinct* indices `w`, `x`, `y`, and
 Return _the *maximum* such product difference_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the *maximum* such product difference_.
 The product difference is (6 * 7) - (2 * 4) = 34.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

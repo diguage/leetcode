@@ -8,7 +8,7 @@ You are given an `m x n` integer grid `accounts` where `accounts[i][j]` is the a
 A customer's *wealth* is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum *wealth*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ A customer's *wealth* is the amount of money they have in all their bank account
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ A customer's *wealth* is the amount of money they have in all their bank account
 The 2nd customer is the richest with a wealth of 10.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

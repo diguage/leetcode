@@ -18,7 +18,7 @@ Return_ the number of *beautiful* partitions of _`s`. Since the answer may be ve
 A *substring* is a contiguous sequence of characters within a string.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ A *substring* is a contiguous sequence of characters within a string.
 "2354218 | 51 | 31"
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -39,7 +39,7 @@ A *substring* is a contiguous sequence of characters within a string.
 *Explanation:* There exists one way to create a beautiful partition: "2354 | 218 | 5131".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

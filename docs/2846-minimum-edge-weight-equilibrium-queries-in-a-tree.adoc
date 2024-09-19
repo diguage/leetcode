@@ -17,7 +17,7 @@ You are also given a 2D integer array `queries` of length `m`, where `queries[i]
 Return _an array _`answer`_ of length _`m`_ where_ `answer[i]` _is the answer to the_ `i^th^` _query._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/08/11/graph-6-1.png" style="width: 339px; height: 344px;" />
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ In the fourth query, we change the weights of edges [0,1], [1,2] and [2,3] to 2.
 For each queries[i], it can be shown that answer[i] is the minimum number of operations needed to equalize all the edge weights in the path from a<sub>i</sub> to b<sub>i</sub>.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/08/11/graph-9-1.png" style="width: 472px; height: 370px;" />
 [subs="verbatim,quotes"]
 ----

@@ -16,7 +16,7 @@ Access times at the start and end of the day are *not* counted within the same o
 Return _a list that contains the names of *high-access* employees with any order you want._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ But "b" does not have more than two access times at all.
 So the answer is ["a"].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ So the answer is ["a"].
 However, "e" has just one access time, so it can not be in the answer and the final answer is ["c","d"].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

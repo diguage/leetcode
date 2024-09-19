@@ -12,7 +12,7 @@ Given an array `arr` of integers, check if there exist two indices `i` and `j` s
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Given an array `arr` of integers, check if there exist two indices `i` and `j` s
 *Explanation:* For i = 0 and j = 2, arr[i] == 10 == 2 * 5 == 2 * arr[j]
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

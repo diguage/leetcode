@@ -12,7 +12,7 @@ You are given `n` feedback reports, represented by a *0-indexed* string array `r
 Given an integer `k`, return _the top _`k`_ students after ranking them in *non-increasing* order by their points_. In case more than one student has the same points, the one with the lower ID ranks higher.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Given an integer `k`, return _the top _`k`_ students after ranking them in *non-
 Both the students have 1 positive feedback and 3 points but since student 1 has a lower ID he ranks higher.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

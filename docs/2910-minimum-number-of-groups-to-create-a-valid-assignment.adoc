@@ -13,7 +13,7 @@ You are given a collection of numbered `balls` and instructed to sort them into 
 ​Return the _fewest number of boxes_ to sort these balls following these rules.
 
  
-<strong class="example">Example 1: *
+*Example 1: *
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 *Input: * <span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;"> balls = [3,2,3,2,3] 
@@ -32,7 +32,7 @@ We can sort `balls` into boxes as follows:
 The size difference between the two boxes doesn't exceed one.
 
 
-<strong class="example">Example 2: *
+*Example 2: *
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 *Input: * <span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;"> balls = [10,10,10,3,1,1] 

@@ -10,7 +10,7 @@ You can only build *one room* at a time, and you can travel freely between rooms
 Return _the *number of different orders* you can build all the rooms in_. Since the answer may be large, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/06/19/d1.JPG" style="width: 200px; height: 212px;" />
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return _the *number of different orders* you can build all the rooms in_. Since 
 *Explanation:* There is only one way to build the additional rooms: 0 &rarr; 1 &rarr; 2
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 *<img alt="" src="https://assets.leetcode.com/uploads/2021/06/19/d2.JPG" style="width: 200px; height: 239px;" />*
 
 [subs="verbatim,quotes"]

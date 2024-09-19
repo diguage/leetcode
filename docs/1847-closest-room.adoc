@@ -17,7 +17,7 @@ If there is a *tie* in the absolute difference, then use the room with the *smal
 Return _an array _`answer`_ of length _`k`_ where _`answer[j]`_ contains the answer to the _`j^th^`_ query_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Query = [3,3]: There are no rooms with a size of at least 3, so the answer is -1
 Query = [5,2]: Room number 3 is the closest as abs(3 - 5) = 2, and its size of 2 is at least 2. The answer is 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

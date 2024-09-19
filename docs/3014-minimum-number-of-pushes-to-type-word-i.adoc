@@ -14,7 +14,7 @@ Return _the *minimum* number of pushes needed to type _`word` _after remapping t
 An example mapping of letters to keys on a telephone keypad is given below. Note that `1`, `*`, `#`, and `0` do *not* map to any letters.
 <img alt="" src="https://assets.leetcode.com/uploads/2023/12/26/keypaddesc.png" style="width: 329px; height: 313px;" />
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/12/26/keypadv1e1.png" style="width: 329px; height: 313px;" />
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Total cost is 1 + 1 + 1 + 1 + 1 = 5.
 It can be shown that no other mapping can provide a lower cost.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/12/26/keypadv1e2.png" style="width: 329px; height: 313px;" />
 [subs="verbatim,quotes"]
 ----

@@ -15,7 +15,7 @@ Some valid and invalid cuts are shown in the figures below.
 Given the integer `n`, return _the *minimum* number of cuts needed to divide a circle into _`n`_ equal slices_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/10/24/11drawio.png" style="width: 200px; height: 200px;" />
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Given the integer `n`, return _the *minimum* number of cuts needed to divide a c
 The above figure shows how cutting the circle twice through the middle divides it into 4 equal slices.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/10/24/22drawio.png" style="width: 200px; height: 201px;" />
 [subs="verbatim,quotes"]
 ----

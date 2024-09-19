@@ -25,7 +25,7 @@ Given that you can only move the white pieces, return _the *minimum* number of m
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/12/21/ex1.png" style="width: 600px; height: 600px; padding: 10px; background: #fff; border-radius: .5rem;" />
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Given that you can only move the white pieces, return _the *minimum* number of m
 It is impossible to capture the black queen in less than two moves since it is not being attacked by any of the pieces at the beginning.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/12/21/ex2.png" style="width: 600px; height: 600px;padding: 10px; background: #fff; border-radius: .5rem;" />
 [subs="verbatim,quotes"]
 ----

@@ -8,7 +8,7 @@ Given `n` points on a 1-D plane, where the `i^th^` point (from `0` to `n-1`) is 
 Return _the number of ways we can draw _`k`_ non-overlapping line segments__._ Since this number can be huge, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/07/ex1.png" style="width: 179px; height: 222px;" />
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ Return _the number of ways we can draw _`k`_ non-overlapping line segments__._ S
 The image above shows the 5 different ways {(0,2),(2,3)}, {(0,1),(1,3)}, {(0,1),(2,3)}, {(1,2),(2,3)}, {(0,1),(1,2)}.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ The image above shows the 5 different ways {(0,2),(2,3)}, {(0,1),(1,3)}, {(0,1),
 *Explanation:* The 3 ways are {(0,1)}, {(0,2)}, {(1,2)}.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

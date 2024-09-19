@@ -20,7 +20,7 @@ The *score difference* between Alice and Bob is `(Alice's score - Bob's score)`.
 Given an integer array `stones` of length `n` where `stones[i]` represents the value of the `i^th^` stone *from the left*, return _the *score difference* between Alice and Bob if they both play *optimally*._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ Given an integer array `stones` of length `n` where `stones[i]` represents the v
 The difference between their scores is 2 - (-3) = 5.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -46,7 +46,7 @@ The difference between their scores is 2 - (-3) = 5.
 The difference between their scores is 13 - 0 = 13.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

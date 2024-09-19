@@ -18,7 +18,7 @@ Given `tasks` and `sessionTime`, return _the *minimum* number of *work sessions*
 The tests are generated such that `sessionTime` is *greater* than or *equal* to the *maximum* element in `tasks[i]`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ The tests are generated such that `sessionTime` is *greater* than or *equal* to 
 - Second work session: finish the third task in 3 hours.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ The tests are generated such that `sessionTime` is *greater* than or *equal* to 
 - Second work session: finish the last task in 1 hour.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

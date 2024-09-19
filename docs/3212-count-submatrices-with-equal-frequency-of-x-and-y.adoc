@@ -12,7 +12,7 @@ Given a 2D character matrix `grid`, where `grid[i][j]` is either `'X'`, `'Y'`, o
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [["X","Y","."],["Y",".","."]]
@@ -24,7 +24,7 @@ Given a 2D character matrix `grid`, where `grid[i][j]` is either `'X'`, `'Y'`, o
 *<img alt="" src="https://assets.leetcode.com/uploads/2024/06/07/examplems.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 175px; height: 350px;" />*
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [["X","X"],["X","Y"]]
@@ -36,7 +36,7 @@ Given a 2D character matrix `grid`, where `grid[i][j]` is either `'X'`, `'Y'`, o
 No submatrix has an equal frequency of `'X'` and `'Y'`.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [[".","."],[".","."]]

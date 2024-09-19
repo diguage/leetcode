@@ -12,7 +12,7 @@ You have to replace *all* the `"?"` characters in `s` with digits such that the 
 Return _the resulting string_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "1?:?4"
@@ -22,7 +22,7 @@ Return _the resulting string_.
 *Explanation:* The latest 12-hour format time we can achieve by replacing `"?"` characters is `"11:54"`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "0?:5?"

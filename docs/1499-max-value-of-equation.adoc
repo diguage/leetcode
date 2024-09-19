@@ -10,7 +10,7 @@ Return _the maximum value of the equation _`y<sub>i</sub> + y<sub>j</sub> + |x<s
 It is guaranteed that there exists at least one pair of points that satisfy the constraint `|x<sub>i</sub> - x<sub>j</sub>| <= k`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ It is guaranteed that there exists at least one pair of points that satisfy the 
 No other pairs satisfy the condition, so we return the max of 4 and 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

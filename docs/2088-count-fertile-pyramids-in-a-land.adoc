@@ -24,7 +24,7 @@ Some examples of valid and invalid pyramidal (and inverse pyramidal) plots are s
 Given a *0-indexed* `m x n` binary matrix `grid` representing the farmland, return _the *total number* of pyramidal and inverse pyramidal plots that can be found in_ `grid`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/22/1.JPG" style="width: 575px; height: 109px;" />
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ There are no inverse pyramidal plots in this grid.
 Hence total number of pyramidal and inverse pyramidal plots is 2 + 0 = 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/22/2.JPG" style="width: 502px; height: 120px;" />
 [subs="verbatim,quotes"]
 ----
@@ -45,7 +45,7 @@ Hence total number of pyramidal and inverse pyramidal plots is 2 + 0 = 2.
 Hence the total number of plots is 1 + 1 = 2.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/12/22/3.JPG" style="width: 676px; height: 148px;" />
 [subs="verbatim,quotes"]
 ----

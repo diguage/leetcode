@@ -17,7 +17,7 @@ Given an array `nums`, return _the *maximum alternating sum* of any subsequence 
 A *subsequence* of an array is a new array generated from the original array by deleting some elements (possibly none) without changing the remaining elements' relative order. For example, `[2,7,4]` is a subsequence of `[4,[.underline]#2#,3,[.underline]#7#,2,1,[.underline]#4#]` (the underlined elements), while `[2,4,2]` is not.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ A *subsequence* of an array is a new array generated from the original array by 
 *Explanation:* It is optimal to choose the subsequence [4,2,5] with alternating sum (4 + 5) - 2 = 7.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ A *subsequence* of an array is a new array generated from the original array by 
 *Explanation:* It is optimal to choose the subsequence [8] with alternating sum 8.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

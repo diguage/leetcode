@@ -16,7 +16,7 @@ Return _the *minimum* number of levels Alice should play to gain more points_. _
 *Note* that each player must play at least `1` level.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">possible = [1,0,1,0]
@@ -36,7 +36,7 @@ Let's look at all the levels that Alice can play up to:
 Alice must play a minimum of 1 level to gain more points.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">possible = [1,1,1,1,1]
@@ -57,7 +57,7 @@ Let's look at all the levels that Alice can play up to:
 Alice must play a minimum of 3 levels to gain more points.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">possible = [0,0]

@@ -14,7 +14,7 @@ You are given an array of `n` integers, `nums`, where there are at most `50` uni
 Return `true`_ if it is possible to distribute _`nums`_ according to the above conditions_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Return `true`_ if it is possible to distribute _`nums`_ according to the above c
 *Explanation:* The 0^th^ customer cannot be given two different integers.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Return `true`_ if it is possible to distribute _`nums`_ according to the above c
 *Explanation:* The 0^th^ customer is given [3,3]. The integers [1,2] are not used.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

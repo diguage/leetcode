@@ -18,7 +18,7 @@ As `code` is circular, the next element of `code[n-1]` is `code[0]`, and the pre
 Given the *circular* array `code` and an integer key `k`, return _the decrypted code to defuse the bomb_!
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Given the *circular* array `code` and an integer key `k`, return _the decrypted 
 *Explanation:* Each number is replaced by the sum of the next 3 numbers. The decrypted code is [7+1+4, 1+4+5, 4+5+7, 5+7+1]. Notice that the numbers wrap around.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ Given the *circular* array `code` and an integer key `k`, return _the decrypted 
 *Explanation:* When k is zero, the numbers are replaced by 0. 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

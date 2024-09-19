@@ -5,7 +5,7 @@
 
 Write a function `argumentsLength` that returns the count of arguments passed to it.
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ argumentsLength(5); // 1
 One value was passed to the function so it should return 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

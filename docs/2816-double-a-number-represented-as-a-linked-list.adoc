@@ -8,7 +8,7 @@ You are given the `head` of a *non-empty* linked list representing a non-negativ
 Return _the _`head`_ of the linked list after *doubling* it_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/05/28/example.png" style="width: 401px; height: 81px;" />
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Return _the _`head`_ of the linked list after *doubling* it_.
 *Explanation:* The figure above corresponds to the given linked list which represents the number 189. Hence, the returned linked list represents the number 189 * 2 = 378.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/05/28/example2.png" style="width: 401px; height: 81px;" />
 [subs="verbatim,quotes"]
 ----

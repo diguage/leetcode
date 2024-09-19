@@ -12,7 +12,7 @@ Given two integers, `num` and `t`. A *number is achievable* if it can become equ
 Return the *maximum achievable number* after applying the operation at most `t` times.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">num = 4, t = 1
@@ -28,7 +28,7 @@ Apply the following operation once to make the maximum achievable number equal t
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">num = 3, t = 2

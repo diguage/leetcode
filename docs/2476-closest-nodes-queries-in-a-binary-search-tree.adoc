@@ -15,7 +15,7 @@ Find a *2D* array `answer` of size `n` where `answer[i] = [min<sub>i</sub>, max<
 Return _the array_ `answer`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/09/28/bstreeedrawioo.png" style="width: 261px; height: 281px;" />
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Return _the array_ `answer`.
 - The largest number that is smaller or equal than 16 in the tree is 15, and the smallest number that is greater or equal than 16 does not exist. So the answer for the third query is [15,-1].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/09/28/bstttreee.png" style="width: 101px; height: 121px;" />
 [subs="verbatim,quotes"]
 ----

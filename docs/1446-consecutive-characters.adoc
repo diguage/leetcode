@@ -8,7 +8,7 @@ The *power* of the string is the maximum length of a non-empty substring that co
 Given a string `s`, return _the *power* of_ `s`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Given a string `s`, return _the *power* of_ `s`.
 *Explanation:* The substring "ee" is of length 2 with the character 'e' only.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

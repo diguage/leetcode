@@ -8,7 +8,7 @@ You are given an array `heights` of `n` integers representing the number of bric
 Return the *maximum possible sum* of heights of a mountain-shaped tower arrangement.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">heights = [5,3,4,1,1]
@@ -20,7 +20,7 @@ Return the *maximum possible sum* of heights of a mountain-shaped tower arrangem
 We remove some bricks to make `heights = [5,3,3,1,1]`, the peak is at index 0.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">heights = [6,5,3,9,2,7]
@@ -32,7 +32,7 @@ We remove some bricks to make `heights = [5,3,3,1,1]`, the peak is at index 0.
 We remove some bricks to make `heights = [3,3,3,9,2,2]`, the peak is at index 3.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">heights = [3,2,5,5,2,3]

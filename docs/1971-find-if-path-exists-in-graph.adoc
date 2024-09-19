@@ -10,7 +10,7 @@ You want to determine if there is a *valid path* that exists from vertex `source
 Given `edges` and the integers `n`, `source`, and `destination`, return `true`_ if there is a *valid path* from _`source`_ to _`destination`_, or _`false`_ otherwise__._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/08/14/validpath-ex1.png" style="width: 141px; height: 121px;" />
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Given `edges` and the integers `n`, `source`, and `destination`, return `true`_ 
 - 0 &rarr; 2
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/08/14/validpath-ex2.png" style="width: 281px; height: 141px;" />
 [subs="verbatim,quotes"]
 ----

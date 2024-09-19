@@ -15,7 +15,7 @@ Return _the *minimum cost *to make all characters of the string *equal*_.
 *Invert* a character means if its value is '0' it becomes '1' and vice-versa.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the *minimum cost *to make all characters of the string *equal*_.
 *Explanation:* Apply the second operation with `i = 2` to obtain `s = "0000" for a cost of 2`. It can be shown that 2 is the minimum cost to make all characters equal.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

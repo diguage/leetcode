@@ -8,7 +8,7 @@ You are given a circle represented as `(radius, xCenter, yCenter)` and an axis-a
 Return `true`_ if the circle and rectangle are overlapped otherwise return _`false`. In other words, check if there is *any* point `(x<sub>i</sub>, y<sub>i</sub>)` that belongs to the circle and the rectangle at the same time.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/02/20/sample_4_1728.png" style="width: 258px; height: 167px;" />
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Return `true`_ if the circle and rectangle are overlapped otherwise return _`fal
 *Explanation:* Circle and rectangle share the point (1,0).
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Return `true`_ if the circle and rectangle are overlapped otherwise return _`fal
 *Output:* false
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/02/20/sample_2_1728.png" style="width: 150px; height: 135px;" />
 [subs="verbatim,quotes"]
 ----

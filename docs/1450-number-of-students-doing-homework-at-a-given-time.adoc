@@ -10,7 +10,7 @@ The `ith` student started doing their homework at the time `startTime[i]` and fi
 Return _the number of students_ doing their homework at time `queryTime`. More formally, return the number of students where `queryTime` lays in the interval `[startTime[i], endTime[i]]` inclusive.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ The second student started doing homework at time 2 and finished at time 2 and a
 The third student started doing homework at time 3 and finished at time 7 and was the only student doing homework at time 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

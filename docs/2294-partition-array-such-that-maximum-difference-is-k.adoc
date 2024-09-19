@@ -10,7 +10,7 @@ Return _the *minimum *number of subsequences needed such that the difference bet
 A *subsequence* is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ The difference between the maximum and minimum value in the second subsequence i
 Since two subsequences were created, we return 2. It can be shown that 2 is the minimum number of subsequences needed.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ The difference between the maximum and minimum value in the second subsequence i
 Since two subsequences were created, we return 2. Note that another optimal solution is to partition nums into the two subsequences [1] and [2,3].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

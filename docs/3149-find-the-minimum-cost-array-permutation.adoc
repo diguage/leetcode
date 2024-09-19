@@ -10,7 +10,7 @@ You are given an array `nums` which is a <span data-keyword="permutation">permut
 Return the permutation `perm` which has the *minimum* possible score. If _multiple_ permutations exist with this score, return the one that is <span data-keyword="lexicographically-smaller-array">lexicographically smallest among them.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,0,2]
@@ -24,7 +24,7 @@ Return the permutation `perm` which has the *minimum* possible score. If _multip
 The lexicographically smallest permutation with minimum cost is `[0,1,2]`. The cost of this permutation is `|0 - 0| + |1 - 2| + |2 - 1| = 2`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [0,2,1]

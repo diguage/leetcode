@@ -8,7 +8,7 @@ Given a string `word` to which you can insert letters "a", "b" or "c" anywhere a
 A string is called *valid *if it can be formed by concatenating the string "abc" several times.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ A string is called *valid *if it can be formed by concatenating the string "abc"
 *Explanation:* Insert the letter "a" right before "b", and the letter "c" right next to "b" to obtain the valid string "*a*b*c*".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ A string is called *valid *if it can be formed by concatenating the string "abc"
 *Explanation:* Insert letters "b" and "c" next to each "a" to obtain the valid string "a*bc*a*bc*a*bc*".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

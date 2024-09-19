@@ -5,7 +5,7 @@
 
 Given a *0-indexed* integer array `nums` of length `n` and an integer `k`, return _the *number of pairs*_ `(i, j)` _where_ `0 <= i < j < n`, _such that_ `nums[i] == nums[j]` _and_ `(i * j)` _is divisible by_ `k`.
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ There are 4 pairs that meet all the requirements:
 - nums[3] == nums[4], and 3 * 4 == 12, which is divisible by 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

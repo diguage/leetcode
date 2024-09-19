@@ -12,7 +12,7 @@ Bob found that he will always lose this game (poor Bob, he always loses), so he 
 Given an array of integers `stones` where `stones[i]` represents the value of the `i^th^` stone *from the left*, return _the *difference* in Alice and Bob's score if they both play *optimally*._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ The score difference is 18 - 12 = 6.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

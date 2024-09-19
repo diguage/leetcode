@@ -13,7 +13,7 @@ A square matrix is said to be an *X-Matrix* if *both* of the following condition
 Given a 2D integer array `grid` of size `n x n` representing a square matrix, return `true`_ if _`grid`_ is an X-Matrix_. Otherwise, return `false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/05/03/ex1.jpg" style="width: 311px; height: 320px;" />
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ An X-Matrix should have the green elements (diagonals) be non-zero and the red e
 Thus, grid is an X-Matrix.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/05/03/ex2.jpg" style="width: 238px; height: 246px;" />
 [subs="verbatim,quotes"]
 ----

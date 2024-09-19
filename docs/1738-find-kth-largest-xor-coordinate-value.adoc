@@ -10,7 +10,7 @@ The *value* of coordinate `(a, b)` of the matrix is the XOR of all `matrix[i][j]
 Find the `k^th^` largest value *(1-indexed)* of all the coordinates of `matrix`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Find the `k^th^` largest value *(1-indexed)* of all the coordinates of `matrix`.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Find the `k^th^` largest value *(1-indexed)* of all the coordinates of `matrix`.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

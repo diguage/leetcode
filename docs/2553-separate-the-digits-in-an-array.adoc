@@ -12,7 +12,7 @@ To separate the digits of an integer is to get all the digits it has in the same
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ To separate the digits of an integer is to get all the digits it has in the same
 answer = [1,3,2,5,8,3,7,7]. Note that answer contains the separations in the same order.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

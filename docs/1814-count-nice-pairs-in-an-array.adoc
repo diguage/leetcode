@@ -13,7 +13,7 @@ You are given an array `nums` that consists of non-negative integers. Let us def
 Return _the number of nice pairs of indices_. Since that number can be too large, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the number of nice pairs of indices_. Since that number can be too large
  - (1,2) : 11 + rev(1) = 11 + 1 = 12, 1 + rev(11) = 1 + 11 = 12.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -17,7 +17,7 @@ For example, `"R3G2B1"` describes `n == 3` rings: a red ring placed onto the rod
 Return _the number of rods that have *all three colors* of rings on them._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/11/23/ex1final.png" style="width: 258px; height: 130px;" />
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _the number of rods that have *all three colors* of rings on them._
 Thus, the number of rods with all three colors is 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/11/23/ex2final.png" style="width: 266px; height: 130px;" />
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ Thus, the number of rods with all three colors is 1.
 Thus, the number of rods with all three colors is 1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

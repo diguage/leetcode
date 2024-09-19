@@ -23,7 +23,7 @@ Return _the number of full chess rounds you have played in the tournament_.
 *Note:* All the given times follow the 24-hour clock. That means the first round of the day starts at `00:00` and the last round of the day starts at `23:45`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ You did not play the full round from 09:30 to 09:45 because you logged in at 09:
 You did not play the full round from 10:00 to 10:15 because you logged out at 10:14 before it ended.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

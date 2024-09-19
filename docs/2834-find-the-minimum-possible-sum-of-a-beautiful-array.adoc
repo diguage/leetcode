@@ -16,7 +16,7 @@ An array `nums` is *beautiful* if it meets the following conditions:
 Return _the *minimum* possible sum that a beautiful array could have modulo _`10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Return _the *minimum* possible sum that a beautiful array could have modulo _`10
 It can be proven that 4 is the minimum possible sum that a beautiful array could have.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ It can be proven that 4 is the minimum possible sum that a beautiful array could
 It can be proven that 8 is the minimum possible sum that a beautiful array could have.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

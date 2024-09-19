@@ -6,7 +6,7 @@
 Given a *positive* integer `num` represented as a string, return _the integer _`num`_ without trailing zeros as a string_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -15,7 +15,7 @@ Given a *positive* integer `num` represented as a string, return _the integer _`
 *Explanation:* Integer "51230100" has 2 trailing zeros, we remove them and return integer "512301".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

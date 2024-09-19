@@ -16,7 +16,7 @@ Find the *shortest path* starting from node `s` and ending at node `t`. Generate
 Return _the step-by-step directions of the *shortest path* from node _`s`_ to node_ `t`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/11/15/eg1.png" style="width: 214px; height: 163px;" />
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Return _the step-by-step directions of the *shortest path* from node _`s`_ to no
 *Explanation:* The shortest path is: 3 &rarr; 1 &rarr; 5 &rarr; 2 &rarr; 6.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/11/15/eg2.png" style="width: 74px; height: 102px;" />
 [subs="verbatim,quotes"]
 ----

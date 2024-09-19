@@ -10,7 +10,7 @@ You can choose *any* bit in the *binary representation* of `n` that is equal to 
 Return the _number of changes_ needed to make `n` equal to `k`. If it is impossible, return -1.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 13, k = 4
@@ -26,7 +26,7 @@ Initially, the binary representations of `n` and `k` are `n = (1101)<sub>2</sub>
 We can change the first and fourth bits of `n`. The resulting integer is `n = ([.underline]#*0*#10[.underline]#*0*#)<sub>2</sub> = k`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 21, k = 21
@@ -39,7 +39,7 @@ We can change the first and fourth bits of `n`. The resulting integer is `n = ([
 `n` and `k` are already equal, so no changes are needed.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 14, k = 13

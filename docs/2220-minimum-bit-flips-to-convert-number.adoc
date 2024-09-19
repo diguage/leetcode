@@ -12,7 +12,7 @@ A *bit flip* of a number `x` is choosing a bit in the binary representation of `
 Given two integers `start` and `goal`, return_ the *minimum* number of *bit flips* to convert _`start`_ to _`goal`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Given two integers `start` and `goal`, return_ the *minimum* number of *bit flip
 It can be shown we cannot convert 10 to 7 in less than 3 steps. Hence, we return 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

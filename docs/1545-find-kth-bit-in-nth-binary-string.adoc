@@ -24,7 +24,7 @@ For example, the first four strings in the above sequence are:
 Return _the_ `k^th^` _bit_ _in_ `S<sub>n</sub>`. It is guaranteed that `k` is valid for the given `n`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ Return _the_ `k^th^` _bit_ _in_ `S<sub>n</sub>`. It is guaranteed that `k` is va
 The 1^st^ bit is "0".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

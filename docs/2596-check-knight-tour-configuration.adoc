@@ -12,7 +12,7 @@ Return `true` _if_ `grid` _represents a valid configuration of the knight's move
 *Note* that a valid knight move consists of moving two squares vertically and one square horizontally, or two squares horizontally and one square vertically. The figure below illustrates all the possible eight moves of a knight from some cell.
 <img alt="" src="https://assets.leetcode.com/uploads/2018/10/12/knight.png" style="width: 300px; height: 300px;" />
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/12/28/yetgriddrawio-5.png" style="width: 251px; height: 251px;" />
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Return `true` _if_ `grid` _represents a valid configuration of the knight's move
 *Explanation:* The above diagram represents the grid. It can be shown that it is a valid configuration.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/12/28/yetgriddrawio-6.png" style="width: 151px; height: 151px;" />
 [subs="verbatim,quotes"]
 ----

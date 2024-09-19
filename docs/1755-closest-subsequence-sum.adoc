@@ -12,7 +12,7 @@ Return _the *minimum* possible value of_ `abs(sum - goal)`.
 Note that a subsequence of an array is an array formed by removing some elements *(possibly all or none)* of the original array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Note that a subsequence of an array is an array formed by removing some elements
 This is equal to the goal, so the absolute difference is 0.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ This is equal to the goal, so the absolute difference is 0.
 The absolute difference is abs(-4 - (-5)) = abs(1) = 1, which is the minimum.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -33,7 +33,7 @@ A *rooted tree* is a tree that has a single root node, and all edges are oriente
 An *ancestor* of a node is any node on the path from the root to that node (excluding the node itself). The root has no ancestors.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img src="https://assets.leetcode.com/uploads/2020/12/03/trees2.png" style="width: 208px; height: 221px;" />
 [subs="verbatim,quotes"]
 ----
@@ -43,7 +43,7 @@ An *ancestor* of a node is any node on the path from the root to that node (excl
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/12/03/tree.png" style="width: 234px; height: 241px;" />
 [subs="verbatim,quotes"]
 ----
@@ -53,7 +53,7 @@ An *ancestor* of a node is any node on the path from the root to that node (excl
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

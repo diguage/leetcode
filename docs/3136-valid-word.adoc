@@ -24,7 +24,7 @@ Return `true` if `word` is valid, otherwise, return `false`.
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">word = "234Adas"
@@ -36,7 +36,7 @@ Return `true` if `word` is valid, otherwise, return `false`.
 This word satisfies the conditions.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">word = "b3"
@@ -48,7 +48,7 @@ This word satisfies the conditions.
 The length of this word is fewer than 3, and does not have a vowel.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">word = "a3$e"

@@ -10,7 +10,7 @@ An element `nums[i]` of `nums` is called *special* if `i` divides `n`, i.e. `n %
 Return _the *sum of the squares* of all *special* elements of _`nums`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Return _the *sum of the squares* of all *special* elements of _`nums`.
 Hence, the sum of the squares of all special elements of nums is nums[1] * nums[1] + nums[2] * nums[2] + nums[4] * nums[4] = 1 * 1 + 2 * 2 + 4 * 4 = 21.  
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

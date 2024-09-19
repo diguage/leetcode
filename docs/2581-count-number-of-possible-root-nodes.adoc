@@ -19,7 +19,7 @@ Alice being lazy, does not reply to each of Bob's guesses, but just says that *a
 Given the 2D integer arrays `edges`, `guesses` and the integer `k`, return _the *number of possible nodes* that can be the root of Alice's tree_. If there is no such tree, return `0`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2022/12/19/ex-1.png" style="width: 727px; height: 250px;" />
 
@@ -37,7 +37,7 @@ Considering 0, 1, or 2 as root node leads to 3 correct guesses.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2022/12/19/ex-2.png" style="width: 600px; height: 303px;" />
 

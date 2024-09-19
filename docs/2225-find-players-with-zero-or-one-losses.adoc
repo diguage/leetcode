@@ -22,7 +22,7 @@ The values in the two lists should be returned in *increasing* order.
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Players 3, 6, and 9 each have lost two matches.
 Thus, answer[0] = [1,2,10] and answer[1] = [4,5,7,8].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

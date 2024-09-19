@@ -8,7 +8,7 @@ Given an array of strings `words`, return _the first *palindromic* string in the
 A string is *palindromic* if it reads the same forward and backward.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ A string is *palindromic* if it reads the same forward and backward.
 Note that "racecar" is also palindromic, but it is not the first.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Note that "racecar" is also palindromic, but it is not the first.
 *Explanation:* The first and only string that is palindromic is "racecar".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

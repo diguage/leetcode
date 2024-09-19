@@ -10,7 +10,7 @@ The DataFrame should have two columns, `student_id` and `age`, and be in the sam
 The result format is in the following example.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----

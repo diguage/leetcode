@@ -10,7 +10,7 @@ It was encoded into another integer array `encoded` of length `n - 1`, such that
 Given the `encoded` array, return _the original array_ `perm`. It is guaranteed that the answer exists and is unique.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Given the `encoded` array, return _the original array_ `perm`. It is guaranteed 
 *Explanation:* If perm = [1,2,3], then encoded = [1 XOR 2,2 XOR 3] = [3,1]
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

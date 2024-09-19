@@ -17,7 +17,7 @@ Each plant needs a specific amount of water. Alice and Bob have a watering can e
 Given a *0-indexed* integer array `plants` of `n` integers, where `plants[i]` is the amount of water the `i^th^` plant needs, and two integers `capacityA` and `capacityB` representing the capacities of Alice's and Bob's watering cans respectively, return _the *number of times* they have to refill to water all the plants_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Given a *0-indexed* integer array `plants` of `n` integers, where `plants[i]` is
 So, the total number of times they have to refill to water all the plants is 0 + 0 + 1 + 0 = 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -45,7 +45,7 @@ So, the total number of times they have to refill to water all the plants is 0 +
 So, the total number of times they have to refill to water all the plants is 0 + 1 + 1 + 0 = 2.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -14,7 +14,7 @@ You need to select a <span data-keyword="subset">subset of `nums` which satisfie
 Return _the *maximum* number of elements in a subset that satisfies these conditions._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Return _the *maximum* number of elements in a subset that satisfies these condit
 *Explanation:* We can select the subset {4,2,2}, which can be placed in the array as [2,4,2] which follows the pattern and 2^2^ == 4. Hence the answer is 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

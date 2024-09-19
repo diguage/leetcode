@@ -10,7 +10,7 @@ Return `true`_ if these subarrays exist, and _`false`_ otherwise._
 A *subarray* is a contiguous non-empty sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ A *subarray* is a contiguous non-empty sequence of elements within an array.
 *Explanation:* The subarrays with elements [4,2] and [2,4] have the same sum of 6.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ A *subarray* is a contiguous non-empty sequence of elements within an array.
 *Explanation:* No two subarrays of size 2 have the same sum.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

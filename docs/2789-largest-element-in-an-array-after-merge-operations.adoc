@@ -14,7 +14,7 @@ You can do the following operation on the array *any* number of times:
 Return _the value of the *largest* element that you can possibly obtain in the final array._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Return _the value of the *largest* element that you can possibly obtain in the f
 The largest element in the final array is 21. It can be shown that we cannot obtain a larger element.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

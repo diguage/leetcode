@@ -21,7 +21,7 @@ Implement the `CountIntervals` class:
 *Note* that an interval `[left, right]` denotes all the integers `x` where `left <= x <= right`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----

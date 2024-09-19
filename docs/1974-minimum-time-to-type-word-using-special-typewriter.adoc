@@ -15,7 +15,7 @@ Each second, you may perform one of the following operations:
 Given a string `word`, return the* minimum* number of seconds to type out the characters in `word`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Given a string `word`, return the* minimum* number of seconds to type out the ch
 - Type the character 'c' in 1 second.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -46,7 +46,7 @@ Given a string `word`, return the* minimum* number of seconds to type out the ch
 - Type the character 'a' in 1 second.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

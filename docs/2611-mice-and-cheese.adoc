@@ -17,7 +17,7 @@ You are given a positive integer array `reward1`, a positive integer array `rewa
 Return _*the maximum* points the mice can achieve if the first mouse eats exactly _`k`_ types of cheese._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ The total points are 4 + 4 + 3 + 4 = 15.
 It can be proven that 15 is the maximum total points that the mice can achieve.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

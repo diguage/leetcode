@@ -14,7 +14,7 @@ Return _the selected subsequence. If there are multiple answers, return *any* of
 *Note:* The elements in `words` are distinct.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block" style="
     border-color: var(--border-tertiary);
@@ -39,7 +39,7 @@ Return _the selected subsequence. If there are multiple answers, return *any* of
 *Explanation:* A subsequence that can be selected is `["e","b"]` because `groups[0] != groups[2]`. Another subsequence that can be selected is `["a","b"]` because `groups[1] != groups[2]`. It can be demonstrated that the length of the longest subsequence of indices that satisfies the condition is `2`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block" style="
     border-color: var(--border-tertiary);

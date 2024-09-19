@@ -26,7 +26,7 @@ You are given an array of `n` integers, `nums`, and two arrays of `m` integers e
 Return _a list of _`boolean` _elements_ `answer`_, where_ `answer[i]` _is_ `true` _if the subarray_ `nums[l[i]], nums[l[i]+1], ... , nums[r[i]]`_ can be *rearranged* to form an *arithmetic* sequence, and_ `false` _otherwise._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ In the 1^st^ query, the subarray is [4,6,5,9]. This cannot be rearranged as an a
 In the 2^nd^ query, the subarray is `[5,9,3,7]. This` can be rearranged as `[3,5,7,9]`, which is an arithmetic sequence.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -18,7 +18,7 @@ You are given a *0-indexed* integer array `nums` and an integer `pivot`. Rearran
 Return `nums`_ after the rearrangement._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ The elements 12 and 14 are greater than the pivot so they are on the right side 
 The relative ordering of the elements less than and greater than pivot is also maintained. [9, 5, 3] and [12, 14] are the respective orderings.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

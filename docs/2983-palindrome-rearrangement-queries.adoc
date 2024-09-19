@@ -26,7 +26,7 @@ Return _a *0-indexed* array _`answer`_, where _`answer[i] == true`_ if it is pos
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -46,7 +46,7 @@ In the second query:
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -59,7 +59,7 @@ It is not possible to make s a palindrome by rearranging these substrings becaus
 So, answer[0] = false.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -8,7 +8,7 @@ Given two strings: `s1` and `s2` with the same size, check if some permutation o
 A string `x` can break string `y` (both of size `n`) if `x[i] >= y[i]` (in alphabetical order) for all `i` between `0` and `n-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ A string `x` can break string `y` (both of size `n`) if `x[i] >= y[i]` (in alpha
 *Explanation:* "ayx" is a permutation of s2="xya" which can break to string "abc" which is a permutation of s1="abc".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ A string `x` can break string `y` (both of size `n`) if `x[i] >= y[i]` (in alpha
 *Explanation:* All permutations for s1="abe" are: "abe", "aeb", "bae", "bea", "eab" and "eba" and all permutation for s2="acd" are: "acd", "adc", "cad", "cda", "dac" and "dca". However, there is not any permutation from s1 which can break some permutation from s2 and vice-versa.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

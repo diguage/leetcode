@@ -16,7 +16,7 @@ You can assume there are *3 *possible input functions: `sum`*, *`fib`*, *and `fa
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ memoizedSum(1, 2); // "call" - returns 3. sum() was called as (1, 2) was not see
 // "getCallCount" - total call count: 2
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -55,7 +55,7 @@ memoFactorial(3); // "call" - returns 6. However factorial was not called becaus
 // "getCallCount" - total call count: 2
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

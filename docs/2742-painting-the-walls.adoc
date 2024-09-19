@@ -13,7 +13,7 @@ You are given two *0-indexed* integer arrays, `cost` and `time`, of size `n` rep
 Return _the minimum amount of money required to paint the _`n`_ walls._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the minimum amount of money required to paint the _`n`_ walls._
 *Explanation:* The walls at index 0 and 1 will be painted by the paid painter, and it will take 3 units of time; meanwhile, the free painter will paint the walls at index 2 and 3, free of cost in 2 units of time. Thus, the total cost is 1 + 2 = 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -19,7 +19,7 @@ Here, `nums[i, ..., j]` denotes the subarray of `nums` starting at index `i` and
 Return _the *minimum* index of a *valid split*_. If no valid split exists, return `-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Both [1,2,2] and [2] have the same dominant element as nums, so this is a valid 
 It can be shown that index 2 is the minimum index of a valid split. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -45,7 +45,7 @@ Both [2,1,3,1,1] and [1,7,1,2,1] have the same dominant element as nums, so this
 It can be shown that index 4 is the minimum index of a valid split.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

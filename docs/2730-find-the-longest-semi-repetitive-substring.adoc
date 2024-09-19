@@ -10,7 +10,7 @@ A string is called *semi-repetitive* if there is *at most* one adjacent pair of 
 Return the length of the *longest semi-repetitive <span data-keyword="substring-nonempty">substring* of `s`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "52233"
@@ -22,7 +22,7 @@ Return the length of the *longest semi-repetitive <span data-keyword="substring-
 The longest semi-repetitive substring is "5223". Picking the whole string "52233" has two adjacent same digit pairs 22 and 33, but at most one is allowed.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "5494"
@@ -34,7 +34,7 @@ The longest semi-repetitive substring is "5223". Picking the whole string "52233
 `s` is a semi-repetitive string.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "1111111"

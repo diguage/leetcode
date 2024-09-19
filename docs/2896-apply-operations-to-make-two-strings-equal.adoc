@@ -17,7 +17,7 @@ Return _the *minimum* cost needed to make the strings _`s1`_ and _`s2`_ equal, o
 *Note* that flipping a character means changing it from `0` to `1` or vice-versa.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _the *minimum* cost needed to make the strings _`s1`_ and _`s2`_ equal, o
 The total cost is 1 + 1 + 2 = 4. It can be shown that it is the minimum cost possible.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

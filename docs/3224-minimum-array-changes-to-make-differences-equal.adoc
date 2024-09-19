@@ -16,7 +16,7 @@ You need to perform some changes (possibly none) such that the final array satis
 Return the *minimum* number of changes required to satisfy the above condition.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,0,1,2,4,3], k = 4
@@ -36,7 +36,7 @@ We can perform the following changes:
 The integer `X` will be 2.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [0,1,2,3,3,6,5,4], k = 6

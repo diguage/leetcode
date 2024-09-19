@@ -25,7 +25,7 @@ If there are multiple valid answers return *any* of them. If it is impossible to
 Notice that if you chose to dry a full lake, it becomes empty, but if you chose to dry an empty lake, nothing changes.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ After the fourth day full lakes are [1,2,3,4]
 There's no day to dry any lake and there is no flood in any lake.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -53,7 +53,7 @@ After the sixth day, full lakes are [1,2].
 It is easy that this scenario is flood-free. [-1,-1,1,2,-1,-1] is another acceptable scenario.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

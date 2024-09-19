@@ -13,7 +13,7 @@ Given an object or an array, return if it is empty.
 You may assume the object or array is the output of `JSON.parse`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ You may assume the object or array is the output of `JSON.parse`.
 *Explanation:* The object has 2 key-value pairs so it is not empty.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ You may assume the object or array is the output of `JSON.parse`.
 *Explanation:* The object doesn't have any key-value pairs so it is empty.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

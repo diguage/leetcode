@@ -14,7 +14,7 @@ Return _an integer representing the length of the *longest non-decreasing* subar
 *Note: *A *subarray* is a contiguous *non-empty* sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ The subarray starting from index 0 and ending at index 1, [2,2], forms a non-dec
 We can show that 2 is the maximum achievable length.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ The entire array forms a non-decreasing subarray of length 4, making it the maxi
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ As a result, `nums1` becomes *equal* to `nums2`. Two arrays are considered *equa
 Return the integer `x`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io" style="
@@ -30,7 +30,7 @@ Return the integer `x`.
 The integer added to each element of `nums1` is 3.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io" style="
@@ -48,7 +48,7 @@ The integer added to each element of `nums1` is 3.
 The integer added to each element of `nums1` is -5.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io" style="

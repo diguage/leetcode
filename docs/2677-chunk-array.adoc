@@ -12,7 +12,7 @@ You may assume the array is the output of `JSON.parse`. In other words, it is va
 Please solve it without using lodash's `_.chunk` function.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Please solve it without using lodash's `_.chunk` function.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Please solve it without using lodash's `_.chunk` function.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ Please solve it without using lodash's `_.chunk` function.
 
 ----
 
-<strong class="example">Example 4:*
+*Example 4:*
 
 [subs="verbatim,quotes"]
 ----

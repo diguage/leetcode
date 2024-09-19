@@ -18,7 +18,7 @@ Return the *maximum* possible strength that can be obtained from selecting exact
 *Note* that the chosen subarrays *don't* need to cover the entire array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 *Input:* <span class="example-io">nums = [1,2,3,-1,2], k = 3
 
@@ -32,7 +32,7 @@ The best possible way to select 3 subarrays is: nums[0..2], nums[3..3], and nums
 
  
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 *Input:* <span class="example-io">nums = [12,-2,-2,-2,-2], k = 5
 
@@ -44,7 +44,7 @@ The only possible way to select 5 disjoint subarrays is: nums[0..0], nums[1..1],
 
 `strength = 5 * 12 - 4 * (-2) + 3 * (-2) - 2 * (-2) + (-2) = 64`
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 *Input:* <span class="example-io">nums = [-1,-2,-3], k = 1
 

@@ -21,7 +21,7 @@ The array `result` is formed by concatenating the arrays `arr1` and `arr2`. For 
 Return _the integer array_ `result`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ After 4 operations, arr1 = [2,3] and arr2 = [1,3].
 Hence, the array result formed by concatenation is [2,3,1,3].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -48,7 +48,7 @@ After 5 operations, arr1 = [5,3,1,2] and arr2 = [14].
 Hence, the array result formed by concatenation is [5,3,1,2,14].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

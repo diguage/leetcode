@@ -18,7 +18,7 @@ Examples of valid words include `"a-b."`, `"afad"`, `"ba-c"`, `"a!"`, and `"!"`.
 Given a string `sentence`, return _the *number* of valid words in _`sentence`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Given a string `sentence`, return _the *number* of valid words in _`sentence`.
 *Explanation:* The valid words in the sentence are "cat", "and", and "dog".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ Given a string `sentence`, return _the *number* of valid words in _`sentence`.
 "1-s" and "b8d" are invalid because they contain digits.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

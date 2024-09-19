@@ -25,7 +25,7 @@ In one *operation*, you can choose an index `i` and *change* `arr[i]` into *any*
 Return _the *minimum number of operations* required to make the array K-increasing for the given _`k`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -39,7 +39,7 @@ It can be shown that we cannot make the array K-increasing in less than 4 operat
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -51,7 +51,7 @@ Here, for every index i where 2 <= i <= 5, arr[i-2] <=* *arr[i].
 Since the given array is already K-increasing, we do not need to perform any operations.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

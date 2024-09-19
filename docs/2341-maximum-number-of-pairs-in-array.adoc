@@ -15,7 +15,7 @@ The operation is done on `nums` as many times as possible.
 Return _a *0-indexed* integer array _`answer`_ of size _`2`_ where _`answer[0]`_ is the number of pairs that are formed and _`answer[1]`_ is the number of leftover integers in _`nums`_ after doing the operation as many times as possible_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Form a pair with nums[0] and nums[1] and remove them from nums. Now, nums = [2].
 No more pairs can be formed. A total of 3 pairs have been formed, and there is 1 number leftover in nums.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ No more pairs can be formed. A total of 3 pairs have been formed, and there is 1
 No more pairs can be formed. A total of 1 pair has been formed, and there are 0 numbers leftover in nums.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

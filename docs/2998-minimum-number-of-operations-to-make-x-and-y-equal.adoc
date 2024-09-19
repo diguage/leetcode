@@ -17,7 +17,7 @@ In one operation, you can do one of the four following operations:
 Return _the *minimum* number of operations required to make _ `x` _and_ `y` equal.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _the *minimum* number of operations required to make _ `x` _and_ `y` equa
 It can be shown that 3 is the minimum number of operations required to make 26 equal to 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -44,7 +44,7 @@ It can be shown that 3 is the minimum number of operations required to make 26 e
 It can be shown that 4 is the minimum number of operations required to make 54 equal to 2.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

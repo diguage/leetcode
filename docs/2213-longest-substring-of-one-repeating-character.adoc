@@ -10,7 +10,7 @@ The `i^th^` query updates the character in `s` at index `queryIndices[i]` to the
 Return _an array_ `lengths` _of length _`k`_ where_ `lengths[i]` _is the *length* of the *longest substring* of _`s`_ consisting of *only one repeating* character *after* the_ `i^th^` _query__ is performed._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _an array_ `lengths` _of length _`k`_ where_ `lengths[i]` _is the *length
 Thus, we return [3,3,4].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

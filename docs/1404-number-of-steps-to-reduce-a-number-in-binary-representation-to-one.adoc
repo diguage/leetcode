@@ -17,7 +17,7 @@ Given the binary representation of an integer as a string `s`, return _the numbe
 It is guaranteed that you can always reach one for all test cases.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Step 5) 4 is even, divide by 2 and obtain 2.
 Step 6) 2 is even, divide by 2 and obtain 1.  
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ Step 6) 2 is even, divide by 2 and obtain 1.
 Step 1) 2 is even, divide by 2 and obtain 1.  
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

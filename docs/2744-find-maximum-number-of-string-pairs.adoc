@@ -17,7 +17,7 @@ Return _the *maximum* number of pairs that can be formed from the array _`words`
 Note that each string can belong in *at most one* pair.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Note that each string can belong in *at most one* pair.
 It can be proven that 2 is the maximum number of pairs that can be formed.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ It can be proven that 1 is the maximum number of pairs that can be formed.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

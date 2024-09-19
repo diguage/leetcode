@@ -14,7 +14,7 @@ You are given an integer array `nums` of *even* length. You have to split the ar
 Return `true`_ if it is possible to split the array, and _`false` _otherwise__._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Return `true`_ if it is possible to split the array, and _`false` _otherwise__._
 *Explanation:* One of the possible ways to split nums is nums1 = [1,2,3] and nums2 = [1,2,4].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -8,7 +8,7 @@ You are given a string `s` consisting of the characters `'a'`, `'b'`, and `'c'` 
 Return_ the *minimum* number of minutes needed for you to take *at least* _`k`_ of each character, or return _`-1`_ if it is not possible to take _`k`_ of each character._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ A total of 3 + 5 = 8 minutes is needed.
 It can be proven that 8 is the minimum number of minutes needed.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

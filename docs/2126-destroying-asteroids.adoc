@@ -10,7 +10,7 @@ You can arrange for the planet to collide with the asteroids in *any arbitrary o
 Return `true`_ if *all* asteroids can be destroyed. Otherwise, return _`false`_._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ All asteroids are destroyed.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

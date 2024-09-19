@@ -17,7 +17,7 @@ Coins at `node<sub>i</sub>` can be collected in one of the following ways:
 Return _the *maximum points* you can get after collecting the coins from *all* the tree nodes._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/09/18/ex1-copy.png" style="width: 60px; height: 316px; padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem;" />
 [subs="verbatim,quotes"]
 ----
@@ -31,8 +31,8 @@ Collect all the coins from node 3 using the second way. Total points = 11 + floo
 It can be shown that the maximum points we can get after collecting coins from all the nodes is 11. 
 ----
 
-<strong class="example">Example 2:*
-<strong class="example"> <img alt="" src="https://assets.leetcode.com/uploads/2023/09/18/ex2.png" style="width: 140px; height: 147px; padding: 10px; background: #fff; border-radius: .5rem;" />*
+*Example 2:*
+* <img alt="" src="https://assets.leetcode.com/uploads/2023/09/18/ex2.png" style="width: 140px; height: 147px; padding: 10px; background: #fff; border-radius: .5rem;" />*
 
 [subs="verbatim,quotes"]
 ----

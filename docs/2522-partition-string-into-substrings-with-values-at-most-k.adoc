@@ -22,7 +22,7 @@ Return _the *minimum* number of substrings in a *good* partition of_ `s`. If no 
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ Return _the *minimum* number of substrings in a *good* partition of_ `s`. If no 
 It can be shown that we cannot partition the string into less than 4 substrings.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

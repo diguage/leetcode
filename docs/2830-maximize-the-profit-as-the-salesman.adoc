@@ -14,7 +14,7 @@ Return _the maximum amount of gold you can earn_.
 *Note* that different buyers can't buy the same house, and some houses may remain unsold.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ We sell houses in the range [0,0] to 1^st^ buyer for 1 gold and houses in the ra
 It can be proven that 3 is the maximum amount of gold we can achieve.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

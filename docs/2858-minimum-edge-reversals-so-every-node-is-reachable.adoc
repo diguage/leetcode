@@ -14,7 +14,7 @@ For every node `i` in the range `[0, n - 1]`, your task is to *independently* ca
 Return _an integer array _`answer`_, where _`answer[i]`_ is the__ _ _*minimum* number of *edge reversals* required so it is possible to reach any other node starting from node _`i`_ through a *sequence* of *directed edges*._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img height="246" src="https://assets.leetcode.com/uploads/2023/08/26/image-20230826221104-3.png" width="312" />
 
@@ -33,7 +33,7 @@ For node 3: after reversing the edges [1,3] and [2,1], it is possible to reach a
 So, answer[3] = 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <img height="217" src="https://assets.leetcode.com/uploads/2023/08/26/image-20230826225541-2.png" width="322" />
 

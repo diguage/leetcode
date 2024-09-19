@@ -8,7 +8,7 @@ You are given a *0-indexed* integer array `nums`. A pair of indices `(i, j)` is 
 Return_ the total number of *bad pairs* in _`nums`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ The pair (2, 3) is a bad pair since 3 - 2 != 3 - 3, 1 != 0.
 There are a total of 5 bad pairs, so we return 5.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ Given a string `s`, return_ the *minimum* number of characters you need to delet
 The *frequency* of a character in a string is the number of times it appears in the string. For example, in the string `"aab"`, the *frequency* of `'a'` is `2`, while the *frequency* of `'b'` is `1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ The *frequency* of a character in a string is the number of times it appears in 
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ The *frequency* of a character in a string is the number of times it appears in 
 Another way it to delete one 'b' and one 'c' resulting in the good string "aaabbc".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

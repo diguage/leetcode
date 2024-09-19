@@ -6,7 +6,7 @@
 Given a positive integer `millis`, write an asynchronous function that sleeps for `millis` milliseconds. It can resolve any value.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ sleep(100).then(() => {
 });
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

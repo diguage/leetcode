@@ -18,7 +18,7 @@ Return_ the index with the *minimum average difference*_. If there are multiple 
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ Return_ the index with the *minimum average difference*_. If there are multiple 
 The average difference of index 3 is the minimum average difference so return 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

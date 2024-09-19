@@ -12,7 +12,7 @@ If the length of the array is 0, the function should return `init`.
 Please solve it without using the built-in `Array.reduce` method.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ initially, the value is init=0.
 The final answer is 10.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -48,7 +48,7 @@ initially, the value is init=100.
 The final answer is 130.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

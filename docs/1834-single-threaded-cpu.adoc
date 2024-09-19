@@ -17,7 +17,7 @@ You have a single-threaded CPU that can process *at most one* task at a time and
 Return _the order in which the CPU will process the tasks._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Return _the order in which the CPU will process the tasks._
 - At time = 10, the CPU finishes task 1 and becomes idle.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ Return _the *minimum* number of substrings in such a partition._
 Note that each character should belong to exactly one substring in a partition.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Two possible partitions are ("a","ba","cab","a") and ("ab","a","ca","ba").
 It can be shown that 4 is the minimum number of substrings needed.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

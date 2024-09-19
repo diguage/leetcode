@@ -37,7 +37,7 @@ The game can end in 4 ways:
 Given a `rows x cols` matrix `grid` and two integers `catJump` and `mouseJump`, return `true`_ if Mouse can win the game if both Cat and Mouse play optimally, otherwise return _`false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/12/sample_111_1955.png" style="width: 580px; height: 239px;" />
 [subs="verbatim,quotes"]
 ----
@@ -46,7 +46,7 @@ Given a `rows x cols` matrix `grid` and two integers `catJump` and `mouseJump`, 
 *Explanation:* Cat cannot catch Mouse on its turn nor can it get the food before Mouse.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/12/sample_2_1955.png" style="width: 580px; height: 175px;" />
 [subs="verbatim,quotes"]
 ----
@@ -54,7 +54,7 @@ Given a `rows x cols` matrix `grid` and two integers `catJump` and `mouseJump`, 
 *Output:* true
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

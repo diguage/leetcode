@@ -8,7 +8,7 @@ Given an integer `n`, return _the number of strings of length _`n`_ that consist
 A string `s` is *lexicographically sorted* if for all valid `i`, `s[i]` is the same as or comes before `s[i+1]` in the alphabet.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ A string `s` is *lexicographically sorted* if for all valid `i`, `s[i]` is the s
 *Explanation:* The 5 sorted strings that consist of vowels only are `["a","e","i","o","u"].`
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ A string `s` is *lexicographically sorted* if for all valid `i`, `s[i]` is the s
 Note that "ea" is not a valid string since 'e' comes after 'a' in the alphabet.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

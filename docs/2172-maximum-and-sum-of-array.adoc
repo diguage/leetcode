@@ -14,7 +14,7 @@ You have to place all `n` integers into the slots such that each slot contains a
 Return _the maximum possible *AND sum* of _`nums`_ given _`numSlots`_ slots._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the maximum possible *AND sum* of _`nums`_ given _`numSlots`_ slots._
 This gives the maximum AND sum of (1 AND [.underline]#1#) + (4 AND [.underline]#1#) + (2 AND [.underline]#2#) + (6 AND [.underline]#2#) + (3 AND [.underline]#3#) + (5 AND [.underline]#3#) = 1 + 0 + 2 + 2 + 3 + 1 = 9.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

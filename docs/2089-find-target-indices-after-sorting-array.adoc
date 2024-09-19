@@ -10,7 +10,7 @@ A *target index* is an index `i` such that `nums[i] == target`.
 Return _a list of the target indices of_ `nums` after_ sorting _`nums`_ in *non-decreasing* order_. If there are no target indices, return _an *empty* list_. The returned list must be sorted in *increasing* order.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Return _a list of the target indices of_ `nums` after_ sorting _`nums`_ in *non-
 The indices where nums[i] == 2 are 1 and 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ The indices where nums[i] == 2 are 1 and 2.
 The index where nums[i] == 3 is 3.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

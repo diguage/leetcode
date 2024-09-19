@@ -5,7 +5,7 @@
 
 Write a function `createHelloWorld`. It should return a new function that always returns `"Hello World"`.
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ f(); // "Hello World"
 The function returned by createHelloWorld should always return "Hello World".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

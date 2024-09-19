@@ -10,7 +10,7 @@ If there are multiple solutions, return the subsequence with *minimum size* and 
 Note that the solution with the given constraints is guaranteed to be *unique*. Also return the answer sorted in *non-increasing* order.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Note that the solution with the given constraints is guaranteed to be *unique*. 
 *Explanation:* The subsequences [10,9] and [10,8] are minimal such that the sum of their elements is strictly greater than the sum of elements not included. However, the subsequence [10,9] has the maximum total sum of its elements. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

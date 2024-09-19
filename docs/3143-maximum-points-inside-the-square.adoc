@@ -17,7 +17,7 @@ Note:
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2024/03/29/3708-tc1.png" style="width: 303px; height: 303px;" />
 
@@ -31,7 +31,7 @@ Note:
 The square of side length 4 covers two points `points[0]` and `points[1]`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2024/03/29/3708-tc2.png" style="width: 302px; height: 302px;" />
 
@@ -45,7 +45,7 @@ The square of side length 4 covers two points `points[0]` and `points[1]`.
 The square of side length 2 covers one point, which is `points[0]`.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">points = [[1,1],[-1,-1],[2,-2]], s = "ccd"

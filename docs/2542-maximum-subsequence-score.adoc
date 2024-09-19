@@ -17,7 +17,7 @@ Return _the *maximum* possible score._
 A *subsequence* of indices of an array is a set that can be derived from the set `{0, 1, ..., n-1}` by deleting some or no elements.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ The four possible subsequence scores are:
 Therefore, we return the max score, which is 12.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

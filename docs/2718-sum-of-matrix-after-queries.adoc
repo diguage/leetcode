@@ -15,7 +15,7 @@ Initially, there is a *0-indexed* `n x n` matrix filled with `0`'s. For each que
 Return _the sum of integers in the matrix after all queries are applied_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/05/11/exm1.png" style="width: 681px; height: 161px;" />
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the sum of integers in the matrix after all queries are applied_.
 *Explanation:* The image above describes the matrix after each query. The sum of the matrix after all queries are applied is 23. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/05/11/exm2.png" style="width: 681px; height: 331px;" />
 [subs="verbatim,quotes"]
 ----

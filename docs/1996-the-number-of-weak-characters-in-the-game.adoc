@@ -10,7 +10,7 @@ A character is said to be *weak* if any other character has *both* attack and de
 Return _the number of *weak* characters_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return _the number of *weak* characters_.
 *Explanation:* No character has strictly greater attack and defense than the other.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _the number of *weak* characters_.
 *Explanation:* The first character is weak because the second character has a strictly greater attack and defense.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

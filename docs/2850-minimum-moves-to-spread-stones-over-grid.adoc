@@ -10,7 +10,7 @@ In one move, you can move a single stone from its current cell to any other cell
 Return _the *minimum number of moves* required to place one stone in each cell_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/08/23/example1-3.svg" style="width: 401px; height: 281px;" />
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ In total, it takes 3 moves to place one stone in each cell of the grid.
 It can be shown that 3 is the minimum number of moves required to place one stone in each cell.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/08/23/example2-2.svg" style="width: 401px; height: 281px;" />
 [subs="verbatim,quotes"]
 ----

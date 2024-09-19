@@ -12,7 +12,7 @@ Return _the *minimum* number of operations required to make_ `word` _*k-periodic
 We say that `word` is *k-periodic* if there is some string `s` of length `k` such that `word` can be obtained by concatenating `s` an arbitrary number of times. For example, if `word == &ldquo;ababab&rdquo;`, then `word` is 2-periodic for `s = "ab"`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io" style="
@@ -30,7 +30,7 @@ font-size: 0.85rem;
 We can obtain a 4-periodic string by picking i = 4 and j = 0. After this operation, word becomes equal to "leetleetleet".
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io" style="

@@ -22,7 +22,7 @@ There is a *backlog* that consists of orders that have not been executed. The ba
 Return _the total *amount* of orders in the backlog after placing all the orders from the input_. Since this number can be large, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/03/11/ex1.png" style="width: 450px; height: 479px;" />
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ Return _the total *amount* of orders in the backlog after placing all the orders
 Finally, the backlog has 5 buy orders with price 10, and 1 buy order with price 30. So the total number of orders in the backlog is 6.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/03/11/ex2.png" style="width: 450px; height: 584px;" />
 [subs="verbatim,quotes"]
 ----

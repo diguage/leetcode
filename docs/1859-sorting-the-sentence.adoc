@@ -14,7 +14,7 @@ A sentence can be *shuffled* by appending the *1-indexed word position* to each 
 Given a *shuffled sentence* `s` containing no more than `9` words, reconstruct and return _the original sentence_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Given a *shuffled sentence* `s` containing no more than `9` words, reconstruct a
 *Explanation:* Sort the words in s to their original positions "This1 is2 a3 sentence4", then remove the numbers.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -8,7 +8,7 @@ An array is considered *special* if every pair of its adjacent elements contains
 You are given an array of integers `nums`. Return `true` if `nums` is a *special* array, otherwise, return `false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1]
@@ -20,7 +20,7 @@ You are given an array of integers `nums`. Return `true` if `nums` is a *special
 There is only one element. So the answer is `true`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [2,1,4]
@@ -32,7 +32,7 @@ There is only one element. So the answer is `true`.
 There is only two pairs: `(2,1)` and `(1,4)`, and both of them contain numbers with different parity. So the answer is `true`.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [4,3,1,6]

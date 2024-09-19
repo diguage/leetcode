@@ -20,7 +20,7 @@ Alice wants the sum of values of tree nodes to be *maximum*, for which Alice can
 Return _the *maximum* possible *sum* of the *values* Alice can achieve by performing the operation *any* number of times_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/11/09/screenshot-2023-11-10-012513.png" style="width: 300px; height: 277px;padding: 10px; background: #fff; border-radius: .5rem;" />
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ The total sum of values is 2 + 2 + 2 = 6.
 It can be shown that 6 is the maximum achievable sum of values.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2024/01/09/screenshot-2024-01-09-220017.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 300px; height: 239px;" />
 [subs="verbatim,quotes"]
 ----
@@ -44,7 +44,7 @@ The total sum of values is 5 + 4 = 9.
 It can be shown that 9 is the maximum achievable sum of values.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/11/09/screenshot-2023-11-10-012641.png" style="width: 600px; height: 233px;padding: 10px; background: #fff; border-radius: .5rem;" />
 [subs="verbatim,quotes"]
 ----

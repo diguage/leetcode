@@ -8,7 +8,7 @@ For a string `sequence`, a string `word` is *`k`-repeating* if `word` concatenat
 Given strings `sequence` and `word`, return _the *maximum `k`-repeating value* of `word` in `sequence`_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Given strings `sequence` and `word`, return _the *maximum `k`-repeating value* o
 *Explanation: *"abab" is a substring in "[.underline]#abab#c".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Given strings `sequence` and `word`, return _the *maximum `k`-repeating value* o
 *Explanation: *"ba" is a substring in "a[.underline]#ba#bc". "baba" is not a substring in "ababc".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

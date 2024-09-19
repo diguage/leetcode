@@ -14,7 +14,7 @@ Given a string `s` representing a sentence, you need to check if *all* the numbe
 Return `true`_ if so, or _`false`_ otherwise_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="example-1" src="https://assets.leetcode.com/uploads/2021/09/30/example1.png" style="width: 637px; height: 48px;" />
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return `true`_ if so, or _`false`_ otherwise_.
 They are strictly increasing from left to right: 1 < 3 < 4 < 6 < 12.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ They are strictly increasing from left to right: 1 < 3 < 4 < 6 < 12.
 *Explanation:* The numbers in s are: [.underline]#*5*#, *[.underline]#5#*. They are not strictly increasing.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="example-3" src="https://assets.leetcode.com/uploads/2021/09/30/example3.png" style="width: 794px; height: 48px;" />
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ An *alphabetical continuous string* is a string consisting of consecutive letter
 Given a string `s` consisting of lowercase letters only, return the _length of the *longest* alphabetical continuous substring._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Given a string `s` consisting of lowercase letters only, return the _length of t
 "ab" is the longest continuous substring.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -17,7 +17,7 @@ You need to choose `numSelect` columns such that the number of rows that are cov
 Return _the *maximum* number of rows that can be *covered* by a set of _`numSelect`_ columns._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/07/14/rowscovered.png" style="width: 240px; height: 400px;" />
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Thus, we can cover three rows.
 Note that s = {1, 2} will also cover 3 rows, but it can be shown that no more than three rows can be covered.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/07/14/rowscovered2.png" style="height: 250px; width: 84px;" />
 [subs="verbatim,quotes"]
 ----

@@ -5,7 +5,7 @@
 
 Given two arrays of *unique* digits `nums1` and `nums2`, return _the *smallest* number that contains *at least* one digit from each array_.
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -14,7 +14,7 @@ Given two arrays of *unique* digits `nums1` and `nums2`, return _the *smallest* 
 *Explanation:* The number 15 contains the digit 1 from nums1 and the digit 5 from nums2. It can be proven that 15 is the smallest number we can have.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

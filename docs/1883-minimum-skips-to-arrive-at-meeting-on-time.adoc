@@ -20,7 +20,7 @@ However, you are allowed to *skip* some rests to be able to arrive on time, mean
 Return _the *minimum number of skips required* to arrive at the meeting on time, or_ `-1`_ if it is* impossible*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ You can skip the first rest to arrive in ((1/4 + [.underline]#0#) + (3/4 + 0)) +
 Note that the second rest is shortened because you finish traveling the second road at an integer hour due to skipping the first rest.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -43,7 +43,7 @@ Without skipping any rests, you will arrive in (7/2 + 1/2) + (3/2 + 1/2) + (5/2 
 You can skip the first and third rest to arrive in ((7/2 + [.underline]#0#) + (3/2 + 0)) + ((5/2 + [.underline]#0#) + (5/2)) = 10 hours.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -16,7 +16,7 @@ Return _true if you can make `nums` a strictly increasing array using the above 
 A *strictly increasing array* is an array whose each element is strictly greater than its preceding element.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ In the second operation: i = 1, p = 7, subtract 7 from nums[1], so nums becomes 
 After the second operation, nums is sorted in strictly increasing order, so the answer is true.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ After the second operation, nums is sorted in strictly increasing order, so the 
 *Explanation: *Initially nums is sorted in strictly increasing order, so we don't need to make any operations.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

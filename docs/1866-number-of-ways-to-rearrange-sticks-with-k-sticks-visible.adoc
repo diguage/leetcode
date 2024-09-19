@@ -12,7 +12,7 @@ There are `n` uniquely-sized sticks whose lengths are integers from `1` to `n`. 
 Given `n` and `k`, return _the *number* of such arrangements_. Since the answer may be large, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Given `n` and `k`, return _the *number* of such arrangements_. Since the answer 
 The visible sticks are underlined.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ The visible sticks are underlined.
 The visible sticks are underlined.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

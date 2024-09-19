@@ -12,7 +12,7 @@ Return _the linked list after insertion_.
 The *greatest common divisor* of two numbers is the largest positive integer that evenly divides both numbers.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/07/18/ex1_copy.png" style="width: 641px; height: 181px;" />
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ The *greatest common divisor* of two numbers is the largest positive integer tha
 There are no more adjacent nodes, so we return the linked list.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/07/18/ex2_copy1.png" style="width: 51px; height: 191px;" />
 [subs="verbatim,quotes"]
 ----

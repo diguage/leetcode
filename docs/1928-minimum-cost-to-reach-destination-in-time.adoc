@@ -12,7 +12,7 @@ In the beginning, you are at city `0` and want to reach city `n - 1` in `maxTime
 Given `maxTime`, `edges`, and `passingFees`, return _the *minimum cost* to complete your journey, or _`-1`_ if you cannot complete it within _`maxTime`_ minutes_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2021/06/04/leetgraph1-1.png" style="width: 371px; height: 171px;" />
 
@@ -23,7 +23,7 @@ Given `maxTime`, `edges`, and `passingFees`, return _the *minimum cost* to compl
 *Explanation:* The path to take is 0 -> 1 -> 2 -> 5, which takes 30 minutes and has $11 worth of passing fees.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2021/06/04/copy-of-leetgraph1-1.png" style="width: 371px; height: 171px;" />*
 
@@ -35,7 +35,7 @@ Given `maxTime`, `edges`, and `passingFees`, return _the *minimum cost* to compl
 You cannot take path 0 -> 1 -> 2 -> 5 since it would take too long.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

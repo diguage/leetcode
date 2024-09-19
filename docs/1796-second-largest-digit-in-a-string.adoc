@@ -8,7 +8,7 @@ Given an alphanumeric string `s`, return _the *second largest* numerical digit t
 An *alphanumeric** *string is a string consisting of lowercase English letters and digits.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ An *alphanumeric** *string is a string consisting of lowercase English letters a
 *Explanation:* The digits that appear in s are [1, 2, 3]. The second largest digit is 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

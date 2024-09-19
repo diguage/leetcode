@@ -23,7 +23,7 @@ Write a solution to remove the rows with missing values.
 The result format is in the following example.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----

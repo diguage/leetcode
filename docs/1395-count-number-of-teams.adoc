@@ -15,7 +15,7 @@ You have to form a team of 3 soldiers amongst them under the following rules:
 Return the number of teams you can form given the conditions. (soldiers can be part of multiple teams).
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return the number of teams you can form given the conditions. (soldiers can be p
 *Explanation:* We can form three teams given the conditions. (2,3,4), (5,4,1), (5,3,1). 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Return the number of teams you can form given the conditions. (soldiers can be p
 *Explanation:* We can't form any team given the conditions.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ Return the *minimum* number of substrings that you can partition `s` into.
 *Note:* A *balanced* string is a string where each character in the string occurs the same number of times.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "fabccddg"
@@ -22,7 +22,7 @@ Return the *minimum* number of substrings that you can partition `s` into.
 We can partition the string `s` into 3 substrings in one of the following ways: `("fab, "ccdd", "g")`, or `("fabc", "cd", "dg")`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "abababaccddb"

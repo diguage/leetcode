@@ -12,7 +12,7 @@ In one operation, you can *recolor* a white block such that it becomes a black b
 Return_ the *minimum* number of operations needed such that there is at least *one* occurrence of _`k`_ consecutive black blocks._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ It can be shown that there is no way to achieve 7 consecutive black blocks in le
 Therefore, we return 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

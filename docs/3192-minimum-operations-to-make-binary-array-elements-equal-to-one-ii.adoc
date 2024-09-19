@@ -16,7 +16,7 @@ You can do the following operation on the array *any* number of times (possibly 
 Return the *minimum* number of operations required to make all elements in `nums` equal to 1.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [0,1,1,0,1]
@@ -36,7 +36,7 @@ We can do the following operations:
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,0,0,0]

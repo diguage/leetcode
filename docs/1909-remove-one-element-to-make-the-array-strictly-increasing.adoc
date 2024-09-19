@@ -8,7 +8,7 @@ Given a *0-indexed* integer array `nums`, return `true` _if it can be made *stri
 The array `nums` is *strictly increasing* if `nums[i - 1] < nums[i]` for each index `(1 <= i < nums.length).`
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ The array `nums` is *strictly increasing* if `nums[i - 1] < nums[i]` for each in
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ The array `nums` is *strictly increasing* if `nums[i - 1] < nums[i]` for each in
 No resulting array is strictly increasing, so return false.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

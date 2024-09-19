@@ -12,7 +12,7 @@ Let `maxLen` be the side length of the *largest* square you can obtain from any 
 Return _the *number* of rectangles that can make a square with a side length of _`maxLen`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the *number* of rectangles that can make a square with a side length of 
 The largest possible square is of length 5, and you can get it out of 3 rectangles.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -15,7 +15,7 @@ Count the number of pairs of points `(A, B)`, where
 Return the count.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">points = [[1,1],[2,2],[3,3]]
@@ -29,7 +29,7 @@ Return the count.
 There is no way to choose `A` and `B` so `A` is on the upper left side of `B`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">points = [[6,2],[4,4],[2,6]]
@@ -47,7 +47,7 @@ There is no way to choose `A` and `B` so `A` is on the upper left side of `B`.
 
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">points = [[3,1],[1,3],[1,1]]

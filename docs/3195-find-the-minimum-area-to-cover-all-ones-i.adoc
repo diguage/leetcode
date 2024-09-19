@@ -8,7 +8,7 @@ You are given a 2D *binary* array `grid`. Find a rectangle with horizontal and v
 Return the *minimum* possible area of the rectangle.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [[0,1,0],[1,0,1]]
@@ -22,7 +22,7 @@ Return the *minimum* possible area of the rectangle.
 The smallest rectangle has a height of 2 and a width of 3, so it has an area of `2 * 3 = 6`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [[1,0],[0,0]]

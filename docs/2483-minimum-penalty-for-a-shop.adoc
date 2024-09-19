@@ -22,7 +22,7 @@ Return_ the *earliest* hour at which the shop must be closed to incur a *minimum
 *Note* that if a shop closes at the `j^th^` hour, it means the shop is closed at the hour `j`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ Closing the shop at 2^nd^ or 4^th^ hour gives a minimum penalty. Since 2 is earl
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -47,7 +47,7 @@ Closing the shop at 2^nd^ or 4^th^ hour gives a minimum penalty. Since 2 is earl
 *Explanation:* It is best to close the shop at the 0^th^ hour as no customers arrive.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

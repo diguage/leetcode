@@ -10,7 +10,7 @@ You are allowed to choose *exactly one element* from each row to form an array.
 Return _the _`k^th^`_ smallest array sum among all possible arrays_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Return _the _`k^th^`_ smallest array sum among all possible arrays_.
 [1,2], [1,4], [3,2], [3,4], [1,6]. Where the 5th sum is 7.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _the _`k^th^`_ smallest array sum among all possible arrays_.
 *Output:* 17
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -16,7 +16,7 @@ You are given a *0-indexed* 2D integer array `times` where `times[i] = [arrival<
 Return_ the *chair number* that the friend numbered _`targetFriend`_ will sit on_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Return_ the *chair number* that the friend numbered _`targetFriend`_ will sit on
 Since friend 1 sat on chair 1, we return 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -18,7 +18,7 @@ More formally, this means day `i` is a good day to rob the bank if and only if `
 Return _a list of *all* days *(0-indexed) *that are good days to rob the bank_._ The order that the days are returned in does* **not* matter._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ On day 3, we have security[1] >= security[2] >= security[3] <= security[4] <= se
 No other days satisfy this condition, so days 2 and 3 are the only good days to rob the bank.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ No other days satisfy this condition, so days 2 and 3 are the only good days to 
 Since time equals 0, every day is a good day to rob the bank, so return every day.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

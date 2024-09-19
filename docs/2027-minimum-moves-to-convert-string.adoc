@@ -10,7 +10,7 @@ A *move* is defined as selecting *three* *consecutive characters* of `s` and con
 Return _the *minimum* number of moves required so that all the characters of _`s`_ are converted to _`'O'`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ We select all the 3 characters and convert them in one move.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ We select the first 3 characters in the first move, and convert them to `'O'`.
 Then we select the last 3 characters and convert them so that the final string contains all `'O'`s.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

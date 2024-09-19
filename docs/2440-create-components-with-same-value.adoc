@@ -12,7 +12,7 @@ You are allowed to *delete* some edges, splitting the tree into multiple connect
 Return_ the *maximum* number of edges you can delete, such that every connected component in the tree has the same value._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/08/26/diagramdrawio.png" style="width: 441px; height: 351px;" />
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Return_ the *maximum* number of edges you can delete, such that every connected 
 *Explanation:* The above figure shows how we can delete the edges [0,1] and [3,4]. The created components are nodes [0], [1,2,3] and [4]. The sum of the values in each component equals 6. It can be proven that no better deletion exists, so the answer is 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -14,7 +14,7 @@ In one operation, you can do the following with an incurred *cost* of `x`:
 Return _the minimum cost to collect chocolates of all types, given that you can perform as many operations as you would like._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Now, we will again perform the operation at a cost of 5, and the chocolate types
 Thus, the total cost will become (1 + 5 + 1 + 5 + 1) = 13. We can prove that this is optimal.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

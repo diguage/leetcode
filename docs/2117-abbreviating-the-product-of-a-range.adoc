@@ -29,7 +29,7 @@ Since the product may be very large, you will *abbreviate* it following these st
 Return _a string denoting the *abbreviated product* of all integers in the *inclusive* range_ `[left, right]`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ Since the number of digits is 2, which is less than 10, we do not have to abbrev
 Thus, the final representation is "24e0".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -53,7 +53,7 @@ The number of digits after removing the trailing zeros is 6, so we do not abbrev
 Hence, the abbreviated product is "399168e2".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

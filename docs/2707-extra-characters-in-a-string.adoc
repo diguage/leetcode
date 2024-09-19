@@ -8,7 +8,7 @@ You are given a *0-indexed* string `s` and a dictionary of words `dictionary`. Y
 Return _the *minimum* number of extra characters left over if you break up _`s`_ optimally._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ Return _the *minimum* number of extra characters left over if you break up _`s`_
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -18,7 +18,7 @@ Return the _total_ number of *stable* binary arrays.
 Since the answer may be very large, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">zero = 1, one = 1, limit = 2
@@ -30,7 +30,7 @@ Since the answer may be very large, return it *modulo* `10^9^ + 7`.
 The two possible stable binary arrays are `[1,0]` and `[0,1]`, as both arrays have a single 0 and a single 1, and no subarray has a length greater than 2.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">zero = 1, one = 2, limit = 1
@@ -44,7 +44,7 @@ The only possible stable binary array is `[1,0,1]`.
 Note that the binary arrays `[1,1,0]` and `[0,1,1]` have subarrays of length 2 with identical elements, hence, they are not stable.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">zero = 3, one = 3, limit = 2

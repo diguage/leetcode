@@ -12,7 +12,7 @@ Return _the number of *distinct* great partitions_. Since the answer may be too 
 Two partitions are considered distinct if some element `nums[i]` is in different groups in the two partitions.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Two partitions are considered distinct if some element `nums[i]` is in different
 *Explanation:* The great partitions are: ([1,2,3], [4]), ([1,3], [2,4]), ([1,4], [2,3]), ([2,3], [1,4]), ([2,4], [1,3]) and ([4], [1,2,3]).
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Two partitions are considered distinct if some element `nums[i]` is in different
 *Explanation:* There are no great partitions for this array.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

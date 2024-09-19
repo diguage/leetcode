@@ -18,7 +18,7 @@ In each second, `s`, in order from `1` to `m` (*inclusive*), you can perform *on
 Return _an integer denoting the *earliest second* in the range _`[1, m]`_ when *all* indices in _`nums`_ can be marked by choosing operations optimally, or _`-1`_ if it is impossible._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ It can be shown that it is not possible to mark all indices earlier than the 8th
 Hence, the answer is 8.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -56,7 +56,7 @@ It can be shown that it is not possible to mark all indices earlier than the 6th
 Hence, the answer is 6.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

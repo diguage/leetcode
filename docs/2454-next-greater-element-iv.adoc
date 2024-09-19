@@ -22,7 +22,7 @@ If there is no such `nums[j]`, the second greater integer is considered to be `-
 Return_ an integer array _`answer`_, where _`answer[i]`_ is the second greater integer of _`nums[i]`_._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ Return_ an integer array _`answer`_, where _`answer[i]`_ is the second greater i
 Thus, we return [9,6,6,-1,-1].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

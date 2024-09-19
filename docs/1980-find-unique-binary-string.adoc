@@ -6,7 +6,7 @@
 Given an array of strings `nums` containing `n` *unique* binary strings each of length `n`, return _a binary string of length _`n`_ that *does not appear* in _`nums`_. If there are multiple answers, you may return *any* of them_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -15,7 +15,7 @@ Given an array of strings `nums` containing `n` *unique* binary strings each of 
 *Explanation:* "11" does not appear in nums. "00" would also be correct.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Given an array of strings `nums` containing `n` *unique* binary strings each of 
 *Explanation:* "11" does not appear in nums. "10" would also be correct.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

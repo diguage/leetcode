@@ -24,7 +24,7 @@ Return_ the number of *distinct* averages calculated using the above process_.
 *Note* that when there is a tie for a minimum or maximum number, any can be removed.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ Return_ the number of *distinct* averages calculated using the above process_.
 Since there are 2 distinct numbers among 2.5, 2.5, and 3.5, we return 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

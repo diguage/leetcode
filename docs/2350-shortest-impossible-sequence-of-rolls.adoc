@@ -10,7 +10,7 @@ Return_ the length of the *shortest* sequence of rolls so that there's no such <
 A *sequence of rolls* of length `len` is the result of rolling a `k` sided dice `len` times.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ The sequence [1, 4, 2] cannot be taken from rolls, so we return 3.
 Note that there are other sequences that cannot be taken from rolls.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ Note that there are other sequences that cannot be taken from rolls but [2, 1] i
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

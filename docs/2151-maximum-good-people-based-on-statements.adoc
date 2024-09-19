@@ -23,7 +23,7 @@ Additionally, no person ever makes a statement about themselves. Formally, we ha
 Return _the *maximum* number of people who can be *good* based on the statements made by the _`n`_ people_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/01/15/logic1.jpg" style="width: 600px; height: 262px;" />
 [subs="verbatim,quotes"]
 ----
@@ -52,7 +52,7 @@ We can see that at most 2 persons are good in the best case, so we return 2.
 Note that there is more than one way to arrive at this conclusion.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/01/15/logic2.jpg" style="width: 600px; height: 262px;" />
 [subs="verbatim,quotes"]
 ----

@@ -13,7 +13,7 @@ You are given a non-negative integer array `nums`. In one operation, you must:
 Return _the *minimum* number of operations to make every element in _`nums`_ equal to _`0`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ In the second operation, choose x = 2. Now, nums = [0,2,0,0,2].
 In the third operation, choose x = 2. Now, nums = [0,0,0,0,0].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

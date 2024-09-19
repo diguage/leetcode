@@ -15,7 +15,7 @@ You are also given `numCarpets` and `carpetLen`. You have `numCarpets` *black* c
 Return _the *minimum* number of white tiles still visible._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/02/10/ex1-1.png" style="width: 400px; height: 73px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ The figure above shows one way of covering the tiles with the carpets such that 
 No other way of covering the tiles with the carpets can leave less than 2 white tiles visible.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/02/10/ex2.png" style="width: 353px; height: 123px;" />
 [subs="verbatim,quotes"]
 ----

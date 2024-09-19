@@ -15,7 +15,7 @@ Two strings are *similar* if they consist of the same characters.
 Return _the number of pairs _`(i, j)`_ such that _`0 <= i < j <= word.length - 1`_ and the two strings _`words[i]`_ and _`words[j]`_ are similar_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Return _the number of pairs _`(i, j)`_ such that _`0 <= i < j <= word.length - 1
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -40,7 +40,7 @@ Return _the number of pairs _`(i, j)`_ such that _`0 <= i < j <= word.length - 1
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

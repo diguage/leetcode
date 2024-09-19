@@ -15,7 +15,7 @@ Note that the partition is done so that after removing the `fill` character from
 Given the string `s`, the size of each group `k` and the character `fill`, return _a string array denoting the *composition of every group* _`s`_ has been divided into, using the above procedure_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Since all groups can be completely filled by characters from the string, we do n
 Thus, the groups formed are "abc", "def", and "ghi".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

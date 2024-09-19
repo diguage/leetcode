@@ -22,7 +22,7 @@ Return _the *maximum possible score* after applying at most _`k`_ operations_.
 Since the answer may be large, return it modulo `10^9 ^+ 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ Since the answer may be large, return it modulo `10^9 ^+ 7`.
 It can be proven that 81 is the highest score one can obtain.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

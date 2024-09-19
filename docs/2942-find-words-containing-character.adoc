@@ -10,7 +10,7 @@ Return _an *array of indices* representing the words that contain the character 
 *Note* that the returned array may be in *any* order.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return _an *array of indices* representing the words that contain the character 
 *Explanation:* "e" occurs in both words: "l*[.underline]#ee#*t", and "cod[.underline]#*e*#". Hence, we return indices 0 and 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _an *array of indices* representing the words that contain the character 
 *Explanation:* "a" occurs in "*[.underline]#a#*bc", and "[.underline]#*aaaa*#". Hence, we return indices 0 and 2.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

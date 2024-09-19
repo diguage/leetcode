@@ -17,7 +17,7 @@ Return _the number of ways you can earn *exactly* _`target`_ points in the exam_
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Return _the number of ways you can earn *exactly* _`target`_ points in the exam_
 - Solve 2 questions of the 2^nd^ type: 3 + 3 = 6
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -46,7 +46,7 @@ Return _the number of ways you can earn *exactly* _`target`_ points in the exam_
 - Solve 1 question of the 2^nd^ type: 5
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

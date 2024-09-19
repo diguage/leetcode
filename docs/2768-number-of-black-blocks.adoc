@@ -12,7 +12,7 @@ A block is defined as a `2 x 2` submatrix of the grid. More formally, a block wi
 Return _a *0-indexed* integer array_ `arr` _of size_ `5` _such that_ `arr[i]` _is the number of blocks that contains exactly_ `i` _*black* cells_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ The other 3 blocks start with cells [0,1], [1,0] and [1,1]. They all have zero b
 Thus, we return [3,1,0,0,0]. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

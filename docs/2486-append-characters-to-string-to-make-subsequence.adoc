@@ -10,7 +10,7 @@ Return _the minimum number of characters that need to be appended to the end of 
 A *subsequence* is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Now, t is a subsequence of s ("[.underline]#*co*#aching[.underline]#*ding*#").
 It can be shown that appending any 3 characters to the end of s will never make t a subsequence.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ It can be shown that appending any 3 characters to the end of s will never make 
 *Explanation:* t is already a subsequence of s ("[.underline]#*a*#bcde").
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

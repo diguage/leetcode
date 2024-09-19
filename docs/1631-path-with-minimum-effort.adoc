@@ -10,7 +10,7 @@ A route's *effort* is the *maximum absolute difference** *in heights between two
 Return _the minimum *effort* required to travel from the top-left cell to the bottom-right cell._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2020/10/04/ex1.png" style="width: 300px; height: 300px;" />
 
@@ -22,7 +22,7 @@ Return _the minimum *effort* required to travel from the top-left cell to the bo
 This is better than the route of [1,2,2,2,5], where the maximum absolute difference is 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2020/10/04/ex2.png" style="width: 300px; height: 300px;" />
 
@@ -33,7 +33,7 @@ This is better than the route of [1,2,2,2,5], where the maximum absolute differe
 *Explanation:* The route of [1,2,3,4,5] has a maximum absolute difference of 1 in consecutive cells, which is better than route [1,3,5,3,5].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/10/04/ex3.png" style="width: 300px; height: 300px;" />
 [subs="verbatim,quotes"]
 ----

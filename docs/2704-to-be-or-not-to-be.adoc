@@ -11,7 +11,7 @@ Write a function `expect` that helps developers test their code. It should take 
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Write a function `expect` that helps developers test their code. It should take 
 *Explanation:* 5 === 5 so this expression returns true.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Write a function `expect` that helps developers test their code. It should take 
 *Explanation:* 5 !== null so this expression throw the error "Not Equal".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -20,7 +20,7 @@ Return _an array containing the health of the remaining robots (in the order the
 <div class="notranslate" style="all: initial;"> 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img height="169" src="https://assets.leetcode.com/uploads/2023/05/15/image-20230516011718-12.png" width="808" />
 
@@ -32,7 +32,7 @@ Return _an array containing the health of the remaining robots (in the order the
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <img height="176" src="https://assets.leetcode.com/uploads/2023/05/15/image-20230516004433-7.png" width="717" />
 
@@ -44,7 +44,7 @@ Return _an array containing the health of the remaining robots (in the order the
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <img height="172" src="https://assets.leetcode.com/uploads/2023/05/15/image-20230516005114-9.png" width="732" />
 

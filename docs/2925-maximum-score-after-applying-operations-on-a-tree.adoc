@@ -20,7 +20,7 @@ A tree is *healthy* if the sum of values on the path from the root to any leaf n
 Return _the *maximum score* you can obtain after performing these operations on the tree any number of times so that it remains *healthy*._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/10/11/graph-13-1.png" style="width: 515px; height: 443px;" />
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _the *maximum score* you can obtain after performing these operations on 
 It can be shown that 11 is the maximum score obtainable after any number of operations on the tree.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/10/11/graph-14-2.png" style="width: 522px; height: 245px;" />
 [subs="verbatim,quotes"]
 ----

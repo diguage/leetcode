@@ -10,7 +10,7 @@ Return _an array _`answer`_ of length _`m`_ where _`answer[i]`_ is the *maximum*
 A *subsequence* is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ A *subsequence* is an array that can be derived from another array by deleting s
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

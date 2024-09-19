@@ -10,7 +10,7 @@ Return _the minimum number of steps to make _`s`_ and _`t`_ *anagrams* of each o
 An *anagram* of a string is a string that contains the same characters with a different (or the same) ordering.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ We used a total of 2 + 5 = 7 steps.
 It can be shown that there is no way to make them anagrams of each other with less than 7 steps.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -12,7 +12,7 @@ Given a *0-indexed* 2D integer matrix `<font face="monospace">grid`<font face="m
 Return _the product matrix of_ `<font face="monospace">grid`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ p[1][1] = grid[0][0] * grid[0][1] * grid[1][0] = 1 * 2 * 3 = 6
 So the answer is [[24,12],[8,6]].
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

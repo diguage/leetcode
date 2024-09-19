@@ -10,7 +10,7 @@ Each node has a *score*. To find the score of a node, consider if the node and t
 Return _the *number* of nodes that have the *highest score*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="example-1" src="https://assets.leetcode.com/uploads/2021/10/03/example-1.png" style="width: 604px; height: 266px;" />
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Return _the *number* of nodes that have the *highest score*_.
 The highest score is 4, and three nodes (node 1, node 3, and node 4) have the highest score.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="example-2" src="https://assets.leetcode.com/uploads/2021/10/03/example-2.png" style="width: 95px; height: 143px;" />
 [subs="verbatim,quotes"]
 ----

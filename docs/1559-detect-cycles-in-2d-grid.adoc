@@ -12,7 +12,7 @@ Also, you cannot move to the cell that you visited in your last move. For exampl
 Return `true` if any cycle of the same value exists in `grid`, otherwise, return `false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2020/07/15/1.png" style="width: 231px; height: 152px;" />*
 
@@ -24,7 +24,7 @@ Return `true` if any cycle of the same value exists in `grid`, otherwise, return
 <img alt="" src="https://assets.leetcode.com/uploads/2020/07/15/11.png" style="width: 225px; height: 163px;" />
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2020/07/15/22.png" style="width: 236px; height: 154px;" />*
 
@@ -36,7 +36,7 @@ Return `true` if any cycle of the same value exists in `grid`, otherwise, return
 <img alt="" src="https://assets.leetcode.com/uploads/2020/07/15/2.png" style="width: 229px; height: 157px;" />
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2020/07/15/3.png" style="width: 183px; height: 120px;" />*
 

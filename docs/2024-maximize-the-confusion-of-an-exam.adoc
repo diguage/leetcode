@@ -14,7 +14,7 @@ You are given a string `answerKey`, where `answerKey[i]` is the original answer 
 Return _the *maximum* number of consecutive_ `'T'`s or `'F'`s _in the answer key after performing the operation at most_ `k` _times_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the *maximum* number of consecutive_ `'T'`s or `'F'`s _in the answer key
 There are four consecutive 'T's.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -35,7 +35,7 @@ Alternatively, we can replace the second 'T' with an 'F' to make answerKey = "T[
 In both cases, there are three consecutive 'F's.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

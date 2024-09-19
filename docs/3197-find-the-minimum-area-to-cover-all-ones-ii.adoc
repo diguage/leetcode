@@ -10,7 +10,7 @@ Return the *minimum* possible sum of the area of these rectangles.
 *Note* that the rectangles are allowed to touch.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [[1,0,1],[1,1,1]]
@@ -28,7 +28,7 @@ Return the *minimum* possible sum of the area of these rectangles.
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [[1,0,1,0],[0,1,0,1]]

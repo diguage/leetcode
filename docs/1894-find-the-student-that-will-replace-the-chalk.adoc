@@ -10,7 +10,7 @@ You are given a *0-indexed* integer array `chalk` and an integer `k`. There are 
 Return _the *index* of the student that will *replace* the chalk pieces_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the *index* of the student that will *replace* the chalk pieces_.
 Student number 0 does not have enough chalk, so they will have to replace it.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

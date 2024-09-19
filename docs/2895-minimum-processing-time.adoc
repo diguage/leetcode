@@ -8,7 +8,7 @@ You have a certain number of processors, each having 4 cores. The number of task
 You are given an array `processorTime` representing the time each processor becomes available and an array `tasks` representing how long each task takes to complete. Return the _minimum_ time needed to complete all tasks.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">processorTime = [8,10], tasks = [2,2,3,1,8,7,4,5]
@@ -24,7 +24,7 @@ The time taken by the first processor to finish the execution of all tasks is `m
 The time taken by the second processor to finish the execution of all tasks is `max(10 + 2, 10 + 2, 10 + 3, 10 + 1) = 13`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">processorTime = [10,20], tasks = [2,3,1,2,5,8,4,3]

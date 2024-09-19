@@ -13,7 +13,7 @@ You are given an integer `n` representing an array `colors` of length `n` where 
 Return an array `answer` of the same length as `queries` where `answer[i]` is the answer to the `i^th^` query.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 4, queries = [[0,2],[1,2],[3,1],[1,1],[2,1]]
@@ -32,7 +32,7 @@ Return an array `answer` of the same length as `queries` where `answer[i]` is th
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">n = 1, queries = [[0,100000]]

@@ -12,7 +12,7 @@ You can *flip* any number of cells in `grid` from `0` to `1`, or from `1` to `0`
 Return the *minimum* number of cells that need to be flipped to make *either* all rows *palindromic* or all columns *palindromic*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [[1,0,0],[0,0,0],[0,0,1]]
@@ -26,7 +26,7 @@ Return the *minimum* number of cells that need to be flipped to make *either* al
 Flipping the highlighted cells makes all the rows palindromic.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [[0,1],[0,1],[0,0]]
@@ -40,7 +40,7 @@ Flipping the highlighted cells makes all the rows palindromic.
 Flipping the highlighted cell makes all the columns palindromic.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [[1],[0]]

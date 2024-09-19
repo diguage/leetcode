@@ -13,7 +13,7 @@ Given a 2D integer array `circles` where `circles[i] = [x<sub>i</sub>, y<sub>i</
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/03/02/exa-11.png" style="width: 300px; height: 300px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Other points such as (1, 1) and (1, 3), which are shown in red, are not consider
 Hence, the number of lattice points present inside at least one circle is 5.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/03/02/exa-22.png" style="width: 300px; height: 300px;" />
 [subs="verbatim,quotes"]
 ----

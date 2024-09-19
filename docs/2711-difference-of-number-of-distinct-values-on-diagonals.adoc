@@ -30,7 +30,7 @@ A *matrix diagonal* is a diagonal line of cells starting from some cell in eithe
 Return the matrix `answer`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [[1,2,3],[3,1,5],[3,2,1]]
@@ -129,7 +129,7 @@ To calculate the `answer` cells:
 </table>
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">grid = [[1]]

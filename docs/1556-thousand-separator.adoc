@@ -6,7 +6,7 @@
 Given an integer `n`, add a dot (".") as the thousands separator and return it in string format.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -14,7 +14,7 @@ Given an integer `n`, add a dot (".") as the thousands separator and return it i
 *Output:* "987"
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

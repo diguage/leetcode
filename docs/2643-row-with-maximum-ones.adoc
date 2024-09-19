@@ -10,7 +10,7 @@ In case there are multiple rows that have the maximum count of ones, the row wit
 Return_ an array containing the index of the row, and the number of ones in it._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return_ an array containing the index of the row, and the number of ones in it._
 *Explanation:* Both rows have the same number of 1's. So we return the index of the smaller row, 0, and the maximum count of ones (1`)`. So, the answer is [0,1]. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return_ an array containing the index of the row, and the number of ones in it._
 *Explanation:* The row indexed 1 has the maximum count of ones `(2)`. So we return its index, `1`, and the count. So, the answer is [1,2].
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

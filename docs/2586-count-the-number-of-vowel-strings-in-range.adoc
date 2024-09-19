@@ -10,7 +10,7 @@ A string is called a *vowel string* if it starts with a vowel character and ends
 Return _the number of vowel strings _`words[i]`_ where _`i`_ belongs to the inclusive range _`[left, right]`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Return _the number of vowel strings _`words[i]`_ where _`i`_ belongs to the incl
 The number of vowel strings in the mentioned range is 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

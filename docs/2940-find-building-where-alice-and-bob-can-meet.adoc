@@ -12,7 +12,7 @@ You are also given another array `queries` where `queries[i] = [a<sub>i</sub>, b
 Return _an array_ `ans` _where_ `ans[i]` _is *the index of the leftmost building* where Alice and Bob can meet on the_ `i^th^` _query_. _If Alice and Bob cannot move to a common building on query_ `i`, _set_ `ans[i]` _to_ `-1`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ For ans[i] != -1, It can be shown that ans[i] is the leftmost building where Ali
 For ans[i] == -1, It can be shown that there is no building where Alice and Bob can meet.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

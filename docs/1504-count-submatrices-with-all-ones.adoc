@@ -6,7 +6,7 @@
 Given an `m x n` binary matrix `mat`, _return the number of *submatrices* that have all ones_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/10/27/ones1-grid.jpg" style="width: 244px; height: 245px;" />
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ There is 1 rectangle of side 3x1.
 Total number of rectangles = 6 + 2 + 3 + 1 + 1 = 13.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/10/27/ones2-grid.jpg" style="width: 324px; height: 245px;" />
 [subs="verbatim,quotes"]
 ----

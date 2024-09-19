@@ -30,7 +30,7 @@ You can perform *either* of the following operations *zero *or multiple times to
 Return an integer denoting the *maximum* points you can get in the end by optimally performing operations.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">enemyEnergies = [3,2,2], currentEnergy = 2
@@ -50,7 +50,7 @@ The following operations can be performed to get 3 points, which is the maximum:
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">enemyEnergies = [2]<span class="example-io">, currentEnergy = 10

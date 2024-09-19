@@ -8,7 +8,7 @@ Given a string `s` consisting only of characters _a_, _b_ and _c_.
 Return the number of substrings containing *at least* one occurrence of all these characters _a_, _b_ and _c_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Return the number of substrings containing *at least* one occurrence of all thes
 *Explanation:* The substrings containing at least one occurrence of the characters _a_, _b_ and _c are "_abc_", "_abca_", "_abcab_", "_abcabc_", "_bca_", "_bcab_", "_bcabc_", "_cab_", "_cabc_" _and_ "_abc_" _(*again*)_. _
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return the number of substrings containing *at least* one occurrence of all thes
 *Explanation:* The substrings containing at least one occurrence of the characters _a_, _b_ and _c are "_aaacb_", "_aacb_" _and_ "_acb_".__ _
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

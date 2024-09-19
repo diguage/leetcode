@@ -12,7 +12,7 @@ Return an array `result` of length `n`, where `result[i]` denotes the number of 
 *Note* that when answering a query, lack of a color _will not_ be considered as a color.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">limit = 4, queries = [[1,4],[2,5],[1,3],[3,4]]
@@ -31,7 +31,7 @@ Return an array `result` of length `n`, where `result[i]` denotes the number of 
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">limit = 4, queries = [[0,1],[1,2],[2,2],[3,4],[4,5]]

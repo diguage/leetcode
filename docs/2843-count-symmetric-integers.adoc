@@ -10,7 +10,7 @@ An integer `x` consisting of `2 * n` digits is *symmetric* if the sum of the fir
 Return _the *number of symmetric* integers in the range_ `[low, high]`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return _the *number of symmetric* integers in the range_ `[low, high]`.
 *Explanation:* There are 9 symmetric integers between 1 and 100: 11, 22, 33, 44, 55, 66, 77, 88, and 99.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

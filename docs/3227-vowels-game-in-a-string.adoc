@@ -19,7 +19,7 @@ Return `true` if Alice wins the game, and `false` otherwise.
 The English vowels are: `a`, `e`, `i`, `o`, and `u`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "leetcoder"
@@ -39,7 +39,7 @@ Alice can win the game as follows:
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "bbcd"

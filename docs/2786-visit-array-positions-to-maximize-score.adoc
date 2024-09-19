@@ -18,7 +18,7 @@ Return _the *maximum* total score you can get_.
 *Note* that initially you have `nums[0]` points.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ The corresponding values are 2, 6, 1 and 9. Since the integers 6 and 1 have diff
 The total score will be: 2 + 6 + 1 + 9 - 5 = 13.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

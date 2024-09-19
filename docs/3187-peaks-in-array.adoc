@@ -23,7 +23,7 @@ Return an array `answer` containing the results of the queries of the first type
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [3,1,4,2,5], queries = [[2,3,4],[1,0,4]]
@@ -37,7 +37,7 @@ First query: We change `nums[3]` to 4 and `nums` becomes `[3,1,4,4,5]`.
 Second query: The number of peaks in the `[3,1,4,4,5]` is 0.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [4,1,4,2,1,5], queries = [[2,2,4],[1,0,2],[1,0,4]]

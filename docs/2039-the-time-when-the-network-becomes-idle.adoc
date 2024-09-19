@@ -21,7 +21,7 @@ The network becomes *idle* when there are *no* messages passing between servers 
 Return _the *earliest second* starting from which the network becomes *idle*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="example 1" src="https://assets.leetcode.com/uploads/2021/09/22/quiet-place-example1.png" style="width: 750px; height: 384px;" />
 [subs="verbatim,quotes"]
 ----
@@ -51,7 +51,7 @@ Starting from the beginning of the second 8, there are no messages passing betwe
 This is the time when the network becomes idle.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="example 2" src="https://assets.leetcode.com/uploads/2021/09/04/network_a_quiet_place_2.png" style="width: 100px; height: 85px;" />
 [subs="verbatim,quotes"]
 ----

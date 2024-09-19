@@ -14,7 +14,7 @@ You are also given an integer `k`, representing the *minimum* number of houses t
 Return _the *minimum* capability of the robber out of all the possible ways to steal at least _`k`_ houses_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ There are three ways to rob at least 2 houses:
 Therefore, we return min(5, 9, 9) = 5.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

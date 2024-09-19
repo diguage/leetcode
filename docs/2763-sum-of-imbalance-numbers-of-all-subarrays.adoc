@@ -17,7 +17,7 @@ Given a *0-indexed* integer array `nums`, return _the *sum of imbalance numbers*
 A *subarray* is a contiguous *non-empty* sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ A *subarray* is a contiguous *non-empty* sequence of elements within an array.
 The imbalance number of all other subarrays is 0. Hence, the sum of imbalance numbers of all the subarrays of nums is 3. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

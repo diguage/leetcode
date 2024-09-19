@@ -12,7 +12,7 @@ The *maximal network rank *of the infrastructure is the *maximum network rank* o
 Given the integer `n` and the array `roads`, return _the *maximal network rank* of the entire infrastructure_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2020/09/21/ex1.png" style="width: 292px; height: 172px;" />*
 
@@ -23,7 +23,7 @@ Given the integer `n` and the array `roads`, return _the *maximal network rank* 
 *Explanation:* The network rank of cities 0 and 1 is 4 as there are 4 roads that are connected to either 0 or 1. The road between 0 and 1 is only counted once.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2020/09/21/ex2.png" style="width: 292px; height: 172px;" />*
 
@@ -34,7 +34,7 @@ Given the integer `n` and the array `roads`, return _the *maximal network rank* 
 *Explanation:* There are 5 roads that are connected to cities 1 or 2.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -22,7 +22,7 @@ However, calling the function like `tax.callPolyfill({item: "salad"}, 10, 0.1)` 
 Please solve this without using the built-in `Function.call` method.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ fn.callPolyfill({"a": 5}, 7); // 12
 callPolyfill sets the "this" context to {"a": 5}. 7 is passed as an argument.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

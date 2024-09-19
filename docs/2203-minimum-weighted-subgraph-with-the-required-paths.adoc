@@ -14,7 +14,7 @@ Return _the *minimum weight* of a subgraph of the graph such that it is *possibl
 A *subgraph* is a graph whose vertices and edges are subsets of the original graph. The *weight* of a subgraph is the sum of weights of its constituent edges.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/02/17/example1drawio.png" style="width: 263px; height: 250px;" />
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ The blue edges represent one of the subgraphs that yield the optimal answer.
 Note that the subgraph [[1,0,3],[0,5,6]] also yields the optimal answer. It is not possible to get a subgraph with less weight satisfying all the constraints.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/02/17/example2-1drawio.png" style="width: 350px; height: 51px;" />
 [subs="verbatim,quotes"]
 ----

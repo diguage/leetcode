@@ -15,7 +15,7 @@ Return _the *absolute* difference between the *element sum* and *digit sum* of _
 *Note* that the absolute difference between two integers `x` and `y` is defined as `|x - y|`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ The digit sum of nums is 1 + 1 + 5 + 6 + 3 = 16.
 The absolute difference between the element sum and digit sum is |25 - 16| = 9.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ Return True if all the elements in the linked list starting from the `head` corr
 In this context downward path means a path that starts at some node and goes downwards.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2020/02/12/sample_1_1720.png" style="width: 220px; height: 280px;" />*
 
@@ -21,7 +21,7 @@ In this context downward path means a path that starts at some node and goes dow
 *Explanation:* Nodes in blue form a subpath in the binary Tree.  
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2020/02/12/sample_2_1720.png" style="width: 220px; height: 280px;" />*
 
@@ -31,7 +31,7 @@ In this context downward path means a path that starts at some node and goes dow
 *Output:* true
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

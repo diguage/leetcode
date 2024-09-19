@@ -21,7 +21,7 @@ Return _*true* if such an array exists or *false* otherwise._
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ derived[1] = original[1] &oplus; original[2] = 1 &oplus; 0 = 1
 derived[2] = original[2] &oplus; original[0] = 0 &oplus; 0 = 0
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -44,7 +44,7 @@ derived[0] = original[0] &oplus; original[1] = 1
 derived[1] = original[1] &oplus; original[0] = 1
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

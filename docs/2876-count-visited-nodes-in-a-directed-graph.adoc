@@ -16,7 +16,7 @@ Consider the following process on the graph:
 Return _an array _`answer`_ where _`answer[i]`_ is the number of *different* nodes that you will visit if you perform the process starting from node _`i`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/08/31/graaphdrawio-1.png" />
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Return _an array _`answer`_ where _`answer[i]`_ is the number of *different* nod
 - Starting from node 3, we visit the nodes 3 -> 0 -> 1 -> 2 -> 0. The number of different nodes we visit is 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2023/08/31/graaph2drawio.png" style="width: 191px; height: 251px;" />
 [subs="verbatim,quotes"]
 ----

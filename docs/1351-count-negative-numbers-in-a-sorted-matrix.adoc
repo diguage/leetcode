@@ -6,7 +6,7 @@
 Given a `m x n` matrix `grid` which is sorted in non-increasing order both row-wise and column-wise, return _the number of *negative* numbers in_ `grid`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -15,7 +15,7 @@ Given a `m x n` matrix `grid` which is sorted in non-increasing order both row-w
 *Explanation:* There are 8 negatives number in the matrix.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

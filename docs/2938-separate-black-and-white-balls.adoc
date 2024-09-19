@@ -12,7 +12,7 @@ In each step, you can choose two adjacent balls and swap them.
 Return _the *minimum* number of steps to group all the black balls to the right and all the white balls to the left_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Return _the *minimum* number of steps to group all the black balls to the right 
 Initially, 1s are not grouped together, requiring at least 1 step to group them to the right.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ It can be proven that the minimum number of steps needed is 2.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

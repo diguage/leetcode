@@ -12,7 +12,7 @@ Since the result can be very large, return it modulo `10^9^ + 7`.
 For example, if `n = 160` and `x = 3`, one way to express `n` is `n = 2^3^ + 3^3^ + 5^3^`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ For example, if `n = 160` and `x = 3`, one way to express `n` is `n = 2^3^ + 3^3
 It can be shown that it is the only way to express 10 as the sum of the 2^nd^ power of unique integers.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

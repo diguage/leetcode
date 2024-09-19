@@ -10,7 +10,7 @@ For example, 2373 is made up of three distinct digits: 2, 3, and 7, where 7 is t
 Return the *maximum* sum or -1 if no such pair exists.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [112,131,411]
@@ -22,7 +22,7 @@ Return the *maximum* sum or -1 if no such pair exists.
 Each numbers largest digit in order is [2,3,4].
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [2536,1613,3366,162]
@@ -34,7 +34,7 @@ Each numbers largest digit in order is [2,3,4].
 All the numbers have 6 as their largest digit, so the answer is <span class="example-io">2536 + 3366 = 5902.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [51,71,17,24,42]

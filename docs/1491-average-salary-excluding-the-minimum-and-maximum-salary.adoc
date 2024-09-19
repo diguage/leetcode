@@ -8,7 +8,7 @@ You are given an array of *unique* integers `salary` where `salary[i]` is the sa
 Return _the average salary of employees excluding the minimum and maximum salary_. Answers within `10^-5^` of the actual answer will be accepted.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ Return _the average salary of employees excluding the minimum and maximum salary
 Average salary excluding minimum and maximum salary is (2000+3000) / 2 = 2500
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

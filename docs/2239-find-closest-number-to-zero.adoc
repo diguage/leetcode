@@ -5,7 +5,7 @@
 
 Given an integer array `nums` of size `n`, return _the number with the value *closest* to _`0`_ in _`nums`. If there are multiple answers, return _the number with the *largest* value_.
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ The distance from 8 to 0 is |8| = 8.
 Thus, the closest number to 0 in the array is 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

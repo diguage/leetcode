@@ -18,7 +18,7 @@ There can be multiple points at one coordinate. There may be points at your loca
 Return _the maximum number of points you can see_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/30/89a07e9b-00ab-4967-976a-c723b2aa8656.png" style="width: 400px; height: 300px;" />
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Return _the maximum number of points you can see_.
 *Explanation:* The shaded region represents your field of view. All points can be made visible in your field of view, including [3,3] even though [2,2] is in front and in the same line of sight.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ Return _the maximum number of points you can see_.
 *Explanation:* All points can be made visible in your field of view, including the one at your location.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/30/5010bfd3-86e6-465f-ac64-e9df941d2e49.png" style="width: 690px; height: 348px;" />
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ A subarray is defined as a contiguous sequence of numbers in an array.
 A subarray `[nums<sub>l</sub>, nums<sub>l+1</sub>, ..., nums<sub>r-1</sub>, nums<sub>r</sub>]` is *ascending* if for all `i` where `l <= i < r`, `nums<sub>i </sub> < nums<sub>i+1</sub>`. Note that a subarray of size `1` is *ascending*.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ A subarray `[nums<sub>l</sub>, nums<sub>l+1</sub>, ..., nums<sub>r-1</sub>, nums
 *Explanation: *[5,10,50] is the ascending subarray with the maximum sum of 65.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ A subarray `[nums<sub>l</sub>, nums<sub>l+1</sub>, ..., nums<sub>r-1</sub>, nums
 *Explanation: *[10,20,30,40,50] is the ascending subarray with the maximum sum of 150.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

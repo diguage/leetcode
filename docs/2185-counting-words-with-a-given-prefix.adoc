@@ -10,7 +10,7 @@ Return _the number of strings in _`words`_ that contain _`pref`_ as a *prefix*_.
 A *prefix* of a string `s` is any leading contiguous substring of `s`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ A *prefix* of a string `s` is any leading contiguous substring of `s`.
 *Explanation:* The 2 strings that contain "at" as a prefix are: "[.underline]#*at*#tention" and "[.underline]#*at*#tend".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

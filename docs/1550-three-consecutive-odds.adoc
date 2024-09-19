@@ -5,7 +5,7 @@
 
 Given an integer array `arr`, return `true` if there are three consecutive odd numbers in the array. Otherwise, return `false`.
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -14,7 +14,7 @@ Given an integer array `arr`, return `true` if there are three consecutive odd n
 *Explanation:* There are no three consecutive odds.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

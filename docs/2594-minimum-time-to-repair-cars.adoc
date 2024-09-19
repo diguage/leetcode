@@ -12,7 +12,7 @@ Return _the *minimum* time taken to repair all the cars._
 *Note:* All the mechanics can repair the cars simultaneously.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the *minimum* time taken to repair all the cars._
 It can be proved that the cars cannot be repaired in less than 16 minutes.​​​​​
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

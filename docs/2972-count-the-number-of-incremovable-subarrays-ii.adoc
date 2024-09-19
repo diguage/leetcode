@@ -14,7 +14,7 @@ Return _the total number of *incremovable* subarrays of_ `nums`.
 A *subarray* is a contiguous non-empty sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ A *subarray* is a contiguous non-empty sequence of elements within an array.
 *Explanation:* The 10 incremovable subarrays are: [1], [2], [3], [4], [1,2], [2,3], [3,4], [1,2,3], [2,3,4], and [1,2,3,4], because on removing any one of these subarrays nums becomes strictly increasing. Note that you cannot select an empty subarray.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ A *subarray* is a contiguous non-empty sequence of elements within an array.
 It can be shown that there are only 7 incremovable subarrays in nums.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

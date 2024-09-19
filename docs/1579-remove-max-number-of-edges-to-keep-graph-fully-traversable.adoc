@@ -16,7 +16,7 @@ Given an array `edges` where `edges[i] = [type<sub>i</sub>, u<sub>i</sub>, v<sub
 Return _the maximum number of edges you can remove, or return_ `-1` _if Alice and Bob cannot fully traverse the graph._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2020/08/19/ex1.png" style="width: 179px; height: 191px;" />*
 
@@ -28,7 +28,7 @@ Return _the maximum number of edges you can remove, or return_ `-1` _if Alice an
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2020/08/19/ex2.png" style="width: 178px; height: 190px;" />*
 
@@ -40,7 +40,7 @@ Return _the maximum number of edges you can remove, or return_ `-1` _if Alice an
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2020/08/19/ex3.png" style="width: 178px; height: 190px;" />*
 

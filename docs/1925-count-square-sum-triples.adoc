@@ -8,7 +8,7 @@ A *square triple* `(a,b,c)` is a triple where `a`, `b`, and `c` are *integers* a
 Given an integer `n`, return _the number of *square triples* such that _`1 <= a, b, c <= n`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Given an integer `n`, return _the number of *square triples* such that _`1 <= a,
 *Explanation*: The square triples are (3,4,5) and (4,3,5).
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

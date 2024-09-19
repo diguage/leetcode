@@ -15,7 +15,7 @@ For example, if inserting element `3` into `nums = [1,2,3,5]`, the *cost* of ins
 Return _the *total cost* to insert all elements from _`instructions`_ into _`nums`. Since the answer may be large, return it *modulo* `10^9^ + 7`
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Insert 2 with cost min(1, 2) = 1, now nums = [1,2,5,6].
 The total cost is 0 + 0 + 0 + 1 = 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -46,7 +46,7 @@ The total cost is 0 + 0 + 0 + 0 + 1 + 2 = 3.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

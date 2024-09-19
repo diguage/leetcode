@@ -18,7 +18,7 @@ Return _an integer denoting the *maximum* possible *sum of elements* in a *balan
 A *subsequence* of an array is a new *non-empty* array that is formed from the original array by deleting some (*possibly none*) of the elements without disturbing the relative positions of the remaining elements.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ The subsequence consisting of indices 1, 2, and 3 is also valid.
 It can be shown that it is not possible to get a balanced subsequence with a sum greater than 14.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -45,7 +45,7 @@ It can be shown that it is not possible to get a balanced subsequence with a sum
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

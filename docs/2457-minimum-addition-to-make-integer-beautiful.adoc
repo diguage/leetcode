@@ -10,7 +10,7 @@ An integer is considered *beautiful* if the sum of its digits is less than or eq
 Return the _minimum *non-negative* integer _`x`_ such that _`n + x`_ is beautiful_. The input will be generated such that it is always possible to make `n` beautiful.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return the _minimum *non-negative* integer _`x`_ such that _`n + x`_ is beautifu
 *Explanation:* Initially n is 16 and its digit sum is 1 + 6 = 7. After adding 4, n becomes 20 and digit sum becomes 2 + 0 = 2. It can be shown that we can not make n beautiful with adding non-negative integer less than 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return the _minimum *non-negative* integer _`x`_ such that _`n + x`_ is beautifu
 *Explanation:* Initially n is 467 and its digit sum is 4 + 6 + 7 = 17. After adding 33, n becomes 500 and digit sum becomes 5 + 0 + 0 = 5. It can be shown that we can not make n beautiful with adding non-negative integer less than 33.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

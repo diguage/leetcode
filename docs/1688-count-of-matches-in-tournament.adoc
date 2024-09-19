@@ -13,7 +13,7 @@ You are given an integer `n`, the number of teams in a tournament that has stran
 Return _the number of matches played in the tournament until a winner is decided._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the number of matches played in the tournament until a winner is decided
 Total number of matches = 3 + 2 + 1 = 6.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

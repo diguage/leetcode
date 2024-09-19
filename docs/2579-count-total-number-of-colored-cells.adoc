@@ -15,7 +15,7 @@ Below is a pictorial representation of the state of the grid after minutes 1, 2,
 Return _the number of *colored cells* at the end of _`n` _minutes_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Return _the number of *colored cells* at the end of _`n` _minutes_.
 *Explanation:* After 1 minute, there is only 1 blue cell, so we return 1.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

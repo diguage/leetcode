@@ -8,7 +8,7 @@ Given an `m x n` matrix of *distinct *numbers, return _all *lucky numbers* in th
 A *lucky number* is an element of the matrix such that it is the minimum element in its row and maximum in its column.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ A *lucky number* is an element of the matrix such that it is the minimum element
 *Explanation:* 15 is the only lucky number since it is the minimum in its row and the maximum in its column.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ A *lucky number* is an element of the matrix such that it is the minimum element
 *Explanation:* 12 is the only lucky number since it is the minimum in its row and the maximum in its column.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

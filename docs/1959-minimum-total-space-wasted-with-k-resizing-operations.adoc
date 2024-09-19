@@ -12,7 +12,7 @@ Return _the *minimum* *total space wasted* if you can resize the array at most_ 
 *Note:* The array can have *any size* at the start and does* not *count towards the number of resizing operations.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ We can set the initial size to be 20.
 The total wasted space is (20 - 10) + (20 - 20) = 10.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ We can set the initial size to be 20 and resize to 30 at time 2.
 The total wasted space is (20 - 10) + (20 - 20) + (30 - 30) = 10.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

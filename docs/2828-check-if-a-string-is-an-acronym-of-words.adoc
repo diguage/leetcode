@@ -10,7 +10,7 @@ The string `s` is considered an acronym of `words` if it can be formed by concat
 Return `true`_ if _`s`_ is an acronym of _`words`_, and _`false`_ otherwise. _
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return `true`_ if _`s`_ is an acronym of _`words`_, and _`false`_ otherwise. _
 *Explanation:* The first character in the words "alice", "bob", and "charlie" are 'a', 'b', and 'c', respectively. Hence, s = "abc" is the acronym. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ The acronym formed by concatenating these characters is "aa".
 Hence, s = "a" is not the acronym.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

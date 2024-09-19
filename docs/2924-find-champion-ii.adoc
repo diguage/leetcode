@@ -21,7 +21,7 @@ Return _the team that will be the *champion* of the tournament if there is a *un
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <img height="300" src="https://assets.leetcode.com/uploads/2023/10/19/graph-3.png" width="300" />
 
@@ -32,7 +32,7 @@ Return _the team that will be the *champion* of the tournament if there is a *un
 *Explanation: *Team 1 is weaker than team 0. Team 2 is weaker than team 1. So the champion is team 0.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <img height="300" src="https://assets.leetcode.com/uploads/2023/10/19/graph-4.png" width="300" />
 

@@ -12,7 +12,7 @@ The game ends when there is only *one stone remaining*. Alice's is initially *ze
 Return _the maximum score that Alice can obtain_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ In the second round Alice divides the row to [6], [2,3]. This time Bob throws aw
 The last round Alice has only one choice to divide the row which is [2], [3]. Bob throws away the right row and Alice's score is now 18 (16 + 2). The game ends because only one stone is remaining in the row.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ The last round Alice has only one choice to divide the row which is [2], [3]. Bo
 *Output:* 28
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

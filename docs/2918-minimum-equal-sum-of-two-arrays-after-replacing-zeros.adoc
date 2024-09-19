@@ -10,7 +10,7 @@ You have to replace *all* the `0`'s in both arrays with *strictly* positive inte
 Return _the *minimum* equal sum you can obtain, or _`-1`_ if it is impossible_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the *minimum* equal sum you can obtain, or _`-1`_ if it is impossible_.
 Both arrays have an equal sum of 12. It can be shown that it is the minimum sum we can obtain.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

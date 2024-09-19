@@ -8,7 +8,7 @@ You are given the array `paths`, where `paths[i] = [cityA<sub>i</sub>, cityB<sub
 It is guaranteed that the graph of paths forms a line without any loop, therefore, there will be exactly one destination city.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ It is guaranteed that the graph of paths forms a line without any loop, therefor
 *Explanation:* Starting at "London" city you will reach "Sao Paulo" city which is the destination city. Your trip consist of: "London" -> "New York" -> "Lima" -> "Sao Paulo".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ It is guaranteed that the graph of paths forms a line without any loop, therefor
 Clearly the destination city is "A".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

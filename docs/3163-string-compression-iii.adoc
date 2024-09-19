@@ -18,7 +18,7 @@ Given a string `word`, compress it using the following algorithm:
 Return the string `comp`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">word = "abcde"
@@ -32,7 +32,7 @@ Initially, `comp = ""`. Apply the operation 5 times, choosing `"a"`, `"b"`, `"c"
 For each prefix, append `"1"` followed by the character to `comp`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">word = "aaaaaaaaaaaaaabb"

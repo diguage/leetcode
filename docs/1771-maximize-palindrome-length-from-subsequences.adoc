@@ -18,7 +18,7 @@ A *subsequence* of a string `s` is a string that can be made by deleting some (p
 A *palindrome* is a string that reads the same forward as well as backward.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ A *palindrome* is a string that reads the same forward as well as backward.
 *Explanation:* Choose "ab" from word1 and "cba" from word2 to make "abcba", which is a palindrome.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ A *palindrome* is a string that reads the same forward as well as backward.
 *Explanation:* Choose "ab" from word1 and "a" from word2 to make "aba", which is a palindrome.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

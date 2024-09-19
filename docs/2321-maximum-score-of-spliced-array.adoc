@@ -20,7 +20,7 @@ Return _the *maximum possible score*_.
 A *subarray* is a contiguous sequence of elements within an array. `arr[left...right]` denotes the subarray that contains the elements of `nums` between indices `left` and `right` (*inclusive*).
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ A *subarray* is a contiguous sequence of elements within an array. `arr[left...r
 The score is max(sum(nums1), sum(nums2)) = max(210, 80) = 210.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ The score is max(sum(nums1), sum(nums2)) = max(140, 220) = 220.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

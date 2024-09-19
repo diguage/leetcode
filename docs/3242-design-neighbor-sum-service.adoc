@@ -16,7 +16,7 @@ Implement the `NeighborSum` class:
 <img alt="" src="https://assets.leetcode.com/uploads/2024/06/24/design.png" style="width: 400px; height: 248px;" />
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:*
@@ -29,7 +29,7 @@ Implement the `NeighborSum` class:
 
 *Explanation:*
 
-<strong class="example"><img alt="" src="https://assets.leetcode.com/uploads/2024/06/24/designexample0.png" style="width: 250px; height: 249px;" />*
+*<img alt="" src="https://assets.leetcode.com/uploads/2024/06/24/designexample0.png" style="width: 250px; height: 249px;" />*
 
 
 * The adjacent neighbors of 1 are 0, 2, and 4.
@@ -39,7 +39,7 @@ Implement the `NeighborSum` class:
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:*
@@ -52,7 +52,7 @@ Implement the `NeighborSum` class:
 
 *Explanation:*
 
-<strong class="example"><img alt="" src="https://assets.leetcode.com/uploads/2024/06/24/designexample2.png" style="width: 300px; height: 300px;" />*
+*<img alt="" src="https://assets.leetcode.com/uploads/2024/06/24/designexample2.png" style="width: 300px; height: 300px;" />*
 
 
 * The adjacent neighbors of 15 are 0, 10, 7, and 6.

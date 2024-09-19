@@ -13,7 +13,7 @@ You are given a string `title` consisting of one or more words separated by a si
 Return _the *capitalized* _`title`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ Return _the *capitalized* _`title`.
 Since all the words have a length of at least 3, the first letter of each word is uppercase, and the remaining letters are lowercase.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ The word "of" has length 2, so it is all lowercase.
 The remaining words have a length of at least 3, so the first letter of each remaining word is uppercase, and the remaining letters are lowercase.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

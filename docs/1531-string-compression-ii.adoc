@@ -12,7 +12,7 @@ Given a string `s` and an integer `k`. You need to delete *at most* `k` characte
 Find the _minimum length of the run-length encoded version of _`s`_ after deleting at most _`k`_ characters_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Find the _minimum length of the run-length encoded version of _`s`_ after deleti
 *Explanation: *Compressing s without deleting anything will give us "a3bc3d" of length 6. Deleting any of the characters 'a' or 'c' would at most decrease the length of the compressed string to 5, for instance delete 2 'a' then we will have s = "abcccd" which compressed is abc3d. Therefore, the optimal way is to delete 'b' and 'd', then the compressed version of s will be "a3c3" of length 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -31,7 +31,7 @@ Find the _minimum length of the run-length encoded version of _`s`_ after deleti
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

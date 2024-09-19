@@ -12,7 +12,7 @@ Team `a` will be the *champion* of the tournament if there is no team `b` that i
 Return _the team that will be the champion of the tournament._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Return _the team that will be the champion of the tournament._
 grid[0][1] == 1 means that team 0 is stronger than team 1. So team 0 will be the champion.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

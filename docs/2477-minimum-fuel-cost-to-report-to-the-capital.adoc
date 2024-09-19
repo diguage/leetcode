@@ -14,7 +14,7 @@ A representative can use the car in their city to travel or change the car and r
 Return _the minimum number of liters of fuel to reach the capital city_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/09/22/a4c380025e3ff0c379525e96a7d63a3.png" style="width: 303px; height: 332px;" />
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ It costs 3 liters of fuel at minimum.
 It can be proven that 3 is the minimum number of liters of fuel needed.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/11/16/2.png" style="width: 274px; height: 340px;" />
 [subs="verbatim,quotes"]
 ----
@@ -46,7 +46,7 @@ It costs 7 liters of fuel at minimum.
 It can be proven that 7 is the minimum number of liters of fuel needed.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/09/27/efcf7f7be6830b8763639cfd01b690a.png" style="width: 108px; height: 86px;" />
 [subs="verbatim,quotes"]
 ----

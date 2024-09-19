@@ -12,7 +12,7 @@ You need to divide `nums` into `3` *disjoint contiguous *<span data-keyword="sub
 Return _the *minimum* possible *sum* of the cost of these subarrays_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ The other possible ways to form 3 subarrays are:
 - [1,2], [3], and [12] at a total cost of 1 + 3 + 12 = 16.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ The other possible ways to form 3 subarrays are:
 It can be shown that 12 is the minimum cost achievable.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ Return _the *sum of all* subarray ranges of _`nums`_._
 A subarray is a contiguous *non-empty* sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ A subarray is a contiguous *non-empty* sequence of elements within an array.
 So the sum of all ranges is 0 + 0 + 0 + 1 + 1 + 2 = 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -43,7 +43,7 @@ So the sum of all ranges is 0 + 0 + 0 + 2 + 0 + 2 = 4.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

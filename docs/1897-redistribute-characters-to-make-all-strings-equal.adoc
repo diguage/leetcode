@@ -10,7 +10,7 @@ In one operation, pick two *distinct* indices `i` and `j`, where `words[i]` is a
 Return `true` _if you can make* every* string in _`words`_ *equal *using *any* number of operations_,_ and _`false` _otherwise_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ to make ``words[1]` = "abc" and words[2] = "abc".
 All the strings are now equal to "abc", so return `true`.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

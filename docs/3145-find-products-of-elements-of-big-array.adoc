@@ -47,7 +47,7 @@ You are given a 2D integer matrix `queries`, where for `queries[i] = [from<sub>i
 Return an integer array `answer` such that `answer[i]` is the answer to the `i^th^` query.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">queries = [[1,3,7]]
@@ -61,7 +61,7 @@ There is one query.
 `big_nums[1..3] = [2,1,2]`. The product of them is 4. The result is `4 % 7 = 4.`
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">queries = [[2,5,3],[7,7,4]]

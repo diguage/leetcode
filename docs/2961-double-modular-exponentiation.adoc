@@ -15,7 +15,7 @@ An index `i` is *good* if the following formula holds:
 Return _an array consisting of *good* indices in *any order*_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _an array consisting of *good* indices in *any order*_.
 Therefore we return [0,2] as the answer.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

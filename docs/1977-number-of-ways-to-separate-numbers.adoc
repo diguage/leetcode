@@ -8,7 +8,7 @@ You wrote down many *positive* integers in a string called `num`. However, you r
 Return _the *number of possible lists of integers* that you could have written down to get the string _`num`. Since the answer may be large, return it *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return _the *number of possible lists of integers* that you could have written d
 327
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -28,7 +28,7 @@ Return _the *number of possible lists of integers* that you could have written d
 *Explanation:* No numbers can have leading zeros and all numbers must be positive.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

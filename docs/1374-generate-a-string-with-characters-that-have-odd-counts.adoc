@@ -8,7 +8,7 @@ Given an integer `n`, _return a string with `n` characters such that each charac
 The returned string must contain only lowercase English letters. If there are multiples valid strings, return *any* of them.  
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ The returned string must contain only lowercase English letters. If there are mu
 *Explanation:* "pppz" is a valid string since the character 'p' occurs three times and the character 'z' occurs once. Note that there are many other valid strings such as "ohhh" and "love".
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ The returned string must contain only lowercase English letters. If there are mu
 *Explanation:* "xy" is a valid string since the characters 'x' and 'y' occur once. Note that there are many other valid strings such as "ag" and "ur".
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

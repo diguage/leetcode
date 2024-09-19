@@ -31,7 +31,7 @@ The result format is in the following example.
  
 [subs="verbatim,quotes"]
 ----
-<strong class="example">Example 1:*
+*Example 1:*
 *Input:
 *+----+---------+----------+-----+
 | id | first   | last     | age |

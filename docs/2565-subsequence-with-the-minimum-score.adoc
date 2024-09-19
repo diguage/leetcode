@@ -21,7 +21,7 @@ Return _the minimum possible score to make _`t`_ a subsequence of _`s`_._
 A *subsequence* of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., `"ace"` is a subsequence of `"[.underline]#a#b[.underline]#c#d[.underline]#e#"` while `"aec"` is not).
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -32,7 +32,7 @@ The string t becomes "baa" which is a subsequence of the string "abacaba" and th
 It can be proven that 1 is the minimum score that we can achieve.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

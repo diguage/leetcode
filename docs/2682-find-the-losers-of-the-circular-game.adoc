@@ -24,7 +24,7 @@ The *losers* of the game are friends who did not receive the ball in the entire 
 Given the number of friends, `n`, and an integer `k`, return _the array answer, which contains the losers of the game in the *ascending* order_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ Given the number of friends, `n`, and an integer `k`, return _the array answer, 
 4) The game ends as 3^rd^ friend receives the ball for the second time.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -19,7 +19,7 @@ Return _the *maximum* number of subarrays in a split that satisfies the conditio
 A *subarray* is a contiguous part of an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ The sum of scores is 0 + 0 + 0 = 0, which is the minimum possible score that we 
 It can be shown that we cannot split the array into more than 3 subarrays with a total score of 0. So we return 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

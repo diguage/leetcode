@@ -19,7 +19,7 @@ You need to apply `m` queries on the array in order, where on the `i^th^` query 
 Return _an array answer of size _`m`_ where _`answer[i]`_ is the *sum* of unmarked elements in the array after the _`i^th^`_ query_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 *Input: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">nums = [1,2,2,1,2,3,1], queries = [[1,2],[3,3],[4,2]]
@@ -37,7 +37,7 @@ We do the following queries on the array:
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 *Input: *<span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;">nums = [1,4,2,3], queries = [[0,1]]

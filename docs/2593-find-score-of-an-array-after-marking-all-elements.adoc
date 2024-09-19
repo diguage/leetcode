@@ -17,7 +17,7 @@ Starting with `score = 0`, apply the following algorithm:
 Return _the score you get after applying the above algorithm_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _the score you get after applying the above algorithm_.
 Our score is 1 + 2 + 4 = 7.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -16,7 +16,7 @@ Return _the maximum length of all *alternating* subarrays present in _`nums` _or
 A subarray is a contiguous *non-empty* sequence of elements within an array.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ A subarray is a contiguous *non-empty* sequence of elements within an array.
 *Explanation:* The alternating subarrays are [3,4], [3,4,3], and [3,4,3,4]. The longest of these is [3,4,3,4], which is of length 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

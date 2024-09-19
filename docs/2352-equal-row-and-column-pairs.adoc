@@ -8,7 +8,7 @@ Given a *0-indexed* `n x n` integer matrix `grid`, _return the number of pairs _
 A row and column pair is considered equal if they contain the same elements in the same order (i.e., an equal array).
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/06/01/ex1.jpg" style="width: 150px; height: 153px;" />
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ A row and column pair is considered equal if they contain the same elements in t
 - (Row 2, Column 1): [2,7,7]
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/06/01/ex2.jpg" style="width: 200px; height: 209px;" />
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ You can start at *any* cell, and you have to make *at least* one move.
 Return the *maximum* total score you can achieve.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2024/03/14/grid1.png" style="width: 240px; height: 240px;" />
 <div class="example-block">
 *Input:* <span class="example-io">grid = [[9,5,7,3],[8,9,6,1],[6,7,14,3],[2,5,3,1]]
@@ -29,7 +29,7 @@ Return the *maximum* total score you can achieve.
 The total score is `2 + 7 = 9`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <img alt="" src="https://assets.leetcode.com/uploads/2024/04/08/moregridsdrawio-1.png" style="width: 180px; height: 116px;" />
 

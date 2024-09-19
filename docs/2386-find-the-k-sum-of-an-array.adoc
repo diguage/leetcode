@@ -14,7 +14,7 @@ A *subsequence* is an array that can be derived from another array by deleting s
 *Note* that the empty subsequence is considered to have a sum of `0`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ A *subsequence* is an array that can be derived from another array by deleting s
 The 5-Sum of the array is 2.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

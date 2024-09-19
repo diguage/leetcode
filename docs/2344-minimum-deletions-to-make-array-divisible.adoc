@@ -10,7 +10,7 @@ Return _the *minimum* number of deletions such that the *smallest* element in _`
 Note that an integer `x` divides `y` if `y % x == 0`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ It can be shown that 2 is the minimum number of deletions needed.
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

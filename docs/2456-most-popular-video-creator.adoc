@@ -15,7 +15,7 @@ The *popularity* of a creator is the *sum* of the number of views on *all* of th
 Return_ a 2D array of strings _`answer`_ where _`answer[i] = [creator<sub>i</sub>, id<sub>i</sub>]`_ means that _`creator<sub>i</sub>` _has the *highest* popularity and _`id<sub>i</sub>`_ is the id of their most popular video._ The answer can be returned in any order.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ For bob, the video with the highest view count is "two".
 For alice, the videos with the highest view count are "one" and "three". Since "one" is lexicographically smaller than "three", it is included in the answer.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

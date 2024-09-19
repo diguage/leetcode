@@ -26,7 +26,7 @@ The ship must end at storage after all the boxes have been delivered.
 Return _the *minimum* number of *trips* the ship needs to make to deliver all boxes to their respective ports._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -38,7 +38,7 @@ So the total number of trips is 4.
 Note that the first and third boxes cannot be delivered together because the boxes need to be delivered in order (i.e. the second box needs to be delivered at port 2 before the third box).
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -51,7 +51,7 @@ Note that the first and third boxes cannot be delivered together because the box
 So the total number of trips is 2 + 2 + 2 = 6.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

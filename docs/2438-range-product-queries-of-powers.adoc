@@ -10,7 +10,7 @@ You are also given a *0-indexed* 2D integer array `queries`, where `queries[i] =
 Return_ an array _`answers`_, equal in length to _`queries`_, where _`answers[i]`_ is the answer to the _`i^th^`_ query_. Since the answer to the `i^th^` query may be too large, each `answers[i]` should be returned *modulo* `10^9^ + 7`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Answer to 3rd query: powers[0] * powers[1] * powers[2] * powers[3] = 1 * 2 * 4 *
 Each answer modulo 10^9^ + 7 yields the same answer, so [2,4,64] is returned.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

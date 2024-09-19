@@ -17,7 +17,7 @@ Given a string `word` consisting of English vowels, return _the *length of the l
 A *substring* is a contiguous sequence of characters in a string.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ A *substring* is a contiguous sequence of characters in a string.
 *Explanation:* The longest beautiful substring in word is "aaaaeiiiiouuu" of length 13.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ A *substring* is a contiguous sequence of characters in a string.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -13,7 +13,7 @@ You are given a positive integer array `grades` which represents the grades of s
 Return _the *maximum* number of groups that can be formed_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Return _the *maximum* number of groups that can be formed_.
 It can be shown that it is not possible to form more than 3 groups.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

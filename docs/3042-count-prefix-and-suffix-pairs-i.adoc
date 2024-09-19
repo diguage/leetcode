@@ -16,7 +16,7 @@ For example, `isPrefixAndSuffix("aba", "ababa")` is `true` because `"aba"` is a 
 Return _an integer denoting the *number* of index pairs _`(i, j)`_ such that _`i < j`_, and _`isPrefixAndSuffix(words[i], words[j])`_ is _`true`_._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ i = 1 and j = 2 because isPrefixAndSuffix("aba", "ababa") is true.
 Therefore, the answer is 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ i = 2 and j = 3 because isPrefixAndSuffix("ma", "mama") is true.
 Therefore, the answer is 2.  
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

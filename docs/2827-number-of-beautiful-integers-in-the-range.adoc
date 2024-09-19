@@ -15,7 +15,7 @@ A number is *beautiful* if it meets both of the following conditions:
 Return _the number of beautiful integers in the range_ `[low, high]`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Additionally we can see that:
 It can be shown that there are only 2 beautiful integers in the given range.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -41,7 +41,7 @@ It can be shown that there are only 2 beautiful integers in the given range.
 It can be shown that there is only 1 beautiful integer in the given range.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -16,7 +16,7 @@ Assume Alice and Bob *play optimally*.
 Return `"Alice"`_ if Alice will win, _`"Bob"`_ if Bob will win, or _`"Tie"`_ if they will end the game with the same score_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Return `"Alice"`_ if Alice will win, _`"Bob"`_ if Bob will win, or _`"Tie"`_ if 
 *Explanation:* Alice will always lose. Her best move will be to take three piles and the score become 6. Now the score of Bob is 7 and Bob wins.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -37,7 +37,7 @@ If Alice chooses two piles her score will be 3 and the next move Bob's score bec
 Remember that both play optimally so here Alice will choose the scenario that makes her win.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ For each cut you choose the direction: vertical or horizontal, then you choose a
 _Return the number of ways of cutting the pizza such that each piece contains *at least* one apple. _Since the answer can be a huge number, return this modulo 10^9 + 7.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 *<img alt="" src="https://assets.leetcode.com/uploads/2020/04/23/ways_to_cut_apple_1.png" style="width: 500px; height: 378px;" />*
 
@@ -21,7 +21,7 @@ _Return the number of ways of cutting the pizza such that each piece contains *a
 *Explanation:* The figure above shows the three ways to cut the pizza. Note that pieces must contain at least one apple.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ _Return the number of ways of cutting the pizza such that each piece contains *a
 *Output:* 1
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

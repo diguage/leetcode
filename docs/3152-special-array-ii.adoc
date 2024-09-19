@@ -10,7 +10,7 @@ You are given an array of integer `nums` and a 2D integer matrix `queries`, wher
 Return an array of booleans `answer` such that `answer[i]` is `true` if `nums[from<sub>i</sub>..to<sub>i</sub>]` is special.<!-- notionvc: e5d6f4e2-d20a-4fbd-9c7f-22fbe52ef730 -->
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [3,4,1,2,6], queries = [[0,4]]
@@ -22,7 +22,7 @@ Return an array of booleans `answer` such that `answer[i]` is `true` if `nums[fr
 The subarray is `[3,4,1,2,6]`. 2 and 6 are both even.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [4,3,1,6], queries = [[0,2],[2,3]]

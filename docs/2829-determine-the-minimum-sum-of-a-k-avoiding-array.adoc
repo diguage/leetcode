@@ -10,7 +10,7 @@ An array of *distinct* positive integers is called a *k-avoiding* array if there
 Return _the *minimum* possible sum of a k-avoiding array of length _`n`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -20,7 +20,7 @@ Return _the *minimum* possible sum of a k-avoiding array of length _`n`.
 It can be proven that there is no k-avoiding array with a sum less than 18.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

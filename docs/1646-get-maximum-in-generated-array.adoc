@@ -15,7 +15,7 @@ You are given an integer `n`. A *0-indexed* integer array `nums` of length `n + 
 Return* *_the *maximum* integer in the array _`nums`​​​.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -33,7 +33,7 @@ Return* *_the *maximum* integer in the array _`nums`​​​.
 Hence, nums = [0,1,1,2,1,3,2,3], and the maximum is max(0,1,1,2,1,3,2,3) = 3.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -42,7 +42,7 @@ Hence, nums = [0,1,1,2,1,3,2,3], and the maximum is max(0,1,1,2,1,3,2,3) = 3.
 *Explanation:* According to the given rules, nums = [0,1,1]. The maximum is max(0,1,1) = 1.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

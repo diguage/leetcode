@@ -12,7 +12,7 @@ A *good line* is a line of *three or more cells (including the endpoints)* where
 Given two integers `rMove` and `cMove` and a character `color` representing the color you are playing as (white or black), return `true` _if changing cell _`(rMove, cMove)` _to color_ `color` _is a *legal* move, or _`false`_ if it is not legal_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/07/10/grid11.png" style="width: 350px; height: 350px;" />
 [subs="verbatim,quotes"]
 ----
@@ -22,7 +22,7 @@ Given two integers `rMove` and `cMove` and a character `color` representing the 
 The two good lines with the chosen cell as an endpoint are annotated above with the red rectangles.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2021/07/10/grid2.png" style="width: 350px; height: 351px;" />
 [subs="verbatim,quotes"]
 ----

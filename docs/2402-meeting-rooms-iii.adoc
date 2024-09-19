@@ -20,7 +20,7 @@ Return_ the *number* of the room that held the most meetings. _If there are mult
 A *half-closed interval* `[a, b)` is the interval between `a` and `b` *including* `a` and *not including* `b`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -36,7 +36,7 @@ A *half-closed interval* `[a, b)` is the interval between `a` and `b` *including
 Both rooms 0 and 1 held 2 meetings, so we return 0. 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

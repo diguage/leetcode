@@ -16,7 +16,7 @@ You can perform the following process on `s` *any* number of times:
 Return the *minimum* length of the final string `s` that you can achieve.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "abaacbcbb"
@@ -34,7 +34,7 @@ We do the following operations:
 
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "aa"

@@ -8,7 +8,7 @@ Given a string `s` and an integer `k`, return _the maximum number of vowel lette
 *Vowel letters* in English are `'a'`, `'e'`, `'i'`, `'o'`, and `'u'`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -17,7 +17,7 @@ Given a string `s` and an integer `k`, return _the maximum number of vowel lette
 *Explanation:* The substring "iii" contains 3 vowel letters.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -26,7 +26,7 @@ Given a string `s` and an integer `k`, return _the maximum number of vowel lette
 *Explanation:* Any substring of length 2 contains 2 vowels.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

@@ -11,7 +11,7 @@ Given a *0-indexed* integer array `nums` of length `n` and an integer `k`, retur
 
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -24,7 +24,7 @@ Their products are 2, 4, 6, 8, 10, 12, and 20 respectively.
 Other pairs such as (0, 2) and (2, 4) have products 3 and 15 respectively, which are not divisible by 2.    
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

@@ -10,7 +10,7 @@ We call a <span data-keyword="subarray-nonempty">subarray *alternating* if *no* 
 Return _the number of alternating subarrays in _`nums`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [0,1,1,1]
@@ -22,7 +22,7 @@ Return _the number of alternating subarrays in _`nums`.
 The following subarrays are alternating: `[0]`, `[1]`, `[1]`, `[1]`, and `[0,1]`.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">nums = [1,0,1,0]

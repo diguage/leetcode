@@ -6,7 +6,7 @@
 Given a *valid parentheses string* `s`, return the *nesting depth* of_ _`s`. The nesting depth is the *maximum* number of nested parentheses.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "(1+(2*3)+((8)/4))+1"
@@ -18,7 +18,7 @@ Given a *valid parentheses string* `s`, return the *nesting depth* of_ _`s`. The
 Digit 8 is inside of 3 nested parentheses in the string.
 
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "(1)+((2))+(((3)))"
@@ -30,7 +30,7 @@ Digit 8 is inside of 3 nested parentheses in the string.
 Digit 3 is inside of 3 nested parentheses in the string.
 
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 <div class="example-block">
 *Input:* <span class="example-io">s = "()(())((()()))"

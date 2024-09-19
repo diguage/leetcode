@@ -10,7 +10,7 @@ For each index `i`, `names[i]` and `heights[i]` denote the name and height of th
 Return `names`_ sorted in *descending* order by the people's heights_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return `names`_ sorted in *descending* order by the people's heights_.
 *Explanation:* Mary is the tallest, followed by Emma and John.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

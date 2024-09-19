@@ -10,7 +10,7 @@ A *subarray* is a contiguous non-empty sequence of elements within an array.
 The *greatest common divisor of an array* is the largest integer that evenly divides all the array elements.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -23,7 +23,7 @@ The *greatest common divisor of an array* is the largest integer that evenly div
 - [9,3,1,2,[.underline]#*6,3*#]
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

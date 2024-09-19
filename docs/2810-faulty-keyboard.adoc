@@ -10,7 +10,7 @@ You are given a *0-indexed* string `s`, and you type each character of `s` using
 Return _the final string that will be present on your laptop screen._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -27,7 +27,7 @@ Therefore, we return "rtsng".
 
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

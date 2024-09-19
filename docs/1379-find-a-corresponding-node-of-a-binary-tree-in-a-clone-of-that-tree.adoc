@@ -12,7 +12,7 @@ Return _a reference to the same node_ in the `cloned` tree.
 *Note* that you are *not allowed* to change any of the two trees or the `target` node and the answer *must be* a reference to a node in the `cloned` tree.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/02/21/e1.png" style="width: 544px; height: 426px;" />
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Return _a reference to the same node_ in the `cloned` tree.
 *Explanation:* In all examples the original and cloned trees are shown. The target node is a green node from the original tree. The answer is the yellow node from the cloned tree.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/02/21/e2.png" style="width: 221px; height: 159px;" />
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Return _a reference to the same node_ in the `cloned` tree.
 *Output:* 7
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 <img alt="" src="https://assets.leetcode.com/uploads/2020/02/21/e3.png" style="width: 459px; height: 486px;" />
 [subs="verbatim,quotes"]
 ----

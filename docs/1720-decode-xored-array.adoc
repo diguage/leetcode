@@ -12,7 +12,7 @@ You are given the `encoded` array. You are also given an integer `first`, that i
 Return _the original array_ `arr`. It can be proved that the answer exists and is unique.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Return _the original array_ `arr`. It can be proved that the answer exists and i
 *Explanation:* If arr = [1,0,2,1], then first = 1 and encoded = [1 XOR 0, 0 XOR 2, 2 XOR 1] = [1,2,3]
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

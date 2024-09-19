@@ -12,7 +12,7 @@ Return _the number of *different* integers after performing the replacement oper
 Two integers are considered different if their decimal representations *without any leading zeros* are different.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -21,7 +21,7 @@ Two integers are considered different if their decimal representations *without 
 *Explanation: *The three different integers are "123", "34", and "8". Notice that "34" is only counted once.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -29,7 +29,7 @@ Two integers are considered different if their decimal representations *without 
 *Output:* 2
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

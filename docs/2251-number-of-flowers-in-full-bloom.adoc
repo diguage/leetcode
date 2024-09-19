@@ -8,7 +8,7 @@ You are given a *0-indexed* 2D integer array `flowers`, where `flowers[i] = [sta
 Return _an integer array _`answer`_ of size _`n`_, where _`answer[i]`_ is the *number* of flowers that are in full bloom when the _`i^th^`_ person arrives._
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/03/02/ex1new.jpg" style="width: 550px; height: 216px;" />
 [subs="verbatim,quotes"]
 ----
@@ -18,7 +18,7 @@ Return _an integer array _`answer`_ of size _`n`_, where _`answer[i]`_ is the *n
 For each person, we return the number of flowers in full bloom during their arrival.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/03/02/ex2new.jpg" style="width: 450px; height: 195px;" />
 [subs="verbatim,quotes"]
 ----

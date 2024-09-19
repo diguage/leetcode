@@ -10,7 +10,7 @@ Two strings are *alike* if they have the same number of vowels (`'a'`, `'e'`, `'
 Return `true`_ if _`a`_ and _`b`_ are *alike*_. Otherwise, return `false`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -19,7 +19,7 @@ Return `true`_ if _`a`_ and _`b`_ are *alike*_. Otherwise, return `false`.
 *Explanation:* a = "b[.underline]#o#" and b = "[.underline]#o#k". a has 1 vowel and b has 1 vowel. Therefore, they are alike.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----

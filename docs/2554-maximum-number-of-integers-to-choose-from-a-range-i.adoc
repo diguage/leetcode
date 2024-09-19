@@ -15,7 +15,7 @@ You are given an integer array `banned` and two integers `n` and `maxSum`. You a
 Return _the *maximum* number of integers you can choose following the mentioned rules_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -25,7 +25,7 @@ Return _the *maximum* number of integers you can choose following the mentioned 
 2 and 4 are from the range [1, 5], both did not appear in banned, and their sum is 6, which did not exceed maxSum.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ Return _the *maximum* number of integers you can choose following the mentioned 
 *Explanation:* You cannot choose any integer while following the mentioned conditions.
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----

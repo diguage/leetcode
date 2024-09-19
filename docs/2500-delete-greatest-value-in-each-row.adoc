@@ -17,7 +17,7 @@ Perform the following operation until `grid` becomes empty:
 Return _the answer after performing the operations described above_.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/10/19/q1ex1.jpg" style="width: 600px; height: 135px;" />
 [subs="verbatim,quotes"]
 ----
@@ -30,7 +30,7 @@ Return _the answer after performing the operations described above_.
 The final answer = 4 + 3 + 1 = 8.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 <img alt="" src="https://assets.leetcode.com/uploads/2022/10/19/q1ex2.jpg" style="width: 83px; height: 83px;" />
 [subs="verbatim,quotes"]
 ----

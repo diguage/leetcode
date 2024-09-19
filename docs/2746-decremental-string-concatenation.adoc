@@ -21,7 +21,7 @@ Your task is to *minimize* the length of `str<sub>n - 1</sub>`.
 Return _an integer denoting the minimum possible length of_ `str<sub>n - 1</sub>`.
 
  
-<strong class="example">Example 1:*
+*Example 1:*
 
 [subs="verbatim,quotes"]
 ----
@@ -34,7 +34,7 @@ str<sub>2</sub> = join(str<sub>1</sub>, "bc") = "aabc"
 It can be shown that the minimum possible length of str<sub>2</sub> is 4.
 ----
 
-<strong class="example">Example 2:*
+*Example 2:*
 
 [subs="verbatim,quotes"]
 ----
@@ -46,7 +46,7 @@ The first string, "ab", has the minimum length. Hence, the answer is 2.
 
 ----
 
-<strong class="example">Example 3:*
+*Example 3:*
 
 [subs="verbatim,quotes"]
 ----
