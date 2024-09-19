@@ -737,6 +737,11 @@
 |{doc_base_url}/0138-copy-list-with-random-pointer.adoc[题解]
 |✅ 哈希或者链表新旧交替相连
 
+|{counter:codes}
+|{leetcode_base_url}/find-median-from-data-stream/[295. Find Median from Data Stream^]
+|{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
+|⭕️ 两个优先队列的解法真妙！
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

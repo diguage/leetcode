@@ -81,14 +81,14 @@ include::{sourcedir}/_0295_FindMedianFromDataStream.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0005_LongestPalindromicSubstring_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0295_FindMedianFromDataStream_2.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
