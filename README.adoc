@@ -12787,12 +12787,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/find-the-winner-of-the-circular-game/[1823. Find the Winner of the Circular Game^]
-//|{source_base_url}/_1823_FindTheWinnerOfTheCircularGame.java[Java]
-//|{doc_base_url}/1823-find-the-winner-of-the-circular-game.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/find-the-winner-of-the-circular-game/[1823. Find the Winner of the Circular Game^]
+|{source_base_url}/_1823_FindTheWinnerOfTheCircularGame.java[Java]
+|{doc_base_url}/1823-find-the-winner-of-the-circular-game.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/minimum-sideway-jumps/[1824. Minimum Sideway Jumps^]

@@ -18,8 +18,10 @@ The rules of the game are as follows:
 Given the number of friends, `n`, and an integer `k`, return _the winner of the game_.
 
  
-<strong class="example">Example 1:*
-<img alt="" src="https://assets.leetcode.com/uploads/2021/03/25/ic234-q2-ex11.png" style="width: 500px; height: 345px;" />
+*Example 1:*
+
+image::images/1823-00.png[{image_attr}]
+
 [subs="verbatim,quotes"]
 ----
 *Input:* n = 5, k = 2
@@ -50,7 +52,7 @@ Given the number of friends, `n`, and an integer `k`, return _the winner of the 
 *Constraints:*
 
 
-* `1 <= k <= n <= 500`
+* `1 \<= k \<= n \<= 500`
 
 
  
@@ -61,6 +63,8 @@ Could you solve this problem in linear time with constant space?
 
 
 == 思路分析
+
+image::images/1823-01.png[{image_attr}]
 
 
 [[src-1823]]
@@ -87,5 +91,8 @@ include::{sourcedir}/_1823_FindTheWinnerOfTheCircularGame.java[tag=answer]
 
 
 == 参考资料
+
+. https://leetcode.cn/problems/find-the-winner-of-the-circular-game/solutions/1463524/zhao-chu-you-xi-de-huo-sheng-zhe-by-leet-w2jd/?envType=study-plan-v2&envId=selected-coding-interview[1823. 找出游戏的获胜者 - 官方题解^]
+. https://leetcode.cn/problems/find-the-winner-of-the-circular-game/solutions/2362052/1823-zhao-chu-you-xi-de-huo-sheng-zhe-yu-tkst/?envType=study-plan-v2&envId=selected-coding-interview[1823. 找出游戏的获胜者 - 约瑟夫环，清晰图解^]
 
 

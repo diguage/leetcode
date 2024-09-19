@@ -727,6 +727,11 @@
 |{doc_base_url}/0136-single-number.adoc[题解]
 |✅ 位运算，异或
 
+|{counter:codes}
+|{leetcode_base_url}/find-the-winner-of-the-circular-game/[1823. Find the Winner of the Circular Game^]
+|{doc_base_url}/1823-find-the-winner-of-the-circular-game.adoc[题解]
+|❌ 约瑟夫环，使用队列出队入队来模拟计数，出队表示删除。妙！
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

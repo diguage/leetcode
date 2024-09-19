@@ -3720,7 +3720,7 @@ include::1650-lowest-common-ancestor-of-a-binary-tree-iii.adoc[leveloffset=+1]
 
 // include::1822-sign-of-the-product-of-an-array.adoc[leveloffset=+1]
 
-// include::1823-find-the-winner-of-the-circular-game.adoc[leveloffset=+1]
+include::1823-find-the-winner-of-the-circular-game.adoc[leveloffset=+1]
 
 // include::1824-minimum-sideway-jumps.adoc[leveloffset=+1]
 
