@@ -24,6 +24,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 * [ ] https://leetcode.cn/problems/number-of-islands/solutions/211211/dao-yu-lei-wen-ti-de-tong-yong-jie-fa-dfs-bian-li-/[200. 岛屿数量 - 岛屿类问题的通用解法、DFS 遍历框架^]
 * [ ] 魔改的二分查找
 * [ ] 买卖股票
+* [ ] 链表复制相关操作，也可以将新旧节点交替相连来处理。
 
 == 解题范式
 

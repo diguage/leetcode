@@ -732,6 +732,11 @@
 |{doc_base_url}/1823-find-the-winner-of-the-circular-game.adoc[题解]
 |❌ 约瑟夫环，使用队列出队入队来模拟计数，出队表示删除。妙！
 
+|{counter:codes}
+|{leetcode_base_url}/copy-list-with-random-pointer/[138. Copy List with Random Pointer^]
+|{doc_base_url}/0138-copy-list-with-random-pointer.adoc[题解]
+|✅ 哈希或者链表新旧交替相连
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

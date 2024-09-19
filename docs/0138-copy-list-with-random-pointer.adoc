@@ -58,21 +58,43 @@ image::images/0138-copy-list-with-random-pointer-example-3.png[{image_attr}]
 * `Node.random` is null or pointing to a node in the linked list.
 * Number of Nodes will not exceed 1000.
 
-== 解题分析
+== 思路分析
 
-这道题可以使用类似 xref:133. Clone Graph[133. Clone Graph] 的解法来求解。
+这道题可以使用类似 xref:0133-clone-graph.adoc[133. Clone Graph] 的解法来求解。
 
 video::OvpKeraoxW0[youtube]
 
 image::images/0138-copy-list-with-random-pointer.jpg[{image_attr}]
 
-这个解法非常精妙！
+image::images/0138-02.png[{image_attr}]
+
+新旧节点相连的解法非常精妙！
 
 使用 `Map` 的解法也好巧妙啊！
 
 [[src-0138]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0138_CopyListWithRandomPointer.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0138_CopyListWithRandomPointer_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/copy-list-with-random-pointer/solutions/2361362/138-fu-zhi-dai-sui-ji-zhi-zhen-de-lian-b-6jeo/?envType=study-plan-v2&envId=selected-coding-interview[138. 随机链表的复制 - 清晰图解^]
+. https://leetcode.cn/problems/copy-list-with-random-pointer/solutions/889166/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-rblsf/?envType=study-plan-v2&envId=selected-coding-interview[138. 随机链表的复制 - 官方题解^]

@@ -57,7 +57,7 @@ import java.util.Objects;
  * @since 2020-01-07 22:21
  */
 public class _0138_CopyListWithRandomPointer {
-  // tag::answer[]
+    // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Copy List with Random Pointer.
@@ -65,6 +65,9 @@ public class _0138_CopyListWithRandomPointer {
      * Memory Usage: 40.6 MB, less than 5.61% of Java online submissions for Copy List with Random Pointer.
      *
      * Copy from: https://leetcode.com/problems/copy-list-with-random-pointer/discuss/43488/Java-O(n)-solution[Java O(n) solution - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-07 22:21
      */
     public Node copyRandomList(Node head) {
         if (Objects.isNull(head)) {
@@ -182,7 +185,7 @@ public class _0138_CopyListWithRandomPointer {
         return restult;
     }
 
-    static class Node {
+    public static class Node {
         int val;
         Node next;
         Node random;
