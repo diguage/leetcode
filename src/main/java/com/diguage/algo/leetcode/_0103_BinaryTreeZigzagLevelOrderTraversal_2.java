@@ -35,13 +35,14 @@ import static com.diguage.util.TreeNodes.buildTree;
  * ----
  *
  * @author D瓜哥 · https://www.diguage.com
- * @since 2020-01-24 21:12
+ * @since 2024-06-25 11:27
  */
 public class _0103_BinaryTreeZigzagLevelOrderTraversal_2 {
   // tag::answer[]
 
   /**
-   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-25 11:27
    */
   public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
     if (root == null) {

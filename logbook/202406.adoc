@@ -762,6 +762,11 @@
 |{doc_base_url}/0154-find-minimum-in-rotated-sorted-array-ii.adoc[题解]
 |⭕️ 二分查找，本题与 153 相比，需要处理“等值”情况。
 
+|{counter:codes}
+|{leetcode_base_url}/binary-tree-zigzag-level-order-traversal/[103. Binary Tree Zigzag Level Order Traversal^]
+|{doc_base_url}/0103-binary-tree-zigzag-level-order-traversal.adoc[题解]
+|✅ 通过在 `List` 在首尾添加元素来实现改变方向的策略。
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
