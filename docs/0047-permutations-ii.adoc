@@ -45,6 +45,15 @@ include::{sourcedir}/_0047_PermutationsII.java[tag=answer]
 include::{sourcedir}/_0047_PermutationsII_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0047_PermutationsII_3.java[tag=answer]
+----
+--
 ====
 
 
