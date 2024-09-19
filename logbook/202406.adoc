@@ -742,6 +742,11 @@
 |{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
 |⭕️ 两个优先队列的解法真妙！
 
+|{counter:codes}
+|{leetcode_base_url}/reverse-words-in-a-string/[151. Reverse Words in a String^]
+|{doc_base_url}/0151-reverse-words-in-a-string.adoc[题解]
+|✅ 更优解是倒序遍历数组，用双指针记录单词下标。
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

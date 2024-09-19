@@ -49,10 +49,31 @@ Given an input string, reverse the string word by word.
 
 For C programmers, try to solve it _in-place_ in _O_(1) extra space.
 
+== 思路分析
 
 [[src-0151]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0151_ReverseWordsInAString.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0151_ReverseWordsInAString_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/reverse-words-in-a-string/solutions/2361551/151-fan-zhuan-zi-fu-chuan-zhong-de-dan-c-yb1r/?envType=study-plan-v2&envId=selected-coding-interview[151. 反转字符串中的单词 - 双指针，清晰图解^]
 

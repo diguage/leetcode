@@ -1083,12 +1083,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/reverse-words-in-a-string/[151. Reverse Words in a String^]
-//|{source_base_url}/_0151_ReverseWordsInAString.java[Java]
-//|{doc_base_url}/0151-reverse-words-in-a-string.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/reverse-words-in-a-string/[151. Reverse Words in a String^]
+|{source_base_url}/_0151_ReverseWordsInAString.java[Java]
+|{doc_base_url}/0151-reverse-words-in-a-string.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/maximum-product-subarray/[152. Maximum Product Subarray^]
