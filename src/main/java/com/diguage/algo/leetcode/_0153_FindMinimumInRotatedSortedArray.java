@@ -9,10 +9,13 @@ package com.diguage.algo.leetcode;
  * @since 2020-04-25 22:37
  */
 public class _0153_FindMinimumInRotatedSortedArray {
-  // tag::answer[]
+    // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Find Minimum in Rotated Sorted Array.
      * Memory Usage: 39.8 MB, less than 12.50% of Java online submissions for Find Minimum in Rotated Sorted Array.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-04-25 22:37
      */
     public int findMin(int[] nums) {
         if (nums.length == 1) {

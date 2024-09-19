@@ -752,6 +752,11 @@
 |{doc_base_url}/0048-rotate-image.adoc[题解]
 |✅ 回溯，或翻转，或行转列
 
+|{counter:codes}
+|{leetcode_base_url}/find-minimum-in-rotated-sorted-array/[153. Find Minimum in Rotated Sorted Array^]
+|{doc_base_url}/0153-find-minimum-in-rotated-sorted-array.adoc[题解]
+|⭕️ 二分查找，知道是二分查找，但思路还是有些混乱。
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
