@@ -13,6 +13,8 @@ You have to rotate the image https://en.wikipedia.org/wiki/In-place_algorithm[*i
 
 *Example 1:*
 
+image::images/0048-00.jpg[{image_attr}]
+
 [subs="verbatim,quotes,macros"]
 ----
 Given *input matrix* = 
@@ -31,6 +33,8 @@ rotate the input matrix *in-place* such that it becomes:
 ----
 
 *Example 2:*
+
+image::images/0048-01.jpg[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -51,10 +55,47 @@ rotate the input matrix *in-place* such that it becomes:
 ]
 ----
 
+== 思路分析
+
+将矩阵周围一圈，划分成四个区域。如下图所示：
+
+image::images/0048-02.png[{image_attr}]
+
+这样每个区域长度相等，使用循环做数字交换即可。另外，借助回溯思想，利用递归推进层次。
+
+image:images/0048-03.png[{image_attr}]
+
+image:images/0048-04.png[{image_attr}]
+
+下面辅助矩阵的方案也不错：
+
+image:images/0048-05.png[{image_attr}]
+
+官方题解中的翻转矩阵的方案也不错！
 
 [[src-0048]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0048_RotateImage.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0048_RotateImage_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/rotate-image/solutions/1228078/48-xuan-zhuan-tu-xiang-fu-zhu-ju-zhen-yu-jobi/?envType=study-plan-v2&envId=selected-coding-interview[48. 旋转图像 - 辅助矩阵 / 原地修改，清晰图解^]
+. https://leetcode.cn/problems/rotate-image/solutions/526980/xuan-zhuan-tu-xiang-by-leetcode-solution-vu3m/?envType=study-plan-v2&envId=selected-coding-interview[48. 旋转图像 - 官方题解^]

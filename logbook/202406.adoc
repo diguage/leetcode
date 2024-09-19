@@ -747,6 +747,11 @@
 |{doc_base_url}/0151-reverse-words-in-a-string.adoc[题解]
 |✅ 更优解是倒序遍历数组，用双指针记录单词下标。
 
+|{counter:codes}
+|{leetcode_base_url}/rotate-image/[48. Rotate Image^]
+|{doc_base_url}/0048-rotate-image.adoc[题解]
+|✅ 回溯，或翻转，或行转列
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
