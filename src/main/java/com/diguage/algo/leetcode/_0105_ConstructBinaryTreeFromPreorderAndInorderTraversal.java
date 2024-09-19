@@ -32,12 +32,15 @@ import com.diguage.algo.util.TreeNode;
  * ----
  *
  * @author D瓜哥 · https://www.diguage.com
- * @since 2020-01-04 20:25
+ * @since 2024-06-25 11:27
  */
 public class _0105_ConstructBinaryTreeFromPreorderAndInorderTraversal {
   // tag::answer[]
   /**
    * 自我实现，感觉比 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/discuss/34538/My-Accepted-Java-Solution[My Accepted Java Solution - LeetCode Discuss] 简单。
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-25 11:27
    */
   public TreeNode buildTree(int[] preorder, int[] inorder) {
     if (preorder == null || inorder == null || preorder.length != inorder.length) {

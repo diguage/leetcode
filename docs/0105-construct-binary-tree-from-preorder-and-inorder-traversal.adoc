@@ -29,14 +29,40 @@ Return the following binary tree:
    15   7
 ----
 
+== 思路分析
+
+image::images/0105-01.png[{image_attr}]
+
 
 [[src-0105]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal_2.java[tag=answer]
+----
+--
+====
 
 == 思考题
 
 迭代构建如何实现？ 参考： https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solutions/255811/cong-qian-xu-yu-zhong-xu-bian-li-xu-lie-gou-zao-9/[105. 从前序与中序遍历序列构造二叉树^]。
+
+== 参考资料
+
+. https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solutions/2361558/105-cong-qian-xu-yu-zhong-xu-bian-li-xu-4lvkz/?envType=study-plan-v2&envId=selected-coding-interview[105. 从前序与中序遍历序列构造二叉树 - 分治，清晰图解^]
+. https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solutions/255811/cong-qian-xu-yu-zhong-xu-bian-li-xu-lie-gou-zao-9/?envType=study-plan-v2&envId=selected-coding-interview[105. 从前序与中序遍历序列构造二叉树 - 官方题解^]
+. https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solutions/8946/qian-xu-bian-li-python-dai-ma-java-dai-ma-by-liwei/?envType=study-plan-v2&envId=selected-coding-interview[105. 从前序与中序遍历序列构造二叉树 - 分治法^]
 

@@ -772,6 +772,11 @@
 |{doc_base_url}/0047-permutations-ii.adoc[题解]
 |⭕️ 组合，回溯，同层剪枝。剪枝技巧还要再学习！
 
+|{counter:codes}
+|{leetcode_base_url}/construct-binary-tree-from-preorder-and-inorder-traversal/[105. Construct Binary Tree from Preorder and Inorder Traversal^]
+|{doc_base_url}/0105-construct-binary-tree-from-preorder-and-inorder-traversal.adoc[题解]
+|✅ 分治法
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
