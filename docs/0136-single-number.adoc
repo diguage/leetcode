@@ -25,11 +25,35 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 *Output:* 4
 ----
 
+== 思路分析
 
+只有一个数出现一次，其余数字出现两次，则可以用异或来找出该数。异或两位相异得 1，相同得 0，则出现两次的数字都全部得 0，留下了数字即为只出现一次的数字。
+
+image::images/0136-01.png[{image_attr}]
 
 [[src-0136]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0136_SingleNumber.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0136_SingleNumber_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/single-number/solutions/2361995/136-zhi-chu-xian-yi-ci-de-shu-zi-wei-yun-iyd0/?envType=study-plan-v2&envId=selected-coding-interview[136. 只出现一次的数字 - 位运算，清晰图解^]
 

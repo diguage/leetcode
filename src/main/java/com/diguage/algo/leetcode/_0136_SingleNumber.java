@@ -31,11 +31,14 @@ import java.util.Objects;
  * @since 2020-01-01 12:38
  */
 public class _0136_SingleNumber {
-  // tag::answer[]
+    // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Single Number.
      *
      * Memory Usage: 38.5 MB, less than 98.52% of Java online submissions for Single Number.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-01 12:38
      */
     public int singleNumber(int[] nums) {
         if (Objects.isNull(nums) || nums.length == 0) {

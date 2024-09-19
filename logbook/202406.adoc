@@ -722,6 +722,11 @@
 |{doc_base_url}/0179-largest-number.adoc[题解]
 |⭕️ 不能直接比较数字的字符串，要比较 `a+b` 和 `b+a`，这是拼接后的数字。
 
+|{counter:codes}
+|{leetcode_base_url}/single-number/[136. Single Number^]
+|{doc_base_url}/0136-single-number.adoc[题解]
+|✅ 位运算，异或
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
