@@ -34,12 +34,15 @@ import java.util.Objects;
  * @since 2020-01-23 22:37
  */
 public class _0198_HouseRobber {
-  // tag::answer[]
+    // tag::answer[]
 
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for House Robber.
      *
      * Memory Usage: 41.2 MB, less than 5.26% of Java online submissions for House Robber.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-23 22:37
      */
     public int rob(int[] nums) {
         int k2 = 0;
@@ -122,7 +125,7 @@ public class _0198_HouseRobber {
         return Math.max(rob(nums, k - 2) + nums[k], rob(nums, k - 1));
     }
 
-  // end::answer[]
+    // end::answer[]
 
 
     public static void main(String[] args) {

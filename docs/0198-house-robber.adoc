@@ -5,30 +5,6 @@
 
 {leetcode}/problems/house-robber/[LeetCode - House Robber^]
 
-假设 f(k) = 从前 k 个房屋中能抢劫到的最大数额，A~i~ = 第 i 个房屋的钱数。
-
-当 n=1 时，显然 f(1) = A~1~。
-
-当 n=2 时，f(2) = max(A~1~, A~2~)。
-
-当 n=3 时，有两种选项：
-
-. 将第三个房间金额和第一个房间金额相加；
-. 不算第三个房间，保持当前最大金额。
-
-于是，可以总结出公式: latexmath:[f(k)=\max \left(f(k-2)+A_{k}, f(k-1)\right)]。
-
-剩下的工作就好办了。
-
-让 D瓜哥 使用 https://www.diguage.com/post/dynamic-programming/[动态规划的模式^] 来重新解读一下：
-
-. 刻画一个最优解的结构特征：求解抢劫金额最大值。
-. 递归地定义最优解的值： latexmath:[f(k)=\max \left(f(k-2)+A_{k}, f(k-1)\right)]。
-. 计算最优解的值，通常采用自底向上的方法：D瓜哥也按照动态规划（注意表格）的方式来实现，采用自底向上+备忘录的方式来求解，创建一个长度为 n+1 的数组，第 i 个元素表示到第 i 个房间为止，最大抢劫金额；则第 0 个元素为 0，第 1 个元素为 A~1~。然后根据上述公式定义，以此类推……
-. 利用计算出的信息构造一个最优解。这一步不需要，暂时忽略。
-
-使用递归、递归+备忘录、自底向上+备忘录，自底向上+简化备忘录四种方式分别实现。
-
 You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security system connected and *it will automatically contact the police if two adjacent houses were broken into on the same night*.
 
 Given a list of non-negative integers representing the amount of money of each house, determine the maximum amount of money you can rob tonight *without alerting the police*.
@@ -54,11 +30,57 @@ Given a list of non-negative integers representing the amount of money of each h
 
 ----
 
+== 思路分析
+
+假设 f(k) = 从前 k 个房屋中能抢劫到的最大数额，A~i~ = 第 i 个房屋的钱数。
+
+当 n=1 时，显然 f(1) = A~1~。
+
+当 n=2 时，f(2) = max(A~1~, A~2~)。
+
+当 n=3 时，有两种选项：
+
+. 将第三个房间金额和第一个房间金额相加；
+. 不算第三个房间，保持当前最大金额。
+
+于是，可以总结出公式: latexmath:[f(k)=\max \left(f(k-2)+A_{k}, f(k-1)\right)]。
+
+剩下的工作就好办了。
+
+让 D瓜哥 使用 https://www.diguage.com/post/dynamic-programming/[动态规划的模式^] 来重新解读一下：
+
+. 刻画一个最优解的结构特征：求解抢劫金额最大值。
+. 递归地定义最优解的值： latexmath:[f(k)=\max \left(f(k-2)+A_{k}, f(k-1)\right)]。
+. 计算最优解的值，通常采用自底向上的方法：D瓜哥也按照动态规划（注意表格）的方式来实现，采用自底向上+备忘录的方式来求解，创建一个长度为 n+1 的数组，第 i 个元素表示到第 i 个房间为止，最大抢劫金额；则第 0 个元素为 0，第 1 个元素为 A~1~。然后根据上述公式定义，以此类推……
+. 利用计算出的信息构造一个最优解。这一步不需要，暂时忽略。
+
+使用递归、递归+备忘录、自底向上+备忘录，自底向上+简化备忘录四种方式分别实现。
 
 
 [[src-0198]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0198_HouseRobber.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0198_HouseRobber_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/house-robber/solutions/28242/da-jia-jie-she-dong-tai-gui-hua-jie-gou-hua-si-lu-/?envType=study-plan-v2&envId=selected-coding-interview[198. 打家劫舍 - 动态规划，结构化思路，清晰图解^]
+. https://leetcode.cn/problems/house-robber/solutions/138131/dong-tai-gui-hua-jie-ti-si-bu-zou-xiang-jie-cjavap/?envType=study-plan-v2&envId=selected-coding-interview[198. 打家劫舍 - 图解动态规划的解题四步骤^]
 
