@@ -803,6 +803,10 @@
 |{doc_base_url}/0392-is-subsequence.adoc[题解]
 |✅ 双指针
 
+|{counter:codes}
+|{leetcode_base_url}/add-strings/[415. Add Strings^]
+|{doc_base_url}/0415-add-strings.adoc[题解]
+|✅ 双指针，从后向前，模拟加法进位。
 
 |===
 

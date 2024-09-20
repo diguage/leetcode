@@ -16,8 +16,24 @@ Given two non-negative integers `num1` and `num2` represented as string, return 
 
 
 [[src-0415]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0415_AddStrings.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0415_AddStrings_2.java[tag=answer]
+// ----
+// --
+====
 

@@ -2930,13 +2930,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0414-third-maximum-number.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/add-strings/[415. Add Strings^]
-//|{source_base_url}/_0415_AddStrings.java[Java]
-//|{doc_base_url}/0415-add-strings.adoc[题解]
-//|Easy
-//|
+
+|{counter:codes}
+|{leetcode_base_url}/add-strings/[415. Add Strings^]
+|{source_base_url}/_0415_AddStrings.java[Java]
+|{doc_base_url}/0415-add-strings.adoc[题解]
+|Easy
+|
 
 |{counter:codes}
 |{leetcode_base_url}/partition-equal-subset-sum/[416. Partition Equal Subset Sum^]

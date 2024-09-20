@@ -41,12 +41,15 @@ import java.util.List;
  * @since 2020-01-26 23:17
  */
 public class _0412_FizzBuzz {
-  // tag::answer[]
+    // tag::answer[]
 
     /**
      * Runtime: 2 ms, faster than 29.17% of Java online submissions for Fizz Buzz.
      *
      * Memory Usage: 45.5 MB, less than 5.40% of Java online submissions for Fizz Buzz.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-26 23:17
      */
     public List<String> fizzBuzz(int n) {
         List<String> result = new ArrayList<>(n);
@@ -64,7 +67,7 @@ public class _0412_FizzBuzz {
         return result;
     }
 
-  // end::answer[]
+    // end::answer[]
 
 
     public static void main(String[] args) {
