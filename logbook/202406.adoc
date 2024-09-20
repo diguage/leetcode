@@ -808,6 +808,11 @@
 |{doc_base_url}/0415-add-strings.adoc[题解]
 |✅ 双指针，从后向前，模拟加法进位。
 
+|{counter:codes}
+|{leetcode_base_url}/kth-largest-element-in-an-array/[215. Kth Largest Element in an Array^]
+|{doc_base_url}/0215-kth-largest-element-in-an-array.adoc[题解]
+|❌ 快速查找，知道思路，代码却无从下手。
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
