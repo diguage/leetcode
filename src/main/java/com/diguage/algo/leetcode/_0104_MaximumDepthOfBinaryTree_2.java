@@ -36,6 +36,9 @@ public class _0104_MaximumDepthOfBinaryTree_2 {
     /**
      * 后根遍历既可以访问父节点，又可以从返回值中获取想要的信息，
      * 比如深度，子节点等等。
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2024-06-30 22:09:09
      */
     public int maxDepth(TreeNode root) {
       if (root == null) {

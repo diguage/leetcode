@@ -813,6 +813,11 @@
 |{doc_base_url}/0215-kth-largest-element-in-an-array.adoc[题解]
 |❌ 快速查找，知道思路，代码却无从下手。
 
+|{counter:codes}
+|{leetcode_base_url}/maximum-depth-of-binary-tree/[104. Maximum Depth of Binary Tree^]
+|{doc_base_url}/0104-maximum-depth-of-binary-tree.adoc[题解]
+|✅ 递归+回溯
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

@@ -3,8 +3,6 @@
 
 {leetcode}/problems/maximum-depth-of-binary-tree/[LeetCode - Maximum Depth of Binary Tree^]
 
-思考题：尝试使用迭代方式来解决一下。
-
 Given a binary tree, find its maximum depth.
 
 The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
@@ -33,15 +31,37 @@ return its depth = 3.
 image::images/0104-01.png[{image_attr}]
 
 [[src-0104]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0104_MaximumDepthOfBinaryTree.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0104_MaximumDepthOfBinaryTree_2.java[tag=answer]
 ----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0104_MaximumDepthOfBinaryTree_3.java[tag=answer]
+----
+--
+====
+
+思考题：尝试使用迭代方式来解决一下。
 
 == 参考资料
 

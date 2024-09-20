@@ -42,6 +42,9 @@ public class _0104_MaximumDepthOfBinaryTree {
      * Runtime: 1 ms, faster than 14.28% of Java online submissions for Maximum Depth of Binary Tree.
      *
      * Memory Usage: 40.7 MB, less than 5.38% of Java online submissions for Maximum Depth of Binary Tree.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-24 22:17
      */
     public int maxDepth(TreeNode root) {
         if (Objects.isNull(root)) {
