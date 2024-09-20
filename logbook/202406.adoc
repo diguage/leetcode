@@ -792,6 +792,11 @@
 |{doc_base_url}/0137-single-number-ii.adoc[题解]
 |❌ 比特位计数取模比较容易理解，有限状态机解法以后再学
 
+|{counter:codes}
+|{leetcode_base_url}/majority-element/[169. Majority Element^]
+|{doc_base_url}/0169-majority-element.adoc[题解]
+|⭕️ 哈希计数法最易想到，摩尔投票法最妙！
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

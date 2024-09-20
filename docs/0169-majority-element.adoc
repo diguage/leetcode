@@ -28,11 +28,35 @@ You may assume that the array is non-empty and the majority element always exist
 
 ----
 
+== 思路分析
+
+哈希计数法最易想到，摩尔投票法最妙！
+
+image::images/0169-01.png[{image_attr}]
 
 
 [[src-0169]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0169_MajorityElement.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0169_MajorityElement_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/majority-element/solutions/2362000/169-duo-shu-yuan-su-mo-er-tou-piao-qing-ledrh/?envType=study-plan-v2&envId=selected-coding-interview[169. 多数元素 - 摩尔投票，清晰图解^]

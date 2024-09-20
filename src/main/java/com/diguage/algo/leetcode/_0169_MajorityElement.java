@@ -31,7 +31,7 @@ import java.util.Objects;
  * @since 2020-01-05 12:33
  */
 public class _0169_MajorityElement {
-  // tag::answer[]
+    // tag::answer[]
     /**
      *Runtime: 2 ms, faster than 61.24% of Java online submissions for Majority Element.
      *
@@ -40,6 +40,9 @@ public class _0169_MajorityElement {
      * Boyer-Moore Voting Algorithm
      *
      * Copy from: https://leetcode.com/problems/majority-element/solution/[Majority Element solution - LeetCode]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-05 12:33
      */
     public int majorityElement(int[] nums) {
         int count = 0;
