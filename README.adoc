@@ -971,12 +971,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/candy/[135. Candy^]
-//|{source_base_url}/_0135_Candy.java[Java]
-//|{doc_base_url}/0135-candy.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/candy/[135. Candy^]
+|{source_base_url}/_0135_Candy.java[Java]
+|{doc_base_url}/0135-candy.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/single-number/[136. Single Number^]

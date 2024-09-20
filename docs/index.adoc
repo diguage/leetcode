@@ -344,7 +344,7 @@ include::0133-clone-graph.adoc[leveloffset=+1]
 
 include::0134-gas-station.adoc[leveloffset=+1]
 
-// include::0135-candy.adoc[leveloffset=+1]
+include::0135-candy.adoc[leveloffset=+1]
 
 include::0136-single-number.adoc[leveloffset=+1]
 

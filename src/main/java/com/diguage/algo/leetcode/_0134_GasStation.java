@@ -58,13 +58,16 @@ package com.diguage.algo.leetcode;
  * @since 2020-01-25 21:55
  */
 public class _0134_GasStation {
-  // tag::answer[]
+    // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Gas Station.
      *
      * Memory Usage: 39.1 MB, less than 5.88% of Java online submissions for Gas Station.
      *
      * Copy from: https://leetcode-cn.com/problems/gas-station/solution/jia-you-zhan-by-leetcode/[加油站 - 加油站 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-25 21:55
      */
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int n = gas.length;
