@@ -985,12 +985,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/single-number-ii/[137. Single Number II^]
-//|{source_base_url}/_0137_SingleNumberII.java[Java]
-//|{doc_base_url}/0137-single-number-ii.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/single-number-ii/[137. Single Number II^]
+|{source_base_url}/_0137_SingleNumberII.java[Java]
+|{doc_base_url}/0137-single-number-ii.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/copy-list-with-random-pointer/[138. Copy List with Random Pointer^]

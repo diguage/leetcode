@@ -348,7 +348,7 @@ include::0135-candy.adoc[leveloffset=+1]
 
 include::0136-single-number.adoc[leveloffset=+1]
 
-// include::0137-single-number-ii.adoc[leveloffset=+1]
+include::0137-single-number-ii.adoc[leveloffset=+1]
 
 include::0138-copy-list-with-random-pointer.adoc[leveloffset=+1]
 

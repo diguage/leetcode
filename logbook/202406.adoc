@@ -787,6 +787,11 @@
 |{doc_base_url}/0135-candy.adoc[题解]
 |❌ 贪心，一脸懵逼！贪心类的题目还需要加强练习
 
+|{counter:codes}
+|{leetcode_base_url}/single-number-ii/[137. Single Number II^]
+|{doc_base_url}/0137-single-number-ii.adoc[题解]
+|❌ 比特位计数取模比较容易理解，有限状态机解法以后再学
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
