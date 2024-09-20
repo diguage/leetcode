@@ -2769,14 +2769,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0391-perfect-rectangle.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/is-subsequence/[392. Is Subsequence^]
-//|{source_base_url}/_0392_IsSubsequence.java[Java]
-//|{doc_base_url}/0392-is-subsequence.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/is-subsequence/[392. Is Subsequence^]
+|{source_base_url}/_0392_IsSubsequence.java[Java]
+|{doc_base_url}/0392-is-subsequence.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/utf-8-validation/[393. UTF-8 Validation^]
 //|{source_base_url}/_0393_UTF8Validation.java[Java]

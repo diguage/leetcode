@@ -43,9 +43,33 @@ If there are lots of incoming S, say S1, S2, ... , Sk where k >= 1B, and you wan
 Special thanks to <a href="https://leetcode.com/pbrother/">@pbrother</a> for adding this problem and creating all test cases.
 
 
+== 思路分析
+
+双指针，当短指针到头也就是表明是子串。
+
 [[src-0392]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0392_IsSubsequence.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0392_IsSubsequence_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/is-subsequence/solutions/1658262/by-jyd-zeph/?envType=study-plan-v2&envId=selected-coding-interview[392. 判断子序列 - 双指针，清晰图解^]
 

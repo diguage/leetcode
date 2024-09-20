@@ -797,6 +797,13 @@
 |{doc_base_url}/0169-majority-element.adoc[题解]
 |⭕️ 哈希计数法最易想到，摩尔投票法最妙！
 
+
+|{counter:codes}
+|{leetcode_base_url}/is-subsequence/[392. Is Subsequence^]
+|{doc_base_url}/0392-is-subsequence.adoc[题解]
+|✅ 双指针
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
