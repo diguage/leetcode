@@ -833,6 +833,10 @@
 |{doc_base_url}/0400-nth-digit.adoc[题解]
 |❌ 纯纯的数学运算，一脸懵逼
 
+|{counter:codes}
+|{leetcode_base_url}/longest-substring-without-repeating-characters/[3. Longest Substring Without Repeating Characters^]
+|{doc_base_url}/0003-longest-substring-without-repeating-characters.adoc[题解]
+|✅ 滑动窗口。滑动窗口的模板不是很熟悉。可以不存字符格式，存字符最大的坐标。
 
 |===
 

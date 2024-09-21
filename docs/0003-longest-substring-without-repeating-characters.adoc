@@ -62,15 +62,35 @@ image::images/0003-09.png[{image_attr}]
 image::images/0003-10.png[{image_attr}]
 
 [[src-0003]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0003_LongestSubstringWithoutRepeatingCharacters.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0003_LongestSubstringWithoutRepeatingCharacters_2.java[tag=answer]
 ----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0003_LongestSubstringWithoutRepeatingCharacters_3.java[tag=answer]
+----
+--
+====
 
 == 参考资料
 
