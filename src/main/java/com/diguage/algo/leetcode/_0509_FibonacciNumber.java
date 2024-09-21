@@ -9,10 +9,13 @@ package com.diguage.algo.leetcode;
  * @since 2020-04-25 22:06
  */
 public class _0509_FibonacciNumber {
-  // tag::answer[]
+    // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Fibonacci Number.
      * Memory Usage: 36.3 MB, less than 5.51% of Java online submissions for Fibonacci Number.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-04-25 22:06
      */
     public int fib(int n) {
         if (n == 0) {
@@ -32,5 +35,5 @@ public class _0509_FibonacciNumber {
         }
         return Math.max(i1, i2);
     }
-  // end::answer[]
+    // end::answer[]
 }

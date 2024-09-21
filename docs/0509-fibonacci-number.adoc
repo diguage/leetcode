@@ -44,10 +44,37 @@ Given `N`, calculate `F(N)`.
 
 0 ≤ `N` ≤ 30.
 
+== 思路分析
+
+动态规划
+
+image::images/0509-01.png[{image_attr}]
+
+image::images/0509-02.gif[{image_attr}]
 
 [[src-0509]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0509_FibonacciNumber.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0509_FibonacciNumber_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/fibonacci-number/solutions/2361746/509-fei-bo-na-qi-shu-dong-tai-gui-hua-qi-so8h/?envType=study-plan-v2&envId=selected-coding-interview[509. 斐波那契数 - 动态规划，清晰图解^]
 
