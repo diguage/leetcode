@@ -5401,14 +5401,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0767-reorganize-string.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/max-chunks-to-make-sorted-ii/[768. Max Chunks To Make Sorted II^]
-//|{source_base_url}/_0768_MaxChunksToMakeSortedII.java[Java]
-//|{doc_base_url}/0768-max-chunks-to-make-sorted-ii.adoc[题解]
-//|Hard
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/max-chunks-to-make-sorted-ii/[768. Max Chunks To Make Sorted II^]
+|{source_base_url}/_0768_MaxChunksToMakeSortedII.java[Java]
+|{doc_base_url}/0768-max-chunks-to-make-sorted-ii.adoc[题解]
+|Hard
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/max-chunks-to-make-sorted/[769. Max Chunks To Make Sorted^]
 //|{source_base_url}/_0769_MaxChunksToMakeSorted.java[Java]

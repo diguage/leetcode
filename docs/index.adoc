@@ -1610,7 +1610,7 @@ include::0752-open-the-lock.adoc[leveloffset=+1]
 
 // include::0767-reorganize-string.adoc[leveloffset=+1]
 
-// include::0768-max-chunks-to-make-sorted-ii.adoc[leveloffset=+1]
+include::0768-max-chunks-to-make-sorted-ii.adoc[leveloffset=+1]
 
 // include::0769-max-chunks-to-make-sorted.adoc[leveloffset=+1]
 

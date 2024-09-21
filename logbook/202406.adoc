@@ -823,6 +823,11 @@
 |{doc_base_url}/0509-fibonacci-number.adoc[题解]
 |✅ 动态规划
 
+|{counter:codes}
+|{leetcode_base_url}/max-chunks-to-make-sorted-ii/[768. Max Chunks To Make Sorted II^]
+|{doc_base_url}/0768-max-chunks-to-make-sorted-ii.adoc[题解]
+|❌ 贪心+单调栈。单调栈的解法思路很精巧！
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

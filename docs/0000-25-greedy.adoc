@@ -23,6 +23,8 @@ image::images/greedy-01.png[{image_attr}]
 . xref:0053-maximum-subarray.adoc[53. Maximum Subarray]
 . xref:0134-gas-station.adoc[134. Gas Station]
 . xref:0968-binary-tree-cameras.adoc[968. Binary Tree Cameras]
+. xref:0768-max-chunks-to-make-sorted-ii.adoc[768. Max Chunks To Make Sorted II]
+
 
 image::images/greedy-02.png[{image_attr}]
 

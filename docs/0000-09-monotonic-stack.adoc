@@ -63,6 +63,7 @@ for (int i = 1; i < nums.length; i++) {
 . xref:0654-maximum-binary-tree.adoc[654. Maximum Binary Tree]
 . xref:0739-daily-temperatures.adoc[739. Daily Temperatures]
 . xref:0901-online-stock-span.adoc[901. Online Stock Span]
+. xref:0768-max-chunks-to-make-sorted-ii.adoc[768. Max Chunks To Make Sorted II]
 
 
 == 参考资料
