@@ -1666,7 +1666,7 @@ include::0768-max-chunks-to-make-sorted-ii.adoc[leveloffset=+1]
 
 // include::0795-number-of-subarrays-with-bounded-maximum.adoc[leveloffset=+1]
 
-// include::0796-rotate-string.adoc[leveloffset=+1]
+include::0796-rotate-string.adoc[leveloffset=+1]
 
 // include::0797-all-paths-from-source-to-target.adoc[leveloffset=+1]
 
