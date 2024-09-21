@@ -41,3 +41,7 @@ Topological Sort (medium)
 
 All Tasks Scheduling Orders (hard)
 
+== 参考资料
+
+. https://www.cnblogs.com/bigsai/p/11489260.html[拓扑排序详解与实现^]
+. https://jingsam.github.io/2020/08/11/topological-sort.html[拓扑排序原理^]

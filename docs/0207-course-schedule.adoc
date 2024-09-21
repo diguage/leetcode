@@ -3,19 +3,6 @@
 
 {leetcode}/problems/course-schedule/[LeetCode - Course Schedule^]
 
-TODO: 研究一下图相关算法和拓扑排序。
-
-拓扑排序通常用来“排序”具有依赖关系的任务。
-
-拓扑排序出来的结果是应该不是有序（升序或降序）。只是一个前后顺序。
-
-思考题：参考资料中提到，表示图可以使用"邻接矩阵"和"邻接表"。尝试使用邻接表来重新实现。
-
-== 参考资料
-
-. http://songlee24.github.io/2015/05/07/topological-sorting/[拓扑排序（Topological Sorting） | 神奕的博客^]
-. https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs[Representing graphs (article) | Algorithms | Khan Academy^]
-
 There are a total of _n_ courses you have to take, labeled from `0` to `n-1`.
 
 Some courses may have prerequisites, for example to take course 0 you have to first take course 1, which is expressed as a pair: `[0,1]`
@@ -50,12 +37,46 @@ Given the total number of courses and a list of prerequisite *pairs*, is it poss
 . The input prerequisites is a graph represented by *a list of edges*, not adjacency matrices. Read more about https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs[how a graph is represented^].
 . You may assume that there are no duplicate edges in the input prerequisites.
 
+== 思路分析
 
 
+TODO: 研究一下图相关算法和拓扑排序。
+
+拓扑排序通常用来“排序”具有依赖关系的任务。
+
+拓扑排序出来的结果是应该不是有序（升序或降序）。只是一个前后顺序。
 
 [[src-0207]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0207_CourseSchedule.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0207_CourseSchedule_2.java[tag=answer]
+----
+--
+====
+
+
+思考题：参考资料中提到，表示图可以使用"邻接矩阵"和"邻接表"。尝试使用邻接表来重新实现。
+
+== 参考资料
+
+
+. https://www.cnblogs.com/bigsai/p/11489260.html[拓扑排序详解与实现^]
+. https://jingsam.github.io/2020/08/11/topological-sort.html[拓扑排序原理^]
+. https://leetcode.cn/problems/course-schedule/solutions/18806/course-schedule-tuo-bu-pai-xu-bfsdfsliang-chong-fa/?envType=study-plan-v2&envId=selected-coding-interview[207. 课程表 - 拓扑排序：入度表BFS法 / DFS法，清晰图解^]
+. https://leetcode.cn/problems/course-schedule/solutions/359392/ke-cheng-biao-by-leetcode-solution/?envType=study-plan-v2&envId=selected-coding-interview[207. 课程表 - 官方题解^]
+. https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs[Representing graphs (article) | Algorithms | Khan Academy^]
 

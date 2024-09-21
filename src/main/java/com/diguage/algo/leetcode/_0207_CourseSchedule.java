@@ -42,13 +42,16 @@ import java.util.Queue;
  * @since 2020-01-26 16:36
  */
 public class _0207_CourseSchedule {
-  // tag::answer[]
+    // tag::answer[]
     /**
      * Runtime: 20 ms, faster than 36.81% of Java online submissions for Course Schedule.
      *
      * Memory Usage: 74.1 MB, less than 5.39% of Java online submissions for Course Schedule.
      *
      * Copy from: https://leetcode.com/problems/course-schedule/discuss/58516/Easy-BFS-Topological-sort-Java[Easy BFS Topological sort, Java - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-26 16:36
      */
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[][] matrix = new int[numCourses][numCourses];
@@ -80,7 +83,7 @@ public class _0207_CourseSchedule {
         return count == numCourses;
     }
 
-  // end::answer[]
+    // end::answer[]
 
 
     public static void main(String[] args) {

@@ -843,6 +843,10 @@
 |{doc_base_url}/0796-rotate-string.adoc[题解]
 |✅
 
+|{counter:codes}
+|{leetcode_base_url}/course-schedule/[207. Course Schedule^]
+|{doc_base_url}/0207-course-schedule.adoc[题解]
+|✅ 拓扑排序
 
 |===
 
