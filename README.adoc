@@ -2825,14 +2825,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0399-evaluate-division.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/nth-digit/[400. Nth Digit^]
-//|{source_base_url}/_0400_NthDigit.java[Java]
-//|{doc_base_url}/0400-nth-digit.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/nth-digit/[400. Nth Digit^]
+|{source_base_url}/_0400_NthDigit.java[Java]
+|{doc_base_url}/0400-nth-digit.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/binary-watch/[401. Binary Watch^]
 //|{source_base_url}/_0401_BinaryWatch.java[Java]

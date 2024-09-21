@@ -35,11 +35,41 @@ _n_ is positive and will fit within the range of a 32-bit signed integer (_n_ < 
 The 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, which is part of the number 10.
 ----
 
+== 思路分析
 
+image::images/0400-01.png[{image_attr}]
+
+image::images/0400-02.png[{image_attr}]
+
+image::images/0400-03.png[{image_attr}]
+
+image::images/0400-04.png[{image_attr}]
+
+image::images/0400-05.png[{image_attr}]
+
+image::images/0400-06.png[{image_attr}]
+
+image::images/0400-07.png[{image_attr}]
 
 [[src-0400]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0400_NthDigit.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0400_NthDigit_2.java[tag=answer]
+// ----
+// --
+====
 

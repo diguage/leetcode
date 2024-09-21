@@ -828,6 +828,12 @@
 |{doc_base_url}/0768-max-chunks-to-make-sorted-ii.adoc[题解]
 |❌ 贪心+单调栈。单调栈的解法思路很精巧！
 
+|{counter:codes}
+|{leetcode_base_url}/nth-digit/[400. Nth Digit^]
+|{doc_base_url}/0400-nth-digit.adoc[题解]
+|❌ 纯纯的数学运算，一脸懵逼
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
