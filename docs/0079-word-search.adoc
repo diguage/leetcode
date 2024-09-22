@@ -23,10 +23,37 @@ Given word = "*SEE*", return *true*.
 Given word = "*ABCB*", return *false*.
 ----
 
+== 思路分析
+
+image:images/0079-01.png[{image_attr}]
+
+image:images/0079-02.png[{image_attr}]
 
 [[src-0079]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0079_WordSearch.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0079_WordSearch_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/word-search/solutions/2361646/79-dan-ci-sou-suo-hui-su-qing-xi-tu-jie-5yui2/?envType=study-plan-v2&envId=selected-coding-interview[79. 单词搜索 - 回溯，清晰图解^]
+
+
 

@@ -30,7 +30,7 @@ import java.util.Objects;
  * @since 2020-01-03 17:31
  */
 public class _0079_WordSearch {
-  // tag::answer[]
+    // tag::answer[]
 
     /**
      * Runtime: 4 ms, faster than 89.90% of Java online submissions for Word Search.
@@ -38,6 +38,9 @@ public class _0079_WordSearch {
      * Memory Usage: 38.4 MB, less than 97.96% of Java online submissions for Word Search.
      *
      * Copy from: https://leetcode.com/problems/word-search/discuss/27658/Accepted-very-short-Java-solution.-No-additional-space.[Accepted very short Java solution. No additional space. - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-03 17:31
      */
     public boolean exist(char[][] board, String word) {
         if (Objects.isNull(board) || board.length == 0) {
@@ -76,7 +79,7 @@ public class _0079_WordSearch {
         return existable;
     }
 
-  // end::answer[]
+    // end::answer[]
 
 
     public static void main(String[] args) {

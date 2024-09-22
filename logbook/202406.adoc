@@ -841,12 +841,17 @@
 |{counter:codes}
 |{leetcode_base_url}/rotate-string/[796. Rotate String^]
 |{doc_base_url}/0796-rotate-string.adoc[题解]
-|✅
+|✅ 简单用 `contains`；复杂用 KMP 算法。
 
 |{counter:codes}
 |{leetcode_base_url}/course-schedule/[207. Course Schedule^]
 |{doc_base_url}/0207-course-schedule.adoc[题解]
 |✅ 拓扑排序
+
+|{counter:codes}
+|{leetcode_base_url}/word-search/[79. Word Search^]
+|{doc_base_url}/0079-word-search.adoc[题解]
+|✅ 回溯
 
 |===
 
