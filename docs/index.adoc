@@ -3802,7 +3802,7 @@ include::1823-find-the-winner-of-the-circular-game.adoc[leveloffset=+1]
 
 // include::1863-sum-of-all-subset-xor-totals.adoc[leveloffset=+1]
 
-// include::1864-minimum-number-of-swaps-to-make-the-binary-string-alternating.adoc[leveloffset=+1]
+include::1864-minimum-number-of-swaps-to-make-the-binary-string-alternating.adoc[leveloffset=+1]
 
 // include::1865-finding-pairs-with-a-certain-sum.adoc[leveloffset=+1]
 

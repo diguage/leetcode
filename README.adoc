@@ -13074,12 +13074,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/minimum-number-of-swaps-to-make-the-binary-string-alternating/[1864. Minimum Number of Swaps to Make the Binary String Alternating^]
-//|{source_base_url}/_1864_MinimumNumberOfSwapsToMakeTheBinaryStringAlternating.java[Java]
-//|{doc_base_url}/1864-minimum-number-of-swaps-to-make-the-binary-string-alternating.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/minimum-number-of-swaps-to-make-the-binary-string-alternating/[1864. Minimum Number of Swaps to Make the Binary String Alternating^]
+|{source_base_url}/_1864_MinimumNumberOfSwapsToMakeTheBinaryStringAlternating.java[Java]
+|{doc_base_url}/1864-minimum-number-of-swaps-to-make-the-binary-string-alternating.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/finding-pairs-with-a-certain-sum/[1865. Finding Pairs With a Certain Sum^]

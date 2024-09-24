@@ -41,7 +41,7 @@ The string is now alternating.
 *Constraints:*
 
 
-* `1 <= s.length <= 1000`
+* `1 \<= s.length \<= 1000`
 * `s[i]` is either `'0'` or `'1'`.
 
 
@@ -49,6 +49,7 @@ The string is now alternating.
 
 == 思路分析
 
+如果是交替出现，那么只有 `010...` 或者 `101...` 这两种类型，统计各个比特位不正确的位数再除以 2 即可。（交换一次，可以解决两个不正确比特位）。
 
 [[src-1864]]
 [tabs]
@@ -75,4 +76,5 @@ include::{sourcedir}/_1864_MinimumNumberOfSwapsToMakeTheBinaryStringAlternating.
 
 == 参考资料
 
+. https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/solutions/779087/minimum-number-of-swaps-to-make-the-bina-z0qy/[1864. 构成交替字符串需要的最小交换次数 - 官方题解^]
 
