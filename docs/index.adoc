@@ -1926,7 +1926,7 @@ include::0912-sort-an-array.adoc[leveloffset=+1]
 
 // include::0925-long-pressed-name.adoc[leveloffset=+1]
 
-// include::0926-flip-string-to-monotone-increasing.adoc[leveloffset=+1]
+include::0926-flip-string-to-monotone-increasing.adoc[leveloffset=+1]
 
 // include::0927-three-equal-parts.adoc[leveloffset=+1]
 

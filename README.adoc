@@ -6507,14 +6507,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0925-long-pressed-name.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/flip-string-to-monotone-increasing/[926. Flip String to Monotone Increasing^]
-//|{source_base_url}/_0926_FlipStringToMonotoneIncreasing.java[Java]
-//|{doc_base_url}/0926-flip-string-to-monotone-increasing.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/flip-string-to-monotone-increasing/[926. Flip String to Monotone Increasing^]
+|{source_base_url}/_0926_FlipStringToMonotoneIncreasing.java[Java]
+|{doc_base_url}/0926-flip-string-to-monotone-increasing.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/three-equal-parts/[927. Three Equal Parts^]
 //|{source_base_url}/_0927_ThreeEqualParts.java[Java]

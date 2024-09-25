@@ -858,6 +858,11 @@
 |{doc_base_url}/1864-minimum-number-of-swaps-to-make-the-binary-string-alternating.adoc[题解]
 |❌ 贪心算法
 
+|{counter:codes}
+|{leetcode_base_url}/flip-string-to-monotone-increasing/[926. Flip String to Monotone Increasing^]
+|{doc_base_url}/0926-flip-string-to-monotone-increasing.adoc[题解]
+|❌ 动态规划
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

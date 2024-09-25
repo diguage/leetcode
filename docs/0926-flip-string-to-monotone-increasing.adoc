@@ -50,13 +50,35 @@ Return the minimum number of flips to make `S` monotone increasing.
 . `S` only consists of `'0'` and `'1'` characters.
 
 
+== 思路分析
 
+如果下标 i 处的字符是 0，则只有当下标 i−1 处的字符是 0 时才符合单调递增；如果下标 i 处的字符是 1，则下标 i−1 处的字符是 0 或 1 都符合单调递增，此时为了将翻转次数最小化，应分别考虑下标 i−1 处的字符是 0 和 1 的情况下需要的翻转次数，取两者的最小值。
 
-
+对于 0≤i<n，用 dp[i][0] 和 dp[i][1] 分别表示下标 i 处的字符为 0 和 1 的情况下使得 s[0..i] 单调递增的最小翻转次数。
 
 [[src-0926]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0926_FlipStringToMonotoneIncreasing.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0926_FlipStringToMonotoneIncreasing_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/flip-string-to-monotone-increasing/solutions/1592230/jiang-zi-fu-chuan-fan-zhuan-dao-dan-diao-stjd/[926. 将字符串翻转到单调递增 - 官方题解^]
 
