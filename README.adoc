@@ -7655,14 +7655,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1089-duplicate-zeros.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/largest-values-from-labels/[1090. Largest Values From Labels^]
-//|{source_base_url}/_1090_LargestValuesFromLabels.java[Java]
-//|{doc_base_url}/1090-largest-values-from-labels.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/largest-values-from-labels/[1090. Largest Values From Labels^]
+|{source_base_url}/_1090_LargestValuesFromLabels.java[Java]
+|{doc_base_url}/1090-largest-values-from-labels.adoc[题解]
+|Medium
+|排序规则跟 179、870 题类似：保存下标，使用其他数组的值对下标数组进行排序。
+
 //|{counter:codes}
 //|{leetcode_base_url}/shortest-path-in-binary-matrix/[1091. Shortest Path in Binary Matrix^]
 //|{source_base_url}/_1091_ShortestPathInBinaryMatrix.java[Java]

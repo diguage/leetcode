@@ -8,8 +8,8 @@ We have a set of items: the `i`-th item has value `values[i]` and label `labels[
 Then, we choose a subset `S` of these items, such that:
 
 
-* `|S| <= num_wanted`
-* For every label `L`, the number of items in `S` with label `L` is `<= use_limit`.
+* `|S| \<= num_wanted`
+* For every label `L`, the number of items in `S` with label `L` is `\<= use_limit`.
 
 
 Return the largest possible sum of the subset `S`.
@@ -66,14 +66,34 @@ Return the largest possible sum of the subset `S`.
 * `1 <= num_wanted, use_limit <= values.length`
 
 
+== 思路分析
 
+初看以为是回溯（回溯也可以，能通过大部分的测试），看答案之后，可以通过排序来解决。
 
-
-
+再次想想，感觉回溯解决不了问题，它没办法保证首先选中的就是大数。
 
 [[src-1090]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1090_LargestValuesFromLabels.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1090_LargestValuesFromLabels_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/largest-values-from-labels/solutions/2278874/shou-biao-qian-ying-xiang-de-zui-da-zhi-5h9ll/[1090. 受标签影响的最大值 - 官方题解^]

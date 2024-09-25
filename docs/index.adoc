@@ -2254,7 +2254,7 @@ include::1011-capacity-to-ship-packages-within-d-days.adoc[leveloffset=+1]
 
 // include::1089-duplicate-zeros.adoc[leveloffset=+1]
 
-// include::1090-largest-values-from-labels.adoc[leveloffset=+1]
+include::1090-largest-values-from-labels.adoc[leveloffset=+1]
 
 // include::1091-shortest-path-in-binary-matrix.adoc[leveloffset=+1]
 

@@ -868,6 +868,13 @@
 |{doc_base_url}/2507-smallest-value-after-replacing-with-sum-of-prime-factors.adoc[题解]
 |❌ 数学计算，一脸懵逼
 
+
+|{counter:codes}
+|{leetcode_base_url}/largest-values-from-labels/[1090. Largest Values From Labels^]
+|{doc_base_url}/1090-largest-values-from-labels.adoc[题解]
+|⭕️ 贪心。排序规则跟 179、870 题类似：保存下标，使用其他数组的值对下标数组进行排序。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
