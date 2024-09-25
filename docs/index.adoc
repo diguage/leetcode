@@ -1812,7 +1812,7 @@ include::0796-rotate-string.adoc[leveloffset=+1]
 
 // include::0868-binary-gap.adoc[leveloffset=+1]
 
-// include::0869-reordered-power-of-2.adoc[leveloffset=+1]
+include::0869-reordered-power-of-2.adoc[leveloffset=+1]
 
 include::0870-advantage-shuffle.adoc[leveloffset=+1]
 

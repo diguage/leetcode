@@ -7,11 +7,6 @@ Starting with a positive integer `N`, we reorder the digits in any order (includ
 
 Return `true` if and only if we can do this in a way such that the resulting number is a power of 2.
 
- 
-
-
-
-
 
 *Example 1:*
 
@@ -30,7 +25,6 @@ Return `true` if and only if we can do this in a way such that the resulting num
 *Output:* false
 ----
 
-
 *Example 3:*
 
 [subs="verbatim,quotes,macros"]
@@ -38,7 +32,6 @@ Return `true` if and only if we can do this in a way such that the resulting num
 *Input:* 16
 *Output:* true
 ----
-
 
 *Example 4:*
 
@@ -48,7 +41,6 @@ Return `true` if and only if we can do this in a way such that the resulting num
 *Output:* false
 ----
 
-
 *Example 5:*
 
 [subs="verbatim,quotes,macros"]
@@ -57,24 +49,40 @@ Return `true` if and only if we can do this in a way such that the resulting num
 *Output:* true
 ----
 
- 
-
 *Note:*
 
-
-. `1 <= N <= 10^9`
-
+. `1 \<= N \<= 10^9`
 
 
+== 思路分析
 
+根据数字，对其对应的字符数组进行排序，然后再取得其对应的字符串。
 
-
-
-
+一次计算 2 的幂次方，然后在字符串长度相等的情况下，排序其对应的字符数组，再转化成字符串跟参数的字符串想比较。
 
 [[src-0869]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0869_ReorderedPowerOf2.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0869_ReorderedPowerOf2_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/reordered-power-of-2/solutions/1068761/zhong-xin-pai-xu-de-dao-2-de-mi-by-leetc-4fvs/[869. 重新排序得到 2 的幂 - 官方题解^]
 

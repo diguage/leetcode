@@ -875,6 +875,11 @@
 |⭕️ 贪心。排序规则跟 179、870 题类似：保存下标，使用其他数组的值对下标数组进行排序。
 
 
+|{counter:codes}
+|{leetcode_base_url}/reordered-power-of-2/[869. Reordered Power of 2^]
+|{doc_base_url}/0869-reordered-power-of-2.adoc[题解]
+|⭕️ 参考答案做了优化
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
