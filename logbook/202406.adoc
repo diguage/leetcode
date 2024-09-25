@@ -863,6 +863,11 @@
 |{doc_base_url}/0926-flip-string-to-monotone-increasing.adoc[题解]
 |❌ 动态规划
 
+|{counter:codes}
+|{leetcode_base_url}/smallest-value-after-replacing-with-sum-of-prime-factors/[2507. Smallest Value After Replacing With Sum of Prime Factors^]
+|{doc_base_url}/2507-smallest-value-after-replacing-with-sum-of-prime-factors.adoc[题解]
+|❌ 数学计算，一脸懵逼
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

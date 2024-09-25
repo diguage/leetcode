@@ -48,6 +48,7 @@ Return _the smallest value _`n`_ will take on._
 
 == 思路分析
 
+看答案有些懵逼，没看到计算质数的过程。
 
 [[src-2507]]
 [tabs]
@@ -73,5 +74,7 @@ include::{sourcedir}/_2507_SmallestValueAfterReplacingWithSumOfPrimeFactors.java
 
 
 == 参考资料
+
+. https://leetcode.cn/problems/smallest-value-after-replacing-with-sum-of-prime-factors/solutions/2024532/bao-li-by-endlesscheng-xh0b/[2507. 使用质因数之和替换后可以取到的最小值 - 暴力^]
 
 

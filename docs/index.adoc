@@ -5088,7 +5088,7 @@ include::1905-count-sub-islands.adoc[leveloffset=+1]
 
 // include::2506-count-pairs-of-similar-strings.adoc[leveloffset=+1]
 
-// include::2507-smallest-value-after-replacing-with-sum-of-prime-factors.adoc[leveloffset=+1]
+include::2507-smallest-value-after-replacing-with-sum-of-prime-factors.adoc[leveloffset=+1]
 
 // include::2508-add-edges-to-make-degrees-of-all-nodes-even.adoc[leveloffset=+1]
 
