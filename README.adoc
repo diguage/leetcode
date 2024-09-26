@@ -8796,14 +8796,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1252-cells-with-odd-values-in-a-matrix.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/reconstruct-a-2-row-binary-matrix/[1253. Reconstruct a 2-Row Binary Matrix^]
-//|{source_base_url}/_1253_ReconstructA2RowBinaryMatrix.java[Java]
-//|{doc_base_url}/1253-reconstruct-a-2-row-binary-matrix.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/reconstruct-a-2-row-binary-matrix/[1253. Reconstruct a 2-Row Binary Matrix^]
+|{source_base_url}/_1253_ReconstructA2RowBinaryMatrix.java[Java]
+|{doc_base_url}/1253-reconstruct-a-2-row-binary-matrix.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/number-of-closed-islands/[1254. Number of Closed Islands^]
 //|{source_base_url}/_1254_NumberOfClosedIslands.java[Java]

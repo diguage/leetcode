@@ -868,17 +868,21 @@
 |{doc_base_url}/2507-smallest-value-after-replacing-with-sum-of-prime-factors.adoc[题解]
 |❌ 数学计算，一脸懵逼
 
-
 |{counter:codes}
 |{leetcode_base_url}/largest-values-from-labels/[1090. Largest Values From Labels^]
 |{doc_base_url}/1090-largest-values-from-labels.adoc[题解]
 |⭕️ 贪心。排序规则跟 179、870 题类似：保存下标，使用其他数组的值对下标数组进行排序。
 
-
 |{counter:codes}
 |{leetcode_base_url}/reordered-power-of-2/[869. Reordered Power of 2^]
 |{doc_base_url}/0869-reordered-power-of-2.adoc[题解]
-|⭕️ 参考答案做了优化
+|⭕️ 数学，参考答案做了优化
+
+|{counter:codes}
+|{leetcode_base_url}/reconstruct-a-2-row-binary-matrix/[1253. Reconstruct a 2-Row Binary Matrix^]
+|{doc_base_url}/1253-reconstruct-a-2-row-binary-matrix.adoc[题解]
+|⭕️ 贪心，为什么需要先减去 2 呢？
+
 
 |===
 

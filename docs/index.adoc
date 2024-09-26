@@ -2580,7 +2580,7 @@ include::1109-corporate-flight-bookings.adoc[leveloffset=+1]
 
 // include::1252-cells-with-odd-values-in-a-matrix.adoc[leveloffset=+1]
 
-// include::1253-reconstruct-a-2-row-binary-matrix.adoc[leveloffset=+1]
+include::1253-reconstruct-a-2-row-binary-matrix.adoc[leveloffset=+1]
 
 // include::1254-number-of-closed-islands.adoc[leveloffset=+1]
 

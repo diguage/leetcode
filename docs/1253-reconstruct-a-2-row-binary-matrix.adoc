@@ -50,16 +50,38 @@ If no valid solution exists, return an empty 2-D array.
 *Constraints:*
 
 
-* `1 <= colsum.length <= 10^5`
-* `0 <= upper, lower <= colsum.length`
-* `0 <= colsum[i] <= 2`
+* `1 \<= colsum.length \<= 10^5`
+* `0 \<= upper, lower \<= colsum.length`
+* `0 \<= colsum[i] \<= 2`
 
 
+== 思路分析
 
+为什么需要现在 `upper` 和 `lower` 中先减去 `2` 的数量呢？没想明白
 
 [[src-1253]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1253_ReconstructA2RowBinaryMatrix.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1253_ReconstructA2RowBinaryMatrix_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/reconstruct-a-2-row-binary-matrix/solutions/2306023/zhong-gou-2-xing-er-jin-zhi-ju-zhen-by-l-if8v/[1253. 重构 2 行二进制矩阵 - 官方题解^]
 
