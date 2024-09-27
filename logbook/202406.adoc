@@ -904,6 +904,12 @@
 |⭕️ 理解题目，确定符合要求的条件。
 
 
+|{counter:codes}
+|{leetcode_base_url}/boats-to-save-people/[881. Boats to Save People^]
+|{doc_base_url}/0881-boats-to-save-people.adoc[题解]
+|❌ 贪心+双指针
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

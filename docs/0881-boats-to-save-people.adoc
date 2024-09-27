@@ -9,8 +9,6 @@ Each boat carries at most 2 people at the same time, provided the sum of the wei
 
 Return the minimum number of boats to carry every given person.  (It is guaranteed each person can be carried by a boat.)
 
- 
-
 
 *Example 1:*
 
@@ -46,18 +44,39 @@ Return the minimum number of boats to carry every given person.  (It is guarante
 *Note*:
 
 
-* `1 <= people.length <= 50000`
-* `1 <= people[i] <= limit <= 30000`
+* `1 \<= people.length \<= 50000`
+* `1 \<= people[i] \<= limit \<= 30000`
 
 
+== 思路分析
 
+对数组排序，从两端向中间挤压。
 
-
-
+WARNING: 注意审题！一条小船只能坐两个人。
 
 [[src-0881]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0881_BoatsToSavePeople.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0881_BoatsToSavePeople_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/boats-to-save-people/solutions/958838/jiu-sheng-ting-by-leetcode-solution-0nsp/[881. 救生艇 - 官方题解^]
 

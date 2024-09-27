@@ -1836,7 +1836,7 @@ include::0876-middle-of-the-linked-list.adoc[leveloffset=+1]
 
 // include::0880-decoded-string-at-index.adoc[leveloffset=+1]
 
-// include::0881-boats-to-save-people.adoc[leveloffset=+1]
+include::0881-boats-to-save-people.adoc[leveloffset=+1]
 
 // include::0882-reachable-nodes-in-subdivided-graph.adoc[leveloffset=+1]
 
