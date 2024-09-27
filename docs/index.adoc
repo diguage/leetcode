@@ -1882,7 +1882,7 @@ include::0892-surface-area-of-3d-shapes.adoc[leveloffset=+1]
 
 // include::0903-valid-permutations-for-di-sequence.adoc[leveloffset=+1]
 
-// include::0904-fruit-into-baskets.adoc[leveloffset=+1]
+include::0904-fruit-into-baskets.adoc[leveloffset=+1]
 
 // include::0905-sort-array-by-parity.adoc[leveloffset=+1]
 

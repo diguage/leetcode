@@ -83,3 +83,4 @@ while (right < s.size()) {
 . https://mp.weixin.qq.com/s/6YeZUCYj5ft-OGa85sQegw[面试官，你再问我滑动窗口问题试试？我有解题模板，不怕！^]
 . https://www.bilibili.com/video/BV1hd4y1r7Gq/[滑动窗口【基础算法精讲 03】^]
 . https://leetcode.cn/problems/subarray-product-less-than-k/solutions/1320871/jian-dan-yi-dong-xiang-xi-zhu-jie-shuang-jvy3/[713. 乘积小于 K 的子数组 - 官方思路秒懂○注释详细○双指针滑窗 【附通用滑窗模板】^]
+. https://leetcode.cn/problems/fruit-into-baskets/solutions/1437444/shen-du-jie-xi-zhe-dao-ti-he-by-linzeyin-6crr/[904. 水果成篮 - 【深度解析】这道题和76. 最小覆盖子串的区别^] -- 这个题解比较了“最大滑动窗口”和“最小滑动窗口”的区别。可以研究一下。

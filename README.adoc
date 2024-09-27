@@ -6353,14 +6353,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0903-valid-permutations-for-di-sequence.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/fruit-into-baskets/[904. Fruit Into Baskets^]
-//|{source_base_url}/_0904_FruitIntoBaskets.java[Java]
-//|{doc_base_url}/0904-fruit-into-baskets.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/fruit-into-baskets/[904. Fruit Into Baskets^]
+|{source_base_url}/_0904_FruitIntoBaskets.java[Java]
+|{doc_base_url}/0904-fruit-into-baskets.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/sort-array-by-parity/[905. Sort Array By Parity^]
 //|{source_base_url}/_0905_SortArrayByParity.java[Java]

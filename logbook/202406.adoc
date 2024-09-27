@@ -893,6 +893,12 @@
 |{doc_base_url}/1110-delete-nodes-and-return-forest.adoc[题解]
 |✅ 递归+深度优先
 
+|{counter:codes}
+|{leetcode_base_url}/fruit-into-baskets/[904. Fruit Into Baskets^]
+|{doc_base_url}/0904-fruit-into-baskets.adoc[题解]
+|✅ 滑动窗口
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

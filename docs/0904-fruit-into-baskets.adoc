@@ -70,10 +70,10 @@ If we started at the first tree or the eighth tree, we would only collect 4 frui
 *Note:*
 
 
-. `1 <= tree.length <= 40000`
-. `0 <= tree[i] < tree.length`
+. `1 \<= tree.length \<= 40000`
+. `0 \<= tree[i] \< tree.length`
 
-
+== 思路分析
 
 
 [[src-0904]]
@@ -81,4 +81,10 @@ If we started at the first tree or the eighth tree, we would only collect 4 frui
 ----
 include::{sourcedir}/_0904_FruitIntoBaskets.java[tag=answer]
 ----
+
+== 参考资料
+
+. https://leetcode.cn/problems/fruit-into-baskets/solutions/1893352/shui-guo-cheng-lan-by-leetcode-solution-1uyu/[904. 水果成篮 - 官方题解^]
+. https://leetcode.cn/problems/fruit-into-baskets/solutions/1437444/shen-du-jie-xi-zhe-dao-ti-he-by-linzeyin-6crr/[904. 水果成篮 - 【深度解析】这道题和76. 最小覆盖子串的区别^]
+. https://leetcode.cn/problems/fruit-into-baskets/solutions/1897490/by-ac_oier-skgk/[904. 水果成篮 - 【宫水三叶】简单滑动窗口运用题^]
 
