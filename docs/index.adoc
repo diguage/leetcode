@@ -1858,7 +1858,7 @@ include::0876-middle-of-the-linked-list.adoc[leveloffset=+1]
 
 // include::0891-sum-of-subsequence-widths.adoc[leveloffset=+1]
 
-// include::0892-surface-area-of-3d-shapes.adoc[leveloffset=+1]
+include::0892-surface-area-of-3d-shapes.adoc[leveloffset=+1]
 
 // include::0893-groups-of-special-equivalent-strings.adoc[leveloffset=+1]
 

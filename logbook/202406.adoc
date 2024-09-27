@@ -883,6 +883,11 @@
 |{doc_base_url}/1253-reconstruct-a-2-row-binary-matrix.adoc[题解]
 |⭕️ 贪心，为什么需要先减去 2 呢？
 
+|{counter:codes}
+|{leetcode_base_url}/surface-area-of-3d-shapes/[892. Surface Area of 3D Shapes^]
+|{doc_base_url}/0892-surface-area-of-3d-shapes.adoc[题解]
+|✅ 计算几个柱子的面积
+
 
 |===
 
