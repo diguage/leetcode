@@ -56,12 +56,42 @@ The robot moves from (0, 0) -> (0, 1) -> (-1, 1) -> (-1, 0) -> (0, 0) -> ...
 * `1 <= instructions.length <= 100`
 * `instructions[i]` is in `{'G', 'L', 'R'}`
 
+== 思路分析
 
+TIP: 这道题不是要看路径是否相交。
 
+这道题的关键点事找出不存在环路的条件：执行一遍指令后，机器人必须不在原点且方向继续朝北：
+
+* 如果在原点，无论执行多少遍，结果都会在原点。
+* 如果方向不是初始化方向，那么多次执行后，就会相互抵消，形成环路。
 
 [[src-1041]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1041_RobotBoundedInCircle.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1041_RobotBoundedInCircle_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/robot-bounded-in-circle/solutions/2217873/kun-yu-huan-zhong-de-ji-qi-ren-by-leetco-kjya/[1041. 困于环中的机器人 - 官方题解^]
+. https://leetcode.cn/problems/robot-bounded-in-circle/solutions/2217873/kun-yu-huan-zhong-de-ji-qi-ren-by-leetco-kjya/comments/1985848[1041. 困于环中的机器人 / 矩阵变换的思路^]
+. https://leetcode.cn/problems/robot-bounded-in-circle/solutions/2219798/python3javacgotypescript-yi-ti-yi-jie-mo-cyda/[1041. 困于环中的机器人 - 一题一解：模拟（详细题解）^]
+. https://leetcode.cn/problems/robot-bounded-in-circle/solutions/2347537/gong-shui-san-xie-chang-gui-mo-ni-ti-by-hgdtp/[1041. 困于环中的机器人 - 【宫水三叶】常规模拟题^]
+
 

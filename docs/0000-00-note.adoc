@@ -26,6 +26,10 @@ image::images/quick-sort-01.gif[{image_attr}]
 * [ ] 买卖股票
 * [ ] 链表复制相关操作，也可以将新旧节点交替相连来处理。
 
+== 感慨
+
+问题也懂，代码也可以写出来，但是写的不够简洁优美，怎么办？
+
 == 解题范式
 
 . xref:0000-06-two-pointer.adoc[Two Pointer 双指针]

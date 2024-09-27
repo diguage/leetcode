@@ -2156,7 +2156,7 @@ include::1011-capacity-to-ship-packages-within-d-days.adoc[leveloffset=+1]
 
 // include::1040-moving-stones-until-consecutive-ii.adoc[leveloffset=+1]
 
-// include::1041-robot-bounded-in-circle.adoc[leveloffset=+1]
+include::1041-robot-bounded-in-circle.adoc[leveloffset=+1]
 
 // include::1042-flower-planting-with-no-adjacent.adoc[leveloffset=+1]
 
