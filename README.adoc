@@ -7796,13 +7796,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/delete-nodes-and-return-forest/[1110. Delete Nodes And Return Forest^]
-//|{source_base_url}/_1110_DeleteNodesAndReturnForest.java[Java]
-//|{doc_base_url}/1110-delete-nodes-and-return-forest.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/delete-nodes-and-return-forest/[1110. Delete Nodes And Return Forest^]
+|{source_base_url}/_1110_DeleteNodesAndReturnForest.java[Java]
+|{doc_base_url}/1110-delete-nodes-and-return-forest.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/maximum-nesting-depth-of-two-valid-parentheses-strings/[1111. Maximum Nesting Depth of Two Valid Parentheses Strings^]
 //|{source_base_url}/_1111_MaximumNestingDepthOfTwoValidParenthesesStrings.java[Java]

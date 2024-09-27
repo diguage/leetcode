@@ -2294,7 +2294,7 @@ include::1094-car-pooling.adoc[leveloffset=+1]
 
 include::1109-corporate-flight-bookings.adoc[leveloffset=+1]
 
-// include::1110-delete-nodes-and-return-forest.adoc[leveloffset=+1]
+include::1110-delete-nodes-and-return-forest.adoc[leveloffset=+1]
 
 // include::1111-maximum-nesting-depth-of-two-valid-parentheses-strings.adoc[leveloffset=+1]
 

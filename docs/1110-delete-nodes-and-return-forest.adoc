@@ -29,11 +29,18 @@ image::https://assets.leetcode.com/uploads/2019/07/01/screen-shot-2019-07-01-at-
 * `to_delete.length <= 1000`
 * `to_delete` contains distinct values between `1` and `1000`.
 
+== 思路分析
 
+利用递归，在“后序遍历”阶段，对当前阶段判断是否需要删除。
 
 [[src-1110]]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1110_DeleteNodesAndReturnForest.java[tag=answer]
 ----
+
+== 参考资料
+
+. https://leetcode.cn/problems/delete-nodes-and-return-forest/solutions/2286145/shan-dian-cheng-lin-by-leetcode-solution-gy95/[1110. 删点成林 - 官方题解^]
+. https://leetcode.cn/problems/delete-nodes-and-return-forest/solutions/2289131/he-shi-ji-lu-da-an-pythonjavacgo-by-endl-lpcd/[1110. 删点成林 - 简洁写法！^]
 
