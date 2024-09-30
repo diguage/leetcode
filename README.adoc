@@ -5051,14 +5051,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0717-1-bit-and-2-bit-characters.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/maximum-length-of-repeated-subarray/[718. Maximum Length of Repeated Subarray^]
-//|{source_base_url}/_0718_MaximumLengthOfRepeatedSubarray.java[Java]
-//|{doc_base_url}/0718-maximum-length-of-repeated-subarray.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/maximum-length-of-repeated-subarray/[718. Maximum Length of Repeated Subarray^]
+|{source_base_url}/_0718_MaximumLengthOfRepeatedSubarray.java[Java]
+|{doc_base_url}/0718-maximum-length-of-repeated-subarray.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/find-k-th-smallest-pair-distance/[719. Find K-th Smallest Pair Distance^]
 //|{source_base_url}/_0719_FindKThSmallestPairDistance.java[Java]

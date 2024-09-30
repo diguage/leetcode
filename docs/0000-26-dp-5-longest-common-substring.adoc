@@ -8,6 +8,7 @@
 . xref:0300-longest-increasing-subsequence.adoc[300. Longest Increasing Subsequence]
 . xref:1143-longest-common-subsequence.adoc[1143. Longest Common Subsequence]
 . xref:1092-shortest-common-supersequence.adoc[1092. Shortest Common Supersequence]
+. xref:0718-maximum-length-of-repeated-subarray.adoc[718. 最长重复子数组]
 
 Longest Common Substring，最长相同子串
 
