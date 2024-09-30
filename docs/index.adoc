@@ -218,7 +218,7 @@ include::0070-climbing-stairs.adoc[leveloffset=+1]
 
 include::0071-simplify-path.adoc[leveloffset=+1]
 
-// include::0072-edit-distance.adoc[leveloffset=+1]
+include::0072-edit-distance.adoc[leveloffset=+1]
 
 include::0073-set-matrix-zeroes.adoc[leveloffset=+1]
 

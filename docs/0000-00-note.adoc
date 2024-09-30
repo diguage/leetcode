@@ -259,3 +259,4 @@ image::images/quick-sort-01.gif[{image_attr}]
 . https://github.com/doocs/leetcode[doocs/leetcode: 🔥LeetCode solutions in any programming language | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解^] -- 也可以在这里找题目
 . https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews[Several Coding Patterns for Solving Data Structures and Algorithms Problems during Interviews^] -- 多种解题范式总结
 . https://leetcode.cn/problems/climbing-stairs/solutions/2560716/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-7zm1/?envType=study-plan-v2&envId=selected-coding-interview[70. 爬楼梯 - 教你一步步思考动态规划：从记忆化搜索到递推^]
+. https://leetcode.cn/circle/discuss/xV68NV/[不同层次的面试算法学习规划^]

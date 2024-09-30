@@ -1,49 +1,95 @@
 [#0072-edit-distance]
-= 72. Edit Distance
+= 72. 编辑距离
 
-{leetcode}/problems/edit-distance/[LeetCode - Edit Distance^]
+https://leetcode.cn/problems/edit-distance/[LeetCode - 72. 编辑距离 ^]
 
-Given two words _word1_ and _word2_, find the minimum number of operations required to convert _word1_ to _word2_.
+给你两个单词 `+word1+` 和 `+word2+`，
+_请返回将 `+word1+` 转换成 `+word2+` 所使用的最少操作数_ 。
 
-You have the following 3 operations permitted on a word:
+你可以对一个单词进行如下三种操作：
 
-
-. Insert a character
-. Delete a character
-. Replace a character
-
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* word1 = "horse", word2 = "ros"
-*Output:* 3
-*Explanation:* 
-horse -> rorse (replace 'h' with 'r')
-rorse -> rose (remove 'r')
-rose -> ros (remove 'e')
-----
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* word1 = "intention", word2 = "execution"
-*Output:* 5
-*Explanation:* 
-intention -> inention (remove 't')
-inention -> enention (replace 'i' with 'e')
-enention -> exention (replace 'n' with 'x')
-exention -> exection (replace 'n' with 'c')
-exection -> execution (insert 'u')
-----
+* 插入一个字符
+* 删除一个字符
+* 替换一个字符
 
 
+
+*示例1：*
+
+....
+输入：word1 = "horse", word2 = "ros"
+输出：3
+解释：
+horse -> rorse (将 'h' 替换为 'r')
+rorse -> rose (删除 'r')
+rose -> ros (删除 'e')
+....
+
+*示例2：*
+
+....
+输入：word1 = "intention", word2 = "execution"
+输出：5
+解释：
+intention -> inention (删除 't')
+inention -> enention (将 'i' 替换为 'e')
+enention -> exention (将 'n' 替换为 'x')
+exention -> exection (将 'n' 替换为 'c')
+exection -> execution (插入 'u')
+....
+
+*提示：*
+
+* `+0 <= word1.length, word2.length <= 500+`
+* `+word1+` 和 `+word2+` 由小写英文字母组成
+
+
+== 思路分析
+
+动态规划
+
+`dp[i][j]` 代表 `word1` 中前 `i` 个字符，变换到 `word2` 中前 `j` 个字符，最短需要操作的次数。
+
+image::images/0072-01.png[{image_attr}]
+
+image::images/0072-02.png[{image_attr}]
+
+image::images/0072-03.png[{image_attr}]
+
+image::images/0072-04.png[{image_attr}]
+
+image::images/0072-05.png[{image_attr}]
+
+image::images/0072-06.png[{image_attr}]
+
+image::images/0072-07.png[{image_attr}]
 
 [[src-0072]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0072_EditDistance.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0072_EditDistance_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/edit-distance/solutions/189676/edit-distance-by-ikaruga/[72. 编辑距离 - 【编辑距离】入门动态规划，你定义的 dp 里到底存了啥^]
+. https://leetcode.cn/problems/edit-distance/solutions/188223/bian-ji-ju-chi-by-leetcode-solution/[72. 编辑距离 - 官方题解^]
+
 

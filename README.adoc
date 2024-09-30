@@ -530,12 +530,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/edit-distance/[72. Edit Distance^]
-//|{source_base_url}/_0072_EditDistance.java[Java]
-//|{doc_base_url}/0072-edit-distance.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/edit-distance/[72. Edit Distance^]
+|{source_base_url}/_0072_EditDistance.java[Java]
+|{doc_base_url}/0072-edit-distance.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/set-matrix-zeroes/[73. Set Matrix Zeroes^]
