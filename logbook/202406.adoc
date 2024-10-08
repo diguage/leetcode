@@ -919,6 +919,10 @@
 |{doc_base_url}/0718-maximum-length-of-repeated-subarray.adoc[题解]
 |❌ 动态规划。滑动窗口的解法也很妙！
 
+|{counter:codes}
+|{leetcode_base_url}/longest-palindromic-substring/[5. Longest Palindromic Substring^]
+|{doc_base_url}/0005-longest-palindromic-substring.adoc[题解]
+|✅ 滑动窗口解法
 
 |===
 
