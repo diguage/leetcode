@@ -929,6 +929,12 @@
 |{doc_base_url}/0031-next-permutation.adoc[题解]
 |❌ 一脸懵逼，可以看成寻找下一个更大的数。这样更容易理解。
 
+|{counter:codes}
+|{leetcode_base_url}/ones-and-zeroes/[474. Ones and Zeroes^]
+|{doc_base_url}/0474-ones-and-zeroes.adoc[题解]
+|❌ 动态规划，0-1 背包问题。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。

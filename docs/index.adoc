@@ -1022,7 +1022,7 @@ include::0462-minimum-moves-to-equal-array-elements-ii.adoc[leveloffset=+1]
 
 // include::0473-matchsticks-to-square.adoc[leveloffset=+1]
 
-// include::0474-ones-and-zeroes.adoc[leveloffset=+1]
+include::0474-ones-and-zeroes.adoc[leveloffset=+1]
 
 // include::0475-heaters.adoc[leveloffset=+1]
 

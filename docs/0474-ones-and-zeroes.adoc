@@ -1,52 +1,77 @@
 [#0474-ones-and-zeroes]
-= 474. Ones and Zeroes
+= 474. 一和零
 
-{leetcode}/problems/ones-and-zeroes/[LeetCode - Ones and Zeroes^]
+https://leetcode.cn/problems/ones-and-zeroes/[LeetCode - 474. 一和零 ^]
 
-In the computer world, use restricted resource you have to generate maximum benefit is what we always want to pursue.
+给你一个二进制字符串数组 `+strs+` 和两个整数 `+m+` 和 `+n+` 。
 
-For now, suppose you are a dominator of *m* `0s` and *n* `1s` respectively. On the other hand, there is an array with strings consisting of only `0s` and `1s`.
+请你找出并返回 `+strs+` 的最大子集的长度，该子集中 *最多* 有 `+m+` 个 `+0+` 和 `+n+` 个 `+1+` 。
 
-Now your task is to find the maximum number of strings that you can form with given *m* `0s` and *n* `1s`. Each `0` and `1` can be used at most *once*.
+如果 `+x+` 的所有元素也是 `+y+` 的元素，集合 `+x+` 是集合 `+y+` 的 *子集* 。
 
-*Note:*
+*示例 1：*
 
+....
+输入：strs = ["10", "0001", "111001", "1", "0"], m = 5, n = 3
+输出：4
+解释：最多有 5 个 0 和 3 个 1 的最大子集是 {"10","0001","1","0"} ，因此答案是 4 。
+其他满足题意但较小的子集包括 {"0001","1"} 和 {"10","1","0"} 。{"111001"} 不满足题意，因为它含 4 个 1 ，大于 n 的值 3 。
+....
 
-. The given numbers of `0s` and `1s` will both not exceed `100`
-. The size of given string array won't exceed `600`.
+*示例 2：*
 
-
- 
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* Array = {"10", "0001", "111001", "1", "0"}, m = 5, n = 3
-*Output:* 4
-
-*Explanation:* This are totally 4 strings can be formed by the using of 5 0s and 3 1s, which are &ldquo;10,&rdquo;0001&rdquo;,&rdquo;1&rdquo;,&rdquo;0&rdquo;
-----
-
- 
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* Array = {"10", "0", "1"}, m = 1, n = 1
-*Output:* 2
-
-*Explanation:* You could form "10", but then you'd have nothing left. Better form "0" and "1".
-----
-
- 
+....
+输入：strs = ["10", "0", "1"], m = 1, n = 1
+输出：2
+解释：最大的子集是 {"0", "1"} ，所以答案是 2 。
+....
 
 
+*提示：*
+
+* `+1 <= strs.length <= 600+`
+* `+1 <= strs[i].length <= 100+`
+* `+strs[i]+` 仅由 `+'0'+` 和 `+'1'+` 组成
+* `+1 <= m, n <= 100+`
+
+
+
+== 思路分析
+
+思路：把总共的 0 和 1 的个数视为背包的容量，每一个字符串视为装进背包的物品。这道题就可以使用 0-1 背包问题的思路完成，这里的目标值是能放进背包的字符串的数量。
+
+物品一个一个尝试，容量一点一点尝试，每个物品分类讨论的标准是：选与不选。
+
+dp[i−1][j][k]  // 不选择当前考虑的字符串，至少是这个数值
+
+dp[i−1][j−当前字符串使用0的个数][k−当前字符串使用1的个数] + 1  // 选择当前考虑的字符串
 
 [[src-0474]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0474_OnesAndZeroes.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0474_OnesAndZeroes_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/ones-and-zeroes/solutions/814806/yi-he-ling-by-leetcode-solution-u2z2/[474. 一和零 - 官方题解^]
+
+
 
