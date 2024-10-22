@@ -924,6 +924,11 @@
 |{doc_base_url}/0005-longest-palindromic-substring.adoc[题解]
 |✅ 滑动窗口解法
 
+|{counter:codes}
+|{leetcode_base_url}/next-permutation/[31. Next Permutation^]
+|{doc_base_url}/0031-next-permutation.adoc[题解]
+|❌ 一脸懵逼，可以看成寻找下一个更大的数。这样更容易理解。
+
 |===
 
 截止目前，本轮练习一共完成 {codes} 道题。
