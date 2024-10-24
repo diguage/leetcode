@@ -1,34 +1,35 @@
 [#0343-integer-break]
-= 343. Integer Break
+= 343. 整数拆分
 
-{leetcode}/problems/integer-break/[LeetCode - Integer Break^]
+https://leetcode.cn/problems/integer-break/[LeetCode - 343. 整数拆分 ^]
 
-Given a positive integer _n_, break it into the sum of *at least* two positive integers and maximize the product of those integers. Return the maximum product you can get.
+给定一个正整数 `+n+` ，将其拆分为 `+k+` 个 *正整数*
+的和（ `+k >= 2+` ），并使这些整数的乘积最大化。
 
-*Example 1:*
+返回 _你可以获得的最大乘积_  。
+
+*示例 1:*
+
+....
+输入: n = 2
+输出: 1
+解释: 2 = 1 + 1, 1 × 1 = 1。
+....
+
+*示例  2:*
+
+....
+输入: n = 10
+输出: 36
+解释: 10 = 3 + 3 + 4, 3 ×  3 ×  4 = 36。
+....
+
+*提示:*
+
+* `+2 <= n <= 58+`
 
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 2
-*Output:* 1
-*Explanation:* 2 = 1 + 1, 1 &times; 1 = 1.
-----
-
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 10
-*Output:* 36
-*Explanation:* 10 = 3 + 3 + 4, 3 &times; 3 &times; 4 = 36.
-----
-
-*Note*: You may assume that _n_ is not less than 2 and not larger than 58.
-
-
-== 解题分析
+== 思路分析
 
 image::images/0343-02.png[{image_attr}]
 
