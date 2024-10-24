@@ -31,6 +31,8 @@ public class _0621_TaskScheduler {
         }
         Arrays.sort(counts);
         int maxCount = counts[25];
+        // 前面 maxCount - 1 个任务需要有 n 个间隔，所以就是 (maxCount - 1) * (n + 1)
+        // 而最后一个任务不需要间隔，就只能算 1
         int restCount = (maxCount - 1) * (n + 1) + 1;
         for (int i = 24; i >= 0 && counts[i] == maxCount; i--) {
             restCount++;
