@@ -1,6 +1,8 @@
 [#0000-26-dp-1-0-1-knapsack]
 = 0/1 Knapsack 0/1 背包
 
+image::images/dynamic-programming-knapsack.jpeg[{image_attr}]
+
 == 经典题目
 
 . xref:0039-combination-sum.adoc[39. Combination Sum] ？-- 感觉不是DP问题
