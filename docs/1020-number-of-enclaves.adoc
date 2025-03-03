@@ -9,9 +9,10 @@ A move consists of walking from one land square 4-directionally to another land 
 
 Return the number of land squares in the grid for which we *cannot* walk off the boundary of the grid in any number of moves.
 
- 
 
 *Example 1:*
+
+image::images/1020-01.jpg[{image_attr}]
 
 [subs="verbatim,quotes,macros"]
 ----
@@ -23,6 +24,8 @@ There are three 1s that are enclosed by 0s, and one 1 that isn't enclosed becaus
 
 *Example 2:*
 
+image::images/1020-02.jpg[{image_attr}]
+
 [subs="verbatim,quotes,macros"]
 ----
 *Input:* [[0,1,1,0],[0,0,1,0],[0,0,1,0],[0,0,0,0]]
@@ -32,17 +35,15 @@ All 1s are either on the boundary or can reach the boundary.
 
 ----
 
- 
 
 *Note:*
-
 
 . `1 <= A.length <= 500`
 . `1 <= A[i].length <= 500`
 . `0 <= A[i][j] <= 1`
 . All rows have the same size.
 
-
+== 思路分析
 
 [[src-1020]]
 [{java_src_attr}]
