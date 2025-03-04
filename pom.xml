@@ -460,6 +460,7 @@
             <iconfont-cdn>//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css</iconfont-cdn>
             <doc_base_url>xref:.</doc_base_url>
             <leetcode>https://leetcode.cn</leetcode>
+            <leetcode_base_url>https://leetcode.cn/problems</leetcode_base_url>
           </attributes>
         </configuration>
         <executions>

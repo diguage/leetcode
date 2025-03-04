@@ -1,6 +1,8 @@
 [#logbook-202406]
 = 2024年06月 刷题日志
+ifndef::leetcode_base_url[]
 :leetcode_base_url: https://leetcode.com/problems
+endif::[]
 :doc_base_url: link:../docs
 
 
