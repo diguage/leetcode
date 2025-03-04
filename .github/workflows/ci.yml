@@ -70,6 +70,7 @@ jobs:
           EOF
           cd target/docs/multipage/
           sed -i 's@</body>@<script src="assets/scripts/scroll-toc.js"></script></body>@g' *.html
+          sed -i 's@\(.toc-current{\)@\1color:#d14;font-size:130%;@g' *.html
 
       - name: Rename Title 🤡
         run: |
