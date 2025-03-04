@@ -56,7 +56,7 @@ jobs:
         run: |
           cp -R docs/assets target/docs/multipage/
           cd target/docs/multipage/
-          sed -i 's/>题解/ target="_blank">题解/g' logbook-202406.html
+          sed -i 's/>题解/ target="_blank">题解/g' logbook-*.html
           mv images/* assets/images/
           sed -i 's/src="asciidoctor-tabs.js"/src="assets\/scripts\/asciidoctor-tabs.js"/g' *.html
           sed -i 's/img src=".\/images/img src="assets\/images/g' *.html
