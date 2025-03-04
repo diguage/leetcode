@@ -900,7 +900,7 @@
 
 |{counter:codes}
 |{leetcode_base_url}/robot-bounded-in-circle/[1041. Robot Bounded In Circle^]
-|{source_base_url}/_1041_RobotBoundedInCircle.java[Java]
+|{doc_base_url}/1041-robot-bounded-in-circle.adoc[题解]
 |⭕️ 理解题目，确定符合要求的条件。
 
 
