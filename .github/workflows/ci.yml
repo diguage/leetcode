@@ -61,6 +61,16 @@ jobs:
           sed -i 's/src="asciidoctor-tabs.js"/src="assets\/scripts\/asciidoctor-tabs.js"/g' *.html
           sed -i 's/img src=".\/images/img src="assets\/images/g' *.html
 
+      - name: Add Scroll TOC JS 🐌
+        run: |
+          touch target/docs/multipage/assets/scripts/scroll-toc.js
+          cat > target/docs/multipage/assets/scripts/scroll-toc.js <<- EOF
+            document.querySelector('#toc li a span.toc-current')
+              .scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
+          EOF
+          cd target/docs/multipage/
+          sed -i 's|</body>|<script src="assets/scripts/scroll-toc.js"></script></body>|g' *.html
+
       - name: Rename Title 🤡
         run: |
           cd target/docs/multipage/
