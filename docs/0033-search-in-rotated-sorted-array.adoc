@@ -1,39 +1,77 @@
 [#0033-search-in-rotated-sorted-array]
-= 33. Search in Rotated Sorted Array
+= 33. 搜索旋转排序数组
 
-{leetcode}/problems/search-in-rotated-sorted-array/[LeetCode - Search in Rotated Sorted Array^]
+https://leetcode.cn/problems/search-in-rotated-sorted-array/[LeetCode - 33. 搜索旋转排序数组 ^]
 
-Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+整数数组 `nums` 按升序排列，数组中的值 *互不相同* 。
 
-(i.e., `[0,1,2,4,5,6,7]` might become `[4,5,6,7,0,1,2]`).
+在传递给函数之前，`nums` 在预先未知的某个下标 `k`（`+0 <= k < nums.length+`）上进行了 *旋转*，使数组变为 `+[nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]]+`（下标 *从 0 开始* 计数）。例如， `+[0,1,2,4,5,6,7]+` 在下标 `+3+` 处经旋转后可能变为  `+[4,5,6,7,0,1,2]+` 。
 
-You are given a target value to search. If found in the array return its index, otherwise return `-1`.
+给你 *旋转后* 的数组 `nums` 和一个整数 `target` ，如果 `nums` 中存在这个目标值 `target` ，则返回它的下标，否则返回  `-1`  。
 
-You may assume no duplicate exists in the array.
+你必须设计一个时间复杂度为 stem:[log_2N] 的算法解决此问题。
 
-Your algorithm's runtime complexity must be in the order of _O_(log _n_).
-
-*Example 1:*
+*示例 1：*
 
 [subs="verbatim,quotes,macros"]
 ----
-*Input:* nums = [`4,5,6,7,0,1,2]`, target = 0
-*Output:* 4
-
+输入：nums = [4,5,6,7,0,1,2], target = 0
+输出：4
 ----
 
-*Example 2:*
+*示例  2：*
 
 [subs="verbatim,quotes,macros"]
 ----
-*Input:* nums = [`4,5,6,7,0,1,2]`, target = 3
-*Output:* -1
+输入：nums = [4,5,6,7,0,1,2], target = 3
+输出：-1
 ----
 
+*示例 3：*
+
+[subs="verbatim,quotes,macros"]
+----
+输入：nums = [1], target = 0
+输出：-1
+----
+
+*提示：*
+
+* `+1 <= nums.length <= 5000+`
+* `+-10+`^`+4+`^`+<= nums[i] <= 10+`^`+4+`^
+* `+nums+` 中的每个值都 *独一无二*
+* 题目数据保证 `+nums+` 在预先未知的某个下标上进行了旋转
+* `+-10+`^`+4+`^`+<= target <= 10+`^`+4+`^
+
+
+== 思路分析
+
+image::images/0033-01.png[{image_attr}]
 
 [[src-0033]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0033_SearchInRotatedSortedArray.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0033_SearchInRotatedSortedArray_2.java[tag=answer]
+----
+--
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/search-in-rotated-sorted-array/solutions/5906/ji-jian-solution-by-lukelee/[33. 搜索旋转排序数组 - 极简 Solution^]
+. https://leetcode.cn/problems/search-in-rotated-sorted-array/solutions/220083/sou-suo-xuan-zhuan-pai-xu-shu-zu-by-leetcode-solut/[33. 搜索旋转排序数组 - 官方题解^]
 
