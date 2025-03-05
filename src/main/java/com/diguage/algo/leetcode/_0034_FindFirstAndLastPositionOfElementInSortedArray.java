@@ -31,7 +31,11 @@ package com.diguage.algo.leetcode;
  */
 public class _0034_FindFirstAndLastPositionOfElementInSortedArray {
   // tag::answer[]
-  public static int[] searchRange(int[] nums, int target) {
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2018-09-16 20:50 初次完成，2024-07-01 17:24:23 优化
+   */
+  public int[] searchRange(int[] nums, int target) {
     if (nums == null || nums.length == 0) {
       return new int[]{-1, -1};
     }

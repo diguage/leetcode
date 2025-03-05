@@ -15,6 +15,11 @@ endif::[]
 |{doc_base_url}/0206-reverse-linked-list.adoc[题解]
 |⭕️ 递归解法非常妙！传一个参数，`next` 又 `next` 比较麻烦，传两个参数比较简单。
 
+|{counter:codes2503}
+|{leetcode_base_url}/find-first-and-last-position-of-element-in-sorted-array/[34. Find First and Last Position of Element in Sorted Array^]
+|{doc_base_url}/0034-find-first-and-last-position-of-element-in-sorted-array.adoc[题解]
+|✅ 思考清楚确定边界时，中间指针的移动方向即可迎刃而解。
+
 
 |===
 
