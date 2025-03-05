@@ -35,12 +35,11 @@ import static com.diguage.util.Printers.printMatrix;
  * @since 2019-10-23 12:27
  */
 public class _0056_MergeIntervals {
-  // tag::answer[]
-
-  /**
-   * @author D瓜哥 · https://www.diguage.com
-   * @since 2019-10-23 12:27
-   */
+    // tag::answer[]
+    /**
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-10-23 12:27
+     */
     public int[][] merge(int[][] intervals) {
         if (Objects.isNull(intervals) || intervals.length <= 1) {
             return intervals;
@@ -57,8 +56,7 @@ public class _0056_MergeIntervals {
         }
         return Arrays.copyOf(intervals, index + 1);
     }
-
-  // end::answer[]
+    // end::answer[]
 
 
     public static void main(String[] args) {

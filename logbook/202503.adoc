@@ -25,6 +25,11 @@ endif::[]
 |{doc_base_url}/0033-search-in-rotated-sorted-array.adoc[题解]
 |⭕️ 重点去处理有序部分，在有序部分内查找不到，则去另外一部分去查找。
 
+|{counter:codes2503}
+|{leetcode_base_url}/merge-intervals/[56. Merge Intervals^]
+|{doc_base_url}/0056-merge-intervals.adoc[题解]
+|✅ 对区间进行排序，然后快慢指针在当前数组上对其进行合并。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
