@@ -54,6 +54,9 @@ public class _0141_LinkedListCycle {
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Linked List Cycle.
      *
      * Memory Usage: 37.9 MB, less than 84.29% of Java online submissions for Linked List Cycle.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-12 10:06
      */
     public boolean hasCycle(ListNode head) {
         if (Objects.isNull(head)) {

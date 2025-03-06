@@ -46,6 +46,9 @@ public class _0141_LinkedListCycle_2 {
   // tag::answer[]
   /**
    * 快慢指针
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-07-02 21:00:01
    */
   public boolean hasCycle(ListNode head) {
     if (head == null || head.next == null) {
