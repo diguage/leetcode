@@ -82,8 +82,10 @@ jobs:
               subtitle=$(grep '<h2.*></a>' $file | awk -F'>' '{print $4}' | awk -F'<' '{print $1}')
               echo "$file -- $subtitle"
               if [ "${subtitle}" != "" ]; then
-                sed -i "s@ 解题笔记</h1>@: ${subtitle}</h1>@g" $file
-                sed -i "s@ 解题笔记</title>@: ${subtitle}</title>@g" $file
+                # 将变量中的 & 替换为 \&
+                escaped_title=$(sed 's/&/\\&/g' <<< "${subtitle}") 
+                sed -i "s@ 解题笔记</h1>@: ${escaped_title}</h1>@g" $file
+                sed -i "s@ 解题笔记</title>@: ${escaped_title}</title>@g" $file
               fi
             fi
           done
