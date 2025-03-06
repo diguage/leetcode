@@ -50,6 +50,11 @@ endif::[]
 |{doc_base_url}/0141-linked-list-cycle.adoc[题解]
 |✅ 快慢指针
 
+|{counter:codes2503}
+|{leetcode_base_url}/happy-number/[202. 快乐数^]
+|{doc_base_url}/0202-happy-number.adoc[题解]
+|✅ 快慢指针
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

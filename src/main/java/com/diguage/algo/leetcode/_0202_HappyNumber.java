@@ -32,6 +32,9 @@ public class _0202_HappyNumber {
      * Memory Usage: 33.4 MB, less than 10.60% of Java online submissions for Happy Number.
      *
      * Copy from: https://leetcode.com/problems/happy-number/discuss/56917/My-solution-in-C(-O(1)-space-and-no-magic-math-property-involved-)[My solution in C( O(1) space and no magic math property involved ) - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-10 21:40
      */
     public boolean isHappy(int n) {
         int slow = n;
