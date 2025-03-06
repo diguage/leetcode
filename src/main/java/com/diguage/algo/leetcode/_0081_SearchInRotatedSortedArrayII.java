@@ -17,6 +17,9 @@ public class _0081_SearchInRotatedSortedArrayII {
      * Memory Usage: 38.6 MB, less than 88.73% of Java online submissions for Search in Rotated Sorted Array II.
      *
      * Copy from: https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/solution/zai-javazhong-ji-bai-liao-100de-yong-hu-by-reedfan/[搜索旋转排序数组 II - 搜索旋转排序数组 II - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-04 22:13
      */
     public boolean search(int[] nums, int target) {
         if (Objects.isNull(nums) || nums.length == 0) {
