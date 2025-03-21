@@ -1,20 +1,49 @@
 [#0076-minimum-window-substring]
-= 76. Minimum Window Substring
+= 76. 最小覆盖子串
 
-{leetcode}/problems/minimum-window-substring/[LeetCode - Minimum Window Substring^]
+https://leetcode.cn/problems/minimum-window-substring/[LeetCode - 76. 最小覆盖子串 ^]
 
-Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).
+给你一个字符串 `s` 、一个字符串 `t` 。返回 `s` 中涵盖 `t` 所有字符的最小子串。如果 `s` 中不存在涵盖 `t` 所有字符的子串，则返回空字符串 `""` 。
 
-.Example:
-----
-Input: S = "ADOBECODEBANC", T = "ABC"
-Output: "BANC"
-----
+*注意：*
 
-*Note:*
+* 对于 `t` 中重复字符，我们寻找的子字符串中该字符数量必须不少于 `t` 中该字符数量。
+* 如果 `s` 中存在这样的子串，我们保证它是唯一的答案。
 
-* If there is no such window in S that covers all characters in T, return the empty string "".
-* If there is such window, you are guaranteed that there will always be only one unique minimum window in S.
+*示例 1：*
+
+....
+输入：s = "ADOBECODEBANC", t = "ABC"
+输出："BANC"
+解释：最小覆盖子串 "BANC" 包含来自字符串 t 的 'A'、'B' 和 'C'。
+....
+
+*示例 2：*
+
+....
+输入：s = "a", t = "a"
+输出："a"
+解释：整个字符串 s 是最小覆盖子串。
+....
+
+*示例 3:*
+
+....
+输入: s = "a", t = "aa"
+输出: ""
+解释: t 中两个字符 'a' 均应包含在 s 的子串中，
+因此没有符合条件的子字符串，返回空字符串。
+....
+
+
+*提示：*
+
+* `m == s.length`
+* `n == t.length`
+* `1 \<= m, n \<= 10^5^`
+* `s` 和 `t` 由英文字母组成
+
+**进阶：**你能设计一个在 `O(m+n)` 时间内解决此问题的算法吗？
 
 == 思路分析
 
@@ -23,15 +52,35 @@ Output: "BANC"
 image::images/0076-01.gif[{image_attr}]
 
 [[src-0076]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0076_MinimumWindowSubstring.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0076_MinimumWindowSubstring_2.java[tag=answer]
 ----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0076_MinimumWindowSubstring_3.java[tag=answer]
+----
+--
+====
 
 == 参考资料
 

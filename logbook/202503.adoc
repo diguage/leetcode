@@ -55,6 +55,11 @@ endif::[]
 |{doc_base_url}/0202-happy-number.adoc[题解]
 |✅ 快慢指针
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-window-substring/[76. Minimum Window Substring^]
+|{doc_base_url}/0076-minimum-window-substring.adoc[题解]
+|⭕️ 滑动窗口，一定注意细节的处理。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

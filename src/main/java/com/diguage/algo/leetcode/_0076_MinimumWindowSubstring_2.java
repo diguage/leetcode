@@ -16,6 +16,9 @@ public class _0076_MinimumWindowSubstring_2 {
 
   /**
    * 自己实现失败后，参考社区答案修改的
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-07-02 17:03:23
    */
   public String minWindow(String s, String t) {
     if (s == null || s.isEmpty() || t == null || t.isEmpty() || s.length() < t.length()) {
