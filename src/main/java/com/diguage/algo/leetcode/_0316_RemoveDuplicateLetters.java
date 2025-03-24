@@ -1,13 +1,10 @@
 package com.diguage.algo.leetcode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class _0316_RemoveDuplicateLetters {
   // tag::answer[]
   /**
    * @author D瓜哥 · https://www.diguage.com
-   * @since 2020-01-28 15:16
+   * @since 2024-08-16 19:08
    */
   public String removeDuplicateLetters(String s) {
     if (s == null || s.isEmpty()) {
@@ -27,9 +24,11 @@ public class _0316_RemoveDuplicateLetters {
       }
       while (!chars.isEmpty() && chars.charAt(chars.length() - 1) > c) {
         int lastIdx = chars.charAt(chars.length() - 1) - 'a';
+        // 如果已选中的最后一个字符，在后续字符串中没有了，就不能再删除了。
         if (count[lastIdx] == 0) {
           break;
         }
+        // 否则，删除掉。后面还可以再加进来
         chars.deleteCharAt(chars.length() - 1);
         visited[lastIdx] = false;
       }

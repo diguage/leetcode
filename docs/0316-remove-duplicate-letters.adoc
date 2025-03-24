@@ -1,25 +1,28 @@
 [#0316-remove-duplicate-letters]
-= 316. Remove Duplicate Letters
+= 316. 去除重复字母
 
-{leetcode}/problems/remove-duplicate-letters/[LeetCode - Remove Duplicate Letters^]
+https://leetcode.cn/problems/remove-duplicate-letters/[LeetCode - 316. 去除重复字母 ^]
 
-Given a string which contains only lowercase letters, remove duplicate letters so that every letter appears once and only once. You must make sure your result is the smallest in lexicographical order among all possible results.
+给你一个字符串 `s`，请你去除字符串中重复的字母，使得每个字母只出现一次。需保证 *返回结果的字典序最小*（要求不能打乱其他字符的相对位置）。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* `"bcabc"`
-*Output:* `"abc"`
-----
+....
+输入：s = "bcabc"
+输出："abc"
+....
 
-*Example 2:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* `"cbacdcbc"`
-*Output:* `"acdb"`
-----
+....
+输入：s = "cbacdcbc"
+输出："acdb"
+....
+
+*提示：*
+
+* `1 \<= s.length \<= 10^4^`
+* `s` 由小写英文字母组成
 
 == 思路分析
 
@@ -37,14 +40,14 @@ include::{sourcedir}/_0316_RemoveDuplicateLetters.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0316_RemoveDuplicateLetters_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0316_RemoveDuplicateLetters_2.java[tag=answer]
+----
+--
 ====
 
 
