@@ -38,31 +38,31 @@ include::0000-07-fast-slow-pointers.adoc[leveloffset=+1]
 
 include::0000-08-quickselect.adoc[leveloffset=+1]
 
-include::0000-08-sliding-window.adoc[leveloffset=+1]
+include::0000-09-sliding-window.adoc[leveloffset=+1]
 
-include::0000-09-monotonic-stack.adoc[leveloffset=+1]
+include::0000-10-monotonic-stack.adoc[leveloffset=+1]
 
-include::0000-10-top-k-elements.adoc[leveloffset=+1]
+include::0000-11-top-k-elements.adoc[leveloffset=+1]
 
-include::0000-11-cyclic-sort.adoc[leveloffset=+1]
+include::0000-12-cyclic-sort.adoc[leveloffset=+1]
 
-include::0000-12-two-heaps.adoc[leveloffset=+1]
+include::0000-13-two-heaps.adoc[leveloffset=+1]
 
-include::0000-13-k-way-merge.adoc[leveloffset=+1]
+include::0000-14-k-way-merge.adoc[leveloffset=+1]
 
-include::0000-14-breadth-first-search.adoc[leveloffset=+1]
+include::0000-15-breadth-first-search.adoc[leveloffset=+1]
 
-include::0000-15-depth-first-search.adoc[leveloffset=+1]
+include::0000-16-depth-first-search.adoc[leveloffset=+1]
 
-include::0000-16-trie.adoc[leveloffset=+1]
+include::0000-17-trie.adoc[leveloffset=+1]
 
-include::0000-17-union-find-set.adoc[leveloffset=+1]
+include::0000-18-union-find-set.adoc[leveloffset=+1]
 
-include::0000-18-topological-sort.adoc[leveloffset=+1]
+include::0000-19-topological-sort.adoc[leveloffset=+1]
 
-include::0000-19-brute-force.adoc[leveloffset=+1]
+include::0000-20-brute-force.adoc[leveloffset=+1]
 
-include::0000-20-decrease-and-conquer.adoc[leveloffset=+1]
+include::0000-21-decrease-and-conquer.adoc[leveloffset=+1]
 
 include::0000-21-divide-and-conquer.adoc[leveloffset=+1]
 

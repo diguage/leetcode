@@ -52,7 +52,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1: Palindrome LinkedList (medium)
 .. Problem Challenge 2: Rearrange a LinkedList (medium)
 .. Problem Challenge 3: Cycle in a Circular Array (hard)
-. xref:0000-08-sliding-window.adoc[Sliding Window 滑动窗口]
+. xref:0000-09-sliding-window.adoc[Sliding Window 滑动窗口]
 .. Maximum Sum Subarray of Size K  (easy)
 .. Smallest Subarray With a Greater Sum (easy)
 .. Longest Substring with K Distinct Characters (medium)
@@ -71,7 +71,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1: Minimum Meeting Rooms (hard)
 .. Problem Challenge 2: Maximum CPU Load (hard)
 .. Problem Challenge 3: Employee Free Time (hard)
-. xref:0000-11-cyclic-sort.adoc[Cyclic Sort 循环排序]
+. xref:0000-12-cyclic-sort.adoc[Cyclic Sort 循环排序]
 .. Cyclic Sort (easy)
 .. Find the Missing Number (easy)
 .. Find all Missing Numbers (easy)
@@ -96,7 +96,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem 4: Next Greater Element
 .. Problem 5: Sorting a Stack
 .. Problem 6: Simplify Path
-. xref:0000-09-monotonic-stack.adoc[Monotonic Stack 单调栈]
+. xref:0000-10-monotonic-stack.adoc[Monotonic Stack 单调栈]
 .. Remove Nodes From Linked List (medium)
 .. Remove All Adjacent Duplicates In String (easy)
 .. Next Greater Element (easy)
@@ -111,7 +111,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem 3: Maximum Number of Balloons (easy)
 .. Problem 4: Longest Palindrome(easy)
 .. Problem 5: Ransom Note (easy)
-. xref:0000-14-breadth-first-search.adoc[Breadth First Search 广度优先搜索]
+. xref:0000-15-breadth-first-search.adoc[Breadth First Search 广度优先搜索]
 .. Binary Tree Level Order Traversal (easy)
 .. Reverse Level Order Traversal (easy)
 .. Zigzag Traversal (medium)
@@ -121,7 +121,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Connect Level Order Siblings (medium)
 .. Problem Challenge 1: Connect All Level Order Siblings (medium)
 .. Problem Challenge 2: Right View of a Binary Tree (easy)
-. xref:0000-15-depth-first-search.adoc[Depth First Search 深度优先搜索]
+. xref:0000-16-depth-first-search.adoc[Depth First Search 深度优先搜索]
 .. Binary Tree Path Sum (easy)
 .. All Paths for a Sum (medium)
 .. Sum of Path Numbers (medium)
@@ -145,7 +145,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1 (easy)
 .. Problem Challenge 2 (medium)
 .. Problem Challenge 3 (medium)
-. xref:0000-12-two-heaps.adoc[Two Heaps 双堆]
+. xref:0000-13-two-heaps.adoc[Two Heaps 双堆]
 .. Find the Median of a Number Stream (medium)
 .. Sliding Window Median (hard)
 .. Maximize Capital (hard)
@@ -176,7 +176,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Two Single Numbers (medium)
 .. Complement of Base 10 Number (medium)
 .. Problem Challenge 1: Flip and Invert an Image (hard)
-. xref:0000-10-top-k-elements.adoc[Top 'K' Elements 顶端 K 元素]
+. xref:0000-11-top-k-elements.adoc[Top 'K' Elements 顶端 K 元素]
 .. Top 'K' Numbers (easy)
 .. Kth Smallest Number (easy)
 .. 'K' Closest Points to the Origin (easy)
@@ -211,13 +211,13 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Factor Combinations (medium)
 .. Split a String Into the Max Number of Unique Substrings (medium)
 .. Sudoku Solver  (hard)
-. xref:0000-16-trie.adoc[Trie 前缀树]
+. xref:0000-17-trie.adoc[Trie 前缀树]
 .. Implement Trie (Prefix Tree) (medium)
 .. Index Pairs of a String (easy)
 .. Design Add and Search Words Data Structure (medium)
 .. Extra Characters in a String (medium)
 .. Search Suggestions System (medium)
-. xref:0000-18-topological-sort.adoc[Topological Sort (Graph) 拓扑排序]
+. xref:0000-19-topological-sort.adoc[Topological Sort (Graph) 拓扑排序]
 .. Topological Sort (medium)
 .. Tasks Scheduling (medium)
 .. Tasks Scheduling Order (medium)
@@ -225,7 +225,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Alien Dictionary (hard)
 .. Problem Challenge 1: Reconstructing a Sequence (hard)
 .. Problem Challenge 2: Minimum Height Trees (hard)
-. xref:0000-17-union-find-set.adoc[Union Find Set 查并集]
+. xref:0000-18-union-find-set.adoc[Union Find Set 查并集]
 .. Redundant Connection (medium)
 .. Number of Provinces (medium)
 .. Is Graph Bipartite? (medium)
@@ -248,7 +248,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Same Tree (medium)
 .. Invert Binary Tree (medium)
 .. Binary Search Tree Iterator (medium)
-. xref:0000-13-k-way-merge.adoc[K-way merge 多路归并]
+. xref:0000-14-k-way-merge.adoc[K-way merge 多路归并]
 
 
 == 参考资料

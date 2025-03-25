@@ -1,4 +1,4 @@
-[#0000-15-depth-first-search]
+[#0000-16-depth-first-search]
 = Depth First Search 深度优先搜索
 
 == Tree Depth First Search，树上的DFS
