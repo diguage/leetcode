@@ -41,6 +41,9 @@ public class _0347_TopKFrequentElements {
      * Memory Usage: 41.2 MB, less than 31.89% of Java online submissions for Top K Frequent Elements.
      *
      * Copy from: https://leetcode.com/problems/top-k-frequent-elements/discuss/81602/Java-O(n)-Solution-Bucket-Sort[Java O(n) Solution - Bucket Sort - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-11 00:04
      */
     public List<Integer> topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> numToCountMap = new HashMap<>();
