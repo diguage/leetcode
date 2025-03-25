@@ -1,0 +1,6 @@
+[#0000-08-quickselect]
+= QuickSelect 快速选择
+
+== 经典题目
+
+. xref:0215-kth-largest-element-in-an-array.adoc[215. Kth Largest Element in an Array]

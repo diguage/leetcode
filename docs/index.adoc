@@ -36,6 +36,8 @@ include::0000-06-two-pointer.adoc[leveloffset=+1]
 
 include::0000-07-fast-slow-pointers.adoc[leveloffset=+1]
 
+include::0000-08-quickselect.adoc[leveloffset=+1]
+
 include::0000-08-sliding-window.adoc[leveloffset=+1]
 
 include::0000-09-monotonic-stack.adoc[leveloffset=+1]

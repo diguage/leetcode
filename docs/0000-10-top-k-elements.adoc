@@ -19,7 +19,6 @@
 
 == 经典题目
 
-. xref:0215-kth-largest-element-in-an-array.adoc[215. Kth Largest Element in an Array]
 . xref:0347-top-k-frequent-elements.adoc[347. Top K Frequent Elements]
 . xref:0358-rearrange-string-k-distance-apart.adoc[358. Rearrange String k Distance Apart]
 . xref:0451-sort-characters-by-frequency.adoc[451. Sort Characters By Frequency]
