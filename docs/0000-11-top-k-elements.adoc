@@ -1,5 +1,5 @@
 [#0000-11-top-k-elements]
-= Top `K` Elements 顶端 K 元素
+= Top `K` Elements Top K 元素
 
 任何让我们求解最大/最小/最频繁的K个元素的题，都遵循这种模式。
 
