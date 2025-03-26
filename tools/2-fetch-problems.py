@@ -48,12 +48,23 @@ def fetch_problem(title_slug):
     else:
         return None
 
+# 如果是锁定题目，则 data.question.content 为 null；
+def fetch_translations(title_slug):
+    url = 'https://leetcode.cn/graphql/'
+    headers = {'content-type': 'application/json'}
+    data = '{"query":"\n    query questionTranslations($titleSlug: String!) {\n  question(titleSlug: $titleSlug) {\n    translatedTitle\n    translatedContent\n  }\n}\n    ","variables":{"titleSlug":"%s"},"operationName":"questionTranslations"}' % title_slug
+    response = requests.post(url, headers=headers, data=data)
+    if response.status_code == 200:
+        return response.text
+    else:
+        return None
+
 problem_list = get_problems()
 
 for problem in problem_list:
     id = problem["stat"]["frontend_question_id"]
     titleSlug = problem["stat"]["question__title_slug"]
-    filename = "%04d-%s.adoc"%(problem["stat"]["frontend_question_id"], titleSlug)
+    filename = "%04d-%s.adoc"%(id, titleSlug)
 
     filepath = "../docs/"+filename
     problem_file = filepath+".json"
