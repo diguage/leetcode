@@ -70,6 +70,11 @@ endif::[]
 |{doc_base_url}/0347-top-k-frequent-elements.adoc[题解]
 |✅ Top K 问题，优先队列；桶排序
 
+|{counter:codes2503}
+|{leetcode_base_url}/kth-largest-element-in-an-array/[215. Kth Largest Element in an Array^]
+|{doc_base_url}/0215-kth-largest-element-in-an-array.adoc[题解]
+|⭕️ 快速选择，想清楚边界情况！
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

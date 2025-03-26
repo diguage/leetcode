@@ -1,6 +1,21 @@
 [#0000-08-quickselect]
 = QuickSelect 快速选择
 
+快速选择起源于快排算法。在快排算法中，把元素根据基准元素分成左右两部分，一边的元素小于基准元素，另外一个的元素大于等于基准元素，再对两边的元素递归处理，最终得到有序结果。受此启发，在将元素根据基准元素分成左右两部分后，这里假设，左边小于基准元素，右边大于等于基准元素，那么会有如下三种情况：
+
+. 当前基准元素所在位置正好是 K，正好是所求结果，直接返回；
+. 当前基准元素所在位置小于 K，那么 K 位置在当前基准元素的右边；
+. 当前基准元素所在位置大于 K，那么 K 位置在当前基准元素的左边；
+
+所以，该模式不仅适用于求第 K 个之最元素，也适用于求“Top K 问题”。
+
+
 == 经典题目
 
 . xref:0215-kth-largest-element-in-an-array.adoc[215. Kth Largest Element in an Array]
+. xref:0324-wiggle-sort-ii.adoc[324. Wiggle Sort II]
+. xref:0347-top-k-frequent-elements.adoc[347. 前 K 个高频元素]
+. xref:0973-k-closest-points-to-origin.adoc[973. K Closest Points to Origin]
+. xref:1738-find-kth-largest-xor-coordinate-value.adoc[1738. Find Kth Largest XOR Coordinate Value]
+. xref:1985-find-the-kth-largest-integer-in-the-array.adoc[1985. Find the Kth Largest Integer in the Array]
+. xref:2343-query-kth-smallest-trimmed-number.adoc[2343. Query Kth Smallest Trimmed Number]
