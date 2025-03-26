@@ -68,7 +68,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/top-k-frequent-elements/[347. Top K Frequent Elements^]
 |{doc_base_url}/0347-top-k-frequent-elements.adoc[题解]
-|✅ Top K 问题，优先队列
+|✅ Top K 问题，优先队列；桶排序
 
 |===
 

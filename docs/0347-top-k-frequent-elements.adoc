@@ -56,6 +56,15 @@ include::{sourcedir}/_0347_TopKFrequentElements.java[tag=answer]
 include::{sourcedir}/_0347_TopKFrequentElements_2.java[tag=answer]
 ----
 --
+
+二刷（桶排序）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0347_TopKFrequentElements_21.java[tag=answer]
+----
+--
 ====
 
 
