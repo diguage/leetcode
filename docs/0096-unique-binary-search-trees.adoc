@@ -1,26 +1,33 @@
 [#0096-unique-binary-search-trees]
-= 96. Unique Binary Search Trees
+= 96. 不同的二叉搜索树
 
-:stem: latexmath
+https://leetcode.cn/problems/unique-binary-search-trees/[LeetCode - 96. 不同的二叉搜索树 ^]
 
-{leetcode}/problems/unique-binary-search-trees/[LeetCode - Unique Binary Search Trees^]
+给你一个整数 `n` ，求恰由 `n` 个节点组成且节点值从 `1` 到 `n` 互不相同的 *二叉搜索树* 有多少种？返回满足题意的二叉搜索树的种数。
 
-Given _n_, how many structurally unique *BST's* (binary search trees) that store values __1 ... n__?
+*示例 1：*
 
-.Example:
-[source]
-----
-Input: 3
-Output: 5
-Explanation:
-Given n = 3, there are a total of 5 unique BST's:
+image::images/0096-00.jpg[{image_attr}]
 
-   1         3     3      2      1
-    \       /     /      / \      \
-     3     2     1      1   3      2
-    /     /       \                 \
-   2     1         2                 3
-----
+....
+输入：n = 3
+输出：5
+....
+
+*示例 2：*
+
+....
+输入：n = 1
+输出：1
+....
+
+
+*提示：*
+
+* `1 \<= n \<= 19`
+
+
+== 思路分析
 
 给定一个有序序列 `1 ... n`，为了根据序列构建一棵二叉搜索树。我们可以遍历每个数字 `i`，将该数字作为树根，`1 ... (i-1)` 序列将成为左子树，`(i+1) ... n` 序列将成为右子树。于是，我们可以递归地从子序列构建子树。
 
@@ -77,40 +84,32 @@ C_{0}=1, \quad C_{n+1}=\frac{2(2 n+1)}{n+2} C_{n}
 
 附加题：参考资料显示，关于 Catalan number 有好多好玩的东西可以把玩。查资料把玩把玩。
 
+
+[[src-0096]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0096_UniqueBinarySearchTrees.java[tag=answer]
+----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0096_UniqueBinarySearchTrees_2.java[tag=answer]
+----
+--
+====
+
+
 == 参考资料
 
 . https://en.wikipedia.org/wiki/Catalan_number[Catalan number - Wikipedia^]
 . https://leetcode-cn.com/problems/unique-binary-search-trees/solution/bu-tong-de-er-cha-sou-suo-shu-by-leetcode/[不同的二叉搜索树 - 不同的二叉搜索树 - 力扣（LeetCode）^]
 . https://blog.csdn.net/Hackbuteer1/article/details/7450250[Catalan数——卡特兰数_Hackbuteer1的专栏-CSDN博客^]
-
-Given _n_, how many structurally unique *BST's* (binary search trees) that store values 1 ... _n_?
-
-*Example:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 3
-*Output:* 5
-*Explanation:
-*Given _n_ = 3, there are a total of 5 unique BST's:
-
-   1         3     3      2      1
-    \       /     /      / \      \
-     3     2     1      1   3      2
-    /     /       \                 \
-   2     1         2                 3
-----
-
-
-[[src-0096]]
-[{java_src_attr}]
-----
-include::{sourcedir}/_0096_UniqueBinarySearchTrees.java[tag=answer]
-----
-
-
-[{java_src_attr}]
-----
-include::{sourcedir}/_0096_UniqueBinarySearchTrees_2.java[tag=answer]
-----
-
