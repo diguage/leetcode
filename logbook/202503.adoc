@@ -75,6 +75,11 @@ endif::[]
 |{doc_base_url}/0215-kth-largest-element-in-an-array.adoc[题解]
 |⭕️ 快速选择，想清楚边界情况！
 
+|{counter:codes2503}
+|{leetcode_base_url}/first-missing-positive/[41. First Missing Positive^]
+|{doc_base_url}/0041-first-missing-positive.adoc[题解]
+|⭕️ 循环排序，看了答案，自己写出来了。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

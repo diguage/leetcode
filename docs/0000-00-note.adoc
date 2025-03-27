@@ -260,3 +260,6 @@ image::images/quick-sort-01.gif[{image_attr}]
 . https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews[Several Coding Patterns for Solving Data Structures and Algorithms Problems during Interviews^] -- 多种解题范式总结
 . https://leetcode.cn/problems/climbing-stairs/solutions/2560716/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-7zm1/?envType=study-plan-v2&envId=selected-coding-interview[70. 爬楼梯 - 教你一步步思考动态规划：从记忆化搜索到递推^]
 . https://leetcode.cn/circle/discuss/xV68NV/[不同层次的面试算法学习规划^]
+. https://www.zhihu.com/question/36738189/answer/908664455[LeetCode按照怎样的顺序来刷题比较好？]
+. https://www.educative.io/courses/grokking-coding-interview[Grokking the Coding Interview Patterns^]
+. https://www.educative.io/courses/grokking-the-system-design-interview[Grokking the Modern System Design Interview^] -- 据说这个系统设计的题目也非常好！
