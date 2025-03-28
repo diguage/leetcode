@@ -80,6 +80,11 @@ endif::[]
 |{doc_base_url}/0041-first-missing-positive.adoc[题解]
 |⭕️ 循环排序，看了答案，自己写出来了。
 
+|{counter:codes2503}
+|{leetcode_base_url}/find-median-from-data-stream/[295. Find Median from Data Stream^]
+|{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
+|⭕️ 双堆，思路理解，写代码却有很多问题。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
