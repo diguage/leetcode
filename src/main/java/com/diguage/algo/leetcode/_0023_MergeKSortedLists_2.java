@@ -30,6 +30,11 @@ import java.util.PriorityQueue;
  */
 public class _0023_MergeKSortedLists_2 {
   // tag::answer[]
+
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-07-02 20:13:49
+   */
   public ListNode mergeKLists(ListNode[] lists) {
     if (Objects.isNull(lists) || lists.length == 0) {
       return null;

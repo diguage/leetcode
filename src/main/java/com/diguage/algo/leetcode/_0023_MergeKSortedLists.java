@@ -31,6 +31,10 @@ import static com.diguage.util.ListNodes.*;
 public class _0023_MergeKSortedLists {
   // tag::answer[]
 
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2019-10-22 12:40:12
+   */
   public ListNode mergeKLists(ListNode[] lists) {
     PriorityQueue<ListNode> heap = new PriorityQueue<>((l1, l2) -> l1.val - l2.val);
     for (ListNode l : lists) {

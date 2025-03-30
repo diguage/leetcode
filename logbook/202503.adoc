@@ -85,6 +85,11 @@ endif::[]
 |{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
 |⭕️ 双堆，思路理解，写代码却有很多问题。
 
+|{counter:codes2503}
+|{leetcode_base_url}/merge-k-sorted-lists/[23. Merge k Sorted Lists^]
+|{doc_base_url}/0023-merge-k-sorted-lists.adoc[题解]
+|✅ 多路归并
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
