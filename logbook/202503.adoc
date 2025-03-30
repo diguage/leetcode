@@ -90,6 +90,11 @@ endif::[]
 |{doc_base_url}/0023-merge-k-sorted-lists.adoc[题解]
 |✅ 多路归并
 
+|{counter:codes2503}
+|{leetcode_base_url}/binary-tree-level-order-traversal/[102. Binary Tree Level Order Traversal^]
+|{doc_base_url}/0102-binary-tree-level-order-traversal.adoc[题解]
+|✅ 广度优先搜索
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
