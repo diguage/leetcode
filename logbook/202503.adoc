@@ -105,6 +105,11 @@ endif::[]
 |{doc_base_url}/0003-longest-substring-without-repeating-characters.adoc[题解]
 |✅ 滑动窗口
 
+|{counter:codes2503}
+|{leetcode_base_url}/lru-cache/[146. LRU 缓存^]
+|{doc_base_url}/0146-lru-cache.adoc[题解]
+|✅ 链表前后指针操作
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

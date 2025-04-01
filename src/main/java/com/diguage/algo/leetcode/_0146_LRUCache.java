@@ -47,6 +47,9 @@ public class _0146_LRUCache {
      * Memory Usage: 50.8 MB, less than 96.93% of Java online submissions for LRU Cache.
      *
      * Copy from: https://leetcode-cn.com/problems/lru-cache/solution/lru-huan-cun-ji-zhi-by-leetcode/[LRU 缓存机制 - LRU缓存机制 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-26 10:49
      */
     class LRUCache {
         private Map<Integer, DLinkedNode> data;
@@ -155,6 +158,8 @@ public class _0146_LRUCache {
         }
     }
 
+  // end::answer[]
+
     private void test() {
         LRUCache solution = new LRUCache(2);
         solution.put(1, 1);
@@ -172,9 +177,6 @@ public class _0146_LRUCache {
         int r5 = solution.get(4);
         System.out.println((r5 == 4) + " : " + r5);
     }
-
-  // end::answer[]
-
 
     public static void main(String[] args) {
         _0146_LRUCache solution = new _0146_LRUCache();
