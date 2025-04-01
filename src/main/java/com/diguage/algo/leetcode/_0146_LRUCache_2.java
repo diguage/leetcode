@@ -5,7 +5,6 @@ import java.util.Map;
 
 public class _0146_LRUCache_2 {
   // tag::answer[]
-
   /**
    * 最近最少使用缓存
    *
@@ -15,8 +14,8 @@ public class _0146_LRUCache_2 {
   class LRUCache {
 
     private Map<Integer, Node<Integer>> data;
-    private Node<Integer> head;
-    private Node<Integer> tail;
+    private final Node<Integer> head;
+    private final Node<Integer> tail;
     private int capacity;
 
     public LRUCache(int capacity) {
@@ -29,25 +28,12 @@ public class _0146_LRUCache_2 {
     }
 
     public int get(int key) {
-      Node<Integer> node = data.getOrDefault(key, null);
+      Node<Integer> node = data.get(key);
       if (node == null) {
         return -1;
       }
       siftUp(node);
       return node.item;
-    }
-
-    private void siftUp(Node<Integer> node) {
-      // 将当前访问节点放在链表最前面
-      node.prev.next = node.next;
-      node.next.prev = node.prev;
-
-      node.next = head.next;
-      node.prev = head;
-
-      head.next.prev = node;
-      head.next = node;
-
     }
 
     public void put(int key, int value) {
@@ -57,21 +43,42 @@ public class _0146_LRUCache_2 {
         node.item = value;
         siftUp(node);
       } else {
-        node = new Node<>(head, key, value, head.next);
+        node = new Node<>(key, value);
         data.put(key, node);
-        head.next.prev = node;
-        head.next = node;
+        addNode(node);
       }
       if (data.size() > capacity) {
         Node<Integer> removing = tail.prev;
-        removing.prev.next = tail;
-        tail.prev = removing.prev;
-
-        removing.prev = null;
-        removing.next = null;
-
+        removeNode(removing);
         data.remove(removing.key);
       }
+    }
+
+    private void siftUp(Node<Integer> node) {
+      // 如果是第一个节点，则不需要处理
+      if (head == node.prev) {
+        return;
+      }
+      // 将当前访问节点放在链表最前面
+      // 先删除
+      removeNode(node);
+      // 再添加
+      addNode(node);
+    }
+
+    private void addNode(Node<Integer> node) {
+      node.next = head.next;
+      node.prev = head;
+
+      head.next.prev = node;
+      head.next = node;
+    }
+
+    private void removeNode(Node<Integer> node) {
+      node.prev.next = node.next;
+      node.next.prev = node.prev;
+      node.prev = null;
+      node.next = null;
     }
 
     static class Node<E> {
@@ -83,11 +90,9 @@ public class _0146_LRUCache_2 {
       Node() {
       }
 
-      Node(Node<E> prev, E key, E element, Node<E> next) {
+      Node(E key, E element) {
         this.key = key;
         this.item = element;
-        this.next = next;
-        this.prev = prev;
       }
     }
   }
