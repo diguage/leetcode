@@ -56,47 +56,47 @@ endif::[]
 |✅ 快慢指针
 
 |{counter:codes2503}
-|{leetcode_base_url}/minimum-window-substring/[76. Minimum Window Substring^]
+|{leetcode_base_url}/minimum-window-substring/[76. 最小覆盖子串^]
 |{doc_base_url}/0076-minimum-window-substring.adoc[题解]
 |⭕️ 滑动窗口，一定注意细节的处理。
 
 |{counter:codes2503}
-|{leetcode_base_url}/remove-duplicate-letters/[316. Remove Duplicate Letters^]
+|{leetcode_base_url}/remove-duplicate-letters/[316. 去除重复字母^]
 |{doc_base_url}/0316-remove-duplicate-letters.adoc[题解]
 |❌ 完全想不到单调栈！
 
 |{counter:codes2503}
-|{leetcode_base_url}/top-k-frequent-elements/[347. Top K Frequent Elements^]
+|{leetcode_base_url}/top-k-frequent-elements/[347. 前 K 个高频元素^]
 |{doc_base_url}/0347-top-k-frequent-elements.adoc[题解]
 |✅ Top K 问题，优先队列；桶排序
 
 |{counter:codes2503}
-|{leetcode_base_url}/kth-largest-element-in-an-array/[215. Kth Largest Element in an Array^]
+|{leetcode_base_url}/kth-largest-element-in-an-array/[215. 数组中的第K个最大元素^]
 |{doc_base_url}/0215-kth-largest-element-in-an-array.adoc[题解]
 |⭕️ 快速选择，想清楚边界情况！
 
 |{counter:codes2503}
-|{leetcode_base_url}/first-missing-positive/[41. First Missing Positive^]
+|{leetcode_base_url}/first-missing-positive/[41. 缺失的第一个正数^]
 |{doc_base_url}/0041-first-missing-positive.adoc[题解]
 |⭕️ 循环排序，看了答案，自己写出来了。
 
 |{counter:codes2503}
-|{leetcode_base_url}/find-median-from-data-stream/[295. Find Median from Data Stream^]
+|{leetcode_base_url}/find-median-from-data-stream/[295. 数据流的中位数^]
 |{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
 |⭕️ 双堆，思路理解，写代码却有很多问题。
 
 |{counter:codes2503}
-|{leetcode_base_url}/merge-k-sorted-lists/[23. Merge k Sorted Lists^]
+|{leetcode_base_url}/merge-k-sorted-lists/[23. 合并 K 个升序链表^]
 |{doc_base_url}/0023-merge-k-sorted-lists.adoc[题解]
 |✅ 多路归并
 
 |{counter:codes2503}
-|{leetcode_base_url}/binary-tree-level-order-traversal/[102. Binary Tree Level Order Traversal^]
+|{leetcode_base_url}/binary-tree-level-order-traversal/[102. 二叉树的层序遍历^]
 |{doc_base_url}/0102-binary-tree-level-order-traversal.adoc[题解]
 |✅ 广度优先搜索
 
 |{counter:codes2503}
-|{leetcode_base_url}/binary-tree-maximum-path-sum/[124. Binary Tree Maximum Path Sum^]
+|{leetcode_base_url}/binary-tree-maximum-path-sum/[124. 二叉树中的最大路径和^]
 |{doc_base_url}/0124-binary-tree-maximum-path-sum.adoc[题解]
 |⭕️ 深度优先搜索，注意处理负数情况
 

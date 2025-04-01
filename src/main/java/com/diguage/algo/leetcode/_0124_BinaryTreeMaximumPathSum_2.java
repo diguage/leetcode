@@ -19,6 +19,8 @@ public class _0124_BinaryTreeMaximumPathSum_2 {
     if (root == null) {
       return 0;
     }
+    // 这里可以利用 Math.max(0, dfs(root.right)) 简化代码。
+    // 但是，不简化可以击败 100%，简化后如一刷解法，却只能击败 49.84%
     int left = dfs(root.left);
     int right = dfs(root.right);
     // 对于左右子树，这里有如下几种组合
