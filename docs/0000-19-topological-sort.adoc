@@ -33,13 +33,38 @@
 . xref:0207-course-schedule.adoc[207. Course Schedule]
 . xref:0210-course-schedule-ii.adoc[210. Course Schedule II]
 . xref:0269-alien-dictionary.adoc[269. Alien Dictionary]
-. xref:0444-sequence-reconstruction.adoc[444. Sequence Reconstruction]
 . xref:0310-minimum-height-trees.adoc[310. Minimum Height Trees]
-
-
-Topological Sort (medium)
-
-All Tasks Scheduling Orders (hard)
+. xref:0329-longest-increasing-path-in-a-matrix.adoc[329. Longest Increasing Path in a Matrix]
+. xref:0444-sequence-reconstruction.adoc[444. Sequence Reconstruction]
+. xref:0631-design-excel-sum-formula.adoc[631. Design Excel Sum Formula]
+. xref:0802-find-eventual-safe-states.adoc[802. Find Eventual Safe States]
+. xref:0851-loud-and-rich.adoc[851. Loud and Rich]
+. xref:0913-cat-and-mouse.adoc[913. Cat and Mouse]
+. xref:1059-all-paths-from-source-lead-to-destination.adoc[1059. All Paths from Source Lead to Destination]
+. xref:1136-parallel-courses.adoc[1136. Parallel Courses]
+. xref:1203-sort-items-by-groups-respecting-dependencies.adoc[1203. Sort Items by Groups Respecting Dependencies]
+. xref:1245-tree-diameter.adoc[1245. Tree Diameter]
+. xref:1462-course-schedule-iv.adoc[1462. Course Schedule IV]
+. xref:1591-strange-printer-ii.adoc[1591. Strange Printer II]
+. xref:1632-rank-transform-of-a-matrix.adoc[1632. Rank Transform of a Matrix]
+. xref:1728-cat-and-mouse-ii.adoc[1728. Cat and Mouse II]
+. xref:1786-number-of-restricted-paths-from-first-to-last-node.adoc[1786. Number of Restricted Paths From First to Last Node]
+. xref:1857-largest-color-value-in-a-directed-graph.adoc[1857. Largest Color Value in a Directed Graph]
+. xref:1916-count-ways-to-build-rooms-in-an-ant-colony.adoc[1916. Count Ways to Build Rooms in an Ant Colony]
+. xref:1976-number-of-ways-to-arrive-at-destination.adoc[1976. Number of Ways to Arrive at Destination]
+. xref:2050-parallel-courses-iii.adoc[2050. Parallel Courses III]
+. xref:2115-find-all-possible-recipes-from-given-supplies.adoc[2115. Find All Possible Recipes from Given Supplies]
+. xref:2127-maximum-employees-to-be-invited-to-a-meeting.adoc[2127. Maximum Employees to Be Invited to a Meeting]
+. xref:2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph.adoc[2192. All Ancestors of a Node in a Directed Acyclic Graph]
+. xref:2246-longest-path-with-different-adjacent-characters.adoc[2246. Longest Path With Different Adjacent Characters]
+. xref:2328-number-of-increasing-paths-in-a-grid.adoc[2328. Number of Increasing Paths in a Grid]
+. xref:2360-longest-cycle-in-a-graph.adoc[2360. Longest Cycle in a Graph]
+. xref:2371-minimize-maximum-value-in-a-grid.adoc[2371. Minimize Maximum Value in a Grid]
+. xref:2392-build-a-matrix-with-conditions.adoc[2392. Build a Matrix With Conditions]
+. xref:2603-collect-coins-in-a-tree.adoc[2603. Collect Coins in a Tree]
+. xref:3383-minimum-runes-to-add-to-cast-spell.adoc[3383. Minimum Runes to Add to Cast Spell]
+. xref:3435-frequencies-of-shortest-supersequences.adoc[3435. Frequencies of Shortest Supersequences]
+. xref:3481-apply-substitutions.adoc[3481. Apply Substitutions]
 
 == 参考资料
 
