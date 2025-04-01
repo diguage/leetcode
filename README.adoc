@@ -894,12 +894,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Hard
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/binary-tree-maximum-path-sum/[124. Binary Tree Maximum Path Sum^]
-//|{source_base_url}/_0124_BinaryTreeMaximumPathSum.java[Java]
-//|{doc_base_url}/0124-binary-tree-maximum-path-sum.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/binary-tree-maximum-path-sum/[124. Binary Tree Maximum Path Sum^]
+|{source_base_url}/_0124_BinaryTreeMaximumPathSum.java[Java]
+|{doc_base_url}/0124-binary-tree-maximum-path-sum.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/valid-palindrome/[125. Valid Palindrome^]

@@ -95,6 +95,11 @@ endif::[]
 |{doc_base_url}/0102-binary-tree-level-order-traversal.adoc[题解]
 |✅ 广度优先搜索
 
+|{counter:codes2503}
+|{leetcode_base_url}/binary-tree-maximum-path-sum/[124. Binary Tree Maximum Path Sum^]
+|{doc_base_url}/0124-binary-tree-maximum-path-sum.adoc[题解]
+|⭕️ 深度优先搜索，注意处理负数情况
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

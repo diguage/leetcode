@@ -13,7 +13,10 @@ import static com.diguage.util.TreeNodes.buildTree;
  */
 public class _0124_BinaryTreeMaximumPathSum {
   // tag::answer[]
-
+    /**
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-04-01 23:09
+     */
     private int result = Integer.MIN_VALUE;
 
     public int maxPathSum(TreeNode root) {
