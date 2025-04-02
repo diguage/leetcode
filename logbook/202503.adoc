@@ -115,6 +115,11 @@ endif::[]
 |{doc_base_url}/0206-reverse-linked-list.adoc[题解]
 |✅ 两种解法：递归+迭代
 
+|{counter:codes2503}
+|{leetcode_base_url}/kth-largest-element-in-an-array/[215. 数组中的第K个最大元素^]
+|{doc_base_url}/0215-kth-largest-element-in-an-array.adoc[题解]
+|✅ 快速选择
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
