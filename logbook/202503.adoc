@@ -62,7 +62,7 @@ endif::[]
 
 |{counter:codes2503}
 |{leetcode_base_url}/remove-duplicate-letters/[316. 去除重复字母^]
-|{doc_base_url}/0316-remove-duplicate-letters.adoc[题解]
+|{doc_base_url}/316. 去除重复字母[题解]
 |❌ 完全想不到单调栈！
 
 |{counter:codes2503}
@@ -119,6 +119,11 @@ endif::[]
 |{leetcode_base_url}/kth-largest-element-in-an-array/[215. 数组中的第K个最大元素^]
 |{doc_base_url}/0215-kth-largest-element-in-an-array.adoc[题解]
 |✅ 快速选择
+
+|{counter:codes2503}
+|{leetcode_base_url}/reverse-nodes-in-k-group/[25. K 个一组翻转链表^]
+|{doc_base_url}/0025-reverse-nodes-in-k-group.adoc[题解]
+|✅ 分段递归反转，在拼接
 
 |===
 

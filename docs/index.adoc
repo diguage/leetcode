@@ -126,7 +126,7 @@ include::0023-merge-k-sorted-lists.adoc[leveloffset=+1]
 
 include::0024-swap-nodes-in-pairs.adoc[leveloffset=+1]
 
-// include::0025-reverse-nodes-in-k-group.adoc[leveloffset=+1]
+include::0025-reverse-nodes-in-k-group.adoc[leveloffset=+1]
 
 include::0026-remove-duplicates-from-sorted-array.adoc[leveloffset=+1]
 

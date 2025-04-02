@@ -201,12 +201,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/reverse-nodes-in-k-group/[25. Reverse Nodes in k-Group^]
-//|{source_base_url}/_0025_ReverseNodesInKGroup.java[Java]
-//|{doc_base_url}/0025-reverse-nodes-in-k-group.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/reverse-nodes-in-k-group/[25. Reverse Nodes in k-Group^]
+|{source_base_url}/_0025_ReverseNodesInKGroup.java[Java]
+|{doc_base_url}/0025-reverse-nodes-in-k-group.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/remove-duplicates-from-sorted-array/[26. Remove Duplicates from Sorted Array^]
