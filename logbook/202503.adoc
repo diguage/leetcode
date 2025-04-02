@@ -110,6 +110,11 @@ endif::[]
 |{doc_base_url}/0146-lru-cache.adoc[题解]
 |✅ 链表前后指针操作
 
+|{counter:codes2503}
+|{leetcode_base_url}/reverse-linked-list/[206. 反转链表^]
+|{doc_base_url}/0206-reverse-linked-list.adoc[题解]
+|✅ 两种解法：递归+迭代
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

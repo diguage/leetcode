@@ -31,7 +31,7 @@ image:images/0206-01.jpg[{image_attr}]
 
 *提示：*
 
-* 链表中节点的数目范围是 `+[0, 5000]+`
+* 链表中节点的数目范围是 `[0, 5000]`
 * `+-5000 <= Node.val <= 5000+`
 
 
@@ -68,6 +68,23 @@ include::{sourcedir}/_0206_ReverseLinkedList_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0206_ReverseLinkedList_3.java[tag=answer]
+----
+
+四刷（递归）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0206_ReverseLinkedList_41.java[tag=answer]
+----
+--
+
+四刷（迭代）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0206_ReverseLinkedList_42.java[tag=answer]
 ----
 --
 ====
