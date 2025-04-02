@@ -37,6 +37,9 @@ public class _0208_ImplementTriePrefixTree {
      * Runtime: 69 ms, faster than 11.59% of Java online submissions for Implement Trie (Prefix Tree).
      *
      * Memory Usage: 62.6 MB, less than 5.77% of Java online submissions for Implement Trie (Prefix Tree).
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-26 19:47
      */
     class Trie {
         private int ALPHABET_SIZE = 26;

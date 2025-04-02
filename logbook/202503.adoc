@@ -125,6 +125,11 @@ endif::[]
 |{doc_base_url}/0025-reverse-nodes-in-k-group.adoc[题解]
 |✅ 分段递归反转，在拼接
 
+|{counter:codes2503}
+|{leetcode_base_url}/implement-trie-prefix-tree/[208. 实现 Trie (前缀树)^]
+|{doc_base_url}/0208-implement-trie-prefix-tree.adoc[题解]
+|✅ 竟然一次通过
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
