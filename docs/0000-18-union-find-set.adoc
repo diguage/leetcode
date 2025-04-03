@@ -1,5 +1,30 @@
 [#0000-18-union-find-set]
-= Union Find Set 查并集
+= Union Find Set 并查集
+
+并查集算法，英文是 Union-Find，是解决动态连通性（Dynamic Conectivity）问题的一种算法。动态连通性是计算机图论中的一种数据结构，动态维护图结构中相连信息。简单的说就是，图中各个节点之间是否相连、如何将两个节点连接，连接后还剩多少个连通分量。
+
+动态连通性其实可以抽象成给一幅图连线。假设用一个数组表示一堆节点，每个节点都是一个连通分量。初始化视图如下：
+
+image::images/union-find-1.png[title="并查集初始化",alt="并查集初始化",{image_attr}]
+
+并查集的一个重要操作是 `union(a, b)`，就是将节点 `a` 和节点 `b` 建立连接。如图所示：
+
+image::images/union-find-2.png[title="并查集合并",alt="并查集合并",{image_attr}]
+
+`union(a, b)` 还可以将已经建立的两个“子网”进行连接：
+
+image::images/union-find-3.png[title="并查集再合并",alt="并查集再合并",{image_attr}]
+
+并查集除了 `union`，还有一个重要操作是 `connnected(a, b)`。判断方法也很简单，从节点 `a` 和 `b` 开始，向上查找，直到两个节点的根节点，判断两个根节点是否相等即可判断两个节点是否已经连接。为了加快这个判断速度，可以对其进行“路径压缩”，直白点说，就是将所有树的节点，都直接指向根节点，这样只需要一步即可到达根节点。路径压缩如图所示：
+
+image::images/union-find-4.png[title="并查集路径压缩",alt="并查集路径压缩",{image_attr}]
+
+简单代码实现如下：
+
+[{java_src_attr}]
+----
+include::{labdir}/UnionFind.java[]
+----
 
 == 经典题目
 
@@ -94,3 +119,5 @@
 == 参考资料
 
 . https://leetcode.cn/problems/redundant-connection/solutions/372045/yi-wen-zhang-wo-bing-cha-ji-suan-fa-by-a-fei-8/[684. 冗余连接 - 一文掌握并查集算法^]
+. https://blog.csdn.net/qq_57469718/article/details/125416286[并查集(Union-Find) (图文详解)^]
+. https://www.cnblogs.com/gczr/p/12077934.html[Union-Find 并查集算法^]

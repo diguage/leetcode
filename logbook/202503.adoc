@@ -123,12 +123,17 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/reverse-nodes-in-k-group/[25. K 个一组翻转链表^]
 |{doc_base_url}/0025-reverse-nodes-in-k-group.adoc[题解]
-|✅ 分段递归反转，在拼接
+|✅ 分段递归反转，再拼接
 
 |{counter:codes2503}
 |{leetcode_base_url}/implement-trie-prefix-tree/[208. 实现 Trie (前缀树)^]
 |{doc_base_url}/0208-implement-trie-prefix-tree.adoc[题解]
-|✅ 竟然一次通过
+|✅ 前缀树，竟然一次通过
+
+|{counter:codes2503}
+|{leetcode_base_url}/number-of-provinces/[547. 省份数量]
+|{doc_base_url}/0547-number-of-provinces.adoc[题解]
+|✅ 并查集，竟然一次通过
 
 |===
 

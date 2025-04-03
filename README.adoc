@@ -3854,14 +3854,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0546-remove-boxes.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/friend-circles/[547. Friend Circles^]
-//|{source_base_url}/_0547_FriendCircles.java[Java]
-//|{doc_base_url}/0547-friend-circles.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/number-of-provinces/[547. 省份数量]
+|{source_base_url}/_0547_NumberOfProvinces.java[Java]
+|{doc_base_url}/0547-number-of-provinces.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/split-array-with-equal-sum/[548. Split Array with Equal Sum^]
 //|{source_base_url}/_0548_SplitArrayWithEqualSum.java[Java]

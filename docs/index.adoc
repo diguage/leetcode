@@ -1170,7 +1170,7 @@ include::0543-diameter-of-binary-tree.adoc[leveloffset=+1]
 
 // include::0546-remove-boxes.adoc[leveloffset=+1]
 
-// include::0547-friend-circles.adoc[leveloffset=+1]
+include::0547-number-of-provinces.adoc[leveloffset=+1]
 
 // include::0548-split-array-with-equal-sum.adoc[leveloffset=+1]
 

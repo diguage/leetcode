@@ -11,6 +11,7 @@
 :diagram_attr: format=svg,align="center",width=95%
 
 :sourcedir: {asciidoctorconfigdir}/../src/main/java/com/diguage/algo/leetcode
+:labdir: {asciidoctorconfigdir}/../src/test/java/com/diguage/labs
 :java_src_attr: source%nowrap,java,indent=0,linenums,subs="attributes,verbatim,quotes"
 
 :doc_base_url: {asciidoctorconfigdir}/../docs
