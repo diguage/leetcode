@@ -135,6 +135,11 @@ endif::[]
 |{doc_base_url}/0547-number-of-provinces.adoc[题解]
 |✅ 并查集，竟然一次通过
 
+|{counter:codes2503}
+|{leetcode_base_url}/3sum/[15. 3Sum^]
+|{doc_base_url}/0015-3sum.adoc[题解]
+|✅ 利用递归“降维”
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
