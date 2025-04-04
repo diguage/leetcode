@@ -1,26 +1,30 @@
 [#0000-19-topological-sort]
 = Topological Sort (Graph) 拓扑排序
 
-拓扑排序模式用来寻找一种线性的顺序，这些元素之间具有依懒性。比如，如果事件B依赖于事件A，那A在拓扑排序顺序中排在B的前面。
+拓扑排序模式用来寻找一种线性的顺序，这些元素之间具有依懒性。比如，如果事件 B 依赖于事件 A，那 A 在拓扑排序顺序中排在 B 的前面。
 
 这种模式定义了一种简单方式来理解拓扑排序这种技术。
 
 这种模式是这样奏效的：
 
 . 初始化
-.. 借助于HashMap将图保存成邻接表形式。
-.. 找到所有的起点，用HashMap来帮助记录每个节点的入度
+.. 借助于 `Map` 将图保存成邻接表形式。
+.. 找到所有的起点，用 `Map` 来帮助记录每个节点的入度
 . 创建图，找到每个节点的入度
-.. 利用输入，把图建好，然后遍历一下图，将入度信息记录在HashMap中
+.. 利用输入，把图建好，然后遍历一下图，将入度信息记录在 `Map` 中
 . 找所有的起点
-.. 所有入度为0的节点，都是有效的起点，而且我们讲他们都加入到一个队列中
+.. 所有入度为 `0` 的节点，都是有效的起点，而且我们讲他们都加入到一个队列中
 . 排序
 .. 对每个起点，执行以下步骤
 ... 把它加到结果的顺序中
 ... 将其在图中的孩子节点取到
 ... 将其孩子的入度减少1
 ... 如果孩子的入度变为0，则改孩子节点成为起点，将其加入队列中
-.. 重复（a）过程，直到起点队列为空。
+.. 重复上述过程，直到起点队列为空。
+
+用一句话概括：将依赖关系转化成一张有向图，如果这张图中的节点没有循环依赖，那么则方案可行，否则方案不可行。
+
+TIP: 这里解释的是一种广度优先搜索，看 https://leetcode.cn/problems/course-schedule/solutions/359392/ke-cheng-biao-by-leetcode-solution/[207. 课程表 - 官方题解^]，还存在一种深度优先搜索的处理办法，有机会尝试一下。
 
 拓扑排序模式识别：
 
@@ -33,38 +37,8 @@
 . xref:0207-course-schedule.adoc[207. Course Schedule]
 . xref:0210-course-schedule-ii.adoc[210. Course Schedule II]
 . xref:0269-alien-dictionary.adoc[269. Alien Dictionary]
-. xref:0310-minimum-height-trees.adoc[310. Minimum Height Trees]
-. xref:0329-longest-increasing-path-in-a-matrix.adoc[329. Longest Increasing Path in a Matrix]
 . xref:0444-sequence-reconstruction.adoc[444. Sequence Reconstruction]
-. xref:0631-design-excel-sum-formula.adoc[631. Design Excel Sum Formula]
-. xref:0802-find-eventual-safe-states.adoc[802. Find Eventual Safe States]
-. xref:0851-loud-and-rich.adoc[851. Loud and Rich]
-. xref:0913-cat-and-mouse.adoc[913. Cat and Mouse]
-. xref:1059-all-paths-from-source-lead-to-destination.adoc[1059. All Paths from Source Lead to Destination]
-. xref:1136-parallel-courses.adoc[1136. Parallel Courses]
-. xref:1203-sort-items-by-groups-respecting-dependencies.adoc[1203. Sort Items by Groups Respecting Dependencies]
-. xref:1245-tree-diameter.adoc[1245. Tree Diameter]
-. xref:1462-course-schedule-iv.adoc[1462. Course Schedule IV]
-. xref:1591-strange-printer-ii.adoc[1591. Strange Printer II]
-. xref:1632-rank-transform-of-a-matrix.adoc[1632. Rank Transform of a Matrix]
-. xref:1728-cat-and-mouse-ii.adoc[1728. Cat and Mouse II]
-. xref:1786-number-of-restricted-paths-from-first-to-last-node.adoc[1786. Number of Restricted Paths From First to Last Node]
-. xref:1857-largest-color-value-in-a-directed-graph.adoc[1857. Largest Color Value in a Directed Graph]
-. xref:1916-count-ways-to-build-rooms-in-an-ant-colony.adoc[1916. Count Ways to Build Rooms in an Ant Colony]
-. xref:1976-number-of-ways-to-arrive-at-destination.adoc[1976. Number of Ways to Arrive at Destination]
-. xref:2050-parallel-courses-iii.adoc[2050. Parallel Courses III]
-. xref:2115-find-all-possible-recipes-from-given-supplies.adoc[2115. Find All Possible Recipes from Given Supplies]
-. xref:2127-maximum-employees-to-be-invited-to-a-meeting.adoc[2127. Maximum Employees to Be Invited to a Meeting]
-. xref:2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph.adoc[2192. All Ancestors of a Node in a Directed Acyclic Graph]
-. xref:2246-longest-path-with-different-adjacent-characters.adoc[2246. Longest Path With Different Adjacent Characters]
-. xref:2328-number-of-increasing-paths-in-a-grid.adoc[2328. Number of Increasing Paths in a Grid]
-. xref:2360-longest-cycle-in-a-graph.adoc[2360. Longest Cycle in a Graph]
-. xref:2371-minimize-maximum-value-in-a-grid.adoc[2371. Minimize Maximum Value in a Grid]
-. xref:2392-build-a-matrix-with-conditions.adoc[2392. Build a Matrix With Conditions]
-. xref:2603-collect-coins-in-a-tree.adoc[2603. Collect Coins in a Tree]
-. xref:3383-minimum-runes-to-add-to-cast-spell.adoc[3383. Minimum Runes to Add to Cast Spell]
-. xref:3435-frequencies-of-shortest-supersequences.adoc[3435. Frequencies of Shortest Supersequences]
-. xref:3481-apply-substitutions.adoc[3481. Apply Substitutions]
+. xref:0310-minimum-height-trees.adoc[310. Minimum Height Trees]
 
 == 参考资料
 
