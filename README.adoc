@@ -401,7 +401,7 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |{leetcode_base_url}/maximum-subarray/[53. Maximum Subarray^]
 |{source_base_url}/_0053_MaximumSubarray.java[Java]
 |{doc_base_url}/0053-maximum-subarray.adoc[题解]
-|Easy
+|Medium
 |
 
 |{counter:codes}

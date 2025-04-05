@@ -145,6 +145,11 @@ endif::[]
 |{doc_base_url}/0207-course-schedule.adoc[题解]
 |✅ 拓扑排序
 
+|{counter:codes}
+|{leetcode_base_url}/maximum-subarray/[53. Maximum Subarray^]
+|{doc_base_url}/0053-maximum-subarray.adoc[题解]
+|⭕️ 动态规划。稀里糊涂就对了，还要对推演。另有更精妙的分治解法，抽空再尝试。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

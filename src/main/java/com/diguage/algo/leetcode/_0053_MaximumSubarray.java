@@ -27,6 +27,10 @@ import java.util.Objects;
  */
 public class _0053_MaximumSubarray {
   // tag::answer[]
+    /**
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-10-23 11:47
+     */
     public int maxSubArrayDP(int[] nums) {
         // TODO Dynamic Programming
         // TODO Divide and Conquer
