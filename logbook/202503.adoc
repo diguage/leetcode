@@ -160,6 +160,11 @@ endif::[]
 |{doc_base_url}/0005-longest-palindromic-substring.adoc[题解]
 |✅ 有更高效的马拉车算法，抽空可以尝试一下。
 
+|{counter:codes2503}
+|{leetcode_base_url}/search-in-rotated-sorted-array/[33. 搜索旋转排序数组^]
+|{doc_base_url}/0033-search-in-rotated-sorted-array.adoc[题解]
+|⭕️ 重点关注有序部分，优先在有序部分查找，不在有序部分再去无序部分查找。注意判定有序部分的方法： `nums[0]` 与 `nums[mid]` 相比较，而不是 `nums[left]`（它的值会来回变）。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
