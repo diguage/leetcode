@@ -165,10 +165,15 @@ endif::[]
 |{doc_base_url}/0033-search-in-rotated-sorted-array.adoc[题解]
 |⭕️ 重点关注有序部分，优先在有序部分查找，不在有序部分再去无序部分查找。注意判定有序部分的方法： `nums[0]` 与 `nums[mid]` 相比较，而不是 `nums[left]`（它的值会来回变）。
 
-|{counter:codes}
+|{counter:codes2503}
 |{leetcode_base_url}/number-of-islands/[200. 岛屿数量^]
 |{doc_base_url}/0200-number-of-islands.adoc[题解]
 |✅ 想尝试并查集，结果失败。还是沉岛大法好啊！
+
+|{counter:codes2503}
+|{leetcode_base_url}/permutations/[46. 全排列^]
+|{doc_base_url}/0046-permutations.adoc[题解]
+|✅ 回溯
 
 |===
 
