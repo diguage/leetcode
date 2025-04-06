@@ -3,7 +3,7 @@
 
 https://leetcode.cn/problems/longest-palindromic-substring/[LeetCode - 5. 最长回文子串 ^]
 
-给你一个字符串 `+s+`，找到 `+s+` 中最长的 回文 子串。
+给你一个字符串 `s`，找到 `s` 中最长的 回文 子串。
 
 *示例 1：*
 
@@ -20,12 +20,10 @@ https://leetcode.cn/problems/longest-palindromic-substring/[LeetCode - 5. 最长
 输出："bb"
 ....
 
-
 *提示：*
 
 * `+1 <= s.length <= 1000+`
-* `+s+` 仅由数字和英文字母组成
-
+* `s` 仅由数字和英文字母组成
 
 
 == 思路分析
@@ -67,6 +65,15 @@ include::{sourcedir}/_0005_LongestPalindromicSubstring_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0005_LongestPalindromicSubstring_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0005_LongestPalindromicSubstring_4.java[tag=answer]
 ----
 --
 ====

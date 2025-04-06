@@ -145,15 +145,20 @@ endif::[]
 |{doc_base_url}/0207-course-schedule.adoc[题解]
 |✅ 拓扑排序
 
-|{counter:codes}
+|{counter:codes2503}
 |{leetcode_base_url}/maximum-subarray/[53. 最大子数组和^]
 |{doc_base_url}/0053-maximum-subarray.adoc[题解]
 |⭕️ 动态规划。稀里糊涂就对了，还要对推演。另有更精妙的分治解法，抽空再尝试。
 
 |{counter:codes2503}
-|{leetcode_base_url}/merge-two-sorted-lists/[21. Merge Two Sorted Lists^]
+|{leetcode_base_url}/merge-two-sorted-lists/[21. 合并两个有序链表^]
 |{doc_base_url}/0021-merge-two-sorted-lists.adoc[题解]
 |✅
+
+|{counter:codes}
+|{leetcode_base_url}/longest-palindromic-substring/[5. 最长回文子串^]
+|{doc_base_url}/0005-longest-palindromic-substring.adoc[题解]
+|✅ 有更高效的马拉车算法，抽空可以尝试一下。
 
 |===
 
