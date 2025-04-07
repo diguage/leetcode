@@ -33,6 +33,9 @@ public class _0088_MergeSortedArray {
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Merge Sorted Array.
      *
      * Memory Usage: 36.5 MB, less than 100.00% of Java online submissions for Merge Sorted Array.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-10-25 00:43
      */
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         if (n == 0) {

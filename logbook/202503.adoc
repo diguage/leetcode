@@ -180,6 +180,11 @@ endif::[]
 |{doc_base_url}/0231-power-of-two.adoc[题解]
 |✅ 更巧妙的解法是位运算，如果 `n` 是 `2` 的幂，则二进制只有第一位是 `1`，减一则二进制都是 `1`，相与 `n & (n - 1)` 则为 `0`。
 
+|{counter:codes2503}
+|{leetcode_base_url}/merge-sorted-array/[88. 合并两个有序数组^]
+|{doc_base_url}/0088-merge-sorted-array.adoc[题解]
+|✅ `num1` 后面空着，则从后向前合并。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
