@@ -175,6 +175,11 @@ endif::[]
 |{doc_base_url}/0046-permutations.adoc[题解]
 |✅ 回溯
 
+|{counter:codes2503}
+|{leetcode_base_url}/power-of-two/[231. 2 的幂^]
+|{doc_base_url}/0231-power-of-two.adoc[题解]
+|✅ 更巧妙的解法是位运算，如果 `n` 是 `2` 的幂，则二进制只有第一位是 `1`，减一则二进制都是 `1`，相与 `n & (n - 1)` 则为 `0`。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
