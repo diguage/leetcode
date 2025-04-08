@@ -195,6 +195,11 @@ endif::[]
 |{doc_base_url}/0148-sort-list.adoc[题解]
 |✅ 分治
 
+|{counter:codes2503}
+|{leetcode_base_url}/ones-and-zeroes/[474. 一和零^]
+|{doc_base_url}/0474-ones-and-zeroes.adoc[题解]
+|❌ 动态规划，多维度“物品”就无从下手，还要多练。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
