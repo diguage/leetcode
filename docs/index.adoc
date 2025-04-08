@@ -64,11 +64,11 @@ include::0000-20-brute-force.adoc[leveloffset=+1]
 
 include::0000-21-decrease-and-conquer.adoc[leveloffset=+1]
 
-include::0000-21-divide-and-conquer.adoc[leveloffset=+1]
+include::0000-22-divide-and-conquer.adoc[leveloffset=+1]
 
-include::0000-22-transform-and-conquer.adoc[leveloffset=+1]
+include::0000-23-transform-and-conquer.adoc[leveloffset=+1]
 
-include::0000-23-backtrack.adoc[leveloffset=+1]
+include::0000-24-backtrack.adoc[leveloffset=+1]
 
 include::0000-24-subsets.adoc[leveloffset=+1]
 

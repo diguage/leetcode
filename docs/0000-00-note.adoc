@@ -205,7 +205,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Minimum Subset Sum Difference (hard)
 .. Problem Challenge 1: Count of Subset Sum (hard)
 .. Problem Challenge 2: Target Sum (hard)
-. xref:0000-23-backtrack.adoc[Backtracking 回溯]
+. xref:0000-24-backtrack.adoc[Backtracking 回溯]
 .. Combination Sum (medium)
 .. Word Search (medium)
 .. Factor Combinations (medium)
