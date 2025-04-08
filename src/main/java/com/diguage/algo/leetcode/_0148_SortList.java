@@ -39,6 +39,9 @@ public class _0148_SortList {
      * Runtime: 4 ms, faster than 62.99% of Java online submissions for Sort List.
      *
      * Memory Usage: 40.2 MB, less than 89.47% of Java online submissions for Sort List.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-10-29 21:05
      */
     public ListNode sortList(ListNode head) {
         if (Objects.isNull(head) || Objects.isNull(head.next)) {
