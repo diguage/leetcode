@@ -1,40 +1,44 @@
 [#0322-coin-change]
-= 322. Coin Change
+= 322. 零钱兑换
 
-{leetcode}/problems/coin-change/[LeetCode - Coin Change^]
+https://leetcode.cn/problems/coin-change/[LeetCode - 322. 零钱兑换 ^]
 
-image::images/0322-01.png[{image_attr}]
+给你一个整数数组 `coins`，表示不同面额的硬币；以及一个整数 `amount`，表示总金额。
 
-思考题：
+计算并返回可以凑成总金额所需的 *最少的硬币个数*。如果没有任何一种硬币组合能组成总金额，返回 `-1`。
 
-. 如何把动态规划代码写得更简洁一些？
-. 如何使用自底向上方法来实现一遍动态规划？
+你可以认为每种硬币的数量是无限的。
 
-You are given coins of different denominations and a total amount of money _amount_. Write a function to compute the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return `-1`.
+*示例 1：*
 
-*Example 1:*
+....
+输入：coins = [1, 2, 5], amount = 11
+输出：3
+解释：11 = 5 + 5 + 1
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* coins = `[1, 2, 5]`, amount = `11`
-*Output:* `3` 
-*Explanation:* 11 = 5 + 5 + 1
-----
+*示例 2：*
 
-*Example 2:*
+....
+输入：coins = [2], amount = 3
+输出：-1
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* coins = `[2]`, amount = `3`
-*Output:* -1
+*示例 3：*
 
-----
+....
+输入：coins = [1], amount = 0
+输出：0
+....
 
-*Note*:
+*提示：*
+
+* `+1 <= coins.length <= 12+`
+* `1 \<= coins[i] \<= 2^31^ - 1`
+* `0 \<= amount \<= 10^4^`
 
 
-You may assume that you have an infinite number of each kind of coin.
-
+[#思路分析]
 == 思路分析
 
 解题思路
@@ -43,17 +47,7 @@ You may assume that you have an infinite number of each kind of coin.
 . 而在回溯法中，如果含有很多的重复的计算的时候，就可以使用记忆化的搜索，将可能出现的重复计算大状态使用一个数组来保存其值，在进行重复的计算的时候，就可以直接的调用数组中的值，较少了不必要的递归。
 . 使用了记忆化搜索后，一般还可以进行优化，在记忆化搜索的基础上，变成 *自底而上* 的动态规划。
 
-image::images/0322-03.png[{image_attr}]
-
-
-=== 暴力穷举
-
-[{java_src_attr}]
-----
-include::{sourcedir}/_0322_CoinChange_2.java[tag=answer]
-----
-
-=== 动态规划
+image::images/0322-01.png[{image_attr}]
 
 image::images/0322-02.jpeg[{image_attr}]
 
@@ -66,21 +60,61 @@ F(3) =min(F(3−c~1~),F(3−c ~2~),F(3−c~3~))+1
      =1
 ----
 
-[{java_src_attr}]
-----
-include::{sourcedir}/_0322_CoinChange_22.java[tag=answer]
-----
+image::images/0322-03.png[{image_attr}]
 
 [[src-0322]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0322_CoinChange.java[tag=answer]
 ----
+--
 
+二刷（暴力穷举）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0322_CoinChange_2.java[tag=answer]
+----
+--
+
+二刷（动态规划（莫名其妙解法））::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0322_CoinChange_21.java[tag=answer]
 ----
+--
+
+二刷（动态规划）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0322_CoinChange_22.java[tag=answer]
+----
+--
+
+三刷（动态规划）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0322_CoinChange_3.java[tag=answer]
+----
+--
+====
+
+== 思考题
+
+. 如何把动态规划代码写得更简洁一些？
+. 如何使用自底向上方法来实现一遍动态规划？
 
 == 参考资料
 
