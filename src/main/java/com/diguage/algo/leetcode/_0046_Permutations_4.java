@@ -7,7 +7,7 @@ public class _0046_Permutations_4 {
   // tag::answer[]
   /**
    * @author D瓜哥 · https://www.diguage.com
-   * @since 2024-09-18 22:11:50
+   * @since 2025-04-06 16:50
    */
   public List<List<Integer>> permute(int[] nums) {
     List<List<Integer>> result = new ArrayList<>();
@@ -15,19 +15,23 @@ public class _0046_Permutations_4 {
     return result;
   }
 
-  private void backtrack(int[] nums, List<List<Integer>> result, List<Integer> added, boolean[] used) {
-    if (added.size() == nums.length) {
-      result.add(new ArrayList<>(added));
+  private void backtrack(int[] nums, List<List<Integer>> result,
+                         List<Integer> path, boolean[] used) {
+    if (path.size() == nums.length) {
+      result.add(new ArrayList<>(path));
+      return;
     }
     for (int i = 0; i < nums.length; i++) {
       if (used[i]) {
         continue;
       }
+      // 选择
       used[i] = true;
-      added.add(nums[i]);
-      backtrack(nums, result, added, used);
+      path.add(nums[i]);
+      backtrack(nums, result, path, used);
+      // 撤销
+      path.removeLast();
       used[i] = false;
-      added.remove(added.size() - 1);
     }
   }
   // end::answer[]
