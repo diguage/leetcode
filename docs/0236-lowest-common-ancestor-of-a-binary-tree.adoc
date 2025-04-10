@@ -1,42 +1,47 @@
 
 [#0236-lowest-common-ancestor-of-a-binary-tree]
-= 236. Lowest Common Ancestor of a Binary Tree
+= 236. 二叉树的最近公共祖先
 
-{leetcode}/problems/lowest-common-ancestor-of-a-binary-tree/[LeetCode - Lowest Common Ancestor of a Binary Tree^]
+https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/[LeetCode - 236. 二叉树的最近公共祖先 ^]
 
-Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
+给定一个二叉树, 找到该树中两个指定节点的最近公共祖先。
 
-According to the https://en.wikipedia.org/wiki/Lowest_common_ancestor[definition of LCA on Wikipedia^]: &ldquo;The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow *a node to be a descendant of itself*).&rdquo;
+https://baike.baidu.com/item/%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/8918834?fr=aladdin[百度百科] 中最近公共祖先的定义为：“对于有根树 T 的两个节点 p、q，最近公共祖先表示为一个节点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（*一个节点也可以是它自己的祖先*）。”
 
-Given the following binary tree:  root = [3,5,1,6,2,0,8,null,null,7,4]
+*示例 1：*
 
 image::images/0236-1.png[{image_attr}]
- 
-*Example 1:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
-*Output:* 3
-*Explanation:* The LCA of nodes `5` and `1` is `3.`
-----
+....
+输入：root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
+输出：3
+解释：节点 5 和节点 1 的最近公共祖先是节点 3 。
+....
 
-*Example 2:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 4
-*Output:* 5
-*Explanation:* The LCA of nodes `5` and `4` is `5`, since a node can be a descendant of itself according to the LCA definition.
-----
+image::images/0236-1.png[{image_attr}]
 
- 
+....
+输入：root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 4
+输出：5
+解释：节点 5 和节点 4 的最近公共祖先是节点 5 。因为根据定义最近公共祖先节点可以为节点本身。
+....
 
-*Note:*
+*示例 3：*
 
+....
+输入：root = [1,2], p = 1, q = 2
+输出：1
+....
 
-* All of the nodes' values will be unique.
-* p and q are different and both values will exist in the binary tree.
+*提示：*
+
+* 树中节点数目在范围 `[2, 10^5^]` 内。
+* `-10^9^ \<= Node.val \<= 10^9^`
+* 所有 `Node.val` 互不相同。
+* `p != q`
+* `p` 和 `q` 均存在于给定的二叉树中。
 
 
 == 思路分析
@@ -57,7 +62,6 @@ D瓜哥的思路：先找出一条从根节点到某个节点的路径；然后�
 当左右子树都返回不为 `null` 时，那么当前节点就是两棵树的公共祖先节点。情况如下：
 
 image::images/0236-19.png[{image_attr}]
-
 
 
 image::images/0236-00.png[{image_attr}]
@@ -126,6 +130,15 @@ include::{sourcedir}/_0236_LowestCommonAncestorOfABinaryTree_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0236_LowestCommonAncestorOfABinaryTree_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0236_LowestCommonAncestorOfABinaryTree_4.java[tag=answer]
 ----
 --
 ====
