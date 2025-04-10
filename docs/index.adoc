@@ -70,7 +70,7 @@ include::0000-23-transform-and-conquer.adoc[leveloffset=+1]
 
 include::0000-24-backtrack.adoc[leveloffset=+1]
 
-include::0000-24-subsets.adoc[leveloffset=+1]
+include::0000-25-subsets.adoc[leveloffset=+1]
 
 include::0000-25-greedy.adoc[leveloffset=+1]
 

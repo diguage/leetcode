@@ -1,4 +1,4 @@
-[#0000-24-subsets]
+[#0000-25-subsets]
 = Subsets 子集
 
 一般都是使用多重DFS
@@ -29,10 +29,3 @@
 . xref:0241-different-ways-to-add-parentheses.adoc[241. Different Ways to Add Parentheses]
 . xref:0320-generalized-abbreviation.adoc[320. Generalized Abbreviation]
 . xref:0784-letter-case-permutation.adoc[784. Letter Case Permutation]
-
-
-String Permutations by changing case (medium)
-
-Balanced Parentheses (hard)
-
-Unique Generalized Abbreviations (hard)
