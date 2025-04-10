@@ -66,12 +66,21 @@ include::{sourcedir}/_0046_Permutations_3.java[tag=answer]
 ----
 --
 
-四刷::
+四刷（回溯）::
 +
 --
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0046_Permutations_4.java[tag=answer]
+----
+--
+
+五刷（子集）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0046_Permutations_5.java[tag=answer]
 ----
 --
 ====

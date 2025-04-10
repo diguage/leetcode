@@ -210,6 +210,11 @@ endif::[]
 |{doc_base_url}/0090-subsets-ii.adoc[题解]
 |⭕️ 子集，需要注意重复元素的处理。现在用 `Set` 记录已添加子集的方案还可以再优化。添加优化解法。
 
+|{counter:codes2503}
+|{leetcode_base_url}/permutations/[46. 全排列^]
+|{doc_base_url}/0046-permutations.adoc[题解]
+|✅ 子集。注意对比子集模式在处理子集和排列时的不同：①子集直接在结果中添加新子集；②排列则是将结果中的元素出队，添加新元素后，再入队。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
