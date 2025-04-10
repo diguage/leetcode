@@ -3933,9 +3933,9 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|
 //
 //|{counter:codes}
-//|{leetcode_base_url}/quad-tree-intersection/[558. Quad Tree Intersection^]
-//|{source_base_url}/_0558_QuadTreeIntersection.java[Java]
-//|{doc_base_url}/0558-quad-tree-intersection.adoc[题解]
+//|{leetcode_base_url}/logical-or-of-two-binary-grids-represented-as-quad-trees/[558. 四叉树交集^]
+//|{source_base_url}/_0558_LogicalOrOfTwoBinaryGridsRepresentedAsQuadTrees.java[Java]
+//|{doc_base_url}/0558-logical-or-of-two-binary-grids-represented-as-quad-trees.adoc[题解]
 //|Easy
 //|
 

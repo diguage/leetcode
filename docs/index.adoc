@@ -1198,7 +1198,7 @@ include::0547-number-of-provinces.adoc[leveloffset=+1]
 
 // include::0557-reverse-words-in-a-string-iii.adoc[leveloffset=+1]
 
-// include::0558-quad-tree-intersection.adoc[leveloffset=+1]
+// include::0558-logical-or-of-two-binary-grids-represented-as-quad-trees.adoc[leveloffset=+1]
 
 include::0559-maximum-depth-of-n-ary-tree.adoc[leveloffset=+1]
 
