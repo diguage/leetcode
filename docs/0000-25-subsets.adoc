@@ -63,3 +63,8 @@
 . xref:0241-different-ways-to-add-parentheses.adoc[241. Different Ways to Add Parentheses]
 . xref:0320-generalized-abbreviation.adoc[320. Generalized Abbreviation]
 . xref:0784-letter-case-permutation.adoc[784. Letter Case Permutation]
+
+== 参考资料
+
+. https://www.cnblogs.com/bigsai/p/14519004.html[一文搞懂全排列、组合、子集问题^] -- 该文的位置互换与子集模式的处理方式有异曲同工之妙啊。
+. https://cloud.tencent.com/developer/article/1684638[浅谈求子集问题^]

@@ -215,6 +215,11 @@ endif::[]
 |{doc_base_url}/0046-permutations.adoc[题解]
 |✅ 子集。注意对比子集模式在处理子集和排列时的不同：①子集直接在结果中添加新子集；②排列则是将结果中的元素出队，添加新元素后，再入队。
 
+|{counter:codes2503}
+|{leetcode_base_url}/best-time-to-buy-and-sell-stock/[121. 买卖股票的最佳时机^]
+|{doc_base_url}/0121-best-time-to-buy-and-sell-stock.adoc[题解]
+|✅ 遍历找最大差值
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
