@@ -225,6 +225,11 @@ endif::[]
 |{doc_base_url}/0236-lowest-common-ancestor-of-a-binary-tree.adoc[题解]
 |✅ 递归遍历查找目标节点，找到则返回，找不到则返回 `null`，当左右都不是 `null` 时，则当前节点即是最近公共祖先。
 
+|{counter:codes2503}
+|{leetcode_base_url}/reverse-linked-list-ii/[92. 反转链表 II^]
+|{doc_base_url}/0092-reverse-linked-list-ii.adoc[题解]
+|✅ 链表反转
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
