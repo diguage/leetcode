@@ -67,7 +67,16 @@ include::{sourcedir}/_0090_SubsetsII_2.java[tag=answer]
 --
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0090_SubsetsII_3.java[tag=answer]
+include::{sourcedir}/_0090_SubsetsII_30.java[tag=answer]
+----
+--
+
+三刷（优化）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0090_SubsetsII_31.java[tag=answer]
 ----
 --
 ====

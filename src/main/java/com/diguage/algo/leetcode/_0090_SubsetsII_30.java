@@ -2,7 +2,7 @@ package com.diguage.algo.leetcode;
 
 import java.util.*;
 
-public class _0090_SubsetsII_3 {
+public class _0090_SubsetsII_30 {
   // tag::answer[]
   /**
    * @author D瓜哥 · https://www.diguage.com
@@ -33,6 +33,6 @@ public class _0090_SubsetsII_3 {
   }
   // end::answer[]
   public static void main(String[] args) {
-    new _0090_SubsetsII_3().subsetsWithDup(new int[]{1, 2, 2});
+    new _0090_SubsetsII_30().subsetsWithDup(new int[]{1, 2, 2});
   }
 }
