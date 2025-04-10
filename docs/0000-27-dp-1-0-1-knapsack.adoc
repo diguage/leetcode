@@ -1,4 +1,4 @@
-[#0000-26-dp-1-0-1-knapsack]
+[#0000-27-dp-1-0-1-knapsack]
 = 0/1 Knapsack 0/1 背包
 
 image::images/dynamic-programming-knapsack.jpeg[{image_attr}]

@@ -96,7 +96,7 @@ include::{sourcedir}/_0110_BalancedBinaryTree_3.java[tag=answer]
 ====
 
 
-树形 DP 解法参考了：xref:0000-26-dynamic-programming.adoc[动态规划] 中介绍的 “树形 DP 套路” 解法。
+树形 DP 解法参考了：xref:0000-27-dynamic-programming.adoc[动态规划] 中介绍的 “树形 DP 套路” 解法。
 
 参考论坛中大家的讨论，可以在发现不平衡时，就及时返回，停止执行其他相关递归调用，起到“剪枝”的作用。同时，时间复杂度也可以做到最好。
 

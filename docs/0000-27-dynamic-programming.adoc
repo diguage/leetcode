@@ -593,15 +593,15 @@ image::images/dynamic-programming-01.jpeg[{image_attr}]
 . xref:3504-longest-palindrome-after-substring-concatenation-ii.adoc[3504. Longest Palindrome After Substring Concatenation II]
 . xref:3505-minimum-operations-to-make-elements-within-k-subarrays-equal.adoc[3505. Minimum Operations to Make Elements Within K Subarrays Equal]
 
-include::0000-26-dp-1-0-1-knapsack.adoc[leveloffset=+1]
+include::0000-27-dp-1-0-1-knapsack.adoc[leveloffset=+1]
 
-include::0000-26-dp-2-unbounded-knapsack.adoc[leveloffset=+1]
+include::0000-27-dp-2-unbounded-knapsack.adoc[leveloffset=+1]
 
-include::0000-26-dp-3-fibonacci-numbers.adoc[leveloffset=+1]
+include::0000-27-dp-3-fibonacci-numbers.adoc[leveloffset=+1]
 
-include::0000-26-dp-4-palindromic-subsequence.adoc[leveloffset=+1]
+include::0000-27-dp-4-palindromic-subsequence.adoc[leveloffset=+1]
 
-include::0000-26-dp-5-longest-common-substring.adoc[leveloffset=+1]
+include::0000-27-dp-5-longest-common-substring.adoc[leveloffset=+1]
 
 image::images/dynamic-programming-02.png[{image_attr}]
 
