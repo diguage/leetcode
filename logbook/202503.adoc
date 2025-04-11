@@ -230,6 +230,11 @@ endif::[]
 |{doc_base_url}/0092-reverse-linked-list-ii.adoc[题解]
 |✅ 链表反转
 
-|===
+|{counter:codes2503}
+|{leetcode_base_url}/find-the-index-of-the-first-occurrence-in-a-string/[28. 找出字符串中第一个匹配项的下标]
+|{doc_base_url}/0028-find-the-index-of-the-first-occurrence-in-a-string.adoc[题解]
+|✅ 暴力破解。更有的解法是 KMP 算法、Boyer-Moore 算法、Sunday 算法等算法。
 
+|===
+˚
 截止目前，本轮练习一共完成 {codes2503} 道题。

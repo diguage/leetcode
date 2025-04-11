@@ -138,7 +138,7 @@ include::0026-remove-duplicates-from-sorted-array.adoc[leveloffset=+1]
 
 include::0027-remove-element.adoc[leveloffset=+1]
 
-include::0028-implement-strstr.adoc[leveloffset=+1]
+include::0028-find-the-index-of-the-first-occurrence-in-a-string.adoc[leveloffset=+1]
 
 include::0029-divide-two-integers.adoc[leveloffset=+1]
 

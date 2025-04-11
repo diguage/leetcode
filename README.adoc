@@ -223,9 +223,9 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |
 
 |{counter:codes}
-|{leetcode_base_url}/implement-strstr/[28. Implement strStr()^]
-|{source_base_url}/_0028_ImplementStrStr.java[Java]
-|{doc_base_url}/0028-implement-strstr.adoc[题解]
+|{leetcode_base_url}/find-the-index-of-the-first-occurrence-in-a-string/[28. 找出字符串中第一个匹配项的下标]
+|{source_base_url}/_0028_FindTheIndexOfTheFirstOccurrenceInAString.java[Java]
+|{doc_base_url}/0028-find-the-index-of-the-first-occurrence-in-a-string.adoc[题解]
 |Easy
 |
 
