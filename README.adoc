@@ -1504,12 +1504,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |
 
 //|{counter:codes}
-//|{leetcode_base_url}/add-and-search-word-data-structure-design/[211. Add and Search Word - Data structure design^]
-//|{source_base_url}/_0211_AddAndSearchWordDataStructureDesign.java[Java]
-//|{doc_base_url}/0211-add-and-search-word-data-structure-design.adoc[题解]
+//|{leetcode_base_url}/design-add-and-search-words-data-structure/[211. 添加与搜索单词 - 数据结构设计]
+//|{source_base_url}/_0211_DesignAddAndSearchWordsDataStructure.java[Java]
+//|{doc_base_url}/0211-design-add-and-search-words-data-structure.adoc[题解]
 //|Medium
 //|
-//
+
 //|{counter:codes}
 //|{leetcode_base_url}/word-search-ii/[212. Word Search II^]
 //|{source_base_url}/_0212_WordSearchII.java[Java]
@@ -3462,14 +3462,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0490-the-maze.adoc[题解]
 //|Medium
 //|
-//
+
 //|{counter:codes}
-//|{leetcode_base_url}/increasing-subsequences/[491. Increasing Subsequences^]
-//|{source_base_url}/_0491_IncreasingSubsequences.java[Java]
-//|{doc_base_url}/0491-increasing-subsequences.adoc[题解]
+//|{leetcode_base_url}/non-decreasing-subsequences/[491. 非递减子序列]
+//|{source_base_url}/_0491_NonDecreasingSubsequences.java[Java]
+//|{doc_base_url}/0491-non-decreasing-subsequences.adoc[题解]
 //|Medium
 //|
-//
+
 //|{counter:codes}
 //|{leetcode_base_url}/construct-the-rectangle/[492. Construct the Rectangle^]
 //|{source_base_url}/_0492_ConstructTheRectangle.java[Java]
@@ -3651,14 +3651,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0517-super-washing-machines.adoc[题解]
 //|Hard
 //|
-//
+
 //|{counter:codes}
-//|{leetcode_base_url}/coin-change-2/[518. Coin Change 2^]
-//|{source_base_url}/_0518_CoinChange2.java[Java]
-//|{doc_base_url}/0518-coin-change-2.adoc[题解]
+//|{leetcode_base_url}/coin-change-ii/[518. 零钱兑换 II]
+//|{source_base_url}/_0518_CoinChangeIi.java[Java]
+//|{doc_base_url}/0518-coin-change-ii.adoc[题解]
 //|Medium
 //|
-//
+
 //|{counter:codes}
 //|{leetcode_base_url}/random-flip-matrix/[519. Random Flip Matrix^]
 //|{source_base_url}/_0519_RandomFlipMatrix.java[Java]
@@ -3954,12 +3954,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |前缀和
 
 //|{counter:codes}
-//|{leetcode_base_url}/array-partition-i/[561. Array Partition I^]
-//|{source_base_url}/_0561_ArrayPartitionI.java[Java]
-//|{doc_base_url}/0561-array-partition-i.adoc[题解]
+//|{leetcode_base_url}/array-partition/[561. 数组拆分]
+//|{source_base_url}/_0561_ArrayPartition.java[Java]
+//|{doc_base_url}/0561-array-partition.adoc[题解]
 //|Easy
 //|
-//
+
 //|{counter:codes}
 //|{leetcode_base_url}/longest-line-of-consecutive-one-in-matrix/[562. Longest Line of Consecutive One in Matrix^]
 //|{source_base_url}/_0562_LongestLineOfConsecutiveOneInMatrix.java[Java]
@@ -5821,14 +5821,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0827-making-a-large-island.adoc[题解]
 //|Hard
 //|
-//
+
 //|{counter:codes}
-//|{leetcode_base_url}/unique-letter-string/[828. Unique Letter String^]
-//|{source_base_url}/_0828_UniqueLetterString.java[Java]
-//|{doc_base_url}/0828-unique-letter-string.adoc[题解]
+//|{leetcode_base_url}/count-unique-characters-of-all-substrings-of-a-given-string/[828. 统计子串中的唯一字符]
+//|{source_base_url}/_0828_CountUniqueCharactersOfAllSubstringsOfAGivenString.java[Java]
+//|{doc_base_url}/0828-count-unique-characters-of-all-substrings-of-a-given-string.adoc[题解]
 //|Hard
 //|
-//
+
 //|{counter:codes}
 //|{leetcode_base_url}/consecutive-numbers-sum/[829. Consecutive Numbers Sum^]
 //|{source_base_url}/_0829_ConsecutiveNumbersSum.java[Java]
@@ -7214,14 +7214,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1026-maximum-difference-between-node-and-ancestor.adoc[题解]
 //|Medium
 //|
-//
+
 //|{counter:codes}
-//|{leetcode_base_url}/longest-arithmetic-sequence/[1027. Longest Arithmetic Sequence^]
-//|{source_base_url}/_1027_LongestArithmeticSequence.java[Java]
-//|{doc_base_url}/1027-longest-arithmetic-sequence.adoc[题解]
+//|{leetcode_base_url}/longest-arithmetic-subsequence/[1027. 最长等差数列]
+//|{source_base_url}/_1027_LongestArithmeticSubsequence.java[Java]
+//|{doc_base_url}/1027-longest-arithmetic-subsequence.adoc[题解]
 //|Medium
 //|
-//
+
 //|{counter:codes}
 //|{leetcode_base_url}/recover-a-tree-from-preorder-traversal/[1028. Recover a Tree From Preorder Traversal^]
 //|{source_base_url}/_1028_RecoverATreeFromPreorderTraversal.java[Java]
@@ -8453,14 +8453,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1203-sort-items-by-groups-respecting-dependencies.adoc[题解]
 //|Hard
 //|
-//
+
 //|{counter:codes}
-//|{leetcode_base_url}/last-person-to-fit-in-the-elevator/[1204. Last Person to Fit in the Elevator^]
-//|{source_base_url}/_1204_LastPersonToFitInTheElevator.java[Java]
-//|{doc_base_url}/1204-last-person-to-fit-in-the-elevator.adoc[题解]
+//|{leetcode_base_url}/last-person-to-fit-in-the-bus/[1204. 最后一个能进入巴士的人]
+//|{source_base_url}/_1204_LastPersonToFitInTheBus.java[Java]
+//|{doc_base_url}/1204-last-person-to-fit-in-the-bus.adoc[题解]
 //|Medium
 //|
-//
+
 //|{counter:codes}
 //|{leetcode_base_url}/monthly-transactions-ii/[1205. Monthly Transactions II^]
 //|{source_base_url}/_1205_MonthlyTransactionsII.java[Java]
@@ -8544,14 +8544,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1216-valid-palindrome-iii.adoc[题解]
 //|Hard
 //|
-//
+
 //|{counter:codes}
-//|{leetcode_base_url}/play-with-chips/[1217. Play with Chips^]
-//|{source_base_url}/_1217_PlayWithChips.java[Java]
-//|{doc_base_url}/1217-play-with-chips.adoc[题解]
+//|{leetcode_base_url}/minimum-cost-to-move-chips-to-the-same-position/[1217. 玩筹码]
+//|{source_base_url}/_1217_MinimumCostToMoveChipsToTheSamePosition.java[Java]
+//|{doc_base_url}/1217-minimum-cost-to-move-chips-to-the-same-position.adoc[题解]
 //|Easy
 //|
-//
+
 //|{counter:codes}
 //|{leetcode_base_url}/longest-arithmetic-subsequence-of-given-difference/[1218. Longest Arithmetic Subsequence of Given Difference^]
 //|{source_base_url}/_1218_LongestArithmeticSubsequenceOfGivenDifference.java[Java]

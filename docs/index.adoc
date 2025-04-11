@@ -504,7 +504,7 @@ include::0208-implement-trie-prefix-tree.adoc[leveloffset=+1]
 
 include::0210-course-schedule-ii.adoc[leveloffset=+1]
 
-// include::0211-add-and-search-word-data-structure-design.adoc[leveloffset=+1]
+// include::0211-design-add-and-search-words-data-structure.adoc[leveloffset=+1]
 
 // include::0212-word-search-ii.adoc[leveloffset=+1]
 
@@ -1064,7 +1064,7 @@ include::0480-sliding-window-median.adoc[leveloffset=+1]
 
 // include::0490-the-maze.adoc[leveloffset=+1]
 
-// include::0491-increasing-subsequences.adoc[leveloffset=+1]
+// include::0491-non-decreasing-subsequences.adoc[leveloffset=+1]
 
 // include::0492-construct-the-rectangle.adoc[leveloffset=+1]
 
@@ -1118,7 +1118,7 @@ include::0515-find-largest-value-in-each-tree-row.adoc[leveloffset=+1]
 
 // include::0517-super-washing-machines.adoc[leveloffset=+1]
 
-// include::0518-coin-change-2.adoc[leveloffset=+1]
+// include::0518-coin-change-ii.adoc[leveloffset=+1]
 
 // include::0519-random-flip-matrix.adoc[leveloffset=+1]
 
@@ -1204,7 +1204,7 @@ include::0559-maximum-depth-of-n-ary-tree.adoc[leveloffset=+1]
 
 include::0560-subarray-sum-equals-k.adoc[leveloffset=+1]
 
-// include::0561-array-partition-i.adoc[leveloffset=+1]
+// include::0561-array-partition.adoc[leveloffset=+1]
 
 // include::0562-longest-line-of-consecutive-one-in-matrix.adoc[leveloffset=+1]
 
@@ -1738,7 +1738,7 @@ include::0796-rotate-string.adoc[leveloffset=+1]
 
 // include::0827-making-a-large-island.adoc[leveloffset=+1]
 
-// include::0828-unique-letter-string.adoc[leveloffset=+1]
+// include::0828-count-unique-characters-of-all-substrings-of-a-given-string.adoc[leveloffset=+1]
 
 // include::0829-consecutive-numbers-sum.adoc[leveloffset=+1]
 
@@ -2136,7 +2136,7 @@ include::1011-capacity-to-ship-packages-within-d-days.adoc[leveloffset=+1]
 
 // include::1026-maximum-difference-between-node-and-ancestor.adoc[leveloffset=+1]
 
-// include::1027-longest-arithmetic-sequence.adoc[leveloffset=+1]
+// include::1027-longest-arithmetic-subsequence.adoc[leveloffset=+1]
 
 // include::1028-recover-a-tree-from-preorder-traversal.adoc[leveloffset=+1]
 
@@ -2490,7 +2490,7 @@ include::1110-delete-nodes-and-return-forest.adoc[leveloffset=+1]
 
 // include::1203-sort-items-by-groups-respecting-dependencies.adoc[leveloffset=+1]
 
-// include::1204-last-person-to-fit-in-the-elevator.adoc[leveloffset=+1]
+// include::1204-last-person-to-fit-in-the-bus.adoc[leveloffset=+1]
 
 // include::1205-monthly-transactions-ii.adoc[leveloffset=+1]
 
@@ -2516,7 +2516,7 @@ include::1110-delete-nodes-and-return-forest.adoc[leveloffset=+1]
 
 // include::1216-valid-palindrome-iii.adoc[leveloffset=+1]
 
-// include::1217-play-with-chips.adoc[leveloffset=+1]
+// include::1217-minimum-cost-to-move-chips-to-the-same-position.adoc[leveloffset=+1]
 
 // include::1218-longest-arithmetic-subsequence-of-given-difference.adoc[leveloffset=+1]
 
