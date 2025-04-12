@@ -1,34 +1,34 @@
 [#0054-spiral-matrix]
-= 54. Spiral Matrix
+= 54. 螺旋矩阵
 
-{leetcode}/problems/spiral-matrix/[LeetCode - Spiral Matrix^]
+https://leetcode.cn/problems/spiral-matrix/[LeetCode - 54. 螺旋矩阵 ^]
 
-Given a matrix of _m_ x _n_ elements (_m_ rows, _n_ columns), return all elements of the matrix in spiral order.
+给你一个 `m` 行 `n` 列的矩阵 `matrix` ，请按照 *顺时针螺旋顺序*，返回矩阵中的所有元素。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:*
-[
- [ 1, 2, 3 ],
- [ 4, 5, 6 ],
- [ 7, 8, 9 ]
-]
-*Output:* [1,2,3,6,9,8,7,4,5]
-----
+image::images/0054-01.jpg[{image_attr}]
 
-*Example 2:*
-[subs="verbatim,quotes,macros"]
-----
-*Input:*
-[
-  [1, 2, 3, 4],
-  [5, 6, 7, 8],
-  [9,10,11,12]
-]
-*Output:* [1,2,3,4,8,12,11,10,9,5,6,7]
-----
+....
+输入：matrix = [[1,2,3],[4,5,6],[7,8,9]]
+输出：[1,2,3,6,9,8,7,4,5]
+....
+
+*示例 2：*
+
+image::images/0054-02.jpg[{image_attr}]
+
+....
+输入：matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+输出：[1,2,3,4,8,12,11,10,9,5,6,7]
+....
+
+*提示：*
+
+* `m == matrix.length`
+* `n == matrix[i].length`
+* `+1 <= m, n <= 10+`
+* `+-100 <= matrix[i][j] <= 100+`
 
 == 思路分析
 
@@ -54,6 +54,15 @@ include::{sourcedir}/_0054_SpiralMatrix.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0054_SpiralMatrix_2.java[tag=answer]
+----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0054_SpiralMatrix_3.java[tag=answer]
 ----
 --
 ====
