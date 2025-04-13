@@ -245,6 +245,11 @@ endif::[]
 |{doc_base_url}/0415-add-strings.adoc[题解]
 |✅ 双指针
 
+|{counter:codes2503}
+|{leetcode_base_url}/reorder-list/[143. Reorder List^]
+|{doc_base_url}/0143-reorder-list.adoc[题解]
+|✅ 双指针+链表反正+链表合并
+
 |===
 ˚
 截止目前，本轮练习一共完成 {codes2503} 道题。

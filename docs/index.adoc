@@ -368,7 +368,7 @@ include::0141-linked-list-cycle.adoc[leveloffset=+1]
 
 include::0142-linked-list-cycle-ii.adoc[leveloffset=+1]
 
-// include::0143-reorder-list.adoc[leveloffset=+1]
+include::0143-reorder-list.adoc[leveloffset=+1]
 
 include::0144-binary-tree-preorder-traversal.adoc[leveloffset=+1]
 

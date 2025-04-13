@@ -1,35 +1,75 @@
 [#0143-reorder-list]
-= 143. Reorder List
+= 143. 重排链表
 
-{leetcode}/problems/reorder-list/[LeetCode - Reorder List^]
+https://leetcode.cn/problems/reorder-list/[LeetCode - 143. 重排链表 ^]
 
-Given a singly linked list _L_: _L_~0~&rarr;_L_~1~&rarr;&hellip;&rarr;_L_~_n_-1~&rarr;_L_~n~,
+给定一个单链表 `L` 的头节点 `head` ，单链表 `L` 表示为：
+
+....
+L0 → L1 → … → Ln - 1 → Ln
+....
+
+请将其重新排列后变为：
+
+....
+L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
+....
+
+不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
+
+*示例 1：*
+
+image::images/0143-01.png[{image_attr}]
+
+....
+输入：head = [1,2,3,4]
+输出：[1,4,2,3]
+....
+
+*示例 2：*
+
+image::images/0143-02.png[{image_attr}]
+
+....
+输入：head = [1,2,3,4,5]
+输出：[1,5,2,4,3]
+....
+
+*提示：*
+
+* 链表的长度范围为 `[1, 5 * 10^4^]`
+* `+1 <= node.val <= 1000+`
 
 
-reorder it to: _L_~0~&rarr;_L_~_n_~&rarr;_L_~1~&rarr;_L_~_n_-1~&rarr;_L_~2~&rarr;_L_~_n_-2~&rarr;&hellip;
+== 思路分析
 
-You may *not* modify the values in the list's nodes, only nodes itself may be changed.
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-Given 1->2->3->4, reorder it to 1->4->2->3.
-----
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
-
-----
-
-
+. 寻找中点
+. 链表反转
+. 合并链表
 
 [[src-0143]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0143_ReorderList.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0143_ReorderList_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
 
