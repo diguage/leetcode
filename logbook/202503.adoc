@@ -250,6 +250,11 @@ endif::[]
 |{doc_base_url}/0143-reorder-list.adoc[题解]
 |✅ 双指针+链表反正+链表合并
 
+|{counter:codes2503}
+|{leetcode_base_url}/linked-list-cycle-ii/[142. 环形链表 II^]
+|{doc_base_url}/0142-linked-list-cycle-ii.adoc[题解]
+|✅ 双指针+数学
+
 |===
 ˚
 截止目前，本轮练习一共完成 {codes2503} 道题。
