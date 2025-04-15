@@ -36,6 +36,9 @@ public class _0019_RemoveNthNodeFromEndOfList {
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Remove Nth Node From End of List.
      *
      * Memory Usage: 34.6 MB, less than 100.00% of Java online submissions for Remove Nth Node From End of List.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-07-26 20:17
      */
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if (Objects.isNull(head) || n == 0) {

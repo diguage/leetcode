@@ -1,38 +1,72 @@
 [#0019-remove-nth-node-from-end-of-list]
-= 19. Remove Nth Node From End of List
+= 19. 删除链表的倒数第 N 个结点
 
-{leetcode}/problems/remove-nth-node-from-end-of-list/[LeetCode - Remove Nth Node From End of List^]
+https://leetcode.cn/problems/remove-nth-node-from-end-of-list/[LeetCode - 19. 删除链表的倒数第 N 个结点 ^]
 
-Given a linked list, remove the _n_-th node from the end of list and return its head.
+给你一个链表，删除链表的倒数第 `n` 个结点，并且返回链表的头结点。
 
-*Example:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-Given linked list: *1->2->3->4->5*, and *_n_ = 2*.
+image::images/0019-01.jpg[{image_attr}]
 
-After removing the second node from the end, the linked list becomes *1->2->3->5*.
-----
+....
+输入：head = [1,2,3,4,5], n = 2
+输出：[1,2,3,5]
+....
 
-*Note:*
+*示例 2：*
 
-Given _n_ will always be valid.
+....
+输入：head = [1], n = 1
+输出：[]
+....
 
-*Follow up:*
+*示例 3：*
 
-Could you do this in one pass?
+....
+输入：head = [1,2], n = 1
+输出：[1]
+....
 
-== 解题分析
+
+*提示：*
+
+* 链表中结点的数目为 `sz`
+* `+1 <= sz <= 30+`
+* `+0 <= Node.val <= 100+`
+* `+1 <= n <= sz+`
+
+**进阶：**你能尝试使用一趟扫描实现吗？
+
+
+== 思路分析
 
 快慢指针
 
-image::images/0019-0.png[{image_attr}]
+image::images/0019-02.png[{image_attr}]
 
 [[src-0019]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0019_RemoveNthNodeFromEndOfList.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0019_RemoveNthNodeFromEndOfList_2.java[tag=answer]
+----
+--
+====
+
 
 == 参考资料
 
