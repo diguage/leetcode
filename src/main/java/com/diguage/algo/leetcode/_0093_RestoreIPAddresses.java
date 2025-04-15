@@ -18,6 +18,9 @@ public class _0093_RestoreIPAddresses {
     /**
      * Runtime: 2 ms, faster than 88.51% of Java online submissions for Restore IP Addresses.
      * Memory Usage: 38.4 MB, less than 30.23% of Java online submissions for Restore IP Addresses.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-06 10:00
      */
     public List<String> restoreIpAddresses(String s) {
         List<String> result = new ArrayList<>();
