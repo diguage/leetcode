@@ -270,6 +270,11 @@ endif::[]
 |{doc_base_url}/1137-n-th-tribonacci-number.adoc[题解]
 |✅ 动态规划
 
+|{counter:codes2503}
+|{leetcode_base_url}/min-cost-climbing-stairs/[746. 使用最小花费爬楼梯^]
+|{doc_base_url}/0746-min-cost-climbing-stairs.adoc[题解]
+|✅ 动态规划
+
 
 |===
 ˚
