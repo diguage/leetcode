@@ -15,6 +15,71 @@ image::images/dynamic-programming-01.jpeg[{image_attr}]
 . 确定遍历顺序
 . 举例推导 dp 数组
 
+== 入门题目
+
+
+. xref:0070-climbing-stairs.adoc[70. Climbing Stairs]
+. xref:0509-fibonacci-number.adoc[509. Fibonacci Number]
+. xref:1137-n-th-tribonacci-number.adoc[1137. N-th Tribonacci Number]
+. xref:0746-min-cost-climbing-stairs.adoc[746. Min Cost Climbing Stairs]
+. xref:0198-house-robber.adoc[198. House Robber]
+. xref:0213-house-robber-ii.adoc[213. House Robber II]
+. xref:0337-house-robber-iii.adoc[337. House Robber III]
+. xref:2560-house-robber-iv.adoc[2560. House Robber IV]
+. xref:0740-delete-and-earn.adoc[740. Delete and Earn]
+. xref:0062-unique-paths.adoc[62. Unique Paths]
+. xref:0063-unique-paths-ii.adoc[63. Unique Paths II]
+. xref:0980-unique-paths-iii.adoc[980. Unique Paths III]
+. xref:0064-minimum-path-sum.adoc[64. Minimum Path Sum]
+. xref:0120-triangle.adoc[120. Triangle]
+. xref:0931-minimum-falling-path-sum.adoc[931. Minimum Falling Path Sum]
+. xref:1289-minimum-falling-path-sum-ii.adoc[1289. Minimum Falling Path Sum II]
+. xref:0221-maximal-square.adoc[221. Maximal Square]
+. xref:0005-longest-palindromic-substring.adoc[5. Longest Palindromic Substring]
+. xref:0139-word-break.adoc[139. Word Break]
+. xref:0140-word-break-ii.adoc[140. Word Break II]
+. xref:0516-longest-palindromic-subsequence.adoc[516. Longest Palindromic Subsequence]
+. xref:1682-longest-palindromic-subsequence-ii.adoc[1682. Longest Palindromic Subsequence II]
+. xref:0072-edit-distance.adoc[72. Edit Distance]
+. xref:0712-minimum-ascii-delete-sum-for-two-strings.adoc[712. Minimum ASCII Delete Sum for Two Strings]
+. xref:0115-distinct-subsequences.adoc[115. Distinct Subsequences]
+. xref:0940-distinct-subsequences-ii.adoc[940. Distinct Subsequences II]
+. xref:0300-longest-increasing-subsequence.adoc[300. Longest Increasing Subsequence]
+. xref:2407-longest-increasing-subsequence-ii.adoc[2407. Longest Increasing Subsequence II]
+. xref:0673-number-of-longest-increasing-subsequence.adoc[673. Number of Longest Increasing Subsequence]
+. xref:0646-maximum-length-of-pair-chain.adoc[646. Maximum Length of Pair Chain]
+. xref:1218-longest-arithmetic-subsequence-of-given-difference.adoc[1218. Longest Arithmetic Subsequence of Given Difference]
+. xref:1027-longest-arithmetic-subsequence.adoc[1027. Longest Arithmetic Subsequence]
+. xref:0354-russian-doll-envelopes.adoc[354. Russian Doll Envelopes]
+. xref:1964-find-the-longest-valid-obstacle-course-at-each-position.adoc[题解]
+. xref:1143-longest-common-subsequence.adoc[1143. Longest Common Subsequence]
+. xref:1035-uncrossed-lines.adoc[1035. Uncrossed Lines]
+. xref:1312-minimum-insertion-steps-to-make-a-string-palindrome.adoc[1312. Minimum Insertion Steps to Make a String Palindrome]
+. xref:0309-best-time-to-buy-and-sell-stock-with-cooldown.adoc[309. Best Time to Buy and Sell Stock with Cooldown]
+. xref:0714-best-time-to-buy-and-sell-stock-with-transaction-fee.adoc[714. Best Time to Buy and Sell Stock with Transaction Fee]
+. xref:0123-best-time-to-buy-and-sell-stock-iii.adoc[123. Best Time to Buy and Sell Stock III]
+. xref:0188-best-time-to-buy-and-sell-stock-iv.adoc[188. Best Time to Buy and Sell Stock IV]
+. xref:0096-unique-binary-search-trees.adoc[96. Unique Binary Search Trees]
+. xref:0095-unique-binary-search-trees-ii.adoc[95. Unique Binary Search Trees II]
+. xref:0124-binary-tree-maximum-path-sum.adoc[124. Binary Tree Maximum Path Sum]
+. xref:0279-perfect-squares.adoc[279. Perfect Squares]
+. xref:0367-valid-perfect-square.adoc[题解]
+. xref:0322-coin-change.adoc[322. Coin Change]
+. xref:0518-coin-change-ii.adoc[518. Coin Change II]
+. xref:0377-combination-sum-iv.adoc[377. Combination Sum IV]
+. xref:0474-ones-and-zeroes.adoc[474. Ones and Zeroes]
+. xref:2140-solving-questions-with-brainpower.adoc[2140. Solving Questions With Brainpower]
+. xref:2466-count-ways-to-build-good-strings.adoc[2466. Count Ways To Build Good Strings]
+. xref:0091-decode-ways.adoc[91. Decode Ways]
+. xref:0639-decode-ways-ii.adoc[639. Decode Ways II]
+. xref:0983-minimum-cost-for-tickets.adoc[983. Minimum Cost For Tickets]
+. xref:0790-domino-and-tromino-tiling.adoc[790. Domino and Tromino Tiling]
+
+
+== 进阶
+
+
+
 == 经典题目
 
 . xref:0005-longest-palindromic-substring.adoc[5. Longest Palindromic Substring]

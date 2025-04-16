@@ -2356,7 +2356,7 @@ include::1110-delete-nodes-and-return-forest.adoc[leveloffset=+1]
 
 // include::1136-parallel-courses.adoc[leveloffset=+1]
 
-// include::1137-n-th-tribonacci-number.adoc[leveloffset=+1]
+include::1137-n-th-tribonacci-number.adoc[leveloffset=+1]
 
 // include::1138-alphabet-board-path.adoc[leveloffset=+1]
 

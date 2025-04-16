@@ -7984,14 +7984,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1136-parallel-courses.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/n-th-tribonacci-number/[1137. N-th Tribonacci Number^]
-//|{source_base_url}/_1137_NThTribonacciNumber.java[Java]
-//|{doc_base_url}/1137-n-th-tribonacci-number.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/n-th-tribonacci-number/[1137. N-th Tribonacci Number^]
+|{source_base_url}/_1137_NThTribonacciNumber.java[Java]
+|{doc_base_url}/1137-n-th-tribonacci-number.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/alphabet-board-path/[1138. Alphabet Board Path^]
 //|{source_base_url}/_1138_AlphabetBoardPath.java[Java]

@@ -265,6 +265,12 @@ endif::[]
 |{doc_base_url}/0093-restore-ip-addresses.adoc[题解]
 |✅ 回溯
 
+|{counter:codes2503}
+|{leetcode_base_url}/n-th-tribonacci-number/[1137. 第 N 个泰波那契数^]
+|{doc_base_url}/1137-n-th-tribonacci-number.adoc[题解]
+|✅ 动态规划
+
+
 |===
 ˚
 截止目前，本轮练习一共完成 {codes2503} 道题。

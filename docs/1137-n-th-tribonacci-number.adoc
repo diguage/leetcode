@@ -1,46 +1,63 @@
 [#1137-n-th-tribonacci-number]
-= 1137. N-th Tribonacci Number
+= 1137. 第 N 个泰波那契数
 
-{leetcode}/problems/n-th-tribonacci-number/[LeetCode - N-th Tribonacci Number^]
+https://leetcode.cn/problems/n-th-tribonacci-number/[LeetCode - 1137. 第 N 个泰波那契数 ^]
 
-The Tribonacci sequence T~n~ is defined as follows: 
+泰波那契序列 T~n~ 定义如下： 
 
-T~0~ = 0, T~1~ = 1, T~2~ = 1, and T~n+3~ = T~n~ + T~n+1~ + T~n+2~ for n >= 0.
+T~0~ = 0, T~1~ = 1, T~2~ = 1, 且在 n >= 0 的条件下 T~n+3~ = T~n~ + T~n+1~ + T~n+2~
 
-Given `n`, return the value of T~n~.
+给你整数 `n`，请返回第 n 个泰波那契数 T~n~ 的值。
 
  
-*Example 1:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* n = 4
-*Output:* 4
-*Explanation:*
+*示例 1：*
+
+....
+输入：n = 4
+输出：4
+解释：
 T_3 = 0 + 1 + 1 = 2
 T_4 = 1 + 1 + 2 = 4
-----
+....
 
-*Example 2:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* n = 25
-*Output:* 1389537
-----
+....
+输入：n = 25
+输出：1389537
+....
 
- 
-*Constraints:*
+*提示：*
+
+* `+0 <= n <= 37+`
+* 答案保证是一个 32 位整数，即 `answer \<= 2^31^ - 1`。
 
 
-* `0 <= n <= 37`
-* The answer is guaranteed to fit within a 32-bit integer, ie. `answer <= 2^31 - 1`.
-
+== 思路分析
 
 
 [[src-1137]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1137_NThTribonacciNumber.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1137_NThTribonacciNumber_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
