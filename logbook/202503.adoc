@@ -280,6 +280,11 @@ endif::[]
 |{doc_base_url}/0198-house-robber.adoc[题解]
 |✅ 动态规划
 
+|{counter:codes2503}
+|{leetcode_base_url}/house-robber-ii/[213. 打家劫舍 II^]
+|{doc_base_url}/0213-house-robber-ii.adoc[题解]
+|✅ 动态规划
+
 
 |===
 ˚

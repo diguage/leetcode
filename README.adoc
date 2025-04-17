@@ -1516,14 +1516,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0212-word-search-ii.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/house-robber-ii/[213. House Robber II^]
-//|{source_base_url}/_0213_HouseRobberII.java[Java]
-//|{doc_base_url}/0213-house-robber-ii.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/house-robber-ii/[213. House Robber II^]
+|{source_base_url}/_0213_HouseRobberII.java[Java]
+|{doc_base_url}/0213-house-robber-ii.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/shortest-palindrome/[214. Shortest Palindrome^]
 //|{source_base_url}/_0214_ShortestPalindrome.java[Java]
