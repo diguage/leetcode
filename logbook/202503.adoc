@@ -290,6 +290,11 @@ endif::[]
 |{doc_base_url}/0337-house-robber-iii.adoc[题解]
 |✅ 动态规划+树 = 树形动态规划
 
+|{counter:codes2503}
+|{leetcode_base_url}/house-robber-iv/[2560. House Robber IV^]
+|{doc_base_url}/2560-house-robber-iv.adoc[题解]
+|❌ 看答案也一脸懵逼！
+
 |===
 ˚
 截止目前，本轮练习一共完成 {codes2503} 道题。

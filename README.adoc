@@ -17946,12 +17946,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/house-robber-iv/[2560. House Robber IV^]
-//|{source_base_url}/_2560_HouseRobberIv.java[Java]
-//|{doc_base_url}/2560-house-robber-iv.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/house-robber-iv/[2560. House Robber IV^]
+|{source_base_url}/_2560_HouseRobberIv.java[Java]
+|{doc_base_url}/2560-house-robber-iv.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/rearranging-fruits/[2561. Rearranging Fruits^]

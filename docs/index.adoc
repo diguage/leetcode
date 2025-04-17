@@ -5202,7 +5202,7 @@ include::2507-smallest-value-after-replacing-with-sum-of-prime-factors.adoc[leve
 
 // include::2559-count-vowel-strings-in-ranges.adoc[leveloffset=+1]
 
-// include::2560-house-robber-iv.adoc[leveloffset=+1]
+include::2560-house-robber-iv.adoc[leveloffset=+1]
 
 // include::2561-rearranging-fruits.adoc[leveloffset=+1]
 
