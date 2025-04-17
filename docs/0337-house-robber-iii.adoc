@@ -1,41 +1,41 @@
 [#0337-house-robber-iii]
-= 337. House Robber III
+= 337. 打家劫舍 III
 
-{leetcode}/problems/house-robber-iii/[LeetCode - House Robber III^]
+https://leetcode.cn/problems/house-robber-iii/[LeetCode - 337. 打家劫舍 III ^]
 
-The thief has found himself a new place for his thievery again. There is only one entrance to this area, called the "root." Besides the root, each house has one and only one parent house. After a tour, the smart thief realized that "all houses in this place forms a binary tree". It will automatically contact the police if two directly-linked houses were broken into on the same night.
+小偷又发现了一个新的可行窃的地区。这个地区只有一个入口，我们称之为 `root`。
 
-Determine the maximum amount of money the thief can rob tonight without alerting the police.
+除了 `root` 之外，每栋房子有且只有一个“父“房子与之相连。一番侦察之后，聪明的小偷意识到“这个地方的所有房屋的排列类似于一棵二叉树”。如果 *两个直接相连的房子在同一天晚上被打劫* ，房屋将自动报警。
 
-.Example 1:
-----
-Input: [3,2,3,null,3,null,1]
+给定二叉树的 `root` 。返回 *在不触动警报的情况下* ，小偷能够盗取的最高金额_ 。
 
-     3
-    / \
-   2   3
-    \   \
-     3   1
+*示例 1:*
 
-Output: 7
-Explanation: Maximum amount of money the thief can rob = 3 + 3 + 1 = 7.
-----
+image::images/0337-01.jpg[{image_attr}]
 
-.Example 2:
-----
-Input: [3,4,5,1,3,null,1]
+....
+输入: root = [3,2,3,null,3,null,1]
+输出: 7
+解释: 小偷一晚能够盗取的最高金额 3 + 3 + 1 = 7
+....
 
-     3
-    / \
-   4   5
-  / \   \
- 1   3   1
+*示例 2:*
 
-Output: 9
-Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
-----
+image::images/0337-02.jpg[{image_attr}]
 
-== 解题分析
+....
+输入: root = [3,4,5,1,3,null,1]
+输出: 9
+解释: 小偷一晚能够盗取的最高金额 4 + 5 = 9
+....
+
+
+*提示：*
+
+* 树的节点数在 `[1, 10^4^]` 范围内
+* `0 \<= Node.val \<= 10^4^`
+
+== 思路分析
 
 由于题目给出示例的误导，这里存在一个误区：在不选父节点时，子树选最优解不受任何干扰，也就是说子树的跟节点可选也可以不选。所以，可以将这个问题简化为，分选根节点和不选根节点，两种情况考虑：
 
@@ -44,56 +44,34 @@ Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
 
 然后在这上面两种情况中选出最优解。
 
-== 思考题
-
-尝试使用动态规划来解决这个问题。
-
-== 参考资料
-
-. https://leetcode-cn.com/problems/house-robber-iii/solution/java-2ms-by-horanol/[java 2ms - 打家劫舍 III - 力扣（LeetCode）^]
-. https://leetcode-cn.com/problems/house-robber-iii/solution/san-chong-fang-fa-jie-jue-shu-xing-dong-tai-gui-hu/[三种方法解决树形动态规划问题-从入门级代码到高效树形动态规划代码实现 - 打家劫舍 III - 力扣（LeetCode）^]
-. https://leetcode-cn.com/problems/house-robber-iii/solution/tong-yong-si-lu-tuan-mie-da-jia-jie-she-wen-ti-b-2/[通用思路团灭打家劫舍问题 - 打家劫舍 III - 力扣（LeetCode）^]
-
-The thief has found himself a new place for his thievery again. There is only one entrance to this area, called the "root." Besides the root, each house has one and only one parent house. After a tour, the smart thief realized that "all houses in this place forms a binary tree". It will automatically contact the police if two directly-linked houses were broken into on the same night.
-
-Determine the maximum amount of money the thief can rob tonight without alerting the police.
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [3,2,3,null,3,null,1]
-
-     3
-    / \
-   2   3
-    \   \ 
-     3   1
-
-*Output:* 7 
-*Explanation:* Maximum amount of money the thief can rob = <font color="red" style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">3 + <font color="red" style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">3  + <font color="red" style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">1  = <b style="font-family: sans-serif, Arial, Verdana, "Trebuchet MS";">7* .
-----
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [3,4,5,1,3,null,1]
-
-     3
-    / \
-   4   5
-  / \   \ 
- 1   3   1
-
-*Output:* 9
-*Explanation:* Maximum amount of money the thief can rob = 4 + <font color="red">5 = *9*.
-----
-
-
 [[src-0337]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0337_HouseRobberIII.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0337_HouseRobberIii_2.java[tag=answer]
+----
+--
+====
+
+== 思考题
+
+尝试使用动态规划来解决这个问题。已完成！
+
+== 参考资料
+
+. https://leetcode.cn/problems/house-robber-iii/solutions/4923/java-2ms-by-horanol/[337. 打家劫舍 III - java 2ms^]
+. https://leetcode.cn/problems/house-robber-iii/solutions/47828/san-chong-fang-fa-jie-jue-shu-xing-dong-tai-gui-hu/[337. 打家劫舍 III - 三种方法解决树形动态规划问题-从入门级代码到高效树形动态规划代码实现^] -- 从暴力递归，到备忘录，到最优方案，层层推进。
+. https://leetcode.cn/problems/house-robber-iii/solutions/67467/tong-yong-si-lu-tuan-mie-da-jia-jie-she-wen-ti-b-2/[337. 打家劫舍 III - 通用思路团灭打家劫舍问题^]

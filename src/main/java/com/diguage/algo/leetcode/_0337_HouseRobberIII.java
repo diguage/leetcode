@@ -22,6 +22,9 @@ public class _0337_HouseRobberIII {
      * Memory Usage: 41.3 MB, less than 13.89% of Java online submissions for House Robber III.
      *
      * Copy from: https://leetcode-cn.com/problems/house-robber-iii/solution/java-2ms-by-horanol/[java 2ms - 打家劫舍 III - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-29 16:34
      */
     public int rob(TreeNode root) {
         int[] robs = doRob(root);
