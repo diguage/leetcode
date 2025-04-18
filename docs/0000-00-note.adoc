@@ -193,14 +193,14 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1: Rearrange String K Distance Apart (hard)
 .. Problem Challenge 2: Scheduling Tasks (hard)
 .. Problem Challenge 3: Frequency Stack (hard)
-. xref:0000-26-greedy.adoc[Greedy Algorithms 贪心算法]
+. xref:0000-27-greedy.adoc[Greedy Algorithms 贪心算法]
 .. Valid Palindrome II (easy)
 .. Maximum Length of Pair Chain (medium)
 .. Minimum Add to Make Parentheses Valid (medium)
 .. Remove Duplicate Letters (medium)
 .. Largest Palindromic Number (medium)
 .. Removing Minimum and Maximum From Array  (medium)
-. xref:0000-27-dynamic-programming.adoc[Dynamic Programming 动态规划]
+. xref:0000-26-dynamic-programming.adoc[Dynamic Programming 动态规划]
 .. 0/1 Knapsack (medium)
 .. Equal Subset Sum Partition (medium)
 .. Subset Sum (medium)

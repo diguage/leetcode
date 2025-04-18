@@ -295,6 +295,11 @@ endif::[]
 |{doc_base_url}/2560-house-robber-iv.adoc[题解]
 |❌ 看答案也一脸懵逼！
 
+|{counter:codes2503}
+|{leetcode_base_url}/delete-and-earn/[740. Delete and Earn^]
+|{doc_base_url}/0740-delete-and-earn.adoc[题解]
+|❌ 把题目理解错了。处理后就是最简单的打家劫舍问题。
+
 |===
 ˚
 截止目前，本轮练习一共完成 {codes2503} 道题。

@@ -5206,13 +5206,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/delete-and-earn/[740. Delete and Earn^]
-//|{source_base_url}/_0740_DeleteAndEarn.java[Java]
-//|{doc_base_url}/0740-delete-and-earn.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/delete-and-earn/[740. Delete and Earn^]
+|{source_base_url}/_0740_DeleteAndEarn.java[Java]
+|{doc_base_url}/0740-delete-and-earn.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/cherry-pickup/[741. Cherry Pickup^]
 //|{source_base_url}/_0741_CherryPickup.java[Java]

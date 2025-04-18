@@ -17,6 +17,8 @@ image::images/dynamic-programming-01.jpeg[{image_attr}]
 
 == 入门题目
 
+https://leetcode.cn/studyplan/dynamic-programming/[动态规划（基础版）^]
+
 
 . xref:0070-climbing-stairs.adoc[70. Climbing Stairs]
 . xref:0509-fibonacci-number.adoc[509. Fibonacci Number]
@@ -25,7 +27,7 @@ image::images/dynamic-programming-01.jpeg[{image_attr}]
 . xref:0198-house-robber.adoc[198. House Robber]
 . xref:0213-house-robber-ii.adoc[213. House Robber II]
 . xref:0337-house-robber-iii.adoc[337. House Robber III]
-. xref:2560-house-robber-iv.adoc[2560. House Robber IV]
+. xref:2560-house-robber-iv.adoc[2560. House Robber IV] -- 这个不是动态规划题目。
 . xref:0740-delete-and-earn.adoc[740. Delete and Earn]
 . xref:0062-unique-paths.adoc[62. Unique Paths]
 . xref:0063-unique-paths-ii.adoc[63. Unique Paths II]
@@ -77,6 +79,8 @@ image::images/dynamic-programming-01.jpeg[{image_attr}]
 
 
 == 进阶
+
+https://leetcode.cn/studyplan/dynamic-programming-grandmaster/[动态规划（进阶版）^]
 
 
 
@@ -658,15 +662,15 @@ image::images/dynamic-programming-01.jpeg[{image_attr}]
 . xref:3504-longest-palindrome-after-substring-concatenation-ii.adoc[3504. Longest Palindrome After Substring Concatenation II]
 . xref:3505-minimum-operations-to-make-elements-within-k-subarrays-equal.adoc[3505. Minimum Operations to Make Elements Within K Subarrays Equal]
 
-include::0000-27-dp-1-0-1-knapsack.adoc[leveloffset=+1]
+include::0000-26-dp-1-0-1-knapsack.adoc[leveloffset=+1]
 
-include::0000-27-dp-2-unbounded-knapsack.adoc[leveloffset=+1]
+include::0000-26-dp-2-unbounded-knapsack.adoc[leveloffset=+1]
 
-include::0000-27-dp-3-fibonacci-numbers.adoc[leveloffset=+1]
+include::0000-26-dp-3-fibonacci-numbers.adoc[leveloffset=+1]
 
-include::0000-27-dp-4-palindromic-subsequence.adoc[leveloffset=+1]
+include::0000-26-dp-4-palindromic-subsequence.adoc[leveloffset=+1]
 
-include::0000-27-dp-5-longest-common-substring.adoc[leveloffset=+1]
+include::0000-26-dp-5-longest-common-substring.adoc[leveloffset=+1]
 
 image::images/dynamic-programming-02.png[{image_attr}]
 

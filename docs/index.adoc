@@ -78,9 +78,9 @@ include::0000-24-backtrack.adoc[leveloffset=+1]
 
 include::0000-25-subsets.adoc[leveloffset=+1]
 
-include::0000-26-greedy.adoc[leveloffset=+1]
+include::0000-26-dynamic-programming.adoc[leveloffset=+1]
 
-include::0000-27-dynamic-programming.adoc[leveloffset=+1]
+include::0000-27-greedy.adoc[leveloffset=+1]
 
 // :sectnums:
 
@@ -1562,7 +1562,7 @@ include::0724-find-pivot-index.adoc[leveloffset=+1]
 
 include::0739-daily-temperatures.adoc[leveloffset=+1]
 
-// include::0740-delete-and-earn.adoc[leveloffset=+1]
+include::0740-delete-and-earn.adoc[leveloffset=+1]
 
 // include::0741-cherry-pickup.adoc[leveloffset=+1]
 
