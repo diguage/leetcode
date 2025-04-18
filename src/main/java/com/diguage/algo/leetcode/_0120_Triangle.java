@@ -17,6 +17,9 @@ public class _0120_Triangle {
     /**
      * Runtime: 1 ms, faster than 99.42% of Java online submissions for Triangle.
      * Memory Usage: 39.2 MB, less than 8.16% of Java online submissions for Triangle.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-07 23:14
      */
     public int minimumTotal(List<List<Integer>> triangle) {
         int[] sums = new int[triangle.size() + 1];

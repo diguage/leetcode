@@ -1,29 +1,45 @@
 [#0120-triangle]
-= 120. Triangle
+= 120. 三角形最小路径和
 
-{leetcode}/problems/triangle/[LeetCode - Triangle^]
+https://leetcode.cn/problems/triangle/[LeetCode - 120. 三角形最小路径和 ^]
 
-Given a triangle, find the minimum path sum from top to bottom. Each step you may move to adjacent numbers on the row below.
+给定一个三角形 `triangle` ，找出自顶向下的最小路径和。
 
-For example, given the following triangle
+每一步只能移动到下一行中相邻的结点上。*相邻的结点* 在这里指的是 *下标* 与 *上一层结点下标* 相同或者等于 *上一层结点下标 + 1* 的两个结点。也就是说，如果正位于当前行的下标 `i`，那么下一步可以移动到下一行的下标 `i` 或 `i + 1` 。
 
-[subs="verbatim,quotes,macros"]
-----
-[
-     [*2*],
-    [*3*,4],
-   [6,*5*,7],
-  [4,*1*,8,3]
-]
-----
+*示例 1：*
 
-The minimum path sum from top to bottom is `11` (i.e., *2* + *3* + *5* + *1* = 11).
+....
+输入：triangle = [[2],[3,4],[6,5,7],[4,1,8,3]]
+输出：11
+解释：如下面简图所示：
+   2
+  3 4
+ 6 5 7
+4 1 8 3
+自顶向下的最小路径和为 11（即，2 + 3 + 5 + 1 = 11）。
+....
 
-*Note:*
+*示例 2：*
 
-Bonus point if you are able to do this using only _O_(_n_) extra space, where _n_ is the total number of rows in the triangle.
+....
+输入：triangle = [[-10]]
+输出：-10
+....
 
-== 解题分析
+*提示：*
+
+* `+1 <= triangle.length <= 200+`
+* `triangle[0].length == 1`
+* `triangle[i].length == triangle[i - 1].length + 1`
+* `-10^4^ \<= triangle[i][j] \<= 10^4^`
+
+*进阶：*
+
+* 你可以只使用 stem:[O(n)] 的额外空间（`n`为三角形的总行数）来解决这个问题吗？
+
+
+== 思路分析
 
 image::images/0120-1.png[{image_attr}]
 
@@ -31,18 +47,34 @@ image::images/0120-1.png[{image_attr}]
 
 自底向上计算逐层每个元素的最小和。最后即可得出最小路径和。
 
+[[src-0120]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0120_Triangle.java[tag=answer]
+----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0120_Triangle_2.java[tag=answer]
+----
+--
+====
+
 == 思考题
 
 尝试一下动态规划的思路。
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/triangle/solution/120-san-jiao-xing-zui-xiao-lu-jing-he-by-alexer-66/[120. 三角形最小路径和 - 三角形最小路径和 - 力扣（LeetCode）^]
-. https://leetcode-cn.com/problems/triangle/solution/di-gui-ji-yi-hua-sou-suo-zai-dao-dp-by-crsm/[【Java】递归，记忆化搜索，再到DP - 三角形最小路径和 - 力扣（LeetCode）^]
-
-[[src-0120]]
-[{java_src_attr}]
-----
-include::{sourcedir}/_0120_Triangle.java[tag=answer]
-----
+. https://leetcode.cn/problems/triangle/solutions/43600/120-san-jiao-xing-zui-xiao-lu-jing-he-by-alexer-66/[120. 三角形最小路径和^]
+. https://leetcode.cn/problems/triangle/solutions/23146/di-gui-ji-yi-hua-sou-suo-zai-dao-dp-by-crsm/[120. 三角形最小路径和 - 【Java】递归，记忆化搜索，再到DP^]
 
