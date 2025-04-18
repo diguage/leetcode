@@ -6,7 +6,7 @@ endif::[]
 :doc_base_url: link:../docs
 
 
-[cols="7,41,7,45",options="header"]
+[cols="7,36,7,50",options="header"]
 |===
 |序号 |题目 |题解 |备注
 
