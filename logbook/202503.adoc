@@ -300,6 +300,11 @@ endif::[]
 |{doc_base_url}/0740-delete-and-earn.adoc[题解]
 |❌ 把题目理解错了。处理后就是最简单的打家劫舍问题。
 
+|{counter:codes2503}
+|{leetcode_base_url}/unique-paths/[62. Unique Paths^]
+|{doc_base_url}/0062-unique-paths.adoc[题解]
+|✅ 动态规划
+
 |===
-˚
+
 截止目前，本轮练习一共完成 {codes2503} 道题。
