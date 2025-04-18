@@ -1,41 +1,48 @@
 [#0063-unique-paths-ii]
-= 63. Unique Paths II
+= 63. 不同路径 II
 
-{leetcode}/problems/unique-paths-ii/[LeetCode - Unique Paths II^]
+https://leetcode.cn/problems/unique-paths-ii/[LeetCode - 63. 不同路径 II ^]
 
-A robot is located at the top-left corner of a _m_ x _n_ grid (marked 'Start' in the diagram below).
+给定一个 `m x n` 的整数数组 `grid`。一个机器人初始位于 *左上角*（即 `grid[0][0]`）。机器人尝试移动到 *右下角*（即 `grid[m - 1][n - 1]`）。机器人每次只能向下或者向右移动一步。
 
-The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).
+网格中的障碍物和空位置分别用 `1` 和 `0` 来表示。机器人的移动路径中不能包含 *任何* 有障碍物的方格。
 
-Now consider if some obstacles are added to the grids. How many unique paths would there be?
+返回机器人能够到达右下角的不同路径数量。
 
-image::https://assets.leetcode.com/uploads/2018/10/22/robot_maze.png[{image_attr}]
+测试用例保证答案小于等于 `2 * 10^9^`。
 
-An obstacle and empty space is marked as `1` and `0` respectively in the grid.
+*示例 1：*
 
-*Note:* _m_ and _n_ will be at most 100.
+image::images/0063-01.jpg[{image_attr}]
 
-*Example 1:*
+....
+输入：obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]
+输出：2
+解释：3x3 网格的正中间有一个障碍物。
+从左上角到右下角一共有 2 条不同的路径：
+1. 向右 -> 向右 -> 向下 -> 向下
+2. 向下 -> 向下 -> 向右 -> 向右
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:
-*[
-  [0,0,0],
-  [0,1,0],
-  [0,0,0]
-]
-*Output:* 2
-*Explanation:*
-There is one obstacle in the middle of the 3x3 grid above.
-There are two ways to reach the bottom-right corner:
-1. Right -> Right -> Down -> Down
-2. Down -> Down -> Right -> Right
-----
+*示例 2：*
+
+image::images/0063-02.jpg[{image_attr}]
+
+....
+输入：obstacleGrid = [[0,1],[0,0]]
+输出：1
+....
+
+*提示：*
+
+* `+m == obstacleGrid.length+`
+* `+n == obstacleGrid[i].length+`
+* `+1 <= m, n <= 100+`
+* `obstacleGrid[i][j]` 为 `0` 或 `1`
 
 == 思路分析
 
-image::images/0063-01.png[{image_attr}]
+image::images/0063-03.png[{image_attr}]
 
 [[src-0063]]
 [tabs]
@@ -55,6 +62,15 @@ include::{sourcedir}/_0063_UniquePathsII.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0063_UniquePathsII_2.java[tag=answer]
+----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0063_UniquePathsII_3.java[tag=answer]
 ----
 --
 ====
