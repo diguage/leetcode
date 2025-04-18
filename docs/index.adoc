@@ -2660,7 +2660,7 @@ include::1253-reconstruct-a-2-row-binary-matrix.adoc[leveloffset=+1]
 
 // include::1288-remove-covered-intervals.adoc[leveloffset=+1]
 
-// include::1289-minimum-falling-path-sum-ii.adoc[leveloffset=+1]
+include::1289-minimum-falling-path-sum-ii.adoc[leveloffset=+1]
 
 // include::1290-convert-binary-number-in-a-linked-list-to-integer.adoc[leveloffset=+1]
 

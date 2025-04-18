@@ -9048,14 +9048,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1288-remove-covered-intervals.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/minimum-falling-path-sum-ii/[1289. Minimum Falling Path Sum II^]
-//|{source_base_url}/_1289_MinimumFallingPathSumII.java[Java]
-//|{doc_base_url}/1289-minimum-falling-path-sum-ii.adoc[题解]
-//|Hard
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/minimum-falling-path-sum-ii/[1289. Minimum Falling Path Sum II^]
+|{source_base_url}/_1289_MinimumFallingPathSumII.java[Java]
+|{doc_base_url}/1289-minimum-falling-path-sum-ii.adoc[题解]
+|Hard
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/convert-binary-number-in-a-linked-list-to-integer/[1290. Convert Binary Number in a Linked List to Integer^]
 //|{source_base_url}/_1290_ConvertBinaryNumberInALinkedListToInteger.java[Java]
