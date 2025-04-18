@@ -310,6 +310,11 @@ endif::[]
 |{doc_base_url}/0063-unique-paths-ii.adoc[题解]
 |✅ 动态规划
 
+|{counter:codes2503}
+|{leetcode_base_url}/unique-paths-iii/[980. Unique Paths III^]
+|{doc_base_url}/0980-unique-paths-iii.adoc[题解]
+|❌ 明知是回溯，但在处理当前节点时，总把当前和下一步混在一起。有思路，没写出代码。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

@@ -2042,7 +2042,7 @@ include::0946-validate-stack-sequences.adoc[leveloffset=+1]
 
 // include::0979-distribute-coins-in-binary-tree.adoc[leveloffset=+1]
 
-// include::0980-unique-paths-iii.adoc[leveloffset=+1]
+include::0980-unique-paths-iii.adoc[leveloffset=+1]
 
 // include::0981-time-based-key-value-store.adoc[leveloffset=+1]
 
