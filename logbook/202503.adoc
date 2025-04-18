@@ -325,6 +325,11 @@ endif::[]
 |{doc_base_url}/0120-triangle.adoc[题解]
 |✅ 动态规划。从底向上比从上向底效率更高。
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-falling-path-sum/[931. 下降路径最小和^]
+|{doc_base_url}/0931-minimum-falling-path-sum.adoc[题解]
+|✅ 动态规划
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

@@ -1,41 +1,41 @@
 [#0931-minimum-falling-path-sum]
-= 931. Minimum Falling Path Sum
+= 931. 下降路径最小和
 
-{leetcode}/problems/minimum-falling-path-sum/[LeetCode - Minimum Falling Path Sum^]
+https://leetcode.cn/problems/minimum-falling-path-sum/[LeetCode - 931. 下降路径最小和 ^]
 
-Given a *square* array of integers `A`, we want the *minimum* sum of a _falling path_ through `A`.
+给你一个 `n x n` 的 *方形* 整数数组 `matrix` ，请你找出并返回通过 `matrix` 的 **下降路径** 的 *最小和* 。
 
-A falling path starts at any element in the first row, and chooses one element from each row.  The next row's choice must be in a column that is different from the previous row's column by at most one.
+*下降路径* 可以从第一行中的任何元素开始，并从每一行中选择一个元素。在下一行选择的元素和当前行所选元素最多相隔一列（即位于正下方或者沿对角线向左或者向右的第一个元素）。具体来说，位置 `(row, col)` 的下一个元素应当是 `(row + 1, col - 1)`、`(row + 1, col)` 或者 `(row + 1, col + 1)`。
 
- 
+*示例 1：*
 
-*Example 1:*
+image::images/0931-01.jpg[{image_attr}]
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[1,2,3],[4,5,6],[7,8,9]]
-*Output:* 12
-*Explanation:*
-The possible falling paths are:
-----
+....
+输入：matrix = [[2,1,3],[6,5,4],[7,8,9]]
+输出：13
+解释：如图所示，为和最小的两条下降路径
+....
 
+*示例 2：*
 
-* `[1,4,7], [1,4,8], [1,5,7], [1,5,8], [1,5,9]`
-* `[2,4,7], [2,4,8], [2,5,7], [2,5,8], [2,5,9], [2,6,8], [2,6,9]`
-* `[3,5,7], [3,5,8], [3,5,9], [3,6,8], [3,6,9]`
+image::images/0931-02.jpg[{image_attr}]
 
+....
+输入：matrix = [[-19,57],[-40,-5]]
+输出：-59
+解释：如图所示，为和最小的下降路径
+....
 
-The falling path with the smallest sum is `[1,4,7]`, so the answer is `12`.
+*提示：*
 
- 
+* `n == matrix.length == matrix[i].length`
+* `+1 <= n <= 100+`
+* `+-100 <= matrix[i][j] <= 100+`
 
-*Note:*
-
-
-* `1 <= A.length == A[0].length <= 100`
-* `-100 <= A[i][j] <= 100`
 
 == 思路分析
+
 
 [[src-0931]]
 [tabs]
@@ -49,14 +49,14 @@ include::{sourcedir}/_0931_MinimumFallingPathSum.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0931_MinimumFallingPathSum_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0931_MinimumFallingPathSum_2.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
