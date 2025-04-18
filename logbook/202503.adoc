@@ -315,6 +315,11 @@ endif::[]
 |{doc_base_url}/0980-unique-paths-iii.adoc[题解]
 |❌ 明知是回溯，但在处理当前节点时，总把当前和下一步混在一起。有思路，没写出代码。
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-path-sum/[64. Minimum Path Sum^]
+|{doc_base_url}/0064-minimum-path-sum.adoc[题解]
+|✅ 动态规划。直接在原有矩阵上操作即可。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
