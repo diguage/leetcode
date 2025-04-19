@@ -3638,13 +3638,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |层序遍历
 
-//|{counter:codes}
-//|{leetcode_base_url}/longest-palindromic-subsequence/[516. Longest Palindromic Subsequence^]
-//|{source_base_url}/_0516_LongestPalindromicSubsequence.java[Java]
-//|{doc_base_url}/0516-longest-palindromic-subsequence.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/longest-palindromic-subsequence/[516. Longest Palindromic Subsequence^]
+|{source_base_url}/_0516_LongestPalindromicSubsequence.java[Java]
+|{doc_base_url}/0516-longest-palindromic-subsequence.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/super-washing-machines/[517. Super Washing Machines^]
 //|{source_base_url}/_0517_SuperWashingMachines.java[Java]

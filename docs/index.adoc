@@ -1114,7 +1114,7 @@ include::0513-find-bottom-left-tree-value.adoc[leveloffset=+1]
 
 include::0515-find-largest-value-in-each-tree-row.adoc[leveloffset=+1]
 
-// include::0516-longest-palindromic-subsequence.adoc[leveloffset=+1]
+include::0516-longest-palindromic-subsequence.adoc[leveloffset=+1]
 
 // include::0517-super-washing-machines.adoc[leveloffset=+1]
 

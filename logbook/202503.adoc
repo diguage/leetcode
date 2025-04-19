@@ -350,6 +350,11 @@ endif::[]
 |{doc_base_url}/0140-word-break-ii.adoc[题解]
 |✅ 回溯。没想到从 `LinkedList` 切换到 `ArrayList`，内存占用就大幅下降 43.77% → 91.82%。没有使用备忘录耗时已经击败了 98.49%。
 
+|{counter:codes2503}
+|{leetcode_base_url}/longest-palindromic-subsequence/[516. 最长回文子序列^]
+|{doc_base_url}/0516-longest-palindromic-subsequence.adoc[题解]
+|❌ 动态规划。相当于在“结尾”中寻找回文子串。从一维字符串字符坐标去看转移方程，会更加清楚明了。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
