@@ -6,7 +6,7 @@ endif::[]
 :doc_base_url: link:../docs
 
 
-[cols="7,32,7,54",options="header"]
+[cols="7,30,7,56",options="header"]
 |===
 |序号 |题目 |题解 |备注
 
@@ -340,6 +340,10 @@ endif::[]
 |{doc_base_url}/0221-maximal-square.adoc[题解]
 |✅ 动态规划。直接将结果存储在参数矩阵上。如果正方形想扩大，则左边，左上和上面三个都是正方形时才可以，可以直接去这三者中的最小值。
 
+|{counter:codes2503}
+|{leetcode_base_url}/word-break/[139. 单词拆分^]
+|{doc_base_url}/0139-word-break.adoc[题解]
+|⭕️ 回溯+备忘录。首先想到的是回溯，但是超时（通过34/47的测试用例）。参考别人题解后，得到启发，加上备忘录通过。参考答案写出了动态规划的解法。*思考如何从基于回溯+备忘录转变为动态规划？*
 
 |===
 

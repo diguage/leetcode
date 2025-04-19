@@ -52,6 +52,9 @@ public class _0139_WordBreak {
      * Memory Usage: 44.3 MB, less than 5.08% of Java online submissions for Word Break.
      *
      * Copy from: https://leetcode-cn.com/problems/word-break/solution/dan-ci-chai-fen-by-leetcode/[单词拆分 - 单词拆分 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-24 09:39
      */
     public boolean wordBreak(String s, List<String> wordDict) {
         boolean[] dp = new boolean[s.length() + 1];
