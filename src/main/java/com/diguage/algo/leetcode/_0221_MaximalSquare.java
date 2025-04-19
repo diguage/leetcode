@@ -18,6 +18,9 @@ public class _0221_MaximalSquare {
      * Memory Usage: 43.3 MB, less than 91.18% of Java online submissions for Maximal Square.
      *
      * Copy from: https://leetcode.com/problems/maximal-square/solution/[Maximal Square solution - LeetCode]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-28 12:21
      */
     public int maximalSquare(char[][] matrix) {
         if (Objects.isNull(matrix) || matrix.length == 0) {
