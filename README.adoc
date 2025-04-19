@@ -1006,12 +1006,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/word-break-ii/[140. Word Break II^]
-//|{source_base_url}/_0140_WordBreakII.java[Java]
-//|{doc_base_url}/0140-word-break-ii.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/word-break-ii/[140. Word Break II^]
+|{source_base_url}/_0140_WordBreakII.java[Java]
+|{doc_base_url}/0140-word-break-ii.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/linked-list-cycle/[141. Linked List Cycle^]

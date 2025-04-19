@@ -31,7 +31,7 @@ https://leetcode.cn/studyplan/dynamic-programming/[动态规划（基础版）^]
 . xref:0740-delete-and-earn.adoc[740. Delete and Earn]
 . xref:0062-unique-paths.adoc[62. Unique Paths]
 . xref:0063-unique-paths-ii.adoc[63. Unique Paths II]
-. xref:0980-unique-paths-iii.adoc[980. Unique Paths III] -- 这是一个回溯问题。
+. xref:0980-unique-paths-iii.adoc[980. Unique Paths III] -- 这是一道回溯问题。
 . xref:0064-minimum-path-sum.adoc[64. Minimum Path Sum]
 . xref:0120-triangle.adoc[120. Triangle]
 . xref:0931-minimum-falling-path-sum.adoc[931. Minimum Falling Path Sum]
@@ -39,7 +39,7 @@ https://leetcode.cn/studyplan/dynamic-programming/[动态规划（基础版）^]
 . xref:0221-maximal-square.adoc[221. Maximal Square]
 . xref:0005-longest-palindromic-substring.adoc[5. Longest Palindromic Substring]
 . xref:0139-word-break.adoc[139. Word Break]
-. xref:0140-word-break-ii.adoc[140. Word Break II]
+. xref:0140-word-break-ii.adoc[140. Word Break II] -- 这是一道回溯题。
 . xref:0516-longest-palindromic-subsequence.adoc[516. Longest Palindromic Subsequence]
 . xref:1682-longest-palindromic-subsequence-ii.adoc[1682. Longest Palindromic Subsequence II]
 . xref:0072-edit-distance.adoc[72. Edit Distance]
