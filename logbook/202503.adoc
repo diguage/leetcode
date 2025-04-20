@@ -358,6 +358,11 @@ endif::[]
 |{doc_base_url}/0516-longest-palindromic-subsequence.adoc[题解]
 |❌ 动态规划。相当于在“结尾”中寻找回文子串。从一维字符串字符坐标去看转移方程，会更加清楚明了。
 
+|{counter:codes}
+|{leetcode_base_url}/container-with-most-water/[11. 盛最多水的容器^]
+|{doc_base_url}/0011-container-with-most-water.adoc[题解]
+|✅ 双指针
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
