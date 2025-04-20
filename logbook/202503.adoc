@@ -363,20 +363,25 @@ endif::[]
 |{doc_base_url}/0011-container-with-most-water.adoc[题解]
 |✅ 双指针
 
-|{counter:codes}
+|{counter:codes2503}
 |{leetcode_base_url}/remove-element/[27. 移除元素^]
 |{doc_base_url}/0027-remove-element.adoc[题解]
 |✅ 快慢指针。慢指针记录满足条件的长度，快指针指向需要处理的元素。
 
-|{counter:codes}
+|{counter:codes2503}
 |{leetcode_base_url}/trapping-rain-water/[42. 接雨水^]
 |{doc_base_url}/0042-trapping-rain-water.adoc[题解]
 |❌ 使用单调栈没写出来。使用单调栈，需 `h × w`，不能只看头顶的容量。使用左右双指针夹逼代码更简单，只需要计算头顶的容量即可。
 
-|{counter:codes}
+|{counter:codes2503}
 |{leetcode_base_url}/edit-distance/[72. 编辑距离^]
 |{doc_base_url}/0072-edit-distance.adoc[题解]
 |✅ 动态规划。思考如何进一步优化成一维数组？
+
+|{counter:codes2503}
+|{leetcode_base_url}/maximum-width-of-binary-tree/[662. Maximum Width of Binary Tree^]
+|{doc_base_url}/0662-maximum-width-of-binary-tree.adoc[题解]
+|⭕️ 添加虚拟节点的做法超时。看答案给节点加编号通过。
 
 |===
 

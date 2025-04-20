@@ -4659,14 +4659,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0661-image-smoother.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/maximum-width-of-binary-tree/[662. Maximum Width of Binary Tree^]
-//|{source_base_url}/_0662_MaximumWidthOfBinaryTree.java[Java]
-//|{doc_base_url}/0662-maximum-width-of-binary-tree.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/maximum-width-of-binary-tree/[662. Maximum Width of Binary Tree^]
+|{source_base_url}/_0662_MaximumWidthOfBinaryTree.java[Java]
+|{doc_base_url}/0662-maximum-width-of-binary-tree.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/equal-tree-partition/[663. Equal Tree Partition^]
 //|{source_base_url}/_0663_EqualTreePartition.java[Java]
