@@ -1,0 +1,2013 @@
+[#bytedance]
+= 字节跳动
+ifndef::doc_base_url[]
+:doc_base_url: link:../docs
+endif::[]
+
+字节跳动常见算法题。
+
+== 最近 30 天
+
+. {doc_base_url}/0001-two-sum.adoc[1.两数之和]
+. {doc_base_url}/0002-add-two-numbers.adoc[2.两数相加]
+. {doc_base_url}/0003-longest-substring-without-repeating-characters.adoc[3.无重复字符的最长子串]
+. {doc_base_url}/0005-longest-palindromic-substring.adoc[5.最长回文子串]
+. {doc_base_url}/0011-container-with-most-water.adoc[11.盛最多水的容器]
+. {doc_base_url}/0015-3sum.adoc[15.三数之和]
+. {doc_base_url}/0023-merge-k-sorted-lists.adoc[23.合并K 个升序链表]
+. {doc_base_url}/0025-reverse-nodes-in-k-group.adoc[25.K个一组翻转链表]
+. {doc_base_url}/0027-remove-element.adoc[27.移除元素]
+. {doc_base_url}/0042-trapping-rain-water.adoc[42.接雨水]
+. {doc_base_url}/0072-edit-distance.adoc[72.编辑距离]
+. {doc_base_url}/0088-merge-sorted-array.adoc[88.合并两个有序数组]
+. {doc_base_url}/0146-lru-cache.adoc[146. LRU 缓存]
+. {doc_base_url}/0020-valid-parentheses.adoc[20.有效的括号]
+. {doc_base_url}/0662-maximum-width-of-binary-tree.adoc[662.二叉树最大宽度]
+. {doc_base_url}/0031-next-permutation.adoc[31.下一个排列]
+. {doc_base_url}/0189-rotate-array.adoc[189.轮转数组]
+. {doc_base_url}/0203-remove-linked-list-elements.adoc[203.移除链表元素]
+. {doc_base_url}/0718-maximum-length-of-repeated-subarray.adoc[718.最长重复子数组]
+. {doc_base_url}/0209-minimum-size-subarray-sum.adoc[209.长度最小的子数组]
+. {doc_base_url}/0131-palindrome-partitioning.adoc[131.分割回文串]
+. {doc_base_url}/0721-accounts-merge.adoc[721.账户合并]
+. {doc_base_url}/0215-kth-largest-element-in-an-array.adoc[215.数组中的第K个最大元素]
+. {doc_base_url}/0092-reverse-linked-list-ii.adoc[92.反转链表Ⅱ]
+. {doc_base_url}/0026-remove-duplicates-from-sorted-array.adoc[26.删除有序数组中的重复项]
+. {doc_base_url}/0059-spiral-matrix-ii.adoc[59.螺旋矩阵Ⅱ]
+. {doc_base_url}/0707-design-linked-list.adoc[707.设计链表]
+. {doc_base_url}/0128-longest-consecutive-sequence.adoc[128.最长连续序列]
+. {doc_base_url}/1081-smallest-subsequence-of-distinct-characters.adoc[1081.不同字符的最小子序列]
+. {doc_base_url}/0200-number-of-islands.adoc[200.岛屿数量]
+. {doc_base_url}/1997-first-day-where-you-have-been-in-all-the-rooms.adoc[1997.访问完所有房间的第一天]
+. {doc_base_url}/0206-reverse-linked-list.adoc[206.反转链表]
+. {doc_base_url}/0021-merge-two-sorted-lists.adoc[21.合并两个有序链表]
+. {doc_base_url}/0056-merge-intervals.adoc[56.合并区间]
+. {doc_base_url}/0121-best-time-to-buy-and-sell-stock.adoc[121.买卖股票的最佳时机]
+. {doc_base_url}/0316-remove-duplicate-letters.adoc[316.去除重复字母]
+. {doc_base_url}/0004-median-of-two-sorted-arrays.adoc[4.寻找两个正序数组的中位数]
+. {doc_base_url}/0008-string-to-integer-atoi.adoc[8.字符串转换整数 (atoi)]
+. {doc_base_url}/0013-roman-to-integer.adoc[13.罗马数字转整数]
+. {doc_base_url}/0530-minimum-absolute-difference-in-bst.adoc[530.二叉搜索树的最小绝对差]
+. {doc_base_url}/0019-remove-nth-node-from-end-of-list.adoc[19.删除链表的倒数第 N 个结点]
+. {doc_base_url}/2850-minimum-moves-to-spread-stones-over-grid.adoc[2850.将石头分散到网格图的最少移动次]
+. {doc_base_url}/0024-swap-nodes-in-pairs.adoc[24.两两交换链表中的节点]
+. {doc_base_url}/0538-convert-bst-to-greater-tree.adoc[538.把二叉搜索树转换为累加树]
+. {doc_base_url}/0030-substring-with-concatenation-of-all-words.adoc[30.串联所有单词的子串]
+. {doc_base_url}/0032-longest-valid-parentheses.adoc[32.最长有效括号]
+. {doc_base_url}/0033-search-in-rotated-sorted-array.adoc[33.搜索旋转排序数组]
+. {doc_base_url}/0037-sudoku-solver.adoc[37.解数独]
+. {doc_base_url}/0039-combination-sum.adoc[39.组合总和]
+. {doc_base_url}/0040-combination-sum-ii.adoc[40.组合总和"]
+. {doc_base_url}/0048-rotate-image.adoc[48.旋转图像]
+. {doc_base_url}/0049-group-anagrams.adoc[49.字母异位词分组]
+. {doc_base_url}/0560-subarray-sum-equals-k.adoc[560.和为K的子数组]
+. {doc_base_url}/0054-spiral-matrix.adoc[54.螺旋矩阵]
+. {doc_base_url}/0569-median-employee-salary.adoc[569.员工薪水中位数]
+. {doc_base_url}/0063-unique-paths-ii.adoc[63.不同路径I]
+. {doc_base_url}/0069-sqrtx.adoc[69.x的平方根]
+. {doc_base_url}/0070-climbing-stairs.adoc[70.爬楼梯]
+. {doc_base_url}/0585-investments-in-2016.adoc[585.2016年的投资]
+. {doc_base_url}/0074-search-a-2d-matrix.adoc[74.搜索二维矩阵]
+. {doc_base_url}/0076-minimum-window-substring.adoc[76.最小覆盖子串]
+. {doc_base_url}/0084-largest-rectangle-in-histogram.adoc[84.柱状图中最大的矩形]
+. {doc_base_url}/1047-remove-all-adjacent-duplicates-in-string.adoc[1047.删除字符串中的所有相邻重复项]
+. {doc_base_url}/0106-construct-binary-tree-from-inorder-and-postorder-traversal.adoc[106.从中序与后序遍历序列构造二叉树]
+. {doc_base_url}/1049-last-stone-weight-ii.adoc[1049.最后一块石头的重量Ⅱ]
+. {doc_base_url}/0108-convert-sorted-array-to-binary-search-tree.adoc[108.将有序数组转换为二叉搜索树]
+. {doc_base_url}/0115-distinct-subsequences.adoc[115.不同的子序列]
+. {doc_base_url}/1530-number-of-good-leaf-nodes-pairs.adoc[1530.好叶子节点对的数量]
+. {doc_base_url}/0122-best-time-to-buy-and-sell-stock-ii.adoc[122.买卖股票的最佳时机 Ⅱ]
+. {doc_base_url}/0123-best-time-to-buy-and-sell-stock-iii.adoc[123.买卖股票的最佳时机 川]
+. {doc_base_url}/0125-valid-palindrome.adoc[125.验证回文串]
+. {doc_base_url}/0136-single-number.adoc[136.只出现一次的数字]
+. {doc_base_url}/0649-dota2-senate.adoc[649. Dota2 参议院]
+. {doc_base_url}/0141-linked-list-cycle.adoc[141.环形链表]
+. {doc_base_url}/0144-binary-tree-preorder-traversal.adoc[144.二叉树的前序遍历]
+. {doc_base_url}/2959-number-of-possible-sets-of-closing-branches.adoc[2959.关闭分部的可行集合数目]
+. {doc_base_url}/0153-find-minimum-in-rotated-sorted-array.adoc[153.寻找旋转排序数组中的最小值]
+. {doc_base_url}/0155-min-stack.adoc[155.最小栈]
+. {doc_base_url}/0670-maximum-swap.adoc[670.最大交换]
+. {doc_base_url}/1115-print-foobar-alternately.adoc[1115.交替打印 FooBa]
+. {doc_base_url}/0167-two-sum-ii-input-array-is-sorted.adoc[167.两数之和Ⅱ-输入有序数组]
+. {doc_base_url}/0180-consecutive-numbers.adoc[180.连续出现的数字]
+. {doc_base_url}/0697-degree-of-an-array.adoc[697.数组的度]
+. {doc_base_url}/1112-highest-grade-for-each-student.adoc[1112.每位学生的最高成绩]
+. {doc_base_url}/0199-binary-tree-right-side-view.adoc[199.二叉树的右视图]
+. {doc_base_url}/0211-design-add-and-search-words-data-structure.adoc[211.添加与搜索单词-数据结构设计]
+. {doc_base_url}/0216-combination-sum-iii.adoc[216.组合总和 川]
+. {doc_base_url}/0221-maximal-square.adoc[221.最大正方形]
+. {doc_base_url}/0224-basic-calculator.adoc[224.基本计算器]
+. {doc_base_url}/0227-basic-calculator-ii.adoc[227.基本计算器 1]
+. {doc_base_url}/2684-maximum-number-of-moves-in-a-grid.adoc[2684.矩阵中移动的最大次数]
+. {doc_base_url}/0239-sliding-window-maximum.adoc[239.滑动窗口最大值]
+. {doc_base_url}/1171-remove-zero-sum-consecutive-nodes-from-linked-list.adoc[1171.从链表中删去总和值为零的连续节点]
+. {doc_base_url}/3086-minimum-moves-to-pick-k-ones.adoc[3086.拾起K个1需要的最少行动次数]
+. {doc_base_url}/0260-single-number-iii.adoc[260.只出现一次的数字 Ⅲ]
+. {doc_base_url}/2703-return-length-of-arguments-passed.adoc[2703.返回传递的参数的长度]
+. {doc_base_url}/1174-immediate-food-delivery-ii.adoc[1174.即时食物配送"]
+. {doc_base_url}/0787-cheapest-flights-within-k-stops.adoc[787.K 站中转内最便宜的航班]
+. {doc_base_url}/0794-valid-tic-tac-toe-state.adoc[794.有效的井字游戏]
+. {doc_base_url}/3099-harshad-number.adoc[3099.哈沙德数]
+. {doc_base_url}/0300-longest-increasing-subsequence.adoc[300.最长递增子序列]
+. {doc_base_url}/3115-maximum-prime-difference.adoc[3115.质数的最大距离]
+. {doc_base_url}/0705-design-hashset.adoc[705.设计哈希集合]
+. {doc_base_url}/2800-shortest-string-that-contains-three-strings.adoc[2800.包含三个字符串的最短字符串]
+. {doc_base_url}/0347-top-k-frequent-elements.adoc[347.前K 个高频元素]
+. {doc_base_url}/2320-count-number-of-ways-to-place-houses.adoc[2320.统计放置房子的方式数]
+. {doc_base_url}/0350-intersection-of-two-arrays-ii.adoc[350.两个数组的交集Ⅱ]
+. {doc_base_url}/1769-minimum-number-of-operations-to-move-all-balls-to-each-box.adoc[1769.移动所有球到每个盒子所需的最小操作数]
+. {doc_base_url}/0392-is-subsequence.adoc[392.判断子序列]
+. {doc_base_url}/0409-longest-palindrome.adoc[409.最长回文串]
+. {doc_base_url}/1839-longest-substring-of-all-vowels-in-order.adoc[1839.所有元音按顺序排布的最长子字符串]
+. {doc_base_url}/0918-maximum-sum-circular-subarray.adoc[918.环形子数组的最大和]
+. {doc_base_url}/1349-maximum-students-taking-exam.adoc[1349.参加考试的最大学生数]
+. {doc_base_url}/0452-minimum-number-of-arrows-to-burst-balloons.adoc[452.用最少数量的箭引爆气球]
+. {doc_base_url}/1378-replace-employee-id-with-the-unique-identifier.adoc[1378.使用唯一标识码替换员工ID]
+. {doc_base_url}/0509-fibonacci-number.adoc[509.斐波那契数]
+
+== 最近 3 个月
+
+. {doc_base_url}/0001-two-sum.adoc[1.两数之和]
+. {doc_base_url}/0002-add-two-numbers.adoc[2. 两数相加]
+. {doc_base_url}/0003-longest-substring-without-repeating-characters.adoc[3.无重复字符的最长子串]
+. {doc_base_url}/0004-median-of-two-sorted-arrays.adoc[4.寻找两个正序数组的中位数]
+. {doc_base_url}/0005-longest-palindromic-substring.adoc[5.最长回文子串]
+. {doc_base_url}/0007-reverse-integer.adoc[7.整数反转]
+. {doc_base_url}/0011-container-with-most-water.adoc[11.盛最多水的容器]
+. {doc_base_url}/0994-rotting-oranges.adoc[994.腐烂的橘子]
+. {doc_base_url}/0014-longest-common-prefix.adoc[14.最长公共前缓]
+. {doc_base_url}/0015-3sum.adoc[15.三数之和]
+. {doc_base_url}/0016-3sum-closest.adoc[16.最接近的三数之和]
+. {doc_base_url}/0017-letter-combinations-of-a-phone-number.adoc[17.电话号码的字母组合]
+. {doc_base_url}/0019-remove-nth-node-from-end-of-list.adoc[19.删除链表的倒数第 N 个结点]
+. {doc_base_url}/0020-valid-parentheses.adoc[20.有效的括号]
+. {doc_base_url}/0021-merge-two-sorted-lists.adoc[21.合并两个有序链表]
+. {doc_base_url}/0022-generate-parentheses.adoc[22.括号生成]
+. {doc_base_url}/0023-merge-k-sorted-lists.adoc[23.合并K个升序链表]
+. {doc_base_url}/0024-swap-nodes-in-pairs.adoc[24.两两交换链表中的节点]
+. {doc_base_url}/0025-reverse-nodes-in-k-group.adoc[25.K个一组翻转链表]
+. {doc_base_url}/0026-remove-duplicates-from-sorted-array.adoc[26.删除有序数组中的重复项]
+. {doc_base_url}/0027-remove-element.adoc[27.移除元素]
+. {doc_base_url}/0028-find-the-index-of-the-first-occurrence-in-a-string.adoc[28.找出字符串中第一个匹配项的下标]
+. {doc_base_url}/0031-next-permutation.adoc[31.下一个排列]
+. {doc_base_url}/0033-search-in-rotated-sorted-array.adoc[33.搜索旋转排序数组]
+. {doc_base_url}/0034-find-first-and-last-position-of-element-in-sorted-array.adoc[34.在排序数组中查找元素的第一个和最后一个位置]
+. {doc_base_url}/0036-valid-sudoku.adoc[36.有效的数独]
+. {doc_base_url}/0037-sudoku-solver.adoc[37.解数独]
+. {doc_base_url}/0040-combination-sum-ii.adoc[40.组合总和川]
+. {doc_base_url}/0041-first-missing-positive.adoc[41.缺失的第一个正数]
+. {doc_base_url}/0042-trapping-rain-water.adoc[42.接雨水]
+. {doc_base_url}/0045-jump-game-ii.adoc[45.跳跃游戏Ⅱ]
+. {doc_base_url}/0048-rotate-image.adoc[48.旋转图像]
+. {doc_base_url}/0049-group-anagrams.adoc[49.字母异位词分组]
+. {doc_base_url}/0053-maximum-subarray.adoc[53.最大子数组和]
+. {doc_base_url}/0054-spiral-matrix.adoc[54.螺旋矩阵]
+. {doc_base_url}/0055-jump-game.adoc[55.跳跃游戏]
+. {doc_base_url}/0056-merge-intervals.adoc[56.合并区间]
+. {doc_base_url}/0064-minimum-path-sum.adoc[64.最小路径和]
+. {doc_base_url}/0069-sqrtx.adoc[69.x的平方根]
+. {doc_base_url}/0070-climbing-stairs.adoc[70.爬楼梯]
+. {doc_base_url}/0072-edit-distance.adoc[72.编辑距离]
+. {doc_base_url}/0074-search-a-2d-matrix.adoc[74.搜索二维矩阵]
+. {doc_base_url}/0076-minimum-window-substring.adoc[76.最小覆盖子串]
+. {doc_base_url}/0080-remove-duplicates-from-sorted-array-ii.adoc[80.删除有序数组中的重复项I]
+. {doc_base_url}/0082-remove-duplicates-from-sorted-list-ii.adoc[82.删除排序链表中的重复元素|]
+. {doc_base_url}/0083-remove-duplicates-from-sorted-list.adoc[83.删除排序链表中的重复元素]
+. {doc_base_url}/0084-largest-rectangle-in-histogram.adoc[84.柱状图中最大的矩形]
+. {doc_base_url}/0088-merge-sorted-array.adoc[88.合并两个有序数组]
+. {doc_base_url}/0091-decode-ways.adoc[91.解码方法]
+. {doc_base_url}/0094-binary-tree-inorder-traversal.adoc[94.二叉树的中序遍历]
+. {doc_base_url}/0096-unique-binary-search-trees.adoc[96.不同的二叉搜索树]
+. {doc_base_url}/0097-interleaving-string.adoc[97.交错字符串]
+. {doc_base_url}/0102-binary-tree-level-order-traversal.adoc[102.二叉树的层序遍历]
+. {doc_base_url}/0105-construct-binary-tree-from-preorder-and-inorder-traversal.adoc[105.从前序与中序遍历序列构造二叉树]
+. {doc_base_url}/0121-best-time-to-buy-and-sell-stock.adoc[121.买卖股票的最佳时机]
+. {doc_base_url}/0125-valid-palindrome.adoc[125.验证回文串]
+. {doc_base_url}/0128-longest-consecutive-sequence.adoc[128.最长连续序列]
+. {doc_base_url}/0131-palindrome-partitioning.adoc[131.分割回文串]
+. {doc_base_url}/0134-gas-station.adoc[134.加油站]
+. {doc_base_url}/0135-candy.adoc[135.分发糖果]
+. {doc_base_url}/0136-single-number.adoc[136.只出现一次的数字]
+. {doc_base_url}/0138-copy-list-with-random-pointer.adoc[138.随机链表的复制]
+. {doc_base_url}/0141-linked-list-cycle.adoc[141.环形链表]
+. {doc_base_url}/0143-reorder-list.adoc[143.重排链表]
+. {doc_base_url}/0146-lru-cache.adoc[146.LRU 缓存]
+. {doc_base_url}/0148-sort-list.adoc[148.排序链表]
+. {doc_base_url}/0155-min-stack.adoc[155.最小栈]
+. {doc_base_url}/0160-intersection-of-two-linked-lists.adoc[160.相交链表]
+. {doc_base_url}/0175-combine-two-tables.adoc[175.组合两个表]
+. {doc_base_url}/0178-rank-scores.adoc[178.分数排名]
+. {doc_base_url}/0179-largest-number.adoc[179.最大数]
+. {doc_base_url}/0180-consecutive-numbers.adoc[180.连续出现的数字]
+. {doc_base_url}/0181-employees-earning-more-than-their-managers.adoc[181.超过经理收入的员工]
+. {doc_base_url}/0185-department-top-three-salaries.adoc[185.部门工资前三高的所有员工]
+. {doc_base_url}/0189-rotate-array.adoc[189.轮转数组]
+. {doc_base_url}/0191-number-of-1-bits.adoc[191.位1的个数]
+. {doc_base_url}/0198-house-robber.adoc[198.打家劫舍]
+. {doc_base_url}/0199-binary-tree-right-side-view.adoc[199.二叉树的右视图200.岛屿数量]
+. {doc_base_url}/0206-reverse-linked-list.adoc[206.反转链表]
+. {doc_base_url}/0215-kth-largest-element-in-an-array.adoc[215.数组中的第K个最大元素]
+. {doc_base_url}/0221-maximal-square.adoc[221.最大正方形]
+. {doc_base_url}/0226-invert-binary-tree.adoc[226.翻转二叉树]
+. {doc_base_url}/0227-basic-calculator-ii.adoc[227.基本计算器Ⅱ]
+. {doc_base_url}/1143-longest-common-subsequence.adoc[1143.最长公共子序列]
+. {doc_base_url}/0234-palindrome-linked-list.adoc[234.回文链表]
+. {doc_base_url}/0236-lowest-common-ancestor-of-a-binary-tree.adoc[236.二叉树的最近公共祖先]
+. {doc_base_url}/0239-sliding-window-maximum.adoc[239.滑动窗口最大值]
+. {doc_base_url}/0240-search-a-2d-matrix-ii.adoc[240.搜索二维矩阵I]
+. {doc_base_url}/0260-single-number-iii.adoc[260.只出现一次的数字 I]
+. {doc_base_url}/0274-h-index.adoc[274.H指数]
+. {doc_base_url}/0283-move-zeroes.adoc[283.移动零]
+. {doc_base_url}/0300-longest-increasing-subsequence.adoc[300.最长递增子序列]
+. {doc_base_url}/0343-integer-break.adoc[343.整数拆分]
+. {doc_base_url}/0347-top-k-frequent-elements.adoc[347.前K 个高频元素]
+. {doc_base_url}/0349-intersection-of-two-arrays.adoc[349.两个数组的交集]
+. {doc_base_url}/1251-average-selling-price.adoc[1251.平均售价]
+. {doc_base_url}/0377-combination-sum-iv.adoc[377.组合总和 I]
+. {doc_base_url}/0380-insert-delete-getrandom-o1.adoc[380.O(1)时间插入、删除和获取随机元素]
+. {doc_base_url}/0387-first-unique-character-in-a-string.adoc[387.字符串中的第一个唯一字符]
+. {doc_base_url}/0392-is-subsequence.adoc[392.判断子序列]
+. {doc_base_url}/0416-partition-equal-subset-sum.adoc[416.分割等和子集]
+. {doc_base_url}/0438-find-all-anagrams-in-a-string.adoc[438.找到字符串中所有字母异位词]
+. {doc_base_url}/0514-freedom-trail.adoc[514.自由之路]
+. {doc_base_url}/0560-subarray-sum-equals-k.adoc[560.和为K的子数组]
+. {doc_base_url}/0584-find-customer-referee.adoc[584.寻找用户推荐人]
+. {doc_base_url}/1502-can-make-arithmetic-progression-from-sequence.adoc[1502.判断能否形成等差数列]
+. {doc_base_url}/0617-merge-two-binary-trees.adoc[617.合并二叉树]
+. {doc_base_url}/1539-kth-missing-positive-number.adoc[1539.第k个缺失的正整数]
+. {doc_base_url}/0670-maximum-swap.adoc[670.最大交换]
+. {doc_base_url}/1581-customer-who-visited-but-did-not-make-any-transactions.adoc[1581.进店却未进行过交易的顾客]
+. {doc_base_url}/0718-maximum-length-of-repeated-subarray.adoc[718.最长重复子数组]
+. {doc_base_url}/0763-partition-labels.adoc[763.划分字母区间]
+. {doc_base_url}/0704-binary-search.adoc[704.二分查找]
+. {doc_base_url}/0707-design-linked-list.adoc[707.设计链表]
+. {doc_base_url}/0977-squares-of-a-sorted-array.adoc[977.有序数组的平方]
+. {doc_base_url}/0522-longest-uncommon-subsequence-ii.adoc[522.最长特殊序列Ⅱ]
+. {doc_base_url}/0151-reverse-words-in-a-string.adoc[151.反转字符串中的单词]
+. {doc_base_url}/0918-maximum-sum-circular-subarray.adoc[918.环形子数组的最大和]
+. {doc_base_url}/0008-string-to-integer-atoi.adoc[8.字符串转换整数 (atoi)]
+. {doc_base_url}/2813-maximum-elegance-of-a-k-length-subsequence.adoc[2813.子序列最大优雅度]
+. {doc_base_url}/0124-binary-tree-maximum-path-sum.adoc[124.二叉树中的最大路径和]
+. {doc_base_url}/0394-decode-string.adoc[394.字符串解码]
+. {doc_base_url}/0662-maximum-width-of-binary-tree.adoc[662.二叉树最大宽度]
+. {doc_base_url}/0059-spiral-matrix-ii.adoc[59.螺旋矩阵Ⅱ]
+. {doc_base_url}/0203-remove-linked-list-elements.adoc[203.移除链表元素]
+. {doc_base_url}/0209-minimum-size-subarray-sum.adoc[209.长度最小的子数组]
+. {doc_base_url}/0721-accounts-merge.adoc[721.账户合并]
+. {doc_base_url}/0092-reverse-linked-list-ii.adoc[92.反转链表 Ⅱ]
+. {doc_base_url}/1081-smallest-subsequence-of-distinct-characters.adoc[1081.不同字符的最小子序列]
+. {doc_base_url}/1997-first-day-where-you-have-been-in-all-the-rooms.adoc[1997.访问完所有房间的第一天]
+. {doc_base_url}/0122-best-time-to-buy-and-sell-stock-ii.adoc[122.买卖股票的最佳时机 I]
+. {doc_base_url}/0316-remove-duplicate-letters.adoc[316.去除重复字母]
+. {doc_base_url}/0986-interval-list-intersections.adoc[986.区间列表的交集]
+. {doc_base_url}/0006-zigzag-conversion.adoc[6.Z 字形变换]
+. {doc_base_url}/2476-closest-nodes-queries-in-a-binary-search-tree.adoc[2476.二叉搜索树最近节点查询]
+. {doc_base_url}/0521-longest-uncommon-subsequence-i.adoc[521.最长特殊序列I]
+. {doc_base_url}/0010-regular-expression-matching.adoc[10.正则表达式匹配]
+. {doc_base_url}/0523-continuous-subarray-sum.adoc[523.连续的子数组和]
+. {doc_base_url}/0012-integer-to-roman.adoc[12.整数转罗马数字]
+. {doc_base_url}/0013-roman-to-integer.adoc[13.罗马数字转整数]
+. {doc_base_url}/1442-count-triplets-that-can-form-two-arrays-of-equal-xor.adoc[1442.形成两个异或相等数组的三元组数目]
+. {doc_base_url}/0018-4sum.adoc[18.四数之和]
+. {doc_base_url}/0530-minimum-absolute-difference-in-bst.adoc[530.二叉搜索树的最小绝对差]
+. {doc_base_url}/2850-minimum-moves-to-spread-stones-over-grid.adoc[2850.将石头分散到网格图的最少移动次数]
+. {doc_base_url}/1004-max-consecutive-ones-iii.adoc[1004.最大连续1的个数 II]
+. {doc_base_url}/1450-number-of-students-doing-homework-at-a-given-time.adoc[1450.在既定时间做作业的学生人数]
+. {doc_base_url}/0537-complex-number-multiplication.adoc[537.复数乘法]
+. {doc_base_url}/0538-convert-bst-to-greater-tree.adoc[538.把二叉搜索树转换为累加树]
+. {doc_base_url}/0541-reverse-string-ii.adoc[541.反转字符串 Ⅱ]
+. {doc_base_url}/0030-substring-with-concatenation-of-all-words.adoc[30.串联所有单词的子串]
+. {doc_base_url}/0542-01-matrix.adoc[542.01 矩阵]
+. {doc_base_url}/0032-longest-valid-parentheses.adoc[32.最长有效括号]
+. {doc_base_url}/1953-maximum-number-of-weeks-for-which-you-can-work.adoc[1953.你可以工作的最大周数]
+. {doc_base_url}/0039-combination-sum.adoc[39.组合总和]
+. {doc_base_url}/0552-student-attendance-record-ii.adoc[552.学生出勤记录I]
+. {doc_base_url}/0043-multiply-strings.adoc[43.字符串相乘]
+. {doc_base_url}/0044-wildcard-matching.adoc[44.通配符匹配]
+. {doc_base_url}/0046-permutations.adoc[46.全排列]
+. {doc_base_url}/0047-permutations-ii.adoc[47.全排列川]
+. {doc_base_url}/1017-convert-to-base-2.adoc[1017.负二进制转换]
+. {doc_base_url}/0050-powx-n.adoc[50. Pow(x, n)]
+. {doc_base_url}/0051-n-queens.adoc[51.N皇后]
+. {doc_base_url}/0057-insert-interval.adoc[57.插入区间]
+. {doc_base_url}/0569-median-employee-salary.adoc[569.员工薪水中位数]
+. {doc_base_url}/0061-rotate-list.adoc[61.旋转链表]
+. {doc_base_url}/0062-unique-paths.adoc[62.不同路径]
+. {doc_base_url}/0063-unique-paths-ii.adoc[63.不同路径Ⅱ]
+. {doc_base_url}/1965-employees-with-missing-information.adoc[1965.丢失信息的雇员]
+. {doc_base_url}/0577-employee-bonus.adoc[577.员工奖金]
+. {doc_base_url}/2007-find-original-array-from-doubled-array.adoc[2007.从双倍数组中还原原数组]
+. {doc_base_url}/0585-investments-in-2016.adoc[585.2016年的投资]
+. {doc_base_url}/0075-sort-colors.adoc[75.颜色分类]
+. {doc_base_url}/0078-subsets.adoc[78.子集]
+. {doc_base_url}/0079-word-search.adoc[79.单词搜索]
+. {doc_base_url}/0595-big-countries.adoc[595.大的国家]
+. {doc_base_url}/0085-maximal-rectangle.adoc[85.最大矩形]
+. {doc_base_url}/0089-gray-code.adoc[89.格雷编码]
+. {doc_base_url}/0093-restore-ip-addresses.adoc[93.复原IP 地址]
+. {doc_base_url}/0605-can-place-flowers.adoc[605.种花问题]
+. {doc_base_url}/0608-tree-node.adoc[608.树节点]
+. {doc_base_url}/2588-count-the-number-of-beautiful-subarrays.adoc[2588.统计美丽子数组数目]
+. {doc_base_url}/2589-minimum-time-to-complete-all-tasks.adoc[2589.完成所有任务的最少时间]
+. {doc_base_url}/0099-recover-binary-search-tree.adoc[99.恢复二叉搜索树]
+. {doc_base_url}/0100-same-tree.adoc[100.相同的树]
+. {doc_base_url}/0103-binary-tree-zigzag-level-order-traversal.adoc[103.二叉树的锯齿形层序遍历]
+. {doc_base_url}/1047-remove-all-adjacent-duplicates-in-string.adoc[1047.删除字符串中的所有相邻重复项]
+. {doc_base_url}/2594-minimum-time-to-repair-cars.adoc[2594.修车的最少时间]
+. {doc_base_url}/0106-construct-binary-tree-from-inorder-and-postorder-traversal.adoc[106.从中序与后序遍历序列构造二叉树]
+. {doc_base_url}/1049-last-stone-weight-ii.adoc[1049.最后一块石头的重量I]
+. {doc_base_url}/0108-convert-sorted-array-to-binary-search-tree.adoc[108.将有序数组转换为二叉搜索树]
+. {doc_base_url}/0110-balanced-binary-tree.adoc[110.平衡二叉树]
+. {doc_base_url}/0114-flatten-binary-tree-to-linked-list.adoc[114.二叉树展开为链表]
+. {doc_base_url}/0115-distinct-subsequences.adoc[115.不同的子序列]
+. {doc_base_url}/1052-grumpy-bookstore-owner.adoc[1052.爱生气的书店老板]
+. {doc_base_url}/1530-number-of-good-leaf-nodes-pairs.adoc[1530.好叶子节点对的数量]
+. {doc_base_url}/2552-count-increasing-quadruplets.adoc[2552.统计上升四元组]
+. {doc_base_url}/0123-best-time-to-buy-and-sell-stock-iii.adoc[123.买卖股票的最佳时机 川]
+. {doc_base_url}/2663-lexicographically-smallest-beautiful-string.adoc[2663.字典序最小的美丽字符串]
+. {doc_base_url}/2928-distribute-candies-among-children-i.adoc[2928.给小朋友们分糖果I]
+. {doc_base_url}/1542-find-longest-awesome-substring.adoc[1542.找出最长的超赞子字符串]
+. {doc_base_url}/1079-letter-tile-possibilities.adoc[1079.活字印刷]
+. {doc_base_url}/0649-dota2-senate.adoc[649.Dota2 参议院]
+. {doc_base_url}/0650-2-keys-keyboard.adoc[650.两个键的键盘]
+. {doc_base_url}/1075-project-employees-i.adoc[1075.项目员工!]
+. {doc_base_url}/0142-linked-list-cycle-ii.adoc[142.环形链表 Ⅱ]
+. {doc_base_url}/0654-maximum-binary-tree.adoc[654.最大二叉树]
+. {doc_base_url}/0144-binary-tree-preorder-traversal.adoc[144.二叉树的前序遍历]
+. {doc_base_url}/0145-binary-tree-postorder-traversal.adoc[145.二叉树的后序遍历]
+. {doc_base_url}/2959-number-of-possible-sets-of-closing-branches.adoc[2959.关闭分部的可行集合数目]
+. {doc_base_url}/0152-maximum-product-subarray.adoc[152.乘积最大子数组]
+. {doc_base_url}/0153-find-minimum-in-rotated-sorted-array.adoc[153.寻找旋转排序数组中的最小值]
+. {doc_base_url}/2965-find-missing-and-repeated-values.adoc[2965.找出缺失和重复的数字]
+. {doc_base_url}/0162-find-peak-element.adoc[162.寻找峰值]
+. {doc_base_url}/1115-print-foobar-alternately.adoc[1115.交替打印 FooBar]
+. {doc_base_url}/0165-compare-version-numbers.adoc[165.比较版本号]
+. {doc_base_url}/0167-two-sum-ii-input-array-is-sorted.adoc[167.两数之和 Ⅱ- 输入有序数组]
+. {doc_base_url}/1103-distribute-candies-to-people.adoc[1103.分糖果Ⅱ]
+. {doc_base_url}/2105-watering-plants-ii.adoc[2105.给植物浇水 Ⅱ]
+. {doc_base_url}/0697-degree-of-an-array.adoc[697.数组的度]
+. {doc_base_url}/0188-best-time-to-buy-and-sell-stock-iv.adoc[188.买卖股票的最佳时机IV]
+. {doc_base_url}/1112-highest-grade-for-each-student.adoc[1112.每位学生的最高成绩]
+. {doc_base_url}/1116-print-zero-even-odd.adoc[1116.打印零与奇偶数]
+. {doc_base_url}/0713-subarray-product-less-than-k.adoc[713.乘积小于K的子数组]
+. {doc_base_url}/0202-happy-number.adoc[202.快乐数]
+. {doc_base_url}/0714-best-time-to-buy-and-sell-stock-with-transaction-fee.adoc[714.买卖股票的最佳时机含手续费]
+. {doc_base_url}/2626-array-reduce-transformation.adoc[2626.数组归约运算]
+. {doc_base_url}/0207-course-schedule.adoc[207.课程表]
+. {doc_base_url}/0208-implement-trie-prefix-tree.adoc[208.实现 Trie (前缀树)]
+. {doc_base_url}/0211-design-add-and-search-words-data-structure.adoc[211.添加与搜索单词-数据结构设计]
+. {doc_base_url}/0724-find-pivot-index.adoc[724.寻找数组的中心下标]
+. {doc_base_url}/2648-generate-fibonacci-sequence.adoc[2648.生成斐波那契数列]
+. {doc_base_url}/0216-combination-sum-iii.adoc[216.组合总和 川]
+. {doc_base_url}/1141-user-activity-for-the-past-30-days-i.adoc[1141.查询近30天活跃用户数]
+. {doc_base_url}/0224-basic-calculator.adoc[224.基本计算器]
+. {doc_base_url}/0228-summary-ranges.adoc[228.汇总区间]
+. {doc_base_url}/2684-maximum-number-of-moves-in-a-grid.adoc[2684.矩阵中移动的最大次数]
+. {doc_base_url}/0237-delete-node-in-a-linked-list.adoc[237.删除链表中的节点]
+. {doc_base_url}/0238-product-of-array-except-self.adoc[238.除自身以外数组的乘积]
+. {doc_base_url}/0242-valid-anagram.adoc[242.有效的字母异位词]
+. {doc_base_url}/1171-remove-zero-sum-consecutive-nodes-from-linked-list.adoc[1171.从链表中删去总和值为零的连续节点]
+. {doc_base_url}/3040-maximum-number-of-operations-with-the-same-score-ii.adoc[3040.相同分数的最大操作数目I]
+. {doc_base_url}/2181-merge-nodes-in-between-zeros.adoc[2181.合并零之间的节点]
+. {doc_base_url}/2769-find-the-maximum-achievable-number.adoc[2769.找出最大的可达成数字]
+. {doc_base_url}/3086-minimum-moves-to-pick-k-ones.adoc[3086.拾起K个1需要的最少行动次数]
+. {doc_base_url}/2703-return-length-of-arguments-passed.adoc[2703.返回传递的参数的长度]
+. {doc_base_url}/0264-ugly-number-ii.adoc[264.丑数1]
+. {doc_base_url}/1661-average-time-of-process-per-machine.adoc[1661.每台机器的进程平均运行时间]
+. {doc_base_url}/1174-immediate-food-delivery-ii.adoc[1174.即时食物配送Ⅱ]
+. {doc_base_url}/2831-find-the-longest-equal-subarray.adoc[2831.找出最长等值子数组]
+. {doc_base_url}/2749-minimum-operations-to-make-the-integer-zero.adoc[2749.得到整数零需要执行的最少操作数]
+. {doc_base_url}/1695-maximum-erasure-value.adoc[1695.删除子数组的最大得分]
+. {doc_base_url}/0279-perfect-squares.adoc[279.完全平方数]
+. {doc_base_url}/1405-longest-happy-string.adoc[1405.最长快乐字符串]
+. {doc_base_url}/1723-find-minimum-time-to-finish-all-jobs.adoc[1723.完成所有工作的最短时间]
+. {doc_base_url}/0290-word-pattern.adoc[290.单词规律]
+. {doc_base_url}/0787-cheapest-flights-within-k-stops.adoc[787.K站中转内最便宜的航班]
+. {doc_base_url}/1683-invalid-tweets.adoc[1683.无效的推文]
+. {doc_base_url}/1208-get-equal-substrings-within-budget.adoc[1208.尽可能使字符串相等794.有效的井字游戏]
+. {doc_base_url}/3099-harshad-number.adoc[3099.哈沙德数]
+. {doc_base_url}/3115-maximum-prime-difference.adoc[3115.质数的最大距离]
+. {doc_base_url}/2725-interval-cancellation.adoc[2725.间隔取消]
+. {doc_base_url}/1204-last-person-to-fit-in-the-bus.adoc[1204.最后一个能进入巴士的人]
+. {doc_base_url}/0705-design-hashset.adoc[705.设计哈希集合]
+. {doc_base_url}/1219-path-with-maximum-gold.adoc[1219.黄金矿工]
+. {doc_base_url}/2762-continuous-subarrays.adoc[2762.不间断子数组]
+. {doc_base_url}/2276-count-integers-in-intervals.adoc[2276.统计区间中的整数数目]
+. {doc_base_url}/0310-minimum-height-trees.adoc[310.最小高度树]
+. {doc_base_url}/2771-longest-non-decreasing-subarray-from-two-arrays.adoc[2771.构造最长非递减子数组]
+. {doc_base_url}/0312-burst-balloons.adoc[312.截气球]
+. {doc_base_url}/3110-score-of-a-string.adoc[3110.字符串的分数]
+. {doc_base_url}/2244-minimum-rounds-to-complete-all-tasks.adoc[2244.完成所有任务需要的最少轮数]
+. {doc_base_url}/2800-shortest-string-that-contains-three-strings.adoc[2800.包含三个字符串的最短字符串]
+. {doc_base_url}/0322-coin-change.adoc[322.零钱兑换]
+. {doc_base_url}/1738-find-kth-largest-xor-coordinate-value.adoc[1738.找出第K大的异或坐标值]
+. {doc_base_url}/2293-min-max-game.adoc[2293.极大极小游戏]
+. {doc_base_url}/0828-count-unique-characters-of-all-substrings-of-a-given-string.adoc[828.统计子串中的唯一字符]
+. {doc_base_url}/0829-consecutive-numbers-sum.adoc[829.连续整数求和]
+. {doc_base_url}/0345-reverse-vowels-of-a-string.adoc[345.反转字符串中的元音字母]
+. {doc_base_url}/2320-count-number-of-ways-to-place-houses.adoc[2320.统计放置房子的方式数]
+. {doc_base_url}/0350-intersection-of-two-arrays-ii.adoc[350.两个数组的交集Ⅱ]
+. {doc_base_url}/2812-find-the-safest-path-in-a-grid.adoc[2812.找出最安全路径]
+. {doc_base_url}/1255-maximum-score-words-formed-by-letters.adoc[1255.得分最高的单词集合]
+. {doc_base_url}/3149-find-the-minimum-cost-array-permutation.adoc[3149.找出分数最低的排列]
+. {doc_base_url}/0842-split-array-into-fibonacci-sequence.adoc[842.将数组拆分成斐波那契序列]
+. {doc_base_url}/3160-find-the-number-of-distinct-colors-among-the-balls.adoc[3160.所有球里面不同颜色的数目]
+. {doc_base_url}/1769-minimum-number-of-operations-to-move-all-balls-to-each-box.adoc[1769.移动所有球到每个盒子所需的最小操作类]
+. {doc_base_url}/3171-find-subarray-with-bitwise-or-closest-to-k.adoc[3171.找到按位或最接近K的子数组]
+. {doc_base_url}/3180-maximum-total-reward-using-operations-i.adoc[3180.执行操作可获得的最大总奖励1]
+. {doc_base_url}/1268-search-suggestions-system.adoc[1268.搜索推荐系统]
+. {doc_base_url}/0862-shortest-subarray-with-sum-at-least-k.adoc[862.和至少为K 的最短子数组]
+. {doc_base_url}/0863-all-nodes-distance-k-in-binary-tree.adoc[863.二叉树中所有距离为K的结点]
+. {doc_base_url}/0383-ransom-note.adoc[383.赎金信]
+. {doc_base_url}/3197-find-the-minimum-area-to-cover-all-ones-ii.adoc[3197.包含所有1的最小矩形面积 Ⅱ]
+. {doc_base_url}/0875-koko-eating-bananas.adoc[875.爱吃香蕉的珂珂]
+. {doc_base_url}/0396-rotate-function.adoc[396.旋转函数]
+. {doc_base_url}/0402-remove-k-digits.adoc[402.移掉K 位数字]
+. {doc_base_url}/1789-primary-department-for-each-employee.adoc[1789.员工的直属部门]
+. {doc_base_url}/0409-longest-palindrome.adoc[409.最长回文串]
+. {doc_base_url}/0414-third-maximum-number.adoc[414.第三大的数]
+. {doc_base_url}/0417-pacific-atlantic-water-flow.adoc[417.太平洋大西洋水流问题]
+. {doc_base_url}/0421-maximum-xor-of-two-numbers-in-an-array.adoc[421.数组中两个数的最大异或值]
+. {doc_base_url}/2391-minimum-amount-of-time-to-collect-garbage.adoc[2391.收集垃圾的最少总时间]
+. {doc_base_url}/0901-online-stock-span.adoc[901.股票价格跨度]
+. {doc_base_url}/0907-sum-of-subarray-minimums.adoc[907.子数组的最小值之和]
+. {doc_base_url}/1839-longest-substring-of-all-vowels-in-order.adoc[1839.所有元音按顺序排布的最长子字符串]
+. {doc_base_url}/0912-sort-an-array.adoc[912.排序数组]
+. {doc_base_url}/1849-splitting-a-string-into-descending-consecutive-values.adoc[1849.将字符串拆分为递减的连续值]
+. {doc_base_url}/1349-maximum-students-taking-exam.adoc[1349.参加考试的最大学生数]
+. {doc_base_url}/0448-find-all-numbers-disappeared-in-an-array.adoc[448.找到所有数组中消失的数字]
+. {doc_base_url}/0451-sort-characters-by-frequency.adoc[451.根据字符出现频率排序]
+. {doc_base_url}/0452-minimum-number-of-arrows-to-burst-balloons.adoc[452.用最少数量的箭引爆气球]
+. {doc_base_url}/0453-minimum-moves-to-equal-array-elements.adoc[453.最小操作次数使数组元素相等]
+. {doc_base_url}/0454-4sum-ii.adoc[454.四数相加 I]
+. {doc_base_url}/0455-assign-cookies.adoc[455.分发饼干]
+. {doc_base_url}/0930-binary-subarrays-with-sum.adoc[930.和相同的二元子数组]
+. {doc_base_url}/0946-validate-stack-sequences.adoc[946.验证栈序列]
+. {doc_base_url}/0474-ones-and-zeroes.adoc[474.一和零]
+. {doc_base_url}/0480-sliding-window-median.adoc[480.滑动窗口中位数]
+. {doc_base_url}/2439-minimize-maximum-of-array.adoc[2439.最小化数组中的最大值]
+. {doc_base_url}/1378-replace-employee-id-with-the-unique-identifier.adoc[1378.使用唯一标识码替换员工ID]
+. {doc_base_url}/0486-predict-the-winner.adoc[486.预测赢家]
+. {doc_base_url}/0965-univalued-binary-tree.adoc[965.单值二叉树]
+. {doc_base_url}/0509-fibonacci-number.adoc[509.斐波那契数]
+. {doc_base_url}/0503-next-greater-element-ii.adoc[503.下一个更大元素 Ⅱ]
+
+== 最近 6 个月
+
+. {doc_base_url}/0001-two-sum.adoc[1.两数之和]
+. {doc_base_url}/0003-longest-substring-without-repeating-characters.adoc[3.无重复字符的最长子串]
+. {doc_base_url}/0988-smallest-string-starting-from-leaf.adoc[988.从叶结点开始的最小字符串]
+. {doc_base_url}/0007-reverse-integer.adoc[7.整数反转]
+. {doc_base_url}/0008-string-to-integer-atoi.adoc[8.字符串转换整数 (atoi)]
+. {doc_base_url}/0009-palindrome-number.adoc[9.回文数]
+. {doc_base_url}/0011-container-with-most-water.adoc[11.盛最多水的容器]
+. {doc_base_url}/0012-integer-to-roman.adoc[12.整数转罗马数字]
+. {doc_base_url}/0002-add-two-numbers.adoc[2.两数相加]
+. {doc_base_url}/0015-3sum.adoc[15.三数之和]
+. {doc_base_url}/0016-3sum-closest.adoc[16.最接近的三数之和]
+. {doc_base_url}/0017-letter-combinations-of-a-phone-number.adoc[17.电话号码的字母组合]
+. {doc_base_url}/0018-4sum.adoc[18.四数之和]
+. {doc_base_url}/0019-remove-nth-node-from-end-of-list.adoc[19.删除链表的倒数第 N 个结点]
+. {doc_base_url}/0020-valid-parentheses.adoc[20.有效的括号]
+. {doc_base_url}/0021-merge-two-sorted-lists.adoc[21.合并两个有序链表]
+. {doc_base_url}/0022-generate-parentheses.adoc[22.括号生成]
+. {doc_base_url}/0023-merge-k-sorted-lists.adoc[23.合并K个升序链表]
+. {doc_base_url}/0024-swap-nodes-in-pairs.adoc[24.两两交换链表中的节点]
+. {doc_base_url}/0004-median-of-two-sorted-arrays.adoc[4.寻找两个正序数组的中位数]
+. {doc_base_url}/0026-remove-duplicates-from-sorted-array.adoc[26.删除有序数组中的重复项]
+. {doc_base_url}/0027-remove-element.adoc[27.移除元素]
+. {doc_base_url}/0028-find-the-index-of-the-first-occurrence-in-a-string.adoc[28.找出字符串中第一个匹配项的下标]
+. {doc_base_url}/0025-reverse-nodes-in-k-group.adoc[25.K个一组翻转链表]
+. {doc_base_url}/0005-longest-palindromic-substring.adoc[5.最长回文子串]
+. {doc_base_url}/0031-next-permutation.adoc[31.下一个排列]
+. {doc_base_url}/0033-search-in-rotated-sorted-array.adoc[33.搜索旋转排序数组]
+. {doc_base_url}/0034-find-first-and-last-position-of-element-in-sorted-array.adoc[34.在排序数组中查找元素的第一个和最后一个位置]
+. {doc_base_url}/0035-search-insert-position.adoc[35.搜索插入位置]
+. {doc_base_url}/0037-sudoku-solver.adoc[37.解数独]
+. {doc_base_url}/0040-combination-sum-ii.adoc[40.组合总和川]
+. {doc_base_url}/0041-first-missing-positive.adoc[41.缺失的第一个正数]
+. {doc_base_url}/0043-multiply-strings.adoc[43.字符串相乘]
+. {doc_base_url}/0039-combination-sum.adoc[39.组合总和]
+. {doc_base_url}/0045-jump-game-ii.adoc[45.跳跃游戏Ⅱ]
+. {doc_base_url}/0042-trapping-rain-water.adoc[42.接雨水]
+. {doc_base_url}/0046-permutations.adoc[46.全排列]
+. {doc_base_url}/0048-rotate-image.adoc[48.旋转图像]
+. {doc_base_url}/0049-group-anagrams.adoc[49.字母异位词分组]
+. {doc_base_url}/0050-powx-n.adoc[50. Pow(x, n)]
+. {doc_base_url}/0051-n-queens.adoc[51.N皇后]
+. {doc_base_url}/0053-maximum-subarray.adoc[53.最大子数组和]
+. {doc_base_url}/0054-spiral-matrix.adoc[54.螺旋矩阵]
+. {doc_base_url}/0055-jump-game.adoc[55.跳跃游戏]
+. {doc_base_url}/0056-merge-intervals.adoc[56.合井区间]
+. {doc_base_url}/0010-regular-expression-matching.adoc[10.正则表达式匹配]
+. {doc_base_url}/0059-spiral-matrix-ii.adoc[59.螺旋矩阵1]
+. {doc_base_url}/0062-unique-paths.adoc[62.不同路径]
+. {doc_base_url}/0063-unique-paths-ii.adoc[63.不同路径1]
+. {doc_base_url}/0070-climbing-stairs.adoc[70.爬楼梯]
+. {doc_base_url}/0014-longest-common-prefix.adoc[14.最长公共前缓]
+. {doc_base_url}/0072-edit-distance.adoc[72.编辑距离]
+. {doc_base_url}/0073-set-matrix-zeroes.adoc[73.矩阵置零]
+. {doc_base_url}/0074-search-a-2d-matrix.adoc[74.搜索二维矩阵]
+. {doc_base_url}/0076-minimum-window-substring.adoc[76.最小覆盖子串]
+. {doc_base_url}/0078-subsets.adoc[78.子集]
+. {doc_base_url}/0080-remove-duplicates-from-sorted-array-ii.adoc[80.删除有序数组中的重复项Ⅱ]
+. {doc_base_url}/0082-remove-duplicates-from-sorted-list-ii.adoc[82.删除排序链表中的重复元素"]
+. {doc_base_url}/0085-maximal-rectangle.adoc[85.最大矩形]
+. {doc_base_url}/0086-partition-list.adoc[86.分隔链表]
+. {doc_base_url}/0088-merge-sorted-array.adoc[88.合并两个有序数组]
+. {doc_base_url}/0091-decode-ways.adoc[91.解码方法]
+. {doc_base_url}/0092-reverse-linked-list-ii.adoc[92.反转链表Ⅱ]
+. {doc_base_url}/0093-restore-ip-addresses.adoc[93.复原IP 地址]
+. {doc_base_url}/0096-unique-binary-search-trees.adoc[96.不同的二叉搜索树]
+. {doc_base_url}/0100-same-tree.adoc[100.相同的树]
+. {doc_base_url}/0101-symmetric-tree.adoc[101.对称二叉树]
+. {doc_base_url}/0102-binary-tree-level-order-traversal.adoc[102.二叉树的层序遍历]
+. {doc_base_url}/0103-binary-tree-zigzag-level-order-traversal.adoc[103.二叉树的锯齿形层序遍历]
+. {doc_base_url}/0104-maximum-depth-of-binary-tree.adoc[104.二叉树的最大深度]
+. {doc_base_url}/0105-construct-binary-tree-from-preorder-and-inorder-traversal.adoc[105.从前序与中序遍历序列构造二叉树]
+. {doc_base_url}/0106-construct-binary-tree-from-inorder-and-postorder-traversal.adoc[106.从中序与后序遍历序列构造二叉树]
+. {doc_base_url}/0108-convert-sorted-array-to-binary-search-tree.adoc[108.将有序数组转换为二叉搜索树]
+. {doc_base_url}/0110-balanced-binary-tree.adoc[110.平衡二叉树]
+. {doc_base_url}/2924-find-champion-ii.adoc[2924.找到冠军Ⅱ]
+. {doc_base_url}/0121-best-time-to-buy-and-sell-stock.adoc[121.买卖股票的最佳时机]
+. {doc_base_url}/0122-best-time-to-buy-and-sell-stock-ii.adoc[122.买卖股票的最佳时机 "]
+. {doc_base_url}/0125-valid-palindrome.adoc[125.验证回文串]
+. {doc_base_url}/0128-longest-consecutive-sequence.adoc[128.最长连续序列]
+. {doc_base_url}/1068-product-sales-analysis-i.adoc[1068.产品销售分析I]
+. {doc_base_url}/0131-palindrome-partitioning.adoc[131.分割回文串]
+. {doc_base_url}/0134-gas-station.adoc[134.加油站]
+. {doc_base_url}/0135-candy.adoc[135.分发糖果]
+. {doc_base_url}/0138-copy-list-with-random-pointer.adoc[138.随机链表的复制]
+. {doc_base_url}/0139-word-break.adoc[139.单词拆分]
+. {doc_base_url}/0141-linked-list-cycle.adoc[141.环形链表]
+. {doc_base_url}/0142-linked-list-cycle-ii.adoc[142. 环形链表 Ⅱ]
+. {doc_base_url}/0146-lru-cache.adoc[146.LRU 缓存]
+. {doc_base_url}/0148-sort-list.adoc[148.排序链表]
+. {doc_base_url}/0151-reverse-words-in-a-string.adoc[151.反转字符串中的单词]
+. {doc_base_url}/0153-find-minimum-in-rotated-sorted-array.adoc[153.寻找旋转排序数组中的最小值]
+. {doc_base_url}/0152-maximum-product-subarray.adoc[152.乘积最大子数组]
+. {doc_base_url}/0550-game-play-analysis-iv.adoc[550.游戏玩法分析 I]
+. {doc_base_url}/0165-compare-version-numbers.adoc[165.比较版本号]
+. {doc_base_url}/0169-majority-element.adoc[169.多数元素]
+. {doc_base_url}/0176-second-highest-salary.adoc[176.第二高的薪水]
+. {doc_base_url}/0179-largest-number.adoc[179.最大数]
+. {doc_base_url}/0181-employees-earning-more-than-their-managers.adoc[181.超过经理收入的员工]
+. {doc_base_url}/0189-rotate-array.adoc[189.轮转数组]
+. {doc_base_url}/0198-house-robber.adoc[198.打家劫舍]
+. {doc_base_url}/0199-binary-tree-right-side-view.adoc[199.二叉树的右视图]
+. {doc_base_url}/0200-number-of-islands.adoc[200.岛屿数量]
+. {doc_base_url}/0203-remove-linked-list-elements.adoc[203.移除链表元素]
+. {doc_base_url}/0206-reverse-linked-list.adoc[206.反转链表]
+. {doc_base_url}/0209-minimum-size-subarray-sum.adoc[209.长度最小的子数组]
+. {doc_base_url}/0215-kth-largest-element-in-an-array.adoc[215.数组中的第K个最大元素]
+. {doc_base_url}/0216-combination-sum-iii.adoc[216.组合总和 川]
+. {doc_base_url}/0221-maximal-square.adoc[221.最大正方形]
+. {doc_base_url}/1143-longest-common-subsequence.adoc[1143.最长公共子序列]
+. {doc_base_url}/0226-invert-binary-tree.adoc[226.翻转二叉树]
+. {doc_base_url}/0228-summary-ranges.adoc[228.汇总区间]
+. {doc_base_url}/0238-product-of-array-except-self.adoc[238.除自身以外数组的乘积]
+. {doc_base_url}/0239-sliding-window-maximum.adoc[239.滑动窗口最大值]
+. {doc_base_url}/0240-search-a-2d-matrix-ii.adoc[240.搜索二维矩阵 Ⅱ]
+. {doc_base_url}/0253-meeting-rooms-ii.adoc[253.会议室Ⅱ]
+. {doc_base_url}/0264-ugly-number-ii.adoc[264.丑数I]
+. {doc_base_url}/0274-h-index.adoc[274.H指数]
+. {doc_base_url}/0279-perfect-squares.adoc[279.完全平方数]
+. {doc_base_url}/0283-move-zeroes.adoc[283.移动零]
+. {doc_base_url}/0287-find-the-duplicate-number.adoc[287.寻找重复数]
+. {doc_base_url}/0289-game-of-life.adoc[289.生命游戏]
+. {doc_base_url}/0300-longest-increasing-subsequence.adoc[300.最长递增子序列]
+. {doc_base_url}/0310-minimum-height-trees.adoc[310.最小高度树]
+. {doc_base_url}/0322-coin-change.adoc[322.零钱兑换]
+. {doc_base_url}/2235-add-two-integers.adoc[2235.两整数相加]
+. {doc_base_url}/0343-integer-break.adoc[343.整数拆分]
+. {doc_base_url}/0347-top-k-frequent-elements.adoc[347.前K 个高频元素]
+. {doc_base_url}/0349-intersection-of-two-arrays.adoc[349.两个数组的交集]
+. {doc_base_url}/0365-water-and-jug-problem.adoc[365.水壶问题]
+. {doc_base_url}/1251-average-selling-price.adoc[1251.平均售价]
+. {doc_base_url}/0377-combination-sum-iv.adoc[377.组合总和 I]
+. {doc_base_url}/0380-insert-delete-getrandom-o1.adoc[380.O(1)时间插入、删除和获取随机元素]
+. {doc_base_url}/0386-lexicographical-numbers.adoc[386.字典序排数]
+. {doc_base_url}/0387-first-unique-character-in-a-string.adoc[387.字符串中的第一个唯一字符]
+. {doc_base_url}/0392-is-subsequence.adoc[392.判断子序列]
+. {doc_base_url}/0394-decode-string.adoc[394.字符串解码]
+. {doc_base_url}/0402-remove-k-digits.adoc[402.移掉K 位数字]
+. {doc_base_url}/0416-partition-equal-subset-sum.adoc[416.分割等和子集]
+. {doc_base_url}/0417-pacific-atlantic-water-flow.adoc[417.太平洋大西洋水流问题]
+. {doc_base_url}/0438-find-all-anagrams-in-a-string.adoc[438.找到字符串中所有字母异位词]
+. {doc_base_url}/0452-minimum-number-of-arrows-to-burst-balloons.adoc[452.用最少数量的箭引爆气球]
+. {doc_base_url}/0454-4sum-ii.adoc[454.四数相加 Ⅱ]
+. {doc_base_url}/0474-ones-and-zeroes.adoc[474.一和零]
+. {doc_base_url}/1378-replace-employee-id-with-the-unique-identifier.adoc[1378.使用唯一标识码替换员工ID]
+. {doc_base_url}/0494-target-sum.adoc[494.目标和]
+. {doc_base_url}/0516-longest-palindromic-subsequence.adoc[516.最长回文子序列]
+. {doc_base_url}/0560-subarray-sum-equals-k.adoc[560.和为K的子数组]
+. {doc_base_url}/0595-big-countries.adoc[595.大的国家]
+. {doc_base_url}/0611-valid-triangle-number.adoc[611.有效三角形的个数]
+. {doc_base_url}/0649-dota2-senate.adoc[649.Dota2 参议院]
+. {doc_base_url}/0662-maximum-width-of-binary-tree.adoc[662.二叉树最大宽度]
+. {doc_base_url}/0669-trim-a-binary-search-tree.adoc[669.修剪二叉搜索树]
+. {doc_base_url}/0680-valid-palindrome-ii.adoc[680.验证回文串 Ⅱ]
+. {doc_base_url}/0695-max-area-of-island.adoc[695.岛屿的最大面积]
+. {doc_base_url}/0713-subarray-product-less-than-k.adoc[713.乘积小于K 的子数组]
+. {doc_base_url}/0718-maximum-length-of-repeated-subarray.adoc[718.最长重复子数组]
+. {doc_base_url}/0763-partition-labels.adoc[763.划分字母区间]
+. {doc_base_url}/1661-average-time-of-process-per-machine.adoc[1661.每台机器的进程平均运行时间]
+. {doc_base_url}/2831-find-the-longest-equal-subarray.adoc[2831.找出最长等值子数组]
+. {doc_base_url}/0704-binary-search.adoc[704.二分查找]
+. {doc_base_url}/2789-largest-element-in-an-array-after-merge-operations.adoc[2789.合并后数组中的最大元素]
+. {doc_base_url}/0707-design-linked-list.adoc[707.设计链表]
+. {doc_base_url}/1766-tree-of-coprimes.adoc[1766.互质树]
+. {doc_base_url}/1768-merge-strings-alternately.adoc[1768.交替合并字符串]
+. {doc_base_url}/1757-recyclable-and-low-fat-products.adoc[1757.可回收且低脂的产品]
+. {doc_base_url}/0871-minimum-number-of-refueling-stops.adoc[871.最低加油次数]
+. {doc_base_url}/0902-numbers-at-most-n-given-digit-set.adoc[902.最大为 N 的数字组合]
+. {doc_base_url}/0912-sort-an-array.adoc[912.排序数组]
+. {doc_base_url}/0946-validate-stack-sequences.adoc[946.验证栈序列]
+. {doc_base_url}/1883-minimum-skips-to-arrive-at-meeting-on-time.adoc[1883.准时抵达会议现场的最小跳过休息次数]
+. {doc_base_url}/0977-squares-of-a-sorted-array.adoc[977.有序数组的平方]
+. {doc_base_url}/0654-maximum-binary-tree.adoc[654.最大二叉树]
+. {doc_base_url}/0143-reorder-list.adoc[143.重排链表]
+. {doc_base_url}/0537-complex-number-multiplication.adoc[537.复数乘法]
+. {doc_base_url}/0175-combine-two-tables.adoc[175.组合两个表]
+. {doc_base_url}/0185-department-top-three-salaries.adoc[185.部门工资前三高的所有员工]
+. {doc_base_url}/2007-find-original-array-from-doubled-array.adoc[2007.从双倍数组中还原原数组]
+. {doc_base_url}/0455-assign-cookies.adoc[455.分发饼干]
+. {doc_base_url}/0202-happy-number.adoc[202.快乐数]
+. {doc_base_url}/0075-sort-colors.adoc[75.颜色分类]
+. {doc_base_url}/0084-largest-rectangle-in-histogram.adoc[84.柱状图中最大的矩形]
+. {doc_base_url}/0097-interleaving-string.adoc[97.交错字符串]
+. {doc_base_url}/0236-lowest-common-ancestor-of-a-binary-tree.adoc[236.二叉树的最近公共祖先]
+. {doc_base_url}/0752-open-the-lock.adoc[752.打开转盘锁]
+. {doc_base_url}/0123-best-time-to-buy-and-sell-stock-iii.adoc[123.买卖股票的最佳时机3]
+. {doc_base_url}/1004-max-consecutive-ones-iii.adoc[1004.最大连续1的个数3]
+. {doc_base_url}/0670-maximum-swap.adoc[670.最大交换]
+. {doc_base_url}/0030-substring-with-concatenation-of-all-words.adoc[30.串联所有单词的子串]
+. {doc_base_url}/0036-valid-sudoku.adoc[36.有效的数独]
+. {doc_base_url}/0064-minimum-path-sum.adoc[64.最小路径和]
+. {doc_base_url}/2589-minimum-time-to-complete-all-tasks.adoc[2589.完成所有任务的最少时间]
+. {doc_base_url}/0234-palindrome-linked-list.adoc[234.回文链表]
+. {doc_base_url}/1052-grumpy-bookstore-owner.adoc[1052.爱生气的书店老板]
+. {doc_base_url}/0514-freedom-trail.adoc[514.自由之路]
+. {doc_base_url}/0522-longest-uncommon-subsequence-ii.adoc[522.最长特殊序列Ⅱ]
+. {doc_base_url}/0994-rotting-oranges.adoc[994.腐烂的橘子]
+. {doc_base_url}/0541-reverse-string-ii.adoc[541.反转字符串 Ⅱ]
+. {doc_base_url}/0047-permutations-ii.adoc[47.全排列Ⅱ]
+. {doc_base_url}/0069-sqrtx.adoc[69.x的平方根]
+. {doc_base_url}/0584-find-customer-referee.adoc[584.寻找用户推荐人]
+. {doc_base_url}/0083-remove-duplicates-from-sorted-list.adoc[83.删除排序链表中的重复元素]
+. {doc_base_url}/1502-can-make-arithmetic-progression-from-sequence.adoc[1502.判断能否形成等差数列]
+. {doc_base_url}/0094-binary-tree-inorder-traversal.adoc[94.二叉树的中序遍历]
+. {doc_base_url}/0617-merge-two-binary-trees.adoc[617.合并二叉树]
+. {doc_base_url}/1539-kth-missing-positive-number.adoc[1539.第k个缺失的正整数]
+. {doc_base_url}/0124-binary-tree-maximum-path-sum.adoc[124.二叉树中的最大路径和136.只出现一次的数字]
+. {doc_base_url}/0155-min-stack.adoc[155.最小栈]
+. {doc_base_url}/0160-intersection-of-two-linked-lists.adoc[160.相交链表]
+. {doc_base_url}/0178-rank-scores.adoc[178.分数排名]
+. {doc_base_url}/0180-consecutive-numbers.adoc[180.连续出现的数字]
+. {doc_base_url}/1581-customer-who-visited-but-did-not-make-any-transactions.adoc[1581.进店却未进行过交易的顾客]
+. {doc_base_url}/0191-number-of-1-bits.adoc[191.位1的个数]
+. {doc_base_url}/0208-implement-trie-prefix-tree.adoc[208.实现 Trie (前缀树)]
+. {doc_base_url}/0721-accounts-merge.adoc[721.账户合并]
+. {doc_base_url}/0227-basic-calculator-ii.adoc[227.基本计算器Ⅱ]
+. {doc_base_url}/2769-find-the-maximum-achievable-number.adoc[2769.找出最大的可达成数字]
+. {doc_base_url}/0260-single-number-iii.adoc[260.只出现一次的数字 "]
+. {doc_base_url}/2739-total-distance-traveled.adoc[2739.总行驶距离]
+. {doc_base_url}/2813-maximum-elegance-of-a-k-length-subsequence.adoc[2813.子序列最大优雅度]
+. {doc_base_url}/0875-koko-eating-bananas.adoc[875.爱吃香蕉的珂珂]
+. {doc_base_url}/0409-longest-palindrome.adoc[409.最长回文串]
+. {doc_base_url}/0918-maximum-sum-circular-subarray.adoc[918.环形子数组的最大和]
+. {doc_base_url}/1081-smallest-subsequence-of-distinct-characters.adoc[1081.不同字符的最小子序列]
+. {doc_base_url}/1049-last-stone-weight-ii.adoc[1049.最后一块石头的重量 "]
+. {doc_base_url}/1997-first-day-where-you-have-been-in-all-the-rooms.adoc[1997.访问完所有房间的第一天]
+. {doc_base_url}/0316-remove-duplicate-letters.adoc[316.去除重复字母]
+. {doc_base_url}/0006-zigzag-conversion.adoc[6.Z 字形变换]
+. {doc_base_url}/1907-count-salary-categories.adoc[1907.按分类统计薪水]
+. {doc_base_url}/0013-roman-to-integer.adoc[13.罗马数字转整数]
+. {doc_base_url}/0032-longest-valid-parentheses.adoc[32.最长有效括号]
+. {doc_base_url}/1953-maximum-number-of-weeks-for-which-you-can-work.adoc[1953.你可以工作的最大周数]
+. {doc_base_url}/1934-confirmation-rate.adoc[1934.确认率]
+. {doc_base_url}/1976-number-of-ways-to-arrive-at-destination.adoc[1976.到达目的地的方案数]
+. {doc_base_url}/0044-wildcard-matching.adoc[44.通配符匹配]
+. {doc_base_url}/0052-n-queens-ii.adoc[52.N皇后I]
+. {doc_base_url}/1992-find-all-groups-of-farmland.adoc[1992.找到所有的农场组]
+. {doc_base_url}/0057-insert-interval.adoc[57.插入区间]
+. {doc_base_url}/0061-rotate-list.adoc[61.旋转链表66.加]
+. {doc_base_url}/1965-employees-with-missing-information.adoc[1965.丢失信息的雇员]
+. {doc_base_url}/0067-add-binary.adoc[67.二进制求和77.组合]
+. {doc_base_url}/0068-text-justification.adoc[68.文本左右对齐]
+. {doc_base_url}/0079-word-search.adoc[79.单词搜索]
+. {doc_base_url}/0089-gray-code.adoc[89.格雷编码]
+. {doc_base_url}/0099-recover-binary-search-tree.adoc[99.恢复二叉搜索树]
+. {doc_base_url}/0107-binary-tree-level-order-traversal-ii.adoc[107.二叉树的层序遍历Ⅱ]
+. {doc_base_url}/2028-find-missing-observations.adoc[2028.找出缺失的观测数据]
+. {doc_base_url}/0112-path-sum.adoc[112.路径总和]
+. {doc_base_url}/0114-flatten-binary-tree-to-linked-list.adoc[114.二叉树展开为链表]
+. {doc_base_url}/0115-distinct-subsequences.adoc[115.不同的子序列]
+. {doc_base_url}/0118-pascals-triangle.adoc[118.杨辉三角]
+. {doc_base_url}/0130-surrounded-regions.adoc[130.被围绕的区域]
+. {doc_base_url}/0132-palindrome-partitioning-ii.adoc[132.分割回文串 Ⅱ]
+. {doc_base_url}/0133-clone-graph.adoc[133.克隆图]
+. {doc_base_url}/0144-binary-tree-preorder-traversal.adoc[144.二叉树的前序遍历]
+. {doc_base_url}/0145-binary-tree-postorder-traversal.adoc[145.二叉树的后序遍历]
+. {doc_base_url}/0162-find-peak-element.adoc[162. 寻找峰值]
+. {doc_base_url}/0166-fraction-to-recurring-decimal.adoc[166.分数到小数]
+. {doc_base_url}/0167-two-sum-ii-input-array-is-sorted.adoc[167.两数之和Ⅱ-输入有序数组]
+. {doc_base_url}/0171-excel-sheet-column-number.adoc[171.Excel表列序号]
+. {doc_base_url}/0174-dungeon-game.adoc[174.地下城游戏]
+. {doc_base_url}/2105-watering-plants-ii.adoc[2105.给植物浇水]
+. {doc_base_url}/0183-customers-who-never-order.adoc[183.从不订购的客户]
+. {doc_base_url}/0187-repeated-dna-sequences.adoc[187.重复的DNA序列]
+. {doc_base_url}/0188-best-time-to-buy-and-sell-stock-iv.adoc[188.买卖股票的最佳时机 IV]
+. {doc_base_url}/0196-delete-duplicate-emails.adoc[196.删除重复的电子邮箱]
+. {doc_base_url}/0207-course-schedule.adoc[207.课程表]
+. {doc_base_url}/0211-design-add-and-search-words-data-structure.adoc[211.添加与搜索单词-数据结构设计]
+. {doc_base_url}/0214-shortest-palindrome.adoc[214.最短回文串]
+. {doc_base_url}/2162-minimum-cost-to-set-cooking-time.adoc[2162.设置时间的最少代价]
+. {doc_base_url}/0219-contains-duplicate-ii.adoc[219.存在重复元素 I]
+. {doc_base_url}/0222-count-complete-tree-nodes.adoc[222.完全二叉树的节点个数]
+. {doc_base_url}/0224-basic-calculator.adoc[224.基本计算器]
+. {doc_base_url}/2157-groups-of-strings.adoc[2157.字符串分组]
+. {doc_base_url}/0232-implement-queue-using-stacks.adoc[232.用栈实现队列]
+. {doc_base_url}/0237-delete-node-in-a-linked-list.adoc[237.删除链表中的节点]
+. {doc_base_url}/0242-valid-anagram.adoc[242.有效的字母异位词]
+. {doc_base_url}/2181-merge-nodes-in-between-zeros.adoc[2181.合并零之间的节点]
+. {doc_base_url}/0257-binary-tree-paths.adoc[257.二叉树的所有路径]
+. {doc_base_url}/0258-add-digits.adoc[258.各位相加]
+. {doc_base_url}/0278-first-bad-version.adoc[278.第一个错误的版本]
+. {doc_base_url}/0280-wiggle-sort.adoc[280.摆动排序]
+. {doc_base_url}/0290-word-pattern.adoc[290.单词规律]
+. {doc_base_url}/0295-find-median-from-data-stream.adoc[295.数据流的中位数]
+. {doc_base_url}/0297-serialize-and-deserialize-binary-tree.adoc[297.二叉树的序列化与反序列化]
+. {doc_base_url}/0301-remove-invalid-parentheses.adoc[301.删除无效的括号]
+. {doc_base_url}/0306-additive-number.adoc[306.累加数]
+. {doc_base_url}/0309-best-time-to-buy-and-sell-stock-with-cooldown.adoc[309.买卖股票的最佳时机含冷冻期]
+. {doc_base_url}/2276-count-integers-in-intervals.adoc[2276.统计区间中的整数数目]
+. {doc_base_url}/0312-burst-balloons.adoc[312.戳气球]
+. {doc_base_url}/2244-minimum-rounds-to-complete-all-tasks.adoc[2244.完成所有任务需要的最少轮数]
+. {doc_base_url}/0315-count-of-smaller-numbers-after-self.adoc[315.计算右侧小于当前元素的个数]
+. {doc_base_url}/0324-wiggle-sort-ii.adoc[324.摆动排序 Ⅱ]
+. {doc_base_url}/0327-count-of-range-sum.adoc[327.区间和的个数]
+. {doc_base_url}/0332-reconstruct-itinerary.adoc[332.重新安排行程]
+. {doc_base_url}/0334-increasing-triplet-subsequence.adoc[334.递增的三元子序列]
+. {doc_base_url}/0337-house-robber-iii.adoc[337.打家劫舍 Ⅲ]
+. {doc_base_url}/2293-min-max-game.adoc[2293.极大极小游戏]
+. {doc_base_url}/0345-reverse-vowels-of-a-string.adoc[345.反转字符串中的元音字母]
+. {doc_base_url}/2320-count-number-of-ways-to-place-houses.adoc[2320.统计放置房子的方式数]
+. {doc_base_url}/0350-intersection-of-two-arrays-ii.adoc[350.两个数组的交集I]
+. {doc_base_url}/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.adoc[2316.统计无向图中无法互相到达点对数]
+. {doc_base_url}/0367-valid-perfect-square.adoc[367.有效的完全平方数]
+. {doc_base_url}/0376-wiggle-subsequence.adoc[376.摆动序列]
+. {doc_base_url}/0383-ransom-note.adoc[383.赎金信]
+. {doc_base_url}/0395-longest-substring-with-at-least-k-repeating-characters.adoc[395.至少有 K 个重复字符的最长子串]
+. {doc_base_url}/0396-rotate-function.adoc[396.旋转函数]
+. {doc_base_url}/0403-frog-jump.adoc[403.青蛙过河]
+. {doc_base_url}/0404-sum-of-left-leaves.adoc[404.左叶子之和]
+. {doc_base_url}/0405-convert-a-number-to-hexadecimal.adoc[405.数字转换为十六进制数]
+. {doc_base_url}/0410-split-array-largest-sum.adoc[410.分割数组的最大值]
+. {doc_base_url}/2385-amount-of-time-for-binary-tree-to-be-infected.adoc[2385.感染二叉树需要的总时间]
+. {doc_base_url}/0414-third-maximum-number.adoc[414.第三大的数]
+. {doc_base_url}/0415-add-strings.adoc[415.字符串相加]
+. {doc_base_url}/2386-find-the-k-sum-of-an-array.adoc[2386.找出数组的第 K 大和]
+. {doc_base_url}/0421-maximum-xor-of-two-numbers-in-an-array.adoc[421.数组中两个数的最大异或值]
+. {doc_base_url}/2391-minimum-amount-of-time-to-collect-garbage.adoc[2391.收集垃圾的最少总时间]
+. {doc_base_url}/0435-non-overlapping-intervals.adoc[435.无重叠区间]
+. {doc_base_url}/0440-k-th-smallest-in-lexicographical-order.adoc[440.字典序的第K小数字]
+. {doc_base_url}/2406-divide-intervals-into-minimum-number-of-groups.adoc[2406.将区间分为最少组数]
+. {doc_base_url}/0443-string-compression.adoc[443.压缩字符串]
+. {doc_base_url}/2356-number-of-unique-subjects-taught-by-each-teacher.adoc[2356.每位教师所教授的科目种类的数量]
+. {doc_base_url}/0448-find-all-numbers-disappeared-in-an-array.adoc[448.找到所有数组中消失的数字]
+. {doc_base_url}/0451-sort-characters-by-frequency.adoc[451.根据字符出现频率排序]
+. {doc_base_url}/0453-minimum-moves-to-equal-array-elements.adoc[453.最小操作次数使数组元素相等]
+. {doc_base_url}/0459-repeated-substring-pattern.adoc[459.重复的子字符串]
+. {doc_base_url}/0462-minimum-moves-to-equal-array-elements-ii.adoc[462.最小操作次数使数组元素相等Ⅱ]
+. {doc_base_url}/0468-validate-ip-address.adoc[468.验证IP地址]
+. {doc_base_url}/0475-heaters.adoc[475.供暖器]
+. {doc_base_url}/0480-sliding-window-median.adoc[480.滑动窗口中位数]
+. {doc_base_url}/2439-minimize-maximum-of-array.adoc[2439.最小化数组中的最大值]
+. {doc_base_url}/0485-max-consecutive-ones.adoc[485.最大连续1的个数]
+. {doc_base_url}/0486-predict-the-winner.adoc[486.预测赢家]
+. {doc_base_url}/0498-diagonal-traverse.adoc[498.对角线遍历]
+. {doc_base_url}/2447-number-of-subarrays-with-gcd-equal-to-k.adoc[2447.最大公因数等于K的子数组数目]
+. {doc_base_url}/0503-next-greater-element-ii.adoc[503.下一个更大元素"]
+. {doc_base_url}/2462-total-cost-to-hire-k-workers.adoc[2462.雇佣K 位工人的总代价]
+. {doc_base_url}/0513-find-bottom-left-tree-value.adoc[513.找树左下角的值]
+. {doc_base_url}/2476-closest-nodes-queries-in-a-binary-search-tree.adoc[2476.二叉搜索树最近节点查询]
+. {doc_base_url}/0521-longest-uncommon-subsequence-i.adoc[521.最长特殊序列1]
+. {doc_base_url}/0523-continuous-subarray-sum.adoc[523.连续的子数组和]
+. {doc_base_url}/0526-beautiful-arrangement.adoc[526.优美的排列]
+. {doc_base_url}/2481-minimum-cuts-to-divide-a-circle.adoc[2481.分割圆的最少切割次数]
+. {doc_base_url}/0529-minesweeper.adoc[529.扫雷游戏]
+. {doc_base_url}/0530-minimum-absolute-difference-in-bst.adoc[530.二叉搜索树的最小绝对差]
+. {doc_base_url}/0538-convert-bst-to-greater-tree.adoc[538.把二叉搜索树转换为累加树]
+. {doc_base_url}/0540-single-element-in-a-sorted-array.adoc[540.有序数组中的单一元素]
+. {doc_base_url}/0542-01-matrix.adoc[542.01矩阵]
+. {doc_base_url}/0546-remove-boxes.adoc[546.移除盒子]
+. {doc_base_url}/0547-number-of-provinces.adoc[547.省份数量]
+. {doc_base_url}/2508-add-edges-to-make-degrees-of-all-nodes-even.adoc[2508.添加边使所有节点度数都为偶数]
+. {doc_base_url}/0552-student-attendance-record-ii.adoc[552.学生出勤记录 Ⅱ]
+. {doc_base_url}/0567-permutation-in-string.adoc[567.字符串的排列]
+. {doc_base_url}/0569-median-employee-salary.adoc[569.员工薪水中位数]
+. {doc_base_url}/0574-winning-candidate.adoc[574.当选者]
+. {doc_base_url}/0577-employee-bonus.adoc[577.员工奖金]
+. {doc_base_url}/0581-shortest-unsorted-continuous-subarray.adoc[581.最短无序连续子数组]
+. {doc_base_url}/0585-investments-in-2016.adoc[585.2016年的投资]
+. {doc_base_url}/0596-classes-more-than-5-students.adoc[596.超过5名学生的课]
+. {doc_base_url}/2580-count-ways-to-group-overlapping-ranges.adoc[2580.统计将重叠区间合并成组的方案数]
+. {doc_base_url}/0605-can-place-flowers.adoc[605.种花问题]
+. {doc_base_url}/0608-tree-node.adoc[608.树节点]
+. {doc_base_url}/2588-count-the-number-of-beautiful-subarrays.adoc[2588.统计美丽子数组数目]
+. {doc_base_url}/0610-triangle-judgement.adoc[610.判断三角形]
+. {doc_base_url}/0614-second-degree-follower.adoc[614.二级关注者]
+. {doc_base_url}/2594-minimum-time-to-repair-cars.adoc[2594.修车的最少时间]
+. {doc_base_url}/0623-add-one-row-to-tree.adoc[623.在二叉树中增加一行]
+. {doc_base_url}/0632-smallest-range-covering-elements-from-k-lists.adoc[632.最小区间]
+. {doc_base_url}/2552-count-increasing-quadruplets.adoc[2552.统计上升四元组]
+. {doc_base_url}/2663-lexicographically-smallest-beautiful-string.adoc[2663.字典序最小的美丽字符串]
+. {doc_base_url}/0642-design-search-autocomplete-system.adoc[642.设计搜索自动补全系统]
+. {doc_base_url}/0645-set-mismatch.adoc[645.错误的集合]
+. {doc_base_url}/0647-palindromic-substrings.adoc[647.回文子串]
+. {doc_base_url}/0650-2-keys-keyboard.adoc[650.两个键的键盘]
+. {doc_base_url}/0653-two-sum-iv-input-is-a-bst.adoc[653.两数之和 IV-输入二叉搜索树]
+. {doc_base_url}/0658-find-k-closest-elements.adoc[658.找到K个最接近的元素]
+. {doc_base_url}/0674-longest-continuous-increasing-subsequence.adoc[674.最长连续递增序列]
+. {doc_base_url}/0697-degree-of-an-array.adoc[697.数组的度]
+. {doc_base_url}/0712-minimum-ascii-delete-sum-for-two-strings.adoc[712.两个字符串的最小ASCI删除和]
+. {doc_base_url}/2626-array-reduce-transformation.adoc[2626.数组归约运算]
+. {doc_base_url}/0714-best-time-to-buy-and-sell-stock-with-transaction-fee.adoc[714.买卖股票的最佳时机含手续费]
+. {doc_base_url}/0724-find-pivot-index.adoc[724.寻找数组的中心下标]
+. {doc_base_url}/2648-generate-fibonacci-sequence.adoc[2648.生成斐波那契数列]
+. {doc_base_url}/0728-self-dividing-numbers.adoc[728.自除数]
+. {doc_base_url}/2670-find-the-distinct-difference-array.adoc[2670.找出不同元素数目差数组]
+. {doc_base_url}/2684-maximum-number-of-moves-in-a-grid.adoc[2684.矩阵中移动的最大次数]
+. {doc_base_url}/0746-min-cost-climbing-stairs.adoc[746.使用最小花费爬楼梯]
+. {doc_base_url}/2703-return-length-of-arguments-passed.adoc[2703.返回传递的参数的长度]
+. {doc_base_url}/0701-insert-into-a-binary-search-tree.adoc[701.二叉搜索树中的插入操作]
+. {doc_base_url}/0773-sliding-puzzle.adoc[773.滑动谜题]
+. {doc_base_url}/2749-minimum-operations-to-make-the-integer-zero.adoc[2749.得到整数零需要执行的最少操作数]
+. {doc_base_url}/0787-cheapest-flights-within-k-stops.adoc[787.K 站中转内最便宜的航班]
+. {doc_base_url}/0794-valid-tic-tac-toe-state.adoc[794.有效的井字游戏]
+. {doc_base_url}/0797-all-paths-from-source-to-target.adoc[797.所有可能的路径]
+. {doc_base_url}/2725-interval-cancellation.adoc[2725.间隔取消]
+. {doc_base_url}/0705-design-hashset.adoc[705.设计哈希集合]
+. {doc_base_url}/2762-continuous-subarrays.adoc[2762.不间断子数组]
+. {doc_base_url}/2771-longest-non-decreasing-subarray-from-two-arrays.adoc[2771.构造最长非递减子数组]
+. {doc_base_url}/0805-split-array-with-same-average.adoc[805.数组的均值分割]
+. {doc_base_url}/2800-shortest-string-that-contains-three-strings.adoc[2800.包含三个字符串的最短字符串]
+. {doc_base_url}/2810-faulty-keyboard.adoc[2810.故障键盘]
+. {doc_base_url}/0827-making-a-large-island.adoc[827.最大人工岛]
+. {doc_base_url}/0828-count-unique-characters-of-all-substrings-of-a-given-string.adoc[828.统计子串中的唯一字符]
+. {doc_base_url}/0829-consecutive-numbers-sum.adoc[829.连续整数求和]
+. {doc_base_url}/2812-find-the-safest-path-in-a-grid.adoc[2812.找出最安全路径]
+. {doc_base_url}/0842-split-array-into-fibonacci-sequence.adoc[842.将数组拆分成斐波那契序列]
+. {doc_base_url}/0847-shortest-path-visiting-all-nodes.adoc[847.访问所有节点的最短路径]
+. {doc_base_url}/0853-car-fleet.adoc[853.车队]
+. {doc_base_url}/0857-minimum-cost-to-hire-k-workers.adoc[857.雇佣K 名工人的最低成本]
+. {doc_base_url}/0860-lemonade-change.adoc[860.柠檬水找零]
+. {doc_base_url}/0862-shortest-subarray-with-sum-at-least-k.adoc[862.和至少为 K 的最短子数组]
+. {doc_base_url}/0863-all-nodes-distance-k-in-binary-tree.adoc[863.二叉树中所有距离为K的结点]
+. {doc_base_url}/0867-transpose-matrix.adoc[867.转置矩阵]
+. {doc_base_url}/0870-advantage-shuffle.adoc[870.优势洗牌]
+. {doc_base_url}/0886-possible-bipartition.adoc[886.可能的二分法]
+. {doc_base_url}/0887-super-egg-drop.adoc[887.鸡蛋掉落]
+. {doc_base_url}/0901-online-stock-span.adoc[901.股票价格跨度]
+. {doc_base_url}/0904-fruit-into-baskets.adoc[904.水果成篮]
+. {doc_base_url}/0907-sum-of-subarray-minimums.adoc[907.子数组的最小值之和]
+. {doc_base_url}/0914-x-of-a-kind-in-a-deck-of-cards.adoc[914.卡牌分组]
+. {doc_base_url}/0924-minimize-malware-spread.adoc[924.尽量减少恶意软件的传播]
+. {doc_base_url}/0928-minimize-malware-spread-ii.adoc[928.尽量减少恶意软件的传播Ⅱ]
+. {doc_base_url}/0930-binary-subarrays-with-sum.adoc[930.和相同的二元子数组]
+. {doc_base_url}/0938-range-sum-of-bst.adoc[938.二叉搜索树的范围和]
+. {doc_base_url}/2896-apply-operations-to-make-two-strings-equal.adoc[2896.执行操作使两个字符串相等]
+. {doc_base_url}/0958-check-completeness-of-a-binary-tree.adoc[958.二叉树的完全性检验]
+. {doc_base_url}/0965-univalued-binary-tree.adoc[965.单值二叉树]
+. {doc_base_url}/0968-binary-tree-cameras.adoc[968.监控二叉树]
+. {doc_base_url}/0509-fibonacci-number.adoc[509.斐波那契数]
+. {doc_base_url}/0983-minimum-cost-for-tickets.adoc[983.最低票价]
+. {doc_base_url}/0986-interval-list-intersections.adoc[986.区间列表的交集]
+. {doc_base_url}/2878-get-the-size-of-a-dataframe.adoc[2878.获取 DataFrame 的大小]
+. {doc_base_url}/2850-minimum-moves-to-spread-stones-over-grid.adoc[2850.将石头分散到网格图的最少移动次数]
+. {doc_base_url}/1017-convert-to-base-2.adoc[1017.负二进制转换]
+. {doc_base_url}/1027-longest-arithmetic-subsequence.adoc[1027.最长等差数列]
+. {doc_base_url}/1044-longest-duplicate-substring.adoc[1044.最长重复子串]
+. {doc_base_url}/1047-remove-all-adjacent-duplicates-in-string.adoc[1047.删除字符串中的所有相邻重复项]
+. {doc_base_url}/1045-customers-who-bought-all-products.adoc[1045.买下所有产品的客户]
+. {doc_base_url}/2932-maximum-strong-pair-xor-i.adoc[2932.找出强数对的最大异或值]
+. {doc_base_url}/2928-distribute-candies-among-children-i.adoc[2928.给小朋友们分糖果!]
+. {doc_base_url}/1079-letter-tile-possibilities.adoc[1079.活字印刷]
+. {doc_base_url}/1075-project-employees-i.adoc[1075.项目员工1]
+. {doc_base_url}/2946-matrix-similarity-after-cyclic-shifts.adoc[2946.循环移位后的矩阵相似检查]
+. {doc_base_url}/2959-number-of-possible-sets-of-closing-branches.adoc[2959.关闭分部的可行集合数目]
+. {doc_base_url}/0511-game-play-analysis-i.adoc[511.游戏玩法分析1]
+. {doc_base_url}/2965-find-missing-and-repeated-values.adoc[2965.找出缺失和重复的数字]
+. {doc_base_url}/2952-minimum-number-of-coins-to-be-added.adoc[2952.需要添加的硬币的最小数量]
+. {doc_base_url}/1115-print-foobar-alternately.adoc[1115.交替打印 FooBar]
+. {doc_base_url}/1103-distribute-candies-to-people.adoc[1103.分糖果Ⅱ]
+. {doc_base_url}/1112-highest-grade-for-each-student.adoc[1112.每位学生的最高成绩]
+. {doc_base_url}/1116-print-zero-even-odd.adoc[1116.打印零与奇偶数]
+. {doc_base_url}/1141-user-activity-for-the-past-30-days-i.adoc[1141.查询近30天活跃用户数]
+. {doc_base_url}/1146-snapshot-array.adoc[1146.快照数组]
+. {doc_base_url}/1329-sort-the-matrix-diagonally.adoc[1329.将矩阵按对角线排序]
+. {doc_base_url}/1148-article-views-i.adoc[1148.文章浏览|]
+. {doc_base_url}/1171-remove-zero-sum-consecutive-nodes-from-linked-list.adoc[1171.从链表中删去总和值为零的连续节点]
+. {doc_base_url}/3040-maximum-number-of-operations-with-the-same-score-ii.adoc[3040.相同分数的最大操作数目I]
+. {doc_base_url}/3067-count-pairs-of-connectable-servers-in-a-weighted-tree-network.adoc[3067.在带权树网络中统计可连接服务器对数目]
+. {doc_base_url}/3086-minimum-moves-to-pick-k-ones.adoc[3086.拾起K个1需要的最少行动次数]
+. {doc_base_url}/1174-immediate-food-delivery-ii.adoc[1174.即时食物配送Ⅱ]
+. {doc_base_url}/1405-longest-happy-string.adoc[1405.最长快乐字符串]
+. {doc_base_url}/3114-latest-time-you-can-obtain-after-replacing-characters.adoc[3114.替换字符可以得到的最晚时间]
+. {doc_base_url}/1195-fizz-buzz-multithreaded.adoc[1195.交替打印字符串]
+. {doc_base_url}/1208-get-equal-substrings-within-budget.adoc[1208.尽可能使字符串相等]
+. {doc_base_url}/3099-harshad-number.adoc[3099.哈沙德数]
+. {doc_base_url}/3115-maximum-prime-difference.adoc[3115.质数的最大距离]
+. {doc_base_url}/1204-last-person-to-fit-in-the-bus.adoc[1204.最后一个能进入巴士的人]
+. {doc_base_url}/3110-score-of-a-string.adoc[3110.字符串的分数]
+. {doc_base_url}/1219-path-with-maximum-gold.adoc[1219.黄金矿工]
+. {doc_base_url}/1226-the-dining-philosophers.adoc[1226.哲学家进餐]
+. {doc_base_url}/1233-remove-sub-folders-from-the-filesystem.adoc[1233.删除子文件夹]
+. {doc_base_url}/2312-selling-pieces-of-wood.adoc[2312.卖木头块]
+. {doc_base_url}/1254-number-of-closed-islands.adoc[1254.统计封闭岛屿的数目]
+. {doc_base_url}/1255-maximum-score-words-formed-by-letters.adoc[1255.得分最高的单词集合]
+. {doc_base_url}/3149-find-the-minimum-cost-array-permutation.adoc[3149.找出分数最低的排列]
+. {doc_base_url}/3160-find-the-number-of-distinct-colors-among-the-balls.adoc[3160.所有球里面不同颜色的数目]
+. {doc_base_url}/3171-find-subarray-with-bitwise-or-closest-to-k.adoc[3171.找到按位或最接近K的子数组]
+. {doc_base_url}/3180-maximum-total-reward-using-operations-i.adoc[3180.执行操作可获得的最大总奖励1]
+. {doc_base_url}/1268-search-suggestions-system.adoc[1268.搜索推荐系统]
+. {doc_base_url}/1283-find-the-smallest-divisor-given-a-threshold.adoc[1283.使结果不超过阈值的最小除数]
+. {doc_base_url}/3197-find-the-minimum-area-to-cover-all-ones-ii.adoc[3197.包含所有 1的最小矩形面积 !]
+. {doc_base_url}/1280-students-and-examinations.adoc[1280.学生们参加各科测试的次数]
+. {doc_base_url}/1297-maximum-number-of-occurrences-of-a-substring.adoc[1297.子串的最大出现次数]
+. {doc_base_url}/1349-maximum-students-taking-exam.adoc[1349.参加考试的最大学生数]
+. {doc_base_url}/1422-maximum-score-after-splitting-a-string.adoc[1422.分割字符串的最大得分]
+. {doc_base_url}/1442-count-triplets-that-can-form-two-arrays-of-equal-xor.adoc[1442.形成两个异或相等数组的三元组数目]
+. {doc_base_url}/1450-number-of-students-doing-homework-at-a-given-time.adoc[1450.在既定时间做作业的学生人数]
+. {doc_base_url}/1490-clone-n-ary-tree.adoc[1490.克隆N 叉树]
+. {doc_base_url}/1518-water-bottles.adoc[1518.换水问题]
+. {doc_base_url}/1530-number-of-good-leaf-nodes-pairs.adoc[1530.好叶子节点对的数量]
+. {doc_base_url}/1542-find-longest-awesome-substring.adoc[1542.找出最长的超赞子字符串]
+. {doc_base_url}/1574-shortest-subarray-to-be-removed-to-make-array-sorted.adoc[1574.删除最短的子数组使剩余数组有序]
+. {doc_base_url}/1600-throne-inheritance.adoc[1600.王位继承顺序]
+. {doc_base_url}/1622-fancy-sequence.adoc[1622.奇妙序列]
+. {doc_base_url}/1673-find-the-most-competitive-subsequence.adoc[1673.找出最具竞争力的子序列]
+. {doc_base_url}/1702-maximum-binary-string-after-change.adoc[1702.修改后的最大二进制字符串]
+. {doc_base_url}/1695-maximum-erasure-value.adoc[1695.删除子数组的最大得分]
+. {doc_base_url}/1705-maximum-number-of-eaten-apples.adoc[1705.吃苹果的最大数目]
+. {doc_base_url}/1723-find-minimum-time-to-finish-all-jobs.adoc[1723.完成所有工作的最短时间]
+. {doc_base_url}/1683-invalid-tweets.adoc[1683.无效的推文]
+. {doc_base_url}/1738-find-kth-largest-xor-coordinate-value.adoc[1738.找出第K大的异或坐标值]
+. {doc_base_url}/1769-minimum-number-of-operations-to-move-all-balls-to-each-box.adoc[1769.移动所有球到每个盒子所需的最小操作数]
+. {doc_base_url}/1789-primary-department-for-each-employee.adoc[1789.员工的直属部门]
+. {doc_base_url}/1839-longest-substring-of-all-vowels-in-order.adoc[1839.所有元音按顺序排布的最长子字符串]
+. {doc_base_url}/1849-splitting-a-string-into-descending-consecutive-values.adoc[1849.将字符串拆分为递减的连续值]
+. {doc_base_url}/1884-egg-drop-with-2-eggs-and-n-floors.adoc[1884.鸡蛋掉落-两枚鸡蛋]
+
+
+// == 最近 30 天
+//
+// 1.两数之和
+// 2.两数相加
+// 3.无重复字符的最长子串
+// 5.最长回文子串
+// 11.盛最多水的容器
+// 15.三数之和
+// 23.合并K 个升序链表
+// 25.K个一组翻转链表
+// 27.移除元素
+// 42.接雨水
+// 72.编辑距离
+// 88.合并两个有序数组
+// 146. LRU 缓存
+// 20.有效的括号
+// 662.二叉树最大宽度
+// 31.下一个排列
+// 189.轮转数组
+// 203.移除链表元素
+// 718.最长重复子数组
+// 209.长度最小的子数组
+// 131.分割回文串
+// 721.账户合并
+// 215.数组中的第K个最大元素
+// 92.反转链表Ⅱ
+// 26.删除有序数组中的重复项
+// 59.螺旋矩阵Ⅱ
+// 707.设计链表
+// 128.最长连续序列
+// LCR 026.重排链表
+// 1081.不同字符的最小子序列
+// 200.岛屿数量
+// 1997.访问完所有房间的第一天
+// 206.反转链表
+// 21.合并两个有序链表
+// 56.合并区间
+// 121.买卖股票的最佳时机
+// 316.去除重复字母
+// 4.寻找两个正序数组的中位数
+// 8.字符串转换整数 (atoi)
+// 13.罗马数字转整数
+// 530.二叉搜索树的最小绝对差
+// 19.删除链表的倒数第 N 个结点
+// 2850.将石头分散到网格图的最少移动次
+// 24.两两交换链表中的节点
+// 538.把二叉搜索树转换为累加树
+// 30.串联所有单词的子串
+// 32.最长有效括号
+// 33.搜索旋转排序数组
+// 37.解数独
+// 39.组合总和
+// 40.组合总和"
+// 48.旋转图像
+// 49.字母异位词分组
+// 560.和为K的子数组
+// 54.螺旋矩阵
+// 569.员工薪水中位数
+// 63.不同路径I
+// 69.x的平方根
+// 70.爬楼梯
+// 585.2016年的投资
+// 74.搜索二维矩阵
+// 76.最小覆盖子串
+// 84.柱状图中最大的矩形
+// 面试题 16.25.LRU 缓存
+// √ 93.复原IP 地址
+// 1047.删除字符串中的所有相邻重复项
+// 106.从中序与后序遍历序列构造二叉树
+// 1049.最后一块石头的重量Ⅱ
+// 108.将有序数组转换为二叉搜索树
+// 面试题 16.21.交换和
+// 115.不同的子序列
+// 1530.好叶子节点对的数量
+// 122.买卖股票的最佳时机 Ⅱ
+// LCP 14.切分数组
+// 123.买卖股票的最佳时机 川
+// 125.验证回文串
+// 136.只出现一次的数字
+// 649. Dota2 参议院
+// 141.环形链表
+// 144.二叉树的前序遍历
+// 2959.关闭分部的可行集合数目
+// 153.寻找旋转排序数组中的最小值
+// 155.最小栈
+// 670.最大交换
+// 1115.交替打印 FooBa
+// 167.两数之和Ⅱ-输入有序数组
+// 180.连续出现的数字
+// 697.数组的度
+// 1112.每位学生的最高成绩
+// 199.二叉树的右视图
+// 211.添加与搜索单词-数据结构设计
+// 216.组合总和 川
+// 221.最大正方形
+// 224.基本计算器
+// 227.基本计算器 1
+// 2684.矩阵中移动的最大次数
+// 239.滑动窗口最大值
+// 1171.从链表中删去总和值为零的连续节点
+// 3086.拾起K个1需要的最少行动次数
+// 260.只出现一次的数字 Ⅲ
+// 2703.返回传递的参数的长度
+// 1174.即时食物配送"
+// 787.K 站中转内最便宜的航班
+// 794.有效的井字游戏
+// 3099.哈沙德数
+// 300.最长递增子序列
+// 3115.质数的最大距离
+// 705.设计哈希集合
+// LCR 016.无重复字符的最长子串
+// 2800.包含三个字符串的最短字符串
+// 面试题 01.01.判定字符是否唯
+// LCR 021.删除链表的倒数第 N个结点
+// LCR 029.循环有序列表的插入
+// 面试题 03.04.化栈为队
+// 347.前K 个高频元素
+// 2320.统计放置房子的方式数
+// 350.两个数组的交集Ⅱ
+// LCR 103.零钱兑换
+// 1769.移动所有球到每个盒子所需的最小操作数
+// 392.判断子序列
+// 409.最长回文串
+// 1839.所有元音按顺序排布的最长子字符串
+// LCR 130.衣橱整理
+// 918.环形子数组的最大和
+// 1349.参加考试的最大学生数
+// 452.用最少数量的箭引爆气球
+// 1378.使用唯一标识码替换员工ID
+// 509.斐波那契数
+//
+//
+// == 最近三个月
+//
+// 1.两数之和
+// 2. 两数相加
+// 3.无重复字符的最长子串
+// 4.寻找两个正序数组的中位数
+// 5.最长回文子串
+// 7.整数反转
+// 11.盛最多水的容器
+// 994.腐烂的橘子
+// 14.最长公共前缓
+// 15.三数之和
+// 16.最接近的三数之和
+// 17.电话号码的字母组合
+// 19.删除链表的倒数第 N 个结点
+// 20.有效的括号
+// 21.合并两个有序链表
+// 22.括号生成
+// 23.合并K个升序链表
+// 24.两两交换链表中的节点
+// 25.K个一组翻转链表
+// 26.删除有序数组中的重复项
+// 27.移除元素
+// 28.找出字符串中第一个匹配项的下标
+// 31.下一个排列
+// 33.搜索旋转排序数组
+// 34.在排序数组中查找元素的第一个和最后一个位置
+// 36.有效的数独
+// 37.解数独
+// 40.组合总和川
+// 41.缺失的第一个正数
+// 42.接雨水
+// 45.跳跃游戏Ⅱ
+// 48.旋转图像
+// 49.字母异位词分组
+// 53.最大子数组和
+// 54.螺旋矩阵
+// 55.跳跃游戏
+// 56.合并区间
+// 64.最小路径和
+// 69.x的平方根
+// 70.爬楼梯
+// 72.编辑距离
+// 74.搜索二维矩阵
+// 76.最小覆盖子串
+// 80.删除有序数组中的重复项I
+// 82.删除排序链表中的重复元素|
+// 83.删除排序链表中的重复元素
+// 84.柱状图中最大的矩形
+// 88.合并两个有序数组
+// 91.解码方法
+// 94.二叉树的中序遍历
+// 96.不同的二叉搜索树
+// 97.交错字符串
+// 102.二叉树的层序遍历
+// 105.从前序与中序遍历序列构造二叉树
+// 121.买卖股票的最佳时机
+// 125.验证回文串
+// 128.最长连续序列
+// 131.分割回文串
+// 134.加油站
+// 135.分发糖果
+// 136.只出现一次的数字
+// 138.随机链表的复制
+// 141.环形链表
+// 143.重排链表
+// 146.LRU 缓存
+// 148.排序链表
+// 155.最小栈
+// 160.相交链表
+// 175.组合两个表
+// 178.分数排名
+// 179.最大数
+// 180.连续出现的数字
+// 181.超过经理收入的员工
+// 185.部门工资前三高的所有员工
+// 189.轮转数组
+// 191.位1的个数
+// 198.打家劫舍
+// 199.二叉树的右视图200.岛屿数量
+// 206.反转链表
+// 215.数组中的第K个最大元素
+// 221.最大正方形
+// 226.翻转二叉树
+// 227.基本计算器Ⅱ
+// 1143.最长公共子序列
+// 234.回文链表
+// 236.二叉树的最近公共祖先
+// 239.滑动窗口最大值
+// 240.搜索二维矩阵I
+// 260.只出现一次的数字 I
+// 274.H指数
+// 283.移动零
+// 300.最长递增子序列
+// 343.整数拆分
+// 347.前K 个高频元素
+// 349.两个数组的交集
+// 1251.平均售价
+// 377.组合总和 I
+// 380.O(1)时间插入、删除和获取随机元素
+// 387.字符串中的第一个唯一字符
+// 392.判断子序列
+// 416.分割等和子集
+// 438.找到字符串中所有字母异位词
+// 514.自由之路
+// 560.和为K的子数组
+// 面试题 02.02.返回倒数第k个节点
+// 584.寻找用户推荐人
+// 面试题 17.14.最小K个数
+// 面试题 16.25.LRU 缓存
+// 1502.判断能否形成等差数列
+// 617.合并二叉树
+// 1539.第k个缺失的正整数
+// 670.最大交换
+// 1581.进店却未进行过交易的顾客
+// 718.最长重复子数组
+// 763.划分字母区间
+// 704.二分查找
+// 707.设计链表
+// LCR 143.子结构判断
+// 977.有序数组的平方
+// 522.最长特殊序列Ⅱ
+// 151.反转字符串中的单词
+// 918.环形子数组的最大和
+// 8.字符串转换整数 (atoi)
+// 2813.子序列最大优雅度
+// 124.二叉树中的最大路径和
+// 394.字符串解码
+// 662.二叉树最大宽度
+// 59.螺旋矩阵Ⅱ
+// LCR 016.无重复字符的最长子串
+// 203.移除链表元素
+// 209.长度最小的子数组
+// 721.账户合并
+// 92.反转链表 Ⅱ
+// LCR 026.重排链表
+// 1081.不同字符的最小子序列
+// 1997.访问完所有房间的第一天
+// 122.买卖股票的最佳时机 I
+// 316.去除重复字母
+// 986.区间列表的交集
+// 6.Z 字形变换
+// 2476.二叉搜索树最近节点查询
+// 521.最长特殊序列I
+// 10.正则表达式匹配
+// 523.连续的子数组和
+// 12.整数转罗马数字
+// 13.罗马数字转整数
+// 1442.形成两个异或相等数组的三元组数目
+// 18.四数之和
+// 530.二叉搜索树的最小绝对差
+// 2850.将石头分散到网格图的最少移动次数
+// 1004.最大连续1的个数 II
+// 1450.在既定时间做作业的学生人数
+// 537.复数乘法
+// 538.把二叉搜索树转换为累加树
+// 541.反转字符串 Ⅱ
+// 30.串联所有单词的子串
+// 542.01 矩阵
+// 32.最长有效括号
+// 1953.你可以工作的最大周数
+// 39.组合总和
+// 552.学生出勤记录I
+// 43.字符串相乘
+// 44.通配符匹配
+// 46.全排列
+// 47.全排列川
+// 1017.负二进制转换
+// 50. Pow(x, n)
+// 51.N皇后
+// 57.插入区间
+// 569.员工薪水中位数
+// 61.旋转链表
+// 62.不同路径
+// 63.不同路径Ⅱ
+// 1965.丢失信息的雇员
+// 577.员工奖金
+// 面试题 16.18.模式匹配
+// 2007.从双倍数组中还原原数组
+// 585.2016年的投资
+// 75.颜色分类
+// 78.子集
+// 79.单词搜索
+// 595.大的国家
+// 85.最大矩形
+// 89.格雷编码
+// 93.复原IP 地址
+// 605.种花问题
+// 面试题 17.21.直方图的水量
+// 608.树节点
+// 2588.统计美丽子数组数目
+// 2589.完成所有任务的最少时间
+// 99.恢复二叉搜索树
+// 100.相同的树
+// 面试题 17.09.第k个数
+// 103.二叉树的锯齿形层序遍历
+// 1047.删除字符串中的所有相邻重复项
+// 2594.修车的最少时间
+// 106.从中序与后序遍历序列构造二叉树
+// 1049.最后一块石头的重量I
+// 108.将有序数组转换为二叉搜索树
+// 面试题 17.19.消失的两个数字
+// 110.平衡二叉树
+// 面试题 16.21.交换和
+// 114.二叉树展开为链表
+// 115.不同的子序列
+// 1052.爱生气的书店老板
+// 1530.好叶子节点对的数量
+// 2552.统计上升四元组
+// 123.买卖股票的最佳时机 川
+// LCP 14.切分数组
+// 2663.字典序最小的美丽字符串
+// 2928.给小朋友们分糖果I
+// 1542.找出最长的超赞子字符串
+// 1079.活字印刷
+// 649.Dota2 参议院
+// 650.两个键的键盘
+// 1075.项目员工!
+// 142.环形链表 Ⅱ
+// 654.最大二叉树
+// 144.二叉树的前序遍历
+// 145.二叉树的后序遍历
+// 2959.关闭分部的可行集合数目
+// 152.乘积最大子数组
+// 153.寻找旋转排序数组中的最小值
+// 2965.找出缺失和重复的数字
+// 162.寻找峰值
+// 1115.交替打印 FooBar
+// 165.比较版本号
+// 167.两数之和 Ⅱ- 输入有序数组
+// 1103.分糖果Ⅱ
+// 2105.给植物浇水 Ⅱ
+// 697.数组的度
+// 188.买卖股票的最佳时机IV
+// 1112.每位学生的最高成绩
+// 1116.打印零与奇偶数
+// 713.乘积小于K的子数组
+// 202.快乐数
+// 714.买卖股票的最佳时机含手续费
+// 2626.数组归约运算
+// 207.课程表
+// 208.实现 Trie (前缀树)
+// 211.添加与搜索单词-数据结构设计
+// 724.寻找数组的中心下标
+// 2648.生成斐波那契数列
+// 216.组合总和 川
+// 1141.查询近30天活跃用户数
+// 224.基本计算器
+// 228.汇总区间
+// 2684.矩阵中移动的最大次数
+// 237.删除链表中的节点
+// 238.除自身以外数组的乘积
+// 242.有效的字母异位词
+// 1171.从链表中删去总和值为零的连续节点
+// 3040.相同分数的最大操作数目I
+// 2181.合并零之间的节点
+// 2769.找出最大的可达成数字
+// 3086.拾起K个1需要的最少行动次数
+// 2703.返回传递的参数的长度
+// 264.丑数1
+// 1661.每台机器的进程平均运行时间
+// 1174.即时食物配送Ⅱ
+// 2831.找出最长等值子数组
+// 2749.得到整数零需要执行的最少操作数
+// 1695.删除子数组的最大得分
+// 279.完全平方数
+// 1405.最长快乐字符串
+// 1723.完成所有工作的最短时间
+// 290.单词规律
+// 787.K站中转内最便宜的航班
+// 1683.无效的推文
+// 1208.尽可能使字符串相等794.有效的井字游戏
+// 3099.哈沙德数
+// 3115.质数的最大距离
+// 2725.间隔取消
+// 1204.最后一个能进入巴士的人
+// 705.设计哈希集合
+// 1219.黄金矿工
+// 2762.不间断子数组
+// 2276.统计区间中的整数数目
+// 310.最小高度树
+// 2771.构造最长非递减子数组
+// 312.截气球
+// 3110.字符串的分数
+// 2244.完成所有任务需要的最少轮数
+// 2800.包含三个字符串的最短字符串
+// 面试题 01.01.判定字符是否唯
+// LCR 020.回文子串
+// LCR 021.删除链表的倒数第 N 个结点
+// 322.零钱兑换
+// LCR 024.反转链表
+// 1738.找出第K大的异或坐标值
+// LCR 029.循环有序列表的插入
+// 面试题 03.04.化栈为队
+// 2293.极大极小游戏
+// LCR 095.最长公共子序列
+// 828.统计子串中的唯一字符
+// 829.连续整数求和
+// 345.反转字符串中的元音字母
+// 2320.统计放置房子的方式数
+// 350.两个数组的交集Ⅱ
+// LCR 103.零钱兑换
+// 2812.找出最安全路径
+// 1255.得分最高的单词集合
+// 3149.找出分数最低的排列
+// 842.将数组拆分成斐波那契序列
+// LCR 107.01 矩阵
+// 3160.所有球里面不同颜色的数目
+// 1769.移动所有球到每个盒子所需的最小操作类
+// 3171.找到按位或最接近K的子数组
+// 3180.执行操作可获得的最大总奖励1
+// 1268.搜索推荐系统
+// 862.和至少为K 的最短子数组
+// 863.二叉树中所有距离为K的结点
+// 383.赎金信
+// 3197.包含所有1的最小矩形面积 Ⅱ
+// 875.爱吃香蕉的珂珂
+// 396.旋转函数
+// 402.移掉K 位数字
+// LCR 076.数组中的第K个最大元素
+// 1789.员工的直属部门
+// 409.最长回文串
+// 414.第三大的数
+// 417.太平洋大西洋水流问题
+// 421.数组中两个数的最大异或值
+// 2391.收集垃圾的最少总时间
+// 901.股票价格跨度
+// 907.子数组的最小值之和
+// 1839.所有元音按顺序排布的最长子字符串
+// 912.排序数组
+// 1849.将字符串拆分为递减的连续值
+// LCR 130.衣橱整理
+// 1349.参加考试的最大学生数
+// 448.找到所有数组中消失的数字
+// LCR 138.有效数字
+// 451.根据字符出现频率排序
+// 452.用最少数量的箭引爆气球
+// 453.最小操作次数使数组元素相等
+// 454.四数相加 I
+// 455.分发饼干
+// 930.和相同的二元子数组
+// 946.验证栈序列
+// 474.一和零
+// LCR 170.交易逆序对的总数
+// 480.滑动窗口中位数
+// 2439.最小化数组中的最大值
+// 1378.使用唯一标识码替换员工ID
+// 486.预测赢家
+// 965.单值二叉树
+// 509.斐波那契数
+// 503.下一个更大元素 Ⅱ
+// LCP 57.打地鼠
+//
+// == 最近六个月
+//
+// 1.两数之和
+// 3.无重复字符的最长子串
+// 面试题 16.16.部分排序
+// 988.从叶结点开始的最小字符串
+// 7.整数反转
+// 8.字符串转换整数 (atoi)
+// 9.回文数
+// 11.盛最多水的容器
+// 12.整数转罗马数字
+// 2.两数相加
+// 15.三数之和
+// 16.最接近的三数之和
+// 17.电话号码的字母组合
+// 18.四数之和
+// 19.删除链表的倒数第 N 个结点
+// 20.有效的括号
+// 21.合并两个有序链表
+// 22.括号生成
+// 23.合并K个升序链表
+// 24.两两交换链表中的节点
+// 4.寻找两个正序数组的中位数
+// 26.删除有序数组中的重复项
+// 27.移除元素
+// 28.找出字符串中第一个匹配项的下标
+// 25.K个一组翻转链表
+// 5.最长回文子串
+// 31.下一个排列
+// 33.搜索旋转排序数组
+// 34.在排序数组中查找元素的第一个和最后一个位置
+// 35.搜索插入位置
+// 37.解数独
+// 40.组合总和川
+// 41.缺失的第一个正数
+// 43.字符串相乘
+// 39.组合总和
+// 45.跳跃游戏Ⅱ
+// 42.接雨水
+// 46.全排列
+// 48.旋转图像
+// 49.字母异位词分组
+// 50. Pow(x, n)
+// 51.N皇后
+// 53.最大子数组和
+// 54.螺旋矩阵
+// 55.跳跃游戏
+// 56.合井区间
+// 10.正则表达式匹配
+// 59.螺旋矩阵1
+// 62.不同路径
+// 63.不同路径1
+// 70.爬楼梯
+// 14.最长公共前缓
+// 72.编辑距离
+// 73.矩阵置零
+// 74.搜索二维矩阵
+// 76.最小覆盖子串
+// 78.子集
+// 80.删除有序数组中的重复项Ⅱ
+// 82.删除排序链表中的重复元素"
+// 85.最大矩形
+// 86.分隔链表
+// 88.合并两个有序数组
+// 91.解码方法
+// 92.反转链表Ⅱ
+// 93.复原IP 地址
+// 96.不同的二叉搜索树
+// 100.相同的树
+// 101.对称二叉树
+// 102.二叉树的层序遍历
+// 103.二叉树的锯齿形层序遍历
+// 104.二叉树的最大深度
+// 105.从前序与中序遍历序列构造二叉树
+// 106.从中序与后序遍历序列构造二叉树
+// 108.将有序数组转换为二叉搜索树
+// 110.平衡二叉树
+// 2924.找到冠军Ⅱ
+// 121.买卖股票的最佳时机
+// 122.买卖股票的最佳时机 "
+// 125.验证回文串
+// 128.最长连续序列
+// 1068.产品销售分析I
+// 131.分割回文串
+// 134.加油站
+// 135.分发糖果
+// 138.随机链表的复制
+// 139.单词拆分
+// 141.环形链表
+// 142. 环形链表 Ⅱ
+// 146.LRU 缓存
+// 148.排序链表
+// 151.反转字符串中的单词
+// 153.寻找旋转排序数组中的最小值
+// 152.乘积最大子数组
+// 550.游戏玩法分析 I
+// 165.比较版本号
+// 169.多数元素
+// 176.第二高的薪水
+// 179.最大数
+// 181.超过经理收入的员工
+// 189.轮转数组
+// 198.打家劫舍
+// 199.二叉树的右视图
+// 200.岛屿数量
+// 203.移除链表元素
+// 206.反转链表
+// 209.长度最小的子数组
+// 215.数组中的第K个最大元素
+// 216.组合总和 川
+// 221.最大正方形
+// 1143.最长公共子序列
+// 226.翻转二叉树
+// 228.汇总区间
+// 238.除自身以外数组的乘积
+// 239.滑动窗口最大值
+// 240.搜索二维矩阵 Ⅱ
+// 253.会议室Ⅱ
+// 264.丑数I
+// 274.H指数
+// 279.完全平方数
+// 283.移动零
+// 287.寻找重复数
+// 289.生命游戏
+// LCR 194.二叉树的最近公共祖先
+// 300.最长递增子序列
+// 310.最小高度树
+// 322.零钱兑换
+// 2235.两整数相加
+// 343.整数拆分
+// 347.前K 个高频元素
+// 349.两个数组的交集
+// 365.水壶问题
+// 1251.平均售价
+// 377.组合总和 I
+// 380.O(1)时间插入、删除和获取随机元素
+// 386.字典序排数
+// 387.字符串中的第一个唯一字符
+// 392.判断子序列
+// 394.字符串解码
+// 402.移掉K 位数字
+// 416.分割等和子集
+// 417.太平洋大西洋水流问题
+// 438.找到字符串中所有字母异位词
+// 452.用最少数量的箭引爆气球
+// 454.四数相加 Ⅱ
+// 474.一和零
+// 1378.使用唯一标识码替换员工ID
+// 494.目标和
+// 516.最长回文子序列
+// 560.和为K的子数组
+// 面试题 02.02.返回倒数第k个节点
+// 595.大的国家
+// 面试题 17.14.最小K个数
+// 面试题 16.25.LRU 缓存
+// 611.有效三角形的个数
+// 面试题 17.19.消失的两个数字
+// 649.Dota2 参议院
+// 662.二叉树最大宽度
+// 669.修剪二叉搜索树
+// 680.验证回文串 Ⅱ
+// 695.岛屿的最大面积
+// 713.乘积小于K 的子数组
+// 718.最长重复子数组
+// 763.划分字母区间
+// 1661.每台机器的进程平均运行时间
+// 2831.找出最长等值子数组
+// 704.二分查找
+// 2789.合并后数组中的最大元素
+// LCR 016.无重复字符的最长子串
+// 707.设计链表
+// 面试题 03.04.化栈为队
+// 1766.互质树
+// LCR O38.每日温度
+// 1768.交替合并字符串
+// 1757.可回收且低脂的产品
+// 871.最低加油次数
+// 902.最大为 N 的数字组合
+// 912.排序数组
+// 946.验证栈序列
+// 1883.准时抵达会议现场的最小跳过休息次数
+// LCR 170.交易逆序对的总数
+// 977.有序数组的平方
+// 654.最大二叉树
+// 143.重排链表
+// LCR 076.数组中的第K个最大元素
+// 537.复数乘法
+// 175.组合两个表
+// 185.部门工资前三高的所有员工
+// 2007.从双倍数组中还原原数组
+// 455.分发饼干
+// 202.快乐数
+// 75.颜色分类
+// 84.柱状图中最大的矩形
+// 97.交错字符串
+// 236.二叉树的最近公共祖先
+// 752.打开转盘锁
+// 123.买卖股票的最佳时机3
+// 1004.最大连续1的个数3
+// 670.最大交换
+// 30.串联所有单词的子串
+// 36.有效的数独
+// 64.最小路径和
+// 2589.完成所有任务的最少时间
+// 234.回文链表
+// 1052.爱生气的书店老板
+// 514.自由之路
+// 522.最长特殊序列Ⅱ
+// 994.腐烂的橘子
+// 541.反转字符串 Ⅱ
+// 47.全排列Ⅱ
+// 69.x的平方根
+// 584.寻找用户推荐人
+// 83.删除排序链表中的重复元素
+// 1502.判断能否形成等差数列
+// 94.二叉树的中序遍历
+// 617.合并二叉树
+// 1539.第k个缺失的正整数
+// 124.二叉树中的最大路径和136.只出现一次的数字
+// 155.最小栈
+// 160.相交链表
+// 178.分数排名
+// 180.连续出现的数字
+// 1581.进店却未进行过交易的顾客
+// 191.位1的个数
+// 208.实现 Trie (前缀树)
+// 721.账户合并
+// 227.基本计算器Ⅱ
+// 2769.找出最大的可达成数字
+// 260.只出现一次的数字 "
+// 2739.总行驶距离
+// 2813.子序列最大优雅度
+// 875.爱吃香蕉的珂珂
+// 409.最长回文串
+// 918.环形子数组的最大和
+// LCR 143.子结构判断
+// LCR 026.重排链表
+// 1081.不同字符的最小子序列
+// 1049.最后一块石头的重量 "
+// 1997.访问完所有房间的第一天
+// 316.去除重复字母
+// 6.Z 字形变换
+// 1907.按分类统计薪水
+// 13.罗马数字转整数
+// 32.最长有效括号
+// 1953.你可以工作的最大周数
+// 1934.确认率
+// 1976.到达目的地的方案数
+// 44.通配符匹配
+// 52.N皇后I
+// 1992.找到所有的农场组
+// 57.插入区间
+// 61.旋转链表66.加
+// 1965.丢失信息的雇员
+// 67.二进制求和77.组合
+// 68.文本左右对齐
+// 79.单词搜索
+// 89.格雷编码
+// 99.恢复二叉搜索树
+// 107.二叉树的层序遍历Ⅱ
+// 2028.找出缺失的观测数据
+// 112.路径总和
+// 114.二叉树展开为链表
+// 115.不同的子序列
+// 118.杨辉三角
+// 130.被围绕的区域
+// 132.分割回文串 Ⅱ
+// 133.克隆图
+// 144.二叉树的前序遍历
+// 145.二叉树的后序遍历
+// 162. 寻找峰值
+// 166.分数到小数
+// 167.两数之和Ⅱ-输入有序数组
+// 171.Excel表列序号
+// 174.地下城游戏
+// 2105.给植物浇水
+// 183.从不订购的客户
+// 187.重复的DNA序列
+// 188.买卖股票的最佳时机 IV
+// 196.删除重复的电子邮箱
+// 207.课程表
+// 211.添加与搜索单词-数据结构设计
+// 214.最短回文串
+// 2162.设置时间的最少代价
+// 219.存在重复元素 I
+// 222.完全二叉树的节点个数
+// 224.基本计算器
+// 2157.字符串分组
+// 232.用栈实现队列
+// 237.删除链表中的节点
+// 242.有效的字母异位词
+// 2181.合并零之间的节点
+// 257.二叉树的所有路径
+// 258.各位相加
+// 278.第一个错误的版本
+// 280.摆动排序
+// 290.单词规律
+// 295.数据流的中位数
+// 297.二叉树的序列化与反序列化
+// 301.删除无效的括号
+// 306.累加数
+// 309.买卖股票的最佳时机含冷冻期
+// 2276.统计区间中的整数数目
+// 312.戳气球
+// 2244.完成所有任务需要的最少轮数
+// 315.计算右侧小于当前元素的个数
+// 324.摆动排序 Ⅱ
+// 327.区间和的个数
+// 332.重新安排行程
+// 334.递增的三元子序列
+// 337.打家劫舍 Ⅲ
+// 2293.极大极小游戏
+// 345.反转字符串中的元音字母
+// 2320.统计放置房子的方式数
+// 350.两个数组的交集I
+// 2316.统计无向图中无法互相到达点对数
+// 367.有效的完全平方数
+// 376.摆动序列
+// 383.赎金信
+// 395.至少有 K 个重复字符的最长子串
+// 396.旋转函数
+// 403.青蛙过河
+// 404.左叶子之和
+// 405.数字转换为十六进制数
+// 410.分割数组的最大值
+// 2385.感染二叉树需要的总时间
+// 414.第三大的数
+// 415.字符串相加
+// 2386.找出数组的第 K 大和
+// 421.数组中两个数的最大异或值
+// 2391.收集垃圾的最少总时间
+// 435.无重叠区间
+// 440.字典序的第K小数字
+// 2406.将区间分为最少组数
+// 443.压缩字符串
+// 2356.每位教师所教授的科目种类的数量
+// 448.找到所有数组中消失的数字
+// 451.根据字符出现频率排序
+// 453.最小操作次数使数组元素相等
+// 459.重复的子字符串
+// 462.最小操作次数使数组元素相等Ⅱ
+// 468.验证IP地址
+// 475.供暖器
+// 480.滑动窗口中位数
+// 2439.最小化数组中的最大值
+// 485.最大连续1的个数
+// 486.预测赢家
+// 498.对角线遍历
+// 2447.最大公因数等于K的子数组数目
+// 503.下一个更大元素"
+// 2462.雇佣K 位工人的总代价
+// 513.找树左下角的值
+// 2476.二叉搜索树最近节点查询
+// 521.最长特殊序列1
+// 523.连续的子数组和
+// 526.优美的排列
+// 2481.分割圆的最少切割次数
+// 529.扫雷游戏
+// 530.二叉搜索树的最小绝对差
+// 538.把二叉搜索树转换为累加树
+// 540.有序数组中的单一元素
+// 542.01矩阵
+// 546.移除盒子
+// 547.省份数量
+// 2508.添加边使所有节点度数都为偶数
+// 552.学生出勤记录 Ⅱ
+// 567.字符串的排列
+// 569.员工薪水中位数
+// 574.当选者
+// 577.员工奖金
+// 面试题 16.18.模式匹配
+// 581.最短无序连续子数组
+// 585.2016年的投资
+// 面试题 08.06.汉诺塔问题
+// 596.超过5名学生的课
+// 2580.统计将重叠区间合并成组的方案数
+// 面试题 16.26.计算器
+// 605.种花问题
+// 面试题 17.21.直方图的水量
+// 608.树节点
+// 2588.统计美丽子数组数目
+// 610.判断三角形
+// 面试题 17.05.字母与数字
+// 面试题 17.09.第k个数
+// 614.二级关注者
+// 2594.修车的最少时间
+// 623.在二叉树中增加一行
+// 面试题 16.21.交换和
+// 632.最小区间
+// 2552.统计上升四元组
+// LCP 14.切分数组
+// 2663.字典序最小的美丽字符串
+// 642.设计搜索自动补全系统
+// 645.错误的集合
+// 647.回文子串
+// 650.两个键的键盘
+// 653.两数之和 IV-输入二叉搜索树
+// 658.找到K个最接近的元素
+// 674.最长连续递增序列
+// 697.数组的度
+// 712.两个字符串的最小ASCI删除和
+// 2626.数组归约运算
+// 714.买卖股票的最佳时机含手续费
+// 724.寻找数组的中心下标
+// 2648.生成斐波那契数列
+// 728.自除数
+// 2670.找出不同元素数目差数组
+// 2684.矩阵中移动的最大次数
+// 746.使用最小花费爬楼梯
+// 2703.返回传递的参数的长度
+// 701.二叉搜索树中的插入操作
+// 773.滑动谜题
+// 2749.得到整数零需要执行的最少操作数
+// LCS 02.完成一半题目
+// 787.K 站中转内最便宜的航班
+// 794.有效的井字游戏
+// 797.所有可能的路径
+// 2725.间隔取消
+// 705.设计哈希集合
+// 2762.不间断子数组
+// 2771.构造最长非递减子数组
+// 805.数组的均值分割
+// 2800.包含三个字符串的最短字符串
+// LCR 020.回文子串
+// LCR 021.删除链表的倒数第N个结点
+// LCR 024.反转链表
+// 2810.故障键盘
+// LCR 029.循环有序列表的插入
+// LCR 095.最长公共子序列
+// LCR 096.交错字符串
+// 827.最大人工岛
+// 828.统计子串中的唯一字符
+// 829.连续整数求和
+// LCR 103.零钱兑换
+// 2812.找出最安全路径
+// LCR 105.岛屿的最大面积
+// 842.将数组拆分成斐波那契序列
+// LCR 107.01矩阵
+// 847.访问所有节点的最短路径
+// LCR 049.求根节点到叶节点数字之和
+// 853.车队
+// LCR 050.路径总和 川
+// 857.雇佣K 名工人的最低成本
+// 860.柠檬水找零
+// LCR 054.把二叉搜索树转换为累加树
+// 862.和至少为 K 的最短子数组
+// 863.二叉树中所有距离为K的结点
+// 867.转置矩阵
+// 870.优势洗牌
+// LCR 077.排序链表
+// LCR 079.子集
+// 886.可能的二分法
+// 887.鸡蛋掉落
+// 901.股票价格跨度
+// 904.水果成篮
+// 907.子数组的最小值之和
+// 914.卡牌分组
+// 924.尽量减少恶意软件的传播
+// 928.尽量减少恶意软件的传播Ⅱ
+// 930.和相同的二元子数组
+// 938.二叉搜索树的范围和
+// 2896.执行操作使两个字符串相等
+// 958.二叉树的完全性检验
+// 965.单值二叉树
+// 968.监控二叉树
+// 509.斐波那契数
+// LCP 57.打地鼠
+// LCP 59.搭桥过河
+// 983.最低票价
+// 986.区间列表的交集
+// 2878.获取 DataFrame 的大小
+// 2850.将石头分散到网格图的最少移动次数
+// LCP 63.弹珠游戏
+// 1017.负二进制转换
+// 1027.最长等差数列
+// 1044.最长重复子串
+// 1047.删除字符串中的所有相邻重复项
+// 1045.买下所有产品的客户
+// 2932.找出强数对的最大异或值
+// 2928.给小朋友们分糖果!
+// 1079.活字印刷
+// 1075.项目员工1
+// 2946.循环移位后的矩阵相似检查
+// 2959.关闭分部的可行集合数目
+// 511.游戏玩法分析1
+// 2965.找出缺失和重复的数字
+// 2952.需要添加的硬币的最小数量
+// 1115.交替打印 FooBar
+// 1103.分糖果Ⅱ
+// 1112.每位学生的最高成绩
+// 1116.打印零与奇偶数
+// 1141.查询近30天活跃用户数
+// 1146.快照数组
+// 1329.将矩阵按对角线排序
+// 1148.文章浏览|
+// 1171.从链表中删去总和值为零的连续节点
+// 3040.相同分数的最大操作数目I
+// 3067.在带权树网络中统计可连接服务器对数目
+// 3086.拾起K个1需要的最少行动次数
+// 1174.即时食物配送Ⅱ
+// 1405.最长快乐字符串
+// 3114.替换字符可以得到的最晚时间
+// 1195.交替打印字符串
+// 1208.尽可能使字符串相等
+// 3099.哈沙德数
+// 3115.质数的最大距离
+// 1204.最后一个能进入巴士的人
+// 3110.字符串的分数
+// 1219.黄金矿工
+// 1226.哲学家进餐
+// 1233.删除子文件夹
+// 2312.卖木头块
+// 1254.统计封闭岛屿的数目
+// 1255.得分最高的单词集合
+// 3149.找出分数最低的排列
+// 3160.所有球里面不同颜色的数目
+// 3171.找到按位或最接近K的子数组
+// 3180.执行操作可获得的最大总奖励1
+// 1268.搜索推荐系统
+// 1283.使结果不超过阈值的最小除数
+// 3197.包含所有 1的最小矩形面积 !
+// 1280.学生们参加各科测试的次数
+// 1297.子串的最大出现次数
+// 1349.参加考试的最大学生数
+// 1422.分割字符串的最大得分
+// 1442.形成两个异或相等数组的三元组数目
+// 1450.在既定时间做作业的学生人数
+// 1490.克隆N 叉树
+// 1518.换水问题
+// 1530.好叶子节点对的数量
+// 1542.找出最长的超赞子字符串
+// 1574.删除最短的子数组使剩余数组有序
+// 1600.王位继承顺序
+// 1622.奇妙序列
+// 1673.找出最具竞争力的子序列
+// 1702.修改后的最大二进制字符串
+// 1695.删除子数组的最大得分
+// 1705.吃苹果的最大数目
+// 1723.完成所有工作的最短时间
+// 1683.无效的推文
+// 面试题 01.01.判定字符是否唯
+// 1738.找出第K大的异或坐标值
+// 面试题 05.06.整数转换
+// 面试题 01.07.旋转矩阵
+// 面试题 02.03.删除中间节点
+// 面试题 02.05.链表求和
+// 1769.移动所有球到每个盒子所需的最小操作数
+// 面试题 08.09.括号
+// 面试题 10.03.搜索旋转数组
+// 面试题 08.12.八皇后
+// 面试题 10.05.稀疏数组搜索
+// 1789.员工的直属部门
+// 1839.所有元音按顺序排布的最长子字符串
+// 1849.将字符串拆分为递减的连续值
+// LCR 130.衣橱整理
+// LCR 138.有效数字
+// LCR 139.训练计划!
+// LCR 140.训练计划I
+// LCR 137.模糊搜索验证
+// LCR 162.数字1的个数
+// LCR 177.撞色搭配
+// LCR 165.解密数字
+// LCR 172.统计目标成绩的出现次数
+// LCR 168.丑数
+// 1884.鸡蛋掉落-两枚鸡蛋

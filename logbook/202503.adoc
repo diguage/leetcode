@@ -3,7 +3,10 @@
 ifndef::leetcode_base_url[]
 :leetcode_base_url: https://leetcode.com/problems
 endif::[]
+
+ifndef::doc_base_url[]
 :doc_base_url: link:../docs
+endif::[]
 
 
 [cols="7,30,7,56",options="header"]
