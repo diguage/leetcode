@@ -373,6 +373,11 @@ endif::[]
 |{doc_base_url}/0042-trapping-rain-water.adoc[题解]
 |❌ 使用单调栈没写出来。使用单调栈，需 `h × w`，不能只看头顶的容量。使用左右双指针夹逼代码更简单，只需要计算头顶的容量即可。
 
+|{counter:codes}
+|{leetcode_base_url}/edit-distance/[72. 编辑距离^]
+|{doc_base_url}/0072-edit-distance.adoc[题解]
+|✅ 动态规划。思考如何进一步优化成一维数组？
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
