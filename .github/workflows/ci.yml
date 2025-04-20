@@ -34,9 +34,12 @@ jobs:
           sudo apt update -y -m
           sudo apt install -y graphviz
 
+      # 将 `xref` 和 `{doc_base_url}/` 引用，切换成锚点引用 `<<id>>`
+      # 这样的话，没有做的题，因为没有 include 进来，就找不到锚地，方便识别
       - name: Improve Document 📝
         run: |
           sed -i 's@xref:\([^\.]*\).adoc\[[^:]*\]@<<\1>>@g' docs/*.adoc
+          sed -i 's@{doc_base_url}/\([^\.]*\).adoc\[[^:]*\]@<<\1>>@g' company/*.adoc
           sed -i 's@{counter:codes}@{counter:codes2503}@g' logbook/202503.adoc
       # 处理 sed 不支持非贪婪模式
       # https://stackoverflow.com/a/46719361
