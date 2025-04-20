@@ -62,6 +62,11 @@ import java.util.Arrays;
  */
 public class _0027_RemoveElement {
   // tag::answer[]
+
+    /**
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2018-07-19 18:55
+     */
     public static int removeElement(int[] nums, int val) {
         if (nums == null || nums.length == 0) {
             return 0;
