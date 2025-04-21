@@ -383,6 +383,11 @@ endif::[]
 |{doc_base_url}/0662-maximum-width-of-binary-tree.adoc[题解]
 |⭕️ 添加虚拟节点的做法超时。看答案给节点加编号通过。
 
+|{counter:codes}
+|{leetcode_base_url}/next-permutation/[31. Next Permutation^]
+|{doc_base_url}/0031-next-permutation.adoc[题解]
+|❌ 明白大概意思，思路不够条理，写不出代码。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

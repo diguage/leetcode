@@ -40,7 +40,6 @@ https://leetcode.cn/problems/next-permutation/[LeetCode - 31. 下一个排列 ^]
 输出：[1,5,1]
 ....
 
-
 *提示：*
 
 * `+1 <= nums.length <= 100+`
@@ -83,17 +82,20 @@ include::{sourcedir}/_0031_NextPermutation.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0031_NextPermutation_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0031_NextPermutation_2.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
+
+. https://leetcode.cn/problems/next-permutation/solutions/80560/xia-yi-ge-pai-lie-suan-fa-xiang-jie-si-lu-tui-dao-/[31. 下一个排列 - 思路+推导+步骤，看不懂算我输！^]
+. https://leetcode.cn/problems/next-permutation/solutions/479151/xia-yi-ge-pai-lie-by-leetcode-solution/[31. 下一个排列 - 官方题解^]
 
 
