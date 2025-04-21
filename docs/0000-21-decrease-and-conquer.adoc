@@ -14,6 +14,10 @@ D瓜哥最早知道减治法是在 https://book.douban.com/subject/26337727/[《
 * **减去的规模是可变的。**在减治法的减可变规模(variable-size-decrease)变化形式中，算法在每次迭代时，规模减小的模式都是不同的。
 ** 计算最大公约数的欧几里得算法是这种情况的一个很好的例子。 stem:[gcd(m, n)=gcd(n,m mod n)]
 
+== 经典题目
+
+. xref:0721-accounts-merge.adoc[721. Accounts Merge] -- https://leetcode.cn/problems/accounts-merge/solutions/2844329/qu-qiao-de-fang-fa-3miao-kan-dong-si-wei-llcx/[721. 账户合并 - 取巧的减治方法，3秒看懂^]
+
 == 参考资料
 
 . https://cloud.tencent.com/developer/article/1532598[【算法学习】减治 · 分治 · 变治^]

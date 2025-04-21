@@ -1524,7 +1524,7 @@ include::0718-maximum-length-of-repeated-subarray.adoc[leveloffset=+1]
 
 // include::0720-longest-word-in-dictionary.adoc[leveloffset=+1]
 
-// include::0721-accounts-merge.adoc[leveloffset=+1]
+include::0721-accounts-merge.adoc[leveloffset=+1]
 
 // include::0722-remove-comments.adoc[leveloffset=+1]
 

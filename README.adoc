@@ -5072,14 +5072,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0720-longest-word-in-dictionary.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/accounts-merge/[721. Accounts Merge^]
-//|{source_base_url}/_0721_AccountsMerge.java[Java]
-//|{doc_base_url}/0721-accounts-merge.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/accounts-merge/[721. Accounts Merge^]
+|{source_base_url}/_0721_AccountsMerge.java[Java]
+|{doc_base_url}/0721-accounts-merge.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/remove-comments/[722. Remove Comments^]
 //|{source_base_url}/_0722_RemoveComments.java[Java]

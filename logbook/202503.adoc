@@ -418,6 +418,11 @@ endif::[]
 |{doc_base_url}/0131-palindrome-partitioning.adoc[题解]
 |✅ 回溯
 
+|{counter:codes2503}
+|{leetcode_base_url}/accounts-merge/[721. 账户合并^]
+|{doc_base_url}/0721-accounts-merge.adoc[题解]
+|❌ 并查集。通过邮箱编号建立连接，而不是通过账户索引建立连接。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
