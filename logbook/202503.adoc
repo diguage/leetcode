@@ -379,19 +379,24 @@ endif::[]
 |✅ 动态规划。思考如何进一步优化成一维数组？
 
 |{counter:codes2503}
-|{leetcode_base_url}/maximum-width-of-binary-tree/[662. Maximum Width of Binary Tree^]
+|{leetcode_base_url}/maximum-width-of-binary-tree/[662. 二叉树最大宽度^]
 |{doc_base_url}/0662-maximum-width-of-binary-tree.adoc[题解]
 |⭕️ 添加虚拟节点的做法超时。看答案给节点加编号通过。
 
-|{counter:codes}
-|{leetcode_base_url}/next-permutation/[31. Next Permutation^]
+|{counter:codes2503}
+|{leetcode_base_url}/next-permutation/[31. 下一个排列^]
 |{doc_base_url}/0031-next-permutation.adoc[题解]
 |❌ 明白大概意思，思路不够条理，写不出代码。
 
-|{counter:codes}
-|{leetcode_base_url}/rotate-array/[189. Rotate Array^]
+|{counter:codes2503}
+|{leetcode_base_url}/rotate-array/[189. 轮转数组^]
 |{doc_base_url}/0189-rotate-array.adoc[题解]
 |❌ 题目理解错误，是轮转数组，不是旋转数组。
+
+|{counter:codes2503}
+|{leetcode_base_url}/remove-linked-list-elements/[203. 移除链表元素^]
+|{doc_base_url}/0203-remove-linked-list-elements.adoc[题解]
+|✅ 快慢指针。看答案，一个指针也可以！而且代码更简单！
 
 |===
 

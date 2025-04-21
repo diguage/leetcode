@@ -1447,12 +1447,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/remove-linked-list-elements/[203. Remove Linked List Elements^]
-//|{source_base_url}/_0203_RemoveLinkedListElements.java[Java]
-//|{doc_base_url}/0203-remove-linked-list-elements.adoc[题解]
-//|Easy
-//|
+|{counter:codes}
+|{leetcode_base_url}/remove-linked-list-elements/[203. Remove Linked List Elements^]
+|{source_base_url}/_0203_RemoveLinkedListElements.java[Java]
+|{doc_base_url}/0203-remove-linked-list-elements.adoc[题解]
+|Easy
+|
 
 |{counter:codes}
 |{leetcode_base_url}/count-primes/[204. Count Primes^]

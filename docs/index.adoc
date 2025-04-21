@@ -488,7 +488,7 @@ include::0200-number-of-islands.adoc[leveloffset=+1]
 
 include::0202-happy-number.adoc[leveloffset=+1]
 
-// include::0203-remove-linked-list-elements.adoc[leveloffset=+1]
+include::0203-remove-linked-list-elements.adoc[leveloffset=+1]
 
 include::0204-count-primes.adoc[leveloffset=+1]
 
