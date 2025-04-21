@@ -2368,7 +2368,7 @@ include::1137-n-th-tribonacci-number.adoc[leveloffset=+1]
 
 // include::1142-user-activity-for-the-past-30-days-ii.adoc[leveloffset=+1]
 
-// include::1143-longest-common-subsequence.adoc[leveloffset=+1]
+include::1143-longest-common-subsequence.adoc[leveloffset=+1]
 
 // include::1144-decrease-elements-to-make-array-zigzag.adoc[leveloffset=+1]
 

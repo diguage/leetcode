@@ -8026,14 +8026,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1142-user-activity-for-the-past-30-days-ii.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/longest-common-subsequence/[1143. Longest Common Subsequence^]
-//|{source_base_url}/_1143_LongestCommonSubsequence.java[Java]
-//|{doc_base_url}/1143-longest-common-subsequence.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/longest-common-subsequence/[1143. Longest Common Subsequence^]
+|{source_base_url}/_1143_LongestCommonSubsequence.java[Java]
+|{doc_base_url}/1143-longest-common-subsequence.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/decrease-elements-to-make-array-zigzag/[1144. Decrease Elements To Make Array Zigzag^]
 //|{source_base_url}/_1144_DecreaseElementsToMakeArrayZigzag.java[Java]

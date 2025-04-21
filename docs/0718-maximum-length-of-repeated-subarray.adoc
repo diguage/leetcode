@@ -36,7 +36,12 @@ image::images/0718-02.png[{image_attr}]
 
 image::images/0718-03.png[{image_attr}]
 
-TIP: 这里求的是公共子数组，只能在两个字符相等时，在上一个字符的基础上加 `1`，否则就应该设置为 `0`。不能取 `min{dp[i-1][j], dp[i][j-1]}`。
+[TIP]
+====
+这里求的是公共子数组，只能在两个字符相等时，在上一个字符的基础上加 `1`，否则就应该设置为 `0`。不能取 `min{dp[i-1][j], dp[i][j-1]}`。
+
+对比 xref:1143-longest-common-subsequence.adoc[1143. Longest Common Subsequence]，注意区分“子数组”和“子序列”的区别。
+====
 
 
 滑动窗口的解法非常妙！
