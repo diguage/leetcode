@@ -1489,12 +1489,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/minimum-size-subarray-sum/[209. Minimum Size Subarray Sum^]
-//|{source_base_url}/_0209_MinimumSizeSubarraySum.java[Java]
-//|{doc_base_url}/0209-minimum-size-subarray-sum.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/minimum-size-subarray-sum/[209. Minimum Size Subarray Sum^]
+|{source_base_url}/_0209_MinimumSizeSubarraySum.java[Java]
+|{doc_base_url}/0209-minimum-size-subarray-sum.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/course-schedule-ii/[210. Course Schedule II^]
