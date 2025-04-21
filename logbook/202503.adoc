@@ -398,6 +398,11 @@ endif::[]
 |{doc_base_url}/0203-remove-linked-list-elements.adoc[题解]
 |✅ 快慢指针。看答案，一个指针也可以！而且代码更简单！
 
+|{counter:codes2503}
+|{leetcode_base_url}/maximum-length-of-repeated-subarray/[718. 最长重复子数组^]
+|{doc_base_url}/0718-maximum-length-of-repeated-subarray.adoc[题解]
+|❌ 动态规划。这里求的是公共子数组，只能在两个字符相等时，在上一个字符的基础上加 `1`，否则就应该设置为 `0`。不能取 `min{dp[i-1][j], dp[i][j-1]}`。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

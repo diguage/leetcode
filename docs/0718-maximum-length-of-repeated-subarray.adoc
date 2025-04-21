@@ -3,8 +3,7 @@
 
 https://leetcode.cn/problems/maximum-length-of-repeated-subarray/[LeetCode - 718. 最长重复子数组 ^]
 
-给两个整数数组 `+nums1+` 和 `+nums2+` ，返回 _两个数组中 *公共的*
-、长度最长的子数组的长度 _。
+给两个整数数组 `nums1` 和 `nums2` ，返回 _两个数组中 *公共的*、长度最长的子数组的长度 _。
 
 *示例 1：*
 
@@ -21,8 +20,6 @@ https://leetcode.cn/problems/maximum-length-of-repeated-subarray/[LeetCode - 718
 输出：5
 ....
 
- 
-
 *提示：*
 
 * `+1 <= nums1.length, nums2.length <= 1000+`
@@ -38,6 +35,8 @@ image::images/0718-01.png[{image_attr}]
 image::images/0718-02.png[{image_attr}]
 
 image::images/0718-03.png[{image_attr}]
+
+TIP: 这里求的是公共子数组，只能在两个字符相等时，在上一个字符的基础上加 `1`，否则就应该设置为 `0`。不能取 `min{dp[i-1][j], dp[i][j-1]}`。
 
 
 滑动窗口的解法非常妙！
@@ -57,14 +56,14 @@ include::{sourcedir}/_0718_MaximumLengthOfRepeatedSubarray.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0718_MaximumLengthOfRepeatedSubarray_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0718_MaximumLengthOfRepeatedSubarray_2.java[tag=answer]
+----
+--
 ====
 
 
