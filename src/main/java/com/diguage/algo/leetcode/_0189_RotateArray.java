@@ -46,6 +46,9 @@ public class _0189_RotateArray {
      * Memory Usage: 37.4 MB, less than 100.00% of Java online submissions for Rotate Array.
      *
      * Copy from: https://leetcode.com/problems/rotate-array/solution/[Rotate Array solution - LeetCode]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-05 13:05
      */
     public void rotate(int[] nums, int k) {
         if (Objects.isNull(nums) || nums.length == 0 || k % nums.length == 0) {

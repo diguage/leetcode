@@ -388,6 +388,11 @@ endif::[]
 |{doc_base_url}/0031-next-permutation.adoc[题解]
 |❌ 明白大概意思，思路不够条理，写不出代码。
 
+|{counter:codes}
+|{leetcode_base_url}/rotate-array/[189. Rotate Array^]
+|{doc_base_url}/0189-rotate-array.adoc[题解]
+|❌ 题目理解错误，是轮转数组，不是旋转数组。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
