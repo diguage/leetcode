@@ -32,6 +32,9 @@ public class _0131_PalindromePartitioning {
      * Memory Usage: 39.2 MB, less than 95.45% of Java online submissions for Palindrome Partitioning.
      *
      * Copy from: https://leetcode.com/problems/palindrome-partitioning/discuss/41963/Java%3A-Backtracking-solution.[Java: Backtracking solution. - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-04 19:04
      */
     public List<List<String>> partition(String s) {
         if (Objects.isNull(s) || s.length() == 0) {
