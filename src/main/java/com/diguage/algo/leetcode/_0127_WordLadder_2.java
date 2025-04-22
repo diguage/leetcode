@@ -54,6 +54,9 @@ public class _0127_WordLadder_2 {
   // tag::answer[]
   /**
    * 自己解答
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-30 21:46:35
    */
   public int ladderLength(String beginWord, String endWord, List<String> wordList) {
     Set<String> dic = new HashSet<>(wordList);

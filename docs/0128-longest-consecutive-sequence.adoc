@@ -1,26 +1,67 @@
 [#0128-longest-consecutive-sequence]
-= 128. Longest Consecutive Sequence
+= 128. 最长连续序列
 
-{leetcode}/problems/longest-consecutive-sequence/[LeetCode - Longest Consecutive Sequence^]
+https://leetcode.cn/problems/longest-consecutive-sequence/[LeetCode - 128. 最长连续序列 ^]
 
-Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+给定一个未排序的整数数组 `nums`，找出数字连续的最长序列（不要求序列元素在原数组中连续）的长度。
 
-Your algorithm should run in O(_n_) complexity.
+请你设计并实现时间复杂度为 stem:[O(n)] 的算法解决此问题。
 
-*Example:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [100, 4, 200, 1, 3, 2]
-*Output:* 4
-*Explanation:* The longest consecutive elements sequence is `[1, 2, 3, 4]`. Therefore its length is 4.
-----
+....
+输入：nums = [100,4,200,1,3,2]
+输出：4
+解释：最长数字连续序列是 [1, 2, 3, 4]。它的长度为 4。
+....
+
+*示例 2：*
+
+....
+输入：nums = [0,3,7,2,5,8,4,6,0,1]
+输出：9
+....
+
+*提示：*
+
+* `0 \<= nums.length \<= 10^5^`
+* `-10^9^ \<= nums[i] \<= 10^9^`
 
 
+== 思路分析
+
+首先想到的思路是排序，然后再查找。
+
+答案的思路是：先将数字都添加到集合，然后遍历即可，只有没有前一位数字时，开始统计个数。
+
+看其他选手答案，使用并查集也可以解决。
 
 [[src-0128]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0128_LongestConsecutiveSequence.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0128_LongestConsecutiveSequence_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/longest-consecutive-sequence/solutions/276931/zui-chang-lian-xu-xu-lie-by-leetcode-solution/[128. 最长连续序列 - 官方题解^]
+. https://leetcode.cn/problems/longest-consecutive-sequence/solutions/3652806/jian-yi-dai-ma-cbing-cha-ji-qiu-jie-by-w-b4hj/[128. 最长连续序列 - 简易代码——C++并查集求解^]
+. https://leetcode.cn/problems/longest-consecutive-sequence/solutions/3005726/ha-xi-biao-on-zuo-fa-pythonjavacgojsrust-whop/[128. 最长连续序列 - 哈希表 O(n) 做法^]
 

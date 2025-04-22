@@ -87,6 +87,14 @@
         </exclusion>
       </exclusions>
     </dependency>
+    <dependency>
+      <groupId>org.jruby</groupId>
+      <artifactId>jruby</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jruby</groupId>
+      <artifactId>jruby-complete</artifactId>
+    </dependency>
 
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
@@ -94,10 +102,24 @@
       <version>2.17.1</version>
     </dependency>
   </dependencies>
-
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.jruby</groupId>
+        <artifactId>jruby</artifactId>
+        <version>${jruby.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jruby</groupId>
+        <artifactId>jruby-complete</artifactId>
+        <version>${jruby.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
   <build>
     <extensions>
       <extension> <!-- this allows us to download gems -->
+        <!-- 依赖了 jruby 9.4.5.0，也无法修改 -->
         <groupId>org.jruby.maven</groupId>
         <artifactId>mavengem-wagon</artifactId>
         <version>${mavengem-wagon.version}</version>
@@ -178,6 +200,7 @@
         </dependencies>
       </plugin>
       <plugin>
+        <!-- 依赖 jruby-complete	9.4.5.0，可以配置 jrubyVersion-->
         <groupId>org.jruby.maven</groupId>
         <artifactId>gem-maven-plugin</artifactId>
         <version>${gem-maven-plugin.version}</version>
@@ -437,6 +460,7 @@
         </executions>
       </plugin>
       <plugin>
+        <!-- 依赖 jruby	9.4.8.0/9.4.12.0 -->
         <groupId>org.asciidoctor</groupId>
         <artifactId>asciidoctor-maven-plugin</artifactId>
         <version>${asciidoctor-maven-plugin.version}</version>

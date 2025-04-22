@@ -922,12 +922,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/longest-consecutive-sequence/[128. Longest Consecutive Sequence^]
-//|{source_base_url}/_0128_LongestConsecutiveSequence.java[Java]
-//|{doc_base_url}/0128-longest-consecutive-sequence.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/longest-consecutive-sequence/[128. Longest Consecutive Sequence^]
+|{source_base_url}/_0128_LongestConsecutiveSequence.java[Java]
+|{doc_base_url}/0128-longest-consecutive-sequence.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/sum-root-to-leaf-numbers/[129. Sum Root to Leaf Numbers^]

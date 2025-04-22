@@ -58,6 +58,9 @@ public class _0127_WordLadder {
      * Memory Usage: 49.1 MB, less than 5.11% of Java online submissions for Word Ladder.
      *
      * Copy from: https://leetcode.com/problems/word-ladder/solution/[Word Ladder solution - LeetCode]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-25 18:43
      */
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         int L = beginWord.length();

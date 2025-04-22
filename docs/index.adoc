@@ -338,7 +338,7 @@ include::0125-valid-palindrome.adoc[leveloffset=+1]
 
 include::0127-word-ladder.adoc[leveloffset=+1]
 
-// include::0128-longest-consecutive-sequence.adoc[leveloffset=+1]
+include::0128-longest-consecutive-sequence.adoc[leveloffset=+1]
 
 include::0129-sum-root-to-leaf-numbers.adoc[leveloffset=+1]
 
