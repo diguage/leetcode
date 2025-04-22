@@ -65,7 +65,7 @@ endif::[]
 
 |{counter:codes2503}
 |{leetcode_base_url}/remove-duplicate-letters/[316. 去除重复字母^]
-|{doc_base_url}/316. 去除重复字母[题解]
+|{doc_base_url}/0316-remove-duplicate-letters.adoc[题解]
 |❌ 完全想不到单调栈！
 
 |{counter:codes2503}
@@ -428,11 +428,15 @@ endif::[]
 |{doc_base_url}/0128-longest-consecutive-sequence.adoc[题解]
 |⭕️ 最初思路是排序。看答案，可以构建集合，然后“起点”（没有前一个数字）数字开始统计。
 
-|{counter:codes}
+|{counter:codes2503}
 |{leetcode_base_url}/design-linked-list/[707. 设计链表^]
 |{doc_base_url}/0707-design-linked-list.adoc[题解]
 |✅
 
+|{counter:codes2503}
+|{leetcode_base_url}/smallest-subsequence-of-distinct-characters/[1081. 不同字符的最小子序列^]
+|{doc_base_url}/1081-smallest-subsequence-of-distinct-characters.adoc[题解]
+|❌ 单调栈，与 {doc_base_url}/0316-remove-duplicate-letters.adoc[316. Remove Duplicate Letters] 相同。知道用单调栈，但还是没写出来。
 
 |===
 

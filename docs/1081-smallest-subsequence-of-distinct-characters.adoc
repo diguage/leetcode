@@ -1,65 +1,59 @@
 [#1081-smallest-subsequence-of-distinct-characters]
-= 1081. Smallest Subsequence of Distinct Characters
+= 1081. 不同字符的最小子序列
 
-{leetcode}/problems/smallest-subsequence-of-distinct-characters/[LeetCode - Smallest Subsequence of Distinct Characters^]
+https://leetcode.cn/problems/smallest-subsequence-of-distinct-characters/[LeetCode - 1081. 不同字符的最小子序列 ^]
 
-Return the lexicographically smallest subsequence of `text` that contains all the distinct characters of `text` exactly once.
+返回 `s` 字典序最小的子序列，该子序列包含 `s` 的所有不同字符，且只包含一次。
 
- 
+*示例 1：*
 
-*Example 1:*
+....
+输入：s = "bcabc"
+输出："abc"
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "cdadabcc"
-*Output:* "adbc"
-----
+*示例 2：*
 
+....
+输入：s = "cbacdcbc"
+输出："acdb"
+....
 
-*Example 2:*
+*提示：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "abcd"
-*Output:* "abcd"
-----
+* `+1 <= s.length <= 1000+`
+* `s` 由小写英文字母组成
 
-
-*Example 3:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "ecbacba"
-*Output:* "eacb"
-----
+**注意：**该题与 xref:0316-remove-duplicate-letters.adoc[316. Remove Duplicate Letters] 相同
 
 
-*Example 4:*
+== 思路分析
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "leetcode"
-*Output:* "letcod"
-----
-
- 
-
-*Note:*
-
-
-. `1 <= text.length <= 1000`
-. `text` consists of lowercase English letters.
-
-
- 
-
-
-
-
+该题与 xref:0316-remove-duplicate-letters.adoc[316. Remove Duplicate Letters] 相同，不再赘述。
 
 [[src-1081]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1081_SmallestSubsequenceOfDistinctCharacters.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1081_SmallestSubsequenceOfDistinctCharacters_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
 

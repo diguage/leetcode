@@ -2244,7 +2244,7 @@ include::1041-robot-bounded-in-circle.adoc[leveloffset=+1]
 
 // include::1080-insufficient-nodes-in-root-to-leaf-paths.adoc[leveloffset=+1]
 
-// include::1081-smallest-subsequence-of-distinct-characters.adoc[leveloffset=+1]
+include::1081-smallest-subsequence-of-distinct-characters.adoc[leveloffset=+1]
 
 // include::1082-sales-analysis-i.adoc[leveloffset=+1]
 

@@ -7592,14 +7592,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1080-insufficient-nodes-in-root-to-leaf-paths.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/smallest-subsequence-of-distinct-characters/[1081. Smallest Subsequence of Distinct Characters^]
-//|{source_base_url}/_1081_SmallestSubsequenceOfDistinctCharacters.java[Java]
-//|{doc_base_url}/1081-smallest-subsequence-of-distinct-characters.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/smallest-subsequence-of-distinct-characters/[1081. Smallest Subsequence of Distinct Characters^]
+|{source_base_url}/_1081_SmallestSubsequenceOfDistinctCharacters.java[Java]
+|{doc_base_url}/1081-smallest-subsequence-of-distinct-characters.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/sales-analysis-i/[1082. Sales Analysis I^]
 //|{source_base_url}/_1082_SalesAnalysisI.java[Java]
