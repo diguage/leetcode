@@ -443,6 +443,11 @@ endif::[]
 |{doc_base_url}/1997-first-day-where-you-have-been-in-all-the-rooms.adoc[题解]
 |❌ 动态规划。看答案也一脸懵逼！
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-absolute-difference-in-bst/[530. 二叉搜索树的最小绝对差^]
+|{doc_base_url}/0530-minimum-absolute-difference-in-bst.adoc[题解]
+|✅ 二叉树中根遍历。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
