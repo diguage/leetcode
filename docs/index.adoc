@@ -4076,7 +4076,7 @@ include::1905-count-sub-islands.adoc[leveloffset=+1]
 
 // include::1996-the-number-of-weak-characters-in-the-game.adoc[leveloffset=+1]
 
-// include::1997-first-day-where-you-have-been-in-all-the-rooms.adoc[leveloffset=+1]
+include::1997-first-day-where-you-have-been-in-all-the-rooms.adoc[leveloffset=+1]
 
 // include::1998-gcd-sort-of-an-array.adoc[leveloffset=+1]
 

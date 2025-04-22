@@ -14005,12 +14005,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/first-day-where-you-have-been-in-all-the-rooms/[1997. First Day Where You Have Been in All the Rooms^]
-//|{source_base_url}/_1997_FirstDayWhereYouHaveBeenInAllTheRooms.java[Java]
-//|{doc_base_url}/1997-first-day-where-you-have-been-in-all-the-rooms.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/first-day-where-you-have-been-in-all-the-rooms/[1997. First Day Where You Have Been in All the Rooms^]
+|{source_base_url}/_1997_FirstDayWhereYouHaveBeenInAllTheRooms.java[Java]
+|{doc_base_url}/1997-first-day-where-you-have-been-in-all-the-rooms.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/gcd-sort-of-an-array/[1998. GCD Sort of an Array^]
