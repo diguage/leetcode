@@ -1,57 +1,55 @@
 [#2850-minimum-moves-to-spread-stones-over-grid]
-= 2850. Minimum Moves to Spread Stones Over Grid
+= 2850. 将石头分散到网格图的最少移动次数
 
-{leetcode}/problems/minimum-moves-to-spread-stones-over-grid/[LeetCode - 2850. Minimum Moves to Spread Stones Over Grid ^]
+https://leetcode.cn/problems/minimum-moves-to-spread-stones-over-grid/[LeetCode - 2850. 将石头分散到网格图的最少移动次数 ^]
 
-You are given a *0-indexed* 2D integer matrix `grid` of size `3 * 3`, representing the number of stones in each cell. The grid contains exactly `9` stones, and there can be *multiple* stones in a single cell.
+给你一个大小为 `+3 * 3+` ，下标从 *0* 开始的二维整数矩阵 `grid` ，分别表示每一个格子里石头的数目。网格图中总共恰好有 `9` 个石头，一个格子里可能会有 *多个* 石头。
 
-In one move, you can move a single stone from its current cell to any other cell if the two cells share a side.
+每一次操作中，你可以将一个石头从它当前所在格子移动到一个至少有一条公共边的相邻格子。
 
-Return _the *minimum number of moves* required to place one stone in each cell_.
+请你返回每个格子恰好有一个石头的 *最少移动次数* 。
 
- 
-*Example 1:*
-<img alt="" src="https://assets.leetcode.com/uploads/2023/08/23/example1-3.svg" style="width: 401px; height: 281px;" />
-[subs="verbatim,quotes"]
-----
-*Input:* grid = [[1,1,0],[1,1,1],[1,2,1]]
-*Output:* 3
-*Explanation:* One possible sequence of moves to place one stone in each cell is: 
-1- Move one stone from cell (2,1) to cell (2,2).
-2- Move one stone from cell (2,2) to cell (1,2).
-3- Move one stone from cell (1,2) to cell (0,2).
-In total, it takes 3 moves to place one stone in each cell of the grid.
-It can be shown that 3 is the minimum number of moves required to place one stone in each cell.
-----
+*示例 1：*
 
-*Example 2:*
-<img alt="" src="https://assets.leetcode.com/uploads/2023/08/23/example2-2.svg" style="width: 401px; height: 281px;" />
-[subs="verbatim,quotes"]
-----
-*Input:* grid = [[1,3,0],[1,0,0],[1,0,3]]
-*Output:* 4
-*Explanation:* One possible sequence of moves to place one stone in each cell is:
-1- Move one stone from cell (0,1) to cell (0,2).
-2- Move one stone from cell (0,1) to cell (1,1).
-3- Move one stone from cell (2,2) to cell (1,2).
-4- Move one stone from cell (2,2) to cell (2,1).
-In total, it takes 4 moves to place one stone in each cell of the grid.
-It can be shown that 4 is the minimum number of moves required to place one stone in each cell.
-----
+image::images/2850-01.svg[{image_attr}]
 
- 
-*Constraints:*
+....
+输入：grid = [[1,1,0],[1,1,1],[1,2,1]]
+输出：3
+解释：让每个格子都有一个石头的一个操作序列为：
+1 - 将一个石头从格子 (2,1) 移动到 (2,2) 。
+2 - 将一个石头从格子 (2,2) 移动到 (1,2) 。
+3 - 将一个石头从格子 (1,2) 移动到 (0,2) 。
+总共需要 3 次操作让每个格子都有一个石头。
+让每个格子都有一个石头的最少操作次数为 3 。
+....
 
+*示例 2：*
 
-* `grid.length == grid[i].length == 3`
-* `0 <= grid[i][j] <= 9`
-* Sum of `grid` is equal to `9`.
+image::images/2850-02.svg[{image_attr}]
 
+....
+输入：grid = [[1,3,0],[1,0,0],[1,0,3]]
+输出：4
+解释：让每个格子都有一个石头的一个操作序列为：
+1 - 将一个石头从格子 (0,1) 移动到 (0,2) 。
+2 - 将一个石头从格子 (0,1) 移动到 (1,1) 。
+3 - 将一个石头从格子 (2,2) 移动到 (1,2) 。
+4 - 将一个石头从格子 (2,2) 移动到 (2,1) 。
+总共需要 4 次操作让每个格子都有一个石头。
+让每个格子都有一个石头的最少操作次数为 4 。
+....
 
+*提示：*
+
+* `+grid.length == grid[i].length == 3+`
+* `+0 <= grid[i][j] <= 9+`
+* `grid` 中元素之和为 `9` 。
 
 
 == 思路分析
 
+回溯。找出所有的高峰和山谷，然后对高峰做排列，计算各种排列与山谷的距离，取最小值即可。有模糊思路，看答案才写出代码。
 
 [[src-2850]]
 [tabs]
@@ -78,4 +76,5 @@ include::{sourcedir}/_2850_MinimumMovesToSpreadStonesOverGrid.java[tag=answer]
 
 == 参考资料
 
+. https://leetcode.cn/problems/minimum-moves-to-spread-stones-over-grid/solutions/2435313/tong-yong-zuo-fa-zui-xiao-fei-yong-zui-d-iuw8/[2850. 将石头分散到网格图的最少移动次数 - 两种方法：枚举全排列 / 最小费用最大流^] -- 讲解比官方题解更易懂。
 

@@ -5782,7 +5782,7 @@ include::2560-house-robber-iv.adoc[leveloffset=+1]
 
 // include::2849-determine-if-a-cell-is-reachable-at-a-given-time.adoc[leveloffset=+1]
 
-// include::2850-minimum-moves-to-spread-stones-over-grid.adoc[leveloffset=+1]
+include::2850-minimum-moves-to-spread-stones-over-grid.adoc[leveloffset=+1]
 
 // include::2851-string-transformation.adoc[leveloffset=+1]
 
