@@ -423,10 +423,16 @@ endif::[]
 |{doc_base_url}/0721-accounts-merge.adoc[题解]
 |❌ 并查集。通过邮箱编号建立连接，而不是通过账户索引建立连接。
 
-|{counter:codes}
-|{leetcode_base_url}/longest-consecutive-sequence/[128. Longest Consecutive Sequence^]
+|{counter:codes2503}
+|{leetcode_base_url}/longest-consecutive-sequence/[128. 最长连续序列^]
 |{doc_base_url}/0128-longest-consecutive-sequence.adoc[题解]
 |⭕️ 最初思路是排序。看答案，可以构建集合，然后“起点”（没有前一个数字）数字开始统计。
+
+|{counter:codes}
+|{leetcode_base_url}/design-linked-list/[707. 设计链表^]
+|{doc_base_url}/0707-design-linked-list.adoc[题解]
+|✅
+
 
 |===
 

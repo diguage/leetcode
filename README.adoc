@@ -4974,14 +4974,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0706-design-hashmap.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/design-linked-list/[707. Design Linked List^]
-//|{source_base_url}/_0707_DesignLinkedList.java[Java]
-//|{doc_base_url}/0707-design-linked-list.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/design-linked-list/[707. Design Linked List^]
+|{source_base_url}/_0707_DesignLinkedList.java[Java]
+|{doc_base_url}/0707-design-linked-list.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/insert-into-a-sorted-circular-linked-list/[708. Insert into a Sorted Circular Linked List^]
 //|{source_base_url}/_0708_InsertIntoASortedCircularLinkedList.java[Java]

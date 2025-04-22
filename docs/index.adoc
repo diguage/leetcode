@@ -1496,7 +1496,7 @@ include::0704-binary-search.adoc[leveloffset=+1]
 
 // include::0706-design-hashmap.adoc[leveloffset=+1]
 
-// include::0707-design-linked-list.adoc[leveloffset=+1]
+include::0707-design-linked-list.adoc[leveloffset=+1]
 
 // include::0708-insert-into-a-sorted-circular-linked-list.adoc[leveloffset=+1]
 
