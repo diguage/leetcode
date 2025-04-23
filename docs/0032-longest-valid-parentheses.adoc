@@ -1,32 +1,71 @@
 [#0032-longest-valid-parentheses]
-= 32. Longest Valid Parentheses
+= 32. 最长有效括号
 
-{leetcode}/problems/longest-valid-parentheses/[LeetCode - Longest Valid Parentheses^]
+https://leetcode.cn/problems/longest-valid-parentheses/[LeetCode - 32. 最长有效括号 ^]
 
-Given a string containing just the characters `'('` and `')'`, find the length of the longest valid (well-formed) parentheses substring.
+给你一个只包含 `(` 和 `)` 的字符串，找出最长有效（格式正确且连续）括号子串的长度。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "(()"
-*Output:* 2
-*Explanation:* The longest valid parentheses substring is `"()"`
-----
+....
+输入：s = "(()"
+输出：2
+解释：最长有效括号子串是 "()"
+....
 
-*Example 2:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "`)()())`"
-*Output:* 4
-*Explanation:* The longest valid parentheses substring is `"()()"`
-----
+....
+输入：s = ")()())"
+输出：4
+解释：最长有效括号子串是 "()()"
+....
 
+*示例 3：*
+
+....
+输入：s = ""
+输出：0
+....
+
+*提示：*
+
+* `0 \<= s.length \<= 3 * 10^4^`
+* `s[i]` 为 `(` 或 `)`
+
+
+== 思路分析
+
+使用栈记录左右括号的下标，做匹配，同时用于标注“占位符”的状态。遍历完成后，统计占位符中的数量，找出最大长度。
+
+官方题解中的栈，除了栈，不需要额外空间，把前置下标放入栈中，用于统计长度，解法非常巧妙。
 
 [[src-0032]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0032_LongestValidParentheses.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0032_LongestValidParentheses_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/longest-valid-parentheses/solutions/314683/zui-chang-you-xiao-gua-hao-by-leetcode-solution/[32. 最长有效括号 - 官方题解^] -- 官方题解中的栈，除了栈，不需要额外空间，把前置下标放入栈中，用于统计长度，解法非常巧妙。
+. https://leetcode.cn/problems/longest-valid-parentheses/solutions/2719468/chao-jian-dan-fang-fa-zhi-hui-gua-hao-pi-nbby/[32. 最长有效括号 - 超简单方法，只会括号匹配就行^]
+
 

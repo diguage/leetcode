@@ -146,7 +146,7 @@ include::0030-substring-with-concatenation-of-all-words.adoc[leveloffset=+1]
 
 include::0031-next-permutation.adoc[leveloffset=+1]
 
-// include::0032-longest-valid-parentheses.adoc[leveloffset=+1]
+include::0032-longest-valid-parentheses.adoc[leveloffset=+1]
 
 include::0033-search-in-rotated-sorted-array.adoc[leveloffset=+1]
 
