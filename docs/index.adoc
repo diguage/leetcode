@@ -142,7 +142,7 @@ include::0028-find-the-index-of-the-first-occurrence-in-a-string.adoc[leveloffse
 
 include::0029-divide-two-integers.adoc[leveloffset=+1]
 
-// include::0030-substring-with-concatenation-of-all-words.adoc[leveloffset=+1]
+include::0030-substring-with-concatenation-of-all-words.adoc[leveloffset=+1]
 
 include::0031-next-permutation.adoc[leveloffset=+1]
 

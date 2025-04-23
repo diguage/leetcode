@@ -453,6 +453,11 @@ endif::[]
 |{doc_base_url}/2850-minimum-moves-to-spread-stones-over-grid.adoc[题解]
 |⭕️ 回溯。找出所有的高峰和山谷，然后对高峰做排列，计算各种排列与山谷的距离，取最小值即可。有模糊思路，看答案才写出代码。
 
+|{counter:codes2503}
+|{leetcode_base_url}/substring-with-concatenation-of-all-words/[30. 串联所有单词的子串^]
+|{doc_base_url}/0030-substring-with-concatenation-of-all-words.adoc[题解]
+|❌ 滑动窗口。要分情况处理窗口移动问题。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

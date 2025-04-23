@@ -42,6 +42,9 @@ public class _0029_DivideTwoIntegers {
      * Memory Usage: 34.3 MB, less than 6.06% of Java online submissions for Divide Two Integers.
      *
      * Copy from: https://leetcode.com/problems/divide-two-integers/discuss/13407/C%2B%2B-bit-manipulations[C++ bit manipulations - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-14 16:46
      */
     public int divide(int dividend, int divisor) {
         if (dividend == Integer.MIN_VALUE && divisor == -1) {
