@@ -2176,7 +2176,7 @@ include::1041-robot-bounded-in-circle.adoc[leveloffset=+1]
 
 // include::1046-last-stone-weight.adoc[leveloffset=+1]
 
-// include::1047-remove-all-adjacent-duplicates-in-string.adoc[leveloffset=+1]
+include::1047-remove-all-adjacent-duplicates-in-string.adoc[leveloffset=+1]
 
 // include::1048-longest-string-chain.adoc[leveloffset=+1]
 

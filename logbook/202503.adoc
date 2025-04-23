@@ -473,6 +473,11 @@ endif::[]
 |{doc_base_url}/0084-largest-rectangle-in-histogram.adoc[题解]
 |❌ 单调栈。一脸懵逼。哨兵技巧非常巧妙。
 
+|{counter:codes2503}
+|{leetcode_base_url}/remove-all-adjacent-duplicates-in-string/[1047. 删除字符串中的所有相邻重复项^]
+|{doc_base_url}/1047-remove-all-adjacent-duplicates-in-string.adoc[题解]
+|⭕️ 栈。把 `StringBuilder` 当做栈来使用。将最后一个字符与当前字符比较，相等则删除最后一个字符，否则就添加。
+
 
 |===
 

@@ -7354,14 +7354,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1046-last-stone-weight.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/remove-all-adjacent-duplicates-in-string/[1047. Remove All Adjacent Duplicates In String^]
-//|{source_base_url}/_1047_RemoveAllAdjacentDuplicatesInString.java[Java]
-//|{doc_base_url}/1047-remove-all-adjacent-duplicates-in-string.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/remove-all-adjacent-duplicates-in-string/[1047. Remove All Adjacent Duplicates In String^]
+|{source_base_url}/_1047_RemoveAllAdjacentDuplicatesInString.java[Java]
+|{doc_base_url}/1047-remove-all-adjacent-duplicates-in-string.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/longest-string-chain/[1048. Longest String Chain^]
 //|{source_base_url}/_1048_LongestStringChain.java[Java]
