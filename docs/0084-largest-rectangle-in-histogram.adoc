@@ -1,50 +1,76 @@
 [#0084-largest-rectangle-in-histogram]
-= 84. Largest Rectangle in Histogram
+= 84. 柱状图中最大的矩形
 
-{leetcode}/problems/largest-rectangle-in-histogram/[LeetCode - Largest Rectangle in Histogram^]
+https://leetcode.cn/problems/largest-rectangle-in-histogram/[LeetCode - 84. 柱状图中最大的矩形 ^]
 
-Given _n_ non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.
+给定 _n_ 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 `1` 。
 
-
-*Example 1:*
+求在该柱状图中，能够勾勒出来的矩形的最大面积。
 
 image::images/0084-00.png[{image_attr}]
 
-[.small]#Above is a histogram where width of each bar is 1, given height = `[2,1,5,6,2,3]`.#
-
 image::images/0084-01.png[{image_attr}]
 
-[.small]#The largest rectangle is shown in the shaded area, which has area = `10` unit.#
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [2,1,5,6,2,3]
-*Output:* 10
-----
-
-*Example 2:*
+*示例 1:*
 
 image:images/0084-03.jpg[]
 
-----
-Input: heights = [2,1,5,6,2,3]
-Output: 10
-Explanation: The above is a histogram where width of each bar is 1.
-The largest rectangle is shown in the red area, which has an area = 10 units.
-----
+....
+输入：heights = [2,1,5,6,2,3]
+输出：10
+解释：最大的矩形为图中红色区域，面积为 10
+....
 
-*Example 3:*
+*示例 2：*
 
 image:images/0084-04.jpg[]
 
-----
-Input: heights = [2,4]
-Output: 4
-----
+....
+输入： heights = [2,4]
+输出： 4
+....
+
+*提示：*
+
+* `1 \<= heights.length \<=10^5^`
+* `0 \<= heights[i] \<= 10^4^`
+
+
+== 思路分析
+
+image::images/0084-10.png[{image_attr}]
+
+单调递增栈
+
+当需要出栈的时候，就是当前元素小于栈顶元素。这样，弹出栈顶元素，以弹出的栈顶元素作为高，由于是单调递增栈，现在栈顶元素是小于已弹出的栈顶元素。所以，栈顶元素和当前坐标就是以弹出的栈顶元素的左右两个更低的柱子。那么，就弹出的栈顶元素作为高，当前坐标-栈顶元素（存的坐标）-1作为宽，就可以计算相关柱子组成的面积了。
+
+哨兵技巧非常巧妙。即可减少栈的非空判断，又可以推进剩余元素的计算（如果没有最后的零点哨兵，栈里单调递增的元素最后还要单独处理。）
+
 
 [[src-0084]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0084_LargestRectangleInHistogram.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0084_LargestRectangleInHistogram_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/largest-rectangle-in-histogram/solutions/142012/bao-li-jie-fa-zhan-by-liweiwei1419/[84. 柱状图中最大的矩形 - 暴力解法、栈（单调栈、哨兵技巧）^] -- 哨兵技巧牛逼
+. https://leetcode.cn/problems/largest-rectangle-in-histogram/solutions/266844/zhu-zhuang-tu-zhong-zui-da-de-ju-xing-by-leetcode-/[84. 柱状图中最大的矩形 - 官方题解^] -- 看的稀里糊涂。

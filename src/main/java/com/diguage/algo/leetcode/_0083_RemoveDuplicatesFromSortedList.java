@@ -22,6 +22,9 @@ public class _0083_RemoveDuplicatesFromSortedList {
     /**
      * Runtime: 1 ms, faster than 22.08% of Java online submissions for Remove Duplicates from Sorted List.
      * Memory Usage: 40 MB, less than 7.14% of Java online submissions for Remove Duplicates from Sorted List.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-04 22:39
      */
     public ListNode deleteDuplicates(ListNode head) {
         ListNode current = head.next;

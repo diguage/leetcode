@@ -468,6 +468,12 @@ endif::[]
 |{doc_base_url}/0074-search-a-2d-matrix.adoc[题解]
 |✅ 二分查找。把矩阵按行“拼接”，然后二分查找，解法非常妙。
 
+|{counter:codes2503}
+|{leetcode_base_url}/largest-rectangle-in-histogram/[84. 柱状图中最大的矩形^]
+|{doc_base_url}/0084-largest-rectangle-in-histogram.adoc[题解]
+|❌ 单调栈。一脸懵逼。哨兵技巧非常巧妙。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

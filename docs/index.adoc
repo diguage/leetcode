@@ -250,7 +250,7 @@ include::0082-remove-duplicates-from-sorted-list-ii.adoc[leveloffset=+1]
 
 include::0083-remove-duplicates-from-sorted-list.adoc[leveloffset=+1]
 
-// include::0084-largest-rectangle-in-histogram.adoc[leveloffset=+1]
+include::0084-largest-rectangle-in-histogram.adoc[leveloffset=+1]
 
 // include::0085-maximal-rectangle.adoc[leveloffset=+1]
 
