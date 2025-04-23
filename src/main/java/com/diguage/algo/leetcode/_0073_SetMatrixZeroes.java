@@ -61,6 +61,9 @@ public class _0073_SetMatrixZeroes {
      * Runtime: 1 ms, faster than 100.00% of Java online submissions for Set Matrix Zeroes.
      *
      * Memory Usage: 50.4 MB, less than 5.71% of Java online submissions for Set Matrix Zeroes.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-10-27 00:59
      */
     public void setZeroes(int[][] matrix) {
         if (Objects.isNull(matrix) || matrix[0].length == 0) {

@@ -544,12 +544,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/search-a-2d-matrix/[74. Search a 2D Matrix^]
-//|{source_base_url}/_0074_SearchA2DMatrix.java[Java]
-//|{doc_base_url}/0074-search-a-2d-matrix.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/search-a-2d-matrix/[74. Search a 2D Matrix^]
+|{source_base_url}/_0074_SearchA2DMatrix.java[Java]
+|{doc_base_url}/0074-search-a-2d-matrix.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/sort-colors/[75. Sort Colors^]

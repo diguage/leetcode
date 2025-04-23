@@ -463,6 +463,11 @@ endif::[]
 |{doc_base_url}/0032-longest-valid-parentheses.adoc[题解]
 |⭕️ 栈。使用栈记录左右括号的下标，匹配后标注“占位符”。最后，统计占位符中的数量，找出最大长度。
 
+|{counter:codes2503}
+|{leetcode_base_url}/search-a-2d-matrix/[74. 搜索二维矩阵^]
+|{doc_base_url}/0074-search-a-2d-matrix.adoc[题解]
+|✅ 二分查找。把矩阵按行“拼接”，然后二分查找，解法非常妙。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

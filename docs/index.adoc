@@ -230,7 +230,7 @@ include::0072-edit-distance.adoc[leveloffset=+1]
 
 include::0073-set-matrix-zeroes.adoc[leveloffset=+1]
 
-// include::0074-search-a-2d-matrix.adoc[leveloffset=+1]
+include::0074-search-a-2d-matrix.adoc[leveloffset=+1]
 
 include::0075-sort-colors.adoc[leveloffset=+1]
 
