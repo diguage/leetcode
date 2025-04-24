@@ -2180,7 +2180,7 @@ include::1047-remove-all-adjacent-duplicates-in-string.adoc[leveloffset=+1]
 
 // include::1048-longest-string-chain.adoc[leveloffset=+1]
 
-// include::1049-last-stone-weight-ii.adoc[leveloffset=+1]
+include::1049-last-stone-weight-ii.adoc[leveloffset=+1]
 
 // include::1050-actors-and-directors-who-cooperated-at-least-three-times.adoc[leveloffset=+1]
 

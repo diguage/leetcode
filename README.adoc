@@ -7368,14 +7368,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1048-longest-string-chain.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/last-stone-weight-ii/[1049. Last Stone Weight II^]
-//|{source_base_url}/_1049_LastStoneWeightII.java[Java]
-//|{doc_base_url}/1049-last-stone-weight-ii.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/last-stone-weight-ii/[1049. Last Stone Weight II^]
+|{source_base_url}/_1049_LastStoneWeightII.java[Java]
+|{doc_base_url}/1049-last-stone-weight-ii.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/actors-and-directors-who-cooperated-at-least-three-times/[1050. Actors and Directors Who Cooperated At Least Three Times^]
 //|{source_base_url}/_1050_ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.java[Java]
