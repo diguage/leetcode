@@ -1,27 +1,34 @@
 [#0109-convert-sorted-list-to-binary-search-tree]
-= 109. Convert Sorted List to Binary Search Tree
+= 109. 有序链表转换二叉搜索树
 
-{leetcode}/problems/convert-sorted-list-to-binary-search-tree/[LeetCode - Convert Sorted List to Binary Search Tree^]
+https://leetcode.cn/problems/convert-sorted-list-to-binary-search-tree/[LeetCode - 109. 有序链表转换二叉搜索树 ^]
 
-Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
+给定一个单链表的头节点  `head` ，其中的元素 *按升序排序* ，将其转换为平衡 二叉搜索树。
 
-For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of _every_ node never differ by more than 1.
+*示例 1:*
 
-.Example:
-[subs="verbatim,quotes,macros"]
-----
-Given the sorted linked list: [-10,-3,0,5,9],
+image::images/0109-01.jpg[{image_attr}]
 
-One possible answer is: [0,-3,9,-10,null,5], which represents the following height balanced BST:
+....
+输入: head = [-10,-3,0,5,9]
+输出: [0,-3,9,-10,null,5]
+解释: 一个可能的答案是[0，-3,9，-10,null,5]，它表示所示的高度平衡的二叉搜索树。
+....
 
-      0
-     / \
-   -3   9
-   /   /
- -10  5
-----
+*示例 2:*
 
-== 解题分析
+....
+输入: head = []
+输出: []
+....
+
+*提示:*
+
+* `head` 中的节点数在 `[0, 2 * 10^4^]` 范围内
+* `-10^5^ \<= Node.val \<= 10^5^`
+
+
+== 思路分析
 
 这道题跟 xref:0108-convert-sorted-array-to-binary-search-tree.adoc[108. Convert Sorted Array to Binary Search Tree] 类似。可以转化成数组（或链表）进行求解。这属于空间换时间的解法。
 
@@ -29,25 +36,37 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 
 还有一种解法：利用分治+中序遍历，先逐步构建左树，然后构建根节点，最后构建右树。
 
-== 参考资料
-
-. https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/solution/you-xu-lian-biao-zhuan-huan-er-cha-sou-suo-shu-by-/[有序链表转换二叉搜索树 - 有序链表转换二叉搜索树 - 力扣（LeetCode）^]
-
-
 [[src-0109]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0109_ConvertSortedListToBinarySearchTree.java[tag=answer]
 ----
+--
 
-
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0109_ConvertSortedListToBinarySearchTree_2.java[tag=answer]
 ----
+--
 
+二刷（优化）::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0109_ConvertSortedListToBinarySearchTree_21.java[tag=answer]
 ----
+--
+====
 
+== 参考资料
+
+. https://leetcode.cn/problems/convert-sorted-list-to-binary-search-tree/solutions/378582/you-xu-lian-biao-zhuan-huan-er-cha-sou-suo-shu-1-3/[109. 有序链表转换二叉搜索树 - 力扣（LeetCode）^]
