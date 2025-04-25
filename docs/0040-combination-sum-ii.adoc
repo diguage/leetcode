@@ -1,40 +1,45 @@
 [#0040-combination-sum-ii]
-= 40. Combination Sum II
+= 40. 组合总和 II
 
-{leetcode}/problems/combination-sum-ii/[LeetCode - Combination Sum II^]
+https://leetcode.cn/problems/combination-sum-ii/[LeetCode - 40. 组合总和 II ^]
 
-Given a collection of candidate numbers (`candidates`) and a target number (`target`), find all unique combinations in `candidates` where the candidate numbers sums to `target`.
+给定一个候选人编号的集合 `candidates` 和一个目标数 `target` ，找出 `candidates` 中所有可以使数字和为 `target` 的组合。
 
-Each number in `candidates` may only be used once in the combination.
+`candidates` 中的每个数字在每个组合中只能使用 *一次* 。
 
-*Note:*
+**注意：**解集不能包含重复的组合。
 
-* All numbers (including target) will be positive integers.
-* The solution set must not contain duplicate combinations.
+*示例 1:*
 
-.Example 1:
-[source]
-----
-Input: candidates = [10,1,2,7,6,1,5], target = 8,
-A solution set is:
+....
+输入: candidates = [10,1,2,7,6,1,5], target = 8,
+输出:
 [
-  [1, 7],
-  [1, 2, 5],
-  [2, 6],
-  [1, 1, 6]
+  [1,1,6],
+  [1,2,5],
+  [1,7],
+  [2,6]
 ]
-----
+....
 
-.Example 2:
-[source]
-----
-Input: candidates = [2,5,2,1,2], target = 5,
-A solution set is:
+*示例 2:*
+
+....
+输入: candidates = [2,5,2,1,2], target = 5,
+输出:
 [
   [1,2,2],
   [5]
 ]
-----
+....
+
+
+*提示:*
+
+* `+1 <= candidates.length <= 100+`
+* `+1 <= candidates[i] <= 50+`
+* `+1 <= target <= 30+`
+
 
 == 思路分析
 
@@ -45,6 +50,11 @@ image::images/0040-02.png[{image_attr}]
 image::images/0040-03.png[{image_attr}]
 
 image::images/0040-04.png[{image_attr}]
+
+image::images/0040-10.png[{image_attr}]
+
+image::images/0040-11.png[{image_attr}]
+
 
 这道题的关键是由于候选值不能重复使用，所以需要向下传递起始位置。可以对比一下 xref:0039-combination-sum.adoc[39. Combination Sum] 的处理上的不同之处。
 
@@ -80,7 +90,23 @@ include::{sourcedir}/_0040_CombinationSumII_2.java[tag=answer]
 include::{sourcedir}/_0040_CombinationSumII_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0040_CombinationSumIi_4.java[tag=answer]
+----
+--
 ====
+
+
+== 思考题
+
+如果一个既存在重复元素，同一个元素又可以重复使用，该怎么做组合总和？
+
+其实，不能这样搞。没办法区分是同一个元素，还是重复的元素。
 
 == 参考资料
 
