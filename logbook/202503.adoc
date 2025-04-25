@@ -488,6 +488,10 @@ endif::[]
 |{doc_base_url}/0037-sudoku-solver.adoc[题解]
 |⭕️ 回溯。学习使用位操作来标注已用字符，计算未用字符。位操作真是太玄妙了！
 
+|{counter:codes2503}
+|{leetcode_base_url}/combination-sum/[39. 组合总和^]
+|{doc_base_url}/0039-combination-sum.adoc[题解]
+|✅ 回溯
 
 |===
 
