@@ -498,6 +498,11 @@ endif::[]
 |{doc_base_url}/0040-combination-sum-ii.adoc[题解]
 |✅ 回溯。注意同层剪枝的技巧。
 
+|{counter:codes2503}
+|{leetcode_base_url}/rotate-image/[48. Rotate Image^]
+|{doc_base_url}/0048-rotate-image.adoc[题解]
+|✅ 使用递归来推进循环。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
