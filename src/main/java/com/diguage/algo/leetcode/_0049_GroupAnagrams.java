@@ -35,6 +35,9 @@ public class _0049_GroupAnagrams {
      * Runtime: 16 ms, faster than 22.85% of Java online submissions for Group Anagrams.
      *
      * Memory Usage: 40.4 MB, less than 96.49% of Java online submissions for Group Anagrams.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-06 21:42
      */
     public List<List<String>> groupAnagrams(String[] strs) {
         if (Objects.isNull(strs) || strs.length == 0) {

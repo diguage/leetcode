@@ -499,9 +499,14 @@ endif::[]
 |✅ 回溯。注意同层剪枝的技巧。
 
 |{counter:codes2503}
-|{leetcode_base_url}/rotate-image/[48. Rotate Image^]
+|{leetcode_base_url}/rotate-image/[48. 旋转图像^]
 |{doc_base_url}/0048-rotate-image.adoc[题解]
 |✅ 使用递归来推进循环。
+
+|{counter:codes2503}
+|{leetcode_base_url}/group-anagrams/[49. 字母异位词分组^]
+|{doc_base_url}/0049-group-anagrams.adoc[题解]
+|✅ 使用 `Map` 存字符和数量即可。
 
 |===
 
