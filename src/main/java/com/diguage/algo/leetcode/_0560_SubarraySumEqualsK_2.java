@@ -14,6 +14,9 @@ public class _0560_SubarraySumEqualsK_2 {
   // tag::answer[]
     /**
      * 自己根据“前缀和”套路想的思路，参考 https://leetcode.cn/problems/subarray-sum-equals-k/solutions/238572/he-wei-kde-zi-shu-zu-by-leetcode-solution/[560. 和为 K 的子数组 - 官方题解^] 更正了代码。
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2024-06-23 11:08:29
      */
     public int subarraySum(int[] nums, int k) {
       int result = 0;

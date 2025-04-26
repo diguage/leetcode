@@ -19,6 +19,9 @@ public class _0560_SubarraySumEqualsK {
      * Memory Usage: 42.2 MB, less than 5.43% of Java online submissions for Subarray Sum Equals K.
      *
      * Copy from: https://leetcode-cn.com/problems/subarray-sum-equals-k/solution/he-wei-kde-zi-shu-zu-by-leetcode/[和为K的子数组 - 和为K的子数组 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-30 23:14
      */
     public int subarraySum(int[] nums, int k) {
         if (Objects.isNull(nums) || nums.length == 0) {

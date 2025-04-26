@@ -508,6 +508,11 @@ endif::[]
 |{doc_base_url}/0049-group-anagrams.adoc[题解]
 |✅ 使用 `Map` 存字符和数量即可。
 
+|{counter:codes}
+|{leetcode_base_url}/subarray-sum-equals-k/[560. 和为 K 的子数组^]
+|{doc_base_url}/0560-subarray-sum-equals-k.adoc[题解]
+|✅ 前缀和。需要记录每一个和的出现次数。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
