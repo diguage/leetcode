@@ -38,6 +38,9 @@ public class _0069_SqrtX {
      * Memory Usage: 34.1 MB, less than 5.00% of Java online submissions for Sqrt(x).
      *
      * Copy from: https://leetcode.com/problems/sqrtx/discuss/25047/A-Binary-Search-Solution[A Binary Search Solution - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-13 22:30
      */
     public int mySqrt(int x) {
         if (x == 0) {

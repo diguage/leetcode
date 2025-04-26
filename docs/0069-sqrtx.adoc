@@ -1,38 +1,63 @@
 [#0069-sqrtx]
-= 69. Sqrt(x)
+= 69. x 的平方根
 
-{leetcode}/problems/sqrtx/[LeetCode - Sqrt(x)^]
+https://leetcode.cn/problems/sqrtx/[LeetCode - 69. x 的平方根  ^]
+
+给你一个非负整数 `x` ，计算并返回 `x` 的 *算术平方根* 。
+
+由于返回类型是整数，结果只保留 *整数部分*，小数部分将被 *舍去*。
+
+**注意：**不允许使用任何内置指数函数和算符，例如 `pow(x, 0.5)` 或者 `x^0.5^` 。
+
+*示例 1：*
+
+....
+输入：x = 4
+输出：2
+....
+
+*示例 2：*
+
+....
+输入：x = 8
+输出：2
+解释：8 的算术平方根是 2.82842..., 由于返回类型是整数，小数部分将被舍去。
+....
+
+*提示：*
+
+* `0 \<= x \<= 2^31^ - 1`
+
+
+== 思路分析
 
 明知使用的是二分查找，竟然没有写出来！！
 
-Implement `int sqrt(int x)`.
-
-Compute and return the square root of _x_, where _x_ is guaranteed to be a non-negative integer.
-
-Since the return type is an integer, the decimal digits are truncated and only the integer part of the result is returned.
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 4
-*Output:* 2
-----
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 8
-*Output:* 2
-*Explanation:* The square root of 8 is 2.82842..., and since 
-             the decimal part is truncated, 2 is returned.
-----
-
+使用 `result` 字段用于存储最后一个小于等于的情况，这样就能直接获取答案，省去很多判断。
 
 [[src-0069]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0069_SqrtX.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0069_SqrtX_2.java[tag=answer]
+----
+--
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/sqrtx/solutions/238553/x-de-ping-fang-gen-by-leetcode-solution/[69. x 的平方根 - 官方题解^]
