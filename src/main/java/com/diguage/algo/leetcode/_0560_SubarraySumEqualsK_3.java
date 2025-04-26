@@ -18,8 +18,8 @@ public class _0560_SubarraySumEqualsK_3 {
     int result = 0;
     for (int i = 0; i < nums.length; i++) {
       sum += nums[i];
-      sumToCounterMap.put(sum, sumToCounterMap.getOrDefault(sum, 0) + 1);
       result += sumToCounterMap.getOrDefault(sum - k, 0);
+      sumToCounterMap.put(sum, sumToCounterMap.getOrDefault(sum, 0) + 1);
     }
     return result;
   }
