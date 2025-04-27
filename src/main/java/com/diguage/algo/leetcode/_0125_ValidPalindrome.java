@@ -34,6 +34,9 @@ public class _0125_ValidPalindrome {
      * Runtime: 3 ms, faster than 96.33% of Java online submissions for Valid Palindrome.
      *
      * Memory Usage: 38.3 MB, less than 76.78% of Java online submissions for Valid Palindrome.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-14 23:34
      */
     public boolean isPalindrome(String s) {
         if (Objects.isNull(s) || s.length() == 0) {
