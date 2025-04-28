@@ -529,9 +529,14 @@ endif::[]
 |✅ 双指针
 
 |{counter:codes2503}
-|{leetcode_base_url}/single-number/[136. Single Number^]
+|{leetcode_base_url}/single-number/[136. 只出现一次的数字^]
 |{doc_base_url}/0136-single-number.adoc[题解]
 |✅ 位运算。出现两次，则异或后为 `0`，所有数字异或，最后只剩下出现一次的数字。
+
+|{counter:codes2503}
+|{leetcode_base_url}/dota2-senate/[649. Dota2 参议院^]
+|{doc_base_url}/0649-dota2-senate.adoc[题解]
+|✅ 贪心算法。优先禁止最近的对方议员投票。不停循环，直到只留下一方议员。
 
 |===
 

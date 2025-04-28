@@ -1380,7 +1380,7 @@ include::0647-palindromic-substrings.adoc[leveloffset=+1]
 
 // include::0648-replace-words.adoc[leveloffset=+1]
 
-// include::0649-dota2-senate.adoc[leveloffset=+1]
+include::0649-dota2-senate.adoc[leveloffset=+1]
 
 // include::0650-2-keys-keyboard.adoc[leveloffset=+1]
 

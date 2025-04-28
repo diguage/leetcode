@@ -4568,14 +4568,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0648-replace-words.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/dota2-senate/[649. Dota2 Senate^]
-//|{source_base_url}/_0649_Dota2Senate.java[Java]
-//|{doc_base_url}/0649-dota2-senate.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/dota2-senate/[649. Dota2 Senate^]
+|{source_base_url}/_0649_Dota2Senate.java[Java]
+|{doc_base_url}/0649-dota2-senate.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/2-keys-keyboard/[650. 2 Keys Keyboard^]
 //|{source_base_url}/_0650_2KeysKeyboard.java[Java]
