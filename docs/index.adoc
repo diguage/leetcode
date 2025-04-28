@@ -1422,7 +1422,7 @@ include::0662-maximum-width-of-binary-tree.adoc[leveloffset=+1]
 
 include::0669-trim-a-binary-search-tree.adoc[leveloffset=+1]
 
-// include::0670-maximum-swap.adoc[leveloffset=+1]
+include::0670-maximum-swap.adoc[leveloffset=+1]
 
 // include::0671-second-minimum-node-in-a-binary-tree.adoc[leveloffset=+1]
 

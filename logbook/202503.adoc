@@ -538,6 +538,11 @@ endif::[]
 |{doc_base_url}/0649-dota2-senate.adoc[题解]
 |✅ 贪心算法。优先禁止最近的对方议员投票。不停循环，直到只留下一方议员。
 
+|{counter:codes2503}
+|{leetcode_base_url}/maximum-swap/[670. 最大交换^]
+|{doc_base_url}/0670-maximum-swap.adoc[题解]
+|✅ 贪心算法。最高位尽可能跟后面的最大数字进行交换。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

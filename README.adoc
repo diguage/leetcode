@@ -4716,13 +4716,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/maximum-swap/[670. Maximum Swap^]
-//|{source_base_url}/_0670_MaximumSwap.java[Java]
-//|{doc_base_url}/0670-maximum-swap.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/maximum-swap/[670. Maximum Swap^]
+|{source_base_url}/_0670_MaximumSwap.java[Java]
+|{doc_base_url}/0670-maximum-swap.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/second-minimum-node-in-a-binary-tree/[671. Second Minimum Node In a Binary Tree^]
 //|{source_base_url}/_0671_SecondMinimumNodeInABinaryTree.java[Java]

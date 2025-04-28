@@ -1,45 +1,64 @@
 [#0670-maximum-swap]
-= 670. Maximum Swap
+= 670. 最大交换
 
-{leetcode}/problems/maximum-swap/[LeetCode - Maximum Swap^]
+https://leetcode.cn/problems/maximum-swap/[LeetCode - 670. 最大交换 ^]
 
+给定一个非负整数，你**至多**可以交换一次数字中的任意两位。返回你能得到的最大值。
 
-Given a non-negative integer, you could swap two digits *at most* once to get the maximum valued number. Return the maximum valued number you could get.
+*示例 1 :*
 
+....
+输入: 2736
+输出: 7236
+解释: 交换数字2和数字7。
+....
 
-*Example 1:*
+*示例 2 :*
 
+....
+输入: 9973
+输出: 9973
+解释: 不需要交换。
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 2736
-*Output:* 7236
-*Explanation:* Swap the number 2 and the number 7.
-----
+*注意:*
 
-
-*Example 2:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 9973
-*Output:* 9973
-*Explanation:* No swap.
-----
+. 给定数字的范围是 `[0, 10^8^]`
 
 
+== 思路分析
 
-*Note:*
+如何进行“最大交换”？其实很简单：从后面的数字中，找出一个最大数与最高位进行交换。如果后面的最大数小于等于最高位的数字，则把最高位“向后”移一位，再从剩下的数字中寻找最大的数字。
 
-. The given number is in the range [0, 10^8^]
+有一点需要特别注意，如果后面的数字的最大数存在多个，则最高位需要跟最低位的数字进行交换。（保持高位的最大数字不变，可以保证数字更大。）
 
-
-
+网友对贪心算法的一句话总结：每一位数字应该不小于所有排它后面的数字，否则找最大的且排最后面的数字与之交换。
 
 [[src-0670]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0670_MaximumSwap.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0670_MaximumSwap_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/maximum-swap/solutions/1818457/zui-da-jiao-huan-by-leetcode-solution-lnd5/[670. 最大交换 - 官方题解^] -- 代码更简介。
+. https://leetcode.cn/problems/maximum-swap/solutions/2614470/yi-ci-bian-li-jian-ji-xie-fa-pythonjavac-c9b1/[670. 最大交换 - 一次遍历，简洁写法^]
+. https://leetcode.cn/problems/maximum-swap/solutions/1820042/by-muse-77-hwnt/[670. 最大交换 - 【爪哇缪斯】图解LeetCode^]
