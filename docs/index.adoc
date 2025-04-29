@@ -514,7 +514,7 @@ include::0213-house-robber-ii.adoc[leveloffset=+1]
 
 include::0215-kth-largest-element-in-an-array.adoc[leveloffset=+1]
 
-// include::0216-combination-sum-iii.adoc[leveloffset=+1]
+include::0216-combination-sum-iii.adoc[leveloffset=+1]
 
 include::0217-contains-duplicate.adoc[leveloffset=+1]
 
