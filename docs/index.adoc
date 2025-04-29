@@ -504,7 +504,7 @@ include::0209-minimum-size-subarray-sum.adoc[leveloffset=+1]
 
 include::0210-course-schedule-ii.adoc[leveloffset=+1]
 
-// include::0211-design-add-and-search-words-data-structure.adoc[leveloffset=+1]
+include::0211-design-add-and-search-words-data-structure.adoc[leveloffset=+1]
 
 // include::0212-word-search-ii.adoc[leveloffset=+1]
 

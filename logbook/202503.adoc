@@ -553,6 +553,11 @@ endif::[]
 |{doc_base_url}/0697-degree-of-an-array.adoc[题解]
 |✅
 
+|{counter:codes2503}
+|{leetcode_base_url}/design-add-and-search-words-data-structure/[211. 添加与搜索单词 - 数据结构设计]
+|{doc_base_url}/0211-design-add-and-search-words-data-structure.adoc[题解]
+|✅ 前缀树。需要处理通配符的情况，尤其要注意结尾字符的处理。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

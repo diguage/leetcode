@@ -1503,12 +1503,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/design-add-and-search-words-data-structure/[211. 添加与搜索单词 - 数据结构设计]
-//|{source_base_url}/_0211_DesignAddAndSearchWordsDataStructure.java[Java]
-//|{doc_base_url}/0211-design-add-and-search-words-data-structure.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/design-add-and-search-words-data-structure/[211. 添加与搜索单词 - 数据结构设计]
+|{source_base_url}/_0211_DesignAddAndSearchWordsDataStructure.java[Java]
+|{doc_base_url}/0211-design-add-and-search-words-data-structure.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/word-search-ii/[212. Word Search II^]

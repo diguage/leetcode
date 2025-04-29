@@ -41,6 +41,7 @@ wordDictionary.search("b.."); // 返回 True
 
 == 思路分析
 
+前缀树。需要处理通配符的情况，尤其要注意结尾字符的处理。
 
 [[src-0211]]
 [tabs]
