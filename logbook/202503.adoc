@@ -543,6 +543,11 @@ endif::[]
 |{doc_base_url}/0670-maximum-swap.adoc[题解]
 |✅ 贪心算法。最高位尽可能跟后面的最大数字进行交换。
 
+|{counter:codes2503}
+|{leetcode_base_url}/two-sum-ii-input-array-is-sorted/[167. Two Sum II - Input array is sorted^]
+|{doc_base_url}/0167-two-sum-ii-input-array-is-sorted.adoc[题解]
+|✅ 双指针
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
