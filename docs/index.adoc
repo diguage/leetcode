@@ -1476,7 +1476,7 @@ include::0695-max-area-of-island.adoc[leveloffset=+1]
 
 // include::0696-count-binary-substrings.adoc[leveloffset=+1]
 
-// include::0697-degree-of-an-array.adoc[leveloffset=+1]
+include::0697-degree-of-an-array.adoc[leveloffset=+1]
 
 include::0698-partition-to-k-equal-sum-subsets.adoc[leveloffset=+1]
 

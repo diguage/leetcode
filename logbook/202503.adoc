@@ -544,9 +544,14 @@ endif::[]
 |✅ 贪心算法。最高位尽可能跟后面的最大数字进行交换。
 
 |{counter:codes2503}
-|{leetcode_base_url}/two-sum-ii-input-array-is-sorted/[167. Two Sum II - Input array is sorted^]
+|{leetcode_base_url}/two-sum-ii-input-array-is-sorted/[167. 两数之和 II - 输入有序数组^]
 |{doc_base_url}/0167-two-sum-ii-input-array-is-sorted.adoc[题解]
 |✅ 双指针
+
+|{counter:codes2503}
+|{leetcode_base_url}/degree-of-an-array/[697. 数组的度^]
+|{doc_base_url}/0697-degree-of-an-array.adoc[题解]
+|✅
 
 |===
 
