@@ -1593,14 +1593,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0223-rectangle-area.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/basic-calculator/[224. Basic Calculator^]
-//|{source_base_url}/_0224_BasicCalculator.java[Java]
-//|{doc_base_url}/0224-basic-calculator.adoc[题解]
-//|Hard
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/basic-calculator/[224. Basic Calculator^]
+|{source_base_url}/_0224_BasicCalculator.java[Java]
+|{doc_base_url}/0224-basic-calculator.adoc[题解]
+|Hard
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/implement-stack-using-queues/[225. Implement Stack using Queues^]
 //|{source_base_url}/_0225_ImplementStackUsingQueues.java[Java]

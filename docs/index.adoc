@@ -530,7 +530,7 @@ include::0222-count-complete-tree-nodes.adoc[leveloffset=+1]
 
 // include::0223-rectangle-area.adoc[leveloffset=+1]
 
-// include::0224-basic-calculator.adoc[leveloffset=+1]
+include::0224-basic-calculator.adoc[leveloffset=+1]
 
 // include::0225-implement-stack-using-queues.adoc[leveloffset=+1]
 

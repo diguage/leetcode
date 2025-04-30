@@ -563,6 +563,12 @@ endif::[]
 |{doc_base_url}/0216-combination-sum-iii.adoc[题解]
 |✅ 回溯
 
+|{counter:codes2503}
+|{leetcode_base_url}/basic-calculator/[224. Basic Calculator^]
+|{doc_base_url}/0224-basic-calculator.adoc[题解]
+|❌ 使用双栈来分别存放数字和操作符。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
