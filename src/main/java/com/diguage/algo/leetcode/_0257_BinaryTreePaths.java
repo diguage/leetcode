@@ -6,13 +6,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
-  * @author D瓜哥 · https://www.diguage.com
-  * @since 2024-06-25 20:59:38
-  */
+
 public class _0257_BinaryTreePaths {
   // tag::answer[]
-
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-25 20:59:38
+   */
   public List<String> binaryTreePaths(TreeNode root) {
     List<String> result = new ArrayList<>();
     backtrack(root, result, new ArrayList<>());

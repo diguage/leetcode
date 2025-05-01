@@ -1845,14 +1845,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0259-3sum-smaller.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/single-number-iii/[260. Single Number III^]
-//|{source_base_url}/_0260_SingleNumberIII.java[Java]
-//|{doc_base_url}/0260-single-number-iii.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/single-number-iii/[260. Single Number III^]
+|{source_base_url}/_0260_SingleNumberIII.java[Java]
+|{doc_base_url}/0260-single-number-iii.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/graph-valid-tree/[261. Graph Valid Tree^]
 //|{source_base_url}/_0261_GraphValidTree.java[Java]
