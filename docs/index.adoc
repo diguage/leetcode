@@ -82,6 +82,8 @@ include::0000-26-dynamic-programming.adoc[leveloffset=+1]
 
 include::0000-27-greedy.adoc[leveloffset=+1]
 
+include::0000-28-bit-manipulation.adoc[leveloffset=+1]
+
 // :sectnums:
 
 include::0001-two-sum.adoc[leveloffset=+1]
