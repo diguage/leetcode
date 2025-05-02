@@ -314,7 +314,7 @@ include::0113-path-sum-ii.adoc[leveloffset=+1]
 
 include::0114-flatten-binary-tree-to-linked-list.adoc[leveloffset=+1]
 
-// include::0115-distinct-subsequences.adoc[leveloffset=+1]
+include::0115-distinct-subsequences.adoc[leveloffset=+1]
 
 include::0116-populating-next-right-pointers-in-each-node.adoc[leveloffset=+1]
 

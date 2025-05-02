@@ -831,12 +831,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/distinct-subsequences/[115. Distinct Subsequences^]
-//|{source_base_url}/_0115_DistinctSubsequences.java[Java]
-//|{doc_base_url}/0115-distinct-subsequences.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/distinct-subsequences/[115. Distinct Subsequences^]
+|{source_base_url}/_0115_DistinctSubsequences.java[Java]
+|{doc_base_url}/0115-distinct-subsequences.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/populating-next-right-pointers-in-each-node/[116. Populating Next Right Pointers in Each Node^]

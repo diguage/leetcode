@@ -1,56 +1,93 @@
 [#0115-distinct-subsequences]
-= 115. Distinct Subsequences
+= 115. 不同的子序列
 
-{leetcode}/problems/distinct-subsequences/[LeetCode - Distinct Subsequences^]
+https://leetcode.cn/problems/distinct-subsequences/[LeetCode - 115. 不同的子序列 ^]
 
-Given a string *S* and a string *T*, count the number of distinct subsequences of *S* which equals *T*.
+给你两个字符串 `s` ** 和 `t` ，统计并返回在 `s` 的 *子序列* 中 `t` 出现的个数。
 
-A subsequence of a string is a new string which is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie, `"ACE"` is a subsequence of `"ABCDE"` while `"AEC"` is not).
+测试用例保证结果在 32 位有符号整数范围内。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* S = `"rabbbit"`, T = `"rabbit"`
-*Output:* 3
-*Explanation:*
-As shown below, there are 3 ways you can generate "rabbit" from S.
-(The caret symbol ^ means the chosen letters)
+....
+输入：s = "rabbbit", t = "rabbit"
+输出：3
+解释：
+如下所示, 有 3 种可以从 s 中得到 "rabbit" 的方案。
+rabbbit
+rabbbit
+rabbbit
+....
 
-`rabbbit`
-^^^^ ^^
-`rabbbit`
-^^ ^^^^
-`rabbbit`
-^^^ ^^^
-----
+*示例 2：*
 
-*Example 2:*
+....
+输入：s = "babgbag", t = "bag"
+输出：5
+解释：
+如下所示, 有 5 种可以从 s 中得到 "bag" 的方案。
+babgbag
+babgbag
+babgbag
+babgbag
+babgbag
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* S = `"babgbag"`, T = `"bag"`
-*Output:* 5
-*Explanation:*
-As shown below, there are 5 ways you can generate "bag" from S.
-(The caret symbol ^ means the chosen letters)
+*提示：*
 
-`babgbag`
-^^ ^
-`babgbag`
-^^    ^
-`babgbag`
-^    ^^
-`babgbag`
-  ^  ^^
-`babgbag`
-    ^^^
-----
+* `+1 <= s.length, t.length <= 1000+`
+* `s` 和 `t` 由英文字母组成
 
+
+== 思路分析
+
+首先想到的思路是回溯，可惜在通过 52 / 66 个测试用例后，开始超时。
+
+看题解，可以使用动态规划的思路来解题。
+
+image::images/0115-10.png[{image_attr}]
+
+题目可以理解成，从 `s[0..i]` 中去匹配 `t[0..j]`。分两种情况考虑：
+
+. 当 `s[i] == t[j]` 时，可以从 `s[i]` 和 `s[i-1]` 中去寻找 `t[j]`；
+. 当 `s[i] != t[j]` 时，只能从 `s[i-1]` 中去寻找 `t[j]`。
 
 [[src-0115]]
+[tabs]
+====
+一刷（回溯，超时）::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0115_DistinctSubsequences.java[tag=answer]
 ----
+--
+
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0115_DistinctSubsequences_1.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0115_DistinctSubsequences_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/distinct-subsequences/solutions/661122/bu-tong-de-zi-xu-lie-by-leetcode-solutio-urw3/[115. 不同的子序列 - 官方题解^]
+. https://leetcode.cn/problems/distinct-subsequences/solutions/3060706/jiao-ni-yi-bu-bu-si-kao-dpcong-ji-yi-hua-9va6/[115. 不同的子序列 - 教你一步步思考 DP：从记忆化搜索到递推到空间优化！^]
+. https://leetcode.cn/problems/distinct-subsequences/solutions/661691/xiang-jie-zi-fu-chuan-pi-pei-wen-ti-de-t-wdtk/[115. 不同的子序列 - 【宫水三叶】详解「字符串匹配」的通用思路和技巧^]
+. https://leetcode.cn/problems/distinct-subsequences/solutions/661691/xiang-jie-zi-fu-chuan-pi-pei-wen-ti-de-t-wdtk/[115. 不同的子序列 - 【宫水三叶】详解「字符串匹配」的通用思路和技巧^]
 
