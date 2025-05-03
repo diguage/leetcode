@@ -16,7 +16,10 @@ public class _0123_BestTimeToBuyAndSellStockIII {
      * Runtime: 2 ms, faster than 47.09% of Java online submissions for Best Time to Buy and Sell Stock III.
      * Memory Usage: 42.5 MB, less than 7.32% of Java online submissions for Best Time to Buy and Sell Stock III.
      *
-     * Copy from: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）]
+     * Copy from: https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/solutions/8610/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[309. 买卖股票的最佳时机含冷冻期 - 一个方法团灭 6 道股票问题^]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-28 20:14
      */
     public int maxProfit(int[] prices) {
         int dp10 = 0, dp11 = Integer.MIN_VALUE;
