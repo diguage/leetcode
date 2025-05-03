@@ -2426,7 +2426,7 @@ include::1143-longest-common-subsequence.adoc[leveloffset=+1]
 
 // include::1170-compare-strings-by-frequency-of-the-smallest-character.adoc[leveloffset=+1]
 
-// include::1171-remove-zero-sum-consecutive-nodes-from-linked-list.adoc[leveloffset=+1]
+include::1171-remove-zero-sum-consecutive-nodes-from-linked-list.adoc[leveloffset=+1]
 
 // include::1172-dinner-plate-stacks.adoc[leveloffset=+1]
 

@@ -41,6 +41,7 @@
 . xref:1109-corporate-flight-bookings.adoc[1109. Corporate Flight Bookings]
 . xref:1124-longest-well-performing-interval.adoc[1124. Longest Well-Performing Interval]
 . xref:1140-stone-game-ii.adoc[1140. Stone Game II]
+. xref:1171-remove-zero-sum-consecutive-nodes-from-linked-list.adoc[1171. 从链表中删去总和值为零的连续节点]
 . xref:1177-can-make-palindrome-from-substring.adoc[1177. Can Make Palindrome from Substring]
 . xref:1208-get-equal-substrings-within-budget.adoc[1208. Get Equal Substrings Within Budget]
 . xref:1248-count-number-of-nice-subarrays.adoc[1248. Count Number of Nice Subarrays]

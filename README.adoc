@@ -8222,14 +8222,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1170-compare-strings-by-frequency-of-the-smallest-character.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/remove-zero-sum-consecutive-nodes-from-linked-list/[1171. Remove Zero Sum Consecutive Nodes from Linked List^]
-//|{source_base_url}/_1171_RemoveZeroSumConsecutiveNodesFromLinkedList.java[Java]
-//|{doc_base_url}/1171-remove-zero-sum-consecutive-nodes-from-linked-list.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/remove-zero-sum-consecutive-nodes-from-linked-list/[1171. Remove Zero Sum Consecutive Nodes from Linked List^]
+|{source_base_url}/_1171_RemoveZeroSumConsecutiveNodesFromLinkedList.java[Java]
+|{doc_base_url}/1171-remove-zero-sum-consecutive-nodes-from-linked-list.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/dinner-plate-stacks/[1172. Dinner Plate Stacks^]
 //|{source_base_url}/_1172_DinnerPlateStacks.java[Java]

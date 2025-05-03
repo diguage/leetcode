@@ -1,53 +1,85 @@
 [#1171-remove-zero-sum-consecutive-nodes-from-linked-list]
-= 1171. Remove Zero Sum Consecutive Nodes from Linked List
+= 1171. 从链表中删去总和值为零的连续节点
 
-{leetcode}/problems/remove-zero-sum-consecutive-nodes-from-linked-list/[LeetCode - Remove Zero Sum Consecutive Nodes from Linked List^]
+https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list/[LeetCode - 1171. 从链表中删去总和值为零的连续节点 ^]
 
-Given the `head` of a linked list, we repeatedly delete consecutive sequences of nodes that sum to `0` until there are no such sequences.
+给你一个链表的头节点 `head`，请你编写代码，反复删去链表中由 *总和* 值为 `0` 的连续节点组成的序列，直到不存在这样的序列为止。
 
-After doing so, return the head of the final linked list.  You may return any such answer.
+删除完毕后，请你返回最终结果链表的头节点。
 
- 
-(Note that in the examples below, all sequences are serializations of `ListNode` objects.)
+你可以返回任何满足题目要求的答案。
 
-*Example 1:*
+（注意，下面示例中的所有序列，都是对 `ListNode` 对象序列化的表示。）
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* head = [1,2,-3,3,1]
-*Output:* [3,1]
-*Note:* The answer [1,2,1] would also be accepted.
-----
+*示例 1：*
 
-*Example 2:*
+....
+输入：head = [1,2,-3,3,1]
+输出：[3,1]
+提示：答案 [1,2,1] 也是正确的。
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* head = [1,2,3,-3,4]
-*Output:* [1,2,4]
-----
+*示例 2：*
 
-*Example 3:*
+....
+输入：head = [1,2,3,-3,4]
+输出：[1,2,4]
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* head = [1,2,3,-3,-2]
-*Output:* [1]
-----
+*示例 3：*
 
- 
-*Constraints:*
+....
+输入：head = [1,2,3,-3,-2]
+输出：[1]
+....
 
 
-* The given linked list will contain between `1` and `1000` nodes.
-* Each node in the linked list has `-1000 <= node.val <= 1000`.
+*提示：*
+
+* 给你的链表中可能有 `1` 到 `1000` 个节点。
+* 对于链表中的每个节点，节点的值：`+-1000 <= node.val <= 1000+`.
 
 
+== 思路分析
+
+想到了前缀和，但是没想到可以利用中间和为 `0`，直接跳过这部分节点。
+
+image::images/1171-10.jpg[{image_attr}]
+
+image::images/1171-11.jpg[{image_attr}]
+
+image::images/1171-12.jpg[{image_attr}]
+
+image::images/1171-13.png[{image_attr}]
 
 
 [[src-1171]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1171_RemoveZeroSumConsecutiveNodesFromLinkedList.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1171_RemoveZeroSumConsecutiveNodesFromLinkedList_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list/solutions/1142176/qian-zhui-he-dan-lian-biao-de-qian-zhui-kwr05/[1171. 从链表中删去总和值为零的连续节点 - 【前缀和】单链表的前缀和超详细解法^]
+. https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list/solutions/2305659/javapython3qian-zhui-he-ha-xi-biao-yi-ci-6nya/[1171. 从链表中删去总和值为零的连续节点 - 前缀和 + 哈希表（一次遍历）【图解】^]
+. https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list/solutions/2297308/cong-lian-biao-zhong-shan-qu-zong-he-zhi-h18o/[1171. 从链表中删去总和值为零的连续节点 - 官方题解^]
+
 
