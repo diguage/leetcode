@@ -10736,12 +10736,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/number-of-good-leaf-nodes-pairs/[1530. Number of Good Leaf Nodes Pairs^]
-//|{source_base_url}/_1530_NumberOfGoodLeafNodesPairs.java[Java]
-//|{doc_base_url}/1530-number-of-good-leaf-nodes-pairs.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/number-of-good-leaf-nodes-pairs/[1530. Number of Good Leaf Nodes Pairs^]
+|{source_base_url}/_1530_NumberOfGoodLeafNodesPairs.java[Java]
+|{doc_base_url}/1530-number-of-good-leaf-nodes-pairs.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/string-compression-ii/[1531. String Compression II^]

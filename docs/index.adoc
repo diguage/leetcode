@@ -3144,7 +3144,7 @@ include::1480-running-sum-of-1d-array.adoc[leveloffset=+1]
 
 // include::1529-minimum-suffix-flips.adoc[leveloffset=+1]
 
-// include::1530-number-of-good-leaf-nodes-pairs.adoc[leveloffset=+1]
+include::1530-number-of-good-leaf-nodes-pairs.adoc[leveloffset=+1]
 
 // include::1531-string-compression-ii.adoc[leveloffset=+1]
 

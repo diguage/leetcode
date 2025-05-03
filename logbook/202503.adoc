@@ -588,6 +588,11 @@ endif::[]
 |{doc_base_url}/0115-distinct-subsequences.adoc[题解]
 |❌ 动态规划。
 
+|{counter:codes2503}
+|{leetcode_base_url}/number-of-good-leaf-nodes-pairs/[1530. 好叶子节点对的数量^]
+|{doc_base_url}/1530-number-of-good-leaf-nodes-pairs.adoc[题解]
+|⭕️
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
