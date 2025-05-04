@@ -12,6 +12,9 @@ public class _0199_BinaryTreeRightSideView_1 {
   // tag::answer[]
   /**
    * 参考 https://leetcode.cn/problems/binary-tree-right-side-view/solutions/2015061/ru-he-ling-huo-yun-yong-di-gui-lai-kan-s-r1nc/[199. 二叉树的右视图 - 【视频】如何灵活运用递归？^]
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-25 14:44:16
    */
   public List<Integer> rightSideView(TreeNode root) {
     List<Integer> result = new ArrayList<>();

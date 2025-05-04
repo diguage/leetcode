@@ -593,10 +593,20 @@ endif::[]
 |{doc_base_url}/1530-number-of-good-leaf-nodes-pairs.adoc[题解]
 |⭕️ 还有瑕疵，还需要继续优化。
 
-|{counter:codes}
+|{counter:codes2503}
 |{leetcode_base_url}/remove-zero-sum-consecutive-nodes-from-linked-list/[1171. 从链表中删去总和值为零的连续节点^]
 |{doc_base_url}/1171-remove-zero-sum-consecutive-nodes-from-linked-list.adoc[题解]
 |❌ 前缀和。想到了前缀和，但是没想到可以利用中间和为 `0`，直接跳过这部分节点。
+
+|{counter:codes2503}
+|{leetcode_base_url}/best-time-to-buy-and-sell-stock-iii/[123. 买卖股票的最佳时机 III^]
+|{doc_base_url}/0123-best-time-to-buy-and-sell-stock-iii.adoc[题解]
+|❌ 动态规划。思路还需要多揣摩和思考。
+
+|{counter:codes2503}
+|{leetcode_base_url}/binary-tree-right-side-view/[199. 二叉树的右视图^]
+|{doc_base_url}/0199-binary-tree-right-side-view.adoc[题解]
+|✅ 深度优先遍历。按照 `<level, node>` 的格式，把每个节点都放到 `Map` 里，因为是先左后右，所以，每层最后只剩下了最右边的元素。
 
 |===
 
