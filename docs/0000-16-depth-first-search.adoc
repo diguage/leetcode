@@ -296,6 +296,7 @@
 . xref:2641-cousins-in-binary-tree-ii.adoc[2641. Cousins in Binary Tree II]
 . xref:2646-minimize-the-total-price-of-the-trips.adoc[2646. Minimize the Total Price of the Trips]
 . xref:2658-maximum-number-of-fish-in-a-grid.adoc[2658. Maximum Number of Fish in a Grid]
+. xref:2684-maximum-number-of-moves-in-a-grid.adoc[2684. Maximum Number of Moves in a Grid]
 . xref:2685-count-the-number-of-complete-components.adoc[2685. Count the Number of Complete Components]
 . xref:2689-extract-kth-character-from-the-rope-tree.adoc[2689. Extract Kth Character From The Rope Tree]
 . xref:2764-is-array-a-preorder-of-some-binary-tree.adoc[2764. Is Array a Preorder of Some ‌Binary Tree]
