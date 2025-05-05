@@ -5452,7 +5452,7 @@ include::2560-house-robber-iv.adoc[leveloffset=+1]
 
 // include::2683-neighboring-bitwise-xor.adoc[leveloffset=+1]
 
-// include::2684-maximum-number-of-moves-in-a-grid.adoc[leveloffset=+1]
+include::2684-maximum-number-of-moves-in-a-grid.adoc[leveloffset=+1]
 
 // include::2685-count-the-number-of-complete-components.adoc[leveloffset=+1]
 

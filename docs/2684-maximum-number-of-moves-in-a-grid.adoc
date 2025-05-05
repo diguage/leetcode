@@ -1,68 +1,75 @@
 [#2684-maximum-number-of-moves-in-a-grid]
-= 2684. Maximum Number of Moves in a Grid
+= 2684. 矩阵中移动的最大次数
 
-{leetcode}/problems/maximum-number-of-moves-in-a-grid/[LeetCode - 2684. Maximum Number of Moves in a Grid ^]
+https://leetcode.cn/problems/maximum-number-of-moves-in-a-grid/[LeetCode - 2684. 矩阵中移动的最大次数 ^]
 
-You are given a *0-indexed* `m x n` matrix `grid` consisting of *positive* integers.
+给你一个下标从 *0* 开始、大小为 `m x n` 的矩阵 `grid` ，矩阵由若干 *正* 整数组成。
 
-You can start at *any* cell in the first column of the matrix, and traverse the grid in the following way:
+你可以从矩阵第一列中的 *任一* 单元格出发，按以下方式遍历 `grid` ：
 
+* 从单元格 `(row, col)` 可以移动到 `(row - 1, col + 1)`、`(row, col + 1)` 和 `(row + 1, col + 1)` 三个单元格中任一满足值 *严格* 大于当前单元格的单元格。
 
-* From a cell `(row, col)`, you can move to any of the cells: `(row - 1, col + 1)`, `(row, col + 1)` and `(row + 1, col + 1)` such that the value of the cell you move to, should be *strictly* bigger than the value of the current cell.
+返回你在矩阵中能够 *移动* 的 *最大* 次数。
 
+*示例 1：*
 
-Return _the *maximum* number of *moves* that you can perform._
+image::images/2684-01.png[{image_attr}]
 
- 
-*Example 1:*
-<img alt="" src="https://assets.leetcode.com/uploads/2023/04/11/yetgriddrawio-10.png" style="width: 201px; height: 201px;" />
-[subs="verbatim,quotes"]
-----
-*Input:* grid = [[2,4,3,5],[5,4,9,3],[3,4,2,11],[10,9,13,15]]
-*Output:* 3
-*Explanation:* We can start at the cell (0, 0) and make the following moves:
+....
+输入：grid = [[2,4,3,5],[5,4,9,3],[3,4,2,11],[10,9,13,15]]
+输出：3
+解释：可以从单元格 (0, 0) 开始并且按下面的路径移动：
 - (0, 0) -> (0, 1).
 - (0, 1) -> (1, 2).
 - (1, 2) -> (2, 3).
-It can be shown that it is the maximum number of moves that can be made.
-----
+可以证明这是能够移动的最大次数。
+....
 
-*Example 2:*
+*示例 2：*
 
-[subs="verbatim,quotes"]
-----
-<img alt="" src="https://assets.leetcode.com/uploads/2023/04/12/yetgrid4drawio.png" />
-*Input:* grid = [[3,2,4],[2,1,9],[1,1,7]]
-*Output:* 0
-*Explanation:* Starting from any cell in the first column we cannot perform any moves.
+image::images/2684-02.png[{image_attr}]
 
-----
+....
+输入：grid = [[3,2,4],[2,1,9],[1,1,7]]
+输出：0
+解释：从第一列的任一单元格开始都无法移动。
+....
 
- 
-*Constraints:*
-
+*提示：*
 
 * `m == grid.length`
 * `n == grid[i].length`
-* `2 <= m, n <= 1000`
-* `4 <= m * n <= 10^5^`
-* `1 <= grid[i][j] <= 10^6^`
-
-
+* `+2 <= m, n <= 1000+`
+* `4 \<= m * n \<= 10^5^`
+* `1 \<= grid[i][j] \<= 10^6^`
 
 
 == 思路分析
 
+首先想到的思路是回溯，从第一列每个位置出发，向右进行探索，成功前进，失败则回溯。思路正确，通过 810 / 814 个测试用例。然后，超时。
+
+TIP: 又想了想，这不能叫回溯，因为没有回溯动作。应该是深度优先搜索。
+
+后想到动态规划。初始化一个同样大小的二维数组，每个表格记录到达该点需要行走记录。从左向右，按列遍历即可。
 
 [[src-2684]]
 [tabs]
 ====
-一刷::
+一刷（深度优先搜索）::
 +
 --
 [{java_src_attr}]
 ----
 include::{sourcedir}/_2684_MaximumNumberOfMovesInAGrid.java[tag=answer]
+----
+--
+
+一刷（动态规划）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2684_MaximumNumberOfMovesInAGrid_1.java[tag=answer]
 ----
 --
 
@@ -78,5 +85,10 @@ include::{sourcedir}/_2684_MaximumNumberOfMovesInAGrid.java[tag=answer]
 
 
 == 参考资料
+
+. https://leetcode.cn/problems/maximum-number-of-moves-in-a-grid/solutions/2684036/ju-zhen-zhong-yi-dong-de-zui-da-ci-shu-b-b7jx/[2684. 矩阵中移动的最大次数 - 官方题解^] -- 广度优先搜索的解法。其实，每次遍历只需要保存当前列可以到达的节点坐标即可，当没有坐标可以到达时，已经走到了尽头。这个解法更简单高效。
+. https://leetcode.cn/problems/maximum-number-of-moves-in-a-grid/solutions/2269244/cong-ji-yi-hua-sou-suo-dao-di-tui-by-end-pgq3/[2684. 矩阵中移动的最大次数 - 两种方法：DFS / BFS^] -- 深度优先遍历的解法非常有意思，把到达的处理后的节点都设置成 `0`，这样就可以有效避免重复遍历，加快处理速度。
+
+
 
 

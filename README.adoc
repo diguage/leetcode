@@ -18814,12 +18814,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/maximum-number-of-moves-in-a-grid/[2684. Maximum Number of Moves in a Grid^]
-//|{source_base_url}/_2684_MaximumNumberOfMovesInAGrid.java[Java]
-//|{doc_base_url}/2684-maximum-number-of-moves-in-a-grid.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/maximum-number-of-moves-in-a-grid/[2684. Maximum Number of Moves in a Grid^]
+|{source_base_url}/_2684_MaximumNumberOfMovesInAGrid.java[Java]
+|{doc_base_url}/2684-maximum-number-of-moves-in-a-grid.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/count-the-number-of-complete-components/[2685. Count the Number of Complete Components^]
