@@ -616,7 +616,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/cheapest-flights-within-k-stops/[787. K 站中转内最便宜的航班^]
 |{doc_base_url}/0787-cheapest-flights-within-k-stops.adoc[题解]
-|⭕️ 回溯解法通过 48 / 56 个测试用例。
+|⭕️ 深度优先搜索通过 48 / 56 个测试用例。使用带备忘录的深度优先搜索顺利通过。带备忘录的深度优先搜索，也可以优化成动态规划。
 
 
 |===

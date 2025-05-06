@@ -7,7 +7,6 @@ https://leetcode.cn/problems/cheapest-flights-within-k-stops/[LeetCode - 787. K 
 
 现在给定所有的城市和航班，以及出发城市 `src` 和目的地 `dst`，你的任务是找到出一条最多经过 `k` 站中转的路线，使得从 `src` 到 `dst` 的 *价格最便宜* ，并返回该价格。 如果不存在这样的路线，则输出 `-1`。
 
-
 *示例 1：*
 
 image::images/0787-01.png[{image_attr}]
@@ -61,11 +60,10 @@ image::images/0787-03.png[{image_attr}]
 
 == 思路分析
 
-
 [[src-0787]]
 [tabs]
 ====
-一刷（回溯，超时）::
+一刷（深度优先搜索，超时）::
 +
 --
 [{java_src_attr}]
@@ -74,12 +72,21 @@ include::{sourcedir}/_0787_CheapestFlightsWithinKStops.java[tag=answer]
 ----
 --
 
+一刷（带备忘录的深度优先搜索）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0787_CheapestFlightsWithinKStops_10.java[tag=answer]
+----
+--
+
 一刷（动态规划）::
 +
 --
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0787_CheapestFlightsWithinKStops_1.java[tag=answer]
+include::{sourcedir}/_0787_CheapestFlightsWithinKStops_11.java[tag=answer]
 ----
 --
 
@@ -93,7 +100,9 @@ include::{sourcedir}/_0787_CheapestFlightsWithinKStops_1.java[tag=answer]
 // --
 ====
 
-
 == 参考资料
 
-
+. https://leetcode.cn/problems/cheapest-flights-within-k-stops/solutions/954402/k-zhan-zhong-zhuan-nei-zui-bian-yi-de-ha-abzi/[787. K 站中转内最便宜的航班 - 官方题解^]
+. https://leetcode.cn/problems/cheapest-flights-within-k-stops/solutions/955290/gong-shui-san-xie-xiang-jie-bellman-ford-dc94/[787. K 站中转内最便宜的航班 - 运用 Bellman Ford 求解有限制的最短路问题^]
+. https://leetcode.cn/problems/cheapest-flights-within-k-stops/solutions/3637197/xi-you-yuan-su-787-k-zhan-zhong-zhuan-ne-xik1/[787. K 站中转内最便宜的航班 - 「稀有猿诉」787. K 站中转内最便宜的航班「DFS/记忆化搜索」^]
+. https://leetcode.cn/problems/cheapest-flights-within-k-stops/solutions/956113/tong-ge-lai-shua-ti-la-yi-ti-si-jie-bfs-deqpt/[787. K 站中转内最便宜的航班 - 【彤哥来刷题啦】一题六解：1ms & 100% & 记忆化搜索 & DP & DP优化 & BFS & Bellman-Ford & SPFA！^]

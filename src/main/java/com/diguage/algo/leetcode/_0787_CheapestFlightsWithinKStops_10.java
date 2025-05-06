@@ -2,15 +2,14 @@ package com.diguage.algo.leetcode;
 
 import java.util.*;
 
-public class _0787_CheapestFlightsWithinKStops {
+public class _0787_CheapestFlightsWithinKStops_10 {
   // tag::answer[]
+
   /**
-   * 通过 48 / 56 个测试用例。然后超时
-   *
    * @author D瓜哥 · https://www.diguage.com
-   * @since 2025-05-06 18:53:25
+   * @since 2025-05-06 21:30:38
    */
-  int result = Integer.MAX_VALUE;
+  final int MAX = 100 * 10000 + 1;
 
   public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
     Map<Integer, List<int[]>> srcMap = new HashMap<>();
@@ -18,33 +17,34 @@ public class _0787_CheapestFlightsWithinKStops {
       int start = flight[0];
       srcMap.computeIfAbsent(start, x -> new ArrayList<>()).add(flight);
     }
-    dfs(n, srcMap, src, dst, k + 1, 0);
-    return result == Integer.MAX_VALUE ? -1 : result;
+    int[][] memo = new int[n][k + 1];
+    int result = dfs(n, srcMap, src, dst, k + 1, memo);
+    return result == MAX ? -1 : result;
   }
 
-  private void dfs(int n, Map<Integer, List<int[]>> srcMap,
-                   int src, int dst, int k, int expend) {
+  private int dfs(int n, Map<Integer, List<int[]>> srcMap,
+                  int src, int dst, int k, int[][] memo) {
     if (k < 0) {
-      return;
+      return MAX;
     }
     if (src == dst) {
-      result = Math.min(result, expend);
-      return;
+      return 0;
     }
+    if (memo[src][k] != 0) {
+      return memo[src][k];
+    }
+    int result = MAX;
     for (int[] flight : srcMap.getOrDefault(src, Collections.emptyList())) {
       int idst = flight[1];
       int cost = flight[2];
-      // 不加该判断，通过 28 / 56 个测试用例；加上，通过 48 / 56 个测试用例
-      if (cost + expend >= result) {
-        continue;
-      }
-      dfs(n, srcMap, idst, dst, k - 1, cost + expend);
+      result = Math.min(result, dfs(n, srcMap, idst, dst, k - 1, memo) + cost);
     }
+    memo[src][k] = result;
+    return result;
   }
-
   // end::answer[]
   public static void main(String[] args) {
-    new _0787_CheapestFlightsWithinKStops().findCheapestPrice(4,
+    new _0787_CheapestFlightsWithinKStops_10().findCheapestPrice(4,
       new int[][]{
         {0, 1, 100},
         {1, 2, 100},
