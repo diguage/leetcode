@@ -1658,7 +1658,7 @@ include::0768-max-chunks-to-make-sorted-ii.adoc[leveloffset=+1]
 
 // include::0786-k-th-smallest-prime-fraction.adoc[leveloffset=+1]
 
-// include::0787-cheapest-flights-within-k-stops.adoc[leveloffset=+1]
+include::0787-cheapest-flights-within-k-stops.adoc[leveloffset=+1]
 
 // include::0788-rotated-digits.adoc[leveloffset=+1]
 

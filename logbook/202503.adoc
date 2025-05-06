@@ -609,9 +609,15 @@ endif::[]
 |✅ 深度优先遍历。按照 `<level, node>` 的格式，把每个节点都放到 `Map` 里，因为是先左后右，所以，每层最后只剩下了最右边的元素。
 
 |{counter:codes2503}
-|{leetcode_base_url}/maximum-number-of-moves-in-a-grid/[2684. Maximum Number of Moves in a Grid^]
+|{leetcode_base_url}/maximum-number-of-moves-in-a-grid/[2684. 矩阵中移动的最大次数^]
 |{doc_base_url}/2684-maximum-number-of-moves-in-a-grid.adoc[题解]
 |✅ 动态规划。也可以使用深度优先搜索的解法，使用深度优先搜索时，需要把处理过的节点值设置为 `0`，防止重新判断，加快处理速度。
+
+|{counter:codes2503}
+|{leetcode_base_url}/cheapest-flights-within-k-stops/[787. K 站中转内最便宜的航班^]
+|{doc_base_url}/0787-cheapest-flights-within-k-stops.adoc[题解]
+|⭕️ 回溯解法通过 48 / 56 个测试用例。
+
 
 |===
 

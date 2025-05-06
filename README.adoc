@@ -5534,14 +5534,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0786-k-th-smallest-prime-fraction.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/cheapest-flights-within-k-stops/[787. Cheapest Flights Within K Stops^]
-//|{source_base_url}/_0787_CheapestFlightsWithinKStops.java[Java]
-//|{doc_base_url}/0787-cheapest-flights-within-k-stops.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/cheapest-flights-within-k-stops/[787. Cheapest Flights Within K Stops^]
+|{source_base_url}/_0787_CheapestFlightsWithinKStops.java[Java]
+|{doc_base_url}/0787-cheapest-flights-within-k-stops.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/rotated-digits/[788. Rotated Digits^]
 //|{source_base_url}/_0788_RotatedDigits.java[Java]
