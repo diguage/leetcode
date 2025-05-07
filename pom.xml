@@ -14,23 +14,25 @@
   <url>https://www.diguage.com</url>
 
   <properties>
-    <java.version>21</java.version>
-    <maven.compiler.source>${java.version}</maven.compiler.source>
-    <maven.compiler.target>${java.version}</maven.compiler.target>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <checkstyle.version>10.23.1</checkstyle.version>
+    <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
     <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
     <maven-javadoc-plugin.version>3.11.2</maven-javadoc-plugin.version>
+    <maven-enforcer-plugin.version>3.5.0</maven-enforcer-plugin.version>
+    <maven-surefire-plugin.version>3.5.3</maven-surefire-plugin.version>
+    <extra-enforcer-rules.version>1.10.0</extra-enforcer-rules.version>
     <fizzed-watcher-maven-plugin.version>3.7.0</fizzed-watcher-maven-plugin.version>
 
     <asciidoctorj.version>3.0.0</asciidoctorj.version>
     <asciidoctorj-pdf.version>2.3.19</asciidoctorj-pdf.version>
     <asciidoctorj-epub3.version>2.1.3</asciidoctorj-epub3.version>
     <asciidoctorj-diagram.version>2.3.2</asciidoctorj-diagram.version>
+    <asciidoctor-diagram.version>3.0.0</asciidoctor-diagram.version>
+    <asciidoctor-diagram-plantuml.version>1.2025.2</asciidoctor-diagram-plantuml.version>
+    <asciidoctor-comment-links.version>0.0.2</asciidoctor-comment-links.version>
     <asciidoctor-multipage.version>0.0.19</asciidoctor-multipage.version>
     <asciidoctor-tabs.version>1.0.0.beta.6</asciidoctor-tabs.version>
     <rouge.version>4.3.0</rouge.version>
-    <asciidoctor-comment-links.version>0.0.2</asciidoctor-comment-links.version>
     <asciidoclet.version>2.0.0</asciidoclet.version>
     <asciidoctor-maven-plugin.version>3.2.0</asciidoctor-maven-plugin.version>
     <mavengem-wagon.version>2.0.2</mavengem-wagon.version>
@@ -41,9 +43,22 @@
     <gem.path>${project.basedir}/cfg/gems</gem.path>
     <pdf-fonts.path>${project.basedir}/cfg/fonts</pdf-fonts.path>
     <pdf-fonts.baseuri>https://github.com/diguage/open-fonts/releases/download/latest</pdf-fonts.baseuri>
+
+    <java.version>21</java.version>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
+    <maven.compiler.release>${java.version}</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.17.1</version>
+    </dependency>
+
     <dependency>
       <groupId>rubygems</groupId>
       <artifactId>rouge</artifactId>
@@ -63,6 +78,28 @@
         </exclusion>
       </exclusions>
     </dependency>
+    <!-- <dependency>-->
+    <!--     <groupId>rubygems</groupId>-->
+    <!--     <artifactId>asciidoctor-diagram-plantuml</artifactId>-->
+    <!--     <version>${asciidoctor-diagram-plantuml.version}</version>-->
+    <!--     <type>gem</type>-->
+    <!-- </dependency>-->
+    <!-- <dependency>-->
+    <!--     <groupId>rubygems</groupId>-->
+    <!--     <artifactId>asciidoctor-diagram</artifactId>-->
+    <!--     <version>${asciidoctor-diagram.version}</version>-->
+    <!--     <type>gem</type>-->
+    <!--     <exclusions>-->
+    <!--         <exclusion>-->
+    <!--             <groupId>rubygems</groupId>-->
+    <!--             <artifactId>asciidoctor</artifactId>-->
+    <!--         </exclusion>-->
+    <!--         <exclusion>-->
+    <!--             <groupId>rubygems</groupId>-->
+    <!--             <artifactId>asciidoctor-diagram-plantuml</artifactId>-->
+    <!--         </exclusion>-->
+    <!--     </exclusions>-->
+    <!-- </dependency>-->
     <dependency>
       <groupId>rubygems</groupId>
       <artifactId>asciidoctor-multipage</artifactId>
@@ -95,12 +132,6 @@
       <groupId>org.jruby</groupId>
       <artifactId>jruby-complete</artifactId>
     </dependency>
-
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-databind</artifactId>
-      <version>2.17.1</version>
-    </dependency>
   </dependencies>
   <dependencyManagement>
     <dependencies>
@@ -116,10 +147,12 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+
   <build>
     <extensions>
-      <extension> <!-- this allows us to download gems -->
-        <!-- 依赖了 jruby 9.4.5.0，也无法修改 -->
+      <extension>
+        <!-- this allows us to download gems -->
+        <!-- 2.0.2 依赖了 jruby 9.4.5.0，也无法修改 -->
         <groupId>org.jruby.maven</groupId>
         <artifactId>mavengem-wagon</artifactId>
         <version>${mavengem-wagon.version}</version>
@@ -153,10 +186,10 @@
             <version>${asciidoclet.version}</version>
           </docletArtifact>
           <additionalJOptions>
-             <additionalJOption>-J--add-exports=jdk.javadoc/jdk.javadoc.internal.tool=ALL-UNNAMED</additionalJOption>
-             <additionalJOption>-J--add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED</additionalJOption>
-             <additionalJOption>-J--add-opens=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED</additionalJOption>
-             <additionalJOption>-J--add-opens=jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED</additionalJOption>
+            <additionalJOption>-J--add-exports=jdk.javadoc/jdk.javadoc.internal.tool=ALL-UNNAMED</additionalJOption>
+            <additionalJOption>-J--add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED</additionalJOption>
+            <additionalJOption>-J--add-opens=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED</additionalJOption>
+            <additionalJOption>-J--add-opens=jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED</additionalJOption>
             <additionalJOption>-Xdoclint:all,-html,-accessibility</additionalJOption>
           </additionalJOptions>
           <!--<overview>src/main/java/overview.adoc</overview>-->
@@ -200,7 +233,288 @@
         </dependencies>
       </plugin>
       <plugin>
-        <!-- 依赖 jruby-complete	9.4.5.0，可以配置 jrubyVersion-->
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <version>${maven-enforcer-plugin.version}</version>
+        <dependencies>
+          <dependency>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>extra-enforcer-rules</artifactId>
+            <version>${extra-enforcer-rules.version}</version>
+          </dependency>
+        </dependencies>
+        <executions>
+          <execution>
+            <!-- 检测 Maven 版本 -->
+            <!-- https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html -->
+            <id>enforce-versions</id>
+            <phase>install</phase>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <requireMavenVersion>
+                  <version>3.8.8</version>
+                </requireMavenVersion>
+                <requireJavaVersion>
+                  <version>${java.version}</version>
+                  <message>
+                    <![CDATA[必须使用 Maven 3.8.8+ 和 JDK 21+ 构建。]]>
+                  </message>
+                </requireJavaVersion>
+              </rules>
+            </configuration>
+          </execution>
+          <execution>
+            <!-- 检查依赖重复声明的情况 -->
+            <!-- https://maven.apache.org/enforcer/enforcer-rules/banDuplicatePomDependencyVersions.html -->
+            <id>enforce-no-duplicate-declared-dependencies</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <banDuplicatePomDependencyVersions/>
+              </rules>
+            </configuration>
+          </execution>
+          <execution>
+            <!-- 确保父子模块的版本是一致的。 -->
+            <!-- https://maven.apache.org/enforcer/enforcer-rules/reactorModuleConvergence.html -->
+            <id>enforce-reactorModuleConvergence</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <reactorModuleConvergence>
+                  <message>父子模块的版本必须相同。</message>
+                  <ignoreModuleDependencies>true</ignoreModuleDependencies>
+                </reactorModuleConvergence>
+              </rules>
+              <fail>true</fail>
+            </configuration>
+          </execution>
+          <execution>
+            <!-- 检测依赖 -->
+            <!-- https://maven.apache.org/enforcer/enforcer-rules/bannedDependencies.html -->
+            <id>enforce-banned-dependencies</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <!-- log4j -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>log4j</exclude>
+                    <exclude>org.slf4j:slf4j-log4j12</exclude>
+                  </excludes>
+                  <message><![CDATA[不能使用 log4j 及 slf4j-log4j12。]]></message>
+                </bannedDependencies>
+
+                <!-- commons log -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>commons-logging</exclude>
+                  </excludes>
+                  <message><![CDATA[不能使用 commons-logging。]]></message>
+                </bannedDependencies>
+
+                <!-- jdk log -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>org.slf4j:slf4j-jdk14</exclude>
+                  </excludes>
+                  <message><![CDATA[不能使用 slf4j-jdk14。]]></message>
+                </bannedDependencies>
+
+                <!-- logback 1.2.0+ -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>ch.qos.logback:*:[,1.2.8):jar</exclude>
+                  </excludes>
+                  <message><![CDATA[必须使用 logback 1.2.8+，低版本存在安全漏洞。]]></message>
+                </bannedDependencies>
+
+                <!-- log4j 2.17.1+ -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>org.apache.logging.log4j:*:[,2.17.1):jar</exclude>
+                  </excludes>
+                  <message><![CDATA[必须使用 log4j 2.17.1+，低版本存在安全漏洞。]]></message>
+                </bannedDependencies>
+
+                <!-- slf4j 1.7.25+ -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>org.slf4j:*:[,1.7.25):jar</exclude>
+                  </excludes>
+                  <message><![CDATA[必须使用 slf4j 1.7.25+。]]></message>
+                </bannedDependencies>
+
+                <!-- Jakarta Validation -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>javax.validation:validation-api:[,2.0.1.Final):jar</exclude>
+                    <exclude>org.hibernate.validator:hibernate-validator:[,6.1.5.Final):jar
+                    </exclude>
+                    <exclude>
+                      org.hibernate.validator:hibernate-validator-annotation-processor:[,6.1.5.Final):jar
+                    </exclude>
+                    <exclude>org.hibernate:hibernate-validator</exclude>
+                  </excludes>
+                  <message>
+                    <![CDATA[必须使用 jakarta.validation:jakarta.validation-api:2.0.1+（或 javax.validation:validation-api:2.0.1.Final） 和 Hibernate Validator 6.1.5.Final+（org.hibernate.validator:hibernate-validator:6.1.5.Final 和 org.hibernate.validator:hibernate-validator-annotation-processor:6.1.5.Final）。不能使用低版本 javax.validation:validation-api 和 org.hibernate:hibernate-validator。]]>
+                  </message>
+                </bannedDependencies>
+
+                <!-- ASM -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>org.ow2.asm:*:[,5.0):jar</exclude>
+                  </excludes>
+                  <message>
+                    <![CDATA[必须使用 ASM 5.0+！ASM 从 5.0 开始支持 Java 8。]]>
+                  </message>
+                </bannedDependencies>
+
+                <!-- AspectJ -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>org.aspectj:*:[,1.8.0):jar</exclude>
+                  </excludes>
+                  <message>
+                    <![CDATA[必须使用 AspectJ 1.8.0+！AspectJ 从 1.8.0 开始支持 Java 8。]]>
+                  </message>
+                </bannedDependencies>
+
+                <!-- CGLib -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>cglib:*:[,3.2.0):jar</exclude>
+                  </excludes>
+                  <message>
+                    <![CDATA[必须使用 CGLib 3.2.0+！CGLib 从 3.2.0 开始支持 Java 8。]]>
+                  </message>
+                </bannedDependencies>
+
+                <!-- lombok -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>org.projectlombok:lombok</exclude>
+                  </excludes>
+                  <includes>
+                    <include>org.projectlombok:lombok:*:*:provided</include>
+                  </includes>
+                  <message>
+                    <![CDATA[Lombok 不能在 runtime 被引入！请使用 provided。]]>
+                  </message>
+                </bannedDependencies>
+
+                <!-- MySQL -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>mysql:mysql-connector-java:[,8.0.29)</exclude>
+                  </excludes>
+                  <includes>
+                    <include>mysql:mysql-connector-java:5.1.49</include>
+                  </includes>
+                  <message>
+                    <![CDATA[必须使用 MySQL 5.1.49 或者 8.0.29+。]]>
+                  </message>
+                </bannedDependencies>
+
+                <!-- Javassist 3.24.0-GA+ -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>org.javassist:javassist:[,3.28.0-GA):jar</exclude>
+                    <exclude>javassist:javassist</exclude>
+                  </excludes>
+                  <message><![CDATA[必须使用 Javassist 3.28.0-GA+，版本发现有安全漏洞。]]></message>
+                </bannedDependencies>
+
+                <!-- Bouncy Castle -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>org.bouncycastle:*-jdk11</exclude>
+                    <exclude>org.bouncycastle:*-jdk12</exclude>
+                    <exclude>org.bouncycastle:*-jdk13</exclude>
+                    <exclude>org.bouncycastle:*-jdk14</exclude>
+                    <exclude>org.bouncycastle:*-jdk15</exclude>
+                    <exclude>org.bouncycastle:*-jdk15+</exclude>
+                    <exclude>org.bouncycastle:*-jdk16</exclude>
+                    <exclude>org.bouncycastle:*-jdk15on</exclude>
+                    <exclude>org.bouncycastle:*-jdk16on</exclude>
+                    <exclude>org.bouncycastle:*-jdk17on</exclude>
+                    <exclude>org.bouncycastle:*-jdk15to18</exclude>
+                  </excludes>
+                  <message>
+                    <![CDATA[必须使用 org.bouncycastle:*-jdk18on，该版本是针对 JDK 1.8+ 发布的。详情请看： https://www.bouncycastle.org/latest_releases.html]]>
+                  </message>
+                </bannedDependencies>
+
+                <!-- Servlet -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>javax.servlet:servlet-api</exclude>
+                    <exclude>javax.servlet:javax.servlet-api</exclude>
+                  </excludes>
+                  <includes>
+                    <include>javax.servlet:javax.servlet-api:*:*:provided</include>
+                  </includes>
+                  <message>
+                    <![CDATA[Servlet 必须以 provided 方式被引入，不能使用 runtime 或者 compile。请使用：javax.servlet:javax.servlet-api:3.0.1+。]]>
+                  </message>
+                </bannedDependencies>
+
+                <!-- Spring Framework -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>org.springframework:*:[,5.2.22.RELEASE)</exclude>
+                    <exclude>org.springframework:*:[5.3.0,5.3.20)</exclude>
+                  </excludes>
+                  <message>
+                    <![CDATA[请使用 Spring Framework 5.2.22.RELEASE+ 或 5.3.20+，其余版本都存在漏洞！]]>
+                  </message>
+                </bannedDependencies>
+
+                <!-- Spring Boot -->
+                <bannedDependencies>
+                  <searchTransitive>true</searchTransitive>
+                  <excludes>
+                    <exclude>org.springframework.boot:*:[,2.5.14)</exclude>
+                    <exclude>org.springframework:*:[2.6.0,2.6.8)</exclude>
+                  </excludes>
+                  <message>
+                    <![CDATA[请使用 Spring Boot 2.5.14+ 或 2.6.8+，低版本存在漏洞！]]>
+                  </message>
+                </bannedDependencies>
+              </rules>
+              <fail>true</fail>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <!-- 3.0.5 依赖 jruby-complete 9.4.5.0，可以配置 jrubyVersion-->
         <groupId>org.jruby.maven</groupId>
         <artifactId>gem-maven-plugin</artifactId>
         <version>${gem-maven-plugin.version}</version>
@@ -303,6 +617,43 @@
               <md5>5b7d949c95111f4a7166553db479e5e1</md5>
             </configuration>
           </execution>
+          <!-- JetBrains Mono -->
+          <execution>
+            <id>install-font-JetBrainsMono-Regular</id>
+            <phase>initialize</phase>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${pdf-fonts.baseuri}/JetBrainsMono-Regular.ttf</url>
+              <outputDirectory>${pdf-fonts.path}</outputDirectory>
+              <md5>d09f65145228b709a10fa0a06d522d89</md5>
+            </configuration>
+          </execution>
+          <execution>
+            <id>install-font-JetBrainsMono-SemiBold</id>
+            <phase>initialize</phase>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${pdf-fonts.baseuri}/JetBrainsMono-SemiBold.ttf</url>
+              <outputDirectory>${pdf-fonts.path}</outputDirectory>
+              <md5>fa952b0ebc58a82f6fcfff6250284bc7</md5>
+            </configuration>
+          </execution>
+          <execution>
+            <id>install-font-JetBrainsMono-Bold</id>
+            <phase>initialize</phase>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${pdf-fonts.baseuri}/JetBrainsMono-Bold.ttf</url>
+              <outputDirectory>${pdf-fonts.path}</outputDirectory>
+              <md5>8658ffe39dbfa1c12436789a50212180</md5>
+            </configuration>
+          </execution>
 
           <!-- 中文字体 -->
           <execution>
@@ -402,43 +753,6 @@
               <md5>2dbb493c201153533bc0f92e93cee6af</md5>
             </configuration>
           </execution>
-          <!-- JetBrains Mono -->
-          <execution>
-            <id>install-font-JetBrainsMono-Regular</id>
-            <phase>initialize</phase>
-            <goals>
-              <goal>wget</goal>
-            </goals>
-            <configuration>
-              <url>${pdf-fonts.baseuri}/JetBrainsMono-Regular.ttf</url>
-              <outputDirectory>${pdf-fonts.path}</outputDirectory>
-              <md5>d09f65145228b709a10fa0a06d522d89</md5>
-            </configuration>
-          </execution>
-          <execution>
-            <id>install-font-JetBrainsMono-SemiBold</id>
-            <phase>initialize</phase>
-            <goals>
-              <goal>wget</goal>
-            </goals>
-            <configuration>
-              <url>${pdf-fonts.baseuri}/JetBrainsMono-SemiBold.ttf</url>
-              <outputDirectory>${pdf-fonts.path}</outputDirectory>
-              <md5>fa952b0ebc58a82f6fcfff6250284bc7</md5>
-            </configuration>
-          </execution>
-          <execution>
-            <id>install-font-JetBrainsMono-Bold</id>
-            <phase>initialize</phase>
-            <goals>
-              <goal>wget</goal>
-            </goals>
-            <configuration>
-              <url>${pdf-fonts.baseuri}/JetBrainsMono-Bold.ttf</url>
-              <outputDirectory>${pdf-fonts.path}</outputDirectory>
-              <md5>8658ffe39dbfa1c12436789a50212180</md5>
-            </configuration>
-          </execution>
         </executions>
       </plugin>
       <plugin>
@@ -460,7 +774,7 @@
         </executions>
       </plugin>
       <plugin>
-        <!-- 依赖 jruby	9.4.8.0/9.4.12.0 -->
+        <!-- 3.2.0 依赖 jruby 9.4.8.0/9.4.12.0 -->
         <groupId>org.asciidoctor</groupId>
         <artifactId>asciidoctor-maven-plugin</artifactId>
         <version>${asciidoctor-maven-plugin.version}</version>
@@ -476,6 +790,8 @@
             <source-highlighter>rouge</source-highlighter>
             <rouge-style>github</rouge-style>
             <imagesdir>.</imagesdir>
+            <docinfo>true</docinfo>
+            <docinfodir>assets/tags</docinfodir>
             <icons>font</icons>
             <linkcss>true</linkcss>
             <stylesdir>assets/styles</stylesdir>
@@ -486,8 +802,9 @@
             <sectanchors>true</sectanchors>
             <graphvizdot>/usr/local/bin/dot</graphvizdot>
             <project_basedir>${project.basedir}</project_basedir>
-            <!-- <source_attr>linenums,indent=0,subs="attributes,verbatim,quotes"</source_attr> -->
+            <source_attr>linenums,indent=0,subs="attributes,verbatim,quotes"</source_attr>
             <java_src_attr>source%nowrap,java,linenums,indent=0,subs="attributes,verbatim"</java_src_attr>
+            <html_src_attr>source%nowrap,html,{source_attr}</html_src_attr>
             <image_attr>align="center",width=95%</image_attr>
             <diagram_attr>format=svg,align="center",width=95%</diagram_attr>
             <plantumlconfig>${project.basedir}/cfg/plantuml.cfg</plantumlconfig>
@@ -623,7 +940,7 @@
           </dependency>
           <dependency>
             <groupId>org.jruby</groupId>
-            <artifactId>jruby-complete</artifactId>
+            <artifactId>jruby</artifactId>
             <version>${jruby.version}</version>
           </dependency>
           <dependency>
@@ -633,7 +950,34 @@
           </dependency>
         </dependencies>
       </plugin>
-
+      <plugin>
+        <!-- mvn checkstyle:checkstyle -->
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>${maven-checkstyle-plugin.version}</version>
+        <!-- https://maven.apache.org/plugins/maven-checkstyle-plugin/checkstyle-mojo.html -->
+        <!-- Properties for "mvn checkstyle:checkstyle" to execute without mvn build -->
+        <configuration>
+          <configLocation>google_checks.xml</configLocation>
+          <consoleOutput>true</consoleOutput>
+          <!-- failsOnError is not effective as in google_checks all violations as warning -->
+          <failsOnError>true</failsOnError>
+          <!-- linkXRef=false to avoid WARNING 'Unable to locate Source XRef to link to' -->
+          <linkXRef>false</linkXRef>
+        </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>com.puppycrawl.tools</groupId>
+            <artifactId>checkstyle</artifactId>
+            <version>${checkstyle.version}</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>${maven-surefire-plugin.version}</version>
+      </plugin>
       <!--  mvn fizzed-watcher:run -->
       <plugin>
         <groupId>com.fizzed</groupId>
