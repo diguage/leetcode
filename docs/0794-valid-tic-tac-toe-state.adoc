@@ -1,56 +1,84 @@
 [#0794-valid-tic-tac-toe-state]
-= 794. Valid Tic-Tac-Toe State
+= 794. 有效的井字游戏
 
-{leetcode}/problems/valid-tic-tac-toe-state/[LeetCode - Valid Tic-Tac-Toe State^]
+https://leetcode.cn/problems/valid-tic-tac-toe-state/[LeetCode - 794. 有效的井字游戏 ^]
 
-A Tic-Tac-Toe board is given as a string array `board`. Return True if and only if it is possible to reach this board position during the course of a valid tic-tac-toe game.
+给你一个字符串数组 `board` 表示井字游戏的棋盘。当且仅当在井字游戏过程中，棋盘有可能达到 `board` 所显示的状态时，才返回 `true` 。
 
-The `board` is a 3 x 3 array, and consists of characters `" "`, `"X"`, and `"O"`.  The " " character represents an empty square.
+井字游戏的棋盘是一个 `3 x 3` 数组，由字符 `' '`，`'X'` 和 `'O'` 组成。字符 `' '` 代表一个空位。
 
-Here are the rules of Tic-Tac-Toe:
+以下是井字游戏的规则：
+
+* 玩家轮流将字符放入空位（`' '`）中。
+* 玩家 1 总是放字符 `'X'` ，而玩家 2 总是放字符 `'O'` 。
+* `'X'` 和 `'O'` 只允许放置在空位中，不允许对已放有字符的位置进行填充。
+* 当有 3 个相同（且非空）的字符填充任何行、列或对角线时，游戏结束。
+* 当所有位置非空时，也算为游戏结束。
+* 如果游戏结束，玩家不允许再放置字符。
+
+*示例 1：*
+
+image::images/0794-01.jpg[{image_attr}]
+
+....
+输入：board = ["O  ","   ","   "]
+输出：false
+解释：玩家 1 总是放字符 "X" 。
+....
+
+*示例 2：*
+
+image::images/0794-02.jpg[{image_attr}]
+
+....
+输入：board = ["XOX"," X ","   "]
+输出：false
+解释：玩家应该轮流放字符。
+....
+
+*示例 3:*
+
+image::images/0794-03.jpg[{image_attr}]
+
+....
+输入：board = ["XOX","O O","XOX"]
+输出：true
+....
+
+*提示：*
+
+* `board.length == 3`
+* `board[i].length == 3`
+* `board[i][j]` 为 `'X'`、`'O'` 或 `' '`
 
 
-* Players take turns placing characters into empty squares (" ").
-* The first player always places "X" characters, while the second player always places "O" characters.
-* "X" and "O" characters are always placed into empty squares, never filled ones.
-* The game ends when there are 3 of the same (non-empty) character filling any row, column, or diagonal.
-* The game also ends if all squares are non-empty.
-* No more moves can be played if the game is over.
 
-
-[subs="verbatim,quotes,macros"]
-----
-*Example 1:*
-*Input:* board = ["O  ", "   ", "   "]
-*Output:* false
-*Explanation:* The first player always plays "X".
-
-*Example 2:*
-*Input:* board = ["XOX", " X ", "   "]
-*Output:* false
-*Explanation:* Players take turns making moves.
-
-*Example 3:*
-*Input:* board = ["XXX", "   ", "OOO"]
-*Output:* false
-
-*Example 4:*
-*Input:* board = ["XOX", "O O", "XOX"]
-*Output:* true
-----
-
-*Note:*
-
-
-* `board` is a length-3 array of strings, where each string `board[i]` has length 3.
-* Each `board[i][j]` is a character in the set `{" ", "X", "O"}`.
-
-
+== 思路分析
 
 
 [[src-0794]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0794_ValidTicTacToeState.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0794_ValidTicTacToeState_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
 

@@ -5583,14 +5583,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0793-preimage-size-of-factorial-zeroes-function.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/valid-tic-tac-toe-state/[794. Valid Tic-Tac-Toe State^]
-//|{source_base_url}/_0794_ValidTicTacToeState.java[Java]
-//|{doc_base_url}/0794-valid-tic-tac-toe-state.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/valid-tic-tac-toe-state/[794. Valid Tic-Tac-Toe State^]
+|{source_base_url}/_0794_ValidTicTacToeState.java[Java]
+|{doc_base_url}/0794-valid-tic-tac-toe-state.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/number-of-subarrays-with-bounded-maximum/[795. Number of Subarrays with Bounded Maximum^]
 //|{source_base_url}/_0795_NumberOfSubarraysWithBoundedMaximum.java[Java]

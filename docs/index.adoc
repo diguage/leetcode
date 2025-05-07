@@ -1672,7 +1672,7 @@ include::0787-cheapest-flights-within-k-stops.adoc[leveloffset=+1]
 
 // include::0793-preimage-size-of-factorial-zeroes-function.adoc[leveloffset=+1]
 
-// include::0794-valid-tic-tac-toe-state.adoc[leveloffset=+1]
+include::0794-valid-tic-tac-toe-state.adoc[leveloffset=+1]
 
 // include::0795-number-of-subarrays-with-bounded-maximum.adoc[leveloffset=+1]
 
