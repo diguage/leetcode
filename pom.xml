@@ -790,8 +790,8 @@
             <source-highlighter>rouge</source-highlighter>
             <rouge-style>github</rouge-style>
             <imagesdir>.</imagesdir>
-            <docinfo>true</docinfo>
-            <docinfodir>assets/tags</docinfodir>
+            <!-- <docinfo>true</docinfo>-->
+            <!-- <docinfodir>assets/tags</docinfodir>-->
             <icons>font</icons>
             <linkcss>true</linkcss>
             <stylesdir>assets/styles</stylesdir>

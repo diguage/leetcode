@@ -38,7 +38,6 @@ https://leetcode.cn/problems/coin-change/[LeetCode - 322. 零钱兑换 ^]
 * `0 \<= amount \<= 10^4^`
 
 
-[#思路分析]
 == 思路分析
 
 解题思路
