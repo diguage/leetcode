@@ -623,6 +623,10 @@ endif::[]
 |{doc_base_url}/0794-valid-tic-tac-toe-state.adoc[题解]
 |✅ 总结提炼判断规则。
 
+|{counter:codes2503}
+|{leetcode_base_url}/harshad-number/[3099. 哈沙德数^]
+|{doc_base_url}/3099-harshad-number.adoc[题解]
+|✅ 数学计算
 
 |===
 

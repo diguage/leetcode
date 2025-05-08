@@ -6282,7 +6282,7 @@ include::2850-minimum-moves-to-spread-stones-over-grid.adoc[leveloffset=+1]
 
 // include::3098-find-the-sum-of-subsequence-powers.adoc[leveloffset=+1]
 
-// include::3099-harshad-number.adoc[leveloffset=+1]
+include::3099-harshad-number.adoc[leveloffset=+1]
 
 // include::3100-water-bottles-ii.adoc[leveloffset=+1]
 
