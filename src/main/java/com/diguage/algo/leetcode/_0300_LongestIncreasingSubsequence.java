@@ -36,7 +36,10 @@ public class _0300_LongestIncreasingSubsequence {
      *
      * Memory Usage: 42.1 MB, less than 5.00% of Java online submissions for Longest Increasing Subsequence.
      *
-     * Copy from: https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/zui-chang-shang-sheng-zi-xu-lie-dong-tai-gui-hua-2/[最长上升子序列（动态规划 + 二分查找，清晰图解） - 最长上升子序列 - 力扣（LeetCode）]
+     * Copy from: https://leetcode.cn/problems/longest-increasing-subsequence/solutions/24173/zui-chang-shang-sheng-zi-xu-lie-dong-tai-gui-hua-2/[最长上升子序列（动态规划 + 二分查找，清晰图解） - 最长上升子序列 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-23 10:24
      */
     public int lengthOfLIS(int[] nums) {
         if (Objects.isNull(nums) || nums.length == 0) {

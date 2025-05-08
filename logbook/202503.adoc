@@ -628,6 +628,11 @@ endif::[]
 |{doc_base_url}/3099-harshad-number.adoc[题解]
 |✅ 数学计算
 
+|{counter:codes}
+|{leetcode_base_url}/longest-increasing-subsequence/[300. 最长递增子序列^]
+|{doc_base_url}/0300-longest-increasing-subsequence.adoc[题解]
+|❌ 动态规划。动态规划+二分查找的解法一脸懵逼，看答案都懵逼！
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
