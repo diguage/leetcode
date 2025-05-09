@@ -638,6 +638,11 @@ endif::[]
 |{doc_base_url}/0144-binary-tree-preorder-traversal.adoc[题解]
 |✅ 树的 Morris 遍历
 
+|{counter:codes2503}
+|{leetcode_base_url}/maximum-prime-difference/[3115. 质数的最大距离^]
+|{doc_base_url}/3115-maximum-prime-difference.adoc[题解]
+|✅ 质数判断
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

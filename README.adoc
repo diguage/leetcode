@@ -21831,12 +21831,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/maximum-prime-difference/[3115. Maximum Prime Difference^]
-//|{source_base_url}/_3115_MaximumPrimeDifference.java[Java]
-//|{doc_base_url}/3115-maximum-prime-difference.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/maximum-prime-difference/[3115. Maximum Prime Difference^]
+|{source_base_url}/_3115_MaximumPrimeDifference.java[Java]
+|{doc_base_url}/3115-maximum-prime-difference.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/kth-smallest-amount-with-single-denomination-combination/[3116. Kth Smallest Amount With Single Denomination Combination^]

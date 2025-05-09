@@ -6314,7 +6314,7 @@ include::3099-harshad-number.adoc[leveloffset=+1]
 
 // include::3114-latest-time-you-can-obtain-after-replacing-characters.adoc[leveloffset=+1]
 
-// include::3115-maximum-prime-difference.adoc[leveloffset=+1]
+include::3115-maximum-prime-difference.adoc[leveloffset=+1]
 
 // include::3116-kth-smallest-amount-with-single-denomination-combination.adoc[leveloffset=+1]
 
