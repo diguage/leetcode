@@ -22,6 +22,9 @@ public class _0144_BinaryTreePreorderTraversal {
   /**
    * Runtime: 0 ms, faster than 100.00% of Java online submissions for Binary Tree Preorder Traversal.
    * Memory Usage: 37.4 MB, less than 92.86% of Java online submissions for Binary Tree Preorder Traversal.
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2020-06-16 10:59
    */
   public List<Integer> preorderTraversal(TreeNode root) {
     if (Objects.isNull(root)) {

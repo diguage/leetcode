@@ -17,7 +17,10 @@ import java.util.List;
  */
 public class _0144_BinaryTreePreorderTraversal_Stack {
   // tag::answer[]
-
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-14 11:30
+   */
   public List<Integer> preorderTraversal(TreeNode root) {
     List<Integer> result = new ArrayList<>();
     Deque<TreeNode> stack = new LinkedList<>();

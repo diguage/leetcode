@@ -628,10 +628,15 @@ endif::[]
 |{doc_base_url}/3099-harshad-number.adoc[题解]
 |✅ 数学计算
 
-|{counter:codes}
+|{counter:codes2503}
 |{leetcode_base_url}/longest-increasing-subsequence/[300. 最长递增子序列^]
 |{doc_base_url}/0300-longest-increasing-subsequence.adoc[题解]
 |❌ 动态规划。动态规划+二分查找的解法一脸懵逼，看答案都懵逼！
+
+|{counter:codes2503}
+|{leetcode_base_url}/binary-tree-preorder-traversal/[144. 二叉树的前序遍历^]
+|{doc_base_url}/0144-binary-tree-preorder-traversal.adoc[题解]
+|✅ 树的 Morris 遍历
 
 |===
 
