@@ -1494,7 +1494,7 @@ include::0701-insert-into-a-binary-search-tree.adoc[leveloffset=+1]
 
 include::0704-binary-search.adoc[leveloffset=+1]
 
-// include::0705-design-hashset.adoc[leveloffset=+1]
+include::0705-design-hashset.adoc[leveloffset=+1]
 
 // include::0706-design-hashmap.adoc[leveloffset=+1]
 

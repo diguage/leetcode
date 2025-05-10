@@ -643,6 +643,11 @@ endif::[]
 |{doc_base_url}/3115-maximum-prime-difference.adoc[题解]
 |✅ 质数判断
 
+|{counter:codes2503}
+|{leetcode_base_url}/design-hashset/[705. 设计哈希集合^]
+|{doc_base_url}/0705-design-hashset.adoc[题解]
+|✅ 使用开放地址法解决哈希冲突。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

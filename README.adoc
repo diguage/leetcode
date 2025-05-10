@@ -4961,13 +4961,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/design-hashset/[705. Design HashSet^]
-//|{source_base_url}/_0705_DesignHashSet.java[Java]
-//|{doc_base_url}/0705-design-hashset.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/design-hashset/[705. Design HashSet^]
+|{source_base_url}/_0705_DesignHashSet.java[Java]
+|{doc_base_url}/0705-design-hashset.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/design-hashmap/[706. Design HashMap^]
 //|{source_base_url}/_0706_DesignHashMap.java[Java]
