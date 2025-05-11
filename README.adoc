@@ -16266,12 +16266,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/count-number-of-ways-to-place-houses/[2320. Count Number of Ways to Place Houses^]
-//|{source_base_url}/_2320_CountNumberOfWaysToPlaceHouses.java[Java]
-//|{doc_base_url}/2320-count-number-of-ways-to-place-houses.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/count-number-of-ways-to-place-houses/[2320. Count Number of Ways to Place Houses^]
+|{source_base_url}/_2320_CountNumberOfWaysToPlaceHouses.java[Java]
+|{doc_base_url}/2320-count-number-of-ways-to-place-houses.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/maximum-score-of-spliced-array/[2321. Maximum Score Of Spliced Array^]
