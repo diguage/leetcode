@@ -12409,12 +12409,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/minimum-number-of-operations-to-move-all-balls-to-each-box/[1769. Minimum Number of Operations to Move All Balls to Each Box^]
-//|{source_base_url}/_1769_MinimumNumberOfOperationsToMoveAllBallsToEachBox.java[Java]
-//|{doc_base_url}/1769-minimum-number-of-operations-to-move-all-balls-to-each-box.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/minimum-number-of-operations-to-move-all-balls-to-each-box/[1769. Minimum Number of Operations to Move All Balls to Each Box^]
+|{source_base_url}/_1769_MinimumNumberOfOperationsToMoveAllBallsToEachBox.java[Java]
+|{doc_base_url}/1769-minimum-number-of-operations-to-move-all-balls-to-each-box.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/maximum-score-from-performing-multiplication-operations/[1770. Maximum Score from Performing Multiplication Operations^]

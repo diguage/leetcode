@@ -658,6 +658,11 @@ endif::[]
 |{doc_base_url}/2320-count-number-of-ways-to-place-houses.adoc[题解]
 |❌ 先只考虑一边的情况，再组合两边的情况。只考虑一边的情况，就是一个斐波那契数列： stem:[f(i) = f(i-1) + f(i-2)]。
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-number-of-operations-to-move-all-balls-to-each-box/[1769. 移动所有球到每个盒子所需的最小操作数^]
+|{doc_base_url}/1769-minimum-number-of-operations-to-move-all-balls-to-each-box.adoc[题解]
+|✅ 最简单的解法双重循环。取巧的解法是，利用“前缀和”的思路，分别计算当前节点左右两侧的操作次数，然后再相加。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

@@ -3622,7 +3622,7 @@ include::1650-lowest-common-ancestor-of-a-binary-tree-iii.adoc[leveloffset=+1]
 
 // include::1768-merge-strings-alternately.adoc[leveloffset=+1]
 
-// include::1769-minimum-number-of-operations-to-move-all-balls-to-each-box.adoc[leveloffset=+1]
+include::1769-minimum-number-of-operations-to-move-all-balls-to-each-box.adoc[leveloffset=+1]
 
 // include::1770-maximum-score-from-performing-multiplication-operations.adoc[leveloffset=+1]
 
