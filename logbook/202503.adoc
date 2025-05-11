@@ -648,6 +648,11 @@ endif::[]
 |{doc_base_url}/0705-design-hashset.adoc[题解]
 |✅ 使用开放地址法解决哈希冲突。
 
+|{counter:codes2503}
+|{leetcode_base_url}/shortest-string-that-contains-three-strings/[2800. 包含三个字符串的最短字符串^]
+|{doc_base_url}/2800-shortest-string-that-contains-three-strings.adoc[题解]
+|❌ 先求三个字符串的全排列，然后合并（合并时注意处理首尾相同子串，减少合并字符串的长度），在这些合并后的字符串中选择最短，字典排序最小的字符串。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

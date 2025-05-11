@@ -19626,12 +19626,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/shortest-string-that-contains-three-strings/[2800. Shortest String That Contains Three Strings^]
-//|{source_base_url}/_2800_ShortestStringThatContainsThreeStrings.java[Java]
-//|{doc_base_url}/2800-shortest-string-that-contains-three-strings.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/shortest-string-that-contains-three-strings/[2800. Shortest String That Contains Three Strings^]
+|{source_base_url}/_2800_ShortestStringThatContainsThreeStrings.java[Java]
+|{doc_base_url}/2800-shortest-string-that-contains-three-strings.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/count-stepping-numbers-in-range/[2801. Count Stepping Numbers in Range^]

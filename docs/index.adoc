@@ -5684,7 +5684,7 @@ include::2684-maximum-number-of-moves-in-a-grid.adoc[leveloffset=+1]
 
 // include::2799-count-complete-subarrays-in-an-array.adoc[leveloffset=+1]
 
-// include::2800-shortest-string-that-contains-three-strings.adoc[leveloffset=+1]
+include::2800-shortest-string-that-contains-three-strings.adoc[leveloffset=+1]
 
 // include::2801-count-stepping-numbers-in-range.adoc[leveloffset=+1]
 
