@@ -1,32 +1,38 @@
 [#0409-longest-palindrome]
-= 409. Longest Palindrome
+= 409. 最长回文串
 
-{leetcode}/problems/longest-palindrome/[LeetCode - Longest Palindrome^]
+https://leetcode.cn/problems/longest-palindrome/[LeetCode - 409. 最长回文串 ^]
 
-Given a string which consists of lowercase or uppercase letters, find the length of the longest palindromes that can be built with those letters.
+给定一个包含大写字母和小写字母的字符串 `s`，返回 _通过这些字母构造成的 *最长的 回文串*_ 的长度。
 
-This is case sensitive, for example `"Aa"` is not considered a palindrome here.
-
-*Note:*
+在构造过程中，请注意 *区分大小写*。比如 `+"Aa"+` 不能当做一个回文字符串。
 
 
-Assume the length of given string will not exceed 1,010.
+*示例 1:*
 
+....
+输入:s = "abccccdd"
+输出:7
+解释:
+我们可以构造的最长的回文串是"dccaccd", 它的长度是 7。
+....
 
-*Example: *
-[subs="verbatim,quotes,macros"]
-----
-Input:
-"abccccdd"
+*示例 2:*
 
-Output:
-7
+....
+输入:s = "a"
+输出:1
+解释：可以构造的最长回文串是"a"，它的长度是 1。
+....
 
-Explanation:
-One longest palindrome that can be built is "dccaccd", whose length is 7.
-----
+*提示:*
+
+* `+1 <= s.length <= 2000+`
+* `s` 只由小写 *和/或* 大写英文字母组成
+
 
 == 思路分析
+
 
 [[src-0409]]
 [tabs]
@@ -40,15 +46,16 @@ include::{sourcedir}/_0409_LongestPalindrome.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0409_LongestPalindrome_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0409_LongestPalindrome_2.java[tag=answer]
+----
+--
 ====
+
 
 == 参考资料
 
