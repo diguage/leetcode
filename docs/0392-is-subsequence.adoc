@@ -1,51 +1,46 @@
 [#0392-is-subsequence]
-= 392. Is Subsequence
+= 392. 判断子序列
 
-{leetcode}/problems/is-subsequence/[LeetCode - Is Subsequence^]
+https://leetcode.cn/problems/is-subsequence/[LeetCode - 392. 判断子序列 ^]
 
+给定字符串 *s* 和 *t* ，判断 *s* 是否为 *t* 的子序列。
 
-Given a string *s* and a string *t*, check if *s* is subsequence of *t*.
+字符串的一个子序列是原始字符串删除一些（也可以不删除）字符而不改变剩余字符相对位置形成的新字符串。（例如，`"ace"`是`"abcde"`的一个子序列，而`"aec"`不是）。
 
+*进阶：*
 
+如果有大量输入的 S，称作 S1, S2, ... , Sk 其中 k >= 10亿，你需要依次检查它们是否为 T 的子序列。在这种情况下，你会怎样改变代码？
 
-You may assume that there is only lower case English letters in both *s* and *t*. *t* is potentially a very long (length ~= 500,000) string, and *s* is a short string (<=100).
+*致谢：*
 
+特别感谢 ** https://leetcode.com/pbrother/[@pbrother] 添加此问题并且创建所有测试用例。
 
+*示例 1：*
 
-A subsequence of a string is a new string which is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie, `"ace"` is a subsequence of `"abcde"` while `"aec"` is not).
+....
+输入：s = "abc", t = "ahbgdc"
+输出：true
+....
 
+*示例 2：*
 
-*Example 1:*
+....
+输入：s = "axc", t = "ahbgdc"
+输出：false
+....
 
+*提示：*
 
-*s* = `"abc"`, *t* = `"ahbgdc"`
-
-
-Return `true`.
-
-
-*Example 2:*
-
-
-*s* = `"axc"`, *t* = `"ahbgdc"`
-
-
-Return `false`.
-
-
-*Follow up:*
-
-
-If there are lots of incoming S, say S1, S2, ... , Sk where k >= 1B, and you want to check one by one to see if T has its subsequence. In this scenario, how would you change your code?
-
-*Credits:*
-
-Special thanks to <a href="https://leetcode.com/pbrother/">@pbrother</a> for adding this problem and creating all test cases.
+* `+0 <= s.length <= 100+`
+* `0 \<= t.length \<= 10^4^`
+* 两个字符串都只由小写字符组成。
 
 
 == 思路分析
 
 双指针，当短指针到头也就是表明是子串。
+
+image::images/0392-10.gif[{image_attr}]
 
 [[src-0392]]
 [tabs]
@@ -59,17 +54,18 @@ include::{sourcedir}/_0392_IsSubsequence.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0392_IsSubsequence_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0392_IsSubsequence_2.java[tag=answer]
+----
+--
 ====
+
 
 == 参考资料
 
-. https://leetcode.cn/problems/is-subsequence/solutions/1658262/by-jyd-zeph/?envType=study-plan-v2&envId=selected-coding-interview[392. 判断子序列 - 双指针，清晰图解^]
+. https://leetcode.cn/problems/is-subsequence/solutions/1658262/by-jyd-zeph/[392. 判断子序列 - 双指针，清晰图解^]
 

@@ -668,6 +668,11 @@ endif::[]
 |{doc_base_url}/0350-intersection-of-two-arrays-ii.adoc[题解]
 |✅ 最初思路是对两个数组统计次数。其实只需要对一个数组统计次数，另外一个数组遍历时就可以求交集了。
 
+|{counter:codes2503}
+|{leetcode_base_url}/is-subsequence/[392. 判断子序列^]
+|{doc_base_url}/0392-is-subsequence.adoc[题解]
+|✅ 双指针
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
