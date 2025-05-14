@@ -65,6 +65,15 @@ include::{sourcedir}/_1839_LongestSubstringOfAllVowelsInOrder.java[tag=answer]
 ----
 --
 
+一刷（优化）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1839_LongestSubstringOfAllVowelsInOrder_1.java[tag=answer]
+----
+--
+
 // 二刷::
 // +
 // --
