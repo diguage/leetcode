@@ -683,6 +683,12 @@ endif::[]
 |{doc_base_url}/1839-longest-substring-of-all-vowels-in-order.adoc[题解]
 |✅ 滑动窗口。题目不难，只是处理边界条件麻烦。另外，也有取巧解法，可以探索一下。
 
+|{counter:codes2503}
+|{leetcode_base_url}/maximum-sum-circular-subarray/[918. 环形子数组的最大和^]
+|{doc_base_url}/0918-maximum-sum-circular-subarray.adoc[题解]
+|❌ 理解错题目了。前大，中小，后大，这类子数组也可以产生更多的子数组和。另有“取反”和单调栈解法。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

@@ -6451,14 +6451,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0917-reverse-only-letters.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/maximum-sum-circular-subarray/[918. Maximum Sum Circular Subarray^]
-//|{source_base_url}/_0918_MaximumSumCircularSubarray.java[Java]
-//|{doc_base_url}/0918-maximum-sum-circular-subarray.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/maximum-sum-circular-subarray/[918. Maximum Sum Circular Subarray^]
+|{source_base_url}/_0918_MaximumSumCircularSubarray.java[Java]
+|{doc_base_url}/0918-maximum-sum-circular-subarray.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/complete-binary-tree-inserter/[919. Complete Binary Tree Inserter^]
 //|{source_base_url}/_0919_CompleteBinaryTreeInserter.java[Java]

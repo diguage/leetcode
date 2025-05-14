@@ -1919,7 +1919,7 @@ include::0912-sort-an-array.adoc[leveloffset=+1]
 
 // include::0917-reverse-only-letters.adoc[leveloffset=+1]
 
-// include::0918-maximum-sum-circular-subarray.adoc[leveloffset=+1]
+include::0918-maximum-sum-circular-subarray.adoc[leveloffset=+1]
 
 // include::0919-complete-binary-tree-inserter.adoc[leveloffset=+1]
 
