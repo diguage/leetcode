@@ -3761,7 +3761,7 @@ include::1823-find-the-winner-of-the-circular-game.adoc[leveloffset=+1]
 
 // include::1838-frequency-of-the-most-frequent-element.adoc[leveloffset=+1]
 
-// include::1839-longest-substring-of-all-vowels-in-order.adoc[leveloffset=+1]
+include::1839-longest-substring-of-all-vowels-in-order.adoc[leveloffset=+1]
 
 // include::1840-maximum-building-height.adoc[leveloffset=+1]
 

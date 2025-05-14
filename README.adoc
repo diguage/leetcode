@@ -12899,12 +12899,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/longest-substring-of-all-vowels-in-order/[1839. Longest Substring Of All Vowels in Order^]
-//|{source_base_url}/_1839_LongestSubstringOfAllVowelsInOrder.java[Java]
-//|{doc_base_url}/1839-longest-substring-of-all-vowels-in-order.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/longest-substring-of-all-vowels-in-order/[1839. Longest Substring Of All Vowels in Order^]
+|{source_base_url}/_1839_LongestSubstringOfAllVowelsInOrder.java[Java]
+|{doc_base_url}/1839-longest-substring-of-all-vowels-in-order.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/maximum-building-height/[1840. Maximum Building Height^]
