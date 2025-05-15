@@ -2781,7 +2781,7 @@ include::1289-minimum-falling-path-sum-ii.adoc[leveloffset=+1]
 
 // include::1348-tweet-counts-per-frequency.adoc[leveloffset=+1]
 
-// include::1349-maximum-students-taking-exam.adoc[leveloffset=+1]
+include::1349-maximum-students-taking-exam.adoc[leveloffset=+1]
 
 // include::1350-students-with-invalid-departments.adoc[leveloffset=+1]
 

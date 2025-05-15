@@ -9469,12 +9469,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/maximum-students-taking-exam/[1349. Maximum Students Taking Exam^]
-//|{source_base_url}/_1349_MaximumStudentsTakingExam.java[Java]
-//|{doc_base_url}/1349-maximum-students-taking-exam.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/maximum-students-taking-exam/[1349. Maximum Students Taking Exam^]
+|{source_base_url}/_1349_MaximumStudentsTakingExam.java[Java]
+|{doc_base_url}/1349-maximum-students-taking-exam.adoc[题解]
+|Hard
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/students-with-invalid-departments/[1350. Students With Invalid Departments^]

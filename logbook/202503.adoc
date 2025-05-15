@@ -688,6 +688,10 @@ endif::[]
 |{doc_base_url}/0918-maximum-sum-circular-subarray.adoc[题解]
 |❌ 理解错题目了。前大，中小，后大，这类子数组也可以产生更多的子数组和。另有“取反”和单调栈解法。
 
+|{counter:codes2503}
+|{leetcode_base_url}/maximum-students-taking-exam/[1349. 参加考试的最大学生数^]
+|{doc_base_url}/1349-maximum-students-taking-exam.adoc[题解]
+|❌ 回溯解法通过 50 / 57 个测试用例。动态规划解法太难了！
 
 |===
 
