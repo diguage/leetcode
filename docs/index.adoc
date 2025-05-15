@@ -2071,7 +2071,7 @@ include::0992-subarrays-with-k-different-integers.adoc[leveloffset=+1]
 
 // include::0993-cousins-in-binary-tree.adoc[leveloffset=+1]
 
-// include::0994-rotting-oranges.adoc[leveloffset=+1]
+include::0994-rotting-oranges.adoc[leveloffset=+1]
 
 // include::0995-minimum-number-of-k-consecutive-bit-flips.adoc[leveloffset=+1]
 

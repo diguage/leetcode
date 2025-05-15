@@ -6983,14 +6983,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0993-cousins-in-binary-tree.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/rotting-oranges/[994. Rotting Oranges^]
-//|{source_base_url}/_0994_RottingOranges.java[Java]
-//|{doc_base_url}/0994-rotting-oranges.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/rotting-oranges/[994. Rotting Oranges^]
+|{source_base_url}/_0994_RottingOranges.java[Java]
+|{doc_base_url}/0994-rotting-oranges.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/minimum-number-of-k-consecutive-bit-flips/[995. Minimum Number of K Consecutive Bit Flips^]
 //|{source_base_url}/_0995_MinimumNumberOfKConsecutiveBitFlips.java[Java]

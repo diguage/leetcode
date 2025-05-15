@@ -1,70 +1,84 @@
 [#0994-rotting-oranges]
-= 994. Rotting Oranges
+= 994. 腐烂的橘子
 
-{leetcode}/problems/rotting-oranges/[LeetCode - Rotting Oranges^]
+https://leetcode.cn/problems/rotting-oranges/[LeetCode - 994. 腐烂的橘子 ^]
 
-In a given grid, each cell can have one of three values:
+在给定的 `m x n` 网格 `grid` 中，每个单元格可以有以下三个值之一：
 
+* 值 `0` 代表空单元格；
+* 值 `1` 代表新鲜橘子；
+* 值 `2` 代表腐烂的橘子。
 
-* the value `0` representing an empty cell;
-* the value `1` representing a fresh orange;
-* the value `2` representing a rotten orange.
+每分钟，腐烂的橘子 *周围 4 个方向上相邻* 的新鲜橘子都会腐烂。
 
+返回直到单元格中没有新鲜橘子为止所必须经过的最小分钟数。如果不可能，返回 `-1`。
 
-Every minute, any fresh orange that is adjacent (4-directionally) to a rotten orange becomes rotten.
+*示例 1：*
 
-Return the minimum number of minutes that must elapse until no cell has a fresh orange.  If this is impossible, return `-1` instead.
+image::images/0994-01.png[{image_attr}]
 
- 
+....
+输入：grid = [[2,1,1],[1,1,0],[0,1,1]]
+输出：4
+....
 
+*示例 2：*
 
-*Example 1:*
+....
+输入：grid = [[2,1,1],[0,1,1],[1,0,1]]
+输出：-1
+解释：左下角的橘子（第 2 行， 第 0 列）永远不会腐烂，因为腐烂只会发生在 4 个方向上。
+....
 
-image::https://assets.leetcode.com/uploads/2019/02/16/oranges.png[{image_attr}]
+*示例 3：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[2,1,1],[1,1,0],[0,1,1]]
-*Output:* 4
-----
+....
+输入：grid = [[0,2]]
+输出：0
+解释：因为 0 分钟时已经没有新鲜橘子了，所以答案就是 0 。
+....
 
+*提示：*
 
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[2,1,1],[0,1,1],[1,0,1]]
-*Output:* -1
-*Explanation:* The orange in the bottom left corner (row 2, column 0) is never rotten, because rotting only happens 4-directionally.
-----
-
-
-*Example 3:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[0,2]]
-*Output:* 0
-*Explanation:* Since there are already no fresh oranges at minute 0, the answer is just 0.
-----
-
- 
-
-*Note:*
+* `m == grid.length`
+* `n == grid[i].length`
+* `+1 <= m, n <= 10+`
+* `grid[i][j]` 仅为 `0`、`1` 或 `2`
 
 
-* `1 <= grid.length <= 10`
-* `1 <= grid[0].length <= 10`
-* `grid[i][j]` is only `0`, `1`, or `2`.
+== 思路分析
 
+对网格进行遍历，让橘子逐渐加深腐烂程度 `2` → `3` → `4` → ...，同时传染给相邻橘子，记录有被传染的橘子，如果被传染橘子数量不为0，则进行下一轮遍历。最后，再判断一下网格中是否还有新鲜橘子，如有，则返回 `-1`，没有则计算耗时。
 
+看题解，记录腐烂橘子和新鲜橘子的位置，然后进行遍历的做法也不错。如下图：
 
-
+image::images/0994-10.gif[{image_attr}]
 
 
 [[src-0994]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0994_RottingOranges.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0994_RottingOranges_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/rotting-oranges/solutions/124765/fu-lan-de-ju-zi-by-leetcode-solution/[994. 腐烂的橘子 - 官方题解^]
+. https://leetcode.cn/problems/rotting-oranges/solutions/129542/yan-du-you-xian-sou-suo-python3-c-by-z1m/[994. 腐烂的橘子 - 广度优先搜索^]

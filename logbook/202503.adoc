@@ -693,6 +693,11 @@ endif::[]
 |{doc_base_url}/1349-maximum-students-taking-exam.adoc[题解]
 |❌ 回溯解法通过 50 / 57 个测试用例。动态规划解法太难了！
 
+|{counter:codes2503}
+|{leetcode_base_url}/rotting-oranges/[994. 腐烂的橘子^]
+|{doc_base_url}/0994-rotting-oranges.adoc[题解]
+|✅ 腐烂加剧+传染。广度优先遍历的解法也挺有意思。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
