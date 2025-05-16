@@ -698,6 +698,11 @@ endif::[]
 |{doc_base_url}/0994-rotting-oranges.adoc[题解]
 |✅ 腐烂加剧+传染。广度优先遍历的解法也挺有意思。
 
+|{counter:codes2503}
+|{leetcode_base_url}/longest-common-prefix/[14. Longest Common Prefix^]
+|{doc_base_url}/0014-longest-common-prefix.adoc[题解]
+|✅ 解法很多，可以很好地开阔思路！
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

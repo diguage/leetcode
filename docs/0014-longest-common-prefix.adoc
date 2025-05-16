@@ -1,37 +1,72 @@
 [#0014-longest-common-prefix]
-= 14. Longest Common Prefix
+= 14. 最长公共前缀
 
-{leetcode}/problems/longest-common-prefix/[LeetCode - Longest Common Prefix^]
+https://leetcode.cn/problems/longest-common-prefix/[LeetCode - 14. 最长公共前缀 ^]
 
-Write a function to find the longest common prefix string amongst an array of strings.
+编写一个函数来查找字符串数组中的最长公共前缀。
 
-If there is no common prefix, return an empty string `""`.
+如果不存在公共前缀，返回空字符串 `""`。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* ["flower","flow","flight"]
-*Output:* "fl"
-----
+....
+输入：strs = ["flower","flow","flight"]
+输出："fl"
+....
 
-*Example 2:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* ["dog","racecar","car"]
-*Output:* ""
-*Explanation:* There is no common prefix among the input strings.
-----
+....
+输入：strs = ["dog","racecar","car"]
+输出：""
+解释：输入不存在公共前缀。
+....
 
-*Note:*
 
-All given inputs are in lowercase letters `a-z`.
+*提示：*
+
+* `+1 <= strs.length <= 200+`
+* `+0 <= strs[i].length <= 200+`
+* `strs[i]` 仅由小写英文字母组成
+
+
+== 思路分析
+
+最简单的解题办法是逐列扫描。看题解，也不需要保存前缀，发现不同时，直接从字符串中截取即可。
+
+image::images/0014-10.png[{image_attr}]
+
+image::images/0014-11.png[{image_attr}]
+
+image::images/0014-12.png[{image_attr}]
+
+image::images/0014-13.png[{image_attr}]
+
 
 
 [[src-0014]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0014_LongestCommonPrefix.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0014_LongestCommonPrefix_2.java[tag=answer]
+----
+--
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/longest-common-prefix/solutions/288575/zui-chang-gong-gong-qian-zhui-by-leetcode-solution/[14. 最长公共前缀 - 官方题解^] -- 解法很多！
