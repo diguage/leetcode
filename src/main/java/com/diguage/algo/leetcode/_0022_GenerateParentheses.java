@@ -34,6 +34,9 @@ public class _0022_GenerateParentheses {
    * Memory Usage: 45.3 MB, less than 5.16% of Java online submissions for Generate Parentheses.
    *
    * Copy from: https://leetcode.com/problems/generate-parentheses/solution/[Generate Parentheses solution - LeetCode]
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2019-07-27 08:11
    */
   public List<String> generateParenthesis(int n) {
     List<String> ans = new LinkedList<>();

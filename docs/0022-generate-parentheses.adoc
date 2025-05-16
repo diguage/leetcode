@@ -1,40 +1,63 @@
 [#0022-generate-parentheses]
-= 22. Generate Parentheses
+= 22. 括号生成
 
-{leetcode}/problems/generate-parentheses/[LeetCode - Generate Parentheses^]
+https://leetcode.cn/problems/generate-parentheses/[LeetCode - 22. 括号生成 ^]
 
-Given _n_ pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+数字 `n` 代表生成括号的对数，请你设计一个函数，用于能够生成所有可能的并且 *有效的* 括号组合。
 
-For example, given _n_ = 3, a solution set is:
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-[
-  "((()))",
-  "(()())",
-  "(())()",
-  "()(())",
-  "()()()"
-]
-----
+....
+输入：n = 3
+输出：["((()))","(()())","(())()","()(())","()()()"]
+....
 
-== 解题分析
+*示例 2：*
+
+....
+输入：n = 1
+输出：["()"]
+....
+
+
+*提示：*
+
+* `+1 <= n <= 8+`
+
+
+== 思路分析
 
 image::images/0022-mindmap.png[{image_attr}]
 
 使用回溯法解题时，需要关注的一个点是，**在递归调用时，为了保证结果是有效的括号对，则添加的闭区间符号不能多于开区间符号。也就是，保证添加在添加一个闭区间符号之前，要先添加了对应的开区间符号。所以，就要注意闭区间的判断，是跟开区间大小判断，而不是括号数量。**并不是所有的排列组合都符合我们的需求。
 
-
+也可以去掉回溯过程，使用深度优先遍历。
 
 image::images/0022-0.png[{image_attr}]
 
 image::images/0022-1.png[{image_attr}]
 
 [[src-0022]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0022_GenerateParentheses.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0022_GenerateParentheses_2.java[tag=answer]
+----
+--
+====
 
 == 思考题
 
@@ -42,4 +65,6 @@ include::{sourcedir}/_0022_GenerateParentheses.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/[回溯算法（深度优先遍历）+ 广度优先遍历 + 动态规划 - 括号生成 - 力扣（LeetCode）^]
+. https://leetcode.cn/problems/generate-parentheses/solutions/35947/hui-su-suan-fa-by-liweiwei1419/[22. 括号生成 - 回溯算法（深度优先遍历）+ 广度优先遍历（Java）^]
+. https://leetcode.cn/problems/generate-parentheses/solutions/192912/gua-hao-sheng-cheng-by-leetcode-solution/[22. 括号生成 - 官方题解^]
+. https://leetcode.cn/problems/generate-parentheses/solutions/2071015/hui-su-bu-hui-xie-tao-lu-zai-ci-pythonja-wcdw/[22. 括号生成 - 回溯不会写？套路在此！^]

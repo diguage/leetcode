@@ -703,6 +703,11 @@ endif::[]
 |{doc_base_url}/0014-longest-common-prefix.adoc[题解]
 |✅ 解法很多，可以很好地开阔思路！
 
+|{counter:codes2503}
+|{leetcode_base_url}/generate-parentheses/[22. Generate Parentheses^]
+|{doc_base_url}/0022-generate-parentheses.adoc[题解]
+|✅ 回溯。也可以去掉回溯过程，使用深度优先遍历。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
