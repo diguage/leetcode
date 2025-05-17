@@ -699,17 +699,17 @@ endif::[]
 |✅ 腐烂加剧+传染。广度优先遍历的解法也挺有意思。
 
 |{counter:codes2503}
-|{leetcode_base_url}/longest-common-prefix/[14. Longest Common Prefix^]
+|{leetcode_base_url}/longest-common-prefix/[14. 最长公共前缀^]
 |{doc_base_url}/0014-longest-common-prefix.adoc[题解]
 |✅ 解法很多，可以很好地开阔思路！
 
 |{counter:codes2503}
-|{leetcode_base_url}/generate-parentheses/[22. Generate Parentheses^]
+|{leetcode_base_url}/generate-parentheses/[22. 括号生成^]
 |{doc_base_url}/0022-generate-parentheses.adoc[题解]
 |✅ 回溯。也可以去掉回溯过程，使用深度优先遍历。
 
 |{counter:codes}
-|{leetcode_base_url}/swap-nodes-in-pairs/[24. Swap Nodes in Pairs^]
+|{leetcode_base_url}/swap-nodes-in-pairs/[24. 两两交换链表中的节点^]
 |{doc_base_url}/0024-swap-nodes-in-pairs.adoc[题解]
 |✅ 链表。增加虚拟节点，极大简化代码。
 
