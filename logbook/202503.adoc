@@ -708,10 +708,15 @@ endif::[]
 |{doc_base_url}/0022-generate-parentheses.adoc[题解]
 |✅ 回溯。也可以去掉回溯过程，使用深度优先遍历。
 
-|{counter:codes}
+|{counter:codes2503}
 |{leetcode_base_url}/swap-nodes-in-pairs/[24. 两两交换链表中的节点^]
 |{doc_base_url}/0024-swap-nodes-in-pairs.adoc[题解]
 |✅ 链表。增加虚拟节点，极大简化代码。
+
+|{counter:codes2503}
+|{leetcode_base_url}/remove-duplicates-from-sorted-array/[26. 删除有序数组中的重复项^]
+|{doc_base_url}/0026-remove-duplicates-from-sorted-array.adoc[题解]
+|✅ 双指针
 
 |===
 

@@ -61,7 +61,12 @@ import java.util.Objects;
  */
 public class _0026_RemoveDuplicatesFromSortedArray {
   // tag::answer[]
-  public static int removeDuplicates(int[] nums) {
+
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2018-07-19 18:34
+   */
+  public int removeDuplicates(int[] nums) {
     if (Objects.isNull(nums) || nums.length == 0) {
       return 0;
     }
@@ -75,7 +80,7 @@ public class _0026_RemoveDuplicatesFromSortedArray {
     return i + 1;
   }
 
-  public static int removeDuplicates1(int[] nums) {
+  public int removeDuplicates1(int[] nums) {
     if (nums == null || nums.length == 0) {
       return 0;
     }
@@ -106,7 +111,7 @@ public class _0026_RemoveDuplicatesFromSortedArray {
 
   public static void main(String[] args) {
     int[] nums = {1, 2, 2};
-    System.out.println(removeDuplicates(nums));
+    new _0026_RemoveDuplicatesFromSortedArray().removeDuplicates(nums);
     System.out.println(Arrays.toString(nums));
   }
 }
