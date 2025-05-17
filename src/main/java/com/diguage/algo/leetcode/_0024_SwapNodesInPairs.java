@@ -17,10 +17,13 @@ import static java.util.Arrays.asList;
  * @since 2020-02-03 20:12
  */
 public class _0024_SwapNodesInPairs {
-  // tag::answer[]
+    // tag::answer[]
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Swap Nodes in Pairs.
      * Memory Usage: 37.3 MB, less than 5.50% of Java online submissions for Swap Nodes in Pairs.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-03 20:12
      */
     public ListNode swapPairs(ListNode head) {
         if (Objects.isNull(head) || Objects.isNull(head.next)) {
@@ -41,7 +44,7 @@ public class _0024_SwapNodesInPairs {
         return result;
     }
 
-  // end::answer[]
+    // end::answer[]
 
 
     public static void main(String[] args) {

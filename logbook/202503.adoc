@@ -708,6 +708,11 @@ endif::[]
 |{doc_base_url}/0022-generate-parentheses.adoc[题解]
 |✅ 回溯。也可以去掉回溯过程，使用深度优先遍历。
 
+|{counter:codes}
+|{leetcode_base_url}/swap-nodes-in-pairs/[24. Swap Nodes in Pairs^]
+|{doc_base_url}/0024-swap-nodes-in-pairs.adoc[题解]
+|✅ 链表。增加虚拟节点，极大简化代码。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
