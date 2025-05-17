@@ -718,6 +718,11 @@ endif::[]
 |{doc_base_url}/0026-remove-duplicates-from-sorted-array.adoc[题解]
 |✅ 双指针
 
+|{counter:codes2503}
+|{leetcode_base_url}/jump-game-ii/[45. 跳跃游戏 II^]
+|{doc_base_url}/0045-jump-game-ii.adoc[题解]
+|✅ 贪心算法。也可以动态规划。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

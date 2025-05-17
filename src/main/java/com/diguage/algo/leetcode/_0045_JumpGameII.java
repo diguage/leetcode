@@ -35,6 +35,9 @@ public class _0045_JumpGameII {
      * Runtime: 1 ms, faster than 99.98% of Java online submissions for Jump Game II.
      *
      * Memory Usage: 36.4 MB, less than 100.00% of Java online submissions for Jump Game II.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-10-26 11:29
      */
     public int jump(int[] nums) {
         if (Objects.isNull(nums) || nums.length == 0) {

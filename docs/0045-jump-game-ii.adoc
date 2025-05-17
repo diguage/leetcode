@@ -1,32 +1,77 @@
 [#0045-jump-game-ii]
-= 45. Jump Game II
+= 45. 跳跃游戏 II
 
-{leetcode}/problems/jump-game-ii/[LeetCode - Jump Game II^]
+https://leetcode.cn/problems/jump-game-ii/[LeetCode - 45. 跳跃游戏 II ^]
 
-Given an array of non-negative integers, you are initially positioned at the first index of the array.
+给定一个长度为 `n` 的 **0 索引**整数数组 `nums`。初始位置为 `+nums[0]+`。
 
-Each element in the array represents your maximum jump length at that position.
+每个元素 `nums[i]` 表示从索引 `i` 向前跳转的最大长度。换句话说，如果你在 `nums[i]` 处，你可以跳转到任意 `nums[i + j]` 处:
 
-Your goal is to reach the last index in the minimum number of jumps.
+* `+0 <= j <= nums[i]+`
+* `i + j < n`
 
-*Example:*
+返回到达 `nums[n - 1]` 的最小跳跃次数。生成的测试用例可以到达 `nums[n - 1]`。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [2,3,1,1,4]
-*Output:* 2
-*Explanation:* The minimum number of jumps to reach the last index is 2.
-    Jump 1 step from index 0 to 1, then 3 steps to the last index.
-----
+*示例 1:*
 
-*Note:*
+....
+输入: nums = [2,3,1,1,4]
+输出: 2
+解释: 跳到最后一个位置的最小跳跃数是 2。
+     从下标为 0 跳到下标为 1 的位置，跳 1 步，然后跳 3 步到达数组的最后一个位置。
+....
 
-You can assume that you can always reach the last index.
+*示例 2:*
+
+....
+输入: nums = [2,3,0,1,4]
+输出: 2
+....
+
+*提示:*
+
+* `1 \<= nums.length \<= 10^4^`
+* `+0 <= nums[i] <= 1000+`
+* 题目保证可以到达 `nums[n-1]`
+
+
+== 思路分析
+
+image::images/0045-10.png[{image_attr}]
 
 
 [[src-0045]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0045_JumpGameII.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0045_JumpGameIi_2.java[tag=answer]
+----
+--
+
+二刷（优化）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0045_JumpGameIi_20.java[tag=answer]
+----
+--
+====
+
+
+== 参考资料
+
 
