@@ -12,6 +12,9 @@ public class _0080_RemoveDuplicatesFromSortedArrayII {
      * Memory Usage: 41.7 MB, less than 5.26% of Java online submissions for Remove Duplicates from Sorted Array II.
      *
      * Copy from: https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/solution/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang-i-7/[删除排序数组中的重复项 II - 删除排序数组中的重复项 II - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-04 20:57
      */
     public int removeDuplicates(int[] nums) {
         int j = 1, count = 1;
