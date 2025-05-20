@@ -13,7 +13,7 @@ public class _0082_RemoveDuplicatesFromSortedListIi_3 {
    * @since 2025-05-20 14:39:15
    */
   public ListNode deleteDuplicates(ListNode head) {
-    ListNode dummy = new ListNode(101);
+    ListNode dummy = new ListNode(119);
     dummy.next = head;
     ListNode pre = dummy;
     ListNode slow = head;

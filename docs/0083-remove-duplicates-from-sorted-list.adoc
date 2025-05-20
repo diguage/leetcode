@@ -1,23 +1,59 @@
 [#0083-remove-duplicates-from-sorted-list]
-= 83. Remove Duplicates from Sorted List
+= 83. 删除排序链表中的重复元素
 
-{leetcode}/problems/remove-duplicates-from-sorted-list/[LeetCode - Remove Duplicates from Sorted List^]
+https://leetcode.cn/problems/remove-duplicates-from-sorted-list/[LeetCode - 83. 删除排序链表中的重复元素 ^]
 
-Given a sorted linked list, delete all duplicates such that each element appear only **once**.
+给定一个已排序的链表的头 `head`， _删除所有重复的元素，使每个元素只出现一次_ 。返回 _已排序的链表_。
 
-.Example 1:
+*示例 1：*
+
+image::images/0083-01.jpg[{image_attr}]
+
+....
+输入：head = [1,1,2]
+输出：[1,2]
+....
+
+*示例 2：*
+
+image::images/0083-02.jpg[{image_attr}]
+
+....
+输入：head = [1,1,2,3,3]
+输出：[1,2,3]
+....
+
+*提示：*
+
+* 链表中节点数目在范围 `[0, 300]` 内
+* `+-100 <= Node.val <= 100+`
+* 题目数据保证链表已经按升序 *排列*
+
+
+== 思路分析
+
+
+[[src-0083]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
 ----
-Input: 1->1->2
-Output: 1->2
+include::{sourcedir}/_0083_RemoveDuplicatesFromSortedList.java[tag=answer]
 ----
+--
 
-.Example 2:
+二刷::
++
+--
+[{java_src_attr}]
 ----
-Input: 1->1->2->3->3
-Output: 1->2->3
+include::{sourcedir}/_0083_RemoveDuplicatesFromSortedList_2.java[tag=answer]
 ----
-
-== 解题分析
+--
+====
 
 思考如何把代码写的简单易懂。
 
@@ -25,28 +61,6 @@ Output: 1->2->3
 
 如果效仿 xref:0080-remove-duplicates-from-sorted-array-ii.adoc[80. Remove Duplicates from Sorted Array II] 要求每个元素保留不得两个，又该怎么做呢？
 
-Given a sorted linked list, delete all duplicates such that each element appear only _once_.
+== 参考资料
 
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 1->1->2
-*Output:* 1->2
-----
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 1->1->2->3->3
-*Output:* 1->2->3
-----
-
-
-[[src-0083]]
-[{java_src_attr}]
-----
-include::{sourcedir}/_0083_RemoveDuplicatesFromSortedList.java[tag=answer]
-----
 
