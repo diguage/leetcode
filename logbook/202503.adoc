@@ -743,6 +743,11 @@ endif::[]
 |{doc_base_url}/0083-remove-duplicates-from-sorted-list.adoc[题解]
 |✅ 链表操作
 
+|{counter:codes2503}
+|{leetcode_base_url}/decode-ways/[91. 解码方法^]
+|{doc_base_url}/0091-decode-ways.adoc[题解]
+|❌ 动态规划。递推公式还要仔细推敲。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

@@ -45,9 +45,12 @@ public class _0091_DecodeWays {
      * Memory Usage: 41.5 MB, less than 5.66% of Java online submissions for Decode Ways.
      *
      * Copy from: https://leetcode.com/problems/decode-ways/discuss/30357/DP-Solution-(Java)-for-reference[DP Solution (Java) for reference - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-18 00:20
      */
     public int numDecodings(String s) {
-        if (Objects.isNull(s) || s.length() == 0) {
+        if (Objects.isNull(s) || s.isEmpty()) {
             return 0;
         }
         int length = s.length();
