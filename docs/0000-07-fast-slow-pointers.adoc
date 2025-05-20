@@ -24,6 +24,7 @@ Middle of the LinkedList (easy)
 
 == 经典题目
 
+. xref:0082-remove-duplicates-from-sorted-list-ii.adoc[82. Remove Duplicates from Sorted List II]
 . xref:0141-linked-list-cycle.adoc[141. Linked List Cycle]
 . xref:0142-linked-list-cycle-ii.adoc[142. Linked List Cycle II]
 . xref:0143-reorder-list.adoc[143. Reorder List]

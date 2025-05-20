@@ -15,6 +15,9 @@ public class _0082_RemoveDuplicatesFromSortedListII_2 {
 
   /**
    * 参考官方题解
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-07-03 16:50:50
    */
   public ListNode deleteDuplicates(ListNode head) {
     if (head == null || head.next == null) {

@@ -1,38 +1,73 @@
 [#0082-remove-duplicates-from-sorted-list-ii]
-= 82. Remove Duplicates from Sorted List II
+= 82. 删除排序链表中的重复元素 II
 
-{leetcode}/problems/remove-duplicates-from-sorted-list-ii/[LeetCode - Remove Duplicates from Sorted List II^]
+https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/[LeetCode - 82. 删除排序链表中的重复元素 II ^]
 
-Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
+给定一个已排序的链表的头 `head`， _删除原始链表中所有重复数字的节点，只留下不同的数字_ 。返回 _已排序的链表_。
 
-.Example 1:
-----
-Input: 1->2->3->3->4->4->5
-Output: 1->2->5
-----
 
-.Example 2:
-----
-Input: 1->1->1->2->3
-Output: 2->3
-----
+*示例 1：*
 
-== 解题分析
+image::images/0082-01.jpg[{image_attr}]
+
+....
+输入：head = [1,2,3,3,4,4,5]
+输出：[1,2,5]
+....
+
+*示例 2：*
+
+image::images/0082-02.jpg[{image_attr}]
+
+....
+输入：head = [1,1,1,2,3]
+输出：[2,3]
+....
+
+*提示：*
+
+* 链表中节点数目在范围 `[0, 300]` 内
+* `+-100 <= Node.val <= 100+`
+* 题目数据保证链表已经按升序 *排列*
+
+
+== 思路分析
 
 快慢指针是个好办法！
 
 注意推敲满指针前进的条件！
 
 [[src-0082]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListII.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListII_2.java[tag=answer]
 ----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListIi_3.java[tag=answer]
+----
+--
+====
+
 
 == 参考资料
 
