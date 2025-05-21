@@ -758,6 +758,10 @@ endif::[]
 |{doc_base_url}/1189-maximum-number-of-balloons.adoc[题解]
 |✅ 哈希
 
+|{counter:codes}
+|{leetcode_base_url}/minimum-rectangles-to-cover-points/[3111. 覆盖所有点的最少矩形数目^]
+|{doc_base_url}/3111-minimum-rectangles-to-cover-points.adoc[题解]
+|✅ 贪心。从左边界开始，尽可能多占用横轴。宽度耗尽，则从下一个点开始。
 
 |===
 

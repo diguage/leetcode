@@ -21803,12 +21803,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/minimum-rectangles-to-cover-points/[3111. Minimum Rectangles to Cover Points^]
-//|{source_base_url}/_3111_MinimumRectanglesToCoverPoints.java[Java]
-//|{doc_base_url}/3111-minimum-rectangles-to-cover-points.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/minimum-rectangles-to-cover-points/[3111. Minimum Rectangles to Cover Points^]
+|{source_base_url}/_3111_MinimumRectanglesToCoverPoints.java[Java]
+|{doc_base_url}/3111-minimum-rectangles-to-cover-points.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/minimum-time-to-visit-disappearing-nodes/[3112. Minimum Time to Visit Disappearing Nodes^]

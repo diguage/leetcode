@@ -1,138 +1,84 @@
 [#3111-minimum-rectangles-to-cover-points]
-= 3111. Minimum Rectangles to Cover Points
+= 3111. 覆盖所有点的最少矩形数目
 
-{leetcode}/problems/minimum-rectangles-to-cover-points/[LeetCode - 3111. Minimum Rectangles to Cover Points ^]
+https://leetcode.cn/problems/minimum-rectangles-to-cover-points/[LeetCode - 3111. 覆盖所有点的最少矩形数目 ^]
 
-You are given a 2D integer array `points`, where `points[i] = [x<sub>i</sub>, y<sub>i</sub>]`. You are also given an integer `w`. Your task is to *cover* *all* the given points with rectangles.
+给你一个二维整数数组 `point` ，其中 `points[i] = [x~i~, y~i~]` 表示二维平面内的一个点。同时给你一个整数 `w` 。你需要用矩形 *覆盖所有* 点。
 
-Each rectangle has its lower end at some point `(x<sub>1</sub>, 0)` and its upper end at some point `(x<sub>2</sub>, y<sub>2</sub>)`, where `x<sub>1</sub> <= x<sub>2</sub>`, `y<sub>2</sub> >= 0`, and the condition `x<sub>2</sub> - x<sub>1</sub> <= w` *must* be satisfied for each rectangle.
+每个矩形的左下角在某个点 `(x~1~, 0)` 处，且右上角在某个点 `(x~2~, y~2~)` 处，其中 `x~1~ \<= x~2~` 且 `y~2~ >= 0` ，同时对于每个矩形都 *必须* 满足 `x~2~ - x~1~ \<= w` 。
 
-A point is considered covered by a rectangle if it lies within or on the boundary of the rectangle.
+如果一个点在矩形内或者在边上，我们说这个点被矩形覆盖了。
 
-Return an integer denoting the *minimum* number of rectangles needed so that each point is covered by *at least one* rectangle_._
+请你在确保每个点都 *至少* 被一个矩形覆盖的前提下，*最少* 需要多少个矩形。
 
-*Note:* A point may be covered by more than one rectangle.
+**注意：**一个点可以被多个矩形覆盖。
 
- 
-*Example 1:*
+*示例 1：*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2024/03/04/screenshot-from-2024-03-04-20-33-05.png" style="width: 205px; height: 300px;" />
+image::images/3111-01.png[{image_attr}]
 
-<div class="example-block" style="
-    border-color: var(--border-tertiary);
-    border-left-width: 2px;
-    color: var(--text-secondary);
-    font-size: .875rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    overflow: visible;
-    padding-left: 1rem;
-">
-*Input:* <span class="example-io" style="
-    font-family: Menlo,sans-serif;
-    font-size: 0.85rem;
-">points = [[2,1],[1,0],[1,4],[1,8],[3,5],[4,6]], w = 1
+*输入：* points = [[2,1],[1,0],[1,4],[1,8],[3,5],[4,6]], w = 1
 
-*Output:* <span class="example-io" style="
-    font-family: Menlo,sans-serif;
-    font-size: 0.85rem;
-">2
+*输出：* 2
 
-*Explanation: *
+*解释：*
 
-The image above shows one possible placement of rectangles to cover the points:
+上图展示了一种可行的矩形放置方案：
 
+* 一个矩形的左下角在 `(1, 0)` ，右上角在 `(2, 8)` 。
+* 一个矩形的左下角在 `(3, 0)` ，右上角在 `(4, 8)` 。
 
-* A rectangle with a lower end at `(1, 0)` and its upper end at `(2, 8)`
-* A rectangle with a lower end at `(3, 0)` and its upper end at `(4, 8)`
+*示例 2：*
 
+image::images/3111-02.png[{image_attr}]
 
+*输入：* points = [[0,0],[1,1],[2,2],[3,3],[4,4],[5,5],[6,6]], w = 2
 
-*Example 2:*
+*输出：* 3
 
-<img alt="" src="https://assets.leetcode.com/uploads/2024/03/04/screenshot-from-2024-03-04-18-59-12.png" style="width: 260px; height: 250px;" />
+*解释：*
 
-<div class="example-block" style="
-    border-color: var(--border-tertiary);
-    border-left-width: 2px;
-    color: var(--text-secondary);
-    font-size: .875rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    overflow: visible;
-    padding-left: 1rem;
-">
-*Input:* <span class="example-io" style="
-    font-family: Menlo,sans-serif;
-    font-size: 0.85rem;
-">points = [[0,0],[1,1],[2,2],[3,3],[4,4],[5,5],[6,6]], w = 2
+上图展示了一种可行的矩形放置方案：
 
-*Output:* <span class="example-io" style="
-    font-family: Menlo,sans-serif;
-    font-size: 0.85rem;
-">3
+* 一个矩形的左下角在 `(0, 0)` ，右上角在 `(2, 2)` 。
+* 一个矩形的左下角在 `(3, 0)` ，右上角在 `(5, 5)` 。
+* 一个矩形的左下角在 `(6, 0)` ，右上角在 `(6, 6)` 。
 
-*Explanation: *
+*示例 3：*
 
-The image above shows one possible placement of rectangles to cover the points:
+image::images/3111-03.png[{image_attr}]
+
+*输入：* points = [[2,3],[1,2]], w = 0
+
+*输出：* 2
+
+*解释：*
+
+上图展示了一种可行的矩形放置方案：
+
+* 一个矩形的左下角在 `(1, 0)` ，右上角在 `(1, 2)` 。
+* 一个矩形的左下角在 `(2, 0)` ，右上角在 `(2, 3)` 。
 
 
-* A rectangle with a lower end at `(0, 0)` and its upper end at `(2, 2)`
-* A rectangle with a lower end at `(3, 0)` and its upper end at `(5, 5)`
-* A rectangle with a lower end at `(6, 0)` and its upper end at `(6, 6)`
+*提示：*
 
-
-
-*Example 3:*
-
-<img alt="" src="https://assets.leetcode.com/uploads/2024/03/04/screenshot-from-2024-03-04-20-24-03.png" style="height: 150px; width: 127px;" />
-
-<div class="example-block" style="
-    border-color: var(--border-tertiary);
-    border-left-width: 2px;
-    color: var(--text-secondary);
-    font-size: .875rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    overflow: visible;
-    padding-left: 1rem;
-">
-*Input:* <span class="example-io" style="
-    font-family: Menlo,sans-serif;
-    font-size: 0.85rem;
-">points = [[2,3],[1,2]], w = 0
-
-*Output:* <span class="example-io" style="
-    font-family: Menlo,sans-serif;
-    font-size: 0.85rem;
-">2
-
-*Explanation: *
-
-The image above shows one possible placement of rectangles to cover the points:
-
-
-* A rectangle with a lower end at `(1, 0)` and its upper end at `(1, 2)`
-* A rectangle with a lower end at `(2, 0)` and its upper end at `(2, 3)`
-
-
-
- 
-*Constraints:*
-
-
-* `1 <= points.length <= 10^5^`
+* `1 \<= points.length \<= 10^5^`
 * `points[i].length == 2`
-* `0 <= x<sub>i</sub> == points[i][0] <= 10^9^`
-* `0 <= y<sub>i</sub> == points[i][1] <= 10^9^`
-* `0 <= w <= 10^9^`
-* All pairs `(x<sub>i</sub>, y<sub>i</sub>)` are distinct.
-
-
+* `0 \<= x~i~ == points[i][0] \<= 10^9^`
+* `0 \<= y~i~ == points[i][1] \<= 10^9^`
+* `0 \<= w \<= 10^9^`
+* 所有点坐标 `(x~i~, y~i~)` 互不相同。
 
 
 == 思路分析
 
+由于矩形的高没有限制，所以我们只需考虑点的横坐标。
+
+矩形越宽，覆盖的点越多，所以 x~2~ 应该恰好等于 x~1~+w。
+
+从左边界开始，尽可能多占用横轴。宽度耗尽，则从下一个点开始。
+
+目前使用的办法是统计最小最大值，然后在区间内进行遍历。这样会空耗很多数字。另外一个办法是对输入按照 X 轴排序。这样就不需要空转很多数字。
 
 [[src-3111]]
 [tabs]
@@ -159,4 +105,5 @@ include::{sourcedir}/_3111_MinimumRectanglesToCoverPoints.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/minimum-rectangles-to-cover-points/solutions/2857796/fu-gai-suo-you-dian-de-zui-shao-ju-xing-xduq9/[3111. 覆盖所有点的最少矩形数目 - 官方题解^]
+. https://leetcode.cn/problems/minimum-rectangles-to-cover-points/solutions/2738903/tan-xin-jian-ji-xie-fa-pythonjavacgo-by-q377d/[3111. 覆盖所有点的最少矩形数目 - 贪心，简洁写法^]

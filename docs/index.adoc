@@ -6305,7 +6305,7 @@ include::3099-harshad-number.adoc[leveloffset=+1]
 
 // include::3110-score-of-a-string.adoc[leveloffset=+1]
 
-// include::3111-minimum-rectangles-to-cover-points.adoc[leveloffset=+1]
+include::3111-minimum-rectangles-to-cover-points.adoc[leveloffset=+1]
 
 // include::3112-minimum-time-to-visit-disappearing-nodes.adoc[leveloffset=+1]
 
