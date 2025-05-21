@@ -8348,14 +8348,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1188-design-bounded-blocking-queue.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/maximum-number-of-balloons/[1189. Maximum Number of Balloons^]
-//|{source_base_url}/_1189_MaximumNumberOfBalloons.java[Java]
-//|{doc_base_url}/1189-maximum-number-of-balloons.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/maximum-number-of-balloons/[1189. Maximum Number of Balloons^]
+|{source_base_url}/_1189_MaximumNumberOfBalloons.java[Java]
+|{doc_base_url}/1189-maximum-number-of-balloons.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/reverse-substrings-between-each-pair-of-parentheses/[1190. Reverse Substrings Between Each Pair of Parentheses^]
 //|{source_base_url}/_1190_ReverseSubstringsBetweenEachPairOfParentheses.java[Java]

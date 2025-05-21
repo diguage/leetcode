@@ -2461,7 +2461,7 @@ include::1171-remove-zero-sum-consecutive-nodes-from-linked-list.adoc[leveloffse
 
 // include::1188-design-bounded-blocking-queue.adoc[leveloffset=+1]
 
-// include::1189-maximum-number-of-balloons.adoc[leveloffset=+1]
+include::1189-maximum-number-of-balloons.adoc[leveloffset=+1]
 
 // include::1190-reverse-substrings-between-each-pair-of-parentheses.adoc[leveloffset=+1]
 
