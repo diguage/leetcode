@@ -3101,7 +3101,7 @@ include::1480-running-sum-of-1d-array.adoc[leveloffset=+1]
 
 // include::1508-range-sum-of-sorted-subarray-sums.adoc[leveloffset=+1]
 
-// include::1509-minimum-difference-between-largest-and-smallest-value-in-three-moves.adoc[leveloffset=+1]
+include::1509-minimum-difference-between-largest-and-smallest-value-in-three-moves.adoc[leveloffset=+1]
 
 // include::1510-stone-game-iv.adoc[leveloffset=+1]
 

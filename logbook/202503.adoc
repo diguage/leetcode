@@ -763,6 +763,11 @@ endif::[]
 |{doc_base_url}/3111-minimum-rectangles-to-cover-points.adoc[题解]
 |✅ 贪心。从左边界开始，尽可能多占用横轴。宽度耗尽，则从下一个点开始。
 
+|{counter:codes}
+|{leetcode_base_url}/minimum-difference-between-largest-and-smallest-value-in-three-moves/[1509. 三次操作后最大值与最小值的最小差^]
+|{doc_base_url}/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves.adoc[题解]
+|✅ 贪心。转变一下题目就是要求如何缩短最大值和最小值直接的差值。看官方题解，可以直接求 stem:[a(n - 4 + i) - a(i)] 的最小值。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

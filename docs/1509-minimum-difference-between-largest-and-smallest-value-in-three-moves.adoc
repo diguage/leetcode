@@ -1,69 +1,63 @@
 [#1509-minimum-difference-between-largest-and-smallest-value-in-three-moves]
-= 1509. Minimum Difference Between Largest and Smallest Value in Three Moves
+= 1509. 三次操作后最大值与最小值的最小差
 
-{leetcode}/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/[LeetCode - 1509. Minimum Difference Between Largest and Smallest Value in Three Moves ^]
+https://leetcode.cn/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/[LeetCode - 1509. 三次操作后最大值与最小值的最小差 ^]
 
-You are given an integer array `nums`.
+给你一个数组 `nums` 。
 
-In one move, you can choose one element of `nums` and change it to *any value*.
+每次操作你可以选择 `nums` 中的任意一个元素并将它改成 *任意值* 。
 
-Return _the minimum difference between the largest and smallest value of `nums` *after performing at most three moves*_.
+在 *执行最多三次移动后 *，返回 `nums` 中最大值与最小值的最小差值。
 
- 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes"]
-----
-*Input:* nums = [5,3,2,4]
-*Output:* 0
-*Explanation:* We can make at most 3 moves.
-In the first move, change 2 to 3. nums becomes [5,3,3,4].
-In the second move, change 4 to 3. nums becomes [5,3,3,3].
-In the third move, change 5 to 3. nums becomes [3,3,3,3].
-After performing 3 moves, the difference between the minimum and maximum is 3 - 3 = 0.
+....
+输入：nums = [5,3,2,4]
+输出：0
+解释：我们最多可以走 3 步。
+第一步，将 2 变为 3 。 nums 变成 [5,3,3,4] 。
+第二步，将 4 改为 3 。 nums 变成 [5,3,3,3] 。
+第三步，将 5 改为 3 。 nums 变成 [3,3,3,3] 。
+执行 3 次移动后，最小值和最大值之间的差值为 3 - 3 = 0 。
+....
 
-----
+*示例 2：*
 
-*Example 2:*
+....
+输入：nums = [1,5,0,10,14]
+输出：1
+解释：我们最多可以走 3 步。
+第一步，将 5 改为 0 。 nums变成 [1,0,0,10,14] 。
+第二步，将 10 改为 0 。 nums变成 [1,0,0,0,14] 。
+第三步，将 14 改为 1 。 nums变成 [1,0,0,0,1] 。
+执行 3 步后，最小值和最大值之间的差值为 1 - 0 = 1 。
+可以看出，没有办法可以在 3 步内使差值变为0。
+....
 
-[subs="verbatim,quotes"]
-----
-*Input:* nums = [1,5,0,10,14]
-*Output:* 1
-*Explanation:* We can make at most 3 moves.
-In the first move, change 5 to 0. nums becomes [1,0,0,10,14].
-In the second move, change 10 to 0. nums becomes [1,0,0,0,14].
-In the third move, change 14 to 1. nums becomes [1,0,0,0,1].
-After performing 3 moves, the difference between the minimum and maximum is 1 - 0 = 1.
-It can be shown that there is no way to make the difference 0 in 3 moves.
-----
+*示例 3：*
 
-*Example 3:*
-
-[subs="verbatim,quotes"]
-----
-*Input:* nums = [3,100,20]
-*Output:* 0
-*Explanation:* We can make at most 3 moves.
-In the first move, change 100 to 7. nums becomes [3,7,20].
-In the second move, change 20 to 7. nums becomes [3,7,7].
-In the third move, change 3 to 7. nums becomes [7,7,7].
-After performing 3 moves, the difference between the minimum and maximum is 7 - 7 = 0.
-
-----
-
- 
-*Constraints:*
+....
+输入：nums = [3,100,20]
+输出：0
+解释：我们最多可以走 3 步。
+第一步，将 100 改为 7 。 nums 变成 [3,7,20] 。
+第二步，将 20 改为 7 。 nums 变成 [3,7,7] 。
+第三步，将 3 改为 7 。 nums 变成 [7,7,7] 。
+执行 3 步后，最小值和最大值之间的差值是 7 - 7 = 0。
+....
 
 
-* `1 <= nums.length <= 10^5^`
-* `-10^9^ <= nums[i] <= 10^9^`
+*提示：*
 
-
+* `1 \<= nums.length \<= 10^5^`
+* `-10^9^ \<= nums[i] \<= 10^9^`
 
 
 == 思路分析
 
+先对数组进行排序，要求最大值与最小值的最小差值，那么就是把减少最大值和最小值直接的差值，要么把最大值变小，要么把最小值变大，或者两者都要。所以，就要看那种方式能对差值改变最大。
+
+看官方题解，可以直接求 stem:[a(n - 4 + i) - a(i)] 的最小值。
 
 [[src-1509]]
 [tabs]
@@ -90,4 +84,4 @@ include::{sourcedir}/_1509_MinimumDifferenceBetweenLargestAndSmallestValueInThre
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/solutions/336428/san-ci-cao-zuo-hou-zui-da-zhi-yu-zui-xiao-zhi-de-2/[1509. 三次操作后最大值与最小值的最小差 - 官方题解^]

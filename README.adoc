@@ -10589,12 +10589,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/minimum-difference-between-largest-and-smallest-value-in-three-moves/[1509. Minimum Difference Between Largest and Smallest Value in Three Moves^]
-//|{source_base_url}/_1509_MinimumDifferenceBetweenLargestAndSmallestValueInThreeMoves.java[Java]
-//|{doc_base_url}/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/minimum-difference-between-largest-and-smallest-value-in-three-moves/[1509. Minimum Difference Between Largest and Smallest Value in Three Moves^]
+|{source_base_url}/_1509_MinimumDifferenceBetweenLargestAndSmallestValueInThreeMoves.java[Java]
+|{doc_base_url}/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/stone-game-iv/[1510. Stone Game IV^]
