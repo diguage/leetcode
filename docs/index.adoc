@@ -4721,7 +4721,7 @@ include::1997-first-day-where-you-have-been-in-all-the-rooms.adoc[leveloffset=+1
 
 // include::2318-number-of-distinct-roll-sequences.adoc[leveloffset=+1]
 
-// include::2319-check-if-matrix-is-x-matrix.adoc[leveloffset=+1]
+include::2319-check-if-matrix-is-x-matrix.adoc[leveloffset=+1]
 
 include::2320-count-number-of-ways-to-place-houses.adoc[leveloffset=+1]
 

@@ -265,3 +265,4 @@ image::images/quick-sort-01.gif[{image_attr}]
 . https://www.zhihu.com/question/36738189/answer/908664455[LeetCode按照怎样的顺序来刷题比较好？]
 . https://www.educative.io/courses/grokking-coding-interview[Grokking the Coding Interview Patterns^]
 . https://www.educative.io/courses/grokking-the-system-design-interview[Grokking the Modern System Design Interview^] -- 据说这个系统设计的题目也非常好！
+. https://huxulm.github.io/lc-rating/zen[LeetCode 难度练习^]

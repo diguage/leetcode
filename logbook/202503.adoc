@@ -748,6 +748,11 @@ endif::[]
 |{doc_base_url}/0091-decode-ways.adoc[题解]
 |❌ 动态规划。递推公式还要仔细推敲。
 
+|{counter:codes2503}
+|{leetcode_base_url}/check-if-matrix-is-x-matrix/[2319. 判断矩阵是否是一个 X 矩阵^]
+|{doc_base_url}/2319-check-if-matrix-is-x-matrix.adoc[题解]
+|✅ 遍历对角线设置成负值，检查其他元素，发现有大于 `0` 的则不成矩阵。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
