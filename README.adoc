@@ -10953,12 +10953,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/maximum-number-of-coins-you-can-get/[1561. Maximum Number of Coins You Can Get^]
-//|{source_base_url}/_1561_MaximumNumberOfCoinsYouCanGet.java[Java]
-//|{doc_base_url}/1561-maximum-number-of-coins-you-can-get.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/maximum-number-of-coins-you-can-get/[1561. Maximum Number of Coins You Can Get^]
+|{source_base_url}/_1561_MaximumNumberOfCoinsYouCanGet.java[Java]
+|{doc_base_url}/1561-maximum-number-of-coins-you-can-get.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/find-latest-group-of-size-m/[1562. Find Latest Group of Size M^]

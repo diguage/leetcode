@@ -3205,7 +3205,7 @@ include::1530-number-of-good-leaf-nodes-pairs.adoc[leveloffset=+1]
 
 // include::1560-most-visited-sector-in-a-circular-track.adoc[leveloffset=+1]
 
-// include::1561-maximum-number-of-coins-you-can-get.adoc[leveloffset=+1]
+include::1561-maximum-number-of-coins-you-can-get.adoc[leveloffset=+1]
 
 // include::1562-find-latest-group-of-size-m.adoc[leveloffset=+1]
 

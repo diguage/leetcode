@@ -783,6 +783,11 @@ endif::[]
 |{doc_base_url}/1410-html-entity-parser.adoc[题解]
 |✅ 哈希 + 字符串
 
+|{counter:codes2503}
+|{leetcode_base_url}/maximum-number-of-coins-you-can-get/[1561. 你可以获得的最大硬币数目^]
+|{doc_base_url}/1561-maximum-number-of-coins-you-can-get.adoc[题解]
+|✅ 贪心。每次去第二大的数字即可。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
