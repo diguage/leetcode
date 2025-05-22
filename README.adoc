@@ -9896,12 +9896,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/html-entity-parser/[1410. HTML Entity Parser^]
-//|{source_base_url}/_1410_HtmlEntityParser.java[Java]
-//|{doc_base_url}/1410-html-entity-parser.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/html-entity-parser/[1410. HTML Entity Parser^]
+|{source_base_url}/_1410_HtmlEntityParser.java[Java]
+|{doc_base_url}/1410-html-entity-parser.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/number-of-ways-to-paint-n-3-grid/[1411. Number of Ways to Paint N × 3 Grid^]

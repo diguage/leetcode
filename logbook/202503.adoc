@@ -778,6 +778,11 @@ endif::[]
 |{doc_base_url}/1457-pseudo-palindromic-paths-in-a-binary-tree.adoc[题解]
 |✅ 回溯，深度优先遍历，到叶子节点判断是否可以组成回文。
 
+|{counter:codes2503}
+|{leetcode_base_url}/html-entity-parser/[1410. HTML 实体解析器^]
+|{doc_base_url}/1410-html-entity-parser.adoc[题解]
+|✅ 哈希 + 字符串
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

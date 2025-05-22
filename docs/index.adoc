@@ -2903,7 +2903,7 @@ include::1349-maximum-students-taking-exam.adoc[leveloffset=+1]
 
 // include::1409-queries-on-a-permutation-with-key.adoc[leveloffset=+1]
 
-// include::1410-html-entity-parser.adoc[leveloffset=+1]
+include::1410-html-entity-parser.adoc[leveloffset=+1]
 
 // include::1411-number-of-ways-to-paint-n-3-grid.adoc[leveloffset=+1]
 
