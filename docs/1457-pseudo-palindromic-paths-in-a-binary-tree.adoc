@@ -1,55 +1,51 @@
 [#1457-pseudo-palindromic-paths-in-a-binary-tree]
-= 1457. Pseudo-Palindromic Paths in a Binary Tree
+= 1457. 二叉树中的伪回文路径
 
-{leetcode}/problems/pseudo-palindromic-paths-in-a-binary-tree/[LeetCode - 1457. Pseudo-Palindromic Paths in a Binary Tree ^]
+https://leetcode.cn/problems/pseudo-palindromic-paths-in-a-binary-tree/[LeetCode - 1457. 二叉树中的伪回文路径 ^]
 
-Given a binary tree where node values are digits from 1 to 9. A path in the binary tree is said to be *pseudo-palindromic* if at least one permutation of the node values in the path is a palindrome.
+给你一棵二叉树，每个节点的值为 1 到 9 。我们称二叉树中的一条路径是「*伪回文*」的，当它满足：路径经过的所有节点值的排列中，存在一个回文序列。
 
-_Return the number of *pseudo-palindromic* paths going from the root node to leaf nodes._
+请你返回从根到叶子节点的所有路径中 **伪回文 **路径的数目。
 
- 
-*Example 1:*
+*示例 1：*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2020/05/06/palindromic_paths_1.png" style="width: 300px; height: 201px;" />
+image::images/1457-01.png[{image_attr}]
 
-[subs="verbatim,quotes"]
-----
-*Input:* root = [2,3,1,3,1,null,1]
-*Output:* 2 
-*Explanation:* The figure above represents the given binary tree. There are three paths going from the root node to leaf nodes: the red path [2,3,3], the green path [2,1,1], and the path [2,3,1]. Among these paths only red path and green path are pseudo-palindromic paths since the red path [2,3,3] can be rearranged in [3,2,3] (palindrome) and the green path [2,1,1] can be rearranged in [1,2,1] (palindrome).
-----
+....
+输入：root = [2,3,1,3,1,null,1]
+输出：2
+解释：上图为给定的二叉树。总共有 3 条从根到叶子的路径：红色路径 [2,3,3] ，绿色路径 [2,1,1] 和路径 [2,3,1] 。
+     在这些路径中，只有红色和绿色的路径是伪回文路径，因为红色路径 [2,3,3] 存在回文排列 [3,2,3] ，绿色路径 [2,1,1] 存在回文排列 [1,2,1] 。
+....
 
-*Example 2:*
+*示例 2：*
 
-*<img alt="" src="https://assets.leetcode.com/uploads/2020/05/07/palindromic_paths_2.png" style="width: 300px; height: 314px;" />*
+image::images/1457-02.png[{image_attr}]
 
-[subs="verbatim,quotes"]
-----
-*Input:* root = [2,1,1,1,3,null,null,null,null,null,1]
-*Output:* 1 
-*Explanation:* The figure above represents the given binary tree. There are three paths going from the root node to leaf nodes: the green path [2,1,1], the path [2,1,3,1], and the path [2,1]. Among these paths only the green path is pseudo-palindromic since [2,1,1] can be rearranged in [1,2,1] (palindrome).
-----
+....
+输入：root = [2,1,1,1,3,null,null,null,null,null,1]
+输出：1
+解释：上图为给定二叉树。总共有 3 条从根到叶子的路径：绿色路径 [2,1,1] ，路径 [2,1,3,1] 和路径 [2,1] 。
+     这些路径中只有绿色路径是伪回文路径，因为 [2,1,1] 存在回文排列 [1,2,1] 。
+....
 
-*Example 3:*
+*示例 3：*
 
-[subs="verbatim,quotes"]
-----
-*Input:* root = [9]
-*Output:* 1
-----
-
- 
-*Constraints:*
+....
+输入：root = [9]
+输出：1
+....
 
 
-* The number of nodes in the tree is in the range `[1, 10^5^]`.
-* `1 <= Node.val <= 9`
+*提示：*
 
-
+* 给定二叉树的节点数目在范围 `[1, 10^5^]` 内
+* `+1 <= Node.val <= 9+`
 
 
 == 思路分析
 
+回溯模式，深度优先遍历，到叶子节点时，判断所有数字是否可以组成回文。组成回文的条件是奇数数字的个数不能超过 1。
 
 [[src-1457]]
 [tabs]
@@ -76,4 +72,5 @@ include::{sourcedir}/_1457_PseudoPalindromicPathsInABinaryTree.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/pseudo-palindromic-paths-in-a-binary-tree/solutions/2537866/er-cha-shu-zhong-de-wei-hui-wen-lu-jing-3ii6l/[1457. 二叉树中的伪回文路径 - 官方题解^]
+. https://leetcode.cn/problems/pseudo-palindromic-paths-in-a-binary-tree/solutions/2540903/yi-bu-bu-you-hua-cong-shu-zu-dao-wei-yun-hu0b/[1457. 二叉树中的伪回文路径 - 一步步优化：从数组到位运算^]

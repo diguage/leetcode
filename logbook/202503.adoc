@@ -753,25 +753,30 @@ endif::[]
 |{doc_base_url}/2319-check-if-matrix-is-x-matrix.adoc[题解]
 |✅ 遍历对角线设置成负值，检查其他元素，发现有大于 `0` 的则不成矩阵。
 
-|{counter:codes}
+|{counter:codes2503}
 |{leetcode_base_url}/maximum-number-of-balloons/[1189. “气球” 的最大数量^]
 |{doc_base_url}/1189-maximum-number-of-balloons.adoc[题解]
 |✅ 哈希
 
-|{counter:codes}
+|{counter:codes2503}
 |{leetcode_base_url}/minimum-rectangles-to-cover-points/[3111. 覆盖所有点的最少矩形数目^]
 |{doc_base_url}/3111-minimum-rectangles-to-cover-points.adoc[题解]
 |✅ 贪心。从左边界开始，尽可能多占用横轴。宽度耗尽，则从下一个点开始。
 
-|{counter:codes}
+|{counter:codes2503}
 |{leetcode_base_url}/minimum-difference-between-largest-and-smallest-value-in-three-moves/[1509. 三次操作后最大值与最小值的最小差^]
 |{doc_base_url}/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves.adoc[题解]
 |✅ 贪心。转变一下题目就是要求如何缩短最大值和最小值直接的差值。看官方题解，可以直接求 stem:[a(n - 4 + i) - a(i)] 的最小值。
 
-|{counter:codes}
-|{leetcode_base_url}/number-of-students-unable-to-eat-lunch/[1700. Number of Students Unable to Eat Lunch^]
+|{counter:codes2503}
+|{leetcode_base_url}/number-of-students-unable-to-eat-lunch/[1700. 无法吃午餐的学生数量^]
 |{doc_base_url}/1700-number-of-students-unable-to-eat-lunch.adoc[题解]
 |✅
+
+|{counter:codes2503}
+|{leetcode_base_url}/pseudo-palindromic-paths-in-a-binary-tree/[1457. 二叉树中的伪回文路径^]
+|{doc_base_url}/1457-pseudo-palindromic-paths-in-a-binary-tree.adoc[题解]
+|✅ 回溯，深度优先遍历，到叶子节点判断是否可以组成回文。
 
 |===
 

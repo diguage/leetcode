@@ -2997,7 +2997,7 @@ include::1349-maximum-students-taking-exam.adoc[leveloffset=+1]
 
 // include::1456-maximum-number-of-vowels-in-a-substring-of-given-length.adoc[leveloffset=+1]
 
-// include::1457-pseudo-palindromic-paths-in-a-binary-tree.adoc[leveloffset=+1]
+include::1457-pseudo-palindromic-paths-in-a-binary-tree.adoc[leveloffset=+1]
 
 // include::1458-max-dot-product-of-two-subsequences.adoc[leveloffset=+1]
 

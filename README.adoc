@@ -10225,12 +10225,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/pseudo-palindromic-paths-in-a-binary-tree/[1457. Pseudo-Palindromic Paths in a Binary Tree^]
-//|{source_base_url}/_1457_PseudoPalindromicPathsInABinaryTree.java[Java]
-//|{doc_base_url}/1457-pseudo-palindromic-paths-in-a-binary-tree.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/pseudo-palindromic-paths-in-a-binary-tree/[1457. Pseudo-Palindromic Paths in a Binary Tree^]
+|{source_base_url}/_1457_PseudoPalindromicPathsInABinaryTree.java[Java]
+|{doc_base_url}/1457-pseudo-palindromic-paths-in-a-binary-tree.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/max-dot-product-of-two-subsequences/[1458. Max Dot Product of Two Subsequences^]
