@@ -3483,7 +3483,7 @@ include::1650-lowest-common-ancestor-of-a-binary-tree-iii.adoc[leveloffset=+1]
 
 // include::1699-number-of-calls-between-two-persons.adoc[leveloffset=+1]
 
-// include::1700-number-of-students-unable-to-eat-lunch.adoc[leveloffset=+1]
+include::1700-number-of-students-unable-to-eat-lunch.adoc[leveloffset=+1]
 
 // include::1701-average-waiting-time.adoc[leveloffset=+1]
 
