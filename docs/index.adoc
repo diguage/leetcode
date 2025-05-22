@@ -2733,7 +2733,7 @@ include::1289-minimum-falling-path-sum-ii.adoc[leveloffset=+1]
 
 // include::1324-print-words-vertically.adoc[leveloffset=+1]
 
-// include::1325-delete-leaves-with-a-given-value.adoc[leveloffset=+1]
+include::1325-delete-leaves-with-a-given-value.adoc[leveloffset=+1]
 
 // include::1326-minimum-number-of-taps-to-open-to-water-a-garden.adoc[leveloffset=+1]
 

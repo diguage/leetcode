@@ -9300,14 +9300,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1324-print-words-vertically.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/delete-leaves-with-a-given-value/[1325. Delete Leaves With a Given Value^]
-//|{source_base_url}/_1325_DeleteLeavesWithAGivenValue.java[Java]
-//|{doc_base_url}/1325-delete-leaves-with-a-given-value.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/delete-leaves-with-a-given-value/[1325. Delete Leaves With a Given Value^]
+|{source_base_url}/_1325_DeleteLeavesWithAGivenValue.java[Java]
+|{doc_base_url}/1325-delete-leaves-with-a-given-value.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/minimum-number-of-taps-to-open-to-water-a-garden/[1326. Minimum Number of Taps to Open to Water a Garden^]
 //|{source_base_url}/_1326_MinimumNumberOfTapsToOpenToWaterAGarden.java[Java]

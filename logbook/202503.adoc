@@ -788,6 +788,13 @@ endif::[]
 |{doc_base_url}/1561-maximum-number-of-coins-you-can-get.adoc[题解]
 |✅ 贪心。每次去第二大的数字即可。
 
+
+|{counter:codes2503}
+|{leetcode_base_url}/delete-leaves-with-a-given-value/[1325. 删除给定值的叶子节点^]
+|{doc_base_url}/1325-delete-leaves-with-a-given-value.adoc[题解]
+|✅ 深度优先遍历，在“后序”中做业务处理。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
