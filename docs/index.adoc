@@ -2517,7 +2517,7 @@ include::1189-maximum-number-of-balloons.adoc[leveloffset=+1]
 
 // include::1216-valid-palindrome-iii.adoc[leveloffset=+1]
 
-// include::1217-minimum-cost-to-move-chips-to-the-same-position.adoc[leveloffset=+1]
+include::1217-minimum-cost-to-move-chips-to-the-same-position.adoc[leveloffset=+1]
 
 // include::1218-longest-arithmetic-subsequence-of-given-difference.adoc[leveloffset=+1]
 

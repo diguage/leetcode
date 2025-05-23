@@ -8545,12 +8545,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Hard
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/minimum-cost-to-move-chips-to-the-same-position/[1217. 玩筹码]
-//|{source_base_url}/_1217_MinimumCostToMoveChipsToTheSamePosition.java[Java]
-//|{doc_base_url}/1217-minimum-cost-to-move-chips-to-the-same-position.adoc[题解]
-//|Easy
-//|
+|{counter:codes}
+|{leetcode_base_url}/minimum-cost-to-move-chips-to-the-same-position/[1217. 玩筹码]
+|{source_base_url}/_1217_MinimumCostToMoveChipsToTheSamePosition.java[Java]
+|{doc_base_url}/1217-minimum-cost-to-move-chips-to-the-same-position.adoc[题解]
+|Easy
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/longest-arithmetic-subsequence-of-given-difference/[1218. Longest Arithmetic Subsequence of Given Difference^]

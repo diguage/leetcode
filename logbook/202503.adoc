@@ -788,12 +788,15 @@ endif::[]
 |{doc_base_url}/1561-maximum-number-of-coins-you-can-get.adoc[题解]
 |✅ 贪心。每次去第二大的数字即可。
 
-
 |{counter:codes2503}
 |{leetcode_base_url}/delete-leaves-with-a-given-value/[1325. 删除给定值的叶子节点^]
 |{doc_base_url}/1325-delete-leaves-with-a-given-value.adoc[题解]
 |✅ 深度优先遍历，在“后序”中做业务处理。
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-cost-to-move-chips-to-the-same-position/[1217. 玩筹码]
+|{doc_base_url}/1217-minimum-cost-to-move-chips-to-the-same-position.adoc[题解]
+|❌ 题目理解错误！`position[i]` 中的数字是筹码的位置。题目意思是奇数到奇数和偶数到偶数免费，但是紧挨的两个数字移动收费，所以，统计奇偶数的个数，看哪个小就移动哪个。
 
 |===
 

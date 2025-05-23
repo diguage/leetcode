@@ -12,9 +12,10 @@ https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position/[Le
 
 返回将所有筹码移动到同一位置上所需要的 _最小代价_ 。
 
+
 *示例 1：*
 
-image:https://assets.leetcode.com/uploads/2020/08/15/chips_e1.jpg[https://assets.leetcode.com/uploads/2020/08/15/chips_e1]
+image::images/1217-01.jpg[{image_attr}]
 
 ....
 输入：position = [1,2,3]
@@ -26,7 +27,7 @@ image:https://assets.leetcode.com/uploads/2020/08/15/chips_e1.jpg[https://assets
 
 *示例 2：*
 
-image:https://assets.leetcode.com/uploads/2020/08/15/chip_e2.jpg[https://assets.leetcode.com/uploads/2020/08/15/chip_e2]
+image::images/1217-02.jpg[{image_attr}]
 
 ....
 输入：position = [2,2,2,3,3]
@@ -41,6 +42,7 @@ image:https://assets.leetcode.com/uploads/2020/08/15/chip_e2.jpg[https://assets.
 输出：1
 ....
 
+
 *提示：*
 
 * `+1 <= position.length <= 100+`
@@ -49,6 +51,7 @@ image:https://assets.leetcode.com/uploads/2020/08/15/chip_e2.jpg[https://assets.
 
 == 思路分析
 
+注意：`position[i]` 中的数字是筹码的位置，而不是下标。所以，不能从下标的位置来计算。由于位置移动 `+2` 或 `-2` 不收费，相当于从奇数到奇数和从偶数到偶数时不收费。那么就统计一下奇数和偶数的数量，紧挨的移动需要付费，那么就看奇数和偶数哪个数字小，就移动哪个。
 
 [[src-1217]]
 [tabs]
@@ -75,4 +78,6 @@ include::{sourcedir}/_1217_MinimumCostToMoveChipsToTheSamePosition.java[tag=answ
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position/solutions/1651725/wan-chou-ma-by-leetcode-solution-swnp/[1217. 玩筹码 - 官方题解^]
+. https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position/solutions/277716/xian-li-jie-ti-yi-zai-li-jie-dai-ma-si-lu-by-athen/[1217. 玩筹码 - 先理解题意，再理解代码思路^]
+. https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position/solutions/478371/yong-tan-xin-si-xiang-lai-zhao-gui-lu-chao-xiang-x/[1217. 玩筹码 - 用贪心思想来找规律（超详细，含证明）^]
