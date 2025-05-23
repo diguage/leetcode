@@ -7067,14 +7067,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1005-maximize-sum-of-array-after-k-negations.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/clumsy-factorial/[1006. Clumsy Factorial^]
-//|{source_base_url}/_1006_ClumsyFactorial.java[Java]
-//|{doc_base_url}/1006-clumsy-factorial.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/clumsy-factorial/[1006. Clumsy Factorial^]
+|{source_base_url}/_1006_ClumsyFactorial.java[Java]
+|{doc_base_url}/1006-clumsy-factorial.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/minimum-domino-rotations-for-equal-row/[1007. Minimum Domino Rotations For Equal Row^]
 //|{source_base_url}/_1007_MinimumDominoRotationsForEqualRow.java[Java]
