@@ -803,6 +803,12 @@ endif::[]
 |{doc_base_url}/1006-clumsy-factorial.adoc[题解]
 |✅ 栈。代码写出来了，但是好烂！
 
+|{counter:codes2503}
+|{leetcode_base_url}/keys-and-rooms/[841. 钥匙和房间^]
+|{doc_base_url}/0841-keys-and-rooms.adoc[题解]
+|✅ 深度优先遍历或广度优先遍历。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
