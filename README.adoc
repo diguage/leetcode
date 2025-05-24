@@ -6255,14 +6255,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0889-construct-binary-tree-from-preorder-and-postorder-traversal.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/find-and-replace-pattern/[890. Find and Replace Pattern^]
-//|{source_base_url}/_0890_FindAndReplacePattern.java[Java]
-//|{doc_base_url}/0890-find-and-replace-pattern.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/find-and-replace-pattern/[890. Find and Replace Pattern^]
+|{source_base_url}/_0890_FindAndReplacePattern.java[Java]
+|{doc_base_url}/0890-find-and-replace-pattern.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/sum-of-subsequence-widths/[891. Sum of Subsequence Widths^]
 //|{source_base_url}/_0891_SumOfSubsequenceWidths.java[Java]

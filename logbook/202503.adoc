@@ -808,6 +808,12 @@ endif::[]
 |{doc_base_url}/0841-keys-and-rooms.adoc[题解]
 |✅ 深度优先遍历或广度优先遍历。
 
+|{counter:codes2503}
+|{leetcode_base_url}/find-and-replace-pattern/[890. 查找和替换模式^]
+|{doc_base_url}/0890-find-and-replace-pattern.adoc[题解]
+|✅ 映射。建立一个字母映射，并且每个字母只能有一种映射关系。否则就不匹配。
+
+
 
 |===
 

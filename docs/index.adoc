@@ -1863,7 +1863,7 @@ include::0881-boats-to-save-people.adoc[leveloffset=+1]
 
 // include::0889-construct-binary-tree-from-preorder-and-postorder-traversal.adoc[leveloffset=+1]
 
-// include::0890-find-and-replace-pattern.adoc[leveloffset=+1]
+include::0890-find-and-replace-pattern.adoc[leveloffset=+1]
 
 // include::0891-sum-of-subsequence-widths.adoc[leveloffset=+1]
 

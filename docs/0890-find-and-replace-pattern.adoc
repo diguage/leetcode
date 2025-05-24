@@ -1,47 +1,66 @@
 [#0890-find-and-replace-pattern]
-= 890. Find and Replace Pattern
+= 890. 查找和替换模式
 
-{leetcode}/problems/find-and-replace-pattern/[LeetCode - Find and Replace Pattern^]
+https://leetcode.cn/problems/find-and-replace-pattern/[LeetCode - 890. 查找和替换模式 ^]
 
-You have a list of `words` and a `pattern`, and you want to know which words in `words` matches the pattern.
+你有一个单词列表 `words` 和一个模式  `pattern`，你想知道 `words` 中的哪些单词与模式匹配。
 
-A word matches the pattern if there exists a permutation of letters `p` so that after replacing every letter `x` in the pattern with `p(x)`, we get the desired word.
+如果存在字母的排列 `p` ，使得将模式中的每个字母 `x` 替换为 `p(x)` 之后，我们就得到了所需的单词，那么单词与模式是匹配的。
 
-(_Recall that a permutation of letters is a bijection from letters to letters: every letter maps to another letter, and no two letters map to the same letter._)
+_（回想一下，字母的排列是从字母到字母的双射：每个字母映射到另一个字母，没有两个字母映射到同一个字母。）_
 
-Return a list of the words in `words` that match the given pattern. 
+返回 `words` 中与给定模式匹配的单词列表。
 
-You may return the answer in any order.
+你可以按任何顺序返回答案。
 
- 
+*示例：*
 
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* words = ["abc","deq","mee","aqq","dkd","ccc"], pattern = "abb"
-*Output:* ["mee","aqq"]
-*Explanation:* "mee" matches the pattern because there is a permutation {a -> m, b -> e, ...}.
-"ccc" does not match the pattern because {a -> c, b -> c, ...} is not a permutation,
-since a and b map to the same letter.
-----
-
- 
-
-*Note:*
+....
+输入：words = ["abc","deq","mee","aqq","dkd","ccc"], pattern = "abb"
+输出：["mee","aqq"]
+解释：
+"mee" 与模式匹配，因为存在排列 {a -> m, b -> e, ...}。
+"ccc" 与模式不匹配，因为 {a -> c, b -> c, ...} 不是排列。
+因为 a 和 b 映射到同一个字母。
+....
 
 
-* `1 <= words.length <= 50`
-* `1 <= pattern.length = words[i].length <= 20`
+*提示：*
+
+* `+1 <= words.length <= 50+`
+* `+1 <= pattern.length = words[i].length <= 20+`
 
 
+== 思路分析
 
+建立一个字母映射，并且每个字母只能有一种映射关系。否则就不匹配。
 
+看官方题解，可以建立双向映射： `src → tgt` 和 `tgt → src`，如果都可以，则匹配。这样的方式更简单。
 
 [[src-0890]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0890_FindAndReplacePattern.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0890_FindAndReplacePattern_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/find-and-replace-pattern/solutions/1593882/cha-zhao-he-ti-huan-mo-shi-by-leetcode-s-fyyg/[890. 查找和替换模式 - 查找和替换模式^]
+. https://leetcode.cn/problems/find-and-replace-pattern/solutions/1595777/by-ac_oier-s4cw/[890. 查找和替换模式 - 简单哈希表模拟题^]
