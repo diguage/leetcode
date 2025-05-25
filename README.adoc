@@ -7179,14 +7179,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1021-remove-outermost-parentheses.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/sum-of-root-to-leaf-binary-numbers/[1022. Sum of Root To Leaf Binary Numbers^]
-//|{source_base_url}/_1022_SumOfRootToLeafBinaryNumbers.java[Java]
-//|{doc_base_url}/1022-sum-of-root-to-leaf-binary-numbers.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/sum-of-root-to-leaf-binary-numbers/[1022. Sum of Root To Leaf Binary Numbers^]
+|{source_base_url}/_1022_SumOfRootToLeafBinaryNumbers.java[Java]
+|{doc_base_url}/1022-sum-of-root-to-leaf-binary-numbers.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/camelcase-matching/[1023. Camelcase Matching^]
 //|{source_base_url}/_1023_CamelcaseMatching.java[Java]

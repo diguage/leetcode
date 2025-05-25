@@ -2127,7 +2127,7 @@ include::1020-number-of-enclaves.adoc[leveloffset=+1]
 
 // include::1021-remove-outermost-parentheses.adoc[leveloffset=+1]
 
-// include::1022-sum-of-root-to-leaf-binary-numbers.adoc[leveloffset=+1]
+include::1022-sum-of-root-to-leaf-binary-numbers.adoc[leveloffset=+1]
 
 // include::1023-camelcase-matching.adoc[leveloffset=+1]
 

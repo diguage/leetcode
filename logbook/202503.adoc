@@ -828,6 +828,10 @@ endif::[]
 |{doc_base_url}/1020-number-of-enclaves.adoc[题解]
 |✅ 深度优先遍历。有机会尝试一下广度优先遍历。
 
+|{counter:codes2503}
+|{leetcode_base_url}/sum-of-root-to-leaf-binary-numbers/[1022. 从根到叶的二进制数之和^]
+|{doc_base_url}/1022-sum-of-root-to-leaf-binary-numbers.adoc[题解]
+|✅ 深度优先遍历。
 
 |===
 
