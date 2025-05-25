@@ -2149,7 +2149,7 @@ include::1011-capacity-to-ship-packages-within-d-days.adoc[leveloffset=+1]
 
 // include::1032-stream-of-characters.adoc[leveloffset=+1]
 
-// include::1033-moving-stones-until-consecutive.adoc[leveloffset=+1]
+include::1033-moving-stones-until-consecutive.adoc[leveloffset=+1]
 
 // include::1034-coloring-a-border.adoc[leveloffset=+1]
 

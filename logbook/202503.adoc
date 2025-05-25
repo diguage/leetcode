@@ -818,6 +818,12 @@ endif::[]
 |{doc_base_url}/1052-grumpy-bookstore-owner.adoc[题解]
 |✅ 先计算没有生气而满意的总数，再计算因为老板憋气而满意的增量用户。
 
+|{counter:codes2503}
+|{leetcode_base_url}/moving-stones-until-consecutive/[1033. 移动石子直到连续^]
+|{doc_base_url}/1033-moving-stones-until-consecutive.adoc[题解]
+|✅ 分类讨论
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

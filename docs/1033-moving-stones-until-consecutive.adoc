@@ -1,73 +1,74 @@
 [#1033-moving-stones-until-consecutive]
-= 1033. Moving Stones Until Consecutive
+= 1033. 移动石子直到连续
 
-{leetcode}/problems/moving-stones-until-consecutive/[LeetCode - Moving Stones Until Consecutive^]
+https://leetcode.cn/problems/moving-stones-until-consecutive/[LeetCode - 1033. 移动石子直到连续 ^]
 
-Three stones are on a number line at positions `a`, `b`, and `c`.
+三枚石子放置在数轴上，位置分别为 `a`，`b`，`c`。
 
-Each turn, you pick up a stone at an endpoint (ie., either the lowest or highest position stone), and move it to an unoccupied position between those endpoints.  Formally, let's say the stones are currently at positions `x, y, z` with `x < y < z`.  You pick up the stone at either position `x` or position `z`, and move that stone to an integer position `k`, with `x < k < z` and `k != y`.
+每一回合，你可以从两端之一拿起一枚石子（位置最大或最小），并将其放入两端之间的任一空闲位置。形式上，假设这三枚石子当前分别位于位置 `x, y, z` 且 `x < y < z`。那么就可以从位置 `x` 或者是位置 `z` 拿起一枚石子，并将该石子移动到某一整数位置 `k` 处，其中 `x < k < z` 且 `k != y`。
 
-The game ends when you cannot make any more moves, ie. the stones are in consecutive positions.
+当你无法进行任何移动时，即，这些石子的位置连续时，游戏结束。
 
-When the game ends, what is the minimum and maximum number of moves that you could have made?  Return the answer as an length 2 array: `answer = [minimum_moves, maximum_moves]`
+要使游戏结束，你可以执行的最小和最大移动次数分别是多少？ 以长度为 2 的数组形式返回答案：`answer = [minimum_moves, maximum_moves]`
 
- 
+*示例 1：*
 
-*Example 1:*
+....
+输入：a = 1, b = 2, c = 5
+输出：[1, 2]
+解释：将石子从 5 移动到 4 再移动到 3，或者我们可以直接将石子移动到 3。
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* a = 1, b = 2, c = 5
-*Output:* [1,2]
-*Explanation:* Move the stone from 5 to 3, or move the stone from 5 to 4 to 3.
-----
+*示例 2：*
 
+....
+输入：a = 4, b = 3, c = 2
+输出：[0, 0]
+解释：我们无法进行任何移动。
+....
 
-*Example 2:*
+*提示：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* a = 4, b = 3, c = 2
-*Output:* [0,0]
-*Explanation:* We cannot make any moves.
-----
-
-
-*Example 3:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* a = 3, b = 5, c = 1
-*Output:* [1,2]
-*Explanation:* Move the stone from 1 to 4; or move the stone from 1 to 2 to 4.
-----
-
- 
-
-
-
-*Note:*
-
-
-. `1 <= a <= 100`
-. `1 <= b <= 100`
-. `1 <= c <= 100`
+. `+1 <= a <= 100+`
+. `+1 <= b <= 100+`
+. `+1 <= c <= 100+`
 . `a != b, b != c, c != a`
 
 
+== 思路分析
 
- 
+最少移动步数分几种情况考虑：
 
+. 当三个数字都连续是，需要移动的次数为 0
+. 当其中两个数字紧邻或者相隔 1 个空位时，那么只需要移动一步
+. 其余情况，只需要移动两步
 
- 
-
-
-
-
+最多移动步数，就看最小值和最大值直接的差值。
 
 [[src-1033]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1033_MovingStonesUntilConsecutive.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1033_MovingStonesUntilConsecutive_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/moving-stones-until-consecutive/solutions/2249064/yi-dong-shi-zi-zhi-dao-lian-xu-by-leetco-y5kb/[1033. 移动石子直到连续 - 官方题解^]
+. https://leetcode.cn/problems/moving-stones-until-consecutive/solutions/2250643/fen-lei-tao-lun-pythonjavacgo-by-endless-2qyo/[1033. 移动石子直到连续 - 分类讨论^]

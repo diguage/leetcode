@@ -7256,14 +7256,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1032-stream-of-characters.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/moving-stones-until-consecutive/[1033. Moving Stones Until Consecutive^]
-//|{source_base_url}/_1033_MovingStonesUntilConsecutive.java[Java]
-//|{doc_base_url}/1033-moving-stones-until-consecutive.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/moving-stones-until-consecutive/[1033. Moving Stones Until Consecutive^]
+|{source_base_url}/_1033_MovingStonesUntilConsecutive.java[Java]
+|{doc_base_url}/1033-moving-stones-until-consecutive.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/coloring-a-border/[1034. Coloring A Border^]
 //|{source_base_url}/_1034_ColoringABorder.java[Java]
