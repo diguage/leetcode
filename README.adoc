@@ -7165,14 +7165,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1019-next-greater-node-in-linked-list.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/number-of-enclaves/[1020. Number of Enclaves^]
-//|{source_base_url}/_1020_NumberOfEnclaves.java[Java]
-//|{doc_base_url}/1020-number-of-enclaves.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/number-of-enclaves/[1020. Number of Enclaves^]
+|{source_base_url}/_1020_NumberOfEnclaves.java[Java]
+|{doc_base_url}/1020-number-of-enclaves.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/remove-outermost-parentheses/[1021. Remove Outermost Parentheses^]
 //|{source_base_url}/_1021_RemoveOutermostParentheses.java[Java]

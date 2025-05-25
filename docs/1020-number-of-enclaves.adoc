@@ -1,53 +1,70 @@
 [#1020-number-of-enclaves]
-= 1020. Number of Enclaves
+= 1020. 飞地的数量
 
-{leetcode}/problems/number-of-enclaves/[LeetCode - Number of Enclaves^]
+https://leetcode.cn/problems/number-of-enclaves/[LeetCode - 1020. 飞地的数量 ^]
 
-Given a 2D array `A`, each cell is 0 (representing sea) or 1 (representing land)
+给你一个大小为 `m x n` 的二进制矩阵 `grid` ，其中 `0` 表示一个海洋单元格、`1` 表示一个陆地单元格。
 
-A move consists of walking from one land square 4-directionally to another land square, or off the boundary of the grid.
+一次 *移动* 是指从一个陆地单元格走到另一个相邻（*上、下、左、右*）的陆地单元格或跨过 `grid` 的边界。
 
-Return the number of land squares in the grid for which we *cannot* walk off the boundary of the grid in any number of moves.
+返回网格中 *无法* 在任意次数的移动中离开网格边界的陆地单元格的数量。
 
-
-*Example 1:*
+*示例 1：*
 
 image::images/1020-01.jpg[{image_attr}]
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[0,0,0,0],[1,0,1,0],[0,1,1,0],[0,0,0,0]]
-*Output:* 3
-*Explanation:*
-There are three 1s that are enclosed by 0s, and one 1 that isn't enclosed because its on the boundary.
-----
+....
+输入：grid = [[0,0,0,0],[1,0,1,0],[0,1,1,0],[0,0,0,0]]
+输出：3
+解释：有三个 1 被 0 包围。一个 1 没有被包围，因为它在边界上。
+....
 
-*Example 2:*
+*示例 2：*
 
 image::images/1020-02.jpg[{image_attr}]
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[0,1,1,0],[0,0,1,0],[0,0,1,0],[0,0,0,0]]
-*Output:* 0
-*Explanation:*
-All 1s are either on the boundary or can reach the boundary.
+....
+输入：grid = [[0,1,1,0],[0,0,1,0],[0,0,1,0],[0,0,0,0]]
+输出：0
+解释：所有 1 都在边界上或可以到达边界。
+....
 
-----
+*提示：*
 
+* `m == grid.length`
+* `n == grid[i].length`
+* `+1 <= m, n <= 500+`
+* `grid[i][j]` 的值为 `0` 或 `1`
 
-*Note:*
-
-. `1 <= A.length <= 500`
-. `1 <= A[i].length <= 500`
-. `0 <= A[i][j] <= 1`
-. All rows have the same size.
 
 == 思路分析
 
+从四条边出发，深度优先遍历，把能出逃的单元格都标记成负数，然后再遍历单元格，统计陆地数量即可。
+
 [[src-1020]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1020_NumberOfEnclaves.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1020_NumberOfEnclaves_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/number-of-enclaves/solutions/1252794/fei-di-de-shu-liang-by-leetcode-solution-nzs3/[1020. 飞地的数量 - 官方题解^]
+. https://leetcode.cn/problems/number-of-enclaves/solutions/1259864/gong-shui-san-xie-bing-cha-ji-dfs-yun-yo-oyh1/[1020. 飞地的数量 - 一题双解 :「并查集 + DFS」&「多源 BFS」^]
