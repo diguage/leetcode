@@ -2187,7 +2187,7 @@ include::1049-last-stone-weight-ii.adoc[leveloffset=+1]
 
 // include::1051-height-checker.adoc[leveloffset=+1]
 
-// include::1052-grumpy-bookstore-owner.adoc[leveloffset=+1]
+include::1052-grumpy-bookstore-owner.adoc[leveloffset=+1]
 
 // include::1053-previous-permutation-with-one-swap.adoc[leveloffset=+1]
 

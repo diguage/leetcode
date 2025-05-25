@@ -1,42 +1,73 @@
 [#1052-grumpy-bookstore-owner]
-= 1052. Grumpy Bookstore Owner
+= 1052. 爱生气的书店老板
 
-{leetcode}/problems/grumpy-bookstore-owner/[LeetCode - Grumpy Bookstore Owner^]
+https://leetcode.cn/problems/grumpy-bookstore-owner/[LeetCode - 1052. 爱生气的书店老板 ^]
 
-Today, the bookstore owner has a store open for `customers.length` minutes.  Every minute, some number of customers (`customers[i]`) enter the store, and all those customers leave after the end of that minute.
+有一个书店老板，他的书店开了 `n` 分钟。每分钟都有一些顾客进入这家商店。给定一个长度为 `n` 的整数数组 `customers` ，其中 `customers[i]` 是在第 `i` 分钟开始时进入商店的顾客数量，所有这些顾客在第 `i` 分钟结束后离开。
 
-On some minutes, the bookstore owner is grumpy.  If the bookstore owner is grumpy on the i-th minute, `grumpy[i] = 1`, otherwise `grumpy[i] = 0`.  When the bookstore owner is grumpy, the customers of that minute are not satisfied, otherwise they are satisfied.
+在某些分钟内，书店老板会生气。 如果书店老板在第 `i` 分钟生气，那么 `grumpy[i] = 1`，否则 `grumpy[i] = 0`。
 
-The bookstore owner knows a secret technique to keep themselves not grumpy for `X` minutes straight, but can only use it once.
+当书店老板生气时，那一分钟的顾客就会不满意，若老板不生气则顾客是满意的。
 
-Return the maximum number of customers that can be satisfied throughout the day.
+书店老板知道一个秘密技巧，能抑制自己的情绪，可以让自己连续 `minutes` 分钟不生气，但却只能使用一次。
 
- 
+请你返回 _这一天营业下来，最多有多少客户能够感到满意_ 。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* customers = [1,0,1,2,1,1,7,5], grumpy = [0,1,0,1,0,1,0,1], X = 3
-*Output:* 16
-*Explanation:* The bookstore owner keeps themselves not grumpy for the last 3 minutes. 
-The maximum number of customers that can be satisfied = 1 + 1 + 1 + 1 + 7 + 5 = 16.
-----
+....
+输入：customers = [1,0,1,2,1,1,7,5], grumpy = [0,1,0,1,0,1,0,1], minutes = 3
+输出：16
+解释：书店老板在最后 3 分钟保持冷静。
+感到满意的最大客户数量 = 1 + 1 + 1 + 1 + 7 + 5 = 16.
+....
 
- 
+*示例 2：*
 
-*Note:*
-
-
-* `1 <= X <= customers.length == grumpy.length <= 20000`
-* `0 <= customers[i] <= 1000`
-* `0 <= grumpy[i] <= 1`
+....
+输入：customers = [1], grumpy = [0], minutes = 1
+输出：1
+....
 
 
+*提示：*
+
+* `n == customers.length == grumpy.length`
+* `1 \<= minutes \<= n \<= 2 * 10^4^`
+* `0 \<= customers[i] \<= 1000`
+* `grumpy[i] == 0 or 1`
+
+
+== 思路分析
+
+先计算出老板不生气的情况下，会有多少顾客满意。然后使用滑动窗口，计算在窗口内老板原本因为生气而不满意，但因为老板不生气而满意的顾客顾客数量，去窗口满意数量最大值，再加原本已经满意的顾客数量即可得到结果值。
+
+image::images/1052-10.gif[{image_attr}]
 
 [[src-1052]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1052_GrumpyBookstoreOwner.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1052_GrumpyBookstoreOwner_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/grumpy-bookstore-owner/solutions/615133/ai-sheng-qi-de-shu-dian-lao-ban-by-leetc-dloq/[1052. 爱生气的书店老板 - 官方题解^]
+. https://leetcode.cn/problems/grumpy-bookstore-owner/solutions/616238/yong-mi-mi-ji-qiao-wan-liu-zhu-zui-duo-d-py41/[1052. 爱生气的书店老板 - 用「秘密技巧」挽留住最多的原本因为生气而被赶走的顾客^]

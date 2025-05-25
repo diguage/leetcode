@@ -7389,14 +7389,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1051-height-checker.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/grumpy-bookstore-owner/[1052. Grumpy Bookstore Owner^]
-//|{source_base_url}/_1052_GrumpyBookstoreOwner.java[Java]
-//|{doc_base_url}/1052-grumpy-bookstore-owner.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/grumpy-bookstore-owner/[1052. Grumpy Bookstore Owner^]
+|{source_base_url}/_1052_GrumpyBookstoreOwner.java[Java]
+|{doc_base_url}/1052-grumpy-bookstore-owner.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/previous-permutation-with-one-swap/[1053. Previous Permutation With One Swap^]
 //|{source_base_url}/_1053_PreviousPermutationWithOneSwap.java[Java]
