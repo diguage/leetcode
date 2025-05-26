@@ -833,6 +833,12 @@ endif::[]
 |{doc_base_url}/1022-sum-of-root-to-leaf-binary-numbers.adoc[题解]
 |✅ 深度优先遍历。
 
+|{counter:codes2503}
+|{leetcode_base_url}/partition-array-into-disjoint-intervals/[915. 分割数组^]
+|{doc_base_url}/0915-partition-array-into-disjoint-intervals.adoc[题解]
+|✅ 两遍遍历。有题解可以不到一遍遍历即可解决问题。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

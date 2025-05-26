@@ -1913,7 +1913,7 @@ include::0912-sort-an-array.adoc[leveloffset=+1]
 
 // include::0914-x-of-a-kind-in-a-deck-of-cards.adoc[leveloffset=+1]
 
-// include::0915-partition-array-into-disjoint-intervals.adoc[leveloffset=+1]
+include::0915-partition-array-into-disjoint-intervals.adoc[leveloffset=+1]
 
 // include::0916-word-subsets.adoc[leveloffset=+1]
 

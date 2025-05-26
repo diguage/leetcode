@@ -6430,14 +6430,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0914-x-of-a-kind-in-a-deck-of-cards.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/partition-array-into-disjoint-intervals/[915. Partition Array into Disjoint Intervals^]
-//|{source_base_url}/_0915_PartitionArrayIntoDisjointIntervals.java[Java]
-//|{doc_base_url}/0915-partition-array-into-disjoint-intervals.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/partition-array-into-disjoint-intervals/[915. Partition Array into Disjoint Intervals^]
+|{source_base_url}/_0915_PartitionArrayIntoDisjointIntervals.java[Java]
+|{doc_base_url}/0915-partition-array-into-disjoint-intervals.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/word-subsets/[916. Word Subsets^]
 //|{source_base_url}/_0916_WordSubsets.java[Java]
