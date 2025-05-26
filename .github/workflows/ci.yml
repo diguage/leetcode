@@ -47,7 +47,7 @@ jobs:
 
       - name: Build 🔧
         run: |
-          mvn clean package
+          mvn clean package -Pasciidoc
 
       - name: Add Reward Qrcode 💰
         run: |
