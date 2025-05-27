@@ -9735,12 +9735,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/sort-integers-by-the-power-value/[1387. Sort Integers by The Power Value^]
-//|{source_base_url}/_1387_SortIntegersByThePowerValue.java[Java]
-//|{doc_base_url}/1387-sort-integers-by-the-power-value.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/sort-integers-by-the-power-value/[1387. Sort Integers by The Power Value^]
+|{source_base_url}/_1387_SortIntegersByThePowerValue.java[Java]
+|{doc_base_url}/1387-sort-integers-by-the-power-value.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/pizza-with-3n-slices/[1388. Pizza With 3n Slices^]

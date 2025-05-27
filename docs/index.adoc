@@ -2857,7 +2857,7 @@ include::1349-maximum-students-taking-exam.adoc[leveloffset=+1]
 
 // include::1386-cinema-seat-allocation.adoc[leveloffset=+1]
 
-// include::1387-sort-integers-by-the-power-value.adoc[leveloffset=+1]
+include::1387-sort-integers-by-the-power-value.adoc[leveloffset=+1]
 
 // include::1388-pizza-with-3n-slices.adoc[leveloffset=+1]
 
