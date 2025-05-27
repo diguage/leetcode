@@ -817,6 +817,24 @@
             </dependencies>
           </plugin>
           <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>${exec-maven-plugin.version}</version>
+            <executions>
+              <execution>
+                <id>install-fonts-and-generate-config-file</id>
+                <phase>generate-sources</phase>
+                <goals>
+                  <goal>exec</goal>
+                </goals>
+                <configuration>
+                  <executable>${project.basedir}/cfg/scripts/install-fonts.sh</executable>
+                  <!-- <commandlineArgs>Args</commandlineArgs> -->
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
             <!-- 3.2.0 依赖 jruby 9.4.8.0/9.4.12.0 -->
             <groupId>org.asciidoctor</groupId>
             <artifactId>asciidoctor-maven-plugin</artifactId>
@@ -825,8 +843,9 @@
               <sourceDirectory>docs</sourceDirectory>
               <sourceDocumentName>index.adoc</sourceDocumentName>
               <attributes>
-                <project_basedir>${maven.multiModuleProjectDirectory}</project_basedir>
-                <sourcedir>${project.build.sourceDirectory}/com/diguage/yongle</sourcedir>
+                <sourcedir>${project.build.sourceDirectory}/com/diguage/algo/leetcode</sourcedir>
+                <labdir>${project.build.testSourceDirectory}/com/diguage/labs</labdir>
+                <basedir>${project.basedir}</basedir>
                 <doctype>book</doctype>
                 <stem>latexmath</stem>
                 <source-highlighter>rouge</source-highlighter>
@@ -838,18 +857,23 @@
                 <linkcss>true</linkcss>
                 <stylesdir>assets/styles</stylesdir>
                 <toc/>
-                <toclevels>3</toclevels>
-                <sectnums>true</sectnums>
+                <toclevels>1</toclevels>
+                <!-- <sectnums>false</sectnums>-->
                 <sectnumlevels>3</sectnumlevels>
                 <sectanchors>true</sectanchors>
                 <graphvizdot>/usr/local/bin/dot</graphvizdot>
+                <project_basedir>${project.basedir}</project_basedir>
                 <source_attr>linenums,indent=0,subs="attributes,verbatim,quotes"</source_attr>
-                <java_src_attr>source%nowrap,java,{source_attr}</java_src_attr>
+                <java_src_attr>source%nowrap,java,linenums,indent=0,subs="attributes,verbatim"</java_src_attr>
                 <html_src_attr>source%nowrap,html,{source_attr}</html_src_attr>
                 <image_attr>align="center",width=95%</image_attr>
                 <diagram_attr>format=svg,align="center",width=95%</diagram_attr>
                 <plantumlconfig>${project.basedir}/cfg/plantuml.cfg</plantumlconfig>
+                <toc-title>目录</toc-title>
                 <iconfont-cdn>//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css</iconfont-cdn>
+                <doc_base_url>xref:.</doc_base_url>
+                <leetcode>https://leetcode.cn</leetcode>
+                <leetcode_base_url>https://leetcode.cn/problems</leetcode_base_url>
               </attributes>
             </configuration>
             <executions>
@@ -876,27 +900,27 @@
                 </configuration>
               </execution>
 
-              <execution>
-                <id>generate-html</id>
-                <phase>package</phase>
-                <goals>
-                  <goal>process-asciidoc</goal>
-                </goals>
-                <configuration>
-                  <backend>html5</backend>
-                  <doctype>book</doctype>
-                  <outputDirectory>${project.build.directory}/docs/html</outputDirectory>
-                  <attributes>
-                    <toc>left</toc>
-                  </attributes>
-                  <gemPath>${gem.path}</gemPath>
-                  <requires>
-                    <require>asciidoctor-tabs</require>
-                    <require>asciidoctor-diagram</require>
-                    <require>asciidoctor-comment-links</require>
-                  </requires>
-                </configuration>
-              </execution>
+              <!-- <execution>-->
+              <!--   <id>generate-html</id>-->
+              <!--   <phase>package</phase>-->
+              <!--   <goals>-->
+              <!--     <goal>process-asciidoc</goal>-->
+              <!--   </goals>-->
+              <!--   <configuration>-->
+              <!--     <backend>html5</backend>-->
+              <!--     <doctype>book</doctype>-->
+              <!--     <outputDirectory>${project.build.directory}/docs/html</outputDirectory>-->
+              <!--     <attributes>-->
+              <!--       <toc>left</toc>-->
+              <!--     </attributes>-->
+              <!--     <gemPath>${gem.path}</gemPath>-->
+              <!--     <requires>-->
+              <!--       <require>asciidoctor-tabs</require>-->
+              <!--       <require>asciidoctor-diagram</require>-->
+              <!--       <require>asciidoctor-comment-links</require>-->
+              <!--     </requires>-->
+              <!--   </configuration>-->
+              <!-- </execution>-->
 
               <!-- <execution>-->
               <!--     <id>generate-epub</id>-->
@@ -972,11 +996,6 @@
                 <groupId>org.asciidoctor</groupId>
                 <artifactId>asciidoctorj-diagram</artifactId>
                 <version>${asciidoctorj-diagram.version}</version>
-              </dependency>
-              <dependency>
-                <groupId>org.asciidoctor</groupId>
-                <artifactId>asciidoctorj-diagram-plantuml</artifactId>
-                <version>1.2025.2</version>
               </dependency>
               <dependency>
                 <groupId>org.jruby</groupId>
