@@ -843,6 +843,11 @@ endif::[]
 |{doc_base_url}/1387-sort-integers-by-the-power-value.adoc[题解]
 |✅ 先计算每个数字的权重，再进行比较：使用集合存储下标，通过下标找到对应的权重。计算权重时，可以递归，也可以直接循环。使用递归时，可以使用备忘录把已经计算的值存储起来，防止重复计算。
 
+|{counter:codes2503}
+|{leetcode_base_url}/path-crossing/[1496. 判断路径是否相交^]
+|{doc_base_url}/1496-path-crossing.adoc[题解]
+|✅ 想找个巧办法，结果失败！还是用记录轨迹的办法搞定了。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

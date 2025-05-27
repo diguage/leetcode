@@ -3075,7 +3075,7 @@ include::1480-running-sum-of-1d-array.adoc[leveloffset=+1]
 
 // include::1495-friendly-movies-streamed-last-month.adoc[leveloffset=+1]
 
-// include::1496-path-crossing.adoc[leveloffset=+1]
+include::1496-path-crossing.adoc[leveloffset=+1]
 
 // include::1497-check-if-array-pairs-are-divisible-by-k.adoc[leveloffset=+1]
 

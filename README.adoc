@@ -10498,12 +10498,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/path-crossing/[1496. Path Crossing^]
-//|{source_base_url}/_1496_PathCrossing.java[Java]
-//|{doc_base_url}/1496-path-crossing.adoc[题解]
-//|Easy
-//|
+|{counter:codes}
+|{leetcode_base_url}/path-crossing/[1496. Path Crossing^]
+|{source_base_url}/_1496_PathCrossing.java[Java]
+|{doc_base_url}/1496-path-crossing.adoc[题解]
+|Easy
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/check-if-array-pairs-are-divisible-by-k/[1497. Check If Array Pairs Are Divisible by k^]
