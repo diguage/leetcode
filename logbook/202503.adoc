@@ -848,6 +848,11 @@ endif::[]
 |{doc_base_url}/1496-path-crossing.adoc[题解]
 |✅ 想找个巧办法，结果失败！还是用记录轨迹的办法搞定了。
 
+|{counter:codes2503}
+|{leetcode_base_url}/delete-nodes-and-return-forest/[1110. 删点成林^]
+|{doc_base_url}/1110-delete-nodes-and-return-forest.adoc[题解]
+|✅ 深度优先遍历，把父节点传到递归参数里，同时标注一下是左子树还是右子树。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

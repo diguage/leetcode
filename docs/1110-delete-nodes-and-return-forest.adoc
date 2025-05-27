@@ -1,46 +1,65 @@
 [#1110-delete-nodes-and-return-forest]
-= 1110. Delete Nodes And Return Forest
+= 1110. 删点成林
 
-{leetcode}/problems/delete-nodes-and-return-forest/[LeetCode - Delete Nodes And Return Forest^]
+https://leetcode.cn/problems/delete-nodes-and-return-forest/[LeetCode - 1110. 删点成林 ^]
 
-Given the `root` of a binary tree, each node in the tree has a distinct value.
+给出二叉树的根节点 `root`，树上每个节点都有一个不同的值。
 
-After deleting all nodes with a value in `to_delete`, we are left with a forest (a disjoint union of trees).
+如果节点值在 `to_delete` 中出现，我们就把该节点从树上删去，最后得到一个森林（一些不相交的树构成的集合）。
 
-Return the roots of the trees in the remaining forest.  You may return the result in any order.
+返回森林中的每棵树。你可以按任意顺序组织答案。
 
- 
-*Example 1:*
+*示例 1：*
 
-image::https://assets.leetcode.com/uploads/2019/07/01/screen-shot-2019-07-01-at-53836-pm.png[{image_attr}]
+image::images/1110-01.png[{image_attr}]
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* root = [1,2,3,4,5,6,7], to_delete = [3,5]
-*Output:* [[1,2,null,4],[6],[7]]
-----
+....
+输入：root = [1,2,3,4,5,6,7], to_delete = [3,5]
+输出：[[1,2,null,4],[6],[7]]
+....
 
- 
-*Constraints:*
+*示例 2：*
+
+....
+输入：root = [1,2,4,null,3], to_delete = [3]
+输出：[[1,2,4]]
+....
 
 
-* The number of nodes in the given tree is at most `1000`.
-* Each node has a distinct value between `1` and `1000`.
-* `to_delete.length <= 1000`
-* `to_delete` contains distinct values between `1` and `1000`.
+*提示：*
+
+* 树中的节点数最大为 `1000`。
+* 每个节点都有一个介于 `1` 到 `1000` 之间的值，且各不相同。
+* `+to_delete.length <= 1000+`
+* `to_delete` 包含一些从 `1` 到 `1000`、各不相同的值。
+
 
 == 思路分析
 
-利用递归，在“后序遍历”阶段，对当前阶段判断是否需要删除。
 
 [[src-1110]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1110_DeleteNodesAndReturnForest.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1110_DeleteNodesAndReturnForest_2.java[tag=answer]
+----
+--
+====
+
 
 == 参考资料
 
-. https://leetcode.cn/problems/delete-nodes-and-return-forest/solutions/2286145/shan-dian-cheng-lin-by-leetcode-solution-gy95/[1110. 删点成林 - 官方题解^]
-. https://leetcode.cn/problems/delete-nodes-and-return-forest/solutions/2289131/he-shi-ji-lu-da-an-pythonjavacgo-by-endl-lpcd/[1110. 删点成林 - 简洁写法！^]
 
