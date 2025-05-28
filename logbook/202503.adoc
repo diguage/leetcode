@@ -853,6 +853,11 @@ endif::[]
 |{doc_base_url}/1110-delete-nodes-and-return-forest.adoc[题解]
 |✅ 深度优先遍历，把父节点传到递归参数里，同时标注一下是左子树还是右子树。
 
+|{counter:codes2503}
+|{leetcode_base_url}/count-triplets-that-can-form-two-arrays-of-equal-xor/[1442. 形成两个异或相等数组的三元组数目^]
+|{doc_base_url}/1442-count-triplets-that-can-form-two-arrays-of-equal-xor.adoc[题解]
+|✅ 回溯，通过 46 / 47 测试用例。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

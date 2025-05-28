@@ -2967,7 +2967,7 @@ include::1410-html-entity-parser.adoc[leveloffset=+1]
 
 // include::1441-build-an-array-with-stack-operations.adoc[leveloffset=+1]
 
-// include::1442-count-triplets-that-can-form-two-arrays-of-equal-xor.adoc[leveloffset=+1]
+include::1442-count-triplets-that-can-form-two-arrays-of-equal-xor.adoc[leveloffset=+1]
 
 // include::1443-minimum-time-to-collect-all-apples-in-a-tree.adoc[leveloffset=+1]
 

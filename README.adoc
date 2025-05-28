@@ -10120,12 +10120,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/count-triplets-that-can-form-two-arrays-of-equal-xor/[1442. Count Triplets That Can Form Two Arrays of Equal XOR^]
-//|{source_base_url}/_1442_CountTripletsThatCanFormTwoArraysOfEqualXor.java[Java]
-//|{doc_base_url}/1442-count-triplets-that-can-form-two-arrays-of-equal-xor.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/count-triplets-that-can-form-two-arrays-of-equal-xor/[1442. Count Triplets That Can Form Two Arrays of Equal XOR^]
+|{source_base_url}/_1442_CountTripletsThatCanFormTwoArraysOfEqualXor.java[Java]
+|{doc_base_url}/1442-count-triplets-that-can-form-two-arrays-of-equal-xor.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/minimum-time-to-collect-all-apples-in-a-tree/[1443. Minimum Time to Collect All Apples in a Tree^]
