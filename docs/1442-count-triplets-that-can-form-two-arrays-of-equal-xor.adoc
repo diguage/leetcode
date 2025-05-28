@@ -62,6 +62,11 @@ https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xo
 
 == 思路分析
 
+image::images/1442-10.png[{image_attr}]
+
+回溯，通过 46 / 47 测试用例。使用回溯应该对，但是加上备忘录后，还是有一个测试用例没通过。（看一个题解，原始解法就是暴力法。是对的。）
+
+使用官方题解中的异或前缀和解法啦。数学知识还是得补啊！
 
 [[src-1442]]
 [tabs]
@@ -88,4 +93,5 @@ include::{sourcedir}/_1442_CountTripletsThatCanFormTwoArraysOfEqualXor.java[tag=
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/solutions/579281/xing-cheng-liang-ge-yi-huo-xiang-deng-sh-jud0/[1442. 形成两个异或相等数组的三元组数目 - 官方题解^]
+. https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/solutions/782444/xin-shou-pian-qian-ru-shen-chu-xi-lie-1-cnk37/[1442. 形成两个异或相等数组的三元组数目 - 新手篇 -- 浅入深出系列1^] -- 看这个题解，我的回溯就是这里的暴力法，那应该是对的。

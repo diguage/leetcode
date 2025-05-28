@@ -856,7 +856,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/count-triplets-that-can-form-two-arrays-of-equal-xor/[1442. 形成两个异或相等数组的三元组数目^]
 |{doc_base_url}/1442-count-triplets-that-can-form-two-arrays-of-equal-xor.adoc[题解]
-|✅ 回溯，通过 46 / 47 测试用例。
+|⭕️ 前缀和。使用官方题解中的异或前缀和解法啦。数学知识还是得补啊！原来的思路是回溯，通过 46 / 47 测试用例。使用回溯应该对，但是加上备忘录后，还是有一个测试用例没通过。（看一个题解，原始解法就是暴力法。是对的。）
 
 |===
 
