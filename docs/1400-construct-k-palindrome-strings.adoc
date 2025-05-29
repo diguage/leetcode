@@ -1,52 +1,69 @@
 [#1400-construct-k-palindrome-strings]
-= 1400. Construct K Palindrome Strings
+= 1400. 构造 K 个回文字符串
 
-{leetcode}/problems/construct-k-palindrome-strings/[LeetCode - 1400. Construct K Palindrome Strings ^]
+https://leetcode.cn/problems/construct-k-palindrome-strings/[LeetCode - 1400. 构造 K 个回文字符串 ^]
 
-Given a string `s` and an integer `k`, return `true` _if you can use all the characters in _`s`_ to construct _`k`_ palindrome strings or _`false`_ otherwise_.
+给你一个字符串 `s` 和一个整数 `k` 。请你用 `s` 字符串中 *所有字符* 构造 `k` 个非空 *回文串* 。
 
- 
-*Example 1:*
+如果你可以用 `s` 中所有字符构造 `k` 个回文字符串，那么请你返回 *True* ，否则返回 *False* 。
 
-[subs="verbatim,quotes"]
-----
-*Input:* s = "annabelle", k = 2
-*Output:* true
-*Explanation:* You can construct two palindromes using all characters in s.
-Some possible constructions "anna" + "elble", "anbna" + "elle", "anellena" + "b"
-----
+*示例 1：*
 
-*Example 2:*
+....
+输入：s = "annabelle", k = 2
+输出：true
+解释：可以用 s 中所有字符构造 2 个回文字符串。
+一些可行的构造方案包括："anna" + "elble"，"anbna" + "elle"，"anellena" + "b"
+....
 
-[subs="verbatim,quotes"]
-----
-*Input:* s = "leetcode", k = 3
-*Output:* false
-*Explanation:* It is impossible to construct 3 palindromes using all the characters of s.
-----
+*示例 2：*
 
-*Example 3:*
+....
+输入：s = "leetcode", k = 3
+输出：false
+解释：无法用 s 中所有字符构造 3 个回文串。
+....
 
-[subs="verbatim,quotes"]
-----
-*Input:* s = "true", k = 4
-*Output:* true
-*Explanation:* The only possible solution is to put each character in a separate string.
-----
+*示例 3：*
 
- 
-*Constraints:*
+....
+输入：s = "true", k = 4
+输出：true
+解释：唯一可行的方案是让 s 中每个字符单独构成一个字符串。
+....
 
+*示例 4：*
 
-* `1 <= s.length <= 10^5^`
-* `s` consists of lowercase English letters.
-* `1 <= k <= 10^5^`
+....
+输入：s = "yzyzyzyzyzyzyzy", k = 2
+输出：true
+解释：你只需要将所有的 z 放在一个字符串中，所有的 y 放在另一个字符串中。那么两个字符串都是回文串。
+....
 
+*示例 5：*
 
+....
+输入：s = "cr", k = 7
+输出：false
+解释：我们没有足够的字符去构造 7 个回文串。
+....
+
+*提示：*
+
+* `1 \<= s.length \<= 10^5^`
+* `s` 中所有字符都是小写英文字母。
+* `1 \<= k \<= 10^5^`
 
 
 == 思路分析
 
+设字符集合s的大小为l，奇数次出现的字符种数为c。
+
+【命题一】若c = 0，则对任意的正整数 `k \<= l`，s可以构成k个非空回文串。
+
+【命题二】s可以构成k个非空回文串当且仅当 `c \<= k \<= l`.
+
+统计奇数字母的个数。如果奇数字母个数大于 `k`，那么肯定不能满足条件。
 
 [[src-1400]]
 [tabs]
@@ -73,4 +90,5 @@ include::{sourcedir}/_1400_ConstructKPalindromeStrings.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/construct-k-palindrome-strings/solutions/198217/gou-zao-k-ge-hui-wen-zi-fu-chuan-by-leetcode-solut/[1400. 构造 K 个回文字符串 - 官方题解^]
+. https://leetcode.cn/problems/construct-k-palindrome-strings/solutions/188310/tong-ji-qi-shu-ci-chu-xian-zi-fu-de-shu-mu-by-zhi-/[1400. 构造 K 个回文字符串 - 统计奇数次出现字符的种数^]

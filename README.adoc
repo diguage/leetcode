@@ -9826,12 +9826,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/construct-k-palindrome-strings/[1400. Construct K Palindrome Strings^]
-//|{source_base_url}/_1400_ConstructKPalindromeStrings.java[Java]
-//|{doc_base_url}/1400-construct-k-palindrome-strings.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/construct-k-palindrome-strings/[1400. Construct K Palindrome Strings^]
+|{source_base_url}/_1400_ConstructKPalindromeStrings.java[Java]
+|{doc_base_url}/1400-construct-k-palindrome-strings.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/circle-and-rectangle-overlapping/[1401. Circle and Rectangle Overlapping^]

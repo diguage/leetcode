@@ -2883,7 +2883,7 @@ include::1387-sort-integers-by-the-power-value.adoc[leveloffset=+1]
 
 // include::1399-count-largest-group.adoc[leveloffset=+1]
 
-// include::1400-construct-k-palindrome-strings.adoc[leveloffset=+1]
+include::1400-construct-k-palindrome-strings.adoc[leveloffset=+1]
 
 // include::1401-circle-and-rectangle-overlapping.adoc[leveloffset=+1]
 
