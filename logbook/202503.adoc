@@ -863,6 +863,12 @@ endif::[]
 |{doc_base_url}/1400-construct-k-palindrome-strings.adoc[题解]
 |⭕️ 统计奇数字母个数，如果个数超过 `k` 肯定就不满足了。自己的思考已经解决答案了。可惜不够确定，还是参考答案了。
 
+|{counter:codes2503}
+|{leetcode_base_url}/rle-iterator/[900. RLE 迭代器^]
+|{doc_base_url}/0900-rle-iterator.adoc[题解]
+|✅ 使用属性 `index` 记录 `next` 到位置，剩下就是在 `encoding` 的偶数下标上做减法。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

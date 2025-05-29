@@ -6325,14 +6325,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0899-orderly-queue.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/rle-iterator/[900. RLE Iterator^]
-//|{source_base_url}/_0900_RLEIterator.java[Java]
-//|{doc_base_url}/0900-rle-iterator.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/rle-iterator/[900. RLE Iterator^]
+|{source_base_url}/_0900_RLEIterator.java[Java]
+|{doc_base_url}/0900-rle-iterator.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/online-stock-span/[901. Online Stock Span^]
 //|{source_base_url}/_0901_OnlineStockSpan.java[Java]

@@ -1883,7 +1883,7 @@ include::0892-surface-area-of-3d-shapes.adoc[leveloffset=+1]
 
 // include::0899-orderly-queue.adoc[leveloffset=+1]
 
-// include::0900-rle-iterator.adoc[leveloffset=+1]
+include::0900-rle-iterator.adoc[leveloffset=+1]
 
 // include::0901-online-stock-span.adoc[leveloffset=+1]
 
