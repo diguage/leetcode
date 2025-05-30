@@ -6080,14 +6080,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0864-shortest-path-to-get-all-keys.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/smallest-subtree-with-all-the-deepest-nodes/[865. Smallest Subtree with all the Deepest Nodes^]
-//|{source_base_url}/_0865_SmallestSubtreeWithAllTheDeepestNodes.java[Java]
-//|{doc_base_url}/0865-smallest-subtree-with-all-the-deepest-nodes.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/smallest-subtree-with-all-the-deepest-nodes/[865. Smallest Subtree with all the Deepest Nodes^]
+|{source_base_url}/_0865_SmallestSubtreeWithAllTheDeepestNodes.java[Java]
+|{doc_base_url}/0865-smallest-subtree-with-all-the-deepest-nodes.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/prime-palindrome/[866. Prime Palindrome^]
 //|{source_base_url}/_0866_PrimePalindrome.java[Java]

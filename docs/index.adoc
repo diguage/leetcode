@@ -1813,7 +1813,7 @@ include::0841-keys-and-rooms.adoc[leveloffset=+1]
 
 // include::0864-shortest-path-to-get-all-keys.adoc[leveloffset=+1]
 
-// include::0865-smallest-subtree-with-all-the-deepest-nodes.adoc[leveloffset=+1]
+include::0865-smallest-subtree-with-all-the-deepest-nodes.adoc[leveloffset=+1]
 
 // include::0866-prime-palindrome.adoc[leveloffset=+1]
 

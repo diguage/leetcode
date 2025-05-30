@@ -873,6 +873,12 @@ endif::[]
 |{doc_base_url}/1362-closest-divisors.adoc[题解]
 |✅ 我的解法是从两边向中间挤压；更优解是找到平方根，然后向外开。
 
+|{counter:codes2503}
+|{leetcode_base_url}/smallest-subtree-with-all-the-deepest-nodes/[865. 具有所有最深节点的最小子树^]
+|{doc_base_url}/0865-smallest-subtree-with-all-the-deepest-nodes.adoc[题解]
+|✅ 深度优先遍历，递归，在“后序”阶段处理业务逻辑。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
