@@ -9560,12 +9560,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/closest-divisors/[1362. Closest Divisors^]
-//|{source_base_url}/_1362_ClosestDivisors.java[Java]
-//|{doc_base_url}/1362-closest-divisors.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/closest-divisors/[1362. Closest Divisors^]
+|{source_base_url}/_1362_ClosestDivisors.java[Java]
+|{doc_base_url}/1362-closest-divisors.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/largest-multiple-of-three/[1363. Largest Multiple of Three^]

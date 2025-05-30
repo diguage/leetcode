@@ -2807,7 +2807,7 @@ include::1349-maximum-students-taking-exam.adoc[leveloffset=+1]
 
 // include::1361-validate-binary-tree-nodes.adoc[leveloffset=+1]
 
-// include::1362-closest-divisors.adoc[leveloffset=+1]
+include::1362-closest-divisors.adoc[leveloffset=+1]
 
 // include::1363-largest-multiple-of-three.adoc[leveloffset=+1]
 

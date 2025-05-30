@@ -868,6 +868,10 @@ endif::[]
 |{doc_base_url}/0900-rle-iterator.adoc[题解]
 |✅ 使用属性 `index` 记录 `next` 到位置，剩下就是在 `encoding` 的偶数下标上做减法。
 
+|{counter:codes2503}
+|{leetcode_base_url}/closest-divisors/[1362. 最接近的因数^]
+|{doc_base_url}/1362-closest-divisors.adoc[题解]
+|✅ 我的解法是从两边向中间挤压；更优解是找到平方根，然后向外开。
 
 |===
 
