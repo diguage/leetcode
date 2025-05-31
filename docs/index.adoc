@@ -2847,7 +2847,7 @@ include::1362-closest-divisors.adoc[leveloffset=+1]
 
 // include::1381-design-a-stack-with-increment-operation.adoc[leveloffset=+1]
 
-// include::1382-balance-a-binary-search-tree.adoc[leveloffset=+1]
+include::1382-balance-a-binary-search-tree.adoc[leveloffset=+1]
 
 // include::1383-maximum-performance-of-a-team.adoc[leveloffset=+1]
 
