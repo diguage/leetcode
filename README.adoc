@@ -7187,13 +7187,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/camelcase-matching/[1023. Camelcase Matching^]
-//|{source_base_url}/_1023_CamelcaseMatching.java[Java]
-//|{doc_base_url}/1023-camelcase-matching.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/camelcase-matching/[1023. Camelcase Matching^]
+|{source_base_url}/_1023_CamelcaseMatching.java[Java]
+|{doc_base_url}/1023-camelcase-matching.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/video-stitching/[1024. Video Stitching^]
 //|{source_base_url}/_1024_VideoStitching.java[Java]
