@@ -2097,7 +2097,7 @@ include::0994-rotting-oranges.adoc[leveloffset=+1]
 
 include::1006-clumsy-factorial.adoc[leveloffset=+1]
 
-// include::1007-minimum-domino-rotations-for-equal-row.adoc[leveloffset=+1]
+include::1007-minimum-domino-rotations-for-equal-row.adoc[leveloffset=+1]
 
 // include::1008-construct-binary-search-tree-from-preorder-traversal.adoc[leveloffset=+1]
 

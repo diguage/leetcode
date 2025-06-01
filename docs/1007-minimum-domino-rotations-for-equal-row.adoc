@@ -1,55 +1,76 @@
 [#1007-minimum-domino-rotations-for-equal-row]
-= 1007. Minimum Domino Rotations For Equal Row
+= 1007. 行相等的最少多米诺旋转
 
-{leetcode}/problems/minimum-domino-rotations-for-equal-row/[LeetCode - Minimum Domino Rotations For Equal Row^]
+https://leetcode.cn/problems/minimum-domino-rotations-for-equal-row/[LeetCode - 1007. 行相等的最少多米诺旋转 ^]
 
-In a row of dominoes, `A[i]` and `B[i]` represent the top and bottom halves of the `i`-th domino.  (A domino is a tile with two numbers from 1 to 6 - one on each half of the tile.)
+在一排多米诺骨牌中，`tops[i]` 和 `bottoms[i]` 分别代表第 `i` 个多米诺骨牌的上半部分和下半部分。（一个多米诺是两个从 1 到 6 的数字同列平铺形成的 —— 该平铺的每一半上都有一个数字。）
 
-We may rotate the `i`-th domino, so that `A[i]` and `B[i]` swap values.
+我们可以旋转第 `i` 张多米诺，使得 `tops[i]` 和 `bottoms[i]` 的值交换。
 
-Return the minimum number of rotations so that all the values in `A` are the same, or all the values in `B` are the same.
+返回能使 `tops` 中所有值或者 `bottoms` 中所有值都相同的最小旋转次数。
 
-If it cannot be done, return `-1`.
+如果无法做到，返回 `-1`.
 
- 
+*示例 1：*
 
-*Example 1:*
+image::images/1007-01.png[{image_attr}]
 
-image::https://assets.leetcode.com/uploads/2019/03/08/domino.png[{image_attr}]
+....
+输入：tops = [2,1,2,4,2,2], bottoms = [5,2,6,2,3,2]
+输出：2
+解释：
+图一表示：在我们旋转之前， tops 和 bottoms 给出的多米诺牌。
+如果我们旋转第二个和第四个多米诺骨牌，我们可以使上面一行中的每个值都等于 2，如图二所示。
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* A = [2,1,2,4,2,2], B = [5,2,6,2,3,2]
-*Output:* 2
-*Explanation:*
-The first figure represents the dominoes as given by A and B: before we do any rotations.
-If we rotate the second and fourth dominoes, we can make every value in the top row equal to 2, as indicated by the second figure.
-----
+*示例 2：*
 
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* A = [3,5,1,2,3], B = [3,6,3,3,4]
-*Output:* -1
-*Explanation:*
-In this case, it is not possible to rotate the dominoes to make one row of values equal.
-----
-
- 
-
-*Note:*
+....
+输入：tops = [3,5,1,2,3], bottoms = [3,6,3,3,4]
+输出：-1
+解释： 在这种情况下，不可能旋转多米诺牌使一行的值相等。
+....
 
 
-. `1 <= A[i], B[i] <= 6`
-. `2 <= A.length == B.length <= 20000`
+*提示：*
+
+* `2 \<= tops.length \<= 2 * 10^4^`
+* `bottoms.length == tops.length`
+* `+1 <= tops[i], bottoms[i] <= 6+`
 
 
+
+== 思路分析
+
+统计每个数字的下标，然后逐个检查每个数字的下标集合是否能完整覆盖原始数字的全部下标。
+
+看题解，只需要判断是否可以都变成 `tops[0]` 或者 `bottoms[0]`（要旋转成一样的数字，那么，要么是 `tops[0]`，要么是 `bottoms[0]`（要么上面调转到下面，要么下面调转到上面，两个里面，必有其一。）），这个思路更简单高效！
 
 
 [[src-1007]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1007_MinimumDominoRotationsForEqualRow.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1007_MinimumDominoRotationsForEqualRow_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/minimum-domino-rotations-for-equal-row/solutions/3042326/du-bian-cheng-tops0-huo-zhe-bottoms0pyth-zvnj/[1007. 行相等的最少多米诺旋转 - 都变成 tops[0\] 或者 bottoms[0\]^] -- 要旋转成一样的数字，那么，要么是 `tops[0]`，要么是 `bottoms[0]`（要么上面调转到下面，要么下面调转到上面，两个里面，必有其一。）
+. https://leetcode.cn/problems/minimum-domino-rotations-for-equal-row/solutions/3042120/xing-xiang-deng-de-zui-shao-duo-mi-nuo-x-l31w/[1007. 行相等的最少多米诺旋转 - 官方题解^]

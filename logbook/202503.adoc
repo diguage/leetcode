@@ -888,6 +888,12 @@ endif::[]
 |{doc_base_url}/1382-balance-a-binary-search-tree.adoc[题解]
 |✅ 二叉搜索树，先中序遍历拿到所有节点，然后递归构造平衡二叉搜索树。
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-domino-rotations-for-equal-row/[1007. 行相等的最少多米诺旋转^]
+|{doc_base_url}/1007-minimum-domino-rotations-for-equal-row.adoc[题解]
+|✅ 统计每个数字的下标，然后逐个检查每个数字的下标集合是否能完整覆盖原始数字的全部下标。更优解：判断是否可以都变成 `tops[0]` 或者 `bottoms[0]`。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
