@@ -8488,14 +8488,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1208-get-equal-substrings-within-budget.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/remove-all-adjacent-duplicates-in-string-ii/[1209. Remove All Adjacent Duplicates in String II^]
-//|{source_base_url}/_1209_RemoveAllAdjacentDuplicatesInStringII.java[Java]
-//|{doc_base_url}/1209-remove-all-adjacent-duplicates-in-string-ii.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/remove-all-adjacent-duplicates-in-string-ii/[1209. Remove All Adjacent Duplicates in String II^]
+|{source_base_url}/_1209_RemoveAllAdjacentDuplicatesInStringII.java[Java]
+|{doc_base_url}/1209-remove-all-adjacent-duplicates-in-string-ii.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/minimum-moves-to-reach-target-with-rotations/[1210. Minimum Moves to Reach Target with Rotations^]
 //|{source_base_url}/_1210_MinimumMovesToReachTargetWithRotations.java[Java]

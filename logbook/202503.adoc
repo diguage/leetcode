@@ -893,6 +893,11 @@ endif::[]
 |{doc_base_url}/1007-minimum-domino-rotations-for-equal-row.adoc[题解]
 |✅ 统计每个数字的下标，然后逐个检查每个数字的下标集合是否能完整覆盖原始数字的全部下标。更优解：判断是否可以都变成 `tops[0]` 或者 `bottoms[0]`。
 
+|{counter:codes2503}
+|{leetcode_base_url}/remove-all-adjacent-duplicates-in-string-ii/[1209. 删除字符串中的所有相邻重复项 II^]
+|{doc_base_url}/1209-remove-all-adjacent-duplicates-in-string-ii.adoc[题解]
+|✅ 暴力解法：对重复的相邻字母计数，当计数达到 k 时将其删除。重复此操作，直到没有删除的字符为止。通过 19 / 21 个测试用例。
+
 
 |===
 

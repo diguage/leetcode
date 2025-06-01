@@ -2501,7 +2501,7 @@ include::1189-maximum-number-of-balloons.adoc[leveloffset=+1]
 
 // include::1208-get-equal-substrings-within-budget.adoc[leveloffset=+1]
 
-// include::1209-remove-all-adjacent-duplicates-in-string-ii.adoc[leveloffset=+1]
+include::1209-remove-all-adjacent-duplicates-in-string-ii.adoc[leveloffset=+1]
 
 // include::1210-minimum-moves-to-reach-target-with-rotations.adoc[leveloffset=+1]
 
