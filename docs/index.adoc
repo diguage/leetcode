@@ -6593,6 +6593,10 @@ include::3115-maximum-prime-difference.adoc[leveloffset=+1]
 
 include::0000-00-note.adoc[leveloffset=+1]
 
+include::top-100-liked.adoc[leveloffset=+1]
+
+include::top-interview-150.adoc[leveloffset=+1]
+
 include::../logbook/202406.adoc[leveloffset=+1]
 
 include::../logbook/202503.adoc[leveloffset=+1]
