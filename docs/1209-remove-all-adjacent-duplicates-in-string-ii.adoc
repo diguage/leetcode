@@ -47,6 +47,17 @@ https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string-ii/[LeetCo
 
 == 思路分析
 
+最初的想法是暴力解法：对重复的相邻字母计数，当计数达到 k 时将其删除。重复此操作，直到没有删除的字符为止。通过 19 / 21 个测试用例。
+
+暴力解法最大的问题就是字符次数的重复计算，可以开辟一个数组，记录每个下标对应的出现次数，这样直接在上一个基础上+1或从1开始计数即可。
+
+image::images/1209-10.png[{image_attr}]
+
+image::images/1209-11.png[{image_attr}]
+
+也可以用栈！不过，在没有重复字符的情况下，空间复杂度相比用数组更消耗空间。
+
+image::images/1209-12.gif[{image_attr}]
 
 [[src-1209]]
 [tabs]
@@ -73,4 +84,4 @@ include::{sourcedir}/_1209_RemoveAllAdjacentDuplicatesInStringIi.java[tag=answer
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string-ii/solutions/99459/shan-chu-zi-fu-chuan-zhong-de-suo-you-xiang-lin--4/[1209. 删除字符串中的所有相邻重复项 II - 官方题解^] -- 多种解法，值得学习！
