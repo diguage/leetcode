@@ -6927,14 +6927,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0985-sum-of-even-numbers-after-queries.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/interval-list-intersections/[986. Interval List Intersections^]
-//|{source_base_url}/_0986_IntervalListIntersections.java[Java]
-//|{doc_base_url}/0986-interval-list-intersections.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/interval-list-intersections/[986. Interval List Intersections^]
+|{source_base_url}/_0986_IntervalListIntersections.java[Java]
+|{doc_base_url}/0986-interval-list-intersections.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/vertical-order-traversal-of-a-binary-tree/[987. Vertical Order Traversal of a Binary Tree^]
 //|{source_base_url}/_0987_VerticalOrderTraversalOfABinaryTree.java[Java]

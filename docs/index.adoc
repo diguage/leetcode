@@ -2055,7 +2055,7 @@ include::0980-unique-paths-iii.adoc[leveloffset=+1]
 
 // include::0985-sum-of-even-numbers-after-queries.adoc[leveloffset=+1]
 
-// include::0986-interval-list-intersections.adoc[leveloffset=+1]
+include::0986-interval-list-intersections.adoc[leveloffset=+1]
 
 // include::0987-vertical-order-traversal-of-a-binary-tree.adoc[leveloffset=+1]
 
