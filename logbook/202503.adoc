@@ -903,6 +903,11 @@ endif::[]
 |{doc_base_url}/0986-interval-list-intersections.adoc[题解]
 |✅ 双指针。先排除两种没有交集的情况，剩下四种有交集的情况，左边选两个里面最大的，右边选两个里面最小的。哪个小，向右移动哪个的指针。
 
+|{counter:codes2503}
+|{leetcode_base_url}/path-in-zigzag-labelled-binary-tree/[1104. 二叉树寻路^]
+|{doc_base_url}/1104-path-in-zigzag-labelled-binary-tree.adoc[题解]
+|✅ 找到每一层的左右端点的值，确认所求数值在本层中的下标（从 `1` 开始），开始循环，每次循环下标都除以 `2` 再向上取整。这样就可以获取每个数值对应的节点。
+
 
 |===
 

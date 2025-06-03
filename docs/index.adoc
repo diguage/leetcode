@@ -2291,7 +2291,7 @@ include::1094-car-pooling.adoc[leveloffset=+1]
 
 // include::1103-distribute-candies-to-people.adoc[leveloffset=+1]
 
-// include::1104-path-in-zigzag-labelled-binary-tree.adoc[leveloffset=+1]
+include::1104-path-in-zigzag-labelled-binary-tree.adoc[leveloffset=+1]
 
 // include::1105-filling-bookcase-shelves.adoc[leveloffset=+1]
 

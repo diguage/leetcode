@@ -7753,14 +7753,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1103-distribute-candies-to-people.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/path-in-zigzag-labelled-binary-tree/[1104. Path In Zigzag Labelled Binary Tree^]
-//|{source_base_url}/_1104_PathInZigzagLabelledBinaryTree.java[Java]
-//|{doc_base_url}/1104-path-in-zigzag-labelled-binary-tree.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/path-in-zigzag-labelled-binary-tree/[1104. Path In Zigzag Labelled Binary Tree^]
+|{source_base_url}/_1104_PathInZigzagLabelledBinaryTree.java[Java]
+|{doc_base_url}/1104-path-in-zigzag-labelled-binary-tree.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/filling-bookcase-shelves/[1105. Filling Bookcase Shelves^]
 //|{source_base_url}/_1105_FillingBookcaseShelves.java[Java]
