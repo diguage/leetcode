@@ -9,13 +9,13 @@ import java.util.Objects;
 import static com.diguage.util.TreeNodes.buildTree;
 import static java.util.Arrays.asList;
 
-/**
- * @author D瓜哥 · https://www.diguage.com
- * @since 2020-02-09 23:17
- */
+
 public class _0117_PopulatingNextRightPointersInEachNodeII {
   // tag::answer[]
-
+    /**
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-09 23:17
+     */
     static class Node {
         public int val;
         public Node left;

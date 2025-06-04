@@ -5,13 +5,13 @@ import java.util.Queue;
 
 import static com.diguage.algo.leetcode._0116_PopulatingNextRightPointersInEachNode.Node;
 
-/**
- * @author D瓜哥 · https://www.diguage.com
- * @since 2024-06-25 17:26:18
- */
+
 public class _0117_PopulatingNextRightPointersInEachNodeII_2 {
   // tag::answer[]
-
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-25 17:26:18
+   */
   public Node connect(Node root) {
     if (root == null) {
       return null;

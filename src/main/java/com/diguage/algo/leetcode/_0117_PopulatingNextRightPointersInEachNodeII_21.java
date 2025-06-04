@@ -5,13 +5,12 @@ import java.util.Arrays;
 import static com.diguage.algo.leetcode._0116_PopulatingNextRightPointersInEachNode.Node;
 import static com.diguage.algo.leetcode._0116_PopulatingNextRightPointersInEachNode.build;
 
-/**
- * @author D瓜哥 · https://www.diguage.com
- * @since 2024-06-25 17:26:18
- */
 public class _0117_PopulatingNextRightPointersInEachNodeII_21 {
   // tag::answer[]
-
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-25 17:26:18
+   */
   public Node connect(Node root) {
     if (root == null) {
       return null;

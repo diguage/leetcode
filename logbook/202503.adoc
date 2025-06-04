@@ -913,6 +913,11 @@ endif::[]
 |{doc_base_url}/0114-flatten-binary-tree-to-linked-list.adoc[题解]
 |✅ 右子树肯定比左子树的最大值还要大，所以，可以直接把右子树直接挂在左子树的右子树上。然后，把左子树挂在右子树的指针上，当前节点向右移动一下，继续上面的操作。
 
+|{counter:codes2503}
+|{leetcode_base_url}/populating-next-right-pointers-in-each-node-ii/[117. 填充每个节点的下一个右侧节点指针 II^]
+|{doc_base_url}/0117-populating-next-right-pointers-in-each-node-ii.adoc[题解]
+|✅ 在上一层构建下一层的连接。由于存在空节点，要在运动中找“最左节点”和“前一个节点”。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

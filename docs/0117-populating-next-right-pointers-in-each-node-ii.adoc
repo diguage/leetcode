@@ -1,12 +1,11 @@
 [#0117-populating-next-right-pointers-in-each-node-ii]
-= 117. Populating Next Right Pointers in Each Node II
+= 117. 填充每个节点的下一个右侧节点指针 II
 
-{leetcode}/problems/populating-next-right-pointers-in-each-node-ii/[LeetCode - Populating Next Right Pointers in Each Node II^]
+https://leetcode.cn/problems/populating-next-right-pointers-in-each-node-ii/[LeetCode - 117. 填充每个节点的下一个右侧节点指针 II ^]
 
-Given a binary tree
+给定一个二叉树：
 
-[source,c]
-[subs="verbatim,quotes,macros"]
+[source,c,subs="verbatim,quotes,macros"]
 ----
 struct Node {
   int val;
@@ -16,33 +15,40 @@ struct Node {
 }
 ----
 
-Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to `NULL`.
+填充它的每个 `next` 指针，让这个指针指向其下一个右侧节点。如果找不到下一个右侧节点，则将 `next` 指针设置为 `NULL` 。
 
-Initially, all next pointers are set to `NULL`.
+初始状态下，所有 next 指针都被设置为 `NULL` 。
 
-*Follow up:*
-
-* You may only use constant extra space.
-* Recursive approach is fine, you may assume implicit stack space does not count as extra space for this problem.
-
-*Example 1:*
+*示例 1：*
 
 image::images/0117-1.png[{image_attr}]
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* root = [1,2,3,4,5,null,7]
-*Output:* [1,#,2,3,#,4,5,7,#]
-*Explanation:* Given the above binary tree (Figure A), your function should populate each next pointer to point to its next right node, just like in Figure B. The serialized output is in level order as connected by the next pointers, with '#' signifying the end of each level.
-----
+....
+输入：root = [1,2,3,4,5,null,7]
+输出：[1,#,2,3,#,4,5,7,#]
+解释：给定二叉树如图 A 所示，你的函数应该填充它的每个 next 指针，以指向其下一个右侧节点，如图 B 所示。序列化输出按层序遍历顺序（由 next 指针连接），'#' 表示每层的末尾。
+....
 
-*Constraints:*
+*示例 2：*
 
-* The number of nodes in the given tree is less than `6000`.
-* `-100 <= node.val <= 100`
+....
+输入：root = []
+输出：[]
+....
 
 
-== 解题分析
+*提示：*
+
+* 树中的节点数在范围 `[0, 6000]` 内
+* `+-100 <= Node.val <= 100+`
+
+*进阶：*
+
+* 你只能使用常量级额外空间。
+* 使用递归解题也符合要求，本题中递归程序的隐式栈空间不计入额外空间复杂度。
+
+
+== 思路分析
 
 这道题和 xref:0116-populating-next-right-pointers-in-each-node.adoc[116. Populating Next Right Pointers in Each Node] 算是姊妹题。
 
@@ -61,25 +67,52 @@ image::images/0117-2.jpg[{image_attr}]
 
 这样，把第一种解法的代码稍作修改就可以了。
 
+看题解，别人大部分是用了两层循环，外层是负责向下推进，内层负责同层向右。D瓜哥用了一层循环来遍历每个节点。
 
 [[src-0117]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII_2.java[tag=answer]
 ----
+--
 
+二刷（优化）::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII_21.java[tag=answer]
 ----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0117_PopulatingNextRightPointersInEachNodeII_3.java[tag=answer]
+----
+--
+====
+
 
 == 参考资料
 
 . https://leetcode.cn/problems/populating-next-right-pointers-in-each-node-ii/solutions/18093/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-28/[详细通俗的思路分析，多解法 - 填充每个节点的下一个右侧节点指针 II^]
 . https://leetcode.wang/leetcode-117-Populating-Next-Right-Pointers-in-Each-NodeII.html[117. 填充每个节点的下一个右侧节点指针 II^]
+. https://leetcode.cn/problems/populating-next-right-pointers-in-each-node-ii/solutions/2510360/san-chong-fang-fa-dfsbfsbfslian-biao-fu-1bmqp/[117. 填充每个节点的下一个右侧节点指针 II - 三种方法：DFS/BFS/BFS+链表（附题单）^]
 
