@@ -923,6 +923,11 @@ endif::[]
 |{doc_base_url}/0113-path-sum-ii.adoc[题解]
 |✅ DFS+哈希。本想通过修改原始节点值，省去哈希，但是由于有环，存在循环依赖，没办法省掉。
 
+|{counter:codes2503}
+|{leetcode_base_url}/gas-station/[134. Gas Station^]
+|{doc_base_url}/0134-gas-station.adoc[题解]
+|✅ 看其他题解是贪心算法。我的解法感觉是遍历，不知道算不算贪心。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
