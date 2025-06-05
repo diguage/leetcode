@@ -918,6 +918,11 @@ endif::[]
 |{doc_base_url}/0117-populating-next-right-pointers-in-each-node-ii.adoc[题解]
 |✅ 在上一层构建下一层的连接。由于存在空节点，要在运动中找“最左节点”和“前一个节点”。
 
+|{counter:codes2503}
+|{leetcode_base_url}/path-sum-ii/[113. Path Sum II^]
+|{doc_base_url}/0113-path-sum-ii.adoc[题解]
+|✅ DFS+哈希。本想通过修改原始节点值，省去哈希，但是由于有环，存在循环依赖，没办法省掉。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

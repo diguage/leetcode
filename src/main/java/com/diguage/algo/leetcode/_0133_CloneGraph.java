@@ -2,12 +2,12 @@ package com.diguage.algo.leetcode;
 
 import java.util.*;
 
-/**
- * @author D瓜哥 · https://www.diguage.com
- * @since 2020-02-10 00:22
- */
 public class _0133_CloneGraph {
   // tag::answer[]
+    /**
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-10 00:22
+     */
     // Definition for a Node.
     static class Node {
         public int val;
@@ -15,12 +15,12 @@ public class _0133_CloneGraph {
 
         public Node() {
             val = 0;
-            neighbors = new ArrayList<Node>();
+            neighbors = new ArrayList<>();
         }
 
         public Node(int _val) {
             val = _val;
-            neighbors = new ArrayList<Node>();
+            neighbors = new ArrayList<>();
         }
 
         public Node(int _val, ArrayList<Node> _neighbors) {
