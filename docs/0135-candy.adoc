@@ -1,37 +1,43 @@
 [#0135-candy]
-= 135. Candy
+= 135. 分发糖果
 
-{leetcode}/problems/candy/[LeetCode - Candy^]
+https://leetcode.cn/problems/candy/[LeetCode - 135. 分发糖果 ^]
 
-There are _N_ children standing in a line. Each child is assigned a rating value.
+`n` 个孩子站成一排。给你一个整数数组 `ratings` 表示每个孩子的评分。
 
-You are giving candies to these children subjected to the following requirements:
+你需要按照以下要求，给这些孩子分发糖果：
+
+* 每个孩子至少分配到 `1` 个糖果。
+* 相邻两个孩子评分更高的孩子会获得更多的糖果。
+
+请你给每个孩子分发糖果，计算并返回需要准备的 *最少糖果数目* 。
 
 
-* Each child must have at least one candy.
-* Children with a higher rating get more candies than their neighbors.
+*示例 1：*
+
+....
+输入：ratings = [1,0,2]
+输出：5
+解释：你可以分别给第一个、第二个、第三个孩子分发 2、1、2 颗糖果。
+....
+
+*示例 2：*
+
+....
+输入：ratings = [1,2,2]
+输出：4
+解释：你可以分别给第一个、第二个、第三个孩子分发 1、2、1 颗糖果。
+     第三个孩子只得到 1 颗糖果，这满足题面中的两个条件。
+....
 
 
-What is the minimum candies you must give?
+*提示：*
 
-*Example 1:*
+* `+n == ratings.length+`
+* `1 \<= n \<= 2 * 10^4^`
+* `0 \<= ratings[i] \<= 2 * 10^4^`
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,0,2]
-*Output:* 5
-*Explanation:* You can allocate to the first, second and third child with 2, 1, 2 candies respectively.
-----
 
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,2,2]
-*Output:* 4
-*Explanation:* You can allocate to the first, second and third child with 1, 2, 1 candies respectively.
-             The third child gets 1 candy because it satisfies the above two conditions.
-----
 
 == 思路分析
 
@@ -55,17 +61,19 @@ include::{sourcedir}/_0135_Candy.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0135_Candy_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0135_Candy_2.java[tag=answer]
+----
+--
 ====
+
 
 == 参考资料
 
-. https://leetcode.cn/problems/candy/solutions/17847/candy-cong-zuo-zhi-you-cong-you-zhi-zuo-qu-zui-da-/?envType=study-plan-v2&envId=selected-coding-interview[135. 分发糖果 - 贪心思想，线性复杂度，清晰图解^]
+. https://leetcode.cn/problems/candy/solutions/17847/candy-cong-zuo-zhi-you-cong-you-zhi-zuo-qu-zui-da-/[135. 分发糖果 - 贪心思想，线性复杂度，清晰图解^]
+. https://leetcode.cn/problems/candy/solutions/533150/fen-fa-tang-guo-by-leetcode-solution-f01p/[135. 分发糖果 - 官方题解^]
 

@@ -928,6 +928,11 @@ endif::[]
 |{doc_base_url}/0134-gas-station.adoc[题解]
 |✅ 看其他题解是贪心算法。我的解法感觉是遍历，不知道算不算贪心。
 
+|{counter:codes2503}
+|{leetcode_base_url}/candy/[135. 分发糖果^]
+|{doc_base_url}/0135-candy.adoc[题解]
+|⭕️初步设想是一次遍历。后来看题解，可以从两端遍历，再就和。这样可以省去很多判断。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
