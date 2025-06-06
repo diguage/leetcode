@@ -33,6 +33,7 @@
     <asciidoctor-multipage.version>0.0.19</asciidoctor-multipage.version>
     <asciidoctor-tabs.version>1.0.0.beta.6</asciidoctor-tabs.version>
     <rouge.version>4.3.0</rouge.version>
+    <asciidoctor-kroki.version>0.10.0</asciidoctor-kroki.version>
     <asciidoclet.version>2.0.0</asciidoclet.version>
     <asciidoctor-maven-plugin.version>3.2.0</asciidoctor-maven-plugin.version>
     <mavengem-wagon.version>2.0.2</mavengem-wagon.version>
@@ -426,6 +427,18 @@
       <dependencies>
         <dependency>
           <groupId>rubygems</groupId>
+          <artifactId>asciidoctor-kroki</artifactId>
+          <version>${asciidoctor-kroki.version}</version>
+          <type>gem</type>
+          <exclusions>
+            <exclusion>
+              <groupId>rubygems</groupId>
+              <artifactId>asciidoctor</artifactId>
+            </exclusion>
+          </exclusions>
+        </dependency>
+        <dependency>
+          <groupId>rubygems</groupId>
           <artifactId>rouge</artifactId>
           <version>${rouge.version}</version>
           <type>gem</type>
@@ -443,28 +456,6 @@
             </exclusion>
           </exclusions>
         </dependency>
-        <!-- <dependency>-->
-        <!--     <groupId>rubygems</groupId>-->
-        <!--     <artifactId>asciidoctor-diagram-plantuml</artifactId>-->
-        <!--     <version>${asciidoctor-diagram-plantuml.version}</version>-->
-        <!--     <type>gem</type>-->
-        <!-- </dependency>-->
-        <!-- <dependency>-->
-        <!--     <groupId>rubygems</groupId>-->
-        <!--     <artifactId>asciidoctor-diagram</artifactId>-->
-        <!--     <version>${asciidoctor-diagram.version}</version>-->
-        <!--     <type>gem</type>-->
-        <!--     <exclusions>-->
-        <!--         <exclusion>-->
-        <!--             <groupId>rubygems</groupId>-->
-        <!--             <artifactId>asciidoctor</artifactId>-->
-        <!--         </exclusion>-->
-        <!--         <exclusion>-->
-        <!--             <groupId>rubygems</groupId>-->
-        <!--             <artifactId>asciidoctor-diagram-plantuml</artifactId>-->
-        <!--         </exclusion>-->
-        <!--     </exclusions>-->
-        <!-- </dependency>-->
         <dependency>
           <groupId>rubygems</groupId>
           <artifactId>asciidoctor-multipage</artifactId>
@@ -868,12 +859,15 @@
                 <html_src_attr>source%nowrap,html,{source_attr}</html_src_attr>
                 <image_attr>align="center",width=95%</image_attr>
                 <diagram_attr>format=svg,align="center",width=95%</diagram_attr>
+                <diagram_dir>${project.basedir}/docs/assets/diagrams</diagram_dir>
                 <plantumlconfig>${project.basedir}/cfg/plantuml.cfg</plantumlconfig>
                 <toc-title>目录</toc-title>
                 <iconfont-cdn>//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css</iconfont-cdn>
                 <doc_base_url>xref:.</doc_base_url>
                 <leetcode>https://leetcode.cn</leetcode>
                 <leetcode_base_url>https://leetcode.cn/problems</leetcode_base_url>
+                <kroki-fetch-diagram>true</kroki-fetch-diagram>
+                <kroki-plantuml-include-paths>${project.basedir}/docs/assets/diagrams</kroki-plantuml-include-paths>
               </attributes>
             </configuration>
             <executions>
@@ -889,7 +883,7 @@
                   <gemPath>${gem.path}</gemPath>
                   <requires>
                     <require>asciidoctor-tabs</require>
-                    <require>asciidoctor-diagram</require>
+                    <require>asciidoctor-kroki</require>
                     <require>asciidoctor-multipage</require>
                     <require>asciidoctor-comment-links</require>
                   </requires>
@@ -916,7 +910,7 @@
               <!--     <gemPath>${gem.path}</gemPath>-->
               <!--     <requires>-->
               <!--       <require>asciidoctor-tabs</require>-->
-              <!--       <require>asciidoctor-diagram</require>-->
+              <!--       <require>asciidoctor-kroki</require>-->
               <!--       <require>asciidoctor-comment-links</require>-->
               <!--     </requires>-->
               <!--   </configuration>-->
@@ -936,7 +930,7 @@
               <!--             <source-highlighter>coderay</source-highlighter>-->
               <!--         </attributes>-->
               <!--         <requires>-->
-              <!--             <require>asciidoctor-diagram</require>-->
+              <!--             <require>asciidoctor-kroki</require>-->
               <!--         </requires>-->
               <!--     </configuration>-->
               <!-- </execution>-->
@@ -971,7 +965,7 @@
               <!--             &lt;!&ndash;<optimize>prepress</optimize>&ndash;&gt;-->
               <!--         </attributes>-->
               <!--         <requires>-->
-              <!--             <require>asciidoctor-diagram</require>-->
+              <!--             <require>asciidoctor-kroki</require>-->
               <!--         </requires>-->
               <!--     </configuration>-->
               <!-- </execution>-->

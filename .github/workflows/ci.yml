@@ -29,11 +29,6 @@ jobs:
           java-version: '21'
           cache: 'maven'
 
-      - name: Install Graphviz 🐰
-        run: |
-          sudo apt update -y -m
-          sudo apt install -y graphviz
-
       # 将 `xref` 和 `{doc_base_url}/` 引用，切换成锚点引用 `<<id>>`
       # 这样的话，没有做的题，因为没有 include 进来，就找不到锚地，方便识别
       - name: Improve Document 📝
