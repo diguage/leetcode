@@ -931,7 +931,12 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/candy/[135. 分发糖果^]
 |{doc_base_url}/0135-candy.adoc[题解]
-|⭕️初步设想是一次遍历。后来看题解，可以从两端遍历，再就和。这样可以省去很多判断。
+|⭕️ 初步设想是一次遍历。后来看题解，可以从两端遍历，再就和。这样可以省去很多判断。
+
+|{counter:codes2503}
+|{leetcode_base_url}/max-points-on-a-line/[149. 直线上最多的点数^]
+|{doc_base_url}/0149-max-points-on-a-line.adoc[题解]
+|⭕️ 通过计算 stem:[(y_1 - y_2) / (x_1 - x_2) = (y_2 - y_3)/(x_2 - x_3)] 即可确定三个点是否在同一个直线上。
 
 |===
 
