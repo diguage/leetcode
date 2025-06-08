@@ -938,6 +938,11 @@ endif::[]
 |{doc_base_url}/0149-max-points-on-a-line.adoc[题解]
 |⭕️ 通过计算 stem:[(y_1 - y_2) / (x_1 - x_2) = (y_2 - y_3)/(x_2 - x_3)] 即可确定三个点是否在同一个直线上。
 
+|{counter:codes2503}
+|{leetcode_base_url}/evaluate-reverse-polish-notation/[150. 逆波兰表达式求值^]
+|{doc_base_url}/0150-evaluate-reverse-polish-notation.adoc[题解]
+|✅ 遇到数字就入栈，遇到运算符号就将栈顶元素出栈，计算完成后再入栈。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
