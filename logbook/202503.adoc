@@ -948,6 +948,11 @@ endif::[]
 |{doc_base_url}/0151-reverse-words-in-a-string.adoc[题解]
 |✅ 双指针，切割对调。
 
+|{counter:codes2503}
+|{leetcode_base_url}/find-minimum-in-rotated-sorted-array/[153. 寻找旋转排序数组中的最小值^]
+|{doc_base_url}/0153-find-minimum-in-rotated-sorted-array.adoc[题解]
+|✅ 二分查找！只要聚焦于最低点所在局域即可。其他区域可以忽略。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
