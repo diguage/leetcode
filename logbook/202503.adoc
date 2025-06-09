@@ -943,6 +943,11 @@ endif::[]
 |{doc_base_url}/0150-evaluate-reverse-polish-notation.adoc[题解]
 |✅ 遇到数字就入栈，遇到运算符号就将栈顶元素出栈，计算完成后再入栈。
 
+|{counter:codes2503}
+|{leetcode_base_url}/reverse-words-in-a-string/[151. 反转字符串中的单词^]
+|{doc_base_url}/0151-reverse-words-in-a-string.adoc[题解]
+|✅ 双指针，切割对调。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
