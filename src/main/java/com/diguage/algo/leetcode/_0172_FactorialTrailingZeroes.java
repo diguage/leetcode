@@ -35,6 +35,9 @@ public class _0172_FactorialTrailingZeroes {
      * Runtime: 1 ms, faster than 97.29% of Java online submissions for Factorial Trailing Zeroes.
      *
      * Memory Usage: 34 MB, less than 7.69% of Java online submissions for Factorial Trailing Zeroes.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-14 12:11
      */
     public int trailingZeroes(int n) {
         int result = 0;

@@ -1,49 +1,84 @@
 [#0173-binary-search-tree-iterator]
-= 173. Binary Search Tree Iterator
+= 173. 二叉搜索树迭代器
 
-{leetcode}/problems/binary-search-tree-iterator/[LeetCode - Binary Search Tree Iterator^]
+https://leetcode.cn/problems/binary-search-tree-iterator/[LeetCode - 173. 二叉搜索树迭代器 ^]
 
-Implement an iterator over a binary search tree (BST). Your iterator will be initialized with the root node of a BST.
+实现一个二叉搜索树迭代器类 `BSTIterator`，表示一个按中序遍历二叉搜索树（BST）的迭代器：
 
-Calling `next()` will return the next smallest number in the BST.
+* `BSTIterator(TreeNode root)` 初始化 `BSTIterator` 类的一个对象。BST 的根节点 `root` 会作为构造函数的一部分给出。指针应初始化为一个不存在于 BST 中的数字，且该数字小于 BST 中的任何元素。
+* `boolean hasNext()` 如果向指针右侧遍历存在数字，则返回 `true`；否则返回 `false` 。
+* `int next()`将指针向右移动，然后返回指针处的数字。
 
- 
+注意，指针初始化为一个不存在于 BST 中的数字，所以对 `next()` 的首次调用将返回 BST 中的最小元素。
 
+你可以假设 `next()` 调用总是有效的，也就是说，当调用 `next()` 时，BST 的中序遍历中至少存在一个下一个数字。
 
+*示例：*
 
+image::images/0173-01.png[{image_attr}]
 
-*Example:*
+....
+输入
+["BSTIterator", "next", "next", "hasNext", "next", "hasNext", "next", "hasNext", "next", "hasNext"]
+[[[7, 3, 15, null, null, 9, 20]], [], [], [], [], [], [], [], [], []]
+输出
+[null, 3, 7, true, 9, true, 15, true, 20, false]
 
-image::https://assets.leetcode.com/uploads/2018/12/25/bst-tree.png[{image_attr}]
-
-[subs="verbatim,quotes,macros"]
-----
-BSTIterator iterator = new BSTIterator(root);
-iterator.next();    // return 3
-iterator.next();    // return 7
-iterator.hasNext(); // return true
-iterator.next();    // return 9
-iterator.hasNext(); // return true
-iterator.next();    // return 15
-iterator.hasNext(); // return true
-iterator.next();    // return 20
-iterator.hasNext(); // return false
-----
-
- 
-
-*Note:*
-
-
-* `next()` and `hasNext()` should run in average O(1) time and uses O(_h_) memory, where _h_ is the height of the tree.
-* You may assume that `next()` call will always be valid, that is, there will be at least a next smallest number in the BST when `next()` is called.
-
+解释
+BSTIterator bSTIterator = new BSTIterator([7, 3, 15, null, null, 9, 20]);
+bSTIterator.next();    // 返回 3
+bSTIterator.next();    // 返回 7
+bSTIterator.hasNext(); // 返回 True
+bSTIterator.next();    // 返回 9
+bSTIterator.hasNext(); // 返回 True
+bSTIterator.next();    // 返回 15
+bSTIterator.hasNext(); // 返回 True
+bSTIterator.next();    // 返回 20
+bSTIterator.hasNext(); // 返回 False
+....
 
 
+*提示：*
+
+* 树中节点的数目在范围 `[1, 10^5^]` 内
+* `0 \<= Node.val \<= 10^6^`
+* 最多调用 `10`^`5`^ 次 `hasNext` 和 `next` 操作
+
+*进阶：*
+
+* 你可以设计一个满足下述条件的解决方案吗？`next()` 和 `hasNext()` 操作均摊时间复杂度为 `O(1)` ，并使用 stem:[O(h)] 内存。其中 `h` 是树的高度。
+
+
+== 思路分析
+
+使用栈模拟递归调用。
+
+image::images/0173-10.jpeg[{image_attr}]
 
 [[src-0173]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0173_BinarySearchTreeIterator.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0173_BinarySearchTreeIterator_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/binary-search-tree-iterator/solutions/684560/fu-xue-ming-zhu-dan-diao-zhan-die-dai-la-dkrm/[173. 二叉搜索树迭代器 - 单调栈！迭代来自对递归的理解^]
+. https://leetcode.cn/problems/binary-search-tree-iterator/solutions/684405/xiang-jie-ru-he-dui-die-dai-ban-de-zhong-4rxj/[173. 二叉搜索树迭代器 - 详解如何对「迭代版的中序遍历」来做等价拆分^]

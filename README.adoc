@@ -1237,13 +1237,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/binary-search-tree-iterator/[173. Binary Search Tree Iterator^]
-//|{source_base_url}/_0173_BinarySearchTreeIterator.java[Java]
-//|{doc_base_url}/0173-binary-search-tree-iterator.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/binary-search-tree-iterator/[173. Binary Search Tree Iterator^]
+|{source_base_url}/_0173_BinarySearchTreeIterator.java[Java]
+|{doc_base_url}/0173-binary-search-tree-iterator.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/dungeon-game/[174. Dungeon Game^]
 //|{source_base_url}/_0174_DungeonGame.java[Java]
