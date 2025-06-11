@@ -958,6 +958,11 @@ endif::[]
 |{doc_base_url}/0173-binary-search-tree-iterator.adoc[题解]
 |✅ 栈。使用栈模拟递归调用。
 
+|{counter:codes2503}
+|{leetcode_base_url}/bitwise-and-of-numbers-range/[201. 数字范围按位与^]
+|{doc_base_url}/0201-bitwise-and-of-numbers-range.adoc[题解]
+|⭕️ 位运算！暴力解法超时！可以利用 stem:[n&(n-1)] 去掉 `n` 的最后一位 `1`，反复计算，直到范围的左边界为止即可得到答案。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

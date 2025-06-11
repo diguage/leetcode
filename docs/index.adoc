@@ -485,7 +485,7 @@ include::0199-binary-tree-right-side-view.adoc[leveloffset=+1]
 
 include::0200-number-of-islands.adoc[leveloffset=+1]
 
-// include::0201-bitwise-and-of-numbers-range.adoc[leveloffset=+1]
+include::0201-bitwise-and-of-numbers-range.adoc[leveloffset=+1]
 
 include::0202-happy-number.adoc[leveloffset=+1]
 
