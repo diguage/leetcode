@@ -52,9 +52,17 @@ jobs:
       - name: Add Giscus 🗣️
         run: |
           cd target/docs/multipage/
-          sed -i 's@\(<div id="footer">\)@<script src="https://giscus.app/client.js" data-repo="diguage/leetcode" data-repo-id="MDEwOlJlcG9zaXRvcnkxNDA4NjIxMjI=" data-category="General" data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyMTE4MDgz" data-mapping="og:title" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="zh-CN" data-loading="lazy" crossorigin="anonymous" async></script>\1@' *.html
-          # 提前文件名称作为评论识别码
-          for file in ./*.html;
+          # 📢 注意，有几个地方需要修改：
+          # 1. 仓库地址
+          # 2. 仓库 ID
+          # 3. 数据分类名称
+          # 4. 数据分类 ID
+          dataRepo='diguage/leetcode'
+          dataRepoId='MDEwOlJlcG9zaXRvcnkxNDA4NjIxMjI='
+          dataCategory='General'
+          dataCategoryId='MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyMTE4MDgz'
+          # 📢 注意，现在是提取文件名作为 Giscus 参数！请根据需要自定义 Giscus 参数。
+          for file in `find . -name "*.html"`;
           do
             fileBaseName=$(basename -- "$file")
             fileName="${fileBaseName%.*}"
@@ -69,6 +77,7 @@ jobs:
                fileName="${fileName:20:${#fileName}}"
             fi
             sed -i "s@\(<title>\)@<meta property=\"og:title\" content=\"${fileName}\">\n\1@" $file
+            sed -i -z "s@\(</div>\n<div id=\"footer\">\)@<script src=\"https://giscus.app/client.js\" data-repo=\"${dataRepo}\" data-repo-id=\"${dataRepoId}\" data-category=\"${dataCategory}\" data-category-id=\"${dataCategoryId}\" data-mapping=\"og:title\" data-strict=\"0\" data-reactions-enabled=\"1\" data-emit-metadata=\"1\" data-input-position=\"top\" data-theme=\"preferred_color_scheme\" data-lang=\"zh-CN\" data-loading=\"lazy\" crossorigin=\"anonymous\" async></script>\n\1@" $file
           done
 
       - name: Add Tab Resource 🌗
