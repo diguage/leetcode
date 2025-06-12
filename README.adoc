@@ -1510,12 +1510,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/word-search-ii/[212. Word Search II^]
-//|{source_base_url}/_0212_WordSearchII.java[Java]
-//|{doc_base_url}/0212-word-search-ii.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/word-search-ii/[212. Word Search II^]
+|{source_base_url}/_0212_WordSearchII.java[Java]
+|{doc_base_url}/0212-word-search-ii.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/house-robber-ii/[213. House Robber II^]
