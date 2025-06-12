@@ -9,7 +9,9 @@ public class _0212_WordSearchIi {
   // tag::answer[]
 
   /**
-   * 通过 43 / 65 个测试用例。超时！
+   * 回溯+前缀树
+   * <p>
+   * 优化前，利用回溯，通过 43 / 65 个测试用例。超时！
    *
    * @author D瓜哥 · https://www.diguage.com
    * @since 2025-06-12 22:53:03
