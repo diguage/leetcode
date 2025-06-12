@@ -1,74 +1,94 @@
 package com.diguage.algo.leetcode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class _0212_WordSearchIi {
   // tag::answer[]
+
   /**
    * 通过 43 / 65 个测试用例。超时！
    *
    * @author D瓜哥 · https://www.diguage.com
    * @since 2025-06-12 22:53:03
    */
+  int[][] options = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+
   public List<String> findWords(char[][] board, String[] words) {
-    Arrays.sort(words, String::compareTo);
-    Map<Character, List<String>> charToWordMap = new HashMap<>();
-    for (int i = 0; i < words.length; i++) {
-      String word = words[i];
-      char c = word.charAt(0);
-      charToWordMap.computeIfAbsent(c, k -> new ArrayList<>()).add(word);
-    }
-    Map<Character, List<int[]>> charToIndexMap = new HashMap<>();
-    for (int r = 0; r < board.length; r++) {
-      for (int c = 0; c < board[r].length; c++) {
-        char ac = board[r][c];
-        if (charToWordMap.containsKey(ac)) {
-          charToIndexMap.computeIfAbsent(ac, k -> new ArrayList<>())
-            .add(new int[]{r, c});
-        }
-      }
+    Trie trie = new Trie();
+    for (String word : words) {
+      trie.insert(word);
     }
     Set<String> result = new HashSet<>();
-    charToIndexMap.forEach((k, v) -> {
-      for (int[] idx : v) {
-        List<String> aWords = charToWordMap.get(k);
-        for (String aw : aWords) {
-          dfs(board, idx[0], idx[1], aw, 0, new HashSet<>(), result);
-        }
+    for (int r = 0; r < board.length; r++) {
+      for (int c = 0; c < board[r].length; c++) {
+        dfs(board, r, c, trie, result);
       }
-    });
+    }
     return new ArrayList<>(result);
   }
 
   private void dfs(char[][] board, int row, int col,
-                   String word, int idx, Set<List<Integer>> path,
-                   Set<String> result) {
-    List<Integer> index = Arrays.asList(row, col);
-    if (path.contains(index)) {
-      return;
-    }
-    if (result.contains(word)) {
-      return;
-    }
-    if (idx == word.length()) {
-      result.add(word);
-      return;
-    }
+                   Trie trie, Set<String> result) {
     if (row < 0 || row >= board.length
       || col < 0 || col >= board[0].length) {
       return;
     }
-    if (board[row][col] != word.charAt(idx)) {
+    char letter = board[row][col];
+    if (!trie.containsLetter(letter)) {
       return;
     }
-    path.add(index);
-    int[][] options = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+    trie = trie.search(letter);
+    if (trie.word != null) {
+      result.add(trie.word);
+    }
+    board[row][col] = '#';
     for (int[] option : options) {
       int r = row + option[0];
       int c = col + option[1];
-      dfs(board, r, c, word, idx + 1, path, result);
+      dfs(board, r, c, trie, result);
     }
-    path.remove(index);
+    board[row][col] = letter;
+  }
+
+  public static class Trie {
+    Trie[] children = new Trie[26];
+    String word;
+
+    public void insert(String word) {
+      Trie curr = this;
+      for (int i = 0; i < word.length(); i++) {
+        char c = word.charAt(i);
+        if (curr.children[c - 'a'] == null) {
+          curr.children[c - 'a'] = new Trie();
+        }
+        curr = curr.children[c - 'a'];
+      }
+      curr.word = word;
+    }
+
+    public boolean containsLetter(char letter) {
+      int idx = letter - 'a';
+      if (idx < 0 || idx >= children.length) {
+        return false;
+      }
+      return children[idx] != null;
+    }
+
+    public Trie search(char letter) {
+      return children[letter - 'a'];
+    }
   }
   // end::answer[]
+
+  public static void main(String[] args) {
+    new _0212_WordSearchIi().findWords(new char[][]{
+        {'o', 'a', 'b', 'n'},
+        {'o', 't', 'a', 'e'},
+        {'a', 'h', 'k', 'r'},
+        {'a', 'f', 'l', 'v'}},
+      new String[]{"oa", "oaa"});
+  }
 }
