@@ -47,6 +47,8 @@ image::images/0212-02.jpg[{image_attr}]
 
 回溯：先根据首字母对单词进行分类，再遍历矩阵，找出首字母对应的坐标点。再对单词列表和坐标点进行回溯匹配。通过 43 / 65 个测试用例，后超时！
 
+利用前缀树+回溯，可以避免重复判断单词相同的前缀部分，可以节省大量的计算。
+
 [[src-0212]]
 [tabs]
 ====
@@ -72,4 +74,5 @@ include::{sourcedir}/_0212_WordSearchIi.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/word-search-ii/solutions/1000172/dan-ci-sou-suo-ii-by-leetcode-solution-7494/[212. 单词搜索 II - 官方题解^]
+. https://leetcode.cn/problems/word-search-ii/solutions/1000184/tong-ge-lai-shua-ti-la-yi-ti-si-jie-zi-d-2igi/[212. 单词搜索 II - 一题四解：字典树 & DFS & 回溯 & 剪枝 & 位运算，层层递进，不断优化！^]
