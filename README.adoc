@@ -1558,14 +1558,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0218-the-skyline-problem.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/contains-duplicate-ii/[219. Contains Duplicate II^]
-//|{source_base_url}/_0219_ContainsDuplicateII.java[Java]
-//|{doc_base_url}/0219-contains-duplicate-ii.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/contains-duplicate-ii/[219. Contains Duplicate II^]
+|{source_base_url}/_0219_ContainsDuplicateII.java[Java]
+|{doc_base_url}/0219-contains-duplicate-ii.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/contains-duplicate-iii/[220. Contains Duplicate III^]
 //|{source_base_url}/_0220_ContainsDuplicateIII.java[Java]

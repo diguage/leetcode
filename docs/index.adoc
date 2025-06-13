@@ -521,7 +521,7 @@ include::0217-contains-duplicate.adoc[leveloffset=+1]
 
 // include::0218-the-skyline-problem.adoc[leveloffset=+1]
 
-// include::0219-contains-duplicate-ii.adoc[leveloffset=+1]
+include::0219-contains-duplicate-ii.adoc[leveloffset=+1]
 
 // include::0220-contains-duplicate-iii.adoc[leveloffset=+1]
 

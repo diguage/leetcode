@@ -1,45 +1,70 @@
 [#0219-contains-duplicate-ii]
-= 219. Contains Duplicate II
+= 219. 存在重复元素 II
 
-{leetcode}/problems/contains-duplicate-ii/[LeetCode - Contains Duplicate II^]
+https://leetcode.cn/problems/contains-duplicate-ii/[LeetCode - 219. 存在重复元素 II ^]
 
-Given an array of integers and an integer _k_, find out whether there are two distinct indices _i_ and _j_ in the array such that *nums[i] = nums[j]* and the *absolute* difference between _i_ and _j_ is at most _k_.
+给你一个整数数组 `nums` 和一个整数 `k` ，判断数组中是否存在两个 *不同的索引* `i` 和 `j` ，满足 `nums[i] == nums[j]` 且 `+abs(i - j) <= k+` 。如果存在，返回 `true` ；否则，返回 `false` 。
 
+*示例 1：*
 
-*Example 1:*
+....
+输入：nums = [1,2,3,1], k = 3
+输出：true
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* nums = [1,2,3,1], k = 3
-*Output:* true
-----
+*示例 2：*
 
+....
+输入：nums = [1,0,1,1], k = 1
+输出：true
+....
 
-*Example 2:*
+*示例 3：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* nums = [1,0,1,1], k = 1
-*Output:* true
-----
+....
+输入：nums = [1,2,3,1,2,3], k = 2
+输出：false
+....
 
+*提示：*
 
-*Example 3:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* nums = [1,2,3,1,2,3], k = 2
-*Output:* false
-----
-
-
+* `1 \<= nums.length \<= 10^5^`
+* `-10^9^ \<= nums[i] \<= 10^9^`
+* `0 \<= k \<= 10^5^`
 
 
+== 思路分析
 
+扫描数组，保存每个数字最后一次的下标，如果遇到已经保存过下标的数字，则判断两个下标差值是否小于指定数字 `k`，是就返回 `true`，否则继续遍历。
+
+看题解，只保存滑动窗口范围内的数字，即可判断是否存在重复数字，更节省内存！
 
 [[src-0219]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0219_ContainsDuplicateII.java[tag=answer]
+include::{sourcedir}/_0219_ContainsDuplicateIi.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0219_ContainsDuplicateIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/contains-duplicate-ii/solutions/1219675/gong-shui-san-xie-hua-dong-chuang-kou-yu-q02i/[219. 存在重复元素 II - 滑动窗口运用题^] -- 只保存滑动窗口范围内的数字，即可判断是否存在重复数字，更节省内存！
+. https://leetcode.cn/problems/contains-duplicate-ii/solutions/13564/hua-jie-suan-fa-219-cun-zai-zhong-fu-yuan-su-ii-by/[219. 存在重复元素 II - 画解算法：219. 存在重复元素 II^]
+. https://leetcode.cn/problems/contains-duplicate-ii/solutions/3041742/liang-chong-fang-fa-mei-ju-you-wei-hu-zu-kwjf/[219. 存在重复元素 II - 两种方法：枚举右维护左/定长滑动窗口^]
+. https://leetcode.cn/problems/contains-duplicate-ii/solutions/1218075/cun-zai-zhong-fu-yuan-su-ii-by-leetcode-kluvk/[219. 存在重复元素 II - 官方题解^]

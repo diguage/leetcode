@@ -968,6 +968,12 @@ endif::[]
 |{doc_base_url}/0212-word-search-ii.adoc[题解]
 |⭕️ 回溯，通过 43 / 65 个测试用例，后超时。利用前缀树+回溯，可以避免重复判断单词相同的前缀部分，可以节省大量的计算。
 
+|{counter:codes2503}
+|{leetcode_base_url}/contains-duplicate-ii/[219. 存在重复元素 II^]
+|{doc_base_url}/0219-contains-duplicate-ii.adoc[题解]
+|✅ 使用哈希存每个数字的最后坐标，遇到相同就判断是否满足条件，否则继续推进。看题解，只保存滑动窗口范围内的数字，可以更节省内存！
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

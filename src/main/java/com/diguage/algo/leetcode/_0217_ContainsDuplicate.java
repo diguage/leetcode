@@ -44,6 +44,9 @@ public class _0217_ContainsDuplicate {
      * Runtime: 9 ms, faster than 58.06% of Java online submissions for Contains Duplicate.
      *
      * Memory Usage: 44.4 MB, less than 57.76% of Java online submissions for Contains Duplicate.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-05 20:01
      */
     public boolean containsDuplicate(int[] nums) {
         if (Objects.isNull(nums) || nums.length < 2) {
