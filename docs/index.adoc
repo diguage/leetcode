@@ -539,7 +539,7 @@ include::0226-invert-binary-tree.adoc[leveloffset=+1]
 
 include::0227-basic-calculator-ii.adoc[leveloffset=+1]
 
-// include::0228-summary-ranges.adoc[leveloffset=+1]
+include::0228-summary-ranges.adoc[leveloffset=+1]
 
 // include::0229-majority-element-ii.adoc[leveloffset=+1]
 

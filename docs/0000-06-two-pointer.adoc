@@ -43,6 +43,7 @@
 . xref:0186-reverse-words-in-a-string-ii.adoc[186. Reverse Words in a String II]
 . xref:0189-rotate-array.adoc[189. Rotate Array]
 . xref:0202-happy-number.adoc[202. Happy Number]
+. xref:0228-summary-ranges.adoc[228. Summary Ranges]
 . xref:0234-palindrome-linked-list.adoc[234. Palindrome Linked List]
 . xref:0244-shortest-word-distance-ii.adoc[244. Shortest Word Distance II]
 . xref:0246-strobogrammatic-number.adoc[246. Strobogrammatic Number]

@@ -48,6 +48,9 @@ public class _0227_BasicCalculatorIi {
      * Memory Usage: 42.8 MB, less than 5.97% of Java online submissions for Basic Calculator II.
      *
      * Copy from: https://leetcode.com/problems/basic-calculator-ii/discuss/62996/Java-straight-forward-iteration-Solution-with-comments-No-Stack-O(N)-and-O(1)[Java straight forward iteration Solution with comments, No Stack, O(N) & O(1) - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-19 23:30
      */
     public int calculate(String s) {
         if (Objects.isNull(s) || s.length() == 0) {
