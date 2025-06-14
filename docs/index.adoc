@@ -631,7 +631,7 @@ include::0268-missing-number.adoc[leveloffset=+1]
 
 // include::0273-integer-to-english-words.adoc[leveloffset=+1]
 
-// include::0274-h-index.adoc[leveloffset=+1]
+include::0274-h-index.adoc[leveloffset=+1]
 
 // include::0275-h-index-ii.adoc[leveloffset=+1]
 
