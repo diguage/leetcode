@@ -829,7 +829,7 @@ include::0371-sum-of-two-integers.adoc[leveloffset=+1]
 
 // include::0372-super-pow.adoc[leveloffset=+1]
 
-// include::0373-find-k-pairs-with-smallest-sums.adoc[leveloffset=+1]
+include::0373-find-k-pairs-with-smallest-sums.adoc[leveloffset=+1]
 
 // include::0374-guess-number-higher-or-lower.adoc[leveloffset=+1]
 

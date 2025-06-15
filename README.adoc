@@ -2636,14 +2636,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0372-super-pow.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/find-k-pairs-with-smallest-sums/[373. Find K Pairs with Smallest Sums^]
-//|{source_base_url}/_0373_FindKPairsWithSmallestSums.java[Java]
-//|{doc_base_url}/0373-find-k-pairs-with-smallest-sums.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/find-k-pairs-with-smallest-sums/[373. Find K Pairs with Smallest Sums^]
+|{source_base_url}/_0373_FindKPairsWithSmallestSums.java[Java]
+|{doc_base_url}/0373-find-k-pairs-with-smallest-sums.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/guess-number-higher-or-lower/[374. Guess Number Higher or Lower^]
 //|{source_base_url}/_0374_GuessNumberHigherOrLower.java[Java]
