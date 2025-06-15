@@ -58,6 +58,9 @@ public class _0289_GameOfLife {
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Game of Life.
      *
      * Memory Usage: 35.1 MB, less than 100.00% of Java online submissions for Game of Life.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-10-29 00:01
      */
     public void gameOfLife(int[][] board) {
         if (Objects.isNull(board) || board.length == 0 || board[0].length == 0) {

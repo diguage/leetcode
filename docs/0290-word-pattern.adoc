@@ -1,54 +1,72 @@
 [#0290-word-pattern]
-= 290. Word Pattern
+= 290. 单词规律
 
-{leetcode}/problems/word-pattern/[LeetCode - Word Pattern^]
+https://leetcode.cn/problems/word-pattern/[LeetCode - 290. 单词规律 ^]
 
-Given a `pattern` and a string `str`, find if `str` follows the same pattern.
+给定一种规律 `pattern` 和一个字符串 `s` ，判断 `s` 是否遵循相同的规律。
 
-Here *follow* means a full match, such that there is a bijection between a letter in `pattern` and a *non-empty* word in `str`.
+这里的 **遵循** 指完全匹配，例如，`pattern` 里的每个字母和字符串 `s` 中的每个非空单词之间存在着双向连接的对应规律。
 
-*Example 1:*
+*示例1:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* pattern = `"abba"`, str = `"dog cat cat dog"`
-*Output:* true
-----
+....
+输入: pattern = "abba", s = "dog cat cat dog"
+输出: true
+....
 
-*Example 2:*
+*示例 2:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* pattern = `"abba"`, str = `"dog cat cat fish"`
-*Output:* false
-----
+....
+输入:pattern = "abba", s = "dog cat cat fish"
+输出: false
+....
 
-*Example 3:*
+*示例 3:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* pattern = `"aaaa"`, str = `"dog cat cat dog"`
-*Output:* false
-----
-
-*Example 4:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* pattern = `"abba"`, str = `"dog dog dog dog"`
-*Output:* false
-----
-
-*Notes:*
+....
+输入: pattern = "aaaa", s = "dog cat cat dog"
+输出: false
+....
 
 
-You may assume `pattern` contains only lowercase letters, and `str` contains lowercase letters that may be separated by a single space.
+*提示:*
+
+* `+1 <= pattern.length <= 300+`
+* `pattern` 只包含小写英文字母
+* `+1 <= s.length <= 3000+`
+* `s` 只包含小写英文字母和 `+' '+`
+* `s` *不包含* 任何前导或尾随对空格
+* `s` 中每个单词都被 *单个空格* 分隔
 
 
+== 思路分析
+
+哈希，从字符串截取单词，跟 `pattern` 中的字符建立起一对一的对应关系，发现关系被打破，就返回 `false`。直到最后，返回 `true`。
 
 [[src-0290]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0290_WordPattern.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0290_WordPattern_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/word-pattern/solutions/523102/dan-ci-gui-lu-by-leetcode-solution-6vqv/[290. 单词规律 - 官方题解^]
+. https://leetcode.cn/problems/word-pattern/solutions/192714/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--53/[290. 单词规律 - 详细通俗的思路分析，多解法^]

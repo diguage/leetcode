@@ -663,7 +663,7 @@ include::0287-find-the-duplicate-number.adoc[leveloffset=+1]
 
 include::0289-game-of-life.adoc[leveloffset=+1]
 
-// include::0290-word-pattern.adoc[leveloffset=+1]
+include::0290-word-pattern.adoc[leveloffset=+1]
 
 // include::0291-word-pattern-ii.adoc[leveloffset=+1]
 

@@ -983,6 +983,11 @@ endif::[]
 |{doc_base_url}/0274-h-index.adoc[题解]
 |✅ 排序，从后向前，假如当前数字大于 `h` 指数，则向前移动，同时 `h++`，直到不符合条件。没想到，竟然一次过！
 
+|{counter:codes2503}
+|{leetcode_base_url}/word-pattern/[290. 单词规律^]
+|{doc_base_url}/0290-word-pattern.adoc[题解]
+|✅ 哈希，从字符串截取单词，跟 `pattern` 中的字符建立起一对一的对应关系，发现关系被打破，就返回 `false`。直到最后，返回 `true`。
+
 
 |===
 

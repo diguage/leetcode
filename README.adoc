@@ -2056,13 +2056,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/word-pattern/[290. Word Pattern^]
-//|{source_base_url}/_0290_WordPattern.java[Java]
-//|{doc_base_url}/0290-word-pattern.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/word-pattern/[290. Word Pattern^]
+|{source_base_url}/_0290_WordPattern.java[Java]
+|{doc_base_url}/0290-word-pattern.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/word-pattern-ii/[291. Word Pattern II^]
 //|{source_base_url}/_0291_WordPatternII.java[Java]
