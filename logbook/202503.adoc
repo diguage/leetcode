@@ -993,11 +993,15 @@ endif::[]
 |{doc_base_url}/0373-find-k-pairs-with-smallest-sums.adoc[题解]
 |✅ 使用优先队列，存放最小的 `k` 个组合，使用最大堆，遇到更小的和，就弹出堆顶，加入新组合。
 
-
 |{counter:codes2503}
 |{leetcode_base_url}/ransom-note/[383. 赎金信^]
 |{doc_base_url}/0383-ransom-note.adoc[题解]
 |✅ 先统计 `magazine` 每个字符数量，然后遍历 `ransomNote` 中的字符，在统计数量上做减法，出现负数则不满足要求。
+
+|{counter:codes2503}
+|{leetcode_base_url}/evaluate-division/[399. 除法求值^]
+|{doc_base_url}/0399-evaluate-division.adoc[题解]
+|❌ 将代数式翻译成代码，完全没有思路！一脸懵逼！直接抄的官方题解！
 
 |===
 

@@ -881,7 +881,7 @@ include::0395-longest-substring-with-at-least-k-repeating-characters.adoc[levelo
 
 // include::0398-random-pick-index.adoc[leveloffset=+1]
 
-// include::0399-evaluate-division.adoc[leveloffset=+1]
+include::0399-evaluate-division.adoc[leveloffset=+1]
 
 include::0400-nth-digit.adoc[leveloffset=+1]
 

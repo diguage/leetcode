@@ -2818,13 +2818,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0398-random-pick-index.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/evaluate-division/[399. Evaluate Division^]
-//|{source_base_url}/_0399_EvaluateDivision.java[Java]
-//|{doc_base_url}/0399-evaluate-division.adoc[题解]
-//|Medium
-//|
+
+|{counter:codes}
+|{leetcode_base_url}/evaluate-division/[399. Evaluate Division^]
+|{source_base_url}/_0399_EvaluateDivision.java[Java]
+|{doc_base_url}/0399-evaluate-division.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/nth-digit/[400. Nth Digit^]
