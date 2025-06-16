@@ -48,6 +48,9 @@ public class _0380_InsertDeleteGetRandomO1_2 {
   // tag::answer[]
   /**
    * 自己实现
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-07-05 16:44:29
    */
   class RandomizedSet {
     private List<Integer> nums;

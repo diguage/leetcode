@@ -1,34 +1,70 @@
 [#0383-ransom-note]
-= 383. Ransom Note
+= 383. 赎金信
 
-{leetcode}/problems/ransom-note/[LeetCode - Ransom Note^]
+https://leetcode.cn/problems/ransom-note/[LeetCode - 383. 赎金信 ^]
+
+给你两个字符串：`ransomNote` 和 `magazine` ，判断 `ransomNote` 能不能由 `magazine` 里面的字符构成。
+
+如果可以，返回 `true` ；否则返回 `false` 。
+
+`magazine` 中的每个字符只能在 `ransomNote` 中使用一次。
+
+*示例 1：*
+
+....
+输入：ransomNote = "a", magazine = "b"
+输出：false
+....
+
+*示例 2：*
+
+....
+输入：ransomNote = "aa", magazine = "ab"
+输出：false
+....
+
+*示例 3：*
+
+....
+输入：ransomNote = "aa", magazine = "aab"
+输出：true
+....
 
 
-Given an arbitrary ransom note string and another string containing letters from all the magazines, write a function that will return true if the ransom 
-note can be constructed from the magazines ; otherwise, it will return false. 
+*提示：*
+
+* `1 \<= ransomNote.length, magazine.length \<= 10^5^`
+* `ransomNote` 和 `magazine` 由小写英文字母组成
 
 
-Each letter in the magazine string can only be used once in your ransom note.
+== 思路分析
 
-
-*Note:*
-
-
-You may assume that both strings contain only lowercase letters.
-
-
-[subs="verbatim,quotes,macros"]
-----
-canConstruct("a", "b") -> false
-canConstruct("aa", "ab") -> false
-canConstruct("aa", "aab") -> true
-----
-
-
+先统计 `magazine` 每个字符数量，然后遍历 `ransomNote` 中的字符，在统计数量上做减法，出现负数则不满足要求。
 
 [[src-0383]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0383_RansomNote.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0383_RansomNote_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/ransom-note/solutions/1135839/shu-jin-xin-by-leetcode-solution-ji8a/[383. 赎金信 - 官方题解^]
+. https://leetcode.cn/problems/ransom-note/solutions/3643383/jian-dan-ti-jian-dan-zuo-pythonjavaccgoj-nh3q/[383. 赎金信 - 简单题，简单做^]

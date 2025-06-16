@@ -849,7 +849,7 @@ include::0380-insert-delete-getrandom-o1.adoc[leveloffset=+1]
 
 // include::0382-linked-list-random-node.adoc[leveloffset=+1]
 
-// include::0383-ransom-note.adoc[leveloffset=+1]
+include::0383-ransom-note.adoc[leveloffset=+1]
 
 include::0384-shuffle-an-array.adoc[leveloffset=+1]
 
