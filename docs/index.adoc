@@ -937,7 +937,7 @@ include::0416-partition-equal-subset-sum.adoc[leveloffset=+1]
 
 // include::0426-convert-binary-search-tree-to-sorted-doubly-linked-list.adoc[leveloffset=+1]
 
-// include::0427-construct-quad-tree.adoc[leveloffset=+1]
+include::0427-construct-quad-tree.adoc[leveloffset=+1]
 
 // include::0428-serialize-and-deserialize-n-ary-tree.adoc[leveloffset=+1]
 
