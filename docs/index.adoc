@@ -949,7 +949,7 @@ include::0429-n-ary-tree-level-order-traversal.adoc[leveloffset=+1]
 
 // include::0432-all-oone-data-structure.adoc[leveloffset=+1]
 
-// include::0433-minimum-genetic-mutation.adoc[leveloffset=+1]
+include::0433-minimum-genetic-mutation.adoc[leveloffset=+1]
 
 // include::0434-number-of-segments-in-a-string.adoc[leveloffset=+1]
 

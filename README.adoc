@@ -3056,14 +3056,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0432-all-oone-data-structure.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/minimum-genetic-mutation/[433. Minimum Genetic Mutation^]
-//|{source_base_url}/_0433_MinimumGeneticMutation.java[Java]
-//|{doc_base_url}/0433-minimum-genetic-mutation.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/minimum-genetic-mutation/[433. Minimum Genetic Mutation^]
+|{source_base_url}/_0433_MinimumGeneticMutation.java[Java]
+|{doc_base_url}/0433-minimum-genetic-mutation.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/number-of-segments-in-a-string/[434. Number of Segments in a String^]
 //|{source_base_url}/_0434_NumberOfSegmentsInAString.java[Java]

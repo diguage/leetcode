@@ -1008,6 +1008,11 @@ endif::[]
 |{doc_base_url}/0427-construct-quad-tree.adoc[题解]
 |✅ 递归+分治。注意：一个区域内是否相等不能靠底层的节点来判断，需要遍历所有的节点值。
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-genetic-mutation/[433. 最小基因变化^]
+|{doc_base_url}/0433-minimum-genetic-mutation.adoc[题解]
+|⭕️ 广度优先遍历。原来会的类型，好久不做，都快忘完了！
+
 
 |===
 

@@ -8,6 +8,10 @@ import java.util.*;
  */
 public class _0429_NAryTreeLevelOrderTraversal {
   // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-25 15:17:45
+   */
   public List<List<Integer>> levelOrder(Node root) {
     if (root == null) {
       return Collections.emptyList();
