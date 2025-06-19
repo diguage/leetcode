@@ -3540,12 +3540,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/ipo/[502. IPO^]
-//|{source_base_url}/_0502_IPO.java[Java]
-//|{doc_base_url}/0502-ipo.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/ipo/[502. IPO^]
+|{source_base_url}/_0502_IPO.java[Java]
+|{doc_base_url}/0502-ipo.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/next-greater-element-ii/[503. Next Greater Element II^]

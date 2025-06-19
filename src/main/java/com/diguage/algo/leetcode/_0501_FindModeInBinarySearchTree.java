@@ -15,6 +15,9 @@ public class _0501_FindModeInBinarySearchTree {
   // tag::answer[]
   /**
    * 根据相同数字出现在一起的提示，写出来的。
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-26 18:55:44
    */
   public int[] findMode(TreeNode root) {
     if (root == null) {
