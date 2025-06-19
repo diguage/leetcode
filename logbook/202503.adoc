@@ -1021,7 +1021,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/ipo/[502. IPO^]
 |{doc_base_url}/0502-ipo.adoc[题解]
-|
+|⭕️ 贪心+大顶堆。每次都在可选的范围内，盈利最大的！通过 35 / 40 个测试用例，超时！有思路，可惜没想好怎么写代码！
 
 |===
 

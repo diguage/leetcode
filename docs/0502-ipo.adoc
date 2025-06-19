@@ -48,6 +48,11 @@ https://leetcode.cn/problems/ipo/[LeetCode - 502. IPO ^]
 
 == 思路分析
 
+每次都在可选的范围内，盈利最大的！
+
+WARNING: 思路有，可惜代码写不好！
+
+image::images/0502-10.png[{image_attr}]
 
 [[src-0502]]
 [tabs]
@@ -74,4 +79,6 @@ include::{sourcedir}/_0502_Ipo.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/ipo/solutions/985099/gong-shui-san-xie-noxiang-xin-ke-xue-xi-fk1ra/[502. IPO - 【宫水三叶の相信科学系列】详解优先队列实现贪心算法^]
+. https://leetcode.cn/problems/ipo/solutions/987074/tong-ge-lai-shua-ti-la-yi-ti-liang-jie-t-i22t/[502. IPO - 一题两解：彤哥教你怎么写出好代码！^]
+. https://leetcode.cn/problems/ipo/solutions/2649040/javapython3ctan-xin-pai-xu-da-ding-dui-x-f6vs/[502. IPO - 贪心 + 排序 + 大顶堆：选择当前可启动的最大利润项目【图解】^]

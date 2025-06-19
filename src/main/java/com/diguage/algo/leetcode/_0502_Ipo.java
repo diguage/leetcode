@@ -1,20 +1,22 @@
 package com.diguage.algo.leetcode;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
+import java.util.PriorityQueue;
 
 public class _0502_Ipo {
   // tag::answer[]
+
   /**
-   * 通过 35 / 40 个测试用例，超时
+   * 优化前通过 35 / 40 个测试用例，超时
    *
    * @author D瓜哥 · https://www.diguage.com
    * @since 2025-06-19 21:55:50
    */
   public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
     List<int[]> capToPro = new ArrayList<>();
-    for (int i = 0; i < profits.length; i++) {
+    int length = profits.length;
+    for (int i = 0; i < length; i++) {
       capToPro.add(new int[]{capital[i], profits[i]});
     }
     capToPro.sort((a, b) -> {
@@ -25,47 +27,19 @@ public class _0502_Ipo {
         return compare;
       }
     });
-    int i = 0;
-    int sum = w;
-    boolean flag = false;
+    PriorityQueue<Integer> pq = new PriorityQueue<>(
+      (a, b) -> Integer.compare(b, a));
     int index = 0;
-    int max = 0;
-    while (k > 0 && !capToPro.isEmpty()) {
-      if (i >= capToPro.size()) {
-        if (!flag && sum > capToPro.getLast()[0]) {
-          flag = true;
-          capToPro.sort(Comparator.comparingInt(a -> a[1]));
-        }
-        if (flag) {
-          i = capToPro.size();
-          index = capToPro.size() - 1;
-        } else {
-          i = 0;
-        }
+    while (k-- > 0) {
+      while (index < length && capToPro.get(index)[0] <= w) {
+        pq.add(capToPro.get(index++)[1]);
       }
-      if (!flag) {
-        // TODO 这部分怎么优化？
-        i = 0;
-        index = -1;
-        max = Integer.MIN_VALUE;
-        while (i < capToPro.size() && capToPro.get(i)[0] <= sum) {
-          if (max < capToPro.get(i)[1]) {
-            max = capToPro.get(i)[1];
-            index = i;
-          }
-          i++;
-        }
-      }
-      if (index >= 0) {
-        int[] used = capToPro.remove(index);
-        sum += used[1];
-        k--;
-      }
-      if (capToPro.isEmpty() || index < 0) {
+      if (pq.isEmpty()) {
         break;
       }
+      w += pq.poll();
     }
-    return sum;
+    return w;
   }
   // end::answer[]
   public static void main(String[] args) {
