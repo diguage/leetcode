@@ -3189,13 +3189,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0451-sort-characters-by-frequency.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/minimum-number-of-arrows-to-burst-balloons/[452. Minimum Number of Arrows to Burst Balloons^]
-//|{source_base_url}/_0452_MinimumNumberOfArrowsToBurstBalloons.java[Java]
-//|{doc_base_url}/0452-minimum-number-of-arrows-to-burst-balloons.adoc[题解]
-//|Medium
-//|
+
+|{counter:codes}
+|{leetcode_base_url}/minimum-number-of-arrows-to-burst-balloons/[452. Minimum Number of Arrows to Burst Balloons^]
+|{source_base_url}/_0452_MinimumNumberOfArrowsToBurstBalloons.java[Java]
+|{doc_base_url}/0452-minimum-number-of-arrows-to-burst-balloons.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/minimum-moves-to-equal-array-elements/[453. Minimum Moves to Equal Array Elements^]

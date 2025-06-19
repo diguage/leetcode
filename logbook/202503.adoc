@@ -1013,6 +1013,10 @@ endif::[]
 |{doc_base_url}/0433-minimum-genetic-mutation.adoc[题解]
 |⭕️ 广度优先遍历。原来会的类型，好久不做，都快忘完了！
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-number-of-arrows-to-burst-balloons/[452. 用最少数量的箭引爆气球^]
+|{doc_base_url}/0452-minimum-number-of-arrows-to-burst-balloons.adoc[题解]
+|✅ 对坐标区间排序，然后进行区间合并，最后统计只剩几个区间即可。看题解，也不需要保存区间，只需要记录最后一个区间的右端就可以统计出区间数量。也有一个类似的贪心思路解法。
 
 |===
 

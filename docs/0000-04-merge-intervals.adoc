@@ -20,6 +20,7 @@ image::images/0056-01.png[{image_attr}]
 . xref:0986-interval-list-intersections.adoc[986. Interval List Intersections]
 . xref:0252-meeting-rooms.adoc[252. Meeting Rooms]
 . xref:0253-meeting-rooms-ii.adoc[253. Meeting Rooms II]
+. xref:0452-minimum-number-of-arrows-to-burst-balloons.adoc[452. Minimum Number of Arrows to Burst Balloons]
 . xref:0759-employee-free-time.adoc[759. Employee Free Time]
 . xref:1094-car-pooling.adoc[1094. Car Pooling]
 
