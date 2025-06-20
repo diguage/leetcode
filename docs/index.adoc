@@ -1901,7 +1901,7 @@ include::0904-fruit-into-baskets.adoc[leveloffset=+1]
 
 // include::0908-smallest-range-i.adoc[leveloffset=+1]
 
-// include::0909-snakes-and-ladders.adoc[leveloffset=+1]
+include::0909-snakes-and-ladders.adoc[leveloffset=+1]
 
 // include::0910-smallest-range-ii.adoc[leveloffset=+1]
 

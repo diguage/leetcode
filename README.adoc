@@ -6388,14 +6388,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0908-smallest-range-i.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/snakes-and-ladders/[909. Snakes and Ladders^]
-//|{source_base_url}/_0909_SnakesAndLadders.java[Java]
-//|{doc_base_url}/0909-snakes-and-ladders.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/snakes-and-ladders/[909. Snakes and Ladders^]
+|{source_base_url}/_0909_SnakesAndLadders.java[Java]
+|{doc_base_url}/0909-snakes-and-ladders.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/smallest-range-ii/[910. Smallest Range II^]
 //|{source_base_url}/_0910_SmallestRangeII.java[Java]
