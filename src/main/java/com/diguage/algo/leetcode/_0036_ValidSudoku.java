@@ -75,6 +75,9 @@ public class _0036_ValidSudoku {
      * Memory Usage: 43.2 MB, less than 95.65% of Java online submissions for Valid Sudoku.
      *
      * Copy from: https://leetcode.com/problems/valid-sudoku/discuss/15472/Short%2BSimple-Java-using-Strings[Short+Simple Java using Strings - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-06 12:24
      */
     public boolean isValidSudoku(char[][] board) {
         Set<String> numbers = new HashSet<>(board.length * board.length);

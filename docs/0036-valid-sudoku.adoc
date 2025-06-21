@@ -1,30 +1,26 @@
-= 36. Valid Sudoku
+[#0036-valid-sudoku]
+= 36. 有效的数独
 
-{leetcode}/problems/valid-sudoku/[LeetCode - Valid Sudoku^]
+https://leetcode.cn/problems/valid-sudoku/[LeetCode - 36. 有效的数独 ^]
 
-image::images/0036-valid-sudoku.png[{image_attr}]
+请你判断一个 `9 x 9` 的数独是否有效。只需要 *根据以下规则*，验证已经填入的数字是否有效即可。
 
+. 数字 `1-9` 在每一行只能出现一次。
+. 数字 `1-9` 在每一列只能出现一次。
+. 数字 `1-9` 在每一个以粗实线分隔的 `3x3` 宫内只能出现一次。（请参考示例图）
 
-Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be validated *according to the following rules*:
+*注意：*
 
+* 一个有效的数独（部分已被填充）不一定是可解的。
+* 只需要根据以上规则，验证已经填入的数字是否有效即可。
+* 空白格用 `.` 表示。
 
-* Each row must contain the digits `1-9` without repetition.
-* Each column must contain the digits `1-9` without repetition.
-* Each of the 9 `3x3` sub-boxes of the grid must contain the digits `1-9` without repetition.
+*示例 1：*
 
+image::images/0036-01.png[{image_attr}]
 
-image::https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png[{image_attr}]
-
-
-[.small]#A partially filled sudoku which is valid.#
-
-The Sudoku board could be partially filled, where empty cells are filled with the character `'.'`.
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:*
+....
+输入：board =
 [
   ["5","3",".",".","7",".",".",".","."],
   ["6",".",".","1","9","5",".",".","."],
@@ -36,14 +32,13 @@ The Sudoku board could be partially filled, where empty cells are filled with th
   [".",".",".","4","1","9",".",".","5"],
   [".",".",".",".","8",".",".","7","9"]
 ]
-*Output:* true
-----
+输出：true
+....
 
-*Example 2:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:*
+....
+输入：board =
 [
   ["8","3",".",".","7",".",".",".","."],
   ["6",".",".","1","9","5",".",".","."],
@@ -55,23 +50,50 @@ The Sudoku board could be partially filled, where empty cells are filled with th
   [".",".",".","4","1","9",".",".","5"],
   [".",".",".",".","8",".",".","7","9"]
 ]
-*Output:* false
-*Explanation:* Same as Example 1, except with the *5* in the top left corner being 
-    modified to *8*. Since there are two 8's in the top left 3x3 sub-box, it is invalid.
-----
-
-*Note:*
+输出：false
+解释：除了第一行的第一个数字从 5 改为 8 以外，空格内其他数字均与 示例1 相同。 但由于位于左上角的 3x3 宫内有两个 8 存在, 因此这个数独是无效的。
+....
 
 
-* A Sudoku board (partially filled) could be valid but is not necessarily solvable.
-* Only the filled cells need to be validated according to the mentioned rules.
-* The given board contain only digits `1-9` and the character `'.'`.
-* The given board size is always `9x9`.
+*提示：*
 
+* `board.length == 9`
+* `board[i].length == 9`
+* `board[i][j]` 是一位数字（`1-9`）或者 `.`
+
+
+== 思路分析
+
+根据题目要求，对行、列、块三部分分别判断是否含有重复数字即可。
+
+看以前写的解答，也可以将数字抽象成 `row(num)`、 `(num)column` 和 `row/3(num)column/3`，放到一个 `Set` 集合中。
+
+WARNING: 📢：只是判断是否合法即可，不需要去求解！
 
 [[src-0036]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0036_ValidSudoku.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0036_ValidSudoku_2.java[tag=answer]
+----
+--
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/valid-sudoku/solutions/1001859/you-xiao-de-shu-du-by-leetcode-solution-50m6/[36. 有效的数独 - 官方题解^]
+. https://leetcode.cn/problems/valid-sudoku/solutions/58669/36-jiu-an-zhao-cong-zuo-wang-you-cong-shang-wang-x/[36. 有效的数独 - 简单想法，最优思路^]
