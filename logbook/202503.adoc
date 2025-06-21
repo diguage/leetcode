@@ -1033,6 +1033,11 @@ endif::[]
 |{doc_base_url}/0036-valid-sudoku.adoc[题解]
 |✅ 对行、列和块三部分分别判断是否含有重复数字即可。不是求解，只是合法性判断！
 
+|{counter:codes2503}
+|{leetcode_base_url}/sudoku-solver/[37. 解数独^]
+|{doc_base_url}/0037-sudoku-solver.adoc[题解]
+|✅ 回溯！做 {doc_base_url}/0036-valid-sudoku.adoc[36. 有效的数独] 时，当做“解数独”来做了。一做两题了！
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

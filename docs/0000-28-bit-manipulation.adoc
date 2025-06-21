@@ -4,6 +4,7 @@
 == 经典例题
 
 . xref:0029-divide-two-integers.adoc[29. Divide Two Integers]
+. xref:0037-sudoku-solver.adoc[37. Sudoku Solver] -- 用比特位标记使用和撤销标记真是太妙了！
 . xref:0067-add-binary.adoc[67. Add Binary]
 . xref:0078-subsets.adoc[78. Subsets]
 . xref:0089-gray-code.adoc[89. Gray Code]

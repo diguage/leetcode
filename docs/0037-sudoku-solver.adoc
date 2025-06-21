@@ -76,7 +76,6 @@ image::images/0037-02.png[{image_attr}]
 ----
 
 
-
 image::images/0037-03.png[{image_attr}]
 
 [[src-0037]]
@@ -115,6 +114,15 @@ include::{sourcedir}/_0037_SudokuSolver_21.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0037_SudokuSolver_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0037_SudokuSolver_4.java[tag=answer]
 ----
 --
 ====
