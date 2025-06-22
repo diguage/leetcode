@@ -1038,6 +1038,11 @@ endif::[]
 |{doc_base_url}/0037-sudoku-solver.adoc[题解]
 |✅ 回溯！做 {doc_base_url}/0036-valid-sudoku.adoc[36. 有效的数独] 时，当做“解数独”来做了。一做两题了！
 
+|{counter:codes2503}
+|{leetcode_base_url}/n-queens-ii/[52. N 皇后 II^]
+|{doc_base_url}/0052-n-queens-ii.adoc[题解]
+|✅ 回溯！有机会尝试一下位运算！看题解，不需要构建矩阵也可以模拟棋盘。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

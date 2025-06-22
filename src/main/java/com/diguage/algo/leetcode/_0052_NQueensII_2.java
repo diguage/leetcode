@@ -13,6 +13,9 @@ public class _0052_NQueensII_2 {
   // tag::answer[]
   /**
    * 自己实现
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-29 20:35:25
    */
   private int result = 0;
 

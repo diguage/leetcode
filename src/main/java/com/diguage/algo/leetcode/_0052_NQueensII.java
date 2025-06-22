@@ -13,6 +13,9 @@ public class _0052_NQueensII {
     /**
      * Runtime: 1 ms, faster than 95.68% of Java online submissions for N-Queens II.
      * Memory Usage: 36 MB, less than 8.70% of Java online submissions for N-Queens II.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-05 16:25
      */
     private int result = 0;
     public int totalNQueens(int n) {

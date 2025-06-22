@@ -1,49 +1,78 @@
 [#0052-n-queens-ii]
-= 52. N-Queens II
+= 52. N 皇后 II
 
-{leetcode}/problems/n-queens-ii/[LeetCode - N-Queens II^]
+https://leetcode.cn/problems/n-queens-ii/[LeetCode - 52. N 皇后 II ^]
 
-The *__n__-queens* puzzle is the problem of placing *n* queens on an *n×n* chessboard such that no two queens attack each other.
+*n 皇后问题* 研究的是如何将 `n` 个皇后放置在 `n × n` 的棋盘上，并且使皇后彼此之间不能相互攻击。
 
-Given an integer **n**, return the number of distinct solutions to the *__n__-queens* puzzle.
+给你一个整数 `n` ，返回 *n 皇后问题* 不同的解决方案的数量。
+
+*示例 1：*
 
 image::images/0052-00.jpg[{image_attr}]
 
-.Example:
-----
-Input: 4
-Output: 2
-Explanation: There are two distinct solutions to the 4-queens puzzle as shown below.
-[
- [".Q..",  // Solution 1
-  "...Q",
-  "Q...",
-  "..Q."],
+....
+输入：n = 4
+输出：2
+解释：如上图所示，4 皇后问题存在两个不同的解法。
+....
 
- ["..Q.",  // Solution 2
-  "Q...",
-  "...Q",
-  ".Q.."]
-]
-----
+*示例 2：*
 
-== 解题分析
+....
+输入：n = 1
+输出：1
+....
+
+*提示：*
+
+* `+1 <= n <= 9+`
+
+
+[#思路分析]
+== 思路分析
 
 解题分析参考 xref:0051-n-queens.adoc[N-Queens]。
 
+新建一个棋盘，将皇后放在棋盘上，每次放置前判断是否能放置，如果可以放置，则放置，然后从下一行第一个位置继续下去。直到结束。
+
+TIP: 看题解，不需要构建棋盘也可以模拟下棋过程。
+
 [[src-0052]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0052_NQueensII.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0052_NQueensII_2.java[tag=answer]
 ----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0052_NQueensIi_3.java[tag=answer]
+----
+--
+====
+
 
 == 参考资料
 
 . https://leetcode.cn/problems/n-queens-ii/solutions/449388/nhuang-hou-ii-by-leetcode-solution/[52. N 皇后 II - 官方题解^]
 . https://leetcode.cn/problems/n-queens-ii/solutions/5577/dfs-wei-yun-suan-jian-zhi-by-makeex/[52. N 皇后 II - DFS + 位运算剪枝^]  -- 简洁，但是一脸懵逼。
 . https://leetcode.cn/problems/n-queens-ii/solutions/449558/52-nhuang-hou-iihui-su-fa-jing-dian-wen-ti-xiang-j/[代码随想录」52. N皇后 II:【回溯法经典问题】详解^]
+. https://leetcode.cn/problems/n-queens-ii/solutions/2381883/hui-su-miao-sha-nhuang-hou-yi-ge-shi-pin-l41l/[52. N 皇后 II - 排列型回溯，简洁高效！附题单^]
