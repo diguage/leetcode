@@ -1,30 +1,94 @@
 [#0097-interleaving-string]
-= 97. Interleaving String
+= 97. 交错字符串
 
-{leetcode}/problems/interleaving-string/[LeetCode - Interleaving String^]
+https://leetcode.cn/problems/interleaving-string/[LeetCode - 97. 交错字符串 ^]
 
-Given _s1_, _s2_, _s3_, find whether _s3_ is formed by the interleaving of _s1_ and _s2_.
+给定三个字符串 `s1`、`s2`、`s3`，请你帮忙验证 `s3` 是否是由 `s1` 和 `s2` *交错* 组成的。
 
-*Example 1:*
+两个字符串 `s` 和 `t` *交错* 的定义与过程如下，其中每个字符串都会被分割成若干 *非空* 子字符串：
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* s1 = "aabcc", s2 = "dbbca", _s3_ = "aadbbcbcac"
-*Output:* true
-----
+* `s = s~1~ + s~2~ + ... + s+~n~`
+* `t = t~1~ + t~2~ + ... + t+~m~`
+* `+|n - m| <= 1+`
+* *交错* 是 `s~1~+ + t~1~ + s~2~ + t~2~ + s~3~ + t~3~ + ... +` 或者 `t~1~ + s~1~ + t~2~ + s~2~ + t~3~ + s~3~ + ... +`
 
-*Example 2:*
+*注意：*`a + b` 意味着字符串 `a` 和 `b` 连接。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* s1 = "aabcc", s2 = "dbbca", _s3_ = "aadbbbaccc"
-*Output:* false
-----
+*示例 1：*
+
+image::images/0097-01.jpg[{image_attr}]
+
+....
+输入：s1 = "aabcc", s2 = "dbbca", s3 = "aadbbcbcac"
+输出：true
+....
+
+*示例 2：*
+
+....
+输入：s1 = "aabcc", s2 = "dbbca", s3 = "aadbbbaccc"
+输出：false
+....
+
+*示例 3：*
+
+....
+输入：s1 = "", s2 = "", s3 = ""
+输出：true
+....
+
+
+*提示：*
+
+* `+0 <= s1.length, s2.length <= 100+`
+* `+0 <= s3.length <= 200+`
+* `s1`、`s2`、和 `s3` 都由小写英文字母组成
+
+
+**进阶：**您能否仅使用 `O(s2.length)` 额外的内存空间来解决它?
+
+
+== 思路分析
+
+类似 xref:0062-unique-paths.adoc[62. Unique Paths]，62 题统计有多少种走法。这道题检查“此路是否通”。
+
+image::images/0097-10.png[{image_attr}]
+
+`dp[r][c]` 代表 s1 前 `r` 个字符与 s2 前 `c` 个字符拼接成 s3 的 `r+c` 字符。
+
+[stem]
+++++
+dp[r][c] = (dp[r-1][c] & s1[r-1] = s3[r+c-1]) | (dp[r][c-1] & s2[c-1] = s3[r+c-1])
+++++
 
 
 [[src-0097]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0097_InterleavingString.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0097_InterleavingString_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/interleaving-string/solutions/335561/lei-si-lu-jing-wen-ti-zhao-zhun-zhuang-tai-fang-ch/[97. 交错字符串 - 类似路径问题，找准状态方程快速求解^]
+. https://leetcode.cn/problems/interleaving-string/solutions/335802/shou-hua-tu-jie-dfshui-su-dfsji-yi-hua-by-hyj8/[97. 交错字符串 - 「手画图解」DFS回溯 及其优化^]
+. https://leetcode.cn/problems/interleaving-string/solutions/3060419/jiao-ni-yi-bu-bu-si-kao-dpcong-ji-yi-hua-qcen/[97. 交错字符串 - 教你一步步思考 DP：从记忆化搜索到递推到空间优化！^]
+. https://leetcode.cn/problems/interleaving-string/solutions/2764694/javapython3cdong-tai-gui-hua-gou-zao-zi-rbrxr/[97. 交错字符串 - 动态规划：构造子问题【图解】^]
+. https://leetcode.cn/problems/interleaving-string/solutions/335373/jiao-cuo-zi-fu-chuan-by-leetcode-solution/[97. 交错字符串 - 官方题解^]

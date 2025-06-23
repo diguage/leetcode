@@ -10,6 +10,10 @@ package com.diguage.algo.leetcode;
  */
 public class _0096_UniqueBinarySearchTrees_2 {
   // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2020-01-27 22:14
+   */
   public int numTrees(int num) {
     int[] r = new int[num + 1];
     r[0] = 1;

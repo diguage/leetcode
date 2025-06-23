@@ -16,6 +16,9 @@ public class _0096_UniqueBinarySearchTrees {
      * Memory Usage: 38.2 MB, less than 5.55% of Java online submissions for Unique Binary Search Trees.
      *
      * Copy from: https://leetcode-cn.com/problems/unique-binary-search-trees/solution/bu-tong-de-er-cha-sou-suo-shu-by-leetcode/[不同的二叉搜索树 - 不同的二叉搜索树 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-27 22:14
      */
     public int numTreesCatalanNumber(int n) {
         long C = 1;
