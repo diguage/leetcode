@@ -219,7 +219,7 @@ include::0066-plus-one.adoc[leveloffset=+1]
 
 include::0067-add-binary.adoc[leveloffset=+1]
 
-// include::0068-text-justification.adoc[leveloffset=+1]
+include::0068-text-justification.adoc[leveloffset=+1]
 
 include::0069-sqrtx.adoc[leveloffset=+1]
 

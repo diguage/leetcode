@@ -502,12 +502,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/text-justification/[68. Text Justification^]
-//|{source_base_url}/_0068_TextJustification.java[Java]
-//|{doc_base_url}/0068-text-justification.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/text-justification/[68. Text Justification^]
+|{source_base_url}/_0068_TextJustification.java[Java]
+|{doc_base_url}/0068-text-justification.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/sqrtx/[69. Sqrt(x)^]

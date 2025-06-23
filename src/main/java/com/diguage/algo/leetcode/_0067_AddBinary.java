@@ -13,6 +13,9 @@ public class _0067_AddBinary {
     /**
      * Runtime: 2 ms, faster than 64.49% of Java online submissions for Add Binary.
      * Memory Usage: 38.3 MB, less than 5.62% of Java online submissions for Add Binary.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-02 22:27
      */
     public String addBinary(String a, String b) {
         StringBuilder result = new StringBuilder();

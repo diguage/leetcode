@@ -1043,6 +1043,11 @@ endif::[]
 |{doc_base_url}/0052-n-queens-ii.adoc[题解]
 |✅ 回溯！有机会尝试一下位运算！看题解，不需要构建矩阵也可以模拟棋盘。
 
+|{counter:codes2503}
+|{leetcode_base_url}/text-justification/[68. 文本左右对齐^]
+|{doc_base_url}/0068-text-justification.adoc[题解]
+|❌ 有思路，但是没有对思路进行分类。参考题解，分为“最后一行”、“一个单词一行”和“多个单词一行”来分别处理。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
