@@ -13,6 +13,9 @@ public class _0043_MultiplyStrings {
     /**
      * Runtime: 5 ms, faster than 59.85% of Java online submissions for Multiply Strings.
      * Memory Usage: 38.5 MB, less than 16.67% of Java online submissions for Multiply Strings.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-03 21:07
      */
     public String multiply(String num1, String num2) {
         if ("0".equals(num1) || "0".equals(num2)) {

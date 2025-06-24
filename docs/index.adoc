@@ -171,7 +171,7 @@ include::0042-trapping-rain-water.adoc[leveloffset=+1]
 
 include::0043-multiply-strings.adoc[leveloffset=+1]
 
-// include::0044-wildcard-matching.adoc[leveloffset=+1]
+include::0044-wildcard-matching.adoc[leveloffset=+1]
 
 include::0045-jump-game-ii.adoc[leveloffset=+1]
 

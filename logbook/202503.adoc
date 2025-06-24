@@ -1053,6 +1053,11 @@ endif::[]
 |{doc_base_url}/0097-interleaving-string.adoc[题解]
 |❌ 动态规划。思考 `s3` 最后一个字符时从 `s1` 来，还是从 `s2` 来，上一个位置又是哪里？
 
+|{counter:codes2503}
+|{leetcode_base_url}/wildcard-matching/[44. 通配符匹配^]
+|{doc_base_url}/0044-wildcard-matching.adoc[题解]
+|❌ 动态规划。尝试双指针失败！完全没有想到可以用动态规划来解决这个问题！
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

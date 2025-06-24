@@ -334,12 +334,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/wildcard-matching/[44. Wildcard Matching^]
-//|{source_base_url}/_0044_WildcardMatching.java[Java]
-//|{doc_base_url}/0044-wildcard-matching.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/wildcard-matching/[44. Wildcard Matching^]
+|{source_base_url}/_0044_WildcardMatching.java[Java]
+|{doc_base_url}/0044-wildcard-matching.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/jump-game-ii/[45. Jump Game II^]
