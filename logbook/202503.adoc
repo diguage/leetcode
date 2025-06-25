@@ -1058,6 +1058,11 @@ endif::[]
 |{doc_base_url}/0044-wildcard-matching.adoc[题解]
 |❌ 动态规划。尝试双指针失败！完全没有想到可以用动态规划来解决这个问题！
 
+|{counter:codes2503}
+|{leetcode_base_url}/maximal-rectangle/[85. 最大矩形^]
+|{doc_base_url}/0085-maximal-rectangle.adoc[题解]
+|❌ 单调栈！计算每一行的高度，然后利用这个高度，使用与 {leetcode_base_url}/largest-rectangle-in-histogram/[84. 柱状图中最大的矩形^] 中相同的思路，结合单调栈的模式来解决问题。多种解法，还有动态规划的解法。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

@@ -621,12 +621,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Hard
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/maximal-rectangle/[85. Maximal Rectangle^]
-//|{source_base_url}/_0085_MaximalRectangle.java[Java]
-//|{doc_base_url}/0085-maximal-rectangle.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/maximal-rectangle/[85. Maximal Rectangle^]
+|{source_base_url}/_0085_MaximalRectangle.java[Java]
+|{doc_base_url}/0085-maximal-rectangle.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/partition-list/[86. Partition List^]
