@@ -37,7 +37,7 @@
     <asciidoclet.version>2.0.0</asciidoclet.version>
     <asciidoctor-maven-plugin.version>3.2.0</asciidoctor-maven-plugin.version>
     <mavengem-wagon.version>2.0.2</mavengem-wagon.version>
-    <gem-maven-plugin.version>3.0.5</gem-maven-plugin.version>
+    <gem-maven-plugin.version>3.0.6</gem-maven-plugin.version>
     <download-maven-plugin.version>1.13.0</download-maven-plugin.version>
     <exec-maven-plugin.version>3.5.0</exec-maven-plugin.version>
     <jruby.version>10.0.0.1</jruby.version>
