@@ -377,7 +377,7 @@ include::0145-binary-tree-postorder-traversal.adoc[leveloffset=+1]
 
 include::0146-lru-cache.adoc[leveloffset=+1]
 
-// include::0147-insertion-sort-list.adoc[leveloffset=+1]
+include::0147-insertion-sort-list.adoc[leveloffset=+1]
 
 include::0148-sort-list.adoc[leveloffset=+1]
 

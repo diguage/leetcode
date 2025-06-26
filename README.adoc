@@ -1055,12 +1055,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/insertion-sort-list/[147. Insertion Sort List^]
-//|{source_base_url}/_0147_InsertionSortList.java[Java]
-//|{doc_base_url}/0147-insertion-sort-list.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/insertion-sort-list/[147. Insertion Sort List^]
+|{source_base_url}/_0147_InsertionSortList.java[Java]
+|{doc_base_url}/0147-insertion-sort-list.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/sort-list/[148. Sort List^]
