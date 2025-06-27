@@ -419,7 +419,7 @@ include::0166-fraction-to-recurring-decimal.adoc[leveloffset=+1]
 
 include::0167-two-sum-ii-input-array-is-sorted.adoc[leveloffset=+1]
 
-// include::0168-excel-sheet-column-title.adoc[leveloffset=+1]
+include::0168-excel-sheet-column-title.adoc[leveloffset=+1]
 
 include::0169-majority-element.adoc[leveloffset=+1]
 

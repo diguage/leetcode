@@ -1073,6 +1073,11 @@ endif::[]
 |{doc_base_url}/0165-compare-version-numbers.adoc[题解]
 |✅ 双指针。一个指针指向一个字符串下标，从指针位置取一个修订号的值，然后比较，再取下一个修订号。
 
+|{counter:codes2503}
+|{leetcode_base_url}/excel-sheet-column-title/[168. Excel表列名称^]
+|{doc_base_url}/0168-excel-sheet-column-title.adoc[题解]
+|✅ 进制转换！虽然最终做出来了，但掌握的还是不够透彻！
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

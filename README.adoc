@@ -1202,12 +1202,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/excel-sheet-column-title/[168. Excel Sheet Column Title^]
-//|{source_base_url}/_0168_ExcelSheetColumnTitle.java[Java]
-//|{doc_base_url}/0168-excel-sheet-column-title.adoc[题解]
-//|Easy
-//|
+|{counter:codes}
+|{leetcode_base_url}/excel-sheet-column-title/[168. Excel Sheet Column Title^]
+|{source_base_url}/_0168_ExcelSheetColumnTitle.java[Java]
+|{doc_base_url}/0168-excel-sheet-column-title.adoc[题解]
+|Easy
+|
 
 |{counter:codes}
 |{leetcode_base_url}/majority-element/[169. Majority Element^]
