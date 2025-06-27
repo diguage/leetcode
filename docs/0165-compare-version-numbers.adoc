@@ -1,69 +1,87 @@
 [#0165-compare-version-numbers]
-= 165. Compare Version Numbers
+= 165. 比较版本号
 
-{leetcode}/problems/compare-version-numbers/[LeetCode - Compare Version Numbers^]
+https://leetcode.cn/problems/compare-version-numbers/[LeetCode - 165. 比较版本号 ^]
 
-Compare two version numbers _version1_ and _version2_.
+给你两个 *版本号字符串* `version1` 和 `version2`，请你比较它们。版本号由被点 `+'.'+` 分开的修订号组成。*修订号的值* 是它 *转换为整数* 并忽略前导零。
 
+比较版本号时，请按 *从左到右的顺序* 依次比较它们的修订号。如果其中一个版本字符串的修订号较少，则将缺失的修订号视为 `0`。
 
-If `_version1_ > _version2_` return `1;` if `_version1_ < _version2_` return `-1;`otherwise return `0`.
+返回规则如下：
 
-You may assume that the version strings are non-empty and contain only digits and the `.` character.
-The `.` character does not represent a decimal point and is used to separate number sequences.
-For instance, `2.5` is not "two and a half" or "half way to version three", it is the fifth second-level revision of the second first-level revision.
-You may assume the default revision number for each level of a version number to be `0`. For example, version number `3.4` has a revision number of `3` and `4` for its first and second level revision number. Its third and fourth level revision number are both `0`.
+* 如果 `version1 < version2` 返回 `-1`，
+* 如果 `version1 > version2` 返回 `1`，
+* 除此之外返回 `0`。
 
- 
+*示例 1：*
 
-*Example 1:*
-[subs="verbatim,quotes,macros"]
-----
-*Input:* `_version1_` = "0.1", `_version2_` = "1.1"
-*Output:* -1
-----
+*输入：*[.example-io]#version1 = "1.2", version2 = "1.10"#
 
-*Example 2:*
-[subs="verbatim,quotes,macros"]
-----
-*Input:* `_version1_` = "1.0.1", `_version2_` = "1"
-*Output:* 1
-----
+*输出：*[.example-io]#-1#
 
-*Example 3:*
-[subs="verbatim,quotes,macros"]
-----
-*Input:* `_version1_` = "7.5.2.4", `_version2_` = "7.5.3"
-*Output:* -1
-----
+*解释：*
 
-*Example 4:*
-[subs="verbatim,quotes,macros"]
-----
-*Input:* `_version1_` = "1.01", `_version2_` = "1.001"
-*Output:* 0
-*Explanation:* Ignoring leading zeroes, both “01” and “001" represent the same number “1”
-----
+version1 的第二个修订号为 "2"，version2 的第二个修订号为 "10"：2 <
+10，所以 version1 < version2。
 
-*Example 5:*
-[subs="verbatim,quotes,macros"]
-----
-*Input:* `_version1_` = "1.0", `_version2_` = "1.0.0"
-*Output:* 0
-*Explanation:* The first version number does not have a third level revision number, which means its third level revision number is default to "0"
-----
+*示例 2：*
 
- 
+*输入：*[.example-io]#version1 = "1.01", version2 = "1.001"#
 
-*Note:*
+*输出：*[.example-io]#0#
 
-. Version strings are composed of numeric strings separated by dots `.` and this numeric strings *may* have leading zeroes. 
-. Version strings do not start or end with dots, and they will not be two consecutive dots.
+*解释：*
+
+忽略前导零，"01" 和 "001" 都代表相同的整数 "1"。
+
+*示例 3：*
+
+*输入：*[.example-io]#version1 = "1.0", version2 = "1.0.0.0"#
+
+*输出：*[.example-io]#0#
+
+*解释：*
+
+version1 有更少的修订号，每个缺失的修订号按 "0" 处理。
+
+*提示：*
+
+* `+1 <= version1.length, version2.length <= 500+`
+* `version1` 和 `version2` 仅包含数字和 `.`
+* `version1` 和 `version2` 都是 *有效版本号*
+* `version1` 和 `version2` 的所有修订号都可以存储在 *32 位整数* 中
 
 
+== 思路分析
+
+双指针。一个指针指向一个字符串下标，从指针位置取一个修订号的值，然后比较，再取下一个修订号。
+
+最简单的处理办法是使用 `StringTokenizer`。
 
 [[src-0165]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0165_CompareVersionNumbers.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0165_CompareVersionNumbers_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/compare-version-numbers/solutions/970416/bi-jiao-ban-ben-hao-by-leetcode-solution-k6wi/[165. 比较版本号 - 官方题解^]
+. https://leetcode.cn/problems/compare-version-numbers/solutions/970909/wei-rao-li-lun-bu-yong-split-he-atoi-con-c2uj/[165. 比较版本号 - 不用`split` 和 `atoi` 从左至右逐位对比版本号^] -- 这个双指针做法也不错！

@@ -1180,13 +1180,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0164-maximum-gap.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/compare-version-numbers/[165. Compare Version Numbers^]
-//|{source_base_url}/_0165_CompareVersionNumbers.java[Java]
-//|{doc_base_url}/0165-compare-version-numbers.adoc[题解]
-//|Medium
-//|
+
+|{counter:codes}
+|{leetcode_base_url}/compare-version-numbers/[165. Compare Version Numbers^]
+|{source_base_url}/_0165_CompareVersionNumbers.java[Java]
+|{doc_base_url}/0165-compare-version-numbers.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/fraction-to-recurring-decimal/[166. Fraction to Recurring Decimal^]
