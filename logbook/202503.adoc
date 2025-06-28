@@ -1078,6 +1078,11 @@ endif::[]
 |{doc_base_url}/0168-excel-sheet-column-title.adoc[题解]
 |✅ 进制转换！虽然最终做出来了，但掌握的还是不够透彻！
 
+|{counter:codes2503}
+|{leetcode_base_url}/dungeon-game/[174. 地下城游戏^]
+|{doc_base_url}/0174-dungeon-game.adoc[题解]
+|✅ 动态规划！从终点向起始位置反推。遇到正数就直接加，遇到负数则先看看上一步的最大值是正数还是负数，是负数则需要累加，是正数则舍弃，直接从当前位置的负数算起。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

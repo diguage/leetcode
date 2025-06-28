@@ -1244,12 +1244,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/dungeon-game/[174. Dungeon Game^]
-//|{source_base_url}/_0174_DungeonGame.java[Java]
-//|{doc_base_url}/0174-dungeon-game.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/dungeon-game/[174. Dungeon Game^]
+|{source_base_url}/_0174_DungeonGame.java[Java]
+|{doc_base_url}/0174-dungeon-game.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/combine-two-tables/[175. Combine Two Tables^]

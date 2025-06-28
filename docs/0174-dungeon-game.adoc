@@ -1,66 +1,76 @@
 [#0174-dungeon-game]
-= 174. Dungeon Game
+= 174. 地下城游戏
 
-{leetcode}/problems/dungeon-game/[LeetCode - Dungeon Game^]
+https://leetcode.cn/problems/dungeon-game/[LeetCode - 174. 地下城游戏 ^]
 
-<style type="text/css">table.dungeon, .dungeon th, .dungeon td {
-  border:3px solid black;
-}
+恶魔们抓住了公主并将她关在了地下城 `dungeon` 的 *右下角* 。地下城是由 `m x n` 个房间组成的二维网格。我们英勇的骑士最初被安置在 *左上角* 的房间里，他必须穿过地下城并通过对抗恶魔来拯救公主。
 
- .dungeon th, .dungeon td {
-    text-align: center;
-    height: 70px;
-    width: 70px;
-}
-</style>
-The demons had captured the princess (*P*) and imprisoned her in the bottom-right corner of a dungeon. The dungeon consists of M x N rooms laid out in a 2D grid. Our valiant knight (*K*) was initially positioned in the top-left room and must fight his way through the dungeon to rescue the princess.
+骑士的初始健康点数为一个正整数。如果他的健康点数在某一时刻降至 0 或以下，他会立即死亡。
 
-The knight has an initial health point represented by a positive integer. If at any point his health point drops to 0 or below, he dies immediately.
+有些房间由恶魔守卫，因此骑士在进入这些房间时会失去健康点数（若房间里的值为__负整数__，则表示骑士将损失健康点数）；其他房间要么是空的（房间里的值为 _0_），要么包含增加骑士健康点数的魔法球（若房间里的值为__正整数__，则表示骑士将增加健康点数）。
 
-Some of the rooms are guarded by demons, so the knight loses health (_negative_ integers) upon entering these rooms; other rooms are either empty (_0's_) or contain magic orbs that increase the knight's health (_positive_ integers).
+为了尽快解救公主，骑士决定每次只 *向右* 或 *向下* 移动一步。
 
-In order to reach the princess as quickly as possible, the knight decides to move only rightward or downward in each step.
+返回确保骑士能够拯救到公主所需的最低初始健康点数。
 
- 
-
-*Write a function to determine the knight's minimum initial health so that he is able to rescue the princess.*
-
-For example, given the dungeon below, the initial health of the knight must be at least *7* if he follows the optimal path `RIGHT-> RIGHT -> DOWN -> DOWN`.
-
-<table class="dungeon">
-	<tbody>
-		<tr>
-			<td>-2 (K)</td>
-			<td>-3</td>
-			<td>3</td>
-		</tr>
-		<tr>
-			<td>-5</td>
-			<td>-10</td>
-			<td>1</td>
-		</tr>
-		<tr>
-			<td>10</td>
-			<td>30</td>
-			<td>-5 (P)</td>
-		</tr>
-	</tbody>
-</table>
-
- 
-
-*Note:*
+**注意：**任何房间都可能对骑士的健康点数造成威胁，也可能增加骑士的健康点数，包括骑士进入的左上角房间以及公主被监禁的右下角房间。
 
 
-* The knight's health has no upper bound.
-* Any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.
+*示例 1：*
+
+image::images/0174-01.jpg[{image_attr}]
+
+....
+输入：dungeon = [[-2,-3,3],[-5,-10,1],[10,30,-5]]
+输出：7
+解释：如果骑士遵循最佳路径：右 -> 右 -> 下 -> 下 ，则骑士的初始健康点数至少为 7 。
+....
+
+*示例 2：*
+
+....
+输入：dungeon = [[0]]
+输出：1
+....
 
 
+*提示：*
 
+* `m == dungeon.length`
+* `n == dungeon[i].length`
+* `+1 <= m, n <= 200+`
+* `+-1000 <= dungeon[i][j] <= 1000+`
+
+
+== 思路分析
+
+动态规划，从终点向起始位置反推。遇到正数就直接加，遇到负数则先看看上一步（因为是反推，上一步就是正着走的下一步）的最大值是正数还是负数，是负数则需要累加，是正数则舍弃，直接从当前位置的负数算起。
 
 [[src-0174]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0174_DungeonGame.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0174_DungeonGame_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/dungeon-game/solutions/24493/cong-hui-su-dao-ji-yi-hua-sou-suo-dao-dong-tai-gui/[174. 地下城游戏 - 从回溯 到 记忆化搜索 到 动态规划，保证你看得懂^]
+. https://leetcode.cn/problems/dungeon-game/solutions/326171/di-xia-cheng-you-xi-by-leetcode-solution/[174. 地下城游戏 - 官方题解^]
 

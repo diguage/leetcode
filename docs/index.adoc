@@ -431,7 +431,7 @@ include::0172-factorial-trailing-zeroes.adoc[leveloffset=+1]
 
 include::0173-binary-search-tree-iterator.adoc[leveloffset=+1]
 
-// include::0174-dungeon-game.adoc[leveloffset=+1]
+include::0174-dungeon-game.adoc[leveloffset=+1]
 
 include::0175-combine-two-tables.adoc[leveloffset=+1]
 
