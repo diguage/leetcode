@@ -60,6 +60,7 @@ include::{sourcedir}/_0164_MaximumGap.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/maximum-gap/solutions/498428/zui-da-jian-ju-by-leetcode-solution/[164. 最大间距 - 官方题解^]
+. https://leetcode.cn/problems/maximum-gap/solutions/44219/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--39/[164. 最大间距 - 详细通俗的思路分析，多解法^]
 
 
