@@ -411,7 +411,7 @@ include::0162-find-peak-element.adoc[leveloffset=+1]
 
 // include::0163-missing-ranges.adoc[leveloffset=+1]
 
-// include::0164-maximum-gap.adoc[leveloffset=+1]
+include::0164-maximum-gap.adoc[leveloffset=+1]
 
 include::0165-compare-version-numbers.adoc[leveloffset=+1]
 

@@ -49,6 +49,9 @@ public class _0162_FindPeakElement {
      * Memory Usage: 38.4 MB, less than 100.00% of Java online submissions for Find Peak Element.
      *
      * Copy form: https://leetcode.com/problems/find-peak-element/solution/[Find Peak Element solution - LeetCode]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-05 11:03
      */
     public int findPeakElement(int[] nums) {
         return search(nums, 0, nums.length - 1);

@@ -1,43 +1,65 @@
 [#0164-maximum-gap]
-= 164. Maximum Gap
+= 164. 最大间距
 
-{leetcode}/problems/maximum-gap/[LeetCode - Maximum Gap^]
+https://leetcode.cn/problems/maximum-gap/[LeetCode - 164. 最大间距 ^]
 
-Given an unsorted array, find the maximum difference between the successive elements in its sorted form.
+给定一个无序的数组 `nums`，返回 _数组在排序之后，相邻元素之间最大的差值_。如果数组元素个数小于 2，则返回 `0` 。
 
-Return 0 if the array contains less than 2 elements.
+您必须编写一个在「线性时间」内运行并使用「线性额外空间」的算法。
 
-*Example 1:*
+*示例 1:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [3,6,9,1]
-*Output:* 3
-*Explanation:* The sorted form of the array is [1,3,6,9], either
-             (3,6) or (6,9) has the maximum difference 3.
-----
+....
+输入: nums = [3,6,9,1]
+输出: 3
+解释: 排序后的数组是 [1,3,6,9], 其中相邻元素 (3,6) 和 (6,9) 之间都存在最大差值 3。
+....
 
-*Example 2:*
+*示例 2:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [10]
-*Output:* 0
-*Explanation:* The array contains less than 2 elements, therefore return 0.
-----
+....
+输入: nums = [10]
+输出: 0
+解释: 数组元素个数小于 2，因此返回 0。
+....
 
-*Note:*
+*提示:*
 
-
-* You may assume all elements in the array are non-negative integers and fit in the 32-bit signed integer range.
-* Try to solve it in linear time/space.
+* `1 \<= nums.length \<= 10^5^`
+* `0 \<= nums[i] \<= 10^9^`
 
 
+== 思路分析
 
+使用比特位表示每个数字！这样统计每个比特位之间的差值即可。
+
+使用比特位并不是最优解，内存消耗可能比较大。看题解，应该使用基数排序。抽空学习一下！
 
 [[src-0164]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0164_MaximumGap.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0164_MaximumGap_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+
+
 
