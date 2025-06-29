@@ -1091,7 +1091,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/repeated-dna-sequences/[187. 重复的DNA序列^]
 |{doc_base_url}/0187-repeated-dna-sequences.adoc[题解]
-|✅ 暴力法，通过 30/31 个测试用例。
+|✅ 暴力法，通过 30/31 个测试用例。使用子串+哈希优化一下即可。看题解，还有滑动窗口，有机会学习一下。
 
 |===
 

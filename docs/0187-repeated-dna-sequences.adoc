@@ -33,7 +33,9 @@ https://leetcode.cn/problems/repeated-dna-sequences/[LeetCode - 187. 重复的DN
 
 == 思路分析
 
-最容易想到的方式就是暴力法，从当前位置出发，与从下一个位置出发，逐个比较十个字符，如果都相等，则符合要求。
+最容易想到的方式就是暴力法，从当前位置出发，与从下一个位置出发，逐个比较十个字符，如果都相等，则符合要求。通过 30/31 个测试用例。
+
+看题解，竟然可以直接子串+哈希，优化一下，直接使用 `Set` 集合来判重。
 
 [[src-0187]]
 [tabs]
@@ -60,4 +62,6 @@ include::{sourcedir}/_0187_RepeatedDnaSequences.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/repeated-dna-sequences/solutions/1035568/zhong-fu-de-dnaxu-lie-by-leetcode-soluti-z8zn/[187. 重复的DNA序列 - 官方题解^]
+. https://leetcode.cn/problems/repeated-dna-sequences/solutions/1035708/gong-shui-san-xie-yi-ti-shuang-jie-hua-d-30pg/[187. 重复的DNA序列 - 一题双解 :「滑动窗口」&「字符串哈希」^]
+. https://leetcode.cn/problems/repeated-dna-sequences/solutions/49750/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-4-7/[187. 重复的DNA序列 - 详细通俗的思路分析，多解法^]
