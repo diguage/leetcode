@@ -459,7 +459,7 @@ include::0179-largest-number.adoc[leveloffset=+1]
 
 // include::0186-reverse-words-in-a-string-ii.adoc[leveloffset=+1]
 
-// include::0187-repeated-dna-sequences.adoc[leveloffset=+1]
+include::0187-repeated-dna-sequences.adoc[leveloffset=+1]
 
 include::0188-best-time-to-buy-and-sell-stock-iv.adoc[leveloffset=+1]
 

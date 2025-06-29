@@ -1334,13 +1334,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0186-reverse-words-in-a-string-ii.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/repeated-dna-sequences/[187. Repeated DNA Sequences^]
-//|{source_base_url}/_0187_RepeatedDNASequences.java[Java]
-//|{doc_base_url}/0187-repeated-dna-sequences.adoc[题解]
-//|Medium
-//|
+
+|{counter:codes}
+|{leetcode_base_url}/repeated-dna-sequences/[187. Repeated DNA Sequences^]
+|{source_base_url}/_0187_RepeatedDNASequences.java[Java]
+|{doc_base_url}/0187-repeated-dna-sequences.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-iv/[188. Best Time to Buy and Sell Stock IV^]
