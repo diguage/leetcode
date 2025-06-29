@@ -835,6 +835,7 @@
               <sourceDocumentName>index.adoc</sourceDocumentName>
               <attributes>
                 <sourcedir>${project.build.sourceDirectory}/com/diguage/algo/leetcode</sourcedir>
+                <sortdir>${project.build.sourceDirectory}/com/diguage/algo/sort</sortdir>
                 <labdir>${project.build.testSourceDirectory}/com/diguage/labs</labdir>
                 <basedir>${project.basedir}</basedir>
                 <doctype>book</doctype>

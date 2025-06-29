@@ -1,0 +1,6 @@
+[#0000-bubble-sort]
+= 冒泡排序
+
+image::images/bubble-sort-overview.png[{image_attr}]
+
+image::images/bubble-sort-02.gif[{image_attr}]

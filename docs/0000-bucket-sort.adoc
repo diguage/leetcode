@@ -1,0 +1,6 @@
+[#0000-bucket-sort]
+= 桶排序
+
+image::images/bucket-sort-overview.png[{image_attr}]
+
+

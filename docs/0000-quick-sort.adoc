@@ -1,0 +1,11 @@
+[#0000-quick-sort]
+= 快速排序
+
+
+image::images/quick-sort-overview.png[{image_attr}]
+
+image::images/quick-sort-01.gif[{image_attr}]
+
+image::images/quick-sort-02.gif[{image_attr}]
+
+image::images/quick-sort-03.png[{image_attr}]

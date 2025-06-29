@@ -1,0 +1,12 @@
+[#0000-merge-sort]
+= 归并排序
+
+image::images/meger-sort-03.png[{image_attr}]
+
+image::images/merge-sort-01.gif[{image_attr}]
+
+image::images/merge-sort-02.gif[{image_attr}]
+
+image::images/merge-sort-03.gif[{image_attr}]
+
+

@@ -1,0 +1,7 @@
+[#0000-insertion-sort]
+= 插入排序
+
+image::images/insertion-sort-overview.png[{image_attr}]
+
+image::images/insertion-sort-02.gif[{image_attr}]
+

@@ -1,0 +1,5 @@
+[#0000-counting-sort]
+= 计数排序
+
+
+image::images/counting-sort-overview.png[{image_attr}]

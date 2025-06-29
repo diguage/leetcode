@@ -23,6 +23,8 @@ include::0000-data-structure-heap.adoc[leveloffset=+1]
 
 include::0000-data-structure-graph.adoc[leveloffset=+1]
 
+include::0000-sort.adoc[leveloffset=+1]
+
 // Pattern
 
 include::0000-00-recursion.adoc[leveloffset=+1]

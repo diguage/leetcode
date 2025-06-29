@@ -1,0 +1,14 @@
+[#0000-shell-sort]
+= 希尔排序
+
+image::images/shell-sort-00.gif[{image_attr}]
+
+TIP: 这个动图第一步很好！后面不好！
+
+image::images/shell-sort-01.png[{image_attr}]
+
+image::images/shell-sort-02.png[{image_attr}]
+
+image::images/shell-sort-03.png[{image_attr}]
+
+image::images/shell-sort-04.gif[{image_attr}]
