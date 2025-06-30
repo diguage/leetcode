@@ -20,13 +20,15 @@ image::images/quick-sort-01.gif[{image_attr}]
 
 . xref:0239-sliding-window-maximum.adoc[239. Sliding Window Maximum] 的一个解题方法与稀疏表（Sparse Table）相识。稀疏表（Sparse Table）是什么？
 
-== TODO
+== TODO 或亟需加强项
 
 * [ ] https://leetcode.cn/problems/number-of-islands/solutions/211211/dao-yu-lei-wen-ti-de-tong-yong-jie-fa-dfs-bian-li-/[200. 岛屿数量 - 岛屿类问题的通用解法、DFS 遍历框架^]
 * [ ] 魔改的二分查找
 * [ ] 买卖股票
 * [ ] 链表复制相关操作，也可以将新旧节点交替相连来处理。
 * [ ] 通过 xref:2560-house-robber-iv.adoc[2560. House Robber IV] 发现，竟然还有「最大化最小值」或「最小化最大值」的二分答案问题。
+* [ ] KMP 算法
+* [ ] 可以使用类库的，却总想自己写代码实现！必然字符串比较！
 
 == 感慨
 
