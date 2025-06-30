@@ -14,6 +14,9 @@ public class _0581_ShortestUnsortedContinuousSubarray {
     /**
      * Runtime: 4 ms, faster than 60.88% of Java online submissions for Shortest Unsorted Continuous Subarray.
      * Memory Usage: 51.8 MB, less than 7.69% of Java online submissions for Shortest Unsorted Continuous Subarray.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-30 21:44
      */
     public int findUnsortedSubarray(int[] nums) {
         int min = Integer.MAX_VALUE;

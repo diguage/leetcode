@@ -4183,14 +4183,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0593-valid-square.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/longest-harmonious-subsequence/[594. Longest Harmonious Subsequence^]
-//|{source_base_url}/_0594_LongestHarmoniousSubsequence.java[Java]
-//|{doc_base_url}/0594-longest-harmonious-subsequence.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/longest-harmonious-subsequence/[594. Longest Harmonious Subsequence^]
+|{source_base_url}/_0594_LongestHarmoniousSubsequence.java[Java]
+|{doc_base_url}/0594-longest-harmonious-subsequence.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/big-countries/[595. Big Countries^]
 //|{source_base_url}/_0595_BigCountries.java[Java]

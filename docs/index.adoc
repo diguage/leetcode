@@ -1273,7 +1273,7 @@ include::0581-shortest-unsorted-continuous-subarray.adoc[leveloffset=+1]
 
 // include::0593-valid-square.adoc[leveloffset=+1]
 
-// include::0594-longest-harmonious-subsequence.adoc[leveloffset=+1]
+include::0594-longest-harmonious-subsequence.adoc[leveloffset=+1]
 
 // include::0595-big-countries.adoc[leveloffset=+1]
 
