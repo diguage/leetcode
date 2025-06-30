@@ -1098,6 +1098,10 @@ endif::[]
 |{doc_base_url}/0192-word-frequency.adoc[题解]
 |✅ 以为是算法题，没想到是 Bash 脚本编程题！
 
+|{counter:codes2503}
+|{leetcode_base_url}/shortest-palindrome/[214. 最短回文串^]
+|{doc_base_url}/0214-shortest-palindrome.adoc[题解]
+|⭕️ 反转字符串，选择反转字符串结尾和原始字符串开头相同部分，再截取前缀+原始字符串即可获得答案！通过 124 / 126 个测试用例。
 
 |===
 

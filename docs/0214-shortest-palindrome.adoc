@@ -1,30 +1,61 @@
 [#0214-shortest-palindrome]
-= 214. Shortest Palindrome
+= 214. 最短回文串
 
-{leetcode}/problems/shortest-palindrome/[LeetCode - Shortest Palindrome^]
+https://leetcode.cn/problems/shortest-palindrome/[LeetCode - 214. 最短回文串 ^]
 
-Given a string _*s*_, you are allowed to convert it to a palindrome by adding characters in front of it. Find and return the shortest palindrome you can find by performing this transformation.
+给定一个字符串 *_s_*，你可以通过在字符串前面添加字符将其转换为回文串。找到并返回可以用这种方式转换的最短回文串。
 
-*Example 1:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* `"aacecaaa"`
-*Output:* `"aaacecaaa"`
-----
+*示例 1：*
 
-*Example 2:*
+....
+输入：s = "aacecaaa"
+输出："aaacecaaa"
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* `"abcd"`
-*Output:* `"dcbabcd"`
-----
+*示例 2：*
+
+....
+输入：s = "abcd"
+输出："dcbabcd"
+....
+
+
+*提示：*
+
+* `0 \<= s.length \<= 5 * 10^4^`
+* `s` 仅由小写英文字母组成
+
+
+
+== 思路分析
+
+将原来的字符串进行反转，再通过遍历寻找反转字符串结尾部分和原始字符串开头部分相同的起始坐标。然后，截取反转字符串的开头部分再加上元素字符串即可得到答案。通过 124 / 126 个测试用例，超时！可惜！
 
 
 [[src-0214]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0214_ShortestPalindrome.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0214_ShortestPalindrome_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
 
