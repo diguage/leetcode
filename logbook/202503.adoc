@@ -1093,6 +1093,12 @@ endif::[]
 |{doc_base_url}/0187-repeated-dna-sequences.adoc[题解]
 |✅ 暴力法，通过 30/31 个测试用例。使用子串+哈希优化一下即可。看题解，还有滑动窗口，有机会学习一下。
 
+|{counter:codes2503}
+|{leetcode_base_url}/word-frequency/[192. 统计词频^]
+|{doc_base_url}/0192-word-frequency.adoc[题解]
+|✅ 以为是算法题，没想到是 Bash 脚本编程题！
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

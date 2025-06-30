@@ -857,6 +857,7 @@
                 <project_basedir>${project.basedir}</project_basedir>
                 <source_attr>linenums,indent=0,subs="attributes,verbatim,quotes"</source_attr>
                 <java_src_attr>source%nowrap,java,linenums,indent=0,subs="attributes,verbatim"</java_src_attr>
+                <bash_src_attr>source%nowrap,bash,linenums,indent=0,subs="attributes,verbatim"</bash_src_attr>
                 <html_src_attr>source%nowrap,html,{source_attr}</html_src_attr>
                 <image_attr>align="center",width=95%</image_attr>
                 <diagram_attr>format=svg,align="center",width=95%</diagram_attr>

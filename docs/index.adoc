@@ -469,7 +469,7 @@ include::0190-reverse-bits.adoc[leveloffset=+1]
 
 include::0191-number-of-1-bits.adoc[leveloffset=+1]
 
-// include::0192-word-frequency.adoc[leveloffset=+1]
+include::0192-word-frequency.adoc[leveloffset=+1]
 
 // include::0193-valid-phone-numbers.adoc[leveloffset=+1]
 

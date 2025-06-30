@@ -1,50 +1,73 @@
 [#0192-word-frequency]
-= 192. Word Frequency
+= 192. 统计词频
 
-{leetcode}/problems/word-frequency/[LeetCode - Word Frequency^]
+https://leetcode.cn/problems/word-frequency/[LeetCode - 192. 统计词频 ^]
 
-Write a bash script to calculate the frequency of each word in a text file `words.txt`.
+写一个 bash 脚本以统计一个文本文件 `words.txt` 中每个单词出现的频率。
 
-For simplicity sake, you may assume:
+为了简单起见，你可以假设：
 
+* `words.txt` 只包括小写字母和 ` ` 。
+* 每个单词只由小写字母组成。
+* 单词间由一个或多个空格字符分隔。
 
-* `words.txt` contains only lowercase characters and space `' '` characters.
-* Each word must consist of lowercase characters only.
-* Words are separated by one or more whitespace characters.
+*示例:*
 
+假设 `words.txt` 内容如下：
 
-*Example:*
-
-Assume that `words.txt` has the following content:
-
-[subs="verbatim,quotes,macros"]
-----
+....
 the day is sunny the the
 the sunny is is
-----
+....
 
-Your script should output the following, sorted by descending frequency:
+你的脚本应当输出（以词频降序排列）：
 
-[subs="verbatim,quotes,macros"]
-----
+....
 the 4
 is 3
 sunny 2
 day 1
-----
+....
 
-*Note:*
+*说明:*
+
+* 不要担心词频相同的单词的排序问题，每个单词出现的频率都是唯一的。
+* 你可以使用一行 http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html[Unix pipes] 实现吗？
 
 
-* Don't worry about handling ties, it is guaranteed that each word's frequency count is unique.
-* Could you write it in one-line using <a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html">Unix pipes</a>?
-
-
+== 思路分析
 
 
 [[src-0192]]
-[{java_src_attr}]
+[tabs]
+====
+一刷::
++
+--
+[{bash_src_attr}]
 ----
-include::{sourcedir}/_0192_WordFrequency.java[tag=answer]
+cat words.txt | tr -s ' ' '\n' | sort | uniq -c | sort -nr | awk '{print $2, $1}'
+
+# cat words.txt：读取文件内容
+# tr -s ' ' '\n'：将空格替换为换行符（-s选项压缩连续空格），使每个单词单独成行
+# sort：对单词进行排序（uniq命令需要排序后的输入）
+# uniq -c：统计重复行数量（输出格式："4 the"）
+# sort -nr：按数值降序排序（-n数值排序，-r降序）
+# awk '{print $2, $1}'：反转输出列顺序（从"4 the"变为"the 4"）
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0192_WordFrequency_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
 

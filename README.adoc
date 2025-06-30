@@ -1370,13 +1370,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/word-frequency/[192. Word Frequency^]
-//|{source_base_url}/_0192_WordFrequency.java[Java]
-//|{doc_base_url}/0192-word-frequency.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/word-frequency/[192. Word Frequency^]
+|{source_base_url}/_0192_WordFrequency.java[Java]
+|{doc_base_url}/0192-word-frequency.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/valid-phone-numbers/[193. Valid Phone Numbers^]
 //|{source_base_url}/_0193_ValidPhoneNumbers.java[Java]

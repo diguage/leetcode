@@ -14,6 +14,7 @@
 :labdir: {asciidoctorconfigdir}/../src/test/java/com/diguage/labs
 :sortdir: {asciidoctorconfigdir}/../src/main/java/com/diguage/algo/sort
 :java_src_attr: source%nowrap,java,indent=0,linenums,subs="attributes,verbatim,quotes"
+:bash_src_attr: source%nowrap,bash,indent=0,linenums,subs="attributes,verbatim,quotes"
 
 :doc_base_url: {asciidoctorconfigdir}/../docs
 
