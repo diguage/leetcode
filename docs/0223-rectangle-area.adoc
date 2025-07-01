@@ -1,31 +1,70 @@
 [#0223-rectangle-area]
-= 223. Rectangle Area
+= 223. 矩形面积
 
-{leetcode}/problems/rectangle-area/[LeetCode - Rectangle Area^]
+https://leetcode.cn/problems/rectangle-area/[LeetCode - 223. 矩形面积 ^]
 
-Find the total area covered by two *rectilinear* rectangles in a *2D* plane.
+给你 *二维* 平面上两个 *由直线构成且边与坐标轴平行/垂直* 的矩形，请你计算并返回两个矩形覆盖的总面积。
 
-Each rectangle is defined by its bottom left corner and top right corner as shown in the figure.
+每个矩形由其 *左下* 顶点和 *右上* 顶点坐标表示：
 
-image::https://assets.leetcode.com/uploads/2018/10/22/rectangle_area.png[{image_attr}]
+* 第一个矩形由其左下顶点 `+(ax1, ay1)+` 和右上顶点 `+(ax2, ay2)+` 定义。
+* 第二个矩形由其左下顶点 `+(bx1, by1)+` 和右上顶点 `+(bx2, by2)+` 定义。
 
-*Example:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* A = -3, B = 0, C = 3, D = 4, E = 0, F = -1, G = 9, H = 2
-*Output:* 45
-----
+*示例 1：*
 
-*Note:*
+image::images/0223-01.png[{image_attr}]
 
-Assume that the total area is never beyond the maximum possible value of *int*.
+....
+输入：ax1 = -3, ay1 = 0, ax2 = 3, ay2 = 4, bx1 = 0, by1 = -1, bx2 = 9, by2 = 2
+输出：45
+....
 
+*示例 2：*
+
+....
+输入：ax1 = -2, ay1 = -2, ax2 = 2, ay2 = 2, bx1 = -2, by1 = -2, bx2 = 2, by2 = 2
+输出：16
+....
+
+
+*提示：*
+
+* `-10^4^ \<= ax1, ay1, ax2, ay2, bx1, by1, bx2, by2 \<= 10^4^`
+
+
+
+== 思路分析
+
+原本还想按分离，包含和相交三种情况来处理，提交后发现相交的情况有很多种，不好处理！
+
+看题解，可以直接用容斥原理，与 xref:0000-04-merge-intervals.adoc[Merge Intervals 区间合并] 类型解题时，使用的处理手段类似，求出相交线段，即可求出重叠面积。
 
 
 [[src-0223]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0223_RectangleArea.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0223_RectangleArea_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/rectangle-area/solutions/1024841/gong-shui-san-xie-yun-yong-rong-chi-yuan-hzit/[223. 矩形面积 - 【宫水三叶】运用容斥原理求解^]
+. https://leetcode.cn/problems/rectangle-area/solutions/1024639/ju-xing-mian-ji-by-leetcode-solution-xzbl/[223. 矩形面积 - 官方题解^]

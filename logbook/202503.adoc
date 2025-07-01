@@ -1108,6 +1108,11 @@ endif::[]
 |{doc_base_url}/0594-longest-harmonious-subsequence.adoc[题解]
 |✅ 最简单的解法是排序。时间复杂度更优的解答是哈希计数。
 
+|{counter:codes2503}
+|{leetcode_base_url}/rectangle-area/[223. 矩形面积^]
+|{doc_base_url}/0223-rectangle-area.adoc[题解]
+|⭕️ 原本还想按分离，包含和相交三种情况来处理，相交情况太多，放弃！容斥原理的处理手段和 {doc_base_url}/0000-04-merge-intervals.adoc[Merge Intervals 区间合并] 题目的方式类似！
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

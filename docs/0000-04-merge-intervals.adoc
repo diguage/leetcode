@@ -18,11 +18,13 @@ image::images/0056-01.png[{image_attr}]
 . xref:0056-merge-intervals.adoc[56. Merge Intervals]
 . xref:0057-insert-interval.adoc[57. Insert Interval]
 . xref:0986-interval-list-intersections.adoc[986. Interval List Intersections]
+. xref:0223-rectangle-area.adoc[223. 矩形面积] -- 这道题不是区间合并类型的题目。但是，在处理相交面积时的手段和区间合并的手段是类似的！
 . xref:0252-meeting-rooms.adoc[252. Meeting Rooms]
 . xref:0253-meeting-rooms-ii.adoc[253. Meeting Rooms II]
 . xref:0452-minimum-number-of-arrows-to-burst-balloons.adoc[452. Minimum Number of Arrows to Burst Balloons]
 . xref:0759-employee-free-time.adoc[759. Employee Free Time]
 . xref:1094-car-pooling.adoc[1094. Car Pooling]
+
 
 
 Conflicting Appointments (medium)

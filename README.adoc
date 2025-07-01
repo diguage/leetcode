@@ -1587,12 +1587,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/rectangle-area/[223. Rectangle Area^]
-//|{source_base_url}/_0223_RectangleArea.java[Java]
-//|{doc_base_url}/0223-rectangle-area.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/rectangle-area/[223. Rectangle Area^]
+|{source_base_url}/_0223_RectangleArea.java[Java]
+|{doc_base_url}/0223-rectangle-area.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/basic-calculator/[224. Basic Calculator^]
