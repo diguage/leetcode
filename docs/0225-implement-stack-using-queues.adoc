@@ -1,43 +1,80 @@
 [#0225-implement-stack-using-queues]
-= 225. Implement Stack using Queues
+= 225. 用队列实现栈
 
-{leetcode}/problems/implement-stack-using-queues/[LeetCode - Implement Stack using Queues^]
+https://leetcode.cn/problems/implement-stack-using-queues/[LeetCode - 225. 用队列实现栈 ^]
 
-Implement the following operations of a stack using queues.
+请你仅使用两个队列实现一个后入先出（LIFO）的栈，并支持普通栈的全部四种操作（`push`、`top`、`pop` 和 `empty`）。
+
+实现 `MyStack` 类：
+
+* `void push(int x)` 将元素 x 压入栈顶。
+* `int pop()` 移除并返回栈顶元素。
+* `int top()` 返回栈顶元素。
+* `boolean empty()` 如果栈是空的，返回 `true` ；否则，返回 `false`。
+
+*注意：*
+
+* 你只能使用队列的标准操作 —— 也就是 `push to back`、`peek/pop from front`、`size` 和 `is empty` 这些操作。
+* 你所使用的语言也许不支持队列。 你可以使用 list （列表）或者 deque（双端队列）来模拟一个队列 , 只要是标准的队列操作即可。
+
+*示例：*
+
+....
+输入：
+["MyStack", "push", "push", "top", "pop", "empty"]
+[[], [1], [2], [], [], []]
+输出：
+[null, null, null, 2, 2, false]
+
+解释：
+MyStack myStack = new MyStack();
+myStack.push(1);
+myStack.push(2);
+myStack.top(); // 返回 2
+myStack.pop(); // 返回 2
+myStack.empty(); // 返回 False
+....
 
 
-* push(x) -- Push element x onto stack.
-* pop() -- Removes the element on top of the stack.
-* top() -- Get the top element.
-* empty() -- Return whether the stack is empty.
+*提示：*
+
+* `+1 <= x <= 9+`
+* 最多调用`100` 次 `push`、`pop`、`top` 和 `empty`
+* 每次调用 `pop` 和 `top` 都保证栈不为空
 
 
-*Example:*
-
-[subs="verbatim,quotes,macros"]
-----
-MyStack stack = new MyStack();
-
-stack.push(1);
-stack.push(2);  
-stack.top();   // returns 2
-stack.pop();   // returns 2
-stack.empty(); // returns false
-----
-
-*Notes:*
+**进阶：**你能否仅用一个队列来实现栈。
 
 
-* You must use _only_ standard operations of a queue -- which means only `push to back`, `peek/pop from front`, `size`, and `is empty` operations are valid.
-* Depending on your language, queue may not be supported natively. You may simulate a queue by using a list or deque (double-ended queue), as long as you use only standard operations of a queue.
-* You may assume that all operations are valid (for example, no pop or top operations will be called on an empty stack).
+== 思路分析
 
+就是用两个队列来回倒腾。添加元素的时候，哪个空就放那个队列中，把另外一个队列里的值都倒腾过来。
 
-
+使用一个队列来求解，则在添加新记录之前，把队列长度记录下来，添加完新元素，再出队入队原来队列长度次数。
 
 [[src-0225]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0225_ImplementStackUsingQueues.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0225_ImplementStackUsingQueues_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/implement-stack-using-queues/solutions/432204/yong-dui-lie-shi-xian-zhan-by-leetcode-solution/[225. 用队列实现栈 - 官方题解^]

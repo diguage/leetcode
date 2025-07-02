@@ -1113,6 +1113,11 @@ endif::[]
 |{doc_base_url}/0223-rectangle-area.adoc[题解]
 |⭕️ 原本还想按分离，包含和相交三种情况来处理，相交情况太多，放弃！容斥原理的处理手段和 {doc_base_url}/0000-04-merge-intervals.adoc[Merge Intervals 区间合并] 题目的方式类似！
 
+|{counter:codes2503}
+|{leetcode_base_url}/implement-stack-using-queues/[225. 用队列实现栈^]
+|{doc_base_url}/0225-implement-stack-using-queues.adoc[题解]
+|✅ 就是用两个队列来回倒腾。添加元素的时候，哪个空就放那个队列中，把另外一个队列里的值都倒腾过来。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
