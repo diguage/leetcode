@@ -1101,7 +1101,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/shortest-palindrome/[214. 最短回文串^]
 |{doc_base_url}/0214-shortest-palindrome.adoc[题解]
-|✅ 反转字符串，选择反转字符串结尾和原始字符串开头相同部分，再截取前缀+原始字符串即可获得答案！通过 124 / 126 个测试用例。使用 `reversed.substring(index)` 代替逐个字母比较，答案通过！
+|✅ 反转字符串，选择反转字符串结尾和原始字符串开头相同部分，再截取前缀+原始字符串即可获得答案！通过 124 / 126 个测试用例。使用 `reversed.substring(index)` 代替逐个字母比较，答案通过！更牛逼的写法是 KMP 算法。
 
 |{counter:codes2503}
 |{leetcode_base_url}/longest-harmonious-subsequence/[594. 最长和谐子序列^]
