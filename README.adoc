@@ -1629,12 +1629,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/majority-element-ii/[229. Majority Element II^]
-//|{source_base_url}/_0229_MajorityElementII.java[Java]
-//|{doc_base_url}/0229-majority-element-ii.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/majority-element-ii/[229. Majority Element II^]
+|{source_base_url}/_0229_MajorityElementII.java[Java]
+|{doc_base_url}/0229-majority-element-ii.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/kth-smallest-element-in-a-bst/[230. Kth Smallest Element in a BST^]

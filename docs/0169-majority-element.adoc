@@ -32,6 +32,8 @@ You may assume that the array is non-empty and the majority element always exist
 
 哈希计数法最易想到，摩尔投票法最妙！
 
+摩尔投票法更刺激的使用在 xref:0229-majority-element-ii.adoc[229. 多数元素 II]。
+
 image::images/0169-01.png[{image_attr}]
 
 

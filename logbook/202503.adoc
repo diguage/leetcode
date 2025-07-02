@@ -1118,6 +1118,11 @@ endif::[]
 |{doc_base_url}/0225-implement-stack-using-queues.adoc[题解]
 |✅ 就是用两个队列来回倒腾。添加元素的时候，哪个空就放那个队列中，把另外一个队列里的值都倒腾过来。
 
+|{counter:codes2503}
+|{leetcode_base_url}/majority-element-ii/[229. 多数元素 II^]
+|{doc_base_url}/0229-majority-element-ii.adoc[题解]
+|⭕️ 最简单解法是哈希计数法。更精美的解法是摩尔投票法，通过抵消不同元素的出现次数，最后剩余下的元素可能就是符合要求元素。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
