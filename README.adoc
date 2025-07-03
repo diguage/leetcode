@@ -1713,12 +1713,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/different-ways-to-add-parentheses/[241. Different Ways to Add Parentheses^]
-//|{source_base_url}/_0241_DifferentWaysToAddParentheses.java[Java]
-//|{doc_base_url}/0241-different-ways-to-add-parentheses.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/different-ways-to-add-parentheses/[241. Different Ways to Add Parentheses^]
+|{source_base_url}/_0241_DifferentWaysToAddParentheses.java[Java]
+|{doc_base_url}/0241-different-ways-to-add-parentheses.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/valid-anagram/[242. Valid Anagram^]

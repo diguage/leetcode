@@ -1,40 +1,72 @@
 [#0241-different-ways-to-add-parentheses]
-= 241. Different Ways to Add Parentheses
+= 241. 为运算表达式设计优先级
 
-{leetcode}/problems/different-ways-to-add-parentheses/[LeetCode - Different Ways to Add Parentheses^]
+https://leetcode.cn/problems/different-ways-to-add-parentheses/[LeetCode - 241. 为运算表达式设计优先级^]
 
-Given a string of numbers and operators, return all possible results from computing all the different possible ways to group numbers and operators. The valid operators are `+`, `-` and `*`.
+给你一个由数字和运算符组成的字符串 `expression`，按不同优先级组合数字和运算符，计算并返回所有可能组合的结果。你可以 *按任意顺序* 返回答案。
 
-*Example 1:*
+生成的测试用例满足其对应输出值符合 32 位整数范围，不同结果的数量不超过 `10^4^`。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* `"2-1-1"`
-*Output:* `[0, 2]`
-*Explanation:*
-((2-1)-1) = 0 
+*示例 1：*
+
+....
+输入：expression = "2-1-1"
+输出：[0,2]
+解释：
+((2-1)-1) = 0
 (2-(1-1)) = 2
-----
+....
 
-*Example 2:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* `"2*3-4*5"`
-*Output:* `[-34, -14, -10, -10, 10]`
-*Explanation: 
-*(2*(3-(4*5))) = -34 
-((2*3)-(4*5)) = -14 
-((2*(3-4))*5) = -10 
-(2*((3-4)*5)) = -10 
-(((2*3)-4)*5) = 10*
-*
-----
+....
+输入：expression = "2*3-4*5"
+输出：[-34,-14,-10,-10,10]
+解释：
+(2*(3-(4*5))) = -34
+((2*3)-(4*5)) = -14
+((2*(3-4))*5) = -10
+(2*((3-4)*5)) = -10
+(((2*3)-4)*5) = 10
+....
 
+*提示：*
+
+* `+1 <= expression.length <= 20+`
+* `expression` 由数字和算符 `+`、`-` 和 `*` 组成。
+* 输入表达式中的所有整数值在范围 `[0, 99]`
+* 输入表达式中的所有整数都没有前导 `-` 或 `+` 表示符号。
+
+
+== 思路分析
+
+看完题目首先想的是怎么插入括号。看了题解，可以按运算符将左右分为两部分进行递归求解，再分别对左右进行计算。
 
 [[src-0241]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0241_DifferentWaysToAddParentheses.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0241_DifferentWaysToAddParentheses_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/different-ways-to-add-parentheses/solutions/44108/pythongolang-fen-zhi-suan-fa-by-jalan/[241. 为运算表达式设计优先级 - 分治算法^]
+. https://leetcode.cn/problems/different-ways-to-add-parentheses/solutions/125144/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-5-5/[241. 为运算表达式设计优先级 - 详细通俗的思路分析，多解法^]
+. https://leetcode.cn/problems/different-ways-to-add-parentheses/solutions/1634445/wei-yun-suan-biao-da-shi-she-ji-you-xian-lyw6/[241. 为运算表达式设计优先级 - 官方题解^]
