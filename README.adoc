@@ -1866,14 +1866,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0262-trips-and-users.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/ugly-number/[263. Ugly Number^]
-//|{source_base_url}/_0263_UglyNumber.java[Java]
-//|{doc_base_url}/0263-ugly-number.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/ugly-number/[263. Ugly Number^]
+|{source_base_url}/_0263_UglyNumber.java[Java]
+|{doc_base_url}/0263-ugly-number.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/ugly-number-ii/[264. Ugly Number II^]
 //|{source_base_url}/_0264_UglyNumberII.java[Java]
