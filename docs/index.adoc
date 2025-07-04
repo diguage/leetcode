@@ -601,7 +601,7 @@ include::0242-valid-anagram.adoc[leveloffset=+1]
 
 include::0257-binary-tree-paths.adoc[leveloffset=+1]
 
-// include::0258-add-digits.adoc[leveloffset=+1]
+include::0258-add-digits.adoc[leveloffset=+1]
 
 // include::0259-3sum-smaller.adoc[leveloffset=+1]
 

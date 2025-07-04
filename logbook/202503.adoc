@@ -1128,6 +1128,12 @@ endif::[]
 |{doc_base_url}/0241-different-ways-to-add-parentheses.adoc[题解]
 |❌ 看完题目首先想的是怎么插入括号。看了题解，可以按运算符将左右分为两部分进行递归求解，再分别对左右进行计算。
 
+|{counter:codes2503}
+|{leetcode_base_url}/add-digits/[258. 各位相加^]
+|{doc_base_url}/0258-add-digits.adoc[题解]
+|✅ 数学计算。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

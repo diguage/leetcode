@@ -1,29 +1,64 @@
 [#0258-add-digits]
-= 258. Add Digits
+= 258. 各位相加
 
-{leetcode}/problems/add-digits/[LeetCode - Add Digits^]
+https://leetcode.cn/problems/add-digits/[LeetCode - 258. 各位相加 ^]
 
-Given a non-negative integer `num`, repeatedly add all its digits until the result has only one digit.
+给定一个非负整数 `num`，反复将各个位上的数字相加，直到结果为一位数。返回这个结果。
 
-*Example:*
+*示例 1:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* `38`
-*Output:* 2 
-*Explanation:* The process is like: `3 + 8 = 11`, `1 + 1 = 2`. 
-             Since `2` has only one digit, return it.
-----
+....
+输入: num = 38
+输出: 2
+解释: 各位相加的过程为：
+38 --> 3 + 8 --> 11
+11 --> 1 + 1 --> 2
+由于 2 是一位数，所以返回 2。
+....
 
-*Follow up:*
+*示例 2:*
+
+....
+输入: num = 0
+输出: 0
+....
+
+*提示：*
+
+* `0 \<= num \<= 2^31^ - 1`
+
+**进阶：**你可以不使用循环或者递归，在 stem:[O(1)] 时间复杂度内解决这个问题吗？
 
 
-Could you do it without any loop/recursion in O(1) runtime?
+== 思路分析
+
+循环计算每个数字。
 
 
 [[src-0258]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0258_AddDigits.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0258_AddDigits_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/add-digits/solutions/135092/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-5-7/[258. 各位相加 - 详细通俗的思路分析，多解法^]
+. https://leetcode.cn/problems/add-digits/solutions/1301157/ge-wei-xiang-jia-by-leetcode-solution-u4kj/[258. 各位相加 - 官方题解^]

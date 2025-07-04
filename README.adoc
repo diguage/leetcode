@@ -1832,13 +1832,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/add-digits/[258. Add Digits^]
-//|{source_base_url}/_0258_AddDigits.java[Java]
-//|{doc_base_url}/0258-add-digits.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/add-digits/[258. Add Digits^]
+|{source_base_url}/_0258_AddDigits.java[Java]
+|{doc_base_url}/0258-add-digits.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/3sum-smaller/[259. 3Sum Smaller^]
 //|{source_base_url}/_0259_3SumSmaller.java[Java]
