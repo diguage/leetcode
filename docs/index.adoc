@@ -613,7 +613,7 @@ include::0260-single-number-iii.adoc[leveloffset=+1]
 
 include::0263-ugly-number.adoc[leveloffset=+1]
 
-// include::0264-ugly-number-ii.adoc[leveloffset=+1]
+include::0264-ugly-number-ii.adoc[leveloffset=+1]
 
 // include::0265-paint-house-ii.adoc[leveloffset=+1]
 

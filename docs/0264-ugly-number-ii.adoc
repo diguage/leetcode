@@ -1,32 +1,63 @@
 [#0264-ugly-number-ii]
-= 264. Ugly Number II
+= 264. 丑数 II
 
-{leetcode}/problems/ugly-number-ii/[LeetCode - Ugly Number II^]
+https://leetcode.cn/problems/ugly-number-ii/[LeetCode - 264. 丑数 II ^]
 
-Write a program to find the `n`-th ugly number.
+给你一个整数 `n` ，请你找出并返回第 `n` 个 *丑数* 。
 
-Ugly numbers are* positive numbers* whose prime factors only include `2, 3, 5`. 
+*丑数* 就是质因子只包含 `2`、`3` 和 `5` 的正整数。
 
-*Example:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* n = 10
-*Output:* 12
-*Explanation:* `1, 2, 3, 4, 5, 6, 8, 9, 10, 12` is the sequence of the first `10` ugly numbers.
-----
+....
+输入：n = 10
+输出：12
+解释：[1, 2, 3, 4, 5, 6, 8, 9, 10, 12] 是由前 10 个丑数组成的序列。
+....
 
-*Note: * 
+*示例 2：*
+
+....
+输入：n = 1
+输出：1
+解释：1 通常被视为丑数。
+....
+
+*提示：*
+
+* `+1 <= n <= 1690+`
 
 
-. `1` is typically treated as an ugly number.
-. `n` *does not exceed 1690*.
+== 思路分析
 
-
+生成出来丑数队列，然后从中选出第 `n` 个数。
 
 [[src-0264]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0264_UglyNumberII.java[tag=answer]
+include::{sourcedir}/_0264_UglyNumberIi.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0264_UglyNumberIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/ugly-number-ii/solutions/714340/gong-shui-san-xie-yi-ti-shuang-jie-you-x-3nvs/[264. 丑数 II - 【宫水三叶】一题双解：优先队列 & 多路归并^]
+. https://leetcode.cn/problems/ugly-number-ii/solutions/110653/san-zhi-zhen-fang-fa-de-li-jie-fang-shi-by-zzxn/[264. 丑数 II - 三指针方法的理解方式^]
+. https://leetcode.cn/problems/ugly-number-ii/solutions/712102/chou-shu-ii-by-leetcode-solution-uoqd/[264. 丑数 II - 官方题解^]
+. https://leetcode.cn/problems/ugly-number-ii/solutions/80955/bao-li-you-xian-dui-lie-xiao-ding-dui-dong-tai-gui/[264. 丑数 II - 暴力+优先队列(小顶堆)+动态规划(三指针)^]

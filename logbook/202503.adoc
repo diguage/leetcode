@@ -1138,6 +1138,12 @@ endif::[]
 |{doc_base_url}/0263-ugly-number.adoc[题解]
 |✅ 数学计算。
 
+|{counter:codes2503}
+|{leetcode_base_url}/ugly-number-ii/[264. 丑数 II^]
+|{doc_base_url}/0264-ugly-number-ii.adoc[题解]
+|✅ 优先队列
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
