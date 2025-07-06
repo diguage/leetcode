@@ -1951,13 +1951,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/h-index-ii/[275. H-Index II^]
-//|{source_base_url}/_0275_HIndexII.java[Java]
-//|{doc_base_url}/0275-h-index-ii.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/h-index-ii/[275. H-Index II^]
+|{source_base_url}/_0275_HIndexII.java[Java]
+|{doc_base_url}/0275-h-index-ii.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/paint-fence/[276. Paint Fence^]
 //|{source_base_url}/_0276_PaintFence.java[Java]
