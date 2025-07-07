@@ -33,7 +33,8 @@ public class _0279_PerfectSquares {
      *
      * Memory Usage: 41.2 MB, less than 13.89% of Java online submissions for Perfect Squares.
      *
-     * Copy from:
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-24 11:34
      */
     public int numSquares(int n) {
         if (n <= 0) {

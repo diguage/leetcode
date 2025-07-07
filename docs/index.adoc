@@ -649,7 +649,7 @@ include::0279-perfect-squares.adoc[leveloffset=+1]
 
 // include::0281-zigzag-iterator.adoc[leveloffset=+1]
 
-// include::0282-expression-add-operators.adoc[leveloffset=+1]
+include::0282-expression-add-operators.adoc[leveloffset=+1]
 
 include::0283-move-zeroes.adoc[leveloffset=+1]
 

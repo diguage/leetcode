@@ -1999,13 +1999,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0281-zigzag-iterator.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/expression-add-operators/[282. Expression Add Operators^]
-//|{source_base_url}/_0282_ExpressionAddOperators.java[Java]
-//|{doc_base_url}/0282-expression-add-operators.adoc[题解]
-//|Hard
-//|
+
+|{counter:codes}
+|{leetcode_base_url}/expression-add-operators/[282. Expression Add Operators^]
+|{source_base_url}/_0282_ExpressionAddOperators.java[Java]
+|{doc_base_url}/0282-expression-add-operators.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/move-zeroes/[283. Move Zeroes^]
