@@ -653,7 +653,7 @@ include::0282-expression-add-operators.adoc[leveloffset=+1]
 
 include::0283-move-zeroes.adoc[leveloffset=+1]
 
-// include::0284-peeking-iterator.adoc[leveloffset=+1]
+include::0284-peeking-iterator.adoc[leveloffset=+1]
 
 // include::0285-inorder-successor-in-bst.adoc[leveloffset=+1]
 

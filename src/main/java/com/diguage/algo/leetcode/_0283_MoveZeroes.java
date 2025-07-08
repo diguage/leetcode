@@ -30,6 +30,9 @@ public class _0283_MoveZeroes {
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Move Zeroes.
      *
      * Memory Usage: 38 MB, less than 93.01% of Java online submissions for Move Zeroes.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-05 22:26
      */
     public void moveZeroes(int[] nums) {
         int count = 0;

@@ -2014,13 +2014,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/peeking-iterator/[284. Peeking Iterator^]
-//|{source_base_url}/_0284_PeekingIterator.java[Java]
-//|{doc_base_url}/0284-peeking-iterator.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/peeking-iterator/[284. Peeking Iterator^]
+|{source_base_url}/_0284_PeekingIterator.java[Java]
+|{doc_base_url}/0284-peeking-iterator.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/inorder-successor-in-bst/[285. Inorder Successor in BST^]
 //|{source_base_url}/_0285_InorderSuccessorInBST.java[Java]

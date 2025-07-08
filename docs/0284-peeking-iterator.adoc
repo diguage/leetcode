@@ -1,29 +1,76 @@
 [#0284-peeking-iterator]
-= 284. Peeking Iterator
+= 284. 窥视迭代器
 
-{leetcode}/problems/peeking-iterator/[LeetCode - Peeking Iterator^]
+https://leetcode.cn/problems/peeking-iterator/[LeetCode - 284. 窥视迭代器 ^]
 
-Given an Iterator class interface with methods: `next()` and `hasNext()`, design and implement a PeekingIterator that support the `peek()` operation -- it essentially peek() at the element that will be returned by the next call to next().
+请你在设计一个迭代器，在集成现有迭代器拥有的 `hasNext` 和 `next` 操作的基础上，还额外支持 `peek` 操作。
 
-*Example:*
+实现 `PeekingIterator` 类：
 
-[subs="verbatim,quotes,macros"]
-----
-Assume that the iterator is initialized to the beginning of the list: *`[1,2,3]`*.
+* `PeekingIterator(Iterator<int> nums)` 使用指定整数迭代器 `nums` 初始化迭代器。
+* `int next()` 返回数组中的下一个元素，并将指针移动到下个元素处。
+* `bool hasNext()` 如果数组中存在下一个元素，返回 `true`；否则，返回 `false` 。
+* `int peek()` 返回数组中的下一个元素，但 *不* 移动指针。
 
-Call *`next()`* gets you *1*, the first element in the list.
-Now you call *`peek()`* and it returns *2*, the next element. Calling *`next()`* after that _*still*_ return *2*. 
-You call *`next()`* the final time and it returns *3*, the last element. 
-Calling *`hasNext()`* after that should return *false*.
-----
+**注意：**每种语言可能有不同的构造函数和迭代器 `Iterator`，但均支持 `int next()` 和 `boolean hasNext()` 函数。
 
-*Follow up*: How would you extend your design to be generic and work with all types, not just integer?
+*示例 1：*
+
+....
+输入：
+["PeekingIterator", "next", "peek", "next", "next", "hasNext"]
+[[[1, 2, 3]], [], [], [], [], []]
+输出：
+[null, 1, 2, 2, 3, false]
+
+解释：
+PeekingIterator peekingIterator = new PeekingIterator([1, 2, 3]); // [1,2,3]
+peekingIterator.next();    // 返回 1 ，指针移动到下一个元素 [1,2,3]
+peekingIterator.peek();    // 返回 2 ，指针未发生移动 [1,2,3]
+peekingIterator.next();    // 返回 2 ，指针移动到下一个元素 [1,2,3]
+peekingIterator.next();    // 返回 3 ，指针移动到下一个元素 [1,2,3]
+peekingIterator.hasNext(); // 返回 False
+....
+
+*提示：*
+
+* `+1 <= nums.length <= 1000+`
+* `+1 <= nums[i] <= 1000+`
+* 对 `next` 和 `peek` 的调用均有效
+* `next`、`hasNext` 和 `peek` 最多调用 `1000` 次
+
+**进阶：**你将如何拓展你的设计？使之变得通用化，从而适应所有的类型，而不只是整数型？
 
 
+
+== 思路分析
+
+当调用 `peek()` 时，调用 `next()`，把头部元素给存到属性字段 `header` 中。在 `hasNext()` 和 `next()` 时，判断 `header` 是否为空再另做处理。
 
 [[src-0284]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0284_PeekingIterator.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0284_PeekingIterator_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/peeking-iterator/solutions/1031404/gong-shui-san-xie-die-dai-qi-ji-ben-ren-b77lz/[284. 窥视迭代器 - 迭代器基本认识的模拟题^]
+. https://leetcode.cn/problems/peeking-iterator/solutions/1031306/ding-duan-die-dai-qi-by-leetcode-solutio-8toa/[284. 窥视迭代器 - 官方题解^]

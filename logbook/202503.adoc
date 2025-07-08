@@ -1153,6 +1153,11 @@ endif::[]
 |{doc_base_url}/0282-expression-add-operators.adoc[题解]
 |⭕️ 回溯！对切分的数字和运算符进行遍历。想到了思路，实现出了问题。
 
+|{counter:codes2503}
+|{leetcode_base_url}/peeking-iterator/[284. 窥视迭代器^]
+|{doc_base_url}/0284-peeking-iterator.adoc[题解]
+|✅ 调用 `peek()` 时，调用 `next()` 把头部元素存入到属性字段 `header` 中。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
