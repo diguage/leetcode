@@ -669,7 +669,7 @@ include::0290-word-pattern.adoc[leveloffset=+1]
 
 // include::0291-word-pattern-ii.adoc[leveloffset=+1]
 
-// include::0292-nim-game.adoc[leveloffset=+1]
+include::0292-nim-game.adoc[leveloffset=+1]
 
 // include::0293-flip-game.adoc[leveloffset=+1]
 

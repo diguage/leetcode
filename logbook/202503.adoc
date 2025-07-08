@@ -1158,6 +1158,12 @@ endif::[]
 |{doc_base_url}/0284-peeking-iterator.adoc[题解]
 |✅ 调用 `peek()` 时，调用 `next()` 把头部元素存入到属性字段 `header` 中。
 
+|{counter:codes2503}
+|{leetcode_base_url}/nim-game/[292. Nim 游戏^]
+|{doc_base_url}/0292-nim-game.adoc[题解]
+|✅ 数学推理。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

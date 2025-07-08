@@ -2069,14 +2069,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0291-word-pattern-ii.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/nim-game/[292. Nim Game^]
-//|{source_base_url}/_0292_NimGame.java[Java]
-//|{doc_base_url}/0292-nim-game.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/nim-game/[292. Nim Game^]
+|{source_base_url}/_0292_NimGame.java[Java]
+|{doc_base_url}/0292-nim-game.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/flip-game/[293. Flip Game^]
 //|{source_base_url}/_0293_FlipGame.java[Java]
