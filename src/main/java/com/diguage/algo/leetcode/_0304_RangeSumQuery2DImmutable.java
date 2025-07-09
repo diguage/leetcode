@@ -1,11 +1,12 @@
 package com.diguage.algo.leetcode;
 
-/**
- * @author D瓜哥 · https://www.diguage.com
- * @since 2024-07-04 17:09:17
- */
+
 public class _0304_RangeSumQuery2DImmutable {
   // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-07-04 17:09:17
+   */
   static class NumMatrix {
     private int[][] sums;
 

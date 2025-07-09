@@ -2167,14 +2167,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0305-number-of-islands-ii.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/additive-number/[306. Additive Number^]
-//|{source_base_url}/_0306_AdditiveNumber.java[Java]
-//|{doc_base_url}/0306-additive-number.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/additive-number/[306. Additive Number^]
+|{source_base_url}/_0306_AdditiveNumber.java[Java]
+|{doc_base_url}/0306-additive-number.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/range-sum-query-mutable/[307. Range Sum Query - Mutable^]
 //|{source_base_url}/_0307_RangeSumQueryMutable.java[Java]

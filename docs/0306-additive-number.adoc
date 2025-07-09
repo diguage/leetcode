@@ -1,55 +1,68 @@
 [#0306-additive-number]
-= 306. Additive Number
+= 306. 累加数
 
-{leetcode}/problems/additive-number/[LeetCode - Additive Number^]
+https://leetcode.cn/problems/additive-number/[LeetCode - 306. 累加数 ^]
 
-Additive number is a string whose digits can form additive sequence.
+*累加数* 是一个字符串，组成它的数字可以形成累加序列。
 
-A valid additive sequence should contain *at least* three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two.
+一个有效的 *累加序列* 必须 *至少* 包含 3 个数。除了最开始的两个数以外，序列中的每个后续数字必须是它之前两个数字之和。
 
-Given a string containing only digits `'0'-'9'`, write a function to determine if it's an additive number.
+给你一个只包含数字 `+'0'-'9'+` 的字符串，编写一个算法来判断给定输入是否是 *累加数* 。如果是，返回 `true` ；否则，返回 `false` 。
 
-*Note:* Numbers in the additive sequence *cannot* have leading zeros, so sequence `1, 2, 03` or `1, 02, 3` is invalid.
+**说明：**累加序列里的数，除数字 0 之外，*不会* 以 0 开头，所以不会出现 `+1, 2, 03+` 或者 `+1, 02, 3+` 的情况。
 
- 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "112358"
-*Output:* true
-*Explanation:* The digits can form an additive sequence: 1, 1, 2, 3, 5, 8. 
-             1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8
-----
+....
+输入："112358"
+输出：true
+解释：累加序列为: 1, 1, 2, 3, 5, 8 。1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8
+....
 
-*Example 2:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "199100199"
-*Output:* true
-*Explanation:* The additive sequence is: 1, 99, 100, 199. 
-             1 + 99 = 100, 99 + 100 = 199
-----
+....
+输入："199100199"
+输出：true
+解释：累加序列为: 1, 99, 100, 199。1 + 99 = 100, 99 + 100 = 199
+....
 
- 
-*Constraints:*
+*提示：*
 
+* `+1 <= num.length <= 35+`
+* `num` 仅由数字（`0` - `9`）组成
 
-* <font face="monospace">`num` consists only of digits `'0'-'9'`.
-* `1 <= num.length <= 35`
+**进阶：**你计划如何处理由过大的整数输入导致的溢出?
 
 
-*Follow up:*
+== 思路分析
 
-
-How would you handle overflow for very large input integers?
-
-
+第一个数可以有 1，2，,3 ... N/2 位，第二个数，也可以有 1，,2，3 ... N/2 位。使用深度优先，向后逐步探索
 
 [[src-0306]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0306_AdditiveNumber.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0306_AdditiveNumber_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/additive-number/solutions/1201929/gong-shui-san-xie-hui-su-gao-jing-du-jia-6o6b/[306. 累加数 - 回溯 + 高精度加法 运用题^]
+. https://leetcode.cn/problems/additive-number/solutions/1200446/lei-jia-shu-by-leetcode-solution-cadc/[306. 累加数 - 官方题解^]

@@ -697,7 +697,7 @@ include::0304-range-sum-query-2d-immutable.adoc[leveloffset=+1]
 
 // include::0305-number-of-islands-ii.adoc[leveloffset=+1]
 
-// include::0306-additive-number.adoc[leveloffset=+1]
+include::0306-additive-number.adoc[leveloffset=+1]
 
 // include::0307-range-sum-query-mutable.adoc[leveloffset=+1]
 
