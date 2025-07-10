@@ -705,7 +705,7 @@ include::0306-additive-number.adoc[leveloffset=+1]
 
 include::0309-best-time-to-buy-and-sell-stock-with-cooldown.adoc[leveloffset=+1]
 
-// include::0310-minimum-height-trees.adoc[leveloffset=+1]
+include::0310-minimum-height-trees.adoc[leveloffset=+1]
 
 // include::0311-sparse-matrix-multiplication.adoc[leveloffset=+1]
 

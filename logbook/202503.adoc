@@ -1169,6 +1169,10 @@ endif::[]
 |{doc_base_url}/0306-additive-number.adoc[题解]
 |✅ 深度优先搜索。逐步截取字符串，累加，向后推进。题解都叫回溯，D瓜哥这里没有回溯的操作，只使用了深度优先搜索。
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-height-trees/[310. 最小高度树^]
+|{doc_base_url}/0310-minimum-height-trees.adoc[题解]
+|⭕️ 优化前：深度优先遍历，通过 68 / 71 测试用例，超时。
 
 |===
 
