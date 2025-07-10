@@ -46,6 +46,8 @@ image::images/0310-02.jpg[{image_attr}]
 
 首先先到的解法是深度优先搜索，先构建出来这个图，然后遍历每个节点，找出以每个节点为根的最大高度，最后返回高度最小的节点列表。加上备忘录优化，通过 68 / 71 测试用例。
 
+边缘节点是不可能产生最小高度的树的，只有靠近中间的节点才具有生产最小高度的树的可能。看题解，可以从周围向中间聚集，使用广度优先遍历，每次只遍历度为 `1` 的节点，遍历到的节点，度减一，这样就实现了向中间靠拢。网友说，这是剪窗花思路。
+
 [[src-0310]]
 [tabs]
 ====
@@ -71,4 +73,6 @@ include::{sourcedir}/_0310_MinimumHeightTrees.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/minimum-height-trees/solutions/242910/zui-rong-yi-li-jie-de-bfsfen-xi-jian-dan-zhu-shi-x/[310. 最小高度树 - 最容易理解的bfs，分析简单，注释详细^] -- 解法新颖，讲解细致。
+. https://leetcode.cn/problems/minimum-height-trees/solutions/1395249/zui-xiao-gao-du-shu-by-leetcode-solution-6v6f/[310. 最小高度树 - 官方题解^]
+. https://leetcode.cn/problems/minimum-height-trees/solutions/1397905/by-ac_oier-7xio/[310. 最小高度树 - 【宫水三叶】树形 DP 运用题^]

@@ -1,56 +1,59 @@
 package com.diguage.algo.leetcode;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class _0310_MinimumHeightTrees {
   // tag::answer[]
+
   /**
-   * 深度优先遍历，通过 68 / 71 测试用例。
+   * 优化后：使用广度优先搜索，从外向内聚拢，中间节点才能生成最小高度树。
+   *
+   * 优化前：深度优先遍历，通过 68 / 71 测试用例。
    *
    * @author D瓜哥 · https://www.diguage.com
    * @since 2025-07-10 17:37:37
    */
   public List<Integer> findMinHeightTrees(int n, int[][] edges) {
-    Map<Integer, List<Integer>> graph = new HashMap<>();
+    if (n == 1) {
+      return Arrays.asList(0);
+    }
+    int[] degrees = new int[n];
+    List<Integer>[] children = new List[n];
     for (int[] edge : edges) {
-      graph.computeIfAbsent(edge[0], val -> new ArrayList<>()).add(edge[1]);
-      graph.computeIfAbsent(edge[1], val -> new ArrayList<>()).add(edge[0]);
-    }
-    Map<Integer, List<Integer>> result = new HashMap<>();
-    int min = Integer.MAX_VALUE;
-    Map<String, Integer> memo = new HashMap<>();
-    for (int root = 0; root < n; root++) {
-      Set<Integer> path = new HashSet<>();
-      int heigh = dfs(graph, root, path, memo);
-      result.computeIfAbsent(heigh, val -> new ArrayList<>()).add(root);
-      min = Math.min(min, heigh);
-    }
-    return result.get(min);
-  }
-
-  private int dfs(Map<Integer, List<Integer>> graph, Integer root,
-                  Set<Integer> path, Map<String, Integer> memo) {
-    Set<Integer> nexts = graph.getOrDefault(root, Collections.emptyList()).stream()
-      .filter(v -> !path.contains(v))
-      .collect(Collectors.toSet());
-    if (nexts.isEmpty()) {
-      return 0;
-    }
-    path.add(root);
-    int max = Integer.MIN_VALUE;
-    for (Integer next : nexts) {
-      String key = root + "/" + next;
-      int heigh;
-      if (memo.containsKey(key)) {
-        heigh = memo.get(key);
-      } else {
-        heigh = dfs(graph, next, path, memo);
-        memo.put(key, heigh);
+      degrees[edge[0]]++;
+      degrees[edge[1]]++;
+      if (children[edge[0]] == null) {
+        children[edge[0]] = new ArrayList<>();
       }
-      max = Math.max(max, heigh);
+      children[edge[0]].add(edge[1]);
+      if (children[edge[1]] == null) {
+        children[edge[1]] = new ArrayList<>();
+      }
+      children[edge[1]].add(edge[0]);
     }
-    return max + 1;
+    Queue<Integer> queue = new LinkedList<>();
+    for (int i = 0; i < n; i++) {
+      if (degrees[i] == 1) {
+        queue.add(i);
+      }
+    }
+    List<Integer> result = new ArrayList<>();
+    while (!queue.isEmpty()) {
+      int size = queue.size();
+      result = new ArrayList<>();
+      for (int i = 0; i < size; i++) {
+        int cur = queue.poll();
+        result.add(cur);
+        List<Integer> child = children[cur];
+        for (Integer node : child) {
+          degrees[node]--;
+          if (degrees[node] == 1) {
+            queue.add(node);
+          }
+        }
+      }
+    }
+    return result;
   }
   // end::answer[]
 

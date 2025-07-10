@@ -746,6 +746,7 @@ TIP: 写出信息结构是把所有的信息都装到一个对象中。如果只
 === 相关试题
 
 . xref:0098-validate-binary-search-tree.adoc[98. Validate Binary Search Tree]
+. xref:0310-minimum-height-trees.adoc[310. Minimum Height Trees]
 
 == 参考资料
 

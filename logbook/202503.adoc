@@ -1172,7 +1172,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/minimum-height-trees/[310. 最小高度树^]
 |{doc_base_url}/0310-minimum-height-trees.adoc[题解]
-|⭕️ 优化前：深度优先遍历，通过 68 / 71 测试用例，超时。
+|⭕️ 优化前：深度优先遍历，通过 68 / 71 测试用例，超时。看题解，使用从外向内靠拢的广度优先遍历解法解决了这个问题。网友称之为剪窗花思路。
 
 |===
 
