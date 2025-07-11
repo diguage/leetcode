@@ -711,7 +711,7 @@ include::0310-minimum-height-trees.adoc[leveloffset=+1]
 
 // include::0312-burst-balloons.adoc[leveloffset=+1]
 
-// include::0313-super-ugly-number.adoc[leveloffset=+1]
+include::0313-super-ugly-number.adoc[leveloffset=+1]
 
 // include::0314-binary-tree-vertical-order-traversal.adoc[leveloffset=+1]
 

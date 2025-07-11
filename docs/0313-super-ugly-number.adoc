@@ -1,36 +1,68 @@
 [#0313-super-ugly-number]
-= 313. Super Ugly Number
+= 313. 超级丑数
 
-{leetcode}/problems/super-ugly-number/[LeetCode - Super Ugly Number^]
+https://leetcode.cn/problems/super-ugly-number/[LeetCode - 313. 超级丑数 ^]
 
-Write a program to find the `n^th^` super ugly number.
+*超级丑数* 是一个正整数，并满足其所有质因数都出现在质数数组 `primes`中。
 
-Super ugly numbers are positive numbers whose all prime factors are in the given prime list `primes` of size `k`.
+给你一个整数 `n` 和一个整数数组 `primes` ，返回第 `n` 个 *超级丑数* 。
 
-*Example:*
+题目数据保证第 `n` 个 *超级丑数* 在 *32-bit* 带符号整数范围内。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* n = 12, `primes` = `[2,7,13,19]`
-*Output:* 32 
-*Explanation:* `[1,2,4,7,8,13,14,16,19,26,28,32] `is the sequence of the first 12 
-             super ugly numbers given `primes` = `[2,7,13,19]` of size 4.
-----
+*示例 1：*
 
-*Note:*
+....
+输入：n = 12, primes = [2,7,13,19]
+输出：32
+解释：给定长度为 4 的质数数组 primes = [2,7,13,19]，前 12 个超级丑数序列为：[1,2,4,7,8,13,14,16,19,26,28,32] 。
+....
+
+*示例 2：*
+
+....
+输入：n = 1, primes = [2,3,5]
+输出：1
+解释：1 不含质因数，因此它的所有质因数都在质数数组 primes = [2,3,5] 中。
+....
+
+*提示：*
+
+* `1 \<= n \<= 10^5^`
+* `+1 <= primes.length <= 100+`
+* `+2 <= primes[i] <= 1000+`
+* 题目数据 *保证* `primes[i]` 是一个质数
+* `primes` 中的所有值都 *互不相同* ，且按 *递增顺序* 排列
 
 
-* `1` is a super ugly number for any given `primes`.
-* The given numbers in `primes` are in ascending order.
-* 0 < `k` ≤ 100, 0 < `n` ≤ 10^6^, 0 < `primes[i]` < 1000.
-* The n^th^ super ugly number is guaranteed to fit in a 32-bit signed integer.
+== 思路分析
 
-
-
+`1` 是起点，加入到优先队列中。然后从优先队列中取出最小的数字，跟给定的质数数组元素组个相乘组成创建新的超级丑数。
 
 [[src-0313]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0313_SuperUglyNumber.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0313_SuperUglyNumber_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/super-ugly-number/solutions/924673/gong-shui-san-xie-yi-ti-shuang-jie-you-x-jyow/[313. 超级丑数 - 【宫水三叶】一题双解 :「优先队列」&「多路归并」^]
+. https://leetcode.cn/problems/super-ugly-number/solutions/924926/dong-tai-gui-hua-java-by-liweiwei1419-1yna/[313. 超级丑数 - 动态规划（Java）^]
+. https://leetcode.cn/problems/super-ugly-number/solutions/924207/chao-ji-chou-shu-by-leetcode-solution-uzff/[313. 超级丑数 - 官方题解^]

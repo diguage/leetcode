@@ -2216,14 +2216,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0312-burst-balloons.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/super-ugly-number/[313. Super Ugly Number^]
-//|{source_base_url}/_0313_SuperUglyNumber.java[Java]
-//|{doc_base_url}/0313-super-ugly-number.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/super-ugly-number/[313. Super Ugly Number^]
+|{source_base_url}/_0313_SuperUglyNumber.java[Java]
+|{doc_base_url}/0313-super-ugly-number.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/binary-tree-vertical-order-traversal/[314. Binary Tree Vertical Order Traversal^]
 //|{source_base_url}/_0314_BinaryTreeVerticalOrderTraversal.java[Java]

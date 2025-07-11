@@ -1174,6 +1174,13 @@ endif::[]
 |{doc_base_url}/0310-minimum-height-trees.adoc[题解]
 |⭕️ 优化前：深度优先遍历，通过 68 / 71 测试用例，超时。看题解，使用从外向内靠拢的广度优先遍历解法解决了这个问题。网友称之为剪窗花思路。
 
+
+|{counter:codes2503}
+|{leetcode_base_url}/super-ugly-number/[313. Super Ugly Number^]
+|{doc_base_url}/0313-super-ugly-number.adoc[题解]
+|✅ 优先队列。从优先队列中取出最小的数与给定的质数数组元素相乘，生成后续的丑数。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
