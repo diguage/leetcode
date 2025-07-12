@@ -2251,14 +2251,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0317-shortest-distance-from-all-buildings.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/maximum-product-of-word-lengths/[318. Maximum Product of Word Lengths^]
-//|{source_base_url}/_0318_MaximumProductOfWordLengths.java[Java]
-//|{doc_base_url}/0318-maximum-product-of-word-lengths.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/maximum-product-of-word-lengths/[318. Maximum Product of Word Lengths^]
+|{source_base_url}/_0318_MaximumProductOfWordLengths.java[Java]
+|{doc_base_url}/0318-maximum-product-of-word-lengths.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/bulb-switcher/[319. Bulb Switcher^]
 //|{source_base_url}/_0319_BulbSwitcher.java[Java]

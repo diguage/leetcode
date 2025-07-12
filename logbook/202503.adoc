@@ -1174,11 +1174,15 @@ endif::[]
 |{doc_base_url}/0310-minimum-height-trees.adoc[题解]
 |⭕️ 优化前：深度优先遍历，通过 68 / 71 测试用例，超时。看题解，使用从外向内靠拢的广度优先遍历解法解决了这个问题。网友称之为剪窗花思路。
 
-
 |{counter:codes2503}
 |{leetcode_base_url}/super-ugly-number/[313. Super Ugly Number^]
 |{doc_base_url}/0313-super-ugly-number.adoc[题解]
 |✅ 优先队列。从优先队列中取出最小的数与给定的质数数组元素相乘，生成后续的丑数。
+
+|{counter:codes2503}
+|{leetcode_base_url}/maximum-product-of-word-lengths/[318. 最大单词长度乘积^]
+|{doc_base_url}/0318-maximum-product-of-word-lengths.adoc[题解]
+|✅ 计算每一个单词的字母占用情况，然后逐个比较，没有相同字母，则计算单词长度乘积，最后取最大值返回即可。
 
 
 |===
