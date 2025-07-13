@@ -49,6 +49,8 @@ image::images/0319-01.jpg[{image_attr}]
 
 优化前：模拟开灯过程，通过 33 / 35 测试用例，超时。
 
+没想到竟然是一道数学题：求在 `[1, n]` 之间有多少个平方数。
+
 [[src-0319]]
 [tabs]
 ====
@@ -74,4 +76,6 @@ include::{sourcedir}/_0319_BulbSwitcher.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/bulb-switcher/solutions/1102293/gong-shui-san-xie-jing-dian-shu-lun-tui-upnnb/[319. 灯泡开关 - 经典数论推论题^]
+. https://leetcode.cn/problems/bulb-switcher/solutions/1099002/deng-pao-kai-guan-by-leetcode-solution-rrgp/[319. 灯泡开关 - 官方题解^]
+. https://leetcode.cn/problems/bulb-switcher/solutions/93382/wei-shi-yao-ping-fang-shu-yi-ding-shi-liang-zhao-d/[319. 灯泡开关 - 为什么平方数一定是亮着的？从数学角度证明^] -- 这个自己计算的方法不错！

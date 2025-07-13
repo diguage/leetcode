@@ -1,7 +1,5 @@
 package com.diguage.algo.leetcode;
 
-import java.util.Arrays;
-
 public class _0319_BulbSwitcher {
   // tag::answer[]
 
@@ -10,22 +8,7 @@ public class _0319_BulbSwitcher {
    * @since 2025-07-13 23:19:46
    */
   public int bulbSwitch(int n) {
-    boolean[] ligths = new boolean[n + 1];
-    Arrays.fill(ligths, true);
-    int step = 2;
-    for (int i = 2; i <= n; i++) {
-      for (int j = step; j <= n; j += step) {
-        ligths[j] = !ligths[j];
-      }
-      step++;
-    }
-    int result = 0;
-    for (int i = 1; i <= n; i++) {
-      if (ligths[i]) {
-        result++;
-      }
-    }
-    return result;
+    return (int) Math.sqrt(n);
   }
   // end::answer[]
 
