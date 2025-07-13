@@ -1184,6 +1184,12 @@ endif::[]
 |{doc_base_url}/0318-maximum-product-of-word-lengths.adoc[题解]
 |✅ 计算每一个单词的字母占用情况，然后逐个比较，没有相同字母，则计算单词长度乘积，最后取最大值返回即可。
 
+|{counter:codes2503}
+|{leetcode_base_url}/bulb-switcher/[319. 灯泡开关^]
+|{doc_base_url}/0319-bulb-switcher.adoc[题解]
+|⭕️ 优化前：模拟开灯过程，通过 33 / 35 测试用例，超时。
+
+
 
 |===
 

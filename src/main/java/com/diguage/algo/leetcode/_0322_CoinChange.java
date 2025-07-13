@@ -40,6 +40,9 @@ public class _0322_CoinChange {
      * Memory Usage: 42.7 MB, less than 5.33% of Java online submissions for Coin Change.
      *
      * Copy from: https://leetcode.com/problems/coin-change/solution/[Coin Change solution - LeetCode]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-26 22:16
      */
     public int coinChange(int[] coins, int amount) {
         return coinChange(coins, amount, new int[amount]);

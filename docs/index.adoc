@@ -723,7 +723,7 @@ include::0316-remove-duplicate-letters.adoc[leveloffset=+1]
 
 include::0318-maximum-product-of-word-lengths.adoc[leveloffset=+1]
 
-// include::0319-bulb-switcher.adoc[leveloffset=+1]
+include::0319-bulb-switcher.adoc[leveloffset=+1]
 
 // include::0320-generalized-abbreviation.adoc[leveloffset=+1]
 
