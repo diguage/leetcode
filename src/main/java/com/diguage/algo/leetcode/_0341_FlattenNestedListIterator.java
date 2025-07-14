@@ -12,6 +12,10 @@ import java.util.*;
  */
 public class _0341_FlattenNestedListIterator {
   // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2020-01-27 15:17
+   */
     public interface NestedInteger {
 
         // @return true if this NestedInteger holds a single integer, rather than a nested list.

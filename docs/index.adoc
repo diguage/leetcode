@@ -769,7 +769,7 @@ include::0338-counting-bits.adoc[leveloffset=+1]
 
 include::0341-flatten-nested-list-iterator.adoc[leveloffset=+1]
 
-// include::0342-power-of-four.adoc[leveloffset=+1]
+include::0342-power-of-four.adoc[leveloffset=+1]
 
 include::0343-integer-break.adoc[leveloffset=+1]
 
