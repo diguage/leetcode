@@ -1187,7 +1187,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/bulb-switcher/[319. 灯泡开关^]
 |{doc_base_url}/0319-bulb-switcher.adoc[题解]
-|⭕️ 优化前：模拟开灯过程，通过 33 / 35 测试用例，超时。
+|⭕️ 优化前：模拟开灯过程，通过 33 / 35 测试用例，超时。看题解，没想到竟然是找 `[1, n]` 之间的平方数。
 
 
 
