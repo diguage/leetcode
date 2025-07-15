@@ -36,6 +36,9 @@ public class _0344_ReverseString {
      * Runtime: 1 ms, faster than 100.00% of Java online submissions for Reverse String.
      *
      * Memory Usage: 52.7 MB, less than 5.33% of Java online submissions for Reverse String.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-15 00:03
      */
     public void reverseString(char[] s) {
         if (Objects.isNull(s) || s.length == 0) {

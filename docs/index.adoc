@@ -775,7 +775,7 @@ include::0343-integer-break.adoc[leveloffset=+1]
 
 include::0344-reverse-string.adoc[leveloffset=+1]
 
-// include::0345-reverse-vowels-of-a-string.adoc[leveloffset=+1]
+include::0345-reverse-vowels-of-a-string.adoc[leveloffset=+1]
 
 // include::0346-moving-average-from-data-stream.adoc[leveloffset=+1]
 

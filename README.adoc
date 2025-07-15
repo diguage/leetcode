@@ -2441,13 +2441,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/reverse-vowels-of-a-string/[345. Reverse Vowels of a String^]
-//|{source_base_url}/_0345_ReverseVowelsOfAString.java[Java]
-//|{doc_base_url}/0345-reverse-vowels-of-a-string.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/reverse-vowels-of-a-string/[345. Reverse Vowels of a String^]
+|{source_base_url}/_0345_ReverseVowelsOfAString.java[Java]
+|{doc_base_url}/0345-reverse-vowels-of-a-string.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/moving-average-from-data-stream/[346. Moving Average from Data Stream^]
 //|{source_base_url}/_0346_MovingAverageFromDataStream.java[Java]

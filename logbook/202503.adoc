@@ -1194,6 +1194,12 @@ endif::[]
 |{doc_base_url}/0342-power-of-four.adoc[题解]
 |✅ 数学题，也可以说是比特位题。
 
+|{counter:codes2503}
+|{leetcode_base_url}/reverse-vowels-of-a-string/[345. 反转字符串中的元音字母^]
+|{doc_base_url}/0345-reverse-vowels-of-a-string.adoc[题解]
+|✅ 双指针！从字符串两端寻找元音字符，然后进行交换。注意大小写！
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

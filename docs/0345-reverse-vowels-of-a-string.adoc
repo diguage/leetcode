@@ -1,40 +1,65 @@
 [#0345-reverse-vowels-of-a-string]
-= 345. Reverse Vowels of a String
+= 345. 反转字符串中的元音字母
 
-{leetcode}/problems/reverse-vowels-of-a-string/[LeetCode - Reverse Vowels of a String^]
+https://leetcode.cn/problems/reverse-vowels-of-a-string/[LeetCode - 345. 反转字符串中的元音字母 ^]
 
-Write a function that takes a string as input and reverse only the vowels of a string.
+给你一个字符串 `s` ，仅反转字符串中的所有元音字母，并返回结果字符串。
 
-*Example 1:*
+元音字母包括 `a`、`e`、`i`、`o`、`u`，且可能以大小写两种形式出现不止一次。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "hello"
-*Output:* "holle"
-----
+*示例 1：*
 
+*输入：*[.example-io]#s = "IceCreAm"#
 
-*Example 2:*
+[.example-io]#*输出：*"AceCreIm"#
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "leetcode"
-*Output:* "leotcede"
-----
+*解释：*
 
+`s` 中的元音是 `+['I', 'e', 'e', 'A']+`。反转这些元音，`s` 变为 `AceCreIm`.
 
-*Note:*
+*示例 2：*
 
+[.example-io]#**输入：**s = "leetcode"#
 
-The vowels does not include the letter "y".
+*输出：*[.example-io]#"leotcede"#
 
- 
+*提示：*
+
+* `1 \<= s.length \<= 3 * 10^5^`
+* `s` 由 *可打印的 ASCII* 字符组成
 
 
+== 思路分析
+
+双指针！从字符串两端寻找元音字符，然后进行交换。注意大小写！
+
+image::images/0345-10.png[{image_attr}]
 
 [[src-0345]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0345_ReverseVowelsOfAString.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0345_ReverseVowelsOfAString_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/reverse-vowels-of-a-string/solutions/2820983/geng-jian-dan-de-xie-fa-bu-xu-qian-tao-x-usph/[345. 反转字符串中的元音字母 - 更简单的写法，不需嵌套循环^]
+. https://leetcode.cn/problems/reverse-vowels-of-a-string/solutions/944696/gong-shui-san-xie-note-bie-pian-shuang-z-c8ii/[345. 反转字符串中的元音字母 - 双指针 : 一个指针一百天^]
+. https://leetcode.cn/problems/reverse-vowels-of-a-string/solutions/944385/fan-zhuan-zi-fu-chuan-zhong-de-yuan-yin-2bmos/[345. 反转字符串中的元音字母 - 官方题解^]
