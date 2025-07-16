@@ -1199,6 +1199,10 @@ endif::[]
 |{doc_base_url}/0345-reverse-vowels-of-a-string.adoc[题解]
 |✅ 双指针！从字符串两端寻找元音字符，然后进行交换。注意大小写！
 
+|{counter:codes2503}
+|{leetcode_base_url}/intersection-of-two-arrays/[349. 两个数组的交集^]
+|{doc_base_url}/0349-intersection-of-two-arrays.adoc[题解]
+|✅ 排序+双指针！也可以使用 `Set`，只是空间复杂度高一点。
 
 |===
 

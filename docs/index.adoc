@@ -783,7 +783,7 @@ include::0347-top-k-frequent-elements.adoc[leveloffset=+1]
 
 // include::0348-design-tic-tac-toe.adoc[leveloffset=+1]
 
-// include::0349-intersection-of-two-arrays.adoc[leveloffset=+1]
+include::0349-intersection-of-two-arrays.adoc[leveloffset=+1]
 
 include::0350-intersection-of-two-arrays-ii.adoc[leveloffset=+1]
 

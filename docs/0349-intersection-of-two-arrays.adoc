@@ -1,42 +1,59 @@
 [#0349-intersection-of-two-arrays]
-= 349. Intersection of Two Arrays
+= 349. 两个数组的交集
 
-{leetcode}/problems/intersection-of-two-arrays/[LeetCode - Intersection of Two Arrays^]
+https://leetcode.cn/problems/intersection-of-two-arrays/[LeetCode - 349. 两个数组的交集 ^]
 
-Given two arrays, write a function to compute their intersection.
+给定两个数组 `nums1` 和 `nums2` ，返回 _它们的交集_ 。输出结果中的每个元素一定是 *唯一* 的。我们可以 *不考虑输出结果的顺序*。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* nums1 = [1,2,2,1], nums2 = [2,2]
-*Output:* [2]
-----
+....
+输入：nums1 = [1,2,2,1], nums2 = [2,2]
+输出：[2]
+....
 
+*示例 2：*
 
-*Example 2:*
+....
+输入：nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+输出：[9,4]
+解释：[4,9] 也是可通过的
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* nums1 = [4,9,5], nums2 = [9,4,9,8,4]
-*Output:* [9,4]
-----
+*提示：*
 
-
-*Note:*
-
-
-* Each element in the result must be unique.
-* The result can be in any order.
+* `+1 <= nums1.length, nums2.length <= 1000+`
+* `+0 <= nums1[i], nums2[i] <= 1000+`
 
 
- 
+== 思路分析
 
-
+排序+双指针！也可以使用 `Set`，只是空间复杂度高一点。
 
 [[src-0349]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0349_IntersectionOfTwoArrays.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0349_IntersectionOfTwoArrays_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/intersection-of-two-arrays/solutions/469445/liang-ge-shu-zu-de-jiao-ji-by-leetcode-solution/[349. 两个数组的交集 - 官方题解^]
+. https://leetcode.cn/problems/intersection-of-two-arrays/solutions/3053420/yi-ci-bian-li-pythonjavacgojsrust-by-end-jstx/[349. 两个数组的交集 - 一次遍历，简洁写法]
