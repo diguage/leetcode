@@ -2510,14 +2510,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0354-russian-doll-envelopes.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/design-twitter/[355. Design Twitter^]
-//|{source_base_url}/_0355_DesignTwitter.java[Java]
-//|{doc_base_url}/0355-design-twitter.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/design-twitter/[355. Design Twitter^]
+|{source_base_url}/_0355_DesignTwitter.java[Java]
+|{doc_base_url}/0355-design-twitter.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/line-reflection/[356. Line Reflection^]
 //|{source_base_url}/_0356_LineReflection.java[Java]
