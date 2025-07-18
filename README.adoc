@@ -2524,14 +2524,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0356-line-reflection.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/count-numbers-with-unique-digits/[357. Count Numbers with Unique Digits^]
-//|{source_base_url}/_0357_CountNumbersWithUniqueDigits.java[Java]
-//|{doc_base_url}/0357-count-numbers-with-unique-digits.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/count-numbers-with-unique-digits/[357. Count Numbers with Unique Digits^]
+|{source_base_url}/_0357_CountNumbersWithUniqueDigits.java[Java]
+|{doc_base_url}/0357-count-numbers-with-unique-digits.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/rearrange-string-k-distance-apart/[358. Rearrange String k Distance Apart^]
 //|{source_base_url}/_0358_RearrangeStringKDistanceApart.java[Java]

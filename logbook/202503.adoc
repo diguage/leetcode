@@ -1204,11 +1204,16 @@ endif::[]
 |{doc_base_url}/0349-intersection-of-two-arrays.adoc[题解]
 |✅ 排序+双指针！也可以使用 `Set`，只是空间复杂度高一点。
 
-
 |{counter:codes2503}
 |{leetcode_base_url}/design-twitter/[355. 设计推特^]
 |{doc_base_url}/0355-design-twitter.adoc[题解]
 |✅ 利用列表存储，来维持前后顺序；或者，增加时间戳字段。
+
+
+|{counter:codes2503}
+|{leetcode_base_url}/count-numbers-with-unique-digits/[357. 统计各位数字都不同的数字个数^]
+|{doc_base_url}/0357-count-numbers-with-unique-digits.adoc[题解]
+|✅ 数学题。排列组合。
 
 
 |===

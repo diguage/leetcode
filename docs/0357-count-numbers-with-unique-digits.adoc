@@ -1,26 +1,58 @@
 [#0357-count-numbers-with-unique-digits]
-= 357. Count Numbers with Unique Digits
+= 357. 统计各位数字都不同的数字个数
 
-{leetcode}/problems/count-numbers-with-unique-digits/[LeetCode - Count Numbers with Unique Digits^]
+https://leetcode.cn/problems/count-numbers-with-unique-digits/[LeetCode - 357. 统计各位数字都不同的数字个数 ^]
 
-Given a *non-negative* integer n, count all numbers with unique digits, x, where 0 ≤ x < 10^n^.
+给你一个整数 `n` ，统计并返回各位数字都不同的数字 `x` 的个数，其中 `0 \<= x < 10^n^`。
+
+*示例 1：*
+
+....
+输入：n = 2
+输出：91
+解释：答案应为除去 11、22、33、44、55、66、77、88 、99 外，在 0 ≤ x < 100 范围内的所有数字。
+....
+
+*示例 2：*
+
+....
+输入：n = 0
+输出：1
+....
+
+*提示：*
+
+* `+0 <= n <= 8+`
 
 
-*Example:*
+== 思路分析
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 2
-*Output:* 91 
-*Explanation:* The answer should be the total numbers in the range of 0 ≤ x < 100, 
-             excluding `11,22,33,44,55,66,77,88,99`
-----
-
-
+排列组合。组成不重复的数字，有可能有 1 ~ n 位。所以，分别计算组合数，求总和就行。
 
 [[src-0357]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0357_CountNumbersWithUniqueDigits.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0357_CountNumbersWithUniqueDigits_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/count-numbers-with-unique-digits/solutions/1403485/tong-ji-ge-wei-shu-zi-du-bu-tong-de-shu-iqbfn/[357. 统计各位数字都不同的数字个数 - 官方题解^] -- 代码更简单，而且重用了低位的计算结果。
+. https://leetcode.cn/problems/count-numbers-with-unique-digits/solutions/1411205/by-ac_oier-6tfl/[357. 统计各位数字都不同的数字个数 - 【宫水三叶】一题双解 :「乘法原理」&「数位 DP（进阶）」^]

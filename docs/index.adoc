@@ -799,7 +799,7 @@ include::0355-design-twitter.adoc[leveloffset=+1]
 
 // include::0356-line-reflection.adoc[leveloffset=+1]
 
-// include::0357-count-numbers-with-unique-digits.adoc[leveloffset=+1]
+include::0357-count-numbers-with-unique-digits.adoc[leveloffset=+1]
 
 // include::0358-rearrange-string-k-distance-apart.adoc[leveloffset=+1]
 
