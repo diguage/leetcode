@@ -1209,11 +1209,15 @@ endif::[]
 |{doc_base_url}/0355-design-twitter.adoc[题解]
 |✅ 利用列表存储，来维持前后顺序；或者，增加时间戳字段。
 
-
 |{counter:codes2503}
 |{leetcode_base_url}/count-numbers-with-unique-digits/[357. 统计各位数字都不同的数字个数^]
 |{doc_base_url}/0357-count-numbers-with-unique-digits.adoc[题解]
 |✅ 数学题。排列组合。
+
+|{counter:codes2503}
+|{leetcode_base_url}/water-and-jug-problem/[365. 水壶问题^]
+|{doc_base_url}/0365-water-and-jug-problem.adoc[题解]
+|❌ 深度优先遍历、广度优先遍历或数学（link:++https://baike.baidu.com/item/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86/5186593[裴蜀定理^]++[贝祖定理]）。这道题重点是如何抽象倒水壶的表示办法以及梳理清楚存在几种可能的操作。
 
 
 |===

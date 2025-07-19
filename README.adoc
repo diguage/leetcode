@@ -2580,14 +2580,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0364-nested-list-weight-sum-ii.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/water-and-jug-problem/[365. Water and Jug Problem^]
-//|{source_base_url}/_0365_WaterAndJugProblem.java[Java]
-//|{doc_base_url}/0365-water-and-jug-problem.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/water-and-jug-problem/[365. Water and Jug Problem^]
+|{source_base_url}/_0365_WaterAndJugProblem.java[Java]
+|{doc_base_url}/0365-water-and-jug-problem.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/find-leaves-of-binary-tree/[366. Find Leaves of Binary Tree^]
 //|{source_base_url}/_0366_FindLeavesOfBinaryTree.java[Java]
