@@ -1219,6 +1219,12 @@ endif::[]
 |{doc_base_url}/0365-water-and-jug-problem.adoc[题解]
 |❌ 深度优先遍历、广度优先遍历或数学（link:++https://baike.baidu.com/item/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86/5186593[裴蜀定理^]++[贝祖定理]）。这道题重点是如何抽象倒水壶的表示办法以及梳理清楚存在几种可能的操作。
 
+|{counter:codes2503}
+|{leetcode_base_url}/valid-perfect-square/[367. 有效的完全平方数^]
+|{doc_base_url}/0367-valid-perfect-square.adoc[题解]
+|✅ 二分查找。需要注意处理平方溢出的情况。
+
+
 
 |===
 

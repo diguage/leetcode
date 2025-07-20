@@ -1,11 +1,11 @@
 package com.diguage.algo.leetcode;
 
-/**
- * @author D瓜哥 · https://www.diguage.com
- * @since 2024-07-05 14:39:13
- */
 public class _0370_RangeAddition {
   // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-07-05 14:39:13
+   */
   public int[] getModifiedArray(int length, int[][] updates) {
     if (updates == null || updates.length == 0) {
       return new int[length];

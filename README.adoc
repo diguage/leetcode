@@ -2594,14 +2594,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0366-find-leaves-of-binary-tree.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/valid-perfect-square/[367. Valid Perfect Square^]
-//|{source_base_url}/_0367_ValidPerfectSquare.java[Java]
-//|{doc_base_url}/0367-valid-perfect-square.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/valid-perfect-square/[367. Valid Perfect Square^]
+|{source_base_url}/_0367_ValidPerfectSquare.java[Java]
+|{doc_base_url}/0367-valid-perfect-square.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/largest-divisible-subset/[368. Largest Divisible Subset^]
 //|{source_base_url}/_0368_LargestDivisibleSubset.java[Java]
