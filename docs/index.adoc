@@ -821,7 +821,7 @@ include::0365-water-and-jug-problem.adoc[leveloffset=+1]
 
 include::0367-valid-perfect-square.adoc[leveloffset=+1]
 
-// include::0368-largest-divisible-subset.adoc[leveloffset=+1]
+include::0368-largest-divisible-subset.adoc[leveloffset=+1]
 
 // include::0369-plus-one-linked-list.adoc[leveloffset=+1]
 

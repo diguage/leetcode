@@ -1224,7 +1224,10 @@ endif::[]
 |{doc_base_url}/0367-valid-perfect-square.adoc[题解]
 |✅ 二分查找。需要注意处理平方溢出的情况。
 
-
+|{counter:codes2503}
+|{leetcode_base_url}/largest-divisible-subset/[368. 最大整除子集^]
+|{doc_base_url}/0368-largest-divisible-subset.adoc[题解]
+|❌ 动态规划！将这个问题转换成最长子序列的思路，以及代码写法非常值得学习！
 
 |===
 
