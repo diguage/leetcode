@@ -1,34 +1,83 @@
 [#0372-super-pow]
-= 372. Super Pow
+= 372. 超级次方
 
-{leetcode}/problems/super-pow/[LeetCode - Super Pow^]
+https://leetcode.cn/problems/super-pow/[LeetCode - 372. 超级次方 ^]
 
-Your task is to calculate _a_^_b_^ mod 1337 where _a_ is a positive integer and _b_ is an extremely large positive integer given in the form of an array.
+你的任务是计算 `a^b^` 对 `1337` 取模，`a` 是一个正整数，`b` 是一个非常大的正整数且会以数组形式给出。
 
-*Example 1:*
+*示例 1：*
+
+....
+输入：a = 2, b = [3]
+输出：8
+....
+
+*示例 2：*
+
+....
+输入：a = 2, b = [1,0]
+输出：1024
+....
+
+*示例 3：*
+
+....
+输入：a = 1, b = [4,3,3,8,5,2]
+输出：1
+....
+
+*示例 4：*
+
+....
+输入：a = 2147483647, b = [2,0,0]
+输出：1198
+....
 
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* a = 2, b = [3]
-*Output:* 8
-----
+*提示：*
 
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* a = 2, b = [1,0]
-*Output:* 1024
-----
+* `1 \<= a \<= 2^31^ - 1`
+* `+1 <= b.length <= 2000+`
+* `+0 <= b[i] <= 9+`
+* `b` 不含前导 0
 
 
 
+== 思路分析
+
+数学运算+分治模式。
+
+首先，可以推理出如下公式：
+
+stem:[(a⋅b) mod m=[(amodm)⋅(bmodm)\]modm]
+
+那么，`a^..xyz^` 可以转换成 `...((a^x^)^10^)^10^(a^y^)^10^(a^z^)`，然后，按照上述公式做计算，即可求出最后结果。
 
 [[src-0372]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0372_SuperPow.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0372_SuperPow_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/super-pow/solutions/1138551/chao-ji-ci-fang-by-leetcode-solution-ow8j/[372. 超级次方 - 官方题解^]
+. https://leetcode.cn/problems/super-pow/solutions/1139068/gong-shui-san-xie-di-gui-kuai-su-mi-ying-yx1j/[372. 超级次方 - 递归快速幂应用题^]
+. https://leetcode.cn/problems/super-pow/solutions/109464/you-qian-ru-shen-kuai-su-mi-suan-fa-xiang-jie-by-l/[372. 超级次方 - 由浅入深，快速幂算法详解^]
