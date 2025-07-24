@@ -1234,6 +1234,12 @@ endif::[]
 |{doc_base_url}/0372-super-pow.adoc[题解]
 |⭕️ 数学计算+分治算法。重点是要搞清楚，两个数字相乘求模，等于分别对两个数求模，相乘然后再求模。基本思路搞明白了，数学计算处理错了。
 
+|{counter:codes2503}
+|{leetcode_base_url}/guess-number-higher-or-lower/[374. 猜数字大小^]
+|{doc_base_url}/0374-guess-number-higher-or-lower.adoc[题解]
+|✅ 二分查找。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
