@@ -2657,14 +2657,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0375-guess-number-higher-or-lower-ii.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/wiggle-subsequence/[376. Wiggle Subsequence^]
-//|{source_base_url}/_0376_WiggleSubsequence.java[Java]
-//|{doc_base_url}/0376-wiggle-subsequence.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/wiggle-subsequence/[376. Wiggle Subsequence^]
+|{source_base_url}/_0376_WiggleSubsequence.java[Java]
+|{doc_base_url}/0376-wiggle-subsequence.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/combination-sum-iv/[377. Combination Sum IV^]
 //|{source_base_url}/_0377_CombinationSumIV.java[Java]
