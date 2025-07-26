@@ -839,7 +839,7 @@ include::0374-guess-number-higher-or-lower.adoc[leveloffset=+1]
 
 include::0376-wiggle-subsequence.adoc[leveloffset=+1]
 
-// include::0377-combination-sum-iv.adoc[leveloffset=+1]
+include::0377-combination-sum-iv.adoc[leveloffset=+1]
 
 include::0378-kth-smallest-element-in-a-sorted-matrix.adoc[leveloffset=+1]
 

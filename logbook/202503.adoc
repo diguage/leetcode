@@ -1244,6 +1244,11 @@ endif::[]
 |{doc_base_url}/0376-wiggle-subsequence.adoc[题解]
 |❌ 贪心算法。一脸懵逼，看答案才懂。
 
+|{counter:codes2503}
+|{leetcode_base_url}/combination-sum-iv/[377. 组合总和 Ⅳ^]
+|{doc_base_url}/0377-combination-sum-iv.adoc[题解]
+|❌ 动态规划 - 完全背包问题。起初以为是回溯，没想到是完全背包问题。
+
 
 |===
 

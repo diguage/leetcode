@@ -2665,12 +2665,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/combination-sum-iv/[377. Combination Sum IV^]
-//|{source_base_url}/_0377_CombinationSumIV.java[Java]
-//|{doc_base_url}/0377-combination-sum-iv.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/combination-sum-iv/[377. Combination Sum IV^]
+|{source_base_url}/_0377_CombinationSumIV.java[Java]
+|{doc_base_url}/0377-combination-sum-iv.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/kth-smallest-element-in-a-sorted-matrix/[378. Kth Smallest Element in a Sorted Matrix^]

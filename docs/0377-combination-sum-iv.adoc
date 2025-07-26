@@ -1,18 +1,19 @@
 [#0377-combination-sum-iv]
-= 377. Combination Sum IV
+= 377. 组合总和 Ⅳ
 
-{leetcode}/problems/combination-sum-iv/[LeetCode - Combination Sum IV^]
+https://leetcode.cn/problems/combination-sum-iv/[LeetCode - 377. 组合总和 Ⅳ ^]
 
-Given an integer array with all positive numbers and no duplicates, find the number of possible combinations that add up to a positive integer target.
+给你一个由 *不同* 整数组成的数组 `nums` ，和一个目标整数 `target`。请你从 `nums` 中找出并返回总和为 `target` 的元素组合的个数。
 
-*Example:*
+题目数据保证答案符合 32 位整数范围。
 
-[subs="verbatim,quotes,macros"]
-----
-_*nums*_ = [1, 2, 3]
-_*target*_ = 4
+*示例 1：*
 
-The possible combination ways are:
+....
+输入：nums = [1,2,3], target = 4
+输出：7
+解释：
+所有可能的组合为：
 (1, 1, 1, 1)
 (1, 1, 2)
 (1, 2, 1)
@@ -20,35 +21,58 @@ The possible combination ways are:
 (2, 1, 1)
 (2, 2)
 (3, 1)
+请注意，顺序不同的序列被视作不同的组合。
+....
 
-Note that different sequences are counted as different combinations.
+*示例 2：*
 
-Therefore the output is _*7*_.
-----
-
- 
-
-*Follow up:*
-
-
-What if negative numbers are allowed in the given array?
+....
+输入：nums = [9], target = 3
+输出：0
+....
 
 
-How does it change the problem?
+*提示：*
+
+* `+1 <= nums.length <= 200+`
+* `+1 <= nums[i] <= 1000+`
+* `nums` 中的所有元素 *互不相同*
+* `+1 <= target <= 1000+`
+
+**进阶：**如果给定的数组中含有负数会发生什么？问题会产生何种变化？如果允许负数出现，需要向题目中添加哪些限制条件？
 
 
-What limitation we need to add to the question to allow negative numbers?
+== 思路分析
 
-*Credits:*
-
-
-Special thanks to <a href="https://leetcode.com/pbrother/">@pbrother</a> for adding this problem and creating all test cases.
-
-
+起初，我以为是深度优先遍历或者回溯。要去验证的时候，发现，这是组合问题，没办法加备忘录。看答案，竟然是 <<0000-26-dp-2-unbounded-knapsack>>。
 
 [[src-0377]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0377_CombinationSumIV.java[tag=answer]
+include::{sourcedir}/_0377_CombinationSumIv.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0377_CombinationSumIv_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://oi-wiki.org/dp/knapsack/[背包 DP - OI Wiki^]
+. https://leetcode.cn/problems/combination-sum-iv/solutions/124393/xi-wang-yong-yi-chong-gui-lu-gao-ding-bei-bao-wen-/[377. 组合总和 Ⅳ - 希望用一种规律搞定背包问题^]
+. https://leetcode.cn/problems/combination-sum-iv/solutions/740651/gong-shui-san-xie-yu-wan-quan-bei-bao-we-x0kn/[377. 组合总和 Ⅳ - 【宫水三叶】本题与「完全背包」问题的主要区别，以及「溢出处理」说明^]
+. https://leetcode.cn/problems/combination-sum-iv/solutions/740877/fu-xue-ming-zhu-cong-ji-yi-hua-di-gui-tu-rqwy/[377. 组合总和 Ⅳ - 【负雪明烛】从「记忆化递归」推导「动态规划」]
+. https://leetcode.cn/problems/combination-sum-iv/solutions/2706336/ben-zhi-shi-pa-lou-ti-cong-ji-yi-hua-sou-y52j/[377. 组合总和 Ⅳ - 本质是爬楼梯：记忆化搜索 / 递推^]
