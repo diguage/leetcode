@@ -2699,13 +2699,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0381-insert-delete-getrandom-o1-duplicates-allowed.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/linked-list-random-node/[382. Linked List Random Node^]
-//|{source_base_url}/_0382_LinkedListRandomNode.java[Java]
-//|{doc_base_url}/0382-linked-list-random-node.adoc[题解]
-//|Medium
-//|
+
+|{counter:codes}
+|{leetcode_base_url}/linked-list-random-node/[382. Linked List Random Node^]
+|{source_base_url}/_0382_LinkedListRandomNode.java[Java]
+|{doc_base_url}/0382-linked-list-random-node.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/ransom-note/[383. Ransom Note^]
