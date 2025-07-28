@@ -1254,6 +1254,12 @@ endif::[]
 |{doc_base_url}/0382-linked-list-random-node.adoc[题解]
 |✅ 转数组或随机选数从头找选中的节点。感觉蓄水池抽样算法不让直接随机选择数字向后遍历效率高。
 
+|{counter:codes2503}
+|{leetcode_base_url}/find-the-difference/[389. 找不同^]
+|{doc_base_url}/0389-find-the-difference.adoc[题解]
+|✅ 哈希或异或。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

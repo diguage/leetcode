@@ -2748,14 +2748,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0388-longest-absolute-file-path.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/find-the-difference/[389. Find the Difference^]
-//|{source_base_url}/_0389_FindTheDifference.java[Java]
-//|{doc_base_url}/0389-find-the-difference.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/find-the-difference/[389. Find the Difference^]
+|{source_base_url}/_0389_FindTheDifference.java[Java]
+|{doc_base_url}/0389-find-the-difference.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/elimination-game/[390. Elimination Game^]
 //|{source_base_url}/_0390_EliminationGame.java[Java]

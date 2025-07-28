@@ -863,7 +863,7 @@ include::0387-first-unique-character-in-a-string.adoc[leveloffset=+1]
 
 // include::0388-longest-absolute-file-path.adoc[leveloffset=+1]
 
-// include::0389-find-the-difference.adoc[leveloffset=+1]
+include::0389-find-the-difference.adoc[leveloffset=+1]
 
 // include::0390-elimination-game.adoc[leveloffset=+1]
 
