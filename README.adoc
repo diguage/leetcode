@@ -2777,12 +2777,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/utf-8-validation/[393. UTF-8 Validation^]
-//|{source_base_url}/_0393_UTF8Validation.java[Java]
-//|{doc_base_url}/0393-utf-8-validation.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/utf-8-validation/[393. UTF-8 Validation^]
+|{source_base_url}/_0393_UTF8Validation.java[Java]
+|{doc_base_url}/0393-utf-8-validation.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/decode-string/[394. Decode String^]

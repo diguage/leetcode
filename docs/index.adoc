@@ -871,7 +871,7 @@ include::0389-find-the-difference.adoc[leveloffset=+1]
 
 include::0392-is-subsequence.adoc[leveloffset=+1]
 
-// include::0393-utf-8-validation.adoc[leveloffset=+1]
+include::0393-utf-8-validation.adoc[leveloffset=+1]
 
 include::0394-decode-string.adoc[leveloffset=+1]
 
