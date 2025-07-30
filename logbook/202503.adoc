@@ -1264,6 +1264,11 @@ endif::[]
 |{doc_base_url}/0393-utf-8-validation.adoc[题解]
 |✅ 位运算
 
+|{counter:codes2503}
+|{leetcode_base_url}/rotate-function/[396. 旋转函数^]
+|{doc_base_url}/0396-rotate-function.adoc[题解]
+|⭕️ 暴力破解，模拟整个计算过程来求结果，通过 45 / 58 个测试用例，超时。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

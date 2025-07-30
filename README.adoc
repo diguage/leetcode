@@ -2798,13 +2798,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/rotate-function/[396. Rotate Function^]
-//|{source_base_url}/_0396_RotateFunction.java[Java]
-//|{doc_base_url}/0396-rotate-function.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/rotate-function/[396. Rotate Function^]
+|{source_base_url}/_0396_RotateFunction.java[Java]
+|{doc_base_url}/0396-rotate-function.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/integer-replacement/[397. Integer Replacement^]
 //|{source_base_url}/_0397_IntegerReplacement.java[Java]
