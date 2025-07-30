@@ -71,4 +71,7 @@ include::{sourcedir}/_0396_RotateFunction.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/rotate-function/solutions/1440098/by-ac_oier-sxbi/[396. 旋转函数 - 经典「前缀和 + 滑动窗口」运用题^]
+. https://leetcode.cn/problems/rotate-function/solutions/1437641/xuan-zhuan-shu-zu-by-leetcode-solution-s0wd/[396. 旋转函数 - 官方题解^]
+. https://leetcode.cn/problems/rotate-function/solutions/1439938/pythonjavajavascriptgo-by-himymben-anmd/[396. 旋转函数 - 找到相邻递推关系^]
+. https://leetcode.cn/problems/rotate-function/solutions/1439873/by-lcfgrn-iqjq/[396. 旋转函数 - 找规律动态规划解题^]

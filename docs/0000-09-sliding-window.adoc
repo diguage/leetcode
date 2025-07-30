@@ -21,6 +21,7 @@
 . xref:0239-sliding-window-maximum.adoc[239. Sliding Window Maximum]
 . xref:0340-longest-substring-with-at-most-k-distinct-characters.adoc[340. Longest Substring with At Most K Distinct Characters]
 . xref:0395-longest-substring-with-at-least-k-repeating-characters.adoc[395. Longest Substring with At Least K Repeating Characters]
+. xref:0396-rotate-function.adoc[396. Rotate Function]
 . xref:0413-arithmetic-slices.adoc[413. Arithmetic Slices]
 . xref:0424-longest-repeating-character-replacement.adoc[424. Longest Repeating Character Replacement]
 . xref:0438-find-all-anagrams-in-a-string.adoc[438. Find All Anagrams in a String]

@@ -13,6 +13,7 @@
 . xref:0325-maximum-size-subarray-sum-equals-k.adoc[325. Maximum Size Subarray Sum Equals k]
 . xref:0363-max-sum-of-rectangle-no-larger-than-k.adoc[363. Max Sum of Rectangle No Larger Than K]
 . xref:0370-range-addition.adoc[370. Range Addition]
+. xref:0396-rotate-function.adoc[396. Rotate Function]
 . xref:0410-split-array-largest-sum.adoc[410. Split Array Largest Sum]
 . xref:0497-random-point-in-non-overlapping-rectangles.adoc[497. Random Point in Non-overlapping Rectangles]
 . xref:0523-continuous-subarray-sum.adoc[523. Continuous Subarray Sum]
