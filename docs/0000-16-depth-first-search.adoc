@@ -74,6 +74,7 @@
 . xref:0385-mini-parser.adoc[385. Mini Parser]
 . xref:0386-lexicographical-numbers.adoc[386. Lexicographical Numbers]
 . xref:0388-longest-absolute-file-path.adoc[388. Longest Absolute File Path]
+. xref:0397-integer-replacement.adoc[397. Integer Replacement]
 . xref:0399-evaluate-division.adoc[399. Evaluate Division]
 . xref:0404-sum-of-left-leaves.adoc[404. Sum of Left Leaves]
 . xref:0417-pacific-atlantic-water-flow.adoc[417. Pacific Atlantic Water Flow]

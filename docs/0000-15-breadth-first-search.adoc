@@ -48,6 +48,7 @@
 . xref:0339-nested-list-weight-sum.adoc[339. Nested List Weight Sum]
 . xref:0364-nested-list-weight-sum-ii.adoc[364. Nested List Weight Sum II]
 . xref:0365-water-and-jug-problem.adoc[365. Water and Jug Problem]
+. xref:0397-integer-replacement.adoc[397. Integer Replacement]
 . xref:0399-evaluate-division.adoc[399. Evaluate Division]
 . xref:0404-sum-of-left-leaves.adoc[404. Sum of Left Leaves]
 . xref:0407-trapping-rain-water-ii.adoc[407. Trapping Rain Water II]

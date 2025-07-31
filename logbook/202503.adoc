@@ -1269,6 +1269,12 @@ endif::[]
 |{doc_base_url}/0396-rotate-function.adoc[题解]
 |⭕️ 暴力破解，模拟整个计算过程来求结果，通过 45 / 58 个测试用例，超时。
 
+|{counter:codes2503}
+|{leetcode_base_url}/integer-replacement/[397. 整数替换^]
+|{doc_base_url}/0397-integer-replacement.adoc[题解]
+|✅ 深度优先搜索！计算每一个转换，在每一步中取最小值，即可得到结果。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

@@ -879,7 +879,7 @@ include::0395-longest-substring-with-at-least-k-repeating-characters.adoc[levelo
 
 include::0396-rotate-function.adoc[leveloffset=+1]
 
-// include::0397-integer-replacement.adoc[leveloffset=+1]
+include::0397-integer-replacement.adoc[leveloffset=+1]
 
 // include::0398-random-pick-index.adoc[leveloffset=+1]
 

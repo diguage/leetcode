@@ -10,3 +10,4 @@
 == 经典题目
 
 . xref:0199-binary-tree-right-side-view.adoc[199. Binary Tree Right Side View] -- 这道题的深度优先搜索解法对递归的使用，我觉得值得学习。
+. xref:0397-integer-replacement.adoc[397. Integer Replacement]
