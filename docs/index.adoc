@@ -887,7 +887,7 @@ include::0399-evaluate-division.adoc[leveloffset=+1]
 
 include::0400-nth-digit.adoc[leveloffset=+1]
 
-// include::0401-binary-watch.adoc[leveloffset=+1]
+include::0401-binary-watch.adoc[leveloffset=+1]
 
 include::0402-remove-k-digits.adoc[leveloffset=+1]
 

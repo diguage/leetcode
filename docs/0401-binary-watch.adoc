@@ -1,37 +1,71 @@
 [#0401-binary-watch]
-= 401. Binary Watch
+= 401. 二进制手表
 
-{leetcode}/problems/binary-watch/[LeetCode - Binary Watch^]
+https://leetcode.cn/problems/binary-watch/[LeetCode - 401. 二进制手表 ^]
 
-A binary watch has 4 LEDs on the top which represent the *hours* (*0-11*), and the 6 LEDs on the bottom represent the *minutes* (*0-59*).
-Each LED represents a zero or one, with the least significant bit on the right.
+二进制手表顶部有 4 个 LED 代表 *小时（0-11）*，底部的 6 个 LED 代表 *分钟（0-59）*。每个 LED 代表一个 0 或 1，最低位在右侧。
 
-image::https://upload.wikimedia.org/wikipedia/commons/8/8b/Binary_clock_samui_moon.jpg[{image_attr}]
+* 例如，下面的二进制手表读取 `4:51` 。
 
-For example, the above binary watch reads "3:25".
+image:images/0401-01.jpg[{image_attr}]
 
-Given a non-negative integer _n_ which represents the number of LEDs that are currently on, return all possible times the watch could represent.
+给你一个整数 `turnedOn` ，表示当前亮着的 LED 的数量，返回二进制手表可以表示的所有可能时间。你可以 *按任意顺序* 返回答案。
 
-*Example:*
-[subs="verbatim,quotes,macros"]
-----
-Input: n = 1
-Return: ["1:00", "2:00", "4:00", "8:00", "0:01", "0:02", "0:04", "0:08", "0:16", "0:32"]
-----
+小时不会以零开头：
+
+* 例如，`01:00` 是无效的时间，正确的写法应该是 `1:00`。
+
+分钟必须由两位数组成，可能会以零开头：
+
+* 例如，`10:2` 是无效的时间，正确的写法应该是 `10:02`。
+
+*示例 1：*
+
+....
+输入：turnedOn = 1
+输出：["0:01","0:02","0:04","0:08","0:16","0:32","1:00","2:00","4:00","8:00"]
+....
+
+*示例 2：*
+
+....
+输入：turnedOn = 9
+输出：[]
+....
+
+*提示：*
+
+* `+0 <= turnedOn <= 10+`
 
 
-*Note:*
+== 思路分析
 
-* The order of output does not matter.
-* The hour must not contain a leading zero, for example "01:00" is not valid, it should be "1:00".
-* The minute must be consist of two digits and may contain a leading zero, for example "10:2" is not valid, it should be "10:02".
-
-
-
+回溯！需要注意的是小时数和分钟数是有上限的！
 
 [[src-0401]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0401_BinaryWatch.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0401_BinaryWatch_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/binary-watch/solutions/11389/cjian-jian-dan-dan-de-ji-xing-dai-ma-jie-jue-wen-t/[401. 二进制手表 - 简简单单的几行代码解决问题^] -- 这个解法有意思！反其道而行之！
+. https://leetcode.cn/problems/binary-watch/solutions/837337/er-jin-zhi-shou-biao-by-leetcode-solutio-3559/[401. 二进制手表 - 官方题解^]
