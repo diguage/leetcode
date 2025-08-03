@@ -1,47 +1,61 @@
 [#0405-convert-a-number-to-hexadecimal]
-= 405. Convert a Number to Hexadecimal
+= 405. 数字转换为十六进制数
 
-{leetcode}/problems/convert-a-number-to-hexadecimal/[LeetCode - Convert a Number to Hexadecimal^]
+https://leetcode.cn/problems/convert-a-number-to-hexadecimal/[LeetCode - 405. 数字转换为十六进制数 ^]
 
+给定一个整数，编写一个算法将这个数转换为十六进制数。对于负整数，我们通常使用 https://baike.baidu.com/item/%E8%A1%A5%E7%A0%81/6854613?fr=aladdin[补码运算] 方法。
 
-Given an integer, write an algorithm to convert it to hexadecimal. For negative integer, https://en.wikipedia.org/wiki/Two%27s_complement[two’s complement^] method is used.
+答案字符串中的所有字母都应该是小写字符，并且除了 0 本身之外，答案中不应该有任何前置零。
 
+*注意:* 不允许使用任何由库提供的将数字直接转换或格式化为十六进制的方法来解决这个问题。
 
-*Note:*
+*示例 1：*
 
-. All letters in hexadecimal (`a-f`) must be in lowercase.
-. The hexadecimal string must not contain extra leading `0`s. If the number is zero, it is represented by a single zero character `'0'`; otherwise, the first character in the hexadecimal string will not be the zero character.
-. The given number is guaranteed to fit within the range of a 32-bit signed integer.
-. You *must not use _any_ method provided by the library* which converts/formats the number to hex directly.
+....
+输入：num = 26
+输出："1a"
+....
 
+*示例 2：*
 
+....
+输入：num = -1
+输出："ffffffff"
+....
 
-*Example 1:*
-[subs="verbatim,quotes,macros"]
-----
-Input:
-26
+*提示：*
 
-Output:
-"1a"
-----
-
-
-*Example 2:*
-[subs="verbatim,quotes,macros"]
-----
-Input:
--1
-
-Output:
-"ffffffff"
-----
+* `-2^31^ \<= num \<= 2^31^ - 1`
 
 
+== 思路分析
+
+位运算！可以直接转换成十六进制，不需要从二进制绕一下。
 
 [[src-0405]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0405_ConvertANumberToHexadecimal.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0405_ConvertANumberToHexadecimal_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/convert-a-number-to-hexadecimal/solutions/1027527/gong-shui-san-xie-yi-ti-shuang-jie-jin-z-d93o/[405. 数字转换为十六进制数 - 一题双解 :「进制转换」&「分组换算」^]
+. https://leetcode.cn/problems/convert-a-number-to-hexadecimal/solutions/1027297/shu-zi-zhuan-huan-wei-shi-liu-jin-zhi-sh-2srt/[405. 数字转换为十六进制数 - 官方题解^]

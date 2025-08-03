@@ -1284,6 +1284,11 @@ endif::[]
 |{doc_base_url}/0401-binary-watch.adoc[题解]
 |✅ 回溯或位操作。小时数和分钟数都有上限，这点需注意！
 
+|{counter:codes2503}
+|{leetcode_base_url}/convert-a-number-to-hexadecimal/[405. 数字转换为十六进制数^]
+|{doc_base_url}/0405-convert-a-number-to-hexadecimal.adoc[题解]
+|✅ 位运算。可以直接转换成十六进制，不需要从二进制绕一下。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

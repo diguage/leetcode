@@ -7,6 +7,10 @@ import java.util.Arrays;
 
 public class _0404_SumOfLeftLeaves {
   // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-25 20:39
+   */
   public int sumOfLeftLeaves(TreeNode root) {
     if (root == null) {
       return 0;

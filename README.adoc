@@ -2861,12 +2861,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/convert-a-number-to-hexadecimal/[405. Convert a Number to Hexadecimal^]
-//|{source_base_url}/_0405_ConvertANumberToHexadecimal.java[Java]
-//|{doc_base_url}/0405-convert-a-number-to-hexadecimal.adoc[题解]
-//|Easy
-//|
+|{counter:codes}
+|{leetcode_base_url}/convert-a-number-to-hexadecimal/[405. Convert a Number to Hexadecimal^]
+|{source_base_url}/_0405_ConvertANumberToHexadecimal.java[Java]
+|{doc_base_url}/0405-convert-a-number-to-hexadecimal.adoc[题解]
+|Easy
+|
 
 |{counter:codes}
 |{leetcode_base_url}/queue-reconstruction-by-height/[406. Queue Reconstruction by Height^]
