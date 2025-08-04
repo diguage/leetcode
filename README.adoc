@@ -2917,13 +2917,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/arithmetic-slices/[413. Arithmetic Slices^]
-//|{source_base_url}/_0413_ArithmeticSlices.java[Java]
-//|{doc_base_url}/0413-arithmetic-slices.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/arithmetic-slices/[413. Arithmetic Slices^]
+|{source_base_url}/_0413_ArithmeticSlices.java[Java]
+|{doc_base_url}/0413-arithmetic-slices.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/third-maximum-number/[414. Third Maximum Number^]
 //|{source_base_url}/_0414_ThirdMaximumNumber.java[Java]

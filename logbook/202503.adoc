@@ -1289,6 +1289,12 @@ endif::[]
 |{doc_base_url}/0405-convert-a-number-to-hexadecimal.adoc[题解]
 |✅ 位运算。可以直接转换成十六进制，不需要从二进制绕一下。
 
+|{counter:codes2503}
+|{leetcode_base_url}/arithmetic-slices/[413. Arithmetic Slices^]
+|{doc_base_url}/0413-arithmetic-slices.adoc[题解]
+|✅ 选择一个元素做起点，向前探索可以成为等差数组的可能。竟然可以用滑动窗口！
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

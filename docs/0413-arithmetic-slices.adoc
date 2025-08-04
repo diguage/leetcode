@@ -1,45 +1,68 @@
 [#0413-arithmetic-slices]
-= 413. Arithmetic Slices
+= 413. 等差数列划分
 
-{leetcode}/problems/arithmetic-slices/[LeetCode - Arithmetic Slices^]
+https://leetcode.cn/problems/arithmetic-slices/[LeetCode - 413. 等差数列划分^]
 
-A sequence of number is called arithmetic if it consists of at least three elements and if the difference between any two consecutive elements is the same.
+如果一个数列 *至少有三个元素*，并且任意两个相邻元素之差相同，则称该数列为等差数列。
 
-For example, these are arithmetic sequence:
+* 例如，`[1,3,5,7,9]`、`[7,7,7,7]` 和 `[3,-1,-5,-9]` 都是等差数列。
 
-[subs="verbatim,quotes,macros"]
-----
-1, 3, 5, 7, 9
-7, 7, 7, 7
-3, -1, -5, -9
-----
+给你一个整数数组 `nums` ，返回数组 `nums` 中所有为等差数组的 *子数组* 个数。
 
-The following sequence is not arithmetic. [subs="verbatim,quotes,macros"]
-----
-1, 1, 2, 5, 7
----- 
+*子数组* 是数组中的一个连续序列。
 
-A zero-indexed array A consisting of N numbers is given. A slice of that array is any pair of integers (P, Q) such that 0 <= P < Q < N.
+*示例 1：*
 
-A slice (P, Q) of array A is called arithmetic if the sequence:<br/>
-    A[P], A[p + 1], ..., A[Q - 1], A[Q] is arithmetic. In particular, this means that P + 1 < Q.
+....
+输入：nums = [1,2,3,4]
+输出：3
+解释：nums 中有三个子等差数组：[1, 2, 3]、[2, 3, 4] 和 [1,2,3,4] 自身。
+....
 
-The function should return the number of arithmetic slices in the array A. 
-<br/>
+*示例 2：*
 
-*Example:*
-[subs="verbatim,quotes,macros"]
-----
-A = [1, 2, 3, 4]
+....
+输入：nums = [1]
+输出：0
+....
 
-return: 3, for 3 arithmetic slices in A: [1, 2, 3], [2, 3, 4] and [1, 2, 3, 4] itself.
+*提示：*
 
-----
+* `+1 <= nums.length <= 5000+`
+* `+-1000 <= nums[i] <= 1000+`
 
+
+
+== 思路分析
+
+求子数组的数量！从第一个数字开始，长度达到 3 就可以成为一个等差数组。计算出“头两个元素”的差值，后续的元素与前一个元素的差值等于上面计算出来的差值，即可成为一个等差数组。
+
+可以用滑动窗口！
 
 [[src-0413]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0413_ArithmeticSlices.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0413_ArithmeticSlices_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/arithmetic-slices/solutions/925973/deng-chai-shu-lie-hua-fen-by-leetcode-so-g7os/[413. 等差数列划分 - 官方题解^] -- 从这个题解来看，我的写法还可以再简化！不需要做深度优先遍历，一个循环即可。
+. https://leetcode.cn/problems/arithmetic-slices/solutions/926337/gong-shui-san-xie-shuang-zhi-zhen-qiu-ji-ef1q/[413. 等差数列划分 - 双指针求解等差数列划分^]

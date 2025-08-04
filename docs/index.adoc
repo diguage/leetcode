@@ -895,7 +895,7 @@ include::0402-remove-k-digits.adoc[leveloffset=+1]
 
 include::0404-sum-of-left-leaves.adoc[leveloffset=+1]
 
-// include::0405-convert-a-number-to-hexadecimal.adoc[leveloffset=+1]
+include::0405-convert-a-number-to-hexadecimal.adoc[leveloffset=+1]
 
 include::0406-queue-reconstruction-by-height.adoc[leveloffset=+1]
 
@@ -911,7 +911,7 @@ include::0409-longest-palindrome.adoc[leveloffset=+1]
 
 include::0412-fizz-buzz.adoc[leveloffset=+1]
 
-// include::0413-arithmetic-slices.adoc[leveloffset=+1]
+include::0413-arithmetic-slices.adoc[leveloffset=+1]
 
 // include::0414-third-maximum-number.adoc[leveloffset=+1]
 
