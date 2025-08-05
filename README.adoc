@@ -2924,12 +2924,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/third-maximum-number/[414. Third Maximum Number^]
-//|{source_base_url}/_0414_ThirdMaximumNumber.java[Java]
-//|{doc_base_url}/0414-third-maximum-number.adoc[题解]
-//|Easy
-//|
+|{counter:codes}
+|{leetcode_base_url}/third-maximum-number/[414. Third Maximum Number^]
+|{source_base_url}/_0414_ThirdMaximumNumber.java[Java]
+|{doc_base_url}/0414-third-maximum-number.adoc[题解]
+|Easy
+|
 
 |{counter:codes}
 |{leetcode_base_url}/add-strings/[415. Add Strings^]

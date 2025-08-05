@@ -1294,6 +1294,10 @@ endif::[]
 |{doc_base_url}/0413-arithmetic-slices.adoc[题解]
 |✅ 选择一个元素做起点，向前探索可以成为等差数组的可能。竟然可以用滑动窗口！
 
+|{counter:codes2503}
+|{leetcode_base_url}/third-maximum-number/[414. Third Maximum Number^]
+|{doc_base_url}/0414-third-maximum-number.adoc[题解]
+|✅ 竟然可以使用三个变量来保存第一、二、三大数。这样，遍历一遍即可得到这三个数字。
 
 |===
 

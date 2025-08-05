@@ -913,7 +913,7 @@ include::0412-fizz-buzz.adoc[leveloffset=+1]
 
 include::0413-arithmetic-slices.adoc[leveloffset=+1]
 
-// include::0414-third-maximum-number.adoc[leveloffset=+1]
+include::0414-third-maximum-number.adoc[leveloffset=+1]
 
 include::0415-add-strings.adoc[leveloffset=+1]
 
