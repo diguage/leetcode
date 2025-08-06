@@ -1299,6 +1299,12 @@ endif::[]
 |{doc_base_url}/0414-third-maximum-number.adoc[题解]
 |✅ 竟然可以使用三个变量来保存第一、二、三大数。这样，遍历一遍即可得到这三个数字。
 
+|{counter:codes2503}
+|{leetcode_base_url}/pacific-atlantic-water-flow/[417. 太平洋大西洋水流问题^]
+|{doc_base_url}/0417-pacific-atlantic-water-flow.adoc[题解]
+|⭕️ 题目有点不明觉厉！搞清楚题目要求，就是一个 DFS 或 BFS：分别以靠着海洋的点为起点，找出“步步高升”的点，最后求两个海洋的高点交集。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

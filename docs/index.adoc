@@ -919,7 +919,7 @@ include::0415-add-strings.adoc[leveloffset=+1]
 
 include::0416-partition-equal-subset-sum.adoc[leveloffset=+1]
 
-// include::0417-pacific-atlantic-water-flow.adoc[leveloffset=+1]
+include::0417-pacific-atlantic-water-flow.adoc[leveloffset=+1]
 
 // include::0418-sentence-screen-fitting.adoc[leveloffset=+1]
 
