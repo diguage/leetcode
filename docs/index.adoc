@@ -923,7 +923,7 @@ include::0417-pacific-atlantic-water-flow.adoc[leveloffset=+1]
 
 // include::0418-sentence-screen-fitting.adoc[leveloffset=+1]
 
-// include::0419-battleships-in-a-board.adoc[leveloffset=+1]
+include::0419-battleships-in-a-board.adoc[leveloffset=+1]
 
 // include::0420-strong-password-checker.adoc[leveloffset=+1]
 

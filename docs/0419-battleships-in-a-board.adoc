@@ -1,46 +1,68 @@
 [#0419-battleships-in-a-board]
-= 419. Battleships in a Board
+= 419. 棋盘上的战舰
 
-{leetcode}/problems/battleships-in-a-board/[LeetCode - Battleships in a Board^]
+https://leetcode.cn/problems/battleships-in-a-board/[LeetCode - 419. 棋盘上的战舰 ^]
 
-Given an 2D board, count how many battleships are in it. The battleships are represented with `'X'`s, empty slots are represented with `'.'`s. You may assume the following rules:
+给你一个大小为 `m x n` 的矩阵 `board` 表示棋盘，其中，每个单元格可以是一艘战舰 `X` 或者是一个空位 `.`，返回在棋盘 `board` 上放置的 *舰队* 的数量。
+
+*舰队* 只能水平或者垂直放置在 `board` 上。换句话说，舰队只能按 `1 x k`（`1` 行，`k` 列）或 `k x 1`（`k` 行，`1`列）的形状放置，其中 `k` 可以是任意大小。两个舰队之间至少有一个水平或垂直的空格分隔 （即没有相邻的舰队）。
+
+*示例 1：*
+
+image:images/0419-01.png[{image_attr}]
+
+....
+输入：board = [["X",".",".","X"],[".",".",".","X"],[".",".",".","X"]]
+输出：2
+....
+
+*示例 2：*
+
+....
+输入：board = [["."]]
+输出：0
+....
 
 
-. You receive a valid board, made of only battleships or empty slots.
-. Battleships can only be placed horizontally or vertically. In other words, they can only be made of the shape `1xN` (1 row, N columns) or `Nx1` (N rows, 1 column), where N can be of any size.
-. At least one horizontal or vertical cell separates between two battleships - there are no adjacent battleships.
+*提示：*
+
+* `m == board.length`
+* `n == board[i].length`
+* `+1 <= m, n <= 200+`
+* `board[i][j]` 是 `.` 或 `X`
+
+**进阶：**你可以实现一次扫描算法，并只使用 stem:[O(1)] 额外空间，并且不修改 `board` 的值来解决这个问题吗？
 
 
-*Example:*
+== 思路分析
 
-
-[subs="verbatim,quotes,macros"]
-----
-X..X
-...X
-...X
-----
-In the above board there are 2 battleships.
-
-*Invalid Example:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-...X
-XXXX
-...X
-----
-This is an invalid board that you will not receive - as battleships will always have a cell separating between them.
-
-*Follow up:*
-
-Could you do it in *one-pass*, using only *O(1) extra memory* and *without modifying* the value of the board?
+对矩阵全扫描，遇到战舰就+1，如果当前节点的上一个节点或者坐标一个节点是 `X`，已经计数过了，就跳过。
 
 
 [[src-0419]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0419_BattleshipsInABoard.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0419_BattleshipsInABoard_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/battleships-in-a-board/solutions/1162182/jia-ban-shang-de-zhan-jian-by-leetcode-s-kxpc/[419. 棋盘上的战舰 - 官方题解^]
+. https://leetcode.cn/problems/battleships-in-a-board/solutions/1163682/gong-shui-san-xie-ji-chong-sao-miao-xian-trmc/[419. 棋盘上的战舰 - 几种「扫描限制」&「空间限制」做法^]

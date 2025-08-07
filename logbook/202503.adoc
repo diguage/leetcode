@@ -1304,6 +1304,11 @@ endif::[]
 |{doc_base_url}/0417-pacific-atlantic-water-flow.adoc[题解]
 |⭕️ 题目有点不明觉厉！搞清楚题目要求，就是一个 DFS 或 BFS：分别以靠着海洋的点为起点，找出“步步高升”的点，最后求两个海洋的高点交集。
 
+|{counter:codes2503}
+|{leetcode_base_url}/battleships-in-a-board/[419. 棋盘上的战舰^]
+|{doc_base_url}/0419-battleships-in-a-board.adoc[题解]
+|✅ 修改矩阵的解法很简单！不修改矩阵且时间复杂度是 stem:[O(1)]，写代码就有点技巧：遇到第一个战舰计数，当上一个节点或者做一个节点也是战舰时，就跳过！
+
 
 |===
 

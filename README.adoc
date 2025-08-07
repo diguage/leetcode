@@ -2958,14 +2958,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0418-sentence-screen-fitting.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/battleships-in-a-board/[419. Battleships in a Board^]
-//|{source_base_url}/_0419_BattleshipsInABoard.java[Java]
-//|{doc_base_url}/0419-battleships-in-a-board.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/battleships-in-a-board/[419. Battleships in a Board^]
+|{source_base_url}/_0419_BattleshipsInABoard.java[Java]
+|{doc_base_url}/0419-battleships-in-a-board.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/strong-password-checker/[420. Strong Password Checker^]
 //|{source_base_url}/_0420_StrongPasswordChecker.java[Java]
