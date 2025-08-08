@@ -1309,6 +1309,11 @@ endif::[]
 |{doc_base_url}/0419-battleships-in-a-board.adoc[题解]
 |✅ 修改矩阵的解法很简单！不修改矩阵且时间复杂度是 stem:[O(1)]，写代码就有点技巧：遇到第一个战舰计数，当上一个节点或者做一个节点也是战舰时，就跳过！
 
+|{counter:codes2503}
+|{leetcode_base_url}/reconstruct-original-digits-from-english/[423. 从英文中重建数字^]
+|{doc_base_url}/0423-reconstruct-original-digits-from-english.adoc[题解]
+|⭕️ 按照最初想法，先统计每个字符出现的次数，然后再按照数字顺序，逐个去尝试是否在字符串中。这样时间复杂度就不可控。看题解，可以按照单词中的字符出现特性，先将只出现在一个数字中的字符挑选出来，确定对应的数字出现次数。然后，在处理出现中两个数字中的字符，逐步把所有数字出现次数确定好。
+
 
 |===
 

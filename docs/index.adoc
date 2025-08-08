@@ -931,7 +931,7 @@ include::0419-battleships-in-a-board.adoc[leveloffset=+1]
 
 // include::0422-valid-word-square.adoc[leveloffset=+1]
 
-// include::0423-reconstruct-original-digits-from-english.adoc[leveloffset=+1]
+include::0423-reconstruct-original-digits-from-english.adoc[leveloffset=+1]
 
 // include::0424-longest-repeating-character-replacement.adoc[leveloffset=+1]
 

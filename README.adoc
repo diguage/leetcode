@@ -2986,14 +2986,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0422-valid-word-square.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/reconstruct-original-digits-from-english/[423. Reconstruct Original Digits from English^]
-//|{source_base_url}/_0423_ReconstructOriginalDigitsFromEnglish.java[Java]
-//|{doc_base_url}/0423-reconstruct-original-digits-from-english.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/reconstruct-original-digits-from-english/[423. Reconstruct Original Digits from English^]
+|{source_base_url}/_0423_ReconstructOriginalDigitsFromEnglish.java[Java]
+|{doc_base_url}/0423-reconstruct-original-digits-from-english.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/longest-repeating-character-replacement/[424. Longest Repeating Character Replacement^]
 //|{source_base_url}/_0424_LongestRepeatingCharacterReplacement.java[Java]
