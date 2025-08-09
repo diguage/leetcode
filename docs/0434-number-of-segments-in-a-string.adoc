@@ -1,24 +1,49 @@
 [#0434-number-of-segments-in-a-string]
-= 434. Number of Segments in a String
+= 434. 字符串中的单词数
 
-{leetcode}/problems/number-of-segments-in-a-string/[LeetCode - Number of Segments in a String^]
+https://leetcode.cn/problems/number-of-segments-in-a-string/[LeetCode - 434. 字符串中的单词数 ^]
 
-Count the number of segments in a string, where a segment is defined to be a contiguous sequence of non-space characters.
+统计字符串中的单词个数，这里的单词指的是连续的不是空格的字符。
 
-Please note that the string does not contain any *non-printable* characters.
+请注意，你可以假定字符串里不包括任何不可打印的字符。
 
-*Example:*
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "Hello, my name is John"
-*Output:* 5
-----
+*示例:*
+
+....
+输入: "Hello, my name is John"
+输出: 5
+解释: 这里的单词是指连续的不是空格的字符，所以 "Hello," 算作 1 个单词。
+....
 
 
+== 思路分析
+
+识别出单词开始的字符，进行统计数量，其余向后走。
 
 [[src-0434]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0434_NumberOfSegmentsInAString.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0434_NumberOfSegmentsInAString_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/number-of-segments-in-a-string/solutions/1034164/gong-shui-san-xie-jian-dan-zi-fu-mo-ni-t-0gx6/[434. 字符串中的单词数 - 简单字符模拟题^]
+. https://leetcode.cn/problems/number-of-segments-in-a-string/solutions/1033996/zi-fu-chuan-zhong-de-dan-ci-shu-by-leetc-igfb/[434. 字符串中的单词数 - 官方题解^]

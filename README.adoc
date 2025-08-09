@@ -3064,13 +3064,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/number-of-segments-in-a-string/[434. Number of Segments in a String^]
-//|{source_base_url}/_0434_NumberOfSegmentsInAString.java[Java]
-//|{doc_base_url}/0434-number-of-segments-in-a-string.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/number-of-segments-in-a-string/[434. Number of Segments in a String^]
+|{source_base_url}/_0434_NumberOfSegmentsInAString.java[Java]
+|{doc_base_url}/0434-number-of-segments-in-a-string.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/non-overlapping-intervals/[435. Non-overlapping Intervals^]
 //|{source_base_url}/_0435_NonOverlappingIntervals.java[Java]
