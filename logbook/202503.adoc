@@ -1319,6 +1319,11 @@ endif::[]
 |{doc_base_url}/0434-number-of-segments-in-a-string.adoc[题解]
 |✅ 识别单词开头，进行数量统计。
 
+|{counter:codes2503}
+|{leetcode_base_url}/queue-reconstruction-by-height/[406. 根据身高重建队列^]
+|{doc_base_url}/0406-queue-reconstruction-by-height.adoc[题解]
+|⭕️ 一般这种数对，还涉及排序的，根据第一个元素正向排序，根据第二个元素反向排序，或者根据第一个元素反向排序，根据第二个元素正向排序，往往能够简化解题过程。
+
 
 |===
 
