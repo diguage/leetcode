@@ -2972,14 +2972,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0420-strong-password-checker.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/maximum-xor-of-two-numbers-in-an-array/[421. Maximum XOR of Two Numbers in an Array^]
-//|{source_base_url}/_0421_MaximumXOROfTwoNumbersInAnArray.java[Java]
-//|{doc_base_url}/0421-maximum-xor-of-two-numbers-in-an-array.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/maximum-xor-of-two-numbers-in-an-array/[421. Maximum XOR of Two Numbers in an Array^]
+|{source_base_url}/_0421_MaximumXOROfTwoNumbersInAnArray.java[Java]
+|{doc_base_url}/0421-maximum-xor-of-two-numbers-in-an-array.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/valid-word-square/[422. Valid Word Square^]
 //|{source_base_url}/_0422_ValidWordSquare.java[Java]
