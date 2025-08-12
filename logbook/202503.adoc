@@ -1329,6 +1329,12 @@ endif::[]
 |{doc_base_url}/0421-maximum-xor-of-two-numbers-in-an-array.adoc[题解]
 |❌ 前缀树或哈希！这道题可以换个思路来理解：选出两个数，小数正好可以“补齐”大数尽可能高位的 `0` 所在的比特位。这也能叫中等难度题目？
 
+|{counter:codes2503}
+|{leetcode_base_url}/longest-repeating-character-replacement/[424. Longest Repeating Character Replacement^]
+|{doc_base_url}/0424-longest-repeating-character-replacement.adoc[题解]
+|❌ 滑动窗口。难点在于，如何判断一个字符串改变 K 个字符，能够变成一个连续串？
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
