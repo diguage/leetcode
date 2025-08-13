@@ -3036,13 +3036,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |广度优先
 
-//|{counter:codes}
-//|{leetcode_base_url}/flatten-a-multilevel-doubly-linked-list/[430. Flatten a Multilevel Doubly Linked List^]
-//|{source_base_url}/_0430_FlattenAMultilevelDoublyLinkedList.java[Java]
-//|{doc_base_url}/0430-flatten-a-multilevel-doubly-linked-list.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/flatten-a-multilevel-doubly-linked-list/[430. Flatten a Multilevel Doubly Linked List^]
+|{source_base_url}/_0430_FlattenAMultilevelDoublyLinkedList.java[Java]
+|{doc_base_url}/0430-flatten-a-multilevel-doubly-linked-list.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/encode-n-ary-tree-to-binary-tree/[431. Encode N-ary Tree to Binary Tree^]
 //|{source_base_url}/_0431_EncodeNAryTreeToBinaryTree.java[Java]

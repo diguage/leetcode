@@ -1334,6 +1334,10 @@ endif::[]
 |{doc_base_url}/0424-longest-repeating-character-replacement.adoc[题解]
 |❌ 滑动窗口。难点在于，如何判断一个字符串改变 K 个字符，能够变成一个连续串？
 
+|{counter:codes2503}
+|{leetcode_base_url}/flatten-a-multilevel-doubly-linked-list/[430. Flatten a Multilevel Doubly Linked List^]
+|{doc_base_url}/0430-flatten-a-multilevel-doubly-linked-list.adoc[题解]
+|⭕️ 深度优先遍历。思路有，但是代码写不出来！还是得多练！逐个元素处理，遇到有子元素的情况，则“向下”一层，将下一层做扁平化处理。
 
 |===
 
