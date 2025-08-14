@@ -967,7 +967,7 @@ include::0438-find-all-anagrams-in-a-string.adoc[leveloffset=+1]
 
 // include::0440-k-th-smallest-in-lexicographical-order.adoc[leveloffset=+1]
 
-// include::0441-arranging-coins.adoc[leveloffset=+1]
+include::0441-arranging-coins.adoc[leveloffset=+1]
 
 // include::0442-find-all-duplicates-in-an-array.adoc[leveloffset=+1]
 

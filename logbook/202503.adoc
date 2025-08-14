@@ -1339,6 +1339,12 @@ endif::[]
 |{doc_base_url}/0430-flatten-a-multilevel-doubly-linked-list.adoc[题解]
 |⭕️ 深度优先遍历。思路有，但是代码写不出来！还是得多练！逐个元素处理，遇到有子元素的情况，则“向下”一层，将下一层做扁平化处理。
 
+|{counter:codes2503}
+|{leetcode_base_url}/arranging-coins/[441. Arranging Coins^]
+|{doc_base_url}/0441-arranging-coins.adoc[题解]
+|✅ 二分查找或数学。一元二次方程求根公式。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

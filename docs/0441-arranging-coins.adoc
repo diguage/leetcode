@@ -1,47 +1,65 @@
 [#0441-arranging-coins]
-= 441. Arranging Coins
+= 441. 排列硬币
 
-{leetcode}/problems/arranging-coins/[LeetCode - Arranging Coins^]
+https://leetcode.cn/problems/arranging-coins/[LeetCode - 441. 排列硬币 ^]
 
-You have a total of _n_ coins that you want to form in a staircase shape, where every _k_-th row must have exactly _k_ coins.
- 
-Given _n_, find the total number of *full* staircase rows that can be formed.
+你总共有 `n` 枚硬币，并计划将它们按阶梯状排列。对于一个由 `k` 行组成的阶梯，其第 `i` 行必须正好有 `i` 枚硬币。阶梯的最后一行 *可能* 是不完整的。
 
-_n_ is a non-negative integer and fits within the range of a 32-bit signed integer.
+给你一个数字 `n`，计算并返回可形成 *完整阶梯行* 的总行数。
 
-*Example 1:*
-[subs="verbatim,quotes,macros"]
-----
-n = 5
+*示例 1：*
 
-The coins can form the following rows:
-¤
-¤ ¤
-¤ ¤
+image::images/0441-01.jpg[{image_attr}]
 
-Because the 3rd row is incomplete, we return 2.
-----
+....
+输入：n = 5
+输出：2
+解释：因为第三行不完整，所以返回 2 。
+....
 
+*示例 2：*
 
-*Example 2:*
-[subs="verbatim,quotes,macros"]
-----
-n = 8
+image::images/0441-02.jpg[{image_attr}]
 
-The coins can form the following rows:
-¤
-¤ ¤
-¤ ¤ ¤
-¤ ¤
+....
+输入：n = 8
+输出：3
+解释：因为第四行不完整，所以返回 3 。
+....
 
-Because the 4th row is incomplete, we return 3.
-----
+*提示：*
+
+* `1 \<= n \<= 2^31^ - 1`
 
 
+== 思路分析
+
+根据求和公式 stem:[x*(x+1)/2 <= n]，要求的就是 stem:[x]。二分查找，需要注意溢出。
 
 [[src-0441]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0441_ArrangingCoins.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0441_ArrangingCoins_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/arranging-coins/solutions/1039049/gong-shui-san-xie-yi-ti-shuang-jie-shu-x-sv9o/[441. 排列硬币 - 一题双解 :「数学」&「二分」^] -- 没想到竟然可以使用一元二次方程的求根公式。
+. https://leetcode.cn/problems/arranging-coins/solutions/1038396/pai-lie-ying-bi-by-leetcode-solution-w52c/[441. 排列硬币 - 官方题解^]
