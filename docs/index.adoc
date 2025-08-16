@@ -957,7 +957,7 @@ include::0434-number-of-segments-in-a-string.adoc[leveloffset=+1]
 
 include::0435-non-overlapping-intervals.adoc[leveloffset=+1]
 
-// include::0436-find-right-interval.adoc[leveloffset=+1]
+include::0436-find-right-interval.adoc[leveloffset=+1]
 
 include::0437-path-sum-iii.adoc[leveloffset=+1]
 

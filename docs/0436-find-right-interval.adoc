@@ -1,64 +1,52 @@
 [#0436-find-right-interval]
-= 436. Find Right Interval
+= 436. 寻找右区间
 
-{leetcode}/problems/find-right-interval/[LeetCode - Find Right Interval^]
+https://leetcode.cn/problems/find-right-interval/[LeetCode - 436. 寻找右区间^]
 
-Given a set of intervals, for each of the interval i, check if there exists an interval j whose start point is bigger than or equal to the end point of the interval i, which can be called that j is on the "right" of i.
+给你一个区间数组 `intervals`，其中 `intervals[i] = [start~i~, end~i~]`，且每个 `start~i~` 都 *不同* 。
 
-For any interval i, you need to store the minimum interval j's index, which means that the interval j has the minimum start point to build the "right" relationship for interval i. If the interval j doesn't exist, store -1 for the interval i. Finally, you need output the stored value of each interval as an array.
+区间 `i` 的 *右侧区间* 可以记作区间 `j` ，并满足 `start~j~ >= end~i~` ，且 `start~j~` *最小化* 。注意 `i` 可能等于 `j` 。
 
-*Note:*
+返回一个由每个区间 `i` 的 *右侧区间* 在 `intervals` 中对应下标组成的数组。如果某个区间 `i` 不存在对应的 *右侧区间*，则下标 `i` 处的值设为 `-1` 。
 
+*示例 1：*
 
-. You may assume the interval's end point is always bigger than its start point.
-. You may assume none of these intervals have the same start point.
+....
+输入：intervals = [[1,2]]
+输出：[-1]
+解释：集合中只有一个区间，所以输出-1。
+....
 
+*示例 2：*
 
- 
+....
+输入：intervals = [[3,4],[2,3],[1,2]]
+输出：[-1,0,1]
+解释：对于 [3,4] ，没有满足条件的“右侧”区间。
+对于 [2,3] ，区间[3,4]具有最小的“右”起点;
+对于 [1,2] ，区间[2,3]具有最小的“右”起点。
+....
 
-*Example 1:*
+*示例 3：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [ [1,2] ]
+....
+输入：intervals = [[1,4],[2,3],[3,4]]
+输出：[-1,2,-1]
+解释：对于区间 [1,4] 和 [3,4] ，没有满足条件的“右侧”区间。
+对于 [2,3] ，区间 [3,4] 有最小的“右”起点。
+....
 
-*Output:* [-1]
+*提示：*
 
-*Explanation:* There is only one interval in the collection, so it outputs -1.
-----
+* `1 \<= intervals.length \<= 2 * 10^4^`
+* `+intervals[i].length == 2+`
+* `-10^6^ \<= start~i~ \<= end~i~ \<= 10^6^`
+* 每个间隔的起点都 *不相同*
 
- 
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [ [3,4], [2,3], [1,2] ]
-
-*Output:* [-1, 0, 1]
-
-*Explanation:* There is no satisfied "right" interval for [3,4].
-For [2,3], the interval [3,4] has minimum-"right" start point;
-For [1,2], the interval [2,3] has minimum-"right" start point.
-----
-
- 
-
-*Example 3:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [ [1,4], [2,3], [3,4] ]
-
-*Output:* [-1, 2, -1]
-
-*Explanation:* There is no satisfied "right" interval for [1,4] and [3,4].
-For [2,3], the interval [3,4] has minimum-"right" start point.
-----
-
-*NOTE:* input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
 
 == 思路分析
+
+排序+二分查找。由于左端点都不同，可以根据左端点的值来来对区间进行排序。然后在这个有序序列中，查找右端点的“最近左端点”。
 
 [[src-0436]]
 [tabs]
@@ -77,8 +65,14 @@ include::{sourcedir}/_0436_FindRightInterval.java[tag=answer]
 // --
 // [{java_src_attr}]
 // ----
-// include::{sourcedir}/_0005_LongestPalindromicSubstring_2.java[tag=answer]
+// include::{sourcedir}/_0436_FindRightInterval_2.java[tag=answer]
 // ----
 // --
 ====
 
+
+== 参考资料
+
+. https://leetcode.cn/problems/find-right-interval/solutions/1506129/by-ac_oier-sijp/[436. 寻找右区间 - 一题双解 :「排序 + 二分」&「双指针（莫队思想）」^]
+. https://leetcode.cn/problems/find-right-interval/solutions/1504095/xun-zhao-you-qu-jian-by-leetcode-solutio-w2ic/[436. 寻找右区间 - 官方题解^]
+. https://leetcode.cn/problems/find-right-interval/solutions/52077/er-fen-cha-zhao-hong-hei-shu-by-liweiwei1419/[436. 寻找右区间 - 二分查找、二分搜索树^]

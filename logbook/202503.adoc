@@ -1349,6 +1349,10 @@ endif::[]
 |{doc_base_url}/0435-non-overlapping-intervals.adoc[题解]
 |❌ 贪心算法。换个角度，改为计算最多可以选多少个互不重叠的区间。
 
+|{counter:codes2503}
+|{leetcode_base_url}/find-right-interval/[436. 寻找右区间^]
+|{doc_base_url}/0436-find-right-interval.adoc[题解]
+|❌ 排序+二分查找。由于左端点都不同，可以根据左端点的值来来对区间进行排序。然后在这个有序序列中，查找右端点的“最近左端点”。
 
 |===
 
