@@ -3112,14 +3112,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0440-k-th-smallest-in-lexicographical-order.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/arranging-coins/[441. Arranging Coins^]
-//|{source_base_url}/_0441_ArrangingCoins.java[Java]
-//|{doc_base_url}/0441-arranging-coins.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/arranging-coins/[441. Arranging Coins^]
+|{source_base_url}/_0441_ArrangingCoins.java[Java]
+|{doc_base_url}/0441-arranging-coins.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/find-all-duplicates-in-an-array/[442. Find All Duplicates in an Array^]
 //|{source_base_url}/_0442_FindAllDuplicatesInAnArray.java[Java]
