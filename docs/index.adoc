@@ -933,7 +933,7 @@ include::0421-maximum-xor-of-two-numbers-in-an-array.adoc[leveloffset=+1]
 
 include::0423-reconstruct-original-digits-from-english.adoc[leveloffset=+1]
 
-// include::0424-longest-repeating-character-replacement.adoc[leveloffset=+1]
+include::0424-longest-repeating-character-replacement.adoc[leveloffset=+1]
 
 // include::0425-word-squares.adoc[leveloffset=+1]
 

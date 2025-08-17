@@ -2994,13 +2994,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/longest-repeating-character-replacement/[424. Longest Repeating Character Replacement^]
-//|{source_base_url}/_0424_LongestRepeatingCharacterReplacement.java[Java]
-//|{doc_base_url}/0424-longest-repeating-character-replacement.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/longest-repeating-character-replacement/[424. Longest Repeating Character Replacement^]
+|{source_base_url}/_0424_LongestRepeatingCharacterReplacement.java[Java]
+|{doc_base_url}/0424-longest-repeating-character-replacement.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/word-squares/[425. Word Squares^]
 //|{source_base_url}/_0425_WordSquares.java[Java]
