@@ -945,7 +945,7 @@ include::0427-construct-quad-tree.adoc[leveloffset=+1]
 
 include::0429-n-ary-tree-level-order-traversal.adoc[leveloffset=+1]
 
-// include::0430-flatten-a-multilevel-doubly-linked-list.adoc[leveloffset=+1]
+include::0430-flatten-a-multilevel-doubly-linked-list.adoc[leveloffset=+1]
 
 // include::0431-encode-n-ary-tree-to-binary-tree.adoc[leveloffset=+1]
 
