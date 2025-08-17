@@ -1354,6 +1354,12 @@ endif::[]
 |{doc_base_url}/0436-find-right-interval.adoc[题解]
 |❌ 排序+二分查找。由于左端点都不同，可以根据左端点的值来来对区间进行排序。然后在这个有序序列中，查找右端点的“最近左端点”。
 
+|{counter:codes2503}
+|{leetcode_base_url}/find-all-duplicates-in-an-array/[442. 数组中重复的数据^]
+|{doc_base_url}/0442-find-all-duplicates-in-an-array.adoc[题解]
+|⭕️ {doc_base_url}/0000-12-cyclic-sort.adoc[Cyclic Sort 循环排序]。想到了排序的思路，但是把“循环排序”的模式给忘记了，更没有把具体步骤没有理清楚。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

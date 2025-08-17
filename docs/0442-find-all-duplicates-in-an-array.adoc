@@ -1,28 +1,70 @@
 [#0442-find-all-duplicates-in-an-array]
-= 442. Find All Duplicates in an Array
+= 442. 数组中重复的数据
 
-{leetcode}/problems/find-all-duplicates-in-an-array/[LeetCode - Find All Duplicates in an Array^]
+https://leetcode.cn/problems/find-all-duplicates-in-an-array/[LeetCode - 442. 数组中重复的数据 ^]
 
-Given an array of integers, 1 ≤ a[i] ≤ _n_ (_n_ = size of array), some elements appear *twice* and others appear *once*.
+给你一个长度为 `n` 的整数数组 `nums` ，其中 `nums` 的所有整数都在范围 `[1, n]` 内，且每个整数出现 *一次* 或 *两次*。请你找出所有出现 *两次* 的整数，并以数组形式返回。
 
-Find all the elements that appear *twice* in this array.
+你必须设计并实现一个时间复杂度为 stem:[O(n)] 且仅使用常量额外空间（不包括存储输出所需的空间）的算法解决此问题。
 
-Could you do it without extra space and in O(_n_) runtime?
+*示例 1：*
 
-*Example:*<br/>
-[subs="verbatim,quotes,macros"]
-----
-*Input:*
-[4,3,2,7,8,2,3,1]
+....
+输入：nums = [4,3,2,7,8,2,3,1]
+输出：[2,3]
+....
 
-*Output:*
-[2,3]
-----
+*示例 2：*
 
+....
+输入：nums = [1,1,2]
+输出：[1]
+....
+
+*示例 3：*
+
+....
+输入：nums = [1]
+输出：[]
+....
+
+*提示：*
+
+* `n == nums.length`
+* `1 \<= n \<= 10^5^`
+* `+1 <= nums[i] <= n+`
+* `nums` 中的每个元素出现 *一次* 或 *两次*
+
+
+== 思路分析
+
+使用 xref:0000-12-cyclic-sort.adoc[Cyclic Sort 循环排序] 模式。想到了排序的思路，但是把“循环排序”的模式给忘记了，更没有把具体步骤理清楚。
 
 [[src-0442]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0442_FindAllDuplicatesInAnArray.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0442_FindAllDuplicatesInAnArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/find-all-duplicates-in-an-array/solutions/1473718/shu-zu-zhong-zhong-fu-de-shu-ju-by-leetc-782l/[442. 数组中重复的数据 - 官方题解^]
+. https://leetcode.cn/problems/find-all-duplicates-in-an-array/solutions/1476879/by-ac_oier-0m3c/[442. 数组中重复的数据 - 原地哈希运用题^]
+. https://leetcode.cn/problems/find-all-duplicates-in-an-array/solutions/21600/chou-ti-yuan-li-ji-yu-yi-huo-yun-suan-jiao-huan-li/[442. 数组中重复的数据 - 利用数组本身作为「哈希表」来标记出现过的数字^]
