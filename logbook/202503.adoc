@@ -1324,6 +1324,10 @@ endif::[]
 |{doc_base_url}/0406-queue-reconstruction-by-height.adoc[题解]
 |⭕️ 一般这种数对，还涉及排序的，根据第一个元素正向排序，根据第二个元素反向排序，或者根据第一个元素反向排序，根据第二个元素正向排序，往往能够简化解题过程。
 
+|{counter:codes2503}
+|{leetcode_base_url}/maximum-xor-of-two-numbers-in-an-array/[421. 数组中两个数的最大异或值^]
+|{doc_base_url}/0421-maximum-xor-of-two-numbers-in-an-array.adoc[题解]
+|❌ 前缀树或哈希！这道题可以换个思路来理解：选出两个数，小数正好可以“补齐”大数尽可能高位的 `0` 所在的比特位。这也能叫中等难度题目？
 
 |===
 
