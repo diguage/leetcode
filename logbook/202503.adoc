@@ -1359,6 +1359,10 @@ endif::[]
 |{doc_base_url}/0442-find-all-duplicates-in-an-array.adoc[题解]
 |⭕️ {doc_base_url}/0000-12-cyclic-sort.adoc[Cyclic Sort 循环排序]。想到了排序的思路，但是把“循环排序”的模式给忘记了，更没有把具体步骤没有理清楚。
 
+|{counter:codes2503}
+|{leetcode_base_url}/string-compression/[443. 压缩字符串^]
+|{doc_base_url}/0443-string-compression.adoc[题解]
+|✅ 双指针。一个指针 `fast` 指向当前处理的下标，一个指针 `curr` 指向当前循环的起始位置，最后一个指针 `slow` 指向可以存放压缩字符的位置。不断向前循环统计数量，向后压缩。
 
 |===
 

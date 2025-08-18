@@ -971,7 +971,7 @@ include::0441-arranging-coins.adoc[leveloffset=+1]
 
 include::0442-find-all-duplicates-in-an-array.adoc[leveloffset=+1]
 
-// include::0443-string-compression.adoc[leveloffset=+1]
+include::0443-string-compression.adoc[leveloffset=+1]
 
 // include::0444-sequence-reconstruction.adoc[leveloffset=+1]
 
