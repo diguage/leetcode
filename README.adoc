@@ -3141,13 +3141,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 // |Medium
 // |
 
-//|{counter:codes}
-//|{leetcode_base_url}/add-two-numbers-ii/[445. Add Two Numbers II^]
-//|{source_base_url}/_0445_AddTwoNumbersII.java[Java]
-//|{doc_base_url}/0445-add-two-numbers-ii.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/add-two-numbers-ii/[445. Add Two Numbers II^]
+|{source_base_url}/_0445_AddTwoNumbersII.java[Java]
+|{doc_base_url}/0445-add-two-numbers-ii.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/arithmetic-slices-ii-subsequence/[446. Arithmetic Slices II - Subsequence^]
 //|{source_base_url}/_0446_ArithmeticSlicesIISubsequence.java[Java]

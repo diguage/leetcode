@@ -1,31 +1,89 @@
 [#0445-add-two-numbers-ii]
-= 445. Add Two Numbers II
+= 445. 两数相加 II
 
-{leetcode}/problems/add-two-numbers-ii/[LeetCode - Add Two Numbers II^]
+https://leetcode.cn/problems/add-two-numbers-ii/[LeetCode - 445. 两数相加 II ^]
 
-You are given two *non-empty* linked lists representing two non-negative integers. The most significant digit comes first and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+给你两个 *非空* 链表来代表两个非负整数。数字最高位位于链表开始位置。它们的每个节点只存储一位数字。将这两数相加会返回一个新的链表。
 
-You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+你可以假设除了数字 0 之外，这两个数字都不会以零开头。
 
-*Follow up:*
+*示例1：*
+
+image::images/0445-01.png[{image_attr}]
+
+....
+输入：l1 = [7,2,4,3], l2 = [5,6,4]
+输出：[7,8,0,7]
+....
+
+*示例2：*
+
+....
+输入：l1 = [2,4,3], l2 = [5,6,4]
+输出：[8,0,7]
+....
+
+*示例3：*
+
+....
+输入：l1 = [0], l2 = [0]
+输出：[0]
+....
 
 
-What if you cannot modify the input lists? In other words, reversing the lists is not allowed.
+*提示：*
+
+* 链表的长度范围为 `[1, 100]`
+* `+0 <= node.val <= 9+`
+* 输入数据保证链表代表的数字无前导 0
 
 
-
-*Example:*
-[subs="verbatim,quotes,macros"]
-----
-*Input:* (7 -> 2 -> 4 -> 3) + (5 -> 6 -> 4)
-*Output:* 7 -> 8 -> 0 -> 7
-----
+**进阶：**如果输入链表不能翻转该如何解决？
 
 
+== 思路分析
+
+最简单的办法是将链表翻转，求和再翻转回去。
+
+将链表分为两种情况：
+
+. 链表长度相等，则直接递归求和即可。
+. 链表长度不等，则将链表以短链表的长度为准分割成收尾两部分
+.. 尾部直接相加
+.. 将尾部“嫁接”到首部
+
+思路变化了三次：
+
+. 最初的思路是使用 xref:0160-intersection-of-two-linked-lists.adoc[160. Intersection of Two Linked Lists] 的思路，将链表长短拼接，这样两个链表就相等，相加后，再减去前面多余的节点。
+. 后来的思路是“不全相加”，按照长链表的长度相加。
+. 最后才想到将长链表分割的解法。
 
 [[src-0445]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0445_AddTwoNumbersII.java[tag=answer]
+include::{sourcedir}/_0445_AddTwoNumbersIi.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0445_AddTwoNumbersIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/add-two-numbers-ii/solutions/2328330/fan-zhuan-lian-biao-liang-shu-xiang-jia-okw6q/[445. 两数相加 II - 反转链表+两数相加=秒杀！^]
+. https://leetcode.cn/problems/add-two-numbers-ii/solutions/201378/javakai-fa-by-sweetiee/[445. 两数相加 II - 简单Java^] -- 借助栈来也是一个不错的解法。
+. https://leetcode.cn/problems/add-two-numbers-ii/solutions/200585/liang-shu-xiang-jia-ii-by-leetcode-solution/[445. 两数相加 II - 官方题解^]
+. https://leetcode.cn/problems/add-two-numbers-ii/solutions/201416/c-bu-yong-di-gui-bu-yong-zhan-yuan-di-ji-suan-by-a/[445. 两数相加 II - 不用递归不用栈不翻转链表，原地计算^] -- 思路跟我类似，不过，他把短链表前面加了一些前导 `0`，这样一次递归相加即可。

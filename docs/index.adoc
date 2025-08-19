@@ -975,7 +975,7 @@ include::0443-string-compression.adoc[leveloffset=+1]
 
 // include::0444-sequence-reconstruction.adoc[leveloffset=+1]
 
-// include::0445-add-two-numbers-ii.adoc[leveloffset=+1]
+include::0445-add-two-numbers-ii.adoc[leveloffset=+1]
 
 // include::0446-arithmetic-slices-ii-subsequence.adoc[leveloffset=+1]
 
