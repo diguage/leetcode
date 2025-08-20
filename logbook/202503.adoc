@@ -1369,6 +1369,10 @@ endif::[]
 |{doc_base_url}/0445-add-two-numbers-ii.adoc[题解]
 |✅ 将链表以短链表的长度为准分割成收尾两部分，尾部相加，再“嫁接”到截取下来的首部。
 
+|{counter:codes2503}
+|{leetcode_base_url}/number-of-boomerangs/[447. 回旋镖的数量^]
+|{doc_base_url}/0447-number-of-boomerangs.adoc[题解]
+|⭕️ 暴力破解。通过 25/32 个测试用例。
 
 |===
 
