@@ -2,11 +2,13 @@ package com.diguage.algo.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 public class _0447_NumberOfBoomerangs {
   // tag::answer[]
+
   /**
+   * 优化后：利用排列组合原理，统计相同距离的点数，则组成的回旋镖数量为： c * (c -1)。
+   * <p>
    * 优化前： 通过 25/32 个测试用例。
    *
    * @author D瓜哥 · https://www.diguage.com
@@ -14,37 +16,24 @@ public class _0447_NumberOfBoomerangs {
    */
   public int numberOfBoomerangs(int[][] points) {
     int result = 0;
-    Map<String, Integer> distances = new HashMap<>();
-    int length = points.length;
-    for (int i = 0; i < length; i++) {
-      for (int j = 0; j < length; j++) {
-        if (i == j) {
+    for (int[] pi : points) {
+      Map<Integer, Integer> map = new HashMap<>();
+      for (int[] pj : points) {
+        if (pi == pj) {
           continue;
         }
-        Integer distance = calcDistance(points, distances, i, j);
-        for (int k = 0; k < length; k++) {
-          if (k == i || k == j) {
-            continue;
-          }
-          Integer distance2 = calcDistance(points, distances, i, k);
-          if (Objects.equals(distance, distance2)) {
-            result++;
-          }
-        }
+        int x = pi[0] - pj[0];
+        int y = pi[1] - pj[1];
+        int distance = x * x + y * y;
+        map.put(distance, map.getOrDefault(distance, 0) + 1);
+      }
+      for (Integer value : map.values()) {
+        result += value * (value - 1);
       }
     }
     return result;
   }
 
-  private Integer calcDistance(int[][] points, Map<String, Integer> distances, int i, int j) {
-    String k1 = buildKey(points, i, j);
-    return distances.computeIfAbsent(k1, k -> (points[i][0] - points[j][0]) * (points[i][0] - points[j][0])
-      + (points[i][1] - points[j][1]) * (points[i][1] - points[j][1]));
-  }
-
-  private String buildKey(int[][] points, int i, int j) {
-    return points[i][0] + ":" + points[i][1] + "/" + points[j][0] + ":" + points[j][1];
-  }
   // end::answer[]
   public static void main(String[] args) {
     new _0447_NumberOfBoomerangs()

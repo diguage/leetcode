@@ -1372,7 +1372,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/number-of-boomerangs/[447. 回旋镖的数量^]
 |{doc_base_url}/0447-number-of-boomerangs.adoc[题解]
-|⭕️ 暴力破解。通过 25/32 个测试用例。
+|⭕️ 暴力破解。通过 25/32 个测试用例。利用排列组合原理也优化，统计相同距离的点数，组成的回旋镖需要两个点，则数量为：stem:[A_{n}^{2}=\frac{n!}{(n-2)!} = n(n-1)]。
 
 |===
 

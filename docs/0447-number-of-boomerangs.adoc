@@ -42,6 +42,9 @@ https://leetcode.cn/problems/number-of-boomerangs/[LeetCode - 447. 回旋镖的�
 
 == 思路分析
 
+暴力破解，时间复杂度为： stem:[O(n^3)]。 通过 25/32 个测试用例。
+
+利用排列组合原理，stem:[A_{n}^{k}=\frac{n!}{( n-k)!}]。统计相同距离的点数，组成的回旋镖需要两个点，则数量为：stem:[A_{n}^{2}=\frac{n!}{(n-2)!} = n(n-1)]。可以将时间复杂度降低为： stem:[O(n^2)]。
 
 [[src-0447]]
 [tabs]
@@ -68,4 +71,5 @@ include::{sourcedir}/_0447_NumberOfBoomerangs.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/number-of-boomerangs/solutions/994189/hui-xuan-biao-de-shu-liang-by-leetcode-s-lft5/[447. 回旋镖的数量 - 官方题解^]
+. https://leetcode.cn/problems/number-of-boomerangs/solutions/2595488/jian-ji-xie-fa-fu-xiang-si-ti-mu-pythonj-39p8/[447. 回旋镖的数量 - 简洁写法，附相似题目^] -- 这个解法也非常不错！
