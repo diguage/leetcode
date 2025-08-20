@@ -29,7 +29,6 @@ image::images/0052-00.jpg[{image_attr}]
 * `+1 <= n <= 9+`
 
 
-[#思路分析]
 == 思路分析
 
 解题分析参考 xref:0051-n-queens.adoc[N-Queens]。
