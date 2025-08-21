@@ -987,7 +987,7 @@ include::0448-find-all-numbers-disappeared-in-an-array.adoc[leveloffset=+1]
 
 include::0450-delete-node-in-a-bst.adoc[leveloffset=+1]
 
-// include::0451-sort-characters-by-frequency.adoc[leveloffset=+1]
+include::0451-sort-characters-by-frequency.adoc[leveloffset=+1]
 
 include::0452-minimum-number-of-arrows-to-burst-balloons.adoc[leveloffset=+1]
 

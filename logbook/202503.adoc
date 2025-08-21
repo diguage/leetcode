@@ -1374,6 +1374,11 @@ endif::[]
 |{doc_base_url}/0447-number-of-boomerangs.adoc[题解]
 |⭕️ 暴力破解。通过 25/32 个测试用例。利用排列组合原理也优化，统计相同距离的点数，组成的回旋镖需要两个点，则数量为：stem:[A_{n}^{2}=\frac{n!}{(n-2)!} = n(n-1)]。
 
+|{counter:codes2503}
+|{leetcode_base_url}/sort-characters-by-frequency/[451. 根据字符出现频率排序^]
+|{doc_base_url}/0451-sort-characters-by-frequency.adoc[题解]
+|✅ 先统计再排序。注意：如果两个字符的数量相等时，还需要根据自身的自然顺序排序，否则就会被 `SequencedMap` 吞掉一个。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
