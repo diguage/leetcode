@@ -1379,6 +1379,12 @@ endif::[]
 |{doc_base_url}/0451-sort-characters-by-frequency.adoc[题解]
 |✅ 先统计再排序。注意：如果两个字符的数量相等时，还需要根据自身的自然顺序排序，否则就会被 `SequencedMap` 吞掉一个。
 
+|{counter:codes2503}
+|{leetcode_base_url}/assign-cookies/[455. 分发饼干^]
+|{doc_base_url}/0455-assign-cookies.adoc[题解]
+|✅ 排序+双指+可选的贪心。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

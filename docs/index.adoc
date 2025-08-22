@@ -995,7 +995,7 @@ include::0453-minimum-moves-to-equal-array-elements.adoc[leveloffset=+1]
 
 include::0454-4sum-ii.adoc[leveloffset=+1]
 
-// include::0455-assign-cookies.adoc[leveloffset=+1]
+include::0455-assign-cookies.adoc[leveloffset=+1]
 
 // include::0456-132-pattern.adoc[leveloffset=+1]
 

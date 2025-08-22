@@ -3211,13 +3211,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/assign-cookies/[455. Assign Cookies^]
-//|{source_base_url}/_0455_AssignCookies.java[Java]
-//|{doc_base_url}/0455-assign-cookies.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/assign-cookies/[455. Assign Cookies^]
+|{source_base_url}/_0455_AssignCookies.java[Java]
+|{doc_base_url}/0455-assign-cookies.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/132-pattern/[456. 132 Pattern^]
 //|{source_base_url}/_0456_132Pattern.java[Java]

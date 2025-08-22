@@ -41,6 +41,9 @@ public class _0454_4SumII {
      * Memory Usage: 58.6 MB, less than 64.00% of Java online submissions for 4Sum II.
      *
      * https://leetcode.com/problems/4sum-ii/discuss/93920/Clean-java-solution-O(n2)[Clean java solution O(n^2) - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-11 13:02
      */
     public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         Map<Integer, Integer> numToCountMap = new HashMap<>();
