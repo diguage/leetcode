@@ -999,7 +999,7 @@ include::0455-assign-cookies.adoc[leveloffset=+1]
 
 // include::0456-132-pattern.adoc[leveloffset=+1]
 
-// include::0457-circular-array-loop.adoc[leveloffset=+1]
+include::0457-circular-array-loop.adoc[leveloffset=+1]
 
 // include::0458-poor-pigs.adoc[leveloffset=+1]
 
