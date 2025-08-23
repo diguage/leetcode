@@ -29,6 +29,10 @@ image::images/0457-01.png[{image_attr}]
 我们可以看到存在循环，按下标 0 -> 2 -> 3 -> 0 --> ...，并且其中的所有节点都是白色（以相同方向跳跃）。
 ....
 
+image::images/0457-10.png[{image_attr}]
+
+TIP: 这个图更容易理解！
+
 *示例 2：*
 
 image::images/0457-02.png[{image_attr}]
@@ -63,7 +67,17 @@ image::images/0457-03.png[{image_attr}]
 
 == 思路分析
 
-使用回溯，对每一个坐标元素做深度优先遍历，发现环形数组则返回，否则继续向后遍历。
+使用回溯，对每一个坐标元素做深度优先遍历，发现环形数组则返回，否则继续向后遍历。时间复杂度是： stem:[O(n^2)]。
+
+进一步思考，遍历过的节点都不会是环形数组（是环形数组已经返回结果了），所以，可以把遍历过的节点留痕，那么遇到遍历过的节点，就可以直接返回 true 了。这样时间复杂度就成： stem:[O(n)]。
+
+另外，可以把遍历过的节点设置为 `0`，由于环形数组不能为 `0`，则遇到就可以直接“判断为 false”。
+
+代码写的有些复杂了！
+
+快慢指针也是一个非常好的思路：
+
+image::images/0457-11.gif[{image_attr}]
 
 [[src-0457]]
 [tabs]
@@ -90,4 +104,6 @@ include::{sourcedir}/_0457_CircularArrayLoop.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/circular-array-loop/solutions/920412/gong-shui-san-xie-yi-ti-shuang-jie-mo-ni-ag05/[457. 环形数组是否存在循环 - 一题三解 :「朴素模拟」&「遍历标记（含优化）」^]
+. https://leetcode.cn/problems/circular-array-loop/solutions/920039/huan-xing-shu-zu-shi-fou-cun-zai-xun-hua-0ay2/[457. 环形数组是否存在循环 - 官方题解^] -- 快慢指针这个思路也很不错！
+. https://leetcode.cn/problems/circular-array-loop/solutions/920480/fu-xue-ming-zhu-dong-hua-ti-jie-kuai-man-ju4g/[457. 环形数组是否存在循环 - 动画题解：快慢指针^]
