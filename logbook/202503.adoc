@@ -1389,10 +1389,16 @@ endif::[]
 |{doc_base_url}/0457-circular-array-loop.adoc[题解]
 |✅ 使用回溯，对每一个元素做深度优先遍历。遇到环形数组则返回，否则继续向前遍历，直到结束。优化：遍历过的节点肯定不是环形数组，遇到遍历过的节点，直接“返回 false”，这样，所有节点只需要出来一次，时间复杂度 stem:[O(n)]。
 
-|{counter:codes}
+|{counter:codes2503}
 |{leetcode_base_url}/132-pattern/[456. 132 模式^]
 |{doc_base_url}/0456-132-pattern.adoc[题解]
 |❌ 单调栈！完全没想到单调栈的解法！从右向左遍历，使用一个单调递减栈，来维护 `32` 的关系：弹出的就是 `2`，栈中的就是 `3`，当前元素小于 `k` 时，就找到了 `132` 模式。
+
+|{counter:codes2503}
+|{leetcode_base_url}/repeated-substring-pattern/[459. 重复的子字符串^]
+|{doc_base_url}/0459-repeated-substring-pattern.adoc[题解]
+|✅ 对字符串进行以 `length/i` 为长度的分割，分配来判断是否可以由子串重复得来。
+
 
 |===
 

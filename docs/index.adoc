@@ -1003,7 +1003,7 @@ include::0457-circular-array-loop.adoc[leveloffset=+1]
 
 // include::0458-poor-pigs.adoc[leveloffset=+1]
 
-// include::0459-repeated-substring-pattern.adoc[leveloffset=+1]
+include::0459-repeated-substring-pattern.adoc[leveloffset=+1]
 
 // include::0460-lfu-cache.adoc[leveloffset=+1]
 
