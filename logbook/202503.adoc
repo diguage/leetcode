@@ -1399,6 +1399,11 @@ endif::[]
 |{doc_base_url}/0459-repeated-substring-pattern.adoc[题解]
 |✅ 对字符串进行以 `length/i` 为长度的分割，分配来判断是否可以由子串重复得来。
 
+|{counter:codes2503}
+|{leetcode_base_url}/lfu-cache/[460. LFU Cache^]
+|{doc_base_url}/0460-lfu-cache.adoc[题解]
+|❌ 太难了！
+
 
 |===
 
