@@ -1007,7 +1007,7 @@ include::0459-repeated-substring-pattern.adoc[leveloffset=+1]
 
 include::0460-lfu-cache.adoc[leveloffset=+1]
 
-// include::0461-hamming-distance.adoc[leveloffset=+1]
+include::0461-hamming-distance.adoc[leveloffset=+1]
 
 include::0462-minimum-moves-to-equal-array-elements-ii.adoc[leveloffset=+1]
 

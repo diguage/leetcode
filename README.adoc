@@ -3253,12 +3253,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Hard
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/hamming-distance/[461. Hamming Distance^]
-//|{source_base_url}/_0461_HammingDistance.java[Java]
-//|{doc_base_url}/0461-hamming-distance.adoc[题解]
-//|Easy
-//|
+|{counter:codes}
+|{leetcode_base_url}/hamming-distance/[461. Hamming Distance^]
+|{source_base_url}/_0461_HammingDistance.java[Java]
+|{doc_base_url}/0461-hamming-distance.adoc[题解]
+|Easy
+|
 
 |{counter:codes}
 |{leetcode_base_url}/minimum-moves-to-equal-array-elements-ii/[462. Minimum Moves to Equal Array Elements II^]
