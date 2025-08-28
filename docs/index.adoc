@@ -1011,7 +1011,7 @@ include::0461-hamming-distance.adoc[leveloffset=+1]
 
 include::0462-minimum-moves-to-equal-array-elements-ii.adoc[leveloffset=+1]
 
-// include::0463-island-perimeter.adoc[leveloffset=+1]
+include::0463-island-perimeter.adoc[leveloffset=+1]
 
 // include::0464-can-i-win.adoc[leveloffset=+1]
 

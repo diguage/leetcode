@@ -3267,13 +3267,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |快速选择
 
-//|{counter:codes}
-//|{leetcode_base_url}/island-perimeter/[463. Island Perimeter^]
-//|{source_base_url}/_0463_IslandPerimeter.java[Java]
-//|{doc_base_url}/0463-island-perimeter.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/island-perimeter/[463. Island Perimeter^]
+|{source_base_url}/_0463_IslandPerimeter.java[Java]
+|{doc_base_url}/0463-island-perimeter.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/can-i-win/[464. Can I Win^]
 //|{source_base_url}/_0464_CanIWin.java[Java]

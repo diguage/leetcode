@@ -1409,6 +1409,12 @@ endif::[]
 |{doc_base_url}/0461-hamming-distance.adoc[题解]
 |✅ 数学。求一个数的二进制中 `1` 的个数，最快的算法是 Brian Kernighan 算法，stem:[f(x)=x & (x−1)]，可以跳过两个 `1` 之间的 `0`。
 
+|{counter:codes2503}
+|{leetcode_base_url}/island-perimeter/[463. 岛屿的周长^]
+|{doc_base_url}/0463-island-perimeter.adoc[题解]
+|✅ 深度优先或者广度优先。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
