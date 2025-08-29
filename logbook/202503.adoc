@@ -1414,6 +1414,12 @@ endif::[]
 |{doc_base_url}/0463-island-perimeter.adoc[题解]
 |✅ 深度优先或者广度优先。
 
+|{counter:codes2503}
+|{leetcode_base_url}/validate-ip-address/[468. 验证IP地址^]
+|{doc_base_url}/0468-validate-ip-address.adoc[题解]
+|✅ 字符串操作，规则判断，没意思。
+
+
 
 |===
 

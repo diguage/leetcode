@@ -1,82 +1,80 @@
 [#0468-validate-ip-address]
-= 468. Validate IP Address
+= 468. 验证IP地址
 
-{leetcode}/problems/validate-ip-address/[LeetCode - Validate IP Address^]
+https://leetcode.cn/problems/validate-ip-address/[LeetCode - 468. 验证IP地址 ^]
 
+给定一个字符串 `queryIP`。如果是有效的 IPv4 地址，返回 `IPv4`；如果是有效的 IPv6 地址，返回 `IPv6` ；如果不是上述类型的 IP 地址，返回 `Neither` 。
 
-Write a function to check whether an input string is a valid IPv4 address or IPv6 address or neither.
+*有效的IPv4地址* 是 `x1.x2.x3.x4` 形式的IP地址。其中 `0 \<= x~i~ \<= 255` 且 `x~i~` *不能包含* 前导零。例如: `192.168.1.1` 、 `192.168.1.0` 为有效IPv4地址，`192.168.01.1` 为无效IPv4地址; `192.168.1.00` 、`192.168@1.1` 为无效IPv4地址。
 
+**一个有效的IPv6地址** 是一个格式为 `x1:x2:x3:x4:x5:x6:x7:x8` 的IP地址，其中:
 
+* `1 \<= x~i~.length \<= 4`
+* `x~i~ 是一个 *十六进制字符串* ，可以包含数字、小写英文字母(`a` 到 `f` )和大写英文字母( `A` 到 `F` )。
+* 在 `x~i~` 中允许前导零。
 
-*IPv4* addresses are canonically represented in dot-decimal notation, which consists of four decimal numbers, each ranging from 0 to 255, separated by dots ("."), e.g.,`172.16.254.1`;
-
-
-
-Besides, leading zeros in the IPv4 is invalid. For example, the address `172.16.254.01` is invalid.
-
-
-
-*IPv6* addresses are represented as eight groups of four hexadecimal digits, each group representing 16 bits. The groups are separated by colons (":"). For example, the address `2001:0db8:85a3:0000:0000:8a2e:0370:7334` is a valid one. Also, we could omit some leading zeros among four hexadecimal digits and some low-case characters in the address to upper-case ones, so `2001:db8:85a3:0:0:8A2E:0370:7334` is also a valid IPv6 address(Omit leading zeros and using upper cases).
+例如 `2001:0db8:85a3:0000:0000:8a2e:0370:7334` 和 `2001:db8:85a3:0:0:8A2E:0370:7334` 是有效的 IPv6 地址，而 `2001:0db8:85a3::8A2E:037j:7334` 和 `02001:0db8:85a3:0000:0000:8a2e:0370:7334` 是无效的 IPv6 地址。
 
 
+*示例 1：*
+
+....
+输入：queryIP = "172.16.254.1"
+输出："IPv4"
+解释：有效的 IPv4 地址，返回 "IPv4"
+....
+
+*示例 2：*
+
+....
+输入：queryIP = "2001:0db8:85a3:0:0:8A2E:0370:7334"
+输出："IPv6"
+解释：有效的 IPv6 地址，返回 "IPv6"
+....
+
+*示例 3：*
+
+....
+输入：queryIP = "256.256.256.256"
+输出："Neither"
+解释：既不是 IPv4 地址，又不是 IPv6 地址
+....
 
 
-However, we don't replace a consecutive group of zero value with a single empty group using two consecutive colons (::) to pursue simplicity. For example, `2001:0db8:85a3::8A2E:0370:7334` is an invalid IPv6 address.
+*提示：*
+
+* `queryIP` 仅由英文字母，数字，字符 `.` 和 `:` 组成。
 
 
+== 思路分析
 
-Besides, extra leading zeros in the IPv6 is also invalid. For example, the address `02001:0db8:85a3:0000:0000:8a2e:0370:7334` is invalid.
-
-
-
-*Note:*
-You may assume there is no extra space or special characters in the input string.
-
-
-*Example 1:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "172.16.254.1"
-
-*Output:* "IPv4"
-
-*Explanation:* This is a valid IPv4 address, return "IPv4".
-----
-
-
-
-*Example 2:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "2001:0db8:85a3:0:0:8A2E:0370:7334"
-
-*Output:* "IPv6"
-
-*Explanation:* This is a valid IPv6 address, return "IPv6".
-----
-
-
-*Example 3:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "256.256.256.256"
-
-*Output:* "Neither"
-
-*Explanation:* This is neither a IPv4 address nor a IPv6 address.
-----
-
-
+字符串操作，规则判断，没意思！
 
 [[src-0468]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0468_ValidateIPAddress.java[tag=answer]
+include::{sourcedir}/_0468_ValidateIpAddress.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0468_ValidateIpAddress_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/validate-ip-address/solutions/1523921/by-ac_oier-s217/[468. 验证IP地址 - 简单字符串模拟题^]
+. https://leetcode.cn/problems/validate-ip-address/solutions/1521467/yan-zheng-ipdi-zhi-by-leetcode-solution-kge5/[468. 验证IP地址 - 官方题解^]
+. https://leetcode.cn/problems/validate-ip-address/solutions/947700/mian-shi-guan-xiang-kan-dao-shi-yao-qie-d23jw/[468. 验证IP地址 - 面试官想看到什么？切勿面向测试用例东补西补^]

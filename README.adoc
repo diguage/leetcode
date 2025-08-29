@@ -3301,14 +3301,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0467-unique-substrings-in-wraparound-string.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/validate-ip-address/[468. Validate IP Address^]
-//|{source_base_url}/_0468_ValidateIPAddress.java[Java]
-//|{doc_base_url}/0468-validate-ip-address.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/validate-ip-address/[468. Validate IP Address^]
+|{source_base_url}/_0468_ValidateIPAddress.java[Java]
+|{doc_base_url}/0468-validate-ip-address.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/convex-polygon/[469. Convex Polygon^]
 //|{source_base_url}/_0469_ConvexPolygon.java[Java]
