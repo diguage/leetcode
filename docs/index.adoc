@@ -1025,7 +1025,7 @@ include::0468-validate-ip-address.adoc[leveloffset=+1]
 
 // include::0469-convex-polygon.adoc[leveloffset=+1]
 
-// include::0470-implement-rand10-using-rand7.adoc[leveloffset=+1]
+include::0470-implement-rand10-using-rand7.adoc[leveloffset=+1]
 
 // include::0471-encode-string-with-shortest-length.adoc[leveloffset=+1]
 

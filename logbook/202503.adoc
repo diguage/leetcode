@@ -1419,6 +1419,11 @@ endif::[]
 |{doc_base_url}/0468-validate-ip-address.adoc[题解]
 |✅ 字符串操作，规则判断，没意思。
 
+|{counter:codes2503}
+|{leetcode_base_url}/implement-rand10-using-rand7/[470. 用 Rand7() 实现 Rand10()^]
+|{doc_base_url}/0470-implement-rand10-using-rand7.adoc[题解]
+|✅ 数学。蒙对了。调用 10 次，生成 `[10, 70]` 的随机数，在除 `10` 求余数即可。
+
 
 
 |===

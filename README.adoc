@@ -3315,14 +3315,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0469-convex-polygon.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/implement-rand10-using-rand7/[470. Implement Rand10() Using Rand7()^]
-//|{source_base_url}/_0470_ImplementRand10UsingRand7.java[Java]
-//|{doc_base_url}/0470-implement-rand10-using-rand7.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/implement-rand10-using-rand7/[470. Implement Rand10() Using Rand7()^]
+|{source_base_url}/_0470_ImplementRand10UsingRand7.java[Java]
+|{doc_base_url}/0470-implement-rand10-using-rand7.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/encode-string-with-shortest-length/[471. Encode String with Shortest Length^]
 //|{source_base_url}/_0471_EncodeStringWithShortestLength.java[Java]
