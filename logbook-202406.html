@@ -1,0 +1,2224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.23">
+<meta name="author" content="D瓜哥">
+<meta property="og:title" content="logbook-202406">
+<title>LeetCode: 2024年06月 刷题日志</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="assets/styles/asciidoctor.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+<style>.cmt-link {text-decoration: none;color: #6e7781 !important;}a {text-decoration: none;}p>code, strong>code,div.admonitionblock tr>td.content>code {color: #d14 !important;background-color: #f5f5f5 !important;border: 1px solid #e1e1e8;}</style>
+<link rel="stylesheet" href="assets/styles/asciidoctor-tabs.css">
+<style>.toc-current{color:#d14;font-size:130%;font-weight: bold;} .toc-root{font-family: "Open Sans","DejaVu Sans",sans-serif;
+                       font-size: 0.9em;} #content{display: flex; flex-direction: column; flex: 1 1 auto;}
+             .nav-footer{text-align: center; margin-top: auto;}
+             .nav-footer > p > a {white-space: nowrap;}</style>
+</head>
+<body id="logbook-202406" class="book toc2 toc-left">
+<div id="header">
+<h1>LeetCode: 2024年06月 刷题日志</h1>
+<div class="details">
+<span id="author" class="author">D瓜哥</span><br>
+<span id="email" class="email"><a href="https://www.diguage.com/" class="bare">https://www.diguage.com/</a></span><br>
+<span id="revdate">2025-08-30</span>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">目录</div>
+<p><span class="toc-root"><a href="index.html">LeetCode 解题笔记</a></span></p><ul class="sectlevel1">
+<li><a href="overview.html">总览</a>
+</li>
+<li><a href="0000-data-structure-list.html">List 链表</a>
+</li>
+<li><a href="0000-data-structure-stack.html">Stack 栈</a>
+</li>
+<li><a href="0000-data-structure-queue.html">Queue 队列</a>
+</li>
+<li><a href="0000-data-structure-map.html">Map 映射</a>
+</li>
+<li><a href="0000-data-structure-tree.html">Tree 树</a>
+</li>
+<li><a href="0000-data-structure-heap.html">Heap 堆</a>
+</li>
+<li><a href="0000-data-structure-graph.html">Graph 图</a>
+</li>
+<li><a href="0000-sort.html">排序</a>
+</li>
+<li><a href="0000-00-recursion.html">Recursion 递归</a>
+</li>
+<li><a href="0000-01-modified-binary-search.html">Modified Binary Search 改进的二分搜索</a>
+</li>
+<li><a href="0000-02-difference-array.html">Difference Array 差分数组</a>
+</li>
+<li><a href="0000-03-prefix-sum.html">Prefix Sum 前缀和</a>
+</li>
+<li><a href="0000-04-merge-intervals.html">Merge Intervals 区间合并</a>
+</li>
+<li><a href="0000-05-reversed-list.html">In-place Reversal of a LinkedList 原地链表翻转</a>
+</li>
+<li><a href="0000-06-two-pointer.html">Two Pointer 双指针</a>
+</li>
+<li><a href="0000-07-fast-slow-pointers.html">Fast &amp; Slow Pointers 快慢指针</a>
+</li>
+<li><a href="0000-08-quickselect.html">QuickSelect 快速选择</a>
+</li>
+<li><a href="0000-09-sliding-window.html">Sliding Window 滑动窗口</a>
+</li>
+<li><a href="0000-10-monotonic-stack.html">Monotonic Stack 单调栈</a>
+</li>
+<li><a href="0000-11-top-k-elements.html">Top <code>K</code> Elements Top K 元素</a>
+</li>
+<li><a href="0000-12-cyclic-sort.html">Cyclic Sort 循环排序</a>
+</li>
+<li><a href="0000-13-two-heaps.html">Two Heaps 双堆</a>
+</li>
+<li><a href="0000-14-k-way-merge.html">K-way merge 多路归并</a>
+</li>
+<li><a href="0000-15-breadth-first-search.html">Breadth First Search 广度优先搜索</a>
+</li>
+<li><a href="0000-16-depth-first-search.html">Depth First Search 深度优先搜索</a>
+</li>
+<li><a href="0000-17-trie.html">Trie 前缀树</a>
+</li>
+<li><a href="0000-18-union-find-set.html">Union Find Set 并查集</a>
+</li>
+<li><a href="0000-19-topological-sort.html">Topological Sort (Graph) 拓扑排序</a>
+</li>
+<li><a href="0000-20-brute-force.html">Brute Force 暴力破解</a>
+</li>
+<li><a href="0000-21-decrease-and-conquer.html">Decrease and Conquer 减治法</a>
+</li>
+<li><a href="0000-22-divide-and-conquer.html">Divide and Conquer 分治法</a>
+</li>
+<li><a href="0000-23-transform-and-conquer.html">Transform and Conquer 变治法</a>
+</li>
+<li><a href="0000-24-backtrack.html">Backtracking 回溯</a>
+</li>
+<li><a href="0000-25-subsets.html">Subsets 子集</a>
+</li>
+<li><a href="0000-26-dynamic-programming.html">Dynamic Programming 动态规划</a>
+</li>
+<li><a href="0000-27-greedy.html">Greedy Algorithms 贪心算法</a>
+</li>
+<li><a href="0000-28-bit-manipulation.html">Bit Manipulation 位运算</a>
+</li>
+<li><a href="0001-two-sum.html">1. 两数之和</a>
+</li>
+<li><a href="0002-add-two-numbers.html">2. Add Two Numbers</a>
+</li>
+<li><a href="0003-longest-substring-without-repeating-characters.html">3. 无重复字符的最长子串</a>
+</li>
+<li><a href="0004-median-of-two-sorted-arrays.html">4. Median of Two Sorted Arrays</a>
+</li>
+<li><a href="0005-longest-palindromic-substring.html">5. 最长回文子串</a>
+</li>
+<li><a href="0006-zigzag-conversion.html">6. ZigZag Conversion</a>
+</li>
+<li><a href="0007-reverse-integer.html">7. Reverse Integer</a>
+</li>
+<li><a href="0008-string-to-integer-atoi.html">8. String to Integer (atoi)</a>
+</li>
+<li><a href="0009-palindrome-number.html">9. Palindrome Number</a>
+</li>
+<li><a href="0010-regular-expression-matching.html">10. Regular Expression Matching</a>
+</li>
+<li><a href="0011-container-with-most-water.html">11. 盛最多水的容器</a>
+</li>
+<li><a href="0012-integer-to-roman.html">12. Integer to Roman</a>
+</li>
+<li><a href="0013-roman-to-integer.html">13. Roman to Integer</a>
+</li>
+<li><a href="0014-longest-common-prefix.html">14. 最长公共前缀</a>
+</li>
+<li><a href="0015-3sum.html">15. 三数之和</a>
+</li>
+<li><a href="0016-3sum-closest.html">16. 3Sum Closest</a>
+</li>
+<li><a href="0017-letter-combinations-of-a-phone-number.html">17. Letter Combinations of a Phone Number</a>
+</li>
+<li><a href="0018-4sum.html">18. 4Sum</a>
+</li>
+<li><a href="0019-remove-nth-node-from-end-of-list.html">19. 删除链表的倒数第 N 个结点</a>
+</li>
+<li><a href="0020-valid-parentheses.html">20. Valid Parentheses</a>
+</li>
+<li><a href="0021-merge-two-sorted-lists.html">21. 合并两个有序链表</a>
+</li>
+<li><a href="0022-generate-parentheses.html">22. 括号生成</a>
+</li>
+<li><a href="0023-merge-k-sorted-lists.html">23. 合并 K 个升序链表</a>
+</li>
+<li><a href="0024-swap-nodes-in-pairs.html">24. 两两交换链表中的节点</a>
+</li>
+<li><a href="0025-reverse-nodes-in-k-group.html">25. K 个一组翻转链表</a>
+</li>
+<li><a href="0026-remove-duplicates-from-sorted-array.html">26. 删除有序数组中的重复项</a>
+</li>
+<li><a href="0027-remove-element.html">27. 移除元素</a>
+</li>
+<li><a href="0028-find-the-index-of-the-first-occurrence-in-a-string.html">28. 找出字符串中第一个匹配项的下标</a>
+</li>
+<li><a href="0029-divide-two-integers.html">29. Divide Two Integers</a>
+</li>
+<li><a href="0030-substring-with-concatenation-of-all-words.html">30. 串联所有单词的子串</a>
+</li>
+<li><a href="0031-next-permutation.html">31. 下一个排列</a>
+</li>
+<li><a href="0032-longest-valid-parentheses.html">32. 最长有效括号</a>
+</li>
+<li><a href="0033-search-in-rotated-sorted-array.html">33. 搜索旋转排序数组</a>
+</li>
+<li><a href="0034-find-first-and-last-position-of-element-in-sorted-array.html">34. 在排序数组中查找元素的第一个和最后一个位置</a>
+</li>
+<li><a href="0035-search-insert-position.html">35. Search Insert Position</a>
+</li>
+<li><a href="0036-valid-sudoku.html">36. 有效的数独</a>
+</li>
+<li><a href="0037-sudoku-solver.html">37. 解数独</a>
+</li>
+<li><a href="0038-count-and-say.html">38. Count and Say</a>
+</li>
+<li><a href="0039-combination-sum.html">39. 组合总和</a>
+</li>
+<li><a href="0040-combination-sum-ii.html">40. 组合总和 II</a>
+</li>
+<li><a href="0041-first-missing-positive.html">41. 缺失的第一个正数</a>
+</li>
+<li><a href="0042-trapping-rain-water.html">42. 接雨水</a>
+</li>
+<li><a href="0043-multiply-strings.html">43. Multiply Strings</a>
+</li>
+<li><a href="0044-wildcard-matching.html">44. 通配符匹配</a>
+</li>
+<li><a href="0045-jump-game-ii.html">45. 跳跃游戏 II</a>
+</li>
+<li><a href="0046-permutations.html">46. 全排列</a>
+</li>
+<li><a href="0047-permutations-ii.html">47. Permutations II</a>
+</li>
+<li><a href="0048-rotate-image.html">48. 旋转图像</a>
+</li>
+<li><a href="0049-group-anagrams.html">49. 字母异位词分组</a>
+</li>
+<li><a href="0050-powx-n.html">50. Pow(x, n)</a>
+</li>
+<li><a href="0051-n-queens.html">51. N-Queens</a>
+</li>
+<li><a href="0052-n-queens-ii.html">52. N 皇后 II</a>
+</li>
+<li><a href="0053-maximum-subarray.html">53. 最大子数组和</a>
+</li>
+<li><a href="0054-spiral-matrix.html">54. 螺旋矩阵</a>
+</li>
+<li><a href="0055-jump-game.html">55. 跳跃游戏</a>
+</li>
+<li><a href="0056-merge-intervals.html">56. 合并区间</a>
+</li>
+<li><a href="0057-insert-interval.html">57. Insert Interval</a>
+</li>
+<li><a href="0058-length-of-last-word.html">58. Length of Last Word</a>
+</li>
+<li><a href="0059-spiral-matrix-ii.html">59. Spiral Matrix II</a>
+</li>
+<li><a href="0060-permutation-sequence.html">60. Permutation Sequence</a>
+</li>
+<li><a href="0061-rotate-list.html">61. Rotate List</a>
+</li>
+<li><a href="0062-unique-paths.html">62. 不同路径</a>
+</li>
+<li><a href="0063-unique-paths-ii.html">63. 不同路径 II</a>
+</li>
+<li><a href="0064-minimum-path-sum.html">64. 最小路径和</a>
+</li>
+<li><a href="0065-valid-number.html">65. Valid Number</a>
+</li>
+<li><a href="0066-plus-one.html">66. Plus One</a>
+</li>
+<li><a href="0067-add-binary.html">67. Add Binary</a>
+</li>
+<li><a href="0068-text-justification.html">68. 文本左右对齐</a>
+</li>
+<li><a href="0069-sqrtx.html">69. x 的平方根</a>
+</li>
+<li><a href="0070-climbing-stairs.html">70. Climbing Stairs</a>
+</li>
+<li><a href="0071-simplify-path.html">71. Simplify Path</a>
+</li>
+<li><a href="0072-edit-distance.html">72. 编辑距离</a>
+</li>
+<li><a href="0073-set-matrix-zeroes.html">73. Set Matrix Zeroes</a>
+</li>
+<li><a href="0074-search-a-2d-matrix.html">74. 搜索二维矩阵</a>
+</li>
+<li><a href="0075-sort-colors.html">75. Sort Colors</a>
+</li>
+<li><a href="0076-minimum-window-substring.html">76. 最小覆盖子串</a>
+</li>
+<li><a href="0077-combinations.html">77. Combinations</a>
+</li>
+<li><a href="0078-subsets.html">78. Subsets</a>
+</li>
+<li><a href="0079-word-search.html">79. Word Search</a>
+</li>
+<li><a href="0080-remove-duplicates-from-sorted-array-ii.html">80. 删除有序数组中的重复项 II</a>
+</li>
+<li><a href="0081-search-in-rotated-sorted-array-ii.html">81. 搜索旋转排序数组 II</a>
+</li>
+<li><a href="0082-remove-duplicates-from-sorted-list-ii.html">82. 删除排序链表中的重复元素 II</a>
+</li>
+<li><a href="0083-remove-duplicates-from-sorted-list.html">83. 删除排序链表中的重复元素</a>
+</li>
+<li><a href="0084-largest-rectangle-in-histogram.html">84. 柱状图中最大的矩形</a>
+</li>
+<li><a href="0085-maximal-rectangle.html">85. 最大矩形</a>
+</li>
+<li><a href="0086-partition-list.html">86. Partition List</a>
+</li>
+<li><a href="0088-merge-sorted-array.html">88. 合并两个有序数组</a>
+</li>
+<li><a href="0089-gray-code.html">89. Gray Code</a>
+</li>
+<li><a href="0090-subsets-ii.html">90. 子集 II</a>
+</li>
+<li><a href="0091-decode-ways.html">91. 解码方法</a>
+</li>
+<li><a href="0092-reverse-linked-list-ii.html">92. 反转链表 II</a>
+</li>
+<li><a href="0093-restore-ip-addresses.html">93. 复原 IP 地址</a>
+</li>
+<li><a href="0094-binary-tree-inorder-traversal.html">94. Binary Tree Inorder Traversal</a>
+</li>
+<li><a href="0095-unique-binary-search-trees-ii.html">95. Unique Binary Search Trees II</a>
+</li>
+<li><a href="0096-unique-binary-search-trees.html">96. 不同的二叉搜索树</a>
+</li>
+<li><a href="0097-interleaving-string.html">97. 交错字符串</a>
+</li>
+<li><a href="0098-validate-binary-search-tree.html">98. Validate Binary Search Tree</a>
+</li>
+<li><a href="0099-recover-binary-search-tree.html">99. Recover Binary Search Tree</a>
+</li>
+<li><a href="0100-same-tree.html">100. Same Tree</a>
+</li>
+<li><a href="0101-symmetric-tree.html">101. Symmetric Tree</a>
+</li>
+<li><a href="0102-binary-tree-level-order-traversal.html">102. 二叉树的层序遍历</a>
+</li>
+<li><a href="0103-binary-tree-zigzag-level-order-traversal.html">103. Binary Tree Zigzag Level Order Traversal</a>
+</li>
+<li><a href="0104-maximum-depth-of-binary-tree.html">104. Maximum Depth of Binary Tree</a>
+</li>
+<li><a href="0105-construct-binary-tree-from-preorder-and-inorder-traversal.html">105. Construct Binary Tree from Preorder and Inorder Traversal</a>
+</li>
+<li><a href="0106-construct-binary-tree-from-inorder-and-postorder-traversal.html">106. Construct Binary Tree from Inorder and Postorder Traversal</a>
+</li>
+<li><a href="0107-binary-tree-level-order-traversal-ii.html">107. Binary Tree Level Order Traversal II</a>
+</li>
+<li><a href="0108-convert-sorted-array-to-binary-search-tree.html">108. 将有序数组转换为二叉搜索树</a>
+</li>
+<li><a href="0109-convert-sorted-list-to-binary-search-tree.html">109. 有序链表转换二叉搜索树</a>
+</li>
+<li><a href="0110-balanced-binary-tree.html">110. Balanced Binary Tree</a>
+</li>
+<li><a href="0111-minimum-depth-of-binary-tree.html">111. Minimum Depth of Binary Tree</a>
+</li>
+<li><a href="0112-path-sum.html">112. Path Sum</a>
+</li>
+<li><a href="0113-path-sum-ii.html">113. Path Sum II</a>
+</li>
+<li><a href="0114-flatten-binary-tree-to-linked-list.html">114. 二叉树展开为链表</a>
+</li>
+<li><a href="0115-distinct-subsequences.html">115. 不同的子序列</a>
+</li>
+<li><a href="0116-populating-next-right-pointers-in-each-node.html">116. Populating Next Right Pointers in Each Node</a>
+</li>
+<li><a href="0117-populating-next-right-pointers-in-each-node-ii.html">117. 填充每个节点的下一个右侧节点指针 II</a>
+</li>
+<li><a href="0118-pascals-triangle.html">118. Pascal&#8217;s Triangle</a>
+</li>
+<li><a href="0119-pascals-triangle-ii.html">119. Pascal&#8217;s Triangle II</a>
+</li>
+<li><a href="0120-triangle.html">120. 三角形最小路径和</a>
+</li>
+<li><a href="0121-best-time-to-buy-and-sell-stock.html">121. 买卖股票的最佳时机</a>
+</li>
+<li><a href="0122-best-time-to-buy-and-sell-stock-ii.html">122. 买卖股票的最佳时机 II</a>
+</li>
+<li><a href="0123-best-time-to-buy-and-sell-stock-iii.html">123. 买卖股票的最佳时机 III</a>
+</li>
+<li><a href="0124-binary-tree-maximum-path-sum.html">124. 二叉树中的最大路径和</a>
+</li>
+<li><a href="0125-valid-palindrome.html">125. 验证回文串</a>
+</li>
+<li><a href="0127-word-ladder.html">127. Word Ladder</a>
+</li>
+<li><a href="0128-longest-consecutive-sequence.html">128. 最长连续序列</a>
+</li>
+<li><a href="0129-sum-root-to-leaf-numbers.html">129. Sum Root to Leaf Numbers</a>
+</li>
+<li><a href="0130-surrounded-regions.html">130. Surrounded Regions</a>
+</li>
+<li><a href="0131-palindrome-partitioning.html">131. 分割回文串</a>
+</li>
+<li><a href="0133-clone-graph.html">133. 克隆图</a>
+</li>
+<li><a href="0134-gas-station.html">134. 加油站</a>
+</li>
+<li><a href="0135-candy.html">135. 分发糖果</a>
+</li>
+<li><a href="0136-single-number.html">136. 只出现一次的数字</a>
+</li>
+<li><a href="0137-single-number-ii.html">137. 只出现一次的数字 II</a>
+</li>
+<li><a href="0138-copy-list-with-random-pointer.html">138. Copy List with Random Pointer</a>
+</li>
+<li><a href="0139-word-break.html">139. 单词拆分</a>
+</li>
+<li><a href="0140-word-break-ii.html">140. 单词拆分 II</a>
+</li>
+<li><a href="0141-linked-list-cycle.html">141. 环形链表</a>
+</li>
+<li><a href="0142-linked-list-cycle-ii.html">142. 环形链表 II</a>
+</li>
+<li><a href="0143-reorder-list.html">143. 重排链表</a>
+</li>
+<li><a href="0144-binary-tree-preorder-traversal.html">144. 二叉树的前序遍历</a>
+</li>
+<li><a href="0145-binary-tree-postorder-traversal.html">145. Binary Tree Postorder Traversal</a>
+</li>
+<li><a href="0146-lru-cache.html">146. LRU 缓存</a>
+</li>
+<li><a href="0147-insertion-sort-list.html">147. 对链表进行插入排序</a>
+</li>
+<li><a href="0148-sort-list.html">148. 排序链表</a>
+</li>
+<li><a href="0149-max-points-on-a-line.html">149. 直线上最多的点数</a>
+</li>
+<li><a href="0150-evaluate-reverse-polish-notation.html">150. 逆波兰表达式求值</a>
+</li>
+<li><a href="0151-reverse-words-in-a-string.html">151. 反转字符串中的单词</a>
+</li>
+<li><a href="0152-maximum-product-subarray.html">152. Maximum Product Subarray</a>
+</li>
+<li><a href="0153-find-minimum-in-rotated-sorted-array.html">153. 寻找旋转排序数组中的最小值</a>
+</li>
+<li><a href="0154-find-minimum-in-rotated-sorted-array-ii.html">154. Find Minimum in Rotated Sorted Array II</a>
+</li>
+<li><a href="0155-min-stack.html">155. Min Stack</a>
+</li>
+<li><a href="0160-intersection-of-two-linked-lists.html">160. Intersection of Two Linked Lists</a>
+</li>
+<li><a href="0162-find-peak-element.html">162. Find Peak Element</a>
+</li>
+<li><a href="0164-maximum-gap.html">164. 最大间距</a>
+</li>
+<li><a href="0165-compare-version-numbers.html">165. 比较版本号</a>
+</li>
+<li><a href="0166-fraction-to-recurring-decimal.html">166. Fraction to Recurring Decimal</a>
+</li>
+<li><a href="0167-two-sum-ii-input-array-is-sorted.html">167. 两数之和 II - 输入有序数组</a>
+</li>
+<li><a href="0168-excel-sheet-column-title.html">168. Excel表列名称</a>
+</li>
+<li><a href="0169-majority-element.html">169. Majority Element</a>
+</li>
+<li><a href="0171-excel-sheet-column-number.html">171. Excel Sheet Column Number</a>
+</li>
+<li><a href="0172-factorial-trailing-zeroes.html">172. Factorial Trailing Zeroes</a>
+</li>
+<li><a href="0173-binary-search-tree-iterator.html">173. 二叉搜索树迭代器</a>
+</li>
+<li><a href="0174-dungeon-game.html">174. 地下城游戏</a>
+</li>
+<li><a href="0175-combine-two-tables.html">175. Combine Two Tables</a>
+</li>
+<li><a href="0176-second-highest-salary.html">176. Second Highest Salary</a>
+</li>
+<li><a href="0179-largest-number.html">179. Largest Number</a>
+</li>
+<li><a href="0187-repeated-dna-sequences.html">187. 重复的DNA序列</a>
+</li>
+<li><a href="0188-best-time-to-buy-and-sell-stock-iv.html">188. Best Time to Buy and Sell Stock IV</a>
+</li>
+<li><a href="0189-rotate-array.html">189. 轮转数组</a>
+</li>
+<li><a href="0190-reverse-bits.html">190. Reverse Bits</a>
+</li>
+<li><a href="0191-number-of-1-bits.html">191. Number of 1 Bits</a>
+</li>
+<li><a href="0192-word-frequency.html">192. 统计词频</a>
+</li>
+<li><a href="0198-house-robber.html">198. 打家劫舍</a>
+</li>
+<li><a href="0199-binary-tree-right-side-view.html">199. 二叉树的右视图</a>
+</li>
+<li><a href="0200-number-of-islands.html">200. 岛屿数量</a>
+</li>
+<li><a href="0201-bitwise-and-of-numbers-range.html">201. 数字范围按位与</a>
+</li>
+<li><a href="0202-happy-number.html">202. 快乐数</a>
+</li>
+<li><a href="0203-remove-linked-list-elements.html">203. 移除链表元素</a>
+</li>
+<li><a href="0204-count-primes.html">204. Count Primes</a>
+</li>
+<li><a href="0205-isomorphic-strings.html">205. Isomorphic Strings</a>
+</li>
+<li><a href="0206-reverse-linked-list.html">206. 反转链表</a>
+</li>
+<li><a href="0207-course-schedule.html">207. 课程表</a>
+</li>
+<li><a href="0208-implement-trie-prefix-tree.html">208. 实现 Trie (前缀树)</a>
+</li>
+<li><a href="0209-minimum-size-subarray-sum.html">209. 长度最小的子数组</a>
+</li>
+<li><a href="0210-course-schedule-ii.html">210. Course Schedule II</a>
+</li>
+<li><a href="0211-design-add-and-search-words-data-structure.html">211. 添加与搜索单词 - 数据结构设计</a>
+</li>
+<li><a href="0212-word-search-ii.html">212. 单词搜索 II</a>
+</li>
+<li><a href="0213-house-robber-ii.html">213. 打家劫舍 II</a>
+</li>
+<li><a href="0214-shortest-palindrome.html">214. 最短回文串</a>
+</li>
+<li><a href="0215-kth-largest-element-in-an-array.html">215. 数组中的第K个最大元素</a>
+</li>
+<li><a href="0216-combination-sum-iii.html">216. 组合总和 III</a>
+</li>
+<li><a href="0217-contains-duplicate.html">217. Contains Duplicate</a>
+</li>
+<li><a href="0219-contains-duplicate-ii.html">219. 存在重复元素 II</a>
+</li>
+<li><a href="0221-maximal-square.html">221. 最大正方形</a>
+</li>
+<li><a href="0222-count-complete-tree-nodes.html">222. Count Complete Tree Nodes</a>
+</li>
+<li><a href="0223-rectangle-area.html">223. 矩形面积</a>
+</li>
+<li><a href="0224-basic-calculator.html">224. 基本计算器</a>
+</li>
+<li><a href="0225-implement-stack-using-queues.html">225. 用队列实现栈</a>
+</li>
+<li><a href="0226-invert-binary-tree.html">226. Invert Binary Tree</a>
+</li>
+<li><a href="0227-basic-calculator-ii.html">227. Basic Calculator II</a>
+</li>
+<li><a href="0228-summary-ranges.html">228. 汇总区间</a>
+</li>
+<li><a href="0229-majority-element-ii.html">229. 多数元素 II</a>
+</li>
+<li><a href="0230-kth-smallest-element-in-a-bst.html">230. Kth Smallest Element in a BST</a>
+</li>
+<li><a href="0231-power-of-two.html">231. 2 的幂</a>
+</li>
+<li><a href="0232-implement-queue-using-stacks.html">232. Implement Queue using Stacks</a>
+</li>
+<li><a href="0234-palindrome-linked-list.html">234. Palindrome Linked List</a>
+</li>
+<li><a href="0235-lowest-common-ancestor-of-a-binary-search-tree.html">235. Lowest Common Ancestor of a Binary Search Tree</a>
+</li>
+<li><a href="0236-lowest-common-ancestor-of-a-binary-tree.html">236. 二叉树的最近公共祖先</a>
+</li>
+<li><a href="0237-delete-node-in-a-linked-list.html">237. Delete Node in a Linked List</a>
+</li>
+<li><a href="0238-product-of-array-except-self.html">238. Product of Array Except Self</a>
+</li>
+<li><a href="0239-sliding-window-maximum.html">239. 滑动窗口最大值</a>
+</li>
+<li><a href="0240-search-a-2d-matrix-ii.html">240. Search a 2D Matrix II</a>
+</li>
+<li><a href="0241-different-ways-to-add-parentheses.html">241. 为运算表达式设计优先级</a>
+</li>
+<li><a href="0242-valid-anagram.html">242. Valid Anagram</a>
+</li>
+<li><a href="0257-binary-tree-paths.html">257. Binary Tree Paths</a>
+</li>
+<li><a href="0258-add-digits.html">258. 各位相加</a>
+</li>
+<li><a href="0260-single-number-iii.html">260. 只出现一次的数字 III</a>
+</li>
+<li><a href="0263-ugly-number.html">263. 丑数</a>
+</li>
+<li><a href="0264-ugly-number-ii.html">264. 丑数 II</a>
+</li>
+<li><a href="0268-missing-number.html">268. Missing Number</a>
+</li>
+<li><a href="0274-h-index.html">274. H 指数</a>
+</li>
+<li><a href="0275-h-index-ii.html">275. H 指数 II</a>
+</li>
+<li><a href="0278-first-bad-version.html">278. First Bad Version</a>
+</li>
+<li><a href="0279-perfect-squares.html">279. Perfect Squares</a>
+</li>
+<li><a href="0282-expression-add-operators.html">282. 给表达式添加运算符</a>
+</li>
+<li><a href="0283-move-zeroes.html">283. Move Zeroes</a>
+</li>
+<li><a href="0284-peeking-iterator.html">284. 窥视迭代器</a>
+</li>
+<li><a href="0287-find-the-duplicate-number.html">287. Find the Duplicate Number</a>
+</li>
+<li><a href="0289-game-of-life.html">289. Game of Life</a>
+</li>
+<li><a href="0290-word-pattern.html">290. 单词规律</a>
+</li>
+<li><a href="0292-nim-game.html">292. Nim 游戏</a>
+</li>
+<li><a href="0295-find-median-from-data-stream.html">295. 数据流的中位数</a>
+</li>
+<li><a href="0297-serialize-and-deserialize-binary-tree.html">297. Serialize and Deserialize Binary Tree</a>
+</li>
+<li><a href="0300-longest-increasing-subsequence.html">300. 最长递增子序列</a>
+</li>
+<li><a href="0303-range-sum-query-immutable.html">303. Range Sum Query - Immutable</a>
+</li>
+<li><a href="0304-range-sum-query-2d-immutable.html">304. Range Sum Query 2D - Immutable</a>
+</li>
+<li><a href="0306-additive-number.html">306. 累加数</a>
+</li>
+<li><a href="0309-best-time-to-buy-and-sell-stock-with-cooldown.html">309. Best Time to Buy and Sell Stock with Cooldown</a>
+</li>
+<li><a href="0310-minimum-height-trees.html">310. 最小高度树</a>
+</li>
+<li><a href="0313-super-ugly-number.html">313. 超级丑数</a>
+</li>
+<li><a href="0316-remove-duplicate-letters.html">316. 去除重复字母</a>
+</li>
+<li><a href="0318-maximum-product-of-word-lengths.html">318. 最大单词长度乘积</a>
+</li>
+<li><a href="0319-bulb-switcher.html">319. 灯泡开关</a>
+</li>
+<li><a href="0322-coin-change.html">322. 零钱兑换</a>
+</li>
+<li><a href="0324-wiggle-sort-ii.html">324. Wiggle Sort II</a>
+</li>
+<li><a href="0326-power-of-three.html">326. Power of Three</a>
+</li>
+<li><a href="0328-odd-even-linked-list.html">328. Odd Even Linked List</a>
+</li>
+<li><a href="0334-increasing-triplet-subsequence.html">334. Increasing Triplet Subsequence</a>
+</li>
+<li><a href="0337-house-robber-iii.html">337. 打家劫舍 III</a>
+</li>
+<li><a href="0338-counting-bits.html">338. Counting Bits</a>
+</li>
+<li><a href="0341-flatten-nested-list-iterator.html">341. Flatten Nested List Iterator</a>
+</li>
+<li><a href="0342-power-of-four.html">342. 4的幂</a>
+</li>
+<li><a href="0343-integer-break.html">343. 整数拆分</a>
+</li>
+<li><a href="0344-reverse-string.html">344. Reverse String</a>
+</li>
+<li><a href="0345-reverse-vowels-of-a-string.html">345. 反转字符串中的元音字母</a>
+</li>
+<li><a href="0347-top-k-frequent-elements.html">347. 前 K 个高频元素</a>
+</li>
+<li><a href="0349-intersection-of-two-arrays.html">349. 两个数组的交集</a>
+</li>
+<li><a href="0350-intersection-of-two-arrays-ii.html">350. 两个数组的交集 II</a>
+</li>
+<li><a href="0355-design-twitter.html">355. 设计推特</a>
+</li>
+<li><a href="0357-count-numbers-with-unique-digits.html">357. 统计各位数字都不同的数字个数</a>
+</li>
+<li><a href="0365-water-and-jug-problem.html">365. 水壶问题</a>
+</li>
+<li><a href="0367-valid-perfect-square.html">367. 有效的完全平方数</a>
+</li>
+<li><a href="0368-largest-divisible-subset.html">368. 最大整除子集</a>
+</li>
+<li><a href="0370-range-addition.html">370. Range Addition</a>
+</li>
+<li><a href="0371-sum-of-two-integers.html">371. Sum of Two Integers</a>
+</li>
+<li><a href="0372-super-pow.html">372. 超级次方</a>
+</li>
+<li><a href="0373-find-k-pairs-with-smallest-sums.html">373. 查找和最小的 K 对数字</a>
+</li>
+<li><a href="0374-guess-number-higher-or-lower.html">374. 猜数字大小</a>
+</li>
+<li><a href="0376-wiggle-subsequence.html">376. 摆动序列</a>
+</li>
+<li><a href="0377-combination-sum-iv.html">377. 组合总和 Ⅳ</a>
+</li>
+<li><a href="0378-kth-smallest-element-in-a-sorted-matrix.html">378. 有序矩阵中第 K 小的元素</a>
+</li>
+<li><a href="0380-insert-delete-getrandom-o1.html">380. Insert Delete GetRandom O(1)</a>
+</li>
+<li><a href="0382-linked-list-random-node.html">382. 链表随机节点</a>
+</li>
+<li><a href="0383-ransom-note.html">383. 赎金信</a>
+</li>
+<li><a href="0384-shuffle-an-array.html">384. Shuffle an Array</a>
+</li>
+<li><a href="0387-first-unique-character-in-a-string.html">387. First Unique Character in a String</a>
+</li>
+<li><a href="0389-find-the-difference.html">389. 找不同</a>
+</li>
+<li><a href="0392-is-subsequence.html">392. 判断子序列</a>
+</li>
+<li><a href="0393-utf-8-validation.html">393. UTF-8 编码验证</a>
+</li>
+<li><a href="0394-decode-string.html">394. Decode String</a>
+</li>
+<li><a href="0395-longest-substring-with-at-least-k-repeating-characters.html">395. Longest Substring with At Least K Repeating Characters</a>
+</li>
+<li><a href="0396-rotate-function.html">396. 旋转函数</a>
+</li>
+<li><a href="0397-integer-replacement.html">397. 整数替换</a>
+</li>
+<li><a href="0398-random-pick-index.html">398. 随机数索引</a>
+</li>
+<li><a href="0399-evaluate-division.html">399. 除法求值</a>
+</li>
+<li><a href="0400-nth-digit.html">400. Nth Digit</a>
+</li>
+<li><a href="0401-binary-watch.html">401. 二进制手表</a>
+</li>
+<li><a href="0402-remove-k-digits.html">402. Remove K Digits</a>
+</li>
+<li><a href="0404-sum-of-left-leaves.html">404. Sum of Left Leaves</a>
+</li>
+<li><a href="0405-convert-a-number-to-hexadecimal.html">405. 数字转换为十六进制数</a>
+</li>
+<li><a href="0406-queue-reconstruction-by-height.html">406. 根据身高重建队列</a>
+</li>
+<li><a href="0409-longest-palindrome.html">409. 最长回文串</a>
+</li>
+<li><a href="0412-fizz-buzz.html">412. Fizz Buzz</a>
+</li>
+<li><a href="0413-arithmetic-slices.html">413. 等差数列划分</a>
+</li>
+<li><a href="0414-third-maximum-number.html">414. 第三大的数</a>
+</li>
+<li><a href="0415-add-strings.html">415. 字符串相加</a>
+</li>
+<li><a href="0416-partition-equal-subset-sum.html">416. 分割等和子集</a>
+</li>
+<li><a href="0417-pacific-atlantic-water-flow.html">417. 太平洋大西洋水流问题</a>
+</li>
+<li><a href="0419-battleships-in-a-board.html">419. 棋盘上的战舰</a>
+</li>
+<li><a href="0421-maximum-xor-of-two-numbers-in-an-array.html">421. 数组中两个数的最大异或值</a>
+</li>
+<li><a href="0423-reconstruct-original-digits-from-english.html">423. 从英文中重建数字</a>
+</li>
+<li><a href="0424-longest-repeating-character-replacement.html">424. 替换后的最长重复字符</a>
+</li>
+<li><a href="0427-construct-quad-tree.html">427. 建立四叉树</a>
+</li>
+<li><a href="0429-n-ary-tree-level-order-traversal.html">429. N-ary Tree Level Order Traversal</a>
+</li>
+<li><a href="0430-flatten-a-multilevel-doubly-linked-list.html">430. 扁平化多级双向链表</a>
+</li>
+<li><a href="0433-minimum-genetic-mutation.html">433. 最小基因变化</a>
+</li>
+<li><a href="0434-number-of-segments-in-a-string.html">434. 字符串中的单词数</a>
+</li>
+<li><a href="0435-non-overlapping-intervals.html">435. 无重叠区间</a>
+</li>
+<li><a href="0436-find-right-interval.html">436. 寻找右区间</a>
+</li>
+<li><a href="0437-path-sum-iii.html">437. Path Sum III</a>
+</li>
+<li><a href="0438-find-all-anagrams-in-a-string.html">438. Find All Anagrams in a String</a>
+</li>
+<li><a href="0441-arranging-coins.html">441. 排列硬币</a>
+</li>
+<li><a href="0442-find-all-duplicates-in-an-array.html">442. 数组中重复的数据</a>
+</li>
+<li><a href="0443-string-compression.html">443. 压缩字符串</a>
+</li>
+<li><a href="0445-add-two-numbers-ii.html">445. 两数相加 II</a>
+</li>
+<li><a href="0447-number-of-boomerangs.html">447. 回旋镖的数量</a>
+</li>
+<li><a href="0448-find-all-numbers-disappeared-in-an-array.html">448. Find All Numbers Disappeared in an Array</a>
+</li>
+<li><a href="0450-delete-node-in-a-bst.html">450. Delete Node in a BST</a>
+</li>
+<li><a href="0451-sort-characters-by-frequency.html">451. 根据字符出现频率排序</a>
+</li>
+<li><a href="0452-minimum-number-of-arrows-to-burst-balloons.html">452. 用最少数量的箭引爆气球</a>
+</li>
+<li><a href="0453-minimum-moves-to-equal-array-elements.html">453. Minimum Moves to Equal Array Elements</a>
+</li>
+<li><a href="0454-4sum-ii.html">454. 4Sum II</a>
+</li>
+<li><a href="0455-assign-cookies.html">455. 分发饼干</a>
+</li>
+<li><a href="0456-132-pattern.html">456. 132 模式</a>
+</li>
+<li><a href="0457-circular-array-loop.html">457. 环形数组是否存在循环</a>
+</li>
+<li><a href="0459-repeated-substring-pattern.html">459. 重复的子字符串</a>
+</li>
+<li><a href="0460-lfu-cache.html">460. LFU 缓存</a>
+</li>
+<li><a href="0461-hamming-distance.html">461. 汉明距离</a>
+</li>
+<li><a href="0462-minimum-moves-to-equal-array-elements-ii.html">462. Minimum Moves to Equal Array Elements II</a>
+</li>
+<li><a href="0463-island-perimeter.html">463. 岛屿的周长</a>
+</li>
+<li><a href="0468-validate-ip-address.html">468. 验证IP地址</a>
+</li>
+<li><a href="0470-implement-rand10-using-rand7.html">470. 用 Rand7() 实现 Rand10()</a>
+</li>
+<li><a href="0474-ones-and-zeroes.html">474. 一和零</a>
+</li>
+<li><a href="0480-sliding-window-median.html">480. Sliding Window Median</a>
+</li>
+<li><a href="0494-target-sum.html">494. Target Sum</a>
+</li>
+<li><a href="0496-next-greater-element-i.html">496. Next Greater Element I</a>
+</li>
+<li><a href="0501-find-mode-in-binary-search-tree.html">501. Find Mode in Binary Search Tree</a>
+</li>
+<li><a href="0502-ipo.html">502. IPO</a>
+</li>
+<li><a href="0503-next-greater-element-ii.html">503. Next Greater Element II</a>
+</li>
+<li><a href="0509-fibonacci-number.html">509. Fibonacci Number</a>
+</li>
+<li><a href="0513-find-bottom-left-tree-value.html">513. Find Bottom Left Tree Value</a>
+</li>
+<li><a href="0515-find-largest-value-in-each-tree-row.html">515. Find Largest Value in Each Tree Row</a>
+</li>
+<li><a href="0516-longest-palindromic-subsequence.html">516. 最长回文子序列</a>
+</li>
+<li><a href="0523-continuous-subarray-sum.html">523. Continuous Subarray Sum</a>
+</li>
+<li><a href="0528-random-pick-with-weight.html">528. Random Pick with Weight</a>
+</li>
+<li><a href="0530-minimum-absolute-difference-in-bst.html">530. 二叉搜索树的最小绝对差</a>
+</li>
+<li><a href="0538-convert-bst-to-greater-tree.html">538. Convert BST to Greater Tree</a>
+</li>
+<li><a href="0543-diameter-of-binary-tree.html">543. Diameter of Binary Tree</a>
+</li>
+<li><a href="0547-number-of-provinces.html">547. 省份数量</a>
+</li>
+<li><a href="0559-maximum-depth-of-n-ary-tree.html">559. Maximum Depth of N-ary Tree</a>
+</li>
+<li><a href="0560-subarray-sum-equals-k.html">560. 和为 K 的子数组</a>
+</li>
+<li><a href="0567-permutation-in-string.html">567. Permutation in String</a>
+</li>
+<li><a href="0581-shortest-unsorted-continuous-subarray.html">581. Shortest Unsorted Continuous Subarray</a>
+</li>
+<li><a href="0594-longest-harmonious-subsequence.html">594. 最长和谐子序列</a>
+</li>
+<li><a href="0617-merge-two-binary-trees.html">617. Merge Two Binary Trees</a>
+</li>
+<li><a href="0621-task-scheduler.html">621. 任务调度器</a>
+</li>
+<li><a href="0637-average-of-levels-in-binary-tree.html">637. Average of Levels in Binary Tree</a>
+</li>
+<li><a href="0647-palindromic-substrings.html">647. Palindromic Substrings</a>
+</li>
+<li><a href="0649-dota2-senate.html">649. Dota2 参议院</a>
+</li>
+<li><a href="0654-maximum-binary-tree.html">654. Maximum Binary Tree</a>
+</li>
+<li><a href="0662-maximum-width-of-binary-tree.html">662. 二叉树最大宽度</a>
+</li>
+<li><a href="0669-trim-a-binary-search-tree.html">669. Trim a Binary Search Tree</a>
+</li>
+<li><a href="0670-maximum-swap.html">670. 最大交换</a>
+</li>
+<li><a href="0695-max-area-of-island.html">695. Max Area of Island</a>
+</li>
+<li><a href="0697-degree-of-an-array.html">697. 数组的度</a>
+</li>
+<li><a href="0698-partition-to-k-equal-sum-subsets.html">698. Partition to K Equal Sum Subsets</a>
+</li>
+<li><a href="0700-search-in-a-binary-search-tree.html">700. Search in a Binary Search Tree</a>
+</li>
+<li><a href="0701-insert-into-a-binary-search-tree.html">701. Insert into a Binary Search Tree</a>
+</li>
+<li><a href="0704-binary-search.html">704. Binary Search</a>
+</li>
+<li><a href="0705-design-hashset.html">705. 设计哈希集合</a>
+</li>
+<li><a href="0707-design-linked-list.html">707. 设计链表</a>
+</li>
+<li><a href="0710-random-pick-with-blacklist.html">710. Random Pick with Blacklist</a>
+</li>
+<li><a href="0713-subarray-product-less-than-k.html">713. Subarray Product Less Than K</a>
+</li>
+<li><a href="0714-best-time-to-buy-and-sell-stock-with-transaction-fee.html">714. Best Time to Buy and Sell Stock with Transaction Fee</a>
+</li>
+<li><a href="0718-maximum-length-of-repeated-subarray.html">718. 最长重复子数组</a>
+</li>
+<li><a href="0721-accounts-merge.html">721. 账户合并</a>
+</li>
+<li><a href="0724-find-pivot-index.html">724. Find Pivot Index</a>
+</li>
+<li><a href="0739-daily-temperatures.html">739. Daily Temperatures</a>
+</li>
+<li><a href="0740-delete-and-earn.html">740. 删除并获得点数</a>
+</li>
+<li><a href="0744-find-smallest-letter-greater-than-target.html">744. Find Smallest Letter Greater Than Target</a>
+</li>
+<li><a href="0746-min-cost-climbing-stairs.html">746. 使用最小花费爬楼梯</a>
+</li>
+<li><a href="0752-open-the-lock.html">752. Open the Lock</a>
+</li>
+<li><a href="0768-max-chunks-to-make-sorted-ii.html">768. Max Chunks To Make Sorted II</a>
+</li>
+<li><a href="0787-cheapest-flights-within-k-stops.html">787. K 站中转内最便宜的航班</a>
+</li>
+<li><a href="0794-valid-tic-tac-toe-state.html">794. 有效的井字游戏</a>
+</li>
+<li><a href="0796-rotate-string.html">796. Rotate String</a>
+</li>
+<li><a href="0841-keys-and-rooms.html">841. 钥匙和房间</a>
+</li>
+<li><a href="0865-smallest-subtree-with-all-the-deepest-nodes.html">865. 具有所有最深节点的最小子树</a>
+</li>
+<li><a href="0869-reordered-power-of-2.html">869. Reordered Power of 2</a>
+</li>
+<li><a href="0870-advantage-shuffle.html">870. Advantage Shuffle</a>
+</li>
+<li><a href="0875-koko-eating-bananas.html">875. Koko Eating Bananas</a>
+</li>
+<li><a href="0876-middle-of-the-linked-list.html">876. Middle of the Linked List</a>
+</li>
+<li><a href="0881-boats-to-save-people.html">881. Boats to Save People</a>
+</li>
+<li><a href="0890-find-and-replace-pattern.html">890. 查找和替换模式</a>
+</li>
+<li><a href="0892-surface-area-of-3d-shapes.html">892. Surface Area of 3D Shapes</a>
+</li>
+<li><a href="0900-rle-iterator.html">900. RLE 迭代器</a>
+</li>
+<li><a href="0904-fruit-into-baskets.html">904. Fruit Into Baskets</a>
+</li>
+<li><a href="0909-snakes-and-ladders.html">909. 蛇梯棋</a>
+</li>
+<li><a href="0912-sort-an-array.html">912. Sort an Array</a>
+</li>
+<li><a href="0915-partition-array-into-disjoint-intervals.html">915. 分割数组</a>
+</li>
+<li><a href="0918-maximum-sum-circular-subarray.html">918. 环形子数组的最大和</a>
+</li>
+<li><a href="0926-flip-string-to-monotone-increasing.html">926. Flip String to Monotone Increasing</a>
+</li>
+<li><a href="0931-minimum-falling-path-sum.html">931. 下降路径最小和</a>
+</li>
+<li><a href="0946-validate-stack-sequences.html">946. Validate Stack Sequences</a>
+</li>
+<li><a href="0980-unique-paths-iii.html">980. 不同路径 III</a>
+</li>
+<li><a href="0986-interval-list-intersections.html">986. 区间列表的交集</a>
+</li>
+<li><a href="0992-subarrays-with-k-different-integers.html">992. Subarrays with K Different Integers</a>
+</li>
+<li><a href="0994-rotting-oranges.html">994. 腐烂的橘子</a>
+</li>
+<li><a href="1006-clumsy-factorial.html">1006. 笨阶乘</a>
+</li>
+<li><a href="1007-minimum-domino-rotations-for-equal-row.html">1007. 行相等的最少多米诺旋转</a>
+</li>
+<li><a href="1011-capacity-to-ship-packages-within-d-days.html">1011. Capacity To Ship Packages Within D Days</a>
+</li>
+<li><a href="1020-number-of-enclaves.html">1020. 飞地的数量</a>
+</li>
+<li><a href="1022-sum-of-root-to-leaf-binary-numbers.html">1022. 从根到叶的二进制数之和</a>
+</li>
+<li><a href="1023-camelcase-matching.html">1023. 驼峰式匹配</a>
+</li>
+<li><a href="1033-moving-stones-until-consecutive.html">1033. 移动石子直到连续</a>
+</li>
+<li><a href="1041-robot-bounded-in-circle.html">1041. Robot Bounded In Circle</a>
+</li>
+<li><a href="1047-remove-all-adjacent-duplicates-in-string.html">1047. 删除字符串中的所有相邻重复项</a>
+</li>
+<li><a href="1049-last-stone-weight-ii.html">1049. 最后一块石头的重量 II</a>
+</li>
+<li><a href="1052-grumpy-bookstore-owner.html">1052. 爱生气的书店老板</a>
+</li>
+<li><a href="1081-smallest-subsequence-of-distinct-characters.html">1081. 不同字符的最小子序列</a>
+</li>
+<li><a href="1090-largest-values-from-labels.html">1090. Largest Values From Labels</a>
+</li>
+<li><a href="1094-car-pooling.html">1094. Car Pooling</a>
+</li>
+<li><a href="1104-path-in-zigzag-labelled-binary-tree.html">1104. 二叉树寻路</a>
+</li>
+<li><a href="1109-corporate-flight-bookings.html">1109. Corporate Flight Bookings</a>
+</li>
+<li><a href="1110-delete-nodes-and-return-forest.html">1110. 删点成林</a>
+</li>
+<li><a href="1137-n-th-tribonacci-number.html">1137. 第 N 个泰波那契数</a>
+</li>
+<li><a href="1143-longest-common-subsequence.html">1143. 最长公共子序列</a>
+</li>
+<li><a href="1171-remove-zero-sum-consecutive-nodes-from-linked-list.html">1171. 从链表中删去总和值为零的连续节点</a>
+</li>
+<li><a href="1189-maximum-number-of-balloons.html">1189. “气球” 的最大数量</a>
+</li>
+<li><a href="1209-remove-all-adjacent-duplicates-in-string-ii.html">1209. 删除字符串中的所有相邻重复项 II</a>
+</li>
+<li><a href="1217-minimum-cost-to-move-chips-to-the-same-position.html">1217. 玩筹码</a>
+</li>
+<li><a href="1253-reconstruct-a-2-row-binary-matrix.html">1253. Reconstruct a 2-Row Binary Matrix</a>
+</li>
+<li><a href="1289-minimum-falling-path-sum-ii.html">1289. 下降路径最小和  II</a>
+</li>
+<li><a href="1325-delete-leaves-with-a-given-value.html">1325. 删除给定值的叶子节点</a>
+</li>
+<li><a href="1349-maximum-students-taking-exam.html">1349. 参加考试的最大学生数</a>
+</li>
+<li><a href="1362-closest-divisors.html">1362. 最接近的因数</a>
+</li>
+<li><a href="1382-balance-a-binary-search-tree.html">1382. 将二叉搜索树变平衡</a>
+</li>
+<li><a href="1387-sort-integers-by-the-power-value.html">1387. 将整数按权重排序</a>
+</li>
+<li><a href="1400-construct-k-palindrome-strings.html">1400. 构造 K 个回文字符串</a>
+</li>
+<li><a href="1410-html-entity-parser.html">1410. HTML 实体解析器</a>
+</li>
+<li><a href="1442-count-triplets-that-can-form-two-arrays-of-equal-xor.html">1442. 形成两个异或相等数组的三元组数目</a>
+</li>
+<li><a href="1457-pseudo-palindromic-paths-in-a-binary-tree.html">1457. 二叉树中的伪回文路径</a>
+</li>
+<li><a href="1480-running-sum-of-1d-array.html">1480. Running Sum of 1d Array</a>
+</li>
+<li><a href="1496-path-crossing.html">1496. 判断路径是否相交</a>
+</li>
+<li><a href="1509-minimum-difference-between-largest-and-smallest-value-in-three-moves.html">1509. 三次操作后最大值与最小值的最小差</a>
+</li>
+<li><a href="1530-number-of-good-leaf-nodes-pairs.html">1530. 好叶子节点对的数量</a>
+</li>
+<li><a href="1561-maximum-number-of-coins-you-can-get.html">1561. 你可以获得的最大硬币数目</a>
+</li>
+<li><a href="1644-lowest-common-ancestor-of-a-binary-tree-ii.html">1644. Lowest Common Ancestor of a Binary Tree II</a>
+</li>
+<li><a href="1650-lowest-common-ancestor-of-a-binary-tree-iii.html">1650. Lowest Common Ancestor of a Binary Tree III</a>
+</li>
+<li><a href="1700-number-of-students-unable-to-eat-lunch.html">1700. 无法吃午餐的学生数量</a>
+</li>
+<li><a href="1769-minimum-number-of-operations-to-move-all-balls-to-each-box.html">1769. 移动所有球到每个盒子所需的最小操作数</a>
+</li>
+<li><a href="1823-find-the-winner-of-the-circular-game.html">1823. Find the Winner of the Circular Game</a>
+</li>
+<li><a href="1839-longest-substring-of-all-vowels-in-order.html">1839. 所有元音按顺序排布的最长子字符串</a>
+</li>
+<li><a href="1864-minimum-number-of-swaps-to-make-the-binary-string-alternating.html">1864. Minimum Number of Swaps to Make the Binary String Alternating</a>
+</li>
+<li><a href="1905-count-sub-islands.html">1905. Count Sub Islands</a>
+</li>
+<li><a href="1997-first-day-where-you-have-been-in-all-the-rooms.html">1997. 访问完所有房间的第一天</a>
+</li>
+<li><a href="2319-check-if-matrix-is-x-matrix.html">2319. 判断矩阵是否是一个 X 矩阵</a>
+</li>
+<li><a href="2320-count-number-of-ways-to-place-houses.html">2320. 统计放置房子的方式数</a>
+</li>
+<li><a href="2507-smallest-value-after-replacing-with-sum-of-prime-factors.html">2507. Smallest Value After Replacing With Sum of Prime Factors</a>
+</li>
+<li><a href="2560-house-robber-iv.html">2560. 打家劫舍 IV</a>
+</li>
+<li><a href="2684-maximum-number-of-moves-in-a-grid.html">2684. 矩阵中移动的最大次数</a>
+</li>
+<li><a href="2800-shortest-string-that-contains-three-strings.html">2800. 包含三个字符串的最短字符串</a>
+</li>
+<li><a href="2850-minimum-moves-to-spread-stones-over-grid.html">2850. 将石头分散到网格图的最少移动次数</a>
+</li>
+<li><a href="3099-harshad-number.html">3099. 哈沙德数</a>
+</li>
+<li><a href="3111-minimum-rectangles-to-cover-points.html">3111. 覆盖所有点的最少矩形数目</a>
+</li>
+<li><a href="3115-maximum-prime-difference.html">3115. 质数的最大距离</a>
+</li>
+<li><a href="0000-00-note.html">刷题随想</a>
+</li>
+<li><a href="top-100-liked.html">LeetCode 热题 100</a>
+</li>
+<li><a href="top-interview-150.html">面试经典 150 题</a>
+</li>
+<li><a href="logbook-202406.html"><span class="toc-current">2024年06月 刷题日志</span></a>
+</li>
+<li><a href="logbook-202503.html">2025年03月 刷题日志</a>
+</li>
+<li><a href="bytedance.html">字节跳动</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="content"><div class="sect2"><h3 id="_友情支持">友情支持</h3><div class="paragraph"><p>如果您觉得这个笔记对您有所帮助，看在D瓜哥码这么多字的辛苦上，请友情支持一下，D瓜哥感激不尽，😜</p></div><table class="tableblock frame-none grid-all stretch"><colgroup><col style="width: 50%;"><col style="width: 50%;"></colgroup><tbody><tr><td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="assets/images/alipay.png" alt="支付宝" width="85%" title="支付宝"></span></p></td><td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="assets/images/wxpay.jpg" alt="微信" width="85%" title="微信"></span></p></td></tr></tbody></table><div class="paragraph"><p>有些打赏的朋友希望可以加个好友，欢迎关注D 瓜哥的微信公众号，这样就可以通过公众号的回复直接给我发信息。</p></div><div class="paragraph"><p><span class="image"><img src="assets/images/wx-jikerizhi.png" alt="wx jikerizhi" width="98%"></span></p></div><div class="admonitionblock tip"><table><tbody><tr><td class="icon"><i class="fa icon-tip" title="Tip"></i></td><td class="content"><strong>公众号的微信号是: <code>jikerizhi</code></strong>。<em>因为众所周知的原因，有时图片加载不出来。 如果图片加载不出来可以直接通过搜索微信号来查找我的公众号。</em></td></tr></tbody></table></div></div>
+<div class="sect1">
+<h2 id="logbook-202406"><a class="anchor" href="#logbook-202406"></a>2024年06月 刷题日志</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 7%;">
+<col style="width: 41%;">
+<col style="width: 7%;">
+<col style="width: 45%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">序号</th>
+<th class="tableblock halign-left valign-top">题目</th>
+<th class="tableblock halign-left valign-top" target="_blank">题解</th>
+<th class="tableblock halign-left valign-top">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/count-complete-tree-nodes/" target="_blank" rel="noopener">222. Count Complete Tree Nodes</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0222-count-complete-tree-nodes.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">二叉树属性。解法技巧有待掌握。完全二叉树的性质还需要加强学习。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/sum-of-left-leaves/" target="_blank" rel="noopener">404. Sum of Left Leaves</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0404-sum-of-left-leaves.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">二叉树属性。深刻理解递归退出条件</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/find-bottom-left-tree-value/" target="_blank" rel="noopener">513. Find Bottom Left Tree Value</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0513-find-bottom-left-tree-value.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">二叉树属性。广度优先，尝试一下深度优先。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/binary-tree-paths/" target="_blank" rel="noopener">257. Binary Tree Paths</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0257-binary-tree-paths.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">路径问题。递归，尝试了一下回溯。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/path-sum/" target="_blank" rel="noopener">112. Path Sum</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0112-path-sum.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">路径问题。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/path-sum-iii/" target="_blank" rel="noopener">437. Path Sum III</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0437-path-sum-iii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">前缀和解法还需要多思考！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/maximum-binary-tree/" target="_blank" rel="noopener">654. Maximum Binary Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0654-maximum-binary-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">单调栈，与503套路相同。单调栈不是很理解。还需要再加强练习。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/merge-two-binary-trees/" target="_blank" rel="noopener">617. Merge Two Binary Trees</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0617-merge-two-binary-trees.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">一个简单的树遍历，递归比较容易，尝试一下迭代，BFS，DFS。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">9</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/search-in-a-binary-search-tree/" target="_blank" rel="noopener">700. Search in a Binary Search Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0700-search-in-a-binary-search-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">简单的“左右查找”（二分查找）</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/validate-binary-search-tree/" target="_blank" rel="noopener">98. Validate Binary Search Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0098-validate-binary-search-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">树形DP套路或中序遍历（前几天做的）</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/minimum-absolute-difference-in-bst/" target="_blank" rel="noopener">530. Minimum Absolute Difference in BST</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0530-minimum-absolute-difference-in-bst.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">98可用中序遍历，正好实验一下</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/find-mode-in-binary-search-tree/" target="_blank" rel="noopener">501. Find Mode in Binary Search Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0501-find-mode-in-binary-search-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">利用中根遍历的特性：相同数字一起出现</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">13</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/" target="_blank" rel="noopener">236. Lowest Common Ancestor of a Binary Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0236-lowest-common-ancestor-of-a-binary-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">想清楚怎么判断是否为公共祖先：在同一棵子树下。拿这棵树的节点逐步递归地去判断是否相等，如果返回值不为空，则处于同一个子树下。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/" target="_blank" rel="noopener">235. Lowest Common Ancestor of a Binary Search Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0235-lowest-common-ancestor-of-a-binary-search-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">二叉搜索树左大右小，祖先在中间的特性，可以快速去除不必要的判断。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">15</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/insert-into-a-binary-search-tree/" target="_blank" rel="noopener">701. Insert into a Binary Search Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0701-insert-into-a-binary-search-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">对二叉搜索树的特性利用。题目中的示例有点干扰。只管往左右子树找即可。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">16</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/delete-node-in-a-bst/" target="_blank" rel="noopener">450. Delete Node in a BST</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0450-delete-node-in-a-bst.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DFS递归，找到需要删除的节点，然后返回处理后的节点，再把左右树嫁接起来即可。尝试一下迭代的实现。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">17</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/convert-bst-to-greater-tree/" target="_blank" rel="noopener">538. Convert BST to Greater Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0538-convert-bst-to-greater-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">基于 Morris 的倒序中根遍历，值得研究。递归的理解需要加强。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">18</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/trim-a-binary-search-tree/" target="_blank" rel="noopener">669. Trim a Binary Search Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0669-trim-a-binary-search-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">递归简单明了，迭代一脸懵逼。看到答案瞬间就明白了，但自己写不出来，对递归还是似懂非懂！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">19</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/coin-change/" target="_blank" rel="noopener">322. Coin Change</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0322-coin-change.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">从暴力穷举，逐步优化到动态规划。尝试了左程云的阶梯思路，没看明白，需实际案例再分析一下。官方题解的解答比较容易理解。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">20</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/permutations/" target="_blank" rel="noopener">46. Permutations</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0046-permutations.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">回溯思想的入门练习，还需要加强练习</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/n-queens/" target="_blank" rel="noopener">51. N-Queens</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0051-n-queens.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">独立思考很久完成，经过了多次调试，还需要加强回溯的练习。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/n-queens-ii/" target="_blank" rel="noopener">52. N-Queens II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0052-n-queens-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">回溯，根据51题简化而来</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">23</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/minimum-depth-of-binary-tree/" target="_blank" rel="noopener">111. Minimum Depth of Binary Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0111-minimum-depth-of-binary-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">两个议题：①Morris解法；②DFS vs BFS 的对比。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/open-the-lock/" target="_blank" rel="noopener">752. Open the Lock</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0752-open-the-lock.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">多叉树BFS遍历，回头尝试一下双向BFS解法。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/word-ladder/" target="_blank" rel="noopener">127. Word Ladder</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0127-word-ladder.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BFS，与752类似</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">26</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/maximum-depth-of-binary-tree/" target="_blank" rel="noopener">104. Maximum Depth of Binary Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0104-maximum-depth-of-binary-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">后根遍历既可以访问父节点，又可以从返回值中获取想要的信息。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">27</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/binary-search/" target="_blank" rel="noopener">704. Binary Search</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0704-binary-search.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">二分查找</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">28</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/" target="_blank" rel="noopener">34. Find First and Last Position of Element in Sorted Array</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0034-find-first-and-last-position-of-element-in-sorted-array.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">格局打开，两次二分查找还是 <code>O(log n)</code>。注意边界处理。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">29</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/minimum-window-substring/" target="_blank" rel="noopener">76. Minimum Window Substring</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0076-minimum-window-substring.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">滑动窗口，好久不写，忘记咋写了。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/permutation-in-string/" target="_blank" rel="noopener">567. Permutation in String</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0567-permutation-in-string.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">滑动窗口</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">31</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/find-all-anagrams-in-a-string/" target="_blank" rel="noopener">438. Find All Anagrams in a String</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0438-find-all-anagrams-in-a-string.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">滑动窗口，567的变种</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">32</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/" target="_blank" rel="noopener">3. Longest Substring Without Repeating Characters</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0003-longest-substring-without-repeating-characters.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">滑动窗口</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">33</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/merge-two-sorted-lists/" target="_blank" rel="noopener">21. Merge Two Sorted Lists</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0021-merge-two-sorted-lists.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">竟然也可以用递归解决！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">34</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/merge-k-sorted-lists/" target="_blank" rel="noopener">23. Merge k Sorted Lists</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0023-merge-k-sorted-lists.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">优先队列，分治，最差逐个合并都可以。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">35</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/middle-of-the-linked-list/" target="_blank" rel="noopener">876. Middle of the Linked List</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0876-middle-of-the-linked-list.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">快慢指针，注意尾部处理</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">36</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/linked-list-cycle/" target="_blank" rel="noopener">141. Linked List Cycle</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0141-linked-list-cycle.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">快慢指针</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">37</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/linked-list-cycle-ii/" target="_blank" rel="noopener">142. Linked List Cycle II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0142-linked-list-cycle-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">快慢指针</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">38</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/intersection-of-two-linked-lists/" target="_blank" rel="noopener">160. Intersection of Two Linked Lists</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0160-intersection-of-two-linked-lists.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">双指针，两个链表逻辑拼接</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">39</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/remove-duplicates-from-sorted-array/" target="_blank" rel="noopener">26. Remove Duplicates from Sorted Array</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0026-remove-duplicates-from-sorted-array.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">算法了解，编码功力有待提高</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">40</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/" target="_blank" rel="noopener">167. Two Sum II - Input array is sorted</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0167-two-sum-ii-input-array-is-sorted.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">两个指针向中间挤压</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">41</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/longest-palindromic-substring/" target="_blank" rel="noopener">5. Longest Palindromic Substring</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0005-longest-palindromic-substring.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">最容易想到的是中心扩散法，还可以用动态规划，甚至还有 O(n) 的马拉车算法。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">42</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/range-sum-query-immutable/" target="_blank" rel="noopener">303. Range Sum Query - Immutable</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0303-range-sum-query-immutable.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">前缀和非常好的入门试题</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">43</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/range-sum-query-2d-immutable/" target="_blank" rel="noopener">304. Range Sum Query 2D - Immutable</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0304-range-sum-query-2d-immutable.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">复杂一点的前缀和，需要处理更多细节</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">44</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/range-addition/" target="_blank" rel="noopener">370. Range Addition</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0370-range-addition.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">差分数组</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">45</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/car-pooling/" target="_blank" rel="noopener">1094. Car Pooling</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./1094-car-pooling.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">差分数组</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">46</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/corporate-flight-bookings/" target="_blank" rel="noopener">1109. Corporate Flight Bookings</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./1109-corporate-flight-bookings.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">差分数组</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">47</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/insert-delete-getrandom-o1/" target="_blank" rel="noopener">380. Insert Delete GetRandom O(1)</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0380-insert-delete-getrandom-o1.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">数据结构应用</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">48</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/random-pick-with-blacklist/" target="_blank" rel="noopener">710. Random Pick with Blacklist</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0710-random-pick-with-blacklist.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">把映射处理好</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">49</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/next-greater-element-i/" target="_blank" rel="noopener">496. Next Greater Element I</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0496-next-greater-element-i.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">单调栈，理解不是很透彻，还需要加强练习</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">50</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/next-greater-element-ii/" target="_blank" rel="noopener">503. Next Greater Element II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0503-next-greater-element-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">单调栈+循环数组</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">51</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/daily-temperatures/" target="_blank" rel="noopener">739. Daily Temperatures</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0739-daily-temperatures.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">单调栈，从左向右的写法还需要再加强一下。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">52</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/sliding-window-maximum/" target="_blank" rel="noopener">239. Sliding Window Maximum</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0239-sliding-window-maximum.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">单调栈的妙用！值得学习。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">53</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/" target="_blank" rel="noopener">114. Flatten Binary Tree to Linked List</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0114-flatten-binary-tree-to-linked-list.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">遍历+递归，两套解决方案</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">54</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/sort-an-array/" target="_blank" rel="noopener">912. Sort an Array</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0912-sort-an-array.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">归并，快排都可以</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">55</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/kth-smallest-element-in-a-bst/" target="_blank" rel="noopener">230. Kth Smallest Element in a BST</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0230-kth-smallest-element-in-a-bst.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">二叉树中根遍历</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">56</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/subsets/" target="_blank" rel="noopener">78. Subsets</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0078-subsets.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">组合，回溯</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">57</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/subsets-ii/" target="_blank" rel="noopener">90. Subsets II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0090-subsets-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">组合，回溯，去重</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">58</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/combinations/" target="_blank" rel="noopener">77. Combinations</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0077-combinations.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">组合，回溯，剪枝</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">59</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/permutations-ii/" target="_blank" rel="noopener">47. Permutations II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0047-permutations-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">组合，回溯，同层剪枝</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">60</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/combination-sum/" target="_blank" rel="noopener">39. Combination Sum</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0039-combination-sum.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">组合，回溯，注意学习剪枝的技巧</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">61</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/combination-sum-ii/" target="_blank" rel="noopener">40. Combination Sum II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0040-combination-sum-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">组合，回溯，剪枝</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">62</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/" target="_blank" rel="noopener">698. Partition to K Equal Sum Subsets</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0698-partition-to-k-equal-sum-subsets.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">组合，回溯，极致剪枝。回头尝试一下桶视角的方案</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">63</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/number-of-islands/" target="_blank" rel="noopener">200. Number of Islands</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0200-number-of-islands.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DFS，对于网格遍历还需要加强练习。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">64</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/max-area-of-island/" target="_blank" rel="noopener">695. Max Area of Island</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0695-max-area-of-island.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DFS，利用递归的返回值。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">65</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/count-sub-islands/" target="_blank" rel="noopener">1905. Count Sub Islands</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./1905-count-sub-islands.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DFS，沉岛</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">66</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree-ii/" target="_blank" rel="noopener">1644. Lowest Common Ancestor of a Binary Tree II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./1644-lowest-common-ancestor-of-a-binary-tree-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">树形DP套路，没有验证答案！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">67</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/min-stack/" target="_blank" rel="noopener">155. Min Stack</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0155-min-stack.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">复习单调栈</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">68</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/trapping-rain-water/" target="_blank" rel="noopener">42. Trapping Rain Water</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0042-trapping-rain-water.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">巧用单调栈</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">69</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree-iii/" target="_blank" rel="noopener">1650. Lowest Common Ancestor of a Binary Tree III</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./1650-lowest-common-ancestor-of-a-binary-tree-iii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">链表相交</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">70</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/3sum/" target="_blank" rel="noopener">15. 3Sum</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0015-3sum.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">双指针</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">71</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/4sum/" target="_blank" rel="noopener">18. 4Sum</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0018-4sum.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">双指针</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">72</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/trapping-rain-water/" target="_blank" rel="noopener">42. Trapping Rain Water</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0042-trapping-rain-water.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">双指针解题方案</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">73</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/container-with-most-water/" target="_blank" rel="noopener">11. Container With Most Water</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0011-container-with-most-water.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">双指针</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">74</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/koko-eating-bananas/" target="_blank" rel="noopener">875. Koko Eating Bananas</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0875-koko-eating-bananas.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">二分查找，确定左边界</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">75</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/" target="_blank" rel="noopener">1011. Capacity To Ship Packages Within D Days</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./1011-capacity-to-ship-packages-within-d-days.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">二分查找，确定左边界</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">76</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/random-pick-with-weight/" target="_blank" rel="noopener">528. Random Pick with Weight</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0528-random-pick-with-weight.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">前缀和+二分查找</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">77</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/remove-duplicate-letters/" target="_blank" rel="noopener">316. Remove Duplicate Letters</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0316-remove-duplicate-letters.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">综合运用</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">78</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/remove-k-digits/" target="_blank" rel="noopener">402. Remove K Digits</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0402-remove-k-digits.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">单调栈</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">79</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/advantage-shuffle/" target="_blank" rel="noopener">870. Advantage Shuffle</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0870-advantage-shuffle.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">双指针+优先队列（排序）</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">80</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/find-smallest-letter-greater-than-target/" target="_blank" rel="noopener">744. Find Smallest Letter Greater Than Target</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0744-find-smallest-letter-greater-than-target.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">二分查找取左右端点是一个怎样的套路？</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">81</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/insert-interval/" target="_blank" rel="noopener">57. Insert Interval</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0057-insert-interval.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">合并区间，思路周全再写代码！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">82</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/first-missing-positive/" target="_blank" rel="noopener">41. First Missing Positive</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0041-first-missing-positive.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">循环排序，思路有意思！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">83</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/missing-number/" target="_blank" rel="noopener">268. Missing Number</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0268-missing-number.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">循环排序</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">84</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/find-median-from-data-stream/" target="_blank" rel="noopener">295. Find Median from Data Stream</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0295-find-median-from-data-stream.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">双堆思路太妙了！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">85</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/sliding-window-median/" target="_blank" rel="noopener">480. Sliding Window Median</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0480-sliding-window-median.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">双端队列+滑动窗口</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">86</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/minimum-falling-path-sum/" target="_blank" rel="noopener">931. Minimum Falling Path Sum</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0931-minimum-falling-path-sum.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">动态规划</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">87</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/partition-equal-subset-sum/" target="_blank" rel="noopener">416. Partition Equal Subset Sum</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0416-partition-equal-subset-sum.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">动态规划，0/1背包问题</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">88</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/sudoku-solver/" target="_blank" rel="noopener">37. Sudoku Solver</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0037-sudoku-solver.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">回溯</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">89</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/min-cost-climbing-stairs/" target="_blank" rel="noopener">746. Min Cost Climbing Stairs</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0746-min-cost-climbing-stairs.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">动态规划</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">90</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/unique-paths/" target="_blank" rel="noopener">62. Unique Paths</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0062-unique-paths.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">动态规划</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">91</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/unique-paths-ii/" target="_blank" rel="noopener">63. Unique Paths II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0063-unique-paths-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">动态规划</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">92</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/integer-break/" target="_blank" rel="noopener">343. Integer Break</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0343-integer-break.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">动态规划</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">93</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/reverse-linked-list/" target="_blank" rel="noopener">206. Reverse Linked List</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0206-reverse-linked-list.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">递归解法非常妙！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">94</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/valid-parentheses/" target="_blank" rel="noopener">20. Valid Parentheses</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0020-valid-parentheses.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">栈</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">95</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/valid-anagram/" target="_blank" rel="noopener">242. Valid Anagram</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0242-valid-anagram.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">哈希</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">96</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/" target="_blank" rel="noopener">167. Two Sum II - Input array is sorted</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0167-two-sum-ii-input-array-is-sorted.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">双指针</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">97</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/validate-stack-sequences/" target="_blank" rel="noopener">946. Validate Stack Sequences</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0946-validate-stack-sequences.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">模拟栈的操作</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">98</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/find-the-duplicate-number/" target="_blank" rel="noopener">287. Find the Duplicate Number</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0287-find-the-duplicate-number.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">龟兔赛跑找环</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">99</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/kth-smallest-element-in-a-bst/" target="_blank" rel="noopener">230. Kth Smallest Element in a BST</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0230-kth-smallest-element-in-a-bst.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">二叉树中根遍历</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/combination-sum/" target="_blank" rel="noopener">39. Combination Sum</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0039-combination-sum.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">组合，回溯，注意学习剪枝的技巧</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">101</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/invert-binary-tree/" target="_blank" rel="noopener">226. Invert Binary Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0226-invert-binary-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">分治</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">102</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/running-sum-of-1d-array/" target="_blank" rel="noopener">1480. Running Sum of 1d Array</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./1480-running-sum-of-1d-array.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">动态规划入门</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">103</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/" target="_blank" rel="noopener">122. Best Time to Buy and Sell Stock II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0122-best-time-to-buy-and-sell-stock-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">贪心</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">104</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/number-of-1-bits/" target="_blank" rel="noopener">191. Number of 1 Bits</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0191-number-of-1-bits.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">位运算，减法 <code>n&amp;(n-1)</code> 解法牛逼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">105</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/product-of-array-except-self/" target="_blank" rel="noopener">238. Product of Array Except Self</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0238-product-of-array-except-self.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 前缀和，从后及从前，在一个数组上分两次进行计算</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">106</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/partition-list/" target="_blank" rel="noopener">86. Partition List</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0086-partition-list.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">双指针链表遍历</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">107</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/min-stack/" target="_blank" rel="noopener">155. Min Stack</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0155-min-stack.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">对，这也是单调栈。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">108</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/first-unique-character-in-a-string/" target="_blank" rel="noopener">387. First Unique Character in a String</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0387-first-unique-character-in-a-string.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">哈希+字符串</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">109</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/linked-list-cycle-ii/" target="_blank" rel="noopener">142. Linked List Cycle II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0142-linked-list-cycle-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">快慢指针</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">110</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/spiral-matrix/" target="_blank" rel="noopener">54. Spiral Matrix</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0054-spiral-matrix.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">从回溯得到启发，使用递归来完成层次的遍历。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">111</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/binary-search/" target="_blank" rel="noopener">704. Binary Search</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0704-binary-search.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">二分查找</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">112</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/" target="_blank" rel="noopener">236. Lowest Common Ancestor of a Binary Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0236-lowest-common-ancestor-of-a-binary-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">想清楚怎么判断是否为公共祖先。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">113</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/" target="_blank" rel="noopener">121. Best Time to Buy and Sell Stock</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0121-best-time-to-buy-and-sell-stock.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">114</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/path-sum-ii/" target="_blank" rel="noopener">113. Path Sum II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0113-path-sum-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">回溯</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">115</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/powx-n/" target="_blank" rel="noopener">50. Pow(x, n)</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0050-powx-n.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">分治，快速幂，迭代实现还需要再思考理解一下。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">116</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/search-a-2d-matrix-ii/" target="_blank" rel="noopener">240. Search a 2D Matrix II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0240-search-a-2d-matrix-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">不能对矩阵做二分查找，可以对单行做二分查找。要分析题目，查看如何排除不符合要求的元素。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">117</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/power-of-two/" target="_blank" rel="noopener">231. Power of Two</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0231-power-of-two.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">位运算， <code>n &amp; (n - 1)</code> 或约数</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">118</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/integer-break/" target="_blank" rel="noopener">343. Integer Break</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0343-integer-break.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">动态规划，数学分析也可以看一下：怎么样计算自然底数 <code>e</code> 的值？</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">119</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/merge-two-sorted-lists/" target="_blank" rel="noopener">21. Merge Two Sorted Lists</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0021-merge-two-sorted-lists.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">尝试递归解法</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">120</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/implement-queue-using-stacks/" target="_blank" rel="noopener">232. Implement Queue using Stacks</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0232-implement-queue-using-stacks.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">121</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/isomorphic-strings/" target="_blank" rel="noopener">205. Isomorphic Strings</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0205-isomorphic-strings.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 哈希映射</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">122</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/middle-of-the-linked-list/" target="_blank" rel="noopener">876. Middle of the Linked List</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0876-middle-of-the-linked-list.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 快慢指针，思路OK，注意处理细节。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">123</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/spiral-matrix-ii/" target="_blank" rel="noopener">59. Spiral Matrix II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0059-spiral-matrix-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 利用回溯思想，逐层推进</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">124</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/first-bad-version/" target="_blank" rel="noopener">278. First Bad Version</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0278-first-bad-version.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 逼近边界的二分查找</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">125</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/binary-tree-level-order-traversal/" target="_blank" rel="noopener">102. Binary Tree Level Order Traversal</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0102-binary-tree-level-order-traversal.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 广度优先遍历</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">126</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/combination-sum-ii/" target="_blank" rel="noopener">40. Combination Sum II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0040-combination-sum-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">⭕️ 组合，回溯，剪枝</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">127</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/symmetric-tree/" target="_blank" rel="noopener">101. Symmetric Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0101-symmetric-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">⭕️ 分治</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">128</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/minimum-path-sum/" target="_blank" rel="noopener">64. Minimum Path Sum</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0064-minimum-path-sum.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 动态规划</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">129</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/container-with-most-water/" target="_blank" rel="noopener">11. Container With Most Water</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0011-container-with-most-water.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">⭕️ 双指针+贪心</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">130</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/sum-of-two-integers/" target="_blank" rel="noopener">371. Sum of Two Integers</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0371-sum-of-two-integers.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 位运算</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">131</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/gray-code/" target="_blank" rel="noopener">89. Gray Code</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0089-gray-code.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 位运算</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">132</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/delete-node-in-a-linked-list/" target="_blank" rel="noopener">237. Delete Node in a Linked List</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0237-delete-node-in-a-linked-list.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">⭕️ 解法很巧妙，只需要拷贝一个值，修改一个指针即可。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">133</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/decode-string/" target="_blank" rel="noopener">394. Decode String</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0394-decode-string.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 利用DFS的思想，遇到数字就递归。细节处理麻烦！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">134</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/longest-palindrome/" target="_blank" rel="noopener">409. Longest Palindrome</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0409-longest-palindrome.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 哈希</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">135</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/intersection-of-two-linked-lists/" target="_blank" rel="noopener">160. Intersection of Two Linked Lists</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0160-intersection-of-two-linked-lists.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 双指针，两个链表逻辑拼接</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">136</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/zigzag-conversion/" target="_blank" rel="noopener">6. ZigZag Conversion</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0006-zigzag-conversion.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 注意审题，看题！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">137</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/find-pivot-index/" target="_blank" rel="noopener">724. Find Pivot Index</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0724-find-pivot-index.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 前缀和</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">138</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/" target="_blank" rel="noopener">235. Lowest Common Ancestor of a Binary Search Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0235-lowest-common-ancestor-of-a-binary-search-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 二叉搜索树左大右小，祖先在中间的特性，可以快速去除不必要的判断。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">139</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/permutations/" target="_blank" rel="noopener">46. Permutations</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0046-permutations.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 回溯</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">140</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/balanced-binary-tree/" target="_blank" rel="noopener">110. Balanced Binary Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0110-balanced-binary-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 平衡树还是要靠高度来平衡！可以用负数表示不平衡。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">141</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/climbing-stairs/" target="_blank" rel="noopener">70. Climbing Stairs</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0070-climbing-stairs.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 动态规划</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">142</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/largest-number/" target="_blank" rel="noopener">179. Largest Number</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0179-largest-number.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">⭕️ 不能直接比较数字的字符串，要比较 <code>a+b</code> 和 <code>b+a</code>，这是拼接后的数字。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">143</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/single-number/" target="_blank" rel="noopener">136. Single Number</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0136-single-number.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 位运算，异或</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">144</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/find-the-winner-of-the-circular-game/" target="_blank" rel="noopener">1823. Find the Winner of the Circular Game</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./1823-find-the-winner-of-the-circular-game.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 约瑟夫环，使用队列出队入队来模拟计数，出队表示删除。妙！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">145</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/copy-list-with-random-pointer/" target="_blank" rel="noopener">138. Copy List with Random Pointer</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0138-copy-list-with-random-pointer.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 哈希或者链表新旧交替相连</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">146</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/find-median-from-data-stream/" target="_blank" rel="noopener">295. Find Median from Data Stream</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0295-find-median-from-data-stream.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">⭕️ 两个优先队列的解法真妙！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">147</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/reverse-words-in-a-string/" target="_blank" rel="noopener">151. Reverse Words in a String</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0151-reverse-words-in-a-string.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 更优解是倒序遍历数组，用双指针记录单词下标。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">148</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/rotate-image/" target="_blank" rel="noopener">48. Rotate Image</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0048-rotate-image.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 回溯，或翻转，或行转列</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">149</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/" target="_blank" rel="noopener">153. Find Minimum in Rotated Sorted Array</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0153-find-minimum-in-rotated-sorted-array.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">⭕️ 二分查找，知道是二分查找，但思路还是有些混乱。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">150</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/" target="_blank" rel="noopener">154. Find Minimum in Rotated Sorted Array II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0154-find-minimum-in-rotated-sorted-array-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">⭕️ 二分查找，本题与 153 相比，需要处理“等值”情况。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">151</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/" target="_blank" rel="noopener">103. Binary Tree Zigzag Level Order Traversal</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0103-binary-tree-zigzag-level-order-traversal.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 通过在 <code>List</code> 在首尾添加元素来实现改变方向的策略。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">152</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/permutations-ii/" target="_blank" rel="noopener">47. Permutations II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0047-permutations-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">⭕️ 组合，回溯，同层剪枝。剪枝技巧还要再学习！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">153</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/" target="_blank" rel="noopener">105. Construct Binary Tree from Preorder and Inorder Traversal</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0105-construct-binary-tree-from-preorder-and-inorder-traversal.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 分治法</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">154</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/house-robber/" target="_blank" rel="noopener">198. House Robber</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0198-house-robber.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 动态规划</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">155</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/candy/" target="_blank" rel="noopener">135. Candy</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0135-candy.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 贪心，一脸懵逼！贪心类的题目还需要加强练习</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">156</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/single-number-ii/" target="_blank" rel="noopener">137. Single Number II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0137-single-number-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 比特位计数取模比较容易理解，有限状态机解法以后再学</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">157</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/majority-element/" target="_blank" rel="noopener">169. Majority Element</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0169-majority-element.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">⭕️ 哈希计数法最易想到，摩尔投票法最妙！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">158</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/is-subsequence/" target="_blank" rel="noopener">392. Is Subsequence</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0392-is-subsequence.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 双指针</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">159</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/add-strings/" target="_blank" rel="noopener">415. Add Strings</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0415-add-strings.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 双指针，从后向前，模拟加法进位。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">160</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/kth-largest-element-in-an-array/" target="_blank" rel="noopener">215. Kth Largest Element in an Array</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0215-kth-largest-element-in-an-array.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 快速查找，知道思路，代码却无从下手。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">161</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/maximum-depth-of-binary-tree/" target="_blank" rel="noopener">104. Maximum Depth of Binary Tree</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0104-maximum-depth-of-binary-tree.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 递归+回溯</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">162</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/fibonacci-number/" target="_blank" rel="noopener">509. Fibonacci Number</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0509-fibonacci-number.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 动态规划</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">163</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/max-chunks-to-make-sorted-ii/" target="_blank" rel="noopener">768. Max Chunks To Make Sorted II</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0768-max-chunks-to-make-sorted-ii.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 贪心+单调栈。单调栈的解法思路很精巧！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">164</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/nth-digit/" target="_blank" rel="noopener">400. Nth Digit</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0400-nth-digit.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 纯纯的数学运算，一脸懵逼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">165</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/" target="_blank" rel="noopener">3. Longest Substring Without Repeating Characters</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0003-longest-substring-without-repeating-characters.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 滑动窗口。滑动窗口的模板不是很熟悉。可以不存字符格式，存字符最大的坐标。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">166</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/rotate-string/" target="_blank" rel="noopener">796. Rotate String</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0796-rotate-string.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 简单用 <code>contains</code>；复杂用 KMP 算法。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">167</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/course-schedule/" target="_blank" rel="noopener">207. Course Schedule</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0207-course-schedule.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 拓扑排序</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">168</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/word-search/" target="_blank" rel="noopener">79. Word Search</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0079-word-search.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 回溯</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">169</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/" target="_blank" rel="noopener">1864. Minimum Number of Swaps to Make the Binary String Alternating</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./1864-minimum-number-of-swaps-to-make-the-binary-string-alternating.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 贪心算法</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">170</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/flip-string-to-monotone-increasing/" target="_blank" rel="noopener">926. Flip String to Monotone Increasing</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0926-flip-string-to-monotone-increasing.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 动态规划</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">171</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/smallest-value-after-replacing-with-sum-of-prime-factors/" target="_blank" rel="noopener">2507. Smallest Value After Replacing With Sum of Prime Factors</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./2507-smallest-value-after-replacing-with-sum-of-prime-factors.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 数学计算，一脸懵逼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">172</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/largest-values-from-labels/" target="_blank" rel="noopener">1090. Largest Values From Labels</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./1090-largest-values-from-labels.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">⭕️ 贪心。排序规则跟 179、870 题类似：保存下标，使用其他数组的值对下标数组进行排序。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">173</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/reordered-power-of-2/" target="_blank" rel="noopener">869. Reordered Power of 2</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0869-reordered-power-of-2.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">⭕️ 数学，参考答案做了优化</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">174</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/reconstruct-a-2-row-binary-matrix/" target="_blank" rel="noopener">1253. Reconstruct a 2-Row Binary Matrix</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./1253-reconstruct-a-2-row-binary-matrix.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">⭕️ 贪心，为什么需要先减去 2 呢？</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">175</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/surface-area-of-3d-shapes/" target="_blank" rel="noopener">892. Surface Area of 3D Shapes</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0892-surface-area-of-3d-shapes.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 计算几个柱子的面积</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">176</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/delete-nodes-and-return-forest/" target="_blank" rel="noopener">1110. Delete Nodes And Return Forest</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./1110-delete-nodes-and-return-forest.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 递归+深度优先</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">177</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/fruit-into-baskets/" target="_blank" rel="noopener">904. Fruit Into Baskets</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0904-fruit-into-baskets.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 滑动窗口</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">178</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/robot-bounded-in-circle/" target="_blank" rel="noopener">1041. Robot Bounded In Circle</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./1041-robot-bounded-in-circle.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">⭕️ 理解题目，确定符合要求的条件。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">179</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/boats-to-save-people/" target="_blank" rel="noopener">881. Boats to Save People</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0881-boats-to-save-people.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 贪心+双指针</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">180</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/edit-distance/" target="_blank" rel="noopener">72. Edit Distance</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0072-edit-distance.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 动态规划，看答案秒懂，自己想不出来！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">181</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/maximum-length-of-repeated-subarray/" target="_blank" rel="noopener">718. Maximum Length of Repeated Subarray</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0718-maximum-length-of-repeated-subarray.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 动态规划。滑动窗口的解法也很妙！</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">182</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/longest-palindromic-substring/" target="_blank" rel="noopener">5. Longest Palindromic Substring</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0005-longest-palindromic-substring.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅ 滑动窗口解法</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">183</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/next-permutation/" target="_blank" rel="noopener">31. Next Permutation</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0031-next-permutation.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 一脸懵逼，可以看成寻找下一个更大的数。这样更容易理解。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">184</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://leetcode.cn/problems/ones-and-zeroes/" target="_blank" rel="noopener">474. Ones and Zeroes</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="./0474-ones-and-zeroes.html" target="_blank">题解</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">❌ 动态规划，0-1 背包问题。</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>截止目前，本轮练习一共完成 184 道题。</p>
+</div>
+</div>
+</div>
+<div class="paragraph nav-footer">
+<p>← Previous: <a href="top-interview-150.html">面试经典 150 题</a> | ↑ Up: <a href="index.html">LeetCode 解题笔记</a> | Next: <a href="logbook-202503.html">2025年03月 刷题日志</a> →</p>
+</div>
+<script src="https://giscus.app/client.js" data-repo="diguage/leetcode" data-repo-id="MDEwOlJlcG9zaXRvcnkxNDA4NjIxMjI=" data-category="General" data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyMTE4MDgz" data-mapping="og:title" data-strict="0" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="preferred_color_scheme" data-lang="zh-CN" data-loading="lazy" crossorigin="anonymous" async></script>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2025-08-30 14:53:16 UTC
+</div>
+</div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "none" } }
+})
+MathJax.Hub.Register.StartupHook("AsciiMath Jax Ready", function () {
+  MathJax.InputJax.AsciiMath.postfilterHooks.Add(function (data, node) {
+    if ((node = data.script.parentNode) && (node = node.parentNode) && node.classList.contains("stemblock")) {
+      data.math.root.display = "block"
+    }
+    return data
+  })
+})
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+<script src="assets/scripts/asciidoctor-tabs.js"></script>
+<script src="assets/scripts/scroll-toc.js"></script></body>
+</html>
