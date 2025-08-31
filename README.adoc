@@ -3336,13 +3336,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0472-concatenated-words.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/matchsticks-to-square/[473. Matchsticks to Square^]
-//|{source_base_url}/_0473_MatchsticksToSquare.java[Java]
-//|{doc_base_url}/0473-matchsticks-to-square.adoc[题解]
-//|Medium
-//|
+
+|{counter:codes}
+|{leetcode_base_url}/matchsticks-to-square/[473. Matchsticks to Square^]
+|{source_base_url}/_0473_MatchsticksToSquare.java[Java]
+|{doc_base_url}/0473-matchsticks-to-square.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/ones-and-zeroes/[474. Ones and Zeroes^]

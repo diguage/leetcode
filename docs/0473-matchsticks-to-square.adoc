@@ -1,47 +1,69 @@
 [#0473-matchsticks-to-square]
-= 473. Matchsticks to Square
+= 473. 火柴拼正方形
 
-{leetcode}/problems/matchsticks-to-square/[LeetCode - Matchsticks to Square^]
+https://leetcode.cn/problems/matchsticks-to-square/[LeetCode - 473. 火柴拼正方形 ^]
 
-Remember the story of Little Match Girl? By now, you know exactly what matchsticks the little match girl has, please find out a way you can make one square by using up all those matchsticks. You should not break any stick, but you can link them up, and each matchstick must be used *exactly* one time.</P>
+你将得到一个整数数组 `matchsticks` ，其中 `matchsticks[i]` 是第 `i` 个火柴棒的长度。你要用 *所有的火柴棍* 拼成一个正方形。你 *不能折断* 任何一根火柴棒，但你可以把它们连在一起，而且每根火柴棒必须 *使用一次*。
 
- Your input will be several matchsticks the girl has, represented with their stick length. Your output will either be true or false, to represent whether you could make one square using all the matchsticks the little match girl has.
+如果你能使这个正方形，则返回 `true` ，否则返回 `false` 。
 
-*Example 1:*
+*示例 1:*
 
+image::images/0473-01.jpg[{image_attr}]
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,1,2,2,2]
-*Output:* true
+....
+输入: matchsticks = [1,1,2,2,2]
+输出: true
+解释: 能拼成一个边长为2的正方形，每边两根火柴。
+....
 
-*Explanation:* You can form a square with length 2, one side of the square came two sticks with length 1.
-----
+*示例 2:*
 
+....
+输入: matchsticks = [3,3,3,3,4]
+输出: false
+解释: 不能用所有火柴拼成一个正方形。
+....
 
-*Example 2:*
+*提示:*
 
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [3,3,3,3,4]
-*Output:* false
-
-*Explanation:* You cannot find a way to form a square with all the matchsticks.
-----
-
-
-*Note:*
-
-. The length sum of the given matchsticks is in the range of `0` to `10^9`.
-. The length of the given matchstick array will not exceed `15`.
+* `+1 <= matchsticks.length <= 15+`
+* `1 \<= matchsticks[i] \<= 10^8^`
 
 
+== 思路分析
 
+想到了回溯！但是，没写出来。
+
+建立“四条边”，然后把火柴分到四条边里。能分完就成功，否则就是失败。
+
+TIP: 记得有道题目提到是做遍历，如何在“从边到火柴”和“从火柴到边”之间如何做选择。是 xref:0698-partition-to-k-equal-sum-subsets.adoc[698. Partition to K Equal Sum Subsets]，详细题解见： https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/solutions/1441006/by-lfool-d9o7/[698. 划分为k个相等的子集 - 经典回溯算法：集合划分问题「重要更新 🔥🔥🔥」^]。
 
 [[src-0473]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0473_MatchsticksToSquare.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0473_MatchsticksToSquare_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/matchsticks-to-square/solutions/1529706/by-ac_oier-k8i7/[473. 火柴拼正方形 - 一题双解 :「剪枝」&「调参」^]
+. https://leetcode.cn/problems/matchsticks-to-square/solutions/1528435/huo-chai-pin-zheng-fang-xing-by-leetcode-szdp/[473. 火柴拼正方形 - 官方题解^]
+. https://leetcode.cn/problems/matchsticks-to-square/solutions/1530242/by-lfool-iqvw/[473. 火柴拼正方形 - 可参考「集合划分问题 🔥🔥🔥」^] -- 这个讲解非常好！超级详细，也引申出很多东西。

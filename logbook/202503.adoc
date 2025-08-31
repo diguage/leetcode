@@ -1425,6 +1425,11 @@ endif::[]
 |✅ 数学。蒙对了。调用 10 次，生成 `[10, 70]` 的随机数，在除 `10` 求余数即可。
 
 
+|{counter:codes2503}
+|{leetcode_base_url}/matchsticks-to-square/[473. 火柴拼正方形^]
+|{doc_base_url}/0473-matchsticks-to-square.adoc[题解]
+|❌ 回溯。有思路，没代码。“从边到火柴”，还是“从火柴到边”？
+
 
 |===
 
