@@ -1,52 +1,74 @@
 [#0475-heaters]
-= 475. Heaters
+= 475. 供暖器
 
-{leetcode}/problems/heaters/[LeetCode - Heaters^]
+https://leetcode.cn/problems/heaters/[LeetCode - 475. 供暖器 ^]
 
-Winter is coming! Your first job during the contest is to design a standard heater with fixed warm radius to warm all the houses.
+冬季已经来临。 你的任务是设计一个有固定加热半径的供暖器向所有房屋供暖。
 
-Now, you are given positions of houses and heaters on a horizontal line, find out minimum radius of heaters so that all houses could be covered by those heaters.
+在加热器的加热半径范围内的每个房屋都可以获得供暖。
 
-So, your input will be the positions of houses and heaters seperately, and your expected output will be the minimum radius standard of heaters.
+现在，给出位于一条水平线上的房屋 `houses` 和供暖器 `heaters` 的位置，请你找出并返回可以覆盖所有房屋的最小加热半径。
 
-*Note:*
+*注意*：所有供暖器 `heaters` 都遵循你的半径标准，加热的半径也一样。
 
+*示例 1:*
 
-. Numbers of houses and heaters you are given are non-negative and will not exceed 25000.
-. Positions of houses and heaters you are given are non-negative and will not exceed 10^9.
-. As long as a house is in the heaters' warm radius range, it can be warmed.
-. All the heaters follow your radius standard and the warm radius will the same.
+....
+输入: houses = [1,2,3], heaters = [2]
+输出: 1
+解释: 仅在位置 2 上有一个供暖器。如果我们将加热半径设为 1，那么所有房屋就都能得到供暖。
+....
 
+*示例 2:*
 
- 
+....
+输入: houses = [1,2,3,4], heaters = [1,4]
+输出: 1
+解释: 在位置 1, 4 上有两个供暖器。我们需要将加热半径设为 1，这样所有房屋就都能得到供暖。
+....
 
-*Example 1:*
+*示例 3：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,2,3],[2]
-*Output:* 1
-*Explanation:* The only heater was placed in the position 2, and if we use the radius 1 standard, then all the houses can be warmed.
-----
+....
+输入：houses = [1,5], heaters = [2]
+输出：3
+....
 
- 
+*提示：*
 
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,2,3,4],[1,4]
-*Output:* 1
-*Explanation:* The two heater was placed in the position 1 and 4. We need to use radius 1 standard, then all the houses can be warmed.
-----
-
- 
+* `1 \<= houses.length, heaters.length \<= 3 * 10^4^`
+* `1 \<= houses[i], heaters[i] \<= 10^9^`
 
 
+== 思路分析
+
+对加热器进行排序，利用二分查找对每个房子在加热器中寻找距离房子最近的左侧节点；下一个节点即距离房子最近的右侧节点。计算距离房子最近的距离，距离最近的就是最佳加热器。对于所有房子来说，这些距离中的最大距离即可满足加热所有房子的要求。
 
 [[src-0475]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0475_Heaters.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0475_Heaters_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/heaters/solutions/1165760/gong-nuan-qi-by-leetcode-solution-rwui/[475. 供暖器 - 官方题解^]
+. https://leetcode.cn/problems/heaters/solutions/1167213/wei-rao-li-lun-pai-xu-shuang-zhi-zhen-ta-lhp6/[475. 供暖器 - 排序 ｜ 双指针 ｜ 贪心^]
+. https://leetcode.cn/problems/heaters/solutions/337794/man-hua-tu-jie-er-fen-cha-zhao-gong-nuan-qi-by-iva/[475. 供暖器 - 漫画图解：二分查找-供暖器^]

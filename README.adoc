@@ -3351,13 +3351,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/heaters/[475. Heaters^]
-//|{source_base_url}/_0475_Heaters.java[Java]
-//|{doc_base_url}/0475-heaters.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/heaters/[475. Heaters^]
+|{source_base_url}/_0475_Heaters.java[Java]
+|{doc_base_url}/0475-heaters.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/number-complement/[476. Number Complement^]
 //|{source_base_url}/_0476_NumberComplement.java[Java]
