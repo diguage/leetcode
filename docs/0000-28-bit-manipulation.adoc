@@ -1,6 +1,12 @@
 [#0000-28-bit-manipulation]
 = Bit Manipulation 位运算
 
+== 典型技巧
+
+=== 通过减法求补数
+
+最典型的例子： xref:0476-number-complement.adoc[476. Number Complement]。
+
 == 经典例题
 
 . xref:0029-divide-two-integers.adoc[29. Divide Two Integers]
