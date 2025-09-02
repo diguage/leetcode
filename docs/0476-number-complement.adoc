@@ -1,43 +1,90 @@
 [#0476-number-complement]
-= 476. Number Complement
+= 476. 数字的补数
 
-{leetcode}/problems/number-complement/[LeetCode - Number Complement^]
+https://leetcode.cn/problems/number-complement/[LeetCode - 476. 数字的补数 ^]
 
-Given a positive integer, output its complement number. The complement strategy is to flip the bits of its binary representation.
+对整数的二进制表示取反（`0` 变 `1` ，`1` 变 `0`）后，再转换为十进制表示，可以得到这个整数的补数。
 
-*Note:*
+* 例如，整数 `5` 的二进制表示是 `101` ，取反后得到 `010`，再转回十进制表示得到补数 `2` 。
 
-. The given integer is guaranteed to fit within the range of a 32-bit signed integer.
-. You could assume no leading zero bit in the integer’s binary representation.
+给你一个整数 `num` ，输出它的补数。
+
+*示例 1：*
+
+....
+输入：num = 5
+输出：2
+解释：5 的二进制表示为 101（没有前导零位），其补数为 010。所以你需要输出 2 。
+....
+
+*示例 2：*
+
+....
+输入：num = 1
+输出：0
+解释：1 的二进制表示为 1（没有前导零位），其补数为 0。所以你需要输出 0 。
+....
+
+*提示：*
+
+* `1 \<= num < 2^31^`
+
+**注意：**本题与 xref:1009-complement-of-base-10-integer.adoc[1009. Complement of Base 10 Integer] 相同
 
 
+== 思路分析
 
-*Example 1:*
+先求出每个比特位的值，然后按位取反，再用 二进制转十进制的算法转换回去即可。
 
+看题解有更牛逼的思路，比如：
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 5
-*Output:* 2
-*Explanation:* The binary representation of 5 is 101 (no leading zero bits), and its complement is 010. So you need to output 2.
-----
+输入为 5 是 101
 
+输出为 2 是 010
 
-*Example 2:*
+上下两个加起来就是 111 即2的3次方-1
 
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 1
-*Output:* 0
-*Explanation:* The binary representation of 1 is 1 (no leading zero bits), and its complement is 0. So you need to output 0.
-----
+输入为 8 是 1000
 
+输出为 7 是 0111
+
+上下两个加起来就是 1111 即2的4次方-1
+
+同理
+
+就可以知道
+
+找到一个比num大的 2的n次幂的数 本题为 a
+
+然后结果就是 a - num - 1
 
 
 [[src-0476]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0476_NumberComplement.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0476_NumberComplement_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/number-complement/solutions/1050060/shu-zi-de-bu-shu-by-leetcode-solution-xtn8/[476. 数字的补数 - 官方题解^]
+. https://leetcode.cn/problems/number-complement/solutions/1053704/shu-zi-de-bu-shu-qiao-jie-by-interesting-kdum/[476. 数字的补数 - 数字的补数（巧解）^] -- 这个思路牛逼！
+. https://leetcode.cn/problems/number-complement/solutions/1052783/gong-shui-san-xie-yi-ti-shuang-jie-bian-wjl0y/[476. 数字的补数 - 一题双解 :「遍历」&「lowbit」^]

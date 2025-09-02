@@ -1434,6 +1434,11 @@ endif::[]
 |{doc_base_url}/0475-heaters.adoc[题解]
 |❌ 二分查找。对加热器排序，对每一个房子寻找左侧最近的加热器，然后计算两侧加热器哪个最近？对于所有房子来说，做大的最近距离就能满足所有房子的加热需求。
 
+|{counter:codes2503}
+|{leetcode_base_url}/number-complement/[476. 数字的补数^]
+|{doc_base_url}/0476-number-complement.adoc[题解]
+|✅ 数学。位运算。
+
 
 |===
 

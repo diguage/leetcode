@@ -3358,13 +3358,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/number-complement/[476. Number Complement^]
-//|{source_base_url}/_0476_NumberComplement.java[Java]
-//|{doc_base_url}/0476-number-complement.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/number-complement/[476. Number Complement^]
+|{source_base_url}/_0476_NumberComplement.java[Java]
+|{doc_base_url}/0476-number-complement.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/total-hamming-distance/[477. Total Hamming Distance^]
 //|{source_base_url}/_0477_TotalHammingDistance.java[Java]

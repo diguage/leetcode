@@ -1037,7 +1037,7 @@ include::0474-ones-and-zeroes.adoc[leveloffset=+1]
 
 include::0475-heaters.adoc[leveloffset=+1]
 
-// include::0476-number-complement.adoc[leveloffset=+1]
+include::0476-number-complement.adoc[leveloffset=+1]
 
 // include::0477-total-hamming-distance.adoc[leveloffset=+1]
 
