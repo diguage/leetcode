@@ -7,6 +7,12 @@
 
 最典型的例子： xref:0476-number-complement.adoc[476. Number Complement]。
 
+=== 计算数组的汉明距离
+
+在 xref:0461-hamming-distance.adoc[461. Hamming Distance] 中，计算两个数的汉明距离，可以将两个数先异或，然后再使用 Brian Kernighan 算法，stem:[f(x)=x & (x−1)]，求解包含的比特位数。
+
+而在 xref:0477-total-hamming-distance.adoc[477. Total Hamming Distance] 中，则可以通过求所有数字在一个指定比特位上的 `1`（`c`） 和 `0`（`n - c`） 数量，再相乘 stem:[c*(n-c)]，就这个比特位上的汉明距离，最后把每一位的汉明距离相加，得到汉明距离的总和。
+
 == 经典例题
 
 . xref:0029-divide-two-integers.adoc[29. Divide Two Integers]

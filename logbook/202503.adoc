@@ -1442,7 +1442,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/total-hamming-distance/[477. 汉明距离总和^]
 |{doc_base_url}/0477-total-hamming-distance.adoc[题解]
-|✅ 数学。位运算。
+|✅ 数学。位运算。通过求所有数字在一个指定比特位上的 `1`（`c`） 和 `0`（`n - c`） 数量，再相乘 stem:[c*(n-c)]，就这个比特位上的汉明距离，最后把每一位的汉明距离相加，得到汉明距离的总和。
 
 
 |===

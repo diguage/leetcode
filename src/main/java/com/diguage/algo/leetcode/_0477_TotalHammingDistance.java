@@ -1,10 +1,8 @@
 package com.diguage.algo.leetcode;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class _0477_TotalHammingDistance {
   // tag::answer[]
+
   /**
    * 优化前：通过 35 / 46 个测试用例。
    *
@@ -13,30 +11,16 @@ public class _0477_TotalHammingDistance {
    */
   public int totalHammingDistance(int[] nums) {
     int result = 0;
-    Map<Integer, Integer> map = new HashMap<>();
-    for (int i = 0; i < nums.length; i++) {
-      for (int j = i + 1; j < nums.length; j++) {
-        int num = nums[i] ^ nums[j];
-        if (map.containsKey(num)) {
-          result += map.get(num);
-        } else {
-          int bits = bits(num);
-          map.put(num, bits);
-          result += bits;
-        }
+    for (int i = 0; i < 30; i++) {
+      int cnt = 0;
+      for (int num : nums) {
+        cnt += (num >> i) & 1;
       }
+      result += cnt * (nums.length - cnt);
     }
     return result;
   }
 
-  private int bits(int num) {
-    int result = 0;
-    while (num > 0) {
-      num = num & (num - 1);
-      result++;
-    }
-    return result;
-  }
   // end::answer[]
 
   public static void main(String[] args) {

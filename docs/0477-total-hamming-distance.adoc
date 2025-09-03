@@ -35,6 +35,13 @@ HammingDistance(4, 14) + HammingDistance(4, 2) + HammingDistance(14, 2) = 2 + 2 
 
 对数组遍历，取两个数分别计算汉明距离。利用 `Map` 缓存结果，避免重复计算。
 
+一个更快的计算方法是：通过求所有数字在一个指定比特位上的 `1`（`c`） 和 `0`（`n - c`） 数量，再相乘 stem:[c*(n-c)]，就这个比特位上的汉明距离，最后把每一位的汉明距离相加，得到汉明距离的总和。
+
+image::images/0477-10.png[{image_attr}]
+
+image::images/0477-11.gif[{image_attr}]
+
+
 [[src-0477]]
 [tabs]
 ====
@@ -60,4 +67,5 @@ include::{sourcedir}/_0477_TotalHammingDistance.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/total-hamming-distance/solutions/798048/yi-ming-ju-chi-zong-he-by-leetcode-solut-t0ev/[477. 汉明距离总和 - 官方题解^]
+. https://leetcode.cn/problems/total-hamming-distance/solutions/799362/jie-xi-dong-tu-yan-shi-by-xiaohu9527-ipxt/[477. 汉明距离总和 - 简单解析+动图演示^]
