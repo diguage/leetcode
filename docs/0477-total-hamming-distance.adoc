@@ -1,39 +1,63 @@
 [#0477-total-hamming-distance]
-= 477. Total Hamming Distance
+= 477. 汉明距离总和
 
-{leetcode}/problems/total-hamming-distance/[LeetCode - Total Hamming Distance^]
+https://leetcode.cn/problems/total-hamming-distance/[LeetCode - 477. 汉明距离总和 ^]
 
-The https://en.wikipedia.org/wiki/Hamming_distance[Hamming distance^] between two integers is the number of positions at which the corresponding bits are different.
+两个整数的 https://baike.baidu.com/item/%E6%B1%89%E6%98%8E%E8%B7%9D%E7%A6%BB/475174?fr=aladdin[汉明距离] 指的是这两个数字的二进制数对应位不同的数量。
 
-Now your job is to find the total Hamming distance between all pairs of the given numbers.</p>
+给你一个整数数组 `nums`，请你计算并返回 `nums` 中任意两个数之间 *汉明距离的总和* 。
+
+*示例 1：*
+
+....
+输入：nums = [4,14,2]
+输出：6
+解释：在二进制表示中，4 表示为 0100 ，14 表示为 1110 ，2表示为 0010 。（这样表示是为了体现后四位之间关系）
+所以答案为：
+HammingDistance(4, 14) + HammingDistance(4, 2) + HammingDistance(14, 2) = 2 + 2 + 2 = 6
+....
+
+*示例 2：*
+
+....
+输入：nums = [4,14,4]
+输出：4
+....
+
+*提示：*
+
+* `1 \<= nums.length \<= 10^4^`
+* `0 \<= nums[i] \<= 10^9^`
+* 给定输入的对应答案符合 *32-bit* 整数范围
 
 
-*Example:*
+== 思路分析
 
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 4, 14, 2
-
-*Output:* 6
-
-*Explanation:* In binary representation, the 4 is 0100, 14 is 1110, and 2 is 0010 (just
-showing the four bits relevant in this case). So the answer will be:
-HammingDistance(4, 14) + HammingDistance(4, 2) + HammingDistance(14, 2) = 2 + 2 + 2 = 6.
-----
-
-
-*Note:*
-
-. Elements of the given array are in the range of `0 ` to `10^9`
-. Length of the array will not exceed `10^4`. 
-
-
-
+对数组遍历，取两个数分别计算汉明距离。利用 `Map` 缓存结果，避免重复计算。
 
 [[src-0477]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0477_TotalHammingDistance.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0477_TotalHammingDistance_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
 

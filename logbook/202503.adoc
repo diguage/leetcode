@@ -1439,6 +1439,11 @@ endif::[]
 |{doc_base_url}/0476-number-complement.adoc[题解]
 |✅ 数学。位运算。
 
+|{counter:codes2503}
+|{leetcode_base_url}/total-hamming-distance/[477. 汉明距离总和^]
+|{doc_base_url}/0477-total-hamming-distance.adoc[题解]
+|✅ 数学。位运算。
+
 
 |===
 
