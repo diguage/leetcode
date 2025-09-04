@@ -1,52 +1,65 @@
 [#0478-generate-random-point-in-a-circle]
-= 478. Generate Random Point in a Circle
+= 478. 在圆内随机生成点
 
-{leetcode}/problems/generate-random-point-in-a-circle/[LeetCode - Generate Random Point in a Circle^]
+https://leetcode.cn/problems/generate-random-point-in-a-circle/[LeetCode - 478. 在圆内随机生成点 ^]
 
-Given the radius and x-y positions of the center of a circle, write a function `randPoint` which generates a uniform random point in the circle.
+给定圆的半径和圆心的位置，实现函数 `randPoint`，在圆中产生均匀随机点。
 
-Note:
+实现 `Solution` 类:
 
-
-. input and output values are in https://www.webopedia.com/TERM/F/floating_point_number.html[floating-point^].
-. radius and x-y position of the center of the circle is passed into the class constructor.
-. a point on the circumference of the circle is considered to be in the circle.
-. `randPoint` returns a size 2 array containing x-position and y-position of the random point, in that order.
+* `Solution(double radius, double x_center, double y_center)` 用圆的半径 `radius` 和圆心的位置 `(x_center, y_center)` 初始化对象
+* `randPoint()` 返回圆内的一个随机点。圆周上的一点被认为在圆内。答案作为数组返回 `[x, y]` 。
 
 
+*示例 1：*
 
-*Example 1:*
+....
+输入:
+["Solution","randPoint","randPoint","randPoint"]
+[[1.0, 0.0, 0.0], [], [], []]
+输出: [null, [-0.02493, -0.38077], [0.82314, 0.38945], [0.36572, 0.17248]]
+解释:
+Solution solution = new Solution(1.0, 0.0, 0.0);
+solution.randPoint ();//返回[-0.02493，-0.38077]
+solution.randPoint ();//返回[0.82314,0.38945]
+solution.randPoint ();//返回[0.36572,0.17248]
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:*
- ["Solution","randPoint","randPoint","randPoint"]
- [[1,0,0],[],[],[]]
-*Output:* [null,[-0.72939,-0.65505],[-0.78502,-0.28626],[-0.83119,-0.19803]]
-----
+*提示：*
 
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:*
- ["Solution","randPoint","randPoint","randPoint"]
- [[10,5,-7.5],[],[],[]]
-*Output:* [null,[11.52438,-8.33273],[2.46992,-16.21705],[11.13430,-12.42337]]
-----
+* `0 < radius \<= 10^8^`
+* `-10^7^ \<= x_center, y_center \<= 10^7^`
+* `randPoint` 最多被调用 `3 * 10^4^` 次
 
 
-*Explanation of Input Syntax:*
+== 思路分析
 
-The input is two lists: the subroutines called and their arguments. `Solution`'s constructor has three arguments, the radius, x-position of the center, and y-position of the center of the circle. `randPoint` has no arguments. Arguments are always wrapped with a list, even if there aren't any.
-
-
-
+利用图像平移+拒绝采样，以 `(r, r)` 点为圆心，随机生成 `x` 和 `y` 坐标的点，计算距离圆心的距离，符合要求则将 `(rx, ry)` 平移 `(x-r, y-r)` 即可。不符合要求，则再次随机生成。
 
 [[src-0478]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0478_GenerateRandomPointInACircle.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0478_GenerateRandomPointInACircle_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/generate-random-point-in-a-circle/solutions/1534311/zai-yuan-nei-sui-ji-sheng-cheng-dian-by-qp342/[478. 在圆内随机生成点 - 官方题解^]
+. https://leetcode.cn/problems/generate-random-point-in-a-circle/solutions/552751/c-tui-dao-gai-lu-fen-bu-by-vclip-wp0z/[478. 在圆内随机生成点 - 超详细的概率论推导过程 详解两种坐标系下的解法+拒绝采样法^]

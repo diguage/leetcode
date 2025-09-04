@@ -1041,7 +1041,7 @@ include::0476-number-complement.adoc[leveloffset=+1]
 
 include::0477-total-hamming-distance.adoc[leveloffset=+1]
 
-// include::0478-generate-random-point-in-a-circle.adoc[leveloffset=+1]
+include::0478-generate-random-point-in-a-circle.adoc[leveloffset=+1]
 
 // include::0479-largest-palindrome-product.adoc[leveloffset=+1]
 

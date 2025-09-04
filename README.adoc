@@ -3372,13 +3372,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/generate-random-point-in-a-circle/[478. Generate Random Point in a Circle^]
-//|{source_base_url}/_0478_GenerateRandomPointInACircle.java[Java]
-//|{doc_base_url}/0478-generate-random-point-in-a-circle.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/generate-random-point-in-a-circle/[478. Generate Random Point in a Circle^]
+|{source_base_url}/_0478_GenerateRandomPointInACircle.java[Java]
+|{doc_base_url}/0478-generate-random-point-in-a-circle.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/largest-palindrome-product/[479. Largest Palindrome Product^]
 //|{source_base_url}/_0479_LargestPalindromeProduct.java[Java]
