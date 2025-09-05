@@ -3393,13 +3393,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Hard
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/magical-string/[481. Magical String^]
-//|{source_base_url}/_0481_MagicalString.java[Java]
-//|{doc_base_url}/0481-magical-string.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/magical-string/[481. Magical String^]
+|{source_base_url}/_0481_MagicalString.java[Java]
+|{doc_base_url}/0481-magical-string.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/license-key-formatting/[482. License Key Formatting^]
 //|{source_base_url}/_0482_LicenseKeyFormatting.java[Java]

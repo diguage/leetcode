@@ -13,6 +13,12 @@
 
 而在 xref:0477-total-hamming-distance.adoc[477. Total Hamming Distance] 中，则可以通过求所有数字在一个指定比特位上的 `1`（`c`） 和 `0`（`n - c`） 数量，再相乘 stem:[c*(n-c)]，就这个比特位上的汉明距离，最后把每一位的汉明距离相加，得到汉明距离的总和。
 
+=== `1` 和 `2` 与 `3` 异或就可以交替出现 `1` 和 `2`
+
+image::images/0481-18.png[{image_attr}]
+
+例题： xref:0481-magical-string.adoc[481. Magical String]
+
 == 经典例题
 
 . xref:0029-divide-two-integers.adoc[29. Divide Two Integers]

@@ -1449,6 +1449,10 @@ endif::[]
 |{doc_base_url}/0478-generate-random-point-in-a-circle.adoc[题解]
 |✅ 数学。拒绝采样。利用图像平移，在 `(r, r)` 圆生成符合要求的随机数，然后再平移到原始圆附近。
 
+|{counter:codes2503}
+|{leetcode_base_url}/magical-string/[481. 神奇字符串^]
+|{doc_base_url}/0481-magical-string.adoc[题解]
+|❌ 双指针。但感觉有数学的感觉。有大概思路，忽略了 `12` 交替出现的隐含条件。
 
 |===
 
