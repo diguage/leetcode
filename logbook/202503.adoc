@@ -1454,6 +1454,12 @@ endif::[]
 |{doc_base_url}/0481-magical-string.adoc[题解]
 |❌ 双指针。但感觉有数学的感觉。有大概思路，忽略了 `12` 交替出现的隐含条件。
 
+|{counter:codes2503}
+|{leetcode_base_url}/license-key-formatting/[482. License Key Formatting^]
+|{doc_base_url}/0482-license-key-formatting.adoc[题解]
+|✅ 字符串。从后向前，遍历字符串。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

@@ -1049,7 +1049,7 @@ include::0480-sliding-window-median.adoc[leveloffset=+1]
 
 include::0481-magical-string.adoc[leveloffset=+1]
 
-// include::0482-license-key-formatting.adoc[leveloffset=+1]
+include::0482-license-key-formatting.adoc[leveloffset=+1]
 
 // include::0483-smallest-good-base.adoc[leveloffset=+1]
 

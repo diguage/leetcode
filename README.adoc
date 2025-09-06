@@ -3400,13 +3400,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/license-key-formatting/[482. License Key Formatting^]
-//|{source_base_url}/_0482_LicenseKeyFormatting.java[Java]
-//|{doc_base_url}/0482-license-key-formatting.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/license-key-formatting/[482. License Key Formatting^]
+|{source_base_url}/_0482_LicenseKeyFormatting.java[Java]
+|{doc_base_url}/0482-license-key-formatting.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/smallest-good-base/[483. Smallest Good Base^]
 //|{source_base_url}/_0483_SmallestGoodBase.java[Java]
