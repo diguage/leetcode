@@ -1462,12 +1462,17 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/range-addition/[370. 区间加法^]
 |{doc_base_url}/0370-range-addition.adoc[题解]
-|✅ Plus专题。复习差分数组模式。
+|✅ Plus专题。复习 {doc_base_url}/0000-02-difference-array.adoc[Difference Array 差分数组]
 
 |{counter:codes2503}
 |{leetcode_base_url}/car-pooling/[1094. 拼车^]
 |{doc_base_url}/1094-car-pooling.adoc[题解]
-|✅ 复习差分数组模式。
+|✅ 复习 {doc_base_url}/0000-02-difference-array.adoc[Difference Array 差分数组]
+
+|{counter:codes2503}
+|{leetcode_base_url}/range-sum-query-immutable/[303. 区域和检索 - 数组不可变^]
+|{doc_base_url}/0303-range-sum-query-immutable.adoc[题解]
+|✅ 复习 {doc_base_url}/0000-03-prefix-sum.adoc[Prefix Sum 前缀和]
 
 |===
 

@@ -1,38 +1,77 @@
 [#0303-range-sum-query-immutable]
-= 303. Range Sum Query - Immutable
+= 303. 区域和检索 - 数组不可变
 
-{leetcode}/problems/range-sum-query-immutable/[LeetCode - Range Sum Query - Immutable^]
+https://leetcode.cn/problems/range-sum-query-immutable/[LeetCode - 303. 区域和检索 - 数组不可变^]
 
-Given an integer array _nums_, find the sum of the elements between indices _i_ and _j_ (_i_ ≤ _j_), inclusive.
+给定一个整数数组  `nums`，处理以下类型的多个查询:
 
-*Example:*
-[subs="verbatim,quotes,macros"]
-----
-Given nums = [-2, 0, 3, -5, 2, -1]
+. 计算索引 `left` 和 `right` （包含 `left` 和 `right`）之间的 `nums` 元素的 *和* ，其中 `+left <= right+`
 
-sumRange(0, 2) -> 1
-sumRange(2, 5) -> -1
-sumRange(0, 5) -> -3
-----
+实现 `NumArray` 类：
+
+* `NumArray(int[] nums)` 使用数组 `nums` 初始化对象
+* `int sumRange(int i, int j)` 返回数组 `nums` 中索引 `left` 和 `right` 之间的元素的 *总和*，包含 `left` 和 `right` 两点（也就是 `nums[left] + nums[left + 1] + ... + nums[right]`)
+
+*示例 1：*
+
+....
+输入：
+["NumArray", "sumRange", "sumRange", "sumRange"]
+[[[-2, 0, 3, -5, 2, -1]], [0, 2], [2, 5], [0, 5]]
+输出：
+[null, 1, -1, -3]
+
+解释：
+NumArray numArray = new NumArray([-2, 0, 3, -5, 2, -1]);
+numArray.sumRange(0, 2); // return 1 ((-2) + 0 + 3)
+numArray.sumRange(2, 5); // return -1 (3 + (-5) + 2 + (-1))
+numArray.sumRange(0, 5); // return -3 ((-2) + 0 + 3 + (-5) + 2 + (-1))
+....
+
+*提示：*
+
+* `1 \<= nums.length \<= 10^4^`
+* `-10^5^ \<= nums[i] \<= 10^5^`
+* `+0 <= i <= j < nums.length+`
+* 最多调用 `10^4^` 次 `sumRange` 方法
 
 
-*Note:*
-
-. You may assume that the array does not change.
-. There are many calls to _sumRange_ function.
 
 == 思路分析
 
 前缀和
 
-image::images/0303-01.png[{image_attr}]
+image::images/prefix-sum.svg[{image_attr}]
+
+image::images/0303-10.svg[{image_attr}]
+
+image::images/0303-11.png[{image_attr}]
+
+image::images/0303-12.png[{image_attr}]
 
 
 [[src-0303]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0303_RangeSumQueryImmutable.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0303_RangeSumQueryImmutable_2.java[tag=answer]
+----
+--
+====
+
 
 == 参考资料
 

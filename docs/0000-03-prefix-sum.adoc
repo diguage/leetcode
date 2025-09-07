@@ -1,6 +1,9 @@
 [#0000-03-prefix-sum]
 = Prefix Sum 前缀和
 
+image::images/prefix-sum.svg[{image_attr}]
+
+image::images/0303-11.png[{image_attr}]
 
 
 == 经典题目
