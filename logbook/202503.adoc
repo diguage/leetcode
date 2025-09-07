@@ -1474,6 +1474,11 @@ endif::[]
 |{doc_base_url}/0303-range-sum-query-immutable.adoc[题解]
 |✅ 复习 {doc_base_url}/0000-03-prefix-sum.adoc[Prefix Sum 前缀和]
 
+|{counter:codes2503}
+|{leetcode_base_url}/find-first-and-last-position-of-element-in-sorted-array/[34. 在排序数组中查找元素的第一个和最后一个位置^]
+|{doc_base_url}/0034-find-first-and-last-position-of-element-in-sorted-array.adoc[题解]
+|✅ {doc_base_url}/0000-01-modified-binary-search.adoc[二分查找]。寻找边界时，找左收右，找右收左。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
