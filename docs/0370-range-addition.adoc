@@ -45,6 +45,8 @@ https://leetcode.cn/problems/range-addition/[LeetCode - 370. 区间加法^]
 
 image::images/0370-01.png[{image_attr}]
 
+这道题与 xref:1094-car-pooling.adoc[1094. Car Pooling] 一样，并且它不是 Plus 题目，可以验证答案。
+
 [[src-0370]]
 [tabs]
 ====

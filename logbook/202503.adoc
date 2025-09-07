@@ -1445,7 +1445,7 @@ endif::[]
 |✅ 数学。位运算。通过求所有数字在一个指定比特位上的 `1`（`c`） 和 `0`（`n - c`） 数量，再相乘 stem:[c*(n-c)]，就这个比特位上的汉明距离，最后把每一位的汉明距离相加，得到汉明距离的总和。
 
 |{counter:codes2503}
-|{leetcode_base_url}/generate-random-point-in-a-circle/[478. Generate Random Point in a Circle^]
+|{leetcode_base_url}/generate-random-point-in-a-circle/[478. 在圆内随机生成点^]
 |{doc_base_url}/0478-generate-random-point-in-a-circle.adoc[题解]
 |✅ 数学。拒绝采样。利用图像平移，在 `(r, r)` 圆生成符合要求的随机数，然后再平移到原始圆附近。
 
@@ -1455,14 +1455,19 @@ endif::[]
 |❌ 双指针。但感觉有数学的感觉。有大概思路，忽略了 `12` 交替出现的隐含条件。
 
 |{counter:codes2503}
-|{leetcode_base_url}/license-key-formatting/[482. License Key Formatting^]
+|{leetcode_base_url}/license-key-formatting/[482. 密钥格式化^]
 |{doc_base_url}/0482-license-key-formatting.adoc[题解]
 |✅ 字符串。从后向前，遍历字符串。
 
 |{counter:codes2503}
-|{leetcode_base_url}/range-addition/[370. Range Addition^]
+|{leetcode_base_url}/range-addition/[370. 区间加法^]
 |{doc_base_url}/0370-range-addition.adoc[题解]
 |✅ Plus专题。复习差分数组模式。
+
+|{counter:codes2503}
+|{leetcode_base_url}/car-pooling/[1094. 拼车^]
+|{doc_base_url}/1094-car-pooling.adoc[题解]
+|✅ 复习差分数组模式。
 
 |===
 
