@@ -22,6 +22,9 @@ public class _0142_LinkedListCycleII {
     /**
      * Runtime: 1 ms, faster than 32.38% of Java online submissions for Linked List Cycle II.
      * Memory Usage: 41.2 MB, less than 6.32% of Java online submissions for Linked List Cycle II.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-28 08:52
      */
     public ListNode detectCycle(ListNode head) {
         if (Objects.isNull(head)) {

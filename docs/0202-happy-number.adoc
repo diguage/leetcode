@@ -32,18 +32,20 @@ https://leetcode.cn/problems/happy-number/[LeetCode - 202. 快乐数 ^]
 输出：false
 ....
 
-
 *提示：*
 
-* `+1 <= n <= 2+`^`+31+`^`+-1+`
+* `1 \<= n \<= 2^31^ - 1`
+
 
 == 思路分析
 
-竟然可以使用"双指针"，类似判断链表中是否有环的思路！妙！
+竟然可以使用"快慢指针"，类似判断链表中是否有环的思路！妙！
 
-双指针的思路，来个图就一目了然了：
+快慢指针的思路，来个图就一目了然了：
 
 image::images/0202-01.png[{image_attr}]
+
+除了使用快慢指针，也可以使用 `Set` 存已经计算过的数字。
 
 [[src-0202]]
 [tabs]
@@ -64,6 +66,18 @@ include::{sourcedir}/_0202_HappyNumber.java[tag=answer]
 ----
 include::{sourcedir}/_0202_HappyNumber_2.java[tag=answer]
 ----
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0202_HappyNumber_3.java[tag=answer]
+----
 --
 ====
 
+== 参考资料
+
+. https://leetcode.cn/problems/happy-number/solutions/21454/shi-yong-kuai-man-zhi-zhen-si-xiang-zhao-chu-xun-h/[202. 快乐数 - 使用“快慢指针”思想找出循环，不要使用集合或递归！！^]
+. https://leetcode.cn/problems/happy-number/solutions/224894/kuai-le-shu-by-leetcode-solution/[202. 快乐数 - 官方题解^]
