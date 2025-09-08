@@ -1494,6 +1494,11 @@ endif::[]
 |{doc_base_url}/0082-remove-duplicates-from-sorted-list-ii.adoc[题解]
 |✅ 复习 {doc_base_url}/0000-07-fast-slow-pointers.adoc[Fast & Slow Pointers 快慢指针]。不比拘泥于快慢指针；也不比拘泥于一层循环，嵌套的内层循环向前推进，也会带动外层循环向前推进。
 
+|{counter:codes2503}
+|{leetcode_base_url}/merge-intervals/[56. 合并区间^]
+|{doc_base_url}/0056-merge-intervals.adoc[题解]
+|✅ 复习 {doc_base_url}/0000-04-merge-intervals.adoc[Merge Intervals 区间合并]。对区间进行排序，然后快慢指针在当前数组上对其进行合并。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
