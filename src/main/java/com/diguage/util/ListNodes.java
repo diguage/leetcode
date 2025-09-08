@@ -32,6 +32,20 @@ public class ListNodes {
         return true;
     }
 
+  public static ListNode build(int... nums) {
+    if (Objects.isNull(nums) || nums.length == 0) {
+      return null;
+    }
+    ListNode dummy = new ListNode(0);
+    ListNode tail = dummy;
+    for (int i = 0; i < nums.length; i++) {
+      ListNode node = new ListNode(nums[i]);
+      tail.next = node;
+      tail = node;
+    }
+    return dummy.next;
+  }
+
     public static ListNode build(List<Integer> num) {
         if (Objects.isNull(num) || num.size() == 0) {
             return null;

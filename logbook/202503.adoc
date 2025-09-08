@@ -1489,6 +1489,11 @@ endif::[]
 |{doc_base_url}/0202-happy-number.adoc[题解]
 |✅ 复习 {doc_base_url}/0000-07-fast-slow-pointers.adoc[Fast & Slow Pointers 快慢指针]
 
+|{counter:codes2503}
+|{leetcode_base_url}/remove-duplicates-from-sorted-list-ii/[82. 删除排序链表中的重复元素 II^]
+|{doc_base_url}/0082-remove-duplicates-from-sorted-list-ii.adoc[题解]
+|✅ 复习 {doc_base_url}/0000-07-fast-slow-pointers.adoc[Fast & Slow Pointers 快慢指针]。不比拘泥于快慢指针；也不比拘泥于一层循环，嵌套的内层循环向前推进，也会带动外层循环向前推进。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

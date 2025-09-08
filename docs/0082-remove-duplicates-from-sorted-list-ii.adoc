@@ -37,6 +37,8 @@ image::images/0082-02.jpg[{image_attr}]
 
 注意推敲满指针前进的条件！
 
+不比拘泥于快慢指针；也不比拘泥于一层循环，嵌套的内层循环向前推进，也会带动外层循环向前推进。
+
 [[src-0082]]
 [tabs]
 ====
@@ -66,6 +68,15 @@ include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListII_2.java[tag=answer]
 include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListIi_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListIi_4.java[tag=answer]
+----
+--
 ====
 
 
@@ -73,6 +84,7 @@ include::{sourcedir}/_0082_RemoveDuplicatesFromSortedListIi_3.java[tag=answer]
 
 . https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/solutions/678122/shan-chu-pai-xu-lian-biao-zhong-de-zhong-oayn/[82. 删除排序链表中的重复元素 II - 官方题解^]
 . https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/solutions/7396/kuai-man-zhi-zhen-by-powcai-2/[82. 删除排序链表中的重复元素 II - 递归与非递归^]
+. https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/solutions/2004067/ru-he-qu-zhong-yi-ge-shi-pin-jiang-tou-p-2ddn/[82. 删除排序链表中的重复元素 II - 【视频】如何去重？一个视频讲透！附题单！^]
 
 
 
