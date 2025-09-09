@@ -1499,6 +1499,11 @@ endif::[]
 |{doc_base_url}/0056-merge-intervals.adoc[题解]
 |✅ 复习 {doc_base_url}/0000-04-merge-intervals.adoc[Merge Intervals 区间合并]。对区间进行排序，然后快慢指针在当前数组上对其进行合并。
 
+|{counter:codes2503}
+|{leetcode_base_url}/3sum/[15. 三数之和^]
+|{doc_base_url}/0015-3sum.adoc[题解]
+|✅ 复习 {doc_base_url}/0000-06-two-pointer.adoc[Two Pointer 双指针]。双指针+递归降维。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

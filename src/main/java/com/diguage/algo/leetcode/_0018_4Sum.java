@@ -37,6 +37,9 @@ public class _0018_4Sum {
      * Runtime: 4 ms, faster than 94.46% of Java online submissions for 4Sum.
      *
      * Memory Usage: 40.7 MB, less than 52.17% of Java online submissions for 4Sum.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2018-07-15 00:58
      */
     public List<List<Integer>> fourSum(int[] nums, int target) {
         int numCount = 4;
