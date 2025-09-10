@@ -2,7 +2,7 @@
 [#0003-longest-substring-without-repeating-characters]
 = 3. 无重复字符的最长子串
 
-https://leetcode.cn/problems/longest-substring-without-repeating-characters/[LeetCode - 3. 无重复字符的最长子串 ^]
+https://leetcode.cn/problems/longest-substring-without-repeating-characters/[LeetCode - 3. 无重复字符的最长子串^]
 
 给定一个字符串 `s` ，请你找出其中不含有重复字符的 **最长子串** 的长度。
 
@@ -39,7 +39,9 @@ https://leetcode.cn/problems/longest-substring-without-repeating-characters/[Lee
 
 == 思路分析
 
-滑动窗口
+滑动窗口。
+
+可以采用计数法，也可以采用地址法。
 
 
 image::images/0003-11.png[{image_attr}]
@@ -100,6 +102,15 @@ include::{sourcedir}/_0003_LongestSubstringWithoutRepeatingCharacters_3.java[tag
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0003_LongestSubstringWithoutRepeatingCharacters_4.java[tag=answer]
+----
+--
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0003_LongestSubstringWithoutRepeatingCharacters_5.java[tag=answer]
 ----
 --
 ====

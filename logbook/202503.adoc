@@ -1504,6 +1504,11 @@ endif::[]
 |{doc_base_url}/0015-3sum.adoc[题解]
 |✅ 复习 {doc_base_url}/0000-06-two-pointer.adoc[Two Pointer 双指针]。双指针+递归降维。
 
+|{counter:codes2503}
+|{leetcode_base_url}/longest-substring-without-repeating-characters/[3. 无重复字符的最长子串^]
+|{doc_base_url}/0003-longest-substring-without-repeating-characters.adoc[题解]
+|✅ 复习 {doc_base_url}/0000-09-sliding-window.adoc[Sliding Window 滑动窗口]。我采用的是计数法，也可以采用地址法。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
