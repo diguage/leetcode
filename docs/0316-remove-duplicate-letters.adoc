@@ -1,7 +1,7 @@
 [#0316-remove-duplicate-letters]
 = 316. 去除重复字母
 
-https://leetcode.cn/problems/remove-duplicate-letters/[LeetCode - 316. 去除重复字母 ^]
+https://leetcode.cn/problems/remove-duplicate-letters/[LeetCode - 316. 去除重复字母^]
 
 给你一个字符串 `s`，请你去除字符串中重复的字母，使得每个字母只出现一次。需保证 *返回结果的字典序最小*（要求不能打乱其他字符的相对位置）。
 
@@ -50,6 +50,15 @@ include::{sourcedir}/_0316_RemoveDuplicateLetters.java[tag=answer]
 include::{sourcedir}/_0316_RemoveDuplicateLetters_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0316_RemoveDuplicateLetters_3.java[tag=answer]
+----
+--
 ====
 
 
@@ -57,3 +66,4 @@ include::{sourcedir}/_0316_RemoveDuplicateLetters_2.java[tag=answer]
 
 . https://leetcode.cn/problems/remove-duplicate-letters/solutions/527359/qu-chu-zhong-fu-zi-mu-by-leetcode-soluti-vuso/[316. 去除重复字母 - 官方题解^]
 . https://leetcode.cn/problems/remove-duplicate-letters/solutions/290200/yi-zhao-chi-bian-li-kou-si-dao-ti-ma-ma-zai-ye-b-4/[316. 去除重复字母 - 一招吃遍力扣四道题^]
+. https://leetcode.cn/problems/remove-duplicate-letters/solutions/2381483/gen-zhao-wo-guo-yi-bian-shi-li-2ni-jiu-m-zd6u/[316. 去除重复字母 - 跟着我过一遍示例 2，你就明白怎么做了^]

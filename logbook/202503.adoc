@@ -1509,6 +1509,11 @@ endif::[]
 |{doc_base_url}/0003-longest-substring-without-repeating-characters.adoc[题解]
 |✅ 复习 {doc_base_url}/0000-09-sliding-window.adoc[Sliding Window 滑动窗口]。我采用的是计数法，也可以采用地址法。
 
+|{counter:codes2503}
+|{leetcode_base_url}/remove-duplicate-letters/[316. 去除重复字母^]
+|{doc_base_url}/0316-remove-duplicate-letters.adoc[题解]
+|❌ 复习 {doc_base_url}/0000-10-monotonic-stack.adoc[Monotonic Stack 单调栈]。知道是单调栈，代码还是没写出来！看到题解，又里面秒懂。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
