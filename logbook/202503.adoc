@@ -1514,6 +1514,11 @@ endif::[]
 |{doc_base_url}/0316-remove-duplicate-letters.adoc[题解]
 |❌ 复习 {doc_base_url}/0000-10-monotonic-stack.adoc[Monotonic Stack 单调栈]。知道是单调栈，代码还是没写出来！看到题解，又里面秒懂。
 
+|{counter:codes2503}
+|{leetcode_base_url}/remove-k-digits/[402. 移掉 K 位数字^]
+|{doc_base_url}/0402-remove-k-digits.adoc[题解]
+|⭕️ 单调栈。利用单调递增栈，将“当前元素”前面更大的元素都删除掉，这样就可以实现尽可能大的减小这个数字。如果数字是递增的，那么就从后面向前删除，直到删够为止。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
