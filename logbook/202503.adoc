@@ -1519,6 +1519,11 @@ endif::[]
 |{doc_base_url}/0402-remove-k-digits.adoc[题解]
 |⭕️ 单调栈。利用单调递增栈，将“当前元素”前面更大的元素都删除掉，这样就可以实现尽可能大的减小这个数字。如果数字是递增的，那么就从后面向前删除，直到删够为止。
 
+|{counter:codes2503}
+|{leetcode_base_url}/top-k-frequent-elements/[347. 前 K 个高频元素^]
+|{doc_base_url}/0347-top-k-frequent-elements.adoc[题解]
+|✅ Top K 问题，优先队列；桶排序；也可以利用快速选择。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

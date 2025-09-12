@@ -1,9 +1,9 @@
 [#0347-top-k-frequent-elements]
 = 347. 前 K 个高频元素
 
-https://leetcode.cn/problems/top-k-frequent-elements/[LeetCode - 347. 前 K 个高频元素 ^]
+https://leetcode.cn/problems/top-k-frequent-elements/[LeetCode - 347. 前 K 个高频元素^]
 
-给你一个整数数组 `nums` 和一个整数 `k` ，请你返回其中出现频率前 `k` 高的元素。你可以按 *任意顺序* 返回答案。
+给你一个整数数组 `nums` 和一个整数 `k`，请你返回其中出现频率前 `k` 高的元素。你可以按 *任意顺序* 返回答案。
 
 *示例 1:*
 
@@ -19,14 +19,13 @@ https://leetcode.cn/problems/top-k-frequent-elements/[LeetCode - 347. 前 K 个�
 输出: [1]
 ....
 
-
 *提示：*
 
 * `1 \<= nums.length \<= 10^5^`
 * `k` 的取值范围是 `[1, 数组中不相同的元素的个数]`
 * 题目数据保证答案唯一，换句话说，数组中前 `k` 个高频元素的集合是唯一的
 
-**进阶：**你所设计算法的时间复杂度 *必须* 优于 stem:[O(nlogn)] ，其中 `n` 是数组大小。
+**进阶：**你所设计算法的时间复杂度 *必须* 优于 stem:[O(n*logn)] ，其中 `n` 是数组大小。
 
 
 == 思路分析
@@ -35,6 +34,7 @@ https://leetcode.cn/problems/top-k-frequent-elements/[LeetCode - 347. 前 K 个�
 
 Top K 问题！
 
+image::images/0347-10.gif[{image_attr}]
 
 [[src-0347]]
 [tabs]
@@ -65,6 +65,20 @@ include::{sourcedir}/_0347_TopKFrequentElements_2.java[tag=answer]
 include::{sourcedir}/_0347_TopKFrequentElements_21.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0347_TopKFrequentElements_3.java[tag=answer]
+----
+--
 ====
 
 
+== 参考资料
+
+. https://leetcode.cn/problems/top-k-frequent-elements/solutions/402568/qian-k-ge-gao-pin-yuan-su-by-leetcode-solution/[347. 前 K 个高频元素 - 官方题解^]
+. https://leetcode.cn/problems/top-k-frequent-elements/solutions/11201/leetcode-di-347-hao-wen-ti-qian-k-ge-gao-pin-yuan-/[347. 前 K 个高频元素 - 两种解法^]
+. https://leetcode.cn/problems/top-k-frequent-elements/solutions/3655287/tong-pai-xu-on-xian-xing-zuo-fa-pythonja-oqq2/[347. 前 K 个高频元素 - 桶排序，O(n) 线性做法^]
