@@ -1524,6 +1524,11 @@ endif::[]
 |{doc_base_url}/0347-top-k-frequent-elements.adoc[题解]
 |✅ Top K 问题，优先队列；桶排序；也可以利用快速选择。
 
+|{counter:codes2503}
+|{leetcode_base_url}/kth-largest-element-in-an-array/[215. 数组中的第K个最大元素^]
+|{doc_base_url}/0215-kth-largest-element-in-an-array.adoc[题解]
+|⭕️ 快速选择。有思路，但代码总报错！还需要多练！
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

@@ -1,7 +1,7 @@
 [#0215-kth-largest-element-in-an-array]
 = 215. 数组中的第K个最大元素
 
-https://leetcode.cn/problems/kth-largest-element-in-an-array/[LeetCode - 215. 数组中的第K个最大元素 ^]
+https://leetcode.cn/problems/kth-largest-element-in-an-array/[LeetCode - 215. 数组中的第K个最大元素^]
 
 给定整数数组 `nums` 和整数 `k`，请返回数组中第 *`k`* 个最大的元素。
 
@@ -35,6 +35,8 @@ https://leetcode.cn/problems/kth-largest-element-in-an-array/[LeetCode - 215. �
 image::images/0215-01.gif[{image_attr}]
 
 image::images/0215-02.png[{image_attr}]
+
+NOTE: 好久不写，生疏了！
 
 [[src-0215]]
 [tabs]
@@ -83,6 +85,15 @@ include::{sourcedir}/_0215_KthLargestElementInAnArray_4.java[tag=answer]
 include::{sourcedir}/_0215_KthLargestElementInAnArray_5.java[tag=answer]
 ----
 --
+
+六刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0215_KthLargestElementInAnArray_6.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
@@ -90,5 +101,6 @@ include::{sourcedir}/_0215_KthLargestElementInAnArray_5.java[tag=answer]
 . https://en.wikipedia.org/wiki/Quickselect[Quickselect - Wikipedia^]
 . https://leetcode.cn/problems/kth-largest-element-in-an-array/solutions/307351/shu-zu-zhong-de-di-kge-zui-da-yuan-su-by-leetcode-/[215. 数组中的第K个最大元素 - 官方题解^]
 . https://leetcode.cn/problems/kth-largest-element-in-an-array/solutions/2361969/215-shu-zu-zhong-de-di-k-ge-zui-da-yuan-d786p/[215. 数组中的第K个最大元素 - 分治，清晰图解^]
+. https://leetcode.cn/problems/kth-largest-element-in-an-array/solutions/3717020/leetcode-215yi-ti-duo-jie-ji-shu-xuan-ze-664r/[215. 数组中的第K个最大元素 - 计数选择法，快速选择法，堆选择法，多种解法+写法，详细分析^]
 
 
