@@ -5,7 +5,7 @@ public class _0215_KthLargestElementInAnArray_6 {
 
   /**
    * @author D瓜哥 · https://www.diguage.com
-   * @since 2025-04-30 07:16:18
+   * @since 2025-09-13 22:15:50
    */
   public int findKthLargest(int[] nums, int k) {
     return quickselect(nums, 0, nums.length - 1, nums.length - k);

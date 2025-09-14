@@ -1,7 +1,7 @@
 [#0041-first-missing-positive]
 = 41. 缺失的第一个正数
 
-{leetcode}/problems/first-missing-positive/[LeetCode - First Missing Positive^]
+https://leetcode.cn/problems/first-missing-positive/[LeetCode - 41. 缺失的第一个正数^]
 
 给你一个未排序的整数数组 `nums` ，请你找出其中没有出现的最小的正整数。
 
@@ -42,11 +42,11 @@
 
 == 思路分析
 
-这道题跟 {leetcode}/problems/missing-number/[268. Missing Number - LeetCode^] 很像！
-
-
+这道题跟 xref:0268-missing-number.adoc[268. Missing Number] 很像！
 
 image::images/0041-01.png[{image_attr}]
+
+image::images/0041-10.png[{image_attr}]
 
 [[src-0041]]
 [tabs]
@@ -77,6 +77,15 @@ include::{sourcedir}/_0041_FirstMissingPositive_2.java[tag=answer]
 include::{sourcedir}/_0041_FirstMissingPositive_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0041_FirstMissingPositive_4.java[tag=answer]
+----
+--
 ====
 
 
@@ -84,3 +93,4 @@ include::{sourcedir}/_0041_FirstMissingPositive_3.java[tag=answer]
 
 . https://leetcode.cn/problems/first-missing-positive/solutions/304743/que-shi-de-di-yi-ge-zheng-shu-by-leetcode-solution/[41. 缺失的第一个正数 - 官方题解^]
 . https://leetcode.cn/problems/first-missing-positive/solutions/7703/tong-pai-xu-python-dai-ma-by-liweiwei1419/[41. 缺失的第一个正数 - 原地哈希（哈希函数为：f(nums[i\]) = nums[i\] - 1）^]
+. https://leetcode.cn/problems/first-missing-positive/solutions/3655377/huan-zuo-wei-tong-guo-li-zi-li-jie-suan-qa94e/[41. 缺失的第一个正数 - O(n) 换座位，通过例子理解算法思想^]
