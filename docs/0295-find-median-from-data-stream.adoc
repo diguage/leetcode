@@ -1,7 +1,7 @@
 [#0295-find-median-from-data-stream]
 = 295. 数据流的中位数
 
-https://leetcode.cn/problems/find-median-from-data-stream/[LeetCode - 295. 数据流的中位数 ^]
+https://leetcode.cn/problems/find-median-from-data-stream/[LeetCode - 295. 数据流的中位数^]
 
 **中位数**是有序整数列表中的中间值。如果列表的大小是偶数，则没有中间值，中位数是两个中间值的平均值。
 
@@ -39,7 +39,10 @@ medianFinder.findMedian(); // return 2.0
 * 最多 `5 * 10^4^` 次调用 `addNum` 和 `findMedian`
 
 
+[#思路分析]
 == 思路分析
+
+双堆模式。每次添加，都要在两个堆之间倒腾一下，这样才能保证，小的沉下去，大的升上去。
 
 image::images/0295-01.png[{image_attr}]
 
@@ -99,12 +102,22 @@ include::{sourcedir}/_0295_FindMedianFromDataStream_2.java[tag=answer]
 include::{sourcedir}/_0295_FindMedianFromDataStream_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0295_FindMedianFromDataStream_4.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
 
 . https://leetcode.cn/problems/find-median-from-data-stream/solutions/961062/shu-ju-liu-de-zhong-wei-shu-by-leetcode-ktkst/[295. 数据流的中位数 - 官方题解^]
 . https://leetcode.cn/problems/find-median-from-data-stream/solutions/2361972/295-shu-ju-liu-de-zhong-wei-shu-dui-qing-gmdo/[295. 数据流的中位数 - 堆，清晰图解^]
+. https://leetcode.cn/problems/find-median-from-data-stream/solutions/3015873/ru-he-zi-ran-yin-ru-da-xiao-dui-jian-ji-4v22k/[295. 数据流的中位数 - 如何自然引入大小堆？简洁写法！^]
 
 
 
