@@ -15,49 +15,45 @@ public class _0480_SlidingWindowMedian_2 {
     PriorityQueue<Integer> topSmall = new PriorityQueue<>();
     PriorityQueue<Integer> topLarge = new PriorityQueue<>((a, b) -> Integer.compare(b, a));
     double[] result = new double[nums.length - k + 1];
-    for (int i = 0; i < k - 1; i++) {
-      int num = nums[i];
-      addNum(topSmall, topLarge, num);
-    }
-    for (int i = k - 1; i < nums.length; i++) {
-      if (i >= k) {
-        int delete = nums[i - k];
+    int index = 0;
+    while (index < nums.length) {
+      int num = nums[index];
+      if (topLarge.isEmpty() || topLarge.peek() >= num) {
+        topLarge.add(num);
+      } else {
+        topSmall.add(num);
+      }
+
+      if (k <= index) {
+        int delete = nums[index - k];
         if (delete > topLarge.peek()) {
           topSmall.remove(delete);
-          if (topLarge.size() - topSmall.size() > 1) {
-            topSmall.offer(topLarge.poll());
-          }
         } else {
           topLarge.remove(delete);
-          if (topLarge.size() < topSmall.size()) {
-            topLarge.offer(topSmall.poll());
-          }
         }
       }
-      addNum(topSmall, topLarge, nums[i]);
-      result[i - k + 1] = getMedian(k, topSmall, topLarge);
+
+      while (topSmall.size() > topLarge.size()) {
+        topLarge.offer(topSmall.poll());
+      }
+
+      while (topLarge.size() - topSmall.size() > 1) {
+        topSmall.offer(topLarge.poll());
+      }
+
+      if (topSmall.size() + topLarge.size() == k) {
+        result[index - k + 1] = getMedian(k, topSmall, topLarge);
+      }
+      index++;
     }
     return result;
   }
 
   private static double getMedian(int k, PriorityQueue<Integer> topSmall, PriorityQueue<Integer> topLarge) {
-    double median;
-    if (k % 2 == 0) {
-      median = (0D + topSmall.peek() + topLarge.peek()) / 2.0;
-    } else {
-      median = topLarge.peek();
+    if ((k & 1) == 1) {
+      return topLarge.peek();
     }
-    return median;
-  }
-
-  private static void addNum(PriorityQueue<Integer> topSmall, PriorityQueue<Integer> topLarge, int num) {
-    if (topSmall.size() == topLarge.size()) {
-      topSmall.offer(num);
-      topLarge.offer(topSmall.poll());
-    } else {
-      topLarge.offer(num);
-      topSmall.offer(topLarge.poll());
-    }
+    return (0D + topSmall.peek() + topLarge.peek()) / 2.0;
   }
   // end::answer[]
 

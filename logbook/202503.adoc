@@ -1539,6 +1539,11 @@ endif::[]
 |{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
 |✅ 双堆。每次添加，都要在两个堆之间倒腾一下，这样才能保证，小的沉下去，大的升上去。
 
+|{counter:codes2503}
+|{leetcode_base_url}/sliding-window-median/[480. 滑动窗口中位数^]
+|{doc_base_url}/0480-sliding-window-median.adoc[题解]
+|⭕️ 滑动窗口+双堆。单纯利用双堆，只能通过 43 / 44 个测试用例。延迟删除的实现有些复杂，还要再研究一下。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
