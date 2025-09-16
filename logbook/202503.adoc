@@ -1544,6 +1544,11 @@ endif::[]
 |{doc_base_url}/0480-sliding-window-median.adoc[题解]
 |⭕️ 滑动窗口+双堆。单纯利用双堆，只能通过 43 / 44 个测试用例。延迟删除的实现有些复杂，还要再研究一下。
 
+|{counter:codes2503}
+|{leetcode_base_url}/design-twitter/[355. 设计推特^]
+|{doc_base_url}/0355-design-twitter.adoc[题解]
+|✅ 多路归并的解法。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
