@@ -1549,6 +1549,11 @@ endif::[]
 |{doc_base_url}/0355-design-twitter.adoc[题解]
 |✅ 多路归并的解法。
 
+|{counter:codes2503}
+|{leetcode_base_url}/symmetric-tree/[101. 对称二叉树^]
+|{doc_base_url}/0101-symmetric-tree.adoc[题解]
+|✅ 广度优先搜索或深度优先搜索。这次尝试使用广度优先搜索+遍历来解决问题。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

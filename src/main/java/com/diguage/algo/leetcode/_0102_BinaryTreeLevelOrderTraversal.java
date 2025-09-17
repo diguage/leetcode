@@ -44,6 +44,9 @@ public class _0102_BinaryTreeLevelOrderTraversal {
      * Runtime: 3 ms, faster than 5.15% of Java online submissions for Binary Tree Level Order Traversal.
      *
      * Memory Usage: 40.2 MB, less than 5.33% of Java online submissions for Binary Tree Level Order Traversal.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-24 20:40
      */
     public List<List<Integer>> levelOrder(TreeNode root) {
         if (Objects.isNull(root)) {

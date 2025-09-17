@@ -11,6 +11,14 @@ import java.util.*;
  * @since 2020-01-02 00:25
  */
 public class TreeNodes {
+  public static TreeNode buildTree(int... nums) {
+    List<Integer> list = new ArrayList<>(nums.length);
+    for (int num : nums) {
+      list.add(num);
+    }
+    return buildTree(list);
+  }
+
   public static TreeNode buildTree(List<Integer> nums) {
     List<TreeNode> nodes = new ArrayList<>();
     for (int i = 0; i < nums.size(); i++) {

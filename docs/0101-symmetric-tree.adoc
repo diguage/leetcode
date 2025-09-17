@@ -1,65 +1,64 @@
-[#0101-symmetric-tree.adoc]
-= 101. Symmetric Tree
+[#0101-symmetric-tree]
+= 101. 对称二叉树
 
-{leetcode}/problems/symmetric-tree/[LeetCode - Symmetric Tree^]
+https://leetcode.cn/problems/symmetric-tree/[LeetCode - 101. 对称二叉树^]
 
-为什么执行结果显示递归更快？而不是队列呢？
+给你一个二叉树的根节点 `root`， 检查它是否轴对称。
 
-
-Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
-
-For example, this binary tree `[1,2,2,3,4,4,3]` is symmetric:
-
-[subs="verbatim,quotes,macros"]
-----
-    1
-   / \
-  2   2
- / \ / \
-3  4 4  3
-----
-
- 
-
-But the following `[1,2,2,null,3,null,3]` is not:
-
-[subs="verbatim,quotes,macros"]
-----
-    1
-   / \
-  2   2
-   \   \
-   3    3
-----
-
- 
-
-*Note:*
-
-
-Bonus points if you could solve it both recursively and iteratively.
-
-== 思路分析
-
-image::images/0101-00.png[{image_attr}]
+*示例 1：*
 
 image::images/0101-01.png[{image_attr}]
 
+....
+输入：root = [1,2,2,3,4,4,3]
+输出：true
+....
+
+*示例 2：*
+
 image::images/0101-02.png[{image_attr}]
 
-image::images/0101-03.png[{image_attr}]
+....
+输入：root = [1,2,2,null,3,null,3]
+输出：false
+....
 
-image::images/0101-04.png[{image_attr}]
+*提示：*
 
-image::images/0101-05.png[{image_attr}]
+* 树中节点数目在范围 `[1, 1000]` 内
+* `+-100 <= Node.val <= 100+`
 
-image::images/0101-06.png[{image_attr}]
+**进阶：**你可以运用递归和迭代两种方法解决这个问题吗？
 
-image::images/0101-07.png[{image_attr}]
+== 思路分析
 
-image::images/0101-08.png[{image_attr}]
+为什么执行结果显示递归更快？而不是队列呢？
 
-image::images/0101-09.png[{image_attr}]
+使用广度优先搜索解决对称问题。
+
+image::images/0101-10.png[{image_attr}]
+
+image::images/0101-11.png[{image_attr}]
+
+image::images/0101-12.png[{image_attr}]
+
+image::images/0101-13.png[{image_attr}]
+
+image::images/0101-14.png[{image_attr}]
+
+image::images/0101-15.png[{image_attr}]
+
+image::images/0101-16.png[{image_attr}]
+
+image::images/0101-17.png[{image_attr}]
+
+image::images/0101-18.png[{image_attr}]
+
+image::images/0101-19.png[{image_attr}]
+
+image::images/0101-20.gif[{image_attr}]
+
+image::images/0101-21.gif[{image_attr}]
 
 
 [[src-0101]]
@@ -91,10 +90,20 @@ include::{sourcedir}/_0101_SymmetricTree_2.java[tag=answer]
 include::{sourcedir}/_0101_SymmetricTree_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0101_SymmetricTree_4.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
 
 . https://leetcode.cn/problems/symmetric-tree/solutions/268109/dui-cheng-er-cha-shu-by-leetcode-solution/[101. 对称二叉树 - 官方题解^]
 . https://leetcode.cn/problems/symmetric-tree/solutions/2361627/101-dui-cheng-er-cha-shu-fen-zhi-qing-xi-8oba/[101. 对称二叉树 - 深度优先搜索，清晰图解^]
+. https://leetcode.cn/problems/symmetric-tree/solutions/46560/dong-hua-yan-shi-101-dui-cheng-er-cha-shu-by-user7/[101. 对称二叉树 - 动画演示+多种实现 101. 对称二叉树^]
 
