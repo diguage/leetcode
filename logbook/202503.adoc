@@ -1554,6 +1554,11 @@ endif::[]
 |{doc_base_url}/0101-symmetric-tree.adoc[题解]
 |✅ 广度优先搜索或深度优先搜索。这次尝试使用广度优先搜索+遍历来解决问题。
 
+|{counter:codes2503}
+|{leetcode_base_url}/count-unreachable-pairs-of-nodes-in-an-undirected-graph/[2316. 统计无向图中无法互相到达点对数^]
+|{doc_base_url}/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.adoc[题解]
+|⭕️ 深度优先遍历 + 乘法原理。有思路，代码没写利索。这道题还可以使用并查集来解决。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

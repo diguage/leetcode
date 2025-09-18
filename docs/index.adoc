@@ -4717,7 +4717,7 @@ include::1997-first-day-where-you-have-been-in-all-the-rooms.adoc[leveloffset=+1
 
 // include::2315-count-asterisks.adoc[leveloffset=+1]
 
-// include::2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.adoc[leveloffset=+1]
+include::2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.adoc[leveloffset=+1]
 
 // include::2317-maximum-xor-after-operations.adoc[leveloffset=+1]
 

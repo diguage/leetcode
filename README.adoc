@@ -16238,12 +16238,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/count-unreachable-pairs-of-nodes-in-an-undirected-graph/[2316. Count Unreachable Pairs of Nodes in an Undirected Graph^]
-//|{source_base_url}/_2316_CountUnreachablePairsOfNodesInAnUndirectedGraph.java[Java]
-//|{doc_base_url}/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/count-unreachable-pairs-of-nodes-in-an-undirected-graph/[2316. Count Unreachable Pairs of Nodes in an Undirected Graph^]
+|{source_base_url}/_2316_CountUnreachablePairsOfNodesInAnUndirectedGraph.java[Java]
+|{doc_base_url}/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/maximum-xor-after-operations/[2317. Maximum XOR After Operations ^]
