@@ -1,6 +1,8 @@
 package com.diguage.algo.leetcode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class _2316_CountUnreachablePairsOfNodesInAnUndirectedGraph {
   // tag::answer[]
@@ -9,29 +11,30 @@ public class _2316_CountUnreachablePairsOfNodesInAnUndirectedGraph {
    * @since 2025-05-21 17:39:01
    */
   public long countPairs(int n, int[][] edges) {
-    Map<Integer, Set<Integer>> graph = new HashMap<>();
+    List<Integer>[] graph = new List[n];
+    Arrays.setAll(graph, node -> new ArrayList<>());
     for (int[] edge : edges) {
       int a = edge[0];
       int b = edge[1];
-      graph.computeIfAbsent(a, k -> new HashSet<>()).add(b);
-      graph.computeIfAbsent(b, k -> new HashSet<>()).add(a);
+      graph[a].add(b);
+      graph[b].add(a);
     }
     boolean[] visited = new boolean[n];
     long result = 0;
     for (int i = 0, total = 0; i < n; i++) {
       if (!visited[i]) {
         int size = dfs(i, graph, visited);
-        result += 1L * size * total;
+        result += (long) size * total;
         total += size;
       }
     }
     return result;
   }
 
-  private int dfs(int i, Map<Integer, Set<Integer>> graph, boolean[] visited) {
-    visited[i] = true;
+  private int dfs(int index, List<Integer>[] graph, boolean[] visited) {
+    visited[index] = true;
     int result = 1;
-    for (Integer n : graph.getOrDefault(i, Collections.emptySet())) {
+    for (Integer n : graph[index]) {
       if (!visited[n]) {
         result += dfs(n, graph, visited);
       }
