@@ -1559,6 +1559,11 @@ endif::[]
 |{doc_base_url}/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.adoc[题解]
 |⭕️ 深度优先遍历 + 乘法原理。有思路，代码没写利索。这道题还可以使用并查集来解决。
 
+|{counter:codes2503}
+|{leetcode_base_url}/replace-words/[648. 单词替换^]
+|{doc_base_url}/0648-replace-words.adoc[题解]
+|✅ 前缀树。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

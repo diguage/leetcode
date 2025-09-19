@@ -1,42 +1,72 @@
 [#0648-replace-words]
-= 648. Replace Words
+= 648. 单词替换
 
-{leetcode}/problems/replace-words/[LeetCode - Replace Words^]
+https://leetcode.cn/problems/replace-words/[LeetCode - 648. 单词替换^]
 
-In English, we have a concept called `root`, which can be followed by some other words to form another longer word - let's call this word `successor`. For example, the root `an`, followed by `other`, which can form another word `another`.
+在英语中，我们有一个叫做 *词根*(root) 的概念，可以词根 **后面** 添加其他一些词组成另一个较长的单词——我们称这个词为 *衍生词* (*derivative*)。例如，词根 `help`，跟随着**继承**词 `ful`，可以形成新的单词 `helpful`。
 
-Now, given a dictionary consisting of many roots and a sentence. You need to replace all the `successor` in the sentence with the `root` forming it. If a `successor` has many `roots` can form it, replace it with the root with the shortest length.
+现在，给定一个由许多**词根**组成的词典 `dictionary` 和一个用空格分隔单词形成的句子 `sentence`。你需要将句子中的所有**衍生词**用**词根**替换掉。如果**衍生词**有许多可以形成它的 *词根*，则用**最短**的 *词根* 替换它。
 
-You need to output the sentence after the replacement.
+你需要输出替换之后的句子。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* dict = ["cat", "bat", "rat"]
-sentence = "the cattle was rattled by the battery"
-*Output:* "the cat was rat by the bat"
-----
+....
+输入：dictionary = ["cat","bat","rat"], sentence = "the cattle was rattled by the battery"
+输出："the cat was rat by the bat"
+....
 
- 
+*示例 2：*
 
-*Note:*
+....
+输入：dictionary = ["a","b","c"], sentence = "aadsfasf absbs bbab cadsfafs"
+输出："a a b c"
+....
+
+*提示：*
+
+* `+1 <= dictionary.length <= 1000+`
+* `+1 <= dictionary[i].length <= 100+`
+* `dictionary[i]` 仅由小写字母组成。
+* `1 \<= sentence.length \<= 10^6^`
+* `sentence` 仅由小写字母和空格组成。
+* `sentence` 中单词的总量在范围 `[1, 1000]` 内。
+* `sentence` 中每个单词的长度在范围 `[1, 1000]` 内。
+* `sentence` 中单词之间由一个空格隔开。
+* `sentence` 没有前导或尾随空格。
 
 
-. The input will only have lower-case letters.
-. 1 <= dict words number <= 1000
-. 1 <= sentence words number <= 1000
-. 1 <= root length <= 100
-. 1 <= sentence words length <= 1000
+== 思路分析
 
+前缀树！
 
- 
-
-
+将“字典”放到字典树中，然后将句子拆分成单词，在字典树中查找。
 
 [[src-0648]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0648_ReplaceWords.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0648_ReplaceWords_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/replace-words/solutions/1651793/by-ac_oier-jecf/[648. 单词替换 - 【宫水三叶】字典树经典运用题^]
+. https://leetcode.cn/problems/replace-words/solutions/1649109/dan-ci-ti-huan-by-leetcode-solution-pl6v/[648. 单词替换 - 官方题解^]
+. https://leetcode.cn/problems/replace-words/solutions/1662440/by-lfool-pkdp/[648. 单词替换 - 详解前缀树「TrieTree 汇总级别整理 🔥🔥🔥」^]

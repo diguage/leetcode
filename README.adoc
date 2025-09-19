@@ -4562,12 +4562,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/replace-words/[648. Replace Words^]
-//|{source_base_url}/_0648_ReplaceWords.java[Java]
-//|{doc_base_url}/0648-replace-words.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/replace-words/[648. Replace Words^]
+|{source_base_url}/_0648_ReplaceWords.java[Java]
+|{doc_base_url}/0648-replace-words.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/dota2-senate/[649. Dota2 Senate^]
