@@ -6955,14 +6955,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0989-add-to-array-form-of-integer.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/satisfiability-of-equality-equations/[990. Satisfiability of Equality Equations^]
-//|{source_base_url}/_0990_SatisfiabilityOfEqualityEquations.java[Java]
-//|{doc_base_url}/0990-satisfiability-of-equality-equations.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/satisfiability-of-equality-equations/[990. Satisfiability of Equality Equations^]
+|{source_base_url}/_0990_SatisfiabilityOfEqualityEquations.java[Java]
+|{doc_base_url}/0990-satisfiability-of-equality-equations.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/broken-calculator/[991. Broken Calculator^]
 //|{source_base_url}/_0991_BrokenCalculator.java[Java]

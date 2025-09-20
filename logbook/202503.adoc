@@ -1564,6 +1564,12 @@ endif::[]
 |{doc_base_url}/0648-replace-words.adoc[题解]
 |✅ 前缀树。
 
+|{counter:codes2503}
+|{leetcode_base_url}/satisfiability-of-equality-equations/[990. Satisfiability of Equality Equations^]
+|{doc_base_url}/0990-satisfiability-of-equality-equations.adoc[题解]
+|✅ 并查集，将式子分为两类，添加等式，查询不等式，相连就报错。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
