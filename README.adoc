@@ -10925,12 +10925,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/minimum-number-of-vertices-to-reach-all-nodes/[1557. Minimum Number of Vertices to Reach All Nodes^]
-//|{source_base_url}/_1557_MinimumNumberOfVerticesToReachAllNodes.java[Java]
-//|{doc_base_url}/1557-minimum-number-of-vertices-to-reach-all-nodes.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/minimum-number-of-vertices-to-reach-all-nodes/[1557. Minimum Number of Vertices to Reach All Nodes^]
+|{source_base_url}/_1557_MinimumNumberOfVerticesToReachAllNodes.java[Java]
+|{doc_base_url}/1557-minimum-number-of-vertices-to-reach-all-nodes.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/minimum-numbers-of-function-calls-to-make-target-array/[1558. Minimum Numbers of Function Calls to Make Target Array^]

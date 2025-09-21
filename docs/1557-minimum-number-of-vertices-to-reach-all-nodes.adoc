@@ -1,53 +1,48 @@
 [#1557-minimum-number-of-vertices-to-reach-all-nodes]
-= 1557. Minimum Number of Vertices to Reach All Nodes
+= 1557. 可以到达所有点的最少点数目
 
-{leetcode}/problems/minimum-number-of-vertices-to-reach-all-nodes/[LeetCode - 1557. Minimum Number of Vertices to Reach All Nodes ^]
+https://leetcode.cn/problems/minimum-number-of-vertices-to-reach-all-nodes/[LeetCode - 1557. 可以到达所有点的最少点数目^]
 
-Given a* directed acyclic graph*, with `n` vertices numbered from `0` to `n-1`, and an array `edges` where `edges[i] = [from<sub>i</sub>, to<sub>i</sub>]` represents a directed edge from node `from<sub>i</sub>` to node `to<sub>i</sub>`.
+给你一个 *有向无环图*， `n` 个节点编号为 `0` 到 `n-1` ，以及一个边数组 `edges` ，其中 `edges[i] = [from~i~, to~i~]` 表示一条从点  `from~i~ 到点 `to~i~ 的有向边。
 
-Find _the smallest set of vertices from which all nodes in the graph are reachable_. It's guaranteed that a unique solution exists.
+找到最小的点集使得从这些点出发能到达图中所有点。题目保证解存在且唯一。
 
-Notice that you can return the vertices in any order.
+你可以以任意顺序返回这些节点编号。
 
- 
-*Example 1:*
+*示例 1：*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2020/07/07/untitled22.png" style="width: 231px; height: 181px;" />
+image::images/1557-01.png[{image_attr}]
 
-[subs="verbatim,quotes"]
-----
-*Input:* n = 6, edges = [[0,1],[0,2],[2,5],[3,4],[4,2]]
-*Output:* [0,3]
-*Explanation: *It's not possible to reach all the nodes from a single vertex. From 0 we can reach [0,1,2,5]. From 3 we can reach [3,4,2,5]. So we output [0,3].
-----
+....
+输入：n = 6, edges = [[0,1],[0,2],[2,5],[3,4],[4,2]]
+输出：[0,3]
+解释：从单个节点出发无法到达所有节点。从 0 出发我们可以到达 [0,1,2,5] 。从 3 出发我们可以到达 [3,4,2,5] 。所以我们输出 [0,3] 。
+....
 
-*Example 2:*
+*示例 2：*
 
-<img alt="" src="https://assets.leetcode.com/uploads/2020/07/07/untitled.png" style="width: 201px; height: 201px;" />
+image::images/1557-02.png[{image_attr}]
 
-[subs="verbatim,quotes"]
-----
-*Input:* n = 5, edges = [[0,1],[2,1],[3,1],[1,4],[2,4]]
-*Output:* [0,2,3]
-*Explanation: *Notice that vertices 0, 3 and 2 are not reachable from any other node, so we must include them. Also any of these vertices can reach nodes 1 and 4.
+....
+输入：n = 5, edges = [[0,1],[2,1],[3,1],[1,4],[2,4]]
+输出：[0,2,3]
+解释：注意到节点 0，3 和 2 无法从其他节点到达，所以我们必须将它们包含在结果点集中，这些点都能到达节点 1 和 4 。
+....
 
-----
+*提示：*
 
- 
-*Constraints:*
-
-
-* `2 <= n <= 10^5`
-* `1 <= edges.length <= min(10^5, n * (n - 1) / 2)`
+* `2 \<= n \<= 10^5^`
+* `1 \<= edges.length \<= min(10^5^, n * (n - 1) / 2)`
 * `edges[i].length == 2`
-* `0 <= from<sub>i,</sub> to<sub>i</sub> < n`
-* All pairs `(from<sub>i</sub>, to<sub>i</sub>)` are distinct.
-
-
+* `0 \<= from~i~, to~i~ < n`
+* 所有点对 `(from~i~, to~i~)` 互不相同。
 
 
 == 思路分析
 
+拓扑排序的基础款：利用拓扑排序的思路，构建“图”，寻找入度为 `0` 的节点即可。
+
+TIP: 看题解，发现一个更优解：不需要记录节点的入度，只需要标记有没有入度即可，没有入度就可以作为起点。所以，可以直接使用 `boolean` 类型的数组。空间利用率更高！
 
 [[src-1557]]
 [tabs]
@@ -74,4 +69,6 @@ include::{sourcedir}/_1557_MinimumNumberOfVerticesToReachAllNodes.java[tag=answe
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/minimum-number-of-vertices-to-reach-all-nodes/solutions/403703/ke-yi-dao-da-suo-you-dian-de-zui-shao-dian-shu-m-2/[1557. 可以到达所有点的最少点数目 - 官方题解^]
+. https://leetcode.cn/problems/minimum-number-of-vertices-to-reach-all-nodes/solutions/3735982/kong-jian-shi-jian-shuang-jin-100-ru-du-zgm5p/[1557. 可以到达所有点的最少点数目 - 空间时间双近100 入度0^]
+. https://leetcode.cn/problems/minimum-number-of-vertices-to-reach-all-nodes/solutions/385297/tong-ji-ru-du-wei-0jie-dian-by-soap88/[1557. 可以到达所有点的最少点数目 - 统计入度为0节点^]

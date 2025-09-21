@@ -3199,7 +3199,7 @@ include::1530-number-of-good-leaf-nodes-pairs.adoc[leveloffset=+1]
 
 // include::1556-thousand-separator.adoc[leveloffset=+1]
 
-// include::1557-minimum-number-of-vertices-to-reach-all-nodes.adoc[leveloffset=+1]
+include::1557-minimum-number-of-vertices-to-reach-all-nodes.adoc[leveloffset=+1]
 
 // include::1558-minimum-numbers-of-function-calls-to-make-target-array.adoc[leveloffset=+1]
 
