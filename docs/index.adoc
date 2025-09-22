@@ -4315,7 +4315,7 @@ include::1997-first-day-where-you-have-been-in-all-the-rooms.adoc[leveloffset=+1
 
 // include::2114-maximum-number-of-words-found-in-sentences.adoc[leveloffset=+1]
 
-// include::2115-find-all-possible-recipes-from-given-supplies.adoc[leveloffset=+1]
+include::2115-find-all-possible-recipes-from-given-supplies.adoc[leveloffset=+1]
 
 // include::2116-check-if-a-parentheses-string-can-be-valid.adoc[leveloffset=+1]
 

@@ -14831,12 +14831,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/find-all-possible-recipes-from-given-supplies/[2115. Find All Possible Recipes from Given Supplies^]
-//|{source_base_url}/_2115_FindAllPossibleRecipesFromGivenSupplies.java[Java]
-//|{doc_base_url}/2115-find-all-possible-recipes-from-given-supplies.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/find-all-possible-recipes-from-given-supplies/[2115. Find All Possible Recipes from Given Supplies^]
+|{source_base_url}/_2115_FindAllPossibleRecipesFromGivenSupplies.java[Java]
+|{doc_base_url}/2115-find-all-possible-recipes-from-given-supplies.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/check-if-a-parentheses-string-can-be-valid/[2116. Check if a Parentheses String Can Be Valid^]

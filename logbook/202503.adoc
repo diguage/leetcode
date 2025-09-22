@@ -1574,6 +1574,11 @@ endif::[]
 |{doc_base_url}/1557-minimum-number-of-vertices-to-reach-all-nodes.adoc[题解]
 |✅ 拓扑排序。基础款，只需要找出入度为 `0` 的节点即可。
 
+|{counter:codes2503}
+|{leetcode_base_url}/find-all-possible-recipes-from-given-supplies/[2115. 从给定原材料中找到所有可以做出的菜^]
+|{doc_base_url}/2115-find-all-possible-recipes-from-given-supplies.adoc[题解]
+|✅ 拓扑排序。在拓扑排序的基础上，对起点和涉及到的点做了限制。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
