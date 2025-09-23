@@ -70,6 +70,10 @@ image::images/0721-10.png[{image_attr}]
 
 image::images/0721-11.png[{image_attr}]
 
+还有一个解法：
+
+将后续账户中出现重复的情况时，添加到前面的账户中。相比并查集，代码更简单一些。
+
 [[src-0721]]
 [tabs]
 ====
@@ -82,14 +86,14 @@ include::{sourcedir}/_0721_AccountsMerge.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0721_AccountsMerge_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0721_AccountsMerge_2.java[tag=answer]
+----
+--
 ====
 
 

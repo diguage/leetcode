@@ -17,6 +17,7 @@ D瓜哥最早知道减治法是在 https://book.douban.com/subject/26337727/[《
 == 经典题目
 
 . xref:0721-accounts-merge.adoc[721. Accounts Merge] -- https://leetcode.cn/problems/accounts-merge/solutions/2844329/qu-qiao-de-fang-fa-3miao-kan-dong-si-wei-llcx/[721. 账户合并 - 取巧的减治方法，3秒看懂^]
+. xref:0050-powx-n.adoc[50. Pow(x, n)]
 
 == 参考资料
 
