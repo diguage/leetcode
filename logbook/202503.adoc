@@ -1584,6 +1584,11 @@ endif::[]
 |{doc_base_url}/0721-accounts-merge.adoc[题解]
 |✅ {doc_base_url}/0000-21-decrease-and-conquer.adoc[Decrease and Conquer 减治法]。在出现重复时，将后面的账户加入到前面账户。
 
+|{counter:codes2503}
+|{leetcode_base_url}/super-pow/[372. 超级次方^]
+|{doc_base_url}/0372-super-pow.adoc[题解]
+|⭕️ 数学计算+分治算法。重点是要搞清楚，两个数字相乘求模，等于分别对两个数求模，相乘然后再求模。最开始的想法把复杂度搞错了。通过 `a *= a` + `b /= 2` 可以对半减低计算幂次方的循环次数，也就可以大幅降低计算耗时。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
