@@ -20,6 +20,9 @@ public class _0113_PathSumII_21 {
 
     /**
      * 原始解法
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-07 22:31
      */
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
       if (root == null) {
