@@ -32,7 +32,7 @@
     <asciidoctor-comment-links.version>0.0.2</asciidoctor-comment-links.version>
     <asciidoctor-multipage.version>0.0.19</asciidoctor-multipage.version>
     <asciidoctor-tabs.version>1.0.0.beta.6</asciidoctor-tabs.version>
-    <rouge.version>4.3.0</rouge.version>
+    <rouge.version>4.6.1</rouge.version>
     <asciidoctor-kroki.version>0.10.0</asciidoctor-kroki.version>
     <asciidoclet.version>2.0.0</asciidoclet.version>
     <asciidoctor-maven-plugin.version>3.2.0</asciidoctor-maven-plugin.version>
@@ -40,12 +40,12 @@
     <gem-maven-plugin.version>3.0.6</gem-maven-plugin.version>
     <download-maven-plugin.version>1.13.0</download-maven-plugin.version>
     <exec-maven-plugin.version>3.5.1</exec-maven-plugin.version>
-    <jruby.version>10.0.1.0</jruby.version>
+    <jruby.version>10.0.2.0</jruby.version>
     <gem.path>${project.basedir}/cfg/gems</gem.path>
     <pdf-fonts.path>${user.home}/.fonts</pdf-fonts.path>
     <pdf-fonts.baseuri>https://github.com/diguage/open-fonts/releases/download/latest</pdf-fonts.baseuri>
 
-    <java.version>21</java.version>
+    <java.version>25</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <maven.compiler.release>${java.version}</maven.compiler.release>
@@ -57,7 +57,7 @@
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.17.1</version>
+      <version>2.20.0</version>
     </dependency>
   </dependencies>
 
