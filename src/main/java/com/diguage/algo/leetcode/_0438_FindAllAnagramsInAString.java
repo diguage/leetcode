@@ -17,6 +17,9 @@ public class _0438_FindAllAnagramsInAString {
      * Memory Usage: 42.6 MB, less than 6.00% of Java online submissions for Find All Anagrams in a String.
      *
      * Copy from: https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/[滑动窗口通用思想解决子串问题 - 找到字符串中所有字母异位词 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-30 12:24
      */
     public List<Integer> findAnagrams(String s, String p) {
         if (Objects.isNull(s) || s.length() == 0
