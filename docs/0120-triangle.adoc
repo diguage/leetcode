@@ -36,16 +36,18 @@ https://leetcode.cn/problems/triangle/[LeetCode - 120. 三角形最小路径和 
 
 *进阶：*
 
-* 你可以只使用 stem:[O(n)] 的额外空间（`n`为三角形的总行数）来解决这个问题吗？
+* 你可以只使用 stem:[O(n)] 的额外空间（`n` 为三角形的总行数）来解决这个问题吗？
 
 
 == 思路分析
 
-image::images/0120-1.png[{image_attr}]
+image::images/0120-01.png[{image_attr}]
 
 一图胜千言！
 
 自底向上计算逐层每个元素的最小和。最后即可得出最小路径和。
+
+image::images/0120-02.svg[{image_attr}]
 
 [[src-0120]]
 [tabs]
@@ -65,6 +67,15 @@ include::{sourcedir}/_0120_Triangle.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0120_Triangle_2.java[tag=answer]
+----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0120_Triangle_3.java[tag=answer]
 ----
 --
 ====
