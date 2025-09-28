@@ -10,10 +10,10 @@ public class _0120_Triangle_3 {
    */
   public int minimumTotal(List<List<Integer>> triangle) {
     Integer[] dp = triangle.getLast().toArray(new Integer[0]);
-    for (int i = 0; i < triangle.size() - 1; i++) {
-      int idx = triangle.size() - i - 2;
-      List<Integer> curr = triangle.get(idx);
-      for (int j = 0; j <= idx; j++) {
+    // 最后一行已经复制了，从倒数第二行开始处理
+    for (int i = triangle.size() - 2; i >= 0; i--) {
+      List<Integer> curr = triangle.get(i);
+      for (int j = 0; j < curr.size(); j++) {
         dp[j] = curr.get(j) + Math.min(dp[j], dp[j + 1]);
       }
     }
