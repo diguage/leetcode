@@ -258,6 +258,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 == 参考资料
 
 . https://leetcode.cn/circle/discuss/RvFUtj/[如何科学刷题？ - 按照难度系数刷题^]
+. https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md[灵茶山艾府·高质量题解精选^]
 . https://www.designgurus.io/course/grokking-the-coding-interview[Grokking the Coding Interview Patterns^]
 . https://leetcode.ca/all/1650.html[Leetcode 1650. Lowest Common Ancestor of a Binary Tree III^] -- 会员题目可以在这里查找。
 . https://github.com/doocs/leetcode[doocs/leetcode: 🔥LeetCode solutions in any programming language | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解^] -- 也可以在这里找题目
@@ -265,6 +266,14 @@ image::images/quick-sort-01.gif[{image_attr}]
 . https://leetcode.cn/problems/climbing-stairs/solutions/2560716/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-7zm1/?envType=study-plan-v2&envId=selected-coding-interview[70. 爬楼梯 - 教你一步步思考动态规划：从记忆化搜索到递推^]
 . https://leetcode.cn/circle/discuss/xV68NV/[不同层次的面试算法学习规划^]
 . https://www.zhihu.com/question/36738189/answer/908664455[LeetCode按照怎样的顺序来刷题比较好？]
+. https://huxulm.github.io/lc-rating/zen[LeetCode 难度练习^]
+. https://roadmap.sh/datastructures-and-algorithms[Data Structures and Algorithms Roadmap^]
+. https://algomaster.io/roadmaps/dsa[Data Structures & Algorithms Roadmap | AlgoMaster^]
 . https://www.educative.io/courses/grokking-coding-interview[Grokking the Coding Interview Patterns^]
 . https://www.educative.io/courses/grokking-the-system-design-interview[Grokking the Modern System Design Interview^] -- 据说这个系统设计的题目也非常好！
-. https://huxulm.github.io/lc-rating/zen[LeetCode 难度练习^]
+. https://github.com/donnemartin/system-design-primer[The System Design Primer: Learn how to design large-scale systems.^]
+. https://roadmap.sh/system-design[System Design Roadmap^]
+. https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction[System Design in a Hurry^]
+. https://bytebytego.com/courses/system-design-interview/foreword[ByteByteGo | System Design Interview^]
+. https://blog.algomaster.io/t/system-design[AlgoMaster Newsletter | System Design^]
+. https://algomaster.io/learn/system-design/what-is-system-design[What Is System Design | AlgoMaster.io^]
