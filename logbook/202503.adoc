@@ -1609,6 +1609,11 @@ endif::[]
 |{doc_base_url}/0120-triangle.adoc[题解]
 |✅ 动态规划。恰当的计算顺序对算法的实现也至关重要！
 
+|{counter:codes2503}
+|{leetcode_base_url}/count-ways-to-build-good-strings/[2466. 统计构造好字符串的方案数^]
+|{doc_base_url}/2466-count-ways-to-build-good-strings.adoc[题解]
+|❌ 动态规划。还是爬楼梯！
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

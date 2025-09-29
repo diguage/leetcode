@@ -1,55 +1,47 @@
 [#2466-count-ways-to-build-good-strings]
-= 2466. Count Ways To Build Good Strings
+= 2466. 统计构造好字符串的方案数
 
-{leetcode}/problems/count-ways-to-build-good-strings/[LeetCode - 2466. Count Ways To Build Good Strings ^]
+https://leetcode.cn/problems/count-ways-to-build-good-strings/[LeetCode - 2466. 统计构造好字符串的方案数 ^]
 
-Given the integers `zero`, `one`, `low`, and `high`, we can construct a string by starting with an empty string, and then at each step perform either of the following:
+给你整数 `zero` ，`one` ，`low` 和 `high`，我们从空字符串开始构造一个字符串，每一步执行下面操作中的一种：
 
+* 将 `0` 在字符串末尾添加 `zero`  次。
+* 将 `1` 在字符串末尾添加 `one` 次。
 
-* Append the character `'0'` `zero` times.
-* Append the character `'1'` `one` times.
+以上操作可以执行任意次。
 
+如果通过以上过程得到一个 *长度* 在 `low` 和 `high` 之间（包含上下边界）的字符串，那么这个字符串我们称为 *好* 字符串。
 
-This can be performed any number of times.
+请你返回满足以上要求的 *不同* 好字符串数目。由于答案可能很大，请将结果对 `10`^`9`^`+ + 7+` *取余* 后返回。
 
-A *good* string is a string constructed by the above process having a *length* between `low` and `high` (*inclusive*).
+*示例 1：*
 
-Return _the number of *different* good strings that can be constructed satisfying these properties._ Since the answer can be large, return it *modulo* `10^9^ + 7`.
+....
+输入：low = 3, high = 3, zero = 1, one = 1
+输出：8
+解释：
+一个可能的好字符串是 "011" 。
+可以这样构造得到："" -> "0" -> "01" -> "011" 。
+从 "000" 到 "111" 之间所有的二进制字符串都是好字符串。
+....
 
- 
-*Example 1:*
+*示例 2：*
 
-[subs="verbatim,quotes"]
-----
-*Input:* low = 3, high = 3, zero = 1, one = 1
-*Output:* 8
-*Explanation:* 
-One possible valid good string is "011". 
-It can be constructed as follows: "" -> "0" -> "01" -> "011". 
-All binary strings from "000" to "111" are good strings in this example.
-----
+....
+输入：low = 2, high = 3, zero = 1, one = 2
+输出：5
+解释：好字符串为 "00" ，"11" ，"000" ，"110" 和 "011" 。
+....
 
-*Example 2:*
+*提示：*
 
-[subs="verbatim,quotes"]
-----
-*Input:* low = 2, high = 3, zero = 1, one = 2
-*Output:* 5
-*Explanation:* The good strings are "00", "11", "000", "110", and "011".
-----
-
- 
-*Constraints:*
-
-
-* `1 <= low <= high <= 10^5^`
-* `1 <= zero, one <= low`
-
-
+* `1 \<= low \<= high \<= 10^5^`
+* `1 \<= zero, one \<= low`
 
 
 == 思路分析
 
+还是爬楼梯！脑子转不过来弯！
 
 [[src-2466]]
 [tabs]

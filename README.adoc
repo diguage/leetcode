@@ -17288,12 +17288,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/count-ways-to-build-good-strings/[2466. Count Ways To Build Good Strings^]
-//|{source_base_url}/_2466_CountWaysToBuildGoodStrings.java[Java]
-//|{doc_base_url}/2466-count-ways-to-build-good-strings.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/count-ways-to-build-good-strings/[2466. Count Ways To Build Good Strings^]
+|{source_base_url}/_2466_CountWaysToBuildGoodStrings.java[Java]
+|{doc_base_url}/2466-count-ways-to-build-good-strings.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/most-profitable-path-in-a-tree/[2467. Most Profitable Path in a Tree^]
