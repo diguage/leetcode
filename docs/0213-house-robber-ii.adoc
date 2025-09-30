@@ -41,6 +41,7 @@ https://leetcode.cn/problems/house-robber-ii/[LeetCode - 213. 打家劫舍 II ^]
 
 相比 xref:0198-house-robber.adoc[198. House Robber]，这里的房屋是首尾相连，那么首和尾只能选一个。这里采取“从头到尾”和“从尾到头”遍历两遍的策略，在遍历时都排除最后一个元素不考虑。然后取这两遍遍历中的最大值为结果。
 
+另外，还有一个思路：从第一个开始抢劫到倒数第二个，或者从第二个开始抢劫，抢到最后一个。
 
 [[src-0213]]
 [tabs]
@@ -54,17 +55,31 @@ include::{sourcedir}/_0213_HouseRobberIi.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0213_HouseRobberIi_2.java[tag=answer]
-// ----
-// --
+二刷（两端）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0213_HouseRobberIi_20.java[tag=answer]
+----
+--
+
+二刷（第一、二）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0213_HouseRobberIi_21.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
+. https://leetcode.cn/problems/house-robber-ii/solutions/2445622/jian-ji-xie-fa-zhi-jie-diao-yong-198-ti-qhvri/[213. 打家劫舍 II - 简洁写法！直接调用 198 题代码！^]
+. https://leetcode.cn/problems/house-robber-ii/solutions/28258/213-da-jia-jie-she-iidong-tai-gui-hua-jie-gou-hua-/[213. 打家劫舍 II - 打家劫舍 II（动态规划，结构化思路，清晰题解）^]
+. https://leetcode.cn/problems/house-robber-ii/solutions/722767/da-jia-jie-she-ii-by-leetcode-solution-bwja/[213. 打家劫舍 II - 官方题解^]
+. https://leetcode.cn/problems/house-robber-ii/solutions/67465/tong-yong-si-lu-tuan-mie-da-jia-jie-she-wen-ti-by-/[213. 打家劫舍 II - 通用思路团灭打家劫舍问题^]
+. https://leetcode.cn/problems/house-robber-ii/solutions/723182/gong-shui-san-xie-ru-he-jiang-xin-xian-z-zf0w/[213. 打家劫舍 II - 【宫水三叶】从 I 到 II : 如何将「新限制条件」拎出，将问题转化为已解决方案^]
 

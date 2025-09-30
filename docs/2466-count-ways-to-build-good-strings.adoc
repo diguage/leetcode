@@ -68,4 +68,5 @@ include::{sourcedir}/_2466_CountWaysToBuildGoodStrings.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/count-ways-to-build-good-strings/solutions/1964910/by-endlesscheng-4j22/[2466. 统计构造好字符串的方案数 - 爬楼梯换皮^] -- 最后的优化真是太绝了！
+. https://leetcode.cn/problems/count-ways-to-build-good-strings/solutions/2575172/2466-tong-ji-gou-zao-hao-zi-fu-chuan-de-r5k5n/[2466. 统计构造好字符串的方案数^]
