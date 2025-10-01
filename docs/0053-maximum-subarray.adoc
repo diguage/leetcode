@@ -41,7 +41,12 @@ https://leetcode.cn/problems/maximum-subarray/[LeetCode - 53. 最大子数组和
 
 使用动态规划，在“当前元素”与“当前元素加之前数组的和”之间，取最大值作为动态规划的结果，向前推进。在所有动态结果中，取最大值即可。
 
-NOTE: 感觉做得有点莫名其妙，稀里糊涂就对了。另有更精妙的分治解法，抽空再尝试。
+stem:[f(x)] 表示从 `0` 到第 `x` 个元素的最大子数组和，如果第 `x-1` 个元素的最大子数组之和大于 `0`，则可以继续向上“盖楼”；当小于等于 `0` 时，可以抛弃前面的元素从新开始。则递推公式是： stem:[f(x)=max(f(x-1),0)+a[x\]]。这个做法也叫做 Kadane 算法。
+
+image::images/0053-10.png[{image_attr}]
+
+NOTE: 另有更精妙的分治解法和前缀和解法，抽空再尝试。
+
 
 [[src-0053]]
 [tabs]
@@ -63,11 +68,23 @@ include::{sourcedir}/_0053_MaximumSubarray.java[tag=answer]
 include::{sourcedir}/_0053_MaximumSubarray_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0053_MaximumSubarray_3.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
+. https://leetcode.cn/problems/maximum-subarray/solutions/2533977/qian-zhui-he-zuo-fa-ben-zhi-shi-mai-mai-abu71/[53. 最大子数组和 - 两种方法：前缀和+贪心 / 动态规划，附变形题^]
 . https://leetcode.cn/problems/maximum-subarray/solutions/228009/zui-da-zi-xu-he-by-leetcode-solution/[53. 最大子数组和 - 官方题解^]
 . https://leetcode.cn/problems/maximum-subarray/solutions/9058/dong-tai-gui-hua-fen-zhi-fa-python-dai-ma-java-dai/[53. 最大子数组和 - 经典动态规划问题（理解「无后效性」）^]
+. https://zh.wikipedia.org/wiki/%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98[最大子数列问题^]
+. https://en.wikipedia.org/wiki/Maximum_subarray_problem[Maximum subarray problem - Wikipedia^]
 

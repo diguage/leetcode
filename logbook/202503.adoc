@@ -1619,6 +1619,11 @@ endif::[]
 |{doc_base_url}/0213-house-robber-ii.adoc[题解]
 |✅ 动态规划。从两端开始抢劫，最后剩余一个不抢。或者从第一抢到倒数第二个，或从第二个抢到最后一个。
 
+|{counter:codes2503}
+|{leetcode_base_url}/maximum-subarray/[53. 最大子数组和^]
+|{doc_base_url}/0053-maximum-subarray.adoc[题解]
+|✅ 动态规划。stem:[f(x)] 表示从 `0` 到第 `x` 个元素的最大子数组和，如果第 `x-1` 个元素的最大子数组之和大于 `0`，则可以继续向上“盖楼”；当小于等于 `0` 时，可以抛弃前面的元素从新开始。则递推公式是： stem:[f(x)=max(f(x-1),0)+a[x\]]。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
