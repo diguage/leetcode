@@ -5297,7 +5297,7 @@ include::2560-house-robber-iv.adoc[leveloffset=+1]
 
 // include::2605-form-smallest-number-from-two-digit-arrays.adoc[leveloffset=+1]
 
-// include::2606-find-the-substring-with-maximum-cost.adoc[leveloffset=+1]
+include::2606-find-the-substring-with-maximum-cost.adoc[leveloffset=+1]
 
 // include::2607-make-k-subarray-sums-equal.adoc[leveloffset=+1]
 

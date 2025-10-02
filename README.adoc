@@ -18268,12 +18268,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/find-the-substring-with-maximum-cost/[2606. Find the Substring With Maximum Cost^]
-//|{source_base_url}/_2606_FindTheSubstringWithMaximumCost.java[Java]
-//|{doc_base_url}/2606-find-the-substring-with-maximum-cost.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/find-the-substring-with-maximum-cost/[2606. Find the Substring With Maximum Cost^]
+|{source_base_url}/_2606_FindTheSubstringWithMaximumCost.java[Java]
+|{doc_base_url}/2606-find-the-substring-with-maximum-cost.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/make-k-subarray-sums-equal/[2607. Make K-Subarray Sums Equal^]
