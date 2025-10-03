@@ -1629,6 +1629,11 @@ endif::[]
 |{doc_base_url}/2606-find-the-substring-with-maximum-cost.adoc[题解]
 |✅ 动态规划。利用后两个参数加字母表，可以求出每个字母对应的价值。其余就是一个“最大子数组和”，直接利用 Kadane 算法即可。
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-falling-path-sum/[931. 下降路径最小和^]
+|{doc_base_url}/0931-minimum-falling-path-sum.adoc[题解]
+|✅ 动态规划。状态转移可以视作在网格图上的移动。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

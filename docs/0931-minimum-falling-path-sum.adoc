@@ -57,6 +57,15 @@ include::{sourcedir}/_0931_MinimumFallingPathSum.java[tag=answer]
 include::{sourcedir}/_0931_MinimumFallingPathSum_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0931_MinimumFallingPathSum_3.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
