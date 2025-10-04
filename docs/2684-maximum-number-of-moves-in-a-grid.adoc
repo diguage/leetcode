@@ -46,6 +46,8 @@ image::images/2684-02.png[{image_attr}]
 
 == 思路分析
 
+image::images/2684-10.png[{image_attr}]
+
 首先想到的思路是回溯，从第一列每个位置出发，向右进行探索，成功前进，失败则回溯。思路正确，通过 810 / 814 个测试用例。然后，超时。
 
 TIP: 又想了想，这不能叫回溯，因为没有回溯动作。应该是深度优先搜索。
@@ -73,14 +75,14 @@ include::{sourcedir}/_2684_MaximumNumberOfMovesInAGrid_1.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_2684_MaximumNumberOfMovesInAGrid_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2684_MaximumNumberOfMovesInAGrid_2.java[tag=answer]
+----
+--
 ====
 
 
@@ -88,6 +90,7 @@ include::{sourcedir}/_2684_MaximumNumberOfMovesInAGrid_1.java[tag=answer]
 
 . https://leetcode.cn/problems/maximum-number-of-moves-in-a-grid/solutions/2684036/ju-zhen-zhong-yi-dong-de-zui-da-ci-shu-b-b7jx/[2684. 矩阵中移动的最大次数 - 官方题解^] -- 广度优先搜索的解法。其实，每次遍历只需要保存当前列可以到达的节点坐标即可，当没有坐标可以到达时，已经走到了尽头。这个解法更简单高效。
 . https://leetcode.cn/problems/maximum-number-of-moves-in-a-grid/solutions/2269244/cong-ji-yi-hua-sou-suo-dao-di-tui-by-end-pgq3/[2684. 矩阵中移动的最大次数 - 两种方法：DFS / BFS^] -- 深度优先遍历的解法非常有意思，把到达的处理后的节点都设置成 `0`，这样就可以有效避免重复遍历，加快处理速度。
+. https://leetcode.cn/problems/maximum-number-of-moves-in-a-grid/solutions/2690351/javapython3cdong-tai-gui-hua-pan-duan-me-egeq/[2684. 矩阵中移动的最大次数 - 动态规划：判断每个位置是否能够到达【图解】^]
 
 
 

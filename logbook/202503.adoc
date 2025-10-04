@@ -1634,6 +1634,11 @@ endif::[]
 |{doc_base_url}/0931-minimum-falling-path-sum.adoc[题解]
 |✅ 动态规划。状态转移可以视作在网格图上的移动。
 
+|{counter:codes2503}
+|{leetcode_base_url}/maximum-number-of-moves-in-a-grid/[2684. 矩阵中移动的最大次数^]
+|{doc_base_url}/2684-maximum-number-of-moves-in-a-grid.adoc[题解]
+|✅ 动态规划。注意：是从左向右移动，不是从上向下移动。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
