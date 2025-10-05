@@ -1639,6 +1639,11 @@ endif::[]
 |{doc_base_url}/2684-maximum-number-of-moves-in-a-grid.adoc[题解]
 |✅ 动态规划。注意：是从左向右移动，不是从上向下移动。
 
+|{counter:codes}
+|{leetcode_base_url}/partition-equal-subset-sum/[416. 分割等和子集^]
+|{doc_base_url}/0416-partition-equal-subset-sum.adoc[题解]
+|❌ 动态规划。0/1 背包问题，有个大概思路，但是还不完善，代码也没写出来。`dp[i][j] = dp[i - 1][j] \|\| dp[i - 1][j - nums[i]]`，`dp[i][j]` 表示由 `nums[0~i]` 能否组成 `j`。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

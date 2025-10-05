@@ -60,6 +60,15 @@ include::{sourcedir}/_0416_PartitionEqualSubsetSum.java[tag=answer]
 include::{sourcedir}/_0416_PartitionEqualSubsetSum_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0416_PartitionEqualSubsetSum_3.java[tag=answer]
+----
+--
 ====
 
 == 思考题
@@ -69,11 +78,15 @@ include::{sourcedir}/_0416_PartitionEqualSubsetSum_2.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/partition-equal-subset-sum/solution/0-1-bei-bao-wen-ti-xiang-jie-zhen-dui-ben-ti-de-yo/[动态规划（0-1 背包问题） - 分割等和子集 - 力扣（LeetCode）^]
-. https://leetcode-cn.com/problems/partition-equal-subset-sum/solution/java-hui-su-fa-jie-fa-2ms-by-wang_dong/[java 回溯法解法 2ms - 分割等和子集 - 力扣（LeetCode）^]
+. https://leetcode.cn/problems/partition-equal-subset-sum/solutions/783988/yi-pian-wen-zhang-chi-tou-bei-bao-wen-ti-a7dd/[416. 分割等和子集 - 一篇文章吃透背包问题！（细致引入+解题模板+例题分析+代码呈现）^]
+. https://leetcode.cn/problems/partition-equal-subset-sum/solutions/553978/bang-ni-ba-0-1bei-bao-xue-ge-tong-tou-by-px33/[416. 分割等和子集 - 「代码随想录」帮你把0-1背包学个通透！（附背包完整攻略）^]
+. https://leetcode.cn/problems/partition-equal-subset-sum/solutions/13059/0-1-bei-bao-wen-ti-xiang-jie-zhen-dui-ben-ti-de-yo/[416. 分割等和子集 - 动态规划（转换为 0-1 背包问题，Java，最后有类似问题列表）^]
+. https://leetcode.cn/problems/partition-equal-subset-sum/solutions/2785266/0-1-bei-bao-cong-ji-yi-hua-sou-suo-dao-d-ev76/[416. 分割等和子集 - 三种写法：记忆化搜索 / 递推 / bitset 优化^]
+. https://leetcode.cn/problems/partition-equal-subset-sum/solutions/46671/java-hui-su-fa-jie-fa-2ms-by-wang_dong/[416. 分割等和子集 - java 回溯法解法 2ms^]
 . https://www.kancloud.cn/kancloud/pack/70124[前言 · 背包问题九讲 · 看云^]
 . https://www.youtube.com/watch?v=nleY0-eexps[背包九讲问题（上） - YouTube^]
 . https://www.youtube.com/watch?v=0Jp4p0uO7Dw[背包九讲问题（下） - YouTube^]
+
 
 
 
