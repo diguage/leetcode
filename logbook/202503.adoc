@@ -1644,6 +1644,11 @@ endif::[]
 |{doc_base_url}/0416-partition-equal-subset-sum.adoc[题解]
 |❌ 动态规划。0/1 背包问题，有个大概思路，但是还不完善，代码也没写出来。`dp[i][j] = dp[i - 1][j] \|\| dp[i - 1][j - nums[i]]`，`dp[i][j]` 表示由 `nums[0~i]` 能否组成 `j`。
 
+|{counter:codes2503}
+|{leetcode_base_url}/coin-change/[322. 零钱兑换]
+|{doc_base_url}/0322-coin-change.adoc[题解]
+|✅ 动态规划。完全背包问题。`dp[i]` 表示组成金额 `i` 最少需要的零钱数量。外层遍历兑换金额，内层遍历零钱，零钱就可以取用多次，在零钱遍历过程中，找到所需最少的零钱数量。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

@@ -108,6 +108,15 @@ include::{sourcedir}/_0322_CoinChange_22.java[tag=answer]
 include::{sourcedir}/_0322_CoinChange_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0322_CoinChange_4.java[tag=answer]
+----
+--
 ====
 
 == 思考题
@@ -119,3 +128,5 @@ include::{sourcedir}/_0322_CoinChange_3.java[tag=answer]
 
 . https://leetcode.cn/problems/coin-change/solutions/132979/322-ling-qian-dui-huan-by-leetcode-solution/[322. 零钱兑换 - 官方题解^]
 . https://leetcode.cn/problems/coin-change/solutions/137661/javadi-gui-ji-yi-hua-sou-suo-dong-tai-gui-hua-by-s/[322. 零钱兑换 - Java 递归、记忆化搜索、动态规划^]
+. https://leetcode.cn/problems/coin-change/solutions/2119065/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-21m5/[322. 零钱兑换 - 【视频】教你一步步思考动态规划！附题单！^]
+. https://leetcode.cn/problems/coin-change/solutions/6568/dong-tai-gui-hua-tao-lu-xiang-jie-by-wei-lai-bu-ke/[322. 零钱兑换 - 动态规划套路详解^]

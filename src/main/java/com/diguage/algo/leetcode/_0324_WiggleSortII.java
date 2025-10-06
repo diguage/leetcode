@@ -41,6 +41,9 @@ public class _0324_WiggleSortII {
      * Memory Usage: 44.2 MB, less than 10.00% of Java online submissions for Wiggle Sort II.
      *
      * Copy from https://leetcode-cn.com/problems/wiggle-sort-ii/solution/javaxiang-xi-ti-jie-shuo-ming-by-heator/[Java详细题解说明 - 摆动排序 II - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-26 23:29
      */
     public void wiggleSort(int[] nums) {
         Arrays.sort(nums);
