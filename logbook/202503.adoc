@@ -1649,6 +1649,11 @@ endif::[]
 |{doc_base_url}/0322-coin-change.adoc[题解]
 |✅ 动态规划。完全背包问题。`dp[i]` 表示组成金额 `i` 最少需要的零钱数量。外层遍历兑换金额，内层遍历零钱，零钱就可以取用多次，在零钱遍历过程中，找到所需最少的零钱数量。
 
+|{counter:codes2503}
+|{leetcode_base_url}/longest-common-subsequence/[1143. 最长公共子序列^]
+|{doc_base_url}/1143-longest-common-subsequence.adoc[题解]
+|⭕️ 动态规划。有了大概思路，在思考递推公式时，搞错了。 stem:[dp[r\][c\]] 除了从 stem:[dp[r-1\][c-1\]+1] 来增大，还可以从 stem:[dp[r-1\][c\]] 或 stem:[dp[r\][c-1\]] 找找出最大值来继承。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

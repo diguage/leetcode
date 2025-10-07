@@ -55,6 +55,10 @@ image::images/1143-14.png[{image_attr}]
 
 image::images/1143-15.png[{image_attr}]
 
+递归公式大概如下：
+
+image::images/1143-16.png[{image_attr}]
+
 
 [[src-1143]]
 [tabs]
@@ -68,14 +72,14 @@ include::{sourcedir}/_1143_LongestCommonSubsequence.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_1143_LongestCommonSubsequence_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1143_LongestCommonSubsequence_2.java[tag=answer]
+----
+--
 ====
 
 
@@ -84,3 +88,5 @@ include::{sourcedir}/_1143_LongestCommonSubsequence.java[tag=answer]
 . https://leetcode.cn/problems/longest-common-subsequence/solutions/696763/zui-chang-gong-gong-zi-xu-lie-by-leetcod-y7u0/[1143. 最长公共子序列 - 官方题解^]
 . https://leetcode.cn/problems/longest-common-subsequence/solutions/2133188/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-lbz5/[1143. 最长公共子序列 - 教你一步步思考动态规划：从记忆化搜索到递推^] -- 一步一步前进，讲解细致
 . https://leetcode.cn/problems/longest-common-subsequence/solutions/2876976/javapython3cdong-tai-gui-hua-gou-jian-zu-sq3e/[1143. 最长公共子序列 - 动态规划：构建最长公共子序列的子问题【图解】^]
+. https://leetcode.cn/problems/longest-common-subsequence/solutions/696989/fu-xue-ming-zhu-er-wei-dong-tai-gui-hua-r5ez6/[1143. 最长公共子序列 - 二维动态规划的常规套路^]
+. https://leetcode.cn/problems/longest-common-subsequence/solutions/67460/dong-tai-gui-hua-zhi-zui-chang-gong-gong-zi-xu-lie/[1143. 最长公共子序列 - 动态规划之最长公共子序列（LCS）^]
