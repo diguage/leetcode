@@ -14,17 +14,17 @@
   <url>https://www.diguage.com</url>
 
   <properties>
-    <checkstyle.version>10.23.1</checkstyle.version>
+    <checkstyle.version>11.1.0</checkstyle.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
-    <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
-    <maven-javadoc-plugin.version>3.11.2</maven-javadoc-plugin.version>
-    <maven-enforcer-plugin.version>3.5.0</maven-enforcer-plugin.version>
-    <maven-surefire-plugin.version>3.5.3</maven-surefire-plugin.version>
-    <extra-enforcer-rules.version>1.10.0</extra-enforcer-rules.version>
+    <maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
+    <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
+    <maven-enforcer-plugin.version>3.6.2</maven-enforcer-plugin.version>
+    <maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
+    <extra-enforcer-rules.version>1.11.0</extra-enforcer-rules.version>
     <fizzed-watcher-maven-plugin.version>3.7.0</fizzed-watcher-maven-plugin.version>
 
     <asciidoctorj.version>3.0.0</asciidoctorj.version>
-    <asciidoctorj-pdf.version>2.3.19</asciidoctorj-pdf.version>
+    <asciidoctorj-pdf.version>2.3.20</asciidoctorj-pdf.version>
     <asciidoctorj-epub3.version>2.2.0</asciidoctorj-epub3.version>
     <asciidoctorj-diagram.version>3.0.1</asciidoctorj-diagram.version>
     <asciidoctor-diagram.version>3.0.1</asciidoctor-diagram.version>
