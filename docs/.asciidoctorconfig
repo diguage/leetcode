@@ -19,3 +19,5 @@
 :doc_base_url: {asciidoctorconfigdir}/../docs
 
 :leetcode: https://leetcode.cn
+
+:stem: latexmath

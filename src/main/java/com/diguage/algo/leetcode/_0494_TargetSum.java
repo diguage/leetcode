@@ -17,6 +17,9 @@ public class _0494_TargetSum {
      * Memory Usage: 38.8 MB, less than 10.00% of Java online submissions for Target Sum.
      *
      * Copy from: https://leetcode-cn.com/problems/target-sum/solution/dong-tai-gui-hua-ji-bai-liao-98de-javayong-hu-by-r/[动态规划击败了98%的java用户 - 目标和 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-29 21:59
      */
     public int findTargetSumWays(int[] nums, int S) {
         int sum = 0;

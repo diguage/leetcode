@@ -1407,7 +1407,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/hamming-distance/[461. 汉明距离^]
 |{doc_base_url}/0461-hamming-distance.adoc[题解]
-|✅ 数学。求一个数的二进制中 `1` 的个数，最快的算法是 Brian Kernighan 算法，stem:[f(x)=x & (x−1)]，可以跳过两个 `1` 之间的 `0`。
+|✅ 数学。求一个数的二进制中 `1` 的个数，最快的算法是 Brian Kernighan 算法，latexmath:[f(x) = x \& (x−1)]，可以跳过两个 `1` 之间的 `0`。
 
 |{counter:codes2503}
 |{leetcode_base_url}/island-perimeter/[463. 岛屿的周长^]
@@ -1653,6 +1653,11 @@ endif::[]
 |{leetcode_base_url}/longest-common-subsequence/[1143. 最长公共子序列^]
 |{doc_base_url}/1143-longest-common-subsequence.adoc[题解]
 |⭕️ 动态规划。有了大概思路，在思考递推公式时，搞错了。 stem:[dp[r\][c\]] 除了从 stem:[dp[r-1\][c-1\]+1] 来增大，还可以从 stem:[dp[r-1\][c\]] 或 stem:[dp[r\][c-1\]] 找找出最大值来继承。
+
+|{counter:codes2503}
+|{leetcode_base_url}/target-sum/[494. 目标和^]
+|{doc_base_url}/0494-target-sum.adoc[题解]
+|⭕️ 动态规划。可以通过 latexmath:[sum = positive + negative] 和 latexmath:[target = positive - negative] 解方程可以得到 latexmath:[positive = (sum + target) / 2] 和 latexmath:[negative = (sum - target) / 2]。那么，只需要从数字数组中挑选出一些元素使其等于 `positive` 或 `negative` 即可。这就转化成了一个 0/1 背包问题。
 
 |===
 
