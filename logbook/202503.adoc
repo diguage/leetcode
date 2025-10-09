@@ -1639,7 +1639,7 @@ endif::[]
 |{doc_base_url}/2684-maximum-number-of-moves-in-a-grid.adoc[题解]
 |✅ 动态规划。注意：是从左向右移动，不是从上向下移动。
 
-|{counter:codes}
+|{counter:codes2503}
 |{leetcode_base_url}/partition-equal-subset-sum/[416. 分割等和子集^]
 |{doc_base_url}/0416-partition-equal-subset-sum.adoc[题解]
 |❌ 动态规划。0/1 背包问题，有个大概思路，但是还不完善，代码也没写出来。`dp[i][j] = dp[i - 1][j] \|\| dp[i - 1][j - nums[i]]`，`dp[i][j]` 表示由 `nums[0~i]` 能否组成 `j`。
@@ -1658,6 +1658,11 @@ endif::[]
 |{leetcode_base_url}/target-sum/[494. 目标和^]
 |{doc_base_url}/0494-target-sum.adoc[题解]
 |⭕️ 动态规划。可以通过 latexmath:[sum = positive + negative] 和 latexmath:[target = positive - negative] 解方程可以得到 latexmath:[positive = (sum + target) / 2] 和 latexmath:[negative = (sum - target) / 2]。那么，只需要从数字数组中挑选出一些元素使其等于 `positive` 或 `negative` 即可。这就转化成了一个 0/1 背包问题。
+
+|{counter:codes2503}
+|{leetcode_base_url}/partition-equal-subset-sum/[416. 分割等和子集^]
+|{doc_base_url}/0416-partition-equal-subset-sum.adoc[题解]
+|⭕️ 动态规划。对比 <<0000-26-dp-1-0-1-knapsack>> 与 <<0000-26-dp-2-unbounded-knapsack>> 的差异，查看一下 0/1 背包如何通过逆序遍历来解题
 
 |===
 

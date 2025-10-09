@@ -1,5 +1,32 @@
 [#0000-26-dp-2-unbounded-knapsack]
-= Unbounded Knapsack 无限背包
+= Unbounded Knapsack 完全背包
+
+xref:0416-partition-equal-subset-sum.adoc[416. Partition Equal Subset Sum] 与 xref:0322-coin-change.adoc[322. Coin Change] 对比，体会一下 <<0000-26-dp-1-0-1-knapsack>> 与 <<0000-26-dp-2-unbounded-knapsack>> 的差异：
+
+|===
+|特征 |0/1 背包 (0/1 Knapsack) |完全背包 (Unbounded Knapsack)
+
+|核心定义
+|每种物品**仅有一件**
+|每种物品有**无限件**
+
+|二维状态转移方程
+|asciimath:[dp[i\][j\] = max(dp[i-1\][j\], dp[i-1\][j-w\]+v)]
+|asciimath:[dp[i\][j\] = max(dp[i-1\][j\], dp[i\][j-w\]+v)]
+
+|状态依赖
+|依赖上一轮 (`i-1`) 的状态
+|依赖本轮 (`i`) 的状态
+
+|一维优化遍历顺序
+|**逆序**遍历背包容量 `j`
+|**正序**遍历背包容量 `j`
+
+|Java核心代码差异
+|`for (int j = W; j >= weight; j--)`
+|`for (int j = weight; j <= W; j++)`
+
+|===
 
 
 == 经典题目
@@ -20,3 +47,8 @@ Rod Cutting，切钢条问题
 Minimum Coin Change，凑齐每个数需要的最少硬币问题
 
 Maximum Ribbon Cut，丝带的最大值切法
+
+
+== 参考资料
+
+. https://www.kancloud.cn/kancloud/pack/70124[前言 · 背包问题九讲 · 看云^]

@@ -1,7 +1,7 @@
 [#0416-partition-equal-subset-sum]
 = 416. 分割等和子集
 
-https://leetcode.cn/problems/partition-equal-subset-sum/[LeetCode - 416. 分割等和子集 ^]
+https://leetcode.cn/problems/partition-equal-subset-sum/[LeetCode - 416. 分割等和子集^]
 
 给你一个 *只包含正整数* 的 *非空* 数组 `+nums+`。请你判断是否可以将这个数组分割成两个子集，使得两个子集的元素和相等。
 
@@ -40,6 +40,35 @@ image::images/0416-01.png[{image_attr}]
 
 image::images/0416-02.png[{image_attr}]
 
+与 xref:0322-coin-change.adoc[322. Coin Change] 对比，体会一下 <<0000-26-dp-1-0-1-knapsack>> 与 <<0000-26-dp-2-unbounded-knapsack>> 的差异：
+
+
+|===
+|特征 |0/1 背包 (0/1 Knapsack) |完全背包 (Unbounded Knapsack)
+
+|核心定义
+|每种物品**仅有一件**
+|每种物品有**无限件**
+
+|二维状态转移方程
+|asciimath:[dp[i\][j\] = max(dp[i-1\][j\], dp[i-1\][j-w\]+v)]
+|asciimath:[dp[i\][j\] = max(dp[i-1\][j\], dp[i\][j-w\]+v)]
+
+|状态依赖
+|依赖上一轮 (`i-1`) 的状态
+|依赖本轮 (`i`) 的状态
+
+|一维优化遍历顺序
+|**逆序**遍历背包容量 `j`
+|**正序**遍历背包容量 `j`
+
+|Java核心代码差异
+|`for (int j = W; j >= weight; j--)`
+|`for (int j = weight; j <= W; j++)`
+
+|===
+
+
 [[src-0416]]
 [tabs]
 ====
@@ -67,6 +96,15 @@ include::{sourcedir}/_0416_PartitionEqualSubsetSum_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0416_PartitionEqualSubsetSum_3.java[tag=answer]
+----
+--
+
+四刷(空间优化)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0416_PartitionEqualSubsetSum_4.java[tag=answer]
 ----
 --
 ====
