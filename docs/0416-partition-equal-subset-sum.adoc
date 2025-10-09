@@ -59,8 +59,10 @@ image::images/0416-02.png[{image_attr}]
 |依赖本轮 (`i`) 的状态
 
 |一维优化遍历顺序
-|**逆序**遍历背包容量 `j`
-|**正序**遍历背包容量 `j`
+|**逆序**遍历背包容量 `j`。 +
+必须先遍历物品种类，再遍历背包容量。 不能颠倒！！！
+|**正序**遍历背包容量 `j` +
+两个for循环嵌套顺序是无所谓的！
 
 |Java核心代码差异
 |`for (int j = W; j >= weight; j--)`
@@ -124,6 +126,7 @@ include::{sourcedir}/_0416_PartitionEqualSubsetSum_4.java[tag=answer]
 . https://www.kancloud.cn/kancloud/pack/70124[前言 · 背包问题九讲 · 看云^]
 . https://www.youtube.com/watch?v=nleY0-eexps[背包九讲问题（上） - YouTube^]
 . https://www.youtube.com/watch?v=0Jp4p0uO7Dw[背包九讲问题（下） - YouTube^]
+. https://juejin.cn/post/7218532789196062781[动态规划背包问题之完全背包^]
 
 
 

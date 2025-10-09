@@ -22,6 +22,7 @@ public class _0416_PartitionEqualSubsetSum_4 {
     boolean[] dp = new boolean[target + 1];
     dp[0] = true; // 容量为0的背包总能被“空集”装满
     for (int num : nums) {
+      // 0/1 背包：逆序遍历容量
       // 因为每个数字（物品）只能用一次，是典型的 0/1 背包，所以内层循环必须逆序遍历，
       // 以保证 dp[j - num] 的值是上一轮循环留下的，而不是被当前的 num 更新过的。
       for (int i = target; i >= num; i--) {

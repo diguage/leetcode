@@ -1,7 +1,7 @@
 [#0322-coin-change]
 = 322. 零钱兑换
 
-https://leetcode.cn/problems/coin-change/[LeetCode - 322. 零钱兑换 ^]
+https://leetcode.cn/problems/coin-change/[LeetCode - 322. 零钱兑换^]
 
 给你一个整数数组 `coins`，表示不同面额的硬币；以及一个整数 `amount`，表示总金额。
 
@@ -61,6 +61,35 @@ F(3) =min(F(3−c~1~),F(3−c ~2~),F(3−c~3~))+1
 
 image::images/0322-03.png[{image_attr}]
 
+与 xref:0416-partition-equal-subset-sum.adoc[416. Partition Equal Subset Sum] 对比，体会一下 <<0000-26-dp-1-0-1-knapsack>> 与 <<0000-26-dp-2-unbounded-knapsack>> 的差异：
+
+|===
+|特征 |0/1 背包 (0/1 Knapsack) |完全背包 (Unbounded Knapsack)
+
+|核心定义
+|每种物品**仅有一件**
+|每种物品有**无限件**
+
+|二维状态转移方程
+|asciimath:[dp[i\][j\] = max(dp[i-1\][j\], dp[i-1\][j-w\]+v)]
+|asciimath:[dp[i\][j\] = max(dp[i-1\][j\], dp[i\][j-w\]+v)]
+
+|状态依赖
+|依赖上一轮 (`i-1`) 的状态
+|依赖本轮 (`i`) 的状态
+
+|一维优化遍历顺序
+|**逆序**遍历背包容量 `j`。 +
+必须先遍历物品种类，再遍历背包容量。 不能颠倒！！！
+|**正序**遍历背包容量 `j` +
+两个for循环嵌套顺序是无所谓的！
+
+|Java核心代码差异
+|`for (int j = W; j >= weight; j--)`
+|`for (int j = weight; j <= W; j++)`
+
+|===
+
 [[src-0322]]
 [tabs]
 ====
@@ -117,6 +146,15 @@ include::{sourcedir}/_0322_CoinChange_3.java[tag=answer]
 include::{sourcedir}/_0322_CoinChange_4.java[tag=answer]
 ----
 --
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0322_CoinChange_5.java[tag=answer]
+----
+--
 ====
 
 == 思考题
@@ -130,3 +168,4 @@ include::{sourcedir}/_0322_CoinChange_4.java[tag=answer]
 . https://leetcode.cn/problems/coin-change/solutions/137661/javadi-gui-ji-yi-hua-sou-suo-dong-tai-gui-hua-by-s/[322. 零钱兑换 - Java 递归、记忆化搜索、动态规划^]
 . https://leetcode.cn/problems/coin-change/solutions/2119065/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-21m5/[322. 零钱兑换 - 【视频】教你一步步思考动态规划！附题单！^]
 . https://leetcode.cn/problems/coin-change/solutions/6568/dong-tai-gui-hua-tao-lu-xiang-jie-by-wei-lai-bu-ke/[322. 零钱兑换 - 动态规划套路详解^]
+. https://juejin.cn/post/7218532789196062781[动态规划背包问题之完全背包^]

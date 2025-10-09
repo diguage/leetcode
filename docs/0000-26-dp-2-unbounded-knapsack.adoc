@@ -19,8 +19,10 @@ xref:0416-partition-equal-subset-sum.adoc[416. Partition Equal Subset Sum] 与 x
 |依赖本轮 (`i`) 的状态
 
 |一维优化遍历顺序
-|**逆序**遍历背包容量 `j`
-|**正序**遍历背包容量 `j`
+|**逆序**遍历背包容量 `j`。 +
+必须先遍历物品种类，再遍历背包容量。 不能颠倒！！！
+|**正序**遍历背包容量 `j` +
+两个for循环嵌套顺序是无所谓的！
 
 |Java核心代码差异
 |`for (int j = W; j >= weight; j--)`
@@ -52,3 +54,5 @@ Maximum Ribbon Cut，丝带的最大值切法
 == 参考资料
 
 . https://www.kancloud.cn/kancloud/pack/70124[前言 · 背包问题九讲 · 看云^]
+. https://oi-wiki.org/dp/knapsack/[背包 DP^]
+. https://juejin.cn/post/7218532789196062781[动态规划背包问题之完全背包^]
