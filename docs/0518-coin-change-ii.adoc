@@ -48,11 +48,38 @@ https://leetcode.cn/problems/coin-change-ii/[LeetCode - 518. 零钱兑换 II^]
 
 == 思路分析
 
+一道动态规划，是 xref:0322-coin-change.adoc[322. Coin Change] 的延伸题目。
+
+假设 `dp[i][c]` 表示使用前 `i` 个硬币表示金额为 `c` 的方案。那么对于当前的硬币 `i`，有两个选择：
+
+* 选用：latexmath:[dp[i\][c\] = dp[i\][c - coin[i\]\]]。注意：由于硬币可以重复使用，即使选用，也要从 `i` 开始向前递推。
+* 不选：latexmath:[dp[i\][c\] = dp[i-1\][c\]]。不选，则从 `i - 0` 开始向前递推。
+
+那么，根据加法原理， latexmath:[dp[i\][c\] = dp[i-1\][c\] + dp[i\][c - coin[i\]\]]
+
+注意：不同嵌套顺序表示不同意义。
+
+先金额后硬币，会导致重复计数：
+
+image::images/0518-10.png[{image_attr}]
+
+*先硬币再金额*，就可以避免重复计数的问题：
+
+image::images/0518-11.png[{image_attr}]
 
 [[src-0518]]
 [tabs]
 ====
 一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0518_CoinChangeIi_1.java[tag=answer]
+----
+--
+
+一刷（优化）::
 +
 --
 [{java_src_attr}]
@@ -78,3 +105,5 @@ include::{sourcedir}/_0518_CoinChangeIi.java[tag=answer]
 . https://leetcode.cn/problems/coin-change-ii/solutions/143948/ling-qian-dui-huan-iihe-pa-lou-ti-wen-ti-dao-di-yo/[518. 零钱兑换 II - 零钱兑换II和爬楼梯问题到底有什么不同？^]
 . https://leetcode.cn/problems/coin-change-ii/solutions/821592/gong-shui-san-xie-xiang-jie-wan-quan-bei-6hxv/[518. 零钱兑换 II - 详解完全背包问题（附背包问题攻略）^]
 . https://mp.weixin.qq.com/s/xmgK7SrTnFIM3Owpk-emmg[【动态规划/背包问题】那就从 0-1 背包问题开始讲起吧 ...^]
+. https://leetcode.cn/problems/coin-change-ii/solutions/1412584/by-flix-e1vv/[518. 零钱兑换 II - 『 一文搞懂完全背包 』从0-1背包到完全背包，逐层深入+数学推导^]
+. https://leetcode.cn/problems/coin-change-ii/solutions/2706228/javapython3cdong-tai-gui-hua-chai-fen-li-x5a4/[518. 零钱兑换 II - 动态规划：拆分零钱兑换子问题（嵌套循环的秘密）【图解】^]
