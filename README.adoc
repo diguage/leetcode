@@ -3652,12 +3652,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Hard
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/coin-change-ii/[518. 零钱兑换 II]
-//|{source_base_url}/_0518_CoinChangeIi.java[Java]
-//|{doc_base_url}/0518-coin-change-ii.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/coin-change-ii/[518. 零钱兑换 II]
+|{source_base_url}/_0518_CoinChangeIi.java[Java]
+|{doc_base_url}/0518-coin-change-ii.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/random-flip-matrix/[519. Random Flip Matrix^]

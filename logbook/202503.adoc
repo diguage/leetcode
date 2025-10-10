@@ -1669,6 +1669,11 @@ endif::[]
 |{doc_base_url}/0322-coin-change.adoc[题解]
 |✅ 动态规划。对比 <<0000-26-dp-1-0-1-knapsack>> 与 <<0000-26-dp-2-unbounded-knapsack>> 的差异，验证完全背包如何通过正序遍历来解题。
 
+|{counter:codes2503}
+|{leetcode_base_url}/coin-change-ii/[518. 零钱兑换 II]
+|{doc_base_url}/0518-coin-change-ii.adoc[题解]
+|⭕️ 动态规划。用一维数组完成没问题；重现二维递推过程，懵逼了！还是得多想多练。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

@@ -1,7 +1,7 @@
 [#0518-coin-change-ii]
 = 518. 零钱兑换 II
 
-https://leetcode.cn/problems/coin-change-ii/[LeetCode - 518. 零钱兑换 II ^]
+https://leetcode.cn/problems/coin-change-ii/[LeetCode - 518. 零钱兑换 II^]
 
 给你一个整数数组 `coins` 表示不同面额的硬币，另给一个整数 `amount`表示总金额。
 
@@ -74,4 +74,7 @@ include::{sourcedir}/_0518_CoinChangeIi.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/coin-change-ii/solutions/2706227/shi-pin-wan-quan-bei-bao-cong-ji-yi-hua-o3ew0/[518. 零钱兑换 II - 完全背包：从记忆化搜索到递推，附题单！^]
+. https://leetcode.cn/problems/coin-change-ii/solutions/143948/ling-qian-dui-huan-iihe-pa-lou-ti-wen-ti-dao-di-yo/[518. 零钱兑换 II - 零钱兑换II和爬楼梯问题到底有什么不同？^]
+. https://leetcode.cn/problems/coin-change-ii/solutions/821592/gong-shui-san-xie-xiang-jie-wan-quan-bei-6hxv/[518. 零钱兑换 II - 详解完全背包问题（附背包问题攻略）^]
+. https://mp.weixin.qq.com/s/xmgK7SrTnFIM3Owpk-emmg[【动态规划/背包问题】那就从 0-1 背包问题开始讲起吧 ...^]
