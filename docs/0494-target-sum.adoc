@@ -80,6 +80,6 @@ include::{sourcedir}/_0494_TargetSum_2.java[tag=answer]
 . https://leetcode.cn/problems/target-sum/solutions/816711/gong-shui-san-xie-yi-ti-si-jie-dfs-ji-yi-et5b/[494. 目标和 - 一题四解 : 「DFS」&「记忆化搜索」&「全量 DP」&「优化 DP」^]
 . https://leetcode.cn/problems/target-sum/solutions/666699/494-mu-biao-he-dong-tai-gui-hua-zhi-01be-78ll/[494. 目标和 - 动态规划之01背包问题^]
 . https://leetcode.cn/problems/target-sum/solutions/816584/dai-ma-sui-xiang-lu-494-mu-biao-he-01bei-rte9/[494. 目标和 - 从二维DP数组到一维DP数组^]
-. https://leetcode.cn/problems/target-sum/solutions/328335/dong-tai-gui-hua-he-hui-su-suan-fa-dao-di-shui-shi/[494. 目标和 - 力扣（LeetCode）^]
-. https://leetcode.cn/problems/target-sum/solutions/27225/dong-tai-gui-hua-ji-bai-liao-98de-javayong-hu-by-r/[494. 目标和 - 动态规划和回溯算法对比^]
+. https://leetcode.cn/problems/target-sum/solutions/328335/dong-tai-gui-hua-he-hui-su-suan-fa-dao-di-shui-shi/[494. 目标和 - 动态规划和回溯算法对比^]
+. https://leetcode.cn/problems/target-sum/solutions/27225/dong-tai-gui-hua-ji-bai-liao-98de-javayong-hu-by-r/[494. 目标和 - 动态规划击败了98%的java用户^]
 
