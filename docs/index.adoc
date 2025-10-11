@@ -1611,7 +1611,7 @@ include::0752-open-the-lock.adoc[leveloffset=+1]
 
 // include::0762-prime-number-of-set-bits-in-binary-representation.adoc[leveloffset=+1]
 
-// include::0763-partition-labels.adoc[leveloffset=+1]
+include::0763-partition-labels.adoc[leveloffset=+1]
 
 // include::0764-largest-plus-sign.adoc[leveloffset=+1]
 

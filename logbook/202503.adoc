@@ -1679,6 +1679,12 @@ endif::[]
 |{doc_base_url}/0994-rotting-oranges.adoc[题解]
 |✅ 广度优先遍历。两种做法：①腐烂加深，从 `2` → `3` → ...，直到无法前进；②记录新鲜番茄数+腐烂番茄位置，对烂番茄做广度优先遍历。
 
+|{counter:codes2503}
+|{leetcode_base_url}/partition-labels/[763. Partition Labels^]
+|{doc_base_url}/0763-partition-labels.adoc[题解]
+|✅ 区间合并。把有重叠的区间全部合并成一个大区间即可。
+
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

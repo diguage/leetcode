@@ -5366,14 +5366,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0762-prime-number-of-set-bits-in-binary-representation.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/partition-labels/[763. Partition Labels^]
-//|{source_base_url}/_0763_PartitionLabels.java[Java]
-//|{doc_base_url}/0763-partition-labels.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/partition-labels/[763. Partition Labels^]
+|{source_base_url}/_0763_PartitionLabels.java[Java]
+|{doc_base_url}/0763-partition-labels.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/largest-plus-sign/[764. Largest Plus Sign^]
 //|{source_base_url}/_0764_LargestPlusSign.java[Java]
