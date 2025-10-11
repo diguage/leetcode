@@ -1674,6 +1674,11 @@ endif::[]
 |{doc_base_url}/0518-coin-change-ii.adoc[题解]
 |⭕️ 动态规划。用一维数组完成没问题；重现二维递推过程，懵逼了！还是得多想多练。
 
+|{counter:codes2503}
+|{leetcode_base_url}/rotting-oranges/[994. 腐烂的橘子^]
+|{doc_base_url}/0994-rotting-oranges.adoc[题解]
+|✅ 广度优先遍历。两种做法：①腐烂加深，从 `2` → `3` → ...，直到无法前进；②记录新鲜番茄数+腐烂番茄位置，对烂番茄做广度优先遍历。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
