@@ -1694,6 +1694,11 @@ endif::[]
 |{doc_base_url}/0560-subarray-sum-equals-k.adoc[题解]
 |✅ 前缀和。由于有负数，使用双指针+滑动窗口无法缩放窗口的大小，所以，无法使用双指针。只能使用前缀和。需求在计数器里放一个前缀和为 `0` 的标识符。
 
+|{counter:codes2503}
+|{leetcode_base_url}/diameter-of-binary-tree/[543. 二叉树的直径^]
+|{doc_base_url}/0543-diameter-of-binary-tree.adoc[题解]
+|✅ 深度优先遍历。当节点为 `Null` 时，不返回 `0` 而返回其他值，也许含义更通顺。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

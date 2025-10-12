@@ -21,6 +21,9 @@ public class _0543_DiameterOfBinaryTree {
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Diameter of Binary Tree.
      * Memory Usage: 39 MB, less than 19.48% of Java online submissions for Diameter of Binary Tree.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-29 23:31
      */
     private int result;
     public int diameterOfBinaryTree(TreeNode root) {

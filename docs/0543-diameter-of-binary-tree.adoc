@@ -1,35 +1,70 @@
 [#0543-diameter-of-binary-tree]
-= 543. Diameter of Binary Tree
+= 543. 二叉树的直径
 
-{leetcode}/problems/diameter-of-binary-tree/[LeetCode - Diameter of Binary Tree^]
+https://leetcode.cn/problems/diameter-of-binary-tree/[LeetCode - 543. 二叉树的直径^]
 
-Given a binary tree, you need to compute the length of the diameter of the tree. The diameter of a binary tree is the length of the *longest* path between any two nodes in a tree. This path may or may not pass through the root.
+给你一棵二叉树的根节点，返回该树的 *直径* 。
 
-.Example:
-----
-Given a binary tree
-        1
-       / \
-      2   3
-     / \
-    4   5
-Return 3, which is the length of the path [4,2,1,3] or [5,2,1,3].
-----
+二叉树的 *直径* 是指树中任意两个节点之间最长路径的 *长度*。这条路径可能经过也可能不经过根节点 `root` 。
 
-*Note:* The length of path between two nodes is represented by the number of edges between them.
+两节点之间路径的 *长度* 由它们之间边数表示。
 
-== 解题分析
+*示例 1：*
+
+image::images/0543-01.jpg[{image_attr}]
+
+....
+输入：root = [1,2,3,4,5]
+输出：3
+解释：3 ，取路径 [4,2,1,3] 或 [5,2,1,3] 的长度。
+....
+
+*示例 2：*
+
+....
+输入：root = [1,2]
+输出：1
+....
+
+*提示：*
+
+* 树中节点数目在范围 `[1, 10^4^]` 内
+* `+-100 <= Node.val <= 100+`
+
+
+
+== 思路分析
 
 这道题就是一个深度优先搜索。不同之处在于，要在遍历过程中，把直径的最大值保存下来。同时，还要返回子树中最长的路径。
 
+当节点为 `Null` 时，不返回 `0` 而返回其他值，也许含义更通顺。
+
 [[src-0543]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0543_DiameterOfBinaryTree.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0543_DiameterOfBinaryTree_2.java[tag=answer]
+----
+--
+====
+
 
 == 参考资料
 
+. https://leetcode.cn/problems/diameter-of-binary-tree/solutions/2227017/shi-pin-che-di-zhang-wo-zhi-jing-dpcong-taqma/[543. 二叉树的直径 - 彻底掌握直径 DP！从二叉树到一般树！^]
 . https://leetcode.cn/problems/diameter-of-binary-tree/solutions/139683/er-cha-shu-de-zhi-jing-by-leetcode-solution/[543. 二叉树的直径 - 官方题解^]
 . https://leetcode.cn/problems/diameter-of-binary-tree/solutions/142094/shi-pin-jie-shi-di-gui-dai-ma-de-yun-xing-guo-chen/[543. 二叉树的直径 - 详解官方递归代码的运行过程^]
 
