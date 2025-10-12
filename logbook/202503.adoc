@@ -1689,6 +1689,11 @@ endif::[]
 |{doc_base_url}/0739-daily-temperatures.adoc[题解]
 |✅ 单调栈。从后向前，如果栈顶元素小于等于当前元素，则弹出。如果栈不为空，则栈顶元素就是比当前元素大的最近的元素。
 
+|{counter:codes2503}
+|{leetcode_base_url}/subarray-sum-equals-k/[560. 和为 K 的子数组^]
+|{doc_base_url}/0560-subarray-sum-equals-k.adoc[题解]
+|✅ 前缀和。由于有负数，使用双指针+滑动窗口无法缩放窗口的大小，所以，无法使用双指针。只能使用前缀和。需求在计数器里放一个前缀和为 `0` 的标识符。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

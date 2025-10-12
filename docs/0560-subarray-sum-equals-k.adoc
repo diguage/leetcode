@@ -1,7 +1,7 @@
 [#0560-subarray-sum-equals-k]
 = 560. 和为 K 的子数组
 
-https://leetcode.cn/problems/subarray-sum-equals-k/[LeetCode - 560. 和为 K 的子数组 ^]
+https://leetcode.cn/problems/subarray-sum-equals-k/[LeetCode - 560. 和为 K 的子数组^]
 
 给你一个整数数组 `nums` 和一个整数 `k` ，请你统计并返回 _该数组中和为 `k` 的子数组的个数_。
 
@@ -56,6 +56,10 @@ image::images/0560-08.png[{image_attr}]
 
 image::images/0560-09.png[{image_attr}]
 
+image::images/0560-10.png[{image_attr}]
+
+image::images/0560-11.png[{image_attr}]
+
 [[src-0560]]
 [tabs]
 ====
@@ -85,11 +89,23 @@ include::{sourcedir}/_0560_SubarraySumEqualsK_2.java[tag=answer]
 include::{sourcedir}/_0560_SubarraySumEqualsK_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0560_SubarraySumEqualsK_4.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
+. https://leetcode.cn/problems/subarray-sum-equals-k/solutions/2781031/qian-zhui-he-ha-xi-biao-cong-liang-ci-bi-4mwr/[560. 和为 K 的子数组 - 前缀和+哈希表：从两次遍历到一次遍历，附变形题^]
 . https://leetcode.cn/problems/continuous-subarray-sum/solutions/807930/lian-xu-de-zi-shu-zu-he-by-leetcode-solu-rdzi/[和为K的子数组 - 和为K的子数组 - 官方题解^]
+. https://leetcode.cn/problems/subarray-sum-equals-k/solutions/562174/de-liao-yi-wen-jiang-qian-zhui-he-an-pai-yhyf/[560. 和为 K 的子数组 - 力扣（LeetCode）^]
+. https://leetcode.cn/problems/subarray-sum-equals-k/solutions/247577/bao-li-jie-fa-qian-zhui-he-qian-zhui-he-you-hua-ja/[560. 和为 K 的子数组 - 前缀和与哈希表（Java）^]
 
 

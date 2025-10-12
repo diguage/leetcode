@@ -17,6 +17,9 @@ public class _0567_PermutationInString {
     /**
      * Runtime: 14 ms, faster than 45.41% of Java online submissions for Permutation in String.
      * Memory Usage: 39.4 MB, less than 7.69% of Java online submissions for Permutation in String.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-30 18:05
      */
     public boolean checkInclusion(String s1, String s2) {
         if (Objects.isNull(s1) || s1.length() == 0) {
