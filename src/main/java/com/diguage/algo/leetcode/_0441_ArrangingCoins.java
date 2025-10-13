@@ -1,7 +1,5 @@
 package com.diguage.algo.leetcode;
 
-import java.util.*;
-
 public class _0441_ArrangingCoins {
   // tag::answer[]
 

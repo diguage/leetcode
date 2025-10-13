@@ -57,4 +57,8 @@ public class _0438_FindAllAnagramsInAString_2 {
     return result;
   }
   // end::answer[]
+  static void main() {
+    new _0438_FindAllAnagramsInAString_2()
+      .findAnagrams("abaacbabc", "abc");
+  }
 }

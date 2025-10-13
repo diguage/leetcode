@@ -1699,6 +1699,11 @@ endif::[]
 |{doc_base_url}/0543-diameter-of-binary-tree.adoc[题解]
 |✅ 深度优先遍历。这道题求解的是“路径长度”，不是节点数量。理解这一点，就能理解当节点为 `Null` 时，不返回 `0` 而返回其他值，到上一层再 `+1`的含义。
 
+|{counter:codes2503}
+|{leetcode_base_url}/find-all-anagrams-in-a-string/[438. 找到字符串中所有字母异位词^]
+|{doc_base_url}/0438-find-all-anagrams-in-a-string.adoc[题解]
+|✅ 滑动窗口。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
