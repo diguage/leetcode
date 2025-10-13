@@ -1704,6 +1704,11 @@ endif::[]
 |{doc_base_url}/0438-find-all-anagrams-in-a-string.adoc[题解]
 |✅ 滑动窗口。
 
+|{counter:codes2503}
+|{leetcode_base_url}/path-sum-iii/[437. 路径总和 III^]
+|{doc_base_url}/0437-path-sum-iii.adoc[题解]
+|✅ 回溯+前缀和。利用回溯，遍历所有节点；利用前缀和，来避免重复计算。加一个 `<0, 1>` 的占位符，可以让代码写得更简洁。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

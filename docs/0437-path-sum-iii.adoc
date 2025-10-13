@@ -68,6 +68,8 @@ image::images/0437-11.png[{image_attr}]
 
 image::images/0437-12.png[{image_attr}]
 
+TIP: 加一个 `<0, 1>` 的占位符，可以让代码写得更简洁。
+
 
 [[src-0437]]
 [tabs]
@@ -116,6 +118,15 @@ include::{sourcedir}/_0437_PathSumIII_22.java[tag=answer]
 include::{sourcedir}/_0437_PathSumIII_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0437_PathSumIII_4.java[tag=answer]
+----
+--
 ====
 
 == 思考题
@@ -124,8 +135,9 @@ include::{sourcedir}/_0437_PathSumIII_3.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode.cn/problems/path-sum-iii/solutions/596361/dui-qian-zhui-he-jie-fa-de-yi-dian-jie-s-dey6/[437. 路径总和 III / 对前缀和解法的一点解释^]
-. https://leetcode.cn/problems/path-sum-iii/solutions/100992/qian-zhui-he-di-gui-hui-su-by-shi-huo-de-xia-tian/[437. 路径总和 III / 前缀和，递归，回溯^]
+. https://leetcode.cn/problems/path-sum-iii/solutions/2784856/zuo-fa-he-560-ti-shi-yi-yang-de-pythonja-fmzo/[437. 路径总和 III - 做法和 560 题是一样的，附常见问题及其解答^]
+. https://leetcode.cn/problems/path-sum-iii/solutions/596361/dui-qian-zhui-he-jie-fa-de-yi-dian-jie-s-dey6/[437. 路径总和 III - 对前缀和解法的一点解释^]
+. https://leetcode.cn/problems/path-sum-iii/solutions/100992/qian-zhui-he-di-gui-hui-su-by-shi-huo-de-xia-tian/[437. 路径总和 III - 前缀和，递归，回溯^]
 . https://leetcode.cn/problems/path-sum-iii/solutions/2791967/tuland-shu-_lu-jing-zong-he-iii_-xiang-x-ta37/[437. 路径总和 III - 「🏞️ 详细图解🏞️」&「朴素递归」&「前缀和」^] -- 图解很棒
 . https://leetcode.cn/problems/path-sum-iii/solutions/64692/di-gui-jie-fa-by-tian-ye/[437. 路径总和 III - 递归解法^]
 
