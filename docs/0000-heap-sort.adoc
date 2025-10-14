@@ -2,4 +2,15 @@
 = 堆排序
 
 
+image::images/heap-sort-01.gif[{image_attr}]
+
+image::images/heap-sort-00.gif[{image_attr}]
+
+TIP: 上图在入堆的时候是 OK 的。后面出堆的过程有问题！
+
+image::images/heap-sort-02.png[{image_attr}]
+
+image::images/heap-sort-03.gif[{image_attr}]
+
+image::images/heap-sort-04.gif[{image_attr}]
 

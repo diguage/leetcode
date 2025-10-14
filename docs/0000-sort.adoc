@@ -40,5 +40,7 @@ include::0000-radix-sort.adoc[leveloffset=+1]
 . https://blog.csdn.net/m0_70103775/article/details/127894920[希尔排序（动图+详解）^]
 . https://www.cnblogs.com/the3times/p/12547787.html[希尔排序^]
 . https://leetcode.cn/problems/top-k-frequent-elements/solutions/11201/leetcode-di-347-hao-wen-ti-qian-k-ge-gao-pin-yuan-/[347. 前 K 个高频元素 - 力扣（LeetCode）^]
+. https://brilliant.org/wiki/heap-sort/[Heap Sort | Brilliant Math & Science Wiki^]
+. https://sam-koblenski.blogspot.com/2018/04/explore-simple-game-algorithms-with.html[Explore Simple Game Algorithms with Color Walk: Part 11^]
 
 :sectnums!:
