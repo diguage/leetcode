@@ -1714,6 +1714,11 @@ endif::[]
 |{doc_base_url}/0416-partition-equal-subset-sum.adoc[题解]
 |✅ 动态规划。0/1 背包问题。直接上空间压缩的解法。
 
+|{counter:codes2503}
+|{leetcode_base_url}/decode-string/[394. 字符串解码^]
+|{doc_base_url}/0394-decode-string.adoc[题解]
+|✅ 使用递归模拟栈。递归一次，降维一层。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

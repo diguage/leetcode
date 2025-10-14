@@ -1,26 +1,57 @@
 [#0394-decode-string]
-= 394. Decode String
+= 394. 字符串解码
 
-{leetcode}/problems/decode-string/[LeetCode - Decode String^]
+https://leetcode.cn/problems/decode-string/[LeetCode - 394. 字符串解码^]
 
-Given an encoded string, return its decoded string.
+给定一个经过编码的字符串，返回它解码后的字符串。
 
-The encoding rule is: `k[encoded_string]`, where the _encoded_string_ inside the square brackets is being repeated exactly _k_ times. Note that _k_ is guaranteed to be a positive integer.
+编码规则为: `k[encoded_string]`，表示其中方括号内部的 `encoded_string` 正好重复 `k` 次。注意 `k` 保证为正整数。
 
-You may assume that the input string is always valid; No extra white spaces, square brackets are well-formed, etc.
+你可以认为输入字符串总是有效的；输入字符串中没有额外的空格，且输入的方括号总是符合格式要求的。
 
-Furthermore, you may assume that the original data does not contain any digits and that digits are only for those repeat numbers, _k_. For example, there won't be input like `3a` or `2[4]`.
+此外，你可以认为原始数据不包含数字，所有的数字只表示重复的次数 `k`，例如不会出现像 `3a` 或 `2[4]` 的输入。
 
-.Examples:
-----
-s = "3[a]2[bc]", return "aaabcbc".
-s = "3[a2[c]]", return "accaccacc".
-s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
-----
+*示例 1：*
+
+....
+输入：s = "3[a]2[bc]"
+输出："aaabcbc"
+....
+
+*示例 2：*
+
+....
+输入：s = "3[a2[c]]"
+输出："accaccacc"
+....
+
+*示例 3：*
+
+....
+输入：s = "2[abc]3[cd]ef"
+输出："abcabccdcdcdef"
+....
+
+*示例 4：*
+
+....
+输入：s = "abc3[cd]xyz"
+输出："abccdcdcdxyz"
+....
+
+*提示：*
+
+* `+1 <= s.length <= 30+`
+* `s` 由小写英文字母、数字和方括号 `[]` 组成
+* `s` 保证是一个 *有效* 的输入。
+* `s` 中所有整数的取值范围为 `[1, 300]`
+
 
 == 思路分析
 
 主要就是一个栈操作。不过，还需要注意一些细节。
+
+使用递归处理时，最重要的是递归一次，要把括号层数减少一层，否则只能原地踏步。
 
 [[src-0394]]
 [tabs]
@@ -42,9 +73,22 @@ include::{sourcedir}/_0394_DecodeString.java[tag=answer]
 include::{sourcedir}/_0394_DecodeString_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0394_DecodeString_3.java[tag=answer]
+----
+--
 ====
+
 
 == 参考资料
 
+. https://leetcode.cn/problems/decode-string/solutions/3744428/di-gui-yong-zhan-mo-ni-di-gui-pythonjava-kcsv/[394. 字符串解码 - 递归 / 用栈模拟递归^]
 . https://leetcode.cn/problems/decode-string/solutions/19447/decode-string-fu-zhu-zhan-fa-di-gui-fa-by-jyd/[394. 字符串解码 - 辅助栈法 / 递归法，清晰图解^]
+. https://leetcode.cn/problems/decode-string/solutions/264879/zhan-de-ji-yi-nei-ceng-de-jie-ma-liao-bie-wang-lia/[394. 字符串解码 - 外层的先等等，把内层的解决了再和你连线^]
 . https://leetcode.cn/problems/decode-string/solutions/2892504/394-zi-fu-chuan-jie-ma-by-fervent-wilbur-37k7/[394. 字符串解码 - 附详细图解例子，清晰易懂^]
+. https://leetcode.cn/problems/decode-string/solutions/264391/zi-fu-chuan-jie-ma-by-leetcode-solution/[394. 字符串解码 - 官方题解^]
