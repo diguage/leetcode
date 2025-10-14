@@ -3,6 +3,8 @@
 
 image::images/sort-time-.jpg[{image_attr}]
 
+image::images/sort-comparison.gif[{image_attr}]
+
 :sectnums:
 
 include::0000-selection-sort.adoc[leveloffset=+1]
@@ -27,6 +29,7 @@ include::0000-radix-sort.adoc[leveloffset=+1]
 
 == 参考资料
 
+. https://en.oi-wiki.org/basic/sort-intro/[Introduction of Sorting - OI Wiki^]
 . https://www.hello-algo.com/chapter_sorting/bubble_sort/[11.3 冒泡排序 - Hello 算法^]
 . https://www.hello-algo.com/chapter_sorting/insertion_sort/[11.4 插入排序 - Hello 算法^]
 . https://www.hello-algo.com/chapter_sorting/quick_sort/[11.5 快速排序 - Hello 算法^]
