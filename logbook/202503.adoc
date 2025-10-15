@@ -1719,6 +1719,11 @@ endif::[]
 |{doc_base_url}/0394-decode-string.adoc[题解]
 |✅ 使用递归模拟栈。递归一次，降维一层。
 
+|{counter:codes2503}
+|{leetcode_base_url}/top-k-frequent-elements/[347. 前 K 个高频元素^]
+|{doc_base_url}/0347-top-k-frequent-elements.adoc[题解]
+|⭕️ Top K 问题，优先队列，桶排序和快速选择。尝试快速选择，思路有，代码总报错。最后，无奈选择桶排序。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

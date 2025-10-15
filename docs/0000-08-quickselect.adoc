@@ -9,6 +9,8 @@
 
 所以，该模式不仅适用于求第 K 个之最元素，也适用于求 xref:0000-11-top-k-elements.adoc[Top `K` Elements Top K 元素]。
 
+WARNING: 快速选择！背也要背下来！！！！
+
 
 == 经典题目
 

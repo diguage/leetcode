@@ -1,6 +1,7 @@
 [#0000-quick-sort]
 = 快速排序
 
+WARNING: 快速排序！背也要背下来！！！！
 
 image::images/quick-sort-overview.png[{image_attr}]
 

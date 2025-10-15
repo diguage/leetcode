@@ -25,7 +25,7 @@ https://leetcode.cn/problems/top-k-frequent-elements/[LeetCode - 347. 前 K 个�
 * `k` 的取值范围是 `[1, 数组中不相同的元素的个数]`
 * 题目数据保证答案唯一，换句话说，数组中前 `k` 个高频元素的集合是唯一的
 
-**进阶：**你所设计算法的时间复杂度 *必须* 优于 stem:[O(n*logn)] ，其中 `n` 是数组大小。
+**进阶：**你所设计算法的时间复杂度 *必须* 优于 stem:[O(n*logn)]，其中 `n` 是数组大小。
 
 
 == 思路分析
@@ -72,6 +72,15 @@ include::{sourcedir}/_0347_TopKFrequentElements_21.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0347_TopKFrequentElements_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0347_TopKFrequentElements_4.java[tag=answer]
 ----
 --
 ====

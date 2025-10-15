@@ -17,6 +17,12 @@
 * 如果你需要求最大/最小/最频繁的前K个元素
 * 如果你需要通过排序去找一个特定的数
 
+此类“Top K 元素”问题，大概有三种解题思路：
+
+. Top K 元素
+. xref:0000-08-quickselect.adoc[QuickSelect 快速选择]
+. <<0000-bucket-sort>> -- 一些特殊情况也可以使用 <<0000-bucket-sort>> 来解决，例如： xref:0347-top-k-frequent-elements.adoc[347. 前 K 个高频元素]。
+
 == 经典题目
 
 . xref:0347-top-k-frequent-elements.adoc[347. Top K Frequent Elements]
