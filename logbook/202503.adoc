@@ -1724,6 +1724,11 @@ endif::[]
 |{doc_base_url}/0347-top-k-frequent-elements.adoc[题解]
 |⭕️ Top K 问题，优先队列，桶排序和快速选择。尝试快速选择，思路有，代码总报错。最后，无奈选择桶排序。
 
+|{counter:codes2503}
+|{leetcode_base_url}/longest-increasing-subsequence/[300. 最长递增子序列^]
+|{doc_base_url}/0300-longest-increasing-subsequence.adoc[题解]
+|⭕️ 动态规划。从原始数组克隆出一个去重后再排序的新数组，利用 {doc_base_url}/1143-longest-common-subsequence.adoc[1143. 最长公共子序列] 来求解。题目解出来了，还要学习一下更标准的解法。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

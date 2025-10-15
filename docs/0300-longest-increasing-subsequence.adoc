@@ -5,7 +5,7 @@ https://leetcode.cn/problems/longest-increasing-subsequence/[LeetCode - 300. 最
 
 给你一个整数数组 `nums` ，找到其中最长严格递增子序列的长度。
 
-**子序列 **是由数组派生而来的序列，删除（或不删除）数组中的元素而不改变其余元素的顺序。例如，`[3,6,2,7]` 是数组 `[0,3,1,6,2,2,7]` 的子序列。
+**子序列**是由数组派生而来的序列，删除（或不删除）数组中的元素而不改变其余元素的顺序。例如，`[3,6,2,7]` 是数组 `[0,3,1,6,2,2,7]` 的子序列。
 
 *示例 1：*
 
@@ -43,7 +43,11 @@ https://leetcode.cn/problems/longest-increasing-subsequence/[LeetCode - 300. 最
 
 最简单易懂，也是最容易想到的解法就是：将指定数 `nums[i]` 与前面的每一个数都去比较一下，记录一下大于的次数。使用 `dp[k]` 记录以 `k` 结尾时的最大增长子序列长度。
 
-动态规划+二分查找的算法还需要再仔细研究一下。还是有些懵逼！
+动态规划+二分查找的算法：维护一个升序的子序列，使用二分查找在升序的子序列中查找当前元素要存放的位置。最后保留下来的升序子序列，就是所求的“最长递增子序列”。
+
+// TODO 还要自己写代码实践一下动态规划+二分查找的算法。
+
+还有一个解法：从原始数组克隆出一个去重后再排序的新数组，对原始数组和新数组求 xref:1143-longest-common-subsequence.adoc[1143. 最长公共子序列]。
 
 [[src-0300]]
 [tabs]
@@ -65,9 +69,23 @@ include::{sourcedir}/_0300_LongestIncreasingSubsequence.java[tag=answer]
 include::{sourcedir}/_0300_LongestIncreasingSubsequence_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0300_LongestIncreasingSubsequence_3.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/longest-increasing-subsequence/solutions/24173/zui-chang-shang-sheng-zi-xu-lie-dong-tai-gui-hua-2/[300. 最长递增子序列 - 动态规划 + 二分查找，清晰图解^]
+. https://leetcode.cn/problems/longest-increasing-subsequence/solutions/2147040/jiao-ni-yi-bu-bu-si-kao-dpfu-o1-kong-jia-4zma/[300. 最长递增子序列 - 三种方法：记忆化搜索/递推/二分查找^]
+. https://leetcode.cn/problems/longest-increasing-subsequence/solutions/7196/dong-tai-gui-hua-er-fen-cha-zhao-tan-xin-suan-fa-p/[300. 最长递增子序列 - 动态规划 （包含O (N log N) 解法的状态定义以及解释）^]
+https://leetcode.cn/problems/longest-increasing-subsequence/solutions/147667/zui-chang-shang-sheng-zi-xu-lie-by-leetcode-soluti/[300. 最长递增子序列 - 官方题解^]
+. https://leetcode.cn/problems/longest-increasing-subsequence/solutions/14796/dong-tai-gui-hua-she-ji-fang-fa-zhi-pai-you-xi-jia/[300. 最长递增子序列 - 动态规划设计方法&&纸牌游戏讲解二分解法^]
+. https://leetcode.cn/problems/longest-increasing-subsequence/solutions/135412/yi-bu-yi-bu-tui-dao-chu-guan-fang-zui-you-jie-fa-x/[300. 最长递增子序列 - 一步一步推导出官方最优解法，详细图解^]

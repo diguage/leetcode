@@ -59,6 +59,8 @@ image::images/1143-15.png[{image_attr}]
 
 image::images/1143-16.png[{image_attr}]
 
+这个解法也可以用来解决 xref:0300-longest-increasing-subsequence.adoc[300. 最长递增子序列]。
+
 
 [[src-1143]]
 [tabs]
