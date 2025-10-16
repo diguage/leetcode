@@ -21,6 +21,8 @@ image::images/two-heaps-02.png[{image_attr}]
 
 TIP: 每次添加，都要在两个堆之间倒腾一下，这样才能保证，小的沉下去，大的升上去。
 
+如果需要删除元素，在直接使用对顶堆不满足时间复杂度时，可以加上延迟删除技巧。**所谓延迟删除技巧，就是只删除堆顶，其余只做删除标记。**这样，就不用耗时去堆里遍历查找要删除的元素。
+
 == 经典题目
 
 . xref:0295-find-median-from-data-stream.adoc[295. Find Median from Data Stream]

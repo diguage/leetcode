@@ -86,7 +86,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/find-median-from-data-stream/[295. 数据流的中位数^]
 |{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
-|⭕️ 双堆，思路理解，写代码却有很多问题。
+|⭕️ 对顶堆，思路理解，写代码却有很多问题。
 
 |{counter:codes2503}
 |{leetcode_base_url}/merge-k-sorted-lists/[23. 合并 K 个升序链表^]
@@ -1537,12 +1537,12 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/find-median-from-data-stream/[295. 数据流的中位数^]
 |{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
-|✅ 双堆。每次添加，都要在两个堆之间倒腾一下，这样才能保证，小的沉下去，大的升上去。
+|✅ 对顶堆。每次添加，都要在两个堆之间倒腾一下，这样才能保证，小的沉下去，大的升上去。
 
 |{counter:codes2503}
 |{leetcode_base_url}/sliding-window-median/[480. 滑动窗口中位数^]
 |{doc_base_url}/0480-sliding-window-median.adoc[题解]
-|⭕️ 滑动窗口+双堆。单纯利用双堆，只能通过 43 / 44 个测试用例。延迟删除的实现有些复杂，还要再研究一下。
+|⭕️ 滑动窗口+对顶堆。单纯利用对顶堆，只能通过 43 / 44 个测试用例。延迟删除的实现有些复杂，还要再研究一下。
 
 |{counter:codes2503}
 |{leetcode_base_url}/design-twitter/[355. 设计推特^]
@@ -1737,7 +1737,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/sliding-window-median/[480. 滑动窗口中位数^]
 |{doc_base_url}/0480-sliding-window-median.adoc[题解]
-|✅ 滑动窗口+对顶堆。在对顶堆的基础上，加上了延迟删除的技巧。
+|✅ 滑动窗口+对顶堆。在对顶堆的基础上，加上延迟删除技巧。所谓延迟删除技巧，就是只删除堆顶。这样，就不用耗时去堆里遍历查找要删除的元素。
 
 |===
 

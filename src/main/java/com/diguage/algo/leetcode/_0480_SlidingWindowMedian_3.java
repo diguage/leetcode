@@ -4,6 +4,7 @@ import java.util.*;
 
 public class _0480_SlidingWindowMedian_3 {
   // tag::answer[]
+
   /**
    * @author D瓜哥 · https://www.diguage.com
    * @since 2025-10-16 22:41:00
@@ -24,7 +25,7 @@ public class _0480_SlidingWindowMedian_3 {
     return result.stream().mapToDouble(i -> i).toArray();
   }
 
-  static class MedianFinder {
+  private static class MedianFinder {
     private final PriorityQueue<Integer> topSmallHeap;
     private final PriorityQueue<Integer> topLargeHeap;
     private int topSmallSize;
@@ -41,18 +42,12 @@ public class _0480_SlidingWindowMedian_3 {
 
     public void addNum(int num) {
       if (Objects.equals(topSmallSize, topLargeSize)) {
-        while (!topLargeHeap.isEmpty() && waitDelateNum.getOrDefault(topLargeHeap.peek(), 0) > 0) {
-          int deleted = topLargeHeap.poll();
-          waitDelateNum.put(deleted, waitDelateNum.get(deleted) - 1);
-        }
+        deleteTop(topLargeHeap);
         topLargeHeap.offer(num);
         topSmallHeap.offer(topLargeHeap.poll());
         topSmallSize++;
       } else {
-        while (!topSmallHeap.isEmpty() && waitDelateNum.getOrDefault(topSmallHeap.peek(), 0) > 0) {
-          int deleted = topSmallHeap.poll();
-          waitDelateNum.put(deleted, waitDelateNum.get(deleted) - 1);
-        }
+        deleteTop(topSmallHeap);
         topSmallHeap.offer(num);
         topLargeHeap.offer(topSmallHeap.poll());
         topLargeSize++;
@@ -61,34 +56,23 @@ public class _0480_SlidingWindowMedian_3 {
 
     public void deleteNum(int num) {
       if (!topLargeHeap.isEmpty() && num <= topLargeHeap.peek()) {
-        if (num == topLargeHeap.peek()) {
-          topLargeHeap.poll();
-        } else {
-          waitDelateNum.put(num, waitDelateNum.getOrDefault(num, 0) + 1);
-        }
+        waitDelateNum.put(num, waitDelateNum.getOrDefault(num, 0) + 1);
+        deleteTop(topLargeHeap);
         topLargeSize--;
       } else if (!topSmallHeap.isEmpty() && num >= topSmallHeap.peek()) {
-        if (num == topSmallHeap.peek()) {
-          topSmallHeap.poll();
-        } else {
-          waitDelateNum.put(num, waitDelateNum.getOrDefault(num, 0) + 1);
-        }
+        waitDelateNum.put(num, waitDelateNum.getOrDefault(num, 0) + 1);
+        deleteTop(topSmallHeap);
         topSmallSize--;
       }
 
       if (topLargeSize > topSmallSize) {
-        while (!topLargeHeap.isEmpty() && waitDelateNum.getOrDefault(topLargeHeap.peek(), 0) > 0) {
-          topLargeHeap.poll();
-        }
+        deleteTop(topLargeHeap);
         topSmallHeap.offer(topLargeHeap.poll());
         topLargeSize--;
         topSmallSize++;
       }
       if (topSmallSize - topLargeSize > 1) {
-        while (!topSmallHeap.isEmpty() && waitDelateNum.getOrDefault(topSmallHeap.peek(), 0) > 0) {
-          int deleted = topSmallHeap.poll();
-          waitDelateNum.put(deleted, waitDelateNum.get(deleted) - 1);
-        }
+        deleteTop(topSmallHeap);
         topLargeHeap.offer(topSmallHeap.poll());
         topSmallSize--;
         topLargeSize++;
@@ -97,26 +81,24 @@ public class _0480_SlidingWindowMedian_3 {
 
     public double findMedian() {
       if (Objects.equals(topSmallSize, topLargeSize)) {
-        while (!topSmallHeap.isEmpty() && waitDelateNum.getOrDefault(topSmallHeap.peek(), 0) > 0) {
-          int deleted = topSmallHeap.poll();
-          waitDelateNum.put(deleted, waitDelateNum.get(deleted) - 1);
-        }
-        while (!topLargeHeap.isEmpty() && waitDelateNum.getOrDefault(topLargeHeap.peek(), 0) > 0) {
-          int deleted = topLargeHeap.poll();
-          waitDelateNum.put(deleted, waitDelateNum.get(deleted) - 1);
-        }
+        deleteTop(topSmallHeap);
+        deleteTop(topLargeHeap);
         return (0.0D + topLargeHeap.peek() + topSmallHeap.peek()) / 2.0;
       } else {
-        while (waitDelateNum.getOrDefault(topSmallHeap.peek(), 0) > 0) {
-          int deleted = topSmallHeap.poll();
-          waitDelateNum.put(deleted, waitDelateNum.get(deleted) - 1);
-        }
+        deleteTop(topSmallHeap);
         return topSmallHeap.peek();
       }
     }
 
     public int size() {
       return topSmallHeap.size() + topLargeHeap.size();
+    }
+
+    private void deleteTop(PriorityQueue<Integer> queue) {
+      while (!queue.isEmpty() && waitDelateNum.getOrDefault(queue.peek(), 0) > 0) {
+        int deleted = queue.poll();
+        waitDelateNum.put(deleted, waitDelateNum.get(deleted) - 1);
+      }
     }
   }
   // end::answer[]
