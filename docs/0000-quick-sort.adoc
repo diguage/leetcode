@@ -1,6 +1,11 @@
 [#0000-quick-sort]
 = 快速排序
 
+[{java_src_attr}]
+----
+include::{sortdir}/QuickSort.java[tag=answer]
+----
+
 WARNING: 快速排序！背也要背下来！！！！
 
 image::images/quick-sort-overview.png[{image_attr}]
