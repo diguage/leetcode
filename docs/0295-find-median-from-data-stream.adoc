@@ -111,6 +111,15 @@ include::{sourcedir}/_0295_FindMedianFromDataStream_3.java[tag=answer]
 include::{sourcedir}/_0295_FindMedianFromDataStream_4.java[tag=answer]
 ----
 --
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0295_FindMedianFromDataStream_5.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
