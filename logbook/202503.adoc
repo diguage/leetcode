@@ -1734,6 +1734,11 @@ endif::[]
 |{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
 |✅ 对顶堆。每次添加，都要在两个堆之间倒腾一下，保证小的沉下去，大的升上去。
 
+|{counter:codes2503}
+|{leetcode_base_url}/sliding-window-median/[480. 滑动窗口中位数^]
+|{doc_base_url}/0480-sliding-window-median.adoc[题解]
+|✅ 滑动窗口+对顶堆。在对顶堆的基础上，加上了延迟删除的技巧。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

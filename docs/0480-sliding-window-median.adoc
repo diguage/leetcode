@@ -41,10 +41,12 @@ https://leetcode.cn/problems/sliding-window-median/[LeetCode - 480. 滑动窗口
 
 image::images/0480-10.png[{image_attr}]
 
+直接使用对顶堆会超时！加上延迟删除技巧，就可以通过。
+
 [[src-0480]]
 [tabs]
 ====
-一刷::
+一刷（超时）::
 +
 --
 [{java_src_attr}]
@@ -53,12 +55,21 @@ include::{sourcedir}/_0480_SlidingWindowMedian.java[tag=answer]
 ----
 --
 
-二刷::
+二刷（超时）::
 +
 --
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0480_SlidingWindowMedian_2.java[tag=answer]
+----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0480_SlidingWindowMedian_3.java[tag=answer]
 ----
 --
 ====
