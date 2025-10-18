@@ -1747,7 +1747,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/move-zeroes/[283. 移动零^]
 |{doc_base_url}/0283-move-zeroes.adoc[题解]
-|✅ 双指针。看题解，本地栈解法更简洁。
+|✅ 快慢指针。看题解，本地栈解法更简洁。
 
 |===
 

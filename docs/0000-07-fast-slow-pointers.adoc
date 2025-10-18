@@ -30,6 +30,7 @@ Middle of the LinkedList (easy)
 . xref:0143-reorder-list.adoc[143. Reorder List]
 . xref:0202-happy-number.adoc[202. Happy Number]
 . xref:0234-palindrome-linked-list.adoc[234. Palindrome Linked List]
+. xref:0283-move-zeroes.adoc[283. Move Zeroes]
 . xref:0287-find-the-duplicate-number.adoc[287. Find the Duplicate Number]
 . xref:0457-circular-array-loop.adoc[457. Circular Array Loop]
 . xref:0481-magical-string.adoc[481. Magical String]
