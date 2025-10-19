@@ -1,34 +1,63 @@
 [#0279-perfect-squares]
-= 279. Perfect Squares
+= 279. 完全平方数
 
-{leetcode}/problems/perfect-squares/[LeetCode - Perfect Squares^]
+https://leetcode.cn/problems/perfect-squares/[LeetCode - 279. 完全平方数^]
 
-当前节点最小的值为当前值减去一个平方对应数字的值再加一，再众多选项中的最小值。
+给你一个整数 `n`，返回 _和为 `n` 的完全平方数的最少数量_。
 
-Given a positive integer _n_, find the least number of perfect square numbers (for example, `1, 4, 9, 16, ...`) which sum to _n_.
+*完全平方数* 是一个整数，其值等于另一个整数的平方；换句话说，其值等于一个整数自乘的积。例如，`1`、`4`、`9` 和 `16` 都是完全平方数，而 `3` 和 `11` 不是。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* _n_ = `12`
-*Output:* 3 
-*Explanation:* `12 = 4 + 4 + 4.`
-----
+....
+输入：n = 12
+输出：3
+解释：12 = 4 + 4 + 4
+....
 
-*Example 2:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* _n_ = `13`
-*Output:* 2
-*Explanation:* `13 = 4 + 9.`
-----
+....
+输入：n = 13
+输出：2
+解释：13 = 4 + 9
+....
+
+*提示：*
+
+* `1 \<= n \<= 10^4^`
+
+
+== 思路分析
 
 
 [[src-0279]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0279_PerfectSquares.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0279_PerfectSquares_2.java[tag=answer]
+----
+--
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/perfect-squares/solutions/2830762/dong-tai-gui-hua-cong-ji-yi-hua-sou-suo-3kz1g/[279. 完全平方数 - 动态规划：从记忆化搜索到递推，附题单！^]
+. https://leetcode.cn/problems/perfect-squares/solutions/17639/hua-jie-suan-fa-279-wan-quan-ping-fang-shu-by-guan/[279. 完全平方数 - 画解算法：279. 完全平方数^]
+. https://leetcode.cn/problems/perfect-squares/solutions/822940/wan-quan-ping-fang-shu-by-leetcode-solut-t99c/[279. 完全平方数 - 官方题解^]
+. https://leetcode.cn/problems/perfect-squares/solutions/823248/gong-shui-san-xie-xiang-jie-wan-quan-bei-nqes/[279. 完全平方数 - 详解完全背包一维空间优化推导（附背包问题攻略）^]
+. https://leetcode.cn/problems/perfect-squares/solutions/159147/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--51/[279. 完全平方数 - 详细通俗的思路分析，多解法^]

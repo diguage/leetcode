@@ -1749,6 +1749,11 @@ endif::[]
 |{doc_base_url}/0283-move-zeroes.adoc[题解]
 |✅ 快慢指针。看题解，本地栈解法更简洁。
 
+|{counter:codes2503}
+|{leetcode_base_url}/perfect-squares/[279. 完全平方数^]
+|{doc_base_url}/0279-perfect-squares.adoc[题解]
+|❌ 动态规划。完全背包问题。脑子里还是一堆浆糊，还是得练！
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

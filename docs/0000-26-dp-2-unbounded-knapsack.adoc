@@ -33,6 +33,7 @@ xref:0416-partition-equal-subset-sum.adoc[416. Partition Equal Subset Sum] 与 x
 
 == 经典题目
 
+. xref:0279-perfect-squares.adoc[279. Perfect Squares]
 . xref:0322-coin-change.adoc[322. Coin Change]
 . xref:0377-combination-sum-iv.adoc[377. Combination Sum IV]
 . xref:0518-coin-change-ii.adoc[518. Coin Change 2]
