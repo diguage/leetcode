@@ -1,7 +1,7 @@
 [#0239-sliding-window-maximum]
 = 239. 滑动窗口最大值
 
-https://leetcode.cn/problems/sliding-window-maximum/[LeetCode - 239. 滑动窗口最大值 ^]
+https://leetcode.cn/problems/sliding-window-maximum/[LeetCode - 239. 滑动窗口最大值^]
 
 给你一个整数数组 `nums`，有一个大小为 `k` 的滑动窗口从数组的最左侧移动到数组的最右侧。你只可以看到在滑动窗口内的 `k` 个数字。滑动窗口每次只向右移动一位。
 
@@ -30,7 +30,6 @@ https://leetcode.cn/problems/sliding-window-maximum/[LeetCode - 239. 滑动窗�
 输出：[1]
 ....
 
-
 *提示：*
 
 * `1 \<= nums.length \<= 10^5^`
@@ -40,17 +39,7 @@ https://leetcode.cn/problems/sliding-window-maximum/[LeetCode - 239. 滑动窗�
 
 == 思路分析
 
-最佳解决方案是单调栈：下面最大，单调递增。
-
-// image::images/0239-1.png[{image_attr}]
-//
-// image::images/0239-2.png[{image_attr}]
-//
-// image::images/0239-3.png[{image_attr}]
-//
-// image::images/0239-4.png[{image_attr}]
-//
-// image::images/0239-5.png[{image_attr}]
+最佳解决方案是单调递减栈：下面最大，单调递减。把小的数字逐步弹出，只留下大的。如果滑出窗口，则把最底下的元素删除。
 
 image::images/0239-00.png[{image_attr}]
 
@@ -105,6 +94,15 @@ include::{sourcedir}/_0239_SlidingWindowMaximum_2.java[tag=answer]
 include::{sourcedir}/_0239_SlidingWindowMaximum_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0239_SlidingWindowMaximum_4.java[tag=answer]
+----
+--
 ====
 
 == 思考题
@@ -113,8 +111,9 @@ include::{sourcedir}/_0239_SlidingWindowMaximum_3.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode.cn/problems/sliding-window-maximum/solutions/543426/hua-dong-chuang-kou-zui-da-zhi-by-leetco-ki6m/[239. 滑动窗口最大值 - 官方题解^]
+. https://leetcode.cn/problems/sliding-window-maximum/solutions/2499715/shi-pin-yi-ge-shi-pin-miao-dong-dan-diao-ezj6/[239. 滑动窗口最大值 - 降本增笑，秒懂单调队列！附题单！^]
 . https://leetcode.cn/problems/sliding-window-maximum/solutions/2361228/239-hua-dong-chuang-kou-zui-da-zhi-dan-d-u6h0/[239. 滑动窗口最大值 - 单调队列，清晰图解^]
+. https://leetcode.cn/problems/sliding-window-maximum/solutions/543426/hua-dong-chuang-kou-zui-da-zhi-by-leetco-ki6m/[239. 滑动窗口最大值 - 官方题解^]
 . https://leetcode.cn/problems/sliding-window-maximum/solutions/5458/shuang-xiang-dui-lie-jie-jue-hua-dong-chuang-kou-z/[239. 滑动窗口最大值 - 双项队列解决滑动窗口最大值难题^]
 . https://leetcode.cn/problems/sliding-window-maximum/solutions/1212012/acm-xuan-shou-tu-jie-leetcode-hua-dong-c-i3wj/[239. 滑动窗口最大值 - ACM 选手图解 LeetCode 滑动窗口最大值^]
 
