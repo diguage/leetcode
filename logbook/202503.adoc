@@ -1767,7 +1767,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/product-of-array-except-self/[238. 除自身以外数组的乘积^]
 |{doc_base_url}/0238-product-of-array-except-self.adoc[题解]
-|✅ 前缀和。利用前缀和的思路，分别求前缀乘积和后缀乘积，然后再逐个求每个元素的前后元素乘积。
+|✅ 前缀和。利用前缀和的思路，分别求前缀乘积和后缀乘积，然后再逐个求每个元素的前后元素乘积。利用结果数组存前缀乘积，可以将空间复杂度降低到常数级。
 
 |===
 

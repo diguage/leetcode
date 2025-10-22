@@ -1,29 +1,25 @@
 package com.diguage.algo.leetcode;
 
-import java.util.Arrays;
-
 public class _0238_ProductOfArrayExceptSelf_3 {
   // tag::answer[]
+
   /**
    * @author D瓜哥 · https://www.diguage.com
    * @since 2025-10-22 19:31:52
    */
   public int[] productExceptSelf(int[] nums) {
-    int[] prefix = new int[nums.length];
-    Arrays.fill(prefix, 1);
-    int[] suffix = new int[nums.length];
-    Arrays.fill(suffix, 1);
-    for (int i = 0; i < nums.length - 1; i++) {
-      prefix[i] = (i - 1 >= 0 ? prefix[i - 1] : 1) * nums[i];
-    }
-    for (int i = nums.length - 1; i > 0; i--) {
-      suffix[i] = (i + 1 < nums.length ? suffix[i + 1] : 1) * nums[i];
-    }
+    // 先使用 result 存储前缀乘积
     int[] result = new int[nums.length];
-    for (int i = 0; i < nums.length; i++) {
-      result[i] = (i - 1 >= 0 ? prefix[i - 1] : 1)
-        * (i + 1 < nums.length ? suffix[i + 1] : 1);
+    result[0] = nums[0];
+    for (int i = 1; i < nums.length - 1; i++) {
+      result[i] = result[i - 1] * nums[i];
     }
+    int suffix = 1; // 利用变量 suffix 存放后缀乘积
+    for (int i = nums.length - 1; i > 0; i--) {
+      result[i] = result[i - 1] * suffix;
+      suffix *= nums[i];
+    }
+    result[0] = suffix;
     return result;
   }
 
