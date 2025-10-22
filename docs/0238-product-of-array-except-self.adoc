@@ -1,24 +1,37 @@
 [#0238-product-of-array-except-self]
-= 238. Product of Array Except Self
+= 238. 除自身以外数组的乘积
 
-{leetcode}/problems/product-of-array-except-self/[LeetCode - Product of Array Except Self^]
+https://leetcode.cn/problems/product-of-array-except-self/[LeetCode - 238. 除自身以外数组的乘积^]
 
-Given an array `nums` of _n_ integers where _n_ > 1,  return an array `output` such that `output[i]` is equal to the product of all the elements of `nums` except `nums[i]`.
+给你一个整数数组 `nums`，返回 数组 `answer` ，其中 `answer[i]` 等于 `nums` 中除 `nums[i]` 之外其余各元素的乘积 。
 
-*Example:*
+题目数据 *保证* 数组 `nums`之中任意元素的全部前缀元素和后缀的乘积都在 *32 位* 整数范围内。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:*  `[1,2,3,4]`
-*Output:* `[24,12,8,6]`
-----
+请 **不要使用除法，**且在 stem:[O(n)] 时间复杂度内完成此题。
 
-*Note: *Please solve it *without division* and in O(_n_).
+*示例 1:*
 
-*Follow up:*
+....
+输入: nums = [1,2,3,4]
+输出: [24,12,8,6]
+....
+
+*示例 2:*
+
+....
+输入: nums = [-1,1,0,-3,3]
+输出: [0,0,9,0,0]
+....
 
 
-Could you solve it with constant space complexity? (The output array *does not* count as extra space for the purpose of space complexity analysis.)
+*提示：*
+
+* `2 \<= nums.length \<= 10^5^`
+* `+-30 <= nums[i] <= 30+`
+* *保证* 数组 `nums` 之中任意元素的全部前缀元素和后缀的乘积都在 *32 位* 整数范围内
+
+**进阶：**你可以在 `+O(1)+` 的额外空间复杂度内完成这个题目吗？（出于对空间复杂度分析的目的，输出数组 **不被视为** 额外空间。）
+
 
 == 思路分析
 
@@ -43,11 +56,21 @@ include::{sourcedir}/_0238_ProductOfArrayExceptSelf.java[tag=answer]
 include::{sourcedir}/_0238_ProductOfArrayExceptSelf_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0238_ProductOfArrayExceptSelf_3.java[tag=answer]
+----
+--
 ====
 
 该题的思路也适用于 xref:0724-find-pivot-index.adoc[724. Find Pivot Index]。
 
 == 参考资料
 
-. https://leetcode.cn/problems/product-of-array-except-self/solutions/11472/product-of-array-except-self-shang-san-jiao-xia-sa/?envType=study-plan-v2&envId=selected-coding-interview[238. 除自身以外数组的乘积 - 清晰图解^]
+. https://leetcode.cn/problems/product-of-array-except-self/solutions/2783788/qian-hou-zhui-fen-jie-fu-ti-dan-pythonja-86r1/[238. 除自身以外数组的乘积 - 前后缀分解，附题单！^]
+. https://leetcode.cn/problems/product-of-array-except-self/solutions/11472/product-of-array-except-self-shang-san-jiao-xia-sa/[238. 除自身以外数组的乘积 - 清晰图解^]
 

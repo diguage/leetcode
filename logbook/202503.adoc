@@ -1764,6 +1764,11 @@ endif::[]
 |{doc_base_url}/0239-sliding-window-maximum.adoc[题解]
 |✅ 单调递减栈。把小的数字逐步弹出，只留下大的。如果滑出窗口，则把最底下的元素删除。
 
+|{counter:codes2503}
+|{leetcode_base_url}/product-of-array-except-self/[238. 除自身以外数组的乘积^]
+|{doc_base_url}/0238-product-of-array-except-self.adoc[题解]
+|✅ 前缀和。利用前缀和的思路，分别求前缀乘积和后缀乘积，然后再逐个求每个元素的前后元素乘积。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

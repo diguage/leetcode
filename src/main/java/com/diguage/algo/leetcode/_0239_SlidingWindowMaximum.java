@@ -20,6 +20,9 @@ public class _0239_SlidingWindowMaximum {
      * Memory Usage: 56.6 MB, less than 6.25% of Java online submissions for Sliding Window Maximum.
      *
      * Copy from: https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-leetcode-3/[滑动窗口最大值 - 滑动窗口最大值 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-30 17:59
      */
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (Objects.isNull(nums) || nums.length == 0 || k == 0) {
