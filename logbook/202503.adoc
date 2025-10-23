@@ -1769,6 +1769,11 @@ endif::[]
 |{doc_base_url}/0238-product-of-array-except-self.adoc[题解]
 |✅ 前缀和。利用前缀和的思路，分别求前缀乘积和后缀乘积，然后再逐个求每个元素的前后元素乘积。利用结果数组存前缀乘积，可以将空间复杂度降低到常数级。
 
+|{counter:codes2503}
+|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree/[236. 二叉树的最近公共祖先^]
+|{doc_base_url}/0236-lowest-common-ancestor-of-a-binary-tree.adoc[题解]
+|✅ 深度优先遍历。找到或者到叶子节点就“触底反弹”，在“后根遍历”的位置处理递归调用的结果，分属左右子树则返回“当前根节点”，否则谁不为空返回谁。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
