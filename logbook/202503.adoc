@@ -1779,6 +1779,11 @@ endif::[]
 |{doc_base_url}/0234-palindrome-linked-list.adoc[题解]
 |✅ 快慢指针。使用快慢指针找到中间节点，翻转后半部分，再和前半部分比较即可。
 
+|{counter:codes2503}
+|{leetcode_base_url}/kth-smallest-element-in-a-bst/[230. 二叉搜索树中第 K 小的元素^]
+|{doc_base_url}/0230-kth-smallest-element-in-a-bst.adoc[题解]
+|✅ DFS + 树。递归方式OK，迭代方式还要再体会一下。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
