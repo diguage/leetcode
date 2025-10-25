@@ -1784,6 +1784,11 @@ endif::[]
 |{doc_base_url}/0230-kth-smallest-element-in-a-bst.adoc[题解]
 |✅ DFS + 树。递归方式OK，迭代方式还要再体会一下。
 
+|{counter:codes2503}
+|{leetcode_base_url}/binary-tree-right-side-view/[199. 二叉树的右视图^]
+|{doc_base_url}/0199-binary-tree-right-side-view.adoc[题解]
+|✅ 深度优先遍历。可以不用 `Map`，直接用 `List` 即可。要注意**先根遍历**和**中根遍历**的区别：先根遍历每层都是按顺序从上到下添加到 `List`；而中根遍历，每次都是最下层到，所以，要添加 `null` 占位符把 `List` 给撑起来，后续直接按照坐标设置。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
