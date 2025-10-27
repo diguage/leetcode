@@ -1,7 +1,7 @@
 [#0189-rotate-array]
 = 189. 轮转数组
 
-https://leetcode.cn/problems/rotate-array/[LeetCode - 189. 轮转数组 ^]
+https://leetcode.cn/problems/rotate-array/[LeetCode - 189. 轮转数组^]
 
 给定一个整数数组 `nums`，将数组中的元素向右轮转 `k` 个位置，其中 `k` 是非负数。
 
@@ -49,6 +49,10 @@ AB → rev(B)rev(A) → rev(rev(B))rev(rev(A)) → BA
 
 image::images/0189-10.png[{image_attr}]
 
+环状替代：
+
+image::images/0189-11.png[{image_attr}]
+
 [[src-0189]]
 [tabs]
 ====
@@ -69,6 +73,15 @@ include::{sourcedir}/_0189_RotateArray.java[tag=answer]
 include::{sourcedir}/_0189_RotateArray_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0189_RotateArray_3.java[tag=answer]
+----
+--
 ====
 
 
@@ -80,3 +93,4 @@ include::{sourcedir}/_0189_RotateArray_2.java[tag=answer]
 
 . https://leetcode.cn/problems/rotate-array/solutions/2784427/tu-jie-yuan-di-zuo-fa-yi-tu-miao-dong-py-ryfv/[189. 轮转数组 - 原地做法，一图秒懂！附数学证明^]
 . https://leetcode.cn/problems/rotate-array/solutions/551039/xuan-zhuan-shu-zu-by-leetcode-solution-nipk/[189. 轮转数组 - 官方题解^] -- 环状替换有意思！
+. https://leetcode.cn/problems/rotate-array/solutions/242188/xuan-zhuan-shu-zu-yuan-di-huan-wei-xiang-xi-tu-jie/[189. 轮转数组 - 原地换位，详细图解^]

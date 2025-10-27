@@ -39,6 +39,9 @@ public class _0190_ReverseBits {
      * Memory Usage: 36.6 MB, less than 7.32% of Java online submissions for Reverse Bits.
      *
      * Copy from: https://leetcode.com/problems/reverse-bits/discuss/54746/Java-Solution-and-Optimization[Java Solution and Optimization - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-15 22:55
      */
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
