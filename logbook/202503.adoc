@@ -1799,6 +1799,11 @@ endif::[]
 |{doc_base_url}/0189-rotate-array.adoc[题解]
 |✅ 双指针。分成两段，分别首尾对调，再整体首尾对调。
 
+|{counter:codes2503}
+|{leetcode_base_url}/house-robber/[198. 打家劫舍^]
+|{doc_base_url}/0198-house-robber.adoc[题解]
+|✅ 动态规划。如果利用数组，则需要修正 `nums[1]` 的值，使其符合 `nums[i]` 是 `0~i` 元素中最大抢劫金额
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

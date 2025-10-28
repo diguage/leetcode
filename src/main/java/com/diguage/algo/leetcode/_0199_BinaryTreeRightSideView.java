@@ -10,6 +10,10 @@ import java.util.*;
  */
 public class _0199_BinaryTreeRightSideView {
   // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-25 11:30:36
+   */
   public List<Integer> rightSideView(TreeNode root) {
     if (root == null) {
       return Collections.emptyList();
