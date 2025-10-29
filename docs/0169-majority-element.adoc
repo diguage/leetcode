@@ -1,32 +1,34 @@
 [#0169-majority-element]
-= 169. Majority Element
+= 169. 多数元素
 
-{leetcode}/problems/majority-element/[LeetCode - Majority Element^]
+https://leetcode.cn/problems/majority-element/[LeetCode - 169. 多数元素 ^]
 
-Boyer-Moore Voting Algorithm 这个算法好巧妙啊！简直妙不可言！
+给定一个大小为 `n` 的数组 `nums`，返回其中的多数元素。多数元素是指在数组中出现次数 *大于* `+⌊ n/2 ⌋+` 的元素。
 
-{leetcode}/problems/majority-element/solution/[Majority Element solution - LeetCode^]
+你可以假设数组是非空的，并且给定的数组总是存在多数元素。
 
-Given an array of size _n_, find the majority element. The majority element is the element that appears *more than* `&lfloor; n/2 &rfloor;` times.
+*示例 1：*
 
-You may assume that the array is non-empty and the majority element always exist in the array.
+....
+输入：nums = [3,2,3]
+输出：3
+....
 
-*Example 1:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [3,2,3]
-*Output:* 3
-----
+....
+输入：nums = [2,2,1,1,1,2,2]
+输出：2
+....
 
-*Example 2:*
+*提示：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [2,2,1,1,1,2,2]
-*Output:* 2
+* `n == nums.length`
+* `1 \<= n \<= 5 * 10^4^`
+* `-10^9^ \<= nums[i] \<= 10^9^`
 
-----
+**进阶：**尝试设计时间复杂度为 O(n)、空间复杂度为 O(1) 的算法解决此问题。
+
 
 == 思路分析
 
@@ -57,8 +59,20 @@ include::{sourcedir}/_0169_MajorityElement.java[tag=answer]
 include::{sourcedir}/_0169_MajorityElement_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0169_MajorityElement_3.java[tag=answer]
+----
+--
 ====
+
 
 == 参考资料
 
 . https://leetcode.cn/problems/majority-element/solutions/2362000/169-duo-shu-yuan-su-mo-er-tou-piao-qing-ledrh/?envType=study-plan-v2&envId=selected-coding-interview[169. 多数元素 - 摩尔投票，清晰图解^]
+. https://leetcode.cn/problems/majority-element/solutions/3744717/on-mo-er-tou-piao-fa-yan-jin-zheng-ming-ww1zv/[169. 多数元素 - O(n) 武林大会打擂台，严谨证明^]
+. https://leetcode.cn/problems/majority-element/solutions/146074/duo-shu-yuan-su-by-leetcode-solution/[169. 多数元素 - 官方题解^] -- 多种解法

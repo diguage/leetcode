@@ -52,6 +52,9 @@ public class _0171_ExcelSheetColumnNumber {
      * Runtime: 1 ms, faster than 100.00% of Java online submissions for Excel Sheet Column Number.
      *
      * Memory Usage: 36.1 MB, less than 100.00% of Java online submissions for Excel Sheet Column Number.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-14 00:12
      */
     public int titleToNumber(String s) {
         if (Objects.isNull(s) || s.length() == 0) {

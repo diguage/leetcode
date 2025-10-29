@@ -1804,6 +1804,11 @@ endif::[]
 |{doc_base_url}/0198-house-robber.adoc[题解]
 |✅ 动态规划。如果利用数组，则需要修正 `nums[1]` 的值，使其符合 `nums[i]` 是 `0~i` 元素中最大抢劫金额
 
+|{counter:codes2503}
+|{leetcode_base_url}/majority-element/[169. 多数元素^]
+|{doc_base_url}/0169-majority-element.adoc[题解]
+|✅ 数学。哈希，排序取中位数等。摩尔投票法还要多学习。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
