@@ -8,18 +8,16 @@ public class _0169_MajorityElement_3 {
    */
   public int majorityElement(int[] nums) {
     int num = 0;
-    int index = 0;
-    for (int i = 0; i < nums.length; i++) {
+    int result = 0;
+    for (int i : nums) {
       if (num == 0) {
-        index = i;
-      }
-      if (nums[i] == nums[index]) {
-        num++;
+        num = 1;
+        result = i;
       } else {
-        num--;
+        num += i == result ? +1 : -1;
       }
     }
-    return nums[index];
+    return result;
   }
   // end::answer[]
 }
