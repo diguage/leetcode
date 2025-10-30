@@ -1809,6 +1809,11 @@ endif::[]
 |{doc_base_url}/0169-majority-element.adoc[题解]
 |✅ 数学。哈希，排序取中位数等。摩尔投票法还要多学习。
 
+|{counter:codes2503}
+|{leetcode_base_url}/intersection-of-two-linked-lists/[160. 相交链表^]
+|{doc_base_url}/0160-intersection-of-two-linked-lists.adoc[题解]
+|✅ 双指针。链表 `x+z` 和 `y+z`，两个想拼接，则是 `(x+z+y)+z` 和 `(y+z+x)+z`，就可以通过相同的步骤找到最后的共同部分 `z`。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
