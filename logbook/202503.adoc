@@ -1812,7 +1812,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/intersection-of-two-linked-lists/[160. 相交链表^]
 |{doc_base_url}/0160-intersection-of-two-linked-lists.adoc[题解]
-|✅ 双指针。链表 `x+z` 和 `y+z`，两个想拼接，则是 `(x+z+y)+z` 和 `(y+z+x)+z`，就可以通过相同的步骤找到最后的共同部分 `z`。
+|✅ 双指针。链表 `x+z` 和 `y+z`，两个链表拼接，则是 `(x+z+y)+z` 和 `(y+z+x)+z`，就可以通过相同的步数找到最后的共同部分 `z`。
 
 |===
 
