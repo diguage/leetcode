@@ -1814,6 +1814,11 @@ endif::[]
 |{doc_base_url}/0160-intersection-of-two-linked-lists.adoc[题解]
 |✅ 双指针。链表 `x+z` 和 `y+z`，两个链表拼接，则是 `(x+z+y)+z` 和 `(y+z+x)+z`，就可以通过相同的步数找到最后的共同部分 `z`。
 
+|{counter:codes2503}
+|{leetcode_base_url}/min-stack/[155. 最小栈^]
+|{doc_base_url}/0155-min-stack.adoc[题解]
+|✅ 栈。可以使用一个辅助栈存最小值；也可以把最小值和当前值作为一个数对存入栈中，这样只需要一个栈。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

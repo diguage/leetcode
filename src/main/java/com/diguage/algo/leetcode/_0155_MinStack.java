@@ -14,7 +14,6 @@ import java.util.Stack;
  * * top() -- Get the top element.
  * * getMin() -- Retrieve the minimum element in the stack.
  *
- *
  * .Example:
  * [source]
  * ----
@@ -33,41 +32,45 @@ import java.util.Stack;
  */
 class _0155_MinStack {
   // tag::answer[]
-
-    // Runtime: 8 ms, faster than 18.94% of Java online submissions for Min Stack.
-    // Memory Usage: 46.2 MB, less than 5.08% of Java online submissions for Min Stack.
-    // @author D瓜哥 · https://www.diguage.com
+  /**
+   * Runtime: 8 ms, faster than 18.94% of Java online submissions for Min Stack.
+   * Memory Usage: 46.2 MB, less than 5.08% of Java online submissions for Min Stack.
+   *
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2020-01-24 16:40
+   */
+  class MinStack {
     private Stack<Integer> stack;
     private Stack<Integer> helper;
 
     /**
      * initialize your data structure here.
      */
-    public _0155_MinStack() {
-        stack = new Stack<>();
-        helper = new Stack<>();
+    public MinStack() {
+      stack = new Stack<>();
+      helper = new Stack<>();
     }
 
     public void push(int x) {
-        stack.push(x);
-        if (helper.isEmpty() || x < helper.peek()) {
-            helper.push(x);
-        } else {
-            helper.push(helper.peek());
-        }
+      stack.push(x);
+      if (helper.isEmpty() || x < helper.peek()) {
+        helper.push(x);
+      } else {
+        helper.push(helper.peek());
+      }
     }
 
     public void pop() {
-        stack.pop();
-        helper.pop();
+      stack.pop();
+      helper.pop();
     }
 
     public int top() {
-        return stack.peek();
+      return stack.peek();
     }
 
     public int getMin() {
-        return helper.peek();
+      return helper.peek();
     }
 
 //    Runtime: 10 ms, faster than 14.80% of Java online submissions for Min Stack.
@@ -100,20 +103,8 @@ class _0155_MinStack {
 //    public int getMin() {
 //        return queue.peek();
 //    }
-
+  }
   // end::answer[]
-
-
-    public static void main(String[] args) {
-        _0155_MinStack solution = new _0155_MinStack();
-        solution.push(-2);
-        solution.push(0);
-        solution.push(-3);
-        System.out.println(solution.getMin()); // -3
-        solution.pop();
-        System.out.println(solution.top()); // 0
-        System.out.println(solution.getMin()); // -2
-    }
 }
 
 
