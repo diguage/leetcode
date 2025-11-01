@@ -1,6 +1,8 @@
 [#0000-01-modified-binary-search]
 = Modified Binary Search 改进的二分搜索
 
+image::images/modified-binary-search.jpeg[{image_attr}]
+
 当你需要解决的问题的输入是排好序的数组，链表，或是排好序的矩阵，要求咱们寻找某些特定元素。这个时候的不二选择就是二分搜索。这种模式是一种超级牛的用二分来解决问题的方式。
 
 对于一组满足上升排列的数集来说，这种模式的步骤是这样的：
@@ -324,3 +326,4 @@
 == 参考资料
 
 . https://leetcode.cn/problems/binary-search/solutions/8337/er-fen-cha-zhao-xiang-jie-by-labuladong/[704. 二分查找 - 二分查找细节详解，顺便赋诗一首^]
+. https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/solutions/536365/yi-wen-dai-ni-gao-ding-er-fen-cha-zhao-j-00kj/[153. 寻找旋转排序数组中的最小值 - 一文带你搞定二分查找及多个变种^]

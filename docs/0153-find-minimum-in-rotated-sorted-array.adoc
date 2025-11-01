@@ -1,7 +1,7 @@
 [#0153-find-minimum-in-rotated-sorted-array]
 = 153. 寻找旋转排序数组中的最小值
 
-https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/[LeetCode - 153. 寻找旋转排序数组中的最小值 ^]
+https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/[LeetCode - 153. 寻找旋转排序数组中的最小值^]
 
 已知一个长度为 `n` 的数组，预先按照升序排列，经由 `1` 到 `n` 次 *旋转* 后，得到输入数组。例如，原数组 `nums = [0,1,2,4,5,6,7]` 在变化后可能得到：
 
@@ -47,7 +47,6 @@ https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/[LeetCode - 15
 * `nums` 原来是一个升序排序的数组，并进行了 `1` 至 `n` 次旋转
 
 
-
 == 思路分析
 
 最省事的方式当然是遍历，但是，中等难度的题目不可能一个遍历就解决了。
@@ -89,9 +88,21 @@ include::{sourcedir}/_0153_FindMinimumInRotatedSortedArray_2.java[tag=answer]
 include::{sourcedir}/_0153_FindMinimumInRotatedSortedArray_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0153_FindMinimumInRotatedSortedArray_4.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
+. https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/solutions/1987499/by-endlesscheng-owgd/[153. 寻找旋转排序数组中的最小值 - 和最后一个数比大小，简洁二分^]
 . https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/solutions/698479/xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-5irwp/[153. 寻找旋转排序数组中的最小值 - 官方题解^]
+. https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/solutions/134812/yi-wen-jie-jue-4-dao-sou-suo-xuan-zhuan-pai-xu-s-3/[153. 寻找旋转排序数组中的最小值 - 一文解决 4 道「搜索旋转排序数组」题！^]
+. https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/solutions/536365/yi-wen-dai-ni-gao-ding-er-fen-cha-zhao-j-00kj/[153. 寻找旋转排序数组中的最小值 - 一文带你搞定二分查找及多个变种^]
