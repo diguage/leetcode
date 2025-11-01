@@ -11,16 +11,13 @@ public class _0153_FindMinimumInRotatedSortedArray_4 {
     int left = 0, right = nums.length - 1;
     while (left < right) {
       int mid = left + (right - left) / 2;
-      if (nums[0] <= nums[mid] && nums[mid] <= nums[right]) {
+      // 只需要关注 nums[mid] 与最后一个数的大小关系即可
+      // 如果 nums[mid] 更小，那么更小的数只能在前面，无论是否旋转。
+      // 如果最后一个数更新，那么数组必定被旋转了，并且更小的数在后面。
+      if (nums[mid] < nums[nums.length - 1]) {
         right = mid;
-      } else if (nums[0] <= nums[mid]) {
-        left = mid + 1;
       } else {
-        if (nums[mid] < nums[nums.length - 1]) {
-          right = mid;
-        } else {
-          left = mid + 1;
-        }
+        left = mid + 1;
       }
     }
     return nums[left];
