@@ -34,7 +34,7 @@ https://leetcode.cn/problems/maximum-product-subarray/[LeetCode - 152. 乘积最
 
 // 这道题的阶梯思路跟另外某个题的解题思路很类似！
 
-0053-maximum-subarray[53. 最大子数组和] 与本题思路类似。但是，这道题要同时维护连续最大乘积和连续最小乘积（负负得正）。
+xref:0053-maximum-subarray[53. 最大子数组和] 与本题思路类似。但是，这道题要同时维护连续最大乘积和连续最小乘积（负负得正）。
 
 [[src-0152]]
 [tabs]
