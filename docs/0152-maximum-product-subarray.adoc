@@ -1,37 +1,68 @@
 [#0152-maximum-product-subarray]
-= 152. Maximum Product Subarray
+= 152. 乘积最大子数组
 
-{leetcode}/problems/maximum-product-subarray/[LeetCode - Maximum Product Subarray^]
+https://leetcode.cn/problems/maximum-product-subarray/[LeetCode - 152. 乘积最大子数组^]
 
-这道题的阶梯思路跟另外某个题的解题思路很类似！
+给你一个整数数组 `nums` ，请你找出数组中乘积最大的非空连续子数组（该子数组中至少包含一个数字），并返回该子数组所对应的乘积。
+
+测试用例的答案是一个 *32-位* 整数。
+
+*示例 1:*
+
+....
+输入: nums = [2,3,-2,4]
+输出: 6
+解释: 子数组 [2,3] 有最大乘积 6。
+....
+
+*示例 2:*
+
+....
+输入: nums = [-2,0,-1]
+输出: 0
+解释: 结果不能为 2, 因为 [-2,-1] 不是子数组。
+....
+
+*提示:*
+
+* `1 \<= nums.length \<= 2 * 10^4^`
+* `+-10 <= nums[i] <= 10+`
+* `nums` 的任何子数组的乘积都 *保证* 是一个 *32-位* 整数
 
 
-Given an integer array `nums`, find the contiguous subarray within an array (containing at least one number) which has the largest product.
+== 思路分析
 
-*Example 1:*
+// 这道题的阶梯思路跟另外某个题的解题思路很类似！
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [2,3,-2,4]
-*Output:* `6`
-*Explanation:* [2,3] has the largest product 6.
-
-----
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [-2,0,-1]
-*Output:* 0
-*Explanation:* The result cannot be 2, because [-2,-1] is not a subarray.
-----
-
-
+0053-maximum-subarray[53. 最大子数组和] 与本题思路类似。但是，这道题要同时维护连续最大乘积和连续最小乘积（负负得正）。
 
 [[src-0152]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0152_MaximumProductSubarray.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0152_MaximumProductSubarray_2.java[tag=answer]
+----
+--
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/maximum-product-subarray/solutions/2968916/dong-tai-gui-hua-jian-ji-gao-xiao-python-i778/[152. 乘积最大子数组 - 动态规划，简洁高效！^]
+. https://leetcode.cn/problems/maximum-product-subarray/solutions/7561/hua-jie-suan-fa-152-cheng-ji-zui-da-zi-xu-lie-by-g/[152. 乘积最大子数组 - 画解算法^]
+. https://leetcode.cn/problems/maximum-product-subarray/solutions/251440/dong-tai-gui-hua-li-jie-wu-hou-xiao-xing-by-liweiw/[152. 乘积最大子数组 - 动态规划^]
+. https://leetcode.cn/problems/maximum-product-subarray/solutions/250015/cheng-ji-zui-da-zi-shu-zu-by-leetcode-solution/[152. 乘积最大子数组 - 官方题解^]
+. https://leetcode.cn/problems/maximum-product-subarray/solutions/251550/wa-ni-zhe-ti-jie-shi-xie-gei-bu-hui-dai-ma-de-nu-p/[152. 乘积最大子数组 - 动态规划，一步步的思路^]
