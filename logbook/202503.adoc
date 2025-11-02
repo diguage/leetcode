@@ -1824,6 +1824,11 @@ endif::[]
 |{doc_base_url}/0153-find-minimum-in-rotated-sorted-array.adoc[题解]
 |✅ 二分查找！只需要聚焦于最低点所在部分，怎么做到呢？逐步把有序部分排除即可。由于旋转，还存在正常有序数组，我把这两种情况分别处理了。看题解，只需要关注 `nums[mid]` 与最后一个数比较即可，这样代码更简洁。
 
+|{counter:codes2503}
+|{leetcode_base_url}/maximum-subarray/[53. 最大子数组和^]
+|{doc_base_url}/0053-maximum-subarray.adoc[题解]
+|✅ 动态规划。Kadane 算法：stem:[f(x)=max(f(x-1),0)+a[x\]]。其中 stem:[f(x)] 表示从 `0` 到第 `x` 个元素的最大子数组和。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
