@@ -23,14 +23,14 @@ public class MergeSortLinkedList {
   }
 
   private ListNode findMid(ListNode head) {
-    ListNode slow = head, fast = head;
-    while (fast.next != null && fast.next.next != null) {
+    ListNode pre = head, slow = head, fast = head;
+    while (fast != null && fast.next != null) {
+      pre = slow;
       slow = slow.next;
       fast = fast.next.next;
     }
-    ListNode result = slow.next;
-    slow.next = null;
-    return result;
+    pre.next = null;
+    return slow;
   }
 
   private ListNode merge(ListNode left, ListNode right) {

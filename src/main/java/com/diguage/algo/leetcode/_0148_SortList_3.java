@@ -14,6 +14,7 @@ public class _0148_SortList_3 {
       return head;
     }
     ListNode slow = head, fast = head;
+    // 注意：这里已经在前面判断过 head == null，所以，肯定 fast != null
     while (fast.next != null && fast.next.next != null) {
       slow = slow.next;
       fast = fast.next.next;
