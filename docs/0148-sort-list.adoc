@@ -1,7 +1,7 @@
 [#0148-sort-list]
 = 148. 排序链表
 
-https://leetcode.cn/problems/sort-list/[LeetCode - 148. 排序链表 ^]
+https://leetcode.cn/problems/sort-list/[LeetCode - 148. 排序链表^]
 
 给你链表的头结点 `head` ，请将其按 *升序* 排列并返回 *排序后的链表* 。
 
@@ -39,6 +39,10 @@ image::images/0148-02.jpg[{image_attr}]
 
 == 思路分析
 
+分支模式，归并排序。
+
+image::images/0148-10.png[{image_attr}]
+
 [[src-0148]]
 [tabs]
 ====
@@ -59,7 +63,19 @@ include::{sourcedir}/_0148_SortList.java[tag=answer]
 include::{sourcedir}/_0148_SortList_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0148_SortList_3.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
 
+. https://leetcode.cn/problems/sort-list/solutions/2993518/liang-chong-fang-fa-fen-zhi-die-dai-mo-k-caei/[148. 排序链表 - 两种方法：分治/迭代，模块化设计，代码可读性高^]
+. https://leetcode.cn/problems/sort-list/solutions/13728/sort-list-gui-bing-pai-xu-lian-biao-by-jyd/[148. 排序链表 - 归并排序链表^]
+. https://leetcode.cn/problems/sort-list/solutions/492301/pai-xu-lian-biao-by-leetcode-solution/[148. 排序链表 - 官方题解^]

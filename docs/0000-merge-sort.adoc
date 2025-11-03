@@ -10,3 +10,14 @@ image::images/merge-sort-02.gif[{image_attr}]
 image::images/merge-sort-03.gif[{image_attr}]
 
 
+[{java_src_attr}]
+----
+include::{sortdir}/MergeSort.java[tag=answer]
+----
+
+
+[{java_src_attr}]
+----
+include::{sortdir}/MergeSortLinkedList.java[tag=answer]
+----
+
