@@ -1839,6 +1839,11 @@ endif::[]
 |{doc_base_url}/0148-sort-list.adoc[题解]
 |✅ 分治，归并排序。也可以把链表放到数组中，对数组调用库排序。归并排序的迭代写法真复杂啊！
 
+|{counter:codes2503}
+|{leetcode_base_url}/lru-cache/[146. LRU 缓存^]
+|{doc_base_url}/0146-lru-cache.adoc[题解]
+|✅ 链表+哈希。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

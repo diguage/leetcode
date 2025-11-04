@@ -1,7 +1,7 @@
 [#0146-lru-cache]
 = 146. LRU 缓存
 
-https://leetcode.cn/problems/lru-cache/[LeetCode - 146. LRU 缓存 ^]
+https://leetcode.cn/problems/lru-cache/[LeetCode - 146. LRU 缓存^]
 
 请你设计并实现一个满足 https://baike.baidu.com/item/LRU[LRU (最近最少使用) 缓存] 约束的数据结构。
 
@@ -47,8 +47,10 @@ lRUCache.get(4);    // 返回 4
 
 使用双向链表实现时，使用两个"空节点" `head` 和 `tail`，可以有效减少空值判断，真是精巧。想起来上大学时，老师讲课提到这么一句。没想到竟然是如此实现。
 
+image::images/0146-10.png[{image_attr}]
+
 `LinkedHashMap` 的实现也有不少的秘密可以探索。
- 
+
 
 [[src-0146]]
 [tabs]
@@ -70,5 +72,21 @@ include::{sourcedir}/_0146_LRUCache.java[tag=answer]
 include::{sourcedir}/_0146_LRUCache_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0146_LRUCache_3.java[tag=answer]
+----
+--
 ====
 
+
+== 参考资料
+
+. https://leetcode.cn/problems/lru-cache/solutions/2456294/tu-jie-yi-zhang-tu-miao-dong-lrupythonja-czgt/[146. LRU 缓存 - 一张图秒懂 LRU！^]
+. https://leetcode.cn/problems/lru-cache/solutions/12711/lru-ce-lue-xiang-jie-he-shi-xian-by-labuladong/[146. LRU 缓存 - LRU 策略详解和实现^]
+. https://leetcode.cn/problems/lru-cache/solutions/259678/lruhuan-cun-ji-zhi-by-leetcode-solution/[146. LRU 缓存 - 官方题解^]
+. https://leetcode.cn/problems/lru-cache/solutions/81045/yuan-yu-linkedhashmapyuan-ma-by-jeromememory/[146. LRU 缓存 - 源于 LinkedHashMap源码^]
