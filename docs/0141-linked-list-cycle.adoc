@@ -1,7 +1,7 @@
 [#0141-linked-list-cycle]
 = 141. 环形链表
 
-https://leetcode.cn/problems/linked-list-cycle/[LeetCode - 141. 环形链表 ^]
+https://leetcode.cn/problems/linked-list-cycle/[LeetCode - 141. 环形链表^]
 
 给你一个链表的头节点 `head` ，判断链表中是否有环。
 
@@ -97,8 +97,9 @@ include::{sourcedir}/_0141_LinkedListCycle_3.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode.cn/problems/linked-list-cycle/solutions/440042/huan-xing-lian-biao-by-leetcode-solution/[141. 环形链表 - 官方题解^]
+. https://leetcode.cn/problems/linked-list-cycle/solutions/1999269/mei-xiang-ming-bai-yi-ge-shi-pin-jiang-t-c4sw/[141. 环形链表 - 没想明白？一个视频讲透快慢指针！^]
 . https://leetcode.cn/problems/linked-list-cycle/solutions/175734/yi-wen-gao-ding-chang-jian-de-lian-biao-wen-ti-h-2/[141. 环形链表 - 一文搞定常见的链表问题^]
-
+. https://leetcode.cn/problems/linked-list-cycle/solutions/440042/huan-xing-lian-biao-by-leetcode-solution/[141. 环形链表 - 官方题解^]
+. https://leetcode.cn/problems/linked-list-cycle/solutions/438358/3chong-jie-jue-fang-shi-liang-chong-ji-bai-liao-10/[141. 环形链表 - 9种解决方式，8种击败了100%的用户^]
 
 

@@ -139,8 +139,7 @@ include::{sourcedir}/_0142_LinkedListCycleII_4.java[tag=answer]
 
 == 参考资料
 
-. https://en.wikipedia.org/wiki/Cycle_detection[Cycle detection - Wikipedia^]
-. https://leetcode.cn/problems/linked-list-cycle-ii/solutions/441131/huan-xing-lian-biao-ii-by-leetcode-solution/[142. 环形链表 II - 官方题解^]
+. https://leetcode.cn/problems/linked-list-cycle-ii/solutions/1999271/mei-xiang-ming-bai-yi-ge-shi-pin-jiang-t-nvsq/[142. 环形链表 II - 【图解】一张图秒懂环形链表 II，Floyd 判圈算法^]
 . https://leetcode.cn/problems/linked-list-cycle-ii/solutions/12616/linked-list-cycle-ii-kuai-man-zhi-zhen-shuang-zhi-/[142. 环形链表 II - 双指针，清晰图解^]
-
-
+. https://leetcode.cn/problems/linked-list-cycle-ii/solutions/441131/huan-xing-lian-biao-ii-by-leetcode-solution/[142. 环形链表 II - 官方题解^]
+. https://en.wikipedia.org/wiki/Cycle_detection[Cycle detection - Wikipedia^]

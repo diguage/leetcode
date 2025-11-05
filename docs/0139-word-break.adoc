@@ -1,7 +1,7 @@
 [#0139-word-break]
 = 139. 单词拆分
 
-https://leetcode.cn/problems/word-break/[LeetCode - 139. 单词拆分 ^]
+https://leetcode.cn/problems/word-break/[LeetCode - 139. 单词拆分^]
 
 给你一个字符串 `s` 和一个字符串列表 `wordDict` 作为字典。如果可以利用字典中出现的一个或多个单词拼接出 `s` 则返回 `true`。
 
@@ -44,21 +44,23 @@ https://leetcode.cn/problems/word-break/[LeetCode - 139. 单词拆分 ^]
 
 回溯+备忘录：
 
-image::images/0139-01.png[{image_attr}]
+image::images/0139-10.png[{image_attr}]
 
 动态规划
 
-image::images/0139-02.png[{image_attr}]
+image::images/0139-11.png[{image_attr}]
 
-image::images/0139-03.png[{image_attr}]
+image::images/0139-12.png[{image_attr}]
 
-image::images/0139-04.png[{image_attr}]
+image::images/0139-13.png[{image_attr}]
 
 我的思路：
 
-stem:[dp\[i+j\] = dp\[i\] & s\[i, i+j\] in dict]
+stem:[dp[i+j\] = dp[i\] \& (s[i, i+j\] \in  dict)]
 
 从 stem:[0] 到 stem:[i] 已经确定。从当前位置 stem:[i] 向前推进到 stem:[i+j]，其中 stem:[j] 是某个一个单词的长度。
+
+动态规划。有两种思路：①向后看，从当前位置截取 `word` 长度的子串，判断子串和当前 `word` 是否相等以及之前的字符串是否可以可以拆分；②向前进，从零开始，根据当前 `word` 的长度，在同等长度子串相等的情况下，向前设置子串可以拆分，直到结尾。
 
 [[src-0139]]
 [tabs]
@@ -89,9 +91,20 @@ include::{sourcedir}/_0139_WordBreak_20.java[tag=answer]
 include::{sourcedir}/_0139_WordBreak_21.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0139_WordBreak_3.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
 
+. https://leetcode.cn/problems/word-break/solutions/2968135/jiao-ni-yi-bu-bu-si-kao-dpcong-ji-yi-hua-chrs/[139. 单词拆分 - 教你一步步思考 DP：从记忆化搜索到递推，附题单！^]
 . https://leetcode.cn/problems/word-break/solutions/302779/shou-hui-tu-jie-san-chong-fang-fa-dfs-bfs-dong-tai/[139. 单词拆分 - 「手画图解」剖析三种解法: DFS, BFS, 动态规划^] -- 这个题解非常好，从回溯，到加备忘录
-. https://leetcode.cn/problems/word-break/solutions/50986/dong-tai-gui-hua-ji-yi-hua-hui-su-zhu-xing-jie-shi/[139. 单词拆分 - 动态规划+记忆化回溯 逐行解释 Python3^]
+. https://leetcode.cn/problems/word-break/solutions/50986/dong-tai-gui-hua-ji-yi-hua-hui-su-zhu-xing-jie-shi/[139. 单词拆分 - 动态规划+记忆化回溯 逐行解释^]
+. https://leetcode.cn/problems/word-break/solutions/850456/dai-ma-sui-xiang-lu-139-dan-ci-chai-fen-50a1a/[139. 单词拆分 - 带你学透完全背包！^]
