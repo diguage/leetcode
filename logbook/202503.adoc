@@ -1849,6 +1849,11 @@ endif::[]
 |{doc_base_url}/0139-word-break.adoc[题解]
 |✅ 动态规划。有两种思路：①向后看，从当前位置截取 `word` 长度的子串，判断子串和当前 `word` 是否相等以及之前的字符串是否可以可以拆分；②向前进，从零开始，根据当前 `word` 的长度，在同等长度子串相等的情况下，向前设置子串可以拆分，直到结尾。
 
+|{counter:codes2503}
+|{leetcode_base_url}/copy-list-with-random-pointer/[138. 随机链表的复制^]
+|{doc_base_url}/0138-copy-list-with-random-pointer.adoc[题解]
+|✅ 哈希+链表。先建立旧新映射，然后建立链表链接。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
