@@ -1854,6 +1854,11 @@ endif::[]
 |{doc_base_url}/0138-copy-list-with-random-pointer.adoc[题解]
 |✅ 哈希+链表。先建立旧新映射，然后建立链表链接。
 
+|{counter:codes2503}
+|{leetcode_base_url}/palindrome-partitioning/[131. Palindrome Partitioning^]
+|{doc_base_url}/0131-palindrome-partitioning.adoc[题解]
+|✅ 回溯。截取子串，判断是否为回文，如果是，则向前推进，截取下一个子串；否则，坐标向前移位。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

@@ -19,6 +19,10 @@ image::images/0481-18.png[{image_attr}]
 
 例题： xref:0481-magical-string.adoc[481. Magical String]
 
+=== 通过异或可以找出只出现过一次的数字
+
+xref:0136-single-number.adoc[136. 只出现一次的数字]
+
 === 乘法原理
 
 . xref:2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.adoc[2316. Count Unreachable Pairs of Nodes in an Undirected Graph]

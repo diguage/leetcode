@@ -1,7 +1,7 @@
 [#0136-single-number]
 = 136. 只出现一次的数字
 
-https://leetcode.cn/problems/single-number/[LeetCode - 136. 只出现一次的数字 ^]
+https://leetcode.cn/problems/single-number/[LeetCode - 136. 只出现一次的数字^]
 
 给你一个 *非空* 整数数组 `nums`，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
 
@@ -76,5 +76,6 @@ include::{sourcedir}/_0136_SingleNumber_3.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode.cn/problems/single-number/solutions/2361995/136-zhi-chu-xian-yi-ci-de-shu-zi-wei-yun-iyd0/?envType=study-plan-v2&envId=selected-coding-interview[136. 只出现一次的数字 - 位运算，清晰图解^]
+. https://leetcode.cn/problems/single-number/solutions/2361995/136-zhi-chu-xian-yi-ci-de-shu-zi-wei-yun-iyd0/[136. 只出现一次的数字 - 位运算，清晰图解^]
+. https://leetcode.cn/problems/single-number/solutions/2481594/li-yong-yi-huo-de-xing-zhi-fu-ti-dan-pyt-oizc/[136. 只出现一次的数字 - O(n) 一次遍历，附位运算题单^]
 
