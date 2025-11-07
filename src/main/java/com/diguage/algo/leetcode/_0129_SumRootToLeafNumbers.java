@@ -21,6 +21,9 @@ public class _0129_SumRootToLeafNumbers {
     /**
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Sum Root to Leaf Numbers.
      * Memory Usage: 37.7 MB, less than 5.13% of Java online submissions for Sum Root to Leaf Numbers.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-07 23:56
      */
     private int sum = 0;
     public int sumNumbers(TreeNode root) {

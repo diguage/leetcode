@@ -1,7 +1,7 @@
 [#0128-longest-consecutive-sequence]
 = 128. 最长连续序列
 
-https://leetcode.cn/problems/longest-consecutive-sequence/[LeetCode - 128. 最长连续序列 ^]
+https://leetcode.cn/problems/longest-consecutive-sequence/[LeetCode - 128. 最长连续序列^]
 
 给定一个未排序的整数数组 `nums`，找出数字连续的最长序列（不要求序列元素在原数组中连续）的长度。
 
@@ -48,20 +48,21 @@ include::{sourcedir}/_0128_LongestConsecutiveSequence.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0128_LongestConsecutiveSequence_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0128_LongestConsecutiveSequence_2.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
-. https://leetcode.cn/problems/longest-consecutive-sequence/solutions/276931/zui-chang-lian-xu-xu-lie-by-leetcode-solution/[128. 最长连续序列 - 官方题解^]
-. https://leetcode.cn/problems/longest-consecutive-sequence/solutions/3652806/jian-yi-dai-ma-cbing-cha-ji-qiu-jie-by-w-b4hj/[128. 最长连续序列 - 简易代码——C++并查集求解^]
 . https://leetcode.cn/problems/longest-consecutive-sequence/solutions/3005726/ha-xi-biao-on-zuo-fa-pythonjavacgojsrust-whop/[128. 最长连续序列 - 哈希表 O(n) 做法^]
+. https://leetcode.cn/problems/longest-consecutive-sequence/solutions/276931/zui-chang-lian-xu-xu-lie-by-leetcode-solution/[128. 最长连续序列 - 官方题解^]
+. https://leetcode.cn/problems/longest-consecutive-sequence/solutions/1176496/xiao-bai-lang-ha-xi-ji-he-ha-xi-biao-don-j5a2/[128. 最长连续序列 - 哈希集合/哈希表/动态规划/并查集四种方法^]
+. https://leetcode.cn/problems/longest-consecutive-sequence/solutions/3652806/jian-yi-dai-ma-cbing-cha-ji-qiu-jie-by-w-b4hj/[128. 最长连续序列 - 简易代码——C++并查集求解^]
 
