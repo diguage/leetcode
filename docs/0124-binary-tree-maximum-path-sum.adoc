@@ -1,7 +1,7 @@
 [#0124-binary-tree-maximum-path-sum]
 = 124. 二叉树中的最大路径和
 
-https://leetcode.cn/problems/binary-tree-maximum-path-sum/[LeetCode - 124. 二叉树中的最大路径和 ^]
+https://leetcode.cn/problems/binary-tree-maximum-path-sum/[LeetCode - 124. 二叉树中的最大路径和^]
 
 二叉树中的 *路径* 被定义为一条节点序列，序列中每对相邻节点之间都存在一条边。同一个节点在一条路径序列中 *至多出现一次* 。该路径 *至少包含一个* 节点，且不一定经过根节点。
 
@@ -11,10 +11,9 @@ https://leetcode.cn/problems/binary-tree-maximum-path-sum/[LeetCode - 124. 二�
 
 *示例 1：*
 
+image::images/0124-01.jpg[{image_attr}]
+
 ....
-       1
-      / \
-     2   3
 输入：root = [1,2,3]
 输出：6
 解释：最优路径是 2 -> 1 -> 3 ，路径和为 2 + 1 + 3 = 6
@@ -22,13 +21,9 @@ https://leetcode.cn/problems/binary-tree-maximum-path-sum/[LeetCode - 124. 二�
 
 *示例 2：*
 
-....
-   -10
-   / \
-  9  20
-    /  \
-   15   7
+image::images/0124-02.jpg[{image_attr}]
 
+....
 输入：root = [-10,9,20,null,null,15,7]
 输出：42
 解释：最优路径是 15 -> 20 -> 7 ，路径和为 15 + 20 + 7 = 42
@@ -39,8 +34,13 @@ https://leetcode.cn/problems/binary-tree-maximum-path-sum/[LeetCode - 124. 二�
 * 树中节点数目范围是 `[1, 3 * 10^4^]`
 * `+-1000 <= Node.val <= 1000+`
 
+
+
 == 思路分析
 
+深度优先遍历，如果子树路径和大于零，则累加，否则取 `0`。
+
+image::images/0124-10.png[{image_attr}]
 
 [[src-0124]]
 [tabs]
@@ -62,4 +62,20 @@ include::{sourcedir}/_0124_BinaryTreeMaximumPathSum.java[tag=answer]
 include::{sourcedir}/_0124_BinaryTreeMaximumPathSum_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0124_BinaryTreeMaximumPathSum_3.java[tag=answer]
+----
+--
 ====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/binary-tree-maximum-path-sum/solutions/2227021/shi-pin-che-di-zhang-wo-zhi-jing-dpcong-n9s91/[124. 二叉树中的最大路径和 - 彻底掌握直径 DP！从二叉树到一般树！^]
+. https://leetcode.cn/problems/binary-tree-maximum-path-sum/solutions/297276/shou-hui-tu-jie-hen-you-ya-de-yi-dao-dfsti-by-hyj8/[124. 二叉树中的最大路径和 - 「手画图解」别纠结递归的细节^]
+. https://leetcode.cn/problems/binary-tree-maximum-path-sum/solutions/297005/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-leetcode-/[124. 二叉树中的最大路径和 - 官方题解^]

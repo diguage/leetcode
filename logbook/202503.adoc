@@ -1864,6 +1864,11 @@ endif::[]
 |{doc_base_url}/0128-longest-consecutive-sequence.adoc[题解]
 |⭕️ 最初思路是排序。看题解，可以建立集合在集合中查找有没有连续数字。统计随机选一个数字，然后向两边扩展来求解，通过 73 / 83 个测试用例。通过优化，使用两层循环，先使用外层循环寻找起点，在内循环中逐步判断是否有后续节点来查找更长连续数列。
 
+|{counter:codes2503}
+|{leetcode_base_url}/binary-tree-maximum-path-sum/[124. 二叉树中的最大路径和^]
+|{doc_base_url}/0124-binary-tree-maximum-path-sum.adoc[题解]
+|✅ 深度优先搜索。如果子树路径和大于零，则累加，否则取 `0`。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
