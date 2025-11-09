@@ -1,7 +1,7 @@
 [#0121-best-time-to-buy-and-sell-stock]
 = 121. 买卖股票的最佳时机
 
-https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/[LeetCode - 121. 买卖股票的最佳时机 ^]
+https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/[LeetCode - 121. 买卖股票的最佳时机^]
 
 给定一个数组 `prices` ，它的第 `i` 个元素 `prices[i]` 表示一支给定股票第 `i` 天的价格。
 
@@ -66,11 +66,21 @@ include::{sourcedir}/_0121_BestTimeToBuyAndSellStock_2.java[tag=answer]
 include::{sourcedir}/_0121_BestTimeToBuyAndSellStock_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0121_BestTimeToBuyAndSellStock_4.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
+. https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/solutions/2464650/mei-ju-mai-chu-jie-ge-wei-hu-mai-ru-de-z-02ud/[121. 买卖股票的最佳时机 - 简洁写法：枚举卖出价格，维护买入的最小值^]
 . https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/solutions/8610/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[309. 买卖股票的最佳时机含冷冻期 - 一个方法团灭 6 道股票问题^]
 . https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/dong-tai-gui-hua-shen-ru-fen-xi-by-wang-yan-19/[动态规划深入分析 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^]
 . https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/solutions/1692872/by-jyd-cu90/[121. 买卖股票的最佳时机 - 动态规划，清晰图解^]
