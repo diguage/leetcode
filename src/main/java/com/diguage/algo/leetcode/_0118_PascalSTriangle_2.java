@@ -16,14 +16,15 @@ public class _0118_PascalSTriangle_2 {
     for (int i = 1; i < numRows; i++) {
       List<Integer> row = new ArrayList<>(i + 1);
       row.add(1);
-      for (int j = 1; j <= i; j++) {
-        List<Integer> last = result.getLast();
+      List<Integer> last = result.getLast();
+      for (int j = 1; j < i; j++) {
         int left = last.get(j - 1);
         // 最后一个数字，右上方为空，所以，
         // 它必定是 1，可以单独添加，这样就少一个判断
-        int right = j < last.size() ? last.get(j) : 0;
+        int right = last.get(j);
         row.add(left + right);
       }
+      row.add(1);
       result.add(row);
     }
     return result;
