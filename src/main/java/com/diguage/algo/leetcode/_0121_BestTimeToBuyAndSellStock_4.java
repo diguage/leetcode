@@ -9,16 +9,10 @@ public class _0121_BestTimeToBuyAndSellStock_4 {
    */
   public int maxProfit(int[] prices) {
     int min = Integer.MAX_VALUE;
-    int max = Integer.MIN_VALUE;
     int result = 0;
     for (int price : prices) {
-      if (price < min) {
-        min = price;
-        max = price;
-        continue;
-      }
-      max = Math.max(max, price);
-      result = Math.max(result, max - min);
+      min = Math.min(min, price);
+      result = Math.max(result, price - min);
     }
     return result;
   }
