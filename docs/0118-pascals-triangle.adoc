@@ -1,35 +1,65 @@
 [#0118-pascals-triangle]
-= 118. Pascal's Triangle
+= 118. 杨辉三角
 
-{leetcode}/problems/pascals-triangle/[LeetCode - Pascal's Triangle^]
+https://leetcode.cn/problems/pascals-triangle/[LeetCode - 118. 杨辉三角^]
 
-Given a non-negative integer _numRows_, generate the first _numRows_ of Pascal's triangle.
+给定一个非负整数 `numRows`，生成「杨辉三角」的前 `numRows` 行。
 
-image::https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif[{image_attr}]
+[.small]#在「杨辉三角」中，每个数是它左上方和右上方的数的和。#
+
+image::images/0118-01.gif[{image_attr}]
+
+*示例 1:*
+
+....
+输入: numRows = 5
+输出: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+....
+
+*示例 2:*
+
+....
+输入: numRows = 1
+输出: [[1]]
+....
+
+*提示:*
+
+* `+1 <= numRows <= 30+`
 
 
-[.small]#In Pascal's triangle, each number is the sum of the two numbers directly above it.#
+== 思路分析
 
-*Example:*
+每行最后一个数字，右上方为空。所以，它必定是 1，可以单独添加，这样就不用判断右上角是否超过边界。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 5
-*Output:*
-[
-     [1],
-    [1,1],
-   [1,2,1],
-  [1,3,3,1],
- [1,4,6,4,1]
-]
-----
+看题解，还发现另外一个解法：错位（每行前面补一个 `0`）相加，在每行前面补一个 `0`，在逐个相加。如下图：
 
-
+image::images/0118-10.jpg[{image_attr}]
 
 [[src-0118]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0118_PascalSTriangle.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0118_PascalSTriangle_2.java[tag=answer]
+----
+--
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/pascals-triangle/solutions/2784222/jian-dan-ti-jian-dan-zuo-pythonjavaccgoj-z596/[118. 杨辉三角 - 简单题，简单做^]
+. https://leetcode.cn/problems/pascals-triangle/solutions/53504/qu-qiao-jie-fa-cuo-yi-wei-zai-zhu-ge-xiang-jia-28m/[118. 杨辉三角 - 取巧解法：错一位再逐个相加^]

@@ -35,6 +35,9 @@ public class _0119_PascalSTriangleII {
      * Runtime: 1 ms, faster than 89.02% of Java online submissions for Pascal's Triangle II.
      *
      * Memory Usage: 33.7 MB, less than 6.17% of Java online submissions for Pascal's Triangle II.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-10-26 01:34
      */
     public List<Integer> getRow(int rowIndex) {
         List<Integer> result = new ArrayList<>(rowIndex * 3 / 2 + 1);
