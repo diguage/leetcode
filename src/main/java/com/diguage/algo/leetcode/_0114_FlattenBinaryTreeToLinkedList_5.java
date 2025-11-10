@@ -4,12 +4,9 @@ import com.diguage.algo.util.TreeNode;
 import com.diguage.util.TreeNodes;
 
 import java.util.Arrays;
-import java.util.Deque;
-import java.util.LinkedList;
 
 public class _0114_FlattenBinaryTreeToLinkedList_5 {
   // tag::answer[]
-
   /**
    * @author D瓜哥 · https://www.diguage.com
    * @since 2025-11-10 22:50:45
@@ -18,20 +15,15 @@ public class _0114_FlattenBinaryTreeToLinkedList_5 {
     if (root == null) {
       return;
     }
-    Deque<TreeNode> stack = new LinkedList<>();
-    stack.push(root);
-    while (!stack.isEmpty()) {
-      TreeNode node = stack.pop();
-      // 直接判断 node.left 是否为 null，代码更简洁
-      if (node.left != null) {
-        TreeNode mostRight = mostRight(node.left);
-        mostRight.right = node.right;
-        node.right = node.left;
-        node.left = null;
+    while (root != null) {
+      // 直接判断 root.left 是否为 null，代码更简洁
+      if (root.left != null) {
+        TreeNode mostRight = mostRight(root.left);
+        mostRight.right = root.right;
+        root.right = root.left;
+        root.left = null;
       }
-      if (node.right != null) {
-        stack.push(node.right);
-      }
+      root = root.right;
     }
   }
 

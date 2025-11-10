@@ -143,5 +143,7 @@ include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_3rec.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--26/[详细通俗的思路分析，多解法 - 二叉树展开为链表 - 力扣（LeetCode）^]
+. https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/solutions/2992172/liang-chong-fang-fa-tou-cha-fa-fen-zhi-p-h9bg/[114. 二叉树展开为链表 - 两种方法：头插法/分治^]
+. https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/solutions/17274/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--26/[114. 二叉树展开为链表 - 详细通俗的思路分析，多解法^]
+. https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/solutions/356853/er-cha-shu-zhan-kai-wei-lian-biao-by-leetcode-solu/[114. 二叉树展开为链表 - 官方题解^]
 . https://leetcode.wang/leetcode-114-Flatten-Binary-Tree-to-Linked-List.html[114. Flatten Binary Tree to Linked List · leetcode^]
