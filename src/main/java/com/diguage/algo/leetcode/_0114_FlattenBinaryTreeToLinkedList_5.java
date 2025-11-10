@@ -22,13 +22,10 @@ public class _0114_FlattenBinaryTreeToLinkedList_5 {
     stack.push(root);
     while (!stack.isEmpty()) {
       TreeNode node = stack.pop();
-      if (node.right != null) {
-        if (node.left != null) {
-          TreeNode mostRight = mostRight(node.left);
-          mostRight.right = node.right;
-        }
-      }
+      // 直接判断 node.left 是否为 null，代码更简洁
       if (node.left != null) {
+        TreeNode mostRight = mostRight(node.left);
+        mostRight.right = node.right;
         node.right = node.left;
         node.left = null;
       }
