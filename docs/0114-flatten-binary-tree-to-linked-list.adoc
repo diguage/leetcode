@@ -1,7 +1,7 @@
 [#0114-flatten-binary-tree-to-linked-list]
 = 114. 二叉树展开为链表
 
-https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/[LeetCode - 114. 二叉树展开为链表 ^]
+https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/[LeetCode - 114. 二叉树展开为链表^]
 
 给你二叉树的根结点 `root` ，请你将它展开为一个单链表：
 
@@ -118,6 +118,15 @@ include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_3.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_4.java[tag=answer]
+----
+--
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_5.java[tag=answer]
 ----
 --
 ====

@@ -1879,6 +1879,11 @@ endif::[]
 |{doc_base_url}/0118-pascals-triangle.adoc[题解]
 |✅ 数学。每行最后一个数字，右上方为空。所以，它必定是 1，可以单独添加，这样就不用判断右上角是否超过边界。还可以错位（每行前面补一个 `0`）相加，在每行前面补一个 `0`，在逐个相加。
 
+|{counter:codes2503}
+|{leetcode_base_url}/flatten-binary-tree-to-linked-list/[114. Flatten Binary Tree to Linked List^]
+|{doc_base_url}/0114-flatten-binary-tree-to-linked-list.adoc[题解]
+|✅ 右子树肯定比左子树的最大值还要大，所以，可以直接把右子树直接挂在左子树的最右子树上。然后，把左子树挂在右子树的指针上，当前节点向右移动一下，继续上面的操作。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
