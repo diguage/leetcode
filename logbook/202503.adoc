@@ -1887,7 +1887,12 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/convert-sorted-array-to-binary-search-tree/[108. 将有序数组转换为二叉搜索树^]
 |{doc_base_url}/0108-convert-sorted-array-to-binary-search-tree.adoc[题解]
-|✅ 分治法。每次找到中间值作为根节点，两边作为左右子树，递归去操作即可。
+|✅ 分治法+深度优先搜索。每次找到中间值作为根节点，两边作为左右子树，递归去操作即可。
+
+|{counter:codes2503}
+|{leetcode_base_url}/construct-binary-tree-from-preorder-and-inorder-traversal/[108. 将有序数组转换为二叉搜索树^]
+|{doc_base_url}/0105-construct-binary-tree-from-preorder-and-inorder-traversal.adoc[题解]
+|✅ 分治法+深度优先搜索。每次把前根序列的第一个数字作为根节点，并以此分割中根序列，然后再分别构建左右子树。
 
 |===
 
