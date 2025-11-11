@@ -1,7 +1,7 @@
 [#0108-convert-sorted-array-to-binary-search-tree]
 = 108. 将有序数组转换为二叉搜索树
 
-https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/[LeetCode - 108. 将有序数组转换为二叉搜索树 ^]
+https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/[LeetCode - 108. 将有序数组转换为二叉搜索树^]
 
 给你一个整数数组 `nums` ，其中元素已经按 *升序* 排列，请你将其转换为一棵 平衡 二叉搜索树。
 
@@ -34,9 +34,13 @@ image::images/0108-02.jpg[{image_attr}]
 
 == 思路分析
 
+每次找到中间值作为根节点，两边作为左右子树，递归去操作即可。
+
 这道题跟 xref:0109-convert-sorted-list-to-binary-search-tree.adoc[109. Convert Sorted List to Binary Search Tree] 类似。
 
-代码还可以再简化一下。
+image::images/0108-10.png[{image_attr}]
+
+image::images/0108-11.png[{image_attr}]
 
 [[src-0108]]
 [tabs]
@@ -50,15 +54,20 @@ include::{sourcedir}/_0108_ConvertSortedArrayToBinarySearchTree.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0108_ConvertSortedArrayToBinarySearchTree_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0108_ConvertSortedArrayToBinarySearchTree_2.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
+
+. https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/solutions/2927064/ru-men-di-gui-cong-er-cha-shu-kai-shi-py-inu6/[108. 将有序数组转换为二叉搜索树 - 入门递归，从二叉树开始^]
+. https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/solutions/312607/jiang-you-xu-shu-zu-zhuan-huan-wei-er-cha-sou-s-33/[108. 将有序数组转换为二叉搜索树 - 官方题解^]
+. https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/solutions/313508/jian-dan-di-gui-bi-xu-miao-dong-by-sweetiee/[108. 将有序数组转换为二叉搜索树 - 简单递归，🤷‍♀️ 必须秒懂！^]
+. https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/solutions/15864/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-24/[108. 将有序数组转换为二叉搜索树 - 详细通俗的思路分析，多解法^]

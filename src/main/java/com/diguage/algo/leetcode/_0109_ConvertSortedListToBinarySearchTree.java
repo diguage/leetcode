@@ -25,6 +25,9 @@ public class _0109_ConvertSortedListToBinarySearchTree {
     /**
      * Runtime: 1 ms, faster than 68.60% of Java online submissions for Convert Sorted List to Binary Search Tree.
      * Memory Usage: 41.1 MB, less than 5.26% of Java online submissions for Convert Sorted List to Binary Search Tree.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-02-06 22:42
      */
     public TreeNode sortedListToBST(ListNode head) {
         if (Objects.isNull(head)) {
