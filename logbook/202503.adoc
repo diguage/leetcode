@@ -1882,7 +1882,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/flatten-binary-tree-to-linked-list/[114. Flatten Binary Tree to Linked List^]
 |{doc_base_url}/0114-flatten-binary-tree-to-linked-list.adoc[题解]
-|✅ 右子树肯定比左子树的最大值还要大，所以，可以直接把右子树直接挂在左子树的最右子树上。然后，把左子树挂在右子树的指针上，当前节点向右移动一下，继续上面的操作。
+|✅ 右子树肯定比左子树的最大值还要大，所以，可以直接把右子树直接挂在左子树的最右子树上。然后，把左子树挂在右子树的指针上，当前节点向右移动一下，继续上面的操作。*使用递归的解法，更能体会“深度优先搜索”的特质！*
 
 |===
 

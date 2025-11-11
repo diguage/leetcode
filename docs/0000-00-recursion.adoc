@@ -4,6 +4,7 @@
 一个粗浅的认识：递归在部分场景中，可以当做一个循环来推进数组的下标。例如：
 
 . xref:0015-3sum.adoc[15. 3Sum]
+. xref:0114-flatten-binary-tree-to-linked-list.adoc[114. Flatten Binary Tree to Linked List] -- 这道题的递归解法值得好好体会！
 
 
 

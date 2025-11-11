@@ -129,6 +129,15 @@ include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_4.java[tag=answer]
 include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_5.java[tag=answer]
 ----
 --
+
+六刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_6.java[tag=answer]
+----
+--
 ====
 
 == 思考题
