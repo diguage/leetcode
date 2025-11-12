@@ -1,28 +1,33 @@
 [#0104-maximum-depth-of-binary-tree]
-= 104. Maximum Depth of Binary Tree
+= 104. 二叉树的最大深度
 
-{leetcode}/problems/maximum-depth-of-binary-tree/[LeetCode - Maximum Depth of Binary Tree^]
+https://leetcode.cn/problems/maximum-depth-of-binary-tree/[LeetCode - 104. 二叉树的最大深度^]
 
-Given a binary tree, find its maximum depth.
+给定一个二叉树 `root` ，返回其最大深度。
 
-The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+二叉树的 *最大深度* 是指从根节点到最远叶子节点的最长路径上的节点数。
 
-*Note:* A leaf is a node with no children.
+*示例 1：*
 
-*Example:*
+image::images/0104-01.jpg[{image_attr}]
 
-Given binary tree `[3,9,20,null,null,15,7]`,
+....
+输入：root = [3,9,20,null,null,15,7]
+输出：3
+....
 
-[subs="verbatim,quotes,macros"]
-----
-    3
-   / \
-  9  20
-    /  \
-   15   7
-----
+*示例 2：*
 
-return its depth = 3.
+....
+输入：root = [1,null,2]
+输出：2
+....
+
+*提示：*
+
+* 树中节点的数量在 `[0, 10^4^]` 区间内。
+* `+-100 <= Node.val <= 100+`
+
 
 == 思路分析
 
@@ -59,11 +64,21 @@ include::{sourcedir}/_0104_MaximumDepthOfBinaryTree_2.java[tag=answer]
 include::{sourcedir}/_0104_MaximumDepthOfBinaryTree_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0104_MaximumDepthOfBinaryTree_4.java[tag=answer]
+----
+--
 ====
 
 思考题：尝试使用迭代方式来解决一下。
 
 == 参考资料
 
-. https://leetcode.cn/problems/maximum-depth-of-binary-tree/solutions/349250/er-cha-shu-de-zui-da-shen-du-by-leetcode-solution/[104. 二叉树的最大深度 - 官方题解^]
+. https://leetcode.cn/problems/maximum-depth-of-binary-tree/solutions/2010612/kan-wan-zhe-ge-shi-pin-rang-ni-dui-di-gu-44uz/[104. 二叉树的最大深度 - 让你对递归的理解更上一层楼！^]
 . https://leetcode.cn/problems/maximum-depth-of-binary-tree/solutions/2361697/104-er-cha-shu-de-zui-da-shen-du-hou-xu-txzrx/[104. 二叉树的最大深度 -后序或层序遍历，清晰图解^]
+. https://leetcode.cn/problems/maximum-depth-of-binary-tree/solutions/349250/er-cha-shu-de-zui-da-shen-du-by-leetcode-solution/[104. 二叉树的最大深度 - 官方题解^]
