@@ -1894,6 +1894,11 @@ endif::[]
 |{doc_base_url}/0105-construct-binary-tree-from-preorder-and-inorder-traversal.adoc[题解]
 |✅ 分治法+深度优先搜索。每次把前根序列的第一个数字作为根节点，并以此分割中根序列，然后再分别构建左右子树。
 
+|{counter:codes2503}
+|{leetcode_base_url}/maximum-depth-of-binary-tree/[104. 二叉树的最大深度^]
+|{doc_base_url}/0104-maximum-depth-of-binary-tree.adoc[题解]
+|✅ 深度优先遍历。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
