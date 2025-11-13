@@ -1904,6 +1904,11 @@ endif::[]
 |{doc_base_url}/0098-validate-binary-search-tree.adoc[题解]
 |✅ 树形DP套路或中序遍历
 
+|{counter:codes2503}
+|{leetcode_base_url}/binary-tree-inorder-traversal/[94. 二叉树的中序遍历^]
+|{doc_base_url}/0094-binary-tree-inorder-traversal.adoc[题解]
+|✅ 深度优先+栈。递归法非常简单；迭代法则是用栈来模拟递归；而“变形”莫尔斯解法则非常有趣。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

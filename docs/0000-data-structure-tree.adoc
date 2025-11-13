@@ -40,6 +40,8 @@ image::images/0000-ds-tree-02.gif[{image_attr}]
 . 归并排序和二叉树后根遍历的递归顺序是一样的。
 
 
+
+[#morris-traversal]
 == Morris 遍历
 
 二叉搜索树相关的的一些题目，很可能就会利用中序遍历是升序序列的特性来处理一下问题。那么，在时间复杂度相同，但空间复杂度都特别优秀的 Morris 遍历就是一个很好的选择。
@@ -48,6 +50,8 @@ image::images/0000-ds-tree-01.jpg[{image_attr}]
 
 . xref:0098-validate-binary-search-tree.adoc[98. Validate Binary Search Tree]
 . xref:0099-recover-binary-search-tree.adoc[99. Recover Binary Search Tree]
+
+在 https://leetcode.cn/problems/binary-tree-inorder-traversal/solutions/96765/dong-hua-yan-shi-94-er-cha-shu-de-zhong-xu-bian-li/[94. 二叉树的中序遍历 - 动画演示+三种实现^] 中的“变形”莫尔斯算法则展示了莫尔斯算法的另一种 有趣用法。
 
 == 树形 DP 套路
 
