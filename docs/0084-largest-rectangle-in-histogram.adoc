@@ -1,9 +1,9 @@
 [#0084-largest-rectangle-in-histogram]
 = 84. 柱状图中最大的矩形
 
-https://leetcode.cn/problems/largest-rectangle-in-histogram/[LeetCode - 84. 柱状图中最大的矩形 ^]
+https://leetcode.cn/problems/largest-rectangle-in-histogram/[LeetCode - 84. 柱状图中最大的矩形^]
 
-给定 _n_ 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 `1` 。
+给定 `n` 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 1。
 
 求在该柱状图中，能够勾勒出来的矩形的最大面积。
 
@@ -30,10 +30,12 @@ image:images/0084-04.jpg[]
 输出： 4
 ....
 
+
 *提示：*
 
 * `1 \<= heights.length \<=10^5^`
 * `0 \<= heights[i] \<= 10^4^`
+
 
 
 == 思路分析
@@ -59,14 +61,14 @@ include::{sourcedir}/_0084_LargestRectangleInHistogram.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0084_LargestRectangleInHistogram_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0084_LargestRectangleInHistogram_2.java[tag=answer]
+----
+--
 ====
 
 
@@ -74,3 +76,5 @@ include::{sourcedir}/_0084_LargestRectangleInHistogram.java[tag=answer]
 
 . https://leetcode.cn/problems/largest-rectangle-in-histogram/solutions/142012/bao-li-jie-fa-zhan-by-liweiwei1419/[84. 柱状图中最大的矩形 - 暴力解法、栈（单调栈、哨兵技巧）^] -- 哨兵技巧牛逼
 . https://leetcode.cn/problems/largest-rectangle-in-histogram/solutions/266844/zhu-zhuang-tu-zhong-zui-da-de-ju-xing-by-leetcode-/[84. 柱状图中最大的矩形 - 官方题解^] -- 看的稀里糊涂。
+. https://leetcode.cn/problems/largest-rectangle-in-histogram/solutions/2695467/dan-diao-zhan-fu-ti-dan-pythonjavacgojsr-89s7/[84. 柱状图中最大的矩形 - 一步步优化：从三次遍历到一次遍历^]
+. https://leetcode.cn/problems/largest-rectangle-in-histogram/solutions/108083/84-by-ikaruga/[84. 柱状图中最大的矩形 - 单调栈入门，使用单调栈快速寻找边界^]

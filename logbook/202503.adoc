@@ -1909,6 +1909,11 @@ endif::[]
 |{doc_base_url}/0094-binary-tree-inorder-traversal.adoc[题解]
 |✅ 深度优先+栈。递归法非常简单；迭代法则是用栈来模拟递归；而“变形”莫尔斯解法则非常有趣。
 
+|{counter:codes2503}
+|{leetcode_base_url}/largest-rectangle-in-histogram/[84. 柱状图中最大的矩形^]
+|{doc_base_url}/0084-largest-rectangle-in-histogram.adoc[题解]
+|⭕️ 单调栈。哨兵技巧非常巧妙，不仅仅一边可以加哨兵，两边都可以加哨兵。另外，弹出的栈顶元素两边（栈顶元素，当前遍历元素）都是比栈顶低的元素，所以，取栈顶元素和“两边夹层”就是可以得到的最大矩形。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

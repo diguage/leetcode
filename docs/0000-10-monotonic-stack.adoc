@@ -56,7 +56,7 @@ image::images/0739-10.png[{image_attr}]
 == 经典题目
 
 . xref:0042-trapping-rain-water.adoc[42. Trapping Rain Water] -- 这个单调栈，在中间过程加了一些操作，有意思。
-. xref:0084-largest-rectangle-in-histogram.adoc[84. Largest Rectangle in Histogram]
+. xref:0084-largest-rectangle-in-histogram.adoc[84. Largest Rectangle in Histogram] -- 在出栈循环中处理逻辑。
 . xref:0085-maximal-rectangle.adoc[85. Maximal Rectangle]
 . xref:0155-min-stack.adoc[155. Min Stack] -- 这个辅助栈也可以认为是一种单调栈。
 . xref:0255-verify-preorder-sequence-in-binary-search-tree.adoc[255. Verify Preorder Sequence in Binary Search Tree]
