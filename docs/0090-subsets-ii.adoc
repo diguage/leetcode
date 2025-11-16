@@ -1,7 +1,7 @@
 [#0090-subsets-ii]
 = 90. 子集 II
 
-https://leetcode.cn/problems/subsets-ii/[LeetCode - 90. 子集 II ^]
+https://leetcode.cn/problems/subsets-ii/[LeetCode - 90. 子集 II^]
 
 给你一个整数数组 `nums`，其中可能包含重复元素，请你返回该数组所有可能的 子集（幂集）。
 
@@ -23,14 +23,18 @@ https://leetcode.cn/problems/subsets-ii/[LeetCode - 90. 子集 II ^]
 
 *提示：*
 
-* `+1 <= nums.length <= 10+`
-* `+-10 <= nums[i] <= 10+`
+* `1 \<= nums.length \<= 10`
+* `-10 \<= nums[i] \<= 10`
+
+
 
 == 解题分析
 
 这道题跟 xref:0078-subsets.adoc[78. Subsets] 类似。不一样的地方是要处理重复元素：
 
-image::images/0090-01.png[{image_attr}]
+如果元素中有重复元素，那么就需要先对元素排序，遇到重复元素时，就不能对虽有已有元素都添加新元素了（因为前一个元素重复，那么对全部已有元素添加新元素就会有重复自己）。只需要针对上一次新添加的子集添加新元素即可，依次执行，直到有不重复元素则再次恢复成从全部子集添加元素。
+
+image::images/0090-10.png[{image_attr}]
 
 第 4 行新添加的 2 要加到第 3 行的所有解中，而第 3 行的一部分解是旧解，一部分是新解。可以看到，我们黑色部分是由第 3 行的旧解产生的，橙色部分是由新解产生的。
 
@@ -79,11 +83,21 @@ include::{sourcedir}/_0090_SubsetsII_30.java[tag=answer]
 include::{sourcedir}/_0090_SubsetsII_31.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0090_SubsetsIi_4.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
 
 . https://leetcode.cn/problems/subsets-ii/solutions/10090/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-19/[90. 子集 II - 详细通俗的思路分析，多解法^]
+. https://leetcode.cn/problems/subsets-ii/solutions/3036436/liang-chong-fang-fa-xuan-huo-bu-xuan-mei-v0js/[90. 子集 II - 两种方法：选或不选/枚举选哪个^]
 . https://leetcode.cn/problems/subsets-ii/solutions/690549/zi-ji-ii-by-leetcode-solution-7inq/[90. 子集 II - 官方题解^]
 . https://leetcode.cn/problems/subsets-ii/solutions/690866/90-zi-ji-iiche-di-li-jie-zi-ji-wen-ti-ru-djmf/[90. 子集 II - 「代码随想录」带你学透回溯算法！90. 子集 II:【彻底理解子集问题如何去重】^]
 
