@@ -25,7 +25,7 @@ public class _0076_MinimumWindowSubstring {
      * Memory Usage: 44.4 MB, less than 5.32% of Java online submissions for Minimum Window Substring.
      *
      * @author D瓜哥 · https://www.diguage.com
-     * @since 2024-07-02 17:03:23
+     * @since 2020-01-30 16:45
      */
     public String minWindow(String s, String t) {
         if (Objects.isNull(s) || s.length() == 0
