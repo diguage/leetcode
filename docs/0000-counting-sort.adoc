@@ -3,3 +3,7 @@
 
 
 image::images/counting-sort-overview.png[{image_attr}]
+
+== 经典题目
+
+. xref:0075-sort-colors.adoc[75. Sort Colors]

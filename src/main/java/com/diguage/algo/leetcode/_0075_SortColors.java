@@ -38,6 +38,9 @@ public class _0075_SortColors {
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Sort Colors.
      *
      * Memory Usage: 35.2 MB, less than 99.21% of Java online submissions for Sort Colors.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-10-29 20:26
      */
     public void sortColors(int[] nums) {
         if (Objects.isNull(nums) || nums.length <= 1) {

@@ -1934,6 +1934,11 @@ endif::[]
 |{doc_base_url}/0076-minimum-window-substring.adoc[题解]
 |✅ 滑动窗口。字母不够时，扩大窗口；字母足够时，开始缩小窗口。
 
+|{counter:codes2503}
+|{leetcode_base_url}/sort-colors/[75. Sort Colors^]
+|{doc_base_url}/0075-sort-colors.adoc[题解]
+|✅ 计数排序或三路快排。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

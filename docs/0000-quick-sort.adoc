@@ -15,3 +15,6 @@ image::images/quick-sort-01.gif[{image_attr}]
 image::images/quick-sort-02.gif[{image_attr}]
 
 image::images/quick-sort-03.png[{image_attr}]
+
+
+NOTE: 研究一下三路快排。
