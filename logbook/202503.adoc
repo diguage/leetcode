@@ -1929,6 +1929,11 @@ endif::[]
 |{doc_base_url}/0090-subsets-ii.adoc[题解]
 |✅ 子集模式。需要注意重复元素的处理。如果元素中有重复元素，那么就需要先对元素排序，遇到重复元素时，就不能对虽有已有元素都添加新元素了。只需要针对上一次新添加的子集添加新元素即可，依次执行，直到有不重复元素则再次恢复成从全部子集添加元素。
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-window-substring/[76. 最小覆盖子串^]
+|{doc_base_url}/0076-minimum-window-substring.adoc[题解]
+|✅ 滑动窗口。字母不够时，扩大窗口；字母足够时，开始缩小窗口。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

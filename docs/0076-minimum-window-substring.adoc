@@ -1,9 +1,9 @@
 [#0076-minimum-window-substring]
 = 76. 最小覆盖子串
 
-https://leetcode.cn/problems/minimum-window-substring/[LeetCode - 76. 最小覆盖子串 ^]
+https://leetcode.cn/problems/minimum-window-substring/[LeetCode - 76. 最小覆盖子串^]
 
-给你一个字符串 `s` 、一个字符串 `t` 。返回 `s` 中涵盖 `t` 所有字符的最小子串。如果 `s` 中不存在涵盖 `t` 所有字符的子串，则返回空字符串 `""` 。
+给你一个字符串 `s`、一个字符串 `t`。返回 `s` 中涵盖 `t` 所有字符的最小子串。如果 `s` 中不存在涵盖 `t` 所有字符的子串，则返回空字符串 `""` 。
 
 *注意：*
 
@@ -35,7 +35,6 @@ https://leetcode.cn/problems/minimum-window-substring/[LeetCode - 76. 最小覆�
 因此没有符合条件的子字符串，返回空字符串。
 ....
 
-
 *提示：*
 
 * `m == s.length`
@@ -47,9 +46,11 @@ https://leetcode.cn/problems/minimum-window-substring/[LeetCode - 76. 最小覆�
 
 == 思路分析
 
-滑动窗口
+滑动窗口：字母不够时，扩大窗口；字母足够时，开始缩小窗口。
 
-image::images/0076-01.gif[{image_attr}]
+image::images/0076-10.gif[{image_attr}]
+
+image::images/0076-11.png[{image_attr}]
 
 [[src-0076]]
 [tabs]
@@ -80,11 +81,20 @@ include::{sourcedir}/_0076_MinimumWindowSubstring_2.java[tag=answer]
 include::{sourcedir}/_0076_MinimumWindowSubstring_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0076_MinimumWindowSubstring_4.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
 
 . https://leetcode.cn/problems/minimum-window-substring/solutions/257359/zui-xiao-fu-gai-zi-chuan-by-leetcode-solution/[76. 最小覆盖子串 - 官方题解^]
+. https://leetcode.cn/problems/minimum-window-substring/solutions/2713911/liang-chong-fang-fa-cong-o52mn-dao-omnfu-3ezz/[76. 最小覆盖子串 - 两种方法：从 O(52m+n) 到 O(m+n)，附题单^]
 . https://leetcode.cn/problems/find-all-anagrams-in-a-string/solutions/9749/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/[438. 找到字符串中所有字母异位词 - 我写了一首诗，把滑动窗口算法变成了默写题^]
-. https://leetcode.cn/problems/minimum-window-substring/solutions/257359/zui-xiao-fu-gai-zi-chuan-by-leetcode-solution/[76. 最小覆盖子串 - 官方题解^]
-
+. https://leetcode.cn/problems/minimum-window-substring/solutions/258513/tong-su-qie-xiang-xi-de-miao-shu-hua-dong-chuang-k/[76. 最小覆盖子串 - 简简单单，非常容易理解的滑动窗口思想^]
