@@ -1939,6 +1939,11 @@ endif::[]
 |{doc_base_url}/0075-sort-colors.adoc[题解]
 |✅ 计数排序或三路快排。
 
+|{counter:codes2503}
+|{leetcode_base_url}/search-a-2d-matrix/[74. 搜索二维矩阵^]
+|{doc_base_url}/0074-search-a-2d-matrix.adoc[题解]
+|✅ 二分查找。通过将矩阵容量转换成坐标，把矩阵按行“拼接”，使用二分查找来处理，解法非常妙。也可以使用 {doc_base_url}/0240-search-a-2d-matrix-ii.adoc[240. 搜索二维矩阵 II^] 类似的解法，从左下角或者右上角开始，排除行或列来解答。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

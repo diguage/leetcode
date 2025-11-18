@@ -1,7 +1,7 @@
 [#0074-search-a-2d-matrix]
 = 74. 搜索二维矩阵
 
-https://leetcode.cn/problems/search-a-2d-matrix/[LeetCode - 74. 搜索二维矩阵 ^]
+https://leetcode.cn/problems/search-a-2d-matrix/[LeetCode - 74. 搜索二维矩阵^]
 
 给你一个满足下述两条属性的 `m x n` 整数矩阵：
 
@@ -28,7 +28,6 @@ image::images/0074-02.jpg[{image_attr}]
 输出：false
 ....
 
-
 *提示：*
 
 * `m == matrix.length`
@@ -39,7 +38,9 @@ image::images/0074-02.jpg[{image_attr}]
 
 == 思路分析
 
-由于矩阵同行有序，下一行比上一行大，所以，把每一行“拼接”起来就是一个有序数组，可以用二分查找解决问题。
+由于矩阵同行有序，下一行比上一行大，所以，通过将矩阵容量转换成坐标，把每一行“拼接”起来就是一个有序数组，可以用二分查找解决问题。
+
+也可以使用 xref:0240-search-a-2d-matrix-ii.adoc[240. Search a 2D Matrix II] 类似的解法，从左下角或者右上角开始，排除行或列来解答。
 
 [[src-0074]]
 [tabs]
@@ -53,17 +54,20 @@ include::{sourcedir}/_0074_SearchA2DMatrix.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0074_SearchA2DMatrix_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0074_SearchA2DMatrix_2.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
+. https://leetcode.cn/problems/search-a-2d-matrix/solutions/2783931/liang-chong-fang-fa-er-fen-cha-zhao-pai-39d74/[74. 搜索二维矩阵 - 两种方法：二分查找/排除法^]
+. https://leetcode.cn/problems/search-a-2d-matrix/solutions/688573/gong-shui-san-xie-yi-ti-shuang-jie-er-fe-l0pq/[74. 搜索二维矩阵 - 一题双解：「二分」&「抽象 BST」解法^]
+. https://leetcode.cn/problems/search-a-2d-matrix/solutions/688623/fu-xue-ming-zhu-liu-chong-fang-fa-bang-n-e20z/[74. 搜索二维矩阵 - 六种方法，帮你拓展思路^]
 . https://leetcode.cn/problems/search-a-2d-matrix/solutions/688117/sou-suo-er-wei-ju-zhen-by-leetcode-solut-vxui/[74. 搜索二维矩阵 - 官方题解^]
