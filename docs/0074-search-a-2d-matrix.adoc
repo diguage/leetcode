@@ -62,6 +62,15 @@ include::{sourcedir}/_0074_SearchA2DMatrix.java[tag=answer]
 include::{sourcedir}/_0074_SearchA2DMatrix_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0074_SearchA2DMatrix_3.java[tag=answer]
+----
+--
 ====
 
 
