@@ -1,7 +1,7 @@
 [#0064-minimum-path-sum]
 = 64. 最小路径和
 
-https://leetcode.cn/problems/minimum-path-sum/[LeetCode - 64. 最小路径和 ^]
+https://leetcode.cn/problems/minimum-path-sum/[LeetCode - 64. 最小路径和^]
 
 给定一个包含非负整数的 `m x n` 网格 `grid`，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。
 
@@ -26,13 +26,21 @@ image::images/0064-01.jpg[{image_attr}]
 
 *提示：*
 
-* `+m == grid.length+`
-* `+n == grid[i].length+`
-* `+1 <= m, n <= 200+`
-* `+0 <= grid[i][j] <= 200+`
+* `m == grid.length`
+* `n == grid[i].length`
+* `1 \<= m, n \<= 200`
+* `0 \<= grid[i][j] \<= 200`
 
 
 == 思路分析
+
+动态规划：
+
+. 第一行只能从左向右，直接依次向后累计即可。
+. 第一列也是只能从上向下，直接向下累加即可。
+. 其余只能从左或上到当前格子，两个格子取最小累加即可。
+
+image::images/0064-10.png[{image_attr}]
 
 [[src-0064]]
 [tabs]
@@ -63,11 +71,22 @@ include::{sourcedir}/_0064_MinimumPathSum_2.java[tag=answer]
 include::{sourcedir}/_0064_MinimumPathSum_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0064_MinimumPathSum_4.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
 
-. https://leetcode.cn/problems/minimum-path-sum/solutions/342122/zui-xiao-lu-jing-he-by-leetcode-solution/?envType=study-plan-v2&envId=selected-coding-interview[64. 最小路径和 - 官方题解^]
-. https://leetcode.cn/problems/minimum-path-sum/solutions/25943/zui-xiao-lu-jing-he-dong-tai-gui-hua-gui-fan-liu-c/?envType=study-plan-v2&envId=selected-coding-interview[64. 最小路径和 - 动态规划，规范流程，清晰图解^]
+. https://leetcode.cn/problems/minimum-path-sum/solutions/3045828/jiao-ni-yi-bu-bu-si-kao-dpcong-ji-yi-hua-zfb2/[64. 最小路径和 - 教你一步步思考 DP：从记忆化搜索到递推到空间优化！^]
+. https://leetcode.cn/problems/minimum-path-sum/solutions/25943/zui-xiao-lu-jing-he-dong-tai-gui-hua-gui-fan-liu-c/[64. 最小路径和 - 动态规划，规范流程，清晰图解^]
+. https://leetcode.cn/problems/minimum-path-sum/solutions/342122/zui-xiao-lu-jing-he-by-leetcode-solution/[64. 最小路径和 - 官方题解^]
+. https://leetcode.cn/problems/minimum-path-sum/solutions/2728404/javapython3cdong-tai-gui-hua-kong-jian-y-a5sz/[64. 最小路径和 - 动态规划+空间优化：一步步进行代码优化【图解】^]
 
 

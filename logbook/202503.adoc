@@ -1959,6 +1959,11 @@ endif::[]
 |{doc_base_url}/0070-climbing-stairs.adoc[题解]
 |✅ 动态规划。也就是斐波那契数列，没想到这竟然是最简单的动态规划题目。
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-path-sum/[64. 最小路径和^]
+|{doc_base_url}/0064-minimum-path-sum.adoc[题解]
+|✅ 动态规划。每格只能从上或左到此，所以，在“上”和“左”中取最小，累加即可。直接在原有矩阵上操作，更加节省空间。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
