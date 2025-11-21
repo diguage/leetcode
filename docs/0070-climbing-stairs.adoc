@@ -1,36 +1,37 @@
 [#0070-climbing-stairs]
-= 70. Climbing Stairs
+= 70. 爬楼梯
 
-{leetcode}/problems/climbing-stairs/[LeetCode - Climbing Stairs^]
+https://leetcode.cn/problems/climbing-stairs/[LeetCode - 70. 爬楼梯^]
 
-You are climbing a stair case. It takes _n_ steps to reach to the top.
+假设你正在爬楼梯。需要 `n` 阶你才能到达楼顶。
 
-Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+每次你可以爬 `1` 或 `2` 个台阶。你有多少种不同的方法可以爬到楼顶呢？
 
-*Note:* Given _n_ will be a positive integer.
+*示例 1：*
 
-*Example 1:*
+....
+输入：n = 2
+输出：2
+解释：有两种方法可以爬到楼顶。
+1. 1 阶 + 1 阶
+2. 2 阶
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 2
-*Output:* 2
-*Explanation:* There are two ways to climb to the top.
-1. 1 step + 1 step
-2. 2 steps
-----
+*示例 2：*
 
-*Example 2:*
+....
+输入：n = 3
+输出：3
+解释：有三种方法可以爬到楼顶。
+1. 1 阶 + 1 阶 + 1 阶
+2. 1 阶 + 2 阶
+3. 2 阶 + 1 阶
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 3
-*Output:* 3
-*Explanation:* There are three ways to climb to the top.
-1. 1 step + 1 step + 1 step
-2. 1 step + 2 steps
-3. 2 steps + 1 step
-----
+*提示：*
+
+* `+1 <= n <= 45+`
+
 
 == 思路分析
 
@@ -79,13 +80,22 @@ include::{sourcedir}/_0070_ClimbingStairs.java[tag=answer]
 include::{sourcedir}/_0070_ClimbingStairs_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0070_ClimbingStairs_3.java[tag=answer]
+----
+--
 ====
+
 
 == 参考资料
 
-. https://leetcode.cn/problems/climbing-stairs/solutions/2361764/70-pa-lou-ti-dong-tai-gui-hua-qing-xi-tu-ruwa/?envType=study-plan-v2&envId=selected-coding-interview[70. 爬楼梯 - 动态规划，清晰图解^]
-. https://leetcode.cn/problems/climbing-stairs/solutions/286022/pa-lou-ti-by-leetcode-solution/?envType=study-plan-v2&envId=selected-coding-interview[70. 爬楼梯 - 官方题解^]
-. https://leetcode.cn/problems/climbing-stairs/solutions/2560716/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-7zm1/?envType=study-plan-v2&envId=selected-coding-interview[70. 爬楼梯 - 教你一步步思考动态规划：从记忆化搜索到递推^]
-
-
-
+. https://leetcode.cn/problems/climbing-stairs/solutions/2560716/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-7zm1/[70. 爬楼梯 - 教你一步步思考动态规划：从记忆化搜索到递推^]
+. https://leetcode.cn/problems/climbing-stairs/solutions/270926/cong-zhi-jue-si-wei-fen-xi-dong-tai-gui-hua-si-lu-/[70. 爬楼梯 - 「手画图解」详解爬楼梯问题 | 从递归，讲到动态规划^]
+. https://leetcode.cn/problems/climbing-stairs/solutions/854668/dai-ma-sui-xiang-lu-dong-tai-gui-hua-jin-y1hw/[70. 爬楼梯 - 「代码随想录」动态规划精讲！^]
+. https://leetcode.cn/problems/climbing-stairs/solutions/2361764/70-pa-lou-ti-dong-tai-gui-hua-qing-xi-tu-ruwa/[70. 爬楼梯 - 动态规划，清晰图解^]
+. https://leetcode.cn/problems/climbing-stairs/solutions/286022/pa-lou-ti-by-leetcode-solution/[70. 爬楼梯 - 官方题解^]

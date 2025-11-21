@@ -1954,6 +1954,11 @@ endif::[]
 |{doc_base_url}/0072-edit-distance.adoc[题解]
 |❌ 动态规划。计算 `dp[c][r]` 时，从相邻三个元素获取递推的含义还要好好思考一下，“增”、“删”和“改”的含义要理解清楚。
 
+|{counter:codes2503}
+|{leetcode_base_url}/climbing-stairs/[70. 爬楼梯^]
+|{doc_base_url}/0070-climbing-stairs.adoc[题解]
+|✅ 动态规划。也就是斐波那契数列，没想到这竟然是最简单的动态规划题目。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
