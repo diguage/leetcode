@@ -52,9 +52,11 @@ image::images/0062-01.png[{image_attr}]
 
 == 思路分析
 
+常规解法就是动态规划；从数学的角度来看，也是一个组合问题。
+
 [latexmath]
 ++++
-C_{n}^{m} = \frac{A_{n}^{m}}{m!} = \frac{n!}{m! \cdot (n-m)!} = C_{n}^{n-m}
+C_{n}^{m} = \frac{A_{n}^{m}}{A_{m}^{m}} = \frac{n \cdot (n-1) \cdot \cdot \cdot(n-m+1)}{m!} = \frac{n!}{m! \cdot (n-m)!} = C_{n}^{n-m}
 ++++
 
 对于本题而言，要想到达终点，需要往下走 latexmath:[n-1] 步，往右走 latexmath:[m-1] 步，总共需要走 latexmath:[n+m-2] 步。即：
@@ -110,6 +112,7 @@ include::{sourcedir}/_0062_UniquePaths_4.java[tag=answer]
 . https://leetcode.cn/problems/unique-paths/solutions/701392/san-chong-shi-xian-xiang-xi-tu-jie-62-bu-4jz1/[62. 不同路径 - 三种实现+详细图解^]
 . https://leetcode.cn/problems/unique-paths/solutions/514311/bu-tong-lu-jing-by-leetcode-solution-hzjf/[62. 不同路径 - 官方题解^]
 . https://leetcode.cn/problems/unique-paths/solutions/514503/dong-tai-gui-hua-di-gui-gong-shi-deng-3z-9mp1/[62. 不同路径 - 动态规划，递归，公式等3中解决方法^]
+. https://www.cnblogs.com/1024th/p/10623541.html[排列组合的一些公式及推导(非常详细易懂)^]
 
 
 
