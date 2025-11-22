@@ -1,7 +1,7 @@
 [#0062-unique-paths]
 = 62. 不同路径
 
-https://leetcode.cn/problems/unique-paths/[LeetCode - 62. 不同路径 ^]
+https://leetcode.cn/problems/unique-paths/[LeetCode - 62. 不同路径^]
 
 一个机器人位于一个 `m x n` 网格的左上角 （起始点在下图中标记为 “Start” ）。
 
@@ -44,7 +44,6 @@ image::images/0062-01.png[{image_attr}]
 输出：6
 ....
 
-
 *提示：*
 
 * `+1 <= m, n <= 100+`
@@ -52,6 +51,18 @@ image::images/0062-01.png[{image_attr}]
 
 
 == 思路分析
+
+[latexmath]
+++++
+C_{n}^{m} = \frac{A_{n}^{m}}{m!} = \frac{n!}{m! \cdot (n-m)!} = C_{n}^{n-m}
+++++
+
+对于本题而言，要想到达终点，需要往下走 latexmath:[n-1] 步，往右走 latexmath:[m-1] 步，总共需要走 latexmath:[n+m-2] 步。即：
+
+[latexmath]
+++++
+C_{m+n-2}^{m-1} = \frac{(m+n-2)!}{(m-1)! \cdot (n-1)!}
+++++
 
 [[src-0062]]
 [tabs]
@@ -82,12 +93,23 @@ include::{sourcedir}/_0062_UniquePaths_2.java[tag=answer]
 include::{sourcedir}/_0062_UniquePaths_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0062_UniquePaths_4.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
 
-. https://leetcode.cn/problems/unique-paths/solutions/5772/dong-tai-gui-hua-by-powcai-2/[62. 不同路径 - 力扣（LeetCode）^]
+. https://leetcode.cn/problems/unique-paths/solutions/3062432/liang-chong-fang-fa-dong-tai-gui-hua-zu-o5k32/[62. 不同路径 - 两种方法：动态规划 / 组合数学^]
+. https://leetcode.cn/problems/unique-paths/solutions/701392/san-chong-shi-xian-xiang-xi-tu-jie-62-bu-4jz1/[62. 不同路径 - 三种实现+详细图解^]
 . https://leetcode.cn/problems/unique-paths/solutions/514311/bu-tong-lu-jing-by-leetcode-solution-hzjf/[62. 不同路径 - 官方题解^]
+. https://leetcode.cn/problems/unique-paths/solutions/514503/dong-tai-gui-hua-di-gui-gong-shi-deng-3z-9mp1/[62. 不同路径 - 动态规划，递归，公式等3中解决方法^]
 
 
 
