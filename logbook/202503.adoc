@@ -1974,6 +1974,11 @@ endif::[]
 |{doc_base_url}/0056-merge-intervals.adoc[题解]
 |✅ 区间合并。对区间进行排序，然后根据当前区间是否和已合并区间的最后一个区间是否有重叠来确定是否合并，还是开辟新区间。
 
+|{counter:codes2503}
+|{leetcode_base_url}/non-overlapping-intervals/[435. Non-overlapping Intervals^]
+|{doc_base_url}/0435-non-overlapping-intervals.adoc[题解]
+|⭕️ 贪心算法。这是贪心算法，不是区间合并！所以，换个角度来看，就是计算最多可以选多少个互不重叠的区间。有重叠的区间都要被删除掉。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
