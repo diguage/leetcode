@@ -72,10 +72,20 @@ include::{sourcedir}/_0056_MergeIntervals_2.java[tag=answer]
 include::{sourcedir}/_0056_MergeIntervals_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0056_MergeIntervals_4.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
-. https://leetcode.cn/problems/merge-intervals/solutions/203562/he-bing-qu-jian-by-leetcode-solution/[56. 合并区间 - 官方题解^]
 . https://leetcode.cn/problems/merge-intervals/solutions/2798138/jian-dan-zuo-fa-yi-ji-wei-shi-yao-yao-zh-f2b3/[56. 合并区间 - 为什么要按照左端点排序？^]
+. https://leetcode.cn/problems/merge-intervals/solutions/203562/he-bing-qu-jian-by-leetcode-solution/[56. 合并区间 - 官方题解^]
+. https://leetcode.cn/problems/merge-intervals/solutions/204898/tan-xin-suan-fa-java-by-liweiwei1419-3/[56. 合并区间 - 力扣（LeetCode）^]

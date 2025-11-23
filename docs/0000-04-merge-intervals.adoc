@@ -13,17 +13,58 @@ image::images/0056-01.png[{image_attr}]
 * 当你需要产生一堆相互之间没有交集的区间的时候
 * 当你听到重叠区间的时候
 
+xref:0435-non-overlapping-intervals.adoc[435. Non-overlapping Intervals] 也是一个类似“区间合并”的题目。但这道题是一个贪心模式的题目，需要按照右端点进行排序。
+
+[cols="10,45a,45a",options="header"]
+|===
+|特征 |按左端点排序 |按右端点排序
+
+|典型问题
+|
+. xref:0056-merge-intervals.adoc[56. Merge Intervals]
+. xref:0057-insert-interval.adoc[57. Insert Interval]
+. xref:0986-interval-list-intersections.adoc[986. Interval List Intersections]
+|
+. xref:0435-non-overlapping-intervals.adoc[435. Non-overlapping Intervals]
+. xref:0452-minimum-number-of-arrows-to-burst-balloons.adoc[452. Minimum Number of Arrows to Burst Balloons]
+. xref:0646-maximum-length-of-pair-chain.adoc[646. Maximum Length of Pair Chain]
+. xref:1024-video-stitching.adoc[1024. Video Stitching]
+
+|扫描方向
+|前向扫描，处理当前与上一个结果的关系
+|前向扫描，处理当前与上一个选择的关系
+
+|核心关注点
+|开始时间，确保新区间不会与更早的区间合并
+|结束时间，贪心地选择最早结束的区间
+
+|另一种思路
+|对于“合并”问题，理论上也可按右端点排序并反向扫描，但更复杂。
+|对于“无重叠”问题，按左端点排序并动态规划也可解，但效率低。
+
+|为何有差异
+|希望将重叠的“连成一片”。按左端点排序后，重叠的区间会自然地“靠拢”在一起，便于我们像捏橡皮泥一样把它们揉成一团。
+|希望选出尽可能多的“互不侵犯”的区间。按右端点排序后，我们总是优先选择最早“下班”的，这样它占用的时间资源最少，自然能为后续选择提供最大的灵活性。
+
+|简单记忆
+|想**合并**成一整块 -> 按**开始时间**排序，看什么时候开始接上。
+|想**选择**最多的块 -> 按**结束时间**排序，看谁最早结束不碍事。
+
+|===
+
+
+
 == 经典题目
 
 . xref:0056-merge-intervals.adoc[56. Merge Intervals]
 . xref:0057-insert-interval.adoc[57. Insert Interval]
-. xref:0986-interval-list-intersections.adoc[986. Interval List Intersections]
 . xref:0223-rectangle-area.adoc[223. 矩形面积] -- 这道题不是区间合并类型的题目。但是，在处理相交面积时的手段和区间合并的手段是类似的！
 . xref:0252-meeting-rooms.adoc[252. Meeting Rooms]
 . xref:0253-meeting-rooms-ii.adoc[253. Meeting Rooms II]
 . xref:0452-minimum-number-of-arrows-to-burst-balloons.adoc[452. Minimum Number of Arrows to Burst Balloons]
 . xref:0759-employee-free-time.adoc[759. Employee Free Time]
 . xref:0763-partition-labels.adoc[763. Partition Labels]
+. xref:0986-interval-list-intersections.adoc[986. Interval List Intersections]
 . xref:1094-car-pooling.adoc[1094. Car Pooling]
 
 
