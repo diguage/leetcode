@@ -15,7 +15,7 @@ image::images/0056-01.png[{image_attr}]
 
 xref:0435-non-overlapping-intervals.adoc[435. Non-overlapping Intervals] 也是一个类似“区间合并”的题目。但这道题是一个贪心模式的题目，需要按照右端点进行排序。
 
-[cols="10,45a,45a",options="header"]
+[cols="12h,44a,44a",options="header"]
 |===
 |特征 |按左端点排序 |按右端点排序
 
