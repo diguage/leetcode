@@ -1,7 +1,7 @@
 [#0055-jump-game]
 = 55. 跳跃游戏
 
-https://leetcode.cn/problems/jump-game/[LeetCode - 55. 跳跃游戏 ^]
+https://leetcode.cn/problems/jump-game/[LeetCode - 55. 跳跃游戏^]
 
 给你一个非负整数数组 `nums` ，你最初位于数组的 *第一个下标*。数组中的每个元素代表你在该位置可以跳跃的最大长度。
 
@@ -33,6 +33,22 @@ https://leetcode.cn/problems/jump-game/[LeetCode - 55. 跳跃游戏 ^]
 
 遍历数组，记录当前位置能到达的最远距离，如果最远距离超过了数组长度，则可以。如果中途最远距离小于等于当前坐标，则无法向前，如果还没到达数组尾部，则是不能到达。
 
+image::images/0055-10.jpg[{image_attr}]
+
+=== 贪心
+
+image::images/0055-11.jpg[{image_attr}]
+
+image::images/0055-15.jpg[{image_attr}]
+
+=== 递归+记忆化
+
+image::images/0055-12.jpg[{image_attr}]
+
+image::images/0055-13.jpg[{image_attr}]
+
+image::images/0055-14.jpg[{image_attr}]
+
 [[src-0055]]
 [tabs]
 ====
@@ -53,10 +69,20 @@ include::{sourcedir}/_0055_JumpGame.java[tag=answer]
 include::{sourcedir}/_0055_JumpGame_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0055_JumpGame_3.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
+. https://leetcode.cn/problems/jump-game/solutions/2798996/liang-chong-li-jie-fang-shi-wei-hu-zui-y-q67s/[55. 跳跃游戏 - 两种理解方式：维护最右可达位置/合并区间^]
 . https://leetcode.cn/problems/jump-game/solutions/203549/tiao-yue-you-xi-by-leetcode-solution/[55. 跳跃游戏 - 官方题解^]
 . https://leetcode.cn/problems/jump-game/solutions/46397/pythonji-bai-97kan-bu-dong-ni-chui-wo-by-mo-lan-4/[55. 跳跃游戏 - Python 击败 97%，看不懂你锤我^]
