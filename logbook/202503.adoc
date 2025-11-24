@@ -1984,6 +1984,11 @@ endif::[]
 |{doc_base_url}/0055-jump-game.adoc[题解]
 |✅ 贪心算法。记录从当前位置能到达的最远距离，如果最远距离比当前位置小就是无法到达；如果最远距离超过了数组长度，则就是可以到达。
 
+|{counter:codes2503}
+|{leetcode_base_url}/trapping-rain-water/[42. 接雨水^]
+|{doc_base_url}/0042-trapping-rain-water.adoc[题解]
+|✅ 双指针。类似 {doc_base_url}/0011-container-with-most-water.adoc[11. Container With Most Water] 的思路：两端指针，保存两端最高柱子高度，谁低计算谁的盛水数量，向前推进。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

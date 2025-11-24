@@ -1,7 +1,7 @@
 [#0042-trapping-rain-water]
 = 42. 接雨水
 
-https://leetcode.cn/problems/trapping-rain-water/[LeetCode - 42. 接雨水 ^]
+https://leetcode.cn/problems/trapping-rain-water/[LeetCode - 42. 接雨水^]
 
 给定 `n` 个非负整数表示每个宽度为 `1` 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
 
@@ -31,6 +31,8 @@ image::images/0042-00.png[{image_attr}]
 
 [#解题分析]
 == 解题分析
+
+这道题最简单的思路是双指针，类似 xref:0011-container-with-most-water.adoc[11. Container With Most Water] 的思路：两端指针，保存两端最高柱子高度，谁低计算谁的盛水数量，向前推进。
 
 单调栈解法图示：
 
@@ -85,6 +87,15 @@ include::{sourcedir}/_0042_TrappingRainWater_3.java[tag=answer]
 include::{sourcedir}/_0042_TrappingRainWater_4.java[tag=answer]
 ----
 --
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0042_TrappingRainWater_5.java[tag=answer]
+----
+--
 ====
 
 
@@ -94,6 +105,7 @@ include::{sourcedir}/_0042_TrappingRainWater_4.java[tag=answer]
 
 == 参考资料
 
+. https://leetcode.cn/problems/trapping-rain-water/solutions/1974340/zuo-liao-nbian-huan-bu-hui-yi-ge-shi-pin-ukwm/[42. 接雨水 - 三种方法：前后缀分解/双指针/单调栈^]
 . https://leetcode.cn/problems/trapping-rain-water/solutions/692342/jie-yu-shui-by-leetcode-solution-tuvc/[42. 接雨水 - 官方题解^] -- 左右双指针的解法，代码最简单。
 . https://leetcode.cn/problems/trapping-rain-water/solutions/9112/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-8/[42. 接雨水 - 详细通俗的思路分析，多解法^]
 . https://blog.csdn.net/weixin_50348837/article/details/136304458[深入理解单调栈算法，这一篇就够了^]
