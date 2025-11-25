@@ -42,6 +42,8 @@ https://leetcode.cn/problems/first-missing-positive/[LeetCode - 41. 缺失的第
 
 == 思路分析
 
+循环排序，原地哈希。
+
 这道题跟 xref:0268-missing-number.adoc[268. Missing Number] 很像！
 
 image::images/0041-01.png[{image_attr}]
@@ -86,11 +88,20 @@ include::{sourcedir}/_0041_FirstMissingPositive_3.java[tag=answer]
 include::{sourcedir}/_0041_FirstMissingPositive_4.java[tag=answer]
 ----
 --
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0041_FirstMissingPositive_5.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
+. https://leetcode.cn/problems/first-missing-positive/solutions/3655377/huan-zuo-wei-tong-guo-li-zi-li-jie-suan-qa94e/[41. 缺失的第一个正数 - O(n) 换座位，通过例子理解算法思想^]
 . https://leetcode.cn/problems/first-missing-positive/solutions/304743/que-shi-de-di-yi-ge-zheng-shu-by-leetcode-solution/[41. 缺失的第一个正数 - 官方题解^]
 . https://leetcode.cn/problems/first-missing-positive/solutions/7703/tong-pai-xu-python-dai-ma-by-liweiwei1419/[41. 缺失的第一个正数 - 原地哈希（哈希函数为：f(nums[i\]) = nums[i\] - 1）^]
-. https://leetcode.cn/problems/first-missing-positive/solutions/3655377/huan-zuo-wei-tong-guo-li-zi-li-jie-suan-qa94e/[41. 缺失的第一个正数 - O(n) 换座位，通过例子理解算法思想^]

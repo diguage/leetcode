@@ -1989,6 +1989,11 @@ endif::[]
 |{doc_base_url}/0042-trapping-rain-water.adoc[题解]
 |✅ 双指针。类似 {doc_base_url}/0011-container-with-most-water.adoc[11. Container With Most Water] 的思路：两端指针，保存两端最高柱子高度，谁低计算谁的盛水数量，向前推进。
 
+|{counter:codes2503}
+|{leetcode_base_url}/first-missing-positive/[41. 缺失的第一个正数^]
+|{doc_base_url}/0041-first-missing-positive.adoc[题解]
+|✅ 循环排序。依次检查每个坐标上面是不是对应的数字，不是就交换。最后顺序检查一遍，不是就是空缺的数字，或者数组长度加一。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
