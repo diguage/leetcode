@@ -1,7 +1,7 @@
 [#0039-combination-sum]
 = 39. 组合总和
 
-https://leetcode.cn/problems/combination-sum/[LeetCode - 39. 组合总和 ^]
+https://leetcode.cn/problems/combination-sum/[LeetCode - 39. 组合总和^]
 
 给你一个 *无重复元素* 的整数数组 `candidates` 和一个目标整数 `target` ，找出 `candidates` 中可以使数字和为目标数 `target` 的所有 *不同组合* ，并以列表形式返回。你可以按 *任意顺序* 返回这些组合。
 
@@ -36,11 +36,10 @@ https://leetcode.cn/problems/combination-sum/[LeetCode - 39. 组合总和 ^]
 
 *提示：*
 
-* `+1 <= candidates.length <= 30+`
-* `+2 <= candidates[i] <= 40+`
+* `1 \<= candidates.length \<= 30`
+* `2 \<= candidates[i] \<= 40`
 * `candidates` 的所有元素 *互不相同*
-* `+1 <= target <= 40+`
-
+* `1 \<= target \<= 40`
 
 == 思路分析
 
@@ -48,17 +47,17 @@ https://leetcode.cn/problems/combination-sum/[LeetCode - 39. 组合总和 ^]
 
 为了避免重复，每次只遍历不比自己小的元素。（比自己小的元素已经被小元素遍历过了。）
 
-image::images/0039-04.png[{image_attr}]
+image::images/0039-10.png[{image_attr}]
 
-image::images/0039-05.png[{image_attr}]
+image::images/0039-11.png[{image_attr}]
 
-image::images/0039-06.png[{image_attr}]
+image::images/0039-12.png[{image_attr}]
 
-image::images/0039-01.png[{image_attr}]
+image::images/0039-13.png[{image_attr}]
 
-image::images/0039-02.png[{image_attr}]
+image::images/0039-14.png[{image_attr}]
 
-image::images/0039-03.png[{image_attr}]
+image::images/0039-15.png[{image_attr}]
 
 
 [[src-0039]]
@@ -99,6 +98,15 @@ include::{sourcedir}/_0039_CombinationSum_3.java[tag=answer]
 include::{sourcedir}/_0039_CombinationSum_4.java[tag=answer]
 ----
 --
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0039_CombinationSum_5.java[tag=answer]
+----
+--
 ====
 
 
@@ -108,6 +116,7 @@ include::{sourcedir}/_0039_CombinationSum_4.java[tag=answer]
 
 == 参考资料
 
+. https://leetcode.cn/problems/combination-sum/solutions/2747858/liang-chong-fang-fa-xuan-huo-bu-xuan-mei-mhf9/[39. 组合总和 -三种方法：选或不选/枚举选哪个/完全背包预处理+可行性剪枝^]
 . https://leetcode.cn/problems/combination-sum/solutions/14697/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/[39. 组合总和 - 回溯算法 + 剪枝（回溯经典例题详解）^]
 . https://leetcode.cn/problems/combination-sum/solutions/2363929/39-zu-he-zong-he-hui-su-qing-xi-tu-jie-b-9zx7/[39. 组合总和 - （回溯，清晰图解）^]
 
