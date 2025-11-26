@@ -14,20 +14,20 @@
   <url>https://www.diguage.com</url>
 
   <properties>
-    <checkstyle.version>11.1.0</checkstyle.version>
+    <checkstyle.version>12.1.2</checkstyle.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
     <maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
     <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
     <maven-enforcer-plugin.version>3.6.2</maven-enforcer-plugin.version>
     <maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
     <extra-enforcer-rules.version>1.11.0</extra-enforcer-rules.version>
-    <fizzed-watcher-maven-plugin.version>3.7.0</fizzed-watcher-maven-plugin.version>
+    <fizzed-watcher-maven-plugin.version>1.0.6</fizzed-watcher-maven-plugin.version>
 
-    <asciidoctorj.version>3.0.0</asciidoctorj.version>
+    <asciidoctorj.version>3.0.1</asciidoctorj.version>
     <asciidoctorj-pdf.version>2.3.23</asciidoctorj-pdf.version>
     <asciidoctorj-epub3.version>2.2.0</asciidoctorj-epub3.version>
     <asciidoctorj-diagram.version>3.0.1</asciidoctorj-diagram.version>
-    <asciidoctor-diagram.version>3.0.1</asciidoctor-diagram.version>
+    <asciidoctor-diagram.version>3.1.0</asciidoctor-diagram.version>
     <asciidoctor-diagram-plantuml.version>1.2025.3</asciidoctor-diagram-plantuml.version>
     <asciidoctor-comment-links.version>0.0.2</asciidoctor-comment-links.version>
     <asciidoctor-multipage.version>0.0.19</asciidoctor-multipage.version>
@@ -39,7 +39,7 @@
     <mavengem-wagon.version>2.0.2</mavengem-wagon.version>
     <gem-maven-plugin.version>3.0.6</gem-maven-plugin.version>
     <download-maven-plugin.version>1.13.0</download-maven-plugin.version>
-    <exec-maven-plugin.version>3.5.1</exec-maven-plugin.version>
+    <exec-maven-plugin.version>3.6.2</exec-maven-plugin.version>
     <jruby.version>10.0.2.0</jruby.version>
     <gem.path>${project.basedir}/cfg/gems</gem.path>
     <pdf-fonts.path>${user.home}/.fonts</pdf-fonts.path>
@@ -398,7 +398,7 @@
       <plugin>
         <groupId>com.fizzed</groupId>
         <artifactId>fizzed-watcher-maven-plugin</artifactId>
-        <version>1.0.6</version>
+        <version>${fizzed-watcher-maven-plugin.version}</version>
         <configuration>
           <touchFile>target/classes/watcher.txt</touchFile>
           <watches>
