@@ -1,48 +1,71 @@
 [#0035-search-insert-position]
-= 35. Search Insert Position
+= 35. 搜索插入位置
 
-{leetcode}/problems/search-insert-position/[LeetCode - Search Insert Position^]
+https://leetcode.cn/problems/search-insert-position/[LeetCode - 35. 搜索插入位置^]
 
-Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将会被按顺序插入的位置。
 
-You may assume no duplicates in the array.
+请必须使用时间复杂度为 stem:[O(log n)] 的算法。
 
-*Example 1:*
+*示例 1:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,3,5,6], 5
-*Output:* 2
-----
+....
+输入: nums = [1,3,5,6], target = 5
+输出: 2
+....
 
-*Example 2:*
+*示例 2:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,3,5,6], 2
-*Output:* 1
-----
+....
+输入: nums = [1,3,5,6], target = 2
+输出: 1
+....
 
-*Example 3:*
+*示例 3:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,3,5,6], 7
-*Output:* 4
-----
+....
+输入: nums = [1,3,5,6], target = 7
+输出: 4
+....
 
-*Example 4:*
+*提示:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,3,5,6], 0
-*Output:* 0
-----
+* `1 \<= nums.length \<= 10^4^`
+* `-10^4^ \<= nums[i] \<= 10^4^`
+* `nums` 为**无重复元素**的**升序**排列数组
+* `-10^4^ \<= target \<= 10^4^`
 
+
+
+== 思路分析
+
+image::images/modified-binary-search.jpeg[{image_attr}]
 
 [[src-0035]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0035_SearchInsertPosition.java[tag=answer]
 ----
+--
 
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0035_SearchInsertPosition_2.java[tag=answer]
+----
+--
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/search-insert-position/solutions/2023391/er-fen-cha-zhao-zong-shi-xie-bu-dui-yi-g-nq23/[35. 搜索插入位置 - 二分查找总是写不对？一个视频讲透！^]
+. https://leetcode.cn/problems/search-insert-position/solutions/10969/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python/[35. 搜索插入位置 - 尽可能讲到大家对于二分查找可能遇到的问题，结尾有题单（Java）^]
+. https://leetcode.cn/problems/search-insert-position/solutions/536357/yi-wen-dai-ni-gao-ding-er-fen-cha-zhao-j-69ao/[35. 搜索插入位置 - 一文带你搞定二分查找及其多个变种！^]

@@ -15,6 +15,7 @@ image::images/modified-binary-search.jpeg[{image_attr}]
 == 疑问点
 
 . 二分搜索怎样可以确定地取左右端点？
+. 在 https://leetcode.cn/problems/search-insert-position/solutions/2023391/er-fen-cha-zhao-zong-shi-xie-bu-dui-yi-g-nq23/[35. 搜索插入位置 - 二分查找总是写不对？一个视频讲透！^] 中，作者说“在找到 target 就立刻返回”，这种写法适用范围很窄，多思考体会一下。
 
 == 经典题目
 

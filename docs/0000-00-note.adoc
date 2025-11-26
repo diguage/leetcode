@@ -29,6 +29,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 * [ ] 通过 xref:2560-house-robber-iv.adoc[2560. House Robber IV] 发现，竟然还有「最大化最小值」或「最小化最大值」的二分答案问题。
 * [ ] KMP 算法
 * [ ] 可以使用类库的，却总想自己写代码实现！必然字符串比较！
+* [ ] 在 https://leetcode.cn/problems/search-insert-position/solutions/2023391/er-fen-cha-zhao-zong-shi-xie-bu-dui-yi-g-nq23/[35. 搜索插入位置 - 二分查找总是写不对？一个视频讲透！^] 中，作者说二分查找“在找到 target 就立刻返回”，这种写法适用范围很窄，多思考体会一下。
 
 == 感慨
 

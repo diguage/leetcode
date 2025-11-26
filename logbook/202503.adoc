@@ -1999,6 +1999,11 @@ endif::[]
 |{doc_base_url}/0039-combination-sum.adoc[题解]
 |✅ 回溯。使用回溯解法，要注意剪枝技巧。这道题还是一个“完全背包”问题，也可以尝试一下完全背包的解法。
 
+|{counter:codes2503}
+|{leetcode_base_url}/search-insert-position/[35. 搜索插入位置^]
+|{doc_base_url}/0035-search-insert-position.adoc[题解]
+|✅ 二分查找。主要学习二分查找的各种变种解法。解答中提到“在找到 target 就立刻返回”，这种写法适用范围很窄，多思考体会一下。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

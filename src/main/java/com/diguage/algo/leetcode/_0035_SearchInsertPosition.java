@@ -42,7 +42,11 @@ package com.diguage.algo.leetcode;
  * @since 2018-09-16 21:32
  */
 public class _0035_SearchInsertPosition {
-  // tag::answer[]
+    // tag::answer[]
+    /**
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2018-09-16 21:32
+     */
     public static int searchInsert(int[] nums, int target) {
         if (null == nums || nums.length == 0) {
             return 0;
@@ -77,8 +81,7 @@ public class _0035_SearchInsertPosition {
 
         return result;
     }
-
-  // end::answer[]
+    // end::answer[]
 
 
     public static void main(String[] args) {
