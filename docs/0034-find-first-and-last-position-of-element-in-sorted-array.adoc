@@ -44,6 +44,8 @@ https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-a
 
 可以直接使用二分查找，搜索两次。
 
+二分查找寻找左右边界的算法还需要多练！
+
 [[src-0034]]
 [tabs]
 ====
@@ -71,6 +73,15 @@ include::{sourcedir}/_0034_FindFirstAndLastPositionOfElementInSortedArray_2.java
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0034_FindFirstAndLastPositionOfElementInSortedArray_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0034_FindFirstAndLastPositionOfElementInSortedArray_4.java[tag=answer]
 ----
 --
 ====
