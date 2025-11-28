@@ -2009,6 +2009,11 @@ endif::[]
 |{doc_base_url}/0034-find-first-and-last-position-of-element-in-sorted-array.adoc[题解]
 |✅ {doc_base_url}/0000-01-modified-binary-search.adoc[二分查找]。尝试不使用相等来确定边界。
 
+|{counter:codes2503}
+|{leetcode_base_url}/search-in-rotated-sorted-array/[33. 搜索旋转排序数组^]
+|{doc_base_url}/0033-search-in-rotated-sorted-array.adoc[题解]
+|⭕️ 二分查找。重点去处理有序部分，在有序部分内查找不到，则去另外一部分去查找。*一定要使用 `nums[0] \<= nums[mid]`（注意这里的等号！）来判断前半部分是不是有序。*
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

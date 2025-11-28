@@ -1,13 +1,13 @@
 [#0033-search-in-rotated-sorted-array]
 = 33. 搜索旋转排序数组
 
-https://leetcode.cn/problems/search-in-rotated-sorted-array/[LeetCode - 33. 搜索旋转排序数组 ^]
+https://leetcode.cn/problems/search-in-rotated-sorted-array/[LeetCode - 33. 搜索旋转排序数组^]
 
-整数数组 `nums` 按升序排列，数组中的值 *互不相同* 。
+整数数组 `nums` 按升序排列，数组中的值 *互不相同*。
 
-在传递给函数之前，`nums` 在预先未知的某个下标 `k`（`+0 <= k < nums.length+`）上进行了 *旋转*，使数组变为 `[nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]]`（下标 *从 0 开始* 计数）。例如， `[0,1,2,4,5,6,7]` 在下标 `3` 处经旋转后可能变为  `[4,5,6,7,0,1,2]` 。
+在传递给函数之前，`nums` 在预先未知的某个下标 `k`（`+0 <= k < nums.length+`）上进行了 *旋转*，使数组变为 `[nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]]`（下标 *从 0 开始* 计数）。例如， `[0,1,2,4,5,6,7]` 在下标 `3` 处经旋转后可能变为  `[4,5,6,7,0,1,2]`。
 
-给你 *旋转后* 的数组 `nums` 和一个整数 `target` ，如果 `nums` 中存在这个目标值 `target` ，则返回它的下标，否则返回  `-1`  。
+给你 *旋转后* 的数组 `nums` 和一个整数 `target` ，如果 `nums` 中存在这个目标值 `target` ，则返回它的下标，否则返回  `-1` 。
 
 你必须设计一个时间复杂度为 stem:[log_2N] 的算法解决此问题。
 
@@ -37,7 +37,7 @@ https://leetcode.cn/problems/search-in-rotated-sorted-array/[LeetCode - 33. 搜�
 
 *提示：*
 
-* `+1 <= nums.length <= 5000+`
+* `1 \<= nums.length \<= 5000`
 * `-10^4^ \<= nums[i] \<= 10^4^`
 * `nums` 中的每个值都 *独一无二*
 * 题目数据保证 `nums` 在预先未知的某个下标上进行了旋转
@@ -45,6 +45,10 @@ https://leetcode.cn/problems/search-in-rotated-sorted-array/[LeetCode - 33. 搜�
 
 
 == 思路分析
+
+二分查找。优先在有序部分查找，在有序部分内查找不到，则去另外一部分去查找。
+
+另外，`left = 0, right = length -1`，再加上整数相除，会向下取整。所以 `mid = left + (right - left) / 2` 有可能会等于 `0`，所以，*一定要使用 `nums[0] \<= nums[mid]`（注意这里的等号！）来判断前半部分是不是有序。*
 
 image::images/0033-01.png[{image_attr}]
 
@@ -86,10 +90,20 @@ include::{sourcedir}/_0033_SearchInRotatedSortedArray_3.java[tag=answer]
 include::{sourcedir}/_0033_SearchInRotatedSortedArray_4.java[tag=answer]
 ----
 --
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0033_SearchInRotatedSortedArray_5.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
 
 . https://leetcode.cn/problems/search-in-rotated-sorted-array/solutions/5906/ji-jian-solution-by-lukelee/[33. 搜索旋转排序数组 - 极简 Solution^]
+. https://leetcode.cn/problems/search-in-rotated-sorted-array/solutions/1987503/by-endlesscheng-auuh/[33. 搜索旋转排序数组 - 两种方法：两次二分/一次二分，简洁写法！^]
 . https://leetcode.cn/problems/search-in-rotated-sorted-array/solutions/220083/sou-suo-xuan-zhuan-pai-xu-shu-zu-by-leetcode-solut/[33. 搜索旋转排序数组 - 官方题解^]
 
