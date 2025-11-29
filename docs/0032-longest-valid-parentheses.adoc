@@ -62,6 +62,15 @@ include::{sourcedir}/_0032_LongestValidParentheses.java[tag=answer]
 include::{sourcedir}/_0032_LongestValidParentheses_2.java[tag=answer]
 ----
 --
+
+二刷（空间优化）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0032_LongestValidParentheses_21.java[tag=answer]
+----
+--
 ====
 
 
