@@ -1,7 +1,7 @@
 [#0032-longest-valid-parentheses]
 = 32. 最长有效括号
 
-https://leetcode.cn/problems/longest-valid-parentheses/[LeetCode - 32. 最长有效括号 ^]
+https://leetcode.cn/problems/longest-valid-parentheses/[LeetCode - 32. 最长有效括号^]
 
 给你一个只包含 `(` 和 `)` 的字符串，找出最长有效（格式正确且连续）括号子串的长度。
 
@@ -40,6 +40,8 @@ https://leetcode.cn/problems/longest-valid-parentheses/[LeetCode - 32. 最长有
 
 官方题解中的栈，除了栈，不需要额外空间，把前置下标放入栈中，用于统计长度，解法非常巧妙。
 
+image::images/0032-10.png[{image_attr}]
+
 [[src-0032]]
 [tabs]
 ====
@@ -52,14 +54,14 @@ include::{sourcedir}/_0032_LongestValidParentheses.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0032_LongestValidParentheses_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0032_LongestValidParentheses_2.java[tag=answer]
+----
+--
 ====
 
 
@@ -67,5 +69,6 @@ include::{sourcedir}/_0032_LongestValidParentheses.java[tag=answer]
 
 . https://leetcode.cn/problems/longest-valid-parentheses/solutions/314683/zui-chang-you-xiao-gua-hao-by-leetcode-solution/[32. 最长有效括号 - 官方题解^] -- 官方题解中的栈，除了栈，不需要额外空间，把前置下标放入栈中，用于统计长度，解法非常巧妙。
 . https://leetcode.cn/problems/longest-valid-parentheses/solutions/2719468/chao-jian-dan-fang-fa-zhi-hui-gua-hao-pi-nbby/[32. 最长有效括号 - 超简单方法，只会括号匹配就行^]
+. https://leetcode.cn/problems/longest-valid-parentheses/solutions/314827/shou-hua-tu-jie-zhan-de-xiang-xi-si-lu-by-hyj8/[32. 最长有效括号 - 「手画图解」剖析两种解法：利用栈、动态规划^]
 
 
