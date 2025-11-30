@@ -2019,6 +2019,11 @@ endif::[]
 |{doc_base_url}/0032-longest-valid-parentheses.adoc[题解]
 |❌ 栈。使用栈记录左右括号的下标，遇到左括号入栈，遇到右括号则出栈，计算当前节点到栈顶元素的距离，取最大值。在起始位置使用 `-1` 做哨兵；在“非法”右括号时，将哨兵替换成当前坐标。
 
+|{counter:codes2503}
+|{leetcode_base_url}/next-permutation/[31. 下一个排列^]
+|{doc_base_url}/0031-next-permutation.adoc[题解]
+|❌ 双指针。看了解题思路，自己写出来的。解题思路还要多推敲。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
