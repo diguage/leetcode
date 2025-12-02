@@ -31,10 +31,14 @@ image::images/0024-01.jpg[{image_attr}]
 *提示：*
 
 * 链表中节点的数目在范围 `[0, 100]` 内
-* `+0 <= Node.val <= 100+`
+* `0 \<= Node.val \<= 100`
 
 
 == 思路分析
+
+使用递归解法，可以每次跳过两个节点去递归，被跳过的两个节点交换一下，然后把整条链路连起来即可。
+
+image::images/0024-10.png[{image_attr}]
 
 [[src-0024]]
 [tabs]
@@ -56,6 +60,15 @@ include::{sourcedir}/_0024_SwapNodesInPairs.java[tag=answer]
 include::{sourcedir}/_0024_SwapNodesInPairs_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0024_SwapNodesInPairs_3.java[tag=answer]
+----
+--
 ====
 
 == 思考题
@@ -64,4 +77,6 @@ include::{sourcedir}/_0024_SwapNodesInPairs_2.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/liang-liang-jiao-huan-lian-biao-zhong-de-jie-di-19/[两两交换链表中的节点 - 两两交换链表中的节点 - 力扣（LeetCode）^]
+. https://leetcode.cn/problems/swap-nodes-in-pairs/solutions/2374872/tu-jie-die-dai-di-gui-yi-zhang-tu-miao-d-51ap/[24. 两两交换链表中的节点 - 【图解】迭代/递归，一张图秒懂！^]
+. https://leetcode.cn/problems/swap-nodes-in-pairs/solutions/7058/hua-jie-suan-fa-24-liang-liang-jiao-huan-lian-biao/[24. 两两交换链表中的节点 - 画解算法^]
+. https://leetcode.cn/problems/swap-nodes-in-pairs/solutions/444474/liang-liang-jiao-huan-lian-biao-zhong-de-jie-di-91/[24. 两两交换链表中的节点 - 官方题解^]

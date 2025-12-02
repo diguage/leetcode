@@ -15,7 +15,7 @@ public class _0024_SwapNodesInPairs_2 {
     ListNode dummy = new ListNode(0);
     dummy.next = head;
     ListNode prefix = dummy;
-    while (prefix != null && prefix.next != null && prefix.next.next != null) {
+    while (prefix.next != null && prefix.next.next != null) {
       ListNode first = prefix.next;
       ListNode second = first.next;
       prefix.next = second;

@@ -2029,6 +2029,11 @@ endif::[]
 |{doc_base_url}/0025-reverse-nodes-in-k-group.adoc[题解]
 |✅ 从头开始遍历，内层遍历有 K 个元素就反转，否则就直接接上。
 
+|{counter:codes2503}
+|{leetcode_base_url}/swap-nodes-in-pairs/[24. 两两交换链表中的节点^]
+|{doc_base_url}/0024-swap-nodes-in-pairs.adoc[题解]
+|✅ 链表。递归解法，每次跳过两个节点去递归，被跳过的两个节点交换一下，然后把整条链路连起来即可。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
