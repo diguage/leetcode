@@ -67,6 +67,15 @@ include::{sourcedir}/_0022_GenerateParentheses_2.java[tag=answer]
 include::{sourcedir}/_0022_GenerateParentheses_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0022_GenerateParentheses_4.java[tag=answer]
+----
+--
 ====
 
 == 思考题
@@ -75,6 +84,7 @@ include::{sourcedir}/_0022_GenerateParentheses_3.java[tag=answer]
 
 == 参考资料
 
+. https://leetcode.cn/problems/generate-parentheses/solutions/2071015/hui-su-bu-hui-xie-tao-lu-zai-ci-pythonja-wcdw/[22. 括号生成 - 两种基本回溯思想：选或不选 / 枚举选哪个^]
 . https://leetcode.cn/problems/generate-parentheses/solutions/35947/hui-su-suan-fa-by-liweiwei1419/[22. 括号生成 - 回溯算法（深度优先遍历）+ 广度优先遍历（Java）^]
 . https://leetcode.cn/problems/generate-parentheses/solutions/192912/gua-hao-sheng-cheng-by-leetcode-solution/[22. 括号生成 - 官方题解^]
 . https://leetcode.cn/problems/generate-parentheses/solutions/2071015/hui-su-bu-hui-xie-tao-lu-zai-ci-pythonja-wcdw/[22. 括号生成 - 回溯不会写？套路在此！^]

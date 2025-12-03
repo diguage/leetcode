@@ -6,10 +6,9 @@ import java.util.Set;
 
 public class _0022_GenerateParentheses_3 {
   // tag::answer[]
-
   /**
    * @author D瓜哥 · https://www.diguage.com
-   * @since 2019-10-22 12:40:12
+   * @since 2025-09-27 22:34
    */
   public List<String> generateParenthesis(int n) {
     Set<String> set = new HashSet<>();
