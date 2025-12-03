@@ -1,7 +1,7 @@
 [#0023-merge-k-sorted-lists]
 = 23. 合并 K 个升序链表
 
-https://leetcode.cn/problems/merge-k-sorted-lists/[LeetCode - 23. 合并 K 个升序链表 ^]
+https://leetcode.cn/problems/merge-k-sorted-lists/[LeetCode - 23. 合并 K 个升序链表^]
 
 给你一个链表数组，每个链表都已经按升序排列。
 
@@ -49,6 +49,8 @@ https://leetcode.cn/problems/merge-k-sorted-lists/[LeetCode - 23. 合并 K 个�
 
 优先队列是最优解，退而求其次，可以考虑使用分治。
 
+分治解法几乎就是“归并排序”的翻版。
+
 [[src-0023]]
 [tabs]
 ====
@@ -78,10 +80,20 @@ include::{sourcedir}/_0023_MergeKSortedLists_2.java[tag=answer]
 include::{sourcedir}/_0023_MergeKSortedLists_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0023_MergeKSortedLists_4.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
 
+. https://leetcode.cn/problems/merge-k-sorted-lists/solutions/2384305/liang-chong-fang-fa-zui-xiao-dui-fen-zhi-zbzx/[23. 合并 K 个升序链表 - 三种方法：最小堆/分治/迭代^]
 . https://leetcode.cn/problems/merge-k-sorted-lists/solutions/219756/he-bing-kge-pai-xu-lian-biao-by-leetcode-solutio-2/[23. 合并 K 个升序链表 - 官方题解^]
 . https://leetcode.cn/problems/merge-k-sorted-lists/solutions/220518/4-chong-fang-fa-xiang-jie-bi-xu-miao-dong-by-sweet/[23. 合并 K 个升序链表 - 4 种方法详解，🤷‍♀️必须秒懂！^]
 
