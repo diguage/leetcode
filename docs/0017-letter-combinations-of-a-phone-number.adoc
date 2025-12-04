@@ -1,36 +1,70 @@
 [#0017-letter-combinations-of-a-phone-number]
-= 17. Letter Combinations of a Phone Number
+= 17. 电话号码的字母组合
 
-{leetcode}/problems/letter-combinations-of-a-phone-number/[LeetCode - Letter Combinations of a Phone Number^]
+https://leetcode.cn/problems/letter-combinations-of-a-phone-number/[LeetCode - 17. 电话号码的字母组合^]
 
-Given a string containing digits from `2-9` inclusive, return all possible letter combinations that the number could represent.
+给定一个仅包含数字 `2-9` 的字符串，返回所有它能表示的字母组合。答案可以按 *任意顺序* 返回。
 
-A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
+给出数字到字母的映射如下（与电话按键相同）。注意 1 不对应任何字母。
 
-image::http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad2.svg/200px-Telephone-keypad2.svg.png[{image_attr}]
+image::images/0017-01.svg[{image_attr}]
 
-*Example:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "23"
-*Output:* ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
-----
+....
+输入：digits = "23"
+输出：["ad","ae","af","bd","be","bf","cd","ce","cf"]
+....
 
-*Note:*
+*示例 2：*
 
-Although the above answer is in lexicographical order, your answer could be in any order you want.
+....
+输入：digits = ""
+输出：[]
+....
 
-== 解题分析
+*示例 3：*
+
+....
+输入：digits = "2"
+输出：["a","b","c"]
+....
+
+*提示：*
+
+* `0 \<= digits.length \<= 4`
+* `digits[i]` 是范围 `['2', '9']` 的一个数字。
+
+
+== 思路分析
 
 这道题可以使用回溯来解决：每次取出一个数字对应的字母列表，遍历追加到上一次的字母组合中。依次进行，直到数字取完为止。
 
 [[src-0017]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0017_LetterCombinationsOfAPhoneNumber.java[tag=answer]
 ----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0017_LetterCombinationsOfAPhoneNumber_2.java[tag=answer]
+----
+--
+====
+
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/solution/dian-hua-hao-ma-de-zi-mu-zu-he-by-leetcode/[电话号码的字母组合 - 电话号码的字母组合 - 力扣（LeetCode）^]
+. https://leetcode.cn/problems/letter-combinations-of-a-phone-number/solutions/2059416/hui-su-bu-hui-xie-tao-lu-zai-ci-pythonja-3orv/[17. 电话号码的字母组合 - 【视频】回溯不会写？套路在此！^]
+. https://leetcode.cn/problems/letter-combinations-of-a-phone-number/solutions/44182/tong-su-yi-dong-dong-hua-yan-shi-17-dian-hua-hao-m/[17. 电话号码的字母组合 - 通俗易懂+动画演示^]
+. https://leetcode.cn/problems/letter-combinations-of-a-phone-number/solutions/388979/shou-hua-tu-jie-liang-chong-jie-fa-dfshui-su-bfsya/[17. 电话号码的字母组合 - 「手画图解」两种解法：DFS回溯、BFS。我理解的回溯^]

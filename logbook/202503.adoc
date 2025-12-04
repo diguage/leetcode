@@ -2049,6 +2049,11 @@ endif::[]
 |{doc_base_url}/0020-valid-parentheses.adoc[题解]
 |✅ 栈。遇到左括号入栈，遇到右括号就判断是否匹配，不匹配就返回 `false`。
 
+|{counter:codes2503}
+|{leetcode_base_url}/letter-combinations-of-a-phone-number/[17. 电话号码的字母组合^]
+|{doc_base_url}/0017-letter-combinations-of-a-phone-number.adoc[题解]
+|✅ 回溯。找到每个数字对应的字母，按顺序进行回溯。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
