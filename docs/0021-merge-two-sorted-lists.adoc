@@ -1,7 +1,7 @@
 [#0021-merge-two-sorted-lists]
 = 21. 合并两个有序链表
 
-https://leetcode.cn/problems/merge-two-sorted-lists/[LeetCode - 21. 合并两个有序链表 ^]
+https://leetcode.cn/problems/merge-two-sorted-lists/[LeetCode - 21. 合并两个有序链表^]
 
 将两个升序链表合并为一个新的 *升序* 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
 
@@ -40,25 +40,23 @@ image::images/0021-00.jpg[{image_attr}]
 
 但是，也可以用递归解决！
 
-image::images/0021-09.png[{image_attr}]
+image::images/0021-10.png[{image_attr}]
 
-image::images/0021-01.jpeg[{image_attr}]
+image::images/0021-11.jpeg[{image_attr}]
 
-image::images/0021-02.jpeg[{image_attr}]
+image::images/0021-12.jpeg[{image_attr}]
 
-image::images/0021-03.jpeg[{image_attr}]
+image::images/0021-13.jpeg[{image_attr}]
 
-image::images/0021-03.jpeg[{image_attr}]
+image::images/0021-14.jpeg[{image_attr}]
 
-image::images/0021-04.jpeg[{image_attr}]
+image::images/0021-15.jpeg[{image_attr}]
 
-image::images/0021-05.jpeg[{image_attr}]
+image::images/0021-16.jpeg[{image_attr}]
 
-image::images/0021-06.jpeg[{image_attr}]
+image::images/0021-17.jpeg[{image_attr}]
 
-image::images/0021-07.jpeg[{image_attr}]
-
-image::images/0021-08.jpeg[{image_attr}]
+image::images/0021-18.jpeg[{image_attr}]
 
 [[src-0021]]
 [tabs]
