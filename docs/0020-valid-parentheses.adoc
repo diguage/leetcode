@@ -1,60 +1,58 @@
 [#0020-valid-parentheses]
-= 20. Valid Parentheses
+= 20. 有效的括号
 
-{leetcode}/problems/valid-parentheses/[LeetCode - Valid Parentheses^]
+https://leetcode.cn/problems/valid-parentheses/[LeetCode - 20. 有效的括号^]
 
-Given a string containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
+给定一个只包括 `(`，`)`，`{`，`}`，`[`，`]` 的字符串 `s`，判断字符串是否有效。
 
-An input string is valid if:
+有效字符串需满足：
+
+. 左括号必须用相同类型的右括号闭合。
+. 左括号必须以正确的顺序闭合。
+. 每个右括号都有一个对应的相同类型的左括号。
 
 
-. Open brackets must be closed by the same type of brackets.
-. Open brackets must be closed in the correct order.
+*示例 1：*
 
+....
+输入：s = "()"
 
-Note that an empty string is also considered valid.
+输出：true
+....
 
-*Example 1:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "()"
-*Output:* true
-----
+....
+输入：s = "()[]{}"
 
-*Example 2:*
+输出：true
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "()[]{}"
-*Output:* true
-----
+*示例 3：*
 
-*Example 3:*
+....
+输入：s = "(]"
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "(]"
-*Output:* false
-----
+输出：false
+....
 
-*Example 4:*
+*示例 4：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "([)]"
-*Output:* false
-----
+....
+输入：s = "([])"
 
-*Example 5:*
+输出：true
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "{[]}"
-*Output:* true
-----
+*提示：*
+
+* `1 \<= s.length \<= 10^4^`
+* `s` 仅由括号 `()[]{}` 组成
+
 
 == 思路分析
+
+栈：遇到左括号入栈，遇到右括号就判断是否匹配，不匹配就返回 `false`。
 
 [[src-0020]]
 [tabs]
@@ -76,7 +74,17 @@ include::{sourcedir}/_0020_ValidParentheses.java[tag=answer]
 include::{sourcedir}/_0020_ValidParentheses_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0020_ValidParentheses_3.java[tag=answer]
+----
+--
 ====
+
 
 == 参考资料
 

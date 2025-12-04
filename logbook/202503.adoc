@@ -2044,6 +2044,11 @@ endif::[]
 |{doc_base_url}/0022-generate-parentheses.adoc[题解]
 |❌ 回溯。有左括号就添加；当右括号比左括号少时，就添加右括号。
 
+|{counter:codes2503}
+|{leetcode_base_url}/valid-parentheses/[20. 有效的括号^]
+|{doc_base_url}/0020-valid-parentheses.adoc[题解]
+|✅ 栈。遇到左括号入栈，遇到右括号就判断是否匹配，不匹配就返回 `false`。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

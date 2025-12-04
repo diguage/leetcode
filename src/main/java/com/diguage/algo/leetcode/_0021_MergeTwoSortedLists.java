@@ -27,6 +27,10 @@ import static com.diguage.util.ListNodes.isOrder;
  */
 public class _0021_MergeTwoSortedLists {
   // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2019-07-26 08:49
+   */
   public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
     if (Objects.isNull(l1) && Objects.isNull(l2)) {
       return null;
