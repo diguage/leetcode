@@ -1,9 +1,9 @@
 [#0005-longest-palindromic-substring]
 = 5. 最长回文子串
 
-https://leetcode.cn/problems/longest-palindromic-substring/[LeetCode - 5. 最长回文子串 ^]
+https://leetcode.cn/problems/longest-palindromic-substring/[LeetCode - 5. 最长回文子串^]
 
-给你一个字符串 `s`，找到 `s` 中最长的 回文 子串。
+给你一个字符串 `s`，找到 `s` 中最长的回文子串。
 
 *示例 1：*
 
@@ -76,6 +76,15 @@ include::{sourcedir}/_0005_LongestPalindromicSubstring_3.java[tag=answer]
 include::{sourcedir}/_0005_LongestPalindromicSubstring_4.java[tag=answer]
 ----
 --
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0005_LongestPalindromicSubstring_5.java[tag=answer]
+----
+--
 ====
 
 
@@ -94,5 +103,5 @@ include::{sourcedir}/_0005_LongestPalindromicSubstring_4.java[tag=answer]
 * https://leetcode.cn/problems/longest-palindromic-substring/solutions/4299/zui-chang-hui-wen-zi-chuan-c-by-gpe3dbjds1/[5. 最长回文子串^]
 * https://leetcode.cn/problems/longest-palindromic-substring/solutions/7792/zhong-xin-kuo-san-dong-tai-gui-hua-by-liweiwei1419/[5. 最长回文子串 - 动态规划、中心扩散、Manacher 算法^]
 * https://leetcode.cn/problems/maximum-length-of-repeated-subarray/solutions/28583/wu-li-jie-fa-by-stg-2/[718. 最长重复子数组 - 滑动窗口解法^]
-
+* https://leetcode.cn/problems/longest-palindromic-substring/solutions/2958179/mo-ban-on-manacher-suan-fa-pythonjavacgo-t6cx/[5. 最长回文子串 - 两种方法：中心扩展法 / Manacher 算法^]
 
