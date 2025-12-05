@@ -1,10 +1,9 @@
 [#0011-container-with-most-water]
 = 11. 盛最多水的容器
 
-https://leetcode.cn/problems/container-with-most-water/[LeetCode - 11. 盛最多水的容器 ^]
+https://leetcode.cn/problems/container-with-most-water/[LeetCode - 11. 盛最多水的容器^]
 
-给定一个长度为 `n` 的整数数组 `height` 。有 `n` 条垂线，第 `i`
-条线的两个端点是 `(i, 0)` 和 `(i, height[i])` 。
+给定一个长度为 `n` 的整数数组 `height`。有 `n` 条垂线，第 `i` 条线的两个端点是 `(i, 0)` 和 `(i, height[i])`。
 
 找出其中的两条线，使得它们与 `x` 轴共同构成的容器可以容纳最多的水。
 
@@ -19,7 +18,8 @@ image::images/0011-01.jpg[{image_attr}]
 ....
 输入：[1,8,6,2,5,4,8,3,7]
 输出：49
-解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色部分）的最大值为 49。
+解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。
+     在此情况下，容器能够容纳水（表示为蓝色部分）的最大值为 49。
 ....
 
 *示例 2：*
@@ -40,7 +40,7 @@ image::images/0011-01.jpg[{image_attr}]
 
 双指针左右夹逼，保留高个，移动低个。
 
-这里有个疑问，不考虑中间
+image::images/0011-10.png[{image_attr}]
 
 [[src-0011]]
 [tabs]
@@ -84,4 +84,8 @@ include::{sourcedir}/_0011_ContainerWithMostWater_4.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/container-with-most-water/solution/sheng-zui-duo-shui-de-rong-qi-by-leetcode-solution/[盛最多水的容器 - 盛最多水的容器 - 力扣（LeetCode）^]
+. https://leetcode.cn/problems/container-with-most-water/solutions/11491/container-with-most-water-shuang-zhi-zhen-fa-yi-do/[11. 盛最多水的容器 - 双指针，清晰图解^]
+. https://leetcode.cn/problems/container-with-most-water/solutions/94102/on-shuang-zhi-zhen-jie-fa-li-jie-zheng-que-xing-tu/[11. 盛最多水的容器 - O(n) 双指针解法：理解正确性、图解原理^]
+. https://leetcode.cn/problems/container-with-most-water/solutions/1974355/by-endlesscheng-f0xz/[11. 盛最多水的容器 - 双指针做法^]
+. https://leetcode.cn/problems/container-with-most-water/solutions/207215/sheng-zui-duo-shui-de-rong-qi-by-leetcode-solution/[11. 盛最多水的容器 - 官方题解^]
+.
