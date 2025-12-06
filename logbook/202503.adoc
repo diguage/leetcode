@@ -2059,6 +2059,11 @@ endif::[]
 |{doc_base_url}/0005-longest-palindromic-substring.adoc[题解]
 |✅ 中心扩散法。可以只计算坐标范围，到最后再生成回文字符串。有机会研究一下更高效的马拉车算法。
 
+|{counter:codes2503}
+|{leetcode_base_url}/median-of-two-sorted-arrays/[4. 寻找两个正序数组的中位数^]
+|{doc_base_url}/0004-median-of-two-sorted-arrays.adoc[题解]
+|❌ 二分查找。还需要多思考，不是特别明白。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
