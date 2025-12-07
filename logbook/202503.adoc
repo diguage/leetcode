@@ -2064,6 +2064,11 @@ endif::[]
 |{doc_base_url}/0004-median-of-two-sorted-arrays.adoc[题解]
 |❌ 二分查找。还需要多思考，不是特别明白。
 
+|{counter:codes2503}
+|{leetcode_base_url}/add-two-numbers/[2. 两数相加^]
+|{doc_base_url}/0002-add-two-numbers.adoc[题解]
+|✅ 链表。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
