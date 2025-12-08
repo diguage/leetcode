@@ -1,8 +1,7 @@
 [#0206-reverse-linked-list]
 = 206. 反转链表
 
-{leetcode}/problems/reverse-linked-list/[LeetCode - 206. 反转链表 ^]
-
+{leetcode}/problems/reverse-linked-list/[LeetCode - 206. 反转链表^]
 
 *示例 1：*
 
@@ -40,6 +39,8 @@ image:images/0206-01.jpg[{image_attr}]
 == 思路分析
 
 image::images/0206-01.png[{image_attr}]
+
+递归解法非常妙！传一个参数，`next` 又 `next` 比较麻烦；传两个参数 `(head, pre)` 代码写起来简单很多。
 
 [[src-0206]]
 [tabs]
@@ -88,6 +89,15 @@ include::{sourcedir}/_0206_ReverseLinkedList_41.java[tag=answer]
 include::{sourcedir}/_0206_ReverseLinkedList_42.java[tag=answer]
 ----
 --
+
+五刷（迭代）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0206_ReverseLinkedList_5.java[tag=answer]
+----
+--
 ====
 
 == 思考题
@@ -100,5 +110,6 @@ include::{sourcedir}/_0206_ReverseLinkedList_42.java[tag=answer]
 
 == 参考资料
 
-. https://leetcode.cn/problems/reverse-linked-list/solutions/551596/fan-zhuan-lian-biao-by-leetcode-solution-d1k2/?envType=study-plan-v2&envId=selected-coding-interview[206. 反转链表 - 官方题解^]
-. https://leetcode.cn/problems/reverse-linked-list/solutions/2361282/206-fan-zhuan-lian-biao-shuang-zhi-zhen-r1jel/?envType=study-plan-v2&envId=selected-coding-interview[206. 反转链表 - 双指针，清晰图解^]
+. https://leetcode.cn/problems/reverse-linked-list/solutions/551596/fan-zhuan-lian-biao-by-leetcode-solution-d1k2/[206. 反转链表 - 官方题解^]
+. https://leetcode.cn/problems/reverse-linked-list/solutions/2361282/206-fan-zhuan-lian-biao-shuang-zhi-zhen-r1jel/[206. 反转链表 - 双指针，清晰图解^]
+. https://leetcode.cn/problems/reverse-linked-list/solutions/1992225/you-xie-cuo-liao-yi-ge-shi-pin-jiang-tou-o5zy/[206. 反转链表 - 两种方法：递归 / 迭代，本质是尾插法和头插法^]

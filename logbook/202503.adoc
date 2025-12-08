@@ -2069,6 +2069,11 @@ endif::[]
 |{doc_base_url}/0002-add-two-numbers.adoc[题解]
 |✅ 链表。
 
+|{counter:codes2503}
+|{leetcode_base_url}/reverse-linked-list/[206. 反转链表^]
+|{doc_base_url}/0206-reverse-linked-list.adoc[题解]
+|✅ 递归解法非常妙！传一个参数，`next` 又 `next` 比较麻烦；传两个参数 `(head, pre)` 代码写起来简单很多。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
