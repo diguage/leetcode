@@ -2079,6 +2079,11 @@ endif::[]
 |{doc_base_url}/0033-search-in-rotated-sorted-array.adoc[题解]
 |✅ 二分查找。首先判断目标是否在有序部分，否则就在无序部分。另外，`mid = left + (right - left) / 2` 相当于向下取整，有可能等于 `0`。所以，*一定要使用 `nums[0] \<= nums[mid]`（注意这里的等号！）来判断前半部分是不是有序。*
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-window-substring/[76. 最小覆盖子串^]
+|{doc_base_url}/0076-minimum-window-substring.adoc[题解]
+|✅ 滑动窗口。记录短字符串每个字符的大小，使用滑动窗口在长字符串中“切割”符合要求的字符串。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
