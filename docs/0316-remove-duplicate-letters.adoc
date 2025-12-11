@@ -30,6 +30,8 @@ https://leetcode.cn/problems/remove-duplicate-letters/[LeetCode - 316. 去除重
 
 注意，在遍历字符时，向前走一步，则当前字符的次数就要减一。
 
+使用单调递减栈+计数器，如果遇到更小的字符，并且前面的字符后面还出现，则弹出前面的字符，添加更小的字符。同时，使用占位符，如果已经添加过了，就不用再重复添加了。
+
 关于单调栈，记住这两句话：
 
 * 单调递增栈，利用波谷剔除栈中的波峰，留下波谷；
@@ -64,6 +66,15 @@ include::{sourcedir}/_0316_RemoveDuplicateLetters_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0316_RemoveDuplicateLetters_3.java[tag=answer]
+----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0316_RemoveDuplicateLetters_4.java[tag=answer]
 ----
 --
 ====
