@@ -94,6 +94,15 @@ include::{sourcedir}/_0215_KthLargestElementInAnArray_5.java[tag=answer]
 include::{sourcedir}/_0215_KthLargestElementInAnArray_6.java[tag=answer]
 ----
 --
+
+七刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0215_KthLargestElementInAnArray_7.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
