@@ -40,6 +40,8 @@ image::images/0124-02.jpg[{image_attr}]
 
 深度优先遍历，如果子树路径和大于零，则累加，否则取 `0`。
 
+为了处理负数情况，每次从左右子树返回时，与 `0` 相比取最大值。这样就可以简化对负数的处理。
+
 image::images/0124-10.png[{image_attr}]
 
 [[src-0124]]
@@ -69,6 +71,15 @@ include::{sourcedir}/_0124_BinaryTreeMaximumPathSum_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0124_BinaryTreeMaximumPathSum_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0124_BinaryTreeMaximumPathSum_4.java[tag=answer]
 ----
 --
 ====

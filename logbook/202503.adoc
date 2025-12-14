@@ -2099,6 +2099,11 @@ endif::[]
 |{doc_base_url}/0480-sliding-window-median.adoc[题解]
 |⭕️ 滑动窗口+对顶堆。思路有，代码没写出来！
 
+|{counter:codes2503}
+|{leetcode_base_url}/binary-tree-maximum-path-sum/[124. 二叉树中的最大路径和^]
+|{doc_base_url}/0124-binary-tree-maximum-path-sum.adoc[题解]
+|✅ 深度优先搜索。为了处理负数情况，每次从左右子树返回时，与 `0` 相比取最大值。这样就可以简化对负数的处理。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
