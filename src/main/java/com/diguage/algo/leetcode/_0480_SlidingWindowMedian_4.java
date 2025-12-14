@@ -4,14 +4,13 @@ import java.util.*;
 
 public class _0480_SlidingWindowMedian_4 {
   // tag::answer[]
-
   /**
    * @author D瓜哥 · https://www.diguage.com
    * @since 2025-12-13 22:22:04
    */
   public double[] medianSlidingWindow(int[] nums, int k) {
     List<Double> result = new ArrayList<>();
-    _0480_SlidingWindowMedian_3.MedianFinder finder = new _0480_SlidingWindowMedian_3.MedianFinder();
+    MedianFinder finder = new MedianFinder();
     for (int i = 0; i < nums.length; i++) {
       int num = nums[i];
       finder.addNum(num);
