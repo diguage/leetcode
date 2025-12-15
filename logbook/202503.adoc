@@ -2104,6 +2104,11 @@ endif::[]
 |{doc_base_url}/0124-binary-tree-maximum-path-sum.adoc[题解]
 |✅ 深度优先搜索。为了处理负数情况，每次从左右子树返回时，与 `0` 相比取最大值。这样就可以简化对负数的处理。
 
+|{counter:codes2503}
+|{leetcode_base_url}/maximum-subarray/[53. 最大子数组和^]
+|{doc_base_url}/0053-maximum-subarray.adoc[题解]
+|✅ 动态规划。stem:[f(x)] 表示从 `0` 到第 `x` 个元素的最大子数组和，如果第 `x-1` 个元素的最大子数组之和大于 `0`，则可以继续向上“盖楼”；当小于等于 `0` 时，可以抛弃前面的元素从新开始。则递推公式是： stem:[f(x)=max(f(x-1),0)+a[x\]]。这就是 Kadane 算法。
+
 |===
 
 截止目前，本轮练习一共完成 {codes2503} 道题。

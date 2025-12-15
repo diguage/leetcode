@@ -86,6 +86,15 @@ include::{sourcedir}/_0053_MaximumSubarray_3.java[tag=answer]
 include::{sourcedir}/_0053_MaximumSubarray_4.java[tag=answer]
 ----
 --
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0053_MaximumSubarray_5.java[tag=answer]
+----
+--
 ====
 
 
