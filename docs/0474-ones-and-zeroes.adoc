@@ -41,9 +41,9 @@ https://leetcode.cn/problems/ones-and-zeroes/[LeetCode - 474. 一和零 ^]
 
 物品一个一个尝试，容量一点一点尝试，每个物品分类讨论的标准是：选与不选。
 
-dp[i−1][j][k]  // 不选择当前考虑的字符串，至少是这个数值
+`dp[i−1][j][k]` // 不选择当前考虑的字符串，至少是这个数值
 
-dp[i−1][j−当前字符串使用0的个数][k−当前字符串使用1的个数] + 1  // 选择当前考虑的字符串
+`dp[i−1][j−当前字符串使用0的个数][k−当前字符串使用1的个数] + 1`  // 选择当前考虑的字符串
 
 [[src-0474]]
 [tabs]
@@ -65,11 +65,24 @@ include::{sourcedir}/_0474_OnesAndZeroes.java[tag=answer]
 include::{sourcedir}/_0474_OnesAndZeroes_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0474_OnesAndZeroes_3.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
+. https://leetcode.cn/problems/ones-and-zeroes/solutions/3038333/yi-bu-bu-si-kao-cong-ji-yi-hua-sou-suo-d-lqio/[474. 一和零 - 一步步思考：从记忆化搜索到递推到空间优化！^]
+. https://leetcode.cn/problems/ones-and-zeroes/solutions/72372/dong-tai-gui-hua-zhuan-huan-wei-0-1-bei-bao-wen-ti/[474. 一和零 - 动态规划（转换为 0-1 背包问题）^]
+. https://leetcode.cn/problems/ones-and-zeroes/solutions/814942/gong-shui-san-xie-xiang-jie-ru-he-zhuan-174wv/[474. 一和零 - 详解如何转换「背包问题」，以及逐步空间优化^]
+. https://leetcode.cn/problems/ones-and-zeroes/solutions/567850/474-yi-he-ling-01bei-bao-xiang-jie-by-ca-s9vr/[474. 一和零 - 带你学透01背包（附背包详细攻略）^]
 . https://leetcode.cn/problems/ones-and-zeroes/solutions/814806/yi-he-ling-by-leetcode-solution-u2z2/[474. 一和零 - 官方题解^]
 
 
