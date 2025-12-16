@@ -9,6 +9,537 @@ ifndef::doc_base_url[]
 :doc_base_url: link:../docs
 endif::[]
 
+== 错题集
+
+[cols="7,30,7,56",options="header"]
+|===
+|序号 |题目 |题解 |备注
+
+|{counter:codes2503e}
+|{leetcode_base_url}/reverse-linked-list/[206. 反转链表^]
+|{doc_base_url}/0206-reverse-linked-list.adoc[题解]
+|⭕️ ✅ ✅
+
+|{counter:codes2503e}
+|{leetcode_base_url}/search-in-rotated-sorted-array/[33. 搜索旋转排序数组^]
+|{doc_base_url}/0033-search-in-rotated-sorted-array.adoc[题解]
+|⭕️ ⭕️ ❌ ⭕️ ✅
+
+|{counter:codes2503e}
+|{leetcode_base_url}/minimum-window-substring/[76. 最小覆盖子串^]
+|{doc_base_url}/0076-minimum-window-substring.adoc[题解]
+|⭕️ ✅ ✅
+
+|{counter:codes2503e}
+|{leetcode_base_url}/remove-duplicate-letters/[316. 去除重复字母^]
+|{doc_base_url}/0316-remove-duplicate-letters.adoc[题解]
+|❌ ❌ ⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/kth-largest-element-in-an-array/[215. 数组中的第K个最大元素^]
+|{doc_base_url}/0215-kth-largest-element-in-an-array.adoc[题解]
+|⭕️ ✅ ⭕️ ⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/first-missing-positive/[41. 缺失的第一个正数^]
+|{doc_base_url}/0041-first-missing-positive.adoc[题解]
+|⭕️ ✅ ✅
+
+|{counter:codes2503e}
+|{leetcode_base_url}/find-median-from-data-stream/[295. 数据流的中位数^]
+|{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
+|⭕️ ✅ ✅
+
+|{counter:codes2503e}
+|{leetcode_base_url}/binary-tree-maximum-path-sum/[124. 二叉树中的最大路径和^]
+|{doc_base_url}/0124-binary-tree-maximum-path-sum.adoc[题解]
+|⭕️ ✅ ✅
+
+|{counter:codes2503e}
+|{leetcode_base_url}/maximum-subarray/[53. 最大子数组和^]
+|{doc_base_url}/0053-maximum-subarray.adoc[题解]
+|⭕️ ✅ ✅ ✅
+
+|{counter:codes2503e}
+|{leetcode_base_url}/ones-and-zeroes/[474. 一和零^]
+|{doc_base_url}/0474-ones-and-zeroes.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/coin-change/[322. 零钱兑换]
+|{doc_base_url}/0322-coin-change.adoc[题解]
+|⭕️ ✅ ✅
+
+|{counter:codes2503e}
+|{leetcode_base_url}/subsets-ii/[90. 子集 II]
+|{doc_base_url}/0090-subsets-ii.adoc[题解]
+|⭕️ ✅
+
+|{counter:codes2503e}
+|{leetcode_base_url}/house-robber-iv/[2560. 打家劫舍 IV^]
+|{doc_base_url}/2560-house-robber-iv.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/delete-and-earn/[740. 删除并获得点数^]
+|{doc_base_url}/0740-delete-and-earn.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/unique-paths-iii/[980. 不同路径 III^]
+|{doc_base_url}/0980-unique-paths-iii.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/minimum-falling-path-sum-ii/[1289. 下降路径最小和  II^]
+|{doc_base_url}/1289-minimum-falling-path-sum-ii.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/word-break/[139. 单词拆分^]
+|{doc_base_url}/0139-word-break.adoc[题解]
+|⭕️ ✅
+
+|{counter:codes2503e}
+|{leetcode_base_url}/longest-palindromic-subsequence/[516. 最长回文子序列^]
+|{doc_base_url}/0516-longest-palindromic-subsequence.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/trapping-rain-water/[42. 接雨水^]
+|{doc_base_url}/0042-trapping-rain-water.adoc[题解]
+|❌ ✅
+
+|{counter:codes2503e}
+|{leetcode_base_url}/maximum-width-of-binary-tree/[662. 二叉树最大宽度^]
+|{doc_base_url}/0662-maximum-width-of-binary-tree.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/next-permutation/[31. 下一个排列^]
+|{doc_base_url}/0031-next-permutation.adoc[题解]
+|❌ ❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/rotate-array/[189. 轮转数组^]
+|{doc_base_url}/0189-rotate-array.adoc[题解]
+|❌ ✅
+
+|{counter:codes2503e}
+|{leetcode_base_url}/maximum-length-of-repeated-subarray/[718. 最长重复子数组^]
+|{doc_base_url}/0718-maximum-length-of-repeated-subarray.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/accounts-merge/[721. 账户合并^]
+|{doc_base_url}/0721-accounts-merge.adoc[题解]
+|❌ ✅
+
+|{counter:codes2503e}
+|{leetcode_base_url}/longest-consecutive-sequence/[128. 最长连续序列^]
+|{doc_base_url}/0128-longest-consecutive-sequence.adoc[题解]
+|⭕️ ⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/smallest-subsequence-of-distinct-characters/[1081. 不同字符的最小子序列^]
+|{doc_base_url}/1081-smallest-subsequence-of-distinct-characters.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/first-day-where-you-have-been-in-all-the-rooms/[1997. 访问完所有房间的第一天^]
+|{doc_base_url}/1997-first-day-where-you-have-been-in-all-the-rooms.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/minimum-moves-to-spread-stones-over-grid/[2850. 将石头分散到网格图的最少移动次数^]
+|{doc_base_url}/2850-minimum-moves-to-spread-stones-over-grid.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/substring-with-concatenation-of-all-words/[30. 串联所有单词的子串^]
+|{doc_base_url}/0030-substring-with-concatenation-of-all-words.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/longest-valid-parentheses/[32. 最长有效括号^]
+|{doc_base_url}/0032-longest-valid-parentheses.adoc[题解]
+|⭕️ ❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/largest-rectangle-in-histogram/[84. 柱状图中最大的矩形^]
+|{doc_base_url}/0084-largest-rectangle-in-histogram.adoc[题解]
+|❌ ⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/remove-all-adjacent-duplicates-in-string/[1047. 删除字符串中的所有相邻重复项^]
+|{doc_base_url}/1047-remove-all-adjacent-duplicates-in-string.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/last-stone-weight-ii/[1049. 最后一块石头的重量 II^]
+|{doc_base_url}/1049-last-stone-weight-ii.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/sudoku-solver/[37. 解数独^]
+|{doc_base_url}/0037-sudoku-solver.adoc[题解]
+|⭕️ ✅
+
+|{counter:codes2503e}
+|{leetcode_base_url}/basic-calculator/[224. 基本计算器^]
+|{doc_base_url}/0224-basic-calculator.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/single-number-iii/[260. 只出现一次的数字 III^]
+|{doc_base_url}/0260-single-number-iii.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/single-number-ii/[137. 只出现一次的数字 II^]
+|{doc_base_url}/0137-single-number-ii.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/distinct-subsequences/[115. 不同的子序列^]
+|{doc_base_url}/0115-distinct-subsequences.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/number-of-good-leaf-nodes-pairs/[1530. 好叶子节点对的数量^]
+|{doc_base_url}/1530-number-of-good-leaf-nodes-pairs.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/remove-zero-sum-consecutive-nodes-from-linked-list/[1171. 从链表中删去总和值为零的连续节点^]
+|{doc_base_url}/1171-remove-zero-sum-consecutive-nodes-from-linked-list.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/best-time-to-buy-and-sell-stock-iii/[123. 买卖股票的最佳时机 III^]
+|{doc_base_url}/0123-best-time-to-buy-and-sell-stock-iii.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/cheapest-flights-within-k-stops/[787. K 站中转内最便宜的航班^]
+|{doc_base_url}/0787-cheapest-flights-within-k-stops.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/longest-increasing-subsequence/[300. 最长递增子序列^]
+|{doc_base_url}/0300-longest-increasing-subsequence.adoc[题解]
+|❌ ⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/shortest-string-that-contains-three-strings/[2800. 包含三个字符串的最短字符串^]
+|{doc_base_url}/2800-shortest-string-that-contains-three-strings.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/count-number-of-ways-to-place-houses/[2320. 统计放置房子的方式数^]
+|{doc_base_url}/2320-count-number-of-ways-to-place-houses.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/maximum-sum-circular-subarray/[918. 环形子数组的最大和^]
+|{doc_base_url}/0918-maximum-sum-circular-subarray.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/maximum-students-taking-exam/[1349. 参加考试的最大学生数^]
+|{doc_base_url}/1349-maximum-students-taking-exam.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/decode-ways/[91. 解码方法^]
+|{doc_base_url}/0091-decode-ways.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/minimum-cost-to-move-chips-to-the-same-position/[1217. 玩筹码^]
+|{doc_base_url}/1217-minimum-cost-to-move-chips-to-the-same-position.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/count-triplets-that-can-form-two-arrays-of-equal-xor/[1442. 形成两个异或相等数组的三元组数目^]
+|{doc_base_url}/1442-count-triplets-that-can-form-two-arrays-of-equal-xor.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/construct-k-palindrome-strings/[1400. 构造 K 个回文字符串^]
+|{doc_base_url}/1400-construct-k-palindrome-strings.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/candy/[135. 分发糖果^]
+|{doc_base_url}/0135-candy.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/max-points-on-a-line/[149. 直线上最多的点数^]
+|{doc_base_url}/0149-max-points-on-a-line.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/bitwise-and-of-numbers-range/[201. 数字范围按位与^]
+|{doc_base_url}/0201-bitwise-and-of-numbers-range.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/word-search-ii/[212. 单词搜索 II^]
+|{doc_base_url}/0212-word-search-ii.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/evaluate-division/[399. 除法求值^]
+|{doc_base_url}/0399-evaluate-division.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/minimum-genetic-mutation/[433. 最小基因变化^]
+|{doc_base_url}/0433-minimum-genetic-mutation.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/ipo/[502. IPO^]
+|{doc_base_url}/0502-ipo.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/text-justification/[68. 文本左右对齐^]
+|{doc_base_url}/0068-text-justification.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/interleaving-string/[97. 交错字符串^]
+|{doc_base_url}/0097-interleaving-string.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/wildcard-matching/[44. 通配符匹配^]
+|{doc_base_url}/0044-wildcard-matching.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/maximal-rectangle/[85. 最大矩形^]
+|{doc_base_url}/0085-maximal-rectangle.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/rectangle-area/[223. 矩形面积^]
+|{doc_base_url}/0223-rectangle-area.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/majority-element-ii/[229. 多数元素 II^]
+|{doc_base_url}/0229-majority-element-ii.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/different-ways-to-add-parentheses/[241. 为运算表达式设计优先级^]
+|{doc_base_url}/0241-different-ways-to-add-parentheses.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/expression-add-operators/[282. 给表达式添加运算符^]
+|{doc_base_url}/0282-expression-add-operators.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/minimum-height-trees/[310. 最小高度树^]
+|{doc_base_url}/0310-minimum-height-trees.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/bulb-switcher/[319. 灯泡开关^]
+|{doc_base_url}/0319-bulb-switcher.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/water-and-jug-problem/[365. 水壶问题^]
+|{doc_base_url}/0365-water-and-jug-problem.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/largest-divisible-subset/[368. 最大整除子集^]
+|{doc_base_url}/0368-largest-divisible-subset.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/super-pow/[372. 超级次方^]
+|{doc_base_url}/0372-super-pow.adoc[题解]
+|⭕️ ⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/wiggle-subsequence/[376. 摆动序列^]
+|{doc_base_url}/0376-wiggle-subsequence.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/combination-sum-iv/[377. 组合总和 Ⅳ^]
+|{doc_base_url}/0377-combination-sum-iv.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/rotate-function/[396. 旋转函数^]
+|{doc_base_url}/0396-rotate-function.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/pacific-atlantic-water-flow/[417. 太平洋大西洋水流问题^]
+|{doc_base_url}/0417-pacific-atlantic-water-flow.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/queue-reconstruction-by-height/[406. 根据身高重建队列^]
+|{doc_base_url}/0406-queue-reconstruction-by-height.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/maximum-xor-of-two-numbers-in-an-array/[421. 数组中两个数的最大异或值^]
+|{doc_base_url}/0421-maximum-xor-of-two-numbers-in-an-array.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/longest-repeating-character-replacement/[424. 替换后的最长重复字符^]
+|{doc_base_url}/0424-longest-repeating-character-replacement.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/flatten-a-multilevel-doubly-linked-list/[430. 扁平化多级双向链表^]
+|{doc_base_url}/0430-flatten-a-multilevel-doubly-linked-list.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/non-overlapping-intervals/[435. 无重叠区间^]
+|{doc_base_url}/0435-non-overlapping-intervals.adoc[题解]
+|❌ ⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/find-right-interval/[436. 寻找右区间^]
+|{doc_base_url}/0436-find-right-interval.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/find-all-duplicates-in-an-array/[442. 数组中重复的数据^]
+|{doc_base_url}/0442-find-all-duplicates-in-an-array.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/number-of-boomerangs/[447. 回旋镖的数量^]
+|{doc_base_url}/0447-number-of-boomerangs.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/132-pattern/[456. 132 模式^]
+|{doc_base_url}/0456-132-pattern.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/lfu-cache/[460. LFU 缓存^]
+|{doc_base_url}/0460-lfu-cache.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/matchsticks-to-square/[473. 火柴拼正方形^]
+|{doc_base_url}/0473-matchsticks-to-square.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/heaters/[475. 供暖器^]
+|{doc_base_url}/0475-heaters.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/magical-string/[481. 神奇字符串^]
+|{doc_base_url}/0481-magical-string.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/remove-k-digits/[402. 移掉 K 位数字^]
+|{doc_base_url}/0402-remove-k-digits.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/sliding-window-median/[480. 滑动窗口中位数^]
+|{doc_base_url}/0480-sliding-window-median.adoc[题解]
+|⭕️ ✅ ⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/count-unreachable-pairs-of-nodes-in-an-undirected-graph/[2316. 统计无向图中无法互相到达点对数^]
+|{doc_base_url}/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/count-ways-to-build-good-strings/[2466. 统计构造好字符串的方案数^]
+|{doc_base_url}/2466-count-ways-to-build-good-strings.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/partition-equal-subset-sum/[416. 分割等和子集^]
+|{doc_base_url}/0416-partition-equal-subset-sum.adoc[题解]
+|❌ ⭕️ ✅
+
+
+|{counter:codes2503e}
+|{leetcode_base_url}/longest-common-subsequence/[1143. 最长公共子序列^]
+|{doc_base_url}/1143-longest-common-subsequence.adoc[题解]
+|✅ ⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/target-sum/[494. 目标和^]
+|{doc_base_url}/0494-target-sum.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/coin-change-ii/[518. 零钱兑换 II^]
+|{doc_base_url}/0518-coin-change-ii.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/top-k-frequent-elements/[347. 前 K 个高频元素^]
+|{doc_base_url}/0347-top-k-frequent-elements.adoc[题解]
+|✅ ✅ ⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/find-the-duplicate-number/[287. 寻找重复数^]
+|{doc_base_url}/0287-find-the-duplicate-number.adoc[题解]
+|⭕️
+
+|{counter:codes2503e}
+|{leetcode_base_url}/perfect-squares/[279. 完全平方数^]
+|{doc_base_url}/0279-perfect-squares.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/search-a-2d-matrix-ii/[240. 搜索二维矩阵 II^]
+|{doc_base_url}/0240-search-a-2d-matrix-ii.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/maximum-product-subarray/[152. 乘积最大子数组^]
+|{doc_base_url}/0152-maximum-product-subarray.adoc[题解]
+|❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/edit-distance/[72. 编辑距离^]
+|{doc_base_url}/0072-edit-distance.adoc[题解]
+|✅ ❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/generate-parentheses/[22. 括号生成^]
+|{doc_base_url}/0022-generate-parentheses.adoc[题解]
+|✅ ✅ ❌
+
+|{counter:codes2503e}
+|{leetcode_base_url}/median-of-two-sorted-arrays/[4. 寻找两个正序数组的中位数^]
+|{doc_base_url}/0004-median-of-two-sorted-arrays.adoc[题解]
+|❌
+
+|===
+
+== 刷题日志
+
 [cols="7,30,7,56",options="header"]
 |===
 |序号 |题目 |题解 |备注
@@ -204,7 +735,7 @@ endif::[]
 |❌ 动态规划，多维度“物品”就无从下手，还要多练。
 
 |{counter:codes2503}
-|{leetcode_base_url}/coin-change/[322. 零钱兑换]
+|{leetcode_base_url}/coin-change/[322. 零钱兑换^]
 |{doc_base_url}/0322-coin-change.adoc[题解]
 |⭕️ 动态规划，完全背包问题
 
@@ -794,7 +1325,7 @@ endif::[]
 |✅ 深度优先遍历，在“后序”中做业务处理。
 
 |{counter:codes2503}
-|{leetcode_base_url}/minimum-cost-to-move-chips-to-the-same-position/[1217. 玩筹码]
+|{leetcode_base_url}/minimum-cost-to-move-chips-to-the-same-position/[1217. 玩筹码^]
 |{doc_base_url}/1217-minimum-cost-to-move-chips-to-the-same-position.adoc[题解]
 |❌ 题目理解错误！`position[i]` 中的数字是筹码的位置。题目意思是奇数到奇数和偶数到偶数免费，但是紧挨的两个数字移动收费，所以，统计奇偶数的个数，看哪个小就移动哪个。
 
@@ -1645,7 +2176,7 @@ endif::[]
 |❌ 动态规划。0/1 背包问题，有个大概思路，但是还不完善，代码也没写出来。`dp[i][j] = dp[i - 1][j] \|\| dp[i - 1][j - nums[i]]`，`dp[i][j]` 表示由 `nums[0~i]` 能否组成 `j`。
 
 |{counter:codes2503}
-|{leetcode_base_url}/coin-change/[322. 零钱兑换]
+|{leetcode_base_url}/coin-change/[322. 零钱兑换^]
 |{doc_base_url}/0322-coin-change.adoc[题解]
 |✅ 动态规划。完全背包问题。`dp[i]` 表示组成金额 `i` 最少需要的零钱数量。外层遍历兑换金额，内层遍历零钱，零钱就可以取用多次，在零钱遍历过程中，找到所需最少的零钱数量。
 
@@ -1665,12 +2196,12 @@ endif::[]
 |⭕️ 动态规划。对比 <<0000-26-dp-1-0-1-knapsack>> 与 <<0000-26-dp-2-unbounded-knapsack>> 的差异，验证 0/1 背包如何通过逆序遍历来解题。
 
 |{counter:codes2503}
-|{leetcode_base_url}/coin-change/[322. 零钱兑换]
+|{leetcode_base_url}/coin-change/[322. 零钱兑换^]
 |{doc_base_url}/0322-coin-change.adoc[题解]
 |✅ 动态规划。对比 <<0000-26-dp-1-0-1-knapsack>> 与 <<0000-26-dp-2-unbounded-knapsack>> 的差异，验证完全背包如何通过正序遍历来解题。
 
 |{counter:codes2503}
-|{leetcode_base_url}/coin-change-ii/[518. 零钱兑换 II]
+|{leetcode_base_url}/coin-change-ii/[518. 零钱兑换 II^]
 |{doc_base_url}/0518-coin-change-ii.adoc[题解]
 |⭕️ 动态规划。用一维数组完成没问题；重现二维递推过程，懵逼了！还是得多想多练。
 
@@ -2110,5 +2641,7 @@ endif::[]
 |✅ 动态规划。stem:[f(x)] 表示从 `0` 到第 `x` 个元素的最大子数组和，如果第 `x-1` 个元素的最大子数组之和大于 `0`，则可以继续向上“盖楼”；当小于等于 `0` 时，可以抛弃前面的元素从新开始。则递推公式是： stem:[f(x)=max(f(x-1),0)+a[x\]]。这就是 Kadane 算法。
 
 |===
+
+
 
 截止目前，本轮练习一共完成 {codes2503} 道题。
