@@ -28,7 +28,7 @@ image::images/dynamic-programming-01.jpeg[{image_attr}]
 两个做法：
 
 . 定义状态 stem:[f[i\]] 表示以 stem:[a[i\]] 结尾的最大子数组和，不和 `i` 左边拼起来就是 stem:[f[i\]=a[i\]]，和 `i` 左边拼起来就是 stem:[f[i\]=f[i−1\]+a[i\]]，取最大值就得到了状态转移方程 stem:[f[i\]=max(f[i−1\],0)+a[i\]]，答案为 stem:[max(f)]。这个做法也叫做 Kadane 算法。
-. 前缀和 // TODO 这个还需要联系一下！
+. 前缀和 // TODO 这个还需要练习一下！
 
 === 网格图 DP
 

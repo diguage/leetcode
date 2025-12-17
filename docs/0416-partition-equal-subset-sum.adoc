@@ -63,7 +63,7 @@ image::images/0416-02.png[{image_attr}]
 
 |Java核心代码差异
 |`for (int j = W; j >= weight; j--)`
-|`for (int j = weight; j <= W; j++)`
+|`for (int j = weight; j \<= W; j++)`
 
 |===
 

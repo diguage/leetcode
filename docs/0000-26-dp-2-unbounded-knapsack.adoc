@@ -26,7 +26,7 @@ xref:0416-partition-equal-subset-sum.adoc[416. Partition Equal Subset Sum] 与 x
 
 |Java核心代码差异
 |`for (int j = W; j >= weight; j--)`
-|`for (int j = weight; j <= W; j++)`
+|`for (int j = weight; j \<= W; j++)`
 
 |===
 
