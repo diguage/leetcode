@@ -92,6 +92,15 @@ include::{sourcedir}/_0090_SubsetsII_31.java[tag=answer]
 include::{sourcedir}/_0090_SubsetsIi_4.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0090_SubsetsIi_5.java[tag=answer]
+----
+--
 ====
 
 == 参考资料

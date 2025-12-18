@@ -73,7 +73,7 @@ endif::[]
 |{counter:codes2503e}
 |{leetcode_base_url}/subsets-ii/[90. 子集 II]
 |{doc_base_url}/0090-subsets-ii.adoc[题解]
-|⭕️ ✅
+|⭕️ ✅ ✅
 
 |{counter:codes2503e}
 |{leetcode_base_url}/house-robber-iv/[2560. 打家劫舍 IV^]
@@ -2649,6 +2649,11 @@ endif::[]
 |{leetcode_base_url}/coin-change/[322. 零钱兑换]
 |{doc_base_url}/0322-coin-change.adoc[题解]
 |✅ 动态规划。无限背包问题。
+
+|{counter:codes2503}
+|{leetcode_base_url}/subsets-ii/[90. 子集 II]
+|{doc_base_url}/0090-subsets-ii.adoc[题解]
+|✅ 子集模式。需要注意重复元素的处理。如果元素中有重复元素，那么就需要先对元素排序，遇到重复元素时，就不能对虽有已有元素都添加新元素了。只需要针对上一次新添加的子集添加新元素即可，依次执行，直到有不重复元素则再次恢复成从全部子集添加元素。
 
 |===
 
