@@ -1,7 +1,7 @@
 [#2560-house-robber-iv]
 = 2560. 打家劫舍 IV
 
-https://leetcode.cn/problems/house-robber-iv/[LeetCode - 2560. 打家劫舍 IV ^]
+https://leetcode.cn/problems/house-robber-iv/[LeetCode - 2560. 打家劫舍 IV^]
 
 沿街有一排连续的房屋。每间房屋内都藏有一定的现金。现在有一位小偷计划从这些房屋中窃取现金。
 
@@ -44,7 +44,7 @@ https://leetcode.cn/problems/house-robber-iv/[LeetCode - 2560. 打家劫舍 IV ^
 
 == 思路分析
 
-一脸懵逼，完全不明觉厉！
+找出所有数上下限，然后再找出中间数 `mid`，使用中间数去“抢劫”，统计能打劫（金额小于中间数）的房间数量，如果数量大于 `k`，则降低上限；否则，增大上限。
 
 [[src-2560]]
 [tabs]
@@ -58,19 +58,22 @@ include::{sourcedir}/_2560_HouseRobberIv.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_2560_HouseRobberIv_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2560_HouseRobberIv_2.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
-. https://leetcode.cn/problems/house-robber-iv/solutions/2093952/er-fen-da-an-dp-by-endlesscheng-m558/[2560. 打家劫舍 IV - 两种方法：二分+DP/二分+贪心（Python/Java/C++/Go）^] -- 有各种经典题目。
+. https://leetcode.cn/problems/house-robber-iv/solutions/2093952/er-fen-da-an-dp-by-endlesscheng-m558/[2560. 打家劫舍 IV - 两种方法：二分+DP/二分+贪心^] -- 有各种经典题目。
+. https://leetcode.cn/problems/house-robber-iv/solutions/2441849/da-jia-jie-she-iv-by-leetcode-solution-n93j/[2560. 打家劫舍 IV - 官方题解^]
+. https://leetcode.cn/problems/house-robber-iv/solutions/2093952/er-fen-da-an-dp-by-endlesscheng-m558/comments/2129717/[通过该评论，找到了 `check` 方法更容易理解的写法]。
+. https://leetcode.cn/problems/house-robber-iv/solutions/2093861/er-fen-tan-xin-by-tsreaper-0wf5/[2560. 打家劫舍 IV - 二分 & 贪心^]
 
 

@@ -1,7 +1,5 @@
 package com.diguage.algo.leetcode;
 
-import java.util.Arrays;
-
 public class _2606_FindTheSubstringWithMaximumCost {
   // tag::answer[]
   /**
