@@ -237,7 +237,7 @@ image::images/modified-binary-search.jpeg[{image_attr}]
 . xref:2554-maximum-number-of-integers-to-choose-from-a-range-i.adoc[2554. Maximum Number of Integers to Choose From a Range I]
 . xref:2555-maximize-win-from-two-segments.adoc[2555. Maximize Win From Two Segments]
 . xref:2557-maximum-number-of-integers-to-choose-from-a-range-ii.adoc[2557. Maximum Number of Integers to Choose From a Range II]
-. xref:2560-house-robber-iv.adoc[2560. House Robber IV]
+. xref:2560-house-robber-iv.adoc[2560. House Robber IV] -- 这道题对二分查找的使用场景又做了拓宽：不仅仅可以使用已经排序的数组，同样可以适用隐含排序的数组。
 . xref:2563-count-the-number-of-fair-pairs.adoc[2563. Count the Number of Fair Pairs]
 . xref:2565-subsequence-with-the-minimum-score.adoc[2565. Subsequence With the Minimum Score]
 . xref:2576-find-the-maximum-number-of-marked-indices.adoc[2576. Find the Maximum Number of Marked Indices]
