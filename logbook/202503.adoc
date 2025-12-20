@@ -83,7 +83,7 @@ endif::[]
 |{counter:codes2503e}
 |{leetcode_base_url}/delete-and-earn/[740. 删除并获得点数^]
 |{doc_base_url}/0740-delete-and-earn.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:codes2503e}
 |{leetcode_base_url}/unique-paths-iii/[980. 不同路径 III^]
@@ -2659,6 +2659,11 @@ endif::[]
 |{leetcode_base_url}/house-robber-iv/[2560. 打家劫舍 IV^]
 |{doc_base_url}/2560-house-robber-iv.adoc[题解]
 |❌ 二分查找。找出所有数上下限，然后再找出中间数 `mid`，使用中间数去“抢劫”，统计能打劫（金额小于中间数）的房间数量，如果数量大于 `k`，则降低上限；否则，增大上限。这道题对二分查找的使用场景又做了拓宽：不仅仅可以使用已经排序的数组，同样可以适用隐含排序的数组。
+
+|{counter:codes2503}
+|{leetcode_base_url}/delete-and-earn/[740. 删除并获得点数^]
+|{doc_base_url}/0740-delete-and-earn.adoc[题解]
+|❌ 动态规划。最开始以为理解所有连续数字的和，后来发现理解错了。后来理解正确后，选定一个，删除上下紧挨的两个数，然后再选。这就是打家劫舍的思路了。
 
 |===
 
