@@ -2668,7 +2668,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/unique-paths-iii/[980. 不同路径 III^]
 |{doc_base_url}/0980-unique-paths-iii.adoc[题解]
-|✅ 回溯。找到起点，然后向四面八方扩散。
+|✅ 回溯。找到起点，然后向四面八方扩散，遇到空格就前进，否则就回溯，到达终点则计数，否则计数为 `0`。
 
 |===
 
