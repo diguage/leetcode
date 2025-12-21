@@ -88,7 +88,7 @@ endif::[]
 |{counter:codes2503e}
 |{leetcode_base_url}/unique-paths-iii/[980. 不同路径 III^]
 |{doc_base_url}/0980-unique-paths-iii.adoc[题解]
-|❌
+|❌ ✅
 
 |{counter:codes2503e}
 |{leetcode_base_url}/minimum-falling-path-sum-ii/[1289. 下降路径最小和  II^]
@@ -2664,6 +2664,11 @@ endif::[]
 |{leetcode_base_url}/delete-and-earn/[740. 删除并获得点数^]
 |{doc_base_url}/0740-delete-and-earn.adoc[题解]
 |❌ 动态规划。最开始以为理解所有连续数字的和，后来发现理解错了。后来理解正确后，选定一个，删除上下紧挨的两个数，然后再选。这就是打家劫舍的思路了。
+
+|{counter:codes2503}
+|{leetcode_base_url}/unique-paths-iii/[980. 不同路径 III^]
+|{doc_base_url}/0980-unique-paths-iii.adoc[题解]
+|✅ 回溯。找到起点，然后向四面八方扩散。
 
 |===
 
