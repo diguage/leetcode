@@ -1,7 +1,7 @@
 [#1289-minimum-falling-path-sum-ii]
 = 1289. 下降路径最小和  II
 
-https://leetcode.cn/problems/minimum-falling-path-sum-ii/[LeetCode - 1289. 下降路径最小和  II ^]
+https://leetcode.cn/problems/minimum-falling-path-sum-ii/[LeetCode - 1289. 下降路径最小和  II^]
 
 给你一个 `n x n` 整数矩阵 `grid` ，请你返回 *非零偏移下降路径* 数字和的最小值。
 
@@ -38,6 +38,12 @@ image::images/1289-01.jpg[{image_attr}]
 
 == 思路分析
 
+如果只要一行，就是返回最小值。
+
+如果超过一行，从第二行开始，每一行的每一个值，都计算跟上一行中的每一个值（除自己头顶的元素）求和最小值。到最后一行，取所有值中的最小值即可。
+
+一个优化方案是：上一行只记录 `(firstMin, secondMin, firstMinIndex)` 这三个值，这样就无需要遍历整行。如果自己头顶是最小值，那么就取 `secondMin`；否则就可以取 `firstMin`。
+
 
 [[src-1289]]
 [tabs]
@@ -51,17 +57,18 @@ include::{sourcedir}/_1289_MinimumFallingPathSumIi.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_1289_MinimumFallingPathSumIi_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1289_MinimumFallingPathSumIi_2.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/minimum-falling-path-sum-ii/solutions/665194/dong-tai-gui-hua-lu-jing-wen-ti-ben-xi-l-m85q/[1289. 下降路径最小和 II - 【动态规划/所有路径问题】详解「朴素DP」&「优化DP」，使用有限变量来代替遍历查找^]
+. https://leetcode.cn/problems/minimum-falling-path-sum-ii/solutions/101728/xia-jiang-lu-jing-zui-xiao-he-ii-by-leetcode-solut/[1289. 下降路径最小和 II - 官方题解^]
