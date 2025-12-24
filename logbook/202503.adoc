@@ -103,7 +103,7 @@ endif::[]
 |{counter:codes2503e}
 |{leetcode_base_url}/longest-palindromic-subsequence/[516. 最长回文子序列^]
 |{doc_base_url}/0516-longest-palindromic-subsequence.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:codes2503e}
 |{leetcode_base_url}/trapping-rain-water/[42. 接雨水^]
@@ -2679,6 +2679,11 @@ endif::[]
 |{leetcode_base_url}/word-break/[139. 单词拆分^]
 |{doc_base_url}/0139-word-break.adoc[题解]
 |✅ 动态规划。完全背包问题。字符串长度为 `0` 为 `true`，从当前位置向前看，从零开始，匹配单词长度，则将前面的位置设置为 `true`，持续向前推进，直到字符串结尾。
+
+|{counter:codes2503e}
+|{leetcode_base_url}/longest-palindromic-subsequence/[516. 最长回文子序列^]
+|{doc_base_url}/0516-longest-palindromic-subsequence.adoc[题解]
+|❌ 动态规划。最长回文在哪里？明显从两头开始，然后向中间挤压。
 
 |===
 
