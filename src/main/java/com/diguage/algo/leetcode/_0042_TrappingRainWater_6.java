@@ -2,7 +2,6 @@ package com.diguage.algo.leetcode;
 
 public class _0042_TrappingRainWater_6 {
   // tag::answer[]
-
   /**
    * @author D瓜哥 · https://www.diguage.com
    * @since 2025-12-25 20:50:09
@@ -12,18 +11,14 @@ public class _0042_TrappingRainWater_6 {
     int maxLeft = height[left], maxRight = height[right];
     int result = 0;
     while (left < right) {
-      int heigh = Math.min(maxLeft, maxRight);
       maxLeft = Math.max(maxLeft, height[left]);
       maxRight = Math.max(maxRight, height[right]);
-      if (height[left] < height[right]) {
-        if (heigh > height[left]) {
-          result += heigh - height[left];
-        }
+      // 直接比较左右两端的最大值，这样处理更省事
+      if (maxLeft < maxRight) {
+        result += maxLeft - height[left];
         left++;
       } else {
-        if (heigh > height[right]) {
-          result += heigh - height[right];
-        }
+        result += maxRight - height[right];
         right--;
       }
     }
@@ -31,6 +26,7 @@ public class _0042_TrappingRainWater_6 {
   }
   // end::answer[]
   static void main() {
-    new _0042_TrappingRainWater_6().trap(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1});
+    new _0042_TrappingRainWater_6()
+      .trap(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1});
   }
 }

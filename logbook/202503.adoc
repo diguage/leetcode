@@ -2688,7 +2688,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/trapping-rain-water/[42. 接雨水^]
 |{doc_base_url}/0042-trapping-rain-water.adoc[题解]
-|✅ 双指针。谁小移动谁。
+|✅ 双指针。谁小移动谁。直接比较左右两端的最大值，这样处理更省事。
 
 |===
 
