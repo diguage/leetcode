@@ -108,7 +108,7 @@ endif::[]
 |{counter:codes2503e}
 |{leetcode_base_url}/trapping-rain-water/[42. 接雨水^]
 |{doc_base_url}/0042-trapping-rain-water.adoc[题解]
-|❌ ✅
+|❌ ✅ ✅
 
 |{counter:codes2503e}
 |{leetcode_base_url}/maximum-width-of-binary-tree/[662. 二叉树最大宽度^]
@@ -2684,6 +2684,11 @@ endif::[]
 |{leetcode_base_url}/longest-palindromic-subsequence/[516. 最长回文子序列^]
 |{doc_base_url}/0516-longest-palindromic-subsequence.adoc[题解]
 |❌ 动态规划。最长回文在哪里？明显从两头开始，然后向中间挤压。
+
+|{counter:codes2503}
+|{leetcode_base_url}/trapping-rain-water/[42. 接雨水^]
+|{doc_base_url}/0042-trapping-rain-water.adoc[题解]
+|✅ 双指针。谁小移动谁。
 
 |===
 
