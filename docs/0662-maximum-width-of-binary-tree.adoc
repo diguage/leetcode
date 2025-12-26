@@ -59,6 +59,8 @@ image::images/0662-10.png[{image_attr}]
 
 image::images/0662-11.png[{image_attr}]
 
+注意：做深度优先遍历时，每一层肯定是最先遍历到最左节点，最后遍历到最右节点。所以，最小节点直接判空后存入即可。
+
 [[src-0662]]
 [tabs]
 ====

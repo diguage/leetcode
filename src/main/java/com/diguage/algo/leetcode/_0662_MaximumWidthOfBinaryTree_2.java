@@ -28,8 +28,10 @@ public class _0662_MaximumWidthOfBinaryTree_2 {
     if (Objects.isNull(root)) {
       return;
     }
-    min.put(levle, min.containsKey(levle) ? Math.min(min.get(levle), step) : step);
-    max.put(levle, max.containsKey(levle) ? Math.max(max.get(levle), step) : step);
+    // 做深度优先遍历时，每一层肯定是最先遍历到最左节点，最后遍历到最右节点。
+    // 所以，最小节点直接判空后存入即可。
+    min.putIfAbsent(levle, step);
+    max.put(levle, step); // 最大节点直接覆盖即可
     dfs(root.left, min, max, 2 * step, levle + 1);
     dfs(root.right, min, max, 2 * step + 1, levle + 1);
   }
