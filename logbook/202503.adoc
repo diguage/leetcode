@@ -113,7 +113,7 @@ endif::[]
 |{counter:codes2503e}
 |{leetcode_base_url}/maximum-width-of-binary-tree/[662. 二叉树最大宽度^]
 |{doc_base_url}/0662-maximum-width-of-binary-tree.adoc[题解]
-|⭕️
+|⭕️ ✅
 
 |{counter:codes2503e}
 |{leetcode_base_url}/next-permutation/[31. 下一个排列^]
@@ -2689,6 +2689,11 @@ endif::[]
 |{leetcode_base_url}/trapping-rain-water/[42. 接雨水^]
 |{doc_base_url}/0042-trapping-rain-water.adoc[题解]
 |✅ 双指针。谁小移动谁。直接比较左右两端的最大值，这样处理更省事。
+
+|{counter:codes2503e}
+|{leetcode_base_url}/maximum-width-of-binary-tree/[662. 二叉树最大宽度^]
+|{doc_base_url}/0662-maximum-width-of-binary-tree.adoc[题解]
+|✅ 深度优先遍历。记录每一层最大节点和最小节点的编号（按照完全二叉树），两个相减取最大值即可。
 
 |===
 

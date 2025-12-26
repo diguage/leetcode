@@ -1,7 +1,7 @@
 [#0662-maximum-width-of-binary-tree]
 = 662. 二叉树最大宽度
 
-https://leetcode.cn/problems/maximum-width-of-binary-tree/[LeetCode - 662. 二叉树最大宽度 ^]
+https://leetcode.cn/problems/maximum-width-of-binary-tree/[LeetCode - 662. 二叉树最大宽度^]
 
 给你一棵二叉树的根节点 `root` ，返回树的 *最大宽度* 。
 
@@ -80,14 +80,14 @@ include::{sourcedir}/_0662_MaximumWidthOfBinaryTree_1.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0662_MaximumWidthOfBinaryTree_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0662_MaximumWidthOfBinaryTree_2.java[tag=answer]
+----
+--
 ====
 
 
