@@ -15,18 +15,18 @@ public class _0031_NextPermutation_4 {
       }
       index--;
     }
-    if (index < 0) {
-      reverse(nums, 0, nums.length - 1);
-      return;
-    }
-    int big = nums.length - 1;
-    while (index < big) {
-      if (nums[index] < nums[big]) {
-        break;
+    if (index >= 0) {
+      // 从右向左，找到第一个比指定元素大的元素
+      // 这样交换后，才能保证是下一个排列
+      int big = nums.length - 1;
+      while (index < big) {
+        if (nums[index] < nums[big]) {
+          break;
+        }
+        big--;
       }
-      big--;
+      swap(nums, index, big);
     }
-    swap(nums, index, big);
     reverse(nums, index + 1, nums.length - 1);
   }
 
@@ -38,9 +38,7 @@ public class _0031_NextPermutation_4 {
 
   private void reverse(int[] nums, int left, int right) {
     while (left < right) {
-      swap(nums, left, right);
-      left++;
-      right--;
+      swap(nums, left++, right--);
     }
   }
   // end::answer[]
