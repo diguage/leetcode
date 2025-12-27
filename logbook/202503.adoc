@@ -118,7 +118,7 @@ endif::[]
 |{counter:codes2503e}
 |{leetcode_base_url}/next-permutation/[31. 下一个排列^]
 |{doc_base_url}/0031-next-permutation.adoc[题解]
-|❌ ❌
+|❌ ❌ ⭕️
 
 |{counter:codes2503e}
 |{leetcode_base_url}/rotate-array/[189. 轮转数组^]
@@ -2694,6 +2694,11 @@ endif::[]
 |{leetcode_base_url}/maximum-width-of-binary-tree/[662. 二叉树最大宽度^]
 |{doc_base_url}/0662-maximum-width-of-binary-tree.adoc[题解]
 |✅ 深度优先遍历。记录每一层最大节点和最小节点的编号（按照完全二叉树），两个相减取最大值即可。做深度优先遍历时，每一层肯定是最先遍历到最左节点，最后遍历到最右节点。所以，最小节点直接判空后存入即可。
+
+|{counter:codes2503e}
+|{leetcode_base_url}/next-permutation/[31. 下一个排列^]
+|{doc_base_url}/0031-next-permutation.adoc[题解]
+|⭕️ 双指针。有大概思路，但是细节没有把握住。
 
 |===
 
