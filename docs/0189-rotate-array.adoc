@@ -45,7 +45,9 @@ https://leetcode.cn/problems/rotate-array/[LeetCode - 189. 轮转数组^]
 
 整个过程如下：
 
-AB → rev(B)rev(A) → rev(rev(B))rev(rev(A)) → BA
+AB → rev(B)rev(A) → rev(rev(B))rev(rev(A)) → BA。
+
+也可以： AB → rev(A)rev(B) → rev(rev(A)rev(B)) → BA。
 
 image::images/0189-10.png[{image_attr}]
 
@@ -80,6 +82,15 @@ include::{sourcedir}/_0189_RotateArray_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0189_RotateArray_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0189_RotateArray_4.java[tag=answer]
 ----
 --
 ====

@@ -123,7 +123,7 @@ endif::[]
 |{counter:codes2503e}
 |{leetcode_base_url}/rotate-array/[189. 轮转数组^]
 |{doc_base_url}/0189-rotate-array.adoc[题解]
-|❌ ✅
+|❌ ✅ ✅
 
 |{counter:codes2503e}
 |{leetcode_base_url}/maximum-length-of-repeated-subarray/[718. 最长重复子数组^]
@@ -2699,6 +2699,11 @@ endif::[]
 |{leetcode_base_url}/next-permutation/[31. 下一个排列^]
 |{doc_base_url}/0031-next-permutation.adoc[题解]
 |⭕️ 双指针。有大概思路，但是细节没有把握住。
+
+|{counter:codes2503e}
+|{leetcode_base_url}/rotate-array/[189. 轮转数组^]
+|{doc_base_url}/0189-rotate-array.adoc[题解]
+|✅ 双指针。也有一些技巧：AB → rev(A)rev(B) → rev(rev(A)rev(B)) → BA。
 
 |===
 
