@@ -28,6 +28,8 @@ https://leetcode.cn/problems/maximum-length-of-repeated-subarray/[LeetCode - 718
 
 == 思路分析
 
+该题的暴力破解解法可以看出，*深度优先遍历不一定都能从一个入口遍历完，可能还需要多个入口。*
+
 动态规划：
 
 image::images/0718-01.png[{image_attr}]
@@ -76,6 +78,24 @@ include::{sourcedir}/_0718_MaximumLengthOfRepeatedSubarray_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0718_MaximumLengthOfRepeatedSubarray_3.java[tag=answer]
+----
+--
+
+三刷（暴力破解）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0718_MaximumLengthOfRepeatedSubarray_31a.java[tag=answer]
+----
+--
+
+三刷（备忘录）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0718_MaximumLengthOfRepeatedSubarray_31b.java[tag=answer]
 ----
 --
 ====
