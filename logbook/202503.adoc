@@ -128,7 +128,7 @@ endif::[]
 |{counter:codes2503e}
 |{leetcode_base_url}/maximum-length-of-repeated-subarray/[718. 最长重复子数组^]
 |{doc_base_url}/0718-maximum-length-of-repeated-subarray.adoc[题解]
-|❌
+|❌ ✅
 
 |{counter:codes2503e}
 |{leetcode_base_url}/accounts-merge/[721. 账户合并^]
@@ -2704,6 +2704,11 @@ endif::[]
 |{leetcode_base_url}/rotate-array/[189. 轮转数组^]
 |{doc_base_url}/0189-rotate-array.adoc[题解]
 |✅ 双指针。也有一些技巧：AB → rev(A)rev(B) → rev(rev(A)rev(B)) → BA。
+
+|{counter:codes2503e}
+|{leetcode_base_url}/maximum-length-of-repeated-subarray/[718. 最长重复子数组^]
+|{doc_base_url}/0718-maximum-length-of-repeated-subarray.adoc[题解]
+|✅ 滑动窗口。固定一个数组，滑动另外一个数组，坐标对齐，向后比较，寻找最大值重复子数组。
 
 |===
 

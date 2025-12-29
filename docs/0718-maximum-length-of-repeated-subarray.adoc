@@ -1,9 +1,9 @@
 [#0718-maximum-length-of-repeated-subarray]
 = 718. 最长重复子数组
 
-https://leetcode.cn/problems/maximum-length-of-repeated-subarray/[LeetCode - 718. 最长重复子数组 ^]
+https://leetcode.cn/problems/maximum-length-of-repeated-subarray/[LeetCode - 718. 最长重复子数组^]
 
-给两个整数数组 `nums1` 和 `nums2` ，返回 _两个数组中 *公共的*、长度最长的子数组的长度 _。
+给两个整数数组 `nums1` 和 `nums2` ，返回 _两个数组中 *公共的*、长度最长的子数组的长度_。
 
 *示例 1：*
 
@@ -67,6 +67,15 @@ include::{sourcedir}/_0718_MaximumLengthOfRepeatedSubarray.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0718_MaximumLengthOfRepeatedSubarray_2.java[tag=answer]
+----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0718_MaximumLengthOfRepeatedSubarray_3.java[tag=answer]
 ----
 --
 ====
