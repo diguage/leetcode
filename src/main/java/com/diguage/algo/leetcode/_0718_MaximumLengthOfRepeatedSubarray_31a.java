@@ -1,7 +1,5 @@
 package com.diguage.algo.leetcode;
 
-import java.util.Objects;
-
 public class _0718_MaximumLengthOfRepeatedSubarray_31a {
   // tag::answer[]
   /**
@@ -25,7 +23,7 @@ public class _0718_MaximumLengthOfRepeatedSubarray_31a {
     if (ai < 0 || bi < 0) {
       return 0;
     }
-    if (Objects.equals(a[ai], b[bi])) {
+    if (a[ai] == b[bi]) {
       return dfs(a, ai - 1, b, bi - 1) + 1;
     } else {
       return 0;
