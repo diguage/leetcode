@@ -1,6 +1,15 @@
 [#0000-26-dp-5-longest-common-substring]
 = Longest Common Substring 最长子字符串系列
 
+对比 xref:0718-maximum-length-of-repeated-subarray.adoc[718. 最长重复子数组] 和 xref:1143-longest-common-subsequence.adoc[1143. Longest Common Subsequence] 两道题的差异：
+
+. 对于求子数组来说：
+.. 使用深度优先遍历的暴力破解方法，当不符合子数组约束时，递归被终止。如果只用一个入口无法覆盖全部场景，必须使用循环尝试多个入口才能覆盖掉。
+.. 使用动态规划时，只需要更新符合条件的情况即可，其他情况无需更新。
+. 对于求子序列来讲：
+.. 使用深度优先遍历的暴力破解方法，不会中间终止，递归过程会覆盖全部场景，所以，只需要一个入口即可。
+.. 使用动态规划时，每一个节点都是前一个节点的累加或者两个节点的最大值，所以，任何情况都需要更新。
+
 == 经典题目
 
 . xref:0072-edit-distance.adoc[72. Edit Distance]

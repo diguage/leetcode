@@ -484,7 +484,7 @@ endif::[]
 |{counter:codes2503e}
 |{leetcode_base_url}/longest-common-subsequence/[1143. 最长公共子序列^]
 |{doc_base_url}/1143-longest-common-subsequence.adoc[题解]
-|✅ ⭕️
+|✅ ⭕️ ✅
 
 |{counter:codes2503e}
 |{leetcode_base_url}/target-sum/[494. 目标和^]
@@ -2709,6 +2709,11 @@ endif::[]
 |{leetcode_base_url}/maximum-length-of-repeated-subarray/[718. 最长重复子数组^]
 |{doc_base_url}/0718-maximum-length-of-repeated-subarray.adoc[题解]
 |✅ 滑动窗口，动态规划。固定一个数组，滑动另外一个数组，坐标对齐，向后比较，寻找最大值重复子数组。该题的暴力破解解法可以看出，*深度优先遍历不一定都能从一个入口遍历完，可能还需要多个入口。*
+
+|{counter:codes2503e}
+|{leetcode_base_url}/longest-common-subsequence/[1143. 最长公共子序列^]
+|{doc_base_url}/1143-longest-common-subsequence.adoc[题解]
+|✅ 深度优先遍历，备忘录，动态规划。从暴力破解到备忘录，再从备忘录到动态规划。这个思路更顺畅。
 
 |===
 
