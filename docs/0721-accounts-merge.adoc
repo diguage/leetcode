@@ -1,7 +1,7 @@
 [#0721-accounts-merge]
 = 721. 账户合并
 
-https://leetcode.cn/problems/accounts-merge/[LeetCode - 721. 账户合并 ^]
+https://leetcode.cn/problems/accounts-merge/[LeetCode - 721. 账户合并^]
 
 给定一个列表 `accounts`，每个元素 `accounts[i]` 是一个字符串列表，其中第一个元素 `accounts[i][0]` 是 _名称 (name)_，其余元素是 *_emails_* 表示该账户的邮箱地址。
 
@@ -64,6 +64,8 @@ https://leetcode.cn/problems/accounts-merge/[LeetCode - 721. 账户合并 ^]
 
 通过邮箱编号建立连接，而不是通过账户索引建立连接。
 
+注意：*建立关联时，要修改的是祖先节点的父节点，不是当前节点的父节点。*
+
 image::images/0721-10.png[{image_attr}]
 
 也可以使用深度优先遍历。
@@ -92,6 +94,15 @@ include::{sourcedir}/_0721_AccountsMerge.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0721_AccountsMerge_2.java[tag=answer]
+----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0721_AccountsMerge_3.java[tag=answer]
 ----
 --
 ====

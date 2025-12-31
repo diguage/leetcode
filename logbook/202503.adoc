@@ -133,7 +133,7 @@ endif::[]
 |{counter:codes2503e}
 |{leetcode_base_url}/accounts-merge/[721. 账户合并^]
 |{doc_base_url}/0721-accounts-merge.adoc[题解]
-|❌ ✅
+|❌ ✅ ✅
 
 |{counter:codes2503e}
 |{leetcode_base_url}/longest-consecutive-sequence/[128. 最长连续序列^]
@@ -2714,6 +2714,11 @@ endif::[]
 |{leetcode_base_url}/longest-common-subsequence/[1143. 最长公共子序列^]
 |{doc_base_url}/1143-longest-common-subsequence.adoc[题解]
 |✅ 深度优先遍历，备忘录，动态规划。从暴力破解到备忘录，再从备忘录到动态规划。这个思路更顺畅。
+
+|{counter:codes2503e}
+|{leetcode_base_url}/accounts-merge/[721. 账户合并^]
+|{doc_base_url}/0721-accounts-merge.adoc[题解]
+|✅ 并查集。给每个 Email 赋值一个编号，然后通过并查集在编号之间建立起关联，再从关联里重新构建 Email 链表。注意：*建立关联时，要修改的是祖先节点的父节点，不是当前节点的父节点。*
 
 |===
 
