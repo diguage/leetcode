@@ -26,7 +26,7 @@
     <asciidoctorj.version>3.0.1</asciidoctorj.version>
     <asciidoctorj-pdf.version>2.3.23</asciidoctorj-pdf.version>
     <asciidoctorj-epub3.version>2.2.0</asciidoctorj-epub3.version>
-    <asciidoctorj-diagram.version>3.0.1</asciidoctorj-diagram.version>
+    <asciidoctorj-diagram.version>3.1.0</asciidoctorj-diagram.version>
     <asciidoctor-diagram.version>3.1.0</asciidoctor-diagram.version>
     <asciidoctor-diagram-plantuml.version>1.2025.3</asciidoctor-diagram-plantuml.version>
     <asciidoctor-comment-links.version>0.0.2</asciidoctor-comment-links.version>
@@ -851,7 +851,7 @@
                 <toc/>
                 <toclevels>1</toclevels>
                 <!-- <sectnums>false</sectnums>-->
-                <sectnumlevels>3</sectnumlevels>
+                <sectnumlevels>4</sectnumlevels>
                 <sectanchors>true</sectanchors>
                 <graphvizdot>/usr/local/bin/dot</graphvizdot>
                 <project_basedir>${project.basedir}</project_basedir>
