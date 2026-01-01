@@ -1,7 +1,7 @@
 [#0746-min-cost-climbing-stairs]
 = 746. 使用最小花费爬楼梯
 
-https://leetcode.cn/problems/min-cost-climbing-stairs/[LeetCode - 746. 使用最小花费爬楼梯 ^]
+https://leetcode.cn/problems/min-cost-climbing-stairs/[LeetCode - 746. 使用最小花费爬楼梯^]
 
 给你一个整数数组 `cost` ，其中 `cost[i]` 是从楼梯第 `i` 个台阶向上爬需要支付的费用。一旦你支付此费用，即可选择向上爬一个或者两个台阶。
 
@@ -62,6 +62,42 @@ include::{sourcedir}/_0746_MinCostClimbingStairs.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0746_MinCostClimbingStairs_2.java[tag=answer]
+----
+--
+
+三刷(暴力破解)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0746_MinCostClimbingStairs_3a.java[tag=answer]
+----
+--
+
+三刷(备忘录)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0746_MinCostClimbingStairs_3b.java[tag=answer]
+----
+--
+
+三刷(动态规划)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0746_MinCostClimbingStairs_3c.java[tag=answer]
+----
+--
+
+三刷(动态规划)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0746_MinCostClimbingStairs_3d.java[tag=answer]
 ----
 --
 ====

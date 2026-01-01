@@ -20,6 +20,11 @@ endif::[]
 |{doc_base_url}/0128-longest-consecutive-sequence.adoc[题解]
 |❌ 求连续序列长度，可以先去重，再寻找当前序列起点，从起点向后查找，出现断点，则当前序列结束。取所有序列中，最长值即可。
 
+|{counter:codes2503}
+|{leetcode_base_url}/min-cost-climbing-stairs/[746. 使用最小花费爬楼梯^]
+|{doc_base_url}/0746-min-cost-climbing-stairs.adoc[题解]
+|✅ 动态规划。楼梯顶部是比数组长度更长的一节。先写暴力破解，再备忘录，再进会到动态规划。
+
 |===
 
 
