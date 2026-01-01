@@ -2151,7 +2151,7 @@ endif::[]
 |{doc_base_url}/0139-word-break.adoc[题解]
 |✅ 动态规划。完全背包问题。字符串长度为 `0` 为 `true`，从当前位置向前看，从零开始，匹配单词长度，则将前面的位置设置为 `true`，持续向前推进，直到字符串结尾。
 
-|{counter:codes2503e}
+|{counter:codes2503}
 |{leetcode_base_url}/longest-palindromic-subsequence/[516. 最长回文子序列^]
 |{doc_base_url}/0516-longest-palindromic-subsequence.adoc[题解]
 |❌ 动态规划。最长回文在哪里？明显从两头开始，然后向中间挤压。
@@ -2161,32 +2161,32 @@ endif::[]
 |{doc_base_url}/0042-trapping-rain-water.adoc[题解]
 |✅ 双指针。谁小移动谁。直接比较左右两端的最大值，这样处理更省事。
 
-|{counter:codes2503e}
+|{counter:codes2503}
 |{leetcode_base_url}/maximum-width-of-binary-tree/[662. 二叉树最大宽度^]
 |{doc_base_url}/0662-maximum-width-of-binary-tree.adoc[题解]
 |✅ 深度优先遍历。记录每一层最大节点和最小节点的编号（按照完全二叉树），两个相减取最大值即可。做深度优先遍历时，每一层肯定是最先遍历到最左节点，最后遍历到最右节点。所以，最小节点直接判空后存入即可。
 
-|{counter:codes2503e}
+|{counter:codes2503}
 |{leetcode_base_url}/next-permutation/[31. 下一个排列^]
 |{doc_base_url}/0031-next-permutation.adoc[题解]
 |⭕️ 双指针。有大概思路，但是细节没有把握住。
 
-|{counter:codes2503e}
+|{counter:codes2503}
 |{leetcode_base_url}/rotate-array/[189. 轮转数组^]
 |{doc_base_url}/0189-rotate-array.adoc[题解]
 |✅ 双指针。也有一些技巧：AB → rev(A)rev(B) → rev(rev(A)rev(B)) → BA。
 
-|{counter:codes2503e}
+|{counter:codes2503}
 |{leetcode_base_url}/maximum-length-of-repeated-subarray/[718. 最长重复子数组^]
 |{doc_base_url}/0718-maximum-length-of-repeated-subarray.adoc[题解]
 |✅ 滑动窗口，动态规划。固定一个数组，滑动另外一个数组，坐标对齐，向后比较，寻找最大值重复子数组。该题的暴力破解解法可以看出，*深度优先遍历不一定都能从一个入口遍历完，可能还需要多个入口。*
 
-|{counter:codes2503e}
+|{counter:codes2503}
 |{leetcode_base_url}/longest-common-subsequence/[1143. 最长公共子序列^]
 |{doc_base_url}/1143-longest-common-subsequence.adoc[题解]
 |✅ 深度优先遍历，备忘录，动态规划。从暴力破解到备忘录，再从备忘录到动态规划。这个思路更顺畅。
 
-|{counter:codes2503e}
+|{counter:codes2503}
 |{leetcode_base_url}/accounts-merge/[721. 账户合并^]
 |{doc_base_url}/0721-accounts-merge.adoc[题解]
 |✅ 并查集。给每个 Email 赋值一个编号，然后通过并查集在编号之间建立起关联，再从关联里重新构建 Email 链表。注意：*建立关联时，要修改的是祖先节点的父节点，不是当前节点的父节点。*
