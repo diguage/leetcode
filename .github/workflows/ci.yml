@@ -36,6 +36,7 @@ jobs:
         run: |
           sed -i 's@xref:\([^\.]*\).adoc\[[^:]*\]@<<\1>>@g' docs/*.adoc
           sed -i 's@{doc_base_url}/\([^\.]*\).adoc\[[^:]*\]@<<\1>>@g' company/*.adoc
+          sed -i 's@{counter:.*}@{counter:corrections}@g' logbook/corrections.adoc
           sed -i 's@{counter:.*}@{counter:codes2601}@g' logbook/202601.adoc
       # 处理 sed 不支持非贪婪模式
       # https://stackoverflow.com/a/46719361

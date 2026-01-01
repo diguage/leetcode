@@ -36,7 +36,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/kth-largest-element-in-an-array/[215. 数组中的第K个最大元素^]
 |{doc_base_url}/0215-kth-largest-element-in-an-array.adoc[题解]
-|⭕️ ✅ ⭕️ ⭕️
+|❌ ⭕️ ✅ ⭕️ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/first-missing-positive/[41. 缺失的第一个正数^]
@@ -46,7 +46,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/find-median-from-data-stream/[295. 数据流的中位数^]
 |{doc_base_url}/0295-find-median-from-data-stream.adoc[题解]
-|⭕️ ✅ ✅
+|⭕️ ⭕️ ✅ ✅
 
 |{counter:corrections}
 |{leetcode_base_url}/binary-tree-maximum-path-sum/[124. 二叉树中的最大路径和^]
@@ -61,7 +61,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/ones-and-zeroes/[474. 一和零^]
 |{doc_base_url}/0474-ones-and-zeroes.adoc[题解]
-|❌ ⭕️
+|❌ ❌ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/coin-change/[322. 零钱兑换]
@@ -116,7 +116,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/next-permutation/[31. 下一个排列^]
 |{doc_base_url}/0031-next-permutation.adoc[题解]
-|❌ ❌ ⭕️
+|❌ ❌ ❌ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/rotate-array/[189. 轮转数组^]
@@ -126,7 +126,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/maximum-length-of-repeated-subarray/[718. 最长重复子数组^]
 |{doc_base_url}/0718-maximum-length-of-repeated-subarray.adoc[题解]
-|❌ ✅
+|❌ ❌ ✅
 
 |{counter:corrections}
 |{leetcode_base_url}/accounts-merge/[721. 账户合并^]
@@ -196,7 +196,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/single-number-ii/[137. 只出现一次的数字 II^]
 |{doc_base_url}/0137-single-number-ii.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/distinct-subsequences/[115. 不同的子序列^]
@@ -271,7 +271,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/candy/[135. 分发糖果^]
 |{doc_base_url}/0135-candy.adoc[题解]
-|⭕️
+|❌ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/max-points-on-a-line/[149. 直线上最多的点数^]
@@ -522,7 +522,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/edit-distance/[72. 编辑距离^]
 |{doc_base_url}/0072-edit-distance.adoc[题解]
-|✅ ❌
+|❌ ✅ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/generate-parentheses/[22. 括号生成^]
@@ -532,6 +532,131 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/median-of-two-sorted-arrays/[4. 寻找两个正序数组的中位数^]
 |{doc_base_url}/0004-median-of-two-sorted-arrays.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/implement-queue-using-stacks/[232. Implement Queue using Stacks^]
+|{doc_base_url}/0232-implement-queue-using-stacks.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/isomorphic-strings/[205. Isomorphic Strings^]
+|{doc_base_url}/0205-isomorphic-strings.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/combination-sum-ii/[40. Combination Sum II^]
+|{doc_base_url}/0040-combination-sum-ii.adoc[题解]
+|⭕️
+
+|{counter:corrections}
+|{leetcode_base_url}/symmetric-tree/[101. Symmetric Tree^]
+|{doc_base_url}/0101-symmetric-tree.adoc[题解]
+|⭕️
+
+|{counter:corrections}
+|{leetcode_base_url}/container-with-most-water/[11. Container With Most Water^]
+|{doc_base_url}/0011-container-with-most-water.adoc[题解]
+|⭕️
+
+|{counter:corrections}
+|{leetcode_base_url}/sum-of-two-integers/[371. Sum of Two Integers^]
+|{doc_base_url}/0371-sum-of-two-integers.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/gray-code/[89. Gray Code^]
+|{doc_base_url}/0089-gray-code.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/delete-node-in-a-linked-list/[237. Delete Node in a Linked List^]
+|{doc_base_url}/0237-delete-node-in-a-linked-list.adoc[题解]
+|⭕️
+
+|{counter:corrections}
+|{leetcode_base_url}/zigzag-conversion/[6. ZigZag Conversion^]
+|{doc_base_url}/0006-zigzag-conversion.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/largest-number/[179. Largest Number^]
+|{doc_base_url}/0179-largest-number.adoc[题解]
+|⭕️
+
+|{counter:corrections}
+|{leetcode_base_url}/find-the-winner-of-the-circular-game/[1823. Find the Winner of the Circular Game^]
+|{doc_base_url}/1823-find-the-winner-of-the-circular-game.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/find-minimum-in-rotated-sorted-array/[153. Find Minimum in Rotated Sorted Array^]
+|{doc_base_url}/0153-find-minimum-in-rotated-sorted-array.adoc[题解]
+|⭕️
+
+|{counter:corrections}
+|{leetcode_base_url}/find-minimum-in-rotated-sorted-array-ii/[154. Find Minimum in Rotated Sorted Array II^]
+|{doc_base_url}/0154-find-minimum-in-rotated-sorted-array-ii.adoc[题解]
+|⭕️
+
+|{counter:corrections}
+|{leetcode_base_url}/permutations-ii/[47. Permutations II^]
+|{doc_base_url}/0047-permutations-ii.adoc[题解]
+|⭕️
+
+|{counter:corrections}
+|{leetcode_base_url}/majority-element/[169. Majority Element^]
+|{doc_base_url}/0169-majority-element.adoc[题解]
+|⭕️
+
+|{counter:corrections}
+|{leetcode_base_url}/max-chunks-to-make-sorted-ii/[768. Max Chunks To Make Sorted II^]
+|{doc_base_url}/0768-max-chunks-to-make-sorted-ii.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/nth-digit/[400. Nth Digit^]
+|{doc_base_url}/0400-nth-digit.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/minimum-number-of-swaps-to-make-the-binary-string-alternating/[1864. Minimum Number of Swaps to Make the Binary String Alternating^]
+|{doc_base_url}/1864-minimum-number-of-swaps-to-make-the-binary-string-alternating.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/flip-string-to-monotone-increasing/[926. Flip String to Monotone Increasing^]
+|{doc_base_url}/0926-flip-string-to-monotone-increasing.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/smallest-value-after-replacing-with-sum-of-prime-factors/[2507. Smallest Value After Replacing With Sum of Prime Factors^]
+|{doc_base_url}/2507-smallest-value-after-replacing-with-sum-of-prime-factors.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/largest-values-from-labels/[1090. Largest Values From Labels^]
+|{doc_base_url}/1090-largest-values-from-labels.adoc[题解]
+|⭕️
+
+|{counter:corrections}
+|{leetcode_base_url}/reordered-power-of-2/[869. Reordered Power of 2^]
+|{doc_base_url}/0869-reordered-power-of-2.adoc[题解]
+|⭕️
+
+|{counter:corrections}
+|{leetcode_base_url}/reconstruct-a-2-row-binary-matrix/[1253. Reconstruct a 2-Row Binary Matrix^]
+|{doc_base_url}/1253-reconstruct-a-2-row-binary-matrix.adoc[题解]
+|⭕️
+
+|{counter:corrections}
+|{leetcode_base_url}/robot-bounded-in-circle/[1041. Robot Bounded In Circle^]
+|{doc_base_url}/1041-robot-bounded-in-circle.adoc[题解]
+|⭕️
+
+|{counter:corrections}
+|{leetcode_base_url}/boats-to-save-people/[881. Boats to Save People^]
+|{doc_base_url}/0881-boats-to-save-people.adoc[题解]
 |❌
 
 |===
