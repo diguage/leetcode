@@ -6603,4 +6603,8 @@ include::../logbook/202406.adoc[leveloffset=+1]
 
 include::../logbook/202503.adoc[leveloffset=+1]
 
+include::../logbook/202601.adoc[leveloffset=+1]
+
+include::../logbook/corrections.adoc[leveloffset=+1]
+
 include::../company/bytedance.adoc[leveloffset=+1]

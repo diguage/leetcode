@@ -32,7 +32,9 @@ https://leetcode.cn/problems/longest-consecutive-sequence/[LeetCode - 128. 最�
 
 首先想到的思路是排序，然后再查找。
 
-答案的思路是：+++<del>先将数字都添加到集合，然后遍历即可，只有没有前一位数字时，开始统计个数。</del>+++上面的描述不够准确，应该这样说：使用两层循环，先使用外层循环寻找起点，在内循环中逐步判断是否有后续节点来查找更长连续数列。
+答案的思路是：+++<del>先将数字都添加到集合，然后遍历即可，只有没有前一位数字时（即为起点），开始统计个数。</del>+++上面的描述不够准确，应该这样说：使用两层循环，先使用外层循环寻找起点，在内循环中逐步判断是否有后续节点来查找更长连续数列。
+
+求连续序列长度，可以先去重，再寻找当前序列起点，从起点向后查找，出现断点，则当前序列结束。取所有序列中，最长值即可。
 
 看其他选手答案，使用并查集也可以解决。
 
@@ -54,6 +56,15 @@ include::{sourcedir}/_0128_LongestConsecutiveSequence.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0128_LongestConsecutiveSequence_2.java[tag=answer]
+----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0128_LongestConsecutiveSequence_3.java[tag=answer]
 ----
 --
 ====

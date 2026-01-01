@@ -1,0 +1,27 @@
+[#logbook-202601]
+= 2026年 刷题日志
+
+ifndef::leetcode_base_url[]
+:leetcode_base_url: https://leetcode.com/problems
+endif::[]
+
+ifndef::doc_base_url[]
+:doc_base_url: link:../docs
+endif::[]
+
+== 刷题日志
+
+[cols="7,30,7,56",options="header"]
+|===
+|序号 |题目 |题解 |备注
+
+|{counter:codes2601}
+|{leetcode_base_url}/longest-consecutive-sequence/[128. 最长连续序列^]
+|{doc_base_url}/0128-longest-consecutive-sequence.adoc[题解]
+|❌ 求连续序列长度，可以先去重，再寻找当前序列起点，从起点向后查找，出现断点，则当前序列结束。取所有序列中，最长值即可。
+
+|===
+
+
+
+截止目前，本轮练习一共完成 {codes2601} 道题。
