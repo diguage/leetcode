@@ -38,6 +38,9 @@ public class _0378_KthSmallestElementInASortedMatrix {
      * Memory Usage: 56.2 MB, less than 5.41% of Java online submissions for Kth Smallest Element in a Sorted Matrix.
      *
      * Copy from: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/discuss/85173/Share-my-thoughts-and-Clean-Java-Code[Share my thoughts and Clean Java Code - LeetCode Discuss]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-23 18:08
      */
     public int kthSmallest(int[][] matrix, int k) {
         int low = matrix[0][0];

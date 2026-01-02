@@ -25,6 +25,11 @@ endif::[]
 |{doc_base_url}/0746-min-cost-climbing-stairs.adoc[题解]
 |✅ 动态规划。楼梯顶部是比数组长度更长的一节。先写暴力破解，再备忘录，再进会到动态规划。
 
+|{counter:corrections}
+|{leetcode_base_url}/combination-sum-iv/[377. 组合总和 Ⅳ^]
+|{doc_base_url}/0377-combination-sum-iv.adoc[题解]
+|❌ 动态规划。在以往的思维定式中，爬楼梯总是: stem:[f(i)=f(i−1)+f(i−2)]。这道题突破了这个思维定式，爬楼梯也可以：stem:[$f(i) = \sum\limits_{j=0}^{n-1}{f(i-nums[j\])}$]。
+
 |===
 
 

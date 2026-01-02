@@ -376,7 +376,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/combination-sum-iv/[377. 组合总和 Ⅳ^]
 |{doc_base_url}/0377-combination-sum-iv.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/rotate-function/[396. 旋转函数^]

@@ -1,7 +1,7 @@
 [#0377-combination-sum-iv]
 = 377. 组合总和 Ⅳ
 
-https://leetcode.cn/problems/combination-sum-iv/[LeetCode - 377. 组合总和 Ⅳ ^]
+https://leetcode.cn/problems/combination-sum-iv/[LeetCode - 377. 组合总和 Ⅳ^]
 
 给你一个由 *不同* 整数组成的数组 `nums` ，和一个目标整数 `target`。请你从 `nums` 中找出并返回总和为 `target` 的元素组合的个数。
 
@@ -46,6 +46,8 @@ https://leetcode.cn/problems/combination-sum-iv/[LeetCode - 377. 组合总和 �
 
 起初，我以为是深度优先遍历或者回溯。要去验证的时候，发现，这是组合问题，没办法加备忘录。看答案，竟然是 <<0000-26-dp-2-unbounded-knapsack>>。
 
+在以往的思维定式中，爬楼梯总是: stem:[f(i)=f(i−1)+f(i−2)]。这道题突破了这个思维定式，爬楼梯也可以：stem:[$f(i) = \sum\limits_{j=0}^{n-1}{f(i-nums[j\])}$]。
+
 [[src-0377]]
 [tabs]
 ====
@@ -58,14 +60,50 @@ include::{sourcedir}/_0377_CombinationSumIv.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0377_CombinationSumIv_2.java[tag=answer]
-// ----
-// --
+[.line-through]#二刷(暴力破解)#::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0377_CombinationSumIv_2a.java[tag=answer]
+----
+--
+
+[.line-through]#二刷(备忘录)#::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0377_CombinationSumIv_2b.java[tag=answer]
+----
+--
+
+二刷(暴力破解)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0377_CombinationSumIv_2c.java[tag=answer]
+----
+--
+
+二刷(备忘录)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0377_CombinationSumIv_2d.java[tag=answer]
+----
+--
+
+二刷(备忘录)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0377_CombinationSumIv_2e.java[tag=answer]
+----
+--
 ====
 
 
