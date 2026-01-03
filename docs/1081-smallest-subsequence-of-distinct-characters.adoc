@@ -1,7 +1,7 @@
 [#1081-smallest-subsequence-of-distinct-characters]
 = 1081. 不同字符的最小子序列
 
-https://leetcode.cn/problems/smallest-subsequence-of-distinct-characters/[LeetCode - 1081. 不同字符的最小子序列 ^]
+https://leetcode.cn/problems/smallest-subsequence-of-distinct-characters/[LeetCode - 1081. 不同字符的最小子序列^]
 
 返回 `s` 字典序最小的子序列，该子序列包含 `s` 的所有不同字符，且只包含一次。
 
@@ -31,6 +31,8 @@ https://leetcode.cn/problems/smallest-subsequence-of-distinct-characters/[LeetCo
 
 该题与 xref:0316-remove-duplicate-letters.adoc[316. Remove Duplicate Letters] 相同，不再赘述。
 
+统计出每个字符的数量，再加上一个是否添加过的标记，使用单调栈，将大的字符弹出，再添加小字符。这样就可以保证小字符尽可能在前面了。
+
 [[src-1081]]
 [tabs]
 ====
@@ -43,17 +45,18 @@ include::{sourcedir}/_1081_SmallestSubsequenceOfDistinctCharacters.java[tag=answ
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_1081_SmallestSubsequenceOfDistinctCharacters_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1081_SmallestSubsequenceOfDistinctCharacters_2.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/smallest-subsequence-of-distinct-characters/solutions/2381500/gen-zhao-wo-guo-yi-bian-shi-li-2ni-jiu-m-2jqm/[1081. 不同字符的最小子序列 - 跟着我过一遍示例 2，你就明白怎么做了^]
+. https://leetcode.cn/problems/smallest-subsequence-of-distinct-characters/solutions/528066/bu-tong-zi-fu-de-zui-xiao-zi-xu-lie-by-l-5qyk/[1081. 不同字符的最小子序列 - 官方题解^]

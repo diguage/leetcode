@@ -141,7 +141,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/smallest-subsequence-of-distinct-characters/[1081. 不同字符的最小子序列^]
 |{doc_base_url}/1081-smallest-subsequence-of-distinct-characters.adoc[题解]
-|❌
+|❌ ✅
 
 |{counter:corrections}
 |{leetcode_base_url}/first-day-where-you-have-been-in-all-the-rooms/[1997. 访问完所有房间的第一天^]
