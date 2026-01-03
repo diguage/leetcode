@@ -15888,12 +15888,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/count-number-of-texts/[2266. Count Number of Texts^]
-//|{source_base_url}/_2266_CountNumberOfTexts.java[Java]
-//|{doc_base_url}/2266-count-number-of-texts.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/count-number-of-texts/[2266. Count Number of Texts^]
+|{source_base_url}/_2266_CountNumberOfTexts.java[Java]
+|{doc_base_url}/2266-count-number-of-texts.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/check-if-there-is-a-valid-parentheses-string-path/[2267.  Check if There Is a Valid Parentheses String Path^]
