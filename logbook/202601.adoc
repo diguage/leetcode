@@ -30,6 +30,11 @@ endif::[]
 |{doc_base_url}/0377-combination-sum-iv.adoc[题解]
 |❌ 动态规划。在以往的思维定式中，爬楼梯总是: stem:[f(i)=f(i−1)+f(i−2)]。这道题突破了这个思维定式，爬楼梯也可以：stem:[$f(i) = \sum\limits_{j=0}^{n-1}{f(i-nums[j\])}$]。
 
+|{counter:codes}
+|{leetcode_base_url}/count-ways-to-build-good-strings/[2466. 统计构造好字符串的方案数^]
+|{doc_base_url}/2466-count-ways-to-build-good-strings.adoc[题解]
+|✅ 动态规划。爬楼梯解法：stem:[$f(i) = f(i−zero) + f(i − one)$]
+
 |===
 
 
