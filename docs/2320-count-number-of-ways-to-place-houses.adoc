@@ -1,7 +1,7 @@
 [#2320-count-number-of-ways-to-place-houses]
 = 2320. 统计放置房子的方式数
 
-https://leetcode.cn/problems/count-number-of-ways-to-place-houses/[LeetCode - 2320. 统计放置房子的方式数 ^]
+https://leetcode.cn/problems/count-number-of-ways-to-place-houses/[LeetCode - 2320. 统计放置房子的方式数^]
 
 一条街道上共有 `n * 2` 个 *地块* ，街道的两侧各有 `n` 个地块。每一边的地块都按从 `1` 到 `n` 编号。每个地块上都可以放置一所房子。
 
@@ -55,17 +55,18 @@ include::{sourcedir}/_2320_CountNumberOfWaysToPlaceHouses.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_2320_CountNumberOfWaysToPlaceHouses_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2320_CountNumberOfWaysToPlaceHouses_2.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
 . https://leetcode.cn/problems/count-number-of-ways-to-place-houses/solutions/1625979/d-by-endlesscheng-gybx/[2320. 统计放置房子的方式数 - 线性 DP^]
+. https://leetcode.cn/problems/count-number-of-ways-to-place-houses/solutions/1629981/xx-by-mcuallen-blgk/[2320. 统计放置房子的方式数 - 题解里多是DP方案，这里贡献一个排列组合思路^]

@@ -236,7 +236,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/count-number-of-ways-to-place-houses/[2320. 统计放置房子的方式数^]
 |{doc_base_url}/2320-count-number-of-ways-to-place-houses.adoc[题解]
-|❌
+|❌ ✅
 
 |{counter:corrections}
 |{leetcode_base_url}/maximum-sum-circular-subarray/[918. 环形子数组的最大和^]

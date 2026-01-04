@@ -7,7 +7,7 @@ public class _2466_CountWaysToBuildGoodStrings {
 
   /**
    * @author D瓜哥 · https://www.diguage.com
-   * @since 2025年09月29日23:03:47
+   * @since 2025-09-29 23:03:47
    */
   public int countGoodStrings(int low, int high, int zero, int one) {
     int[] memo = new int[high + 1];
