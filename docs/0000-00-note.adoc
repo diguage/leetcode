@@ -258,7 +258,10 @@ image::images/quick-sort-01.gif[{image_attr}]
 
 == 参考资料
 
+. https://visualgo.net/zh[通过动画可视化数据结构和算法 - VisuAlgo^]
+. https://oi-wiki.org/[OI Wiki - OI Wiki^] -- 国人维护的最大规模编程竞赛知识站点。
 . https://leetcode.cn/circle/discuss/RvFUtj/[如何科学刷题？ - 按照难度系数刷题^]
+. https://leetcode.cn/discuss/post/3581838/fen-xiang-gun-ti-dan-dong-tai-gui-hua-ru-007o/[分享丨【算法题单】动态规划（入门/背包/划分/状态机/区间/状压/数位/树形/优化）^]
 . https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md[灵茶山艾府·高质量题解精选^]
 . https://www.designgurus.io/course/grokking-the-coding-interview[Grokking the Coding Interview Patterns^]
 . https://leetcode.ca/all/1650.html[Leetcode 1650. Lowest Common Ancestor of a Binary Tree III^] -- 会员题目可以在这里查找。
@@ -278,3 +281,4 @@ image::images/quick-sort-01.gif[{image_attr}]
 . https://bytebytego.com/courses/system-design-interview/foreword[ByteByteGo | System Design Interview^]
 . https://blog.algomaster.io/t/system-design[AlgoMaster Newsletter | System Design^]
 . https://algomaster.io/learn/system-design/what-is-system-design[What Is System Design | AlgoMaster.io^]
+. https://cp-wiki.gabriel-wu.com/tips/[刷题竞赛小贴士^]
