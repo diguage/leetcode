@@ -1,7 +1,7 @@
 [#1997-first-day-where-you-have-been-in-all-the-rooms]
 = 1997. 访问完所有房间的第一天
 
-https://leetcode.cn/problems/first-day-where-you-have-been-in-all-the-rooms/[LeetCode - 1997. 访问完所有房间的第一天 ^]
+https://leetcode.cn/problems/first-day-where-you-have-been-in-all-the-rooms/[LeetCode - 1997. 访问完所有房间的第一天^]
 
 你需要访问 `n` 个房间，房间从 `0` 到 `n - 1` 编号。同时，每一天都有一个日期编号，从 `0` 开始，依天数递增。你每天都会访问一个房间。
 
@@ -57,6 +57,8 @@ https://leetcode.cn/problems/first-day-where-you-have-been-in-all-the-rooms/[Lee
 
 抄的答案，一脸懵逼！
 
+一如既往地一脸懵逼！
+
 [[src-1997]]
 [tabs]
 ====
@@ -69,19 +71,19 @@ include::{sourcedir}/_1997_FirstDayWhereYouHaveBeenInAllTheRooms.java[tag=answer
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_1997_FirstDayWhereYouHaveBeenInAllTheRooms_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1997_FirstDayWhereYouHaveBeenInAllTheRooms_2.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
-. https://leetcode.cn/problems/first-day-where-you-have-been-in-all-the-rooms/solutions/2710218/fang-wen-wan-suo-you-fang-jian-de-di-yi-p7fc2/[1997. 访问完所有房间的第一天 - 官方题解^] -- 一脸懵逼！
 . https://leetcode.cn/problems/first-day-where-you-have-been-in-all-the-rooms/solutions/979221/qian-zhui-he-you-hua-dp-by-endlesscheng-j10b/[1997. 访问完所有房间的第一天 - 前缀和优化 DP^] -- 这个题解更清晰易懂一些。
+. https://leetcode.cn/problems/first-day-where-you-have-been-in-all-the-rooms/solutions/2710218/fang-wen-wan-suo-you-fang-jian-de-di-yi-p7fc2/[1997. 访问完所有房间的第一天 - 官方题解^] -- 一脸懵逼！
 . https://leetcode.cn/problems/first-day-where-you-have-been-in-all-the-rooms/solutions/979575/javascript-dong-tai-gui-hua-by-zw-l-hl6l/[1997. 访问完所有房间的第一天 - 【JavaScript】动态规划^] -- 这个讲解也可以。

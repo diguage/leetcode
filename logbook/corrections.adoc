@@ -146,7 +146,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/first-day-where-you-have-been-in-all-the-rooms/[1997. 访问完所有房间的第一天^]
 |{doc_base_url}/1997-first-day-where-you-have-been-in-all-the-rooms.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/minimum-moves-to-spread-stones-over-grid/[2850. 将石头分散到网格图的最少移动次数^]

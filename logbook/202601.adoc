@@ -45,6 +45,11 @@ endif::[]
 |{doc_base_url}/1081-smallest-subsequence-of-distinct-characters.adoc[题解]
 |✅ 单调栈。统计出每个字符的数量，再加上一个是否添加过的标记，使用单调栈，将大的字符弹出，再添加小字符。这样就可以保证小字符尽可能在前面了。与 {doc_base_url}/0316-remove-duplicate-letters.adoc[316. 去除重复字母] 相同，不再赘述。
 
+|{counter:corrections}
+|{leetcode_base_url}/first-day-where-you-have-been-in-all-the-rooms/[1997. 访问完所有房间的第一天^]
+|{doc_base_url}/1997-first-day-where-you-have-been-in-all-the-rooms.adoc[题解]
+|❌ 动态规划。有点脑筋急转弯！看答案也是一脸懵逼！
+
 |===
 
 
