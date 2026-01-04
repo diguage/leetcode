@@ -659,6 +659,316 @@ endif::[]
 |{doc_base_url}/0881-boats-to-save-people.adoc[题解]
 |❌
 
+|{counter:corrections}
+|{leetcode_base_url}/odd-even-linked-list/[328. Odd Even Linked List]
+|{doc_base_url}/0328-odd-even-linked-list.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/search-in-rotated-sorted-array-ii/[81. 搜索旋转排序数组 II]
+|{doc_base_url}/0081-search-in-rotated-sorted-array-ii.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/find-all-anagrams-in-a-string/[438. 找到字符串中所有字母异位词]
+|{doc_base_url}/0438-find-all-anagrams-in-a-string.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/find-peak-element/[162. Find Peak Element]
+|{doc_base_url}/0162-find-peak-element.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/populating-next-right-pointers-in-each-node-ii/[117. 填充每个节点的下一个右侧节点指针 II]
+|{doc_base_url}/0117-populating-next-right-pointers-in-each-node-ii.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/fraction-to-recurring-decimal/[166. Fraction to Recurring Decimal]
+|{doc_base_url}/0166-fraction-to-recurring-decimal.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/word-search/[79. 单词搜索]
+|{doc_base_url}/0079-word-search.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/wiggle-sort-ii/[324. Wiggle Sort II]
+|{doc_base_url}/0324-wiggle-sort-ii.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/longest-substring-with-at-least-k-repeating-characters/[395. Longest Substring with At Least K Repeating Characters]
+|{doc_base_url}/0395-longest-substring-with-at-least-k-repeating-characters.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/subarrays-with-k-different-integers/[992. Subarrays with K Different Integers]
+|{doc_base_url}/0992-subarrays-with-k-different-integers.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/copy-list-with-random-pointer/[138. 随机链表的复制]
+|{doc_base_url}/0138-copy-list-with-random-pointer.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/house-robber-iii/[337. 打家劫舍 III]
+|{doc_base_url}/0337-house-robber-iii.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/flatten-binary-tree-to-linked-list/[114. 二叉树展开为链表]
+|{doc_base_url}/0114-flatten-binary-tree-to-linked-list.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/word-ladder/[127. Word Ladder]
+|{doc_base_url}/0127-word-ladder.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/sliding-window-maximum/[239. 滑动窗口最大值]
+|{doc_base_url}/0239-sliding-window-maximum.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/best-time-to-buy-and-sell-stock-ii/[122. 买卖股票的最佳时机 II]
+|{doc_base_url}/0122-best-time-to-buy-and-sell-stock-ii.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/two-sum-ii-input-array-is-sorted/[167. 两数之和 II - 输入有序数组]
+|{doc_base_url}/0167-two-sum-ii-input-array-is-sorted.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/power-of-three/[326. Power of Three]
+|{doc_base_url}/0326-power-of-three.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/valid-sudoku/[36. 有效的数独]
+|{doc_base_url}/0036-valid-sudoku.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/happy-number/[202. 快乐数]
+|{doc_base_url}/0202-happy-number.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/course-schedule/[207. 课程表]
+|{doc_base_url}/0207-course-schedule.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/lru-cache/[146. LRU 缓存]
+|{doc_base_url}/0146-lru-cache.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/sqrtx/[69. x 的平方根]
+|{doc_base_url}/0069-sqrtx.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/subarray-sum-equals-k/[560. 和为 K 的子数组]
+|{doc_base_url}/0560-subarray-sum-equals-k.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree/[236. 二叉树的最近公共祖先]
+|{doc_base_url}/0236-lowest-common-ancestor-of-a-binary-tree.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/unique-binary-search-trees/[96. 不同的二叉搜索树]
+|{doc_base_url}/0096-unique-binary-search-trees.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/remove-duplicates-from-sorted-list-ii/[82. 删除排序链表中的重复元素 II]
+|{doc_base_url}/0082-remove-duplicates-from-sorted-list-ii.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/intersection-of-two-arrays-ii/[350. 两个数组的交集 II]
+|{doc_base_url}/0350-intersection-of-two-arrays-ii.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/number-of-1-bits/[191. Number of 1 Bits]
+|{doc_base_url}/0191-number-of-1-bits.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/kth-smallest-element-in-a-bst/[230. 二叉搜索树中第 K 小的元素]
+|{doc_base_url}/0230-kth-smallest-element-in-a-bst.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/kth-smallest-element-in-a-sorted-matrix/[378. 有序矩阵中第 K 小的元素]
+|{doc_base_url}/0378-kth-smallest-element-in-a-sorted-matrix.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/path-sum-iii/[437. 路径总和 III]
+|{doc_base_url}/0437-path-sum-iii.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/gas-station/[134. 加油站]
+|{doc_base_url}/0134-gas-station.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/top-k-frequent-elements/[347. 前 K 个高频元素]
+|{doc_base_url}/0347-top-k-frequent-elements.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/reverse-bits/[190. Reverse Bits]
+|{doc_base_url}/0190-reverse-bits.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/first-unique-character-in-a-string/[387. First Unique Character in a String]
+|{doc_base_url}/0387-first-unique-character-in-a-string.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/climbing-stairs/[70. 爬楼梯]
+|{doc_base_url}/0070-climbing-stairs.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/permutations/[46. 全排列]
+|{doc_base_url}/0046-permutations.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/surrounded-regions/[130. Surrounded Regions]
+|{doc_base_url}/0130-surrounded-regions.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/counting-bits/[338. Counting Bits]
+|{doc_base_url}/0338-counting-bits.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/missing-number/[268. Missing Number]
+|{doc_base_url}/0268-missing-number.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/palindromic-substrings/[647. Palindromic Substrings]
+|{doc_base_url}/0647-palindromic-substrings.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/remove-duplicates-from-sorted-array-ii/[80. 删除有序数组中的重复项 II]
+|{doc_base_url}/0080-remove-duplicates-from-sorted-array-ii.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/permutation-sequence/[60. Permutation Sequence]
+|{doc_base_url}/0060-permutation-sequence.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/divide-two-integers/[29. Divide Two Integers]
+|{doc_base_url}/0029-divide-two-integers.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/task-scheduler/[621. 任务调度器]
+|{doc_base_url}/0621-task-scheduler.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/linked-list-cycle/[141. 环形链表]
+|{doc_base_url}/0141-linked-list-cycle.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/insert-delete-getrandom-o1/[380. Insert Delete GetRandom O(1)]
+|{doc_base_url}/0380-insert-delete-getrandom-o1.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/number-of-islands/[200. 岛屿数量]
+|{doc_base_url}/0200-number-of-islands.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/best-time-to-buy-and-sell-stock/[121. 买卖股票的最佳时机]
+|{doc_base_url}/0121-best-time-to-buy-and-sell-stock.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/shuffle-an-array/[384. Shuffle an Array]
+|{doc_base_url}/0384-shuffle-an-array.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/smallest-value-after-replacing-with-sum-of-prime-factors/[2507. Smallest Value After Replacing With Sum of Prime Factors]
+|{doc_base_url}/2507-smallest-value-after-replacing-with-sum-of-prime-factors.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/maximal-square/[221. 最大正方形]
+|{doc_base_url}/0221-maximal-square.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/best-time-to-buy-and-sell-stock-with-cooldown/[309. Best Time to Buy and Sell Stock with Cooldown]
+|{doc_base_url}/0309-best-time-to-buy-and-sell-stock-with-cooldown.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/intersection-of-two-linked-lists/[160. 相交链表]
+|{doc_base_url}/0160-intersection-of-two-linked-lists.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/length-of-last-word/[58. Length of Last Word]
+|{doc_base_url}/0058-length-of-last-word.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/populating-next-right-pointers-in-each-node/[116. Populating Next Right Pointers in Each Node]
+|{doc_base_url}/0116-populating-next-right-pointers-in-each-node.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/best-time-to-buy-and-sell-stock-iv/[188. Best Time to Buy and Sell Stock IV]
+|{doc_base_url}/0188-best-time-to-buy-and-sell-stock-iv.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/palindrome-partitioning/[131. 分割回文串]
+|{doc_base_url}/0131-palindrome-partitioning.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/integer-break/[343. 整数拆分]
+|{doc_base_url}/0343-integer-break.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/rotate-list/[61. Rotate List]
+|{doc_base_url}/0061-rotate-list.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/basic-calculator-ii/[227. Basic Calculator II]
+|{doc_base_url}/0227-basic-calculator-ii.adoc[题解]
+|❌
+
 |===
 
 截止目前，本轮练习一共完成 {corrections} 道题。
