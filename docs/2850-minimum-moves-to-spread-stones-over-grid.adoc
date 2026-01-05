@@ -1,9 +1,9 @@
 [#2850-minimum-moves-to-spread-stones-over-grid]
 = 2850. 将石头分散到网格图的最少移动次数
 
-https://leetcode.cn/problems/minimum-moves-to-spread-stones-over-grid/[LeetCode - 2850. 将石头分散到网格图的最少移动次数 ^]
+https://leetcode.cn/problems/minimum-moves-to-spread-stones-over-grid/[LeetCode - 2850. 将石头分散到网格图的最少移动次数^]
 
-给你一个大小为 `+3 * 3+` ，下标从 *0* 开始的二维整数矩阵 `grid` ，分别表示每一个格子里石头的数目。网格图中总共恰好有 `9` 个石头，一个格子里可能会有 *多个* 石头。
+给你一个大小为 `3 * 3` ，下标从 *0* 开始的二维整数矩阵 `grid` ，分别表示每一个格子里石头的数目。网格图中总共恰好有 `9` 个石头，一个格子里可能会有 *多个* 石头。
 
 每一次操作中，你可以将一个石头从它当前所在格子移动到一个至少有一条公共边的相邻格子。
 
@@ -42,8 +42,8 @@ image::images/2850-02.svg[{image_attr}]
 
 *提示：*
 
-* `+grid.length == grid[i].length == 3+`
-* `+0 <= grid[i][j] <= 9+`
+* `grid.length == grid[i].length == 3`
+* `0 \<= grid[i][j] \<= 9`
 * `grid` 中元素之和为 `9` 。
 
 
@@ -63,18 +63,20 @@ include::{sourcedir}/_2850_MinimumMovesToSpreadStonesOverGrid.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_2850_MinimumMovesToSpreadStonesOverGrid_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_2850_MinimumMovesToSpreadStonesOverGrid_2.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
 . https://leetcode.cn/problems/minimum-moves-to-spread-stones-over-grid/solutions/2435313/tong-yong-zuo-fa-zui-xiao-fei-yong-zui-d-iuw8/[2850. 将石头分散到网格图的最少移动次数 - 两种方法：枚举全排列 / 最小费用最大流^] -- 讲解比官方题解更易懂。
+. https://leetcode.cn/problems/minimum-moves-to-spread-stones-over-grid/solutions/2850387/python3javacgotypescript-yi-ti-yi-jie-zh-tx29/[2850. 将石头分散到网格图的最少移动次数 - 一题一解：状态压缩动态规划（清晰题解）^] -- 这个解法很新颖！
+. https://leetcode.cn/problems/minimum-moves-to-spread-stones-over-grid/solutions/2850899/yi-ti-san-jie-quan-pai-lie-hui-su-dfsyou-m4h8/[2850. 将石头分散到网格图的最少移动次数 - 【一题三解】全排列 + DFS回溯 + 优化，说明贪心假^]
 

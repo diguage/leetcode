@@ -55,6 +55,11 @@ endif::[]
 |{doc_base_url}/2320-count-number-of-ways-to-place-houses.adoc[题解]
 |✅ 动态规划。先只考虑一边的情况，再组合两边的情况。只考虑一边的情况，就是一个斐波那契数列： stem:[$f(i) = f(i-1) + f(i-2)$]。
 
+|{counter:corrections}
+|{leetcode_base_url}/minimum-moves-to-spread-stones-over-grid/[2850. 将石头分散到网格图的最少移动次数^]
+|{doc_base_url}/2850-minimum-moves-to-spread-stones-over-grid.adoc[题解]
+|❌ 回溯。先找出波峰波谷节点，然后对波峰做全排列，针对每个排列与波谷求移动距离，最后取最小值。
+
 |===
 
 
