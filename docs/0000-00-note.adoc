@@ -30,6 +30,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 * [ ] KMP 算法
 * [ ] 可以使用类库的，却总想自己写代码实现！必然字符串比较！
 * [ ] 在 https://leetcode.cn/problems/search-insert-position/solutions/2023391/er-fen-cha-zhao-zong-shi-xie-bu-dui-yi-g-nq23/[35. 搜索插入位置 - 二分查找总是写不对？一个视频讲透！^] 中，作者说二分查找“在找到 target 就立刻返回”，这种写法适用范围很窄，多思考体会一下。
+* [ ] 对于包含重复元素，使用回溯生成全排列时，如何做剪枝？
 
 == 感慨
 

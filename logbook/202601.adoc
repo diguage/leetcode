@@ -60,6 +60,11 @@ endif::[]
 |{doc_base_url}/2850-minimum-moves-to-spread-stones-over-grid.adoc[题解]
 |❌ 回溯。先找出波峰波谷节点，然后对波峰做全排列，针对每个排列与波谷求移动距离，最后取最小值。
 
+|{counter:corrections}
+|{leetcode_base_url}/substring-with-concatenation-of-all-words/[30. 串联所有单词的子串^]
+|{doc_base_url}/0030-substring-with-concatenation-of-all-words.adoc[题解]
+|❌ 滑动窗口。以为是回溯，但是回溯超时（152/182）。看答案，发现是滑动窗口。定长窗口，每次滑动距离为单词长度。
+
 |===
 
 

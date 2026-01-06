@@ -80,14 +80,23 @@ include::{sourcedir}/_0030_SubstringWithConcatenationOfAllWords.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0030_SubstringWithConcatenationOfAllWords_2.java[tag=answer]
-// ----
-// --
+[.line-through]#二刷#::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0030_SubstringWithConcatenationOfAllWords_2a.java[tag=answer]
+----
+--
+
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0030_SubstringWithConcatenationOfAllWords_2b.java[tag=answer]
+----
+--
 ====
 
 

@@ -156,7 +156,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/substring-with-concatenation-of-all-words/[30. 串联所有单词的子串^]
 |{doc_base_url}/0030-substring-with-concatenation-of-all-words.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/longest-valid-parentheses/[32. 最长有效括号^]
