@@ -161,7 +161,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/longest-valid-parentheses/[32. 最长有效括号^]
 |{doc_base_url}/0032-longest-valid-parentheses.adoc[题解]
-|⭕️ ❌
+|⭕️ ❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/largest-rectangle-in-histogram/[84. 柱状图中最大的矩形^]

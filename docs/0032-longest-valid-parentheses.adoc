@@ -38,6 +38,8 @@ https://leetcode.cn/problems/longest-valid-parentheses/[LeetCode - 32. 最长有
 
 使用栈记录左右括号的下标，做匹配，同时用于标注“占位符”的状态。遍历完成后，统计占位符中的数量，找出最大长度。
 
+TIP: 有一点想不明白，在使用标记数组时，为什么可以直接设置栈顶和当前元素指定下标为 `true`，中间肯定都是 `true` 吗？
+
 官方题解中的栈，除了栈，不需要额外空间，把前置下标放入栈中，用于统计长度，解法非常巧妙。
 
 image::images/0032-10.png[{image_attr}]
@@ -69,6 +71,15 @@ include::{sourcedir}/_0032_LongestValidParentheses_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0032_LongestValidParentheses_21.java[tag=answer]
+----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0032_LongestValidParentheses_3.java[tag=answer]
 ----
 --
 ====

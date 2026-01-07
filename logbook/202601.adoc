@@ -65,6 +65,11 @@ endif::[]
 |{doc_base_url}/0030-substring-with-concatenation-of-all-words.adoc[题解]
 |❌ 滑动窗口。以为是回溯，但是回溯超时（152/182）。看答案，发现是滑动窗口。定长窗口，每次滑动距离为单词长度。
 
+|{counter:corrections}
+|{leetcode_base_url}/longest-valid-parentheses/[32. 最长有效括号^]
+|{doc_base_url}/0032-longest-valid-parentheses.adoc[题解]
+|❌ 栈。也可以用动态规划。有一点想不明白，在使用标记数组时，为什么可以直接设置栈顶和当前元素指定下标为 `true`，中间肯定都是 `true` 吗？
+
 |===
 
 
