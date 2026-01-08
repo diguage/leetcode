@@ -25,7 +25,7 @@ public class _0084_LargestRectangleInHistogram_2 {
         // 弹出的栈顶元素最高
         int height = heights[stack.pop()];
         // 两边(当前栈顶元素，当前遍历元素)都是比它低的
-        // 左边：肯定都是比栈顶元素高；如果有更低的，当前元素早就被弹出了
+        // 左边：已弹出的栈顶元素肯定都是比当前栈顶元素高；如果有更低的，当前元素早就被弹出了
         // 右边：当前遍历元素肯定比最近弹出的栈顶元素低。高的话，直接压栈了。
         int width = i - stack.peek() - 1;
         result = Math.max(result, height * width);

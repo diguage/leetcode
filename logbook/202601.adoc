@@ -70,6 +70,11 @@ endif::[]
 |{doc_base_url}/0032-longest-valid-parentheses.adoc[题解]
 |❌ 栈。也可以用动态规划。有一点想不明白，在使用标记数组时，为什么可以直接设置栈顶和当前元素指定下标为 `true`，中间肯定都是 `true` 吗？
 
+|{counter:corrections}
+|{leetcode_base_url}/largest-rectangle-in-histogram/[84. 柱状图中最大的矩形^]
+|{doc_base_url}/0084-largest-rectangle-in-histogram.adoc[题解]
+|✅ 单调栈。使用单调递增栈，有更高元素就压栈，有低于栈顶的元素，就出栈，计算栈顶元素到当前元素之间的面积。两边加上高度为 `0` 的哨兵，可以极大简化代码。
+
 |===
 
 

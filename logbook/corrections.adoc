@@ -166,7 +166,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/largest-rectangle-in-histogram/[84. 柱状图中最大的矩形^]
 |{doc_base_url}/0084-largest-rectangle-in-histogram.adoc[题解]
-|❌ ⭕️
+|❌ ⭕️ ✅
 
 |{counter:corrections}
 |{leetcode_base_url}/remove-all-adjacent-duplicates-in-string/[1047. 删除字符串中的所有相邻重复项^]
