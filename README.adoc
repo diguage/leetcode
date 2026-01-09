@@ -22328,12 +22328,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/maximum-total-damage-with-spell-casting/[3186. Maximum Total Damage With Spell Casting^]
-//|{source_base_url}/_3186_MaximumTotalDamageWithSpellCasting.java[Java]
-//|{doc_base_url}/3186-maximum-total-damage-with-spell-casting.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/maximum-total-damage-with-spell-casting/[3186. Maximum Total Damage With Spell Casting^]
+|{source_base_url}/_3186_MaximumTotalDamageWithSpellCasting.java[Java]
+|{doc_base_url}/3186-maximum-total-damage-with-spell-casting.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/peaks-in-array/[3187. Peaks in Array^]

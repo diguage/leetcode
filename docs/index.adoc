@@ -6457,7 +6457,7 @@ include::3115-maximum-prime-difference.adoc[leveloffset=+1]
 
 // include::3185-count-pairs-that-form-a-complete-day-ii.adoc[leveloffset=+1]
 
-// include::3186-maximum-total-damage-with-spell-casting.adoc[leveloffset=+1]
+include::3186-maximum-total-damage-with-spell-casting.adoc[leveloffset=+1]
 
 // include::3187-peaks-in-array.adoc[leveloffset=+1]
 

@@ -80,6 +80,11 @@ endif::[]
 |{doc_base_url}/1047-remove-all-adjacent-duplicates-in-string.adoc[题解]
 |✅ 栈。栈为空，则入栈。不空，则比较最后一个字母和当前字母是否相同，相同则弹出，否则就追加。
 
+|{counter:codes}
+|{leetcode_base_url}/maximum-total-damage-with-spell-casting/[3186. 施咒的最大总伤害^]
+|{doc_base_url}/3186-maximum-total-damage-with-spell-casting.adoc[题解]
+|❌ 动态规划。有点绕，需要把原始数组，按照伤害值转化成新的数组，这样就可以在新数组上，使用类似“打家劫舍”的套路来解题了。与“打家劫舍”套路不同的是，这里“选”的时候，前面被选择的项不是一个固定的项，是根据伤害条件选择出来的项。
+
 |===
 
 
