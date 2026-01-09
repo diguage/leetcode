@@ -75,6 +75,11 @@ endif::[]
 |{doc_base_url}/0084-largest-rectangle-in-histogram.adoc[题解]
 |✅ 单调栈。使用单调递增栈，有更高元素就压栈，有低于栈顶的元素，就出栈，计算栈顶元素到当前元素之间的面积。两边加上高度为 `0` 的哨兵，可以极大简化代码。
 
+|{counter:corrections}
+|{leetcode_base_url}/remove-all-adjacent-duplicates-in-string/[1047. 删除字符串中的所有相邻重复项^]
+|{doc_base_url}/1047-remove-all-adjacent-duplicates-in-string.adoc[题解]
+|✅ 栈。栈为空，则入栈。不空，则比较最后一个字母和当前字母是否相同，相同则弹出，否则就追加。
+
 |===
 
 

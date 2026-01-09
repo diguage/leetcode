@@ -171,7 +171,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/remove-all-adjacent-duplicates-in-string/[1047. 删除字符串中的所有相邻重复项^]
 |{doc_base_url}/1047-remove-all-adjacent-duplicates-in-string.adoc[题解]
-|⭕️
+|⭕️ ✅
 
 |{counter:corrections}
 |{leetcode_base_url}/last-stone-weight-ii/[1049. 最后一块石头的重量 II^]
