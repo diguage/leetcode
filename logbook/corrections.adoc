@@ -176,7 +176,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/last-stone-weight-ii/[1049. 最后一块石头的重量 II^]
 |{doc_base_url}/1049-last-stone-weight-ii.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/sudoku-solver/[37. 解数独^]

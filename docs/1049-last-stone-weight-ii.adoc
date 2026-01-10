@@ -1,11 +1,11 @@
 [#1049-last-stone-weight-ii]
 = 1049. 最后一块石头的重量 II
 
-https://leetcode.cn/problems/last-stone-weight-ii/[LeetCode - 1049. 最后一块石头的重量 II ^]
+https://leetcode.cn/problems/last-stone-weight-ii/[LeetCode - 1049. 最后一块石头的重量 II^]
 
 有一堆石头，用整数数组 `stones` 表示。其中 `stones[i]` 表示第 `i` 块石头的重量。
 
-每一回合，从中选出**任意两块石头**，然后将它们一起粉碎。假设石头的重量分别为 `x` 和 `y`，且 `+x <= y+`。那么粉碎的可能结果如下：
+每一回合，从中选出**任意两块石头**，然后将它们一起粉碎。假设石头的重量分别为 `x` 和 `y`，且 `x \<= y`。那么粉碎的可能结果如下：
 
 * 如果 `x == y`，那么两块石头都会被完全粉碎；
 * 如果 `x != y`，那么重量为 `x` 的石头将会完全粉碎，而重量为 `y` 的石头新重量为 `y-x`。
@@ -41,6 +41,8 @@ https://leetcode.cn/problems/last-stone-weight-ii/[LeetCode - 1049. 最后一块
 
 看官方题解也一脸懵逼。
 
+将题目转换成把石头分成两堆，求两堆重量的最小差值。那么，最小差值，就是两堆重量相等。那么，题目就转换成在一堆石头中选择一些石头让其重量尽可能达到总重量的一半。题目结果就是总重量减去二倍的选择石头最大可能拼凑出来的重量。这就是 0/1 背包问题了。
+
 [[src-1049]]
 [tabs]
 ====
@@ -53,19 +55,20 @@ include::{sourcedir}/_1049_LastStoneWeightIi.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_1049_LastStoneWeightIi_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1049_LastStoneWeightIi_2.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
+. https://leetcode.cn/problems/last-stone-weight-ii/solutions/805162/yi-pian-wen-zhang-chi-tou-bei-bao-wen-ti-5lfv/[1049. 最后一块石头的重量 II - 一篇文章吃透背包问题！（细致引入+解题模板+例题分析+代码呈现）^]
 . https://leetcode.cn/problems/last-stone-weight-ii/solutions/817930/zui-hou-yi-kuai-shi-tou-de-zhong-liang-i-95p9/[1049. 最后一块石头的重量 II - 官方题解^]
 . https://leetcode.cn/problems/last-stone-weight-ii/solutions/818362/gong-shui-san-xie-xiang-jie-wei-he-neng-jgxik/[1049. 最后一块石头的重量 II - 详解为何能转换为背包问题^] -- 另一个解题实路。
 
