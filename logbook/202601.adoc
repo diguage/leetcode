@@ -90,6 +90,11 @@ endif::[]
 |{doc_base_url}/1049-last-stone-weight-ii.adoc[题解]
 |❌ 动态规划。将题目转换成把石头分成两堆，求两堆重量的最小差值。那么，最小差值，就是两堆重量相等。那么，题目就转换成在一堆石头中选择一些石头让其重量尽可能达到总重量的一半。题目结果就是总重量减去二倍的选择石头最大可能拼凑出来的重量。这就是 0/1 背包问题了。
 
+|{counter:corrections}
+|{leetcode_base_url}/sudoku-solver/[37. 解数独^]
+|{doc_base_url}/0037-sudoku-solver.adoc[题解]
+|⭕️ 回溯。有思路，没写出来。看来回溯还是得多练啊！
+
 |===
 
 

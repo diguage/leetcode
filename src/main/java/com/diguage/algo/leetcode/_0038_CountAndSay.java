@@ -48,6 +48,9 @@ public class _0038_CountAndSay {
      * Runtime: 3 ms, faster than 40.24% of Java online submissions for Count and Say.
      *
      * Memory Usage: 40.9 MB, less than 5.26% of Java online submissions for Count and Say.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-17 23:16
      */
     public String countAndSay(int n) {
         String result = "1";

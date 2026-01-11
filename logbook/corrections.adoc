@@ -181,7 +181,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/sudoku-solver/[37. 解数独^]
 |{doc_base_url}/0037-sudoku-solver.adoc[题解]
-|⭕️ ✅
+|⭕️ ✅ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/basic-calculator/[224. 基本计算器^]

@@ -1,7 +1,7 @@
 [#0037-sudoku-solver]
 = 37. 解数独
 
-https://leetcode.cn/problems/sudoku-solver/[LeetCode - 37. 解数独 ^]
+https://leetcode.cn/problems/sudoku-solver/[LeetCode - 37. 解数独^]
 
 编写一个程序，通过填充空格来解决数独问题。
 
@@ -123,6 +123,15 @@ include::{sourcedir}/_0037_SudokuSolver_3.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0037_SudokuSolver_4.java[tag=answer]
+----
+--
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0037_SudokuSolver_5.java[tag=answer]
 ----
 --
 ====
