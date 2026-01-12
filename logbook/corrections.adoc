@@ -186,7 +186,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/basic-calculator/[224. 基本计算器^]
 |{doc_base_url}/0224-basic-calculator.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/single-number-iii/[260. 只出现一次的数字 III^]

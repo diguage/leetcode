@@ -1,7 +1,7 @@
 [#0224-basic-calculator]
 = 224. 基本计算器
 
-https://leetcode.cn/problems/basic-calculator/[LeetCode - 224. 基本计算器 ^]
+https://leetcode.cn/problems/basic-calculator/[LeetCode - 224. 基本计算器^]
 
 给你一个字符串表达式 `s` ，请你实现一个基本计算器来计算并返回它的值。
 
@@ -44,6 +44,8 @@ https://leetcode.cn/problems/basic-calculator/[LeetCode - 224. 基本计算器 ^
 
 使用双栈来分别存数字和操作符。
 
+官方题解的思路将括号展开。代码非常简洁，整体思路还要再思路一下。
+
 image::images/0224-10.jpeg[{image_attr}]
 
 [[src-0224]]
@@ -58,19 +60,19 @@ include::{sourcedir}/_0224_BasicCalculator.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0224_BasicCalculator_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0224_BasicCalculator_2.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
+. https://leetcode.cn/problems/basic-calculator/solutions/646369/ji-ben-ji-suan-qi-by-leetcode-solution-jvir/[224. 基本计算器 - 官方题解^] -- 还是官方题解的思路更简单！
 . https://leetcode.cn/problems/basic-calculator/solutions/646865/shuang-zhan-jie-jue-tong-yong-biao-da-sh-olym/[224. 基本计算器 - 【进阶补充】双栈解决通用「表达式计算」问题^]
-. https://leetcode.cn/problems/basic-calculator/solutions/646369/ji-ben-ji-suan-qi-by-leetcode-solution-jvir/[224. 基本计算器 - 官方题解^]
 . https://leetcode.cn/problems/basic-calculator/solutions/646800/ru-he-xiang-dao-yong-zhan-si-lu-lai-zi-y-gpca/[224. 基本计算器 - 如何想到用「栈」？思路来自于递归^]

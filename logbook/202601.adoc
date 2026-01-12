@@ -95,6 +95,11 @@ endif::[]
 |{doc_base_url}/0037-sudoku-solver.adoc[题解]
 |⭕️ 回溯。有思路，没写出来。看来回溯还是得多练啊！
 
+|{counter:corrections}
+|{leetcode_base_url}/basic-calculator/[224. 基本计算器^]
+|{doc_base_url}/0224-basic-calculator.adoc[题解]
+|❌ 栈。官方题解的思路将括号展开。代码非常简洁，整体思路还要再思路一下。
+
 |===
 
 
