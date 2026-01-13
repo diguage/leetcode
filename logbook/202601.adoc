@@ -100,6 +100,11 @@ endif::[]
 |{doc_base_url}/0224-basic-calculator.adoc[题解]
 |❌ 栈。官方题解的思路将括号展开。代码非常简洁，整体思路还要再思路一下。
 
+|{counter:corrections}
+|{leetcode_base_url}/single-number-ii/[137. 只出现一次的数字 II^]
+|{doc_base_url}/0137-single-number-ii.adoc[题解]
+|❌ 位运算。每个数字的每位相加，除以 `3`，余数即为唯一数。从二进制转换成十进制，可以通过“移位”+“相或”来完成。
+
 |===
 
 

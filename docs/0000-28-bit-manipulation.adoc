@@ -23,6 +23,12 @@ image::images/0481-18.png[{image_attr}]
 
 xref:0136-single-number.adoc[136. 只出现一次的数字]
 
+=== 二进制转换成十进制
+
+从二进制转换成十进制，可以通过“移位”+“相或”来完成。
+
+xref:0137-single-number-ii.adoc[137. 只出现一次的数字 II]
+
 === 乘法原理
 
 . xref:2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.adoc[2316. Count Unreachable Pairs of Nodes in an Undirected Graph]

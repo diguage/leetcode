@@ -1,7 +1,7 @@
 [#0137-single-number-ii]
 = 137. 只出现一次的数字 II
 
-https://leetcode.cn/problems/single-number-ii/[LeetCode - 137. 只出现一次的数字 II ^]
+https://leetcode.cn/problems/single-number-ii/[LeetCode - 137. 只出现一次的数字 II^]
 
 给你一个整数数组 `nums` ，除某个元素仅出现 *一次* 外，其余每个元素都恰出现 **三次**。请你找出并返回那个只出现了一次的元素。
 
@@ -33,6 +33,8 @@ https://leetcode.cn/problems/single-number-ii/[LeetCode - 137. 只出现一次�
 
 由于除了唯一数外，其余数字都出现了三次，那么将每个数字的每位相加，除以 `3`，余数即为唯一数。
 
+从二进制转换成十进制，可以通过“移位”+“相或”来完成。
+
 image::images/0137-01.png[{image_attr}]
 
 image::images/0137-10.png[{image_attr}]
@@ -61,6 +63,15 @@ include::{sourcedir}/_0137_SingleNumberII.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0137_SingleNumberIi_2.java[tag=answer]
+----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0137_SingleNumberIi_3.java[tag=answer]
 ----
 --
 ====
