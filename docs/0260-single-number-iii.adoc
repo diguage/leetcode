@@ -1,7 +1,7 @@
 [#0260-single-number-iii]
 = 260. 只出现一次的数字 III
 
-https://leetcode.cn/problems/single-number-iii/[LeetCode - 260. 只出现一次的数字 III ^]
+https://leetcode.cn/problems/single-number-iii/[LeetCode - 260. 只出现一次的数字 III^]
 
 给你一个整数数组 `nums`，其中恰好有两个元素只出现一次，其余所有元素均出现两次。找出只出现一次的那两个元素。你可以按 *任意顺序* 返回答案。
 
@@ -55,14 +55,14 @@ include::{sourcedir}/_0260_SingleNumberIii.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0260_SingleNumberIii_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0260_SingleNumberIii_2.java[tag=answer]
+----
+--
 ====
 
 

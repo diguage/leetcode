@@ -23,6 +23,19 @@ image::images/0481-18.png[{image_attr}]
 
 xref:0136-single-number.adoc[136. 只出现一次的数字]
 
+=== 二进制最低位的 `1`
+
+stem:[lowbit = num & -num]
+
+----
+     s = 101100
+    ~s = 010011
+(~s)+1 = 010100 // 根据补码的定义，这就是 -s   效果：s 的最低 1 左侧取反，右侧不变
+s & -s = 000100 // lowbit
+----
+
+https://leetcode.cn/problems/single-number-iii/solutions/2484352/tu-jie-yi-zhang-tu-miao-dong-zhuan-huan-np9d2/[260. 只出现一次的数字 III - 【图解】一张图秒懂！转换成 136！^]
+
 === 二进制转换成十进制
 
 从二进制转换成十进制，可以通过“移位”+“相或”来完成。
