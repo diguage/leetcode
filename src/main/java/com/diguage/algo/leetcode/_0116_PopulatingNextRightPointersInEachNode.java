@@ -55,6 +55,9 @@ public class _0116_PopulatingNextRightPointersInEachNode {
      * Memory Usage: 48.3 MB, less than 6.35% of Java online submissions for Populating Next Right Pointers in Each Node.
      *
      * Copy from: https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--27/[详细通俗的思路分析，多解法 - 填充每个节点的下一个右侧节点指针 - 力扣（LeetCode）]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-24 23:06
      */
     public Node connect(Node root) {
         if (Objects.isNull(root)) {

@@ -201,7 +201,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/distinct-subsequences/[115. 不同的子序列^]
 |{doc_base_url}/0115-distinct-subsequences.adoc[题解]
-|❌
+|❌ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/number-of-good-leaf-nodes-pairs/[1530. 好叶子节点对的数量^]

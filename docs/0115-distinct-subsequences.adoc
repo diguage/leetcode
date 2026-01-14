@@ -1,7 +1,7 @@
 [#0115-distinct-subsequences]
 = 115. 不同的子序列
 
-https://leetcode.cn/problems/distinct-subsequences/[LeetCode - 115. 不同的子序列 ^]
+https://leetcode.cn/problems/distinct-subsequences/[LeetCode - 115. 不同的子序列^]
 
 给你两个字符串 `s` ** 和 `t` ，统计并返回在 `s` 的 *子序列* 中 `t` 出现的个数。
 
@@ -73,14 +73,14 @@ include::{sourcedir}/_0115_DistinctSubsequences_1.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0115_DistinctSubsequences_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0115_DistinctSubsequences_2.java[tag=answer]
+----
+--
 ====
 
 
