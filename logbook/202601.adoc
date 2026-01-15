@@ -115,6 +115,11 @@ endif::[]
 |{doc_base_url}/0115-distinct-subsequences.adoc[题解]
 |⭕️ 动态规划。看到动态规划的提示，用矩阵模拟“凑数”给凑出来的解法。
 
+|{counter:corrections}
+|{leetcode_base_url}/number-of-good-leaf-nodes-pairs/[1530. 好叶子节点对的数量^]
+|{doc_base_url}/1530-number-of-good-leaf-nodes-pairs.adoc[题解]
+|✅ 深度优先遍历。需要记录符合“好叶子节点”的数量。无需记录所有路径，只需要记录符合要求的路径的数量即可。
+
 |===
 
 

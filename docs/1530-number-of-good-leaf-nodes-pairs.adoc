@@ -1,7 +1,7 @@
 [#1530-number-of-good-leaf-nodes-pairs]
 = 1530. 好叶子节点对的数量
 
-https://leetcode.cn/problems/number-of-good-leaf-nodes-pairs/[LeetCode - 1530. 好叶子节点对的数量 ^]
+https://leetcode.cn/problems/number-of-good-leaf-nodes-pairs/[LeetCode - 1530. 好叶子节点对的数量^]
 
 给你二叉树的根节点 `root` 和一个整数 `distance` 。
 
@@ -52,7 +52,6 @@ image::images/1530-02.jpg[{image_attr}]
 输出：1
 ....
 
-
 *提示：*
 
 * `tree` 的节点数在 `[1, 2^10^]` 范围内。
@@ -62,7 +61,7 @@ image::images/1530-02.jpg[{image_attr}]
 
 == 思路分析
 
-深度优先遍历
+深度优先遍历：后根遍历，需要记录符合“好叶子节点”的数量。无需记录所有路径，只需要记录符合要求的路径的数量即可。
 
 [[src-1530]]
 [tabs]
@@ -76,17 +75,18 @@ include::{sourcedir}/_1530_NumberOfGoodLeafNodesPairs.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_1530_NumberOfGoodLeafNodesPairs_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1530_NumberOfGoodLeafNodesPairs_2.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/number-of-good-leaf-nodes-pairs/solutions/357905/hao-xie-zi-jie-dian-dui-de-shu-liang-by-leetcode-s/[1530. 好叶子节点对的数量 - 官方题解^]
+. https://leetcode.cn/problems/number-of-good-leaf-nodes-pairs/solutions/347315/good-leaf-nodes-pairs-by-ikaruga/[1530. 好叶子节点对的数量 - 后序遍历^]
