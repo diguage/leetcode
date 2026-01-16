@@ -211,7 +211,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/remove-zero-sum-consecutive-nodes-from-linked-list/[1171. 从链表中删去总和值为零的连续节点^]
 |{doc_base_url}/1171-remove-zero-sum-consecutive-nodes-from-linked-list.adoc[题解]
-|❌
+|❌ ✅
 
 |{counter:corrections}
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-iii/[123. 买卖股票的最佳时机 III^]

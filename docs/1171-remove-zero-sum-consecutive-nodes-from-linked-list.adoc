@@ -1,7 +1,7 @@
 [#1171-remove-zero-sum-consecutive-nodes-from-linked-list]
 = 1171. 从链表中删去总和值为零的连续节点
 
-https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list/[LeetCode - 1171. 从链表中删去总和值为零的连续节点 ^]
+https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list/[LeetCode - 1171. 从链表中删去总和值为零的连续节点^]
 
 给你一个链表的头节点 `head`，请你编写代码，反复删去链表中由 *总和* 值为 `0` 的连续节点组成的序列，直到不存在这样的序列为止。
 
@@ -44,6 +44,8 @@ https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list/
 
 想到了前缀和，但是没想到可以利用中间和为 `0`，直接跳过这部分节点。
 
+前缀和：计算前缀和，并保存到 `Map` 中，如果出现了相同的前缀和，证明中间一段的值相加为 `0`，去掉中间一段即可。
+
 image::images/1171-10.jpg[{image_attr}]
 
 image::images/1171-11.jpg[{image_attr}]
@@ -65,14 +67,14 @@ include::{sourcedir}/_1171_RemoveZeroSumConsecutiveNodesFromLinkedList.java[tag=
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_1171_RemoveZeroSumConsecutiveNodesFromLinkedList_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1171_RemoveZeroSumConsecutiveNodesFromLinkedList_2.java[tag=answer]
+----
+--
 ====
 
 

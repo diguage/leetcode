@@ -120,6 +120,11 @@ endif::[]
 |{doc_base_url}/1530-number-of-good-leaf-nodes-pairs.adoc[题解]
 |✅ 深度优先遍历。需要记录符合“好叶子节点”的数量。无需记录所有路径，只需要记录符合要求的路径的数量即可。
 
+|{counter:corrections}
+|{leetcode_base_url}/remove-zero-sum-consecutive-nodes-from-linked-list/[1171. 从链表中删去总和值为零的连续节点^]
+|{doc_base_url}/1171-remove-zero-sum-consecutive-nodes-from-linked-list.adoc[题解]
+|✅ 前缀和。计算前缀和，并保存到 `Map` 中，如果出现了相同的前缀和，证明中间一段的值相加为 `0`，去掉中间一段即可。
+
 |===
 
 
