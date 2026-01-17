@@ -6,48 +6,38 @@ import com.diguage.util.ListNodes;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 public class _1171_RemoveZeroSumConsecutiveNodesFromLinkedList_2 {
   // tag::answer[]
   /**
+   * 优化，再优化
+   *
    * @author D瓜哥 · https://www.diguage.com
-   * @since 2026-01-16 21:02:36
+   * @since 2026.01.17 14:21
    */
   public ListNode removeZeroSumSublists(ListNode head) {
     Map<Integer, ListNode> sumToNode = new HashMap<>();
     ListNode dummy = new ListNode(0);
     dummy.next = head;
-    ListNode pre = dummy;
+    sumToNode.put(0, dummy);
     ListNode curr = head;
-    while (Objects.nonNull(curr)) {
-      if (0 == curr.val) {
-        pre.next = curr.next;
-      } else {
-        pre = curr;
-      }
-      curr = curr.next;
-    }
     int sum = 0;
-    curr = dummy;
     while (curr != null) {
       sum += curr.val;
       if (sumToNode.containsKey(sum)) {
         ListNode node = sumToNode.get(sum);
+        ListNode delete = node.next;
+        node.next = curr.next;
         int dSum = sum;
-        while (node.next != curr.next) {
-          ListNode delete = node.next;
+        while (delete != curr) {
           dSum += delete.val;
-          if (dSum != sum) {
-            sumToNode.remove(dSum);
-          }
-          node.next = delete.next;
+          sumToNode.remove(dSum);
+          delete = delete.next;
         }
-        curr = node.next;
       } else {
         sumToNode.put(sum, curr);
-        curr = curr.next;
       }
+      curr = curr.next;
     }
     return dummy.next;
   }
@@ -55,7 +45,7 @@ public class _1171_RemoveZeroSumConsecutiveNodesFromLinkedList_2 {
   // end::answer[]
   static void main() {
     new _1171_RemoveZeroSumConsecutiveNodesFromLinkedList_2()
-      .removeZeroSumSublists(ListNodes.build(Arrays.asList(2, 2, -2, 1, -1, -1)));
-//      .removeZeroSumSublists(ListNodes.build(Arrays.asList(0, 0)));
+//      .removeZeroSumSublists(ListNodes.build(Arrays.asList(2, 2, -2, 1, -1, -1)));
+      .removeZeroSumSublists(ListNodes.build(Arrays.asList(0, 0)));
   }
 }
