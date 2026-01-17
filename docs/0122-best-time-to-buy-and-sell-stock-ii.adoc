@@ -2,7 +2,7 @@
 [#0122-best-time-to-buy-and-sell-stock-ii]
 = 122. 买卖股票的最佳时机 II
 
-https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/[LeetCode - 122. 买卖股票的最佳时机 II ^]
+https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/[LeetCode - 122. 买卖股票的最佳时机 II^]
 
 给你一个整数数组 `prices` ，其中 `prices[i]` 表示某支股票第 `i` 天的价格。
 
@@ -48,7 +48,7 @@ https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/[LeetCode - 122.
 == 思路分析
 
 
-针对 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^] 这个解题框架，进行小试牛刀。
+针对 https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/solutions/8610/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^] 这个解题框架，进行小试牛刀。
 
 image::images/0122-01.png[{image_attr}]
 
@@ -65,6 +65,30 @@ image::images/0122-06.png[{image_attr}]
 image::images/0122-07.png[{image_attr}]
 
 image::images/0122-08.png[{image_attr}]
+
+
+=== 动态规划的思路
+
+image::images/0122-19.png[{image_attr}]
+
+在第 `i` 天，有“满仓” stem:[dfs(i, 1)] 和“空仓” stem:[dfs(i, 0)] 两个状态：
+
+. 如果是满仓，有两种可能：
+.. 从 `i-1` 天“继承”过来： stem:[dfs(i-1, 1)]
+.. 在 `i-1` 天“空仓”，在当天买入： stem:[dfs(i-1, 0) - prices[i\]]
+. 如果是空仓，有两种可能：
+.. 从 `i-1` 天“继承”过来： stem:[dfs(i-1, 0)]
+.. 在 `i-1` 天“空仓”，在当天买入： stem:[dfs(i-1, 1) + prices[i\]]
+
+综上，得出：
+
+. “满仓” : stem:[dfs(i, 1) = math(dfs(i-1, 1), dfs(i-1, 0) - prices[i\])]
+. “空仓”： stem:[dfs(i, 0) = math(dfs(i-1, 0), dfs(i-1, 1) + prices[i\])]
+
+那么，“满仓” stem:[dfs(i, 1)] 和“空仓” stem:[dfs(i, 0)]，哪个符合条件呢？正常情况下，肯定是“空仓” stem:[dfs(i, 0)] 的利润最高。
+
+还有一个问题：起点在哪里？如果是“满仓”，有可能前一个股票价格是无穷大，所以，取 `Integer.MIN_VALUE`；如果是“空仓”，没有买卖，那么利润就是 `0`。
+
 
 [[src-0122]]
 [tabs]
@@ -95,6 +119,33 @@ include::{sourcedir}/_0122_BestTimeToBuyAndSellStockII_2.java[tag=answer]
 include::{sourcedir}/_0122_BestTimeToBuyAndSellStockIi_3.java[tag=answer]
 ----
 --
+
+四刷(暴力破解)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0122_BestTimeToBuyAndSellStockIi_4a.java[tag=answer]
+----
+--
+
+四刷(备忘录)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0122_BestTimeToBuyAndSellStockIi_4b.java[tag=answer]
+----
+--
+
+四刷(动态规划)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0122_BestTimeToBuyAndSellStockIi_4c.java[tag=answer]
+----
+--
 ====
 
 
@@ -103,6 +154,6 @@ include::{sourcedir}/_0122_BestTimeToBuyAndSellStockIi_3.java[tag=answer]
 . https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/solutions/8610/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[309. 买卖股票的最佳时机含冷冻期 - 一个方法团灭 6 道股票问题^]
 . https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/solutions/31589/dong-tai-gui-hua-shen-ru-fen-xi-by-wang-yan-19/[309. 买卖股票的最佳时机含冷冻期 - 动态规划深入分析^]
 . https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/solutions/12625/best-time-to-buy-and-sell-stock-ii-zhuan-hua-fa-ji/?envType=study-plan-v2&envId=selected-coding-interview[122. 买卖股票的最佳时机 II - 贪心，清晰图解^]
-. https://leetcode.cn/circle/discuss/qiAgHn/[分享｜股票问题系列通解（转载翻译）^]
+. https://leetcode.cn/discuss/post/384737/gu-piao-wen-ti-xi-lie-tong-jie-zhuan-zai-fan-yi-by/[分享｜股票问题系列通解（转载翻译）^]
 
 

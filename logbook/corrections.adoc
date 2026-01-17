@@ -737,7 +737,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-ii/[122. 买卖股票的最佳时机 II]
 |{doc_base_url}/0122-best-time-to-buy-and-sell-stock-ii.adoc[题解]
-|❌
+|❌ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/two-sum-ii-input-array-is-sorted/[167. 两数之和 II - 输入有序数组]
