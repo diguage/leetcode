@@ -130,6 +130,11 @@ endif::[]
 |{doc_base_url}/0122-best-time-to-buy-and-sell-stock-ii.adoc[题解]
 |⭕️ 动态规划。这道题更好的解法是贪心算法。这次从动态规划的角度去看这个问题：“满仓”是继承或者买入；空仓则是继承或者卖出。
 
+|{counter:corrections}
+|{leetcode_base_url}/best-time-to-buy-and-sell-stock-iii/[123. 买卖股票的最佳时机 III^]
+|{doc_base_url}/0123-best-time-to-buy-and-sell-stock-iii.adoc[题解]
+|⭕️ 动态规划。在 {doc_base_url}/0122-best-time-to-buy-and-sell-stock-ii.adoc[题解] 的基础上，增加了交易次数限制。思路懂了，边界条件总是不对。还要再思考。
+
 |===
 
 

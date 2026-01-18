@@ -216,7 +216,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-iii/[123. 买卖股票的最佳时机 III^]
 |{doc_base_url}/0123-best-time-to-buy-and-sell-stock-iii.adoc[题解]
-|❌
+|❌ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/cheapest-flights-within-k-stops/[787. K 站中转内最便宜的航班^]

@@ -1,9 +1,9 @@
 [#0123-best-time-to-buy-and-sell-stock-iii]
 = 123. 买卖股票的最佳时机 III
 
-https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/[LeetCode - 123. 买卖股票的最佳时机 III ^]
+https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/[LeetCode - 123. 买卖股票的最佳时机 III^]
 
-给定一个数组，它的第 __`i` 个元素是一支给定的股票在第 `i`__ 天的价格。
+给定一个数组，它的第 __``i`` 个元素是一支给定的股票在第 ``i``__ 天的价格。
 
 设计一个算法来计算你所能获取的最大利润。你最多可以完成 **两笔 **交易。
 
@@ -51,9 +51,13 @@ https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/[LeetCode - 123
 
 == 思路分析
 
-针对 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^] 这个解题框架，进行小试牛刀。
+针对 https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/solutions/8610/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/[一个方法团灭 6 道股票问题 - 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）^] 这个解题框架，进行小试牛刀。
 
 image::images/0123-1.png[{image_attr}]
+
+image::images/0123-11.png[{image_attr}]
+
+TIP: 经过试验，将交易分成两步来计算，代码无法通过全部测试用例。只需要在买入或者卖出更新交易次数即可。
 
 思考题：将表格改成变量时，还需要再思考思考。
 
@@ -75,6 +79,33 @@ include::{sourcedir}/_0123_BestTimeToBuyAndSellStockIII.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0123_BestTimeToBuyAndSellStockIii_2.java[tag=answer]
+----
+--
+
+三刷(暴力破解)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0123_BestTimeToBuyAndSellStockIii_3a.java[tag=answer]
+----
+--
+
+三刷(备忘录)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0123_BestTimeToBuyAndSellStockIii_3b.java[tag=answer]
+----
+--
+
+三刷(动态规划)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0123_BestTimeToBuyAndSellStockIii_3c.java[tag=answer]
 ----
 --
 ====
