@@ -98,6 +98,15 @@ include::{sourcedir}/_0787_CheapestFlightsWithinKStops_11.java[tag=answer]
 include::{sourcedir}/_0787_CheapestFlightsWithinKStops_2a.java[tag=answer]
 ----
 --
+
+#二刷(动态规划)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0787_CheapestFlightsWithinKStops_2c.java[tag=answer]
+----
+--
 ====
 
 == 参考资料

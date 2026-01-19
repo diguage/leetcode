@@ -21,6 +21,7 @@ public class _0787_CheapestFlightsWithinKStops_2a {
       srcToDst.computeIfAbsent(s, _ -> new ArrayList<>(n)).add(new int[]{d, p});
       dstToSrc.computeIfAbsent(d, _ -> new ArrayList<>(n)).add(new int[]{s, p});
     }
+    // 题目理解错了：最多经过 k 站中转
     Map<Integer, Integer> prices = dfs(srcToDst, dstToSrc, src, Set.of(dst), k + 1);
     return prices.isEmpty() ? -1 : prices.values().stream().min(Integer::compareTo).get();
   }

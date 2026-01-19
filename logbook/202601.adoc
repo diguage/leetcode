@@ -138,7 +138,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/cheapest-flights-within-k-stops/[787. K 站中转内最便宜的航班^]
 |{doc_base_url}/0787-cheapest-flights-within-k-stops.adoc[题解]
-|⭕ 深度优先遍历。动态规划的题目，先用深度优先遍历暴力破解一下。但是，
+|⭕ 深度优先遍历。动态规划的题目，先用深度优先遍历暴力破解一下。题目理解错了：是最多经过 k 站中转。
 
 |===
 
