@@ -1,7 +1,7 @@
 [#0787-cheapest-flights-within-k-stops]
 = 787. K 站中转内最便宜的航班
 
-https://leetcode.cn/problems/cheapest-flights-within-k-stops/[LeetCode - 787. K 站中转内最便宜的航班 ^]
+https://leetcode.cn/problems/cheapest-flights-within-k-stops/[LeetCode - 787. K 站中转内最便宜的航班^]
 
 有 `n` 个城市通过一些航班连接。给你一个数组 `flights`，其中 `flights[i] = [from~i~, to~i~, price~i~]`，表示该航班都从城市 `from~i~ 开始，以价格 `price~i~ 抵达 `to~i~。
 
@@ -47,14 +47,14 @@ image::images/0787-03.png[{image_attr}]
 
 *提示：*
 
-* `+1 <= n <= 100+`
-* `+0 <= flights.length <= (n * (n - 1) / 2)+`
+* `1 \<= n \<= 100`
+* `0 \<= flights.length \<= (n * (n - 1) / 2)`
 * `flights[i].length == 3`
 * `0 \<= from~i~, to~i~ < n`
 * `from~i~ != to~i~`
 * `1 \<= price~i~ \<= 10^4^`
 * 航班没有重复，且不存在自环
-* `+0 <= src, dst, k < n+`
+* `0 \<= src, dst, k \< n`
 * `src != dst`
 
 
@@ -90,14 +90,14 @@ include::{sourcedir}/_0787_CheapestFlightsWithinKStops_11.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0787_CheapestFlightsWithinKStops_2.java[tag=answer]
-// ----
-// --
+[.line-through]#二刷(暴力破解)#::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0787_CheapestFlightsWithinKStops_2a.java[tag=answer]
+----
+--
 ====
 
 == 参考资料

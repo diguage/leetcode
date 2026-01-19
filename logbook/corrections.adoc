@@ -221,7 +221,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/cheapest-flights-within-k-stops/[787. K 站中转内最便宜的航班^]
 |{doc_base_url}/0787-cheapest-flights-within-k-stops.adoc[题解]
-|⭕️
+|⭕️ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/longest-increasing-subsequence/[300. 最长递增子序列^]
