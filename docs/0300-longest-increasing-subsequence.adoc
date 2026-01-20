@@ -1,7 +1,7 @@
 [#0300-longest-increasing-subsequence]
 = 300. 最长递增子序列
 
-https://leetcode.cn/problems/longest-increasing-subsequence/[LeetCode - 300. 最长递增子序列 ^]
+https://leetcode.cn/problems/longest-increasing-subsequence/[LeetCode - 300. 最长递增子序列^]
 
 给你一个整数数组 `nums` ，找到其中最长严格递增子序列的长度。
 
@@ -76,6 +76,33 @@ include::{sourcedir}/_0300_LongestIncreasingSubsequence_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0300_LongestIncreasingSubsequence_3.java[tag=answer]
+----
+--
+
+四刷(暴力破解)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0300_LongestIncreasingSubsequence_4a.java[tag=answer]
+----
+--
+
+四刷(备忘录)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0300_LongestIncreasingSubsequence_4b.java[tag=answer]
+----
+--
+
+四刷(动态规划)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0300_LongestIncreasingSubsequence_4c.java[tag=answer]
 ----
 --
 ====

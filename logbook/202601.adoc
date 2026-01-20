@@ -140,6 +140,11 @@ endif::[]
 |{doc_base_url}/0787-cheapest-flights-within-k-stops.adoc[题解]
 |⭕ 深度优先遍历。动态规划的题目，先用深度优先遍历暴力破解一下。题目理解错了：是最多经过 k 站中转。
 
+|{counter:corrections}
+|{leetcode_base_url}/longest-increasing-subsequence/[300. 最长递增子序列^]
+|{doc_base_url}/0300-longest-increasing-subsequence.adoc[题解]
+|❌ 动态规划。将每个值跟前面所有值相比，当比其大时，在其之上加一。动态规划总想直接从一个值中获取，没想到还需要遍历。
+
 |===
 
 

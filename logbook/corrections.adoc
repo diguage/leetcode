@@ -226,7 +226,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/longest-increasing-subsequence/[300. 最长递增子序列^]
 |{doc_base_url}/0300-longest-increasing-subsequence.adoc[题解]
-|❌ ⭕️
+|❌ ⭕️ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/shortest-string-that-contains-three-strings/[2800. 包含三个字符串的最短字符串^]
