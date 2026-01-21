@@ -1,7 +1,7 @@
 [#1143-longest-common-subsequence]
 = 1143. 最长公共子序列
 
-https://leetcode.cn/problems/longest-common-subsequence/[LeetCode - 1143. 最长公共子序列 ^]
+https://leetcode.cn/problems/longest-common-subsequence/[LeetCode - 1143. 最长公共子序列^]
 
 给定两个字符串 `text1` 和 `text2`，返回这两个字符串的最长 *公共子序列* 的长度。如果不存在 *公共子序列* ，返回 `0` 。
 
@@ -119,6 +119,33 @@ include::{sourcedir}/_1143_LongestCommonSubsequence_3b.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1143_LongestCommonSubsequence_3c.java[tag=answer]
+----
+--
+
+四刷（暴力破解）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1143_LongestCommonSubsequence_4a.java[tag=answer]
+----
+--
+
+四刷（备忘录）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1143_LongestCommonSubsequence_4b.java[tag=answer]
+----
+--
+
+四刷（动态规划）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1143_LongestCommonSubsequence_4c.java[tag=answer]
 ----
 --
 ====

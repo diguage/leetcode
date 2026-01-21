@@ -105,6 +105,15 @@ include::{sourcedir}/_0300_LongestIncreasingSubsequence_4b.java[tag=answer]
 include::{sourcedir}/_0300_LongestIncreasingSubsequence_4c.java[tag=answer]
 ----
 --
+
+四刷(动态规划-公共子序列)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0300_LongestIncreasingSubsequence_4d.java[tag=answer]
+----
+--
 ====
 
 
