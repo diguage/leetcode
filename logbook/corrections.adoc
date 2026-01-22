@@ -231,7 +231,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/shortest-string-that-contains-three-strings/[2800. 包含三个字符串的最短字符串^]
 |{doc_base_url}/2800-shortest-string-that-contains-three-strings.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/count-number-of-ways-to-place-houses/[2320. 统计放置房子的方式数^]

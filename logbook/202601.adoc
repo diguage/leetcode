@@ -150,6 +150,11 @@ endif::[]
 |{doc_base_url}/1143-longest-common-subsequence.adoc[题解]
 |✅ 动态规划。
 
+|{counter:corrections}
+|{leetcode_base_url}/shortest-string-that-contains-three-strings/[2800. 包含三个字符串的最短字符串^]
+|{doc_base_url}/2800-shortest-string-that-contains-three-strings.adoc[题解]
+|❌ 回溯。先回溯，找出所有排列；然后，再将每个组合合并成字符串。这个过程中，会有两种“包含”关系，出现即返回长字符串。没有包含关系，就判断一个字符串前缀是否是另外一个字符串的结尾。
+
 |===
 
 
