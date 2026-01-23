@@ -241,7 +241,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/maximum-sum-circular-subarray/[918. 环形子数组的最大和^]
 |{doc_base_url}/0918-maximum-sum-circular-subarray.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/maximum-students-taking-exam/[1349. 参加考试的最大学生数^]

@@ -155,6 +155,11 @@ endif::[]
 |{doc_base_url}/2800-shortest-string-that-contains-three-strings.adoc[题解]
 |❌ 回溯。先回溯，找出所有排列；然后，再将每个组合合并成字符串。这个过程中，会有两种“包含”关系，出现即返回长字符串。没有包含关系，就判断一个字符串前缀是否是另外一个字符串的结尾。
 
+|{counter:corrections}
+|{leetcode_base_url}/maximum-sum-circular-subarray/[918. 环形子数组的最大和^]
+|{doc_base_url}/0918-maximum-sum-circular-subarray.adoc[题解]
+|❌ 动态规划。利用 {doc_base_url}/0053-maximum-subarray.adoc[53. 最大子数组和^] 的解法，求出最大子数组和最小子数组。再根据最大子数组和是否大于 `0`，来决定如何返回。
+
 |===
 
 

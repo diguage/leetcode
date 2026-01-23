@@ -1,13 +1,13 @@
 [#0918-maximum-sum-circular-subarray]
 = 918. 环形子数组的最大和
 
-https://leetcode.cn/problems/maximum-sum-circular-subarray/[LeetCode - 918. 环形子数组的最大和 ^]
+https://leetcode.cn/problems/maximum-sum-circular-subarray/[LeetCode - 918. 环形子数组的最大和^]
 
-给定一个长度为 `n` 的**环形整数数组** `nums` ，返回 __ `nums` 的非空 *子数组* 的最大可能和__。
+给定一个长度为 `n` 的 *环形整数数组* `nums` ，返回 __``nums`` 的非空 *子数组* 的最大可能和__。
 
-*环形数组*__ __意味着数组的末端将会与开头相连呈环状。形式上，`+nums[i]+` 的下一个元素是 `nums[(i + 1) % n]` ，`nums[i]` 的前一个元素是 `nums[(i - 1 + n) % n]` 。
+*环形数组* 意味着数组的末端将会与开头相连呈环状。形式上，`nums[i]` 的下一个元素是 `nums[(i + 1) % n]` ，`nums[i]` 的前一个元素是 `nums[(i - 1 + n) % n]`。
 
-*子数组* 最多只能包含固定缓冲区 `nums` 中的每个元素一次。形式上，对于子数组 `nums[i], nums[i + 1], ..., nums[j]` ，不存在 `+i <= k1, k2 <= j+` 其中 `k1 % n == k2 % n` 。
+*子数组* 最多只能包含固定缓冲区 `nums` 中的每个元素一次。形式上，对于子数组 `nums[i], nums[i + 1], ..., nums[j]` ，不存在 `i \<= k1, k2 \<= j` 其中 `k1 % n == k2 % n`。
 
 *示例 1：*
 
@@ -33,10 +33,9 @@ https://leetcode.cn/problems/maximum-sum-circular-subarray/[LeetCode - 918. 环�
 解释：从子数组 [3] 和 [3,-2,2] 都可以得到最大和 3
 ....
 
-
 *提示：*
 
-* `+n == nums.length+`
+* `n == nums.length`
 * `1 \<= n \<= 3 * 10^4^`
 * `-3 * 10^4^ \<= nums[i] \<= 3 * 10^4^`
 
@@ -45,6 +44,9 @@ https://leetcode.cn/problems/maximum-sum-circular-subarray/[LeetCode - 918. 环�
 
 image::images/0918-10.png[{image_attr}]
 
+利用 {doc_base_url}/0053-maximum-subarray.adoc[53. 最大子数组和^] 的解法，求出最大子数组和最小子数组。再根据最大子数组和是否大于 `0`，来决定如何返回。
+
+image::images/0918-11.png[{image_attr}]
 
 [[src-0918]]
 [tabs]
@@ -58,14 +60,14 @@ include::{sourcedir}/_0918_MaximumSumCircularSubarray.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0918_MaximumSumCircularSubarray_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0918_MaximumSumCircularSubarray_2.java[tag=answer]
+----
+--
 ====
 
 

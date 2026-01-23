@@ -2,7 +2,6 @@ package com.diguage.algo.leetcode;
 
 public class _0918_MaximumSumCircularSubarray {
   // tag::answer[]
-
   /**
    * @author D瓜哥 · https://www.diguage.com
    * @since 2025-05-14 16:27:15
