@@ -246,7 +246,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/maximum-students-taking-exam/[1349. 参加考试的最大学生数^]
 |{doc_base_url}/1349-maximum-students-taking-exam.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/decode-ways/[91. 解码方法^]

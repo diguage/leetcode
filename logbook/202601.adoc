@@ -160,6 +160,11 @@ endif::[]
 |{doc_base_url}/0918-maximum-sum-circular-subarray.adoc[题解]
 |❌ 动态规划。利用 {doc_base_url}/0053-maximum-subarray.adoc[53. 最大子数组和^] 的解法，求出最大子数组和最小子数组。再根据最大子数组和是否大于 `0`，来决定如何返回。
 
+|{counter:corrections}
+|{leetcode_base_url}/maximum-students-taking-exam/[1349. 参加考试的最大学生数^]
+|{doc_base_url}/1349-maximum-students-taking-exam.adoc[题解]
+|❌ 动态规划。看了答案也是一脸懵逼，尤其是位运算，还需要多多练习。
+
 |===
 
 

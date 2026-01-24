@@ -1,7 +1,7 @@
 [#1349-maximum-students-taking-exam]
 = 1349. 参加考试的最大学生数
 
-https://leetcode.cn/problems/maximum-students-taking-exam/[LeetCode - 1349. 参加考试的最大学生数 ^]
+https://leetcode.cn/problems/maximum-students-taking-exam/[LeetCode - 1349. 参加考试的最大学生数^]
 
 给你一个 `m * n` 的矩阵 `seats` 表示教室中的座位分布。如果座位是坏的（不可用），就用 `#` 表示；否则，用 `.` 表示。
 
@@ -85,18 +85,27 @@ include::{sourcedir}/_1349_MaximumStudentsTakingExam_1.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_1349_MaximumStudentsTakingExam_2.java[tag=answer]
-// ----
-// --
+二刷(暴力破解)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1349_MaximumStudentsTakingExam_2a.java[tag=answer]
+----
+--
+
+二刷(备忘录)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1349_MaximumStudentsTakingExam_2b.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
-. https://leetcode.cn/problems/maximum-students-taking-exam/solutions/101748/can-jia-kao-shi-de-zui-da-xue-sheng-shu-by-leetcod/[1349. 参加考试的最大学生数 - 官方题解^]
 . https://leetcode.cn/problems/maximum-students-taking-exam/solutions/2580043/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-9y5k/[1349. 参加考试的最大学生数 - 教你一步步思考动态规划：从记忆化搜索到递推^]
+. https://leetcode.cn/problems/maximum-students-taking-exam/solutions/101748/can-jia-kao-shi-de-zui-da-xue-sheng-shu-by-leetcod/[1349. 参加考试的最大学生数 - 官方题解^]
