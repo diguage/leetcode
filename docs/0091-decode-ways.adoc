@@ -1,7 +1,7 @@
 [#0091-decode-ways]
 = 91. 解码方法
 
-https://leetcode.cn/problems/decode-ways/[LeetCode - 91. 解码方法 ^]
+https://leetcode.cn/problems/decode-ways/[LeetCode - 91. 解码方法^]
 
 一条包含字母 `A-Z` 的消息通过以下映射进行了 *编码* ：
 
@@ -66,6 +66,8 @@ image::images/0091-12.png[{image_attr}]
 
 这道题可以使用动态规划算法解决。学习《算法导论》中"动态规划"的解题步骤，再推演几次这个解题方法。
 
+从后向前，一个字符或者两个字符来判断是否可以编码成字母，然后递归调用直到字符串尽头。
+
 [[src-0091]]
 [tabs]
 ====
@@ -84,6 +86,33 @@ include::{sourcedir}/_0091_DecodeWays.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0091_DecodeWays_2.java[tag=answer]
+----
+--
+
+三刷(暴力破解)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0091_DecodeWays_3a.java[tag=answer]
+----
+--
+
+三刷(备忘录)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0091_DecodeWays_3b.java[tag=answer]
+----
+--
+
+三刷(动态规划)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0091_DecodeWays_3c.java[tag=answer]
 ----
 --
 ====

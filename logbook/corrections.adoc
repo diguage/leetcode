@@ -251,7 +251,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/decode-ways/[91. 解码方法^]
 |{doc_base_url}/0091-decode-ways.adoc[题解]
-|❌
+|❌ ✅
 
 |{counter:corrections}
 |{leetcode_base_url}/minimum-cost-to-move-chips-to-the-same-position/[1217. 玩筹码^]

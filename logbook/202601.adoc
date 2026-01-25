@@ -165,6 +165,11 @@ endif::[]
 |{doc_base_url}/1349-maximum-students-taking-exam.adoc[题解]
 |❌ 动态规划。看了答案也是一脸懵逼，尤其是位运算，还需要多多练习。
 
+|{counter:corrections}
+|{leetcode_base_url}/decode-ways/[91. 解码方法^]
+|{doc_base_url}/0091-decode-ways.adoc[题解]
+|✅ 动态规划。从后向前，一个字符或者两个字符来判断是否可以编码成字母，然后递归调用直到字符串尽头。
+
 |===
 
 
