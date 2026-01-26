@@ -1,7 +1,7 @@
 [#1217-minimum-cost-to-move-chips-to-the-same-position]
 = 1217. 玩筹码
 
-https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position/[LeetCode - 1217. 玩筹码 ^]
+https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position/[LeetCode - 1217. 玩筹码^]
 
 有 `n` 个筹码。第 `i` 个筹码的位置是 `position[i]` 。
 
@@ -11,7 +11,6 @@ https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position/[Le
 * `position[i] + 1` 或 `position[i] - 1` ，此时 `cost = 1`
 
 返回将所有筹码移动到同一位置上所需要的 _最小代价_ 。
-
 
 *示例 1：*
 
@@ -65,14 +64,14 @@ include::{sourcedir}/_1217_MinimumCostToMoveChipsToTheSamePosition.java[tag=answ
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_1217_MinimumCostToMoveChipsToTheSamePosition_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1217_MinimumCostToMoveChipsToTheSamePosition_2.java[tag=answer]
+----
+--
 ====
 
 

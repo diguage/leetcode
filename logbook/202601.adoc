@@ -170,6 +170,11 @@ endif::[]
 |{doc_base_url}/0091-decode-ways.adoc[题解]
 |✅ 动态规划。从后向前，一个字符或者两个字符来判断是否可以编码成字母，然后递归调用直到字符串尽头。
 
+|{counter:corrections}
+|{leetcode_base_url}/minimum-cost-to-move-chips-to-the-same-position/[1217. 玩筹码^]
+|{doc_base_url}/1217-minimum-cost-to-move-chips-to-the-same-position.adoc[题解]
+|❌ 有点脑筋急转弯的感觉。左右移动两位免费，相当于奇数合并免费，偶数合并免费，相邻的偶数和奇数合并收费，统计奇数和偶数的数量，然后哪个少移动哪个就可以了。
+
 |===
 
 

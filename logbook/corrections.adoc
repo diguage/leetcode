@@ -256,7 +256,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/minimum-cost-to-move-chips-to-the-same-position/[1217. 玩筹码^]
 |{doc_base_url}/1217-minimum-cost-to-move-chips-to-the-same-position.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/count-triplets-that-can-form-two-arrays-of-equal-xor/[1442. 形成两个异或相等数组的三元组数目^]
