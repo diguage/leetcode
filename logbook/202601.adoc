@@ -175,6 +175,11 @@ endif::[]
 |{doc_base_url}/1217-minimum-cost-to-move-chips-to-the-same-position.adoc[题解]
 |❌ 有点脑筋急转弯的感觉。左右移动两位免费，相当于奇数合并免费，偶数合并免费，相邻的偶数和奇数合并收费，统计奇数和偶数的数量，然后哪个少移动哪个就可以了。
 
+|{counter:corrections}
+|{leetcode_base_url}/count-triplets-that-can-form-two-arrays-of-equal-xor/[1442. 形成两个异或相等数组的三元组数目^]
+|{doc_base_url}/1442-count-triplets-that-can-form-two-arrays-of-equal-xor.adoc[题解]
+|✅ 位运算。直接暴力计算了。异或运算，支持交换律，结合律。再通过推演可知： stem:[$S_i \oplus S_j = S_j \oplus S_{k+1}$] => stem:[$S_i = S_{k+1}$]。所以，可以通过计算前缀异或来加速整个过程。
+
 |===
 
 

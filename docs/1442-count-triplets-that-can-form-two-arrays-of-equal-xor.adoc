@@ -1,11 +1,11 @@
 [#1442-count-triplets-that-can-form-two-arrays-of-equal-xor]
 = 1442. 形成两个异或相等数组的三元组数目
 
-https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/[LeetCode - 1442. 形成两个异或相等数组的三元组数目 ^]
+https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/[LeetCode - 1442. 形成两个异或相等数组的三元组数目^]
 
 给你一个整数数组 `arr` 。
 
-现需要从数组中取三个下标 `i`、`j` 和 `k` ，其中 `+(0 <= i < j <= k < arr.length)+` 。
+现需要从数组中取三个下标 `i`、`j` 和 `k` ，其中 `(0 \<= i < j \<= k < arr.length)`。
 
 `a` 和 `b` 定义如下：
 
@@ -52,7 +52,6 @@ https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xo
 输出：8
 ....
 
-
 *提示：*
 
 * `+1 <= arr.length <= 300+`
@@ -68,6 +67,8 @@ image::images/1442-10.png[{image_attr}]
 
 使用官方题解中的异或前缀和解法啦。数学知识还是得补啊！
 
+异或运算，支持交换律，结合律。再通过推演可知： stem:[$S_i \oplus S_j = S_j \oplus S_{k+1}$] => stem:[$S_i = S_{k+1}$]。所以，可以通过计算前缀异或来加速整个过程。
+
 [[src-1442]]
 [tabs]
 ====
@@ -80,14 +81,14 @@ include::{sourcedir}/_1442_CountTripletsThatCanFormTwoArraysOfEqualXor.java[tag=
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_1442_CountTripletsThatCanFormTwoArraysOfEqualXor_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1442_CountTripletsThatCanFormTwoArraysOfEqualXor_2.java[tag=answer]
+----
+--
 ====
 
 

@@ -261,7 +261,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/count-triplets-that-can-form-two-arrays-of-equal-xor/[1442. 形成两个异或相等数组的三元组数目^]
 |{doc_base_url}/1442-count-triplets-that-can-form-two-arrays-of-equal-xor.adoc[题解]
-|⭕️
+|⭕️ ✅
 
 |{counter:corrections}
 |{leetcode_base_url}/construct-k-palindrome-strings/[1400. 构造 K 个回文字符串^]
