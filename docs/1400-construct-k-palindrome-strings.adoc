@@ -1,11 +1,11 @@
 [#1400-construct-k-palindrome-strings]
 = 1400. 构造 K 个回文字符串
 
-https://leetcode.cn/problems/construct-k-palindrome-strings/[LeetCode - 1400. 构造 K 个回文字符串 ^]
+https://leetcode.cn/problems/construct-k-palindrome-strings/[LeetCode - 1400. 构造 K 个回文字符串^]
 
-给你一个字符串 `s` 和一个整数 `k` 。请你用 `s` 字符串中 *所有字符* 构造 `k` 个非空 *回文串* 。
+给你一个字符串 `s` 和一个整数 `k` 。请你用 `s` 字符串中 *所有字符* 构造 `k` 个非空 *回文串*。
 
-如果你可以用 `s` 中所有字符构造 `k` 个回文字符串，那么请你返回 *True* ，否则返回 *False* 。
+如果你可以用 `s` 中所有字符构造 `k` 个回文字符串，那么请你返回 *True* ，否则返回 *False*。
 
 *示例 1：*
 
@@ -57,13 +57,15 @@ https://leetcode.cn/problems/construct-k-palindrome-strings/[LeetCode - 1400. �
 
 == 思路分析
 
-设字符集合s的大小为l，奇数次出现的字符种数为c。
+设字符集合 `s` 的大小为 `l`，奇数次出现的字符种数为 `c`。
 
-【命题一】若c = 0，则对任意的正整数 `k \<= l`，s可以构成k个非空回文串。
+【命题一】若 `c = 0`，则对任意的正整数 `k \<= l`，`s` 可以构成 `k` 个非空回文串。
 
-【命题二】s可以构成k个非空回文串当且仅当 `c \<= k \<= l`.
+【命题二】`s` 可以构成 `k` 个非空回文串当且仅当 `c \<= k \<= l`.
 
 统计奇数字母的个数。如果奇数字母个数大于 `k`，那么肯定不能满足条件。
+
+总结成一句话： `K` 的长度要小于等于字符串长度并且奇数次字符为 `0` 或小于 `K` 才能满足条件。
 
 [[src-1400]]
 [tabs]
@@ -77,14 +79,14 @@ include::{sourcedir}/_1400_ConstructKPalindromeStrings.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_1400_ConstructKPalindromeStrings_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_1400_ConstructKPalindromeStrings_2.java[tag=answer]
+----
+--
 ====
 
 

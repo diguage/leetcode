@@ -180,6 +180,11 @@ endif::[]
 |{doc_base_url}/1442-count-triplets-that-can-form-two-arrays-of-equal-xor.adoc[题解]
 |✅ 位运算。直接暴力计算了。异或运算，支持交换律，结合律。再通过推演可知： stem:[$S_i \oplus S_j = S_j \oplus S_{k+1}$] => stem:[$S_i = S_{k+1}$]。所以，可以通过计算前缀异或来加速整个过程。
 
+|{counter:corrections}
+|{leetcode_base_url}/construct-k-palindrome-strings/[1400. 构造 K 个回文字符串^]
+|{doc_base_url}/1400-construct-k-palindrome-strings.adoc[题解]
+|❌ 有点脑筋急转弯+数学的感觉。`K` 的长度要小于等于字符串长度并且奇数次字符为 `0` 或小于 `K` 才能满足条件。
+
 |===
 
 

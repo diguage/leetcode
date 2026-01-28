@@ -266,7 +266,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/construct-k-palindrome-strings/[1400. 构造 K 个回文字符串^]
 |{doc_base_url}/1400-construct-k-palindrome-strings.adoc[题解]
-|⭕️
+|⭕️ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/candy/[135. 分发糖果^]
