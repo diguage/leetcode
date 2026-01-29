@@ -271,7 +271,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/candy/[135. 分发糖果^]
 |{doc_base_url}/0135-candy.adoc[题解]
-|❌ ⭕️
+|❌ ⭕️ ✅
 
 |{counter:corrections}
 |{leetcode_base_url}/max-points-on-a-line/[149. 直线上最多的点数^]

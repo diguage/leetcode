@@ -1,7 +1,7 @@
 [#0135-candy]
 = 135. 分发糖果
 
-https://leetcode.cn/problems/candy/[LeetCode - 135. 分发糖果 ^]
+https://leetcode.cn/problems/candy/[LeetCode - 135. 分发糖果^]
 
 `n` 个孩子站成一排。给你一个整数数组 `ratings` 表示每个孩子的评分。
 
@@ -11,7 +11,6 @@ https://leetcode.cn/problems/candy/[LeetCode - 135. 分发糖果 ^]
 * 相邻两个孩子评分更高的孩子会获得更多的糖果。
 
 请你给每个孩子分发糖果，计算并返回需要准备的 *最少糖果数目* 。
-
 
 *示例 1：*
 
@@ -67,6 +66,15 @@ include::{sourcedir}/_0135_Candy.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0135_Candy_2.java[tag=answer]
+----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0135_Candy_3.java[tag=answer]
 ----
 --
 ====

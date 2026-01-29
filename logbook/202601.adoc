@@ -185,6 +185,11 @@ endif::[]
 |{doc_base_url}/1400-construct-k-palindrome-strings.adoc[题解]
 |❌ 有点脑筋急转弯+数学的感觉。`K` 的长度要小于等于字符串长度并且奇数次字符为 `0` 或小于 `K` 才能满足条件。
 
+|{counter:corrections}
+|{leetcode_base_url}/candy/[135. 分发糖果^]
+|{doc_base_url}/0135-candy.adoc[题解]
+|✅ 贪心算法。先从左向右遍历，当右边高于左边，则在左边基础上加 `1`；然后再从右向左，当左边高并且左边糖果少，则在右边基础上加 `1`。最后求和。
+
 |===
 
 
