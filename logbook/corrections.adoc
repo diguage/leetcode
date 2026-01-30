@@ -276,7 +276,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/max-points-on-a-line/[149. 直线上最多的点数^]
 |{doc_base_url}/0149-max-points-on-a-line.adoc[题解]
-|⭕️
+|⭕️ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/bitwise-and-of-numbers-range/[201. 数字范围按位与^]

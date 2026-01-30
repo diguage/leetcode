@@ -190,6 +190,11 @@ endif::[]
 |{doc_base_url}/0135-candy.adoc[题解]
 |✅ 贪心算法。先从左向右遍历，当右边高于左边，则在左边基础上加 `1`；然后再从右向左，当左边高并且左边糖果少，则在右边基础上加 `1`。最后求和。
 
+|{counter:corrections}
+|{leetcode_base_url}/max-points-on-a-line/[149. 直线上最多的点数^]
+|{doc_base_url}/0149-max-points-on-a-line.adoc[题解]
+|⭕️ 数学。三点之间两两求斜率，斜率相等则共线。通过属性计算，可以避免出现浮点数。
+
 |===
 
 

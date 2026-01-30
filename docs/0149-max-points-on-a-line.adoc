@@ -2,7 +2,7 @@
 = 149. 直线上最多的点数
 
 
-https://leetcode.cn/problems/max-points-on-a-line/[LeetCode - 149. 直线上最多的点数 ^]
+https://leetcode.cn/problems/max-points-on-a-line/[LeetCode - 149. 直线上最多的点数^]
 
 给你一个数组 `points` ，其中 `points[i] = [x~i~, y~i~]` 表示 *X-Y* 平面上的一个点。求最多有多少个点在同一条直线上。
 
@@ -26,11 +26,10 @@ image::images/0149-02.jpg[{image_attr}]
 
 *提示：*
 
-* `+1 <= points.length <= 300+`
+* `1 \<= points.length \<= 300`
 * `points[i].length == 2`
 * `-10^4^ \<= x~i~, y~i~ \<= 10^4^`
 * `points` 中的所有点 *互不相同*
-
 
 
 == 思路分析
@@ -63,16 +62,18 @@ include::{sourcedir}/_0149_MaxPointsOnALine.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0149_MaxPointsOnALine_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0149_MaxPointsOnALine_2.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/max-points-on-a-line/solutions/3702301/bao-li-mei-ju-pythonjavacgojsrust-by-end-ggzu/[149. 直线上最多的点数 - 暴力枚举^]
+. https://leetcode.cn/problems/max-points-on-a-line/solutions/36797/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--35/[149. 直线上最多的点数 - 详细通俗的思路分析，多解法^]
+. https://leetcode.cn/problems/max-points-on-a-line/solutions/842114/zhi-xian-shang-zui-duo-de-dian-shu-by-le-tq8f/[149. 直线上最多的点数 - 官方题解^]
