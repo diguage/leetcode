@@ -281,7 +281,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/bitwise-and-of-numbers-range/[201. 数字范围按位与^]
 |{doc_base_url}/0201-bitwise-and-of-numbers-range.adoc[题解]
-|⭕️
+|⭕️ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/word-search-ii/[212. 单词搜索 II^]

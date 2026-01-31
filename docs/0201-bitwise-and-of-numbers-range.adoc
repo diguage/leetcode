@@ -1,7 +1,7 @@
 [#0201-bitwise-and-of-numbers-range]
 = 201. 数字范围按位与
 
-https://leetcode.cn/problems/bitwise-and-of-numbers-range/[LeetCode - 201. 数字范围按位与 ^]
+https://leetcode.cn/problems/bitwise-and-of-numbers-range/[LeetCode - 201. 数字范围按位与^]
 
 给你两个整数 `left` 和 `right` ，表示区间 `[left, right]`，返回此区间内所有数字 *按位与* 的结果（包含 `left` 、`right` 端点）。
 
@@ -33,7 +33,7 @@ https://leetcode.cn/problems/bitwise-and-of-numbers-range/[LeetCode - 201. 数�
 
 == 思路分析
 
-当计算 stem:[n & (n - 1)] 时，会把 `n` 最右边的 `1` 编程 `0`。
+当计算 stem:[n & (n - 1)] 时，会把 `n` 最右边的 `1` 变成 `0`。
 
 image::images/0201-10.png[{image_attr}]
 
@@ -42,6 +42,8 @@ image::images/0201-11.png[{image_attr}]
 从另外一个角度来看，就是寻找指定范围内所有数字的公共前缀。
 
 image::images/0201-12.png[{image_attr}]
+
+对于大于 `left` 的前面的 `1` 都会成为 `0`，可以忽略。在 `left` 和 `right` 之间，要么是中间相同，要么是全部不同。所以，可以通过异或，求出后面的不同之处的位数，然后移位减一取反，再相与即可求出“前缀”。
 
 [[src-0201]]
 [tabs]
@@ -55,14 +57,14 @@ include::{sourcedir}/_0201_BitwiseAndOfNumbersRange.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0201_BitwiseAndOfNumbersRange_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0201_BitwiseAndOfNumbersRange_2.java[tag=answer]
+----
+--
 ====
 
 
