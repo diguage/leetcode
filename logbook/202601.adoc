@@ -203,7 +203,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/word-search-ii/[212. 单词搜索 II^]
 |{doc_base_url}/0212-word-search-ii.adoc[题解]
-|⭕️ 回溯。超时。
+|✅ 前缀树+回溯。只用回溯超时。前缀树+回溯，通过测试。
 
 |===
 

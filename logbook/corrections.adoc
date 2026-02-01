@@ -286,7 +286,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/word-search-ii/[212. 单词搜索 II^]
 |{doc_base_url}/0212-word-search-ii.adoc[题解]
-|⭕️ ⭕️
+|⭕️ ✅
 
 |{counter:corrections}
 |{leetcode_base_url}/evaluate-division/[399. 除法求值^]
