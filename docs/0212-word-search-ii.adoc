@@ -1,7 +1,7 @@
 [#0212-word-search-ii]
 = 212. 单词搜索 II
 
-https://leetcode.cn/problems/word-search-ii/[LeetCode - 212. 单词搜索 II ^]
+https://leetcode.cn/problems/word-search-ii/[LeetCode - 212. 单词搜索 II^]
 
 给定一个 `m x n` 二维字符网格 `board` 和一个单词（字符串）列表 `words`， _返回所有二维网格上的单词_ 。
 
@@ -35,10 +35,10 @@ image::images/0212-02.jpg[{image_attr}]
 
 * `m == board.length`
 * `n == board[i].length`
-* `+1 <= m, n <= 12+`
+* `1 \<= m, n \<= 12`
 * `board[i][j]` 是一个小写英文字母
 * `1 \<= words.length \<= 3 * 10^4^`
-* `+1 <= words[i].length <= 10+`
+* `1 \<= words[i].length \<= 10`
 * `words[i]` 由小写英文字母组成
 * `words` 中的所有字符串互不相同
 
@@ -61,14 +61,14 @@ include::{sourcedir}/_0212_WordSearchIi.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0212_WordSearchIi_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0212_WordSearchIi_2.java[tag=answer]
+----
+--
 ====
 
 

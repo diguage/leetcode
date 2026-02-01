@@ -200,6 +200,11 @@ endif::[]
 |{doc_base_url}/0201-bitwise-and-of-numbers-range.adoc[题解]
 |⭕️ 位运算。暴力破解超时。对于大于 `left` 的前面的 `1` 都会成为 `0`，可以忽略。在 `left` 和 `right` 之间，要么是中间相同，要么是全部不同。所以，可以通过异或，求出后面的不同之处的位数，然后移位减一取反，再相与即可求出“前缀”。
 
+|{counter:corrections}
+|{leetcode_base_url}/word-search-ii/[212. 单词搜索 II^]
+|{doc_base_url}/0212-word-search-ii.adoc[题解]
+|⭕️ 回溯。超时。
+
 |===
 
 
