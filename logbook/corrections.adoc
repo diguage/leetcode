@@ -291,7 +291,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/evaluate-division/[399. 除法求值^]
 |{doc_base_url}/0399-evaluate-division.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/minimum-genetic-mutation/[433. 最小基因变化^]

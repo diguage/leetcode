@@ -1,7 +1,7 @@
 [#0399-evaluate-division]
 = 399. 除法求值
 
-https://leetcode.cn/problems/evaluate-division/[LeetCode - 399. 除法求值 ^]
+https://leetcode.cn/problems/evaluate-division/[LeetCode - 399. 除法求值^]
 
 给你一个变量对数组 `equations` 和一个实数值数组 `values` 作为已知条件，其中 `equations[i] = [A~i~, B~i~]` 和 `values[i]` 共同表示等式 `A~i~ / B~i~ = values[i]`。每个 `A~i~` 或 `B~i~` 是一个表示单个变量的字符串。
 
@@ -16,7 +16,8 @@ https://leetcode.cn/problems/evaluate-division/[LeetCode - 399. 除法求值 ^]
 *示例 1：*
 
 ....
-输入：equations = [["a","b"],["b","c"]], values = [2.0,3.0], queries = [["a","c"],["b","a"],["a","e"],["a","a"],["x","x"]]
+输入：equations = [["a","b"],["b","c"]], values = [2.0,3.0],
+     queries = [["a","c"],["b","a"],["a","e"],["a","a"],["x","x"]]
 输出：[6.00000,0.50000,-1.00000,1.00000,-1.00000]
 解释：
 条件：a / b = 2.0, b / c = 3.0
@@ -28,30 +29,30 @@ https://leetcode.cn/problems/evaluate-division/[LeetCode - 399. 除法求值 ^]
 *示例 2：*
 
 ....
-输入：equations = [["a","b"],["b","c"],["bc","cd"]], values = [1.5,2.5,5.0], queries = [["a","c"],["c","b"],["bc","cd"],["cd","bc"]]
+输入：equations = [["a","b"],["b","c"],["bc","cd"]], values = [1.5,2.5,5.0],
+     queries = [["a","c"],["c","b"],["bc","cd"],["cd","bc"]]
 输出：[3.75000,0.40000,5.00000,0.20000]
 ....
 
 *示例 3：*
 
 ....
-输入：equations = [["a","b"]], values = [0.5], queries = [["a","b"],["b","a"],["a","c"],["x","y"]]
+输入：equations = [["a","b"]], values = [0.5],
+     queries = [["a","b"],["b","a"],["a","c"],["x","y"]]
 输出：[0.50000,2.00000,-1.00000,-1.00000]
 ....
 
-
 *提示：*
 
-* `+1 <= equations.length <= 20+`
+* `1 \<= equations.length \<= 20`
 * `equations[i].length == 2`
 * `1 \<= A~i~.length, B~i~.length \<= 5`
 * `values.length == equations.length`
 * `0.0 < values[i] \<= 20.0`
-* `+1 <= queries.length <= 20+`
+* `1 \<= queries.length \<= 20`
 * `queries[i].length == 2`
 * `1 \<= C~j~.length, D~j~.length \<= 5`
 * `A~i~`, `B~i~`, `C~j~`, `D~j~` 由小写英文字母与数字组成
-
 
 
 == 思路分析
@@ -74,14 +75,14 @@ include::{sourcedir}/_0399_EvaluateDivision.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0399_EvaluateDivision_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0399_EvaluateDivision_2.java[tag=answer]
+----
+--
 ====
 
 

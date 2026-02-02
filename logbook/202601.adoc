@@ -205,6 +205,11 @@ endif::[]
 |{doc_base_url}/0212-word-search-ii.adoc[题解]
 |✅ 前缀树+回溯。只用回溯超时。前缀树+回溯，通过测试。
 
+|{counter:corrections}
+|{leetcode_base_url}/evaluate-division/[399. 除法求值^]
+|{doc_base_url}/0399-evaluate-division.adoc[题解]
+|❌ 并查集。带权重的并查集，还要多练习。
+
 |===
 
 
