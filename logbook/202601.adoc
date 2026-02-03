@@ -210,6 +210,11 @@ endif::[]
 |{doc_base_url}/0399-evaluate-division.adoc[题解]
 |❌ 并查集。带权重的并查集，还要多练习。
 
+|{counter:corrections}
+|{leetcode_base_url}/minimum-genetic-mutation/[433. 最小基因变化^]
+|{doc_base_url}/0433-minimum-genetic-mutation.adoc[题解]
+|⭕️ ✅ 广度优先遍历。对基因每个可能的变异都要要做遍历。
+
 |===
 
 

@@ -1,13 +1,13 @@
 [#0433-minimum-genetic-mutation]
 = 433. 最小基因变化
 
-https://leetcode.cn/problems/minimum-genetic-mutation/[LeetCode - 433. 最小基因变化 ^]
+https://leetcode.cn/problems/minimum-genetic-mutation/[LeetCode - 433. 最小基因变化^]
 
 基因序列可以表示为一条由 8 个字符组成的字符串，其中每个字符都是 `A`、 `C`、 `G` 和 `T` 之一。
 
 假设我们需要调查从基因序列 `start` 变为 `end` 所发生的基因变化。一次基因变化就意味着这个基因序列中的一个字符发生了变化。
 
-* 例如，`+AACCGGTT --> AACCGGTA+` 就是一次基因变化。
+* 例如，`AACCGGTT --> AACCGGTA` 就是一次基因变化。
 
 另有一个基因库 `bank` 记录了所有有效的基因变化，只有基因库中的基因才是有效的基因序列。（变化后的基因必须位于基因库 `bank` 中）
 
@@ -41,7 +41,7 @@ https://leetcode.cn/problems/minimum-genetic-mutation/[LeetCode - 433. 最小基
 
 * `start.length == 8`
 * `end.length == 8`
-* `+0 <= bank.length <= 10+`
+* `0 \<= bank.length \<= 10`
 * `bank[i].length == 8`
 * `start`、`end` 和 `bank[i]` 仅由字符 `['A', 'C', 'G', 'T']` 组成
 
@@ -62,14 +62,14 @@ include::{sourcedir}/_0433_MinimumGeneticMutation.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0433_MinimumGeneticMutation_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0433_MinimumGeneticMutation_2.java[tag=answer]
+----
+--
 ====
 
 
