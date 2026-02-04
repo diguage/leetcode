@@ -296,12 +296,12 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/minimum-genetic-mutation/[433. 最小基因变化^]
 |{doc_base_url}/0433-minimum-genetic-mutation.adoc[题解]
-|⭕️  ✅
+|⭕️ ✅
 
 |{counter:corrections}
 |{leetcode_base_url}/ipo/[502. IPO^]
 |{doc_base_url}/0502-ipo.adoc[题解]
-|⭕️
+|⭕️ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/text-justification/[68. 文本左右对齐^]

@@ -215,6 +215,11 @@ endif::[]
 |{doc_base_url}/0433-minimum-genetic-mutation.adoc[题解]
 |⭕️ ✅ 广度优先遍历。对基因每个可能的变异都要要做遍历。
 
+|{counter:corrections}
+|{leetcode_base_url}/ipo/[502. IPO^]
+|{doc_base_url}/0502-ipo.adoc[题解]
+|⭕️ 贪心算法。
+
 |===
 
 
