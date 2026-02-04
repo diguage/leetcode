@@ -4,44 +4,35 @@ import java.util.*;
 
 public class _0502_Ipo_2 {
   // tag::answer[]
-
   /**
-   * 贪心算法
+   * 贪心算法（原版有问题 -> 优化后）
    *
    * @author D瓜哥 · https://www.diguage.com
    * @since 2026-02-04 23:22:25
    */
   public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
-    // 这个解法的漏洞在于，大额投资换取大额汇报，但是测试用例不是这样的。有以小博大的情况。
-    TreeMap<Integer, List<Integer>> profitMap = new TreeMap<>();
-    for (int i = 0; i < profits.length; i++) {
-      profitMap.computeIfAbsent(capital[i], _ -> new ArrayList<>())
-        .add(profits[i]);
+    int length = profits.length;
+    List<int[]> c2p = new ArrayList<>();
+    for (int i = 0; i < length; i++) {
+      c2p.add(new int[]{capital[i], profits[i]});
     }
-    for (List<Integer> value : profitMap.values()) {
-      Collections.sort(value, (a, b) -> b - a);
-    }
-    int result = w;
-    for (int i = 0; i < k; i++) {
-      if (profitMap.containsKey(result)) {
-        List<Integer> ps = profitMap.get(result);
-        Integer ip = ps.removeFirst();
-        if (ps.isEmpty()) {
-          profitMap.remove(result);
-        }
-        result += ip;
-      } else {
-        Map.Entry<Integer, List<Integer>> entry = profitMap.floorEntry(result);
-        if (Objects.isNull(entry)) {
-          continue;
-        }
-        result += entry.getValue().removeFirst();
-        if (entry.getValue().isEmpty()) {
-          profitMap.remove(entry.getKey());
-        }
+    Collections.sort(c2p, Comparator.comparingInt(a -> a[0]));
+    PriorityQueue<Integer> queue = new PriorityQueue<>((a, b) -> b - a);
+    int index = 0;
+    while (k > 0) {
+      // 将投入小于 w 的投资收益入队
+      while (index < length && c2p.get(index)[0] <= w) {
+        queue.add(c2p.get(index)[1]);
+        index++;
       }
+      if (queue.isEmpty()) {
+        break;
+      }
+      // 获取当前可以获得的最大收益
+      w += queue.poll();
+      k--;
     }
-    return result;
+    return w;
   }
   // end::answer[]
 
