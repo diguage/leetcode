@@ -218,7 +218,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/ipo/[502. IPO^]
 |{doc_base_url}/0502-ipo.adoc[题解]
-|⭕️ 贪心算法。
+|⭕️ 贪心算法。每次都获取当前可以获取收益的最大值。
 
 |===
 
