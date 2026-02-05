@@ -326,7 +326,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/rectangle-area/[223. 矩形面积^]
 |{doc_base_url}/0223-rectangle-area.adoc[题解]
-|⭕️
+|⭕️ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/majority-element-ii/[229. 多数元素 II^]
