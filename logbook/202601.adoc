@@ -225,6 +225,11 @@ endif::[]
 |{doc_base_url}/0223-rectangle-area.adoc[题解]
 |⭕️ 有点着急。再细想一下。
 
+|{counter:corrections}
+|{leetcode_base_url}/text-justification/[68. 文本左右对齐^]
+|{doc_base_url}/0068-text-justification.adoc[题解]
+|✅ 看了题解，按照单单词行、多单词行和尾行分三种情况分别处理写出来的。
+
 |===
 
 

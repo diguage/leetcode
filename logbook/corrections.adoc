@@ -306,7 +306,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/text-justification/[68. 文本左右对齐^]
 |{doc_base_url}/0068-text-justification.adoc[题解]
-|❌
+|❌ ✅
 
 |{counter:corrections}
 |{leetcode_base_url}/interleaving-string/[97. 交错字符串^]
