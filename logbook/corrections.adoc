@@ -311,7 +311,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/interleaving-string/[97. 交错字符串^]
 |{doc_base_url}/0097-interleaving-string.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/wildcard-matching/[44. 通配符匹配^]

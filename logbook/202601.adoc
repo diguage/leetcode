@@ -230,6 +230,11 @@ endif::[]
 |{doc_base_url}/0068-text-justification.adoc[题解]
 |✅ 看了题解，按照单单词行、多单词行和尾行分三种情况分别处理写出来的。
 
+|{counter:corrections}
+|{leetcode_base_url}/interleaving-string/[97. 交错字符串^]
+|{doc_base_url}/0097-interleaving-string.adoc[题解]
+|❌ 动态规划。将其转化成表格走路的思路来解决。需要先从各个字符串中，寻找出前缀字符串。
+
 |===
 
 

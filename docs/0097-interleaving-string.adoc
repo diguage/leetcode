@@ -1,7 +1,7 @@
 [#0097-interleaving-string]
 = 97. 交错字符串
 
-https://leetcode.cn/problems/interleaving-string/[LeetCode - 97. 交错字符串 ^]
+https://leetcode.cn/problems/interleaving-string/[LeetCode - 97. 交错字符串^]
 
 给定三个字符串 `s1`、`s2`、`s3`，请你帮忙验证 `s3` 是否是由 `s1` 和 `s2` *交错* 组成的。
 
@@ -37,13 +37,11 @@ image::images/0097-01.jpg[{image_attr}]
 输出：true
 ....
 
-
 *提示：*
 
-* `+0 <= s1.length, s2.length <= 100+`
-* `+0 <= s3.length <= 200+`
+* `0 \<= s1.length, s2.length \<= 100`
+* `0 \<= s3.length \<= 200`
 * `s1`、`s2`、和 `s3` 都由小写英文字母组成
-
 
 **进阶：**您能否仅使用 `O(s2.length)` 额外的内存空间来解决它?
 
@@ -74,14 +72,14 @@ include::{sourcedir}/_0097_InterleavingString.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0097_InterleavingString_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0097_InterleavingString_2.java[tag=answer]
+----
+--
 ====
 
 
