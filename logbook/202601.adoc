@@ -235,6 +235,11 @@ endif::[]
 |{doc_base_url}/0097-interleaving-string.adoc[题解]
 |❌ 动态规划。将其转化成表格走路的思路来解决。需要先从各个字符串中，寻找出前缀字符串。
 
+|{counter:corrections}
+|{leetcode_base_url}/wildcard-matching/[44. 通配符匹配^]
+|{doc_base_url}/0044-wildcard-matching.adoc[题解]
+|❌ 动态规划。`p` 是字母或 `?` 时，状态是确定的。当 `p` 是 `*` 时，状态转移方程就可以分为使用该 `*` 和不使用两种情况。
+
 |===
 
 

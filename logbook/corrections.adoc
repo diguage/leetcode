@@ -316,7 +316,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/wildcard-matching/[44. 通配符匹配^]
 |{doc_base_url}/0044-wildcard-matching.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/maximal-rectangle/[85. 最大矩形^]

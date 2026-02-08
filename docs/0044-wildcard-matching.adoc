@@ -1,7 +1,7 @@
 [#0044-wildcard-matching]
 = 44. 通配符匹配
 
-https://leetcode.cn/problems/wildcard-matching/[LeetCode - 44. 通配符匹配 ^]
+https://leetcode.cn/problems/wildcard-matching/[LeetCode - 44. 通配符匹配^]
 
 给你一个输入字符串 (`s`) 和一个字符模式 (`p`) ，请你实现一个支持 `?` 和 `*` 匹配规则的通配符匹配：
 
@@ -36,7 +36,7 @@ https://leetcode.cn/problems/wildcard-matching/[LeetCode - 44. 通配符匹配 ^
 
 *提示：*
 
-* `+0 <= s.length, p.length <= 2000+`
+* `0 \<= s.length, p.length \<= 2000`
 * `s` 仅由小写英文字母组成
 * `p` 仅由小写英文字母、`?` 或 `*` 组成
 
@@ -45,7 +45,7 @@ https://leetcode.cn/problems/wildcard-matching/[LeetCode - 44. 通配符匹配 ^
 
 想使用双指针，发现行不通！
 
-完全没有想到是动态规划！
+完全没有想到是动态规划：`p` 是字母或 `?` 时，状态是确定的。当 `p` 是 `*` 时，状态转移方程就可以分为使用该 `*` 和不使用两种情况。
 
 image::images/0044-10.png[{image_attr}]
 
@@ -76,14 +76,14 @@ include::{sourcedir}/_0044_WildcardMatching.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0044_WildcardMatching_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0044_WildcardMatching_2.java[tag=answer]
+----
+--
 ====
 
 
