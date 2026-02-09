@@ -240,6 +240,11 @@ endif::[]
 |{doc_base_url}/0044-wildcard-matching.adoc[题解]
 |❌ 动态规划。`p` 是字母或 `?` 时，状态是确定的。当 `p` 是 `*` 时，状态转移方程就可以分为使用该 `*` 和不使用两种情况。
 
+|{counter:corrections}
+|{leetcode_base_url}/maximal-rectangle/[85. 最大矩形^]
+|{doc_base_url}/0085-maximal-rectangle.adoc[题解]
+|❌ 单调栈。统计每行的高度，从上往下长，逐行长高，逐行计算最大矩阵面积。使用 {doc_base_url}/0084-largest-rectangle-in-histogram.adoc[84.柱状图中最大的矩形] 的思路，逐行求最大矩形。
+
 |===
 
 

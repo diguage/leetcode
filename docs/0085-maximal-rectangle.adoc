@@ -1,7 +1,7 @@
 [#0085-maximal-rectangle]
 = 85. 最大矩形
 
-https://leetcode.cn/problems/maximal-rectangle/[LeetCode - 85. 最大矩形 ^]
+https://leetcode.cn/problems/maximal-rectangle/[LeetCode - 85. 最大矩形^]
 
 给定一个仅包含 `0` 和 `1` 、大小为 `rows x cols` 的二维二进制矩阵，找出只包含 `1` 的最大矩形，并返回其面积。
 
@@ -38,7 +38,7 @@ image::images/0085-01.png[{image_attr}]
 
 * `rows == matrix.length`
 * `cols == matrix[0].length`
-* `+1 <= row, cols <= 200+`
+* `1 \<= row, cols \<= 200`
 * `matrix[i][j]` 为 `0` 或 `1`
 
 
@@ -62,14 +62,14 @@ include::{sourcedir}/_0085_MaximalRectangle.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0085_MaximalRectangle_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0085_MaximalRectangle_2.java[tag=answer]
+----
+--
 ====
 
 

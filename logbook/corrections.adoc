@@ -321,7 +321,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/maximal-rectangle/[85. 最大矩形^]
 |{doc_base_url}/0085-maximal-rectangle.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/rectangle-area/[223. 矩形面积^]
