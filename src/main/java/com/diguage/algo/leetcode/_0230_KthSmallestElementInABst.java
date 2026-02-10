@@ -57,6 +57,9 @@ public class _0230_KthSmallestElementInABst {
      * Memory Usage: 46.1 MB, less than 5.51% of Java online submissions for Kth Smallest Element in a BST.
      *
      * Copy from: https://leetcode.com/problems/kth-smallest-element-in-a-bst/solution/[Kth Smallest Element in a BST solution - LeetCode]
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2020-01-22 08:27
      */
     public int kthSmallest(TreeNode root, int k) {
         LinkedList<TreeNode> stack = new LinkedList<>();

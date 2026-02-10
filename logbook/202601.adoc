@@ -245,6 +245,11 @@ endif::[]
 |{doc_base_url}/0085-maximal-rectangle.adoc[题解]
 |❌ 单调栈。统计每行的高度，从上往下长，逐行长高，逐行计算最大矩阵面积。使用 {doc_base_url}/0084-largest-rectangle-in-histogram.adoc[84.柱状图中最大的矩形] 的思路，逐行求最大矩形。
 
+|{counter:corrections}
+|{leetcode_base_url}/majority-element-ii/[229. 多数元素 II^]
+|{doc_base_url}/0229-majority-element-ii.adoc[题解]
+|❌ 摩尔投票法。针对多个候选项的摩尔投票法，还是需要多思考，多练习。
+
 |===
 
 
