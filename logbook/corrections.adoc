@@ -346,7 +346,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/minimum-height-trees/[310. 最小高度树^]
 |{doc_base_url}/0310-minimum-height-trees.adoc[题解]
-|⭕️
+|⭕️ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/bulb-switcher/[319. 灯泡开关^]

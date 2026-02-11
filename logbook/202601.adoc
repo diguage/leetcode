@@ -250,6 +250,11 @@ endif::[]
 |{doc_base_url}/0229-majority-element-ii.adoc[题解]
 |❌ 摩尔投票法。针对多个候选项的摩尔投票法，还是需要多思考，多练习。
 
+|{counter:corrections}
+|{leetcode_base_url}/minimum-height-trees/[310. 最小高度树^]
+|{doc_base_url}/0310-minimum-height-trees.adoc[题解]
+|❌ 广度优先遍历。剪窗花思路：从外围（度为 `1` 的节点）向里靠拢，到最后就只剩下目标节点了。
+
 |===
 
 

@@ -20,16 +20,18 @@ public class _0310_MinimumHeightTrees {
     int[] degrees = new int[n];
     List<Integer>[] children = new List[n];
     for (int[] edge : edges) {
-      degrees[edge[0]]++;
-      degrees[edge[1]]++;
-      if (children[edge[0]] == null) {
-        children[edge[0]] = new ArrayList<>();
+      int v0 = edge[0];
+      int v1 = edge[1];
+      degrees[v0]++;
+      degrees[v1]++;
+      if (children[v0] == null) {
+        children[v0] = new ArrayList<>();
       }
-      children[edge[0]].add(edge[1]);
-      if (children[edge[1]] == null) {
-        children[edge[1]] = new ArrayList<>();
+      children[v0].add(v1);
+      if (children[v1] == null) {
+        children[v1] = new ArrayList<>();
       }
-      children[edge[1]].add(edge[0]);
+      children[v1].add(v0);
     }
     Queue<Integer> queue = new LinkedList<>();
     for (int i = 0; i < n; i++) {
