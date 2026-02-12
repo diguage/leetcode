@@ -255,6 +255,11 @@ endif::[]
 |{doc_base_url}/0310-minimum-height-trees.adoc[题解]
 |❌ 广度优先遍历。剪窗花思路：从外围（度为 `1` 的节点）向里靠拢，到最后就只剩下目标节点了。
 
+|{counter:corrections}
+|{leetcode_base_url}/bulb-switcher/[319. 灯泡开关^]
+|{doc_base_url}/0319-bulb-switcher.adoc[题解]
+|⭕️ 数学题。多模拟几个数字，观察出寻找公约数为奇数的灯（公约数为偶数则会打开再关闭）会被保持打开状态。公约数都是成对出现，除非两个数重叠就是一个数，那么这种数就是完全平方数。所以，只需要求完全平方数的个数即可。
+
 |===
 
 

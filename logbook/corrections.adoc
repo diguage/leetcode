@@ -351,7 +351,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/bulb-switcher/[319. 灯泡开关^]
 |{doc_base_url}/0319-bulb-switcher.adoc[题解]
-|⭕️
+|⭕️ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/water-and-jug-problem/[365. 水壶问题^]

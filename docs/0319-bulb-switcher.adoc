@@ -1,7 +1,7 @@
 [#0319-bulb-switcher]
 = 319. 灯泡开关
 
-https://leetcode.cn/problems/bulb-switcher/[LeetCode - 319. 灯泡开关 ^]
+https://leetcode.cn/problems/bulb-switcher/[LeetCode - 319. 灯泡开关^]
 
 初始时有 `n` 个灯泡处于关闭状态。第一轮，你将会打开所有灯泡。接下来的第二轮，你将会每两个灯泡关闭第二个。
 
@@ -39,7 +39,6 @@ image::images/0319-01.jpg[{image_attr}]
 输出：1
 ....
 
-
 *提示：*
 
 * `0 \<= n \<= 10^9^`
@@ -50,6 +49,8 @@ image::images/0319-01.jpg[{image_attr}]
 优化前：模拟开灯过程，通过 33 / 35 测试用例，超时。
 
 没想到竟然是一道数学题：求在 `[1, n]` 之间有多少个平方数。
+
+多模拟几个数字，观察出寻找公约数为奇数的灯（公约数为偶数则会打开再关闭）会被保持打开状态。公约数都是成对出现，除非两个数重叠就是一个数，那么这种数就是完全平方数。所以，只需要求完全平方数的个数即可。
 
 [[src-0319]]
 [tabs]
@@ -63,14 +64,14 @@ include::{sourcedir}/_0319_BulbSwitcher.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0319_BulbSwitcher_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0319_BulbSwitcher_2.java[tag=answer]
+----
+--
 ====
 
 
