@@ -366,7 +366,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/super-pow/[372. 超级次方^]
 |{doc_base_url}/0372-super-pow.adoc[题解]
-|⭕️ ⭕️
+|⭕️ ⭕️ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/wiggle-subsequence/[376. 摆动序列^]

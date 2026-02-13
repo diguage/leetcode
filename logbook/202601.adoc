@@ -260,6 +260,11 @@ endif::[]
 |{doc_base_url}/0319-bulb-switcher.adoc[题解]
 |⭕️ 数学题。多模拟几个数字，观察出寻找公约数为奇数的灯（公约数为偶数则会打开再关闭）会被保持打开状态。公约数都是成对出现，除非两个数重叠就是一个数，那么这种数就是完全平方数。所以，只需要求完全平方数的个数即可。
 
+|{counter:corrections}
+|{leetcode_base_url}/super-pow/[372. 超级次方^]
+|{doc_base_url}/0372-super-pow.adoc[题解]
+|⭕️ 分治+数学运算。利用 stem:[(a⋅b) mod m=[(a mod m)⋅(b mod m)\] mod m] 和 stem:[(a^10)^10] 计算变换为反复计算 stem:[a = (a^10)] 提高高次幂。进一步组合，搞定该题。
+
 |===
 
 

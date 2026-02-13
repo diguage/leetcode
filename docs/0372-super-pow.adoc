@@ -36,8 +36,8 @@ https://leetcode.cn/problems/super-pow/[LeetCode - 372. 超级次方^]
 *提示：*
 
 * `1 \<= a \<= 2^31^ - 1`
-* `+1 <= b.length <= 2000+`
-* `+0 <= b[i] <= 9+`
+* `1 \<= b.length \<= 2000`
+* `0 \<= b[i] \<= 9`
 * `b` 不含前导 0
 
 
@@ -47,7 +47,8 @@ https://leetcode.cn/problems/super-pow/[LeetCode - 372. 超级次方^]
 
 首先，可以推理出如下公式：
 
-stem:[(a⋅b) mod m=[(amodm)⋅(bmodm)\]modm]
+. stem:[(a⋅b) mod m=[(a mod m)⋅(b mod m)\] mod m]
+. stem:[(a^10)^10] 等价于多次计算 stem:[a = (a^10)]。
 
 那么，`a^..xyz^` 可以转换成 `...((a^x^)^10^)^10^(a^y^)^10^(a^z^)`，然后，按照上述公式做计算，即可求出最后结果。
 
@@ -69,6 +70,15 @@ include::{sourcedir}/_0372_SuperPow.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0372_SuperPow_2.java[tag=answer]
+----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0372_SuperPow_3.java[tag=answer]
 ----
 --
 ====
