@@ -371,7 +371,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/wiggle-subsequence/[376. 摆动序列^]
 |{doc_base_url}/0376-wiggle-subsequence.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/combination-sum-iv/[377. 组合总和 Ⅳ^]

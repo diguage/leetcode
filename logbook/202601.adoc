@@ -265,6 +265,11 @@ endif::[]
 |{doc_base_url}/0372-super-pow.adoc[题解]
 |⭕️ 分治+数学运算。利用 stem:[(a⋅b) mod m=[(a mod m)⋅(b mod m)\] mod m] 和 stem:[(a^10)^10] 计算变换为反复计算 stem:[a = (a^10)] 提高高次幂。进一步组合，搞定该题。
 
+|{counter:corrections}
+|{leetcode_base_url}/wiggle-subsequence/[376. 摆动序列^]
+|{doc_base_url}/0376-wiggle-subsequence.adoc[题解]
+|❌ 贪心算法。简单概括：遇到升序序列，则从降序序列增长；如果遇到降序序列，则从升序序列增长。
+
 |===
 
 

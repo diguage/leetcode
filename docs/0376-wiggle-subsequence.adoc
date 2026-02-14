@@ -38,9 +38,8 @@ https://leetcode.cn/problems/wiggle-subsequence/[LeetCode - 376. 摆动序列^]
 
 *提示：*
 
-* `+1 <= nums.length <= 1000+`
-* `+0 <= nums[i] <= 1000+`
-
+* `1 \<= nums.length \<= 1000`
+* `0 \<= nums[i] \<= 1000`
 
 **进阶：**你能否用 stem:[O(n)] 时间复杂度完成此题?
 
@@ -50,6 +49,8 @@ https://leetcode.cn/problems/wiggle-subsequence/[LeetCode - 376. 摆动序列^]
 一脸懵逼！
 
 贪心算法。使用两个变量，分别记录最后两个数字是升序还是降序，然后根据最后一个是升序还是降序，来从降序和升序来增加数量。
+
+简单概括：遇到升序序列，则从降序序列增长；如果遇到降序序列，则从升序序列增长。
 
 image::images/0376-10.png[{image_attr}]
 
@@ -68,14 +69,14 @@ include::{sourcedir}/_0376_WiggleSubsequence.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0376_WiggleSubsequence_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0376_WiggleSubsequence_2.java[tag=answer]
+----
+--
 ====
 
 
