@@ -1085,7 +1085,7 @@ include::0496-next-greater-element-i.adoc[leveloffset=+1]
 
 // include::0499-the-maze-iii.adoc[leveloffset=+1]
 
-// include::0500-keyboard-row.adoc[leveloffset=+1]
+include::0500-keyboard-row.adoc[leveloffset=+1]
 
 include::0501-find-mode-in-binary-search-tree.adoc[leveloffset=+1]
 

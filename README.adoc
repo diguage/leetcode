@@ -3525,13 +3525,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0499-the-maze-iii.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/keyboard-row/[500. Keyboard Row^]
-//|{source_base_url}/_0500_KeyboardRow.java[Java]
-//|{doc_base_url}/0500-keyboard-row.adoc[题解]
-//|Easy
-//|
+
+|{counter:codes}
+|{leetcode_base_url}/keyboard-row/[500. Keyboard Row^]
+|{source_base_url}/_0500_KeyboardRow.java[Java]
+|{doc_base_url}/0500-keyboard-row.adoc[题解]
+|Easy
+|
 
 |{counter:codes}
 |{leetcode_base_url}/find-mode-in-binary-search-tree/[501. Find Mode in Binary Search Tree^]

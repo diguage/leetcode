@@ -270,6 +270,12 @@ endif::[]
 |{doc_base_url}/0376-wiggle-subsequence.adoc[题解]
 |❌ 贪心算法。简单概括：遇到升序序列，则从降序序列增长；如果遇到降序序列，则从升序序列增长。
 
+
+|{counter:codes}
+|{leetcode_base_url}/keyboard-row/[500. 键盘行^]
+|{doc_base_url}/0500-keyboard-row.adoc[题解]
+|✅ 哈希。记录每行字母的下标。查看每个单词第一个字母的下标，然后再对比后续单词下标，有不一致的则出局。
+
 |===
 
 
