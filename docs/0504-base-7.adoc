@@ -1,38 +1,56 @@
 [#0504-base-7]
-= 504. Base 7
+= 504. 七进制数
 
-{leetcode}/problems/base-7/[LeetCode - Base 7^]
+https://leetcode.cn/problems/base-7/[LeetCode - 504. 七进制数^]
 
-Given an integer, return its base 7 string representation.
+给定一个整数 `num`，将其转化为 *7 进制*，并以字符串形式输出。
 
-*Example 1:*
+*示例 1:*
+
+....
+输入: num = 100
+输出: "202"
+....
+
+*示例 2:*
+
+....
+输入: num = -7
+输出: "-10"
+....
+
+*提示：*
+
+* `-10^7^ \<= num \<= 10^7^`
 
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 100
-*Output:* "202"
-----
-
-
-*Example 2:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* -7
-*Output:* "-10"
-----
-
-
-*Note:*
-The input will be in range of [-1e7, 1e7].
-
+== 思路分析
 
 
 [[src-0504]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0504_Base7.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0504_Base7_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/base-7/solutions/1316791/gong-shui-san-xie-jian-dan-mo-ni-ti-by-a-2759/[504. 七进制数 - 简单模拟题^]
+. https://leetcode.cn/problems/base-7/solutions/1314086/qi-jin-zhi-shu-by-leetcode-solution-cl2v/[504. 七进制数 - 官方题解^]

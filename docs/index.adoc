@@ -1093,7 +1093,7 @@ include::0502-ipo.adoc[leveloffset=+1]
 
 include::0503-next-greater-element-ii.adoc[leveloffset=+1]
 
-// include::0504-base-7.adoc[leveloffset=+1]
+include::0504-base-7.adoc[leveloffset=+1]
 
 // include::0505-the-maze-ii.adoc[leveloffset=+1]
 

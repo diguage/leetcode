@@ -3554,13 +3554,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/base-7/[504. Base 7^]
-//|{source_base_url}/_0504_Base7.java[Java]
-//|{doc_base_url}/0504-base-7.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/base-7/[504. Base 7^]
+|{source_base_url}/_0504_Base7.java[Java]
+|{doc_base_url}/0504-base-7.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/the-maze-ii/[505. The Maze II^]
 //|{source_base_url}/_0505_TheMazeII.java[Java]
