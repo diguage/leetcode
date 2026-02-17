@@ -280,6 +280,12 @@ endif::[]
 |{doc_base_url}/0504-base-7.adoc[题解]
 |✅ 模拟。进制转换。
 
+|{counter:codes}
+|{leetcode_base_url}/relative-ranks/[506. Relative Ranks^]
+|{doc_base_url}/0506-relative-ranks.adoc[题解]
+|✅ 哈希+排序。
+
+
 
 |===
 
