@@ -3575,13 +3575,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/perfect-number/[507. Perfect Number^]
-//|{source_base_url}/_0507_PerfectNumber.java[Java]
-//|{doc_base_url}/0507-perfect-number.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/perfect-number/[507. Perfect Number^]
+|{source_base_url}/_0507_PerfectNumber.java[Java]
+|{doc_base_url}/0507-perfect-number.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/most-frequent-subtree-sum/[508. Most Frequent Subtree Sum^]
 //|{source_base_url}/_0508_MostFrequentSubtreeSum.java[Java]

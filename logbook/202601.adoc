@@ -285,6 +285,11 @@ endif::[]
 |{doc_base_url}/0506-relative-ranks.adoc[题解]
 |✅ 哈希+排序。
 
+|{counter:codes}
+|{leetcode_base_url}/perfect-number/[507. Perfect Number^]
+|{doc_base_url}/0507-perfect-number.adoc[题解]
+|✅ 模拟计算。
+
 
 
 |===

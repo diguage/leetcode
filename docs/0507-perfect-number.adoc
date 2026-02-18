@@ -1,32 +1,61 @@
 [#0507-perfect-number]
-= 507. Perfect Number
+= 507. 完美数
 
-{leetcode}/problems/perfect-number/[LeetCode - Perfect Number^]
+https://leetcode.cn/problems/perfect-number/[LeetCode - 507. 完美数^]
 
-We define the Perfect Number is a *positive* integer that is equal to the sum of all its *positive* divisors except itself. 
+对于一个 *正整数*，如果它和除了它自身以外的所有 *正因子* 之和相等，我们称它为 *「完美数」*。
 
-Now, given an *integer* n, write a function that returns true when it is a perfect number and false when it is not.
+给定一个 *整数* `n`， 如果是完美数，返回 `true`；否则返回 `false`。
+
+*示例 1：*
+
+....
+输入：num = 28
+输出：true
+解释：28 = 1 + 2 + 4 + 7 + 14
+1, 2, 4, 7, 和 14 是 28 的所有正因子。
+....
+
+*示例 2：*
+
+....
+输入：num = 7
+输出：false
+....
+
+*提示：*
+
+* `1 \<= num \<= 10^8^`
 
 
-*Example:*
+== 思路分析
 
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 28
-*Output:* True
-*Explanation:* 28 = 1 + 2 + 4 + 7 + 14
-----
-
-
-*Note:*
-The input number *n* will not exceed 100,000,000. (1e8)
-
-
+模拟计算！
 
 [[src-0507]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0507_PerfectNumber.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0507_PerfectNumber_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/perfect-number/solutions/1185028/gong-shui-san-xie-jian-dan-mo-ni-tong-ji-e6jk/[507. 完美数 - 简单数论模拟题^]
+. https://leetcode.cn/problems/perfect-number/solutions/1179051/wan-mei-shu-by-leetcode-solution-d5pw/[507. 完美数 - 官方题解^]

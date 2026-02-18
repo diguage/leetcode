@@ -1099,7 +1099,7 @@ include::0504-base-7.adoc[leveloffset=+1]
 
 include::0506-relative-ranks.adoc[leveloffset=+1]
 
-// include::0507-perfect-number.adoc[leveloffset=+1]
+include::0507-perfect-number.adoc[leveloffset=+1]
 
 // include::0508-most-frequent-subtree-sum.adoc[leveloffset=+1]
 
