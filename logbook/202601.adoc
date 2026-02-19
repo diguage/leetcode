@@ -290,6 +290,11 @@ endif::[]
 |{doc_base_url}/0507-perfect-number.adoc[题解]
 |✅ 模拟计算。
 
+|{counter:codes}
+|{leetcode_base_url}/most-frequent-subtree-sum/[508. Most Frequent Subtree Sum^]
+|{doc_base_url}/0508-most-frequent-subtree-sum.adoc[题解]
+|✅ 深度优先遍历+哈希。先深度优先遍历，计算每个子树的和以及出现次数。然后再遍历处理后的结果，找出出现次数最多的和。
+
 
 
 |===
