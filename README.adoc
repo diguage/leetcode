@@ -3645,12 +3645,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/super-washing-machines/[517. Super Washing Machines^]
-//|{source_base_url}/_0517_SuperWashingMachines.java[Java]
-//|{doc_base_url}/0517-super-washing-machines.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/super-washing-machines/[517. Super Washing Machines^]
+|{source_base_url}/_0517_SuperWashingMachines.java[Java]
+|{doc_base_url}/0517-super-washing-machines.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/coin-change-ii/[518. 零钱兑换 II]

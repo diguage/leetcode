@@ -968,9 +968,14 @@ endif::[]
 |{doc_base_url}/0227-basic-calculator-ii.adoc[题解]
 |❌
 
-|{counter:codes}
+|{counter:corrections}
 |{leetcode_base_url}/maximum-total-damage-with-spell-casting/[3186. 施咒的最大总伤害^]
 |{doc_base_url}/3186-maximum-total-damage-with-spell-casting.adoc[题解]
+|❌
+
+|{counter:corrections}
+|{leetcode_base_url}/super-washing-machines/[517. Super Washing Machines^]
+|{doc_base_url}/0517-super-washing-machines.adoc[题解]
 |❌
 
 |===
