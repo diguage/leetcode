@@ -974,9 +974,14 @@ endif::[]
 |❌
 
 |{counter:corrections}
-|{leetcode_base_url}/super-washing-machines/[517. Super Washing Machines^]
+|{leetcode_base_url}/super-washing-machines/[517. 超级洗衣机^]
 |{doc_base_url}/0517-super-washing-machines.adoc[题解]
 |❌
+
+|{counter:codes}
+|{leetcode_base_url}/random-flip-matrix/[519. 随机翻转矩阵^]
+|{doc_base_url}/0519-random-flip-matrix.adoc[题解]
+|⭕️
 
 |===
 

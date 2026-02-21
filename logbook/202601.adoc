@@ -281,24 +281,30 @@ endif::[]
 |✅ 模拟。进制转换。
 
 |{counter:codes}
-|{leetcode_base_url}/relative-ranks/[506. Relative Ranks^]
+|{leetcode_base_url}/relative-ranks/[506. 相对名次^]
 |{doc_base_url}/0506-relative-ranks.adoc[题解]
 |✅ 哈希+排序。
 
 |{counter:codes}
-|{leetcode_base_url}/perfect-number/[507. Perfect Number^]
+|{leetcode_base_url}/perfect-number/[507. 完美数^]
 |{doc_base_url}/0507-perfect-number.adoc[题解]
 |✅ 模拟计算。
 
 |{counter:codes}
-|{leetcode_base_url}/most-frequent-subtree-sum/[508. Most Frequent Subtree Sum^]
+|{leetcode_base_url}/most-frequent-subtree-sum/[508. 出现次数最多的子树元素和^]
 |{doc_base_url}/0508-most-frequent-subtree-sum.adoc[题解]
 |✅ 深度优先遍历+哈希。先深度优先遍历，计算每个子树的和以及出现次数。然后再遍历处理后的结果，找出出现次数最多的和。
 
 |{counter:codes}
-|{leetcode_base_url}/super-washing-machines/[517. Super Washing Machines^]
+|{leetcode_base_url}/super-washing-machines/[517. 超级洗衣机^]
 |{doc_base_url}/0517-super-washing-machines.adoc[题解]
 |❌ 贪心算法。一脸懵逼，还要再看看！
+
+|{counter:codes}
+|{leetcode_base_url}/random-flip-matrix/[519. Random Flip Matrix^]
+|{doc_base_url}/0519-random-flip-matrix.adoc[题解]
+|⭕️ 双指针。由于数字太大，无法保存所有的坐标点，所以构建未使用的坐标点，然后再删除行不通。反过来，记录已经使用的点，随机生成的坐标如果已经翻转，则向两边扩散，这样就可以保存更少的坐标，就能满足内存要求了。
+
 
 |===
 

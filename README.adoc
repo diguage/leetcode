@@ -3659,13 +3659,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/random-flip-matrix/[519. Random Flip Matrix^]
-//|{source_base_url}/_0519_RandomFlipMatrix.java[Java]
-//|{doc_base_url}/0519-random-flip-matrix.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/random-flip-matrix/[519. Random Flip Matrix^]
+|{source_base_url}/_0519_RandomFlipMatrix.java[Java]
+|{doc_base_url}/0519-random-flip-matrix.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/detect-capital/[520. Detect Capital^]
 //|{source_base_url}/_0520_DetectCapital.java[Java]
