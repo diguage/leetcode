@@ -3666,13 +3666,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/detect-capital/[520. Detect Capital^]
-//|{source_base_url}/_0520_DetectCapital.java[Java]
-//|{doc_base_url}/0520-detect-capital.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/detect-capital/[520. Detect Capital^]
+|{source_base_url}/_0520_DetectCapital.java[Java]
+|{doc_base_url}/0520-detect-capital.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/longest-uncommon-subsequence-i/[521. Longest Uncommon Subsequence I ^]
 //|{source_base_url}/_0521_LongestUncommonSubsequenceI.java[Java]

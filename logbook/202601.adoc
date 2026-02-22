@@ -301,9 +301,15 @@ endif::[]
 |❌ 贪心算法。一脸懵逼，还要再看看！
 
 |{counter:codes}
-|{leetcode_base_url}/random-flip-matrix/[519. Random Flip Matrix^]
+|{leetcode_base_url}/random-flip-matrix/[519. 随机翻转矩阵^]
 |{doc_base_url}/0519-random-flip-matrix.adoc[题解]
 |⭕️ 双指针。由于数字太大，无法保存所有的坐标点，所以构建未使用的坐标点，然后再删除行不通。反过来，记录已经使用的点，随机生成的坐标如果已经翻转，则向两边扩散，这样就可以保存更少的坐标，就能满足内存要求了。
+
+|{counter:codes}
+|{leetcode_base_url}/detect-capital/[520. 检测大写字母^]
+|{doc_base_url}/0520-detect-capital.adoc[题解]
+|✅ 模拟题。简单模拟题。
+
 
 
 |===

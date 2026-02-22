@@ -1,48 +1,64 @@
 [#0520-detect-capital]
-= 520. Detect Capital
+= 520. 检测大写字母
 
-{leetcode}/problems/detect-capital/[LeetCode - Detect Capital^]
+https://leetcode.cn/problems/detect-capital/[LeetCode - 520. 检测大写字母^]
 
-Given a word, you need to judge whether the usage of capitals in it is right or not.
+我们定义，在以下情况时，单词的大写用法是正确的：
 
-We define the usage of capitals in a word to be right when one of the following cases holds:
+* 全部字母都是大写，比如 `USA` 。
+* 单词中所有字母都不是大写，比如 `leetcode` 。
+* 如果单词不只含有一个字母，只有首字母大写， 比如 `Google` 。
+
+给你一个字符串 `word` 。如果大写用法正确，返回 `true` ；否则，返回 `false`。
+
+*示例 1：*
+
+....
+输入：word = "USA"
+输出：true
+....
+
+*示例 2：*
+
+....
+输入：word = "FlaG"
+输出：false
+....
+
+*提示：*
+
+* `1 \<= word.length \<= 100`
+* `word` 由小写和大写英文字母组成
 
 
-. All letters in this word are capitals, like "USA".
-. All letters in this word are not capitals, like "leetcode".
-. Only the first letter in this word is capital, like "Google".
-
-Otherwise, we define that this word doesn't use capitals in a right way.
-
- 
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "USA"
-*Output:* True
-----
-
- 
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "FlaG"
-*Output:* False
-----
-
- 
-
-*Note:* The input will be a non-empty word consisting of uppercase and lowercase latin letters.
-
+== 思路分析
 
 
 [[src-0520]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0520_DetectCapital.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0520_DetectCapital_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/detect-capital/solutions/2819089/jian-ji-xie-fa-pythonjavaccgojsrust-by-e-1ms0/[520. 检测大写字母 - 简洁写法！^]
+. https://leetcode.cn/problems/detect-capital/solutions/1098625/gong-shui-san-xie-jian-dan-zi-fu-chuan-m-rpor/[520. 检测大写字母 - 简单字符串模拟题^]
+. https://leetcode.cn/problems/detect-capital/solutions/1097378/jian-ce-da-xie-zi-mu-by-leetcode-solutio-449z/[520. 检测大写字母 - 官方题解^]

@@ -1125,7 +1125,7 @@ include::0518-coin-change-ii.adoc[leveloffset=+1]
 
 include::0519-random-flip-matrix.adoc[leveloffset=+1]
 
-// include::0520-detect-capital.adoc[leveloffset=+1]
+include::0520-detect-capital.adoc[leveloffset=+1]
 
 // include::0521-longest-uncommon-subsequence-i.adoc[leveloffset=+1]
 
