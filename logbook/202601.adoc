@@ -310,6 +310,12 @@ endif::[]
 |{doc_base_url}/0520-detect-capital.adoc[题解]
 |✅ 模拟题。简单模拟题。
 
+|{counter:codes}
+|{leetcode_base_url}/longest-uncommon-subsequence-i/[521. 最长特殊序列 Ⅰ^]
+|{doc_base_url}/0521-longest-uncommon-subsequence-i.adoc[题解]
+|✅ 模拟题。
+
+
 
 
 |===
