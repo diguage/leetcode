@@ -1129,7 +1129,7 @@ include::0520-detect-capital.adoc[leveloffset=+1]
 
 include::0521-longest-uncommon-subsequence-i.adoc[leveloffset=+1]
 
-// include::0522-longest-uncommon-subsequence-ii.adoc[leveloffset=+1]
+include::0522-longest-uncommon-subsequence-ii.adoc[leveloffset=+1]
 
 include::0523-continuous-subarray-sum.adoc[leveloffset=+1]
 

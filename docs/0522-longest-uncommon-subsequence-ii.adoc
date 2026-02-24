@@ -1,41 +1,66 @@
 [#0522-longest-uncommon-subsequence-ii]
-= 522. Longest Uncommon Subsequence II
+= 522. 最长特殊序列 II
 
-{leetcode}/problems/longest-uncommon-subsequence-ii/[LeetCode - Longest Uncommon Subsequence II^]
+https://leetcode.cn/problems/longest-uncommon-subsequence-ii/[LeetCode - 522. 最长特殊序列 II^]
+
+给定字符串列表 `strs` ，返回其中 *最长的特殊序列* 的长度。如果最长特殊序列不存在，返回 `-1` 。
+
+*特殊序列* 定义如下：该序列为某字符串 *独有的子序列（即不能是其他字符串的子序列）*。
+
+ `s` 的 **子序列**可以通过删去字符串 `s` 中的某些字符实现。
+
+* 例如，`abc` 是 `aebdc` 的子序列，因为您可以删除 "a [.underline]#e# b [.underline]#d# c" 中的下划线字符来得到 `abc`。`aebdc` 的子序列还包括 `aebdc`、`aeb` 和 "" (空字符串)。
+
+*示例 1：*
+
+....
+输入: strs = ["aba","cdc","eae"]
+输出: 3
+....
+
+*示例 2:*
+
+....
+输入: strs = ["aaa","aaa","aa"]
+输出: -1
+....
+
+*提示:*
+
+* `2 \<= strs.length \<= 50`
+* `1 \<= strs[i].length \<= 10`
+* `strs[i]` 只包含小写英文字母
 
 
-Given a list of strings, you need to find the longest uncommon subsequence among them. The longest uncommon subsequence is defined as the longest subsequence of one of these strings and this subsequence should not be *any* subsequence of the other strings.
 
-
-
-A *subsequence* is a sequence that can be derived from one sequence by deleting some characters without changing the order of the remaining elements. Trivially, any string is a subsequence of itself and an empty string is a subsequence of any string.
-
-
-
-The input will be a list of strings, and the output needs to be the length of the longest uncommon subsequence. If the longest uncommon subsequence doesn't exist, return -1.
-
-
-*Example 1:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "aba", "cdc", "eae"
-*Output:* 3
-----
-
-
-*Note:*
-
-. All the given strings' lengths will not exceed 10.
-. The length of the given list will be in the range of [2, 50].
-
-
+== 思路分析
 
 
 [[src-0522]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0522_LongestUncommonSubsequenceII.java[tag=answer]
+include::{sourcedir}/_0522_LongestUncommonSubsequenceIi.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0522_LongestUncommonSubsequenceIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/longest-uncommon-subsequence-ii/solutions/2813217/mei-ju-pan-duan-zi-xu-lie-pythonjavaccgo-8256/[522. 最长特殊序列 II - 枚举+判断子序列^]
+. https://leetcode.cn/problems/longest-uncommon-subsequence-ii/solutions/1627846/by-ac_oier-vuez/[522. 最长特殊序列 II - 经典 LCS 运用题^]
+. https://leetcode.cn/problems/longest-uncommon-subsequence-ii/solutions/1623415/zui-chang-te-shu-xu-lie-ii-by-leetcode-s-bo2e/[522. 最长特殊序列 II - 官方题解^]

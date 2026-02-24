@@ -315,7 +315,10 @@ endif::[]
 |{doc_base_url}/0521-longest-uncommon-subsequence-i.adoc[题解]
 |✅ 模拟题。
 
-
+|{counter:codes}
+|{leetcode_base_url}/longest-uncommon-subsequence-ii/[522. 最长特殊序列 II^]
+|{doc_base_url}/0522-longest-uncommon-subsequence-ii.adoc[题解]
+|⭕️ 模拟题。这道题有点懵逼。题目意思有点怪异，不太好理解。
 
 
 |===

@@ -3680,12 +3680,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/longest-uncommon-subsequence-ii/[522. Longest Uncommon Subsequence II^]
-//|{source_base_url}/_0522_LongestUncommonSubsequenceII.java[Java]
-//|{doc_base_url}/0522-longest-uncommon-subsequence-ii.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/longest-uncommon-subsequence-ii/[522. Longest Uncommon Subsequence II^]
+|{source_base_url}/_0522_LongestUncommonSubsequenceII.java[Java]
+|{doc_base_url}/0522-longest-uncommon-subsequence-ii.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/continuous-subarray-sum/[523. Continuous Subarray Sum^]
