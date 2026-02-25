@@ -313,12 +313,17 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/longest-uncommon-subsequence-i/[521. 最长特殊序列 Ⅰ^]
 |{doc_base_url}/0521-longest-uncommon-subsequence-i.adoc[题解]
-|✅ 模拟题。
+|✅ 字符串。
 
 |{counter:codes}
 |{leetcode_base_url}/longest-uncommon-subsequence-ii/[522. 最长特殊序列 II^]
 |{doc_base_url}/0522-longest-uncommon-subsequence-ii.adoc[题解]
-|⭕️ 模拟题。这道题有点懵逼。题目意思有点怪异，不太好理解。
+|⭕️ 字符串。这道题有点懵逼。题目意思有点怪异，不太好理解。
+
+|{counter:codes}
+|{leetcode_base_url}/longest-word-in-dictionary-through-deleting/[524. 通过删除字母匹配到字典里最长单词^]
+|{doc_base_url}/0524-longest-word-in-dictionary-through-deleting.adoc[题解]
+|✅ 字符串。先对字段做排序，然后从前向后查找符合要求的单词。
 
 
 |===

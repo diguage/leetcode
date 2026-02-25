@@ -1,46 +1,66 @@
 [#0524-longest-word-in-dictionary-through-deleting]
-= 524. Longest Word in Dictionary through Deleting
+= 524. 通过删除字母匹配到字典里最长单词
 
-{leetcode}/problems/longest-word-in-dictionary-through-deleting/[LeetCode - Longest Word in Dictionary through Deleting^]
+https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/[LeetCode - 524. 通过删除字母匹配到字典里最长单词^]
 
+给你一个字符串 `s` 和一个字符串数组 `dictionary`，找出并返回 `dictionary` 中最长的字符串，该字符串可以通过删除 `s` 中的某些字符得到。
 
-Given a string and a string dictionary, find the longest string in the dictionary that can be formed by deleting some characters of the given string. If there are more than one possible results, return the longest word with the smallest lexicographical order. If there is no possible result, return the empty string.
+如果答案不止一个，返回长度最长且字母序最小的字符串。如果答案不存在，则返回空字符串。
 
-*Example 1:*
-[subs="verbatim,quotes,macros"]
-----
-*Input:*
-s = "abpcplea", d = ["ale","apple","monkey","plea"]
+*示例 1：*
 
-*Output:* 
-"apple"
-----
+....
+输入：s = "abpcplea", dictionary = ["ale","apple","monkey","plea"]
+输出："apple"
+....
 
+*示例 2：*
 
+....
+输入：s = "abpcplea", dictionary = ["a","b","c"]
+输出："a"
+....
 
-*Example 2:*
-[subs="verbatim,quotes,macros"]
-----
-*Input:*
-s = "abpcplea", d = ["a","b","c"]
+*提示：*
 
-*Output:* 
-"a"
-----
-
-
-*Note:*
-
-. All the strings in the input will only contain lower-case letters.
-. The size of the dictionary won't exceed 1,000.
-. The length of all the strings in the input won't exceed 1,000.
+* `1 \<= s.length \<= 1000`
+* `1 \<= dictionary.length \<= 1000`
+* `1 \<= dictionary[i].length \<= 1000`
+* `s` 和 `dictionary[i]` 仅由小写英文字母组成
 
 
+== 思路分析
+
+可以先对字段做排序，然后从前向后查找符合要求的单词。
+
+也可以直接查找，跳过不符合要求的字符串。
 
 
 [[src-0524]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0524_LongestWordInDictionaryThroughDeleting.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0524_LongestWordInDictionaryThroughDeleting_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/solutions/996367/gong-shui-san-xie-xiang-jie-pai-xu-shuan-qi20/[524. 通过删除字母匹配到字典里最长单词 - 运用「排序 + 双指针 + 贪心」求解^]
+. https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/solutions/996014/tong-guo-shan-chu-zi-mu-pi-pei-dao-zi-di-at66/[524. 通过删除字母匹配到字典里最长单词 - 官方题解^]
+. https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/solutions/996112/suan-fa-xiao-ai-shuang-zhi-zhen-xiang-ji-6rey/[524. 通过删除字母匹配到字典里最长单词 - 超清晰讲解 + 三种语言代码注释^]

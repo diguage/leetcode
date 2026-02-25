@@ -3694,13 +3694,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |前缀和
 
-//|{counter:codes}
-//|{leetcode_base_url}/longest-word-in-dictionary-through-deleting/[524. Longest Word in Dictionary through Deleting^]
-//|{source_base_url}/_0524_LongestWordInDictionaryThroughDeleting.java[Java]
-//|{doc_base_url}/0524-longest-word-in-dictionary-through-deleting.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/longest-word-in-dictionary-through-deleting/[524. Longest Word in Dictionary through Deleting^]
+|{source_base_url}/_0524_LongestWordInDictionaryThroughDeleting.java[Java]
+|{doc_base_url}/0524-longest-word-in-dictionary-through-deleting.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/contiguous-array/[525. Contiguous Array^]
 //|{source_base_url}/_0525_ContiguousArray.java[Java]
