@@ -325,6 +325,12 @@ endif::[]
 |{doc_base_url}/0524-longest-word-in-dictionary-through-deleting.adoc[题解]
 |✅ 字符串。先对字段做排序，然后从前向后查找符合要求的单词。
 
+|{counter:codes}
+|{leetcode_base_url}/contiguous-array/[525. 连续数组^]
+|{doc_base_url}/0525-contiguous-array.adoc[题解]
+|⭕️ 前缀和。将 `0` 视为 `-1`，做前缀和计算，`0` 和 `1` 相等，则当前位置计算的数字必然在前面出现过。想到了前缀和，没想到把 `0` 视作 `1` 来方便计算。
+
+
 
 |===
 

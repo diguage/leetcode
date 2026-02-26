@@ -1135,7 +1135,7 @@ include::0523-continuous-subarray-sum.adoc[leveloffset=+1]
 
 include::0524-longest-word-in-dictionary-through-deleting.adoc[leveloffset=+1]
 
-// include::0525-contiguous-array.adoc[leveloffset=+1]
+include::0525-contiguous-array.adoc[leveloffset=+1]
 
 // include::0526-beautiful-arrangement.adoc[leveloffset=+1]
 

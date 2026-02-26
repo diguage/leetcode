@@ -1,41 +1,64 @@
 [#0525-contiguous-array]
-= 525. Contiguous Array
+= 525. 连续数组
 
-{leetcode}/problems/contiguous-array/[LeetCode - Contiguous Array^]
+https://leetcode.cn/problems/contiguous-array/[LeetCode - 525. 连续数组^]
 
-Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1. 
+给定一个二进制数组 `nums` , 找到含有相同数量的 `0` 和 `1` 的最长连续子数组，并返回该子数组的长度。
 
+*示例 1:*
 
-*Example 1:*
+....
+输入: nums = [0,1]
+输出: 2
+说明: [0, 1] 是具有相同数量 0 和 1 的最长连续子数组。
+....
 
+*示例 2:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [0,1]
-*Output:* 2
-*Explanation:* [0, 1] is the longest contiguous subarray with equal number of 0 and 1.
-----
+....
+输入: nums = [0,1,0]
+输出: 2
+说明: [0, 1] (或 [1, 0]) 是具有相同数量0和1的最长连续子数组。
+....
 
+*提示：*
 
-*Example 2:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [0,1,0]
-*Output:* 2
-*Explanation:* [0, 1] (or [1, 0]) is a longest contiguous subarray with equal number of 0 and 1.
-----
-
-
-*Note:*
-The length of the given binary array will not exceed 50,000.
+* `1 \<= nums.length \<= 10^5^`
+* `nums[i]` 不是 `0` 就是 `1`
 
 
+== 思路分析
+
+将 `0` 视为 `-1`，做前缀和计算，`0` 和 `1` 相等，则当前位置计算的数字必然在前面出现过。
+
+image::images/0525-10.png[{image_attr}]
 
 [[src-0525]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0525_ContiguousArray.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0525_ContiguousArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+
+. https://leetcode.cn/problems/contiguous-array/solutions/3805089/shi-zi-bian-xing-mei-ju-you-wei-hu-zuo-p-x9q2/[525. 连续数组 - 式子变形 + 枚举右维护左^]
+. https://leetcode.cn/problems/contiguous-array/solutions/809818/dong-tu-yan-shi-qian-zhui-he-si-xiang-by-z2no/[525. 连续数组 - 动图演示 -- 前缀和思想^]
+. https://leetcode.cn/problems/contiguous-array/solutions/809683/lian-xu-shu-zu-by-leetcode-solution-mvnm/[525. 连续数组 - 官方题解^]
