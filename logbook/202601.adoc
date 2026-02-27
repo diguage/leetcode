@@ -330,6 +330,10 @@ endif::[]
 |{doc_base_url}/0525-contiguous-array.adoc[题解]
 |⭕️ 前缀和。将 `0` 视为 `-1`，做前缀和计算，`0` 和 `1` 相等，则当前位置计算的数字必然在前面出现过。想到了前缀和，没想到把 `0` 视作 `1` 来方便计算。
 
+|{counter:codes}
+|{leetcode_base_url}/beautiful-arrangement/[526. Beautiful Arrangement^]
+|{doc_base_url}/0526-beautiful-arrangement.adoc[题解]
+|❌ 动态规划。以为是有条件的全排列，没想到是动态规划。还是有些懵逼，还要再体会一下。
 
 
 |===

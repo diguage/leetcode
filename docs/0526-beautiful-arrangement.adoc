@@ -1,55 +1,74 @@
 [#0526-beautiful-arrangement]
-= 526. Beautiful Arrangement
+= 526. 优美的排列
 
-{leetcode}/problems/beautiful-arrangement/[LeetCode - Beautiful Arrangement^]
+https://leetcode.cn/problems/beautiful-arrangement/[LeetCode - 526. 优美的排列^]
 
-Suppose you have *N* integers from 1 to N. We define a beautiful arrangement as an array that is constructed by these *N* numbers successfully if one of the following is true for the i~th~ position (1 <= i <= N) in this array:
+假设有从 1 到 n 的 n 个整数。用这些整数构造一个数组 `perm`（*下标从 1 开始*），只要满足下述条件 *之一* ，该数组就是一个 *优美的排列* ：
 
+* `perm[i]` 能够被 `i` 整除
+* `i` 能够被 `perm[i]` 整除
 
-. The number at the i~th~ position is divisible by *i*.
-. *i* is divisible by the number at the i~th~ position.
+给你一个整数 `n` ，返回可以构造的 *优美排列* 的 *数量* 。
 
+*示例 1：*
 
- 
+....
+输入：n = 2
+输出：2
+解释：
+第 1 个优美的排列是 [1,2]：
+    - perm[1] = 1 能被 i = 1 整除
+    - perm[2] = 2 能被 i = 2 整除
+第 2 个优美的排列是 [2,1]:
+    - perm[1] = 2 能被 i = 1 整除
+    - i = 2 能被 perm[2] = 1 整除
+....
 
-Now given N, how many beautiful arrangements can you construct?
+*示例 2：*
 
-*Example 1:*
+....
+输入：n = 1
+输出：1
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 2
-*Output:* 2
-*Explanation:* 
+*提示：*
 
-The first beautiful arrangement is [1, 2]:
-
-Number at the 1st position (i=1) is 1, and 1 is divisible by i (i=1).
-
-Number at the 2nd position (i=2) is 2, and 2 is divisible by i (i=2).
-
-The second beautiful arrangement is [2, 1]:
-
-Number at the 1st position (i=1) is 2, and 2 is divisible by i (i=1).
-
-Number at the 2nd position (i=2) is 1, and i (i=2) is divisible by 1.
-----
-
- 
-
-*Note:*
+* `1 \<= n \<= 15`
 
 
-. *N* is a positive integer and will not exceed 15.
 
+== 思路分析
 
- 
+以为是有条件的全排列，没想到是动态规划。还是有些懵逼，还要再体会一下。
 
-
+官方题解中，先找出每个坐标可选的数字，然后再进行回溯也是一个不错的解法。
 
 [[src-0526]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0526_BeautifulArrangement.java[tag=answer]
+include::{sourcedir}/_0526_BeautifulArrangement_a.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0526_BeautifulArrangement_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/beautiful-arrangement/solutions/2787839/jiao-ni-yi-bu-bu-si-kao-zhuang-ya-dpcong-c6kd/[526. 优美的排列 - 教你一步步思考状压 DP：从记忆化搜索到递推^]
+. https://leetcode.cn/problems/beautiful-arrangement/solutions/938214/gong-shui-san-xie-xiang-jie-liang-chong-vgsia/[526. 优美的排列 - 详解两种状态压缩 DP 思路^]
+. https://leetcode.cn/problems/beautiful-arrangement/solutions/938695/yi-ti-wu-jie-dfs-bao-sou-ji-yi-hua-dp-zh-qblw/[526. 优美的排列 - 一题五解：DFS & 爆搜 & 记忆化 & DP & 状态压缩，从 DFS 自然过度到 DP ！^]
+. https://leetcode.cn/problems/beautiful-arrangement/solutions/937821/you-mei-de-pai-lie-by-leetcode-solution-vea2/[526. 优美的排列 - 官方题解^]

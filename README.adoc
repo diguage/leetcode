@@ -3708,13 +3708,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/beautiful-arrangement/[526. Beautiful Arrangement^]
-//|{source_base_url}/_0526_BeautifulArrangement.java[Java]
-//|{doc_base_url}/0526-beautiful-arrangement.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/beautiful-arrangement/[526. Beautiful Arrangement^]
+|{source_base_url}/_0526_BeautifulArrangement.java[Java]
+|{doc_base_url}/0526-beautiful-arrangement.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/word-abbreviation/[527. Word Abbreviation^]
 //|{source_base_url}/_0527_WordAbbreviation.java[Java]
