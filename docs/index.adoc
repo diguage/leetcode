@@ -1143,7 +1143,7 @@ include::0526-beautiful-arrangement.adoc[leveloffset=+1]
 
 include::0528-random-pick-with-weight.adoc[leveloffset=+1]
 
-// include::0529-minesweeper.adoc[leveloffset=+1]
+include::0529-minesweeper.adoc[leveloffset=+1]
 
 include::0530-minimum-absolute-difference-in-bst.adoc[leveloffset=+1]
 

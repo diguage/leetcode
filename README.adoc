@@ -3729,12 +3729,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/minesweeper/[529. Minesweeper^]
-//|{source_base_url}/_0529_Minesweeper.java[Java]
-//|{doc_base_url}/0529-minesweeper.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/minesweeper/[529. Minesweeper^]
+|{source_base_url}/_0529_Minesweeper.java[Java]
+|{doc_base_url}/0529-minesweeper.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/minimum-absolute-difference-in-bst/[530. Minimum Absolute Difference in BST^]

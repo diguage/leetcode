@@ -335,6 +335,10 @@ endif::[]
 |{doc_base_url}/0526-beautiful-arrangement.adoc[题解]
 |❌ 动态规划。以为是有条件的全排列，没想到是动态规划。还是有些懵逼，还要再体会一下。
 
+|{counter:codes}
+|{leetcode_base_url}/minesweeper/[529. 扫雷游戏^]
+|{doc_base_url}/0529-minesweeper.adoc[题解]
+|✅ 广度优先搜索或者深度优先搜索。从起点做一遍广度优先搜索或者深度优先搜索即可。
 
 |===
 
