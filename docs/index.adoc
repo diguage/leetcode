@@ -1149,7 +1149,7 @@ include::0530-minimum-absolute-difference-in-bst.adoc[leveloffset=+1]
 
 // include::0531-lonely-pixel-i.adoc[leveloffset=+1]
 
-// include::0532-k-diff-pairs-in-an-array.adoc[leveloffset=+1]
+include::0532-k-diff-pairs-in-an-array.adoc[leveloffset=+1]
 
 // include::0533-lonely-pixel-ii.adoc[leveloffset=+1]
 

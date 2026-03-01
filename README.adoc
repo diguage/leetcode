@@ -3749,14 +3749,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0531-lonely-pixel-i.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/k-diff-pairs-in-an-array/[532. K-diff Pairs in an Array^]
-//|{source_base_url}/_0532_KDiffPairsInAnArray.java[Java]
-//|{doc_base_url}/0532-k-diff-pairs-in-an-array.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/k-diff-pairs-in-an-array/[532. K-diff Pairs in an Array^]
+|{source_base_url}/_0532_KDiffPairsInAnArray.java[Java]
+|{doc_base_url}/0532-k-diff-pairs-in-an-array.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/lonely-pixel-ii/[533. Lonely Pixel II^]
 //|{source_base_url}/_0533_LonelyPixelII.java[Java]
