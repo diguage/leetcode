@@ -1155,7 +1155,7 @@ include::0532-k-diff-pairs-in-an-array.adoc[leveloffset=+1]
 
 // include::0534-game-play-analysis-iii.adoc[leveloffset=+1]
 
-// include::0535-encode-and-decode-tinyurl.adoc[leveloffset=+1]
+include::0535-encode-and-decode-tinyurl.adoc[leveloffset=+1]
 
 // include::0536-construct-binary-tree-from-string.adoc[leveloffset=+1]
 

@@ -345,6 +345,11 @@ endif::[]
 |{doc_base_url}/0532-k-diff-pairs-in-an-array.adoc[题解]
 |✅ 哈希或双指针。最初想法是暴力破解，看题解可以用哈希加快处理速度。
 
+|{counter:codes}
+|{leetcode_base_url}/encode-and-decode-tinyurl/[535. TinyURL 的加密与解密^]
+|{doc_base_url}/0535-encode-and-decode-tinyurl.adoc[题解]
+|✅ 哈希。简单的哈希映射！
+
 
 |===
 
