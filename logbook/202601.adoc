@@ -350,6 +350,11 @@ endif::[]
 |{doc_base_url}/0535-encode-and-decode-tinyurl.adoc[题解]
 |✅ 哈希。简单的哈希映射！
 
+|{counter:codes}
+|{leetcode_base_url}/complex-number-multiplication/[537. 复数乘法^]
+|{doc_base_url}/0537-complex-number-multiplication.adoc[题解]
+|✅ 模拟。简单模拟题。
+
 
 |===
 

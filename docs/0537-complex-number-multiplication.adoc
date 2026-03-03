@@ -1,48 +1,63 @@
 [#0537-complex-number-multiplication]
-= 537. Complex Number Multiplication
+= 537. 复数乘法
 
-{leetcode}/problems/complex-number-multiplication/[LeetCode - Complex Number Multiplication^]
+https://leetcode.cn/problems/complex-number-multiplication/[LeetCode - 537. 复数乘法^]
 
+https://baike.baidu.com/item/%E5%A4%8D%E6%95%B0/254365?fr=aladdin[复数] 可以用字符串表示，遵循 `实部 + 虚部i` 的形式，并满足下述条件：
 
-Given two strings representing two <a href = "https://en.wikipedia.org/wiki/Complex_number">complex numbers</a>.
+* `实部` 是一个整数，取值范围是 `[-100, 100]`
+* `虚部` 也是一个整数，取值范围是 `[-100, 100]`
+* `i^2^ == -1`
 
+给你两个字符串表示的复数 `num1` 和 `num2`，请你遵循复数表示形式，返回表示它们乘积的字符串。
 
-You need to return a string representing their multiplication. Note i^2^ = -1 according to the definition.
+*示例 1：*
 
+....
+输入：num1 = "1+1i", num2 = "1+1i"
+输出："0+2i"
+解释：(1 + i) * (1 + i) = 1 + i2 + 2 * i = 2i ，你需要将它转换为 0+2i 的形式。
+....
 
-*Example 1:*
+*示例 2：*
 
+....
+输入：num1 = "1+-1i", num2 = "1+-1i"
+输出："0+-2i"
+解释：(1 - i) * (1 - i) = 1 + i2 - 2 * i = -2i ，你需要将它转换为 0+-2i 的形式。
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "1+1i", "1+1i"
-*Output:* "0+2i"
-*Explanation:* (1 + i) * (1 + i) = 1 + i^2^ + 2 * i = 2i, and you need convert it to the form of 0+2i.
-----
+*提示：*
 
-
-*Example 2:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "1+-1i", "1+-1i"
-*Output:* "0+-2i"
-*Explanation:* (1 - i) * (1 - i) = 1 + i^2^ - 2 * i = -2i, and you need convert it to the form of 0+-2i.
-----
-
-
-*Note:*
-
-. The input strings will not have extra blank.
-. The input strings will be given in the form of *a+bi*, where the integer *a* and *b* will both belong to the range of [-100, 100]. And *the output should be also in this form*.
+* `num1` 和 `num2` 都是有效的复数表示。
 
 
+== 思路分析
 
 
 [[src-0537]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0537_ComplexNumberMultiplication.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0537_ComplexNumberMultiplication_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
 
