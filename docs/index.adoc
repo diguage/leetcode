@@ -1163,7 +1163,7 @@ include::0537-complex-number-multiplication.adoc[leveloffset=+1]
 
 include::0538-convert-bst-to-greater-tree.adoc[leveloffset=+1]
 
-// include::0539-minimum-time-difference.adoc[leveloffset=+1]
+include::0539-minimum-time-difference.adoc[leveloffset=+1]
 
 // include::0540-single-element-in-a-sorted-array.adoc[leveloffset=+1]
 

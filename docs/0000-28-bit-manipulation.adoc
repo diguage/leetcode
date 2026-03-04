@@ -51,6 +51,9 @@ xref:0137-single-number-ii.adoc[137. 只出现一次的数字 II]
 . xref:0169-majority-element.adoc[169. 多数元素]
 . xref:0229-majority-element-ii.adoc[229. 多数元素 II]
 
+=== 鸽巢原理
+
+. xref:0539-minimum-time-difference.adoc[539. 最小时间差]
 
 == 经典例题
 

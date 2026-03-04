@@ -355,6 +355,10 @@ endif::[]
 |{doc_base_url}/0537-complex-number-multiplication.adoc[题解]
 |✅ 模拟。简单模拟题。
 
+|{counter:codes}
+|{leetcode_base_url}/minimum-time-difference/[539. 最小时间差^]
+|{doc_base_url}/0539-minimum-time-difference.adoc[题解]
+|✅ 模拟。将字符串转成分钟数排序取差值即可。注意收尾两端的处理。
 
 |===
 

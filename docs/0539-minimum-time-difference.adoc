@@ -1,31 +1,60 @@
 [#0539-minimum-time-difference]
-= 539. Minimum Time Difference
+= 539. 最小时间差
 
-{leetcode}/problems/minimum-time-difference/[LeetCode - Minimum Time Difference^]
+https://leetcode.cn/problems/minimum-time-difference/[LeetCode - 539. 最小时间差^]
 
-Given a list of 24-hour clock time points in "Hour:Minutes" format, find the minimum *minutes* difference between any two time points in the list. 
-
-*Example 1:*
+给定一个 24 小时制（小时:分钟 *"HH:MM"*）的时间列表，找出列表中任意两个时间的最小时间差并以分钟数表示。
 
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* ["23:59","00:00"]
-*Output:* 1
-----
+*示例 1：*
+
+....
+输入：timePoints = ["23:59","00:00"]
+输出：1
+....
+
+*示例 2：*
+
+....
+输入：timePoints = ["00:00","23:59","00:00"]
+输出：0
+....
+
+*提示：*
+
+* `2 \<= timePoints.length \<= 2 * 10^4^`
+* `timePoints[i]` 格式为 *"HH:MM"*
 
 
-*Note:*
+== 思路分析
 
-. The number of time points in the given list is at least 2 and won't exceed 20000.
-. The input time is legal and ranges from 00:00 to 23:59.
-
-
-
+将字符串转成分钟数排序取差值即可。注意收尾两端的处理。
 
 [[src-0539]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0539_MinimumTimeDifference.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0539_MinimumTimeDifference_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/minimum-time-difference/solutions/1217545/gong-shui-san-xie-jian-dan-mo-ni-ti-by-a-eygg/[539. 最小时间差 - 一题双解 :「排序」&「计数」^]
+. https://leetcode.cn/problems/minimum-time-difference/solutions/1216027/zui-xiao-shi-jian-chai-by-leetcode-solut-xolj/[539. 最小时间差 - 官方题解^] -- 这鸽巢原理用的真是绝了！
 
