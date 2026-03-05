@@ -360,6 +360,12 @@ endif::[]
 |{doc_base_url}/0539-minimum-time-difference.adoc[题解]
 |✅ 模拟。将字符串转成分钟数排序取差值即可。注意收尾两端的处理。
 
+|{counter:codes}
+|{leetcode_base_url}/single-element-in-a-sorted-array/[540. 有序数组中的单一元素^]
+|{doc_base_url}/0540-single-element-in-a-sorted-array.adoc[题解]
+|✅ 二分查找。在 `mid` 两侧，有单次出现数字的一侧长度是奇数，另外一侧是偶数，通过这个判断，向单次数字靠拢。
+
+
 |===
 
 

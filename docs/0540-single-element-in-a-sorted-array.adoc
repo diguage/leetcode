@@ -1,37 +1,65 @@
 [#0540-single-element-in-a-sorted-array]
-= 540. Single Element in a Sorted Array
+= 540. 有序数组中的单一元素
 
-{leetcode}/problems/single-element-in-a-sorted-array/[LeetCode - Single Element in a Sorted Array^]
+https://leetcode.cn/problems/single-element-in-a-sorted-array/[LeetCode - 540. 有序数组中的单一元素^]
 
-You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once. Find this single element that appears only once.
+给你一个仅由整数组成的有序数组，其中每个元素都会出现两次，唯有一个数只会出现一次。
 
- 
+请你找出并返回只出现一次的那个数。
 
-*Example 1:*
+你设计的解决方案必须满足 stem:[O(log n)] 时间复杂度和 stem:[O(1)] 空间复杂度。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,1,2,3,3,4,4,8,8]
-*Output:* 2
-----
+*示例 1:*
 
-*Example 2:*
+....
+输入: nums = [1,1,2,3,3,4,4,8,8]
+输出: 2
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [3,3,7,7,10,11,11]
-*Output:* 10
-----
+*示例 2:*
 
- 
+....
+输入: nums =  [3,3,7,7,10,11,11]
+输出: 10
+....
 
-*Note:* Your solution should run in O(log n) time and O(1) space.
+*提示:*
+
+* `1 \<= nums.length \<= 10^5^`
+* `0 \<= nums[i] \<= 10^5^`
 
 
+== 思路分析
+
+二分查找：在 `mid` 两侧，有单次出现数字的一侧长度是奇数，另外一侧是偶数，通过这个判断，向单次数字靠拢。
+
+看题解，有更简洁的写法。
 
 [[src-0540]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0540_SingleElementInASortedArray.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0540_SingleElementInASortedArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/single-element-in-a-sorted-array/solutions/2983333/er-fen-xing-zhi-fen-xi-jian-ji-xie-fa-py-0rng/[540. 有序数组中的单一元素 - 二分，性质分析+简洁写法^] -- 好简洁啊！
+. https://leetcode.cn/problems/single-element-in-a-sorted-array/solutions/1264496/gong-shui-san-xie-er-duan-xing-fen-xi-yu-17nv/[540. 有序数组中的单一元素 - 二段性分析运用题^]
+. https://leetcode.cn/problems/single-element-in-a-sorted-array/solutions/1252764/you-xu-shu-zu-zhong-de-dan-yi-yuan-su-by-y8gh/[540. 有序数组中的单一元素 - 官方题解^]
