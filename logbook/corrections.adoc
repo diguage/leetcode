@@ -998,6 +998,11 @@ endif::[]
 |{doc_base_url}/0526-beautiful-arrangement.adoc[题解]
 |❌
 
+|{counter:codes}
+|{leetcode_base_url}/01-matrix/[542. 01 矩阵^]
+|{doc_base_url}/0542-01-matrix.adoc[题解]
+|⭕️
+
 |===
 
 截止目前，本轮练习一共完成 {corrections} 道题。

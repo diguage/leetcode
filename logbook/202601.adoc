@@ -370,6 +370,11 @@ endif::[]
 |{doc_base_url}/0541-reverse-string-ii.adoc[题解]
 |✅ 字符串。按照 `2k` 的步进前进，只翻转前 `k`。
 
+|{counter:codes}
+|{leetcode_base_url}/01-matrix/[542. 01 矩阵^]
+|{doc_base_url}/0542-01-matrix.adoc[题解]
+|⭕️ 广度优先搜索。先没太理解题目意思，后来想到广度优先搜索，没想清楚停止条件。
+
 |===
 
 
