@@ -375,6 +375,12 @@ endif::[]
 |{doc_base_url}/0542-01-matrix.adoc[题解]
 |⭕️ 广度优先搜索。先没太理解题目意思，后来想到广度优先搜索，没想清楚停止条件。
 
+|{counter:codes}
+|{leetcode_base_url}/student-attendance-record-i/[551. 学生出勤记录 I^]
+|{doc_base_url}/0551-student-attendance-record-i.adoc[题解]
+|✅ 字符串。简单的字符串统计。
+
+
 |===
 
 

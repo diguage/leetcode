@@ -1187,7 +1187,7 @@ include::0547-number-of-provinces.adoc[leveloffset=+1]
 
 // include::0550-game-play-analysis-iv.adoc[leveloffset=+1]
 
-// include::0551-student-attendance-record-i.adoc[leveloffset=+1]
+include::0551-student-attendance-record-i.adoc[leveloffset=+1]
 
 // include::0552-student-attendance-record-ii.adoc[leveloffset=+1]
 

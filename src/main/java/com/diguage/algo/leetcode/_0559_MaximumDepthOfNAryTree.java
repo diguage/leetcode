@@ -2,12 +2,12 @@ package com.diguage.algo.leetcode;
 
 import java.util.List;
 
-/**
- * @author D瓜哥 · https://www.diguage.com
- * @since 2024-06-25 18:12:21
- */
 public class _0559_MaximumDepthOfNAryTree {
   // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2024-06-25 18:12:21
+   */
   public int maxDepth(Node root) {
     if (root == null) {
       return 0;

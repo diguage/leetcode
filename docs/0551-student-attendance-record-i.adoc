@@ -1,50 +1,74 @@
 [#0551-student-attendance-record-i]
-= 551. Student Attendance Record I
+= 551. 学生出勤记录 I
 
-{leetcode}/problems/student-attendance-record-i/[LeetCode - Student Attendance Record I^]
+https://leetcode.cn/problems/student-attendance-record-i/[LeetCode - 551. 学生出勤记录 I^]
 
-You are given a string representing an attendance record for a student. The record only contains the following three characters:
+给你一个字符串 `s` 表示一个学生的出勤记录，其中的每个字符用来标记当天的出勤情况（缺勤、迟到、到场）。记录中只含下面三种字符：
 
+* `A`：Absent，缺勤
+* `L`：Late，迟到
+* `P`：Present，到场
 
+如果学生能够 *同时* 满足下面两个条件，则可以获得出勤奖励：
 
-. *'A'* : Absent. 
-. *'L'* : Late.
-.  *'P'* : Present. 
+* 按 *总出勤* 计，学生缺勤（`A`）*严格* 少于两天。
+* 学生 *不会* 存在 *连续* 3 天或 *连续* 3 天以上的迟到（`L`）记录。
 
-
-
-
-A student could be rewarded if his attendance record doesn't contain *more than one 'A' (absent)* or *more than two continuous 'L' (late)*.    
-
-You need to return whether the student could be rewarded according to his attendance record.
-
-*Example 1:*
+如果学生可以获得出勤奖励，返回 `true` ；否则，返回 `false` 。
 
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "PPALLP"
-*Output:* True
-----
+*示例 1：*
+
+....
+输入：s = "PPALLP"
+输出：true
+解释：学生缺勤次数少于 2 次，且不存在 3 天或以上的连续迟到记录。
+....
+
+*示例 2：*
+
+....
+输入：s = "PPALLL"
+输出：false
+解释：学生最后三天连续迟到，所以不满足出勤奖励的条件。
+....
 
 
-*Example 2:*
+*提示：*
 
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "PPALLL"
-*Output:* False
-----
+* `+1 <= s.length <= 1000+`
+* `s[i]` 为 `A`、`L` 或 `P`
 
 
 
+== 思路分析
 
-
+简单的字符串统计。
 
 [[src-0551]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0551_StudentAttendanceRecordI.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0551_StudentAttendanceRecordI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/student-attendance-record-i/solutions/937053/go-yi-xing-jie-jue-by-endlesscheng-88c8/[551. 学生出勤记录 I - 简单题，简单做^]
+. https://leetcode.cn/problems/student-attendance-record-i/solutions/939224/xue-sheng-chu-qin-ji-lu-i-by-leetcode-so-fcol/[551. 学生出勤记录 I - 官方题解^]
