@@ -380,6 +380,11 @@ endif::[]
 |{doc_base_url}/0551-student-attendance-record-i.adoc[题解]
 |✅ 字符串。简单的字符串统计。
 
+|{counter:codes}
+|{leetcode_base_url}/student-attendance-record-ii/[552. 学生出勤记录 II^]
+|{doc_base_url}/0552-student-attendance-record-ii.adoc[题解]
+|❌ 动态规划。可以将其转换成构造一个符合要求的长度为 `n` 的字符串。
+
 
 |===
 

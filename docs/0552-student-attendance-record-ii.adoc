@@ -1,48 +1,90 @@
 [#0552-student-attendance-record-ii]
-= 552. Student Attendance Record II
+= 552. 学生出勤记录 II
 
-{leetcode}/problems/student-attendance-record-ii/[LeetCode - Student Attendance Record II^]
+https://leetcode.cn/problems/student-attendance-record-ii/[LeetCode - 552. 学生出勤记录 II^]
 
-Given a positive integer *n*, return the number of all possible attendance records with length n, which will be regarded as rewardable. The answer may be very large, return it after mod 10^9^ + 7.
+可以用字符串表示一个学生的出勤记录，其中的每个字符用来标记当天的出勤情况（缺勤、迟到、到场）。记录中只含下面三种字符：
 
-A student attendance record is a string that only contains the following three characters:
+* `A`：Absent，缺勤
+* `L`：Late，迟到
+* `P`：Present，到场
 
+如果学生能够 *同时* 满足下面两个条件，则可以获得出勤奖励：
 
+* 按 *总出勤* 计，学生缺勤（`A`）*严格* 少于两天。
+* 学生 *不会* 存在 *连续* 3 天或 *连续* 3 天以上的迟到（`L`）记录。
 
-. *'A'* : Absent. 
-. *'L'* : Late.
-.  *'P'* : Present. 
+给你一个整数 `n` ，表示出勤记录的长度（次数）。请你返回记录长度为 `n` 时，可能获得出勤奖励的记录情况 *数量*。答案可能很大，所以返回对
+`10^9^ + 7` *取余* 的结果。
 
+*示例 1：*
 
-
-
-A record is regarded as rewardable if it doesn't contain *more than one 'A' (absent)* or *more than two continuous 'L' (late)*.
-
-*Example 1:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* n = 2
-*Output:* 8 
-*Explanation:*
-There are 8 records with length 2 will be regarded as rewardable:
+....
+输入：n = 2
+输出：8
+解释：
+有 8 种长度为 2 的记录将被视为可奖励：
 "PP" , "AP", "PA", "LP", "PL", "AL", "LA", "LL"
-Only "AA" won't be regarded as rewardable owing to more than one absent times. 
-----
+只有"AA"不会被视为可奖励，因为缺勤次数为 2 次（需要少于 2 次）。
+....
+
+*示例 2：*
+
+....
+输入：n = 1
+输出：3
+....
+
+*示例 3：*
+
+....
+输入：n = 10101
+输出：183236316
+....
+
+*提示：*
+
+* `1 \<= n \<= 10^5^`
 
 
-*Note:*
-The value of *n* won't exceed 100,000.
 
+== 思路分析
 
-
-
+可以将其转换成构造一个符合要求的长度为 `n` 的字符串。
 
 
 [[src-0552]]
+[tabs]
+====
+一刷(暴力破解)::
++
+--
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0552_StudentAttendanceRecordII.java[tag=answer]
+include::{sourcedir}/_0552_StudentAttendanceRecordIi_1a.java[tag=answer]
 ----
+--
+
+一刷(备忘录)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0552_StudentAttendanceRecordIi_1b.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0552_StudentAttendanceRecordIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
 
