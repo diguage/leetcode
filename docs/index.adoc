@@ -1191,7 +1191,7 @@ include::0551-student-attendance-record-i.adoc[leveloffset=+1]
 
 include::0552-student-attendance-record-ii.adoc[leveloffset=+1]
 
-// include::0553-optimal-division.adoc[leveloffset=+1]
+include::0553-optimal-division.adoc[leveloffset=+1]
 
 // include::0554-brick-wall.adoc[leveloffset=+1]
 

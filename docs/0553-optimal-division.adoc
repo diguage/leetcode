@@ -1,43 +1,79 @@
 [#0553-optimal-division]
-= 553. Optimal Division
+= 553. 最优除法
 
-{leetcode}/problems/optimal-division/[LeetCode - Optimal Division^]
+https://leetcode.cn/problems/optimal-division/[LeetCode - 553. 最优除法^]
 
-Given a list of *positive integers*, the adjacent integers will perform the float division. For example, [2,3,4] -> 2 / 3 / 4.
+给定一正整数数组 ** `nums`*，*`nums` 中的相邻整数将进行浮点除法。
 
-However, you can add any number of parenthesis at any position to change the priority of operations. You should find out how to add parenthesis to get the *maximum* result, and return the corresponding expression in string format. *Your expression should NOT contain redundant parenthesis.*
+* 例如，`nums = [2,3,4]`，我们将求表达式的值 `2/3/4`。
 
-*Example:*
+但是，你可以在任意位置添加任意数目的括号，来改变算数的优先级。你需要找出怎么添加括号，以便计算后的表达式的值为最大值。
 
+以字符串格式返回具有最大值的对应表达式。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1000,100,10,2]
-*Output:* "1000/(100/10/2)"
-*Explanation:*
-1000/(100/10/2) = 1000/((100/10)/2) = 200
-However, the bold parenthesis in "1000/(*(*100/10*)*/2)" are redundant, <br/>since they don't influence the operation priority. So you should return "1000/(100/10/2)". 
+**注意：**你的表达式不应该包含多余的括号。
 
-Other cases:
+*示例 1：*
+
+....
+输入: [1000,100,10,2]
+输出: "1000/(100/10/2)"
+解释: 1000/(100/10/2) = 1000/((100/10)/2) = 200
+但是，以下加粗的括号 "1000/((100/10)/2)" 是冗余的，
+因为他们并不影响操作的优先级，所以你需要返回 "1000/(100/10/2)"。
+
+其他用例:
 1000/(100/10)/2 = 50
 1000/(100/(10/2)) = 50
 1000/100/10/2 = 0.5
 1000/100/(10/2) = 2
-----
+....
+
+*示例 2:*
+
+....
+输入: nums = [2,3,4]
+输出: "2/(3/4)"
+解释: (2/(3/4)) = 8/3 = 2.667
+可以看出，在尝试了所有的可能性之后，我们无法得到一个结果大于 2.667 的表达式。
+....
+
+*说明:*
+
+* `1 \<= nums.length \<= 10`
+* `2 \<= nums[i] \<= 1000`
+* 对于给定的输入只有一种最优除法。
 
 
-*Note:*
 
-. The length of the input array is [1, 10].
-. Elements in the given array will be in range [2, 1000].
-. There is only one optimal division for each test case.
-
-
+== 思路分析
 
 
 [[src-0553]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0553_OptimalDivision.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0553_OptimalDivision_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/optimal-division/solutions/1295375/gong-shui-san-xie-shu-xue-lei-tan-xin-yu-61sq/[553. 最优除法 - 数学类贪心运用题^]
+. https://leetcode.cn/problems/optimal-division/solutions/1283208/zui-you-chu-fa-by-leetcode-solution-lf4c/[553. 最优除法 - 官方题解^]
 
