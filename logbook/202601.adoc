@@ -390,6 +390,11 @@ endif::[]
 |{doc_base_url}/0553-optimal-division.adoc[题解]
 |❌ 贪心算法或者动态规划。贪心算法有点类似脑筋急转弯。
 
+|{counter:codes}
+|{leetcode_base_url}/brick-wall/[554. 砖墙^]
+|{doc_base_url}/0554-brick-wall.adoc[题解]
+|✅ 前缀和+哈希。使用前缀和，求解每一行的缝隙值大小，使用哈希存储缝隙值出现的次数。缝隙值出现次数最多的值，就是要求解的情况。
+
 
 |===
 
