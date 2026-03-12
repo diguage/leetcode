@@ -1197,7 +1197,7 @@ include::0554-brick-wall.adoc[leveloffset=+1]
 
 // include::0555-split-concatenated-strings.adoc[leveloffset=+1]
 
-// include::0556-next-greater-element-iii.adoc[leveloffset=+1]
+include::0556-next-greater-element-iii.adoc[leveloffset=+1]
 
 // include::0557-reverse-words-in-a-string-iii.adoc[leveloffset=+1]
 

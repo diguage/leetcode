@@ -395,6 +395,12 @@ endif::[]
 |{doc_base_url}/0554-brick-wall.adoc[题解]
 |✅ 前缀和+哈希。使用前缀和，求解每一行的缝隙值大小，使用哈希存储缝隙值出现的次数。缝隙值出现次数最多的值，就是要求解的情况。
 
+|{counter:codes}
+|{leetcode_base_url}/next-greater-element-iii/[556. 下一个更大元素 III^]
+|{doc_base_url}/0556-next-greater-element-iii.adoc[题解]
+|✅ 双指针。利用了 {doc_base_url}/0031-next-permutation.adoc[31. 下一个排列] 的思路。
+
+
 
 |===
 

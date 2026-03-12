@@ -1,35 +1,69 @@
 [#0556-next-greater-element-iii]
-= 556. Next Greater Element III
+= 556. 下一个更大元素 III
 
-{leetcode}/problems/next-greater-element-iii/[LeetCode - Next Greater Element III^]
+https://leetcode.cn/problems/next-greater-element-iii/[LeetCode - 556. 下一个更大元素 III^]
 
-Given a positive *32-bit* integer *n*, you need to find the smallest *32-bit* integer which has exactly the same digits existing in the integer *n* and is greater in value than n. If no such positive *32-bit* integer exists, you need to return -1.
+给你一个正整数 `n`，请你找出符合条件的最小整数，其由重新排列 `n` 中存在的每位数字组成，并且其值大于 `n`。如果不存在这样的正整数，则返回 `-1`。
 
-*Example 1:*
+*注意* ，返回的整数应当是一个 *32 位整数*，如果存在满足题意的答案，但不是 *32 位整数* ，同样返回 `-1`。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 12
-*Output:* 21
-----
+*示例 1：*
 
- 
+....
+输入：n = 12
+输出：21
+....
 
-*Example 2:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 21
-*Output:* -1
-----
+....
+输入：n = 21
+输出：-1
+....
 
- 
+*提示：*
+
+* `1 \<= n \<= 2^31^ - 1`
 
 
+== 思路分析
+
+利用了 xref:0031-next-permutation.adoc[31. 下一个排列] 的思路。增加了是否溢出的判断。
+
+TIP: 图示是先排序，再交换。和先交换，再排序，结果似乎一样的。
+
+image::images/0556-10.svg[{image_attr}]
+
+image::images/0556-11.svg[{image_attr}]
+
+image::images/0556-12.svg[{image_attr}]
+
+image::images/0556-13.svg[{image_attr}]
 
 [[src-0556]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0556_NextGreaterElementIII.java[tag=answer]
+include::{sourcedir}/_0556_NextGreaterElementIii.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0556_NextGreaterElementIii_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/next-greater-element-iii/solutions/1642334/by-lfool-vi69/[556. 下一个更大元素 III - 我愿称之为最强可视化！！🔥🔥🔥^]
+. https://leetcode.cn/problems/next-greater-element-iii/solutions/1639232/xia-yi-ge-geng-da-yuan-su-iii-by-leetcod-mqf1/[556. 下一个更大元素 III - 官方题解^]
