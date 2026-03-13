@@ -400,6 +400,10 @@ endif::[]
 |{doc_base_url}/0556-next-greater-element-iii.adoc[题解]
 |✅ 双指针。利用了 {doc_base_url}/0031-next-permutation.adoc[31. 下一个排列] 的思路。
 
+|{counter:codes}
+|{leetcode_base_url}/reverse-words-in-a-string-iii/[557. 反转字符串中的单词 III^]
+|{doc_base_url}/0557-reverse-words-in-a-string-iii.adoc[题解]
+|✅ 双指针。简单的翻转。
 
 
 |===

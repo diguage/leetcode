@@ -1,28 +1,60 @@
 [#0557-reverse-words-in-a-string-iii]
-= 557. Reverse Words in a String III
+= 557. 反转字符串中的单词 III
 
-{leetcode}/problems/reverse-words-in-a-string-iii/[LeetCode - Reverse Words in a String III^]
+https://leetcode.cn/problems/reverse-words-in-a-string-iii/[LeetCode - 557. 反转字符串中的单词 III^]
 
-Given a string, you need to reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
+给定一个字符串 `s`，你需要反转字符串中每个单词的字符顺序，同时仍保留空格和单词的初始顺序。
 
-*Example 1:*
+*示例 1：*
+
+....
+输入：s = "Let's take LeetCode contest"
+输出："s'teL ekat edoCteeL tsetnoc"
+....
+
+*示例 2:*
+
+....
+输入： s = "Mr Ding"
+输出："rM gniD"
+....
+
+****提示：****
+
+* `1 \<= s.length \<= 5 * 10^4^`
+* `s` 包含可打印的 *ASCII* 字符。
+* `s` 不包含任何开头或结尾空格。
+* `s` 里 *至少* 有一个词。
+* `s` 中的所有单词都用一个空格隔开。
 
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "Let's take LeetCode contest"
-*Output:* "s'teL ekat edoCteeL tsetnoc"
-----
-
-
-*Note:*
-In the string, each word is separated by single space and there will not be any extra space in the string.
-
+== 思路分析
 
 
 [[src-0557]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0557_ReverseWordsInAStringIII.java[tag=answer]
+include::{sourcedir}/_0557_ReverseWordsInAStringIii.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0557_ReverseWordsInAStringIii_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/reverse-words-in-a-string-iii/solutions/393471/fan-zhuan-zi-fu-chuan-zhong-de-dan-ci-iii-by-lee-2/[557. 反转字符串中的单词 III - 官方题解^]
+. https://leetcode.cn/problems/reverse-words-in-a-string-iii/solutions/681646/yi-ci-bian-li-chao-jian-dan-jie-ti-si-lu-2h8s/[557. 反转字符串中的单词 III - 超过100% Java 超简单解题思路 原地解法^]
