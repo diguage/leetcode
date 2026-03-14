@@ -1,9 +1,9 @@
 [#0558-logical-or-of-two-binary-grids-represented-as-quad-trees]
 = 558. 四叉树交集
 
-https://leetcode.cn/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/[LeetCode - 558. 四叉树交集 ^]
+https://leetcode.cn/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/[LeetCode - 558. 四叉树交集^]
 
-二进制矩阵中的所有元素不是 *0* 就是 *1* 。
+二进制矩阵中的所有元素不是 *0* 就是 *1*。
 
 给你两个四叉树，`quadTree1` 和 `quadTree2`。其中 `quadTree1` 表示一个 `n * n` 二进制矩阵，而 `quadTree2` 表示另一个 `n * n` 二进制矩阵。
 
@@ -13,8 +13,8 @@ https://leetcode.cn/problems/logical-or-of-two-binary-grids-represented-as-quad-
 
 四叉树数据结构中，每个内部节点只有四个子节点。此外，每个节点都有两个属性：
 
-* `val`：储存叶子结点所代表的区域的值。`1` 对应 *True*，`0` 对应 *False*；
-* `isLeaf`: 当这个节点是一个叶子结点时为 *True*，如果它有 4 个子节点则为 *False* 。
+* `val`：储存叶子结点所代表的区域的值。1 对应 *True*，0 对应 *False*；
+* `isLeaf`: 当这个节点是一个叶子结点时为 *True*，如果它有 4 个子节点则为 *False*。
 
 ....
 class Node {
@@ -33,7 +33,7 @@ class Node {
 . 如果当前网格的值不同，将 `isLeaf` 设为 False， 将 `val` 设为任意值，然后如下图所示，将当前网格划分为四个子网格。
 . 使用适当的子网格递归每个子节点。
 
-image:https://assets.leetcode.com/uploads/2020/02/11/new_top.png[https://assets.leetcode.com/uploads/2020/02/11/new_top]
+image::images/0558-01.png[{image_attr}]
 
 如果你想了解更多关于四叉树的内容，可以参考 https://baike.baidu.com/item/%E5%9B%9B%E5%8F%89%E6%A0%91/8557650[百科]。
 
@@ -41,15 +41,16 @@ image:https://assets.leetcode.com/uploads/2020/02/11/new_top.png[https://assets.
 
 输出为使用层序遍历后四叉树的序列化形式，其中 `null` 表示路径终止符，其下面不存在节点。
 
-它与二叉树的序列化非常相似。唯一的区别是节点以列表形式表示 `[isLeaf, val]` 。
+它与二叉树的序列化非常相似。唯一的区别是节点以列表形式表示 `[isLeaf, val]`。
 
-如果 `isLeaf` 或者 `val` 的值为 True ，则表示它在列表 `[isLeaf, val]` 中的值为 *1* ；如果 `isLeaf` 或者 `val` 的值为 False ，则表示值为 *0* 。
+如果 `isLeaf` 或者 `val` 的值为 `True`，则表示它在列表 `[isLeaf, val]` 中的值为 *1* ；如果 `isLeaf` 或者 `val` 的值为 `False`，则表示值为 *0* 。
+
 
 *示例 1：*
 
-image:https://assets.leetcode.com/uploads/2020/02/11/qt1.png[https://assets.leetcode.com/uploads/2020/02/11/qt1]
+image::images/0558-02.png[{image_attr}]
 
-image:https://assets.leetcode.com/uploads/2020/02/11/qt2.png[https://assets.leetcode.com/uploads/2020/02/11/qt2]
+image::images/0558-03.png[{image_attr}]
 
 ....
 输入：quadTree1 = [[0,1],[1,1],[1,1],[1,0],[1,0]]
@@ -73,7 +74,8 @@ image:https://assets.leetcode.com/uploads/2020/02/11/qt2.png[https://assets.leet
 *提示：*
 
 * `quadTree1` 和 `quadTree2` 都是符合题目要求的四叉树，每个都代表一个 `n * n` 的矩阵。
-* `n == 2^x^` ，其中 `+0 <= x <= 9+`.
+* `n == 2^x^` ，其中 `0 \<= x \<= 9`.
+
 
 
 == 思路分析
@@ -104,4 +106,5 @@ include::{sourcedir}/_0558_LogicalOrOfTwoBinaryGridsRepresentedAsQuadTrees.java[
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/solutions/1668693/si-cha-shu-jiao-ji-by-leetcode-solution-wy1u/[558. 四叉树交集 - 官方题解^]
+. https://leetcode.cn/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/solutions/48527/zhe-ti-you-ji-ge-xu-yao-zhu-yi-de-di-fang-yi-zhi-k/[558. 四叉树交集 - 这题有几个需要注意的地方,一直看题没搞明白， 经过错了N次才理解题意，这里记录一下^]

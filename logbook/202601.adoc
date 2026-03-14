@@ -405,6 +405,11 @@ endif::[]
 |{doc_base_url}/0557-reverse-words-in-a-string-iii.adoc[题解]
 |✅ 双指针。简单的翻转。
 
+|{counter:codes}
+|{leetcode_base_url}/logical-or-of-two-binary-grids-represented-as-quad-trees/[558. 四叉树交集^]
+|{doc_base_url}/0558-logical-or-of-two-binary-grids-represented-as-quad-trees.adoc[题解]
+|✅ 分治。题目理解有些费劲！
+
 
 |===
 
