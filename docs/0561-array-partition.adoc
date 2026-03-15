@@ -1,10 +1,9 @@
 [#0561-array-partition]
 = 561. 数组拆分
 
-https://leetcode.cn/problems/array-partition/[LeetCode - 561. 数组拆分 ^]
+https://leetcode.cn/problems/array-partition/[LeetCode - 561. 数组拆分^]
 
-给定长度为 `2n`** **的整数数组 `nums` ，你的任务是将这些数分成 `n`** 对, 例如
-`(a~1~, b~1~), (a~2~, b~2~), ..., (a~n~, b~n~)`，使得从 `1` 到 `n` 的 `min(a~i~, b~i~)` 总和最大。
+给定长度为 `2n` 的整数数组 `nums`，你的任务是将这些数分成 `n` 对, 例如 `(a~1~, b~1~), (a~2~, b~2~), ..., (a~n~, b~n~)`，使得从 `1` 到 `n` 的 `min(a~i~, b~i~)` 总和最大。
 
 返回该 *最大总和* 。
 
@@ -37,6 +36,7 @@ https://leetcode.cn/problems/array-partition/[LeetCode - 561. 数组拆分 ^]
 
 == 思路分析
 
+将数组排序，取偶数项就是答案。或者从另外一个角度去看这个问题：依次从数组中取两个数，去掉最大数，保留最小数，如何让最小数总和最大？很明显，丢掉最大数，那么保留“二师兄”，反复保留“二师兄”就能达到目的。
 
 [[src-0561]]
 [tabs]
@@ -63,4 +63,6 @@ include::{sourcedir}/_0561_ArrayPartition.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/array-partition/solutions/605303/jue-dui-neng-kan-dong-de-zheng-ming-fan-f7trz/[561. 数组拆分 - 反证法证明贪心算法的正确性^]
+. https://leetcode.cn/problems/array-partition/solutions/5534/minshu-dui-bi-shi-you-xu-shu-lie-shang-xiang-lin-y/[561. 数组拆分 - min{}数对必是有序数列上相邻元素的证明^]
+. https://leetcode.cn/problems/array-partition/solutions/605046/shu-zu-chai-fen-i-by-leetcode-solution-9m9y/[561. 数组拆分 - 官方题解^]

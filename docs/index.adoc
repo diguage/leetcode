@@ -1207,7 +1207,7 @@ include::0559-maximum-depth-of-n-ary-tree.adoc[leveloffset=+1]
 
 include::0560-subarray-sum-equals-k.adoc[leveloffset=+1]
 
-// include::0561-array-partition.adoc[leveloffset=+1]
+include::0561-array-partition.adoc[leveloffset=+1]
 
 // include::0562-longest-line-of-consecutive-one-in-matrix.adoc[leveloffset=+1]
 

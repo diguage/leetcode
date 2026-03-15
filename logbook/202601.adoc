@@ -410,6 +410,10 @@ endif::[]
 |{doc_base_url}/0558-logical-or-of-two-binary-grids-represented-as-quad-trees.adoc[题解]
 |✅ 分治。题目理解有些费劲！
 
+|{counter:codes}
+|{leetcode_base_url}/array-partition/[561. 数组拆分]
+|{doc_base_url}/0561-array-partition.adoc[题解]
+|✅ 贪心。将数组排序，取偶数项就是答案。或者从另外一个角度去看这个问题：依次从数组中取两个数，去掉最大数，保留最小数，如何让最小数总和最大？很明显，丢掉最大数，那么保留“二师兄”，反复保留“二师兄”就能达到目的。
 
 |===
 
