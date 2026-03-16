@@ -1211,7 +1211,7 @@ include::0561-array-partition.adoc[leveloffset=+1]
 
 // include::0562-longest-line-of-consecutive-one-in-matrix.adoc[leveloffset=+1]
 
-// include::0563-binary-tree-tilt.adoc[leveloffset=+1]
+include::0563-binary-tree-tilt.adoc[leveloffset=+1]
 
 // include::0564-find-the-closest-palindrome.adoc[leveloffset=+1]
 

@@ -52,7 +52,7 @@ image::images/dynamic-programming-02.png[{image_attr}]
 
 
 [#tree-dp-trick]
-== 树形 DP 套路
+== 树形 DP 套路（树形动态规划）
 
 树形 DP 套路使用前提：如果题目求解目标是 S 规则，则求解释流程可以定成以每一个节点为头节点的子树在 S 规则下的每一个答案，并且最终答案一定就在其中。
 
