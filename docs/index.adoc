@@ -1213,7 +1213,7 @@ include::0561-array-partition.adoc[leveloffset=+1]
 
 include::0563-binary-tree-tilt.adoc[leveloffset=+1]
 
-// include::0564-find-the-closest-palindrome.adoc[leveloffset=+1]
+include::0564-find-the-closest-palindrome.adoc[leveloffset=+1]
 
 // include::0565-array-nesting.adoc[leveloffset=+1]
 
