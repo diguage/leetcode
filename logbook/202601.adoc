@@ -426,6 +426,10 @@ endif::[]
 |{doc_base_url}/0564-find-the-closest-palindrome.adoc[题解]
 |❌ 数学。一脸懵逼。
 
+|{counter:codes}
+|{leetcode_base_url}/array-nesting/[565. 数组嵌套^]
+|{doc_base_url}/0565-array-nesting.adoc[题解]
+|⭕️ 深度优先遍历或查并集。最初想法是查并集，看题解发现，最简单的解法是深度优先遍历。看评论，用查并集也是可以的。
 
 
 |===

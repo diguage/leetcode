@@ -1,42 +1,67 @@
 [#0565-array-nesting]
-= 565. Array Nesting
+= 565. 数组嵌套
 
-{leetcode}/problems/array-nesting/[LeetCode - Array Nesting^]
+https://leetcode.cn/problems/array-nesting/[LeetCode - 565. 数组嵌套^]
 
-A zero-indexed array A of length N contains all integers from 0 to N-1. Find and return the longest length of set S, where S[i] = {A[i], A[A[i]], A[A[A[i]]], ... } subjected to the rule below.
+索引从 `0` 开始长度为 `N` 的数组 `A`，包含 `0`到 `N - 1` 的所有整数。找到最大的集合 `S` 并返回其大小，其中 `S[i] = {A[i], A[A[i]], A[A[A[i]]], ... }`且遵守以下的规则。
 
-Suppose the first element in S starts with the selection of element A[i] of index = i, the next element in S should be A[A[i]], and then A[A[A[i]]]&hellip; By that analogy, we stop adding right before a duplicate element occurs in S.
+假设选择索引为 `i` 的元素 `A[i]` 为 `S` 的第一个元素，`S` 的下一个元素应该是 `A[A[i]]`，之后是 `A[A[A[i]]]...` 以此类推，不断添加直到`S`出现重复的元素。
 
- 
+*示例 1:*
 
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* A = [5,4,0,3,1,6,2]
-*Output:* 4
-*Explanation:* 
+....
+输入: A = [5,4,0,3,1,6,2]
+输出: 4
+解释:
 A[0] = 5, A[1] = 4, A[2] = 0, A[3] = 3, A[4] = 1, A[5] = 6, A[6] = 2.
 
-One of the longest S[K]:
+其中一种最长的 S[K]:
 S[0] = {A[0], A[5], A[6], A[2]} = {5, 6, 2, 0}
-----
+....
 
- 
+*提示：*
 
-*Note:*
-
-
-. N is an integer within the range [1, 20,000].
-. The elements of A are all distinct.
-. Each element of A is an integer within the range [0, N-1].
+* `1 \<= nums.length \<= 10^5^`
+* `0 \<= nums[i] \< nums.length`
+* `A` 中不含有重复的元素。
 
 
+== 思路分析
 
+以为是查并集。看题解发现是深度优先遍历。
+
+TIP: 看评论，查并集也是可以的。
+
+将“嵌套”模拟成图，如下：
+
+image::images/0565-10.png[{image_attr}]
+
+image::images/0565-11.png[{image_attr}]
 
 [[src-0565]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0565_ArrayNesting.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0565_ArrayNesting_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/array-nesting/solutions/1675221/by-heren1229-bb0n/[565. 数组嵌套 - 作图帮助理解^]
+. https://leetcode.cn/problems/array-nesting/solutions/1673589/shu-zu-qian-tao-by-leetcode-solution-7ur3/[565. 数组嵌套 - 官方题解^]
