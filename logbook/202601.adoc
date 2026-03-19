@@ -431,6 +431,11 @@ endif::[]
 |{doc_base_url}/0565-array-nesting.adoc[题解]
 |⭕️ 深度优先遍历或查并集。最初想法是查并集，看题解发现，最简单的解法是深度优先遍历。看评论，用查并集也是可以的。
 
+|{counter:codes}
+|{leetcode_base_url}/reshape-the-matrix/[566. 重塑矩阵^]
+|{doc_base_url}/0566-reshape-the-matrix.adoc[题解]
+|✅ 数学或者模拟题。就是把一个矩阵复制到另外一个矩阵里，算好对以的坐标即可。
+
 
 |===
 

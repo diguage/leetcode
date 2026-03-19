@@ -1217,7 +1217,7 @@ include::0564-find-the-closest-palindrome.adoc[leveloffset=+1]
 
 include::0565-array-nesting.adoc[leveloffset=+1]
 
-// include::0566-reshape-the-matrix.adoc[leveloffset=+1]
+include::0566-reshape-the-matrix.adoc[leveloffset=+1]
 
 include::0567-permutation-in-string.adoc[leveloffset=+1]
 
