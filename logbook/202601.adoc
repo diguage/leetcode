@@ -436,6 +436,11 @@ endif::[]
 |{doc_base_url}/0566-reshape-the-matrix.adoc[题解]
 |✅ 数学或者模拟题。就是把一个矩阵复制到另外一个矩阵里，算好对以的坐标即可。
 
+|{counter:codes}
+|{leetcode_base_url}/subtree-of-another-tree/[572. Subtree of Another Tree^]
+|{doc_base_url}/0572-subtree-of-another-tree.adoc[题解]
+|✅ 深度优先遍历。暴力破解就是两个递归。更优化的解法是，只在相同高度去做递归判断。
+
 
 |===
 
