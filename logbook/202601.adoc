@@ -441,6 +441,11 @@ endif::[]
 |{doc_base_url}/0572-subtree-of-another-tree.adoc[题解]
 |✅ 深度优先遍历。暴力破解就是两个递归。更优化的解法是，只在相同高度去做递归判断。
 
+|{counter:codes}
+|{leetcode_base_url}/distribute-candies/[575. 分糖果^]
+|{doc_base_url}/0575-distribute-candies.adoc[题解]
+|✅ 哈希。
+
 
 |===
 

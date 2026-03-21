@@ -1235,7 +1235,7 @@ include::0572-subtree-of-another-tree.adoc[leveloffset=+1]
 
 // include::0574-winning-candidate.adoc[leveloffset=+1]
 
-// include::0575-distribute-candies.adoc[leveloffset=+1]
+include::0575-distribute-candies.adoc[leveloffset=+1]
 
 // include::0576-out-of-boundary-paths.adoc[leveloffset=+1]
 
