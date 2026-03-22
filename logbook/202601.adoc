@@ -446,6 +446,12 @@ endif::[]
 |{doc_base_url}/0575-distribute-candies.adoc[题解]
 |✅ 哈希。
 
+|{counter:codes}
+|{leetcode_base_url}/out-of-boundary-paths/[576. 出界的路径数^]
+|{doc_base_url}/0576-out-of-boundary-paths.adoc[题解]
+|✅ 深度优先遍历+备忘录。深度优先遍历会超时，因为会有重复计算。加一个备忘录，可以减少不必要的重复计算，提高效率。
+
+
 
 |===
 
