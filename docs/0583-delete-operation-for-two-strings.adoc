@@ -1,34 +1,74 @@
 [#0583-delete-operation-for-two-strings]
-= 583. Delete Operation for Two Strings
+= 583. 两个字符串的删除操作
 
-{leetcode}/problems/delete-operation-for-two-strings/[LeetCode - Delete Operation for Two Strings^]
+https://leetcode.cn/problems/delete-operation-for-two-strings/[LeetCode - 583. 两个字符串的删除操作^]
+
+给定两个单词 `word1` 和 `word2` ，返回使得 `word1` 和 `word2` **相同**所需的**最小步数**。
+
+**每步**可以删除任意一个字符串中的一个字符。
+
+*示例 1：*
+
+....
+输入: word1 = "sea", word2 = "eat"
+输出: 2
+解释: 第一步将 "sea" 变为 "ea" ，第二步将 "eat "变为 "ea"
+....
+
+*示例  2:*
+
+....
+输入：word1 = "leetcode", word2 = "etco"
+输出：4
+....
+
+*提示：*
+
+* `1 \<= word1.length, word2.length \<= 500`
+* `word1` 和 `word2` 只包含小写英文字母
 
 
-Given two words _word1_ and _word2_, find the minimum number of steps required to make _word1_ and _word2_ the same, where in each step you can delete one character in either string.
+== 思路分析
 
+判断最后一个字符是否相同，相同则 stem:[dfs(w1, i - 1, w2, j - 1)]；否则 stem:[min(dfs(w1, i, w2, j - 1) + 1, dfs(w1, i - 1, w2, j) + 1)]。注意边界条件的处理。
 
-*Example 1:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "sea", "eat"
-*Output:* 2
-*Explanation:* You need one step to make "sea" to "ea" and another step to make "eat" to "ea".
-----
-
-
-*Note:*
-
-. The length of given words won't exceed 500.
-. Characters in given words can only be lower-case letters.
-
-
-
+这道题还可以使用 xref:1143-longest-common-subsequence.adoc[1143. Longest Common Subsequence] 和 xref:0072-edit-distance.adoc[72. Edit Distance]（少了插入）的思路来求解。
 
 [[src-0583]]
+[tabs]
+====
+一刷(暴力破解)::
++
+--
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0583_DeleteOperationForTwoStrings.java[tag=answer]
+include::{sourcedir}/_0583_DeleteOperationForTwoStrings_1a.java[tag=answer]
 ----
+--
 
+一刷(备忘录)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0583_DeleteOperationForTwoStrings_1b.java[tag=answer]
+----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0583_DeleteOperationForTwoStrings_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/delete-operation-for-two-strings/solutions/1016018/gong-shui-san-xie-cong-liang-chong-xu-li-wqv7/[583. 两个字符串的删除操作 - 从两种「序列 DP」角度进行求解^]
+. https://leetcode.cn/problems/delete-operation-for-two-strings/solutions/1015796/liang-ge-zi-fu-chuan-de-shan-chu-cao-zuo-14uw/[583. 两个字符串的删除操作 - 官方题解^]
+. https://leetcode.cn/problems/delete-operation-for-two-strings/solutions/856925/dai-ma-sui-xiang-lu-dai-ni-xue-tou-dpzi-8cai1/[583. 两个字符串的删除操作 - 动态规划^]
+. https://leetcode.cn/problems/delete-operation-for-two-strings/solutions/1361145/by-nehzil-eziq/[583. 两个字符串的删除操作 - 详细C++动规五部曲方法论^]

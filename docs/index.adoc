@@ -1251,7 +1251,7 @@ include::0581-shortest-unsorted-continuous-subarray.adoc[leveloffset=+1]
 
 // include::0582-kill-process.adoc[leveloffset=+1]
 
-// include::0583-delete-operation-for-two-strings.adoc[leveloffset=+1]
+include::0583-delete-operation-for-two-strings.adoc[leveloffset=+1]
 
 // include::0584-find-customer-referee.adoc[leveloffset=+1]
 

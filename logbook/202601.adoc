@@ -451,6 +451,10 @@ endif::[]
 |{doc_base_url}/0576-out-of-boundary-paths.adoc[题解]
 |✅ 深度优先遍历+备忘录。深度优先遍历会超时，因为会有重复计算。加一个备忘录，可以减少不必要的重复计算，提高效率。
 
+|{counter:codes}
+|{leetcode_base_url}/delete-operation-for-two-strings/[583. 两个字符串的删除操作^]
+|{doc_base_url}/0583-delete-operation-for-two-strings.adoc[题解]
+|✅ 暴力破解+备忘录。判断最后一个字符是否相同，相同则 stem:[dfs(w1, i - 1, w2, j - 1)]；否则 stem:[min(dfs(w1, i, w2, j - 1) + 1, dfs(w1, i - 1, w2, j) + 1)]。注意边界条件的处理。
 
 
 |===
