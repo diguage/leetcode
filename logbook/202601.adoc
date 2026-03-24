@@ -457,11 +457,9 @@ endif::[]
 |✅ 暴力破解+备忘录。判断最后一个字符是否相同，相同则 stem:[dfs(w1, i - 1, w2, j - 1)]；否则 stem:[min(dfs(w1, i, w2, j - 1) + 1, dfs(w1, i - 1, w2, j) + 1)]。注意边界条件的处理。
 
 |{counter:codes}
-|{leetcode_base_url}/erect-the-fence/[587. Erect the Fence^]
-|{source_base_url}/_0587_ErectTheFence.java[Java]
+|{leetcode_base_url}/erect-the-fence/[587. 安装栅栏^]
 |{doc_base_url}/0587-erect-the-fence.adoc[题解]
-|Hard
-|
+|❌ 数学。 第一次遇到凸包问题，直接看答案吧。
 
 
 |===

@@ -1,4 +1,4 @@
-[#0000-28-bit-manipulation]
+[#0000-28-math]
 = Bit Manipulation 位运算
 
 == 典型技巧
@@ -54,6 +54,10 @@ xref:0137-single-number-ii.adoc[137. 只出现一次的数字 II]
 === 鸽巢原理
 
 . xref:0539-minimum-time-difference.adoc[539. 最小时间差]
+
+=== 凸包问题
+
+. xref:0587-erect-the-fence.adoc[587. 安装栅栏]
 
 == 经典例题
 

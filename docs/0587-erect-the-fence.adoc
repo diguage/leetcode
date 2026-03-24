@@ -38,6 +38,7 @@ image::images/0587-02.jpg[{image_attr}]
 
 == 思路分析
 
+image::images/0587-10.png[{image_attr}]
 
 [[src-0587]]
 [tabs]
@@ -64,4 +65,6 @@ include::{sourcedir}/_0587_ErectTheFence.java[tag=answer]
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/erect-the-fence/solutions/1440879/an-zhuang-zha-lan-by-leetcode-solution-75s3/[587. 安装栅栏 - 官方题解^]
+. https://leetcode.cn/problems/erect-the-fence/solutions/1442258/by-ac_oier-4xuu/[587. 安装栅栏 - 二维凸包模板题^]
+. https://leetcode.cn/problems/erect-the-fence/solutions/223633/xiang-xi-ti-jie-by-fly-f/[587. 安装栅栏 - 详细题解，适合纯新手^]
