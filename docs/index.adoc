@@ -1259,7 +1259,7 @@ include::0583-delete-operation-for-two-strings.adoc[leveloffset=+1]
 
 // include::0586-customer-placing-the-largest-number-of-orders.adoc[leveloffset=+1]
 
-// include::0587-erect-the-fence.adoc[leveloffset=+1]
+include::0587-erect-the-fence.adoc[leveloffset=+1]
 
 // include::0588-design-in-memory-file-system.adoc[leveloffset=+1]
 

@@ -1,53 +1,67 @@
 [#0587-erect-the-fence]
-= 587. Erect the Fence
+= 587. 安装栅栏
 
-{leetcode}/problems/erect-the-fence/[LeetCode - Erect the Fence^]
+https://leetcode.cn/problems/erect-the-fence/[LeetCode - 587. 安装栅栏^]
 
-There are some trees, where each tree is represented by (x,y) coordinate in a two-dimensional garden. Your job is to fence the entire garden using the *minimum length* of rope as it is expensive. The garden is well fenced only if all the trees are enclosed. Your task is to help find the coordinates of trees which are exactly located on the fence perimeter.
+给定一个数组 `trees`，其中 `trees[i] = [x~i~, y~i~]` 表示树在花园中的位置。
 
- 
+你被要求用最短长度的绳子把整个花园围起来，因为绳子很贵。只有把 *所有的树都围起来*，花园才围得很好。
 
-*Example 1:*
+返回__恰好位于围栏周边的树木的坐标__。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[1,1],[2,2],[2,0],[2,4],[3,3],[4,2]]
-*Output:* [[1,1],[2,0],[4,2],[3,3],[2,4]]
-*Explanation:*
+*示例 1:*
 
-image::https://assets.leetcode.com/uploads/2018/10/12/erect_the_fence_1.png[{image_attr}]
-----
+image::images/0587-01.jpg[{image_attr}]
 
-*Example 2:*
+....
+输入: points = [[1,1],[2,2],[2,0],[2,4],[3,3],[4,2]]
+输出: [[1,1],[2,0],[3,3],[2,4],[4,2]]
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[1,2],[2,2],[4,2]]
-*Output:* [[1,2],[2,2],[4,2]]
-*Explanation:*
+*示例 2:*
 
-image::https://assets.leetcode.com/uploads/2018/10/12/erect_the_fence_2.png[{image_attr}]
-Even you only have trees in a line, you need to use rope to enclose them. 
-----
+image::images/0587-02.jpg[{image_attr}]
 
- 
+....
+输入: points = [[1,2],[2,2],[4,2]]
+输出: [[4,2],[2,2],[1,2]]
+....
 
-*Note:*
+*注意:*
 
-
-. All trees should be enclosed together. You cannot cut the rope to enclose trees that will separate them in more than one group.
-. All input integers will range from 0 to 100.
-. The garden has at least one tree.
-. All coordinates are distinct.
-. Input points have *NO* order. No order required for output.
-. input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
+* `1 \<= points.length \<= 3000`
+* `points[i].length == 2`
+* `0 \<= x~i~, y~i~ \<= 100`
+* 所有给定的点都是 **唯一 **的。
 
 
+
+== 思路分析
 
 
 [[src-0587]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0587_ErectTheFence.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0587_ErectTheFence_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
 
