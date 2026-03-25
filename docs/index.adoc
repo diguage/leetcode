@@ -1263,7 +1263,7 @@ include::0587-erect-the-fence.adoc[leveloffset=+1]
 
 // include::0588-design-in-memory-file-system.adoc[leveloffset=+1]
 
-// include::0589-n-ary-tree-preorder-traversal.adoc[leveloffset=+1]
+include::0589-n-ary-tree-preorder-traversal.adoc[leveloffset=+1]
 
 // include::0590-n-ary-tree-postorder-traversal.adoc[leveloffset=+1]
 

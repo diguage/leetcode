@@ -461,6 +461,11 @@ endif::[]
 |{doc_base_url}/0587-erect-the-fence.adoc[题解]
 |❌ 数学。 第一次遇到凸包问题，直接看答案吧。
 
+|{counter:codes}
+|{leetcode_base_url}/n-ary-tree-preorder-traversal/[589. N 叉树的前序遍历^]
+|{doc_base_url}/0589-n-ary-tree-preorder-traversal.adoc[题解]
+|✅ 深度优先遍历。递归和用栈模拟的递归。
+
 
 |===
 
