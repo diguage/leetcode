@@ -471,6 +471,10 @@ endif::[]
 |{doc_base_url}/0590-n-ary-tree-postorder-traversal.adoc[题解]
 |✅ 深度优先遍历。递归和用栈模拟的递归。
 
+|{counter:codes}
+|{leetcode_base_url}/tag-validator/[591. 标签验证器^]
+|{doc_base_url}/0591-tag-validator.adoc[题解]
+|✅ 栈。代码不复杂！就是各种边界条件比较麻烦！
 
 
 |===

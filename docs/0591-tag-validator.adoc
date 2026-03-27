@@ -1,111 +1,93 @@
 [#0591-tag-validator]
-= 591. Tag Validator
+= 591. 标签验证器
 
-{leetcode}/problems/tag-validator/[LeetCode - Tag Validator^]
+https://leetcode.cn/problems/tag-validator/[LeetCode - 591. 标签验证器^]
 
-Given a string representing a code snippet, you need to implement a tag validator to parse the code and return whether it is valid. A code snippet is valid if all the following rules hold:
+给定一个表示代码片段的字符串，你需要实现一个验证器来解析这段代码，并返回它是否合法。合法的代码片段需要遵守以下的所有规则：
 
-. The code must be wrapped in a *valid closed tag*. Otherwise, the code is invalid.
-. A *closed tag* (not necessarily valid) has exactly the following format : `<TAG_NAME>TAG_CONTENT</TAG_NAME>`. Among them, `<TAG_NAME>` is the start tag, and `</TAG_NAME>` is the end tag. The TAG_NAME in start and end tags should be the same. A closed tag is *valid* if and only if the TAG_NAME and TAG_CONTENT are valid.
-. A *valid* `TAG_NAME` only contain *upper-case letters*, and has length in range [1,9]. Otherwise, the `TAG_NAME` is *invalid*.
-. A *valid* `TAG_CONTENT` may contain other *valid closed tags*, *cdata* and any characters (see note1) *EXCEPT* unmatched `<`, unmatched start and end tag, and unmatched or closed tags with invalid TAG_NAME. Otherwise, the `TAG_CONTENT` is *invalid*.
-. A start tag is unmatched if no end tag exists with the same TAG_NAME, and vice versa. However, you also need to consider the issue of unbalanced when tags are nested.
-. A `<` is unmatched if you cannot find a subsequent `>`. And when you find a `<` or `</`, all the subsequent characters until the next `>` should be parsed as TAG_NAME  (not necessarily valid).
-. The cdata has the following format : `<![CDATA[CDATA_CONTENT]]>`. The range of `CDATA_CONTENT` is defined as the characters between `<![CDATA[` and the *first subsequent* `]]>`. 
-. `CDATA_CONTENT` may contain *any characters*. The function of cdata is to forbid the validator to parse `CDATA_CONTENT`, so even it has some characters that can be parsed as tag (no matter valid or invalid), you should treat it as *regular characters*. 
+. 代码必须被**合法的闭合标签**包围。否则，代码是无效的。
+. *闭合标签*（不一定合法）要严格符合格式：`<TAG_NAME>TAG_CONTENT</TAG_NAME>`。其中，`<TAG_NAME>` 是起始标签，`</TAG_NAME>` 是结束标签。起始和结束标签中的 `TAG_NAME` 应当相同。当且仅当 `TAG_NAME` 和 `TAG_CONTENT` 都是合法的，闭合标签才是**合法的**。
+. *合法的* `TAG_NAME` 仅含有**大写字母**，长度在范围 [1,9] 之间。否则，该 `TAG_NAME` 是**不合法的**。
+. *合法的* `TAG_CONTENT` 可以包含其他**合法的闭合标签**，*cdata* （请参考规则7）和任意字符（注意参考规则1）**除了**不匹配的 `<`、不匹配的起始和结束标签、不匹配的或带有不合法 `TAG_NAME` 的闭合标签。否则，`TAG_CONTENT` 是**不合法的**。
+. 一个起始标签，如果没有具有相同 `TAG_NAME` 的结束标签与之匹配，是不合法的。反之亦然。不过，你也需要考虑标签嵌套的问题。
+. 一个 `<`，如果你找不到一个后续的 `>` 与之匹配，是不合法的。并且当你找到一个 `<` 或 `</` 时，所有直到下一个 `>` 的前的字符，都应当被解析为 `TAG_NAME`（不一定合法）。
+. cdata 有如下格式：`<![CDATA[CDATA_CONTENT]]>`。`CDATA_CONTENT` 的范围被定义成 `<![CDATA[` 和**后续的第一个** `]]>` 之间的字符。
+. `CDATA_CONTENT` 可以包含**任意字符**。cdata 的功能是阻止验证器解析 `CDATA_CONTENT`，所以即使其中有一些字符可以被解析为标签（无论合法还是不合法），也应该将它们视为**常规字符**。
 
+*示例 1：*
 
-*Valid Code Examples:*
+....
+输入：code = "<DIV>This is the first line <![CDATA[<div>]]></DIV>"
+输出：true
+解释：
+代码被闭合的标签包围：<DIV> 和 </DIV>。
+TAG_NAME 是合法的，TAG_CONTENT 只包含一些字母和 cdata。
+尽管 CDATA_CONTENT 有一个非法 TAG_NAME 的未匹配开始标签，它可以被认为是普通文本，不被解析为一个标签。
+所以 TAG_CONTENT 是合法的，并且代码是合法的。因此返回 true。
+....
 
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "<DIV>This is the first line <![CDATA[<div>]]></DIV>"
+....
+输入：code = "<DIV>>>  ![cdata[]] <![CDATA[<div>]>]]>]]>>]</DIV>"
+输出：true
+解释：
+我们首先将代码分割为：start_tag|tag_content|end_tag。
+start_tag -> "<DIV>"
+end_tag -> "</DIV>"
+tag_content 也可以被分割为：text1|cdata|text2。
+text1 -> ">>  ![cdata[]] "
+cdata -> "<![CDATA[<div>]>]]>"，其中 CDATA_CONTENT 是 "<div>]>"
+text2 -> "]]>>]"
+start_tag 不是 "<DIV>>>" 的原因是规则 6。
+cdata 不是 "<![CDATA[<div>]>]]>]]>" 的原因是规则 7。
+....
 
+*示例 3：*
 
-*Output:* True
+....
+输入：code = "<A>  <B> </A>   </B>"
+输出：false
+解释：不平衡。如果 "<A>" 是闭合的，那么 "<B>" 一定没有匹配，反之亦然。
+....
 
+*注意:*
 
-*Explanation:* 
-The code is wrapped in a closed tag : <DIV> and </DIV>. 
-The TAG_NAME is valid, the TAG_CONTENT consists of some characters and cdata. 
-Although CDATA_CONTENT has unmatched start tag with invalid TAG_NAME, it should be considered as plain text, not parsed as tag.
-So TAG_CONTENT is valid, and then the code is valid. Thus return true.
-
-
-
-*Input:* "<DIV>>>  ![cdata[]] <![CDATA[<div>]>]]>]]>>]</DIV>"
-
-
-*Output:* True
-
-
-*Explanation:*
-
-
-We first separate the code into : start_tag|tag_content|end_tag.
-
-
-start_tag -> *"<DIV>"*
-
-
-end_tag -> *"</DIV>"*
-
-
-tag_content could also be separated into : text1|cdata|text2.
-
-
-text1 -> *">>  ![cdata[]] "*
-
-
-cdata -> *"<![CDATA[<div>]>]]>"*, where the CDATA_CONTENT is *"<div>]>"*
-
-
-text2 -> *"]]>>]"*
+. `1 \<= code.length \<= 500`
+. code 只包含英文字母、数字、 `<`、 `>`、 `/`、 `!`、 `[`、 `]` 和 `<空格>`。
 
 
 
-The reason why start_tag is NOT *"<DIV>>>"* is because of the rule 6.
-The reason why cdata is NOT *"<![CDATA[<div>]>]]>]]>"* is because of the rule 7.
-----
+== 思路分析
 
-
-*Invalid Code Examples:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "<A>  <B> </A>   </B>"
-*Output:* False
-*Explanation:* Unbalanced. If "<A>" is closed, then "<B>" must be unmatched, and vice versa.
-
-*Input:* "<DIV>  div tag is not closed  <DIV>"
-*Output:* False
-
-*Input:* "<DIV>  unmatched &lt  </DIV>"
-*Output:* False
-
-*Input:* "<DIV> closed tags with invalid tag name  <b>123</b> </DIV>"
-*Output:* False
-
-*Input:* "<DIV> unmatched tags with invalid tag name  </1234567890> and <CDATA[[]]>  </DIV>"
-*Output:* False
-
-*Input:* "<DIV>  unmatched start tag <B>  and unmatched end tag </C>  </DIV>"
-*Output:* False
-----
-
-
-*Note:*
-
-. For simplicity, you could assume the input code (including the *any characters* mentioned above) only contain `letters`, `digits`, `'<'`,`'>'`,`'/'`,`'!'`,`'['`,`']'` and `' '`.
-
-
-
+代码不复杂！就是各种边界条件比较麻烦！
 
 [[src-0591]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0591_TagValidator.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0591_TagValidator_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/tag-validator/solutions/1463485/by-nehzil-ryte/[591. 标签验证器 - 高配版的括号匹配思路+分类讨论^]
+. https://leetcode.cn/problems/tag-validator/solutions/1463659/by-ac_oier-9l8z/[591. 标签验证器 - 【宫水三叶】字符串模拟^]
+. https://leetcode.cn/problems/tag-validator/solutions/1461120/biao-qian-yan-zheng-qi-by-leetcode-solut-fecy/[591. 标签验证器 - 官方题解^]
+. https://leetcode.cn/problems/tag-validator/solutions/1463604/by-jam007-zwoz/[591. 标签验证器 - 正则匹配，思路简单，性能高效^]

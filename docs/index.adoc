@@ -1267,7 +1267,7 @@ include::0589-n-ary-tree-preorder-traversal.adoc[leveloffset=+1]
 
 include::0590-n-ary-tree-postorder-traversal.adoc[leveloffset=+1]
 
-// include::0591-tag-validator.adoc[leveloffset=+1]
+include::0591-tag-validator.adoc[leveloffset=+1]
 
 // include::0592-fraction-addition-and-subtraction.adoc[leveloffset=+1]
 
