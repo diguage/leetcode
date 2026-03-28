@@ -3,6 +3,12 @@
 
 == 典型技巧
 
+=== 最大公约数
+
+stem:[gcd(max, min)=gcd(min,max mod min)]
+
+xref:0592-fraction-addition-and-subtraction.adoc[592. 分数加减运算]
+
 === 通过减法求补数
 
 最典型的例子： xref:0476-number-complement.adoc[476. Number Complement]。

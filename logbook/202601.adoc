@@ -476,6 +476,11 @@ endif::[]
 |{doc_base_url}/0591-tag-validator.adoc[题解]
 |✅ 栈。代码不复杂！就是各种边界条件比较麻烦！
 
+|{counter:codes}
+|{leetcode_base_url}/fraction-addition-and-subtraction/[592. 分数加减运算^]
+|{doc_base_url}/0592-fraction-addition-and-subtraction.adoc[题解]
+|✅ 字符串模拟题。每次取一个分子分母和前一个分子分母相加。逐步进行，直到结尾。
+
 
 |===
 
