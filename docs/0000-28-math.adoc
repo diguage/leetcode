@@ -1,6 +1,8 @@
 [#0000-28-math]
 = 数学
 
+:sectnums:
+
 == 典型技巧
 
 === 最大公约数
@@ -315,3 +317,5 @@ xref:0137-single-number-ii.adoc[137. 只出现一次的数字 II]
 == 参考资料
 
 . https://leetcode.cn/discuss/post/3571304/cong-ji-he-lun-dao-wei-yun-suan-chang-ji-enve/[分享｜从集合论到位运算，常见位运算技巧分类总结！^]
+
+:sectnums!:
