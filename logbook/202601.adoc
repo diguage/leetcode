@@ -481,6 +481,10 @@ endif::[]
 |{doc_base_url}/0592-fraction-addition-and-subtraction.adoc[题解]
 |✅ 字符串模拟题。每次取一个分子分母和前一个分子分母相加。逐步进行，直到结尾。
 
+|{counter:codes}
+|{leetcode_base_url}/valid-square/[593. 有效的正方形^]
+|{doc_base_url}/0593-valid-square.adoc[题解]
+|✅ 几何题。最容易想到的解法是计算一个点到其他点的距离，其中两条边相等且相加等于对角线。逐个点判断即可。还有一种解法，绕着中心旋转 90°，各点依然相等。
 
 |===
 

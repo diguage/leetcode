@@ -65,6 +65,10 @@ xref:0137-single-number-ii.adoc[137. 只出现一次的数字 II]
 
 . xref:0587-erect-the-fence.adoc[587. 安装栅栏]
 
+=== 矩阵旋转
+
+. xref:0593-valid-square.adoc[593. 有效的正方形]
+
 == 经典例题
 
 . xref:0029-divide-two-integers.adoc[29. Divide Two Integers]
