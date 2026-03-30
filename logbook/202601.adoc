@@ -486,6 +486,12 @@ endif::[]
 |{doc_base_url}/0593-valid-square.adoc[题解]
 |✅ 几何题。最容易想到的解法是计算一个点到其他点的距离，其中两条边相等且相加等于对角线。逐个点判断即可。还有一种解法，绕着中心旋转 90°，各点依然相等。
 
+|{counter:codes}
+|{leetcode_base_url}/range-addition-ii/[598. Range Addition II^]
+|{doc_base_url}/0598-range-addition-ii.adoc[题解]
+|✅ 脑筋急转弯。求重叠矩阵的面积。
+
+
 |===
 
 
