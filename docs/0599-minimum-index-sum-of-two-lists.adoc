@@ -1,56 +1,64 @@
 [#0599-minimum-index-sum-of-two-lists]
-= 599. Minimum Index Sum of Two Lists
+= 599. 两个列表的最小索引总和
 
-{leetcode}/problems/minimum-index-sum-of-two-lists/[LeetCode - Minimum Index Sum of Two Lists^]
+https://leetcode.cn/problems/minimum-index-sum-of-two-lists/[LeetCode - 599. 两个列表的最小索引总和^]
 
+假设 Andy 和 Doris 想在晚餐时选择一家餐厅，并且他们都有一个表示最喜爱餐厅的列表，每个餐厅的名字用字符串表示。
 
-Suppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings. 
+你需要帮助他们用**最少的索引和**找出他们**共同喜爱的餐厅**。如果答案不止一个，则输出所有答案并且不考虑顺序。你可以假设答案总是存在。
 
+*示例 1:*
 
-You need to help them find out their *common interest* with the *least list index sum*. If there is a choice tie between answers, output all of them with no order requirement. You could assume there always exists an answer.
+....
+输入: list1 = ["Shogun", "Tapioca Express", "Burger King", "KFC"]，list2 = ["Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"]
+输出: ["Shogun"]
+解释: 他们唯一共同喜爱的餐厅是“Shogun”。
+....
 
+*示例 2:*
 
+....
+输入:list1 = ["Shogun", "Tapioca Express", "Burger King", "KFC"]，list2 = ["KFC", "Shogun", "Burger King"]
+输出: ["Shogun"]
+解释: 他们共同喜爱且具有最小索引和的餐厅是“Shogun”，它有最小的索引和1(0+1)。
+....
 
-*Example 1:*
+*提示:*
 
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:*
-["Shogun", "Tapioca Express", "Burger King", "KFC"]
-["Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"]
-*Output:* ["Shogun"]
-*Explanation:* The only restaurant they both like is "Shogun".
-----
-
-
-*Example 2:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:*
-["Shogun", "Tapioca Express", "Burger King", "KFC"]
-["KFC", "Shogun", "Burger King"]
-*Output:* ["Shogun"]
-*Explanation:* The restaurant they both like and have the least index sum is "Shogun" with index sum 1 (0+1).
-----
+* `1 \<= list1.length, list2.length \<= 1000`
+* `1 \<= list1[i].length, list2[i].length \<= 30`
+* `list1[i]` 和 `list2[i]` 由空格 `<空格>` 和英文字母组成。
+* `list1` 的所有字符串都是 *唯一* 的。
+* `list2` 中的所有字符串都是 *唯一* 的。
 
 
-
-*Note:*
-
-. The length of both lists will be in the range of [1, 1000].
-. The length of strings in both lists will be in the range of [1, 30].
-. The index is starting from 0 to the list length minus 1.
-. No duplicates in both lists.
-
-
+== 思路分析
 
 
 [[src-0599]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0599_MinimumIndexSumOfTwoLists.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0599_MinimumIndexSumOfTwoLists_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/minimum-index-sum-of-two-lists/solutions/1335506/by-ac_oier-oh5b/[599. 两个列表的最小索引总和 - 哈希表模拟题^]
+. https://leetcode.cn/problems/minimum-index-sum-of-two-lists/solutions/1330945/liang-ge-lie-biao-de-zui-xiao-suo-yin-zo-5m9w/[599. 两个列表的最小索引总和 - 官方题解^]
