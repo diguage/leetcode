@@ -1285,7 +1285,7 @@ include::0598-range-addition-ii.adoc[leveloffset=+1]
 
 include::0599-minimum-index-sum-of-two-lists.adoc[leveloffset=+1]
 
-// include::0600-non-negative-integers-without-consecutive-ones.adoc[leveloffset=+1]
+include::0600-non-negative-integers-without-consecutive-ones.adoc[leveloffset=+1]
 
 // include::0601-human-traffic-of-stadium.adoc[leveloffset=+1]
 

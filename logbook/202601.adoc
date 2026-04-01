@@ -496,6 +496,12 @@ endif::[]
 |{doc_base_url}/0599-minimum-index-sum-of-two-lists.adoc[题解]
 |✅ 哈希。哈希模拟题。
 
+|{counter:codes}
+|{leetcode_base_url}/non-negative-integers-without-consecutive-ones/[600. 不含连续1的非负整数^]
+|{doc_base_url}/0600-non-negative-integers-without-consecutive-ones.adoc[题解]
+|❌ 动态规划。
+
+
 
 |===
 
