@@ -1,44 +1,63 @@
 [#0605-can-place-flowers]
-= 605. Can Place Flowers
+= 605. 种花问题
 
-{leetcode}/problems/can-place-flowers/[LeetCode - Can Place Flowers^]
+https://leetcode.cn/problems/can-place-flowers/[LeetCode - 605. 种花问题^]
 
-Suppose you have a long flowerbed in which some of the plots are planted and some are not. However, flowers cannot be planted in adjacent plots - they would compete for water and both would die.
+假设有一个很长的花坛，一部分地块种植了花，另一部分却没有。可是，花不能种植在相邻的地块上，它们会争夺水源，两者都会死去。
 
-Given a flowerbed (represented as an array containing 0 and 1, where 0 means empty and 1 means not empty), and a number *n*, return if *n* new flowers can be planted in it without violating the no-adjacent-flowers rule.
+给你一个整数数组 `flowerbed` 表示花坛，由若干 `0` 和 `1` 组成，其中 `0` 表示没种植花，`1` 表示种植了花。另有一个数 `n`，能否在不打破种植规则的情况下种入 `n` 朵花？能则返回 `true`，不能则返回 `false` 。
 
-*Example 1:*
+*示例 1：*
 
+....
+输入：flowerbed = [1,0,0,0,1], n = 1
+输出：true
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* flowerbed = [1,0,0,0,1], n = 1
-*Output:* True
-----
+*示例 2：*
 
+....
+输入：flowerbed = [1,0,0,0,1], n = 2
+输出：false
+....
 
-*Example 2:*
+*提示：*
 
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* flowerbed = [1,0,0,0,1], n = 2
-*Output:* False
-----
-
-
-*Note:*
-
-. The input array won't violate no-adjacent-flowers rule.
-. The input array size is in the range of [1, 20000].
-. *n* is a non-negative integer which won't exceed the input array size.
+* `1 \<= flowerbed.length \<= 2 * 10^4^`
+* `flowerbed[i]` 为 `0` 或 `1`
+* `flowerbed` 中不存在相邻的两朵花
+* `0 \<= n \<= flowerbed.length`
 
 
 
+== 思路分析
+
+贪心。能种尽种。
 
 [[src-0605]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0605_CanPlaceFlowers.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0605_CanPlaceFlowers_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/can-place-flowers/solutions/2463018/ben-ti-zui-jian-dan-xie-fa-pythonjavacgo-6a6k/[605. 种花问题 - 本题最简单写法^]
+. https://leetcode.cn/problems/can-place-flowers/solutions/542556/chong-hua-wen-ti-by-leetcode-solution-sojr/[605. 种花问题 - 官方题解^]
