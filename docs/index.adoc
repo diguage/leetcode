@@ -1303,7 +1303,7 @@ include::0606-construct-string-from-binary-tree.adoc[leveloffset=+1]
 
 // include::0608-tree-node.adoc[leveloffset=+1]
 
-// include::0609-find-duplicate-file-in-system.adoc[leveloffset=+1]
+include::0609-find-duplicate-file-in-system.adoc[leveloffset=+1]
 
 // include::0610-triangle-judgement.adoc[leveloffset=+1]
 

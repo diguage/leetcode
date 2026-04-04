@@ -511,6 +511,12 @@ endif::[]
 |{doc_base_url}/0606-construct-string-from-binary-tree.adoc[题解]
 |✅ 树，深度优先遍历。一个树的前根遍历，也可以看作使用前根遍历来序列化一棵树。
 
+|{counter:codes}
+|{leetcode_base_url}/find-duplicate-file-in-system/[609. Find Duplicate File in System^]
+|{doc_base_url}/0609-find-duplicate-file-in-system.adoc[题解]
+|✅ 哈希。建立内容到路径的映射即可。
+
+
 
 |===
 
