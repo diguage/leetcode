@@ -1307,7 +1307,7 @@ include::0609-find-duplicate-file-in-system.adoc[leveloffset=+1]
 
 // include::0610-triangle-judgement.adoc[leveloffset=+1]
 
-// include::0611-valid-triangle-number.adoc[leveloffset=+1]
+include::0611-valid-triangle-number.adoc[leveloffset=+1]
 
 // include::0612-shortest-distance-in-a-plane.adoc[leveloffset=+1]
 

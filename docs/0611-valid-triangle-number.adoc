@@ -1,37 +1,63 @@
 [#0611-valid-triangle-number]
-= 611. Valid Triangle Number
+= 611. 有效三角形的个数
 
-{leetcode}/problems/valid-triangle-number/[LeetCode - Valid Triangle Number^]
+https://leetcode.cn/problems/valid-triangle-number/[LeetCode - 611. 有效三角形的个数^]
 
-Given an array consists of non-negative integers,  your task is to count the number of triplets chosen from the array that can make triangles if we take them as side lengths of a triangle.
+给定一个包含非负整数的数组 `nums`，返回其中可以组成三角形三条边的三元组个数。
 
-*Example 1:*
+*示例 1:*
 
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [2,2,3,4]
-*Output:* 3
-*Explanation:*
-Valid combinations are: 
-2,3,4 (using the first 2)
-2,3,4 (using the second 2)
+....
+输入: nums = [2,2,3,4]
+输出: 3
+解释:有效的组合是:
+2,3,4 (使用第一个 2)
+2,3,4 (使用第二个 2)
 2,2,3
-----
+....
+
+*示例 2:*
+
+....
+输入: nums = [4,2,3,4]
+输出: 4
+....
+
+*提示:*
+
+* `1 \<= nums.length \<= 1000`
+* `0 \<= nums[i] \<= 1000`
 
 
-*Note:*
 
-. The length of the given array won't exceed 1000.
-. The integers in the given array are in the range of [0, 1000].
+== 思路分析
 
-
-
-
+直接简单暴力破解了。更好的办法是二分查找或者双指针。
 
 [[src-0611]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0611_ValidTriangleNumber.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0611_ValidTriangleNumber_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/valid-triangle-number/solutions/914061/you-xiao-san-jiao-xing-de-ge-shu-by-leet-t2td/[611. 有效三角形的个数 - 官方题解^]
+. https://leetcode.cn/problems/valid-triangle-number/solutions/2432875/zhuan-huan-cheng-abcyong-xiang-xiang-shu-1ex3/[611. 有效三角形的个数 - 三种方法：枚举最长边/枚举最短边/值域卷积^]

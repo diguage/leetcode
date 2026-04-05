@@ -516,6 +516,11 @@ endif::[]
 |{doc_base_url}/0609-find-duplicate-file-in-system.adoc[题解]
 |✅ 哈希。建立内容到路径的映射即可。
 
+|{counter:codes}
+|{leetcode_base_url}/valid-triangle-number/[611. 有效三角形的个数^]
+|{doc_base_url}/0611-valid-triangle-number.adoc[题解]
+|✅ 二分查找或双指针。直接简单暴力破解了。更好的办法是二分查找或者双指针。
+
 
 
 |===
