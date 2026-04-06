@@ -521,6 +521,10 @@ endif::[]
 |{doc_base_url}/0611-valid-triangle-number.adoc[题解]
 |✅ 二分查找或双指针。直接简单暴力破解了。更好的办法是二分查找或者双指针。
 
+|{counter:codes}
+|{leetcode_base_url}/design-circular-queue/[622. 设计循环队列^]
+|{doc_base_url}/0622-design-circular-queue.adoc[题解]
+|✅ 队列。实现一个特殊队列。
 
 
 |===
