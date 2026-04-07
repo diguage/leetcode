@@ -1331,7 +1331,7 @@ include::0621-task-scheduler.adoc[leveloffset=+1]
 
 include::0622-design-circular-queue.adoc[leveloffset=+1]
 
-// include::0623-add-one-row-to-tree.adoc[leveloffset=+1]
+include::0623-add-one-row-to-tree.adoc[leveloffset=+1]
 
 // include::0624-maximum-distance-in-arrays.adoc[leveloffset=+1]
 

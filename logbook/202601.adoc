@@ -526,6 +526,11 @@ endif::[]
 |{doc_base_url}/0622-design-circular-queue.adoc[题解]
 |✅ 队列。实现一个特殊队列。
 
+|{counter:codes}
+|{leetcode_base_url}/add-one-row-to-tree/[623. 在二叉树中增加一行^]
+|{doc_base_url}/0623-add-one-row-to-tree.adoc[题解]
+|✅ 深度优选遍历或广度优先遍历。这次深度优先遍历，下次试试广度优先遍历。
+
 
 |===
 
