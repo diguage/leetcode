@@ -1,44 +1,64 @@
 [#0628-maximum-product-of-three-numbers]
-= 628. Maximum Product of Three Numbers
+= 628. 三个数的最大乘积
 
-{leetcode}/problems/maximum-product-of-three-numbers/[LeetCode - Maximum Product of Three Numbers^]
+https://leetcode.cn/problems/maximum-product-of-three-numbers/[LeetCode - 628. 三个数的最大乘积^]
 
-Given an integer array, find three numbers whose product is maximum and output the maximum product.
+给你一个整型数组 `nums`，在数组中找出由三个数组成的最大乘积，并输出这个乘积。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,2,3]
-*Output:* 6
-----
+....
+输入：nums = [1,2,3]
+输出：6
+....
 
- 
+*示例 2：*
 
-*Example 2:*
+....
+输入：nums = [1,2,3,4]
+输出：24
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,2,3,4]
-*Output:* 24
-----
+*示例 3：*
 
- 
+....
+输入：nums = [-1,-2,-3]
+输出：-6
+....
 
-*Note:*
+*提示：*
 
-
-. The length of the given array will be in range [3,10^4^] and all elements are in the range [-1000, 1000].
-. Multiplication of any three numbers in the input won't exceed the range of 32-bit signed integer.
-
-
- 
+* `3 \<= nums.length \<= 10^4^`
+* `-1000 \<= nums[i] \<= 1000`
 
 
+== 思路分析
+
+最大的三个数相乘或者最大的正数和最小的两个负数相乘。
 
 [[src-0628]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0628_MaximumProductOfThreeNumbers.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0628_MaximumProductOfThreeNumbers_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/maximum-product-of-three-numbers/solutions/567309/san-ge-shu-de-zui-da-cheng-ji-by-leetcod-t9sb/[628. 三个数的最大乘积 - 官方题解^]

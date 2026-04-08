@@ -531,6 +531,11 @@ endif::[]
 |{doc_base_url}/0623-add-one-row-to-tree.adoc[题解]
 |✅ 深度优选遍历或广度优先遍历。这次深度优先遍历，下次试试广度优先遍历。
 
+|{counter:codes}
+|{leetcode_base_url}/maximum-product-of-three-numbers/[628. 三个数的最大乘积^]
+|{doc_base_url}/0628-maximum-product-of-three-numbers.adoc[题解]
+|✅ 数学。最大的三个数相乘或者最大的正数和最小的两个负数相乘。
+
 
 |===
 
