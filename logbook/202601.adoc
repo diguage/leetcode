@@ -536,6 +536,11 @@ endif::[]
 |{doc_base_url}/0628-maximum-product-of-three-numbers.adoc[题解]
 |✅ 数学。最大的三个数相乘或者最大的正数和最小的两个负数相乘。
 
+|{counter:codes}
+|{leetcode_base_url}/k-inverse-pairs-array/[629. K 个逆序对数组^]
+|{doc_base_url}/0629-k-inverse-pairs-array.adoc[题解]
+|❌ 动态规划。从暴力破解，再加备忘录，最后到动态规划，这样的思路比较容易理解。
+
 
 |===
 

@@ -1343,7 +1343,7 @@ include::0623-add-one-row-to-tree.adoc[leveloffset=+1]
 
 include::0628-maximum-product-of-three-numbers.adoc[leveloffset=+1]
 
-// include::0629-k-inverse-pairs-array.adoc[leveloffset=+1]
+include::0629-k-inverse-pairs-array.adoc[leveloffset=+1]
 
 // include::0630-course-schedule-iii.adoc[leveloffset=+1]
 
