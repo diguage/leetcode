@@ -541,6 +541,11 @@ endif::[]
 |{doc_base_url}/0629-k-inverse-pairs-array.adoc[题解]
 |❌ 动态规划。从暴力破解，再加备忘录，最后到动态规划，这样的思路比较容易理解。
 
+|{counter:codes}
+|{leetcode_base_url}/course-schedule-iii/[630. Course Schedule III^]
+|{doc_base_url}/0630-course-schedule-iii.adoc[题解]
+|❌ 贪心+优先队列。贪心得选择更早结束课程，然后有更短的选择时，果断“抛弃”耗时最长的课程。
+
 
 |===
 
