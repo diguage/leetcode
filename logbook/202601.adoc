@@ -546,6 +546,11 @@ endif::[]
 |{doc_base_url}/0630-course-schedule-iii.adoc[题解]
 |❌ 贪心+优先队列。贪心得选择更早结束课程，然后有更短的选择时，果断“抛弃”耗时最长的课程。
 
+|{counter:codes}
+|{leetcode_base_url}/smallest-range-covering-elements-from-k-lists/[632. Smallest Range Covering Elements from K Lists^]
+|{doc_base_url}/0632-smallest-range-covering-elements-from-k-lists.adoc[题解]
+|❌ 排序+滑动窗口。先将所有元素根据大小进行排序（元素要附带上自己所属的区间），然后对排序后的元素做滑动窗口，找出窗口最小的区间。这道题，解法众多，有机会尝试一下其他解法。
+
 
 |===
 

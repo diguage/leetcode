@@ -1,41 +1,69 @@
 [#0632-smallest-range-covering-elements-from-k-lists]
-= 632. Smallest Range Covering Elements from K Lists
+= 632. 最小区间
 
-{leetcode}/problems/smallest-range-covering-elements-from-k-lists/[LeetCode - Smallest Range Covering Elements from K Lists^]
+https://leetcode.cn/problems/smallest-range-covering-elements-from-k-lists/[LeetCode - 632. 最小区间^]
 
-You have `k` lists of sorted integers in ascending order. Find the *smallest* range that includes at least one number from each of the `k` lists.
+你有 `k` 个 *非递减排列* 的整数列表。找到一个 *最小* 区间，使得 `k` 个列表中的每个列表至少有一个数包含在其中。
 
-We define the range [a,b] is smaller than range [c,d] if `b-a < d-c` or `a < c` if `b-a == d-c`.
+我们定义如果 `b-a < d-c` 或者在 `b-a == d-c` 时 `a < c`，则区间 `[a,b]` 比 `[c,d]` 小。
 
- 
+*示例 1：*
 
-*Example 1:*
+....
+输入：nums = [[4,10,15,24,26], [0,9,12,20], [5,18,22,30]]
+输出：[20,24]
+解释：
+列表 1：[4, 10, 15, 24, 26]，24 在区间 [20,24] 中。
+列表 2：[0, 9, 12, 20]，20 在区间 [20,24] 中。
+列表 3：[5, 18, 22, 30]，22 在区间 [20,24] 中。
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[4,10,15,24,26], [0,9,12,20], [5,18,22,30]]
-*Output:* [20,24]
-*Explanation:* 
-List 1: [4, 10, 15, 24,26], 24 is in range [20,24].
-List 2: [0, 9, 12, 20], 20 is in range [20,24].
-List 3: [5, 18, 22, 30], 22 is in range [20,24].
-----
+*示例 2：*
 
- 
+....
+输入：nums = [[1,2,3],[1,2,3],[1,2,3]]
+输出：[1,1]
+....
 
-*Note:*
+*提示：*
 
-
-. The given list may contain duplicates, so ascending order means >= here.
-. 1 <= `k` <= 3500
-. -10^5^ <= `value of elements` <= 10^5^.
+* `nums.length == k`
+* `1 \<= k \<= 3500`
+* `1 \<= nums[i].length \<= 50`
+* `-10^5^ \<= nums[i][j] \<= 10^5^`
+* `nums[i]` 按非递减顺序排列
 
 
 
+== 思路分析
+
+先将所有元素根据大小进行排序（元素要附带上自己所属的区间），然后对排序后的元素做滑动窗口，找出窗口最小的区间。
 
 [[src-0632]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0632_SmallestRangeCoveringElementsFromKLists.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0632_SmallestRangeCoveringElementsFromKLists_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/smallest-range-covering-elements-from-k-lists/solutions/240717/pai-xu-hua-chuang-by-netcan/[632. 最小区间 - 排序滑窗^]
+. https://leetcode.cn/problems/smallest-range-covering-elements-from-k-lists/solutions/355881/zui-xiao-qu-jian-by-leetcode-solution/[632. 最小区间 - 官方题解^]
+. https://leetcode.cn/problems/smallest-range-covering-elements-from-k-lists/solutions/356069/tan-xin-duo-zhi-zhen-you-xian-ji-dui-lie-by-girapa/[632. 最小区间 - java贪心+多指针+优先级队列^]

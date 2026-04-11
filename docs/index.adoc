@@ -1349,7 +1349,7 @@ include::0630-course-schedule-iii.adoc[leveloffset=+1]
 
 // include::0631-design-excel-sum-formula.adoc[leveloffset=+1]
 
-// include::0632-smallest-range-covering-elements-from-k-lists.adoc[leveloffset=+1]
+include::0632-smallest-range-covering-elements-from-k-lists.adoc[leveloffset=+1]
 
 // include::0633-sum-of-square-numbers.adoc[leveloffset=+1]
 
