@@ -1,36 +1,57 @@
 [#0633-sum-of-square-numbers]
-= 633. Sum of Square Numbers
+= 633. 平方数之和
 
-{leetcode}/problems/sum-of-square-numbers/[LeetCode - Sum of Square Numbers^]
+https://leetcode.cn/problems/sum-of-square-numbers/[LeetCode - 633. 平方数之和^]
 
-Given a non-negative integer `c`, your task is to decide whether there're two integers `a` and `b` such that a^2^ + b^2^ = c.
+给定一个非负整数 `c`，你要判断是否存在两个整数 `a` 和 `b`，使得 `a^2^ + b^2^ = c`。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 5
-*Output:* True
-*Explanation:* 1 * 1 + 2 * 2 = 5
-----
+....
+输入：c = 5
+输出：true
+解释：1 * 1 + 2 * 2 = 5
+....
 
- 
+*示例 2：*
 
-*Example 2:*
+....
+输入：c = 3
+输出：false
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 3
-*Output:* False
-----
+*提示：*
 
- 
+* `0 \<= c \<= 2^31^ - 1`
 
+
+== 思路分析
 
 
 [[src-0633]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0633_SumOfSquareNumbers.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0633_SumOfSquareNumbers_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/sum-of-square-numbers/solutions/747079/ping-fang-shu-zhi-he-by-leetcode-solutio-8ydl/[633. 平方数之和 - 官方题解^]
+. https://leetcode.cn/problems/sum-of-square-numbers/solutions/2973811/liang-chong-fang-fa-mei-ju-shuang-zhi-zh-c26z/[633. 平方数之和 - 两种方法：枚举/双指针^]

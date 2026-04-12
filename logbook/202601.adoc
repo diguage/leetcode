@@ -551,6 +551,12 @@ endif::[]
 |{doc_base_url}/0632-smallest-range-covering-elements-from-k-lists.adoc[题解]
 |❌ 排序+滑动窗口。先将所有元素根据大小进行排序（元素要附带上自己所属的区间），然后对排序后的元素做滑动窗口，找出窗口最小的区间。这道题，解法众多，有机会尝试一下其他解法。
 
+|{counter:codes}
+|{leetcode_base_url}/sum-of-square-numbers/[633. 平方数之和^]
+|{doc_base_url}/0633-sum-of-square-numbers.adoc[题解]
+|✅ 数学。数学计算。
+
+
 
 |===
 
