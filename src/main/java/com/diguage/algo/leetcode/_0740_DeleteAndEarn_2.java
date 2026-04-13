@@ -1,8 +1,6 @@
 package com.diguage.algo.leetcode;
 
-import jnr.ffi.annotations.In;
-
-import java.util.*;
+import java.util.Arrays;
 
 public class _0740_DeleteAndEarn_2 {
   // tag::answer[]

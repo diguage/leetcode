@@ -1357,7 +1357,7 @@ include::0633-sum-of-square-numbers.adoc[leveloffset=+1]
 
 // include::0635-design-log-storage-system.adoc[leveloffset=+1]
 
-// include::0636-exclusive-time-of-functions.adoc[leveloffset=+1]
+include::0636-exclusive-time-of-functions.adoc[leveloffset=+1]
 
 include::0637-average-of-levels-in-binary-tree.adoc[leveloffset=+1]
 
