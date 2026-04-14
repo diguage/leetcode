@@ -561,6 +561,12 @@ endif::[]
 |{doc_base_url}/0636-exclusive-time-of-functions.adoc[题解]
 |✅ 栈。栈的模拟题。
 
+|{counter:codes}
+|{leetcode_base_url}/shopping-offers/[638. 大礼包^]
+|{doc_base_url}/0638-shopping-offers.adoc[题解]
+|❌ 动态规划。没想到是动态规划。
+
+
 |===
 
 
