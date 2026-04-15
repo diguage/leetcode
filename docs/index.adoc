@@ -1363,7 +1363,7 @@ include::0637-average-of-levels-in-binary-tree.adoc[leveloffset=+1]
 
 include::0638-shopping-offers.adoc[leveloffset=+1]
 
-// include::0639-decode-ways-ii.adoc[leveloffset=+1]
+include::0639-decode-ways-ii.adoc[leveloffset=+1]
 
 // include::0640-solve-the-equation.adoc[leveloffset=+1]
 

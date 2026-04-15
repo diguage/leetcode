@@ -566,6 +566,11 @@ endif::[]
 |{doc_base_url}/0638-shopping-offers.adoc[题解]
 |❌ 动态规划。没想到是动态规划。
 
+|{counter:codes}
+|{leetcode_base_url}/decode-ways-ii/[639. 解码方法 II^]
+|{doc_base_url}/0639-decode-ways-ii.adoc[题解]
+|❌ 动态规划：类似爬楼梯，比爬楼梯复杂！
+
 
 |===
 
