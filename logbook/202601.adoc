@@ -574,7 +574,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/maximum-average-subarray-i/[643. 子数组最大平均数 I^]
 |{doc_base_url}/0643-maximum-average-subarray-i.adoc[题解]
-|✅
+|✅ 滑动窗口。定长滑动窗口。
 
 
 |===
