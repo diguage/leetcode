@@ -1,35 +1,62 @@
 [#0643-maximum-average-subarray-i]
-= 643. Maximum Average Subarray I
+= 643. 子数组最大平均数 I
 
-{leetcode}/problems/maximum-average-subarray-i/[LeetCode - Maximum Average Subarray I^]
+https://leetcode.cn/problems/maximum-average-subarray-i/[LeetCode - 643. 子数组最大平均数 I^]
 
-Given an array consisting of `n` integers, find the contiguous subarray of given length `k` that has the maximum average value. And you need to output the maximum average value.
+给你一个由 `n` 个元素组成的整数数组 `nums` 和一个整数 `k`。
 
-*Example 1:*
+请你找出平均数最大且 *长度为 `k`* 的连续子数组，并输出该最大平均数。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,12,-5,-6,50,3], k = 4
-*Output:* 12.75
-*Explanation:* Maximum average is (12-5-6+50)/4 = 51/4 = 12.75
-----
+任何误差小于 `10`^`-5`^ 的答案都将被视为正确答案。
 
- 
+*示例 1：*
 
-*Note:*
+....
+输入：nums = [1,12,-5,-6,50,3], k = 4
+输出：12.75
+解释：最大平均数 (12-5-6+50)/4 = 51/4 = 12.75
+....
+
+*示例 2：*
+
+....
+输入：nums = [5], k = 1
+输出：5.00000
+....
+
+*提示：*
+
+* `n == nums.length`
+* `1 \<= k \<= n \<= 10^5^`
+* `-10^4^ \<= nums[i] \<= 10^4^`
 
 
-. 1 <= `k` <= `n` <= 30,000.
-. Elements of the given array will be in the range [-10,000, 10,000].
-
-
- 
-
+== 思路分析
 
 
 [[src-0643]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0643_MaximumAverageSubarrayI.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0643_MaximumAverageSubarrayI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
 

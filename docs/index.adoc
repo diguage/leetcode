@@ -1371,7 +1371,7 @@ include::0639-decode-ways-ii.adoc[leveloffset=+1]
 
 // include::0642-design-search-autocomplete-system.adoc[leveloffset=+1]
 
-// include::0643-maximum-average-subarray-i.adoc[leveloffset=+1]
+include::0643-maximum-average-subarray-i.adoc[leveloffset=+1]
 
 // include::0644-maximum-average-subarray-ii.adoc[leveloffset=+1]
 
