@@ -1,38 +1,62 @@
 [#0645-set-mismatch]
-= 645. Set Mismatch
+= 645. 错误的集合
 
-{leetcode}/problems/set-mismatch/[LeetCode - Set Mismatch^]
+https://leetcode.cn/problems/set-mismatch/[LeetCode - 645. 错误的集合^]
+
+集合 `s` 包含从 `1` 到 `n` 的整数。不幸的是，因为数据错误，导致集合里面某一个数字复制了成了集合里面的另外一个数字的值，导致集合 *丢失了一个数字* 并且 *有一个数字重复*。
+
+给定一个数组 `nums` 代表了集合 `S` 发生错误后的结果。
+
+请你找出重复出现的整数，再找到丢失的整数，将它们以数组的形式返回。
+
+*示例 1：*
+
+....
+输入：nums = [1,2,2,4]
+输出：[2,3]
+....
+
+*示例 2：*
+
+....
+输入：nums = [1,1]
+输出：[1,2]
+....
+
+*提示：*
+
+* `2 \<= nums.length \<= 10^4^`
+* `1 \<= nums[i] \<= 10^4^`
 
 
-The set `S` originally contains numbers from 1 to `n`. But unfortunately, due to the data error, one of the numbers in the set got duplicated to *another* number in the set, which results in repetition of one number and loss of another number. 
+== 思路分析
 
-
-
-Given an array `nums` representing the data status of this set after the error. Your task is to firstly find the number occurs twice and then find the number that is missing. Return them in the form of an array.
-
-
-
-*Example 1:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* nums = [1,2,2,4]
-*Output:* [2,3]
-----
-
-
-*Note:*
-
-. The given array size will in the range [2, 10000].
-. The given array's numbers won't have any order.
-
-
-
+桶排序。写出来了桶排序，把需要筛选的数字没筛选好。
 
 [[src-0645]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0645_SetMismatch.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0645_SetMismatch_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/set-mismatch/solutions/857445/gong-shui-san-xie-yi-ti-san-jie-ji-shu-s-vnr9/[645. 错误的集合 - 一题三解：「计数」&「数学」&「桶排序」^]
+. https://leetcode.cn/problems/set-mismatch/solutions/857255/cuo-wu-de-ji-he-by-leetcode-solution-1ea4/[645. 错误的集合 - 官方题解^]
