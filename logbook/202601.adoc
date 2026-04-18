@@ -581,6 +581,10 @@ endif::[]
 |{doc_base_url}/0645-set-mismatch.adoc[题解]
 |⭕️ 桶排序。写出来了桶排序，把需要筛选的数字没筛选好。
 
+|{counter:codes}
+|{leetcode_base_url}/maximum-length-of-pair-chain/[646. 最长数对链^]
+|{doc_base_url}/0646-maximum-length-of-pair-chain.adoc[题解]
+|✅ 贪心算法。尽可能减小结尾数值，提高增加长度的可能性。
 
 |===
 

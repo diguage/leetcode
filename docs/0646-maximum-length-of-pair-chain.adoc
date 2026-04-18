@@ -1,42 +1,68 @@
 [#0646-maximum-length-of-pair-chain]
-= 646. Maximum Length of Pair Chain
+= 646. 最长数对链
 
-{leetcode}/problems/maximum-length-of-pair-chain/[LeetCode - Maximum Length of Pair Chain^]
+https://leetcode.cn/problems/maximum-length-of-pair-chain/[LeetCode - 646. 最长数对链^]
+
+给你一个由 `n` 个数对组成的数对数组 `pairs`，其中 `pairs[i] = [left~i~, right~i~]` 且 `left~i~ < right~i~`。
+
+现在，我们定义一种 *跟随* 关系，当且仅当 `b < c` 时，数对 `p2 = [c, d]` 才可以跟在 `p1 = [a, b]` 后面。我们用这种形式来构造 *数对链* 。
+
+找出并返回能够形成的 *最长数对链的长度* 。
+
+你不需要用到所有的数对，你可以以任何顺序选择其中的一些数对来构造。
+
+*示例 1：*
+
+....
+输入：pairs = [[1,2], [2,3], [3,4]]
+输出：2
+解释：最长的数对链是 [1,2] -> [3,4] 。
+....
+
+*示例 2：*
+
+....
+输入：pairs = [[1,2],[7,8],[4,5]]
+输出：3
+解释：最长的数对链是 [1,2] -> [4,5] -> [7,8] 。
+....
+
+*提示：*
+
+* `n == pairs.length`
+* `1 \<= n \<= 1000`
+* `-1000 \<= left~i~ < right~i~ \<= 1000`
 
 
-You are given `n` pairs of numbers. In every pair, the first number is always smaller than the second number.
 
+== 思路分析
 
-
-Now, we define a pair `(c, d)` can follow another pair `(a, b)` if and only if `b < c`. Chain of pairs can be formed in this fashion. 
-
-
-
-Given a set of pairs, find the length longest chain which can be formed. You needn't use up all the given pairs. You can select pairs in any order.
-
-
-
-*Example 1:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[1,2], [2,3], [3,4]]
-*Output:* 2
-*Explanation:* The longest chain is [1,2] -> [3,4]
-----
-
-
-*Note:*
-
-. The number of given pairs will be in the range [1, 1000].
-
-
-
+贪心算法。尽可能减小结尾数值，提高增加长度的可能性。
 
 [[src-0646]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0646_MaximumLengthOfPairChain.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0646_MaximumLengthOfPairChain_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/maximum-length-of-pair-chain/solutions/1793617/zui-chang-shu-dui-lian-by-leetcode-solut-ifpn/[646. 最长数对链 - 官方题解^]
+. https://leetcode.cn/problems/maximum-length-of-pair-chain/solutions/3077521/tan-xin-zheng-ming-pythonjavaccgojsrust-a20dx/[646. 最长数对链 - 贪心+证明^]

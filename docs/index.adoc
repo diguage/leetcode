@@ -1377,7 +1377,7 @@ include::0643-maximum-average-subarray-i.adoc[leveloffset=+1]
 
 include::0645-set-mismatch.adoc[leveloffset=+1]
 
-// include::0646-maximum-length-of-pair-chain.adoc[leveloffset=+1]
+include::0646-maximum-length-of-pair-chain.adoc[leveloffset=+1]
 
 include::0647-palindromic-substrings.adoc[leveloffset=+1]
 
