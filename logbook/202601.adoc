@@ -586,6 +586,12 @@ endif::[]
 |{doc_base_url}/0646-maximum-length-of-pair-chain.adoc[题解]
 |✅ 贪心算法。尽可能减小结尾数值，提高增加长度的可能性。
 
+|{counter:codes}
+|{leetcode_base_url}/2-keys-keyboard/[650. 2 Keys Keyboard^]
+|{doc_base_url}/0650-2-keys-keyboard.adoc[题解]
+|✅ 动态规划。检查一个数是不是倍数，如果时，则在当时基础上，直接通过“复制 + 粘贴”就可以获取。
+
+
 |===
 
 

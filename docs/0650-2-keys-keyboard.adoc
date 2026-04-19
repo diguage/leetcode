@@ -1,47 +1,68 @@
 [#0650-2-keys-keyboard]
-= 650. 2 Keys Keyboard
+= 650. 两个键的键盘
 
-{leetcode}/problems/2-keys-keyboard/[LeetCode - 2 Keys Keyboard^]
+https://leetcode.cn/problems/2-keys-keyboard/[LeetCode - 650. 两个键的键盘^]
 
-Initially on a notepad only one character 'A' is present. You can perform two operations on this notepad for each step:
+最初记事本上只有一个字符 `A` 。你每次可以对这个记事本进行两种操作：
 
+* `Copy All`（复制全部）：复制这个记事本中的所有字符（不允许仅复制部分字符）。
+* `Paste`（粘贴）：粘贴 *上一次* 复制的字符。
 
-. `Copy All`: You can copy all the characters present on the notepad (partial copy is not allowed).
-. `Paste`: You can paste the characters which are copied *last time*.
+给你一个数字 `n`，你需要使用最少的操作次数，在记事本上输出 *恰好* `n` 个 `A`。返回能够打印出 `n` 个 `A` 的最少操作次数。
 
+*示例 1：*
 
- 
+....
+输入：3
+输出：3
+解释：
+最初, 只有一个字符 'A'。
+第 1 步, 使用 Copy All 操作。
+第 2 步, 使用 Paste 操作来获得 'AA'。
+第 3 步, 使用 Paste 操作来获得 'AAA'。
+....
 
-Given a number `n`. You have to get *exactly* `n` 'A' on the notepad by performing the minimum number of steps permitted. Output the minimum number of steps to get `n` 'A'.
+*示例 2：*
 
-*Example 1:*
+....
+输入：n = 1
+输出：0
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 3
-*Output:* 3
-*Explanation:*
-Intitally, we have one character 'A'.
-In step 1, we use *Copy All* operation.
-In step 2, we use *Paste* operation to get 'AA'.
-In step 3, we use *Paste* operation to get 'AAA'.
-----
+*提示：*
 
- 
-
-*Note:*
-
-
-. The `n` will be in the range [1, 1000].
-
-
- 
+* `1 \<= n \<= 1000`
 
 
+
+== 思路分析
+
+动态规划！检查一个数是不是倍数，如果时，则在当时基础上，直接通过“复制 + 粘贴”就可以获取。
 
 [[src-0650]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0650_2KeysKeyboard.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0650_2KeysKeyboard_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/2-keys-keyboard/solutions/1004937/zhi-you-liang-ge-jian-de-jian-pan-by-lee-ussa/[650. 两个键的键盘 - 官方题解^]
+. https://leetcode.cn/problems/2-keys-keyboard/solutions/1005636/gong-shui-san-xie-yi-ti-san-jie-dong-tai-f035/[650. 两个键的键盘 - 一题三解 :「动态规划」&「数学」&「打表」^]
