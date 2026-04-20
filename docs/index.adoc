@@ -1389,7 +1389,7 @@ include::0650-2-keys-keyboard.adoc[leveloffset=+1]
 
 // include::0651-4-keys-keyboard.adoc[leveloffset=+1]
 
-// include::0652-find-duplicate-subtrees.adoc[leveloffset=+1]
+include::0652-find-duplicate-subtrees.adoc[leveloffset=+1]
 
 // include::0653-two-sum-iv-input-is-a-bst.adoc[leveloffset=+1]
 
