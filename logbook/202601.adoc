@@ -596,6 +596,10 @@ endif::[]
 |{doc_base_url}/0652-find-duplicate-subtrees.adoc[题解]
 |✅ 深度优先遍历。先使用层级和数值对节点进行分流，相同高度和节点值的节点再尝试判断是否为相同子树。记录节点使用情况，添加过就不再处理。
 
+|{counter:codes}
+|{leetcode_base_url}/two-sum-iv-input-is-a-bst/[653. Two Sum IV - Input is a BST^]
+|{doc_base_url}/0653-two-sum-iv-input-is-a-bst.adoc[题解]
+|✅ 深度优先遍历+哈希。
 
 |===
 
