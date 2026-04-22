@@ -1395,7 +1395,7 @@ include::0653-two-sum-iv-input-is-a-bst.adoc[leveloffset=+1]
 
 include::0654-maximum-binary-tree.adoc[leveloffset=+1]
 
-// include::0655-print-binary-tree.adoc[leveloffset=+1]
+include::0655-print-binary-tree.adoc[leveloffset=+1]
 
 // include::0656-coin-path.adoc[leveloffset=+1]
 

@@ -601,6 +601,12 @@ endif::[]
 |{doc_base_url}/0653-two-sum-iv-input-is-a-bst.adoc[题解]
 |✅ 深度优先遍历+哈希。
 
+|{counter:codes}
+|{leetcode_base_url}/print-binary-tree/[655. 输出二叉树^]
+|{doc_base_url}/0655-print-binary-tree.adoc[题解]
+|✅ 深度优先遍历。题目理解起来有些拗口！重新描述一下，就是每次都把节点值添加到当前范围的整中间。
+
+
 |===
 
 
