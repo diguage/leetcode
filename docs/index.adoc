@@ -1401,7 +1401,7 @@ include::0655-print-binary-tree.adoc[leveloffset=+1]
 
 include::0657-robot-return-to-origin.adoc[leveloffset=+1]
 
-// include::0658-find-k-closest-elements.adoc[leveloffset=+1]
+include::0658-find-k-closest-elements.adoc[leveloffset=+1]
 
 // include::0659-split-array-into-consecutive-subsequences.adoc[leveloffset=+1]
 

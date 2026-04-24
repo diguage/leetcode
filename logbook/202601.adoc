@@ -611,6 +611,11 @@ endif::[]
 |{doc_base_url}/0657-robot-return-to-origin.adoc[题解]
 |✅ 模拟题。
 
+|{counter:codes}
+|{leetcode_base_url}/find-k-closest-elements/[658. Find K Closest Elements^]
+|{doc_base_url}/0658-find-k-closest-elements.adoc[题解]
+|✅ 二分查找或双指针或排序。可以通过二分查找，找到边界，然后向两边扩充。也可以直接按照接近因子算法，进行直接排序。
+
 
 |===
 

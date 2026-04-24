@@ -1,55 +1,65 @@
 [#0658-find-k-closest-elements]
-= 658. Find K Closest Elements
+= 658. 找到 K 个最接近的元素
 
-{leetcode}/problems/find-k-closest-elements/[LeetCode - Find K Closest Elements^]
+https://leetcode.cn/problems/find-k-closest-elements/[LeetCode - 658. 找到 K 个最接近的元素^]
 
+给定一个 *排序好* 的数组 `arr`，两个整数 `k` 和 `x`，从数组中找到最靠近 `x`（两数之差最小）的 `k` 个数。返回的结果必须要是按升序排好的。
 
-Given a sorted array, two integers `k` and `x`, find the `k` closest elements to `x` in the array.  The result should also be sorted in ascending order.
-If there is a tie,  the smaller elements are always preferred.
+整数 `a` 比整数 `b` 更接近 `x` 需要满足：
 
+* `|a - x| < |b - x|` 或者
+* `|a - x| == |b - x|` 且 `a < b`
 
-*Example 1:*
+*示例 1：*
 
+....
+输入：arr = [1,2,3,4,5], k = 4, x = 3
+输出：[1,2,3,4]
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,2,3,4,5], k=4, x=3
-*Output:* [1,2,3,4]
-----
+*示例 2：*
 
+....
+输入：arr = [1,1,2,3,4,5], k = 4, x = -1
+输出：[1,1,2,3]
+....
 
+*提示：*
 
-*Example 2:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,2,3,4,5], k=4, x=-1
-*Output:* [1,2,3,4]
-----
-
-
-*Note:*
-
-. The value k is positive and will always be smaller than the length of the sorted array.
-.  Length of the given array is positive and will not exceed 10^4^
-.  Absolute value of elements in the array and x will not exceed 10^4^
+* `1 \<= k \<= arr.length`
+* `1 \<= arr.length \<= 10^4^`
+* `arr` 按 *升序* 排列
+* `-10^4^ \<= arr[i], x \<= 10^4^`
 
 
+== 思路分析
 
-<hr />
-
-
-*<font color="red">UPDATE (2017/9/19):*
-
-
-The _arr_ parameter had been changed to an *array of integers* (instead of a list of integers). *_Please reload the code definition to get the latest changes_*.
-
-
+二分查找或双指针或排序。可以通过二分查找，找到边界，然后向两边扩充。也可以直接按照接近因子算法，进行直接排序。
 
 [[src-0658]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0658_FindKClosestElements.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0658_FindKClosestElements_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/find-k-closest-elements/solutions/1771732/zhao-dao-k-ge-zui-jie-jin-de-yuan-su-by-ekwtd/[658. 找到 K 个最接近的元素 - 官方题解^]
+. https://leetcode.cn/problems/find-k-closest-elements/solutions/12476/pai-chu-fa-shuang-zhi-zhen-er-fen-fa-python-dai-ma/[658. 找到 K 个最接近的元素 - 排除法（双指针）+ 二分法（Java、Python）^]
