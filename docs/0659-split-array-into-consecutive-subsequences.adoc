@@ -1,61 +1,83 @@
 [#0659-split-array-into-consecutive-subsequences]
-= 659. Split Array into Consecutive Subsequences
+= 659. 分割数组为连续子序列
 
-{leetcode}/problems/split-array-into-consecutive-subsequences/[LeetCode - Split Array into Consecutive Subsequences^]
+https://leetcode.cn/problems/split-array-into-consecutive-subsequences/[LeetCode - 659. 分割数组为连续子序列^]
 
-Given an array `nums` sorted in ascending order, return `true` if and only if you can split it into 1 or more subsequences such that each subsequence consists of consecutive integers and has length at least 3.
+给你一个按 *非递减顺序* 排列的整数数组 `nums` 。
 
- 
+请你判断是否能在将 `nums` 分割成 *一个或多个子序列* 的同时满足下述 *两个* 条件：
 
-*Example 1:*
+* 每个子序列都是一个 *连续递增序列*（即，每个整数 *恰好* 比前一个整数大 *1*）。
+* 所有子序列的长度 *至少* 为 `3`。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,2,3,3,4,5]
-*Output:* True
-*Explanation:*
-You can split them into two consecutive subsequences : 
-1, 2, 3
-3, 4, 5
+如果可以分割 `nums` 并满足上述条件，则返回 `true` ；否则，返回 `false` 。
 
-----
+*示例 1：*
 
-*Example 2:*
+....
+输入：nums = [1,2,3,3,4,5]
+输出：true
+解释：nums 可以分割成以下子序列：
+[1,2,3,3,4,5] --> 1, 2, 3
+[1,2,3,3,4,5] --> 3, 4, 5
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,2,3,3,4,4,5,5]
-*Output:* True
-*Explanation:*
-You can split them into two consecutive subsequences : 
-1, 2, 3, 4, 5
-3, 4, 5
+*示例 2：*
 
-----
+....
+输入：nums = [1,2,3,3,4,4,5,5]
+输出：true
+解释：nums 可以分割成以下子序列：
+[1,2,3,3,4,4,5,5] --> 1, 2, 3, 4, 5
+[1,2,3,3,4,4,5,5] --> 3, 4, 5
+....
 
-*Example 3:*
+*示例 3：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,2,3,4,4,5]
-*Output:* False
-----
+....
+输入：nums = [1,2,3,4,4,5]
+输出：false
+解释：无法将 nums 分割成长度至少为 3 的连续递增子序列。
+....
 
- 
+*提示：*
 
-*Constraints:*
-
-
-* `1 <= nums.length <= 10000`
+* `1 \<= nums.length \<= 10^4^`
+* `-1000 \<= nums[i] \<= 1000`
+* `nums` 按非递减顺序排列
 
 
- 
 
+== 思路分析
 
+哈希+最小堆。最初想法是先凑够三个序列，往上追加。提交测试发现有各种失败案例。
+
+看题解，可以用哈希记录已有序列，最小堆筛选出相同结尾最小的序列的长度，优先在较短的队列上追加元素。这个思路和最初思路有很多相通之处。
 
 [[src-0659]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0659_SplitArrayIntoConsecutiveSubsequences.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0659_SplitArrayIntoConsecutiveSubsequences_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/split-array-into-consecutive-subsequences/solutions/508610/fen-ge-shu-zu-wei-lian-xu-zi-xu-lie-by-l-lbs5/[659. 分割数组为连续子序列 - 官方题解^]
+. https://leetcode.cn/problems/split-array-into-consecutive-subsequences/solutions/54922/tan-xin-suan-fa-jian-cha-shu-zu-neng-fou-bei-fen-w/[659. 分割数组为连续子序列 - 贪心算法检查数组能否被分为连续子序列^]

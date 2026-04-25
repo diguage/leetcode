@@ -1063,6 +1063,11 @@ endif::[]
 |{doc_base_url}/0645-set-mismatch.adoc[题解]
 |⭕️
 
+|{counter:codes}
+|{leetcode_base_url}/split-array-into-consecutive-subsequences/[659. 分割数组为连续子序列^]
+|{doc_base_url}/0659-split-array-into-consecutive-subsequences.adoc[题解]
+|❌
+
 |===
 
 截止目前，本轮练习一共完成 {corrections} 道题。

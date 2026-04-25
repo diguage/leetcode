@@ -616,6 +616,11 @@ endif::[]
 |{doc_base_url}/0658-find-k-closest-elements.adoc[题解]
 |✅ 二分查找或双指针或排序。可以通过二分查找，找到边界，然后向两边扩充。也可以直接按照接近因子算法，进行直接排序。
 
+|{counter:codes}
+|{leetcode_base_url}/split-array-into-consecutive-subsequences/[659. 分割数组为连续子序列^]
+|{doc_base_url}/0659-split-array-into-consecutive-subsequences.adoc[题解]
+|❌ 哈希+最小堆。用哈希记录已有序列，最小堆筛选出相同结尾最小的序列的长度，优先在较短的队列上追加元素。
+
 
 |===
 
