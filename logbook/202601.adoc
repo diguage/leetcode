@@ -621,6 +621,11 @@ endif::[]
 |{doc_base_url}/0659-split-array-into-consecutive-subsequences.adoc[题解]
 |❌ 哈希+最小堆。用哈希记录已有序列，最小堆筛选出相同结尾最小的序列的长度，优先在较短的队列上追加元素。
 
+|{counter:codes}
+|{leetcode_base_url}/image-smoother/[661. 图片平滑器^]
+|{doc_base_url}/0661-image-smoother.adoc[题解]
+|✅ 模拟题。简单的矩阵计算。
+
 
 |===
 
