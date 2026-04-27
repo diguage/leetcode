@@ -626,6 +626,12 @@ endif::[]
 |{doc_base_url}/0661-image-smoother.adoc[题解]
 |✅ 模拟题。简单的矩阵计算。
 
+|{counter:codes}
+|{leetcode_base_url}/strange-printer/[664. 奇怪的打印机^]
+|{doc_base_url}/0664-strange-printer.adoc[题解]
+|❌ 动态规划。有点懵逼，还要再思考一下。
+
+
 
 |===
 
