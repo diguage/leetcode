@@ -1,46 +1,64 @@
 [#0665-non-decreasing-array]
-= 665. Non-decreasing Array
+= 665. 非递减数列
 
-{leetcode}/problems/non-decreasing-array/[LeetCode - Non-decreasing Array^]
+https://leetcode.cn/problems/non-decreasing-array/[LeetCode - 665. 非递减数列^]
 
+给你一个长度为 `n` 的整数数组 `nums`，请你判断在 *最多* 改变 `1` 个元素的情况下，该数组能否变成一个非递减数列。
 
-Given an array with `n` integers, your task is to check if it could become non-decreasing by modifying *at most* `1` element.
+我们是这样定义一个非递减数列的：对于数组中任意的 `i (0 \<= i \<= n-2)`，总满足 `nums[i] \<= nums[i + 1]`。
 
+*示例 1:*
 
+....
+输入: nums = [4,2,3]
+输出: true
+解释: 你可以通过把第一个 4 变成 1 来使得它成为一个非递减数列。
+....
 
-We define an array is non-decreasing if `array[i] <= array[i + 1]` holds for every `i` (1 <= i < n).
+*示例 2:*
 
+....
+输入: nums = [4,2,1]
+输出: false
+解释: 你不能在只改变一个元素的情况下将其变为非递减数列。
+....
 
-*Example 1:*
+*提示：*
 
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [4,2,3]
-*Output:* True
-*Explanation:* You could modify the first `4` to `1` to get a non-decreasing array.
-----
-
-
-*Example 2:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [4,2,1]
-*Output:* False
-*Explanation:* You can't get a non-decreasing array by modify at most one element.
-----
+* `n == nums.length`
+* `1 \<= n \<= 10^4^`
+* `-10^5^ \<= nums[i] \<= 10^5^`
 
 
-*Note:*
-The `n` belongs to [1, 10,000].
 
+== 思路分析
 
+数组操作！题目简单，但是也很多坑。
 
 [[src-0665]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0665_NonDecreasingArray.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0665_NonDecreasingArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/non-decreasing-array/solutions/594758/fei-di-jian-shu-lie-by-leetcode-solution-zdsm/[665. 非递减数列 - 官方题解^]
+. https://leetcode.cn/problems/non-decreasing-array/solutions/594975/3-zhang-dong-tu-bang-zhu-ni-li-jie-zhe-d-06gi/[665. 非递减数列 - 3 张动图帮助你理解这道题目怎么想，秒懂！^]
