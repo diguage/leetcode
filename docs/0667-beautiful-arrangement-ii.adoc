@@ -1,48 +1,63 @@
 [#0667-beautiful-arrangement-ii]
-= 667. Beautiful Arrangement II
+= 667. 优美的排列 II
 
-{leetcode}/problems/beautiful-arrangement-ii/[LeetCode - Beautiful Arrangement II^]
+https://leetcode.cn/problems/beautiful-arrangement-ii/[LeetCode - 667. 优美的排列 II^]
 
+给你两个整数 `n` 和 `k`，请你构造一个答案列表 `answer`，该列表应当包含从 `1` 到 `n` 的 `n` 个不同正整数，并同时满足下述条件：
 
-Given two integers `n` and `k`, you need to construct a list which contains `n` different positive integers ranging from `1` to `n` and obeys the following requirement: <br/>
+* 假设该列表是 `answer = [a~1~, a~2~, a~3~, ... , a~n~]` ，那么列表 `[|a~1~ - a~2~|, |a~2~ - a~3~|, |a~3~ - a~4~|, ... , |a~n-1~ - a~n~|]` 中应该有且仅有 `k` 个不同整数。
 
-Suppose this list is [a~1~, a~2~, a~3~, ... , a~n~], then the list [|a~1~ - a~2~|, |a~2~ - a~3~|, |a~3~ - a~4~|, ... , |a~n-1~ - a~n~|] has exactly `k` distinct integers.
+返回列表 `answer` 。如果存在多种答案，只需返回其中 *任意一种*。
 
+*示例 1：*
 
+....
+输入：n = 3, k = 1
+输出：[1, 2, 3]
+解释：[1, 2, 3] 包含 3 个范围在 1-3 的不同整数，并且 [1, 1] 中有且仅有 1 个不同整数：1
+....
 
-If there are multiple answers, print any of them.
+*示例 2：*
 
+....
+输入：n = 3, k = 2
+输出：[1, 3, 2]
+解释：[1, 3, 2] 包含 3 个范围在 1-3 的不同整数，并且 [2, 1] 中有且仅有 2 个不同整数：1 和 2
+....
 
-*Example 1:*<br/>
-[subs="verbatim,quotes,macros"]
-----
-*Input:* n = 3, k = 1
-*Output:* [1, 2, 3]
-*Explanation:* The [1, 2, 3] has three different positive integers ranging from 1 to 3, and the [1, 1] has exactly 1 distinct integer: 1.
-----
+*提示：*
 
-
-*Example 2:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* n = 3, k = 2
-*Output:* [1, 3, 2]
-*Explanation:* The [1, 3, 2] has three different positive integers ranging from 1 to 3, and the [2, 1] has exactly 2 distinct integers: 1 and 2.
-----
+* `1 \<= k < n \<= 10^4^`
 
 
-*Note:*
+== 思路分析
 
-. The `n` and `k` are in the range 1 <= k < n <= 10^4^.
-
-
-
+脑筋急转弯。将一部分数据倒转，进行交叉。
 
 [[src-0667]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0667_BeautifulArrangementII.java[tag=answer]
+include::{sourcedir}/_0667_BeautifulArrangementIi.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0667_BeautifulArrangementIi_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/beautiful-arrangement-ii/solutions/1808129/you-mei-de-pai-lie-ii-by-leetcode-soluti-qkrs/[667. 优美的排列 II - 官方题解^]
+. https://leetcode.cn/problems/beautiful-arrangement-ii/solutions/1809575/you-by-capital-worker-rnwi/[667. 优美的排列 II - 脑筋急转弯^]

@@ -1078,6 +1078,11 @@ endif::[]
 |{doc_base_url}/0665-non-decreasing-array.adoc[题解]
 |❌
 
+|{counter:codes}
+|{leetcode_base_url}/beautiful-arrangement-ii/[667. 优美的排列 II^]
+|{doc_base_url}/0667-beautiful-arrangement-ii.adoc[题解]
+|❌
+
 |===
 
 截止目前，本轮练习一共完成 {corrections} 道题。
