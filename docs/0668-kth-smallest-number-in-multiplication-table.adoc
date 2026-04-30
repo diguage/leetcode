@@ -1,62 +1,90 @@
 [#0668-kth-smallest-number-in-multiplication-table]
-= 668. Kth Smallest Number in Multiplication Table
+= 668. 乘法表中第k小的数
 
-{leetcode}/problems/kth-smallest-number-in-multiplication-table/[LeetCode - Kth Smallest Number in Multiplication Table^]
+https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table/[LeetCode - 668. 乘法表中第k小的数^]
 
+几乎每一个人都用 https://baike.baidu.com/item/%E4%B9%98%E6%B3%95%E8%A1%A8[乘法表]。但是你能在乘法表中快速找到第 `k` 小的数字吗？
 
-Nearly every one have used the <a href="https://en.wikipedia.org/wiki/Multiplication_table">Multiplication Table</a>. But could you find out the `k-th` smallest number quickly from the multiplication table?
+乘法表是大小为 `m x n` 的一个整数矩阵，其中 `mat[i][j] == i * j`（下标从 *1* 开始）。
 
+给你三个整数 `m`、`n` 和 `k`，请你在大小为 `m x n` 的乘法表中，找出并返回第 `k` 小的数字。
 
+*示例 1：*
 
-Given the height `m` and the length `n` of a `m * n` Multiplication Table, and a positive integer `k`, you need to return the `k-th` smallest number in this table.
+image::images/0668-01.jpg[{image_attr}]
 
+....
+输入：m = 3, n = 3, k = 5
+输出：3
+解释：第 5 小的数字是 3 。
+....
 
-*Example 1:*
+*示例 2：*
 
+image::images/0668-02.jpg[{image_attr}]
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* m = 3, n = 3, k = 5
-*Output:* 
-*Explanation:* 
-The Multiplication Table:
-1	2	3
-2	4	6
-3	6	9
+....
+输入：m = 2, n = 3, k = 6
+输出：6
+解释：第 6 小的数字是 6 。
+....
 
-The 5-th smallest number is 3 (1, 2, 2, 3, 3).
-----
+*提示：*
 
-
-
-*Example 2:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* m = 2, n = 3, k = 6
-*Output:* 
-*Explanation:* 
-The Multiplication Table:
-1	2	3
-2	4	6
-
-The 6-th smallest number is 6 (1, 2, 2, 3, 4, 6).
-----
+* `1 \<= m, n \<= 3 * 10^4^`
+* `1 \<= k \<= m * n`
 
 
+== 思路分析
 
-*Note:*
+二分查找。总想投机取巧地来计算计数，谁知还是得靠按行统计。
 
-. The `m` and `n` will be in the range [1, 30000].
-. The `k` will be in the range [1, m * n]
+image::images/0668-10.png[{image_attr}]
 
+image::images/0668-11.png[{image_attr}]
 
+image::images/0668-12.png[{image_attr}]
+
+image::images/0668-13.png[{image_attr}]
+
+image::images/0668-14.png[{image_attr}]
+
+image::images/0668-15.png[{image_attr}]
+
+image::images/0668-16.png[{image_attr}]
+
+image::images/0668-17.png[{image_attr}]
+
+image::images/0668-18.png[{image_attr}]
+
+TIP: 矩阵二分查找通常从左下或者右上开始收缩。
 
 
 [[src-0668]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0668_KthSmallestNumberInMultiplicationTable.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0668_KthSmallestNumberInMultiplicationTable_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table/solutions/1501801/dong-tu-yan-shi-by-xiaohu9527-3k7s/[668. 乘法表中第k小的数 - 矩阵二分搜索 + 动图演示^]
+. https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table/solutions/2999698/di-k-xiao-da-wen-ti-de-tong-yong-zhuan-h-9y8i/[668. 乘法表中第k小的数 - 第 k 小/大问题的通用转化方法 + 优化^]
+. https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table/solutions/1499050/cheng-fa-biao-zhong-di-kxiao-de-shu-by-l-521a/[668. 乘法表中第k小的数 - 官方题解^]

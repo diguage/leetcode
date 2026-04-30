@@ -1421,7 +1421,7 @@ include::0665-non-decreasing-array.adoc[leveloffset=+1]
 
 include::0667-beautiful-arrangement-ii.adoc[leveloffset=+1]
 
-// include::0668-kth-smallest-number-in-multiplication-table.adoc[leveloffset=+1]
+include::0668-kth-smallest-number-in-multiplication-table.adoc[leveloffset=+1]
 
 include::0669-trim-a-binary-search-tree.adoc[leveloffset=+1]
 
