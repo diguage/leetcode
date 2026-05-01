@@ -646,6 +646,11 @@ endif::[]
 |{doc_base_url}/0668-kth-smallest-number-in-multiplication-table.adoc[题解]
 |❌ 二分查找。总想投机取巧地来计算计数，谁知还是得靠按行统计。
 
+|{counter:codes}
+|{leetcode_base_url}/second-minimum-node-in-a-binary-tree/[671. 二叉树中第二小的节点^]
+|{doc_base_url}/0671-second-minimum-node-in-a-binary-tree.adoc[题解]
+|✅ 深度优先遍历。我想到的思路是使用大堆保存两个最小的值。官方题解的思路更精巧：直接存下根节点的值，然后取寻找结果。使用前根遍历更高效。
+
 
 |===
 
