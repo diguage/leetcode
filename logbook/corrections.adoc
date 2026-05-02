@@ -1088,6 +1088,11 @@ endif::[]
 |{doc_base_url}/0668-kth-smallest-number-in-multiplication-table.adoc[题解]
 |❌
 
+|{counter:codes}
+|{leetcode_base_url}/bulb-switcher-ii/[672. 灯泡开关 Ⅱ^]
+|{doc_base_url}/0672-bulb-switcher-ii.adoc[题解]
+|❌
+
 |===
 
 截止目前，本轮练习一共完成 {corrections} 道题。
