@@ -656,6 +656,12 @@ endif::[]
 |{doc_base_url}/0672-bulb-switcher-ii.adoc[题解]
 |❌ 数学题。通过分析找规律。
 
+|{counter:codes}
+|{leetcode_base_url}/number-of-longest-increasing-subsequence/[673. Number of Longest Increasing Subsequence^]
+|{doc_base_url}/0673-number-of-longest-increasing-subsequence.adoc[题解]
+|❌ 动态规划。在 {doc_base_url}/0300-longest-increasing-subsequence.adoc[300. Longest Increasing Subsequence] 的基础之上，又增加了一个统计最长增长子序列的数量的“备忘录”。
+
+
 |===
 
 

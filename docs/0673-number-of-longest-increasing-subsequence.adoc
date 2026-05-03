@@ -1,42 +1,62 @@
 [#0673-number-of-longest-increasing-subsequence]
-= 673. Number of Longest Increasing Subsequence
+= 673. 最长递增子序列的个数
 
-{leetcode}/problems/number-of-longest-increasing-subsequence/[LeetCode - Number of Longest Increasing Subsequence^]
+https://leetcode.cn/problems/number-of-longest-increasing-subsequence/[LeetCode - 673. 最长递增子序列的个数^]
 
+给定一个未排序的整数数组 `nums`， _返回最长递增子序列的个数_。
 
-Given an unsorted array of integers, find the number of longest increasing subsequence.
+*注意* 这个数列必须是 *严格* 递增的。
 
+*示例 1:*
 
-*Example 1:*
+....
+输入: [1,3,5,4,7]
+输出: 2
+解释: 有两个最长递增子序列，分别是 [1, 3, 4, 7] 和[1, 3, 5, 7]。
+....
 
+*示例 2:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,3,5,4,7]
-*Output:* 2
-*Explanation:* The two longest increasing subsequence are [1, 3, 4, 7] and [1, 3, 5, 7].
-----
+....
+输入: [2,2,2,2,2]
+输出: 5
+解释: 最长递增子序列的长度是1，并且存在5个子序列的长度为1，因此输出5。
+....
 
+*提示:*
 
-*Example 2:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [2,2,2,2,2]
-*Output:* 5
-*Explanation:* The length of longest continuous increasing subsequence is 1, and there are 5 subsequences' length is 1, so output 5.
-----
-
-
-*Note:*
-Length of the given array will be not exceed 2000 and the answer is guaranteed to be fit in 32-bit signed int.
+* `1 \<= nums.length \<= 2000`
+* `-10^6^ \<= nums[i] \<= 10^6^`
 
 
+== 思路分析
+
+在 xref:0300-longest-increasing-subsequence.adoc[300. Longest Increasing Subsequence] 的基础之上，又增加了一个统计最长增长子序列的数量的“备忘录”。
 
 [[src-0673]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0673_NumberOfLongestIncreasingSubsequence.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0673_NumberOfLongestIncreasingSubsequence_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/number-of-longest-increasing-subsequence/solutions/1007075/zui-chang-di-zeng-zi-xu-lie-de-ge-shu-by-w12f/[673. 最长递增子序列的个数 - 官方题解^]
+. https://leetcode.cn/problems/number-of-longest-increasing-subsequence/solutions/153672/yi-bu-yi-bu-tui-dao-chu-zui-you-jie-fa-2-zui-chang/[673. 最长递增子序列的个数 - 一步一步推导出最优解法^]

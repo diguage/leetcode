@@ -1093,6 +1093,11 @@ endif::[]
 |{doc_base_url}/0672-bulb-switcher-ii.adoc[题解]
 |❌
 
+|{counter:codes}
+|{leetcode_base_url}/number-of-longest-increasing-subsequence/[673. Number of Longest Increasing Subsequence^]
+|{doc_base_url}/0673-number-of-longest-increasing-subsequence.adoc[题解]
+|❌
+
 |===
 
 截止目前，本轮练习一共完成 {corrections} 道题。
