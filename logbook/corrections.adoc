@@ -1098,6 +1098,11 @@ endif::[]
 |{doc_base_url}/0673-number-of-longest-increasing-subsequence.adoc[题解]
 |❌
 
+|{counter:codes}
+|{leetcode_base_url}/cut-off-trees-for-golf-event/[675. Cut Off Trees for Golf Event^]
+|{doc_base_url}/0675-cut-off-trees-for-golf-event.adoc[题解]
+|❌
+
 |===
 
 截止目前，本轮练习一共完成 {corrections} 道题。

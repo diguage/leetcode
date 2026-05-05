@@ -666,6 +666,11 @@ endif::[]
 |{doc_base_url}/0674-longest-continuous-increasing-subsequence.adoc[题解]
 |✅ 贪心。如果是“最长连续增长子序列”会更有挑战。
 
+|{counter:codes}
+|{leetcode_base_url}/cut-off-trees-for-golf-event/[675. Cut Off Trees for Golf Event^]
+|{doc_base_url}/0675-cut-off-trees-for-golf-event.adoc[题解]
+|❌ 广度优先遍历。翻译一下题目：从“原点”开始，逐步通过最短路径向上攀爬，直达封顶。这样就容易理解了。
+
 
 |===
 
