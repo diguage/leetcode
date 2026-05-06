@@ -7,7 +7,7 @@ public class _0675_CutOffTreesForGolfEvent {
 
   /**
    * @author D瓜哥 · https://www.diguage.com
-   * @since 2026-05-04 20:58:57
+   * @since 2026-05-05 22:52
    */
   int m;
   int n;

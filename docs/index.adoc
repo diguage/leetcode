@@ -1437,7 +1437,7 @@ include::0674-longest-continuous-increasing-subsequence.adoc[leveloffset=+1]
 
 include::0675-cut-off-trees-for-golf-event.adoc[leveloffset=+1]
 
-// include::0676-implement-magic-dictionary.adoc[leveloffset=+1]
+include::0676-implement-magic-dictionary.adoc[leveloffset=+1]
 
 // include::0677-map-sum-pairs.adoc[leveloffset=+1]
 
