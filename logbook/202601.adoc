@@ -676,6 +676,10 @@ endif::[]
 |{doc_base_url}/0676-implement-magic-dictionary.adoc[题解]
 |✅ 哈希或前缀树+深度优先搜索。最简单的思路就是根据长度区分单词，然后根据长度获取对应单词列表，逐一判定。
 
+|{counter:codes}
+|{leetcode_base_url}/map-sum-pairs/[677. Map Sum Pairs^]
+|{doc_base_url}/0677-map-sum-pairs.adoc[题解]
+|✅ 哈希或前缀树。简单解法就是哈希，更高效率解法是前缀树。
 
 
 |===
