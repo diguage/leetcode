@@ -1103,6 +1103,11 @@ endif::[]
 |{doc_base_url}/0675-cut-off-trees-for-golf-event.adoc[题解]
 |❌
 
+|{counter:codes}
+|{leetcode_base_url}/valid-parenthesis-string/[678. Valid Parenthesis String^]
+|{doc_base_url}/0678-valid-parenthesis-string.adoc[题解]
+|❌
+
 |===
 
 截止目前，本轮练习一共完成 {corrections} 道题。

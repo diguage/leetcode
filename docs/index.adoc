@@ -1441,7 +1441,7 @@ include::0676-implement-magic-dictionary.adoc[leveloffset=+1]
 
 include::0677-map-sum-pairs.adoc[leveloffset=+1]
 
-// include::0678-valid-parenthesis-string.adoc[leveloffset=+1]
+include::0678-valid-parenthesis-string.adoc[leveloffset=+1]
 
 // include::0679-24-game.adoc[leveloffset=+1]
 
