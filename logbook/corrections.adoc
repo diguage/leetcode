@@ -994,7 +994,7 @@ endif::[]
 |⭕️
 
 |{counter:codes}
-|{leetcode_base_url}/beautiful-arrangement/[526. Beautiful Arrangement^]
+|{leetcode_base_url}/beautiful-arrangement/[526. 优美的排列^]
 |{doc_base_url}/0526-beautiful-arrangement.adoc[题解]
 |❌
 
@@ -1039,12 +1039,12 @@ endif::[]
 |❌
 
 |{counter:codes}
-|{leetcode_base_url}/course-schedule-iii/[630. Course Schedule III^]
+|{leetcode_base_url}/course-schedule-iii/[630. 课程表 III^]
 |{doc_base_url}/0630-course-schedule-iii.adoc[题解]
 |❌
 
 |{counter:codes}
-|{leetcode_base_url}/smallest-range-covering-elements-from-k-lists/[632. Smallest Range Covering Elements from K Lists^]
+|{leetcode_base_url}/smallest-range-covering-elements-from-k-lists/[632. 最小区间^]
 |{doc_base_url}/0632-smallest-range-covering-elements-from-k-lists.adoc[题解]
 |❌
 
@@ -1094,17 +1094,17 @@ endif::[]
 |❌
 
 |{counter:codes}
-|{leetcode_base_url}/number-of-longest-increasing-subsequence/[673. Number of Longest Increasing Subsequence^]
+|{leetcode_base_url}/number-of-longest-increasing-subsequence/[673. 最长递增子序列的个数^]
 |{doc_base_url}/0673-number-of-longest-increasing-subsequence.adoc[题解]
 |❌
 
 |{counter:codes}
-|{leetcode_base_url}/cut-off-trees-for-golf-event/[675. Cut Off Trees for Golf Event^]
+|{leetcode_base_url}/cut-off-trees-for-golf-event/[675. 为高尔夫比赛砍树^]
 |{doc_base_url}/0675-cut-off-trees-for-golf-event.adoc[题解]
 |❌
 
 |{counter:codes}
-|{leetcode_base_url}/valid-parenthesis-string/[678. Valid Parenthesis String^]
+|{leetcode_base_url}/valid-parenthesis-string/[678. 有效的括号字符串^]
 |{doc_base_url}/0678-valid-parenthesis-string.adoc[题解]
 |❌
 

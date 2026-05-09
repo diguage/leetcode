@@ -331,7 +331,7 @@ endif::[]
 |⭕️ 前缀和。将 `0` 视为 `-1`，做前缀和计算，`0` 和 `1` 相等，则当前位置计算的数字必然在前面出现过。想到了前缀和，没想到把 `0` 视作 `1` 来方便计算。
 
 |{counter:codes}
-|{leetcode_base_url}/beautiful-arrangement/[526. Beautiful Arrangement^]
+|{leetcode_base_url}/beautiful-arrangement/[526. 优美的排列^]
 |{doc_base_url}/0526-beautiful-arrangement.adoc[题解]
 |❌ 动态规划。以为是有条件的全排列，没想到是动态规划。还是有些懵逼，还要再体会一下。
 
@@ -417,7 +417,7 @@ endif::[]
 
 
 |{counter:codes}
-|{leetcode_base_url}/binary-tree-tilt/[563. Binary Tree Tilt^]
+|{leetcode_base_url}/binary-tree-tilt/[563. 二叉树的坡度^]
 |{doc_base_url}/0563-binary-tree-tilt.adoc[题解]
 |✅ 深度优先遍历。有点类似树形DP
 
@@ -437,7 +437,7 @@ endif::[]
 |✅ 数学或者模拟题。就是把一个矩阵复制到另外一个矩阵里，算好对以的坐标即可。
 
 |{counter:codes}
-|{leetcode_base_url}/subtree-of-another-tree/[572. Subtree of Another Tree^]
+|{leetcode_base_url}/subtree-of-another-tree/[572. 另一棵树的子树^]
 |{doc_base_url}/0572-subtree-of-another-tree.adoc[题解]
 |✅ 深度优先遍历。暴力破解就是两个递归。更优化的解法是，只在相同高度去做递归判断。
 
@@ -487,7 +487,7 @@ endif::[]
 |✅ 几何题。最容易想到的解法是计算一个点到其他点的距离，其中两条边相等且相加等于对角线。逐个点判断即可。还有一种解法，绕着中心旋转 90°，各点依然相等。
 
 |{counter:codes}
-|{leetcode_base_url}/range-addition-ii/[598. Range Addition II^]
+|{leetcode_base_url}/range-addition-ii/[598. 区间加法 II^]
 |{doc_base_url}/0598-range-addition-ii.adoc[题解]
 |✅ 脑筋急转弯。求重叠矩阵的面积。
 
@@ -507,12 +507,12 @@ endif::[]
 |✅ 贪心。能种尽种。
 
 |{counter:codes}
-|{leetcode_base_url}/construct-string-from-binary-tree/[606. Construct String from Binary Tree^]
+|{leetcode_base_url}/construct-string-from-binary-tree/[606. 根据二叉树创建字符串^]
 |{doc_base_url}/0606-construct-string-from-binary-tree.adoc[题解]
 |✅ 树，深度优先遍历。一个树的前根遍历，也可以看作使用前根遍历来序列化一棵树。
 
 |{counter:codes}
-|{leetcode_base_url}/find-duplicate-file-in-system/[609. Find Duplicate File in System^]
+|{leetcode_base_url}/find-duplicate-file-in-system/[609. 在系统中查找重复文件^]
 |{doc_base_url}/0609-find-duplicate-file-in-system.adoc[题解]
 |✅ 哈希。建立内容到路径的映射即可。
 
@@ -542,12 +542,12 @@ endif::[]
 |❌ 动态规划。从暴力破解，再加备忘录，最后到动态规划，这样的思路比较容易理解。
 
 |{counter:codes}
-|{leetcode_base_url}/course-schedule-iii/[630. Course Schedule III^]
+|{leetcode_base_url}/course-schedule-iii/[630. 课程表 III^]
 |{doc_base_url}/0630-course-schedule-iii.adoc[题解]
 |❌ 贪心+优先队列。贪心得选择更早结束课程，然后有更短的选择时，果断“抛弃”耗时最长的课程。
 
 |{counter:codes}
-|{leetcode_base_url}/smallest-range-covering-elements-from-k-lists/[632. Smallest Range Covering Elements from K Lists^]
+|{leetcode_base_url}/smallest-range-covering-elements-from-k-lists/[632. 最小区间^]
 |{doc_base_url}/0632-smallest-range-covering-elements-from-k-lists.adoc[题解]
 |❌ 排序+滑动窗口。先将所有元素根据大小进行排序（元素要附带上自己所属的区间），然后对排序后的元素做滑动窗口，找出窗口最小的区间。这道题，解法众多，有机会尝试一下其他解法。
 
@@ -587,12 +587,12 @@ endif::[]
 |✅ 贪心算法。尽可能减小结尾数值，提高增加长度的可能性。
 
 |{counter:codes}
-|{leetcode_base_url}/2-keys-keyboard/[650. 2 Keys Keyboard^]
+|{leetcode_base_url}/2-keys-keyboard/[650. 两个键的键盘^]
 |{doc_base_url}/0650-2-keys-keyboard.adoc[题解]
 |✅ 动态规划。检查一个数是不是倍数，如果时，则在当时基础上，直接通过“复制 + 粘贴”就可以获取。
 
 |{counter:codes}
-|{leetcode_base_url}/find-duplicate-subtrees/[652. Find Duplicate Subtrees^]
+|{leetcode_base_url}/find-duplicate-subtrees/[652. 寻找重复的子树^]
 |{doc_base_url}/0652-find-duplicate-subtrees.adoc[题解]
 |✅ 深度优先遍历。先使用层级和数值对节点进行分流，相同高度和节点值的节点再尝试判断是否为相同子树。记录节点使用情况，添加过就不再处理。
 
@@ -612,7 +612,7 @@ endif::[]
 |✅ 模拟题。
 
 |{counter:codes}
-|{leetcode_base_url}/find-k-closest-elements/[658. Find K Closest Elements^]
+|{leetcode_base_url}/find-k-closest-elements/[658. 找到 K 个最接近的元素^]
 |{doc_base_url}/0658-find-k-closest-elements.adoc[题解]
 |✅ 二分查找或双指针或排序。可以通过二分查找，找到边界，然后向两边扩充。也可以直接按照接近因子算法，进行直接排序。
 
@@ -657,7 +657,7 @@ endif::[]
 |❌ 数学题。通过分析找规律。
 
 |{counter:codes}
-|{leetcode_base_url}/number-of-longest-increasing-subsequence/[673. Number of Longest Increasing Subsequence^]
+|{leetcode_base_url}/number-of-longest-increasing-subsequence/[673. 最长递增子序列的个数^]
 |{doc_base_url}/0673-number-of-longest-increasing-subsequence.adoc[题解]
 |❌ 动态规划。在 {doc_base_url}/0300-longest-increasing-subsequence.adoc[300. Longest Increasing Subsequence] 的基础之上，又增加了一个统计最长增长子序列的数量的“备忘录”。
 
@@ -667,24 +667,25 @@ endif::[]
 |✅ 贪心。如果是“最长连续增长子序列”会更有挑战。
 
 |{counter:codes}
-|{leetcode_base_url}/cut-off-trees-for-golf-event/[675. Cut Off Trees for Golf Event^]
+|{leetcode_base_url}/cut-off-trees-for-golf-event/[675. 为高尔夫比赛砍树^]
 |{doc_base_url}/0675-cut-off-trees-for-golf-event.adoc[题解]
 |❌ 广度优先遍历。翻译一下题目：从“原点”开始，逐步通过最短路径向上攀爬，直达封顶。这样就容易理解了。
 
 |{counter:codes}
-|{leetcode_base_url}/implement-magic-dictionary/[676. Implement Magic Dictionary^]
+|{leetcode_base_url}/implement-magic-dictionary/[676. 实现一个魔法字典^]
 |{doc_base_url}/0676-implement-magic-dictionary.adoc[题解]
 |✅ 哈希或前缀树+深度优先搜索。最简单的思路就是根据长度区分单词，然后根据长度获取对应单词列表，逐一判定。
 
 |{counter:codes}
-|{leetcode_base_url}/map-sum-pairs/[677. Map Sum Pairs^]
+|{leetcode_base_url}/map-sum-pairs/[677. 键值映射^]
 |{doc_base_url}/0677-map-sum-pairs.adoc[题解]
 |✅ 哈希或前缀树。简单解法就是哈希，更高效率解法是前缀树。
 
 |{counter:codes}
-|{leetcode_base_url}/valid-parenthesis-string/[678. Valid Parenthesis String^]
+|{leetcode_base_url}/valid-parenthesis-string/[678. 有效的括号字符串^]
 |{doc_base_url}/0678-valid-parenthesis-string.adoc[题解]
 |❌ 贪心或动态规划。题目简单，但是解法却有些难想，尤其是贪心的解法。
+
 
 
 |===
