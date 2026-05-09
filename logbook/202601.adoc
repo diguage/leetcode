@@ -686,7 +686,10 @@ endif::[]
 |{doc_base_url}/0678-valid-parenthesis-string.adoc[题解]
 |❌ 贪心或动态规划。题目简单，但是解法却有些难想，尤其是贪心的解法。
 
-
+|{counter:codes}
+|{leetcode_base_url}/24-game/[679. 24 Game^]
+|{doc_base_url}/0679-24-game.adoc[题解]
+|❌ 回溯。想到了回溯，没想到该怎么实现，题解中通过抽取两个数做计算来规避了“括号”的处理，非常优雅。
 
 |===
 
