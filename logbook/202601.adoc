@@ -146,7 +146,7 @@ endif::[]
 |❌ 动态规划。将每个值跟前面所有值相比，当比其大时，在其之上加一。动态规划总想直接从一个值中获取，没想到还需要遍历。
 
 |{counter:codes}
-|{leetcode_base_url}/longest-common-subsequence/[1143. Longest Common Subsequence^]
+|{leetcode_base_url}/longest-common-subsequence/[1143. 最长公共子序列^]
 |{doc_base_url}/1143-longest-common-subsequence.adoc[题解]
 |✅ 动态规划。
 
@@ -597,7 +597,7 @@ endif::[]
 |✅ 深度优先遍历。先使用层级和数值对节点进行分流，相同高度和节点值的节点再尝试判断是否为相同子树。记录节点使用情况，添加过就不再处理。
 
 |{counter:codes}
-|{leetcode_base_url}/two-sum-iv-input-is-a-bst/[653. Two Sum IV - Input is a BST^]
+|{leetcode_base_url}/two-sum-iv-input-is-a-bst/[653. 两数之和 IV - 输入二叉搜索树^]
 |{doc_base_url}/0653-two-sum-iv-input-is-a-bst.adoc[题解]
 |✅ 深度优先遍历+哈希。
 
@@ -687,7 +687,7 @@ endif::[]
 |❌ 贪心或动态规划。题目简单，但是解法却有些难想，尤其是贪心的解法。
 
 |{counter:codes}
-|{leetcode_base_url}/24-game/[679. 24 Game^]
+|{leetcode_base_url}/24-game/[679. 24 点游戏^]
 |{doc_base_url}/0679-24-game.adoc[题解]
 |❌ 回溯。想到了回溯，没想到该怎么实现，题解中通过抽取两个数做计算来规避了“括号”的处理，非常优雅。
 
