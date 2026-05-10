@@ -1443,9 +1443,9 @@ include::0677-map-sum-pairs.adoc[leveloffset=+1]
 
 include::0678-valid-parenthesis-string.adoc[leveloffset=+1]
 
-// include::0679-24-game.adoc[leveloffset=+1]
+include::0679-24-game.adoc[leveloffset=+1]
 
-// include::0680-valid-palindrome-ii.adoc[leveloffset=+1]
+include::0680-valid-palindrome-ii.adoc[leveloffset=+1]
 
 // include::0681-next-closest-time.adoc[leveloffset=+1]
 

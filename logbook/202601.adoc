@@ -691,6 +691,12 @@ endif::[]
 |{doc_base_url}/0679-24-game.adoc[题解]
 |❌ 回溯。想到了回溯，没想到该怎么实现，题解中通过抽取两个数做计算来规避了“括号”的处理，非常优雅。
 
+|{counter:codes}
+|{leetcode_base_url}/valid-palindrome-ii/[680. 验证回文串 II^]
+|{doc_base_url}/0680-valid-palindrome-ii.adoc[题解]
+|✅ 贪心模式：从两端向中间挤压，遇到相同的就向中间一步走，遇到不同的就各自前进一步做判定。
+
+
 |===
 
 
