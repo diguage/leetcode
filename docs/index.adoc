@@ -1449,7 +1449,7 @@ include::0680-valid-palindrome-ii.adoc[leveloffset=+1]
 
 // include::0681-next-closest-time.adoc[leveloffset=+1]
 
-// include::0682-baseball-game.adoc[leveloffset=+1]
+include::0682-baseball-game.adoc[leveloffset=+1]
 
 // include::0683-k-empty-slots.adoc[leveloffset=+1]
 
