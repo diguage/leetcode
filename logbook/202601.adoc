@@ -701,6 +701,11 @@ endif::[]
 |{doc_base_url}/0682-baseball-game.adoc[题解]
 |✅ 模拟题。按部就班计算就好。
 
+|{counter:codes}
+|{leetcode_base_url}/redundant-connection/[684. 冗余连接^]
+|{doc_base_url}/0684-redundant-connection.adoc[题解]
+|⭕️ 并查集。没想到是并查集。查找两个节点的顶点，如果顶点相等则构成环，否则建立连接。
+
 
 |===
 

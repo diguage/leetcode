@@ -1,62 +1,72 @@
 [#0684-redundant-connection]
-= 684. Redundant Connection
+= 684. 冗余连接
 
-{leetcode}/problems/redundant-connection/[LeetCode - Redundant Connection^]
+https://leetcode.cn/problems/redundant-connection/[LeetCode - 684. 冗余连接^]
 
+树可以看成是一个连通且 **无环** 的 **无向** 图。
 
-In this problem, a tree is an *undirected* graph that is connected and has no cycles.
+给定往一棵 `n` 个节点 (节点值 `+1～n+`) 的树中添加一条边后的图。添加的边的两个顶点包含在 `1` 到 `n` 中间，且这条附加的边不属于树中已存在的边。图的信息记录于长度为 `n` 的二维数组 `edges` ，`edges[i] = [a~i~, b~i~]` 表示图中在 `a~i~` 和 `b~i~` 之间存在一条边。
 
-The given input is a graph that started as a tree with N nodes (with distinct values 1, 2, ..., N), with one additional edge added.  The added edge has two different vertices chosen from 1 to N, and was not an edge that already existed.
+请找出一条可以删去的边，删除后可使得剩余部分是一个有着 `n` 个节点的树。如果有多个答案，则返回数组 `edges` 中最后出现的那个。
 
-The resulting graph is given as a 2D-array of `edges`.  Each element of `edges` is a pair `[u, v]` with `u < v`, that represents an *undirected* edge connecting nodes `u` and `v`.
+*示例 1：*
 
-Return an edge that can be removed so that the resulting graph is a tree of N nodes.  If there are multiple answers, return the answer that occurs last in the given 2D-array.  The answer edge `[u, v]` should be in the same format, with `u < v`.
-*Example 1:*
+image::images/0684-01.png[{image_attr}]
 
+....
+输入: edges = [[1,2], [1,3], [2,3]]
+输出: [2,3]
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[1,2], [1,3], [2,3]]
-*Output:* [2,3]
-*Explanation:* The given undirected graph will be like this:
-  1
- / \
-2 - 3
-----
+*示例 2：*
 
-*Example 2:*
+image::images/0684-02.png[{image_attr}]
 
+....
+输入: edges = [[1,2], [2,3], [3,4], [1,4], [1,5]]
+输出: [1,4]
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[1,2], [2,3], [3,4], [1,4], [1,5]]
-*Output:* [1,4]
-*Explanation:* The given undirected graph will be like this:
-5 - 1 - 2
-    |   |
-    4 - 3
-----
+*提示:*
 
-*Note:*
+* `n == edges.length`
+* `3 \<= n \<= 1000`
+* `edges[i].length == 2`
+* `1 \<= ai < bi \<= edges.length`
+* `a~i~ != b~i~`
+* `edges` 中无重复元素
+* 给定的图是连通的
 
 
-. The size of the input 2D-array will be between 3 and 1000.</li>
-. Every integer represented in the 2D-array will be between 1 and N, where N is the size of the input array.</li>
+== 思路分析
 
-
-
-
-
-
-
-*<font color="red">Update (2017-09-26):*
-We have overhauled the problem description + test cases and specified clearly the graph is an *_undirected_* graph. For the *_directed_* graph follow up please see *<a href="{leetcode}/problems/redundant-connection-ii/description/">Redundant Connection II</a>*). We apologize for any inconvenience caused.
-
-
+没想到是并查集。查找两个节点的顶点，如果顶点相等则构成环，否则建立连接。
 
 [[src-0684]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0684_RedundantConnection.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0684_RedundantConnection_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/redundant-connection/solutions/557616/rong-yu-lian-jie-by-leetcode-solution-pks2/[684. 冗余连接 - 官方题解^]
+. https://leetcode.cn/problems/redundant-connection/solutions/181093/tong-su-jiang-jie-bing-cha-ji-bang-zhu-xiao-bai-ku/[684. 冗余连接 - 通俗讲解并查集，帮助小白快速理解^]
+. https://leetcode.cn/problems/redundant-connection/solutions/558610/bing-cha-ji-sou-suo-shen-du-yan-du-tuo-b-ev30/[684. 冗余连接 - 并查集 + 搜索（深度 + 广度）+ 拓扑（深度 + 广度）（5解法）^]
