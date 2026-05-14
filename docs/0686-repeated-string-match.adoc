@@ -1,24 +1,77 @@
 [#0686-repeated-string-match]
-= 686. Repeated String Match
+= 686. 重复叠加字符串匹配
 
-{leetcode}/problems/repeated-string-match/[LeetCode - Repeated String Match^]
+https://leetcode.cn/problems/repeated-string-match/[LeetCode - 686. 重复叠加字符串匹配^]
 
-Given two strings A and B, find the minimum number of times A has to be repeated such that B is a substring of it. If no such solution, return -1.
+给定两个字符串 `a` 和 `b`，寻找重复叠加字符串 `a` 的最小次数，使得字符串 `b` 成为叠加后的字符串 `a` 的子串，如果不存在则返回 `-1`。
 
-For example, with A = "abcd" and B = "cdabcdab".
+**注意：**字符串 `abc` 重复叠加 0 次是 `""`，重复叠加 1 次是 `abc`，重复叠加 2 次是 `abcabc`。
 
-Return 3, because by repeating A three times (&ldquo;abcdabcdabcd&rdquo;), B is a substring of it; and B is not a substring of A repeated two times ("abcdabcd").
+*示例 1：*
 
-*Note:*
+....
+输入：a = "abcd", b = "cdabcdab"
+输出：3
+解释：a 重复叠加三遍后为 "abcdabcdabcd", 此时 b 是其子串。
+....
+
+*示例 2：*
+
+....
+输入：a = "a", b = "aa"
+输出：2
+....
+
+*示例 3：*
+
+....
+输入：a = "a", b = "a"
+输出：1
+....
+
+*示例 4：*
+
+....
+输入：a = "abc", b = "wxyz"
+输出：-1
+....
+
+*提示：*
+
+* `1 \<= a.length \<= 10^4^`
+* `1 \<= b.length \<= 10^4^`
+* `a` 和 `b` 由小写英文字母组成
 
 
-The length of `A` and `B` will be between 1 and 10000.
 
+== 思路分析
 
+字符串。麻烦的就是 KMP，简单做直接用底层库。
 
 [[src-0686]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0686_RepeatedStringMatch.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0686_RepeatedStringMatch_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/repeated-string-match/solutions/1170235/zhong-fu-die-jia-zi-fu-chuan-pi-pei-by-l-vnye/[686. 重复叠加字符串匹配 - 官方题解^]
+. https://leetcode.cn/problems/repeated-string-match/solutions/1170729/gong-shui-san-xie-yi-ti-san-jie-qia-chan-3hbr/[686. 重复叠加字符串匹配 - 一题四解 :「卡常」&「上下界性质」&「KMP」&「字符串哈希」^]

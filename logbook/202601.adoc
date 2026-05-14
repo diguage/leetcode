@@ -711,6 +711,10 @@ endif::[]
 |{doc_base_url}/0685-redundant-connection-ii.adoc[题解]
 |❌ 并查集。不仅仅并查集，还要考虑冲突和成不成环，多转了好几个弯。
 
+|{counter:codes}
+|{leetcode_base_url}/repeated-string-match/[686. 重复叠加字符串匹配^]
+|{doc_base_url}/0686-repeated-string-match.adoc[题解]
+|✅ 字符串。麻烦的就是 KMP，简单做直接用底层库。
 
 
 |===

@@ -1457,7 +1457,7 @@ include::0684-redundant-connection.adoc[leveloffset=+1]
 
 include::0685-redundant-connection-ii.adoc[leveloffset=+1]
 
-// include::0686-repeated-string-match.adoc[leveloffset=+1]
+include::0686-repeated-string-match.adoc[leveloffset=+1]
 
 // include::0687-longest-univalue-path.adoc[leveloffset=+1]
 
