@@ -1459,7 +1459,7 @@ include::0685-redundant-connection-ii.adoc[leveloffset=+1]
 
 include::0686-repeated-string-match.adoc[leveloffset=+1]
 
-// include::0687-longest-univalue-path.adoc[leveloffset=+1]
+include::0687-longest-univalue-path.adoc[leveloffset=+1]
 
 // include::0688-knight-probability-in-chessboard.adoc[leveloffset=+1]
 

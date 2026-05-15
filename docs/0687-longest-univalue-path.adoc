@@ -1,55 +1,68 @@
 [#0687-longest-univalue-path]
-= 687. Longest Univalue Path
+= 687. 最长同值路径
 
-{leetcode}/problems/longest-univalue-path/[LeetCode - Longest Univalue Path^]
+https://leetcode.cn/problems/longest-univalue-path/[LeetCode - 687. 最长同值路径^]
 
-Given a binary tree, find the length of the longest path where each node in the path has the same value. This path may or may not pass through the root.
+给定一个二叉树的 `root` ，返回 _最长的路径的长度_，这个路径中的 _每个节点具有相同值_。这条路径可以经过也可以不经过根节点。
 
-The length of path between two nodes is represented by the number of edges between them.
+*两个节点之间的路径长度* 由它们之间的边数表示。
 
- 
+*示例 1:*
 
-*Example 1:*
+image::images/0687-01.jpg[{image_attr}]
 
-*Input:*
+....
+输入：root = [5,4,5,1,1,5]
+输出：2
+....
 
-[subs="verbatim,quotes,macros"]
-----
-              5
-             / \
-            4   5
-           / \   \
-          1   1   5
-----
+*示例 2:*
 
-*Output:* 2
+image::images/0687-02.jpg[{image_attr}]
 
- 
+....
+输入：root = [1,4,5,4,4,5]
+输出：2
+....
 
-*Example 2:*
+*提示:*
 
-*Input:*
-
-[subs="verbatim,quotes,macros"]
-----
-              1
-             / \
-            4   5
-           / \   \
-          4   4   5
-----
-
-*Output:* 2
-
- 
-
-*Note:* The given binary tree has not more than 10000 nodes. The height of the tree is not more than 1000.
+* 树的节点数的范围是 `[0, 10^4^]`
+* `-1000 \<= Node.val \<= 1000`
+* 树的深度将不超过 `1000`
 
 
+== 思路分析
+
+深度优先搜索！
+
+image::images/0687-10.gif[{image_attr}]
 
 [[src-0687]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0687_LongestUnivaluePath.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0687_LongestUnivaluePath_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/longest-univalue-path/solutions/815692/yi-pian-wen-zhang-jie-jue-suo-you-er-cha-94j7/[687. 最长同值路径 - 一篇文章解决所有二叉树路径问题（问题分析+分类模板+题目剖析）^]
+. https://leetcode.cn/problems/longest-univalue-path/solutions/2227160/shi-pin-che-di-zhang-wo-zhi-jing-dpcong-524j4/[687. 最长同值路径 - 彻底掌握直径 DP！从二叉树到一般树！^]
+. https://leetcode.cn/problems/longest-univalue-path/solutions/1790729/zui-chang-tong-zhi-lu-jing-by-leetcode-s-hgfk/[687. 最长同值路径 - 官方题解^]

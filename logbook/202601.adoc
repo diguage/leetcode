@@ -716,6 +716,11 @@ endif::[]
 |{doc_base_url}/0686-repeated-string-match.adoc[题解]
 |✅ 字符串。麻烦的就是 KMP，简单做直接用底层库。
 
+|{counter:codes}
+|{leetcode_base_url}/longest-univalue-path/[687. 最长同值路径^]
+|{doc_base_url}/0687-longest-univalue-path.adoc[题解]
+|✅ 深度优先搜索。从下向上逐步收敛。
+
 
 |===
 
