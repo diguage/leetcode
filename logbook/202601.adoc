@@ -721,6 +721,12 @@ endif::[]
 |{doc_base_url}/0687-longest-univalue-path.adoc[题解]
 |✅ 深度优先搜索。从下向上逐步收敛。
 
+|{counter:codes}
+|{leetcode_base_url}/knight-probability-in-chessboard/[688. 骑士在棋盘上的概率^]
+|{doc_base_url}/0688-knight-probability-in-chessboard.adoc[题解]
+|❌ 动态规划。以为是深度优先搜索，还尝试遍历所有可能情况。
+
+
 
 |===
 

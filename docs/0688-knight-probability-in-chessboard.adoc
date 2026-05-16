@@ -1,50 +1,74 @@
 [#0688-knight-probability-in-chessboard]
-= 688. Knight Probability in Chessboard
+= 688. 骑士在棋盘上的概率
 
-{leetcode}/problems/knight-probability-in-chessboard/[LeetCode - Knight Probability in Chessboard^]
+https://leetcode.cn/problems/knight-probability-in-chessboard/[LeetCode - 688. 骑士在棋盘上的概率^]
 
-On an `N`x`N` chessboard, a knight starts at the `r`-th row and `c`-th column and attempts to make exactly `K` moves. The rows and columns are 0 indexed, so the top-left square is `(0, 0)`, and the bottom-right square is `(N-1, N-1)`.
+在一个 `n x n` 的国际象棋棋盘上，一个骑士从单元格 `(row, column)` 开始，并尝试进行 `k` 次移动。行和列是 *从 0 开始* 的，所以左上单元格是 `(0,0)` ，右下单元格是 `(n - 1, n - 1)`。
 
-A chess knight has 8 possible moves it can make, as illustrated below. Each move is two squares in a cardinal direction, then one square in an orthogonal direction.
+象棋骑士有8种可能的走法，如下图所示。每次移动在基本方向上是两个单元格，然后在正交方向上是一个单元格。
 
- 
+image::images/0688-01.png[{image_attr}]
 
-image::https://assets.leetcode.com/uploads/2018/10/12/knight.png[{image_attr}]
+每次骑士要移动时，它都会随机从8种可能的移动中选择一种(即使棋子会离开棋盘)，然后移动到那里。
 
- 
+骑士继续移动，直到它走了 `k` 步或离开了棋盘。
 
-Each time the knight is to move, it chooses one of eight possible moves uniformly at random (even if the piece would go off the chessboard) and moves there.
+返回 _骑士在棋盘停止移动后仍留在棋盘上的概率_。
 
-The knight continues moving until it has made exactly `K` moves or has moved off the chessboard. Return the probability that the knight remains on the board after it has stopped moving.
+*示例 1：*
 
- 
+....
+输入: n = 3, k = 2, row = 0, column = 0
+输出: 0.0625
+解释: 有两步(到(1,2)，(2,1))可以让骑士留在棋盘上。
+在每一个位置上，也有两种移动可以让骑士留在棋盘上。
+骑士留在棋盘上的总概率是0.0625。
+....
 
-*Example:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 3, 2, 0, 0
-*Output:* 0.0625
-*Explanation:* There are two moves (to (1,2), (2,1)) that will keep the knight on the board.
-From each of those positions, there are also two moves that will keep the knight on the board.
-The total probability the knight stays on the board is 0.0625.
-----
+....
+输入: n = 1, k = 0, row = 0, column = 0
+输出: 1.00000
+....
 
- 
+*提示:*
 
-*Note:*
-
-
-* `N` will be between 1 and 25.
-* `K` will be between 0 and 100.
-* The knight always initially starts on the board.
-
+* `1 \<= n \<= 25`
+* `0 \<= k \<= 100`
+* `0 \<= row, column \<= n - 1`
 
 
+
+== 思路分析
+
+竟然没想到是动态规划！我还以为是深度优先搜索，还尝试遍历所有可能情况。
 
 [[src-0688]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0688_KnightProbabilityInChessboard.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0688_KnightProbabilityInChessboard_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/knight-probability-in-chessboard/solutions/2997395/jiao-ni-yi-bu-bu-si-kao-dpcong-ji-yi-hua-dgt6/[688. 骑士在棋盘上的概率 - 教你一步步思考 DP：从记忆化搜索到递推^]
+. https://leetcode.cn/problems/knight-probability-in-chessboard/solutions/1264717/qi-shi-zai-qi-pan-shang-de-gai-lu-by-lee-2qhk/[688. 骑士在棋盘上的概率 - 官方题解^]
+. https://leetcode.cn/problems/knight-probability-in-chessboard/solutions/1272085/tong-ge-lai-shua-ti-la-yi-ti-liang-jie-j-y92k/[688. 骑士在棋盘上的概率 - 一题两解：记忆化搜索 转 动态规划！^]
