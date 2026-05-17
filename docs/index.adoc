@@ -1465,7 +1465,7 @@ include::0688-knight-probability-in-chessboard.adoc[leveloffset=+1]
 
 // include::0689-maximum-sum-of-3-non-overlapping-subarrays.adoc[leveloffset=+1]
 
-// include::0690-employee-importance.adoc[leveloffset=+1]
+include::0690-employee-importance.adoc[leveloffset=+1]
 
 // include::0691-stickers-to-spell-word.adoc[leveloffset=+1]
 
