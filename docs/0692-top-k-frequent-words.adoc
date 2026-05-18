@@ -1,54 +1,70 @@
 [#0692-top-k-frequent-words]
-= 692. Top K Frequent Words
+= 692. 前K个高频单词
 
-{leetcode}/problems/top-k-frequent-words/[LeetCode - Top K Frequent Words^]
+https://leetcode.cn/problems/top-k-frequent-words/[LeetCode - 692. 前K个高频单词^]
 
-Given a non-empty list of words, return the _k_ most frequent elements.
-Your answer should be sorted by frequency from highest to lowest. If two words have the same frequency, then the word with the lower alphabetical order comes first.
+给定一个单词列表 `words` 和一个整数 `k`，返回前 `k` 个出现次数最多的单词。
 
-*Example 1:*
+返回的答案应该按单词出现频率由高到低排序。如果不同的单词有相同出现频率，*按字典顺序* 排序。
 
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* ["i", "love", "leetcode", "i", "love", "coding"], k = 2
-*Output:* ["i", "love"]
-*Explanation:* "i" and "love" are the two most frequent words.
-    Note that "i" comes before "love" due to a lower alphabetical order.
-----
+....
+输入: words = ["i", "love", "leetcode", "i", "love", "coding"], k = 2
+输出: ["i", "love"]
+解析: "i" 和 "love" 为出现次数最多的两个单词，均为2次。
+    注意，按字母顺序 "i" 在 "love" 之前。
+....
 
+*示例 2：*
 
-*Example 2:*
+....
+输入: ["the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"], k = 4
+输出: ["the", "is", "sunny", "day"]
+解析: "the", "is", "sunny" 和 "day" 是出现次数最多的四个单词，
+    出现次数依次为 4, 3, 2 和 1 次。
+....
 
+*注意：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* ["the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"], k = 4
-*Output:* ["the", "is", "sunny", "day"]
-*Explanation:* "the", "is", "sunny" and "day" are the four most frequent words,
-    with the number of occurrence being 4, 3, 2 and 1 respectively.
-----
+* `1 \<= words.length \<= 500`
+* `1 \<= words[i] \<= 10`
+* `words[i]` 由小写英文字母组成。
+* `k` 的取值范围是 `[1, *不同* words[i] 的数量]`
 
-
-*Note:*
-
-. You may assume _k_ is always valid, 1 ≤ _k_ ≤ number of unique elements.
-. Input words contain only lowercase letters.
-
+**进阶：**尝试以 `O(n log k)` 时间复杂度和 `O(n)` 空间复杂度解决。
 
 
-*Follow up:*
+== 思路分析
 
+利用快速选择，只排序需要关注的部分即可。还可以直接排序，或者优先队列。
 
-
-. Try to solve it in _O_(_n_ log _k_) time and _O_(_n_) extra space.
-
-
-
+TIP: 快速选择，快速排序，都还需要多多练习！
 
 [[src-0692]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0692_TopKFrequentWords.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0692_TopKFrequentWords_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/top-k-frequent-words/solutions/785903/qian-kge-gao-pin-dan-ci-by-leetcode-solu-3qk0/[692. 前K个高频单词 - 官方题解^]
+. https://leetcode.cn/problems/top-k-frequent-words/solutions/731580/xiao-gen-dui-huo-zhe-hashbiao-pai-xu-by-9uj06/[692. 前K个高频单词 - 优先队列小根堆+哈希表排序^]

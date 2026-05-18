@@ -30,6 +30,7 @@
 . xref:0451-sort-characters-by-frequency.adoc[451. Sort Characters By Frequency]
 . xref:0621-task-scheduler.adoc[621. Task Scheduler]
 . xref:0658-find-k-closest-elements.adoc[658. Find K Closest Elements]
+. xref:0692-top-k-frequent-words.adoc[692. Top K Frequent Words]
 . xref:0703-kth-largest-element-in-a-stream.adoc[703. Kth Largest Element in a Stream]
 . xref:0767-reorganize-string.adoc[767. Reorganize String]
 . xref:0895-maximum-frequency-stack.adoc[895. Maximum Frequency Stack]
