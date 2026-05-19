@@ -1471,7 +1471,7 @@ include::0690-employee-importance.adoc[leveloffset=+1]
 
 include::0692-top-k-frequent-words.adoc[leveloffset=+1]
 
-// include::0693-binary-number-with-alternating-bits.adoc[leveloffset=+1]
+include::0693-binary-number-with-alternating-bits.adoc[leveloffset=+1]
 
 // include::0694-number-of-distinct-islands.adoc[leveloffset=+1]
 

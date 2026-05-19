@@ -1,62 +1,67 @@
 [#0693-binary-number-with-alternating-bits]
-= 693. Binary Number with Alternating Bits
+= 693. 交替位二进制数
 
-{leetcode}/problems/binary-number-with-alternating-bits/[LeetCode - Binary Number with Alternating Bits^]
+https://leetcode.cn/problems/binary-number-with-alternating-bits/[LeetCode - 693. 交替位二进制数^]
 
-Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.
+给定一个正整数，检查它的二进制表示是否总是 0、1 交替出现：换句话说，就是二进制表示中相邻两位的数字永不相同。
 
-*Example 1:*
+*示例 1：*
 
+....
+输入：n = 5
+输出：true
+解释：5 的二进制表示是：101
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 5
-*Output:* True
-*Explanation:*
-The binary representation of 5 is: 101
-----
+*示例 2：*
 
+....
+输入：n = 7
+输出：false
+解释：7 的二进制表示是：111.
+....
 
-*Example 2:*
+*示例 3：*
 
+....
+输入：n = 11
+输出：false
+解释：11 的二进制表示是：1011.
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 7
-*Output:* False
-*Explanation:*
-The binary representation of 7 is: 111.
-----
+*提示：*
 
-
-*Example 3:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 11
-*Output:* False
-*Explanation:*
-The binary representation of 11 is: 1011.
-----
+* `1 \<= n \<= 2^31^ - 1`
 
 
-*Example 4:*
+== 思路分析
 
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 10
-*Output:* True
-*Explanation:*
-The binary representation of 10 is: 1010.
-----
-
-
+数学，位运算。
 
 [[src-0693]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0693_BinaryNumberWithAlternatingBits.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0693_BinaryNumberWithAlternatingBits_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/binary-number-with-alternating-bits/solutions/1368822/jiao-ti-wei-er-jin-zhi-shu-by-leetcode-s-bmxd/[693. 交替位二进制数 - 官方题解^]
+. https://leetcode.cn/problems/binary-number-with-alternating-bits/solutions/3904261/o1-zuo-fa-yuan-li-jiang-jie-pythonjavacc-wyki/[693. 交替位二进制数 - O(1) 做法原理讲解^]
