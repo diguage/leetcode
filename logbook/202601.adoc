@@ -727,19 +727,24 @@ endif::[]
 |❌ 动态规划。以为是深度优先搜索，还尝试遍历所有可能情况。
 
 |{counter:codes}
-|{leetcode_base_url}/employee-importance/[690. Employee Importance^]
+|{leetcode_base_url}/employee-importance/[690. 员工的重要性^]
 |{doc_base_url}/0690-employee-importance.adoc[题解]
 |✅ 哈希+深度优先搜索。先建立映射关系，再深度优先搜索。
 
 |{counter:codes}
-|{leetcode_base_url}/top-k-frequent-words/[692. Top K Frequent Words^]
+|{leetcode_base_url}/top-k-frequent-words/[692. 前K个高频单词^]
 |{doc_base_url}/0692-top-k-frequent-words.adoc[题解]
 |⭕️ 快速选择。利用快速选择，只排序需要关注的部分即可。还可以直接排序，或者优先队列。
 
 |{counter:codes}
-|{leetcode_base_url}/binary-number-with-alternating-bits/[693. Binary Number with Alternating Bits^]
+|{leetcode_base_url}/binary-number-with-alternating-bits/[693. 交替位二进制数^]
 |{doc_base_url}/0693-binary-number-with-alternating-bits.adoc[题解]
 |✅ 数学。想复杂了，还有更简单的做法。
+
+|{counter:codes}
+|{leetcode_base_url}/count-binary-substrings/[696. 计数二进制子串^]
+|{doc_base_url}/0696-count-binary-substrings.adoc[题解]
+|❌ 双指针。统计每段相同数字的长度，跟前段相比，取最小值。
 
 |===
 
