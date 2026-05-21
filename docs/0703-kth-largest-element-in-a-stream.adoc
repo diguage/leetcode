@@ -1,36 +1,85 @@
 [#0703-kth-largest-element-in-a-stream]
-= 703. Kth Largest Element in a Stream
+= 703. 数据流中的第 K 大元素
 
-{leetcode}/problems/kth-largest-element-in-a-stream/[LeetCode - Kth Largest Element in a Stream^]
+https://leetcode.cn/problems/kth-largest-element-in-a-stream/[LeetCode - 703. 数据流中的第 K 大元素^]
 
-Design a class to find the *k*th largest element in a stream. Note that it is the kth largest element in the sorted order, not the kth distinct element.
+设计一个找到数据流中第 `k` 大元素的类（class）。注意是排序后的第 `k` 大元素，不是第 `k` 个不同的元素。
 
-Your `KthLargest` class will have a constructor which accepts an integer `k` and an integer array `nums`, which contains initial elements from the stream. For each call to the method `KthLargest.add`, return the element representing the kth largest element in the stream.
+请实现 `KthLargest` 类：
 
-*Example:*
+* `KthLargest(int k, int[] nums)` 使用整数 `k` 和整数流 `nums` 初始化对象。
+* `+int add(int val)+` 将 `val` 插入数据流 `nums` 后，返回当前数据流中第 `k` 大的元素。
 
-[subs="verbatim,quotes,macros"]
-----
-int k = 3;
-int[] arr = [4,5,8,2];
-KthLargest kthLargest = new KthLargest(3, arr);
-kthLargest.add(3);   // returns 4
-kthLargest.add(5);   // returns 5
-kthLargest.add(10);  // returns 5
-kthLargest.add(9);   // returns 8
-kthLargest.add(4);   // returns 8
-----
+*示例 1：*
 
-*Note: *
+*输入：* +
+[.example-io]#["KthLargest", "add", "add", "add", "add", "add"] +
+[[3, [4, 5, 8, 2]], [3], [5], [10], [9], [4]]#
+
+*输出：*[.example-io]#[null, 4, 5, 5, 8, 8]#
+
+*解释：*
+
+KthLargest kthLargest = new KthLargest(3, [4, 5, 8, 2]); +
+kthLargest.add(3); // 返回 4 +
+kthLargest.add(5); // 返回 5 +
+kthLargest.add(10); // 返回 5 +
+kthLargest.add(9); // 返回 8 +
+kthLargest.add(4); // 返回 8
+
+*示例 2：*
+
+*输入：* +
+[.example-io]#["KthLargest", "add", "add", "add", "add"] +
+[[4, [7, 7, 7, 7, 8, 3]], [2], [10], [9], [9]]#
+
+[.example-io]#*输出：*[null, 7, 7, 7, 8]#
+
+*解释：*
+
+KthLargest kthLargest = new KthLargest(4, [7, 7, 7, 7, 8, 3]); +
+kthLargest.add(2); // 返回 7 +
+kthLargest.add(10); // 返回 7 +
+kthLargest.add(9); // 返回 7 +
+kthLargest.add(9); // 返回 8
+
+*提示：*
+
+* `0 \<= nums.length \<= 10^4^`
+* `1 \<= k \<= nums.length + 1`
+* `-10^4^ \<= nums[i] \<= 10^4^`
+* `-10^4^ \<= val \<= 10^4^`
+* 最多调用 `add` 方法 `10`^`4`^ 次
 
 
-You may assume that `nums`' length ≥ `k-1` and `k` ≥ 1.
+== 思路分析
 
-
+首先想到的是对顶堆，看题解，发现不需要保留所有元素，直接使用简单的优先队列即可。
 
 [[src-0703]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0703_KthLargestElementInAStream.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0703_KthLargestElementInAStream_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/kth-largest-element-in-a-stream/solutions/600598/shu-ju-liu-zhong-de-di-k-da-yuan-su-by-l-woz8/[703. 数据流中的第 K 大元素 - 官方题解^]
+. https://leetcode.cn/problems/kth-largest-element-in-a-stream/solutions/600618/mian-shi-ti-jing-gao-jing-dian-topk-ben-u7w30/[703. 数据流中的第 K 大元素 - 面试题警告：经典 TopK ，本题需要重点学习^]

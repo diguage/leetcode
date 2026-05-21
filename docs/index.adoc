@@ -1491,7 +1491,7 @@ include::0701-insert-into-a-binary-search-tree.adoc[leveloffset=+1]
 
 // include::0702-search-in-a-sorted-array-of-unknown-size.adoc[leveloffset=+1]
 
-// include::0703-kth-largest-element-in-a-stream.adoc[leveloffset=+1]
+include::0703-kth-largest-element-in-a-stream.adoc[leveloffset=+1]
 
 include::0704-binary-search.adoc[leveloffset=+1]
 
