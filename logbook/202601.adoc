@@ -747,9 +747,14 @@ endif::[]
 |❌ 双指针。统计每段相同数字的长度，跟前段相比，取最小值。
 
 |{counter:codes}
-|{leetcode_base_url}/kth-largest-element-in-a-stream/[703. Kth Largest Element in a Stream^]
+|{leetcode_base_url}/kth-largest-element-in-a-stream/[703. 数据流中的第 K 大元素^]
 |{doc_base_url}/0703-kth-largest-element-in-a-stream.adoc[题解]
 |✅ 优先队列。首先想到的是对顶堆，看题解，发现不需要保留所有元素，直接使用简单的优先队列即可。
+
+|{counter:codes}
+|{leetcode_base_url}/design-hashmap/[706. 设计哈希映射^]
+|{doc_base_url}/0706-design-hashmap.adoc[题解]
+|✅ 哈希。链表法或者开发寻址法。这里直接用数组。
 
 |===
 
