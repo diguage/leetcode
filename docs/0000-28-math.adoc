@@ -71,6 +71,10 @@ xref:0137-single-number-ii.adoc[137. 只出现一次的数字 II]
 
 . xref:0593-valid-square.adoc[593. 有效的正方形]
 
+=== ASCII 藏有大秘密
+
+. xref:0709-to-lower-case.adoc[709. 转换成小写字母]
+
 == 经典例题
 
 . xref:0029-divide-two-integers.adoc[29. Divide Two Integers]

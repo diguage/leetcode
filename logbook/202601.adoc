@@ -756,6 +756,11 @@ endif::[]
 |{doc_base_url}/0706-design-hashmap.adoc[题解]
 |✅ 哈希。链表法或者开发寻址法。这里直接用数组。
 
+|{counter:codes}
+|{leetcode_base_url}/to-lower-case/[709. 转换成小写字母^]
+|{doc_base_url}/0709-to-lower-case.adoc[题解]
+|✅ 字符串。通过字符加减完成转换，也可以调用原始库函数。
+
 |===
 
 
