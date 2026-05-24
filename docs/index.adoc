@@ -1509,7 +1509,7 @@ include::0710-random-pick-with-blacklist.adoc[leveloffset=+1]
 
 // include::0711-number-of-distinct-islands-ii.adoc[leveloffset=+1]
 
-// include::0712-minimum-ascii-delete-sum-for-two-strings.adoc[leveloffset=+1]
+include::0712-minimum-ascii-delete-sum-for-two-strings.adoc[leveloffset=+1]
 
 include::0713-subarray-product-less-than-k.adoc[leveloffset=+1]
 

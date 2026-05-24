@@ -761,6 +761,11 @@ endif::[]
 |{doc_base_url}/0709-to-lower-case.adoc[题解]
 |✅ 字符串。通过字符加减完成转换，也可以调用原始库函数。
 
+|{counter:codes}
+|{leetcode_base_url}/minimum-ascii-delete-sum-for-two-strings/[712. 两个字符串的最小ASCII删除和^]
+|{doc_base_url}/0712-minimum-ascii-delete-sum-for-two-strings.adoc[题解]
+|✅ 动态规划。即可以正着解，也可以通过“求最长公共子序列”反着解。
+
 |===
 
 
