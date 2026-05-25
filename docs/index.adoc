@@ -1519,7 +1519,7 @@ include::0714-best-time-to-buy-and-sell-stock-with-transaction-fee.adoc[leveloff
 
 // include::0716-max-stack.adoc[leveloffset=+1]
 
-// include::0717-1-bit-and-2-bit-characters.adoc[leveloffset=+1]
+include::0717-1-bit-and-2-bit-characters.adoc[leveloffset=+1]
 
 include::0718-maximum-length-of-repeated-subarray.adoc[leveloffset=+1]
 

@@ -766,6 +766,11 @@ endif::[]
 |{doc_base_url}/0712-minimum-ascii-delete-sum-for-two-strings.adoc[题解]
 |✅ 动态规划。即可以正着解，也可以通过“求最长公共子序列”反着解。
 
+|{counter:codes}
+|{leetcode_base_url}/1-bit-and-2-bit-characters/[717. 1 比特与 2 比特字符^]
+|{doc_base_url}/0717-1-bit-and-2-bit-characters.adoc[题解]
+|✅ 动态规划。整上动态规划了。看题解，可以当作模拟题来解，解法更简单。
+
 |===
 
 

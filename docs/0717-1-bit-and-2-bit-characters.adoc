@@ -1,47 +1,68 @@
 [#0717-1-bit-and-2-bit-characters]
-= 717. 1-bit and 2-bit Characters
+= 717. 1 比特与 2 比特字符
 
-{leetcode}/problems/1-bit-and-2-bit-characters/[LeetCode - 1-bit and 2-bit Characters^]
+https://leetcode.cn/problems/1-bit-and-2-bit-characters/[LeetCode - 717. 1 比特与 2 比特字符^]
 
-We have two special characters. The first character can be represented by one bit `0`. The second character can be represented by two bits (`10` or `11`).  
+有两种特殊字符：
 
-Now given a string represented by several bits. Return whether the last character must be a one-bit character or not. The given string will always end with a zero.
+* 第一种字符可以用一比特 `0` 表示
+* 第二种字符可以用两比特（`10` 或 `11`）表示
 
-*Example 1:*
+给你一个以 `0` 结尾的二进制数组 `bits`，如果最后一个字符必须是一个一比特字符，则返回 `true`。
 
+*示例 1:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 
-bits = [1, 0, 0]
-*Output:* True
-*Explanation:* 
-The only way to decode it is two-bit character and one-bit character. So the last character is one-bit character.
-----
+....
+输入: bits = [1, 0, 0]
+输出: true
+解释: 唯一的解码方式是将其解析为一个两比特字符和一个一比特字符。
+所以最后一个字符是一比特字符。
+....
 
+*示例 2:*
 
-*Example 2:*
+....
+输入：bits = [1,1,1,0]
+输出：false
+解释：唯一的解码方式是将其解析为两比特字符和两比特字符。
+所以最后一个字符不是一比特字符。
+....
 
+*提示:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 
-bits = [1, 1, 1, 0]
-*Output:* False
-*Explanation:* 
-The only way to decode it is two-bit character and two-bit character. So the last character is NOT one-bit character.
-----
-
-
-*Note:*
-. `1 <= len(bits) <= 1000`.</li>
-. `bits[i]` is always `0` or `1`.</li>
+* `1 \<= bits.length \<= 1000`
+* `bits[i]` 为 `0` 或 `1`
 
 
+== 思路分析
+
+整上动态规划了。看题解，可以当作模拟题来解，解法更简单。
 
 [[src-0717]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0717_1BitAnd2BitCharacters.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0717_1BitAnd2BitCharacters_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/1-bit-and-2-bit-characters/solutions/3834856/ti-yi-jie-du-jian-ji-xie-fa-pythonjavacc-vgp9/[717. 1 比特与 2 比特字符 - 题意解读，简洁写法^]
+. https://leetcode.cn/problems/1-bit-and-2-bit-characters/solutions/1264760/1bi-te-yu-2bi-te-zi-fu-by-leetcode-solut-rhrh/[717. 1 比特与 2 比特字符 - 官方题解^]
+. https://leetcode.cn/problems/1-bit-and-2-bit-characters/solutions/3835238/shuang-jie-jie-du-ti-yi-shuo-ming-bian-m-oio9/[717. 1 比特与 2 比特字符 - 【双解】解读题意，说明编码方式唯一，正序/倒序遍历^]
