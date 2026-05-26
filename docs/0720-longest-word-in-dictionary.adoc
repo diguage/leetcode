@@ -1,46 +1,66 @@
 [#0720-longest-word-in-dictionary]
-= 720. Longest Word in Dictionary
+= 720. 词典中最长的单词
 
-{leetcode}/problems/longest-word-in-dictionary/[LeetCode - Longest Word in Dictionary^]
+https://leetcode.cn/problems/longest-word-in-dictionary/[LeetCode - 720. 词典中最长的单词^]
 
-Given a list of strings `words` representing an English Dictionary, find the longest word in `words` that can be built one character at a time by other words in `words`.  If there is more than one possible answer, return the longest word with the smallest lexicographical order.  If there is no answer, return the empty string.
+给出一个字符串数组 `words` 组成的一本英语词典。返回 `words` 中最长的一个单词，该单词是由 `words` 词典中其他单词逐步添加一个字母组成。
 
-*Example 1:*
+若其中有多个可行的答案，则返回答案中字典序最小的单词。若无答案，则返回空字符串。
 
+请注意，单词应该从左到右构建，每个额外的字符都添加到前一个单词的结尾。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 
-words = ["w","wo","wor","worl", "world"]
-*Output:* "world"
-*Explanation:* 
-The word "world" can be built one character at a time by "w", "wo", "wor", and "worl".
-----
+*示例 1：*
 
+....
+输入：words = ["w","wo","wor","worl", "world"]
+输出："world"
+解释： 单词"world"可由"w", "wo", "wor", 和 "worl"逐步添加一个字母组成。
+....
 
-*Example 2:*
+*示例 2：*
 
+....
+输入：words = ["a", "banana", "app", "appl", "ap", "apply", "apple"]
+输出："apple"
+解释："apply" 和 "apple" 都能由词典中的单词组成。但是 "apple" 的字典序小于 "apply"
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 
-words = ["a", "banana", "app", "appl", "ap", "apply", "apple"]
-*Output:* "apple"
-*Explanation:* 
-Both "apply" and "apple" can be built from other words in the dictionary. However, "apple" is lexicographically smaller than "apply".
-----
+*提示：*
 
-
-*Note:*
-. All the strings in the input will only contain lowercase letters.</li>
-. The length of `words` will be in the range `[1, 1000]`.</li>
-. The length of `words[i]` will be in the range `[1, 30]`.</li>
+* `1 \<= words.length \<= 1000`
+* `1 \<= words[i].length \<= 30`
+* 所有输入的字符串 `words[i]` 都只包含小写字母。
 
 
+== 思路分析
+
+先将每个单词都插入前缀树，然后再逐个判定每个单词是否在前缀树。这里要注意：判定是否在前缀树中，还要判定每个字母都要是单词结尾才行。
 
 [[src-0720]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0720_LongestWordInDictionary.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0720_LongestWordInDictionary_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/longest-word-in-dictionary/solutions/1342188/ci-dian-zhong-zui-chang-de-dan-ci-by-lee-k5gj/[720. 词典中最长的单词 - 官方题解^]
+. https://leetcode.cn/problems/longest-word-in-dictionary/solutions/1343738/by-ac_oier-bmot/[720. 词典中最长的单词 - 一题双解 :「模拟」&「字典树」^]
+. https://leetcode.cn/problems/longest-word-in-dictionary/solutions/1345872/by-tong-zhu-burp/[720. 词典中最长的单词 - 一题两解：哈希表 & 字典树 & 面向对象！^]

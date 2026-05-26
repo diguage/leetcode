@@ -771,6 +771,11 @@ endif::[]
 |{doc_base_url}/0717-1-bit-and-2-bit-characters.adoc[题解]
 |✅ 动态规划。整上动态规划了。看题解，可以当作模拟题来解，解法更简单。
 
+|{counter:codes}
+|{leetcode_base_url}/longest-word-in-dictionary/[720. 词典中最长的单词^]
+|{doc_base_url}/0720-longest-word-in-dictionary.adoc[题解]
+|⭕️ 前缀树。先将每个单词都插入前缀树，然后再逐个判定每个单词是否在前缀树。这里要注意：判定是否在前缀树中，还要判定每个字母都要是单词结尾才行。
+
 |===
 
 
