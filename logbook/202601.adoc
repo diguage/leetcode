@@ -776,6 +776,12 @@ endif::[]
 |{doc_base_url}/0720-longest-word-in-dictionary.adoc[题解]
 |⭕️ 前缀树。先将每个单词都插入前缀树，然后再逐个判定每个单词是否在前缀树。这里要注意：判定是否在前缀树中，还要判定每个字母都要是单词结尾才行。
 
+|{counter:codes}
+|{leetcode_base_url}/remove-comments/[722. 删除注释^]
+|{doc_base_url}/0722-remove-comments.adoc[题解]
+|⭕️ 字符串模拟题。各种细节。
+
+
 |===
 
 

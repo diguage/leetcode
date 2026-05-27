@@ -1529,7 +1529,7 @@ include::0720-longest-word-in-dictionary.adoc[leveloffset=+1]
 
 include::0721-accounts-merge.adoc[leveloffset=+1]
 
-// include::0722-remove-comments.adoc[leveloffset=+1]
+include::0722-remove-comments.adoc[leveloffset=+1]
 
 // include::0723-candy-crush.adoc[leveloffset=+1]
 
