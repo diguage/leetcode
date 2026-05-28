@@ -781,6 +781,12 @@ endif::[]
 |{doc_base_url}/0722-remove-comments.adoc[题解]
 |⭕️ 字符串模拟题。各种细节。
 
+|{counter:codes}
+|{leetcode_base_url}/split-linked-list-in-parts/[725. 分隔链表^]
+|{doc_base_url}/0725-split-linked-list-in-parts.adoc[题解]
+|✅ 链表。
+
+
 
 |===
 
