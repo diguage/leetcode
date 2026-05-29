@@ -1541,7 +1541,7 @@ include::0725-split-linked-list-in-parts.adoc[leveloffset=+1]
 
 // include::0727-minimum-window-subsequence.adoc[leveloffset=+1]
 
-// include::0728-self-dividing-numbers.adoc[leveloffset=+1]
+include::0728-self-dividing-numbers.adoc[leveloffset=+1]
 
 // include::0729-my-calendar-i.adoc[leveloffset=+1]
 

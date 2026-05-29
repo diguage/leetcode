@@ -786,6 +786,12 @@ endif::[]
 |{doc_base_url}/0725-split-linked-list-in-parts.adoc[题解]
 |✅ 链表。
 
+|{counter:codes}
+|{leetcode_base_url}/self-dividing-numbers/[728. Self Dividing Numbers^]
+|{doc_base_url}/0728-self-dividing-numbers.adoc[题解]
+|✅ 数学模拟题。逐个判定各个数字即可。
+
+
 
 
 |===
