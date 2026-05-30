@@ -1,46 +1,72 @@
 [#0729-my-calendar-i]
-= 729. My Calendar I
+= 729. 我的日程安排表 I
 
-{leetcode}/problems/my-calendar-i/[LeetCode - My Calendar I^]
+https://leetcode.cn/problems/my-calendar-i/[LeetCode - 729. 我的日程安排表 I^]
 
-Implement a `MyCalendar` class to store your events. A new event can be added if adding the event will not cause a double booking.
+实现一个 `MyCalendar` 类来存放你的日程安排。如果要添加的日程安排不会造成 *重复预订*，则可以存储这个新的日程安排。
 
-Your class will have the method, `book(int start, int end)`. Formally, this represents a booking on the half open interval `[start, end)`, the range of real numbers `x` such that `start <= x < end`.
+当两个日程安排有一些时间上的交叉时（例如两个日程安排都在同一时间内），就会产生 *重复预订*。
 
-A _double booking_ happens when two events have some non-empty intersection (ie., there is some time that is common to both events.)
+日程可以用一对整数 `start` 和 `end` 表示，这里的时间是半开区间，即 `[start, end)`, 实数 `x` 的范围为，`start \<= x < end`。
 
-For each call to the method `MyCalendar.book`, return `true` if the event can be added to the calendar successfully without causing a double booking. Otherwise, return `false` and do not add the event to the calendar.
-Your class will be called like this: `MyCalendar cal = new MyCalendar();` `MyCalendar.book(start, end)`
+实现 `MyCalendar` 类：
 
-*Example 1:*
+* `MyCalendar()` 初始化日历对象。
+* `boolean book(int start, int end)` 如果可以将日程安排成功添加到日历中而不会导致重复预订，返回 `true`。否则，返回 `false` 并且不要将该日程安排添加到日历中。
 
-[subs="verbatim,quotes,macros"]
-----
-MyCalendar();
-MyCalendar.book(10, 20); // returns true
-MyCalendar.book(15, 25); // returns false
-MyCalendar.book(20, 30); // returns true
-*Explanation:* 
-The first event can be booked.  The second can't because time 15 is already booked by another event.
-The third event can be booked, as the first event takes every time less than 20, but not including 20.
-----
+*示例：*
 
- 
+....
+输入：
+["MyCalendar", "book", "book", "book"]
+[[], [10, 20], [15, 25], [20, 30]]
+输出：
+[null, true, false, true]
 
-*Note:*
+解释：
+MyCalendar myCalendar = new MyCalendar();
+myCalendar.book(10, 20); // return True
+myCalendar.book(15, 25); // return False ，这个日程安排不能添加到日历中，因为时间 15 已经被另一个日程安排预订了。
+myCalendar.book(20, 30); // return True ，这个日程安排可以添加到日历中，因为第一个日程安排预订的每个时间都小于 20 ，且不包含时间 20 。
+....
+
+*提示：*
+
+* `0 \<= start < end \<= 10^9^`
+* 每个测试用例，调用 `book` 方法的次数最多不超过 `1000` 次。
 
 
-* The number of calls to `MyCalendar.book` per test case will be at most `1000`.
-* In calls to `MyCalendar.book(start, end)`, `start` and `end` are integers in the range `[0, 10^9]`.
+== 思路分析
 
+维持一个排序的链表，直接遍历查找或者使用二分查找。更高级的用法是线段树。
 
- 
-
-
+image::images/0729-10.svg[{image_attr}]
 
 [[src-0729]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0729_MyCalendarI.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0729_MyCalendarI_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/my-calendar-i/solutions/1643942/wo-de-ri-cheng-an-pai-biao-i-by-leetcode-nlxr/[729. 我的日程安排表 I - 官方题解^]
+. https://leetcode.cn/problems/my-calendar-i/solutions/1646079/by-lfool-xvpv/[729. 我的日程安排表 I - 线段树详解「汇总级别整理 🔥🔥🔥」^]
+. https://leetcode.cn/problems/my-calendar-i/solutions/1646389/by-ac_oier-hnjl/[729. 我的日程安排表 I - 一题三解 :「模拟」&「线段树（动态开点）」&「分块 + 位运算（分桶）」^]
