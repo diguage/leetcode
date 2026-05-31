@@ -1547,7 +1547,7 @@ include::0729-my-calendar-i.adoc[leveloffset=+1]
 
 // include::0730-count-different-palindromic-subsequences.adoc[leveloffset=+1]
 
-// include::0731-my-calendar-ii.adoc[leveloffset=+1]
+include::0731-my-calendar-ii.adoc[leveloffset=+1]
 
 // include::0732-my-calendar-iii.adoc[leveloffset=+1]
 
