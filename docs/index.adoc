@@ -1551,7 +1551,7 @@ include::0731-my-calendar-ii.adoc[leveloffset=+1]
 
 // include::0732-my-calendar-iii.adoc[leveloffset=+1]
 
-// include::0733-flood-fill.adoc[leveloffset=+1]
+include::0733-flood-fill.adoc[leveloffset=+1]
 
 // include::0734-sentence-similarity.adoc[leveloffset=+1]
 
