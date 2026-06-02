@@ -1557,7 +1557,7 @@ include::0733-flood-fill.adoc[leveloffset=+1]
 
 // include::0734-sentence-similarity.adoc[leveloffset=+1]
 
-// include::0735-asteroid-collision.adoc[leveloffset=+1]
+include::0735-asteroid-collision.adoc[leveloffset=+1]
 
 // include::0736-parse-lisp-expression.adoc[leveloffset=+1]
 

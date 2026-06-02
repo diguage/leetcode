@@ -806,6 +806,10 @@ endif::[]
 |{doc_base_url}/0733-flood-fill.adoc[题解]
 |✅ 深度优先遍历。
 
+|{counter:codes}
+|{leetcode_base_url}/asteroid-collision/[735. 小行星碰撞^]
+|{doc_base_url}/0735-asteroid-collision.adoc[题解]
+|✅ 栈。用栈维护小行星。
 
 
 |===
