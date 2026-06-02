@@ -9,6 +9,8 @@ include::0000-00-overview.adoc[leveloffset=+1]
 
 // Data Structure
 
+// :sectnums:
+
 include::0000-data-structure-list.adoc[leveloffset=+1]
 
 include::0000-data-structure-stack.adoc[leveloffset=+1]
@@ -25,7 +27,10 @@ include::0000-data-structure-graph.adoc[leveloffset=+1]
 
 include::0000-sort.adoc[leveloffset=+1]
 
+// :!sectnums:
+
 // Pattern
+
 :sectnums:
 
 include::0000-00-recursion.adoc[leveloffset=+1]
