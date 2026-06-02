@@ -26,6 +26,7 @@ include::0000-data-structure-graph.adoc[leveloffset=+1]
 include::0000-sort.adoc[leveloffset=+1]
 
 // Pattern
+:sectnums:
 
 include::0000-00-recursion.adoc[leveloffset=+1]
 
@@ -85,6 +86,7 @@ include::0000-27-greedy.adoc[leveloffset=+1]
 
 include::0000-28-math.adoc[leveloffset=+1]
 
+:!sectnums:
 // :sectnums:
 
 include::0001-two-sum.adoc[leveloffset=+1]
