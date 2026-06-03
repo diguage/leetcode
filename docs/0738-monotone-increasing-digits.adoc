@@ -1,52 +1,67 @@
 [#0738-monotone-increasing-digits]
-= 738. Monotone Increasing Digits
+= 738. 单调递增的数字
 
-{leetcode}/problems/monotone-increasing-digits/[LeetCode - Monotone Increasing Digits^]
+https://leetcode.cn/problems/monotone-increasing-digits/[LeetCode - 738. 单调递增的数字^]
 
+当且仅当每个相邻位数上的数字 `x` 和 `y` 满足 `x \<= y` 时，我们称这个整数是**单调递增**的。
 
-Given a non-negative integer `N`, find the largest number that is less than or equal to `N` with monotone increasing digits.
+给定一个整数 `n` ，返回 _小于或等于 `n` 的最大数字，且数字呈 *单调递增*_ 。
 
-(Recall that an integer has _monotone increasing digits_ if and only if each pair of adjacent digits `x` and `y` satisfy `x <= y`.)
+*示例 1:*
 
+....
+输入: n = 10
+输出: 9
+....
 
-*Example 1:*
+*示例 2:*
 
+....
+输入: n = 1234
+输出: 1234
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* N = 10
-*Output:* 9
-----
+*示例 3:*
 
+....
+输入: n = 332
+输出: 299
+....
 
-*Example 2:*
+*提示:*
 
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* N = 1234
-*Output:* 1234
-----
-
-
-*Example 3:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* N = 332
-*Output:* 299
-----
+* `0 \<= n \<= 10^9^`
 
 
-*Note:*
-`N` is an integer in the range `[0, 10^9]`.
+== 思路分析
 
-
+想到来大概思路，还差点落地实现。
 
 [[src-0738]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0738_MonotoneIncreasingDigits.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0738_MonotoneIncreasingDigits_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/monotone-increasing-digits/solutions/521966/jian-dan-tan-xin-shou-ba-shou-jiao-xue-k-a0mp/[738. 单调递增的数字 - 简单贪心，手把手教学，快来秒懂！^]
+. https://leetcode.cn/problems/monotone-increasing-digits/solutions/521694/dan-diao-di-zeng-de-shu-zi-by-leetcode-s-5908/[738. 单调递增的数字 - 官方题解^]
+. https://leetcode.cn/problems/monotone-increasing-digits/solutions/521944/738-dan-diao-di-zeng-de-shu-zi-tan-xin-s-vq4r/[738. 单调递增的数字 - 带你学透贪心算法！^]

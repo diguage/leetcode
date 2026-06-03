@@ -1568,7 +1568,7 @@ include::0735-asteroid-collision.adoc[leveloffset=+1]
 
 // include::0737-sentence-similarity-ii.adoc[leveloffset=+1]
 
-// include::0738-monotone-increasing-digits.adoc[leveloffset=+1]
+include::0738-monotone-increasing-digits.adoc[leveloffset=+1]
 
 include::0739-daily-temperatures.adoc[leveloffset=+1]
 

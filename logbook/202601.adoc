@@ -811,6 +811,11 @@ endif::[]
 |{doc_base_url}/0735-asteroid-collision.adoc[题解]
 |✅ 栈。用栈维护小行星。
 
+|{counter:codes}
+|{leetcode_base_url}/monotone-increasing-digits/[738. 单调递增的数字^]
+|{doc_base_url}/0738-monotone-increasing-digits.adoc[题解]
+|❌ 贪心。想到来大概思路，还差点落地实现。
+
 
 |===
 
