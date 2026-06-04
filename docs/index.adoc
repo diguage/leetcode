@@ -1578,7 +1578,7 @@ include::0740-delete-and-earn.adoc[leveloffset=+1]
 
 // include::0742-closest-leaf-in-a-binary-tree.adoc[leveloffset=+1]
 
-// include::0743-network-delay-time.adoc[leveloffset=+1]
+include::0743-network-delay-time.adoc[leveloffset=+1]
 
 include::0744-find-smallest-letter-greater-than-target.adoc[leveloffset=+1]
 

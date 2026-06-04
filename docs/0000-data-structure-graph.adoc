@@ -1,6 +1,14 @@
 [#0000-data-structure-graph]
 = Graph 图
 
+== 单源最短路径（Single-Source Shortest Path, SSSP）问题
+
+无向图的单源最短路径（Single-Source Shortest Path, SSSP）问题旨在寻找图中指定的某一个起始顶点到图中其余所有顶点之间的“最短”路径。边的权重可以是距离、时间或成本。
+
+=== Dijkstra 算法
+
+=== Bellman-Ford 算法
+
 == 经典题目
 
 . xref:0133-clone-graph.adoc[133. 克隆图]
@@ -164,3 +172,7 @@
 . xref:3481-apply-substitutions.adoc[3481. 应用替换]
 . xref:3493-properties-graph.adoc[3493. 属性图]
 
+
+== 参考资料
+
+. https://blog.garybricks.com/dijkstra-algorithm-introduction-for-beginners[Dijkstra Algorithm^]

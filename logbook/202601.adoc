@@ -816,6 +816,11 @@ endif::[]
 |{doc_base_url}/0738-monotone-increasing-digits.adoc[题解]
 |❌ 贪心。想到来大概思路，还差点落地实现。
 
+|{counter:codes}
+|{leetcode_base_url}/network-delay-time/[743. 网络延迟时间^]
+|{doc_base_url}/0743-network-delay-time.adoc[题解]
+|❌ 最短路径算法。图论还需要好好学习！
+
 
 |===
 
