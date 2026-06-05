@@ -1582,7 +1582,7 @@ include::0743-network-delay-time.adoc[leveloffset=+1]
 
 include::0744-find-smallest-letter-greater-than-target.adoc[leveloffset=+1]
 
-// include::0745-prefix-and-suffix-search.adoc[leveloffset=+1]
+include::0745-prefix-and-suffix-search.adoc[leveloffset=+1]
 
 include::0746-min-cost-climbing-stairs.adoc[leveloffset=+1]
 

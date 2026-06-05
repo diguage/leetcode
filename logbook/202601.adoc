@@ -821,6 +821,11 @@ endif::[]
 |{doc_base_url}/0743-network-delay-time.adoc[题解]
 |❌ 最短路径算法。图论还需要好好学习！
 
+|{counter:codes}
+|{leetcode_base_url}/prefix-and-suffix-search/[745. 前缀和后缀搜索^]
+|{doc_base_url}/0745-prefix-and-suffix-search.adoc[题解]
+|✅ 前缀树。对单词正反存在两棵前缀树上。查找时，使用前后缀分别查找即可。
+
 
 |===
 
