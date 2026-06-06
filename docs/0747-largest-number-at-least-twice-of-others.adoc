@@ -1,51 +1,63 @@
 [#0747-largest-number-at-least-twice-of-others]
-= 747. Largest Number At Least Twice of Others
+= 747. 至少是其他数字两倍的最大数
 
-{leetcode}/problems/largest-number-at-least-twice-of-others/[LeetCode - Largest Number At Least Twice of Others^]
+https://leetcode.cn/problems/largest-number-at-least-twice-of-others/[LeetCode - 747. 至少是其他数字两倍的最大数^]
 
-In a given integer array `nums`, there is always exactly one largest element.
+给你一个整数数组 `nums`，其中总是存在 *唯一的* 一个最大整数 。
 
-Find whether the largest element in the array is at least twice as much as every other number in the array.
+请你找出数组中的最大元素并检查它是否 *至少是数组中每个其他数字的两倍*。如果是，则返回 *最大元素的下标* ，否则返回 `-1`。
 
-If it is, return the *index* of the largest element, otherwise return -1.
+*示例 1：*
 
-*Example 1:*
+....
+输入：nums = [3,6,1,0]
+输出：1
+解释：6 是最大的整数，对于数组中的其他整数，6 至少是数组中其他元素的两倍。6 的下标是 1 ，所以返回 1 。
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* nums = [3, 6, 1, 0]
-*Output:* 1
-*Explanation:* 6 is the largest integer, and for every other number in the array x,
-6 is more than twice as big as x.  The index of value 6 is 1, so we return 1.
-----
+*示例 2：*
 
- 
+....
+输入：nums = [1,2,3,4]
+输出：-1
+解释：4 没有超过 3 的两倍大，所以返回 -1 。
+....
 
-*Example 2:*
+*提示：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* nums = [1, 2, 3, 4]
-*Output:* -1
-*Explanation:* 4 isn't at least as big as twice the value of 3, so we return -1.
-----
-
- 
-
-*Note:*
+* `2 \<= nums.length \<= 50`
+* `0 \<= nums[i] \<= 100`
+* `nums` 中的最大元素是唯一的
 
 
-. `nums` will have a length in the range `[1, 50]`.
-. Every `nums[i]` will be an integer in the range `[0, 99]`.
+== 思路分析
 
-
- 
-
-
+简单模拟题：就是找出冠军和亚军数，看看冠军是不是亚军两倍即可。
 
 [[src-0747]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0747_LargestNumberAtLeastTwiceOfOthers.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0747_LargestNumberAtLeastTwiceOfOthers_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/largest-number-at-least-twice-of-others/solutions/1206058/zhi-shao-shi-qi-ta-shu-zi-liang-bei-de-z-985m/[747. 至少是其他数字两倍的最大数 - 官方题解^]
+. https://leetcode.cn/problems/largest-number-at-least-twice-of-others/solutions/1207803/gong-shui-san-xie-jian-dan-mo-ni-ti-by-a-8179/[747. 至少是其他数字两倍的最大数 - 简单模拟题^]
