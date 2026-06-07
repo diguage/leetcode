@@ -1588,7 +1588,7 @@ include::0746-min-cost-climbing-stairs.adoc[leveloffset=+1]
 
 include::0747-largest-number-at-least-twice-of-others.adoc[leveloffset=+1]
 
-// include::0748-shortest-completing-word.adoc[leveloffset=+1]
+include::0748-shortest-completing-word.adoc[leveloffset=+1]
 
 // include::0749-contain-virus.adoc[leveloffset=+1]
 

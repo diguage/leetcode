@@ -1,56 +1,75 @@
 [#0748-shortest-completing-word]
-= 748. Shortest Completing Word
+= 748. 最短补全词
 
-{leetcode}/problems/shortest-completing-word/[LeetCode - Shortest Completing Word^]
+https://leetcode.cn/problems/shortest-completing-word/[LeetCode - 748. 最短补全词^]
 
+给你一个字符串 `licensePlate` 和一个字符串数组 `words`，请你找出 `words` 中的 *最短补全词*。
 
-Find the minimum length word from a given dictionary `words`, which has all the letters from the string `licensePlate`.  Such a word is said to _complete_ the given string `licensePlate`
+*补全词* 是一个包含 `licensePlate` 中所有字母的单词。*忽略* `licensePlate` 中的 *数字和空格*。*不区分大小写*。如果某个字母在 `licensePlate` 中出现不止一次，那么该字母在补全词中的出现次数应当一致或者更多。
 
-Here, for letters we ignore case.  For example, `"P"` on the `licensePlate` still matches `"p"` on the word.
+例如：`licensePlate = "aBc 12c"`，那么它的补全词应当包含字母 `a`、`b` 忽略大写）和两个 `c`。可能的 *补全词* 有 `abccdef`、`caaacab` 以及 `cbca`。
 
-It is guaranteed an answer exists.  If there are multiple answers, return the one that occurs first in the array.
+请返回 `words` 中的 *最短补全词*。题目数据保证一定存在一个最短补全词。当有多个单词都符合最短补全词的匹配条件时取 `words` 中 *第一个* 出现的那个。
 
-The license plate might have the same letter occurring multiple times.  For example, given a `licensePlate` of `"PP"`, the word `"pair"` does not complete the `licensePlate`, but the word `"supper"` does.
+*示例 1：*
 
+....
+输入：licensePlate = "1s3 PSt", words = ["step", "steps", "stripe", "stepple"]
+输出："steps"
+解释：最短补全词应该包括 "s"、"p"、"s"（忽略大小写） 以及 "t"。
+"step" 包含 "t"、"p"，但只包含一个 "s"，所以它不符合条件。
+"steps" 包含 "t"、"p" 和两个 "s"。
+"stripe" 缺一个 "s"。
+"stepple" 缺一个 "s"。
+因此，"steps" 是唯一一个包含所有字母的单词，也是本例的答案。
+....
 
-*Example 1:*
+*示例 2：*
 
+....
+输入：licensePlate = "1s3 456", words = ["looks", "pest", "stew", "show"]
+输出："pest"
+解释：licensePlate 只包含字母 "s" 。所有的单词都包含字母 "s" ，其中 "pest"、"stew"、和 "show" 三者最短。答案是 "pest" ，因为它是三个单词中在 words 里最靠前的那个。
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* licensePlate = "1s3 PSt", words = ["step", "steps", "stripe", "stepple"]
-*Output:* "steps"
-*Explanation:* The smallest length word that contains the letters "S", "P", "S", and "T".
-Note that the answer is not "step", because the letter "s" must occur in the word twice.
-Also note that we ignored case for the purposes of comparing whether a letter exists in the word.
-----
+*提示：*
 
-
-*Example 2:*
-
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* licensePlate = "1s3 456", words = ["looks", "pest", "stew", "show"]
-*Output:* "pest"
-*Explanation:* There are 3 smallest length words that contains the letters "s".
-We return the one that occurred first.
-----
-
-
-*Note:*
-
-. `licensePlate` will be a string with length in range `[1, 7]`.
-. `licensePlate` will contain digits, spaces, or letters (uppercase or lowercase).
-. `words` will have a length in the range `[10, 1000]`.
-. Every `words[i]` will consist of lowercase letters, and have length in range `[1, 15]`.
+* `1 \<= licensePlate.length \<= 7`
+* `licensePlate` 由数字、大小写字母或空格 `+' '+` 组成
+* `1 \<= words.length \<= 1000`
+* `1 \<= words[i].length \<= 15`
+* `words[i]` 由小写英文字母组成
 
 
 
+== 思路分析
+
+模拟题。统计每个字母出现的次数。
 
 [[src-0748]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0748_ShortestCompletingWord.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0748_ShortestCompletingWord_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/shortest-completing-word/solutions/1147475/zui-duan-bu-quan-ci-by-leetcode-solution-35pt/[748. 最短补全词 - 官方题解^]
+. https://leetcode.cn/problems/shortest-completing-word/solutions/1149328/gong-shui-san-xie-jian-dan-zi-fu-chuan-j-x4ao/[748. 最短补全词 - 简单字符串计数模拟^]

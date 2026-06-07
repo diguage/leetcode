@@ -827,9 +827,14 @@ endif::[]
 |✅ 前缀树。对单词正反存在两棵前缀树上。查找时，使用前后缀分别查找即可。
 
 |{counter:codes}
-|{leetcode_base_url}/largest-number-at-least-twice-of-others/[747. Largest Number At Least Twice of Others^]
+|{leetcode_base_url}/largest-number-at-least-twice-of-others/[747. 至少是其他数字两倍的最大数^]
 |{doc_base_url}/0747-largest-number-at-least-twice-of-others.adoc[题解]
 |✅ 模拟题。找冠军和亚军。
+
+|{counter:codes}
+|{leetcode_base_url}/shortest-completing-word/[748. 最短补全词^]
+|{doc_base_url}/0748-shortest-completing-word.adoc[题解]
+|✅ 模拟题。统计每个字母出现的次数。
 
 
 |===
