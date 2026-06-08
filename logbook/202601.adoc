@@ -836,6 +836,11 @@ endif::[]
 |{doc_base_url}/0748-shortest-completing-word.adoc[题解]
 |✅ 模拟题。统计每个字母出现的次数。
 
+|{counter:codes}
+|{leetcode_base_url}/prime-number-of-set-bits-in-binary-representation/[762. 二进制表示中质数个计算置位^]
+|{doc_base_url}/0762-prime-number-of-set-bits-in-binary-representation.adoc[题解]
+|✅ 位运算。
+
 
 |===
 

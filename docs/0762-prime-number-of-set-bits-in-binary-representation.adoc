@@ -1,51 +1,79 @@
 [#0762-prime-number-of-set-bits-in-binary-representation]
-= 762. Prime Number of Set Bits in Binary Representation
+= 762. 二进制表示中质数个计算置位
 
-{leetcode}/problems/prime-number-of-set-bits-in-binary-representation/[LeetCode - Prime Number of Set Bits in Binary Representation^]
+https://leetcode.cn/problems/prime-number-of-set-bits-in-binary-representation/[LeetCode - 762. 二进制表示中质数个计算置位^]
+
+给你两个整数 `left` 和 `right`，在闭区间 `[left, right]` 范围内，统计并返回 *计算置位位数为质数* 的整数个数。
+
+*计算置位位数* 就是二进制表示中 `1` 的个数。
+
+* 例如， `21` 的二进制表示 `10101` 有 `3` 个计算置位。
+
+*示例 1：*
+
+....
+输入：left = 6, right = 10
+输出：4
+解释：
+6 -> 110 (2 个计算置位，2 是质数)
+7 -> 111 (3 个计算置位，3 是质数)
+9 -> 1001 (2 个计算置位，2 是质数)
+10-> 1010 (2 个计算置位，2 是质数)
+共计 4 个计算置位为质数的数字。
+....
+
+*示例 2：*
+
+....
+输入：left = 10, right = 15
+输出：5
+解释：
+10 -> 1010 (2 个计算置位, 2 是质数)
+11 -> 1011 (3 个计算置位, 3 是质数)
+12 -> 1100 (2 个计算置位, 2 是质数)
+13 -> 1101 (3 个计算置位, 3 是质数)
+14 -> 1110 (3 个计算置位, 3 是质数)
+15 -> 1111 (4 个计算置位, 4 不是质数)
+共计 5 个计算置位为质数的数字。
+....
+
+*提示：*
+
+* `1 \<= left \<= right \<= 10^6^`
+* `0 \<= right - left \<= 10^4^`
 
 
-Given two integers `L` and `R`, find the count of numbers in the range `[L, R]` (inclusive) having a prime number of set bits in their binary representation.
 
-(Recall that the number of set bits an integer has is the number of `1`s present when written in binary.  For example, `21` written in binary is `10101` which has 3 set bits.  Also, 1 is not a prime.)
+== 思路分析
 
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* L = 6, R = 10
-*Output:* 4
-*Explanation:*
-6 -> 110 (2 set bits, 2 is prime)
-7 -> 111 (3 set bits, 3 is prime)
-9 -> 1001 (2 set bits , 2 is prime)
-10->1010 (2 set bits , 2 is prime)
-----
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* L = 10, R = 15
-*Output:* 5
-*Explanation:*
-10 -> 1010 (2 set bits, 2 is prime)
-11 -> 1011 (3 set bits, 3 is prime)
-12 -> 1100 (2 set bits, 2 is prime)
-13 -> 1101 (3 set bits, 3 is prime)
-14 -> 1110 (3 set bits, 3 is prime)
-15 -> 1111 (4 set bits, 4 is not prime)
-----
-
-*Note:*
-. `L, R` will be integers `L <= R` in the range `[1, 10^6]`.
-. `R - L` will be at most 10000.
-
-
+简单的位运算。
 
 [[src-0762]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0762_PrimeNumberOfSetBitsInBinaryRepresentation.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0762_PrimeNumberOfSetBitsInBinaryRepresentation_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/prime-number-of-set-bits-in-binary-representation/solutions/3905546/san-chong-fang-fa-bao-li-mei-ju-shu-wei-ej6m6/[762. 二进制表示中质数个计算置位 - 三种方法：暴力枚举 / 数位 DP / 组合数学^]
+. https://leetcode.cn/problems/prime-number-of-set-bits-in-binary-representation/solutions/1389365/er-jin-zhi-biao-shi-zhong-zhi-shu-ge-ji-jy35g/[762. 二进制表示中质数个计算置位 - 官方题解^]
+
 
