@@ -841,6 +841,12 @@ endif::[]
 |{doc_base_url}/0762-prime-number-of-set-bits-in-binary-representation.adoc[题解]
 |✅ 位运算。
 
+|{counter:codes}
+|{leetcode_base_url}/toeplitz-matrix/[766. Toeplitz Matrix^]
+|{doc_base_url}/0766-toeplitz-matrix.adoc[题解]
+|✅ 矩阵。想复杂了，遍历矩阵，判断每一个节点跟左上角节点是否相等即可。
+
+
 
 |===
 

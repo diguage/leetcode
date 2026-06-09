@@ -1624,7 +1624,7 @@ include::0763-partition-labels.adoc[leveloffset=+1]
 
 // include::0765-couples-holding-hands.adoc[leveloffset=+1]
 
-// include::0766-toeplitz-matrix.adoc[leveloffset=+1]
+include::0766-toeplitz-matrix.adoc[leveloffset=+1]
 
 // include::0767-reorganize-string.adoc[leveloffset=+1]
 
