@@ -1,41 +1,60 @@
 [#0767-reorganize-string]
-= 767. Reorganize String
+= 767. 重构字符串
 
-{leetcode}/problems/reorganize-string/[LeetCode - Reorganize String^]
+https://leetcode.cn/problems/reorganize-string/[LeetCode - 767. 重构字符串^]
 
-Given a string `S`, check if the letters can be rearranged so that two characters that are adjacent to each other are not the same.
+给定一个字符串 `s`，检查是否能重新排布其中的字母，使得两相邻的字符不同。
 
-If possible, output any possible result.  If not possible, return the empty string.
+返回 _``s`` 的任意可能的重新排列。若不可行，返回空字符串 ``""``_。
 
-*Example 1:*
+*示例 1:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* S = "aab"
-*Output:* "aba"
-----
+....
+输入: s = "aab"
+输出: "aba"
+....
 
-*Example 2:*
+*示例 2:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* S = "aaab"
-*Output:* ""
-----
+....
+输入: s = "aaab"
+输出: ""
+....
 
-*Note:*
+*提示:*
 
-
-* `S` will consist of lowercase letters and have length in range `[1, 500]`.
+* `1 \<= s.length \<= 500`
+* `s` 只包含小写字母
 
 
- 
+== 思路分析
 
-
+贪心：统计每个字符出现次数，安装次数倒序插入到已有字符串中。
 
 [[src-0767]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0767_ReorganizeString.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0767_ReorganizeString_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/reorganize-string/solutions/503231/zhong-gou-zi-fu-chuan-by-leetcode-solution/[767. 重构字符串 - 力扣官方题解^]
+. https://leetcode.cn/problems/reorganize-string/solutions/2779462/tan-xin-gou-zao-pai-xu-bu-pai-xu-liang-c-h9jg/[767. 重构字符串 - 结论+构造，排序/不排序两种写法，附相似题目^]

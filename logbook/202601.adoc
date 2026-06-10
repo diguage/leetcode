@@ -842,11 +842,14 @@ endif::[]
 |✅ 位运算。
 
 |{counter:codes}
-|{leetcode_base_url}/toeplitz-matrix/[766. Toeplitz Matrix^]
+|{leetcode_base_url}/toeplitz-matrix/[766. 托普利茨矩阵^]
 |{doc_base_url}/0766-toeplitz-matrix.adoc[题解]
 |✅ 矩阵。想复杂了，遍历矩阵，判断每一个节点跟左上角节点是否相等即可。
 
-
+|{counter:codes}
+|{leetcode_base_url}/reorganize-string/[767. 重构字符串^]
+|{doc_base_url}/0767-reorganize-string.adoc[题解]
+|✅ 贪心。统计每个字符出现次数，安装次数倒序插入到已有字符串中。
 
 |===
 
