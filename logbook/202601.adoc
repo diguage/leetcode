@@ -851,6 +851,12 @@ endif::[]
 |{doc_base_url}/0767-reorganize-string.adoc[题解]
 |✅ 贪心。统计每个字符出现次数，安装次数倒序插入到已有字符串中。
 
+|{counter:codes}
+|{leetcode_base_url}/max-chunks-to-make-sorted/[769. 最多能完成排序的块^]
+|{doc_base_url}/0769-max-chunks-to-make-sorted.adoc[题解]
+|❌ 贪心。以区块之内的最大值来化界，在一个区块内找到最大值，当最大值跟当前下标相等时，则到达一个区块的终点。
+
+
 |===
 
 

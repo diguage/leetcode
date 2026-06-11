@@ -1,48 +1,72 @@
 [#0769-max-chunks-to-make-sorted]
-= 769. Max Chunks To Make Sorted
+= 769. 最多能完成排序的块
 
-{leetcode}/problems/max-chunks-to-make-sorted/[LeetCode - Max Chunks To Make Sorted^]
+https://leetcode.cn/problems/max-chunks-to-make-sorted/[LeetCode - 769. 最多能完成排序的块^]
 
-Given an array `arr` that is a permutation of `[0, 1, ..., arr.length - 1]`, we split the array into some number of "chunks" (partitions), and individually sort each chunk.  After concatenating them, the result equals the sorted array.
+给定一个长度为 `n` 的整数数组 `arr`，它表示在 `[0, n - 1]` 范围内的整数的排列。
 
-What is the most number of chunks we could have made?
+我们将 `arr` 分割成若干 *块*(即分区)，并对每个块单独排序。将它们连接起来后，使得连接的结果和按升序排序后的原数组相同。
 
-*Example 1:*
+返回数组能分成的最多块数量。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* arr = [4,3,2,1,0]
-*Output:* 1
-*Explanation:*
-Splitting into two or more chunks will not return the required result.
-For example, splitting into [4, 3], [2, 1, 0] will result in [3, 4, 0, 1, 2], which isn't sorted.
-----
+*示例 1:*
 
-*Example 2:*
+....
+输入: arr = [4,3,2,1,0]
+输出: 1
+解释:
+将数组分成2块或者更多块，都无法得到所需的结果。
+例如，分成 [4, 3], [2, 1, 0] 的结果是 [3, 4, 0, 1, 2]，这不是有序的数组。
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* arr = [1,0,2,3,4]
-*Output:* 4
-*Explanation:*
-We can split into two chunks, such as [1, 0], [2, 3, 4].
-However, splitting into [1, 0], [2], [3], [4] is the highest number of chunks possible.
-----
+*示例 2:*
 
-*Note:*
+....
+输入: arr = [1,0,2,3,4]
+输出: 4
+解释:
+我们可以把它分成两块，例如 [1, 0], [2, 3, 4]。
+然而，分成 [1, 0], [2], [3], [4] 可以得到最多的块数。
+对每个块单独排序后，结果为 [0, 1], [2], [3], [4]
+....
+
+*提示:*
+
+* `n == arr.length`
+* `1 \<= n \<= 10`
+* `0 \<= arr[i] \< n`
+* `arr` 中每个元素都 *不同*
 
 
-* `arr` will have length in range `[1, 10]`.
-* `arr[i]` will be a permutation of `[0, 1, ..., arr.length - 1]`.
+== 思路分析
 
+贪心。以区块之内的最大值来化界，在一个区块内找到最大值，当最大值跟当前下标相等时，则到达一个区块的终点。
 
- 
-
-
+也可以使用单调栈！
 
 [[src-0769]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0769_MaxChunksToMakeSorted.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0769_MaxChunksToMakeSorted_2.java[tag=answer]
+// ----
+// --
+====
+
+== 参考资料
+
+. https://leetcode.cn/problems/max-chunks-to-make-sorted/solutions/1886333/zui-duo-neng-wan-cheng-pai-xu-de-kuai-by-gc4k/[769. 最多能完成排序的块 - 官方题解^]
+。 https://leetcode.cn/problems/max-chunks-to-make-sorted/solutions/1888329/by-lcbin-jgrv/[769. 最多能完成排序的块 - 一题双解：贪心 + 一次遍历 & 单调栈^]
