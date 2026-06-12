@@ -856,6 +856,11 @@ endif::[]
 |{doc_base_url}/0769-max-chunks-to-make-sorted.adoc[题解]
 |❌ 贪心。以区块之内的最大值来化界，在一个区块内找到最大值，当最大值跟当前下标相等时，则到达一个区块的终点。
 
+|{counter:codes}
+|{leetcode_base_url}/max-chunks-to-make-sorted-ii/[768. 最多能完成排序的块 II^]
+|{doc_base_url}/0768-max-chunks-to-make-sorted-ii.adoc[题解]
+|❌ 单调栈。单调递增栈，需要注意，弹出栈时，要保留栈顶，把中间元素弹出后，还要把栈顶元素入栈。
+
 
 |===
 
