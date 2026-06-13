@@ -1634,7 +1634,7 @@ include::0769-max-chunks-to-make-sorted.adoc[leveloffset=+1]
 
 // include::0770-basic-calculator-iv.adoc[leveloffset=+1]
 
-// include::0771-jewels-and-stones.adoc[leveloffset=+1]
+include::0771-jewels-and-stones.adoc[leveloffset=+1]
 
 // include::0772-basic-calculator-iii.adoc[leveloffset=+1]
 

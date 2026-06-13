@@ -1,40 +1,61 @@
 [#0771-jewels-and-stones]
-= 771. Jewels and Stones
+= 771. 宝石与石头
 
-{leetcode}/problems/jewels-and-stones/[LeetCode - Jewels and Stones^]
+https://leetcode.cn/problems/jewels-and-stones/[LeetCode - 771. 宝石与石头^]
 
-You're given strings `J` representing the types of stones that are jewels, and `S` representing the stones you have.  Each character in `S` is a type of stone you have.  You want to know how many of the stones you have are also jewels.
+给你一个字符串 `jewels` 代表石头中宝石的类型，另有一个字符串 `stones` 代表你拥有的石头。`stones` 中每个字符代表了一种你拥有的石头的类型，你想知道你拥有的石头中有多少是宝石。
 
-The letters in `J` are guaranteed distinct, and all characters in `J` and `S` are letters. Letters are case sensitive, so `"a"` is considered a different type of stone from `"A"`.
+字母区分大小写，因此 `a` 和 `A` 是不同类型的石头。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* J = "aA", S = "aAAbbbb"
-*Output:* 3
-----
+....
+输入：jewels = "aA", stones = "aAAbbbb"
+输出：3
+....
 
-*Example 2:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* J = "z", S = "ZZ"
-*Output:* 0
-----
+....
+输入：jewels = "z", stones = "ZZ"
+输出：0
+....
 
-*Note:*
+*提示：*
 
-
-* `S` and `J` will consist of letters and have length at most 50.
-* The characters in `J` are distinct.
+* `1 \<= jewels.length, stones.length \<= 50`
+* `jewels` 和 `stones` 仅由英文字母组成
+* `jewels` 中的所有字符都是 *唯一的*
 
 
+
+== 思路分析
 
 
 [[src-0771]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0771_JewelsAndStones.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0771_JewelsAndStones_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/jewels-and-stones/solutions/2356253/ben-ti-zui-you-jie-xian-xing-shi-jian-ch-ddw3/[771. 宝石与石头 - 本题最优解！线性时间+常数空间^]
+. https://leetcode.cn/problems/jewels-and-stones/solutions/433841/bao-shi-yu-shi-tou-by-leetcode-solution/[771. 宝石与石头 - 官方题解^]
