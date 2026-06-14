@@ -866,6 +866,10 @@ endif::[]
 |{doc_base_url}/0771-jewels-and-stones.adoc[题解]
 |✅ 哈希。看题解，还可以使用位运算，效率更高。
 
+|{counter:codes}
+|{leetcode_base_url}/global-and-local-inversions/[775. 全局倒置与局部倒置^]
+|{doc_base_url}/0775-global-and-local-inversions.adoc[题解]
+|❌ 数学题。感觉更像一个数学题，或者时脑筋急转弯。
 
 
 |===

@@ -1642,7 +1642,7 @@ include::0771-jewels-and-stones.adoc[leveloffset=+1]
 
 // include::0774-minimize-max-distance-to-gas-station.adoc[leveloffset=+1]
 
-// include::0775-global-and-local-inversions.adoc[leveloffset=+1]
+include::0775-global-and-local-inversions.adoc[leveloffset=+1]
 
 // include::0776-split-bst.adoc[leveloffset=+1]
 
