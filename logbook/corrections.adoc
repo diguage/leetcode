@@ -1178,6 +1178,11 @@ endif::[]
 |{doc_base_url}/0775-global-and-local-inversions.adoc[题解]
 |❌
 
+|{counter:codes}
+|{leetcode_base_url}/swap-adjacent-in-lr-string/[777. 在LR字符串中交换相邻字符^]
+|{doc_base_url}/0777-swap-adjacent-in-lr-string.adoc[题解]
+|❌
+
 |===
 
 截止目前，本轮练习一共完成 {corrections} 道题。

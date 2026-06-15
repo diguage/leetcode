@@ -1,37 +1,65 @@
 [#0777-swap-adjacent-in-lr-string]
-= 777. Swap Adjacent in LR String
+= 777. 在LR字符串中交换相邻字符
 
-{leetcode}/problems/swap-adjacent-in-lr-string/[LeetCode - Swap Adjacent in LR String^]
+https://leetcode.cn/problems/swap-adjacent-in-lr-string/[LeetCode - 777. 在LR字符串中交换相邻字符^]
 
-In a string composed of `'L'`, `'R'`, and `'X'` characters, like `"RXXLRXRXL"`, a move consists of either replacing one occurrence of `"XL"` with `"LX"`, or replacing one occurrence of `"RX"` with `"XR"`. Given the starting string `start` and the ending string `end`, return `True` if and only if there exists a sequence of moves to transform one string to the other.
+在一个由 `L` , `R` 和 `X` 三个字符组成的字符串（例如`RXXLRXRXL`）中进行移动操作。一次移动操作指用一个 `LX` 替换一个 `XL`，或者用一个 `XR` 替换一个 `RX`。现给定起始字符串 `start` 和结束字符串 `end`，请编写代码，当且仅当存在一系列移动操作使得 `start` 可以转换成 `end` 时，返回 `True`。
 
-*Example:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* start = "RXXLRXRXL", end = "XRLXXRRLX"
-*Output:* True
-*Explanation:*
-We can transform start to end following these steps:
+....
+输入：start = "RXXLRXRXL", end = "XRLXXRRLX"
+输出：true
+解释：通过以下步骤我们可以将 start 转化为 end：
 RXXLRXRXL ->
 XRXLRXRXL ->
 XRLXRXRXL ->
 XRLXXRRXL ->
 XRLXXRRLX
-----
+....
 
-*Note:*
+*示例 2：*
+
+....
+输入：start = "X", end = "L"
+输出：false
+....
+
+*提示：*
+
+* `1 \<= start.length \<= 10^4^`
+* `start.length == end.length`
+* `start` 和 `end` 都只包含 `L`, `R` 或 `X`。
 
 
-. `1 <= len(start) = len(end) <= 10000`.
-. Both start and end will only consist of characters in `{'L', 'R', 'X'}`.
+== 思路分析
 
-
-
+以为可以用双向 BFS，完全没想到竟然是双指针。另外，题目也要好好好审题，是 `L` 向左， `R` 向右。
 
 [[src-0777]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
-include::{sourcedir}/_0777_SwapAdjacentInLRString.java[tag=answer]
+include::{sourcedir}/_0777_SwapAdjacentInLrString.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0777_SwapAdjacentInLrString_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/swap-adjacent-in-lr-string/solutions/1659769/by-endlesscheng-fcgc/[777. 在 LR 字符串中交换相邻字符 - 脑筋急转弯^]
+. https://leetcode.cn/problems/swap-adjacent-in-lr-string/solutions/1855013/zai-lrzi-fu-chuan-zhong-jiao-huan-xiang-rjaw8/[777. 在 LR 字符串中交换相邻字符 - 官方题解^]

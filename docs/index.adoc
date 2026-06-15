@@ -1646,7 +1646,7 @@ include::0775-global-and-local-inversions.adoc[leveloffset=+1]
 
 // include::0776-split-bst.adoc[leveloffset=+1]
 
-// include::0777-swap-adjacent-in-lr-string.adoc[leveloffset=+1]
+include::0777-swap-adjacent-in-lr-string.adoc[leveloffset=+1]
 
 // include::0778-swim-in-rising-water.adoc[leveloffset=+1]
 
