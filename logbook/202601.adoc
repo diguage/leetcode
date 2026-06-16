@@ -876,6 +876,10 @@ endif::[]
 |{doc_base_url}/0777-swap-adjacent-in-lr-string.adoc[题解]
 |❌ 双指针。以为可以用双向 BFS，完全没想到竟然是双指针。
 
+|{counter:codes}
+|{leetcode_base_url}/k-th-symbol-in-grammar/[779. 第K个语法符号^]
+|{doc_base_url}/0779-k-th-symbol-in-grammar.adoc[题解]
+|❌ 数学+递归。题目就是找出第 `n` 行第 `k` 个字符与第 `1` 行的这个 `0` 的演变关系。
 
 
 |===

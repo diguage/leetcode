@@ -1650,7 +1650,7 @@ include::0777-swap-adjacent-in-lr-string.adoc[leveloffset=+1]
 
 // include::0778-swim-in-rising-water.adoc[leveloffset=+1]
 
-// include::0779-k-th-symbol-in-grammar.adoc[leveloffset=+1]
+include::0779-k-th-symbol-in-grammar.adoc[leveloffset=+1]
 
 // include::0780-reaching-points.adoc[leveloffset=+1]
 
