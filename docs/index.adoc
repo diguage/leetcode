@@ -1654,7 +1654,7 @@ include::0779-k-th-symbol-in-grammar.adoc[leveloffset=+1]
 
 // include::0780-reaching-points.adoc[leveloffset=+1]
 
-// include::0781-rabbits-in-forest.adoc[leveloffset=+1]
+include::0781-rabbits-in-forest.adoc[leveloffset=+1]
 
 // include::0782-transform-to-chessboard.adoc[leveloffset=+1]
 

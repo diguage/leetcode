@@ -76,6 +76,16 @@ xref:0137-single-number-ii.adoc[137. 只出现一次的数字 II]
 . xref:0709-to-lower-case.adoc[709. 转换成小写字母]
 . xref:0771-jewels-and-stones.adoc[771. 宝石与石头]
 
+=== 上取整下取整转换公式
+
+[latexmath]
+++++
+\left\lceil \frac{a}{b} \right\rceil = \left\lfloor \frac{a+b-1}{b} \right\rfloor
+++++
+
+. xref:0781-rabbits-in-forest.adoc[781. 森林中的兔子]
+
+
 == 经典例题
 
 . xref:0029-divide-two-integers.adoc[29. Divide Two Integers]
