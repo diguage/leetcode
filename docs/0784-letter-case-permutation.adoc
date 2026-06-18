@@ -1,35 +1,63 @@
 [#0784-letter-case-permutation]
-= 784. Letter Case Permutation
+= 784. 字母大小写全排列
 
-{leetcode}/problems/letter-case-permutation/[LeetCode - Letter Case Permutation^]
+https://leetcode.cn/problems/letter-case-permutation/[LeetCode - 784. 字母大小写全排列^]
 
-Given a string S, we can transform every letter individually to be lowercase or uppercase to create another string.  Return a list of all possible strings we could create.
+给定一个字符串 `s`，通过将字符串 `s` 中的每个字母转变大小写，我们可以获得一个新的字符串。
 
-[subs="verbatim,quotes,macros"]
-----
-*Examples:*
-*Input:* S = "a1b2"
-*Output:* ["a1b2", "a1B2", "A1b2", "A1B2"]
+返回 _所有可能得到的字符串集合_。以 *任意顺序* 返回输出。
 
-*Input:* S = "3z4"
-*Output:* ["3z4", "3Z4"]
+*示例 1：*
 
-*Input:* S = "12345"
-*Output:* ["12345"]
-----
+....
+输入：s = "a1b2"
+输出：["a1b2", "a1B2", "A1b2", "A1B2"]
+....
 
-*Note:*
+*示例 2:*
+
+....
+输入: s = "3z4"
+输出: ["3z4","3Z4"]
+....
+
+*提示:*
+
+* `1 \<= s.length \<= 12`
+* `s` 由小写英文字母、大写英文字母和数字组成
 
 
-* `S` will be a string with length between `1` and `12`.
-* `S` will consist only of letters or digits.
 
+== 思路分析
 
+回溯：在遇到数字时，继续前进；遇到字母时，分别对大小写进行尝试。
 
+image::images/0784-10.png[{image_attr}]
 
 [[src-0784]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0784_LetterCasePermutation.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0784_LetterCasePermutation_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/letter-case-permutation/solutions/1934375/zi-mu-da-xiao-xie-quan-pai-lie-by-leetco-cwpx/[784. 字母大小写全排列 - 官方题解^]
+. https://leetcode.cn/problems/letter-case-permutation/solutions/14819/shen-du-you-xian-bian-li-hui-su-suan-fa-python-dai/[784. 字母大小写全排列 - 回溯算法（深度优先遍历，Java）^]
