@@ -891,6 +891,11 @@ endif::[]
 |{doc_base_url}/0784-letter-case-permutation.adoc[题解]
 |✅ 回溯。在遇到数字时，继续前进；遇到字母时，分别对大小写进行尝试。
 
+|{counter:codes}
+|{leetcode_base_url}/is-graph-bipartite/[785. 判断二分图^]
+|{doc_base_url}/0785-is-graph-bipartite.adoc[题解]
+|❌ 并查集。将除当前节点外，其他节点连接起来，检查当前节点和其他节点是否有连接。
+
 
 |===
 
