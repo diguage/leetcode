@@ -1,9 +1,9 @@
 [#0000-14-k-way-merge]
 = K-way merge 多路归并
 
-K路归并能帮咱们解决那些涉及到多组排好序的数组的问题。
+K 路归并能帮咱们解决那些涉及到多组排好序的数组的问题。
 
-每当你的输入是K个排好序的数组，你就可以用堆来高效顺序遍历其中所有数组的所有元素。你可以将每个数组中最小的一个元素加入到最小堆中，从而得到全局最小值。当我们拿到这个全局最小值之后，再从该元素所在的数组里取出其后面紧挨着的元素，加入堆。如此往复直到处理完所有的元素。
+每当你的输入是 K 个排好序的数组，你就可以用堆来高效顺序遍历其中所有数组的所有元素。你可以将每个数组中最小的一个元素加入到最小堆中，从而得到全局最小值。当我们拿到这个全局最小值之后，再从该元素所在的数组里取出其后面紧挨着的元素，加入堆。如此往复直到处理完所有的元素。
 
 该模式是这样的运行的：
 
@@ -27,6 +27,7 @@ K路归并能帮咱们解决那些涉及到多组排好序的数组的问题。
 . xref:0373-find-k-pairs-with-smallest-sums.adoc[373. Find K Pairs with Smallest Sums]
 . xref:0378-kth-smallest-element-in-a-sorted-matrix.adoc[378. Kth Smallest Element in a Sorted Matrix]
 . xref:0632-smallest-range-covering-elements-from-k-lists.adoc[632. Smallest Range Covering Elements from K Lists]
+. xref:0786-k-th-smallest-prime-fraction.adoc[786. K-th Smallest Prime Fraction]
 
 
 Merge K Sorted Lists (medium)

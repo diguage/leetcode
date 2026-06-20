@@ -1664,7 +1664,7 @@ include::0784-letter-case-permutation.adoc[leveloffset=+1]
 
 include::0785-is-graph-bipartite.adoc[leveloffset=+1]
 
-// include::0786-k-th-smallest-prime-fraction.adoc[leveloffset=+1]
+include::0786-k-th-smallest-prime-fraction.adoc[leveloffset=+1]
 
 include::0787-cheapest-flights-within-k-stops.adoc[leveloffset=+1]
 
