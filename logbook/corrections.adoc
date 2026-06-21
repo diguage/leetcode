@@ -1194,7 +1194,7 @@ endif::[]
 |❌
 
 |{counter:codes}
-|{leetcode_base_url}/k-th-smallest-prime-fraction/[786. K-th Smallest Prime Fraction^]
+|{leetcode_base_url}/k-th-smallest-prime-fraction/[786. 第 K 个最小的质数分数^]
 |{doc_base_url}/0786-k-th-smallest-prime-fraction.adoc[题解]
 |⭕️
 

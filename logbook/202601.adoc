@@ -897,9 +897,14 @@ endif::[]
 |❌ 并查集。将除当前节点外，其他节点连接起来，检查当前节点和其他节点是否有连接。
 
 |{counter:codes}
-|{leetcode_base_url}/k-th-smallest-prime-fraction/[786. K-th Smallest Prime Fraction^]
+|{leetcode_base_url}/k-th-smallest-prime-fraction/[786. 第 K 个最小的质数分数^]
 |{doc_base_url}/0786-k-th-smallest-prime-fraction.adoc[题解]
 |⭕️ 优先队列。比较大小有两种方案：1、直接将分数转换成浮点数；2、使用不等式：stem:[\frac{a}{b} < \frac{c}{d} \Leftrightarrow a\cdot d < b \cdot c]
+
+|{counter:codes}
+|{leetcode_base_url}/rotated-digits/[788. 旋转数字^]
+|{doc_base_url}/0788-rotated-digits.adoc[题解]
+|✅ 模拟题。也可以当做动态规划来做。
 
 |===
 
