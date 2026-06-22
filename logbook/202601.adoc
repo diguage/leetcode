@@ -906,6 +906,12 @@ endif::[]
 |{doc_base_url}/0788-rotated-digits.adoc[题解]
 |✅ 模拟题。也可以当做动态规划来做。
 
+|{counter:codes}
+|{leetcode_base_url}/escape-the-ghosts/[789. 逃脱阻碍者^]
+|{doc_base_url}/0789-escape-the-ghosts.adoc[题解]
+|✅ 数组。就是检查一下是否存在阻碍者到终点距离比起点到终点的距离更短？
+
+
 |===
 
 
