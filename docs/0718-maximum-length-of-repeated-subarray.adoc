@@ -57,7 +57,7 @@ image::images/0718-03.png[{image_attr}]
 
 滑动窗口的解法非常妙！
 
-image:images/0718-01.gif[{image_attr}]
+image::images/0718-01.gif[{image_attr}]
 
 
 [[src-0718]]

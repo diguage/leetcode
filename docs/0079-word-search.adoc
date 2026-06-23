@@ -48,9 +48,9 @@ image::images/0079-03.jpg[{image_attr}]
 
 典型的回溯题目，常规剪枝技巧如下：
 
-image:images/0079-01.png[{image_attr}]
+image::images/0079-01.png[{image_attr}]
 
-image:images/0079-02.png[{image_attr}]
+image::images/0079-02.png[{image_attr}]
 
 除了常规剪枝技巧外，还有两个优化点：
 

@@ -9,7 +9,7 @@ https://leetcode.cn/problems/battleships-in-a-board/[LeetCode - 419. 棋盘上�
 
 *示例 1：*
 
-image:images/0419-01.png[{image_attr}]
+image::images/0419-01.png[{image_attr}]
 
 ....
 输入：board = [["X",".",".","X"],[".",".",".","X"],[".",".",".","X"]]

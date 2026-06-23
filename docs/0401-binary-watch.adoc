@@ -7,7 +7,7 @@ https://leetcode.cn/problems/binary-watch/[LeetCode - 401. 二进制手表 ^]
 
 * 例如，下面的二进制手表读取 `4:51` 。
 
-image:images/0401-01.jpg[{image_attr}]
+image::images/0401-01.jpg[{image_attr}]
 
 给你一个整数 `turnedOn` ，表示当前亮着的 LED 的数量，返回二进制手表可以表示的所有可能时间。你可以 *按任意顺序* 返回答案。
 

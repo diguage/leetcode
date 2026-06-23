@@ -44,7 +44,7 @@ https://leetcode.cn/problems/binary-tree-level-order-traversal/[LeetCode - 102. 
 
 这个题其实很简单，只要保持需要读取值的那一层的节点就可以了。
 
-image:images/0102-00.png[]
+image::images/0102-00.png[]
 
 [[src-0102]]
 [tabs]

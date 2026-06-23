@@ -13,7 +13,7 @@ https://leetcode.cn/problems/number-of-provinces/[LeetCode - 547. 省份数量 ^
 
 *示例 1：*
 
-image:images/0547-01.jpg[{image_attr}]
+image::images/0547-01.jpg[{image_attr}]
 
 ....
 输入：isConnected = [[1,1,0],[1,1,0],[0,0,1]]
@@ -22,7 +22,7 @@ image:images/0547-01.jpg[{image_attr}]
 
 *示例 2：*
 
-image:images/0547-02.jpg[{image_attr}]
+image::images/0547-02.jpg[{image_attr}]
 
 ....
 输入：isConnected = [[1,0,0],[0,1,0],[0,0,1]]

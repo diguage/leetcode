@@ -13,7 +13,7 @@ image::images/0084-01.png[{image_attr}]
 
 *示例 1:*
 
-image:images/0084-03.jpg[]
+image::images/0084-03.jpg[]
 
 ....
 输入：heights = [2,1,5,6,2,3]
@@ -23,13 +23,11 @@ image:images/0084-03.jpg[]
 
 *示例 2：*
 
-image:images/0084-04.jpg[]
-
+image::images/0084-04.jpg[]
 ....
 输入： heights = [2,4]
 输出： 4
 ....
-
 
 *提示：*
 

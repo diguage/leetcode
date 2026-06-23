@@ -11,7 +11,7 @@ https://leetcode.cn/problems/find-duplicate-subtrees/[LeetCode - 652. 寻找重�
 
 *示例 1：*
 
-image:images/0652-01.jpg[{image_attr}]
+image::images/0652-01.jpg[{image_attr}]
 
 ....
 输入：root = [1,2,3,4,null,2,4,null,null,4]
@@ -20,7 +20,7 @@ image:images/0652-01.jpg[{image_attr}]
 
 *示例 2：*
 
-image:images/0652-02.jpg[{image_attr}]
+image::images/0652-02.jpg[{image_attr}]
 
 ....
 输入：root = [2,1,1]
@@ -29,7 +29,7 @@ image:images/0652-02.jpg[{image_attr}]
 
 *示例 3：*
 
-image:images/0652-03.jpg[{image_attr}]
+image::images/0652-03.jpg[{image_attr}]
 
 ....
 输入：root = [2,2,2,3,null,3,null]

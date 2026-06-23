@@ -40,13 +40,13 @@ image::images/0048-02.png[{image_attr}]
 
 这样每个区域长度相等，使用循环做数字交换即可。另外，借助回溯思想，利用递归推进层次。
 
-image:images/0048-03.png[{image_attr}]
+image::images/0048-03.png[{image_attr}]
 
-image:images/0048-04.png[{image_attr}]
+image::images/0048-04.png[{image_attr}]
 
 下面辅助矩阵的方案也不错：
 
-image:images/0048-05.png[{image_attr}]
+image::images/0048-05.png[{image_attr}]
 
 官方题解中的翻转矩阵的方案也不错！
 

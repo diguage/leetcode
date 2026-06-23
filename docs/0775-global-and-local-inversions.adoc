@@ -45,9 +45,9 @@ https://leetcode.cn/problems/global-and-local-inversions/[LeetCode - 775. 全局
 
 == 思路分析
 
-image:images/0775-10.png[{image_attr}]
+image::images/0775-10.png[{image_attr}]
 
-image:images/0775-11.png[{image_attr}]
+image::images/0775-11.png[{image_attr}]
 
 
 [[src-0775]]

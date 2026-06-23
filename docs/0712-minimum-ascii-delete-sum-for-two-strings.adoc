@@ -38,11 +38,11 @@ https://leetcode.cn/problems/minimum-ascii-delete-sum-for-two-strings/[LeetCode 
 
 从后向前，如果遇到相等字符串则向前移动，否则舍弃其中一个结尾，向前探索。
 
-image:images/0712-10.svg[{image_attr}]
+image::images/0712-10.svg[{image_attr}]
 
-image:images/0712-11.svg[{image_attr}]
+image::images/0712-11.svg[{image_attr}]
 
-image:images/0712-12.svg[{image_attr}]
+image::images/0712-12.svg[{image_attr}]
 
 [[src-0712]]
 [tabs]

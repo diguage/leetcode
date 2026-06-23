@@ -9,13 +9,13 @@ https://leetcode.cn/problems/image-smoother/[LeetCode - 661. 图片平滑器^]
 
 如果一个单元格周围存在单元格缺失的情况，则计算平均灰度时不考虑缺失的单元格（即，需要计算红色平滑器中 4 个单元格的平均值）。
 
-image:images/0661-01.jpg[{image_attr}]
+image::images/0661-01.jpg[{image_attr}]
 
 给你一个表示图像灰度的 `m x n` 整数矩阵 `img`，返回对图像的每个单元格平滑处理后的图像 。
 
 *示例 1:*
 
-image:images/0661-02.jpg[{image_attr}]
+image::images/0661-02.jpg[{image_attr}]
 
 ....
 输入:img = [[1,1,1],[1,0,1],[1,1,1]]
@@ -28,7 +28,7 @@ image:images/0661-02.jpg[{image_attr}]
 
 *示例 2:*
 
-image:images/0661-03.jpg[{image_attr}]
+image::images/0661-03.jpg[{image_attr}]
 
 ....
 输入: img = [[100,200,100],[200,50,200],[100,200,100]]

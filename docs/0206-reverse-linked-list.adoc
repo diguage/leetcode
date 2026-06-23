@@ -14,7 +14,7 @@ image::images/0206-00.jpg[{image_attr}]
 
 *示例 2：*
 
-image:images/0206-01.jpg[{image_attr}]
+image::images/0206-01.jpg[{image_attr}]
 
 ....
 输入：head = [1,2]
