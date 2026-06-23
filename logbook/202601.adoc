@@ -911,6 +911,11 @@ endif::[]
 |{doc_base_url}/0789-escape-the-ghosts.adoc[题解]
 |✅ 数组。就是检查一下是否存在阻碍者到终点距离比起点到终点的距离更短？
 
+|{counter:codes}
+|{leetcode_base_url}/domino-and-tromino-tiling/[790. 多米诺和托米诺平铺^]
+|{doc_base_url}/0790-domino-and-tromino-tiling.adoc[题解]
+|❌ 斐波那契型动态规划。还是要画图分析。
+
 
 |===
 
