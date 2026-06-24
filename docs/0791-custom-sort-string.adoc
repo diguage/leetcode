@@ -1,41 +1,70 @@
 [#0791-custom-sort-string]
-= 791. Custom Sort String
+= 791. 自定义字符串排序
 
-{leetcode}/problems/custom-sort-string/[LeetCode - Custom Sort String^]
+https://leetcode.cn/problems/custom-sort-string/[LeetCode - 791. 自定义字符串排序^]
 
-`S` and `T` are strings composed of lowercase letters. In `S`, no letter occurs more than once.
+给定两个字符串 `order` 和 `s`。`order` 的所有字母都是 *唯一*的，并且以前按照一些自定义的顺序排序。
 
-`S` was sorted in some custom order previously. We want to permute the characters of `T` so that they match the order that `S` was sorted. More specifically, if `x` occurs before `y` in `S`, then `x` should occur before `y` in the returned string.
+对 `s` 的字符进行置换，使其与排序的 `order` 相匹配。更具体地说，如果在 `order` 中的字符`x` 出现字符 `y` 之前，那么在排列后的字符串中， `x` 也应该出现在 `y` 之前。
 
-Return any permutation of `T` (as a string) that satisfies this property.
+返回 _满足这个性质的 `s` 的任意一种排列_。
 
-[subs="verbatim,quotes,macros"]
-----
-*Example :*
-*Input:* 
-S = "cba"
-T = "abcd"
-*Output:* "cbad"
-*Explanation:* 
-"a", "b", "c" appear in S, so the order of "a", "b", "c" should be "c", "b", and "a". 
-Since "d" does not appear in S, it can be at any position in T. "dcba", "cdba", "cbda" are also valid outputs.
-----
+*示例 1:*
 
- 
+....
+输入: order = "cba", s = "abcd"
+输出: "cbad"
+解释:
+"a"、"b"、"c"是按顺序出现的，所以"a"、"b"、"c"的顺序应该是"c"、"b"、"a"。
+因为"d"不是按顺序出现的，所以它可以在返回的字符串中的任何位置。"dcba"、"cdba"、"cbda"也是有效的输出。
+....
 
-*Note:*
+*示例 2:*
+
+....
+输入: order = "cbafg", s = "abcd"
+输出: "cbad"
+解释：字符 "b"、"c" 和 "a" 规定了 s 中字符的顺序。s 中的字符 "d" 没有在 order 中出现，所以它的位置是弹性的。
+
+按照出现的顺序，s 中的 "b"、"c"、"a" 应排列为"b"、"c"、"a"。"d" 可以放在任何位置，因为它没有按顺序排列。输出 "bcad" 遵循这一规则。其他排序如 "dbca" 或 "bcda" 也是有效的，只要维持 "b"、"c"、"a" 的顺序。
+....
+
+*提示:*
+
+* `1 \<= order.length \<= 26`
+* `1 \<= s.length \<= 200`
+* `order` 和 `s` 由小写英文字母组成
+* `order` 中的所有字符都 *不同*
 
 
-* `S` has length at most `26`, and no character is repeated in `S`.
-* `T` has length at most `200`.
-* `S` and `T` consist of lowercase letters only.
+== 思路分析
 
-
-
+这里使用的是优先队列。由于是小写字母，使用计数排序也许更高效。
 
 [[src-0791]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0791_CustomSortString.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0791_CustomSortString_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/custom-sort-string/solutions/1963410/zi-ding-yi-zi-fu-chuan-pai-xu-by-leetcod-1qvf/[791. 自定义字符串排序 - 官方题解^]
+. https://leetcode.cn/problems/custom-sort-string/solutions/1964915/by-lcbin-4n9y/[791. 自定义字符串排序 - 一题双解：排序 & 字符计数^]

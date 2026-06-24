@@ -916,6 +916,12 @@ endif::[]
 |{doc_base_url}/0790-domino-and-tromino-tiling.adoc[题解]
 |❌ 斐波那契型动态规划。还是要画图分析。
 
+|{counter:codes}
+|{leetcode_base_url}/custom-sort-string/[791. 自定义字符串排序^]
+|{doc_base_url}/0791-custom-sort-string.adoc[题解]
+|✅ 优先队列。由于是小写字母，使用计数排序也许更高效。
+
+
 
 |===
 

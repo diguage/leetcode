@@ -1674,7 +1674,7 @@ include::0789-escape-the-ghosts.adoc[leveloffset=+1]
 
 include::0790-domino-and-tromino-tiling.adoc[leveloffset=+1]
 
-// include::0791-custom-sort-string.adoc[leveloffset=+1]
+include::0791-custom-sort-string.adoc[leveloffset=+1]
 
 // include::0792-number-of-matching-subsequences.adoc[leveloffset=+1]
 
