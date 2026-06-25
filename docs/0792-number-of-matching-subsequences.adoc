@@ -1,34 +1,71 @@
 [#0792-number-of-matching-subsequences]
-= 792. Number of Matching Subsequences
+= 792. 匹配子序列的单词数
 
-{leetcode}/problems/number-of-matching-subsequences/[LeetCode - Number of Matching Subsequences^]
+https://leetcode.cn/problems/number-of-matching-subsequences/[LeetCode - 792. 匹配子序列的单词数^]
 
-Given string `S` and a dictionary of words `words`, find the number of `words[i]` that is a subsequence of `S`.
+给定字符串 `s` 和字符串数组 `words`, 返回  _`words[i]` 中是 `s` 的子序列的单词个数_。
 
-[subs="verbatim,quotes,macros"]
-----
-*Example :*
-*Input:* 
-S = "abcde"
-words = ["a", "bb", "acd", "ace"]
-*Output:* 3
-*Explanation:* There are three words in `words` that are a subsequence of `S`: "a", "acd", "ace".
-----
+字符串的 *子序列* 是从原始字符串中生成的新字符串，可以从中删去一些字符(可以是none)，而不改变其余字符的相对顺序。
 
-*Note:*
+* 例如， `ace` 是 `abcde` 的子序列。
+
+*示例 1:*
+
+....
+输入: s = "abcde", words = ["a","bb","acd","ace"]
+输出: 3
+解释: 有三个是 s 的子序列的单词: "a", "acd", "ace"。
+....
+
+*Example 2:*
+
+....
+输入: s = "dsahjpjauf", words = ["ahjpjau","ja","ahbwzgqnuk","tnmlanowax"]
+输出: 2
+....
+
+*提示:*
+
+* `1 \<= s.length \<= 5 * 10^4^`
+* `1 \<= words.length \<= 5000`
+* `1 \<= words[i].length \<= 50`
+* `words[i]` 和 `s` 都只由小写字母组成。
 
 
-* All words in `words` and `S` will only consists of lowercase letters.
-* The length of `S` will be in the range of `[1, 50000]`.
-* The length of `words` will be in the range of `[1, 5000]`.
-* The length of `words[i]` will be in the range of `[1, 50]`.
 
+== 思路分析
 
+字符串！
 
+这道题有多种解法：字典树，二分查找，还有如下图的解法：
+
+image::images/0792-10.png[{image_attr}]
 
 [[src-0792]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0792_NumberOfMatchingSubsequences.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0792_NumberOfMatchingSubsequences_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/number-of-matching-subsequences/solutions/1975581/-by-muse-77-1vhl/[792. 匹配子序列的单词数 - 图解LeetCode^]
+. https://leetcode.cn/problems/number-of-matching-subsequences/solutions/1973995/pi-pei-zi-xu-lie-de-dan-ci-shu-by-leetco-vki7/[792. 匹配子序列的单词数 - 官方题解^]
+. https://leetcode.cn/problems/number-of-matching-subsequences/solutions/1975263/java-liang-chong-jie-fa-er-fen-cha-zhao-wnyb0/[792. 匹配子序列的单词数 - 两种解法 简洁代码 二分查找 & 多指针优化^]
