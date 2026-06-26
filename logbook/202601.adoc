@@ -922,11 +922,14 @@ endif::[]
 |✅ 优先队列。由于是小写字母，使用计数排序也许更高效。
 
 |{counter:codes}
-|{leetcode_base_url}/number-of-matching-subsequences/[792. Number of Matching Subsequences^]
+|{leetcode_base_url}/number-of-matching-subsequences/[792. 匹配子序列的单词数^]
 |{doc_base_url}/0792-number-of-matching-subsequences.adoc[题解]
 |✅
 
-
+|{counter:codes}
+|{leetcode_base_url}/number-of-subarrays-with-bounded-maximum/[795. 区间子数组个数^]
+|{doc_base_url}/0795-number-of-subarrays-with-bounded-maximum.adoc[题解]
+|❌ 双指针。看答案也一脸懵逼！
 
 |===
 
