@@ -1,36 +1,70 @@
 [#0797-all-paths-from-source-to-target]
-= 797. All Paths From Source to Target
+= 797. 所有可能的路径
 
-{leetcode}/problems/all-paths-from-source-to-target/[LeetCode - All Paths From Source to Target^]
+https://leetcode.cn/problems/all-paths-from-source-to-target/[LeetCode - 797. 所有可能的路径^]
 
-Given a directed, acyclic graph of `N` nodes.  Find all possible paths from node `0` to node `N-1`, and return them in any order.
+给你一个有 `n` 个节点的 *有向无环图（DAG）*，请你找出所有从节点 `0` 到节点 `n-1` 的路径并输出（*不要求按特定顺序*）
 
-The graph is given as follows:  the nodes are 0, 1, ..., graph.length - 1.  graph[i] is a list of all nodes j for which the edge (i, j) exists.
+`graph[i]` 是一个从节点 `i` 可以访问的所有节点的列表（即从节点 `i` 到节点 `graph[i][j]` 存在一条有向边）。
 
-[subs="verbatim,quotes,macros"]
-----
-*Example:*
-*Input:* [[1,2], [3], [3], []] 
-*Output:* [[0,1,3],[0,2,3]] 
-*Explanation:* The graph looks like this:
-0--->1
-|    |
-v    v
-2--->3
-There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3.
-----
+*示例 1：*
 
-*Note:*
+image::images/0797-01.jpg[{image_attr}]
+
+....
+输入：graph = [[1,2],[3],[3],[]]
+输出：[[0,1,3],[0,2,3]]
+解释：有两条路径 0 -> 1 -> 3 和 0 -> 2 -> 3
+....
+
+*示例 2：*
+
+image::images/0797-02.jpg[{image_attr}]
+
+....
+输入：graph = [[4,3,1],[3,2,4],[3],[4],[]]
+输出：[[0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4]]
+....
+
+*提示：*
+
+* `n == graph.length`
+* `2 \<= n \<= 15`
+* `0 \<= graph[i][j] < n`
+* `graph[i][j] != i`（即不存在自环）
+* `graph[i]` 中的所有元素 *互不相同*
+* 保证输入为 *有向无环图（DAG）*
 
 
-* The number of nodes in the graph will be in the range `[2, 15]`.
-* You can print different paths in any order, but you should keep the order of nodes inside one path.
 
+== 思路分析
 
+深度优先搜索，或广度优先搜索。
 
 [[src-0797]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0797_AllPathsFromSourceToTarget.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0797_AllPathsFromSourceToTarget_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/all-paths-from-source-to-target/solutions/1666224/by-carlsun-2-66pf/[797. 所有可能的路径 - DFS算法精讲！^]
+. https://leetcode.cn/problems/all-paths-from-source-to-target/solutions/956408/suo-you-ke-neng-de-lu-jing-by-leetcode-s-iyoh/[797. 所有可能的路径 - 官方题解^]

@@ -931,6 +931,12 @@ endif::[]
 |{doc_base_url}/0795-number-of-subarrays-with-bounded-maximum.adoc[题解]
 |❌ 双指针。看答案也一脸懵逼！
 
+|{counter:codes}
+|{leetcode_base_url}/all-paths-from-source-to-target/[797. 所有可能的路径^]
+|{doc_base_url}/0797-all-paths-from-source-to-target.adoc[题解]
+|✅ 深度优先搜索或广度优先搜索。
+
+
 |===
 
 
