@@ -936,6 +936,12 @@ endif::[]
 |{doc_base_url}/0797-all-paths-from-source-to-target.adoc[题解]
 |✅ 深度优先搜索或广度优先搜索。
 
+|{counter:codes}
+|{leetcode_base_url}/champagne-tower/[799. 香槟塔^]
+|{doc_base_url}/0799-champagne-tower.adoc[题解]
+|❌ 数学。杨辉三角，无需精确计算杨辉三角的数值，可以从上向下“漏”，当杯子接住的香槟大于 `1` 时，多余的自然向下漏，漏到下面一层。
+
+
 
 |===
 

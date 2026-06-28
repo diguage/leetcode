@@ -1690,7 +1690,7 @@ include::0797-all-paths-from-source-to-target.adoc[leveloffset=+1]
 
 // include::0798-smallest-rotation-with-highest-score.adoc[leveloffset=+1]
 
-// include::0799-champagne-tower.adoc[leveloffset=+1]
+include::0799-champagne-tower.adoc[leveloffset=+1]
 
 // include::0800-similar-rgb-color.adoc[leveloffset=+1]
 
