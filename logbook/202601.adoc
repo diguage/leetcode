@@ -941,7 +941,10 @@ endif::[]
 |{doc_base_url}/0799-champagne-tower.adoc[题解]
 |❌ 数学。杨辉三角，无需精确计算杨辉三角的数值，可以从上向下“漏”，当杯子接住的香槟大于 `1` 时，多余的自然向下漏，漏到下面一层。
 
-
+|{counter:codes}
+|{leetcode_base_url}/find-eventual-safe-states/[802. 找到最终的安全状态^]
+|{doc_base_url}/0802-find-eventual-safe-states.adoc[题解]
+|✅ 深度优先搜索，广度优先搜索或拓扑排序。如果使用拓扑排序，需要构造反向图，然后从入度为 `0` 的节点开始沿着反向“遍历”。
 
 |===
 

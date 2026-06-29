@@ -39,6 +39,7 @@ TIP: 这里解释的是一种广度优先搜索，看 https://leetcode.cn/proble
 . xref:0269-alien-dictionary.adoc[269. Alien Dictionary]
 . xref:0444-sequence-reconstruction.adoc[444. Sequence Reconstruction]
 . xref:0310-minimum-height-trees.adoc[310. Minimum Height Trees]
+. xref:0802-find-eventual-safe-states.adoc[802. Find Eventual Safe States]
 
 == 参考资料
 

@@ -1696,7 +1696,7 @@ include::0799-champagne-tower.adoc[leveloffset=+1]
 
 // include::0801-minimum-swaps-to-make-sequences-increasing.adoc[leveloffset=+1]
 
-// include::0802-find-eventual-safe-states.adoc[leveloffset=+1]
+include::0802-find-eventual-safe-states.adoc[leveloffset=+1]
 
 // include::0803-bricks-falling-when-hit.adoc[leveloffset=+1]
 
