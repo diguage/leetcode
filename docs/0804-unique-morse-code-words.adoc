@@ -1,50 +1,83 @@
 [#0804-unique-morse-code-words]
-= 804. Unique Morse Code Words
+= 804. 唯一摩尔斯密码词
 
-{leetcode}/problems/unique-morse-code-words/[LeetCode - Unique Morse Code Words^]
+https://leetcode.cn/problems/unique-morse-code-words/[LeetCode - 804. 唯一摩尔斯密码词^]
 
-International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes, as follows: `"a"` maps to `".-"`, `"b"` maps to `"-..."`, `"c"` maps to `"-.-."`, and so on.
+国际摩尔斯密码定义一种标准编码方式，将每个字母对应于一个由一系列点和短线组成的字符串， 比如:
 
-For convenience, the full table for the 26 letters of the English alphabet is given below:
+* `a` 对应 `.-` ，
+* `b` 对应 `-...` ，
+* `c` 对应 `-.-.` ，以此类推。
 
-[subs="verbatim,quotes,macros"]
-----
+为了方便，所有 `26` 个英文字母的摩尔斯密码表如下：
+
+....
 [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
-----
+....
 
-Now, given a list of words, each word can be written as a concatenation of the Morse code of each letter. For example, "cba" can be written as "-.-..--...", (which is the concatenation "-.-." + "-..." + ".-"). We'll call such a concatenation, the transformation of a word.
+给你一个字符串数组 `words`，每个单词可以写成每个字母对应摩尔斯密码的组合。
 
-Return the number of different transformations among all words we have.
+* 例如，`cab` 可以写成 `-.-..--...` ，(即 `-.-.` + `.-` + `-...` 字符串的结合)。我们将这样一个连接过程称作 *单词翻译* 。
 
-[subs="verbatim,quotes,macros"]
-----
-*Example:*
-*Input:* words = ["gin", "zen", "gig", "msg"]
-*Output:* 2
-*Explanation:*
-The transformation of each word is:
+对 ** `words` 中所有单词进行单词翻译，返回不同 *单词翻译* 的数量。
+
+*示例 1：*
+
+....
+输入: words = ["gin", "zen", "gig", "msg"]
+输出: 2
+解释:
+各单词翻译如下:
 "gin" -> "--...-."
 "zen" -> "--...-."
 "gig" -> "--...--."
 "msg" -> "--...--."
 
-There are 2 different transformations, "--...-." and "--...--.".
+共有 2 种不同翻译, "--...-." 和 "--...--.".
+....
 
-----
+*示例 2：*
 
-*Note:*
+....
+输入：words = ["a"]
+输出：1
+....
+
+*提示：*
+
+* `1 \<= words.length \<= 100`
+* `1 \<= words[i].length \<= 12`
+* `words[i]` 由小写英文字母组成
 
 
-* The length of `words` will be at most `100`.
-* Each `words[i]` will have length in range `[1, 12]`.
-* `words[i]` will only consist of lowercase letters.
+== 思路分析
 
-
-
+一个简单的字母“转录”摩尔斯码。
 
 [[src-0804]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0804_UniqueMorseCodeWords.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0804_UniqueMorseCodeWords_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/unique-morse-code-words/solutions/1403482/wei-yi-mo-er-si-mi-ma-ci-by-leetcode-sol-9n7w/[804. 唯一摩尔斯密码词 - 官方题解^]
+. https://leetcode.cn/problems/unique-morse-code-words/solutions/1408279/by-jam007-oy8u/[804. 唯一摩尔斯密码词 - 一行代码，思路简单，性能高效接近100^]

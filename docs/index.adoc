@@ -1700,7 +1700,7 @@ include::0802-find-eventual-safe-states.adoc[leveloffset=+1]
 
 // include::0803-bricks-falling-when-hit.adoc[leveloffset=+1]
 
-// include::0804-unique-morse-code-words.adoc[leveloffset=+1]
+include::0804-unique-morse-code-words.adoc[leveloffset=+1]
 
 // include::0805-split-array-with-same-average.adoc[leveloffset=+1]
 
