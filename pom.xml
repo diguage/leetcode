@@ -16,11 +16,11 @@
   <properties>
     <checkstyle.version>12.1.2</checkstyle.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
-    <maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
+    <maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
     <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
-    <maven-enforcer-plugin.version>3.6.2</maven-enforcer-plugin.version>
-    <maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
-    <extra-enforcer-rules.version>1.11.0</extra-enforcer-rules.version>
+    <maven-enforcer-plugin.version>3.6.3</maven-enforcer-plugin.version>
+    <maven-surefire-plugin.version>3.5.6</maven-surefire-plugin.version>
+    <extra-enforcer-rules.version>1.12.0</extra-enforcer-rules.version>
     <fizzed-watcher-maven-plugin.version>1.0.6</fizzed-watcher-maven-plugin.version>
 
     <asciidoctorj.version>3.0.1</asciidoctorj.version>
@@ -39,7 +39,7 @@
     <gem-maven-plugin.version>3.0.6</gem-maven-plugin.version>
     <download-maven-plugin.version>1.13.0</download-maven-plugin.version>
     <exec-maven-plugin.version>3.6.3</exec-maven-plugin.version>
-    <jruby.version>10.0.5.0</jruby.version>
+    <jruby.version>10.1.0.0</jruby.version>
     <gem.path>${project.basedir}/cfg/gems</gem.path>
     <pdf-fonts.path>${user.home}/.fonts</pdf-fonts.path>
     <pdf-fonts.baseuri>https://github.com/diguage/open-fonts/releases/download/latest</pdf-fonts.baseuri>
