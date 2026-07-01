@@ -951,6 +951,11 @@ endif::[]
 |{doc_base_url}/0804-unique-morse-code-words.adoc[题解]
 |✅ 哈希。一个简单的字母“转录”摩尔斯码。
 
+|{counter:codes}
+|{leetcode_base_url}/number-of-lines-to-write-string/[806. Number of Lines To Write String^]
+|{doc_base_url}/0806-number-of-lines-to-write-string.adoc[题解]
+|✅ 简单模拟题。
+
 
 |===
 
