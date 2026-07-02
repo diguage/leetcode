@@ -1706,7 +1706,7 @@ include::0804-unique-morse-code-words.adoc[leveloffset=+1]
 
 include::0806-number-of-lines-to-write-string.adoc[leveloffset=+1]
 
-// include::0807-max-increase-to-keep-city-skyline.adoc[leveloffset=+1]
+include::0807-max-increase-to-keep-city-skyline.adoc[leveloffset=+1]
 
 // include::0808-soup-servings.adoc[leveloffset=+1]
 

@@ -956,6 +956,12 @@ endif::[]
 |{doc_base_url}/0806-number-of-lines-to-write-string.adoc[题解]
 |✅ 简单模拟题。
 
+|{counter:codes}
+|{leetcode_base_url}/max-increase-to-keep-city-skyline/[807. Max Increase to Keep City Skyline^]
+|{doc_base_url}/0807-max-increase-to-keep-city-skyline.adoc[题解]
+|✅ 贪心算法。找出每行每列的最大高度，取这两个高度中的最小值，就可以得出每个节点的最大高度。
+
+
 
 |===
 
