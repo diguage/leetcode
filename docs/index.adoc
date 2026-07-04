@@ -1710,7 +1710,7 @@ include::0807-max-increase-to-keep-city-skyline.adoc[leveloffset=+1]
 
 include::0808-soup-servings.adoc[leveloffset=+1]
 
-// include::0809-expressive-words.adoc[leveloffset=+1]
+include::0809-expressive-words.adoc[leveloffset=+1]
 
 // include::0810-chalkboard-xor-game.adoc[leveloffset=+1]
 
