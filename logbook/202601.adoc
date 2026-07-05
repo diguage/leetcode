@@ -971,6 +971,11 @@ endif::[]
 |{doc_base_url}/0809-expressive-words.adoc[题解]
 |✅ 双指针。依次统计每个单词中每个字母的数量，然后再比较字母和单词数量。
 
+|{counter:codes}
+|{leetcode_base_url}/subdomain-visit-count/[811. 子域名访问计数^]
+|{doc_base_url}/0811-subdomain-visit-count.adoc[题解]
+|✅ 哈希。从字符串中解析出数字和域名，再对域名解析出子域名。
+
 
 |===
 
