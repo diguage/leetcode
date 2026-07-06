@@ -976,6 +976,12 @@ endif::[]
 |{doc_base_url}/0811-subdomain-visit-count.adoc[题解]
 |✅ 哈希。从字符串中解析出数字和域名，再对域名解析出子域名。
 
+|{counter:codes}
+|{leetcode_base_url}/largest-triangle-area/[812. Largest Triangle Area^]
+|{doc_base_url}/0812-largest-triangle-area.adoc[题解]
+|✅ 暴力破解+数学。
+
+
 
 |===
 

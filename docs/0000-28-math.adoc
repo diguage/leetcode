@@ -96,6 +96,24 @@ xref:0137-single-number-ii.adoc[137. 只出现一次的数字 II]
 
 . xref:0799-champagne-tower.adoc[799. Champagne Tower]
 
+=== 三角形面积
+
+一般情况下，平面上任意三点 stem:[A(x_1,y_1)]， stem:[B(x_2,y_2)]， stem:[P(x_3,y_3)]，可以构成 stem:[\triangle APB]。
+
+[stem]
+++++
+\overrightarrow{PA} = (x_1-x_3,y_1-y_3)， \overrightarrow{PB} = (x_2-x_3,y_2-y_3)
+++++
+
+[stem]
+++++
+S_{\triangle APB} = \frac{1}{2}|(x_1-x_3)(y_2-y_3)-(x_2-x_3)(y_1-y_3)|
+++++
+
+image::images/0812-10.png[{image_attr}]
+
+. xref:0812-largest-triangle-area.adoc[812. 最大三角形面积]
+
 == 经典例题
 
 . xref:0029-divide-two-integers.adoc[29. Divide Two Integers]
