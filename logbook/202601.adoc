@@ -977,11 +977,14 @@ endif::[]
 |✅ 哈希。从字符串中解析出数字和域名，再对域名解析出子域名。
 
 |{counter:codes}
-|{leetcode_base_url}/largest-triangle-area/[812. Largest Triangle Area^]
+|{leetcode_base_url}/largest-triangle-area/[812. 最大三角形面积^]
 |{doc_base_url}/0812-largest-triangle-area.adoc[题解]
 |✅ 暴力破解+数学。
 
-
+|{counter:codes}
+|{leetcode_base_url}/largest-sum-of-averages/[813. 最大平均值和的分组^]
+|{doc_base_url}/0813-largest-sum-of-averages.adoc[题解]
+|❌ 动态规划。完全没想到是动态规划。以为是贪心算法。
 
 |===
 

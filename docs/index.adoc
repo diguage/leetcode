@@ -1718,7 +1718,7 @@ include::0811-subdomain-visit-count.adoc[leveloffset=+1]
 
 include::0812-largest-triangle-area.adoc[leveloffset=+1]
 
-// include::0813-largest-sum-of-averages.adoc[leveloffset=+1]
+include::0813-largest-sum-of-averages.adoc[leveloffset=+1]
 
 // include::0814-binary-tree-pruning.adoc[leveloffset=+1]
 
