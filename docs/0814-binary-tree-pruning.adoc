@@ -1,59 +1,80 @@
 [#0814-binary-tree-pruning]
-= 814. Binary Tree Pruning
+= 814. 二叉树剪枝
 
-{leetcode}/problems/binary-tree-pruning/[LeetCode - Binary Tree Pruning^]
+https://leetcode.cn/problems/binary-tree-pruning/[LeetCode - 814. 二叉树剪枝^]
 
-We are given the head node `root` of a binary tree, where additionally every node's value is either a 0 or a 1.
+给你二叉树的根结点 `root` ，此外树的每个结点的值要么是 `0` ，要么是 `1`。
 
-Return the same tree where every subtree (of the given tree) not containing a 1 has been removed.
+返回移除了所有不包含 `1` 的子树的原二叉树。
 
-(Recall that the subtree of a node X is X, plus every node that is a descendant of X.)
-
-[subs="verbatim,quotes,macros"]
-----
-*Example 1:*
-*Input:* [1,null,0,0,1]
-*Output:* [1,null,0,null,1]
- 
-*Explanation:* 
-Only the red nodes satisfy the property "every subtree not containing a 1".
-The diagram on the right represents the answer.
-
-image::https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/06/1028_2.png[{image_attr}]
-----
-
-[subs="verbatim,quotes,macros"]
-----
-*Example 2:*
-*Input:* [1,0,1,0,0,0,1]
-*Output:* [1,null,1,null,1]
+节点 `node` 的子树为 `node` 本身加上所有 `node` 的后代。
 
 
-image::https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/06/1028_1.png[{image_attr}]
-----
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Example 3:*
-*Input:* [1,1,0,1,1,0,1,0]
-*Output:* [1,1,0,1,1,null,1]
+image::images/0814-01.png[{image_attr}]
+
+....
+输入：root = [1,null,0,0,1]
+输出：[1,null,0,null,1]
+解释：
+只有红色节点满足条件“所有不包含 1 的子树”。 右图为返回的答案。
+....
+
+*示例 2：*
+
+image::images/0814-02.png[{image_attr}]
+....
+输入：root = [1,0,1,0,0,0,1]
+输出：[1,null,1,null,1]
+....
+
+*示例 3：*
+
+image::images/0814-03.png[{image_attr}]
+
+....
+输入：root = [1,1,0,1,1,0,1,0]
+输出：[1,1,0,1,1,null,1]
+....
 
 
-image::https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/05/1028.png[{image_attr}]
-----
+*提示：*
 
-*Note: *
-
-
-* The binary tree will have at most `100 nodes`.
-* The value of each node will only be `0` or `1`.
+* 树中节点的数目在范围 `[1, 200]` 内
+* `Node.val` 为 `0` 或 `1`
 
 
+
+== 思路分析
+
+简单递归运用题。
 
 
 [[src-0814]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0814_BinaryTreePruning.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0814_BinaryTreePruning_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/binary-tree-pruning/solutions/1683846/er-cha-shu-jian-zhi-by-leetcode-solution-k336/[814. 二叉树剪枝 - 官方题解^]
+. https://leetcode.cn/problems/binary-tree-pruning/solutions/1686077/by-ac_oier-7me9/[814. 二叉树剪枝 - 简单递归运用题^]

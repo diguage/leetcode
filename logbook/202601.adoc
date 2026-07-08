@@ -986,6 +986,12 @@ endif::[]
 |{doc_base_url}/0813-largest-sum-of-averages.adoc[题解]
 |❌ 动态规划。完全没想到是动态规划。以为是贪心算法。
 
+|{counter:codes}
+|{leetcode_base_url}/binary-tree-pruning/[814. 二叉树剪枝^]
+|{doc_base_url}/0814-binary-tree-pruning.adoc[题解]
+|✅ 深度优先遍历。
+
+
 |===
 
 
