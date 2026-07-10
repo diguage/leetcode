@@ -992,9 +992,15 @@ endif::[]
 |✅ 深度优先遍历。
 
 |{counter:codes}
-|{leetcode_base_url}/bus-routes/[815. Bus Routes^]
+|{leetcode_base_url}/bus-routes/[815. 公交路线^]
 |{doc_base_url}/0815-bus-routes.adoc[题解]
 |❌ 广度优先遍历。要弄清楚车站和公交！最好画图来辅助理顺思路。
+
+|{counter:codes}
+|{leetcode_base_url}/linked-list-components/[817. 链表组件^]
+|{doc_base_url}/0817-linked-list-components.adoc[题解]
+|✅ 链表。难得写得比官方题解更简洁。
+
 
 |===
 

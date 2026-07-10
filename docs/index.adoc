@@ -1726,7 +1726,7 @@ include::0815-bus-routes.adoc[leveloffset=+1]
 
 // include::0816-ambiguous-coordinates.adoc[leveloffset=+1]
 
-// include::0817-linked-list-components.adoc[leveloffset=+1]
+include::0817-linked-list-components.adoc[leveloffset=+1]
 
 // include::0818-race-car.adoc[leveloffset=+1]
 
