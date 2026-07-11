@@ -1001,6 +1001,11 @@ endif::[]
 |{doc_base_url}/0817-linked-list-components.adoc[题解]
 |✅ 链表。难得写得比官方题解更简洁。
 
+|{counter:codes}
+|{leetcode_base_url}/ambiguous-coordinates/[816. Ambiguous Coordinates^]
+|{doc_base_url}/0816-ambiguous-coordinates.adoc[题解]
+|✅ 枚举。字符串分割，然后添加小数点，排除非法数字。
+
 
 |===
 

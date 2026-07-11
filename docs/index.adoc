@@ -1724,7 +1724,7 @@ include::0814-binary-tree-pruning.adoc[leveloffset=+1]
 
 include::0815-bus-routes.adoc[leveloffset=+1]
 
-// include::0816-ambiguous-coordinates.adoc[leveloffset=+1]
+include::0816-ambiguous-coordinates.adoc[leveloffset=+1]
 
 include::0817-linked-list-components.adoc[leveloffset=+1]
 
