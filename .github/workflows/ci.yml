@@ -25,9 +25,10 @@ jobs:
       - name: Set up JDK ☕️
         uses: actions/setup-java@v5
         with:
-#          distribution: 'temurin'
-          distribution: 'corretto'
-          java-version: '26'
+          distribution: 'temurin'
+          java-version: '27-ea'
+          # distribution: 'corretto'
+          # java-version: '26'
           cache: 'maven'
 
       # 将 `xref` 和 `{doc_base_url}/` 引用，切换成锚点引用 `<<id>>`
