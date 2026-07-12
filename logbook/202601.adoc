@@ -1006,6 +1006,10 @@ endif::[]
 |{doc_base_url}/0816-ambiguous-coordinates.adoc[题解]
 |✅ 枚举。字符串分割，然后添加小数点，排除非法数字。
 
+|{counter:codes}
+|{leetcode_base_url}/most-common-word/[819. Most Common Word^]
+|{doc_base_url}/0819-most-common-word.adoc[题解]
+|✅ 哈希。全部转成小写，计数求最值。
 
 |===
 

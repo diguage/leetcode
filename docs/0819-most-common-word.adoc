@@ -1,49 +1,69 @@
 [#0819-most-common-word]
-= 819. Most Common Word
+= 819. 最常见的单词
 
-{leetcode}/problems/most-common-word/[LeetCode - Most Common Word^]
+https://leetcode.cn/problems/most-common-word/[LeetCode - 819. 最常见的单词^]
 
-Given a paragraph and a list of banned words, return the most frequent word that is not in the list of banned words.  It is guaranteed there is at least one word that isn't banned, and that the answer is unique.
+给你一个字符串 `paragraph` 和一个表示禁用词的字符串数组 `banned`，返回出现频率最高的非禁用词。题目数据 *保证* 至少存在一个非禁用词，且答案 *唯一*。
 
-Words in the list of banned words are given in lowercase, and free of punctuation.  Words in the paragraph are not case sensitive.  The answer is in lowercase.
+`paragraph` 中的单词 *不区分大小写* ，答案应以 *小写* 形式返回。
 
- 
+*示例 1：*
 
-*Example:*
+....
+输入：paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.", banned = ["hit"]
+输出："ball"
+解释：
+"hit" 出现了 3 次，但它是禁用词。
+"ball" 出现了两次（没有其他单词出现这么多次），因此它是段落中出现频率最高的非禁用词。
+请注意，段落中的单词不区分大小写，
+标点符号会被忽略（即使它们紧挨着单词，如 "ball,"），
+并且尽管 "hit" 出现的次数更多，但它不能作为答案，因为它是禁用词。
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 
-paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
-banned = ["hit"]
-*Output:* "ball"
-*Explanation:* 
-"hit" occurs 3 times, but it is a banned word.
-"ball" occurs twice (and no other word does), so it is the most frequent non-banned word in the paragraph. 
-Note that words in the paragraph are not case sensitive,
-that punctuation is ignored (even if adjacent to words, such as "ball,"), 
-and that "hit" isn't the answer even though it occurs more because it is banned.
-----
+*示例 2：*
 
- 
+....
+输入：paragraph = "a.", banned = []
+输出："a"
+....
 
-*Note: *
+*提示：*
 
-
-* `1 <= paragraph.length <= 1000`.
-* `0 <= banned.length <= 100`.
-* `1 <= banned[i].length <= 10`.
-* The answer is unique, and written in lowercase (even if its occurrences in `paragraph` may have uppercase symbols, and even if it is a proper noun.)
-* `paragraph` only consists of letters, spaces, or the punctuation symbols `!?',;.`
-* There are no hyphens or hyphenated words.
-* Words only consist of letters, never apostrophes or other punctuation symbols.
+* `1 \<= paragraph.length \<= 1000`
+* `paragraph` 由英文字母、空格 `' '`、和以下符号组成：`!?',;.`
+* `0 \<= banned.length \<= 100`
+* `1 \<= banned[i].length \<= 10`
+* `banned[i]` 仅由小写英文字母组成
 
 
+== 思路分析
 
+全部转成小写，计数求最值。
 
 [[src-0819]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0819_MostCommonWord.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0819_MostCommonWord_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/most-common-word/solutions/1424731/zui-chang-jian-de-dan-ci-by-leetcode-sol-mzjb/[819. 最常见的单词 - 官方题解^]
+. https://leetcode.cn/problems/most-common-word/solutions/804874/yi-ge-mo-ban-shua-bian-suo-you-zi-fu-chu-lp2r/[819. 最常见的单词 - 一个模板刷遍所有字符串句子题目！^]
