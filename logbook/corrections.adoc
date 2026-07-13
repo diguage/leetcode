@@ -1224,8 +1224,13 @@ endif::[]
 |❌
 
 |{counter:codes}
-|{leetcode_base_url}/bus-routes/[815. Bus Routes^]
+|{leetcode_base_url}/bus-routes/[815. 公交路线^]
 |{doc_base_url}/0815-bus-routes.adoc[题解]
+|❌
+
+|{counter:codes}
+|{leetcode_base_url}/shortest-distance-to-a-character/[821. 字符的最短距离^]
+|{doc_base_url}/0821-shortest-distance-to-a-character.adoc[题解]
 |❌
 
 |===

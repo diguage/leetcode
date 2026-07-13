@@ -1,33 +1,69 @@
 [#0821-shortest-distance-to-a-character]
-= 821. Shortest Distance to a Character
+= 821. 字符的最短距离
 
-{leetcode}/problems/shortest-distance-to-a-character/[LeetCode - Shortest Distance to a Character^]
+https://leetcode.cn/problems/shortest-distance-to-a-character/[LeetCode - 821. 字符的最短距离^]
 
-Given a string `S` and a character `C`, return an array of integers representing the shortest distance from the character `C` in the string.
+给你一个字符串 `s` 和一个字符 `c` ，且 `c` 是 `s` 中出现过的字符。
 
-*Example 1:*
+返回一个整数数组 `answer` ，其中 `answer.length == s.length` 且 `answer[i]` 是 `s` 中从下标 `i` 到离它 *最近* 的字符 `c` 的 *距离*。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* S = "loveleetcode", C = 'e'
-*Output:* [3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0]
-----
+两个下标 `i` 和 `j` 之间的 *距离* 为 `abs(i - j)` ，其中 `abs` 是绝对值函数。
 
- 
+*示例 1：*
 
-*Note:*
+....
+输入：s = "loveleetcode", c = "e"
+输出：[3,2,1,0,1,0,0,1,2,2,1,0]
+解释：字符 'e' 出现在下标 3、5、6 和 11 处（下标从 0 开始计数）。
+距下标 0 最近的 'e' 出现在下标 3 ，所以距离为 abs(0 - 3) = 3 。
+距下标 1 最近的 'e' 出现在下标 3 ，所以距离为 abs(1 - 3) = 2 。
+对于下标 4 ，出现在下标 3 和下标 5 处的 'e' 都离它最近，但距离是一样的 abs(4 - 3) == abs(4 - 5) = 1 。
+距下标 8 最近的 'e' 出现在下标 6 ，所以距离为 abs(8 - 6) = 2 。
+....
+
+*示例 2：*
+
+....
+输入：s = "aaab", c = "b"
+输出：[3,2,1,0]
+....
+
+*提示：*
+
+* `1 \<= s.length \<= 10^4^`
+* `s[i]` 和 `c` 均为小写英文字母
+* 题目数据保证 `c` 在 `s` 中至少出现一次
 
 
-. `S` string length is in `[1, 10000].`
-. `C` is a single character, and guaranteed to be in string `S`.
-. All letters in `S` and `C` are lowercase.
 
+== 思路分析
 
-
+分别从前向后和从后向前遍历。
 
 [[src-0821]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0821_ShortestDistanceToACharacter.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0821_ShortestDistanceToACharacter_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/shortest-distance-to-a-character/solutions/1429810/zi-fu-de-zui-duan-ju-chi-by-leetcode-sol-2t49/[821. 字符的最短距离 - 官方题解^]
+. https://leetcode.cn/problems/shortest-distance-to-a-character/solutions/1432330/by-ac_oier-5bjs/[821. 字符的最短距离 - 一题双解 :「遍历」&「BFS」^]
