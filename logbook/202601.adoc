@@ -1016,6 +1016,11 @@ endif::[]
 |{doc_base_url}/0821-shortest-distance-to-a-character.adoc[题解]
 |❌ 双指针。分别从前向后和从后向前遍历。
 
+|{counter:codes}
+|{leetcode_base_url}/short-encoding-of-words/[820. 单词的压缩编码^]
+|{doc_base_url}/0820-short-encoding-of-words.adoc[题解]
+|✅ 排序。按长度倒序，后根据判断是否存在在决定是否插入。更优解是前缀树。
+
 
 |===
 

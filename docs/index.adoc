@@ -1732,7 +1732,7 @@ include::0817-linked-list-components.adoc[leveloffset=+1]
 
 include::0819-most-common-word.adoc[leveloffset=+1]
 
-// include::0820-short-encoding-of-words.adoc[leveloffset=+1]
+include::0820-short-encoding-of-words.adoc[leveloffset=+1]
 
 include::0821-shortest-distance-to-a-character.adoc[leveloffset=+1]
 
