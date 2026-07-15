@@ -1021,6 +1021,12 @@ endif::[]
 |{doc_base_url}/0820-short-encoding-of-words.adoc[题解]
 |✅ 排序。按长度倒序，后根据判断是否存在在决定是否插入。更优解是前缀树。
 
+|{counter:codes}
+|{leetcode_base_url}/card-flipping-game/[822. 翻转卡片游戏^]
+|{doc_base_url}/0822-card-flipping-game.adoc[题解]
+|❌ 哈希。想复杂了。排除的是正反面一样的数字。剩下的数字里，找最小的数字即可。
+
+
 
 |===
 
