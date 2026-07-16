@@ -1026,6 +1026,10 @@ endif::[]
 |{doc_base_url}/0822-card-flipping-game.adoc[题解]
 |❌ 哈希。想复杂了。排除的是正反面一样的数字。剩下的数字里，找最小的数字即可。
 
+|{counter:codes}
+|{leetcode_base_url}/binary-trees-with-factors/[823. 带因子的二叉树^]
+|{doc_base_url}/0823-binary-trees-with-factors.adoc[题解]
+|⭕️ 动态规划。斐波那契式的动态规划。子树还有子树，递归看去，就是更小规划的问题。
 
 
 |===

@@ -52,6 +52,7 @@ xref:0137-single-number-ii.adoc[137. 只出现一次的数字 II]
 
 === 乘法原理
 
+. xref:0823-binary-trees-with-factors.adoc[823. 带因子的二叉树]
 . xref:2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.adoc[2316. Count Unreachable Pairs of Nodes in an Undirected Graph]
 
 === Boyer-Moore 投票算法
