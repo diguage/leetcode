@@ -10,14 +10,14 @@ jobs:
     steps:
       # https://github.com/actions/setup-node
       - name: Setup Node.js 🕸
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           # https://github.com/nvm-sh/nvm#long-term-support
           node-version: 'lts/*'
 
       # https://github.com/actions/checkout
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           persist-credentials: false
 
