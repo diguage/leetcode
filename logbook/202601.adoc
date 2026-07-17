@@ -1031,6 +1031,12 @@ endif::[]
 |{doc_base_url}/0823-binary-trees-with-factors.adoc[题解]
 |⭕️ 动态规划。斐波那契式的动态规划。子树还有子树，递归看去，就是更小规划的问题。
 
+|{counter:codes}
+|{leetcode_base_url}/goat-latin/[824. 山羊拉丁文^]
+|{doc_base_url}/0824-goat-latin.adoc[题解]
+|✅ 字符串。简单的字符串处理。
+
+
 
 |===
 
