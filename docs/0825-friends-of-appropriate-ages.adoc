@@ -1,67 +1,87 @@
 [#0825-friends-of-appropriate-ages]
-= 825. Friends Of Appropriate Ages
+= 825. 适龄的朋友
 
-{leetcode}/problems/friends-of-appropriate-ages/[LeetCode - Friends Of Appropriate Ages^]
+https://leetcode.cn/problems/friends-of-appropriate-ages/[LeetCode - 825. 适龄的朋友^]
 
-Some people will make friend requests. The list of their ages is given and `ages[i]` is the age of the ith person. 
+在社交媒体网站上有 `n` 个用户。给你一个整数数组 `ages` ，其中 `ages[i]` 是第 `i` 个用户的年龄。
 
-Person A will NOT friend request person B (B != A) if any of the following conditions are true:
+如果下述任意一个条件为真，那么用户 `x` 将不会向用户 `y`（`x != y`）发送好友请求：
 
+* `ages[y] \<= 0.5 * ages[x] + 7`
+* `ages[y] > ages[x]`
+* `ages[y] > 100 && ages[x] < 100`
 
-* `age[B] <= 0.5 * age[A] + 7`
-* `age[B] > age[A]`
-* `age[B] > 100 &amp;&amp; age[A] < 100`
+否则，`x` 将会向 `y` 发送一条好友请求。
 
+注意，如果 `x` 向 `y` 发送一条好友请求，`y` 不必也向 `x` 发送一条好友请求。另外，用户不会向自己发送好友请求。
 
-Otherwise, A will friend request B.
+返回在该社交媒体网站上产生的好友请求总数。
 
-Note that if A requests B, B does not necessarily request A.  Also, people will not friend request themselves.
+*示例 1：*
 
-How many total friend requests are made?
+....
+输入：ages = [16,16]
+输出：2
+解释：2 人互发好友请求。
+....
 
-*Example 1:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [16,16]
-*Output:* 2
-*Explanation:* 2 people friend request each other.
+....
+输入：ages = [16,17,18]
+输出：2
+解释：产生的好友请求为 17 -> 16 ，18 -> 17 。
+....
 
-----
+*示例 3：*
 
-*Example 2:*
+....
+输入：ages = [20,30,100,110,120]
+输出：3
+解释：产生的好友请求为 110 -> 100 ，120 -> 110 ，120 -> 100 。
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [16,17,18]
-*Output:* 2
-*Explanation:* Friend requests are made 17 -> 16, 18 -> 17.
-----
+*提示：*
 
-*Example 3:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [20,30,100,110,120]
-*Output:*
-*Explanation:* Friend requests are made 110 -> 100, 120 -> 110, 120 -> 100.
-
-----
-
- 
-
-Notes:
+* `n == ages.length`
+* `1 \<= n \<= 2 * 10^4^`
+* `1 \<= ages[i] \<= 120`
 
 
-* `1 <= ages.length <= 20000`.
-* `1 <= ages[i] <= 120`.
 
+== 思路分析
 
+滑动窗口！
+
+要仔细分析题目要求，根据要求筛选出合适的解题策略。
 
 
 [[src-0825]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0825_FriendsOfAppropriateAges.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0825_FriendsOfAppropriateAges_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/friends-of-appropriate-ages/solutions/2990994/ji-shu-hua-dong-chuang-kou-pythonjavaccg-jfya/[825. 适龄的朋友 - 计数+滑动窗口^]
+. https://leetcode.cn/problems/friends-of-appropriate-ages/solutions/1174365/gua-ling-de-peng-you-by-leetcode-solutio-v7yk/[825. 适龄的朋友 - 官方题解^]
+
 

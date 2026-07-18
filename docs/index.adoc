@@ -1742,7 +1742,7 @@ include::0823-binary-trees-with-factors.adoc[leveloffset=+1]
 
 include::0824-goat-latin.adoc[leveloffset=+1]
 
-// include::0825-friends-of-appropriate-ages.adoc[leveloffset=+1]
+include::0825-friends-of-appropriate-ages.adoc[leveloffset=+1]
 
 // include::0826-most-profit-assigning-work.adoc[leveloffset=+1]
 

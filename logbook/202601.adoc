@@ -1036,6 +1036,12 @@ endif::[]
 |{doc_base_url}/0824-goat-latin.adoc[题解]
 |✅ 字符串。简单的字符串处理。
 
+|{counter:codes}
+|{leetcode_base_url}/friends-of-appropriate-ages/[825. 适龄的朋友^]
+|{doc_base_url}/0825-friends-of-appropriate-ages.adoc[题解]
+|❌ 滑动窗口。要仔细分析题目要求，根据要求筛选出合适的解题策略。
+
+
 
 
 |===
