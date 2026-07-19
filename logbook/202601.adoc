@@ -1041,6 +1041,10 @@ endif::[]
 |{doc_base_url}/0825-friends-of-appropriate-ages.adoc[题解]
 |❌ 滑动窗口。要仔细分析题目要求，根据要求筛选出合适的解题策略。
 
+|{counter:codes}
+|{leetcode_base_url}/most-profit-assigning-work/[826. 安排工作以达到最大收益^]
+|{doc_base_url}/0826-most-profit-assigning-work.adoc[题解]
+|✅ 排序+双指针。对入参排序，优先获取获利最大的工作，累加即可。有点蒙对的感觉。不如题解更有说服力。
 
 
 
