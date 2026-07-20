@@ -1,55 +1,82 @@
 [#0830-positions-of-large-groups]
-= 830. Positions of Large Groups
+= 830. 较大分组的位置
 
-{leetcode}/problems/positions-of-large-groups/[LeetCode - Positions of Large Groups^]
+https://leetcode.cn/problems/positions-of-large-groups/[LeetCode - 830. 较大分组的位置^]
 
-In a string `S` of lowercase letters, these letters form consecutive groups of the same character.
+在一个由小写字母构成的字符串 `s` 中，包含由一些连续的相同字符所构成的分组。
 
-For example, a string like `S = "abbxxxxzyy"` has the groups `"a"`, `"bb"`, `"xxxx"`, `"z"` and `"yy"`.
+例如，在字符串 `s = "abbxxxxzyy"` 中，就含有 `a`, `bb`, `xxxx`, `z` 和 `yy` 这样的一些分组。
 
-Call a group _large_ if it has 3 or more characters.  We would like the starting and ending positions of every large group.
+分组可以用区间 `[start, end]` 表示，其中 `start` 和 `end` 分别表示该分组的起始和终止位置的下标。上例中的 `xxxx` 分组用区间表示为 `[3,6]` 。
 
-The final answer should be in lexicographic order.
+我们称所有包含大于或等于三个连续字符的分组为 *较大分组* 。
 
- 
+找到每一个 *较大分组* 的区间，*按起始位置下标递增顺序排序后*，返回结果。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "abbxxxxzzy"
-*Output:* [[3,6]]
-*Explanation:* `"xxxx" is the single `large group with starting  3 and ending positions 6.
+....
+输入：s = "abbxxxxzzy"
+输出：[[3,6]]
+解释："xxxx" 是一个起始于 3 且终止于 6 的较大分组。
+....
 
-----
+*示例 2：*
 
-*Example 2:*
+....
+输入：s = "abc"
+输出：[]
+解释："a","b" 和 "c" 均不是符合要求的较大分组。
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "abc"
-*Output:* []
-*Explanation*: We have "a","b" and "c" but no large group.
+*示例 3：*
 
-----
+....
+输入：s = "abcdddeeeeaabbbcd"
+输出：[[3,5],[6,9],[12,14]]
+解释：较大分组为 "ddd", "eeee" 和 "bbb"
+....
 
-*Example 3:*
+*示例 4：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "abcdddeeeeaabbbcd"
-*Output:* [[3,5],[6,9],[12,14]]
-----
+....
+输入：s = "aba"
+输出：[]
+....
 
- 
+*提示：*
 
-*Note: * `1 <= S.length <= 1000`
+* `1 \<= s.length \<= 1000`
+* `s` 仅含小写英文字母
 
+
+== 思路分析
 
 
 [[src-0830]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0830_PositionsOfLargeGroups.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0830_PositionsOfLargeGroups_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/positions-of-large-groups/solutions/546886/jiao-da-fen-zu-de-wei-zhi-by-leetcode-so-fi3n/[830. 较大分组的位置 - 官方题解^]
+. https://leetcode.cn/problems/positions-of-large-groups/solutions/547612/zheng-ze-wei-zhan-3jie-fa-chao-100-by-ma-r0vy/[830. 较大分组的位置 - 正则 + 位 + 栈 + 滑窗（5解法，超100%）^]

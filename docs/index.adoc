@@ -1752,7 +1752,7 @@ include::0826-most-profit-assigning-work.adoc[leveloffset=+1]
 
 // include::0829-consecutive-numbers-sum.adoc[leveloffset=+1]
 
-// include::0830-positions-of-large-groups.adoc[leveloffset=+1]
+include::0830-positions-of-large-groups.adoc[leveloffset=+1]
 
 // include::0831-masking-personal-information.adoc[leveloffset=+1]
 
