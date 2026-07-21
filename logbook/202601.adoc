@@ -1051,6 +1051,11 @@ endif::[]
 |{doc_base_url}/0830-positions-of-large-groups.adoc[题解]
 |✅ 模拟题。简单的字符串问题。
 
+|{counter:codes}
+|{leetcode_base_url}/masking-personal-information/[831. 隐藏个人信息^]
+|{doc_base_url}/0831-masking-personal-information.adoc[题解]
+|✅ 模拟题。字符串模拟题，分类处理即可。
+
 
 
 |===
