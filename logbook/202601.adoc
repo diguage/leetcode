@@ -1056,6 +1056,10 @@ endif::[]
 |{doc_base_url}/0831-masking-personal-information.adoc[题解]
 |✅ 模拟题。字符串模拟题，分类处理即可。
 
+|{counter:codes}
+|{leetcode_base_url}/flipping-an-image/[832. 翻转图像^]
+|{doc_base_url}/0832-flipping-an-image.adoc[题解]
+|✅ 双指针。简单的矩阵遍历。
 
 
 |===

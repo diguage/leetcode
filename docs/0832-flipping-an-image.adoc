@@ -1,46 +1,73 @@
 [#0832-flipping-an-image]
-= 832. Flipping an Image
+= 832. 翻转图像
 
-{leetcode}/problems/flipping-an-image/[LeetCode - Flipping an Image^]
+https://leetcode.cn/problems/flipping-an-image/[LeetCode - 832. 翻转图像^]
 
-Given a binary matrix `A`, we want to flip the image horizontally, then invert it, and return the resulting image.
+给定一个 `n x n` 的二进制矩阵 `image` ，先 *水平* 翻转图像，然后 **反转 **图像并返回 _结果_。
 
-To flip an image horizontally means that each row of the image is reversed.  For example, flipping `[1, 1, 0]` horizontally results in `[0, 1, 1]`.
+**水平**翻转图片就是将图片的每一行都进行翻转，即逆序。
 
-To invert an image means that each `0` is replaced by `1`, and each `1` is replaced by `0`. For example, inverting `[0, 1, 1]` results in `[1, 0, 0]`.
+* 例如，水平翻转 `[1,1,0]` 的结果是 `[0,1,1]`。
 
-*Example 1:*
+**反转**图片的意思是图片中的 `0` 全部被 `1` 替换， `1` 全部被 `0` 替换。
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[1,1,0],[1,0,1],[0,0,0]]
-*Output:* [[1,0,0],[0,1,0],[1,1,1]]
-*Explanation:* First reverse each row: [[0,1,1],[1,0,1],[0,0,0]].
-Then, invert the image: [[1,0,0],[0,1,0],[1,1,1]]
-----
+* 例如，反转 `[0,1,1]` 的结果是 `[1,0,0]`。
 
-*Example 2:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]]
-*Output:* [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
-*Explanation:* First reverse each row: [[0,0,1,1],[1,0,0,1],[1,1,1,0],[0,1,0,1]].
-Then invert the image: [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
-----
+....
+输入：image = [[1,1,0],[1,0,1],[0,0,0]]
+输出：[[1,0,0],[0,1,0],[1,1,1]]
+解释：首先翻转每一行: [[0,1,1],[1,0,1],[0,0,0]]；
+     然后反转图片: [[1,0,0],[0,1,0],[1,1,1]]
+....
 
-*Notes:*
+*示例 2：*
+
+....
+输入：image = [[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]]
+输出：[[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
+解释：首先翻转每一行: [[0,0,1,1],[1,0,0,1],[1,1,1,0],[0,1,0,1]]；
+     然后反转图片: [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
+....
+
+*提示：*
+
+* `n == image.length`
+* `n == image[i].length`
+* `1 \<= n \<= 20`
+* `images[i][j]` == `0` 或 `1`.
 
 
-* `1 <= A.length = A[0].length <= 20`
-* `0 <= A[i][j]<font face="sans-serif, Arial, Verdana, Trebuchet MS"> <= 1`
 
+== 思路分析
 
-
+双指针！简单的矩阵遍历。
 
 [[src-0832]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0832_FlippingAnImage.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0832_FlippingAnImage_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/flipping-an-image/solutions/617961/fan-zhuan-tu-xiang-by-leetcode-solution-yljd/[832. 翻转图像 - 官方题解^]
+. https://leetcode.cn/problems/flipping-an-image/solutions/18525/python3-duo-chong-jie-fa-xiang-jie-han-zui-duan-1x/[832. 翻转图像 - Python3 多种解法详解（含最短1行法）^]

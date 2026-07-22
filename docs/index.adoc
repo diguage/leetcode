@@ -1756,7 +1756,7 @@ include::0830-positions-of-large-groups.adoc[leveloffset=+1]
 
 include::0831-masking-personal-information.adoc[leveloffset=+1]
 
-// include::0832-flipping-an-image.adoc[leveloffset=+1]
+include::0832-flipping-an-image.adoc[leveloffset=+1]
 
 // include::0833-find-and-replace-in-string.adoc[leveloffset=+1]
 
