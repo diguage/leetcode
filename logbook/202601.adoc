@@ -1061,6 +1061,12 @@ endif::[]
 |{doc_base_url}/0832-flipping-an-image.adoc[题解]
 |✅ 双指针。简单的矩阵遍历。
 
+|{counter:codes}
+|{leetcode_base_url}/find-and-replace-in-string/[833. 字符串中的查找与替换^]
+|{doc_base_url}/0833-find-and-replace-in-string.adoc[题解]
+|✅ 排序+合并区间。审题不仔细，起始不需要合并区间，直接筛选做替换就可以了。
+
+
 
 |===
 
