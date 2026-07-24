@@ -5869,14 +5869,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0834-sum-of-distances-in-tree.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/image-overlap/[835. Image Overlap^]
-//|{source_base_url}/_0835_ImageOverlap.java[Java]
-//|{doc_base_url}/0835-image-overlap.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/image-overlap/[835. Image Overlap^]
+|{source_base_url}/_0835_ImageOverlap.java[Java]
+|{doc_base_url}/0835-image-overlap.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/rectangle-overlap/[836. Rectangle Overlap^]
 //|{source_base_url}/_0836_RectangleOverlap.java[Java]
