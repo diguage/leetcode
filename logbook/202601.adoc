@@ -1071,6 +1071,10 @@ endif::[]
 |{doc_base_url}/0835-image-overlap.adoc[题解]
 |❌ 矩阵。先以为是每个随意移动，后来发现是整体移动。
 
+|{counter:codes}
+|{leetcode_base_url}/sum-of-distances-in-tree/[834. 树中距离之和^]
+|{doc_base_url}/0834-sum-of-distances-in-tree.adoc[题解]
+|⭕️ 深度优先遍历。每次将图都“转化”成一棵以起点为根的多叉树。对树做深度优先遍历，即可计算所需要的距离之和。可惜会超时。
 
 |===
 

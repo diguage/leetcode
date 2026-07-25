@@ -1248,10 +1248,15 @@ endif::[]
 |{doc_base_url}/0825-friends-of-appropriate-ages.adoc[题解]
 |❌
 
-|{counter:codes}
+|{counter:codes}˚
 |{leetcode_base_url}/image-overlap/[835. 图像重叠^]
 |{doc_base_url}/0835-image-overlap.adoc[题解]
 |❌
+
+|{counter:codes}
+|{leetcode_base_url}/sum-of-distances-in-tree/[834. 树中距离之和^]
+|{doc_base_url}/0834-sum-of-distances-in-tree.adoc[题解]
+|⭕️
 
 |===
 

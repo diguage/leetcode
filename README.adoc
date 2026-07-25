@@ -5863,12 +5863,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/sum-of-distances-in-tree/[834. Sum of Distances in Tree^]
-//|{source_base_url}/_0834_SumOfDistancesInTree.java[Java]
-//|{doc_base_url}/0834-sum-of-distances-in-tree.adoc[题解]
-//|Hard
-//|
+|{counter:codes}
+|{leetcode_base_url}/sum-of-distances-in-tree/[834. Sum of Distances in Tree^]
+|{source_base_url}/_0834_SumOfDistancesInTree.java[Java]
+|{doc_base_url}/0834-sum-of-distances-in-tree.adoc[题解]
+|Hard
+|
 
 |{counter:codes}
 |{leetcode_base_url}/image-overlap/[835. Image Overlap^]
