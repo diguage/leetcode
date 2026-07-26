@@ -54,6 +54,10 @@ image::images/0834-03.jpg[{image_attr}]
 
 每次将图都“转化”成一棵以起点为根的多叉树。对树做深度优先遍历，即可计算所需要的距离之和。可惜会超时！
 
+这道题的最优解是换根 DP：
+
+image::images/0834-10.png[{image_attr}]
+
 [[src-0834]]
 [tabs]
 ====
@@ -66,14 +70,14 @@ include::{sourcedir}/_0834_SumOfDistancesInTree.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0834_SumOfDistancesInTree_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0834_SumOfDistancesInTree_2.java[tag=answer]
+----
+--
 ====
 
 
@@ -81,4 +85,5 @@ include::{sourcedir}/_0834_SumOfDistancesInTree.java[tag=answer]
 
 . https://leetcode.cn/problems/sum-of-distances-in-tree/solutions/2345592/tu-jie-yi-zhang-tu-miao-dong-huan-gen-dp-6bgb/[834. 树中距离之和 - 【图解】一张图秒懂换根 DP！^]
 . https://leetcode.cn/problems/sum-of-distances-in-tree/solutions/437330/shou-hua-tu-jie-shu-zhong-ju-chi-zhi-he-shu-xing-d/[834. 树中距离之和 - 「手画图解」834.树中距离之和 | 树形DP | 思路详解^]
+. https://leetcode.cn/problems/sum-of-distances-in-tree/solutions/2449965/gong-shui-san-xie-shu-xing-dp-chang-gui-1v7ud/[834. 树中距离之和 - 树形 DP 常规运用题^]
 . https://leetcode.cn/problems/sum-of-distances-in-tree/solutions/437205/shu-zhong-ju-chi-zhi-he-by-leetcode-solution/[834. 树中距离之和 - 官方题解^]

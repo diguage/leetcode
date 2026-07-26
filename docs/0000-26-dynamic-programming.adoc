@@ -17,11 +17,15 @@ image::images/dynamic-programming-01.jpeg[{image_attr}]
 
 == 题目类型
 
+=== 0/1 背包
+
+选还是不选，这都是问题！
+
 === 爬楼梯
 
 比较典型代表是斐波那契数列。
 
-=== 打家劫舍
+=== 最长公共子序列（Longest Common Subsequence, LCS）
 
 === 最大子数组和（最大子段和）
 
@@ -30,29 +34,14 @@ image::images/dynamic-programming-01.jpeg[{image_attr}]
 . 定义状态 stem:[f[i\]] 表示以 stem:[a[i\]] 结尾的最大子数组和，不和 `i` 左边拼起来就是 stem:[f[i\]=a[i\]]，和 `i` 左边拼起来就是 stem:[f[i\]=f[i−1\]+a[i\]]，取最大值就得到了状态转移方程 stem:[f[i\]=max(f[i−1\],0)+a[i\]]，答案为 stem:[max(f)]。这个做法也叫做 Kadane 算法。
 . 前缀和 // TODO 这个还需要练习一下！
 
+=== 打家劫舍
+
 === 网格图 DP
 
 在学习相对更抽象的二维 DP 之前，做一些形象的网格图 DP 会让后续的学习更轻松（比如 0-1 背包的空间优化写法为什么要倒序遍历）。
 
-=== 0/1 背包
-
-选还是不选，这都是问题！
-
-include::0000-26-dp-1-0-1-knapsack.adoc[leveloffset=+1]
-
-include::0000-26-dp-2-unbounded-knapsack.adoc[leveloffset=+1]
-
-include::0000-26-dp-3-fibonacci-numbers.adoc[leveloffset=+1]
-
-include::0000-26-dp-4-palindromic-subsequence.adoc[leveloffset=+1]
-
-include::0000-26-dp-5-longest-common-substring.adoc[leveloffset=+1]
-
-image::images/dynamic-programming-02.png[{image_attr}]
-
-
 [#tree-dp-trick]
-== 树形 DP 套路（树形动态规划）
+=== 树形 DP 套路（树形动态规划）
 
 树形 DP 套路使用前提：如果题目求解目标是 S 规则，则求解释流程可以定成以每一个节点为头节点的子树在 S 规则下的每一个答案，并且最终答案一定就在其中。
 
@@ -72,6 +61,24 @@ TIP: 写出信息结构是把所有的信息都装到一个对象中。如果只
 --
 +
 . 第四步：设计递归函数，递归函数是处理以 X 为头节点的情况下的大难，包括设计递归的 base case，默认直接得到左树和右树的所有信息，以及把可能性做整合，并且要返回第三步的信息结构。
+
+=== 换根 DP 套路
+
+TIP: 也有人将其划分为 <<tree-dp-trick>>。
+
+. xref:0834-sum-of-distances-in-tree.adoc[834. Sum of Distances in Tree]
+
+include::0000-26-dp-1-0-1-knapsack.adoc[leveloffset=+1]
+
+include::0000-26-dp-2-unbounded-knapsack.adoc[leveloffset=+1]
+
+include::0000-26-dp-3-fibonacci-numbers.adoc[leveloffset=+1]
+
+include::0000-26-dp-4-palindromic-subsequence.adoc[leveloffset=+1]
+
+include::0000-26-dp-5-longest-common-substring.adoc[leveloffset=+1]
+
+image::images/dynamic-programming-02.png[{image_attr}]
 
 === 相关试题
 
