@@ -1076,6 +1076,11 @@ endif::[]
 |{doc_base_url}/0834-sum-of-distances-in-tree.adoc[题解]
 |⭕️ 深度优先遍历。每次将图都“转化”成一棵以起点为根的多叉树。对树做深度优先遍历，即可计算所需要的距离之和。可惜会超时。最优解是换根 DP。
 
+|{counter:codes}
+|{leetcode_base_url}/rectangle-overlap/[836. Rectangle Overlap^]
+|{doc_base_url}/0836-rectangle-overlap.adoc[题解]
+|✅ 数学题。利用“几何投影 + <<0000-04-merge-intervals>>”的思路，可以实现最简单的解法。
+
 |===
 
 

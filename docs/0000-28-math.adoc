@@ -116,6 +116,10 @@ image::images/0812-10.png[{image_attr}]
 
 . xref:0812-largest-triangle-area.adoc[812. 最大三角形面积]
 
+=== 几何投影
+
+. xref:0836-rectangle-overlap.adoc[836. 矩形重叠]
+
 == 经典例题
 
 . xref:0029-divide-two-integers.adoc[29. Divide Two Integers]

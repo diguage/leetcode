@@ -1764,7 +1764,7 @@ include::0834-sum-of-distances-in-tree.adoc[leveloffset=+1]
 
 include::0835-image-overlap.adoc[leveloffset=+1]
 
-// include::0836-rectangle-overlap.adoc[leveloffset=+1]
+include::0836-rectangle-overlap.adoc[leveloffset=+1]
 
 // include::0837-new-21-game.adoc[leveloffset=+1]
 

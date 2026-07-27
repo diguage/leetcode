@@ -1,42 +1,85 @@
 [#0836-rectangle-overlap]
-= 836. Rectangle Overlap
+= 836. 矩形重叠
 
-{leetcode}/problems/rectangle-overlap/[LeetCode - Rectangle Overlap^]
+https://leetcode.cn/problems/rectangle-overlap/[LeetCode - 836. 矩形重叠^]
 
-A rectangle is represented as a list `[x1, y1, x2, y2]`, where `(x1, y1)` are the coordinates of its bottom-left corner, and `(x2, y2)` are the coordinates of its top-right corner.
+矩形以列表 `[x~1~, y~1~, x~2~, y~2~]` 的形式表示，其中 `(x~1~, y~1~)` 为左下角的坐标，`(x~2~, y~2~)` 是右上角的坐标。矩形的上下边平行于 x 轴，左右边平行于 y 轴。
 
-Two rectangles overlap if the area of their intersection is positive.  To be clear, two rectangles that only touch at the corner or edges do not overlap.
+如果相交的面积为 *正*，则称两矩形重叠。需要明确的是，只在角或边接触的两个矩形不构成重叠。
 
-Given two (axis-aligned) rectangles, return whether they overlap.
+给出两个矩形 `rec1` 和 `rec2` 。如果它们重叠，返回 `true`；否则，返回 `false`。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* rec1 = [0,0,2,2], rec2 = [1,1,3,3]
-*Output:* true
-----
+....
+输入：rec1 = [0,0,2,2], rec2 = [1,1,3,3]
+输出：true
+....
 
-*Example 2:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* rec1 = [0,0,1,1], rec2 = [1,0,2,1]
-*Output:* false
-----
+....
+输入：rec1 = [0,0,1,1], rec2 = [1,0,2,1]
+输出：false
+....
 
-*Notes:*
+*示例 3：*
+
+....
+输入：rec1 = [0,0,1,1], rec2 = [2,2,3,3]
+输出：false
+....
+
+*提示：*
+
+* `rect1.length == 4`
+* `rect2.length == 4`
+* `-10^9^ \<= rec1[i], rec2[i] \<= 10^9^`
+* `rec1` 和 `rec2` 表示一个面积不为零的有效矩形
 
 
-. Both rectangles `rec1` and `rec2` are lists of 4 integers.
-. All coordinates in rectangles will be between `-10^9 `and` 10^9`.
+
+== 思路分析
 
 
+一图胜千言：
+
+image::images/0836-13.png[{image_attr}]
+
+image::images/0836-10.jpg[{image_attr}]
+
+image::images/0836-11.jpg[{image_attr}]
+
+image::images/0836-12.jpg[{image_attr}]
+
+TIP: 有点 <<0000-04-merge-intervals>> 的感觉。
 
 
 [[src-0836]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0836_RectangleOverlap.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0836_RectangleOverlap_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/rectangle-overlap/solutions/155825/tu-jie-jiang-ju-xing-zhong-die-wen-ti-zhuan-hua-we/[836. 矩形重叠 - 图解：将矩形重叠问题转化为区间重叠问题^]
+. https://leetcode.cn/problems/rectangle-overlap/solutions/1244287/tu-jie-ju-xing-zhong-die-er-wei-tou-ying-frtj/[836. 矩形重叠 - 二维投影 | 代码清晰易懂^]
+. https://leetcode.cn/problems/rectangle-overlap/solutions/154848/ju-xing-zhong-die-by-leetcode-solution/[836. 矩形重叠 - 官方题解^]
