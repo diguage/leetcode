@@ -1081,6 +1081,12 @@ endif::[]
 |{doc_base_url}/0836-rectangle-overlap.adoc[题解]
 |✅ 数学题。利用“几何投影 + <<0000-04-merge-intervals>>”的思路，可以实现最简单的解法。
 
+|{counter:codes}
+|{leetcode_base_url}/new-21-game/[837. 新 21 点^]
+|{doc_base_url}/0837-new-21-game.adoc[题解]
+|❌
+
+
 |===
 
 

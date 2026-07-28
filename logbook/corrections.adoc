@@ -1258,6 +1258,11 @@ endif::[]
 |{doc_base_url}/0834-sum-of-distances-in-tree.adoc[题解]
 |❌
 
+|{counter:codes}
+|{leetcode_base_url}/new-21-game/[837. 新 21 点^]
+|{doc_base_url}/0837-new-21-game.adoc[题解]
+|❌
+
 |===
 
 截止目前，本轮练习一共完成 {corrections} 道题。

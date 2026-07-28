@@ -1,57 +1,77 @@
 [#0837-new-21-game]
-= 837. New 21 Game
+= 837. 新 21 点
 
-{leetcode}/problems/new-21-game/[LeetCode - New 21 Game^]
+https://leetcode.cn/problems/new-21-game/[LeetCode - 837. 新 21 点^]
 
-Alice plays the following game, loosely based on the card game "21".
+爱丽丝参与一个大致基于纸牌游戏 *“21点”* 规则的游戏，描述如下：
 
-Alice starts with `0` points, and draws numbers while she has less than `K` points.  During each draw, she gains an integer number of points randomly from the range `[1, W]`, where `W` is an integer.  Each draw is independent and the outcomes have equal probabilities.
+爱丽丝以 `0` 分开始，并在她的得分少于 `k` 分时抽取数字。抽取时，她从 `[1, maxPts]` 的范围中随机获得一个整数作为分数进行累计，其中 `maxPts` 是一个整数。每次抽取都是独立的，其结果具有相同的概率。
 
-Alice stops drawing numbers when she gets `K` or more points.  What is the probability that she has `N` or less points?
+当爱丽丝获得 `k` 分 *或更多分* 时，她就停止抽取数字。
 
-*Example 1:*
+爱丽丝的分数不超过 `n` 的概率是多少？
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* N = 10, K = 1, W = 10
-*Output:* 1.00000
-*Explanation:* Alice gets a single card, then stops.
+与实际答案误差不超过 `10^-5^` 的答案将被视为正确答案。
 
-----
+*示例 1：*
 
-*Example 2:*
+....
+输入：n = 10, k = 1, maxPts = 10
+输出：1.00000
+解释：爱丽丝得到一张牌，然后停止。
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* N = 6, K = 1, W = 10
-*Output:* 0.60000
-*Explanation:* Alice gets a single card, then stops.
-In 6 out of W = 10 possibilities, she is at or below N = 6 points.
+*示例 2：*
 
-----
+....
+输入：n = 6, k = 1, maxPts = 10
+输出：0.60000
+解释：爱丽丝得到一张牌，然后停止。 在 10 种可能性中的 6 种情况下，她的得分不超过 6 分。
+....
 
-*Example 3:*
+*示例 3：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* N = 21, K = 17, W = 10
-*Output:* 0.73278
-----
+....
+输入：n = 21, k = 17, maxPts = 10
+输出：0.73278
+....
 
-*Note:*
+*提示：*
 
-
-. `0 <= K <= N <= 10000`
-. `1 <= W <= 10000`
-. Answers will be accepted as correct if they are within `10^-5` of the correct answer.
-. The judging time limit has been reduced for this question.
+* `0 \<= k \<= n \<= 10^4^`
+* `1 \<= maxPts \<= 10^4^`
 
 
 
+== 思路分析
+
+定长滑动窗口的解法还需要再思考一下，不是很懂！
 
 [[src-0837]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0837_New21Game.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0837_New21Game_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/new-21-game/solutions/3755107/hua-dong-chuang-kou-you-hua-dpjian-ji-xi-lybl/[837. 新 21 点 - 滑动窗口优化 DP，简洁写法^] -- 前半段思路没问题，后面转移方程懵逼了！
+. https://leetcode.cn/problems/new-21-game/solutions/273478/you-jian-qian-zhui-he-dong-tai-gui-hua-tiao-jian-g/[837. 新 21 点 - 「3种解法」我们一步步优化吧^]
+. https://leetcode.cn/problems/new-21-game/solutions/272352/xin-21dian-by-leetcode-solution/[837. 新 21 点 - 官方题解^]
