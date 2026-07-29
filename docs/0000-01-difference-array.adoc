@@ -1,4 +1,4 @@
-[#0000-02-difference-array]
+[#0000-01-difference-array]
 = Difference Array 差分数组
 
 差分数组：差分数组就是原始数组相邻元素之间的差。举例如下：
