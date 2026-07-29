@@ -5891,13 +5891,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/push-dominoes/[838. Push Dominoes^]
-//|{source_base_url}/_0838_PushDominoes.java[Java]
-//|{doc_base_url}/0838-push-dominoes.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/push-dominoes/[838. Push Dominoes^]
+|{source_base_url}/_0838_PushDominoes.java[Java]
+|{doc_base_url}/0838-push-dominoes.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/similar-string-groups/[839. Similar String Groups^]
 //|{source_base_url}/_0839_SimilarStringGroups.java[Java]

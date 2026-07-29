@@ -1768,7 +1768,7 @@ include::0836-rectangle-overlap.adoc[leveloffset=+1]
 
 include::0837-new-21-game.adoc[leveloffset=+1]
 
-// include::0838-push-dominoes.adoc[leveloffset=+1]
+include::0838-push-dominoes.adoc[leveloffset=+1]
 
 // include::0839-similar-string-groups.adoc[leveloffset=+1]
 

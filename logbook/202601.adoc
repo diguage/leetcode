@@ -1084,7 +1084,13 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/new-21-game/[837. 新 21 点^]
 |{doc_base_url}/0837-new-21-game.adoc[题解]
-|❌
+|❌ 定长滑动窗口。定长滑动窗口的解法还需要再思考一下，不是很懂！
+
+|{counter:codes}
+|{leetcode_base_url}/push-dominoes/[838. Push Dominoes^]
+|{doc_base_url}/0838-push-dominoes.adoc[题解]
+|❌ 双指针。分类讨论。
+
 
 
 |===
