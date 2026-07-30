@@ -5904,13 +5904,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0839-similar-string-groups.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/magic-squares-in-grid/[840. Magic Squares In Grid^]
-//|{source_base_url}/_0840_MagicSquaresInGrid.java[Java]
-//|{doc_base_url}/0840-magic-squares-in-grid.adoc[题解]
-//|Easy
-//|
+
+|{counter:codes}
+|{leetcode_base_url}/magic-squares-in-grid/[840. Magic Squares In Grid^]
+|{source_base_url}/_0840_MagicSquaresInGrid.java[Java]
+|{doc_base_url}/0840-magic-squares-in-grid.adoc[题解]
+|Easy
+|
 
 |{counter:codes}
 |{leetcode_base_url}/keys-and-rooms/[841. Keys and Rooms^]

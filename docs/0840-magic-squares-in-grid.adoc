@@ -1,49 +1,76 @@
 [#0840-magic-squares-in-grid]
-= 840. Magic Squares In Grid
+= 840. 矩阵中的幻方
 
-{leetcode}/problems/magic-squares-in-grid/[LeetCode - Magic Squares In Grid^]
+https://leetcode.cn/problems/magic-squares-in-grid/[LeetCode - 840. 矩阵中的幻方^]
 
-A 3 x 3 magic square is a 3 x 3 grid filled with distinct numbers *from 1 to 9* such that each row, column, and both diagonals all have the same sum.
+`3 x 3` 的幻方是一个填充有 *从 `1` 到 `9` * 的不同数字的 `3 x 3` 矩阵，其中每行，每列以及两条对角线上的各数之和都相等。
 
-Given an `grid` of integers, how many 3 x 3 "magic square" subgrids are there?  (Each subgrid is contiguous).
+给定一个由整数组成的`row x col` 的 `grid`，其中有多少个 `3 × 3` 的 “幻方” 子矩阵？
 
- 
+注意：虽然幻方只能包含 1 到 9 的数字，但 `grid` 可以包含最多15的数字。
 
-*Example 1:*
+*示例 1：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[4,3,8,4],
-        [9,5,1,9],
-        [2,7,6,2]]
-*Output:* 1
-*Explanation:*
-The following subgrid is a 3 x 3 magic square:
-438
-951
-276
+image::images/0840-01.jpg[{image_attr}]
 
-while this one is not:
-384
-519
-762
+====
+输入: grid = [[4,3,8,4],[9,5,1,9],[2,7,6,2]
+输出: 1
+解释:
+下面的子矩阵是一个 3 x 3 的幻方：
 
-In total, there is only one magic square inside the given grid.
-----
+image::images/0840-02.jpg[{image_attr}]
 
-*Note:*
+而这一个不是：
+
+image::images/0840-03.jpg[{image_attr}]
+
+总的来说，在本示例所给定的矩阵中只有一个 3 x 3 的幻方子矩阵。
+====
+
+*示例 2:*
+
+....
+输入: grid = [[8]]
+输出: 0
+....
+
+*提示:*
+
+* `row == grid.length`
+* `col == grid[i].length`
+* `1 \<= row, col \<= 10`
+* `0 \<= grid[i][j] \<= 15`
 
 
-. `1 <= grid.length <= 10`
-. `1 <= grid[0].length <= 10`
-. `0 <= grid[i][j] <= 15`
-
-
+== 思路分析
 
 
 [[src-0840]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0840_MagicSquaresInGrid.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0840_MagicSquaresInGrid_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/magic-squares-in-grid/solutions/3867033/wu-xu-ji-suan-di-san-xing-lie-de-he-yi-j-djue/[840. 矩阵中的幻方 - 无需计算第三行列的和，以及对角线的和，数学证明^]
+. https://leetcode.cn/problems/magic-squares-in-grid/solutions/107797/ju-zhen-zhong-de-huan-fang-by-leetcode-2/[840. 矩阵中的幻方 - 官方题解^]
+. https://leetcode.cn/problems/magic-squares-in-grid/solutions/3869061/shuang-jie-shu-xue-fang-fa-jia-su-yu-chu-5uxa/[840. 矩阵中的幻方 - 【双解】数学方法加速 & 预处理优化至 100%，附加证明^]
