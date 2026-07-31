@@ -1,77 +1,81 @@
 [#0842-split-array-into-fibonacci-sequence]
-= 842. Split Array into Fibonacci Sequence
+= 842. 将数组拆分成斐波那契序列
 
-{leetcode}/problems/split-array-into-fibonacci-sequence/[LeetCode - Split Array into Fibonacci Sequence^]
+https://leetcode.cn/problems/split-array-into-fibonacci-sequence/[LeetCode - 842. 将数组拆分成斐波那契序列^]
 
-Given a string `S` of digits, such as `S = "123456579"`, we can split it into a _Fibonacci-like sequence_ `[123, 456, 579].`
+给定一个数字字符串 `num`，比如 `123456579`，我们可以将它分成「斐波那契式」的序列 `[123, 456, 579]`。
 
-Formally, a Fibonacci-like sequence is a list `F` of non-negative integers such that:
+形式上，**斐波那契式**序列是一个非负整数列表 `f`，且满足：
 
+* `0 \<= f[i] < 2^31^` ，（也就是说，每个整数都符合 *32 位* 有符号整数类型）
+* `f.length >= 3`
+* 对于所有的 `0 \<= i < f.length - 2`，都有 `f[i] + f[i + 1] = f[i + 2]`
 
-* `0 <= F[i] <= 2^31 - 1`, (that is, each integer fits a 32-bit signed integer type);
-* `F.length >= 3`;
-* and` F[i] + F[i+1] = F[i+2] `for all `0 <= i < F.length - 2`.
+另外，请注意，将字符串拆分成小块时，每个块的数字一定不要以零开头，除非这个块是数字 `0` 本身。
 
+返回从 `num` 拆分出来的任意一组斐波那契式的序列块，如果不能拆分则返回 `[]`。
 
-Also, note that when splitting the string into pieces, each piece must not have extra leading zeroes, except if the piece is the number 0 itself.
+*示例 1：*
 
-Return any Fibonacci-like sequence split from `S`, or return `[]` if it cannot be done.
+....
+输入：num = "1101111"
+输出：[11,0,11,11]
+解释：输出 [110,1,111] 也可以。
+....
 
-*Example 1:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "123456579"
-*Output:* [123,456,579]
-----
+....
+输入: num = "112358130"
+输出: []
+解释: 无法拆分。
+....
 
-*Example 2:*
+*示例 3：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "11235813"
-*Output:* [1,1,2,3,5,8,13]
-----
+....
+输入："0123"
+输出：[]
+解释：每个块的数字不能以零开头，因此 "01"，"2"，"3" 不是有效答案。
+....
 
-*Example 3:*
+*提示：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "112358130"
-*Output:* []
-*Explanation:* The task is impossible.
-----
-
-*Example 4:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "0123"
-*Output:* []
-*Explanation:* Leading zeroes are not allowed, so "01", "2", "3" is not valid.
-----
-
-*Example 5:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* "1101111"
-*Output:* [110, 1, 111]
-*Explanation:* The output [11, 0, 11, 11] would also be accepted.
-----
-
-*Note: *
+* `1 \<= num.length \<= 200`
+* `num` 中只含有数字
 
 
-* `1 <= S.length <= 200`
-* `S` contains only digits.
+== 思路分析
 
+回溯+剪枝：将字符串分割成数字，逐个检查是否可以组成斐波那契数列，不符合要求就回溯。
 
-
+image::images/0842-10.png[{image_attr}]
 
 [[src-0842]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0842_SplitArrayIntoFibonacciSequence.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0842_SplitArrayIntoFibonacciSequence_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/split-array-into-fibonacci-sequence/solutions/513164/jiang-shu-zu-chai-fen-cheng-fei-bo-na-qi-ts6c/[842. 将数组拆分成斐波那契序列 - 官方题解^]
+. https://leetcode.cn/problems/split-array-into-fibonacci-sequence/solutions/513430/javahui-su-suan-fa-tu-wen-xiang-jie-ji-b-vg5z/[842. 将数组拆分成斐波那契序列 - java回溯算法图文详解，击败了100%的用户^]
+. https://leetcode.cn/problems/split-array-into-fibonacci-sequence/solutions/513567/di-gui-15xing-dai-ma-chao-100-by-mantouf-jssb/[842. 将数组拆分成斐波那契序列 - 递归 + 空间优化 + 时间优化^]

@@ -1776,7 +1776,7 @@ include::0840-magic-squares-in-grid.adoc[leveloffset=+1]
 
 include::0841-keys-and-rooms.adoc[leveloffset=+1]
 
-// include::0842-split-array-into-fibonacci-sequence.adoc[leveloffset=+1]
+include::0842-split-array-into-fibonacci-sequence.adoc[leveloffset=+1]
 
 // include::0843-guess-the-word.adoc[leveloffset=+1]
 
