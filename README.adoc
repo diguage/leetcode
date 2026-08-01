@@ -5932,14 +5932,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0843-guess-the-word.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/backspace-string-compare/[844. Backspace String Compare^]
-//|{source_base_url}/_0844_BackspaceStringCompare.java[Java]
-//|{doc_base_url}/0844-backspace-string-compare.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/backspace-string-compare/[844. Backspace String Compare^]
+|{source_base_url}/_0844_BackspaceStringCompare.java[Java]
+|{doc_base_url}/0844-backspace-string-compare.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/longest-mountain-in-array/[845. Longest Mountain in Array^]
 //|{source_base_url}/_0845_LongestMountainInArray.java[Java]
