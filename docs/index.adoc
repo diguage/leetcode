@@ -1782,7 +1782,7 @@ include::0842-split-array-into-fibonacci-sequence.adoc[leveloffset=+1]
 
 include::0844-backspace-string-compare.adoc[leveloffset=+1]
 
-// include::0845-longest-mountain-in-array.adoc[leveloffset=+1]
+include::0845-longest-mountain-in-array.adoc[leveloffset=+1]
 
 // include::0846-hand-of-straights.adoc[leveloffset=+1]
 

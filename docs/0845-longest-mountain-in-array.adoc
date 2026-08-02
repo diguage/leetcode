@@ -1,58 +1,76 @@
 [#0845-longest-mountain-in-array]
-= 845. Longest Mountain in Array
+= 845. 数组中的最长山脉
 
-{leetcode}/problems/longest-mountain-in-array/[LeetCode - Longest Mountain in Array^]
+https://leetcode.cn/problems/longest-mountain-in-array/[LeetCode - 845. 数组中的最长山脉^]
 
-Let's call any (contiguous) subarray B (of A) a _mountain_ if the following properties hold:
+把符合下列属性的数组 `arr` 称为 *山脉数组* ：
 
+* `arr.length >= 3`
+* 存在下标 `i`（`0 < i < arr.length - 1`），满足
+** `arr[0] < arr[1] < ... < arr[i - 1] < arr[i]`
+** `arr[i] > arr[i + 1] > ... > arr[arr.length - 1]`
 
-* `B.length >= 3`
-* There exists some `0 < i < B.length - 1` such that `B[0] < B[1] < ... B[i-1] < B[i] > B[i+1] > ... > B[B.length - 1]`
+给出一个整数数组 `arr`，返回最长山脉子数组的长度。如果不存在山脉子数组，返回 `0` 。
 
+*示例 1：*
 
-(Note that B could be any subarray of A, including the entire array A.)
+....
+输入：arr = [2,1,4,7,3,2,5]
+输出：5
+解释：最长的山脉子数组是 [1,4,7,3,2]，长度为 5。
+....
 
-Given an array `A` of integers, return the length of the longest _mountain_. 
+*示例 2：*
 
-Return `0` if there is no mountain.
+....
+输入：arr = [2,2,2]
+输出：0
+解释：不存在山脉子数组。
+....
 
-*Example 1:*
+*提示：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [2,1,4,7,3,2,5]
-*Output:* 5
-*Explanation:* The largest mountain is [1,4,7,3,2] which has length 5.
-----
+* `1 \<= arr.length \<= 10^4^`
+* `0 \<= arr[i] \<= 10^4^`
 
-*Example 2:*
+*进阶：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [2,2,2]
-*Output:* 0
-*Explanation:* There is no mountain.
-----
-
-*Note:*
-
-
-* `0 <= A.length <= 10000`
-* `0 <= A[i] <= 10000`
+* 你可以仅用一趟扫描解决此问题吗？
+* 你可以用 stem:[O(1)] 空间解决此问题吗？
 
 
-*Follow up:*
+== 思路分析
 
+image::images/0845-10.png[{image_attr}]
 
-* Can you solve it using only one pass?
-* Can you solve it in `O(1)` space?
+从前向后遍历，统计递增长度，拐点后，统计递降长度。如果遇到相等或者递降拐点成递增，则从头开始。
 
-
-
+TIP: 官方题解中，分别从前和从后统计递增，最后再遍历求和的思路也很好。
 
 [[src-0845]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0845_LongestMountainInArray.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0845_LongestMountainInArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/longest-mountain-in-array/solutions/459406/shu-zu-zhong-de-zui-chang-shan-mai-by-leetcode-sol/[845. 数组中的最长山脉 - 官方题解^]
+. https://leetcode.cn/problems/longest-mountain-in-array/solutions/3804958/ling-shen-fen-zu-xun-huan-mo-ban-ti-by-e-phzz/[845. 数组中的最长山脉 - 灵神分组循环模板题^]

@@ -1106,6 +1106,12 @@ endif::[]
 |{doc_base_url}/0844-backspace-string-compare.adoc[题解]
 |✅ 双指针。从后向前比较：如果双方都是字母，则直接比较；否则将不是字母的下标向前推进到字母或者结束为止。
 
+|{counter:codes}
+|{leetcode_base_url}/longest-mountain-in-array/[845. 数组中的最长山脉^]
+|{doc_base_url}/0845-longest-mountain-in-array.adoc[题解]
+|✅ 双指针。从前向后遍历，统计递增长度，拐点后，统计递降长度。如果遇到相等或者递降拐点成递增，则从头开始。这个过程，即可统计长度，也可以记录两端山脚的索引。
+
+
 |===
 
 
