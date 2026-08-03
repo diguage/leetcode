@@ -5947,13 +5947,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/hand-of-straights/[846. Hand of Straights^]
-//|{source_base_url}/_0846_HandOfStraights.java[Java]
-//|{doc_base_url}/0846-hand-of-straights.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/hand-of-straights/[846. Hand of Straights^]
+|{source_base_url}/_0846_HandOfStraights.java[Java]
+|{doc_base_url}/0846-hand-of-straights.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/shortest-path-visiting-all-nodes/[847. Shortest Path Visiting All Nodes^]
 //|{source_base_url}/_0847_ShortestPathVisitingAllNodes.java[Java]

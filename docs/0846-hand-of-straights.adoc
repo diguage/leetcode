@@ -1,52 +1,68 @@
 [#0846-hand-of-straights]
-= 846. Hand of Straights
+= 846. 一手顺子
 
-{leetcode}/problems/hand-of-straights/[LeetCode - Hand of Straights^]
+https://leetcode.cn/problems/hand-of-straights/[LeetCode - 846. 一手顺子^]
 
-Alice has a `hand` of cards, given as an array of integers.
+Alice 手中有一把牌，她想要重新排列这些牌，分成若干组，使每一组的牌数都是 `groupSize`，并且由 `groupSize` 张连续的牌组成。
 
-Now she wants to rearrange the cards into groups so that each group is size `W`, and consists of `W` consecutive cards.
+给你一个整数数组 `hand` 其中 `hand[i]` 是写在第 `i` 张牌上的**数值**。如果她可能重新排列这些牌，返回 `true` ；否则，返回 `false`。
 
-Return `true` if and only if she can.
+*示例 1：*
 
- 
+....
+输入：hand = [1,2,3,6,2,3,4,7,8], groupSize = 3
+输出：true
+解释：Alice 手中的牌可以被重新排列为 [1,2,3]，[2,3,4]，[6,7,8]。
+....
 
+*示例 2：*
 
+....
+输入：hand = [1,2,3,4,5], groupSize = 4
+输出：false
+解释：Alice 手中的牌无法被重新排列成几个大小为 4 的组。
+....
 
+*提示：*
 
-*Example 1:*
+* `1 \<= hand.length \<= 10^4^`
+* `0 \<= hand[i] \<= 10^9^`
+* `1 \<= groupSize \<= hand.length`
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* hand = [1,2,3,6,2,3,4,7,8], W = 3
-*Output:* true
-*Explanation:* Alice's `hand` can be rearranged as `[1,2,3],[2,3,4],[6,7,8]`.
-----
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* hand = [1,2,3,4,5], W = 4
-*Output:* false
-*Explanation:* Alice's `hand` can't be rearranged into groups of `4`.
-----
-
- 
-
-*Note:*
+**注意：**此题目与 1296 重复：https://leetcode-cn.com/problems/divide-array-in-sets-of-k-consecutive-numbers/
 
 
-. `1 <= hand.length <= 10000`
-. `0 <= hand[i] <= 10^9`
-. `1 <= W <= hand.length`
+== 思路分析
 
+贪心：将数字根据大小放入到 `TreeMap` 中并计数，每次从 `TreeMap` 中取最小的，然后内循环取从最小开始依次 `groupSize` 个元素，取不到就返回 `false`。
 
-
+TIP: 感觉更像是一个哈希题，不像贪心题。
 
 [[src-0846]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0846_HandOfStraights.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0846_HandOfStraights_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/hand-of-straights/solutions/1179042/yi-shou-shun-zi-by-leetcode-solution-4lwn/[846. 一手顺子 - 官方题解^]
+. https://leetcode.cn/problems/hand-of-straights/solutions/1183248/gong-shui-san-xie-shu-ju-jie-gou-mo-ni-t-4hxw/[846. 一手顺子 - 数据结构模拟题^]
+. https://leetcode.cn/problems/hand-of-straights/solutions/1183376/wei-rao-li-lun-mo-ni-dui-ha-xi-ji-shu-by-5qhn/[846. 一手顺子 - 模拟｜堆 or 排序 +哈希计数^]

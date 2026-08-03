@@ -1111,6 +1111,12 @@ endif::[]
 |{doc_base_url}/0845-longest-mountain-in-array.adoc[题解]
 |✅ 双指针。从前向后遍历，统计递增长度，拐点后，统计递降长度。如果遇到相等或者递降拐点成递增，则从头开始。这个过程，即可统计长度，也可以记录两端山脚的索引。
 
+|{counter:codes}
+|{leetcode_base_url}/hand-of-straights/[846. Hand of Straights^]
+|{doc_base_url}/0846-hand-of-straights.adoc[题解]
+|✅ 贪心。将数字根据大小放入到 `TreeMap` 中并计数，每次从 `TreeMap` 中取最小的，然后内循环取从最小开始依次 `groupSize` 个元素。
+
+
 
 |===
 
