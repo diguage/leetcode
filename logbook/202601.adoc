@@ -1116,6 +1116,10 @@ endif::[]
 |{doc_base_url}/0846-hand-of-straights.adoc[题解]
 |✅ 贪心。将数字根据大小放入到 `TreeMap` 中并计数，每次从 `TreeMap` 中取最小的，然后内循环取从最小开始依次 `groupSize` 个元素。
 
+|{counter:codes}
+|{leetcode_base_url}/shifting-letters/[848. Shifting Letters^]
+|{doc_base_url}/0848-shifting-letters.adoc[题解]
+|✅ 前缀和。从后向前，累计计算要移位的次数，然后对字母进行移位。这样，每个字母计算一次移位即可。
 
 
 |===

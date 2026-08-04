@@ -1788,7 +1788,7 @@ include::0846-hand-of-straights.adoc[leveloffset=+1]
 
 // include::0847-shortest-path-visiting-all-nodes.adoc[leveloffset=+1]
 
-// include::0848-shifting-letters.adoc[leveloffset=+1]
+include::0848-shifting-letters.adoc[leveloffset=+1]
 
 // include::0849-maximize-distance-to-closest-person.adoc[leveloffset=+1]
 

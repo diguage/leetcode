@@ -5960,14 +5960,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0847-shortest-path-visiting-all-nodes.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/shifting-letters/[848. Shifting Letters^]
-//|{source_base_url}/_0848_ShiftingLetters.java[Java]
-//|{doc_base_url}/0848-shifting-letters.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/shifting-letters/[848. Shifting Letters^]
+|{source_base_url}/_0848_ShiftingLetters.java[Java]
+|{doc_base_url}/0848-shifting-letters.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/maximize-distance-to-closest-person/[849. Maximize Distance to Closest Person^]
 //|{source_base_url}/_0849_MaximizeDistanceToClosestPerson.java[Java]
