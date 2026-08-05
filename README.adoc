@@ -5968,13 +5968,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/maximize-distance-to-closest-person/[849. Maximize Distance to Closest Person^]
-//|{source_base_url}/_0849_MaximizeDistanceToClosestPerson.java[Java]
-//|{doc_base_url}/0849-maximize-distance-to-closest-person.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/maximize-distance-to-closest-person/[849. Maximize Distance to Closest Person^]
+|{source_base_url}/_0849_MaximizeDistanceToClosestPerson.java[Java]
+|{doc_base_url}/0849-maximize-distance-to-closest-person.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/rectangle-area-ii/[850. Rectangle Area II^]
 //|{source_base_url}/_0850_RectangleAreaII.java[Java]

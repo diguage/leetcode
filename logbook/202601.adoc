@@ -1121,6 +1121,10 @@ endif::[]
 |{doc_base_url}/0848-shifting-letters.adoc[题解]
 |✅ 前缀和。从后向前，累计计算要移位的次数，然后对字母进行移位。这样，每个字母计算一次移位即可。
 
+|{counter:codes}
+|{leetcode_base_url}/maximize-distance-to-closest-person/[849. Maximize Distance to Closest Person^]
+|{doc_base_url}/0849-maximize-distance-to-closest-person.adoc[题解]
+|✅ 双指针。更优越的解法，一次遍历，使用双指针求距离。
 
 |===
 

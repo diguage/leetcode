@@ -98,6 +98,7 @@
 . xref:0838-push-dominoes.adoc[838. Push Dominoes]
 . xref:0844-backspace-string-compare.adoc[844. Backspace String Compare]
 . xref:0845-longest-mountain-in-array.adoc[845. Longest Mountain in Array]
+. xref:0849-maximize-distance-to-closest-person.adoc[849. 到最近的人的最大距离]
 . xref:0870-advantage-shuffle.adoc[870. Advantage Shuffle]
 . xref:0876-middle-of-the-linked-list.adoc[876. Middle of the Linked List]
 . xref:0881-boats-to-save-people.adoc[881. Boats to Save People]
