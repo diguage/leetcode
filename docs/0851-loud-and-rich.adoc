@@ -1,59 +1,81 @@
 [#0851-loud-and-rich]
-= 851. Loud and Rich
+= 851. 喧闹和富有
 
-{leetcode}/problems/loud-and-rich/[LeetCode - Loud and Rich^]
+https://leetcode.cn/problems/loud-and-rich/[LeetCode - 851. 喧闹和富有^]
 
-In a group of N people (labelled `0, 1, 2, ..., N-1`), each person has different amounts of money, and different levels of quietness.
+有一组 `n` 个人作为实验对象，从 `0` 到 `n - 1` 编号，其中每个人都有不同数目的钱，以及不同程度的安静值（quietness）。为了方便起见，我们将编号为 `x` 的人简称为  "person `x`"。
 
-For convenience, we'll call the person with label `x`, simply "person `x`".
+给你一个数组 `richer` ，其中 `richer[i] = [a~i~, b~i~]` 表示 person `a~i~` 比 person `b~i~` 更有钱。另给你一个整数数组 `quiet`，其中 `quiet[i]` 是 person `i` 的安静值。`richer` 中所给出的数据 *逻辑自洽*（也就是说，在 person `x` 比 person `y` 更有钱的同时，不会出现 person `y` 比 person `x` 更有钱的情况 ）。
 
-We'll say that `richer[i] = [x, y]` if person `x` definitely has more money than person `y`.  Note that `richer` may only be a subset of valid observations.
+现在，返回一个整数数组 `answer` 作为答案，其中 `answer[x] = y` 的前提是，在所有拥有的钱肯定不少于 person `x` 的人中，person `y` 是最不安静的人（也就是安静值 `quiet[y]` 最小的人）。
 
-Also, we'll say `quiet[x] = q` if person <font face="monospace">x has quietness `q`.
+*示例 1：*
 
-Now, return `answer`, where `answer[x] = y` if `y` is the least quiet person (that is, the person `y` with the smallest value of `quiet[y]`), among all people who definitely have equal to or more money than person `x`.
+....
+输入：richer = [[1,0],[2,1],[3,1],[3,7],[4,3],[5,3],[6,3]], quiet = [3,2,5,4,6,1,7,0]
+输出：[5,5,2,5,4,5,6,7]
+解释：
+answer[0] = 5，
+person 5 比 person 3 有更多的钱，person 3 比 person 1 有更多的钱，person 1 比 person 0 有更多的钱。
+唯一较为安静（有较低的安静值 quiet[x]）的人是 person 7，
+但是目前还不清楚他是否比 person 0 更有钱。
+answer[7] = 7，
+在所有拥有的钱肯定不少于 person 7 的人中（这可能包括 person 3，4，5，6 以及 7），
+最安静（有较低安静值 quiet[x]）的人是 person 7。
+其他的答案也可以用类似的推理来解释。
+....
 
- 
+*示例 2：*
 
+....
+输入：richer = [], quiet = [0]
+输出：[0]
+....
 
-*Example 1:*
+*提示：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* richer = [[1,0],[2,1],[3,1],[3,7],[4,3],[5,3],[6,3]], quiet = [3,2,5,4,6,1,7,0]
-*Output:* [5,5,2,5,4,5,6,7]
-*Explanation:*
-answer[0] = 5.
-Person 5 has more money than 3, which has more money than 1, which has more money than 0.
-The only person who is quieter (has lower quiet[x]) is person 7, but
-it isn't clear if they have more money than person 0.
-
-answer[7] = 7.
-Among all people that definitely have equal to or more money than person 7
-(which could be persons 3, 4, 5, 6, or 7), the person who is the quietest (has lower quiet[x])
-is person 7.
-
-The other answers can be filled out with similar reasoning.
-----
-
-
-*Note:*
-
-
-. `1 <= quiet.length = N <= 500`
-. `0 <= quiet[i] < N`, all `quiet[i]` are different.
-. `0 <= richer.length <= N * (N-1) / 2`
-. `0 <= richer[i][j] < N`
-. `richer[i][0] != richer[i][1]`
-. `richer[i]`'s are all different.
-. The observations in `richer` are all logically consistent.
+* `n == quiet.length`
+* `1 \<= n \<= 500`
+* `0 \<= quiet[i] < n`
+* `quiet` 的所有值 *互不相同*
+* `0 \<= richer.length \<= n * (n - 1) / 2`
+* `0 \<= a~i~, b~i~ < n`
+* `a~i~ != b~i~`
+* `richer` 中的所有数对 *互不相同*
+* 对 `richer` 的观察在逻辑上是一致的
 
 
 
+== 思路分析
+
+这不就是深度优先搜索吗？先构件图，再按图索骥。
+
+TIP: 看题解，说拓扑排序也可以。想想也对，有机会试试。
 
 [[src-0851]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0851_LoudAndRich.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0851_LoudAndRich_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/loud-and-rich/solutions/1156924/xuan-nao-he-fu-you-by-leetcode-solution-jnzm/[851. 喧闹和富有 - 官方题解^]
+. https://leetcode.cn/problems/loud-and-rich/solutions/1158352/gong-shui-san-xie-tuo-bu-pai-xu-yun-yong-ylih/[851. 喧闹和富有 - 拓扑排序运用题^]

@@ -1126,6 +1126,12 @@ endif::[]
 |{doc_base_url}/0849-maximize-distance-to-closest-person.adoc[题解]
 |✅ 双指针。更优越的解法，一次遍历，使用双指针求距离。
 
+|{counter:codes}
+|{leetcode_base_url}/loud-and-rich/[851. Loud and Rich^]
+|{doc_base_url}/0851-loud-and-rich.adoc[题解]
+|✅ 深度优先遍历。看题解，拓扑排序也可以解，有机会尝试一下。
+
+
 |===
 
 
