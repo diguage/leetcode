@@ -1131,6 +1131,11 @@ endif::[]
 |{doc_base_url}/0851-loud-and-rich.adoc[题解]
 |✅ 深度优先遍历。看题解，拓扑排序也可以解，有机会尝试一下。
 
+|{counter:codes}
+|{leetcode_base_url}/peak-index-in-a-mountain-array/[852. Peak Index in a Mountain Array^]
+|{doc_base_url}/0852-peak-index-in-a-mountain-array.adoc[题解]
+|✅ 二分查找。中间数跟两边比较，哪边增长，峰值就在哪边，两边都不增长，那么就是峰值。
+
 
 |===
 

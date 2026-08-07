@@ -5989,13 +5989,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/peak-index-in-a-mountain-array/[852. Peak Index in a Mountain Array^]
-//|{source_base_url}/_0852_PeakIndexInAMountainArray.java[Java]
-//|{doc_base_url}/0852-peak-index-in-a-mountain-array.adoc[题解]
-//|Easy
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/peak-index-in-a-mountain-array/[852. Peak Index in a Mountain Array^]
+|{source_base_url}/_0852_PeakIndexInAMountainArray.java[Java]
+|{doc_base_url}/0852-peak-index-in-a-mountain-array.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/car-fleet/[853. Car Fleet^]
 //|{source_base_url}/_0853_CarFleet.java[Java]

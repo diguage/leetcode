@@ -1,48 +1,72 @@
 [#0852-peak-index-in-a-mountain-array]
-= 852. Peak Index in a Mountain Array
+= 852. 山脉数组的峰顶索引
 
-{leetcode}/problems/peak-index-in-a-mountain-array/[LeetCode - Peak Index in a Mountain Array^]
+https://leetcode.cn/problems/peak-index-in-a-mountain-array/[LeetCode - 852. 山脉数组的峰顶索引^]
 
-Let's call an array `A` a _mountain_ if the following properties hold:
+给定一个长度为 `n` 的整数**山脉**数组 `arr` ，其中的值递增到一个 *峰值元素* 然后递减。
 
+返回峰值元素的下标。
 
-* `A.length >= 3`
-* There exists some `0 < i < A.length - 1` such that `A[0] < A[1] < ... A[i-1] < A[i] > A[i+1] > ... > A[A.length - 1]`
+你必须设计并实现时间复杂度为 stem:[O(log(n))] 的解决方案。
 
+*示例 1：*
 
-Given an array that is definitely a mountain, return any `i` such that `A[0] < A[1] < ... A[i-1] < A[i] > A[i+1] > ... > A[A.length - 1]`.
+....
+输入：arr = [0,1,0]
+输出：1
+....
 
-*Example 1:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [0,1,0]
-*Output:* 1
-----
+....
+输入：arr = [0,2,1,0]
+输出：1
+....
 
+*示例 3：*
 
-*Example 2:*
+....
+输入：arr = [0,10,5,2]
+输出：1
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [0,2,1,0]
-*Output:* 1
-----
+*提示：*
 
-
-*Note:*
-
-
-* `3 <= A.length <= 10000`
-* `<font face="monospace">0 <= A[i] <= 10^6`
-* A is a mountain, as defined above.
-
+* `3 \<= arr.length \<= 10^5^`
+* `0 \<= arr[i] \<= 10^6^`
+* 题目数据 *保证* `arr` 是一个山脉数组
 
 
+== 思路分析
+
+<<0000-03-modified-binary-search>>：中间数跟两边比较，哪边增长，峰值就在哪边，两边都不增长，那么就是峰值。
 
 [[src-0852]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0852_PeakIndexInAMountainArray.java[tag=answer]
 ----
+--
+
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0852_PeakIndexInAMountainArray_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/peak-index-in-a-mountain-array/solutions/2984800/er-fen-gen-ju-shang-po-huan-shi-xia-po-p-uoev/[852. 山脉数组的峰顶索引 - 二分，根据上坡还是下坡判断峰顶位置^]
+. https://leetcode.cn/problems/peak-index-in-a-mountain-array/solutions/828156/shan-mai-shu-zu-de-feng-ding-suo-yin-by-dtqvv/[852. 山脉数组的峰顶索引 - 官方题解^]
+. https://leetcode.cn/problems/peak-index-in-a-mountain-array/solutions/828434/gong-shui-san-xie-er-fen-san-fen-cha-zhi-5gfv/[852. 山脉数组的峰顶索引 - 二分 & 三分极值问题^]
 
