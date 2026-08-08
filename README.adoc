@@ -5996,13 +5996,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/car-fleet/[853. Car Fleet^]
-//|{source_base_url}/_0853_CarFleet.java[Java]
-//|{doc_base_url}/0853-car-fleet.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/car-fleet/[853. Car Fleet^]
+|{source_base_url}/_0853_CarFleet.java[Java]
+|{doc_base_url}/0853-car-fleet.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/k-similar-strings/[854. K-Similar Strings^]
 //|{source_base_url}/_0854_KSimilarStrings.java[Java]

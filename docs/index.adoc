@@ -1798,7 +1798,7 @@ include::0851-loud-and-rich.adoc[leveloffset=+1]
 
 include::0852-peak-index-in-a-mountain-array.adoc[leveloffset=+1]
 
-// include::0853-car-fleet.adoc[leveloffset=+1]
+include::0853-car-fleet.adoc[leveloffset=+1]
 
 // include::0854-k-similar-strings.adoc[leveloffset=+1]
 

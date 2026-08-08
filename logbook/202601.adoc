@@ -1136,6 +1136,11 @@ endif::[]
 |{doc_base_url}/0852-peak-index-in-a-mountain-array.adoc[题解]
 |✅ 二分查找。中间数跟两边比较，哪边增长，峰值就在哪边，两边都不增长，那么就是峰值。
 
+|{counter:codes}
+|{leetcode_base_url}/car-fleet/[853. Car Fleet^]
+|{doc_base_url}/0853-car-fleet.adoc[题解]
+|✅ 排序或单调栈。将车按照位置排序，计算耗时，合并车队。注意：从左向右计算，左边的快车会被右边的慢车挡住路，所以从右向左计算更简单。
+
 
 |===
 
