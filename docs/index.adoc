@@ -1802,7 +1802,7 @@ include::0853-car-fleet.adoc[leveloffset=+1]
 
 // include::0854-k-similar-strings.adoc[leveloffset=+1]
 
-// include::0855-exam-room.adoc[leveloffset=+1]
+include::0855-exam-room.adoc[leveloffset=+1]
 
 // include::0856-score-of-parentheses.adoc[leveloffset=+1]
 

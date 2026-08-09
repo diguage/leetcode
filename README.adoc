@@ -6009,14 +6009,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0854-k-similar-strings.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/exam-room/[855. Exam Room^]
-//|{source_base_url}/_0855_ExamRoom.java[Java]
-//|{doc_base_url}/0855-exam-room.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/exam-room/[855. Exam Room^]
+|{source_base_url}/_0855_ExamRoom.java[Java]
+|{doc_base_url}/0855-exam-room.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/score-of-parentheses/[856. Score of Parentheses^]
 //|{source_base_url}/_0856_ScoreOfParentheses.java[Java]
