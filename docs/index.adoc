@@ -1804,7 +1804,7 @@ include::0853-car-fleet.adoc[leveloffset=+1]
 
 include::0855-exam-room.adoc[leveloffset=+1]
 
-// include::0856-score-of-parentheses.adoc[leveloffset=+1]
+include::0856-score-of-parentheses.adoc[leveloffset=+1]
 
 // include::0857-minimum-cost-to-hire-k-workers.adoc[leveloffset=+1]
 
