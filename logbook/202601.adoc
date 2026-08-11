@@ -1147,6 +1147,10 @@ endif::[]
 |{doc_base_url}/0855-exam-room.adoc[题解]
 |⭕️ 有序集合+优先队列。有序集合保存已选位置，优先队列保存下一个符合要求的位置。思路是OK的，细节还需要再琢磨。
 
+|{counter:codes}
+|{leetcode_base_url}/buddy-strings/[859. Buddy Strings^]
+|{doc_base_url}/0859-buddy-strings.adoc[题解]
+|✅ 哈希。注意处理字符串相同的情况。
 
 
 |===

@@ -1810,7 +1810,7 @@ include::0856-score-of-parentheses.adoc[leveloffset=+1]
 
 // include::0858-mirror-reflection.adoc[leveloffset=+1]
 
-// include::0859-buddy-strings.adoc[leveloffset=+1]
+include::0859-buddy-strings.adoc[leveloffset=+1]
 
 // include::0860-lemonade-change.adoc[leveloffset=+1]
 

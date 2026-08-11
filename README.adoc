@@ -6037,14 +6037,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0858-mirror-reflection.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/buddy-strings/[859. Buddy Strings^]
-//|{source_base_url}/_0859_BuddyStrings.java[Java]
-//|{doc_base_url}/0859-buddy-strings.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/buddy-strings/[859. Buddy Strings^]
+|{source_base_url}/_0859_BuddyStrings.java[Java]
+|{doc_base_url}/0859-buddy-strings.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/lemonade-change/[860. Lemonade Change^]
 //|{source_base_url}/_0860_LemonadeChange.java[Java]
