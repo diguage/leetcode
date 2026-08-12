@@ -1152,6 +1152,11 @@ endif::[]
 |{doc_base_url}/0859-buddy-strings.adoc[题解]
 |✅ 哈希。注意处理字符串相同的情况。
 
+|{counter:codes}
+|{leetcode_base_url}/score-after-flipping-matrix/[861. Score After Flipping Matrix^]
+|{doc_base_url}/0861-score-after-flipping-matrix.adoc[题解]
+|✅ 贪心。确保最高位为 `1`，确保每一列的 `1` 占多数。
+
 
 |===
 

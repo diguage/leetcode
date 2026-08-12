@@ -6051,14 +6051,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0860-lemonade-change.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/score-after-flipping-matrix/[861. Score After Flipping Matrix^]
-//|{source_base_url}/_0861_ScoreAfterFlippingMatrix.java[Java]
-//|{doc_base_url}/0861-score-after-flipping-matrix.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/score-after-flipping-matrix/[861. Score After Flipping Matrix^]
+|{source_base_url}/_0861_ScoreAfterFlippingMatrix.java[Java]
+|{doc_base_url}/0861-score-after-flipping-matrix.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/shortest-subarray-with-sum-at-least-k/[862. Shortest Subarray with Sum at Least K^]
 //|{source_base_url}/_0862_ShortestSubarrayWithSumAtLeastK.java[Java]
