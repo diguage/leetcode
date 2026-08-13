@@ -1816,7 +1816,7 @@ include::0859-buddy-strings.adoc[leveloffset=+1]
 
 include::0861-score-after-flipping-matrix.adoc[leveloffset=+1]
 
-// include::0862-shortest-subarray-with-sum-at-least-k.adoc[leveloffset=+1]
+include::0862-shortest-subarray-with-sum-at-least-k.adoc[leveloffset=+1]
 
 // include::0863-all-nodes-distance-k-in-binary-tree.adoc[leveloffset=+1]
 

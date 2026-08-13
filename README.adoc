@@ -6059,13 +6059,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/shortest-subarray-with-sum-at-least-k/[862. Shortest Subarray with Sum at Least K^]
-//|{source_base_url}/_0862_ShortestSubarrayWithSumAtLeastK.java[Java]
-//|{doc_base_url}/0862-shortest-subarray-with-sum-at-least-k.adoc[题解]
-//|Hard
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/shortest-subarray-with-sum-at-least-k/[862. Shortest Subarray with Sum at Least K^]
+|{source_base_url}/_0862_ShortestSubarrayWithSumAtLeastK.java[Java]
+|{doc_base_url}/0862-shortest-subarray-with-sum-at-least-k.adoc[题解]
+|Hard
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/all-nodes-distance-k-in-binary-tree/[863. All Nodes Distance K in Binary Tree^]
 //|{source_base_url}/_0863_AllNodesDistanceKInBinaryTree.java[Java]
