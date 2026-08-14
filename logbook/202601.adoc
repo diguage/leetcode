@@ -1161,6 +1161,11 @@ endif::[]
 |{doc_base_url}/0862-shortest-subarray-with-sum-at-least-k.adoc[题解]
 |❌ 前缀和+单调队列。一脸懵逼！
 
+|{counter:codes}
+|{leetcode_base_url}/all-nodes-distance-k-in-binary-tree/[863. All Nodes Distance K in Binary Tree^]
+|{doc_base_url}/0863-all-nodes-distance-k-in-binary-tree.adoc[题解]
+|✅ 深度优先搜索。先找出从根节点到目标节点之间的路径。再根据这个路径去做深度优先搜索，找到符合要求的节点。
+
 
 |===
 

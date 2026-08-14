@@ -1,53 +1,69 @@
 [#0863-all-nodes-distance-k-in-binary-tree]
-= 863. All Nodes Distance K in Binary Tree
+= 863. 二叉树中所有距离为 K 的结点
 
-{leetcode}/problems/all-nodes-distance-k-in-binary-tree/[LeetCode - All Nodes Distance K in Binary Tree^]
+https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/[LeetCode - 863. 二叉树中所有距离为 K 的结点^]
 
-We are given a binary tree (with root node `root`), a `target` node, and an integer value `K`.
+给定一个二叉树（具有根结点 `root`）， 一个目标结点 `target`，和一个整数值 `k`，返回到目标结点 `target` 距离为 `k` 的所有结点的值的数组。
 
-Return a list of the values of all nodes that have a distance `K` from the `target` node.  The answer can be returned in any order.
+答案可以以 *任何顺序* 返回。
 
- 
+*示例 1：*
 
+image::images/0863-01.png[{image_attr}]
 
+....
+输入：root = [3,5,1,6,2,0,8,null,null,7,4], target = 5, k = 2
+输出：[7,4,1]
+解释：所求结点为与目标结点（值为 5）距离为 2 的结点，值分别为 7，4，以及 1
+....
 
+*示例 2:*
 
+....
+输入: root = [1], target = 1, k = 3
+输出: []
+....
 
-*Example 1:*
+*提示:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* root = [3,5,1,6,2,0,8,null,null,7,4], target = 5, K = 2
-
-*Output:* [7,4,1]
-
-*Explanation:*
-The nodes that are a distance 2 from the target node (with value 5)
-have values 7, 4, and 1.
-
-image::https://s3-lc-upload.s3.amazonaws.com/uploads/2018/06/28/sketch0.png[{image_attr}]
-
-Note that the inputs "root" and "target" are actually TreeNodes.
-The descriptions of the inputs above are just serializations of these objects.
-----
-
- 
-
-*Note:*
-
-
-. The given tree is non-empty.
-. Each node in the tree has unique values `0 <= node.val <= 500`.
-. The `target` node is a node in the tree.
-. `0 <= K <= 1000`.
+* 节点数在 `[1, 500]` 范围内
+* `0 \<= Node.val \<= 500`
+* `Node.val` 中所有值 *不同*
+* 目标结点 `target` 是树上的结点。
+* `0 \<= k \<= 1000`
 
 
 
+== 思路分析
 
+先找出从根节点到目标节点之间的路径。再根据这个路径去做深度优先搜索，找到符合要求的节点。
+
+TIP: 看了一圈题解，感觉我的题解最简洁。
 
 [[src-0863]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0863_AllNodesDistanceKInBinaryTree.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0863_AllNodesDistanceKInBinaryTree_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/solutions/900027/er-cha-shu-zhong-suo-you-ju-chi-wei-k-de-qbla/[863. 二叉树中所有距离为 K 的结点 - 官方题解^]
+. https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/solutions/900270/gong-shui-san-xie-yi-ti-shuang-jie-jian-x6hak/[863. 二叉树中所有距离为 K 的结点 - 一题双解 :「建图 + BFS」&「建图 + 迭代加深」^]
