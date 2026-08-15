@@ -1824,7 +1824,7 @@ include::0863-all-nodes-distance-k-in-binary-tree.adoc[leveloffset=+1]
 
 include::0865-smallest-subtree-with-all-the-deepest-nodes.adoc[leveloffset=+1]
 
-// include::0866-prime-palindrome.adoc[leveloffset=+1]
+include::0866-prime-palindrome.adoc[leveloffset=+1]
 
 // include::0867-transpose-matrix.adoc[leveloffset=+1]
 

@@ -1162,9 +1162,15 @@ endif::[]
 |❌ 前缀和+单调队列。一脸懵逼！
 
 |{counter:codes}
-|{leetcode_base_url}/all-nodes-distance-k-in-binary-tree/[863. All Nodes Distance K in Binary Tree^]
+|{leetcode_base_url}/all-nodes-distance-k-in-binary-tree/[863. 二叉树中所有距离为 K 的结点^]
 |{doc_base_url}/0863-all-nodes-distance-k-in-binary-tree.adoc[题解]
 |✅ 深度优先搜索。先找出从根节点到目标节点之间的路径。再根据这个路径去做深度优先搜索，找到符合要求的节点。
+
+|{counter:codes}
+|{leetcode_base_url}/prime-palindrome/[866. 回文质数^]
+|{doc_base_url}/0866-prime-palindrome.adoc[题解]
+|✅ 数学。递增判定或者直接构造回文数字再检查。
+
 
 
 |===

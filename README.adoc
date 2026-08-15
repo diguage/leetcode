@@ -6087,13 +6087,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/prime-palindrome/[866. Prime Palindrome^]
-//|{source_base_url}/_0866_PrimePalindrome.java[Java]
-//|{doc_base_url}/0866-prime-palindrome.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/prime-palindrome/[866. Prime Palindrome^]
+|{source_base_url}/_0866_PrimePalindrome.java[Java]
+|{doc_base_url}/0866-prime-palindrome.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/transpose-matrix/[867. Transpose Matrix^]
 //|{source_base_url}/_0867_TransposeMatrix.java[Java]

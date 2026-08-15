@@ -1,64 +1,75 @@
 [#0866-prime-palindrome]
-= 866. Prime Palindrome
+= 866. 回文质数
 
-{leetcode}/problems/prime-palindrome/[LeetCode - Prime Palindrome^]
+https://leetcode.cn/problems/prime-palindrome/[LeetCode - 866. 回文质数^]
 
-Find the smallest prime palindrome greater than or equal to `N`.
+给你一个整数 `n`，返回大于或等于 `n` 的最小 *回文质数*。
 
-Recall that a number is _prime_ if it's only divisors are 1 and itself, and it is greater than 1. 
+一个整数如果恰好有两个除数：`1` 和它本身，那么它是 *质数*。注意，`1` 不是质数。
 
-For example, 2,3,5,7,11 and 13 are primes.
+* 例如，`2`、`3`、`5`、`7`、`11` 和 `13` 都是质数。
 
-Recall that a number is a _palindrome_ if it reads the same from left to right as it does from right to left. 
+一个整数如果从左向右读和从右向左读是相同的，那么它是 *回文数* 。
 
-For example, 12321 is a palindrome.
+* 例如，`101` 和 `12321` 都是回文数。
 
- 
+测试用例保证答案总是存在，并且在 `[2, 2 * 10^8^]` 范围内。
 
+*示例 1：*
 
-*Example 1:*
+....
+输入：n = 6
+输出：7
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 6
-*Output:* 7
-----
+*示例 2：*
 
+....
+输入：n = 8
+输出：11
+....
 
-*Example 2:*
+*示例 3：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 8
-*Output:* 11
-----
+....
+输入：n = 13
+输出：101
+....
 
+*提示：*
 
-*Example 3:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 13
-*Output:* 101
-----
+* `1 \<= n \<= 10^8^`
 
 
 
+== 思路分析
 
- 
-
-*Note:*
-
-
-* `1 <= N <= 10^8`
-* The answer is guaranteed to exist and be less than `2 * 10^8`.
-
-
-
+最简单的办法就是直接向上递增判定。或者构造回文数字，在检查是否是质数。
 
 [[src-0866]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0866_PrimePalindrome.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0866_PrimePalindrome_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/prime-palindrome/solutions/18762/hui-wen-su-shu-by-leetcode/[866. 回文质数 - 官方题解^]
+. https://leetcode.cn/problems/prime-palindrome/solutions/13344/dai-ma-you-hua-de-jing-ji-zhi-lu-by-user8973/[866. 回文质数 - 代码优化的荆棘之路^]
