@@ -1,44 +1,65 @@
 [#0867-transpose-matrix]
-= 867. Transpose Matrix
+= 867. 转置矩阵
 
-{leetcode}/problems/transpose-matrix/[LeetCode - Transpose Matrix^]
+https://leetcode.cn/problems/transpose-matrix/[LeetCode - 867. 转置矩阵^]
 
-Given a matrix `A`, return the transpose of `A`.
+给你一个二维整数数组 `matrix`， 返回 `matrix` 的 *转置矩阵*。
 
-The transpose of a matrix is the matrix flipped over it's main diagonal, switching the row and column indices of the matrix.
+矩阵的 *转置* 是指将矩阵的主对角线翻转，交换矩阵的行索引与列索引。
 
-image::https://assets.leetcode.com/uploads/2019/10/20/hint_transpose.png[{image_attr}]
+image::images/0867-01.png[{image_attr}]
+
+*示例 1：*
+
+....
+输入：matrix = [[1,2,3],[4,5,6],[7,8,9]]
+输出：[[1,4,7],[2,5,8],[3,6,9]]
+....
+
+*示例 2：*
+
+....
+输入：matrix = [[1,2,3],[4,5,6]]
+输出：[[1,4],[2,5],[3,6]]
+....
+
+*提示：*
+
+* `m == matrix.length`
+* `n == matrix[i].length`
+* `1 \<= m, n \<= 1000`
+* `1 \<= m * n \<= 10^5^`
+* `-10^9^ \<= matrix[i][j] \<= 10^9^`
 
 
-*Example 1:*
+== 思路分析
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[1,2,3],[4,5,6],[7,8,9]]
-*Output:* [[1,4,7],[2,5,8],[3,6,9]]
-----
-
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[1,2,3],[4,5,6]]
-*Output:* [[1,4],[2,5],[3,6]]
-----
-
- 
-
-*Note:*
-
-
-. `1 <= A.length <= 1000`
-. `1 <= A[0].length <= 1000`
-
+简单模拟题。
 
 [[src-0867]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0867_TransposeMatrix.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0867_TransposeMatrix_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/transpose-matrix/solutions/620604/zhuan-zhi-ju-zhen-by-leetcode-solution-85s2/[867. 转置矩阵 - 官方题解^]
+. https://leetcode.cn/problems/transpose-matrix/solutions/3655185/jian-dan-ti-jian-dan-zuo-pythonjavaccgoj-5ipt/[867. 转置矩阵 - 简单题，简单做^]

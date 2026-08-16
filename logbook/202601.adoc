@@ -1171,6 +1171,11 @@ endif::[]
 |{doc_base_url}/0866-prime-palindrome.adoc[题解]
 |✅ 数学。递增判定或者直接构造回文数字再检查。
 
+|{counter:codes}
+|{leetcode_base_url}/transpose-matrix/[867. Transpose Matrix^]
+|{doc_base_url}/0867-transpose-matrix.adoc[题解]
+|✅ 模拟题。矩阵遍历。
+
 
 
 |===
