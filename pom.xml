@@ -32,14 +32,14 @@
     <asciidoctor-multipage.version>0.0.19</asciidoctor-multipage.version>
     <asciidoctor-tabs.version>1.0.0.beta.6</asciidoctor-tabs.version>
     <rouge.version>4.6.1</rouge.version>
-    <asciidoctor-kroki.version>0.10.2</asciidoctor-kroki.version>
+    <asciidoctor-kroki.version>1.0.1</asciidoctor-kroki.version>
     <asciidoclet.version>2.0.0</asciidoclet.version>
     <asciidoctor-maven-plugin.version>3.2.0</asciidoctor-maven-plugin.version>
     <mavengem-wagon.version>2.0.3</mavengem-wagon.version>
     <gem-maven-plugin.version>3.0.6</gem-maven-plugin.version>
     <download-maven-plugin.version>1.13.0</download-maven-plugin.version>
     <exec-maven-plugin.version>3.6.3</exec-maven-plugin.version>
-    <jruby.version>10.1.0.0</jruby.version>
+    <jruby.version>10.1.1.0</jruby.version>
     <gem.path>${project.basedir}/cfg/gems</gem.path>
     <pdf-fonts.path>${user.home}/.fonts</pdf-fonts.path>
     <pdf-fonts.baseuri>https://github.com/diguage/open-fonts/releases/download/latest</pdf-fonts.baseuri>
