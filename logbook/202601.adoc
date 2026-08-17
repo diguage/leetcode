@@ -1176,6 +1176,12 @@ endif::[]
 |{doc_base_url}/0867-transpose-matrix.adoc[题解]
 |✅ 模拟题。矩阵遍历。
 
+|{counter:codes}
+|{leetcode_base_url}/binary-gap/[868. Binary Gap^]
+|{doc_base_url}/0868-binary-gap.adoc[题解]
+|✅ 数学，位运算，双指针。记录上一个 `1`，寻找下一个 `1`，然后计算两者的距离。
+
+
 
 
 |===

@@ -5,6 +5,10 @@
 
 == 典型技巧
 
+=== 位运算
+
+image::images/binar-fundamentals.png[{image_attr}]
+
 === 最大公约数
 
 stem:[gcd(max, min)=gcd(min,max mod min)]

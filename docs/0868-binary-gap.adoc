@@ -1,95 +1,75 @@
 [#0868-binary-gap]
-= 868. Binary Gap
+= 868. 二进制间距
 
-{leetcode}/problems/binary-gap/[LeetCode - Binary Gap^]
+https://leetcode.cn/problems/binary-gap/[LeetCode - 868. 二进制间距^]
 
-Given a positive integer `N`, find and return the longest distance between two consecutive 1's in the binary representation of `N`.
+给定一个正整数 `n`，找到并返回 `n` 的二进制表示中两个 *相邻* 1 之间的 *最长距离* 。如果不存在两个相邻的 1，返回 `0` 。
 
-If there aren't two consecutive 1's, return <font face="monospace">0.
+如果只有 `0` 将两个 `1` 分隔开（可能不存在 `0` ），则认为这两个 1 彼此 *相邻* 。两个 `1` 之间的距离是它们的二进制表示中位置的绝对差。例如，`1001` 中的两个 `1` 的距离为 3。
 
- 
+*示例 1：*
 
+....
+输入：n = 22
+输出：2
+解释：22 的二进制是 "10110" 。
+在 22 的二进制表示中，有三个 1，组成两对相邻的 1 。
+第一对相邻的 1 中，两个 1 之间的距离为 2 。
+第二对相邻的 1 中，两个 1 之间的距离为 1 。
+答案取两个距离之中最大的，也就是 2 。
+....
 
+*示例 2：*
 
+....
+输入：n = 8
+输出：0
+解释：8 的二进制是 "1000" 。
+在 8 的二进制表示中没有相邻的两个 1，所以返回 0 。
+....
 
+*示例 3：*
 
+....
+输入：n = 5
+输出：2
+解释：5 的二进制是 "101" 。
+....
 
+*提示：*
 
-
-
-
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 22
-*Output:* 2
-*Explanation:*
-22 in binary is 0b10110.
-In the binary representation of 22, there are three ones, and two consecutive pairs of 1's.
-The first consecutive pair of 1's have distance 2.
-The second consecutive pair of 1's have distance 1.
-The answer is the largest of these two distances, which is 2.
-----
-
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 5
-*Output:* 2
-*Explanation:*
-5 in binary is 0b101.
-----
-
-
-*Example 3:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 6
-*Output:* 1
-*Explanation:*
-6 in binary is 0b110.
-----
-
-
-*Example 4:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* 8
-*Output:* 0
-*Explanation:*
-8 in binary is 0b1000.
-There aren't any consecutive pairs of 1's in the binary representation of 8, so we return 0.
-----
-
- 
+* `1 \<= n \<= 10^9^`
 
 
 
+== 思路分析
 
-*Note:*
-
-
-* `1 <= N <= 10^9`
-
-
-
-
-
-
-
-
-
-
+双指针：记录上一个 `1`，寻找下一个 `1`，然后计算两者的距离。
 
 [[src-0868]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0868_BinaryGap.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0868_BinaryGap_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/binary-gap/solutions/3906088/ji-suan-wei-ling-ge-shu-pythonjavacgocjs-jwgs/[868. 二进制间距 - 计算尾零个数^]
+. https://leetcode.cn/problems/binary-gap/solutions/1441893/er-jin-zhi-jian-ju-by-leetcode-solution-dh2q/[868. 二进制间距 - 官方题解^]
