@@ -6136,13 +6136,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/length-of-longest-fibonacci-subsequence/[873. Length of Longest Fibonacci Subsequence^]
-//|{source_base_url}/_0873_LengthOfLongestFibonacciSubsequence.java[Java]
-//|{doc_base_url}/0873-length-of-longest-fibonacci-subsequence.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/length-of-longest-fibonacci-subsequence/[873. Length of Longest Fibonacci Subsequence^]
+|{source_base_url}/_0873_LengthOfLongestFibonacciSubsequence.java[Java]
+|{doc_base_url}/0873-length-of-longest-fibonacci-subsequence.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/walking-robot-simulation/[874. Walking Robot Simulation^]
 //|{source_base_url}/_0874_WalkingRobotSimulation.java[Java]

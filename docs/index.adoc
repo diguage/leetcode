@@ -1838,7 +1838,7 @@ include::0870-advantage-shuffle.adoc[leveloffset=+1]
 
 include::0872-leaf-similar-trees.adoc[leveloffset=+1]
 
-// include::0873-length-of-longest-fibonacci-subsequence.adoc[leveloffset=+1]
+include::0873-length-of-longest-fibonacci-subsequence.adoc[leveloffset=+1]
 
 // include::0874-walking-robot-simulation.adoc[leveloffset=+1]
 
