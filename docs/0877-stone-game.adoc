@@ -1,47 +1,73 @@
 [#0877-stone-game]
-= 877. Stone Game
+= 877. 石子游戏
 
-{leetcode}/problems/stone-game/[LeetCode - Stone Game^]
+https://leetcode.cn/problems/stone-game/[LeetCode - 877. 石子游戏^]
 
-Alex and Lee play a game with piles of stones.  There are an even number of piles *arranged in a row*, and each pile has a positive integer number of stones `piles[i]`.
+Alice 和 Bob 用几堆石子在做游戏。一共有偶数堆石子，*排成一行*；每堆都有 *正* 整数颗石子，数目为 `piles[i]`。
 
-The objective of the game is to end with the most stones.  The total number of stones is odd, so there are no ties.
+游戏以谁手中的石子最多来决出胜负。石子的 *总数* 是 *奇数*，所以没有平局。
 
-Alex and Lee take turns, with Alex starting first.  Each turn, a player takes the entire pile of stones from either the beginning or the end of the row.  This continues until there are no more piles left, at which point the person with the most stones wins.
+Alice 和 Bob 轮流进行，*Alice 先开始* 。 每回合，玩家从行的 *开始* 或 *结束* 处取走整堆石头。 这种情况一直持续到没有更多的石子堆为止，此时手中 *石子最多* 的玩家 *获胜*。
 
-Assuming Alex and Lee play optimally, return `True` if and only if Alex wins the game.
+假设 Alice 和 Bob 都发挥出最佳水平，当 Alice 赢得比赛时返回 `true` ，当 Bob 赢得比赛时返回 `false`。
 
- 
+*示例 1：*
 
-*Example 1:*
+....
+输入：piles = [5,3,4,5]
+输出：true
+解释：
+Alice 先开始，只能拿前 5 颗或后 5 颗石子 。
+假设他取了前 5 颗，这一行就变成了 [3,4,5] 。
+如果 Bob 拿走前 3 颗，那么剩下的是 [4,5]，Alice 拿走后 5 颗赢得 10 分。
+如果 Bob 拿走后 5 颗，那么剩下的是 [3,4]，Alice 拿走后 4 颗赢得 9 分。
+这表明，取前 5 颗石子对 Alice 来说是一个胜利的举动，所以返回 true 。
+....
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [5,3,4,5]
-*Output:* true
-*Explanation:*
-Alex starts first, and can only take the first 5 or the last 5.
-Say he takes the first 5, so that the row becomes [3, 4, 5].
-If Lee takes 3, then the board is [4, 5], and Alex takes 5 to win with 10 points.
-If Lee takes the last 5, then the board is [3, 4], and Alex takes 4 to win with 9 points.
-This demonstrated that taking the first 5 was a winning move for Alex, so we return true.
-----
+*示例 2：*
 
- 
+....
+输入：piles = [3,7,2,3]
+输出：true
+....
 
-*Note:*
+*提示：*
+
+* `2 \<= piles.length \<= 500`
+* `piles.length` 是 *偶数*
+* `1 \<= piles[i] \<= 500`
+* `sum(piles[i])` 是 *奇数*
 
 
-. `2 <= piles.length <= 500`
-. `piles.length` is even.
-. `1 <= piles[i] <= 500`
-. `sum(piles)` is odd.
 
+== 思路分析
 
+双方都是聪明人，每次都选剩余石堆中的最多数，那么先选的人肯定获胜。
 
 [[src-0877]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0877_StoneGame.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0877_StoneGame_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/stone-game/solutions/3999002/wei-shi-yao-xian-shou-bi-sheng-by-endles-qc0w/[877. 石子游戏 - 为什么先手必胜？^]
+. https://leetcode.cn/problems/stone-game/solutions/396080/shi-zi-you-xi-by-leetcode-solution/[877. 石子游戏 - 官方题解^]

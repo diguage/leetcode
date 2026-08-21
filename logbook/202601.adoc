@@ -1196,6 +1196,11 @@ endif::[]
 |{doc_base_url}/0874-walking-robot-simulation.adoc[题解]
 |⭕️ 模拟题。注意方向的抽象和障碍避让的处理。
 
+|{counter:codes}
+|{leetcode_base_url}/stone-game/[877. Stone Game^]
+|{doc_base_url}/0877-stone-game.adoc[题解]
+|✅ 数学题或者动态规划。双方都是聪明人，每次都选剩余石堆中的最多数，那么先选的人肯定获胜。
+
 |===
 
 

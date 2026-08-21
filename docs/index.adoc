@@ -1846,7 +1846,7 @@ include::0875-koko-eating-bananas.adoc[leveloffset=+1]
 
 include::0876-middle-of-the-linked-list.adoc[leveloffset=+1]
 
-// include::0877-stone-game.adoc[leveloffset=+1]
+include::0877-stone-game.adoc[leveloffset=+1]
 
 // include::0878-nth-magical-number.adoc[leveloffset=+1]
 

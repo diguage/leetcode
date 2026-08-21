@@ -6164,13 +6164,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Easy
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/stone-game/[877. Stone Game^]
-//|{source_base_url}/_0877_StoneGame.java[Java]
-//|{doc_base_url}/0877-stone-game.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/stone-game/[877. Stone Game^]
+|{source_base_url}/_0877_StoneGame.java[Java]
+|{doc_base_url}/0877-stone-game.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/nth-magical-number/[878. Nth Magical Number^]
 //|{source_base_url}/_0878_NthMagicalNumber.java[Java]
