@@ -1,73 +1,82 @@
 [#0880-decoded-string-at-index]
-= 880. Decoded String at Index
+= 880. 索引处的解码字符串
 
-{leetcode}/problems/decoded-string-at-index/[LeetCode - Decoded String at Index^]
+https://leetcode.cn/problems/decoded-string-at-index/[LeetCode - 880. 索引处的解码字符串^]
 
-An encoded string `S` is given.  To find and write the _decoded_ string to a tape, the encoded string is read *one character at a time* and the following steps are taken:
+给定一个编码字符串 `s` 。请你找出 __ *解码字符串* 并将其写入磁带。解码时，从编码字符串中 *每次读取一个字符*，并采取以下步骤：
 
+* 如果所读的字符是字母，则将该字母写在磁带上。
+* 如果所读的字符是数字（例如 `d`），则整个当前磁带总共会被重复写 `d-1` 次。
 
-* If the character read is a letter, that letter is written onto the tape.
-* If the character read is a digit (say `d`), the entire current tape is repeatedly written `d-1` more times in total.
+现在，对于给定的编码字符串 `s` 和索引 `k`，查找并返回解码字符串中的第 `k` 个字母。
 
+*示例 1：*
 
-Now for some encoded string `S`, and an index `K`, find and return the `K`-th letter (1 indexed) in the decoded string.
+....
+输入：s = "leet2code3", k = 10
+输出："o"
+解释：
+解码后的字符串为 "leetleetcodeleetleetcodeleetleetcode"。
+字符串中的第 10 个字母是 "o"。
+....
 
- 
+*示例 2：*
 
+....
+输入：s = "ha22", k = 5
+输出："h"
+解释：
+解码后的字符串为 "hahahaha"。第 5 个字母是 "h"。
+....
 
-*Example 1:*
+*示例 3：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* S = "leet2code3", K = 10
-*Output:* "o"
-*Explanation:*
-The decoded string is "leetleetcodeleetleetcodeleetleetcode".
-The 10th letter in the string is "o".
-----
+....
+输入：s = "a2345678999999999999999", k = 1
+输出："a"
+解释：
+解码后的字符串为 "a" 重复 8301530446056247680 次。第 1 个字母是 "a"。
+....
 
+*提示：*
 
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* S = "ha22", K = 5
-*Output:* "h"
-*Explanation:*
-The decoded string is "hahahaha".  The 5th letter is "h".
-----
-
-
-*Example 3:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* S = "a2345678999999999999999", K = 1
-*Output:* "a"
-*Explanation:*
-The decoded string is "a" repeated 8301530446056247680 times.  The 1st letter is "a".
-----
-
- 
-
-*Note:*
+* `2 \<= s.length \<= 100`
+* `s` 只包含小写字母与数字 `2` 到 `9` 。
+* `s` 以字母开头。
+* `1 \<= k \<= 10^9^`
+* 题目保证 `k` 小于或等于解码字符串的长度。
+* 解码后的字符串保证少于 `2^63^` 个字母。
 
 
-* `2 <= S.length <= 100`
-* `S` will only contain lowercase letters and digits `2` through `9`.
-* `S` starts with a letter.
-* `1 <= K <= 10^9`
-* The decoded string is guaranteed to have less than `2^63` letters.
+== 思路分析
 
-
-
-
-
-
+逆向思维，正向求解遇到超大数字会堆栈溢出。需要逆向处理，从后向前，逐步把 `k` 值减小。
 
 [[src-0880]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0880_DecodedStringAtIndex.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0880_DecodedStringAtIndex_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/decoded-string-at-index/solutions/3548/suo-yin-chu-de-jie-ma-zi-fu-chuan-by-leetcode/[880. 索引处的解码字符串 - 官方题解^]
+. https://leetcode.cn/problems/decoded-string-at-index/solutions/111640/xian-ji-suan-zi-chuan-zhan-kai-zong-chang-du-zai-y/[880. 索引处的解码字符串 - 先計算字串展開總長度，再由原編碼字串由後向前作等價裁減^]
+. https://leetcode.cn/problems/decoded-string-at-index/solutions/2773275/880-suo-yin-chu-de-jie-ma-zi-fu-chuan-by-ft95/[880. 索引处的解码字符串 - 无题^]
