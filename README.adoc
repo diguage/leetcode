@@ -6205,14 +6205,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0882-reachable-nodes-in-subdivided-graph.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/projection-area-of-3d-shapes/[883. Projection Area of 3D Shapes^]
-//|{source_base_url}/_0883_ProjectionAreaOf3DShapes.java[Java]
-//|{doc_base_url}/0883-projection-area-of-3d-shapes.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/projection-area-of-3d-shapes/[883. Projection Area of 3D Shapes^]
+|{source_base_url}/_0883_ProjectionAreaOf3DShapes.java[Java]
+|{doc_base_url}/0883-projection-area-of-3d-shapes.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/uncommon-words-from-two-sentences/[884. Uncommon Words from Two Sentences^]
 //|{source_base_url}/_0884_UncommonWordsFromTwoSentences.java[Java]

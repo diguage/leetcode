@@ -1206,6 +1206,12 @@ endif::[]
 |{doc_base_url}/0880-decoded-string-at-index.adoc[题解]
 |⭕️ 栈。逆向思维，正向求解遇到超大数字会堆栈溢出。需要逆向处理，从后向前，逐步把 `k` 值减小。
 
+|{counter:codes}
+|{leetcode_base_url}/projection-area-of-3d-shapes/[883. Projection Area of 3D Shapes^]
+|{doc_base_url}/0883-projection-area-of-3d-shapes.adoc[题解]
+|✅ 简单模拟题。
+
+
 |===
 
 

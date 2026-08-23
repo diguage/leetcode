@@ -1,138 +1,77 @@
 [#0883-projection-area-of-3d-shapes]
-= 883. Projection Area of 3D Shapes
+= 883. 三维形体投影面积
 
-{leetcode}/problems/projection-area-of-3d-shapes/[LeetCode - Projection Area of 3D Shapes^]
+https://leetcode.cn/problems/projection-area-of-3d-shapes/[LeetCode - 883. 三维形体投影面积^]
 
-On a `N * N` grid, we place some `1 * 1 * 1 `cubes that are axis-aligned with the x, y, and z axes.
+在 `n x n` 的网格 `grid` 中，我们放置了一些与 x，y，z 三轴对齐的 `1 x 1 x 1` 立方体。
 
-Each value `v = grid[i][j]` represents a tower of `v` cubes placed on top of grid cell `(i, j)`.
+每个值 `v = grid[i][j]` 表示 `v` 个正方体叠放在单元格 `(i, j)` 上。
 
-Now we view the _projection_ of these cubes onto the xy, yz, and zx planes.
+现在，我们查看这些立方体在 `xy` 、`yz` 和 `zx` 平面上的 __投影__。
 
-A projection is like a shadow, that maps our 3 dimensional figure to a 2 dimensional plane. 
+*投影* 就像影子，将 *三维* 形体映射到一个 *二维* 平面上。从顶部、前面和侧面看立方体时，我们会看到“影子”。
 
-Here, we are viewing the "shadow" when looking at the cubes from the top, the front, and the side.
+返回 _所有三个投影的总面积_ 。
 
-Return the total area of all three projections.
+*示例 1：*
 
- 
+image::images/0883-01.png[{image_attr}]
 
+....
+输入：[[1,2],[3,4]]
+输出：17
+解释：这里有该形体在三个轴对齐平面上的三个投影(“阴影部分”)。
+....
 
+*示例 2:*
 
+....
+输入：grid = [[2]]
+输出：5
+....
 
+*示例 3：*
 
+....
+输入：[[1,0],[0,2]]
+输出：8
+....
 
+*提示：*
 
+* `n == grid.length == grid[i].length`
+* `1 \<= n \<= 50`
+* `0 \<= grid[i][j] \<= 50`
 
 
+== 思路分析
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[2]]
-*Output:* 5
-----
-
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[1,2],[3,4]]
-*Output:* 17
-*Explanation:*
-Here are the three projections ("shadows") of the shape made with each axis-aligned plane.
-
-image::https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/02/shadow.png[{image_attr}]
-----
-
-
-*Example 3:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[1,0],[0,2]]
-*Output:* 8
-----
-
-
-*Example 4:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[1,1,1],[1,0,1],[1,1,1]]
-*Output:* 14
-----
-
-
-*Example 5:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [[2,2,2],[2,1,2],[2,2,2]]
-*Output:* 21
-----
-
- 
-
-
-
-
-*Note:*
-
-
-* `1 <= grid.length = grid[0].length <= 50`
-* `0 <= grid[i][j] <= 50`
-
-
-
-
-
-
-
-
-
-
-
+简单的数学模拟题。
 
 [[src-0883]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0883_ProjectionAreaOf3DShapes.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0883_ProjectionAreaOf3DShapes_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/projection-area-of-3d-shapes/solutions/1444594/san-wei-xing-ti-tou-ying-mian-ji-by-leet-d66y/[883. 三维形体投影面积 - 官方题解^]
+. https://leetcode.cn/problems/projection-area-of-3d-shapes/solutions/1449597/by-ac_oier-r6hj/[883. 三维形体投影面积 - 简单模拟题^]
