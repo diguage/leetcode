@@ -1,56 +1,64 @@
 [#0884-uncommon-words-from-two-sentences]
-= 884. Uncommon Words from Two Sentences
+= 884. 两句话中的不常见单词
 
-{leetcode}/problems/uncommon-words-from-two-sentences/[LeetCode - Uncommon Words from Two Sentences^]
+https://leetcode.cn/problems/uncommon-words-from-two-sentences/[LeetCode - 884. 两句话中的不常见单词^]
 
-We are given two sentences `A` and `B`.  (A _sentence_ is a string of space separated words.  Each _word_ consists only of lowercase letters.)
+*句子* 是一串由空格分隔的单词。每个 *单词* 仅由小写字母组成。
 
-A word is _uncommon_ if it appears exactly once in one of the sentences, and does not appear in the other sentence.
+如果某个单词在其中一个句子中恰好出现一次，在另一个句子中却 *没有出现*，那么这个单词就是 *不常见的*。
 
-Return a list of all uncommon words. 
+给你两个 *句子* `s1` 和 `s2` ，返回所有 *不常用单词* 的列表。返回列表中单词可以按 *任意顺序* 组织。
 
-You may return the list in any order.
+*示例 1：*
 
- 
+....
+输入：s1 = "this apple is sweet", s2 = "this apple is sour"
+输出：["sweet","sour"]
+....
 
+*示例 2：*
 
+....
+输入：s1 = "apple apple", s2 = "banana"
+输出：["banana"]
+....
 
+*提示：*
 
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* A = "this apple is sweet", B = "this apple is sour"
-*Output:* ["sweet","sour"]
-----
-
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* A = "apple apple", B = "banana"
-*Output:* ["banana"]
-----
-
- 
-
-*Note:*
+* `1 \<= s1.length, s2.length \<= 200`
+* `s1` 和 `s2` 由小写英文字母和空格组成
+* `s1` 和 `s2` 都不含前导或尾随空格
+* `s1` 和 `s2` 中的所有单词间均由单个空格分隔
 
 
-. `0 <= A.length <= 200`
-. `0 <= B.length <= 200`
-. `A` and `B` both contain only spaces and lowercase letters.
+== 思路分析
 
-
-
-
-
+透过题意，起始就是找两个句子中只有出现一次的单词。把两个句子拼接切割再找符合要求的单词更简单。
 
 [[src-0884]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0884_UncommonWordsFromTwoSentences.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0884_UncommonWordsFromTwoSentences_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/uncommon-words-from-two-sentences/solutions/1237687/liang-ju-hua-zhong-de-bu-chang-jian-dan-a8bmz/[884. 两句话中的不常见单词 - 官方题解^]
+. https://leetcode.cn/problems/uncommon-words-from-two-sentences/solutions/1240229/tong-ge-lai-shua-ti-la-yi-ti-liang-jie-h-09vf/[884. 两句话中的不常见单词 - 一题两解：哈希表 & Java一行代码！^]
