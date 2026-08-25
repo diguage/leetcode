@@ -1216,6 +1216,11 @@ endif::[]
 |{doc_base_url}/0884-uncommon-words-from-two-sentences.adoc[题解]
 |✅ 哈希。透过题意，起始就是找两个句子中只有出现一次的单词。把两个句子拼接切割再找符合要求的单词更简单。
 
+|{counter:codes}
+|{leetcode_base_url}/spiral-matrix-iii/[885. Spiral Matrix III^]
+|{doc_base_url}/0885-spiral-matrix-iii.adoc[题解]
+|⭕️ 模拟题。使用模拟题失败，转看官方题解。
+
 
 
 |===

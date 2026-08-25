@@ -1862,7 +1862,7 @@ include::0883-projection-area-of-3d-shapes.adoc[leveloffset=+1]
 
 include::0884-uncommon-words-from-two-sentences.adoc[leveloffset=+1]
 
-// include::0885-spiral-matrix-iii.adoc[leveloffset=+1]
+include::0885-spiral-matrix-iii.adoc[leveloffset=+1]
 
 // include::0886-possible-bipartition.adoc[leveloffset=+1]
 
