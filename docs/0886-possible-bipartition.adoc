@@ -1,73 +1,71 @@
 [#0886-possible-bipartition]
-= 886. Possible Bipartition
+= 886. 可能的二分法
 
-{leetcode}/problems/possible-bipartition/[LeetCode - Possible Bipartition^]
+https://leetcode.cn/problems/possible-bipartition/[LeetCode - 886. 可能的二分法^]
 
-Given a set of `N` people (numbered `1, 2, ..., N`), we would like to split everyone into two groups of *any* size.
+给定一组 `n` 人（编号为 `+1, 2, ..., n+`）， 我们想把每个人分进**任意**大小的两组。每个人都可能不喜欢其他人，那么他们不应该属于同一组。
 
-Each person may dislike some other people, and they should not go into the same group. 
+给定整数 `n` 和数组 `dislikes` ，其中 `dislikes[i] = [a~i~, b~i~]` ，表示不允许将编号为 `a~i~` 和  `b~i~` 的人归入同一组。当可以用这种方法将所有人分进两组时，返回 `true`；否则返回 `false`。
 
-Formally, if `dislikes[i] = [a, b]`, it means it is not allowed to put the people numbered `a` and `b` into the same group.
+*示例 1：*
 
-Return `true` if and only if it is possible to split everyone into two groups in this way.
+....
+输入：n = 4, dislikes = [[1,2],[1,3],[2,4]]
+输出：true
+解释：group1 [1,4], group2 [2,3]
+....
 
- 
+*示例 2：*
 
+....
+输入：n = 3, dislikes = [[1,2],[1,3],[2,3]]
+输出：false
+....
 
+*示例 3：*
 
+....
+输入：n = 5, dislikes = [[1,2],[2,3],[3,4],[4,5],[1,5]]
+输出：false
+....
 
+*提示：*
 
+* `1 \<= n \<= 2000`
+* `0 \<= dislikes.length \<= 10^4^`
+* `dislikes[i].length == 2`
+* `1 \<= dislikes[i][j] \<= n`
+* `a~i~ < b~i~`
+* `dislikes` 中每一组都 *不同*
 
+== 思路分析
 
-
-
-*Example 1:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* N = 4, dislikes = [[1,2],[1,3],[2,4]]
-*Output:* true
-*Explanation*: group1 [1,4], group2 [2,3]
-----
-
-
-*Example 2:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* N = 3, dislikes = [[1,2],[1,3],[2,3]]
-*Output:* false
-----
-
-
-*Example 3:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* N = 5, dislikes = [[1,2],[2,3],[3,4],[4,5],[1,5]]
-*Output:* false
-----
-
- 
-
-*Note:*
-
-
-. `1 <= N <= 2000`
-. `0 <= dislikes.length <= 10000`
-. `1 <= dislikes[i][j] <= N`
-. `dislikes[i][0] < dislikes[i][1]`
-. There does not exist `i != j` for which `dislikes[i] == dislikes[j]`.
-
-
-
-
-
-
+TIP: 感觉并查集也可以。回头试试。
 
 [[src-0886]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0886_PossibleBipartition.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_0886_PossibleBipartition_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/possible-bipartition/solutions/3803684/mo-ban-er-fen-tu-ran-se-pythonjavacgojsr-ep24/[886. 可能的二分法 - 【模板】二分图染色^]
+. https://leetcode.cn/problems/possible-bipartition/solutions/1893341/ke-neng-de-er-fen-fa-by-leetcode-solutio-guo7/[886. 可能的二分法 - 官方题解^]

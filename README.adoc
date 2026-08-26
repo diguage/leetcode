@@ -6227,13 +6227,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 |Medium
 |
 
-//|{counter:codes}
-//|{leetcode_base_url}/possible-bipartition/[886. Possible Bipartition^]
-//|{source_base_url}/_0886_PossibleBipartition.java[Java]
-//|{doc_base_url}/0886-possible-bipartition.adoc[题解]
-//|Medium
-//|
-//
+|{counter:codes}
+|{leetcode_base_url}/possible-bipartition/[886. Possible Bipartition^]
+|{source_base_url}/_0886_PossibleBipartition.java[Java]
+|{doc_base_url}/0886-possible-bipartition.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/super-egg-drop/[887. Super Egg Drop^]
 //|{source_base_url}/_0887_SuperEggDrop.java[Java]
