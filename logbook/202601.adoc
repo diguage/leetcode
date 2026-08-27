@@ -1172,59 +1172,64 @@ endif::[]
 |✅ 数学。递增判定或者直接构造回文数字再检查。
 
 |{counter:codes}
-|{leetcode_base_url}/transpose-matrix/[867. Transpose Matrix^]
+|{leetcode_base_url}/transpose-matrix/[867. 转置矩阵^]
 |{doc_base_url}/0867-transpose-matrix.adoc[题解]
 |✅ 模拟题。矩阵遍历。
 
 |{counter:codes}
-|{leetcode_base_url}/binary-gap/[868. Binary Gap^]
+|{leetcode_base_url}/binary-gap/[868. 二进制间距^]
 |{doc_base_url}/0868-binary-gap.adoc[题解]
 |✅ 数学，位运算，双指针。记录上一个 `1`，寻找下一个 `1`，然后计算两者的距离。
 
 |{counter:codes}
-|{leetcode_base_url}/leaf-similar-trees/[872. Leaf-Similar Trees^]
+|{leetcode_base_url}/leaf-similar-trees/[872. 叶子相似的树^]
 |{doc_base_url}/0872-leaf-similar-trees.adoc[题解]
 |✅ 深度优先遍历。我用的是迭代法。
 
 |{counter:codes}
-|{leetcode_base_url}/length-of-longest-fibonacci-subsequence/[873. Length of Longest Fibonacci Subsequence^]
+|{leetcode_base_url}/length-of-longest-fibonacci-subsequence/[873. 最长的斐波那契子序列的长度^]
 |{doc_base_url}/0873-length-of-longest-fibonacci-subsequence.adoc[题解]
 |✅ 哈希。最优解是使用动态规划。遍历数组，模拟斐波那契数列的计算过程。
 
 |{counter:codes}
-|{leetcode_base_url}/walking-robot-simulation/[874. Walking Robot Simulation^]
+|{leetcode_base_url}/walking-robot-simulation/[874. 模拟行走机器人^]
 |{doc_base_url}/0874-walking-robot-simulation.adoc[题解]
 |⭕️ 模拟题。注意方向的抽象和障碍避让的处理。
 
 |{counter:codes}
-|{leetcode_base_url}/stone-game/[877. Stone Game^]
+|{leetcode_base_url}/stone-game/[877. 石子游戏^]
 |{doc_base_url}/0877-stone-game.adoc[题解]
 |✅ 数学题或者动态规划。双方都是聪明人，每次都选剩余石堆中的最多数，那么先选的人肯定获胜。
 
 |{counter:codes}
-|{leetcode_base_url}/decoded-string-at-index/[880. Decoded String at Index^]
+|{leetcode_base_url}/decoded-string-at-index/[880. 索引处的解码字符串^]
 |{doc_base_url}/0880-decoded-string-at-index.adoc[题解]
 |⭕️ 栈。逆向思维，正向求解遇到超大数字会堆栈溢出。需要逆向处理，从后向前，逐步把 `k` 值减小。
 
 |{counter:codes}
-|{leetcode_base_url}/projection-area-of-3d-shapes/[883. Projection Area of 3D Shapes^]
+|{leetcode_base_url}/projection-area-of-3d-shapes/[883. 三维形体投影面积^]
 |{doc_base_url}/0883-projection-area-of-3d-shapes.adoc[题解]
 |✅ 简单模拟题。
 
 |{counter:codes}
-|{leetcode_base_url}/uncommon-words-from-two-sentences/[884. Uncommon Words from Two Sentences^]
+|{leetcode_base_url}/uncommon-words-from-two-sentences/[884. 两句话中的不常见单词^]
 |{doc_base_url}/0884-uncommon-words-from-two-sentences.adoc[题解]
 |✅ 哈希。透过题意，起始就是找两个句子中只有出现一次的单词。把两个句子拼接切割再找符合要求的单词更简单。
 
 |{counter:codes}
-|{leetcode_base_url}/spiral-matrix-iii/[885. Spiral Matrix III^]
+|{leetcode_base_url}/spiral-matrix-iii/[885. 螺旋矩阵 III^]
 |{doc_base_url}/0885-spiral-matrix-iii.adoc[题解]
 |⭕️ 模拟题。使用模拟题失败，转看官方题解。
 
 |{counter:codes}
-|{leetcode_base_url}/possible-bipartition/[886. Possible Bipartition^]
+|{leetcode_base_url}/possible-bipartition/[886. 可能的二分法^]
 |{doc_base_url}/0886-possible-bipartition.adoc[题解]
 |❌ 深度优先搜索。
+
+|{counter:codes}
+|{leetcode_base_url}/fair-candy-swap/[888. 公平的糖果交换^]
+|{doc_base_url}/0888-fair-candy-swap.adoc[题解]
+|✅ 哈希。求总和差值。
 
 
 |===

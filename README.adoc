@@ -6240,14 +6240,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0887-super-egg-drop.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/fair-candy-swap/[888. Fair Candy Swap^]
-//|{source_base_url}/_0888_FairCandySwap.java[Java]
-//|{doc_base_url}/0888-fair-candy-swap.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/fair-candy-swap/[888. Fair Candy Swap^]
+|{source_base_url}/_0888_FairCandySwap.java[Java]
+|{doc_base_url}/0888-fair-candy-swap.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/construct-binary-tree-from-preorder-and-postorder-traversal/[889. Construct Binary Tree from Preorder and Postorder Traversal^]
 //|{source_base_url}/_0889_ConstructBinaryTreeFromPreorderAndPostorderTraversal.java[Java]

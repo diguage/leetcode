@@ -1264,7 +1264,7 @@ endif::[]
 |❌
 
 |{counter:codes}
-|{leetcode_base_url}/push-dominoes/[838. Push Dominoes^]
+|{leetcode_base_url}/push-dominoes/[838. 推多米诺^]
 |{doc_base_url}/0838-push-dominoes.adoc[题解]
 |❌
 
@@ -1279,22 +1279,22 @@ endif::[]
 |❌
 
 |{counter:codes}
-|{leetcode_base_url}/walking-robot-simulation/[874. Walking Robot Simulation^]
+|{leetcode_base_url}/walking-robot-simulation/[874. 模拟行走机器人^]
 |{doc_base_url}/0874-walking-robot-simulation.adoc[题解]
 |⭕️
 
 |{counter:codes}
-|{leetcode_base_url}/decoded-string-at-index/[880. Decoded String at Index^]
+|{leetcode_base_url}/decoded-string-at-index/[880. 索引处的解码字符串^]
 |{doc_base_url}/0880-decoded-string-at-index.adoc[题解]
 |⭕️
 
 |{counter:codes}
-|{leetcode_base_url}/spiral-matrix-iii/[885. Spiral Matrix III^]
+|{leetcode_base_url}/spiral-matrix-iii/[885. 螺旋矩阵 III^]
 |{doc_base_url}/0885-spiral-matrix-iii.adoc[题解]
 |⭕️
 
 |{counter:codes}
-|{leetcode_base_url}/possible-bipartition/[886. Possible Bipartition^]
+|{leetcode_base_url}/possible-bipartition/[886. 可能的二分法^]
 |{doc_base_url}/0886-possible-bipartition.adoc[题解]
 |❌
 

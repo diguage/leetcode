@@ -1868,7 +1868,7 @@ include::0886-possible-bipartition.adoc[leveloffset=+1]
 
 // include::0887-super-egg-drop.adoc[leveloffset=+1]
 
-// include::0888-fair-candy-swap.adoc[leveloffset=+1]
+include::0888-fair-candy-swap.adoc[leveloffset=+1]
 
 // include::0889-construct-binary-tree-from-preorder-and-postorder-traversal.adoc[leveloffset=+1]
 
