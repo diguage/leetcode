@@ -14,6 +14,25 @@ image::images/modified-binary-search.jpeg[{image_attr}]
 
 看到**#最大化最小值#**或者**#最小化最大值#**就要想到二分答案，这是一个固定的套路。
 
+== 常规二分查找
+
+最常见的就是常规的二分查找。
+
+== 旋转排序数组
+
+. xref:0033-search-in-rotated-sorted-array.adoc[33. Search in Rotated Sorted Array]
+. xref:0153-find-minimum-in-rotated-sorted-array.adoc[153. Find Minimum in Rotated Sorted Array]
+. xref:0154-find-minimum-in-rotated-sorted-array-ii.adoc[154. Find Minimum in Rotated Sorted Array II]
+
+== 寻找元素边界
+
+. xref:0034-find-first-and-last-position-of-element-in-sorted-array.adoc[34. Find First and Last Position of Element in Sorted Array]
+
+== 二维二分查找
+
+. xref:0074-search-a-2d-matrix.adoc[74. Search a 2D Matrix]
+. xref:0240-search-a-2d-matrix-ii.adoc[240. Search a 2D Matrix II]
+
 == 疑问点
 
 . 二分查找怎样可以确定地取左右端点？
