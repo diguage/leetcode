@@ -6835,14 +6835,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0972-equal-rational-numbers.adoc[题解]
 //|Hard
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/k-closest-points-to-origin/[973. K Closest Points to Origin^]
-//|{source_base_url}/_0973_KClosestPointsToOrigin.java[Java]
-//|{doc_base_url}/0973-k-closest-points-to-origin.adoc[题解]
-//|Medium
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/k-closest-points-to-origin/[973. K Closest Points to Origin^]
+|{source_base_url}/_0973_KClosestPointsToOrigin.java[Java]
+|{doc_base_url}/0973-k-closest-points-to-origin.adoc[题解]
+|Medium
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/subarray-sums-divisible-by-k/[974. Subarray Sums Divisible by K^]
 //|{source_base_url}/_0974_SubarraySumsDivisibleByK.java[Java]

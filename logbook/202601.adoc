@@ -1236,6 +1236,12 @@ endif::[]
 |{doc_base_url}/0154-find-minimum-in-rotated-sorted-array-ii.adoc[题解]
 |⭕️ 二分查找。重点要看，你关注的点在哪里，如果简化判定。
 
+|{counter:codes}
+|{leetcode_base_url}/k-closest-points-to-origin/[973. 最接近原点的 K 个点^]
+|{doc_base_url}/0973-k-closest-points-to-origin.adoc[题解]
+|⭕️ 快速选择！快速选择还是写的漏洞百出！
+
+
 |===
 
 
