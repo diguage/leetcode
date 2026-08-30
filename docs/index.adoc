@@ -2778,7 +2778,7 @@ include::1325-delete-leaves-with-a-given-value.adoc[leveloffset=+1]
 
 // include::1342-number-of-steps-to-reduce-a-number-to-zero.adoc[leveloffset=+1]
 
-// include::1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.adoc[leveloffset=+1]
+include::1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.adoc[leveloffset=+1]
 
 // include::1344-angle-between-hands-of-a-clock.adoc[leveloffset=+1]
 

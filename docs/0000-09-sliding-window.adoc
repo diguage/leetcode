@@ -8,6 +8,21 @@
 * 这个问题的输入是一些线性结构：比如链表呀，数组啊，字符串啊之类的
 * 让你去求最长/最短子字符串或是某些特定的长度要求
 
+== 定长窗口
+
+. xref:1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.adoc[1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold]
+
+== 不定长窗口
+
+=== 越短越合法/求最长/最大
+
+=== 越长越合法/求最短/最小
+
+=== 求子数组个数
+
+=== 其他
+
+
 == 经典题目
 
 . xref:0003-longest-substring-without-repeating-characters.adoc[3. Longest Substring Without Repeating Characters]

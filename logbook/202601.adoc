@@ -1241,6 +1241,10 @@ endif::[]
 |{doc_base_url}/0973-k-closest-points-to-origin.adoc[题解]
 |⭕️ 快速选择！快速选择还是写的漏洞百出！
 
+|{counter:codes}
+|{leetcode_base_url}/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/[1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold^]
+|{doc_base_url}/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.adoc[题解]
+|✅ 滑动窗口。定长滑动窗口。
 
 |===
 

@@ -9426,12 +9426,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Easy
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/[1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold^]
-//|{source_base_url}/_1343_NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java[Java]
-//|{doc_base_url}/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/[1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold^]
+|{source_base_url}/_1343_NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java[Java]
+|{doc_base_url}/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/angle-between-hands-of-a-clock/[1344. Angle Between Hands of a Clock^]
