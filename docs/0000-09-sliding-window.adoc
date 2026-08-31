@@ -12,7 +12,9 @@
 
 . xref:1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.adoc[1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold]
 
-== 不定长窗口
+== 变长窗口
+
+. xref:1493-longest-subarray-of-1s-after-deleting-one-element.adoc[1493. Longest Subarray of 1's After Deleting One Element]
 
 === 越短越合法/求最长/最大
 

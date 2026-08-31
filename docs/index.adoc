@@ -3078,7 +3078,7 @@ include::1480-running-sum-of-1d-array.adoc[leveloffset=+1]
 
 // include::1492-the-kth-factor-of-n.adoc[leveloffset=+1]
 
-// include::1493-longest-subarray-of-1s-after-deleting-one-element.adoc[leveloffset=+1]
+include::1493-longest-subarray-of-1s-after-deleting-one-element.adoc[leveloffset=+1]
 
 // include::1494-parallel-courses-ii.adoc[leveloffset=+1]
 

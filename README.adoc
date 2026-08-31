@@ -10476,12 +10476,12 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|Medium
 //|
 
-//|{counter:codes}
-//|{leetcode_base_url}/longest-subarray-of-1s-after-deleting-one-element/[1493. Longest Subarray of 1's After Deleting One Element^]
-//|{source_base_url}/_1493_LongestSubarrayOf1SAfterDeletingOneElement.java[Java]
-//|{doc_base_url}/1493-longest-subarray-of-1s-after-deleting-one-element.adoc[题解]
-//|Medium
-//|
+|{counter:codes}
+|{leetcode_base_url}/longest-subarray-of-1s-after-deleting-one-element/[1493. Longest Subarray of 1's After Deleting One Element^]
+|{source_base_url}/_1493_LongestSubarrayOf1SAfterDeletingOneElement.java[Java]
+|{doc_base_url}/1493-longest-subarray-of-1s-after-deleting-one-element.adoc[题解]
+|Medium
+|
 
 //|{counter:codes}
 //|{leetcode_base_url}/parallel-courses-ii/[1494. Parallel Courses II^]
