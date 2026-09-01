@@ -1,61 +1,81 @@
 [#1019-next-greater-node-in-linked-list]
-= 1019. Next Greater Node In Linked List
+= 1019. 链表中的下一个更大节点
 
-{leetcode}/problems/next-greater-node-in-linked-list/[LeetCode - Next Greater Node In Linked List^]
+https://leetcode.cn/problems/next-greater-node-in-linked-list/[LeetCode - 1019. 链表中的下一个更大节点^]
 
-We are given a linked list with `head` as the first node.  Let's number the nodes in the list: `node_1, node_2, node_3, ...` etc.
+给定一个长度为 `n` 的链表 `head`。
 
-Each node may have a _next larger_ *value*: for `node_i`, `next_larger(node_i)` is the `node_j.val` such that `j > i`, `node_j.val > node_i.val`, and `j` is the smallest possible choice.  If such a `j` does not exist, the next larger value is `0`.
+对于列表中的每个节点，查找下一个 *更大节点* 的值。也就是说，对于每个节点，找到它旁边的第一个节点的值，这个节点的值 *严格大于* 它的值。
 
-Return an array of integers `answer`, where `answer[i] = next_larger(node_{i+1})`.
+返回一个整数数组 `answer`，其中 `answer[i]` 是第 `i` 个节点(*从1开始* )的下一个更大的节点的值。如果第 `i` 个节点没有下一个更大的节点，设置 `answer[i] = 0`。
 
-Note that in the example *inputs* (not outputs) below, arrays such as `[2,1,5]` represent the serialization of a linked list with a head node value of 2, second node value of 1, and third node value of 5.
+*示例 1：*
 
- 
+image::images/1019-01.jpg[{image_attr}]
 
+....
+输入：head = [2,1,5]
+输出：[5,5,0]
+....
 
-*Example 1:*
+*示例 2：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [2,1,5]
-*Output:* [5,5,0]
-----
+image::images/1019-02.jpg[{image_attr}]
 
+....
+输入：head = [2,7,4,3,5]
+输出：[7,0,5,5,0]
+....
 
-*Example 2:*
+*提示：*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [2,7,4,3,5]
-*Output:* [7,0,5,5,0]
-----
-
-
-*Example 3:*
-
-[subs="verbatim,quotes,macros"]
-----
-*Input:* [1,7,5,1,9,2,5,1]
-*Output:* [7,9,9,9,0,5,0,0]
-----
-
- 
-
-*Note:*
-
-
-. `1 <= node.val <= 10^9` for each node in the linked list.
-. The given list has length in the range `[0, 10000]`.
+* 链表中节点数为 `n`
+* `1 \<= n \<= 10^4^`
+* `1 \<= Node.val \<= 10^9^`
 
 
 
+== 思路分析
 
+单调栈！
 
+image::images/1019-10.png[{image_attr}]
+
+image::images/1019-11.png[{image_attr}]
+
+image::images/1019-12.png[{image_attr}]
+
+image::images/1019-13.png[{image_attr}]
+
+image::images/1019-14.png[{image_attr}]
+
+TIP: 这里将链表转成“数组”有点违规。但思路没错。
 
 [[src-1019]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_1019_NextGreaterNodeInLinkedList.java[tag=answer]
 ----
+--
 
+// 二刷::
+// +
+// --
+// [{java_src_attr}]
+// ----
+// include::{sourcedir}/_1019_NextGreaterNodeInLinkedList_2.java[tag=answer]
+// ----
+// --
+====
+
+
+== 参考资料
+
+. https://leetcode.cn/problems/next-greater-node-in-linked-list/solutions/2217563/tu-jie-dan-diao-zhan-liang-chong-fang-fa-v9ab/[1019. 链表中的下一个更大节点 - 【图解单调栈】两种方法，两张图秒懂！附题单^]
+. https://leetcode.cn/problems/next-greater-node-in-linked-list/solutions/442247/5chong-jie-jue-fang-shi-tu-wen-xiang-jie-by-sdwwld/[1019. 链表中的下一个更大节点 - 5种解决方式，图文详解^]
+. https://leetcode.cn/problems/next-greater-node-in-linked-list/solutions/2216789/lian-biao-zhong-de-xia-yi-ge-geng-da-jie-u9yo/[1019. 链表中的下一个更大节点 - 官方题解^]

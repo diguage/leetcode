@@ -7157,13 +7157,13 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/1018-binary-prefix-divisible-by-5.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/next-greater-node-in-linked-list/[1019. Next Greater Node In Linked List^]
-//|{source_base_url}/_1019_NextGreaterNodeInLinkedList.java[Java]
-//|{doc_base_url}/1019-next-greater-node-in-linked-list.adoc[题解]
-//|Medium
-//|
+
+|{counter:codes}
+|{leetcode_base_url}/next-greater-node-in-linked-list/[1019. Next Greater Node In Linked List^]
+|{source_base_url}/_1019_NextGreaterNodeInLinkedList.java[Java]
+|{doc_base_url}/1019-next-greater-node-in-linked-list.adoc[题解]
+|Medium
+|
 
 |{counter:codes}
 |{leetcode_base_url}/number-of-enclaves/[1020. Number of Enclaves^]

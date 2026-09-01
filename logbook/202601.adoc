@@ -1251,6 +1251,11 @@ endif::[]
 |{doc_base_url}/1493-longest-subarray-of-1s-after-deleting-one-element.adoc[题解]
 |✅ 滑动窗口。变长滑动窗口。
 
+|{counter:codes}
+|{leetcode_base_url}/next-greater-node-in-linked-list/[1019. 链表中的下一个更大节点^]
+|{doc_base_url}/1019-next-greater-node-in-linked-list.adoc[题解]
+|✅ 单调栈。这里将链表转成“数组”有点违规。
+
 |===
 
 

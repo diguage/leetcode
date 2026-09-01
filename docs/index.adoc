@@ -2130,7 +2130,7 @@ include::1011-capacity-to-ship-packages-within-d-days.adoc[leveloffset=+1]
 
 // include::1018-binary-prefix-divisible-by-5.adoc[leveloffset=+1]
 
-// include::1019-next-greater-node-in-linked-list.adoc[leveloffset=+1]
+include::1019-next-greater-node-in-linked-list.adoc[leveloffset=+1]
 
 include::1020-number-of-enclaves.adoc[leveloffset=+1]
 
