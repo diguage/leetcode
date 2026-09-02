@@ -6289,14 +6289,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0894-all-possible-full-binary-trees.adoc[题解]
 //|Medium
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/maximum-frequency-stack/[895. Maximum Frequency Stack^]
-//|{source_base_url}/_0895_MaximumFrequencyStack.java[Java]
-//|{doc_base_url}/0895-maximum-frequency-stack.adoc[题解]
-//|Hard
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/maximum-frequency-stack/[895. Maximum Frequency Stack^]
+|{source_base_url}/_0895_MaximumFrequencyStack.java[Java]
+|{doc_base_url}/0895-maximum-frequency-stack.adoc[题解]
+|Hard
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/monotonic-array/[896. Monotonic Array^]
 //|{source_base_url}/_0896_MonotonicArray.java[Java]

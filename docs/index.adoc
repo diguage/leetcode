@@ -1882,7 +1882,7 @@ include::0892-surface-area-of-3d-shapes.adoc[leveloffset=+1]
 
 // include::0894-all-possible-full-binary-trees.adoc[leveloffset=+1]
 
-// include::0895-maximum-frequency-stack.adoc[leveloffset=+1]
+include::0895-maximum-frequency-stack.adoc[leveloffset=+1]
 
 // include::0896-monotonic-array.adoc[leveloffset=+1]
 
