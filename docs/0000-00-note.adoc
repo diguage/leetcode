@@ -38,7 +38,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 
 == 解题范式
 
-. xref:0000-06-two-pointer.adoc[Two Pointer 双指针]
+. xref:0000-07-two-pointer.adoc[Two Pointer 双指针]
 .. Pair with Target Sum (easy)
 .. Find Non-Duplicate Number Instances (easy)
 .. Squaring a Sorted Array (easy)
@@ -50,7 +50,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1: Quadruple Sum to Target (medium)
 .. Problem Challenge 2: Comparing Strings containing Backspaces (medium)
 .. Problem Challenge 3: Minimum Window Sort (medium)
-. xref:0000-07-fast-slow-pointers.adoc[Fast & Slow Pointers 快慢指针]
+. xref:0000-08-fast-slow-pointers.adoc[Fast & Slow Pointers 快慢指针]
 .. LinkedList Cycle (easy)
 .. Middle of the LinkedList (easy)
 .. Start of LinkedList Cycle (medium)
@@ -58,7 +58,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1: Palindrome LinkedList (medium)
 .. Problem Challenge 2: Rearrange a LinkedList (medium)
 .. Problem Challenge 3: Cycle in a Circular Array (hard)
-. xref:0000-08-sliding-window.adoc[Sliding Window 滑动窗口]
+. xref:0000-09-sliding-window.adoc[Sliding Window 滑动窗口]
 .. Maximum Sum Subarray of Size K  (easy)
 .. Smallest Subarray With a Greater Sum (easy)
 .. Longest Substring with K Distinct Characters (medium)
@@ -77,7 +77,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1: Minimum Meeting Rooms (hard)
 .. Problem Challenge 2: Maximum CPU Load (hard)
 .. Problem Challenge 3: Employee Free Time (hard)
-. xref:0000-12-cyclic-sort.adoc[Cyclic Sort 循环排序]
+. xref:0000-05-cyclic-sort.adoc[Cyclic Sort 循环排序]
 .. Cyclic Sort (easy)
 .. Find the Missing Number (easy)
 .. Find all Missing Numbers (easy)
@@ -86,7 +86,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem Challenge 1: Find the Corrupt Pair (easy)
 .. Problem Challenge 2: xref:0041-first-missing-positive.adoc[41. First Missing Positive]
 .. Problem Challenge 3: xref:1539-kth-missing-positive-number.adoc[1539. Kth Missing Positive Number]
-. xref:0000-05-reversed-list.adoc[In-place Reversal of a LinkedList 原地链表翻转]
+. xref:0000-06-reversed-list.adoc[In-place Reversal of a LinkedList 原地链表翻转]
 .. Reverse a LinkedList (easy)
 .. Reverse a Sub-list (medium)
 .. Reverse every K-element Sub-list (medium)
@@ -102,7 +102,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Problem 4: Next Greater Element
 .. Problem 5: Sorting a Stack
 .. Problem 6: Simplify Path
-. xref:0000-11-monotonic-stack.adoc[Monotonic Stack 单调栈]
+. xref:0000-12-monotonic-stack.adoc[Monotonic Stack 单调栈]
 .. Remove Nodes From Linked List (medium)
 .. Remove All Adjacent Duplicates In String (easy)
 .. Next Greater Element (easy)
@@ -182,7 +182,7 @@ image::images/quick-sort-01.gif[{image_attr}]
 .. Two Single Numbers (medium)
 .. Complement of Base 10 Number (medium)
 .. Problem Challenge 1: Flip and Invert an Image (hard)
-. xref:0000-10-top-k-elements.adoc[Top 'K' Elements 顶端 K 元素]
+. xref:0000-11-top-k-elements.adoc[Top 'K' Elements 顶端 K 元素]
 .. Top 'K' Numbers (easy)
 .. Kth Smallest Number (easy)
 .. 'K' Closest Points to the Origin (easy)

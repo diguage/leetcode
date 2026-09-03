@@ -43,21 +43,21 @@ include::0000-03-modified-binary-search.adoc[leveloffset=+1]
 
 include::0000-04-merge-intervals.adoc[leveloffset=+1]
 
-include::0000-05-reversed-list.adoc[leveloffset=+1]
+include::0000-05-cyclic-sort.adoc[leveloffset=+1]
 
-include::0000-06-two-pointer.adoc[leveloffset=+1]
+include::0000-06-reversed-list.adoc[leveloffset=+1]
 
-include::0000-07-fast-slow-pointers.adoc[leveloffset=+1]
+include::0000-07-two-pointer.adoc[leveloffset=+1]
 
-include::0000-08-sliding-window.adoc[leveloffset=+1]
+include::0000-08-fast-slow-pointers.adoc[leveloffset=+1]
 
-include::0000-09-quickselect.adoc[leveloffset=+1]
+include::0000-09-sliding-window.adoc[leveloffset=+1]
 
-include::0000-10-top-k-elements.adoc[leveloffset=+1]
+include::0000-10-quickselect.adoc[leveloffset=+1]
 
-include::0000-11-monotonic-stack.adoc[leveloffset=+1]
+include::0000-11-top-k-elements.adoc[leveloffset=+1]
 
-include::0000-12-cyclic-sort.adoc[leveloffset=+1]
+include::0000-12-monotonic-stack.adoc[leveloffset=+1]
 
 include::0000-13-two-heaps.adoc[leveloffset=+1]
 

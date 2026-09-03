@@ -38,7 +38,7 @@ https://leetcode.cn/problems/find-all-duplicates-in-an-array/[LeetCode - 442. �
 
 == 思路分析
 
-使用 xref:0000-12-cyclic-sort.adoc[Cyclic Sort 循环排序] 模式。想到了排序的思路，但是把“循环排序”的模式给忘记了，更没有把具体步骤理清楚。
+使用 xref:0000-05-cyclic-sort.adoc[Cyclic Sort 循环排序] 模式。想到了排序的思路，但是把“循环排序”的模式给忘记了，更没有把具体步骤理清楚。
 
 [[src-0442]]
 [tabs]

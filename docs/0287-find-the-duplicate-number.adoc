@@ -65,7 +65,7 @@ image::images/0287-10.webp[{image_attr}]
 +
 image::images/0287-01.png[{image_attr}]
 
-TIP: 上图就是 xref:0000-12-cyclic-sort.adoc[Cyclic Sort 循环排序]。
+TIP: 上图就是 xref:0000-05-cyclic-sort.adoc[Cyclic Sort 循环排序]。
 
 [[src-0287]]
 [tabs]
