@@ -1261,6 +1261,11 @@ endif::[]
 |{doc_base_url}/0895-maximum-frequency-stack.adoc[题解]
 |❌ 哈希+栈。只想到使用哈希记录出现次数，没想到可以根据出现次数去建立多个栈。
 
+|{counter:codes}
+|{leetcode_base_url}/least-number-of-unique-integers-after-k-removals/[1481. 不同整数的最少数目^]
+|{doc_base_url}/1481-least-number-of-unique-integers-after-k-removals.adoc[题解]
+|✅ 优先队列或排序，也有贪心的意思。先统计次数，再根据次数从小到大删除。
+
 
 |===
 

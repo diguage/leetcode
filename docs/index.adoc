@@ -3054,7 +3054,7 @@ include::1457-pseudo-palindromic-paths-in-a-binary-tree.adoc[leveloffset=+1]
 
 include::1480-running-sum-of-1d-array.adoc[leveloffset=+1]
 
-// include::1481-least-number-of-unique-integers-after-k-removals.adoc[leveloffset=+1]
+include::1481-least-number-of-unique-integers-after-k-removals.adoc[leveloffset=+1]
 
 // include::1482-minimum-number-of-days-to-make-m-bouquets.adoc[leveloffset=+1]
 
