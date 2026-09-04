@@ -59,9 +59,9 @@ include::0000-11-top-k-elements.adoc[leveloffset=+1]
 
 include::0000-12-monotonic-stack.adoc[leveloffset=+1]
 
-include::0000-13-dual-heaps.adoc[leveloffset=+1]
+include::0000-14-dual-heaps.adoc[leveloffset=+1]
 
-include::0000-14-k-way-merge.adoc[leveloffset=+1]
+include::0000-13-k-way-merge.adoc[leveloffset=+1]
 
 include::0000-15-breadth-first-search.adoc[leveloffset=+1]
 

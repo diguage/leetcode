@@ -37,7 +37,7 @@ https://leetcode.cn/problems/sliding-window-median/[LeetCode - 480. 滑动窗口
 
 == 思路分析
 
-利用 xref:0295-find-median-from-data-stream.adoc[295. Find Median from Data Stream] 中的 xref:0000-13-dual-heaps.adoc[Two Heaps 对顶堆] 在“运动”中，删除，添加，求中位数。
+利用 xref:0295-find-median-from-data-stream.adoc[295. Find Median from Data Stream] 中的 xref:0000-14-dual-heaps.adoc[Two Heaps 对顶堆] 在“运动”中，删除，添加，求中位数。
 
 image::images/0480-10.png[{image_attr}]
 
