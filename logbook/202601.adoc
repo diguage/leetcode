@@ -1266,6 +1266,11 @@ endif::[]
 |{doc_base_url}/1481-least-number-of-unique-integers-after-k-removals.adoc[题解]
 |✅ 优先队列或排序，也有贪心的意思。先统计次数，再根据次数从小到大删除。
 
+|{counter:codes}
+|{leetcode_base_url}/complete-binary-tree-inserter/[919. Complete Binary Tree Inserter^]
+|{doc_base_url}/0919-complete-binary-tree-inserter.adoc[题解]
+|✅ 广度优先队列。可以缓存要插入的父节点队列，加快速度。
+
 
 |===
 

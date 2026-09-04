@@ -1930,7 +1930,7 @@ include::0915-partition-array-into-disjoint-intervals.adoc[leveloffset=+1]
 
 include::0918-maximum-sum-circular-subarray.adoc[leveloffset=+1]
 
-// include::0919-complete-binary-tree-inserter.adoc[leveloffset=+1]
+include::0919-complete-binary-tree-inserter.adoc[leveloffset=+1]
 
 // include::0920-number-of-music-playlists.adoc[leveloffset=+1]
 
