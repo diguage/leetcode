@@ -1,5 +1,5 @@
-[#0000-13-two-heaps]
-= Two Heaps 对顶堆
+[#0000-13-dual-heaps]
+= Dual Heaps 对顶堆
 
 很多问题中，我们被告知，我们拿到一大把可以分成两队的数字。为了解决这个问题，我们感兴趣的是，怎么把数字分成两半？使得：小的数字都放在一起，大的放在另外一半。双堆模式就能高效解决此类问题。
 
@@ -7,11 +7,11 @@
 
 image::images/0480-10.png[{image_attr}]
 
-image::images/two-heaps-01.webp[{image_attr}]
+image::images/dual-heaps-01.webp[{image_attr}]
 
 NOTE: 从上面两个图可以看出，“对顶堆”这个名字更形象。所以，将本节标题也改一下。
 
-image::images/two-heaps-02.png[{image_attr}]
+image::images/dual-heaps-02.png[{image_attr}]
 
 判断双堆模式的秘诀：
 
