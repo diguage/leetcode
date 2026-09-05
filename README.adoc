@@ -6303,14 +6303,14 @@ TIP: **公众号的微信号是: `jikerizhi`**。__因为众所周知的原因�
 //|{doc_base_url}/0896-monotonic-array.adoc[题解]
 //|Easy
 //|
-//
-//|{counter:codes}
-//|{leetcode_base_url}/increasing-order-search-tree/[897. Increasing Order Search Tree^]
-//|{source_base_url}/_0897_IncreasingOrderSearchTree.java[Java]
-//|{doc_base_url}/0897-increasing-order-search-tree.adoc[题解]
-//|Easy
-//|
-//
+
+|{counter:codes}
+|{leetcode_base_url}/increasing-order-search-tree/[897. Increasing Order Search Tree^]
+|{source_base_url}/_0897_IncreasingOrderSearchTree.java[Java]
+|{doc_base_url}/0897-increasing-order-search-tree.adoc[题解]
+|Easy
+|
+
 //|{counter:codes}
 //|{leetcode_base_url}/bitwise-ors-of-subarrays/[898. Bitwise ORs of Subarrays^]
 //|{source_base_url}/_0898_BitwiseORsOfSubarrays.java[Java]

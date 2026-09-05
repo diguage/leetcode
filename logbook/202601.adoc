@@ -1271,6 +1271,11 @@ endif::[]
 |{doc_base_url}/0919-complete-binary-tree-inserter.adoc[题解]
 |✅ 广度优先队列。可以缓存要插入的父节点队列，加快速度。
 
+|{counter:codes}
+|{leetcode_base_url}/increasing-order-search-tree/[897. Increasing Order Search Tree^]
+|{doc_base_url}/0897-increasing-order-search-tree.adoc[题解]
+|✅ 深度优先遍历。
+
 
 |===
 

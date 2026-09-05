@@ -1886,7 +1886,7 @@ include::0895-maximum-frequency-stack.adoc[leveloffset=+1]
 
 // include::0896-monotonic-array.adoc[leveloffset=+1]
 
-// include::0897-increasing-order-search-tree.adoc[leveloffset=+1]
+include::0897-increasing-order-search-tree.adoc[leveloffset=+1]
 
 // include::0898-bitwise-ors-of-subarrays.adoc[leveloffset=+1]
 
