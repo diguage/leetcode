@@ -7,6 +7,22 @@ D瓜哥 <https://www.diguage.com/>
 
 include::0000-00-overview.adoc[leveloffset=+1]
 
+include::0000-00-note.adoc[leveloffset=+1]
+
+include::top-100-liked.adoc[leveloffset=+1]
+
+include::top-interview-150.adoc[leveloffset=+1]
+
+include::../logbook/202406.adoc[leveloffset=+1]
+
+include::../logbook/202503.adoc[leveloffset=+1]
+
+include::../logbook/202601.adoc[leveloffset=+1]
+
+include::../logbook/corrections.adoc[leveloffset=+1]
+
+include::../company/bytedance.adoc[leveloffset=+1]
+
 // Data Structure
 
 // :sectnums:
@@ -6599,19 +6615,3 @@ include::3186-maximum-total-damage-with-spell-casting.adoc[leveloffset=+1]
 // include::3252-premier-league-table-ranking-ii.adoc[leveloffset=+1]
 
 // include::3253-construct-string-with-minimum-cost-easy.adoc[leveloffset=+1]
-
-include::0000-00-note.adoc[leveloffset=+1]
-
-include::top-100-liked.adoc[leveloffset=+1]
-
-include::top-interview-150.adoc[leveloffset=+1]
-
-include::../logbook/202406.adoc[leveloffset=+1]
-
-include::../logbook/202503.adoc[leveloffset=+1]
-
-include::../logbook/202601.adoc[leveloffset=+1]
-
-include::../logbook/corrections.adoc[leveloffset=+1]
-
-include::../company/bytedance.adoc[leveloffset=+1]
