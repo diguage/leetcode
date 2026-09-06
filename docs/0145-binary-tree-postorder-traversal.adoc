@@ -1,27 +1,54 @@
 [#0145-binary-tree-postorder-traversal]
-= 145. Binary Tree Postorder Traversal
+= 145. 二叉树的后序遍历
 
-{leetcode}/problems/binary-tree-postorder-traversal/[LeetCode - Binary Tree Postorder Traversal^]
+https://leetcode.cn/problems/binary-tree-postorder-traversal/[LeetCode - 145. 二叉树的后序遍历^]
 
-Given a binary tree, return the _postorder_ traversal of its nodes' values.
+给你一棵二叉树的根节点 `root`，返回其节点值的 *后序遍历*。
 
-*Example:*
 
-[subs="verbatim,quotes,macros"]
-----
-*Input:* `[1,null,2,3]`
-   1
-    \
-     2
-    /
-   3
+*示例 1：*
 
-*Output:* `[3,2,1]`
-----
+**输入：**root = [1,null,2,3]
 
-*Follow up:* Recursive solution is trivial, could you do it iteratively?
+**输出：**[3,2,1]
 
-== 解题分析
+*解释：*
+
+image::images/0145-01.png[{image_attr}]
+
+*示例 2：*
+
+**输入：**root = [1,2,3,4,5,null,8,null,null,6,7,9]
+
+**输出：**[4,6,7,5,2,9,8,3,1]
+
+*解释：*
+
+image::images/0145-02.png[{image_attr}]
+
+*示例 3：*
+
+**输入：**root = []
+
+**输出：**[]
+
+*示例 4：*
+
+**输入：**root = [1]
+
+**输出：**[1]
+
+*提示：*
+
+* 树中节点的数目在范围 `[0, 100]` 内
+* `-100 \<= Node.val \<= 100`
+
+
+**进阶：**递归算法很简单，你可以通过迭代算法完成吗？
+
+
+== 思路分析
+
 
 这个题有些麻烦。
 
@@ -31,19 +58,9 @@ Given a binary tree, return the _postorder_ traversal of its nodes' values.
 
 甚至一个 `Stack`。
 
-[[src-0145]]
-[{java_src_attr}]
-----
-include::{sourcedir}/_0145_BinaryTreePostorderTraversal.java[tag=answer]
-----
+=== 迭代实现
 
-[{java_src_attr}]
-----
-include::{sourcedir}/_0145_BinaryTreePostorderTraversal_Recur.java[tag=answer]
-----
-
-== 迭代实现
-TIP: TODO：还需要加强迭代遍历的实现！
+下面终点讲解一下迭代实现。
 
 核心思想为：
 
@@ -51,26 +68,6 @@ TIP: TODO：还需要加强迭代遍历的实现！
 . 继续对这个节点的 *左子树* 重复 *过程1*，直到左子树为 *空*
 . 因为保存在 *栈* 中的节点都遍历了 *左子树* 但是没有遍历 *右子树*，所以对栈中节点 *出栈* 并对它的 *右子树* 重复 *过程1*
 . 直到遍历完所有节点
-
-image::images/0145-01.png[{image_attr}]
-
-image::images/0145-02.png[{image_attr}]
-
-image::images/0145-03.png[{image_attr}]
-
-image::images/0145-04.png[{image_attr}]
-
-image::images/0145-05.png[{image_attr}]
-
-image::images/0145-06.png[{image_attr}]
-
-image::images/0145-07.png[{image_attr}]
-
-image::images/0145-08.png[{image_attr}]
-
-image::images/0145-09.png[{image_attr}]
-
-image::images/0145-10.png[{image_attr}]
 
 image::images/0145-11.png[{image_attr}]
 
@@ -90,10 +87,59 @@ image::images/0145-18.png[{image_attr}]
 
 image::images/0145-19.png[{image_attr}]
 
+image::images/0145-20.png[{image_attr}]
+
+image::images/0145-21.png[{image_attr}]
+
+image::images/0145-22.png[{image_attr}]
+
+image::images/0145-23.png[{image_attr}]
+
+image::images/0145-24.png[{image_attr}]
+
+image::images/0145-25.png[{image_attr}]
+
+image::images/0145-26.png[{image_attr}]
+
+image::images/0145-27.png[{image_attr}]
+
+image::images/0145-28.png[{image_attr}]
+
+image::images/0145-29.png[{image_attr}]
+
+TIP: TODO：还需要加强迭代遍历的实现！
+
+
+[[src-0145]]
+[tabs]
+====
+一刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0145_BinaryTreePostorderTraversal.java[tag=answer]
+----
+--
+
+二刷(递归)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0145_BinaryTreePostorderTraversal_Recur.java[tag=answer]
+----
+--
+
+二刷(栈)::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0145_BinaryTreePostorderTraversal_Stack.java[tag=answer]
 ----
+--
+====
 
 
 == 思考题
@@ -101,6 +147,7 @@ include::{sourcedir}/_0145_BinaryTreePostorderTraversal_Stack.java[tag=answer]
 . 如何使用一个栈来解决这个问题？
 . 对比一下前根遍历和后跟遍历的区别。 参考： https://leetcode.cn/problems/binary-tree-postorder-traversal/solutions/12336/die-dai-jie-fa-shi-jian-fu-za-du-onkong-jian-fu-za/[145. 二叉树的后序遍历^]。
 
+== 参考资料
 
 
 
