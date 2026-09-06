@@ -35,7 +35,6 @@ image::images/0094-01.jpg[{image_attr}]
 
 *进阶:* 递归算法很简单，你可以通过迭代算法完成吗？
 
-
 == 思路分析
 
 
@@ -89,6 +88,15 @@ include::{sourcedir}/_0094_BinaryTreeInorderTraversal_Stack.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0094_BinaryTreeInorderTraversal_3.java[tag=answer]
+----
+--
+
+四刷（栈）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0094_BinaryTreeInorderTraversal_4.java[tag=answer]
 ----
 --
 ====

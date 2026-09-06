@@ -1276,6 +1276,16 @@ endif::[]
 |{doc_base_url}/0897-increasing-order-search-tree.adoc[题解]
 |✅ 深度优先遍历。
 
+|{counter:codes}
+|{leetcode_base_url}/binary-tree-inorder-traversal/[94. 二叉树的中序遍历^]
+|{doc_base_url}/0094-binary-tree-inorder-traversal.adoc[题解]
+|✅ 栈。
+
+|{counter:codes2503}
+|{leetcode_base_url}/binary-tree-preorder-traversal/[144. 二叉树的前序遍历^]
+|{doc_base_url}/0144-binary-tree-preorder-traversal.adoc[题解]
+|✅ 栈。
+
 
 |===
 
