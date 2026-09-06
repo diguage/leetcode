@@ -11,6 +11,8 @@ include::0000-00-overview.adoc[leveloffset=+1]
 
 // :sectnums:
 
+include::0000-recursion.adoc[leveloffset=+1]
+
 include::0000-data-structure-list.adoc[leveloffset=+1]
 
 include::0000-data-structure-stack.adoc[leveloffset=+1]
@@ -32,8 +34,6 @@ include::0000-sort.adoc[leveloffset=+1]
 // Pattern
 
 :sectnums:
-
-include::0000-00-recursion.adoc[leveloffset=+1]
 
 include::0000-01-difference-array.adoc[leveloffset=+1]
 
