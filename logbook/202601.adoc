@@ -1267,24 +1267,29 @@ endif::[]
 |✅ 优先队列或排序，也有贪心的意思。先统计次数，再根据次数从小到大删除。
 
 |{counter:codes}
-|{leetcode_base_url}/complete-binary-tree-inserter/[919. Complete Binary Tree Inserter^]
+|{leetcode_base_url}/complete-binary-tree-inserter/[919. 完全二叉树插入器^]
 |{doc_base_url}/0919-complete-binary-tree-inserter.adoc[题解]
 |✅ 广度优先队列。可以缓存要插入的父节点队列，加快速度。
 
 |{counter:codes}
-|{leetcode_base_url}/increasing-order-search-tree/[897. Increasing Order Search Tree^]
+|{leetcode_base_url}/increasing-order-search-tree/[897. 递增顺序搜索树^]
 |{doc_base_url}/0897-increasing-order-search-tree.adoc[题解]
 |✅ 深度优先遍历。
 
 |{counter:codes}
 |{leetcode_base_url}/binary-tree-inorder-traversal/[94. 二叉树的中序遍历^]
 |{doc_base_url}/0094-binary-tree-inorder-traversal.adoc[题解]
-|✅ 栈。
+|✅ 栈。使用栈完成遍历。
 
 |{counter:codes2503}
 |{leetcode_base_url}/binary-tree-preorder-traversal/[144. 二叉树的前序遍历^]
 |{doc_base_url}/0144-binary-tree-preorder-traversal.adoc[题解]
-|✅ 栈。
+|✅ 栈。使用栈完成遍历。
+
+|{counter:codes}
+|{leetcode_base_url}/binary-tree-postorder-traversal/[145. 二叉树的后序遍历^]
+|{doc_base_url}/0145-binary-tree-postorder-traversal.adoc[题解]
+|✅ 栈。使用栈完成遍历。
 
 
 |===

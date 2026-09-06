@@ -139,15 +139,26 @@ include::{sourcedir}/_0145_BinaryTreePostorderTraversal_Recur.java[tag=answer]
 include::{sourcedir}/_0145_BinaryTreePostorderTraversal_Stack.java[tag=answer]
 ----
 --
+
+三刷(栈)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0145_BinaryTreePostorderTraversal_4.java[tag=answer]
+----
+--
 ====
 
 
 == 思考题
 
-. 如何使用一个栈来解决这个问题？
+. 如何使用一个栈来解决这个问题？ 答：利用树中的指针作为标记符号来区分处理栈顶元素：如果没有子树，则出栈；如果有左子树，则将左子树加入栈；如果没有左子树，有右子树，则将右子树加入栈。
 . 对比一下前根遍历和后跟遍历的区别。 参考： https://leetcode.cn/problems/binary-tree-postorder-traversal/solutions/12336/die-dai-jie-fa-shi-jian-fu-za-du-onkong-jian-fu-za/[145. 二叉树的后序遍历^]。
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/binary-tree-postorder-traversal/solutions/367420/bang-ni-dui-er-cha-shu-bu-zai-mi-mang-che-di-chi-t/[145. 二叉树的后序遍历 - 帮你对二叉树不再迷茫，彻底吃透前中后序递归法（递归三部曲）和迭代法...^]
+. https://leetcode.cn/problems/binary-tree-postorder-traversal/solutions/431066/er-cha-shu-de-hou-xu-bian-li-by-leetcode-solution/[145. 二叉树的后序遍历 - 官方题解^]
+. https://leetcode.cn/problems/binary-tree-postorder-traversal/solutions/12336/die-dai-jie-fa-shi-jian-fu-za-du-onkong-jian-fu-za/[145. 二叉树的后序遍历 - 迭代解法，时间复杂度 O(n)，空间复杂度 O(n)^]
 
