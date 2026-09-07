@@ -99,6 +99,15 @@ include::{sourcedir}/_0094_BinaryTreeInorderTraversal_3.java[tag=answer]
 include::{sourcedir}/_0094_BinaryTreeInorderTraversal_4.java[tag=answer]
 ----
 --
+
+五刷（栈）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0094_BinaryTreeInorderTraversal_5.java[tag=answer]
+----
+--
 ====
 
 
