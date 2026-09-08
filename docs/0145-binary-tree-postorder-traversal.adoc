@@ -148,6 +148,15 @@ include::{sourcedir}/_0145_BinaryTreePostorderTraversal_Stack.java[tag=answer]
 include::{sourcedir}/_0145_BinaryTreePostorderTraversal_4.java[tag=answer]
 ----
 --
+
+四刷(Morris)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0145_BinaryTreePostorderTraversal_5.java[tag=answer]
+----
+--
 ====
 
 

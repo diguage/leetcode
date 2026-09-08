@@ -64,7 +64,7 @@ include::{sourcedir}/_0094_BinaryTreeInorderTraversal.java[tag=answer]
 ----
 --
 
-二刷（递归）::
+二刷(递归)::
 +
 --
 [{java_src_attr}]
@@ -73,7 +73,7 @@ include::{sourcedir}/_0094_BinaryTreeInorderTraversal_Recur.java[tag=answer]
 ----
 --
 
-二刷（栈）::
+二刷(栈)::
 +
 --
 [{java_src_attr}]
@@ -91,7 +91,7 @@ include::{sourcedir}/_0094_BinaryTreeInorderTraversal_3.java[tag=answer]
 ----
 --
 
-四刷（栈）::
+四刷(栈)::
 +
 --
 [{java_src_attr}]
@@ -100,7 +100,7 @@ include::{sourcedir}/_0094_BinaryTreeInorderTraversal_4.java[tag=answer]
 ----
 --
 
-五刷（栈）::
+五刷(Morris)::
 +
 --
 [{java_src_attr}]
