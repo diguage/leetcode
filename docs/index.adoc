@@ -880,7 +880,7 @@ include::0384-shuffle-an-array.adoc[leveloffset=+1]
 
 // include::0385-mini-parser.adoc[leveloffset=+1]
 
-// include::0386-lexicographical-numbers.adoc[leveloffset=+1]
+include::0386-lexicographical-numbers.adoc[leveloffset=+1]
 
 include::0387-first-unique-character-in-a-string.adoc[leveloffset=+1]
 
