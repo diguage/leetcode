@@ -1311,6 +1311,11 @@ endif::[]
 |{doc_base_url}/0386-lexicographical-numbers.adoc[题解]
 |❌ 深度优先搜索或字典树。
 
+|{counter:codes}
+|{leetcode_base_url}/daily-temperatures/[739. Daily Temperatures^]
+|{doc_base_url}/0739-daily-temperatures.adoc[题解]
+|⭕️ 单调栈。
+
 
 |===
 
