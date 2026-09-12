@@ -1321,6 +1321,11 @@ endif::[]
 |{doc_base_url}/1143-longest-common-subsequence.adoc[题解]
 |✅ 动态规划。
 
+|{counter:codes2503}
+|{leetcode_base_url}/rotting-oranges/[994. 腐烂的橘子^]
+|{doc_base_url}/0994-rotting-oranges.adoc[题解]
+|✅ 广度优先遍历。
+
 
 |===
 
