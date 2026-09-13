@@ -29,7 +29,7 @@ https://leetcode.cn/problems/partition-labels/[LeetCode - 763. 划分字母区�
 
 *提示：*
 
-* `+1 <= s.length <= 500+`
+* `1 \<= s.length \<= 500`
 * `s` 仅由小写英文字母组成
 
 
@@ -53,14 +53,14 @@ include::{sourcedir}/_0763_PartitionLabels.java[tag=answer]
 ----
 --
 
-// 二刷::
-// +
-// --
-// [{java_src_attr}]
-// ----
-// include::{sourcedir}/_0763_PartitionLabels_2.java[tag=answer]
-// ----
-// --
+二刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0763_PartitionLabels_2.java[tag=answer]
+----
+--
 ====
 
 

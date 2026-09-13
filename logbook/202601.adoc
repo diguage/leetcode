@@ -1326,6 +1326,11 @@ endif::[]
 |{doc_base_url}/0994-rotting-oranges.adoc[题解]
 |✅ 广度优先遍历。
 
+|{counter:codes2503}
+|{leetcode_base_url}/partition-labels/[763. 划分字母区间^]
+|{doc_base_url}/0763-partition-labels.adoc[题解]
+|✅ 区间合并。
+
 
 |===
 
