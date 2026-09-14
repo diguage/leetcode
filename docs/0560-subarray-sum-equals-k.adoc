@@ -3,7 +3,7 @@
 
 https://leetcode.cn/problems/subarray-sum-equals-k/[LeetCode - 560. 和为 K 的子数组^]
 
-给你一个整数数组 `nums` 和一个整数 `k` ，请你统计并返回 _该数组中和为 `k` 的子数组的个数_。
+给你一个整数数组 `nums` 和一个整数 `k`，请你统计并返回 _该数组中和为 `k` 的子数组的个数_。
 
 子数组是数组中元素的连续非空序列。
 
@@ -24,7 +24,7 @@ https://leetcode.cn/problems/subarray-sum-equals-k/[LeetCode - 560. 和为 K 的
 *提示：*
 
 * `1 \<= nums.length \<= 2 * 10^4^`
-* `+-1000 <= nums[i] <= 1000+`
+* `-1000 \<= nums[i] \<= 1000`
 * `-10^7^ \<= k \<= 10^7^`
 
 
@@ -96,6 +96,15 @@ include::{sourcedir}/_0560_SubarraySumEqualsK_3.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0560_SubarraySumEqualsK_4.java[tag=answer]
+----
+--
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0560_SubarraySumEqualsK_5.java[tag=answer]
 ----
 --
 ====

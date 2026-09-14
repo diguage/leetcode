@@ -776,7 +776,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/subarray-sum-equals-k/[560. 和为 K 的子数组]
 |{doc_base_url}/0560-subarray-sum-equals-k.adoc[题解]
-|❌
+|❌ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree/[236. 二叉树的最近公共祖先]
