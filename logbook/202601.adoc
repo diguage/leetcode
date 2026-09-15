@@ -1336,6 +1336,11 @@ endif::[]
 |{doc_base_url}/0560-subarray-sum-equals-k.adoc[题解]
 |⭕️ 前缀和。需要记录每一个和的出现次数。
 
+|{counter:codes}
+|{leetcode_base_url}/find-all-anagrams-in-a-string/[438. Find All Anagrams in a String^]
+|{doc_base_url}/0438-find-all-anagrams-in-a-string.adoc[题解]
+|✅ 滑动窗口。定长滑动窗口
+
 
 |===
 
