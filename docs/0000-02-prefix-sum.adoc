@@ -1,9 +1,18 @@
 [#0000-02-prefix-sum]
 = Prefix Sum 前缀和
 
-image::images/prefix-sum.svg[{image_attr}]
+缀和可以简单理解为「数列的前 n 项的和」。具体过程如图所示：
+
+image::images/prefix-sum.svg[title="前缀和",alt="前缀和",{image_attr}]
+
+这是一种重要的预处理方式，也就是需要额外的空间并且提前计算好这些值。如果使用得当，能大大降低查询的时间复杂度。
 
 image::images/0303-11.png[{image_attr}]
+
+[NOTE]
+====
+前缀和不仅仅可以使用数组来处理，还可以使用 `Map` 来处理，比如： xref:0560-subarray-sum-equals-k.adoc[560. Subarray Sum Equals K]。
+====
 
 
 == 经典题目
