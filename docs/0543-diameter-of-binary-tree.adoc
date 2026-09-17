@@ -61,6 +61,15 @@ include::{sourcedir}/_0543_DiameterOfBinaryTree.java[tag=answer]
 include::{sourcedir}/_0543_DiameterOfBinaryTree_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0543_DiameterOfBinaryTree_3.java[tag=answer]
+----
+--
 ====
 
 
