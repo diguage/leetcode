@@ -476,7 +476,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/partition-equal-subset-sum/[416. 分割等和子集^]
 |{doc_base_url}/0416-partition-equal-subset-sum.adoc[题解]
-|❌ ⭕️ ✅
+|❌ ⭕️ ✅ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/longest-common-subsequence/[1143. 最长公共子序列^]
