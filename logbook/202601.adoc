@@ -1356,6 +1356,11 @@ endif::[]
 |{doc_base_url}/0416-partition-equal-subset-sum.adoc[题解]
 |⭕️ 动态规划。0/1 背包问题。好久不做，手生了。
 
+|{counter:codes2503}
+|{leetcode_base_url}/decode-string/[394. 字符串解码^]
+|{doc_base_url}/0394-decode-string.adoc[题解]
+|✅ 栈。使用遍历+栈来实现。
+
 |===
 
 

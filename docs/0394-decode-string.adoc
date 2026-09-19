@@ -82,6 +82,15 @@ include::{sourcedir}/_0394_DecodeString_2.java[tag=answer]
 include::{sourcedir}/_0394_DecodeString_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0394_DecodeString_4.java[tag=answer]
+----
+--
 ====
 
 
