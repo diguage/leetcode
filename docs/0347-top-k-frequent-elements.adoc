@@ -83,6 +83,15 @@ include::{sourcedir}/_0347_TopKFrequentElements_3.java[tag=answer]
 include::{sourcedir}/_0347_TopKFrequentElements_4.java[tag=answer]
 ----
 --
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0347_TopKFrequentElements_5.java[tag=answer]
+----
+--
 ====
 
 

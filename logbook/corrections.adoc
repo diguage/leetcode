@@ -496,7 +496,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/top-k-frequent-elements/[347. 前 K 个高频元素^]
 |{doc_base_url}/0347-top-k-frequent-elements.adoc[题解]
-|✅ ✅ ⭕️
+|✅ ✅ ⭕️ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/find-the-duplicate-number/[287. 寻找重复数^]
