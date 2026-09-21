@@ -66,7 +66,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/coin-change/[322. 零钱兑换]
 |{doc_base_url}/0322-coin-change.adoc[题解]
-|⭕️ ✅ ✅ ✅
+|⭕️ ✅ ✅ ✅ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/subsets-ii/[90. 子集 II]

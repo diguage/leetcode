@@ -164,6 +164,15 @@ include::{sourcedir}/_0322_CoinChange_5.java[tag=answer]
 include::{sourcedir}/_0322_CoinChange_6.java[tag=answer]
 ----
 --
+
+七刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0322_CoinChange_7.java[tag=answer]
+----
+--
 ====
 
 == 思考题
