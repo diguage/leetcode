@@ -51,6 +51,15 @@ include::{sourcedir}/_0279_PerfectSquares.java[tag=answer]
 include::{sourcedir}/_0279_PerfectSquares_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0279_PerfectSquares_3.java[tag=answer]
+----
+--
 ====
 
 

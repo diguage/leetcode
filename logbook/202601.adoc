@@ -1381,6 +1381,11 @@ endif::[]
 |{doc_base_url}/0287-find-the-duplicate-number.adoc[题解]
 |✅ 循环排序。
 
+|{counter:codes2503}
+|{leetcode_base_url}/perfect-squares/[279. 完全平方数^]
+|{doc_base_url}/0279-perfect-squares.adoc[题解]
+|❌ 动态规划。完全背包问题。完全没想到可以用动态规划来解决。
+
 |===
 
 

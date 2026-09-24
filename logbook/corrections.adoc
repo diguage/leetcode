@@ -506,7 +506,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/perfect-squares/[279. 完全平方数^]
 |{doc_base_url}/0279-perfect-squares.adoc[题解]
-|❌
+|❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/search-a-2d-matrix-ii/[240. 搜索二维矩阵 II^]
