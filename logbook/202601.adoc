@@ -1386,6 +1386,11 @@ endif::[]
 |{doc_base_url}/0279-perfect-squares.adoc[题解]
 |❌ 动态规划。完全背包问题。完全没想到可以用动态规划来解决。
 
+|{counter:codes}
+|{leetcode_base_url}/search-a-2d-matrix-ii/[240. Search a 2D Matrix II^]
+|{doc_base_url}/0240-search-a-2d-matrix-ii.adoc[题解]
+|✅ 贪心算法。虽然可以对每行或者每列做二分查找，但是使用贪心算法更好。
+
 |===
 
 

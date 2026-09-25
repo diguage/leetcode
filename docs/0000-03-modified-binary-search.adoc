@@ -31,7 +31,7 @@ image::images/modified-binary-search.jpeg[{image_attr}]
 == 二维二分查找
 
 . xref:0074-search-a-2d-matrix.adoc[74. Search a 2D Matrix]
-. xref:0240-search-a-2d-matrix-ii.adoc[240. Search a 2D Matrix II]
+. xref:0240-search-a-2d-matrix-ii.adoc[240. Search a 2D Matrix II]  -- 对每行或每列做二分查找。
 
 == 疑问点
 
