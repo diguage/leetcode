@@ -1391,6 +1391,11 @@ endif::[]
 |{doc_base_url}/0240-search-a-2d-matrix-ii.adoc[题解]
 |✅ 贪心算法。虽然可以对每行或者每列做二分查找，但是使用贪心算法更好。
 
+|{counter:codes2503}
+|{leetcode_base_url}/sliding-window-maximum/[239. 滑动窗口最大值^]
+|{doc_base_url}/0239-sliding-window-maximum.adoc[题解]
+|✅ 单调栈。适用单调递增栈，当栈底在 `k` 之外时，删除栈底。
+
 |===
 
 
