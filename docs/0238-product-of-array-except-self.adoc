@@ -68,6 +68,15 @@ include::{sourcedir}/_0238_ProductOfArrayExceptSelf_2.java[tag=answer]
 include::{sourcedir}/_0238_ProductOfArrayExceptSelf_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0238_ProductOfArrayExceptSelf_4.java[tag=answer]
+----
+--
 ====
 
 该题的思路也适用于 xref:0724-find-pivot-index.adoc[724. Find Pivot Index]。

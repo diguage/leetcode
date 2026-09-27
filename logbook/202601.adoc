@@ -1396,6 +1396,11 @@ endif::[]
 |{doc_base_url}/0239-sliding-window-maximum.adoc[题解]
 |✅ 单调栈。适用单调递增栈，当栈底在 `k` 之外时，删除栈底。
 
+|{counter:codes}
+|{leetcode_base_url}/product-of-array-except-self/[238. Product of Array Except Self^]
+|{doc_base_url}/0238-product-of-array-except-self.adoc[题解]
+|✅ 前缀和。分区计算“前缀积”和“后缀积”，然后再计算结果。
+
 |===
 
 
