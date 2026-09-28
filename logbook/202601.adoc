@@ -1401,6 +1401,11 @@ endif::[]
 |{doc_base_url}/0238-product-of-array-except-self.adoc[题解]
 |✅ 前缀和。分区计算“前缀积”和“后缀积”，然后再计算结果。
 
+|{counter:codes2503}
+|{leetcode_base_url}/lowest-common-ancestor-of-a-binary-tree/[236. 二叉树的最近公共祖先^]
+|{doc_base_url}/0236-lowest-common-ancestor-of-a-binary-tree.adoc[题解]
+|✅ 深度优先搜索。找到当前节点和左右节点匹配，则返回；如果分属两个子树，则是当前节点。
+
 |===
 
 
