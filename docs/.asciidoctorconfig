@@ -2,6 +2,8 @@
 // for more information see:
 // https://intellij-asciidoc-plugin.ahus1.de/docs/users-guide/features/advanced/asciidoctorconfig-file.html
 
+:doctype: book
+
 :pdf-fontsdir: {asciidoctorconfigdir}/../cfg/fonts
 :pdf-stylesdir: {asciidoctorconfigdir}/../cfg/theme
 :pdf-theme: Source
