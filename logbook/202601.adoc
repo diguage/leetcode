@@ -1406,6 +1406,11 @@ endif::[]
 |{doc_base_url}/0236-lowest-common-ancestor-of-a-binary-tree.adoc[题解]
 |✅ 深度优先搜索。找到当前节点和左右节点匹配，则返回；如果分属两个子树，则是当前节点。
 
+|{counter:codes2503}
+|{leetcode_base_url}/lru-cache/[146. LRU 缓存^]
+|{doc_base_url}/0146-lru-cache.adoc[题解]
+|✅ 哈希及链表。
+
 |===
 
 

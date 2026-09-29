@@ -81,6 +81,15 @@ include::{sourcedir}/_0146_LRUCache_2.java[tag=answer]
 include::{sourcedir}/_0146_LRUCache_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0146_LRUCache_4.java[tag=answer]
+----
+--
 ====
 
 

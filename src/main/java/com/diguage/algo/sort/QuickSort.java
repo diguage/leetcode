@@ -51,8 +51,52 @@ public class QuickSort {
     array[j] = temp;
   }
 
+  // 针对正数数组的快排
+  public void quickSort(int[] array) {
+    sort(array, 0, array.length - 1);
+  }
+
+  public void sort(int[] array, int lo, int hi) {
+    if (lo >= hi) {
+      return;
+    }
+    int idx = partition(array, lo, hi);
+    sort(array, lo, idx - 1);
+    sort(array, idx + 1, hi);
+  }
+
+  private int partition(int[] array, int lo, int hi) {
+    int l = lo, h = hi + 1;
+    int pivot = array[lo];
+    while (true) {
+      while (array[++l] < pivot) {
+        if (l == hi) {
+          break;
+        }
+      }
+      while (pivot < array[--h]) {
+        if (h == lo) {
+          break;
+        }
+      }
+      if (l >= h) {
+        break;
+      }
+      swap(array, l, h);
+    }
+    swap(array, lo, h);
+    return h;
+  }
+
+  private void swap(int[] array, int i, int j) {
+    int temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+
   // end::answer[]
+
   static void main() {
-    new QuickSort().quickSort(new Integer[]{5, 9, 6, 2, 8, 3, 7, 1, 4});
+    new QuickSort().quickSort(new int[]{5, 9, 6, 2, 8, 3, 7, 1, 4});
   }
 }
