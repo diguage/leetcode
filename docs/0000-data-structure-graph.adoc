@@ -1,5 +1,5 @@
 [#0000-data-structure-graph]
-= Graph 图
+= 8. Graph 图
 
 == 单源最短路径（Single-Source Shortest Path, SSSP）问题
 

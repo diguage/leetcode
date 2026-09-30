@@ -30,7 +30,8 @@ include::../company/bytedance.adoc[leveloffset=+1]
 // [#data-structure-and-algorithm]
 // = 数据结构与算法
 
-:sectnums:
+// https://asciidoctor.zulipchat.com/#narrow/channel/279642-users/topic/How.20to.20make.20the.20chapter.20number.20start.20from.201.20in.20each.20section.3F/near/627720520 -- 没办法实现期望的章节序号设置办法。只能手搓部分章节序号。
+// :sectnums:
 
 include::0000-recursion.adoc[leveloffset=+1]
 
@@ -50,12 +51,11 @@ include::0000-data-structure-graph.adoc[leveloffset=+1]
 
 include::0000-sort.adoc[leveloffset=+1]
 
+// :sectnums!:
+
 // [#algorithm-pattern]
 // = 算法模式
-:sectnums!:
-:sectnums!:
 
-:sectnums!:
 :sectnums:
 
 include::0000-01-difference-array.adoc[leveloffset=+1]
