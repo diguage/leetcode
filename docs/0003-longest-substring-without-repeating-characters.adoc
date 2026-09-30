@@ -46,6 +46,8 @@ https://leetcode.cn/problems/longest-substring-without-repeating-characters/[Lee
 
 image::images/0003-11.png[{image_attr}]
 
+[carousel{carousel_attr}]
+====
 image::images/0003-01.png[{image_attr}]
 
 image::images/0003-02.png[{image_attr}]
@@ -65,6 +67,7 @@ image::images/0003-08.png[{image_attr}]
 image::images/0003-09.png[{image_attr}]
 
 image::images/0003-10.png[{image_attr}]
+====
 
 [[src-0003]]
 [tabs]

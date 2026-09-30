@@ -53,6 +53,7 @@ public class _0973_KClosestPointsToOrigin {
     points[b] = tmp;
   }
   // end::answer[]
+
 //  public int[][] kClosest(int[][] points, int k) {
 //    quickSort(points, k, 0, points.length - 1);
 //    int[][] result = new int[k][2];
@@ -91,7 +92,6 @@ public class _0973_KClosestPointsToOrigin {
 //      quickSort(nums, k, l, right);
 //    }
 //  }
-  // end::answer[]
 
   static void main() {
     new _0973_KClosestPointsToOrigin()

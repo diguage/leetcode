@@ -65,8 +65,7 @@ image::images/0236-19.png[{image_attr}]
 
 image::images/0236-00.png[{image_attr}]
 
-[#0236-carousel]
-[carousel]
+[carousel#0236-carousel{carousel_attr}]
 ====
 image::images/0236-01.png[{image_attr}]
 

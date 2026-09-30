@@ -5,6 +5,7 @@ import com.diguage.algo.util.TreeNode;
 import java.util.Objects;
 
 public class _0606_ConstructStringFromBinaryTree {
+  // tag::answer[]
   /**
    * @author D瓜哥 · https://www.diguage.com
    * @since 2026-04-03 08:56:49

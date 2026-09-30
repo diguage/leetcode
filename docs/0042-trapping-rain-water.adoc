@@ -36,6 +36,8 @@ image::images/0042-00.png[{image_attr}]
 
 单调栈解法图示：
 
+[carousel{carousel_attr}]
+====
 image::images/0042-01.png[{image_attr}]
 
 image::images/0042-02.png[{image_attr}]
@@ -47,6 +49,7 @@ image::images/0042-04.png[{image_attr}]
 image::images/0042-05.png[{image_attr}]
 
 image::images/0042-06.png[{image_attr}]
+====
 
 
 [[src-0042]]

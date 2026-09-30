@@ -11,6 +11,7 @@
 :icons: font
 :image_attr: align="center",width=95%
 :diagram_attr: format=svg,align="center",width=95%
+:carousel_attr: %autoplay
 
 :sourcedir: {asciidoctorconfigdir}/../src/main/java/com/diguage/algo/leetcode
 :labdir: {asciidoctorconfigdir}/../src/test/java/com/diguage/labs

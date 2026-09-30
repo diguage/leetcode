@@ -39,7 +39,6 @@ medianFinder.findMedian(); // return 2.0
 * 最多 `5 * 10^4^` 次调用 `addNum` 和 `findMedian`
 
 
-[#思路分析]
 == 思路分析
 
 双堆模式。每次添加，都要在两个堆之间倒腾一下，这样才能保证，小的沉下去，大的升上去。
