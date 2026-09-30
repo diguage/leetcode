@@ -63,9 +63,11 @@ D瓜哥的思路：先找出一条从根节点到某个节点的路径；然后�
 
 image::images/0236-19.png[{image_attr}]
 
-
 image::images/0236-00.png[{image_attr}]
 
+[#0236-carousel]
+[carousel]
+====
 image::images/0236-01.png[{image_attr}]
 
 image::images/0236-02.png[{image_attr}]
@@ -101,7 +103,7 @@ image::images/0236-16.png[{image_attr}]
 image::images/0236-17.png[{image_attr}]
 
 image::images/0236-18.png[{image_attr}]
-
+====
 
 [[src-0236]]
 [tabs]

@@ -30,6 +30,7 @@
     <asciidoctor-diagram.version>3.2.1</asciidoctor-diagram.version>
     <asciidoctor-comment-links.version>0.0.2</asciidoctor-comment-links.version>
     <asciidoctor-multipage.version>0.0.19</asciidoctor-multipage.version>
+    <asciidoctor-carousels.version>0.1.0.alpha.3</asciidoctor-carousels.version>
     <asciidoctor-tabs.version>1.0.0.beta.6</asciidoctor-tabs.version>
     <rouge.version>4.6.1</rouge.version>
     <asciidoctor-kroki.version>1.0.1</asciidoctor-kroki.version>
@@ -480,6 +481,18 @@
           </exclusions>
         </dependency>
         <dependency>
+          <groupId>rubygems</groupId>
+          <artifactId>asciidoctor-carousels</artifactId>
+          <version>${asciidoctor-carousels.version}</version>
+          <type>gem</type>
+          <exclusions>
+            <exclusion>
+              <groupId>rubygems</groupId>
+              <artifactId>asciidoctor</artifactId>
+            </exclusion>
+          </exclusions>
+        </dependency>
+        <dependency>
           <groupId>org.jruby</groupId>
           <artifactId>jruby</artifactId>
         </dependency>
@@ -887,6 +900,7 @@
                     <require>asciidoctor-kroki</require>
                     <require>asciidoctor-multipage</require>
                     <require>asciidoctor-comment-links</require>
+                    <require>asciidoctor-carousels</require>
                   </requires>
                   <outputDirectory>${project.build.directory}/docs/multipage</outputDirectory>
                   <attributes>
