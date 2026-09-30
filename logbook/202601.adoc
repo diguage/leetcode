@@ -1411,6 +1411,11 @@ endif::[]
 |{doc_base_url}/0146-lru-cache.adoc[题解]
 |✅ 哈希及链表。
 
+|{counter:codes2503}
+|{leetcode_base_url}/palindrome-linked-list/[234. 回文链表^]
+|{doc_base_url}/0234-palindrome-linked-list.adoc[题解]
+|✅ 递归。使用递归并不高效，使用快慢指针，把后半部分反转再比较更高效。
+
 |===
 
 

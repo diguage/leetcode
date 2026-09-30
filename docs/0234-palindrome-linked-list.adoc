@@ -61,6 +61,15 @@ include::{sourcedir}/_0234_PalindromeLinkedList.java[tag=answer]
 include::{sourcedir}/_0234_PalindromeLinkedList_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0234_PalindromeLinkedList_3.java[tag=answer]
+----
+--
 ====
 
 
