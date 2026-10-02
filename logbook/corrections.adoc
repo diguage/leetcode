@@ -36,7 +36,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/kth-largest-element-in-an-array/[215. 数组中的第K个最大元素^]
 |{doc_base_url}/0215-kth-largest-element-in-an-array.adoc[题解]
-|❌ ⭕️ ✅ ⭕️ ⭕️
+|❌ ⭕️ ✅ ⭕️ ⭕️ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/first-missing-positive/[41. 缺失的第一个正数^]
