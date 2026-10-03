@@ -118,6 +118,7 @@ public class _0208_ImplementTriePrefixTree {
             return true;
         }
     }
+  // end::answer[]
 
     private void test() {
         Trie trie = new Trie();
@@ -128,9 +129,6 @@ public class _0208_ImplementTriePrefixTree {
         trie.insert("app");
         System.out.println(trie.search("app"));
     }
-
-  // end::answer[]
-
 
     public static void main(String[] args) {
         _0208_ImplementTriePrefixTree solution = new _0208_ImplementTriePrefixTree();

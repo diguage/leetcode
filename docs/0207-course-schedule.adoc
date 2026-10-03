@@ -1,7 +1,7 @@
 [#0207-course-schedule]
 = 207. 课程表
 
-https://leetcode.cn/problems/course-schedule/[LeetCode - 207. 课程表 ^]
+https://leetcode.cn/problems/course-schedule/[LeetCode - 207. 课程表^]
 
 你这个学期必须选修 `numCourses` 门课程，记为 `0` 到 `numCourses - 1` 。
 
@@ -43,6 +43,21 @@ TODO: 研究一下图相关算法和拓扑排序。
 
 拓扑排序出来的结果是应该不是有序（升序或降序）。只是一个前后顺序。
 
+[carousel{carousel_attr}]
+====
+image::images/0207-11.png[{image_attr}]
+
+image::images/0207-12.png[{image_attr}]
+
+image::images/0207-13.png[{image_attr}]
+
+image::images/0207-14.png[{image_attr}]
+
+image::images/0207-15.png[{image_attr}]
+
+image::images/0207-16.png[{image_attr}]
+====
+
 [[src-0207]]
 [tabs]
 ====
@@ -70,6 +85,15 @@ include::{sourcedir}/_0207_CourseSchedule_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0207_CourseSchedule_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0207_CourseSchedule_4.java[tag=answer]
 ----
 --
 ====
