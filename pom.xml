@@ -16,21 +16,21 @@
   <properties>
     <checkstyle.version>12.1.2</checkstyle.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
-    <maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
+    <maven-compiler-plugin.version>3.16.0</maven-compiler-plugin.version>
     <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
     <maven-enforcer-plugin.version>3.6.3</maven-enforcer-plugin.version>
-    <maven-surefire-plugin.version>3.5.6</maven-surefire-plugin.version>
-    <extra-enforcer-rules.version>1.12.0</extra-enforcer-rules.version>
+    <maven-surefire-plugin.version>3.6.0</maven-surefire-plugin.version>
+    <extra-enforcer-rules.version>1.12.1</extra-enforcer-rules.version>
     <fizzed-watcher-maven-plugin.version>1.0.6</fizzed-watcher-maven-plugin.version>
 
     <asciidoctorj.version>3.0.1</asciidoctorj.version>
-    <asciidoctorj-pdf.version>2.3.23</asciidoctorj-pdf.version>
+    <asciidoctorj-pdf.version>2.3.27</asciidoctorj-pdf.version>
     <asciidoctorj-epub3.version>2.2.0</asciidoctorj-epub3.version>
     <asciidoctorj-diagram.version>3.2.1</asciidoctorj-diagram.version>
     <asciidoctor-diagram.version>3.2.1</asciidoctor-diagram.version>
     <asciidoctor-comment-links.version>0.0.2</asciidoctor-comment-links.version>
     <asciidoctor-multipage.version>0.0.19</asciidoctor-multipage.version>
-    <asciidoctor-carousels.version>0.1.0.alpha.3</asciidoctor-carousels.version>
+    <asciidoctor-carousels.version>0.1.0.alpha.5</asciidoctor-carousels.version>
     <asciidoctor-tabs.version>1.0.0.beta.6</asciidoctor-tabs.version>
     <rouge.version>4.6.1</rouge.version>
     <asciidoctor-kroki.version>1.0.1</asciidoctor-kroki.version>
@@ -40,7 +40,7 @@
     <gem-maven-plugin.version>3.0.6</gem-maven-plugin.version>
     <download-maven-plugin.version>1.13.0</download-maven-plugin.version>
     <exec-maven-plugin.version>3.6.3</exec-maven-plugin.version>
-    <jruby.version>10.1.1.0</jruby.version>
+    <jruby.version>10.1.2.0</jruby.version>
     <gem.path>${project.basedir}/cfg/gems</gem.path>
     <pdf-fonts.path>${user.home}/.fonts</pdf-fonts.path>
     <pdf-fonts.baseuri>https://github.com/diguage/open-fonts/releases/download/latest</pdf-fonts.baseuri>
