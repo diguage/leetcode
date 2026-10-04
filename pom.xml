@@ -32,7 +32,7 @@
     <asciidoctor-multipage.version>0.0.19</asciidoctor-multipage.version>
     <asciidoctor-carousels.version>0.1.0.alpha.6</asciidoctor-carousels.version>
     <asciidoctor-tabs.version>1.0.0.beta.6</asciidoctor-tabs.version>
-    <rouge.version>4.6.1</rouge.version>
+    <rouge.version>5.1.0</rouge.version>
     <asciidoctor-kroki.version>1.0.1</asciidoctor-kroki.version>
     <asciidoclet.version>2.0.0</asciidoclet.version>
     <asciidoctor-maven-plugin.version>3.2.0</asciidoctor-maven-plugin.version>
