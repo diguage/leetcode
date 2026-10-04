@@ -28,7 +28,7 @@
     <asciidoctorj-epub3.version>2.2.0</asciidoctorj-epub3.version>
     <asciidoctorj-diagram.version>3.2.1</asciidoctorj-diagram.version>
     <asciidoctor-diagram.version>3.2.1</asciidoctor-diagram.version>
-    <asciidoctor-comment-links.version>0.0.2</asciidoctor-comment-links.version>
+    <asciidoctor-comment-links.version>0.1.0</asciidoctor-comment-links.version>
     <asciidoctor-multipage.version>0.0.19</asciidoctor-multipage.version>
     <asciidoctor-carousels.version>0.1.0.alpha.6</asciidoctor-carousels.version>
     <asciidoctor-tabs.version>1.0.0.beta.6</asciidoctor-tabs.version>
