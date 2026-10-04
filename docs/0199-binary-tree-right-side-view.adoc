@@ -48,6 +48,8 @@ image::images/0199-01.jpg[{image_attr}]
 
 其实，可以不用 `Map`，直接用 `List` 即可。不过，要注意**先根遍历**和**中根遍历**的区别：先根遍历每层都是按顺序从上到下添加到 `List`；而中根遍历，每次都是最下层到，所以，要添加 `null` 占位符把 `List` 给撑起来，后续直接按照坐标设置。
 
+注意：递归时，先右后左，只需要添加，无需更新；先左后右，则需要不断对应层级的元素。
+
 另外，仔细体会一下“左中右遍历”和“右中左遍历”的区别。
 
 右中左深度优先遍历
@@ -94,6 +96,15 @@ include::{sourcedir}/_0199_BinaryTreeRightSideView_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0199_BinaryTreeRightSideView_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0199_BinaryTreeRightSideView_4.java[tag=answer]
 ----
 --
 ====
