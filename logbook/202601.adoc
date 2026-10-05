@@ -1436,6 +1436,11 @@ endif::[]
 |{doc_base_url}/0199-binary-tree-right-side-view.adoc[题解]
 |✅ 深度优先遍历。递归时，先右后左，只需要添加，无需更新；先左后右，则需要不断对应层级的元素。
 
+|{counter:codes2503}
+|{leetcode_base_url}/house-robber/[198. 打家劫舍^]
+|{doc_base_url}/0198-house-robber.adoc[题解]
+|✅ 动态规划
+
 |===
 
 

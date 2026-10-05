@@ -58,6 +58,23 @@ https://leetcode.cn/problems/house-robber/[LeetCode - 198. 打家劫舍^]
 
 使用递归、递归+备忘录、自底向上+备忘录，自底向上+简化备忘录四种方式分别实现。
 
+[carousel{carousel_attr}]
+====
+image::images/0198-11.png[{image_attr}]
+
+image::images/0198-12.png[{image_attr}]
+
+image::images/0198-13.png[{image_attr}]
+
+image::images/0198-14.png[{image_attr}]
+
+image::images/0198-15.png[{image_attr}]
+
+image::images/0198-16.png[{image_attr}]
+
+image::images/0198-17.png[{image_attr}]
+====
+
 
 [[src-0198]]
 [tabs]
@@ -95,6 +112,15 @@ include::{sourcedir}/_0198_HouseRobber_3.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0198_HouseRobber_4.java[tag=answer]
+----
+--
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0198_HouseRobber_5.java[tag=answer]
 ----
 --
 ====
