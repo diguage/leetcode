@@ -93,6 +93,15 @@ include::{sourcedir}/_0189_RotateArray_3.java[tag=answer]
 include::{sourcedir}/_0189_RotateArray_4.java[tag=answer]
 ----
 --
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0189_RotateArray_5.java[tag=answer]
+----
+--
 ====
 
 
