@@ -1446,6 +1446,11 @@ endif::[]
 |{doc_base_url}/0189-rotate-array.adoc[题解]
 |✅ 双指针。也有一些技巧：AB → rev(A)rev(B) → rev(rev(A)rev(B)) → BA。
 
+|{counter:codes2503}
+|{leetcode_base_url}/majority-element/[169. 多数元素^]
+|{doc_base_url}/0169-majority-element.adoc[题解]
+|⭕️ 数学。摩尔投票法：从零开始，相同就增加，不同就减少，循环往复。
+
 |===
 
 

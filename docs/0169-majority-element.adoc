@@ -1,7 +1,7 @@
 [#0169-majority-element]
 = 169. 多数元素
 
-https://leetcode.cn/problems/majority-element/[LeetCode - 169. 多数元素 ^]
+https://leetcode.cn/problems/majority-element/[LeetCode - 169. 多数元素^]
 
 给定一个大小为 `n` 的数组 `nums`，返回其中的多数元素。多数元素是指在数组中出现次数 *大于* `+⌊ n/2 ⌋+` 的元素。
 
@@ -34,9 +34,42 @@ https://leetcode.cn/problems/majority-element/[LeetCode - 169. 多数元素 ^]
 
 哈希计数法最易想到，摩尔投票法最妙！
 
+摩尔投票法：从零开始，相同就增加，不同就减少，循环往复。
+
 摩尔投票法更刺激的使用在 xref:0229-majority-element-ii.adoc[229. 多数元素 II]。
 
 image::images/0169-01.png[{image_attr}]
+
+[carousel{carousel_attr}]
+====
+image::images/0169-11.png[{image_attr}]
+
+image::images/0169-12.png[{image_attr}]
+
+image::images/0169-13.png[{image_attr}]
+
+image::images/0169-14.png[{image_attr}]
+
+image::images/0169-15.png[{image_attr}]
+
+image::images/0169-16.png[{image_attr}]
+
+image::images/0169-17.png[{image_attr}]
+
+image::images/0169-18.png[{image_attr}]
+
+image::images/0169-19.png[{image_attr}]
+
+image::images/0169-20.png[{image_attr}]
+
+image::images/0169-21.png[{image_attr}]
+
+image::images/0169-22.png[{image_attr}]
+
+image::images/0169-23.png[{image_attr}]
+
+image::images/0169-24.png[{image_attr}]
+====
 
 
 [[src-0169]]
@@ -66,6 +99,15 @@ include::{sourcedir}/_0169_MajorityElement_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0169_MajorityElement_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0169_MajorityElement_4.java[tag=answer]
 ----
 --
 ====

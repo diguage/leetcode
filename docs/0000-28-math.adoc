@@ -61,6 +61,8 @@ xref:0137-single-number-ii.adoc[137. 只出现一次的数字 II]
 
 === Boyer-Moore 投票算法
 
+摩尔投票法：从零开始，相同就增加，不同就减少，循环往复。
+
 . xref:0169-majority-element.adoc[169. 多数元素]
 . xref:0229-majority-element-ii.adoc[229. 多数元素 II]
 

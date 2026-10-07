@@ -606,7 +606,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/majority-element/[169. Majority Element^]
 |{doc_base_url}/0169-majority-element.adoc[题解]
-|⭕️
+|⭕️ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/max-chunks-to-make-sorted-ii/[768. Max Chunks To Make Sorted II^]
