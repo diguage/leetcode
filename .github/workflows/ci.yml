@@ -153,13 +153,13 @@ jobs:
             mv $fn $f
           done
 
-      - name: Add links for comments 🔗
-        run: |
-          cd target/docs/
-          for file in `find . -name "*.html"`;
-          do
-            sed -i 's@\(D瓜哥 · https://www.diguage.com\)@<a href="https://www.diguage.com" class="cmt-link" target="_blank">\1</a>@g' $file
-          done
+#      - name: Add links for comments 🔗
+#        run: |
+#          cd target/docs/
+#          for file in `find . -name "*.html"`;
+#          do
+#            sed -i 's@\(D瓜哥 · https://www.diguage.com\)@<a href="https://www.diguage.com" class="cmt-link" target="_blank">\1</a>@g' $file
+#          done
 
       # https://github.com/JamesIves/github-pages-deploy-action
       - name: Deploy 🚀
