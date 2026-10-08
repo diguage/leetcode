@@ -38,7 +38,7 @@ minStack.getMin();   --> 返回 -2.
 
 * `-2^31^ \<= val \<= 2^31^ - 1`
 * `pop`、`top` 和 `getMin` 操作总是在 *非空栈* 上调用
-* `push`, `pop`, `top`, and `getMin`最多被调用 `3 * 10^4^` 次
+* `push`, `pop`, `top`, and `getMin` 最多被调用 `3 * 10^4^` 次
 
 
 
@@ -90,6 +90,15 @@ include::{sourcedir}/_0155_MinStack_3.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0155_MinStack_4.java[tag=answer]
+----
+--
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0155_MinStack_5.java[tag=answer]
 ----
 --
 ====

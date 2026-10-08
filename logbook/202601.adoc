@@ -1451,6 +1451,11 @@ endif::[]
 |{doc_base_url}/0169-majority-element.adoc[题解]
 |⭕️ 数学。摩尔投票法：从零开始，相同就增加，不同就减少，循环往复。
 
+|{counter:codes2503}
+|{leetcode_base_url}/min-stack/[155. 最小栈^]
+|{doc_base_url}/0155-min-stack.adoc[题解]
+|✅ 栈。可以使用一个辅助栈存最小值。
+
 |===
 
 
