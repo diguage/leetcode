@@ -591,7 +591,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/find-minimum-in-rotated-sorted-array/[153. Find Minimum in Rotated Sorted Array^]
 |{doc_base_url}/0153-find-minimum-in-rotated-sorted-array.adoc[题解]
-|⭕️
+|⭕️ ⭕️
 
 |{counter:corrections}
 |{leetcode_base_url}/find-minimum-in-rotated-sorted-array-ii/[154. Find Minimum in Rotated Sorted Array II^]

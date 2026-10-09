@@ -53,6 +53,8 @@ https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/[LeetCode - 15
 
 针对有序数组，首先想到的就是二分查找。但是，这里的二分查找有需要做些特别处理：要判断最低点在哪个区间。
 
+NOTE: 通过 `nums[mid]` 与最后一个数比较来确定拐点位置。也要注意收缩的坐标，是搜索到 `mid`，还是 `mid` 的左右。
+
 只要聚焦于拥有更低点的区间即可。
 
 image::images/0153-01.png[{image_attr}]
@@ -95,6 +97,15 @@ include::{sourcedir}/_0153_FindMinimumInRotatedSortedArray_3.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0153_FindMinimumInRotatedSortedArray_4.java[tag=answer]
+----
+--
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0153_FindMinimumInRotatedSortedArray_5.java[tag=answer]
 ----
 --
 ====
