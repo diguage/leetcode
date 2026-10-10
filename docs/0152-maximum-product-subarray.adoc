@@ -56,6 +56,15 @@ include::{sourcedir}/_0152_MaximumProductSubarray.java[tag=answer]
 include::{sourcedir}/_0152_MaximumProductSubarray_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0152_MaximumProductSubarray_3.java[tag=answer]
+----
+--
 ====
 
 
