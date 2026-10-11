@@ -66,6 +66,8 @@ $$
 
 这个思路还可以用于解决 xref:0287-find-the-duplicate-number.adoc[287. Find the Duplicate Number]。
 
+[carousel{carousel_attr}]
+====
 image::images/0142-05.png[{image_attr}]
 
 image::images/0142-06.png[{image_attr}]
@@ -87,7 +89,7 @@ image::images/0142-13.png[{image_attr}]
 image::images/0142-14.png[{image_attr}]
 
 image::images/0142-15.png[{image_attr}]
-
+====
 
 [[src-0142]]
 [tabs]
@@ -125,6 +127,15 @@ include::{sourcedir}/_0142_LinkedListCycleII_3.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0142_LinkedListCycleII_4.java[tag=answer]
+----
+--
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0142_LinkedListCycleII_5.java[tag=answer]
 ----
 --
 ====
