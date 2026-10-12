@@ -109,6 +109,15 @@ include::{sourcedir}/_0139_WordBreak_3.java[tag=answer]
 include::{sourcedir}/_0139_WordBreak_4.java[tag=answer]
 ----
 --
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0139_WordBreak_5.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
