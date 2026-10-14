@@ -66,6 +66,15 @@ include::{sourcedir}/_0131_PalindromePartitioning_2.java[tag=answer]
 include::{sourcedir}/_0131_PalindromePartitioning_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0131_PalindromePartitioning_4.java[tag=answer]
+----
+--
 ====
 
 
