@@ -1486,6 +1486,11 @@ endif::[]
 |{doc_base_url}/0131-palindrome-partitioning.adoc[题解]
 |✅ 回溯。
 
+|{counter:codes2601}
+|{leetcode_base_url}/longest-consecutive-sequence/[128. 最长连续序列^]
+|{doc_base_url}/0128-longest-consecutive-sequence.adoc[题解]
+|⭕️ 哈希。注意体会这道题的两个亮点。
+
 |===
 
 

@@ -36,6 +36,11 @@ https://leetcode.cn/problems/longest-consecutive-sequence/[LeetCode - 128. 最�
 
 求连续序列长度，可以先去重，再寻找当前序列起点，从起点向后查找，出现断点，则当前序列结束。取所有序列中，最长值即可。
 
+这道题的两个亮点：
+
+. 寻找每个连续序列的最小数字开始遍历，避免重复遍历。
+. 当出现连续数组长度已经大于数组长度一半，则直接停止遍历。想一想为什么可以找出正确答案。
+
 看其他选手答案，使用并查集也可以解决。
 
 [[src-0128]]
@@ -65,6 +70,15 @@ include::{sourcedir}/_0128_LongestConsecutiveSequence_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0128_LongestConsecutiveSequence_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0128_LongestConsecutiveSequence_4.java[tag=answer]
 ----
 --
 ====
