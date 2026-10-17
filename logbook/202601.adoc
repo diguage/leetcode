@@ -1491,6 +1491,11 @@ endif::[]
 |{doc_base_url}/0128-longest-consecutive-sequence.adoc[题解]
 |⭕️ 哈希。注意体会这道题的两个亮点。
 
+|{counter:codes2503}
+|{leetcode_base_url}/binary-tree-maximum-path-sum/[124. 二叉树中的最大路径和^]
+|{doc_base_url}/0124-binary-tree-maximum-path-sum.adoc[题解]
+|✅ 深度优先搜索。这里也利用来 <<maximum-subarray-sum, Kadane 算法>> 的思路。
+
 |===
 
 

@@ -27,6 +27,7 @@ image::images/dynamic-programming-01.jpeg[{image_attr}]
 
 === 最长公共子序列（Longest Common Subsequence, LCS）
 
+[#maximum-subarray-sum]
 === 最大子数组和（最大子段和）
 
 两个做法：

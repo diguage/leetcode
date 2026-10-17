@@ -47,7 +47,7 @@ https://leetcode.cn/problems/find-the-substring-with-maximum-cost/[LeetCode - 26
 
 == 思路分析
 
-动态规划。利用后两个参数加字母表，可以求出每个字母对应的价值。其余就是一个“最大子数组和”，直接利用 Kadane 算法即可。
+动态规划。利用后两个参数加字母表，可以求出每个字母对应的价值。其余就是一个“最大子数组和”，直接利用 <<maximum-subarray-sum, Kadane 算法>> 即可。
 
 [[src-2606]]
 [tabs]
