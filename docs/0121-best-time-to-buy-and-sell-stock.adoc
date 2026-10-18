@@ -35,7 +35,26 @@ https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/[LeetCode - 121. �
 
 一次遍历，在遍历中找最大值减去最小值即可。
 
-image::images/0121-01.gif[{image_attr}]
+// image::images/0121-01.gif[{image_attr}]
+
+[carousel{carousel_attr}]
+====
+image::images/0121-11.png[{image_attr}]
+
+image::images/0121-12.png[{image_attr}]
+
+image::images/0121-13.png[{image_attr}]
+
+image::images/0121-14.png[{image_attr}]
+
+image::images/0121-15.png[{image_attr}]
+
+image::images/0121-16.png[{image_attr}]
+
+image::images/0121-17.png[{image_attr}]
+
+image::images/0121-18.png[{image_attr}]
+====
 
 [[src-0121]]
 [tabs]
@@ -73,6 +92,15 @@ include::{sourcedir}/_0121_BestTimeToBuyAndSellStock_3.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0121_BestTimeToBuyAndSellStock_4.java[tag=answer]
+----
+--
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0121_BestTimeToBuyAndSellStock_5.java[tag=answer]
 ----
 --
 ====
