@@ -1496,6 +1496,11 @@ endif::[]
 |{doc_base_url}/0124-binary-tree-maximum-path-sum.adoc[题解]
 |✅ 深度优先搜索。这里也利用来 <<maximum-subarray-sum, Kadane 算法>> 的思路。
 
+|{counter:codes2503}
+|{leetcode_base_url}/pascals-triangle/[118. 杨辉三角^]
+|{doc_base_url}/0118-pascals-triangle.adoc[题解]
+|✅ 数学。
+
 |===
 
 

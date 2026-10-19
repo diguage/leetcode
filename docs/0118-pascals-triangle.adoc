@@ -56,6 +56,15 @@ include::{sourcedir}/_0118_PascalSTriangle.java[tag=answer]
 include::{sourcedir}/_0118_PascalSTriangle_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0118_PascalSTriangle_3.java[tag=answer]
+----
+--
 ====
 
 

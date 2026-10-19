@@ -37,6 +37,9 @@ public class _0118_PascalSTriangle {
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Pascal's Triangle.
      *
      * Memory Usage: 34 MB, less than 7.23% of Java online submissions for Pascal's Triangle.
+     *
+     * @author D瓜哥 · https://www.diguage.com
+     * @since 2019-10-25 01:04
      */
     public List<List<Integer>> generate(int numRows) {
         if (numRows < 1) {
