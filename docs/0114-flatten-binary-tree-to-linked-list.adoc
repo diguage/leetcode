@@ -46,6 +46,8 @@ image::images/0114-01.jpg[{image_attr}]
 
 思考题：看题解中，可以逐级将左树并入到右树。尝试一下。
 
+[carousel{carousel_attr}]
+====
 image::images/0114-01.png[{image_attr}]
 
 image::images/0114-02.png[{image_attr}]
@@ -81,6 +83,7 @@ image::images/0114-16.png[{image_attr}]
 image::images/0114-17.png[{image_attr}]
 
 image::images/0114-18.png[{image_attr}]
+====
 
 [[src-0114]]
 [tabs]
@@ -136,6 +139,15 @@ include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_5.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_6.java[tag=answer]
+----
+--
+
+七刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0114_FlattenBinaryTreeToLinkedList_7.java[tag=answer]
 ----
 --
 ====
