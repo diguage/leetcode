@@ -1506,6 +1506,11 @@ endif::[]
 |{doc_base_url}/0114-flatten-binary-tree-to-linked-list.adoc[题解]
 |✅ 深度优先遍历。对于每一个有左子树的根节点，将右子树挂在左子树最右侧节点的右子树上，然后把左自树移动到右子树上。向右，继续递归。
 
+|{counter:codes2503}
+|{leetcode_base_url}/convert-sorted-array-to-binary-search-tree/[108. 将有序数组转换为二叉搜索树^]
+|{doc_base_url}/0108-convert-sorted-array-to-binary-search-tree.adoc[题解]
+|✅ 分治法+深度优先搜索。每次找到中间值作为根节点，两边作为左右子树，递归去操作即可。
+
 |===
 
 
