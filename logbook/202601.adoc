@@ -1516,6 +1516,11 @@ endif::[]
 |{doc_base_url}/0102-binary-tree-level-order-traversal.adoc[题解]
 |✅ 广度优先搜索
 
+|{counter:corrections}
+|{leetcode_base_url}/symmetric-tree/[101. Symmetric Tree^]
+|{doc_base_url}/0101-symmetric-tree.adoc[题解]
+|✅ 深度优先搜索。
+
 |===
 
 

@@ -36,6 +36,8 @@ image::images/0101-02.png[{image_attr}]
 
 使用广度优先搜索解决对称问题。
 
+[carousel{carousel_attr}]
+====
 image::images/0101-10.png[{image_attr}]
 
 image::images/0101-11.png[{image_attr}]
@@ -55,6 +57,7 @@ image::images/0101-17.png[{image_attr}]
 image::images/0101-18.png[{image_attr}]
 
 image::images/0101-19.png[{image_attr}]
+====
 
 image::images/0101-20.gif[{image_attr}]
 
@@ -97,6 +100,15 @@ include::{sourcedir}/_0101_SymmetricTree_3.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0101_SymmetricTree_4.java[tag=answer]
+----
+--
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0101_SymmetricTree_5.java[tag=answer]
 ----
 --
 ====
