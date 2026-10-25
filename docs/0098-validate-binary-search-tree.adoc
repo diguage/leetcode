@@ -32,7 +32,7 @@ image::images/0098-02.jpg[{image_attr}]
 
 *提示：*
 
-* 树中节点数目范围在`[1, 10^4^]` 内
+* 树中节点数目范围在 `[1, 10^4^]` 内
 * `-2^31^ \<= Node.val \<= 2^31^ - 1`
 
 
@@ -86,6 +86,15 @@ include::{sourcedir}/_0098_ValidateBinarySearchTree_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0098_ValidateBinarySearchTree_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0098_ValidateBinarySearchTree_4.java[tag=answer]
 ----
 --
 ====
