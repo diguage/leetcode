@@ -35,6 +35,7 @@ image::images/0094-01.jpg[{image_attr}]
 
 *进阶:* 递归算法很简单，你可以通过迭代算法完成吗？
 
+[#思路分析]
 == 思路分析
 
 
@@ -106,6 +107,15 @@ include::{sourcedir}/_0094_BinaryTreeInorderTraversal_4.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0094_BinaryTreeInorderTraversal_5.java[tag=answer]
+----
+--
+
+六刷(Morris)::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0094_BinaryTreeInorderTraversal_6.java[tag=answer]
 ----
 --
 ====
