@@ -1531,6 +1531,11 @@ endif::[]
 |{doc_base_url}/0094-binary-tree-inorder-traversal.adoc[题解]
 |⭕️ <<morris-traversal>>
 
+|{counter:corrections}
+|{leetcode_base_url}/largest-rectangle-in-histogram/[84. 柱状图中最大的矩形^]
+|{doc_base_url}/0084-largest-rectangle-in-histogram.adoc[题解]
+|⭕️ <<0000-12-monotonic-stack>>。
+
 |===
 
 
