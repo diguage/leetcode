@@ -69,6 +69,8 @@ image::images/0145-02.png[{image_attr}]
 . 因为保存在 *栈* 中的节点都遍历了 *左子树* 但是没有遍历 *右子树*，所以对栈中节点 *出栈* 并对它的 *右子树* 重复 *过程1*
 . 直到遍历完所有节点
 
+[carousel{carousel_attr}]
+====
 image::images/0145-11.png[{image_attr}]
 
 image::images/0145-12.png[{image_attr}]
@@ -106,6 +108,7 @@ image::images/0145-27.png[{image_attr}]
 image::images/0145-28.png[{image_attr}]
 
 image::images/0145-29.png[{image_attr}]
+====
 
 TIP: TODO：还需要加强迭代遍历的实现！
 
