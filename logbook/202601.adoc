@@ -1541,6 +1541,11 @@ endif::[]
 |{doc_base_url}/0079-word-search.adoc[题解]
 |✅ <<0000-24-backtrack>>。
 
+|{counter:codes2503}
+|{leetcode_base_url}/subsets/[78. 子集^]
+|{doc_base_url}/0078-subsets.adoc[题解]
+|✅ <<0000-25-subsets>>。
+
 |===
 
 

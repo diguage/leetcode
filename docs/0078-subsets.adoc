@@ -74,6 +74,15 @@ include::{sourcedir}/_0078_Subsets_2.java[tag=answer]
 include::{sourcedir}/_0078_Subsets_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0078_Subsets_4.java[tag=answer]
+----
+--
 ====
 
 
