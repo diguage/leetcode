@@ -41,6 +41,10 @@ import java.util.*;
  */
 public class _0101_SymmetricTree {
   // tag::answer[]
+  /**
+   * @author D瓜哥 · https://www.diguage.com
+   * @since 2020-01-02 00:20
+   */
     public boolean isSymmetric(TreeNode root) {
         return isMirror(root, root);
     }

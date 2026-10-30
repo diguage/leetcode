@@ -63,7 +63,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/substring-with-concatenation-of-all-words/[30. 串联所有单词的子串^]
 |{doc_base_url}/0030-substring-with-concatenation-of-all-words.adoc[题解]
-|❌ 滑动窗口。以为是回溯，但是回溯超时（152/182）。看答案，发现是滑动窗口。定长窗口，每次滑动距离为单词长度。
+|❌ <<0000-09-sliding-window>>。以为是回溯，但是回溯超时（152/182）。看答案，发现是滑动窗口。定长窗口，每次滑动距离为单词长度。
 
 |{counter:corrections}
 |{leetcode_base_url}/longest-valid-parentheses/[32. 最长有效括号^]
@@ -338,7 +338,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/minesweeper/[529. 扫雷游戏^]
 |{doc_base_url}/0529-minesweeper.adoc[题解]
-|✅ 广度优先搜索或者深度优先搜索。从起点做一遍广度优先搜索或者深度优先搜索即可。
+|✅ 广度优先搜索或者 <<0000-16-depth-first-search>>。从起点做一遍广度优先搜索或者深度优先搜索即可。
 
 |{counter:codes}
 |{leetcode_base_url}/k-diff-pairs-in-an-array/[532. 数组中的 k-diff 数对^]
@@ -549,7 +549,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/smallest-range-covering-elements-from-k-lists/[632. 最小区间^]
 |{doc_base_url}/0632-smallest-range-covering-elements-from-k-lists.adoc[题解]
-|❌ 排序+滑动窗口。先将所有元素根据大小进行排序（元素要附带上自己所属的区间），然后对排序后的元素做滑动窗口，找出窗口最小的区间。这道题，解法众多，有机会尝试一下其他解法。
+|❌ 排序+<<0000-09-sliding-window>>。先将所有元素根据大小进行排序（元素要附带上自己所属的区间），然后对排序后的元素做滑动窗口，找出窗口最小的区间。这道题，解法众多，有机会尝试一下其他解法。
 
 |{counter:codes}
 |{leetcode_base_url}/sum-of-square-numbers/[633. 平方数之和^]
@@ -574,7 +574,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/maximum-average-subarray-i/[643. 子数组最大平均数 I^]
 |{doc_base_url}/0643-maximum-average-subarray-i.adoc[题解]
-|✅ 滑动窗口。定长滑动窗口。
+|✅ <<0000-09-sliding-window>>。定长滑动窗口。
 
 |{counter:codes}
 |{leetcode_base_url}/set-mismatch/[645. 错误的集合^]
@@ -674,7 +674,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/implement-magic-dictionary/[676. 实现一个魔法字典^]
 |{doc_base_url}/0676-implement-magic-dictionary.adoc[题解]
-|✅ 哈希或前缀树+深度优先搜索。最简单的思路就是根据长度区分单词，然后根据长度获取对应单词列表，逐一判定。
+|✅ 哈希或前缀树+<<0000-16-depth-first-search>>。最简单的思路就是根据长度区分单词，然后根据长度获取对应单词列表，逐一判定。
 
 |{counter:codes}
 |{leetcode_base_url}/map-sum-pairs/[677. 键值映射^]
@@ -729,7 +729,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/employee-importance/[690. 员工的重要性^]
 |{doc_base_url}/0690-employee-importance.adoc[题解]
-|✅ 哈希+深度优先搜索。先建立映射关系，再深度优先搜索。
+|✅ 哈希+<<0000-16-depth-first-search>>。先建立映射关系，再深度优先搜索。
 
 |{counter:codes}
 |{leetcode_base_url}/top-k-frequent-words/[692. 前K个高频单词^]
@@ -934,7 +934,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/all-paths-from-source-to-target/[797. 所有可能的路径^]
 |{doc_base_url}/0797-all-paths-from-source-to-target.adoc[题解]
-|✅ 深度优先搜索或广度优先搜索。
+|✅ <<0000-16-depth-first-search>>或广度优先搜索。
 
 |{counter:codes}
 |{leetcode_base_url}/champagne-tower/[799. 香槟塔^]
@@ -944,7 +944,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/find-eventual-safe-states/[802. 找到最终的安全状态^]
 |{doc_base_url}/0802-find-eventual-safe-states.adoc[题解]
-|✅ 深度优先搜索，广度优先搜索或拓扑排序。如果使用拓扑排序，需要构造反向图，然后从入度为 `0` 的节点开始沿着反向“遍历”。
+|✅ <<0000-16-depth-first-search>>，广度优先搜索或拓扑排序。如果使用拓扑排序，需要构造反向图，然后从入度为 `0` 的节点开始沿着反向“遍历”。
 
 |{counter:codes}
 |{leetcode_base_url}/unique-morse-code-words/[804. 唯一摩尔斯密码词^]
@@ -1039,7 +1039,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/friends-of-appropriate-ages/[825. 适龄的朋友^]
 |{doc_base_url}/0825-friends-of-appropriate-ages.adoc[题解]
-|❌ 滑动窗口。要仔细分析题目要求，根据要求筛选出合适的解题策略。
+|❌ <<0000-09-sliding-window>>。要仔细分析题目要求，根据要求筛选出合适的解题策略。
 
 |{counter:codes}
 |{leetcode_base_url}/most-profit-assigning-work/[826. 安排工作以达到最大收益^]
@@ -1084,7 +1084,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/new-21-game/[837. 新 21 点^]
 |{doc_base_url}/0837-new-21-game.adoc[题解]
-|❌ 定长滑动窗口。定长滑动窗口的解法还需要再思考一下，不是很懂！
+|❌ <<0000-09-sliding-window>>。定长滑动窗口的解法还需要再思考一下，不是很懂！
 
 |{counter:codes}
 |{leetcode_base_url}/push-dominoes/[838. 推多米诺^]
@@ -1164,7 +1164,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/all-nodes-distance-k-in-binary-tree/[863. 二叉树中所有距离为 K 的结点^]
 |{doc_base_url}/0863-all-nodes-distance-k-in-binary-tree.adoc[题解]
-|✅ 深度优先搜索。先找出从根节点到目标节点之间的路径。再根据这个路径去做深度优先搜索，找到符合要求的节点。
+|✅ <<0000-16-depth-first-search>>。先找出从根节点到目标节点之间的路径。再根据这个路径去做深度优先搜索，找到符合要求的节点。
 
 |{counter:codes}
 |{leetcode_base_url}/prime-palindrome/[866. 回文质数^]
@@ -1244,12 +1244,12 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/[1343. 大小为 K 且平均值大于等于阈值的子数组数目^]
 |{doc_base_url}/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.adoc[题解]
-|✅ 滑动窗口。定长滑动窗口。
+|✅ <<0000-09-sliding-window>>。定长滑动窗口。
 
 |{counter:codes}
 |{leetcode_base_url}/longest-subarray-of-1s-after-deleting-one-element/[1493. 删掉一个元素以后全为 1 的最长子数组^]
 |{doc_base_url}/1493-longest-subarray-of-1s-after-deleting-one-element.adoc[题解]
-|✅ 滑动窗口。变长滑动窗口。
+|✅ <<0000-09-sliding-window>>。变长滑动窗口。
 
 |{counter:codes}
 |{leetcode_base_url}/next-greater-node-in-linked-list/[1019. 链表中的下一个更大节点^]
@@ -1339,7 +1339,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/find-all-anagrams-in-a-string/[438. Find All Anagrams in a String^]
 |{doc_base_url}/0438-find-all-anagrams-in-a-string.adoc[题解]
-|✅ 滑动窗口。定长滑动窗口
+|✅ <<0000-09-sliding-window>>。定长滑动窗口
 
 |{counter:codes2503}
 |{leetcode_base_url}/path-sum-iii/[437. 路径总和 III^]
@@ -1519,7 +1519,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/symmetric-tree/[101. Symmetric Tree^]
 |{doc_base_url}/0101-symmetric-tree.adoc[题解]
-|✅ 深度优先搜索。
+|✅ <<0000-16-depth-first-search>>。
 
 |{counter:codes2503}
 |{leetcode_base_url}/validate-binary-search-tree/[98. 验证二叉搜索树^]
@@ -1545,6 +1545,11 @@ endif::[]
 |{leetcode_base_url}/subsets/[78. 子集^]
 |{doc_base_url}/0078-subsets.adoc[题解]
 |✅ <<0000-25-subsets>>。
+
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-window-substring/[76. 最小覆盖子串^]
+|{doc_base_url}/0076-minimum-window-substring.adoc[题解]
+|✅ <<0000-09-sliding-window>>。
 
 |===
 
