@@ -1551,6 +1551,11 @@ endif::[]
 |{doc_base_url}/0076-minimum-window-substring.adoc[题解]
 |✅ <<0000-09-sliding-window>>。
 
+|{counter:codes2503}
+|{leetcode_base_url}/sort-colors/[75. 颜色分类^]
+|{doc_base_url}/0075-sort-colors.adoc[题解]
+|✅ <<0000-counting-sort>>。
+
 |===
 
 
