@@ -363,7 +363,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/single-element-in-a-sorted-array/[540. 有序数组中的单一元素^]
 |{doc_base_url}/0540-single-element-in-a-sorted-array.adoc[题解]
-|✅ 二分查找。在 `mid` 两侧，有单次出现数字的一侧长度是奇数，另外一侧是偶数，通过这个判断，向单次数字靠拢。
+|✅ <<0000-03-modified-binary-search>>。在 `mid` 两侧，有单次出现数字的一侧长度是奇数，另外一侧是偶数，通过这个判断，向单次数字靠拢。
 
 |{counter:codes}
 |{leetcode_base_url}/reverse-string-ii/[541. 反转字符串 II^]
@@ -519,7 +519,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/valid-triangle-number/[611. 有效三角形的个数^]
 |{doc_base_url}/0611-valid-triangle-number.adoc[题解]
-|✅ 二分查找或双指针。直接简单暴力破解了。更好的办法是二分查找或者双指针。
+|✅ <<0000-03-modified-binary-search>>或双指针。直接简单暴力破解了。更好的办法是二分查找或者双指针。
 
 |{counter:codes}
 |{leetcode_base_url}/design-circular-queue/[622. 设计循环队列^]
@@ -614,7 +614,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/find-k-closest-elements/[658. 找到 K 个最接近的元素^]
 |{doc_base_url}/0658-find-k-closest-elements.adoc[题解]
-|✅ 二分查找或双指针或排序。可以通过二分查找，找到边界，然后向两边扩充。也可以直接按照接近因子算法，进行直接排序。
+|✅ <<0000-03-modified-binary-search>>或双指针或排序。可以通过二分查找，找到边界，然后向两边扩充。也可以直接按照接近因子算法，进行直接排序。
 
 |{counter:codes}
 |{leetcode_base_url}/split-array-into-consecutive-subsequences/[659. 分割数组为连续子序列^]
@@ -644,7 +644,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/kth-smallest-number-in-multiplication-table/[668. 乘法表中第k小的数^]
 |{doc_base_url}/0668-kth-smallest-number-in-multiplication-table.adoc[题解]
-|❌ 二分查找。总想投机取巧地来计算计数，谁知还是得靠按行统计。
+|❌ <<0000-03-modified-binary-search>>。总想投机取巧地来计算计数，谁知还是得靠按行统计。
 
 |{counter:codes}
 |{leetcode_base_url}/second-minimum-node-in-a-binary-tree/[671. 二叉树中第二小的节点^]
@@ -1134,7 +1134,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/peak-index-in-a-mountain-array/[852. 山脉数组的峰顶索引^]
 |{doc_base_url}/0852-peak-index-in-a-mountain-array.adoc[题解]
-|✅ 二分查找。中间数跟两边比较，哪边增长，峰值就在哪边，两边都不增长，那么就是峰值。
+|✅ <<0000-03-modified-binary-search>>。中间数跟两边比较，哪边增长，峰值就在哪边，两边都不增长，那么就是峰值。
 
 |{counter:codes}
 |{leetcode_base_url}/car-fleet/[853. 车队^]
@@ -1234,7 +1234,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/find-minimum-in-rotated-sorted-array-ii/[154. 寻找旋转排序数组中的最小值 II^]
 |{doc_base_url}/0154-find-minimum-in-rotated-sorted-array-ii.adoc[题解]
-|⭕️ 二分查找。重点要看，你关注的点在哪里，如果简化判定。
+|⭕️ <<0000-03-modified-binary-search>>。重点要看，你关注的点在哪里，如果简化判定。
 
 |{counter:codes}
 |{leetcode_base_url}/k-closest-points-to-origin/[973. 最接近原点的 K 个点^]
@@ -1459,7 +1459,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/find-minimum-in-rotated-sorted-array/[153. 寻找旋转排序数组中的最小值^]
 |{doc_base_url}/0153-find-minimum-in-rotated-sorted-array.adoc[题解]
-|⭕️ 二分查找！通过 `nums[mid]` 与最后一个数比较来确定拐点位置。也要注意收缩的坐标，是搜索到 `mid`，还是 `mid` 的左右。
+|⭕️ <<0000-03-modified-binary-search>>！通过 `nums[mid]` 与最后一个数比较来确定拐点位置。也要注意收缩的坐标，是搜索到 `mid`，还是 `mid` 的左右。
 
 |{counter:codes2503}
 |{leetcode_base_url}/maximum-product-subarray/[152. 乘积最大子数组^]
@@ -1555,6 +1555,11 @@ endif::[]
 |{leetcode_base_url}/sort-colors/[75. 颜色分类^]
 |{doc_base_url}/0075-sort-colors.adoc[题解]
 |✅ <<0000-counting-sort>>。
+
+|{counter:codes2503}
+|{leetcode_base_url}/search-a-2d-matrix/[74. 搜索二维矩阵^]
+|{doc_base_url}/0074-search-a-2d-matrix.adoc[题解]
+|✅ <<0000-03-modified-binary-search>>。将矩阵视为一个大的一维数组即可。利用长度坐标算出 X/Y 轴坐标。
 
 |===
 
