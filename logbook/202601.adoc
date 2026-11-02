@@ -1561,6 +1561,11 @@ endif::[]
 |{doc_base_url}/0074-search-a-2d-matrix.adoc[题解]
 |✅ <<0000-03-modified-binary-search>>。将矩阵视为一个大的一维数组即可。利用长度坐标算出 X/Y 轴坐标。
 
+|{counter:codes2503}
+|{leetcode_base_url}/set-matrix-zeroes/[73. 矩阵置零^]
+|{doc_base_url}/0073-set-matrix-zeroes.adoc[题解]
+|✅ 矩阵。
+
 |===
 
 
