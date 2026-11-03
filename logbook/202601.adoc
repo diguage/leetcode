@@ -23,22 +23,22 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/min-cost-climbing-stairs/[746. 使用最小花费爬楼梯^]
 |{doc_base_url}/0746-min-cost-climbing-stairs.adoc[题解]
-|✅ 动态规划。楼梯顶部是比数组长度更长的一节。先写暴力破解，再备忘录，再进会到动态规划。
+|✅ <<0000-26-dynamic-programming>>。楼梯顶部是比数组长度更长的一节。先写暴力破解，再备忘录，再进会到动态规划。
 
 |{counter:corrections}
 |{leetcode_base_url}/combination-sum-iv/[377. 组合总和 Ⅳ^]
 |{doc_base_url}/0377-combination-sum-iv.adoc[题解]
-|❌ 动态规划。在以往的思维定式中，爬楼梯总是: stem:[f(i)=f(i−1)+f(i−2)]。这道题突破了这个思维定式，爬楼梯也可以：stem:[$f(i) = \sum\limits_{j=0}^{n-1}{f(i-nums[j\])}$]。
+|❌ <<0000-26-dynamic-programming>>。在以往的思维定式中，爬楼梯总是: stem:[f(i)=f(i−1)+f(i−2)]。这道题突破了这个思维定式，爬楼梯也可以：stem:[$f(i) = \sum\limits_{j=0}^{n-1}{f(i-nums[j\])}$]。
 
 |{counter:codes}
 |{leetcode_base_url}/count-ways-to-build-good-strings/[2466. 统计构造好字符串的方案数^]
 |{doc_base_url}/2466-count-ways-to-build-good-strings.adoc[题解]
-|✅ 动态规划。爬楼梯解法：stem:[$f(i) = f(i−zero) + f(i − one)$]
+|✅ <<0000-26-dynamic-programming>>。爬楼梯解法：stem:[$f(i) = f(i−zero) + f(i − one)$]
 
 |{counter:codes}
 |{leetcode_base_url}/count-number-of-texts/[2266. 统计打字方案数^]
 |{doc_base_url}/2266-count-number-of-texts.adoc[题解]
-|✅ 动态规划。将字符串按照相同字符进行切割，根据加法原理，每个子串内部是“爬楼梯”：每个按键上面有 `3` 或 `4` 个字母，那么按键列表，就可以有 `1~3` 或 `1~4` 个按键按出一个字母，这就是爬楼梯：stem:[$f(i) = f(i-1)+f(i-2)+f(i-3)$] 或 stem:[$f(i) = f(i-1)+f(i-2)+f(i-3)+f(i-4)$]；子串之间，根据乘法原理，直接相乘。
+|✅ <<0000-26-dynamic-programming>>。将字符串按照相同字符进行切割，根据加法原理，每个子串内部是“爬楼梯”：每个按键上面有 `3` 或 `4` 个字母，那么按键列表，就可以有 `1~3` 或 `1~4` 个按键按出一个字母，这就是爬楼梯：stem:[$f(i) = f(i-1)+f(i-2)+f(i-3)$] 或 stem:[$f(i) = f(i-1)+f(i-2)+f(i-3)+f(i-4)$]；子串之间，根据乘法原理，直接相乘。
 
 |{counter:corrections}
 |{leetcode_base_url}/smallest-subsequence-of-distinct-characters/[1081. 不同字符的最小子序列^]
@@ -48,12 +48,12 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/first-day-where-you-have-been-in-all-the-rooms/[1997. 访问完所有房间的第一天^]
 |{doc_base_url}/1997-first-day-where-you-have-been-in-all-the-rooms.adoc[题解]
-|❌ 动态规划。有点脑筋急转弯！看答案也是一脸懵逼！
+|❌ <<0000-26-dynamic-programming>>。有点脑筋急转弯！看答案也是一脸懵逼！
 
 |{counter:codes2503}
 |{leetcode_base_url}/count-number-of-ways-to-place-houses/[2320. 统计放置房子的方式数^]
 |{doc_base_url}/2320-count-number-of-ways-to-place-houses.adoc[题解]
-|✅ 动态规划。先只考虑一边的情况，再组合两边的情况。只考虑一边的情况，就是一个斐波那契数列： stem:[$f(i) = f(i-1) + f(i-2)$]。
+|✅ <<0000-26-dynamic-programming>>。先只考虑一边的情况，再组合两边的情况。只考虑一边的情况，就是一个斐波那契数列： stem:[$f(i) = f(i-1) + f(i-2)$]。
 
 |{counter:corrections}
 |{leetcode_base_url}/minimum-moves-to-spread-stones-over-grid/[2850. 将石头分散到网格图的最少移动次数^]
@@ -68,7 +68,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/longest-valid-parentheses/[32. 最长有效括号^]
 |{doc_base_url}/0032-longest-valid-parentheses.adoc[题解]
-|❌ 栈。也可以用动态规划。有一点想不明白，在使用标记数组时，为什么可以直接设置栈顶和当前元素指定下标为 `true`，中间肯定都是 `true` 吗？
+|❌ 栈。也可以用<<0000-26-dynamic-programming>>。有一点想不明白，在使用标记数组时，为什么可以直接设置栈顶和当前元素指定下标为 `true`，中间肯定都是 `true` 吗？
 
 |{counter:corrections}
 |{leetcode_base_url}/largest-rectangle-in-histogram/[84. 柱状图中最大的矩形^]
@@ -83,12 +83,12 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/maximum-total-damage-with-spell-casting/[3186. 施咒的最大总伤害^]
 |{doc_base_url}/3186-maximum-total-damage-with-spell-casting.adoc[题解]
-|❌ 动态规划。有点绕，需要把原始数组，按照伤害值转化成新的数组，这样就可以在新数组上，使用类似“打家劫舍”的套路来解题了。与“打家劫舍”套路不同的是，这里“选”的时候，前面被选择的项不是一个固定的项，是根据伤害条件选择出来的项。
+|❌ <<0000-26-dynamic-programming>>。有点绕，需要把原始数组，按照伤害值转化成新的数组，这样就可以在新数组上，使用类似“打家劫舍”的套路来解题了。与“打家劫舍”套路不同的是，这里“选”的时候，前面被选择的项不是一个固定的项，是根据伤害条件选择出来的项。
 
 |{counter:corrections}
 |{leetcode_base_url}/last-stone-weight-ii/[1049. 最后一块石头的重量 II^]
 |{doc_base_url}/1049-last-stone-weight-ii.adoc[题解]
-|❌ 动态规划。将题目转换成把石头分成两堆，求两堆重量的最小差值。那么，最小差值，就是两堆重量相等。那么，题目就转换成在一堆石头中选择一些石头让其重量尽可能达到总重量的一半。题目结果就是总重量减去二倍的选择石头最大可能拼凑出来的重量。这就是 0/1 背包问题了。
+|❌ <<0000-26-dynamic-programming>>。将题目转换成把石头分成两堆，求两堆重量的最小差值。那么，最小差值，就是两堆重量相等。那么，题目就转换成在一堆石头中选择一些石头让其重量尽可能达到总重量的一半。题目结果就是总重量减去二倍的选择石头最大可能拼凑出来的重量。这就是 0/1 背包问题了。
 
 |{counter:corrections}
 |{leetcode_base_url}/sudoku-solver/[37. 解数独^]
@@ -113,7 +113,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/distinct-subsequences/[115. 不同的子序列^]
 |{doc_base_url}/0115-distinct-subsequences.adoc[题解]
-|⭕️ 动态规划。看到动态规划的提示，用矩阵模拟“凑数”给凑出来的解法。
+|⭕️ <<0000-26-dynamic-programming>>。看到动态规划的提示，用矩阵模拟“凑数”给凑出来的解法。
 
 |{counter:corrections}
 |{leetcode_base_url}/number-of-good-leaf-nodes-pairs/[1530. 好叶子节点对的数量^]
@@ -128,12 +128,12 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-ii/[122. 买卖股票的最佳时机 II]
 |{doc_base_url}/0122-best-time-to-buy-and-sell-stock-ii.adoc[题解]
-|⭕️ 动态规划。这道题更好的解法是贪心算法。这次从动态规划的角度去看这个问题：“满仓”是继承或者买入；空仓则是继承或者卖出。
+|⭕️ <<0000-26-dynamic-programming>>。这道题更好的解法是贪心算法。这次从动态规划的角度去看这个问题：“满仓”是继承或者买入；空仓则是继承或者卖出。
 
 |{counter:corrections}
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-iii/[123. 买卖股票的最佳时机 III^]
 |{doc_base_url}/0123-best-time-to-buy-and-sell-stock-iii.adoc[题解]
-|⭕️ 动态规划。在 {doc_base_url}/0122-best-time-to-buy-and-sell-stock-ii.adoc[题解] 的基础上，增加了交易次数限制。思路懂了，边界条件总是不对。还要再思考。
+|⭕️ <<0000-26-dynamic-programming>>。在 {doc_base_url}/0122-best-time-to-buy-and-sell-stock-ii.adoc[题解] 的基础上，增加了交易次数限制。思路懂了，边界条件总是不对。还要再思考。
 
 |{counter:corrections}
 |{leetcode_base_url}/cheapest-flights-within-k-stops/[787. K 站中转内最便宜的航班^]
@@ -143,12 +143,12 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/longest-increasing-subsequence/[300. 最长递增子序列^]
 |{doc_base_url}/0300-longest-increasing-subsequence.adoc[题解]
-|❌ 动态规划。将每个值跟前面所有值相比，当比其大时，在其之上加一。动态规划总想直接从一个值中获取，没想到还需要遍历。
+|❌ <<0000-26-dynamic-programming>>。将每个值跟前面所有值相比，当比其大时，在其之上加一。动态规划总想直接从一个值中获取，没想到还需要遍历。
 
 |{counter:codes}
 |{leetcode_base_url}/longest-common-subsequence/[1143. 最长公共子序列^]
 |{doc_base_url}/1143-longest-common-subsequence.adoc[题解]
-|✅ 动态规划。
+|✅ <<0000-26-dynamic-programming>>。
 
 |{counter:corrections}
 |{leetcode_base_url}/shortest-string-that-contains-three-strings/[2800. 包含三个字符串的最短字符串^]
@@ -158,17 +158,17 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/maximum-sum-circular-subarray/[918. 环形子数组的最大和^]
 |{doc_base_url}/0918-maximum-sum-circular-subarray.adoc[题解]
-|❌ 动态规划。利用 {doc_base_url}/0053-maximum-subarray.adoc[53. 最大子数组和^] 的解法，求出最大子数组和最小子数组。再根据最大子数组和是否大于 `0`，来决定如何返回。
+|❌ <<0000-26-dynamic-programming>>。利用 {doc_base_url}/0053-maximum-subarray.adoc[53. 最大子数组和^] 的解法，求出最大子数组和最小子数组。再根据最大子数组和是否大于 `0`，来决定如何返回。
 
 |{counter:corrections}
 |{leetcode_base_url}/maximum-students-taking-exam/[1349. 参加考试的最大学生数^]
 |{doc_base_url}/1349-maximum-students-taking-exam.adoc[题解]
-|❌ 动态规划。看了答案也是一脸懵逼，尤其是位运算，还需要多多练习。
+|❌ <<0000-26-dynamic-programming>>。看了答案也是一脸懵逼，尤其是位运算，还需要多多练习。
 
 |{counter:corrections}
 |{leetcode_base_url}/decode-ways/[91. 解码方法^]
 |{doc_base_url}/0091-decode-ways.adoc[题解]
-|✅ 动态规划。从后向前，一个字符或者两个字符来判断是否可以编码成字母，然后递归调用直到字符串尽头。
+|✅ <<0000-26-dynamic-programming>>。从后向前，一个字符或者两个字符来判断是否可以编码成字母，然后递归调用直到字符串尽头。
 
 |{counter:corrections}
 |{leetcode_base_url}/minimum-cost-to-move-chips-to-the-same-position/[1217. 玩筹码^]
@@ -233,12 +233,12 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/interleaving-string/[97. 交错字符串^]
 |{doc_base_url}/0097-interleaving-string.adoc[题解]
-|❌ 动态规划。将其转化成表格走路的思路来解决。需要先从各个字符串中，寻找出前缀字符串。
+|❌ <<0000-26-dynamic-programming>>。将其转化成表格走路的思路来解决。需要先从各个字符串中，寻找出前缀字符串。
 
 |{counter:corrections}
 |{leetcode_base_url}/wildcard-matching/[44. 通配符匹配^]
 |{doc_base_url}/0044-wildcard-matching.adoc[题解]
-|❌ 动态规划。`p` 是字母或 `?` 时，状态是确定的。当 `p` 是 `*` 时，状态转移方程就可以分为使用该 `*` 和不使用两种情况。
+|❌ <<0000-26-dynamic-programming>>。`p` 是字母或 `?` 时，状态是确定的。当 `p` 是 `*` 时，状态转移方程就可以分为使用该 `*` 和不使用两种情况。
 
 |{counter:corrections}
 |{leetcode_base_url}/maximal-rectangle/[85. 最大矩形^]
@@ -333,7 +333,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/beautiful-arrangement/[526. 优美的排列^]
 |{doc_base_url}/0526-beautiful-arrangement.adoc[题解]
-|❌ 动态规划。以为是有条件的全排列，没想到是动态规划。还是有些懵逼，还要再体会一下。
+|❌ <<0000-26-dynamic-programming>>。以为是有条件的全排列，没想到是动态规划。还是有些懵逼，还要再体会一下。
 
 |{counter:codes}
 |{leetcode_base_url}/minesweeper/[529. 扫雷游戏^]
@@ -383,12 +383,12 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/student-attendance-record-ii/[552. 学生出勤记录 II^]
 |{doc_base_url}/0552-student-attendance-record-ii.adoc[题解]
-|❌ 动态规划。可以将其转换成构造一个符合要求的长度为 `n` 的字符串。
+|❌ <<0000-26-dynamic-programming>>。可以将其转换成构造一个符合要求的长度为 `n` 的字符串。
 
 |{counter:codes}
 |{leetcode_base_url}/optimal-division/[553. 最优除法^]
 |{doc_base_url}/0553-optimal-division.adoc[题解]
-|❌ 贪心算法或者动态规划。贪心算法有点类似脑筋急转弯。
+|❌ 贪心算法或者<<0000-26-dynamic-programming>>。贪心算法有点类似脑筋急转弯。
 
 |{counter:codes}
 |{leetcode_base_url}/brick-wall/[554. 砖墙^]
@@ -499,7 +499,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/non-negative-integers-without-consecutive-ones/[600. 不含连续1的非负整数^]
 |{doc_base_url}/0600-non-negative-integers-without-consecutive-ones.adoc[题解]
-|❌ 动态规划。
+|❌ <<0000-26-dynamic-programming>>。
 
 |{counter:codes}
 |{leetcode_base_url}/can-place-flowers/[605. 种花问题^]
@@ -539,7 +539,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/k-inverse-pairs-array/[629. K 个逆序对数组^]
 |{doc_base_url}/0629-k-inverse-pairs-array.adoc[题解]
-|❌ 动态规划。从暴力破解，再加备忘录，最后到动态规划，这样的思路比较容易理解。
+|❌ <<0000-26-dynamic-programming>>。从暴力破解，再加备忘录，最后到动态规划，这样的思路比较容易理解。
 
 |{counter:codes}
 |{leetcode_base_url}/course-schedule-iii/[630. 课程表 III^]
@@ -564,12 +564,12 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/shopping-offers/[638. 大礼包^]
 |{doc_base_url}/0638-shopping-offers.adoc[题解]
-|❌ 动态规划。没想到是动态规划。
+|❌ <<0000-26-dynamic-programming>>。没想到是动态规划。
 
 |{counter:codes}
 |{leetcode_base_url}/decode-ways-ii/[639. 解码方法 II^]
 |{doc_base_url}/0639-decode-ways-ii.adoc[题解]
-|❌ 动态规划：类似爬楼梯，比爬楼梯复杂！
+|❌ <<0000-26-dynamic-programming>>：类似爬楼梯，比爬楼梯复杂！
 
 |{counter:codes}
 |{leetcode_base_url}/maximum-average-subarray-i/[643. 子数组最大平均数 I^]
@@ -589,7 +589,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/2-keys-keyboard/[650. 两个键的键盘^]
 |{doc_base_url}/0650-2-keys-keyboard.adoc[题解]
-|✅ 动态规划。检查一个数是不是倍数，如果时，则在当时基础上，直接通过“复制 + 粘贴”就可以获取。
+|✅ <<0000-26-dynamic-programming>>。检查一个数是不是倍数，如果时，则在当时基础上，直接通过“复制 + 粘贴”就可以获取。
 
 |{counter:codes}
 |{leetcode_base_url}/find-duplicate-subtrees/[652. 寻找重复的子树^]
@@ -629,7 +629,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/strange-printer/[664. 奇怪的打印机^]
 |{doc_base_url}/0664-strange-printer.adoc[题解]
-|❌ 动态规划。有点懵逼，还要再思考一下。
+|❌ <<0000-26-dynamic-programming>>。有点懵逼，还要再思考一下。
 
 |{counter:codes}
 |{leetcode_base_url}/non-decreasing-array/[665. 非递减数列^]
@@ -659,7 +659,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/number-of-longest-increasing-subsequence/[673. 最长递增子序列的个数^]
 |{doc_base_url}/0673-number-of-longest-increasing-subsequence.adoc[题解]
-|❌ 动态规划。在 {doc_base_url}/0300-longest-increasing-subsequence.adoc[300. Longest Increasing Subsequence] 的基础之上，又增加了一个统计最长增长子序列的数量的“备忘录”。
+|❌ <<0000-26-dynamic-programming>>。在 {doc_base_url}/0300-longest-increasing-subsequence.adoc[300. Longest Increasing Subsequence] 的基础之上，又增加了一个统计最长增长子序列的数量的“备忘录”。
 
 |{counter:codes}
 |{leetcode_base_url}/longest-continuous-increasing-subsequence/[674. 最长连续递增序列^]
@@ -684,7 +684,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/valid-parenthesis-string/[678. 有效的括号字符串^]
 |{doc_base_url}/0678-valid-parenthesis-string.adoc[题解]
-|❌ 贪心或动态规划。题目简单，但是解法却有些难想，尤其是贪心的解法。
+|❌ 贪心或<<0000-26-dynamic-programming>>。题目简单，但是解法却有些难想，尤其是贪心的解法。
 
 |{counter:codes}
 |{leetcode_base_url}/24-game/[679. 24 点游戏^]
@@ -724,7 +724,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/knight-probability-in-chessboard/[688. 骑士在棋盘上的概率^]
 |{doc_base_url}/0688-knight-probability-in-chessboard.adoc[题解]
-|❌ 动态规划。以为是深度优先搜索，还尝试遍历所有可能情况。
+|❌ <<0000-26-dynamic-programming>>。以为是深度优先搜索，还尝试遍历所有可能情况。
 
 |{counter:codes}
 |{leetcode_base_url}/employee-importance/[690. 员工的重要性^]
@@ -764,12 +764,12 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/minimum-ascii-delete-sum-for-two-strings/[712. 两个字符串的最小ASCII删除和^]
 |{doc_base_url}/0712-minimum-ascii-delete-sum-for-two-strings.adoc[题解]
-|✅ 动态规划。即可以正着解，也可以通过“求最长公共子序列”反着解。
+|✅ <<0000-26-dynamic-programming>>。即可以正着解，也可以通过“求最长公共子序列”反着解。
 
 |{counter:codes}
 |{leetcode_base_url}/1-bit-and-2-bit-characters/[717. 1 比特与 2 比特字符^]
 |{doc_base_url}/0717-1-bit-and-2-bit-characters.adoc[题解]
-|✅ 动态规划。整上动态规划了。看题解，可以当作模拟题来解，解法更简单。
+|✅ <<0000-26-dynamic-programming>>。整上动态规划了。看题解，可以当作模拟题来解，解法更简单。
 
 |{counter:codes}
 |{leetcode_base_url}/longest-word-in-dictionary/[720. 词典中最长的单词^]
@@ -914,7 +914,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/domino-and-tromino-tiling/[790. 多米诺和托米诺平铺^]
 |{doc_base_url}/0790-domino-and-tromino-tiling.adoc[题解]
-|❌ 斐波那契型动态规划。还是要画图分析。
+|❌ <<0000-26-dynamic-programming>>。斐波那契型动态规划，还是要画图分析。
 
 |{counter:codes}
 |{leetcode_base_url}/custom-sort-string/[791. 自定义字符串排序^]
@@ -964,7 +964,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/soup-servings/[808. 分汤^]
 |{doc_base_url}/0808-soup-servings.adoc[题解]
-|❌ 动态规划。
+|❌ <<0000-26-dynamic-programming>>。
 
 |{counter:codes}
 |{leetcode_base_url}/expressive-words/[809. 情感丰富的文字^]
@@ -984,7 +984,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/largest-sum-of-averages/[813. 最大平均值和的分组^]
 |{doc_base_url}/0813-largest-sum-of-averages.adoc[题解]
-|❌ 动态规划。完全没想到是动态规划。以为是贪心算法。
+|❌ <<0000-26-dynamic-programming>>。完全没想到是动态规划。以为是贪心算法。
 
 |{counter:codes}
 |{leetcode_base_url}/binary-tree-pruning/[814. 二叉树剪枝^]
@@ -1029,7 +1029,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/binary-trees-with-factors/[823. 带因子的二叉树^]
 |{doc_base_url}/0823-binary-trees-with-factors.adoc[题解]
-|⭕️ 动态规划。斐波那契式的动态规划。子树还有子树，递归看去，就是更小规划的问题。
+|⭕️ <<0000-26-dynamic-programming>>。斐波那契式的动态规划。子树还有子树，递归看去，就是更小规划的问题。
 
 |{counter:codes}
 |{leetcode_base_url}/goat-latin/[824. 山羊拉丁文^]
@@ -1199,7 +1199,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/stone-game/[877. 石子游戏^]
 |{doc_base_url}/0877-stone-game.adoc[题解]
-|✅ 数学题或者动态规划。双方都是聪明人，每次都选剩余石堆中的最多数，那么先选的人肯定获胜。
+|✅ 数学题或者<<0000-26-dynamic-programming>>。双方都是聪明人，每次都选剩余石堆中的最多数，那么先选的人肯定获胜。
 
 |{counter:codes}
 |{leetcode_base_url}/decoded-string-at-index/[880. 索引处的解码字符串^]
@@ -1319,7 +1319,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/longest-common-subsequence/[1143. 最长公共子序列^]
 |{doc_base_url}/1143-longest-common-subsequence.adoc[题解]
-|✅ 动态规划。
+|✅ <<0000-26-dynamic-programming>>。
 
 |{counter:codes2503}
 |{leetcode_base_url}/rotting-oranges/[994. 腐烂的橘子^]
@@ -1354,7 +1354,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/partition-equal-subset-sum/[416. 分割等和子集^]
 |{doc_base_url}/0416-partition-equal-subset-sum.adoc[题解]
-|⭕️ 动态规划。0/1 背包问题。好久不做，手生了。
+|⭕️ <<0000-26-dynamic-programming>>。0/1 背包问题。好久不做，手生了。
 
 |{counter:codes2503}
 |{leetcode_base_url}/decode-string/[394. 字符串解码^]
@@ -1369,12 +1369,12 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/coin-change/[322. 零钱兑换^]
 |{doc_base_url}/0322-coin-change.adoc[题解]
-|⭕️ 动态规划。
+|⭕️ <<0000-26-dynamic-programming>>。
 
 |{counter:codes2503}
 |{leetcode_base_url}/longest-increasing-subsequence/[300. 最长递增子序列^]
 |{doc_base_url}/0300-longest-increasing-subsequence.adoc[题解]
-|⭕️ 动态规划。
+|⭕️ <<0000-26-dynamic-programming>>。
 
 |{counter:codes2503}
 |{leetcode_base_url}/find-the-duplicate-number/[287. 寻找重复数^]
@@ -1384,7 +1384,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/perfect-squares/[279. 完全平方数^]
 |{doc_base_url}/0279-perfect-squares.adoc[题解]
-|❌ 动态规划。完全背包问题。完全没想到可以用动态规划来解决。
+|❌ <<0000-26-dynamic-programming>>。完全背包问题。完全没想到可以用动态规划来解决。
 
 |{counter:codes}
 |{leetcode_base_url}/search-a-2d-matrix-ii/[240. Search a 2D Matrix II^]
@@ -1439,7 +1439,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/house-robber/[198. 打家劫舍^]
 |{doc_base_url}/0198-house-robber.adoc[题解]
-|✅ 动态规划
+|✅ <<0000-26-dynamic-programming>>
 
 |{counter:codes2503}
 |{leetcode_base_url}/rotate-array/[189. 轮转数组^]
@@ -1464,7 +1464,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/maximum-product-subarray/[152. 乘积最大子数组^]
 |{doc_base_url}/0152-maximum-product-subarray.adoc[题解]
-|✅ 动态规划。由于有正负数，所以要保存乘积的最大值和最小值，方便找出下一个更大值。
+|✅ <<0000-26-dynamic-programming>>。由于有正负数，所以要保存乘积的最大值和最小值，方便找出下一个更大值。
 
 |{counter:codes2503}
 |{leetcode_base_url}/linked-list-cycle-ii/[142. 环形链表 II^]
@@ -1474,7 +1474,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/word-break/[139. 单词拆分^]
 |{doc_base_url}/0139-word-break.adoc[题解]
-|✅ 动态规划。完全背包问题。
+|✅ <<0000-26-dynamic-programming>>。完全背包问题。
 
 |{counter:codes2503}
 |{leetcode_base_url}/copy-list-with-random-pointer/[138. 随机链表的复制^]
@@ -1565,6 +1565,11 @@ endif::[]
 |{leetcode_base_url}/set-matrix-zeroes/[73. 矩阵置零^]
 |{doc_base_url}/0073-set-matrix-zeroes.adoc[题解]
 |✅ 矩阵。
+
+|{counter:codes2503}
+|{leetcode_base_url}/edit-distance/[72. 编辑距离^]
+|{doc_base_url}/0072-edit-distance.adoc[题解]
+|✅ <<0000-26-dynamic-programming>>。
 
 |===
 

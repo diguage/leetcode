@@ -47,6 +47,8 @@ exection -> execution (插入 'u')
 
 `dp[i][j]` 代表 `word1` 中前 `i` 个字符，变换到 `word2` 中前 `j` 个字符，最短需要操作的次数。
 
+[carousel{carousel_attr}]
+====
 image::images/0072-01.png[{image_attr}]
 
 image::images/0072-02.png[{image_attr}]
@@ -60,6 +62,7 @@ image::images/0072-05.png[{image_attr}]
 image::images/0072-06.png[{image_attr}]
 
 image::images/0072-07.png[{image_attr}]
+====
 
 [[src-0072]]
 [tabs]
@@ -88,6 +91,15 @@ include::{sourcedir}/_0072_EditDistance_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0072_EditDistance_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0072_EditDistance_4.java[tag=answer]
 ----
 --
 ====
