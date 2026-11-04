@@ -1571,6 +1571,11 @@ endif::[]
 |{doc_base_url}/0072-edit-distance.adoc[题解]
 |✅ <<0000-26-dynamic-programming>>。
 
+|{counter:codes2503}
+|{leetcode_base_url}/minimum-path-sum/[64. 最小路径和^]
+|{doc_base_url}/0064-minimum-path-sum.adoc[题解]
+|✅ <<0000-26-dynamic-programming>>。每格只能从上或左到此，所以，在“上”和“左”中取最小，累加即可。直接在原有矩阵上操作，更加节省空间。
+
 |===
 
 
