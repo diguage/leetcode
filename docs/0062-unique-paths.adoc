@@ -56,14 +56,14 @@ image::images/0062-01.png[{image_attr}]
 
 [latexmath]
 ++++
-C_{n}^{m} = \frac{A_{n}^{m}}{A_{m}^{m}} = \frac{n \cdot (n-1) \cdot \cdot \cdot(n-m+1)}{m!} = \frac{n!}{m! \cdot (n-m)!} = C_{n}^{n-m}
+\mathrm{C}_{n}^{m} = \frac{A_{n}^{m}}{A_{m}^{m}} = \frac{n \cdot (n-1) \cdot \cdot \cdot(n-m+1)}{m!} = \frac{n!}{m! \cdot (n-m)!} = C_{n}^{n-m}
 ++++
 
 对于本题而言，要想到达终点，需要往下走 latexmath:[n-1] 步，往右走 latexmath:[m-1] 步，总共需要走 latexmath:[n+m-2] 步。即：
 
 [latexmath]
 ++++
-C_{m+n-2}^{m-1} = \frac{(m+n-2)!}{(m-1)! \cdot (n-1)!}
+\mathrm{C}_{m+n-2}^{m-1} = \frac{(m+n-2)!}{(m-1)! \cdot (n-1)!}
 ++++
 
 [[src-0062]]
@@ -102,6 +102,15 @@ include::{sourcedir}/_0062_UniquePaths_3.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0062_UniquePaths_4.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0062_UniquePaths_5.java[tag=answer]
 ----
 --
 ====

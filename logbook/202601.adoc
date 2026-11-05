@@ -1576,6 +1576,11 @@ endif::[]
 |{doc_base_url}/0064-minimum-path-sum.adoc[题解]
 |✅ <<0000-26-dynamic-programming>>。每格只能从上或左到此，所以，在“上”和“左”中取最小，累加即可。直接在原有矩阵上操作，更加节省空间。
 
+|{counter:codes2503}
+|{leetcode_base_url}/unique-paths/[62. 不同路径^]
+|{doc_base_url}/0062-unique-paths.adoc[题解]
+|✅ <<0000-26-dynamic-programming>>或<<0000-28-math-combinatorics>>。常规解法就是动态规划；从数学的角度来看，也是一个组合问题，可以直接使用组合公式 latexmath:[\mathrm{C}_{n}^{m} = \frac{n!}{m! \cdot (n-m)!}] 求解。
+
 |===
 
 

@@ -126,6 +126,23 @@ image::images/0812-10.png[{image_attr}]
 
 . xref:0836-rectangle-overlap.adoc[836. 矩形重叠]
 
+[#0000-28-math-combinatorics]
+=== 排列组合
+
+排列数：
+
+[stem]
+++++
+\mathrm{A}_{n}^{m} =  \frac{n!}{(n-k)!} = n(n-1)\cdots(n-k+1)
+++++
+
+组合数：
+
+[stem]
+++++
+\mathrm{C}_{n}^{m} = \binom{n}{m} = \frac{n!}{m! \cdot (n-m)!}
+++++
+
 == 经典例题
 
 . xref:0029-divide-two-integers.adoc[29. Divide Two Integers]
