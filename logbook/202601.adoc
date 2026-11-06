@@ -1064,7 +1064,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/find-and-replace-in-string/[833. 字符串中的查找与替换^]
 |{doc_base_url}/0833-find-and-replace-in-string.adoc[题解]
-|✅ 排序+合并区间。审题不仔细，起始不需要合并区间，直接筛选做替换就可以了。
+|✅ 排序+<<0000-04-merge-intervals>>。审题不仔细，起始不需要合并区间，直接筛选做替换就可以了。
 
 |{counter:codes}
 |{leetcode_base_url}/image-overlap/[835. 图像重叠^]
@@ -1329,7 +1329,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/partition-labels/[763. 划分字母区间^]
 |{doc_base_url}/0763-partition-labels.adoc[题解]
-|✅ 区间合并。
+|✅ <<0000-04-merge-intervals>>。
 
 |{counter:codes2503}
 |{leetcode_base_url}/subarray-sum-equals-k/[560. 和为 K 的子数组^]
@@ -1580,6 +1580,11 @@ endif::[]
 |{leetcode_base_url}/unique-paths/[62. 不同路径^]
 |{doc_base_url}/0062-unique-paths.adoc[题解]
 |✅ <<0000-26-dynamic-programming>>或<<0000-28-math-combinatorics>>。常规解法就是动态规划；从数学的角度来看，也是一个组合问题，可以直接使用组合公式 latexmath:[\mathrm{C}_{n}^{m} = \frac{n!}{m! \cdot (n-m)!}] 求解。
+
+|{counter:codes2503}
+|{leetcode_base_url}/merge-intervals/[56. 合并区间^]
+|{doc_base_url}/0056-merge-intervals.adoc[题解]
+|✅ <<0000-04-merge-intervals>>。对区间进行排序，然后快慢指针在当前数组上对其进行合并。
 
 |===
 

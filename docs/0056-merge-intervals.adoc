@@ -3,7 +3,7 @@
 
 https://leetcode.cn/problems/merge-intervals/[LeetCode - 56. 合并区间^]
 
-以数组 `intervals` 表示若干个区间的集合，其中单个区间为 `intervals[i] = [start~i~, end~i~]`。请你合并所有重叠的区间，并返回 _一个不重叠的区间数组，该数组需恰好覆盖输入中的所有区间_ 。
+以数组 `intervals` 表示若干个区间的集合，其中单个区间为 `intervals[i] = [start~i~, end~i~]`。请你合并所有重叠的区间，并返回 _一个不重叠的区间数组，该数组需恰好覆盖输入中的所有区间_。
 
 *示例 1：*
 
@@ -79,6 +79,15 @@ include::{sourcedir}/_0056_MergeIntervals_3.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0056_MergeIntervals_4.java[tag=answer]
+----
+--
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0056_MergeIntervals_5.java[tag=answer]
 ----
 --
 ====
