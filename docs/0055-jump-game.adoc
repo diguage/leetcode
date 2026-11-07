@@ -78,6 +78,15 @@ include::{sourcedir}/_0055_JumpGame_2.java[tag=answer]
 include::{sourcedir}/_0055_JumpGame_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0055_JumpGame_4.java[tag=answer]
+----
+--
 ====
 
 

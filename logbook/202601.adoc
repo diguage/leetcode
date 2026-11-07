@@ -128,7 +128,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-ii/[122. 买卖股票的最佳时机 II]
 |{doc_base_url}/0122-best-time-to-buy-and-sell-stock-ii.adoc[题解]
-|⭕️ <<0000-26-dynamic-programming>>。这道题更好的解法是贪心算法。这次从动态规划的角度去看这个问题：“满仓”是继承或者买入；空仓则是继承或者卖出。
+|⭕️ <<0000-26-dynamic-programming>>。这道题更好的解法是<<0000-27-greedy>>。这次从动态规划的角度去看这个问题：“满仓”是继承或者买入；空仓则是继承或者卖出。
 
 |{counter:corrections}
 |{leetcode_base_url}/best-time-to-buy-and-sell-stock-iii/[123. 买卖股票的最佳时机 III^]
@@ -188,7 +188,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/candy/[135. 分发糖果^]
 |{doc_base_url}/0135-candy.adoc[题解]
-|✅ 贪心算法。先从左向右遍历，当右边高于左边，则在左边基础上加 `1`；然后再从右向左，当左边高并且左边糖果少，则在右边基础上加 `1`。最后求和。
+|✅ <<0000-27-greedy>>。先从左向右遍历，当右边高于左边，则在左边基础上加 `1`；然后再从右向左，当左边高并且左边糖果少，则在右边基础上加 `1`。最后求和。
 
 |{counter:corrections}
 |{leetcode_base_url}/max-points-on-a-line/[149. 直线上最多的点数^]
@@ -218,7 +218,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/ipo/[502. IPO^]
 |{doc_base_url}/0502-ipo.adoc[题解]
-|⭕️ 贪心算法。每次都获取当前可以获取收益的最大值。
+|⭕️ <<0000-27-greedy>>。每次都获取当前可以获取收益的最大值。
 
 |{counter:corrections}
 |{leetcode_base_url}/rectangle-area/[223. 矩形面积^]
@@ -268,7 +268,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/wiggle-subsequence/[376. 摆动序列^]
 |{doc_base_url}/0376-wiggle-subsequence.adoc[题解]
-|❌ 贪心算法。简单概括：遇到升序序列，则从降序序列增长；如果遇到降序序列，则从升序序列增长。
+|❌ <<0000-27-greedy>>。简单概括：遇到升序序列，则从降序序列增长；如果遇到降序序列，则从升序序列增长。
 
 |{counter:codes}
 |{leetcode_base_url}/keyboard-row/[500. 键盘行^]
@@ -298,7 +298,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/super-washing-machines/[517. 超级洗衣机^]
 |{doc_base_url}/0517-super-washing-machines.adoc[题解]
-|❌ 贪心算法。一脸懵逼，还要再看看！
+|❌ <<0000-27-greedy>>。一脸懵逼，还要再看看！
 
 |{counter:codes}
 |{leetcode_base_url}/random-flip-matrix/[519. 随机翻转矩阵^]
@@ -388,7 +388,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/optimal-division/[553. 最优除法^]
 |{doc_base_url}/0553-optimal-division.adoc[题解]
-|❌ 贪心算法或者<<0000-26-dynamic-programming>>。贪心算法有点类似脑筋急转弯。
+|❌ <<0000-27-greedy>>或者<<0000-26-dynamic-programming>>。贪心算法有点类似脑筋急转弯。
 
 |{counter:codes}
 |{leetcode_base_url}/brick-wall/[554. 砖墙^]
@@ -584,7 +584,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/maximum-length-of-pair-chain/[646. 最长数对链^]
 |{doc_base_url}/0646-maximum-length-of-pair-chain.adoc[题解]
-|✅ 贪心算法。尽可能减小结尾数值，提高增加长度的可能性。
+|✅ <<0000-27-greedy>>。尽可能减小结尾数值，提高增加长度的可能性。
 
 |{counter:codes}
 |{leetcode_base_url}/2-keys-keyboard/[650. 两个键的键盘^]
@@ -959,7 +959,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/max-increase-to-keep-city-skyline/[807. 保持城市天际线^]
 |{doc_base_url}/0807-max-increase-to-keep-city-skyline.adoc[题解]
-|✅ 贪心算法。找出每行每列的最大高度，取这两个高度中的最小值，就可以得出每个节点的最大高度。
+|✅ <<0000-27-greedy>>。找出每行每列的最大高度，取这两个高度中的最小值，就可以得出每个节点的最大高度。
 
 |{counter:codes}
 |{leetcode_base_url}/soup-servings/[808. 分汤^]
@@ -1389,7 +1389,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/search-a-2d-matrix-ii/[240. Search a 2D Matrix II^]
 |{doc_base_url}/0240-search-a-2d-matrix-ii.adoc[题解]
-|✅ 贪心算法。虽然可以对每行或者每列做二分查找，但是使用贪心算法更好。
+|✅ <<0000-27-greedy>>。虽然可以对每行或者每列做二分查找，但是使用贪心算法更好。
 
 |{counter:codes2503}
 |{leetcode_base_url}/sliding-window-maximum/[239. 滑动窗口最大值^]
@@ -1585,6 +1585,11 @@ endif::[]
 |{leetcode_base_url}/merge-intervals/[56. 合并区间^]
 |{doc_base_url}/0056-merge-intervals.adoc[题解]
 |✅ <<0000-04-merge-intervals>>。对区间进行排序，然后快慢指针在当前数组上对其进行合并。
+
+|{counter:codes2503}
+|{leetcode_base_url}/jump-game/[55. 跳跃游戏^]
+|{doc_base_url}/0055-jump-game.adoc[题解]
+|✅ <<0000-27-greedy>>。记录从当前位置能到达的最远距离，如果最远距离比当前位置小就是无法到达；如果最远距离超过了数组长度，则就是可以到达。
 
 |===
 
