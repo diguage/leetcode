@@ -1,7 +1,7 @@
 [#0054-spiral-matrix]
 = 54. 螺旋矩阵
 
-https://leetcode.cn/problems/spiral-matrix/[LeetCode - 54. 螺旋矩阵 ^]
+https://leetcode.cn/problems/spiral-matrix/[LeetCode - 54. 螺旋矩阵^]
 
 给你一个 `m` 行 `n` 列的矩阵 `matrix` ，请按照 *顺时针螺旋顺序*，返回矩阵中的所有元素。
 
@@ -63,6 +63,15 @@ include::{sourcedir}/_0054_SpiralMatrix_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0054_SpiralMatrix_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0054_SpiralMatrix_4.java[tag=answer]
 ----
 --
 ====
