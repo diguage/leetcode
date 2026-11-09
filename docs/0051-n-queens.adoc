@@ -1,35 +1,41 @@
 [#0051-n-queens]
-= 51. N-Queens
+= 51. N 皇后
 
-{leetcode}/problems/n-queens/[LeetCode - N-Queens^]
+https://leetcode.cn/problems/n-queens/[LeetCode - 51. N 皇后^]
 
-The *__n__-queens* puzzle is the problem of placing *n* queens on an *n×n* chessboard such that no two queens attack each other.
+按照国际象棋的规则，皇后可以攻击与之处在同一行或同一列或同一斜线上的棋子。
+
+*N 皇后问题* 研究的是如何将 `n` 个皇后放置在 `n×n` 的棋盘上，并且使皇后彼此之间不能相互攻击。
+
+给你一个整数 `n` ，返回所有不同的 *N 皇后问题* 的解决方案。
+
+每一种解法包含一个不同的 *N 皇后问题* 的棋子放置方案，该方案中 `Q` 和 `.` 分别代表了皇后和空位。
+
+*示例 1：*
+
+image::images/0051-00.jpg[{image_attr}]
 
 image::images/0051-00.png[{image_attr}]
 
-Given an integer **n**, return all distinct solutions to the *__n__-queens* puzzle.
+....
+输入：n = 4
+输出：[[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...Q",".Q.."]]
+解释：如上图所示，4 皇后问题存在两个不同的解法。
+....
 
-Each solution contains a distinct board configuration of the **__n__-queens**' placement, where `Q` and `.` both indicate a queen and an empty space respectively.
+*示例 2：*
 
-.Example:
-----
-Input: 4
-Output: [
- [".Q..",  // Solution 1
-  "...Q",
-  "Q...",
-  "..Q."],
+....
+输入：n = 1
+输出：[["Q"]]
+....
 
- ["..Q.",  // Solution 2
-  "Q...",
-  "...Q",
-  ".Q.."]
- ]
+*提示：*
 
-Explanation: There exist two distinct solutions to the 4-queens puzzle as shown above.
-----
+* `+1 <= n <= 9+`
 
-== 解题分析
+
+== 思路分析
 
 八皇后问题是回溯思想的经典题目。
 
@@ -50,20 +56,39 @@ image::images/0051-02.png[{image_attr}]
 image::images/0051-03.png[{image_attr}]
 
 [[src-0051]]
+[tabs]
+====
+一刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0051_NQueens.java[tag=answer]
 ----
+--
 
-第二次自己实现，没有使用反转，感觉更容易理解。
-
+二刷::
++
+--
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0051_NQueens_2.java[tag=answer]
 ----
+--
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0051_NQueens_3.java[tag=answer]
+----
+--
+====
 
 == 参考资料
 
+. https://leetcode.cn/problems/n-queens/solutions/2079586/hui-su-tao-lu-miao-sha-nhuang-hou-shi-pi-mljv/[51. N 皇后 - 排列型回溯，简洁高效！^]
 . https://leetcode.cn/problems/n-queens/solutions/398929/nhuang-hou-by-leetcode-solution/[51. N 皇后 - 官方题解^]
 . https://leetcode.cn/problems/n-queens/solutions/2566744/dai-ma-sui-xiang-lu-leetcode51nhuang-hou-hcat/[51. N 皇后 - 代码随想录^]
 

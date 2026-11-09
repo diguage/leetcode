@@ -58,7 +58,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/minimum-moves-to-spread-stones-over-grid/[2850. 将石头分散到网格图的最少移动次数^]
 |{doc_base_url}/2850-minimum-moves-to-spread-stones-over-grid.adoc[题解]
-|❌ 回溯。先找出波峰波谷节点，然后对波峰做全排列，针对每个排列与波谷求移动距离，最后取最小值。
+|❌ <<0000-24-backtrack>>。先找出波峰波谷节点，然后对波峰做全排列，针对每个排列与波谷求移动距离，最后取最小值。
 
 |{counter:corrections}
 |{leetcode_base_url}/substring-with-concatenation-of-all-words/[30. 串联所有单词的子串^]
@@ -93,7 +93,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/sudoku-solver/[37. 解数独^]
 |{doc_base_url}/0037-sudoku-solver.adoc[题解]
-|⭕️ 回溯。有思路，没写出来。看来回溯还是得多练啊！
+|⭕️ <<0000-24-backtrack>>。有思路，没写出来。看来回溯还是得多练啊！
 
 |{counter:corrections}
 |{leetcode_base_url}/basic-calculator/[224. 基本计算器^]
@@ -153,7 +153,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/shortest-string-that-contains-three-strings/[2800. 包含三个字符串的最短字符串^]
 |{doc_base_url}/2800-shortest-string-that-contains-three-strings.adoc[题解]
-|❌ 回溯。先回溯，找出所有排列；然后，再将每个组合合并成字符串。这个过程中，会有两种“包含”关系，出现即返回长字符串。没有包含关系，就判断一个字符串前缀是否是另外一个字符串的结尾。
+|❌ <<0000-24-backtrack>>。先回溯，找出所有排列；然后，再将每个组合合并成字符串。这个过程中，会有两种“包含”关系，出现即返回长字符串。没有包含关系，就判断一个字符串前缀是否是另外一个字符串的结尾。
 
 |{counter:corrections}
 |{leetcode_base_url}/maximum-sum-circular-subarray/[918. 环形子数组的最大和^]
@@ -203,7 +203,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/word-search-ii/[212. 单词搜索 II^]
 |{doc_base_url}/0212-word-search-ii.adoc[题解]
-|✅ 前缀树+回溯。只用回溯超时。前缀树+回溯，通过测试。
+|✅ 前缀树+<<0000-24-backtrack>>。只用回溯超时。前缀树+回溯，通过测试。
 
 |{counter:corrections}
 |{leetcode_base_url}/evaluate-division/[399. 除法求值^]
@@ -689,7 +689,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/24-game/[679. 24 点游戏^]
 |{doc_base_url}/0679-24-game.adoc[题解]
-|❌ 回溯。想到了回溯，没想到该怎么实现，题解中通过抽取两个数做计算来规避了“括号”的处理，非常优雅。
+|❌ <<0000-24-backtrack>>。想到了回溯，没想到该怎么实现，题解中通过抽取两个数做计算来规避了“括号”的处理，非常优雅。
 
 |{counter:codes}
 |{leetcode_base_url}/valid-palindrome-ii/[680. 验证回文串 II^]
@@ -889,7 +889,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/letter-case-permutation/[784. 字母大小写全排列^]
 |{doc_base_url}/0784-letter-case-permutation.adoc[题解]
-|✅ 回溯。在遇到数字时，继续前进；遇到字母时，分别对大小写进行尝试。
+|✅ <<0000-24-backtrack>>。在遇到数字时，继续前进；遇到字母时，分别对大小写进行尝试。
 
 |{counter:codes}
 |{leetcode_base_url}/is-graph-bipartite/[785. 判断二分图^]
@@ -1099,7 +1099,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/split-array-into-fibonacci-sequence/[842. 将数组拆分成斐波那契序列^]
 |{doc_base_url}/0842-split-array-into-fibonacci-sequence.adoc[题解]
-|✅ 回溯。将字符串分割成数字，逐个检查是否可以组成斐波那契数列，不符合要求就回溯。
+|✅ <<0000-24-backtrack>>。将字符串分割成数字，逐个检查是否可以组成斐波那契数列，不符合要求就回溯。
 
 |{counter:codes}
 |{leetcode_base_url}/backspace-string-compare/[844. 比较含退格的字符串^]
@@ -1344,7 +1344,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/path-sum-iii/[437. 路径总和 III^]
 |{doc_base_url}/0437-path-sum-iii.adoc[题解]
-|✅ 回溯+前缀和。
+|✅ <<0000-24-backtrack>>+前缀和。
 
 |{counter:codes2503}
 |{leetcode_base_url}/diameter-of-binary-tree/[543. 二叉树的直径^]
@@ -1484,7 +1484,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/palindrome-partitioning/[131. 分割回文串^]
 |{doc_base_url}/0131-palindrome-partitioning.adoc[题解]
-|✅ 回溯。
+|✅ <<0000-24-backtrack>>。
 
 |{counter:codes2601}
 |{leetcode_base_url}/longest-consecutive-sequence/[128. 最长连续序列^]
@@ -1595,6 +1595,11 @@ endif::[]
 |{leetcode_base_url}/spiral-matrix/[54. 螺旋矩阵^]
 |{doc_base_url}/0054-spiral-matrix.adoc[题解]
 |✅ <<0000-15-breadth-first-search>>。使用递归来推进层级。在“上”和“右”能覆盖“全部”（比如一行多列或者多行一列）时，才能在“下”之前根据长度返回。
+
+|{counter:codes}
+|{leetcode_base_url}/n-queens/[51. N 皇后^]
+|{doc_base_url}/0051-n-queens.adoc[题解]
+|⭕️ <<0000-24-backtrack>>。思路有，细节处理上还是不到位。
 
 |===
 
