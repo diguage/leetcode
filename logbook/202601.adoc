@@ -1601,6 +1601,11 @@ endif::[]
 |{doc_base_url}/0051-n-queens.adoc[题解]
 |⭕️ <<0000-24-backtrack>>。思路有，细节处理上还是不到位。
 
+|{counter:codes2503}
+|{leetcode_base_url}/group-anagrams/[49. 字母异位词分组^]
+|{doc_base_url}/0049-group-anagrams.adoc[题解]
+|✅ 使用 `Map` 存字符和数量即可。
+
 |===
 
 

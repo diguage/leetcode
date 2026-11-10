@@ -59,9 +59,20 @@ include::{sourcedir}/_0049_GroupAnagrams.java[tag=answer]
 include::{sourcedir}/_0049_GroupAnagrams_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0049_GroupAnagrams_3.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
+. https://leetcode.cn/problems/group-anagrams/solutions/520469/zi-mu-yi-wei-ci-fen-zu-by-leetcode-solut-gyoc/[49. 字母异位词分组 - 官方题解^]
+. https://leetcode.cn/problems/group-anagrams/solutions/2718519/ha-xi-biao-fen-zu-jian-ji-xie-fa-pythonj-1ukv/[49. 字母异位词分组 - 哈希表分组，简洁写法^]
 
