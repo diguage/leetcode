@@ -1,7 +1,7 @@
 [#0048-rotate-image]
 = 48. 旋转图像
 
-https://leetcode.cn/problems/rotate-image/[LeetCode - 48. 旋转图像 ^]
+https://leetcode.cn/problems/rotate-image/[LeetCode - 48. 旋转图像^]
 
 给定一个 `n×n` 的二维矩阵 `matrix` 表示一个图像。请你将图像顺时针旋转 90 度。
 
@@ -44,6 +44,38 @@ image::images/0048-03.png[{image_attr}]
 
 image::images/0048-04.png[{image_attr}]
 
+
+[carousel{carousel_attr}]
+====
+image::images/0048-11.png[{image_attr}]
+
+image::images/0048-12.png[{image_attr}]
+
+image::images/0048-13.png[{image_attr}]
+
+image::images/0048-14.png[{image_attr}]
+
+image::images/0048-15.png[{image_attr}]
+
+image::images/0048-16.png[{image_attr}]
+
+image::images/0048-17.png[{image_attr}]
+
+image::images/0048-18.png[{image_attr}]
+
+image::images/0048-19.png[{image_attr}]
+
+image::images/0048-20.png[{image_attr}]
+
+image::images/0048-21.png[{image_attr}]
+
+image::images/0048-22.png[{image_attr}]
+
+image::images/0048-23.png[{image_attr}]
+
+image::images/0048-24.png[{image_attr}]
+====
+
 下面辅助矩阵的方案也不错：
 
 image::images/0048-05.png[{image_attr}]
@@ -77,6 +109,15 @@ include::{sourcedir}/_0048_RotateImage_2.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0048_RotateImage_3.java[tag=answer]
+----
+--
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0048_RotateImage_4.java[tag=answer]
 ----
 --
 ====
