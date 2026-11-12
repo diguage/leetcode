@@ -83,6 +83,15 @@ include::{sourcedir}/_0046_Permutations_4.java[tag=answer]
 include::{sourcedir}/_0046_Permutations_5.java[tag=answer]
 ----
 --
+
+六刷（子集）::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0046_Permutations_6.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
