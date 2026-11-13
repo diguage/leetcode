@@ -1,7 +1,7 @@
 [#0045-jump-game-ii]
 = 45. 跳跃游戏 II
 
-https://leetcode.cn/problems/jump-game-ii/[LeetCode - 45. 跳跃游戏 II ^]
+https://leetcode.cn/problems/jump-game-ii/[LeetCode - 45. 跳跃游戏 II^]
 
 给定一个长度为 `n` 的 **0 索引**整数数组 `nums`。初始位置为 `+nums[0]+`。
 
@@ -69,9 +69,20 @@ include::{sourcedir}/_0045_JumpGameIi_2.java[tag=answer]
 include::{sourcedir}/_0045_JumpGameIi_20.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0045_JumpGameIi_3.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
-
+. https://leetcode.cn/problems/jump-game-ii/solutions/9347/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-10/[45. 跳跃游戏 II - 详细通俗的思路分析，多解法^]
+. https://leetcode.cn/problems/jump-game-ii/solutions/2926993/tu-jie-yi-zhang-tu-miao-dong-tiao-yue-yo-h2d4/[45. 跳跃游戏 II - 一张图秒懂跳跃游戏！^]
+. https://leetcode.cn/problems/jump-game-ii/solutions/230241/tiao-yue-you-xi-ii-by-leetcode-solution/[45. 跳跃游戏 II - 官方题解^]
