@@ -303,7 +303,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/random-flip-matrix/[519. 随机翻转矩阵^]
 |{doc_base_url}/0519-random-flip-matrix.adoc[题解]
-|⭕️ 双指针。由于数字太大，无法保存所有的坐标点，所以构建未使用的坐标点，然后再删除行不通。反过来，记录已经使用的点，随机生成的坐标如果已经翻转，则向两边扩散，这样就可以保存更少的坐标，就能满足内存要求了。
+|⭕️ <<0000-07-two-pointer>>。由于数字太大，无法保存所有的坐标点，所以构建未使用的坐标点，然后再删除行不通。反过来，记录已经使用的点，随机生成的坐标如果已经翻转，则向两边扩散，这样就可以保存更少的坐标，就能满足内存要求了。
 
 |{counter:codes}
 |{leetcode_base_url}/detect-capital/[520. 检测大写字母^]
@@ -343,7 +343,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/k-diff-pairs-in-an-array/[532. 数组中的 k-diff 数对^]
 |{doc_base_url}/0532-k-diff-pairs-in-an-array.adoc[题解]
-|✅ 哈希或双指针。最初想法是暴力破解，看题解可以用哈希加快处理速度。
+|✅ 哈希或<<0000-07-two-pointer>>。最初想法是暴力破解，看题解可以用哈希加快处理速度。
 
 |{counter:codes}
 |{leetcode_base_url}/encode-and-decode-tinyurl/[535. TinyURL 的加密与解密^]
@@ -398,12 +398,12 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/next-greater-element-iii/[556. 下一个更大元素 III^]
 |{doc_base_url}/0556-next-greater-element-iii.adoc[题解]
-|✅ 双指针。利用了 {doc_base_url}/0031-next-permutation.adoc[31. 下一个排列] 的思路。
+|✅ <<0000-07-two-pointer>>。利用了 {doc_base_url}/0031-next-permutation.adoc[31. 下一个排列] 的思路。
 
 |{counter:codes}
 |{leetcode_base_url}/reverse-words-in-a-string-iii/[557. 反转字符串中的单词 III^]
 |{doc_base_url}/0557-reverse-words-in-a-string-iii.adoc[题解]
-|✅ 双指针。简单的翻转。
+|✅ <<0000-07-two-pointer>>。简单的翻转。
 
 |{counter:codes}
 |{leetcode_base_url}/logical-or-of-two-binary-grids-represented-as-quad-trees/[558. 四叉树交集^]
@@ -519,7 +519,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/valid-triangle-number/[611. 有效三角形的个数^]
 |{doc_base_url}/0611-valid-triangle-number.adoc[题解]
-|✅ <<0000-03-modified-binary-search>>或双指针。直接简单暴力破解了。更好的办法是二分查找或者双指针。
+|✅ <<0000-03-modified-binary-search>>或<<0000-07-two-pointer>>。直接简单暴力破解了。更好的办法是二分查找或者双指针。
 
 |{counter:codes}
 |{leetcode_base_url}/design-circular-queue/[622. 设计循环队列^]
@@ -614,7 +614,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/find-k-closest-elements/[658. 找到 K 个最接近的元素^]
 |{doc_base_url}/0658-find-k-closest-elements.adoc[题解]
-|✅ <<0000-03-modified-binary-search>>或双指针或排序。可以通过二分查找，找到边界，然后向两边扩充。也可以直接按照接近因子算法，进行直接排序。
+|✅ <<0000-03-modified-binary-search>>或<<0000-07-two-pointer>>或排序。可以通过二分查找，找到边界，然后向两边扩充。也可以直接按照接近因子算法，进行直接排序。
 
 |{counter:codes}
 |{leetcode_base_url}/split-array-into-consecutive-subsequences/[659. 分割数组为连续子序列^]
@@ -744,7 +744,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/count-binary-substrings/[696. 计数二进制子串^]
 |{doc_base_url}/0696-count-binary-substrings.adoc[题解]
-|❌ 双指针。统计每段相同数字的长度，跟前段相比，取最小值。
+|❌ <<0000-07-two-pointer>>。统计每段相同数字的长度，跟前段相比，取最小值。
 
 |{counter:codes}
 |{leetcode_base_url}/kth-largest-element-in-a-stream/[703. 数据流中的第 K 大元素^]
@@ -874,7 +874,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/swap-adjacent-in-lr-string/[777. 在LR字符串中交换相邻字符^]
 |{doc_base_url}/0777-swap-adjacent-in-lr-string.adoc[题解]
-|❌ 双指针。以为可以用双向 BFS，完全没想到竟然是双指针。
+|❌ <<0000-07-two-pointer>>。以为可以用双向 BFS，完全没想到竟然是双指针。
 
 |{counter:codes}
 |{leetcode_base_url}/k-th-symbol-in-grammar/[779. 第K个语法符号^]
@@ -929,7 +929,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/number-of-subarrays-with-bounded-maximum/[795. 区间子数组个数^]
 |{doc_base_url}/0795-number-of-subarrays-with-bounded-maximum.adoc[题解]
-|❌ 双指针。看答案也一脸懵逼！
+|❌ <<0000-07-two-pointer>>。看答案也一脸懵逼！
 
 |{counter:codes}
 |{leetcode_base_url}/all-paths-from-source-to-target/[797. 所有可能的路径^]
@@ -969,7 +969,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/expressive-words/[809. 情感丰富的文字^]
 |{doc_base_url}/0809-expressive-words.adoc[题解]
-|✅ 双指针。依次统计每个单词中每个字母的数量，然后再比较字母和单词数量。
+|✅ <<0000-07-two-pointer>>。依次统计每个单词中每个字母的数量，然后再比较字母和单词数量。
 
 |{counter:codes}
 |{leetcode_base_url}/subdomain-visit-count/[811. 子域名访问计数^]
@@ -1014,7 +1014,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/shortest-distance-to-a-character/[821. 字符的最短距离^]
 |{doc_base_url}/0821-shortest-distance-to-a-character.adoc[题解]
-|❌ 双指针。分别从前向后和从后向前遍历。
+|❌ <<0000-07-two-pointer>>。分别从前向后和从后向前遍历。
 
 |{counter:codes}
 |{leetcode_base_url}/short-encoding-of-words/[820. 单词的压缩编码^]
@@ -1044,7 +1044,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/most-profit-assigning-work/[826. 安排工作以达到最大收益^]
 |{doc_base_url}/0826-most-profit-assigning-work.adoc[题解]
-|✅ 排序+双指针。对入参排序，优先获取获利最大的工作，累加即可。有点蒙对的感觉。不如题解更有说服力。
+|✅ 排序+<<0000-07-two-pointer>>。对入参排序，优先获取获利最大的工作，累加即可。有点蒙对的感觉。不如题解更有说服力。
 
 |{counter:codes}
 |{leetcode_base_url}/positions-of-large-groups/[830. 较大分组的位置^]
@@ -1059,7 +1059,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/flipping-an-image/[832. 翻转图像^]
 |{doc_base_url}/0832-flipping-an-image.adoc[题解]
-|✅ 双指针。简单的矩阵遍历。
+|✅ <<0000-07-two-pointer>>。简单的矩阵遍历。
 
 |{counter:codes}
 |{leetcode_base_url}/find-and-replace-in-string/[833. 字符串中的查找与替换^]
@@ -1089,7 +1089,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/push-dominoes/[838. 推多米诺^]
 |{doc_base_url}/0838-push-dominoes.adoc[题解]
-|❌ 双指针。分类讨论。
+|❌ <<0000-07-two-pointer>>。分类讨论。
 
 |{counter:codes}
 |{leetcode_base_url}/magic-squares-in-grid/[840. 矩阵中的幻方^]
@@ -1104,12 +1104,12 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/backspace-string-compare/[844. 比较含退格的字符串^]
 |{doc_base_url}/0844-backspace-string-compare.adoc[题解]
-|✅ 双指针。从后向前比较：如果双方都是字母，则直接比较；否则将不是字母的下标向前推进到字母或者结束为止。
+|✅ <<0000-07-two-pointer>>。从后向前比较：如果双方都是字母，则直接比较；否则将不是字母的下标向前推进到字母或者结束为止。
 
 |{counter:codes}
 |{leetcode_base_url}/longest-mountain-in-array/[845. 数组中的最长山脉^]
 |{doc_base_url}/0845-longest-mountain-in-array.adoc[题解]
-|✅ 双指针。从前向后遍历，统计递增长度，拐点后，统计递降长度。如果遇到相等或者递降拐点成递增，则从头开始。这个过程，即可统计长度，也可以记录两端山脚的索引。
+|✅ <<0000-07-two-pointer>>。从前向后遍历，统计递增长度，拐点后，统计递降长度。如果遇到相等或者递降拐点成递增，则从头开始。这个过程，即可统计长度，也可以记录两端山脚的索引。
 
 |{counter:codes}
 |{leetcode_base_url}/hand-of-straights/[846. 一手顺子^]
@@ -1124,7 +1124,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/maximize-distance-to-closest-person/[849. 到最近的人的最大距离^]
 |{doc_base_url}/0849-maximize-distance-to-closest-person.adoc[题解]
-|✅ 双指针。更优越的解法，一次遍历，使用双指针求距离。
+|✅ <<0000-07-two-pointer>>。更优越的解法，一次遍历，使用双指针求距离。
 
 |{counter:codes}
 |{leetcode_base_url}/loud-and-rich/[851. 喧闹和富有^]
@@ -1179,7 +1179,7 @@ endif::[]
 |{counter:codes}
 |{leetcode_base_url}/binary-gap/[868. 二进制间距^]
 |{doc_base_url}/0868-binary-gap.adoc[题解]
-|✅ 数学，位运算，双指针。记录上一个 `1`，寻找下一个 `1`，然后计算两者的距离。
+|✅ 数学，位运算，<<0000-07-two-pointer>>。记录上一个 `1`，寻找下一个 `1`，然后计算两者的距离。
 
 |{counter:codes}
 |{leetcode_base_url}/leaf-similar-trees/[872. 叶子相似的树^]
@@ -1444,7 +1444,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/rotate-array/[189. 轮转数组^]
 |{doc_base_url}/0189-rotate-array.adoc[题解]
-|✅ 双指针。也有一些技巧：AB → rev(A)rev(B) → rev(rev(A)rev(B)) → BA。
+|✅ <<0000-07-two-pointer>>。也有一些技巧：AB → rev(A)rev(B) → rev(rev(A)rev(B)) → BA。
 
 |{counter:codes2503}
 |{leetcode_base_url}/majority-element/[169. 多数元素^]
@@ -1469,7 +1469,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/linked-list-cycle-ii/[142. 环形链表 II^]
 |{doc_base_url}/0142-linked-list-cycle-ii.adoc[题解]
-|✅ 双指针+数学
+|✅ <<0000-07-two-pointer>>+数学
 
 |{counter:codes2503}
 |{leetcode_base_url}/word-break/[139. 单词拆分^]
@@ -1620,6 +1620,11 @@ endif::[]
 |{leetcode_base_url}/jump-game-ii/[45. 跳跃游戏 II^]
 |{doc_base_url}/0045-jump-game-ii.adoc[题解]
 |✅ <<0000-26-dynamic-programming>>或<<0000-27-greedy>>。
+
+|{counter:codes}
+|{leetcode_base_url}/trapping-rain-water/[42. Trapping Rain Water^]
+|{doc_base_url}/0042-trapping-rain-water.adoc[题解]
+|✅ <<0000-07-two-pointer>>
 
 |===
 

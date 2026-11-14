@@ -108,6 +108,15 @@ include::{sourcedir}/_0042_TrappingRainWater_5.java[tag=answer]
 include::{sourcedir}/_0042_TrappingRainWater_6.java[tag=answer]
 ----
 --
+
+七刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0042_TrappingRainWater_7.java[tag=answer]
+----
+--
 ====
 
 
