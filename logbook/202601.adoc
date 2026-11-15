@@ -1379,7 +1379,7 @@ endif::[]
 |{counter:codes2503}
 |{leetcode_base_url}/find-the-duplicate-number/[287. 寻找重复数^]
 |{doc_base_url}/0287-find-the-duplicate-number.adoc[题解]
-|✅ 循环排序。
+|✅ <<0000-05-cyclic-sort>>。
 
 |{counter:codes2503}
 |{leetcode_base_url}/perfect-squares/[279. 完全平方数^]
@@ -1625,6 +1625,11 @@ endif::[]
 |{leetcode_base_url}/trapping-rain-water/[42. Trapping Rain Water^]
 |{doc_base_url}/0042-trapping-rain-water.adoc[题解]
 |✅ <<0000-07-two-pointer>>
+
+|{counter:codes2503}
+|{leetcode_base_url}/first-missing-positive/[41. 缺失的第一个正数^]
+|{doc_base_url}/0041-first-missing-positive.adoc[题解]
+|✅ <<0000-05-cyclic-sort>>。依次检查每个坐标上面是不是对应的数字，不是就交换。最后顺序检查一遍，不是就是空缺的数字，或者数组长度加一。
 
 |===
 
