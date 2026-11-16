@@ -1631,6 +1631,11 @@ endif::[]
 |{doc_base_url}/0041-first-missing-positive.adoc[题解]
 |✅ <<0000-05-cyclic-sort>>。依次检查每个坐标上面是不是对应的数字，不是就交换。最后顺序检查一遍，不是就是空缺的数字，或者数组长度加一。
 
+|{counter:codes2503}
+|{leetcode_base_url}/combination-sum/[39. 组合总和^]
+|{doc_base_url}/0039-combination-sum.adoc[题解]
+|✅ <<0000-24-backtrack>>。注意剪枝技巧。
+
 |===
 
 
