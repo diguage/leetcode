@@ -1636,6 +1636,11 @@ endif::[]
 |{doc_base_url}/0039-combination-sum.adoc[题解]
 |✅ <<0000-24-backtrack>>。注意剪枝技巧。
 
+|{counter:codes2503}
+|{leetcode_base_url}/search-insert-position/[35. 搜索插入位置^]
+|{doc_base_url}/0035-search-insert-position.adoc[题解]
+|✅ <<0000-03-modified-binary-search>>。主要学习二分查找的各种变种解法。解答中提到“在找到 target 就立刻返回”，这种写法适用范围很窄，多思考体会一下。
+
 |===
 
 
