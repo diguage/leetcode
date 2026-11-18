@@ -84,6 +84,15 @@ include::{sourcedir}/_0034_FindFirstAndLastPositionOfElementInSortedArray_3.java
 include::{sourcedir}/_0034_FindFirstAndLastPositionOfElementInSortedArray_4.java[tag=answer]
 ----
 --
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0034_FindFirstAndLastPositionOfElementInSortedArray_5.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
