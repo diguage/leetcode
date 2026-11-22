@@ -1656,6 +1656,11 @@ endif::[]
 |{doc_base_url}/0032-longest-valid-parentheses.adoc[题解]
 |✅ <<0000-data-structure-stack>>。也可以用<<0000-26-dynamic-programming>>。
 
+|{counter:codes2503}
+|{leetcode_base_url}/next-permutation/[31. 下一个排列^]
+|{doc_base_url}/0031-next-permutation.adoc[题解]
+|❌ <<0000-07-two-pointer>>。有大概思路，但是细节没有把握住。
+
 |===
 
 

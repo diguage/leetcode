@@ -56,6 +56,8 @@ https://leetcode.cn/problems/next-permutation/[LeetCode - 31. 下一个排列^]
 . 可以断定这时 `[j,end)` 必然是降序，逆置 `[j,end)`，使其升序
 . 如果在步骤 1 找不到符合的相邻元素对，说明当前 `[begin,end)` 为一个降序顺序，则直接跳到步骤 4
 
+[carousel{carousel_attr}]
+====
 image::images/0031-01.png[{image_attr}]
 
 image::images/0031-02.png[{image_attr}]
@@ -67,6 +69,7 @@ image::images/0031-04.png[{image_attr}]
 image::images/0031-05.png[{image_attr}]
 
 image::images/0031-06.png[{image_attr}]
+====
 
 [[src-0031]]
 [tabs]
@@ -104,6 +107,15 @@ include::{sourcedir}/_0031_NextPermutation_3.java[tag=answer]
 [{java_src_attr}]
 ----
 include::{sourcedir}/_0031_NextPermutation_4.java[tag=answer]
+----
+--
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0031_NextPermutation_5.java[tag=answer]
 ----
 --
 ====

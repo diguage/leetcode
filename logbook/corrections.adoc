@@ -116,7 +116,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/next-permutation/[31. 下一个排列^]
 |{doc_base_url}/0031-next-permutation.adoc[题解]
-|❌ ❌ ❌ ⭕️
+|❌ ❌ ❌ ⭕️ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/rotate-array/[189. 轮转数组^]
