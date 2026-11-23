@@ -1661,6 +1661,11 @@ endif::[]
 |{doc_base_url}/0031-next-permutation.adoc[题解]
 |❌ <<0000-07-two-pointer>>。有大概思路，但是细节没有把握住。
 
+|{counter:codes2503}
+|{leetcode_base_url}/reverse-nodes-in-k-group/[25. K 个一组翻转链表^]
+|{doc_base_url}/0025-reverse-nodes-in-k-group.adoc[题解]
+|✅ <<0000-data-structure-list>>。从头开始遍历，内层遍历有 K 个元素就反转，否则就直接接上。
+
 |===
 
 
