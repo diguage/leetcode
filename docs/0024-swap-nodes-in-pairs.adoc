@@ -69,11 +69,20 @@ include::{sourcedir}/_0024_SwapNodesInPairs_2.java[tag=answer]
 include::{sourcedir}/_0024_SwapNodesInPairs_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0024_SwapNodesInPairs_4.java[tag=answer]
+----
+--
 ====
 
 == 思考题
 
-尝试使用递归来实现一下。
+尝试使用递归来实现一下。✅
 
 == 参考资料
 
