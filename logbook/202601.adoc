@@ -1671,6 +1671,11 @@ endif::[]
 |{doc_base_url}/0024-swap-nodes-in-pairs.adoc[题解]
 |✅ <<0000-data-structure-list>>。增加虚拟节点，极大简化代码。
 
+|{counter:codes2503}
+|{leetcode_base_url}/merge-k-sorted-lists/[23. 合并 K 个升序链表^]
+|{doc_base_url}/0023-merge-k-sorted-lists.adoc[题解]
+|✅ <<0000-13-k-way-merge>>。
+
 |===
 
 

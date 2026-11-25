@@ -89,6 +89,15 @@ include::{sourcedir}/_0023_MergeKSortedLists_3.java[tag=answer]
 include::{sourcedir}/_0023_MergeKSortedLists_4.java[tag=answer]
 ----
 --
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0023_MergeKSortedLists_5.java[tag=answer]
+----
+--
 ====
 
 == 参考资料
