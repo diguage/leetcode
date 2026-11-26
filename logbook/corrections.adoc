@@ -526,7 +526,7 @@ endif::[]
 |{counter:corrections}
 |{leetcode_base_url}/generate-parentheses/[22. 括号生成^]
 |{doc_base_url}/0022-generate-parentheses.adoc[题解]
-|✅ ✅ ❌
+|✅ ✅ ❌ ❌
 
 |{counter:corrections}
 |{leetcode_base_url}/median-of-two-sorted-arrays/[4. 寻找两个正序数组的中位数^]

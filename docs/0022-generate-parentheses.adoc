@@ -76,6 +76,15 @@ include::{sourcedir}/_0022_GenerateParentheses_3.java[tag=answer]
 include::{sourcedir}/_0022_GenerateParentheses_4.java[tag=answer]
 ----
 --
+
+五刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0022_GenerateParentheses_5.java[tag=answer]
+----
+--
 ====
 
 == 思考题
