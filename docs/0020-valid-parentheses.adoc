@@ -83,6 +83,15 @@ include::{sourcedir}/_0020_ValidParentheses_2.java[tag=answer]
 include::{sourcedir}/_0020_ValidParentheses_3.java[tag=answer]
 ----
 --
+
+四刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0020_ValidParentheses_4.java[tag=answer]
+----
+--
 ====
 
 
