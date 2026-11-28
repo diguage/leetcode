@@ -65,9 +65,19 @@ include::{sourcedir}/_0019_RemoveNthNodeFromEndOfList.java[tag=answer]
 include::{sourcedir}/_0019_RemoveNthNodeFromEndOfList_2.java[tag=answer]
 ----
 --
+
+三刷::
++
+--
+[{java_src_attr}]
+----
+include::{sourcedir}/_0019_RemoveNthNodeFromEndOfList_3.java[tag=answer]
+----
+--
 ====
 
 
 == 参考资料
 
-. https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-by-l/[删除链表的倒数第N个节点 - 删除链表的倒数第N个节点 - 力扣（LeetCode）^]
+. https://leetcode.cn/problems/remove-nth-node-from-end-of-list/solutions/450350/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-b-61/[19. 删除链表的倒数第 N 个结点 - 官方题解^]
+. https://leetcode.cn/problems/remove-nth-node-from-end-of-list/solutions/2004057/ru-he-shan-chu-jie-dian-liu-fen-zhong-ga-xpfs/[19. 删除链表的倒数第 N 个结点 - 前后指针，简洁写法^]
